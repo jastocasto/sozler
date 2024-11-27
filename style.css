@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@300&display=swap');
+
+body {
+    margin: 0;
+    overflow: hidden; /* Hides scrollbars for the entire page */
+    display: flex;
+    background-color: #f0f0f0;
+}
+
+#left-section {
+    width: 25vw;
+    height: 98vh;
+    background-color: #333333;
+    color: white;
+    padding: 20px;
+    position: absolute;
+    top: 1vh;
+    left: 1vw;
+    border-radius: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto; /* Enables vertical scrolling */
+    overflow-x: hidden; /* Prevents horizontal overflow */
+    scrollbar-width: none; /* Hides scrollbars in Firefox */
+}
+
+#left-section::-webkit-scrollbar {
+    display: none; /* Hides scrollbars in WebKit browsers (Chrome, Safari) */
+}
+
+#main-section {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden; /* Prevents scrollbars in the main section */
+}
+
+h1 {
+    font-family: 'Spectral', serif;
+    font-weight: 300;
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: white;
+    text-align: center;
+}
+
+.pill {
+    display: inline-block;
+    padding: 4px 8px;
+    margin: 4px;
+    border-radius: 25px;
+    font-family: 'Spectral', serif;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.blue-pill {
+    background-color: #4169E1;
+    color: white;
+}
+
+.green-pill {
+    background-color: #5ccf7a;
+    color: white;
+}
+
+.red-pill {
+    background-color: #e35252;
+    color: white;
+}
+
+.yellow-pill {
+    background-color: #e3c352;
+    color: white;
+}
+
+.purple-pill {
+    background-color: #9b52e3;
+    color: white;
+}
+
+.orange-pill {
+    background-color: #e39852;
+    color: white;
+    display: block; /* Use block to make each pill occupy its own line */
+    padding: 8px 12px; /* Add padding for a better appearance */
+    margin: 8px 0; /* Vertical margin to separate the pills */
+    border-radius: 10px; /* Rounded corners for rectangle */
+    font-family: 'Spectral', serif;
+    cursor: pointer;
+    font-size: 16px; /* Slightly larger text for readability */
+    text-align: left; /* Align text to the left for better readability */
+    white-space: normal; /* Allow text to wrap if it's too long */
+    overflow: hidden; /* Ensure no unwanted overflow */
+    box-sizing: border-box;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #333333;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-family: 'Spectral', serif;
+    font-size: 18px;
+    text-align: center;
+    outline: none;
+}
+
+.category-header {
+    font-family: 'Spectral', serif;
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+
+.toggle-btn {
+    margin-left: 10px;
+    cursor: pointer;
+    padding: 5px;
+    background-color: white;
+    border-radius: 12px;
+    font-size: 12px;
+    color: #333;
+    transition: background-color 0.3s ease;
+    position: absolute;
+    top: 5px;
+    right: 2px;
+}
+
+.toggle-btn:hover {
+    background-color: #ddd;
+}
+
+#word-info {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.node text {
+    pointer-events: auto; /* Enable pointer events for text */
+}
+
+/* Add this to your CSS */
+.bubble {
+    cursor: pointer; /* Use default pointer cursor */
+}
+
+#loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Spectral', serif;
+    font-size: 48px;
+    z-index: 1000; /* Ensure it appears above everything else */
+}
+
+#loading-text {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}

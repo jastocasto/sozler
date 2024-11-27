@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Söz Xəritəsi</title>
+    
+   <!-- Link to external CSS -->
+   <link rel="stylesheet" href="style.css">
+
+   <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+
+<body>
+    <div id="loading-screen">
+        <div id="loading-text">0%</div>
+    </div>
+    <div id="left-section">
+        <h1>SÖZ</h1>
+        <input type="text" id="search-box" placeholder="axtar">
+
+        <div id="word-info">
+            <div class="pill blue-pill" id="selected-word"></div>
+        </div>
+
+        <div class="category-header">sinonimlər</div>
+        <div id="synonyms-container"></div>
+
+        <div class="category-header">antonimlər</div>
+        <div id="antonyms-container"></div>
+
+        <div class="category-header">variantlar</div>
+        <div id="variants-container"></div>
+
+        <div class="category-header">kök</div>
+        <div id="kok-container"></div>
+
+        <div class="category-header">cümlələr</div>
+        <div id="sentence-container"></div>
+
+    </div>
+
+    <div id="main-section">
+        <svg></svg>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
