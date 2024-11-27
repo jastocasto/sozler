@@ -31,7 +31,7 @@ const categoryColors = {
     default: "#d4d4d4"   // Default gray for unselected
 };
 
-fetch('http://127.0.0.1:5000/data')
+fetch('https://sozler-1.onrender.com/data')
     .then(response => response.json())
     .then(data => {
         console.log("Fetched data:", data); // Log fetched data for verification
