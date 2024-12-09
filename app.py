@@ -12,26 +12,17 @@ load_dotenv()
 app = Flask(__name__)
 
 # Set up CORS to allow communication between backend and frontend
-CORS(app, resources={r"/*": {"origins": "*"}})  # Update origins to allow specific domains for production
+CORS(app, resources={r"/*": {"origins": "*"}})
 
-# Load the service account credentials from environment variable
-SERVICE_ACCOUNT_CREDENTIALS = os.getenv('GOOGLE_CREDENTIALS')
+# Get the path to the service account file
+SERVICE_ACCOUNT_FILE = os.getenv('SERVICE_ACCOUNT_FILE')
 
-if not SERVICE_ACCOUNT_CREDENTIALS:
-    raise ValueError("Google service account credentials not found. Check the GOOGLE_CREDENTIALS environment variable.")
+if not SERVICE_ACCOUNT_FILE:
+    raise ValueError("Google service account file path not found. Check the SERVICE_ACCOUNT_FILE environment variable.")
 
+# Authenticate using the service account credentials file
 try:
-    # Parse the service account credentials JSON string
-    credentials_dict = json.loads(SERVICE_ACCOUNT_CREDENTIALS)
-except json.JSONDecodeError:
-    raise ValueError("Invalid JSON in GOOGLE_CREDENTIALS environment variable.")
-
-# Define the necessary Google API scopes
-SCOPES = ["https://www.googleapis.com/auth/spreadsheets", "https://www.googleapis.com/auth/drive"]
-
-# Authenticate using the service account credentials
-try:
-    credentials = Credentials.from_service_account_info(credentials_dict, scopes=SCOPES)
+    credentials = Credentials.from_service_account_file(SERVICE_ACCOUNT_FILE, scopes=["https://www.googleapis.com/auth/spreadsheets", "https://www.googleapis.com/auth/drive"])
     client = gspread.authorize(credentials)
 except Exception as e:
     raise RuntimeError(f"Failed to authenticate with Google API: {e}")
