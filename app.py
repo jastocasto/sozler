@@ -10,8 +10,8 @@ app = Flask(__name__)
 # Set up CORS to allow communication between backend and frontend
 CORS(app, resources={r"/*": {"origins": "*"}})
 
-# Path to the service account credentials file (from GOOGLE_APPLICATION_CREDENTIALS)
-SERVICE_ACCOUNT_FILE = os.getenv("GOOGLE_APPLICATION_CREDENTIALS")
+# Path to the service account credentials file
+SERVICE_ACCOUNT_FILE = "/tmp/service_account.json"
 
 if not SERVICE_ACCOUNT_FILE or not os.path.exists(SERVICE_ACCOUNT_FILE):
     raise RuntimeError("Service account JSON file not found. Ensure GOOGLE_APPLICATION_CREDENTIALS is set correctly.")
