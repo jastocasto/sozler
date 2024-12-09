@@ -10,16 +10,21 @@ app = Flask(__name__)
 # Set up CORS to allow communication between backend and frontend
 CORS(app, resources={r"/*": {"origins": "*"}})
 
-# Path to the service account credentials file
-SERVICE_ACCOUNT_FILE = "/tmp/service_account.json"
+# Fetch the service account JSON secret from the environment variable
+service_account_json = os.getenv('SERVICE_ACCOUNT_JSON')
 
-if not SERVICE_ACCOUNT_FILE or not os.path.exists(SERVICE_ACCOUNT_FILE):
-    raise RuntimeError("Service account JSON file not found. Ensure GOOGLE_APPLICATION_CREDENTIALS is set correctly.")
+if not service_account_json:
+    raise RuntimeError("Service account JSON not found. Ensure SERVICE_ACCOUNT_JSON secret is set correctly.")
+
+# Write the secret to /tmp/service_account.json (Render will inject this secret)
+service_account_file_path = "/tmp/service_account.json"
+with open(service_account_file_path, "w") as f:
+    f.write(service_account_json)
 
 # Authenticate using the service account credentials file
 try:
     credentials = Credentials.from_service_account_file(
-        SERVICE_ACCOUNT_FILE,
+        service_account_file_path,
         scopes=["https://www.googleapis.com/auth/spreadsheets", "https://www.googleapis.com/auth/drive"]
     )
     client = gspread.authorize(credentials)
