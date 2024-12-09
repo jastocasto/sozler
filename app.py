@@ -12,7 +12,7 @@ load_dotenv()
 app = Flask(__name__)
 
 # Set up CORS to allow communication between backend and frontend
-CORS(app, resources={r"/*": {"origins": "*"}})  # Update origins to "*" for public access if needed
+CORS(app, resources={r"/*": {"origins": "*"}})  # Update origins to allow specific domains for production
 
 # Load the service account credentials from environment variable
 SERVICE_ACCOUNT_CREDENTIALS = os.getenv('GOOGLE_CREDENTIALS')
@@ -20,15 +20,21 @@ SERVICE_ACCOUNT_CREDENTIALS = os.getenv('GOOGLE_CREDENTIALS')
 if not SERVICE_ACCOUNT_CREDENTIALS:
     raise ValueError("Google service account credentials not found. Check the GOOGLE_CREDENTIALS environment variable.")
 
-# Parse the service account credentials JSON string
-credentials_dict = json.loads(SERVICE_ACCOUNT_CREDENTIALS)
+try:
+    # Parse the service account credentials JSON string
+    credentials_dict = json.loads(SERVICE_ACCOUNT_CREDENTIALS)
+except json.JSONDecodeError:
+    raise ValueError("Invalid JSON in GOOGLE_CREDENTIALS environment variable.")
 
 # Define the necessary Google API scopes
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets", "https://www.googleapis.com/auth/drive"]
 
 # Authenticate using the service account credentials
-credentials = Credentials.from_service_account_info(credentials_dict, scopes=SCOPES)
-client = gspread.authorize(credentials)
+try:
+    credentials = Credentials.from_service_account_info(credentials_dict, scopes=SCOPES)
+    client = gspread.authorize(credentials)
+except Exception as e:
+    raise RuntimeError(f"Failed to authenticate with Google API: {e}")
 
 # Fetch data from the Google Sheet
 @app.route('/data', methods=['GET'])
@@ -57,8 +63,12 @@ def get_data():
             })
 
         return jsonify({"nodes": nodes})
+    except gspread.SpreadsheetNotFound:
+        return jsonify({"error": "Google Sheet not found. Check the sheet name or permissions."}), 404
+    except gspread.WorksheetNotFound:
+        return jsonify({"error": "Worksheet not found. Check the worksheet name."}), 404
     except Exception as e:
-        return jsonify({"error": str(e)}), 500
+        return jsonify({"error": f"An unexpected error occurred: {e}"}), 500
 
 
 if __name__ == '__main__':
