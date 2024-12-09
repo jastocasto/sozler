@@ -3,26 +3,36 @@ from flask import Flask, jsonify
 import gspread
 from google.oauth2.service_account import Credentials
 from flask_cors import CORS
-from dotenv import load_dotenv
 import json
 
-# Load environment variables
-load_dotenv()
-
+# Create Flask app
 app = Flask(__name__)
 
 # Set up CORS to allow communication between backend and frontend
 CORS(app, resources={r"/*": {"origins": "*"}})
 
-# Get the path to the service account file
-SERVICE_ACCOUNT_FILE = os.getenv('SERVICE_ACCOUNT_FILE')
+# Path where the service account credentials will be temporarily stored
+SERVICE_ACCOUNT_FILE = "/tmp/service_account.json"
 
-if not SERVICE_ACCOUNT_FILE:
-    raise ValueError("Google service account file path not found. Check the SERVICE_ACCOUNT_FILE environment variable.")
+# Fetch the service account JSON from the environment variable
+service_account_json = os.getenv("SERVICE_ACCOUNT_JSON")
+
+if not service_account_json:
+    raise RuntimeError("Service account JSON not found in environment variable 'SERVICE_ACCOUNT_JSON'.")
+
+# Write the JSON content to a temporary file
+try:
+    with open(SERVICE_ACCOUNT_FILE, "w") as f:
+        f.write(service_account_json)
+except Exception as e:
+    raise RuntimeError(f"Failed to write service account file: {e}")
 
 # Authenticate using the service account credentials file
 try:
-    credentials = Credentials.from_service_account_file(SERVICE_ACCOUNT_FILE, scopes=["https://www.googleapis.com/auth/spreadsheets", "https://www.googleapis.com/auth/drive"])
+    credentials = Credentials.from_service_account_file(
+        SERVICE_ACCOUNT_FILE,
+        scopes=["https://www.googleapis.com/auth/spreadsheets", "https://www.googleapis.com/auth/drive"]
+    )
     client = gspread.authorize(credentials)
 except Exception as e:
     raise RuntimeError(f"Failed to authenticate with Google API: {e}")
@@ -60,7 +70,6 @@ def get_data():
         return jsonify({"error": "Worksheet not found. Check the worksheet name."}), 404
     except Exception as e:
         return jsonify({"error": f"An unexpected error occurred: {e}"}), 500
-
 
 if __name__ == '__main__':
     # Dynamic port binding for deployment platforms
