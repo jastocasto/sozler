@@ -3,7 +3,6 @@ from flask import Flask, jsonify
 import gspread
 from google.oauth2.service_account import Credentials
 from flask_cors import CORS
-import json
 
 # Create Flask app
 app = Flask(__name__)
@@ -11,21 +10,11 @@ app = Flask(__name__)
 # Set up CORS to allow communication between backend and frontend
 CORS(app, resources={r"/*": {"origins": "*"}})
 
-# Path where the service account credentials will be temporarily stored
-SERVICE_ACCOUNT_FILE = "/tmp/service_account.json"
+# Path to the service account credentials file (from GOOGLE_APPLICATION_CREDENTIALS)
+SERVICE_ACCOUNT_FILE = os.getenv("GOOGLE_APPLICATION_CREDENTIALS")
 
-# Fetch the service account JSON from the environment variable
-service_account_json = os.getenv("SERVICE_ACCOUNT_JSON")
-
-if not service_account_json:
-    raise RuntimeError("Service account JSON not found in environment variable 'SERVICE_ACCOUNT_JSON'.")
-
-# Write the JSON content to a temporary file
-try:
-    with open(SERVICE_ACCOUNT_FILE, "w") as f:
-        f.write(service_account_json)
-except Exception as e:
-    raise RuntimeError(f"Failed to write service account file: {e}")
+if not SERVICE_ACCOUNT_FILE or not os.path.exists(SERVICE_ACCOUNT_FILE):
+    raise RuntimeError("Service account JSON file not found. Ensure GOOGLE_APPLICATION_CREDENTIALS is set correctly.")
 
 # Authenticate using the service account credentials file
 try:
