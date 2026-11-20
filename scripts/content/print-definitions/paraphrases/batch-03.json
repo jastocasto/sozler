@@ -1,279 +1,1937 @@
 {
-"aylı-ulduzlu": {"az": "Ayın və ulduzların parladığı, aydın (gecə).", "en": "moonlit and starry", "pos": "adjective", "src": "both", "conf": "high"},
-"aynabənd": {"az": "Böyük pəncərələri olan şüşəli eyvan və ya otaq.", "en": "glazed veranda or gallery", "pos": "noun", "src": "both", "conf": "high"},
-"aynabəndli": {"az": "Şüşə ilə örtülmüş eyvanı olan (ev, bina).", "en": "having a glazed veranda", "pos": "adjective", "src": "both", "conf": "high"},
-"aynacıq": {"az": "Balaca, kiçik ölçülü güzgü.", "en": "small mirror", "pos": "noun", "src": "izahli", "conf": "high"},
-"aynaçılıq": {"az": "Aynaçının peşəsi, şüşə və güzgü işi.", "en": "the trade of a glazier or mirror maker", "pos": "noun", "src": "izahli", "conf": "high"},
-"aynalanmaq": {"az": "Pəncərəyə şüşə salınmaq və ya güzgü bərkidilmək.", "en": "to be glazed", "pos": "verb", "src": "both", "conf": "high"},
-"aynalı": {"az": "Üzərində güzgü və ya şüşə olan.", "en": "having a mirror or glass", "pos": "adjective", "src": "both", "conf": "high"},
-"aynasalan": {"az": "Pəncərələrə şüşə salan usta.", "en": "glazier", "pos": "noun", "src": "musayev", "conf": "high"},
-"aynasaz": {"az": "Güzgü və şüşə işləri görən usta.", "en": "mirror maker or glazier", "pos": "noun", "src": "izahli", "conf": "low"},
-"aynasız": {"az": "Pəncərəsi olmayan.", "en": "windowless", "pos": "adjective", "src": "musayev", "conf": "high"},
-"aynatutan": {"az": "Köhnə adətdə gəlin köçərkən onun önündə güzgü daşıyan adam.", "en": "person carrying a mirror before a bride in the wedding procession", "pos": "noun", "src": "izahli", "conf": "high"},
-"ayparalı": {"az": "Üstündə aypara şəklində bəzək olan.", "en": "decorated with a crescent", "pos": "adjective", "src": "izahli", "conf": "high"},
-"ayrançilov": {"az": "Ayran içində bişirilən plov.", "en": "pilaf cooked in ayran", "pos": "noun", "src": "izahli", "conf": "high"},
-"ayranlıq": {"az": "Köpəklər üçün ayran tökülən torpaq çuxuru.", "en": "pit dug for pouring ayran for dogs", "pos": "noun", "src": "izahli", "conf": "high"},
-"ayrı-ayrı": {"az": "Bir-birindən ayrı olan, hər biri müstəqil.", "en": "separate or individual", "pos": "adjective", "src": "musayev", "conf": "high"},
-"ayrı-ayrılıqda": {"az": "Hər biri ayrıca, başqalarından asılı olmadan.", "en": "separately or individually", "pos": "adverb", "src": "musayev", "conf": "high"},
-"ayrıq": {"az": "Taxıllar fəsiləsindən olan çoxillik alaq otu.", "en": "couch grass", "pos": "noun", "src": "izahli", "conf": "high"},
-"ayrıqotu": {"az": "Taxıllar fəsiləsindən olan çoxillik alaq otu.", "en": "couch grass", "pos": "noun", "src": "both", "conf": "high"},
-"ayrılış": {"az": "Ayrılma, bir-birindən uzaqlaşma.", "en": "parting or separation", "pos": "noun", "src": "izahli", "conf": "high"},
-"ayrılışmaq": {"az": "Qarşılıqlı olaraq ayrılmaq, aradakı əlaqəni kəsmək.", "en": "to part from each other", "pos": "verb", "src": "izahli", "conf": "high"},
-"ayrılmazlıq": {"az": "Ayrılmayan, bölünməyən şeyin xüsusiyyəti.", "en": "inseparability", "pos": "noun", "src": "both", "conf": "high"},
-"ayrı-seçki": {"az": "Kiməsə üstünlük verib başqalarına haqsız münasibət göstərmə.", "en": "discrimination or favouritism", "pos": "noun", "src": "izahli", "conf": "high"},
-"aysor": {"az": "Süryani dilinin ləhcəsində danışan kiçik xalq və onun nümayəndəsi.", "en": "Assyrian (people or person)", "pos": "noun", "src": "both", "conf": "high"},
-"ay-ulduz": {"az": "Ay və ulduz formasında qızıl qadın bəzəyi.", "en": "gold crescent-and-star ornament worn by women", "pos": "noun", "src": "izahli", "conf": "high"},
-"ay-ulduzlu": {"az": "Üstündə ay və ulduz təsviri olan.", "en": "bearing a crescent and star image", "pos": "adjective", "src": "izahli", "conf": "high"},
-"azadə": {"az": "Sərbəst, heç nədən asılı olmayan.", "en": "free", "pos": "adjective", "src": "both", "conf": "high"},
-"azadəlik": {"az": "Azad olma halı, sərbəstlik.", "en": "freedom", "pos": "noun", "src": "both", "conf": "high"},
-"azadlıqsevər": {"az": "Azadlığa və müstəqilliyə can atan.", "en": "freedom-loving", "pos": "adjective", "src": "both", "conf": "high"},
-"azadlıqsevərlik": {"az": "Azadlığa olan böyük sevgi.", "en": "love of freedom", "pos": "noun", "src": "musayev", "conf": "high"},
-"azadmahı": {"az": "Qızılbalığın cavan balası.", "en": "young salmon", "pos": "noun", "src": "izahli", "conf": "high"},
-"azadpərvər": {"az": "Azadlığı sevən, azadlıq tərəfdarı olan.", "en": "freedom-loving", "pos": "adjective", "src": "both", "conf": "high"},
-"azadpərvərlik": {"az": "Azadlığı sevmə xüsusiyyəti.", "en": "love of freedom", "pos": "noun", "src": "both", "conf": "high"},
-"azaldılmaq": {"az": "Miqdarı və ya ölçüsü kiçildilmək.", "en": "to be reduced", "pos": "verb", "src": "both", "conf": "high"},
-"azaltdırmaq": {"az": "Bir şeyi başqasının vasitəsilə azaltmaq.", "en": "to have something reduced", "pos": "verb", "src": "musayev", "conf": "high"},
-"azançılıq": {"az": "Məsciddə azan verən şəxsin vəzifəsi.", "en": "the calling of a muezzin", "pos": "noun", "src": "both", "conf": "high"},
-"azar-bezar": {"az": "Cürbəcür xəstəlik və naxoşluq.", "en": "all sorts of ailments", "pos": "noun", "src": "both", "conf": "high"},
-"azargəzdirən": {"az": "Xəstəlik yayan, infeksiya mənbəyi olan.", "en": "disease-carrying", "pos": "adjective", "src": "both", "conf": "high"},
-"azarkeşlik": {"az": "Bir komandanı və ya oyunçunu həvəslə dəstəkləmə.", "en": "being a fan or supporter", "pos": "noun", "src": "musayev", "conf": "high"},
-"azarlatmaq": {"az": "Birinin xəstələnməsinə səbəb olmaq.", "en": "to make someone ill", "pos": "verb", "src": "both", "conf": "high"},
-"azarlı-azarlı": {"az": "Xəstə olduğu halda, naxoş ola-ola.", "en": "while ill, despite being sick", "pos": "adverb", "src": "musayev", "conf": "low"},
-"azarsız-bezarsız": {"az": "Heç bir dərd-bəla, narahatlıq olmadan keçən.", "en": "trouble-free, harmless", "pos": "adjective", "src": "musayev", "conf": "high"},
-"azay": {"az": "Gileylənmə, narazılıq bildirmə.", "en": "complaint or grumbling", "pos": "noun", "src": "izahli", "conf": "high"},
-"az-az": {"az": "Hər dəfə az miqdarda, tədricən.", "en": "a little at a time", "pos": "adverb", "src": "musayev", "conf": "high"},
-"azca-azca": {"az": "Bir dəfəyə yox, tədricən və kiçik miqdarda.", "en": "bit by bit", "pos": "adverb", "src": "both", "conf": "high"},
-"azdan-çoxdan": {"az": "Az da olsa, müəyyən qədər.", "en": "somewhat, to some extent", "pos": "adverb", "src": "both", "conf": "high"},
-"azdırılmaq": {"az": "Doğru yoldan çıxarılmaq, sapındırılmaq.", "en": "to be led astray", "pos": "verb", "src": "both", "conf": "high"},
-"azdırtmaq": {"az": "Başqasının əli ilə yolundan çıxartmaq.", "en": "to have someone led astray", "pos": "verb", "src": "izahli", "conf": "high"},
-"azəhəmiyyətli": {"az": "Böyük əhəmiyyəti olmayan, önəmsiz.", "en": "unimportant", "pos": "adjective", "src": "musayev", "conf": "high"},
-"azərbaycançılıq": {"az": "Azərbaycan xalqının mənəvi birliyinə əsaslanan milli ideologiya.", "en": "Azerbaijanism, the national idea of Azerbaijani unity", "pos": "noun", "src": "izahli", "conf": "high"},
-"azərbaycanşünaslıq": {"az": "Azərbaycanın keçmişini, dilini və mədəniyyətini araşdıran elm sahələri.", "en": "Azerbaijani studies", "pos": "noun", "src": "izahli", "conf": "high"},
-"azgüclü": {"az": "Gücü az olan, zəif.", "en": "weak, low-powered", "pos": "adjective", "src": "izahli", "conf": "high"},
-"azğın-azğın": {"az": "Azğınlıqla, qudurğan şəkildə.", "en": "wildly, in an unbridled way", "pos": "adverb", "src": "musayev", "conf": "low"},
-"azğınlamaq": {"az": "Azğın hala düşmək, qudurmaq.", "en": "to become wanton or unruly", "pos": "verb", "src": "musayev", "conf": "low"},
-"azıxantrop": {"az": "Azıx mağarasında çənə qalığı tapılmış qədim insan.", "en": "prehistoric human found in Azykh cave", "pos": "noun", "src": "izahli", "conf": "high"},
-"azıq": {"az": "Ərzaq ehtiyatı, yol tədarükü.", "en": "provisions", "pos": "noun", "src": "izahli", "conf": "high"},
-"azışdırmaq": {"az": "Yolundan çıxarmaq, azdırmaq.", "en": "to lead astray", "pos": "verb", "src": "izahli", "conf": "high"},
-"azışmaq": {"az": "Yolunu itirmək, doğru yoldan kənara çıxmaq.", "en": "to lose one's way", "pos": "verb", "src": "izahli", "conf": "high"},
-"azqüvvəli": {"az": "Qüvvəsi az olan, zəif.", "en": "weak; low-powered", "pos": "adjective", "src": "musayev", "conf": "high"},
-"azmanlıq": {"az": "Həddindən artıq iri olma, nəhənglik.", "en": "hugeness", "pos": "noun", "src": "izahli", "conf": "high"},
-"azməhsuldar": {"az": "Az məhsul verən, səmərəsi aşağı olan.", "en": "low-yielding", "pos": "adjective", "src": "musayev", "conf": "high"},
-"azmərtəbəli": {"az": "Mərtəbələri az olan (bina).", "en": "low-rise, few-storeyed", "pos": "adjective", "src": "musayev", "conf": "high"},
-"azotlaşdırılmaq": {"az": "Tərkibinə azot əlavə edilmək.", "en": "to be enriched with nitrogen", "pos": "verb", "src": "izahli", "conf": "high"},
-"azotlu": {"az": "İçində azot olan.", "en": "containing nitrogen", "pos": "adjective", "src": "both", "conf": "high"},
-"azotsuz": {"az": "İçində azot olmayan.", "en": "nitrogen-free", "pos": "adjective", "src": "izahli", "conf": "high"},
-"aztirajlı": {"az": "Az nüsxədə çap olunan.", "en": "with a small print run", "pos": "adjective", "src": "musayev", "conf": "high"},
-"aztorpaqlı": {"az": "Kifayət qədər torpağı olmayan.", "en": "having little land", "pos": "adjective", "src": "musayev", "conf": "high"},
-"azyarpaq": {"az": "Yarpağı az olan, seyrək yarpaqlı.", "en": "sparsely leaved", "pos": "adjective", "src": "izahli", "conf": "high"},
-"azyaşlılıq": {"az": "Yaşca kiçik olma, uşaqlıq çağı.", "en": "young age, minority", "pos": "noun", "src": "musayev", "conf": "high"},
-"babalıq": {"az": "Doğma olmayan baba, ögey baba.", "en": "step-grandfather", "pos": "noun", "src": "izahli", "conf": "high"},
-"babasilli": {"az": "Babasil xəstəliyindən əziyyət çəkən.", "en": "suffering from haemorrhoids", "pos": "adjective", "src": "izahli", "conf": "high"},
-"bablaşmaq": {"az": "Tay olmaq, bir-birinə uyğun gəlmək.", "en": "to match or become equal", "pos": "verb", "src": "izahli", "conf": "high"},
-"baca-baca": {"az": "Novruz axşamı evləri gəzib bayram payı yığmaq adəti.", "en": "Novruz custom of going door to door for holiday treats", "pos": "noun", "src": "izahli", "conf": "high"},
-"bacaqlı": {"az": "Keçmişdə qadınların boyunbağı kimi taxdığı Hollandiya və ya Avstriya qızıl sikkəsi.", "en": "old Dutch or Austrian gold coin worn as jewellery", "pos": "noun", "src": "izahli", "conf": "high"},
-"bacalı": {"az": "Bacası olan.", "en": "having a chimney", "pos": "adjective", "src": "both", "conf": "high"},
-"bacalıq": {"az": "Damda baca qoymaq üçün ayrılmış yer.", "en": "place on a roof made for a chimney", "pos": "noun", "src": "izahli", "conf": "high"},
-"bacardıqca": {"az": "İmkan daxilində, gücü çatdığı qədər.", "en": "as far as one can", "pos": "adverb", "src": "musayev", "conf": "high"},
-"bacarmaz": {"az": "Əlindən heç bir iş gəlməyən, bacarıqsız.", "en": "incapable or inept", "pos": "adjective", "src": "izahli", "conf": "high"},
-"bacasız": {"az": "Bacası olmayan.", "en": "chimneyless", "pos": "adjective", "src": "both", "conf": "high"},
-"bacılaşmaq": {"az": "Bir-biri ilə bacı kimi səmimi dost olmaq.", "en": "to become close as sisters", "pos": "verb", "src": "both", "conf": "high"},
-"badaqlanmaq": {"az": "Ayağına badaq vurulub büdrədilmək.", "en": "to be tripped up", "pos": "verb", "src": "both", "conf": "high"},
-"badaqlatmaq": {"az": "Başqasına birinin ayağına badaq vurdurmaq.", "en": "to have someone tripped up", "pos": "verb", "src": "musayev", "conf": "high"},
-"badaqlı": {"skip": "defined only by reference to an unstated second sense of badaq"},
-"badalaqlanmaq": {"az": "Ayağına badalaq vurulmaq, çelmələnmək.", "en": "to be tripped up", "pos": "verb", "src": "izahli", "conf": "high"},
-"badambacı": {"az": "Yaşlı qadına, qayınanaya və ya gəlinə hörmətlə müraciət sözü.", "en": "respectful form of address for older women or in-laws", "pos": "noun", "src": "izahli", "conf": "high"},
-"badambuta": {"az": "Üzərində badam şəkilli naxışlar olan (parça).", "en": "with an almond-shaped (paisley) pattern", "pos": "adjective", "src": "izahli", "conf": "high"},
-"badamça": {"az": "Badama bənzəyən çiçəkli kiçik ağac, dəli badam.", "en": "wild almond, a small flowering tree", "pos": "noun", "src": "izahli", "conf": "high"},
-"badamçörəyi": {"az": "İçinə şəkərli döyülmüş badam qoyulan kiçik şirin çörək.", "en": "small sweet pastry filled with crushed almonds", "pos": "noun", "src": "izahli", "conf": "high"},
-"badamgöz": {"az": "Gözləri badam formasında olan.", "en": "almond-eyed", "pos": "adjective", "src": "musayev", "conf": "high"},
-"badamgözlü": {"az": "Badam şəkilli gözləri olan.", "en": "almond-eyed", "pos": "adjective", "src": "musayev", "conf": "high"},
-"badı": {"az": "Saxsıdan düzəldilmiş nimçə, boşqab.", "en": "earthenware dish", "pos": "noun", "src": "izahli", "conf": "high"},
-"badımcanı": {"az": "Badımcan rənginə çalan, tünd bənövşəyi.", "en": "dark purple, aubergine-coloured", "pos": "adjective", "src": "both", "conf": "high"},
-"badi-səba": {"az": "Səhər əsən yüngül, sərin meh.", "en": "morning breeze", "pos": "noun", "src": "musayev", "conf": "high"},
-"badmintonçu": {"az": "Badminton oynayan idmançı.", "en": "badminton player", "pos": "noun", "src": "musayev", "conf": "high"},
-"badyaça": {"az": "Balaca vedrə, kiçik badya.", "en": "small tub or pail", "pos": "noun", "src": "izahli", "conf": "high"},
-"baftaçı": {"az": "Bafta hazırlayan sənətkar.", "en": "braid maker", "pos": "noun", "src": "izahli", "conf": "high"},
-"baftaçılıq": {"az": "Bafta hazırlama sənəti.", "en": "braid-making trade", "pos": "noun", "src": "izahli", "conf": "high"},
-"baftalı": {"az": "Bafta ilə bəzədilmiş, kənarına bafta tikilmiş.", "en": "trimmed with braid", "pos": "adjective", "src": "izahli", "conf": "high"},
-"bağacıq": {"az": "Taxıl əkinlərinə ziyan vuran həşərat.", "en": "an insect pest of cereal crops", "pos": "noun", "src": "izahli", "conf": "high"},
-"bağalıq": {"az": "Atın dırnağının üst hissəsi, tükün bitdiyi yer.", "en": "coronet of a horse's hoof", "pos": "noun", "src": "izahli", "conf": "high"},
-"bağam": {"az": "Yarpaqlarından dəri boyası alınan enliyarpaqlı ağac.", "en": "broad-leaved tree whose leaves yield leather dye", "pos": "noun", "src": "izahli", "conf": "high"},
-"bağara": {"az": "Dayaz quyudan su və ya neft çıxarmaq üçün düzəldilən qurğu.", "en": "device for drawing water or oil from shallow wells", "pos": "noun", "src": "izahli", "conf": "low"},
-"bağat": {"az": "Ağaclı-yaşıllıqlı yer, bağlıq.", "en": "gardens and orchards", "pos": "noun", "src": "izahli", "conf": "high"},
-"bağ-bağat": {"az": "Bağlar və yaşıllıqlar, ağaclı yer.", "en": "gardens and greenery", "pos": "noun", "src": "both", "conf": "high"},
-"bağ-bağatlı": {"az": "Bağları və yaşıllığı bol olan, gözəl.", "en": "with gardens and greenery", "pos": "adjective", "src": "both", "conf": "high"},
-"bağ-bağça": {"az": "Bağ və gül bağçası olan yer.", "en": "gardens and flower beds", "pos": "noun", "src": "both", "conf": "high"},
-"bağ-bağçalı": {"az": "Bağı və güllüyü olan.", "en": "with gardens", "pos": "adjective", "src": "musayev", "conf": "high"},
-"bağbanlıq": {"az": "Bağbanın məşğuliyyəti, bağçılıq işi.", "en": "gardening as an occupation", "pos": "noun", "src": "izahli", "conf": "high"},
-"bağ-bərə": {"az": "Evin yanındakı bağ və bostan.", "en": "garden plot by a house", "pos": "noun", "src": "izahli", "conf": "high"},
-"bağça-bağ": {"az": "Gül və çiçək əkilmiş yer.", "en": "flower garden", "pos": "noun", "src": "izahli", "conf": "high"},
-"bağçalı": {"az": "Həyətində gül bağçası olan.", "en": "having a garden", "pos": "adjective", "src": "izahli", "conf": "high"},
-"bağçalıq": {"az": "Kiçik bağ, güllük.", "en": "small garden", "pos": "noun", "src": "izahli", "conf": "high"},
-"bağçıvan": {"az": "Bağçaya qulluq edən adam, bağban.", "en": "gardener", "pos": "noun", "src": "izahli", "conf": "high"},
-"bağçıvanlıq": {"az": "Bağçıvanın gördüyü iş, bağbanlıq.", "en": "gardening", "pos": "noun", "src": "izahli", "conf": "high"},
-"bağırbeyin": {"az": "Quzu ciyəri və beynindən bişirilən yemək.", "en": "dish of lamb liver and brains", "pos": "noun", "src": "izahli", "conf": "high"},
-"bağırdaq": {"az": "Körpəni beşiyə bağlamaq üçün işlədilən bağ.", "en": "cradle strap for binding a baby", "pos": "noun", "src": "izahli", "conf": "high"},
-"bağırdaqlamaq": {"az": "Körpəni beşikdə xüsusi bağla bərkitmək.", "en": "to strap a baby into the cradle", "pos": "verb", "src": "izahli", "conf": "high"},
-"bağırqan": {"az": "Tez-tez qışqıran, səs-küy salan.", "en": "loud, given to shouting", "pos": "adjective", "src": "izahli", "conf": "high"},
-"bağırsaqlıq": {"az": "Qarın boşluğunda bağırsaqların yerləşdiyi hissə.", "en": "intestinal region of the abdomen", "pos": "noun", "src": "izahli", "conf": "high"},
-"bağırsaqsız": {"az": "Bağırsaqları olmayan (canlı).", "en": "lacking intestines", "pos": "adjective", "src": "izahli", "conf": "high"},
-"bağışlanmaq": {"az": "Hədiyyə kimi kiməsə verilmək.", "en": "to be given as a gift", "pos": "verb", "src": "izahli", "conf": "high"},
-"bağlanılmaq": {"az": "İp və ya bağla bərkidilmək.", "en": "to be tied or bound", "pos": "verb", "src": "musayev", "conf": "high"},
-"bağlayıcısız": {"az": "Bağlayıcı işlədilmədən qurulan (cümlə əlaqəsi).", "en": "asyndetic", "pos": "adjective", "src": "musayev", "conf": "high"},
-"bağlı-bağatlı": {"az": "Çoxlu bağı və yaşıllığı olan.", "en": "full of gardens and greenery", "pos": "adjective", "src": "izahli", "conf": "high"},
-"bağlı-bağçalı": {"az": "Bağı və gül bağçası olan.", "en": "with orchards and gardens", "pos": "adjective", "src": "izahli", "conf": "high"},
-"bağlıq": {"az": "Bağ salınmış yer, bağ sahəsi.", "en": "orchard or garden area", "pos": "noun", "src": "musayev", "conf": "high"},
-"bağpərəst": {"az": "Bağçılığı, meyvə ağacı yetişdirməyi çox sevən adam.", "en": "garden lover", "pos": "noun", "src": "izahli", "conf": "high"},
-"bağrıbadaş": {"az": "Bir-birinə çox yaxın, ürəkdən bağlı (dost).", "en": "bosom, inseparable (friend)", "pos": "adjective", "src": "both", "conf": "high"},
-"bağrıqara": {"az": "Dərdli, qəmli, başına müsibət gəlmiş.", "en": "grief-stricken", "pos": "adjective", "src": "izahli", "conf": "high"},
-"bah": {"az": "Təəccüb və heyrət bildirən nida.", "en": "exclamation of surprise", "pos": "interjection", "src": "izahli", "conf": "high"},
-"bahacıl": {"az": "Mallarını yüksək qiymətə satan.", "en": "overcharging, selling at high prices", "pos": "adjective", "src": "izahli", "conf": "high"},
-"baharıstan": {"az": "Şeir dilində: bahar, çiçəklənmə çağı.", "en": "springtime (poetic)", "pos": "noun", "src": "izahli", "conf": "low"},
-"bahariyyə": {"az": "Klassik Şərq poeziyasında baharı tərənnüm edən şeir.", "en": "poem in praise of spring in classical Eastern literature", "pos": "noun", "src": "izahli", "conf": "high"},
-"baharotu": {"az": "Erkən yazda bitən çox kiçik bir ot.", "en": "a tiny early-spring plant", "pos": "noun", "src": "izahli", "conf": "high"},
-"baho": {"az": "Təəccüb ifadə edən nida.", "en": "exclamation of surprise", "pos": "interjection", "src": "izahli", "conf": "low"},
-"baxa-baxa": {"az": "Gözü ilə görə-görə, baxdığı halda.", "en": "while looking on", "pos": "adverb", "src": "musayev", "conf": "high"},
-"baxıcılıq": {"az": "Nəzarət etmə, gözətçilik işi.", "en": "supervision, caretaking", "pos": "noun", "src": "izahli", "conf": "high"},
-"baxışmaq": {"az": "Bir-birinə nəzər salmaq.", "en": "to look at each other", "pos": "verb", "src": "both", "conf": "high"},
-"baxya": {"az": "Sıx və xırda tikiş.", "en": "fine close stitch", "pos": "noun", "src": "izahli", "conf": "high"},
-"baxyalamaq": {"az": "Bir şeyi sıx, xırda tikişlə tikmək.", "en": "to sew with fine close stitches", "pos": "verb", "src": "izahli", "conf": "high"},
-"baxyalanmaq": {"az": "Sıx və xırda tikişlə tikilmək.", "en": "to be finely stitched", "pos": "verb", "src": "izahli", "conf": "high"},
-"baxyalı": {"az": "Sıx və möhkəm tikişlə tikilmiş.", "en": "finely stitched", "pos": "adjective", "src": "izahli", "conf": "high"},
-"baiskar": {"az": "Bir işin baş verməsinə səbəb olan.", "en": "responsible, being the cause", "pos": "adjective", "src": "both", "conf": "high"},
-"baiskarlıq": {"az": "Bir şeyə səbəb olma, günahkarlıq.", "en": "being the cause; culpability", "pos": "noun", "src": "both", "conf": "high"},
-"bakenbard": {"az": "Yanaqlarda saxlanılan tük.", "en": "sideburns", "pos": "noun", "src": "musayev", "conf": "high"},
-"bakenbardlı": {"az": "Bakenbard saxlamış, yanaq tükü olan.", "en": "with sideburns", "pos": "adjective", "src": "izahli", "conf": "high"},
-"bakteriyalı": {"az": "Tərkibində bakteriya olan.", "en": "bacterial", "pos": "adjective", "src": "musayev", "conf": "high"},
-"baqajçı": {"az": "Dəmiryolunda yük-baqajı qəbul edən işçi.", "en": "baggage clerk", "pos": "noun", "src": "izahli", "conf": "high"},
-"baqajlıq": {"az": "Avtomobildə yük qoymaq üçün ayrılmış yer.", "en": "luggage compartment, car boot", "pos": "noun", "src": "both", "conf": "high"},
-"baqi": {"az": "Həmişəlik, əbədi olan.", "en": "eternal, everlasting", "pos": "adjective", "src": "izahli", "conf": "high"},
-"baqqallıq": {"az": "Baqqalın peşəsi, ərzaq alveri.", "en": "the grocer's trade", "pos": "noun", "src": "both", "conf": "high"},
-"balabacı": {"az": "Kiçiklərin böyük qadın qohuma hörmətlə müraciət sözü.", "en": "respectful term for an elder female relative", "pos": "noun", "src": "izahli", "conf": "high"},
-"bala-bala": {"az": "Azar-azar, yavaş-yavaş.", "en": "little by little", "pos": "adverb", "src": "musayev", "conf": "high"},
-"balabançı": {"az": "Balaban çalan musiqiçi.", "en": "balaban player", "pos": "noun", "src": "both", "conf": "high"},
-"balaca-balaca": {"az": "Çox kiçik, xırda.", "en": "tiny", "pos": "adjective", "src": "musayev", "conf": "high"},
-"balacaboylu": {"az": "Boyu qısa olan.", "en": "short in stature", "pos": "adjective", "src": "musayev", "conf": "high"},
-"balacalaşdırılmaq": {"az": "Ölçüsü və ya həcmi kiçildilmək.", "en": "to be made smaller", "pos": "verb", "src": "both", "conf": "high"},
-"balacalaşdırmaq": {"az": "Bir şeyi kiçiltmək, xırda hala salmaq.", "en": "to make smaller", "pos": "verb", "src": "both", "conf": "high"},
-"balacanlı": {"az": "Uşaqlarını hədsiz dərəcədə sevən.", "en": "doting on one's children", "pos": "adjective", "src": "both", "conf": "high"},
-"balacanlılıq": {"az": "Uşaqlarına qarşı həddindən çox sevgi.", "en": "doting love for one's children", "pos": "noun", "src": "musayev", "conf": "high"},
-"balacığaz": {"az": "Kiçicik, balaca (əzizləmə ilə).", "en": "little one, tiny", "pos": "noun", "src": "musayev", "conf": "low"},
-"balaxon": {"az": "Üstdən geyilən enli iş xalatı.", "en": "loose overall", "pos": "noun", "src": "musayev", "conf": "high"},
-"balalaykaçı": {"az": "Balalayka çalan musiqiçi.", "en": "balalaika player", "pos": "noun", "src": "musayev", "conf": "high"},
-"balatı": {"az": "Xəmiri acıtmaq üçün maya.", "en": "leaven, ferment", "pos": "noun", "src": "both", "conf": "high"},
-"balaverən": {"az": "Bala verən, doğan (heyvan).", "en": "bearing young", "pos": "adjective", "src": "musayev", "conf": "low"},
-"balavermə": {"az": "Bala vermə qabiliyyəti, doğurqanlıq.", "en": "fertility, fecundity", "pos": "noun", "src": "musayev", "conf": "high"},
-"balbas": {"az": "Böyük cüssəli qoyun cinsi.", "en": "a large breed of sheep", "pos": "noun", "src": "izahli", "conf": "high"},
-"balçı": {"az": "Arı saxlayıb bal əldə edən adam.", "en": "beekeeper", "pos": "noun", "src": "both", "conf": "high"},
-"baldırğanlıq": {"az": "Çoxlu baldırğan bitən yer.", "en": "place overgrown with hogweed", "pos": "noun", "src": "izahli", "conf": "high"},
-"baldırıyoğun": {"az": "Baldırları yoğun olan.", "en": "thick-legged", "pos": "adjective", "src": "musayev", "conf": "high"},
-"baldırlamaq": {"az": "Birinin baldırından yapışıb tutmaq.", "en": "to grab someone by the calf", "pos": "verb", "src": "both", "conf": "high"},
-"baldöyən": {"az": "Şirəli, şirin çiçəkli ot bitkisi.", "en": "a succulent herb with sweet flowers", "pos": "noun", "src": "izahli", "conf": "high"},
-"baletçi": {"az": "Baletdə rəqs edən artist.", "en": "ballet dancer", "pos": "noun", "src": "musayev", "conf": "high"},
-"baləng": {"az": "Zirəyə bənzəyən qara toxumlu dağ bitkisi.", "en": "a caraway-like mountain herb with black seeds", "pos": "noun", "src": "izahli", "conf": "high"},
-"balgülü": {"az": "Çiçəkləri şirin olan dırmaşan bitki.", "en": "a climbing plant with sweet flowers", "pos": "noun", "src": "izahli", "conf": "high"},
-"balıqəti": {"az": "Baldırın arxa tərəfindəki qalın əzələ.", "en": "calf muscle", "pos": "noun", "src": "izahli", "conf": "high"},
-"balıqiçi": {"az": "Balığın qarnına doldurulan qozlu, soğanlı, kişmişli iç.", "en": "walnut, onion and raisin stuffing for fish", "pos": "noun", "src": "izahli", "conf": "high"},
-"balıqlı": {"az": "İçində balıq olan.", "en": "containing fish, full of fish", "pos": "adjective", "src": "both", "conf": "high"},
-"balıqyetişdirən": {"az": "Balıq yetişdirməklə məşğul olan adam.", "en": "fish breeder", "pos": "noun", "src": "musayev", "conf": "high"},
-"balıqyetişdirmə": {"az": "Balıqların süni şəraitdə artırılması.", "en": "fish farming", "pos": "noun", "src": "both", "conf": "high"},
-"balışüzülük": {"az": "Balış üzü tikmək üçün yararlı parça.", "en": "fabric for pillowcases", "pos": "noun", "src": "musayev", "conf": "high"},
-"balka": {"az": "Tikintidə işlədilən dayaq tir.", "en": "beam, girder", "pos": "noun", "src": "musayev", "conf": "high"},
-"balkar": {"az": "Şimali Qafqazda yaşayan türk xalqı və onun nümayəndəsi.", "en": "Balkar (people or person)", "pos": "noun", "src": "izahli", "conf": "high"},
-"balkarca": {"az": "Balkarların dilində.", "en": "in Balkar", "pos": "adverb", "src": "both", "conf": "high"},
-"balkonsuz": {"az": "Eyvanı olmayan.", "en": "without a balcony", "pos": "adjective", "src": "musayev", "conf": "high"},
-"balqabağı": {"az": "Balqabağa oxşayan, onun formasında olan.", "en": "pumpkin-shaped", "pos": "adjective", "src": "izahli", "conf": "high"},
-"ballıbadı": {"az": "Bal qatılmış şirin qoğal.", "en": "honey pastry", "pos": "noun", "src": "izahli", "conf": "high"},
-"ballistik": {"az": "Ballistikaya aid, mərminin uçuşu ilə bağlı.", "en": "ballistic", "pos": "adjective", "src": "musayev", "conf": "high"},
-"bal-maskarad": {"az": "İştirakçıların maska taxdığı bal.", "en": "masquerade ball", "pos": "noun", "src": "musayev", "conf": "high"},
-"balsüzən": {"az": "Şandan balı ayırmaq üçün qurğu.", "en": "honey extractor", "pos": "noun", "src": "izahli", "conf": "high"},
-"baltaçılıq": {"az": "Balta ilə ağac doğrama işi.", "en": "woodcutting with an axe", "pos": "noun", "src": "both", "conf": "high"},
-"baltadimdik": {"az": "Dimdiyi çox qalın olan quş.", "en": "a thick-billed bird", "pos": "noun", "src": "izahli", "conf": "high"},
-"baltadiş": {"az": "Dişləri iri və möhkəm olan.", "en": "big-toothed", "pos": "adjective", "src": "both", "conf": "high"},
-"baltadişli": {"az": "İri dişləri olan.", "en": "big-toothed", "pos": "adjective", "src": "musayev", "conf": "high"},
-"baltaqayıran": {"az": "Balta düzəldən usta.", "en": "axe maker", "pos": "noun", "src": "musayev", "conf": "high"},
-"baltalı": {"az": "Balta tutmuş, baltası olan.", "en": "carrying an axe", "pos": "adjective", "src": "both", "conf": "high"},
-"balun": {"az": "Qaz və ya maye doldurulan metal yaxud plastik silindr.", "en": "cylinder or canister for gas or liquid", "pos": "noun", "src": "izahli", "conf": "high"},
-"balzamin": {"az": "Bəzək üçün əkilən balzam bitkisi.", "en": "balsam (plant)", "pos": "noun", "src": "musayev", "conf": "high"},
-"balzamlanmaq": {"az": "Balzam hopdurularaq mumiyaya çevrilmək.", "en": "to be embalmed", "pos": "verb", "src": "both", "conf": "high"},
-"balzamlatmaq": {"az": "Başqasına balzamlama işini gördürmək.", "en": "to have something embalmed", "pos": "verb", "src": "musayev", "conf": "high"},
-"bambılılıq": {"az": "Yüngül, ciddiyyətsiz olma xüsusiyyəti.", "en": "flippancy", "pos": "noun", "src": "musayev", "conf": "high"},
-"banbal": {"az": "Böyük ölçülü barama.", "en": "large cocoon", "pos": "noun", "src": "izahli", "conf": "high"},
-"bandajçı": {"az": "Bandaj hazırlayan usta.", "en": "bandage maker", "pos": "noun", "src": "both", "conf": "high"},
-"bandaq": {"az": "Saxlamaq üçün saplaqlarından ipə düzülmüş meyvələr və həmin ip.", "en": "string of fruit tied by the stems for storage", "pos": "noun", "src": "izahli", "conf": "high"},
-"bandaqlanmaq": {"az": "Qışa saxlanmaq üçün saplağından ipə düzülmək.", "en": "to be strung up for winter storage (of fruit)", "pos": "verb", "src": "izahli", "conf": "high"},
-"bandaqlatmaq": {"az": "Meyvəni başqasına ipə düzdürmək.", "en": "to have fruit strung for storage", "pos": "verb", "src": "izahli", "conf": "high"},
-"bandaqlıq": {"az": "İpə düzülüb qışa saxlanmağa yararlı (meyvə).", "en": "suitable for stringing and storing (of fruit)", "pos": "adjective", "src": "izahli", "conf": "high"},
-"banderollamaq": {"az": "Bir şeyin üstünə banderol yapışdırmaq.", "en": "to put a band or wrapper on", "pos": "verb", "src": "izahli", "conf": "high"},
-"banderollanmaq": {"az": "Üstünə banderol yapışdırılmaq.", "en": "to be fitted with a band or wrapper", "pos": "verb", "src": "izahli", "conf": "high"},
-"banderollu": {"az": "Üstünə banderol vurulmuş.", "en": "bearing a band or wrapper", "pos": "adjective", "src": "izahli", "conf": "high"},
-"banderolsuz": {"az": "Üstündə banderol olmayan.", "en": "without a band or wrapper", "pos": "adjective", "src": "izahli", "conf": "high"},
-"banditcəsinə": {"az": "Quldur kimi, quldurlara xas tərzdə.", "en": "like a bandit", "pos": "adverb", "src": "both", "conf": "high"},
-"banditlik": {"az": "Silahlı quldurluq fəaliyyəti.", "en": "banditry", "pos": "noun", "src": "musayev", "conf": "high"},
-"bandurçu": {"az": "Bandura çalan musiqiçi.", "en": "bandura player", "pos": "noun", "src": "both", "conf": "high"},
-"bankrot": {"az": "Borclarını ödəyə bilməyən, müflis olmuş şəxs.", "en": "bankrupt", "pos": "noun", "src": "musayev", "conf": "high"},
-"banlaşmaq": {"az": "Birlikdə ucadan banlamaq və ya qışqırmaq.", "en": "to crow or shout together", "pos": "verb", "src": "both", "conf": "high"},
-"bantlı": {"az": "Bant bağlanmış, bantı olan.", "en": "with a bow or ribbon", "pos": "adjective", "src": "both", "conf": "high"},
-"bapbalaca": {"az": "Çox kiçik, lap balaca.", "en": "very small, tiny", "pos": "adjective", "src": "musayev", "conf": "high"},
-"barabançı": {"az": "Təbil çalan musiqiçi.", "en": "drummer", "pos": "noun", "src": "both", "conf": "high"},
-"barak": {"az": "Müvəqqəti yaşayış üçün tikilmiş sadə bina.", "en": "barracks, hut", "pos": "noun", "src": "musayev", "conf": "high"},
-"baramaayıran": {"az": "Baramaları çeşidləyən işçi.", "en": "cocoon sorter", "pos": "noun", "src": "musayev", "conf": "high"},
-"baramaçı": {"az": "İpək qurdu saxlayıb bəsləyən adam.", "en": "silkworm breeder", "pos": "noun", "src": "both", "conf": "high"},
-"baramalamaq": {"az": "Qurdun ətrafına ipəkdən qoza toxumaq.", "en": "to spin a cocoon", "pos": "verb", "src": "izahli", "conf": "high"},
-"barbar": {"az": "Vəhşi, mədəniyyətdən uzaq, kobud adam.", "en": "barbarian", "pos": "noun", "src": "both", "conf": "high"},
-"barbarcasına": {"az": "Vəhşi kimi, amansızcasına.", "en": "barbarically", "pos": "adverb", "src": "musayev", "conf": "high"},
-"barbaris": {"az": "Turş meyvəli tikanlı kol, zirinc.", "en": "barberry", "pos": "noun", "src": "musayev", "conf": "high"},
-"barbarlıq": {"az": "Vəhşilik, mədəniyyətsiz davranış.", "en": "barbarism", "pos": "noun", "src": "both", "conf": "high"},
-"bardan": {"az": "Pambıq, yun və s. doldurmaq üçün iri kisə.", "en": "large sack", "pos": "noun", "src": "both", "conf": "high"},
-"bardanlamaq": {"az": "Bir şeyi iri kisəyə yığmaq.", "en": "to pack into large sacks", "pos": "verb", "src": "izahli", "conf": "high"},
-"bardaş": {"az": "Ayaqları çarpaz qatlayıb oturma tərzi.", "en": "cross-legged sitting position", "pos": "noun", "src": "musayev", "conf": "high"},
-"barxana": {"az": "Ev əşyaları, köçərkən yığılan yük.", "en": "household goods and belongings", "pos": "noun", "src": "both", "conf": "high"},
-"barılamaq": {"az": "Ətrafına hasar və ya divar çəkmək.", "en": "to wall or fence in", "pos": "verb", "src": "izahli", "conf": "high"},
-"barılatmaq": {"az": "Başqasına hasar və ya divar tikdirmək.", "en": "to have a wall or fence built", "pos": "verb", "src": "izahli", "conf": "high"},
-"barıncı": {"az": "Paxlalılardan olan bir alaq otu.", "en": "a leguminous weed", "pos": "noun", "src": "izahli", "conf": "high"},
-"barındırmaq": {"az": "Yedirib-içirib saxlamaq, qoruyub himayə etmək.", "en": "to feed and shelter", "pos": "verb", "src": "izahli", "conf": "high"},
-"barışdırılmaq": {"az": "Kiminləsə barışığa gətirilmək.", "en": "to be reconciled", "pos": "verb", "src": "musayev", "conf": "high"},
-"barıtxana": {"az": "Barıt hazırlanan yer.", "en": "gunpowder works", "pos": "noun", "src": "both", "conf": "high"},
-"barıtlamaq": {"az": "Silaha barıt doldurmaq.", "en": "to load with gunpowder", "pos": "verb", "src": "izahli", "conf": "high"},
-"barıtlıq": {"az": "Barıt saxlamaq üçün qab.", "en": "powder flask", "pos": "noun", "src": "izahli", "conf": "high"},
-"barizlik": {"az": "Aydınlıq, aşkar olma.", "en": "obviousness, clarity", "pos": "noun", "src": "musayev", "conf": "high"},
-"barj": {"az": "Yedəkdə çəkilən yastıdibli iri yük gəmisi.", "en": "barge", "pos": "noun", "src": "both", "conf": "high"},
-"barkas": {"az": "Hərbi gəmilərdə işlədilən böyük qayıq.", "en": "launch, longboat", "pos": "noun", "src": "musayev", "conf": "high"},
-"barmaqlı": {"az": "Barmaqlara malik olan.", "en": "having fingers", "pos": "adjective", "src": "both", "conf": "high"},
-"barmaqsız": {"az": "Barmağı olmayan və ya barmağını itirmiş.", "en": "fingerless", "pos": "adjective", "src": "both", "conf": "high"},
-"barn": {"az": "Çəpər, hasar, qoruyucu divar.", "en": "fence or wall", "pos": "noun", "src": "izahli", "conf": "high"},
-"barometrik": {"az": "Barometrlə, atmosfer təzyiqi ilə bağlı olan.", "en": "barometric", "pos": "adjective", "src": "musayev", "conf": "high"},
-"baronluq": {"az": "Baron titulu.", "en": "barony", "pos": "noun", "src": "both", "conf": "high"},
-"barrikada": {"az": "Küçədə qurulan müdafiə səddi.", "en": "barricade", "pos": "noun", "src": "musayev", "conf": "high"},
-"barsızlanmaq": {"az": "Bar verməz olmaq, məhsulsuz qalmaq.", "en": "to become fruitless", "pos": "verb", "src": "musayev", "conf": "high"},
-"barsızlaşmaq": {"az": "Meyvə verməyən hala düşmək.", "en": "to become fruitless or barren", "pos": "verb", "src": "musayev", "conf": "high"},
-"barsızlıq": {"az": "Meyvə verməmə, məhsulsuz olma.", "en": "fruitlessness", "pos": "noun", "src": "both", "conf": "high"},
-"barverici": {"az": "Bol meyvə və məhsul verən.", "en": "fruitful, fertile", "pos": "adjective", "src": "both", "conf": "high"},
-"barvermə": {"az": "Bitkinin meyvə gətirməsi.", "en": "fruiting", "pos": "noun", "src": "musayev", "conf": "high"},
-"basarat": {"az": "Ağıl gözü, dərrakə, uzaqgörənlik.", "en": "insight, discernment", "pos": "noun", "src": "izahli", "conf": "low"},
-"basdalatmaq": {"az": "Başqasına bir şeyi tapdalatmaq.", "en": "to have something trampled", "pos": "verb", "src": "musayev", "conf": "high"},
-"basıb-əzmək": {"az": "Ayaq altına salıb tapdalamaq, əzmək.", "en": "to trample down, to crush", "pos": "verb", "src": "musayev", "conf": "high"},
-"basıcı": {"az": "Təzyiq göstərən, sıxan.", "en": "pressing, oppressive", "pos": "adjective", "src": "izahli", "conf": "high"},
-"basıq": {"az": "Yastılaşmış, içəri çökmüş.", "en": "flattened, sunken", "pos": "adjective", "src": "both", "conf": "high"},
-"basıqlıq": {"az": "Çökük, yastı olma halı.", "en": "flatness, concavity", "pos": "noun", "src": "both", "conf": "high"},
-"basım": {"az": "Gəminin sıxışdırıb çıxardığı suyun həcmi (su basımı).", "en": "displacement (of a ship)", "pos": "noun", "src": "both", "conf": "high"},
-"basırıqlıq": {"az": "Yuxuda boğulma və sıxılma hissi.", "en": "nightmare, sleep oppression", "pos": "noun", "src": "musayev", "conf": "low"},
-"basmadüymə": {"az": "İki metal hissəsi bir-birinə keçən düymə, knopka.", "en": "press stud, snap fastener", "pos": "noun", "src": "izahli", "conf": "high"},
-"basmaqəlib": {"az": "Yenilik olmadan korkoranə təqlid edilmiş, şablon.", "en": "stereotyped, clichéd", "pos": "adjective", "src": "izahli", "conf": "high"},
-"başabaş": {"az": "Bərabər, nə artıq, nə əskik.", "en": "evenly, on equal terms", "pos": "adverb", "src": "both", "conf": "high"},
-"başabəla": {"az": "Dəcəl, yaramaz, söz eşitməyən.", "en": "troublesome, unmanageable", "pos": "adjective", "src": "both", "conf": "high"},
-"başağrıdan": {"az": "Baş ağrısı törədən.", "en": "causing a headache", "pos": "adjective", "src": "musayev", "conf": "high"},
-"başaqçı": {"az": "Biçindən sonra tarlada qalan sünbülləri yığan adam.", "en": "gleaner", "pos": "noun", "src": "izahli", "conf": "high"},
-"başaqçılıq": {"az": "Biçindən sonra tökülmüş sünbülləri toplama işi.", "en": "gleaning", "pos": "noun", "src": "izahli", "conf": "high"},
-"başaqlı": {"az": "Sünbül vermiş, başağı olan (əkin).", "en": "eared, bearing ears of grain", "pos": "adjective", "src": "izahli", "conf": "high"},
-"başaparan": {"az": "Özbaşına, sözə baxmayan.", "en": "unruly", "pos": "adjective", "src": "musayev", "conf": "high"},
-"başaparma": {"az": "Özbaşınalıq, sözə baxmama.", "en": "unruliness", "pos": "noun", "src": "musayev", "conf": "high"},
-"baş-ayaq": {"az": "Başdan ayağa, bütünlüklə.", "en": "entirely, from head to foot", "pos": "adverb", "src": "izahli", "conf": "high"},
-"baş-beyin": {"az": "İnsanın başı.", "en": "head", "pos": "noun", "src": "both", "conf": "high"},
-"başcıq": {"az": "Kiçik, balaca baş.", "en": "small head", "pos": "noun", "src": "izahli", "conf": "high"},
-"başcıl": {"az": "Rəhbərlik edən, başda duran.", "en": "leading, chief", "pos": "adjective", "src": "izahli", "conf": "high"},
-"baş-göz": {"az": "İnsanın başı və üzü, görünüşü.", "en": "head and face; appearance", "pos": "noun", "src": "both", "conf": "high"},
-"başıaçıqlıq": {"az": "Papaqsız, başı açıq gəzmə halı.", "en": "bareheadedness", "pos": "noun", "src": "musayev", "conf": "high"},
-"başıaşağılıq": {"az": "Təvazökarlıq, sakit və mülayim olma.", "en": "modesty", "pos": "noun", "src": "musayev", "conf": "high"}
+"aylı-ulduzlu": {
+"az": "Ayın və ulduzların parladığı, aydın (gecə).",
+"en": "moonlit and starry",
+"pos": "adjective",
+"src": "both",
+"conf": "high"
+},
+"aynabənd": {
+"az": "Böyük pəncərələri olan şüşəli eyvan və ya otaq.",
+"en": "glazed veranda or gallery",
+"pos": "noun",
+"src": "both",
+"conf": "high"
+},
+"aynabəndli": {
+"az": "Şüşə ilə örtülmüş eyvanı olan (ev, bina).",
+"en": "having a glazed veranda",
+"pos": "adjective",
+"src": "both",
+"conf": "high"
+},
+"aynacıq": {
+"az": "Balaca, kiçik ölçülü güzgü.",
+"en": "small mirror",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"aynaçılıq": {
+"az": "Aynaçının peşəsi, şüşə və güzgü işi.",
+"en": "the trade of a glazier or mirror maker",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"aynalanmaq": {
+"az": "Pəncərəyə şüşə salınmaq və ya güzgü bərkidilmək.",
+"en": "to be glazed",
+"pos": "verb",
+"src": "both",
+"conf": "high"
+},
+"aynalı": {
+"az": "Üzərində güzgü və ya şüşə olan.",
+"en": "having a mirror or glass",
+"pos": "adjective",
+"src": "both",
+"conf": "high"
+},
+"aynasalan": {
+"az": "Pəncərələrə şüşə salan usta.",
+"en": "glazier",
+"pos": "noun",
+"src": "musayev",
+"conf": "high"
+},
+"aynasaz": {
+"az": "Güzgü və şüşə işləri görən usta.",
+"en": "mirror maker or glazier",
+"pos": "noun",
+"src": "izahli",
+"conf": "low"
+},
+"aynasız": {
+"az": "Pəncərəsi olmayan.",
+"en": "windowless",
+"pos": "adjective",
+"src": "musayev",
+"conf": "high"
+},
+"aynatutan": {
+"az": "Köhnə adətdə gəlin köçərkən onun önündə güzgü daşıyan adam.",
+"en": "person carrying a mirror before a bride in the wedding procession",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"ayparalı": {
+"az": "Üstündə aypara şəklində bəzək olan.",
+"en": "decorated with a crescent",
+"pos": "adjective",
+"src": "izahli",
+"conf": "high"
+},
+"ayrançilov": {
+"az": "Ayran içində bişirilən plov.",
+"en": "pilaf cooked in ayran",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"ayranlıq": {
+"az": "Köpəklər üçün ayran tökülən torpaq çuxuru.",
+"en": "pit dug for pouring ayran for dogs",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"ayrı-ayrı": {
+"az": "Bir-birindən ayrı olan, hər biri müstəqil.",
+"en": "separate or individual",
+"pos": "adjective",
+"src": "musayev",
+"conf": "high"
+},
+"ayrı-ayrılıqda": {
+"az": "Hər biri ayrıca, başqalarından asılı olmadan.",
+"en": "separately or individually",
+"pos": "adverb",
+"src": "musayev",
+"conf": "high"
+},
+"ayrıq": {
+"az": "Taxıllar fəsiləsindən olan çoxillik alaq otu.",
+"en": "couch grass",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"ayrıqotu": {
+"az": "Taxıllar fəsiləsindən olan çoxillik alaq otu.",
+"en": "couch grass",
+"pos": "noun",
+"src": "both",
+"conf": "high"
+},
+"ayrılış": {
+"az": "Ayrılma, bir-birindən uzaqlaşma.",
+"en": "parting or separation",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"ayrılışmaq": {
+"az": "Qarşılıqlı olaraq ayrılmaq, aradakı əlaqəni kəsmək.",
+"en": "to part from each other",
+"pos": "verb",
+"src": "izahli",
+"conf": "high"
+},
+"ayrılmazlıq": {
+"az": "Ayrılmayan, bölünməyən şeyin xüsusiyyəti.",
+"en": "inseparability",
+"pos": "noun",
+"src": "both",
+"conf": "high"
+},
+"ayrı-seçki": {
+"az": "Kiməsə üstünlük verib başqalarına haqsız münasibət göstərmə.",
+"en": "discrimination or favouritism",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"aysor": {
+"az": "Süryani dilinin ləhcəsində danışan kiçik xalq və onun nümayəndəsi.",
+"en": "Assyrian (people or person)",
+"pos": "noun",
+"src": "both",
+"conf": "high"
+},
+"ay-ulduz": {
+"az": "Ay və ulduz formasında qızıl qadın bəzəyi.",
+"en": "gold crescent-and-star ornament worn by women",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"ay-ulduzlu": {
+"az": "Üstündə ay və ulduz təsviri olan.",
+"en": "bearing a crescent and star image",
+"pos": "adjective",
+"src": "izahli",
+"conf": "high"
+},
+"azadə": {
+"az": "Sərbəst, heç nədən asılı olmayan.",
+"en": "free",
+"pos": "adjective",
+"src": "both",
+"conf": "high"
+},
+"azadəlik": {
+"az": "Azad olma halı, sərbəstlik.",
+"en": "freedom",
+"pos": "noun",
+"src": "both",
+"conf": "high"
+},
+"azadlıqsevər": {
+"az": "Azadlığa və müstəqilliyə can atan.",
+"en": "freedom-loving",
+"pos": "adjective",
+"src": "both",
+"conf": "high"
+},
+"azadlıqsevərlik": {
+"az": "Azadlığa olan böyük sevgi.",
+"en": "love of freedom",
+"pos": "noun",
+"src": "musayev",
+"conf": "high"
+},
+"azadmahı": {
+"az": "Qızılbalığın cavan balası.",
+"en": "young salmon",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"azadpərvər": {
+"az": "Azadlığı sevən, azadlıq tərəfdarı olan.",
+"en": "freedom-loving",
+"pos": "adjective",
+"src": "both",
+"conf": "high"
+},
+"azadpərvərlik": {
+"az": "Azadlığı sevmə xüsusiyyəti.",
+"en": "love of freedom",
+"pos": "noun",
+"src": "both",
+"conf": "high"
+},
+"azaldılmaq": {
+"az": "Miqdarı və ya ölçüsü kiçildilmək.",
+"en": "to be reduced",
+"pos": "verb",
+"src": "both",
+"conf": "high"
+},
+"azaltdırmaq": {
+"az": "Bir şeyi başqasının vasitəsilə azaltmaq.",
+"en": "to have something reduced",
+"pos": "verb",
+"src": "musayev",
+"conf": "high"
+},
+"azançılıq": {
+"az": "Məsciddə azan verən şəxsin vəzifəsi.",
+"en": "the calling of a muezzin",
+"pos": "noun",
+"src": "both",
+"conf": "high"
+},
+"azar-bezar": {
+"az": "Cürbəcür xəstəlik və naxoşluq.",
+"en": "all sorts of ailments",
+"pos": "noun",
+"src": "both",
+"conf": "high"
+},
+"azargəzdirən": {
+"az": "Xəstəlik yayan, infeksiya mənbəyi olan.",
+"en": "disease-carrying",
+"pos": "adjective",
+"src": "both",
+"conf": "high"
+},
+"azarkeşlik": {
+"az": "Bir komandanı və ya oyunçunu həvəslə dəstəkləmə.",
+"en": "being a fan or supporter",
+"pos": "noun",
+"src": "musayev",
+"conf": "high"
+},
+"azarlatmaq": {
+"az": "Birinin xəstələnməsinə səbəb olmaq.",
+"en": "to make someone ill",
+"pos": "verb",
+"src": "both",
+"conf": "high"
+},
+"azarlı-azarlı": {
+"az": "Xəstə olduğu halda, naxoş ola-ola.",
+"en": "while ill, despite being sick",
+"pos": "adverb",
+"src": "musayev",
+"conf": "low"
+},
+"azarsız-bezarsız": {
+"az": "Heç bir dərd-bəla, narahatlıq olmadan keçən.",
+"en": "trouble-free, harmless",
+"pos": "adjective",
+"src": "musayev",
+"conf": "high"
+},
+"azay": {
+"az": "Gileylənmə, narazılıq bildirmə.",
+"en": "complaint or grumbling",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"az-az": {
+"az": "Hər dəfə az miqdarda, tədricən.",
+"en": "a little at a time",
+"pos": "adverb",
+"src": "musayev",
+"conf": "high"
+},
+"azca-azca": {
+"az": "Bir dəfəyə yox, tədricən və kiçik miqdarda.",
+"en": "bit by bit",
+"pos": "adverb",
+"src": "both",
+"conf": "high"
+},
+"azdan-çoxdan": {
+"az": "Az da olsa, müəyyən qədər.",
+"en": "somewhat, to some extent",
+"pos": "adverb",
+"src": "both",
+"conf": "high"
+},
+"azdırılmaq": {
+"az": "Doğru yoldan çıxarılmaq, sapındırılmaq.",
+"en": "to be led astray",
+"pos": "verb",
+"src": "both",
+"conf": "high"
+},
+"azdırtmaq": {
+"az": "Başqasının əli ilə yolundan çıxartmaq.",
+"en": "to have someone led astray",
+"pos": "verb",
+"src": "izahli",
+"conf": "high"
+},
+"azəhəmiyyətli": {
+"az": "Böyük əhəmiyyəti olmayan, önəmsiz.",
+"en": "unimportant",
+"pos": "adjective",
+"src": "musayev",
+"conf": "high"
+},
+"azərbaycançılıq": {
+"az": "Azərbaycan xalqının mənəvi birliyinə əsaslanan milli ideologiya.",
+"en": "Azerbaijanism, the national idea of Azerbaijani unity",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"azərbaycanşünaslıq": {
+"az": "Azərbaycanın keçmişini, dilini və mədəniyyətini araşdıran elm sahələri.",
+"en": "Azerbaijani studies",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"azgüclü": {
+"az": "Gücü az olan, zəif.",
+"en": "weak, low-powered",
+"pos": "adjective",
+"src": "izahli",
+"conf": "high"
+},
+"azğın-azğın": {
+"az": "Azğınlıqla, qudurğan şəkildə.",
+"en": "wildly, in an unbridled way",
+"pos": "adverb",
+"src": "musayev",
+"conf": "low"
+},
+"azğınlamaq": {
+"az": "Azğın hala düşmək, qudurmaq.",
+"en": "to become wanton or unruly",
+"pos": "verb",
+"src": "musayev",
+"conf": "low"
+},
+"azıxantrop": {
+"az": "Azıx mağarasında çənə qalığı tapılmış qədim insan.",
+"en": "prehistoric human found in Azykh cave",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"azıq": {
+"az": "Ərzaq ehtiyatı, yol tədarükü.",
+"en": "provisions",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"azışdırmaq": {
+"az": "Yolundan çıxarmaq, azdırmaq.",
+"en": "to lead astray",
+"pos": "verb",
+"src": "izahli",
+"conf": "high"
+},
+"azışmaq": {
+"az": "Yolunu itirmək, doğru yoldan kənara çıxmaq.",
+"en": "to lose one's way",
+"pos": "verb",
+"src": "izahli",
+"conf": "high"
+},
+"azqüvvəli": {
+"az": "Qüvvəsi az olan, zəif.",
+"en": "weak; low-powered",
+"pos": "adjective",
+"src": "musayev",
+"conf": "high"
+},
+"azmanlıq": {
+"az": "Həddindən artıq iri olma, nəhənglik.",
+"en": "hugeness",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"azməhsuldar": {
+"az": "Az məhsul verən, səmərəsi aşağı olan.",
+"en": "low-yielding",
+"pos": "adjective",
+"src": "musayev",
+"conf": "high"
+},
+"azmərtəbəli": {
+"az": "Mərtəbələri az olan (bina).",
+"en": "low-rise, few-storeyed",
+"pos": "adjective",
+"src": "musayev",
+"conf": "high"
+},
+"azotlaşdırılmaq": {
+"az": "Tərkibinə azot əlavə edilmək.",
+"en": "to be enriched with nitrogen",
+"pos": "verb",
+"src": "izahli",
+"conf": "high"
+},
+"azotlu": {
+"az": "İçində azot olan.",
+"en": "containing nitrogen",
+"pos": "adjective",
+"src": "both",
+"conf": "high"
+},
+"azotsuz": {
+"az": "İçində azot olmayan.",
+"en": "nitrogen-free",
+"pos": "adjective",
+"src": "izahli",
+"conf": "high"
+},
+"aztirajlı": {
+"az": "Az nüsxədə çap olunan.",
+"en": "with a small print run",
+"pos": "adjective",
+"src": "musayev",
+"conf": "high"
+},
+"aztorpaqlı": {
+"az": "Kifayət qədər torpağı olmayan.",
+"en": "having little land",
+"pos": "adjective",
+"src": "musayev",
+"conf": "high"
+},
+"azyarpaq": {
+"az": "Yarpağı az olan, seyrək yarpaqlı.",
+"en": "sparsely leaved",
+"pos": "adjective",
+"src": "izahli",
+"conf": "high"
+},
+"azyaşlılıq": {
+"az": "Yaşca kiçik olma, uşaqlıq çağı.",
+"en": "young age, minority",
+"pos": "noun",
+"src": "musayev",
+"conf": "high"
+},
+"babalıq": {
+"az": "Doğma olmayan baba, ögey baba.",
+"en": "step-grandfather",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"babasilli": {
+"az": "Babasil xəstəliyindən əziyyət çəkən.",
+"en": "suffering from haemorrhoids",
+"pos": "adjective",
+"src": "izahli",
+"conf": "high"
+},
+"bablaşmaq": {
+"az": "Tay olmaq, bir-birinə uyğun gəlmək.",
+"en": "to match or become equal",
+"pos": "verb",
+"src": "izahli",
+"conf": "high"
+},
+"baca-baca": {
+"az": "Novruz axşamı evləri gəzib bayram payı yığmaq adəti.",
+"en": "Novruz custom of going door to door for holiday treats",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"bacaqlı": {
+"az": "Keçmişdə qadınların boyunbağı kimi taxdığı Hollandiyanın yaxud Avstriyanın qızıl sikkəsi.",
+"en": "old Dutch or Austrian gold coin worn as jewellery",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"bacalı": {
+"az": "Bacası olan.",
+"en": "having a chimney",
+"pos": "adjective",
+"src": "both",
+"conf": "high"
+},
+"bacalıq": {
+"az": "Damda baca qoymaq üçün ayrılmış yer.",
+"en": "place on a roof made for a chimney",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"bacardıqca": {
+"az": "İmkan daxilində, gücü çatdığı qədər.",
+"en": "as far as one can",
+"pos": "adverb",
+"src": "musayev",
+"conf": "high"
+},
+"bacarmaz": {
+"az": "Əlindən heç bir iş gəlməyən, bacarıqsız.",
+"en": "incapable or inept",
+"pos": "adjective",
+"src": "izahli",
+"conf": "high"
+},
+"bacasız": {
+"az": "Bacası olmayan.",
+"en": "chimneyless",
+"pos": "adjective",
+"src": "both",
+"conf": "high"
+},
+"bacılaşmaq": {
+"az": "Bir-biri ilə bacı kimi səmimi dost olmaq.",
+"en": "to become close as sisters",
+"pos": "verb",
+"src": "both",
+"conf": "high"
+},
+"badaqlanmaq": {
+"az": "Ayağına badaq vurulub büdrədilmək.",
+"en": "to be tripped up",
+"pos": "verb",
+"src": "both",
+"conf": "high"
+},
+"badaqlatmaq": {
+"az": "Başqasına birinin ayağına badaq vurdurmaq.",
+"en": "to have someone tripped up",
+"pos": "verb",
+"src": "musayev",
+"conf": "high"
+},
+"badaqlı": {
+"skip": "defined only by reference to an unstated second sense of badaq"
+},
+"badalaqlanmaq": {
+"az": "Ayağına badalaq vurulmaq, çelmələnmək.",
+"en": "to be tripped up",
+"pos": "verb",
+"src": "izahli",
+"conf": "high"
+},
+"badambacı": {
+"az": "Yaşlı qadına, qayınanaya və ya gəlinə hörmətlə müraciət sözü.",
+"en": "respectful form of address for older women or in-laws",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"badambuta": {
+"az": "Üzərində badam şəkilli naxışlar olan (parça).",
+"en": "with an almond-shaped (paisley) pattern",
+"pos": "adjective",
+"src": "izahli",
+"conf": "high"
+},
+"badamça": {
+"az": "Badama bənzəyən çiçəkli kiçik ağac, dəli badam.",
+"en": "wild almond, a small flowering tree",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"badamçörəyi": {
+"az": "İçinə şəkərli döyülmüş badam qoyulan kiçik şirin çörək.",
+"en": "small sweet pastry filled with crushed almonds",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"badamgöz": {
+"az": "Gözləri badam formasında olan.",
+"en": "almond-eyed",
+"pos": "adjective",
+"src": "musayev",
+"conf": "high"
+},
+"badamgözlü": {
+"az": "Badam şəkilli gözləri olan.",
+"en": "almond-eyed",
+"pos": "adjective",
+"src": "musayev",
+"conf": "high"
+},
+"badı": {
+"az": "Saxsıdan düzəldilmiş nimçə, boşqab.",
+"en": "earthenware dish",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"badımcanı": {
+"az": "Badımcan rənginə çalan, tünd bənövşəyi.",
+"en": "dark purple, aubergine-coloured",
+"pos": "adjective",
+"src": "both",
+"conf": "high"
+},
+"badi-səba": {
+"az": "Səhər əsən yüngül, sərin meh.",
+"en": "morning breeze",
+"pos": "noun",
+"src": "musayev",
+"conf": "high"
+},
+"badmintonçu": {
+"az": "Badminton oynayan idmançı.",
+"en": "badminton player",
+"pos": "noun",
+"src": "musayev",
+"conf": "high"
+},
+"badyaça": {
+"az": "Balaca vedrə, kiçik badya.",
+"en": "small tub or pail",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"baftaçı": {
+"az": "Bafta hazırlayan sənətkar.",
+"en": "braid maker",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"baftaçılıq": {
+"az": "Bafta hazırlama sənəti.",
+"en": "braid-making trade",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"baftalı": {
+"az": "Bafta ilə bəzədilmiş, kənarına bafta tikilmiş.",
+"en": "trimmed with braid",
+"pos": "adjective",
+"src": "izahli",
+"conf": "high"
+},
+"bağacıq": {
+"az": "Taxıl əkinlərinə ziyan vuran həşərat.",
+"en": "an insect pest of cereal crops",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"bağalıq": {
+"az": "Atın dırnağının üst hissəsi, tükün bitdiyi yer.",
+"en": "coronet of a horse's hoof",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"bağam": {
+"az": "Yarpaqlarından dəri boyası alınan enliyarpaqlı ağac.",
+"en": "broad-leaved tree whose leaves yield leather dye",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"bağara": {
+"az": "Dayaz quyudan su və ya neft çıxarmaq üçün düzəldilən qurğu.",
+"en": "device for drawing water or oil from shallow wells",
+"pos": "noun",
+"src": "izahli",
+"conf": "low"
+},
+"bağat": {
+"az": "Ağaclı-yaşıllıqlı yer, bağlıq.",
+"en": "gardens and orchards",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"bağ-bağat": {
+"az": "Bağlar və yaşıllıqlar, ağaclı yer.",
+"en": "gardens and greenery",
+"pos": "noun",
+"src": "both",
+"conf": "high"
+},
+"bağ-bağatlı": {
+"az": "Bağları və yaşıllığı bol olan, gözəl.",
+"en": "with gardens and greenery",
+"pos": "adjective",
+"src": "both",
+"conf": "high"
+},
+"bağ-bağça": {
+"az": "Bağ və gül bağçası olan yer.",
+"en": "gardens and flower beds",
+"pos": "noun",
+"src": "both",
+"conf": "high"
+},
+"bağ-bağçalı": {
+"az": "Bağı və güllüyü olan.",
+"en": "with gardens",
+"pos": "adjective",
+"src": "musayev",
+"conf": "high"
+},
+"bağbanlıq": {
+"az": "Bağbanın məşğuliyyəti, bağçılıq işi.",
+"en": "gardening as an occupation",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"bağ-bərə": {
+"az": "Evin yanındakı bağ və bostan.",
+"en": "garden plot by a house",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"bağça-bağ": {
+"az": "Gül və çiçək əkilmiş yer.",
+"en": "flower garden",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"bağçalı": {
+"az": "Həyətində gül bağçası olan.",
+"en": "having a garden",
+"pos": "adjective",
+"src": "izahli",
+"conf": "high"
+},
+"bağçalıq": {
+"az": "Kiçik bağ, güllük.",
+"en": "small garden",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"bağçıvan": {
+"az": "Bağçaya qulluq edən adam, bağban.",
+"en": "gardener",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"bağçıvanlıq": {
+"az": "Bağçıvanın gördüyü iş, bağbanlıq.",
+"en": "gardening",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"bağırbeyin": {
+"az": "Quzu ciyəri və beynindən bişirilən yemək.",
+"en": "dish of lamb liver and brains",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"bağırdaq": {
+"az": "Körpəni beşiyə bağlamaq üçün işlədilən bağ.",
+"en": "cradle strap for binding a baby",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"bağırdaqlamaq": {
+"az": "Körpəni beşikdə xüsusi bağla bərkitmək.",
+"en": "to strap a baby into the cradle",
+"pos": "verb",
+"src": "izahli",
+"conf": "high"
+},
+"bağırqan": {
+"az": "Tez-tez qışqıran, səs-küy salan.",
+"en": "loud, given to shouting",
+"pos": "adjective",
+"src": "izahli",
+"conf": "high"
+},
+"bağırsaqlıq": {
+"az": "Qarın boşluğunda bağırsaqların yerləşdiyi hissə.",
+"en": "intestinal region of the abdomen",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"bağırsaqsız": {
+"az": "Bağırsaqları olmayan (canlı).",
+"en": "lacking intestines",
+"pos": "adjective",
+"src": "izahli",
+"conf": "high"
+},
+"bağışlanmaq": {
+"az": "Hədiyyə kimi kiməsə verilmək.",
+"en": "to be given as a gift",
+"pos": "verb",
+"src": "izahli",
+"conf": "high"
+},
+"bağlanılmaq": {
+"az": "İp və ya bağla bərkidilmək.",
+"en": "to be tied or bound",
+"pos": "verb",
+"src": "musayev",
+"conf": "high"
+},
+"bağlayıcısız": {
+"az": "Bağlayıcı işlədilmədən qurulan (cümlə əlaqəsi).",
+"en": "asyndetic",
+"pos": "adjective",
+"src": "musayev",
+"conf": "high"
+},
+"bağlı-bağatlı": {
+"az": "Çoxlu bağı və yaşıllığı olan.",
+"en": "full of gardens and greenery",
+"pos": "adjective",
+"src": "izahli",
+"conf": "high"
+},
+"bağlı-bağçalı": {
+"az": "Bağı və gül bağçası olan.",
+"en": "with orchards and gardens",
+"pos": "adjective",
+"src": "izahli",
+"conf": "high"
+},
+"bağlıq": {
+"az": "Bağ salınmış yer, bağ sahəsi.",
+"en": "orchard or garden area",
+"pos": "noun",
+"src": "musayev",
+"conf": "high"
+},
+"bağpərəst": {
+"az": "Bağçılığı, meyvə ağacı yetişdirməyi çox sevən adam.",
+"en": "garden lover",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"bağrıbadaş": {
+"az": "Bir-birinə çox yaxın, ürəkdən bağlı (dost).",
+"en": "bosom, inseparable (friend)",
+"pos": "adjective",
+"src": "both",
+"conf": "high"
+},
+"bağrıqara": {
+"az": "Dərdli, qəmli, başına müsibət gəlmiş.",
+"en": "grief-stricken",
+"pos": "adjective",
+"src": "izahli",
+"conf": "high"
+},
+"bah": {
+"az": "Təəccüb və heyrət bildirən nida.",
+"en": "exclamation of surprise",
+"pos": "interjection",
+"src": "izahli",
+"conf": "high"
+},
+"bahacıl": {
+"az": "Mallarını yüksək qiymətə satan.",
+"en": "overcharging, selling at high prices",
+"pos": "adjective",
+"src": "izahli",
+"conf": "high"
+},
+"baharıstan": {
+"az": "Şeir dilində: bahar, çiçəklənmə çağı.",
+"en": "springtime (poetic)",
+"pos": "noun",
+"src": "izahli",
+"conf": "low"
+},
+"bahariyyə": {
+"az": "Klassik Şərq poeziyasında baharı tərənnüm edən şeir.",
+"en": "poem in praise of spring in classical Eastern literature",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"baharotu": {
+"az": "Erkən yazda bitən çox kiçik bir ot.",
+"en": "a tiny early-spring plant",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"baho": {
+"az": "Təəccüb ifadə edən nida.",
+"en": "exclamation of surprise",
+"pos": "interjection",
+"src": "izahli",
+"conf": "low"
+},
+"baxa-baxa": {
+"az": "Gözü ilə görə-görə, baxdığı halda.",
+"en": "while looking on",
+"pos": "adverb",
+"src": "musayev",
+"conf": "high"
+},
+"baxıcılıq": {
+"az": "Nəzarət etmə, gözətçilik işi.",
+"en": "supervision, caretaking",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"baxışmaq": {
+"az": "Bir-birinə nəzər salmaq.",
+"en": "to look at each other",
+"pos": "verb",
+"src": "both",
+"conf": "high"
+},
+"baxya": {
+"az": "Sıx və xırda tikiş.",
+"en": "fine close stitch",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"baxyalamaq": {
+"az": "Bir şeyi sıx, xırda tikişlə tikmək.",
+"en": "to sew with fine close stitches",
+"pos": "verb",
+"src": "izahli",
+"conf": "high"
+},
+"baxyalanmaq": {
+"az": "Sıx və xırda tikişlə tikilmək.",
+"en": "to be finely stitched",
+"pos": "verb",
+"src": "izahli",
+"conf": "high"
+},
+"baxyalı": {
+"az": "Sıx və möhkəm tikişlə tikilmiş.",
+"en": "finely stitched",
+"pos": "adjective",
+"src": "izahli",
+"conf": "high"
+},
+"baiskar": {
+"az": "Bir işin baş verməsinə səbəb olan.",
+"en": "responsible, being the cause",
+"pos": "adjective",
+"src": "both",
+"conf": "high"
+},
+"baiskarlıq": {
+"az": "Bir şeyə səbəb olma, günahkarlıq.",
+"en": "being the cause; culpability",
+"pos": "noun",
+"src": "both",
+"conf": "high"
+},
+"bakenbard": {
+"az": "Yanaqlarda saxlanılan tük.",
+"en": "sideburns",
+"pos": "noun",
+"src": "musayev",
+"conf": "high"
+},
+"bakenbardlı": {
+"az": "Bakenbard saxlamış, yanaq tükü olan.",
+"en": "with sideburns",
+"pos": "adjective",
+"src": "izahli",
+"conf": "high"
+},
+"bakteriyalı": {
+"az": "Tərkibində bakteriya olan.",
+"en": "bacterial",
+"pos": "adjective",
+"src": "musayev",
+"conf": "high"
+},
+"baqajçı": {
+"az": "Dəmiryolunda yük-baqajı qəbul edən işçi.",
+"en": "baggage clerk",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"baqajlıq": {
+"az": "Avtomobildə yük qoymaq üçün ayrılmış yer.",
+"en": "luggage compartment, car boot",
+"pos": "noun",
+"src": "both",
+"conf": "high"
+},
+"baqi": {
+"az": "Həmişəlik, əbədi olan.",
+"en": "eternal, everlasting",
+"pos": "adjective",
+"src": "izahli",
+"conf": "high"
+},
+"baqqallıq": {
+"az": "Baqqalın peşəsi, ərzaq alveri.",
+"en": "the grocer's trade",
+"pos": "noun",
+"src": "both",
+"conf": "high"
+},
+"balabacı": {
+"az": "Kiçiklərin böyük qadın qohuma hörmətlə müraciət sözü.",
+"en": "respectful term for an elder female relative",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"bala-bala": {
+"az": "Azar-azar, yavaş-yavaş.",
+"en": "little by little",
+"pos": "adverb",
+"src": "musayev",
+"conf": "high"
+},
+"balabançı": {
+"az": "Balaban çalan musiqiçi.",
+"en": "balaban player",
+"pos": "noun",
+"src": "both",
+"conf": "high"
+},
+"balaca-balaca": {
+"az": "Çox kiçik, xırda.",
+"en": "tiny",
+"pos": "adjective",
+"src": "musayev",
+"conf": "high"
+},
+"balacaboylu": {
+"az": "Boyu qısa olan.",
+"en": "short in stature",
+"pos": "adjective",
+"src": "musayev",
+"conf": "high"
+},
+"balacalaşdırılmaq": {
+"az": "Ölçüsü və ya həcmi kiçildilmək.",
+"en": "to be made smaller",
+"pos": "verb",
+"src": "both",
+"conf": "high"
+},
+"balacalaşdırmaq": {
+"az": "Bir şeyi kiçiltmək, xırda hala salmaq.",
+"en": "to make smaller",
+"pos": "verb",
+"src": "both",
+"conf": "high"
+},
+"balacanlı": {
+"az": "Uşaqlarını hədsiz dərəcədə sevən.",
+"en": "doting on one's children",
+"pos": "adjective",
+"src": "both",
+"conf": "high"
+},
+"balacanlılıq": {
+"az": "Uşaqlarına qarşı həddindən çox sevgi.",
+"en": "doting love for one's children",
+"pos": "noun",
+"src": "musayev",
+"conf": "high"
+},
+"balacığaz": {
+"az": "Kiçicik, balaca (əzizləmə ilə).",
+"en": "little one, tiny",
+"pos": "noun",
+"src": "musayev",
+"conf": "low"
+},
+"balaxon": {
+"az": "Üstdən geyilən enli iş xalatı.",
+"en": "loose overall",
+"pos": "noun",
+"src": "musayev",
+"conf": "high"
+},
+"balalaykaçı": {
+"az": "Balalayka çalan musiqiçi.",
+"en": "balalaika player",
+"pos": "noun",
+"src": "musayev",
+"conf": "high"
+},
+"balatı": {
+"az": "Xəmiri acıtmaq üçün maya.",
+"en": "leaven, ferment",
+"pos": "noun",
+"src": "both",
+"conf": "high"
+},
+"balaverən": {
+"az": "Bala verən, doğan (heyvan).",
+"en": "bearing young",
+"pos": "adjective",
+"src": "musayev",
+"conf": "low"
+},
+"balavermə": {
+"az": "Bala vermə qabiliyyəti, doğurqanlıq.",
+"en": "fertility, fecundity",
+"pos": "noun",
+"src": "musayev",
+"conf": "high"
+},
+"balbas": {
+"az": "Böyük cüssəli qoyun cinsi.",
+"en": "a large breed of sheep",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"balçı": {
+"az": "Arı saxlayıb bal əldə edən adam.",
+"en": "beekeeper",
+"pos": "noun",
+"src": "both",
+"conf": "high"
+},
+"baldırğanlıq": {
+"az": "Çoxlu baldırğan bitən yer.",
+"en": "place overgrown with hogweed",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"baldırıyoğun": {
+"az": "Baldırları yoğun olan.",
+"en": "thick-legged",
+"pos": "adjective",
+"src": "musayev",
+"conf": "high"
+},
+"baldırlamaq": {
+"az": "Birinin baldırından yapışıb tutmaq.",
+"en": "to grab someone by the calf",
+"pos": "verb",
+"src": "both",
+"conf": "high"
+},
+"baldöyən": {
+"az": "Şirəli, şirin çiçəkli ot bitkisi.",
+"en": "a succulent herb with sweet flowers",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"baletçi": {
+"az": "Baletdə rəqs edən artist.",
+"en": "ballet dancer",
+"pos": "noun",
+"src": "musayev",
+"conf": "high"
+},
+"baləng": {
+"az": "Zirəyə bənzəyən qara toxumlu dağ bitkisi.",
+"en": "a caraway-like mountain herb with black seeds",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"balgülü": {
+"az": "Çiçəkləri şirin olan dırmaşan bitki.",
+"en": "a climbing plant with sweet flowers",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"balıqəti": {
+"az": "Baldırın arxa tərəfindəki qalın əzələ.",
+"en": "calf muscle",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"balıqiçi": {
+"az": "Balığın qarnına doldurulan qozlu, soğanlı, kişmişli iç.",
+"en": "walnut, onion and raisin stuffing for fish",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"balıqlı": {
+"az": "İçində balıq olan.",
+"en": "containing fish, full of fish",
+"pos": "adjective",
+"src": "both",
+"conf": "high"
+},
+"balıqyetişdirən": {
+"az": "Balıq yetişdirməklə məşğul olan adam.",
+"en": "fish breeder",
+"pos": "noun",
+"src": "musayev",
+"conf": "high"
+},
+"balıqyetişdirmə": {
+"az": "Balıqların süni şəraitdə artırılması.",
+"en": "fish farming",
+"pos": "noun",
+"src": "both",
+"conf": "high"
+},
+"balışüzülük": {
+"az": "Balış üzü tikmək üçün yararlı parça.",
+"en": "fabric for pillowcases",
+"pos": "noun",
+"src": "musayev",
+"conf": "high"
+},
+"balka": {
+"az": "Tikintidə işlədilən dayaq tir.",
+"en": "beam, girder",
+"pos": "noun",
+"src": "musayev",
+"conf": "high"
+},
+"balkar": {
+"az": "Şimali Qafqazda yaşayan türk xalqı və onun nümayəndəsi.",
+"en": "Balkar (people or person)",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"balkarca": {
+"az": "Balkarların dilində.",
+"en": "in Balkar",
+"pos": "adverb",
+"src": "both",
+"conf": "high"
+},
+"balkonsuz": {
+"az": "Eyvanı olmayan.",
+"en": "without a balcony",
+"pos": "adjective",
+"src": "musayev",
+"conf": "high"
+},
+"balqabağı": {
+"az": "Balqabağa oxşayan, onun formasında olan.",
+"en": "pumpkin-shaped",
+"pos": "adjective",
+"src": "izahli",
+"conf": "high"
+},
+"ballıbadı": {
+"az": "Bal qatılmış şirin qoğal.",
+"en": "honey pastry",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"ballistik": {
+"az": "Ballistikaya aid, mərminin uçuşu ilə bağlı.",
+"en": "ballistic",
+"pos": "adjective",
+"src": "musayev",
+"conf": "high"
+},
+"bal-maskarad": {
+"az": "İştirakçıların maska taxdığı bal.",
+"en": "masquerade ball",
+"pos": "noun",
+"src": "musayev",
+"conf": "high"
+},
+"balsüzən": {
+"az": "Şandan balı ayırmaq üçün qurğu.",
+"en": "honey extractor",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"baltaçılıq": {
+"az": "Balta ilə ağac doğrama işi.",
+"en": "woodcutting with an axe",
+"pos": "noun",
+"src": "both",
+"conf": "high"
+},
+"baltadimdik": {
+"az": "Dimdiyi çox qalın olan quş.",
+"en": "a thick-billed bird",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"baltadiş": {
+"az": "Dişləri iri və möhkəm olan.",
+"en": "big-toothed",
+"pos": "adjective",
+"src": "both",
+"conf": "high"
+},
+"baltadişli": {
+"az": "İri dişləri olan.",
+"en": "big-toothed",
+"pos": "adjective",
+"src": "musayev",
+"conf": "high"
+},
+"baltaqayıran": {
+"az": "Balta düzəldən usta.",
+"en": "axe maker",
+"pos": "noun",
+"src": "musayev",
+"conf": "high"
+},
+"baltalı": {
+"az": "Balta tutmuş, baltası olan.",
+"en": "carrying an axe",
+"pos": "adjective",
+"src": "both",
+"conf": "high"
+},
+"balun": {
+"az": "Qaz və ya maye doldurulan metal yaxud plastik silindr.",
+"en": "cylinder or canister for gas or liquid",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"balzamin": {
+"az": "Bəzək üçün əkilən balzam bitkisi.",
+"en": "balsam (plant)",
+"pos": "noun",
+"src": "musayev",
+"conf": "high"
+},
+"balzamlanmaq": {
+"az": "Balzam hopdurularaq mumiyaya çevrilmək.",
+"en": "to be embalmed",
+"pos": "verb",
+"src": "both",
+"conf": "high"
+},
+"balzamlatmaq": {
+"az": "Başqasına balzamlama işini gördürmək.",
+"en": "to have something embalmed",
+"pos": "verb",
+"src": "musayev",
+"conf": "high"
+},
+"bambılılıq": {
+"az": "Yüngül, ciddiyyətsiz olma xüsusiyyəti.",
+"en": "flippancy",
+"pos": "noun",
+"src": "musayev",
+"conf": "high"
+},
+"banbal": {
+"az": "Böyük ölçülü barama.",
+"en": "large cocoon",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"bandajçı": {
+"az": "Bandaj hazırlayan usta.",
+"en": "bandage maker",
+"pos": "noun",
+"src": "both",
+"conf": "high"
+},
+"bandaq": {
+"az": "Saxlamaq üçün saplaqlarından ipə düzülmüş meyvələr və həmin ip.",
+"en": "string of fruit tied by the stems for storage",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"bandaqlanmaq": {
+"az": "Qışa saxlanmaq üçün saplağından ipə düzülmək.",
+"en": "to be strung up for winter storage (of fruit)",
+"pos": "verb",
+"src": "izahli",
+"conf": "high"
+},
+"bandaqlatmaq": {
+"az": "Meyvəni başqasına ipə düzdürmək.",
+"en": "to have fruit strung for storage",
+"pos": "verb",
+"src": "izahli",
+"conf": "high"
+},
+"bandaqlıq": {
+"az": "İpə düzülüb qışa saxlanmağa yararlı (meyvə).",
+"en": "suitable for stringing and storing (of fruit)",
+"pos": "adjective",
+"src": "izahli",
+"conf": "high"
+},
+"banderollamaq": {
+"az": "Bir şeyin üstünə banderol yapışdırmaq.",
+"en": "to put a band or wrapper on",
+"pos": "verb",
+"src": "izahli",
+"conf": "high"
+},
+"banderollanmaq": {
+"az": "Üstünə banderol yapışdırılmaq.",
+"en": "to be fitted with a band or wrapper",
+"pos": "verb",
+"src": "izahli",
+"conf": "high"
+},
+"banderollu": {
+"az": "Üstünə banderol vurulmuş.",
+"en": "bearing a band or wrapper",
+"pos": "adjective",
+"src": "izahli",
+"conf": "high"
+},
+"banderolsuz": {
+"az": "Üstündə banderol olmayan.",
+"en": "without a band or wrapper",
+"pos": "adjective",
+"src": "izahli",
+"conf": "high"
+},
+"banditcəsinə": {
+"az": "Quldur kimi, quldurlara xas tərzdə.",
+"en": "like a bandit",
+"pos": "adverb",
+"src": "both",
+"conf": "high"
+},
+"banditlik": {
+"az": "Silahlı quldurluq fəaliyyəti.",
+"en": "banditry",
+"pos": "noun",
+"src": "musayev",
+"conf": "high"
+},
+"bandurçu": {
+"az": "Bandura çalan musiqiçi.",
+"en": "bandura player",
+"pos": "noun",
+"src": "both",
+"conf": "high"
+},
+"bankrot": {
+"az": "Borclarını ödəyə bilməyən, müflis olmuş şəxs.",
+"en": "bankrupt",
+"pos": "noun",
+"src": "musayev",
+"conf": "high"
+},
+"banlaşmaq": {
+"az": "Birlikdə ucadan banlamaq və ya qışqırmaq.",
+"en": "to crow or shout together",
+"pos": "verb",
+"src": "both",
+"conf": "high"
+},
+"bantlı": {
+"az": "Bant bağlanmış, bantı olan.",
+"en": "with a bow or ribbon",
+"pos": "adjective",
+"src": "both",
+"conf": "high"
+},
+"bapbalaca": {
+"az": "Çox kiçik, lap balaca.",
+"en": "very small, tiny",
+"pos": "adjective",
+"src": "musayev",
+"conf": "high"
+},
+"barabançı": {
+"az": "Təbil çalan musiqiçi.",
+"en": "drummer",
+"pos": "noun",
+"src": "both",
+"conf": "high"
+},
+"barak": {
+"az": "Müvəqqəti yaşayış üçün tikilmiş sadə bina.",
+"en": "barracks, hut",
+"pos": "noun",
+"src": "musayev",
+"conf": "high"
+},
+"baramaayıran": {
+"az": "Baramaları çeşidləyən işçi.",
+"en": "cocoon sorter",
+"pos": "noun",
+"src": "musayev",
+"conf": "high"
+},
+"baramaçı": {
+"az": "İpək qurdu saxlayıb bəsləyən adam.",
+"en": "silkworm breeder",
+"pos": "noun",
+"src": "both",
+"conf": "high"
+},
+"baramalamaq": {
+"az": "Qurdun ətrafına ipəkdən qoza toxumaq.",
+"en": "to spin a cocoon",
+"pos": "verb",
+"src": "izahli",
+"conf": "high"
+},
+"barbar": {
+"az": "Vəhşi, mədəniyyətdən uzaq, kobud adam.",
+"en": "barbarian",
+"pos": "noun",
+"src": "both",
+"conf": "high"
+},
+"barbarcasına": {
+"az": "Vəhşi kimi, amansızcasına.",
+"en": "barbarically",
+"pos": "adverb",
+"src": "musayev",
+"conf": "high"
+},
+"barbaris": {
+"az": "Turş meyvəli tikanlı kol, zirinc.",
+"en": "barberry",
+"pos": "noun",
+"src": "musayev",
+"conf": "high"
+},
+"barbarlıq": {
+"az": "Vəhşilik, mədəniyyətsiz davranış.",
+"en": "barbarism",
+"pos": "noun",
+"src": "both",
+"conf": "high"
+},
+"bardan": {
+"az": "Pambıq, yun və s. doldurmaq üçün iri kisə.",
+"en": "large sack",
+"pos": "noun",
+"src": "both",
+"conf": "high"
+},
+"bardanlamaq": {
+"az": "Bir şeyi iri kisəyə yığmaq.",
+"en": "to pack into large sacks",
+"pos": "verb",
+"src": "izahli",
+"conf": "high"
+},
+"bardaş": {
+"az": "Ayaqları çarpaz qatlayıb oturma tərzi.",
+"en": "cross-legged sitting position",
+"pos": "noun",
+"src": "musayev",
+"conf": "high"
+},
+"barxana": {
+"az": "Ev əşyaları, köçərkən yığılan yük.",
+"en": "household goods and belongings",
+"pos": "noun",
+"src": "both",
+"conf": "high"
+},
+"barılamaq": {
+"az": "Ətrafına hasar və ya divar çəkmək.",
+"en": "to wall or fence in",
+"pos": "verb",
+"src": "izahli",
+"conf": "high"
+},
+"barılatmaq": {
+"az": "Başqasına hasar və ya divar tikdirmək.",
+"en": "to have a wall or fence built",
+"pos": "verb",
+"src": "izahli",
+"conf": "high"
+},
+"barıncı": {
+"az": "Paxlalılardan olan bir alaq otu.",
+"en": "a leguminous weed",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"barındırmaq": {
+"az": "Yedirib-içirib saxlamaq, qoruyub himayə etmək.",
+"en": "to feed and shelter",
+"pos": "verb",
+"src": "izahli",
+"conf": "high"
+},
+"barışdırılmaq": {
+"az": "Kiminləsə barışığa gətirilmək.",
+"en": "to be reconciled",
+"pos": "verb",
+"src": "musayev",
+"conf": "high"
+},
+"barıtxana": {
+"az": "Barıt hazırlanan yer.",
+"en": "gunpowder works",
+"pos": "noun",
+"src": "both",
+"conf": "high"
+},
+"barıtlamaq": {
+"az": "Silaha barıt doldurmaq.",
+"en": "to load with gunpowder",
+"pos": "verb",
+"src": "izahli",
+"conf": "high"
+},
+"barıtlıq": {
+"az": "Barıt saxlamaq üçün qab.",
+"en": "powder flask",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"barizlik": {
+"az": "Aydınlıq, aşkar olma.",
+"en": "obviousness, clarity",
+"pos": "noun",
+"src": "musayev",
+"conf": "high"
+},
+"barj": {
+"az": "Yedəkdə çəkilən yastıdibli iri yük gəmisi.",
+"en": "barge",
+"pos": "noun",
+"src": "both",
+"conf": "high"
+},
+"barkas": {
+"az": "Hərbi gəmilərdə işlədilən böyük qayıq.",
+"en": "launch, longboat",
+"pos": "noun",
+"src": "musayev",
+"conf": "high"
+},
+"barmaqlı": {
+"az": "Barmaqlara malik olan.",
+"en": "having fingers",
+"pos": "adjective",
+"src": "both",
+"conf": "high"
+},
+"barmaqsız": {
+"az": "Barmağı olmayan və ya barmağını itirmiş.",
+"en": "fingerless",
+"pos": "adjective",
+"src": "both",
+"conf": "high"
+},
+"barn": {
+"az": "Çəpər, hasar, qoruyucu divar.",
+"en": "fence or wall",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"barometrik": {
+"az": "Barometrlə, atmosfer təzyiqi ilə bağlı olan.",
+"en": "barometric",
+"pos": "adjective",
+"src": "musayev",
+"conf": "high"
+},
+"baronluq": {
+"az": "Baron titulu.",
+"en": "barony",
+"pos": "noun",
+"src": "both",
+"conf": "high"
+},
+"barrikada": {
+"az": "Küçədə qurulan müdafiə səddi.",
+"en": "barricade",
+"pos": "noun",
+"src": "musayev",
+"conf": "high"
+},
+"barsızlanmaq": {
+"az": "Bar verməz olmaq, məhsulsuz qalmaq.",
+"en": "to become fruitless",
+"pos": "verb",
+"src": "musayev",
+"conf": "high"
+},
+"barsızlaşmaq": {
+"az": "Meyvə verməyən hala düşmək.",
+"en": "to become fruitless or barren",
+"pos": "verb",
+"src": "musayev",
+"conf": "high"
+},
+"barsızlıq": {
+"az": "Meyvə verməmə, məhsulsuz olma.",
+"en": "fruitlessness",
+"pos": "noun",
+"src": "both",
+"conf": "high"
+},
+"barverici": {
+"az": "Bol meyvə və məhsul verən.",
+"en": "fruitful, fertile",
+"pos": "adjective",
+"src": "both",
+"conf": "high"
+},
+"barvermə": {
+"az": "Bitkinin meyvə gətirməsi.",
+"en": "fruiting",
+"pos": "noun",
+"src": "musayev",
+"conf": "high"
+},
+"basarat": {
+"az": "Ağıl gözü, dərrakə, uzaqgörənlik.",
+"en": "insight, discernment",
+"pos": "noun",
+"src": "izahli",
+"conf": "low"
+},
+"basdalatmaq": {
+"az": "Başqasına bir şeyi tapdalatmaq.",
+"en": "to have something trampled",
+"pos": "verb",
+"src": "musayev",
+"conf": "high"
+},
+"basıb-əzmək": {
+"az": "Ayaq altına salıb tapdalamaq, əzmək.",
+"en": "to trample down, to crush",
+"pos": "verb",
+"src": "musayev",
+"conf": "high"
+},
+"basıcı": {
+"az": "Təzyiq göstərən, sıxan.",
+"en": "pressing, oppressive",
+"pos": "adjective",
+"src": "izahli",
+"conf": "high"
+},
+"basıq": {
+"az": "Yastılaşmış, içəri çökmüş.",
+"en": "flattened, sunken",
+"pos": "adjective",
+"src": "both",
+"conf": "high"
+},
+"basıqlıq": {
+"az": "Çökük, yastı olma halı.",
+"en": "flatness, concavity",
+"pos": "noun",
+"src": "both",
+"conf": "high"
+},
+"basım": {
+"az": "Gəminin sıxışdırıb çıxardığı suyun həcmi (su basımı).",
+"en": "displacement (of a ship)",
+"pos": "noun",
+"src": "both",
+"conf": "high"
+},
+"basırıqlıq": {
+"az": "Yuxuda boğulma və sıxılma hissi.",
+"en": "nightmare, sleep oppression",
+"pos": "noun",
+"src": "musayev",
+"conf": "low"
+},
+"basmadüymə": {
+"az": "İki metal hissəsi bir-birinə keçən düymə, knopka.",
+"en": "press stud, snap fastener",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"basmaqəlib": {
+"az": "Yenilik olmadan korkoranə təqlid edilmiş, şablon.",
+"en": "stereotyped, clichéd",
+"pos": "adjective",
+"src": "izahli",
+"conf": "high"
+},
+"başabaş": {
+"az": "Bərabər, nə artıq, nə əskik.",
+"en": "evenly, on equal terms",
+"pos": "adverb",
+"src": "both",
+"conf": "high"
+},
+"başabəla": {
+"az": "Dəcəl, yaramaz, söz eşitməyən.",
+"en": "troublesome, unmanageable",
+"pos": "adjective",
+"src": "both",
+"conf": "high"
+},
+"başağrıdan": {
+"az": "Baş ağrısı törədən.",
+"en": "causing a headache",
+"pos": "adjective",
+"src": "musayev",
+"conf": "high"
+},
+"başaqçı": {
+"az": "Biçindən sonra tarlada qalan sünbülləri yığan adam.",
+"en": "gleaner",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"başaqçılıq": {
+"az": "Biçindən sonra tökülmüş sünbülləri toplama işi.",
+"en": "gleaning",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"başaqlı": {
+"az": "Sünbül vermiş, başağı olan (əkin).",
+"en": "eared, bearing ears of grain",
+"pos": "adjective",
+"src": "izahli",
+"conf": "high"
+},
+"başaparan": {
+"az": "Özbaşına, sözə baxmayan.",
+"en": "unruly",
+"pos": "adjective",
+"src": "musayev",
+"conf": "high"
+},
+"başaparma": {
+"az": "Özbaşınalıq, sözə baxmama.",
+"en": "unruliness",
+"pos": "noun",
+"src": "musayev",
+"conf": "high"
+},
+"baş-ayaq": {
+"az": "Başdan ayağa, bütünlüklə.",
+"en": "entirely, from head to foot",
+"pos": "adverb",
+"src": "izahli",
+"conf": "high"
+},
+"baş-beyin": {
+"az": "İnsanın başı.",
+"en": "head",
+"pos": "noun",
+"src": "both",
+"conf": "high"
+},
+"başcıq": {
+"az": "Kiçik, balaca baş.",
+"en": "small head",
+"pos": "noun",
+"src": "izahli",
+"conf": "high"
+},
+"başcıl": {
+"az": "Rəhbərlik edən, başda duran.",
+"en": "leading, chief",
+"pos": "adjective",
+"src": "izahli",
+"conf": "high"
+},
+"baş-göz": {
+"az": "İnsanın başı və üzü, görünüşü.",
+"en": "head and face; appearance",
+"pos": "noun",
+"src": "both",
+"conf": "high"
+},
+"başıaçıqlıq": {
+"az": "Papaqsız, başı açıq gəzmə halı.",
+"en": "bareheadedness",
+"pos": "noun",
+"src": "musayev",
+"conf": "high"
+},
+"başıaşağılıq": {
+"az": "Təvazökarlıq, sakit və mülayim olma.",
+"en": "modesty",
+"pos": "noun",
+"src": "musayev",
+"conf": "high"
+}
 }

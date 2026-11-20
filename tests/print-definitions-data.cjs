@@ -1,0 +1,81 @@
+// Print-dictionary definition layer: only fills headwords that had no definition,
+// cites every definition and link, and never weakens reviewed data or false-relation blocks.
+const fs = require('fs'), vm = require('vm'), assert = require('node:assert/strict'), s = { window: {} };
+for (const f of ['data', 'lexicon', 'grammar', 'vocabulary', 'review', 'bilingual', 'expansion', 'nominal', 'additions', 'relations',
+  'references', 'growth', 'orthography-lexical', 'orthography-lexical-evidence', 'orthography', 'verification', 'print-definitions', 'galaxy-data'])
+  vm.runInNewContext(fs.readFileSync('dist/' + f + '.js', 'utf8'), s);
+const w = s.window, { createModel } = require('../dist/model.js');
+const args = [w.WORD_WEB_DATA, w.WORD_WEB_EXTRA, w.WORD_WEB_GRAMMAR, w.WORD_WEB_VOCABULARY, w.WORD_WEB_REVIEW, w.WORD_WEB_BILINGUAL,
+  w.WORD_WEB_EXPANSION, w.WORD_WEB_NOMINAL, w.WORD_WEB_ADDITIONS, w.WORD_WEB_RELATIONS, w.WORD_WEB_REFERENCES, w.WORD_WEB_GROWTH,
+  w.WORD_WEB_VERIFICATION, w.WORD_WEB_ORTHOGRAPHY, w.WORD_WEB_ORTHOGRAPHY_LEXICAL];
+const before = createModel(...args), m = createModel(...args, w.WORD_WEB_PRINT_DEFINITIONS), layer = w.WORD_WEB_PRINT_DEFINITIONS;
+const attribution = JSON.parse(fs.readFileSync('dist/print-definitions-attribution.json', 'utf8'));
+const METHODS = new Set(['paraphrase', 'derivation', 'cross-reference', 'rule']);
+const POS = new Set(['noun', 'verb', 'adjective', 'adverb', 'numeral', 'pronoun', 'interjection', 'postposition', 'conjunction', 'particle', 'phrase']);
+
+// Same headwords, same identities and the same atlas: the layer adds text and links only.
+assert.equal(m.nodes.length, before.nodes.length);
+assert.equal(m.nodes.length, w.WORD_GALAXY_DATA.points.length + before.orthographyNodes.length);
+for (const n of before.nodes) assert.equal(m.byWord.get(n.w).id, n.id, n.w + ' persistent identity');
+
+// Existing definitions are untouched; new ones fill only empty spelling entries.
+let filled = 0;
+for (const n of before.nodes) {
+  const after = m.byWord.get(n.w), had = n.az?.trim() && n.en?.trim();
+  if (had) { assert.equal(after.az, n.az, n.w); assert.equal(after.en, n.en, n.w); assert(!after.definitionMethod, n.w + ' keeps its reviewed definition'); continue; }
+  if (!layer.definitions[n.w]) continue;
+  filled++;
+  assert(n.orthographyPage, n.w + ' is a spelling entry');
+  assert(after.az.trim() && after.en.trim() && !after.special, n.w + ' now defined');
+  assert(METHODS.has(after.definitionMethod), n.w);
+}
+assert.equal(filled, Object.keys(layer.definitions).length, 'every layer definition is used');
+assert.equal(filled, attribution.summary.definitions);
+for (const [word, d] of Object.entries(layer.definitions)) {
+  assert(METHODS.has(d.method), word);
+  assert(POS.has(d.pos), word + ' ' + d.pos);
+  assert(/^\S/.test(d.az) && /[.!?»]$/.test(d.az.trim()) || d.method === 'cross-reference', word + ' az sentence');
+  assert(d.en.trim().length >= 2 && d.en.length <= 400, word + ' en gloss');
+  // Undecoded legacy-font text shows up as Cyrillic or as runs of Latin-1 look-alike letters.
+  assert(!/[\u0400-\u04ff]|[\u00c0-\u00ff]{3}/.test((d.az + d.en).replace(/[\u00e7\u00c7\u00f6\u00d6\u00fc\u00dc\u00e9]/g, '')), word + ' decoded text');
+  assert(d.refs.length && d.refs.every(r => r.title && /^https:\/\//.test(r.url)), word + ' cited');
+  if (d.method === 'paraphrase') assert(d.refs.some(r => /izahli_lugeti|Azerbaycanca_Ingilisce/.test(r.url)), word + ' paraphrase cites print evidence');
+  if (d.method === 'rule' || d.method === 'derivation') assert(m.byWord.has(d.base), word + ' names an existing base word');
+  if (d.method === 'cross-reference') assert(m.byWord.has(d.see), word + ' names an existing target');
+}
+
+// Links join existing headwords once, carry a cited reason, and respect every block list.
+const edge = (a, b, t) => m.related(m.byWord.get(a)).find(r => r.node.w === b && r.edge.type === t)?.edge;
+const known = new Set(before.edges.map(e => [e.a.w, e.b.w].sort().join('|')));
+let added = 0;
+for (const [a, b, kind, , , proofs] of layer.edges) {
+  assert(m.byWord.has(a) && m.byWord.has(b) && a !== b, a + ' ' + b);
+  assert(['root', 'syn', 'topic'].includes(kind));
+  assert(!known.has([a, b].sort().join('|')), a + ' ' + b + ' was not already connected');
+  assert(proofs.length && proofs.every(p => p.senseAz && p.senseEn && p.refs.length && p.refs.every(r => /^https:\/\//.test(r.url))));
+  if (edge(a, b, kind)) added++;
+}
+assert(added >= layer.edges.length * 0.99, 'layer links reach the graph');
+for (const layerName of ['WORD_WEB_REVIEW', 'WORD_WEB_RELATIONS', 'WORD_WEB_GROWTH', 'WORD_WEB_VERIFICATION'])
+  for (const [a, b, t] of w[layerName]?.blocked || []) assert(!edge(a, b, t), a + ' ' + b + ' stays blocked');
+for (const [a, b, t] of [['evsiz', 'siz', 'root'], ['vətəndaş', 'daş', 'root'], ['xilaskar', 'kar', 'root'], ['beşinci', 'inci', 'root'],
+  ['dönüş', 'iş', 'root'], ['vətəndaş', 'daş', 'topic']])
+  assert(!edge(a, b, t), a + ' ' + b + ' false relation');
+// Suffix and compound rules never link lexicalised words to look-alike bases.
+const layerPairs = new Set(layer.edges.map(e => [e[0], e[1]].sort().join('|')));
+for (const [a, b] of [['qaraçı', 'qara'], ['alma', 'almaq'], ['dəli', 'də'], ['balıq', 'bal'], ['qardaş', 'qar'], ['ataş', 'ata'], ['bacarıq', 'bacar']])
+  assert(!layerPairs.has([a, b].sort().join('|')), a + ' ' + b + ' look-alike base');
+
+// Representative entries from each method.
+const node = word => m.byWord.get(word);
+assert.equal(node('mumiyalama').definitionMethod, 'derivation');
+assert.match(node('mumiyalama').en, /embalm/);
+assert(edge('mumiyalama', 'mumiyalamaq', 'root'));
+assert.equal(node('elektrocərrahiyyə').en, 'electrosurgery');
+assert(edge('damardaxili', 'damar', 'topic') && edge('damardaxili', 'daxili', 'topic'));
+assert.equal(node('stulsuz').en, 'without chair');
+const degree = model => { const d = new Map(); for (const e of model.edges) { d.set(e.a.w, 1); d.set(e.b.w, 1); } return model.nodes.filter(n => !d.has(n.w)).length; };
+const isolatedBefore = degree(before), isolatedAfter = degree(m);
+assert(isolatedAfter < isolatedBefore, 'fewer isolated words');
+assert.equal(attribution.summary.isolated_after, isolatedAfter);
+console.log(`PASS ${filled} new cited definitions (${Object.entries(attribution.summary.definitions_by_method).map(([k, v]) => v + ' ' + k).join(', ')}), ${layer.edges.length} new links; isolated words ${isolatedBefore} → ${isolatedAfter}; reviewed text, identities and blocks preserved.`);

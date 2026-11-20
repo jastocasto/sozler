@@ -35,6 +35,20 @@ ATTRIBUTION = ROOT / 'dist/print-definitions-attribution.json'
 ORTHOGRAPHY_URL = 'https://www.dilcilik.az/kitabxana/arasdirmalar/Orfoqrafiya_2021.pdf'
 GRAMMAR = {'title': 'A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)',
            'url': 'https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI'}
+SPELLING_RULES = {'title': 'Azərbaycan dilinin orfoqrafiya qaydaları', 'url': 'https://e-qanun.az/framework/42073'}
+# Learned prefixes written solidly with the following word, with their English combining forms.
+PREFIXES = {
+    'aero': 'aero', 'anti': 'anti', 'astro': 'astro', 'avto': 'auto', 'bio': 'bio', 'elektro': 'electro',
+    'geo': 'geo', 'hidro': 'hydro', 'infra': 'infra', 'kiber': 'cyber', 'kino': 'film ', 'kontr': 'counter',
+    'makro': 'macro', 'meqa': 'mega', 'mikro': 'micro', 'mini': 'mini', 'mono': 'mono', 'multi': 'multi',
+    'neo': 'neo', 'poli': 'poly', 'psixo': 'psycho', 'radio': 'radio ', 'sosio': 'socio', 'super': 'super',
+    'tele': 'tele', 'termo': 'thermo', 'ultra': 'ultra', 'video': 'video ', 'foto': 'photo', 'nano': 'nano',
+    'kilo': 'kilo', 'santi': 'centi', 'milli': 'milli', 'vitse': 'vice-', 'eks': 'ex-', 'post': 'post-',
+}
+# Endings that are dictionary headwords but act as suffixes at the end of a word.
+SUFFIX_LIKE = {'dan', 'dən', 'lıq', 'lik', 'luq', 'lük', 'çılıq', 'çilik', 'ləmə', 'lama', 'lamaq', 'ləmək', 'lar', 'lər',
+               'mış', 'miş', 'muş', 'müş', 'acaq', 'əcək', 'ası', 'əsi', 'daş', 'dar', 'kar', 'gar', 'xana', 'stan',
+               'baz', 'keş', 'kəş', 'dan', 'çı', 'çi', 'ənək', 'anaq'}
 POS = {'noun', 'verb', 'adjective', 'adverb', 'numeral', 'pronoun', 'interjection', 'postposition',
        'conjunction', 'particle', 'phrase'}
 EXPLICIT_FROM = re.compile(r'^"([^"]+)"\s*-?\s*(?:dan|dən|ın|in|un|ün)?\s*(?:sözündən\s+)?'
@@ -82,17 +96,31 @@ def infinitive_ending(stem):
 
 def gloss(node):
     text = re.sub(r'\([^)]*\)?', '', node['en'])
-    parts = [part.strip() for part in re.split(r'[;,]', text) if part.strip()]
+    parts = [part.strip() for part in re.split(r'[;,:]|\.\s', text) if part.strip()]
     if node.get('pos') == 'verb':
         parts = [part for part in parts if part.lower().startswith('to ')] or parts
     text = parts[0] if parts else node['en']
-    text = re.sub(r'^(?:to|a|an|the)\s+', '', text, flags=re.I)
-    return text.rstrip('.:').strip()
+    text = re.sub(r'^(?:to|a|an|the)\s+', '', text, flags=re.I).rstrip('.:').strip()
+    # Lower-case a sentence-initial capital, but keep acronyms and proper names written in capitals.
+    return text[:1].lower() + text[1:] if text[:1].isupper() and not text[1:2].isupper() and node.get('pos') != 'name' else text
 
 
 def clean_form(form):
     form = (form or '').strip()
     return '' if not form or re.search(r'\b(?:or|and|of|to|the|a|an)$|[,;:(]$', form) else form
+
+
+def possessive_stem(word):
+    """Undo a third-person possessive ending and the q/k voicing it triggers."""
+    match = re.fullmatch(r'(.+?)(s?)([ıiuü])', word)
+    if not match or h4(match[1]) != match[3]:
+        return None
+    stem, buffer = match[1], match[2]
+    if buffer:
+        return stem if stem[-1] in VOWELS else None
+    if stem[-1] in VOWELS:
+        return None
+    return stem[:-1] + {'ğ': 'q', 'y': 'k'}.get(stem[-1], stem[-1]) if stem[-1] in 'ğy' else stem
 
 
 def ngrams(text, size=6):
@@ -320,8 +348,83 @@ class Builder:
     @staticmethod
     def mentions(own, base_word, base):
         text = (own['az'] + ' ' + own['en']).lower()
-        g = gloss(base).lower()
-        return base_word.lower() in text or (len(g) >= 3 and re.search(r'\b' + re.escape(g) + r'\b', text) is not None)
+        g = gloss(base).lower() if base else ''
+        whole = lambda term: re.search(r'(?<!\w)' + re.escape(term) + r'(?!\w)', text) is not None
+        return whole(base_word.lower()) or (len(g) >= 3 and whole(g))
+
+    def usable(self, word):
+        node = self.defined(word)
+        return node if node and node['pos'] not in ('function', 'form', 'particle') and not word.startswith('-') else None
+
+    def compound_parts(self, word):
+        """Return (parts, kind) for a compound of existing headwords, or None."""
+        if re.search(r'[- ]', word):
+            parts = []
+            for piece in re.split(r'[- ]', word):
+                candidates = [piece] + [piece[:-size] for size in (3, 2, 1) if piece.endswith(('sı', 'si', 'su', 'sü', 'ı', 'i', 'u', 'ü', 'nı', 'ni')) and len(piece) - size >= 3]
+                found = next((c for c in candidates if len(c) >= 3 and self.usable(c)), None)
+                if not found:
+                    return None
+                parts.append(found)
+            return (parts, 'paired' if '-' in word else 'phrase') if len(set(parts)) == len(parts) >= 2 else None
+        for prefix, english in PREFIXES.items():
+            rest = word[len(prefix):]
+            if word.startswith(prefix) and len(rest) >= 4 and self.usable(rest):
+                return [prefix, rest], 'prefix'
+        best = None
+        for i in range(3, len(word) - 3):
+            a, b = word[:i], word[i:]
+            if b in SUFFIX_LIKE or len(b) < 4 or (b[0] in VOWELS and len(b) < 6):
+                continue
+            if self.usable(a) and self.usable(b):
+                score = min(len(a), len(b))
+                if not best or score > best[0]:
+                    best = (score, [a, b])
+            elif self.usable(a) and not best:
+                # Izafet compounds: the second noun takes the possessive (dəvə + quş-u, yer + fındığ-ı).
+                stem = possessive_stem(b)
+                if stem and len(stem) >= 3 and len(a) + len(stem) >= 7 and stem not in SUFFIX_LIKE and self.usable(stem) and self.usable(stem)['pos'] in ('noun', 'word'):
+                    best = (0, [a, stem])
+        return (best[1], 'closed') if best else None
+
+    def compounds(self):
+        for word in list(self.nodes):
+            if self.degree[word] and not self.undefined(word):
+                continue
+            found = self.compound_parts(word)
+            if not found:
+                continue
+            parts, kind = found
+            page = self.nodes[word].get('page')
+            refs = ([spelling_source(page)] if page else []) + [SPELLING_RULES]
+            own = self.defined(word)
+            linked = []
+            for part in parts:
+                if part not in self.nodes:
+                    continue
+                base = self.defined(part)
+                if own and self.definitions.get(word, {}).get('method') != 'rule' and not self.mentions(own, part, base):
+                    continue
+                before = len(self.edges)
+                self.link(word, part, 'topic', 'Mürəkkəb söz · tərkib hissəsi', f'«{part}» bu mürəkkəb sözün tərkib hissəsidir.',
+                          f'{part} is a component of this compound.', refs, 'compound')
+                linked.append(len(self.edges) > before)
+            if self.undefined(word):
+                if kind == 'prefix':
+                    prefix, rest = parts
+                    g = gloss(self.defined(rest))
+                    az = f'«{rest}» sözünə {prefix}- ön hissəsi artırılmaqla düzələn söz.'
+                    en = f'{PREFIXES[prefix]}{g}' if not PREFIXES[prefix].endswith(' ') else f'{PREFIXES[prefix]}{g}'
+                    self.define(word, az, en, self.defined(rest)['pos'] if self.defined(rest)['pos'] in POS else 'noun', refs, 'rule', base=rest)
+                else:
+                    glosses = [f'{part} ({gloss(self.defined(part))})' for part in parts]
+                    names = ' və '.join(f'«{part}»' for part in parts)
+                    az = {'paired': f'{names} sözlərindən düzələn qoşa söz.', 'phrase': f'{names} sözlərindən ibarət birləşmə.',
+                          'closed': f'{names} sözlərindən düzələn mürəkkəb söz.'}[kind]
+                    en = {'paired': 'paired compound of ', 'phrase': 'phrase made of ', 'closed': 'compound of '}[kind] + ' and '.join(glosses)
+                    last = self.defined(parts[-1])['pos']
+                    pos = 'phrase' if kind == 'phrase' else last if last in POS else 'noun'
+                    self.define(word, az, en, pos, refs, 'rule', base=parts[-1])
 
     def rules(self, define=True):
         for _ in range(4):
@@ -376,6 +479,7 @@ def main():
         size = len(builder.definitions) + len(builder.edges)
         builder.print_notes()
         builder.rules()
+        builder.compounds()
         if len(builder.definitions) + len(builder.edges) == size:
             break
     after_undefined = sum(1 for w in builder.nodes if not builder.defined(w))

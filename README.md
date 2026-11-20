@@ -6,6 +6,27 @@ The [original Söz Xəritəsi project](archive/sozler/) is preserved as it appea
 
 An Azerbaijani word galaxy following the supplied charcoal-and-serif concept. The persistent atlas fills the screen on desktop and mobile. Compact search floats above it; a shallow bilingual definition strip expands by tap or upward drag. Word of the day stays in a small shortcut, with the quiz, dictionary, saved words and grammar in the menu. Touch supports pinch zoom, pan, and bubble dragging. No cursor illustrations, EN/AZ switches or motion pause controls are included.
 
+## Headword count and print-dictionary definitions
+
+The atlas has **90,849 headwords** (`dist/word-count.json`): 22,207 dictionary entries with fixed atlas positions and 68,642 further spellings from the 2021 orthography dictionary (*Azərbaycan dilinin orfoqrafiya lüğəti*, 7th edition), placed in the separate Orfoqrafiya region. The orthography dictionary lists spellings only, so most of those entries started without a meaning, and many had no connection.
+
+`dist/print-definitions.js` adds **28,079 definitions** to headwords that had none, and **17,557 cited links**. Headwords without any definition fell from 63,985 to 35,906; headwords without any connection fell from 30,802 to 22,345. Existing reviewed definitions, relations, block lists, identities and atlas positions are unchanged. Every new definition has a method label in the definition sheet:
+
+- **6,037 paraphrases** (*Lüğət əsasında süni intellekt dəstəyi ilə yazılmış izah*): new Azerbaijani and English wording of the primary sense in *Azərbaycan dilinin izahlı lüğəti* (2006, four volumes) and/or Musayev's *Azərbaycanca–İngiliscə lüğət*, citing the PDF page. Paraphrases sharing six or more consecutive words with the print entry are rejected; print prose is cited, not republished. 426 paraphrases written from thin or garbled evidence are marked *yoxlanılmalıdır / needs review*.
+- **2,028 derivation notes**: the explanatory dictionary states the formation (`"Abadlaşdırmaq"dan f.is.`), so the word gets a verbal-noun, passive, causative, participle or diminutive definition and a root link to its base.
+- **235 cross-references**: the explanatory dictionary refers the word to another headword (`b a x`), whose definition it shares, with a synonym link.
+- **19,779 rule-based definitions** (*Qayda ilə qurulub*): transparent productive suffixes (-sız, -lı, -lıq, -çı, -laşmaq, -laşdırmaq, -ma, passive -ıl, causative -dır) of a defined base, closed, paired and izafet compounds of defined words, and learned prefixes (bio-, mikro-, kiber-, …). The definition describes the formation and links to its parts; it does not claim a lexicalised meaning. Suffix and compound links are added to words that already had a definition only when that definition names the base.
+
+The source PDFs use a legacy font that stores Azerbaijani Cyrillic in Windows-1251 byte positions; `scripts/extract_print_dictionaries.py` decodes them and rebuilds the local SQLite caches that `scripts/build_orthography_links.py` and `scripts/build_print_definitions.py` read. The caches are build inputs only and are not published. Rebuild:
+
+    python3 scripts/extract_print_dictionaries.py --explanatory v1.pdf v2.pdf v3.pdf v4.pdf --explanatory-db izahli.sqlite --bilingual musayev.pdf --bilingual-db musayev.sqlite
+    node scripts/export_print_definition_model.cjs model.json --without-print
+    python3 scripts/build_print_definitions.py model.json izahli.sqlite musayev.sqlite
+    python3 scripts/write_print_definitions_readme.py
+    node tests/print-definitions-data.cjs
+
+Paraphrases are AI-assisted editorial text under CC BY-SA 4.0, kept in `scripts/content/print-definitions/paraphrases/`; method, sources and hashes are in `dist/print-definitions-attribution.json`. This is not native-speaker verification.
+
 ## Run
 
 Serve `dist` with any static HTTP server or open `dist/index.html`. No build/runtime dependencies or external fonts are required.

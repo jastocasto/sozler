@@ -9,7 +9,9 @@ const types = {
  ending:{name:'oxşar sonluqlar',description:'Ortaq sonluq; ortaq kök deyil',color:'#b69bd4',fill:'#b69bd4',border:'#b69bd4',text:'#2c2632',order:3},
  topic:{name:'məna yaxınlığı',description:'Mövzu və anlayış yaxınlığı',color:'#e5c64e',fill:'#e5c64e',border:'#e5c64e',text:'#302c20',order:4}
 };
-function createModel(raw,extra={nodes:[],edges:[],enrichment:{}},grammar={records:[],excluded:[],overrides:{}},vocabulary={nodes:[],edges:[]},review={nodes:[],edges:[],blocked:[],evidence:{},overrides:{}},bilingual=null,expansion={nodes:[],edges:[]},nominal={records:[],excluded:[],overrides:{},aliases:{}},additions={nodes:[],edges:[]},relations={edges:[],evidence:{},overrides:{},blocked:[]},references={nodes:[],edges:[],evidence:{}},growth={nodes:[],edges:[],evidence:{},blocked:[],overrides:{}},verification={edges:[],evidence:{},blocked:[],overrides:{},status:{}},orthography={entries:[]},lexical={verbs:{},edges:[],evidence:{}}){
+function createModel(raw,extra={nodes:[],edges:[],enrichment:{}},grammar={records:[],excluded:[],overrides:{}},vocabulary={nodes:[],edges:[]},review={nodes:[],edges:[],blocked:[],evidence:{},overrides:{}},bilingual=null,expansion={nodes:[],edges:[]},nominal={records:[],excluded:[],overrides:{},aliases:{}},additions={nodes:[],edges:[]},relations={edges:[],evidence:{},overrides:{},blocked:[]},references={nodes:[],edges:[],evidence:{}},growth={nodes:[],edges:[],evidence:{},blocked:[],overrides:{}},verification={edges:[],evidence:{},blocked:[],overrides:{},status:{}},orthography={entries:[]},lexical={verbs:{},edges:[],evidence:{}},printDefinitions=null){
+ // Print-dictionary definitions fill headwords that have none; existing reviewed text always wins.
+ if(printDefinitions)lexical={...lexical,definitions:{...printDefinitions.definitions,...lexical.definitions},edges:[...(lexical.edges||[]),...(printDefinitions.edges||[])]};
  const collator=new Intl.Collator('az');
  function translationPair(language,text){const pair=verification.texts?.[language+'\t'+text]||bilingual?.texts?.[language+'\t'+text];if(!pair?.[0]||!pair?.[1])throw new Error('Missing bilingual text: '+language+' / '+text);return {az:pair[0],en:pair[1]};}
  function localize(n){
@@ -40,7 +42,7 @@ function createModel(raw,extra={nodes:[],edges:[],enrichment:{}},grammar={record
   if(activeSpellings.has(spelling))continue;
   const definition=lexical.definitions?.[w];
   const az=definition?.az||'',en=definition?.en||'';
-  const node={id:allNodes.length+orthographyNodes.length,w,lower,key:normalize(w),az,en,english:normalize(en),azerbaijani:normalize(az),pos:lexical.verbs?.[w]?'verb':definition?.pos||'word',quality:'orthography',orthographyPage:page,verbEvidence:lexical.verbs?.[w],definitionSources:definition?.refs};
+  const node={id:allNodes.length+orthographyNodes.length,w,lower,key:normalize(w),az,en,english:normalize(en),azerbaijani:normalize(az),pos:lexical.verbs?.[w]?'verb':definition?.pos||'word',quality:'orthography',orthographyPage:page,verbEvidence:lexical.verbs?.[w],definitionSources:definition?.refs,...(definition?.method?{definitionMethod:definition.method}:{}),...(definition?.confidence?{definitionConfidence:definition.confidence}:{}),...(definition?.base||definition?.see?{definitionBase:definition.base||definition.see}:{})};
   activeSpellings.add(spelling);
   orthographyNodes.push(node);
   nodes.push(node);

@@ -1,0 +1,68 @@
+{
+ "method": "Definitions for headwords that had none. Paraphrases are AI-assisted new wording of the cited explanatory (2006) and Musayev Azerbaijani–English dictionary senses; derivation and cross-reference definitions follow explicit statements in the explanatory dictionary; rule-based definitions describe transparent productive suffixes of defined base words. Print prose is cited, not republished. This is not native-speaker verification.",
+ "license": "New editorial text is shared under CC BY-SA 4.0.",
+ "sources": {
+  "explanatory": [
+   {
+    "volume": 1,
+    "file": "v1.pdf",
+    "sha256": "d81c3d3f4f34307b2d0b93cd3f6f4092dba4191b213e376c87d3c64ca37ae24a"
+   },
+   {
+    "volume": 2,
+    "file": "v2.pdf",
+    "sha256": "d6d3315ab4749c2591248f102f111d68ddb242f4cbf37f7cea71127e98b7870b"
+   },
+   {
+    "volume": 3,
+    "file": "v3.pdf",
+    "sha256": "92d3b25397791c18e6526576c1b099ee4291d10e75a290e6c3d8f68d089a3fc9"
+   },
+   {
+    "volume": 4,
+    "file": "v4.pdf",
+    "sha256": "12d59efffd15b5bc6701ba071a220235a6129762d9ef35f1cfb82de5dd4a38e6"
+   }
+  ],
+  "bilingual": [
+   {
+    "file": "musayev.pdf",
+    "sha256": "b77d8f2b2824c2c937864d2eaffe3b1ed3b2c9efee7566f423022904df31bb8a"
+   }
+  ],
+  "grammar": {
+   "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+   "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+  }
+ },
+ "summary": {
+  "undefined_before": 63985,
+  "undefined_after": 35906,
+  "isolated_before": 30802,
+  "isolated_after": 22345,
+  "definitions": 28079,
+  "definitions_by_method": {
+   "cross-reference": 235,
+   "derivation": 2028,
+   "paraphrase": 6037,
+   "rule": 19779
+  },
+  "low_confidence_paraphrases": 426,
+  "links": 17557,
+  "stats": {
+   "definitions:cross-reference": 235,
+   "definitions:derivation": 2028,
+   "definitions:paraphrase": 6037,
+   "definitions:rule": 19779,
+   "links:compound": 14359,
+   "links:cross-reference": 150,
+   "links:derivation": 1644,
+   "links:rule": 1404,
+   "paraphrase:rejected-copy": 2,
+   "paraphrase:rejected-unsourced": 8,
+   "paraphrase:skipped": 47,
+   "rule:unconfirmed-existing": 42241
+  }
+ },
+ "output_sha256": "f9f6720603fabe551d9eecd8037afde429f1a474dda6939b7e5e18d63ff590fb"
+}
