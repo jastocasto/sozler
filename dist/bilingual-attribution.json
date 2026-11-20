@@ -1,0 +1,19 @@
+{
+  "display_languages": [
+    "az",
+    "en"
+  ],
+  "main_entries": 39951,
+  "grammar_records": 991,
+  "translated_text_pairs": 26855,
+  "editorial_definitions": 47,
+  "translation_engines": [
+    "Google Translate",
+    "AI-assisted editorial translation"
+  ],
+  "method": "Cached machine translations and AI-assisted editorial translations, with existing bilingual definitions and word-specific edits retained. These translations have not all been reviewed by a linguist. No translation service is contacted by visitors.",
+  "created_at": "2026-11-14",
+  "cache_sha256": "2c9ac8c955dd130224429e66a40dbc903689f740793be9bff4112b8b09dedbe2",
+  "edits_sha256": "8581d18f36a19c6111a0c281147e543370672345dc856697c16c737b2dbf4c31",
+  "source_data_preserved": true
+}

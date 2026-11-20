@@ -1,0 +1,293 @@
+{
+  "method": "AI-assisted sense review, with source originals preserved.",
+  "definitions": [
+    {
+      "word": "şallaq",
+      "az": "Heyvan sürmək və ya vurmaq üçün işlədilən uzun, elastik alət; qamçı.",
+      "en": "A whip: a long, flexible implement used for driving animals or striking.",
+      "reason_en": "Clarify the intended lexical sense and remove a misleading translation; AI-assisted editorial definition."
+    },
+    {
+      "word": "qamçı",
+      "az": "Sapı və elastik qayışı olan, heyvan sürmək və ya vurmaq üçün işlədilən alət; şallaq.",
+      "en": "A whip: an implement with a handle and flexible lash, used for driving animals or striking.",
+      "reason_en": "Clarify the intended lexical sense and remove a misleading translation; AI-assisted editorial definition."
+    },
+    {
+      "word": "general",
+      "az": "Ali zabit rütbəsi və həmin rütbəni daşıyan şəxs.",
+      "en": "A senior military rank, or an officer holding that rank.",
+      "reason_en": "Clarify the intended lexical sense and remove a misleading translation; AI-assisted editorial definition."
+    },
+    {
+      "word": "sap",
+      "az": "Tikiş və toxuculuqda işlənən nazik liflərdən ibarət ip.",
+      "en": "Thread: a thin strand used in sewing or weaving.",
+      "reason_en": "Clarify the intended lexical sense and remove a misleading translation; AI-assisted editorial definition.",
+      "extra_senses": [
+        {
+          "az": "Alətin əllə tutulan hissəsi; dəstək.",
+          "en": "The grip, handle or hilt of a tool."
+        }
+      ]
+    },
+    {
+      "word": "miz",
+      "az": "Masa; üzərində işləmək və ya yemək üçün istifadə olunan mebel.",
+      "en": "A table, the piece of furniture used for working or eating.",
+      "reason_en": "Clarify the intended lexical sense and remove a misleading translation; AI-assisted editorial definition."
+    },
+    {
+      "word": "artikl",
+      "az": "İsimlə işlənərək onun müəyyənliyini və ya qeyri-müəyyənliyini bildirən xidməti söz.",
+      "en": "A grammatical article used with a noun to mark definiteness or indefiniteness.",
+      "reason_en": "Clarify the intended lexical sense and remove a misleading translation; AI-assisted editorial definition."
+    },
+    {
+      "word": "çibin",
+      "az": "Milçək; kiçik uçan həşərat.",
+      "en": "A fly, the small winged insect.",
+      "reason_en": "Clarify the intended lexical sense and remove a misleading translation; AI-assisted editorial definition.",
+      "extra_senses": [
+        {
+          "az": "Bəzi işlənmələrdə: bal arısı.",
+          "en": "In some uses: a honey bee."
+        }
+      ]
+    },
+    {
+      "word": "milçək",
+      "az": "İkiqanadlı kiçik uçan həşərat.",
+      "en": "A fly: a small two-winged insect.",
+      "reason_en": "Clarify the intended lexical sense and remove a misleading translation; AI-assisted editorial definition."
+    },
+    {
+      "word": "incəsənət",
+      "az": "Rəssamlıq, musiqi, teatr və başqa bədii yaradıcılıq sahələrinin ümumi adı.",
+      "en": "The arts: creative fields such as painting, music and theatre.",
+      "reason_en": "Clarify the intended lexical sense and remove a misleading translation; AI-assisted editorial definition."
+    },
+    {
+      "word": "qart",
+      "az": "Qocalmış, yaşı çox olan; insan və heyvan haqqında.",
+      "en": "Old or aged, said of a person or animal.",
+      "reason_en": "Clarify the intended lexical sense and remove a misleading translation; AI-assisted editorial definition."
+    },
+    {
+      "word": "quzğun",
+      "az": "Qarğakimilər fəsiləsinə aid iri, qara lələkli quş.",
+      "en": "A raven: a large black bird of the crow family.",
+      "reason_en": "Clarify the intended lexical sense and remove a misleading translation; AI-assisted editorial definition."
+    },
+    {
+      "word": "leşyeyən",
+      "az": "Əsasən ölü heyvanların əti ilə qidalanan iri yırtıcı quş.",
+      "en": "A vulture: a large bird of prey that mainly feeds on carrion.",
+      "reason_en": "Clarify the intended lexical sense and remove a misleading translation; AI-assisted editorial definition."
+    },
+    {
+      "word": "buğa",
+      "az": "Yetkin erkək iribuynuzlu mal-qara; axtalanmamış erkək.",
+      "en": "A bull: an adult uncastrated male bovine.",
+      "reason_en": "Clarify the intended lexical sense and remove a misleading translation; AI-assisted editorial definition."
+    },
+    {
+      "word": "ağacqurdu",
+      "az": "Ağacın oduncağını yeyərək içində yollar açan qurd və ya həşərat.",
+      "en": "A wood-boring insect or larva that feeds on and tunnels through wood.",
+      "reason_en": "Clarify the intended lexical sense and remove a misleading translation; AI-assisted editorial definition."
+    },
+    {
+      "word": "bədməzhəb",
+      "az": "Qəbul olunmuş dini məzhəbdən kənara çıxan; yanlış etiqadlı sayılan.",
+      "en": "Considered heretical or unorthodox in religious belief.",
+      "reason_en": "Clarify the intended lexical sense and remove a misleading translation; AI-assisted editorial definition."
+    },
+    {
+      "word": "döşənəcək",
+      "az": "Üstünə uzanmaq və ya heyvanın altına sərmək üçün istifadə olunan material.",
+      "en": "Bedding or litter spread underneath a person or animal to lie on.",
+      "reason_en": "Clarify the intended lexical sense and remove a misleading translation; AI-assisted editorial definition."
+    },
+    {
+      "word": "dərrakəsizlik",
+      "az": "Anlama və qavrama qabiliyyətinin zəifliyi.",
+      "en": "Lack of understanding or perceptiveness.",
+      "reason_en": "Clarify the intended lexical sense and remove a misleading translation; AI-assisted editorial definition."
+    },
+    {
+      "word": "fəndgir",
+      "az": "Hiylə və fənd işlədən adam; hiyləgər.",
+      "en": "A trickster; someone who uses cunning or deception.",
+      "reason_en": "Clarify the intended lexical sense and remove a misleading translation; AI-assisted editorial definition."
+    },
+    {
+      "word": "dəyənək",
+      "az": "Əldə tutulan möhkəm çubuq; əsa, yaxud vurmaq üçün işlədilən alət.",
+      "en": "A stout stick used as a staff, club or baton.",
+      "reason_en": "Clarify the intended lexical sense and remove a misleading translation; AI-assisted editorial definition."
+    },
+    {
+      "word": "ban",
+      "az": "Xoruzun çıxardığı səs.",
+      "en": "The crowing sound made by a rooster.",
+      "reason_en": "Clarify the intended lexical sense and remove a misleading translation; AI-assisted editorial definition."
+    },
+    {
+      "word": "xatın",
+      "az": "Qadın; bəzi işlənmələrdə həyat yoldaşı.",
+      "en": "A woman; in some uses, a wife.",
+      "reason_en": "Clarify the intended lexical sense and remove a misleading translation; AI-assisted editorial definition."
+    },
+    {
+      "word": "hafıldama",
+      "az": "İtin hürməsi, hürmə səsi.",
+      "en": "Barking; the sound made by a dog.",
+      "reason_en": "Clarify the intended lexical sense and remove a misleading translation; AI-assisted editorial definition."
+    },
+    {
+      "word": "hürufat",
+      "az": "Yazıda və çapda işlənən hərflər; çap şriftləri.",
+      "en": "Letters of the alphabet; printing type.",
+      "reason_en": "Clarify the intended lexical sense and remove a misleading translation; AI-assisted editorial definition."
+    },
+    {
+      "word": "güllələmə",
+      "az": "Güllə ilə vurma; güllə atmaqla edam etmə.",
+      "en": "Shooting; execution by firing squad.",
+      "reason_en": "Clarify the intended lexical sense and remove a misleading translation; AI-assisted editorial definition."
+    },
+    {
+      "word": "gülləbaran",
+      "az": "Ardıcıl və çoxlu güllə atılması; güllə yağışına tutma.",
+      "en": "A barrage of gunfire; subjecting someone or something to repeated shooting.",
+      "reason_en": "Clarify the intended lexical sense and remove a misleading translation; AI-assisted editorial definition."
+    },
+    {
+      "word": "küncüd",
+      "az": "Xırda yağlı toxumları qida və yağ almaq üçün işlədilən bitki; həmin toxumlar.",
+      "en": "Sesame: a plant grown for its small oil-rich seeds, or the seeds themselves.",
+      "reason_en": "Clarify the intended lexical sense and remove a misleading translation; AI-assisted editorial definition."
+    },
+    {
+      "word": "xaya",
+      "az": "Erkək cinsiyyət hüceyrələri və hormonları yaradan orqan.",
+      "en": "A testicle: an organ that produces sperm and male sex hormones.",
+      "reason_en": "Clarify the intended lexical sense and remove a misleading translation; AI-assisted editorial definition."
+    },
+    {
+      "word": "biskvit",
+      "az": "Yumurta, şəkər və undan hazırlanan yüngül, məsaməli şirniyyat.",
+      "en": "Sponge cake: a light, airy cake made with eggs, sugar and flour.",
+      "reason_en": "Clarify the intended lexical sense and remove a misleading translation; AI-assisted editorial definition."
+    },
+    {
+      "word": "gerçəklik",
+      "az": "Həqiqətdə mövcud olan vəziyyət; reallıq.",
+      "en": "Reality: what actually exists or is true.",
+      "reason_en": "Clarify the intended lexical sense and remove a misleading translation; AI-assisted editorial definition."
+    },
+    {
+      "word": "ümidli",
+      "az": "Bir şeyin yaxşı nəticələnəcəyinə ümid edən.",
+      "en": "Hopeful; expecting or wishing for a favorable outcome.",
+      "reason_en": "Clarify the intended lexical sense and remove a misleading translation; AI-assisted editorial definition."
+    },
+    {
+      "word": "itaətsiz",
+      "az": "Əmrə, qaydaya və ya tələbə tabe olmayan.",
+      "en": "Disobedient; refusing to follow orders or rules.",
+      "reason_en": "Clarify the intended lexical sense and remove a misleading translation; AI-assisted editorial definition."
+    }
+  ],
+  "relations": [
+    {
+      "a": "şallaq",
+      "b": "qamçı",
+      "type": "syn",
+      "sense_az": "Heyvan sürmək və ya vurmaq üçün işlədilən qamçı.",
+      "sense_en": "A whip used for driving animals or striking.",
+      "reason_en": "Turkish-source şallaq is kırbaç; qamçı is kamçı, kırbaç. English qamçı also specifies whip. This is a matching object sense, not an automatic definition-token link."
+    },
+    {
+      "a": "sap",
+      "b": "ip",
+      "type": "syn",
+      "sense_az": "Tikişdə işlənən nazik ip.",
+      "sense_en": "Thread used in sewing.",
+      "reason_en": "Sense-specific editorial clarification; excludes unrelated meanings of the English gloss."
+    },
+    {
+      "a": "miz",
+      "b": "masa",
+      "type": "syn",
+      "sense_az": "Mebel əşyası olan masa.",
+      "sense_en": "A table as a piece of furniture.",
+      "reason_en": "Sense-specific editorial clarification; excludes unrelated meanings of the English gloss."
+    },
+    {
+      "a": "çibin",
+      "b": "milçək",
+      "type": "syn",
+      "sense_az": "Uçan kiçik həşərat.",
+      "sense_en": "A fly, the insect.",
+      "reason_en": "Sense-specific editorial clarification; excludes unrelated meanings of the English gloss."
+    },
+    {
+      "a": "incəsənət",
+      "b": "sənət",
+      "type": "syn",
+      "sense_az": "Bədii yaradıcılıq mənasında.",
+      "sense_en": "Art in the sense of artistic creation.",
+      "reason_en": "Sense-specific editorial clarification; excludes unrelated meanings of the English gloss."
+    },
+    {
+      "a": "itaətli",
+      "b": "itaətsiz",
+      "type": "ant",
+      "sense_az": "Əmrə tabe olan — tabe olmayan.",
+      "sense_en": "Obedient versus disobedient.",
+      "reason_en": "Editorially checked direct contrast in this sense; not inherited from a synonym or inferred for every negative-looking suffix."
+    },
+    {
+      "a": "etibarlı",
+      "b": "etibarsız",
+      "type": "ant",
+      "sense_az": "Güvənmək mümkün olan — güvənmək mümkün olmayan.",
+      "sense_en": "Reliable versus unreliable.",
+      "reason_en": "Editorially checked direct contrast in this sense; not inherited from a synonym or inferred for every negative-looking suffix."
+    },
+    {
+      "a": "insaflı",
+      "b": "insafsız",
+      "type": "ant",
+      "sense_az": "Ədalət və vicdanla davranan — bunları gözləməyən.",
+      "sense_en": "Fair and conscientious versus unfair and unscrupulous.",
+      "reason_en": "Editorially checked direct contrast in this sense; not inherited from a synonym or inferred for every negative-looking suffix."
+    },
+    {
+      "a": "qanadlı",
+      "b": "qanadsız",
+      "type": "ant",
+      "sense_az": "Qanadı olan — qanadı olmayan.",
+      "sense_en": "Winged versus wingless.",
+      "reason_en": "Editorially checked direct contrast in this sense; not inherited from a synonym or inferred for every negative-looking suffix."
+    },
+    {
+      "a": "dinc",
+      "b": "döyüşkən",
+      "type": "ant",
+      "sense_az": "Sakit və münaqişədən uzaq — münaqişəyə meyilli.",
+      "sense_en": "Peaceful versus combative, describing temperament.",
+      "reason_en": "Editorially checked direct contrast in this sense; not inherited from a synonym or inferred for every negative-looking suffix."
+    },
+    {
+      "a": "xətərsiz",
+      "b": "təhlükəli",
+      "type": "ant",
+      "sense_az": "Təhlükə yaratmayan — təhlükə yaradan.",
+      "sense_en": "Safe or dangerless versus dangerous.",
+      "reason_en": "Editorially checked direct contrast in this sense; not inherited from a synonym or inferred for every negative-looking suffix."
+    }
+  ]
+}

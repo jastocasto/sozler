@@ -1,0 +1,14 @@
+const fs=require('fs'),vm=require('vm'),assert=require('node:assert/strict');
+const {createModel}=require('../dist/model.js'),{describeWord}=require('../dist/word-info.js');
+const s={window:{}};for(const f of ['data','lexicon','grammar','vocabulary','review','bilingual','expansion','nominal','additions','relations'])vm.runInNewContext(fs.readFileSync(__dirname+'/../dist/'+f+'.js','utf8'),s);
+const w=s.window,m=createModel(w.WORD_WEB_DATA,w.WORD_WEB_EXTRA,w.WORD_WEB_GRAMMAR,w.WORD_WEB_VOCABULARY,w.WORD_WEB_REVIEW,w.WORD_WEB_BILINGUAL,w.WORD_WEB_EXPANSION,w.WORD_WEB_NOMINAL,w.WORD_WEB_ADDITIONS,w.WORD_WEB_RELATIONS);
+assert.equal(m.nodes.length,w.WORD_WEB_NOMINAL.meta.headwords+w.WORD_WEB_ADDITIONS.nodes.length);assert.equal(m.allNodes.length,40489+w.WORD_WEB_EXPANSION.nodes.length+w.WORD_WEB_ADDITIONS.nodes.length);assert.equal(m.grammarRecords.length,991);
+for(const n of m.nodes){const d=describeWord(n,m.byWord);assert(n.az&&n.az.trim(),n.w+' Azerbaijani');assert(n.en&&n.en.trim(),n.w+' English');assert(!/[\u0400-\u04ff]/u.test(n.az+n.en),n.w+' untranslated Russian');assert.equal(d.definitionLanguage,'az',n.w);assert(d.definitionEnglish.trim(),n.w);for(const pair of d.extraSenses)assert(pair.az?.trim()&&pair.en?.trim(),n.w+' extra sense');}
+for(const f of m.grammarRecords){assert(f.az.trim()&&f.en.trim(),f.w);for(const pair of f.definitions)assert(pair.az.trim()&&pair.en.trim());}
+for(const e of m.edges){const p=m.connectionInfo(e,e.a.w);if(p){assert.equal(p.language,'az');assert(p.sense.trim()&&p.senseEnglish.trim());}}
+for(const [lang,word]of [['ru','monetarizm'],['tr','nikel'],['fr','format'],['de','marisxana'],['ku','alo']]){const n=m.byWord.get(word);assert.equal(n.source.language,lang);assert(!/[\u0400-\u04ff]/u.test(n.az+n.en));assert(n.az.length>15&&n.en.length>15);assert.notEqual(n.en,n.source.senses[0],'Display English must replace the original foreign gloss');}
+assert.equal(m.byWord.get('eləmək').az,w.WORD_WEB_DATA.nodes.find(n=>n[0]==='eləmək')[2],'Keep existing Azerbaijani definitions');
+assert(m.search('money supply').some(n=>n.w==='monetarizm'));assert(m.search('pul təklifinin').some(n=>n.w==='monetarizm'));assert(!m.search('цинкография').length,'Russian source glosses are not search-preview definitions');
+assert(!m.byWord.has('elədi'));assert(m.formsByWord.has('elədi'));assert(m.byWord.has('elətdirmək'));
+for(const pair of Object.values(w.WORD_WEB_BILINGUAL.texts)){assert.equal(pair.length,2);assert(pair.every(t=>typeof t==='string'&&t.trim()));assert(!pair.some(t=>/[\u0400-\u04ff]/u.test(t)),'No untranslated Russian glosses');assert(!pair.some(t=>/\[\s*\d{6}\s*\]/.test(t)),'Batch markers must never reach the display');}
+console.log(`PASS: all ${m.nodes.length} main entries and ${m.grammarRecords.length} grammar records have Azerbaijani + English definitions; extra senses and relation context are bilingual, source data retained, both-language search and grammar separation preserved.`);

@@ -1,0 +1,2738 @@
+[
+  {
+    "a": "bitişik",
+    "b": "bitişmək",
+    "type": "root",
+    "edition": "en",
+    "head": "bitişik",
+    "pos": "adj",
+    "template": "suf",
+    "component": "bitişmək",
+    "etymology": "From bitiş- + -ik.",
+    "expansion": "bitiş- + -ik",
+    "source_id": "en-bitişik-az-adj-HRP-aTyI",
+    "word_senses": [
+      "adjacent, contiguous",
+      "attached, joined",
+      "fused, merged",
+      "in one word (with no spaces)"
+    ],
+    "base_senses": "Ending",
+    "kind": "derivation"
+  },
+  {
+    "a": "dolça",
+    "b": "dol",
+    "type": "root",
+    "edition": "en",
+    "head": "dolça",
+    "pos": "noun",
+    "template": "suf",
+    "component": "dol",
+    "etymology": "dol + -ça.\nFrom Persian دولچه (dulče), diminutive of دول (dul).",
+    "expansion": "dol + -ça",
+    "source_id": "en-dolça-az-noun-B11gspsy",
+    "word_senses": [
+      "jug, pitcher"
+    ],
+    "base_senses": "bucket",
+    "kind": "derivation"
+  },
+  {
+    "a": "əlli üçüncü",
+    "b": "əlli üç",
+    "type": "root",
+    "edition": "en",
+    "head": "əlli üçüncü",
+    "pos": "num",
+    "template": "suffix",
+    "component": "əlli üç",
+    "etymology": "Morphologically əlli üç + -üncü.",
+    "expansion": "əlli üç + -üncü",
+    "source_id": "en-əlli_üçüncü-az-num-1uK0mrUs",
+    "word_senses": [
+      "fifty-third"
+    ],
+    "base_senses": "fifty three",
+    "kind": "derivation"
+  },
+  {
+    "a": "səksən üçüncü",
+    "b": "səksən üç",
+    "type": "root",
+    "edition": "en",
+    "head": "səksən üçüncü",
+    "pos": "num",
+    "template": "suffix",
+    "component": "səksən üç",
+    "etymology": "Morphologically səksən üç + -üncü.",
+    "expansion": "səksən üç + -üncü",
+    "source_id": "en-səksən_üçüncü-az-num-QB9YTn7O",
+    "word_senses": [
+      "eighty-third"
+    ],
+    "base_senses": "eighty-three",
+    "kind": "derivation"
+  },
+  {
+    "a": "doxsan üçüncü",
+    "b": "doxsan üç",
+    "type": "root",
+    "edition": "en",
+    "head": "doxsan üçüncü",
+    "pos": "num",
+    "template": "suffix",
+    "component": "doxsan üç",
+    "etymology": "Morphologically doxsan üç + -üncü.",
+    "expansion": "doxsan üç + -üncü",
+    "source_id": "en-doxsan_üçüncü-az-num-EI6PQM3n",
+    "word_senses": [
+      "ninety-third"
+    ],
+    "base_senses": "ninety three",
+    "kind": "derivation"
+  },
+  {
+    "a": "doxsan birinci",
+    "b": "doxsan bir",
+    "type": "root",
+    "edition": "en",
+    "head": "doxsan birinci",
+    "pos": "num",
+    "template": "suffix",
+    "component": "doxsan bir",
+    "etymology": "Morphologically doxsan bir + -inci.",
+    "expansion": "doxsan bir + -inci",
+    "source_id": "en-doxsan_birinci-az-num-yaOMHTeV",
+    "word_senses": [
+      "ninety-first"
+    ],
+    "base_senses": "ninety one",
+    "kind": "derivation"
+  },
+  {
+    "a": "əlli birinci",
+    "b": "əlli bir",
+    "type": "root",
+    "edition": "en",
+    "head": "əlli birinci",
+    "pos": "num",
+    "template": "suffix",
+    "component": "əlli bir",
+    "etymology": "Morphologically əlli bir + -inci.",
+    "expansion": "əlli bir + -inci",
+    "source_id": "en-əlli_birinci-az-num-WCSmsXSD",
+    "word_senses": [
+      "fifty-first"
+    ],
+    "base_senses": "fifty one",
+    "kind": "derivation"
+  },
+  {
+    "a": "səksən birinci",
+    "b": "səksən bir",
+    "type": "root",
+    "edition": "en",
+    "head": "səksən birinci",
+    "pos": "num",
+    "template": "suffix",
+    "component": "səksən bir",
+    "etymology": "Morphologically səksən bir + -inci.",
+    "expansion": "səksən bir + -inci",
+    "source_id": "en-səksən_birinci-az-num-h-szlkVM",
+    "word_senses": [
+      "eighty-first"
+    ],
+    "base_senses": "eighty-one",
+    "kind": "derivation"
+  },
+  {
+    "a": "doxsan ikinci",
+    "b": "doxsan iki",
+    "type": "root",
+    "edition": "en",
+    "head": "doxsan ikinci",
+    "pos": "num",
+    "template": "suffix",
+    "component": "doxsan iki",
+    "etymology": "Morphologically doxsan iki + -inci.",
+    "expansion": "doxsan iki + -inci",
+    "source_id": "en-doxsan_ikinci-az-num-AA6NrsnS",
+    "word_senses": [
+      "ninety-second"
+    ],
+    "base_senses": "ninety two",
+    "kind": "derivation"
+  },
+  {
+    "a": "səksən doqquzuncu",
+    "b": "səksən doqquz",
+    "type": "root",
+    "edition": "en",
+    "head": "səksən doqquzuncu",
+    "pos": "num",
+    "template": "suffix",
+    "component": "səksən doqquz",
+    "etymology": "Morphologically səksən doqquz + -uncu.",
+    "expansion": "səksən doqquz + -uncu",
+    "source_id": "en-səksən_doqquzuncu-az-num--pyeC2Wd",
+    "word_senses": [
+      "eighty-ninth"
+    ],
+    "base_senses": "eighty-nine",
+    "kind": "derivation"
+  },
+  {
+    "a": "səksən səkkizinci",
+    "b": "səksən səkkiz",
+    "type": "root",
+    "edition": "en",
+    "head": "səksən səkkizinci",
+    "pos": "num",
+    "template": "suffix",
+    "component": "səksən səkkiz",
+    "etymology": "Morphologically səksən səkkiz + -inci.",
+    "expansion": "səksən səkkiz + -inci",
+    "source_id": "en-səksən_səkkizinci-az-num-woZlOwOA",
+    "word_senses": [
+      "eighty-eighth"
+    ],
+    "base_senses": "eighty-eight",
+    "kind": "derivation"
+  },
+  {
+    "a": "qırx doqquzuncu",
+    "b": "qırx doqquz",
+    "type": "root",
+    "edition": "en",
+    "head": "qırx doqquzuncu",
+    "pos": "num",
+    "template": "suffix",
+    "component": "qırx doqquz",
+    "etymology": "Morphologically qırx doqquz + -uncu.",
+    "expansion": "qırx doqquz + -uncu",
+    "source_id": "en-qırx_doqquzuncu-az-num-S-4ZAMRd",
+    "word_senses": [
+      "forty-ninth"
+    ],
+    "base_senses": "forty-nine",
+    "kind": "derivation"
+  },
+  {
+    "a": "qırx səkkizinci",
+    "b": "qırx səkkiz",
+    "type": "root",
+    "edition": "en",
+    "head": "qırx səkkizinci",
+    "pos": "num",
+    "template": "suffix",
+    "component": "qırx səkkiz",
+    "etymology": "Morphologically qırx səkkiz + -inci.",
+    "expansion": "qırx səkkiz + -inci",
+    "source_id": "en-qırx_səkkizinci-az-num-H1uZB07b",
+    "word_senses": [
+      "forty-eighth"
+    ],
+    "base_senses": "forty-eight",
+    "kind": "derivation"
+  },
+  {
+    "a": "qırx yeddinci",
+    "b": "qırx yeddi",
+    "type": "root",
+    "edition": "en",
+    "head": "qırx yeddinci",
+    "pos": "num",
+    "template": "suffix",
+    "component": "qırx yeddi",
+    "etymology": "Morphologically qırx yeddi + -inci.",
+    "expansion": "qırx yeddi + -inci",
+    "source_id": "en-qırx_yeddinci-az-num-WhPiCRGu",
+    "word_senses": [
+      "forty-seventh"
+    ],
+    "base_senses": "forty-seven",
+    "kind": "derivation"
+  },
+  {
+    "a": "qırx altıncı",
+    "b": "qırx altı",
+    "type": "root",
+    "edition": "en",
+    "head": "qırx altıncı",
+    "pos": "num",
+    "template": "suffix",
+    "component": "qırx altı",
+    "etymology": "Morphologically qırx altı + -ıncı.",
+    "expansion": "qırx altı + -ıncı",
+    "source_id": "en-qırx_altıncı-az-num-1JY-LywQ",
+    "word_senses": [
+      "forty-sixth"
+    ],
+    "base_senses": "forty-six",
+    "kind": "derivation"
+  },
+  {
+    "a": "əlli ikinci",
+    "b": "əlli iki",
+    "type": "root",
+    "edition": "en",
+    "head": "əlli ikinci",
+    "pos": "num",
+    "template": "suffix",
+    "component": "əlli iki",
+    "etymology": "Morphologically əlli iki + -inci.",
+    "expansion": "əlli iki + -inci",
+    "source_id": "en-əlli_ikinci-az-num-Lj9wnjLt",
+    "word_senses": [
+      "fifty-second"
+    ],
+    "base_senses": "fifty two",
+    "kind": "derivation"
+  },
+  {
+    "a": "əlli dördüncü",
+    "b": "əlli dörd",
+    "type": "root",
+    "edition": "en",
+    "head": "əlli dördüncü",
+    "pos": "num",
+    "template": "suffix",
+    "component": "əlli dörd",
+    "etymology": "Morphologically əlli dörd + -üncü.",
+    "expansion": "əlli dörd + -üncü",
+    "source_id": "en-əlli_dördüncü-az-num-DOM0J5f3",
+    "word_senses": [
+      "fifty-fourth"
+    ],
+    "base_senses": "fifty four",
+    "kind": "derivation"
+  },
+  {
+    "a": "əlli beşinci",
+    "b": "əlli beş",
+    "type": "root",
+    "edition": "en",
+    "head": "əlli beşinci",
+    "pos": "num",
+    "template": "suffix",
+    "component": "əlli beş",
+    "etymology": "Morphologically əlli beş + -inci.",
+    "expansion": "əlli beş + -inci",
+    "source_id": "en-əlli_beşinci-az-num-mefcJude",
+    "word_senses": [
+      "fifty-fifth"
+    ],
+    "base_senses": "fifty five",
+    "kind": "derivation"
+  },
+  {
+    "a": "əlli altıncı",
+    "b": "əlli altı",
+    "type": "root",
+    "edition": "en",
+    "head": "əlli altıncı",
+    "pos": "num",
+    "template": "suffix",
+    "component": "əlli altı",
+    "etymology": "Morphologically əlli altı + -ıncı.",
+    "expansion": "əlli altı + -ıncı",
+    "source_id": "en-əlli_altıncı-az-num-za0Sn32Q",
+    "word_senses": [
+      "fifty-sixth"
+    ],
+    "base_senses": "fifty six",
+    "kind": "derivation"
+  },
+  {
+    "a": "əlli yeddinci",
+    "b": "əlli yeddi",
+    "type": "root",
+    "edition": "en",
+    "head": "əlli yeddinci",
+    "pos": "num",
+    "template": "af",
+    "component": "əlli yeddi",
+    "etymology": "Morphologically əlli yeddi + -inci.",
+    "expansion": "əlli yeddi + -inci",
+    "source_id": "en-əlli_yeddinci-az-num-rqx8RgQa",
+    "word_senses": [
+      "fifty-seventh"
+    ],
+    "base_senses": "fifty seven",
+    "kind": "derivation"
+  },
+  {
+    "a": "əlli səkkizinci",
+    "b": "əlli səkkiz",
+    "type": "root",
+    "edition": "en",
+    "head": "əlli səkkizinci",
+    "pos": "num",
+    "template": "suffix",
+    "component": "əlli səkkiz",
+    "etymology": "Morphologically əlli səkkiz + -inci.",
+    "expansion": "əlli səkkiz + -inci",
+    "source_id": "en-əlli_səkkizinci-az-num-qoTVttfZ",
+    "word_senses": [
+      "fifty-eighth"
+    ],
+    "base_senses": "fifty eight",
+    "kind": "derivation"
+  },
+  {
+    "a": "əlli doqquzuncu",
+    "b": "əlli doqquz",
+    "type": "root",
+    "edition": "en",
+    "head": "əlli doqquzuncu",
+    "pos": "num",
+    "template": "suffix",
+    "component": "əlli doqquz",
+    "etymology": "Morphologically əlli doqquz + -uncu.",
+    "expansion": "əlli doqquz + -uncu",
+    "source_id": "en-əlli_doqquzuncu-az-num-uFrawgzj",
+    "word_senses": [
+      "fifty-ninth"
+    ],
+    "base_senses": "fifty nine",
+    "kind": "derivation"
+  },
+  {
+    "a": "altmış altıncı",
+    "b": "altmış altı",
+    "type": "root",
+    "edition": "en",
+    "head": "altmış altıncı",
+    "pos": "num",
+    "template": "suffix",
+    "component": "altmış altı",
+    "etymology": "Morphologically altmış altı + -ıncı.",
+    "expansion": "altmış altı + -ıncı",
+    "source_id": "en-altmış_altıncı-az-num-fHzWPuzJ",
+    "word_senses": [
+      "sixty-sixth"
+    ],
+    "base_senses": "sixty six",
+    "kind": "derivation"
+  },
+  {
+    "a": "yetmiş səkkizinci",
+    "b": "yetmiş səkkiz",
+    "type": "root",
+    "edition": "en",
+    "head": "yetmiş səkkizinci",
+    "pos": "num",
+    "template": "suffix",
+    "component": "yetmiş səkkiz",
+    "etymology": "Morphologically yetmiş səkkiz + -inci.",
+    "expansion": "yetmiş səkkiz + -inci",
+    "source_id": "en-yetmiş_səkkizinci-az-num-ZFCoXvoU",
+    "word_senses": [
+      "seventy-eighth"
+    ],
+    "base_senses": "seventy-eight",
+    "kind": "derivation"
+  },
+  {
+    "a": "səksən ikinci",
+    "b": "səksən iki",
+    "type": "root",
+    "edition": "en",
+    "head": "səksən ikinci",
+    "pos": "num",
+    "template": "suffix",
+    "component": "səksən iki",
+    "etymology": "Morphologically səksən iki + -inci.",
+    "expansion": "səksən iki + -inci",
+    "source_id": "en-səksən_ikinci-az-num-hoGzG2oO",
+    "word_senses": [
+      "eighty-second"
+    ],
+    "base_senses": "eighty-two",
+    "kind": "derivation"
+  },
+  {
+    "a": "səksən dördüncü",
+    "b": "səksən dörd",
+    "type": "root",
+    "edition": "en",
+    "head": "səksən dördüncü",
+    "pos": "num",
+    "template": "suffix",
+    "component": "səksən dörd",
+    "etymology": "Morphologically səksən dörd + -üncü.",
+    "expansion": "səksən dörd + -üncü",
+    "source_id": "en-səksən_dördüncü-az-num-Fx7FowWB",
+    "word_senses": [
+      "eighty-fourth"
+    ],
+    "base_senses": "eighty-four",
+    "kind": "derivation"
+  },
+  {
+    "a": "səksən beşinci",
+    "b": "səksən beş",
+    "type": "root",
+    "edition": "en",
+    "head": "səksən beşinci",
+    "pos": "num",
+    "template": "suffix",
+    "component": "səksən beş",
+    "etymology": "Morphologically səksən beş + -inci.",
+    "expansion": "səksən beş + -inci",
+    "source_id": "en-səksən_beşinci-az-num-Wf1sjpiM",
+    "word_senses": [
+      "eighty-fifth"
+    ],
+    "base_senses": "eighty-five",
+    "kind": "derivation"
+  },
+  {
+    "a": "səksən altıncı",
+    "b": "səksən altı",
+    "type": "root",
+    "edition": "en",
+    "head": "səksən altıncı",
+    "pos": "num",
+    "template": "suffix",
+    "component": "səksən altı",
+    "etymology": "Morphologically səksən altı + -ıncı.",
+    "expansion": "səksən altı + -ıncı",
+    "source_id": "en-səksən_altıncı-az-num-xcIyC8MW",
+    "word_senses": [
+      "eighty-sixth"
+    ],
+    "base_senses": "eighty-six",
+    "kind": "derivation"
+  },
+  {
+    "a": "səksən yeddinci",
+    "b": "səksən yeddi",
+    "type": "root",
+    "edition": "en",
+    "head": "səksən yeddinci",
+    "pos": "num",
+    "template": "suffix",
+    "component": "səksən yeddi",
+    "etymology": "Morphologically səksən yeddi + -inci.",
+    "expansion": "səksən yeddi + -inci",
+    "source_id": "en-səksən_yeddinci-az-num-LHrwbPEE",
+    "word_senses": [
+      "eighty-seventh"
+    ],
+    "base_senses": "eighty-seven",
+    "kind": "derivation"
+  },
+  {
+    "a": "doxsan dördüncü",
+    "b": "doxsan dörd",
+    "type": "root",
+    "edition": "en",
+    "head": "doxsan dördüncü",
+    "pos": "num",
+    "template": "suffix",
+    "component": "doxsan dörd",
+    "etymology": "Morphologically doxsan dörd + -üncü.",
+    "expansion": "doxsan dörd + -üncü",
+    "source_id": "en-doxsan_dördüncü-az-num-oi9IQes7",
+    "word_senses": [
+      "ninety-fourth"
+    ],
+    "base_senses": "ninety four",
+    "kind": "derivation"
+  },
+  {
+    "a": "doxsan beşinci",
+    "b": "doxsan beş",
+    "type": "root",
+    "edition": "en",
+    "head": "doxsan beşinci",
+    "pos": "num",
+    "template": "suffix",
+    "component": "doxsan beş",
+    "etymology": "Morphologically doxsan beş + -inci.",
+    "expansion": "doxsan beş + -inci",
+    "source_id": "en-doxsan_beşinci-az-num-RzoZWmjF",
+    "word_senses": [
+      "ninety-fifth"
+    ],
+    "base_senses": "ninety five",
+    "kind": "derivation"
+  },
+  {
+    "a": "doxsan altıncı",
+    "b": "doxsan altı",
+    "type": "root",
+    "edition": "en",
+    "head": "doxsan altıncı",
+    "pos": "num",
+    "template": "suffix",
+    "component": "doxsan altı",
+    "etymology": "Morphologically doxsan altı + -ıncı.",
+    "expansion": "doxsan altı + -ıncı",
+    "source_id": "en-doxsan_altıncı-az-num-fXYdXirG",
+    "word_senses": [
+      "ninety-sixth"
+    ],
+    "base_senses": "ninety six",
+    "kind": "derivation"
+  },
+  {
+    "a": "doxsan yeddinci",
+    "b": "doxsan yeddi",
+    "type": "root",
+    "edition": "en",
+    "head": "doxsan yeddinci",
+    "pos": "num",
+    "template": "suffix",
+    "component": "doxsan yeddi",
+    "etymology": "Morphologically doxsan yeddi + -inci.",
+    "expansion": "doxsan yeddi + -inci",
+    "source_id": "en-doxsan_yeddinci-az-num-13cbsCsT",
+    "word_senses": [
+      "ninety-seventh"
+    ],
+    "base_senses": "ninety seven",
+    "kind": "derivation"
+  },
+  {
+    "a": "doxsan səkkizinci",
+    "b": "doxsan səkkiz",
+    "type": "root",
+    "edition": "en",
+    "head": "doxsan səkkizinci",
+    "pos": "num",
+    "template": "suffix",
+    "component": "doxsan səkkiz",
+    "etymology": "Morphologically doxsan səkkiz + -inci.",
+    "expansion": "doxsan səkkiz + -inci",
+    "source_id": "en-doxsan_səkkizinci-az-num-Jri7511s",
+    "word_senses": [
+      "ninety-eighth"
+    ],
+    "base_senses": "ninety eight",
+    "kind": "derivation"
+  },
+  {
+    "a": "doxsan doqquzuncu",
+    "b": "doxsan doqquz",
+    "type": "root",
+    "edition": "en",
+    "head": "doxsan doqquzuncu",
+    "pos": "num",
+    "template": "suffix",
+    "component": "doxsan doqquz",
+    "etymology": "Morphologically doxsan doqquz + -uncu.",
+    "expansion": "doxsan doqquz + -uncu",
+    "source_id": "en-doxsan_doqquzuncu-az-num-FagmX-Fv",
+    "word_senses": [
+      "ninety-ninth"
+    ],
+    "base_senses": "ninety-nine",
+    "kind": "derivation"
+  },
+  {
+    "a": "xətərsiz",
+    "b": "xətər",
+    "type": "root",
+    "edition": "en",
+    "head": "xətərsiz",
+    "pos": "adj",
+    "template": "suffix",
+    "component": "xətər",
+    "etymology": "Morphologically xətər + -siz.",
+    "expansion": "xətər + -siz",
+    "source_id": "en-xətərsiz-az-adj-JsyP7ug-",
+    "word_senses": [
+      "dangerless"
+    ],
+    "base_senses": "Risk",
+    "kind": "derivation"
+  },
+  {
+    "a": "itaətsizlik",
+    "b": "itaətsiz",
+    "type": "root",
+    "edition": "en",
+    "head": "itaətsizlik",
+    "pos": "noun",
+    "template": "suffix",
+    "component": "itaətsiz",
+    "etymology": "Morphologically from itaətsiz (“disobedient”) + -lik.",
+    "expansion": "itaətsiz (“disobedient”) + -lik",
+    "source_id": "en-itaətsizlik-az-noun-zXtLvn5I",
+    "word_senses": [
+      "disobedience"
+    ],
+    "base_senses": "disobedient",
+    "kind": "derivation"
+  },
+  {
+    "a": "dirçəliş",
+    "b": "dirçəlmək",
+    "type": "root",
+    "edition": "en",
+    "head": "dirçəliş",
+    "pos": "noun",
+    "template": "suffix",
+    "component": "dirçəl-",
+    "etymology": "Morphologically, from dirçəl- (“to become animated”, verbal stem) + -iş. Compare diri (“alive”).",
+    "expansion": "dirçəl- (“to become animated”, verbal stem) + -iş",
+    "source_id": "en-dirçəliş-az-noun-3SHR2tjg",
+    "word_senses": [
+      "revival, rebirth, revitalization"
+    ],
+    "base_senses": "perk up",
+    "kind": "derivation"
+  },
+  {
+    "a": "basılmaz",
+    "b": "basılmaq",
+    "type": "root",
+    "edition": "en",
+    "head": "basılmaz",
+    "pos": "adj",
+    "template": "suffix",
+    "component": "basılmaq",
+    "etymology": "From basıl- (“to be defeated”) + -maz.",
+    "expansion": "basıl- (“to be defeated”) + -maz",
+    "source_id": "en-basılmaz-az-adj-77WBzI07",
+    "word_senses": [
+      "invincible"
+    ],
+    "base_senses": "squeeze",
+    "kind": "derivation"
+  },
+  {
+    "a": "yataq",
+    "b": "yatmaq",
+    "type": "root",
+    "edition": "en",
+    "head": "yataq",
+    "pos": "noun",
+    "template": "suf",
+    "component": "yatmaq",
+    "etymology": "From yat- (“to sleep; to lie down”) + -aq. Cognate with Turkish yatak.",
+    "expansion": "yat- (“to sleep; to lie down”) + -aq",
+    "source_id": "en-yataq-az-noun-xQUlMsIg",
+    "word_senses": [
+      "bed",
+      "bedding",
+      "bed (the bottom of a body of water)",
+      "abode, nest (a place where something or someones are to be found aplenty)",
+      "deposit",
+      "rookery (a colony of breeding sea animals)",
+      "bearing",
+      "barn (for storing crops), drying barn",
+      "sheepfold",
+      "vagina"
+    ],
+    "base_senses": "to sleep; lie down",
+    "kind": "derivation"
+  },
+  {
+    "a": "oturacaq",
+    "b": "oturmaq",
+    "type": "root",
+    "edition": "en",
+    "head": "oturacaq",
+    "pos": "noun",
+    "template": "af",
+    "component": "oturmaq",
+    "etymology": "From otur- (“to sit”) + -acaq.",
+    "expansion": "otur- (“to sit”) + -acaq",
+    "source_id": "en-oturacaq-az-noun-PX6z09qx",
+    "word_senses": [
+      "chair",
+      "seat",
+      "base"
+    ],
+    "base_senses": "to sit",
+    "kind": "derivation"
+  },
+  {
+    "a": "avtoş",
+    "b": "avto",
+    "type": "root",
+    "edition": "en",
+    "head": "avtoş",
+    "pos": "noun",
+    "template": "suf",
+    "component": "avto",
+    "etymology": "From avto + -ş. Compare Turkish otoş.",
+    "expansion": "avto + -ş",
+    "source_id": "en-avtoş-az-noun-e-Nv5Eke",
+    "word_senses": [
+      "hoonigan"
+    ],
+    "base_senses": "Automotive.",
+    "kind": "derivation"
+  },
+  {
+    "a": "cansızlıq",
+    "b": "cansız",
+    "type": "root",
+    "edition": "en",
+    "head": "cansızlıq",
+    "pos": "noun",
+    "template": "af",
+    "component": "cansız",
+    "etymology": "Morphologically cansız + -lıq.",
+    "expansion": "cansız + -lıq",
+    "source_id": "en-cansızlıq-az-noun-IYVsJl53",
+    "word_senses": [
+      "feebleness"
+    ],
+    "base_senses": "lifeless",
+    "kind": "derivation"
+  },
+  {
+    "a": "boşanmaq",
+    "b": "boşamaq",
+    "type": "root",
+    "edition": "en",
+    "head": "boşanmaq",
+    "pos": "verb",
+    "template": "af",
+    "component": "boşamaq",
+    "etymology": "From boşa- (“to divorce”) + -n (“reflexive suffix”).",
+    "expansion": "boşa- (“to divorce”) + -n (“reflexive suffix”)",
+    "source_id": "en-boşanmaq-az-verb-H35TiqFb",
+    "word_senses": [
+      "to divorce, to get divorced"
+    ],
+    "base_senses": "Cumshot",
+    "kind": "derivation"
+  },
+  {
+    "a": "cavablandırmaq",
+    "b": "cavablanmaq",
+    "type": "root",
+    "edition": "en",
+    "head": "cavablandırmaq",
+    "pos": "verb",
+    "template": "suf",
+    "component": "cavablanmaq",
+    "etymology": "From cavablan- (“to be answered”) + -dır.",
+    "expansion": "cavablan- (“to be answered”) + -dır",
+    "source_id": "en-cavablandırmaq-az-verb-ljppYuwh",
+    "word_senses": [
+      "to answer"
+    ],
+    "base_senses": "to be replied",
+    "kind": "derivation"
+  },
+  {
+    "a": "deşik",
+    "b": "deşmək",
+    "type": "root",
+    "edition": "en",
+    "head": "deşik",
+    "pos": "noun",
+    "template": "af",
+    "component": "deşmək",
+    "etymology": "From deşmək + -ik, from Proto-Turkic *deĺ- (“to make holes”). Doublet of dəlik. Cognate with Turkish deşik, Turkmen deşik.",
+    "expansion": "deşmək + -ik",
+    "source_id": "en-deşik-az-noun-Oe5FUZcH",
+    "word_senses": [
+      "hole"
+    ],
+    "base_senses": "Digging",
+    "kind": "derivation"
+  },
+  {
+    "a": "yanacaq",
+    "b": "yanmaq",
+    "type": "root",
+    "edition": "en",
+    "head": "yanacaq",
+    "pos": "noun",
+    "template": "af",
+    "component": "yanmaq",
+    "etymology": "From yanmaq (“to burn”) + -acaq.",
+    "expansion": "yanmaq (“to burn”) + -acaq",
+    "source_id": "en-yanacaq-az-noun-rL5L~Hfl",
+    "word_senses": [
+      "fuel"
+    ],
+    "base_senses": "to burn, to get consumed by fire",
+    "kind": "derivation"
+  },
+  {
+    "a": "yatmış",
+    "b": "yatmaq",
+    "type": "root",
+    "edition": "en",
+    "head": "yatmış",
+    "pos": "adj",
+    "template": "af",
+    "component": "yatmaq",
+    "etymology": "From yat- + -mış.",
+    "expansion": "yat- + -mış",
+    "source_id": "en-yatmış-az-adj-ZbU5hK~l",
+    "word_senses": [
+      "asleep, sleeping"
+    ],
+    "base_senses": "to sleep; lie down",
+    "kind": "derivation"
+  },
+  {
+    "a": "islaq",
+    "b": "islanmaq",
+    "type": "root",
+    "edition": "en",
+    "head": "islaq",
+    "pos": "adj",
+    "template": "suf",
+    "component": "islanmaq",
+    "etymology": "Equivalent to islanmaq (“to become wet”) + -k. Compare Chuvash исленчӗк (islenč̬ĕk).",
+    "expansion": "islanmaq (“to become wet”) + -k",
+    "source_id": "en-islaq-az-adj-U0xR4Xdw",
+    "word_senses": [
+      "wet"
+    ],
+    "base_senses": "to get wet",
+    "kind": "derivation"
+  },
+  {
+    "a": "ibrətli",
+    "b": "ibrət",
+    "type": "root",
+    "edition": "en",
+    "head": "ibrətli",
+    "pos": "adj",
+    "template": "suf",
+    "component": "ibrət",
+    "etymology": "From ibrət + -li.",
+    "expansion": "ibrət + -li",
+    "source_id": "en-ibrətli-az-adj-SAJF9A6c",
+    "word_senses": [
+      "didactic (instructive or intended to teach or demonstrate, especially with regard to morality)"
+    ],
+    "base_senses": "lesson",
+    "kind": "derivation"
+  },
+  {
+    "a": "dalaşmaq",
+    "b": "dalamaq",
+    "type": "root",
+    "edition": "en",
+    "head": "dalaşmaq",
+    "pos": "verb",
+    "template": "af",
+    "component": "dalamaq",
+    "etymology": "From dala- (“bite”) + -ş. Cognate with Turkish dalaşmak. Compare to talischirmen (“I fight”) in the Codex Cumanicus.",
+    "expansion": "dala- (“bite”) + -ş",
+    "source_id": "en-dalaşmaq-az-verb-XtL5Dxrl",
+    "word_senses": [
+      "to scuffle, fight (to contend in physical conflict with each other)",
+      "to quarrel, to fall out (with)"
+    ],
+    "base_senses": "Spleen",
+    "kind": "derivation"
+  },
+  {
+    "a": "şəfqət bacısı",
+    "b": "şəfqət",
+    "type": "root",
+    "edition": "en",
+    "head": "şəfqət bacısı",
+    "pos": "noun",
+    "template": "af",
+    "component": "şəfqət",
+    "etymology": "Izafet II compound of şəfqət + bacı",
+    "expansion": "Izafet II compound of şəfqət + bacı",
+    "source_id": "en-şəfqət_bacısı-az-noun-eB5RFqHh",
+    "word_senses": [
+      "nurse"
+    ],
+    "base_senses": "compassion; tenderness",
+    "kind": "derivation"
+  },
+  {
+    "a": "asılı",
+    "b": "asılmaq",
+    "type": "root",
+    "edition": "en",
+    "head": "asılı",
+    "pos": "adj",
+    "template": "suf",
+    "component": "asılmaq",
+    "etymology": "From asıl- + -ı.",
+    "expansion": "asıl- + -ı",
+    "source_id": "en-asılı-az-adj-~TEcUwcN",
+    "word_senses": [
+      "hanging; leaning down",
+      "hanging, suspended",
+      "droopy, saggy, sagging",
+      "dependent",
+      "addicted, addict"
+    ],
+    "base_senses": "hang",
+    "kind": "derivation"
+  },
+  {
+    "a": "unudulmaz",
+    "b": "unudulmaq",
+    "type": "root",
+    "edition": "en",
+    "head": "unudulmaz",
+    "pos": "adj",
+    "template": "suffix",
+    "component": "unudulmaq",
+    "etymology": "From unudul- (“to be forgotten”) + -maz.",
+    "expansion": "unudul- (“to be forgotten”) + -maz",
+    "source_id": "en-unudulmaz-az-adj-MFsA6WxP",
+    "word_senses": [
+      "unforgettable"
+    ],
+    "base_senses": "to be forgot",
+    "kind": "derivation"
+  },
+  {
+    "a": "çiskinləmək",
+    "b": "çiskin",
+    "type": "root",
+    "edition": "en",
+    "head": "çiskinləmək",
+    "pos": "verb",
+    "template": "suf",
+    "component": "çiskin",
+    "etymology": "From çiskin + -lə.",
+    "expansion": "çiskin + -lə",
+    "source_id": "en-çiskinləmək-az-verb-lmkEKp0T",
+    "word_senses": [
+      "to drizzle"
+    ],
+    "base_senses": "drizzle",
+    "kind": "derivation"
+  },
+  {
+    "a": "qeyri-məcburilik",
+    "b": "qeyri-məcburi",
+    "type": "root",
+    "edition": "en",
+    "head": "qeyri-məcburilik",
+    "pos": "noun",
+    "template": "suf",
+    "component": "qeyri-məcburi",
+    "etymology": "From qeyri-məcburi + -lik.",
+    "expansion": "qeyri-məcburi + -lik",
+    "source_id": "en-qeyri-məcburilik-az-noun-40Q8Up06",
+    "word_senses": [
+      "facultativeness"
+    ],
+    "base_senses": "Optional.",
+    "kind": "derivation"
+  },
+  {
+    "a": "ümidsizlik",
+    "b": "ümidsiz",
+    "type": "root",
+    "edition": "en",
+    "head": "ümidsizlik",
+    "pos": "noun",
+    "template": "suf",
+    "component": "ümidsiz",
+    "etymology": "From ümidsiz + -lik.",
+    "expansion": "ümidsiz + -lik",
+    "source_id": "en-ümidsizlik-az-noun-tGAz7J1O",
+    "word_senses": [
+      "hopelessness, despair"
+    ],
+    "base_senses": "Without hope.",
+    "kind": "derivation"
+  },
+  {
+    "a": "yetərsay",
+    "b": "yetər",
+    "type": "root",
+    "edition": "en",
+    "head": "yetərsay",
+    "pos": "noun",
+    "template": "compound",
+    "component": "yetər",
+    "etymology": "From yetər + say.",
+    "expansion": "yetər + say",
+    "source_id": "en-yetərsay-az-noun-XwmumrjP",
+    "word_senses": [
+      "quorum"
+    ],
+    "base_senses": "Enough",
+    "kind": "compound"
+  },
+  {
+    "a": "özgələşdirmək",
+    "b": "özgələşmək",
+    "type": "root",
+    "edition": "en",
+    "head": "özgələşdirmək",
+    "pos": "verb",
+    "template": "af",
+    "component": "özgələşmək",
+    "etymology": "Morphologically özgələş- (“to become alienated”) + dir.",
+    "expansion": "özgələş- (“to become alienated”) + dir",
+    "source_id": "en-özgələşdirmək-az-verb-bYJ0z1sv",
+    "word_senses": [
+      "to alienate, to expropriate",
+      "to estrange"
+    ],
+    "base_senses": "to become alienated",
+    "kind": "derivation"
+  },
+  {
+    "a": "diktatorluq",
+    "b": "diktator",
+    "type": "root",
+    "edition": "en",
+    "head": "diktatorluq",
+    "pos": "noun",
+    "template": "suf",
+    "component": "diktator",
+    "etymology": "Ultimately from diktator + -luq.",
+    "expansion": "diktator + -luq",
+    "source_id": "en-diktatorluq-az-noun-Om4sJlfA",
+    "word_senses": [
+      "dictatorship"
+    ],
+    "base_senses": "dictator",
+    "kind": "derivation"
+  },
+  {
+    "a": "karvansara",
+    "b": "karvan",
+    "type": "root",
+    "edition": "en",
+    "head": "karvansara",
+    "pos": "noun",
+    "template": "af",
+    "component": "karvan",
+    "etymology": "From earlier karvansaray, from Persian کاروانسرای (kârvânsarây). Equivalent to izafet I compound of karvan + saray.",
+    "expansion": "izafet I compound of karvan + saray",
+    "source_id": "en-karvansara-az-noun-QpZW5P82",
+    "word_senses": [
+      "caravanserai"
+    ],
+    "base_senses": "caravan",
+    "kind": "derivation"
+  },
+  {
+    "a": "maliyyələşdirmək",
+    "b": "maliyyələşmək",
+    "type": "root",
+    "edition": "en",
+    "head": "maliyyələşdirmək",
+    "pos": "verb",
+    "template": "suf",
+    "component": "maliyyələşmək",
+    "etymology": "From maliyyələş- + -dir.",
+    "expansion": "maliyyələş- + -dir",
+    "source_id": "en-maliyyələşdirmək-az-verb-OiIND0YZ",
+    "word_senses": [
+      "to fund, to finance"
+    ],
+    "base_senses": "to be financed",
+    "kind": "derivation"
+  },
+  {
+    "a": "cəzaçəkmə müəssisəsi",
+    "b": "cəzaçəkmə",
+    "type": "root",
+    "edition": "en",
+    "head": "cəzaçəkmə müəssisəsi",
+    "pos": "noun",
+    "template": "af",
+    "component": "cəzaçəkmə",
+    "etymology": "Izafet II compound of cəzaçəkmə (“serving the punishment”) + müəssisə (“facility”).",
+    "expansion": "Izafet II compound of cəzaçəkmə (“serving the punishment”) + müəssisə (“facility”)",
+    "source_id": "en-cəzaçəkmə_müəssisəsi-az-noun-TVkbdrcX",
+    "word_senses": [
+      "prison"
+    ],
+    "base_senses": "serving the sentence",
+    "kind": "derivation"
+  },
+  {
+    "a": "tamamlıq",
+    "b": "tamam",
+    "type": "root",
+    "edition": "en",
+    "head": "tamamlıq",
+    "pos": "noun",
+    "template": "suf",
+    "component": "tamam",
+    "etymology": "From tamam + -lıq.",
+    "expansion": "tamam + -lıq",
+    "source_id": "en-tamamlıq-az-noun-54BKjfu9",
+    "word_senses": [
+      "completeness, completedness",
+      "object"
+    ],
+    "base_senses": "complete; all right; okay",
+    "kind": "derivation"
+  },
+  {
+    "a": "minalamaq",
+    "b": "mina",
+    "type": "root",
+    "edition": "en",
+    "head": "minalamaq",
+    "pos": "verb",
+    "template": "suf",
+    "component": "mina",
+    "etymology": "From mina + -la.",
+    "expansion": "mina + -la",
+    "source_id": "en-minalamaq-az-verb-Xm1CG7Vv",
+    "word_senses": [
+      "to mine (to lay mines in)"
+    ],
+    "base_senses": "mine, stay",
+    "kind": "derivation"
+  },
+  {
+    "a": "mina sahəsi",
+    "b": "mina",
+    "type": "root",
+    "edition": "en",
+    "head": "mina sahəsi",
+    "pos": "noun",
+    "template": "af",
+    "component": "mina",
+    "etymology": "Izafet II compound of mina (“mine”) + sahə (“field”).",
+    "expansion": "Izafet II compound of mina (“mine”) + sahə (“field”)",
+    "source_id": "en-mina_sahəsi-az-noun-o5T8ISYB",
+    "word_senses": [
+      "minefield"
+    ],
+    "base_senses": "mine, stay",
+    "kind": "derivation"
+  },
+  {
+    "a": "pilotsuz",
+    "b": "pilot",
+    "type": "root",
+    "edition": "en",
+    "head": "pilotsuz",
+    "pos": "adj",
+    "template": "suf",
+    "component": "pilot",
+    "etymology": "From pilot + -suz.",
+    "expansion": "pilot + -suz",
+    "source_id": "en-pilotsuz-az-adj-aZ2lAJJC",
+    "word_senses": [
+      "pilotless"
+    ],
+    "base_senses": "pilot",
+    "kind": "derivation"
+  },
+  {
+    "a": "əks-səda",
+    "b": "səda",
+    "type": "root",
+    "edition": "en",
+    "head": "əks-səda",
+    "pos": "noun",
+    "template": "prefix",
+    "component": "səda",
+    "etymology": "From əks- + səda.",
+    "expansion": "əks- + səda",
+    "source_id": "en-əks-səda-az-noun-CSx56PgO",
+    "word_senses": [
+      "echo"
+    ],
+    "base_senses": "sound; voice",
+    "kind": "derivation"
+  },
+  {
+    "a": "çatlamaq",
+    "b": "çat",
+    "type": "root",
+    "edition": "en",
+    "head": "çatlamaq",
+    "pos": "verb",
+    "template": "af",
+    "component": "çat",
+    "etymology": "From çat (“a crack”) + -la. Of onomatopoeic origin, see çırtlamaq. Cognate to Turkish çatlamak.",
+    "expansion": "çat (“a crack”) + -la",
+    "source_id": "en-çatlamaq-az-verb-79igwW7M",
+    "word_senses": [
+      "to crack",
+      "to split"
+    ],
+    "base_senses": "crack",
+    "kind": "derivation"
+  },
+  {
+    "a": "biyabanlıq",
+    "b": "biyaban",
+    "type": "root",
+    "edition": "en",
+    "head": "biyabanlıq",
+    "pos": "noun",
+    "template": "suf",
+    "component": "biyaban",
+    "etymology": "From biyaban + -lıq.",
+    "expansion": "biyaban + -lıq",
+    "source_id": "en-biyabanlıq-az-noun-ui3Pokag",
+    "word_senses": [
+      "wilderness, bush, wasteland"
+    ],
+    "base_senses": "desert",
+    "kind": "derivation"
+  },
+  {
+    "a": "anlaşılmazlıq",
+    "b": "anlaşılmaz",
+    "type": "root",
+    "edition": "en",
+    "head": "anlaşılmazlıq",
+    "pos": "noun",
+    "template": "af",
+    "component": "anlaşılmaz",
+    "etymology": "From anlaşılmaz + -lıq.",
+    "expansion": "anlaşılmaz + -lıq",
+    "source_id": "en-anlaşılmazlıq-az-noun-6GK1HXQZ",
+    "word_senses": [
+      "misunderstanding"
+    ],
+    "base_senses": "unclear",
+    "kind": "derivation"
+  },
+  {
+    "a": "ağcaqayın",
+    "b": "ağca",
+    "type": "root",
+    "edition": "en",
+    "head": "ağcaqayın",
+    "pos": "noun",
+    "template": "af",
+    "component": "ağca",
+    "etymology": "From ağca + qayın.",
+    "expansion": "ağca + qayın",
+    "source_id": "en-ağcaqayın-az-noun-qBNZ6bPb",
+    "word_senses": [
+      "synonym of qayın (“maple”)"
+    ],
+    "base_senses": "little white",
+    "kind": "derivation"
+  },
+  {
+    "a": "gözətçi",
+    "b": "gözətmək",
+    "type": "root",
+    "edition": "en",
+    "head": "gözətçi",
+    "pos": "noun",
+    "template": "suf",
+    "component": "gözətmək",
+    "etymology": "From gözət + -çi.",
+    "expansion": "gözət + -çi",
+    "source_id": "en-gözətçi-az-noun-MYmmjelJ",
+    "word_senses": [
+      "watchman, keeper",
+      "overseer"
+    ],
+    "base_senses": "Oversee",
+    "kind": "derivation"
+  },
+  {
+    "a": "atılmış",
+    "b": "atılmaq",
+    "type": "root",
+    "edition": "en",
+    "head": "atılmış",
+    "pos": "adj",
+    "template": "af",
+    "component": "atılmaq",
+    "etymology": "From atıl- + -mış.",
+    "expansion": "atıl- + -mış",
+    "source_id": "en-atılmış-az-adj-IOf1UBIu",
+    "word_senses": [
+      "abandoned"
+    ],
+    "base_senses": "Throw away",
+    "kind": "derivation"
+  },
+  {
+    "a": "hissizləşmək",
+    "b": "hissiz",
+    "type": "root",
+    "edition": "en",
+    "head": "hissizləşmək",
+    "pos": "verb",
+    "template": "suf",
+    "component": "hissiz",
+    "etymology": "From hissiz + -ləş.",
+    "expansion": "hissiz + -ləş",
+    "source_id": "en-hissizləşmək-az-verb-711arx1w",
+    "word_senses": [
+      "to become anesthetized; go numb"
+    ],
+    "base_senses": "Careless",
+    "kind": "derivation"
+  },
+  {
+    "a": "sapqın",
+    "b": "sapmaq",
+    "type": "root",
+    "edition": "en",
+    "head": "sapqın",
+    "pos": "adj",
+    "template": "suf",
+    "component": "sapmaq",
+    "etymology": "From sap- + -qın.",
+    "expansion": "sap- + -qın",
+    "source_id": "en-sapqın-az-adj-NwWBP0Kt",
+    "word_senses": [
+      "misguided, dissolute"
+    ],
+    "base_senses": "Deviate",
+    "kind": "derivation"
+  },
+  {
+    "a": "həyəcanlı",
+    "b": "həyacan",
+    "type": "root",
+    "edition": "en",
+    "head": "həyəcanlı",
+    "pos": "adj",
+    "template": "suf",
+    "component": "həyacan",
+    "etymology": "From həyacan + -lı.",
+    "expansion": "həyacan + -lı",
+    "source_id": "en-həyəcanlı-az-adj-jRyKehLD",
+    "word_senses": [
+      "excited",
+      "exciting",
+      "nervous"
+    ],
+    "base_senses": "excitement, enthusiasm",
+    "kind": "derivation"
+  },
+  {
+    "a": "alçaltmaq",
+    "b": "alçalmaq",
+    "type": "root",
+    "edition": "en",
+    "head": "alçaltmaq",
+    "pos": "verb",
+    "template": "af",
+    "component": "alçalmaq",
+    "etymology": "From alçal- + -t.",
+    "expansion": "alçal- + -t",
+    "source_id": "en-alçaltmaq-az-verb-A~yewwmg",
+    "word_senses": [
+      "to humiliate, to abase, to debase, degrade",
+      "to belittle",
+      "to lower, to decrease"
+    ],
+    "base_senses": "descend",
+    "kind": "derivation"
+  },
+  {
+    "a": "cansıxıcı",
+    "b": "sıxıcı",
+    "type": "root",
+    "edition": "en",
+    "head": "cansıxıcı",
+    "pos": "adj",
+    "template": "compound",
+    "component": "sıxıcı",
+    "etymology": "From can + sıxıcı.",
+    "expansion": "can + sıxıcı",
+    "source_id": "en-cansıxıcı-az-adj--VP3C5Ey",
+    "word_senses": [
+      "boring",
+      "tedious"
+    ],
+    "base_senses": "Boring",
+    "kind": "compound"
+  },
+  {
+    "a": "darıxdırıcı",
+    "b": "darıxdırmaq",
+    "type": "root",
+    "edition": "en",
+    "head": "darıxdırıcı",
+    "pos": "adj",
+    "template": "suf",
+    "component": "darıxdırmaq",
+    "etymology": "From darıxdır- + -ıcı.",
+    "expansion": "darıxdır- + -ıcı",
+    "source_id": "en-darıxdırıcı-az-adj--VP3C5Ey",
+    "word_senses": [
+      "boring",
+      "depressing, disheartening"
+    ],
+    "base_senses": "Squeeze",
+    "kind": "derivation"
+  },
+  {
+    "a": "çözələmək",
+    "b": "çözmək",
+    "type": "root",
+    "edition": "en",
+    "head": "çözələmək",
+    "pos": "verb",
+    "template": "af",
+    "component": "çözmək",
+    "etymology": "From çöz- + -ələ.",
+    "expansion": "çöz- + -ələ",
+    "source_id": "en-çözələmək-az-verb-LXccAxYk",
+    "word_senses": [
+      "to unwind, to unreel",
+      "to extricate, unknot, disentangle, unravel",
+      "to unravel (to clear from complication or difficulty)"
+    ],
+    "base_senses": "to solve; to untie; to unravel",
+    "kind": "derivation"
+  },
+  {
+    "a": "heyvandarlıq",
+    "b": "heyvandar",
+    "type": "root",
+    "edition": "en",
+    "head": "heyvandarlıq",
+    "pos": "noun",
+    "template": "af",
+    "component": "heyvandar",
+    "etymology": "From heyvandar + -lıq.",
+    "expansion": "heyvandar + -lıq",
+    "source_id": "en-heyvandarlıq-az-noun-cVL3syLE",
+    "word_senses": [
+      "cattle breeding, animal husbandry, stock-raising"
+    ],
+    "base_senses": "livestock breeder",
+    "kind": "derivation"
+  },
+  {
+    "a": "saraltı",
+    "b": "saralmaq",
+    "type": "root",
+    "edition": "en",
+    "head": "saraltı",
+    "pos": "noun",
+    "template": "suf",
+    "component": "saralmaq",
+    "etymology": "From saral- + -tı.",
+    "expansion": "saral- + -tı",
+    "source_id": "en-saraltı-az-noun-qkJYtLJm",
+    "word_senses": [
+      "something yellow (especially seen from afar)"
+    ],
+    "base_senses": "to turn yellow; to grow pale",
+    "kind": "derivation"
+  },
+  {
+    "a": "barədə",
+    "b": "barə",
+    "type": "root",
+    "edition": "en",
+    "head": "barədə",
+    "pos": "postp",
+    "template": "suf",
+    "component": "barə",
+    "etymology": "Morphologically barə + -də.",
+    "expansion": "barə + -də",
+    "source_id": "en-barədə-az-postp-ySUrdS4M",
+    "word_senses": [
+      "about, concerning"
+    ],
+    "base_senses": "o",
+    "kind": "derivation"
+  },
+  {
+    "a": "tutuşdurmaq",
+    "b": "tutuşmaq",
+    "type": "root",
+    "edition": "en",
+    "head": "tutuşdurmaq",
+    "pos": "verb",
+    "template": "suf",
+    "component": "tutuşmaq",
+    "etymology": "From tutuşmaq + -dur.",
+    "expansion": "tutuşmaq + -dur",
+    "source_id": "en-tutuşdurmaq-az-verb-r4GadJ7g",
+    "word_senses": [
+      "to compare"
+    ],
+    "base_senses": "to catch fire; to burn; to flare up",
+    "kind": "derivation"
+  },
+  {
+    "a": "bişmiş",
+    "b": "bişmək",
+    "type": "root",
+    "edition": "en",
+    "head": "bişmiş",
+    "pos": "adj",
+    "template": "suf",
+    "component": "bişmək",
+    "etymology": "From biş- + -miş.",
+    "expansion": "biş- + -miş",
+    "source_id": "en-bişmiş-az-adj-ReD8UXlW",
+    "word_senses": [
+      "boiled, baked",
+      "burnt",
+      "experienced"
+    ],
+    "base_senses": "to be cooked, baked, roasted, become ready to eat",
+    "kind": "derivation"
+  },
+  {
+    "a": "taleyüklü",
+    "b": "yüklü",
+    "type": "root",
+    "edition": "en",
+    "head": "taleyüklü",
+    "pos": "adj",
+    "template": "compound",
+    "component": "yüklü",
+    "etymology": "From tale (“fate”) + yüklü (“loaded”).",
+    "expansion": "tale (“fate”) + yüklü (“loaded”)",
+    "source_id": "en-taleyüklü-az-adj-JNFDexK9",
+    "word_senses": [
+      "fateful (momentous, significant, setting or sealing one’s fate)"
+    ],
+    "base_senses": "loaded",
+    "kind": "compound"
+  },
+  {
+    "a": "terrorçu",
+    "b": "terror",
+    "type": "root",
+    "edition": "en",
+    "head": "terrorçu",
+    "pos": "noun",
+    "template": "suf",
+    "component": "terror",
+    "etymology": "From terror + -çu.",
+    "expansion": "terror + -çu",
+    "source_id": "en-terrorçu-az-noun-pMeBXgyh",
+    "word_senses": [
+      "terrorist"
+    ],
+    "base_senses": "terror",
+    "kind": "derivation"
+  },
+  {
+    "a": "doğrultmaq",
+    "b": "doğrulmaq",
+    "type": "root",
+    "edition": "en",
+    "head": "doğrultmaq",
+    "pos": "verb",
+    "template": "suf",
+    "component": "doğrulmaq",
+    "etymology": "From doğrul- + -t.",
+    "expansion": "doğrul- + -t",
+    "source_id": "en-doğrultmaq-az-verb-Whqee33A",
+    "word_senses": [
+      "to vindicate (to provide justification for)",
+      "to live up to (to fulfill the expectations placed upon)",
+      "to come true, to be fulfilled"
+    ],
+    "base_senses": "make excuses",
+    "kind": "derivation"
+  },
+  {
+    "a": "kilometrlik",
+    "b": "kilometr",
+    "type": "root",
+    "edition": "en",
+    "head": "kilometrlik",
+    "pos": "noun",
+    "template": "suf",
+    "component": "kilometr",
+    "etymology": "From kilometr + -lik.",
+    "expansion": "kilometr + -lik",
+    "source_id": "en-kilometrlik-az-noun-1Ayi6~~1",
+    "word_senses": [
+      "distance of one kilometer"
+    ],
+    "base_senses": "kilometers",
+    "kind": "derivation"
+  },
+  {
+    "a": "adaxlanmaq",
+    "b": "adaxlamaq",
+    "type": "root",
+    "edition": "en",
+    "head": "adaxlanmaq",
+    "pos": "verb",
+    "template": "af",
+    "component": "adaxlamaq",
+    "etymology": "From adaxla- + -n.",
+    "expansion": "adaxla- + -n",
+    "source_id": "en-adaxlanmaq-az-verb-qejPzvlz",
+    "word_senses": [
+      "to get engaged"
+    ],
+    "base_senses": "get engaged",
+    "kind": "derivation"
+  },
+  {
+    "a": "dəzgah",
+    "b": "dəst",
+    "type": "root",
+    "edition": "en",
+    "head": "dəzgah",
+    "pos": "noun",
+    "template": "suf",
+    "component": "dəst",
+    "etymology": "From Persian دستگاه. Equivalent to dəst + -gah.",
+    "expansion": "dəst + -gah",
+    "source_id": "en-dəzgah-az-noun-2FtAEF3Q",
+    "word_senses": [
+      "workbench",
+      "machine tool, machine"
+    ],
+    "base_senses": "team; set; suit",
+    "kind": "derivation"
+  },
+  {
+    "a": "həyasız",
+    "b": "həya",
+    "type": "root",
+    "edition": "en",
+    "head": "həyasız",
+    "pos": "adj",
+    "template": "suf",
+    "component": "həya",
+    "etymology": "From həya + -sız.",
+    "expansion": "həya + -sız",
+    "source_id": "en-həyasız-az-adj-6jCArCvt",
+    "word_senses": [
+      "shameless"
+    ],
+    "base_senses": "Shame",
+    "kind": "derivation"
+  },
+  {
+    "a": "uydurma",
+    "b": "uydurmaq",
+    "type": "root",
+    "edition": "en",
+    "head": "uydurma",
+    "pos": "adj",
+    "template": "af",
+    "component": "uydurmaq",
+    "etymology": "Morphologically from uydur- + -ma.",
+    "expansion": "uydur- + -ma",
+    "source_id": "en-uydurma-az-adj-exZyRpCy",
+    "word_senses": [
+      "fabricated, forged, false, made up"
+    ],
+    "base_senses": "to make up, invent, imagine, or concoct",
+    "kind": "derivation"
+  },
+  {
+    "a": "şanlı",
+    "b": "şan",
+    "type": "root",
+    "edition": "en",
+    "head": "şanlı",
+    "pos": "adj",
+    "template": "suf",
+    "component": "şan",
+    "etymology": "From şan + -lı.",
+    "expansion": "şan + -lı",
+    "source_id": "en-şanlı-az-adj-h0jLQ1IC",
+    "word_senses": [
+      "glorious"
+    ],
+    "base_senses": "fame; renown; glory",
+    "kind": "derivation"
+  },
+  {
+    "a": "abadlaşdırmaq",
+    "b": "abadlaşmaq",
+    "type": "root",
+    "edition": "en",
+    "head": "abadlaşdırmaq",
+    "pos": "verb",
+    "template": "suf",
+    "component": "abadlaşmaq",
+    "etymology": "Morphologically abadlaş- + -dır, from abad. Senses align with Russian благоустро́ить (blagoustróitʹ), suggesting semantic influence.",
+    "expansion": "abadlaş- + -dır",
+    "source_id": "en-abadlaşdırmaq-az-verb-qbFgR7Ce",
+    "word_senses": [
+      "to improve, to equip with modern amenities, (apartment) to face-lift, (city, park) to beautify, (street) to resurface"
+    ],
+    "base_senses": "to flourish, to prosper, to recover",
+    "kind": "derivation"
+  },
+  {
+    "a": "qaçaqmalçılıq",
+    "b": "qaçaqmalçı",
+    "type": "root",
+    "edition": "en",
+    "head": "qaçaqmalçılıq",
+    "pos": "noun",
+    "template": "suf",
+    "component": "qaçaqmalçı",
+    "etymology": "From qaçaqmalçı + -lıq.",
+    "expansion": "qaçaqmalçı + -lıq",
+    "source_id": "en-qaçaqmalçılıq-az-noun--2CUcvEG",
+    "word_senses": [
+      "smuggling"
+    ],
+    "base_senses": "smuggler",
+    "kind": "derivation"
+  },
+  {
+    "a": "düzülüş",
+    "b": "düzülmək",
+    "type": "root",
+    "edition": "en",
+    "head": "düzülüş",
+    "pos": "noun",
+    "template": "suf",
+    "component": "düzülmək",
+    "etymology": "From düzül- + -üş.",
+    "expansion": "düzül- + -üş",
+    "source_id": "en-düzülüş-az-noun-H-6~wHD8",
+    "word_senses": [
+      "arrangement",
+      "the manner of being arranged",
+      "the act of arranging, putting together",
+      "lining up (of people)"
+    ],
+    "base_senses": "line up",
+    "kind": "derivation"
+  },
+  {
+    "a": "qazanılmış immun çatışmazlığı sindromu",
+    "b": "sindrom",
+    "type": "root",
+    "edition": "en",
+    "head": "qazanılmış immun çatışmazlığı sindromu",
+    "pos": "noun",
+    "template": "af",
+    "component": "sindrom",
+    "etymology": "From qazanılmış (“acquired”) + immun çatışmazlığı (“immune deficiency”) + sindrom (“syndrome”). Calque from English.",
+    "expansion": "immun çatışmazlığı (“immune deficiency”) + sindrom (“syndrome”)",
+    "source_id": "en-qazanılmış_immun_çatışmazlığı_sindromu-az-noun-hLBenrTO",
+    "word_senses": [
+      "acquired immune deficiency syndrome"
+    ],
+    "base_senses": "syndrome",
+    "kind": "derivation"
+  },
+  {
+    "a": "cavahirat",
+    "b": "cavahir",
+    "type": "root",
+    "edition": "en",
+    "head": "cavahirat",
+    "pos": "noun",
+    "template": "suf",
+    "component": "cavahir",
+    "etymology": "From cavahir + -at.",
+    "expansion": "cavahir + -at",
+    "source_id": "en-cavahirat-az-noun-rDTDA17B",
+    "word_senses": [
+      "gems, precious stones"
+    ],
+    "base_senses": "jewel",
+    "kind": "derivation"
+  },
+  {
+    "a": "çağırım",
+    "b": "çağırmaq",
+    "type": "root",
+    "edition": "en",
+    "head": "çağırım",
+    "pos": "noun",
+    "template": "suf",
+    "component": "çağırmaq",
+    "etymology": "From çağır- + -ım. See cognates at Bashkir саҡрым (saqrım).",
+    "expansion": "çağır- + -ım",
+    "source_id": "en-çağırım-az-noun-OcAKOieb",
+    "word_senses": [
+      "earshot"
+    ],
+    "base_senses": "to call; summon",
+    "kind": "derivation"
+  },
+  {
+    "a": "qurma",
+    "b": "qurmaq",
+    "type": "root",
+    "edition": "en",
+    "head": "qurma",
+    "pos": "adj",
+    "template": "af",
+    "component": "qurmaq",
+    "etymology": "From qur- + -ma.",
+    "expansion": "qur- + -ma",
+    "source_id": "en-qurma-az-adj-YhRukfjR",
+    "word_senses": [
+      "set up, rigged, fixed, not real"
+    ],
+    "base_senses": "to establish; assemble",
+    "kind": "derivation"
+  },
+  {
+    "a": "təntənəli",
+    "b": "təntənə",
+    "type": "root",
+    "edition": "en",
+    "head": "təntənəli",
+    "pos": "adj",
+    "template": "af",
+    "component": "təntənə",
+    "etymology": "From təntənə + -li.",
+    "expansion": "təntənə + -li",
+    "source_id": "en-təntənəli-az-adj-Jy3~Eobk",
+    "word_senses": [
+      "festive, pompous",
+      "ceremonial, solemn"
+    ],
+    "base_senses": "Ceremony",
+    "kind": "derivation"
+  },
+  {
+    "a": "mübadilə buferi",
+    "b": "bufer",
+    "type": "root",
+    "edition": "en",
+    "head": "mübadilə buferi",
+    "pos": "noun",
+    "template": "af",
+    "component": "bufer",
+    "etymology": "Calque of Russian бу́фер обме́на (búfer obména). Izafet II compound of mübadilə + bufer.",
+    "expansion": "Izafet II compound of mübadilə + bufer",
+    "source_id": "en-mübadilə_buferi-az-noun-p4yUZ1RV",
+    "word_senses": [
+      "clipboard"
+    ],
+    "base_senses": "Buffer: a memory area that temporarily holds data during transfer or processing.",
+    "kind": "derivation"
+  },
+  {
+    "a": "inilti",
+    "b": "inləmək",
+    "type": "root",
+    "edition": "en",
+    "head": "inilti",
+    "pos": "noun",
+    "template": "af",
+    "component": "inləmək",
+    "etymology": "From inləmək + -ti.",
+    "expansion": "inləmək + -ti",
+    "source_id": "en-inilti-az-noun-3a~PFmZv",
+    "word_senses": [
+      "groaning, moaning"
+    ],
+    "base_senses": "Moaning",
+    "kind": "derivation"
+  },
+  {
+    "a": "qaradərili",
+    "b": "dərili",
+    "type": "root",
+    "edition": "en",
+    "head": "qaradərili",
+    "pos": "adj",
+    "template": "compound",
+    "component": "dərili",
+    "etymology": "From qara (“black”) + dərili (“skinned”).",
+    "expansion": "qara (“black”) + dərili (“skinned”)",
+    "source_id": "en-qaradərili-az-adj-RBi7xSEk",
+    "word_senses": [
+      "dark-skinned"
+    ],
+    "base_senses": "skinned",
+    "kind": "compound"
+  },
+  {
+    "a": "dəymiş",
+    "b": "dəymək",
+    "type": "root",
+    "edition": "en",
+    "head": "dəymiş",
+    "pos": "adj",
+    "template": "suf",
+    "component": "dəymək",
+    "etymology": "From dəy- + -miş.",
+    "expansion": "dəy- + -miş",
+    "source_id": "en-dəymiş-az-adj-~kHMlo6Y",
+    "word_senses": [
+      "ripe"
+    ],
+    "base_senses": "to touch",
+    "kind": "derivation"
+  },
+  {
+    "a": "susuzluq",
+    "b": "susuz",
+    "type": "root",
+    "edition": "en",
+    "head": "susuzluq",
+    "pos": "noun",
+    "template": "af",
+    "component": "susuz",
+    "etymology": "From susuz + -luq.",
+    "expansion": "susuz + -luq",
+    "source_id": "en-susuzluq-az-noun-cLGNW9rY",
+    "word_senses": [
+      "thirst",
+      "drought, water shortage"
+    ],
+    "base_senses": "Thirst, technical",
+    "kind": "derivation"
+  },
+  {
+    "a": "əmanət kassası",
+    "b": "kassa",
+    "type": "root",
+    "edition": "en",
+    "head": "əmanət kassası",
+    "pos": "noun",
+    "template": "af",
+    "component": "kassa",
+    "etymology": "Izafet II compound of əmanət + kassa. Calque of Russian сберега́тельная ка́сса (sberegátelʹnaja kássa).",
+    "expansion": "Izafet II compound of əmanət + kassa",
+    "source_id": "en-əmanət_kassası-az-noun-pbteNAKK",
+    "word_senses": [
+      "savings bank (financial institution)"
+    ],
+    "base_senses": "cash desk; cashier's office",
+    "kind": "derivation"
+  },
+  {
+    "a": "dölləndirmək",
+    "b": "döllənmək",
+    "type": "root",
+    "edition": "en",
+    "head": "dölləndirmək",
+    "pos": "verb",
+    "template": "suf",
+    "component": "döllənmək",
+    "etymology": "From döllən- + -dir, from döl.",
+    "expansion": "döllən- + -dir",
+    "source_id": "en-dölləndirmək-az-verb-mOm8HbD8",
+    "word_senses": [
+      "to inseminate, to fertilize, to impregnate"
+    ],
+    "base_senses": "fertilize",
+    "kind": "derivation"
+  },
+  {
+    "a": "alacadimdik",
+    "b": "alaca",
+    "type": "root",
+    "edition": "en",
+    "head": "alacadimdik",
+    "pos": "noun",
+    "template": "af",
+    "component": "alaca",
+    "etymology": "From alaca + dimdik.",
+    "expansion": "alaca + dimdik",
+    "source_id": "en-alacadimdik-az-noun-YUqqyxYm",
+    "word_senses": [
+      "crossbill"
+    ],
+    "base_senses": "motley",
+    "kind": "derivation"
+  },
+  {
+    "a": "qarabatdaq",
+    "b": "batdaq",
+    "type": "root",
+    "edition": "en",
+    "head": "qarabatdaq",
+    "pos": "noun",
+    "template": "af",
+    "component": "batdaq",
+    "etymology": "From qara + batdaq.",
+    "expansion": "qara + batdaq",
+    "source_id": "en-qarabatdaq-az-noun-uoNTAvhZ",
+    "word_senses": [
+      "cormorant"
+    ],
+    "base_senses": "dirt",
+    "kind": "derivation"
+  },
+  {
+    "a": "atəşfəşanlıq",
+    "b": "atəşfəşan",
+    "type": "root",
+    "edition": "en",
+    "head": "atəşfəşanlıq",
+    "pos": "noun",
+    "template": "af",
+    "component": "atəşfəşan",
+    "etymology": "From atəşfəşan + -lıq.",
+    "expansion": "atəşfəşan + -lıq",
+    "source_id": "en-atəşfəşanlıq-az-noun-DK7hgNqd",
+    "word_senses": [
+      "fireworks"
+    ],
+    "base_senses": "fireworks",
+    "kind": "derivation"
+  },
+  {
+    "a": "deputatxana",
+    "b": "deputat",
+    "type": "root",
+    "edition": "en",
+    "head": "deputatxana",
+    "pos": "noun",
+    "template": "suf",
+    "component": "deputat",
+    "etymology": "From deputat + -xana.",
+    "expansion": "deputat + -xana",
+    "source_id": "en-deputatxana-az-noun-fuFi8hPO",
+    "word_senses": [
+      "parliament"
+    ],
+    "base_senses": "member of parliament",
+    "kind": "derivation"
+  },
+  {
+    "a": "soldış",
+    "b": "dış",
+    "type": "root",
+    "edition": "en",
+    "head": "soldış",
+    "pos": "noun",
+    "template": "af",
+    "component": "dış",
+    "etymology": "From sol (“left side”) + dış.",
+    "expansion": "sol (“left side”) + dış",
+    "source_id": "en-soldış-az-noun-~1KuP7cp",
+    "word_senses": [
+      "best man or bridesmaid"
+    ],
+    "base_senses": "outside",
+    "kind": "derivation"
+  },
+  {
+    "a": "ağcaqanad",
+    "b": "ağca",
+    "type": "root",
+    "edition": "en",
+    "head": "ağcaqanad",
+    "pos": "noun",
+    "template": "af",
+    "component": "ağca",
+    "etymology": "From ağca + qanad.",
+    "expansion": "ağca + qanad",
+    "source_id": "en-ağcaqanad-az-noun-0ZlJw9Qi",
+    "word_senses": [
+      "mosquito"
+    ],
+    "base_senses": "little white",
+    "kind": "derivation"
+  },
+  {
+    "a": "çatlaşmaq",
+    "b": "çat",
+    "type": "root",
+    "edition": "en",
+    "head": "çatlaşmaq",
+    "pos": "verb",
+    "template": "af",
+    "component": "çat",
+    "etymology": "From çat + -laş.",
+    "expansion": "çat + -laş",
+    "source_id": "en-çatlaşmaq-az-verb-1CtgH~jP",
+    "word_senses": [
+      "to chat (to exchange text or voice messages)"
+    ],
+    "base_senses": "crack",
+    "kind": "derivation"
+  },
+  {
+    "a": "birisigün",
+    "b": "birisi",
+    "type": "root",
+    "edition": "en",
+    "head": "birisigün",
+    "pos": "adv",
+    "template": "af",
+    "component": "birisi",
+    "etymology": "From birisi + gün.\nCognates\nCompare Karachay-Balkar бюрсюкюн (bürsükün) /бюрсикюн (bürsikün), Kumyk бирисигюн (birisigün), Kazakh бүрсігүні (bürsigüni), Nogai бирсигуьн (birsigün), Kyrgyz бүрсүгүнү (bürsügünü), Southern Altai бирсӱӱн (birsüün), Karaim birisikün etc., some of which mean 'the day before yesterday' and some - 'the day after tomorrow'.",
+    "expansion": "birisi + gün",
+    "source_id": "en-birisigün-az-adv-duPjwhen",
+    "word_senses": [
+      "the day after tomorrow"
+    ],
+    "base_senses": "someone",
+    "kind": "derivation"
+  },
+  {
+    "a": "huşsuzluq",
+    "b": "huşsuz",
+    "type": "root",
+    "edition": "en",
+    "head": "huşsuzluq",
+    "pos": "noun",
+    "template": "af",
+    "component": "huşsuz",
+    "etymology": "From huşsuz + -luq.",
+    "expansion": "huşsuz + -luq",
+    "source_id": "en-huşsuzluq-az-noun-b0oH3XSm",
+    "word_senses": [
+      "absent-mindedness, forgetting, forgetfulness",
+      "unconsciousness, swoon"
+    ],
+    "base_senses": "scattered",
+    "kind": "derivation"
+  },
+  {
+    "a": "başlıca",
+    "b": "başlı",
+    "type": "root",
+    "edition": "en",
+    "head": "başlıca",
+    "pos": "adj",
+    "template": "af",
+    "component": "başlı",
+    "etymology": "From başlı + -ca.",
+    "expansion": "başlı + -ca",
+    "source_id": "en-başlıca-az-adj-qCN4pCnh",
+    "word_senses": [
+      "main, primary, leading"
+    ],
+    "base_senses": "smart",
+    "kind": "derivation"
+  },
+  {
+    "a": "agahlıq",
+    "b": "agah",
+    "type": "root",
+    "edition": "en",
+    "head": "agahlıq",
+    "pos": "noun",
+    "template": "af",
+    "component": "agah",
+    "etymology": "From agah + -lıq.",
+    "expansion": "agah + -lıq",
+    "source_id": "en-agahlıq-az-noun-vh1pAfrx",
+    "word_senses": [
+      "awareness (the state or quality of being aware of something)"
+    ],
+    "base_senses": "knowledgeable",
+    "kind": "derivation"
+  },
+  {
+    "a": "intəhasız",
+    "b": "intəha",
+    "type": "root",
+    "edition": "en",
+    "head": "intəhasız",
+    "pos": "adj",
+    "template": "af",
+    "component": "intəha",
+    "etymology": "From intəha + -sız.",
+    "expansion": "intəha + -sız",
+    "source_id": "en-intəhasız-az-adj-SnvAUbnq",
+    "word_senses": [
+      "infinite, boundless, limitless"
+    ],
+    "base_senses": "end",
+    "kind": "derivation"
+  },
+  {
+    "a": "beysbolçu",
+    "b": "beysbol",
+    "type": "root",
+    "edition": "en",
+    "head": "beysbolçu",
+    "pos": "noun",
+    "template": "suf",
+    "component": "beysbol",
+    "etymology": "From beysbol (“baseball”) + -çu.",
+    "expansion": "beysbol (“baseball”) + -çu",
+    "source_id": "en-beysbolçu-az-noun-BPn4nRoq",
+    "word_senses": [
+      "baseball player, baseballer"
+    ],
+    "base_senses": "baseball",
+    "kind": "derivation"
+  },
+  {
+    "a": "heyranlıq",
+    "b": "heyran",
+    "type": "root",
+    "edition": "en",
+    "head": "heyranlıq",
+    "pos": "noun",
+    "template": "af",
+    "component": "heyran",
+    "etymology": "From heyran + -lıq.",
+    "expansion": "heyran + -lıq",
+    "source_id": "en-heyranlıq-az-noun-gmQVO0ZT",
+    "word_senses": [
+      "admiration"
+    ],
+    "base_senses": "Fan",
+    "kind": "derivation"
+  },
+  {
+    "a": "bütünlüklə",
+    "b": "bütünlük",
+    "type": "root",
+    "edition": "en",
+    "head": "bütünlüklə",
+    "pos": "adv",
+    "template": "suf",
+    "component": "bütünlük",
+    "etymology": "From bütünlük + -ilə.",
+    "expansion": "bütünlük + -ilə",
+    "source_id": "en-bütünlüklə-az-adv-0hGX0Oo-",
+    "word_senses": [
+      "entirely, wholly, undividedly"
+    ],
+    "base_senses": "entirety",
+    "kind": "derivation"
+  },
+  {
+    "a": "qaneedici",
+    "b": "qane etmək",
+    "type": "root",
+    "edition": "en",
+    "head": "qaneedici",
+    "pos": "adj",
+    "template": "af",
+    "component": "qane etmək",
+    "etymology": "From qane- + -edici.",
+    "expansion": "qane- + -edici",
+    "source_id": "en-qaneedici-az-adj-JLVkoD87",
+    "word_senses": [
+      "satisfactory"
+    ],
+    "base_senses": "Satisfy",
+    "kind": "derivation"
+  },
+  {
+    "a": "girəcək",
+    "b": "girmək",
+    "type": "root",
+    "edition": "en",
+    "head": "girəcək",
+    "pos": "noun",
+    "template": "suf",
+    "component": "girmək",
+    "etymology": "From gir- (“to enter”) + -əcək.",
+    "expansion": "gir- (“to enter”) + -əcək",
+    "source_id": "en-girəcək-az-noun-6CESVSj1",
+    "word_senses": [
+      "entrance, entry",
+      "vestibule, hall, antechamber, threshold",
+      "place before the doors, gates",
+      "vestibule (any of a number of body cavities or channels, serving as or resembling an entrance to another bodily space)"
+    ],
+    "base_senses": "to enter",
+    "kind": "derivation"
+  },
+  {
+    "a": "alım-satım",
+    "b": "alım",
+    "type": "root",
+    "edition": "en",
+    "head": "alım-satım",
+    "pos": "noun",
+    "template": "af",
+    "component": "alım",
+    "etymology": "Inherited from Old Anatolian Turkish آلم صاتم (alım satım). Antonymous compound of alım + satım. Literally, \"buying and selling\".",
+    "expansion": "Antonymous compound of alım + satım",
+    "source_id": "en-alım-satım-az-noun-YzJ9ikXu",
+    "word_senses": [
+      "purchasing goods, shopping, groceries"
+    ],
+    "base_senses": "tax",
+    "kind": "derivation"
+  },
+  {
+    "a": "ortabab",
+    "b": "bab",
+    "type": "root",
+    "edition": "en",
+    "head": "ortabab",
+    "pos": "adj",
+    "template": "compound",
+    "component": "bab",
+    "etymology": "From orta + bab.",
+    "expansion": "orta + bab",
+    "source_id": "en-ortabab-az-adj-y9ldehnQ",
+    "word_senses": [
+      "mediocre, average",
+      "middle-aged"
+    ],
+    "base_senses": "equal",
+    "kind": "compound"
+  },
+  {
+    "a": "ağdərili",
+    "b": "dərili",
+    "type": "root",
+    "edition": "en",
+    "head": "ağdərili",
+    "pos": "adj",
+    "template": "af",
+    "component": "dərili",
+    "etymology": "From ağ (“white”) + dərili (“skinned”).",
+    "expansion": "ağ (“white”) + dərili (“skinned”)",
+    "source_id": "en-ağdərili-az-adj-cOkgiZr3",
+    "word_senses": [
+      "white-skinned, pale-skinned"
+    ],
+    "base_senses": "skinned",
+    "kind": "derivation"
+  },
+  {
+    "a": "sıxışdırmaq",
+    "b": "sıxışmaq",
+    "type": "root",
+    "edition": "en",
+    "head": "sıxışdırmaq",
+    "pos": "verb",
+    "template": "af",
+    "component": "sıxışmaq",
+    "etymology": "Morphologically sıxışmaq + -dır.",
+    "expansion": "sıxışmaq + -dır",
+    "source_id": "en-sıxışdırmaq-az-verb-Qio1Nt6C",
+    "word_senses": [
+      "to squeeze, to press tightly, to push to the side",
+      "to stick in, push in, insert forcefully",
+      "to oppress"
+    ],
+    "base_senses": "To hurry, to tighten.",
+    "kind": "derivation"
+  },
+  {
+    "a": "ürkək",
+    "b": "ürkmək",
+    "type": "root",
+    "edition": "en",
+    "head": "ürkək",
+    "pos": "adj",
+    "template": "af",
+    "component": "ürkmək",
+    "etymology": "From ürkmək + -ək.",
+    "expansion": "ürkmək + -ək",
+    "source_id": "en-ürkək-az-adj-~LDB6z3H",
+    "word_senses": [
+      "skittish",
+      "timid, fearful"
+    ],
+    "base_senses": "Get scared.",
+    "kind": "derivation"
+  },
+  {
+    "a": "duyulmaz",
+    "b": "duyulmaq",
+    "type": "root",
+    "edition": "en",
+    "head": "duyulmaz",
+    "pos": "adj",
+    "template": "af",
+    "component": "duyulmaq",
+    "etymology": "From duyul- (“to be noticed”) + -maz.",
+    "expansion": "duyul- (“to be noticed”) + -maz",
+    "source_id": "en-duyulmaz-az-adj-UVrmYF7L",
+    "word_senses": [
+      "imperceptible"
+    ],
+    "base_senses": "to be felt, to be noticed",
+    "kind": "derivation"
+  },
+  {
+    "a": "həllolunmaz",
+    "b": "həll olunmaq",
+    "type": "root",
+    "edition": "en",
+    "head": "həllolunmaz",
+    "pos": "adj",
+    "template": "af",
+    "component": "həll olunmaq",
+    "etymology": "From həll olunmaq (“to be solved, to dissolve”) + -maz.",
+    "expansion": "həll olunmaq (“to be solved, to dissolve”) + -maz",
+    "source_id": "en-həllolunmaz-az-adj-3Sj0E6Cz",
+    "word_senses": [
+      "unsolvable (a problem that cannot be solved)",
+      "insoluble"
+    ],
+    "base_senses": "to be solved, to dissolve",
+    "kind": "derivation"
+  },
+  {
+    "a": "ikiatomlu",
+    "b": "atom",
+    "type": "root",
+    "edition": "en",
+    "head": "ikiatomlu",
+    "pos": "adj",
+    "template": "af",
+    "component": "atom",
+    "etymology": "From iki (“two”) + atom (“atom”) + -lu.",
+    "expansion": "iki (“two”) + atom (“atom”) + -lu",
+    "source_id": "en-ikiatomlu-az-adj-K2tEYLUn",
+    "word_senses": [
+      "diatomic"
+    ],
+    "base_senses": "atom, atom",
+    "kind": "derivation"
+  },
+  {
+    "a": "aralaşdırmaq",
+    "b": "aralaşmaq",
+    "type": "root",
+    "edition": "en",
+    "head": "aralaşdırmaq",
+    "pos": "verb",
+    "template": "af",
+    "component": "aralaşmaq",
+    "etymology": "From aralaşmaq + -dır.",
+    "expansion": "aralaşmaq + -dır",
+    "source_id": "en-aralaşdırmaq-az-verb-Bnl0lcQN",
+    "word_senses": [
+      "to pull apart by force (people or animals that are fighting)"
+    ],
+    "base_senses": "break up",
+    "kind": "derivation"
+  },
+  {
+    "a": "alqı-satqı",
+    "b": "alqı",
+    "type": "root",
+    "edition": "en",
+    "head": "alqı-satqı",
+    "pos": "noun",
+    "template": "af",
+    "component": "alqı",
+    "etymology": "Antonymous compound of alqı + satqı. Due to term being overrepresented, it is difficult to pinpoint the original source. For a similar case, see alış-veriş, ilanbalığı.\nThe term, which was previously attested as alğı-satqı, was later adapted to the colloquial language. The latest orthography dictionary does not include the original form.\nCognates\n* Chuvash суту-илӳ (sut̬u-ilü, “commerce, trade”, literally “selling and buying”),\n* Karachay-Balkar сатыу-алыу (satıu-alıu, “commerce, trade”, literally “selling and buying”),\n* Kumyk сатыв-алыв (satıw-alıw, “commerce, trade”, literally “buying and buying”),\n* Nogai сатув-алув (satuv-aluv, “commerce, trade”, literally “selling and buying”),\n* Tatar сату-алу (satu-alu, “commerce, trade”, literally “selling and buying”),\n* Turkish alım satım (“buying and selling”, literally “buying and selling”),\n* Uyghur ئالدىـساتتى (aldi-satti, “commerce, trade”, literally “buying and selling”),\nCompare\n* Albanian shitblerje (“commerce, trade”, literally “selling and buying”),\n* Burmese အရောင်းအဝယ် (a.raung:a.wai, “commerce, trade”, literally “selling and buying”),\n* Central Kurdish كڕين و فرۆشتن (“commerce, trade”, literally “buying and selling”),\n* Russian купля-продажа (kuplja-prodaža, “an instance of buying and selling”, literally “buying and selling”)",
+    "expansion": "Antonymous compound of alqı + satqı",
+    "source_id": "en-alqı-satqı-az-noun-If~6qS~N",
+    "word_senses": [
+      "purchase and sale as qualified in the Civil Code",
+      "commerce, trade"
+    ],
+    "base_senses": "purchase",
+    "kind": "derivation"
+  },
+  {
+    "a": "alqı-satqı",
+    "b": "satqı",
+    "type": "root",
+    "edition": "en",
+    "head": "alqı-satqı",
+    "pos": "noun",
+    "template": "af",
+    "component": "satqı",
+    "etymology": "Antonymous compound of alqı + satqı. Due to term being overrepresented, it is difficult to pinpoint the original source. For a similar case, see alış-veriş, ilanbalığı.\nThe term, which was previously attested as alğı-satqı, was later adapted to the colloquial language. The latest orthography dictionary does not include the original form.\nCognates\n* Chuvash суту-илӳ (sut̬u-ilü, “commerce, trade”, literally “selling and buying”),\n* Karachay-Balkar сатыу-алыу (satıu-alıu, “commerce, trade”, literally “selling and buying”),\n* Kumyk сатыв-алыв (satıw-alıw, “commerce, trade”, literally “buying and buying”),\n* Nogai сатув-алув (satuv-aluv, “commerce, trade”, literally “selling and buying”),\n* Tatar сату-алу (satu-alu, “commerce, trade”, literally “selling and buying”),\n* Turkish alım satım (“buying and selling”, literally “buying and selling”),\n* Uyghur ئالدىـساتتى (aldi-satti, “commerce, trade”, literally “buying and selling”),\nCompare\n* Albanian shitblerje (“commerce, trade”, literally “selling and buying”),\n* Burmese အရောင်းအဝယ် (a.raung:a.wai, “commerce, trade”, literally “selling and buying”),\n* Central Kurdish كڕين و فرۆشتن (“commerce, trade”, literally “buying and selling”),\n* Russian купля-продажа (kuplja-prodaža, “an instance of buying and selling”, literally “buying and selling”)",
+    "expansion": "Antonymous compound of alqı + satqı",
+    "source_id": "en-alqı-satqı-az-noun-If~6qS~N",
+    "word_senses": [
+      "purchase and sale as qualified in the Civil Code",
+      "commerce, trade"
+    ],
+    "base_senses": "sale; selling",
+    "kind": "derivation"
+  },
+  {
+    "a": "dodaqlanmayan",
+    "b": "dodaqlanmaq",
+    "type": "root",
+    "edition": "en",
+    "head": "dodaqlanmayan",
+    "pos": "adj",
+    "template": "af",
+    "component": "dodaqlanmaq",
+    "etymology": "From dodaqlan- (“to be pronounced by means of the lips”) + -ma (“negative verbal suffix”) + -yan (“subject non-past participle suffix”). Calque of Russian неогублённые (neogubljónnyje).",
+    "expansion": "dodaqlan- (“to be pronounced by means of the lips”) + -ma (“negative verbal suffix”) + -yan (“subject non-past participle suffix”)",
+    "source_id": "en-dodaqlanmayan-az-adj-sOIjFkFp",
+    "word_senses": [
+      "unrounded"
+    ],
+    "base_senses": "ling. labialize",
+    "kind": "derivation"
+  },
+  {
+    "a": "qatırquyruğukimilər",
+    "b": "qatırquyruğu",
+    "type": "root",
+    "edition": "en",
+    "head": "qatırquyruğukimilər",
+    "pos": "noun",
+    "template": "af",
+    "component": "qatırquyruğu",
+    "etymology": "From qatırquyruğu + kimi + -lər.",
+    "expansion": "qatırquyruğu + kimi + -lər",
+    "source_id": "en-qatırquyruğukimilər-az-noun-HmrFoHIv",
+    "word_senses": [
+      "Equisetaceae"
+    ],
+    "base_senses": "nerd. horsetail (Equisetum)",
+    "kind": "derivation"
+  },
+  {
+    "a": "basmaxana",
+    "b": "basma",
+    "type": "root",
+    "edition": "en",
+    "head": "basmaxana",
+    "pos": "noun",
+    "template": "af",
+    "component": "basma",
+    "etymology": "From basma + -xana.",
+    "expansion": "basma + -xana",
+    "source_id": "en-basmaxana-az-noun-yLGho-a8",
+    "word_senses": [
+      "lie"
+    ],
+    "base_senses": "pressure",
+    "kind": "derivation"
+  },
+  {
+    "a": "çalın",
+    "b": "çalmaq",
+    "type": "root",
+    "edition": "en",
+    "head": "çalın",
+    "pos": "noun",
+    "template": "af",
+    "component": "çalmaq",
+    "etymology": "From çal- (“to scythe”) + -ın",
+    "expansion": "çal- (“to scythe”) + -ın",
+    "source_id": "en-çalın-az-noun-oLF5j2Dh",
+    "word_senses": [
+      "cutting grass for hay; mowing, cutting the hay"
+    ],
+    "base_senses": "to play (a musical instrument)",
+    "kind": "derivation"
+  },
+  {
+    "a": "çoxatomlu",
+    "b": "atom",
+    "type": "root",
+    "edition": "en",
+    "head": "çoxatomlu",
+    "pos": "adj",
+    "template": "af",
+    "component": "atom",
+    "etymology": "From çox + atom + -lu.",
+    "expansion": "çox + atom + -lu",
+    "source_id": "en-çoxatomlu-az-adj-PPDGpGHR",
+    "word_senses": [
+      "polyatomic"
+    ],
+    "base_senses": "atom, atom",
+    "kind": "derivation"
+  },
+  {
+    "a": "mərkəzləşdirmək",
+    "b": "mərkəzləşmək",
+    "type": "root",
+    "edition": "en",
+    "head": "mərkəzləşdirmək",
+    "pos": "verb",
+    "template": "af",
+    "component": "mərkəzləşmək",
+    "etymology": "From mərkəzləşmək + -dir.",
+    "expansion": "mərkəzləşmək + -dir",
+    "source_id": "en-mərkəzləşdirmək-az-verb-rzYF6dTJ",
+    "word_senses": [
+      "to centralize"
+    ],
+    "base_senses": "to centralize, concentrate",
+    "kind": "derivation"
+  },
+  {
+    "a": "durultmaq",
+    "b": "durulmaq",
+    "type": "root",
+    "edition": "en",
+    "head": "durultmaq",
+    "pos": "verb",
+    "template": "af",
+    "component": "durulmaq",
+    "etymology": "From durulmaq + -t, from duru.",
+    "expansion": "durulmaq + -t",
+    "source_id": "en-durultmaq-az-verb-meeqzUcR",
+    "word_senses": [
+      "to dilute",
+      "to thin, to make \"less thick\" (of blood, phlegm)"
+    ],
+    "base_senses": "To calm down",
+    "kind": "derivation"
+  },
+  {
+    "a": "mərkəzsizləşdirmək",
+    "b": "mərkəzsizləşmək",
+    "type": "root",
+    "edition": "en",
+    "head": "mərkəzsizləşdirmək",
+    "pos": "verb",
+    "template": "af",
+    "component": "mərkəzsizləşmək",
+    "etymology": "From mərkəzsizləşmək + -dir.",
+    "expansion": "mərkəzsizləşmək + -dir",
+    "source_id": "en-mərkəzsizləşdirmək-az-verb-59teXVTi",
+    "word_senses": [
+      "to decentralize"
+    ],
+    "base_senses": "to decentralize",
+    "kind": "derivation"
+  },
+  {
+    "a": "cəngavərcəsinə",
+    "b": "cəngavər",
+    "type": "root",
+    "edition": "en",
+    "head": "cəngavərcəsinə",
+    "pos": "adv",
+    "template": "af",
+    "component": "cəngavər",
+    "etymology": "From cəngavər + -cəsinə.",
+    "expansion": "cəngavər + -cəsinə",
+    "source_id": "en-cəngavərcəsinə-az-adv-rFGq7INh",
+    "word_senses": [
+      "chivalrously"
+    ],
+    "base_senses": "warrior",
+    "kind": "derivation"
+  },
+  {
+    "a": "babadanqalma",
+    "b": "qalma",
+    "type": "root",
+    "edition": "en",
+    "head": "babadanqalma",
+    "pos": "adj",
+    "template": "af",
+    "component": "qalma",
+    "etymology": "From babadan + qalma. Literally, “inherited from grandfather”.",
+    "expansion": "babadan + qalma",
+    "source_id": "en-babadanqalma-az-adj-krclfh15",
+    "word_senses": [
+      "ancestral, hereditary",
+      "old-school"
+    ],
+    "base_senses": "stay",
+    "kind": "derivation"
+  },
+  {
+    "a": "qəbahətli",
+    "b": "qəbahət",
+    "type": "root",
+    "edition": "en",
+    "head": "qəbahətli",
+    "pos": "adj",
+    "template": "af",
+    "component": "qəbahət",
+    "etymology": "From qəbahət + -li.",
+    "expansion": "qəbahət + -li",
+    "source_id": "en-qəbahətli-az-adj-db7uyNQ6",
+    "word_senses": [
+      "reprehensible, despicable, blameable, shameful, inappropriate"
+    ],
+    "base_senses": "Misdemeanor",
+    "kind": "derivation"
+  }
+]

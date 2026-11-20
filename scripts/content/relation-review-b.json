@@ -1,0 +1,3444 @@
+{
+  "decisions": [
+    {
+      "a": "əczaçılıq",
+      "b": "aptek",
+      "decision": "hold",
+      "reason_en": "The discipline or profession of pharmacy is distinct from an aptek pharmacy shop; the shared English gloss hides that distinction.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "hampa",
+      "b": "zəngin",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: wealthy. Apply this edge only to that sense.",
+      "sense_az": "maddi cəhətdən zəngin",
+      "sense_en": "wealthy"
+    },
+    {
+      "a": "narincı",
+      "b": "narıncı",
+      "decision": "hold",
+      "reason_en": "This is a spelling variant of narıncı, not a separate lexical synonym.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "arxadaşlıq",
+      "b": "dostluq",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: friendship. Apply this edge only to that sense.",
+      "sense_az": "dostluq münasibəti",
+      "sense_en": "friendship"
+    },
+    {
+      "a": "uçan dairə",
+      "b": "uçan boşqab",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: flying saucer. Apply this edge only to that sense.",
+      "sense_az": "uçan boşqab",
+      "sense_en": "flying saucer"
+    },
+    {
+      "a": "anekdot",
+      "b": "zarafat",
+      "decision": "hold",
+      "reason_en": "An anecdote or humorous story is a particular kind of joke; the broad zarafat sense does not establish equivalence.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "qüdsiyyət",
+      "b": "müqəddəslik",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: holiness. Apply this edge only to that sense.",
+      "sense_az": "müqəddəslik",
+      "sense_en": "holiness"
+    },
+    {
+      "a": "pessimizm",
+      "b": "bədbinlik",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: pessimism. Apply this edge only to that sense.",
+      "sense_az": "bədbin dünyagörüşü",
+      "sense_en": "pessimism"
+    },
+    {
+      "a": "qatılıq",
+      "b": "sıxlıq",
+      "decision": "hold",
+      "reason_en": "Concentration, thickness or viscosity is not automatically physical density; Russian густота and English density flatten distinct senses.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "xəritəşünaslıq",
+      "b": "kartoqrafiya",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: cartography. Apply this edge only to that sense.",
+      "sense_az": "xəritəçilik elmi",
+      "sense_en": "cartography"
+    },
+    {
+      "a": "təhlilçi",
+      "b": "analitik",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: analyst. Apply this edge only to that sense.",
+      "sense_az": "təhlil aparan mütəxəssis",
+      "sense_en": "analyst"
+    },
+    {
+      "a": "camal",
+      "b": "gözəllik",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: physical beauty. Apply this edge only to that sense.",
+      "sense_az": "zahiri gözəllik",
+      "sense_en": "physical beauty"
+    },
+    {
+      "a": "burc",
+      "b": "qüllə",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: tower. Apply this edge only to that sense.",
+      "sense_az": "qüllə, bürc",
+      "sense_en": "tower"
+    },
+    {
+      "a": "yubiley",
+      "b": "ildönümü",
+      "decision": "hold",
+      "reason_en": "A jubilee is a notable or milestone anniversary, not every anniversary.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "abgüşt",
+      "b": "bozbaş",
+      "decision": "hold",
+      "reason_en": "Abgüşt and bozbaş name distinct dishes; the isolated translation does not justify equating them.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "acıdillilik",
+      "b": "böhtan",
+      "decision": "hold",
+      "reason_en": "Harsh or malicious speech is not necessarily a false defamatory accusation.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "acıqlılıq",
+      "b": "qəzəb",
+      "decision": "hold",
+      "reason_en": "An irritable disposition is distinct from the emotional state of anger.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "adab",
+      "b": "ədəb",
+      "decision": "hold",
+      "reason_en": "Adab is a historical or spelling form of ədəb; retain as a form relation rather than a green synonym.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "adamlıq",
+      "b": "bəşəriyyət",
+      "decision": "hold",
+      "reason_en": "Original человечность means humaneness, whereas bəşəriyyət means humankind.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "adaq",
+      "b": "addım",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: step. Apply this edge only to that sense.",
+      "sense_az": "atılan addım",
+      "sense_en": "step"
+    },
+    {
+      "a": "adıbilinməz",
+      "b": "naməlum",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: unknown or unidentified. Apply this edge only to that sense.",
+      "sense_az": "adı və ya kimliyi bilinməyən",
+      "sense_en": "unknown or unidentified"
+    },
+    {
+      "a": "adlı",
+      "b": "məşhur",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: famous. Apply this edge only to that sense.",
+      "sense_az": "tanınmış, məşhur",
+      "sense_en": "famous"
+    },
+    {
+      "a": "adsız-sansız",
+      "b": "naməlum",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: unknown or unrenowned. Apply this edge only to that sense.",
+      "sense_az": "tanınmayan, adı bilinməyən",
+      "sense_en": "unknown or unrenowned"
+    },
+    {
+      "a": "adətdənkənar",
+      "b": "qeyri-adi",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: unusual. Apply this edge only to that sense.",
+      "sense_az": "adi olmayan",
+      "sense_en": "unusual"
+    },
+    {
+      "a": "adətsiz",
+      "b": "qeyri-adi",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: unusual or unaccustomed. Apply this edge only to that sense.",
+      "sense_az": "adi olmayan, alışılmamış",
+      "sense_en": "unusual or unaccustomed"
+    },
+    {
+      "a": "ağacqıran",
+      "b": "odunçu",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: woodcutter. Apply this edge only to that sense.",
+      "sense_az": "odun qıran adam",
+      "sense_en": "woodcutter"
+    },
+    {
+      "a": "ağacqurdu",
+      "b": "odunçu",
+      "decision": "hold",
+      "reason_en": "Ağacqurdu is a wood-boring insect; Russian дровосек can also name an insect and was mistaken for a human woodcutter.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "agah",
+      "b": "bilikli",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: knowledgeable or informed. Apply this edge only to that sense.",
+      "sense_az": "məlumatlı, bilikli",
+      "sense_en": "knowledgeable or informed"
+    },
+    {
+      "a": "ağbağır",
+      "b": "qorxaq",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: coward. Apply this edge only to that sense.",
+      "sense_az": "qorxaq adam",
+      "sense_en": "coward"
+    },
+    {
+      "a": "ağbəxtli",
+      "b": "xoşbəxt",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: happy or fortunate. Apply this edge only to that sense.",
+      "sense_az": "xoşbəxt, bəxti gətirən",
+      "sense_en": "happy or fortunate"
+    },
+    {
+      "a": "ağır-səngin",
+      "b": "ciddi",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: serious or grave in manner. Apply this edge only to that sense.",
+      "sense_az": "ciddi, təmkinli",
+      "sense_en": "serious or grave in manner"
+    },
+    {
+      "a": "ağızbaağız",
+      "b": "izdihamlı",
+      "decision": "hold",
+      "reason_en": "Filled to the brim is not the same as crowded with people.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "ağızlı",
+      "b": "bəlağətli",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: eloquent. Apply this edge only to that sense.",
+      "sense_az": "bəlağətli danışan",
+      "sense_en": "eloquent"
+    },
+    {
+      "a": "ağladıcı",
+      "b": "acınacaqlı",
+      "decision": "hold",
+      "reason_en": "Causing tears is not equivalent to deplorable; the English gloss obscures this distinction.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "ağlar",
+      "b": "acınacaqlı",
+      "decision": "hold",
+      "reason_en": "Weeping or tearful is distinct from deplorable or pitiable.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "ağmaya",
+      "b": "ağ",
+      "decision": "hold",
+      "reason_en": "Ağmaya names a white she-camel; the adjective and generic white mapping is unreliable.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "ağqovaq",
+      "b": "qovaq",
+      "decision": "hold",
+      "reason_en": "White poplar is a species or type of poplar, not an interchangeable name for every poplar.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "ağzıyelli",
+      "b": "təkəbbürlü",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: arrogant or haughty. Apply this edge only to that sense.",
+      "sense_az": "təkəbbürlü",
+      "sense_en": "arrogant or haughty"
+    },
+    {
+      "a": "ahənrüba",
+      "b": "maqnit",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: magnet. Apply this edge only to that sense.",
+      "sense_az": "dəmir cəzb edən cisim",
+      "sense_en": "magnet"
+    },
+    {
+      "a": "ahəstə",
+      "b": "sakit",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: quiet or gentle. Apply this edge only to that sense.",
+      "sense_az": "sakit, həzin",
+      "sense_en": "quiet or gentle"
+    },
+    {
+      "a": "ala-dəymiş",
+      "b": "yetişməmiş",
+      "decision": "hold",
+      "reason_en": "Partly ripe retains a degree-of-ripeness distinction that generic unripe does not capture.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "ala-sütül",
+      "b": "yetişməmiş",
+      "decision": "hold",
+      "reason_en": "Partly ripe retains a degree-of-ripeness distinction that generic unripe does not capture.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "alçacıq",
+      "b": "qısa",
+      "decision": "hold",
+      "reason_en": "The diminutive low or little-short form has height and degree information absent from generic short; preserve derivation separately.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "alçaqboy",
+      "b": "qısa",
+      "decision": "hold",
+      "reason_en": "Short in stature is more specific than generic short; no matching contextual target sense is supplied.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "alicah",
+      "b": "nəcib",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: noble or well-born. Apply this edge only to that sense.",
+      "sense_az": "əsil-nəcabətli",
+      "sense_en": "noble or well-born"
+    },
+    {
+      "a": "allı-güllü",
+      "b": "gözəl",
+      "decision": "hold",
+      "reason_en": "Colorful or florally decorated does not necessarily mean beautiful.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "aludəlik",
+      "b": "hobbi",
+      "decision": "hold",
+      "reason_en": "Infatuation or absorption is not the same as a hobby.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "alverçilik",
+      "b": "ticarət",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: trading or commerce. Apply this edge only to that sense.",
+      "sense_az": "alver, ticarət fəaliyyəti",
+      "sense_en": "trading or commerce"
+    },
+    {
+      "a": "aləmşümül",
+      "b": "məşhur",
+      "decision": "hold",
+      "reason_en": "Worldwide or world-famous is more specific than merely famous.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "alətqayıran",
+      "b": "çilingər",
+      "decision": "hold",
+      "reason_en": "Toolmaker and locksmith name distinct trades.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "amanı",
+      "b": "müvəqqəti",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: temporary. Apply this edge only to that sense.",
+      "sense_az": "müvəqqəti",
+      "sense_en": "temporary"
+    },
+    {
+      "a": "arabaçılıq",
+      "b": "nəqliyyat",
+      "decision": "hold",
+      "reason_en": "Carting or the carriage trade is a subtype of transport rather than a general synonym.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "araçı",
+      "b": "vasitəçi",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: intermediary. Apply this edge only to that sense.",
+      "sense_az": "araya girən vasitəçi",
+      "sense_en": "intermediary"
+    },
+    {
+      "a": "araçılıq",
+      "b": "vasitəçilik",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: mediation. Apply this edge only to that sense.",
+      "sense_az": "vasitəçilik etmə",
+      "sense_en": "mediation"
+    },
+    {
+      "a": "aralıqçı",
+      "b": "vasitəçi",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: intermediary. Apply this edge only to that sense.",
+      "sense_az": "araya girən vasitəçi",
+      "sense_en": "intermediary"
+    },
+    {
+      "a": "aralıqçılıq",
+      "b": "vasitəçilik",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: mediation. Apply this edge only to that sense.",
+      "sense_az": "vasitəçilik etmə",
+      "sense_en": "mediation"
+    },
+    {
+      "a": "aranlıq",
+      "b": "düzənlik",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: lowland. Apply this edge only to that sense.",
+      "sense_az": "alçaq düzən yer",
+      "sense_en": "lowland"
+    },
+    {
+      "a": "arğalı",
+      "b": "qaban",
+      "decision": "hold",
+      "reason_en": "Arğalı denotes a wild sheep, not a wild boar; the source translation appears faulty.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "ariflik",
+      "b": "hikmət",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: wisdom. Apply this edge only to that sense.",
+      "sense_az": "müdriklik",
+      "sense_en": "wisdom"
+    },
+    {
+      "a": "arıqca",
+      "b": "arıq",
+      "decision": "hold",
+      "reason_en": "A diminutive or attenuated form of arıq retains degree information; a derivation link is preferable to unconditional synonymy.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "arıqcaq",
+      "b": "arıq",
+      "decision": "hold",
+      "reason_en": "A diminutive or attenuated form of arıq retains degree information; a derivation link is preferable to unconditional synonymy.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "arıqlıq",
+      "b": "incəlik",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: bodily thinness or slenderness. Apply this edge only to that sense.",
+      "sense_az": "bədənin arıq olması",
+      "sense_en": "bodily thinness or slenderness"
+    },
+    {
+      "a": "arısaxlayan",
+      "b": "arıçı",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: beekeeper. Apply this edge only to that sense.",
+      "sense_az": "arı saxlayan adam",
+      "sense_en": "beekeeper"
+    },
+    {
+      "a": "arıxanaçı",
+      "b": "arıçı",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: beekeeper. Apply this edge only to that sense.",
+      "sense_az": "arı saxlayan adam",
+      "sense_en": "beekeeper"
+    },
+    {
+      "a": "arıyabaxan",
+      "b": "arıçı",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: beekeeper. Apply this edge only to that sense.",
+      "sense_az": "arı saxlayan adam",
+      "sense_en": "beekeeper"
+    },
+    {
+      "a": "artma",
+      "b": "artım",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: increase in quantity. Apply this edge only to that sense.",
+      "sense_az": "miqdarın çoxalması",
+      "sense_en": "increase in quantity"
+    },
+    {
+      "a": "arzuman",
+      "b": "nəhəng",
+      "decision": "hold",
+      "reason_en": "The isolated giant gloss does not adequately corroborate this unusual headword and its Azerbaijani sense.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "asantəhər",
+      "b": "yüngül",
+      "decision": "hold",
+      "reason_en": "Somewhat easy and lightweight differ; Russian легковатый is polysemous.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "aşpazxana",
+      "b": "mətbəx",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: kitchen. Apply this edge only to that sense.",
+      "sense_az": "yemək bişirilən yer",
+      "sense_en": "kitchen"
+    },
+    {
+      "a": "aşqarlı",
+      "b": "murdar",
+      "decision": "hold",
+      "reason_en": "Adulterated or mixed is not synonymous with dirty or unclean in general.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "asqı",
+      "b": "asılqan",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: hanger. Apply this edge only to that sense.",
+      "sense_az": "paltar asmaq üçün vasitə",
+      "sense_en": "hanger"
+    },
+    {
+      "a": "astagəl",
+      "b": "yavaş",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: slow in action. Apply this edge only to that sense.",
+      "sense_az": "hərəkəti yavaş olan",
+      "sense_en": "slow in action"
+    },
+    {
+      "a": "asudəlik",
+      "b": "sülh",
+      "decision": "hold",
+      "reason_en": "Russian покой is rest or quiet here, while sülh is peace; absence of war is not established.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "atadanqalma",
+      "b": "miras",
+      "decision": "hold",
+      "reason_en": "Paternally inherited describes provenance, whereas miras is the inheritance itself; the model POS and sense match is uncertain.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "atmaralı",
+      "b": "bəlağətli",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: eloquent. Apply this edge only to that sense.",
+      "sense_az": "bəlağətli danışan",
+      "sense_en": "eloquent"
+    },
+    {
+      "a": "atəşfəşan",
+      "b": "atəşfəşanlıq",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: fireworks display. Apply this edge only to that sense.",
+      "sense_az": "bayram atəşfəşanlığı",
+      "sense_en": "fireworks display"
+    },
+    {
+      "a": "aul",
+      "b": "kənd",
+      "decision": "hold",
+      "reason_en": "An aul is a culturally specific kind of village, not every village.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "avamlıq",
+      "b": "cəhalət",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: ignorance. Apply this edge only to that sense.",
+      "sense_az": "bilməzlik, məlumatsızlıq",
+      "sense_en": "ignorance"
+    },
+    {
+      "a": "axım",
+      "b": "cərəyan",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: flow or current. Apply this edge only to that sense.",
+      "sense_az": "mayenin axması",
+      "sense_en": "flow or current"
+    },
+    {
+      "a": "ayıdöşəyi",
+      "b": "qıjı",
+      "decision": "hold",
+      "reason_en": "A particular fern type is not equivalent to the general fern category.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "azarlama",
+      "b": "xəstəlik",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: illness. Apply this edge only to that sense.",
+      "sense_az": "xəstələnmə, xəstəlik",
+      "sense_en": "illness"
+    },
+    {
+      "a": "azbilikli",
+      "b": "cahil",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: poorly informed or ignorant. Apply this edge only to that sense.",
+      "sense_az": "az məlumatı olan",
+      "sense_en": "poorly informed or ignorant"
+    },
+    {
+      "a": "azməlumatlı",
+      "b": "cahil",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: poorly informed or ignorant. Apply this edge only to that sense.",
+      "sense_az": "az məlumatı olan",
+      "sense_en": "poorly informed or ignorant"
+    },
+    {
+      "a": "azsavadlı",
+      "b": "savadsız",
+      "decision": "hold",
+      "reason_en": "Limited literacy differs from having no literacy; the degree difference must be preserved.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "aztəcrübəli",
+      "b": "təcrübəsiz",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: inexperienced. Apply this edge only to that sense.",
+      "sense_az": "kifayət qədər təcrübəsi olmayan",
+      "sense_en": "inexperienced"
+    },
+    {
+      "a": "babal",
+      "b": "günah",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: sin or fault. Apply this edge only to that sense.",
+      "sense_az": "günah, təqsir",
+      "sense_en": "sin or fault"
+    },
+    {
+      "a": "badə",
+      "b": "şüşə",
+      "decision": "hold",
+      "reason_en": "Badə is a drinking cup or goblet; şüşə is glass material or a bottle. English glass merges those senses.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "bağçı",
+      "b": "bağban",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: gardener. Apply this edge only to that sense.",
+      "sense_az": "bağa qulluq edən adam",
+      "sense_en": "gardener"
+    },
+    {
+      "a": "bağçiyələyi",
+      "b": "çiyələk",
+      "decision": "hold",
+      "reason_en": "Garden strawberry is a subtype of strawberry, not the entire category.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "bağdatı",
+      "b": "şərf",
+      "decision": "hold",
+      "reason_en": "A traditional headkerchief is not necessarily the same as a generic scarf or neck scarf; the target has no original source corroboration.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "bağırsaqqurdu",
+      "b": "qurd",
+      "decision": "hold",
+      "reason_en": "An intestinal worm is a subtype of worm and must not be conflated with the wolf homonym either.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "bahadırlıq",
+      "b": "cəsarət",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: courage or bravery. Apply this edge only to that sense.",
+      "sense_az": "igidlik, cəsarət",
+      "sense_en": "courage or bravery"
+    },
+    {
+      "a": "balacıq",
+      "b": "uşaq",
+      "decision": "hold",
+      "reason_en": "The affectionate diminutive little child is a derivational form with extra meaning, not an independent unqualified child synonym.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "baltaçı",
+      "b": "odunçu",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: woodcutter. Apply this edge only to that sense.",
+      "sense_az": "odun qıran adam",
+      "sense_en": "woodcutter"
+    },
+    {
+      "a": "başıbəlalı",
+      "b": "bədbəxt",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: unfortunate. Apply this edge only to that sense.",
+      "sense_az": "bəxti gətirməyən",
+      "sense_en": "unfortunate"
+    },
+    {
+      "a": "başıdaşlı",
+      "b": "bədbəxt",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: unfortunate or wretched. Apply this edge only to that sense.",
+      "sense_az": "bəxti gətirməyən",
+      "sense_en": "unfortunate or wretched"
+    },
+    {
+      "a": "başıküllü",
+      "b": "bədbəxt",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: unfortunate or wretched. Apply this edge only to that sense.",
+      "sense_az": "bəxti gətirməyən",
+      "sense_en": "unfortunate or wretched"
+    },
+    {
+      "a": "başıucalıq",
+      "b": "şərəf",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: honor or good repute. Apply this edge only to that sense.",
+      "sense_az": "şərəf, yaxşı ad",
+      "sense_en": "honor or good repute"
+    },
+    {
+      "a": "başıətli",
+      "b": "sərvət",
+      "decision": "hold",
+      "reason_en": "The purported wealth noun sense of this headword is linguistically doubtful; the isolated Russian gloss is insufficient.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "başlama",
+      "b": "başlanğıc",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: commencement. Apply this edge only to that sense.",
+      "sense_az": "işin başlanması",
+      "sense_en": "commencement"
+    },
+    {
+      "a": "basqınçı",
+      "b": "quldur",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: robber or plundering raider. Apply this edge only to that sense.",
+      "sense_az": "soyğunçuluq edən adam",
+      "sense_en": "robber or plundering raider"
+    },
+    {
+      "a": "başsızlıq",
+      "b": "axmaqlıq",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: stupidity or foolishness. Apply this edge only to that sense.",
+      "sense_az": "ağılsızlıq",
+      "sense_en": "stupidity or foolishness"
+    },
+    {
+      "a": "batdaq",
+      "b": "kir",
+      "decision": "hold",
+      "reason_en": "Mud or marsh is not equivalent to dirt; Russian грязь is too broad to resolve the intended sense.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "batıq",
+      "b": "depressiya",
+      "decision": "hold",
+      "reason_en": "A physical hollow or depression is distinct from psychological depression; no corroborated physical sense is supplied for the target.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "batırılmaz",
+      "b": "batmaz",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: unsinkable. Apply this edge only to that sense.",
+      "sense_az": "suya batmayan",
+      "sense_en": "unsinkable"
+    },
+    {
+      "a": "baxımsızlıq",
+      "b": "evsizlik",
+      "decision": "hold",
+      "reason_en": "Neglect or lack of care is not homelessness.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "beşbucaq",
+      "b": "beşbucaqlı",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: pentagon. Apply this edge only to that sense.",
+      "sense_az": "beş tərəfli həndəsi fiqur",
+      "sense_en": "pentagon"
+    },
+    {
+      "a": "beyinsizlik",
+      "b": "axmaqlıq",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: stupidity. Apply this edge only to that sense.",
+      "sense_az": "ağılsızlıq",
+      "sense_en": "stupidity"
+    },
+    {
+      "a": "bihal",
+      "b": "zəif",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: physically weak or faint. Apply this edge only to that sense.",
+      "sense_az": "fiziki cəhətdən zəif",
+      "sense_en": "physically weak or faint"
+    },
+    {
+      "a": "bihuşdarı",
+      "b": "anesteziya",
+      "decision": "hold",
+      "reason_en": "An anesthetic substance is not the resulting anesthesia state or procedure.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "bikeflik",
+      "b": "kədər",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: sadness. Apply this edge only to that sense.",
+      "sense_az": "qəm, kədər",
+      "sense_en": "sadness"
+    },
+    {
+      "a": "bikefçilik",
+      "b": "kədər",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: sadness. Apply this edge only to that sense.",
+      "sense_az": "qəm, kədər",
+      "sense_en": "sadness"
+    },
+    {
+      "a": "biliksizlik",
+      "b": "cəhalət",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: ignorance or lack of knowledge. Apply this edge only to that sense.",
+      "sense_az": "biliyin olmaması",
+      "sense_en": "ignorance or lack of knowledge"
+    },
+    {
+      "a": "bilməməzlik",
+      "b": "cəhalət",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: ignorance or lack of knowledge. Apply this edge only to that sense.",
+      "sense_az": "biliyin olmaması",
+      "sense_en": "ignorance or lack of knowledge"
+    },
+    {
+      "a": "binagüzarlıq",
+      "b": "sifariş",
+      "decision": "hold",
+      "reason_en": "An administrative order or directive is not a customer order for goods or services.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "biradamlıq",
+      "b": "tək",
+      "decision": "hold",
+      "reason_en": "Designed for one person is more specific than single in general.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "birbəbir",
+      "b": "bir-bir",
+      "decision": "hold",
+      "reason_en": "These are spelling or word-division variants, better represented as alternate forms.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "birçəkli",
+      "b": "buruq",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: curly-haired. Apply this edge only to that sense.",
+      "sense_az": "qıvrım saçlı",
+      "sense_en": "curly-haired"
+    },
+    {
+      "a": "birqat",
+      "b": "tək",
+      "decision": "hold",
+      "reason_en": "Single-layer is more specific than single in general.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "birüzlü",
+      "b": "birtərəfli",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: one-sided. Apply this edge only to that sense.",
+      "sense_az": "bir tərəfli",
+      "sense_en": "one-sided"
+    },
+    {
+      "a": "biryanlı",
+      "b": "birtərəfli",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: one-sided. Apply this edge only to that sense.",
+      "sense_az": "bir tərəfli",
+      "sense_en": "one-sided"
+    },
+    {
+      "a": "birədili",
+      "b": "nəhayət",
+      "decision": "hold",
+      "reason_en": "Finally in time and definitively or once for all are different senses of the English gloss.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "bitişmə",
+      "b": "əlaqə",
+      "decision": "hold",
+      "reason_en": "Joining or fusion is a process, whereas əlaqə covers a connection or relationship; a precise shared sense is not established.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "biyaban",
+      "b": "səhra",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: desert. Apply this edge only to that sense.",
+      "sense_az": "səhra",
+      "sense_en": "desert"
+    },
+    {
+      "a": "boğma",
+      "b": "difteriya",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: diphtheria. Apply this edge only to that sense.",
+      "sense_az": "difteriya xəstəliyi",
+      "sense_en": "diphtheria"
+    },
+    {
+      "a": "bollaşdırmaq",
+      "b": "çoxaltmaq",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: to increase a quantity. Apply this edge only to that sense.",
+      "sense_az": "miqdarı artırmaq",
+      "sense_en": "to increase a quantity"
+    },
+    {
+      "a": "bollaşmaq",
+      "b": "çoxaltmaq",
+      "decision": "hold",
+      "reason_en": "Bollaşmaq is intransitive increase; çoxaltmaq means to cause something to increase.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "borcluluq",
+      "b": "borc",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: financial debt or indebtedness. Apply this edge only to that sense.",
+      "sense_az": "ödənilməli pul borcu",
+      "sense_en": "financial debt or indebtedness"
+    },
+    {
+      "a": "boşama",
+      "b": "boşanma",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: divorce. Apply this edge only to that sense.",
+      "sense_az": "nikahın pozulması",
+      "sense_en": "divorce"
+    },
+    {
+      "a": "boysuz",
+      "b": "qısa",
+      "decision": "hold",
+      "reason_en": "Short in stature is more specific than generic short.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "böyümə",
+      "b": "artım",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: quantitative growth. Apply this edge only to that sense.",
+      "sense_az": "miqdarın artması",
+      "sense_en": "quantitative growth"
+    },
+    {
+      "a": "bozumsov",
+      "b": "bozumtul",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: grayish. Apply this edge only to that sense.",
+      "sense_az": "boza çalan",
+      "sense_en": "grayish"
+    },
+    {
+      "a": "büdpərəstlik",
+      "b": "bütpərəstlik",
+      "decision": "hold",
+      "reason_en": "This is a spelling variant of bütpərəstlik.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "buğlanma",
+      "b": "buxarlanma",
+      "decision": "hold",
+      "reason_en": "Fogging or condensation must not be equated with evaporation on the strength of a flattened translation.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "bulaşıq",
+      "b": "çirkli",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: dirty or soiled. Apply this edge only to that sense.",
+      "sense_az": "çirkə bulaşmış",
+      "sense_en": "dirty or soiled"
+    },
+    {
+      "a": "bünövrəsiz",
+      "b": "kövrək",
+      "decision": "hold",
+      "reason_en": "Without a foundation does not necessarily mean fragile.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "burnuəyri",
+      "b": "əyri",
+      "decision": "hold",
+      "reason_en": "Having a crooked nose is more specific than being crooked in general.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "bəd",
+      "b": "pis",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: bad. Apply this edge only to that sense.",
+      "sense_az": "yaxşı olmayan",
+      "sense_en": "bad"
+    },
+    {
+      "a": "bədaye",
+      "b": "bədii",
+      "decision": "hold",
+      "reason_en": "Bədaye is associated with literary or rhetorical beauties, not securely the adjective artistic.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "bədbihesab",
+      "b": "nankor",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: ungrateful. Apply this edge only to that sense.",
+      "sense_az": "yaxşılığın qədrini bilməyən",
+      "sense_en": "ungrateful"
+    },
+    {
+      "a": "bədlik",
+      "b": "uğursuzluq",
+      "decision": "hold",
+      "reason_en": "Badness or evil is not the same as failure.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "bədmüşk",
+      "b": "söyüd",
+      "decision": "hold",
+      "reason_en": "A particular willow type is not equivalent to the full willow category.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "bədməzhəb",
+      "b": "nankor",
+      "decision": "hold",
+      "reason_en": "Original неблаговерный concerns religious belief; it does not mean ungrateful.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "bədnəfs",
+      "b": "eqoist",
+      "decision": "hold",
+      "reason_en": "Greedy or driven by appetite is not interchangeable with self-centered in general.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "bədxab",
+      "b": "yuxusuz",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: sleepless. Apply this edge only to that sense.",
+      "sense_az": "yuxusu olmayan",
+      "sense_en": "sleepless"
+    },
+    {
+      "a": "bədəl",
+      "b": "əvəz",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: replacement or substitute. Apply this edge only to that sense.",
+      "sense_az": "bir şeyin yerini tutan",
+      "sense_en": "replacement or substitute"
+    },
+    {
+      "a": "bədəməl",
+      "b": "cani",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: villain or evildoer. Apply this edge only to that sense.",
+      "sense_az": "pis əməl sahibi",
+      "sense_en": "villain or evildoer"
+    },
+    {
+      "a": "bədənsiz",
+      "b": "cisimsiz",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: bodiless or disembodied. Apply this edge only to that sense.",
+      "sense_az": "cismi olmayan",
+      "sense_en": "bodiless or disembodied"
+    },
+    {
+      "a": "bədəxlaq",
+      "b": "əxlaqsız",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: immoral. Apply this edge only to that sense.",
+      "sense_az": "əxlaqa zidd",
+      "sense_en": "immoral"
+    },
+    {
+      "a": "bəlalı",
+      "b": "fəlakətli",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: disastrous. Apply this edge only to that sense.",
+      "sense_az": "fəlakət gətirən",
+      "sense_en": "disastrous"
+    },
+    {
+      "a": "bəlim",
+      "b": "saman",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: straw. Apply this edge only to that sense.",
+      "sense_az": "qurudulmuş taxıl gövdəsi",
+      "sense_en": "straw"
+    },
+    {
+      "a": "bələdlik",
+      "b": "bilik",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: knowledge or familiarity. Apply this edge only to that sense.",
+      "sense_az": "bir mövzu və ya yer haqqında məlumat",
+      "sense_en": "knowledge or familiarity"
+    },
+    {
+      "a": "bəndər",
+      "b": "port",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: port or harbor. Apply this edge only to that sense.",
+      "sense_az": "gəmilərin dayandığı liman",
+      "sense_en": "port or harbor"
+    },
+    {
+      "a": "bənzədilmə",
+      "b": "assimilyasiya",
+      "decision": "hold",
+      "reason_en": "Likening or being compared is not automatically assimilation; the required technical sense is unverified.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "bənzətmə",
+      "b": "təqlid",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: imitation or copying. Apply this edge only to that sense.",
+      "sense_az": "oxşadaraq təqlid etmə",
+      "sense_en": "imitation or copying"
+    },
+    {
+      "a": "bənzəyiş",
+      "b": "oxşarlıq",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: similarity. Apply this edge only to that sense.",
+      "sense_az": "bir-birinə oxşama",
+      "sense_en": "similarity"
+    },
+    {
+      "a": "bənzəmə",
+      "b": "oxşarlıq",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: similarity. Apply this edge only to that sense.",
+      "sense_az": "bir-birinə oxşama",
+      "sense_en": "similarity"
+    },
+    {
+      "a": "bəstəboy",
+      "b": "qısa",
+      "decision": "hold",
+      "reason_en": "Short in stature is more specific than generic short.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "bəxtiqara",
+      "b": "bədbəxt",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: unfortunate. Apply this edge only to that sense.",
+      "sense_az": "bəxti gətirməyən",
+      "sense_en": "unfortunate"
+    },
+    {
+      "a": "bəxtiyarlıq",
+      "b": "xoşbəxtlik",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: happiness. Apply this edge only to that sense.",
+      "sense_az": "xoşbəxt olma halı",
+      "sense_en": "happiness"
+    },
+    {
+      "a": "cadar",
+      "b": "çat",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: crack or fissure. Apply this edge only to that sense.",
+      "sense_az": "yarıq, çat",
+      "sense_en": "crack or fissure"
+    },
+    {
+      "a": "cahangir",
+      "b": "fateh",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: conqueror. Apply this edge only to that sense.",
+      "sense_az": "ölkə fəth edən",
+      "sense_en": "conqueror"
+    },
+    {
+      "a": "cahıl",
+      "b": "gənc",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: young. Apply this edge only to that sense.",
+      "sense_az": "gənc yaşlı",
+      "sense_en": "young"
+    },
+    {
+      "a": "cahılca",
+      "b": "gənc",
+      "decision": "hold",
+      "reason_en": "The attenuated or diminutive young form belongs with derivation information rather than unqualified synonymy.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "cahıllıq",
+      "b": "gənclik",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: youth. Apply this edge only to that sense.",
+      "sense_az": "gənc yaş dövrü",
+      "sense_en": "youth"
+    },
+    {
+      "a": "cakeş",
+      "b": "oğraş",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: pimp or procurer. Apply this edge only to that sense.",
+      "sense_az": "fahişəlikdən qazanc götürən vasitəçi",
+      "sense_en": "pimp or procurer"
+    },
+    {
+      "a": "can-başla",
+      "b": "həvəslə",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: willingly or eagerly. Apply this edge only to that sense.",
+      "sense_az": "könüllü və həvəslə",
+      "sense_en": "willingly or eagerly"
+    },
+    {
+      "a": "can-ciyər",
+      "b": "doğma",
+      "decision": "hold",
+      "reason_en": "Dear or intimate is distinct from native or biologically related; Russian родной spans these senses.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "pullu",
+      "b": "zəngin",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: wealthy. Apply this edge only to that sense.",
+      "sense_az": "çox pulu olan",
+      "sense_en": "wealthy"
+    },
+    {
+      "a": "canişin",
+      "b": "qubernator",
+      "decision": "hold",
+      "reason_en": "A viceroy or deputy and a governor are distinct historical offices.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "canqurtaran",
+      "b": "xilaskar",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: rescuer or savior. Apply this edge only to that sense.",
+      "sense_az": "xilas edən adam",
+      "sense_en": "rescuer or savior"
+    },
+    {
+      "a": "cansağlığı",
+      "b": "sağlamlıq",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: health. Apply this edge only to that sense.",
+      "sense_az": "sağlam olma halı",
+      "sense_en": "health"
+    },
+    {
+      "a": "cansıxıcılıq",
+      "b": "zəiflik",
+      "decision": "hold",
+      "reason_en": "Boredom or tediousness is not weakness; the displayed translation appears erroneous.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "cavanca",
+      "b": "gənc",
+      "decision": "hold",
+      "reason_en": "The attenuated or diminutive young form belongs with derivation information rather than unqualified synonymy.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "cılızlıq",
+      "b": "zəiflik",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: physical weakness or frailty. Apply this edge only to that sense.",
+      "sense_az": "fiziki zəiflik",
+      "sense_en": "physical weakness or frailty"
+    },
+    {
+      "a": "cılxa",
+      "b": "təmiz",
+      "decision": "hold",
+      "reason_en": "Pure or unmixed is not necessarily physically clean; the original чистый gloss does not resolve the target sense.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "cinah",
+      "b": "qanad",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: wing or flank of an army or organization. Apply this edge only to that sense.",
+      "sense_az": "ordunun və ya təşkilatın cinahı",
+      "sense_en": "wing or flank of an army or organization"
+    },
+    {
+      "a": "cinayətkarlıq",
+      "b": "cinayət",
+      "decision": "hold",
+      "reason_en": "Criminality or crime collectively is distinct from an individual criminal act.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "cindar",
+      "b": "şaman",
+      "decision": "hold",
+      "reason_en": "An exorcist or spirit practitioner is not necessarily a shaman; the traditions and roles differ.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "comərdlik",
+      "b": "səxavət",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: generosity. Apply this edge only to that sense.",
+      "sense_az": "əliaçıqlıq",
+      "sense_en": "generosity"
+    },
+    {
+      "a": "cunquş",
+      "b": "körpə",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: baby or little child. Apply this edge only to that sense.",
+      "sense_az": "kiçik uşaq",
+      "sense_en": "baby or little child"
+    },
+    {
+      "a": "cürə",
+      "b": "qısa",
+      "decision": "hold",
+      "reason_en": "Small or short in stature is more specific than generic short.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "cürətlilik",
+      "b": "cəsarət",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: courage. Apply this edge only to that sense.",
+      "sense_az": "cəsarətli olma",
+      "sense_en": "courage"
+    },
+    {
+      "a": "cuş",
+      "b": "həyəcan",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: excitement or agitation. Apply this edge only to that sense.",
+      "sense_az": "coşqun həyəcan",
+      "sense_en": "excitement or agitation"
+    },
+    {
+      "a": "cüvəllağılıq",
+      "b": "fırıldaqçılıq",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: fraud or swindling. Apply this edge only to that sense.",
+      "sense_az": "aldatma, fırıldaq",
+      "sense_en": "fraud or swindling"
+    },
+    {
+      "a": "cəfakeş",
+      "b": "şəhid",
+      "decision": "hold",
+      "reason_en": "A sufferer or toiler need not be a person killed for a cause; martyr is polysemous in translation.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "cəlallı",
+      "b": "möhtəşəm",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: magnificent. Apply this edge only to that sense.",
+      "sense_az": "əzəmətli, möhtəşəm",
+      "sense_en": "magnificent"
+    },
+    {
+      "a": "cəmdək",
+      "b": "leş",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: animal carcass or carrion. Apply this edge only to that sense.",
+      "sense_az": "ölü heyvan bədəni",
+      "sense_en": "animal carcass or carrion"
+    },
+    {
+      "a": "cəsarətlilik",
+      "b": "cəsarət",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: courage. Apply this edge only to that sense.",
+      "sense_az": "cəsarətli olma",
+      "sense_en": "courage"
+    },
+    {
+      "a": "cəzirə",
+      "b": "ada",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: island. Apply this edge only to that sense.",
+      "sense_az": "su ilə əhatə olunmuş quru",
+      "sense_en": "island"
+    },
+    {
+      "a": "dairəcik",
+      "b": "dairə",
+      "decision": "hold",
+      "reason_en": "This is a diminutive circle derivation; preserve its size meaning and root relation.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "daldalıq",
+      "b": "ekran",
+      "decision": "hold",
+      "reason_en": "A protective barrier is not necessarily a display or projection screen; the target lacks source evidence.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "dalğalanma",
+      "b": "həyəcan",
+      "decision": "hold",
+      "reason_en": "Waving or undulation is distinct from emotional excitement; Russian волнение conflates them.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "dam-daş",
+      "b": "bina",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: building or dwelling. Apply this edge only to that sense.",
+      "sense_az": "tikili, ev",
+      "sense_en": "building or dwelling"
+    },
+    {
+      "a": "danışmamazlıq",
+      "b": "sükut",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: silence in speech. Apply this edge only to that sense.",
+      "sense_az": "danışmama, sükut",
+      "sense_en": "silence in speech"
+    },
+    {
+      "a": "danə",
+      "b": "toxum",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: grain or seed. Apply this edge only to that sense.",
+      "sense_az": "bitki toxumu, dən",
+      "sense_en": "grain or seed"
+    },
+    {
+      "a": "daraba",
+      "b": "hasar",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: fence. Apply this edge only to that sense.",
+      "sense_az": "çəpər, hasar",
+      "sense_en": "fence"
+    },
+    {
+      "a": "darbalaq",
+      "b": "şalvar",
+      "decision": "hold",
+      "reason_en": "A particular narrow-legged trouser type is not equivalent to trousers as a whole.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "darca",
+      "b": "dar",
+      "decision": "hold",
+      "reason_en": "The diminutive or attenuated narrow form retains degree information; preserve it as a derivation.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "dartışdırmaq",
+      "b": "uzanmaq",
+      "decision": "hold",
+      "reason_en": "Dartışdırmaq is transitive stretching, whereas uzanmaq is intransitive extending or lying down.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "dartəhər",
+      "b": "dar",
+      "decision": "hold",
+      "reason_en": "Somewhat narrow retains a degree distinction from narrow; preserve the derivation rather than erase the qualifier.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "daxıl",
+      "b": "kassa",
+      "decision": "hold",
+      "reason_en": "A collection or money box is not necessarily the cashier's desk or office; касса is too broad to settle this.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "dazlanmaq",
+      "b": "keçəlləşmək",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: to go bald. Apply this edge only to that sense.",
+      "sense_az": "saçı tökülüb keçəl olmaq",
+      "sense_en": "to go bald"
+    },
+    {
+      "a": "dedi-qoduçu",
+      "b": "dedi-qodu",
+      "decision": "hold",
+      "reason_en": "A gossiping person is distinct from gossip as speech or activity; English gossip hides the noun distinction.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "didmə",
+      "b": "əzab",
+      "decision": "hold",
+      "reason_en": "Tearing or shredded material is not securely the psychological torment sense; the isolated терзание gloss is insufficient.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "dikbaşlıq",
+      "b": "itaətsizlik",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: disobedience. Apply this edge only to that sense.",
+      "sense_az": "itaət etməmə",
+      "sense_en": "disobedience"
+    },
+    {
+      "a": "dilavər",
+      "b": "bəlağətli",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: eloquent. Apply this edge only to that sense.",
+      "sense_az": "bəlağətli danışan",
+      "sense_en": "eloquent"
+    },
+    {
+      "a": "dilavərlik",
+      "b": "bəlağət",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: eloquence. Apply this edge only to that sense.",
+      "sense_az": "gözəl və təsirli danışıq",
+      "sense_en": "eloquence"
+    },
+    {
+      "a": "dilik",
+      "b": "zolaq",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: strip. Apply this edge only to that sense.",
+      "sense_az": "uzunsov dar parça",
+      "sense_en": "strip"
+    },
+    {
+      "a": "dillilik",
+      "b": "dil",
+      "decision": "hold",
+      "reason_en": "Original языкастость denotes talkativeness or a sharp tongue, not tongue or language itself.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "dilxoş",
+      "b": "şən",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: cheerful. Apply this edge only to that sense.",
+      "sense_az": "şən, xoş əhvallı",
+      "sense_en": "cheerful"
+    },
+    {
+      "a": "dilənçipayı",
+      "b": "sədəqə",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: alms or charity. Apply this edge only to that sense.",
+      "sense_az": "yoxsula verilən yardım",
+      "sense_en": "alms or charity"
+    },
+    {
+      "a": "dincəliş",
+      "b": "istirahət",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: rest. Apply this edge only to that sense.",
+      "sense_az": "dincəlmə",
+      "sense_en": "rest"
+    },
+    {
+      "a": "dinməməzlik",
+      "b": "sükut",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: silence in speech. Apply this edge only to that sense.",
+      "sense_az": "danışmama, sükut",
+      "sense_en": "silence in speech"
+    },
+    {
+      "a": "diqqətəlayiq",
+      "b": "əlamətdar",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: remarkable. Apply this edge only to that sense.",
+      "sense_az": "diqqəti cəlb edən",
+      "sense_en": "remarkable"
+    },
+    {
+      "a": "dirrikçi",
+      "b": "bağban",
+      "decision": "hold",
+      "reason_en": "A vegetable gardener is a narrower occupational category than gardener in general.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "divanxana",
+      "b": "məhkəmə",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: court of law. Apply this edge only to that sense.",
+      "sense_az": "məhkəmə idarəsi",
+      "sense_en": "court of law"
+    },
+    {
+      "a": "divanəlik",
+      "b": "dəlilik",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: madness. Apply this edge only to that sense.",
+      "sense_az": "ağlını itirmə halı",
+      "sense_en": "madness"
+    },
+    {
+      "a": "dızman",
+      "b": "qoyun",
+      "decision": "hold",
+      "reason_en": "The specific sheep term is not established as an interchangeable name for all sheep.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "dolanacaq",
+      "b": "həyat",
+      "decision": "hold",
+      "reason_en": "Livelihood or means of subsistence is not the same as life itself.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "döşənəcək",
+      "b": "zibil",
+      "decision": "hold",
+      "reason_en": "Original подстилка means bedding or material laid underneath, not trash; English litter is polysemous.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "dövlətlilik",
+      "b": "firavanlıq",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: prosperity. Apply this edge only to that sense.",
+      "sense_az": "maddi bolluq",
+      "sense_en": "prosperity"
+    },
+    {
+      "a": "dəhrə",
+      "b": "bıçaq",
+      "decision": "hold",
+      "reason_en": "A billhook or chopping blade is a specific implement, not interchangeable with every knife.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "dəllallıq",
+      "b": "vasitəçilik",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: intermediary services. Apply this edge only to that sense.",
+      "sense_az": "tərəflər arasında vasitəçilik",
+      "sense_en": "intermediary services"
+    },
+    {
+      "a": "dələduzluq",
+      "b": "fırıldaqçılıq",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: fraud or swindling. Apply this edge only to that sense.",
+      "sense_az": "aldatma, fırıldaq",
+      "sense_en": "fraud or swindling"
+    },
+    {
+      "a": "dərbəçə",
+      "b": "qapı",
+      "decision": "hold",
+      "reason_en": "A small door or hatch is more specific than a general door; source дверца preserves the distinction.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "dərisiqara",
+      "b": "qara",
+      "decision": "hold",
+      "reason_en": "Black-skinned describes a person, whereas generic black names a color; the contextual sense is not established for the target.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "dərrakəsizlik",
+      "b": "toxunulmazlıq",
+      "decision": "hold",
+      "reason_en": "Lack of understanding is not immunity; original невосприимчивость has been misread through an immunity gloss.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "dəstəbaşı",
+      "b": "lider",
+      "decision": "hold",
+      "reason_en": "A gang or group leader is more specific than leader in general.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "dəyişdirmə",
+      "b": "mübadilə",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: exchange. Apply this edge only to that sense.",
+      "sense_az": "bir şeyin başqası ilə dəyişdirilməsi",
+      "sense_en": "exchange"
+    },
+    {
+      "a": "dəyişilmə",
+      "b": "dəyişiklik",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: change. Apply this edge only to that sense.",
+      "sense_az": "dəyişmə",
+      "sense_en": "change"
+    },
+    {
+      "a": "ehmal",
+      "b": "qənaətcil",
+      "decision": "hold",
+      "reason_en": "Ehmal concerns neglect or carelessness in ordinary usage; the isolated thrifty adjective translation is unreliable.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "ehtiramla",
+      "b": "hörmətlə",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: respectfully. Apply this edge only to that sense.",
+      "sense_az": "hörmət göstərərək",
+      "sense_en": "respectfully"
+    },
+    {
+      "a": "elat",
+      "b": "milliyyət",
+      "decision": "hold",
+      "reason_en": "A nomadic community or tribe is not nationality; Russian народность is not sufficient to equate them.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "etimadsız",
+      "b": "etibarsız",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: unreliable. Apply this edge only to that sense.",
+      "sense_az": "etibar edilməyən",
+      "sense_en": "unreliable"
+    },
+    {
+      "a": "evlənmə",
+      "b": "evlilik",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: marriage as the act of marrying. Apply this edge only to that sense.",
+      "sense_az": "nikaha girmə",
+      "sense_en": "marriage as the act of marrying"
+    },
+    {
+      "a": "eybəcərlik",
+      "b": "çirkinlik",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: ugliness. Apply this edge only to that sense.",
+      "sense_az": "görünüşcə çirkin olma",
+      "sense_en": "ugliness"
+    },
+    {
+      "a": "eyibsizlik",
+      "b": "mükəmməllik",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: perfection or faultlessness. Apply this edge only to that sense.",
+      "sense_az": "qüsursuzluq",
+      "sense_en": "perfection or faultlessness"
+    },
+    {
+      "a": "eyş-işrət",
+      "b": "orgiya",
+      "decision": "hold",
+      "reason_en": "Revelry or dissipation is not necessarily the sexual orgy sense supplied for the target.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "fağırlıq",
+      "b": "təvazökarlıq",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: modesty. Apply this edge only to that sense.",
+      "sense_az": "təvazökar olma",
+      "sense_en": "modesty"
+    },
+    {
+      "a": "fasiləsizlik",
+      "b": "davamlılıq",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: continuity. Apply this edge only to that sense.",
+      "sense_az": "kəsilmədən davam etmə",
+      "sense_en": "continuity"
+    },
+    {
+      "a": "fasıq",
+      "b": "əclaf",
+      "decision": "hold",
+      "reason_en": "An immoral person, talebearer and generic scoundrel are not securely the same sense; source кляузник differs from the displayed gloss.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "felən",
+      "b": "əslində",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: actually. Apply this edge only to that sense.",
+      "sense_az": "həqiqətdə, əslində",
+      "sense_en": "actually"
+    },
+    {
+      "a": "filan",
+      "b": "kimsə",
+      "decision": "hold",
+      "reason_en": "So-and-so or a specified unnamed person differs from an indefinite someone.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "fırıq",
+      "b": "pis",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: bad. Apply this edge only to that sense.",
+      "sense_az": "yaxşı olmayan",
+      "sense_en": "bad"
+    },
+    {
+      "a": "fövt",
+      "b": "ölüm",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: death. Apply this edge only to that sense.",
+      "sense_az": "ölmə",
+      "sense_en": "death"
+    },
+    {
+      "a": "füfə",
+      "b": "qida",
+      "decision": "hold",
+      "reason_en": "The unusual headword and isolated food gloss lack sufficient lexical corroboration for an automatic synonym link.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "füsünkar",
+      "b": "cazibədar",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: charming or captivating. Apply this edge only to that sense.",
+      "sense_az": "cazibəli, valehedici",
+      "sense_en": "charming or captivating"
+    },
+    {
+      "a": "fəndgir",
+      "b": "kassir",
+      "decision": "hold",
+      "reason_en": "Fəndgir refers to a trickster or crafty person, not a cashier; the dictionary gloss appears corrupted.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "fərqlənmə",
+      "b": "fərq",
+      "decision": "hold",
+      "reason_en": "The process of differing or distinguishing is not automatically a difference as a result or property.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "fərqsizlik",
+      "b": "laqeydlik",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: indifference. Apply this edge only to that sense.",
+      "sense_az": "biganəlik",
+      "sense_en": "indifference"
+    },
+    {
+      "a": "fəsahət",
+      "b": "bəlağət",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: eloquence. Apply this edge only to that sense.",
+      "sense_az": "gözəl və təsirli danışıq",
+      "sense_en": "eloquence"
+    },
+    {
+      "a": "gavalılıq",
+      "b": "gavalı",
+      "decision": "hold",
+      "reason_en": "Original сливняк denotes a plum grove, not a plum fruit.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "gecəyarı",
+      "b": "gecə yarısı",
+      "decision": "hold",
+      "reason_en": "These are spacing or form variants of midnight, not independent lexical synonyms.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "gerçəklik",
+      "b": "sadiqlik",
+      "decision": "hold",
+      "reason_en": "Gerçəklik is reality or truth, not loyalty; Russian верность is polysemous.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "gillənmək",
+      "b": "sürmək",
+      "decision": "hold",
+      "reason_en": "Rolling or going about is not securely driving or riding a vehicle; the source кататься is ambiguous.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "gizlinc",
+      "b": "keş",
+      "decision": "hold",
+      "reason_en": "A hiding place is not necessarily a computing cache; the target's cache sense is unspecified.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "gödəkboy",
+      "b": "qısa",
+      "decision": "hold",
+      "reason_en": "Short in stature is more specific than generic short.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "gödəkcik",
+      "b": "qısa",
+      "decision": "hold",
+      "reason_en": "The diminutive low or short form retains degree information absent from generic short.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "gölməc",
+      "b": "gölməçə",
+      "decision": "hold",
+      "reason_en": "Closely related diminutive forms are better retained as form or derivation relations until independent lexical use is established.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "göndərmə",
+      "b": "paket",
+      "decision": "hold",
+      "reason_en": "A shipment is an item sent or the act of sending, not necessarily a package; посылка spans related senses.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "görünmə",
+      "b": "görünüş",
+      "decision": "hold",
+      "reason_en": "Original появление means coming into view, whereas görünüş describes appearance or looks.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "göyçəklik",
+      "b": "gözəllik",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: beauty. Apply this edge only to that sense.",
+      "sense_az": "zahiri gözəllik",
+      "sense_en": "beauty"
+    },
+    {
+      "a": "publisistika",
+      "b": "jurnalistika",
+      "decision": "hold",
+      "reason_en": "Publicistic or opinion writing is a genre within journalism, not journalism as a whole.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "gözəgörünməz",
+      "b": "görünməz",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: invisible. Apply this edge only to that sense.",
+      "sense_az": "gözlə görülməyən",
+      "sense_en": "invisible"
+    },
+    {
+      "a": "gözətçilik",
+      "b": "müşahidə",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: surveillance. Apply this edge only to that sense.",
+      "sense_az": "nəzarət məqsədilə izləmə",
+      "sense_en": "surveillance"
+    },
+    {
+      "a": "gübrələmə",
+      "b": "gübrə",
+      "decision": "hold",
+      "reason_en": "Fertilizing is the process; gübrə is the fertilizer substance. Russian удобрение covers both.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "güclülük",
+      "b": "güc",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: strength or power. Apply this edge only to that sense.",
+      "sense_az": "güclü olma, qüvvə",
+      "sense_en": "strength or power"
+    },
+    {
+      "a": "gülləbaran",
+      "b": "icra",
+      "decision": "hold",
+      "reason_en": "Execution by shooting is not execution of a task or implementation.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "güllələmə",
+      "b": "icra",
+      "decision": "hold",
+      "reason_en": "Execution by shooting is not execution of a task or implementation.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "güləşmə",
+      "b": "mübarizə",
+      "decision": "hold",
+      "reason_en": "Wrestling is a specific contest or activity, not every struggle; Russian борьба is polysemous.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "günbatan",
+      "b": "qərb",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: west. Apply this edge only to that sense.",
+      "sense_az": "qərb istiqaməti",
+      "sense_en": "west"
+    },
+    {
+      "a": "günçıxan",
+      "b": "şərq",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: east. Apply this edge only to that sense.",
+      "sense_az": "şərq istiqaməti",
+      "sense_en": "east"
+    },
+    {
+      "a": "günüqara",
+      "b": "bədbəxt",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: unfortunate. Apply this edge only to that sense.",
+      "sense_az": "bəxti gətirməyən",
+      "sense_en": "unfortunate"
+    },
+    {
+      "a": "günyə",
+      "b": "kvadrat",
+      "decision": "hold",
+      "reason_en": "A set square is a tool; kvadrat is a geometric square.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "gurşad",
+      "b": "yağış",
+      "decision": "hold",
+      "reason_en": "A downpour is a particular intensity of rain, not every rain event.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "gürüh",
+      "b": "izdiham",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: crowd. Apply this edge only to that sense.",
+      "sense_az": "adam yığını",
+      "sense_en": "crowd"
+    },
+    {
+      "a": "guşə",
+      "b": "bucaq",
+      "decision": "hold",
+      "reason_en": "A nook or corner is not automatically a geometric angle; Russian угол merges the senses.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "güzəranlı",
+      "b": "varlı",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: wealthy. Apply this edge only to that sense.",
+      "sense_az": "maddi cəhətdən zəngin",
+      "sense_en": "wealthy"
+    },
+    {
+      "a": "gəmiçi",
+      "b": "dənizçi",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: sailor. Apply this edge only to that sense.",
+      "sense_az": "gəmidə çalışan dənizçi",
+      "sense_en": "sailor"
+    },
+    {
+      "a": "gəmircək",
+      "b": "qığırdaq",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: cartilage. Apply this edge only to that sense.",
+      "sense_az": "qığırdaq toxuması",
+      "sense_en": "cartilage"
+    },
+    {
+      "a": "gərdək",
+      "b": "ekran",
+      "decision": "hold",
+      "reason_en": "A partition or bridal-room screen is not necessarily a display screen; source ширма differs from the unspecified target.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "gərdənbənd",
+      "b": "boyunbağı",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: necklace. Apply this edge only to that sense.",
+      "sense_az": "boyuna taxılan bəzək",
+      "sense_en": "necklace"
+    },
+    {
+      "a": "gəzdək",
+      "b": "yəhər",
+      "decision": "hold",
+      "reason_en": "Original седловина is a saddle-shaped landform, not the riding seat sense of yəhər.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "hacıleylək",
+      "b": "leylək",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: stork. Apply this edge only to that sense.",
+      "sense_az": "leylək quşu",
+      "sense_en": "stork"
+    },
+    {
+      "a": "hafıldama",
+      "b": "qabıq",
+      "decision": "hold",
+      "reason_en": "Original гавканье means a dog's barking, while qabıq is bark or rind on a surface.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "hafizəsiz",
+      "b": "unutqan",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: forgetful. Apply this edge only to that sense.",
+      "sense_az": "tez-tez unudan",
+      "sense_en": "forgetful"
+    },
+    {
+      "a": "hafizəsizlik",
+      "b": "unutqanlıq",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: forgetfulness. Apply this edge only to that sense.",
+      "sense_az": "tez-tez unutma",
+      "sense_en": "forgetfulness"
+    },
+    {
+      "a": "hakimlik",
+      "b": "güc",
+      "decision": "hold",
+      "reason_en": "Rule or governing authority is not physical strength; the shared English power gloss does not establish the sense.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "halqavari",
+      "b": "üzükvari",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: ring-shaped or annular. Apply this edge only to that sense.",
+      "sense_az": "halqa şəklində olan",
+      "sense_en": "ring-shaped or annular"
+    },
+    {
+      "a": "hamılıq",
+      "b": "ümumi",
+      "decision": "hold",
+      "reason_en": "The collective hamılıq form and adjective ümumi have uncertain POS and grammatical compatibility.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "haqlaşma",
+      "b": "hesablama",
+      "decision": "hold",
+      "reason_en": "Settling accounts or payment is not simply arithmetic calculation; Russian расчёт is polysemous.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "haqlı",
+      "b": "ədalətli",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: just or fair. Apply this edge only to that sense.",
+      "sense_az": "haqqa uyğun, ədalətli",
+      "sense_en": "just or fair"
+    },
+    {
+      "a": "haqsız",
+      "b": "ədalətsiz",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: unjust or unfair. Apply this edge only to that sense.",
+      "sense_az": "haqqa zidd",
+      "sense_en": "unjust or unfair"
+    },
+    {
+      "a": "harami",
+      "b": "quldur",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: robber or bandit. Apply this edge only to that sense.",
+      "sense_az": "soyğunçuluq edən adam",
+      "sense_en": "robber or bandit"
+    },
+    {
+      "a": "hatəm",
+      "b": "səxavətli",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: generous. Apply this edge only to that sense.",
+      "sense_az": "əliaçıq, səxavətli",
+      "sense_en": "generous"
+    },
+    {
+      "a": "havalandırma",
+      "b": "həyəcan",
+      "decision": "hold",
+      "reason_en": "Ventilation or causing excitation is not an emotional state of excitement.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "hesabdar",
+      "b": "mühasib",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: accountant. Apply this edge only to that sense.",
+      "sense_az": "hesab işlərini aparan şəxs",
+      "sense_en": "accountant"
+    },
+    {
+      "a": "heyranedici",
+      "b": "cazibədar",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: charming or captivating. Apply this edge only to that sense.",
+      "sense_az": "cazibəli, valehedici",
+      "sense_en": "charming or captivating"
+    },
+    {
+      "a": "heyrətli",
+      "b": "heyrətamiz",
+      "decision": "hold",
+      "reason_en": "Being full of astonishment and causing astonishment need separate senses; the isolated amazing gloss does not resolve them.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "heysiyyat",
+      "b": "şərəf",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: honor. Apply this edge only to that sense.",
+      "sense_az": "şərəf, ləyaqət",
+      "sense_en": "honor"
+    },
+    {
+      "a": "heyvanlıq",
+      "b": "kobudluq",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: rudeness or coarseness. Apply this edge only to that sense.",
+      "sense_az": "davranışda kobudluq",
+      "sense_en": "rudeness or coarseness"
+    },
+    {
+      "a": "heyvərəlik",
+      "b": "kobudluq",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: rudeness or coarseness. Apply this edge only to that sense.",
+      "sense_az": "davranışda kobudluq",
+      "sense_en": "rudeness or coarseness"
+    },
+    {
+      "a": "hikkə",
+      "b": "qəzəb",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: anger. Apply this edge only to that sense.",
+      "sense_az": "hiddət, qəzəb",
+      "sense_en": "anger"
+    },
+    {
+      "a": "hissiyyat",
+      "b": "hiss",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: feeling or sensation. Apply this edge only to that sense.",
+      "sense_az": "duyğu, hiss",
+      "sense_en": "feeling or sensation"
+    },
+    {
+      "a": "höcətlik",
+      "b": "inadkarlıq",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: stubbornness. Apply this edge only to that sense.",
+      "sense_az": "inad etmə",
+      "sense_en": "stubbornness"
+    },
+    {
+      "a": "hörüş",
+      "b": "xam",
+      "decision": "hold",
+      "reason_en": "The unusual headword and ambiguous сырой gloss do not establish the target's raw or uncooked sense.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "hövsələsiz",
+      "b": "səbirsiz",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: impatient. Apply this edge only to that sense.",
+      "sense_az": "səbri olmayan",
+      "sense_en": "impatient"
+    },
+    {
+      "a": "hövsələsizlik",
+      "b": "səbirsizlik",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: impatience. Apply this edge only to that sense.",
+      "sense_az": "səbri olmama",
+      "sense_en": "impatience"
+    },
+    {
+      "a": "hülqum",
+      "b": "boğaz",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: throat. Apply this edge only to that sense.",
+      "sense_az": "boğaz nahiyəsi",
+      "sense_en": "throat"
+    },
+    {
+      "a": "hünü",
+      "b": "ağcaqanad",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: mosquito. Apply this edge only to that sense.",
+      "sense_az": "ağcaqanad həşəratı",
+      "sense_en": "mosquito"
+    },
+    {
+      "a": "hünərli",
+      "b": "bacarıqlı",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: skillful. Apply this edge only to that sense.",
+      "sense_az": "iş görməkdə mahir",
+      "sense_en": "skillful"
+    },
+    {
+      "a": "hüriyyət",
+      "b": "azadlıq",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: freedom. Apply this edge only to that sense.",
+      "sense_az": "azad olma halı",
+      "sense_en": "freedom"
+    },
+    {
+      "a": "hürufat",
+      "b": "məktub",
+      "decision": "hold",
+      "reason_en": "Original буква means an alphabet letter, whereas məktub is a written message.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "huşyar",
+      "b": "sayıq",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: alert or vigilant. Apply this edge only to that sense.",
+      "sense_az": "diqqətli, ayıq",
+      "sense_en": "alert or vigilant"
+    },
+    {
+      "a": "hədik",
+      "b": "arpa",
+      "decision": "hold",
+      "reason_en": "Hədik is a cooked grain dish, not barley itself; the source gloss is unreliable.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "həlakətli",
+      "b": "ölümcül",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: deadly or lethal. Apply this edge only to that sense.",
+      "sense_az": "ölüm gətirən",
+      "sense_en": "deadly or lethal"
+    },
+    {
+      "a": "həmcinslik",
+      "b": "əlaqə",
+      "decision": "hold",
+      "reason_en": "Sameness of kind or affinity is more specific than an arbitrary relationship.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "həmsərhəd",
+      "b": "bitişik",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: adjacent or contiguous territories. Apply this edge only to that sense.",
+      "sense_az": "sərhədi bir-birinə bitişən",
+      "sense_en": "adjacent or contiguous territories"
+    },
+    {
+      "a": "həpənd",
+      "b": "aşağı",
+      "decision": "hold",
+      "reason_en": "A pejorative personal quality is not the spatial low or down sense of aşağı.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "hərbiləşdirmə",
+      "b": "militarizasiya",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: militarization. Apply this edge only to that sense.",
+      "sense_az": "hərbiləşdirmə",
+      "sense_en": "militarization"
+    },
+    {
+      "a": "hərif",
+      "b": "rəqib",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: rival or opponent. Apply this edge only to that sense.",
+      "sense_az": "qarşı duran rəqib",
+      "sense_en": "rival or opponent"
+    },
+    {
+      "a": "hərəm",
+      "b": "arvad",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: wife. Apply this edge only to that sense.",
+      "sense_az": "nikahlı qadın",
+      "sense_en": "wife"
+    },
+    {
+      "a": "həsr",
+      "b": "ithaf",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: dedication. Apply this edge only to that sense.",
+      "sense_az": "birinə həsr etmə",
+      "sense_en": "dedication"
+    },
+    {
+      "a": "həşəm",
+      "b": "saman",
+      "decision": "hold",
+      "reason_en": "Həşəm commonly concerns attendants or retinue; the isolated straw gloss is doubtful and should not create a synonym edge.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "həyatsız",
+      "b": "cansız",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: lifeless. Apply this edge only to that sense.",
+      "sense_az": "həyat əlaməti olmayan",
+      "sense_en": "lifeless"
+    },
+    {
+      "a": "icarədar",
+      "b": "kirayəçi",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: tenant. Apply this edge only to that sense.",
+      "sense_az": "icarəyə götürən şəxs",
+      "sense_en": "tenant"
+    },
+    {
+      "a": "icbari",
+      "b": "məcburi",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: compulsory or obligatory. Apply this edge only to that sense.",
+      "sense_az": "yerinə yetirilməsi məcburi olan",
+      "sense_en": "compulsory or obligatory"
+    },
+    {
+      "a": "idbarlıq",
+      "b": "çirkinlik",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: ugliness. Apply this edge only to that sense.",
+      "sense_az": "görünüşcə çirkin olma",
+      "sense_en": "ugliness"
+    },
+    {
+      "a": "iftiraçı",
+      "b": "böhtançı",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: slanderer. Apply this edge only to that sense.",
+      "sense_az": "böhtan atan adam",
+      "sense_en": "slanderer"
+    },
+    {
+      "a": "ikicanlılıq",
+      "b": "hamiləlik",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: pregnancy. Apply this edge only to that sense.",
+      "sense_az": "hamilə olma halı",
+      "sense_en": "pregnancy"
+    },
+    {
+      "a": "ikiyerli",
+      "b": "ikiqat",
+      "decision": "hold",
+      "reason_en": "Two-seat or accommodating two people is not double in general.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "illətli",
+      "b": "xəstə",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: sick or ill. Apply this edge only to that sense.",
+      "sense_az": "xəstəliyi olan",
+      "sense_en": "sick or ill"
+    },
+    {
+      "a": "iltibah",
+      "b": "iltihab",
+      "decision": "hold",
+      "reason_en": "This is a spelling error or variant of iltihab, not a distinct lexical synonym.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "iltizam",
+      "b": "öhdəlik",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: obligation or commitment. Apply this edge only to that sense.",
+      "sense_az": "yerinə yetirilməli vəzifə",
+      "sense_en": "obligation or commitment"
+    },
+    {
+      "a": "inanmamazlıq",
+      "b": "inamsızlıq",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: distrust. Apply this edge only to that sense.",
+      "sense_az": "etibar etməmə",
+      "sense_en": "distrust"
+    },
+    {
+      "a": "inciklik",
+      "b": "təhqir",
+      "decision": "hold",
+      "reason_en": "Feeling hurt or resentment is not the insulting act itself; Russian обида spans both.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "insaflılıq",
+      "b": "ədalət",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: justice or fairness. Apply this edge only to that sense.",
+      "sense_az": "haqqa uyğun davranma",
+      "sense_en": "justice or fairness"
+    },
+    {
+      "a": "insafsızlıq",
+      "b": "ədalətsizlik",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: injustice. Apply this edge only to that sense.",
+      "sense_az": "haqqa zidd davranma",
+      "sense_en": "injustice"
+    },
+    {
+      "a": "ipəyatmaz",
+      "b": "inadkar",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: stubborn. Apply this edge only to that sense.",
+      "sense_az": "sözə baxmayan, inadlı",
+      "sense_en": "stubborn"
+    },
+    {
+      "a": "iqdam",
+      "b": "başlanğıc",
+      "decision": "hold",
+      "reason_en": "An initiative or undertaking is not merely the beginning of something.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "iqtidarlı",
+      "b": "güclü",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: powerful or strong. Apply this edge only to that sense.",
+      "sense_az": "qüdrəti olan",
+      "sense_en": "powerful or strong"
+    },
+    {
+      "a": "iqtidarsız",
+      "b": "zəif",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: weak or powerless. Apply this edge only to that sense.",
+      "sense_az": "gücü çatmayan",
+      "sense_en": "weak or powerless"
+    },
+    {
+      "a": "iqtidarsızlıq",
+      "b": "zəiflik",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: weakness or powerlessness. Apply this edge only to that sense.",
+      "sense_az": "gücsüzlük",
+      "sense_en": "weakness or powerlessness"
+    },
+    {
+      "a": "işbacaran",
+      "b": "bacarıqlı",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: skillful. Apply this edge only to that sense.",
+      "sense_az": "iş görməkdə mahir",
+      "sense_en": "skillful"
+    },
+    {
+      "a": "işıqsız",
+      "b": "qaranlıq",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: dark or unlit. Apply this edge only to that sense.",
+      "sense_az": "işığı olmayan",
+      "sense_en": "dark or unlit"
+    },
+    {
+      "a": "isitmə",
+      "b": "qızdırma",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: fever. Apply this edge only to that sense.",
+      "sense_az": "bədən temperaturunun yüksəlməsi",
+      "sense_en": "fever"
+    },
+    {
+      "a": "iskələ",
+      "b": "port",
+      "decision": "hold",
+      "reason_en": "A pier or landing stage is a part or type of port facility, not the whole port.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "işlənmə",
+      "b": "emal",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: processing or treatment of material. Apply this edge only to that sense.",
+      "sense_az": "maddənin işlənməsi",
+      "sense_en": "processing or treatment of material"
+    },
+    {
+      "a": "ismi-şəb",
+      "b": "parol",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: password. Apply this edge only to that sense.",
+      "sense_az": "gizli tanınma sözü",
+      "sense_en": "password"
+    },
+    {
+      "a": "ismətsizlik",
+      "b": "həyasızlıq",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: shamelessness. Apply this edge only to that sense.",
+      "sense_az": "utanmazlıq",
+      "sense_en": "shamelessness"
+    },
+    {
+      "a": "iştahalı",
+      "b": "dadlı",
+      "decision": "hold",
+      "reason_en": "Having an appetite or being appetizing is not the same as tasting delicious.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "isticə",
+      "b": "isti",
+      "decision": "hold",
+      "reason_en": "This is an attenuated or affectionate hot/warm derivation; preserve the degree distinction.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "istəkli",
+      "b": "sevimli",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: beloved or dear. Apply this edge only to that sense.",
+      "sense_az": "əziz, sevilən",
+      "sense_en": "beloved or dear"
+    },
+    {
+      "a": "itaətlilik",
+      "b": "təqdim",
+      "decision": "hold",
+      "reason_en": "Submissiveness or obedience is not submission of a document or presentation.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "ittihad",
+      "b": "birlik",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: union. Apply this edge only to that sense.",
+      "sense_az": "birləşmə, birlik",
+      "sense_en": "union"
+    },
+    {
+      "a": "ixlas",
+      "b": "səmimiyyət",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: sincerity. Apply this edge only to that sense.",
+      "sense_az": "ürəkdən gələn doğruluq",
+      "sense_en": "sincerity"
+    },
+    {
+      "a": "izinsiz",
+      "b": "qanunsuz",
+      "decision": "hold",
+      "reason_en": "Unauthorized does not necessarily mean illegal; permission and legality are distinct.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "kahıllıq",
+      "b": "tənbəllik",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: laziness. Apply this edge only to that sense.",
+      "sense_az": "iş görmək istəməmə",
+      "sense_en": "laziness"
+    },
+    {
+      "a": "kamillik",
+      "b": "mükəmməllik",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: perfection. Apply this edge only to that sense.",
+      "sense_az": "qüsursuzluq",
+      "sense_en": "perfection"
+    },
+    {
+      "a": "kasacıq",
+      "b": "fincan",
+      "decision": "hold",
+      "reason_en": "A small bowl is not necessarily a drinking cup; Russian чашечка is ambiguous.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "kaşanə",
+      "b": "saray",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: palace or palatial residence. Apply this edge only to that sense.",
+      "sense_az": "təmtəraqlı böyük ev",
+      "sense_en": "palace or palatial residence"
+    },
+    {
+      "a": "kasıbyana",
+      "b": "təvazökar",
+      "decision": "hold",
+      "reason_en": "Modest in means or poor-looking is not necessarily humble in personality.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "qonaqsevərlik",
+      "b": "qonaqpərvərlik",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: hospitality. Apply this edge only to that sense.",
+      "sense_az": "qonağı xoş qarşılama",
+      "sense_en": "hospitality"
+    },
+    {
+      "a": "zadəkan",
+      "b": "zadəgan",
+      "decision": "hold",
+      "reason_en": "This is a spelling variant of zadəgan.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "internasionalizm",
+      "b": "beynəlmiləlçilik",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: internationalism. Apply this edge only to that sense.",
+      "sense_az": "beynəlmiləlçilik",
+      "sense_en": "internationalism"
+    },
+    {
+      "a": "difransiasiya",
+      "b": "fərqləndirmə",
+      "decision": "hold",
+      "reason_en": "The apparent misspelling of diferensiasiya should be normalized before any independent lexical relation is added.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "müvəffəqiyyətlilik",
+      "b": "uğur",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: success. Apply this edge only to that sense.",
+      "sense_az": "müvəffəqiyyət qazanma",
+      "sense_en": "success"
+    },
+    {
+      "a": "sekretariat",
+      "b": "katiblik",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: secretariat. Apply this edge only to that sense.",
+      "sense_az": "katiblik idarəsi",
+      "sense_en": "secretariat"
+    },
+    {
+      "a": "heykəltaraş",
+      "b": "heykəltəraş",
+      "decision": "hold",
+      "reason_en": "This is a spelling variant of heykəltəraş.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "martsipan",
+      "b": "marzipan",
+      "decision": "hold",
+      "reason_en": "This is a transliteration or spelling variant of marzipan.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "marsipan",
+      "b": "marzipan",
+      "decision": "hold",
+      "reason_en": "This is a transliteration or spelling variant of marzipan.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "absurdlıq",
+      "b": "absurdluq",
+      "decision": "hold",
+      "reason_en": "This is a suffix-spelling variant of absurdluq, not an independent lexical synonym.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "motivləşdirmə",
+      "b": "motivasiya",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: motivation as the process of motivating. Apply this edge only to that sense.",
+      "sense_az": "həvəsləndirmə prosesi",
+      "sense_en": "motivation as the process of motivating"
+    },
+    {
+      "a": "ideallıq",
+      "b": "mükəmməllik",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: perfection. Apply this edge only to that sense.",
+      "sense_az": "ideal və qüsursuz olma",
+      "sense_en": "perfection"
+    },
+    {
+      "a": "emiqrasiya",
+      "b": "mühacirət",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: emigration. Apply this edge only to that sense.",
+      "sense_az": "başqa ölkəyə köçmə",
+      "sense_en": "emigration"
+    },
+    {
+      "a": "köçmə",
+      "b": "mühacirət",
+      "decision": "hold",
+      "reason_en": "Moving residence is broader than emigrating to another country; the geographical restriction matters.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "bənzərlik",
+      "b": "oxşarlıq",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: similarity. Apply this edge only to that sense.",
+      "sense_az": "bir-birinə oxşama",
+      "sense_en": "similarity"
+    },
+    {
+      "a": "hizb",
+      "b": "tərəf",
+      "decision": "hold",
+      "reason_en": "A political party is not the same as a side in a conflict; English party obscures the distinction.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "royal",
+      "b": "piano",
+      "decision": "hold",
+      "reason_en": "A grand piano is a particular kind of piano, not every piano.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "atasözü",
+      "b": "atalar sözü",
+      "decision": "hold",
+      "reason_en": "These are phrase or word-division variants of the same proverb term, better treated as alternate forms.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "demokrasi",
+      "b": "demokratiya",
+      "decision": "hold",
+      "reason_en": "This is a borrowed or spelling variant of demokratiya rather than a separate lexical synonym.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "fortepiano",
+      "b": "piano",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: piano. Apply this edge only to that sense.",
+      "sense_az": "dilli musiqi aləti",
+      "sense_en": "piano"
+    },
+    {
+      "a": "suçsuz",
+      "b": "günahsız",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: innocent or guiltless. Apply this edge only to that sense.",
+      "sense_az": "təqsiri olmayan",
+      "sense_en": "innocent or guiltless"
+    },
+    {
+      "a": "yaşıldır",
+      "b": "yaşıl",
+      "decision": "hold",
+      "reason_en": "Yaşıldır includes a predicative suffix: it means is green, not a new adjective lemma.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "südü",
+      "b": "süd",
+      "decision": "hold",
+      "reason_en": "Südü is an inflected form of süd and belongs with grammar rather than unique-word synonymy.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "qulaqdır",
+      "b": "qulaq",
+      "decision": "hold",
+      "reason_en": "Qulaqdır contains a predicative suffix and is not an independent ear headword.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "sərhəddir",
+      "b": "limit",
+      "decision": "hold",
+      "reason_en": "Sərhəddir includes a predicative suffix and is not an independent limit noun.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "çayevi",
+      "b": "çayxana",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: teahouse. Apply this edge only to that sense.",
+      "sense_az": "çay içilən ictimai yer",
+      "sense_en": "teahouse"
+    },
+    {
+      "a": "köhül",
+      "b": "mağara",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: cave. Apply this edge only to that sense.",
+      "sense_az": "yeraltı təbii oyuq",
+      "sense_en": "cave"
+    },
+    {
+      "a": "günorta yeməyi",
+      "b": "nahar",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: lunch. Apply this edge only to that sense.",
+      "sense_az": "günorta yeyilən yemək",
+      "sense_en": "lunch"
+    },
+    {
+      "a": "axşam yeməyi",
+      "b": "şam yeməyi",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: dinner. Apply this edge only to that sense.",
+      "sense_az": "axşam yeyilən yemək",
+      "sense_en": "dinner"
+    },
+    {
+      "a": "rəisicümhur",
+      "b": "prezident",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: president of a republic. Apply this edge only to that sense.",
+      "sense_az": "respublikanın dövlət başçısı",
+      "sense_en": "president of a republic"
+    },
+    {
+      "a": "qəmər",
+      "b": "ay",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: the Moon. Apply this edge only to that sense.",
+      "sense_az": "Yerin təbii peyki",
+      "sense_en": "the Moon"
+    },
+    {
+      "a": "döyüş topu",
+      "b": "top",
+      "decision": "hold",
+      "reason_en": "Döyüş topu denotes an artillery cannon, not a ball; the source top is polysemous.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "hamamxana",
+      "b": "vanna otağı",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: bathroom. Apply this edge only to that sense.",
+      "sense_az": "çimmək üçün otaq",
+      "sense_en": "bathroom"
+    },
+    {
+      "a": "pianino",
+      "b": "piano",
+      "decision": "hold",
+      "reason_en": "An upright piano is a particular type of piano, not the full category.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "müsafir",
+      "b": "qonaq",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: guest. Apply this edge only to that sense.",
+      "sense_az": "qonaq gələn şəxs",
+      "sense_en": "guest"
+    },
+    {
+      "a": "işlədici",
+      "b": "istifadəçi",
+      "decision": "hold",
+      "reason_en": "Operator or employer and user require different agent senses; the source list does not settle the intended meaning.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "lager",
+      "b": "düşərgə",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: camp. Apply this edge only to that sense.",
+      "sense_az": "müvəqqəti yerləşmə yeri",
+      "sense_en": "camp"
+    },
+    {
+      "a": "küncüd",
+      "b": "künc",
+      "decision": "hold",
+      "reason_en": "Küncüd is sesame, not corner; the Kurdish gloss has been mistranslated.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "sehrbazlıq",
+      "b": "sehr",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: magic or sorcery. Apply this edge only to that sense.",
+      "sense_az": "sehr etmə",
+      "sense_en": "magic or sorcery"
+    },
+    {
+      "a": "xəfiyyəçi",
+      "b": "detektiv",
+      "decision": "hold",
+      "reason_en": "A secret agent or spy is not necessarily a detective; the roles must not be conflated.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "romanist",
+      "b": "romançı",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: novelist. Apply this edge only to that sense.",
+      "sense_az": "roman yazan şəxs",
+      "sense_en": "novelist"
+    },
+    {
+      "a": "ravvin",
+      "b": "xaxam",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: rabbi. Apply this edge only to that sense.",
+      "sense_az": "yəhudi din xadimi",
+      "sense_en": "rabbi"
+    },
+    {
+      "a": "biskvit",
+      "b": "çat",
+      "decision": "hold",
+      "reason_en": "Biskvit is biscuit or sponge cake, not a crack; the displayed gloss is erroneous.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "imperatorluq",
+      "b": "imperiya",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: empire. Apply this edge only to that sense.",
+      "sense_az": "imperatorun idarə etdiyi dövlət",
+      "sense_en": "empire"
+    },
+    {
+      "a": "fond birjası",
+      "b": "birja",
+      "decision": "hold",
+      "reason_en": "A stock exchange is a particular kind of exchange, not the entire birja category.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "təkərli kürsü",
+      "b": "əlil arabası",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: wheelchair. Apply this edge only to that sense.",
+      "sense_az": "təkərli hərəkət kürsüsü",
+      "sense_en": "wheelchair"
+    },
+    {
+      "a": "propaqanda",
+      "b": "təbliğat",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: propaganda. Apply this edge only to that sense.",
+      "sense_az": "fikirləri yayma fəaliyyəti",
+      "sense_en": "propaganda"
+    },
+    {
+      "a": "multiplikasiya",
+      "b": "animasiya",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: animation. Apply this edge only to that sense.",
+      "sense_az": "hərəkətli təsvir yaratma",
+      "sense_en": "animation"
+    },
+    {
+      "a": "xaya",
+      "b": "kənd",
+      "decision": "hold",
+      "reason_en": "Xaya means testicle, not village; the Kurdish source gloss was mistranslated.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "xürdəbin",
+      "b": "mikroskop",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: microscope. Apply this edge only to that sense.",
+      "sense_az": "kiçik cisimləri böyüdən cihaz",
+      "sense_en": "microscope"
+    },
+    {
+      "a": "çiçəklənmək",
+      "b": "çiçəkləmək",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: to blossom or bloom. Apply this edge only to that sense.",
+      "sense_az": "çiçək açmaq",
+      "sense_en": "to blossom or bloom"
+    },
+    {
+      "a": "yadda qalmaq",
+      "b": "xatırlamaq",
+      "decision": "hold",
+      "reason_en": "Yadda qalmaq means to remain in someone's memory or be remembered, not actively to remember.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "yadda saxlamaq",
+      "b": "xatırlamaq",
+      "decision": "hold",
+      "reason_en": "Retaining something in memory and recalling it are related but distinct actions; no precise interchangeable sense is established.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "qaçırtmaq",
+      "b": "qaçırmaq",
+      "decision": "hold",
+      "reason_en": "The extra causative form may mean having someone abducted; preserve valency and do not infer equivalence from kidnap alone.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "qardaşlıq məzarlığı",
+      "b": "kütləvi məzarlıq",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: mass grave. Apply this edge only to that sense.",
+      "sense_az": "bir neçə ölünün birlikdə dəfn yeri",
+      "sense_en": "mass grave"
+    },
+    {
+      "a": "ətli-canlı",
+      "b": "ətli",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: fleshy or plump. Apply this edge only to that sense.",
+      "sense_az": "bədəni dolu olan",
+      "sense_en": "fleshy or plump"
+    },
+    {
+      "a": "büruzə vermək",
+      "b": "göstərmək",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: to reveal or show a feeling or sign. Apply this edge only to that sense.",
+      "sense_az": "hissini və ya əlaməti aşkar göstərmək",
+      "sense_en": "to reveal or show a feeling or sign"
+    },
+    {
+      "a": "gözü düşmək",
+      "b": "bəyənmək",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: to take a liking to something. Apply this edge only to that sense.",
+      "sense_az": "bir şeydən xoşu gəlmək",
+      "sense_en": "to take a liking to something"
+    },
+    {
+      "a": "dəmlənmək",
+      "b": "dəmləmək",
+      "decision": "hold",
+      "reason_en": "Dəmlənmək is intransitive or passive brewing; dəmləmək means to brew something.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "örgətmək",
+      "b": "öyrətmək",
+      "decision": "hold",
+      "reason_en": "This is a dialectal or historical form of öyrətmək, better represented as an alternate form.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "qızışdırmaq",
+      "b": "qızdırmaq",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: to heat up. Apply this edge only to that sense.",
+      "sense_az": "temperaturunu artırmaq",
+      "sense_en": "to heat up"
+    },
+    {
+      "a": "həlak etmək",
+      "b": "öldürmək",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: to kill. Apply this edge only to that sense.",
+      "sense_az": "ölümünə səbəb olmaq",
+      "sense_en": "to kill"
+    },
+    {
+      "a": "zəhərlənmək",
+      "b": "zəhərləmək",
+      "decision": "hold",
+      "reason_en": "Zəhərlənmək means to become poisoned; zəhərləmək means to poison something or someone.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "qiraət etmək",
+      "b": "oxumaq",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: to read. Apply this edge only to that sense.",
+      "sense_az": "yazını oxumaq",
+      "sense_en": "to read"
+    },
+    {
+      "a": "kəllə vurmaq",
+      "b": "dalmaq",
+      "decision": "hold",
+      "reason_en": "Diving headfirst is a specific way of diving, not every act of diving.",
+      "sense_az": "",
+      "sense_en": ""
+    },
+    {
+      "a": "giryə etmək",
+      "b": "ağlamaq",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: to cry. Apply this edge only to that sense.",
+      "sense_az": "göz yaşı tökmək",
+      "sense_en": "to cry"
+    },
+    {
+      "a": "xudafizləşmək",
+      "b": "vidalaşmaq",
+      "decision": "syn",
+      "reason_en": "The original glosses and Azerbaijani lexical use support the shared sense: to say goodbye. Apply this edge only to that sense.",
+      "sense_az": "sağollaşmaq",
+      "sense_en": "to say goodbye"
+    }
+  ]
+}

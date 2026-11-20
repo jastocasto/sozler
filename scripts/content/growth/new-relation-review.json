@@ -1,0 +1,4311 @@
+[
+  {
+    "index": 0,
+    "a": "ablyasiya",
+    "b": "eroziya",
+    "type": "topic",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "related",
+    "source_sense": "Erosión.",
+    "source": {
+      "head": "ablyasiya",
+      "edition": "es",
+      "url": "https://es.wiktionary.org/wiki/ablyasiya",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "eroziya",
+      "sense_index": "3",
+      "sense": "Erosión."
+    }
+  },
+  {
+    "index": 1,
+    "a": "abraziya sütunu",
+    "b": "kekur",
+    "type": "syn",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "synonyms",
+    "source_sense": "Farallón.",
+    "source": {
+      "head": "abraziya sütunu",
+      "edition": "es",
+      "url": "https://es.wiktionary.org/wiki/abraziya_s%C3%BCtunu",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "kekur",
+      "sense_index": "1",
+      "sense": "Farallón."
+    }
+  },
+  {
+    "index": 2,
+    "a": "afemiya",
+    "b": "afaziya",
+    "type": "topic",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "related",
+    "source_sense": "Afemia.",
+    "source": {
+      "head": "afemiya",
+      "edition": "es",
+      "url": "https://es.wiktionary.org/wiki/afemiya",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "afaziya",
+      "sense_index": "1",
+      "sense": "Afemia."
+    }
+  },
+  {
+    "index": 3,
+    "a": "alkoqol",
+    "b": "spirt",
+    "type": "syn",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "Alcohol in the chemical or spirit sense.",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "alkoqol",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/alkoqol",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "spirt",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 4,
+    "a": "alkoqol",
+    "b": "alkoqolizm",
+    "type": "topic",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "related",
+    "source_sense": null,
+    "source": {
+      "head": "alkoqol",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/alkoqol",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "alkoqolizm",
+      "tags": [
+        "noun"
+      ]
+    }
+  },
+  {
+    "index": 5,
+    "a": "allergik",
+    "b": "allergiyalı",
+    "type": "syn",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "Allergic, in the sense of having an allergy.",
+    "source_field": "synonyms",
+    "source_sense": "Alérgico.",
+    "source": {
+      "head": "allergik",
+      "edition": "es",
+      "url": "https://es.wiktionary.org/wiki/allergik",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "allergiyalı",
+      "sense_index": "1",
+      "sense": "Alérgico."
+    }
+  },
+  {
+    "index": 6,
+    "a": "allergiyalı",
+    "b": "allergik",
+    "type": "syn",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "Allergic, in the sense of having an allergy.",
+    "source_field": "synonyms",
+    "source_sense": "Alérgico.",
+    "source": {
+      "head": "allergiyalı",
+      "edition": "es",
+      "url": "https://es.wiktionary.org/wiki/allergiyal%C4%B1",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "allergik",
+      "sense_index": "1",
+      "sense": "Alérgico."
+    }
+  },
+  {
+    "index": 7,
+    "a": "analiz",
+    "b": "təhlil",
+    "type": "syn",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "analiz",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/analiz",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "təhlil",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 8,
+    "a": "anus",
+    "b": "məqəd",
+    "type": "syn",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "anus",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/anus",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "məqəd",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 9,
+    "a": "avtoritarizm",
+    "b": "avtoritarlıq",
+    "type": "syn",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "avtoritarizm",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/avtoritarizm",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "avtoritarlıq",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 10,
+    "a": "avtoritarlıq",
+    "b": "avtoritarizm",
+    "type": "syn",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "synonyms",
+    "source_sense": "Autoritarismo.",
+    "source": {
+      "head": "avtoritarlıq",
+      "edition": "es",
+      "url": "https://es.wiktionary.org/wiki/avtoritarl%C4%B1q",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "avtoritarizm",
+      "sense_index": "1",
+      "sense": "Autoritarismo."
+    }
+  },
+  {
+    "index": 11,
+    "a": "aya eniş",
+    "b": "aya enmə",
+    "type": "syn",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "synonyms",
+    "source_sense": "Alunizaje.",
+    "source": {
+      "head": "aya eniş",
+      "edition": "es",
+      "url": "https://es.wiktionary.org/wiki/aya_eni%C5%9F",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "aya enmə",
+      "sense_index": "1",
+      "sense": "Alunizaje."
+    }
+  },
+  {
+    "index": 12,
+    "a": "aya enmə",
+    "b": "aya eniş",
+    "type": "syn",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "synonyms",
+    "source_sense": "Alunizaje.",
+    "source": {
+      "head": "aya enmə",
+      "edition": "es",
+      "url": "https://es.wiktionary.org/wiki/aya_enm%C9%99",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "aya eniş",
+      "sense_index": "1",
+      "sense": "Alunizaje."
+    }
+  },
+  {
+    "index": 13,
+    "a": "banket",
+    "b": "ziyafət",
+    "type": "syn",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "banket",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/banket",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "ziyafət",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 14,
+    "a": "davamsızlıq",
+    "b": "davamsız",
+    "type": "topic",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "related",
+    "source_sense": null,
+    "source": {
+      "head": "davamsızlıq",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/davams%C4%B1zl%C4%B1q",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "davamsız",
+      "tags": [
+        "adjective"
+      ]
+    }
+  },
+  {
+    "index": 15,
+    "a": "dayaq-divar",
+    "b": "mərz",
+    "type": "syn",
+    "decision": "hold",
+    "reason_en": "A buttress is not simply a boundary ridge.",
+    "sense_en": "",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "dayaq-divar",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/dayaq-divar",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "mərz",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 16,
+    "a": "dayaq-divar",
+    "b": "sərhəd",
+    "type": "syn",
+    "decision": "hold",
+    "reason_en": "A buttress is not a border.",
+    "sense_en": "",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "dayaq-divar",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/dayaq-divar",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "sərhəd",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 17,
+    "a": "dayaq-divar",
+    "b": "körpü özülü",
+    "type": "syn",
+    "decision": "hold",
+    "reason_en": "A buttress and a bridge foundation are different structures.",
+    "sense_en": "",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "dayaq-divar",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/dayaq-divar",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "körpü özülü",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 18,
+    "a": "debat",
+    "b": "müzakirə",
+    "type": "syn",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "Discussion or debate of a question.",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "debat",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/debat",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "müzakirə",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 19,
+    "a": "debat",
+    "b": "polemika",
+    "type": "syn",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "Argumentative public debate.",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "debat",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/debat",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "polemika",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 20,
+    "a": "demokratik",
+    "b": "demokratiya",
+    "type": "topic",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "related",
+    "source_sense": null,
+    "source": {
+      "head": "demokratik",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/demokratik",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "demokratiya",
+      "tags": [
+        "noun"
+      ]
+    }
+  },
+  {
+    "index": 21,
+    "a": "denaturat",
+    "b": "denaturlaşmış spirt",
+    "type": "syn",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "denaturat",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/denaturat",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "denaturlaşmış spirt",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 22,
+    "a": "diplomatiya",
+    "b": "diplom",
+    "type": "topic",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "related",
+    "source_sense": null,
+    "source": {
+      "head": "diplomatiya",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/diplomatiya",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "diplom",
+      "tags": [
+        "noun"
+      ]
+    }
+  },
+  {
+    "index": 23,
+    "a": "diş-diş təkər",
+    "b": "dəndənəli təkər",
+    "type": "syn",
+    "decision": "hold",
+    "reason_en": "Source headword held as a nonstandard compound.",
+    "sense_en": "",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "diş-diş təkər",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/di%C5%9F-di%C5%9F_t%C9%99k%C9%99r",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "dəndənəli təkər",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 24,
+    "a": "diş-diş təkər",
+    "b": "dişli təkər",
+    "type": "syn",
+    "decision": "hold",
+    "reason_en": "Source headword held as a nonstandard compound.",
+    "sense_en": "",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "diş-diş təkər",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/di%C5%9F-di%C5%9F_t%C9%99k%C9%99r",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "dişli təkər",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 25,
+    "a": "döş vəzi",
+    "b": "süd vəzi",
+    "type": "syn",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "döş vəzi",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/d%C3%B6%C5%9F_v%C9%99zi",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "süd vəzi",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 26,
+    "a": "ehram",
+    "b": "ehramvarı",
+    "type": "topic",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "related",
+    "source_sense": null,
+    "source": {
+      "head": "ehram",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/ehram",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "ehramvarı",
+      "tags": [
+        "adjective"
+      ]
+    }
+  },
+  {
+    "index": 27,
+    "a": "ehram",
+    "b": "piramida",
+    "type": "syn",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "Pyramid, in the architectural sense.",
+    "source_field": "synonyms",
+    "source_sense": null,
+    "source": {
+      "head": "ehram",
+      "edition": "zh",
+      "url": "https://zh.wiktionary.org/wiki/ehram",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "piramida"
+    }
+  },
+  {
+    "index": 28,
+    "a": "ekoloji",
+    "b": "ekologiya",
+    "type": "topic",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "related",
+    "source_sense": null,
+    "source": {
+      "head": "ekoloji",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/ekoloji",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "ekologiya",
+      "tags": [
+        "noun"
+      ]
+    }
+  },
+  {
+    "index": 29,
+    "a": "enmə",
+    "b": "eniş",
+    "type": "syn",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "Descent or landing.",
+    "source_field": "synonyms",
+    "source_sense": "Descenso.",
+    "source": {
+      "head": "enmə",
+      "edition": "es",
+      "url": "https://es.wiktionary.org/wiki/enm%C9%99",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "eniş",
+      "sense_index": "1",
+      "sense": "Descenso."
+    }
+  },
+  {
+    "index": 30,
+    "a": "fabrika",
+    "b": "zavod",
+    "type": "syn",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "fabrika",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/fabrika",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "zavod",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 31,
+    "a": "fabrika",
+    "b": "istehsalat",
+    "type": "syn",
+    "decision": "hold",
+    "reason_en": "Factory is an establishment; production is an activity.",
+    "sense_en": "",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "fabrika",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/fabrika",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "istehsalat",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 32,
+    "a": "fabrika",
+    "b": "karxana",
+    "type": "syn",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "Factory or industrial workshop sense only, not quarry.",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "fabrika",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/fabrika",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "karxana",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 33,
+    "a": "fantastik",
+    "b": "əfsanəvi",
+    "type": "syn",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "Imaginary or fabulous sense.",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "fantastik",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/fantastik",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "əfsanəvi",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 34,
+    "a": "fantastik",
+    "b": "xəyali",
+    "type": "syn",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "Imaginary sense.",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "fantastik",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/fantastik",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "xəyali",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 35,
+    "a": "fantastik",
+    "b": "uydurma",
+    "type": "syn",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "Imagined or fictional sense.",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "fantastik",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/fantastik",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "uydurma",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 36,
+    "a": "fantastik",
+    "b": "əfsanəli",
+    "type": "syn",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "Fabulous or legendary sense.",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "fantastik",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/fantastik",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "əfsanəli",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 37,
+    "a": "farmasiya",
+    "b": "əczaçılıq",
+    "type": "syn",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "farmasiya",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/farmasiya",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "əczaçılıq",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 38,
+    "a": "feminizm",
+    "b": "feminizm tərəfdarı",
+    "type": "topic",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "related",
+    "source_sense": "1.1",
+    "source": {
+      "head": "feminizm",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/feminizm",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "feminizm tərəfdarı",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 39,
+    "a": "fontan",
+    "b": "fəvvarə",
+    "type": "syn",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "fontan",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/fontan",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "fəvvarə",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 40,
+    "a": "ftor",
+    "b": "flüor",
+    "type": "syn",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "synonyms",
+    "source_sense": null,
+    "source": {
+      "head": "ftor",
+      "edition": "pt",
+      "url": "https://pt.wiktionary.org/wiki/ftor",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "flüor"
+    }
+  },
+  {
+    "index": 41,
+    "a": "göbək yırtığı",
+    "b": "göbək qrijası",
+    "type": "syn",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "Umbilical hernia; the target is a colloquial loan phrase.",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "göbək yırtığı",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/g%C3%B6b%C9%99k_y%C4%B1rt%C4%B1%C4%9F%C4%B1",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "göbək qrijası",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 42,
+    "a": "günortadan sonra",
+    "b": "günorta",
+    "type": "syn",
+    "decision": "hold",
+    "reason_en": "Afternoon differs from noon.",
+    "sense_en": "",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "günortadan sonra",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/g%C3%BCnortadan_sonra",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "günorta",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 43,
+    "a": "hikmətli söz",
+    "b": "aforizm",
+    "type": "syn",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "synonyms",
+    "source_sense": "Aforismo.",
+    "source": {
+      "head": "hikmətli söz",
+      "edition": "es",
+      "url": "https://es.wiktionary.org/wiki/hikm%C9%99tli_s%C3%B6z",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "aforizm",
+      "sense_index": "1",
+      "sense": "Aforismo."
+    }
+  },
+  {
+    "index": 44,
+    "a": "hippopotam",
+    "b": "begemot",
+    "type": "syn",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "hippopotam",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/hippopotam",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "begemot",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 45,
+    "a": "homoseksualist",
+    "b": "qey",
+    "type": "syn",
+    "decision": "hold",
+    "reason_en": "A term for a homosexual person is not unconditionally equivalent to a male-specific gay term.",
+    "sense_en": "",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "homoseksualist",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/homoseksualist",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "qey",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 46,
+    "a": "homoseksualist",
+    "b": "pederast",
+    "type": "syn",
+    "decision": "hold",
+    "reason_en": "Pederasty and homosexuality are different concepts; do not conflate them.",
+    "sense_en": "",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "homoseksualist",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/homoseksualist",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "pederast",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 47,
+    "a": "homoseksualist",
+    "b": "götverən",
+    "type": "syn",
+    "decision": "hold",
+    "reason_en": "A vulgar sexual-role insult is not an unrestricted synonym of homosexual person.",
+    "sense_en": "",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "homoseksualist",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/homoseksualist",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "götverən",
+      "tags": [
+        "vulgar"
+      ],
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 48,
+    "a": "həyəcanlandırmaq",
+    "b": "həyəcana salmaq",
+    "type": "syn",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "To excite or make someone agitated.",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "həyəcanlandırmaq",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/h%C9%99y%C9%99canland%C4%B1rmaq",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "həyəcana salmaq",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 49,
+    "a": "ikihürgüclü",
+    "b": "ikihürgüclü dəvə",
+    "type": "topic",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "related",
+    "source_sense": "1.1",
+    "source": {
+      "head": "ikihürgüclü",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/ikih%C3%BCrg%C3%BCcl%C3%BC",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "ikihürgüclü dəvə",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 50,
+    "a": "inflüensa",
+    "b": "qrip",
+    "type": "syn",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "inflüensa",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/infl%C3%BCensa",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "qrip",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 51,
+    "a": "islandca",
+    "b": "İslandiya",
+    "type": "topic",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "related",
+    "source_sense": null,
+    "source": {
+      "head": "islandca",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/islandca",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "İslandiya",
+      "tags": [
+        "noun"
+      ]
+    }
+  },
+  {
+    "index": 52,
+    "a": "kakao",
+    "b": "kakao ağacı",
+    "type": "topic",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "related",
+    "source_sense": "1.1",
+    "source": {
+      "head": "kakao",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/kakao",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "kakao ağacı",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 53,
+    "a": "kakao",
+    "b": "kakao toxumu",
+    "type": "topic",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "related",
+    "source_sense": "1.1",
+    "source": {
+      "head": "kakao",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/kakao",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "kakao toxumu",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 54,
+    "a": "kakao",
+    "b": "kakao dənəsi",
+    "type": "topic",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "related",
+    "source_sense": "1.2",
+    "source": {
+      "head": "kakao",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/kakao",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "kakao dənəsi",
+      "sense_index": "1.2"
+    }
+  },
+  {
+    "index": 55,
+    "a": "kakao",
+    "b": "kakao yağı",
+    "type": "topic",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "related",
+    "source_sense": "1.2",
+    "source": {
+      "head": "kakao",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/kakao",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "kakao yağı",
+      "sense_index": "1.2"
+    }
+  },
+  {
+    "index": 56,
+    "a": "kekur",
+    "b": "abraziya sütunu",
+    "type": "syn",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "synonyms",
+    "source_sense": "Farallón.",
+    "source": {
+      "head": "kekur",
+      "edition": "es",
+      "url": "https://es.wiktionary.org/wiki/kekur",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "abraziya sütunu",
+      "sense_index": "1",
+      "sense": "Farallón."
+    }
+  },
+  {
+    "index": 57,
+    "a": "latınca",
+    "b": "latın",
+    "type": "topic",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "related",
+    "source_sense": null,
+    "source": {
+      "head": "latınca",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/lat%C4%B1nca",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "latın",
+      "tags": [
+        "adjective"
+      ]
+    }
+  },
+  {
+    "index": 58,
+    "a": "lüğətcə",
+    "b": "lüğət",
+    "type": "topic",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "related",
+    "source_sense": null,
+    "source": {
+      "head": "lüğətcə",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/l%C3%BC%C4%9F%C9%99tc%C9%99",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "lüğət",
+      "tags": [
+        "noun"
+      ]
+    }
+  },
+  {
+    "index": 59,
+    "a": "marionet",
+    "b": "oyun-oyuncaq",
+    "type": "syn",
+    "decision": "hold",
+    "reason_en": "A marionette is a particular puppet, not toys in general.",
+    "sense_en": "",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "marionet",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/marionet",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "oyun-oyuncaq",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 60,
+    "a": "metod",
+    "b": "üsul",
+    "type": "syn",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "metod",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/metod",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "üsul",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 61,
+    "a": "mif",
+    "b": "mifologiya",
+    "type": "topic",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "related",
+    "source_sense": null,
+    "source": {
+      "head": "mif",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/mif",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "mifologiya",
+      "tags": [
+        "noun"
+      ]
+    }
+  },
+  {
+    "index": 62,
+    "a": "muskul",
+    "b": "əzələ",
+    "type": "syn",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "muskul",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/muskul",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "əzələ",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 63,
+    "a": "məzarçı",
+    "b": "məzar",
+    "type": "topic",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "related",
+    "source_sense": null,
+    "source": {
+      "head": "məzarçı",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/m%C9%99zar%C3%A7%C4%B1",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "məzar",
+      "tags": [
+        "noun"
+      ]
+    }
+  },
+  {
+    "index": 64,
+    "a": "nəbatatşünaslıq",
+    "b": "botanika",
+    "type": "syn",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "nəbatatşünaslıq",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/n%C9%99batat%C5%9F%C3%BCnasl%C4%B1q",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "botanika",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 65,
+    "a": "orqanel",
+    "b": "orqanoid",
+    "type": "syn",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "Cell organelle sense, not a laboratory-grown organ model.",
+    "source_field": "synonyms",
+    "source_sense": null,
+    "source": {
+      "head": "orqanel",
+      "edition": "el",
+      "url": "https://el.wiktionary.org/wiki/orqanel",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "orqanoid"
+    }
+  },
+  {
+    "index": 66,
+    "a": "orqanoid",
+    "b": "orqanel",
+    "type": "syn",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "Cell organelle sense, not a laboratory-grown organ model.",
+    "source_field": "synonyms",
+    "source_sense": null,
+    "source": {
+      "head": "orqanoid",
+      "edition": "el",
+      "url": "https://el.wiktionary.org/wiki/orqanoid",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "orqanel"
+    }
+  },
+  {
+    "index": 67,
+    "a": "pankreas",
+    "b": "mədəaltı vəzi",
+    "type": "syn",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "pankreas",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/pankreas",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "mədəaltı vəzi",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 68,
+    "a": "peridot",
+    "b": "xrizolit",
+    "type": "syn",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "Gem-quality olivine sense only.",
+    "source_field": "synonyms",
+    "source_sense": "Peridoto.",
+    "source": {
+      "head": "peridot",
+      "edition": "es",
+      "url": "https://es.wiktionary.org/wiki/peridot",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "xrizolit",
+      "sense_index": "1",
+      "sense": "Peridoto."
+    }
+  },
+  {
+    "index": 69,
+    "a": "qaldırıcı",
+    "b": "elevator",
+    "type": "syn",
+    "decision": "hold",
+    "reason_en": "The elevator target has an unresolved lift versus grain-machine translation issue.",
+    "sense_en": "",
+    "source_field": "synonyms",
+    "source_sense": "1.2",
+    "source": {
+      "head": "qaldırıcı",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/qald%C4%B1r%C4%B1c%C4%B1",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "elevator",
+      "sense_index": "1.2"
+    }
+  },
+  {
+    "index": 70,
+    "a": "qaldırıcı",
+    "b": "qaldırıcı kran",
+    "type": "topic",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "related",
+    "source_sense": "1.1",
+    "source": {
+      "head": "qaldırıcı",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/qald%C4%B1r%C4%B1c%C4%B1",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "qaldırıcı kran",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 71,
+    "a": "qatillik",
+    "b": "öldürmə",
+    "type": "syn",
+    "decision": "hold",
+    "reason_en": "Murder is a specific unlawful killing, not every instance of killing.",
+    "sense_en": "",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "qatillik",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/qatillik",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "öldürmə",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 72,
+    "a": "qey",
+    "b": "homoseksualist",
+    "type": "syn",
+    "decision": "hold",
+    "reason_en": "Male-specific gay terminology should not be made an unrestricted equivalent of a gender-neutral term.",
+    "sense_en": "",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "qey",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/qey",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "homoseksualist",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 73,
+    "a": "qey",
+    "b": "pederast",
+    "type": "syn",
+    "decision": "hold",
+    "reason_en": "Pederasty is not a synonym of being gay.",
+    "sense_en": "",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "qey",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/qey",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "pederast",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 74,
+    "a": "qey",
+    "b": "götverən",
+    "type": "syn",
+    "decision": "hold",
+    "reason_en": "A vulgar sexual-role insult is not an unrestricted synonym of gay.",
+    "sense_en": "",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "qey",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/qey",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "götverən",
+      "tags": [
+        "vulgar"
+      ],
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 75,
+    "a": "quyruqlu",
+    "b": "quyruq",
+    "type": "topic",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "related",
+    "source_sense": null,
+    "source": {
+      "head": "quyruqlu",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/quyruqlu",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "quyruq",
+      "tags": [
+        "noun"
+      ]
+    }
+  },
+  {
+    "index": 76,
+    "a": "qəhvə ağacı",
+    "b": "ərəb qəhvə ağacı",
+    "type": "topic",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "related",
+    "source_sense": "1.1",
+    "source": {
+      "head": "qəhvə ağacı",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/q%C9%99hv%C9%99_a%C4%9Fac%C4%B1",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "ərəb qəhvə ağacı",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 77,
+    "a": "qəhvəli",
+    "b": "qəhvə",
+    "type": "topic",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "related",
+    "source_sense": null,
+    "source": {
+      "head": "qəhvəli",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/q%C9%99hv%C9%99li",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "qəhvə",
+      "tags": [
+        "noun"
+      ]
+    }
+  },
+  {
+    "index": 78,
+    "a": "rumınca",
+    "b": "Romaniya",
+    "type": "topic",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "related",
+    "source_sense": null,
+    "source": {
+      "head": "rumınca",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/rum%C4%B1nca",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "Romaniya",
+      "tags": [
+        "noun"
+      ]
+    }
+  },
+  {
+    "index": 79,
+    "a": "saatqayıran",
+    "b": "saatsaz",
+    "type": "syn",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "saatqayıran",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/saatqay%C4%B1ran",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "saatsaz",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 80,
+    "a": "simmetrik",
+    "b": "simmetriyalı",
+    "type": "syn",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "synonyms",
+    "source_sense": "Simétrico.",
+    "source": {
+      "head": "simmetrik",
+      "edition": "es",
+      "url": "https://es.wiktionary.org/wiki/simmetrik",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "simmetriyalı",
+      "sense_index": "1",
+      "sense": "Simétrico."
+    }
+  },
+  {
+    "index": 81,
+    "a": "simmetriyalı",
+    "b": "simmetrik",
+    "type": "syn",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "synonyms",
+    "source_sense": "Simétrico.",
+    "source": {
+      "head": "simmetriyalı",
+      "edition": "es",
+      "url": "https://es.wiktionary.org/wiki/simmetriyal%C4%B1",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "simmetrik",
+      "sense_index": "1",
+      "sense": "Simétrico."
+    }
+  },
+  {
+    "index": 82,
+    "a": "süd vəzi",
+    "b": "döş vəzi",
+    "type": "syn",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "süd vəzi",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/s%C3%BCd_v%C9%99zi",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "döş vəzi",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 83,
+    "a": "süd vəzi",
+    "b": "süd vəzi kanalının axacağının sisterni",
+    "type": "topic",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "related",
+    "source_sense": "1.1",
+    "source": {
+      "head": "süd vəzi",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/s%C3%BCd_v%C9%99zi",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "süd vəzi kanalının axacağının sisterni",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 84,
+    "a": "südlü",
+    "b": "süd",
+    "type": "topic",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "related",
+    "source_sense": null,
+    "source": {
+      "head": "südlü",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/s%C3%BCdl%C3%BC",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "süd",
+      "tags": [
+        "noun"
+      ]
+    }
+  },
+  {
+    "index": 85,
+    "a": "sürməyi",
+    "b": "gömgöy",
+    "type": "syn",
+    "decision": "hold",
+    "reason_en": "Dark navy blue and intensely blue are different color specifications.",
+    "sense_en": "",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "sürməyi",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/s%C3%BCrm%C9%99yi",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "gömgöy",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 86,
+    "a": "traffikinq",
+    "b": "insan alveri",
+    "type": "syn",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "traffikinq",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/traffikinq",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "insan alveri",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 87,
+    "a": "tragik",
+    "b": "dəhşətli",
+    "type": "syn",
+    "decision": "hold",
+    "reason_en": "Tragic does not mean terrible in every context.",
+    "sense_en": "",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "tragik",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/tragik",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "dəhşətli",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 88,
+    "a": "tragik",
+    "b": "tragizm",
+    "type": "topic",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "related",
+    "source_sense": null,
+    "source": {
+      "head": "tragik",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/tragik",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "tragizm",
+      "tags": [
+        "noun"
+      ]
+    }
+  },
+  {
+    "index": 89,
+    "a": "təhərsizlik",
+    "b": "disproporsiya",
+    "type": "syn",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "Disproportion or lack of proportion, not every form of ugliness.",
+    "source_field": "synonyms",
+    "source_sense": "1.2",
+    "source": {
+      "head": "təhərsizlik",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/t%C9%99h%C9%99rsizlik",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "disproporsiya",
+      "sense_index": "1.2"
+    }
+  },
+  {
+    "index": 90,
+    "a": "vicdanlı",
+    "b": "vicdansız",
+    "type": "ant",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "antonyms",
+    "source_sense": null,
+    "source": {
+      "head": "vicdanlı",
+      "edition": "zh",
+      "url": "https://zh.wiktionary.org/wiki/vicdanl%C4%B1",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "vicdansız"
+    }
+  },
+  {
+    "index": 91,
+    "a": "xoşqamət",
+    "b": "qamətli",
+    "type": "syn",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "Handsome or well-proportioned bodily build.",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "xoşqamət",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/xo%C5%9Fqam%C9%99t",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "qamətli",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 92,
+    "a": "xoşqamət",
+    "b": "nazik",
+    "type": "syn",
+    "decision": "hold",
+    "reason_en": "Thinness in general is not the same as a handsome or slender bodily build.",
+    "sense_en": "",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "xoşqamət",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/xo%C5%9Fqam%C9%99t",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "nazik",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 93,
+    "a": "xoşqamət",
+    "b": "incə",
+    "type": "syn",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "Slender bodily build, not delicate things in general.",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "xoşqamət",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/xo%C5%9Fqam%C9%99t",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "incə",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 94,
+    "a": "xoşqamət",
+    "b": "biçimli",
+    "type": "syn",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "Well-shaped bodily build.",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "xoşqamət",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/xo%C5%9Fqam%C9%99t",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "biçimli",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 95,
+    "a": "xoşqamət",
+    "b": "nazikbədənli",
+    "type": "syn",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "Slender bodily build.",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "xoşqamət",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/xo%C5%9Fqam%C9%99t",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "nazikbədənli",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 96,
+    "a": "çağırılmaq",
+    "b": "çağırım",
+    "type": "topic",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "related",
+    "source_sense": null,
+    "source": {
+      "head": "çağırılmaq",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/%C3%A7a%C4%9F%C4%B1r%C4%B1lmaq",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "çağırım",
+      "tags": [
+        "noun"
+      ]
+    }
+  },
+  {
+    "index": 97,
+    "a": "çağırılmaq",
+    "b": "çağırış",
+    "type": "topic",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "related",
+    "source_sense": null,
+    "source": {
+      "head": "çağırılmaq",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/%C3%A7a%C4%9F%C4%B1r%C4%B1lmaq",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "çağırış"
+    }
+  },
+  {
+    "index": 98,
+    "a": "çağırılmaq",
+    "b": "çağırmaq",
+    "type": "topic",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "related",
+    "source_sense": null,
+    "source": {
+      "head": "çağırılmaq",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/%C3%A7a%C4%9F%C4%B1r%C4%B1lmaq",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "çağırmaq",
+      "tags": [
+        "verb"
+      ]
+    }
+  },
+  {
+    "index": 99,
+    "a": "şeiriyyət",
+    "b": "poeziya",
+    "type": "syn",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "Poetry or poetic character.",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "şeiriyyət",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/%C5%9Feiriyy%C9%99t",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "poeziya",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 100,
+    "a": "şeiriyyət",
+    "b": "şair",
+    "type": "topic",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "related",
+    "source_sense": null,
+    "source": {
+      "head": "şeiriyyət",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/%C5%9Feiriyy%C9%99t",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "şair",
+      "tags": [
+        "noun"
+      ]
+    }
+  },
+  {
+    "index": 101,
+    "a": "şintoizm",
+    "b": "şinto",
+    "type": "syn",
+    "decision": "accept",
+    "reason_en": "Explicit relation in the dictionary source, checked for an appropriate shared sense or related-topic connection.",
+    "sense_en": "",
+    "source_field": "synonyms",
+    "source_sense": "1.1",
+    "source": {
+      "head": "şintoizm",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/%C5%9Fintoizm",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "şinto",
+      "sense_index": "1.1"
+    }
+  },
+  {
+    "index": 102,
+    "a": "əzələ qüvvəsi",
+    "b": "əzələ",
+    "type": "syn",
+    "decision": "hold",
+    "reason_en": "Muscular strength is a property, not the muscle itself.",
+    "sense_en": "",
+    "source_field": "synonyms",
+    "source_sense": "1.2",
+    "source": {
+      "head": "əzələ qüvvəsi",
+      "edition": "pl",
+      "url": "https://pl.wiktionary.org/wiki/%C9%99z%C9%99l%C9%99_q%C3%BCvv%C9%99si",
+      "license": "CC BY-SA 4.0"
+    },
+    "raw_evidence": {
+      "word": "əzələ",
+      "sense_index": "1.2"
+    }
+  },
+  {
+    "a": "ayıbsız",
+    "b": "nöqsansız",
+    "type": "syn",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "ayıbsız",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/ay%C4%B1bs%C4%B1z",
+      "revision": 369722,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=369722",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "Without faults or defects.",
+    "sense_az": "Qüsuru və ya nöqsanı olmayan.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "Nöqsansız, qüsursuz. Ayıbsız gözəl olmaz. (Ata. sözü)."
+    ]
+  },
+  {
+    "a": "ayıbsız",
+    "b": "qüsursuz",
+    "type": "syn",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "ayıbsız",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/ay%C4%B1bs%C4%B1z",
+      "revision": 369722,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=369722",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "Without faults or defects.",
+    "sense_az": "Qüsuru və ya nöqsanı olmayan.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "Nöqsansız, qüsursuz. Ayıbsız gözəl olmaz. (Ata. sözü)."
+    ]
+  },
+  {
+    "a": "analiz",
+    "b": "təhlil",
+    "type": "syn",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "analiz",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/analiz",
+      "revision": 354754,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=354754",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "Analysis of components.",
+    "sense_az": "Bir şeyin tərkibini və hissələrini araşdırma; təhlil.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "Tədqiq olunan şeyin hansı tərkib hissələrindən ibarət olduğunu, yaxud onun tərkibinə nə miqdarda bu və ya digər maddənin daxil olduğunu müəyyən etmək üçün tətbiq edilən əməliyyat; [[təhlil]]. Analiz və sintez. Kimyəvi analiz. Mədə şirəsi analizi. – Qəbuldan sonra Firuzə kabineti intizama salırdı və laboratoriyada qan analizi üzərində çalışırdı. C.Cabbarlı."
+    ]
+  },
+  {
+    "a": "angina",
+    "b": "badamcıq",
+    "type": "topic",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "angina",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/angina",
+      "revision": 301628,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=301628",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "Inflammation of the tonsils.",
+    "sense_az": "Boğazın, xüsusən badamcıqların iltihabı.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "{{t|Tibb}}  Əsnəyin selikli qişasının və xüsusən badamcıqların iltihabı. Angina oynaq, böyrək və ürək xəstəliyinə səbəb ola bilər."
+    ]
+  },
+  {
+    "a": "artrit",
+    "b": "oynaq",
+    "type": "topic",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "artrit",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/artrit",
+      "revision": 301971,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=301971",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "Inflammation of joints.",
+    "sense_az": "Oynaqlarda yaranan iltihab.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "{{t|Tibb}} Oynaqların iltihabı. Artritin əlamətləri."
+    ]
+  },
+  {
+    "a": "areal",
+    "b": "ərazi",
+    "type": "topic",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "areal",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/areal",
+      "revision": 365758,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=365758",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "An area of geographical distribution.",
+    "sense_az": "Bir növün, xalqın və ya dilin yayıldığı ərazi.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "Müxtəlif qəbilədən olan şeylərin (dil, xalq, heyvan, bitki və s.) yayıldığı ərazi. Arealın müqayisəli öyrənilməsi."
+    ]
+  },
+  {
+    "a": "akvatoriya",
+    "b": "hövzə",
+    "type": "topic",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "akvatoriya",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/akvatoriya",
+      "revision": 301309,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=301309",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "A bounded water area.",
+    "sense_az": "Sərhədləri müəyyən edilmiş su sahəsi.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "{{t|Coğrafi terminlər}}. (lat. aqua — su, territorium — ərazi) — Təbii, süni və şərti sərhədlərə malik su [[hövzə]]si, ya ərazisi."
+    ]
+  },
+  {
+    "a": "çimdirmək",
+    "b": "çimizdirmək",
+    "type": "syn",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "çimdirmək",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/%C3%A7imdirm%C9%99k",
+      "revision": 324007,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=324007",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "To bathe another person.",
+    "sense_az": "Birinin bədənini su ilə yumaq; çimizdirmək.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "Su, sabun və s. bədəni yumaq; çimizdirmək. سو، سابون و س. بدني يوماق؛ چيميزديرمک "
+    ]
+  },
+  {
+    "a": "çırpı",
+    "b": "çıl-çırpı",
+    "type": "syn",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "çırpı",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/%C3%A7%C4%B1rp%C4%B1",
+      "revision": 324068,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=324068",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "Dry twigs and brushwood.",
+    "sense_az": "Qurumuş xırda budaq və kol parçaları.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "Quru budaq, kol qırıntısı; çıl-çırpı."
+    ]
+  },
+  {
+    "a": "düstur",
+    "b": "formul",
+    "type": "syn",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "düstur",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/d%C3%BCstur",
+      "revision": 369791,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=369791",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "A symbolic or mathematical formula.",
+    "sense_az": "Qayda və ya üsul; kəmiyyətləri işarələrlə göstərən formul.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "Qanun, qayda, əsas, üsul. Həmən bu düsturu öyrənib də sən; Ər oğlu ər kimi tab et bəlaya. S.Vurğun. Bəs xalqla yazıçı arasında mənəvi rabitə necə yaranır? Bu barədə düstur vermək çətindir. M.İbrahimov.",
+      "Hər cür kəmiyyətlərin, tərkiblərin, ünsürlərin və s.-nin məcmusunun (rəqəmlərlə, hərflərlə, xüsusi işarələrlə) şərti ifadəsi; formul. Riyazi düstur. Həndəsi düstur. "
+    ]
+  },
+  {
+    "a": "düstur",
+    "b": "qayda",
+    "type": "syn",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "düstur",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/d%C3%BCstur",
+      "revision": 369791,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=369791",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "A rule or guiding principle.",
+    "sense_az": "Qayda və ya üsul; kəmiyyətləri işarələrlə göstərən formul.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "Qanun, qayda, əsas, üsul. Həmən bu düsturu öyrənib də sən; Ər oğlu ər kimi tab et bəlaya. S.Vurğun. Bəs xalqla yazıçı arasında mənəvi rabitə necə yaranır? Bu barədə düstur vermək çətindir. M.İbrahimov.",
+      "Hər cür kəmiyyətlərin, tərkiblərin, ünsürlərin və s.-nin məcmusunun (rəqəmlərlə, hərflərlə, xüsusi işarələrlə) şərti ifadəsi; formul. Riyazi düstur. Həndəsi düstur. "
+    ]
+  },
+  {
+    "a": "buğlanmaq",
+    "b": "buxarlanmaq",
+    "type": "syn",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "buğlanmaq",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/bu%C4%9Flanmaq",
+      "revision": 257199,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=257199",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "To turn into vapour.",
+    "sense_az": "Buğa çevrilmək və ya buğ buraxmaq.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "Buğ olmaq, buğa çevrilmək, buğ halına gəlmək; buxarlanmaq. Günəşin təsiri ilə yerdəki sular buğlanır.",
+      "Buğ vermək, buğ çıxmaq. Buludlar parçalanır, torpaq buğ verir, otlar baş qaldırır, quşlar civildəşməyə başlayırdı. M.İbrahimov. Ramazanla yanaşı oturan qonağın qarşısındakı dolu boşqab buğlanırdı. M.Hüseyn."
+    ]
+  },
+  {
+    "a": "dost olmaq",
+    "b": "dostlaşmaq",
+    "type": "syn",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "dost olmaq",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/dost_olmaq",
+      "revision": 257839,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=257839",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "To establish friendly relations.",
+    "sense_az": "Birisi ilə dostluq münasibəti yaratmaq və ya saxlamaq.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "Aralarında dostluq münasibəti olmaq, ya yaratmaq, dostlaşmaq, arxadaş olmaq, yaxınlaşmaq. Mirzağa, gəncliyinə baxmayaraq, bu vaxtadək bir qız və ya qadınla dost və arxadaş olmamışdı. S.Hüseyn. [Dürrə:] Mən tanış olmağı və dost olmağı, qəriblərlə oturub-durmağı sevən bir qadınam. M.S.Ordubadi. [Nuriyyə:] Son kursda oxuyan Ayna adlı bakılı bir qızla dost olmuşduq. İ.Əfəndiyev. "
+    ]
+  },
+  {
+    "a": "dostluq etmək",
+    "b": "dost olmaq",
+    "type": "syn",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "dostluq etmək",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/dostluq_etm%C9%99k",
+      "revision": 257838,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=257838",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "To maintain a friendship.",
+    "sense_az": "Birisi ilə dost münasibətdə olmaq.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "Bir-biri ilə dost olmaq, aralarında dostluq münasibəti yaratmaq və davam etdirmək. "
+    ]
+  },
+  {
+    "a": "əczaçı",
+    "b": "farmasevt",
+    "type": "syn",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "əczaçı",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/%C9%99cza%C3%A7%C4%B1",
+      "revision": 263516,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=263516",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "A specialist who prepares medicines.",
+    "sense_az": "Aptekdə dərman hazırlayan mütəxəssis.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "Aptekdə dərman hazırlayan mütəxəssis; farmasevt."
+    ]
+  },
+  {
+    "a": "cədd",
+    "b": "baba",
+    "type": "syn",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "cədd",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/c%C9%99dd",
+      "revision": 257585,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=257585",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "A grandfather or ancestor.",
+    "sense_az": "Baba və ya ulu əcdad.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "Ata və ya ananın atası; baba; əcdad."
+    ]
+  },
+  {
+    "a": "çaydaşı",
+    "b": "qənbər",
+    "type": "syn",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "çaydaşı",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/%C3%A7ayda%C5%9F%C4%B1",
+      "revision": 263141,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=263141",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "A rounded river pebble.",
+    "sense_az": "Axar suda hamarlanıb yuvarlaqlaşmış daş.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "Axar suyun təsirindən hamarlanıb yuvarlanmış xırda daş; çaylaq daşı, qənbər."
+    ]
+  },
+  {
+    "a": "ərincəklik",
+    "b": "tənbəllik",
+    "type": "syn",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "ərincəklik",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/%C9%99rinc%C9%99klik",
+      "revision": 263522,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=263522",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "Laziness or unwillingness to work.",
+    "sense_az": "İş görməyə həvəssizlik; tənbəllik.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "Tənbəllik, canını işə verməməzlik."
+    ]
+  },
+  {
+    "a": "dəbdəbəli",
+    "b": "təmtəraqlı",
+    "type": "syn",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "dəbdəbəli",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/d%C9%99bd%C9%99b%C9%99li",
+      "revision": 257969,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=257969",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "Lavishly decorated or splendid.",
+    "sense_az": "Təmtəraqlı, təntənəli və ya zəngin bəzəkli.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "Təntənəli, əzəmətli. ",
+      "məc. Zahirən gözəl, bəzəkli, təmtəraqlı. "
+    ]
+  },
+  {
+    "a": "dəbdəbəli",
+    "b": "təntənəli",
+    "type": "syn",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "dəbdəbəli",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/d%C9%99bd%C9%99b%C9%99li",
+      "revision": 257969,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=257969",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "Splendid or ceremonious.",
+    "sense_az": "Təmtəraqlı, təntənəli və ya zəngin bəzəkli.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "Təntənəli, əzəmətli. ",
+      "məc. Zahirən gözəl, bəzəkli, təmtəraqlı. "
+    ]
+  },
+  {
+    "a": "hibrid",
+    "b": "mələz",
+    "type": "syn",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "hibrid",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/hibrid",
+      "revision": 308964,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=308964",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "An organism produced by a cross.",
+    "sense_az": "Fərqli növ və ya cinslərin çarpazlaşmasından alınan orqanizm.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "Müxtəlif cinsdən, növdən olan bitki və ya heyvanların hibridləşdirilməsi nəticəsində əmələ gələn yeni orqanizm; mələz. Hibridləşdirmə zamanı müxtəlif növdən olan fərdlər bir-birilə cütləşdirilir və bunlardan alınan balaya hibrid deyilir. // Sif. mənasında. Hibrid taxıl. Hibrid qoyun. Hibrid toxum."
+    ]
+  },
+  {
+    "a": "icraçı",
+    "b": "ifaçı",
+    "type": "syn",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "icraçı",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/icra%C3%A7%C4%B1",
+      "revision": 369841,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=369841",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "Performer of an artistic work only.",
+    "sense_az": "Əmri və ya qərarı yerinə yetirən şəxs; əsərin ifaçısı.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "Bir qərarı, hökmü, əmri, göstərişi icra edən, əməli surətdə yerinə yetirən, həyata keçirən adam. Hüsaməddin kimi adamlar onun fikrinin icraçılarıdır. M.S.Or- dubadi. // Sif. mənasında. [Yunis] əvvəl icraçı mühəndis, ..sonra trestin baş mühəndis müavini vəzifəsində işləmişdi. Mir Cəlal. ",
+      "Bədii (musiqi, ədəbi və s.) əsərin ifaçısı. [Rəşid] ümumittifaq özfəaliyyət icraçıları baxışında birincilik qazanmışdır. M.Rzaquluzadə. ◊ Məhkəmə icraçısı – icra vərəqəsinə əsasən məhkəmə qərarını həyata keçirən məhkəmə işçisi."
+    ]
+  },
+  {
+    "a": "fors",
+    "b": "lovğalıq",
+    "type": "syn",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "fors",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/fors",
+      "revision": 307514,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=307514",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "Boastful showing off.",
+    "sense_az": "Özünü üstün göstərmə; lovğalıq.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "İddia, təkəbbür, lovğalıq, təşəxxüs. [Kərbəlayı:] Bu nə forsdur, ay Nabat xanım? S.Rəhimov. _ Fors eləmək (satmaq, atmaq) – bax forslanmaq. [Şahsənəm:] Məşədi İbadın arvadı Püstə əllərini belinə qoyub bizə fors atırdı. S.S.Axundov. Mayis yenə də lovğalandı və fors satır kimi cavab verdi. Ə.Vəliyev. [Ata:] [İlyas] çox da fors eləməsin. Ə.Məmmədxanlı."
+    ]
+  },
+  {
+    "a": "fors",
+    "b": "təkəbbür",
+    "type": "syn",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "fors",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/fors",
+      "revision": 307514,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=307514",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "Arrogant self-importance.",
+    "sense_az": "Özünü üstün göstərmə; lovğalıq.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "İddia, təkəbbür, lovğalıq, təşəxxüs. [Kərbəlayı:] Bu nə forsdur, ay Nabat xanım? S.Rəhimov. _ Fors eləmək (satmaq, atmaq) – bax forslanmaq. [Şahsənəm:] Məşədi İbadın arvadı Püstə əllərini belinə qoyub bizə fors atırdı. S.S.Axundov. Mayis yenə də lovğalandı və fors satır kimi cavab verdi. Ə.Vəliyev. [Ata:] [İlyas] çox da fors eləməsin. Ə.Məmmədxanlı."
+    ]
+  },
+  {
+    "a": "heykəltəraşlıq",
+    "b": "heykəl",
+    "type": "topic",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "heykəltəraşlıq",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/heyk%C9%99lt%C9%99ra%C5%9Fl%C4%B1q",
+      "revision": 147568,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=147568",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "The art produces statues.",
+    "sense_az": "Həcmli təsvirlər və heykəllər yaratmaq sənəti.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "Təsviri sənətin qazıma, yonma, kəsmə, yapma və ya tökmə üsulu ilə həcmli təsvirlər (heykəl, büst, barelyef və s.) yaradan növü",
+      "Daşdan, tuncdan və b. materiallardan düzəldilmiş belə sənət əsəri."
+    ]
+  },
+  {
+    "a": "heykəltəraşlıq",
+    "b": "büst",
+    "type": "topic",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "heykəltəraşlıq",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/heyk%C9%99lt%C9%99ra%C5%9Fl%C4%B1q",
+      "revision": 147568,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=147568",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "A bust is one of the works produced in sculpture.",
+    "sense_az": "Həcmli təsvirlər və heykəllər yaratmaq sənəti.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "Təsviri sənətin qazıma, yonma, kəsmə, yapma və ya tökmə üsulu ilə həcmli təsvirlər (heykəl, büst, barelyef və s.) yaradan növü",
+      "Daşdan, tuncdan və b. materiallardan düzəldilmiş belə sənət əsəri."
+    ]
+  },
+  {
+    "a": "əzəmət",
+    "b": "ululuq",
+    "type": "syn",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "əzəmət",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/%C9%99z%C9%99m%C9%99t",
+      "revision": 263585,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=263585",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "Greatness or majesty.",
+    "sense_az": "Ululuq, böyüklük və təmtəraq.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "Böyüklük, ululuq. ",
+      "Dəbdəbə, calal, təmtəraq, ehtişam."
+    ]
+  },
+  {
+    "a": "forum",
+    "b": "qurultay",
+    "type": "syn",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "forum",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/forum",
+      "revision": 358527,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=358527",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "A large representative assembly.",
+    "sense_az": "Geniş iştirakçı heyəti olan toplantı.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "Geniş nümayəndəli – kütləvi yığıncaq, [[qurultay]]."
+    ]
+  },
+  {
+    "a": "istila etmək",
+    "b": "zəbt etmək",
+    "type": "syn",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "istila etmək",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/istila_etm%C9%99k",
+      "revision": 349673,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=349673",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "To seize or occupy territory.",
+    "sense_az": "Bir ərazini zorla ələ keçirmək.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "Zəbt etmək"
+    ]
+  },
+  {
+    "a": "kəlağayı",
+    "b": "ipək",
+    "type": "topic",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "kəlağayı",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/k%C9%99la%C4%9Fay%C4%B1",
+      "revision": 259723,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=259723",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "A silk head covering.",
+    "sense_az": "Qadınların örtdüyü nazik, naxışlı ipək baş örtüyü.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "Müxtəlif rəngli, haşiyəli, nazik qadın ipək baş örtüyü. Ağ kəlağayı. Kəlağayı örtmək. – Kəlağayı əlvan, qəsəbə qıyğac; Altından cunası, hayıf ki, yoxdur. M.P.Vaqif. Qız Ağamehdini görən kimi başını örtdü, kəlağayısını çəkdi üzünə, çəkildi daxmanın bir bucağına. E.Sultanov."
+    ]
+  },
+  {
+    "a": "katet",
+    "b": "üçbucaq",
+    "type": "topic",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "katet",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/katet",
+      "revision": 310617,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=310617",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "A leg of a right triangle.",
+    "sense_az": "Düzbucaqlı üçbucağın düz bucağını əmələ gətirən tərəf.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "{{t|Riyaziyyat}} Düzbucaqlı üçbucağın düz bucağını əmələ gətirən tərəflərdən biri (с1, c2)."
+    ]
+  },
+  {
+    "a": "kimsəsizlik",
+    "b": "tənhalıq",
+    "type": "syn",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "kimsəsizlik",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/kims%C9%99sizlik",
+      "revision": 259441,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=259441",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "Loneliness or having no close companions.",
+    "sense_az": "Yaxın adamı olmama halı; tənhalıq.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "Kimsəsiz adamın halı; təklik, adamsızlıq.",
+      "məc. Tənhalıq, adamsızlıq. "
+    ]
+  },
+  {
+    "a": "külli",
+    "b": "çoxlu",
+    "type": "syn",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "külli",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/k%C3%BClli",
+      "revision": 311548,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=311548",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "A great many.",
+    "sense_az": "Çox böyük miqdarda, saysız-hesabsız.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "Saysız-hesabsız, çoxlu, çox. "
+    ]
+  },
+  {
+    "a": "qüssələnmək",
+    "b": "kədərlənmək",
+    "type": "syn",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "qüssələnmək",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/q%C3%BCss%C9%99l%C9%99nm%C9%99k",
+      "revision": 369951,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=369951",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "To grieve or feel sorrow.",
+    "sense_az": "Kədərlənmək, dərd və qəm çəkmək.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "Kədərlənmək, qəmlənmək, dərdlənmək, fikir çəkmək. Tamam mənə yanaşıb dedi: – Heç qüssələnmə, doqquz aydan sonra yenə gələcəksən, burada şad görüşəcəyik. S.S.Axundov."
+    ]
+  },
+  {
+    "a": "qüssələnmək",
+    "b": "qəmlənmək",
+    "type": "syn",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "qüssələnmək",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/q%C3%BCss%C9%99l%C9%99nm%C9%99k",
+      "revision": 369951,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=369951",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "To grieve or feel sorrow.",
+    "sense_az": "Kədərlənmək, dərd və qəm çəkmək.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "Kədərlənmək, qəmlənmək, dərdlənmək, fikir çəkmək. Tamam mənə yanaşıb dedi: – Heç qüssələnmə, doqquz aydan sonra yenə gələcəksən, burada şad görüşəcəyik. S.S.Axundov."
+    ]
+  },
+  {
+    "a": "mülkədar",
+    "b": "mülk",
+    "type": "root",
+    "decision": "accept",
+    "source_field": "native-etymology",
+    "source": {
+      "head": "mülkədar",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/m%C3%BClk%C9%99dar",
+      "revision": 260436,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=260436",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "The source explicitly gives mülk plus Persian -dar.",
+    "sense_az": "Torpaq mülkü olan zadəgan və ya böyük torpaq sahibi.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "[ər. mülk və fars. ...dar] Torpaq üzərində xüsusi mülkiyyət və onun qalıqları mövcud olan ölkələrdə torpaq sahibi olan zadəgan. İri mülkədar. Kəndlilərin mülkədarlarla mübarizəsi. – Müsəlman bəyləri və mülkədarları özgə vaxt kəndlərdə rəiyyətdən bəhrə yığmağa məşğul olurlar. C.Məmmədquluzadə. [Cavanlardan biri:] Məhv olsun müftəxorlar, mülkədarlar, xanlar, bəylər! Ə.Vəliyev."
+    ]
+  },
+  {
+    "a": "məşğuliyyət",
+    "b": "məşğələ",
+    "type": "syn",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "məşğuliyyət",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/m%C9%99%C5%9F%C4%9Fuliyy%C9%99t",
+      "revision": 363099,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=363099",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "An occupation or activity, source sense 1.",
+    "sense_az": "Məşğələ və ya vaxt keçirmək üçün görülən iş.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "Bax: [[məşğələ]] 1-ci mənada. Məşğuliyyət bitdi.",
+      "Əyləncə, vaxt keçirmək üçün olan iş, oyun, əyləncə və s. Axşamlar hər məhəllənin qonşuları qum üstünə yığışıb məşğuliyyət üçün növbənöv oyun oynardılar. H.Sarabski. İlin hər fəslində biz uşaqlar üçün bağda məşğuliyyət var idi. S.S.Axundov."
+    ]
+  },
+  {
+    "a": "qeyri-ciddi",
+    "b": "ciddiyyətsiz",
+    "type": "syn",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "qeyri-ciddi",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/qeyri-ciddi",
+      "revision": 261485,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=261485",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "Unserious or lacking seriousness.",
+    "sense_az": "Ciddi yanaşmayan və ya ciddi sayılmayan.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "Ciddi olmayan, ciddiyyətsiz. Qeyri-ciddi adam. – Musiqili əsərlərin zərəri və öz tərbiyəvi roluna görə drama nisbətən üçüncü dərəcəli əhəmiyyətə malik olması haqqındakı söhbətləri sadəcə olaraq musiqi sənətinə qeyri-ciddi münasibət kimi izah edirəm. Ü.Hacıbəyov."
+    ]
+  },
+  {
+    "a": "qəlpə",
+    "b": "parça",
+    "type": "topic",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "qəlpə",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/q%C9%99lp%C9%99",
+      "revision": 261580,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=261580",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "A broken fragment is a type of piece.",
+    "sense_az": "Sınmış və ya partlamış bərk şeydən qopan parça.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "Bərk bir şeyin qopub parçalanmış hissəsi, parçası. Daş qəlpəsi. Mərmi qəlpəsi. – ..Bir mina qəlpəsi də [Kamalın] bel sümüyünə ilişib qaldı. M.İbrahimov. [Zülfüqar kişi] əyilib lap çuxurun yanından mişar kimi dişli uzunsov iri bir qəlpə götürdü. Ə.Əbülhəsən. qəlpə-qəlpə zərf Tikə-tikə, parça-parça. Həqiqəti əsrlərin qanlı pəncəsindən; Qəlpəqəlpə qoparan; Bir xalqın hekayəti var. R.Rza. Birdən cəhrə sınıb qəlpə-qəlpə olmuşdu. Ə.Əbülhəsən."
+    ]
+  },
+  {
+    "a": "qulp",
+    "b": "sap",
+    "type": "syn",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "qulp",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/qulp",
+      "revision": 317453,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=317453",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "A handle of an implement or vessel, not thread.",
+    "sense_az": "Qabın və ya alətin əllə tutulan hissəsi.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "Qabların və s. şeylərin əl tutan yeri, dəstəsi, sapı. Qazanın qulpu. Çaydanın qulpu. – [Musa kişi] nazik iplə kuzənin qulpuna bağlanmış tıxacı açdı. M.İbrahimov. Onun sağ əli su ilə dolu vedrənin qulpundan .. tutmuşdu. Ə.Əbülhəsən. ◊ Qulp bağlamaq (qoymaq, qondarmaq, taxmaq) – irad çıxartmaq, bəhanə tapmaq. [Uşaq:] ..Hətta yeyib-içməyimə bir qulp taxır, söylənir, bağırır. A.Şaiq. O hər şeyə etiraz edir, hər sözə qulp qoyur, min cür şıltaqlıq göstərirdi. Ə.Vəliyev. Qulpunu itirmək – haradan tutacağını bilməmək, hesabını çaşdırmaq. İşin qulpundan yapışmaq – bir işə girişmək, bir işdən yapışmaq, bir işlə məşğul olmağa başlamaq. Uşaqlar böyüyüb hərəsi bir işin qulpundan yapışandan sonra, Əkbər tamam rahat nəfəs alacaqdı. Mir Cəlal. Yumurtaya qulp taxmaq – hər şeyə bir bəhanə və səbəb tapmaq."
+    ]
+  },
+  {
+    "a": "mayalamaq",
+    "b": "dölləndirmək",
+    "type": "syn",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "mayalamaq",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/mayalamaq",
+      "revision": 222022,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=222022",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "To inseminate, in the animal-breeding sense.",
+    "sense_az": "Maddəyə maya qatmaq; heyvanı dölləndirmək.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "Maya vurmaq. Südü mayalamaq.",
+      "Dölləndirmək.",
+      "Birinci süddən əmmək, yemək (yeni doğulmuş heyvanlar haqqında). Möhsün balanı mayalayıb Səbanı çağırdı. S.Rəhimov."
+    ]
+  },
+  {
+    "a": "meh",
+    "b": "külək",
+    "type": "topic",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "meh",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/meh",
+      "revision": 371726,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=371726",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "A breeze is a gentle kind of wind.",
+    "sense_az": "Yüngül və yumşaq əsən külək.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "Xəfif yel, yüngül, yumşaq yel, sakit külək. Meh əsir. Meh gəlir. – Yumşaq göy çəmənin üstə düşüb şeh gecədən; İsti yoxdur, hələ var bir balaca meh gecədən. A.Səhhət. İndi çöldə xəfif meh əsdiyi üçün hava bayaqkı qədər bürkü deyildi. İ.Əfəndiyev."
+    ]
+  },
+  {
+    "a": "ququşu",
+    "b": "quş",
+    "type": "topic",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "ququşu",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/ququ%C5%9Fu",
+      "revision": 351950,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=351950",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "A swan is a bird.",
+    "sense_az": "Ördəklər fəsiləsinə aid iri su quşu.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "{{t|Zoologiya|quşlar}}. Ördəklər fəsiləsinə aid quş cinsi"
+    ]
+  },
+  {
+    "a": "nailiyyət",
+    "b": "müvəffəqiyyət",
+    "type": "syn",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "nailiyyət",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/nailiyy%C9%99t",
+      "revision": 354615,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=354615",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "A successful result or achievement.",
+    "sense_az": "Bir işdə əldə edilmiş uğurlu nəticə.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "Hər hansı bir sahədə, işdə əldə edilmiş yaxşı nəticə; müvəffəqiyyət. "
+    ]
+  },
+  {
+    "a": "nişangah",
+    "b": "hədəf",
+    "type": "syn",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "nişangah",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/ni%C5%9Fangah",
+      "revision": 314467,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=314467",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "An object aimed at, not the gun-sight sense.",
+    "sense_az": "Vurulacaq hədəf; silahın nişanalma hissəsi.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "Güllə, ox və s. ilə vurulmalı olan hədəf",
+      "Odlu silahlarda: hədəfi nişan almaq üçün lülə üzərində çıxıntı. ",
+      "Bir şeyə, hadisəyə xatirə olmaq üçün nişan qoyulmuş yer, nişan basdırılan yer"
+    ]
+  },
+  {
+    "a": "nazlı",
+    "b": "işvəli",
+    "type": "syn",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "nazlı",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/nazl%C4%B1",
+      "revision": 314228,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=314228",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "Coy or coquettish.",
+    "sense_az": "Naz və işvə göstərən.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "Şivəli, qəmzəli, işvəli."
+    ]
+  },
+  {
+    "a": "nabələd",
+    "b": "yad",
+    "type": "syn",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "nabələd",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/nab%C9%99l%C9%99d",
+      "revision": 204049,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=204049",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "Unfamiliar or unacquainted, not every foreign thing.",
+    "sense_az": "Bir yeri və ya şəxsi tanımayan; tanış olmayan.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "Bələd olmayan, tanımayan, başqa yerdən gəlmiş. ",
+      "Tanış olmayan, yad, özgə.",
+      "Hələ öyrəşməmiş, vərdiş olmamış, alışmamış. "
+    ]
+  },
+  {
+    "a": "nişanlamaq",
+    "b": "adaxlamaq",
+    "type": "syn",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "nişanlamaq",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/ni%C5%9Fanlamaq",
+      "revision": 260657,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=260657",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "To betroth someone.",
+    "sense_az": "İşarə qoymaq; nişana almaq; adaxlamaq.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "Cizgi, nöqtə və s. vasitəsilə nişan qoymaq, başqalarından fərqləndirici işarə qoymaq. ",
+      "Ad eləmək, üzük taxmaq, adaxlamaq. ",
+      "Nişanaya almaq, tuşlamaq."
+    ]
+  },
+  {
+    "a": "nişanlamaq",
+    "b": "tuşlamaq",
+    "type": "syn",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "nişanlamaq",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/ni%C5%9Fanlamaq",
+      "revision": 260657,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=260657",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "To take aim.",
+    "sense_az": "İşarə qoymaq; nişana almaq; adaxlamaq.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "Cizgi, nöqtə və s. vasitəsilə nişan qoymaq, başqalarından fərqləndirici işarə qoymaq. ",
+      "Ad eləmək, üzük taxmaq, adaxlamaq. ",
+      "Nişanaya almaq, tuşlamaq."
+    ]
+  },
+  {
+    "a": "quraşdırma",
+    "b": "uydurma",
+    "type": "syn",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "quraşdırma",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/qura%C5%9Fd%C4%B1rma",
+      "revision": 261545,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=261545",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "A fabricated report or invented account.",
+    "sense_az": "Uydurulmuş söz və ya xəbər.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "“[[quraşdırmaq|Quraşdırmaq]]”dan f.is. ",
+      "sif. Quraşdırılan, quraşdırılmış, bir-birinə quraşdırılan.",
+      "is. məc. Əsli olmayan söz, xəbər və s.; [[yalan]], [[uydurma]]."
+    ]
+  },
+  {
+    "a": "məkrli",
+    "b": "hiyləgər",
+    "type": "syn",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "məkrli",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/m%C9%99krli",
+      "revision": 260475,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=260475",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "Deceitful or cunning.",
+    "sense_az": "Hiylə və aldatma ilə dolu.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "Hiyləli, hiyləgər, aldadıcı."
+    ]
+  },
+  {
+    "a": "mərcanı",
+    "b": "quşüzümü",
+    "type": "syn",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "mərcanı",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/m%C9%99rcan%C4%B1",
+      "revision": 260505,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=260505",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "Cranberry, in the botanical noun sense.",
+    "sense_az": "Quşüzümü bitkisi və giləsi.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "Bax [[quşüzümü]].",
+      "sif. Qırmızımtıl rəng"
+    ]
+  },
+  {
+    "a": "müflislik",
+    "b": "iflas",
+    "type": "syn",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "müflislik",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/m%C3%BCflislik",
+      "revision": 260391,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=260391",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "Financial bankruptcy.",
+    "sense_az": "Var-dövlətini itirib iflasa uğrama halı.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "Müflis olma, var-yoxu, pulu, malı əlindən çıxma, iflasa uğrama."
+    ]
+  },
+  {
+    "a": "ləng",
+    "b": "asta",
+    "type": "syn",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "ləng",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/l%C9%99ng",
+      "revision": 339889,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=339889",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "Slow in movement or action.",
+    "sense_az": "Asta hərəkət edən, sürəti az olan.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "Ağır, asta, yavaş; ağırtərpənən. "
+    ]
+  },
+  {
+    "a": "ləng",
+    "b": "yavaş",
+    "type": "syn",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "ləng",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/l%C9%99ng",
+      "revision": 339889,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=339889",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "Slow in movement or action.",
+    "sense_az": "Asta hərəkət edən, sürəti az olan.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "Ağır, asta, yavaş; ağırtərpənən. "
+    ]
+  },
+  {
+    "a": "ləyaqətli",
+    "b": "layiq",
+    "type": "syn",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "ləyaqətli",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/l%C9%99yaq%C9%99tli",
+      "revision": 350915,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=350915",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "Worthy or deserving.",
+    "sense_az": "Dəyər və hörmətə layiq; bacarığı olan.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "Ləyaqəti olan, layiq. ",
+      "Qabiliyyətli, bacarıqlı, istedadlı, iqtidarlı. "
+    ]
+  },
+  {
+    "a": "meriya",
+    "b": "bələdiyyə",
+    "type": "topic",
+    "decision": "accept",
+    "source_field": "native-definition",
+    "source": {
+      "head": "meriya",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/meriya",
+      "revision": 260139,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=260139",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "A municipal administration.",
+    "sense_az": "Şəhərin bələdiyyə idarəsi.",
+    "reason_en": "Reviewed explicit source definition, reference, or word formation; the relation is restricted to the stated sense.",
+    "raw_glosses": [
+      "İcra hakimiyyəti, bələdiyyə şurası."
+    ]
+  },
+  {
+    "a": "abissal",
+    "b": "coğrafiya",
+    "type": "topic",
+    "decision": "accept",
+    "source_field": "native-topic-template",
+    "source": {
+      "head": "abissal",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/abissal",
+      "revision": 300866,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=300866",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "Abyssal zone; the deep part of the ocean.",
+    "sense_az": "Okeanın çox dərin hissəsi.",
+    "reason_en": "The native definition explicitly marks this subject domain.",
+    "source_label": "Coğrafi terminlər"
+  },
+  {
+    "a": "bizon",
+    "b": "zoologiya",
+    "type": "topic",
+    "decision": "accept",
+    "source_field": "native-topic-template",
+    "source": {
+      "head": "bizon",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/bizon",
+      "revision": 303092,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=303092",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "Bison; a wild ox native to North America.",
+    "sense_az": "Şimali Amerikada yaşayan vəhşi öküz növü.",
+    "reason_en": "The native definition explicitly marks this subject domain.",
+    "source_label": "Zoologiya"
+  },
+  {
+    "a": "artrit",
+    "b": "tibb",
+    "type": "topic",
+    "decision": "accept",
+    "source_field": "native-topic-template",
+    "source": {
+      "head": "artrit",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/artrit",
+      "revision": 301971,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=301971",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "Arthritis; inflammation of the joints.",
+    "sense_az": "Oynaqlarda yaranan iltihab.",
+    "reason_en": "The native definition explicitly marks this subject domain.",
+    "source_label": "Tibb"
+  },
+  {
+    "a": "alma ağacı",
+    "b": "botanika",
+    "type": "topic",
+    "decision": "accept",
+    "source_field": "native-topic-template",
+    "source": {
+      "head": "alma ağacı",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/alma_a%C4%9Fac%C4%B1",
+      "revision": 373083,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=373083",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "An apple tree.",
+    "sense_az": "Alma meyvəsi yetişən ağac.",
+    "reason_en": "The native definition explicitly marks this subject domain.",
+    "source_label": "Botanika"
+  },
+  {
+    "a": "akvatoriya",
+    "b": "coğrafiya",
+    "type": "topic",
+    "decision": "accept",
+    "source_field": "native-topic-template",
+    "source": {
+      "head": "akvatoriya",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/akvatoriya",
+      "revision": 301309,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=301309",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "A defined area of water.",
+    "sense_az": "Sərhədləri müəyyən edilmiş su sahəsi.",
+    "reason_en": "The native definition explicitly marks this subject domain.",
+    "source_label": "Coğrafi terminlər"
+  },
+  {
+    "a": "antropogen",
+    "b": "coğrafiya",
+    "type": "topic",
+    "decision": "accept",
+    "source_field": "native-topic-template",
+    "source": {
+      "head": "antropogen",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/antropogen",
+      "revision": 301706,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=301706",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "Anthropogenic; caused by human activity.",
+    "sense_az": "İnsan fəaliyyətinin təsiri ilə yaranan.",
+    "reason_en": "The native definition explicitly marks this subject domain.",
+    "source_label": "Coğrafi terminlər"
+  },
+  {
+    "a": "aleksandrit",
+    "b": "mineral",
+    "type": "topic",
+    "decision": "accept",
+    "source_field": "native-topic-template",
+    "source": {
+      "head": "aleksandrit",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/aleksandrit",
+      "revision": 301371,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=301371",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "Alexandrite, a gemstone mineral.",
+    "sense_az": "Zərgərlikdə işlənən qiymətli mineral.",
+    "reason_en": "The native definition explicitly marks this subject domain.",
+    "source_label": "Minerallar"
+  },
+  {
+    "a": "argentit",
+    "b": "mineral",
+    "type": "topic",
+    "decision": "accept",
+    "source_field": "native-topic-template",
+    "source": {
+      "head": "argentit",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/argentit",
+      "revision": 363340,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=363340",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "Argentite, a silver sulfide ore mineral.",
+    "sense_az": "Gümüş-sulfiddən ibarət filiz mineralı.",
+    "reason_en": "The native definition explicitly marks this subject domain.",
+    "source_label": "Minerallar"
+  },
+  {
+    "a": "domino",
+    "b": "oyun",
+    "type": "topic",
+    "decision": "accept",
+    "source_field": "native-topic-template",
+    "source": {
+      "head": "domino",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/domino",
+      "revision": 305864,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=305864",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "Dominoes, a tabletop game played with marked tiles.",
+    "sense_az": "Xallı daşlarla oynanan stolüstü oyun.",
+    "reason_en": "The native definition explicitly marks this subject domain.",
+    "source_label": "Oyun"
+  },
+  {
+    "a": "diapazon",
+    "b": "musiqi",
+    "type": "topic",
+    "decision": "accept",
+    "source_field": "native-topic-template",
+    "source": {
+      "head": "diapazon",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/diapazon",
+      "revision": 305564,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=305564",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "Range of pitches; the extent or scope of something.",
+    "sense_az": "Səslərin ən alçaqdan ən yüksəyə qədər hüdudu; bir şeyin əhatə dairəsi.",
+    "reason_en": "The native definition explicitly marks this subject domain.",
+    "source_label": "musiqi"
+  },
+  {
+    "a": "daylaq",
+    "b": "zoologiya",
+    "type": "topic",
+    "decision": "accept",
+    "source_field": "native-topic-template",
+    "source": {
+      "head": "daylaq",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/daylaq",
+      "revision": 257654,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=257654",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "A young horse approximately six months to two years old.",
+    "sense_az": "Altı aylıqdan iki yaşadək olan at balası.",
+    "reason_en": "The native definition explicitly marks this subject domain.",
+    "source_label": "Zoologiya"
+  },
+  {
+    "a": "hiperbola",
+    "b": "riyaziyyat",
+    "type": "topic",
+    "decision": "accept",
+    "source_field": "native-topic-template",
+    "source": {
+      "head": "hiperbola",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/hiperbola",
+      "revision": 309014,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=309014",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "A hyperbola; a mathematical curve with two branches.",
+    "sense_az": "İki ayrı qoldan ibarət riyazi əyri.",
+    "reason_en": "The native definition explicitly marks this subject domain.",
+    "source_label": "Riyaziyyat"
+  },
+  {
+    "a": "heyva ağacı",
+    "b": "botanika",
+    "type": "topic",
+    "decision": "accept",
+    "source_field": "native-topic-template",
+    "source": {
+      "head": "heyva ağacı",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/heyva_a%C4%9Fac%C4%B1",
+      "revision": 258821,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=258821",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "A quince tree.",
+    "sense_az": "Heyva meyvəsi yetişən ağac.",
+    "reason_en": "The native definition explicitly marks this subject domain.",
+    "source_label": "Botanika"
+  },
+  {
+    "a": "hücumçu",
+    "b": "idman",
+    "type": "topic",
+    "decision": "accept",
+    "source_field": "native-topic-template",
+    "source": {
+      "head": "hücumçu",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/h%C3%BCcum%C3%A7u",
+      "revision": 342216,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=342216",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "A forward or striker in a team sport.",
+    "sense_az": "Komanda oyununda hücum xəttində oynayan idmançı.",
+    "reason_en": "The native definition explicitly marks this subject domain.",
+    "source_label": "İdman"
+  },
+  {
+    "a": "xoruzgülü",
+    "b": "botanika",
+    "type": "topic",
+    "decision": "accept",
+    "source_field": "native-topic-template",
+    "source": {
+      "head": "xoruzgülü",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/xoruzg%C3%BCl%C3%BC",
+      "revision": 253909,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=253909",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "A yellow-flowered perennial herb with a thick rhizome.",
+    "sense_az": "Sarı çiçəkli, qalın kökümsovu olan çoxillik bitki.",
+    "reason_en": "The native definition explicitly marks this subject domain.",
+    "source_label": "Botanika"
+  },
+  {
+    "a": "karniz",
+    "b": "memarlıq",
+    "type": "topic",
+    "decision": "accept",
+    "source_field": "native-topic-template",
+    "source": {
+      "head": "karniz",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/karniz",
+      "revision": 310570,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=310570",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "A cornice; a curtain rod.",
+    "sense_az": "Divar və ya pəncərə üzərində çıxıntı; pərdə asılan mil.",
+    "reason_en": "The native definition explicitly marks this subject domain.",
+    "source_label": "memarlıq"
+  },
+  {
+    "a": "kokos",
+    "b": "botanika",
+    "type": "topic",
+    "decision": "accept",
+    "source_field": "native-topic-template",
+    "source": {
+      "head": "kokos",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/kokos",
+      "revision": 311031,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=311031",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "The coconut palm or its fruit.",
+    "sense_az": "Tropik kokos ağacı və onun meyvəsi.",
+    "reason_en": "The native definition explicitly marks this subject domain.",
+    "source_label": "Botanika"
+  },
+  {
+    "a": "ney",
+    "b": "musiqi",
+    "type": "topic",
+    "decision": "accept",
+    "source_field": "native-topic-template",
+    "source": {
+      "head": "ney",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/ney",
+      "revision": 314370,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=314370",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "Ney, a wind instrument of the flute family.",
+    "sense_az": "Ney adlanan nəfəsli musiqi aləti.",
+    "reason_en": "The native definition explicitly marks this subject domain.",
+    "source_label": "Musiqi alətləri"
+  },
+  {
+    "a": "ququşu",
+    "b": "zoologiya",
+    "type": "topic",
+    "decision": "accept",
+    "source_field": "native-topic-template",
+    "source": {
+      "head": "ququşu",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/ququ%C5%9Fu",
+      "revision": 351950,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=351950",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "A swan.",
+    "sense_az": "Ördəklər fəsiləsinə aid iri su quşu.",
+    "reason_en": "The native definition explicitly marks this subject domain.",
+    "source_label": "Zoologiya"
+  },
+  {
+    "a": "aborigen",
+    "b": "coğrafiya",
+    "type": "topic",
+    "decision": "accept",
+    "source_field": "native-topic-template",
+    "source": {
+      "head": "aborigen",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/aborigen",
+      "revision": 362382,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=362382",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "An indigenous or original inhabitant of a region.",
+    "sense_az": "Bir ərazinin ilk yerli sakini.",
+    "reason_en": "The native definition explicitly marks this subject domain.",
+    "source_label": "Coğrafi terminlər"
+  },
+  {
+    "a": "angina",
+    "b": "tibb",
+    "type": "topic",
+    "decision": "accept",
+    "source_field": "native-topic-template",
+    "source": {
+      "head": "angina",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/angina",
+      "revision": 301628,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=301628",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "Tonsillitis; inflammation of the throat, especially the tonsils.",
+    "sense_az": "Boğazın, xüsusən badamcıqların iltihabı.",
+    "reason_en": "The native definition explicitly marks this subject domain.",
+    "source_label": "Tibb"
+  },
+  {
+    "a": "ehram",
+    "b": "memarlıq",
+    "type": "topic",
+    "decision": "accept",
+    "source_field": "native-topic-template",
+    "source": {
+      "head": "ehram",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/ehram",
+      "revision": 306460,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=306460",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "A pyramid-shaped building.",
+    "sense_az": "Yuxarıya doğru daralan, təpədə birləşən tərəfləri olan tikili.",
+    "reason_en": "The native definition explicitly marks this subject domain.",
+    "source_label": "Memarlıq"
+  },
+  {
+    "a": "gips",
+    "b": "mineral",
+    "type": "topic",
+    "decision": "accept",
+    "source_field": "native-topic-template",
+    "source": {
+      "head": "gips",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/gips",
+      "revision": 308097,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=308097",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "Gypsum or plaster; a medical plaster cast.",
+    "sense_az": "Tikintidə və sarğılarda istifadə olunan mineral; ondan hazırlanan bərk sarğı.",
+    "reason_en": "The native definition explicitly marks this subject domain.",
+    "source_label": "Minerallar"
+  },
+  {
+    "a": "gips",
+    "b": "tibb",
+    "type": "topic",
+    "decision": "accept",
+    "source_field": "native-topic-template",
+    "source": {
+      "head": "gips",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/gips",
+      "revision": 308097,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=308097",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "Gypsum or plaster; a medical plaster cast.",
+    "sense_az": "Tikintidə və sarğılarda istifadə olunan mineral; ondan hazırlanan bərk sarğı.",
+    "reason_en": "The native definition explicitly marks this subject domain.",
+    "source_label": "Tibb"
+  },
+  {
+    "a": "kanon",
+    "b": "musiqi",
+    "type": "topic",
+    "decision": "accept",
+    "source_field": "native-topic-template",
+    "source": {
+      "head": "kanon",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/kanon",
+      "revision": 310493,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=310493",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "A musical canon in which voices repeat the same melody successively.",
+    "sense_az": "Eyni melodiyanın müxtəlif səslərlə növbəli təkrarına əsaslanan musiqi forması.",
+    "reason_en": "The native definition explicitly marks this subject domain.",
+    "source_label": "Musiqi terminləri"
+  },
+  {
+    "a": "kakao",
+    "b": "botanika",
+    "type": "topic",
+    "decision": "accept",
+    "source_field": "native-topic-template",
+    "source": {
+      "head": "kakao",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/kakao",
+      "revision": 310380,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=310380",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "The cacao tree; a drink made from cocoa.",
+    "sense_az": "Toxumundan şokolad hazırlanan tropik ağac; kakaodan hazırlanan içki.",
+    "reason_en": "The native definition explicitly marks this subject domain.",
+    "source_label": "Botanika"
+  },
+  {
+    "a": "katet",
+    "b": "riyaziyyat",
+    "type": "topic",
+    "decision": "accept",
+    "source_field": "native-topic-template",
+    "source": {
+      "head": "katet",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/katet",
+      "revision": 310617,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=310617",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "A leg of a right triangle.",
+    "sense_az": "Düzbucaqlı üçbucağın düz bucağını əmələ gətirən tərəf.",
+    "reason_en": "The native definition explicitly marks this subject domain.",
+    "source_label": "Riyaziyyat"
+  },
+  {
+    "a": "quşüzümü",
+    "b": "botanika",
+    "type": "topic",
+    "decision": "accept",
+    "source_field": "native-topic-template",
+    "source": {
+      "head": "quşüzümü",
+      "edition": "az",
+      "language": "az",
+      "url": "https://az.wiktionary.org/wiki/qu%C5%9F%C3%BCz%C3%BCm%C3%BC",
+      "revision": 261525,
+      "revision_url": "https://az.wiktionary.org/w/index.php?oldid=261525",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved_at": "2026-11-17",
+      "raw_path": "/workspace/soz-sources/native-missing-pages.json"
+    },
+    "sense_en": "Cranberry, a shrub with red berries.",
+    "sense_az": "Qırmızı gilələri olan quşüzümü kolu.",
+    "reason_en": "The native definition explicitly marks this subject domain.",
+    "source_label": "Botanika"
+  }
+]

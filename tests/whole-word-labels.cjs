@@ -1,0 +1,5 @@
+const assert=require('node:assert/strict'),G=require('../dist/galaxy.js'),fs=require('fs');
+const measure=(s,size)=>[...s].reduce((n,c)=>n+(/[mwəöü]/i.test(c)?.8:.55),0)*size;
+for(const word of ['elətdirmək','zorakılıq','elektroensefaloqrafiya','müəyyənləşdirilmək','kvant optikası','bir güllə ilə iki dovşan vurmaq','nə nə də'])for(const r of [8,18,24,37,90]){const label=G.fitLabel(word,r,16,measure);assert.equal(label.lines.join(' '),word);assert(label.lines.every(line=>!line.includes('…')));for(const line of label.lines){assert(measure(line,label.fontSize)<=r*1.62+.01);assert(word.split(' ').includes(line)||line.includes(' '));}if(!word.includes(' '))assert.equal(label.lines.length,1);}
+for(const file of ['style.css','galaxy.css','conjugation.css']){const css=fs.readFileSync('dist/'+file,'utf8');assert(!/overflow-wrap:\s*anywhere|word-break:\s*break-all/.test(css));}
+console.log('PASS: long Azerbaijani words stay whole, phrases break only at spaces, labels fit their circles, and forced mid-word CSS wrapping is removed.');

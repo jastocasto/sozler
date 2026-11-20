@@ -1,0 +1,1709 @@
+{
+  "version": "race-taps-1-92766d6c0f9a",
+  "challenges": [
+    {
+      "start": "durmaq",
+      "target": "buraxmaq",
+      "minDocumentedTaps": 3
+    },
+    {
+      "start": "onomastika",
+      "target": "boğaz",
+      "minDocumentedTaps": 3
+    },
+    {
+      "start": "ekran",
+      "target": "yardım",
+      "minDocumentedTaps": 3
+    },
+    {
+      "start": "şagird",
+      "target": "çağırmaq",
+      "minDocumentedTaps": 3
+    },
+    {
+      "start": "yuxu",
+      "target": "elektrik",
+      "minDocumentedTaps": 3
+    },
+    {
+      "start": "böyütmək",
+      "target": "bacı",
+      "minDocumentedTaps": 3
+    },
+    {
+      "start": "yoldaş",
+      "target": "ayaq",
+      "minDocumentedTaps": 3
+    },
+    {
+      "start": "tapmaq",
+      "target": "buraxmaq",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "sərt",
+      "target": "dolu",
+      "minDocumentedTaps": 3
+    },
+    {
+      "start": "mobil tətbiq",
+      "target": "gəlmək",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "işgüzarlıq",
+      "target": "qaytarmaq",
+      "minDocumentedTaps": 3
+    },
+    {
+      "start": "girmək",
+      "target": "bağ",
+      "minDocumentedTaps": 3
+    },
+    {
+      "start": "təkrar etmək",
+      "target": "geyinmək",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "biomaterial",
+      "target": "xəstəxana",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "rəqəm",
+      "target": "mal",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "cümə",
+      "target": "gəlmək",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "əlaqə",
+      "target": "mağaza",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "təhsil",
+      "target": "muzey",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "mühit",
+      "target": "inək",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "hissə",
+      "target": "say",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "çap etmək",
+      "target": "həqiqət",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "çirklilik",
+      "target": "köhnə",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "geyinmək",
+      "target": "artırmaq",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "otağ",
+      "target": "olmaq",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "say",
+      "target": "maaş",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "döşəmə",
+      "target": "qurmaq",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "pəncərə",
+      "target": "ssenaristlik",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "dəhliz",
+      "target": "ayaqqabı",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "qatar",
+      "target": "başlamaq",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "semasiologiya",
+      "target": "narahat",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "faringit",
+      "target": "işgüzarlıq",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "fotodiod",
+      "target": "oxşar",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "qaşıq",
+      "target": "barmaq",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "təmizləmək",
+      "target": "yerimək",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "tətbiq",
+      "target": "diz",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "quş",
+      "target": "qum",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "dehidratasiya",
+      "target": "oğul",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "lüğət",
+      "target": "tikmək",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "memar",
+      "target": "tikinti",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "sahə",
+      "target": "yoxlamaq",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "taxıl",
+      "target": "sistem",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "çörək",
+      "target": "xəstə",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "elektrik",
+      "target": "rahat",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "adenovirus",
+      "target": "tikinti",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "olmaq",
+      "target": "nazik",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "uzaqlıq",
+      "target": "yaşıl",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "biofizika",
+      "target": "yüksək",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "özünəinam",
+      "target": "otağ",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "dünən",
+      "target": "annotasiya",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "rotavirus",
+      "target": "dolu",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "traxeostomiya",
+      "target": "memar",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "gücləndirici",
+      "target": "mənbə",
+      "minDocumentedTaps": 3
+    },
+    {
+      "start": "bufer",
+      "target": "küçə",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "çaylaq",
+      "target": "yuxu",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "improvizator",
+      "target": "küçə",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "harmonizasiya",
+      "target": "kitab",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "yaşıl",
+      "target": "dairə",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "haploidiya",
+      "target": "toy",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "sinə",
+      "target": "almaq",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "sərçə",
+      "target": "işgüzarlıq",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "görüş",
+      "target": "istiqamət",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "genomika",
+      "target": "əhəmiyyət",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "arpa",
+      "target": "çevirmək",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "öyrəşmək",
+      "target": "lüğət",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "rəf",
+      "target": "dünya",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "norovirus",
+      "target": "çeviklik",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "artırmaq",
+      "target": "seçmək",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "sülh",
+      "target": "çalışmaq",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "keşləmə",
+      "target": "küçə",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "söndürmək",
+      "target": "ölçü",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "hemodializ",
+      "target": "şagird",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "düşmən",
+      "target": "muzey",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "təhlükə",
+      "target": "hissə",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "günəş",
+      "target": "dünya",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "komanda",
+      "target": "əyri",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "dekoder",
+      "target": "işıqlanmaq",
+      "minDocumentedTaps": 3
+    },
+    {
+      "start": "sinaps",
+      "target": "dünya",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "buraxmaq",
+      "target": "burun",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "bozon",
+      "target": "hündür",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "servomotor",
+      "target": "düz",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "gündüz",
+      "target": "yuxu",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "teletibb",
+      "target": "nənə",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "söz",
+      "target": "yardım",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "erkən",
+      "target": "şənbə",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "papaq",
+      "target": "yollanmaq",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "corab",
+      "target": "yaxınlıq",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "fərq",
+      "target": "təhsil",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "nevralgiya",
+      "target": "idarə",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "mənbə",
+      "target": "dünya",
+      "minDocumentedTaps": 3
+    },
+    {
+      "start": "inək",
+      "target": "ağrı",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "it",
+      "target": "sinə",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "unutmaq",
+      "target": "gözləmək",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "tez",
+      "target": "sahə",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "xoşbəxt",
+      "target": "soyuq",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "jurnal",
+      "target": "idarə",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "qum",
+      "target": "çertyoj",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "autsorsinq",
+      "target": "tətbiq",
+      "minDocumentedTaps": 3
+    },
+    {
+      "start": "çıxmaq",
+      "target": "yalan",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "nəticə",
+      "target": "işgüzarlıq",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "düz",
+      "target": "təmizləmək",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "sağlam",
+      "target": "döşəmə",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "eynək",
+      "target": "papaq",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "laparoskopiya",
+      "target": "şagird",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "əhəmiyyət",
+      "target": "sistem",
+      "minDocumentedTaps": 3
+    },
+    {
+      "start": "şəkər",
+      "target": "işgüzarlıq",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "oxşar",
+      "target": "təhsil",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "vaksinasiya",
+      "target": "memar",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "barmaq",
+      "target": "söz",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "morfonologiya",
+      "target": "oğul",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "müharibə",
+      "target": "qiymətləndirmə",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "fiqur",
+      "target": "hissə",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "gətirmək",
+      "target": "təmizləmək",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "payız",
+      "target": "vebserver",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "mərkəz",
+      "target": "artırmaq",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "işçi",
+      "target": "əyri",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "sevimsiz",
+      "target": "uzaqlıq",
+      "minDocumentedTaps": 3
+    },
+    {
+      "start": "gəlmək",
+      "target": "idarə",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "yaxşı",
+      "target": "çıxmaq",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "diz",
+      "target": "yaşamaq",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "mobil bankçılıq",
+      "target": "yardım",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "biopsiya",
+      "target": "bacı",
+      "minDocumentedTaps": 3
+    },
+    {
+      "start": "transkripsiya",
+      "target": "toy",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "qanun",
+      "target": "idarə",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "neyrolinqvistika",
+      "target": "istiqamət",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "nazik",
+      "target": "xeyir",
+      "minDocumentedTaps": 3
+    },
+    {
+      "start": "residiv",
+      "target": "kəsmək",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "lüminometr",
+      "target": "hündür",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "kitabşünaslıq",
+      "target": "yaxşı",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "kənd",
+      "target": "toy",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "mal",
+      "target": "işçi",
+      "minDocumentedTaps": 3
+    },
+    {
+      "start": "qarışmaq",
+      "target": "mükafat",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "oxumaq",
+      "target": "yardım",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "ensefalit",
+      "target": "düz",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "düyü",
+      "target": "fıstıq",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "yalan",
+      "target": "qaşıq",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "hündür",
+      "target": "sinə",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "dolu",
+      "target": "küçə",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "idarə",
+      "target": "küçə",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "pantomima",
+      "target": "xəstə",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "ekstruziya",
+      "target": "bacı",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "qarışqa",
+      "target": "kafe",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "kafe",
+      "target": "pantomima",
+      "minDocumentedTaps": 3
+    },
+    {
+      "start": "dinləmək",
+      "target": "mükafat",
+      "minDocumentedTaps": 3
+    },
+    {
+      "start": "telefon",
+      "target": "kənd",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "mükafat",
+      "target": "təhsil",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "qız",
+      "target": "burun",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "qiymətləndirmə",
+      "target": "düşüncə",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "vebserver",
+      "target": "qayda",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "yardım",
+      "target": "təhlükəsizlik divarı",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "nənə",
+      "target": "tikinti",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "nöqtə",
+      "target": "çirklilik",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "heyvan",
+      "target": "rəqəm",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "aktuator",
+      "target": "parlaq",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "qaz sobası",
+      "target": "boğaz",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "dializ",
+      "target": "memar",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "poliploidiya",
+      "target": "rahat",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "sabun",
+      "target": "gözləmək",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "göstərmək",
+      "target": "kənd",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "istiqamət",
+      "target": "yağış",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "həqiqət",
+      "target": "ayaq",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "kiçiklik",
+      "target": "sevimsiz",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "qarğa",
+      "target": "qurd",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "köhnə",
+      "target": "lüğət",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "meşəbərpa",
+      "target": "eləmək",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "diş fırçası",
+      "target": "quş",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "məsuliyyət",
+      "target": "ölçü",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "küçə",
+      "target": "açılmaq",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "respublika",
+      "target": "burun",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "mənzil",
+      "target": "girmək",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "açılmaq",
+      "target": "söz",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "bina",
+      "target": "poliploidiya",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "fikir",
+      "target": "münasibət",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "xeyir",
+      "target": "neyrolinqvistika",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "elektromioqrafiya",
+      "target": "xəstəxana",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "çertyoj",
+      "target": "xeyir",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "sufle",
+      "target": "bağ",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "pianissimo",
+      "target": "yağış",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "ağrı",
+      "target": "idarə",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "eləmək",
+      "target": "tikmək",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "dırnaq",
+      "target": "fərq",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "yerimək",
+      "target": "almaq",
+      "minDocumentedTaps": 3
+    },
+    {
+      "start": "fototerapiya",
+      "target": "xəstəxana",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "çəhrayı",
+      "target": "ayaq",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "bursit",
+      "target": "bina",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "yollanmaq",
+      "target": "qurd",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "sənəd",
+      "target": "autsorsinq",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "düşüncə",
+      "target": "çevirmək",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "modelləşdirmə",
+      "target": "kənd",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "satmaq",
+      "target": "qaldırmaq",
+      "minDocumentedTaps": 3
+    },
+    {
+      "start": "eqosentrizm",
+      "target": "təhsil",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "çevirmək",
+      "target": "dözmək",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "qayda",
+      "target": "şirə",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "bağ",
+      "target": "sistem",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "sifariş",
+      "target": "ağıllı",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "kitab",
+      "target": "sistem",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "dirijorluq",
+      "target": "kitab",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "boğaz",
+      "target": "gözləmək",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "yüksək",
+      "target": "düz",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "bayram",
+      "target": "münasibət",
+      "minDocumentedTaps": 3
+    },
+    {
+      "start": "şənbə",
+      "target": "tez",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "həftəlik",
+      "target": "oxşar",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "naxışbəndlik",
+      "target": "mənbə",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "layihə",
+      "target": "qayda",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "xəstəxana",
+      "target": "çəkmək",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "etdirmək",
+      "target": "vaxt",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "marikultura",
+      "target": "təmizlik",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "qazanmaq",
+      "target": "qarışmaq",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "rekombinasiya",
+      "target": "ada",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "ekspozisiya",
+      "target": "problem",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "karbon neytrallığı",
+      "target": "hissə",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "kəsmək",
+      "target": "söz",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "bilet",
+      "target": "gəlmək",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "improvizasiya",
+      "target": "ekran",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "geolokasiya",
+      "target": "sənəd",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "kinoteatr",
+      "target": "layihə",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "toy",
+      "target": "respublika",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "çeviklik",
+      "target": "küçə",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "dözmək",
+      "target": "qurmaq",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "yağış",
+      "target": "təhlükə",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "dünya",
+      "target": "ayaqqabı",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "xoşlamaq",
+      "target": "görüş",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "su",
+      "target": "çəkmək",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "razılaşmaq",
+      "target": "su",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "məlumatsız",
+      "target": "xidmət",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "vektorlaşdırma",
+      "target": "tətbiq",
+      "minDocumentedTaps": 3
+    },
+    {
+      "start": "simulyasiya",
+      "target": "yoldaş",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "rejissorluq",
+      "target": "çağırmaq",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "transkriptomika",
+      "target": "barmaq",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "soyunmaq",
+      "target": "durmaq",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "vaxt",
+      "target": "rəqəm",
+      "minDocumentedTaps": 3
+    },
+    {
+      "start": "əyri",
+      "target": "ağrı",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "əhəmiyyətli",
+      "target": "yalan",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "söyləmək",
+      "target": "ağıllı",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "anaqram",
+      "target": "sifariş",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "annotasiya",
+      "target": "açıq",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "dairə",
+      "target": "su",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "zürafə",
+      "target": "işıqlanmaq",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "optimallaşdırma",
+      "target": "payız",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "tikinti",
+      "target": "kitab",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "mikromanipulyator",
+      "target": "ölçü",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "seçmək",
+      "target": "gətirmək",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "gələcək",
+      "target": "söndürmək",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "almaq",
+      "target": "söz",
+      "minDocumentedTaps": 3
+    },
+    {
+      "start": "xəstə",
+      "target": "komanda",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "infuziya",
+      "target": "oğul",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "qravimetr",
+      "target": "ölçü",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "repetitorluq",
+      "target": "gəlmək",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "ölçü",
+      "target": "mağaza",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "yaşamaq",
+      "target": "çirklilik",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "kömək etmək",
+      "target": "düz",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "ikinci",
+      "target": "gözləmək",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "maaş",
+      "target": "qurtarmaq",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "başlamaq",
+      "target": "soruşmaq",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "alış-veriş etmək",
+      "target": "gözləmək",
+      "minDocumentedTaps": 3
+    },
+    {
+      "start": "çalışmaq",
+      "target": "açıq",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "akkulturasiya",
+      "target": "toy",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "həcm",
+      "target": "işıqlanmaq",
+      "minDocumentedTaps": 3
+    },
+    {
+      "start": "yazıçı",
+      "target": "qaytarmaq",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "limon",
+      "target": "işçi",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "reostat",
+      "target": "soyuq",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "sürətli",
+      "target": "böyütmək",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "bədən",
+      "target": "kənd",
+      "minDocumentedTaps": 3
+    },
+    {
+      "start": "bişirmək",
+      "target": "sinə",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "rahat",
+      "target": "bacı",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "ayaqqabı",
+      "target": "layihə",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "faleristika",
+      "target": "kənd",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "qaytarmaq",
+      "target": "yazıçı",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "intertekst",
+      "target": "qarğa",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "qurmaq",
+      "target": "oxumaq",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "fitoremediasiya",
+      "target": "soruşmaq",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "təhlükəsizlik divarı",
+      "target": "bağ",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "ayaq",
+      "target": "kömək etmək",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "fıstıq",
+      "target": "transkriptomika",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "qurtarmaq",
+      "target": "söndürmək",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "yay",
+      "target": "görüş",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "hipermetropiya",
+      "target": "qız",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "hiss",
+      "target": "zürafə",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "işıqlanmaq",
+      "target": "çirklilik",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "soyuq",
+      "target": "açıq",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "yaxınlıq",
+      "target": "çəkmək",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "örtük",
+      "target": "qarışmaq",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "soruşmaq",
+      "target": "sülh",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "antivirus",
+      "target": "olmaq",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "şirə",
+      "target": "qurtarmaq",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "rəng",
+      "target": "dünya",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "burun",
+      "target": "maaş",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "çağırmaq",
+      "target": "yollanmaq",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "angioqrafiya",
+      "target": "açıq",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "gül",
+      "target": "barmaq",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "yoxlamaq",
+      "target": "fikir",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "ssenaristlik",
+      "target": "kafe",
+      "minDocumentedTaps": 3
+    },
+    {
+      "start": "münasibət",
+      "target": "inək",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "problem",
+      "target": "çeviklik",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "lazımlı",
+      "target": "öyrətmək",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "pis",
+      "target": "kənd",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "abraziya",
+      "target": "yağış",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "yumurta",
+      "target": "satmaq",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "qapı",
+      "target": "seçmək",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "göyərçin",
+      "target": "angioqrafiya",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "qurd",
+      "target": "çəkmək",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "stabilizator",
+      "target": "işıqlanmaq",
+      "minDocumentedTaps": 3
+    },
+    {
+      "start": "muzey",
+      "target": "öyrətmək",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "mezon",
+      "target": "ölçü",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "oğlan",
+      "target": "bina",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "ağıllı",
+      "target": "rəf",
+      "minDocumentedTaps": 3
+    },
+    {
+      "start": "bacı",
+      "target": "dünən",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "qiymət",
+      "target": "öyrəşmək",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "inanmaq",
+      "target": "qarğa",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "çəkmək",
+      "target": "göyərçin",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "təmizlik",
+      "target": "yuxu",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "sınmaq",
+      "target": "çalışmaq",
+      "minDocumentedTaps": 3
+    },
+    {
+      "start": "autoimmunitet",
+      "target": "təhsil",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "ada",
+      "target": "yüksək",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "narahat",
+      "target": "erkən",
+      "minDocumentedTaps": 3
+    },
+    {
+      "start": "üzüm",
+      "target": "ada",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "oğul",
+      "target": "pis",
+      "minDocumentedTaps": 3
+    },
+    {
+      "start": "mağaza",
+      "target": "pis",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "saç",
+      "target": "sürətli",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "gözləmək",
+      "target": "vaxt",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "məna",
+      "target": "sinə",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "kompüter",
+      "target": "ayaq",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "öyrətmək",
+      "target": "lüğət",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "şaftalı",
+      "target": "üzüm",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "parlaq",
+      "target": "göstərmək",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "mikrosxem",
+      "target": "ölçü",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "mərtəbə",
+      "target": "rahat",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "hostinq",
+      "target": "ayaq",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "vəziyyət",
+      "target": "həqiqət",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "kulturologiya",
+      "target": "sülh",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "açıq",
+      "target": "işçi",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "qaldırmaq",
+      "target": "tez",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "sevgi dolu",
+      "target": "çalışmaq",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "sistem",
+      "target": "stabilizator",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "refraktometriya",
+      "target": "hündür",
+      "minDocumentedTaps": 4
+    },
+    {
+      "start": "tikmək",
+      "target": "maaş",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "altruizm",
+      "target": "təhsil",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "xidmət",
+      "target": "zürafə",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "büdcə",
+      "target": "təmizlik",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "bilmək",
+      "target": "bina",
+      "minDocumentedTaps": 5
+    },
+    {
+      "start": "fayda",
+      "target": "hissə",
+      "minDocumentedTaps": 4
+    }
+  ],
+  "meta": {
+    "timezone": "Asia/Baku",
+    "policy": "Daily start/target pairs have a documented path of 3–5 edges. Only visible bubble taps and Back are allowed; players may choose unrelated visible words and find their own routes across the galaxy. Manual movement, zoom, galaxy shortcuts and search are blocked. Documented paths establish relatedness, not a prescribed route or screen-neighborhood restriction."
+  }
+}

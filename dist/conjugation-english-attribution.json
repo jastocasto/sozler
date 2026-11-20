@@ -1,0 +1,8 @@
+{
+  "purpose": "English learning equivalents for the conjugation wheel",
+  "verb_profiles": 2638,
+  "method": "Primary English dictionary gloss plus explicit editorial normalizations; finite and nonfinite English patterns follow the currently visible Azerbaijani form. Original dictionary and grammar archives are not modified.",
+  "limits": "A phrase-level teaching aid, not context-aware sentence translation. Azerbaijani and English tense/aspect/mood categories do not correspond one-to-one. Polysemous verbs use one selected sense. AI-assisted editorial material; no claim of comprehensive native-speaker verification.",
+  "editorial_profile_sha256": "94132609d31bfee96b6a021b891ed9008dfb7a7da28fa0f6e3539b86fa9cc490",
+  "source": "Existing SÖZ dictionary; Wiktionary-derived dictionary material retains CC BY-SA 4.0 attribution."
+}

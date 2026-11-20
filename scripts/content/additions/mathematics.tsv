@@ -1,0 +1,69 @@
+homotopiya|Bir davamlı təsvirin digərinə fasiləsiz çevrilməsi.|A continuous deformation of one continuous map into another.
+homologiya|Həndəsi fəzanın deşik və dövrlərini cəbri quruluşlarla təsvir edən üsul.|An algebraic method for describing holes and cycles in a geometric space.
+homomorfizm|İki cəbri quruluş arasında əməliyyatları qoruyan təsvir.|A map between algebraic structures that preserves their operations.
+izomorfizm|Quruluşu qoruyan və tərsi də quruluşu qoruyan qarşılıqlı birqiymətli təsvir.|A bijective structure-preserving map whose inverse also preserves structure.
+endomorfizm|Cəbri quruluşun özünə olan homomorfizmi.|A homomorphism from an algebraic structure to itself.
+avtomorfizm|Cəbri quruluşun özünə olan izomorfizmi.|An isomorphism from an algebraic structure to itself.
+funktor|Kateqoriyalar arasında obyektləri və morfizmləri uyğunlaşdıraraq birləşməni qoruyan təsvir.|A mapping between categories that preserves objects, morphisms and composition.
+predikat|Dəyişənlərinə qiymət verildikdə doğru və ya yanlış olan məntiqi ifadə.|A logical expression that becomes true or false when its variables are assigned values.
+kvantor|Məntiqdə şərtin bütün obyektlərə, yaxud ən azı bir obyektə aid olduğunu bildirən işarə.|A logical operator stating that a condition holds for all objects or for at least one.
+tautologiya|Dəyişənlərin bütün mümkün doğruluq qiymətlərində doğru olan məntiqi ifadə.|A logical expression true for every possible assignment of truth values.
+antinomiya|Əsaslandırılmış görünən iki hökm arasında yaranan ziddiyyət.|A contradiction between two conclusions that each appear justified.
+implikasiya|Bir hökm doğrudursa, digərinin də doğru olmasını bildirən məntiqi əlaqə.|A logical relation expressing that if one statement is true, another follows.
+ekvivalentlik|Müəyyən meyara görə eyni hesab olunma münasibəti.|A relation under which objects are treated as equal according to a specified criterion.
+konyunksiya|Yalnız hər iki hökm doğru olduqda doğru olan məntiqi birləşmə.|A logical conjunction that is true only when both component statements are true.
+reqressiya|Bir dəyişənin digər dəyişənlərlə əlaqəsini modelləşdirən statistik üsul.|A statistical method for modeling how one variable relates to other variables.
+kovariasiya|İki dəyişənin öz orta qiymətlərindən birlikdə necə yayınmasını ölçən göstərici.|A measure of how two variables vary together around their means.
+dispersiya|Qiymətlərin orta qiymətdən kvadratik yayınmalarının ortası.|The mean squared deviation of values from their mean.
+kvantil|Paylanmanı müəyyən ehtimala uyğun hissələrə ayıran sərhəd qiyməti.|A cutoff value dividing a distribution according to a specified probability.
+kvartil|Sıralanmış məlumatı dörd bərabər hissəyə ayıran üç sərhəd qiymətindən biri.|One of three cutoff values dividing ordered data into four equal parts.
+persentil|Paylanmada müşahidələrin müəyyən faizinin aşağıda qaldığı sərhəd qiyməti.|A cutoff value below which a specified percentage of observations lies.
+mediana|Sıralanmış məlumatı iki bərabər hissəyə ayıran orta mövqeli qiymət.|The middle value separating ordered data into two equal halves.
+ekstrapolyasiya|Məlum müşahidə aralığından kənarda qiymətlərin mövcud əlaqəyə əsasən təxmin edilməsi.|Estimation of values outside an observed range using an existing relationship.
+approksimasiya|Dəqiq qiymət və ya funksiyanın yaxın, daha sadə ifadə ilə əvəz edilməsi.|Replacement of an exact value or function by a simpler close approximation.
+minimallaşdırma|Verilmiş şərtlər daxilində bir kəmiyyətin ən kiçik qiymətinin axtarılması.|Finding the smallest value of a quantity subject to given conditions.
+maksimallaşdırma|Verilmiş şərtlər daxilində bir kəmiyyətin ən böyük qiymətinin axtarılması.|Finding the largest value of a quantity subject to given conditions.
+diskretləşdirmə|Fasiləsiz kəmiyyət və ya modeli ayrı-ayrı qiymət və hissələrlə ifadə etmə prosesi.|Representing a continuous quantity or model using separate values or parts.
+kvantlaşdırma|Fasiləsiz qiymətlər çoxluğunun məhdud sayda səviyyə ilə əvəz edilməsi.|Mapping a continuous range of values to a limited set of levels.
+parametrizasiya|Obyekt və ya modelin parametr adlanan dəyişənlər vasitəsilə ifadəsi.|Representation of an object or model using variables called parameters.
+xəttiləşdirmə|Qeyri-xətti əlaqənin müəyyən nöqtə yaxınlığında xətti model ilə yaxınlaşdırılması.|Approximation of a nonlinear relationship by a linear model near a chosen point.
+ortoqonallaşdırma|Vektorlar sistemindən bir-birinə perpendikulyar vektorlar sisteminin qurulması.|Construction of mutually perpendicular vectors from a given vector system.
+diaqonallaşdırma|Uyğun bazis seçməklə matrisin diaqonal formaya gətirilməsi.|Transformation of a matrix into diagonal form by choosing a suitable basis.
+faktorizasiya|Ədəd və ya ifadənin vuruqların hasili şəklində göstərilməsi.|Expression of a number or formula as a product of factors.
+poliedr|Müstəvi çoxbucaqlı üzlərlə məhdudlaşan həndəsi cisim.|A solid bounded by flat polygonal faces.
+politop|İstənilən ölçülü fəzada çoxbucaqlı və çoxüzlünün ümumiləşdirilməsi.|A generalization of polygons and polyhedra to any dimension.
+simpleks|Verilmiş ölçüdə ən az sayda təpə ilə qurulan çoxölçülü çoxüzlü.|A polytope formed from the smallest number of vertices needed in its dimension.
+toroid|Qapalı əyrinin onu kəsməyən ox ətrafında fırlanmasından yaranan halqavari səth və ya cisim.|A ring-shaped surface or solid formed by rotating a closed curve around an external axis.
+hiperboloid|Hiperbola ilə əlaqəli, ikinci dərəcəli tənliklə təsvir olunan səth.|A quadric surface associated with a hyperbola.
+paraboloid|Kəsiklərinin bir qismi parabola olan ikinci dərəcəli səth.|A quadric surface with parabolic sections.
+sferoid|Ellipsin əsas oxlarından biri ətrafında fırlanmasından yaranan cisim.|A solid formed by rotating an ellipse around one of its principal axes.
+sikloid|Düz xətt boyunca sürüşmədən yuvarlanan çevrənin üzərindəki nöqtənin cızdığı əyri.|The curve traced by a point on a circle rolling without slipping along a straight line.
+episikloid|Başqa çevrənin xarici boyunca yuvarlanan çevrədəki nöqtənin cızdığı əyri.|A curve traced by a point on a circle rolling around the outside of another circle.
+hiposikloid|Başqa çevrənin daxilində yuvarlanan çevrədəki nöqtənin cızdığı əyri.|A curve traced by a point on a circle rolling inside another circle.
+lemniskat|Səkkiz rəqəminə bənzər iki ilgəkli müstəvi əyri.|A plane curve with two loops resembling a figure eight.
+kardioid|Eyni ölçülü çevrənin digəri ətrafında yuvarlanması ilə alınan ürəkşəkilli əyri.|A heart-shaped curve generated by one circle rolling around an equal circle.
+astroid|Dörd sivri ucu olan xüsusi hiposikloid əyri.|A particular hypocycloid with four sharp cusps.
+katenoid|Zəncir əyrisinin uyğun ox ətrafında fırlanmasından alınan minimal səth.|A minimal surface formed by rotating a catenary around a suitable axis.
+helikoid|Düz xəttin ox ətrafında fırlanaraq irəliləməsindən yaranan vintvari səth.|A screw-like surface generated by a line rotating while moving along an axis.
+ikosaedr|İyirmi üzü olan çoxüzlü.|A polyhedron with twenty faces.
+heksaedr|Altı üzü olan çoxüzlü.|A polyhedron with six faces.
+tesserakt|Dördölçülü fəzada kubun qarşılığı olan çoxüzlü.|The four-dimensional analogue of a cube.
+transpozisiya|Matrisin sətir və sütunlarının yerinin dəyişdirilməsi.|The interchange of the rows and columns of a matrix.
+kommutativlik|Əməliyyatda operandların yeri dəyişdikdə nəticənin dəyişməməsi xassəsi.|The property that exchanging the operands of an operation leaves its result unchanged.
+assosiativlik|Əməliyyatda qruplaşdırma dəyişdikdə nəticənin dəyişməməsi xassəsi.|The property that regrouping operands leaves an operation's result unchanged.
+distributivlik|Bir əməliyyatın digərinin üzərinə paylanması xassəsi.|The property by which one operation distributes over another.
+idempotentlik|Əməliyyatın təkrar tətbiqinin ilk tətbiqdən sonrakı nəticəni dəyişməməsi.|The property that repeating an operation does not change its result after the first application.
+ortoqonallıq|Vektorların bir-birinə perpendikulyar olması və ya daxili hasilinin sıfır olması.|The condition of vectors being perpendicular or having a zero inner product.
+ortonormallıq|Vektorların həm bir-birinə ortoqonal, həm də vahid uzunluqlu olması.|The condition of vectors being mutually orthogonal and each of unit length.
+qradiyent|Skalyar funksiyanın ən sürətlə artdığı istiqaməti və artım sürətini göstərən vektor.|A vector giving the direction and rate of steepest increase of a scalar function.
+divergensiya|Vektor sahəsinin bir nöqtə ətrafında xalis xaricə axınını ölçən skalyar kəmiyyət.|A scalar measure of a vector field's net outward flow around a point.
+tensor|Koordinat dəyişməsində müəyyən qayda ilə çevrilən çoxxətli riyazi obyekt.|A multilinear mathematical object whose components transform by specified coordinate rules.
+skalyar|İstiqaməti olmayan və bir ədədlə ifadə edilən kəmiyyət.|A quantity with magnitude but no direction, represented by a single number.
+psevdovektor|Fəzanın əks olunması zamanı adi vektordan fərqli çevrilən vektor tipli kəmiyyət.|A vector-like quantity that transforms differently from an ordinary vector under reflection.
+kvaternion|Bir həqiqi və üç xəyali komponentdən ibarət, fırlanmaların təsvirində istifadə olunan ədəd.|A number with one real and three imaginary components, often used to represent rotations.
+fraktal|Müxtəlif miqyaslarda təkrarlanan və ya oxşar mürəkkəb quruluş göstərən həndəsi obyekt.|A geometric object showing repeated or similar complexity at different scales.
+perkolyasiya|Bir maddənin və ya əlaqənin təsadüfi məsamə və şəbəkədən keçib yayılması prosesi.|The process by which material or connectivity spreads through a random porous medium or network.
+martinqal|Keçmiş məlumat verildikdə növbəti gözlənilən qiyməti indiki qiymətinə bərabər olan təsadüfi proses.|A stochastic process whose next expected value, given its history, equals its current value.
+erqodiklik|Uyğun şəraitdə zaman üzrə orta qiymətlə sistem üzrə orta qiymətin üst-üstə düşməsi xassəsi.|The property that time averages agree with ensemble averages under suitable conditions.
+permutasiya|Müəyyən elementlərin fərqli qaydada sıralanması.|An ordering or rearrangement of a set of elements.
+konvergensiya|Ardıcıllıq və ya prosesin müəyyən həddə yaxınlaşması.|The approach of a sequence or process toward a limit.

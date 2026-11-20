@@ -1,0 +1,1706 @@
+[
+  {
+    "w": "morfem",
+    "az": "Sözün müəyyən məna və ya qrammatik vəzifə daşıyan ən kiçik hissəsi.",
+    "en": "A morpheme: the smallest word unit carrying meaning or grammatical function.",
+    "pos": "noun",
+    "topic": "Dilçilik",
+    "anchor": "dil"
+  },
+  {
+    "w": "allomorf",
+    "az": "Eyni morfemin müxtəlif şəraitdə işlənən forma variantlarından biri.",
+    "en": "An allomorph: one of the different forms of the same morpheme.",
+    "pos": "noun",
+    "topic": "Dilçilik",
+    "anchor": "dil"
+  },
+  {
+    "w": "allofon",
+    "az": "Bir fonemin məna fərqi yaratmadan müxtəlif mövqelərdə səslənən variantı.",
+    "en": "An allophone: a contextual pronunciation variant of a phoneme that does not distinguish meaning.",
+    "pos": "noun",
+    "topic": "Dilçilik",
+    "anchor": "dil"
+  },
+  {
+    "w": "morfonologiya",
+    "az": "Morfemlərin birləşməsi zamanı baş verən səs dəyişmələrini öyrənən dilçilik sahəsi.",
+    "en": "Morphophonology: the study of sound changes associated with the combination of morphemes.",
+    "pos": "noun",
+    "topic": "Dilçilik",
+    "anchor": "dil"
+  },
+  {
+    "w": "neyrolinqvistika",
+    "az": "Dilin beyində necə işlənməsini və nitqin sinir əsaslarını araşdıran sahə.",
+    "en": "Neurolinguistics: the study of how the brain processes language.",
+    "pos": "noun",
+    "topic": "Dilçilik",
+    "anchor": "dil"
+  },
+  {
+    "w": "diskurs",
+    "az": "Müəyyən ünsiyyət şəraitində məna yaradan bağlı nitq və ya mətn bütövlüyü.",
+    "en": "Discourse: connected speech or writing understood within its communicative context.",
+    "pos": "noun",
+    "topic": "Dilçilik",
+    "anchor": "dil"
+  },
+  {
+    "w": "semasiologiya",
+    "az": "Söz və ifadələrin mənalarını, onların dəyişməsini öyrənən dilçilik sahəsi.",
+    "en": "Semasiology: the study of the meanings of words and expressions.",
+    "pos": "noun",
+    "topic": "Dilçilik",
+    "anchor": "dil"
+  },
+  {
+    "w": "onomasiologiya",
+    "az": "Anlayışların dildə hansı söz və ifadələrlə adlandırıldığını öyrənən sahə.",
+    "en": "Onomasiology: the study of how concepts are named in language.",
+    "pos": "noun",
+    "topic": "Dilçilik",
+    "anchor": "dil"
+  },
+  {
+    "w": "onomastika",
+    "az": "Xüsusi adları, onların yaranmasını və işlənməsini öyrənən elm sahəsi.",
+    "en": "Onomastics: the study of proper names, their origins, and their use.",
+    "pos": "noun",
+    "topic": "Dilçilik",
+    "anchor": "dil"
+  },
+  {
+    "w": "antroponimika",
+    "az": "İnsan adlarını, soyadlarını və ləqəblərini öyrənən onomastika sahəsi.",
+    "en": "Anthroponymy: the study of personal names, surnames, and nicknames.",
+    "pos": "noun",
+    "topic": "Dilçilik",
+    "anchor": "dil"
+  },
+  {
+    "w": "etnonim",
+    "az": "Bir xalqı və ya etnik qrupu bildirən ad.",
+    "en": "An ethnonym: a name referring to an ethnic group or people.",
+    "pos": "noun",
+    "topic": "Dilçilik",
+    "anchor": "dil"
+  },
+  {
+    "w": "hidronim",
+    "az": "Çay, göl, dəniz və başqa su obyektinin xüsusi adı.",
+    "en": "A hydronym: the proper name of a river, lake, or other body of water.",
+    "pos": "noun",
+    "topic": "Dilçilik",
+    "anchor": "dil"
+  },
+  {
+    "w": "fitonim",
+    "az": "Bitkinin adını bildirən söz və ya termin.",
+    "en": "A phytonym: a name used for a plant.",
+    "pos": "noun",
+    "topic": "Dilçilik",
+    "anchor": "dil"
+  },
+  {
+    "w": "zoonim",
+    "az": "Heyvana verilən xüsusi ad; bəzi təsnifatlarda heyvan adı.",
+    "en": "A zoonym: a proper name given to an animal; in some classifications, an animal name.",
+    "pos": "noun",
+    "topic": "Dilçilik",
+    "anchor": "dil"
+  },
+  {
+    "w": "mikrotoponim",
+    "az": "Kiçik yerli coğrafi obyektin, məsələn, bulağın və ya otlağın adı.",
+    "en": "A microtoponym: the name of a small local geographical feature.",
+    "pos": "noun",
+    "topic": "Dilçilik",
+    "anchor": "dil"
+  },
+  {
+    "w": "frazeoqrafiya",
+    "az": "Sabit söz birləşmələrini toplayıb lüğətdə təsvir etmək işi.",
+    "en": "Phraseography: the compilation and description of idioms in dictionaries.",
+    "pos": "noun",
+    "topic": "Dilçilik",
+    "anchor": "dil"
+  },
+  {
+    "w": "paremiologiya",
+    "az": "Atalar sözlərini və məsəlləri öyrənən elm sahəsi.",
+    "en": "Paremiology: the study of proverbs and proverbial expressions.",
+    "pos": "noun",
+    "topic": "Dilçilik",
+    "anchor": "dil"
+  },
+  {
+    "w": "paremioqrafiya",
+    "az": "Atalar sözlərini və məsəlləri toplamaq və nəşrə hazırlamaq işi.",
+    "en": "Paremiography: the collection and publication of proverbs.",
+    "pos": "noun",
+    "topic": "Dilçilik",
+    "anchor": "dil"
+  },
+  {
+    "w": "çoxdillilik",
+    "az": "Bir şəxsin və ya toplumun bir neçə dildən istifadə etməsi.",
+    "en": "Multilingualism: the use of several languages by an individual or community.",
+    "pos": "noun",
+    "topic": "Dilçilik",
+    "anchor": "dil"
+  },
+  {
+    "w": "bilinqvizm",
+    "az": "Bir şəxsin və ya toplumun iki dildən istifadə etməsi.",
+    "en": "Bilingualism: the use of two languages by a person or community.",
+    "pos": "noun",
+    "topic": "Dilçilik",
+    "anchor": "dil"
+  },
+  {
+    "w": "monolinqvizm",
+    "az": "Bir şəxsin və ya toplumun əsasən bir dildən istifadə etməsi.",
+    "en": "Monolingualism: the use of a single language by a person or community.",
+    "pos": "noun",
+    "topic": "Dilçilik",
+    "anchor": "dil"
+  },
+  {
+    "w": "didaktika",
+    "az": "Təlimin məqsədini, məzmununu, üsullarını və təşkilini öyrənən pedaqogika sahəsi.",
+    "en": "Didactics: the branch of education concerned with the principles and methods of teaching.",
+    "pos": "noun",
+    "topic": "Təhsil",
+    "anchor": "təhsil"
+  },
+  {
+    "w": "andragogika",
+    "az": "Yetkin insanların öyrənməsi və təhsilinin təşkili haqqında sahə.",
+    "en": "Andragogy: the theory and practice of adult learning.",
+    "pos": "noun",
+    "topic": "Təhsil",
+    "anchor": "təhsil"
+  },
+  {
+    "w": "kurikulum",
+    "az": "Təhsilin məqsədlərini, məzmununu, təlim üsullarını və qiymətləndirməni birləşdirən proqram.",
+    "en": "A curriculum: a framework of learning goals, content, teaching methods, and assessment.",
+    "pos": "noun",
+    "topic": "Təhsil",
+    "anchor": "təhsil"
+  },
+  {
+    "w": "mentorluq",
+    "az": "Daha təcrübəli şəxsin başqasının öyrənməsinə və inkişafına istiqamət verməsi.",
+    "en": "Mentoring: guidance provided by an experienced person to support another person's development.",
+    "pos": "noun",
+    "topic": "Təhsil",
+    "anchor": "təhsil"
+  },
+  {
+    "w": "repetitorluq",
+    "az": "Dərsin mənimsənilməsi və ya imtahana hazırlıq üçün fərdi əlavə tədris fəaliyyəti.",
+    "en": "Private tutoring: additional teaching to support study or examination preparation.",
+    "pos": "noun",
+    "topic": "Təhsil",
+    "anchor": "təhsil"
+  },
+  {
+    "w": "tutor",
+    "az": "Təhsilalanın tədris prosesində istiqamət almasına və problemləri həll etməsinə kömək edən şəxs.",
+    "en": "A tutor: a person who guides and supports a learner's studies.",
+    "pos": "noun",
+    "topic": "Təhsil",
+    "anchor": "təhsil"
+  },
+  {
+    "w": "təlimçi",
+    "az": "Müəyyən bilik və bacarıqları praktik məşğələlərlə öyrədən şəxs.",
+    "en": "A trainer: someone who teaches particular knowledge or practical skills.",
+    "pos": "noun",
+    "topic": "Təhsil",
+    "anchor": "təhsil"
+  },
+  {
+    "w": "qiymətləndirmə",
+    "az": "Bilik, iş və ya nəticənin müəyyən meyarlara uyğunluğunun müəyyən edilməsi.",
+    "en": "Assessment: judging knowledge, work, or results against specified criteria.",
+    "pos": "noun",
+    "topic": "Təhsil",
+    "anchor": "təhsil"
+  },
+  {
+    "w": "formativ",
+    "az": "Öyrənmə prosesində irəliləyişi izləyib inkişafı dəstəkləyən qiymətləndirməyə aid.",
+    "en": "Formative: relating to assessment that guides improvement during learning.",
+    "pos": "adjective",
+    "topic": "Təhsil",
+    "anchor": "təhsil"
+  },
+  {
+    "w": "summativ",
+    "az": "Təlim mərhələsinin sonunda əldə olunan nəticələri ümumiləşdirən qiymətləndirməyə aid.",
+    "en": "Summative: relating to assessment of achievement at the end of a learning period.",
+    "pos": "adjective",
+    "topic": "Təhsil",
+    "anchor": "təhsil"
+  },
+  {
+    "w": "inklüzivlik",
+    "az": "Fərqli ehtiyacları olan insanların bərabər iştirakına şərait yaradan xüsusiyyət.",
+    "en": "Inclusiveness: enabling people with differing needs to participate equitably.",
+    "pos": "noun",
+    "topic": "Təhsil",
+    "anchor": "təhsil"
+  },
+  {
+    "w": "inklüziya",
+    "az": "İnsanların fərqlərindən asılı olmayaraq ümumi fəaliyyətə tam cəlb edilməsi.",
+    "en": "Inclusion: enabling full participation regardless of individual differences.",
+    "pos": "noun",
+    "topic": "Təhsil",
+    "anchor": "təhsil"
+  },
+  {
+    "w": "refleksiya",
+    "az": "Öz fəaliyyəti və öyrənmə təcrübəsi üzərində düşünərək nəticə çıxarma.",
+    "en": "Reflection: examining one's actions and learning experiences to draw conclusions.",
+    "pos": "noun",
+    "topic": "Təhsil",
+    "anchor": "təhsil"
+  },
+  {
+    "w": "özünütəhsil",
+    "az": "Şəxsin öz təşəbbüsü ilə bilik və bacarıqlarını artırması.",
+    "en": "Self-education: learning undertaken through one's own initiative.",
+    "pos": "noun",
+    "topic": "Təhsil",
+    "anchor": "təhsil"
+  },
+  {
+    "w": "özünütərbiyə",
+    "az": "İnsanın öz davranışını və xarakterini məqsədli şəkildə inkişaf etdirməsi.",
+    "en": "Self-cultivation: deliberately developing one's character and behaviour.",
+    "pos": "noun",
+    "topic": "Təhsil",
+    "anchor": "təhsil"
+  },
+  {
+    "w": "özünüqiymətləndirmə",
+    "az": "Şəxsin öz bilik, bacarıq və nəticələrini meyarlarla nəzərdən keçirməsi.",
+    "en": "Self-assessment: evaluating one's knowledge, skills, and results against criteria.",
+    "pos": "noun",
+    "topic": "Təhsil",
+    "anchor": "təhsil"
+  },
+  {
+    "w": "şagirdyönümlülük",
+    "az": "Təlimin şagirdin ehtiyac, maraq və fəal iştirakına əsaslanması.",
+    "en": "Learner-centredness: organizing education around learners' needs, interests, and participation.",
+    "pos": "noun",
+    "topic": "Təhsil",
+    "anchor": "təhsil"
+  },
+  {
+    "w": "mediasavadlılıq",
+    "az": "Media məlumatını anlamaq, mənbəsini yoxlamaq və tənqidi qiymətləndirmək bacarığı.",
+    "en": "Media literacy: the ability to understand, verify, and critically evaluate media messages.",
+    "pos": "noun",
+    "topic": "Təhsil",
+    "anchor": "təhsil"
+  },
+  {
+    "w": "dərslikşünaslıq",
+    "az": "Dərsliklərin quruluşunu, məzmununu və hazırlanması prinsiplərini öyrənən sahə.",
+    "en": "Textbook studies: the study of textbook content, structure, and design.",
+    "pos": "noun",
+    "topic": "Təhsil",
+    "anchor": "təhsil"
+  },
+  {
+    "w": "mükafatlandırma",
+    "az": "Yaxşı nəticəni və ya davranışı tanımaq üçün mükafat vermə.",
+    "en": "Rewarding: recognizing an achievement or behaviour with a reward.",
+    "pos": "noun",
+    "topic": "Təhsil",
+    "anchor": "təhsil"
+  },
+  {
+    "w": "stimullaşdırma",
+    "az": "Fəaliyyətə marağı və təşəbbüsü artıran təsir göstərmə.",
+    "en": "Stimulation: encouraging interest, initiative, or activity.",
+    "pos": "noun",
+    "topic": "Təhsil",
+    "anchor": "təhsil"
+  },
+  {
+    "w": "demotivasiya",
+    "az": "Fəaliyyət göstərmək həvəsinin və daxili marağın azalması.",
+    "en": "Demotivation: a reduction in the desire or incentive to act.",
+    "pos": "noun",
+    "topic": "Təhsil",
+    "anchor": "təhsil"
+  },
+  {
+    "w": "empatiya",
+    "az": "Başqa insanın hisslərini və baxışını anlamağa yönələn emosional və idraki bacarıq.",
+    "en": "Empathy: the ability to understand another person's feelings and perspective.",
+    "pos": "noun",
+    "topic": "Psixologiya",
+    "anchor": "psixologiya"
+  },
+  {
+    "w": "emosional",
+    "az": "Hiss və duyğularla bağlı olan və ya onları güclü ifadə edən.",
+    "en": "Emotional: relating to feelings or expressing them strongly.",
+    "pos": "adjective",
+    "topic": "Psixologiya",
+    "anchor": "psixologiya"
+  },
+  {
+    "w": "assertivlik",
+    "az": "Öz fikrini və ehtiyacını başqasının hüququna hörmətlə, aydın ifadə etmək bacarığı.",
+    "en": "Assertiveness: expressing one's needs and views clearly while respecting others.",
+    "pos": "noun",
+    "topic": "Psixologiya",
+    "anchor": "psixologiya"
+  },
+  {
+    "w": "özünüdərk",
+    "az": "İnsanın öz hisslərini, düşüncələrini və xüsusiyyətlərini anlaması.",
+    "en": "Self-awareness: understanding one's own feelings, thoughts, and characteristics.",
+    "pos": "noun",
+    "topic": "Psixologiya",
+    "anchor": "psixologiya"
+  },
+  {
+    "w": "özünütənqid",
+    "az": "İnsanın öz səhv və çatışmazlıqlarını qiymətləndirib qəbul etməsi.",
+    "en": "Self-criticism: examining and acknowledging one's own faults or mistakes.",
+    "pos": "noun",
+    "topic": "Psixologiya",
+    "anchor": "psixologiya"
+  },
+  {
+    "w": "özünüifadə",
+    "az": "Şəxsin düşüncə, hiss və kimliyini söz və ya yaradıcılıqla bildirməsi.",
+    "en": "Self-expression: communicating one's thoughts, feelings, or identity.",
+    "pos": "noun",
+    "topic": "Psixologiya",
+    "anchor": "psixologiya"
+  },
+  {
+    "w": "özünütənzimləmə",
+    "az": "İnsanın hiss, düşüncə və davranışını məqsədə uyğun idarə etməsi.",
+    "en": "Self-regulation: managing one's emotions, thoughts, and behaviour toward a goal.",
+    "pos": "noun",
+    "topic": "Psixologiya",
+    "anchor": "psixologiya"
+  },
+  {
+    "w": "özünəinam",
+    "az": "Şəxsin öz bacarığına və bir işi görə biləcəyinə inanması.",
+    "en": "Self-confidence: trust in one's abilities and capacity to act.",
+    "pos": "noun",
+    "topic": "Psixologiya",
+    "anchor": "psixologiya"
+  },
+  {
+    "w": "özünütəhlil",
+    "az": "Öz davranışının, motivlərinin və düşüncələrinin səbəblərini araşdırma.",
+    "en": "Self-analysis: examining the reasons behind one's own thoughts and behaviour.",
+    "pos": "noun",
+    "topic": "Psixologiya",
+    "anchor": "psixologiya"
+  },
+  {
+    "w": "metakoqnisiya",
+    "az": "İnsanın öz düşünmə və öyrənmə prosesini anlaması və idarə etməsi.",
+    "en": "Metacognition: awareness and regulation of one's own thinking and learning.",
+    "pos": "noun",
+    "topic": "Psixologiya",
+    "anchor": "psixologiya"
+  },
+  {
+    "w": "koqnisiya",
+    "az": "Bilik qazanma, anlama, yadda saxlama və düşünmə ilə bağlı idrak prosesləri.",
+    "en": "Cognition: mental processes involved in acquiring, remembering, and using knowledge.",
+    "pos": "noun",
+    "topic": "Psixologiya",
+    "anchor": "psixologiya"
+  },
+  {
+    "w": "mentalitet",
+    "az": "Bir toplumda yayılmış düşüncə, dəyər və davranış meyillərinin məcmusu.",
+    "en": "Mentality: a characteristic set of attitudes, values, and ways of thinking.",
+    "pos": "noun",
+    "topic": "Psixologiya",
+    "anchor": "psixologiya"
+  },
+  {
+    "w": "biheviorizm",
+    "az": "Psixoloji hadisələri əsasən müşahidə olunan davranış vasitəsilə öyrənən yanaşma.",
+    "en": "Behaviourism: an approach to psychology centred on observable behaviour.",
+    "pos": "noun",
+    "topic": "Psixologiya",
+    "anchor": "psixologiya"
+  },
+  {
+    "w": "altruizm",
+    "az": "Başqalarının rifahını şəxsi fayda güdmədən nəzərə alan münasibət və davranış.",
+    "en": "Altruism: concern or action for others' welfare without seeking personal gain.",
+    "pos": "noun",
+    "topic": "Psixologiya",
+    "anchor": "psixologiya"
+  },
+  {
+    "w": "eqosentrizm",
+    "az": "Hadisələrə əsasən öz baxışından yanaşıb başqa baxışları nəzərə almaqda çətinlik.",
+    "en": "Egocentrism: a tendency to view situations mainly from one's own perspective.",
+    "pos": "noun",
+    "topic": "Psixologiya",
+    "anchor": "psixologiya"
+  },
+  {
+    "w": "perfeksionizm",
+    "az": "İşin qüsursuz olmasına həddən artıq tələb qoymaq meyli.",
+    "en": "Perfectionism: a tendency to demand exceptionally high or flawless performance.",
+    "pos": "noun",
+    "topic": "Psixologiya",
+    "anchor": "psixologiya"
+  },
+  {
+    "w": "prokrastinasiya",
+    "az": "Görülməli işi mümkün mənfi nəticələrə baxmayaraq təxirə salmaq meyli.",
+    "en": "Procrastination: delaying intended tasks despite expecting negative consequences.",
+    "pos": "noun",
+    "topic": "Psixologiya",
+    "anchor": "psixologiya"
+  },
+  {
+    "w": "introversiya",
+    "az": "Diqqətin daha çox daxili düşüncələrə yönəlməsi ilə səciyyələnən şəxsiyyət meyli.",
+    "en": "Introversion: a personality tendency toward inward attention and quieter stimulation.",
+    "pos": "noun",
+    "topic": "Psixologiya",
+    "anchor": "psixologiya"
+  },
+  {
+    "w": "ekstraversiya",
+    "az": "Ünsiyyətə və xarici fəaliyyətə yüksək maraqla səciyyələnən şəxsiyyət meyli.",
+    "en": "Extraversion: a personality tendency toward social interaction and external activity.",
+    "pos": "noun",
+    "topic": "Psixologiya",
+    "anchor": "psixologiya"
+  },
+  {
+    "w": "introvert",
+    "az": "Şəxsiyyətində introversiya xüsusiyyətləri üstünlük təşkil edən insan.",
+    "en": "An introvert: a person whose personality tends toward inward focus and quieter settings.",
+    "pos": "noun",
+    "topic": "Psixologiya",
+    "anchor": "psixologiya"
+  },
+  {
+    "w": "ekstravert",
+    "az": "Şəxsiyyətində ünsiyyətə və xarici fəaliyyətə yönəlmə üstün olan insan.",
+    "en": "An extravert: a person inclined toward social engagement and external activity.",
+    "pos": "noun",
+    "topic": "Psixologiya",
+    "anchor": "psixologiya"
+  },
+  {
+    "w": "ambivalentlik",
+    "az": "Eyni şəxsə və ya hadisəyə qarşı zidd hisslərin birlikdə yaşanması.",
+    "en": "Ambivalence: having conflicting feelings or attitudes toward the same thing.",
+    "pos": "noun",
+    "topic": "Psixologiya",
+    "anchor": "psixologiya"
+  },
+  {
+    "w": "katarsis",
+    "az": "Güclü emosional yaşantı və ya sənət təcrübəsi ilə yaranan daxili yüngülləşmə.",
+    "en": "Catharsis: emotional release or relief through intense experience or artistic expression.",
+    "pos": "noun",
+    "topic": "Psixologiya",
+    "anchor": "psixologiya"
+  },
+  {
+    "w": "etnopsixologiya",
+    "az": "Mədəni və etnik mühitin psixoloji xüsusiyyətlərlə əlaqəsini araşdıran sahə.",
+    "en": "Ethnopsychology: the study of relationships between cultural context and psychological characteristics.",
+    "pos": "noun",
+    "topic": "Psixologiya",
+    "anchor": "psixologiya"
+  },
+  {
+    "w": "kulturologiya",
+    "az": "Mədəniyyətin yaranmasını, quruluşunu və inkişafını araşdıran elm sahəsi.",
+    "en": "Culturology: the interdisciplinary study of culture and its development.",
+    "pos": "noun",
+    "topic": "Mədəniyyət",
+    "anchor": "mədəniyyət"
+  },
+  {
+    "w": "multikulturalizm",
+    "az": "Fərqli mədəniyyətlərin bir cəmiyyətdə tanınması və yanaşı yaşamasını dəstəkləyən yanaşma.",
+    "en": "Multiculturalism: an approach recognizing and supporting cultural diversity within society.",
+    "pos": "noun",
+    "topic": "Mədəniyyət",
+    "anchor": "mədəniyyət"
+  },
+  {
+    "w": "akkulturasiya",
+    "az": "Davamlı mədəni təmas nəticəsində bir toplumun adət və davranışlarında dəyişmə.",
+    "en": "Acculturation: cultural change resulting from sustained contact between groups.",
+    "pos": "noun",
+    "topic": "Mədəniyyət",
+    "anchor": "mədəniyyət"
+  },
+  {
+    "w": "inkulturasiya",
+    "az": "İnsanın yaşadığı mədəniyyətin dəyər və davranış qaydalarını mənimsəməsi.",
+    "en": "Enculturation: the process of learning the values and practices of one's culture.",
+    "pos": "noun",
+    "topic": "Mədəniyyət",
+    "anchor": "mədəniyyət"
+  },
+  {
+    "w": "etnosentrizm",
+    "az": "Başqa mədəniyyətləri əsasən öz toplumunun ölçüləri ilə qiymətləndirmək meyli.",
+    "en": "Ethnocentrism: judging other cultures primarily by the standards of one's own.",
+    "pos": "noun",
+    "topic": "Mədəniyyət",
+    "anchor": "mədəniyyət"
+  },
+  {
+    "w": "etnomədəniyyət",
+    "az": "Bir etnik toplumun adət, dil, sənət və dəyərlərinin bütövlüyü.",
+    "en": "Ethnoculture: the traditions, language, arts, and values associated with an ethnic community.",
+    "pos": "noun",
+    "topic": "Mədəniyyət",
+    "anchor": "mədəniyyət"
+  },
+  {
+    "w": "mədəniyyətlərarası",
+    "az": "Fərqli mədəniyyətlər arasında ünsiyyət və qarşılıqlı münasibətlə bağlı.",
+    "en": "Intercultural: relating to communication and interaction between cultures.",
+    "pos": "adjective",
+    "topic": "Mədəniyyət",
+    "anchor": "mədəniyyət"
+  },
+  {
+    "w": "sosiomədəni",
+    "az": "Cəmiyyətin quruluşu ilə mədəniyyətin qarşılıqlı əlaqəsinə aid.",
+    "en": "Sociocultural: relating to the interaction of social and cultural factors.",
+    "pos": "adjective",
+    "topic": "Mədəniyyət",
+    "anchor": "mədəniyyət"
+  },
+  {
+    "w": "kitabşünaslıq",
+    "az": "Kitabı, kitab istehsalını və onun cəmiyyətdə yayılmasını öyrənən sahə.",
+    "en": "Book studies: the study of books, their production, and circulation in society.",
+    "pos": "noun",
+    "topic": "Mədəniyyət",
+    "anchor": "mədəniyyət"
+  },
+  {
+    "w": "mənbəşünaslıq",
+    "az": "Tarixi və elmi mənbələrin mənşəyini, məzmununu və etibarlılığını araşdıran sahə.",
+    "en": "Source criticism: the study and evaluation of historical or scholarly sources.",
+    "pos": "noun",
+    "topic": "Mədəniyyət",
+    "anchor": "mədəniyyət"
+  },
+  {
+    "w": "arxivşünaslıq",
+    "az": "Arxiv sənədlərinin seçilməsi, qorunması, təsviri və istifadəsini öyrənən sahə.",
+    "en": "Archival science: the study of selecting, preserving, describing, and using records.",
+    "pos": "noun",
+    "topic": "Mədəniyyət",
+    "anchor": "mədəniyyət"
+  },
+  {
+    "w": "muzeyşünaslıq",
+    "az": "Muzeylərin təşkilini, kolleksiyaların qorunmasını və təqdimatını öyrənən sahə.",
+    "en": "Museology: the study of museums, their collections, and their public role.",
+    "pos": "noun",
+    "topic": "Mədəniyyət",
+    "anchor": "mədəniyyət"
+  },
+  {
+    "w": "sənətşünaslıq",
+    "az": "İncəsənət əsərlərini, üslublarını və tarixini araşdıran elm sahəsi.",
+    "en": "Art studies: the scholarly study of artworks, artistic styles, and art history.",
+    "pos": "noun",
+    "topic": "Mədəniyyət",
+    "anchor": "mədəniyyət"
+  },
+  {
+    "w": "teatrşünaslıq",
+    "az": "Teatrın tarixini, nəzəriyyəsini və tamaşa sənətini öyrənən sahə.",
+    "en": "Theatre studies: the study of theatre history, theory, and performance.",
+    "pos": "noun",
+    "topic": "Mədəniyyət",
+    "anchor": "mədəniyyət"
+  },
+  {
+    "w": "kinoşünaslıq",
+    "az": "Filmlərin tarixini, dilini və bədii xüsusiyyətlərini araşdıran sahə.",
+    "en": "Film studies: the study of cinema's history, language, and artistic forms.",
+    "pos": "noun",
+    "topic": "Mədəniyyət",
+    "anchor": "mədəniyyət"
+  },
+  {
+    "w": "epiqrafika",
+    "az": "Daş, metal və başqa davamlı səthlər üzərindəki qədim yazıları öyrənən sahə.",
+    "en": "Epigraphy: the study of inscriptions on stone, metal, and other durable surfaces.",
+    "pos": "noun",
+    "topic": "Mədəniyyət",
+    "anchor": "mədəniyyət"
+  },
+  {
+    "w": "folklorizm",
+    "az": "Folklor ünsürlərinin yeni sənət və mədəniyyət şəraitində işlədilməsi.",
+    "en": "Folklorism: the reuse of folklore elements in new artistic or cultural contexts.",
+    "pos": "noun",
+    "topic": "Mədəniyyət",
+    "anchor": "mədəniyyət"
+  },
+  {
+    "w": "etnopoetika",
+    "az": "Şifahi ədəbiyyatı onun mədəni mühiti və ifadə xüsusiyyətləri ilə araşdıran sahə.",
+    "en": "Ethnopoetics: the study of oral literature within its cultural and expressive setting.",
+    "pos": "noun",
+    "topic": "Mədəniyyət",
+    "anchor": "mədəniyyət"
+  },
+  {
+    "w": "mifopoetika",
+    "az": "Miflərin bədii əsərdə quruluş və məna yaratmaq üsullarının araşdırılması.",
+    "en": "Mythopoetics: the study or creative use of myth in literary structure and meaning.",
+    "pos": "noun",
+    "topic": "Mədəniyyət",
+    "anchor": "mədəniyyət"
+  },
+  {
+    "w": "intertekstuallıq",
+    "az": "Bir mətnin başqa mətnlərə istinad, işarə və ya çevrilmə yolu ilə bağlılığı.",
+    "en": "Intertextuality: the relationships a text forms with other texts through reference or transformation.",
+    "pos": "noun",
+    "topic": "Ədəbiyyat",
+    "anchor": "ədəbiyyat"
+  },
+  {
+    "w": "intertekst",
+    "az": "Mətn daxilində başqa mətnlərlə əlaqə yaradan sitat, işarə və ya məna qatı.",
+    "en": "Intertext: material or meaning connecting one text with another.",
+    "pos": "noun",
+    "topic": "Ədəbiyyat",
+    "anchor": "ədəbiyyat"
+  },
+  {
+    "w": "paratekst",
+    "az": "Əsərin əsas mətnini əhatə edən başlıq, ön söz və qeyd kimi təqdimat ünsürləri.",
+    "en": "Paratext: titles, prefaces, notes, and other elements surrounding a work's main text.",
+    "pos": "noun",
+    "topic": "Ədəbiyyat",
+    "anchor": "ədəbiyyat"
+  },
+  {
+    "w": "narrativ",
+    "az": "Hadisələrin müəyyən baxış və ardıcıllıqla nəql olunmuş bütövlüyü.",
+    "en": "A narrative: an organized account of events from a particular perspective.",
+    "pos": "noun",
+    "topic": "Ədəbiyyat",
+    "anchor": "ədəbiyyat"
+  },
+  {
+    "w": "retrospeksiya",
+    "az": "Nəqlin və ya düşüncənin əvvəl baş vermiş hadisələrə geri dönməsi.",
+    "en": "Retrospection: looking back at earlier events in thought or narration.",
+    "pos": "noun",
+    "topic": "Ədəbiyyat",
+    "anchor": "ədəbiyyat"
+  },
+  {
+    "w": "metafiksiya",
+    "az": "Özünün qurama əsər olduğunu və yaradılma prosesini nəzərə çatdıran bədii mətn.",
+    "en": "Metafiction: fiction that draws attention to its own construction as fiction.",
+    "pos": "noun",
+    "topic": "Ədəbiyyat",
+    "anchor": "ədəbiyyat"
+  },
+  {
+    "w": "fokalizasiya",
+    "az": "Əsərdə məlumatın müəyyən personajın və ya baxışın süzgəcindən verilməsi.",
+    "en": "Focalization: presenting narrative information through a particular perspective.",
+    "pos": "noun",
+    "topic": "Ədəbiyyat",
+    "anchor": "ədəbiyyat"
+  },
+  {
+    "w": "povest",
+    "az": "Adətən hekayədən geniş, romandan yığcam olan nəsr əsəri.",
+    "en": "A novella-length prose narrative, generally longer than a short story and shorter than a novel.",
+    "pos": "noun",
+    "topic": "Ədəbiyyat",
+    "anchor": "ədəbiyyat"
+  },
+  {
+    "w": "novella",
+    "az": "Yığcam quruluşu və çox vaxt kəskin dönüşü olan kiçik nəsr əsəri.",
+    "en": "A short, tightly structured prose tale, often featuring a striking turn.",
+    "pos": "noun",
+    "topic": "Ədəbiyyat",
+    "anchor": "ədəbiyyat"
+  },
+  {
+    "w": "sonet",
+    "az": "Ənənəvi olaraq on dörd misradan ibarət müəyyən quruluşlu şeir forması.",
+    "en": "A sonnet: a traditionally fourteen-line poem with an established formal structure.",
+    "pos": "noun",
+    "topic": "Ədəbiyyat",
+    "anchor": "ədəbiyyat"
+  },
+  {
+    "w": "hayku",
+    "az": "Yapon ədəbiyyatından gələn, qısa müşahidəni yığcam ifadə edən şeir forması.",
+    "en": "Haiku: a brief poetic form of Japanese origin often centred on a moment of observation.",
+    "pos": "noun",
+    "topic": "Ədəbiyyat",
+    "anchor": "ədəbiyyat"
+  },
+  {
+    "w": "tanka",
+    "az": "Yapon ənənəsində beş misradan ibarət qısa lirik şeir forması.",
+    "en": "Tanka: a traditional Japanese short lyric poem of five lines.",
+    "pos": "noun",
+    "topic": "Ədəbiyyat",
+    "anchor": "ədəbiyyat"
+  },
+  {
+    "w": "verlibr",
+    "az": "Sabit vəzn və qafiyə quruluşuna bağlı olmayan sərbəst şeir.",
+    "en": "Free verse: poetry without a fixed metrical or rhyme pattern.",
+    "pos": "noun",
+    "topic": "Ədəbiyyat",
+    "anchor": "ədəbiyyat"
+  },
+  {
+    "w": "akrostix",
+    "az": "Misralarının ilk hərfləri birlikdə söz və ya ad yaradan şeir.",
+    "en": "An acrostic: a poem whose initial letters form a word or name.",
+    "pos": "noun",
+    "topic": "Ədəbiyyat",
+    "anchor": "ədəbiyyat"
+  },
+  {
+    "w": "anaqram",
+    "az": "Bir sözün hərflərinin yerini dəyişməklə düzələn başqa söz və ya ifadə.",
+    "en": "An anagram: a word or phrase formed by rearranging another's letters.",
+    "pos": "noun",
+    "topic": "Ədəbiyyat",
+    "anchor": "ədəbiyyat"
+  },
+  {
+    "w": "referativ",
+    "az": "Mənbənin əsas məzmununu qısa şəkildə ümumiləşdirən və ya referata aid olan.",
+    "en": "Abstracting or summarizing the main content of a source; relating to a summary report.",
+    "pos": "adjective",
+    "topic": "Kitab və mətn",
+    "anchor": "kitab"
+  },
+  {
+    "w": "anafora",
+    "az": "Ardıcıl cümlə və ya misraların əvvəlində eyni sözün təkrarlanması.",
+    "en": "Anaphora: repetition of a word or phrase at the beginning of successive clauses or lines.",
+    "pos": "noun",
+    "topic": "Ədəbiyyat",
+    "anchor": "ədəbiyyat"
+  },
+  {
+    "w": "epifora",
+    "az": "Ardıcıl cümlə və ya misraların sonunda eyni sözün təkrarlanması.",
+    "en": "Epiphora: repetition of a word or phrase at the end of successive clauses or lines.",
+    "pos": "noun",
+    "topic": "Ədəbiyyat",
+    "anchor": "ədəbiyyat"
+  },
+  {
+    "w": "antiteza",
+    "az": "Bir-birinə zidd anlayışların təsiri gücləndirmək üçün qarşılaşdırılması.",
+    "en": "Antithesis: the deliberate juxtaposition of contrasting ideas for emphasis.",
+    "pos": "noun",
+    "topic": "Ədəbiyyat",
+    "anchor": "ədəbiyyat"
+  },
+  {
+    "w": "alleqoriya",
+    "az": "Mücərrəd fikir və münasibətlərin obrazlar və hadisələr vasitəsilə ifadəsi.",
+    "en": "Allegory: expressing abstract ideas through characters, images, or events.",
+    "pos": "noun",
+    "topic": "Ədəbiyyat",
+    "anchor": "ədəbiyyat"
+  },
+  {
+    "w": "hermenevtika",
+    "az": "Mətnlərin və mənaların şərh edilməsinin prinsiplərini öyrənən sahə.",
+    "en": "Hermeneutics: the theory and practice of interpretation, especially of texts.",
+    "pos": "noun",
+    "topic": "Ədəbiyyat",
+    "anchor": "ədəbiyyat"
+  },
+  {
+    "w": "semiotika",
+    "az": "İşarə və işarə sistemlərinin necə məna yaratmasını öyrənən elm.",
+    "en": "Semiotics: the study of signs and how they produce meaning.",
+    "pos": "noun",
+    "topic": "Ədəbiyyat",
+    "anchor": "ədəbiyyat"
+  },
+  {
+    "w": "dekonstruksiya",
+    "az": "Mətnin mənasında gizli fərziyyə və ziddiyyətləri araşdıran tənqidi yanaşma.",
+    "en": "Deconstruction: a critical approach examining tensions and assumptions within texts.",
+    "pos": "noun",
+    "topic": "Ədəbiyyat",
+    "anchor": "ədəbiyyat"
+  },
+  {
+    "w": "poststrukturalizm",
+    "az": "Mənanın sabit quruluşlarla tam izahını sorğulayan nəzəri yanaşmalar toplusu.",
+    "en": "Poststructuralism: approaches questioning the idea that stable structures fully determine meaning.",
+    "pos": "noun",
+    "topic": "Ədəbiyyat",
+    "anchor": "ədəbiyyat"
+  },
+  {
+    "w": "postkolonializm",
+    "az": "Müstəmləkəçiliyin mədəni, siyasi və dil baxımından davam edən təsirlərini araşdıran yanaşma.",
+    "en": "Postcolonialism: the study of colonialism's continuing cultural, political, and linguistic effects.",
+    "pos": "noun",
+    "topic": "Ədəbiyyat",
+    "anchor": "ədəbiyyat"
+  },
+  {
+    "w": "bəstəkarlıq",
+    "az": "Musiqi əsərləri yaratmaq sənəti və fəaliyyəti.",
+    "en": "Musical composition: the art and activity of creating musical works.",
+    "pos": "noun",
+    "topic": "Musiqi",
+    "anchor": "musiqi"
+  },
+  {
+    "w": "dirijorluq",
+    "az": "Orkestr, xor və ya başqa musiqi kollektivinin ifasını idarə etmək sənəti.",
+    "en": "Conducting: directing the performance of an orchestra, choir, or other musical ensemble.",
+    "pos": "noun",
+    "topic": "Musiqi",
+    "anchor": "musiqi"
+  },
+  {
+    "w": "harmonizasiya",
+    "az": "Melodiyaya uyğun akkord və səs birləşmələri əlavə etmə.",
+    "en": "Harmonization: supplying a melody with suitable chords or accompanying harmonies.",
+    "pos": "noun",
+    "topic": "Musiqi",
+    "anchor": "musiqi"
+  },
+  {
+    "w": "improvizasiya",
+    "az": "Əvvəlcədən tam hazırlanmadan, ifa zamanı yaradılan bədii ifadə.",
+    "en": "Improvisation: artistic creation during performance without complete prior preparation.",
+    "pos": "noun",
+    "topic": "Musiqi",
+    "anchor": "musiqi"
+  },
+  {
+    "w": "polifoniya",
+    "az": "Bir neçə müstəqil melodik xəttin eyni vaxtda səsləndiyi musiqi quruluşu.",
+    "en": "Polyphony: a musical texture combining several independent melodic lines.",
+    "pos": "noun",
+    "topic": "Musiqi",
+    "anchor": "musiqi"
+  },
+  {
+    "w": "homofoniya",
+    "az": "Əsas melodiyanın müşayiətçi səslərdən seçildiyi musiqi quruluşu.",
+    "en": "Homophony: a musical texture dominated by one melody with accompanying parts.",
+    "pos": "noun",
+    "topic": "Musiqi",
+    "anchor": "musiqi"
+  },
+  {
+    "w": "sinkopa",
+    "az": "Musiqidə vurğunun adi güclü paydan zəif paya keçirilməsi.",
+    "en": "Syncopation: shifting musical emphasis onto normally weak beats or offbeats.",
+    "pos": "noun",
+    "topic": "Musiqi",
+    "anchor": "musiqi"
+  },
+  {
+    "w": "arpecio",
+    "az": "Akkordun səslərinin birlikdə deyil, ardıcıl səsləndirilməsi.",
+    "en": "Arpeggio: playing the notes of a chord successively rather than together.",
+    "pos": "noun",
+    "topic": "Musiqi",
+    "anchor": "musiqi"
+  },
+  {
+    "w": "vibrato",
+    "az": "Səsin yüksəkliyində kiçik və müntəzəm dalğalanma yaradan ifa üsulu.",
+    "en": "Vibrato: a performance effect produced by slight, regular variations in pitch.",
+    "pos": "noun",
+    "topic": "Musiqi",
+    "anchor": "musiqi"
+  },
+  {
+    "w": "pianissimo",
+    "az": "Musiqinin çox zəif, sakit səslə ifa edilməsini bildirən göstəriş.",
+    "en": "Pianissimo: a musical direction to perform very softly.",
+    "pos": "noun",
+    "topic": "Musiqi",
+    "anchor": "musiqi"
+  },
+  {
+    "w": "kreşento",
+    "az": "Musiqidə səs gücünün tədricən artırılmasını bildirən göstəriş.",
+    "en": "Crescendo: a musical direction to gradually increase loudness.",
+    "pos": "noun",
+    "topic": "Musiqi",
+    "anchor": "musiqi"
+  },
+  {
+    "w": "melizm",
+    "az": "Melodiyanı bəzəyən qısa səs qrupu və ya melodik bəzək.",
+    "en": "A melisma or melodic ornament: a group of notes embellishing a musical line.",
+    "pos": "noun",
+    "topic": "Musiqi",
+    "anchor": "musiqi"
+  },
+  {
+    "w": "tembr",
+    "az": "Eyni yüksəklikdəki səsləri bir-birindən fərqləndirən xüsusi səs rəngi.",
+    "en": "Timbre: the tone quality that distinguishes sounds of the same pitch.",
+    "pos": "noun",
+    "topic": "Musiqi",
+    "anchor": "musiqi"
+  },
+  {
+    "w": "solfecio",
+    "az": "Notdan oxuma, eşitmə və ritm duyumunu inkişaf etdirən musiqi məşğələləri.",
+    "en": "Solfeggio: training in sight-singing, musical hearing, and rhythm.",
+    "pos": "noun",
+    "topic": "Musiqi",
+    "anchor": "musiqi"
+  },
+  {
+    "w": "vokaliz",
+    "az": "Sözsüz, sait və ya hecalar üzərində oxunan vokal məşq və ya əsər.",
+    "en": "A vocalise: a wordless vocal exercise or piece sung on vowels or syllables.",
+    "pos": "noun",
+    "topic": "Musiqi",
+    "anchor": "musiqi"
+  },
+  {
+    "w": "müşayiətçilik",
+    "az": "Əsas ifaçıya uyğun musiqi dəstəyi vermək fəaliyyəti.",
+    "en": "Accompanying: providing musical support for a principal performer.",
+    "pos": "noun",
+    "topic": "Musiqi",
+    "anchor": "musiqi"
+  },
+  {
+    "w": "xanəndəlik",
+    "az": "Muğam və vokal musiqi ifaçılığı sənəti.",
+    "en": "The art of khananda singing, especially vocal performance of mugham.",
+    "pos": "noun",
+    "topic": "Musiqi",
+    "anchor": "musiqi"
+  },
+  {
+    "w": "sazəndəlik",
+    "az": "Ənənəvi musiqi alətlərində ifaçılıq sənəti və fəaliyyəti.",
+    "en": "Traditional instrumental musicianship.",
+    "pos": "noun",
+    "topic": "Musiqi",
+    "anchor": "musiqi"
+  },
+  {
+    "w": "tarzənlik",
+    "az": "Tar alətində peşəkar ifaçılıq sənəti.",
+    "en": "The art of playing the tar, a traditional stringed instrument.",
+    "pos": "noun",
+    "topic": "Musiqi",
+    "anchor": "musiqi"
+  },
+  {
+    "w": "kamançaçılıq",
+    "az": "Kamança alətində ifa etmək sənəti.",
+    "en": "The art of playing the kamancha, a bowed stringed instrument.",
+    "pos": "noun",
+    "topic": "Musiqi",
+    "anchor": "musiqi"
+  },
+  {
+    "w": "balabançılıq",
+    "az": "Balaban nəfəs alətində ifaçılıq fəaliyyəti.",
+    "en": "The art of playing the balaban, a traditional double-reed instrument.",
+    "pos": "noun",
+    "topic": "Musiqi",
+    "anchor": "musiqi"
+  },
+  {
+    "w": "qarmonçuluq",
+    "az": "Qarmon alətində ifa etmək fəaliyyəti və sənəti.",
+    "en": "The art or occupation of playing the accordion.",
+    "pos": "noun",
+    "topic": "Musiqi",
+    "anchor": "musiqi"
+  },
+  {
+    "w": "nağaraçılıq",
+    "az": "Nağara alətində ritmik ifaçılıq sənəti.",
+    "en": "The art of playing the naghara, a traditional drum.",
+    "pos": "noun",
+    "topic": "Musiqi",
+    "anchor": "musiqi"
+  },
+  {
+    "w": "nəğməkarlıq",
+    "az": "Nəğmə yaratmaq və ya oxumaq fəaliyyəti.",
+    "en": "Song-making or singing as an artistic activity.",
+    "pos": "noun",
+    "topic": "Musiqi",
+    "anchor": "musiqi"
+  },
+  {
+    "w": "improvizator",
+    "az": "Əsəri və ya ifanı həmin anda yaradan sənətkar.",
+    "en": "An improviser: an artist who creates material during performance.",
+    "pos": "noun",
+    "topic": "Musiqi",
+    "anchor": "musiqi"
+  },
+  {
+    "w": "bəstəçi",
+    "az": "Musiqi əsərləri yaradan şəxs.",
+    "en": "A composer: a person who creates musical works.",
+    "pos": "noun",
+    "topic": "Musiqi",
+    "anchor": "musiqi"
+  },
+  {
+    "w": "baletmeyster",
+    "az": "Balet və rəqs tamaşalarının hərəkət quruluşunu hazırlayan mütəxəssis.",
+    "en": "A ballet master or choreographer who develops and directs dance arrangements.",
+    "pos": "noun",
+    "topic": "Teatr və kino",
+    "anchor": "teatr"
+  },
+  {
+    "w": "rejissorluq",
+    "az": "Tamaşanın və ya filmin bədii quruluşunu və ifaçıların işini yönəltmək sənəti.",
+    "en": "Directing: shaping a play or film and guiding its performers.",
+    "pos": "noun",
+    "topic": "Teatr və kino",
+    "anchor": "teatr"
+  },
+  {
+    "w": "ssenaristlik",
+    "az": "Film, televiziya və ya səhnə işi üçün ssenari yazmaq fəaliyyəti.",
+    "en": "Screenwriting: writing scripts for film, television, or staged productions.",
+    "pos": "noun",
+    "topic": "Teatr və kino",
+    "anchor": "teatr"
+  },
+  {
+    "w": "kinodramaturgiya",
+    "az": "Filmin süjet, konflikt və obraz quruluşunu yaratmaq sənəti və nəzəriyyəsi.",
+    "en": "Film dramaturgy: the construction and study of plot, conflict, and character in cinema.",
+    "pos": "noun",
+    "topic": "Teatr və kino",
+    "anchor": "teatr"
+  },
+  {
+    "w": "kinotənqid",
+    "az": "Filmləri təhlil edib bədii və ictimai baxımdan qiymətləndirmə fəaliyyəti.",
+    "en": "Film criticism: analysing and evaluating films as artistic and social works.",
+    "pos": "noun",
+    "topic": "Teatr və kino",
+    "anchor": "teatr"
+  },
+  {
+    "w": "dekorasiya",
+    "az": "Səhnədə və ya çəkilişdə məkanı təsvir edən bədii tərtibat.",
+    "en": "Scenery: the designed visual setting of a stage production or film scene.",
+    "pos": "noun",
+    "topic": "Teatr və kino",
+    "anchor": "teatr"
+  },
+  {
+    "w": "butaforiya",
+    "az": "Tamaşa və çəkiliş üçün əsl əşyanı təqlid edən hazırlanmış vasitələr.",
+    "en": "Stage properties made to imitate real objects for performance or filming.",
+    "pos": "noun",
+    "topic": "Teatr və kino",
+    "anchor": "teatr"
+  },
+  {
+    "w": "kuklaçılıq",
+    "az": "Kuklalar vasitəsilə tamaşa göstərmək sənəti.",
+    "en": "Puppetry: the art of performing with puppets.",
+    "pos": "noun",
+    "topic": "Teatr və kino",
+    "anchor": "teatr"
+  },
+  {
+    "w": "pantomima",
+    "az": "Fikir və hadisələrin sözsüz, bədən hərəkətləri ilə ifadə olunduğu sənət.",
+    "en": "Pantomime: performance conveying meaning through movement without speech.",
+    "pos": "noun",
+    "topic": "Teatr və kino",
+    "anchor": "teatr"
+  },
+  {
+    "w": "tragikomediya",
+    "az": "Faciəvi və komik ünsürləri birləşdirən dramatik əsər və ya janr.",
+    "en": "Tragicomedy: a dramatic work combining tragic and comic elements.",
+    "pos": "noun",
+    "topic": "Teatr və kino",
+    "anchor": "teatr"
+  },
+  {
+    "w": "intermediya",
+    "az": "Böyük tamaşanın hissələri arasında oynanılan qısa səhnəcik.",
+    "en": "An interlude: a short dramatic piece performed between parts of a larger production.",
+    "pos": "noun",
+    "topic": "Teatr və kino",
+    "anchor": "teatr"
+  },
+  {
+    "w": "interlüdiya",
+    "az": "Əsərin bölmələri arasında səslənən qısa musiqi parçası.",
+    "en": "An interlude: a short musical passage between sections of a larger work.",
+    "pos": "noun",
+    "topic": "Musiqi",
+    "anchor": "musiqi"
+  },
+  {
+    "w": "eksplikasiya",
+    "az": "Rejissorun tamaşa və ya film barədə bədii niyyətini açıqlayan yazılı izah.",
+    "en": "A director's written explanation of a production's artistic concept.",
+    "pos": "noun",
+    "topic": "Teatr və kino",
+    "anchor": "teatr"
+  },
+  {
+    "w": "remarka",
+    "az": "Dramatik mətndə hərəkəti, məkanı və ifa tərzini bildirən müəllif qeydi.",
+    "en": "A stage direction: an author's instruction about action, setting, or delivery.",
+    "pos": "noun",
+    "topic": "Teatr və kino",
+    "anchor": "teatr"
+  },
+  {
+    "w": "rəqqaslıq",
+    "az": "Rəqs ifa etmək sənəti və peşə fəaliyyəti.",
+    "en": "Dancing as an art or profession.",
+    "pos": "noun",
+    "topic": "Teatr və kino",
+    "anchor": "teatr"
+  },
+  {
+    "w": "xəttatlıq",
+    "az": "Hərfləri gözəl və ifadəli şəkildə yazmaq sənəti.",
+    "en": "Calligraphy: the art of beautiful and expressive lettering.",
+    "pos": "noun",
+    "topic": "Təsviri sənət",
+    "anchor": "rəssamlıq"
+  },
+  {
+    "w": "monotipiya",
+    "az": "Boyalanmış səthdən adətən yalnız bir əsas iz alınan çap üsulu.",
+    "en": "Monotype: a printmaking process normally producing one principal impression.",
+    "pos": "noun",
+    "topic": "Təsviri sənət",
+    "anchor": "rəssamlıq"
+  },
+  {
+    "w": "ofort",
+    "az": "Metal lövhədə turşu ilə işlənmiş xətlərdən çap alma üsulu və belə çap.",
+    "en": "Etching: a printmaking technique using acid to incise lines into a metal plate.",
+    "pos": "noun",
+    "topic": "Təsviri sənət",
+    "anchor": "rəssamlıq"
+  },
+  {
+    "w": "kollaj",
+    "az": "Müxtəlif material parçalarını bir səthdə birləşdirərək yaradılan əsər.",
+    "en": "Collage: an artwork assembled by attaching different materials to a surface.",
+    "pos": "noun",
+    "topic": "Təsviri sənət",
+    "anchor": "rəssamlıq"
+  },
+  {
+    "w": "performans",
+    "az": "Sənətkarın hərəkəti və iştirakı əsasında qurulan canlı bədii təqdimat.",
+    "en": "Performance art: a live artwork built around actions and the artist's presence.",
+    "pos": "noun",
+    "topic": "Təsviri sənət",
+    "anchor": "rəssamlıq"
+  },
+  {
+    "w": "ekspressionizm",
+    "az": "Daxili hissləri güclü, bəzən təhrif olunmuş formalarla ifadə edən sənət cərəyanı.",
+    "en": "Expressionism: an artistic movement using intensified or distorted forms to convey inner emotion.",
+    "pos": "noun",
+    "topic": "Təsviri sənət",
+    "anchor": "rəssamlıq"
+  },
+  {
+    "w": "sürrealizm",
+    "az": "Yuxu və şüuraltı assosiasiyaları gözlənilməz obrazlarla birləşdirən sənət cərəyanı.",
+    "en": "Surrealism: an artistic movement exploring dreams and unconscious associations.",
+    "pos": "noun",
+    "topic": "Təsviri sənət",
+    "anchor": "rəssamlıq"
+  },
+  {
+    "w": "konstruktivizm",
+    "az": "Sənətdə həndəsi quruluşu, materialı və funksiyanı önə çəkən cərəyan.",
+    "en": "Constructivism: an artistic movement emphasizing geometric structure, materials, and function.",
+    "pos": "noun",
+    "topic": "Təsviri sənət",
+    "anchor": "rəssamlıq"
+  },
+  {
+    "w": "postmodernizm",
+    "az": "Vahid üslub və dəyişməz həqiqət iddialarını sorğulayan mədəni və nəzəri yanaşmalar.",
+    "en": "Postmodernism: cultural and theoretical approaches questioning unified styles and fixed truths.",
+    "pos": "noun",
+    "topic": "Təsviri sənət",
+    "anchor": "rəssamlıq"
+  },
+  {
+    "w": "minimalizm",
+    "az": "İfadəni az sayda forma, rəng və vasitə ilə quran sənət yanaşması.",
+    "en": "Minimalism: an artistic approach using a reduced range of forms and means.",
+    "pos": "noun",
+    "topic": "Təsviri sənət",
+    "anchor": "rəssamlıq"
+  },
+  {
+    "w": "konseptualizm",
+    "az": "Sənət əsərində maddi formadan çox ideyanı əsas sayan yanaşma.",
+    "en": "Conceptualism: an approach to art that gives priority to the underlying idea.",
+    "pos": "noun",
+    "topic": "Təsviri sənət",
+    "anchor": "rəssamlıq"
+  },
+  {
+    "w": "neorealizm",
+    "az": "Gündəlik həyatı və sosial şəraiti təbii tərzdə göstərməyə yönələn sənət cərəyanı.",
+    "en": "Neorealism: an artistic movement depicting everyday life and social conditions with naturalism.",
+    "pos": "noun",
+    "topic": "Təsviri sənət",
+    "anchor": "rəssamlıq"
+  },
+  {
+    "w": "zərgərlik",
+    "az": "Qiymətli metal və daşlardan bəzək əşyaları hazırlamaq sənəti.",
+    "en": "Jewellery-making: crafting ornaments from precious metals and stones.",
+    "pos": "noun",
+    "topic": "Sənətkarlıq",
+    "anchor": "sənət"
+  },
+  {
+    "w": "misgərlik",
+    "az": "Misdən qab və başqa əşyalar düzəltmək sənəti.",
+    "en": "Coppersmithing: crafting vessels and other objects from copper.",
+    "pos": "noun",
+    "topic": "Sənətkarlıq",
+    "anchor": "sənət"
+  },
+  {
+    "w": "xalçaçılıq",
+    "az": "Xalça toxuma sənəti və istehsal fəaliyyəti.",
+    "en": "Carpet weaving: the craft and production of woven carpets.",
+    "pos": "noun",
+    "topic": "Sənətkarlıq",
+    "anchor": "sənət"
+  },
+  {
+    "w": "naxışbəndlik",
+    "az": "Səth və əşyaları naxışla bəzəmək sənəti.",
+    "en": "Ornamental decoration: the craft of decorating surfaces and objects with patterns.",
+    "pos": "noun",
+    "topic": "Sənətkarlıq",
+    "anchor": "sənət"
+  },
+  {
+    "w": "nəqqaşlıq",
+    "az": "Divar, kitab və əşyalar üzərində bədii naxış və təsvir yaratmaq sənəti.",
+    "en": "Decorative painting: creating painted patterns and images on surfaces and objects.",
+    "pos": "noun",
+    "topic": "Sənətkarlıq",
+    "anchor": "sənət"
+  },
+  {
+    "w": "şəbəkəçilik",
+    "az": "Ağac hissələr və rəngli şüşələrdən həndəsi bəzəkli şəbəkə qurmaq sənəti.",
+    "en": "Shebeke craft: assembling geometric wooden latticework with coloured glass.",
+    "pos": "noun",
+    "topic": "Sənətkarlıq",
+    "anchor": "sənət"
+  },
+  {
+    "w": "miniatürçülük",
+    "az": "Kiçik ölçülü, incə işlənmiş təsvirlər yaratmaq sənəti.",
+    "en": "Miniature painting: the art of creating finely detailed small-scale images.",
+    "pos": "noun",
+    "topic": "Sənətkarlıq",
+    "anchor": "sənət"
+  },
+  {
+    "w": "qurama",
+    "az": "Müxtəlif parça hissələrini birləşdirməklə naxışlı məmulat yaratma üsulu.",
+    "en": "Patchwork: making patterned textiles by joining pieces of fabric.",
+    "pos": "noun",
+    "topic": "Sənətkarlıq",
+    "anchor": "sənət"
+  },
+  {
+    "w": "təkəlduz",
+    "az": "Qarmaqlı iynə ilə parça üzərində zəncirvari ilmələr salınan bədii tikmə üsulu.",
+    "en": "Tekelduz: decorative chain-stitch embroidery made with a hooked needle.",
+    "pos": "noun",
+    "topic": "Sənətkarlıq",
+    "anchor": "sənət"
+  },
+  {
+    "w": "basmanaxış",
+    "az": "Qəlib vasitəsilə parça və ya başqa səth üzərinə salınan naxış.",
+    "en": "A block-printed pattern applied to fabric or another surface.",
+    "pos": "noun",
+    "topic": "Sənətkarlıq",
+    "anchor": "sənət"
+  },
+  {
+    "w": "ozanlıq",
+    "az": "Ənənəvi şifahi dastan söyləyib musiqi ilə təqdim etmək sənəti.",
+    "en": "The art of the ozan: traditional oral epic narration with musical performance.",
+    "pos": "noun",
+    "topic": "Sənətkarlıq",
+    "anchor": "sənət"
+  },
+  {
+    "w": "şirniyyatçılıq",
+    "az": "Şirin qida və desertlər hazırlamaq sənəti və istehsal sahəsi.",
+    "en": "Confectionery-making: preparing sweets and desserts as a craft or trade.",
+    "pos": "noun",
+    "topic": "Mətbəx",
+    "anchor": "mətbəx"
+  },
+  {
+    "w": "qənnadıçılıq",
+    "az": "Şəkərli məmulat, tort və başqa şirin bişirmələr hazırlamaq fəaliyyəti.",
+    "en": "Confectionery production: making cakes, pastries, and other sweet products.",
+    "pos": "noun",
+    "topic": "Mətbəx",
+    "anchor": "mətbəx"
+  },
+  {
+    "w": "kulinariya",
+    "az": "Yeməklərin hazırlanması üsullarını əhatə edən sənət və bilik sahəsi.",
+    "en": "Cookery: the art and knowledge of preparing food.",
+    "pos": "noun",
+    "topic": "Mətbəx",
+    "anchor": "mətbəx"
+  },
+  {
+    "w": "qastronomiya",
+    "az": "Yemək mədəniyyəti, dad və qida hazırlama ənənələri haqqında sahə.",
+    "en": "Gastronomy: the study and appreciation of food, taste, and culinary traditions.",
+    "pos": "noun",
+    "topic": "Mətbəx",
+    "anchor": "mətbəx"
+  },
+  {
+    "w": "nuqa",
+    "az": "Adətən şəkər və ya bal, yumurta ağı və çərəzlə hazırlanan şirin məmulat.",
+    "en": "Nougat: a sweet usually made with sugar or honey, egg white, and nuts.",
+    "pos": "noun",
+    "topic": "Mətbəx",
+    "anchor": "mətbəx"
+  },
+  {
+    "w": "sufle",
+    "az": "Çalınmış yumurta hesabına bişərkən qalxan yüngül yemək və ya desert.",
+    "en": "Soufflé: a light baked dish that rises through incorporated beaten egg.",
+    "pos": "noun",
+    "topic": "Mətbəx",
+    "anchor": "mətbəx"
+  },
+  {
+    "w": "kuskus",
+    "az": "Buğda yarmasından hazırlanan xırda dənəciklər və onlarla bişirilən yemək.",
+    "en": "Couscous: small granules made from wheat semolina, or a dish prepared with them.",
+    "pos": "noun",
+    "topic": "Mətbəx",
+    "anchor": "mətbəx"
+  },
+  {
+    "w": "humus",
+    "az": "Bişmiş noxud, tahin və başqa əlavələrdən hazırlanan əzmə; torpaqda üzvi maddə qatı mənası da var.",
+    "en": "Hummus: a chickpea and tahini spread; the same spelling can also refer to soil humus.",
+    "pos": "noun",
+    "topic": "Mətbəx",
+    "anchor": "mətbəx"
+  },
+  {
+    "w": "muskat",
+    "az": "Meyvəsinin toxumu ətirli ədviyyə kimi işlədilən bitki və onun ədviyyəsi.",
+    "en": "Nutmeg: the aromatic seed of a tropical tree, used as a spice.",
+    "pos": "noun",
+    "topic": "Mətbəx",
+    "anchor": "mətbəx"
+  },
+  {
+    "w": "zirə",
+    "az": "Ətirli toxumları yeməklərə ədviyyə kimi əlavə edilən bitki.",
+    "en": "Cumin: a plant whose aromatic seeds are used as a spice.",
+    "pos": "noun",
+    "topic": "Mətbəx",
+    "anchor": "mətbəx"
+  },
+  {
+    "w": "rozmarin",
+    "az": "İynəvari yarpaqları ədviyyə kimi işlədilən ətirli həmişəyaşıl kol.",
+    "en": "Rosemary: an aromatic evergreen shrub with needle-like leaves used in cooking.",
+    "pos": "noun",
+    "topic": "Mətbəx",
+    "anchor": "mətbəx"
+  },
+  {
+    "w": "iradəlilik",
+    "az": "Çətinliklərə baxmayaraq qərarı həyata keçirməkdə möhkəmlik.",
+    "en": "Willpower: firmness in carrying out a decision despite difficulty.",
+    "pos": "noun",
+    "topic": "Davranış və ünsiyyət",
+    "anchor": "insan"
+  },
+  {
+    "w": "çeviklik",
+    "az": "Dəyişən şəraitə tez uyğunlaşmaq və ya cəld hərəkət etmək qabiliyyəti.",
+    "en": "Agility: the ability to move quickly or adapt readily to changing circumstances.",
+    "pos": "noun",
+    "topic": "Davranış və ünsiyyət",
+    "anchor": "insan"
+  },
+  {
+    "w": "məsuliyyətlilik",
+    "az": "Üzərinə götürdüyü işə və onun nəticələrinə ciddi yanaşmaq xüsusiyyəti.",
+    "en": "Responsibility: a conscientious attitude toward one's duties and their consequences.",
+    "pos": "noun",
+    "topic": "Davranış və ünsiyyət",
+    "anchor": "insan"
+  },
+  {
+    "w": "vicdanlılıq",
+    "az": "İşi və davranışı dürüstlük və mənəvi məsuliyyət hissi ilə yerinə yetirmə.",
+    "en": "Conscientiousness: acting honestly and with a sense of moral responsibility.",
+    "pos": "noun",
+    "topic": "Davranış və ünsiyyət",
+    "anchor": "insan"
+  },
+  {
+    "w": "mərhəmətlilik",
+    "az": "Başqasının əzabına həssas yanaşıb ona kömək etməyə meyil.",
+    "en": "Compassion: sensitivity to another's suffering with a wish to help.",
+    "pos": "noun",
+    "topic": "Davranış və ünsiyyət",
+    "anchor": "insan"
+  },
+  {
+    "w": "mehribanlıq",
+    "az": "Başqalarına isti, səmimi və xoş münasibət göstərmək xüsusiyyəti.",
+    "en": "Kindliness: a warm, friendly, and affectionate manner toward others.",
+    "pos": "noun",
+    "topic": "Davranış və ünsiyyət",
+    "anchor": "insan"
+  },
+  {
+    "w": "qayğıkeşlik",
+    "az": "Başqasının ehtiyac və rifahına diqqətlə yanaşmaq xüsusiyyəti.",
+    "en": "Caring: attentive concern for another person's needs and well-being.",
+    "pos": "noun",
+    "topic": "Davranış və ünsiyyət",
+    "anchor": "insan"
+  },
+  {
+    "w": "şəfqətlilik",
+    "az": "Zəif və çətin vəziyyətdə olanlara yumşaq, anlayışlı münasibət.",
+    "en": "Tender compassion: a gentle and understanding attitude toward vulnerable people.",
+    "pos": "noun",
+    "topic": "Davranış və ünsiyyət",
+    "anchor": "insan"
+  },
+  {
+    "w": "əməksevərlik",
+    "az": "İşə həvəslə yanaşmaq və davamlı zəhmət göstərmək xüsusiyyəti.",
+    "en": "Industriousness: a willingness to work diligently and persistently.",
+    "pos": "noun",
+    "topic": "Davranış və ünsiyyət",
+    "anchor": "insan"
+  },
+  {
+    "w": "humanistlik",
+    "az": "İnsan ləyaqətini və rifahını əsas dəyər sayan münasibət.",
+    "en": "Humaneness: an outlook that values human dignity and welfare.",
+    "pos": "noun",
+    "topic": "Davranış və ünsiyyət",
+    "anchor": "insan"
+  },
+  {
+    "w": "işgüzarlıq",
+    "az": "Fəaliyyətə təşəbbüslə, səmərəli və praktik yanaşmaq xüsusiyyəti.",
+    "en": "Enterprise and diligence: an active, practical approach to getting work done.",
+    "pos": "noun",
+    "topic": "Davranış və ünsiyyət",
+    "anchor": "insan"
+  },
+  {
+    "w": "natiqlik",
+    "az": "Fikri dinləyiciyə aydın və təsirli çatdırmaq üçün nitq söyləmə sənəti.",
+    "en": "Oratory: the art of speaking clearly and persuasively to an audience.",
+    "pos": "noun",
+    "topic": "Davranış və ünsiyyət",
+    "anchor": "insan"
+  },
+  {
+    "w": "tərcüməçilik",
+    "az": "Məzmunu bir dildən başqa dilə çatdırmaq fəaliyyəti və peşəsi.",
+    "en": "Translation or interpreting as an activity and profession.",
+    "pos": "noun",
+    "topic": "Kitab və mətn",
+    "anchor": "kitab"
+  },
+  {
+    "w": "redaktorluq",
+    "az": "Mətnin məzmununu, quruluşunu və ifadəsini nəşrə hazırlamaq işi.",
+    "en": "Editing: preparing a text for publication by improving its content and expression.",
+    "pos": "noun",
+    "topic": "Kitab və mətn",
+    "anchor": "kitab"
+  },
+  {
+    "w": "korrektorluq",
+    "az": "Nəşrə hazırlanan mətndə yazı və çap xətalarını tapıb düzəltmək işi.",
+    "en": "Proofreading: identifying and correcting typographical and textual errors before publication.",
+    "pos": "noun",
+    "topic": "Kitab və mətn",
+    "anchor": "kitab"
+  },
+  {
+    "w": "korrektura",
+    "az": "Çapdan əvvəl yoxlama üçün hazırlanan mətn nümunəsi və onun düzəlişi.",
+    "en": "A proof and its correction before final printing or publication.",
+    "pos": "noun",
+    "topic": "Kitab və mətn",
+    "anchor": "kitab"
+  },
+  {
+    "w": "annotasiya",
+    "az": "Əsərin mövzusu və məzmunu haqqında qısa məlumat verən mətn.",
+    "en": "An annotation or abstract: a brief description of a work's subject and content.",
+    "pos": "noun",
+    "topic": "Kitab və mətn",
+    "anchor": "kitab"
+  },
+  {
+    "w": "resenziya",
+    "az": "Kitab, əsər və ya araşdırma haqqında təhlil və qiymətləndirmə yazısı.",
+    "en": "A review: a written analysis and evaluation of a book, artwork, or study.",
+    "pos": "noun",
+    "topic": "Kitab və mətn",
+    "anchor": "kitab"
+  },
+  {
+    "w": "referat",
+    "az": "Mövzu üzrə mənbələrin əsas məzmununu ümumiləşdirən yazılı iş.",
+    "en": "A summary report presenting the main information from sources on a topic.",
+    "pos": "noun",
+    "topic": "Kitab və mətn",
+    "anchor": "kitab"
+  },
+  {
+    "w": "əlyazmaşünaslıq",
+    "az": "Əlyazmaların tarixini, quruluşunu və mətn xüsusiyyətlərini öyrənən sahə.",
+    "en": "Manuscript studies: the study of manuscripts' history, form, and textual features.",
+    "pos": "noun",
+    "topic": "Kitab və mətn",
+    "anchor": "kitab"
+  },
+  {
+    "w": "paleoqrafiya",
+    "az": "Qədim yazı formalarını oxumaq və tarixləndirmək üçün öyrənən elm.",
+    "en": "Palaeography: the study of historical handwriting and its interpretation.",
+    "pos": "noun",
+    "topic": "Kitab və mətn",
+    "anchor": "kitab"
+  },
+  {
+    "w": "ekslibris",
+    "az": "Kitabın kimə məxsus olduğunu göstərən bədii nişan və ya kiçik etiket.",
+    "en": "A bookplate: an ownership label, often artistically designed, placed inside a book.",
+    "pos": "noun",
+    "topic": "Kitab və mətn",
+    "anchor": "kitab"
+  },
+  {
+    "w": "ekspozisiya",
+    "az": "Muzeydə və ya sərgidə müəyyən qayda ilə təqdim olunan əşyalar toplusu.",
+    "en": "An exhibition display: objects arranged for presentation in a museum or gallery.",
+    "pos": "noun",
+    "topic": "Muzey və kolleksiya",
+    "anchor": "mədəniyyət"
+  },
+  {
+    "w": "eksponat",
+    "az": "Muzeydə və ya sərgidə nümayiş etdirilən əşya.",
+    "en": "An exhibit: an object displayed in a museum or exhibition.",
+    "pos": "noun",
+    "topic": "Muzey və kolleksiya",
+    "anchor": "mədəniyyət"
+  },
+  {
+    "w": "numizmatika",
+    "az": "Sikkələri, onların tarixini və pul dövriyyəsini öyrənən sahə.",
+    "en": "Numismatics: the study of coins and the history of currency.",
+    "pos": "noun",
+    "topic": "Muzey və kolleksiya",
+    "anchor": "mədəniyyət"
+  },
+  {
+    "w": "faleristika",
+    "az": "Orden, medal və digər təltif nişanlarını öyrənmə və toplama sahəsi.",
+    "en": "Phaleristics: the study and collection of orders, medals, and decorations.",
+    "pos": "noun",
+    "topic": "Muzey və kolleksiya",
+    "anchor": "mədəniyyət"
+  },
+  {
+    "w": "filokartiya",
+    "az": "Açıqcaları toplamaq və öyrənmək məşğuliyyəti.",
+    "en": "Deltiology: the study and collection of postcards.",
+    "pos": "noun",
+    "topic": "Muzey və kolleksiya",
+    "anchor": "mədəniyyət"
+  }
+]

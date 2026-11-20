@@ -1,0 +1,145 @@
+Imported lexicon attribution and license
+
+Source: English Wiktionary contributors, extracted by Wiktextract and distributed
+by Tatu Ylonen / Kaikki.org.
+https://kaikki.org/dictionary/Azerbaijani/index.html
+https://en.wiktionary.org/wiki/Wiktionary:Copyrights
+
+The imported and adapted dictionary material in lexicon.js is made available
+under the Creative Commons Attribution-ShareAlike 4.0 International license:
+https://creativecommons.org/licenses/by-sa/4.0/
+
+Attribution for each entry: https://en.wiktionary.org/wiki/HEADWORD#Azerbaijani
+where HEADWORD is the entry's source headword, stored as metadata.head.
+The corresponding page's History tab lists its contributors. Forms link to their
+headword, where their declension table is documented. The app links each imported
+entry to that source. No endorsement by Wiktionary or Kaikki is implied.
+
+Adaptations: Latin-script filtering; omission of names, affixes and unsupported
+scripts; deduplication; selection of up to five senses; explicit lexical links;
+selected plural/locative/ablative forms from the source tables; compact data layout;
+Azerbaijani explanatory labels for morphology. English glosses are not presented
+as Azerbaijani translations. Quoted examples were not imported.
+
+Snapshot and SHA-256: see lexicon-attribution.json.
+This notice covers imported dictionary material, not the separate user-supplied
+data.js collection or the site's application code.
+
+Supplemental vocabulary and grammar views (November 2026)
+
+vocabulary.js also adapts Azerbaijani entries by the contributors to Turkish and
+Russian Wiktionary, extracted by Wiktextract and distributed by Kaikki:
+https://kaikki.org/trwiktionary/Azerice/index.html
+https://kaikki.org/ruwiktionary/Азербайджанский/index.html
+https://tr.wiktionary.org/wiki/Vikisözlük:Telif_hakları
+https://ru.wiktionary.org/wiki/Викисловарь:Авторские_права
+
+This adapted material is licensed CC BY-SA 4.0, as linked above. Each entry stores
+its edition and source headword; attribution is https://EDITION.wiktionary.org/wiki/HEADWORD
+and that page's History tab. See vocabulary-attribution.json for snapshot dates
+and SHA-256 hashes. Additional adaptations: lowercase Latin headwords only;
+deduplication against the existing collection; omission of explicit inflections,
+alternative forms, archaic/obsolete senses and non-infinitive verbs; source-language
+glosses retained and labeled; documented lexical connections only.
+
+grammar.js and grammar-archive.json separate verb-inflection senses from lexical
+senses without modifying data.js or lexicon.js. Negative infinitives are archived;
+derived passive/causative infinitives remain in the main dictionary. Homonymous
+nouns, adjectives and other independent lexical senses are retained. Selected
+explicit conjugation-table entries are included in the archive. Source-language
+glosses and grammatical tags are retained; the archive is not a complete grammar.
+grammar-archive.json also preserves the original associated rows and relationships.
+Source attribution and CC BY-SA 4.0 apply to the imported parts of this archive.
+
+Additional vocabulary and relationship review (November 2026)
+
+review.js additionally adapts Azerbaijani entries by the contributors to French,
+German and Kurdish Wiktionary, under CC BY-SA 4.0:
+https://kaikki.org/frwiktionary/Azéri/index.html
+https://kaikki.org/dewiktionary/Aserbaidschanisch/index.html
+https://kaikki.org/kuwiktionary/Azerî/index.html
+
+Per-entry attribution uses the stored edition and headword at
+https://EDITION.wiktionary.org/wiki/HEADWORD (and that page's History tab).
+541 new English-glossed terms come from explicit derived/related-term listings;
+they link to the source entry containing that listing. Additional filtering
+excludes negative infinitives, verb inflections listed in conjugation tables,
+explicit obsolete/archaic/alternative forms and unsupported scripts.
+
+Adaptations also retain per-relationship sense/register information and apply
+11 documented editorial corrections and a reviewed temporal-sense family.
+No global transitive closure is applied. The original imported files are preserved.
+See relationship-audit.json for source hashes, versions, references and corrections.
+
+Bilingual display layer (November 2026)
+
+bilingual.js translates the imported dictionary senses into Azerbaijani and English
+using cached Google Translate and AI-assisted translations, with a separate set of edited
+bilingual definitions. Original Wiktionary edition/headword attribution remains
+on each entry and source files are unchanged. The translations are adaptations
+of the CC BY-SA 4.0 dictionary material and are distributed under that license.
+See bilingual-attribution.json for coverage, method, date and the cache SHA-256.
+The application performs no runtime translation requests. Machine-translated
+primary entries are marked; this is not a linguist-verified dictionary edition.
+
+Editorial vocabulary and learning content (2026-11-14)
+----------------------------------------------------
+expansion.js adds 795 distinct lexical entries with newly authored Azerbaijani
+and English definitions. These AI-assisted editorial definitions and the quiz
+clues in learning-data.js are provided under CC BY-SA 4.0. References recorded
+in expansion-attribution.json document selected spelling and terminology checks;
+the definitions do not reproduce those reference works. No complete professional
+linguistic review is claimed. New graph links indicate topic only. The earlier
+dictionary data and grammar archive are unchanged.
+
+Nominal form separation (2026-11-14)
+------------------------------------
+nominal.js and nominal-archive.json separate documented grammatical inflections
+from lexical headwords using the same English Wiktionary snapshot recorded in
+lexicon-attribution.json. Original source rows, relationships, senses and tags
+are preserved. Bilingual form explanations are templated adaptations of these
+analyses. Independent lexical senses use the existing translation layer plus
+three supplemental AI-assisted translations. Explicit source corrections and
+headword counts are recorded in word-count.json and the reproducible scripts.
+These adaptations are distributed under CC BY-SA 4.0 with Wiktionary attribution.
+The earlier data files and 991-record verb archive are unchanged.
+
+Persistent atlas (2026-11-14)
+-----------------------------
+The editorial navigation taxonomy and computed coordinates in galaxy-data.js
+are adaptations for exploring the existing dictionary collection. They do not
+add synonym, root or etymology assertions. The original dictionary relationship
+and attribution layers remain unchanged. See galaxy-attribution.json for method
+coverage, limitations and source hash. The taxonomy and atlas data are provided
+under CC BY-SA 4.0 alongside the existing dictionary adaptations.
+
+2026-11-14 gathering update: 567 new single-word headwords in additions.js, with original AI-assisted Azerbaijani and English definitions, CC BY-SA 4.0. Only topic connections were added. Five spelling variants were excluded. See additions-attribution.json for method, limited terminology checks and preservation hashes. No original data, grammatical archives, daily sequence or quiz content were changed. Galaxy coordinates from the previous atlas are retained exactly; close-up gathering uses temporary display positions.
+
+2026-11-17 vocabulary and root-family expansion
+------------------------------------------------
+growth.js adds 617 distinct lexical entries with Azerbaijani and English glosses,
+from Spanish, Polish, Portuguese, Greek, Korean, Chinese and Azerbaijani
+Wiktionary editions. Wiktionary contributors retain attribution under CC BY-SA
+4.0; per-entry source URLs and native-page revision IDs are recorded in
+growth-attribution.json. Native glosses are short newly authored paraphrases.
+Other glosses are machine-assisted translations, with explicit editorial fixes.
+The same file documents 1,748 reviewed root families, compound leaf memberships,
+sense-specific semantic decisions, held source errors and one corrected earlier
+definition. Root siblings share a lexical base but need not derive directly from
+one another. Topic associations do not assert synonymy. The original dictionary
+layers and grammar archives are preserved. This is a source-assisted expansion,
+not a claim that every sense and relation has received professional validation.
+The editorial adaptations and new paraphrases are shared under CC BY-SA 4.0.
+
+2026-11-17 dictionary and relationship audit
+------------------------------------------
+verification.js is an additive editorial correction layer. Each changed entry
+has short Azerbaijani and English paraphrases and source citations in
+verification-attribution.json; verification-report.html explains the scope,
+changes and unresolved cases. Wiktionary adaptations retain contributor
+attribution under CC BY-SA 4.0. New editorial explanations are also CC BY-SA 4.0.
+The 2006 four-volume Azərbaycan dilinin izahlı lüğəti and other dictionary
+references were consulted to compare factual senses; their full entries,
+extracted database and book prose are not redistributed. Comparisons are
+AI-assisted, sense-specific and not a professional linguistic certification.
+Original source layers and grammar archives remain preserved.

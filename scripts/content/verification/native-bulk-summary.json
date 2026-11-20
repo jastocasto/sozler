@@ -1,0 +1,9 @@
+{
+  "source": "https://dumps.wikimedia.org/azwiktionary/latest/azwiktionary-latest-pages-articles.xml.bz2",
+  "sha256": "fde6c52d9836f9a455ece44d6fb7e899a6e16ea22b2a9173e1b3fd85630adaed",
+  "bytes": 8249282,
+  "pages_scanned": 64397,
+  "matched_titles": 4528,
+  "matched_with_glosses": 4013,
+  "api_policy": "Bulk dump used after API rate limit; individual bulk API querying stopped."
+}

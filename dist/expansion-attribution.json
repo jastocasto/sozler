@@ -1,0 +1,511 @@
+{
+  "meta": {
+    "added_entries": 795,
+    "single_words": 732,
+    "multiword_terms": 63,
+    "display_languages": [
+      "az",
+      "en"
+    ],
+    "created_at": "2026-11-14",
+    "method": "Original AI-assisted editorial definitions. Spelling and terminology spot-checks are documented separately; the full set has not been reviewed by a linguist.",
+    "relationships": "Topic links only. No inferred synonyms, antonyms, roots, or conjugations.",
+    "topics": {
+      "biologiya": 66,
+      "enerji": 4,
+      "fizika": 44,
+      "tibb": 142,
+      "kimya": 22,
+      "ekologiya": 38,
+      "genetika": 17,
+      "sinir sistemi": 11,
+      "iqlim": 2,
+      "təbiət": 1,
+      "İnformatika": 86,
+      "Elektronika": 44,
+      "Maliyyə və iqtisadiyyat": 80,
+      "Mühəndislik və istehsal": 26,
+      "Dilçilik": 21,
+      "Təhsil": 22,
+      "Psixologiya": 24,
+      "Mədəniyyət": 19,
+      "Ədəbiyyat": 24,
+      "Kitab və mətn": 11,
+      "Musiqi": 27,
+      "Teatr və kino": 14,
+      "Təsviri sənət": 12,
+      "Sənətkarlıq": 11,
+      "Mətbəx": 11,
+      "Davranış və ünsiyyət": 12,
+      "Muzey və kolleksiya": 4
+    },
+    "preserved_files": {
+      "data.js": "8a0c16c7eea3864cef98c2998a309429aedbd8b03b24aa999bedb4ce21c3dc2c",
+      "lexicon.js": "4892b9ea14bc143a77686cdb08955b14b16b4f98025d803bd75e3806d575cadb",
+      "vocabulary.js": "70c535968192884e10446ee0cf548a5adfa4da6b68038ccd5ac426f3500b5656",
+      "review.js": "10777b497b53b6fe8fd1e51afd0ae5ff0024e2220ca6b5aa864cf02dc3be83de",
+      "bilingual.js": "5fe2b41c59a8d461b25458ed4ba41b6d50055caa3f58fef414d7864000b4bc29",
+      "grammar.js": "2a94e6a60421f78b6fbb6cbd161029017d0e63e279a1ef55c670a8e0c65c8ccb",
+      "grammar-archive.json": "84d3b6d628c4e601896c23aa412d55b2051c9d6295712c2fb30a8eefb4a1b75d"
+    }
+  },
+  "references": [
+    {
+      "category": "science",
+      "notes": {
+        "method": "AI-assisted editorial definitions, written in Azerbaijani and English. No claimed professional linguistic review.",
+        "selection": "350 established scientific and medical headwords, all absent from the prior dictionary under NFC/case-insensitive matching. 349 are single words; one is an established multiword term; no conjugations or generated plural/case forms. Links are broad topic associations, not synonym or etymology assertions.",
+        "verification": "Definitions reviewed for internal factual consistency. Limited external checks confirm selected technical spellings and usage; the references are not a claim that every entry was sourced or professionally verified.",
+        "references": [
+          {
+            "url": "https://azerbaycandili.az/Vocabularies/Download/6022/Orfoqrafiya_15.03.2021.pdf",
+            "purpose": "Orthographic dictionary search result confirms biolüminessensiya.",
+            "terms": [
+              "biolüminessensiya"
+            ]
+          },
+          {
+            "url": "https://e-health.gov.az/media/medical_terminology/terminologiya-I-P.pdf",
+            "purpose": "Medical terminology dictionary confirms osmorequlyasiya and its regulation-of-body-fluids meaning.",
+            "terms": [
+              "osmorequlyasiya"
+            ]
+          },
+          {
+            "url": "https://www.dendrologiya.gov.az/meqale.php?id=29",
+            "purpose": "Azerbaijani scientific usage of fitoremediasiya.",
+            "terms": [
+              "fitoremediasiya"
+            ]
+          },
+          {
+            "url": "https://botany.az/uploads/Dissertasiya%20son-%20-%20M.Abbasov%20-%20%202021.pdf",
+            "purpose": "Azerbaijani scientific usage of sekvensləmə.",
+            "terms": [
+              "sekvensləmə"
+            ]
+          },
+          {
+            "url": "https://dim.gov.az/upload_docs/pdf_derslikler/Cografiya_6_Az.pdf",
+            "purpose": "School geography terminology confirms higrometr as a humidity-measuring device.",
+            "terms": [
+              "higrometr"
+            ]
+          },
+          {
+            "url": "https://azleks.az/dictionary/accelerometer",
+            "purpose": "Bilingual dictionary confirms akselerometr.",
+            "terms": [
+              "akselerometr"
+            ]
+          },
+          {
+            "url": "https://amu.edu.az/page/281/azerbaycan-tibb-universitetinin-mualice-profilaktika-herbi-tibb-tibbi-profilaktika-ve-stomatologiya-fakulteleri-ucun-sitologiya-embriologiya-ve-histologiya-fenleri-uzre-tedris-proqrami",
+            "purpose": "University histology programme confirms sitozol terminology.",
+            "terms": [
+              "sitozol"
+            ]
+          },
+          {
+            "url": "https://science.gov.az/az/news/open/37290",
+            "purpose": "Academy of Sciences usage confirms maqnetar, used to correct the initial magnetar spelling.",
+            "terms": [
+              "maqnetar"
+            ]
+          },
+          {
+            "url": "https://azstand.gov.az/uploads/documents/145121940665ba382d6122a.pdf",
+            "purpose": "Azerbaijani standard uses karbon neytrallığı, replacing the unsupported closed compound.",
+            "terms": [
+              "karbon neytrallığı"
+            ]
+          },
+          {
+            "url": "https://azeristilik.gov.az/az/istilik-techizati-haqqinda-qanunda-neler-var-azeristiliktechizat-asc-nin-sedri-ilham-mirzeliyev-musavatcom-a-danisdi",
+            "purpose": "Official utility discussion confirms enerjisəmərəlilik as a closed compound.",
+            "terms": [
+              "enerjisəmərəlilik"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "category": "technology",
+      "notes": {
+        "method": "AI-assisted editorial definitions, written in Azerbaijani and English; no automatic translation service used.",
+        "review_scope": "All entries were checked for uniqueness against the existing dataset, nonempty bilingual explanations, and valid topic anchors. The references below are terminology usage and spelling spot-checks, not proof that every definition was reviewed by a linguist.",
+        "relationship_policy": "Only topic anchors are supplied. No synonym, antonym, or etymological relationship is asserted.",
+        "references": [
+          {
+            "url": "https://dilcilik.az/kitabxana/arasdirmalar/M%C3%BCst%C9%99qillik%20ill%C9%99rind%C9%99%20beyn%C9%99lmil%C9%99l%20terminl%C9%99rin%20izahl%C4%B1%20l%C3%BC%C4%9F%C9%99ti%202022.pdf",
+            "terms": [
+              "kraudfandinq",
+              "kraudsorsinq"
+            ],
+            "purpose": "Terminology dictionary confirms Azerbaijani spellings."
+          },
+          {
+            "url": "https://ereforms.gov.az/az/media/xeberler/iqtisadi-islahatlarin-tehlili-ve-kommunikasiya-merkezi-bir-nece-vezife-uzre-vakansiya-elan-edir-962",
+            "terms": [
+              "konteynerləşdirmə",
+              "mikroservis"
+            ],
+            "purpose": "Azerbaijani institutional usage confirms established technical terms."
+          },
+          {
+            "url": "https://www.e-derslik.edu.az/noduploads/vet_pdf/elektronika.pdf",
+            "terms": [
+              "multipleksor",
+              "demultipleksor"
+            ],
+            "purpose": "Azerbaijani electronics teaching resource confirms terminology."
+          },
+          {
+            "url": "https://cbar.az/law-193/decision-no-32",
+            "terms": [
+              "faktorinq",
+              "forfeytinq",
+              "anderraytinq"
+            ],
+            "purpose": "Central Bank chart of accounts confirms terminology."
+          },
+          {
+            "url": "https://www.bankofbaku.com/az/kreditler/korporativ-kreditler/362",
+            "terms": [
+              "faktorinq"
+            ],
+            "purpose": "Bank description supports the financial sense."
+          },
+          {
+            "url": "https://azleks.az/en/dictionary/rekuperator",
+            "terms": [
+              "rekuperator",
+              "rekuperasiya"
+            ],
+            "purpose": "Dictionary entry confirms Azerbaijani terminology."
+          },
+          {
+            "url": "https://www.work.az/frilanserler",
+            "terms": [
+              "frilanser",
+              "kopirayter"
+            ],
+            "purpose": "Azerbaijani employment platform confirms occupational usage."
+          }
+        ],
+        "created_at": "2026-11-14",
+        "entries": 239,
+        "single_word_entries": 177,
+        "multiword_terms": 62
+      }
+    },
+    {
+      "category": "culture",
+      "notes": {
+        "method": "AI-assisted editorial definitions",
+        "description": "Definitions are newly authored in Azerbaijani and English; they are not copied from the cited spelling and usage references. Topic anchors indicate subject area only, not synonymy or morphological origin. No professional linguistic review is claimed.",
+        "entries": 213,
+        "single_word_entries": 213,
+        "sources": [
+          {
+            "url": "https://www.dilcilik.az/kitabxana/arasdirmalar/Orfoqrafiya_2021.pdf",
+            "title": "Azərbaycan dilinin orfoqrafiya lüğəti (2021)",
+            "purpose": "Spelling attestation for the listed headwords, not a source for the authored definitions",
+            "attested_headwords": [
+              "morfem",
+              "allomorf",
+              "allofon",
+              "morfonologiya",
+              "neyrolinqvistika",
+              "diskurs",
+              "semasiologiya",
+              "onomasiologiya",
+              "onomastika",
+              "antroponimika",
+              "etnonim",
+              "hidronim",
+              "fitonim",
+              "zoonim",
+              "mikrotoponim",
+              "çoxdillilik",
+              "bilinqvizm",
+              "monolinqvizm",
+              "didaktika",
+              "kurikulum",
+              "repetitorluq",
+              "təlimçi",
+              "qiymətləndirmə",
+              "formativ",
+              "summativ",
+              "inklüzivlik",
+              "refleksiya",
+              "özünütərbiyə",
+              "özünüqiymətləndirmə",
+              "şagirdyönümlülük",
+              "mükafatlandırma",
+              "stimullaşdırma",
+              "empatiya",
+              "emosional",
+              "özünüdərk",
+              "özünütənqid",
+              "özünüifadə",
+              "özünütənzimləmə",
+              "özünəinam",
+              "özünütəhlil",
+              "mentalitet",
+              "altruizm",
+              "eqosentrizm",
+              "introversiya",
+              "introvert",
+              "ekstravert",
+              "ambivalentlik",
+              "katarsis",
+              "etnopsixologiya",
+              "kulturologiya",
+              "multikulturalizm",
+              "etnosentrizm",
+              "mədəniyyətlərarası",
+              "kitabşünaslıq",
+              "mənbəşünaslıq",
+              "arxivşünaslıq",
+              "muzeyşünaslıq",
+              "sənətşünaslıq",
+              "teatrşünaslıq",
+              "kinoşünaslıq",
+              "epiqrafika",
+              "intertekstuallıq",
+              "retrospeksiya",
+              "povest",
+              "novella",
+              "sonet",
+              "anaqram",
+              "referativ",
+              "anafora",
+              "epifora",
+              "antiteza",
+              "alleqoriya",
+              "hermenevtika",
+              "semiotika",
+              "dekonstruksiya",
+              "poststrukturalizm",
+              "bəstəkarlıq",
+              "dirijorluq",
+              "harmonizasiya",
+              "improvizasiya",
+              "polifoniya",
+              "homofoniya",
+              "sinkopa",
+              "arpecio",
+              "vibrato",
+              "pianissimo",
+              "kreşento",
+              "melizm",
+              "tembr",
+              "solfecio",
+              "vokaliz",
+              "müşayiətçilik",
+              "xanəndəlik",
+              "sazəndəlik",
+              "tarzənlik",
+              "kamançaçılıq",
+              "balabançılıq",
+              "qarmonçuluq",
+              "nağaraçılıq",
+              "nəğməkarlıq",
+              "improvizator",
+              "bəstəçi",
+              "baletmeyster",
+              "rejissorluq",
+              "ssenaristlik",
+              "kinodramaturgiya",
+              "kinotənqid",
+              "dekorasiya",
+              "butaforiya",
+              "kuklaçılıq",
+              "pantomima",
+              "tragikomediya",
+              "intermediya",
+              "interlüdiya",
+              "eksplikasiya",
+              "remarka",
+              "rəqqaslıq",
+              "xəttatlıq",
+              "monotipiya",
+              "ofort",
+              "kollaj",
+              "performans",
+              "ekspressionizm",
+              "sürrealizm",
+              "konstruktivizm",
+              "postmodernizm",
+              "minimalizm",
+              "konseptualizm",
+              "neorealizm",
+              "zərgərlik",
+              "misgərlik",
+              "xalçaçılıq",
+              "naxışbəndlik",
+              "nəqqaşlıq",
+              "şəbəkəçilik",
+              "miniatürçülük",
+              "qurama",
+              "təkəlduz",
+              "basmanaxış",
+              "ozanlıq",
+              "şirniyyatçılıq",
+              "qənnadıçılıq",
+              "kulinariya",
+              "qastronomiya",
+              "nuqa",
+              "sufle",
+              "kuskus",
+              "humus",
+              "muskat",
+              "zirə",
+              "rozmarin",
+              "iradəlilik",
+              "çeviklik",
+              "məsuliyyətlilik",
+              "vicdanlılıq",
+              "mərhəmətlilik",
+              "mehribanlıq",
+              "qayğıkeşlik",
+              "şəfqətlilik",
+              "əməksevərlik",
+              "humanistlik",
+              "işgüzarlıq",
+              "natiqlik",
+              "tərcüməçilik",
+              "redaktorluq",
+              "korrektorluq",
+              "korrektura",
+              "annotasiya",
+              "resenziya",
+              "referat",
+              "əlyazmaşünaslıq",
+              "paleoqrafiya",
+              "ekslibris",
+              "ekspozisiya",
+              "eksponat",
+              "numizmatika",
+              "faleristika",
+              "filokartiya"
+            ],
+            "download_sha256": "0a72e725e00e624418fe47c529747dcc94922df798887228e32bebdd298ef62a"
+          },
+          {
+            "url": "https://edu.gov.az/upload/file/E.Beylerov-Monitorinq_ve_qiymetlendirme.pdf",
+            "purpose": "Usage and distinction of formativ, summativ and kurikulum in education"
+          },
+          {
+            "url": "https://nculture.gov.az/naxcivan-ti-km-l-ri",
+            "purpose": "Usage and cultural context of qurama, təkəlduz and other embroidery terms"
+          },
+          {
+            "url": "https://anl.az/down/meqale/sherq/2011/may/el06.htm",
+            "purpose": "Usage of basmanaxış in Azerbaijani decorative embroidery"
+          },
+          {
+            "url": "https://ndu.edu.az/wp-content/uploads/tedris_qrafiki/tarix/tarix_m.pdf",
+            "purpose": "Academic usage of arxivşünaslıq, muzeyşünaslıq, mənbəşünaslıq and epiqrafika"
+          },
+          {
+            "url": "https://ait.edu.az/site/assets/files/2454/dini_terminler-cap-internet_ucun.pdf",
+            "purpose": "Academic attestation of biheviorizm"
+          },
+          {
+            "url": "https://azleks.az/en/dictionary/akrostix",
+            "purpose": "Spelling and meaning check for akrostix"
+          },
+          {
+            "url": "https://arti.edu.az/2021/04/15/xarakter-tipl%C9%99ri-introvert-ekstravert-v%C9%99-ambivert-sentrovert/",
+            "purpose": "Educational usage of introvert, ekstravert, introversiya and ekstraversiya"
+          }
+        ],
+        "other_headwords": [
+          "frazeoqrafiya",
+          "paremiologiya",
+          "paremioqrafiya",
+          "andragogika",
+          "mentorluq",
+          "tutor",
+          "inklüziya",
+          "özünütəhsil",
+          "mediasavadlılıq",
+          "dərslikşünaslıq",
+          "demotivasiya",
+          "assertivlik",
+          "metakoqnisiya",
+          "koqnisiya",
+          "biheviorizm",
+          "perfeksionizm",
+          "prokrastinasiya",
+          "ekstraversiya",
+          "akkulturasiya",
+          "inkulturasiya",
+          "etnomədəniyyət",
+          "sosiomədəni",
+          "folklorizm",
+          "etnopoetika",
+          "mifopoetika",
+          "intertekst",
+          "paratekst",
+          "narrativ",
+          "metafiksiya",
+          "fokalizasiya",
+          "hayku",
+          "tanka",
+          "verlibr",
+          "akrostix",
+          "postkolonializm"
+        ],
+        "limits": "The spelling dictionary confirms many established terms. Contemporary educational and psychological terms are editorial additions and are not represented as individually dictionary-verified.",
+        "editorial_checks": [
+          "Removed tautologiya as an orthographic variant of already-present tavtologiya; replaced with the distinct adjective referativ.",
+          "All entries are distinct under NFC and case folding against the complete earlier raw vocabulary.",
+          "All topic anchors resolve to existing entries.",
+          "No verb conjugations or mechanically generated case/plural forms were added."
+        ]
+      }
+    }
+  ],
+  "deduplicated": [
+    {
+      "word": "biometrika",
+      "category": "science",
+      "reason": "variant of existing biometriya"
+    },
+    {
+      "word": "emfizema",
+      "category": "science",
+      "reason": "variant of existing emfizem"
+    },
+    {
+      "word": "higrometr",
+      "category": "science",
+      "reason": "variant of existing hiqrometr"
+    },
+    {
+      "word": "akselerometr",
+      "category": "technology",
+      "reason": "already represented"
+    },
+    {
+      "word": "giroskop",
+      "category": "technology",
+      "reason": "already represented"
+    },
+    {
+      "word": "anemometr",
+      "category": "technology",
+      "reason": "already represented"
+    },
+    {
+      "word": "numizmatika",
+      "category": "culture",
+      "reason": "variant of existing nümizmatika"
+    }
+  ],
+  "license": "New editorial definitions are provided under CC BY-SA 4.0, consistent with the dictionary collection. Reference sources support spelling and terminology; their prose has not been copied."
+}

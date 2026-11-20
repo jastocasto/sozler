@@ -1,0 +1,1914 @@
+[
+  {
+    "w": "kibertəhlükəsizlik",
+    "az": "Kompüter sistemlərinin, şəbəkələrin və rəqəmsal məlumatların hücumlardan qorunması.",
+    "en": "Cybersecurity: protecting computer systems, networks, and digital information from attacks.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "rəqəmsallaşma",
+    "az": "Məlumat və fəaliyyətlərin rəqəmsal vasitələrə keçməsi prosesi.",
+    "en": "Digitalization: the transition of information and activities to digital systems.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "autentifikasiya",
+    "az": "İstifadəçinin və ya sistemin bildirdiyi kimliyinin yoxlanılması.",
+    "en": "Authentication: verifying the claimed identity of a user or system.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "identifikasiya",
+    "az": "Şəxsin, əşyanın və ya sistemin kimliyinin müəyyən edilməsi.",
+    "en": "Identification: establishing the identity of a person, object, or system.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "məxfilik",
+    "az": "Məlumatın yalnız icazəsi olan şəxslərə açıq olması xüsusiyyəti.",
+    "en": "Confidentiality: the restriction of information to authorized people.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "anonimlik",
+    "az": "Şəxsin kimliyinin məlum olmaması və ya açıqlanmaması.",
+    "en": "Anonymity: the state of a person's identity being unknown or undisclosed.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "kiberhücum",
+    "az": "Rəqəmsal sistemə zərər vurmaq, müdaxilə etmək və ya məlumat oğurlamaq cəhdi.",
+    "en": "Cyberattack: an attempt to damage, disrupt, or steal information from a digital system.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "kibercinayət",
+    "az": "Kompüter və şəbəkələrdən istifadə etməklə törədilən cinayət.",
+    "en": "Cybercrime: a crime committed using computers or networks.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "fişinq",
+    "az": "Saxta mesaj və saytlarla şəxsi məlumatları ələ keçirmə üsulu.",
+    "en": "Phishing: stealing private information through deceptive messages or websites.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "zərərverici proqram",
+    "az": "Kompüterə, məlumatlara və ya istifadəçiyə ziyan vurmaq üçün hazırlanmış proqram.",
+    "en": "Malware: software designed to harm computers, data, or their users.",
+    "pos": "phrase",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "antivirus",
+    "az": "Zərərverici proqramları aşkar edən və zərərsizləşdirən proqram təminatı.",
+    "en": "Antivirus software: software that detects and neutralizes malicious programs.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "təhlükəsizlik divarı",
+    "az": "Şəbəkəyə daxil olan və ondan çıxan trafiki qaydalarla süzən sistem.",
+    "en": "Firewall: a system that filters incoming and outgoing network traffic using rules.",
+    "pos": "phrase",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "ehtiyat nüsxə",
+    "az": "İtki və ya nasazlıq zamanı məlumatı bərpa etmək üçün saxlanan əlavə surət.",
+    "en": "Backup: an extra copy of data kept for recovery after loss or failure.",
+    "pos": "phrase",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "bulud hesablaması",
+    "az": "Hesablama resurslarından internet üzərindən xidmət kimi istifadə olunması.",
+    "en": "Cloud computing: using computing resources delivered as services over the internet.",
+    "pos": "phrase",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "virtualizasiya",
+    "az": "Fiziki resurslar üzərində ayrıca virtual kompüter və ya mühitlərin yaradılması.",
+    "en": "Virtualization: creating separate virtual computers or environments on physical resources.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "konteynerləşdirmə",
+    "az": "Proqramın asılılıqları ilə birlikdə təcrid olunmuş icra mühitinə yerləşdirilməsi.",
+    "en": "Containerization: packaging software with its dependencies in an isolated runtime environment.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "mikroservis",
+    "az": "Böyük proqramın ayrıca işləyən, dar vəzifəli kiçik xidmətlərindən biri.",
+    "en": "Microservice: a small, independently running service responsible for part of a larger application.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "vebservis",
+    "az": "Şəbəkə üzərindən başqa proqramlara məlumat və ya funksiyalar təqdim edən xidmət.",
+    "en": "Web service: a service that provides data or functions to other programs over a network.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "vebinar",
+    "az": "İnternet vasitəsilə keçirilən seminar və ya təlim görüşü.",
+    "en": "Webinar: a seminar or training session conducted over the internet.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "vebsayt",
+    "az": "Ortaq ünvan və məqsəd altında birləşən veb səhifələr toplusu.",
+    "en": "Website: a collection of web pages sharing an address and purpose.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "vebserver",
+    "az": "Veb səhifələri və digər resursları brauzerlərə təqdim edən proqram və ya kompüter.",
+    "en": "Web server: software or a computer that delivers web pages and resources to browsers.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "qrafik interfeys",
+    "az": "Proqramla pəncərə, nişan və düymələr vasitəsilə işləməyə imkan verən mühit.",
+    "en": "Graphical interface: an environment for using software through windows, icons, and buttons.",
+    "pos": "phrase",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "əmr sətri",
+    "az": "Kompüterə mətn şəklində əmrlərin daxil edildiyi interfeys.",
+    "en": "Command line: an interface where instructions are entered as text.",
+    "pos": "phrase",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "mənbə kodu",
+    "az": "Proqramın insanın oxuya bildiyi proqramlaşdırma dilində yazılmış mətni.",
+    "en": "Source code: a program's instructions written in a human-readable programming language.",
+    "pos": "phrase",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "açıq mənbə",
+    "az": "Mənbə kodunun lisenziya şərtləri daxilində öyrənilməyə, dəyişdirilməyə və paylaşılmağa açıq olması.",
+    "en": "Open source: source code being available to study, modify, and share under its license.",
+    "pos": "phrase",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "verilənlər anbarı",
+    "az": "Təhlil üçün müxtəlif mənbələrdən məlumat toplayan mərkəzləşdirilmiş sistem.",
+    "en": "Data warehouse: a centralized system that gathers data from different sources for analysis.",
+    "pos": "phrase",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "metaverilənlər",
+    "az": "Başqa məlumatın quruluşunu, mənbəyini və ya digər xüsusiyyətlərini təsvir edən məlumat.",
+    "en": "Metadata: data describing the structure, origin, or other properties of other data.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "böyük verilənlər",
+    "az": "Həcmi, sürəti və müxtəlifliyi xüsusi emal üsulları tələb edən məlumatlar.",
+    "en": "Big data: data whose volume, speed, and variety require specialized processing methods.",
+    "pos": "phrase",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "verilənlər elmi",
+    "az": "Məlumatdan bilik çıxarmaq üçün statistika və hesablama üsullarını birləşdirən sahə.",
+    "en": "Data science: a field combining statistics and computing to derive knowledge from data.",
+    "pos": "phrase",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "dərin öyrənmə",
+    "az": "Çoxqatlı neyron şəbəkələrdən istifadə edən maşın öyrənməsi üsulları.",
+    "en": "Deep learning: machine-learning methods that use multilayer neural networks.",
+    "pos": "phrase",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "neyron şəbəkə",
+    "az": "Bir-birinə bağlı hesablama elementləri ilə nümunələr öyrənən model.",
+    "en": "Neural network: a model that learns patterns through interconnected computational units.",
+    "pos": "phrase",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "alqoritmləşdirmə",
+    "az": "Məsələnin həllini ardıcıl və dəqiq addımlar şəklində ifadə etmə.",
+    "en": "Algorithm design: expressing a solution as a sequence of precise steps.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "sazlama",
+    "az": "Proqramdakı xətaların tapılması, səbəblərinin müəyyənləşdirilməsi və düzəldilməsi.",
+    "en": "Debugging: finding, diagnosing, and correcting errors in a program.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "interpretator",
+    "az": "Proqram təlimatlarını icra zamanı oxuyub yerinə yetirən proqram.",
+    "en": "Interpreter: software that reads and executes program instructions at runtime.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "kompilyasiya",
+    "az": "Mənbə kodunun başqa kod formasına, çox vaxt maşın koduna çevrilməsi.",
+    "en": "Compilation: translating source code into another code form, often machine code.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "dekodlaşdırma",
+    "az": "Kodlaşdırılmış məlumatın ilkin və ya başa düşülən formaya çevrilməsi.",
+    "en": "Decoding: converting encoded information back into its original or understandable form.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "optimallaşdırma",
+    "az": "Sistemin və ya həllin müəyyən meyara görə daha səmərəli hala gətirilməsi.",
+    "en": "Optimization: improving a system or solution according to a specified criterion.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "robotlaşdırma",
+    "az": "İşlərin yerinə yetirilməsində robotların tətbiq olunması prosesi.",
+    "en": "Robotization: introducing robots to perform tasks.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "rəqəmsallaşdırma",
+    "az": "Analoq məlumatın kompüterdə işlənə bilən rəqəmsal formaya çevrilməsi.",
+    "en": "Digitization: converting analog information into a digital form computers can process.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "simulyasiya",
+    "az": "Sistemin davranışının model vasitəsilə təqlid edilməsi.",
+    "en": "Simulation: reproducing a system's behavior through a model.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "modelləşdirmə",
+    "az": "Obyekt və ya prosesin əsas xüsusiyyətlərini əks etdirən modelin qurulması.",
+    "en": "Modeling: constructing a representation of an object's or process's essential features.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "vizuallaşdırma",
+    "az": "Məlumatın şəkil, qrafik və ya başqa görünən formada təqdim edilməsi.",
+    "en": "Visualization: presenting information through images, charts, or other visible forms.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "renderinq",
+    "az": "Rəqəmsal model və məlumatlardan yekun görüntünün hesablanması.",
+    "en": "Rendering: computing a final image from digital models and data.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "pikselləşmə",
+    "az": "Görüntüdə ayrı-ayrı piksellərin nəzərə çarpacaq qədər görünməsi.",
+    "en": "Pixelation: the visible appearance of individual pixels in an image.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "vektorlaşdırma",
+    "az": "Təsvir və ya məlumatın vektor əsaslı formaya çevrilməsi.",
+    "en": "Vectorization: converting an image or data into a vector-based representation.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "vektor qrafikası",
+    "az": "Şəkillərin riyazi təsvir olunan xətt və fiqurlarla qurulduğu qrafika.",
+    "en": "Vector graphics: graphics constructed from mathematically described lines and shapes.",
+    "pos": "phrase",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "rastr qrafikası",
+    "az": "Şəkillərin rəngli piksellər şəbəkəsi kimi saxlandığı qrafika.",
+    "en": "Raster graphics: graphics stored as a grid of colored pixels.",
+    "pos": "phrase",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "avatar",
+    "az": "Rəqəmsal mühitdə istifadəçini təmsil edən şəkil və ya obraz.",
+    "en": "Avatar: an image or character representing a user in a digital environment.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "emodzi",
+    "az": "Mesajda fikir və ya hiss bildirmək üçün işlədilən kiçik rəqəmsal işarə.",
+    "en": "Emoji: a small digital symbol used to convey an idea or emotion in a message.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "stiker",
+    "az": "Mesajlaşmada işlədilən hazır təsvir; başqa mənada yapışqanlı etiket.",
+    "en": "Sticker: a ready-made image used in messaging; also an adhesive label.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "skrinşot",
+    "az": "Ekranda görünən məzmunun şəkil kimi qeydə alınmış surəti.",
+    "en": "Screenshot: an image capturing the content displayed on a screen.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "bufer",
+    "az": "Məlumatın ötürülmə və ya emal zamanı müvəqqəti saxlandığı yaddaş sahəsi.",
+    "en": "Buffer: a memory area that temporarily holds data during transfer or processing.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "keşləmə",
+    "az": "Tez-tez lazım olan məlumatın daha sürətli əldə etmək üçün yaxın yaddaşda saxlanması.",
+    "en": "Caching: storing frequently needed data in faster-access storage.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "hiperistinad",
+    "az": "Bir elektron sənəddən başqa resursa keçid verən istinad.",
+    "en": "Hyperlink: a reference that opens another resource from an electronic document.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "hipermətn",
+    "az": "Hissələri və ya başqa sənədlərlə əlaqələri keçidlərlə qurulan mətn.",
+    "en": "Hypertext: text connected to other sections or documents through links.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "subdomen",
+    "az": "Əsas domen adının daxilində yaradılmış ayrıca ünvan bölməsi.",
+    "en": "Subdomain: a distinct address subdivision within a main domain name.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "hostinq",
+    "az": "Sayt və tətbiq fayllarının şəbəkədə əlçatan serverdə yerləşdirilməsi xidməti.",
+    "en": "Hosting: a service that stores website or application files on a network-accessible server.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "marşrutlayıcı",
+    "az": "Məlumat paketlərini müxtəlif kompüter şəbəkələri arasında yönəldən qurğu.",
+    "en": "Router: a device that directs data packets between computer networks.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "modem",
+    "az": "Məlumatı rabitə xəttinə uyğun siqnala və əksinə çevirən qurğu.",
+    "en": "Modem: a device that converts data into signals suitable for a communication line and back.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "sinxronizasiya",
+    "az": "Proseslərin vaxtının və ya məlumat nüsxələrinin bir-birinə uyğunlaşdırılması.",
+    "en": "Synchronization: coordinating the timing of processes or aligning copies of data.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "interaktivlik",
+    "az": "İstifadəçi hərəkətinə cavab verərək qarşılıqlı əlaqə yaratmaq xüsusiyyəti.",
+    "en": "Interactivity: the ability to respond to user actions and support two-way interaction.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "portativlik",
+    "az": "Proqramın və ya qurğunun müxtəlif mühitlərdə istifadə oluna bilməsi xüsusiyyəti.",
+    "en": "Portability: the ability of software or equipment to be used in different environments.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "geolokasiya",
+    "az": "Cihazın və ya obyektin coğrafi yerinin müəyyən edilməsi.",
+    "en": "Geolocation: determining the geographical position of a device or object.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "geokodlaşdırma",
+    "az": "Ünvan və yer adlarının coğrafi koordinatlara çevrilməsi.",
+    "en": "Geocoding: converting addresses or place names into geographical coordinates.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "videozəng",
+    "az": "Tərəflərin bir-birini həm eşidib, həm gördüyü rabitə danışığı.",
+    "en": "Video call: a call in which participants can both hear and see each other.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "videokonfrans",
+    "az": "Uzaq iştirakçıların səs və görüntü vasitəsilə birlikdə keçirdiyi görüş.",
+    "en": "Videoconference: a meeting connecting remote participants through sound and video.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "uzaqdan iş",
+    "az": "İş yerinə getmədən, rabitə vasitələri ilə vəzifələrin yerinə yetirilməsi.",
+    "en": "Remote work: performing job duties away from the workplace using communication tools.",
+    "pos": "phrase",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "elektron imza",
+    "az": "Elektron sənədlə əlaqələndirilərək imzalayanı göstərən və onun razılığını ifadə edən məlumat.",
+    "en": "Electronic signature: electronic data associated with a document to identify a signer and express consent.",
+    "pos": "phrase",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "elektron hökumət",
+    "az": "Dövlət xidmətlərinin və idarəetmə proseslərinin rəqəmsal vasitələrlə təşkili.",
+    "en": "Electronic government: delivering public services and administration through digital tools.",
+    "pos": "phrase",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "elektron ticarət",
+    "az": "Mal və xidmətlərin elektron şəbəkələr vasitəsilə alınıb satılması.",
+    "en": "Electronic commerce: buying and selling goods and services through electronic networks.",
+    "pos": "phrase",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "mobil tətbiq",
+    "az": "Telefon və planşet kimi mobil cihazlarda işləmək üçün hazırlanmış proqram.",
+    "en": "Mobile application: software designed to run on devices such as phones and tablets.",
+    "pos": "phrase",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "mobil bankçılıq",
+    "az": "Bank əməliyyatlarının mobil cihaz vasitəsilə aparılması xidməti.",
+    "en": "Mobile banking: conducting banking transactions through a mobile device.",
+    "pos": "phrase",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "kontaktsız ödəniş",
+    "az": "Kartı və ya cihazı oxuyucuya yaxınlaşdırmaqla həyata keçirilən ödəniş.",
+    "en": "Contactless payment: payment made by holding a card or device near a reader.",
+    "pos": "phrase",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "elektron pulqabı",
+    "az": "Ödəniş məlumatlarını və bəzən pul qalığını saxlayan rəqəmsal xidmət.",
+    "en": "Digital wallet: a digital service storing payment information and sometimes a monetary balance.",
+    "pos": "phrase",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "blokçeyn",
+    "az": "Qeydlərin kriptoqrafik əlaqəli bloklarda saxlandığı paylanmış reyestr quruluşu.",
+    "en": "Blockchain: a distributed ledger structure storing records in cryptographically linked blocks.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "tokenləşdirmə",
+    "az": "Məlumatın və ya aktivə aid hüququn rəqəmsal nişanlarla təmsil olunması.",
+    "en": "Tokenization: representing data or rights in an asset with digital tokens.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "startap",
+    "az": "Yeni məhsul və ya biznes modelini sınayan, böyüməyə yönəlmiş gənc müəssisə.",
+    "en": "Startup: a young business testing a new product or business model with growth ambitions.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "frilanser",
+    "az": "Müxtəlif sifarişçilər üçün müstəqil və layihə əsasında işləyən mütəxəssis.",
+    "en": "Freelancer: an independent professional working for different clients on a project basis.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "bloqer",
+    "az": "İnternetdə müntəzəm məzmun yayımlayan bloq müəllifi.",
+    "en": "Blogger: a person who regularly publishes content on an online blog.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "vloger",
+    "az": "Məzmununu əsasən video şəklində yayımlayan internet müəllifi.",
+    "en": "Vlogger: an online creator who publishes content mainly as videos.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "kontent",
+    "az": "Sayt, media və ya başqa platformada təqdim edilən mətn, səs və görüntü məzmunu.",
+    "en": "Content: text, audio, and visual material presented on a website or other platform.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "kopirayter",
+    "az": "Reklam, təqdimat və marketinq üçün mətn hazırlayan müəllif.",
+    "en": "Copywriter: a writer who creates text for advertising, promotion, and marketing.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "autsorsinq",
+    "az": "Müəyyən iş və xidmətlərin kənar təşkilata həvalə edilməsi.",
+    "en": "Outsourcing: assigning particular tasks or services to an outside organization.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "kraudfandinq",
+    "az": "Layihə üçün çoxsaylı şəxslərdən kiçik məbləğlər toplamaqla maliyyələşdirmə.",
+    "en": "Crowdfunding: financing a project by collecting small amounts from many people.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "kraudsorsinq",
+    "az": "Tapşırıq və ideyaların geniş iştirakçı kütləsinin köməyi ilə həll edilməsi.",
+    "en": "Crowdsourcing: obtaining ideas or completing tasks with contributions from a large group.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "monetizasiya",
+    "az": "Məhsul, xidmət və ya auditoriyadan gəlir əldə etmə modelinin qurulması.",
+    "en": "Monetization: establishing a way to earn revenue from a product, service, or audience.",
+    "pos": "noun",
+    "topic": "İnformatika",
+    "anchor": "kompüter"
+  },
+  {
+    "w": "mikroprosessor",
+    "az": "Hesablama və idarəetmə funksiyalarını bir inteqral sxemdə yerinə yetirən prosessor.",
+    "en": "Microprocessor: a processor performing computation and control on a single integrated circuit.",
+    "pos": "noun",
+    "topic": "Elektronika",
+    "anchor": "elektrik"
+  },
+  {
+    "w": "mikrokontroller",
+    "az": "Prosessor, yaddaş və giriş-çıxış hissələri bir çipdə birləşdirilmiş idarəetmə qurğusu.",
+    "en": "Microcontroller: a control chip combining a processor, memory, and input-output components.",
+    "pos": "noun",
+    "topic": "Elektronika",
+    "anchor": "elektrik"
+  },
+  {
+    "w": "mikroçip",
+    "az": "Çoxsaylı elektron elementləri kiçik yarımkeçirici lövhədə birləşdirən qurğu.",
+    "en": "Microchip: a device combining many electronic components on a small semiconductor substrate.",
+    "pos": "noun",
+    "topic": "Elektronika",
+    "anchor": "elektrik"
+  },
+  {
+    "w": "mikrosxem",
+    "az": "Bir korpusda və ya altlıqda birləşdirilmiş kiçik elektron sxem.",
+    "en": "Microcircuit: a miniature electronic circuit integrated on a substrate or in one package.",
+    "pos": "noun",
+    "topic": "Elektronika",
+    "anchor": "elektrik"
+  },
+  {
+    "w": "mikroelektronika",
+    "az": "Çox kiçik elektron element və inteqral sxemlərin hazırlanması sahəsi.",
+    "en": "Microelectronics: the field concerned with miniature electronic components and integrated circuits.",
+    "pos": "noun",
+    "topic": "Elektronika",
+    "anchor": "elektrik"
+  },
+  {
+    "w": "optoelektronika",
+    "az": "İşıqla elektrik siqnallarının qarşılıqlı çevrilməsini öyrənən və tətbiq edən sahə.",
+    "en": "Optoelectronics: the study and application of interactions between light and electrical signals.",
+    "pos": "noun",
+    "topic": "Elektronika",
+    "anchor": "elektrik"
+  },
+  {
+    "w": "nanoelektronika",
+    "az": "Nanometr miqyasında elektron qurğuların hazırlanması və tədqiqi sahəsi.",
+    "en": "Nanoelectronics: the study and development of electronic devices at the nanometer scale.",
+    "pos": "noun",
+    "topic": "Elektronika",
+    "anchor": "elektrik"
+  },
+  {
+    "w": "fotodiod",
+    "az": "İşığın təsiri ilə elektrik cərəyanı yaradan və ya dəyişdirən yarımkeçirici diod.",
+    "en": "Photodiode: a semiconductor diode that produces or changes current in response to light.",
+    "pos": "noun",
+    "topic": "Elektronika",
+    "anchor": "elektrik"
+  },
+  {
+    "w": "fototranzistor",
+    "az": "Keçirdiyi cərəyanı işığın təsiri ilə dəyişən tranzistor.",
+    "en": "Phototransistor: a transistor whose current changes in response to light.",
+    "pos": "noun",
+    "topic": "Elektronika",
+    "anchor": "elektrik"
+  },
+  {
+    "w": "fotorezistor",
+    "az": "Elektrik müqaviməti işıqlanmadan asılı olaraq dəyişən element.",
+    "en": "Photoresistor: a component whose electrical resistance varies with illumination.",
+    "pos": "noun",
+    "topic": "Elektronika",
+    "anchor": "elektrik"
+  },
+  {
+    "w": "termistor",
+    "az": "Elektrik müqaviməti temperaturdan güclü asılı olan element.",
+    "en": "Thermistor: a component whose electrical resistance changes strongly with temperature.",
+    "pos": "noun",
+    "topic": "Elektronika",
+    "anchor": "elektrik"
+  },
+  {
+    "w": "varistor",
+    "az": "Müqaviməti tətbiq edilən gərginlikdən asılı olaraq dəyişən qoruyucu element.",
+    "en": "Varistor: a protective component whose resistance varies with the applied voltage.",
+    "pos": "noun",
+    "topic": "Elektronika",
+    "anchor": "elektrik"
+  },
+  {
+    "w": "tiristor",
+    "az": "İdarəedici siqnalla keçirici vəziyyətə keçirilə bilən yarımkeçirici açar.",
+    "en": "Thyristor: a semiconductor switch that can be triggered into a conducting state.",
+    "pos": "noun",
+    "topic": "Elektronika",
+    "anchor": "elektrik"
+  },
+  {
+    "w": "stabilizator",
+    "az": "Gərginlik, cərəyan və ya başqa kəmiyyəti müəyyən həddə sabit saxlayan qurğu.",
+    "en": "Stabilizer: a device that keeps voltage, current, or another quantity within a steady range.",
+    "pos": "noun",
+    "topic": "Elektronika",
+    "anchor": "elektrik"
+  },
+  {
+    "w": "invertor",
+    "az": "Sabit cərəyanı dəyişən cərəyana çevirən qurğu.",
+    "en": "Inverter: a device that converts direct current into alternating current.",
+    "pos": "noun",
+    "topic": "Elektronika",
+    "anchor": "elektrik"
+  },
+  {
+    "w": "gücləndirici",
+    "az": "Giriş siqnalının gücünü və ya amplitudunu artıran qurğu.",
+    "en": "Amplifier: a device that increases the power or amplitude of an input signal.",
+    "pos": "noun",
+    "topic": "Elektronika",
+    "anchor": "elektrik"
+  },
+  {
+    "w": "ossilloskop",
+    "az": "Elektrik siqnalının zamanla dəyişməsini ekranda göstərən ölçü cihazı.",
+    "en": "Oscilloscope: an instrument displaying how an electrical signal changes over time.",
+    "pos": "noun",
+    "topic": "Elektronika",
+    "anchor": "elektrik"
+  },
+  {
+    "w": "multimetr",
+    "az": "Gərginlik, cərəyan və müqavimət kimi bir neçə elektrik kəmiyyətini ölçən cihaz.",
+    "en": "Multimeter: an instrument measuring several electrical quantities, such as voltage, current, and resistance.",
+    "pos": "noun",
+    "topic": "Elektronika",
+    "anchor": "elektrik"
+  },
+  {
+    "w": "ommetr",
+    "az": "Elektrik müqavimətini ölçən cihaz.",
+    "en": "Ohmmeter: an instrument for measuring electrical resistance.",
+    "pos": "noun",
+    "topic": "Elektronika",
+    "anchor": "elektrik"
+  },
+  {
+    "w": "vatmetr",
+    "az": "Elektrik gücünü ölçən cihaz.",
+    "en": "Wattmeter: an instrument for measuring electrical power.",
+    "pos": "noun",
+    "topic": "Elektronika",
+    "anchor": "elektrik"
+  },
+  {
+    "w": "potensiometr",
+    "az": "Gərginliyin bölünməsi və ya tənzimlənməsi üçün işlədilən dəyişən rezistor.",
+    "en": "Potentiometer: a variable resistor used to divide or adjust voltage.",
+    "pos": "noun",
+    "topic": "Elektronika",
+    "anchor": "elektrik"
+  },
+  {
+    "w": "reostat",
+    "az": "Cərəyanı tənzimləmək üçün müqaviməti dəyişdirilən qurğu.",
+    "en": "Rheostat: a variable-resistance device used to regulate current.",
+    "pos": "noun",
+    "topic": "Elektronika",
+    "anchor": "elektrik"
+  },
+  {
+    "w": "induktor",
+    "az": "Maqnit sahəsində enerji toplayan, adətən sarğı şəklində olan elektrik elementi.",
+    "en": "Inductor: an electrical component, usually a coil, that stores energy in a magnetic field.",
+    "pos": "noun",
+    "topic": "Elektronika",
+    "anchor": "elektrik"
+  },
+  {
+    "w": "solenoid",
+    "az": "Cərəyan keçəndə maqnit sahəsi yaradan silindrik sarğı.",
+    "en": "Solenoid: a cylindrical coil that produces a magnetic field when carrying current.",
+    "pos": "noun",
+    "topic": "Elektronika",
+    "anchor": "elektrik"
+  },
+  {
+    "w": "elektromotor",
+    "az": "Elektrik enerjisini mexaniki hərəkətə çevirən mühərrik.",
+    "en": "Electric motor: a machine that converts electrical energy into mechanical motion.",
+    "pos": "noun",
+    "topic": "Elektronika",
+    "anchor": "elektrik"
+  },
+  {
+    "w": "servomotor",
+    "az": "Mövqe və ya sürəti geribildirimlə dəqiq idarə olunan elektrik mühərriki.",
+    "en": "Servomotor: an electric motor whose position or speed is precisely controlled through feedback.",
+    "pos": "noun",
+    "topic": "Elektronika",
+    "anchor": "elektrik"
+  },
+  {
+    "w": "servomexanizm",
+    "az": "Çıxış vəziyyətini ölçərək tələb olunan vəziyyətə uyğunlaşdıran idarəetmə mexanizmi.",
+    "en": "Servomechanism: a control mechanism that uses measured output to reach a desired state.",
+    "pos": "noun",
+    "topic": "Elektronika",
+    "anchor": "elektrik"
+  },
+  {
+    "w": "aktuator",
+    "az": "İdarəetmə siqnalını mexaniki hərəkətə çevirən qurğu.",
+    "en": "Actuator: a device that converts a control signal into mechanical movement.",
+    "pos": "noun",
+    "topic": "Elektronika",
+    "anchor": "elektrik"
+  },
+  {
+    "w": "sensor",
+    "az": "Fiziki və ya kimyəvi kəmiyyəti aşkar edib ölçülə bilən siqnala çevirən qurğu.",
+    "en": "Sensor: a device that detects a physical or chemical quantity and converts it into a measurable signal.",
+    "pos": "noun",
+    "topic": "Elektronika",
+    "anchor": "elektrik"
+  },
+  {
+    "w": "akselerometr",
+    "az": "Təcilin qiymətini və istiqamətini ölçən cihaz.",
+    "en": "Accelerometer: a device measuring the magnitude and direction of acceleration.",
+    "pos": "noun",
+    "topic": "Elektronika",
+    "anchor": "elektrik"
+  },
+  {
+    "w": "giroskop",
+    "az": "Fırlanma və istiqamət dəyişmələrini ölçən və ya istiqaməti saxlamağa kömək edən cihaz.",
+    "en": "Gyroscope: a device measuring rotation or helping maintain orientation.",
+    "pos": "noun",
+    "topic": "Elektronika",
+    "anchor": "elektrik"
+  },
+  {
+    "w": "maqnitometr",
+    "az": "Maqnit sahəsinin gücünü və ya istiqamətini ölçən cihaz.",
+    "en": "Magnetometer: an instrument measuring the strength or direction of a magnetic field.",
+    "pos": "noun",
+    "topic": "Elektronika",
+    "anchor": "elektrik"
+  },
+  {
+    "w": "lidar",
+    "az": "Lazer impulslarının qayıtma vaxtı ilə məsafə və səth quruluşunu ölçən sistem.",
+    "en": "Lidar: a system measuring distance and surface shape from returning laser pulses.",
+    "pos": "noun",
+    "topic": "Elektronika",
+    "anchor": "elektrik"
+  },
+  {
+    "w": "sonar",
+    "az": "Sualtı obyektləri səs dalğaları ilə aşkar edən və məsafəsini ölçən sistem.",
+    "en": "Sonar: a system using sound waves to detect underwater objects and measure their distance.",
+    "pos": "noun",
+    "topic": "Elektronika",
+    "anchor": "elektrik"
+  },
+  {
+    "w": "termokamera",
+    "az": "İnfraqırmızı şüalanmanı istilik paylanmasını göstərən təsvirə çevirən kamera.",
+    "en": "Thermal camera: a camera converting infrared radiation into an image of temperature distribution.",
+    "pos": "noun",
+    "topic": "Elektronika",
+    "anchor": "elektrik"
+  },
+  {
+    "w": "pirometr",
+    "az": "Səthin temperaturunu onun şüalanmasına əsasən təmassız ölçən cihaz.",
+    "en": "Pyrometer: an instrument measuring surface temperature without contact, using emitted radiation.",
+    "pos": "noun",
+    "topic": "Elektronika",
+    "anchor": "elektrik"
+  },
+  {
+    "w": "odometr",
+    "az": "Nəqliyyat vasitəsinin qət etdiyi məsafəni ölçən cihaz.",
+    "en": "Odometer: an instrument measuring the distance traveled by a vehicle.",
+    "pos": "noun",
+    "topic": "Elektronika",
+    "anchor": "elektrik"
+  },
+  {
+    "w": "manometr",
+    "az": "Qaz və ya mayenin təzyiqini ölçən cihaz.",
+    "en": "Pressure gauge: an instrument measuring the pressure of a gas or liquid.",
+    "pos": "noun",
+    "topic": "Elektronika",
+    "anchor": "elektrik"
+  },
+  {
+    "w": "anemometr",
+    "az": "Küləyin və ya hava axınının sürətini ölçən cihaz.",
+    "en": "Anemometer: an instrument measuring wind or airflow speed.",
+    "pos": "noun",
+    "topic": "Elektronika",
+    "anchor": "elektrik"
+  },
+  {
+    "w": "lüksmetr",
+    "az": "Səth üzərinə düşən işıqlanma səviyyəsini ölçən cihaz.",
+    "en": "Lux meter: an instrument measuring the illuminance falling on a surface.",
+    "pos": "noun",
+    "topic": "Elektronika",
+    "anchor": "elektrik"
+  },
+  {
+    "w": "telemetriya",
+    "az": "Uzaqdakı obyektin ölçü məlumatlarının rabitə vasitəsilə alınması.",
+    "en": "Telemetry: obtaining measurements from a distant object through a communication link.",
+    "pos": "noun",
+    "topic": "Elektronika",
+    "anchor": "elektrik"
+  },
+  {
+    "w": "retranslyator",
+    "az": "Qəbul etdiyi rabitə siqnalını gücləndirib və ya yeniləyib təkrar ötürən qurğu.",
+    "en": "Repeater: a device that receives and retransmits a communication signal after amplification or regeneration.",
+    "pos": "noun",
+    "topic": "Elektronika",
+    "anchor": "elektrik"
+  },
+  {
+    "w": "multipleksor",
+    "az": "Bir neçə giriş siqnalını ortaq ötürmə kanalında birləşdirən qurğu.",
+    "en": "Multiplexer: a device combining multiple input signals onto a shared transmission channel.",
+    "pos": "noun",
+    "topic": "Elektronika",
+    "anchor": "elektrik"
+  },
+  {
+    "w": "demultipleksor",
+    "az": "Birləşdirilmiş siqnalı ayrı çıxış kanallarına ayıran qurğu.",
+    "en": "Demultiplexer: a device separating a combined signal into individual output channels.",
+    "pos": "noun",
+    "topic": "Elektronika",
+    "anchor": "elektrik"
+  },
+  {
+    "w": "dekoder",
+    "az": "Kodlaşdırılmış siqnalı uyğun məlumat və ya idarəetmə çıxışına çevirən qurğu.",
+    "en": "Decoder: a device converting an encoded signal into corresponding data or control outputs.",
+    "pos": "noun",
+    "topic": "Elektronika",
+    "anchor": "elektrik"
+  },
+  {
+    "w": "transponder",
+    "az": "Alınan sorğu siqnalına avtomatik cavab siqnalı göndərən qurğu.",
+    "en": "Transponder: a device that automatically transmits a response to an incoming interrogation signal.",
+    "pos": "noun",
+    "topic": "Elektronika",
+    "anchor": "elektrik"
+  },
+  {
+    "w": "modulyasiya",
+    "az": "Məlumat ötürmək üçün daşıyıcı dalğanın müəyyən xüsusiyyətinin dəyişdirilməsi.",
+    "en": "Modulation: varying a property of a carrier wave to transmit information.",
+    "pos": "noun",
+    "topic": "Elektronika",
+    "anchor": "elektrik"
+  },
+  {
+    "w": "likvidlik",
+    "az": "Aktivin böyük dəyər itkisi olmadan tez pula çevrilə bilməsi xüsusiyyəti.",
+    "en": "Liquidity: the ease of converting an asset into cash quickly without a substantial loss in value.",
+    "pos": "noun",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "rentabellik",
+    "az": "Gəlirin çəkilən xərcə və ya istifadə olunan kapitala nisbəti ilə ölçülən səmərəlilik.",
+    "en": "Profitability: financial efficiency measured by returns relative to costs or capital used.",
+    "pos": "noun",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "kapitallaşma",
+    "az": "Gəlirin və ya başqa vəsaitin kapitala çevrilməsi prosesi.",
+    "en": "Capitalization: the process of turning income or other funds into capital.",
+    "pos": "noun",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "diversifikasiya",
+    "az": "Riski azaltmaq üçün fəaliyyət və ya sərmayənin müxtəlif istiqamətlərə bölünməsi.",
+    "en": "Diversification: spreading activities or investments across different areas to reduce risk.",
+    "pos": "noun",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "revalvasiya",
+    "az": "Milli valyutanın rəsmi məzənnəsinin başqa valyutalara nisbətən yüksəldilməsi.",
+    "en": "Revaluation: an official increase in a currency's exchange value relative to other currencies.",
+    "pos": "noun",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "denominasiya",
+    "az": "Pul vahidinin nominal miqyasının dəyişdirilməsi, məsələn, əskinaslardan sıfırların çıxarılması.",
+    "en": "Redenomination: changing a currency's nominal scale, for example by removing zeros from banknotes.",
+    "pos": "noun",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "staqflyasiya",
+    "az": "İqtisadi durğunluqla yüksək inflyasiyanın eyni vaxtda baş verməsi.",
+    "en": "Stagflation: economic stagnation occurring alongside high inflation.",
+    "pos": "noun",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "resessiya",
+    "az": "İqtisadi fəallığın geniş və davamlı şəkildə azalması dövrü.",
+    "en": "Recession: a period of widespread and sustained decline in economic activity.",
+    "pos": "noun",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "refinanslaşdırma",
+    "az": "Mövcud borcun yeni borc və ya yeni şərtlərlə əvəz edilməsi.",
+    "en": "Refinancing: replacing existing debt with new borrowing or revised financing terms.",
+    "pos": "noun",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "restrukturlaşdırma",
+    "az": "Borcların, təşkilatın və ya fəaliyyətin quruluşunun yenidən təşkil edilməsi.",
+    "en": "Restructuring: reorganizing debts, an organization, or its operations.",
+    "pos": "noun",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "liberallaşdırma",
+    "az": "İqtisadi fəaliyyətə qoyulan məhdudiyyətlərin azaldılması prosesi.",
+    "en": "Liberalization: reducing restrictions on economic activity.",
+    "pos": "noun",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "deregulyasiya",
+    "az": "Bazar fəaliyyətini məhdudlaşdıran dövlət qaydalarının azaldılması və ya ləğvi.",
+    "en": "Deregulation: reducing or removing government rules restricting market activity.",
+    "pos": "noun",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "subsidiya",
+    "az": "Müəyyən fəaliyyətə dəstək vermək üçün ayrılan maliyyə yardımı.",
+    "en": "Subsidy: financial assistance provided to support a particular activity.",
+    "pos": "noun",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "subvensiya",
+    "az": "Müəyyən məqsədə xərclənməsi şərti ilə verilən büdcə vəsaiti.",
+    "en": "Subvention: budget funding granted on condition that it be used for a specified purpose.",
+    "pos": "noun",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "dotasiya",
+    "az": "Gəlir çatışmazlığını və ya müəyyən xərcləri qarşılamaq üçün verilən maliyyə dəstəyi.",
+    "en": "Financial grant: funding provided to cover a revenue shortfall or specified costs.",
+    "pos": "noun",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "qrant",
+    "az": "Layihə və ya fəaliyyət üçün müəyyən şərtlərlə verilən, adətən geri qaytarılmayan vəsait.",
+    "en": "Grant: funding awarded under specified conditions for a project or activity, usually without repayment.",
+    "pos": "noun",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "royalti",
+    "az": "Müəllif hüququndan, patentdən və ya başqa hüquqdan istifadəyə görə ödənilən haqq.",
+    "en": "Royalty: a payment for using copyright, a patent, or another protected right.",
+    "pos": "noun",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "françayzinq",
+    "az": "Başqa müəssisənin markası və biznes modeli ilə işləmək hüququnun verilməsi sistemi.",
+    "en": "Franchising: granting the right to operate under another business's brand and business model.",
+    "pos": "noun",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "lizinq",
+    "az": "Əmlakın müəyyən müddət ərzində ödənişlə istifadəyə verilməsi üzrə maliyyələşdirmə üsulu.",
+    "en": "Leasing: financing the use of an asset through payments over an agreed period.",
+    "pos": "noun",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "faktorinq",
+    "az": "Alınacaq borcların maliyyə təşkilatına satılması və ya onun vasitəsilə maliyyələşdirilməsi.",
+    "en": "Factoring: selling accounts receivable to, or financing them through, a financial institution.",
+    "pos": "noun",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "forfeytinq",
+    "az": "Gələcək ödəniş tələblərinin, adətən ixracda, satıcıya geri tələb hüququ olmadan alınması.",
+    "en": "Forfaiting: purchasing future payment claims, usually from exports, without recourse to the seller.",
+    "pos": "noun",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "anderraytinq",
+    "az": "Qiymətli kağız buraxılışının yerləşdirilməsinin və ya sığorta riskinin qiymətləndirilib qəbul edilməsi.",
+    "en": "Underwriting: assessing and assuming risk in an insurance contract or securities issue.",
+    "pos": "noun",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "hecinq",
+    "az": "Qiymət və ya məzənnə dəyişməsindən yaranan riski əks mövqe ilə azaltma.",
+    "en": "Hedging: reducing exposure to price or exchange-rate changes through an offsetting position.",
+    "pos": "noun",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "svop",
+    "az": "Tərəflərin müəyyən müddətdə pul axınlarını və ya öhdəliklərini dəyişdirdiyi müqavilə.",
+    "en": "Swap: an agreement to exchange cash flows or obligations over a specified period.",
+    "pos": "noun",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "fyuçers",
+    "az": "Aktivin gələcək tarixdə əvvəlcədən müəyyən edilmiş şərtlərlə alınıb satılmasına dair standart müqavilə.",
+    "en": "Futures contract: a standardized agreement to trade an asset at a future date on predetermined terms.",
+    "pos": "noun",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "opsion",
+    "az": "Müəyyən aktivin razılaşdırılmış şərtlərlə alınıb satılmasına hüquq verən, lakin məcbur etməyən müqavilə.",
+    "en": "Option: a contract granting the right, but not the obligation, to trade an asset on agreed terms.",
+    "pos": "noun",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "forvard",
+    "az": "Aktivin gələcək tarixdə razılaşdırılmış qiymətə alınıb satılması barədə fərdi müqavilə.",
+    "en": "Forward contract: a privately arranged agreement to trade an asset at an agreed price on a future date.",
+    "pos": "noun",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "derivativ",
+    "az": "Dəyəri başqa aktivin, göstəricinin və ya hadisənin dəyərindən asılı olan maliyyə aləti.",
+    "en": "Derivative: a financial instrument whose value depends on another asset, measure, or event.",
+    "pos": "noun",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "debitor",
+    "az": "Başqa şəxsə və ya təşkilata pul və ya başqa öhdəlik borcu olan tərəf.",
+    "en": "Debtor: a party that owes money or another obligation to someone else.",
+    "pos": "noun",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "debitor borcu",
+    "az": "Müəssisənin müştəri və digər tərəflərdən almalı olduğu məbləğ.",
+    "en": "Accounts receivable: amounts a business is owed by customers or other parties.",
+    "pos": "phrase",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "kreditor borcu",
+    "az": "Müəssisənin təchizatçı və digər tərəflərə ödəməli olduğu məbləğ.",
+    "en": "Accounts payable: amounts a business owes suppliers or other parties.",
+    "pos": "phrase",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "mənfəət marjası",
+    "az": "Mənfəətin gəlirə nisbətini göstərən göstərici.",
+    "en": "Profit margin: a measure expressing profit as a proportion of revenue.",
+    "pos": "phrase",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "pul axını",
+    "az": "Müəyyən dövr ərzində daxil olan və xaric olan pul vəsaitlərinin hərəkəti.",
+    "en": "Cash flow: the movement of money into and out of an organization over a period.",
+    "pos": "phrase",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "əmək məhsuldarlığı",
+    "az": "İş vaxtı və ya işçi başına istehsal olunan məhsul və xidmət həcmi.",
+    "en": "Labor productivity: the output of goods or services per worker or unit of working time.",
+    "pos": "phrase",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "xalis mənfəət",
+    "az": "Bütün nəzərə alınan xərclər və vergilər çıxıldıqdan sonra qalan mənfəət.",
+    "en": "Net profit: profit remaining after all applicable expenses and taxes are deducted.",
+    "pos": "phrase",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "zərərsizlik nöqtəsi",
+    "az": "Ümumi gəlirin ümumi xərclərə bərabər olduğu satış və ya istehsal səviyyəsi.",
+    "en": "Break-even point: the level of sales or production at which total revenue equals total costs.",
+    "pos": "phrase",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "bazar payı",
+    "az": "Müəssisənin satışlarının müəyyən bazardakı ümumi satışlara nisbəti.",
+    "en": "Market share: a business's sales as a proportion of total sales in a defined market.",
+    "pos": "phrase",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "tələb elastikliyi",
+    "az": "Qiymət və ya başqa amil dəyişəndə tələbin nə dərəcədə dəyişdiyini göstərən ölçü.",
+    "en": "Demand elasticity: a measure of how strongly demand changes when price or another factor changes.",
+    "pos": "phrase",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "alternativ xərc",
+    "az": "Seçim edərkən imtina olunan ən yaxşı alternativin dəyəri.",
+    "en": "Opportunity cost: the value of the best alternative given up when making a choice.",
+    "pos": "phrase",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "vençur kapitalı",
+    "az": "Yüksək böyümə imkanlı, lakin riskli gənc müəssisələrə qoyulan sərmayə.",
+    "en": "Venture capital: investment in young businesses with high growth potential and substantial risk.",
+    "pos": "phrase",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "dövriyyə kapitalı",
+    "az": "Gündəlik fəaliyyət üçün istifadə olunan, adətən cari aktivlərlə cari öhdəliklərin fərqi kimi hesablanan kapital.",
+    "en": "Working capital: resources for daily operations, commonly measured as current assets minus current liabilities.",
+    "pos": "phrase",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "əsas kapital",
+    "az": "İstehsalda uzun müddət istifadə edilən bina, avadanlıq və digər davamlı aktivlər.",
+    "en": "Fixed capital: buildings, equipment, and other durable assets used in production over time.",
+    "pos": "phrase",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "tədiyə balansı",
+    "az": "Ölkənin xarici dünya ilə iqtisadi əməliyyatlarını müəyyən dövr üzrə göstərən uçot.",
+    "en": "Balance of payments: an account of a country's economic transactions with the rest of the world over a period.",
+    "pos": "phrase",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "cari hesab",
+    "az": "Bankda gündəlik ödənişlər üçün hesab; tədiyə balansında mal, xidmət və gəlir əməliyyatları bölməsi.",
+    "en": "Current account: a bank account for routine payments; also the goods, services, and income section of the balance of payments.",
+    "pos": "phrase",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "alıcılıq qabiliyyəti",
+    "az": "Müəyyən pul məbləği ilə alına bilən mal və xidmətlərin həcmi.",
+    "en": "Purchasing power: the quantity of goods and services that a given amount of money can buy.",
+    "pos": "phrase",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "büdcə kəsiri",
+    "az": "Müəyyən dövrdə büdcə xərclərinin büdcə gəlirlərindən artıq olması.",
+    "en": "Budget deficit: the amount by which budget expenditure exceeds revenue in a period.",
+    "pos": "phrase",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "dövlət borcu",
+    "az": "Dövlətin kreditorlar qarşısında yerinə yetirməli olduğu borc öhdəliklərinin cəmi.",
+    "en": "Public debt: the total debt obligations owed by a government to its creditors.",
+    "pos": "phrase",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "suveren fond",
+    "az": "Dövlətə məxsus vəsaitləri müəyyən məqsədlərlə idarə edən investisiya fondu.",
+    "en": "Sovereign fund: a state-owned investment fund managing assets for specified public purposes.",
+    "pos": "phrase",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "investisiya portfeli",
+    "az": "Şəxs və ya təşkilatın sahib olduğu müxtəlif sərmayə alətlərinin toplusu.",
+    "en": "Investment portfolio: the collection of investment assets held by a person or organization.",
+    "pos": "phrase",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "kredit reytinqi",
+    "az": "Borcalanın borc öhdəliklərini yerinə yetirmə qabiliyyətinə verilən qiymət.",
+    "en": "Credit rating: an assessment of a borrower's ability to meet debt obligations.",
+    "pos": "phrase",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "kredit tarixçəsi",
+    "az": "Şəxsin və ya təşkilatın əvvəlki kreditləri və ödəniş davranışı barədə məlumat toplusu.",
+    "en": "Credit history: a record of a person's or organization's past borrowing and repayment behavior.",
+    "pos": "phrase",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "kredit limiti",
+    "az": "Kreditorun borcalana istifadə etməyə icazə verdiyi ən yüksək kredit məbləği.",
+    "en": "Credit limit: the maximum amount of credit a lender allows a borrower to use.",
+    "pos": "phrase",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "mikrokredit",
+    "az": "Kiçik sahibkarlıq və ya gəlir gətirən fəaliyyət üçün verilən kiçik həcmli kredit.",
+    "en": "Microcredit: a small loan intended to support a small business or income-generating activity.",
+    "pos": "noun",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "mikromaliyyə",
+    "az": "Ənənəvi bank xidmətlərinə çıxışı məhdud şəxslərə kiçik maliyyə xidmətlərinin göstərilməsi.",
+    "en": "Microfinance: small-scale financial services for people with limited access to conventional banking.",
+    "pos": "noun",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "ipoteka krediti",
+    "az": "Daşınmaz əmlakın girovu ilə təmin edilən kredit.",
+    "en": "Mortgage loan: a loan secured by real estate.",
+    "pos": "phrase",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "investisiya fondu",
+    "az": "Bir çox sərmayədarın vəsaitini toplayıb birgə investisiya edən təşkilat və ya aktivlər toplusu.",
+    "en": "Investment fund: an organization or pool of assets that invests money collected from multiple investors.",
+    "pos": "phrase",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "indeks fondu",
+    "az": "Müəyyən bazar indeksinin nəticələrini izləməyi hədəfləyən investisiya fondu.",
+    "en": "Index fund: an investment fund aiming to track the performance of a particular market index.",
+    "pos": "phrase",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "depozit sertifikatı",
+    "az": "Bankda yerləşdirilmiş əmanəti və onun şərtlərini təsdiqləyən maliyyə sənədi.",
+    "en": "Certificate of deposit: a financial instrument confirming a bank deposit and its terms.",
+    "pos": "phrase",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "sığorta haqqı",
+    "az": "Sığorta təminatı almaq üçün sığortaçıya ödənilən məbləğ.",
+    "en": "Insurance premium: the amount paid to an insurer for insurance coverage.",
+    "pos": "phrase",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "sığorta məbləği",
+    "az": "Müqavilədə sığorta təminatının həcmini müəyyən edən məbləğ.",
+    "en": "Sum insured: the amount specified in a policy as the extent of insurance coverage.",
+    "pos": "phrase",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "təkrarsığorta",
+    "az": "Sığortaçının qəbul etdiyi riskin bir hissəsini başqa sığortaçıya ötürməsi.",
+    "en": "Reinsurance: the transfer of part of an insurer's accepted risk to another insurer.",
+    "pos": "noun",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "inhisarçılıq",
+    "az": "Bazarda rəqabəti məhdudlaşdıran üstün və ya tək nəzarət vəziyyəti və fəaliyyəti.",
+    "en": "Monopolism: market dominance or control that restricts competition.",
+    "pos": "noun",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "kölgə iqtisadiyyatı",
+    "az": "Rəsmi uçotdan və dövlət nəzarətindən kənarda həyata keçirilən iqtisadi fəaliyyət.",
+    "en": "Shadow economy: economic activity conducted outside official reporting and oversight.",
+    "pos": "phrase",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "auditorluq",
+    "az": "Hesabat və proseslərin müəyyən meyarlara uyğunluğunu müstəqil yoxlama fəaliyyəti.",
+    "en": "Auditing: independently examining reports and processes against specified criteria.",
+    "pos": "noun",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "korporativ idarəetmə",
+    "az": "Şirkətin idarə olunması və ona nəzarət üzrə qayda və münasibətlər sistemi.",
+    "en": "Corporate governance: the system of rules and relationships for directing and overseeing a company.",
+    "pos": "phrase",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "biznes planı",
+    "az": "Müəssisənin məqsədlərini, fəaliyyətini, resurslarını və maliyyə gözləntilərini təsvir edən sənəd.",
+    "en": "Business plan: a document describing a business's objectives, operations, resources, and financial expectations.",
+    "pos": "phrase",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "biznes modeli",
+    "az": "Müəssisənin necə dəyər yaratdığını, müştəriyə çatdırdığını və gəlir əldə etdiyini göstərən quruluş.",
+    "en": "Business model: the way a business creates value, delivers it to customers, and earns revenue.",
+    "pos": "phrase",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "brendinq",
+    "az": "Məhsul və ya təşkilat üçün tanınan marka kimliyinin yaradılması və inkişafı.",
+    "en": "Branding: creating and developing a recognizable identity for a product or organization.",
+    "pos": "noun",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "merçendayzinq",
+    "az": "Satışı artırmaq üçün məhsulların satış yerində yerləşdirilməsi və təqdim olunması üsulları.",
+    "en": "Merchandising: methods of arranging and presenting products at the point of sale to support sales.",
+    "pos": "noun",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "bençmarkinq",
+    "az": "Fəaliyyət göstəricilərinin yaxşı nümunələrlə müqayisə edilərək təkmilləşdirilməsi üsulu.",
+    "en": "Benchmarking: improving performance by comparing it with strong reference examples.",
+    "pos": "noun",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "seqmentləşdirmə",
+    "az": "Bazarın oxşar ehtiyac və xüsusiyyətlərə malik qruplara bölünməsi.",
+    "en": "Segmentation: dividing a market into groups with similar needs and characteristics.",
+    "pos": "noun",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "hədəf auditoriyası",
+    "az": "Məhsulun, xidmətin və ya mesajın əsasən yönəldiyi insan qrupu.",
+    "en": "Target audience: the group of people primarily addressed by a product, service, or message.",
+    "pos": "phrase",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "elektron qaimə",
+    "az": "Mal və xidmət əməliyyatını elektron formada rəsmiləşdirən sənəd.",
+    "en": "Electronic invoice: a digital document formally recording a goods or services transaction.",
+    "pos": "phrase",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "brokerlik",
+    "az": "Müştərinin adından və ya tapşırığı ilə sövdələşmələrə vasitəçilik fəaliyyəti.",
+    "en": "Brokerage: acting as an intermediary in transactions on a client's behalf or instructions.",
+    "pos": "noun",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "dilerlik",
+    "az": "Malların və ya maliyyə alətlərinin öz hesabına alınıb satılması fəaliyyəti.",
+    "en": "Dealership or dealing: buying and selling goods or financial instruments for one's own account.",
+    "pos": "noun",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "maliyyə uçotu",
+    "az": "Müəssisənin maliyyə əməliyyatlarının qeydə alınması və xarici istifadəçilər üçün hesabatlaşdırılması.",
+    "en": "Financial accounting: recording business transactions and reporting financial information to external users.",
+    "pos": "phrase",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "idarəetmə uçotu",
+    "az": "Daxili qərarlar üçün xərc və fəaliyyət məlumatlarının toplanması və təhlili.",
+    "en": "Management accounting: collecting and analyzing cost and performance information for internal decisions.",
+    "pos": "phrase",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "mühasibat balansı",
+    "az": "Müəyyən tarixdə aktivləri, öhdəlikləri və kapitalı göstərən maliyyə hesabatı.",
+    "en": "Balance sheet: a financial statement showing assets, liabilities, and equity at a particular date.",
+    "pos": "phrase",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "əmanətçi",
+    "az": "Pulunu bankda və ya əmanət qəbul edən qurumda saxlayan şəxs və ya təşkilat.",
+    "en": "Depositor: a person or organization that places money with a bank or deposit-taking institution.",
+    "pos": "noun",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "sosial sahibkarlıq",
+    "az": "Biznes fəaliyyətini sosial və ya ictimai problemin həllinə yönəldən sahibkarlıq.",
+    "en": "Social entrepreneurship: business activity organized to address a social or community problem.",
+    "pos": "phrase",
+    "topic": "Maliyyə və iqtisadiyyat",
+    "anchor": "maliyyə"
+  },
+  {
+    "w": "mühəndislik",
+    "az": "Elmi və texniki biliklərlə qurğu, sistem və proseslərin layihələndirilməsi və qurulması sahəsi.",
+    "en": "Engineering: applying scientific and technical knowledge to design and build devices, systems, and processes.",
+    "pos": "noun",
+    "topic": "Mühəndislik və istehsal",
+    "anchor": "sənaye"
+  },
+  {
+    "w": "prototip",
+    "az": "Məhsulun ideya və funksiyalarını sınamaq üçün hazırlanan ilkin nümunəsi.",
+    "en": "Prototype: an early model made to test a product's ideas and functions.",
+    "pos": "noun",
+    "topic": "Mühəndislik və istehsal",
+    "anchor": "sənaye"
+  },
+  {
+    "w": "prototipləşdirmə",
+    "az": "Məhsulu sınamaq və təkmilləşdirmək üçün ilkin nümunələrin hazırlanması.",
+    "en": "Prototyping: making early models to test and improve a product.",
+    "pos": "noun",
+    "topic": "Mühəndislik və istehsal",
+    "anchor": "sənaye"
+  },
+  {
+    "w": "kalibrləmə",
+    "az": "Ölçü cihazının göstərişlərinin etalonla müqayisə olunaraq qiymətləndirilməsi.",
+    "en": "Calibration: evaluating an instrument's readings by comparing them with a reference standard.",
+    "pos": "noun",
+    "topic": "Mühəndislik və istehsal",
+    "anchor": "sənaye"
+  },
+  {
+    "w": "sertifikatlaşdırma",
+    "az": "Məhsul, xidmət və ya sistemin müəyyən tələblərə uyğunluğunun rəsmi təsdiqi.",
+    "en": "Certification: formal confirmation that a product, service, or system meets specified requirements.",
+    "pos": "noun",
+    "topic": "Mühəndislik və istehsal",
+    "anchor": "sənaye"
+  },
+  {
+    "w": "lehimləmə",
+    "az": "Metalları əsas hissələrdən daha aşağı temperaturda əriyən ərinti ilə birləşdirmə üsulu.",
+    "en": "Soldering: joining metals with an alloy that melts below the temperature of the main parts.",
+    "pos": "noun",
+    "topic": "Mühəndislik və istehsal",
+    "anchor": "sənaye"
+  },
+  {
+    "w": "frezləmə",
+    "az": "Fırlanan çoxkəsicili alətlə materialdan yonqar çıxararaq forma vermə.",
+    "en": "Milling: shaping material by removing chips with a rotating, multi-edged cutting tool.",
+    "pos": "noun",
+    "topic": "Mühəndislik və istehsal",
+    "anchor": "sənaye"
+  },
+  {
+    "w": "presləmə",
+    "az": "Materialın təzyiq altında sıxılması və ya formaya salınması prosesi.",
+    "en": "Pressing: compressing or shaping material under pressure.",
+    "pos": "noun",
+    "topic": "Mühəndislik və istehsal",
+    "anchor": "sənaye"
+  },
+  {
+    "w": "ekstruziya",
+    "az": "Materialın müəyyən kəsikli qəlib dəliyindən sıxılıb çıxarılaraq formalaşdırılması.",
+    "en": "Extrusion: shaping material by forcing it through a die of a specified cross-section.",
+    "pos": "noun",
+    "topic": "Mühəndislik və istehsal",
+    "anchor": "sənaye"
+  },
+  {
+    "w": "sinterləmə",
+    "az": "Toz materialın tam əridilmədən istiliklə birləşdirilib bərk cismə çevrilməsi.",
+    "en": "Sintering: bonding powdered material with heat into a solid without fully melting it.",
+    "pos": "noun",
+    "topic": "Mühəndislik və istehsal",
+    "anchor": "sənaye"
+  },
+  {
+    "w": "anodlaşdırma",
+    "az": "Metal səthində elektrokimyəvi üsulla qoruyucu oksid qatının yaradılması.",
+    "en": "Anodizing: forming a protective oxide layer on a metal surface electrochemically.",
+    "pos": "noun",
+    "topic": "Mühəndislik və istehsal",
+    "anchor": "sənaye"
+  },
+  {
+    "w": "kompozit",
+    "az": "Fərqli materialların birlikdə daha uyğun xüsusiyyətlər yaratdığı birləşmiş material.",
+    "en": "Composite: a material combining different constituents to obtain useful combined properties.",
+    "pos": "noun",
+    "topic": "Mühəndislik və istehsal",
+    "anchor": "sənaye"
+  },
+  {
+    "w": "şüşəplastik",
+    "az": "Şüşə lifləri ilə möhkəmləndirilmiş plastik material.",
+    "en": "Fiberglass-reinforced plastic: a plastic material strengthened with glass fibers.",
+    "pos": "noun",
+    "topic": "Mühəndislik və istehsal",
+    "anchor": "sənaye"
+  },
+  {
+    "w": "termoplast",
+    "az": "Qızdırıldıqda yumşalan, soyuduqda yenidən bərkiyən polimer material.",
+    "en": "Thermoplastic: a polymer material that softens when heated and hardens again when cooled.",
+    "pos": "noun",
+    "topic": "Mühəndislik və istehsal",
+    "anchor": "sənaye"
+  },
+  {
+    "w": "elastomer",
+    "az": "Deformasiyadan sonra əvvəlki formasına əhəmiyyətli dərəcədə qayıda bilən elastik polimer.",
+    "en": "Elastomer: an elastic polymer capable of substantially recovering its shape after deformation.",
+    "pos": "noun",
+    "topic": "Mühəndislik və istehsal",
+    "anchor": "sənaye"
+  },
+  {
+    "w": "polikarbonat",
+    "az": "Şəffaflığı və zərbəyə davamlılığı ilə seçilən termoplast polimer növü.",
+    "en": "Polycarbonate: a thermoplastic polymer noted for transparency and impact resistance.",
+    "pos": "noun",
+    "topic": "Mühəndislik və istehsal",
+    "anchor": "sənaye"
+  },
+  {
+    "w": "poliuretan",
+    "az": "Məhsuldan asılı olaraq köpük, elastik material və örtük kimi işlədilən polimer ailəsi.",
+    "en": "Polyurethane: a family of polymers used in foams, flexible materials, and coatings.",
+    "pos": "noun",
+    "topic": "Mühəndislik və istehsal",
+    "anchor": "sənaye"
+  },
+  {
+    "w": "polipropilen",
+    "az": "Qablaşdırma və müxtəlif məmulatlarda işlədilən yüngül termoplast polimer.",
+    "en": "Polypropylene: a lightweight thermoplastic polymer used in packaging and many manufactured products.",
+    "pos": "noun",
+    "topic": "Mühəndislik və istehsal",
+    "anchor": "sənaye"
+  },
+  {
+    "w": "polietilen",
+    "az": "Paket, boru və qabların hazırlanmasında geniş işlədilən termoplast polimer.",
+    "en": "Polyethylene: a thermoplastic polymer widely used to make bags, pipes, and containers.",
+    "pos": "noun",
+    "topic": "Mühəndislik və istehsal",
+    "anchor": "sənaye"
+  },
+  {
+    "w": "polistirol",
+    "az": "Sərt və ya köpükləndirilmiş formada qablaşdırma və izolyasiyada işlədilən polimer.",
+    "en": "Polystyrene: a polymer used in rigid or foamed form for packaging and insulation.",
+    "pos": "noun",
+    "topic": "Mühəndislik və istehsal",
+    "anchor": "sənaye"
+  },
+  {
+    "w": "poliamid",
+    "az": "Zəncirində amid qrupları olan, lif və texniki hissələrdə işlədilən polimer ailəsi.",
+    "en": "Polyamide: a polymer family containing amide groups, used in fibers and engineering parts.",
+    "pos": "noun",
+    "topic": "Mühəndislik və istehsal",
+    "anchor": "sənaye"
+  },
+  {
+    "w": "polivinilxlorid",
+    "az": "Boru, kabel örtüyü və tikinti məmulatlarında işlədilən termoplast polimer.",
+    "en": "Polyvinyl chloride: a thermoplastic polymer used in pipes, cable insulation, and building products.",
+    "pos": "noun",
+    "topic": "Mühəndislik və istehsal",
+    "anchor": "sənaye"
+  },
+  {
+    "w": "hidroizolyasiya",
+    "az": "Suyun material və ya quruluşdan keçməsinin qarşısını alan qoruyucu qat və tədbirlər.",
+    "en": "Waterproofing: protective layers and measures preventing water from passing through a structure or material.",
+    "pos": "noun",
+    "topic": "Mühəndislik və istehsal",
+    "anchor": "sənaye"
+  },
+  {
+    "w": "ventilyasiya",
+    "az": "Qapalı sahədə havanın yenilənməsi və hərəkətinin təmin edilməsi.",
+    "en": "Ventilation: supplying fresh air and maintaining airflow in an enclosed space.",
+    "pos": "noun",
+    "topic": "Mühəndislik və istehsal",
+    "anchor": "sənaye"
+  },
+  {
+    "w": "rekuperator",
+    "az": "Atılan hava və ya başqa axından istiliyi geri alan istilikdəyişdirici.",
+    "en": "Recuperator: a heat exchanger that recovers heat from exhaust air or another outgoing stream.",
+    "pos": "noun",
+    "topic": "Mühəndislik və istehsal",
+    "anchor": "sənaye"
+  },
+  {
+    "w": "rekuperasiya",
+    "az": "Əks halda itəcək enerji və ya materialın geri alınıb yenidən istifadə edilməsi.",
+    "en": "Recovery: capturing and reusing energy or material that would otherwise be lost.",
+    "pos": "noun",
+    "topic": "Mühəndislik və istehsal",
+    "anchor": "sənaye"
+  }
+]

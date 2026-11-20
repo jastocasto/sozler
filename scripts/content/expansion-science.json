@@ -1,0 +1,2802 @@
+[
+  {
+    "w": "biotexnologiya",
+    "az": "Canlı orqanizmlərdən və bioloji proseslərdən məhsul hazırlanmasında istifadə edən sahə.",
+    "en": "The use of organisms and biological processes to develop products and technologies.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "biologiya"
+  },
+  {
+    "w": "bioenergetika",
+    "az": "Canlı sistemlərdə enerjinin çevrilməsini və istifadəsini öyrənən sahə.",
+    "en": "The study of energy conversion and use in living systems.",
+    "pos": "noun",
+    "topic": "enerji",
+    "anchor": "enerji"
+  },
+  {
+    "w": "biofizika",
+    "az": "Canlı sistemlərin quruluşunu və fəaliyyətini fizika üsulları ilə öyrənən elm.",
+    "en": "The study of living systems using the principles and methods of physics.",
+    "pos": "noun",
+    "topic": "fizika",
+    "anchor": "fizika"
+  },
+  {
+    "w": "bioetika",
+    "az": "Tibb və biologiyada yaranan əxlaqi məsələləri araşdıran sahə.",
+    "en": "The study of ethical questions arising in medicine and biology.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "biometrika",
+    "az": "Canlıların ölçülə bilən xüsusiyyətlərinin statistik təhlili; insanı fiziki əlamətlərlə tanıma üsulları.",
+    "en": "Statistical analysis of biological measurements; identification using measurable physical traits.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "biologiya"
+  },
+  {
+    "w": "biosensor",
+    "az": "Bioloji tanıma elementindən istifadə edərək müəyyən maddəni aşkar edən cihaz.",
+    "en": "A device that detects a substance using a biological recognition element.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "biologiya"
+  },
+  {
+    "w": "bioreaktor",
+    "az": "Hüceyrə və ya mikroorqanizmlərin nəzarətli şəraitdə yetişdirildiyi qurğu.",
+    "en": "A vessel that maintains controlled conditions for growing cells or microorganisms.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "biologiya"
+  },
+  {
+    "w": "bioplastik",
+    "az": "Bioloji xammaldan hazırlanan və ya bioloji parçalanma xüsusiyyəti olan plastik.",
+    "en": "Plastic that is bio-based, biodegradable, or both; these properties do not necessarily coincide.",
+    "pos": "noun",
+    "topic": "kimya",
+    "anchor": "kimya"
+  },
+  {
+    "w": "bioindikator",
+    "az": "Ətraf mühitin vəziyyətini göstərən canlı orqanizm və ya bioloji göstərici.",
+    "en": "An organism or biological measure used to indicate environmental conditions.",
+    "pos": "noun",
+    "topic": "ekologiya",
+    "anchor": "ekologiya"
+  },
+  {
+    "w": "biomaterial",
+    "az": "Canlı toxuma ilə təmasda işləmək üçün hazırlanmış material.",
+    "en": "A material designed to interact with living tissue for a medical or biological purpose.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "biosintez",
+    "az": "Canlı hüceyrədə sadə maddələrdən mürəkkəb birləşmələrin yaranması.",
+    "en": "The production of complex compounds from simpler substances within living cells.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "hüceyrə"
+  },
+  {
+    "w": "biomüxtəliflik",
+    "az": "Genlərin, canlı növlərinin və ekosistemlərin müxtəlifliyi.",
+    "en": "The variety of genes, species, and ecosystems in an area or on Earth.",
+    "pos": "noun",
+    "topic": "ekologiya",
+    "anchor": "təbiət"
+  },
+  {
+    "w": "biotəhlükəsizlik",
+    "az": "Bioloji amillərin insanlara və ətraf mühitə zərərini azaltmağa yönəlmiş tədbirlər.",
+    "en": "Measures that reduce harm from biological agents to people and the environment.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "biolüminessensiya",
+    "az": "Canlı orqanizmin kimyəvi reaksiya nəticəsində işıq saçması.",
+    "en": "Light produced by a chemical reaction within a living organism.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "biologiya"
+  },
+  {
+    "w": "biomonitorinq",
+    "az": "Canlılardan və bioloji göstəricilərdən istifadə etməklə mühitin davamlı izlənməsi.",
+    "en": "Monitoring environmental conditions through organisms and biological indicators.",
+    "pos": "noun",
+    "topic": "ekologiya",
+    "anchor": "ekologiya"
+  },
+  {
+    "w": "biokataliz",
+    "az": "Kimyəvi reaksiyanın ferment və ya canlı hüceyrə vasitəsilə sürətlənməsi.",
+    "en": "The acceleration of a chemical reaction by an enzyme or living cell.",
+    "pos": "noun",
+    "topic": "kimya",
+    "anchor": "kimya"
+  },
+  {
+    "w": "biopolimer",
+    "az": "Canlılar tərəfindən sintez edilən iri molekullu birləşmə.",
+    "en": "A large molecular compound produced by living organisms.",
+    "pos": "noun",
+    "topic": "kimya",
+    "anchor": "kimya"
+  },
+  {
+    "w": "biotop",
+    "az": "Müəyyən canlı birliyinin yaşadığı, oxşar mühit şəraitinə malik sahə.",
+    "en": "An area with relatively uniform conditions supporting a biological community.",
+    "pos": "noun",
+    "topic": "ekologiya",
+    "anchor": "ekologiya"
+  },
+  {
+    "w": "biogeosenoz",
+    "az": "Müəyyən ərazidə canlılarla cansız mühitin qarşılıqlı əlaqəli bütöv sistemi.",
+    "en": "An interconnected system of organisms and their physical environment in a particular area.",
+    "pos": "noun",
+    "topic": "ekologiya",
+    "anchor": "ekologiya"
+  },
+  {
+    "w": "biogeokimya",
+    "az": "Kimyəvi elementlərin canlılar, torpaq, su və hava arasındakı dövranını öyrənən elm.",
+    "en": "The study of chemical element cycles through organisms, soil, water, and air.",
+    "pos": "noun",
+    "topic": "kimya",
+    "anchor": "kimya"
+  },
+  {
+    "w": "metabolizm",
+    "az": "Canlı orqanizmdə maddələrin yaranması və parçalanması ilə bağlı reaksiyaların məcmusu.",
+    "en": "The chemical reactions through which an organism builds and breaks down substances.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "biologiya"
+  },
+  {
+    "w": "apoptoz",
+    "az": "Hüceyrənin tənzimlənən mexanizmlərlə öz fəaliyyətini dayandırıb məhv olması.",
+    "en": "A regulated process of programmed cell death.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "hüceyrə"
+  },
+  {
+    "w": "autofagiya",
+    "az": "Hüceyrənin öz zədələnmiş hissələrini parçalayaraq yenidən istifadə etməsi.",
+    "en": "The breakdown and recycling of a cell's own damaged or unnecessary components.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "hüceyrə"
+  },
+  {
+    "w": "mikrobiom",
+    "az": "Müəyyən mühitdə yaşayan mikroorqanizmlərin və onların genetik materialının məcmusu.",
+    "en": "The microorganisms and their collective genetic material in a particular environment.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "biologiya"
+  },
+  {
+    "w": "probiotik",
+    "az": "Yetərli miqdarda qəbul edildikdə sağlamlığa fayda verə bilən canlı mikroorqanizm.",
+    "en": "A live microorganism that can provide a health benefit when consumed in an adequate amount.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "prebiotik",
+    "az": "Faydalı mikroorqanizmlərin seçici istifadəsi ilə sağlamlığa fayda verən maddə.",
+    "en": "A substance selectively used by beneficial microorganisms that provides a health benefit.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "sinbiotik",
+    "az": "Birlikdə sağlamlığa fayda vermək üçün hazırlanmış probiotik və uyğun qida maddəsi qarışığı.",
+    "en": "A combination of live microorganisms and substrates designed to support a health benefit.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "metagenomika",
+    "az": "Mühit nümunəsindəki müxtəlif orqanizmlərin genetik materialının birlikdə tədqiqi.",
+    "en": "The study of genetic material collected directly from a community of organisms.",
+    "pos": "noun",
+    "topic": "genetika",
+    "anchor": "gen"
+  },
+  {
+    "w": "genomika",
+    "az": "Orqanizmin bütün genetik materialının quruluşunu və fəaliyyətini öyrənən sahə.",
+    "en": "The study of the structure and function of an organism's complete genetic material.",
+    "pos": "noun",
+    "topic": "genetika",
+    "anchor": "gen"
+  },
+  {
+    "w": "proteomika",
+    "az": "Hüceyrə və ya orqanizmdəki zülalların genişmiqyaslı tədqiqi.",
+    "en": "The large-scale study of the proteins in a cell or organism.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "hüceyrə"
+  },
+  {
+    "w": "transkriptomika",
+    "az": "Hüceyrədə müəyyən şəraitdə yaranan RNT molekullarının məcmusunun tədqiqi.",
+    "en": "The study of the RNA molecules expressed by cells under particular conditions.",
+    "pos": "noun",
+    "topic": "genetika",
+    "anchor": "gen"
+  },
+  {
+    "w": "metabolomika",
+    "az": "Bioloji nümunədəki kiçik maddələr mübadiləsi məhsullarının genişmiqyaslı tədqiqi.",
+    "en": "The large-scale study of small metabolic molecules in a biological sample.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "biologiya"
+  },
+  {
+    "w": "epigenom",
+    "az": "DNT ardıcıllığını dəyişmədən genlərin fəaliyyətinə təsir edən işarələrin məcmusu.",
+    "en": "The collection of chemical marks affecting gene activity without changing the DNA sequence.",
+    "pos": "noun",
+    "topic": "genetika",
+    "anchor": "gen"
+  },
+  {
+    "w": "xromatin",
+    "az": "Hüceyrə nüvəsində DNT və zülallardan ibarət material.",
+    "en": "The material composed of DNA and proteins within a cell nucleus.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "hüceyrə"
+  },
+  {
+    "w": "telomer",
+    "az": "Xromosomun ucunda yerləşən, onun sabitliyini qorumağa kömək edən DNT sahəsi.",
+    "en": "A DNA region at a chromosome's end that helps maintain its stability.",
+    "pos": "noun",
+    "topic": "genetika",
+    "anchor": "gen"
+  },
+  {
+    "w": "sentromer",
+    "az": "Hüceyrə bölünərkən xromosomun ayrılmasında iştirak edən xüsusi sahəsi.",
+    "en": "A chromosome region that helps organize chromosome separation during cell division.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "hüceyrə"
+  },
+  {
+    "w": "sentriol",
+    "az": "Bir çox heyvan hüceyrəsində mikroborucuqlardan təşkil olunmuş silindrik quruluş.",
+    "en": "A cylindrical structure made of microtubules, present in many animal cells.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "hüceyrə"
+  },
+  {
+    "w": "peroksisom",
+    "az": "Müəyyən oksidləşmə reaksiyalarını həyata keçirən membranlı hüceyrə orqanoidi.",
+    "en": "A membrane-bound organelle that carries out certain oxidation reactions.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "hüceyrə"
+  },
+  {
+    "w": "sitoplazma",
+    "az": "Hüceyrənin membranı daxilində nüvədən kənarda qalan canlı maddəsi.",
+    "en": "The contents of a cell inside its membrane but outside its nucleus.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "hüceyrə"
+  },
+  {
+    "w": "sitoskelet",
+    "az": "Hüceyrənin formasını, hərəkətini və daxili daşınmanı təmin edən zülal lifləri sistemi.",
+    "en": "A network of protein filaments supporting cell shape, movement, and internal transport.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "hüceyrə"
+  },
+  {
+    "w": "sitozol",
+    "az": "Hüceyrə sitoplazmasının orqanoidlərdən kənarda qalan maye hissəsi.",
+    "en": "The fluid portion of the cytoplasm outside its organelles.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "hüceyrə"
+  },
+  {
+    "w": "nukleosom",
+    "az": "DNT-nin histon zülalları ətrafında sarınması ilə yaranan xromatin vahidi.",
+    "en": "A unit of chromatin consisting of DNA wrapped around histone proteins.",
+    "pos": "noun",
+    "topic": "genetika",
+    "anchor": "gen"
+  },
+  {
+    "w": "nukleozid",
+    "az": "Azotlu əsas və şəkərdən ibarət, fosfat qrupu olmayan birləşmə.",
+    "en": "A compound consisting of a nitrogenous base and a sugar, without a phosphate group.",
+    "pos": "noun",
+    "topic": "kimya",
+    "anchor": "kimya"
+  },
+  {
+    "w": "retrovirus",
+    "az": "Genetik materialını RNT-dən DNT-yə köçürən fermentə malik virus.",
+    "en": "A virus that uses reverse transcription to copy its RNA into DNA.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "biologiya"
+  },
+  {
+    "w": "adenovirus",
+    "az": "Tənəffüs yolları və başqa orqanlarda infeksiya yarada bilən DNT virusları qrupunun nümayəndəsi.",
+    "en": "A DNA virus belonging to a group that can cause respiratory and other infections.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "xəstəlik"
+  },
+  {
+    "w": "rotavirus",
+    "az": "Xüsusilə kiçik uşaqlarda ishal və qusmaya səbəb ola bilən virus.",
+    "en": "A virus that can cause diarrhoea and vomiting, especially in young children.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "xəstəlik"
+  },
+  {
+    "w": "norovirus",
+    "az": "Kəskin mədə-bağırsaq infeksiyasına səbəb olan yoluxucu virus.",
+    "en": "A contagious virus that causes acute gastroenteritis.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "xəstəlik"
+  },
+  {
+    "w": "papillomavirus",
+    "az": "Dəri və selikli qişa hüceyrələrini yoluxduran viruslar qrupunun nümayəndəsi.",
+    "en": "A virus from a group that infects skin and mucosal cells.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "xəstəlik"
+  },
+  {
+    "w": "prion",
+    "az": "Başqa zülalların da yanlış qatlanmasına səbəb ola bilən yoluxucu zülal forması.",
+    "en": "An infectious protein form that can cause other proteins to fold abnormally.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "biologiya"
+  },
+  {
+    "w": "viroid",
+    "az": "Əsasən bitkilərdə xəstəlik yaradan, zülal örtüyü olmayan kiçik RNT molekulu.",
+    "en": "A small infectious RNA molecule without a protein coat, mainly affecting plants.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "bitki"
+  },
+  {
+    "w": "patogen",
+    "az": "Orqanizmdə xəstəlik yarada bilən bioloji amil.",
+    "en": "A biological agent capable of causing disease.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "xəstəlik"
+  },
+  {
+    "w": "immunoqlobulin",
+    "az": "İmmun sistemin müəyyən antigenləri tanımaq üçün hazırladığı zülal; anticisim.",
+    "en": "A protein produced by the immune system to recognize specific antigens; an antibody.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "sitokin",
+    "az": "Hüceyrələr arasında siqnal ötürən, xüsusilə immun cavabı tənzimləyən zülal.",
+    "en": "A signalling protein that helps regulate communication between cells, particularly immune cells.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "hüceyrə"
+  },
+  {
+    "w": "interleykin",
+    "az": "İmmun hüceyrələr arasında əlaqəni və cavabı tənzimləyən sitokin növü.",
+    "en": "A type of cytokine involved in communication and responses among immune cells.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "makrofaq",
+    "az": "Yad hissəcikləri və hüceyrə qalıqlarını udub parçalayan immun hüceyrə.",
+    "en": "An immune cell that engulfs and breaks down foreign particles and cellular debris.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "hüceyrə"
+  },
+  {
+    "w": "neytrofil",
+    "az": "Bakteriyalara qarşı ilkin müdafiədə mühüm rol oynayan ağ qan hüceyrəsi.",
+    "en": "A white blood cell important in the early defence against bacterial infections.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "qan"
+  },
+  {
+    "w": "eozinofil",
+    "az": "Allergik cavabda və bəzi parazitlərə qarşı müdafiədə iştirak edən ağ qan hüceyrəsi.",
+    "en": "A white blood cell involved in allergic responses and defence against certain parasites.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "qan"
+  },
+  {
+    "w": "bazofil",
+    "az": "Allergik və iltihabi reaksiyalarda iştirak edən nadir ağ qan hüceyrəsi.",
+    "en": "A relatively rare white blood cell involved in allergic and inflammatory reactions.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "qan"
+  },
+  {
+    "w": "monosit",
+    "az": "Qanda dövr edən və toxumalarda başqa immun hüceyrələrə çevrilə bilən ağ qan hüceyrəsi.",
+    "en": "A circulating white blood cell that can develop into other immune cells in tissues.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "qan"
+  },
+  {
+    "w": "fibroblast",
+    "az": "Birləşdirici toxumanın liflərini və hüceyrələrarası maddəsini hazırlayan hüceyrə.",
+    "en": "A cell that produces fibres and extracellular material in connective tissue.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "hüceyrə"
+  },
+  {
+    "w": "osteoblast",
+    "az": "Yeni sümük maddəsi yaradan hüceyrə.",
+    "en": "A cell that forms new bone tissue.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "hüceyrə"
+  },
+  {
+    "w": "osteoklast",
+    "az": "Sümük toxumasını parçalayaraq onun yenilənməsində iştirak edən hüceyrə.",
+    "en": "A cell that breaks down bone tissue during bone remodelling.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "hüceyrə"
+  },
+  {
+    "w": "xondrosit",
+    "az": "Qığırdaq toxumasının əsas hüceyrəsi.",
+    "en": "The principal cell of cartilage tissue.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "hüceyrə"
+  },
+  {
+    "w": "adiposit",
+    "az": "Yağ saxlayan və enerji mübadiləsində iştirak edən hüceyrə.",
+    "en": "A cell that stores fat and participates in energy metabolism.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "hüceyrə"
+  },
+  {
+    "w": "hepatosit",
+    "az": "Qaraciyərin əsas funksional hüceyrəsi.",
+    "en": "The main functional cell of the liver.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "hüceyrə"
+  },
+  {
+    "w": "keratinosit",
+    "az": "Dərinin üst qatında keratin hazırlayan əsas hüceyrə növü.",
+    "en": "The main cell type in the outer skin layer, producing keratin.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "hüceyrə"
+  },
+  {
+    "w": "melanosit",
+    "az": "Dəriyə və başqa toxumalara rəng verən melanin piqmentini hazırlayan hüceyrə.",
+    "en": "A cell that produces melanin, a pigment giving colour to skin and other tissues.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "hüceyrə"
+  },
+  {
+    "w": "neyrotransmitter",
+    "az": "Sinir hüceyrələri arasında siqnal ötürən kimyəvi maddə.",
+    "en": "A chemical substance that carries signals between nerve cells.",
+    "pos": "noun",
+    "topic": "sinir sistemi",
+    "anchor": "sinir"
+  },
+  {
+    "w": "sinaps",
+    "az": "Sinir hüceyrəsinin başqa hüceyrəyə siqnal ötürdüyü əlaqə yeri.",
+    "en": "A junction through which a nerve cell sends a signal to another cell.",
+    "pos": "noun",
+    "topic": "sinir sistemi",
+    "anchor": "sinir"
+  },
+  {
+    "w": "akson",
+    "az": "Sinir impulsunu hüceyrə gövdəsindən uzağa aparan uzun çıxıntı.",
+    "en": "The long projection of a nerve cell that carries impulses away from its cell body.",
+    "pos": "noun",
+    "topic": "sinir sistemi",
+    "anchor": "sinir"
+  },
+  {
+    "w": "dendrit",
+    "az": "Sinir hüceyrəsinə başqa hüceyrələrdən siqnal qəbul edən şaxəli çıxıntı.",
+    "en": "A branching projection of a nerve cell that receives signals from other cells.",
+    "pos": "noun",
+    "topic": "sinir sistemi",
+    "anchor": "sinir"
+  },
+  {
+    "w": "mielin",
+    "az": "Bəzi sinir liflərini örtərək impulsun ötürülməsini sürətləndirən yağlı qat.",
+    "en": "A fatty covering around certain nerve fibres that speeds signal transmission.",
+    "pos": "noun",
+    "topic": "sinir sistemi",
+    "anchor": "sinir"
+  },
+  {
+    "w": "neyroplastiklik",
+    "az": "Sinir sisteminin təcrübə və dəyişikliklərə uyğun quruluşunu və fəaliyyətini yeniləmə qabiliyyəti.",
+    "en": "The nervous system's capacity to reorganize its structure and function in response to experience.",
+    "pos": "noun",
+    "topic": "sinir sistemi",
+    "anchor": "sinir"
+  },
+  {
+    "w": "neyrogenez",
+    "az": "Yeni sinir hüceyrələrinin yaranması prosesi.",
+    "en": "The formation of new nerve cells.",
+    "pos": "noun",
+    "topic": "sinir sistemi",
+    "anchor": "sinir"
+  },
+  {
+    "w": "angiogenez",
+    "az": "Mövcud damarlardan yeni qan damarlarının yaranması.",
+    "en": "The formation of new blood vessels from existing ones.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "qan"
+  },
+  {
+    "w": "mutagenez",
+    "az": "Genetik materialda dəyişikliklərin yaranması prosesi.",
+    "en": "The process by which changes arise in genetic material.",
+    "pos": "noun",
+    "topic": "genetika",
+    "anchor": "gen"
+  },
+  {
+    "w": "kanserogenez",
+    "az": "Normal hüceyrələrin xərçəng hüceyrələrinə çevrilməsi ilə bağlı proseslər.",
+    "en": "The processes through which normal cells become cancerous.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "xəstəlik"
+  },
+  {
+    "w": "ontogenez",
+    "az": "Orqanizmin yaranmasından həyatının sonuna qədər fərdi inkişafı.",
+    "en": "The development of an individual organism throughout its life.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "biologiya"
+  },
+  {
+    "w": "embriogenez",
+    "az": "Rüşeymin yaranması və inkişafı prosesi.",
+    "en": "The formation and development of an embryo.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "biologiya"
+  },
+  {
+    "w": "morfogenez",
+    "az": "Orqanizmin və ya toxumanın forma və quruluşunun inkişafı.",
+    "en": "The development of the shape and structure of an organism or tissue.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "biologiya"
+  },
+  {
+    "w": "spermatogenez",
+    "az": "Kişi cinsiyyət hüceyrələrinin yaranması və yetişməsi prosesi.",
+    "en": "The formation and maturation of sperm cells.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "biologiya"
+  },
+  {
+    "w": "oogenez",
+    "az": "Dişi cinsiyyət hüceyrələrinin yaranması və yetişməsi prosesi.",
+    "en": "The formation and maturation of egg cells.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "biologiya"
+  },
+  {
+    "w": "qlikoliz",
+    "az": "Qlükozanın parçalanaraq enerji alınmasında iştirak etdiyi hüceyrə reaksiyaları ardıcıllığı.",
+    "en": "A sequence of cellular reactions that breaks down glucose and contributes to energy production.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "hüceyrə"
+  },
+  {
+    "w": "qlikogenez",
+    "az": "Qlükozadan qlikogenin sintez olunması prosesi.",
+    "en": "The synthesis of glycogen from glucose.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "biologiya"
+  },
+  {
+    "w": "qlikogenoliz",
+    "az": "Saxlanmış qlikogenin parçalanması prosesi.",
+    "en": "The breakdown of stored glycogen.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "biologiya"
+  },
+  {
+    "w": "lipoliz",
+    "az": "Yağların daha sadə hissələrə parçalanması prosesi.",
+    "en": "The breakdown of fats into simpler components.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "biologiya"
+  },
+  {
+    "w": "lipogenez",
+    "az": "Orqanizmdə yağların sintez olunması prosesi.",
+    "en": "The synthesis of fats within an organism.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "biologiya"
+  },
+  {
+    "w": "proteoliz",
+    "az": "Zülalların peptidlərə və ya amin turşularına parçalanması.",
+    "en": "The breakdown of proteins into peptides or amino acids.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "biologiya"
+  },
+  {
+    "w": "geotropizm",
+    "az": "Bitki orqanının cazibə qüvvəsinin istiqamətinə uyğun böyüməsi.",
+    "en": "Directional plant growth in response to gravity.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "bitki"
+  },
+  {
+    "w": "hidrotropizm",
+    "az": "Bitki orqanının su və ya rütubət fərqinə cavab olaraq istiqamətli böyüməsi.",
+    "en": "Directional plant growth in response to water or moisture differences.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "bitki"
+  },
+  {
+    "w": "kemotaksis",
+    "az": "Hüceyrənin kimyəvi maddənin təsirinə doğru və ya ondan uzağa hərəkəti.",
+    "en": "Movement of a cell toward or away from a chemical stimulus.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "hüceyrə"
+  },
+  {
+    "w": "fototaksis",
+    "az": "Orqanizmin və ya hüceyrənin işığa doğru və ya işıqdan uzağa hərəkəti.",
+    "en": "Movement of an organism or cell toward or away from light.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "biologiya"
+  },
+  {
+    "w": "osmorequlyasiya",
+    "az": "Orqanizmdə su və həll olmuş maddələrin tarazlığının tənzimlənməsi.",
+    "en": "Regulation of the balance of water and dissolved substances within an organism.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "biologiya"
+  },
+  {
+    "w": "termorequlyasiya",
+    "az": "Orqanizmin bədən temperaturunu müəyyən hədlərdə saxlaması.",
+    "en": "The regulation of body temperature within suitable limits.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "biologiya"
+  },
+  {
+    "w": "endositoz",
+    "az": "Hüceyrənin membranla əhatə edərək maddəni daxilinə alması.",
+    "en": "The uptake of material into a cell by enclosing it in a membrane.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "hüceyrə"
+  },
+  {
+    "w": "ekzositoz",
+    "az": "Hüceyrədaxili qabarcıqların membranla birləşib maddəni xaricə buraxması.",
+    "en": "The release of material when intracellular vesicles fuse with the cell membrane.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "hüceyrə"
+  },
+  {
+    "w": "pinositoz",
+    "az": "Hüceyrənin kiçik membran qabarcıqları ilə maye qəbul etməsi.",
+    "en": "The uptake of fluid by a cell through small membrane vesicles.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "hüceyrə"
+  },
+  {
+    "w": "mitoz",
+    "az": "Hüceyrə nüvəsinin xromosom sayını qoruyan bölünmə prosesi.",
+    "en": "Nuclear division that ordinarily preserves the chromosome number.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "hüceyrə"
+  },
+  {
+    "w": "meyoz",
+    "az": "Cinsi çoxalma üçün xromosom sayını yarıya endirən bölünmə prosesi.",
+    "en": "Cell division that reduces the chromosome number by half for sexual reproduction.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "hüceyrə"
+  },
+  {
+    "w": "sitokinez",
+    "az": "Hüceyrə bölünməsi zamanı sitoplazmanın ayrılması.",
+    "en": "The division of the cytoplasm during cell division.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "hüceyrə"
+  },
+  {
+    "w": "simbioz",
+    "az": "Müxtəlif növlərə aid orqanizmlərin yaxın və davamlı birgə yaşayışı.",
+    "en": "A close and persistent association between organisms of different species.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "biologiya"
+  },
+  {
+    "w": "mutualizm",
+    "az": "Hər iki tərəfin fayda gördüyü növlərarası münasibət.",
+    "en": "An interaction between species in which both participants benefit.",
+    "pos": "noun",
+    "topic": "ekologiya",
+    "anchor": "ekologiya"
+  },
+  {
+    "w": "amensalizm",
+    "az": "Bir növün zərər gördüyü, digərinin isə nəzərəçarpan təsirə məruz qalmadığı münasibət.",
+    "en": "An interaction in which one species is harmed while the other is largely unaffected.",
+    "pos": "noun",
+    "topic": "ekologiya",
+    "anchor": "ekologiya"
+  },
+  {
+    "w": "allelopatiya",
+    "az": "Bitkinin buraxdığı maddələrin başqa orqanizmlərin böyüməsinə təsiri.",
+    "en": "The effect of chemicals released by a plant on the growth of other organisms.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "bitki"
+  },
+  {
+    "w": "endemizm",
+    "az": "Növün təbii yayılmasının müəyyən coğrafi ərazi ilə məhdudlaşması.",
+    "en": "The restriction of a species' natural distribution to a particular geographical area.",
+    "pos": "noun",
+    "topic": "ekologiya",
+    "anchor": "ekologiya"
+  },
+  {
+    "w": "polimorfizm",
+    "az": "Eyni növ və ya populyasiya daxilində bir neçə fərqli formanın mövcudluğu.",
+    "en": "The occurrence of multiple distinct forms within a species or population.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "biologiya"
+  },
+  {
+    "w": "mimikri",
+    "az": "Canlının qorunmaq və ya başqa üstünlük qazanmaq üçün başqa obyektə bənzəməsi.",
+    "en": "Resemblance to another organism or object that provides protection or another advantage.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "biologiya"
+  },
+  {
+    "w": "diapauza",
+    "az": "Əlverişsiz şəraitə uyğunlaşma kimi inkişafın müvəqqəti dayanması.",
+    "en": "A temporary suspension of development that helps an organism survive unfavourable conditions.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "biologiya"
+  },
+  {
+    "w": "hermafroditizm",
+    "az": "Eyni orqanizmdə həm erkək, həm dişi çoxalma quruluşlarının olması.",
+    "en": "The presence of both male and female reproductive structures in one organism.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "biologiya"
+  },
+  {
+    "w": "poliploidiya",
+    "az": "Hüceyrədə ikidən çox tam xromosom dəstinin olması.",
+    "en": "The presence of more than two complete sets of chromosomes in a cell.",
+    "pos": "noun",
+    "topic": "genetika",
+    "anchor": "gen"
+  },
+  {
+    "w": "haploidiya",
+    "az": "Hüceyrədə bir tam xromosom dəstinin olması.",
+    "en": "The condition of having one complete set of chromosomes.",
+    "pos": "noun",
+    "topic": "genetika",
+    "anchor": "gen"
+  },
+  {
+    "w": "diploidiya",
+    "az": "Hüceyrədə iki tam xromosom dəstinin olması.",
+    "en": "The condition of having two complete sets of chromosomes.",
+    "pos": "noun",
+    "topic": "genetika",
+    "anchor": "gen"
+  },
+  {
+    "w": "genotip",
+    "az": "Orqanizmin genetik quruluşu və ya müəyyən əlamətə aid gen variantlarının birləşməsi.",
+    "en": "An organism's genetic makeup or its combination of variants at particular genes.",
+    "pos": "noun",
+    "topic": "genetika",
+    "anchor": "gen"
+  },
+  {
+    "w": "transgen",
+    "az": "Gen mühəndisliyi yolu ilə orqanizmə daxil edilmiş genetik ardıcıllıq.",
+    "en": "A genetic sequence introduced into an organism through genetic engineering.",
+    "pos": "noun",
+    "topic": "genetika",
+    "anchor": "gen"
+  },
+  {
+    "w": "transkripsiya",
+    "az": "Biologiyada DNT məlumatı əsasında RNT-nin sintez olunması.",
+    "en": "In biology, the synthesis of RNA using information encoded in DNA.",
+    "pos": "noun",
+    "topic": "genetika",
+    "anchor": "gen"
+  },
+  {
+    "w": "replikasiya",
+    "az": "Genetik materialın, xüsusilə DNT-nin surətinin yaranması.",
+    "en": "The copying of genetic material, especially DNA.",
+    "pos": "noun",
+    "topic": "genetika",
+    "anchor": "gen"
+  },
+  {
+    "w": "rekombinasiya",
+    "az": "Genetik materialın yeni birləşmələr yaradacaq şəkildə yenidən təşkil olunması.",
+    "en": "The rearrangement of genetic material into new combinations.",
+    "pos": "noun",
+    "topic": "genetika",
+    "anchor": "gen"
+  },
+  {
+    "w": "elektroporasiya",
+    "az": "Elektrik impulsları ilə hüceyrə membranının keçiriciliyinin müvəqqəti artırılması.",
+    "en": "A temporary increase in cell membrane permeability caused by electrical pulses.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "hüceyrə"
+  },
+  {
+    "w": "kriokonservasiya",
+    "az": "Bioloji materialın çox aşağı temperaturda qorunub saxlanması.",
+    "en": "The preservation of biological material at very low temperatures.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "biologiya"
+  },
+  {
+    "w": "klonlaşdırma",
+    "az": "Eyni genetik materialın və ya genetik baxımdan çox oxşar orqanizmin nüsxəsinin yaradılması.",
+    "en": "The production of copies of genetic material or genetically very similar organisms.",
+    "pos": "noun",
+    "topic": "genetika",
+    "anchor": "gen"
+  },
+  {
+    "w": "sekvensləmə",
+    "az": "DNT, RNT və ya zülalın tərkib vahidlərinin ardıcıllığının müəyyən edilməsi.",
+    "en": "Determination of the order of units in DNA, RNA, or a protein.",
+    "pos": "noun",
+    "topic": "genetika",
+    "anchor": "gen"
+  },
+  {
+    "w": "laparoskopiya",
+    "az": "Qarın boşluğunun kiçik kəsikdən daxil edilən kamera ilə müayinəsi və ya əməliyyatı.",
+    "en": "Examination or surgery of the abdomen using a camera introduced through a small incision.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "mammoqrafiya",
+    "az": "Süd vəzisinin rentgen şüaları ilə görüntülənməsi.",
+    "en": "X-ray imaging of the breast.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "elektromioqrafiya",
+    "az": "Əzələlərin elektrik fəaliyyətinin ölçülməsi və qeyd edilməsi.",
+    "en": "Measurement and recording of the electrical activity of muscles.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "elektroensefaloqrafiya",
+    "az": "Beynin elektrik fəaliyyətinin elektrodlarla qeydə alınması.",
+    "en": "Recording the brain's electrical activity using electrodes.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "angioqrafiya",
+    "az": "Qan damarlarının tibbi görüntüləmə üsulları ilə müayinəsi.",
+    "en": "Medical imaging used to examine blood vessels.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "qan"
+  },
+  {
+    "w": "angioplastika",
+    "az": "Daralmış qan damarının, çox vaxt balon vasitəsilə, genişləndirilməsi.",
+    "en": "A procedure to widen a narrowed blood vessel, often using a balloon.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "qan"
+  },
+  {
+    "w": "kolonoskopiya",
+    "az": "Yoğun bağırsağın daxili səthinin çevik kameralı alətlə müayinəsi.",
+    "en": "Examination of the inside of the large intestine using a flexible camera instrument.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "bronxoskopiya",
+    "az": "Tənəffüs yollarının daxili səthinin xüsusi optik alətlə müayinəsi.",
+    "en": "Examination of the inside of the airways using a specialized optical instrument.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "otoskopiya",
+    "az": "Qulaq kanalının və qulaq pərdəsinin işıqlı alətlə müayinəsi.",
+    "en": "Examination of the ear canal and eardrum using an illuminated instrument.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "dermatoskopiya",
+    "az": "Dəri törəmələrinin böyüdücü və işıqlandırıcı alətlə müayinəsi.",
+    "en": "Examination of skin lesions using a magnifying and illuminating instrument.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "biopsiya",
+    "az": "Diaqnostik müayinə üçün orqanizmdən hüceyrə və ya toxuma nümunəsinin götürülməsi.",
+    "en": "The removal of cells or tissue from the body for diagnostic examination.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "autopsiya",
+    "az": "Ölümün səbəbini və xəstəlik dəyişikliklərini müəyyən etmək üçün meyitin müayinəsi.",
+    "en": "Examination of a body after death to determine its cause and identify disease changes.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "reanimatologiya",
+    "az": "Həyati funksiyaların bərpası və ağır vəziyyətdə olan xəstələrin müalicəsi ilə məşğul olan sahə.",
+    "en": "The medical field concerned with restoring vital functions and treating critically ill patients.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "neonatologiya",
+    "az": "Yeni doğulmuş körpələrin sağlamlığı və müalicəsi ilə məşğul olan tibb sahəsi.",
+    "en": "The branch of medicine concerned with the health and treatment of newborn infants.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "perinatologiya",
+    "az": "Doğuşdan əvvəlki və sonrakı dövrdə ana və körpənin sağlamlığını öyrənən sahə.",
+    "en": "The medical field concerned with maternal and infant health around the time of birth.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "gerontologiya",
+    "az": "Qocalmanı və yaşlanmanın bioloji, psixoloji, sosial tərəflərini öyrənən elm.",
+    "en": "The study of ageing and its biological, psychological, and social aspects.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "biologiya"
+  },
+  {
+    "w": "geriatriya",
+    "az": "Yaşlı insanların sağlamlığı və xəstəliklərinin müalicəsi ilə məşğul olan tibb sahəsi.",
+    "en": "The branch of medicine concerned with the health and treatment of older adults.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "hemodializ",
+    "az": "Böyrək fəaliyyəti zəiflədikdə qanın xüsusi cihaz vasitəsilə təmizlənməsi.",
+    "en": "The filtering of blood through a machine when kidney function is insufficient.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "nefrologiya",
+    "az": "Böyrəklərin fəaliyyəti və xəstəliklərini öyrənən tibb sahəsi.",
+    "en": "The branch of medicine concerned with kidney function and disease.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "hepatologiya",
+    "az": "Qaraciyər və onunla əlaqəli orqanların xəstəliklərini öyrənən sahə.",
+    "en": "The medical field concerned with diseases of the liver and related organs.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "endokrinologiya",
+    "az": "Hormonları, daxili sekresiya vəzilərini və onların xəstəliklərini öyrənən sahə.",
+    "en": "The medical study of hormones, endocrine glands, and their disorders.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "revmatologiya",
+    "az": "Oynaq, əzələ və birləşdirici toxuma xəstəlikləri ilə məşğul olan tibb sahəsi.",
+    "en": "The branch of medicine concerned with joint, muscle, and connective tissue disorders.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "neyrocərrahiyyə",
+    "az": "Beyin, onurğa beyni və sinir sisteminin cərrahi müalicəsi sahəsi.",
+    "en": "The surgical treatment of conditions affecting the brain, spinal cord, and nerves.",
+    "pos": "noun",
+    "topic": "sinir sistemi",
+    "anchor": "sinir"
+  },
+  {
+    "w": "radioterapiya",
+    "az": "Xəstəliklərin, xüsusilə xərçəngin, ionlaşdırıcı şüalanma ilə müalicəsi.",
+    "en": "Treatment of disease, especially cancer, using ionizing radiation.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "immunoterapiya",
+    "az": "Müalicə məqsədilə immun sistemin fəaliyyətinə təsir edən üsullar.",
+    "en": "Treatment that modifies the activity of the immune system.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "fizioterapiya",
+    "az": "Hərəkət, məşq və fiziki təsirlər vasitəsilə funksiyanın bərpasına yönəlmiş müalicə.",
+    "en": "Treatment using movement, exercise, and physical methods to restore function.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "fototerapiya",
+    "az": "Müəyyən xəstəliklərin nəzarətli işıq təsiri ilə müalicəsi.",
+    "en": "Treatment of particular conditions through controlled exposure to light.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "krioterapiya",
+    "az": "Müalicə məqsədilə soyuqdan və ya çox aşağı temperaturdan istifadə.",
+    "en": "The use of cold or very low temperatures for treatment.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "audiometriya",
+    "az": "Eşitmə həssaslığının və eşitmə itkisinin ölçülməsi.",
+    "en": "Measurement of hearing sensitivity and hearing loss.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "spirometriya",
+    "az": "Ağciyərlərə daxil olan və onlardan çıxan havanın həcminin və sürətinin ölçülməsi.",
+    "en": "Measurement of the volume and flow of air moving into and out of the lungs.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "tonometriya",
+    "az": "Tibbdə təzyiqin, xüsusilə gözdaxili təzyiqin ölçülməsi.",
+    "en": "Medical measurement of pressure, especially pressure inside the eye.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "densitometriya",
+    "az": "Maddənin və ya toxumanın sıxlığının ölçülməsi; tibbdə çox vaxt sümük sıxlığı müayinəsi.",
+    "en": "Measurement of density, commonly used in medicine to assess bone density.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "elastoqrafiya",
+    "az": "Toxumaların sərtliyini və elastikliyini görüntüləmə ilə qiymətləndirən üsul.",
+    "en": "An imaging method that assesses the stiffness and elasticity of tissues.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "sintiqrafiya",
+    "az": "Radioaktiv izləyici maddə ilə orqanların fəaliyyəti və quruluşunun görüntülənməsi.",
+    "en": "Imaging of organ structure and function using a radioactive tracer.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "teletibb",
+    "az": "Tibbi xidmətin rabitə texnologiyaları vasitəsilə məsafədən göstərilməsi.",
+    "en": "The delivery of medical care at a distance using communication technologies.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "ultrasəs",
+    "az": "Tezliyi insanın eşitmə həddindən yüksək olan səs dalğaları.",
+    "en": "Sound waves with frequencies above the usual range of human hearing.",
+    "pos": "noun",
+    "topic": "fizika",
+    "anchor": "fizika"
+  },
+  {
+    "w": "flüoroqrafiya",
+    "az": "Rentgen görüntüsünün fotoqrafik və ya rəqəmsal qeydə alınması üsulu.",
+    "en": "A method of recording an X-ray image photographically or digitally.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "tomoqrafiya",
+    "az": "Orqanın və ya cismin qatlar üzrə təsvirini yaradan görüntüləmə üsulu.",
+    "en": "An imaging method that produces sectional views of an organ or object.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "endoprotez",
+    "az": "Zədələnmiş bədən hissəsini əvəz etmək üçün bədən daxilinə yerləşdirilən süni quruluş.",
+    "en": "An artificial structure implanted inside the body to replace a damaged part.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "implantasiya",
+    "az": "Tibbdə cihaz və ya toxumanın bədənə yerləşdirilməsi; biologiyada rüşeymin uşaqlıq divarına birləşməsi.",
+    "en": "Placement of a device or tissue in the body; in reproduction, attachment of an embryo to the uterine lining.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "transplantasiya",
+    "az": "Orqan və ya toxumanın bir yerdən başqa yerə köçürülməsi.",
+    "en": "The transfer of an organ or tissue from one location or individual to another.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "laparoskop",
+    "az": "Qarın boşluğunu kiçik kəsikdən görüntüləmək üçün istifadə olunan optik alət.",
+    "en": "An optical instrument used to view the abdomen through a small incision.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "defibrilyator",
+    "az": "Müəyyən təhlükəli ürək ritmlərini elektrik impulsu ilə düzəltmək üçün istifadə olunan cihaz.",
+    "en": "A device that delivers an electrical shock to treat certain dangerous heart rhythms.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "kardiostimulyator",
+    "az": "Ürəyin ritmini tənzimləmək üçün elektrik impulsları verən cihaz.",
+    "en": "A device that delivers electrical impulses to regulate the heartbeat.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "oksimetr",
+    "az": "Qanın oksigenlə doyma səviyyəsini ölçmək üçün istifadə olunan cihaz.",
+    "en": "A device used to measure the oxygen saturation of blood.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "qan"
+  },
+  {
+    "w": "qlükometr",
+    "az": "Qanda qlükozanın miqdarını ölçən kiçik cihaz.",
+    "en": "A small device used to measure blood glucose levels.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "qan"
+  },
+  {
+    "w": "nebulayzer",
+    "az": "Maye dərmanı nəfəsalma üçün xırda aerozol damcılarına çevirən cihaz.",
+    "en": "A device that turns liquid medicine into a fine aerosol for inhalation.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "otoskop",
+    "az": "Qulaq kanalını və qulaq pərdəsini görmək üçün işıqlı tibbi alət.",
+    "en": "An illuminated medical instrument used to view the ear canal and eardrum.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "dermatoskop",
+    "az": "Dəri səthini böyüdərək müayinə etməyə imkan verən işıqlı alət.",
+    "en": "An illuminated magnifying instrument used to examine the skin.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "kateter",
+    "az": "Maye vermək, çıxarmaq və ya ölçmə aparmaq üçün bədənə daxil edilən nazik boru.",
+    "en": "A thin tube inserted into the body to deliver or remove fluids or perform measurements.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "stent",
+    "az": "Daralmış kanal və ya damarı açıq saxlamaq üçün yerləşdirilən kiçik dayaq.",
+    "en": "A small support placed inside a narrowed vessel or passage to keep it open.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "şunt",
+    "az": "Mayenin və ya qanın başqa yolla axmasını təmin edən süni və ya təbii keçid.",
+    "en": "An artificial or natural passage that redirects the flow of fluid or blood.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "infuziya",
+    "az": "Maye və ya dərmanın, adətən damar yolu ilə, tədricən verilməsi.",
+    "en": "The gradual delivery of fluid or medication, usually into a blood vessel.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "perfuziya",
+    "az": "Qanın toxuma və orqanların damarlarından keçərək onları təmin etməsi.",
+    "en": "The flow of blood through vessels supplying tissues and organs.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "qan"
+  },
+  {
+    "w": "dializ",
+    "az": "Maddələrin yarımkeçirici membran vasitəsilə ayrılması; tibbdə qanın təmizlənməsi üsulu.",
+    "en": "Separation of substances across a semipermeable membrane; medically, a method of filtering blood.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "intubasiya",
+    "az": "Tənəffüs yoluna və ya başqa bədən kanalına boru yerləşdirilməsi.",
+    "en": "Insertion of a tube into the airway or another body passage.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "traxeostomiya",
+    "az": "Nəfəsalmanı təmin etmək üçün boyundan nəfəs borusuna açılış yaradılması.",
+    "en": "Creation of an opening through the neck into the windpipe to support breathing.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "hipoqlikemiya",
+    "az": "Qanda qlükoza səviyyəsinin normadan aşağı olması.",
+    "en": "An abnormally low blood glucose level.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "qan"
+  },
+  {
+    "w": "hiperqlikemiya",
+    "az": "Qanda qlükoza səviyyəsinin normadan yüksək olması.",
+    "en": "An abnormally high blood glucose level.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "qan"
+  },
+  {
+    "w": "hipoksiya",
+    "az": "Toxumaların ehtiyacına nisbətən az oksigen alması.",
+    "en": "An insufficient supply of oxygen to tissues.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "hiperkapniya",
+    "az": "Qanda karbon qazının miqdarının artması.",
+    "en": "An elevated level of carbon dioxide in the blood.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "qan"
+  },
+  {
+    "w": "hipertermiya",
+    "az": "Bədən temperaturunun istilik tarazlığının pozulması nəticəsində həddən artıq yüksəlməsi.",
+    "en": "An excessive rise in body temperature caused by failure of heat regulation.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "hipovolemiya",
+    "az": "Dövriyyədə olan qan və ya maye həcminin azalması.",
+    "en": "A reduction in the volume of circulating blood or fluid.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "qan"
+  },
+  {
+    "w": "dehidratasiya",
+    "az": "Orqanizmin qəbul etdiyindən çox su itirərək susuzlaşması.",
+    "en": "Loss of body water exceeding replacement, resulting in dehydration.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "rehidratasiya",
+    "az": "İtirilmiş suyun və lazım olduqda elektrolitlərin orqanizmə qaytarılması.",
+    "en": "Replacement of lost body water and, when needed, electrolytes.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "autoimmunitet",
+    "az": "İmmun sistemin orqanizmin öz toxumalarına qarşı reaksiya verməsi.",
+    "en": "An immune response directed against the body's own tissues.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "immunçatışmazlıq",
+    "az": "İmmun müdafiənin normal işləməsinə mane olan zəiflik və ya pozuntu.",
+    "en": "A deficiency or impairment of normal immune defence.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "immunosupressiya",
+    "az": "İmmun sistemin fəaliyyətinin zəifləməsi və ya məqsədli şəkildə zəiflədilməsi.",
+    "en": "Reduced immune system activity, whether caused by disease or deliberately induced.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "sepsis",
+    "az": "İnfeksiyaya qarşı nizamsız cavabın orqan fəaliyyətini pozduğu təhlükəli vəziyyət.",
+    "en": "A life-threatening condition in which a dysregulated response to infection causes organ dysfunction.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "xəstəlik"
+  },
+  {
+    "w": "aseptika",
+    "az": "Mikroorqanizmlərin yaraya və ya steril sahəyə düşməsinin qarşısını alan tədbirlər.",
+    "en": "Measures that prevent microorganisms from entering a wound or sterile area.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "antiseptika",
+    "az": "Canlı toxuma üzərində mikroorqanizmləri azaltmağa yönəlmiş üsullar.",
+    "en": "Methods used to reduce microorganisms on living tissue.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "zoonoz",
+    "az": "Onurğalı heyvanlarla insanlar arasında təbii yolla keçə bilən yoluxucu xəstəlik.",
+    "en": "An infectious disease naturally transmissible between vertebrate animals and humans.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "xəstəlik"
+  },
+  {
+    "w": "endemiya",
+    "az": "Xəstəliyin müəyyən ərazidə və ya əhali qrupunda davamlı mövcudluğu.",
+    "en": "The persistent presence of a disease in a particular region or population.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "xəstəlik"
+  },
+  {
+    "w": "vaksinasiya",
+    "az": "İmmun cavab yaratmaq üçün vaksinin tətbiqi.",
+    "en": "Administration of a vaccine to produce an immune response.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "revaksinasiya",
+    "az": "İmmun müdafiəni yeniləmək və ya gücləndirmək üçün təkrar vaksin tətbiqi.",
+    "en": "Repeat vaccination intended to renew or strengthen immune protection.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "skrininq",
+    "az": "Əlaməti olmayan insanlarda xəstəlik ehtimalını ilkin müayinələrlə yoxlama.",
+    "en": "Testing people without symptoms to identify possible disease or elevated risk.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "reabilitasiya",
+    "az": "Xəstəlik və ya zədədən sonra funksiyanın və gündəlik fəaliyyətin bərpası tədbirləri.",
+    "en": "Measures that restore function and everyday activity after illness or injury.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "remissiya",
+    "az": "Xəstəlik əlamətlərinin azalması və ya müvəqqəti yox olması dövrü.",
+    "en": "A period in which signs of a disease decrease or temporarily disappear.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "xəstəlik"
+  },
+  {
+    "w": "residiv",
+    "az": "Yaxşılaşmadan sonra xəstəliyin və ya əlamətlərinin yenidən baş verməsi.",
+    "en": "The return of a disease or its symptoms after improvement.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "xəstəlik"
+  },
+  {
+    "w": "metastaz",
+    "az": "Xərçəng hüceyrələrinin ilkin ocaqdan başqa nahiyəyə yayılması və orada yeni ocaq yaratması.",
+    "en": "The spread of cancer cells from their original site to form a tumour elsewhere.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "xəstəlik"
+  },
+  {
+    "w": "osteoporoz",
+    "az": "Sümük möhkəmliyinin azalaraq sınıq riskinin artdığı xəstəlik.",
+    "en": "A condition in which reduced bone strength increases the risk of fractures.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "xəstəlik"
+  },
+  {
+    "w": "osteoartrit",
+    "az": "Oynağın qığırdaq və digər toxumalarında dəyişikliklərlə gedən xroniki xəstəlik.",
+    "en": "A chronic joint disorder involving changes in cartilage and other joint tissues.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "xəstəlik"
+  },
+  {
+    "w": "kifoz",
+    "az": "Onurğanın arxaya doğru əyriliyi; həddindən artıq olduqda duruş pozuntusu.",
+    "en": "An outward spinal curvature that may cause a postural disorder when excessive.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "lordoz",
+    "az": "Onurğanın önə doğru əyriliyi; bəzi nahiyələrdə normal quruluş xüsusiyyəti.",
+    "en": "An inward spinal curvature, normally present in certain regions.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "tendinit",
+    "az": "Əzələni sümüyə birləşdirən vətərin iltihabı.",
+    "en": "Inflammation of a tendon.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "xəstəlik"
+  },
+  {
+    "w": "bursit",
+    "az": "Oynaq ətrafında sürtünməni azaldan mayeli kisəciyin iltihabı.",
+    "en": "Inflammation of a fluid-filled sac that reduces friction around a joint.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "xəstəlik"
+  },
+  {
+    "w": "ensefalit",
+    "az": "Beyin toxumasının iltihabı.",
+    "en": "Inflammation of brain tissue.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "xəstəlik"
+  },
+  {
+    "w": "miokardit",
+    "az": "Ürək əzələsinin iltihabı.",
+    "en": "Inflammation of the heart muscle.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "xəstəlik"
+  },
+  {
+    "w": "perikardit",
+    "az": "Ürəyi əhatə edən qişanın iltihabı.",
+    "en": "Inflammation of the membrane surrounding the heart.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "xəstəlik"
+  },
+  {
+    "w": "endokardit",
+    "az": "Ürəyin daxili qişasının, çox vaxt qapaqların, iltihabı.",
+    "en": "Inflammation of the inner lining of the heart, often involving its valves.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "xəstəlik"
+  },
+  {
+    "w": "pankreatit",
+    "az": "Mədəaltı vəzinin iltihabı.",
+    "en": "Inflammation of the pancreas.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "xəstəlik"
+  },
+  {
+    "w": "xolesistit",
+    "az": "Öd kisəsinin iltihabı.",
+    "en": "Inflammation of the gallbladder.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "xəstəlik"
+  },
+  {
+    "w": "kolit",
+    "az": "Yoğun bağırsağın iltihabı.",
+    "en": "Inflammation of the large intestine.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "xəstəlik"
+  },
+  {
+    "w": "divertikulit",
+    "az": "Həzm yolunun divarında yaranmış kisəciklərin iltihabı.",
+    "en": "Inflammation of pouches that have formed in the digestive tract wall.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "xəstəlik"
+  },
+  {
+    "w": "nefrit",
+    "az": "Böyrək toxumasının iltihabı.",
+    "en": "Inflammation of kidney tissue.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "xəstəlik"
+  },
+  {
+    "w": "sistit",
+    "az": "Sidik kisəsinin iltihabı.",
+    "en": "Inflammation of the urinary bladder.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "xəstəlik"
+  },
+  {
+    "w": "uretrit",
+    "az": "Sidik kanalının iltihabı.",
+    "en": "Inflammation of the urethra.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "xəstəlik"
+  },
+  {
+    "w": "sinusit",
+    "az": "Burunətrafı boşluqların selikli qişasının iltihabı.",
+    "en": "Inflammation of the lining of the paranasal sinuses.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "xəstəlik"
+  },
+  {
+    "w": "faringit",
+    "az": "Udlaq toxumasının iltihabı ilə xarakterizə olunan vəziyyət.",
+    "en": "Inflammation of the pharynx or throat.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "xəstəlik"
+  },
+  {
+    "w": "laringit",
+    "az": "Səsin yaranmasında iştirak edən qırtlağın iltihabı.",
+    "en": "Inflammation of the larynx or voice box.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "xəstəlik"
+  },
+  {
+    "w": "bronxiolit",
+    "az": "Ağciyərlərdəki xırda hava yollarının iltihabı.",
+    "en": "Inflammation of the small airways in the lungs.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "xəstəlik"
+  },
+  {
+    "w": "pnevmoniya",
+    "az": "Ağciyər toxumasının, çox vaxt infeksiya ilə bağlı, iltihabı.",
+    "en": "Inflammation of lung tissue, often caused by infection.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "xəstəlik"
+  },
+  {
+    "w": "emfizema",
+    "az": "Ağciyərdə hava kisəciklərinin zədələnib genişlənməsi ilə gedən vəziyyət.",
+    "en": "A condition in which the lung air sacs are damaged and enlarged.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "xəstəlik"
+  },
+  {
+    "w": "ateroskleroz",
+    "az": "Arteriya divarlarında yağlı lövhəciklərin toplanması ilə gedən xəstəlik.",
+    "en": "A disease involving the buildup of fatty plaques in artery walls.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "xəstəlik"
+  },
+  {
+    "w": "tromboz",
+    "az": "Damar daxilində qan laxtasının yaranması.",
+    "en": "Formation of a blood clot inside a blood vessel.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "qan"
+  },
+  {
+    "w": "anevrizma",
+    "az": "Damar divarının zəifləyərək yerli şəkildə genişlənməsi.",
+    "en": "A localized widening of a blood vessel caused by weakness in its wall.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "qan"
+  },
+  {
+    "w": "aritmiya",
+    "az": "Ürək döyüntüsünün normal ritminin pozulması.",
+    "en": "An abnormality in the rhythm of the heartbeat.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "xəstəlik"
+  },
+  {
+    "w": "bradikardiya",
+    "az": "Ürək döyüntüsünün yaşa və şəraitə görə gözləniləndən yavaş olması.",
+    "en": "A heart rate slower than expected for the person's age and circumstances.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "fibrilyasiya",
+    "az": "Əzələ liflərinin nizamsız, koordinasiyasız titrəməsi; çox vaxt ürək ritmi barədə işlənir.",
+    "en": "Rapid, disorganized activity of muscle fibres, commonly referring to the heart.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "talassemiya",
+    "az": "Hemoqlobin zəncirlərinin sintezinin pozulduğu irsi qan xəstəlikləri qrupu.",
+    "en": "A group of inherited blood disorders affecting the production of haemoglobin chains.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "qan"
+  },
+  {
+    "w": "leykoz",
+    "az": "Qan yaradan toxumaların, adətən ağ qan hüceyrələri ilə bağlı, xərçəngi.",
+    "en": "Cancer of blood-forming tissues, usually involving white blood cells; leukaemia.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "xəstəlik"
+  },
+  {
+    "w": "limfoma",
+    "az": "Limfa sisteminin hüceyrələrindən yaranan xərçəng növü.",
+    "en": "A cancer arising from cells of the lymphatic system.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "xəstəlik"
+  },
+  {
+    "w": "melanoma",
+    "az": "Melanin hazırlayan hüceyrələrdən inkişaf edən bədxassəli şiş.",
+    "en": "A malignant tumour arising from pigment-producing cells.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "xəstəlik"
+  },
+  {
+    "w": "karsinoma",
+    "az": "Epitel hüceyrələrindən yaranan bədxassəli şiş.",
+    "en": "A malignant tumour arising from epithelial cells.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "xəstəlik"
+  },
+  {
+    "w": "sarkoma",
+    "az": "Sümük, əzələ və başqa birləşdirici toxumalardan yaranan bədxassəli şiş.",
+    "en": "A malignant tumour arising from bone, muscle, or other connective tissues.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "xəstəlik"
+  },
+  {
+    "w": "adenoma",
+    "az": "Vəzi toxumasından və ya vəzivari epitel hüceyrələrindən yaranan xoşxassəli şiş.",
+    "en": "A benign tumour arising from glandular tissue or gland-like epithelial cells.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "xəstəlik"
+  },
+  {
+    "w": "miopiya",
+    "az": "Uzaqdakı obyektlərin bulanıq göründüyü görmə qüsuru; yaxındangörmə.",
+    "en": "A focusing error that makes distant objects appear blurred; short-sightedness.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "hipermetropiya",
+    "az": "Gözün işığı torlu qişanın arxasına fokuslama meyli olan görmə qüsuru.",
+    "en": "A focusing error in which light tends to focus behind the retina; long-sightedness.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "presbiopiya",
+    "az": "Yaş artdıqca gözün yaxına fokuslanma qabiliyyətinin azalması.",
+    "en": "Age-related reduction in the eye's ability to focus on nearby objects.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "ambliopiya",
+    "az": "Görmənin inkişaf dövründə yaranan və eynəklə tam düzəlməyə bilən görmə zəifliyi.",
+    "en": "Reduced vision caused by abnormal visual development and not fully corrected by lenses alone.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "strabizm",
+    "az": "Gözlərin baxış istiqamətlərinin bir-birinə uyğun gəlməməsi; çəpgözlük.",
+    "en": "Misalignment of the eyes; squint.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "disqrafiya",
+    "az": "Yazı yazmaq bacarığında davamlı çətinliklərlə səciyyələnən pozuntu.",
+    "en": "A disorder involving persistent difficulties with writing skills.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "diskalkuliya",
+    "az": "Rəqəmləri anlama və hesablamada davamlı öyrənmə çətinliyi.",
+    "en": "A persistent learning difficulty involving number understanding and calculation.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "afaziya",
+    "az": "Beyin zədəsi nəticəsində dili anlama və ya işlətmə qabiliyyətinin pozulması.",
+    "en": "Impairment of language understanding or use caused by brain damage.",
+    "pos": "noun",
+    "topic": "sinir sistemi",
+    "anchor": "sinir"
+  },
+  {
+    "w": "disfagiya",
+    "az": "Qidanı və ya mayeni udmaqda çətinlik.",
+    "en": "Difficulty swallowing food or liquids.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "dispepsiya",
+    "az": "Qarnın yuxarı hissəsində narahatlıqla müşayiət olunan həzm şikayətləri.",
+    "en": "Digestive symptoms involving discomfort in the upper abdomen; indigestion.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "paresteziya",
+    "az": "Dəridə iynələnmə, keyimə və ya qarışqa gəzməsi kimi qeyri-adi hiss.",
+    "en": "An unusual sensation such as tingling, numbness, or pins and needles.",
+    "pos": "noun",
+    "topic": "sinir sistemi",
+    "anchor": "sinir"
+  },
+  {
+    "w": "nevralgiya",
+    "az": "Sinirin gedişi boyunca hiss olunan ağrı.",
+    "en": "Pain occurring along the course of a nerve.",
+    "pos": "noun",
+    "topic": "sinir sistemi",
+    "anchor": "sinir"
+  },
+  {
+    "w": "ekoton",
+    "az": "İki fərqli ekosistem və ya canlı birliyi arasındakı keçid sahəsi.",
+    "en": "A transition zone between two different ecosystems or biological communities.",
+    "pos": "noun",
+    "topic": "ekologiya",
+    "anchor": "ekologiya"
+  },
+  {
+    "w": "ekoturizm",
+    "az": "Təbiətin qorunmasını və yerli icmaların rifahını nəzərə alan məsuliyyətli təbiət turizmi.",
+    "en": "Responsible nature-based tourism that supports conservation and local communities.",
+    "pos": "noun",
+    "topic": "ekologiya",
+    "anchor": "təbiət"
+  },
+  {
+    "w": "aqroturizm",
+    "az": "Kənd təsərrüfatı fəaliyyəti və kənd həyatı ilə tanışlığa əsaslanan turizm.",
+    "en": "Tourism based on experiencing farming activities and rural life.",
+    "pos": "noun",
+    "topic": "ekologiya",
+    "anchor": "torpaq"
+  },
+  {
+    "w": "ekotoksikologiya",
+    "az": "Zərərli maddələrin canlılara və ekosistemlərə təsirini öyrənən elm.",
+    "en": "The study of harmful substances and their effects on organisms and ecosystems.",
+    "pos": "noun",
+    "topic": "ekologiya",
+    "anchor": "ekologiya"
+  },
+  {
+    "w": "fitoremediasiya",
+    "az": "Çirklənmiş torpaq və ya suyun təmizlənməsində bitkilərdən istifadə.",
+    "en": "The use of plants to help remove or manage pollution in soil or water.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "bitki"
+  },
+  {
+    "w": "evtrofikasiya",
+    "az": "Su hövzəsinin qida maddələri ilə zənginləşməsi nəticəsində həddindən artıq yosun artımı.",
+    "en": "Nutrient enrichment of water that can cause excessive algal growth.",
+    "pos": "noun",
+    "topic": "ekologiya",
+    "anchor": "su"
+  },
+  {
+    "w": "bioakkumulyasiya",
+    "az": "Maddənin orqanizmə daxil olma sürəti xaric olma sürətini üstələdikdə toplanması.",
+    "en": "The buildup of a substance in an organism when uptake exceeds elimination.",
+    "pos": "noun",
+    "topic": "ekologiya",
+    "anchor": "ekologiya"
+  },
+  {
+    "w": "biomagnifikasiya",
+    "az": "Bəzi maddələrin qida zəncirinin yuxarı pillələrində daha yüksək qatılığa çatması.",
+    "en": "An increase in the concentration of certain substances at higher levels of a food chain.",
+    "pos": "noun",
+    "topic": "ekologiya",
+    "anchor": "ekologiya"
+  },
+  {
+    "w": "mikroplastik",
+    "az": "Ölçüsü beş millimetrdən kiçik olan plastik hissəcik.",
+    "en": "A plastic particle smaller than five millimetres.",
+    "pos": "noun",
+    "topic": "ekologiya",
+    "anchor": "ekologiya"
+  },
+  {
+    "w": "nanoplastik",
+    "az": "Nanometr miqyasına yaxın ölçülü çox kiçik plastik hissəcik.",
+    "en": "An extremely small plastic particle in or near the nanoscale range.",
+    "pos": "noun",
+    "topic": "ekologiya",
+    "anchor": "ekologiya"
+  },
+  {
+    "w": "kompost",
+    "az": "Üzvi qalıqların parçalanmasından alınan torpaqyaxşılaşdırıcı material.",
+    "en": "A soil-improving material made from decomposed organic matter.",
+    "pos": "noun",
+    "topic": "ekologiya",
+    "anchor": "torpaq"
+  },
+  {
+    "w": "kompostlaşdırma",
+    "az": "Üzvi qalıqların nəzarətli şəraitdə parçalanaraq komposta çevrilməsi.",
+    "en": "Controlled decomposition of organic waste to produce compost.",
+    "pos": "noun",
+    "topic": "ekologiya",
+    "anchor": "torpaq"
+  },
+  {
+    "w": "vermikompost",
+    "az": "Üzvi qalıqların torpaq qurdlarının iştirakı ilə parçalanmasından alınan material.",
+    "en": "A soil amendment produced by the decomposition of organic matter with earthworms.",
+    "pos": "noun",
+    "topic": "ekologiya",
+    "anchor": "torpaq"
+  },
+  {
+    "w": "permakultura",
+    "az": "Təbii ekosistemlərdən nümunə götürən davamlı yaşayış və əkinçilik layihələndirməsi.",
+    "en": "A design approach to sustainable living and agriculture inspired by natural ecosystems.",
+    "pos": "noun",
+    "topic": "ekologiya",
+    "anchor": "ekologiya"
+  },
+  {
+    "w": "hidroponika",
+    "az": "Bitkilərin torpaq əvəzinə qidalı su məhlulunda yetişdirilməsi.",
+    "en": "Growing plants in a nutrient solution instead of soil.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "bitki"
+  },
+  {
+    "w": "aeroponika",
+    "az": "Bitki köklərinin havada saxlanaraq qidalı dumanla təmin edilməsi üsulu.",
+    "en": "Growing plants with suspended roots supplied by a nutrient mist.",
+    "pos": "noun",
+    "topic": "biologiya",
+    "anchor": "bitki"
+  },
+  {
+    "w": "akvaponika",
+    "az": "Balıq yetişdirmə ilə torpaqsız bitki becərməni birləşdirən sistem.",
+    "en": "A system combining aquatic animal farming with soil-free plant cultivation.",
+    "pos": "noun",
+    "topic": "ekologiya",
+    "anchor": "ekologiya"
+  },
+  {
+    "w": "akvakultura",
+    "az": "Balıq, molyusk, yosun və başqa su canlılarının nəzarətli yetişdirilməsi.",
+    "en": "The controlled farming of fish, shellfish, algae, or other aquatic organisms.",
+    "pos": "noun",
+    "topic": "ekologiya",
+    "anchor": "su"
+  },
+  {
+    "w": "marikultura",
+    "az": "Dəniz canlılarının dəniz və ya duzlu su şəraitində yetişdirilməsi.",
+    "en": "The farming of marine organisms in seawater or saline conditions.",
+    "pos": "noun",
+    "topic": "ekologiya",
+    "anchor": "su"
+  },
+  {
+    "w": "aqroekologiya",
+    "az": "Ekoloji prinsipləri kənd təsərrüfatı sistemlərinə tətbiq edən sahə.",
+    "en": "The application of ecological principles to agricultural systems.",
+    "pos": "noun",
+    "topic": "ekologiya",
+    "anchor": "ekologiya"
+  },
+  {
+    "w": "aqromeşəçilik",
+    "az": "Ağac yetişdirməni əkinçilik və ya heyvandarlıqla birləşdirən torpaq istifadəsi.",
+    "en": "Land use that combines trees with crops or livestock.",
+    "pos": "noun",
+    "topic": "ekologiya",
+    "anchor": "torpaq"
+  },
+  {
+    "w": "şoranlaşma",
+    "az": "Torpaqda bitkilərə zərər verə bilən miqdarda həll olan duzların toplanması.",
+    "en": "The accumulation of soluble salts in soil at levels that can harm plants.",
+    "pos": "noun",
+    "topic": "ekologiya",
+    "anchor": "torpaq"
+  },
+  {
+    "w": "turşulaşma",
+    "az": "Mühitin turşuluğunun artması, yəni pH göstəricisinin azalması.",
+    "en": "An increase in acidity, meaning a decrease in pH.",
+    "pos": "noun",
+    "topic": "kimya",
+    "anchor": "kimya"
+  },
+  {
+    "w": "denudasiya",
+    "az": "Aşınma və daşınma prosesləri ilə yer səthinin alçalması və açılması.",
+    "en": "The wearing down and exposure of the Earth's surface through weathering and erosion.",
+    "pos": "noun",
+    "topic": "ekologiya",
+    "anchor": "torpaq"
+  },
+  {
+    "w": "abraziya",
+    "az": "Səthin sürtünmə və ya dalğa təsiri ilə aşınması.",
+    "en": "The wearing away of a surface through friction or wave action.",
+    "pos": "noun",
+    "topic": "ekologiya",
+    "anchor": "təbiət"
+  },
+  {
+    "w": "deforestasiya",
+    "az": "Meşə örtüyünün uzunmüddətli və ya daimi itirilməsi.",
+    "en": "Long-term or permanent removal of forest cover.",
+    "pos": "noun",
+    "topic": "ekologiya",
+    "anchor": "ekologiya"
+  },
+  {
+    "w": "meşəsalma",
+    "az": "Əvvəllər meşə olmayan sahədə ağaclıq və meşə yaradılması.",
+    "en": "The establishment of forest on land that was not previously forested.",
+    "pos": "noun",
+    "topic": "ekologiya",
+    "anchor": "təbiət"
+  },
+  {
+    "w": "meşəbərpa",
+    "az": "İtirilmiş və ya zədələnmiş meşə örtüyünün yenidən yaradılması.",
+    "en": "The restoration of forest cover that has been lost or damaged.",
+    "pos": "noun",
+    "topic": "ekologiya",
+    "anchor": "təbiət"
+  },
+  {
+    "w": "rekultivasiya",
+    "az": "Zədələnmiş torpaq sahəsinin yenidən faydalı istifadəyə hazırlanması.",
+    "en": "The rehabilitation of damaged land for useful use.",
+    "pos": "noun",
+    "topic": "ekologiya",
+    "anchor": "torpaq"
+  },
+  {
+    "w": "drenaj",
+    "az": "Artıq suyun torpaqdan və ya başqa sahədən kənarlaşdırılması sistemi.",
+    "en": "A system or process for removing excess water from soil or another area.",
+    "pos": "noun",
+    "topic": "ekologiya",
+    "anchor": "su"
+  },
+  {
+    "w": "duzsuzlaşdırma",
+    "az": "Sudan həll olmuş duzların çıxarılması prosesi.",
+    "en": "The removal of dissolved salts from water; desalination.",
+    "pos": "noun",
+    "topic": "ekologiya",
+    "anchor": "su"
+  },
+  {
+    "w": "ultrafiltrasiya",
+    "az": "Çox xırda məsaməli membranla hissəcik və iri molekulların mayedən ayrılması.",
+    "en": "Separation of particles and large molecules from a liquid using a fine membrane.",
+    "pos": "noun",
+    "topic": "ekologiya",
+    "anchor": "su"
+  },
+  {
+    "w": "nanofiltrasiya",
+    "az": "Xırda həll olmuş maddələrin ayrılmasında istifadə olunan membran filtrasiya üsulu.",
+    "en": "A membrane filtration method used to separate certain small dissolved substances.",
+    "pos": "noun",
+    "topic": "ekologiya",
+    "anchor": "su"
+  },
+  {
+    "w": "fotokataliz",
+    "az": "İşığın təsiri ilə katalizatorun kimyəvi reaksiyanı sürətləndirməsi.",
+    "en": "Acceleration of a chemical reaction by a catalyst activated by light.",
+    "pos": "noun",
+    "topic": "kimya",
+    "anchor": "kimya"
+  },
+  {
+    "w": "piroliz",
+    "az": "Maddənin oksigen olmayan və ya az olan şəraitdə istiliklə parçalanması.",
+    "en": "Thermal decomposition of a substance with little or no oxygen present.",
+    "pos": "noun",
+    "topic": "kimya",
+    "anchor": "kimya"
+  },
+  {
+    "w": "dekarbonizasiya",
+    "az": "Fəaliyyət nəticəsində atmosferə buraxılan karbon qazının azaldılması prosesi.",
+    "en": "The process of reducing carbon dioxide emissions from an activity or economy.",
+    "pos": "noun",
+    "topic": "iqlim",
+    "anchor": "iqlim"
+  },
+  {
+    "w": "karbon neytrallığı",
+    "az": "Buraxılan karbon qazı ilə onun aradan qaldırılması arasında xalis tarazlıq vəziyyəti.",
+    "en": "A state of net balance between carbon dioxide emissions and their removal or compensation.",
+    "pos": "phrase",
+    "topic": "iqlim",
+    "anchor": "iqlim"
+  },
+  {
+    "w": "enerjisəmərəlilik",
+    "az": "Eyni nəticəni və ya xidməti daha az enerji sərfi ilə əldə etmə qabiliyyəti.",
+    "en": "The ability to provide the same result or service using less energy.",
+    "pos": "noun",
+    "topic": "enerji",
+    "anchor": "enerji"
+  },
+  {
+    "w": "nanomaterial",
+    "az": "Ən azı bir ölçüsü və ya quruluş xüsusiyyəti nanometr miqyasında olan material.",
+    "en": "A material with at least one dimension or structural feature at the nanoscale.",
+    "pos": "noun",
+    "topic": "fizika",
+    "anchor": "fizika"
+  },
+  {
+    "w": "nanokompozit",
+    "az": "Tərkib hissələrindən ən azı biri nanometr miqyasında olan birləşmiş material.",
+    "en": "A composite material with at least one component at the nanoscale.",
+    "pos": "noun",
+    "topic": "kimya",
+    "anchor": "kimya"
+  },
+  {
+    "w": "nanolif",
+    "az": "Diametri nanometr miqyasında olan çox nazik lif.",
+    "en": "An extremely thin fibre with a diameter at the nanoscale.",
+    "pos": "noun",
+    "topic": "fizika",
+    "anchor": "fizika"
+  },
+  {
+    "w": "nanoboru",
+    "az": "Nanometr miqyasında diametri olan boruşəkilli quruluş.",
+    "en": "A tube-shaped structure with a nanoscale diameter.",
+    "pos": "noun",
+    "topic": "fizika",
+    "anchor": "fizika"
+  },
+  {
+    "w": "aerogel",
+    "az": "Mayesi qazla əvəz edilmiş, çox məsaməli və yüngül bərk material.",
+    "en": "A highly porous, lightweight solid in which the liquid of a gel has been replaced by gas.",
+    "pos": "noun",
+    "topic": "kimya",
+    "anchor": "kimya"
+  },
+  {
+    "w": "hidrogel",
+    "az": "Çoxlu su saxlaya bilən üçölçülü polimer şəbəkəsi.",
+    "en": "A three-dimensional polymer network capable of holding a large amount of water.",
+    "pos": "noun",
+    "topic": "kimya",
+    "anchor": "kimya"
+  },
+  {
+    "w": "polimerləşmə",
+    "az": "Kiçik molekulların birləşərək iri zəncir və ya şəbəkə yaratması reaksiyası.",
+    "en": "A reaction in which small molecules join to form large chains or networks.",
+    "pos": "noun",
+    "topic": "kimya",
+    "anchor": "kimya"
+  },
+  {
+    "w": "depolimerləşmə",
+    "az": "Polimerin daha kiçik molekullara parçalanması prosesi.",
+    "en": "The breakdown of a polymer into smaller molecules.",
+    "pos": "noun",
+    "topic": "kimya",
+    "anchor": "kimya"
+  },
+  {
+    "w": "vulkanizasiya",
+    "az": "Kauçukun zəncirləri arasında bağlar yaradaraq onun xüsusiyyətlərini dəyişdirmə prosesi.",
+    "en": "A process that changes rubber properties by forming links between its molecular chains.",
+    "pos": "noun",
+    "topic": "kimya",
+    "anchor": "kimya"
+  },
+  {
+    "w": "kristallaşma",
+    "az": "Maddənin nizamlı kristal quruluş əmələ gətirməsi.",
+    "en": "The formation of an ordered crystalline structure in a substance.",
+    "pos": "noun",
+    "topic": "kimya",
+    "anchor": "kimya"
+  },
+  {
+    "w": "sublimasiya",
+    "az": "Bərk maddənin maye hala keçmədən birbaşa qaz halına keçməsi.",
+    "en": "The direct transition of a solid into a gas without becoming liquid.",
+    "pos": "noun",
+    "topic": "fizika",
+    "anchor": "fizika"
+  },
+  {
+    "w": "resublimasiya",
+    "az": "Qazın maye hala keçmədən birbaşa bərk hala keçməsi.",
+    "en": "The direct transition of a gas into a solid without becoming liquid.",
+    "pos": "noun",
+    "topic": "fizika",
+    "anchor": "fizika"
+  },
+  {
+    "w": "kondensasiya",
+    "az": "Qazın və ya buxarın maye hala çevrilməsi.",
+    "en": "The conversion of a gas or vapour into a liquid.",
+    "pos": "noun",
+    "topic": "fizika",
+    "anchor": "fizika"
+  },
+  {
+    "w": "adsorbsiya",
+    "az": "Maddə hissəciklərinin başqa maddənin səthində toplanması.",
+    "en": "The accumulation of particles of one substance on the surface of another.",
+    "pos": "noun",
+    "topic": "kimya",
+    "anchor": "kimya"
+  },
+  {
+    "w": "absorbsiya",
+    "az": "Maddənin və ya enerjinin başqa mühitin daxilinə udulması.",
+    "en": "The uptake of a substance or energy into the interior of another medium.",
+    "pos": "noun",
+    "topic": "fizika",
+    "anchor": "fizika"
+  },
+  {
+    "w": "desorbsiya",
+    "az": "Səthdə tutulmuş maddənin ayrılıb mühitə qayıtması.",
+    "en": "The release of a substance previously held on a surface.",
+    "pos": "noun",
+    "topic": "kimya",
+    "anchor": "kimya"
+  },
+  {
+    "w": "sentrifuqalama",
+    "az": "Fırlanma qüvvəsindən istifadə edərək qarışığın hissələrinin ayrılması.",
+    "en": "Separation of components of a mixture using rotational force.",
+    "pos": "noun",
+    "topic": "kimya",
+    "anchor": "kimya"
+  },
+  {
+    "w": "spektrometriya",
+    "az": "Şüalanmanın və ya hissəciklərin spektrinin kəmiyyətcə ölçülməsi.",
+    "en": "Quantitative measurement of a spectrum of radiation or particles.",
+    "pos": "noun",
+    "topic": "fizika",
+    "anchor": "fizika"
+  },
+  {
+    "w": "kolorimetriya",
+    "az": "Rəngin və ya rəng intensivliyinin ölçülməsi üsulları.",
+    "en": "Methods for measuring colour or colour intensity.",
+    "pos": "noun",
+    "topic": "fizika",
+    "anchor": "fizika"
+  },
+  {
+    "w": "refraktometriya",
+    "az": "Maddənin işığı sındırma göstəricisinin ölçülməsi.",
+    "en": "Measurement of a substance's refractive index.",
+    "pos": "noun",
+    "topic": "fizika",
+    "anchor": "fizika"
+  },
+  {
+    "w": "polarimetriya",
+    "az": "İşığın qütblənmə vəziyyətinin və ya onun dəyişməsinin ölçülməsi.",
+    "en": "Measurement of the polarization of light or changes in it.",
+    "pos": "noun",
+    "topic": "fizika",
+    "anchor": "fizika"
+  },
+  {
+    "w": "dosimetriya",
+    "az": "İonlaşdırıcı şüalanmanın udulmuş və ya verilmiş dozasının ölçülməsi.",
+    "en": "Measurement of absorbed or delivered doses of ionizing radiation.",
+    "pos": "noun",
+    "topic": "fizika",
+    "anchor": "fizika"
+  },
+  {
+    "w": "radiometriya",
+    "az": "Elektromaqnit şüalanmasının fiziki güc və enerji göstəricilərinin ölçülməsi.",
+    "en": "Measurement of the physical power and energy properties of electromagnetic radiation.",
+    "pos": "noun",
+    "topic": "fizika",
+    "anchor": "fizika"
+  },
+  {
+    "w": "interferometriya",
+    "az": "Dalğaların interferensiyasından istifadə edərək dəqiq ölçmələr aparma üsulu.",
+    "en": "A precision measurement method based on the interference of waves.",
+    "pos": "noun",
+    "topic": "fizika",
+    "anchor": "fizika"
+  },
+  {
+    "w": "difraktometriya",
+    "az": "Difraksiya şəkilləri vasitəsilə maddənin quruluşunun ölçülməsi və öyrənilməsi.",
+    "en": "Measurement and study of material structure through diffraction patterns.",
+    "pos": "noun",
+    "topic": "fizika",
+    "anchor": "fizika"
+  },
+  {
+    "w": "titrləmə",
+    "az": "Qatılığı məlum məhlul əlavə etməklə başqa məhluldakı maddənin miqdarının təyini.",
+    "en": "Determining the amount of a substance by adding a solution of known concentration.",
+    "pos": "noun",
+    "topic": "kimya",
+    "anchor": "kimya"
+  },
+  {
+    "w": "inhibitor",
+    "az": "Kimyəvi və ya bioloji prosesin sürətini azaldan maddə.",
+    "en": "A substance that slows or suppresses a chemical or biological process.",
+    "pos": "noun",
+    "topic": "kimya",
+    "anchor": "kimya"
+  },
+  {
+    "w": "izomer",
+    "az": "Eyni molekulyar tərkibə, lakin fərqli quruluşa malik birləşmələrdən biri.",
+    "en": "One of two or more compounds with the same molecular formula but different structures.",
+    "pos": "noun",
+    "topic": "kimya",
+    "anchor": "kimya"
+  },
+  {
+    "w": "pozitron",
+    "az": "Elektronla eyni kütləyə, lakin müsbət elektrik yükünə malik antizərrəcik.",
+    "en": "The electron's antiparticle, with the same mass and a positive electric charge.",
+    "pos": "noun",
+    "topic": "fizika",
+    "anchor": "fizika"
+  },
+  {
+    "w": "muon",
+    "az": "Elektrona bənzəyən, lakin ondan daha ağır olan elementar zərrəcik.",
+    "en": "An elementary particle similar to an electron but much heavier.",
+    "pos": "noun",
+    "topic": "fizika",
+    "anchor": "fizika"
+  },
+  {
+    "w": "mezon",
+    "az": "Kvark və antikvarkdan təşkil olunan hadron növü.",
+    "en": "A type of hadron composed of a quark and an antiquark.",
+    "pos": "noun",
+    "topic": "fizika",
+    "anchor": "fizika"
+  },
+  {
+    "w": "bozon",
+    "az": "Spini tam ədəd olan zərrəciklər sinfinin nümayəndəsi.",
+    "en": "A particle belonging to the class with integer spin.",
+    "pos": "noun",
+    "topic": "fizika",
+    "anchor": "fizika"
+  },
+  {
+    "w": "fermion",
+    "az": "Spini yarımtam ədəd olan zərrəciklər sinfinin nümayəndəsi.",
+    "en": "A particle belonging to the class with half-integer spin.",
+    "pos": "noun",
+    "topic": "fizika",
+    "anchor": "fizika"
+  },
+  {
+    "w": "kvark",
+    "az": "Proton və neytron kimi hadronların tərkibinə daxil olan elementar zərrəcik.",
+    "en": "An elementary particle that forms part of hadrons such as protons and neutrons.",
+    "pos": "noun",
+    "topic": "fizika",
+    "anchor": "fizika"
+  },
+  {
+    "w": "kvazar",
+    "az": "Uzaq qalaktikanın maddə udan böyük qara dəliklə bağlı çox parlaq fəal nüvəsi.",
+    "en": "An extremely luminous active galactic nucleus powered by matter falling toward a massive black hole.",
+    "pos": "noun",
+    "topic": "fizika",
+    "anchor": "fizika"
+  },
+  {
+    "w": "pulsar",
+    "az": "Fırlanması nəticəsində müntəzəm siqnallar kimi müşahidə olunan şüalanma yayan neytron ulduzu.",
+    "en": "A neutron star whose rotating beams of radiation are observed as regular pulses.",
+    "pos": "noun",
+    "topic": "fizika",
+    "anchor": "fizika"
+  },
+  {
+    "w": "maqnetar",
+    "az": "Son dərəcə güclü maqnit sahəsinə malik neytron ulduzu.",
+    "en": "A neutron star with an exceptionally strong magnetic field.",
+    "pos": "noun",
+    "topic": "fizika",
+    "anchor": "fizika"
+  },
+  {
+    "w": "ekzoplanet",
+    "az": "Günəş sistemindən kənarda yerləşən planet.",
+    "en": "A planet located outside the Solar System.",
+    "pos": "noun",
+    "topic": "fizika",
+    "anchor": "fizika"
+  },
+  {
+    "w": "astrometriya",
+    "az": "Göy cisimlərinin mövqelərini və hərəkətlərini dəqiq ölçən astronomiya sahəsi.",
+    "en": "The branch of astronomy that precisely measures celestial positions and motions.",
+    "pos": "noun",
+    "topic": "fizika",
+    "anchor": "fizika"
+  },
+  {
+    "w": "kosmokimya",
+    "az": "Kosmik maddələrin kimyəvi tərkibini və yaranmasını öyrənən elm.",
+    "en": "The study of the chemical composition and formation of matter in space.",
+    "pos": "noun",
+    "topic": "kimya",
+    "anchor": "kimya"
+  },
+  {
+    "w": "kosmologiya",
+    "az": "Kainatın bütöv quruluşunu, mənşəyini və inkişafını öyrənən elm.",
+    "en": "The study of the universe's overall structure, origin, and evolution.",
+    "pos": "noun",
+    "topic": "fizika",
+    "anchor": "fizika"
+  },
+  {
+    "w": "kosmoqoniya",
+    "az": "Göy cisimlərinin və kosmik sistemlərin yaranmasını araşdıran sahə.",
+    "en": "The study of the formation of celestial bodies and cosmic systems.",
+    "pos": "noun",
+    "topic": "fizika",
+    "anchor": "fizika"
+  },
+  {
+    "w": "planetologiya",
+    "az": "Planetlərin quruluşunu, xüsusiyyətlərini və inkişafını öyrənən elm.",
+    "en": "The study of the structure, properties, and evolution of planets.",
+    "pos": "noun",
+    "topic": "fizika",
+    "anchor": "fizika"
+  },
+  {
+    "w": "qravitasiya",
+    "az": "Kütlə və enerji ilə bağlı olan, cisimlərin qarşılıqlı cazibəsində özünü göstərən təsir.",
+    "en": "The interaction associated with mass and energy that produces gravitational attraction.",
+    "pos": "noun",
+    "topic": "fizika",
+    "anchor": "fizika"
+  },
+  {
+    "w": "mikroqravitasiya",
+    "az": "Görünən ağırlığın çox kiçik olduğu vəziyyət, məsələn, orbitdə sərbəst düşmə zamanı.",
+    "en": "A condition of very small apparent weight, such as during free fall in orbit.",
+    "pos": "noun",
+    "topic": "fizika",
+    "anchor": "fizika"
+  },
+  {
+    "w": "qravimetr",
+    "az": "Cazibə təcilini və onun kiçik dəyişmələrini ölçən cihaz.",
+    "en": "An instrument measuring gravitational acceleration and small changes in it.",
+    "pos": "noun",
+    "topic": "fizika",
+    "anchor": "fizika"
+  },
+  {
+    "w": "seysmoqraf",
+    "az": "Yer titrəyişlərini qeydə alan cihaz və qeyd sistemi.",
+    "en": "An instrument and recording system that records ground vibrations.",
+    "pos": "noun",
+    "topic": "fizika",
+    "anchor": "fizika"
+  },
+  {
+    "w": "seysmometr",
+    "az": "Yer hərəkətini və titrəyişlərini ölçən həssas cihaz.",
+    "en": "A sensitive instrument that measures ground motion and vibrations.",
+    "pos": "noun",
+    "topic": "fizika",
+    "anchor": "fizika"
+  },
+  {
+    "w": "akselerometr",
+    "az": "Cismin sürətinin dəyişmə təcilini ölçən cihaz.",
+    "en": "An instrument that measures acceleration.",
+    "pos": "noun",
+    "topic": "fizika",
+    "anchor": "fizika"
+  },
+  {
+    "w": "giroskop",
+    "az": "Fırlanma və ya istiqamət dəyişmələrini ölçən və sabitliyi qorumaqda işlədilən cihaz.",
+    "en": "A device used to measure rotation or orientation changes and help maintain stability.",
+    "pos": "noun",
+    "topic": "fizika",
+    "anchor": "fizika"
+  },
+  {
+    "w": "anemometr",
+    "az": "Küləyin sürətini ölçən cihaz.",
+    "en": "An instrument used to measure wind speed.",
+    "pos": "noun",
+    "topic": "təbiət",
+    "anchor": "hava"
+  },
+  {
+    "w": "higrometr",
+    "az": "Havanın və ya qazın rütubətini ölçən cihaz.",
+    "en": "An instrument used to measure the humidity of air or another gas.",
+    "pos": "noun",
+    "topic": "təbiət",
+    "anchor": "hava"
+  },
+  {
+    "w": "altimetr",
+    "az": "Dəniz səviyyəsinə və ya başqa istinad səviyyəsinə görə hündürlüyü ölçən cihaz.",
+    "en": "An instrument measuring height relative to sea level or another reference.",
+    "pos": "noun",
+    "topic": "fizika",
+    "anchor": "fizika"
+  },
+  {
+    "w": "batimetr",
+    "az": "Su hövzəsinin dərinliyini ölçən cihaz.",
+    "en": "An instrument used to measure water depth.",
+    "pos": "noun",
+    "topic": "ekologiya",
+    "anchor": "su"
+  },
+  {
+    "w": "piranometr",
+    "az": "Səthə düşən Günəş şüalanmasını ölçən cihaz.",
+    "en": "An instrument that measures solar radiation falling on a surface.",
+    "pos": "noun",
+    "topic": "enerji",
+    "anchor": "enerji"
+  },
+  {
+    "w": "aktinometr",
+    "az": "Elektromaqnit şüalanmasının, xüsusilə Günəş şüalarının təsirini və intensivliyini ölçən cihaz.",
+    "en": "An instrument measuring the intensity or effects of electromagnetic radiation, especially sunlight.",
+    "pos": "noun",
+    "topic": "enerji",
+    "anchor": "enerji"
+  },
+  {
+    "w": "radioteleskop",
+    "az": "Kosmik mənbələrdən gələn radio dalğalarını qəbul edən astronomik cihaz.",
+    "en": "An astronomical instrument that receives radio waves from sources in space.",
+    "pos": "noun",
+    "topic": "fizika",
+    "anchor": "fizika"
+  },
+  {
+    "w": "interferometr",
+    "az": "Dalğaların birləşməsindən yaranan interferensiya ilə ölçmə aparan cihaz.",
+    "en": "An instrument that makes measurements using interference between combined waves.",
+    "pos": "noun",
+    "topic": "fizika",
+    "anchor": "fizika"
+  },
+  {
+    "w": "spektroqraf",
+    "az": "Şüalanmanı dalğa uzunluqlarına ayıraraq spektrini qeydə alan cihaz.",
+    "en": "An instrument that separates radiation by wavelength and records its spectrum.",
+    "pos": "noun",
+    "topic": "fizika",
+    "anchor": "fizika"
+  },
+  {
+    "w": "lüminometr",
+    "az": "Çox zəif işıq yayılmasını ölçmək üçün istifadə olunan cihaz.",
+    "en": "An instrument used to measure very weak light emission.",
+    "pos": "noun",
+    "topic": "fizika",
+    "anchor": "fizika"
+  },
+  {
+    "w": "mikrotom",
+    "az": "Mikroskopla baxmaq üçün toxumadan çox nazik kəsiklər hazırlayan cihaz.",
+    "en": "An instrument that cuts very thin tissue sections for microscopic examination.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "ultramikrotom",
+    "az": "Elektron mikroskopiyası üçün son dərəcə nazik nümunə kəsikləri hazırlayan cihaz.",
+    "en": "An instrument that prepares extremely thin sections for electron microscopy.",
+    "pos": "noun",
+    "topic": "tibb",
+    "anchor": "tibb"
+  },
+  {
+    "w": "mikromanipulyator",
+    "az": "Mikroskop altında çox kiçik obyektləri dəqiq hərəkət etdirməyə imkan verən qurğu.",
+    "en": "A device for precisely moving very small objects under a microscope.",
+    "pos": "noun",
+    "topic": "fizika",
+    "anchor": "fizika"
+  }
+]

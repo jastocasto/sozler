@@ -1,0 +1,20 @@
+{
+  "title": "Azərbaycan dilinin izahlı lüğəti, I–IV cildlər (Şərq-Qərb, 2006)",
+  "research_extraction": "https://github.com/azerbaijan-mcp/azerbaijan-mcp/releases/tag/dict-data-1",
+  "extraction_sha256": "44515ffca32d7cefc9f659bbe1ecefa82dc6908f17b5d434daffd1f921162022",
+  "entry_count": 45353,
+  "matched_current_headwords": 13729,
+  "use": "Factual sense comparison. Original book prose and extracted database are not redistributed with the site. Machine-extraction and historical factual errors were checked against other sources.",
+  "verified_pdf_sources": {
+    "1": {
+      "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_1.pdf",
+      "sha256": "d81c3d3f4f34307b2d0b93cd3f6f4092dba4191b213e376c87d3c64ca37ae24a",
+      "hash_matches_extraction_original": true
+    },
+    "3": {
+      "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf",
+      "sha256": "92d3b25397791c18e6526576c1b099ee4291d10e75a290e6c3d8f68d089a3fc9",
+      "hash_matches_extraction_original": true
+    }
+  }
+}

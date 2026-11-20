@@ -1,0 +1,27 @@
+{
+  "added_headwords": 6744,
+  "added_links": 2573,
+  "sources": [
+    {
+      "edition": "tr",
+      "source": "Kaikki / tr.wiktionary.org",
+      "download_file": "az-trwiktionary.jsonl",
+      "sha256": "9a0a2b14588cf84103b636bce2c09387d212c816ad4da9b21103dfe67d3edb27",
+      "snapshot_dump": "2026-09-01",
+      "snapshot_extracted": "2026-10-03",
+      "added_headwords": 2771,
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "edition": "ru",
+      "source": "Kaikki / ru.wiktionary.org",
+      "download_file": "az-ruwiktionary.jsonl",
+      "sha256": "c59e34e2effc8dc48f47777d4c57521e7426ddb9ac72e03ee9c5a60adbe5ebc9",
+      "snapshot_dump": "2026-10-01",
+      "snapshot_extracted": "2026-10-24",
+      "added_headwords": 3973,
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "note": "Distinct lowercase Latin-script Azerbaijani headwords only; no generated forms. Source-language definitions retained and labeled. No frequency ranking."
+}

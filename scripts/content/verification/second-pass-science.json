@@ -1,0 +1,705 @@
+{
+  "inspected_words": [
+    "acıpaxla",
+    "acıtma",
+    "acıyonca",
+    "acıçiçək",
+    "adamcıl",
+    "adrenalin",
+    "alabalıq",
+    "alacəhrə",
+    "almacıq",
+    "almacıq sümüyü",
+    "alçı",
+    "amcıq",
+    "ananas",
+    "anatomiya",
+    "aorta",
+    "arabaçı",
+    "arabaçılıq",
+    "arakəsmə",
+    "arteriya",
+    "artetiya",
+    "avitaminoz",
+    "ağciyər xərçəngi",
+    "aşıqlıq",
+    "badımcan",
+    "beyinsiz",
+    "biabır etmək",
+    "bildirçin",
+    "bit",
+    "botanika",
+    "boz durna",
+    "boşbuynuzlular",
+    "bənövşə",
+    "bəzgək",
+    "cikkildəmək",
+    "cüllüt",
+    "cəmdəkyeyən",
+    "cərgəli",
+    "danquşu",
+    "dovdaq",
+    "durna",
+    "dəri xərçəngi",
+    "dəlibəng",
+    "dən",
+    "eqoist",
+    "gicitkən",
+    "gigovun",
+    "gumbultu",
+    "göyrüş",
+    "göyərtmək",
+    "gəmirici",
+    "gəndalaş",
+    "gənə",
+    "hamaşıq",
+    "hil",
+    "hipertoniya",
+    "hubara",
+    "hörümçək",
+    "həcəmət",
+    "ikinci",
+    "ilik",
+    "ikikəsicidişlilər",
+    "donuz",
+    "dəvəquşu",
+    "ekzema",
+    "pulcuq",
+    "pətənək",
+    "qalxanabənzər vəzi",
+    "qamış",
+    "qan qrupu",
+    "qan təzyiqi",
+    "qanad",
+    "qanaxma",
+    "qanköçürmə",
+    "qanqal",
+    "qaqum",
+    "qara çalağan",
+    "qaradöş qumluqca",
+    "qaranquş",
+    "qarayonca",
+    "qargülü",
+    "qarğıdalı",
+    "qatırquyruğu",
+    "qatırquyruğukimilər",
+    "qağayı",
+    "qaşqaldaq",
+    "qlaukoma",
+    "qlükoza",
+    "qotur",
+    "qov",
+    "qoyunqulağı",
+    "qrip",
+    "qu quşu",
+    "qu",
+    "quduzluq",
+    "qulançar",
+    "qulaqdibi xəstəliyi",
+    "qursaqlı",
+    "qurultay",
+    "qurumaq",
+    "qutan",
+    "quş armudu",
+    "quşlamaq",
+    "quşluq",
+    "qıfotu",
+    "qılçıq",
+    "qın",
+    "qırqovul",
+    "qırıqçı",
+    "qırıqçılıq",
+    "qızılca",
+    "qızılgül",
+    "qızılsəbət",
+    "qəfəs",
+    "qərargah",
+    "razyana",
+    "revmatizm",
+    "reçitativ",
+    "rüşeym",
+    "sabunotu",
+    "saqqız",
+    "sar",
+    "sarılıqotu",
+    "sazan",
+    "sellüloza",
+    "serebral iflic",
+    "sidik",
+    "sifilis",
+    "sim",
+    "sindrom",
+    "sinerariya",
+    "sinir",
+    "sinir sistemi",
+    "siyənək",
+    "skelet",
+    "soyuqqanlı",
+    "spazmatik",
+    "su pərisi",
+    "suiti",
+    "suçiçəyi",
+    "südləyən",
+    "sümsü",
+    "sümük iliyi",
+    "sürünən",
+    "sınıqçılıq",
+    "sıçrayış",
+    "tənək",
+    "uremiya",
+    "uçağan",
+    "vağ",
+    "vən",
+    "xallı böcək",
+    "xanımböcəyi",
+    "xromoplast",
+    "xıncalaus",
+    "xədicəgülü",
+    "xərçəng",
+    "xətiblik",
+    "xəşənbül",
+    "yabanı xaşxaş",
+    "yaşıllaşdırmaq",
+    "yereşən",
+    "yerfındığı",
+    "yergilası",
+    "yovşan",
+    "zahı",
+    "zəncirotu",
+    "zəravəndkimilər",
+    "çalağan",
+    "çalıquşu",
+    "çay qaraquşu",
+    "çiləotu",
+    "çiyələyi",
+    "çobandüdüyü",
+    "çubuqluca",
+    "çətənə",
+    "öfgəotu",
+    "ürək-damar",
+    "üskükotu",
+    "üvəz",
+    "şanapipik",
+    "şirbit",
+    "şəbbu",
+    "şəbbugülü",
+    "şəkərli diabet",
+    "əkdirmək",
+    "əkmək",
+    "vegetasiya",
+    "yersarmaşığı",
+    "yetirilmək",
+    "zanbaq",
+    "zərdab",
+    "çığırtma",
+    "çərək not",
+    "işırqan",
+    "kalseolariya",
+    "katib quşu",
+    "keratit",
+    "kimyaterapiya",
+    "kinoa",
+    "koreopsis",
+    "korona",
+    "kök",
+    "köstəbək",
+    "külmə",
+    "küncütü",
+    "kürü",
+    "kənaf",
+    "kəndalaş",
+    "mahmızca",
+    "malpigiya",
+    "mayaotu",
+    "meningit",
+    "miotoniya",
+    "mixəkgülü",
+    "mozalan",
+    "müqəvva",
+    "mədə xərçəngi",
+    "mərsin",
+    "mərəvcə",
+    "naqqa",
+    "neftayırma zavodu",
+    "neyrodegenerativ xəstəlik",
+    "novruzçiçəyi",
+    "nərgizgülü",
+    "nəslini kəsmək",
+    "onkologiya",
+    "osteologiya",
+    "osturaqçı",
+    "pambiq",
+    "parez",
+    "paxlakolu",
+    "peyvənd",
+    "pişikotu",
+    "istiqanlı",
+    "kol",
+    "lək",
+    "malyariya",
+    "martı",
+    "maya",
+    "meyvə",
+    "məhəllə",
+    "məməli",
+    "nişasta",
+    "noxud",
+    "növ",
+    "nəbz",
+    "nərgiz",
+    "ornitologiya",
+    "ornitoloq",
+    "pambıq",
+    "patologiya",
+    "pinqvin",
+    "palax",
+    "parabüzən",
+    "parəbüzən",
+    "pirkal",
+    "anaşa"
+  ],
+  "confirmed": [
+    {
+      "word": "aorta",
+      "reason": "The corrected left-ventricle origin is accurate; do not restore erroneous right-ventricle wording from the old print source.",
+      "sources": [
+        {
+          "url": "https://pt.wiktionary.org/wiki/aorta",
+          "title": "aorta — pt Wiktionary"
+        },
+        {
+          "url": "https://tr.wiktionary.org/wiki/aorta",
+          "title": "aorta — tr Wiktionary"
+        },
+        {
+          "url": "https://github.com/azerbaijan-mcp/azerbaijan-mcp/releases/tag/dict-data-1",
+          "title": "Azərbaycan dilinin izahlı lüğəti — aorta",
+          "volume": 1,
+          "pdf_page": 122
+        },
+        {
+          "url": "https://www.nhlbi.nih.gov/health/heart/blood-flow",
+          "title": "NHLBI — How Blood Flows through the Heart"
+        }
+      ]
+    },
+    {
+      "word": "ananas",
+      "reason": "Pineapple is a perennial herb. Current proposed text says fruit and plant and does not repeat the tree error.",
+      "sources": [
+        {
+          "url": "https://en.wiktionary.org/wiki/ananas",
+          "title": "ananas — en Wiktionary"
+        },
+        {
+          "url": "https://es.wiktionary.org/wiki/ananas",
+          "title": "ananas — es Wiktionary"
+        },
+        {
+          "url": "https://ko.wiktionary.org/wiki/ananas",
+          "title": "ananas — ko Wiktionary"
+        },
+        {
+          "url": "https://pl.wiktionary.org/wiki/ananas",
+          "title": "ananas — pl Wiktionary"
+        },
+        {
+          "url": "https://github.com/azerbaijan-mcp/azerbaijan-mcp/releases/tag/dict-data-1",
+          "title": "Azərbaycan dilinin izahlı lüğəti — ananas",
+          "volume": 1,
+          "pdf_page": 116
+        },
+        {
+          "url": "https://naturalhistory2.si.edu/botany/hawaiianflora/speciesdescr.cfm?genus=Ananas&species=comosus",
+          "title": "Smithsonian — Ananas comosus"
+        }
+      ]
+    },
+    {
+      "word": "anaşa",
+      "reason": "Hashish is cannabis-derived. The corrected cannabis wording is accurate despite poppy errors in older AZ/TR dictionary evidence.",
+      "sources": [
+        {
+          "url": "https://ru.wiktionary.org/wiki/anaşa",
+          "title": "anaşa — ru Wiktionary"
+        },
+        {
+          "url": "https://tr.wiktionary.org/wiki/anaşa",
+          "title": "anaşa — tr Wiktionary"
+        },
+        {
+          "url": "https://github.com/azerbaijan-mcp/azerbaijan-mcp/releases/tag/dict-data-1",
+          "title": "Azərbaycan dilinin izahlı lüğəti — anaşa",
+          "volume": 1,
+          "pdf_page": 116
+        },
+        {
+          "url": "https://museum.dea.gov/exhibits/online-exhibits/cannabis-coca-and-poppy-natures-addictive-plants/cannabis",
+          "title": "DEA Museum — Cannabis"
+        }
+      ]
+    },
+    {
+      "word": "acıyonca",
+      "reason": "Primary identity or method agrees with inspected cached dictionary/print evidence; no factual replacement needed. This does not assert completeness of every secondary sense.",
+      "sources": [
+        {
+          "url": "https://ru.wiktionary.org/wiki/acıyonca",
+          "title": "acıyonca — ru Wiktionary"
+        },
+        {
+          "url": "https://github.com/azerbaijan-mcp/azerbaijan-mcp/releases/tag/dict-data-1",
+          "title": "Azərbaycan dilinin izahlı lüğəti — acıyonca",
+          "volume": 1,
+          "pdf_page": 35
+        }
+      ]
+    },
+    {
+      "word": "mozalan",
+      "reason": "Primary identity or method agrees with inspected cached dictionary/print evidence; no factual replacement needed. This does not assert completeness of every secondary sense.",
+      "sources": [
+        {
+          "url": "https://en.wiktionary.org/wiki/mozalan",
+          "title": "mozalan — en Wiktionary"
+        },
+        {
+          "url": "https://ru.wiktionary.org/wiki/mozalan",
+          "title": "mozalan — ru Wiktionary"
+        },
+        {
+          "url": "https://github.com/azerbaijan-mcp/azerbaijan-mcp/releases/tag/dict-data-1",
+          "title": "Azərbaycan dilinin izahlı lüğəti — mozalan",
+          "volume": 3,
+          "pdf_page": 387
+        }
+      ]
+    },
+    {
+      "word": "gigovun",
+      "reason": "Primary identity or method agrees with inspected cached dictionary/print evidence; no factual replacement needed. This does not assert completeness of every secondary sense.",
+      "sources": [
+        {
+          "url": "https://en.wiktionary.org/wiki/gigovun",
+          "title": "gigovun — en Wiktionary"
+        },
+        {
+          "url": "https://ru.wiktionary.org/wiki/gigovun",
+          "title": "gigovun — ru Wiktionary"
+        },
+        {
+          "url": "https://github.com/azerbaijan-mcp/azerbaijan-mcp/releases/tag/dict-data-1",
+          "title": "Azərbaycan dilinin izahlı lüğəti — gigovun",
+          "volume": 2,
+          "pdf_page": 245
+        }
+      ]
+    },
+    {
+      "word": "qoyunqulağı",
+      "reason": "Primary identity or method agrees with inspected cached dictionary/print evidence; no factual replacement needed. This does not assert completeness of every secondary sense.",
+      "sources": [
+        {
+          "url": "https://ko.wiktionary.org/wiki/qoyunqulağı",
+          "title": "qoyunqulağı — ko Wiktionary"
+        },
+        {
+          "url": "https://ru.wiktionary.org/wiki/qoyunqulağı",
+          "title": "qoyunqulağı — ru Wiktionary"
+        }
+      ]
+    },
+    {
+      "word": "xıncalaus",
+      "reason": "Primary identity or method agrees with inspected cached dictionary/print evidence; no factual replacement needed. This does not assert completeness of every secondary sense.",
+      "sources": [
+        {
+          "url": "https://en.wiktionary.org/wiki/xıncalaus",
+          "title": "xıncalaus — en Wiktionary"
+        }
+      ]
+    },
+    {
+      "word": "həcəmət",
+      "reason": "Primary identity or method agrees with inspected cached dictionary/print evidence; no factual replacement needed. This does not assert completeness of every secondary sense.",
+      "sources": [
+        {
+          "url": "https://ru.wiktionary.org/wiki/həcəmət",
+          "title": "həcəmət — ru Wiktionary"
+        },
+        {
+          "url": "https://github.com/azerbaijan-mcp/azerbaijan-mcp/releases/tag/dict-data-1",
+          "title": "Azərbaycan dilinin izahlı lüğəti — həcəmət",
+          "volume": 2,
+          "pdf_page": 351
+        }
+      ]
+    }
+  ],
+  "corrections": [
+    {
+      "word": "serebral iflic",
+      "az": "İnkişaf edən beyində anormal inkişaf və ya zədələnmə ilə bağlı hərəkət və duruş pozuntuları qrupu.",
+      "en": "Cerebral palsy: a group of movement and posture disorders caused by abnormal development of, or damage to, the developing brain.",
+      "reason": "The proposed definition mentions injury alone. Abnormal brain development is a distinct established cause and should not be excluded.",
+      "sources": [
+        {
+          "url": "https://www.cdc.gov/cerebral-palsy/about/index.html",
+          "title": "CDC — About Cerebral Palsy"
+        },
+        {
+          "url": "https://www.nichd.nih.gov/health/topics/factsheets/cerebral-palsy",
+          "title": "NICHD — Cerebral Palsy"
+        }
+      ]
+    },
+    {
+      "word": "pirkal",
+      "az": "Ilex cinsindən kol və ya ağac.",
+      "en": "Holly; a shrub or tree of the genus Ilex.",
+      "reason": "The lexical source covers Ilex generally; the added blanket evergreen qualifier is false for deciduous Ilex species.",
+      "sources": [
+        {
+          "url": "https://en.wiktionary.org/wiki/pirkal",
+          "title": "pirkal — en Wiktionary"
+        },
+        {
+          "url": "https://plants.ces.ncsu.edu/plants/ilex/",
+          "title": "North Carolina State Extension — Ilex, evergreen and deciduous species"
+        }
+      ]
+    },
+    {
+      "word": "kənaf",
+      "az": "Lifli bitki adı; bəzi lüğətlərdə çətənə, aqronomiyada isə kənaf hibiskusu kimi izah olunur.",
+      "en": "A fibre-plant name, glossed as hemp in some dictionaries and as kenaf (Hibiscus cannabinus) in agronomy.",
+      "reason": "Cannabis is supported by the cached Azerbaijani lexical evidence and must remain. An Azerbaijani agronomy textbook also explicitly uses kənaf (hibiskus), including Hibiscus cannabinus. Distinguish these uses rather than treating Cannabis and Hibiscus as one taxon.",
+      "sensePairs": [
+        {
+          "az": "Bəzi lüğətlərdə: çətənə kimi izah edilən lifli bitki.",
+          "en": "In some dictionaries: hemp."
+        },
+        {
+          "az": "Aqronomiyada: kənaf hibiskusu, xüsusən Hibiscus cannabinus adlı lifli bitki.",
+          "en": "In agronomy: kenaf, especially the fibre plant Hibiscus cannabinus."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ru.wiktionary.org/wiki/kənaf",
+          "title": "kənaf — ru Wiktionary"
+        },
+        {
+          "url": "https://github.com/azerbaijan-mcp/azerbaijan-mcp/releases/tag/dict-data-1",
+          "title": "Azərbaycan dilinin izahlı lüğəti — kənaf",
+          "volume": 2,
+          "pdf_page": 680
+        },
+        {
+          "url": "https://www.adau.edu.az/images/ms_kitabxana/05_08_2021_13_30_35_21_653317_Lifli%20bitkil%C9%99r.pdf",
+          "title": "H. S. Hümbətov, Lifli bitkilər (2015), PDF page 12, kənaf/hibiskus taxonomy"
+        },
+        {
+          "url": "https://gd.eppo.int/taxon/HIBCA",
+          "title": "EPPO — Hibiscus cannabinus"
+        }
+      ]
+    },
+    {
+      "word": "bit",
+      "az": "İnsan və heyvanların bədənində yaşayan kiçik qanadsız parazit həşərat.",
+      "en": "A louse; a small wingless parasitic insect living on a human or animal host.",
+      "reason": "The proposed text generalizes blood feeding to all human and animal lice. Human/sucking lice feed on blood, while the broader louse category also includes chewing lice; retain the generic identity without that overgeneralization.",
+      "sources": [
+        {
+          "url": "https://en.wiktionary.org/wiki/bit",
+          "title": "bit — en Wiktionary"
+        },
+        {
+          "url": "https://ko.wiktionary.org/wiki/bit",
+          "title": "bit — ko Wiktionary"
+        },
+        {
+          "url": "https://ru.wiktionary.org/wiki/bit",
+          "title": "bit — ru Wiktionary"
+        },
+        {
+          "url": "https://tr.wiktionary.org/wiki/bit",
+          "title": "bit — tr Wiktionary"
+        },
+        {
+          "url": "https://github.com/azerbaijan-mcp/azerbaijan-mcp/releases/tag/dict-data-1",
+          "title": "Azərbaycan dilinin izahlı lüğəti — bit",
+          "volume": 1,
+          "pdf_page": 323
+        },
+        {
+          "url": "https://www.ecdc.europa.eu/en/all-topics-z/disease-vectors/facts/factsheet-lice-phthiraptera",
+          "title": "ECDC — Lice, sucking and chewing groups"
+        },
+        {
+          "url": "https://www.cdc.gov/lice/about/index.html",
+          "title": "CDC — About Lice, human lice blood feeding"
+        }
+      ]
+    },
+    {
+      "word": "pinqvin",
+      "az": "Uça bilməyən, yaxşı üzən və əsasən Cənub yarımkürəsində yaşayan dəniz quşu.",
+      "en": "A penguin; a flightless marine bird found mainly in the Southern Hemisphere.",
+      "reason": "The proposed categorical Southern-Hemisphere restriction excludes Galápagos penguins north of the equator. Mainly preserves the useful distribution summary without that factual exclusion.",
+      "sources": [
+        {
+          "url": "https://en.wiktionary.org/wiki/pinqvin",
+          "title": "pinqvin — en Wiktionary"
+        },
+        {
+          "url": "https://es.wiktionary.org/wiki/pinqvin",
+          "title": "pinqvin — es Wiktionary"
+        },
+        {
+          "url": "https://fr.wiktionary.org/wiki/pinqvin",
+          "title": "pinqvin — fr Wiktionary"
+        },
+        {
+          "url": "https://pt.wiktionary.org/wiki/pinqvin",
+          "title": "pinqvin — pt Wiktionary"
+        },
+        {
+          "url": "https://tr.wiktionary.org/wiki/pinqvin",
+          "title": "pinqvin — tr Wiktionary"
+        },
+        {
+          "url": "https://zh.wiktionary.org/wiki/pinqvin",
+          "title": "pinqvin — zh Wiktionary"
+        },
+        {
+          "url": "https://github.com/azerbaijan-mcp/azerbaijan-mcp/releases/tag/dict-data-1",
+          "title": "Azərbaycan dilinin izahlı lüğəti — pinqvin",
+          "volume": 3,
+          "pdf_page": 603
+        },
+        {
+          "url": "https://galapagosconservation.org.uk/wp-content/uploads/2025/03/The-Galapagos-Penguin-and-threats.pdf",
+          "title": "Galapagos Conservation Trust — The Galapagos Penguin, northern-equator range"
+        }
+      ]
+    },
+    {
+      "word": "alacəhrə",
+      "az": "Kiçik həşəratyeyən quş adı.",
+      "en": "A small insect-eating bird; the exact taxon differs between sources.",
+      "sensePairs": [
+        {
+          "az": "Kiçik həşəratyeyən quş adı.",
+          "en": "A small insect-eating bird; the exact taxon differs between sources."
+        },
+        {
+          "az": "Köhnə lüğətlərdə ayrıca məna: dağlarda bitən, qabığı zolaqlı bir ağacın adı.",
+          "en": "A separate sense in older dictionaries: a mountain tree with patterned bark."
+        }
+      ],
+      "reason": "Remove an unsupported precise bird-family assignment while retaining the source-supported bird meaning and the separate printed tree homonym. Exact taxonomic identification remains held.",
+      "sources": [
+        {
+          "url": "https://ru.wiktionary.org/wiki/alacəhrə",
+          "title": "alacəhrə — ru Wiktionary"
+        },
+        {
+          "url": "https://github.com/azerbaijan-mcp/azerbaijan-mcp/releases/tag/dict-data-1",
+          "title": "Azərbaycan dilinin izahlı lüğəti — alacəhrə",
+          "volume": 1,
+          "pdf_page": 91
+        },
+        {
+          "url": "https://github.com/azerbaijan-mcp/azerbaijan-mcp/releases/tag/dict-data-1",
+          "title": "Azərbaycan dilinin izahlı lüğəti — alacəhrə",
+          "volume": 1,
+          "pdf_page": 91
+        },
+        {
+          "url": "https://portal.azertag.az/az/node/24824",
+          "title": "AZƏRTAC — Alacəhrə quldiya, a different finch use"
+        },
+        {
+          "url": "https://obastan.com/soz/az/alac%C9%99hr%C9%99",
+          "title": "Obastan — alacəhrə tree sense"
+        }
+      ]
+    },
+    {
+      "word": "bürünc",
+      "az": "Mis əsaslı metal ərintisi; mənbələr onun latun və ya tunc kimi qarşılığında fərqlənir.",
+      "en": "A copper alloy; sources differ between brass and bronze translations.",
+      "sensePairs": [
+        {
+          "az": "Bəzi lüğət və ensiklopedik mənbələrdə: mis–sink ərintisi, latun.",
+          "en": "In some dictionaries and encyclopedic sources: brass, a copper–zinc alloy."
+        },
+        {
+          "az": "Başqa müasir mənbələrdə: bronz və ya tunc.",
+          "en": "In other modern sources: bronze."
+        },
+        {
+          "az": "Sifət kimi: həmin ərintidən hazırlanmış.",
+          "en": "As an adjective: made of that alloy."
+        }
+      ],
+      "reason": "Use the securely established copper-alloy meaning and explicitly distinguish competing source translations instead of presenting either brass or bronze as an unqualified universal equivalent. Exact material/register mapping remains held.",
+      "sources": [
+        {
+          "url": "https://azleks.az/en/dictionary/burunc",
+          "title": "AZLEKS — bürünc, copper-alloy definition"
+        },
+        {
+          "url": "https://portal.azertag.az/az/encyclopedia/post/14694",
+          "title": "AZƏRTAC — Mis, brass usage"
+        },
+        {
+          "url": "https://azlib.org/media/books/U%C5%9Faqlar_%C3%BC%C3%A7%C3%BCn_ensiklopediya_Kimya.pdf",
+          "title": "Kimya ensiklopediyası — copper/tin bronze usage, PDF pp. 222–223"
+        },
+        {
+          "url": "https://intangible.az/front/az/aboutExample/16569",
+          "title": "State intangible cultural heritage registry — distinctions between tunc and bürünc"
+        }
+      ]
+    }
+  ],
+  "holds": [
+    {
+      "word": "alacəhrə",
+      "reason": "The new Paridae/arıquşular family claim is not established by the checked AZ print source: it has a small insect-eating bird sense and a separate striped-bark mountain-tree homonym; RU gives tit. Modern sources also use similar alacəhrə/alaçöhrə names for other birds. Avoid a precise family assignment without a taxonomic identification, and retain the tree homonym in a later sense enrichment.",
+      "sources": [
+        {
+          "url": "https://ru.wiktionary.org/wiki/alacəhrə",
+          "title": "alacəhrə — ru Wiktionary"
+        },
+        {
+          "url": "https://github.com/azerbaijan-mcp/azerbaijan-mcp/releases/tag/dict-data-1",
+          "title": "Azərbaycan dilinin izahlı lüğəti — alacəhrə",
+          "volume": 1,
+          "pdf_page": 91
+        },
+        {
+          "url": "https://github.com/azerbaijan-mcp/azerbaijan-mcp/releases/tag/dict-data-1",
+          "title": "Azərbaycan dilinin izahlı lüğəti — alacəhrə",
+          "volume": 1,
+          "pdf_page": 91
+        },
+        {
+          "url": "https://portal.azertag.az/az/node/24824",
+          "title": "AZƏRTAC — Alacəhrə quldiya, a different finch use"
+        },
+        {
+          "url": "https://obastan.com/soz/az/alac%C9%99hr%C9%99",
+          "title": "Obastan — alacəhrə tree sense"
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "proposed_glosses_screened": 257,
+    "method": "Read 256 selected proposed AZ/EN science-related primary glosses plus anaşa across review files. Independently compared cached lexical/print evidence for ambiguous names and external primary scientific/medical sources for specific factual risks. confirmed lists only explicitly corroborated cases, not blanket certification of all screened proposals."
+  }
+}

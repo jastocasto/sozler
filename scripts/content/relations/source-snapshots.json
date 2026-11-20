@@ -1,0 +1,42 @@
+{
+  "sources": [
+    {
+      "edition": "en",
+      "file": "az-enwiktionary.jsonl",
+      "sha256": "8b17fec6310f7285fcbd8a08aa09f1c65fe3b98778bc1fa129b3de20bb50321e"
+    },
+    {
+      "edition": "tr",
+      "file": "az-trwiktionary.jsonl",
+      "sha256": "9a0a2b14588cf84103b636bce2c09387d212c816ad4da9b21103dfe67d3edb27"
+    },
+    {
+      "edition": "ru",
+      "file": "az-ruwiktionary.jsonl",
+      "sha256": "c59e34e2effc8dc48f47777d4c57521e7426ddb9ac72e03ee9c5a60adbe5ebc9"
+    },
+    {
+      "edition": "fr",
+      "file": "az-frwiktionary.jsonl",
+      "sha256": "eb9e121e9c292ca61be473cf9554f943f96078129f9d1d59f44fe4477bdddd7a"
+    },
+    {
+      "edition": "de",
+      "file": "az-dewiktionary.jsonl",
+      "sha256": "e314c62019d8a9ed48e7f74961f2c499666bf519175705b20464f4952e7c7362"
+    },
+    {
+      "edition": "ku",
+      "file": "az-kuwiktionary.jsonl",
+      "sha256": "4bbd03dadc204e6e3856021d8b975688b63e592381114a8766c3bb70e0bfa26c"
+    }
+  ],
+  "stats": {
+    "en_lexical_entries": 11443,
+    "tr_lexical_entries": 7099,
+    "ru_lexical_entries": 7817,
+    "fr_lexical_entries": 1659,
+    "de_lexical_entries": 386,
+    "ku_lexical_entries": 2289
+  }
+}

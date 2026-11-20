@@ -1,0 +1,18 @@
+const fs=require('fs'),vm=require('vm'),assert=require('node:assert/strict'),s={window:{}};
+for(const f of ['data','lexicon','grammar','vocabulary','review','bilingual','expansion','nominal','additions','relations','references','growth','verification','galaxy-data'])vm.runInNewContext(fs.readFileSync('dist/'+f+'.js','utf8'),s);
+const w=s.window,{createModel}=require('../dist/model.js'),args=[w.WORD_WEB_DATA,w.WORD_WEB_EXTRA,w.WORD_WEB_GRAMMAR,w.WORD_WEB_VOCABULARY,w.WORD_WEB_REVIEW,w.WORD_WEB_BILINGUAL,w.WORD_WEB_EXPANSION,w.WORD_WEB_NOMINAL,w.WORD_WEB_ADDITIONS,w.WORD_WEB_RELATIONS,w.WORD_WEB_REFERENCES],before=createModel(...args),m=createModel(...args,w.WORD_WEB_GROWTH),g=w.WORD_WEB_GROWTH;
+const edge=(a,b,t)=>m.related(m.byWord.get(a)).find(r=>r.node.w===b&&r.edge.type===t)?.edge;
+assert(g.nodes.length>=490);assert.equal(m.nodes.length,before.nodes.length+g.nodes.length);assert.equal(m.byWord.size,m.nodes.length);assert(m.edges.length>before.edges.length+6500);
+for(const n of before.nodes)if(n.w!=='dinməz-söyləməz')assert.deepEqual(m.byWord.get(n.w),n,n.w+' preserved');
+assert(m.byWord.get('dinməz-söyləməz').en.startsWith('Taciturn'));assert(!m.byWord.get('dinməz-söyləməz').en.includes('talkative'));
+for(const row of g.nodes){const n=m.byWord.get(row[0]);assert(n.az&&n.en,n.w);assert(!/[\u0400-\u04ff]/.test(n.az+n.en),n.w);assert(n.source.url&&n.source.license,n.w);assert(m.related(n).length,n.w+' needs a reviewed connection');assert(!m.formsByWord.has(n.w));if(n.pos==='verb')assert(/maq$|mək$/.test(n.w));}
+const keys=new Set();for(const e of m.edges){const k=[e.a.w,e.b.w].sort().join('|')+'|'+e.type;assert(!keys.has(k));keys.add(k);assert(e.a!==e.b);assert.equal(edge(e.a.w,e.b.w,e.type),e);assert.equal(edge(e.b.w,e.a.w,e.type),e);if(e.type==='syn')assert(!edge(e.a.w,e.b.w,'ant'),k);}
+const families=JSON.parse(fs.readFileSync('scripts/content/growth/families.json')).families;
+for(const f of families)for(let i=0;i<f.members.length;i++)for(let j=i+1;j<f.members.length;j++)assert(edge(f.members[i],f.members[j],'root'),f.id+' '+f.members[i]+' '+f.members[j]);
+for(const word of ['alçaq','alçaqca','alçaqlandırmaq','alçaqlıq','alçaqboy'])assert(edge('alçaqcasına',word,'root'),word);
+const proof=m.connectionInfo(edge('alçaqcasına','alçaqlıq','root'),'alçaqcasına');assert(proof.sense&&proof.senseEnglish&&proof.family);assert.equal(proof.language,'az');
+for(const [a,b,t]of g.blocked)assert(!edge(a,b,t));
+for(const [a,b,t]of g.edges){const e=edge(a,b,t);if(!e){assert(t==='topic'&&m.related(m.byWord.get(a)).some(r=>r.node.w===b));continue;}const p=m.connectionInfo(e,a);assert(p?.sense&&p.senseEnglish,a+' '+b);assert(!/[\u0400-\u04ff]/.test(p.sense+p.senseEnglish));}
+const positions=new Map(w.WORD_GALAXY_DATA.points.map(p=>[p[0],p])),quarantined=new Set(w.WORD_WEB_VERIFICATION?.excluded||[]);assert.equal(positions.size,m.nodes.length-quarantined.size);for(const p of JSON.parse(fs.readFileSync('scripts/galaxy/layout-base.json')).points)if(!quarantined.has(p[0]))assert.deepEqual(Array.from(positions.get(p[0])),p);for(const n of m.nodes)if(!quarantined.has(n.w))assert(positions.has(n.w));
+const count=JSON.parse(fs.readFileSync('dist/word-count.json'));assert.equal(count.headwords-(count.orthography_entries||0),m.nodes.length-quarantined.size);assert.equal(m.grammarRecords.length,before.grammarRecords.length);assert.equal(m.nominalRecords.length,before.nominalRecords.length);
+console.log(`PASS ${g.nodes.length} bilingual sourced words, ${m.edges.length-before.edges.length} net connections, ${families.length} root families, semantic holds, reciprocal edges, preserved definitions/archives and ${before.nodes.length} permanent atlas positions.`);

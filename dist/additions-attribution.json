@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "added_entries": 567,
+    "single_words": 567,
+    "multiword_terms": 0,
+    "display_languages": [
+      "az",
+      "en"
+    ],
+    "created_at": "2026-11-14",
+    "categories": {
+      "medicine": 114,
+      "biology": 121,
+      "earth": 120,
+      "mathematics": 68,
+      "engineering": 86,
+      "arts": 58
+    },
+    "method": "New AI-assisted editorial definitions. Limited external terminology spot-checks are documented separately. This is not a frequency list or a linguist-reviewed dictionary.",
+    "relationships": "Topic links only; no inferred synonyms, antonyms or etymologies. No case forms or verb conjugations.",
+    "preserved_files": {
+      "data.js": "8a0c16c7eea3864cef98c2998a309429aedbd8b03b24aa999bedb4ce21c3dc2c",
+      "lexicon.js": "4892b9ea14bc143a77686cdb08955b14b16b4f98025d803bd75e3806d575cadb",
+      "vocabulary.js": "70c535968192884e10446ee0cf548a5adfa4da6b68038ccd5ac426f3500b5656",
+      "review.js": "10777b497b53b6fe8fd1e51afd0ae5ff0024e2220ca6b5aa864cf02dc3be83de",
+      "bilingual.js": "5fe2b41c59a8d461b25458ed4ba41b6d50055caa3f58fef414d7864000b4bc29",
+      "grammar.js": "2a94e6a60421f78b6fbb6cbd161029017d0e63e279a1ef55c670a8e0c65c8ccb",
+      "grammar-archive.json": "84d3b6d628c4e601896c23aa412d55b2051c9d6295712c2fb30a8eefb4a1b75d",
+      "expansion.js": "03afc4d21c5462baee4ce5fe4926e3d6aba26fefbfca7bafc65aa5d73c8ce29a",
+      "learning-data.js": "1f05f76bc14cfd4ceb0dc5f0890d6a17cde934819979e2185fd16b033dff4669",
+      "nominal.js": "01f6ab50f3f40c88466713299d89a45c4d9dc86bf8a6dabe014cfac40ab50fea",
+      "nominal-archive.json": "2915e0b8ad065cbab3257c3ad713603b3e108f42551e32cf7c356a6943fd980f"
+    }
+  },
+  "references": [
+    {
+      "title": "Dopamin",
+      "url": "https://az.wikipedia.org/wiki/Dopamin",
+      "checked_at": "2026-11-14",
+      "purpose": "Limited terminology and meaning spot-check; definition prose is newly authored."
+    },
+    {
+      "title": "Melatonin",
+      "url": "https://az.wikipedia.org/wiki/Melatonin",
+      "checked_at": "2026-11-14",
+      "purpose": "Limited terminology and meaning spot-check; definition prose is newly authored."
+    },
+    {
+      "title": "Nitrifikasiya",
+      "url": "https://az.wikipedia.org/wiki/Nitrifikasiya",
+      "checked_at": "2026-11-14",
+      "purpose": "Limited terminology and meaning spot-check; definition prose is newly authored."
+    },
+    {
+      "title": "Kalliqrafiya",
+      "url": "https://az.wikipedia.org/wiki/Kalliqrafiya",
+      "checked_at": "2026-11-14",
+      "purpose": "Limited terminology and meaning spot-check; definition prose is newly authored."
+    }
+  ],
+  "deduplicated": [
+    {
+      "word": "emfizema",
+      "reason": "Variant of existing emfizem"
+    },
+    {
+      "word": "likenologiya",
+      "reason": "Variant of existing lixenologiya"
+    },
+    {
+      "word": "qlasiologiya",
+      "reason": "Variant of existing qlyasiologiya"
+    },
+    {
+      "word": "tautologiya",
+      "reason": "Variant of existing tavtologiya"
+    },
+    {
+      "word": "ekstrüziya",
+      "reason": "Variant of existing ekstruziya"
+    }
+  ],
+  "license": "New editorial definitions: CC BY-SA 4.0. Reference pages support only the specified spot-checks; their prose is not used as dictionary definitions."
+}

@@ -1,0 +1,10 @@
+const assert=require('node:assert/strict'),G=require('../dist/galaxy.js');
+const a={id:1,w:'a'},b={id:2,w:'b'},c={id:3,w:'c'},d={id:4,w:'d'},points=[a,b,c,d].map(node=>({node,word:node.w}));
+const edges=[[a,b,'syn'],[a,c,'root'],[b,d,'ant']].map(([a,b,type],id)=>({id,a,b,type,from:points.find(p=>p.node===a),to:points.find(p=>p.node===b)}));
+const screens=new Map([['a',{x:-500,y:100}],['b',{x:1500,y:100}],['c',{x:50,y:150}],['d',{x:2000,y:1200}]]),filters=new Set(['syn','root','ant']);
+const all=G.connections({edges},screens,filters,390,844);assert.equal(all.stationary.length,2,'Long edges and edges whose endpoints are both offscreen must remain when they cross the map');assert.deepEqual(all.stationary.map(x=>x.edge.id),[0,1]);
+const moving=G.connections({edges},screens,filters,390,844,new Set([a.id]));assert.deepEqual(moving.dynamic.map(e=>e.id),[0,1]);assert.equal(moving.stationary.length,0,'A moving endpoint must never retain a second static line');
+assert.equal(G.connections({edges},screens,new Set(['root']),390,844).stationary.length,1);
+for(const e of edges)assert(G.connections({edges:[e]},new Map([[e.from.word,{x:30,y:30}],[e.to.word,{x:100,y:100}]]),filters,390,844).stationary.length===1,'Every recorded edge is eligible, regardless of its numeric id');
+assert(G.crossesViewport({x:-100,y:-100},{x:500,y:1000},390,844));assert(!G.crossesViewport({x:-100,y:0},{x:-100,y:900},390,844));assert(G.crossesViewport({x:0,y:0},{x:390,y:844},390,844));
+console.log('PASS: complete recorded web, long and crossing edges, filter fidelity, and exactly one drawing layer per moving connection.');

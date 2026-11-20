@@ -1,0 +1,13 @@
+[
+  {
+    "word": "toxuc",
+    "reason": "The source synonym is the weaving domain abbreviation toxuc. (toxuculuq), imported without punctuation. It is not a supported standalone lexical headword. Original source data is retained.",
+    "reason_az": "Toxuculuq sahəsinin qısaldılmış etiketi ayrıca söz kimi idxal olunub; ilkin qeyd saxlanılıb.",
+    "sources": [
+      {
+        "url": "https://en.wiktionary.org/wiki/əriş",
+        "title": "əriş — Wiktionary: weaving domain annotation mistaken for a synonym"
+      }
+    ]
+  }
+]

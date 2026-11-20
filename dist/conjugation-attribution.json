@@ -1,0 +1,22 @@
+{
+  "source": "Dictionary headwords plus English Wiktionary tables via Kaikki",
+  "license": "CC BY-SA 4.0",
+  "source_sha256": "8b17fec6310f7285fcbd8a08aa09f1c65fe3b98778bc1fa129b3de20bb50321e",
+  "verb_count": 2638,
+  "table_profiles": 1573,
+  "inherited_compound_profiles": 735,
+  "form_categories": 39,
+  "remaining_unconfirmed_t_stems": [],
+  "policy": "Only existing dictionary infinitives marked as verbs are admitted. Forms are generated using explicit vowel-harmony and inflection rules, with source-supported stem alternations and compound auxiliary profiles. A cell is marked documented only when its exact string matches the corresponding source-table tags; all other cells are labeled rule-generated. These are standard form families, not a claim to exhaust every voice, dialect, register or possible combination. Original headwords and grammar archives are untouched.",
+  "editorial_notes": [
+    "The defective copula imək is kept searchable but excluded from ordinary rule generation. Compound stems follow their lexical auxiliary profile, avoiding malformed whole-phrase source tables.",
+    "Standard negative indefinite future uses -maz/-məz in second/third persons and -mar/-mər in first persons; incorrect source-template r in second-person forms is not copied.",
+    "Source future-participle spellings ending in back-vowel -acak are not copied; standard Azerbaijani uses -acaq.",
+    "Analytic ability uses -a/-ə bilmək, including its negative forms.",
+    "Additional dictionary-listed causative t/d profiles are recorded in scripts/conjugation-stem-review.json. Their cells remain labeled generated unless independently found in the source table."
+  ],
+  "atlas_coverage": "The picker uses the current map’s verified verbal infinitives, including entries added after the source-table snapshot. Azerbaijani source labels and documented word-formation rules establish verb status. New forms are labeled rule-generated where a matching table is unavailable.",
+  "atlas_verb_evidence": "orthography-lexical.js",
+  "stem_alternation_source": "https://api.filologiya.az/uploads/Orfoqrafiya_v_orfoepiya_t_drisinin_metodik_saslari_eb40ac0ce5.pdf#page=40",
+  "english_form_meanings": "English phrases follow the selected person, tense and polarity. Reviewed English readings take precedence, and an existing verbal dictionary gloss supplies a base where there is no separate reviewed profile."
+}

@@ -1,0 +1,542 @@
+[
+  {
+    "word": "aa",
+    "index": 0,
+    "reason": "The displayed translation is ambiguous, incorrect, too broad, or inconsistent with the Azerbaijani headword; hold for stronger lexical evidence."
+  },
+  {
+    "word": "abbasi",
+    "index": 3,
+    "reason": "Spelling, nonstandard form, or foreign-form concern; do not create a new unique-word entry without further corroboration."
+  },
+  {
+    "word": "abbreviaturə",
+    "index": 4,
+    "reason": "Spelling, nonstandard form, or foreign-form concern; do not create a new unique-word entry without further corroboration."
+  },
+  {
+    "word": "abdalcasına danışmaq",
+    "index": 5,
+    "reason": "A phrase fragment, transparent expression, proper-name/form issue, or productive numeral/group form; held to prioritize distinct base vocabulary."
+  },
+  {
+    "word": "aberasiya",
+    "index": 7,
+    "reason": "Spelling, nonstandard form, or foreign-form concern; do not create a new unique-word entry without further corroboration."
+  },
+  {
+    "word": "alti",
+    "index": 29,
+    "reason": "Spelling, nonstandard form, or foreign-form concern; do not create a new unique-word entry without further corroboration."
+  },
+  {
+    "word": "antianemin",
+    "index": 36,
+    "reason": "The displayed translation is ambiguous, incorrect, too broad, or inconsistent with the Azerbaijani headword; hold for stronger lexical evidence."
+  },
+  {
+    "word": "antropologi",
+    "index": 37,
+    "reason": "Spelling, nonstandard form, or foreign-form concern; do not create a new unique-word entry without further corroboration."
+  },
+  {
+    "word": "aqnonim",
+    "index": 41,
+    "reason": "The displayed translation is ambiguous, incorrect, too broad, or inconsistent with the Azerbaijani headword; hold for stronger lexical evidence."
+  },
+  {
+    "word": "arasından",
+    "index": 43,
+    "reason": "Inflected, possessed, comparative, plural, or finite/participial form; not a new base lexical entry for this map."
+  },
+  {
+    "word": "ardıc cövhəri",
+    "index": 44,
+    "reason": "Insufficient independent support for the precise Azerbaijani meaning or lexical form; no meaning inferred from the bare label."
+  },
+  {
+    "word": "axşamın xeyir",
+    "index": 59,
+    "reason": "A phrase fragment, transparent expression, proper-name/form issue, or productive numeral/group form; held to prioritize distinct base vocabulary."
+  },
+  {
+    "word": "axşamınız xeyir olsun",
+    "index": 60,
+    "reason": "A phrase fragment, transparent expression, proper-name/form issue, or productive numeral/group form; held to prioritize distinct base vocabulary."
+  },
+  {
+    "word": "azeri",
+    "index": 64,
+    "reason": "Spelling, nonstandard form, or foreign-form concern; do not create a new unique-word entry without further corroboration."
+  },
+  {
+    "word": "azərbaycan",
+    "index": 65,
+    "reason": "Spelling, nonstandard form, or foreign-form concern; do not create a new unique-word entry without further corroboration."
+  },
+  {
+    "word": "azərbaycan əlifbası",
+    "index": 66,
+    "reason": "A phrase fragment, transparent expression, proper-name/form issue, or productive numeral/group form; held to prioritize distinct base vocabulary."
+  },
+  {
+    "word": "badamciq vəzisi",
+    "index": 71,
+    "reason": "Spelling, nonstandard form, or foreign-form concern; do not create a new unique-word entry without further corroboration."
+  },
+  {
+    "word": "balaça",
+    "index": 72,
+    "reason": "Spelling, nonstandard form, or foreign-form concern; do not create a new unique-word entry without further corroboration."
+  },
+  {
+    "word": "bir-birimiz",
+    "index": 87,
+    "reason": "Inflected, possessed, comparative, plural, or finite/participial form; not a new base lexical entry for this map."
+  },
+  {
+    "word": "biri var idi",
+    "index": 88,
+    "reason": "A phrase fragment, transparent expression, proper-name/form issue, or productive numeral/group form; held to prioritize distinct base vocabulary."
+  },
+  {
+    "word": "biri yox idi",
+    "index": 89,
+    "reason": "A phrase fragment, transparent expression, proper-name/form issue, or productive numeral/group form; held to prioritize distinct base vocabulary."
+  },
+  {
+    "word": "brötonca",
+    "index": 96,
+    "reason": "Spelling, nonstandard form, or foreign-form concern; do not create a new unique-word entry without further corroboration."
+  },
+  {
+    "word": "bıcaq",
+    "index": 104,
+    "reason": "Spelling, nonstandard form, or foreign-form concern; do not create a new unique-word entry without further corroboration."
+  },
+  {
+    "word": "bələdci",
+    "index": 106,
+    "reason": "Spelling, nonstandard form, or foreign-form concern; do not create a new unique-word entry without further corroboration."
+  },
+  {
+    "word": "bəsdirin",
+    "index": 107,
+    "reason": "Inflected, possessed, comparative, plural, or finite/participial form; not a new base lexical entry for this map."
+  },
+  {
+    "word": "cüca",
+    "index": 111,
+    "reason": "Spelling, nonstandard form, or foreign-form concern; do not create a new unique-word entry without further corroboration."
+  },
+  {
+    "word": "daha aşkar",
+    "index": 115,
+    "reason": "Inflected, possessed, comparative, plural, or finite/participial form; not a new base lexical entry for this map."
+  },
+  {
+    "word": "daha da",
+    "index": 116,
+    "reason": "The displayed translation is ambiguous, incorrect, too broad, or inconsistent with the Azerbaijani headword; hold for stronger lexical evidence."
+  },
+  {
+    "word": "danışılmamış",
+    "index": 118,
+    "reason": "Inflected, possessed, comparative, plural, or finite/participial form; not a new base lexical entry for this map."
+  },
+  {
+    "word": "diapazon",
+    "index": 130,
+    "reason": "The displayed translation is ambiguous, incorrect, too broad, or inconsistent with the Azerbaijani headword; hold for stronger lexical evidence."
+  },
+  {
+    "word": "diş dişqurtlayan",
+    "index": 136,
+    "reason": "The displayed translation is ambiguous, incorrect, too broad, or inconsistent with the Azerbaijani headword; hold for stronger lexical evidence."
+  },
+  {
+    "word": "dubinium",
+    "index": 140,
+    "reason": "Spelling, nonstandard form, or foreign-form concern; do not create a new unique-word entry without further corroboration."
+  },
+  {
+    "word": "dyun",
+    "index": 142,
+    "reason": "Spelling, nonstandard form, or foreign-form concern; do not create a new unique-word entry without further corroboration."
+  },
+  {
+    "word": "dövrəsi",
+    "index": 143,
+    "reason": "Inflected, possessed, comparative, plural, or finite/participial form; not a new base lexical entry for this map."
+  },
+  {
+    "word": "dəliyi",
+    "index": 145,
+    "reason": "Inflected, possessed, comparative, plural, or finite/participial form; not a new base lexical entry for this map."
+  },
+  {
+    "word": "dənizi",
+    "index": 146,
+    "reason": "Inflected, possessed, comparative, plural, or finite/participial form; not a new base lexical entry for this map."
+  },
+  {
+    "word": "dəyyusluq",
+    "index": 148,
+    "reason": "The displayed translation is ambiguous, incorrect, too broad, or inconsistent with the Azerbaijani headword; hold for stronger lexical evidence."
+  },
+  {
+    "word": "elevator",
+    "index": 154,
+    "reason": "The displayed translation is ambiguous, incorrect, too broad, or inconsistent with the Azerbaijani headword; hold for stronger lexical evidence."
+  },
+  {
+    "word": "ellilik",
+    "index": 156,
+    "reason": "The displayed translation is ambiguous, incorrect, too broad, or inconsistent with the Azerbaijani headword; hold for stronger lexical evidence."
+  },
+  {
+    "word": "evdari",
+    "index": 162,
+    "reason": "The displayed translation is ambiguous, incorrect, too broad, or inconsistent with the Azerbaijani headword; hold for stronger lexical evidence."
+  },
+  {
+    "word": "eşşək arısı",
+    "index": 166,
+    "reason": "The displayed translation is ambiguous, incorrect, too broad, or inconsistent with the Azerbaijani headword; hold for stronger lexical evidence."
+  },
+  {
+    "word": "follikül",
+    "index": 179,
+    "reason": "Spelling, nonstandard form, or foreign-form concern; do not create a new unique-word entry without further corroboration."
+  },
+  {
+    "word": "game jam",
+    "index": 187,
+    "reason": "A phrase fragment, transparent expression, proper-name/form issue, or productive numeral/group form; held to prioritize distinct base vocabulary."
+  },
+  {
+    "word": "geli",
+    "index": 188,
+    "reason": "Inflected, possessed, comparative, plural, or finite/participial form; not a new base lexical entry for this map."
+  },
+  {
+    "word": "generasiya",
+    "index": 189,
+    "reason": "The displayed translation is ambiguous, incorrect, too broad, or inconsistent with the Azerbaijani headword; hold for stronger lexical evidence."
+  },
+  {
+    "word": "görunuş",
+    "index": 193,
+    "reason": "Spelling, nonstandard form, or foreign-form concern; do not create a new unique-word entry without further corroboration."
+  },
+  {
+    "word": "gözü",
+    "index": 194,
+    "reason": "Inflected, possessed, comparative, plural, or finite/participial form; not a new base lexical entry for this map."
+  },
+  {
+    "word": "hormonlar",
+    "index": 211,
+    "reason": "Inflected, possessed, comparative, plural, or finite/participial form; not a new base lexical entry for this map."
+  },
+  {
+    "word": "həsir",
+    "index": 213,
+    "reason": "The displayed translation is ambiguous, incorrect, too broad, or inconsistent with the Azerbaijani headword; hold for stronger lexical evidence."
+  },
+  {
+    "word": "irəlilətmək",
+    "index": 220,
+    "reason": "The displayed translation is ambiguous, incorrect, too broad, or inconsistent with the Azerbaijani headword; hold for stronger lexical evidence."
+  },
+  {
+    "word": "iyirm",
+    "index": 225,
+    "reason": "The displayed translation is ambiguous, incorrect, too broad, or inconsistent with the Azerbaijani headword; hold for stronger lexical evidence."
+  },
+  {
+    "word": "kalium sionid",
+    "index": 232,
+    "reason": "Spelling, nonstandard form, or foreign-form concern; do not create a new unique-word entry without further corroboration."
+  },
+  {
+    "word": "kodu",
+    "index": 251,
+    "reason": "Inflected, possessed, comparative, plural, or finite/participial form; not a new base lexical entry for this map."
+  },
+  {
+    "word": "kroket",
+    "index": 260,
+    "reason": "The displayed translation is ambiguous, incorrect, too broad, or inconsistent with the Azerbaijani headword; hold for stronger lexical evidence."
+  },
+  {
+    "word": "külliyat",
+    "index": 266,
+    "reason": "Spelling, nonstandard form, or foreign-form concern; do not create a new unique-word entry without further corroboration."
+  },
+  {
+    "word": "lantanoidlər",
+    "index": 271,
+    "reason": "Inflected, possessed, comparative, plural, or finite/participial form; not a new base lexical entry for this map."
+  },
+  {
+    "word": "latınəlifbası",
+    "index": 274,
+    "reason": "Spelling, nonstandard form, or foreign-form concern; do not create a new unique-word entry without further corroboration."
+  },
+  {
+    "word": "llama",
+    "index": 281,
+    "reason": "Spelling, nonstandard form, or foreign-form concern; do not create a new unique-word entry without further corroboration."
+  },
+  {
+    "word": "metlar",
+    "index": 297,
+    "reason": "Spelling, nonstandard form, or foreign-form concern; do not create a new unique-word entry without further corroboration."
+  },
+  {
+    "word": "milimetr",
+    "index": 305,
+    "reason": "Spelling, nonstandard form, or foreign-form concern; do not create a new unique-word entry without further corroboration."
+  },
+  {
+    "word": "mizan-tərəzi",
+    "index": 308,
+    "reason": "The displayed translation is ambiguous, incorrect, too broad, or inconsistent with the Azerbaijani headword; hold for stronger lexical evidence."
+  },
+  {
+    "word": "nabat",
+    "index": 319,
+    "reason": "The displayed translation is ambiguous, incorrect, too broad, or inconsistent with the Azerbaijani headword; hold for stronger lexical evidence."
+  },
+  {
+    "word": "naibi",
+    "index": 321,
+    "reason": "Inflected, possessed, comparative, plural, or finite/participial form; not a new base lexical entry for this map."
+  },
+  {
+    "word": "piyadə",
+    "index": 369,
+    "reason": "Spelling, nonstandard form, or foreign-form concern; do not create a new unique-word entry without further corroboration."
+  },
+  {
+    "word": "portaqal",
+    "index": 377,
+    "reason": "Spelling, nonstandard form, or foreign-form concern; do not create a new unique-word entry without further corroboration."
+  },
+  {
+    "word": "qafqaz",
+    "index": 387,
+    "reason": "The displayed translation is ambiguous, incorrect, too broad, or inconsistent with the Azerbaijani headword; hold for stronger lexical evidence."
+  },
+  {
+    "word": "qalxanvari",
+    "index": 390,
+    "reason": "The displayed translation is ambiguous, incorrect, too broad, or inconsistent with the Azerbaijani headword; hold for stronger lexical evidence."
+  },
+  {
+    "word": "qarandaş",
+    "index": 396,
+    "reason": "Spelling, nonstandard form, or foreign-form concern; do not create a new unique-word entry without further corroboration."
+  },
+  {
+    "word": "qayğıçəkən",
+    "index": 400,
+    "reason": "The displayed translation is ambiguous, incorrect, too broad, or inconsistent with the Azerbaijani headword; hold for stronger lexical evidence."
+  },
+  {
+    "word": "rahətülhülqum",
+    "index": 423,
+    "reason": "Spelling, nonstandard form, or foreign-form concern; do not create a new unique-word entry without further corroboration."
+  },
+  {
+    "word": "rakip",
+    "index": 424,
+    "reason": "Spelling, nonstandard form, or foreign-form concern; do not create a new unique-word entry without further corroboration."
+  },
+  {
+    "word": "resepşn",
+    "index": 425,
+    "reason": "The displayed translation is ambiguous, incorrect, too broad, or inconsistent with the Azerbaijani headword; hold for stronger lexical evidence."
+  },
+  {
+    "word": "rəiyyətpərvərlik",
+    "index": 434,
+    "reason": "The displayed translation is ambiguous, incorrect, too broad, or inconsistent with the Azerbaijani headword; hold for stronger lexical evidence."
+  },
+  {
+    "word": "rəməzan",
+    "index": 435,
+    "reason": "Spelling, nonstandard form, or foreign-form concern; do not create a new unique-word entry without further corroboration."
+  },
+  {
+    "word": "seaborgium",
+    "index": 446,
+    "reason": "Spelling, nonstandard form, or foreign-form concern; do not create a new unique-word entry without further corroboration."
+  },
+  {
+    "word": "septuaginta",
+    "index": 448,
+    "reason": "A phrase fragment, transparent expression, proper-name/form issue, or productive numeral/group form; held to prioritize distinct base vocabulary."
+  },
+  {
+    "word": "seratonin",
+    "index": 449,
+    "reason": "Spelling, nonstandard form, or foreign-form concern; do not create a new unique-word entry without further corroboration."
+  },
+  {
+    "word": "soltanlıq",
+    "index": 469,
+    "reason": "Spelling, nonstandard form, or foreign-form concern; do not create a new unique-word entry without further corroboration."
+  },
+  {
+    "word": "südük",
+    "index": 483,
+    "reason": "Spelling, nonstandard form, or foreign-form concern; do not create a new unique-word entry without further corroboration."
+  },
+  {
+    "word": "sütten kesme",
+    "index": 485,
+    "reason": "Insufficient independent support for the precise Azerbaijani meaning or lexical form; no meaning inferred from the bare label."
+  },
+  {
+    "word": "sırt",
+    "index": 486,
+    "reason": "The displayed translation is ambiguous, incorrect, too broad, or inconsistent with the Azerbaijani headword; hold for stronger lexical evidence."
+  },
+  {
+    "word": "sədrlik",
+    "index": 488,
+    "reason": "The displayed translation is ambiguous, incorrect, too broad, or inconsistent with the Azerbaijani headword; hold for stronger lexical evidence."
+  },
+  {
+    "word": "səhləb",
+    "index": 489,
+    "reason": "The displayed translation is ambiguous, incorrect, too broad, or inconsistent with the Azerbaijani headword; hold for stronger lexical evidence."
+  },
+  {
+    "word": "tamarindası",
+    "index": 496,
+    "reason": "Inflected, possessed, comparative, plural, or finite/participial form; not a new base lexical entry for this map."
+  },
+  {
+    "word": "tanho",
+    "index": 498,
+    "reason": "Spelling, nonstandard form, or foreign-form concern; do not create a new unique-word entry without further corroboration."
+  },
+  {
+    "word": "tesp",
+    "index": 506,
+    "reason": "The displayed translation is ambiguous, incorrect, too broad, or inconsistent with the Azerbaijani headword; hold for stronger lexical evidence."
+  },
+  {
+    "word": "turşusu",
+    "index": 518,
+    "reason": "Inflected, possessed, comparative, plural, or finite/participial form; not a new base lexical entry for this map."
+  },
+  {
+    "word": "xalca",
+    "index": 536,
+    "reason": "Spelling, nonstandard form, or foreign-form concern; do not create a new unique-word entry without further corroboration."
+  },
+  {
+    "word": "xalq nəğmələri",
+    "index": 537,
+    "reason": "The displayed translation is ambiguous, incorrect, too broad, or inconsistent with the Azerbaijani headword; hold for stronger lexical evidence."
+  },
+  {
+    "word": "ximanqo",
+    "index": 540,
+    "reason": "Insufficient independent support for the precise Azerbaijani meaning or lexical form; no meaning inferred from the bare label."
+  },
+  {
+    "word": "yetmış",
+    "index": 551,
+    "reason": "Spelling, nonstandard form, or foreign-form concern; do not create a new unique-word entry without further corroboration."
+  },
+  {
+    "word": "yupka",
+    "index": 554,
+    "reason": "Spelling, nonstandard form, or foreign-form concern; do not create a new unique-word entry without further corroboration."
+  },
+  {
+    "word": "yurt",
+    "index": 555,
+    "reason": "Spelling, nonstandard form, or foreign-form concern; do not create a new unique-word entry without further corroboration."
+  },
+  {
+    "word": "yüz min",
+    "index": 556,
+    "reason": "A phrase fragment, transparent expression, proper-name/form issue, or productive numeral/group form; held to prioritize distinct base vocabulary."
+  },
+  {
+    "word": "yılanbalığı",
+    "index": 557,
+    "reason": "Spelling, nonstandard form, or foreign-form concern; do not create a new unique-word entry without further corroboration."
+  },
+  {
+    "word": "çağırışma",
+    "index": 569,
+    "reason": "The displayed translation is ambiguous, incorrect, too broad, or inconsistent with the Azerbaijani headword; hold for stronger lexical evidence."
+  },
+  {
+    "word": "çənəsiqıllılar",
+    "index": 572,
+    "reason": "A phrase fragment, transparent expression, proper-name/form issue, or productive numeral/group form; held to prioritize distinct base vocabulary."
+  },
+  {
+    "word": "ölmüş",
+    "index": 573,
+    "reason": "Inflected, possessed, comparative, plural, or finite/participial form; not a new base lexical entry for this map."
+  },
+  {
+    "word": "ümumdünya vaxtı",
+    "index": 576,
+    "reason": "The displayed translation is ambiguous, incorrect, too broad, or inconsistent with the Azerbaijani headword; hold for stronger lexical evidence."
+  },
+  {
+    "word": "şirəsi",
+    "index": 582,
+    "reason": "Inflected, possessed, comparative, plural, or finite/participial form; not a new base lexical entry for this map."
+  },
+  {
+    "word": "şlyapa satan",
+    "index": 583,
+    "reason": "A phrase fragment, transparent expression, proper-name/form issue, or productive numeral/group form; held to prioritize distinct base vocabulary."
+  },
+  {
+    "word": "şöqun",
+    "index": 587,
+    "reason": "Spelling, nonstandard form, or foreign-form concern; do not create a new unique-word entry without further corroboration."
+  },
+  {
+    "word": "şəhr",
+    "index": 588,
+    "reason": "Spelling, nonstandard form, or foreign-form concern; do not create a new unique-word entry without further corroboration."
+  },
+  {
+    "word": "əbabil",
+    "index": 589,
+    "reason": "Insufficient independent support for the precise Azerbaijani meaning or lexical form; no meaning inferred from the bare label."
+  },
+  {
+    "word": "əlifbey",
+    "index": 593,
+    "reason": "Spelling, nonstandard form, or foreign-form concern; do not create a new unique-word entry without further corroboration."
+  },
+  {
+    "word": "ən aşkar",
+    "index": 594,
+    "reason": "Inflected, possessed, comparative, plural, or finite/participial form; not a new base lexical entry for this map."
+  },
+  {
+    "word": "əraf",
+    "index": 595,
+    "reason": "The displayed translation is ambiguous, incorrect, too broad, or inconsistent with the Azerbaijani headword; hold for stronger lexical evidence."
+  },
+  {
+    "word": "əzizim",
+    "index": 599,
+    "reason": "Inflected, possessed, comparative, plural, or finite/participial form; not a new base lexical entry for this map."
+  }
+]

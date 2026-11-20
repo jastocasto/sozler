@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>AZ</title>
+  <path d="M24 19 19 12M44 22l5-5m-2 21 6 3M37 46l2 7m-21-15-7 3"
+        fill="none" stroke="#c6b38e" stroke-width="2.2" stroke-linecap="round"/>
+  <g fill="none" stroke="#decba5" stroke-width="2.4">
+    <circle cx="32" cy="32" r="15"/>
+    <circle cx="17" cy="9" r="3.4"/>
+    <circle cx="52" cy="14" r="4.3"/>
+    <circle cx="57" cy="43" r="4.2"/>
+    <circle cx="40" cy="57" r="3.6"/>
+    <circle cx="7.5" cy="43" r="4"/>
+  </g>
+  <path d="m22.5 37.5 4.2-11 4.3 11m-7-3.4h5.4m4.9-7.6h7.2l-7.2 11h7.2"
+        fill="none" stroke="#f2e9d7" stroke-width="2.35" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

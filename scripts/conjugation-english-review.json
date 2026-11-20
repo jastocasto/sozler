@@ -1,0 +1,185 @@
+{
+  "policy": "English teaching equivalents for dictionary-listed infinitives. These select one useful sense; they do not replace the original dictionary records. Context can change the natural translation. AI-assisted editorial overrides normalize non-verbal or malformed source glosses.",
+  "bases": {
+    "rəvac tapmaq": "become widespread",
+    "xırdalamaq": "crush into small pieces",
+    "sürtünmək": "rub against something",
+    "açarını itirmək": "lose control",
+    "əsəbləşmək": "become angry",
+    "baş qaldırmaq": "rebel",
+    "boşamaq": "divorce",
+    "dalamaq": "sting",
+    "korşalmaq": "become blunt",
+    "qoxlamaq": "smell",
+    "qoxmaq": "smell",
+    "sancılanmaq": "feel a sharp pain",
+    "sapıtmaq": "go astray",
+    "sayıqlamaq": "talk deliriously",
+    "himayəçilik etmək": "show favoritism",
+    "həcv etmək": "satirize",
+    "paxıllıq etmək": "be jealous",
+    "qohumbazlıq etmək": "favor relatives",
+    "dəstəmaz almaq": "perform ritual ablutions",
+    "xoruzlanmaq": "act arrogantly",
+    "kisələtmək": "have one's body scrubbed",
+    "kisələtdirmək": "have someone's body scrubbed",
+    "xərifləmək": "become senile",
+    "axşamlamaq": "spend the evening",
+    "dodaqlanmaq": "become labialized",
+    "asanlaşmaq": "become easier",
+    "arıqlatmaq": "make someone lose weight",
+    "cırnamaq": "get angry",
+    "cəfəngləmək": "talk nonsense",
+    "didilmək": "be torn apart",
+    "fısqırtmaq": "spurt",
+    "var imək": "exist",
+    "atlandırmaq": "put someone on a horse",
+    "bədbinləşmək": "become pessimistic",
+    "dünyanı dəyişmək": "die",
+    "mövcüd olmaq": "exist",
+    "sürdürmək": "make someone drive",
+    "yadında saxlamaq": "remember",
+    "yadında olmaq": "be remembered",
+    "səs yazmaq": "record audio",
+    "yellənmək": "sway",
+    "dərinlətmək": "deepen",
+    "gülləmək": "shoot",
+    "haylamaq": "call out",
+    "həllənmək": "be dissolved",
+    "bildirilmək": "be reported",
+    "əzdirmək": "have something crushed",
+    "dramatikləşdirilmək": "be dramatized",
+    "hasarlanmaq": "be fenced off",
+    "anbarlamaq": "store in a warehouse",
+    "birtərəfləşdirmək": "set aside",
+    "azərbaycanlılaşmaq": "become Azerbaijani",
+    "azərbaycanlılaşdırmaq": "make Azerbaijani",
+    "belaruslaşmaq": "become Belarusian",
+    "bolqarlaşmaq": "become Bulgarian",
+    "erməniləşmək": "become Armenian",
+    "ərəbləşmək": "become Arab",
+    "avropalılaşmaq": "become European",
+    "avropalaşmaq": "become European",
+    "gürcüləşmək": "become Georgian",
+    "monqollaşmaq": "become Mongolian",
+    "ruslaşmaq": "become Russian",
+    "yunanlaşmaq": "become Greek",
+    "türkmənləşmək": "become Turkmen",
+    "almanlaşdırmaq": "make German",
+    "belaruslaşdırmaq": "make Belarusian",
+    "bolqarlaşdırmaq": "make Bulgarian",
+    "çinliləşdirmək": "make Chinese",
+    "erməniləşdirmək": "make Armenian",
+    "əfqanlaşdırmaq": "make Afghan",
+    "ərəbləşdirmək": "make Arab",
+    "farslaşdırmaq": "make Persian",
+    "fransızlaşdırmaq": "make French",
+    "avropalılaşdırmaq": "make European",
+    "avropalaşdırmaq": "make European",
+    "gürcüləşdirmək": "make Georgian",
+    "ingilisləşdirmək": "make English",
+    "iranlılaşdırmaq": "make Iranian",
+    "italyanlaşdırmaq": "make Italian",
+    "kürdləşdirmək": "make Kurdish",
+    "monqollaşdırmaq": "make Mongolian",
+    "polyaklaşdırmaq": "make Polish",
+    "rumınlaşdırmaq": "make Romanian",
+    "ruslaşdırmaq": "make Russian",
+    "tacikləşdirmək": "make Tajik",
+    "türkləşdirmək": "make Turkish",
+    "yaponlaşdırmaq": "make Japanese",
+    "yunanlaşdırmaq": "make Greek",
+    "türkmənləşdirmək": "make Turkmen",
+    "latınlaşdırmaq": "romanize",
+    "cumdurmaq": "make someone rush",
+    "darışmaq": "crowd together",
+    "silahlanmaq": "arm oneself",
+    "qıymaq": "be willing to give",
+    "şadlığından şitlik etmək": "be overexcited with happiness",
+    "sırımaq": "beat wool with a stick",
+    "bıçaqlaşmaq": "stab one another",
+    "imzalamaq": "sign",
+    "doyurmaq": "feed someone until full",
+    "doydurmaq": "feed someone until full",
+    "acmaq": "get hungry",
+    "acıqmaq": "get hungry",
+    "birikmək": "accumulate slowly",
+    "qəlbində qalmaq": "remain unfulfilled",
+    "max verməmək": "be indifferent",
+    "adı it dəftərində olmamaq": "be disregarded",
+    "götündə qurd olmaq": "be restless",
+    "halına yanmaq": "worry about someone",
+    "açılışmaq": "become less shy",
+    "nəslini kəsmək": "exterminate",
+    "götür-qoy etmək": "consider carefully",
+    "çimişmək": "bathe together",
+    "jim eləmək": "do push-ups",
+    "çim-çim eləmək": "bathe"
+  },
+  "profiles": {
+    "çırpışdırmaq": {"base": "pilfer something", "alternatives": ["steal something furtively"]},
+    "çimizdirmək": {"base": "bathe someone"},
+    "çirkləndirmək": {"base": "make something dirty"},
+    "dürmək": {"base": "tie something up", "note": "Dialectal verb sense."},
+    "köçürtmək": {
+      "base": "have it moved",
+      "dynamic": true,
+      "alternatives": [
+        "move it",
+        "copy it"
+      ],
+      "source": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_2.pdf#page=745"
+    },
+    "boyatmaq": {
+      "base": "have it painted",
+      "dynamic": true,
+      "alternatives": [
+        "have it dyed"
+      ],
+      "source": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_1.pdf#page=341"
+    },
+    "abadlaşdırılmaq": {
+      "base": "be improved"
+    },
+    "bişirtmək": {
+      "base": "have it cooked",
+      "dynamic": true
+    },
+    "cildlədilmək": {
+      "base": "be bound"
+    },
+    "axmaq": {
+      "base": "flow"
+    },
+    "dövlətləndirmək": {
+      "base": "enrich someone"
+    },
+    "güllə atmaq": {
+      "base": "fire a shot"
+    },
+    "oymaq": {
+      "base": "carve"
+    },
+    "qartmaq": {
+      "base": "harden"
+    },
+    "qarmaq": {
+      "base": "bend back"
+    },
+    "özünü aparmaq": {
+      "base": "behave"
+    },
+    "paylaşdırmaq": {
+      "base": "distribute it"
+    },
+    "rəftar etmək": {
+      "base": "behave"
+    },
+    "boynundan atmaq": {
+      "base": "deny responsibility"
+    },
+    "götünü qurd basmaq": {
+      "base": "be unable to sit still"
+    }
+  }
+}

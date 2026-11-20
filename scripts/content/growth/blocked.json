@@ -1,0 +1,61 @@
+{
+  "method": "Only demonstrated cross-lemma source errors or homograph mismatches are block candidates. A malformed immediate derivation is not sufficient to block a valid broader root-family relation.",
+  "blocked_candidates": [
+    {
+      "a": "kürtük",
+      "b": "qısmaq",
+      "type": "root",
+      "decision": "block",
+      "currently_active": false,
+      "reason_en": "Source template points to qısmaq but its displayed stem is reconstructed *kürt-; this is a contradictory source link.",
+      "evidence": {
+        "head": "kürtük",
+        "edition": "en",
+        "field": "etymology",
+        "text": "From *kürt (“snow drift”), equivalent to *kürt- + -ük. Related to Yakut күрт- (kürt-, “to shovel”), Karakhanid [script needed] (küri-), Karakhanid [script needed] (kürä-, “to scoop, shovel”). See also көрәк (küräk, “shovel”).\nCompare to\nTatar көрт (kört, “snow drift”),\nKumyk кюрт (kürt, “snow drift”),\nSouthern Altai күрт (“snow drift”),\nShor кӧрт (“snow drift”);\nalso\nKazakh күртік (kürtik, “snow drift”),\nKyrgyz күртүк (kürtük)/күрткү (kürtkü, “snow drift”),\nKhakas кӧртік (körtìk, “snow drift”).",
+        "template": "af",
+        "base": "qısmaq",
+        "affixes": [
+          "-ik"
+        ],
+        "etymology_number": null,
+        "sense_ids": [
+          "en-kürtük-az-noun-MVY~kNTt"
+        ],
+        "sense_glosses": [
+          "snowdrift"
+        ],
+        "url": "https://en.wiktionary.org/wiki/kürtük#Azerbaijani"
+      }
+    },
+    {
+      "a": "xorultu",
+      "b": "xor",
+      "type": "root",
+      "decision": "block",
+      "currently_active": false,
+      "reason_en": "The etymological xor is a snoring sound; the current xor node means choir or contempt. Do not merge these homographs.",
+      "evidence": {
+        "head": "xorultu",
+        "edition": "en",
+        "field": "etymology",
+        "text": "Onomatopoeic. Equivalent to xor (“snoring sound”) + -ultu (noun forming suffix).",
+        "template": "af",
+        "base": "xor",
+        "affixes": [
+          "-ilti"
+        ],
+        "etymology_number": null,
+        "sense_ids": [
+          "en-xorultu-az-noun-A6fjMfQr"
+        ],
+        "sense_glosses": [
+          "snore (noise of snoring)"
+        ],
+        "url": "https://en.wiktionary.org/wiki/xorultu#Azerbaijani"
+      }
+    }
+  ],
+  "active_false_root_count": 0,
+  "scope": "Checked the explicit etymology family audit against the exported current model. Other held edges remain unasserted for family closure, not declared false."
+}

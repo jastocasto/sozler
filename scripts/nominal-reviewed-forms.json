@@ -1,0 +1,9 @@
+{
+  "onlar": {"base":"o","tags":["plural"],"reason":"Regular plural personal pronoun; its gloss 'they' does not make it a separate lemma."},
+  "bunlar": {"base":"bu","tags":["plural"],"reason":"Regular plural of the demonstrative bu; 'these' describes this inflection."},
+  "özləri": {"base":"öz","tags":["plural","possessive","third-person"],"reason":"Reflexive pronoun inflection; 'themselves' is a grammatical gloss."},
+  "təbriklər": {"base":"təbrik","tags":["plural"],"reason":"Plural congratulations, including its exclamatory use, is kept with the base congratulation."},
+  "ziyalılar": {"base":"ziyalı","tags":["plural"],"reason":"The collective English gloss intelligentsia describes the plural group of intellectuals."},
+  "evdəkilər": {"base":"evdəki","tags":["plural"],"reason":"Collective use of the plural 'those at home'; not an additional headword in this view."},
+  "olar": {"base":"o","tags":["plural","misspelling"],"reason":"The imported pronoun sense is explicitly a misspelling of onlar; preserve it in forms, not as a distinct lexical word."}
+}

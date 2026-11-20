@@ -1,0 +1,67 @@
+{
+  "method": "AI-assisted editorial definitions, written in Azerbaijani and English; no automatic translation service used.",
+  "review_scope": "All entries were checked for uniqueness against the existing dataset, nonempty bilingual explanations, and valid topic anchors. The references below are terminology usage and spelling spot-checks, not proof that every definition was reviewed by a linguist.",
+  "relationship_policy": "Only topic anchors are supplied. No synonym, antonym, or etymological relationship is asserted.",
+  "references": [
+    {
+      "url": "https://dilcilik.az/kitabxana/arasdirmalar/M%C3%BCst%C9%99qillik%20ill%C9%99rind%C9%99%20beyn%C9%99lmil%C9%99l%20terminl%C9%99rin%20izahl%C4%B1%20l%C3%BC%C4%9F%C9%99ti%202022.pdf",
+      "terms": [
+        "kraudfandinq",
+        "kraudsorsinq"
+      ],
+      "purpose": "Terminology dictionary confirms Azerbaijani spellings."
+    },
+    {
+      "url": "https://ereforms.gov.az/az/media/xeberler/iqtisadi-islahatlarin-tehlili-ve-kommunikasiya-merkezi-bir-nece-vezife-uzre-vakansiya-elan-edir-962",
+      "terms": [
+        "konteynerləşdirmə",
+        "mikroservis"
+      ],
+      "purpose": "Azerbaijani institutional usage confirms established technical terms."
+    },
+    {
+      "url": "https://www.e-derslik.edu.az/noduploads/vet_pdf/elektronika.pdf",
+      "terms": [
+        "multipleksor",
+        "demultipleksor"
+      ],
+      "purpose": "Azerbaijani electronics teaching resource confirms terminology."
+    },
+    {
+      "url": "https://cbar.az/law-193/decision-no-32",
+      "terms": [
+        "faktorinq",
+        "forfeytinq",
+        "anderraytinq"
+      ],
+      "purpose": "Central Bank chart of accounts confirms terminology."
+    },
+    {
+      "url": "https://www.bankofbaku.com/az/kreditler/korporativ-kreditler/362",
+      "terms": [
+        "faktorinq"
+      ],
+      "purpose": "Bank description supports the financial sense."
+    },
+    {
+      "url": "https://azleks.az/en/dictionary/rekuperator",
+      "terms": [
+        "rekuperator",
+        "rekuperasiya"
+      ],
+      "purpose": "Dictionary entry confirms Azerbaijani terminology."
+    },
+    {
+      "url": "https://www.work.az/frilanserler",
+      "terms": [
+        "frilanser",
+        "kopirayter"
+      ],
+      "purpose": "Azerbaijani employment platform confirms occupational usage."
+    }
+  ],
+  "created_at": "2026-11-14",
+  "entries": 239,
+  "single_word_entries": 177,
+  "multiword_terms": 62
+}

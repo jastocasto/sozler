@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "added_headwords": 1086,
+    "headword_entries": 545,
+    "glossed_derived_terms": 541,
+    "reviewed_corrections": 11,
+    "quarantined_conflicts": 0,
+    "reviewed_time_group": [
+      "həmişə",
+      "daim",
+      "daima",
+      "hər vaxt",
+      "hər zaman",
+      "hər an"
+    ],
+    "sources": [
+      {
+        "edition": "fr",
+        "index": "https://kaikki.org/frwiktionary/Az%C3%A9ri/index.html",
+        "download": "https://kaikki.org/frwiktionary/Az%C3%A9ri/kaikki.org-dictionary-Az%C3%A9ri.jsonl",
+        "extracted": "2026-11-02",
+        "dump": "2026-10-01",
+        "sha256": "eb9e121e9c292ca61be473cf9554f943f96078129f9d1d59f44fe4477bdddd7a",
+        "license": "CC BY-SA 4.0",
+        "added_headwords": 320
+      },
+      {
+        "edition": "de",
+        "index": "https://kaikki.org/dewiktionary/Aserbaidschanisch/index.html",
+        "download": "https://kaikki.org/dewiktionary/Aserbaidschanisch/kaikki.org-dictionary-Aserbaidschanisch.jsonl",
+        "extracted": "2026-11-01",
+        "dump": "2026-11-01",
+        "sha256": "e314c62019d8a9ed48e7f74961f2c499666bf519175705b20464f4952e7c7362",
+        "license": "CC BY-SA 4.0",
+        "added_headwords": 2
+      },
+      {
+        "edition": "ku",
+        "index": "https://kaikki.org/kuwiktionary/Azer%C3%AE/index.html",
+        "download": "https://kaikki.org/kuwiktionary/Azer%C3%AE/kaikki.org-dictionary-Azer%C3%AE.jsonl",
+        "extracted": "2026-11-03",
+        "dump": "2026-11-01",
+        "sha256": "4bbd03dadc204e6e3856021d8b975688b63e592381114a8766c3bb70e0bfa26c",
+        "license": "CC BY-SA 4.0",
+        "added_headwords": 223
+      }
+    ],
+    "policy": "Explicit bidirectional links, sense and register retained, no global transitive closure. Known conflicts corrected; unresolved contradictions hidden pending review. Earlier data files are preserved."
+  },
+  "corrections": [
+    {
+      "a": "nazik",
+      "b": "qalın",
+      "keep": "ant",
+      "remove": "syn",
+      "context": "qalınlıq / incəlik",
+      "reason": "The source glosses describe opposing values; a synonym label in the imported listing contradicts those meanings."
+    },
+    {
+      "a": "incə",
+      "b": "qalın",
+      "keep": "ant",
+      "remove": "syn",
+      "context": "qalınlıq / incəlik",
+      "reason": "The source glosses describe opposing values; a synonym label in the imported listing contradicts those meanings."
+    },
+    {
+      "a": "səadət",
+      "b": "bədbəxtlik",
+      "keep": "ant",
+      "remove": "syn",
+      "context": "xoşbəxtlik / bədbəxtlik",
+      "reason": "The source glosses describe opposing values; a synonym label in the imported listing contradicts those meanings."
+    },
+    {
+      "a": "xoşbəxtlik",
+      "b": "bədbəxtlik",
+      "keep": "ant",
+      "remove": "syn",
+      "context": "xoşbəxtlik / bədbəxtlik",
+      "reason": "The source glosses describe opposing values; a synonym label in the imported listing contradicts those meanings."
+    },
+    {
+      "a": "azdanışan",
+      "b": "çoxdanışan",
+      "keep": "ant",
+      "remove": "syn",
+      "context": "danışqanlıq / az danışmaq",
+      "reason": "The source glosses describe opposing values; a synonym label in the imported listing contradicts those meanings."
+    },
+    {
+      "a": "qaradinməz",
+      "b": "çoxdanışan",
+      "keep": "ant",
+      "remove": "syn",
+      "context": "danışqanlıq / az danışmaq",
+      "reason": "The source glosses describe opposing values; a synonym label in the imported listing contradicts those meanings."
+    },
+    {
+      "a": "dinməz",
+      "b": "çoxdanışan",
+      "keep": "ant",
+      "remove": "syn",
+      "context": "danışqanlıq / az danışmaq",
+      "reason": "The source glosses describe opposing values; a synonym label in the imported listing contradicts those meanings."
+    },
+    {
+      "a": "dinməz-söyləməz",
+      "b": "çoxdanışan",
+      "keep": "ant",
+      "remove": "syn",
+      "context": "danışqanlıq / az danışmaq",
+      "reason": "The source glosses describe opposing values; a synonym label in the imported listing contradicts those meanings."
+    },
+    {
+      "a": "səssiz",
+      "b": "çoxdanışan",
+      "keep": "ant",
+      "remove": "syn",
+      "context": "danışqanlıq / az danışmaq",
+      "reason": "The source glosses describe opposing values; a synonym label in the imported listing contradicts those meanings."
+    },
+    {
+      "a": "dar",
+      "b": "enli",
+      "keep": "ant",
+      "remove": "syn",
+      "context": "en: dar / enli",
+      "reason": "The source glosses describe opposing values; a synonym label in the imported listing contradicts those meanings."
+    },
+    {
+      "a": "izah etmək",
+      "b": "açıqlamaq",
+      "keep": "syn",
+      "remove": "ant",
+      "context": "bir şeyi başa salmaq, izahını vermək",
+      "reason": "Both source senses mean explain/account for; the imported antonym label is inconsistent."
+    }
+  ],
+  "quarantined": [],
+  "references": [
+    "https://az.wiktionary.org/wiki/həmişə",
+    "https://en.wiktionary.org/wiki/daim",
+    "https://en.wiktionary.org/wiki/hər_an",
+    "https://azleks.az/en/dictionary/hemise",
+    "https://azleks.az/en/dictionary/daim-1"
+  ]
+}

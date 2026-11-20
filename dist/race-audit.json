@@ -1,0 +1,259 @@
+{
+  "method": "Keep reachable earlier goal pairs, repair disconnected pairs after removing incorrect dictionary links, and recompute actual documented graph distances. Existing score records stay in browser storage under their previous version IDs.",
+  "preserved_pairs": 319,
+  "repaired_pairs": 21,
+  "changes": [
+    {
+      "before": {
+        "start": "təhsil",
+        "target": "muzey",
+        "minDocumentedTaps": 4
+      },
+      "after": {
+        "start": "təhsil",
+        "target": "məlumatsız",
+        "minDocumentedTaps": 4
+      }
+    },
+    {
+      "before": {
+        "start": "pəncərə",
+        "target": "ssenaristlik",
+        "minDocumentedTaps": 4
+      },
+      "after": {
+        "start": "pəncərə",
+        "target": "diz",
+        "minDocumentedTaps": 4
+      }
+    },
+    {
+      "before": {
+        "start": "düşmən",
+        "target": "muzey",
+        "minDocumentedTaps": 5
+      },
+      "after": {
+        "start": "düşmən",
+        "target": "bacı",
+        "minDocumentedTaps": 4
+      }
+    },
+    {
+      "before": {
+        "start": "qarışmaq",
+        "target": "mükafat",
+        "minDocumentedTaps": 5
+      },
+      "after": {
+        "start": "qarışmaq",
+        "target": "qurtarmaq",
+        "minDocumentedTaps": 4
+      }
+    },
+    {
+      "before": {
+        "start": "düyü",
+        "target": "fıstıq",
+        "minDocumentedTaps": 4
+      },
+      "after": {
+        "start": "genomika",
+        "target": "fıstıq",
+        "minDocumentedTaps": 5
+      }
+    },
+    {
+      "before": {
+        "start": "pantomima",
+        "target": "xəstə",
+        "minDocumentedTaps": 5
+      },
+      "after": {
+        "start": "dehidratasiya",
+        "target": "xəstə",
+        "minDocumentedTaps": 4
+      }
+    },
+    {
+      "before": {
+        "start": "kafe",
+        "target": "pantomima",
+        "minDocumentedTaps": 3
+      },
+      "after": {
+        "start": "kafe",
+        "target": "su",
+        "minDocumentedTaps": 3
+      }
+    },
+    {
+      "before": {
+        "start": "dinləmək",
+        "target": "mükafat",
+        "minDocumentedTaps": 3
+      },
+      "after": {
+        "start": "dinləmək",
+        "target": "məsuliyyət",
+        "minDocumentedTaps": 4
+      }
+    },
+    {
+      "before": {
+        "start": "mükafat",
+        "target": "təhsil",
+        "minDocumentedTaps": 5
+      },
+      "after": {
+        "start": "həqiqət",
+        "target": "saç",
+        "minDocumentedTaps": 5
+      }
+    },
+    {
+      "before": {
+        "start": "bilet",
+        "target": "gəlmək",
+        "minDocumentedTaps": 5
+      },
+      "after": {
+        "start": "sevgi dolu",
+        "target": "gəlmək",
+        "minDocumentedTaps": 5
+      }
+    },
+    {
+      "before": {
+        "start": "kinoteatr",
+        "target": "layihə",
+        "minDocumentedTaps": 4
+      },
+      "after": {
+        "start": "yardım",
+        "target": "layihə",
+        "minDocumentedTaps": 5
+      }
+    },
+    {
+      "before": {
+        "start": "rejissorluq",
+        "target": "çağırmaq",
+        "minDocumentedTaps": 5
+      },
+      "after": {
+        "start": "harmonizasiya",
+        "target": "çağırmaq",
+        "minDocumentedTaps": 5
+      }
+    },
+    {
+      "before": {
+        "start": "zürafə",
+        "target": "işıqlanmaq",
+        "minDocumentedTaps": 5
+      },
+      "after": {
+        "start": "reostat",
+        "target": "işıqlanmaq",
+        "minDocumentedTaps": 3
+      }
+    },
+    {
+      "before": {
+        "start": "həcm",
+        "target": "işıqlanmaq",
+        "minDocumentedTaps": 3
+      },
+      "after": {
+        "start": "örtük",
+        "target": "gül",
+        "minDocumentedTaps": 5
+      }
+    },
+    {
+      "before": {
+        "start": "limon",
+        "target": "işçi",
+        "minDocumentedTaps": 5
+      },
+      "after": {
+        "start": "şirə",
+        "target": "tikmək",
+        "minDocumentedTaps": 5
+      }
+    },
+    {
+      "before": {
+        "start": "hiss",
+        "target": "zürafə",
+        "minDocumentedTaps": 5
+      },
+      "after": {
+        "start": "hiss",
+        "target": "düz",
+        "minDocumentedTaps": 5
+      }
+    },
+    {
+      "before": {
+        "start": "ssenaristlik",
+        "target": "kafe",
+        "minDocumentedTaps": 3
+      },
+      "after": {
+        "start": "kompüter",
+        "target": "improvizasiya",
+        "minDocumentedTaps": 5
+      }
+    },
+    {
+      "before": {
+        "start": "muzey",
+        "target": "öyrətmək",
+        "minDocumentedTaps": 5
+      },
+      "after": {
+        "start": "məlumatsız",
+        "target": "öyrətmək",
+        "minDocumentedTaps": 4
+      }
+    },
+    {
+      "before": {
+        "start": "üzüm",
+        "target": "ada",
+        "minDocumentedTaps": 4
+      },
+      "after": {
+        "start": "yumurta",
+        "target": "ada",
+        "minDocumentedTaps": 5
+      }
+    },
+    {
+      "before": {
+        "start": "şaftalı",
+        "target": "üzüm",
+        "minDocumentedTaps": 4
+      },
+      "after": {
+        "start": "çap etmək",
+        "target": "tikmək",
+        "minDocumentedTaps": 4
+      }
+    },
+    {
+      "before": {
+        "start": "xidmət",
+        "target": "zürafə",
+        "minDocumentedTaps": 5
+      },
+      "after": {
+        "start": "xidmət",
+        "target": "nəticə",
+        "minDocumentedTaps": 4
+      }
+    }
+  ]
+}

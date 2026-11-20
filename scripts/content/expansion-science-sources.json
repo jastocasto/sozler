@@ -1,0 +1,77 @@
+{
+  "method": "AI-assisted editorial definitions, written in Azerbaijani and English. No claimed professional linguistic review.",
+  "selection": "350 established scientific and medical headwords, all absent from the prior dictionary under NFC/case-insensitive matching. 349 are single words; one is an established multiword term; no conjugations or generated plural/case forms. Links are broad topic associations, not synonym or etymology assertions.",
+  "verification": "Definitions reviewed for internal factual consistency. Limited external checks confirm selected technical spellings and usage; the references are not a claim that every entry was sourced or professionally verified.",
+  "references": [
+    {
+      "url": "https://azerbaycandili.az/Vocabularies/Download/6022/Orfoqrafiya_15.03.2021.pdf",
+      "purpose": "Orthographic dictionary search result confirms biolüminessensiya.",
+      "terms": [
+        "biolüminessensiya"
+      ]
+    },
+    {
+      "url": "https://e-health.gov.az/media/medical_terminology/terminologiya-I-P.pdf",
+      "purpose": "Medical terminology dictionary confirms osmorequlyasiya and its regulation-of-body-fluids meaning.",
+      "terms": [
+        "osmorequlyasiya"
+      ]
+    },
+    {
+      "url": "https://www.dendrologiya.gov.az/meqale.php?id=29",
+      "purpose": "Azerbaijani scientific usage of fitoremediasiya.",
+      "terms": [
+        "fitoremediasiya"
+      ]
+    },
+    {
+      "url": "https://botany.az/uploads/Dissertasiya%20son-%20-%20M.Abbasov%20-%20%202021.pdf",
+      "purpose": "Azerbaijani scientific usage of sekvensləmə.",
+      "terms": [
+        "sekvensləmə"
+      ]
+    },
+    {
+      "url": "https://dim.gov.az/upload_docs/pdf_derslikler/Cografiya_6_Az.pdf",
+      "purpose": "School geography terminology confirms higrometr as a humidity-measuring device.",
+      "terms": [
+        "higrometr"
+      ]
+    },
+    {
+      "url": "https://azleks.az/dictionary/accelerometer",
+      "purpose": "Bilingual dictionary confirms akselerometr.",
+      "terms": [
+        "akselerometr"
+      ]
+    },
+    {
+      "url": "https://amu.edu.az/page/281/azerbaycan-tibb-universitetinin-mualice-profilaktika-herbi-tibb-tibbi-profilaktika-ve-stomatologiya-fakulteleri-ucun-sitologiya-embriologiya-ve-histologiya-fenleri-uzre-tedris-proqrami",
+      "purpose": "University histology programme confirms sitozol terminology.",
+      "terms": [
+        "sitozol"
+      ]
+    },
+    {
+      "url": "https://science.gov.az/az/news/open/37290",
+      "purpose": "Academy of Sciences usage confirms maqnetar, used to correct the initial magnetar spelling.",
+      "terms": [
+        "maqnetar"
+      ]
+    },
+    {
+      "url": "https://azstand.gov.az/uploads/documents/145121940665ba382d6122a.pdf",
+      "purpose": "Azerbaijani standard uses karbon neytrallığı, replacing the unsupported closed compound.",
+      "terms": [
+        "karbon neytrallığı"
+      ]
+    },
+    {
+      "url": "https://azeristilik.gov.az/az/istilik-techizati-haqqinda-qanunda-neler-var-azeristiliktechizat-asc-nin-sedri-ilham-mirzeliyev-musavatcom-a-danisdi",
+      "purpose": "Official utility discussion confirms enerjisəmərəlilik as a closed compound.",
+      "terms": [
+        "enerjisəmərəlilik"
+      ]
+    }
+  ]
+}

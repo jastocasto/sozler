@@ -1,0 +1,87 @@
+komparator|İki elektrik siqnalını müqayisə edib hansının böyük olduğunu göstərən dövrə.|A circuit that compares two electrical signals and indicates which is larger.
+inteqrator|Çıxışı giriş siqnalının zamana görə inteqralına uyğun olan qurğu və ya dövrə.|A device or circuit whose output corresponds to the time integral of its input.
+diferensiator|Çıxışı giriş siqnalının dəyişmə sürətinə uyğun olan dövrə.|A circuit whose output corresponds to the rate of change of its input.
+attenyuator|Siqnalın gücünü və ya amplitudunu azaldan qurğu.|A device that reduces the power or amplitude of a signal.
+ossilyator|Davamlı periodik elektrik siqnalı yaradan dövrə.|A circuit that generates a continuous periodic electrical signal.
+triak|Dəyişən cərəyanı hər iki istiqamətdə idarə edə bilən yarımkeçirici açar.|A semiconductor switch that can control alternating current in both directions.
+dinistor|Müəyyən gərginlikdə açılan, idarəedici elektrodu olmayan tiristor tipi.|A thyristor-type device without a control electrode that switches on at a threshold voltage.
+diak|Hər iki istiqamətdə müəyyən gərginlik həddində açılan yarımkeçirici element.|A semiconductor device that switches on at a threshold voltage in either direction.
+fotoelement|İşıq təsirini elektrik siqnalına çevirən element.|An element that converts the effect of light into an electrical signal.
+pyezoelement|Mexaniki təzyiqi elektrik siqnalına və ya elektrik təsirini hərəkətə çevirən element.|An element converting mechanical pressure to an electrical signal or electrical input to motion.
+termocüt|İki müxtəlif metalın birləşməsində yaranan gərginliklə temperaturu ölçən sensor.|A temperature sensor using voltage generated at a junction of two different metals.
+termoelement|Temperatur fərqindən elektrik gərginliyi yaradan və ya elektriklə istilik ötürən element.|An element that converts a temperature difference to voltage or transfers heat using electricity.
+bolometr|Şüalanma enerjisini yaratdığı temperatur dəyişikliyi vasitəsilə ölçən cihaz.|An instrument measuring radiant energy through the temperature change it causes.
+spintronika|Elektronun yükü ilə yanaşı spinindən də istifadə edən elektronika sahəsi.|Electronics that uses electron spin as well as electric charge.
+fotonika|İşığın yaradılması, ötürülməsi və idarə olunması ilə məşğul olan sahə.|The field concerned with generating, transmitting and controlling light.
+plazmonika|İşığın metal səthində elektronların kollektiv rəqsləri ilə qarşılıqlı təsirini öyrənən sahə.|The study of interactions between light and collective electron oscillations at metal surfaces.
+mekatronika|Mexanika, elektronika və idarəetməni bir sistemdə birləşdirən mühəndislik sahəsi.|Engineering that combines mechanics, electronics and control in a single system.
+telemexanika|Mexanizm və proseslərin uzaqdan ölçülməsi və idarə olunması sahəsi.|The field of measuring and controlling mechanisms and processes from a distance.
+teleidarəetmə|Qurğu və ya prosesin siqnallar vasitəsilə uzaqdan idarə olunması.|Control of a device or process from a distance using signals.
+servoötürücü|Əks əlaqə vasitəsilə hərəkətin dəqiq idarəsini təmin edən ötürücü sistem.|A drive system using feedback for precise control of motion.
+servomühərrik|Əks əlaqəli sistemdə mövqe və ya sürəti dəqiq idarə olunan mühərrik.|A motor whose position or speed is precisely controlled in a feedback system.
+servosistem|Çıxışı ölçüb tələb olunan qiymətlə müqayisə edərək özünü tənzimləyən sistem.|A system that regulates itself by comparing measured output with a desired value.
+enkoder|Mövqe və ya hərəkəti kodlaşdırılmış siqnala çevirən cihaz.|A device that converts position or motion into a coded signal.
+taxometr|Fırlanan valın dövr sürətini ölçən cihaz.|An instrument measuring the rotational speed of a shaft.
+inklinometr|Səthin və ya qurğunun üfüqə, yaxud şaqula nəzərən meylini ölçən cihaz.|An instrument measuring inclination relative to the horizontal or vertical.
+areometr|Mayenin sıxlığını üzmə dərinliyinə görə ölçən cihaz.|An instrument measuring liquid density by how deeply it floats.
+baroqraf|Atmosfer təzyiqinin zamanla dəyişməsini qeydə alan cihaz.|An instrument recording changes in atmospheric pressure over time.
+pluviometr|Müəyyən müddətdə düşən yağışın miqdarını ölçən cihaz.|An instrument measuring the amount of rainfall over a period.
+tenzometr|Cismin dartılma və ya sıxılma deformasiyasını ölçən cihaz.|An instrument measuring tensile or compressive strain in an object.
+dinamometr|Qüvvəni və ya fırlanma momentini ölçən cihaz.|An instrument measuring force or torque.
+vakuummetr|Atmosfer təzyiqindən aşağı qaz təzyiqini ölçən cihaz.|An instrument measuring gas pressure below atmospheric pressure.
+reduktor|Fırlanma sürətini azaldıb momenti dəyişən mexaniki ötürücü.|A mechanical transmission that reduces rotational speed and changes torque.
+variator|Ötürmə nisbətini pilləsiz dəyişə bilən mexanizm.|A mechanism capable of continuously varying its transmission ratio.
+mufta|İki valı birləşdirib fırlanma ötürən mexaniki detal.|A mechanical coupling that joins two shafts to transmit rotation.
+ejektor|Sürətli maye və ya qaz şırnağı ilə başqa axını sorub aparan qurğu.|A device that uses a high-speed fluid jet to draw in and carry another flow.
+injektor|Maye və ya qazı müəyyən təzyiq altında sistemə vuran qurğu.|A device that introduces a liquid or gas into a system under pressure.
+diffuzor|Axının sürətini azaltmaq üçün keçid sahəsi genişlənən kanal.|A passage that widens to reduce the velocity of a flow.
+konfuzor|Axını sürətləndirmək üçün keçid sahəsi daralan kanal.|A passage that narrows to increase the velocity of a flow.
+kavitasiya|Mayedə təzyiq azalanda buxar qabarcıqlarının yaranması və sonradan dağılması.|Formation and subsequent collapse of vapor bubbles when liquid pressure falls.
+aerasiya|Maye və ya torpağın hava ilə təmasını və oksigen almasını artırma prosesi.|Increasing contact with air and oxygen supply in a liquid or soil.
+koalesensiya|Kiçik maye damcılarının və ya qaz qabarcıqlarının birləşib böyüməsi.|The merging of small liquid droplets or gas bubbles into larger ones.
+flokulyasiya|Mayedəki xırda hissəciklərin boş quruluşlu iri topalara yığılması.|Aggregation of fine suspended particles into loose larger clumps.
+flotasiya|Hissəciklərin hava qabarcıqlarına yapışaraq səthə qalxması ilə ayrılması üsulu.|A separation method in which particles attach to air bubbles and rise to the surface.
+mikrofiltrasiya|Mayenin mikrometr ölçülü məsamələrə malik membranla süzülməsi.|Filtration of a liquid through a membrane with micrometer-scale pores.
+elektrodializ|Elektrik sahəsi ilə ionların seçici membranlardan keçirilib ayrılması.|Separation of ions through selective membranes using an electric field.
+elektrodepozisiya|Elektrik cərəyanı vasitəsilə maddənin elektrod səthində çökdürülməsi.|Deposition of a substance on an electrode surface using electric current.
+qalvanoplastika|Model üzərində elektrolitik metal qat yaradaraq onun surətinin alınması.|Making a metal copy of a model by building up an electrolytic metal layer.
+qalvanostegiya|Səthin qoruyucu və ya dekorativ metal qatla elektrolitik örtülməsi.|Electrolytic coating of a surface with a protective or decorative metal layer.
+fosfatlaşdırma|Metal səthində qoruyucu fosfat qatı yaradılması.|Formation of a protective phosphate layer on a metal surface.
+nitridləmə|Sərtliyi artırmaq üçün metalın səth qatının azotla zənginləşdirilməsi.|Enrichment of a metal surface layer with nitrogen to increase hardness.
+karbonitridləmə|Polad səthinin eyni vaxtda karbon və azotla zənginləşdirilməsi.|Simultaneous enrichment of a steel surface with carbon and nitrogen.
+xromlama|Səthin qoruma və ya bəzək məqsədilə xrom təbəqəsi ilə örtülməsi.|Coating a surface with chromium for protection or decoration.
+nikelləmə|Səthin nikel təbəqəsi ilə örtülməsi.|Coating a surface with a layer of nickel.
+sinkləmə|Dəmir və ya poladın korroziyadan qorunmaq üçün sinklə örtülməsi.|Coating iron or steel with zinc to protect it from corrosion.
+qalaylama|Metal səthinin nazik qalay təbəqəsi ilə örtülməsi.|Coating a metal surface with a thin layer of tin.
+metallaşdırma|Qeyri-metal və ya metal səthdə metal örtük yaradılması.|Formation of a metallic coating on a metal or nonmetal surface.
+vakuumlama|Qapalı həcmdən qazların çıxarılaraq təzyiqin azaldılması.|Removal of gases from an enclosed space to reduce pressure.
+ştamplama|Materiala ştamp vasitəsilə təzyiq göstərərək forma verilməsi.|Shaping material by applying pressure with a die.
+honlama|Daxili səthin abraziv daşlarla dəqiq hamarlanması.|Precision finishing of an internal surface using abrasive stones.
+rayberləmə|Mövcud dəliyin ölçü və səth dəqiqliyini artıran kəsmə əməliyyatı.|A cutting operation that improves the size accuracy and finish of an existing hole.
+zenkerləmə|Dəliyin forma və ölçüsünü çoxkənarlı kəsici alətlə düzəltmə əməliyyatı.|Finishing or enlarging a hole with a multi-edge cutting tool.
+pəstah|Son detal hazırlamaq üçün nəzərdə tutulan ilkin material parçası.|An initial piece of material intended to be worked into a finished part.
+leqirləmə|Metala xüsusiyyətlərini dəyişmək üçün başqa elementlər əlavə edilməsi.|Addition of other elements to a metal to modify its properties.
+tavlama|Metalın qızdırılıb idarə olunan qaydada soyudularaq quruluşunun dəyişdirilməsi.|Heat treatment in which metal is heated and cooled in a controlled manner to alter its structure.
+tablama|Poladın qızdırıldıqdan sonra sürətlə soyudularaq sərtləşdirilməsi.|Hardening of steel by heating followed by rapid cooling.
+sementit|Dəmir və karbon ərintilərində rast gəlinən sərt dəmir karbidi.|A hard iron carbide found in iron-carbon alloys.
+ferrit|Karbonun alfa dəmirdə bərk məhlulu olan yumşaq metallik faza.|A soft metallic phase consisting of carbon dissolved in alpha iron.
+austenit|Karbonun qamma dəmirdə bərk məhlulu olan metallik faza.|A metallic phase consisting of carbon dissolved in gamma iron.
+martensit|Sürətli soyutma zamanı yaranan, poladda yüksək sərtlik verən quruluş.|A structure formed during rapid cooling that gives steel high hardness.
+beynit|Poladda ferrit və karbidlərin xüsusi qarışığından ibarət mikroquruluş.|A steel microstructure consisting of a particular mixture of ferrite and carbides.
+kövrəkləşmə|Materialın deformasiya olmadan qırılmağa daha meyilli hala gəlməsi.|A change that makes a material more likely to fracture without deforming.
+passivləşmə|Səthdə qoruyucu qat yaranması ilə metalın kimyəvi fəallığının azalması.|Reduction of a metal's chemical reactivity through formation of a protective surface layer.
+ablasiya|İstilik və ya şüalanma təsiri ilə səthdən maddənin qopub uzaqlaşması.|Removal of material from a surface by heat or radiation.
+delaminasiya|Laylı materialın təbəqələrinin bir-birindən ayrılması.|Separation of the layers of a laminated material.
+laminasiya|Bir neçə təbəqənin birləşdirilərək laylı material hazırlanması.|Production of a layered material by bonding several layers together.
+ekstrüziya|Materialın qəlib dəliyindən sıxılaraq sabit kəsikli uzun forma alması.|Shaping material by forcing it through a die to form a continuous cross-section.
+pultruziya|Liflərin qatranla hopdurulub qəlibdən dartılması ilə kompozit profil hazırlanması.|Production of a composite profile by pulling resin-impregnated fibers through a die.
+kalandrlama|Materialın val aralarından keçirilərək nazik vərəq və ya hamar səth alması.|Processing material between rollers to form a sheet or smooth surface.
+termoformalama|Qızdırılıb yumşaldılmış plastik vərəqin qəlibə uyğun formaya salınması.|Shaping a heated and softened plastic sheet against a mold.
+vulkanlaşdırma|Rezin materialda çarpaz rabitələr yaradaraq möhkəmlik və elastikliyin artırılması.|Increasing rubber strength and elasticity by creating cross-links.
+devulkanlaşdırma|Vulkanlaşdırılmış rezindəki çarpaz rabitələrin qismən parçalanması.|Partial breaking of cross-links in vulcanized rubber.
+plastifikasiya|Materialın yumşaqlığını və emal qabiliyyətini artırma prosesi.|A process that increases a material's softness and ease of processing.
+polikondensasiya|Kiçik molekullar ayrılması ilə monomerlərin polimerə birləşməsi.|Polymer formation in which monomers join while releasing small molecules.
+sopolimer|İki və ya daha çox fərqli monomerdən yaranmış polimer.|A polymer made from two or more different monomers.
+termoset|Bərkidikdən sonra qızdırılmaqla yenidən əridilib formalaşdırıla bilməyən polimer material.|A polymer material that cannot be remelted and reshaped after curing.
+orqanogel|Üzvi mayenin üçölçülü şəbəkə daxilində tutulduğu gel.|A gel in which an organic liquid is trapped within a three-dimensional network.
+kserogel|Mayesi çıxarıldıqdan sonra məsaməli bərk quruluşu qalan qurudulmuş gel.|A dried gel that retains a porous solid structure after its liquid is removed.

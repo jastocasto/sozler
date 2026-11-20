@@ -1,0 +1,5014 @@
+[
+  {
+    "a": "can",
+    "b": "cana yığmaq",
+    "type": "root",
+    "field": "derived",
+    "scope": "entry",
+    "sense": "",
+    "tags": [
+      "phrase"
+    ],
+    "pos": "noun",
+    "target_pos": "verb",
+    "id": null
+  },
+  {
+    "a": "it",
+    "b": "köpək",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "dar",
+    "b": "enli",
+    "type": "syn",
+    "field": "synonyms",
+    "scope": "sense",
+    "sense": "narrow",
+    "tags": [],
+    "pos": "adj",
+    "target_pos": "adjective",
+    "id": "en-dar-az-adj-XtqVjp3e"
+  },
+  {
+    "a": "kim",
+    "b": "hayanda",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "synonym of ki",
+    "tags": [
+      "archaic"
+    ],
+    "pos": "conj",
+    "target_pos": "adverb",
+    "id": "en-kim-az-conj-gEfROO1y"
+  },
+  {
+    "a": "kim",
+    "b": "hayana",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "synonym of ki",
+    "tags": [
+      "archaic"
+    ],
+    "pos": "conj",
+    "target_pos": "adverb",
+    "id": "en-kim-az-conj-gEfROO1y"
+  },
+  {
+    "a": "kim",
+    "b": "hayandan",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "synonym of ki",
+    "tags": [
+      "archaic"
+    ],
+    "pos": "conj",
+    "target_pos": "adverb",
+    "id": "en-kim-az-conj-gEfROO1y"
+  },
+  {
+    "a": "mane",
+    "b": "maneçilik",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "only used in mane olmaq.",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-mane-az-noun-hMskDHpa"
+  },
+  {
+    "a": "bu",
+    "b": "o",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "pron",
+    "target_pos": "function",
+    "id": null
+  },
+  {
+    "a": "su",
+    "b": "suvarmaq",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "verb",
+    "id": null
+  },
+  {
+    "a": "dayı",
+    "b": "dayıqızı",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "maternal uncle, one's mother's brother",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-dayı-az-noun-zS7eKhXz"
+  },
+  {
+    "a": "dayı",
+    "b": "dayıoğlu",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "maternal uncle, one's mother's brother",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-dayı-az-noun-zS7eKhXz"
+  },
+  {
+    "a": "vida",
+    "b": "əlvida",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "farewell, valediction, leave-taking",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-vida-az-noun-ZE87CGcA"
+  },
+  {
+    "a": "ev",
+    "b": "tikili",
+    "type": "topic",
+    "field": "hypernyms",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "ev",
+    "b": "bina",
+    "type": "topic",
+    "field": "hypernyms",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "göz",
+    "b": "alagözlü",
+    "type": "root",
+    "field": "derived",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "adjective",
+    "id": null
+  },
+  {
+    "a": "göz",
+    "b": "göygözlü",
+    "type": "root",
+    "field": "derived",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "adjective",
+    "id": null
+  },
+  {
+    "a": "sahib",
+    "b": "sahibə",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "owner, possessor",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-sahib-az-noun-pKPU6mJG"
+  },
+  {
+    "a": "irs",
+    "b": "irsi",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "adjective",
+    "id": null
+  },
+  {
+    "a": "irs",
+    "b": "irsiyyət",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "sözlük",
+    "b": "lüğət",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "zaman",
+    "b": "zəmanə",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "qadın",
+    "b": "qız",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "female",
+    "tags": [
+      "feminine"
+    ],
+    "pos": "adj",
+    "target_pos": "noun",
+    "id": "en-qadın-az-adj-nxZROajC"
+  },
+  {
+    "a": "biologiya",
+    "b": "bioloji",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "biology",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "adjective",
+    "id": "en-biologiya-az-noun-r4-Cegwg"
+  },
+  {
+    "a": "tapmaq",
+    "b": "tapmaca",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "verb",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "tapmaq",
+    "b": "itirmək",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "verb",
+    "target_pos": "verb",
+    "id": null
+  },
+  {
+    "a": "çalmaq",
+    "b": "çalar",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "verb",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "markiz",
+    "b": "markiza",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "marquis, marquess",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-markiz-az-noun-3yutFO0D"
+  },
+  {
+    "a": "çapmaq",
+    "b": "çapovulçuluq",
+    "type": "root",
+    "field": "derived",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "verb",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "coğrafiya",
+    "b": "coğrafi",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "geography",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "adjective",
+    "id": "en-coğrafiya-az-noun-v45coLLV"
+  },
+  {
+    "a": "isti",
+    "b": "sıcaq",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "adj",
+    "target_pos": "adjective",
+    "id": null
+  },
+  {
+    "a": "yaşam",
+    "b": "yaşamaq",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "life, lifetime, lifespan, living",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "verb",
+    "id": "en-yaşam-az-noun-Y9gbTi-7"
+  },
+  {
+    "a": "hayan",
+    "b": "hayana",
+    "type": "root",
+    "field": "derived",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "adv",
+    "target_pos": "adverb",
+    "id": null
+  },
+  {
+    "a": "hayan",
+    "b": "hayanda",
+    "type": "root",
+    "field": "derived",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "adv",
+    "target_pos": "adverb",
+    "id": null
+  },
+  {
+    "a": "hayan",
+    "b": "hayandan",
+    "type": "root",
+    "field": "derived",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "adv",
+    "target_pos": "adverb",
+    "id": null
+  },
+  {
+    "a": "hayan",
+    "b": "hara",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "where?",
+    "tags": [
+      "interrogative"
+    ],
+    "pos": "adv",
+    "target_pos": "function",
+    "id": "en-hayan-az-adv-s~8ygck1"
+  },
+  {
+    "a": "hayan",
+    "b": "hanı",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "where?",
+    "tags": [
+      "interrogative",
+      "colloquial"
+    ],
+    "pos": "adv",
+    "target_pos": "adverb",
+    "id": "en-hayan-az-adv-s~8ygck1"
+  },
+  {
+    "a": "hayan",
+    "b": "hayanda",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "where?",
+    "tags": [
+      "interrogative"
+    ],
+    "pos": "adv",
+    "target_pos": "adverb",
+    "id": "en-hayan-az-adv-s~8ygck1"
+  },
+  {
+    "a": "hayan",
+    "b": "hara",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "where?",
+    "tags": [
+      "interrogative"
+    ],
+    "pos": "adv",
+    "target_pos": "function",
+    "id": "en-hayan-az-adv-s~8ygck1"
+  },
+  {
+    "a": "hayan",
+    "b": "hayana",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "where?",
+    "tags": [
+      "interrogative"
+    ],
+    "pos": "adv",
+    "target_pos": "adverb",
+    "id": "en-hayan-az-adv-s~8ygck1"
+  },
+  {
+    "a": "hayan",
+    "b": "hayandan",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "where?",
+    "tags": [
+      "interrogative"
+    ],
+    "pos": "adv",
+    "target_pos": "adverb",
+    "id": "en-hayan-az-adv-s~8ygck1"
+  },
+  {
+    "a": "günəş",
+    "b": "günəşsiz",
+    "type": "root",
+    "field": "derived",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "adjective",
+    "id": null
+  },
+  {
+    "a": "fəlsəfə",
+    "b": "fəlsəfi",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "philosophy",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "adjective",
+    "id": "en-fəlsəfə-az-noun-IzHrM84s"
+  },
+  {
+    "a": "kitabxana",
+    "b": "kitab",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "library",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-kitabxana-az-noun-txjxNU9y"
+  },
+  {
+    "a": "kiçik",
+    "b": "kiçilmək",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "small, little",
+    "tags": [],
+    "pos": "adj",
+    "target_pos": "verb",
+    "id": "en-kiçik-az-adj-~OPJa5AZ"
+  },
+  {
+    "a": "lüğət",
+    "b": "sözlük",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "dictionary",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-lüğət-az-noun-F3ynD0Le"
+  },
+  {
+    "a": "qız",
+    "b": "qadın",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "ürək",
+    "b": "ürəkləndirmək",
+    "type": "root",
+    "field": "derived",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "verb",
+    "id": null
+  },
+  {
+    "a": "ürək",
+    "b": "ürəklənmək",
+    "type": "root",
+    "field": "derived",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "verb",
+    "id": null
+  },
+  {
+    "a": "ürək",
+    "b": "ürəklilik",
+    "type": "root",
+    "field": "derived",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "ürək",
+    "b": "ürəksiz",
+    "type": "root",
+    "field": "derived",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "adjective",
+    "id": null
+  },
+  {
+    "a": "ürək",
+    "b": "ürəksizlik",
+    "type": "root",
+    "field": "derived",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "yol",
+    "b": "yoldan çıxmaq",
+    "type": "root",
+    "field": "derived",
+    "scope": "entry",
+    "sense": "",
+    "tags": [
+      "compound",
+      "verb"
+    ],
+    "pos": "noun",
+    "target_pos": "verb",
+    "id": null
+  },
+  {
+    "a": "yol",
+    "b": "yolağa",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "acı",
+    "b": "acımaq",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "adj",
+    "target_pos": "verb",
+    "id": null
+  },
+  {
+    "a": "ermənicə",
+    "b": "erməni",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "in Armenian",
+    "tags": [],
+    "pos": "adv",
+    "target_pos": "noun",
+    "id": "en-ermənicə-az-adv-PujBS4et"
+  },
+  {
+    "a": "haçan",
+    "b": "hayanda",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "when?",
+    "tags": [
+      "interrogative"
+    ],
+    "pos": "adv",
+    "target_pos": "adverb",
+    "id": "en-haçan-az-adv-3cTVhTlh"
+  },
+  {
+    "a": "haçan",
+    "b": "hayana",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "when?",
+    "tags": [
+      "interrogative"
+    ],
+    "pos": "adv",
+    "target_pos": "adverb",
+    "id": "en-haçan-az-adv-3cTVhTlh"
+  },
+  {
+    "a": "haçan",
+    "b": "hayandan",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "when?",
+    "tags": [
+      "interrogative"
+    ],
+    "pos": "adv",
+    "target_pos": "adverb",
+    "id": "en-haçan-az-adv-3cTVhTlh"
+  },
+  {
+    "a": "haçan",
+    "b": "nə vaxt",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "when?",
+    "tags": [
+      "interrogative"
+    ],
+    "pos": "adv",
+    "target_pos": "function",
+    "id": "en-haçan-az-adv-3cTVhTlh"
+  },
+  {
+    "a": "haçan",
+    "b": "havaxt",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "when?",
+    "tags": [
+      "interrogative",
+      "colloquial"
+    ],
+    "pos": "adv",
+    "target_pos": "adverb",
+    "id": "en-haçan-az-adv-3cTVhTlh"
+  },
+  {
+    "a": "tələbə",
+    "b": "şagird",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "student (at a university or other higher education facilities)",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-tələbə-az-noun-xUMI5BwP"
+  },
+  {
+    "a": "kiçilmək",
+    "b": "kiçik",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "to shrink, to get smaller",
+    "tags": [
+      "intransitive"
+    ],
+    "pos": "verb",
+    "target_pos": "adjective",
+    "id": "en-kiçilmək-az-verb-ohq~42Js"
+  },
+  {
+    "a": "böyümək",
+    "b": "böyük",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "to grow, to get bigger",
+    "tags": [
+      "intransitive"
+    ],
+    "pos": "verb",
+    "target_pos": "adjective",
+    "id": "en-böyümək-az-verb-ZkUfDB7h"
+  },
+  {
+    "a": "çox",
+    "b": "çoxbilmiş",
+    "type": "root",
+    "field": "derived",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "adv",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "qalın",
+    "b": "incə",
+    "type": "syn",
+    "field": "synonyms",
+    "scope": "sense",
+    "sense": "back",
+    "tags": [],
+    "pos": "adj",
+    "target_pos": "adjective",
+    "id": "en-qalın-az-adj-PEgjRvN1"
+  },
+  {
+    "a": "qalın",
+    "b": "nazik",
+    "type": "syn",
+    "field": "synonyms",
+    "scope": "sense",
+    "sense": "back",
+    "tags": [],
+    "pos": "adj",
+    "target_pos": "adjective",
+    "id": "en-qalın-az-adj-PEgjRvN1"
+  },
+  {
+    "a": "gizli",
+    "b": "gizlin",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "adj",
+    "target_pos": "adjective",
+    "id": null
+  },
+  {
+    "a": "tək",
+    "b": "tək-tək",
+    "type": "root",
+    "field": "derived",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "adj",
+    "target_pos": "adverb",
+    "id": null
+  },
+  {
+    "a": "ət",
+    "b": "ətini tökmək",
+    "type": "root",
+    "field": "derived",
+    "scope": "sense",
+    "sense": "meat",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "verb",
+    "id": "en-ət-az-noun-WdbWFDH8"
+  },
+  {
+    "a": "şirin",
+    "b": "şirinlik",
+    "type": "root",
+    "field": "derived",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "adj",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "çimərlik",
+    "b": "çimmək",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "beach",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "verb",
+    "id": "en-çimərlik-az-noun-qzboQ0Ry"
+  },
+  {
+    "a": "nərd",
+    "b": "nərdtaxta",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "backgammon",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-nərd-az-noun-fuZzgLub"
+  },
+  {
+    "a": "hərb",
+    "b": "müharibə",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "war",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-hərb-az-noun-otjapCgb"
+  },
+  {
+    "a": "üzgüçü",
+    "b": "üzmək",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "swimmer",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "verb",
+    "id": "en-üzgüçü-az-noun-gjvD4BVc"
+  },
+  {
+    "a": "üzücü",
+    "b": "üzmək",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "swimmer",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "verb",
+    "id": "en-üzücü-az-noun-gjvD4BVc"
+  },
+  {
+    "a": "etmək",
+    "b": "eləmək",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "to do, to make",
+    "tags": [
+      "transitive"
+    ],
+    "pos": "verb",
+    "target_pos": "verb",
+    "id": "en-etmək-az-verb-v7Kn67if"
+  },
+  {
+    "a": "gəlmək",
+    "b": "gətirmək",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "verb",
+    "target_pos": "verb",
+    "id": null
+  },
+  {
+    "a": "bağlamaq",
+    "b": "bağlı",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "verb",
+    "target_pos": "adjective",
+    "id": null
+  },
+  {
+    "a": "ölmək",
+    "b": "tələf olmaq",
+    "type": "syn",
+    "field": "synonyms",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "verb",
+    "target_pos": "verb",
+    "id": null
+  },
+  {
+    "a": "ölmək",
+    "b": "can vermək",
+    "type": "syn",
+    "field": "synonyms",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "verb",
+    "target_pos": "verb",
+    "id": null
+  },
+  {
+    "a": "ölmək",
+    "b": "ruhunu təslim etmək",
+    "type": "syn",
+    "field": "synonyms",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "verb",
+    "target_pos": "verb",
+    "id": null
+  },
+  {
+    "a": "ölmək",
+    "b": "gözlərini dünyaya bağlamaq",
+    "type": "syn",
+    "field": "synonyms",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "verb",
+    "target_pos": "verb",
+    "id": null
+  },
+  {
+    "a": "ölmək",
+    "b": "gözlərini dünyaya yummaq",
+    "type": "syn",
+    "field": "synonyms",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "verb",
+    "target_pos": "verb",
+    "id": null
+  },
+  {
+    "a": "ölmək",
+    "b": "ruhu canından çıxmaq",
+    "type": "syn",
+    "field": "synonyms",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "verb",
+    "target_pos": "verb",
+    "id": null
+  },
+  {
+    "a": "ölmək",
+    "b": "əbədi yuxuya getmək",
+    "type": "syn",
+    "field": "synonyms",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "verb",
+    "target_pos": "verb",
+    "id": null
+  },
+  {
+    "a": "ölmək",
+    "b": "başını yerə qoymaq",
+    "type": "syn",
+    "field": "synonyms",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "verb",
+    "target_pos": "verb",
+    "id": null
+  },
+  {
+    "a": "ölmək",
+    "b": "gora getmək",
+    "type": "syn",
+    "field": "synonyms",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "verb",
+    "target_pos": "verb",
+    "id": null
+  },
+  {
+    "a": "ölmək",
+    "b": "gora girmək",
+    "type": "syn",
+    "field": "synonyms",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "verb",
+    "target_pos": "verb",
+    "id": null
+  },
+  {
+    "a": "ölmək",
+    "b": "gor yuxusuna getmək",
+    "type": "syn",
+    "field": "synonyms",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "verb",
+    "target_pos": "verb",
+    "id": null
+  },
+  {
+    "a": "ölmək",
+    "b": "özüm ölüm",
+    "type": "root",
+    "field": "derived",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "verb",
+    "target_pos": "phrase",
+    "id": null
+  },
+  {
+    "a": "çıxmaq",
+    "b": "çıxarmaq",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "verb",
+    "target_pos": "verb",
+    "id": null
+  },
+  {
+    "a": "azəri",
+    "b": "azərbaycanlı",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "Azeri, Azerbaijani (person)",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-azəri-az-noun-ceZqo0Gq"
+  },
+  {
+    "a": "zərər",
+    "b": "zərərverici",
+    "type": "root",
+    "field": "derived",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "adjective",
+    "id": null
+  },
+  {
+    "a": "qoruq",
+    "b": "qorumaq",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "protected place, reserve",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "verb",
+    "id": "en-qoruq-az-noun-TrWY~PuG"
+  },
+  {
+    "a": "qoruq",
+    "b": "qoruqçu",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "protected place, reserve",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-qoruq-az-noun-TrWY~PuG"
+  },
+  {
+    "a": "qoruqçu",
+    "b": "qorumaq",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "keeper or guardian of a protected place or reserve",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "verb",
+    "id": "en-qoruqçu-az-noun--LJOTyH8"
+  },
+  {
+    "a": "qoruqçu",
+    "b": "qoruq",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "keeper or guardian of a protected place or reserve",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-qoruqçu-az-noun--LJOTyH8"
+  },
+  {
+    "a": "əhli-dərd",
+    "b": "dərd",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "one tormented with love or grief",
+    "tags": [
+      "Azerbaijani",
+      "Classical"
+    ],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-əhli-dərd-az-noun-wMtgbmfC"
+  },
+  {
+    "a": "törətmək",
+    "b": "törəmək",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "verb",
+    "target_pos": "verb",
+    "id": null
+  },
+  {
+    "a": "müəllim",
+    "b": "müəllimlik",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "müəllim",
+    "b": "müəllimə",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "mühafizə",
+    "b": "hüquq-mühafizə orqanları",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "preservation",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-mühafizə-az-noun-rT1~f2rN"
+  },
+  {
+    "a": "azərbaycanlı",
+    "b": "azəri",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "Azerbaijani",
+    "tags": [],
+    "pos": "adj",
+    "target_pos": "noun",
+    "id": "en-azərbaycanlı-az-adj-cXRVciBg"
+  },
+  {
+    "a": "əvvəl",
+    "b": "əvvəla",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "postp",
+    "target_pos": "adverb",
+    "id": null
+  },
+  {
+    "a": "əvvəla",
+    "b": "əvvəl",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "firstly",
+    "tags": [],
+    "pos": "adv",
+    "target_pos": "function",
+    "id": "en-əvvəla-az-adv-WSl2ly1x"
+  },
+  {
+    "a": "tələb",
+    "b": "tələbat",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "demand",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-tələb-az-noun-3~wXf9C7"
+  },
+  {
+    "a": "tələbat",
+    "b": "tələb",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "intizar",
+    "b": "intizarçılıq",
+    "type": "root",
+    "field": "derived",
+    "scope": "sense",
+    "sense": "longing, enduring anticipation, yearnful waiting",
+    "tags": [
+      "poetic",
+      "uncountable",
+      "usually"
+    ],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-intizar-az-noun-acydKigY"
+  },
+  {
+    "a": "mərifət",
+    "b": "mərifətli",
+    "type": "root",
+    "field": "derived",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "adjective",
+    "id": null
+  },
+  {
+    "a": "sənət",
+    "b": "incəsənət",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "sənət",
+    "b": "sənətşünas",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "qəbir",
+    "b": "qəbiristan",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "tomb, grave",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-qəbir-az-noun-y~deoLCg"
+  },
+  {
+    "a": "təqsir",
+    "b": "təqsirsizlik",
+    "type": "root",
+    "field": "derived",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "təmiz",
+    "b": "təmizqəlbli",
+    "type": "root",
+    "field": "derived",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "adv",
+    "target_pos": "adjective",
+    "id": null
+  },
+  {
+    "a": "təmiz",
+    "b": "təmizürəkli",
+    "type": "root",
+    "field": "derived",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "adv",
+    "target_pos": "adjective",
+    "id": null
+  },
+  {
+    "a": "xilas",
+    "b": "xilaskar",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "nə",
+    "b": "nəmənə",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "what, which",
+    "tags": [
+      "dialectal"
+    ],
+    "pos": "det",
+    "target_pos": "pronoun",
+    "id": "en-nə-az-det-Td4Sb7x2"
+  },
+  {
+    "a": "nə",
+    "b": "nəçi",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "what, which",
+    "tags": [],
+    "pos": "det",
+    "target_pos": "determiner",
+    "id": "en-nə-az-det-Td4Sb7x2"
+  },
+  {
+    "a": "nə",
+    "b": "hayanda",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "what, which",
+    "tags": [],
+    "pos": "det",
+    "target_pos": "adverb",
+    "id": "en-nə-az-det-Td4Sb7x2"
+  },
+  {
+    "a": "nə",
+    "b": "hayana",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "what, which",
+    "tags": [],
+    "pos": "det",
+    "target_pos": "adverb",
+    "id": "en-nə-az-det-Td4Sb7x2"
+  },
+  {
+    "a": "nə",
+    "b": "hayandan",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "what, which",
+    "tags": [],
+    "pos": "det",
+    "target_pos": "adverb",
+    "id": "en-nə-az-det-Td4Sb7x2"
+  },
+  {
+    "a": "nə",
+    "b": "nə üçün",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "what, which",
+    "tags": [],
+    "pos": "det",
+    "target_pos": "function",
+    "id": "en-nə-az-det-Td4Sb7x2"
+  },
+  {
+    "a": "qurtuluş",
+    "b": "qurtarmaq",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "salvation, rescue, redemption",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "verb",
+    "id": "en-qurtuluş-az-noun-BdEs7e2Q"
+  },
+  {
+    "a": "qurtuluş",
+    "b": "qurtarış",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "salvation, rescue, redemption",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-qurtuluş-az-noun-BdEs7e2Q"
+  },
+  {
+    "a": "qurtuluş",
+    "b": "qurtulmaq",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "salvation, rescue, redemption",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "verb",
+    "id": "en-qurtuluş-az-noun-BdEs7e2Q"
+  },
+  {
+    "a": "qurtulmaq",
+    "b": "qurtuluş",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "verb",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "qurtarış",
+    "b": "qurtuluş",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "saving, rescue, salvation",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-qurtarış-az-noun-vFaOo04O"
+  },
+  {
+    "a": "qurtarıcı",
+    "b": "qurtarmaq",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "salvative",
+    "tags": [],
+    "pos": "adj",
+    "target_pos": "verb",
+    "id": "en-qurtarıcı-az-adj-73HhxI5-"
+  },
+  {
+    "a": "nəmənə",
+    "b": "nə",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "what",
+    "tags": [
+      "South-Azerbaijani"
+    ],
+    "pos": "pron",
+    "target_pos": "function",
+    "id": "en-nəmənə-az-pron-dJqywNBs"
+  },
+  {
+    "a": "nəmənə",
+    "b": "hayanda",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "what",
+    "tags": [
+      "South-Azerbaijani"
+    ],
+    "pos": "pron",
+    "target_pos": "adverb",
+    "id": "en-nəmənə-az-pron-dJqywNBs"
+  },
+  {
+    "a": "nəmənə",
+    "b": "hayana",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "what",
+    "tags": [
+      "South-Azerbaijani"
+    ],
+    "pos": "pron",
+    "target_pos": "adverb",
+    "id": "en-nəmənə-az-pron-dJqywNBs"
+  },
+  {
+    "a": "nəmənə",
+    "b": "hayandan",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "what",
+    "tags": [
+      "South-Azerbaijani"
+    ],
+    "pos": "pron",
+    "target_pos": "adverb",
+    "id": "en-nəmənə-az-pron-dJqywNBs"
+  },
+  {
+    "a": "vurmaq",
+    "b": "suxoy vurmaq",
+    "type": "root",
+    "field": "derived",
+    "scope": "entry",
+    "sense": "",
+    "tags": [
+      "compound",
+      "verb"
+    ],
+    "pos": "verb",
+    "target_pos": "verb",
+    "id": null
+  },
+  {
+    "a": "necə",
+    "b": "həncəri",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "how",
+    "tags": [
+      "interrogative",
+      "dialectal"
+    ],
+    "pos": "adv",
+    "target_pos": "adverb",
+    "id": "en-necə-az-adv-gESq4fho"
+  },
+  {
+    "a": "necə",
+    "b": "hayanda",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "how",
+    "tags": [
+      "interrogative"
+    ],
+    "pos": "adv",
+    "target_pos": "adverb",
+    "id": "en-necə-az-adv-gESq4fho"
+  },
+  {
+    "a": "necə",
+    "b": "hayana",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "how",
+    "tags": [
+      "interrogative"
+    ],
+    "pos": "adv",
+    "target_pos": "adverb",
+    "id": "en-necə-az-adv-gESq4fho"
+  },
+  {
+    "a": "necə",
+    "b": "hayandan",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "how",
+    "tags": [
+      "interrogative"
+    ],
+    "pos": "adv",
+    "target_pos": "adverb",
+    "id": "en-necə-az-adv-gESq4fho"
+  },
+  {
+    "a": "necə",
+    "b": "nətər",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "how",
+    "tags": [
+      "interrogative"
+    ],
+    "pos": "adv",
+    "target_pos": "adverb",
+    "id": "en-necə-az-adv-gESq4fho"
+  },
+  {
+    "a": "necə",
+    "b": "nə cür",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "how",
+    "tags": [
+      "interrogative"
+    ],
+    "pos": "adv",
+    "target_pos": "adverb",
+    "id": "en-necə-az-adv-gESq4fho"
+  },
+  {
+    "a": "necə",
+    "b": "həncəri",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "how",
+    "tags": [
+      "interrogative",
+      "dialectal"
+    ],
+    "pos": "adv",
+    "target_pos": "adverb",
+    "id": "en-necə-az-adv-gESq4fho"
+  },
+  {
+    "a": "əmi",
+    "b": "əmiqızı",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "paternal uncle, (\"brother of one's father\")",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-əmi-az-noun-0qRwmImm"
+  },
+  {
+    "a": "nətər",
+    "b": "hayanda",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "how",
+    "tags": [],
+    "pos": "adv",
+    "target_pos": "adverb",
+    "id": "en-nətər-az-adv-gESq4fho"
+  },
+  {
+    "a": "nətər",
+    "b": "hayana",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "how",
+    "tags": [],
+    "pos": "adv",
+    "target_pos": "adverb",
+    "id": "en-nətər-az-adv-gESq4fho"
+  },
+  {
+    "a": "nətər",
+    "b": "hayandan",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "how",
+    "tags": [],
+    "pos": "adv",
+    "target_pos": "adverb",
+    "id": "en-nətər-az-adv-gESq4fho"
+  },
+  {
+    "a": "nətər",
+    "b": "necə",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "how",
+    "tags": [],
+    "pos": "adv",
+    "target_pos": "function",
+    "id": "en-nətər-az-adv-gESq4fho"
+  },
+  {
+    "a": "nətər",
+    "b": "nə cür",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "how",
+    "tags": [],
+    "pos": "adv",
+    "target_pos": "adverb",
+    "id": "en-nətər-az-adv-gESq4fho"
+  },
+  {
+    "a": "qaldırmaq",
+    "b": "aşağı salmaq",
+    "type": "ant",
+    "field": "antonyms",
+    "scope": "sense",
+    "sense": "to raise the price of something",
+    "tags": [
+      "colloquial",
+      "transitive"
+    ],
+    "pos": "verb",
+    "target_pos": "verb",
+    "id": "en-qaldırmaq-az-verb-T9jXqtWM"
+  },
+  {
+    "a": "soyad",
+    "b": "ad",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "last name",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-soyad-az-noun-W4feAqp0"
+  },
+  {
+    "a": "çirkli",
+    "b": "çirkin",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "dirty, filthy",
+    "tags": [],
+    "pos": "adj",
+    "target_pos": "adjective",
+    "id": "en-çirkli-az-adj-g8DcF7Xd"
+  },
+  {
+    "a": "neçə",
+    "b": "neçənci",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "how many",
+    "tags": [
+      "interrogative"
+    ],
+    "pos": "det",
+    "target_pos": "determiner",
+    "id": "en-neçə-az-det-P31JXGkX"
+  },
+  {
+    "a": "neçə",
+    "b": "hayanda",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "how many",
+    "tags": [
+      "interrogative"
+    ],
+    "pos": "det",
+    "target_pos": "adverb",
+    "id": "en-neçə-az-det-P31JXGkX"
+  },
+  {
+    "a": "neçə",
+    "b": "hayana",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "how many",
+    "tags": [
+      "interrogative"
+    ],
+    "pos": "det",
+    "target_pos": "adverb",
+    "id": "en-neçə-az-det-P31JXGkX"
+  },
+  {
+    "a": "neçə",
+    "b": "hayandan",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "how many",
+    "tags": [
+      "interrogative"
+    ],
+    "pos": "det",
+    "target_pos": "adverb",
+    "id": "en-neçə-az-det-P31JXGkX"
+  },
+  {
+    "a": "qədər",
+    "b": "miqdar",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "postp",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "hanı",
+    "b": "hara",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "where",
+    "tags": [
+      "colloquial",
+      "interrogative"
+    ],
+    "pos": "adv",
+    "target_pos": "function",
+    "id": "en-hanı-az-adv-tIERwQxl"
+  },
+  {
+    "a": "hanı",
+    "b": "hayan",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "where",
+    "tags": [
+      "colloquial",
+      "interrogative"
+    ],
+    "pos": "adv",
+    "target_pos": "adverb",
+    "id": "en-hanı-az-adv-tIERwQxl"
+  },
+  {
+    "a": "hanı",
+    "b": "harada",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "where",
+    "tags": [
+      "colloquial",
+      "interrogative"
+    ],
+    "pos": "adv",
+    "target_pos": "function",
+    "id": "en-hanı-az-adv-tIERwQxl"
+  },
+  {
+    "a": "hanı",
+    "b": "hara",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "where",
+    "tags": [
+      "colloquial",
+      "interrogative"
+    ],
+    "pos": "adv",
+    "target_pos": "function",
+    "id": "en-hanı-az-adv-tIERwQxl"
+  },
+  {
+    "a": "nə qədər",
+    "b": "hayana",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "det",
+    "target_pos": "adverb",
+    "id": null
+  },
+  {
+    "a": "nə qədər",
+    "b": "hayandan",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "det",
+    "target_pos": "adverb",
+    "id": null
+  },
+  {
+    "a": "nə qədər",
+    "b": "hayanda",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "how long",
+    "tags": [],
+    "pos": "det",
+    "target_pos": "adverb",
+    "id": "en-nə_qədər-az-det-1blCQIbM"
+  },
+  {
+    "a": "nə vaxt",
+    "b": "hayanda",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "when?",
+    "tags": [
+      "interrogative"
+    ],
+    "pos": "adv",
+    "target_pos": "adverb",
+    "id": "en-nə_vaxt-az-adv-3cTVhTlh"
+  },
+  {
+    "a": "nə vaxt",
+    "b": "hayana",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "when?",
+    "tags": [
+      "interrogative"
+    ],
+    "pos": "adv",
+    "target_pos": "adverb",
+    "id": "en-nə_vaxt-az-adv-3cTVhTlh"
+  },
+  {
+    "a": "nə vaxt",
+    "b": "hayandan",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "when?",
+    "tags": [
+      "interrogative"
+    ],
+    "pos": "adv",
+    "target_pos": "adverb",
+    "id": "en-nə_vaxt-az-adv-3cTVhTlh"
+  },
+  {
+    "a": "nə vaxt",
+    "b": "haçan",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "when?",
+    "tags": [
+      "interrogative"
+    ],
+    "pos": "adv",
+    "target_pos": "adverb",
+    "id": "en-nə_vaxt-az-adv-3cTVhTlh"
+  },
+  {
+    "a": "nə vaxt",
+    "b": "havaxt",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "when?",
+    "tags": [
+      "interrogative",
+      "colloquial"
+    ],
+    "pos": "adv",
+    "target_pos": "adverb",
+    "id": "en-nə_vaxt-az-adv-3cTVhTlh"
+  },
+  {
+    "a": "kəsmək",
+    "b": "kəsiliş",
+    "type": "root",
+    "field": "derived",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "verb",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "kəsmək",
+    "b": "kəsiş",
+    "type": "root",
+    "field": "derived",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "verb",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "kəsmək",
+    "b": "kəsmə",
+    "type": "root",
+    "field": "derived",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "verb",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "çıxış",
+    "b": "çıxış yolu",
+    "type": "root",
+    "field": "derived",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "öyrənmək",
+    "b": "öyrətmək",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "verb",
+    "target_pos": "verb",
+    "id": null
+  },
+  {
+    "a": "niyə",
+    "b": "hayanda",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "why",
+    "tags": [
+      "interrogative"
+    ],
+    "pos": "adv",
+    "target_pos": "adverb",
+    "id": "en-niyə-az-adv-K-I8WF8V"
+  },
+  {
+    "a": "niyə",
+    "b": "hayana",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "why",
+    "tags": [
+      "interrogative"
+    ],
+    "pos": "adv",
+    "target_pos": "adverb",
+    "id": "en-niyə-az-adv-K-I8WF8V"
+  },
+  {
+    "a": "niyə",
+    "b": "hayandan",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "why",
+    "tags": [
+      "interrogative"
+    ],
+    "pos": "adv",
+    "target_pos": "adverb",
+    "id": "en-niyə-az-adv-K-I8WF8V"
+  },
+  {
+    "a": "niyə",
+    "b": "nə üçün",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "why",
+    "tags": [
+      "interrogative"
+    ],
+    "pos": "adv",
+    "target_pos": "function",
+    "id": "en-niyə-az-adv-K-I8WF8V"
+  },
+  {
+    "a": "niyə",
+    "b": "neyçün",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "why",
+    "tags": [
+      "interrogative"
+    ],
+    "pos": "adv",
+    "target_pos": "adverb",
+    "id": "en-niyə-az-adv-K-I8WF8V"
+  },
+  {
+    "a": "ayırmaq",
+    "b": "ayrılmaq",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "verb",
+    "target_pos": "verb",
+    "id": null
+  },
+  {
+    "a": "yetim",
+    "b": "yetimxana",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "orphan",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-yetim-az-noun-iPaBGrXY"
+  },
+  {
+    "a": "qorxmaz",
+    "b": "ürəksiz",
+    "type": "ant",
+    "field": "antonyms",
+    "scope": "sense",
+    "sense": "fearless",
+    "tags": [],
+    "pos": "adj",
+    "target_pos": "adjective",
+    "id": "en-qorxmaz-az-adj-O5whRMz6"
+  },
+  {
+    "a": "yüksək",
+    "b": "yüksəlmək",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "high",
+    "tags": [],
+    "pos": "adj",
+    "target_pos": "verb",
+    "id": "en-yüksək-az-adj-bvfJsV7N"
+  },
+  {
+    "a": "öyrətmək",
+    "b": "öyrənmək",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "to teach (to pass knowledge)",
+    "tags": [
+      "ditransitive"
+    ],
+    "pos": "verb",
+    "target_pos": "verb",
+    "id": "en-öyrətmək-az-verb-Vpc1vuHP"
+  },
+  {
+    "a": "neyçün",
+    "b": "hayanda",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "why",
+    "tags": [
+      "interrogative"
+    ],
+    "pos": "adv",
+    "target_pos": "adverb",
+    "id": "en-neyçün-az-adv-K-I8WF8V"
+  },
+  {
+    "a": "neyçün",
+    "b": "hayana",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "why",
+    "tags": [
+      "interrogative"
+    ],
+    "pos": "adv",
+    "target_pos": "adverb",
+    "id": "en-neyçün-az-adv-K-I8WF8V"
+  },
+  {
+    "a": "neyçün",
+    "b": "hayandan",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "why",
+    "tags": [
+      "interrogative"
+    ],
+    "pos": "adv",
+    "target_pos": "adverb",
+    "id": "en-neyçün-az-adv-K-I8WF8V"
+  },
+  {
+    "a": "neyçün",
+    "b": "niyə",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "why",
+    "tags": [
+      "interrogative"
+    ],
+    "pos": "adv",
+    "target_pos": "function",
+    "id": "en-neyçün-az-adv-K-I8WF8V"
+  },
+  {
+    "a": "xoşbəxt",
+    "b": "bəxt",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "happy",
+    "tags": [],
+    "pos": "adj",
+    "target_pos": "noun",
+    "id": "en-xoşbəxt-az-adj-SJ9xnK35"
+  },
+  {
+    "a": "bədbəxtlik",
+    "b": "səadət",
+    "type": "syn",
+    "field": "synonyms",
+    "scope": "sense",
+    "sense": "unhappiness",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-bədbəxtlik-az-noun-810lA~cu"
+  },
+  {
+    "a": "bədbəxtlik",
+    "b": "xoşbəxtlik",
+    "type": "syn",
+    "field": "synonyms",
+    "scope": "sense",
+    "sense": "unhappiness",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-bədbəxtlik-az-noun-810lA~cu"
+  },
+  {
+    "a": "üfüq",
+    "b": "üfüqi",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "horizon",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "adjective",
+    "id": "en-üfüq-az-noun-RyahvOlw"
+  },
+  {
+    "a": "cavab",
+    "b": "cavabdehlik",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "response, reply, answer",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-cavab-az-noun-~ps~nVXd"
+  },
+  {
+    "a": "cavab",
+    "b": "cavabdeh",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "response, reply, answer",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "adjective",
+    "id": "en-cavab-az-noun-~ps~nVXd"
+  },
+  {
+    "a": "oğru",
+    "b": "qanuni oğru",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "phrase",
+    "id": null
+  },
+  {
+    "a": "qaşqa",
+    "b": "qaşqaldaq",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "saucy, cheeky",
+    "tags": [],
+    "pos": "adj",
+    "target_pos": "noun",
+    "id": "en-qaşqa-az-adj-8GZfOmh6"
+  },
+  {
+    "a": "şagird",
+    "b": "tələbə",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "cümlə",
+    "b": "cümlə üzvü",
+    "type": "topic",
+    "field": "meronyms",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "siyasət",
+    "b": "siyasi",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "adjective",
+    "id": null
+  },
+  {
+    "a": "bioloji",
+    "b": "biologiya",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "biological",
+    "tags": [],
+    "pos": "adj",
+    "target_pos": "noun",
+    "id": "en-bioloji-az-adj-9uxYLBAB"
+  },
+  {
+    "a": "ümid",
+    "b": "umacaq",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "hope",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-ümid-az-noun-wpJ39V-z"
+  },
+  {
+    "a": "izah etmək",
+    "b": "açıqlamaq",
+    "type": "ant",
+    "field": "antonyms",
+    "scope": "sense",
+    "sense": "to account for",
+    "tags": [
+      "transitive"
+    ],
+    "pos": "verb",
+    "target_pos": "verb",
+    "id": "en-izah_etmək-az-verb-4ZixfAAF"
+  },
+  {
+    "a": "şad",
+    "b": "şadlandırıcı",
+    "type": "root",
+    "field": "derived",
+    "scope": "sense",
+    "sense": "glad",
+    "tags": [],
+    "pos": "adj",
+    "target_pos": "adjective",
+    "id": "en-şad-az-adj-xqoVlfdh"
+  },
+  {
+    "a": "dəsmal",
+    "b": "arx",
+    "type": "topic",
+    "field": "hypernyms",
+    "scope": "sense",
+    "sense": "irrigation ditch in vegetable garden",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-dəsmal-az-noun-8gRUNJX5"
+  },
+  {
+    "a": "yaddaş",
+    "b": "xatirə",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "memory (the ability of a system to record information about things or events).",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-yaddaş-az-noun-8c2GHvSm"
+  },
+  {
+    "a": "şəxs",
+    "b": "şəxsiyyət",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "person, individual",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-şəxs-az-noun-18-Ei~r5"
+  },
+  {
+    "a": "əkmək",
+    "b": "əkinçi",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "verb",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "əkmək",
+    "b": "əkin",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "verb",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "iclas",
+    "b": "məclis",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "qurumaq",
+    "b": "quru",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "to dry, dry up, dry out",
+    "tags": [
+      "intransitive"
+    ],
+    "pos": "verb",
+    "target_pos": "adjective",
+    "id": "en-qurumaq-az-verb-vi4POtkw"
+  },
+  {
+    "a": "həlak olmaq",
+    "b": "ölmək",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "to perish, to die of unnatural causes, to be killed",
+    "tags": [
+      "intransitive"
+    ],
+    "pos": "verb",
+    "target_pos": "verb",
+    "id": "en-həlak_olmaq-az-verb-Bd9EW7UV"
+  },
+  {
+    "a": "doymaq",
+    "b": "tosqun",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "verb",
+    "target_pos": "adjective",
+    "id": null
+  },
+  {
+    "a": "çoxluq",
+    "b": "kifayətsizlik",
+    "type": "ant",
+    "field": "antonyms",
+    "scope": "sense",
+    "sense": "abundance",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-çoxluq-az-noun-sVOSeHXT"
+  },
+  {
+    "a": "erkən",
+    "b": "ertə",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "early in the morning",
+    "tags": [],
+    "pos": "adv",
+    "target_pos": "adverb",
+    "id": "en-erkən-az-adv-WnvLd1EK"
+  },
+  {
+    "a": "xuda",
+    "b": "xudavənd",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "God, god",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-xuda-az-noun-qMaUFkZY"
+  },
+  {
+    "a": "cavabdeh",
+    "b": "cavab",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "responsible, in charge",
+    "tags": [],
+    "pos": "adj",
+    "target_pos": "noun",
+    "id": "en-cavabdeh-az-adj-qS9Ccx4l"
+  },
+  {
+    "a": "vəfat etmək",
+    "b": "ölmək",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "to pass away",
+    "tags": [
+      "intransitive"
+    ],
+    "pos": "verb",
+    "target_pos": "verb",
+    "id": "en-vəfat_etmək-az-verb-iwGIKGlg"
+  },
+  {
+    "a": "nisbi",
+    "b": "nisbilik",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "relative (conditional; depending on something else)",
+    "tags": [],
+    "pos": "adj",
+    "target_pos": "noun",
+    "id": "en-nisbi-az-adj-plJOe5~o"
+  },
+  {
+    "a": "cələsə",
+    "b": "məclis",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "gathering, meeting",
+    "tags": [
+      "South-Azerbaijani"
+    ],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-cələsə-az-noun-jz~Od-6x"
+  },
+  {
+    "a": "qeyri",
+    "b": "qeyr",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "another",
+    "tags": [
+      "dated",
+      "formal"
+    ],
+    "pos": "det",
+    "target_pos": "noun",
+    "id": "en-qeyri-az-det-rkSKyGxO"
+  },
+  {
+    "a": "vədə",
+    "b": "vəd",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "vilayət",
+    "b": "əyalət",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "neçənci",
+    "b": "hayanda",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "what number, which (in a numbered series), whatth",
+    "tags": [
+      "interrogative"
+    ],
+    "pos": "det",
+    "target_pos": "adverb",
+    "id": "en-neçənci-az-det-9PxqO~L~"
+  },
+  {
+    "a": "neçənci",
+    "b": "hayana",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "what number, which (in a numbered series), whatth",
+    "tags": [
+      "interrogative"
+    ],
+    "pos": "det",
+    "target_pos": "adverb",
+    "id": "en-neçənci-az-det-9PxqO~L~"
+  },
+  {
+    "a": "neçənci",
+    "b": "hayandan",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "what number, which (in a numbered series), whatth",
+    "tags": [
+      "interrogative"
+    ],
+    "pos": "det",
+    "target_pos": "adverb",
+    "id": "en-neçənci-az-det-9PxqO~L~"
+  },
+  {
+    "a": "neçənci",
+    "b": "neçə",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "what number, which (in a numbered series), whatth",
+    "tags": [
+      "interrogative"
+    ],
+    "pos": "det",
+    "target_pos": "function",
+    "id": "en-neçənci-az-det-9PxqO~L~"
+  },
+  {
+    "a": "haralı",
+    "b": "hara",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "from what place; inquiring the place of origin of the person in question.",
+    "tags": [],
+    "pos": "det",
+    "target_pos": "function",
+    "id": "en-haralı-az-det-Wk8Liutv"
+  },
+  {
+    "a": "haralı",
+    "b": "hayanda",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "from what place; inquiring the place of origin of the person in question.",
+    "tags": [],
+    "pos": "det",
+    "target_pos": "adverb",
+    "id": "en-haralı-az-det-Wk8Liutv"
+  },
+  {
+    "a": "haralı",
+    "b": "hara",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "from what place; inquiring the place of origin of the person in question.",
+    "tags": [],
+    "pos": "det",
+    "target_pos": "function",
+    "id": "en-haralı-az-det-Wk8Liutv"
+  },
+  {
+    "a": "haralı",
+    "b": "hayandan",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "from what place; inquiring the place of origin of the person in question.",
+    "tags": [],
+    "pos": "det",
+    "target_pos": "adverb",
+    "id": "en-haralı-az-det-Wk8Liutv"
+  },
+  {
+    "a": "nəçi",
+    "b": "nə",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "who (by occupation); inquiring the occupation or the profession of the person in question.",
+    "tags": [],
+    "pos": "det",
+    "target_pos": "function",
+    "id": "en-nəçi-az-det-nxA9~1d~"
+  },
+  {
+    "a": "nəçi",
+    "b": "hayanda",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "who (by occupation); inquiring the occupation or the profession of the person in question.",
+    "tags": [],
+    "pos": "det",
+    "target_pos": "adverb",
+    "id": "en-nəçi-az-det-nxA9~1d~"
+  },
+  {
+    "a": "nəçi",
+    "b": "hayana",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "who (by occupation); inquiring the occupation or the profession of the person in question.",
+    "tags": [],
+    "pos": "det",
+    "target_pos": "adverb",
+    "id": "en-nəçi-az-det-nxA9~1d~"
+  },
+  {
+    "a": "nəçi",
+    "b": "hayandan",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "who (by occupation); inquiring the occupation or the profession of the person in question.",
+    "tags": [],
+    "pos": "det",
+    "target_pos": "adverb",
+    "id": "en-nəçi-az-det-nxA9~1d~"
+  },
+  {
+    "a": "nəçi",
+    "b": "nə cür",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "who (by occupation); inquiring the occupation or the profession of the person in question.",
+    "tags": [],
+    "pos": "det",
+    "target_pos": "adverb",
+    "id": "en-nəçi-az-det-nxA9~1d~"
+  },
+  {
+    "a": "müxalifət",
+    "b": "hakimiyyət",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "opposition (party or movement opposed to government)",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-müxalifət-az-noun-gGgp1tV9"
+  },
+  {
+    "a": "müxalifət",
+    "b": "iqtidar",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "opposition (party or movement opposed to government)",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-müxalifət-az-noun-gGgp1tV9"
+  },
+  {
+    "a": "əymək",
+    "b": "əyri",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "verb",
+    "target_pos": "adjective",
+    "id": null
+  },
+  {
+    "a": "sönmək",
+    "b": "sönük",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "to go out (to be turned off or extinguished)",
+    "tags": [
+      "intransitive"
+    ],
+    "pos": "verb",
+    "target_pos": "adjective",
+    "id": "en-sönmək-az-verb-ypC717b~"
+  },
+  {
+    "a": "solaxay",
+    "b": "sağanay",
+    "type": "ant",
+    "field": "antonyms",
+    "scope": "sense",
+    "sense": "left-hander, left-handed, lefty",
+    "tags": [
+      "not-comparable"
+    ],
+    "pos": "adj",
+    "target_pos": "adjective",
+    "id": "en-solaxay-az-adj-F6HfqYBg"
+  },
+  {
+    "a": "solaxay",
+    "b": "onaxay",
+    "type": "ant",
+    "field": "antonyms",
+    "scope": "sense",
+    "sense": "left-hander, left-handed, lefty",
+    "tags": [
+      "not-comparable"
+    ],
+    "pos": "adj",
+    "target_pos": "adjective",
+    "id": "en-solaxay-az-adj-F6HfqYBg"
+  },
+  {
+    "a": "solaxay",
+    "b": "sağaxay",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "left-hander, left-handed, lefty",
+    "tags": [
+      "not-comparable"
+    ],
+    "pos": "adj",
+    "target_pos": "adjective",
+    "id": "en-solaxay-az-adj-F6HfqYBg"
+  },
+  {
+    "a": "miqdar",
+    "b": "qədər",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "amount, quantity, numbers",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "function",
+    "id": "en-miqdar-az-noun-RWez3p6Y"
+  },
+  {
+    "a": "ötmək",
+    "b": "ötüb-keçmək",
+    "type": "root",
+    "field": "derived",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "verb",
+    "target_pos": "verb",
+    "id": null
+  },
+  {
+    "a": "yetmək",
+    "b": "yetişdirmə",
+    "type": "root",
+    "field": "derived",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "verb",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "yarmaq",
+    "b": "yarım",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "verb",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "əyri",
+    "b": "əymək",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "adj",
+    "target_pos": "verb",
+    "id": null
+  },
+  {
+    "a": "qəti",
+    "b": "qətiyyətli",
+    "type": "root",
+    "field": "derived",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "adj",
+    "target_pos": "adjective",
+    "id": null
+  },
+  {
+    "a": "əyin",
+    "b": "əyin-baş",
+    "type": "root",
+    "field": "derived",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "qıraq",
+    "b": "qırmaq",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "verb",
+    "id": null
+  },
+  {
+    "a": "iqlim",
+    "b": "iqlimşünas",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "climate",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-iqlim-az-noun-ENtpmBLQ"
+  },
+  {
+    "a": "əmlak",
+    "b": "mülkiyyət",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "property, especially all property one possesses combined",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-əmlak-az-noun-DZAKz7W1"
+  },
+  {
+    "a": "mülkiyyət",
+    "b": "mülk",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "property",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-mülkiyyət-az-noun-~JGEE0rl"
+  },
+  {
+    "a": "mülkiyyət",
+    "b": "əmlak",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "property",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-mülkiyyət-az-noun-~JGEE0rl"
+  },
+  {
+    "a": "yuxarı",
+    "b": "yüksək",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "upper part",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "adjective",
+    "id": "en-yuxarı-az-noun-sr3c8H6O"
+  },
+  {
+    "a": "üzüqara",
+    "b": "utanılacaq",
+    "type": "ant",
+    "field": "antonyms",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "adj",
+    "target_pos": "adjective",
+    "id": null
+  },
+  {
+    "a": "haradan",
+    "b": "hayanda",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "whence, from what place",
+    "tags": [],
+    "pos": "adv",
+    "target_pos": "adverb",
+    "id": "en-haradan-az-adv-vNorhNyi"
+  },
+  {
+    "a": "haradan",
+    "b": "hayandan",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "whence, from what place",
+    "tags": [],
+    "pos": "adv",
+    "target_pos": "adverb",
+    "id": "en-haradan-az-adv-vNorhNyi"
+  },
+  {
+    "a": "yolağa",
+    "b": "yol",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "mənsub",
+    "b": "mənsubiyyət",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "adj",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "mənsubiyyət",
+    "b": "mənsub",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "adjective",
+    "id": null
+  },
+  {
+    "a": "yanaşmaq",
+    "b": "yanaşı",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "verb",
+    "target_pos": "adjective",
+    "id": null
+  },
+  {
+    "a": "dadmaq",
+    "b": "dad",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "verb",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "vəd",
+    "b": "vədə",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "promise",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-vəd-az-noun-NRPZRSr3"
+  },
+  {
+    "a": "rəqqas",
+    "b": "rəqqasə",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "dancer",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-rəqqas-az-noun-vDMtAB4s"
+  },
+  {
+    "a": "sınaq",
+    "b": "sınaqdan keçirmək",
+    "type": "root",
+    "field": "derived",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "verb",
+    "id": null
+  },
+  {
+    "a": "toqquşmaq",
+    "b": "toxumaq",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "verb",
+    "target_pos": "verb",
+    "id": null
+  },
+  {
+    "a": "qənaətcil",
+    "b": "israfcil",
+    "type": "ant",
+    "field": "antonyms",
+    "scope": "sense",
+    "sense": "thrifty, economical",
+    "tags": [],
+    "pos": "adj",
+    "target_pos": "adjective",
+    "id": "en-qənaətcil-az-adj-upKK3Sxq"
+  },
+  {
+    "a": "xüsusilə",
+    "b": "xüsusi",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "especially, particularly",
+    "tags": [],
+    "pos": "adv",
+    "target_pos": "adjective",
+    "id": "en-xüsusilə-az-adv-dRGM4ZfA"
+  },
+  {
+    "a": "əsirgəmək",
+    "b": "qıymaq",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "verb",
+    "target_pos": "verb",
+    "id": null
+  },
+  {
+    "a": "sarmaq",
+    "b": "sarımaq",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "verb",
+    "target_pos": "verb",
+    "id": null
+  },
+  {
+    "a": "sarımaq",
+    "b": "sarmaq",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "verb",
+    "target_pos": "verb",
+    "id": null
+  },
+  {
+    "a": "cərrah",
+    "b": "cərrahiyyə",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "surgeon",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-cərrah-az-noun-SCcTiIZe"
+  },
+  {
+    "a": "cərrah",
+    "b": "cərrahlıq",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "surgeon",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-cərrah-az-noun-SCcTiIZe"
+  },
+  {
+    "a": "cərrahiyyə",
+    "b": "cərrah",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "surgery (the medical specialty related to the performance of surgical procedures)",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-cərrahiyyə-az-noun-YE5K2r3o"
+  },
+  {
+    "a": "qabağa",
+    "b": "arxaya",
+    "type": "ant",
+    "field": "antonyms",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "adv",
+    "target_pos": "adverb",
+    "id": null
+  },
+  {
+    "a": "görməmiş",
+    "b": "acgöz",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "adjective",
+    "id": null
+  },
+  {
+    "a": "məcbur",
+    "b": "məcburi",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "forced, compelled, having no way not to",
+    "tags": [
+      "predicative"
+    ],
+    "pos": "adj",
+    "target_pos": "adjective",
+    "id": "en-məcbur-az-adj-av1Awa2A"
+  },
+  {
+    "a": "qoxumaq",
+    "b": "qoxu",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "verb",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "götəgirən",
+    "b": "götə girmək",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "ass-licker",
+    "tags": [
+      "vulgar"
+    ],
+    "pos": "noun",
+    "target_pos": "verb",
+    "id": "en-götəgirən-az-noun-ZbmoWyRE"
+  },
+  {
+    "a": "çəri",
+    "b": "yeniçəri",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "army",
+    "tags": [
+      "obsolete"
+    ],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-çəri-az-noun-sv1c26Kx"
+  },
+  {
+    "a": "bulaşmaq",
+    "b": "bulanmaq",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "verb",
+    "target_pos": "verb",
+    "id": null
+  },
+  {
+    "a": "möhkəm",
+    "b": "möhkəmləndirmək",
+    "type": "root",
+    "field": "derived",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "adj",
+    "target_pos": "verb",
+    "id": null
+  },
+  {
+    "a": "eloğlu",
+    "b": "elqızı",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "countryman or someone from the same town",
+    "tags": [
+      "feminine"
+    ],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-eloğlu-az-noun-6-ONFLUQ"
+  },
+  {
+    "a": "həncəri",
+    "b": "necə",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "synonym of necə (“how?”)",
+    "tags": [
+      "dialectal"
+    ],
+    "pos": "adv",
+    "target_pos": "function",
+    "id": "en-həncəri-az-adv-ksNVtm~y"
+  },
+  {
+    "a": "həncəri",
+    "b": "hara",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "synonym of hara (“where?”)",
+    "tags": [
+      "dialectal"
+    ],
+    "pos": "adv",
+    "target_pos": "function",
+    "id": "en-həncəri-az-adv-Jsc5WCMP"
+  },
+  {
+    "a": "həncəri",
+    "b": "hayanda",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "synonym of hara (“where?”)",
+    "tags": [
+      "dialectal"
+    ],
+    "pos": "adv",
+    "target_pos": "adverb",
+    "id": "en-həncəri-az-adv-Jsc5WCMP"
+  },
+  {
+    "a": "həncəri",
+    "b": "hara",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "synonym of hara (“where?”)",
+    "tags": [
+      "dialectal"
+    ],
+    "pos": "adv",
+    "target_pos": "function",
+    "id": "en-həncəri-az-adv-Jsc5WCMP"
+  },
+  {
+    "a": "həncəri",
+    "b": "hayana",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "synonym of hara (“where?”)",
+    "tags": [
+      "dialectal"
+    ],
+    "pos": "adv",
+    "target_pos": "adverb",
+    "id": "en-həncəri-az-adv-Jsc5WCMP"
+  },
+  {
+    "a": "həncəri",
+    "b": "hayandan",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "synonym of hara (“where?”)",
+    "tags": [
+      "dialectal"
+    ],
+    "pos": "adv",
+    "target_pos": "adverb",
+    "id": "en-həncəri-az-adv-Jsc5WCMP"
+  },
+  {
+    "a": "qərq",
+    "b": "qərq olmaq",
+    "type": "root",
+    "field": "derived",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "verb",
+    "id": null
+  },
+  {
+    "a": "yükləniş",
+    "b": "yükləmək",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "download (a file transfer)",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "verb",
+    "id": "en-yükləniş-az-noun-xazcIMGv"
+  },
+  {
+    "a": "məhsul",
+    "b": "hasil",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "vahimə",
+    "b": "vahiməli",
+    "type": "root",
+    "field": "derived",
+    "scope": "sense",
+    "sense": "horror (an intense distressing emotion of fear or repugnance)",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "adjective",
+    "id": "en-vahimə-az-noun-TghVkzdn"
+  },
+  {
+    "a": "təmizləmək",
+    "b": "arıtmaq",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "verb",
+    "target_pos": "verb",
+    "id": null
+  },
+  {
+    "a": "təmizləmək",
+    "b": "arıtlamaq",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "verb",
+    "target_pos": "verb",
+    "id": null
+  },
+  {
+    "a": "deməli",
+    "b": "demək",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "conj",
+    "target_pos": "verb",
+    "id": null
+  },
+  {
+    "a": "ləkələmək",
+    "b": "ləkələndirmək",
+    "type": "root",
+    "field": "derived",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "verb",
+    "target_pos": "verb",
+    "id": null
+  },
+  {
+    "a": "bayağı",
+    "b": "bayaq",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "adj",
+    "target_pos": "adverb",
+    "id": null
+  },
+  {
+    "a": "səmizmək",
+    "b": "səmiz",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "to grow fat, to fatten up, to put on flesh",
+    "tags": [
+      "intransitive"
+    ],
+    "pos": "verb",
+    "target_pos": "adjective",
+    "id": "en-səmizmək-az-verb-Y3StGMi-"
+  },
+  {
+    "a": "yağlamaq",
+    "b": "yağlanmaq",
+    "type": "root",
+    "field": "derived",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "verb",
+    "target_pos": "verb",
+    "id": null
+  },
+  {
+    "a": "çeşid",
+    "b": "çeşid-çeşid",
+    "type": "root",
+    "field": "derived",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "det",
+    "id": null
+  },
+  {
+    "a": "sənətkar",
+    "b": "sənətkarlıq",
+    "type": "root",
+    "field": "derived",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "gölməçə",
+    "b": "göl",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "suvarmaq",
+    "b": "su",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "verb",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "təmsil",
+    "b": "timsal",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "təmsilçi",
+    "b": "nümayəndə",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "representative (a delegate)",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-təmsilçi-az-noun-mAn2B1CX"
+  },
+  {
+    "a": "rəmziləşdirmək",
+    "b": "rəmz",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "to symbolize",
+    "tags": [
+      "transitive"
+    ],
+    "pos": "verb",
+    "target_pos": "noun",
+    "id": "en-rəmziləşdirmək-az-verb-BzL8acyx"
+  },
+  {
+    "a": "simvollaşdırmaq",
+    "b": "simvol",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "to symbolize",
+    "tags": [
+      "transitive"
+    ],
+    "pos": "verb",
+    "target_pos": "noun",
+    "id": "en-simvollaşdırmaq-az-verb-BzL8acyx"
+  },
+  {
+    "a": "ertə",
+    "b": "erkən",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "tomorrow, the upcoming day, the day after today",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "adjective",
+    "id": "en-ertə-az-noun-A6KbjAs-"
+  },
+  {
+    "a": "ilahiləşdirmək",
+    "b": "ilahi",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "to deify, to divinize",
+    "tags": [
+      "transitive"
+    ],
+    "pos": "verb",
+    "target_pos": "noun",
+    "id": "en-ilahiləşdirmək-az-verb-auvoAuNP"
+  },
+  {
+    "a": "sərbəst",
+    "b": "azad",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "adj",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "sərbəst",
+    "b": "asudə",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "adj",
+    "target_pos": "adjective",
+    "id": null
+  },
+  {
+    "a": "hallandırmaq",
+    "b": "hal",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "to decline (to inflect for case and number)",
+    "tags": [
+      "transitive"
+    ],
+    "pos": "verb",
+    "target_pos": "noun",
+    "id": "en-hallandırmaq-az-verb-xKDN0c3y"
+  },
+  {
+    "a": "danılmaz",
+    "b": "danmaq",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "undeniable, indisputable",
+    "tags": [],
+    "pos": "adj",
+    "target_pos": "verb",
+    "id": "en-danılmaz-az-adj-1yL1Ob1l"
+  },
+  {
+    "a": "qızmar",
+    "b": "qızmaq",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "adj",
+    "target_pos": "verb",
+    "id": null
+  },
+  {
+    "a": "yaxşılaşmaq",
+    "b": "yamanlaşmaq",
+    "type": "ant",
+    "field": "antonyms",
+    "scope": "sense",
+    "sense": "to improve, become better",
+    "tags": [
+      "intransitive"
+    ],
+    "pos": "verb",
+    "target_pos": "verb",
+    "id": "en-yaxşılaşmaq-az-verb-ZmQf7q84"
+  },
+  {
+    "a": "yaxşılaşmaq",
+    "b": "xarablaşmaq",
+    "type": "ant",
+    "field": "antonyms",
+    "scope": "sense",
+    "sense": "to improve, become better",
+    "tags": [
+      "intransitive"
+    ],
+    "pos": "verb",
+    "target_pos": "verb",
+    "id": "en-yaxşılaşmaq-az-verb-ZmQf7q84"
+  },
+  {
+    "a": "sızanaq",
+    "b": "sızmaq",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "pimple, spot, pustule",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "verb",
+    "id": "en-sızanaq-az-noun-d0hgiqfC"
+  },
+  {
+    "a": "tələfat",
+    "b": "tələf",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "keçid",
+    "b": "keçmək",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "verb",
+    "id": null
+  },
+  {
+    "a": "qiymətləndirmək",
+    "b": "qiymət",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "verb",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "yaxşılaşdırmaq",
+    "b": "yaxşılaşdırma",
+    "type": "root",
+    "field": "derived",
+    "scope": "sense",
+    "sense": "to improve",
+    "tags": [
+      "transitive"
+    ],
+    "pos": "verb",
+    "target_pos": "noun",
+    "id": "en-yaxşılaşdırmaq-az-verb-Aw0bxo3s"
+  },
+  {
+    "a": "ağsaqqal",
+    "b": "ağbirçək",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [
+      "feminine"
+    ],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "soyumaq",
+    "b": "soyuq",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "to cool down",
+    "tags": [
+      "intransitive"
+    ],
+    "pos": "verb",
+    "target_pos": "adjective",
+    "id": "en-soyumaq-az-verb-yQMfXEpp"
+  },
+  {
+    "a": "peysər",
+    "b": "peysərlik",
+    "type": "root",
+    "field": "derived",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "gizlin",
+    "b": "gizli",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "secret, covert",
+    "tags": [],
+    "pos": "adj",
+    "target_pos": "adjective",
+    "id": "en-gizlin-az-adj-dTlcclGG"
+  },
+  {
+    "a": "rəvac",
+    "b": "rəvacsız",
+    "type": "ant",
+    "field": "antonyms",
+    "scope": "sense",
+    "sense": "brisk",
+    "tags": [
+      "dated"
+    ],
+    "pos": "adj",
+    "target_pos": "adjective",
+    "id": "en-rəvac-az-adj-IBzQzWuK"
+  },
+  {
+    "a": "sayğı",
+    "b": "sayğısız",
+    "type": "root",
+    "field": "derived",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "adjective",
+    "id": null
+  },
+  {
+    "a": "sayğı",
+    "b": "sayğısızlıq",
+    "type": "root",
+    "field": "derived",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "təxsis",
+    "b": "təxsis etmək",
+    "type": "root",
+    "field": "derived",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "verb",
+    "id": null
+  },
+  {
+    "a": "abadlaşdırmaq",
+    "b": "abad",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "to improve, to equip with modern amenities, (apartment) to face-lift, (city, park) to beautify, (street) to resurface",
+    "tags": [
+      "transitive"
+    ],
+    "pos": "verb",
+    "target_pos": "adjective",
+    "id": "en-abadlaşdırmaq-az-verb-qbFgR7Ce"
+  },
+  {
+    "a": "narkoticarət",
+    "b": "ticarət",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "drug business",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-narkoticarət-az-noun-dBY43q4Y"
+  },
+  {
+    "a": "çapovul",
+    "b": "çapovulçuluq",
+    "type": "root",
+    "field": "derived",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "həvalə",
+    "b": "həvalə etmək",
+    "type": "root",
+    "field": "derived",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "verb",
+    "id": null
+  },
+  {
+    "a": "hersoq",
+    "b": "hersoginya",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "duke",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-hersoq-az-noun-9oBEYPUJ"
+  },
+  {
+    "a": "bəniz",
+    "b": "bənzəmək",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "verb",
+    "id": null
+  },
+  {
+    "a": "heykəl",
+    "b": "heykəltəraş",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "monument, memorial, tombstone, statue",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-heykəl-az-noun-Va1nkfiV"
+  },
+  {
+    "a": "yerüstü",
+    "b": "yeraltı",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "aboveground (on or above the surface of the ground)",
+    "tags": [],
+    "pos": "adj",
+    "target_pos": "adjective",
+    "id": "en-yerüstü-az-adj-3s0sKxju"
+  },
+  {
+    "a": "israf",
+    "b": "israfcil",
+    "type": "root",
+    "field": "derived",
+    "scope": "sense",
+    "sense": "waste, squandering",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "adjective",
+    "id": "en-israf-az-noun-Qu-BlLXv"
+  },
+  {
+    "a": "ürəyiyuxa",
+    "b": "ürəyiyuxalıq",
+    "type": "root",
+    "field": "derived",
+    "scope": "sense",
+    "sense": "synonym of ürəyiyumşaq",
+    "tags": [],
+    "pos": "adj",
+    "target_pos": "noun",
+    "id": "en-ürəyiyuxa-az-adj-8NFLiWOM"
+  },
+  {
+    "a": "xozeyin",
+    "b": "xozeyka",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "hindli",
+    "b": "hind",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "Indian (person from India)",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-hindli-az-noun-VOCMNnPz"
+  },
+  {
+    "a": "hər vaxt",
+    "b": "heç vədə",
+    "type": "ant",
+    "field": "antonyms",
+    "scope": "sense",
+    "sense": "always",
+    "tags": [],
+    "pos": "adv",
+    "target_pos": "adverb",
+    "id": "en-hər_vaxt-az-adv-nNxsR6oZ"
+  },
+  {
+    "a": "hər an",
+    "b": "heç vədə",
+    "type": "ant",
+    "field": "antonyms",
+    "scope": "sense",
+    "sense": "always",
+    "tags": [],
+    "pos": "adv",
+    "target_pos": "adverb",
+    "id": "en-hər_an-az-adv-nNxsR6oZ"
+  },
+  {
+    "a": "əng",
+    "b": "ənlik",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "lower jaw",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-əng-az-noun-ebgdpbh7"
+  },
+  {
+    "a": "əttökən",
+    "b": "ətini tökmək",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "cringe, cringy, cringemaking, cringeworthy",
+    "tags": [],
+    "pos": "adj",
+    "target_pos": "verb",
+    "id": "en-əttökən-az-adj-RAcbjqUP"
+  },
+  {
+    "a": "xəcalət",
+    "b": "abır",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "shame, embarrassment",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-xəcalət-az-noun-xm53NbXb"
+  },
+  {
+    "a": "xəcalət",
+    "b": "utanc",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "shame, embarrassment",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-xəcalət-az-noun-xm53NbXb"
+  },
+  {
+    "a": "zəmanə",
+    "b": "zaman",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "times (the circumstances of a certain time)",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-zəmanə-az-noun-oQeUnkk~"
+  },
+  {
+    "a": "kərt",
+    "b": "kərki",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "incision, notch (in tree)",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-kərt-az-noun-VbYKWFyR"
+  },
+  {
+    "a": "ağbirçək",
+    "b": "ağsaqqal",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "old woman",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-ağbirçək-az-noun-m7ggBMhg"
+  },
+  {
+    "a": "titrəmək",
+    "b": "titrləmə",
+    "type": "root",
+    "field": "derived",
+    "scope": "sense",
+    "sense": "to tremble, vibrate, thrill",
+    "tags": [],
+    "pos": "verb",
+    "target_pos": "noun",
+    "id": "en-titrəmək-az-verb-2CY94Ocw"
+  },
+  {
+    "a": "xof",
+    "b": "xoflu",
+    "type": "root",
+    "field": "derived",
+    "scope": "sense",
+    "sense": "dread, terror, fright (terror)",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "adjective",
+    "id": "en-xof-az-noun-vOiQsdeu"
+  },
+  {
+    "a": "zadəgan",
+    "b": "başçı",
+    "type": "topic",
+    "field": "hyponyms",
+    "scope": "sense",
+    "sense": "nobleman",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-zadəgan-az-noun-wpGoAPg9"
+  },
+  {
+    "a": "dofin",
+    "b": "dofina",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "dauphin",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-dofin-az-noun-VQNImyKy"
+  },
+  {
+    "a": "ciyər",
+    "b": "ağciyər",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "general name of lung and liver",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-ciyər-az-noun--jYwfk25"
+  },
+  {
+    "a": "ciyər",
+    "b": "qaraciyər",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "general name of lung and liver",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-ciyər-az-noun--jYwfk25"
+  },
+  {
+    "a": "zehin",
+    "b": "zehniaçıq",
+    "type": "root",
+    "field": "derived",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "adjective",
+    "id": null
+  },
+  {
+    "a": "çatlaşmaq",
+    "b": "yazışmaq",
+    "type": "topic",
+    "field": "hypernyms",
+    "scope": "sense",
+    "sense": "to chat (to exchange text or voice messages)",
+    "tags": [
+      "intransitive"
+    ],
+    "pos": "verb",
+    "target_pos": "verb",
+    "id": "en-çatlaşmaq-az-verb-1CtgH~jP"
+  },
+  {
+    "a": "əkkas",
+    "b": "əks",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "photographer",
+    "tags": [
+      "South-Azerbaijani"
+    ],
+    "pos": "noun",
+    "target_pos": "adjective",
+    "id": "en-əkkas-az-noun--d1RG9EA"
+  },
+  {
+    "a": "əmzik",
+    "b": "əmmək",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "pacifier, dummy, comforter, soother, teat",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "verb",
+    "id": "en-əmzik-az-noun-DZcE1m1Z"
+  },
+  {
+    "a": "təskin",
+    "b": "təskin etmək",
+    "type": "root",
+    "field": "derived",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "verb",
+    "id": null
+  },
+  {
+    "a": "əti tökülmək",
+    "b": "ətini tökmək",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "to cringe (to experience an inward feeling of disgust, embarrassment)",
+    "tags": [
+      "idiomatic",
+      "intransitive"
+    ],
+    "pos": "verb",
+    "target_pos": "verb",
+    "id": "en-əti_tökülmək-az-verb-GYrpXOHE"
+  },
+  {
+    "a": "havaxt",
+    "b": "hayanda",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "when?",
+    "tags": [
+      "interrogative"
+    ],
+    "pos": "adv",
+    "target_pos": "adverb",
+    "id": "en-havaxt-az-adv-3cTVhTlh"
+  },
+  {
+    "a": "havaxt",
+    "b": "hayana",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "when?",
+    "tags": [
+      "interrogative"
+    ],
+    "pos": "adv",
+    "target_pos": "adverb",
+    "id": "en-havaxt-az-adv-3cTVhTlh"
+  },
+  {
+    "a": "havaxt",
+    "b": "hayandan",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "when?",
+    "tags": [
+      "interrogative"
+    ],
+    "pos": "adv",
+    "target_pos": "adverb",
+    "id": "en-havaxt-az-adv-3cTVhTlh"
+  },
+  {
+    "a": "havaxt",
+    "b": "nə vaxt",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "when?",
+    "tags": [
+      "interrogative"
+    ],
+    "pos": "adv",
+    "target_pos": "function",
+    "id": "en-havaxt-az-adv-3cTVhTlh"
+  },
+  {
+    "a": "havaxt",
+    "b": "haçan",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "when?",
+    "tags": [
+      "interrogative"
+    ],
+    "pos": "adv",
+    "target_pos": "adverb",
+    "id": "en-havaxt-az-adv-3cTVhTlh"
+  },
+  {
+    "a": "beşbetər",
+    "b": "betər",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "even worse",
+    "tags": [],
+    "pos": "adv",
+    "target_pos": "adverb",
+    "id": "en-beşbetər-az-adv-aMZ4UdpE"
+  },
+  {
+    "a": "umacaq",
+    "b": "ümid",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "rəftar",
+    "b": "rəftar etmək",
+    "type": "root",
+    "field": "derived",
+    "scope": "sense",
+    "sense": "behaviour, conduct",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "verb",
+    "id": "en-rəftar-az-noun-iHfQIrRA"
+  },
+  {
+    "a": "təpmək",
+    "b": "təpdirmək",
+    "type": "root",
+    "field": "derived",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "verb",
+    "target_pos": "verb",
+    "id": null
+  },
+  {
+    "a": "qarşısıalınmaz",
+    "b": "önüalınmaz",
+    "type": "syn",
+    "field": "synonyms",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "adj",
+    "target_pos": "adjective",
+    "id": null
+  },
+  {
+    "a": "yarımfinalçı",
+    "b": "yarımfinal",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "semifinalist",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-yarımfinalçı-az-noun-SL2l5H4h"
+  },
+  {
+    "a": "şirəçəkən",
+    "b": "şirə",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "juicer",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-şirəçəkən-az-noun-M09PTAqJ"
+  },
+  {
+    "a": "satlıq",
+    "b": "satmaq",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "for sale",
+    "tags": [
+      "not-comparable"
+    ],
+    "pos": "adj",
+    "target_pos": "verb",
+    "id": "en-satlıq-az-adj-VQPShFbc"
+  },
+  {
+    "a": "sözbelə",
+    "b": "söz",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "for example",
+    "tags": [
+      "Qazakh"
+    ],
+    "pos": "adv",
+    "target_pos": "noun",
+    "id": "en-sözbelə-az-adv-5nqNEx77"
+  },
+  {
+    "a": "sözbelə",
+    "b": "belə",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "for example",
+    "tags": [
+      "Qazakh"
+    ],
+    "pos": "adv",
+    "target_pos": "function",
+    "id": "en-sözbelə-az-adv-5nqNEx77"
+  },
+  {
+    "a": "ürəkbulanma",
+    "b": "ürəyi bulanmaq",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "nausea",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "verb",
+    "id": "en-ürəkbulanma-az-noun-4xBA3kBR"
+  },
+  {
+    "a": "komitə",
+    "b": "icraiyyə komitəsi",
+    "type": "root",
+    "field": "derived",
+    "scope": "sense",
+    "sense": "committee",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-komitə-az-noun-wbs4lEQ~"
+  },
+  {
+    "a": "fəlsəfi",
+    "b": "fəlsəfə",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "philosophical",
+    "tags": [],
+    "pos": "adj",
+    "target_pos": "noun",
+    "id": "en-fəlsəfi-az-adj-JDNbQz0a"
+  },
+  {
+    "a": "təktanrıçılıq",
+    "b": "təktanrıçı",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "monotheism",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-təktanrıçılıq-az-noun-Gs9f43mK"
+  },
+  {
+    "a": "basmaxana",
+    "b": "basmaq",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "lie",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "verb",
+    "id": "en-basmaxana-az-noun-yLGho-a8"
+  },
+  {
+    "a": "basmaxanaçı",
+    "b": "basmaq",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "lier",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "verb",
+    "id": "en-basmaxanaçı-az-noun-gwQ55uyV"
+  },
+  {
+    "a": "qoqli",
+    "b": "qoqli vurmaq",
+    "type": "root",
+    "field": "derived",
+    "scope": "sense",
+    "sense": "masturbation",
+    "tags": [
+      "colloquial",
+      "vulgar"
+    ],
+    "pos": "noun",
+    "target_pos": "verb",
+    "id": "en-qoqli-az-noun-dDBWFrK8"
+  },
+  {
+    "a": "sanballı",
+    "b": "ağır-sanballı",
+    "type": "root",
+    "field": "derived",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "adj",
+    "target_pos": "adjective",
+    "id": null
+  },
+  {
+    "a": "etimad be nəfs",
+    "b": "özünəinam",
+    "type": "syn",
+    "field": "synonyms",
+    "scope": "sense",
+    "sense": "confidence",
+    "tags": [
+      "South-Azerbaijani"
+    ],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-etimad_be_nəfs-az-noun-~wE50HxZ"
+  },
+  {
+    "a": "çəp",
+    "b": "rast",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "adj",
+    "target_pos": "adjective",
+    "id": null
+  },
+  {
+    "a": "gicbəsər",
+    "b": "gic",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "a crazy person; dolt",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "adjective",
+    "id": "en-gicbəsər-az-noun-xa1~yU4s"
+  },
+  {
+    "a": "çoxallahlı",
+    "b": "təkallahlı",
+    "type": "ant",
+    "field": "antonyms",
+    "scope": "sense",
+    "sense": "polytheistic",
+    "tags": [
+      "not-comparable"
+    ],
+    "pos": "adj",
+    "target_pos": "noun",
+    "id": "en-çoxallahlı-az-adj-uBEvjziL"
+  },
+  {
+    "a": "çoxallahlılıq",
+    "b": "təkallahlılıq",
+    "type": "ant",
+    "field": "antonyms",
+    "scope": "sense",
+    "sense": "polytheism",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-çoxallahlılıq-az-noun-hZbtL3wp"
+  },
+  {
+    "a": "çoxdanışan",
+    "b": "azdanışan",
+    "type": "syn",
+    "field": "synonyms",
+    "scope": "sense",
+    "sense": "talkative, chatterbox",
+    "tags": [],
+    "pos": "adj",
+    "target_pos": "adjective",
+    "id": "en-çoxdanışan-az-adj-WKsjMRNq"
+  },
+  {
+    "a": "çoxdanışan",
+    "b": "dinməz",
+    "type": "syn",
+    "field": "synonyms",
+    "scope": "sense",
+    "sense": "talkative, chatterbox",
+    "tags": [],
+    "pos": "adj",
+    "target_pos": "adjective",
+    "id": "en-çoxdanışan-az-adj-WKsjMRNq"
+  },
+  {
+    "a": "çoxdanışan",
+    "b": "dinməz-söyləməz",
+    "type": "syn",
+    "field": "synonyms",
+    "scope": "sense",
+    "sense": "talkative, chatterbox",
+    "tags": [],
+    "pos": "adj",
+    "target_pos": "adjective",
+    "id": "en-çoxdanışan-az-adj-WKsjMRNq"
+  },
+  {
+    "a": "çoxdanışan",
+    "b": "qaradinməz",
+    "type": "syn",
+    "field": "synonyms",
+    "scope": "sense",
+    "sense": "talkative, chatterbox",
+    "tags": [],
+    "pos": "adj",
+    "target_pos": "adjective",
+    "id": "en-çoxdanışan-az-adj-WKsjMRNq"
+  },
+  {
+    "a": "çoxdanışan",
+    "b": "səssiz",
+    "type": "syn",
+    "field": "synonyms",
+    "scope": "sense",
+    "sense": "talkative, chatterbox",
+    "tags": [],
+    "pos": "adj",
+    "target_pos": "adjective",
+    "id": "en-çoxdanışan-az-adj-WKsjMRNq"
+  },
+  {
+    "a": "uzunboy",
+    "b": "qısaboy",
+    "type": "ant",
+    "field": "antonyms",
+    "scope": "sense",
+    "sense": "tall (of a person)",
+    "tags": [],
+    "pos": "adj",
+    "target_pos": "adjective",
+    "id": "en-uzunboy-az-adj-5rUvQeYH"
+  },
+  {
+    "a": "uzunboy",
+    "b": "balacaboy",
+    "type": "ant",
+    "field": "antonyms",
+    "scope": "sense",
+    "sense": "tall (of a person)",
+    "tags": [],
+    "pos": "adj",
+    "target_pos": "adjective",
+    "id": "en-uzunboy-az-adj-5rUvQeYH"
+  },
+  {
+    "a": "snoubord",
+    "b": "snoubordinq",
+    "type": "topic",
+    "field": "related",
+    "scope": "entry",
+    "sense": "",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": null
+  },
+  {
+    "a": "fizioterapevt",
+    "b": "fizioterapiya",
+    "type": "topic",
+    "field": "related",
+    "scope": "sense",
+    "sense": "physiotherapist",
+    "tags": [],
+    "pos": "noun",
+    "target_pos": "noun",
+    "id": "en-fizioterapevt-az-noun-pqDX~7AH"
+  }
+]

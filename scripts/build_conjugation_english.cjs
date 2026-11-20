@@ -1,0 +1,21 @@
+const fs=require('fs'),verbs=require('./export_conjugation_verbs.cjs'),{principal,irregular}=require('../dist/conjugation-english.js');
+const review=JSON.parse(fs.readFileSync('scripts/conjugation-english-review.json','utf8'));
+const byWord=new Map(verbs.map(v=>[v.w,v])),profiles={},overrides={
+ ...review.bases,'olmaq':'be','eyləmək':'do','neyləmək':'do something','neynəmək':'do something','doymaq':'be full','oxunmaq':'be read','oturub-durmaq':'sit and stand','qabağa düşmək':'move ahead','maariflənmək':'become educated'
+};
+function strip(s){let depth=0,out='';for(const c of s){if(c==='('||c==='[')depth++;else if(c===')'||c===']')depth=Math.max(0,depth-1);else if(!depth)out+=c;}return out.replace(/^[“"']|[”"']$/g,'').replace(/\s+/g,' ').trim();}
+const first=s=>strip(s).replace(/^to\s+/i,'').split(/;|,|:|\s+or\s+|\s+and\s+/)[0].replace(/[.!?]+$/,'').trim().toLowerCase();
+const known=new Set(Object.keys(irregular));for(const v of verbs){if(/^to\s+[a-z]/i.test(v.en))known.add(first(v.en).split(' ')[0]);}
+for(const h of 'accumulate adjust aggravate amuse asphalt balance bifurcate blackmail bleach bleat bloom bounce branch burden butt cauterize concentrate concrete croak crow crumple crush decode decrypt define degenerate delimit democratize deploy descend deplete deviate dim disconnect dislocate dominate dramatize enjoy erect evaporate exclude exhale fascinate fast fence fetter flicker forward gawk greet growl grunt gush harden hint ignite implement industrialize inflame infuriate introduce labialize leak mask mate multiply mutate narrow neutralize outline pace pacify parry perk pester pocket polish prefer prime record rent resell resist rinse rivet round row rumble rustle satire saw scare shimmer slaughter slow solidify spare spell splash squeak stall stutter stun sway swoop tamper thicken trim tweet twirl twist usurp varnish warehouse weather whine writhe yell act affect aim align allow alter apply arrive avoid blame boil cancel cause chat clash cluster consent conquer consider cover curse damn delay depart disappear divide embrace erect extend favor fish flow fool fulfill gain happen harass help hug include insist interpret invite join judge kick limit lower manage move offend offer oppose perform pile place please prevent print provoke rattle reduce relax review roar roll satisfy scold search shake share shout sign simplify slack snore sort sound spare stare stop stress support surround switch tie transport trust turn type unite use view visit vote wait warn watch welcome whisper whistle widen wonder'.split(' '))known.add(h);
+const inflected=new Map();for(const h of known){const p=principal(h);if(p){inflected.set(p.ing,h);inflected.set(p.past,h);}}
+function parse(gloss){let b=first(gloss),head=b.split(' ')[0];if(/^to\s+/i.test(strip(gloss))&&/^[a-z]+(?:[ -][a-z'’-]+)*$/.test(b))return b;if(known.has(head))return b;if(inflected.has(head))return inflected.get(head)+b.slice(head.length);return null;}
+function resolve(word,seen=new Set()){
+ if(profiles[word])return profiles[word];const entry=byWord.get(word);if(!entry||seen.has(word))return null;seen.add(word);let base=overrides[word]||null,gloss=entry.en;
+ if(!base){const relational=gloss.match(/^(passive|causative|alternative form|dated form|synonym|reflexive) of ([^\s(“:,;]+)/i);if(relational){const parent=resolve(relational[2],new Set(seen));let lexical=parent?.base||parse(gloss.match(/[“"]([^”"]+)/)?.[1]||'');if(lexical){if(relational[1]==='passive')base='be '+principal(lexical).participle;else if(relational[1]==='causative')base='make someone '+lexical;else if(relational[1]!=='reflexive')base=lexical;}}else base=parse(gloss);}
+ const result=base?{base}:{gloss};profiles[word]=result;return result;
+}
+for(const v of verbs)resolve(v.w);
+Object.assign(profiles,review.profiles);
+fs.writeFileSync('dist/conjugation-english-data.js','window.CONJUGATION_ENGLISH_DATA='+JSON.stringify(profiles)+';\n');
+const unresolved=Object.entries(profiles).filter(([w,p])=>!p.base);if(unresolved.length)throw Error('Missing English profiles: '+unresolved.map(([w])=>w).join(', '));
+console.log(JSON.stringify({total:verbs.length,translated:verbs.length-unresolved.length,unresolved:unresolved.length}));

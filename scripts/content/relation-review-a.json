@@ -1,0 +1,3875 @@
+{
+  "review_scope": "Candidate indices 0–429, reviewed against supplied original-source glosses and lexical distinctions; automated assistant review, not professional human validation. Holds are unresolved or unsuitable for green synonym links, not claims that no relation exists.",
+  "decisions": [
+    {
+      "index": 0,
+      "a": "el",
+      "b": "nəfər",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Collective people or community is different from nəfər, a unit for counting individual persons."
+    },
+    {
+      "index": 1,
+      "a": "ala",
+      "b": "rəngarəng",
+      "decision": "syn",
+      "sense_az": "müxtəlif rəngləri olan",
+      "sense_en": "variegated, multicolored",
+      "reason_en": "The original glosses support the shared sense “variegated, multicolored”; this approval is limited to that sense."
+    },
+    {
+      "index": 2,
+      "a": "parti",
+      "b": "tərəf",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Political party and a side or party to a dispute are not established as the same sense by the bare English gloss."
+    },
+    {
+      "index": 3,
+      "a": "eksperiment",
+      "b": "təcrübə",
+      "decision": "syn",
+      "sense_az": "elmi yoxlama, eksperiment",
+      "sense_en": "experiment",
+      "reason_en": "The original glosses support the shared sense “experiment”; this approval is limited to that sense."
+    },
+    {
+      "index": 4,
+      "a": "dur",
+      "b": "uzaq",
+      "decision": "syn",
+      "sense_az": "məsafəcə uzaq olan",
+      "sense_en": "far, distant",
+      "reason_en": "The original glosses support the shared sense “far, distant”; this approval is limited to that sense. A literary, historical, regional, or marked register may apply; this is not a claim of equal everyday frequency."
+    },
+    {
+      "index": 5,
+      "a": "manat",
+      "b": "rubl",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Manat and ruble name different currencies; any historical ruble usage needs dated evidence."
+    },
+    {
+      "index": 6,
+      "a": "biri",
+      "b": "kimsə",
+      "decision": "syn",
+      "sense_az": "qeyri-müəyyən bir şəxs",
+      "sense_en": "someone",
+      "reason_en": "The original glosses support the shared sense “someone”; this approval is limited to that sense."
+    },
+    {
+      "index": 7,
+      "a": "kruk",
+      "b": "qoltuqağacı",
+      "decision": "syn",
+      "sense_az": "yeriməyə kömək edən qoltuqağacı",
+      "sense_en": "crutch",
+      "reason_en": "The original glosses support the shared sense “crutch”; this approval is limited to that sense."
+    },
+    {
+      "index": 8,
+      "a": "xal",
+      "b": "nöqtə",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "The English point collapses a score or mark with a dot or geometric point."
+    },
+    {
+      "index": 9,
+      "a": "aş",
+      "b": "qida",
+      "decision": "syn",
+      "sense_az": "yemək, qida",
+      "sense_en": "food",
+      "reason_en": "The original glosses support the shared sense “food”; this approval is limited to that sense."
+    },
+    {
+      "index": 10,
+      "a": "miz",
+      "b": "cədvəl",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Miz is a furniture table; cədvəl is a chart, schedule, or tabular arrangement."
+    },
+    {
+      "index": 11,
+      "a": "kloun",
+      "b": "təlxək",
+      "decision": "syn",
+      "sense_az": "güldürən səhnə ifaçısı",
+      "sense_en": "clown or jester",
+      "reason_en": "The original glosses support the shared sense “clown or jester”; this approval is limited to that sense."
+    },
+    {
+      "index": 12,
+      "a": "tuman",
+      "b": "yubka",
+      "decision": "syn",
+      "sense_az": "belə geyilən ətək",
+      "sense_en": "skirt",
+      "reason_en": "The original glosses support the shared sense “skirt”; this approval is limited to that sense. Other senses of either word are excluded."
+    },
+    {
+      "index": 13,
+      "a": "qul",
+      "b": "qulluqçu",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "A slave and a servant differ in freedom and legal status; the shared gloss is too broad."
+    },
+    {
+      "index": 14,
+      "a": "kamal",
+      "b": "mükəmməllik",
+      "decision": "syn",
+      "sense_az": "qüsursuzluq, mükəmməllik",
+      "sense_en": "perfection",
+      "reason_en": "The original glosses support the shared sense “perfection”; this approval is limited to that sense."
+    },
+    {
+      "index": 15,
+      "a": "ocaq",
+      "b": "soba",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "An open hearth and an enclosed stove are distinct; the short gloss does not resolve the appliance sense."
+    },
+    {
+      "index": 16,
+      "a": "soymaq",
+      "b": "soyunmaq",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Soymaq acts on another person or object; soyunmaq means to undress oneself."
+    },
+    {
+      "index": 17,
+      "a": "serbcə",
+      "b": "serb dili",
+      "decision": "syn",
+      "sense_az": "serblərin dili",
+      "sense_en": "Serbian language",
+      "reason_en": "The original glosses support the shared sense “Serbian language”; this approval is limited to that sense."
+    },
+    {
+      "index": 18,
+      "a": "çağdaş",
+      "b": "müasir",
+      "decision": "syn",
+      "sense_az": "indiki dövrə aid olan",
+      "sense_en": "contemporary, modern",
+      "reason_en": "The original glosses support the shared sense “contemporary, modern”; this approval is limited to that sense."
+    },
+    {
+      "index": 19,
+      "a": "bitik",
+      "b": "məktub",
+      "decision": "syn",
+      "sense_az": "yazılı məktub",
+      "sense_en": "letter or written message",
+      "reason_en": "The original glosses support the shared sense “letter or written message”; this approval is limited to that sense. A literary, historical, regional, or marked register may apply; this is not a claim of equal everyday frequency."
+    },
+    {
+      "index": 20,
+      "a": "feil",
+      "b": "fel",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Orthographic variant of fel; route to form or spelling review rather than infer a new semantic synonym."
+    },
+    {
+      "index": 21,
+      "a": "artikl",
+      "b": "məqalə",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Artikl is a grammatical article; məqalə is a written article."
+    },
+    {
+      "index": 22,
+      "a": "bacarmaq",
+      "b": "nail olmaq",
+      "decision": "syn",
+      "sense_az": "bir işin öhdəsindən gəlmək",
+      "sense_en": "succeed in accomplishing something",
+      "reason_en": "The original glosses support the shared sense “succeed in accomplishing something”; this approval is limited to that sense."
+    },
+    {
+      "index": 23,
+      "a": "adla",
+      "b": "məşhur",
+      "decision": "syn",
+      "sense_az": "adı tanınmış",
+      "sense_en": "famous, well-known",
+      "reason_en": "The original glosses support the shared sense “famous, well-known”; this approval is limited to that sense."
+    },
+    {
+      "index": 24,
+      "a": "kəndir",
+      "b": "çətənə",
+      "decision": "syn",
+      "sense_az": "çətənə bitkisi",
+      "sense_en": "hemp plant",
+      "reason_en": "The original glosses support the shared sense “hemp plant”; this approval is limited to that sense. Other senses of either word are excluded."
+    },
+    {
+      "index": 25,
+      "a": "lumu",
+      "b": "limon",
+      "decision": "syn",
+      "sense_az": "limon meyvəsi",
+      "sense_en": "lemon",
+      "reason_en": "The original glosses support the shared sense “lemon”; this approval is limited to that sense. A literary, historical, regional, or marked register may apply; this is not a claim of equal everyday frequency."
+    },
+    {
+      "index": 26,
+      "a": "kürk",
+      "b": "xəz",
+      "decision": "syn",
+      "sense_az": "heyvanın sıx tüklü örtüyü",
+      "sense_en": "animal fur",
+      "reason_en": "The original glosses support the shared sense “animal fur”; this approval is limited to that sense."
+    },
+    {
+      "index": 27,
+      "a": "pazı",
+      "b": "çuğundur",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Pazı denotes chard or leaf beet, not an unrestricted synonym of beetroot."
+    },
+    {
+      "index": 28,
+      "a": "yas",
+      "b": "matəm",
+      "decision": "syn",
+      "sense_az": "ölümə görə tutulan yas",
+      "sense_en": "mourning",
+      "reason_en": "The original glosses support the shared sense “mourning”; this approval is limited to that sense."
+    },
+    {
+      "index": 29,
+      "a": "axış",
+      "b": "axın",
+      "decision": "syn",
+      "sense_az": "axma, axın",
+      "sense_en": "flow",
+      "reason_en": "The original glosses support the shared sense “flow”; this approval is limited to that sense."
+    },
+    {
+      "index": 30,
+      "a": "cücü",
+      "b": "həşərat",
+      "decision": "syn",
+      "sense_az": "həşərat",
+      "sense_en": "insect",
+      "reason_en": "The original glosses support the shared sense “insect”; this approval is limited to that sense."
+    },
+    {
+      "index": 31,
+      "a": "nizam",
+      "b": "sifariş",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Nizam is order or arrangement; sifariş is an order placed or a request."
+    },
+    {
+      "index": 32,
+      "a": "şer",
+      "b": "şeir",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Spelling variant of şeir, not a separately established semantic synonym."
+    },
+    {
+      "index": 33,
+      "a": "hərb",
+      "b": "müharibə",
+      "decision": "syn",
+      "sense_az": "silahlı müharibə",
+      "sense_en": "war",
+      "reason_en": "The original glosses support the shared sense “war”; this approval is limited to that sense."
+    },
+    {
+      "index": 34,
+      "a": "üzücü",
+      "b": "üzgüçü",
+      "decision": "syn",
+      "sense_az": "üzən şəxs",
+      "sense_en": "swimmer",
+      "reason_en": "The original glosses support the shared sense “swimmer”; this approval is limited to that sense."
+    },
+    {
+      "index": 35,
+      "a": "immunitet",
+      "b": "toxunulmazlıq",
+      "decision": "syn",
+      "sense_az": "immunitet, xüsusi toxunulmazlıq",
+      "sense_en": "immunity",
+      "reason_en": "The original glosses support the shared sense “immunity”; this approval is limited to that sense. Other senses of either word are excluded."
+    },
+    {
+      "index": 36,
+      "a": "laylay",
+      "b": "layla",
+      "decision": "syn",
+      "sense_az": "uşağı yatızdıran mahnı",
+      "sense_en": "lullaby",
+      "reason_en": "The original glosses support the shared sense “lullaby”; this approval is limited to that sense."
+    },
+    {
+      "index": 37,
+      "a": "qaynamaq",
+      "b": "qaynatmaq",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Qaynamaq is intransitive boiling; qaynatmaq means to cause something to boil."
+    },
+    {
+      "index": 38,
+      "a": "sarsıtmaq",
+      "b": "silkələmək",
+      "decision": "syn",
+      "sense_az": "fiziki olaraq silkələmək",
+      "sense_en": "shake physically",
+      "reason_en": "The original glosses support the shared sense “shake physically”; this approval is limited to that sense. Other senses of either word are excluded."
+    },
+    {
+      "index": 39,
+      "a": "vəfa",
+      "b": "sadiqlik",
+      "decision": "syn",
+      "sense_az": "vəfa, sədaqət",
+      "sense_en": "loyalty, faithfulness",
+      "reason_en": "The original glosses support the shared sense “loyalty, faithfulness”; this approval is limited to that sense."
+    },
+    {
+      "index": 40,
+      "a": "ləzzət",
+      "b": "zövq",
+      "decision": "syn",
+      "sense_az": "xoş hiss, həzz",
+      "sense_en": "pleasure, enjoyment",
+      "reason_en": "The original glosses support the shared sense “pleasure, enjoyment”; this approval is limited to that sense. Other senses of either word are excluded."
+    },
+    {
+      "index": 41,
+      "a": "mühakimə",
+      "b": "sınaq",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Mühakimə concerns judgment or legal trial; sınaq concerns testing or an experiment."
+    },
+    {
+      "index": 42,
+      "a": "sürətsiz",
+      "b": "yavaş",
+      "decision": "syn",
+      "sense_az": "sürəti az olan",
+      "sense_en": "slow",
+      "reason_en": "The original glosses support the shared sense “slow”; this approval is limited to that sense."
+    },
+    {
+      "index": 43,
+      "a": "fəhmli",
+      "b": "hazırcavab",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Perceptiveness and readiness with a witty reply are related traits but not identical."
+    },
+    {
+      "index": 44,
+      "a": "tələbat",
+      "b": "tələb",
+      "decision": "syn",
+      "sense_az": "ehtiyacdan yaranan tələb",
+      "sense_en": "demand, need",
+      "reason_en": "The original glosses support the shared sense “demand, need”; this approval is limited to that sense."
+    },
+    {
+      "index": 45,
+      "a": "əhli-kitab",
+      "b": "kitab əhli",
+      "decision": "syn",
+      "sense_az": "kitab əhli anlayışı",
+      "sense_en": "People of the Book",
+      "reason_en": "The original glosses support the shared sense “People of the Book”; this approval is limited to that sense."
+    },
+    {
+      "index": 46,
+      "a": "ürfan",
+      "b": "bilik",
+      "decision": "syn",
+      "sense_az": "bilik, məlumatlılıq",
+      "sense_en": "knowledge",
+      "reason_en": "The original glosses support the shared sense “knowledge”; this approval is limited to that sense. A literary, historical, regional, or marked register may apply; this is not a claim of equal everyday frequency."
+    },
+    {
+      "index": 47,
+      "a": "kərəm",
+      "b": "səxavət",
+      "decision": "syn",
+      "sense_az": "əliaçıqlıq",
+      "sense_en": "generosity",
+      "reason_en": "The original glosses support the shared sense “generosity”; this approval is limited to that sense."
+    },
+    {
+      "index": 48,
+      "a": "fitri",
+      "b": "təbii",
+      "decision": "syn",
+      "sense_az": "təbiətən olan xüsusiyyət",
+      "sense_en": "innate or natural quality",
+      "reason_en": "The original glosses support the shared sense “innate or natural quality”; this approval is limited to that sense. Other senses of either word are excluded."
+    },
+    {
+      "index": 49,
+      "a": "hasil",
+      "b": "məhsul",
+      "decision": "syn",
+      "sense_az": "istehsalın məhsulu, hasil",
+      "sense_en": "product or yield",
+      "reason_en": "The original glosses support the shared sense “product or yield”; this approval is limited to that sense."
+    },
+    {
+      "index": 50,
+      "a": "ayaqyolu",
+      "b": "tualet",
+      "decision": "syn",
+      "sense_az": "tualet yeri",
+      "sense_en": "toilet",
+      "reason_en": "The original glosses support the shared sense “toilet”; this approval is limited to that sense."
+    },
+    {
+      "index": 51,
+      "a": "aydın",
+      "b": "parlaq",
+      "decision": "syn",
+      "sense_az": "işıqlı, parlayan",
+      "sense_en": "bright, luminous",
+      "reason_en": "The original glosses support the shared sense “bright, luminous”; this approval is limited to that sense. Other senses of either word are excluded."
+    },
+    {
+      "index": 52,
+      "a": "inad",
+      "b": "inadkar",
+      "decision": "syn",
+      "sense_az": "inadkarlıq edən",
+      "sense_en": "stubborn",
+      "reason_en": "The original glosses support the shared sense “stubborn”; this approval is limited to that sense."
+    },
+    {
+      "index": 53,
+      "a": "məlikə",
+      "b": "kraliça",
+      "decision": "syn",
+      "sense_az": "qadın hökmdar",
+      "sense_en": "queen",
+      "reason_en": "The original glosses support the shared sense “queen”; this approval is limited to that sense."
+    },
+    {
+      "index": 54,
+      "a": "məmləkət",
+      "b": "krallıq",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "A country or realm is not necessarily a kingdom."
+    },
+    {
+      "index": 55,
+      "a": "əzim",
+      "b": "böyük",
+      "decision": "syn",
+      "sense_az": "əzəmətli, böyük",
+      "sense_en": "great, large",
+      "reason_en": "The original glosses support the shared sense “great, large”; this approval is limited to that sense. A literary, historical, regional, or marked register may apply; this is not a claim of equal everyday frequency."
+    },
+    {
+      "index": 56,
+      "a": "təəssür",
+      "b": "emosiya",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Affect, impression, or sorrow is not securely equivalent to the broad category emotion."
+    },
+    {
+      "index": 57,
+      "a": "təsis",
+      "b": "təməl",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Təsis is establishment or founding; təməl is the foundation or base."
+    },
+    {
+      "index": 58,
+      "a": "inanc",
+      "b": "iman",
+      "decision": "syn",
+      "sense_az": "dini etiqad",
+      "sense_en": "religious faith",
+      "reason_en": "The original glosses support the shared sense “religious faith”; this approval is limited to that sense. Other senses of either word are excluded."
+    },
+    {
+      "index": 59,
+      "a": "ağqoval",
+      "b": "qovaq",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "White poplar is a particular kind of poplar."
+    },
+    {
+      "index": 60,
+      "a": "inkişaf etmək",
+      "b": "inkişaf etdirmək",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Intransitive development differs from causing something to develop."
+    },
+    {
+      "index": 61,
+      "a": "tətbiq etmək",
+      "b": "müraciət etmək",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Implementing or applying a method differs from submitting an application or addressing someone."
+    },
+    {
+      "index": 62,
+      "a": "qarınca",
+      "b": "qarışqa",
+      "decision": "syn",
+      "sense_az": "qarışqa həşəratı",
+      "sense_en": "ant",
+      "reason_en": "The original glosses support the shared sense “ant”; this approval is limited to that sense. A literary, historical, regional, or marked register may apply; this is not a claim of equal everyday frequency."
+    },
+    {
+      "index": 63,
+      "a": "əmcək",
+      "b": "yelin",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "A teat or breast and an entire udder are anatomically distinct; the brief gloss needs checking."
+    },
+    {
+      "index": 64,
+      "a": "yüyən",
+      "b": "cilov",
+      "decision": "syn",
+      "sense_az": "atı idarə edən yüyən",
+      "sense_en": "bridle",
+      "reason_en": "The original glosses support the shared sense “bridle”; this approval is limited to that sense."
+    },
+    {
+      "index": 65,
+      "a": "gizləmək",
+      "b": "gizlətmək",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "The source explicitly treats this as a standard-form relation; retain for morphology or variants review."
+    },
+    {
+      "index": 66,
+      "a": "gədə",
+      "b": "qulluqçu",
+      "decision": "syn",
+      "sense_az": "xidmət edən şəxs",
+      "sense_en": "servant",
+      "reason_en": "The original glosses support the shared sense “servant”; this approval is limited to that sense. A literary, historical, regional, or marked register may apply; this is not a claim of equal everyday frequency."
+    },
+    {
+      "index": 67,
+      "a": "əsmək",
+      "b": "üfürmək",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Wind blowing and blowing with the mouth have different argument and agency patterns."
+    },
+    {
+      "index": 68,
+      "a": "təmizkarlıq",
+      "b": "təmizlik",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "A habit of cleanliness or fastidiousness differs from the state of being clean."
+    },
+    {
+      "index": 69,
+      "a": "bataq",
+      "b": "bataqlıq",
+      "decision": "syn",
+      "sense_az": "bataqlıq yer",
+      "sense_en": "swamp or bog",
+      "reason_en": "The original glosses support the shared sense “swamp or bog”; this approval is limited to that sense."
+    },
+    {
+      "index": 70,
+      "a": "öndər",
+      "b": "lider",
+      "decision": "syn",
+      "sense_az": "başçılıq edən şəxs",
+      "sense_en": "leader",
+      "reason_en": "The original glosses support the shared sense “leader”; this approval is limited to that sense."
+    },
+    {
+      "index": 71,
+      "a": "camaat",
+      "b": "nəfər",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Camaat is a collective community or crowd; nəfər counts individuals."
+    },
+    {
+      "index": 72,
+      "a": "dözümsüzlük",
+      "b": "səbirsizlik",
+      "decision": "syn",
+      "sense_az": "səbir edə bilməmə",
+      "sense_en": "impatience",
+      "reason_en": "The original glosses support the shared sense “impatience”; this approval is limited to that sense. Other senses of either word are excluded."
+    },
+    {
+      "index": 73,
+      "a": "dözümsüz",
+      "b": "səbirsiz",
+      "decision": "syn",
+      "sense_az": "səbri olmayan",
+      "sense_en": "impatient",
+      "reason_en": "The original glosses support the shared sense “impatient”; this approval is limited to that sense. Other senses of either word are excluded."
+    },
+    {
+      "index": 74,
+      "a": "dağıntı",
+      "b": "məhv",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Ruins or wreckage as a result are not automatically the same as destruction or annihilation."
+    },
+    {
+      "index": 75,
+      "a": "çəmənlik",
+      "b": "çəmən",
+      "decision": "syn",
+      "sense_az": "otlu çəmən sahəsi",
+      "sense_en": "meadow, grassland",
+      "reason_en": "The original glosses support the shared sense “meadow, grassland”; this approval is limited to that sense."
+    },
+    {
+      "index": 76,
+      "a": "yayılmaq",
+      "b": "yaymaq",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Yayılmaq is intransitive or passive spreading; yaymaq is transitive."
+    },
+    {
+      "index": 77,
+      "a": "sərhəng",
+      "b": "komandir",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Sərhəng is a historical military rank; komandir is a broader role."
+    },
+    {
+      "index": 78,
+      "a": "səfər",
+      "b": "səyahət",
+      "decision": "syn",
+      "sense_az": "bir yerə səyahət",
+      "sense_en": "journey or travel",
+      "reason_en": "The original glosses support the shared sense “journey or travel”; this approval is limited to that sense."
+    },
+    {
+      "index": 79,
+      "a": "qucaqlaşmaq",
+      "b": "qucaqlamaq",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Reciprocal hugging differs from the transitive act of hugging someone."
+    },
+    {
+      "index": 80,
+      "a": "yaxa",
+      "b": "yaxalıq",
+      "decision": "syn",
+      "sense_az": "paltarın boyun hissəsi",
+      "sense_en": "garment collar",
+      "reason_en": "The original glosses support the shared sense “garment collar”; this approval is limited to that sense. Other senses of either word are excluded."
+    },
+    {
+      "index": 81,
+      "a": "rədd",
+      "b": "imtina",
+      "decision": "syn",
+      "sense_az": "qəbul etməmə",
+      "sense_en": "refusal or rejection",
+      "reason_en": "The original glosses support the shared sense “refusal or rejection”; this approval is limited to that sense."
+    },
+    {
+      "index": 82,
+      "a": "səpinçi",
+      "b": "əkinçi",
+      "decision": "syn",
+      "sense_az": "toxum səpən şəxs",
+      "sense_en": "sower",
+      "reason_en": "The original glosses support the shared sense “sower”; this approval is limited to that sense. Other senses of either word are excluded."
+    },
+    {
+      "index": 83,
+      "a": "gücsüzlük",
+      "b": "zəiflik",
+      "decision": "syn",
+      "sense_az": "gücün azlığı",
+      "sense_en": "weakness",
+      "reason_en": "The original glosses support the shared sense “weakness”; this approval is limited to that sense."
+    },
+    {
+      "index": 84,
+      "a": "qeyri-bərabərlik",
+      "b": "bərabərsizlik",
+      "decision": "syn",
+      "sense_az": "bərabər olmama",
+      "sense_en": "inequality",
+      "reason_en": "The original glosses support the shared sense “inequality”; this approval is limited to that sense."
+    },
+    {
+      "index": 85,
+      "a": "qeyri-mümkünlük",
+      "b": "mümkünsüzlük",
+      "decision": "syn",
+      "sense_az": "mümkün olmama",
+      "sense_en": "impossibility",
+      "reason_en": "The original glosses support the shared sense “impossibility”; this approval is limited to that sense."
+    },
+    {
+      "index": 86,
+      "a": "osturmaq",
+      "b": "osurmaq",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "These are phonetic or spelling forms of the same verb; review as variants rather than infer a semantic relation."
+    },
+    {
+      "index": 87,
+      "a": "istilaçılıq",
+      "b": "təcavüz",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Conquest or expansionism is narrower than aggression in general."
+    },
+    {
+      "index": 88,
+      "a": "təvazö",
+      "b": "təvazökarlıq",
+      "decision": "syn",
+      "sense_az": "özünü üstün tutmama",
+      "sense_en": "modesty",
+      "reason_en": "The original glosses support the shared sense “modesty”; this approval is limited to that sense."
+    },
+    {
+      "index": 89,
+      "a": "tüfeylilik",
+      "b": "parazitizm",
+      "decision": "syn",
+      "sense_az": "başqasının hesabına yaşama",
+      "sense_en": "parasitism",
+      "reason_en": "The original glosses support the shared sense “parasitism”; this approval is limited to that sense. Other senses of either word are excluded."
+    },
+    {
+      "index": 90,
+      "a": "dəhşət",
+      "b": "terror",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Dread or fear differs from violent political intimidation; the English terror is ambiguous."
+    },
+    {
+      "index": 91,
+      "a": "qatran",
+      "b": "tar",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Qatran is tar material; the Azerbaijani tar headword denotes a musical instrument."
+    },
+    {
+      "index": 92,
+      "a": "qatmaq",
+      "b": "əlavə etmək",
+      "decision": "syn",
+      "sense_az": "bir şeyə əlavə etmək",
+      "sense_en": "add or mix in",
+      "reason_en": "The original glosses support the shared sense “add or mix in”; this approval is limited to that sense."
+    },
+    {
+      "index": 93,
+      "a": "məzhəkə",
+      "b": "zarafat",
+      "decision": "syn",
+      "sense_az": "güldürmək üçün deyilən söz",
+      "sense_en": "joke or jest",
+      "reason_en": "The original glosses support the shared sense “joke or jest”; this approval is limited to that sense."
+    },
+    {
+      "index": 94,
+      "a": "bölüşmək",
+      "b": "paylaşmaq",
+      "decision": "syn",
+      "sense_az": "başqası ilə bölmək",
+      "sense_en": "share",
+      "reason_en": "The original glosses support the shared sense “share”; this approval is limited to that sense."
+    },
+    {
+      "index": 95,
+      "a": "mülkiyyət",
+      "b": "əmlak",
+      "decision": "syn",
+      "sense_az": "sahib olunan mal",
+      "sense_en": "property or possessions",
+      "reason_en": "The original glosses support the shared sense “property or possessions”; this approval is limited to that sense. Other senses of either word are excluded."
+    },
+    {
+      "index": 96,
+      "a": "imək",
+      "b": "olmaq",
+      "decision": "syn",
+      "sense_az": "var olmaq mənasında olmaq",
+      "sense_en": "to be",
+      "reason_en": "The original glosses support the shared sense “to be”; this approval is limited to that sense. A literary, historical, regional, or marked register may apply; this is not a claim of equal everyday frequency."
+    },
+    {
+      "index": 97,
+      "a": "duzsuzlaşdırılma",
+      "b": "duzsuzlaşdırma",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Passive process nominal and active process nominal require morphology review, not automatic synonymy."
+    },
+    {
+      "index": 98,
+      "a": "bağa",
+      "b": "tısbağa",
+      "decision": "syn",
+      "sense_az": "tısbağa heyvanı",
+      "sense_en": "turtle or tortoise",
+      "reason_en": "The original glosses support the shared sense “turtle or tortoise”; this approval is limited to that sense."
+    },
+    {
+      "index": 99,
+      "a": "qoyuluş",
+      "b": "investisiya",
+      "decision": "syn",
+      "sense_az": "maliyyə sərmayəsi",
+      "sense_en": "financial investment",
+      "reason_en": "The original glosses support the shared sense “financial investment”; this approval is limited to that sense. Other senses of either word are excluded."
+    },
+    {
+      "index": 100,
+      "a": "bəstələmək",
+      "b": "tərtib etmək",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Composing music differs from compiling, arranging, or drawing up something."
+    },
+    {
+      "index": 101,
+      "a": "ləhzə",
+      "b": "an",
+      "decision": "syn",
+      "sense_az": "çox qısa zaman",
+      "sense_en": "moment",
+      "reason_en": "The original glosses support the shared sense “moment”; this approval is limited to that sense."
+    },
+    {
+      "index": 102,
+      "a": "cəbhə",
+      "b": "ön",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Military front and positional front are distinct without a qualified shared sense."
+    },
+    {
+      "index": 103,
+      "a": "çəllək",
+      "b": "barel",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "A barrel container differs from barel as a unit of volume."
+    },
+    {
+      "index": 104,
+      "a": "ümidli",
+      "b": "etibarlı",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Hopeful does not mean trustworthy; the source's unexpected trustworthy gloss needs confirmation."
+    },
+    {
+      "index": 105,
+      "a": "partiya",
+      "b": "tərəf",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Political party differs from side or party to a dispute."
+    },
+    {
+      "index": 106,
+      "a": "firqə",
+      "b": "tərəf",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Faction or sect is not securely equivalent to the general word for side."
+    },
+    {
+      "index": 107,
+      "a": "ərinmək",
+      "b": "ərimək",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "The melt reading may be dialectal or a variant; the usual laziness sense needs disambiguation."
+    },
+    {
+      "index": 108,
+      "a": "haqq-ədalət",
+      "b": "ədalət",
+      "decision": "syn",
+      "sense_az": "haqqın qorunması",
+      "sense_en": "justice",
+      "reason_en": "The original glosses support the shared sense “justice”; this approval is limited to that sense."
+    },
+    {
+      "index": 109,
+      "a": "cəzaçəkmə müəssisəsi",
+      "b": "həbsxana",
+      "decision": "syn",
+      "sense_az": "məhkumların saxlandığı yer",
+      "sense_en": "prison",
+      "reason_en": "The original glosses support the shared sense “prison”; this approval is limited to that sense."
+    },
+    {
+      "index": 110,
+      "a": "mübtəda",
+      "b": "mövzu",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Mübtəda is a grammatical subject; mövzu is a topic."
+    },
+    {
+      "index": 111,
+      "a": "xəyal",
+      "b": "yuxu",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Waking imagination or a wish differs from a dream during sleep."
+    },
+    {
+      "index": 112,
+      "a": "gicitikən",
+      "b": "gicitkən",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Orthographic variant of gicitkən; retain for spelling review."
+    },
+    {
+      "index": 113,
+      "a": "fəxr",
+      "b": "qürur",
+      "decision": "syn",
+      "sense_az": "bir şeylə fəxr etmə",
+      "sense_en": "pride in something",
+      "reason_en": "The original glosses support the shared sense “pride in something”; this approval is limited to that sense."
+    },
+    {
+      "index": 114,
+      "a": "vaxtaşırı",
+      "b": "dövri",
+      "decision": "syn",
+      "sense_az": "müəyyən aralıqlarla təkrarlanan",
+      "sense_en": "periodic, recurring",
+      "reason_en": "The original glosses support the shared sense “periodic, recurring”; this approval is limited to that sense. Other senses of either word are excluded."
+    },
+    {
+      "index": 115,
+      "a": "rəşadətli",
+      "b": "igid",
+      "decision": "syn",
+      "sense_az": "cəsarətli, igid",
+      "sense_en": "valiant, brave",
+      "reason_en": "The original glosses support the shared sense “valiant, brave”; this approval is limited to that sense."
+    },
+    {
+      "index": 116,
+      "a": "yengəc",
+      "b": "xərçəng",
+      "decision": "syn",
+      "sense_az": "dəniz xərçəngi",
+      "sense_en": "crab",
+      "reason_en": "The original glosses support the shared sense “crab”; this approval is limited to that sense. Other senses of either word are excluded."
+    },
+    {
+      "index": 117,
+      "a": "dəyənək",
+      "b": "heyət",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Dəyənək is a stick or staff; heyət is a group of employees or personnel."
+    },
+    {
+      "index": 118,
+      "a": "sözün qısası",
+      "b": "uzun sözün qısası",
+      "decision": "syn",
+      "sense_az": "qısaca desək",
+      "sense_en": "long story short",
+      "reason_en": "The original glosses support the shared sense “long story short”; this approval is limited to that sense."
+    },
+    {
+      "index": 119,
+      "a": "fotoreportaj",
+      "b": "fotojurnalistika",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "A photo report is a particular work; photojournalism is the field or practice."
+    },
+    {
+      "index": 120,
+      "a": "sağ çıxmaq",
+      "b": "sağ qalmaq",
+      "decision": "syn",
+      "sense_az": "təhlükədən sonra həyatda qalmaq",
+      "sense_en": "survive",
+      "reason_en": "The original glosses support the shared sense “survive”; this approval is limited to that sense."
+    },
+    {
+      "index": 121,
+      "a": "əngəl",
+      "b": "xəstəlik",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Obstacle, impediment, or disability does not establish synonymy with illness in general."
+    },
+    {
+      "index": 122,
+      "a": "inhisar",
+      "b": "monopoliya",
+      "decision": "syn",
+      "sense_az": "inhisar vəziyyəti",
+      "sense_en": "monopoly",
+      "reason_en": "The original glosses support the shared sense “monopoly”; this approval is limited to that sense."
+    },
+    {
+      "index": 123,
+      "a": "ifratçılıq",
+      "b": "ekstremizm",
+      "decision": "syn",
+      "sense_az": "ifrat mövqe tutma",
+      "sense_en": "extremism",
+      "reason_en": "The original glosses support the shared sense “extremism”; this approval is limited to that sense."
+    },
+    {
+      "index": 124,
+      "a": "ibtidai",
+      "b": "ilkin",
+      "decision": "syn",
+      "sense_az": "başlanğıc mərhələsinə aid",
+      "sense_en": "initial, preliminary",
+      "reason_en": "The original glosses support the shared sense “initial, preliminary”; this approval is limited to that sense."
+    },
+    {
+      "index": 125,
+      "a": "hökmranlıq",
+      "b": "qayda",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Hökmranlıq means rule as domination; qayda means a rule or method."
+    },
+    {
+      "index": 126,
+      "a": "yerdən",
+      "b": "qısa",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Yerdən is explicitly an ablative form of yer; the isolated short gloss cannot justify a lexical synonym."
+    },
+    {
+      "index": 127,
+      "a": "mükəmməliyyət",
+      "b": "mükəmməllik",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Variant formation or spelling of the perfection noun requires form review."
+    },
+    {
+      "index": 128,
+      "a": "kəhanət",
+      "b": "peyğəmbərlik",
+      "decision": "syn",
+      "sense_az": "gələcək haqqında xəbər",
+      "sense_en": "prophecy",
+      "reason_en": "The original glosses support the shared sense “prophecy”; this approval is limited to that sense. Other senses of either word are excluded."
+    },
+    {
+      "index": 129,
+      "a": "mərci",
+      "b": "mərcimək",
+      "decision": "syn",
+      "sense_az": "mərcimək bitkisi və dənəsi",
+      "sense_en": "lentil",
+      "reason_en": "The original glosses support the shared sense “lentil”; this approval is limited to that sense."
+    },
+    {
+      "index": 130,
+      "a": "istiqlaliyyət",
+      "b": "müstəqillik",
+      "decision": "syn",
+      "sense_az": "asılı olmama",
+      "sense_en": "independence",
+      "reason_en": "The original glosses support the shared sense “independence”; this approval is limited to that sense."
+    },
+    {
+      "index": 131,
+      "a": "müqəddimə",
+      "b": "ön söz",
+      "decision": "syn",
+      "sense_az": "əsərin başlanğıcındakı izah",
+      "sense_en": "preface, foreword",
+      "reason_en": "The original glosses support the shared sense “preface, foreword”; this approval is limited to that sense."
+    },
+    {
+      "index": 132,
+      "a": "el-oba",
+      "b": "nəfər",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "El-oba is a collective people or community; nəfər counts individual persons."
+    },
+    {
+      "index": 133,
+      "a": "tərz",
+      "b": "üslub",
+      "decision": "syn",
+      "sense_az": "ifadə və icra üsulu",
+      "sense_en": "style",
+      "reason_en": "The original glosses support the shared sense “style”; this approval is limited to that sense."
+    },
+    {
+      "index": 134,
+      "a": "dövrə",
+      "b": "dairə",
+      "decision": "syn",
+      "sense_az": "dairə şəklində çevrə",
+      "sense_en": "circle",
+      "reason_en": "The original glosses support the shared sense “circle”; this approval is limited to that sense. Other senses of either word are excluded."
+    },
+    {
+      "index": 135,
+      "a": "vız",
+      "b": "vızıltı",
+      "decision": "syn",
+      "sense_az": "vızıldayan səs",
+      "sense_en": "buzz",
+      "reason_en": "The original glosses support the shared sense “buzz”; this approval is limited to that sense."
+    },
+    {
+      "index": 136,
+      "a": "qırov",
+      "b": "şaxta",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Qırov is deposited frost or rime; şaxta is freezing weather."
+    },
+    {
+      "index": 137,
+      "a": "bərəkət",
+      "b": "xeyir-dua",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Divine abundance or blessing differs from a spoken blessing or benediction."
+    },
+    {
+      "index": 138,
+      "a": "bələd",
+      "b": "bilikli",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Familiarity with something and general knowledgeable expertise need a specific shared context."
+    },
+    {
+      "index": 139,
+      "a": "haqq-hesab",
+      "b": "hesablama",
+      "decision": "syn",
+      "sense_az": "rəqəmlərlə hesab aparma",
+      "sense_en": "calculation",
+      "reason_en": "The original glosses support the shared sense “calculation”; this approval is limited to that sense."
+    },
+    {
+      "index": 140,
+      "a": "sürətlənmək",
+      "b": "sürətləndirmək",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Accelerating intransitively differs from accelerating something."
+    },
+    {
+      "index": 141,
+      "a": "qüsn",
+      "b": "filial",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "A tree branch and an organizational branch are different senses of English branch."
+    },
+    {
+      "index": 142,
+      "a": "övrət",
+      "b": "arvad",
+      "decision": "syn",
+      "sense_az": "kişinin evli olduğu qadın",
+      "sense_en": "wife",
+      "reason_en": "The original glosses support the shared sense “wife”; this approval is limited to that sense. A literary, historical, regional, or marked register may apply; this is not a claim of equal everyday frequency."
+    },
+    {
+      "index": 143,
+      "a": "ləla",
+      "b": "parlaq",
+      "decision": "syn",
+      "sense_az": "parıldayan, işıqlı",
+      "sense_en": "shiny, bright",
+      "reason_en": "The original glosses support the shared sense “shiny, bright”; this approval is limited to that sense."
+    },
+    {
+      "index": 144,
+      "a": "zəhəbi",
+      "b": "qızıl",
+      "decision": "syn",
+      "sense_az": "qızıl rəngli",
+      "sense_en": "golden",
+      "reason_en": "The original glosses support the shared sense “golden”; this approval is limited to that sense."
+    },
+    {
+      "index": 145,
+      "a": "məxdum",
+      "b": "ustad",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "A patron or person served differs from a master expert or teacher."
+    },
+    {
+      "index": 146,
+      "a": "bölük",
+      "b": "şirkət",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Bölük is a military company; şirkət is a business company."
+    },
+    {
+      "index": 147,
+      "a": "şəxsi heyət",
+      "b": "personal",
+      "decision": "syn",
+      "sense_az": "bir qurumun işçiləri",
+      "sense_en": "personnel",
+      "reason_en": "The original glosses support the shared sense “personnel”; this approval is limited to that sense."
+    },
+    {
+      "index": 148,
+      "a": "cövhər",
+      "b": "mahiyyət",
+      "decision": "syn",
+      "sense_az": "bir şeyin əsas təbiəti",
+      "sense_en": "essence, inherent nature",
+      "reason_en": "The original glosses support the shared sense “essence, inherent nature”; this approval is limited to that sense."
+    },
+    {
+      "index": 149,
+      "a": "sədd",
+      "b": "divar",
+      "decision": "syn",
+      "sense_az": "qoruyucu divar",
+      "sense_en": "wall or rampart",
+      "reason_en": "The original glosses support the shared sense “wall or rampart”; this approval is limited to that sense. Other senses of either word are excluded."
+    },
+    {
+      "index": 150,
+      "a": "döyünmək",
+      "b": "döymək",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Döyünmək can be a heart beating; döymək means to hit or beat something."
+    },
+    {
+      "index": 151,
+      "a": "cadugər",
+      "b": "sehrbaz",
+      "decision": "syn",
+      "sense_az": "sehr edən şəxs",
+      "sense_en": "magician or sorcerer",
+      "reason_en": "The original glosses support the shared sense “magician or sorcerer”; this approval is limited to that sense."
+    },
+    {
+      "index": 152,
+      "a": "möhnət",
+      "b": "əziyyət",
+      "decision": "syn",
+      "sense_az": "əziyyət, məşəqqət",
+      "sense_en": "suffering",
+      "reason_en": "The original glosses support the shared sense “suffering”; this approval is limited to that sense."
+    },
+    {
+      "index": 153,
+      "a": "papış",
+      "b": "başmaq",
+      "decision": "syn",
+      "sense_az": "yüngül ev ayaqqabısı",
+      "sense_en": "slipper",
+      "reason_en": "The original glosses support the shared sense “slipper”; this approval is limited to that sense."
+    },
+    {
+      "index": 154,
+      "a": "sə'b",
+      "b": "çətin",
+      "decision": "syn",
+      "sense_az": "asan olmayan",
+      "sense_en": "difficult",
+      "reason_en": "The original glosses support the shared sense “difficult”; this approval is limited to that sense."
+    },
+    {
+      "index": 155,
+      "a": "ətsatan",
+      "b": "qəssab",
+      "decision": "syn",
+      "sense_az": "ət hazırlayıb satan şəxs",
+      "sense_en": "butcher",
+      "reason_en": "The original glosses support the shared sense “butcher”; this approval is limited to that sense."
+    },
+    {
+      "index": 156,
+      "a": "hökmdarlıq",
+      "b": "qayda",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Rulership differs from a rule or method; English rule obscures this."
+    },
+    {
+      "index": 157,
+      "a": "dinmək",
+      "b": "danışmaq",
+      "decision": "syn",
+      "sense_az": "sözlə ifadə etmək",
+      "sense_en": "speak",
+      "reason_en": "The original glosses support the shared sense “speak”; this approval is limited to that sense."
+    },
+    {
+      "index": 158,
+      "a": "dairəvi",
+      "b": "dəyirmi",
+      "decision": "syn",
+      "sense_az": "dairə formasında olan",
+      "sense_en": "round, circular",
+      "reason_en": "The original glosses support the shared sense “round, circular”; this approval is limited to that sense. Other senses of either word are excluded."
+    },
+    {
+      "index": 159,
+      "a": "zəruriyyət",
+      "b": "zərurət",
+      "decision": "syn",
+      "sense_az": "vacib ehtiyac",
+      "sense_en": "necessity",
+      "reason_en": "The original glosses support the shared sense “necessity”; this approval is limited to that sense."
+    },
+    {
+      "index": 160,
+      "a": "tərəfsizlik",
+      "b": "neytrallıq",
+      "decision": "syn",
+      "sense_az": "tərəf tutmama",
+      "sense_en": "neutrality",
+      "reason_en": "The original glosses support the shared sense “neutrality”; this approval is limited to that sense."
+    },
+    {
+      "index": 161,
+      "a": "neqativ",
+      "b": "mənfi",
+      "decision": "syn",
+      "sense_az": "mənfi xarakterli",
+      "sense_en": "negative",
+      "reason_en": "The original glosses support the shared sense “negative”; this approval is limited to that sense."
+    },
+    {
+      "index": 162,
+      "a": "istiqraz",
+      "b": "kredit",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "İstiqraz commonly denotes a bond or borrowing instrument; kredit is a loan or credit facility."
+    },
+    {
+      "index": 163,
+      "a": "ləb",
+      "b": "dodaq",
+      "decision": "syn",
+      "sense_az": "ağız kənarı",
+      "sense_en": "lip",
+      "reason_en": "The original glosses support the shared sense “lip”; this approval is limited to that sense. A literary, historical, regional, or marked register may apply; this is not a claim of equal everyday frequency."
+    },
+    {
+      "index": 164,
+      "a": "çadra",
+      "b": "hicab",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "A chador is a specific garment; hijab is a broader covering practice or head covering."
+    },
+    {
+      "index": 165,
+      "a": "mövc",
+      "b": "dalğa",
+      "decision": "syn",
+      "sense_az": "səthdə yayılan dalğa",
+      "sense_en": "wave",
+      "reason_en": "The original glosses support the shared sense “wave”; this approval is limited to that sense. A literary, historical, regional, or marked register may apply; this is not a claim of equal everyday frequency."
+    },
+    {
+      "index": 166,
+      "a": "başqan",
+      "b": "lider",
+      "decision": "syn",
+      "sense_az": "başçılıq edən şəxs",
+      "sense_en": "leader",
+      "reason_en": "The original glosses support the shared sense “leader”; this approval is limited to that sense."
+    },
+    {
+      "index": 167,
+      "a": "şifrləmək",
+      "b": "şifrələmək",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Spelling or formative variant of şifrələmək; handle in variants review."
+    },
+    {
+      "index": 168,
+      "a": "şifr",
+      "b": "şifrə",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "The source explicitly marks şifrə as an alternative form of şifr."
+    },
+    {
+      "index": 169,
+      "a": "belə bilmək",
+      "b": "düşünmək",
+      "decision": "syn",
+      "sense_az": "belə hesab etmək",
+      "sense_en": "think or suppose",
+      "reason_en": "The original glosses support the shared sense “think or suppose”; this approval is limited to that sense."
+    },
+    {
+      "index": 170,
+      "a": "beyət",
+      "b": "itaət",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "A pledge of allegiance differs from the state of obedience."
+    },
+    {
+      "index": 171,
+      "a": "qovzamaq",
+      "b": "yüksəltmək",
+      "decision": "syn",
+      "sense_az": "yuxarı qaldırmaq",
+      "sense_en": "raise, elevate",
+      "reason_en": "The original glosses support the shared sense “raise, elevate”; this approval is limited to that sense."
+    },
+    {
+      "index": 172,
+      "a": "məğrib",
+      "b": "qərb",
+      "decision": "syn",
+      "sense_az": "qərb istiqaməti",
+      "sense_en": "west",
+      "reason_en": "The original glosses support the shared sense “west”; this approval is limited to that sense. A literary, historical, regional, or marked register may apply; this is not a claim of equal everyday frequency."
+    },
+    {
+      "index": 173,
+      "a": "bomjluq",
+      "b": "evsizlik",
+      "decision": "syn",
+      "sense_az": "yaşayış evinin olmaması",
+      "sense_en": "homelessness",
+      "reason_en": "The original glosses support the shared sense “homelessness”; this approval is limited to that sense."
+    },
+    {
+      "index": 174,
+      "a": "mığı",
+      "b": "ağcaqanad",
+      "decision": "syn",
+      "sense_az": "ağcaqanad həşəratı",
+      "sense_en": "mosquito",
+      "reason_en": "The original glosses support the shared sense “mosquito”; this approval is limited to that sense."
+    },
+    {
+      "index": 175,
+      "a": "əzilən",
+      "b": "məzlum",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Əzilən is a passive participial form; keep grammatical forms out of automatic lexical synonym expansion."
+    },
+    {
+      "index": 176,
+      "a": "yaraşıqsız",
+      "b": "çirkin",
+      "decision": "syn",
+      "sense_az": "yaraşıqlı olmayan",
+      "sense_en": "ugly",
+      "reason_en": "The original glosses support the shared sense “ugly”; this approval is limited to that sense."
+    },
+    {
+      "index": 177,
+      "a": "yuvarlamaq",
+      "b": "yuvarlanmaq",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Rolling something differs from rolling intransitively."
+    },
+    {
+      "index": 178,
+      "a": "situasiya",
+      "b": "vəziyyət",
+      "decision": "syn",
+      "sense_az": "mövcud şərait",
+      "sense_en": "situation",
+      "reason_en": "The original glosses support the shared sense “situation”; this approval is limited to that sense."
+    },
+    {
+      "index": 179,
+      "a": "köndələn",
+      "b": "çarpaz",
+      "decision": "syn",
+      "sense_az": "eninə, çarpaz istiqamətli",
+      "sense_en": "transverse, crosswise",
+      "reason_en": "The original glosses support the shared sense “transverse, crosswise”; this approval is limited to that sense. Other senses of either word are excluded."
+    },
+    {
+      "index": 180,
+      "a": "fəsih",
+      "b": "bəlağətli",
+      "decision": "syn",
+      "sense_az": "səlis və təsirli danışan",
+      "sense_en": "eloquent",
+      "reason_en": "The original glosses support the shared sense “eloquent”; this approval is limited to that sense."
+    },
+    {
+      "index": 181,
+      "a": "təhrir",
+      "b": "yazı",
+      "decision": "syn",
+      "sense_az": "yazılı mətn",
+      "sense_en": "writing or text",
+      "reason_en": "The original glosses support the shared sense “writing or text”; this approval is limited to that sense."
+    },
+    {
+      "index": 182,
+      "a": "məruzə",
+      "b": "hesabat",
+      "decision": "syn",
+      "sense_az": "məlumat verən hesabat",
+      "sense_en": "report",
+      "reason_en": "The original glosses support the shared sense “report”; this approval is limited to that sense. Other senses of either word are excluded."
+    },
+    {
+      "index": 183,
+      "a": "zəhrimar",
+      "b": "zəhər",
+      "decision": "syn",
+      "sense_az": "zəhərli maddə",
+      "sense_en": "poison",
+      "reason_en": "The original glosses support the shared sense “poison”; this approval is limited to that sense."
+    },
+    {
+      "index": 184,
+      "a": "tədhiş",
+      "b": "terror",
+      "decision": "syn",
+      "sense_az": "zorakılıqla qorxutma",
+      "sense_en": "terror, intimidation by violence",
+      "reason_en": "The original glosses support the shared sense “terror, intimidation by violence”; this approval is limited to that sense."
+    },
+    {
+      "index": 185,
+      "a": "üz-göz",
+      "b": "üz",
+      "decision": "syn",
+      "sense_az": "sifət, üz görünüşü",
+      "sense_en": "face or visage",
+      "reason_en": "The original glosses support the shared sense “face or visage”; this approval is limited to that sense."
+    },
+    {
+      "index": 186,
+      "a": "xanəgah",
+      "b": "xanəqah",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Spelling variant of the khanaqah headword; handle as a variant."
+    },
+    {
+      "index": 187,
+      "a": "duralğa",
+      "b": "düşərgə",
+      "decision": "syn",
+      "sense_az": "müvəqqəti məskən",
+      "sense_en": "camp",
+      "reason_en": "The original glosses support the shared sense “camp”; this approval is limited to that sense. Other senses of either word are excluded."
+    },
+    {
+      "index": 188,
+      "a": "ətrafına",
+      "b": "ətrafında",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Both are inflected ətraf forms, with directional versus locative meaning; keep in grammar data."
+    },
+    {
+      "index": 189,
+      "a": "umacaq",
+      "b": "ümid",
+      "decision": "syn",
+      "sense_az": "arzu edilənin olacağına ümid",
+      "sense_en": "hope",
+      "reason_en": "The original glosses support the shared sense “hope”; this approval is limited to that sense."
+    },
+    {
+      "index": 190,
+      "a": "göynəmək",
+      "b": "qaşınmaq",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Burning or aching discomfort is not securely the same as itching; the short source gloss needs verification."
+    },
+    {
+      "index": 191,
+      "a": "revanş",
+      "b": "qisas",
+      "decision": "syn",
+      "sense_az": "əvəzini çıxma",
+      "sense_en": "revenge",
+      "reason_en": "The original glosses support the shared sense “revenge”; this approval is limited to that sense."
+    },
+    {
+      "index": 192,
+      "a": "zurnalist",
+      "b": "jurnalist",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Zurnalist may be a marked or derogatory alteration of jurnalist; spelling and register need checking."
+    },
+    {
+      "index": 193,
+      "a": "cızıq",
+      "b": "sətir",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "A drawn or scratched line differs from a row of written text."
+    },
+    {
+      "index": 194,
+      "a": "mehman",
+      "b": "qonaq",
+      "decision": "syn",
+      "sense_az": "ziyarətə gələn şəxs",
+      "sense_en": "guest",
+      "reason_en": "The original glosses support the shared sense “guest”; this approval is limited to that sense."
+    },
+    {
+      "index": 195,
+      "a": "dənizkirpisi",
+      "b": "dəniz kirpisi",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Closed and spaced spellings of the same compound; handle as spelling variants."
+    },
+    {
+      "index": 196,
+      "a": "ekspromt",
+      "b": "bədahətən",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Ekspromt can be a noun for an improvised piece; bədahətən is an adverb meaning spontaneously."
+    },
+    {
+      "index": 197,
+      "a": "çəkələk",
+      "b": "başmaq",
+      "decision": "syn",
+      "sense_az": "yüngül ev ayaqqabısı",
+      "sense_en": "slipper",
+      "reason_en": "The original glosses support the shared sense “slipper”; this approval is limited to that sense."
+    },
+    {
+      "index": 198,
+      "a": "ala-yarımçıq",
+      "b": "natamam",
+      "decision": "syn",
+      "sense_az": "tam olmayan",
+      "sense_en": "incomplete",
+      "reason_en": "The original glosses support the shared sense “incomplete”; this approval is limited to that sense."
+    },
+    {
+      "index": 199,
+      "a": "cərəyanölçən",
+      "b": "ampermetr",
+      "decision": "syn",
+      "sense_az": "cərəyan şiddətini ölçən cihaz",
+      "sense_en": "ammeter",
+      "reason_en": "The original glosses support the shared sense “ammeter”; this approval is limited to that sense."
+    },
+    {
+      "index": 200,
+      "a": "işıqölçən",
+      "b": "fotometr",
+      "decision": "syn",
+      "sense_az": "işığı ölçən cihaz",
+      "sense_en": "photometer",
+      "reason_en": "The original glosses support the shared sense “photometer”; this approval is limited to that sense."
+    },
+    {
+      "index": 201,
+      "a": "qoqli",
+      "b": "masturbasiya",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "The isolated slang-looking headword has no usage or register evidence beyond a single translated gloss."
+    },
+    {
+      "index": 202,
+      "a": "dumanlıq",
+      "b": "duman",
+      "decision": "syn",
+      "sense_az": "yerə yaxın su damcıları dumanı",
+      "sense_en": "fog",
+      "reason_en": "The original glosses support the shared sense “fog”; this approval is limited to that sense. Other senses of either word are excluded."
+    },
+    {
+      "index": 203,
+      "a": "etimad be nəfs",
+      "b": "etimad",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Self-confidence is a specific kind of confidence, not trust in general."
+    },
+    {
+      "index": 204,
+      "a": "sərtib",
+      "b": "komandir",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Sərtib is a historical military rank, not a general synonym for commander."
+    },
+    {
+      "index": 205,
+      "a": "yaxınçılıq",
+      "b": "səmimiyyət",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Closeness or intimacy and sincerity are related but distinct meanings."
+    },
+    {
+      "index": 206,
+      "a": "düxtər",
+      "b": "qız",
+      "decision": "syn",
+      "sense_az": "qız uşağı və ya gənc qadın",
+      "sense_en": "girl",
+      "reason_en": "The original glosses support the shared sense “girl”; this approval is limited to that sense. A literary, historical, regional, or marked register may apply; this is not a claim of equal everyday frequency."
+    },
+    {
+      "index": 207,
+      "a": "şalğam",
+      "b": "şalgam",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Orthographic variant of the turnip headword; handle as spelling data."
+    },
+    {
+      "index": 208,
+      "a": "aşsüzən",
+      "b": "süzgəc",
+      "decision": "syn",
+      "sense_az": "qidanı süzmək üçün qab",
+      "sense_en": "colander",
+      "reason_en": "The original glosses support the shared sense “colander”; this approval is limited to that sense. Other senses of either word are excluded."
+    },
+    {
+      "index": 209,
+      "a": "el-gün",
+      "b": "nəfər",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "El-gün denotes a collective people; nəfər counts an individual."
+    },
+    {
+      "index": 210,
+      "a": "dindoş",
+      "b": "dini",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Dindoş means sharing a religion, not simply religious."
+    },
+    {
+      "index": 211,
+      "a": "müamilə",
+      "b": "müalicə",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Müamilə is dealing or conduct toward someone; müalicə is medical treatment."
+    },
+    {
+      "index": 212,
+      "a": "metodoloq",
+      "b": "metodist",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Metodoloq studies methodology; metodist often develops or advises teaching methods. The broad translated role label does not establish an identical professional sense."
+    },
+    {
+      "index": 213,
+      "a": "acılı",
+      "b": "zəhərli",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Acılı is ordinarily bitter, spicy, or painful; the Turkish poisonous gloss alone needs contextual verification."
+    },
+    {
+      "index": 214,
+      "a": "dün",
+      "b": "dünən",
+      "decision": "syn",
+      "sense_az": "bu gündən əvvəlki gün",
+      "sense_en": "yesterday",
+      "reason_en": "The original glosses support the shared sense “yesterday”; this approval is limited to that sense. A literary, historical, regional, or marked register may apply; this is not a claim of equal everyday frequency."
+    },
+    {
+      "index": 215,
+      "a": "cögə",
+      "b": "cökə",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Cögə and cökə are variant forms of the same tree name; route to form review."
+    },
+    {
+      "index": 216,
+      "a": "hasant",
+      "b": "asan",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Nonstandard or dialectal expansion of asan needs spelling and register review."
+    },
+    {
+      "index": 217,
+      "a": "ilqar",
+      "b": "and",
+      "decision": "syn",
+      "sense_az": "verilən and",
+      "sense_en": "oath",
+      "reason_en": "The original glosses support the shared sense “oath”; this approval is limited to that sense."
+    },
+    {
+      "index": 218,
+      "a": "exo",
+      "b": "əks-səda",
+      "decision": "syn",
+      "sense_az": "səsin geri qayıtması",
+      "sense_en": "echo",
+      "reason_en": "The original glosses support the shared sense “echo”; this approval is limited to that sense."
+    },
+    {
+      "index": 219,
+      "a": "asta-asta",
+      "b": "yavaş-yavaş",
+      "decision": "syn",
+      "sense_az": "asta şəkildə",
+      "sense_en": "slowly, gradually",
+      "reason_en": "The original glosses support the shared sense “slowly, gradually”; this approval is limited to that sense."
+    },
+    {
+      "index": 220,
+      "a": "abbatlıq",
+      "b": "monastır",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "An abbey is a particular kind of monastery."
+    },
+    {
+      "index": 221,
+      "a": "konstitutsiya",
+      "b": "konstitusiya",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Orthographic variant of konstitusiya."
+    },
+    {
+      "index": 222,
+      "a": "tecavüz",
+      "b": "hücum",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "The tecavüz spelling and its specific aggression sense require correction before a synonym link to all attacks."
+    },
+    {
+      "index": 223,
+      "a": "esse",
+      "b": "sınaq",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Esse is an essay; Turkish deneme also means trial and has been translated in the wrong sense."
+    },
+    {
+      "index": 224,
+      "a": "kompyuter",
+      "b": "kompüter",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Orthographic variant of kompüter."
+    },
+    {
+      "index": 225,
+      "a": "nadan",
+      "b": "cahil",
+      "decision": "syn",
+      "sense_az": "biliyi olmayan",
+      "sense_en": "ignorant",
+      "reason_en": "The original glosses support the shared sense “ignorant”; this approval is limited to that sense."
+    },
+    {
+      "index": 226,
+      "a": "fe'l",
+      "b": "fel",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Historical spelling of the same grammatical term fel."
+    },
+    {
+      "index": 227,
+      "a": "san",
+      "b": "dərəcə",
+      "decision": "syn",
+      "sense_az": "mövqe və rütbə dərəcəsi",
+      "sense_en": "rank or level",
+      "reason_en": "The original glosses support the shared sense “rank or level”; this approval is limited to that sense."
+    },
+    {
+      "index": 228,
+      "a": "xatın",
+      "b": "cücə",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Turkish hatun means woman or lady; chick here is the wrong English sense and does not mean a young chicken."
+    },
+    {
+      "index": 229,
+      "a": "etik",
+      "b": "etika",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Etik is normally the adjective ethical; etika is the noun ethics, despite the stored noun tag."
+    },
+    {
+      "index": 230,
+      "a": "bagaj",
+      "b": "baqaj",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Orthographic variant of baqaj."
+    },
+    {
+      "index": 231,
+      "a": "barış",
+      "b": "sülh",
+      "decision": "syn",
+      "sense_az": "müharibənin olmadığı hal",
+      "sense_en": "peace",
+      "reason_en": "The original glosses support the shared sense “peace”; this approval is limited to that sense."
+    },
+    {
+      "index": 232,
+      "a": "çatma",
+      "b": "gəliş",
+      "decision": "syn",
+      "sense_az": "bir yerə gəlib çatma",
+      "sense_en": "arrival",
+      "reason_en": "The original glosses support the shared sense “arrival”; this approval is limited to that sense."
+    },
+    {
+      "index": 233,
+      "a": "çöllük",
+      "b": "səhra",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Open steppe or wilderness and a desert are not reliably interchangeable."
+    },
+    {
+      "index": 234,
+      "a": "kontrol",
+      "b": "nəzarət",
+      "decision": "syn",
+      "sense_az": "yoxlama və nəzarət",
+      "sense_en": "control or inspection",
+      "reason_en": "The original glosses support the shared sense “control or inspection”; this approval is limited to that sense."
+    },
+    {
+      "index": 235,
+      "a": "niyaz",
+      "b": "dua",
+      "decision": "syn",
+      "sense_az": "Allaha edilən dua",
+      "sense_en": "prayer or supplication",
+      "reason_en": "The original glosses support the shared sense “prayer or supplication”; this approval is limited to that sense."
+    },
+    {
+      "index": 236,
+      "a": "nüfus",
+      "b": "əhali",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Nüfus is a Turkish-looking population form whose Azerbaijani spelling and lexical status need verification."
+    },
+    {
+      "index": 237,
+      "a": "sağaltma",
+      "b": "şəfa",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "The act of healing and a cure or recovery as a result are different nominal senses."
+    },
+    {
+      "index": 238,
+      "a": "çeşni",
+      "b": "ədviyyat",
+      "decision": "syn",
+      "sense_az": "yeməyə dad verən ədviyyat",
+      "sense_en": "seasoning",
+      "reason_en": "The original glosses support the shared sense “seasoning”; this approval is limited to that sense. Other senses of either word are excluded."
+    },
+    {
+      "index": 239,
+      "a": "depo",
+      "b": "anbar",
+      "decision": "syn",
+      "sense_az": "malların saxlandığı yer",
+      "sense_en": "warehouse",
+      "reason_en": "The original glosses support the shared sense “warehouse”; this approval is limited to that sense."
+    },
+    {
+      "index": 240,
+      "a": "kilit",
+      "b": "kilid",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Orthographic or Turkish-form variant of kilid."
+    },
+    {
+      "index": 241,
+      "a": "qəzal",
+      "b": "ceyran",
+      "decision": "syn",
+      "sense_az": "ceyran heyvanı",
+      "sense_en": "gazelle",
+      "reason_en": "The original glosses support the shared sense “gazelle”; this approval is limited to that sense."
+    },
+    {
+      "index": 242,
+      "a": "idrak",
+      "b": "qavrayış",
+      "decision": "syn",
+      "sense_az": "dərk etmə",
+      "sense_en": "perception or understanding",
+      "reason_en": "The original glosses support the shared sense “perception or understanding”; this approval is limited to that sense."
+    },
+    {
+      "index": 243,
+      "a": "iftira",
+      "b": "böhtan",
+      "decision": "syn",
+      "sense_az": "yalan ittiham",
+      "sense_en": "slander",
+      "reason_en": "The original glosses support the shared sense “slander”; this approval is limited to that sense."
+    },
+    {
+      "index": 244,
+      "a": "koridor",
+      "b": "dəhliz",
+      "decision": "syn",
+      "sense_az": "binada keçid dəhlizi",
+      "sense_en": "corridor",
+      "reason_en": "The original glosses support the shared sense “corridor”; this approval is limited to that sense."
+    },
+    {
+      "index": 245,
+      "a": "seyirci",
+      "b": "tamaşaçı",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Seyirci appears to be a Turkish spelling; verify the Azerbaijani lexical form before linking."
+    },
+    {
+      "index": 246,
+      "a": "ansızın",
+      "b": "birdən",
+      "decision": "syn",
+      "sense_az": "gözlənilmədən",
+      "sense_en": "suddenly",
+      "reason_en": "The original glosses support the shared sense “suddenly”; this approval is limited to that sense."
+    },
+    {
+      "index": 247,
+      "a": "mandarin",
+      "b": "naringi",
+      "decision": "syn",
+      "sense_az": "naringi meyvəsi",
+      "sense_en": "mandarin orange",
+      "reason_en": "The original glosses support the shared sense “mandarin orange”; this approval is limited to that sense."
+    },
+    {
+      "index": 248,
+      "a": "anvar",
+      "b": "soba",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Turkish ocak can mean January or a hearth; anvar does not establish the stove sense."
+    },
+    {
+      "index": 249,
+      "a": "dohsan",
+      "b": "doxsan",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Orthographic or pronunciation variant of doxsan."
+    },
+    {
+      "index": 250,
+      "a": "tomat",
+      "b": "pomidor",
+      "decision": "syn",
+      "sense_az": "pomidor meyvəsi",
+      "sense_en": "tomato",
+      "reason_en": "The original glosses support the shared sense “tomato”; this approval is limited to that sense."
+    },
+    {
+      "index": 251,
+      "a": "obraz",
+      "b": "şəkil",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Obraz commonly means a mental, artistic, or character image; şəkil is a picture or form. The bare image gloss is insufficient."
+    },
+    {
+      "index": 252,
+      "a": "amac",
+      "b": "məqsəd",
+      "decision": "syn",
+      "sense_az": "nəzərdə tutulan məqsəd",
+      "sense_en": "purpose or aim",
+      "reason_en": "The original glosses support the shared sense “purpose or aim”; this approval is limited to that sense."
+    },
+    {
+      "index": 253,
+      "a": "örtü",
+      "b": "örtük",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Örtü may be a Turkish or regional form alongside örtük; verify Azerbaijani lexical status and form relation before adding a green link."
+    },
+    {
+      "index": 254,
+      "a": "mübariz",
+      "b": "döyüşçü",
+      "decision": "syn",
+      "sense_az": "döyüşən şəxs",
+      "sense_en": "fighter or warrior",
+      "reason_en": "The original glosses support the shared sense “fighter or warrior”; this approval is limited to that sense."
+    },
+    {
+      "index": 255,
+      "a": "sergi",
+      "b": "sərgi",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Orthographic or Turkish-form variant of sərgi."
+    },
+    {
+      "index": 256,
+      "a": "guş",
+      "b": "quş",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Guş can be the Persian-derived ear word; Turkish kuş bird does not safely establish synonymy with quş."
+    },
+    {
+      "index": 257,
+      "a": "düdük",
+      "b": "fit",
+      "decision": "syn",
+      "sense_az": "fit səsi və ya aləti",
+      "sense_en": "whistle",
+      "reason_en": "The original glosses support the shared sense “whistle”; this approval is limited to that sense."
+    },
+    {
+      "index": 258,
+      "a": "yer kökü",
+      "b": "kök",
+      "decision": "syn",
+      "sense_az": "yeməli kök tərəvəzi",
+      "sense_en": "carrot",
+      "reason_en": "The original glosses support the shared sense “carrot”; this approval is limited to that sense. Other senses of either word are excluded."
+    },
+    {
+      "index": 259,
+      "a": "hacı",
+      "b": "zəvvar",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Hacı is specifically a person who completed the Hajj; zəvvar is a pilgrim in general."
+    },
+    {
+      "index": 260,
+      "a": "haydut",
+      "b": "quldur",
+      "decision": "syn",
+      "sense_az": "soyğunçu, quldur",
+      "sense_en": "bandit or robber",
+      "reason_en": "The original glosses support the shared sense “bandit or robber”; this approval is limited to that sense."
+    },
+    {
+      "index": 261,
+      "a": "keyik",
+      "b": "maral",
+      "decision": "syn",
+      "sense_az": "maral heyvanı",
+      "sense_en": "deer",
+      "reason_en": "The original glosses support the shared sense “deer”; this approval is limited to that sense."
+    },
+    {
+      "index": 262,
+      "a": "suç",
+      "b": "cinayət",
+      "decision": "syn",
+      "sense_az": "qanuna zidd cinayət",
+      "sense_en": "crime or offence",
+      "reason_en": "The original glosses support the shared sense “crime or offence”; this approval is limited to that sense."
+    },
+    {
+      "index": 263,
+      "a": "qəsdçi",
+      "b": "terrorçu",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "An assassin or conspirator is not necessarily a terrorist."
+    },
+    {
+      "index": 264,
+      "a": "ləyaqət",
+      "b": "fəzilət",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Worthiness or dignity differs from a virtue or moral excellence."
+    },
+    {
+      "index": 265,
+      "a": "cılız",
+      "b": "arıq",
+      "decision": "syn",
+      "sense_az": "çox arıq olan",
+      "sense_en": "skinny",
+      "reason_en": "The original glosses support the shared sense “skinny”; this approval is limited to that sense."
+    },
+    {
+      "index": 266,
+      "a": "daşıma",
+      "b": "nəqliyyat",
+      "decision": "syn",
+      "sense_az": "bir yerdən başqa yerə daşıma",
+      "sense_en": "transportation",
+      "reason_en": "The original glosses support the shared sense “transportation”; this approval is limited to that sense."
+    },
+    {
+      "index": 267,
+      "a": "disput",
+      "b": "müzakirə",
+      "decision": "syn",
+      "sense_az": "məsələnin müzakirəsi",
+      "sense_en": "discussion or debate",
+      "reason_en": "The original glosses support the shared sense “discussion or debate”; this approval is limited to that sense."
+    },
+    {
+      "index": 268,
+      "a": "fışqırıq",
+      "b": "fit",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Fışqırıq suggests a jet or gushing sound; a bare Turkish whistle gloss needs lexical verification."
+    },
+    {
+      "index": 269,
+      "a": "gavur",
+      "b": "kafir",
+      "decision": "syn",
+      "sense_az": "dini baxımdan inanmayan şəxs",
+      "sense_en": "infidel or unbeliever",
+      "reason_en": "The original glosses support the shared sense “infidel or unbeliever”; this approval is limited to that sense."
+    },
+    {
+      "index": 270,
+      "a": "heç bir",
+      "b": "heç biri",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Heç bir is a determiner; heç biri is a pronominal form, with different grammar."
+    },
+    {
+      "index": 271,
+      "a": "kontakt",
+      "b": "nəqliyyat",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Kontakt means contact; transport or access appears to be a mistranslation."
+    },
+    {
+      "index": 272,
+      "a": "kübar",
+      "b": "nəzakətli",
+      "decision": "syn",
+      "sense_az": "nəzakətlə davranan",
+      "sense_en": "polite, courteous",
+      "reason_en": "The original glosses support the shared sense “polite, courteous”; this approval is limited to that sense."
+    },
+    {
+      "index": 273,
+      "a": "pambuq",
+      "b": "pambıq",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Orthographic or dialectal variant of pambıq."
+    },
+    {
+      "index": 274,
+      "a": "qazıq",
+      "b": "qalaq",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Qazıq is a stake or driven pile; qalaq is a heap or stack."
+    },
+    {
+      "index": 275,
+      "a": "şlyapa",
+      "b": "papaq",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Şlyapa is a particular hat type; papaq covers hats and caps more broadly."
+    },
+    {
+      "index": 276,
+      "a": "şüurlu",
+      "b": "ağıllı",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Conscious or aware does not automatically mean intelligent."
+    },
+    {
+      "index": 277,
+      "a": "tutam",
+      "b": "çimdik",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "A small handful or tuft and a pinch are distinct quantities or acts."
+    },
+    {
+      "index": 278,
+      "a": "biləks",
+      "b": "əksinə",
+      "decision": "syn",
+      "sense_az": "əksinə olaraq",
+      "sense_en": "on the contrary",
+      "reason_en": "The original glosses support the shared sense “on the contrary”; this approval is limited to that sense."
+    },
+    {
+      "index": 279,
+      "a": "çox mərtəbəli ev",
+      "b": "mənzil",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "A multistorey apartment building differs from an individual apartment."
+    },
+    {
+      "index": 280,
+      "a": "dərgah",
+      "b": "loja",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "A Sufi lodge and a Masonic lodge or box are different senses of lodge."
+    },
+    {
+      "index": 281,
+      "a": "hasilatetmə",
+      "b": "istehsal",
+      "decision": "syn",
+      "sense_az": "məhsul istehsal etmə",
+      "sense_en": "production",
+      "reason_en": "The original glosses support the shared sense “production”; this approval is limited to that sense."
+    },
+    {
+      "index": 282,
+      "a": "heybət",
+      "b": "Əlahəzrət",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Grandeur or awe differs from the honorific title Your Majesty."
+    },
+    {
+      "index": 283,
+      "a": "hərtərəfli",
+      "b": "universal",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "The stored noun tags are suspect: these are adjectives, and all-round is not always universal."
+    },
+    {
+      "index": 284,
+      "a": "ibrət",
+      "b": "dərs",
+      "decision": "syn",
+      "sense_az": "hadisədən çıxarılan ibrət",
+      "sense_en": "lesson learned",
+      "reason_en": "The original glosses support the shared sense “lesson learned”; this approval is limited to that sense. Other senses of either word are excluded."
+    },
+    {
+      "index": 285,
+      "a": "muharibə",
+      "b": "müharibə",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Orthographic variant of müharibə."
+    },
+    {
+      "index": 286,
+      "a": "əsmər",
+      "b": "qaraşın",
+      "decision": "syn",
+      "sense_az": "tünd saçlı və ya qarabuğdayı",
+      "sense_en": "brunette or dark-complexioned",
+      "reason_en": "The original glosses support the shared sense “brunette or dark-complexioned”; this approval is limited to that sense."
+    },
+    {
+      "index": 287,
+      "a": "səbzə",
+      "b": "tərəvəz",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Greens or sprouts can be narrower than vegetables; the short Turkish gloss needs botanical context."
+    },
+    {
+      "index": 288,
+      "a": "sədaqət",
+      "b": "sadiqlik",
+      "decision": "syn",
+      "sense_az": "vəfa, bağlılıq",
+      "sense_en": "loyalty, faithfulness",
+      "reason_en": "The original glosses support the shared sense “loyalty, faithfulness”; this approval is limited to that sense."
+    },
+    {
+      "index": 289,
+      "a": "zəkalı",
+      "b": "ağıllı",
+      "decision": "syn",
+      "sense_az": "zəkası olan",
+      "sense_en": "intelligent, clever",
+      "reason_en": "The original glosses support the shared sense “intelligent, clever”; this approval is limited to that sense."
+    },
+    {
+      "index": 290,
+      "a": "çılçıraq",
+      "b": "çilçıraq",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Orthographic variant of çilçıraq."
+    },
+    {
+      "index": 291,
+      "a": "nahar yeməyi",
+      "b": "nahar",
+      "decision": "syn",
+      "sense_az": "günorta yeməyi",
+      "sense_en": "lunch",
+      "reason_en": "The original glosses support the shared sense “lunch”; this approval is limited to that sense."
+    },
+    {
+      "index": 292,
+      "a": "əl telefonu",
+      "b": "mobil telefon",
+      "decision": "syn",
+      "sense_az": "daşınan mobil rabitə telefonu",
+      "sense_en": "mobile phone",
+      "reason_en": "The original glosses support the shared sense “mobile phone”; this approval is limited to that sense."
+    },
+    {
+      "index": 293,
+      "a": "qübbə",
+      "b": "günbəz",
+      "decision": "syn",
+      "sense_az": "qübbə formasında dam",
+      "sense_en": "dome or cupola",
+      "reason_en": "The original glosses support the shared sense “dome or cupola”; this approval is limited to that sense."
+    },
+    {
+      "index": 294,
+      "a": "skeleton",
+      "b": "skelet",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Skeleton names a sliding sport here; skelet names an anatomical skeleton."
+    },
+    {
+      "index": 295,
+      "a": "təbiyət",
+      "b": "təbiət",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Orthographic variant of təbiət."
+    },
+    {
+      "index": 296,
+      "a": "xəyanətkarlıq",
+      "b": "xəyanət",
+      "decision": "syn",
+      "sense_az": "etimadı pozan xəyanət",
+      "sense_en": "treachery or betrayal",
+      "reason_en": "The original glosses support the shared sense “treachery or betrayal”; this approval is limited to that sense."
+    },
+    {
+      "index": 297,
+      "a": "məhdudiyyət",
+      "b": "maneə",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "A restriction or limitation is not necessarily an obstacle."
+    },
+    {
+      "index": 298,
+      "a": "ədyal",
+      "b": "yorğan",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "A blanket and a quilt or duvet are distinct bedding items in the source glosses."
+    },
+    {
+      "index": 299,
+      "a": "təyyarəçi",
+      "b": "pilot",
+      "decision": "syn",
+      "sense_az": "təyyarə idarə edən şəxs",
+      "sense_en": "pilot",
+      "reason_en": "The original glosses support the shared sense “pilot”; this approval is limited to that sense."
+    },
+    {
+      "index": 300,
+      "a": "qaynana",
+      "b": "qayınana",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Pronunciation or spelling variant of qayınana."
+    },
+    {
+      "index": 301,
+      "a": "ağac qabığı",
+      "b": "qabıq",
+      "decision": "syn",
+      "sense_az": "ağacın xarici örtüyü",
+      "sense_en": "tree bark",
+      "reason_en": "The original glosses support the shared sense “tree bark”; this approval is limited to that sense. Other senses of either word are excluded."
+    },
+    {
+      "index": 302,
+      "a": "qamət",
+      "b": "bədən",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Stature or bodily build differs from the body itself."
+    },
+    {
+      "index": 303,
+      "a": "papaqan",
+      "b": "tutuquşu",
+      "decision": "syn",
+      "sense_az": "tutuquşu",
+      "sense_en": "parrot",
+      "reason_en": "The original glosses support the shared sense “parrot”; this approval is limited to that sense."
+    },
+    {
+      "index": 304,
+      "a": "çəpkən",
+      "b": "cib",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Turkish cepken is a short jacket, not a pocket; the translation is incorrect."
+    },
+    {
+      "index": 305,
+      "a": "qanuniləşdirmə",
+      "b": "müalicə",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Qanuniləşdirmə is legalization; Turkish muamele treatment or transaction does not justify medical treatment."
+    },
+    {
+      "index": 306,
+      "a": "köpək balıqı",
+      "b": "köpək balığı",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Orthographic variant of the same shark compound."
+    },
+    {
+      "index": 307,
+      "a": "qarabağır",
+      "b": "çil",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "The Turkish çil can name a bird or a freckle; the bird sense must not be linked to a skin freckle."
+    },
+    {
+      "index": 308,
+      "a": "gilənar",
+      "b": "albalı",
+      "decision": "syn",
+      "sense_az": "turş albalı meyvəsi",
+      "sense_en": "sour cherry",
+      "reason_en": "The original glosses support the shared sense “sour cherry”; this approval is limited to that sense."
+    },
+    {
+      "index": 309,
+      "a": "quramit",
+      "b": "ot",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "The unusual quramit headword needs independent lexical verification; a single Turkish grass gloss is insufficient."
+    },
+    {
+      "index": 310,
+      "a": "mifik",
+      "b": "əfsanəvi",
+      "decision": "syn",
+      "sense_az": "əfsanəyə aid olan",
+      "sense_en": "mythical or legendary",
+      "reason_en": "The original glosses support the shared sense “mythical or legendary”; this approval is limited to that sense. Other senses of either word are excluded."
+    },
+    {
+      "index": 311,
+      "a": "batil inanc",
+      "b": "xurafat",
+      "decision": "syn",
+      "sense_az": "əsassız batil inanc",
+      "sense_en": "superstition",
+      "reason_en": "The original glosses support the shared sense “superstition”; this approval is limited to that sense."
+    },
+    {
+      "index": 312,
+      "a": "kommersiya",
+      "b": "ticarət",
+      "decision": "syn",
+      "sense_az": "mal alıb-satma fəaliyyəti",
+      "sense_en": "commerce or trade",
+      "reason_en": "The original glosses support the shared sense “commerce or trade”; this approval is limited to that sense."
+    },
+    {
+      "index": 313,
+      "a": "tibb qardaşı",
+      "b": "tibb bacısı",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Male nurse and female nurse are gender-specific terms, not unrestricted equivalents."
+    },
+    {
+      "index": 314,
+      "a": "partlama",
+      "b": "partlayış",
+      "decision": "syn",
+      "sense_az": "qəfil partlayış",
+      "sense_en": "explosion",
+      "reason_en": "The original glosses support the shared sense “explosion”; this approval is limited to that sense."
+    },
+    {
+      "index": 315,
+      "a": "hörmətdən salmaq",
+      "b": "alçaltmaq",
+      "decision": "syn",
+      "sense_az": "hörmətdən salaraq alçaltmaq",
+      "sense_en": "humiliate or belittle",
+      "reason_en": "The original glosses support the shared sense “humiliate or belittle”; this approval is limited to that sense."
+    },
+    {
+      "index": 316,
+      "a": "güvən",
+      "b": "etibar",
+      "decision": "syn",
+      "sense_az": "inam, etibar",
+      "sense_en": "trust",
+      "reason_en": "The original glosses support the shared sense “trust”; this approval is limited to that sense."
+    },
+    {
+      "index": 317,
+      "a": "cəfa",
+      "b": "əziyyət",
+      "decision": "syn",
+      "sense_az": "əziyyət, məşəqqət",
+      "sense_en": "suffering",
+      "reason_en": "The original glosses support the shared sense “suffering”; this approval is limited to that sense."
+    },
+    {
+      "index": 318,
+      "a": "dazlaşmaq",
+      "b": "keçəlləşmək",
+      "decision": "syn",
+      "sense_az": "saçını itirib keçəl olmaq",
+      "sense_en": "go bald",
+      "reason_en": "The original glosses support the shared sense “go bald”; this approval is limited to that sense."
+    },
+    {
+      "index": 319,
+      "a": "satqı",
+      "b": "satış",
+      "decision": "syn",
+      "sense_az": "mal satma",
+      "sense_en": "sale or selling",
+      "reason_en": "The original glosses support the shared sense “sale or selling”; this approval is limited to that sense."
+    },
+    {
+      "index": 320,
+      "a": "layihələşdirmə",
+      "b": "layihələndirmə",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Closely related formations of the same planning verb need morphological or variant classification first."
+    },
+    {
+      "index": 321,
+      "a": "ləngitmə",
+      "b": "gecikmə",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Causing a delay differs from a delay occurring."
+    },
+    {
+      "index": 322,
+      "a": "xorlama",
+      "b": "xoruldama",
+      "decision": "syn",
+      "sense_az": "yuxuda xoruldama",
+      "sense_en": "snoring",
+      "reason_en": "The original glosses support the shared sense “snoring”; this approval is limited to that sense."
+    },
+    {
+      "index": 323,
+      "a": "atəşli",
+      "b": "isti",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Fiery or feverish is more specific than having a high temperature; the source does not fix a shared sense."
+    },
+    {
+      "index": 324,
+      "a": "xunxar",
+      "b": "qəddar",
+      "decision": "syn",
+      "sense_az": "rəhmsiz, qəddar",
+      "sense_en": "brutal, ruthless",
+      "reason_en": "The original glosses support the shared sense “brutal, ruthless”; this approval is limited to that sense."
+    },
+    {
+      "index": 325,
+      "a": "nifaq",
+      "b": "ixtilaf",
+      "decision": "syn",
+      "sense_az": "fikir ayrılığı, çəkişmə",
+      "sense_en": "discord or disagreement",
+      "reason_en": "The original glosses support the shared sense “discord or disagreement”; this approval is limited to that sense."
+    },
+    {
+      "index": 326,
+      "a": "nəşəli",
+      "b": "şən",
+      "decision": "syn",
+      "sense_az": "kefi yaxşı, sevincli",
+      "sense_en": "cheerful",
+      "reason_en": "The original glosses support the shared sense “cheerful”; this approval is limited to that sense."
+    },
+    {
+      "index": 327,
+      "a": "bikef",
+      "b": "bədbəxt",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Being out of sorts or unwell differs from being unfortunate or miserable."
+    },
+    {
+      "index": 328,
+      "a": "sadələşmə",
+      "b": "sadələşdirmə",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Becoming simpler differs from making something simpler."
+    },
+    {
+      "index": 329,
+      "a": "yoğunluq",
+      "b": "sıxlıq",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Yoğunluq can mean thickness; Turkish yoğunluk also means density and concentration, so the translation needs disambiguation."
+    },
+    {
+      "index": 330,
+      "a": "qabalıq",
+      "b": "kobudluq",
+      "decision": "syn",
+      "sense_az": "nəzakətsiz davranış",
+      "sense_en": "rudeness or coarseness",
+      "reason_en": "The original glosses support the shared sense “rudeness or coarseness”; this approval is limited to that sense."
+    },
+    {
+      "index": 331,
+      "a": "qarşılaşdırma",
+      "b": "müqayisə",
+      "decision": "syn",
+      "sense_az": "oxşarlıq və fərqləri tutuşdurma",
+      "sense_en": "comparison",
+      "reason_en": "The original glosses support the shared sense “comparison”; this approval is limited to that sense."
+    },
+    {
+      "index": 332,
+      "a": "qamaşma",
+      "b": "parıltı",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Dazzling of the eyes differs from the brightness or glare that causes it."
+    },
+    {
+      "index": 333,
+      "a": "şallaq",
+      "b": "qamçı",
+      "decision": "syn",
+      "sense_az": "vurmaq üçün qayışlı alət",
+      "sense_en": "whip",
+      "reason_en": "The original Turkish gloss for şallaq is kırbaç; qamçı has kamçı and kırbaç. Both denote the whip implement, so a bidirectional green synonym relation is justified."
+    },
+    {
+      "index": 334,
+      "a": "qalınlaşmaq",
+      "b": "qalınlaşdırmaq",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Becoming thicker differs from making something thicker."
+    },
+    {
+      "index": 335,
+      "a": "qalınlaşdırma",
+      "b": "qalınlaşma",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Active causative thickening differs from intransitive thickening as a grammatical formation."
+    },
+    {
+      "index": 336,
+      "a": "qanama",
+      "b": "qanaxma",
+      "decision": "syn",
+      "sense_az": "qanın axması",
+      "sense_en": "bleeding",
+      "reason_en": "The original glosses support the shared sense “bleeding”; this approval is limited to that sense."
+    },
+    {
+      "index": 337,
+      "a": "qatlanma",
+      "b": "qatlama",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Being folded differs from folding something; preserve the active/passive morphology distinction."
+    },
+    {
+      "index": 338,
+      "a": "oğurçu",
+      "b": "oğru",
+      "decision": "syn",
+      "sense_az": "oğurluq edən şəxs",
+      "sense_en": "thief",
+      "reason_en": "The original glosses support the shared sense “thief”; this approval is limited to that sense."
+    },
+    {
+      "index": 339,
+      "a": "axıntı",
+      "b": "cərəyan",
+      "decision": "syn",
+      "sense_az": "suyun axını",
+      "sense_en": "water current or flow",
+      "reason_en": "The original glosses support the shared sense “water current or flow”; this approval is limited to that sense. Other senses of either word are excluded."
+    },
+    {
+      "index": 340,
+      "a": "dəlicə",
+      "b": "dəli",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Dəlicə can be an adverb or mean somewhat mad; the adjective versus derived form needs review."
+    },
+    {
+      "index": 341,
+      "a": "təyyarəçilik",
+      "b": "pilotluq",
+      "decision": "syn",
+      "sense_az": "təyyarə idarə etmə peşəsi",
+      "sense_en": "piloting, profession of a pilot",
+      "reason_en": "The original glosses support the shared sense “piloting, profession of a pilot”; this approval is limited to that sense."
+    },
+    {
+      "index": 342,
+      "a": "xainlik",
+      "b": "xəyanət",
+      "decision": "syn",
+      "sense_az": "xəyanət etmə",
+      "sense_en": "treachery or betrayal",
+      "reason_en": "The original glosses support the shared sense “treachery or betrayal”; this approval is limited to that sense."
+    },
+    {
+      "index": 343,
+      "a": "gecikdirmə",
+      "b": "gecikmə",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Causing delay differs from being delayed."
+    },
+    {
+      "index": 344,
+      "a": "abdallıq",
+      "b": "axmaqlıq",
+      "decision": "syn",
+      "sense_az": "ağılsızlıq",
+      "sense_en": "stupidity or foolishness",
+      "reason_en": "The original glosses support the shared sense “stupidity or foolishness”; this approval is limited to that sense."
+    },
+    {
+      "index": 345,
+      "a": "savaşqan",
+      "b": "döyüşkən",
+      "decision": "syn",
+      "sense_az": "döyüşə meyilli",
+      "sense_en": "combative",
+      "reason_en": "The original glosses support the shared sense “combative”; this approval is limited to that sense."
+    },
+    {
+      "index": 346,
+      "a": "ovlama",
+      "b": "ovçuluq",
+      "decision": "syn",
+      "sense_az": "heyvan ovlama fəaliyyəti",
+      "sense_en": "hunting",
+      "reason_en": "The original glosses support the shared sense “hunting”; this approval is limited to that sense."
+    },
+    {
+      "index": 347,
+      "a": "araşdırılma",
+      "b": "tədqiqat",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Araşdırılma is a passive process nominal; review it as grammar rather than a new lexical synonym."
+    },
+    {
+      "index": 348,
+      "a": "vəfalılıq",
+      "b": "sadiqlik",
+      "decision": "syn",
+      "sense_az": "vəfa, sədaqət",
+      "sense_en": "loyalty",
+      "reason_en": "The original glosses support the shared sense “loyalty”; this approval is limited to that sense."
+    },
+    {
+      "index": 349,
+      "a": "eşşəklik",
+      "b": "eşşək",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Eşşəklik means donkey-like foolishness or behavior, not the animal itself."
+    },
+    {
+      "index": 350,
+      "a": "axtarma",
+      "b": "axtarış",
+      "decision": "syn",
+      "sense_az": "bir şeyi axtarma",
+      "sense_en": "search",
+      "reason_en": "The original glosses support the shared sense “search”; this approval is limited to that sense."
+    },
+    {
+      "index": 351,
+      "a": "peşmanlıq",
+      "b": "təəssüf",
+      "decision": "syn",
+      "sense_az": "olan hadisəyə görə peşmanlıq",
+      "sense_en": "regret",
+      "reason_en": "The original glosses support the shared sense “regret”; this approval is limited to that sense."
+    },
+    {
+      "index": 352,
+      "a": "yıxma",
+      "b": "söküntü",
+      "decision": "syn",
+      "sense_az": "tikilini dağıtma",
+      "sense_en": "demolition",
+      "reason_en": "The original glosses support the shared sense “demolition”; this approval is limited to that sense."
+    },
+    {
+      "index": 353,
+      "a": "zəifləşmək",
+      "b": "arıqlamaq",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Weakening and losing weight are distinct; Turkish zayıflamak ambiguously covers both."
+    },
+    {
+      "index": 354,
+      "a": "baxça",
+      "b": "bağ",
+      "decision": "syn",
+      "sense_az": "bitki yetişdirilən bağ",
+      "sense_en": "garden",
+      "reason_en": "The original glosses support the shared sense “garden”; this approval is limited to that sense."
+    },
+    {
+      "index": 355,
+      "a": "elli dokuz",
+      "b": "əlli doqquz",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Elli dokuz is a Turkish numeral form, not a new Azerbaijani lexical synonym."
+    },
+    {
+      "index": 356,
+      "a": "massaj",
+      "b": "masaj",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Orthographic variant of masaj."
+    },
+    {
+      "index": 357,
+      "a": "kimyasal maddə",
+      "b": "kimyəvi maddə",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Kimyasal is a Turkish adjective; verify and normalize the Azerbaijani phrase instead of a semantic link."
+    },
+    {
+      "index": 358,
+      "a": "cüyürü",
+      "b": "cüyür",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Cüyürü appears to be an inflected or nonstandard form of cüyür; keep for morphology review."
+    },
+    {
+      "index": 359,
+      "a": "spesifiklik",
+      "b": "xüsusiyyət",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Specificity differs from a feature or characteristic in general."
+    },
+    {
+      "index": 360,
+      "a": "qara tarakan",
+      "b": "tarakan",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "The black cockroach is a particular kind of cockroach."
+    },
+    {
+      "index": 361,
+      "a": "birdişicikli yemişan",
+      "b": "yemişan",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Single-seeded hawthorn is a particular species of hawthorn."
+    },
+    {
+      "index": 362,
+      "a": "sağlamlaşdırmaq",
+      "b": "gücləndirmək",
+      "decision": "syn",
+      "sense_az": "daha möhkəm etmək",
+      "sense_en": "strengthen or reinforce",
+      "reason_en": "The original glosses support the shared sense “strengthen or reinforce”; this approval is limited to that sense."
+    },
+    {
+      "index": 363,
+      "a": "saxtakarlık",
+      "b": "fırıldaqçılıq",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "The final -lık spelling is nonstandard Azerbaijani; correct or classify the form before semantic linking."
+    },
+    {
+      "index": 364,
+      "a": "duyğusuzluq",
+      "b": "apatiya",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Insensitivity or lack of feeling is not necessarily clinical or motivational apathy."
+    },
+    {
+      "index": 365,
+      "a": "bad",
+      "b": "külək",
+      "decision": "syn",
+      "sense_az": "havanın hərəkəti",
+      "sense_en": "wind",
+      "reason_en": "The original glosses support the shared sense “wind”; this approval is limited to that sense. A literary, historical, regional, or marked register may apply; this is not a claim of equal everyday frequency."
+    },
+    {
+      "index": 366,
+      "a": "sex",
+      "b": "emalatxana",
+      "decision": "syn",
+      "sense_az": "istehsal və ya təmir emalatxanası",
+      "sense_en": "workshop",
+      "reason_en": "The original glosses support the shared sense “workshop”; this approval is limited to that sense."
+    },
+    {
+      "index": 367,
+      "a": "ban",
+      "b": "qarğa",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Ban is a rooster's crowing sound; qarğa is the crow bird."
+    },
+    {
+      "index": 368,
+      "a": "demi",
+      "b": "boru",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Russian трубка can be a tube or a smoking pipe; the rare headword needs the intended object sense checked."
+    },
+    {
+      "index": 369,
+      "a": "gap",
+      "b": "söhbət",
+      "decision": "syn",
+      "sense_az": "qarşılıqlı danışıq",
+      "sense_en": "conversation or chat",
+      "reason_en": "The original glosses support the shared sense “conversation or chat”; this approval is limited to that sense."
+    },
+    {
+      "index": 370,
+      "a": "dol",
+      "b": "vedrə",
+      "decision": "syn",
+      "sense_az": "maye daşımaq üçün vedrə",
+      "sense_en": "bucket or pail",
+      "reason_en": "The original glosses support the shared sense “bucket or pail”; this approval is limited to that sense."
+    },
+    {
+      "index": 371,
+      "a": "gol",
+      "b": "məqsəd",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Gol is a scored goal in sport; məqsəd is an aim or purpose."
+    },
+    {
+      "index": 372,
+      "a": "konflikt",
+      "b": "münaqişə",
+      "decision": "syn",
+      "sense_az": "qarşıdurma, münaqişə",
+      "sense_en": "conflict",
+      "reason_en": "The original glosses support the shared sense “conflict”; this approval is limited to that sense."
+    },
+    {
+      "index": 373,
+      "a": "təranə",
+      "b": "mahnı",
+      "decision": "syn",
+      "sense_az": "oxunan musiqili əsər",
+      "sense_en": "song",
+      "reason_en": "The original glosses support the shared sense “song”; this approval is limited to that sense."
+    },
+    {
+      "index": 374,
+      "a": "dokument",
+      "b": "sənəd",
+      "decision": "syn",
+      "sense_az": "yazılı sənəd",
+      "sense_en": "document",
+      "reason_en": "The original glosses support the shared sense “document”; this approval is limited to that sense."
+    },
+    {
+      "index": 375,
+      "a": "qayçi",
+      "b": "qayçı",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Orthographic variant of qayçı."
+    },
+    {
+      "index": 376,
+      "a": "ellik",
+      "b": "ümumi",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Collective or communal does not securely mean general in every context; the source is too short."
+    },
+    {
+      "index": 377,
+      "a": "satılma",
+      "b": "satış",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Satılma is a passive nominal form of being sold; handle the grammatical form separately."
+    },
+    {
+      "index": 378,
+      "a": "dolandırıcı",
+      "b": "fırıldaqçı",
+      "decision": "syn",
+      "sense_az": "aldadaraq qazanan şəxs",
+      "sense_en": "swindler or fraudster",
+      "reason_en": "The original glosses support the shared sense “swindler or fraudster”; this approval is limited to that sense."
+    },
+    {
+      "index": 379,
+      "a": "öksürük",
+      "b": "öskürək",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Turkish-looking or variant form of the cough headword; review spelling before semantic linking."
+    },
+    {
+      "index": 380,
+      "a": "alım",
+      "b": "vergi",
+      "decision": "syn",
+      "sense_az": "yığılan vergi",
+      "sense_en": "tax or levy",
+      "reason_en": "The original glosses support the shared sense “tax or levy”; this approval is limited to that sense. A literary, historical, regional, or marked register may apply; this is not a claim of equal everyday frequency."
+    },
+    {
+      "index": 381,
+      "a": "ensiz",
+      "b": "dar",
+      "decision": "syn",
+      "sense_az": "eni az olan",
+      "sense_en": "narrow",
+      "reason_en": "The original glosses support the shared sense “narrow”; this approval is limited to that sense."
+    },
+    {
+      "index": 382,
+      "a": "mizac",
+      "b": "temperament",
+      "decision": "syn",
+      "sense_az": "insanın xasiyyət quruluşu",
+      "sense_en": "temperament",
+      "reason_en": "The original glosses support the shared sense “temperament”; this approval is limited to that sense."
+    },
+    {
+      "index": 383,
+      "a": "hul",
+      "b": "şaquli",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "The rare hul headword has only an isolated translated gloss and needs lexical corroboration."
+    },
+    {
+      "index": 384,
+      "a": "domba",
+      "b": "qabarıq",
+      "decision": "syn",
+      "sense_az": "səthi bayıra çıxıq",
+      "sense_en": "convex or bulging",
+      "reason_en": "The original glosses support the shared sense “convex or bulging”; this approval is limited to that sense."
+    },
+    {
+      "index": 385,
+      "a": "kəc",
+      "b": "alebastr",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Kəc commonly refers to gypsum or plaster; alebastr can denote a stone or plaster product, requiring material-sense verification."
+    },
+    {
+      "index": 386,
+      "a": "dəstərxan",
+      "b": "süfrə",
+      "decision": "syn",
+      "sense_az": "masanın üstünə sərilən parça",
+      "sense_en": "tablecloth",
+      "reason_en": "The original glosses support the shared sense “tablecloth”; this approval is limited to that sense."
+    },
+    {
+      "index": 387,
+      "a": "demokratlaşdırmaq",
+      "b": "demokratikləşdirmək",
+      "decision": "syn",
+      "sense_az": "demokratik hala gətirmək",
+      "sense_en": "democratize",
+      "reason_en": "The original glosses support the shared sense “democratize”; this approval is limited to that sense."
+    },
+    {
+      "index": 388,
+      "a": "öldürən",
+      "b": "qatil",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Öldürən is a participial form meaning one who kills; preserve in grammar rather than add an unrestricted murderer synonym."
+    },
+    {
+      "index": 389,
+      "a": "alaca",
+      "b": "rəngarəng",
+      "decision": "syn",
+      "sense_az": "müxtəlif rəngli",
+      "sense_en": "variegated, multicolored",
+      "reason_en": "The original glosses support the shared sense “variegated, multicolored”; this approval is limited to that sense."
+    },
+    {
+      "index": 390,
+      "a": "alacalı",
+      "b": "rəngarəng",
+      "decision": "syn",
+      "sense_az": "müxtəlif rəngləri olan",
+      "sense_en": "variegated, multicolored",
+      "reason_en": "The original glosses support the shared sense “variegated, multicolored”; this approval is limited to that sense."
+    },
+    {
+      "index": 391,
+      "a": "adilik",
+      "b": "sadəlik",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Ordinariness is different from simplicity."
+    },
+    {
+      "index": 392,
+      "a": "ahu",
+      "b": "ceyran",
+      "decision": "syn",
+      "sense_az": "ceyran heyvanı",
+      "sense_en": "gazelle",
+      "reason_en": "The original glosses support the shared sense “gazelle”; this approval is limited to that sense. A literary, historical, regional, or marked register may apply; this is not a claim of equal everyday frequency."
+    },
+    {
+      "index": 393,
+      "a": "allahsız",
+      "b": "ateist",
+      "decision": "syn",
+      "sense_az": "Allahın varlığına inanmayan şəxs",
+      "sense_en": "atheist",
+      "reason_en": "The original glosses support the shared sense “atheist”; this approval is limited to that sense. Other senses of either word are excluded."
+    },
+    {
+      "index": 394,
+      "a": "basma",
+      "b": "təzyiq",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "The act of pressing is not identical to pressure as a physical quantity or condition."
+    },
+    {
+      "index": 395,
+      "a": "aşırı",
+      "b": "vasitəsilə",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Russian через can mean over, across, through, or by means of; these postpositions are not globally interchangeable."
+    },
+    {
+      "index": 396,
+      "a": "cız",
+      "b": "isti",
+      "decision": "syn",
+      "sense_az": "yüksək temperaturlu",
+      "sense_en": "hot",
+      "reason_en": "The original glosses support the shared sense “hot”; this approval is limited to that sense."
+    },
+    {
+      "index": 397,
+      "a": "dinsiz",
+      "b": "ateist",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Irreligious or without a religion is broader than explicitly atheist."
+    },
+    {
+      "index": 398,
+      "a": "dizlik",
+      "b": "şalvar",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Dizlik can mean a knee covering or short garment; it is not an unrestricted synonym of trousers."
+    },
+    {
+      "index": 399,
+      "a": "ensizlik",
+      "b": "darlıq",
+      "decision": "syn",
+      "sense_az": "enin azlığı",
+      "sense_en": "narrowness",
+      "reason_en": "The original glosses support the shared sense “narrowness”; this approval is limited to that sense."
+    },
+    {
+      "index": 400,
+      "a": "enli",
+      "b": "geniş",
+      "decision": "syn",
+      "sense_az": "eni çox olan",
+      "sense_en": "wide, broad",
+      "reason_en": "The original glosses support the shared sense “wide, broad”; this approval is limited to that sense."
+    },
+    {
+      "index": 401,
+      "a": "faraş",
+      "b": "erkən",
+      "decision": "syn",
+      "sense_az": "adi vaxtından əvvəl olan",
+      "sense_en": "early",
+      "reason_en": "The original glosses support the shared sense “early”; this approval is limited to that sense. Other senses of either word are excluded."
+    },
+    {
+      "index": 402,
+      "a": "hırıltı",
+      "b": "gülüş",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Hırıltı can denote wheezing or a coarse sound; the laughter gloss needs a qualified usage context."
+    },
+    {
+      "index": 403,
+      "a": "güngörmüş",
+      "b": "təcrübəli",
+      "decision": "syn",
+      "sense_az": "çox şey görüb təcrübə qazanmış",
+      "sense_en": "experienced",
+      "reason_en": "The original glosses support the shared sense “experienced”; this approval is limited to that sense."
+    },
+    {
+      "index": 404,
+      "a": "imanlı",
+      "b": "mübarək",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Imanlı means faithful or pious; mübarək means blessed or auspicious."
+    },
+    {
+      "index": 405,
+      "a": "insafsız",
+      "b": "həyasız",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Lacking fairness or mercy is distinct from lacking shame."
+    },
+    {
+      "index": 406,
+      "a": "karlı",
+      "b": "bacarıqlı",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "The rare karlı reading requires corroboration; useful or capable is not automatically skillful."
+    },
+    {
+      "index": 407,
+      "a": "milyoner",
+      "b": "milyonçu",
+      "decision": "syn",
+      "sense_az": "milyon sərvəti olan şəxs",
+      "sense_en": "millionaire",
+      "reason_en": "The original glosses support the shared sense “millionaire”; this approval is limited to that sense."
+    },
+    {
+      "index": 408,
+      "a": "qələmdaş",
+      "b": "qələm",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Qələmdaş has conflicting apparent readings, including a fellow writer; the isolated pencil gloss needs verification."
+    },
+    {
+      "index": 409,
+      "a": "qoruma",
+      "b": "saxlama",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Protection or preservation and storage are distinct even though Russian хранение can cover both."
+    },
+    {
+      "index": 410,
+      "a": "magiya",
+      "b": "sehr",
+      "decision": "syn",
+      "sense_az": "sehr fəaliyyəti",
+      "sense_en": "magic or sorcery",
+      "reason_en": "The original glosses support the shared sense “magic or sorcery”; this approval is limited to that sense."
+    },
+    {
+      "index": 411,
+      "a": "müzaidə",
+      "b": "hərrac",
+      "decision": "syn",
+      "sense_az": "açıq qiymət təklifi ilə satış",
+      "sense_en": "auction",
+      "reason_en": "The original glosses support the shared sense “auction”; this approval is limited to that sense."
+    },
+    {
+      "index": 412,
+      "a": "mərhəm",
+      "b": "məlhəm",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Variant spelling or pronunciation of məlhəm; route to variants review."
+    },
+    {
+      "index": 413,
+      "a": "buyuruq",
+      "b": "davranış",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Buyuruq means an order or command; behavior is an erroneous translation here."
+    },
+    {
+      "index": 414,
+      "a": "abırsızlıq",
+      "b": "həyasızlıq",
+      "decision": "syn",
+      "sense_az": "utanmazlıq",
+      "sense_en": "shamelessness",
+      "reason_en": "The original glosses support the shared sense “shamelessness”; this approval is limited to that sense."
+    },
+    {
+      "index": 415,
+      "a": "xar",
+      "b": "tikan",
+      "decision": "syn",
+      "sense_az": "bitkinin iti çıxıntısı",
+      "sense_en": "thorn or prickle",
+      "reason_en": "The original glosses support the shared sense “thorn or prickle”; this approval is limited to that sense. A literary, historical, regional, or marked register may apply; this is not a claim of equal everyday frequency."
+    },
+    {
+      "index": 416,
+      "a": "akkompaniment",
+      "b": "müşayiət",
+      "decision": "syn",
+      "sense_az": "musiqi ifasını müşayiət etmə",
+      "sense_en": "musical accompaniment",
+      "reason_en": "The original glosses support the shared sense “musical accompaniment”; this approval is limited to that sense. Other senses of either word are excluded."
+    },
+    {
+      "index": 417,
+      "a": "akkompanement",
+      "b": "müşayiət",
+      "decision": "syn",
+      "sense_az": "musiqi ifasını müşayiət etmə",
+      "sense_en": "musical accompaniment",
+      "reason_en": "The original glosses support the shared sense “musical accompaniment”; this approval is limited to that sense. Other senses of either word are excluded."
+    },
+    {
+      "index": 418,
+      "a": "aksioner",
+      "b": "səhmdar",
+      "decision": "syn",
+      "sense_az": "şirkət səhmlərinin sahibi",
+      "sense_en": "shareholder",
+      "reason_en": "The original glosses support the shared sense “shareholder”; this approval is limited to that sense."
+    },
+    {
+      "index": 419,
+      "a": "arxitektor",
+      "b": "memar",
+      "decision": "syn",
+      "sense_az": "binaları layihələndirən mütəxəssis",
+      "sense_en": "architect",
+      "reason_en": "The original glosses support the shared sense “architect”; this approval is limited to that sense."
+    },
+    {
+      "index": 420,
+      "a": "folkloristika",
+      "b": "folklorşünaslıq",
+      "decision": "syn",
+      "sense_az": "folkloru öyrənən elm",
+      "sense_en": "folkloristics",
+      "reason_en": "The original glosses support the shared sense “folkloristics”; this approval is limited to that sense."
+    },
+    {
+      "index": 421,
+      "a": "kriteri",
+      "b": "meyar",
+      "decision": "syn",
+      "sense_az": "qiymətləndirmə ölçüsü",
+      "sense_en": "criterion",
+      "reason_en": "The original glosses support the shared sense “criterion”; this approval is limited to that sense."
+    },
+    {
+      "index": 422,
+      "a": "qrammafon",
+      "b": "qrammofon",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Orthographic variant of qrammofon."
+    },
+    {
+      "index": 423,
+      "a": "dazbaş",
+      "b": "keçəl",
+      "decision": "syn",
+      "sense_az": "başında saçı olmayan",
+      "sense_en": "bald",
+      "reason_en": "The original glosses support the shared sense “bald”; this approval is limited to that sense."
+    },
+    {
+      "index": 424,
+      "a": "patriot",
+      "b": "vətənpərvər",
+      "decision": "syn",
+      "sense_az": "vətənini sevən şəxs",
+      "sense_en": "patriot",
+      "reason_en": "The original glosses support the shared sense “patriot”; this approval is limited to that sense."
+    },
+    {
+      "index": 425,
+      "a": "çağırma",
+      "b": "dəvət",
+      "decision": "syn",
+      "sense_az": "gəlməyə çağırış",
+      "sense_en": "invitation",
+      "reason_en": "The original glosses support the shared sense “invitation”; this approval is limited to that sense."
+    },
+    {
+      "index": 426,
+      "a": "çağırılma",
+      "b": "dəvət",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Çağırılma is a passive process form; preserve it in grammar rather than infer a lexical invitation synonym."
+    },
+    {
+      "index": 427,
+      "a": "oxuyucu",
+      "b": "oxucu",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Oxuyucu and oxucu are related agent formations requiring variant or derivational classification."
+    },
+    {
+      "index": 428,
+      "a": "turşumuş",
+      "b": "turş",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Turşumuş is a participle meaning having turned sour; turş is the adjective sour."
+    },
+    {
+      "index": 429,
+      "a": "kollektivləşdirmə",
+      "b": "kollektivləşmə",
+      "decision": "hold",
+      "sense_az": "",
+      "sense_en": "",
+      "reason_en": "Causing collectivization differs from becoming collectivized in the grammatical formation."
+    }
+  ]
+}
