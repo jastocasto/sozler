@@ -1,0 +1,1941 @@
+{
+ "başıbağlılıq": {
+  "az": "Evli və ya nişanlı olma vəziyyəti.",
+  "en": "the state of being married or betrothed",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "başıbərk": {
+  "az": "Yüyənlə çətin idarə olunan (at haqqında).",
+  "en": "hard-mouthed (of a horse)",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "başıboşluq": {
+  "az": "Ağılsız və düşüncəsiz davranma halı.",
+  "en": "foolishness or stupidity",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "başıbütöv": {
+  "az": "Heç bir hissəsinə əl vurulmamış, tam halında olan.",
+  "en": "whole and untouched",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "başıqarlı": {
+  "az": "Zirvəsi qarla örtülmüş olan (dağ haqqında).",
+  "en": "snow-capped",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "başıqırxıq": {
+  "az": "Saçı tamamilə qırxılmış olan.",
+  "en": "with a shaved head",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "başıqotazlı": {
+  "az": "Başına qotaz taxılmış olan.",
+  "en": "having a tassel on the head",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "başılovlu": {
+  "az": "Çox tələsərək, hövlnak halda.",
+  "en": "in great haste",
+  "pos": "adverb",
+  "src": "both",
+  "conf": "low"
+ },
+ "başıodlu": {
+  "az": "Həyəcanlı və təlaş içində olan.",
+  "en": "excited or alarmed",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "başıuca": {
+  "az": "Qürurlu, mənliyini uca tutan.",
+  "en": "proud or proud-spirited",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "başıyuxarı": {
+  "az": "Aşağıdan yuxarıya, yüksəkliyə tərəf.",
+  "en": "uphill or upward",
+  "pos": "adverb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "baş-qulaq": {
+  "az": "İnsanın üz-gözü və ümumi görkəmi.",
+  "en": "one's looks or appearance",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "başlanılmaq": {
+  "az": "Bir işin icrasına keçilmək.",
+  "en": "to be begun or started",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "başlanış": {
+  "az": "Bir işin və ya hadisənin ilk mərhələsi.",
+  "en": "beginning or start",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "başlı-başına": {
+  "az": "Heç kimin nəzarəti və qayğısı olmadan.",
+  "en": "without supervision or care",
+  "pos": "adverb",
+  "src": "both",
+  "conf": "high"
+ },
+ "başlıqotu": {
+  "az": "Sarı çiçəkləri olan çoxillik bitki növü.",
+  "en": "a perennial herb with yellow flowers",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "başmaqçılıq": {
+  "az": "Başmaq tikən ustanın peşəsi.",
+  "en": "the trade of a shoemaker",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "başmaqlı": {
+  "az": "Ayağına başmaq geyinmiş olan.",
+  "en": "wearing shoes",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "başsız-ayaqsız": {
+  "az": "Heç bir əlaqəsi və məntiqi olmayan (söz, danışıq).",
+  "en": "incoherent or illogical",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "baştaxtası": {
+  "az": "Qəbrin baş hissəsinə qoyulan taxta nişan.",
+  "en": "a wooden marker at the head of a grave",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bataqlaşdırılmaq": {
+  "az": "Bataqlığa çevrilmək, lehməli hala gətirilmək.",
+  "en": "to be turned into a swamp",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bataqlaşdırmaq": {
+  "az": "Bir yeri bataqlığa çevirmək.",
+  "en": "to turn something into a swamp",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bataqlı": {
+  "az": "Lehməli və palçıqlı yerləri olan.",
+  "en": "swampy or boggy",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "bataqlıqlaşmaq": {
+  "az": "Bataqlığa dönmək, palçıqlı hala düşmək.",
+  "en": "to turn into a swamp",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bat-bat": {
+  "az": "Pis qoxulu, acı dadlı zəhərli bitki; bəngotu.",
+  "en": "henbane",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "batırtmaq": {
+  "az": "Birini batırmağa məcbur etmək və ya buna səbəb olmaq.",
+  "en": "to have someone drown or sink something",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "batış": {
+  "az": "Batma prosesi və ya hərəkəti.",
+  "en": "the act of sinking or setting",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "batil": {
+  "az": "Həqiqətə uyğun gəlməyən, əsassız.",
+  "en": "false or baseless",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "batin": {
+  "az": "Bir şeyin içi, görünməyən daxili tərəfi.",
+  "en": "the inner side or inward nature",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "batist": {
+  "az": "Nazik və sıx toxunmuş incə parça.",
+  "en": "cambric",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "batqınlıq": {
+  "az": "Bir şeyin çökük, batıq vəziyyəti.",
+  "en": "hollowness or sunkenness",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "batmanlıq": {
+  "az": "Bir batman ağırlığında və ya tutumunda olan.",
+  "en": "weighing or holding one batman",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "batman-tərəzi": {
+  "az": "Ağır yükləri çəkmək üçün iri tərəzi.",
+  "en": "a large scale for weighing heavy loads",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bayağılaşdırıcı": {
+  "az": "Bir nəzəriyyəni və ya fikri bəsitləşdirib təhrif edən şəxs.",
+  "en": "a vulgarizer",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "bayağılaşdırılmaq": {
+  "az": "Həddindən artıq sadələşdirilərək təhrif edilmək.",
+  "en": "to be vulgarized or oversimplified",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "bayağılaşdırmaq": {
+  "az": "Bir şeyi həddən artıq sadələşdirib təhrif etmək.",
+  "en": "to vulgarize or oversimplify",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "bayağılaşmaq": {
+  "az": "Bəsitləşib adiləşmək, dəyərini itirib bayağı olmaq.",
+  "en": "to become vulgar or banal",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "bayançı": {
+  "az": "Bayan adlı musiqi alətində ifa edən musiqiçi.",
+  "en": "a bayan (button accordion) player",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bayatılamaq": {
+  "az": "Bayatı oxumaq, bayatı deyib zümzümə etmək.",
+  "en": "to recite or sing bayati verses",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bayatımaq": {
+  "az": "Təzəliyini itirib köhnəlmək (çörək, yemək haqqında).",
+  "en": "to become stale",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "bayatlaşmaq": {
+  "az": "Uzun müddət qalıb təzəliyini itirmək.",
+  "en": "to become stale",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "bayatlıq": {
+  "az": "Bir şeyin təzə olmayan, köhnəlmiş vəziyyəti.",
+  "en": "staleness",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "baydırmaq": {
+  "az": "Başqasının əmanət verdiyi şeyi icazəsiz özgəsinə ötürmək.",
+  "en": "to hand over something held in trust without the owner's consent",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bayğın-bayğın": {
+  "az": "Yarıhuşsuz, süst və halsız şəkildə.",
+  "en": "faintly or languidly",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bayıldıcı": {
+  "az": "Adamı məst edən, huşunu başından alan.",
+  "en": "intoxicating or heady",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "bayıltmaq": {
+  "az": "Birinin huşunu itirməsinə səbəb olmaq.",
+  "en": "to cause someone to faint",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "bayraqdarlıq": {
+  "az": "Bayraq daşıyan şəxsin vəzifəsi və işi.",
+  "en": "the duty of a standard-bearer",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bayramağzı": {
+  "az": "Bayramdan bir qədər əvvəlki vaxta aid olan.",
+  "en": "pre-holiday; just before a festival",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "bayramyemişi": {
+  "az": "Bayram süfrəsinə qoyulan quru meyvə və şirniyyat.",
+  "en": "dried fruit and sweets served at festivals",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bazarça": {
+  "az": "Kiçik ölçülü bazar.",
+  "en": "a small market",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bazar-dükan": {
+  "az": "Bazarların və mağazaların ümumi adı.",
+  "en": "markets and shops",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bazarlaşmaq": {
+  "az": "Alverdə qiymət barədə danışıb razılığa gəlmək.",
+  "en": "to haggle and agree on a price",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bazburud": {
+  "az": "İnsanın boy-buxunu və görkəmi.",
+  "en": "physique or stately appearance",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "bazis": {
+  "az": "Bir şeyin dayandığı əsas, təməl.",
+  "en": "basis",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "becərilmək": {
+  "az": "Qulluq edilərək yetişdirilmək.",
+  "en": "to be cultivated or raised",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "beçələmə": {
+  "az": "Yeni ana arının işçi arılarla birlikdə pətəkdən ayrılması.",
+  "en": "swarming of bees",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "beçələmək": {
+  "az": "Yeni arı dəstəsi əmələ gətirib ayırmaq (arı ailəsi haqqında).",
+  "en": "to swarm (of bees)",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "behiştlik": {
+  "az": "Günahsız olduğuna görə cənnətə layiq sayılan.",
+  "en": "worthy of paradise",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "behlənmək": {
+  "az": "Beh verilərək satılmaq, qabaqcadan beh alınmaq.",
+  "en": "to be secured with a deposit",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "behləşmək": {
+  "az": "Beh verib qarşılıqlı razılığa gəlmək.",
+  "en": "to strike a bargain by paying a deposit",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "behli": {
+  "az": "Beh verilmiş və satılmış sayılan (mal).",
+  "en": "secured by a deposit",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "bekon": {
+  "az": "Duzlanmış və ya hisə verilmiş yağsız donuz əti.",
+  "en": "bacon",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "belağacı": {
+  "az": "Arabaya yığılmış otu bərkitmək üçün üstünə qoyulan uzun ağac.",
+  "en": "a long pole laid over a loaded hay cart",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "belbağlama": {
+  "az": "Gəlin köçəndə oğlan qohumlarından birinin gəlinin belinə dəsmal bağlaması adəti.",
+  "en": "a wedding custom of tying a sash around the bride's waist",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "beletaj": {
+  "az": "Binanın ikinci mərtəbəsi.",
+  "en": "the floor above the ground floor",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "belə-belə": {
+  "az": "Bu cür olan, bu kimi.",
+  "en": "such, like this",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "belədən-belə": {
+  "az": "Oradan-buraya, bir yerdən o biri yerə.",
+  "en": "hither and thither",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "belibasıq": {
+  "az": "Yəhər sürtülüb beli yara olmuş (minik heyvanı haqqında).",
+  "en": "saddle-galled (of a mount)",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "belibüküklük": {
+  "az": "Belin bükülüb əyilmiş olması halı.",
+  "en": "the state of being hunchbacked",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "beliəyri": {
+  "az": "Beli əyilib bükülmüş olan.",
+  "en": "hunched or bent-backed",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "beliəyrilik": {
+  "az": "Belin əyri olması vəziyyəti.",
+  "en": "the state of being hunched",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "belletrist": {
+  "az": "Bədii əsərlər yazan müəllif.",
+  "en": "fiction writer",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "belletristika": {
+  "az": "Bədii nəsr əsərlərinin ümumi adı.",
+  "en": "fiction",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bellənmək": {
+  "az": "Torpağı bellə qazılıb yumşaldılmaq.",
+  "en": "to be dug with a spade",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "bellik": {
+  "az": "Müəyyən həcmdə axan suvarma suyu.",
+  "en": "a measured amount of running water",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "benefis": {
+  "az": "Aktyorun şərəfinə təşkil olunan xüsusi tamaşa.",
+  "en": "benefit performance",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "benzindaşıyan": {
+  "az": "Benzin daşımaq üçün nəzərdə tutulmuş (maşın və s.).",
+  "en": "for transporting gasoline (of a vehicle)",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "benzintökən": {
+  "az": "Maşınlara yanacaq doldurmaq üçün istifadə olunan.",
+  "en": "used for refuelling vehicles",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "berdanka": {
+  "az": "Berdan sistemli köhnə tüfəng növü.",
+  "en": "Berdan rifle",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "beret": {
+  "az": "Kənarsız, yumşaq, yastı baş geyimi.",
+  "en": "beret",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "beretli": {
+  "az": "Başında beret olan.",
+  "en": "wearing a beret",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bestseller": {
+  "az": "Çox satılan və geniş oxunan kitab.",
+  "en": "bestseller",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "beşaçılan": {
+  "az": "Beş patron tutan tüfəng.",
+  "en": "a five-shot rifle",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "beşadamlıq": {
+  "az": "Beş nəfər üçün nəzərdə tutulmuş.",
+  "en": "for five people",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "beşatan": {
+  "az": "Daxilinə beş patron yerləşən tüfəng.",
+  "en": "a five-shot rifle",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "beşatılan": {
+  "az": "Darağına beş güllə yerləşən tüfəng.",
+  "en": "a five-shot rifle",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "beşballı": {
+  "az": "Beş baldan ibarət olan (qiymətləndirmə sistemi).",
+  "en": "five-point (of a grading scale)",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "beşbarmaqlı": {
+  "az": "Beş barmağı olan.",
+  "en": "five-fingered",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "beşbaşlı": {
+  "az": "Beş ucu və ya beş təpəsi olan.",
+  "en": "five-headed or five-pointed",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "beş-beş": {
+  "az": "Hər dəfəsində beş ədəd olmaqla.",
+  "en": "in fives",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "beşbölgülü": {
+  "az": "Beş bölgüdən ibarət olan (şeir misrası).",
+  "en": "of five feet (of verse)",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "beşcə": {
+  "az": "Cəmi beş, bundan artıq olmayan.",
+  "en": "only five",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "beşcərgəli": {
+  "az": "Beş sıra halında əkilmiş və ya düzülmüş.",
+  "en": "five-row",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "beşcildli": {
+  "az": "Beş cilddən ibarət olan.",
+  "en": "five-volume",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "beşcildlik": {
+  "az": "Beş cilddə çap olunmuş nəşr.",
+  "en": "a five-volume edition",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "beşəlli": {
+  "az": "Var gücü ilə, acgözlüklə (yapışmaq, tutmaq).",
+  "en": "greedily, with both hands",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "beşfaizli": {
+  "az": "Beş faiz gəlir gətirən.",
+  "en": "five-percent",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "beşgirvənkəlik": {
+  "az": "Beş girvənkə ağırlığı olan (çəki daşı və s.).",
+  "en": "weighing five pounds (old measure)",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "beşgöz": {
+  "az": "Beş otaqdan ibarət olan (mənzil, ev).",
+  "en": "five-room",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "beşgözlü": {
+  "az": "İçində beş otaq olan (mənzil haqqında).",
+  "en": "five-room (of a flat)",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "beşguşə": {
+  "az": "Beş bucağı olan həndəsi fiqur.",
+  "en": "pentagon",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "beşguşəli": {
+  "az": "Beş küncü olan.",
+  "en": "pentagonal",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "beşgül": {
+  "az": "Beş bucağı olan.",
+  "en": "pentagonal",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "beşhecalı": {
+  "az": "Beş hecadan ibarət olan.",
+  "en": "pentasyllabic",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "beşxallı": {
+  "az": "Üstündə beş xal olan.",
+  "en": "having five spots",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "beşkiloqramlıq": {
+  "az": "Beş kiloqram ağırlığında olan.",
+  "en": "weighing five kilograms",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "beşkünc": {
+  "az": "Beş küncü, beş ucu olan.",
+  "en": "pentagonal or five-pointed",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "beşqat": {
+  "az": "Beş qatdan ibarət olan, beş dəfə artıq.",
+  "en": "fivefold",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "beşqatlı": {
+  "az": "Beş laydan ibarət olan.",
+  "en": "fivefold or five-layered",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "beşqəpiklik": {
+  "az": "Qiyməti beş qəpik olan.",
+  "en": "worth five kopecks",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "beşqramlıq": {
+  "az": "Ağırlığı beş qram olan.",
+  "en": "weighing five grams",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "beşlampalı": {
+  "az": "Beş lampası olan.",
+  "en": "five-lamp",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "beşləçəkli": {
+  "az": "Beş ləçəkdən ibarət olan (çiçək).",
+  "en": "five-petalled",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "beşmetrlik": {
+  "az": "Uzunluğu beş metr olan.",
+  "en": "five-metre",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "beşmərtəbəli": {
+  "az": "Beş mərtəbədən ibarət olan (bina).",
+  "en": "five-storey",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "beşminlik": {
+  "az": "Beş min nəfərdən və ya vahiddən ibarət olan.",
+  "en": "of five thousand",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "beşnövçü": {
+  "az": "Beş idman növündən ibarət yarışda çıxış edən idmançı.",
+  "en": "pentathlete",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "beşnövçülük": {
+  "az": "Beş müxtəlif idman növünü birləşdirən yarış.",
+  "en": "pentathlon",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "beşotaqlı": {
+  "az": "İçində beş otaq olan (ev, mənzil).",
+  "en": "five-room",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "beşpərdəli": {
+  "az": "Beş pərdədən ibarət olan (tamaşa).",
+  "en": "five-act",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "beşsaatlıq": {
+  "az": "Beş saat davam edən.",
+  "en": "five-hour",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "beşsütunlu": {
+  "az": "Beş sütunu olan.",
+  "en": "five-column",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "beştərəfli": {
+  "az": "Beş tərəfi olan.",
+  "en": "five-sided",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "beştonluq": {
+  "az": "Beş ton yük götürə bilən.",
+  "en": "five-ton",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "beşulduzlu": {
+  "az": "Beş ulduzu olan.",
+  "en": "five-star",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "beşüzlü": {
+  "az": "Beş üzü olan (həndəsi cisim).",
+  "en": "pentahedral",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "beşverstlik": {
+  "az": "Beş verst uzunluğunda olan.",
+  "en": "five versts long",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "beşyarpaqlı": {
+  "az": "Beş yarpağı olan (bitki).",
+  "en": "five-leaved",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "beşyaşlı": {
+  "az": "Yaşı beş olan.",
+  "en": "five years old",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "beşyerli": {
+  "az": "Beş nəfərlik oturacağı olan.",
+  "en": "five-seater",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "beşyüzlük": {
+  "az": "Dəyəri beş yüz manat olan.",
+  "en": "worth five hundred manats",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "beta": {
+  "az": "Yunan əlifbasında ikinci hərf.",
+  "en": "beta",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "beta-hissəcik": {
+  "az": "Radioaktiv parçalanma zamanı ayrılan elektron və ya pozitron.",
+  "en": "beta particle",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "betonçu": {
+  "az": "Beton hazırlayan və beton işləri görən fəhlə.",
+  "en": "concrete worker",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "betonçuluq": {
+  "az": "Beton işləri ilə məşğul olan fəhlənin peşəsi.",
+  "en": "the trade of a concrete worker",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "betondaşıyan": {
+  "az": "Beton daşımaq üçün nəzərdə tutulmuş (maşın).",
+  "en": "concrete-delivery (of a vehicle)",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "betonqarışdıran": {
+  "az": "Beton qarışığı hazırlayan maşın.",
+  "en": "concrete mixer",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "betonlanmaq": {
+  "az": "Üzərinə beton tökülüb bərkidilmək.",
+  "en": "to be concreted",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "betonlaşmaq": {
+  "az": "Beton kimi bərkiyib möhkəmlənmək.",
+  "en": "to become concreted or rock-solid",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "betonlu": {
+  "az": "Üstü betonla örtülmüş və ya bərkidilmiş.",
+  "en": "concrete or concreted",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "beyincik": {
+  "az": "Kəllənin arxa hissəsində, böyük beynin altında yerləşən beyin şöbəsi.",
+  "en": "cerebellum",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "beyinəzici": {
+  "az": "İnsanın başını ağrıdan, yorucu və ağır.",
+  "en": "wearisome or mind-numbing",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "beynəlmiləlləşdirilmək": {
+  "az": "Bütün dövlətlərin istifadəsinə açıq elan olunmaq.",
+  "en": "to be internationalized",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "bezarlamaq": {
+  "az": "Birini usandırıb təngə gətirmək.",
+  "en": "to weary or exasperate someone",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bezarlanmaq": {
+  "az": "Usanıb təngə gəlmək, bezmək.",
+  "en": "to grow weary or fed up",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "bezarlaşmaq": {
+  "az": "Bezib usanmaq, təngə gəlmək.",
+  "en": "to grow weary or fed up",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bezdirici": {
+  "az": "Adamı usandıran, cana gətirən.",
+  "en": "tiresome or boring",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bezdiricilik": {
+  "az": "Usandırıcı və cansıxıcı olma halı.",
+  "en": "tediousness",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bezgin": {
+  "az": "Usanıb təngə gəlmiş olan.",
+  "en": "weary or fed up",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bezginlik": {
+  "az": "Usanıb təngə gəlmə halı.",
+  "en": "weariness",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bezik": {
+  "az": "Usanmış, cana doymuş olan.",
+  "en": "fed up or weary",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bədahət": {
+  "az": "Bir şeyin sübut tələb etməyəcək qədər aydın olması.",
+  "en": "self-evidence or obviousness",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bədbəxtcəsinə": {
+  "az": "Bədbəxt adam kimi, uğursuzcasına.",
+  "en": "unluckily or unfortunately",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bədbinləşdirilmək": {
+  "az": "Həyata ümidsiz baxmağa vadar edilmək.",
+  "en": "to be made pessimistic",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bədbinləşdirmək": {
+  "az": "Birinin həyata ümidsiz baxmasına səbəb olmaq.",
+  "en": "to make someone pessimistic",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "bədcins": {
+  "az": "Nəsli pis olan, alçaq təbiətli.",
+  "en": "ignoble or base-born",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "bədəməllik": {
+  "az": "Pis əməllərə qurşanma, əxlaqsız həyat sürmə.",
+  "en": "dissoluteness",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bədəncə": {
+  "az": "Qadınların geyindiyi qısa üst geyimi.",
+  "en": "a short women's jacket",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "bədəncərə": {
+  "az": "Görkəmi və bədən quruluşu çirkin olan.",
+  "en": "ugly or misshapen",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bədəncərəlik": {
+  "az": "Görkəmsiz və çirkin olma halı.",
+  "en": "ugliness",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bədənnüma": {
+  "az": "Adamı başdan-ayağa göstərən (güzgü haqqında).",
+  "en": "full-length (of a mirror)",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bədəsillik": {
+  "az": "Əsil-nəcabəti olmama, nanəciblik.",
+  "en": "ignobility or base birth",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "bədəvilik": {
+  "az": "Köçəri həyat tərzi.",
+  "en": "nomadic life",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "bədfal": {
+  "az": "Pis hadisədən xəbər verən əlamət, uğursuzluq.",
+  "en": "ill omen or misfortune",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bədheybətlik": {
+  "az": "Görkəmin çirkin və qorxunc olması.",
+  "en": "ugliness or deformity",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bədxasiyyət": {
+  "az": "Xasiyyəti pis olan, adamlarla yola getməyən.",
+  "en": "ill-tempered",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "bədxasiyyətli": {
+  "az": "Pis təbiətli, insanlarla keçinə bilməyən.",
+  "en": "ill-tempered",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "bədxassəli": {
+  "az": "Orqanizm üçün təhlükəli, sürətlə yayılan (şiş haqqında).",
+  "en": "malignant",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bədihə": {
+  "az": "Əvvəlcədən hazırlaşmadan anidən söylənən söz və ya şeir.",
+  "en": "improvisation or impromptu verse",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "bədihəçi": {
+  "az": "Hazırlıqsız, anında şeir deyən şəxs.",
+  "en": "improviser",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "bədiilik": {
+  "az": "Əsərin sənətkarlıq baxımından gözəlliyi və incəliyi.",
+  "en": "artistry or artistic merit",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "bədirlənmək": {
+  "az": "Tam dairə şəklini alıb dolmaq (Ay haqqında).",
+  "en": "to become full (of the moon)",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "bədqılıq": {
+  "az": "Pis xasiyyətli, insanlarla yola getməyən.",
+  "en": "ill-natured",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bədqılıqlıq": {
+  "az": "Pis xasiyyət, insanlarla keçinməmə.",
+  "en": "ill nature",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bədləmək": {
+  "az": "Uğursuzluğa uğramaq, işləri pis getmək.",
+  "en": "to have bad luck",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bədniyyətlik": {
+  "az": "Pis niyyətli olma, qərəzlilik.",
+  "en": "malice or ill intent",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "bədrəftarlıq": {
+  "az": "İnsanlarla kobud davranma, yola getməmə.",
+  "en": "rudeness or bad conduct toward others",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bədsifət": {
+  "az": "Üzü və görkəmi çirkin olan.",
+  "en": "ugly-faced",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "bədsifətlik": {
+  "az": "Üz-gözün çirkin olması.",
+  "en": "ugliness",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bədşəkil": {
+  "az": "Görkəmi pis, eybəcər olan.",
+  "en": "ugly or misshapen",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bədtale": {
+  "az": "Taleyi pis gətirmiş, bədbəxt.",
+  "en": "ill-fated or unfortunate",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bədtalelik": {
+  "az": "Taleyin pis gətirməsi, bədbəxtlik.",
+  "en": "ill fortune",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bəduğur": {
+  "az": "Uğuru olmayan, bəxtsiz.",
+  "en": "luckless or unlucky",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "bəduğurluq": {
+  "az": "Uğursuz olma, bəxtsizlik.",
+  "en": "lucklessness",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bəhailik": {
+  "az": "XIX əsrdə İranda yaranmış dini məzhəb.",
+  "en": "the Baha'i faith",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bəhanəsiz": {
+  "az": "Heç bir bəhanə gətirmədən olan.",
+  "en": "without pretext or excuse",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bəhərli": {
+  "az": "Bol meyvə və məhsul verən.",
+  "en": "fruitful",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "bəhərlilik": {
+  "az": "Bol məhsul vermə qabiliyyəti.",
+  "en": "fruitfulness",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bəhərsiz": {
+  "az": "Meyvə və ya məhsul verməyən.",
+  "en": "fruitless or barren",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "bəhərsizlik": {
+  "az": "Meyvə və məhsul verməmə halı.",
+  "en": "barrenness or fruitlessness",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "bəhri-təvil": {
+  "az": "Əruz şeir vəzninin bəhrlərindən birinin adı.",
+  "en": "a metre of aruz prosody",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bəhsəbəhs": {
+  "az": "Bir-biri ilə yarışa girərək, acıqlaşaraq.",
+  "en": "competing with one another",
+  "pos": "adverb",
+  "src": "both",
+  "conf": "high"
+ },
+ "bəxşayiş": {
+  "az": "Hədiyyə olaraq verilən şey, ənam.",
+  "en": "a gift or present",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "bəxtiqaralıq": {
+  "az": "Taleyin pis gətirməsi, bədbəxtlik.",
+  "en": "misfortune or bad luck",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bəxtlilik": {
+  "az": "Bəxti gətirmə, xoşbəxtlik.",
+  "en": "good luck or happiness",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bəkçi": {
+  "az": "Bir yeri qoruyan, keşik çəkən şəxs.",
+  "en": "guard or watchman",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bəkçilik": {
+  "az": "Keşik çəkmə, gözətçi işi.",
+  "en": "guarding or watchman's duty",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bəktaşi": {
+  "az": "Hacı Bektaş Vəlinin adı ilə bağlı sufi təriqəti və ya onun ardıcılı.",
+  "en": "Bektashi (a Sufi order or its follower)",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bəktaşilik": {
+  "az": "Bəktaşi sufi yolu və ona bağlılıq.",
+  "en": "Bektashism",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bələdiyyələşdirilmək": {
+  "az": "Özəl mülkiyyətdən alınıb bələdiyyəyə verilmək.",
+  "en": "to be municipalized",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "bələdiyyələşdirmək": {
+  "az": "Torpaq və əmlakı şəxsi sahiblərdən alıb bələdiyyəyə vermək.",
+  "en": "to municipalize",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "bələkağı": {
+  "az": "Körpəni bələmək üçün ağ parça.",
+  "en": "swaddling cloth",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bələkbağı": {
+  "az": "Körpənin bələyini bağlamaq üçün işlədilən bağ.",
+  "en": "swaddling band",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bələkli": {
+  "az": "Bələyə bükülmüş, qundaqda olan.",
+  "en": "swaddled",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "bələn": {
+  "az": "Dağın yamacında açıq düzənlik yer.",
+  "en": "a clearing on a mountainside",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bələnmək": {
+  "az": "Qundağa bükülmək, bələyə sarınmaq.",
+  "en": "to be swaddled",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "bəlgələmək": {
+  "az": "Bir şeyi bəhanə edib üzr gətirmək.",
+  "en": "to make excuses or use as a pretext",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bəlgələnmək": {
+  "az": "Köhnə adətə görə nişanlı olmaq, nişan taxılmaq.",
+  "en": "to be betrothed",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "bəlğəmli": {
+  "az": "İçində bəlğəm olan.",
+  "en": "phlegmy",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "bəlğəmotu": {
+  "az": "Dərman məqsədilə istifadə olunan çoxillik bitki.",
+  "en": "a perennial medicinal plant",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bəli-bəli": {
+  "az": "Hər şeyə razılıq bildirərək, etiraz etmədən.",
+  "en": "yes-yes, in complete assent",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "bəlirmək": {
+  "az": "Görünmək, üzə çıxmaq, aydın olmaq.",
+  "en": "to appear or become visible",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bəlirtmək": {
+  "az": "Bir şeyi aşkara çıxarıb göstərmək.",
+  "en": "to reveal or make evident",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bəllənmək": {
+  "az": "Aşkara çıxmaq, bilinən olmaq.",
+  "en": "to become evident or known",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bəllətmək": {
+  "az": "Bir şeyi bildirib üzə çıxarmaq.",
+  "en": "to make known or reveal",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bəllilik": {
+  "az": "Bir şeyin aydın və aşkar olması.",
+  "en": "obviousness",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bəlsəm": {
+  "az": "İsti ölkələrdə bitən, yarpağından efir yağı və qatran alınan ağac.",
+  "en": "balsam tree",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bəmbəcə": {
+  "az": "Heyvanın caynaqlı ayağı, pəncə.",
+  "en": "paw",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bəmbəcələmək": {
+  "az": "Bir şeyi pəncəsi ilə qapıb götürmək.",
+  "en": "to snatch or grab with the paws",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bəmbəyaz": {
+  "az": "Tamamilə ağ rəngdə olan.",
+  "en": "snow-white",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "bəmləşdirmə": {
+  "az": "Səsi alçaltma, bəm səslə ifa etmə.",
+  "en": "lowering the pitch",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bəmləşdirmək": {
+  "az": "Səsi alçaldaraq bəm tonda çalmaq və ya oxumaq.",
+  "en": "to lower the pitch",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "bəmləşmək": {
+  "az": "Alçalıb bəm tona keçmək (səs haqqında).",
+  "en": "to become lower in pitch",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bənd-bənd": {
+  "az": "Hər maddəni bir-bir, ardıcıl olaraq.",
+  "en": "point by point",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bənd-bərə": {
+  "az": "Keçmək mümkün olan yeganə yer, keçid.",
+  "en": "a pass or crossing point",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bəndəçilik": {
+  "az": "Kölə kimi qulluq etmə vəziyyəti.",
+  "en": "servitude or slavery",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bəndəlik": {
+  "az": "Başqasına kölə kimi bağlı olma halı.",
+  "en": "slavery or servitude",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bəndəmlənmək": {
+  "az": "Yük bağlamaq üçün işlənən iplə bağlanmaq.",
+  "en": "to be tied with a load rope",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "bəndəmli": {
+  "az": "Yük ipi ilə bağlanmış olan.",
+  "en": "tied with a load rope",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "bəndəmlik": {
+  "az": "Yük ipi hazırlamaq üçün yararlı olan.",
+  "en": "suitable for making a load rope",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "bəndlənmək": {
+  "az": "Tələsik, səliqəsiz şəkildə tikilmək.",
+  "en": "to be sewn hastily or tacked",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "bəndli": {
+  "az": "Bir şeyə bağlanmış olan.",
+  "en": "tied or bound",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "bənəkli": {
+  "az": "Üzərində xalları olan.",
+  "en": "spotted",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bəng": {
+  "az": "Toxumu narkotik təsirə malik olan ot bitkisi.",
+  "en": "a narcotic plant; henbane",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bənnabaşı": {
+  "az": "Bənnaların başçısı, baş usta.",
+  "en": "head mason",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bənnalıq": {
+  "az": "Bənnanın peşəsi, hörgü işi.",
+  "en": "masonry; the bricklayer's trade",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "bənövşəli": {
+  "az": "Bənövşə olan, bənövşə ilə bəzənmiş.",
+  "en": "with violets",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bənövşəlik": {
+  "az": "Bənövşə bitən və ya əkilən sahə.",
+  "en": "a patch of violets",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bənzədilmək": {
+  "az": "Başqa bir şeyə oxşadılmaq.",
+  "en": "to be likened or compared",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bərabərbucaqlı": {
+  "az": "Bütün bucaqları bərabər olan.",
+  "en": "equiangular",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bərabərhüquqlu": {
+  "az": "Başqaları ilə eyni hüquqlara malik olan.",
+  "en": "having equal rights",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bərabərləşdirilmək": {
+  "az": "Eyni ölçüyə və səviyyəyə gətirilmək.",
+  "en": "to be equalized",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "bərabərölçülü": {
+  "az": "Ölçüləri eyni olan.",
+  "en": "isometric",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bərabərsürətli": {
+  "az": "Sürəti dəyişmədən eyni qalan (hərəkət).",
+  "en": "uniform (of motion)",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bərabərüzlü": {
+  "az": "Bütün üzləri bərabər olan (həndəsi cisim).",
+  "en": "having equal faces",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bəraətləndirmək": {
+  "az": "Birinin təqsirsizliyini sübut edib təmizə çıxarmaq.",
+  "en": "to acquit or exonerate",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "bəraətverici": {
+  "az": "Xərcləri və ya hərəkəti əsaslandıran (sənəd haqqında).",
+  "en": "justifying (of a document)",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "bərbət": {
+  "az": "Uda bənzəyən qədim simli musiqi aləti.",
+  "en": "barbat, an ancient lute-like instrument",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bərəçi": {
+  "az": "Bərəni idarə edib adamları sudan keçirən şəxs.",
+  "en": "ferryman",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "bərəçilik": {
+  "az": "Bərə idarə etmə peşəsi.",
+  "en": "the job of a ferryman",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "bərəkətsizlik": {
+  "az": "Bolluq və artımın olmaması, kifayətsizlik.",
+  "en": "scantiness or lack of plenty",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "bərələmək": {
+  "az": "Suvarma üçün bostanda arxlar açıb suyu ləklərə yönəltmək.",
+  "en": "to dig irrigation furrows",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bərələnmək": {
+  "az": "Suvarma üçün arxlar açılmaq, su ləklərə yönəldilmək.",
+  "en": "to be furrowed for irrigation",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bərəlmək": {
+  "az": "Gözlər iri açılıb bir nöqtəyə zillənmək.",
+  "en": "to goggle or stare",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bərk-bərk": {
+  "az": "Çox möhkəm, sıx şəkildə.",
+  "en": "very tightly or firmly",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bərk-boş": {
+  "az": "Həyatın çətinlikləri və sınaqları.",
+  "en": "hardships or trials of life",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "bərkidici": {
+  "az": "Möhkəmləndirən, sağlamlığı artıran.",
+  "en": "strengthening or fortifying",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bərkinmək": {
+  "az": "Möhkəm bağlanıb kip qapanmaq.",
+  "en": "to close up tightly",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "bərkişdirmək": {
+  "az": "Bir şeyi möhkəmlətmək, bərk bağlamaq.",
+  "en": "to fasten or make firm",
+  "pos": "verb",
+  "src": "both",
+  "conf": "low"
+ },
+ "bərkitdirmək": {
+  "az": "Başqası vasitəsilə bir şeyi möhkəm bağlatmaq.",
+  "en": "to have something fastened",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bərni": {
+  "az": "Piti bişirmək üçün işlənən saxsı qab.",
+  "en": "an earthenware pot or jar",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "bərpaedici": {
+  "az": "Bir şeyi əvvəlki vəziyyətinə qaytaran.",
+  "en": "restorative; restoring",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bərpaolunma": {
+  "az": "Dağılmış bir şeyin yenidən qurulması.",
+  "en": "restoration or reconstruction",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bəsirətlilik": {
+  "az": "Uzaqgörən və dərrakəli olma xüsusiyyəti.",
+  "en": "insight or perspicacity",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bəsitləşdirilmək": {
+  "az": "Sadə hala gətirilmək.",
+  "en": "to be simplified",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bəslətmək": {
+  "az": "Birinə bir şeyi və ya heyvanı qayğı ilə bəsləməyi tapşırmaq.",
+  "en": "to have someone look after or rear something",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bəstəboylu": {
+  "az": "Boyu orta və ya qısa olan.",
+  "en": "short or of medium height",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "bəstələnmək": {
+  "az": "Mətnə və ya şeirə musiqi yazılmaq.",
+  "en": "to be composed or set to music",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "bəsti": {
+  "az": "Kiçik ölçülü saxsı küp.",
+  "en": "a small jug",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bət-bəniz": {
+  "az": "Üzün rəngi, sifət.",
+  "en": "complexion or face",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "bəyazlanmaq": {
+  "az": "Ağ rəngə çalmaq, ağarmaq.",
+  "en": "to turn white",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "bəyazlıq": {
+  "az": "Ağ rəngdə olma halı.",
+  "en": "whiteness",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "bəydadaş": {
+  "az": "Zarafatla və ya ciddi şəkildə işlənən müraciət forması.",
+  "en": "a form of address, joking or serious",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "bəyəndirmək": {
+  "az": "Birinə bir şeyi göstərib onu seçməyə və qəbul etməyə yönəltmək.",
+  "en": "to get someone to like or choose something",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "bəyəndirtmək": {
+  "az": "Birinə bir şeyi xoşlatmağa çalışmaq.",
+  "en": "to make someone like or approve something",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bəyəniş": {
+  "az": "Bir şeyi xoşlayıb qəbul etmə.",
+  "en": "approval",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "bəyənməzlik": {
+  "az": "Bir şeyi xoşlamayıb qəbul etməmə halı.",
+  "en": "disapproval or dislike",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ }
+}

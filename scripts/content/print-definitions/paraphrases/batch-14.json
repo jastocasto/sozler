@@ -1,0 +1,1929 @@
+{
+ "dördavarlı": {
+  "az": "Dörd avarla hərəkət etdirilən, dörd avarı olan.",
+  "en": "four-oared",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dördayaq": {
+  "az": "Çox sürətlə, çaparaq (atın yerişi haqqında).",
+  "en": "at full gallop",
+  "pos": "adverb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dördayaqlı": {
+  "az": "Dörd ayaq üzərində duran, dörd ayağı olan.",
+  "en": "four-footed",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dördaylıq": {
+  "az": "Dörd ay əvvəl dünyaya gəlmiş, dörd ay yaşı olan.",
+  "en": "four months old",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dörd-beş": {
+  "az": "Təxminən dörd və ya beş ədəd.",
+  "en": "four or five",
+  "pos": "numeral",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dördbölgülü": {
+  "az": "Dörd bölməsi, dörd ayrı hissəsi olan.",
+  "en": "having four compartments",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dördböyrək": {
+  "az": "Çox cəsur, heç nədən çəkinməyən.",
+  "en": "brave, fearless",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dördcərgəli": {
+  "az": "Dörd sıradan ibarət olan.",
+  "en": "four-row",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dördcildlik": {
+  "az": "Dörd cilddə nəşr olunmuş.",
+  "en": "four-volume",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dörddəfəli": {
+  "az": "Dörd kərə təkrarlanan.",
+  "en": "repeated four times",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dörddəqiqəlik": {
+  "az": "Dörd dəqiqə sürən.",
+  "en": "lasting four minutes",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dörd-dörd": {
+  "az": "Hər dəfə dörd ədəd və ya dörd nəfərlik dəstələrlə.",
+  "en": "in fours",
+  "pos": "adverb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dörddüymə": {
+  "az": "Ölçüsü və ya qalınlığı dörd düym olan.",
+  "en": "four inches in size or thickness",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "dörddüyməli": {
+  "az": "Üzərində dörd düymə olan (geyim).",
+  "en": "four-buttoned",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dördelementli": {
+  "az": "Dörd kimyəvi elementdən təşkil olunmuş.",
+  "en": "consisting of four elements",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dördəlli": {
+  "az": "Çox tez, tələsik surətdə.",
+  "en": "hastily, quickly",
+  "pos": "adverb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dördəm": {
+  "az": "Çaparaq, atı dördnala salaraq.",
+  "en": "at a gallop",
+  "pos": "adverb",
+  "src": "both",
+  "conf": "low"
+ },
+ "dördəməl": {
+  "az": "Toplama, çıxma, vurma və bölmədən ibarət dörd hesab əməli.",
+  "en": "the four arithmetic operations",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dördfaizli": {
+  "az": "Dörd faiz həcmində olan.",
+  "en": "four-percent",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dördgözlü": {
+  "az": "Çox diqqətli və sayıq olan.",
+  "en": "watchful, vigilant",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "dördgül": {
+  "az": "Dörd tərəfi bərabər, kvadrat formalı.",
+  "en": "square-shaped",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dördhecalı": {
+  "az": "Dörd hecadan təşkil olunmuş (söz).",
+  "en": "four-syllable",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dördhədli": {
+  "az": "Dörd həddən ibarət olan (riyazi ifadə).",
+  "en": "having four terms",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dördhissəli": {
+  "az": "Dörd hissəyə bölünmüş.",
+  "en": "four-part",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dördillik": {
+  "az": "Dörd il sürən.",
+  "en": "lasting four years",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dördkünc": {
+  "az": "Dörd küncü olan.",
+  "en": "four-cornered",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dördkünclü": {
+  "az": "Dörd bucağı, dörd küncü olan.",
+  "en": "four-cornered",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dördqatlı": {
+  "az": "Dörd qatdan ibarət olan; dörd mərtəbəli.",
+  "en": "four-layered; four-storeyed",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dördqəlsəməli": {
+  "az": "Dörd qəlsəməsi olan (heyvan).",
+  "en": "having four gills",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dördqramlıq": {
+  "az": "Dörd qram çəkisi olan.",
+  "en": "weighing four grams",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dördqulplu": {
+  "az": "Dörd tutacağı olan.",
+  "en": "four-handled",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dördləşmək": {
+  "az": "Sayca artıb dördə çatmaq.",
+  "en": "to become four in number",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dördmərtəbə": {
+  "az": "Dörd mərtəbəsi olan (bina).",
+  "en": "four-storeyed",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dördmisra": {
+  "az": "Dörd misradan təşkil olunmuş.",
+  "en": "four-line (of verse)",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dördmisralı": {
+  "az": "Dörd sətirdən ibarət olan (şeir).",
+  "en": "four-line, quatrain",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dördmotorlu": {
+  "az": "Dörd mühərriki olan.",
+  "en": "four-engined",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dördnala": {
+  "az": "Atın ayaqlarını yerdən üzərək sürətlə çapdığı halda.",
+  "en": "at full gallop",
+  "pos": "adverb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dördoxlu": {
+  "az": "Dörd oxu olan (araba, maşın və s.).",
+  "en": "four-axled",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dördotaqlı": {
+  "az": "Dörd otağı olan (mənzil).",
+  "en": "four-room",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dör-döşək": {
+  "az": "Yatmaq üçün lazım olan yorğan, döşək və s.",
+  "en": "bedding",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dördpərdəli": {
+  "az": "Dörd pərdədən ibarət olan (pyes).",
+  "en": "four-act",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dördpilləli": {
+  "az": "Dörd mərhələdən, dörd pillədən ibarət olan.",
+  "en": "four-stage",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dördproqramlı": {
+  "az": "Dörd proqramı olan.",
+  "en": "four-program",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dördpudluq": {
+  "az": "Çəkisi dörd pud olan və ya o qədər yük tutan.",
+  "en": "weighing four poods",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dördrəqəmli": {
+  "az": "Dörd rəqəmdən təşkil olunan.",
+  "en": "four-digit",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dördrəng": {
+  "az": "Dörd rəngdən ibarət olan.",
+  "en": "four-coloured",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dördrəngli": {
+  "az": "Dörd rəngdə hazırlanmış və ya çap edilmiş.",
+  "en": "four-coloured",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dördsaatlıq": {
+  "az": "Dörd saat sürən.",
+  "en": "four-hour, lasting four hours",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dördseriyalı": {
+  "az": "Dörd seriyadan ibarət olan (film).",
+  "en": "four-part",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dördsəsli": {
+  "az": "Dörd səs üçün nəzərdə tutulmuş (musiqi əsəri).",
+  "en": "for four voices, four-part",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dördsəthli": {
+  "az": "Dörd üzü, dörd səthi olan.",
+  "en": "four-sided",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dördsimli": {
+  "az": "Dörd simi olan (musiqi aləti).",
+  "en": "four-stringed",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dördsinifli": {
+  "az": "Dörd sinifdən ibarət olan (məktəb).",
+  "en": "having four classes",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dördtaktlı": {
+  "az": "Dörd takt uzunluğunda olan (musiqi parçası).",
+  "en": "four-bar",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dördtarlalı": {
+  "az": "Dörd tarlalı növbəli əkin sistemi ilə aparılan.",
+  "en": "four-field (of crop rotation)",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dördtarlalıq": {
+  "az": "Əkin sahəsini dörd tarlaya bölüb bitkiləri növbə ilə əkmə üsulu.",
+  "en": "four-field crop rotation",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dördtonluq": {
+  "az": "Çəkisi dörd ton olan.",
+  "en": "four-ton",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dördüncüsü": {
+  "az": "Sadalamada dördüncü yerdə gələn fikri bildirir.",
+  "en": "fourthly",
+  "pos": "adverb",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "dördüzlü": {
+  "az": "Dörd üzdən ibarət olan (həndəsi fiqur).",
+  "en": "four-faced",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dördyanlı": {
+  "az": "Dörd tərəfi olan.",
+  "en": "four-sided",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dördyaşar": {
+  "az": "Dörd yaşında olan.",
+  "en": "four years old",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dördyaşlı": {
+  "az": "Dörd yaşında olan.",
+  "en": "four years old",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dördyerli": {
+  "az": "Dörd nəfərin oturması və ya yatması üçün yeri olan.",
+  "en": "four-seat, four-berth",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dördyüzillik": {
+  "az": "Dörd əsr davam edən və ya dörd əsrlik tarixi olan.",
+  "en": "four-hundred-year",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "döşbağı": {
+  "az": "Qadınların döşə taxdığı bəzək bağı.",
+  "en": "a decorative breast band worn by women",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "döş-baş": {
+  "az": "Sinə və onun ətrafı; döş.",
+  "en": "chest, bosom",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "döş-döşə": {
+  "az": "Sinə-sinəyə, üz-üzə gələrək.",
+  "en": "breast to breast",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "döşəkağılıq": {
+  "az": "Döşəkağı tikmək üçün yararlı olan (parça).",
+  "en": "suitable for bedsheets",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "döşəkçi": {
+  "az": "Döşək tikən usta.",
+  "en": "mattress-maker",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "döşəklik": {
+  "az": "Döşək tikməyə yararlı olan (parça).",
+  "en": "suitable for mattresses",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "döşəküzü": {
+  "az": "Döşəyin üstünə çəkilən örtük.",
+  "en": "mattress cover",
+  "pos": "noun",
+  "src": "both",
+  "conf": "low"
+ },
+ "döşəküzülük": {
+  "az": "Döşək üzü tikmək üçün yararlı olan (parça).",
+  "en": "suitable for mattress covers",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "döşəli": {
+  "az": "Üstünə xalça, palaz salınmış; səliqə ilə döşənmiş.",
+  "en": "furnished, carpeted",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "döşəməli": {
+  "az": "Yeri döşəmə ilə örtülmüş.",
+  "en": "floored",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "döşəməlik": {
+  "az": "Döşəmə salmaq üçün işlədilə bilən.",
+  "en": "suitable for flooring",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "döşəməplov": {
+  "az": "Üstünə döşəmə adlanan qara qoyulan plov.",
+  "en": "pilaf served with a döşəmə topping",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "döşənək": {
+  "az": "Yerə və ya altına sərilə bilən hər hansı şey.",
+  "en": "anything spread on the floor or underneath",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "döşənti": {
+  "az": "Yerə sərilən, döşənən hər şey.",
+  "en": "something laid or spread out",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "döşətmək": {
+  "az": "Başqasına döşənək və ya fərş saldırmaq.",
+  "en": "to have something spread or laid",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "döşgəlməsi": {
+  "az": "Süd vəzisinin iltihabı.",
+  "en": "mastitis",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "döşləmək": {
+  "az": "Sinəsi ilə vurub itələmək.",
+  "en": "to push with one's chest",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "döşləşmək": {
+  "az": "Bir-biri ilə qarşı-qarşıya gəlib vuruşmaq.",
+  "en": "to clash, to fight face to face",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "döşlü": {
+  "az": "Geniş və iri sinəsi olan.",
+  "en": "broad-chested",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "döşlüklü": {
+  "az": "Döşlük taxmış, önlüklü.",
+  "en": "wearing an apron or bib",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "döşlüksüz": {
+  "az": "Önlük və ya döşlük taxmamış.",
+  "en": "without an apron or bib",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "döşotu": {
+  "az": "Boru şəkilli çiçəkləri olan çoxillik bitki.",
+  "en": "a perennial herb with tubular flowers",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "döşüaçıq": {
+  "az": "Sinəsi açıq qalmış, yaxası düymələnməmiş.",
+  "en": "open-breasted",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "döşüqara": {
+  "az": "Döşü qara rəngdə olan (quş və s.).",
+  "en": "black-breasted",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "döşüodlu": {
+  "az": "Ürəyi deyiləcək sözlərlə, dərdlə dolu olan.",
+  "en": "having much on one's heart to say",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "döşürmək": {
+  "az": "Bir yerə toplamaq, yığışdırmaq.",
+  "en": "to gather, to collect",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "döşürülmək": {
+  "az": "Bir yerə toplanmaq, yığılmaq.",
+  "en": "to be gathered",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "döşüyastı": {
+  "az": "Sinəsi düz və inkişafsız olan.",
+  "en": "flat-chested",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "döşüzəif": {
+  "az": "Ağciyərləri sağlam olmayan, sinəsi zəif.",
+  "en": "weak-chested",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dövlətpərəstlik": {
+  "az": "Var-dövlət toplamağa həddən artıq meyil; tamahkarlıq.",
+  "en": "mercenariness, greed for wealth",
+  "pos": "noun",
+  "src": "both",
+  "conf": "low"
+ },
+ "dövlətsiz": {
+  "az": "Var-dövləti olmayan, kasıb.",
+  "en": "poor, without wealth",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dövlətsizlik": {
+  "az": "Var-dövlətin olmaması; yoxsulluq.",
+  "en": "poverty, lack of wealth",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dövrələmə": {
+  "az": "Bir şeyin ətrafına dövrə vurma, onu əhatəyə alma.",
+  "en": "encircling",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dövrələnmək": {
+  "az": "Hər tərəfdən əhatəyə alınmaq.",
+  "en": "to be surrounded",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dövrələşdirmək": {
+  "az": "Bir şeyi dairəvi formaya salmaq.",
+  "en": "to make round",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dövrələtmək": {
+  "az": "Başqasına bir şeyi dövrəyə aldırmaq.",
+  "en": "to have someone encircle something",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dövrələyici": {
+  "az": "Bir şeyi hər tərəfdən əhatə edən, mühasirəyə alan.",
+  "en": "encircling, surrounding",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dövrəli": {
+  "az": "Ətrafı geniş, böyük çevrəsi olan.",
+  "en": "having a wide circumference",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dövrəmə": {
+  "az": "Dairə formasında olan.",
+  "en": "circular",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dövrəsifət": {
+  "az": "Üzü girdə olan.",
+  "en": "round-faced",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dövrilik": {
+  "az": "Müəyyən fasilələrlə vaxtaşırı təkrarlanma xüsusiyyəti.",
+  "en": "periodicity",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dövrləşdirilmək": {
+  "az": "Ayrı-ayrı dövrlərə ayrılmaq.",
+  "en": "to be divided into periods",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dövrləşdirmək": {
+  "az": "Bir şeyi mərhələlərə, dövrlərə bölmək.",
+  "en": "to periodize, to divide into periods",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dövrləşmək": {
+  "az": "Müxtəlif dövrlərə ayrılmaq.",
+  "en": "to become divided into periods",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "döycələnmək": {
+  "az": "Peyvənd edilmək.",
+  "en": "to be inoculated",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "döyəc": {
+  "az": "Keçmişdə parçanı daş üzərində taxta çəkiclə döyüb hamarlama işi.",
+  "en": "beating cloth smooth with a mallet (historical)",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "döyəcdaşı": {
+  "az": "Parçanı döyəcləmək üçün istifadə olunan hamar daş.",
+  "en": "a smooth stone for beating cloth",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "döyəcləmək": {
+  "az": "Bir alətlə dəfələrlə vurmaq, döymək.",
+  "en": "to beat, to strike repeatedly",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "döyəclənmək": {
+  "az": "Hər hansı alətlə döyülmək, vurulmaq.",
+  "en": "to be beaten, to be struck",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "döyənəkli": {
+  "az": "Üzərində döyənək əmələ gəlmiş, qabarlı (əl və s.).",
+  "en": "calloused",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "döyənəkotu": {
+  "az": "Rütubətli meşə yerlərində bitən çoxillik ot.",
+  "en": "a perennial herb of damp woodland",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "döyməc": {
+  "az": "Təzə meyvəni döyüb əzməklə hazırlanan yemək.",
+  "en": "a dish made of pounded fresh fruit",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "döyməkabab": {
+  "az": "Döyülüb əzilmiş ətdən hazırlanan kabab.",
+  "en": "kebab made of pounded meat",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "döyməqiymə": {
+  "az": "Döyülmüş ətə noxud və kişmiş qatılaraq bişirilən xörək.",
+  "en": "a dish of pounded meat with chickpeas and raisins",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "döyməlik": {
+  "az": "Döymək üçün yararlı sümüksüz ət.",
+  "en": "boneless meat for pounding",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "döy-sındır": {
+  "skip": "evidence has only labels, no sense text"
+ },
+ "döyükdürmək": {
+  "az": "Birini heyrətə salıb çaşdırmaq.",
+  "en": "to astonish, to bewilder",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "döyükmək": {
+  "az": "Gözlənilməz şeydən çaşıb qalmaq, karıxmaq.",
+  "en": "to be bewildered",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "döyüm": {
+  "az": "Taxılı döyüb dənini ayırma işi.",
+  "en": "threshing",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "döyün": {
+  "az": "Taxıl döymə prosesi; döyüm.",
+  "en": "threshing",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "döyünçü": {
+  "az": "Xırmanda taxıl döyən adam.",
+  "en": "thresher",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "döyünçülük": {
+  "az": "Taxıl döyən adamın peşəsi.",
+  "en": "the work of a thresher",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "döyüşə-döyüşə": {
+  "az": "Vuruşa-vuruşa, döyüş apararaq.",
+  "en": "fighting all the way",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "döyüşən": {
+  "az": "Döyüşdə iştirak edən, vuruşan.",
+  "en": "fighting, combatant",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "döyüşkənlik": {
+  "az": "Döyüşə, davaya meyilli olma xüsusiyyəti.",
+  "en": "bellicosity, combativeness",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "döyüşqabağı": {
+  "az": "Döyüşün başlanmasından öncəki.",
+  "en": "pre-battle",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "döyüş-söyüş": {
+  "az": "Vuruşma və söyüşlə müşayiət olunan dava.",
+  "en": "brawling, fighting and cursing",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "döyüşsüz": {
+  "az": "Vuruşmadan, sülh yolu ilə.",
+  "en": "without a fight",
+  "pos": "adverb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dözülməzlik": {
+  "az": "Dözülməsi mümkün olmayan vəziyyət.",
+  "en": "unbearableness",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dram": {
+  "az": "Səhnədə oynanılmaq üçün yazılmış ciddi məzmunlu əsər; drama.",
+  "en": "drama",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dramatikləşdirmək": {
+  "az": "Gərginliyi artırıb dramatik hala salmaq.",
+  "en": "to dramatize",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dramatiklik": {
+  "az": "Dramatik xarakter, gərginlik daşıma xüsusiyyəti.",
+  "en": "dramatic quality",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dramatizm": {
+  "az": "Hadisə və ya əsərdəki dramatik gərginlik, təsirlilik.",
+  "en": "dramatic quality",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dramaturqluq": {
+  "az": "Pyes yazma sənəti, dramaturqun peşəsi.",
+  "en": "playwriting",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dramlaşdırılmaq": {
+  "az": "Səhnə əsəri şəklinə salınmaq.",
+  "en": "to be dramatized",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dramlaşdırmaq": {
+  "az": "Bir əsəri səhnə üçün dram formasına çevirmək.",
+  "en": "to dramatize",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "drap": {
+  "az": "Palto tikmək üçün işlədilən qalın yun parça.",
+  "en": "a heavy woollen cloth for overcoats",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "drel": {
+  "az": "Deşik açmaq üçün işlədilən burğu aləti.",
+  "en": "drill",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "drenajlama": {
+  "az": "Torpağı və ya yaranı drenaj vasitəsilə qurutma.",
+  "en": "drainage, draining",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "drenajlamaq": {
+  "az": "Arx və boru şəbəkəsi ilə torpaqdakı artıq suyu çəkib qurutmaq.",
+  "en": "to drain land",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "drenajlanmaq": {
+  "az": "Arx və ya boru şəbəkəsi ilə qurudulmaq.",
+  "en": "to be drained",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dreyf": {
+  "az": "Gəmi və ya buzun külək, axın təsiri ilə öz-özünə sürüklənməsi.",
+  "en": "drift",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dualamaq": {
+  "az": "Nikahda gənclərin xoşbəxtliyi üçün dua oxumaq.",
+  "en": "to bless with prayers at a wedding",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dualanmaq": {
+  "az": "Haqqında dualama mərasimi keçirilmək.",
+  "en": "to be blessed with prayers",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dualatmaq": {
+  "az": "Başqası vasitəsilə dualama mərasimi keçirtmək.",
+  "en": "to have a wedding blessing performed",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dualist": {
+  "az": "Dualizm nəzəriyyəsinin tərəfdarı.",
+  "en": "dualist",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dua-səna": {
+  "az": "Allaha yalvarış, dua və tərif.",
+  "en": "prayer and praise",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "duayazan": {
+  "az": "Keçmişdə dua yazmaqla məşğul olan şəxs.",
+  "en": "a writer of prayer charms",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "duda": {
+  "az": "Neft, qaz kimi yanacaqların yanmasından yaranan qara his.",
+  "en": "soot",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "duel": {
+  "az": "İki nəfər arasında silahla aparılan təkbətək vuruşma.",
+  "en": "duel",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "duelçi": {
+  "az": "Dueldə vuruşan şəxs.",
+  "en": "duellist",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dullaşmaq": {
+  "az": "Ərini və ya arvadını itirib dul qalmaq.",
+  "en": "to be widowed",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dulluq": {
+  "az": "Dul qalmış adamın vəziyyəti.",
+  "en": "widowhood",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dumaçı": {
+  "az": "Dumanın, yəni nümayəndəlik orqanının üzvü olan şəxs.",
+  "en": "member of a duma",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "duman-çiskin": {
+  "az": "Çiskinli duman, dumanlı hava.",
+  "en": "mist with drizzle",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dumanlamaq": {
+  "az": "Bir yeri duman və ya tüstü ilə örtmək.",
+  "en": "to cover with mist or smoke",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dumanlandırılmaq": {
+  "az": "Tüstüyə bürüdülmək.",
+  "en": "to be filled with smoke",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dumanlandırmaq": {
+  "az": "Tüstü və ya dumanla bürüyüb tutqun hala salmaq.",
+  "en": "to fog, to cloud",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dumanlanmaq": {
+  "az": "Duman və ya tüstü ilə örtülmək.",
+  "en": "to become misty",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dumanlaşmaq": {
+  "az": "Hər tərəfi duman bürümək.",
+  "en": "to become foggy",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dumanlatmaq": {
+  "az": "Tüstü və ya dumanla örtüb tutqunlaşdırmaq.",
+  "en": "to fog, to cloud",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dumanlı-çiskinli": {
+  "az": "Duman çökmüş və çiskin yağan, çox tutqun (hava).",
+  "en": "foggy and drizzly",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dumansız": {
+  "az": "Duman olmayan, aydın və təmiz.",
+  "en": "clear, fogless",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dumansızlıq": {
+  "az": "Havanın duman olmadan təmiz və aydın olması.",
+  "en": "absence of fog, clearness",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dumbul": {
+  "az": "Biri iri, biri kiçik iki çanaqdan ibarət zərb aləti.",
+  "en": "a double drum",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dumbulağacı": {
+  "az": "Dumbul çalmaq üçün çubuq.",
+  "en": "drumstick",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dumbulçu": {
+  "az": "Dumbul çalan musiqiçi.",
+  "en": "drummer",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dumbulçuluq": {
+  "az": "Dumbul çalanın peşəsi.",
+  "en": "the profession of a drummer",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dumduma": {
+  "skip": "evidence gives only an ambiguous dialect synonym"
+ },
+ "dumduruluq": {
+  "az": "Tamamilə duru, şəffaf olma halı.",
+  "en": "perfect clearness",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "duracaq": {
+  "az": "Nəqliyyat vasitələrinin dayandığı yer.",
+  "en": "stop, station",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "duraq": {
+  "az": "Dayanmaq, düşərgə salmaq üçün yer.",
+  "en": "stopping place, halt",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "durbin": {
+  "az": "Uzaqdakı əşyaları görmək üçün iki borulu optik cihaz.",
+  "en": "binoculars",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "durbinli": {
+  "az": "Əlində və ya yanında durbin olan.",
+  "en": "with binoculars",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "durnaboğaz": {
+  "az": "Durna kimi uzun boyunlu.",
+  "en": "long-necked",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "durnagöz": {
+  "az": "Gözləri gözəl və parlaq olan.",
+  "en": "with beautiful clear eyes",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "durnagözlü": {
+  "az": "Gözləri gözəl və durna gözü kimi parlaq olan.",
+  "en": "with beautiful clear eyes",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "durub-oturmaq": {
+  "skip": "evidence is only a cross-reference with no sense"
+ },
+ "duruxdurmaq": {
+  "az": "Birini çaşqınlığa salıb yerində donub qalmağa vadar etmək.",
+  "en": "to bewilder, to make someone stop short",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "duruxsunmaq": {
+  "az": "Tərəddüd edib birdən dayanmaq, çaşıb qalmaq.",
+  "en": "to hesitate, to stop short",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "durulaşdırılmaq": {
+  "az": "Duru, şəffaf hala salınmaq.",
+  "en": "to be cleared, to be clarified",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "durulaşmaq": {
+  "az": "Qatılığını itirib duru, sulu hala gəlmək.",
+  "en": "to become thin or runny",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "durulducu": {
+  "az": "Mayeni durulduran, çöküntüdən təmizləyən.",
+  "en": "clarifying, settling",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "duruldulmaq": {
+  "az": "Duru vəziyyətə gətirilmək.",
+  "en": "to be clarified",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "durumlu": {
+  "az": "Davamlı, möhkəm, tez tükənməyən.",
+  "en": "lasting, durable, substantial",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "durumluluq": {
+  "az": "Davamlı, tutarlı olma xüsusiyyəti.",
+  "en": "durability, substantiality",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "durumsuz": {
+  "az": "Davamı olmayan, tez tükənən.",
+  "en": "unstable, insubstantial",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "durumsuzluq": {
+  "az": "Davamsız, tez tükənən olma halı.",
+  "en": "instability, insubstantiality",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "duruşmaq": {
+  "az": "Birlikdə müəyyən qaydada dayanmaq (çox adam haqqında).",
+  "en": "to stand together in order",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "duruş-oturuş": {
+  "az": "Adamın özünü aparma, davranış tərzi.",
+  "en": "manner, behaviour",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dustaqçı": {
+  "az": "Həbsxanada məhbuslara nəzarət edən şəxs.",
+  "en": "jailer",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dustaqçılıq": {
+  "az": "Həbsdə olma vəziyyəti; dustaqlıq.",
+  "en": "imprisonment",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dustaqlıq": {
+  "az": "Həbsxanada olma, azadlıqdan məhrumluq.",
+  "en": "imprisonment",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "duşxana": {
+  "az": "Duş qəbul etmək üçün ayrılmış yer.",
+  "en": "shower room",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "duvaqqapma": {
+  "az": "Dastanın sonunda oxunan, gəlini öyən və ona məsləhət verən aşıq şeiri.",
+  "en": "a minstrel's poem praising and advising the bride at the end of an epic",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "duvaqlamaq": {
+  "az": "Üzünü duvaqla örtmək.",
+  "en": "to veil",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "duvaqlanmaq": {
+  "az": "Üzü duvaqla örtülmək.",
+  "en": "to be veiled",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "duvaqlı": {
+  "az": "Üzü duvaqla örtülü olan.",
+  "en": "veiled",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "duvaqlıq": {
+  "az": "Duvaq tikmək üçün yararlı olan (parça).",
+  "en": "suitable for a veil",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "duvaqsız": {
+  "az": "Üzündə duvaq olmayan.",
+  "en": "unveiled",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "duydurmaq": {
+  "az": "Bir şeyi başqasına sözsüz hiss etdirmək, anlatmaq.",
+  "en": "to make someone sense, to hint",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "duyuxmaq": {
+  "az": "Bir şeyi hiss edib ayıq düşmək.",
+  "en": "to sense, to become alert",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "duyuqluq": {
+  "az": "Hər şeyi tez hiss edib anlama bacarığı; sayıqlıq.",
+  "en": "vigilance, alertness",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "duyuqsuz": {
+  "az": "Hiss etmə qabiliyyətindən məhrum olan.",
+  "en": "insensitive, unperceptive",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "duyuş": {
+  "az": "Hiss etmə, duyma prosesi.",
+  "en": "sensing, perception",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "duz-çörək": {
+  "az": "Süfrəyə qoyulan duz və çörək.",
+  "en": "bread and salt",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "duzçu": {
+  "az": "Duz istehsalında çalışan adam.",
+  "en": "salt worker",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "duzçuluq": {
+  "az": "Duz hasil etmə işi, peşəsi.",
+  "en": "salt production",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "duzxana": {
+  "az": "Təbii duzu qaynadıb yeməyə yararlı hala salan müəssisə.",
+  "en": "saltworks",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "duzqıran": {
+  "az": "Duz mədənində sal duzu sındırıb çıxaran işçi.",
+  "en": "salt miner who breaks rock salt",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "duzlaq": {
+  "az": "Torpağında duz olan yer, duz yatağı.",
+  "en": "salt marsh, salt deposit",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "duzlaşdırılmaq": {
+  "az": "Duz halına salınmaq.",
+  "en": "to be turned into salt",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "duzlaşdırmaq": {
+  "az": "Bir maddəni duza çevirmək.",
+  "en": "to convert into salt",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "duzlayıcı": {
+  "az": "Məhsulları duza qoyan istehsalat işçisi.",
+  "en": "salter",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "duzluca": {
+  "az": "Bir qədər çox duzlu olan.",
+  "en": "rather salty",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "duzluluq": {
+  "az": "Bir şeyin duzlu olması; şorluq.",
+  "en": "saltiness",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "duzsevən": {
+  "az": "Şoran torpaqlarda yaxşı inkişaf edən (bitki).",
+  "en": "salt-loving, halophilic",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "duzsuzluq": {
+  "az": "Yeməkdə duzun olmaması və ya azlığı.",
+  "en": "saltlessness",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dübbədüz": {
+  "az": "Heç bir əyriliyi olmayan, tam düz.",
+  "en": "perfectly straight or flat",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "düdükçü": {
+  "az": "Düdük çalan musiqiçi.",
+  "en": "pipe player",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "düdükçülük": {
+  "az": "Düdük çalanın peşəsi.",
+  "en": "the occupation of a pipe player",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dühalı": {
+  "az": "Dahiyanə istedada malik olan.",
+  "en": "having genius",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dükan-bazar": {
+  "az": "Mağazaların cəmləşdiyi yer, çarşı.",
+  "en": "shops and market, bazaar",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dükandar": {
+  "az": "Dükan sahibi, dükanda alver edən adam.",
+  "en": "shopkeeper",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dükçə": {
+  "az": "Cəhrənin milinə sarılmış ip yumağı.",
+  "en": "cop (of yarn)",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dülbərçin": {
+  "az": "Yoncanın bir növü.",
+  "en": "a kind of clover",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dülgərxana": {
+  "az": "Dülgərlərin işlədiyi emalatxana.",
+  "en": "carpenter's workshop",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dümağ": {
+  "az": "Tamamilə ağ, qar kimi ağ.",
+  "en": "snow-white",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dümbəkçi": {
+  "az": "Dümbək çalan musiqiçi.",
+  "en": "drummer",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dümbəkçilik": {
+  "az": "Dümbək çalanın peşəsi.",
+  "en": "drumming as an occupation",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dümələnmək": {
+  "az": "Nə iləsə uzun müddət əlləşib məşğul olmaq.",
+  "en": "to fiddle about, to be busy with something",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dümqara": {
+  "az": "Büsbütün qara rəngdə olan.",
+  "en": "pitch-black",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dümsük": {
+  "az": "Dirsək və ya yumruqla yüngülcə vurma, itələmə.",
+  "en": "nudge, poke",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dümsükləmək": {
+  "az": "Dirsək və ya yumruqla vurub itələmək.",
+  "en": "to nudge",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dümsüklənmək": {
+  "az": "Dirsək və ya yumruqla itələnmək.",
+  "en": "to be nudged",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dümük": {
+  "az": "Adamın məşğul olduğu iş, məşğələ.",
+  "en": "occupation, pastime",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dümüşmək": {
+  "az": "Dizləri bükərək aşağı əyilib oturmaq.",
+  "en": "to squat",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dünyabaxışı": {
+  "az": "İnsanın dünyaya və həyata baxışlar sistemi.",
+  "en": "worldview",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dünyaca": {
+  "az": "Hədsiz dərəcədə, son dərəcə.",
+  "en": "immensely, infinitely",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "dünyagörmüş": {
+  "az": "Həyatda çox şey görüb-götürmüş, təcrübəli.",
+  "en": "worldly-wise, experienced",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dünyalarca": {
+  "az": "Ölçüyəgəlməz dərəcədə, hədsiz.",
+  "en": "infinitely, immensely",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dünyalıq": {
+  "az": "Böyük var-dövlət, çoxlu sərvət.",
+  "en": "great wealth",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dünyapərəst": {
+  "az": "Həyatın ləzzətlərinə, maddi nemətlərə bağlanmış.",
+  "en": "worldly, devoted to earthly pleasures",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dünyapərəstlik": {
+  "az": "Dünya nemətlərinə və zövqlərinə həddən artıq bağlılıq.",
+  "en": "worldliness",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dünyasında": {
+  "az": "Heç vaxt, əsla.",
+  "en": "never (ever)",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dünyəviləşdirilmək": {
+  "az": "Dini xarakterdən çıxarılıb dünyəvi edilmək.",
+  "en": "to be secularized",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dünyəviləşdirmək": {
+  "az": "Dini təsirdən azad edib dünyəvi hala salmaq.",
+  "en": "to secularize",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dünyəviləşmək": {
+  "az": "Dini xarakterini itirib dünyəvi olmaq.",
+  "en": "to become secularized",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dürdanələnmək": {
+  "az": "İnci dənələri kimi sıralanmaq.",
+  "en": "to be strung like pearls",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dür-düyün": {
+  "az": "Gərəkli müxtəlif xırda əşyalar.",
+  "en": "odds and ends, belongings",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dür-düyünçə": {
+  "az": "Bağlama halında yığılıb bağlanmış əşyalar.",
+  "en": "bundled belongings",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dürgə": {
+  "az": "Bir yerə yığılıb sarınmış və bağlanmış şey; bağlama.",
+  "en": "bundle, roll",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dürgələmək": {
+  "az": "Bükərək bağlama şəklinə salmaq.",
+  "en": "to roll up, to bundle",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dürgələnmək": {
+  "az": "Bükülüb bağlama halına salınmaq.",
+  "en": "to be rolled up",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dürgələtmək": {
+  "az": "Başqasına bir şeyi bükdürüb bağlama halına saldırmaq.",
+  "en": "to have something rolled up",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dürgəli": {
+  "az": "Bükülüb bağlanmış halda olan.",
+  "en": "rolled up, bundled",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dürlü": {
+  "az": "Cürbəcür, müxtəlif növlü.",
+  "en": "various, of different kinds",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "low"
+ },
+ "dürməkləmək": {
+  "az": "Lavaş və ya yuxanın içinə pendir, yağ qoyub bükmək.",
+  "en": "to roll up flatbread with a filling",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dürtmə": {
+  "az": "Barmaq və ya bir şeyin ucu ilə itələmə.",
+  "en": "poke, jab",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dürtməklənmək": {
+  "az": "Barmaq oynaqları ilə vurulan zərbəyə məruz qalmaq.",
+  "en": "to be poked or jabbed",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dürtmələmək": {
+  "az": "Barmaq oynaqları və ya dirsəklə dəfələrlə vurmaq.",
+  "en": "to poke, to jab",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dürtmələnmək": {
+  "az": "Dəfələrlə dümsüklənmək, itələnmək.",
+  "en": "to be poked repeatedly",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dürtülmək": {
+  "az": "Özünü bir yerə güclə soxmaq.",
+  "en": "to push one's way in",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dürtüşdürmək": {
+  "az": "Bir şeyi tələsik və zorla cibə və s. soxmaq.",
+  "en": "to stuff, to shove in",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dürtüşdürülmək": {
+  "az": "Zorla, səliqəsiz şəkildə bir yerə soxulmaq.",
+  "en": "to be stuffed or shoved in",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dürtüşmək": {
+  "az": "Hamılıqla zorla bir yerə soxulmaq.",
+  "en": "to push in all together",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dürüstləşdirilmək": {
+  "az": "Daha dəqiq hala gətirilmək.",
+  "en": "to be made more precise",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dürüstləşdirmək": {
+  "az": "Bir şeyi daha dəqiq, düzgün hala salmaq.",
+  "en": "to make more precise, to specify",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dürüstləşmək": {
+  "az": "Daha dəqiq, düzgün olmaq.",
+  "en": "to become more precise",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "düşbərəxana": {
+  "az": "Düşbərə hazırlanıb satılan yeməkxana.",
+  "en": "eatery serving dushbara",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "düşbərəlik": {
+  "az": "Düşbərə bişirmək üçün yararlı olan (ət və s.).",
+  "en": "suitable for dushbara",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "düşdürmək": {
+  "az": "Birini və ya bir şeyi düşməyə vadar etmək.",
+  "en": "to make fall, to make get off",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "düşərinə": {
+  "az": "Fikirləşmədən, təsadüfi olaraq, gəlişigözəl.",
+  "en": "at random, haphazardly",
+  "pos": "adverb",
+  "src": "izahli",
+  "conf": "high"
+ }
+}

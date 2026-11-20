@@ -1,0 +1,1917 @@
+{
+ "çırmamaq": {
+  "az": "Qolu və ya balağı bir neçə qat bükərək yuxarı qaldırmaq.",
+  "en": "to roll up one's sleeves or trouser legs",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çırpdırmaq": {
+  "az": "Bir şeyi başqasına çırpıb silkələtmək.",
+  "en": "to have something shaken out",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "çırpınış": {
+  "az": "Çabalayıb çırpınma hərəkəti.",
+  "en": "fluttering or struggling",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çırpıntı": {
+  "az": "Ürəyin bərk-bərk vurması, döyünmə.",
+  "en": "beating or throbbing",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "çırtaçırt": {
+  "az": "Çırt-çırt səs salaraq, şaqqıltı ilə.",
+  "en": "with a crackling sound",
+  "pos": "adverb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çırtıldamaq": {
+  "az": "Kəsik-kəsik çırt səsi salmaq.",
+  "en": "to crackle",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çırtıltı": {
+  "az": "Yanan quru odundan və ya ayaq altında qalan quru otdan çıxan səs.",
+  "en": "crackling sound",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çırtlaq": {
+  "az": "Yanan ocaqdan sıçrayan parlaq xırda zərrələr; qığılcım.",
+  "en": "sparks from a fire",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çırtmaq": {
+  "skip": "only a cross-reference to another word's sense"
+ },
+ "çırtmalamaq": {
+  "az": "Barmaqla yüngülcə vurub bir şeyi sınamaq.",
+  "en": "to flick with a finger",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "çibanlı": {
+  "az": "Üzərində çiban çıxmış olan.",
+  "en": "covered with boils",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "çiçə": {
+  "az": "Uşaq dilində: təmiz və göyçək.",
+  "en": "clean and pretty (in child speech)",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çiçəkçi": {
+  "az": "Çiçək becərməklə məşğul olan şəxs; gülçü.",
+  "en": "flower grower",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çiçəkçilik": {
+  "az": "Çiçək və bəzək bitkiləri yetişdirməklə məşğul olan sahə.",
+  "en": "floriculture",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "çiçəkdöymə": {
+  "az": "Çiçək xəstəliyinə qarşı peyvənd vurma.",
+  "en": "smallpox vaccination",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çiçəkləndirmək": {
+  "az": "Bir ərazini çiçək əkərək bəzəmək.",
+  "en": "to fill a place with flowers",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çiçəklik": {
+  "az": "Çiçək əkilən lək və ya bağça.",
+  "en": "flower garden or flower bed",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "çiçəksiz": {
+  "az": "Çiçək açmayan, çiçəyi olmayan.",
+  "en": "flowerless",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "çiçəkyatağı": {
+  "az": "Çiçək saplağının yuxarıdakı genişlənmiş hissəsi.",
+  "en": "receptacle of a flower",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çiçəkyeyən": {
+  "az": "Çiçəklərlə və tumurcuqlarla qidalanan bəzi həşəratın adı.",
+  "en": "flower-eating insect",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çilçıraqban": {
+  "az": "Bol işıqlı, çıraqlarla nurlanmış.",
+  "en": "brightly lit",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çilçıraqlı": {
+  "az": "Tavanından çilçıraq asılmış olan.",
+  "en": "having a chandelier",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çil-çil": {
+  "az": "Üzərini çoxlu çil basmış.",
+  "en": "freckled all over",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çilə": {
+  "az": "Kotanın bıçaq və qoşqu hissələrinin bərkidildiyi uzun tir.",
+  "en": "plough beam",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çiləgən": {
+  "az": "Suvaq tutsun deyə divara vurulan nazik taxta zolağı.",
+  "en": "lath (for plaster)",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çilənmək": {
+  "az": "Damla-damla səpələnmək, sıçramaq.",
+  "en": "to be splashed or sprinkled",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "çilətmək": {
+  "az": "Bir mayeni başqasının əli ilə səpdirmək.",
+  "en": "to have something splashed or sprinkled",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "çiləyici": {
+  "az": "Mayeni xırda damcılarla səpən cihaz.",
+  "en": "sprayer",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çilik": {
+  "skip": "only a cross-reference to another word"
+ },
+ "çilik-çilik": {
+  "az": "Xırda parçalara bölünmüş halda.",
+  "en": "into small pieces",
+  "pos": "adverb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çilikləmək": {
+  "az": "Bir şeyi qısa parçalara doğramaq.",
+  "en": "to chop into short pieces",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çiling": {
+  "az": "Çilingağac oyununda kiçik ağacı vurmaq üçün işlədilən çubuq.",
+  "en": "bat used in the tipcat game",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çilingağac": {
+  "az": "Kiçik ağac parçasını çubuqla vurub uzağa atmağa əsaslanan uşaq oyunu.",
+  "en": "tipcat (children's game)",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çilingərxana": {
+  "az": "Çilingərlərin işlədiyi emalatxana.",
+  "en": "metal workshop",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "çilingərlik": {
+  "az": "Çilingərin peşəsi və gördüyü iş.",
+  "en": "metalworking or locksmith's trade",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çilləmək": {
+  "az": "Bir şeyin üzərində xırda ləkələr əmələ gətirmək.",
+  "en": "to cover with spots or freckles",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "çillənmək": {
+  "az": "Üzərində xırda ləkələr, çillər əmələ gəlmək.",
+  "en": "to become spotted or freckled",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "çilləşmək": {
+  "az": "Çil basmaq, xallanmaq.",
+  "en": "to become freckled",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "çilov": {
+  "az": "Düyüyə lobya, mərci və əriştə qatılaraq bişirilən plov.",
+  "en": "pilaf with beans, lentils and noodles",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çilovçu": {
+  "az": "Keçmişdə çilov hazırlayıb satan aşpaz.",
+  "en": "maker and seller of çilov pilaf",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çim": {
+  "az": "Kökləri bir-birinə keçmiş sıx otla örtülü torpaq qatı.",
+  "en": "turf or sod",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çimçişmək": {
+  "az": "Bir şeydən iyrənib diksinmək, ikrah duymaq.",
+  "en": "to feel disgust or squeamishness",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çimdikləşmək": {
+  "az": "Qarşılıqlı olaraq bir-birinə çimdik atmaq.",
+  "en": "to pinch each other",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "çimləmək": {
+  "az": "Torpağın üzünü çim qatı ilə örtmək.",
+  "en": "to cover with turf",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çimli": {
+  "az": "Üzəri çimlə örtülü olan.",
+  "en": "turfed, covered with sod",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çinarboy": {
+  "az": "Çinar kimi uca və qamətli.",
+  "en": "tall and slender",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "çinarlıq": {
+  "az": "Çinar ağaclarının sıx bitdiyi yer.",
+  "en": "plane-tree grove",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "çin-çin": {
+  "az": "Lay-lay, bir-birinin üstünə yığılmış şəkildə.",
+  "en": "in layers, one on top of another",
+  "pos": "adverb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çinədan": {
+  "az": "Quşlarda yeməyin toplandığı qida borusunun genişlənmiş hissəsi.",
+  "en": "crop (of a bird)",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çinləmək": {
+  "az": "Bir şeyi səliqə ilə qat-qat yığıb qalamaq.",
+  "en": "to stack neatly in layers",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "çiriş": {
+  "az": "Zanbaqkimilər fəsiləsindən olan yabanı bəzək və tərəvəz bitkisi.",
+  "en": "a wild plant of the lily family (eremurus)",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çirkgötürən": {
+  "az": "Açıq rəngi üzündən asanlıqla kirlənən (parça və s.).",
+  "en": "easily soiled (of light-coloured fabric)",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çirkinləşdirmək": {
+  "az": "Bir şeyi və ya kimisə eybəcər hala salmaq.",
+  "en": "to make ugly",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "çirkli-paslı": {
+  "az": "Üstü-başı kirli, səliqəsiz görünən.",
+  "en": "dirty and unkempt",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çis": {
+  "az": "Toz kimi yağan çox xırda yağış.",
+  "en": "drizzle",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çitək": {
+  "az": "Paltarın cırıq yerinə tikilən parça; yamaq.",
+  "en": "patch",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çitəmək": {
+  "az": "Paltarın cırıq yerini yamamaq.",
+  "en": "to mend",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "çitənmək": {
+  "az": "Yamanmaq, təmir olunmaq (paltar haqqında).",
+  "en": "to be mended",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "çitətmək": {
+  "az": "Paltarı başqasına yamatmaq.",
+  "en": "to have something mended",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "çiv": {
+  "az": "Bir şeyi bərkitmək və ya yarmaq üçün vurulan paz.",
+  "en": "wedge",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "çivləmək": {
+  "az": "Paz vuraraq hissələri bir-birinə bərkitmək.",
+  "en": "to wedge",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "çivlənmək": {
+  "az": "Paz vurularaq bərkidilmək.",
+  "en": "to be wedged",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "çivlətmək": {
+  "az": "Bir şeyi başqasına pazla bərkitdirmək.",
+  "en": "to have something wedged",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "çivzə": {
+  "az": "Dəridə əmələ gələn xırda sızanaq.",
+  "en": "pimple",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çivzəli": {
+  "az": "Üzünü sızanaq basmış.",
+  "en": "pimply",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çiyələklik": {
+  "az": "Çiyələk əkilmiş sahə.",
+  "en": "strawberry field",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "çiyidli": {
+  "az": "İçində toxumu, çəyirdəyi olan (meyvə və s.).",
+  "en": "having seeds or pips",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "çiyidsəpən": {
+  "az": "Pambıq toxumu səpmək üçün nəzərdə tutulmuş.",
+  "en": "for sowing cotton seed",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çiyidsiz": {
+  "az": "Toxumu, çəyirdəyi olmayan.",
+  "en": "seedless",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "çiyinli": {
+  "az": "Geniş və enli çiyinləri olan.",
+  "en": "broad-shouldered",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "çiyinlik": {
+  "az": "Paltarın çiyninə içəridən tikilən yastıqcıq.",
+  "en": "shoulder pad",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çiynidüşük": {
+  "az": "Çiyinləri aşağı sallanmış olan.",
+  "en": "with drooping shoulders",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çobanaldadan": {
+  "az": "Uçarkən tez-tez yerə enən boz rəngli, uzun quyruqlu quş.",
+  "en": "a grey long-tailed bird (nightjar)",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "çobanaşı": {
+  "az": "Suda və ya süddə hazırlanan xalq yeməyi.",
+  "en": "a shepherd-style dish cooked in water or milk",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çobanbozartması": {
+  "az": "Ətdən hazırlanan bozartma növü.",
+  "en": "a kind of meat bozartma stew",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çobançiçəyi": {
+  "skip": "evidence garbled with text from neighbouring entries"
+ },
+ "çoban-çoluq": {
+  "az": "Keçmişdə varlıların yoxsul adamlara verdiyi alçaldıcı ad.",
+  "en": "rabble, common folk (derogatory, historical)",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çobanəppəyi": {
+  "az": "Kəklikotuna bənzəyən, yabanı bitən yeməli ot.",
+  "en": "a wild edible herb resembling thyme",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çobanı": {
+  "az": "Əldə çomaq tutularaq ifa edilən sürətli rəqs.",
+  "en": "shepherds' dance performed with a staff",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çobaniti": {
+  "az": "Qoyun sürüsünü mühafizə edən böyük və güclü it.",
+  "en": "shepherd's dog",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "çobanlıq": {
+  "az": "Sürü otarma peşəsi, çobanın işi.",
+  "en": "shepherding",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çobantoxmağı": {
+  "az": "Kökü çoxlu saçaqdan ibarət olan, uzun ömürlü ot bitkisi.",
+  "en": "a perennial herb with fibrous roots",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çobantoppuzu": {
+  "az": "Çox vaxt yabanı bitən, bəzən yem üçün əkilən çoxillik ot.",
+  "en": "a perennial herb grown wild or as fodder",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çobanulduzu": {
+  "az": "Xalq arasında Venera planetinə verilən ad.",
+  "en": "Venus (the planet), the morning star",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çoxadamlı": {
+  "az": "Çoxlu adamın toplaşdığı, izdihamlı.",
+  "en": "crowded or populous",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "çoxadlı": {
+  "az": "Bir neçə adı olan.",
+  "en": "having many names",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "çoxaldılmaq": {
+  "az": "Sayı və ya miqdarı artırılmaq.",
+  "en": "to be increased or multiplied",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "çoxatlı": {
+  "az": "Bir neçə at qoşulan (araba və s.).",
+  "en": "drawn by several horses",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çoxayaqlı": {
+  "az": "Çoxlu ayağı olan buğumayaqlı heyvan.",
+  "en": "myriapod",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "çox-az": {
+  "az": "Bir qədər, az da olsa.",
+  "en": "more or less",
+  "pos": "adverb",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "çoxbaşlı": {
+  "az": "Bir neçə başı olan.",
+  "en": "many-headed",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "çoxbilən": {
+  "az": "Bilik və təcrübəsi geniş olan.",
+  "en": "knowledgeable or wise",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "çoxbilmişlik": {
+  "az": "Hiyləgərlik, fənd işlətməyə meyil.",
+  "en": "cunning or slyness",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çoxbuğumlu": {
+  "az": "Çoxlu buğumdan təşkil olunmuş.",
+  "en": "many-jointed",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çoxcəhətli": {
+  "az": "Müxtəlif tərəfləri, sahələri əhatə edən.",
+  "en": "many-sided or versatile",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çoxcərgəli": {
+  "az": "Bir neçə cərgədən ibarət olan.",
+  "en": "multi-row",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "çoxçalovlu": {
+  "az": "Bir neçə kovşu olan (ekskavator və s.).",
+  "en": "multi-bucket",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "çoxçarpayılı": {
+  "az": "Çoxlu çarpayı qoyulmuş (otaq və s.).",
+  "en": "with many beds",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çoxçiçəkli": {
+  "az": "Çoxlu çiçək açan (bitki).",
+  "en": "many-flowered",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çox-çox": {
+  "az": "Həddən artıq çox, xeyli.",
+  "en": "very much, a great deal",
+  "pos": "adverb",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "çoxdalğalı": {
+  "az": "Bir neçə dalğa diapazonunda işləyən.",
+  "en": "multiwave",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "çoxdərəcəli": {
+  "az": "Bir neçə pillədən keçən (seçki və s.).",
+  "en": "multistage",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "çoxdəzgahçı": {
+  "az": "Eyni vaxtda bir neçə dəzgahda işləyən.",
+  "en": "operating several machines at once",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çoxdişcikli": {
+  "az": "Çoxlu kiçik dişi olan.",
+  "en": "having many small teeth",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çoxdişli": {
+  "az": "Bir çox dişi olan.",
+  "en": "many-toothed",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çoxevli": {
+  "az": "Həm ikicinsli, həm də təkcinsli çiçəkləri olan (bitki).",
+  "en": "polygamous (of plants)",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çoxərli": {
+  "az": "Bir neçə ərlə eyni vaxtda nikahda olan.",
+  "en": "polyandrous",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "çoxəsrli": {
+  "az": "Əsrlər boyu davam edən, qədim.",
+  "en": "centuries-old",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çoxfiqurlu": {
+  "az": "Çoxlu fiqurdan ibarət olan (rəsm, heykəl və s.).",
+  "en": "multi-figure",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çoxgülən": {
+  "az": "Tez-tez gülən, şən təbiətli.",
+  "en": "given to laughing a lot, merry",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "çoxhakimiyyətlilik": {
+  "az": "Eyni səlahiyyətli bir neçə hakimiyyət orqanının bir vaxtda fəaliyyət göstərməsi.",
+  "en": "coexistence of several governing authorities",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çoxqatlı": {
+  "az": "Çoxlu laydan təşkil olunmuş.",
+  "en": "multilayered",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çoxqiymətli": {
+  "az": "Bir neçə rəqəmlə ifadə olunan (ədəd).",
+  "en": "multi-digit",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "çoxqütblü": {
+  "az": "Bir neçə qütbü olan.",
+  "en": "multipolar",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "çoxlaşmaq": {
+  "az": "Sayca artmaq, çoxalmaq.",
+  "en": "to increase in number",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "çoxlaylı": {
+  "az": "Bir neçə laydan ibarət olan.",
+  "en": "multilayered",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çoxluca": {
+  "az": "Xeyli çox, bol miqdarda.",
+  "en": "quite a lot, plentifully",
+  "pos": "adverb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çoxməchullu": {
+  "az": "Bir neçə naməlumu olan (tənlik və s.).",
+  "en": "with several unknowns",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çoxməqsədli": {
+  "az": "Müxtəlif məqsədlər üçün işlədilən.",
+  "en": "multipurpose",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çoxmənzilli": {
+  "az": "Bir çox mənzildən ibarət olan (bina).",
+  "en": "multi-apartment",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "çoxminli": {
+  "az": "Sayı minlərlə ölçülən.",
+  "en": "numbering in the thousands",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çoxmotorlu": {
+  "az": "Bir neçə mühərriklə işləyən.",
+  "en": "multi-engined",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "çoxmövzulu": {
+  "az": "Müxtəlif mövzuları əhatə edən.",
+  "en": "covering many topics",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çoxnövçü": {
+  "az": "Bir neçə idman növü üzrə yarışan idmançı.",
+  "en": "all-round athlete",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "çoxnövçülük": {
+  "az": "Bir neçə idman növünü birləşdirən yarış.",
+  "en": "multi-event competition",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çoxnövlü": {
+  "az": "Müxtəlif növlərdən təşkil olunmuş.",
+  "en": "of many kinds, diverse",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çoxnüvəli": {
+  "az": "Bir neçə halqa və ya nüvədən ibarət olan (kimyəvi birləşmə).",
+  "en": "polycyclic",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "çoxotaqlı": {
+  "az": "Bir çox otağı olan.",
+  "en": "multi-room",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çoxpartiyalı": {
+  "az": "Müxtəlif partiyaların təmsilçilərindən ibarət olan.",
+  "en": "multiparty",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çoxplanlı": {
+  "az": "Müxtəlif sahə və problemləri əhatə edən.",
+  "en": "multifaceted, wide-ranging",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çoxrəqəmli": {
+  "az": "Bir çox rəqəmdən ibarət olan.",
+  "en": "multi-digit",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "çoxrənglilik": {
+  "az": "Rəng müxtəlifliyi, əlvanlıq.",
+  "en": "polychromy",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "çoxsimli": {
+  "az": "Bir çox simi olan (musiqi aləti).",
+  "en": "many-stringed",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "çoxşəkilli": {
+  "az": "Bir çox şəkli olan.",
+  "en": "with many pictures",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "çoxtelli": {
+  "az": "Bir çox teldən ibarət olan.",
+  "en": "multi-stranded",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çoxtəbəqəli": {
+  "az": "Bir çox laydan təşkil olunmuş.",
+  "en": "multilayered",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çoxtəkərli": {
+  "az": "Bir çox təkəri olan.",
+  "en": "multi-wheeled",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "çoxtoxumlu": {
+  "az": "Çoxlu toxumu olan.",
+  "en": "many-seeded",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "çoxtonlu": {
+  "az": "Çəkisi tonlarla ölçülən.",
+  "en": "weighing many tons",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çoxvariantlı": {
+  "az": "Bir çox variantı olan.",
+  "en": "having many variants",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çoxyaşlı": {
+  "az": "Ömrü uzun olub qocalmış.",
+  "en": "aged, elderly",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çoxyeyən": {
+  "az": "Yeməkdə ölçü bilməyən, qarınqulu.",
+  "en": "gluttonous",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "çolaqlaşmaq": {
+  "az": "Ayağı və ya əli şikəst hala düşmək.",
+  "en": "to become crippled or lame",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "çolaqlıq": {
+  "az": "Əli və ya ayağı şikəst olma halı, axsaqlıq.",
+  "en": "lameness",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çolma-çocuq": {
+  "az": "Ailədəki uşaqlar, övladlar.",
+  "en": "children, one's kids",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çolpalanmaq": {
+  "az": "Cücənin böyüyüb cavan toyuq olması.",
+  "en": "to grow into a young chicken",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çolpalı": {
+  "az": "Cavan toyuq əti ilə bişirilmiş.",
+  "en": "cooked with young chicken",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çoluq-çocuq": {
+  "az": "Ailənin uşaqları, övladlar.",
+  "en": "children, one's family",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çomaqlaşmaq": {
+  "az": "Bir-birini dəyənəklə vurmaq.",
+  "en": "to beat each other with cudgels",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "çopur": {
+  "az": "Çiçək xəstəliyindən sonra üzdə qalan çuxurlar, izlər.",
+  "en": "pockmark",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "çopurlanmaq": {
+  "az": "Üzündə çiçək izləri əmələ gəlmək.",
+  "en": "to become pockmarked",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "çopurlaşmaq": {
+  "az": "Üzü çiçək izləri ilə örtülmək.",
+  "en": "to become pockmarked",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "çopurlu": {
+  "az": "Üzündə çiçək izləri olan.",
+  "en": "pockmarked",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "çor": {
+  "az": "Əsasən pambıq bitkisinə düşən xəstəlik.",
+  "en": "a plant disease, chiefly of cotton",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çotur": {
+  "az": "Səthi hamar olmayan, kələ-kötür.",
+  "en": "rough or uneven",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çovdarlıq": {
+  "az": "Çovdar əkilən sahə.",
+  "en": "rye field",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çovğunlamaq": {
+  "az": "Qarlı fırtına qopmaq.",
+  "en": "(of weather) to turn into a blizzard",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çovuma": {
+  "az": "Güllənin bərk cismə dəyib yolunu dəyişməsi.",
+  "en": "ricochet (of a bullet)",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çovumaq": {
+  "az": "Sürətlə o yan-bu yana atılmaq, cumub qaçmaq.",
+  "en": "to dart about quickly",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çödükotu": {
+  "az": "Daşlı yerlərdə bitən, yarpağı yeməyə qatılan yabanı ot.",
+  "en": "a wild herb of stony places used in cooking",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çökdürücü": {
+  "az": "Çökməni sürətləndirən, çöküntü yaradan.",
+  "en": "precipitating, causing settling",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çökə": {
+  "az": "Ürək formalı yarpaqları olan, ətirli sarı çiçək açan ağac.",
+  "en": "linden (lime tree)",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çökəlik": {
+  "az": "Çökə ağacları bol olan yer.",
+  "en": "linden grove",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çökəlmək": {
+  "az": "İçəriyə doğru batıb çuxurlaşmaq.",
+  "en": "to sink in, to become sunken",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "çöküklük": {
+  "az": "İçəri batmış olma halı.",
+  "en": "concavity, sunkenness",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "çöl-bayır": {
+  "az": "Evin xaricindəki hər yer, ətraf.",
+  "en": "outdoors, the surroundings",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çölbuğdası": {
+  "az": "Təbiətdə öz-özünə bitən cır buğda.",
+  "en": "wild wheat",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çölçü": {
+  "az": "Kənddə yaşayan adam, kəndli.",
+  "en": "villager, peasant",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çöldonuzu": {
+  "az": "Təbiətdə yaşayan vəhşi donuz.",
+  "en": "wild boar",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çöleşşəyi": {
+  "az": "Təbiətdə vəhşi yaşayan eşşək; gur.",
+  "en": "wild ass, onager",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çölkeşnişi": {
+  "az": "Təbiətdə öz-özünə bitən keşniş.",
+  "en": "wild coriander",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çölkəsəyəni": {
+  "az": "Payız və qışı yuxuda keçirən, siçovula bənzər iri gəmirici.",
+  "en": "a large hibernating rodent resembling a rat",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çölqazı": {
+  "az": "Vəhşi halda yaşayan qaz.",
+  "en": "wild goose",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çöllaləsi": {
+  "az": "Təbiətdə yabanı bitən lalə.",
+  "en": "wild tulip",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "çölləmə": {
+  "az": "Düz yol ilə yox, çöldən kəsə keçərək.",
+  "en": "cross-country, by a shortcut",
+  "pos": "adverb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çöllü": {
+  "az": "Kənddə yaşayan adam, kəndçi (köhnəlmiş).",
+  "en": "peasant, villager",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "çölnanəsi": {
+  "az": "Təbiətdə öz-özünə bitən nanə.",
+  "en": "wild mint",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çölnoxudu": {
+  "az": "Yabanı bitən noxud növü.",
+  "en": "wild chickpea",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çölördəyi": {
+  "az": "Vəhşi halda yaşayan ördək.",
+  "en": "wild duck",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "çölpişiyi": {
+  "az": "Təbiətdə yaşayan vəhşi pişik.",
+  "en": "wild cat",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "çöltərəsi": {
+  "az": "Erkən yazda bitən, yeməyə qatılan ot.",
+  "en": "an early spring herb used in cooking",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çöltoyuğu": {
+  "az": "Toyuqkimilərdən olan yabanı meşə quşu.",
+  "en": "hazel grouse",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "çölturşəngi": {
+  "az": "Təbiətdə yabanı bitən turşəng.",
+  "en": "wild sorrel",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çömbələn": {
+  "skip": "only cross-references, no usable definition"
+ },
+ "çömbəlmək": {
+  "az": "Dizlərini bükərək aşağı əyilib dabanları üstə oturmaq.",
+  "en": "to squat",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "çömbəltmək": {
+  "az": "Birini dizlərini büküb aşağı oturmağa məcbur etmək.",
+  "en": "to make someone squat",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "çömçəbalığı": {
+  "az": "Adətən qurudulub yeyilən, karpkimilərdən olan balıq.",
+  "en": "a carp-family fish usually eaten dried",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çömçələmək": {
+  "az": "Çömçə ilə götürüb tökmək və ya qarışdırmaq.",
+  "en": "to ladle",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "çömçələnmək": {
+  "az": "Çömçə ilə götürülmək.",
+  "en": "to be ladled out",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "çömçələtmək": {
+  "az": "Başqasına çömçə ilə götürtmək.",
+  "en": "to have something ladled",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "çöndərmək": {
+  "az": "Bir şeyi o biri üzünə çevirmək.",
+  "en": "to turn over",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çöpatma": {
+  "az": "Çöp çəkərək püşk atma.",
+  "en": "drawing lots",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "çöpçülük": {
+  "az": "Keçmişdə uşağın boğazına ilişən çöpü çıxaran xalq təbibinin işi.",
+  "en": "(historical) folk healer's craft of removing objects stuck in children's throats",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çöplük": {
+  "az": "İçində çoxlu çör-çöp olan.",
+  "en": "full of bits of straw or debris",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çöpük": {
+  "az": "Yun və ya kətan daranandan sonra qalan tullantı.",
+  "en": "combing waste of wool or flax",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çörəkağacı": {
+  "az": "Nişastalı meyvəsi bişirilib yeyilən tropik ağac.",
+  "en": "breadfruit tree",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çörəkitirən": {
+  "az": "Edilən yaxşılığı tez unudan, nankor.",
+  "en": "ungrateful",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çörəkləmək": {
+  "az": "Birini yedirib-içirərək saxlamaq.",
+  "en": "to feed and keep someone",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "çöz": {
+  "az": "Bağırsaqları qarın boşluğunun arxa divarına bağlayan periton qatı.",
+  "en": "mesentery",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çözdürmək": {
+  "az": "İpi və ya sapı başqasına açdırmaq.",
+  "en": "to have something unwound",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "çözənək": {
+  "az": "Ora-bura səpələnmiş lazımsız əşyalar.",
+  "en": "litter, odds and ends",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "çubuqlanmaq": {
+  "az": "Nazik çubuqla döyülmək.",
+  "en": "to be beaten with a switch",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "çubuqlaşmaq": {
+  "az": "Bir-birini çubuqla vurmaq.",
+  "en": "to strike each other with switches",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "çubuqlatmaq": {
+  "az": "Birini başqasına çubuqla döydürmək.",
+  "en": "to have someone beaten with a switch",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "çudu": {
+  "az": "Qatlı xəmirdən ət və ya qoz içliklə bişirilən qoğal.",
+  "en": "layered pastry filled with meat or nuts",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çuğlamaq": {
+  "az": "Başqası haqqında xəbər aparmaq.",
+  "en": "to tell tales, to inform on",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çuğulçuluq": {
+  "az": "Xəbər aparıb gətirmə, fitnəkarlıq.",
+  "en": "tale-bearing",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çuğullamaq": {
+  "az": "Kiminsə əleyhinə gizlicə xəbər çatdırmaq.",
+  "en": "to tell tales on, to inform against",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "çuğullanmaq": {
+  "az": "Haqqında xəbər çatdırılmaq, ələ verilmək.",
+  "en": "to be informed on",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "çuğulluq": {
+  "az": "Xəbərçilik edib adamlar arasında fitnə salma.",
+  "en": "tale-bearing, denunciation",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "çuğundurçıxaran": {
+  "az": "Çuğunduru torpaqdan çıxarıb toplayan maşın.",
+  "en": "beet harvester",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "çuğundurçu": {
+  "az": "Çuğundur becərilməsi üzrə mütəxəssis.",
+  "en": "beet grower",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "çuğundurçuluq": {
+  "az": "Kənd təsərrüfatında çuğundur yetişdirmə sahəsi.",
+  "en": "beet growing",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "çuğundurəkən": {
+  "az": "Çuğundur əkib becərən adam.",
+  "en": "beet grower",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "çuğundurotu": {
+  "az": "Üzəri tüklərlə örtülü, bir və ya çoxillik ot bitkisi.",
+  "en": "a hairy herbaceous plant",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çuxalı": {
+  "az": "Əyninə çuxa geyinmiş.",
+  "en": "wearing a chokha (Caucasian coat)",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "çuxalıq": {
+  "az": "Çuxa tikməyə yarayan parça.",
+  "en": "cloth for making a chokha",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çuxasız": {
+  "az": "Əynində çuxa olmayan.",
+  "en": "without a chokha",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "çuxurlamaq": {
+  "az": "Bir şeyin üzərində çuxur açmaq.",
+  "en": "to hollow out",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "çuxurlanmaq": {
+  "az": "Çala əmələ gəlmək, dərinləşib çökmək.",
+  "en": "to become hollowed",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "çuxurlaşdırmaq": {
+  "az": "Bir yeri çuxur halına salmaq.",
+  "en": "to make hollow",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "çuxurlaşmaq": {
+  "az": "Batıb çala halına gəlmək.",
+  "en": "to become hollow",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çuxurlatmaq": {
+  "az": "Başqasına oyuq və ya çuxur açdırmaq.",
+  "en": "to have something hollowed out",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "çuxurluq": {
+  "az": "Çökək, çala yer.",
+  "en": "hollow, depression",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "çuqunəridən": {
+  "az": "Çuqun əridib tökən fəhlə.",
+  "en": "iron founder, smelter",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "çuqunəritmə": {
+  "az": "Çuqunun əridildiyi (müəssisə və s.).",
+  "en": "iron-smelting (of a plant or shop)",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çuquntökmə": {
+  "az": "Çuqun tökmə işi görülən (zavod, sex).",
+  "en": "iron-founding (of a plant or shop)",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "çul-çuxa": {
+  "az": "Köhnə, dəbdən düşmüş geyim-kecim.",
+  "en": "old-fashioned clothes",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çulğalamaq": {
+  "az": "Bir şeyi büküb örtmək, sarımaq.",
+  "en": "to wrap up",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "çulğalanmaq": {
+  "az": "Bürünmək, örtülmək.",
+  "en": "to be wrapped up",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "çulğamaq": {
+  "skip": "only a doubtful cross-reference"
+ },
+ "çullanmaq": {
+  "az": "Heyvanın belinə çul salınmaq.",
+  "en": "to be covered with a horse-cloth",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "çullatmaq": {
+  "az": "Heyvanın belinə başqasına çul saldırmaq.",
+  "en": "to have an animal covered with a horse-cloth",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "çulsuz": {
+  "az": "Belində çul olmayan (heyvan).",
+  "en": "without a horse-cloth",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "çuvalduz": {
+  "az": "Ucu iti, yastı və əyri olan böyük iynə.",
+  "en": "packing needle",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "çün": {
+  "az": "Ona görə ki, səbəbi budur ki (klassik dildə).",
+  "en": "because, since (archaic)",
+  "pos": "conjunction",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çürükçü": {
+  "az": "Eyni şeyi dönə-dönə deyib adamı bezdirən şəxs.",
+  "en": "bore, nag",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "çürükçülük": {
+  "az": "Adamı təkrarlarla bezdirmə xasiyyəti.",
+  "en": "tiresome nagging, pettiness",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "çürüntülü": {
+  "az": "İçində çürümüş qalıqlar olan.",
+  "en": "containing decayed matter",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çüy": {
+  "az": "Təkərdə ox, mil.",
+  "en": "axle pin (of a wheel)",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dabaqlı": {
+  "az": "Dabaq xəstəliyinə tutulmuş (heyvan).",
+  "en": "sick with foot-and-mouth disease",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dabanaltı": {
+  "az": "Ayaqqabının dabanının altına vurulan qat.",
+  "en": "heel lift, heel-tap",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dabanaltılıq": {
+  "az": "Ayaqqabı dabanının altlığına yarayan material.",
+  "en": "material for heel lifts",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dabanbasaraq": {
+  "skip": "only a cross-reference to another word"
+ },
+ "dabancıq": {
+  "az": "Kiçik və nazik daban.",
+  "en": "small heel",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "daban-dabana": {
+  "az": "Tamamilə əks istiqamətdə, tam ziddinə.",
+  "en": "diametrically (opposite)",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dabandalı": {
+  "az": "Ayaqqabının dabanı arxadan saran hissəsi.",
+  "en": "heel counter (of a shoe)",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dabandaşı": {
+  "az": "Dabandakı qalın dərini təmizləmək üçün işlədilən məsaməli yüngül daş.",
+  "en": "pumice stone",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dabanlamaq": {
+  "az": "Birinin izinə düşüb arxasınca getmək.",
+  "en": "to follow on someone's heels",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dabanlıq": {
+  "az": "Daban üçün yararlı material.",
+  "en": "material for heels",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dabansız": {
+  "az": "Dabanı olmayan (ayaqqabı və s.).",
+  "en": "heelless",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dabbağxana": {
+  "az": "Xam dərini aşılayıb gön və meşin hazırlayan emalatxana.",
+  "en": "tannery",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dad-bidad": {
+  "az": "Təəssüf və kədər ifadə edən nida.",
+  "en": "alas (expressing sorrow)",
+  "pos": "interjection",
+  "src": "both",
+  "conf": "high"
+ },
+ "daddırmaq": {
+  "az": "Birinə bir şeyin dadına baxdırmaq.",
+  "en": "to let someone taste",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dad-duz": {
+  "az": "Yeməyin dadı, tamı.",
+  "en": "taste, flavour",
+  "pos": "noun",
+  "src": "both",
+  "conf": "low"
+ },
+ "dad-fəryad": {
+  "az": "Kömək üçün bərkdən çağırma, fəryad.",
+  "en": "cry for help, wailing",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dad-haray": {
+  "az": "Kömək istəyərək qışqırma, hay-küy.",
+  "en": "outcry, call for help",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dadıcı": {
+  "az": "Məhsulların dadını yoxlayan mütəxəssis.",
+  "en": "taster",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dadılmaq": {
+  "az": "Dadı yoxlanılmaq.",
+  "en": "to be tasted",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dadımlıq": {
+  "az": "Dadına baxmağa yetəcək qədər az miqdar.",
+  "en": "a taste, a morsel",
+  "pos": "noun",
+  "src": "both",
+  "conf": "low"
+ },
+ "dadlandırılmaq": {
+  "az": "Dadlı hala gətirilmək.",
+  "en": "to be made tasty",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dadlanmaq": {
+  "az": "Dadı yaxşılaşmaq, ləzzət qazanmaq.",
+  "en": "to become tasty",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dadlıca": {
+  "az": "Olduqca ləzzətli.",
+  "en": "quite tasty",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dadlı-dadlı": {
+  "az": "Çox ləzzətli, iştahaçan.",
+  "en": "tasty, delicious",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dadlı-duzlu": {
+  "az": "Xoşa gələn, şirin və cazibəli.",
+  "en": "pleasant and charming",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dadlı-ləzzətli": {
+  "az": "Çox dadlı, ləzzət verən.",
+  "en": "tasty, delicious",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dadlılıq": {
+  "az": "Yeməyin ləzzətli olması.",
+  "en": "tastiness",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dadlı-tamlı": {
+  "az": "Ləzzətli və xoşagələn.",
+  "en": "tasty and pleasant",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dadsız-duzsuz": {
+  "az": "Heç bir dadı, ləzzəti olmayan.",
+  "en": "tasteless, insipid",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dadsızlıq": {
+  "az": "Bir şeyin dadının, ləzzətinin olmaması.",
+  "en": "tastelessness",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dadverici": {
+  "az": "Yeməyə müəyyən dad qatan.",
+  "en": "flavouring",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dağal": {
+  "az": "Dava-dalaş salmağı sevən, cığal.",
+  "en": "quarrelsome, pugnacious",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dağallıq": {
+  "az": "Cığallıq, dava-dalaşa meyil.",
+  "en": "quarrelsomeness",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dağarcıq": {
+  "az": "Adətən dəridən tikilmiş kiçik torba.",
+  "en": "small leather pouch or bag",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dağar-dağar": {
+  "az": "Lovğalıqla, təkəbbürlə.",
+  "en": "haughtily, boastfully",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dağbasar": {
+  "az": "Dağın ətəyi və ətrafı.",
+  "en": "foothills",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dağbəyi": {
+  "az": "Yaylağa köçən köçərilərin işlərinə baxan dövlət məmuru (tarixi).",
+  "en": "official overseeing nomads in summer pastures (historical)",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ }
+}

@@ -1,0 +1,1941 @@
+{
+ "abasbəyi": {
+  "az": "Şirin, şirəli və ətirli bir yay armudu sortu.",
+  "en": "a sweet, juicy summer pear variety",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "abbasılıq": {
+  "az": "İyirmi qəpik dəyərində olan pul vahidi.",
+  "en": "a twenty-copeck coin",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "abbasi": {
+  "az": "Danışıq dilində iyirmi qəpiklik pul.",
+  "en": "a twenty-copeck piece",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "ab-havalı": {
+  "az": "Havası və iqlimi xoş olan, səfalı.",
+  "en": "having a pleasant climate",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "abılıq": {
+  "az": "Mavi rəngdə olma, mavilik.",
+  "en": "blueness",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "abırsız-abırsız": {
+  "az": "Utanmadan, həyasızcasına.",
+  "en": "shamelessly",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "absolyutluq": {
+  "az": "Hakimiyyətin tamamilə bir şəxsin əlində olduğu idarə üsulu.",
+  "en": "absolutism",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "acar": {
+  "az": "Cənubi Qafqazda yaşayan bir xalqın adı və o xalqdan olan adam.",
+  "en": "an Adjarian; a member of the Adjar people",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "acarca": {
+  "az": "Acar dilində.",
+  "en": "in the Adjarian language",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "acdırmaq": {
+  "az": "Birinin iştahasını açmaq, onda aclıq hissi yaratmaq.",
+  "en": "to whet the appetite; to make hungry",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "acgödən": {
+  "az": "Çox yeyən, heç vaxt doymayan.",
+  "en": "gluttonous",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "acı-acı": {
+  "az": "Acı bir şəkildə, dərin kədərlə.",
+  "en": "bitterly",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "acıbaldırğan": {
+  "az": "Nəm yerlərdə bitən zəhərli ot.",
+  "en": "a poisonous plant of damp places",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "acıbiyan": {
+  "az": "Tərkibində alkaloid olan çoxillik bitki.",
+  "en": "a perennial alkaloid-bearing plant",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "acıca": {
+  "az": "Azacıq acı dadı olan.",
+  "en": "slightly bitter",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "acıdilli": {
+  "az": "Sözləri sərt və kəskin olan, acı danışan.",
+  "en": "sharp-tongued",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "acıxəmrə": {
+  "az": "Xəmiri qıcqırtmaq üçün işlədilən maya.",
+  "en": "leaven; sourdough starter",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "acıqca": {
+  "az": "Kiminsə acığına, inad üçün.",
+  "en": "out of spite",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "acıq-qıcıq": {
+  "az": "Birini hirsləndirmək üçün edilən sataşma.",
+  "en": "teasing or provocation meant to anger",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "acıqlı-acıqlı": {
+  "az": "Hirsli halda, acıqla.",
+  "en": "angrily",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "acılanmaq": {
+  "az": "Kəskin sözlərlə incidilmək və pərt edilmək.",
+  "en": "to be hurt by harsh words",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "acılıca": {
+  "az": "Bəzi növləri dərman kimi işlədilən çoxillik ot.",
+  "en": "a perennial herb, some species of which are medicinal",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "acılıqotu": {
+  "az": "Yarpağı olmayan, buğumlu və budaqlı kiçik kol.",
+  "en": "a small leafless jointed shrub",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "acımtıllıq": {
+  "az": "Bir şeyin azca acı dadı olması.",
+  "en": "slight bitterness",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "acınacaq": {
+  "az": "Təəssüf və yazıqlıq hissi doğuran.",
+  "en": "pitiful, deplorable",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "acındırmaq": {
+  "az": "Birində təəssüf və mərhəmət hissi oyatmaq.",
+  "en": "to arouse pity",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "acınmaq": {
+  "az": "Birinə yazığı gəlmək, onun halına təəssüflənmək.",
+  "en": "to feel pity; to feel sorry",
+  "pos": "verb",
+  "src": "both",
+  "conf": "low"
+ },
+ "acışdırıcı": {
+  "az": "Dərini göynədən, qaşındıran.",
+  "en": "irritating, stinging",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "acıtərə": {
+  "az": "Yeməyə qatılan acıtəhər dadlı göyərti bitkisi.",
+  "en": "watercress; garden cress",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "acıtmalıq": {
+  "az": "Turşutmaq və ya qıcqırtmaq üçün yararlı olan.",
+  "en": "fit for souring or fermenting",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "acıyovşan": {
+  "az": "Meşə kənarındakı otlu yamaclarda bitən dərman otu.",
+  "en": "wormwood, a medicinal herb",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "aciz-aciz": {
+  "az": "Aciz bir halda, yalvarırcasına.",
+  "en": "helplessly, humbly",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "aciz-avara": {
+  "az": "İşə yaramayan, avara gəzən adam.",
+  "en": "a loafer or good-for-nothing",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "acizcəsinə": {
+  "az": "Çox təvazökarcasına, aciz kimi.",
+  "en": "very humbly",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "acizlənmək": {
+  "az": "Gücsüz və aciz hala düşmək.",
+  "en": "to become helpless",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "ac-susuz": {
+  "az": "Yemək yemədən, ac qarınla.",
+  "en": "without food, hungry and thirsty",
+  "pos": "adverb",
+  "src": "both",
+  "conf": "high"
+ },
+ "açarqayıran": {
+  "az": "Açar düzəldən usta.",
+  "en": "key-maker",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "açarsız": {
+  "az": "Açarı olmayan.",
+  "en": "keyless",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "açıq-bənövşəyi": {
+  "az": "Solğun bənövşəyi rəngdə olan.",
+  "en": "light violet",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "açıq-boz": {
+  "az": "Açıq çalarlı boz rəngdə olan.",
+  "en": "light grey",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "açıq-çəhrayı": {
+  "az": "Açıq çalarlı çəhrayı rəngdə olan.",
+  "en": "light pink",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "açıqdan-açığa": {
+  "az": "Heç nəyi gizlətmədən, aşkarca.",
+  "en": "openly, overtly",
+  "pos": "adverb",
+  "src": "both",
+  "conf": "low"
+ },
+ "açıq-qəhvəyi": {
+  "az": "Açıq çalarlı qəhvəyi rəngdə olan.",
+  "en": "light brown",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "açıq-qırmızı": {
+  "az": "Açıq çalarlı qırmızı rəngdə olan.",
+  "en": "light red",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "açıqrəngli": {
+  "az": "Rəngi tünd olmayan, açıq çalarlı.",
+  "en": "light-coloured",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "low"
+ },
+ "açıq-saçıqlıq": {
+  "az": "Özünü həddən artıq sərbəst və çəkinmədən aparma.",
+  "en": "openness; lack of restraint or modesty",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "açıq-sarı": {
+  "az": "Açıq çalarlı sarı rəngdə olan.",
+  "en": "light yellow",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "açıqürək": {
+  "az": "Ürəyi açıq, səmimi və sadə olan.",
+  "en": "open-hearted, frank",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "açıq-yaşıl": {
+  "az": "Açıq çalarlı yaşıl rəngdə olan.",
+  "en": "light green",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "açım": {
+  "az": "Pambıq və başqa bitkilərin qozasının və ya çiçəyinin açıldığı dövr.",
+  "en": "the opening period of bolls or flowers",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "adaxlılıq": {
+  "az": "Nişanlı olma vəziyyəti.",
+  "en": "the state of being betrothed",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "adajio": {
+  "az": "Musiqidə ağır və yavaş templə ifa olunan parça.",
+  "en": "adagio",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "adamayovuşan": {
+  "az": "İnsanlarla tez dil tapan, mehriban və istiqanlı.",
+  "en": "sociable, friendly",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "adamayovuşmaz": {
+  "az": "İnsanlardan qaçan, ünsiyyətə meyli olmayan.",
+  "en": "unsociable",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "adambaşına": {
+  "az": "Hər bir adam üçün, hər nəfərə düşən qədər.",
+  "en": "per person, per head",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "adamcığaz": {
+  "az": "Mərhəmət doğuran yazıq, fağır insan.",
+  "en": "poor fellow; pitiable little man",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "adamcıllıq": {
+  "az": "İnsana qarşı vəhşi və yırtıcı davranış.",
+  "en": "savagery, ferocity toward people",
+  "pos": "noun",
+  "src": "both",
+  "conf": "low"
+ },
+ "adamlı": {
+  "az": "Arxası, havadarı və ya kömək edən qohumları olan.",
+  "en": "having connections or protectors",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "adamsevməz": {
+  "az": "İnsanları sevməyən, onlardan uzaq duran.",
+  "en": "misanthropic; a misanthrope",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "adamsevməzlik": {
+  "az": "İnsanları sevməmək xüsusiyyəti.",
+  "en": "misanthropy",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "adamtanıyan": {
+  "az": "İnsanların xasiyyətini tez anlayan adam.",
+  "en": "a good judge of character",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "adapter": {
+  "az": "Cihazları bir-birinə uyğunlaşdırıb birləşdirən qurğu.",
+  "en": "adapter",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "addımlı": {
+  "az": "Gəzəndə uzun-uzun addım atan.",
+  "en": "long-striding",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "adıgey": {
+  "az": "Şimali Qafqazda yaşayan bir xalqın adı.",
+  "en": "Adyghe, a North Caucasian people",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "adıgeycə": {
+  "az": "Adıgey xalqının dilində.",
+  "en": "in the Adyghe language",
+  "pos": "adverb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "adicə": {
+  "az": "Sadəcə, adi şəkildə.",
+  "en": "simply",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "adiləşdirilmək": {
+  "az": "Adi və sıradan vəziyyətə gətirilmək.",
+  "en": "to be made ordinary",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "adiləşmək": {
+  "az": "Adi hala düşmək, əvvəlki kimi olmaq.",
+  "en": "to become ordinary or usual",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "adillik": {
+  "az": "Ədalətli olma keyfiyyəti.",
+  "en": "justice, fairness",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "adqoydu": {
+  "az": "Uşağa ad qoyulması şərəfinə verilən qonaqlıq.",
+  "en": "a feast held when a child is named",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "adlamaq": {
+  "az": "Bir şeyin üstündən addım atıb keçmək.",
+  "en": "to step over",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "admirallıq": {
+  "az": "Admiralın daşıdığı hərbi rütbə.",
+  "en": "the rank of admiral",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "adyutant": {
+  "az": "Yüksək rütbəli komandirin yanında tapşırıqları yerinə yetirən zabit.",
+  "en": "aide-de-camp, adjutant",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "adyutantlıq": {
+  "az": "Adyutantın tutduğu vəzifə və gördüyü iş.",
+  "en": "the post or duties of an adjutant",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "aerobomba": {
+  "az": "Təyyarədən atılan bomba.",
+  "en": "aerial bomb",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "aeroxizək": {
+  "az": "Pərvanənin gücü ilə hərəkət edən xizək.",
+  "en": "propeller-driven sledge, aerosleigh",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "aerometr": {
+  "az": "Havanın və qazların sıxlığını ölçən cihaz.",
+  "en": "aerometer",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "aeronaviqasiya": {
+  "az": "Uçan aparatların hava yolu ilə idarə olunması.",
+  "en": "aeronavigation",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "aerosəpin": {
+  "az": "Toxumun aşağıdan uçan təyyarələrlə səpilməsi.",
+  "en": "aerial sowing",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "aerostansiya": {
+  "az": "Hava gəmilərinə xidmət göstərən stansiya.",
+  "en": "air station",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "aerostat": {
+  "az": "Havadan yüngül qazla doldurulub uçan aparat.",
+  "en": "aerostat, balloon",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "affiks": {
+  "az": "Sözə qoşularaq yeni məna və ya forma yaradan şəkilçi.",
+  "en": "affix",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "aforizmli": {
+  "az": "İçində çoxlu hikmətli kəlam olan.",
+  "en": "full of aphorisms",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağabacı": {
+  "az": "Böyük qardaşın, dayının və ya başqa qohumun arvadına hörmətlə müraciət.",
+  "en": "respectful term for an elder kinsman's wife",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağac-ağac": {
+  "az": "Çubuqlarla oynanılan bir oyun.",
+  "en": "a game played with sticks",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "ağacatma": {
+  "az": "Əl ağacına bənzər çubuqla oynanılan qədim oyun.",
+  "en": "an old game played with a stick",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağacdeşən": {
+  "az": "Ağacdakı həşəratı yeyən, iti və möhkəm dimdikli quş.",
+  "en": "woodpecker",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağacdoğrayan": {
+  "az": "Kəsilmiş ağacı parçalayıb taxta hazırlayan.",
+  "en": "cutting logs into lumber",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağaclaşmaq": {
+  "az": "Bir-biri ilə dəyənəklə döyüşmək.",
+  "en": "to fight each other with sticks",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "ağacmişarlayan": {
+  "az": "Ağacı mişarla kəsib taxtaya çevirən.",
+  "en": "sawing timber",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağacovan": {
+  "az": "Ağacın oduncağını və qabığını deşib dağıdan böcək.",
+  "en": "a wood-boring beetle",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağac-uğac": {
+  "az": "Ağaclar və ağacdan ibarət olan hər şey.",
+  "en": "trees and the like",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağadadaş": {
+  "az": "Kiçik qardaşların böyük qardaşa hörmətlə müraciət forması.",
+  "en": "respectful term for an elder brother",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağadayı": {
+  "az": "Ananın böyük qardaşına hörmətlə verilən ad.",
+  "en": "respectful term for an elder maternal uncle",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağaəmi": {
+  "az": "Atanın böyük qardaşına hörmətlə verilən ad.",
+  "en": "respectful term for an elder paternal uncle",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağalanmaq": {
+  "az": "Haqsız yolla bir şeyə yiyələnib onu ələ keçirmək.",
+  "en": "to take possession of something unlawfully",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağanənə": {
+  "az": "Ailənin yaşlı və hörmətli qadınına verilən ad.",
+  "en": "respectful term for the family matriarch",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağardılmaq": {
+  "az": "Ağ rənglə boyanmaq və ya ağ rənglə örtülmək.",
+  "en": "to be whitewashed",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "ağarışmaq": {
+  "az": "Çoxlu ağ şeyin uzaqdan ağ görünməsi.",
+  "en": "to show white (of many things)",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "ağayana": {
+  "az": "Ağa kimi, hökmlü və saymaz tərzdə.",
+  "en": "in a lordly manner",
+  "pos": "adverb",
+  "src": "both",
+  "conf": "high"
+ },
+ "ağbağırlıq": {
+  "az": "Qorxaq olma, cəsarətsizlik.",
+  "en": "cowardice",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "ağbaş": {
+  "az": "Saçları ağarmış olan.",
+  "en": "white-headed, grey-haired",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "ağbaşlı": {
+  "az": "Saçı ağappaq olan, başı ağarmış.",
+  "en": "white-haired",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "ağbəxt": {
+  "az": "Bəxti gətirmiş, səadətli.",
+  "en": "fortunate, lucky",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "ağbəniz": {
+  "az": "Üzünün dərisi ağ olan.",
+  "en": "fair-faced",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "ağbirçəkli": {
+  "az": "Saçı ağarmış, yaşlı və hörmətli (qadın).",
+  "en": "grey-haired (of an elderly woman)",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "low"
+ },
+ "ağbirçəklik": {
+  "az": "Qadının ailədə böyüklük edib başçı olması.",
+  "en": "a woman's role as head or elder",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağcaqayınlıq": {
+  "az": "Ağcaqayın ağaclarının sıx bitdiyi yer.",
+  "en": "birch grove",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "ağcaqovaqlıq": {
+  "az": "Ağcaqovaq ağaclarından ibarət meşəlik.",
+  "en": "aspen grove",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "ağcalıq": {
+  "az": "Piqment çatışmazlığı üzündən dəri və tükün ağ olması.",
+  "en": "albinism",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağcasız": {
+  "az": "Yanında pulu olmayan.",
+  "en": "penniless",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağdiş": {
+  "az": "Siçandan da kiçik, həşəratla qidalanan məməli heyvan.",
+  "en": "shrew",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağgöz": {
+  "az": "Ürəksiz, tez qorxan.",
+  "en": "cowardly",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağgözlük": {
+  "az": "Tez qorxmaq xüsusiyyəti, ürəksizlik.",
+  "en": "cowardice",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağgünlü": {
+  "az": "Xoş günlər görən, bəxtiyar.",
+  "en": "happy, fortunate",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "ağıldanyüngül": {
+  "az": "Düşüncəsi dayaz, yüngülxasiyyət.",
+  "en": "light-minded, foolish",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "ağıl-kamal": {
+  "az": "İnsanın ağlı və düşüncə qabiliyyəti.",
+  "en": "mind and wisdom; intellect",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "ağıllandırılmaq": {
+  "az": "Səhv yoldan çəkindirilib düz yola yönəldilmək.",
+  "en": "to be brought to one's senses",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "ağıllı-ağıllı": {
+  "az": "Ağılla, düşünərək.",
+  "en": "wisely, sensibly",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "ağıllı-başlı": {
+  "az": "Lazımi qaydada, layiqincə və əsaslı.",
+  "en": "proper, decent; properly",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "ağıllı-kamallı": {
+  "az": "Ağlı başında olan, müdrik və tədbirli.",
+  "en": "sensible and wise",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "ağılsızlaşmaq": {
+  "az": "Tədricən düşüncəsini itirib gicləşmək.",
+  "en": "to grow foolish",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "ağımsovluq": {
+  "az": "Ağa çalan rəngdə olma.",
+  "en": "whitishness",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "ağımtıllıq": {
+  "az": "Rənginin ağa çalması.",
+  "en": "whitishness",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "ağımtraq": {
+  "az": "Rəngi ağa çalan.",
+  "en": "whitish",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "ağımtraqlıq": {
+  "az": "Bir şeyin rənginin ağımtıl olması.",
+  "en": "whitishness",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "ağırayaq": {
+  "az": "Xurafata görə gəlişi bədbəxtlik gətirən.",
+  "en": "bringing bad luck (by superstition)",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağırgövdə": {
+  "az": "İri və ağır bədənli.",
+  "en": "heavy-bodied, bulky",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "ağırgövdəli": {
+  "az": "Bədəni iri və ağır olan.",
+  "en": "heavy-bodied",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "ağırgövdəlilik": {
+  "az": "Bədənin iri və ağır olması.",
+  "en": "corpulence, bulkiness",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "ağırxasiyyətli": {
+  "az": "Xasiyyəti çətin və inadkar olan.",
+  "en": "difficult-tempered, wilful",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "ağırxasiyyətlilik": {
+  "az": "Xasiyyətin çətin və inadkar olması.",
+  "en": "wilfulness, waywardness",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "ağırlamaq": {
+  "az": "Birinə böyük hörmət göstərib onu əziz tutmaq.",
+  "en": "to honour and treat with respect",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağırlıqqaldıran": {
+  "az": "Ağır atletika ilə məşğul olan idmançı.",
+  "en": "weightlifter",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "ağırtaxtalı": {
+  "az": "Az danışan, özünü ciddi və təmkinli aparan.",
+  "en": "staid and reserved",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağırtəbiətli": {
+  "az": "Təbiəti ciddi və təmkinli olan.",
+  "en": "serious, dignified",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "ağıryana": {
+  "az": "Yaraşıqlı və ləyaqətli, layiqli.",
+  "en": "seemly, dignified",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "ağıryüklü": {
+  "az": "Ağır yük daşıyan, çox yüklənmiş.",
+  "en": "heavily loaded",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "ağır-yüngül": {
+  "az": "Evdəki əşyalar, ev-eşik avadanlığı.",
+  "en": "household belongings",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağırzəhmli": {
+  "az": "Görkəmi qorxu doğuran, çox heybətli və acıqlı.",
+  "en": "fearsome, stern-looking",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağızabaxan": {
+  "az": "Müstəqil fikri olmayan, başqasının dediyi ilə oturub-duran.",
+  "en": "lacking a mind of one's own; servile",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "ağız-ağıza": {
+  "az": "Ağızdan ağıza, üz-üzə çox yaxın.",
+  "en": "mouth to mouth",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "ağız-burun": {
+  "az": "İnsanın üzü, sifəti.",
+  "en": "face, features",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "ağızcıq": {
+  "az": "Kiçik ağız.",
+  "en": "little mouth",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağızdolusu": {
+  "az": "Haqlı olduğuna əmin olaraq, ürəklə və iddialı şəkildə.",
+  "en": "confidently, with conviction",
+  "pos": "adverb",
+  "src": "both",
+  "conf": "high"
+ },
+ "ağızlamaq": {
+  "az": "Bir şeyi ağzı ilə tutub dartmaq və ya qoparmaq.",
+  "en": "to grab or tear with the mouth",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağızotu": {
+  "az": "Köhnə çaxmaqlı tüfəngi atmaq üçün tökülən barıt.",
+  "en": "priming powder for old flintlocks",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağızsız": {
+  "az": "Ağzı və ya açıq yeri olmayan.",
+  "en": "mouthless; having no opening",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağızsızlıq": {
+  "az": "Sözünün kəsəri olmaması, sakit və fağır olma.",
+  "en": "meekness; lack of influence",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağızucu": {
+  "az": "Ürəkdən olmayaraq, könülsüz və etinasızca.",
+  "en": "half-heartedly, perfunctorily",
+  "pos": "adverb",
+  "src": "both",
+  "conf": "high"
+ },
+ "ağkirpik": {
+  "az": "Xalq təbabətində heyvanları müalicə etmək üçün işlədilən ot.",
+  "en": "a herb used in folk veterinary medicine",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağqanadlı": {
+  "az": "Ağ rəngli qanadları olan.",
+  "en": "white-winged",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağ-qara": {
+  "az": "Yalnız ağ və qara rənglərdən ibarət olan.",
+  "en": "black-and-white",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "ağlağanlıq": {
+  "az": "Çox tez-tez ağlamağa meyilli olma.",
+  "en": "tearfulness",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "ağlamalı": {
+  "az": "Adamı ağladacaq qədər kədərli və acınacaqlı.",
+  "en": "lamentable, tragic",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "ağlamsınmaq": {
+  "az": "Ağlamaq həddinə çatmaq, kövrəlmək.",
+  "en": "to be on the verge of tears",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "ağlarcasına": {
+  "az": "Sanki ağlayırmış kimi, kövrək səslə.",
+  "en": "as if weeping, tearfully",
+  "pos": "adverb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağlar-gülər": {
+  "az": "Həm kədərli, həm də gülməli olan.",
+  "en": "tragicomic",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "ağlasığan": {
+  "az": "Ağla uyğun gələn, inandırıcı.",
+  "en": "plausible, reasonable",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "ağlasığışan": {
+  "az": "Məntiqə uyğun, inanıla bilən.",
+  "en": "conceivable, plausible",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "ağlatdırmaq": {
+  "az": "Birini göz yaşı tökməyə məcbur etmək.",
+  "en": "to make someone cry",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "ağlayan": {
+  "az": "Göz yaşı tökən, tez kövrələn.",
+  "en": "weeping; tearful",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "ağlayıb-sıtqamaq": {
+  "az": "Göz yaşı tökərək yalvarmaq və şikayətlənmək.",
+  "en": "to beg tearfully; to complain",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "ağlayıb-sızlamaq": {
+  "az": "Durmadan ağlayıb zarımaq.",
+  "en": "to whine and whimper",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "ağlayıcı": {
+  "az": "Göz yaşı tökən.",
+  "en": "weeping",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağlıkəsməz": {
+  "az": "Hələ bir şeyi başa düşəcək yaşa çatmayan.",
+  "en": "too young to understand",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "ağmala": {
+  "az": "Divara vurulan ilk qat suvaq.",
+  "en": "the first coat of plaster",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağmatan": {
+  "az": "Ağbəniz, dolu bədənli və gözəl (qız).",
+  "en": "fair, plump and pretty (of a girl)",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "ağnağaz": {
+  "az": "Gündəlik ehtiyac üçün dəyirmanda çəkilən az miqdarda taxıl.",
+  "en": "a small amount of grain ground for immediate needs",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağnavaz": {
+  "az": "Rəngi ağarıb solmuş.",
+  "en": "pale, pallid",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağrı-acı": {
+  "az": "Ağır işdən və ya uzun yoldan sonra bədəndə hiss edilən yorğunluq və ağrı.",
+  "en": "aches and fatigue",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "ağrısızlaşdırıcı": {
+  "az": "Ağrını hiss etməməyə səbəb olan, keyləşdirən.",
+  "en": "anaesthetic, pain-numbing",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "ağrısızlaşdırılmaq": {
+  "az": "Ağrı hiss olunmasın deyə keyləşdirilmək.",
+  "en": "to be anaesthetized",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağrısızlıq": {
+  "az": "Heç bir ağrının hiss olunmaması.",
+  "en": "painlessness",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "ağrıtmaq": {
+  "az": "Bədəndə ağrı yaratmaq, əzab vermək.",
+  "en": "to cause pain, to hurt",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "ağsaçlı": {
+  "az": "Saçı ağ olan, ağarmış saçlı.",
+  "en": "white-haired",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "ağsifət": {
+  "az": "Üzünün rəngi açıq və ağ olan.",
+  "en": "white-faced, fair-skinned",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "ağsol": {
+  "az": "Çaylarda yaşayan kiçik bir balıq növü.",
+  "en": "a small river fish",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağsöyüd": {
+  "az": "Söyüd ağacının ağ növü.",
+  "en": "white willow",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "ağtikan": {
+  "az": "Dəvələrin yediyi tikanlı ot bitkisi.",
+  "en": "a thorny plant eaten by camels",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağtikanlıq": {
+  "az": "Ağtikan otunun çox bitdiyi sahə.",
+  "en": "a patch overgrown with ağtikan thorn",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağu": {
+  "az": "Canlı orqanizmi zəhərləyən maddə, zəhər.",
+  "en": "poison",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "ağulanmaq": {
+  "az": "Zəhərlənmək, zəhərin təsirinə məruz qalmaq.",
+  "en": "to be poisoned",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "ağulu": {
+  "az": "Tərkibində zəhər olan, zəhərli.",
+  "en": "poisonous",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "ağvalideyn": {
+  "az": "Valideynə qarşı çıxıb onların sözünə baxmama.",
+  "en": "disobedience to one's parents",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağyallı": {
+  "az": "Yalı ağ rəngdə olan (at).",
+  "en": "white-maned",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "ağyarpaq": {
+  "az": "Dəniz kənarındakı qumluqlarda bitən çoxillik ot.",
+  "en": "a perennial herb of seaside sands",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağyarpaqlı": {
+  "az": "Ağ rəngli yarpaqları olan.",
+  "en": "white-leaved",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağyol": {
+  "az": "Gecə səmasında açıq zolaq kimi görünən ulduzlar topluluğu.",
+  "en": "the Milky Way",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağyonca": {
+  "az": "Paxlalılar fəsiləsindən olan çoxillik yem otu.",
+  "en": "a perennial leguminous fodder plant",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağzıaçıq": {
+  "az": "Diqqətsiz və key, fərsiz.",
+  "en": "gawky, absent-minded",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "ağzıaçıqlıq": {
+  "az": "Fərsiz və diqqətsiz olma.",
+  "en": "gawkiness, heedlessness",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "ağzıbirlik": {
+  "az": "Hamının eyni fikirdə və həmrəy olması.",
+  "en": "unanimity, solidarity",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "ağzıbütövlük": {
+  "az": "Sirr saxlamağı bacarma, sözə sədaqət.",
+  "en": "the ability to keep secrets",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "ağzıbütün": {
+  "az": "Verdiyi sözə sadiq qalan və sirr saxlayan.",
+  "en": "discreet and true to one's word",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "ağzıbütünlük": {
+  "az": "Sirr saxlamaq və sözə sadiq qalmaq xüsusiyyəti.",
+  "en": "discretion; the ability to keep secrets",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "ağzıdağınıq": {
+  "az": "Eşitdiyini hər yerə yayan, sirr saxlaya bilməyən.",
+  "en": "indiscreet, unable to keep a secret",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağzıdağınıqlıq": {
+  "az": "Sirr saxlaya bilməmək xüsusiyyəti.",
+  "en": "indiscretion, blabbing",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağzıəyri": {
+  "az": "Ağzı əyri formada olan.",
+  "en": "crooked-mouthed",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "ağzıgen": {
+  "az": "Ağzı geniş olan (qab və s.).",
+  "en": "wide-mouthed",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağzıgöyçək": {
+  "az": "Düşünmədən nə gəldi danışan, boşboğaz adam.",
+  "en": "a blabbermouth, prattler",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "ağzıkəsərli": {
+  "az": "Sözü keçən, nüfuz sahibi olan.",
+  "en": "influential, authoritative",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "ağzıköpüklü": {
+  "az": "Quduz kimi hirsli və azğın.",
+  "en": "rabid, frenzied",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağzıpərtövlük": {
+  "az": "Ədəbsiz və söyüşlü danışma.",
+  "en": "foul language, ribaldry",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "ağzıpüstə": {
+  "az": "Çox kiçik və incə ağzı olan.",
+  "en": "having a small, dainty mouth",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağzıyarıq": {
+  "az": "Dodağının bir hissəsində yarıq olan.",
+  "en": "having a cleft lip",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağzıyastı": {
+  "az": "İki ucu da yastı olan bir növ külüng.",
+  "en": "a pickaxe flat at both ends",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağzıyavalıq": {
+  "az": "Çox söyüş söyüb ədəbsiz danışma xasiyyəti.",
+  "en": "foul-mouthedness",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağzıyırtıq": {
+  "az": "Sözü ağzında saxlamayan, çərənçi.",
+  "en": "loose-tongued, blabbing",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "ağzıyırtıqlıq": {
+  "az": "Ağzında söz qalmaması, çərənçilik.",
+  "en": "indiscretion, loose talk",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "ağzıyuxarı": {
+  "az": "Yuxarıya tərəf yönələrək, yoxuşa doğru.",
+  "en": "upward, uphill",
+  "pos": "adverb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ağzolaqlı": {
+  "az": "Üzərində ağ zolaqlar olan.",
+  "en": "white-striped",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "ah": {
+  "az": "Ağrı, kədər və ya həsrət hissini bildirən nida.",
+  "en": "ah, oh (expressing pain or longing)",
+  "pos": "interjection",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ah-aman": {
+  "az": "Kömək diləyən fəryad, nalə.",
+  "en": "a cry of distress, wailing",
+  "pos": "noun",
+  "src": "both",
+  "conf": "low"
+ },
+ "ah-əfğan": {
+  "az": "Kədərdən ağlayıb nalə çəkmə.",
+  "en": "wailing and lamentation",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ahəngdarlaşdırmaq": {
+  "az": "Bir şeyi başqası ilə uyğun və ahəngli etmək.",
+  "en": "to harmonize",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "ahəngdarlaşmaq": {
+  "az": "Uyğun və ahəngli hala gəlmək.",
+  "en": "to become harmonious",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "ahənglənmək": {
+  "az": "Ahəngə salınmaq, uyğunlaşdırılmaq.",
+  "en": "to become harmonized",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "ahəngli": {
+  "az": "Səsləri və hissələri bir-birinə uyğun olan.",
+  "en": "harmonious",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "low"
+ },
+ "ahəstəcə": {
+  "az": "Tələsmədən, sakitcə və yavaşca.",
+  "en": "slowly, quietly",
+  "pos": "adverb",
+  "src": "both",
+  "conf": "high"
+ },
+ "ah-fəğan": {
+  "az": "Ağlayıb fəryad etmə, nalə.",
+  "en": "lamentation, wailing",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "ah-fəryad": {
+  "az": "Yüksək səslə ağlayıb şivən qopartma.",
+  "en": "wailing, lamentation",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "ah-nalə": {
+  "az": "Ağlayıb sızlama, fəryad.",
+  "en": "wailing and moaning",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "ahubaxış": {
+  "az": "Ceyran kimi gözəl baxışı olan.",
+  "en": "gazelle-eyed",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "ah-uf": {
+  "az": "Təəssüflə ah çəkib sızlama.",
+  "en": "sighing and moaning",
+  "pos": "noun",
+  "src": "both",
+  "conf": "low"
+ },
+ "ahugöz": {
+  "az": "Ceyran gözləri kimi iri və gözəl gözlü.",
+  "en": "gazelle-eyed",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "ah-vay": {
+  "az": "Ürəyi sıxan dərd və qəm.",
+  "en": "grief, sorrow",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ah-zar": {
+  "az": "İnləyib zarıma, ah çəkib sızlama.",
+  "en": "moaning and groaning",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "ax": {
+  "az": "Heyrət, təəssüf və ya həsrət ifadə edən nida.",
+  "en": "ah, oh (expressing surprise, regret or longing)",
+  "pos": "interjection",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "axır-əvvəl": {
+  "az": "Gec-tez, bir gün mütləq.",
+  "en": "sooner or later",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "axır-əzəl": {
+  "az": "Nəhayət bir gün, gec-tez.",
+  "en": "sooner or later, eventually",
+  "pos": "adverb",
+  "src": "both",
+  "conf": "high"
+ },
+ "axirətlik": {
+  "az": "Ölümdən sonrakı dünyaya aid olan şey.",
+  "en": "something pertaining to the afterlife",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "axmaqlamaq": {
+  "az": "Ağlını itirib səfehləşmək.",
+  "en": "to become stupid; to act foolishly",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "axmaqlaşmaq": {
+  "az": "Tədricən ağılsızlaşıb səfeh hala düşmək.",
+  "en": "to grow stupid",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "axsaqulaq": {
+  "az": "Sarımsaqlı qatıq və yağla bişirilən xörək.",
+  "en": "a dish made with garlic yogurt and butter",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "axsar": {
+  "az": "Ayağını çəkə-çəkə yeriyən.",
+  "en": "limping, lame",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "axşam-axşam": {
+  "az": "Hava qaralanda, gün batandan sonra.",
+  "en": "in the evening",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "axşambazarı": {
+  "az": "Gün batan vaxt işləyən bazar.",
+  "en": "evening market",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "axşamqabağı": {
+  "az": "Gün batmağa yaxın, qaranlıq düşməmiş.",
+  "en": "towards evening",
+  "pos": "adverb",
+  "src": "both",
+  "conf": "high"
+ },
+ "axşamlıq": {
+  "az": "Axşam üçün nəzərdə tutulan iş və ya şey.",
+  "en": "something meant for the evening",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "axşam-sabah": {
+  "az": "Hər gün səhər və axşam, daim.",
+  "en": "morning and evening; every day",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "axşam-səhər": {
+  "az": "Səhər də, axşam da, yəni hər gün.",
+  "en": "morning and evening; every day",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "axtaxana": {
+  "az": "Çayır otuna oxşayan bitki.",
+  "en": "a grass resembling couch grass",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "axtalanmaq": {
+  "az": "Cinsi vəziləri kəsilib çıxarılmaq, xədim edilmək.",
+  "en": "to be castrated",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "axtalatdırmaq": {
+  "az": "Heyvanı başqasına burdurmaq, xədim etdirmək.",
+  "en": "to have an animal castrated",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "axtalatmaq": {
+  "az": "Heyvanı və ya insanı başqasının əli ilə xədim etdirmək.",
+  "en": "to have castrated",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "axtalıq": {
+  "az": "Xədim edilmiş olma halı.",
+  "en": "castrated state",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "axtarılan": {
+  "az": "Riyaziyyatda hesablama ilə tapılmalı olan (kəmiyyət).",
+  "en": "unknown, to be found (in mathematics)",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "axtarışçı": {
+  "az": "Yeni yollar və üsullar arayan adam.",
+  "en": "seeker, researcher",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "axtarışmaq": {
+  "az": "Hər tərəfi ələk-vələk edib tapmağa çalışmaq.",
+  "en": "to search thoroughly",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "axtartdırmaq": {
+  "az": "Başqasına bir şeyi aratdırmaq.",
+  "en": "to have something searched for",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "ax-uf": {
+  "az": "Təəssüflənib inləmə, sızıltı.",
+  "en": "moaning and whimpering",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "axundluq": {
+  "az": "Axundun peşəsi, din xadimliyi.",
+  "en": "the office of an akhund (cleric)",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "ailəcanlı": {
+  "az": "Ailəsinə çox bağlı olan və onun qayğısına qalan.",
+  "en": "devoted to one's family",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "ailəcanlılıq": {
+  "az": "Ailəsini çox sevmək, ona bağlılıq.",
+  "en": "devotion to one's family",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "ailədarlıq": {
+  "az": "Ailəyə bağlılıq və onu sevmə xüsusiyyəti.",
+  "en": "devotion to family",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "ailəpərəstlik": {
+  "az": "Öz ailəsinə böyük sevgi bəsləmə.",
+  "en": "love of one's family",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "akademizm": {
+  "az": "Elmdə və sənətdə ənənəvi akademik qaydalara sıx bağlılıq.",
+  "en": "academicism",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "akasiyalıq": {
+  "az": "Akasiya ağaclarının çox olduğu yer.",
+  "en": "acacia grove",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "akın": {
+  "az": "Qazax və qırğızlarda el şairi və ifaçısı.",
+  "en": "a Kazakh or Kyrgyz folk poet-singer",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "akkumulyasiya": {
+  "az": "Bir şeyin tədricən toplanıb yığılması.",
+  "en": "accumulation",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "akr": {
+  "az": "Təxminən 4047 kvadrat metrə bərabər sahə ölçüsü.",
+  "en": "acre",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "akrobat": {
+  "az": "Mürəkkəb gimnastik hərəkətlər göstərən sirk artisti.",
+  "en": "acrobat",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "akselerat": {
+  "az": "Fiziki cəhətdən yaşıdlarından tez inkişaf edən yeniyetmə.",
+  "en": "early-maturing adolescent",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "akselerator": {
+  "az": "Hərəkəti və ya prosesi sürətləndirən qurğu.",
+  "en": "accelerator",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "aksiomatik": {
+  "az": "Sübut tələb etməyən, aksiomlara əsaslanan.",
+  "en": "axiomatic",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "aksiomatika": {
+  "az": "Bir elmin əsaslandığı aksiomlar sistemi.",
+  "en": "a system of axioms",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "aksiz": {
+  "az": "Bəzi mallara qoyulan dolayı vergi növü.",
+  "en": "excise tax",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "aktivasiya": {
+  "az": "Fəallığın artırılması, hərəkətə gətirilmə.",
+  "en": "activation",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "aktivləşdirici": {
+  "az": "Fəallığı artıran, hərəkətə gətirən.",
+  "en": "activating",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "aktivləşdirilmək": {
+  "az": "Daha fəal hala gətirilmək.",
+  "en": "to be activated",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "aktivləşmək": {
+  "az": "Daha fəal olmaq, canlanmaq.",
+  "en": "to become more active",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "aktrisalıq": {
+  "az": "Qadın aktyorun peşəsi.",
+  "en": "the profession of an actress",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "akvalanq": {
+  "az": "Su altında nəfəs almaq üçün aparat.",
+  "en": "aqualung, scuba",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "akvalanqçı": {
+  "az": "Akvalanqla su altına baş vuran dalğıc.",
+  "en": "scuba diver",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "akvarelçi": {
+  "az": "Akvarel boyası ilə işləyən rəssam.",
+  "en": "watercolourist",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "aqat": {
+  "az": "Laylı quruluşlu, bəzək üçün işlədilən qiymətli daş.",
+  "en": "agate",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ }
+}

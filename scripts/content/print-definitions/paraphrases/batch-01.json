@@ -1,0 +1,1917 @@
+{
+ "aqava": {
+  "az": "Gövdəsi qısa olan bitkilər cinsi.",
+  "en": "agave, a short-stemmed plant genus",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "aqibətli": {
+  "az": "Sonu uğurla bitən, yaxşı nəticə verən.",
+  "en": "ending well; successful",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "aqibətsiz": {
+  "az": "Sonu uğursuz bitən, heç bir nəticə verməyən.",
+  "en": "ending badly; unsuccessful",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "aqillik": {
+  "az": "Ağıllı və müdrik olma keyfiyyəti.",
+  "en": "wisdom, the quality of being wise",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "aqnostik": {
+  "az": "Aqnostisizm təliminə aid olan və ya onu qəbul edən.",
+  "en": "agnostic",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "aqreqatçı": {
+  "az": "Aqreqat üzərində işləyib onu idarə edən işçi.",
+  "en": "worker who operates a machine unit",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "aqrobioloji": {
+  "az": "Aqrobiologiya elminə aid olan.",
+  "en": "agrobiological",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "aqrokimyəvi": {
+  "az": "Aqrokimya ilə bağlı olan.",
+  "en": "agrochemical",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "aqroməntəqə": {
+  "az": "Kənd təsərrüfatında aqronomluq xidməti göstərən məntəqə.",
+  "en": "agronomy station",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "aqrominimum": {
+  "skip": "evidence has only etymology, no sense text"
+ },
+ "aqronomik": {
+  "az": "Aqronomiyaya, kənd təsərrüfatı elminə aid olan.",
+  "en": "agronomical, agricultural",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "aqroşəhər": {
+  "az": "Sovet illərində kolxoz üzvlərinin saldığı şəhərəbənzər qəsəbə.",
+  "en": "agro-town, a Soviet-era collective-farm settlement",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "aqrotexnik": {
+  "az": "Aqrotexnika sahəsində çalışan mütəxəssis.",
+  "en": "agrotechnician",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "ala-bəzəklik": {
+  "az": "Rəngarəng, ala-bula görünən şeyin vəziyyəti.",
+  "en": "motleyness, variegation",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ala-bişmiş": {
+  "az": "Tam bişməmiş, yarımçiy qalmış.",
+  "en": "half-cooked, underdone",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ala-boz": {
+  "az": "Açıq boz rəngdə olan.",
+  "en": "light grey",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "alabuğa": {
+  "az": "Pərdəqanadlılar dəstəsindən olan bir böcək.",
+  "en": "a membrane-winged insect",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ala-bulalıq": {
+  "az": "Bir şeyin ala-bula, rəngbərəng olması.",
+  "en": "variegation, motleyness",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ala-bulanıq": {
+  "az": "Qismən bulanıq, yer-yer isə duru olan.",
+  "en": "partly murky, half-clouded",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "alacaqanad": {
+  "az": "Meşələrdə yaşayan kiçik nəğməkar quş.",
+  "en": "a small woodland songbird",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "alacaq-verəcək": {
+  "az": "Bir adamın başqalarından alacağı və onlara verəcəyi borclar.",
+  "en": "debts owed to and by someone",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "aladağ": {
+  "az": "Bişirilərkən yanmış, qaralmış (çörək haqqında).",
+  "en": "burnt in baking (of bread)",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "aladodaq": {
+  "az": "Dodaqları ağ, qalan bədəni başqa rəngdə olan (at).",
+  "en": "white-lipped (of a horse)",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "alafa": {
+  "az": "İri və incə qadın baş örtüyü.",
+  "en": "a large thin headscarf",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "alaflanmaq": {
+  "az": "Ot-yemlə təmin olunmaq, yemlənmək.",
+  "en": "to be foddered",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "alagüllük": {
+  "az": "Ala-bula rəngli, uzun gövdəli bir böcək.",
+  "en": "a long mottled insect",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "alağac": {
+  "az": "Sərhəd xəttində nişan kimi basdırılan ağac.",
+  "en": "a boundary-marker post",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ala-kal": {
+  "az": "Tam yetişməmiş, yarıkal olan.",
+  "en": "unripe, half-ripe",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "alakeş": {
+  "az": "Alaq otunu kəsməyə yarayan alət.",
+  "en": "a weeding tool",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ala-key": {
+  "az": "Bir qədər kütbeyin, fərasətsiz olan.",
+  "en": "rather dull-witted",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "ala-könül": {
+  "az": "İstəmədən, könülsüz halda.",
+  "en": "unwillingly, reluctantly",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "alakülüng": {
+  "az": "Tarlalarda və çöllərdə yetişən çiçəkli ot bitkisi.",
+  "en": "a flowering plant of fields and steppes",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "alaqanqal": {
+  "az": "Yarpaqları ağ ləkəli olan tikanlı alaq bitkisi.",
+  "en": "a prickly weed with white-spotted leaves",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ala-qarsaq": {
+  "az": "Lazımınca bişməmiş, yarıbişmiş olan.",
+  "en": "underdone, half-baked",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "alaqçı": {
+  "az": "Alaq otlarını təmizləyən işçi.",
+  "en": "weeder",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "alaqçılıq": {
+  "az": "Alaq təmizləmə işi, alaqçının peşəsi.",
+  "en": "the work of a weeder",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "alaqçin": {
+  "az": "Alaq təmizləməkdə işlədilən alət.",
+  "en": "a weeding implement",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "alaqlıq": {
+  "az": "Alaq otları basmış yer.",
+  "en": "weedy place",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "ala-qolay": {
+  "az": "Birtəhər, azacıq, yüngülcə.",
+  "en": "somewhat, slightly, so-so",
+  "pos": "adverb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ala-qolaylıq": {
+  "az": "Bir işin ortababdan, birtəhər görülməsi halı.",
+  "en": "a so-so, middling state",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "ala-qora": {
+  "az": "Tam yetişməmiş, hələ şirinləşməmiş (meyvə haqqında).",
+  "en": "half-ripe, not yet sweet",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "alaqvuran": {
+  "az": "Alaq otlarını təmizləyən adam.",
+  "en": "weeder",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "alalıq": {
+  "az": "Alaq otu basmış yer.",
+  "en": "weedy place",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "alan": {
+  "az": "Bir şeyi alan, qəbul edən şəxs.",
+  "en": "recipient",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "ala-nəm": {
+  "az": "Tam qurumamış, bir az rütubətli olan.",
+  "en": "half-dry, slightly damp",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "alapars": {
+  "az": "Mışovula bənzər, ağacda yuva qurub yaşayan heyvan.",
+  "en": "a dormouse-like tree-dwelling animal",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "alapısraq": {
+  "az": "Otların arasında bitən göbələk növü.",
+  "en": "a mushroom growing among grass",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ala-seyrək": {
+  "az": "Aralı-aralı, dağınıq yerləşən.",
+  "en": "sparse, scattered",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "alaşa": {
+  "az": "Arıq, zəif at.",
+  "en": "a nag, a lean horse",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "alaşıq-dolaşıq": {
+  "az": "Aydın seçilməyən, qarmaqarışıq görünən.",
+  "en": "indistinct, hard to make out",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ala-toranlıq": {
+  "az": "Hələ tam qaranlıq düşməmiş, yarıqaranlıq vaxt.",
+  "en": "semi-darkness, twilight",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "alay-alay": {
+  "az": "Bir alayın ardınca digər alay olmaqla.",
+  "en": "regiment by regiment",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "ala-yarımçıqlıq": {
+  "az": "Yarımçıq, natamam olma vəziyyəti.",
+  "en": "incompleteness, imperfection",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "alayonca": {
+  "az": "Yarısı yonca, yarısı başqa əkin olan sahə.",
+  "en": "a field half under clover, half under other crops",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "alazlamaq": {
+  "az": "Kömürü alışdırıb közərtmək.",
+  "en": "to kindle coal until it glows",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "alazlanmaq": {
+  "az": "Alışıb közərmək (kömür haqqında).",
+  "en": "to catch fire and glow (of coal)",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "albalılıq": {
+  "az": "Albalı ağacları salınmış bağ.",
+  "en": "cherry orchard",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "albinos": {
+  "az": "Dərisində və tükündə piqment olmayan insan və ya heyvan.",
+  "en": "albino",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "alçaqboylu": {
+  "az": "Boyu qısa olan.",
+  "en": "short in stature",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "alçaqdaban": {
+  "az": "Dabanı alçaq olan (ayaqqabı haqqında).",
+  "en": "low-heeled",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "alçaqdabanlı": {
+  "az": "Alçaq dabanı olan (ayaqqabı).",
+  "en": "low-heeled",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "alçaqdan": {
+  "az": "Yerə yaxın, aşağı səviyyədən.",
+  "en": "from low down, close to the ground",
+  "pos": "adverb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "alçaqlaşdırmaq": {
+  "az": "Bir kəsi və ya şeyi alçaq, pis hala salmaq.",
+  "en": "to debase, to degrade",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "alçaqlaşmaq": {
+  "az": "Alçaq hala düşmək, alçalmaq.",
+  "en": "to become low or base",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "alçaqtavan": {
+  "az": "Tavanı alçaq olan.",
+  "en": "low-ceilinged",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "alçaqtavanlı": {
+  "az": "Alçaq tavanı olan (otaq, bina).",
+  "en": "low-ceilinged",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "alçaqtəpəli": {
+  "az": "Alçaq təpələrlə örtülü olan.",
+  "en": "with low hills",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "alçıdaşı": {
+  "az": "Tikintidə istifadə edilən daş növü.",
+  "en": "gypsum rock used in construction",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "aldanılmaq": {
+  "az": "Aldadılmaq, kələyə düşmək.",
+  "en": "to be deceived",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "aldı-qaçdı": {
+  "az": "Uşaqların topla oynadığı bir oyun növü.",
+  "en": "a children's ball game",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "aldırtmaq": {
+  "az": "Birinə bir şeyi almağa vadar etmək.",
+  "en": "to have someone take or buy something",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "alətçi": {
+  "az": "Alətlər düzəldən usta.",
+  "en": "toolmaker",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "alıq-alıq": {
+  "skip": "evidence has only a part-of-speech label, no sense"
+ },
+ "alıqlanmaq": {
+  "az": "Qolanı bağlanmaq (at haqqında).",
+  "en": "to be girthed",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "alıqlatmaq": {
+  "az": "Başqasına atın qolanını bağlatmaq.",
+  "en": "to have someone girth a horse",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "alınlı": {
+  "az": "Alnı iri, geniş olan.",
+  "en": "having a large forehead",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "alınlıq": {
+  "az": "Vaxtilə qadınların alına taxdığı qızıl-gümüş bəzək.",
+  "en": "a forehead ornament worn by women in the past",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "alınmazlıq": {
+  "az": "Ələ keçirilə bilməmə, yenilməz olma.",
+  "en": "impregnability",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "alışdırıcı": {
+  "az": "Alışdırmağa, yandırmağa xidmət edən.",
+  "en": "igniting",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "alışdırılmaq": {
+  "az": "Od vurulub yandırılmaq.",
+  "en": "to be lit or set alight",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "alışıb-verişmək": {
+  "az": "Öz aralarında danışıb razılığa gəlmək, sövdələşmək.",
+  "en": "to come to an agreement, to strike a bargain",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "alışıb-yanmaq": {
+  "az": "Od tutub alovlanmaq.",
+  "en": "to catch fire, to be ablaze",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "alışmalıq": {
+  "skip": "sense depends on an unexplained cross-reference"
+ },
+ "alibi": {
+  "az": "Cinayət anında təqsirləndirilənin başqa yerdə olduğunu təsdiqləyən sübut.",
+  "en": "alibi",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "alicənabcasına": {
+  "az": "Nəcib və comərd şəkildə.",
+  "en": "nobly, generously",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "alimentçi": {
+  "az": "Aliment ödəyən kişi.",
+  "en": "man paying alimony",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "aliməkan": {
+  "az": "Uca mövqe və məqam sahibi olan.",
+  "en": "of high rank or position",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "aliməqam": {
+  "az": "Cəmiyyətdə uca mövqe tutan, rütbəsi yüksək olan.",
+  "en": "high-ranking, of lofty position",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "alinəsəb": {
+  "az": "Uca rütbəyə və mənsəbə malik olan.",
+  "en": "of high rank and office",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "alkoqollu": {
+  "az": "İçində spirt olan.",
+  "en": "alcoholic, containing alcohol",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "al-qan": {
+  "az": "Qıpqırmızı, al rəngli qan.",
+  "en": "red blood",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "alqoritmik": {
+  "az": "Alqoritmə aid olan, alqoritm əsasında qurulan.",
+  "en": "algorithmic",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "Allah": {
+  "az": "Kainatı yaradıb onu idarə edən tək ilahi varlıq.",
+  "en": "God, Allah",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "allahlıq": {
+  "az": "Özbaşına hökm sürmə, hər şeyə hakim kəsilmə.",
+  "en": "domineering, acting as absolute master",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "allahpayı": {
+  "az": "Kasıblara verilən sədəqə, ehsan.",
+  "en": "alms",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "allahpərəstlik": {
+  "az": "Allaha inanıb ona ibadət etmə, dindarlıq.",
+  "en": "piety, devotion to God",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "allaşdırılmaq": {
+  "az": "Qızardılmaq, qırmızı rəngə salınmaq.",
+  "en": "to be reddened",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "allaşdırmaq": {
+  "az": "Bir şeyi qırmızı rəngə salmaq, qızartmaq.",
+  "en": "to redden, to make crimson",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "allaşmaq": {
+  "az": "Qızarmaq, al rəng almaq.",
+  "en": "to redden, to grow rosy",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "alleqorik": {
+  "az": "Alleqoriya xarakteri daşıyan, rəmzi-məcazi olan.",
+  "en": "allegorical",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "alleqro": {
+  "az": "Musiqidə cəld, canlı templə ifa olunan hissə.",
+  "en": "allegro",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "allı": {
+  "az": "Qırmızı paltar geyinmiş.",
+  "en": "dressed in red",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "allı-bəzəkli": {
+  "az": "Rəngarəng və bəzəkli geyinmiş.",
+  "en": "colourfully adorned",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "allı-şallı": {
+  "az": "Rəngbərəng, əlvan.",
+  "en": "multicoloured, gaudy",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "alma-armudluq": {
+  "az": "Alma ilə armud ağaclarından ibarət bağ.",
+  "en": "apple and pear orchard",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "almagüvəsi": {
+  "az": "Alma ağaclarına zərər vuran böcək.",
+  "en": "apple moth, a pest of apple trees",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "almanax": {
+  "az": "Müxtəlif əsərlərdən ibarət ədəbi toplu.",
+  "en": "literary miscellany, almanac",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "almanpərəstlik": {
+  "az": "Almanlara və onların mədəniyyətinə həddən artıq rəğbət.",
+  "en": "Germanophilia",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "almayanaqlı": {
+  "az": "Yanaqları alma kimi qırmızı olan.",
+  "en": "rosy-cheeked",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "alnıaçıqlıq": {
+  "az": "Günahsızlıq, utanılacaq əməli olmama.",
+  "en": "blamelessness",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "alovgözlü": {
+  "az": "Gözlərindən od yağan, coşqun hisli.",
+  "en": "fiery-eyed, passionate",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "alovsaçan": {
+  "az": "Ətrafa od-alov saçan, qızğın.",
+  "en": "flame-spewing, fiery",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "alovsuz": {
+  "az": "Alovu olmayan, alov çıxarmayan.",
+  "en": "flameless",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "alp": {
+  "az": "Qədim türk ordusunda döyüşdə qazanılan qəhrəmanlıq titulu.",
+  "en": "alp, a warrior title in the old Turkic army",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "altağız": {
+  "az": "Çay dibində yaşayan çəkikimilərdən bir balıq.",
+  "en": "a bottom-dwelling carp-family fish",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "alt-alta": {
+  "az": "Biri digərinin altında olmaqla.",
+  "en": "one under another",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "altdan-altdan": {
+  "az": "Gizlicə, xəlvəti şəkildə.",
+  "en": "secretly, covertly",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "altdan-üstdən": {
+  "az": "Doğru olmayan şəkildə, yalandan.",
+  "en": "falsely, dishonestly",
+  "pos": "adverb",
+  "src": "both",
+  "conf": "high"
+ },
+ "altdan-yuxarı": {
+  "az": "Aşağıdan yuxarıya doğru.",
+  "en": "upwards, from below",
+  "pos": "adverb",
+  "src": "both",
+  "conf": "high"
+ },
+ "altıaçıq": {
+  "az": "Aşağı hissəsi açıq olan.",
+  "en": "open at the bottom",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "altıaçılan": {
+  "az": "Altı güllə tutan, fırlanan barabanlı tapança.",
+  "en": "six-shooter, revolver",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "altı-altı": {
+  "az": "Hər dəfə altı ədəd olmaqla, altışar.",
+  "en": "in sixes",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "altıavarlı": {
+  "az": "Altı avarla işləyən (qayıq).",
+  "en": "six-oared",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "altıbarmaqlı": {
+  "az": "Altı barmağı olan.",
+  "en": "six-fingered",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "altıcərgəli": {
+  "az": "Altı sıradan ibarət olan.",
+  "en": "six-row, arranged in six rows",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "altıcildli": {
+  "az": "Altı cilddən ibarət olan.",
+  "en": "six-volume",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "altıdüymə": {
+  "az": "Altı düym ölçüsündə olan.",
+  "en": "six inches in size",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "altıgünlük": {
+  "az": "Altı gün davam edən.",
+  "en": "six-day, lasting six days",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "altıillik": {
+  "az": "Altı il davam edən, altı il müddətli.",
+  "en": "six-year, of six years",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "altıkünclü": {
+  "az": "Altı bucağı olan.",
+  "en": "hexagonal",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "altıqat": {
+  "az": "Altı dəfə artıq, altı qatdan ibarət.",
+  "en": "sixfold",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "altıqatlı": {
+  "az": "Altı mərtəbədən ibarət olan.",
+  "en": "six-storey",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "altımanatlıq": {
+  "az": "Altı manat dəyərində olan.",
+  "en": "costing six manats",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "altımərtəbə": {
+  "az": "Altı mərtəbəli bina.",
+  "en": "six-storey building",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "altımərtəbəli": {
+  "az": "Altı mərtəbəsi olan.",
+  "en": "six-storeyed",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "altısaatlıq": {
+  "az": "Altı saat çəkən, altı saat davam edən.",
+  "en": "six-hour, lasting six hours",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "altıtarlalı": {
+  "az": "Altı ildən bir təkrarlanan (növbəli əkin haqqında).",
+  "en": "six-field (of crop rotation)",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "altıüzlü": {
+  "az": "Altı üzü olan (həndəsi cisim).",
+  "en": "six-faced, hexahedral",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "altmışlıq": {
+  "az": "Altmış yaşı olan.",
+  "en": "sixty years old",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "altmışyaşlı": {
+  "az": "Altmış yaşında olan.",
+  "en": "sixty-year-old",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "alt-üst": {
+  "az": "Tamamilə qarışıq, nizamı pozulmuş halda.",
+  "en": "upside down, in total disarray",
+  "pos": "adverb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "alüminiumlu": {
+  "az": "İçində alüminium olan.",
+  "en": "containing aluminium",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "alveol": {
+  "az": "Ağciyərdə və ya diş yuvasında kiçik qabarcıqvari boşluq.",
+  "en": "alveolus",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "alyanaqlı": {
+  "az": "Yanaqları qırmızı, al olan.",
+  "en": "rosy-cheeked",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "alyans": {
+  "az": "İttifaq, birlik.",
+  "en": "alliance, union",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "al-yaşıl": {
+  "az": "Qırmızı və yaşıl rənglərdə köhnə ipək parça.",
+  "en": "a red-and-green silk fabric (archaic)",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "amansızcasına": {
+  "az": "Heç bir rəhm göstərmədən, qəddarcasına.",
+  "en": "mercilessly, ruthlessly",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "ambulator": {
+  "az": "Xəstəxanada yatmadan müalicə olunan (xəstə haqqında).",
+  "en": "ambulatory, out-patient",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "ambulatoriya": {
+  "az": "Xəstələrin yatırılmadan qəbul edilib müalicə olunduğu tibb müəssisəsi.",
+  "en": "out-patient clinic",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "amerikanizm": {
+  "az": "Amerika ingiliscəsinə xas söz və ya ifadə.",
+  "en": "Americanism (in language)",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "amiranə": {
+  "az": "Əmr verən tərzdə olan, hökmlü.",
+  "en": "imperious, commanding",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "amiranəlik": {
+  "az": "Hökmlü, əmredici davranış tərzi.",
+  "en": "imperiousness",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "amoral": {
+  "az": "Əxlaq normalarına zidd olan, əxlaqsız.",
+  "en": "amoral, immoral",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "amorfizm": {
+  "az": "Müəyyən quruluşu olmama, amorf xüsusiyyət.",
+  "en": "amorphism",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "amorfluq": {
+  "az": "Amorf, formasız olma halı.",
+  "en": "amorphousness",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "amortizasiya": {
+  "az": "Əsas vəsaitlərin dəyərinin tədricən silinməsi, köhnəlməsi.",
+  "en": "amortization",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "amper-saat": {
+  "az": "Bir amper cərəyanın bir saatda daşıdığı elektrik yükü vahidi.",
+  "en": "ampere-hour",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "ana-bala": {
+  "az": "Ana ilə onun övladı birlikdə.",
+  "en": "mother and child",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "anacan": {
+  "az": "Anaya mehribanlıqla edilən müraciət.",
+  "en": "mummy, dear mother",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "anaclanmaq": {
+  "az": "Böyüyüb iriləşmək.",
+  "en": "to grow big, to mature",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "anaclıq": {
+  "az": "Çox bala verib qocalmış heyvanın vəziyyəti.",
+  "en": "the state of an old animal that has borne many young",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "anadanbir": {
+  "az": "Anası bir, ataları ayrı olan (qardaş, bacı).",
+  "en": "having the same mother (of siblings)",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "anakonda": {
+  "az": "Cənubi Amerikada yaşayan, yatağanların ən iri ilanı.",
+  "en": "anaconda",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "analı-atalı": {
+  "az": "Həm anası, həm də atası olan.",
+  "en": "having both mother and father",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "analı-balalı": {
+  "az": "Ana ilə balası birlikdə, hamı bir yerdə.",
+  "en": "mother and children together",
+  "pos": "adverb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "analitizm": {
+  "az": "Analitik xüsusiyyət, analitik quruluş.",
+  "en": "analytism",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "analizator": {
+  "az": "Analiz aparmağa xidmət edən cihaz.",
+  "en": "analyser",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "analogiya": {
+  "az": "Əşya və ya hadisələr arasında oxşarlıq, bənzərlik.",
+  "en": "analogy",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "analoji": {
+  "az": "Oxşar, analogiyaya əsaslanan.",
+  "en": "analogical",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "analoq": {
+  "az": "Başqa bir şeyə oxşar olan şey, onun bənzəri.",
+  "en": "analogue",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "anarxistlik": {
+  "az": "Anarxist olma, anarxist baxışlara malik olma.",
+  "en": "being an anarchist",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "anasızlıq": {
+  "az": "Anası olmayan adamın vəziyyəti.",
+  "en": "motherlessness",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "anbargüvəsi": {
+  "az": "Anbarda taxıla zərər verən güvə.",
+  "en": "grain moth",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ancaq-ancaq": {
+  "az": "Çətinliklə, güclə.",
+  "en": "only just, barely",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "and-aman": {
+  "az": "İnandırmaq üçün təkrar-təkrar and içmə.",
+  "en": "repeated swearing, oaths",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "andçı": {
+  "az": "Vaxtilə məhkəmədə kiminsə əvəzinə and içən etibarlı adam.",
+  "en": "a trusted person who swore an oath on another's behalf",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "andızlıq": {
+  "az": "Andız bitkisi bitən yer.",
+  "en": "a place where elecampane grows",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "and-qəsəm": {
+  "az": "Təkrarən and içmə, and-aman.",
+  "en": "oaths, swearing",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "andlı": {
+  "az": "And içərək öhdəlik götürmüş.",
+  "en": "sworn, under oath",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "anestezioloq": {
+  "az": "Anesteziya üzrə ixtisaslaşmış həkim.",
+  "en": "anaesthetist",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "animalist": {
+  "az": "Heyvanları təsvir edən rəssam və ya heykəltəraş.",
+  "en": "animal painter or sculptor",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "anker": {
+  "az": "Texnikada hissələri bir-birinə bərkidən lövbərvari detal.",
+  "en": "anchor (in engineering)",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "anqırtmaq": {
+  "az": "Anqırmağa, bərkdən bağırmağa vadar etmək.",
+  "en": "to make bray or bawl",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "anladılmaq": {
+  "az": "Başa salınmaq, izah olunmaq.",
+  "en": "to be made clear, to be explained",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "anlaqlıq": {
+  "az": "İnsanın öz əməllərini dərk edib idarə edə bilmə qabiliyyəti.",
+  "en": "sanity, capacity to understand one's actions",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "anlaşılan": {
+  "az": "Başa düşülən, aydın olan.",
+  "en": "clear, understandable",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "anormallıq": {
+  "az": "Normadan kənara çıxma, qeyri-adilik.",
+  "en": "abnormality",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "ansızlıq": {
+  "az": "Gözlənilmədən, qəfil baş vermə.",
+  "en": "suddenness, unexpectedness",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "antaqonist": {
+  "az": "Barışmaz rəqib, düşmən mövqedə duran şəxs.",
+  "en": "antagonist",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "antaqonizm": {
+  "az": "Barışmaz ziddiyyət, düşmənçilik.",
+  "en": "antagonism",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "antidemokratik": {
+  "az": "Demokratiyaya zidd olan.",
+  "en": "anti-democratic",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "antiimperialist": {
+  "az": "İmperializmə qarşı yönəlmiş.",
+  "en": "anti-imperialist",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "antikommunist": {
+  "az": "Kommunizmə qarşı çıxan şəxs.",
+  "en": "anti-Communist",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "antikommunizm": {
+  "az": "Kommunizmə qarşı yönəlmiş ideologiya və siyasət.",
+  "en": "anti-Communism",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "antilop": {
+  "az": "Cütdırnaqlılardan olan cəld qaçan heyvan.",
+  "en": "antelope",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "antimarksizm": {
+  "az": "Marksizmə qarşı yönəlmiş baxışlar.",
+  "en": "anti-Marxism",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "antimaterialist": {
+  "az": "Materializmə qarşı olan.",
+  "en": "anti-materialist",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "antimaterializm": {
+  "az": "Materializmə zidd fəlsəfi baxışlar.",
+  "en": "anti-materialism",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "antipartiya": {
+  "az": "Partiyaya qarşı yönəlmiş.",
+  "en": "anti-party",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "antipod": {
+  "az": "Tam əks xüsusiyyətlərə malik şəxs və ya şey.",
+  "en": "antipode",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "antisovetizm": {
+  "az": "Sovet quruluşuna qarşı yönəlmiş baxış və fəaliyyət.",
+  "en": "anti-Sovietism",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "aparatçı": {
+  "az": "Aparatı idarə edən işçi.",
+  "en": "apparatus operator",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "apartdırmaq": {
+  "az": "Bir şeyi başqasına apartmaq, daşıtmaq.",
+  "en": "to have someone carry or take something away",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "aptekçilik": {
+  "az": "Aptekdə işləmə peşəsi, əczaçılıq sənəti.",
+  "en": "pharmacy as a profession",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "arababənd": {
+  "az": "Araba düzəldən usta.",
+  "en": "cartwright",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "arabacıq": {
+  "az": "Balaca araba.",
+  "en": "small cart",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "ara-bərə": {
+  "az": "İki şeyin arasındakı yer, orta.",
+  "en": "the space between, the middle",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "arabir-arabir": {
+  "az": "Hərdənbir, bəzən.",
+  "en": "now and then, occasionally",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "aradüzəldən": {
+  "az": "İş düzəldən vasitəçi (mənfi mənada).",
+  "en": "go-between, fixer (pejorative)",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "arakəsməli": {
+  "az": "Arakəsməsi olan.",
+  "en": "partitioned, having a partition",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "araqat": {
+  "az": "İki hissənin arasına qoyulan kipləşdirici qat.",
+  "en": "washer, gasket",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "araq-çaxır": {
+  "az": "Ümumiyyətlə spirtli içkilər.",
+  "en": "alcoholic drinks",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "araqçı": {
+  "az": "Araq çəkib satan adam.",
+  "en": "vodka distiller or seller",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "araqçınlı": {
+  "az": "Araqçın geymiş, başında araqçını olan.",
+  "en": "wearing a skullcap",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "aralaşdırılmaq": {
+  "az": "Bir-birindən ayrılıb uzaqlaşdırılmaq.",
+  "en": "to be separated, to be pulled apart",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "aram-aram": {
+  "az": "Sakit-sakit, yavaş-yavaş.",
+  "en": "calmly, slowly",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "aramla": {
+  "az": "Sakitcə, tələsmədən.",
+  "en": "calmly, quietly",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "aramlı": {
+  "az": "Səbirli, təmkinli.",
+  "en": "patient, calm",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "aramsızlıq": {
+  "az": "Narahatlıq, qərarsızlıq, səbirsizlik.",
+  "en": "restlessness, impatience",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "arançılıq": {
+  "skip": "sense depends on an undefined base word (arançı)"
+ },
+ "aranjiman": {
+  "az": "Musiqi əsərinin işlənməsi, yeni tərtibi.",
+  "en": "musical arrangement",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "aranlı": {
+  "az": "Daim aran yerdə yaşayan adam.",
+  "en": "lowlander",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "aranmaq": {
+  "az": "Axtarılmaq.",
+  "en": "to be searched for",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ara-sıra": {
+  "az": "Bəzən, hərdənbir.",
+  "en": "occasionally, from time to time",
+  "pos": "adverb",
+  "src": "both",
+  "conf": "high"
+ },
+ "araşdırıcılıq": {
+  "az": "Tədqiqatçı peşəsi, araşdırma fəaliyyəti.",
+  "en": "the work of an investigator, research",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "araşmaq": {
+  "az": "Axtarmaq, soraqlaşmaq.",
+  "en": "to search, to inquire",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "aratlamaq": {
+  "skip": "sense depends on an undefined base word (arat)"
+ },
+ "aravuranlıq": {
+  "az": "Adamların arasını vurma, fitnəkarlıq.",
+  "en": "instigation, stirring up trouble",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "arayatı": {
+  "skip": "evidence has only a part-of-speech label, no sense"
+ },
+ "arçan": {
+  "az": "Ardıc ağacı.",
+  "en": "juniper",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "arəstə": {
+  "az": "Bəzədilmiş, bəzəkli, səliqəyə salınmış.",
+  "en": "adorned, decorated",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "arfaçı": {
+  "az": "Arfa çalan musiqiçi.",
+  "en": "harpist",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "arğaclanmaq": {
+  "az": "Toxuculuqda arğac sapı keçirilmək.",
+  "en": "to be wefted",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "arğaclıq": {
+  "az": "Arğac üçün yarayan (sap, ip).",
+  "en": "suitable for weft",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "arğaz": {
+  "az": "Köklüyü orta dərəcədə olan.",
+  "en": "of medium build, neither fat nor thin",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "arxa-arxaya": {
+  "az": "Kürəyi kürəyə söykənmiş halda.",
+  "en": "back to back",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "arxaclamaq": {
+  "az": "Qoyun sürüsünü arxaca toplamaq.",
+  "en": "to drive the flock into the fold",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "arxaclanmaq": {
+  "az": "Arxaca toplanmaq (sürü haqqında).",
+  "en": "to be driven into the fold",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "arxaiklik": {
+  "az": "Arxaik olma, köhnəlmiş söz və ifadə xüsusiyyəti.",
+  "en": "archaism, archaic quality",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "arxaizm": {
+  "az": "Dildə köhnəlmiş söz və ya ifadə.",
+  "en": "archaism",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "arxalıqlı": {
+  "az": "Arxalıq geyinmiş.",
+  "en": "wearing an arkhalig (long coat)",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "arxasızlıq": {
+  "az": "Kimsəsi, dayağı olmayan adamın vəziyyəti.",
+  "en": "lack of support, defencelessness",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "arxayın-arxayın": {
+  "az": "Rahat-rahat, tələsmədən.",
+  "en": "calmly, without haste",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "arxayınlaşdırmaq": {
+  "az": "Birini sakitləşdirib əmin etmək.",
+  "en": "to reassure",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "arxayınlıqla": {
+  "az": "Rahatca, narahat olmadan, tələsmədən.",
+  "en": "calmly, unhurriedly",
+  "pos": "adverb",
+  "src": "both",
+  "conf": "high"
+ },
+ "arxeoqraf": {
+  "az": "Qədim yazılı mətnləri öyrənən mütəxəssis.",
+  "en": "archaeographer",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "arxeoqrafiya": {
+  "az": "Qədim yazılı abidələri öyrənib nəşr edən elm sahəsi.",
+  "en": "archaeography, the study of early texts",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "arxivçilik": {
+  "az": "Arxivçinin peşəsi.",
+  "en": "the profession of an archivist",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "arıdıcı": {
+  "az": "Seçib çeşidləyən adam və ya alət.",
+  "en": "sorter, selector",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "arıdılmaq": {
+  "az": "Seçilib təmizlənmək, çürüyündən ayrılmaq.",
+  "en": "to be sorted and cleaned",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "arıqlaşmaq": {
+  "az": "Getdikcə arıqlayıb zəifləmək.",
+  "en": "to grow thin",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "arımaq": {
+  "az": "Seçib ayırmaq, çeşidləmək.",
+  "en": "to sort, to pick out",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "arınmaq": {
+  "az": "Təmizlənmək, kirdən və qatışıqdan azad olmaq.",
+  "en": "to be cleansed or purified",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "arıtdırmaq": {
+  "az": "Başqasına seçib təmizlətmək.",
+  "en": "to have something sorted and cleaned",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "arıtlanmaq": {
+  "az": "Seçilib təmizlənmək, çeşidlənmək.",
+  "en": "to be sorted out, to be cleaned",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "arıtlatmaq": {
+  "az": "Başqasına çeşidlətmək, təmizlətmək.",
+  "en": "to have something sorted or cleaned",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "arıtlayıcı": {
+  "az": "Çeşidləyən, təmizləyən.",
+  "en": "sorting, cleaning",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "arıyeyən": {
+  "az": "Arı ilə qidalanan yırtıcı quş.",
+  "en": "honey buzzard",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "arifanə": {
+  "az": "Arif adama xas şəkildə, müdrikcəsinə.",
+  "en": "wisely, knowingly",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "aristokratcasına": {
+  "az": "Aristokrat kimi, zadəganlara xas tərzdə.",
+  "en": "like an aristocrat",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "aristokratlaşmaq": {
+  "az": "Aristokrat tərzi qazanmaq, zadəganlara bənzəmək.",
+  "en": "to become aristocratic",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "aristokratlıq": {
+  "az": "Aristokrat olma, zadəgan mənsubiyyəti.",
+  "en": "aristocracy, being an aristocrat",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "aritmik": {
+  "az": "Ritmi pozulmuş, ahəngsiz.",
+  "en": "unrhythmical",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "arqument": {
+  "az": "Bir fikri sübut etmək üçün gətirilən dəlil.",
+  "en": "argument",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "arlı": {
+  "az": "Abırlı, həyası olan.",
+  "en": "modest, bashful",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "arlı-namuslu": {
+  "az": "Namuslu, abırlı.",
+  "en": "honourable, decent",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "armaturçu": {
+  "az": "Armatur quraşdıran və ona qulluq edən işçi.",
+  "en": "fitter",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "armaturçuluq": {
+  "az": "Armaturçunun peşəsi.",
+  "en": "the trade of a fitter",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "armaturlamaq": {
+  "az": "Armaturla möhkəmləndirmək.",
+  "en": "to reinforce",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "armaturlanmaq": {
+  "az": "Armaturla möhkəmləndirilmək.",
+  "en": "to be reinforced",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "armaturlu": {
+  "az": "Armaturla möhkəmləndirilmiş.",
+  "en": "reinforced, with reinforcement",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "armudboğaz": {
+  "az": "Uzun və nazik boğazı olan.",
+  "en": "long-necked",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "armudgülü": {
+  "az": "Çoxillik ot bitkisi.",
+  "en": "a perennial herb",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "ar-namus": {
+  "az": "Şərəf, namus, ləyaqət.",
+  "en": "honour, self-respect",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "arpalanmaq": {
+  "az": "Arpa ilə yemlənmək.",
+  "en": "to be fed barley",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "arpalı": {
+  "az": "Tərkibinə arpa qatılmış.",
+  "en": "mixed with barley",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "arpalıq": {
+  "az": "Arpa əkilmiş sahə.",
+  "en": "barley field",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ }
+}

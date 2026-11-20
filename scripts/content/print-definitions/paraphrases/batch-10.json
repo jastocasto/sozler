@@ -1,0 +1,1941 @@
+{
+ "dağboyanası": {
+  "az": "Çətirçiçəklilər fəsiləsinə aid olan çoxillik bir ot.",
+  "en": "a perennial herb of the umbellifer family",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dağ-dağ": {
+  "az": "Dağlar qədər hündür, olduqca uca.",
+  "en": "towering, mountain-high",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dağdağan": {
+  "az": "Meşədə bitən, möhkəm oduncaqlı ağac və ya kol.",
+  "en": "hackberry, a hardwood tree or shrub",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dağdağanlıq": {
+  "az": "Dağdağan ağaclarının çox bitdiyi sahə.",
+  "en": "a grove of hackberry trees",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dağ-daş": {
+  "az": "Yolsuz, insan məskunlaşmayan daşlı-təpəli yerlər.",
+  "en": "rough rocky wilderness",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dağ-dərə": {
+  "az": "Yolsuz, daşlı-təpəli və yaşayışa yararsız ərazi.",
+  "en": "rough mountainous terrain",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dağdöşü": {
+  "az": "Dağın qabaq tərəfindəki az meyilli yamac.",
+  "en": "mountainside",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dağıdıcılıq": {
+  "az": "Dağıtmaq, viran qoymaq qabiliyyəti və ya meyli.",
+  "en": "destructiveness",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dağım-dağım": {
+  "az": "Tamamilə dağılmış, darmadağın şəkildə.",
+  "en": "utterly, into pieces (of destruction)",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dağıntılıq": {
+  "az": "Çoxlu uçuq-sökük olan viran yer.",
+  "en": "ruins, a place of devastation",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dağkəli": {
+  "az": "Enli buynuzları olan iri meşə heyvanı; sığın.",
+  "en": "elk, moose",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dağlılıq": {
+  "az": "Bir ərazinin dağlıq olması.",
+  "en": "mountainousness",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dağnovruzu": {
+  "az": "Çiçək açan çoxillik bir bitki.",
+  "en": "a perennial flowering plant",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dağsaqqızı": {
+  "az": "Dağlıq yerlərdə yetişən, tərkibində kauçuk olan bitki.",
+  "en": "a rubber-bearing mountain plant",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dağtərxunu": {
+  "az": "Müalicədə istifadə olunan ot və ya yarımkol bitki.",
+  "en": "a medicinal herb or subshrub",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dağturpu": {
+  "az": "Yarpaqları uzunsov olan iki illik ot.",
+  "en": "a biennial herb with elongated leaves",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dahiyanəlik": {
+  "az": "Dahi olma keyfiyyəti; dahilik.",
+  "en": "genius, the quality of a genius",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "daxıldar": {
+  "az": "Köhnə dildə: pul qəbul edib verən şəxs, kassir.",
+  "en": "cashier",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "daxıldarlıq": {
+  "az": "Kassirin gördüyü iş və tutduğu vəzifə.",
+  "en": "the job of a cashier",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "daimiləşdirilmək": {
+  "az": "Sabit və həmişəlik hala gətirilmək.",
+  "en": "to be made permanent",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "daimiləşdirmək": {
+  "az": "Bir şeyi sabit və həmişəlik etmək.",
+  "en": "to make permanent",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "daimiləşmək": {
+  "az": "Həmişəlik və dəyişməz hal almaq.",
+  "en": "to become permanent",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dairələmək": {
+  "az": "Bir şeyi dairəvi şəklə salmaq.",
+  "en": "to make round",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dairələnmək": {
+  "az": "Dəyirmi, girdə şəkil almaq.",
+  "en": "to become round",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dalandarlıq": {
+  "az": "Həyətə və binaya göz qoyan qapıçının işi.",
+  "en": "the job of a janitor or yard-keeper",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dalaşdırılmaq": {
+  "az": "Aralarında dava-dalaş yaradılmaq, bir-birinə qarşı qızışdırılmaq.",
+  "en": "to be set against each other in a quarrel",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dalaşqanlıq": {
+  "az": "Tez-tez dava salmağa meyilli olma xasiyyəti.",
+  "en": "quarrelsomeness",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dalatmaq": {
+  "az": "Arının sancmasına və ya itin dişləməsinə səbəb olmaq.",
+  "en": "to get someone stung or bitten",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dalayıcı": {
+  "az": "Sancan, dişləyən.",
+  "en": "stinging, biting",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dalayıcılıq": {
+  "az": "Sancma və ya dişləmə xüsusiyyəti.",
+  "en": "the quality of stinging or biting",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "dalay-lama": {
+  "az": "Tibet buddistlərinin ali dini və dünyəvi rəhbəri.",
+  "en": "the Dalai Lama, spiritual and secular ruler of Tibet",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dalda": {
+  "az": "Gizlənmək və ya qorunmaq üçün əlverişli yer.",
+  "en": "shelter, refuge",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dalda-bucaqda": {
+  "az": "Gizli yerlərdə, göz önündə olmayan guşələrdə.",
+  "en": "in hidden corners, out of sight",
+  "pos": "adverb",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "dal-dala": {
+  "az": "Kürəkləri bir-birinə tərəf çevrilmiş halda.",
+  "en": "back to back",
+  "pos": "adverb",
+  "src": "both",
+  "conf": "high"
+ },
+ "daldalatmaq": {
+  "az": "Kimisə gizli, qorunan yerə çəkib sığındırmaq.",
+  "en": "to shelter someone, to hide in a sheltered place",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "daldalayıcı": {
+  "az": "Sığınacaq verən, himayə edib qoruyan.",
+  "en": "sheltering, protective",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "daldalı": {
+  "az": "Arxaya çevrilmədən geriyə doğru.",
+  "en": "backwards, without turning around",
+  "pos": "adverb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "daldan-dala": {
+  "az": "Sonradan, bir müddət keçdikdən sonra.",
+  "en": "only afterwards, later on",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dalğacıq": {
+  "az": "Suyun üzündə yaranan xırda dalğa.",
+  "en": "wavelet, ripple",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dalğa-dalğa": {
+  "az": "Dalğalar şəklində, dalğavari.",
+  "en": "in waves, wavily",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dalğakəsən": {
+  "az": "Gəminin suyu yarıb irəliləyən qabaq hissəsi.",
+  "en": "the bow of a ship that cuts the waves",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dalğalandırılmaq": {
+  "az": "Dalğalanmağa, ləpələnməyə gətirilmək.",
+  "en": "to be made to ripple or wave",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dalğalılıq": {
+  "az": "Bir şeyin dalğalı olması, dalğavarilik.",
+  "en": "waviness, undulation",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dalğasız": {
+  "az": "Ləpəsi olmayan, sakit (su).",
+  "en": "waveless, calm",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dalğaşəkilli": {
+  "az": "Dalğa formasında olan, dalğaya bənzər.",
+  "en": "wave-shaped, wavy",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dalğın-dalğın": {
+  "az": "Dərin fikrə dalmış halda.",
+  "en": "pensively, lost in thought",
+  "pos": "adverb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dalğınlaşmaq": {
+  "az": "Fikrə dalmaq, düşüncəli hala düşmək.",
+  "en": "to become pensive",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dalı-dalı": {
+  "az": "Üzünü çevirmədən arxaya doğru.",
+  "en": "backwards",
+  "pos": "adverb",
+  "src": "both",
+  "conf": "low"
+ },
+ "dal-qabaq": {
+  "az": "Arxası önə çevrilmiş vəziyyətdə, tərsinə.",
+  "en": "back to front",
+  "pos": "adverb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dallıq": {
+  "az": "Kürəyi dayamaq üçün olan hissə; arxalıq.",
+  "en": "a backrest",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "daltonik": {
+  "az": "Bəzi rəngləri bir-birindən ayıra bilməyən şəxs.",
+  "en": "a colour-blind person",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "damacıq": {
+  "az": "Balaca dama, xırda kvadrat.",
+  "en": "a small square or check",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "damacıqlı": {
+  "az": "Üzərində xırda kvadratlar olan.",
+  "en": "finely checked",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "damaçı": {
+  "az": "Dama oyunu oynayan adam.",
+  "en": "draughts player, checkers player",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dama-dama": {
+  "az": "Kvadrat naxışlarla örtülmüş, damalı.",
+  "en": "checked, chequered",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "damaqlanmaq": {
+  "az": "Şənlənmək, kefi kökəlmək.",
+  "en": "to become merry, to enjoy oneself",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "damaqlılıq": {
+  "az": "Kefi kök olma, şən əhval-ruhiyyə.",
+  "en": "good spirits, cheerfulness",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "damaqsız": {
+  "az": "Əhvalı pis olan, qanı qara.",
+  "en": "out of sorts, in low spirits",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "damaqsızlıq": {
+  "az": "Əhvalın pis olması, kefsiz hal.",
+  "en": "low spirits, glumness",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "damalamaq": {
+  "az": "Bir şeyin üzərinə kvadrat şəkilli naxış salmaq.",
+  "en": "to mark with a checked pattern",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "damalanmaq": {
+  "az": "Üzərinə kvadrat naxışlar salınmaq.",
+  "en": "to be marked with checks",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "damalı": {
+  "az": "Üstü kvadrat naxışlarla bəzənmiş.",
+  "en": "checked, chequered",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "damarcıq": {
+  "az": "İncə, xırda damar.",
+  "en": "veinlet, small vein",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "damarcıqlı": {
+  "az": "Xırda damarlarla dolu olan.",
+  "en": "full of small veins",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "damar-damar": {
+  "az": "Üzərində damara bənzər zolaqlar olan.",
+  "en": "veined, streaked",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "damargenəldən": {
+  "az": "Qan damarlarını genişləndirən.",
+  "en": "vasodilating",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "damarıboş": {
+  "az": "İradəsi zəif olan, tez başqasının təsirinə düşən.",
+  "en": "weak-willed, spineless",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "damarıboşluq": {
+  "az": "İradə zəifliyi, asanlıqla təsirə uyma xasiyyəti.",
+  "en": "spinelessness, weakness of will",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "damarlamaq": {
+  "az": "Kimisə damarından tutub bərk sıxmaq, boğmaq.",
+  "en": "to seize by the throat, to throttle",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "damarlanmaq": {
+  "az": "Üzərində damar kimi zolaqlar yaranmaq.",
+  "en": "to become veined or streaked",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "damarlı": {
+  "az": "Damarları çox olan, damar-damar.",
+  "en": "veined, sinewy",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "damarlılıq": {
+  "az": "Bir şeyin damarlı olması.",
+  "en": "the state of being veined",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "damarsız": {
+  "az": "Heç bir damarı olmayan.",
+  "en": "veinless, without veins",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "damarsızlıq": {
+  "az": "Zəif iradəlilik, səbatsızlıq.",
+  "en": "weakness of will, lack of resolve",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dambat": {
+  "az": "Özünü çox bəyənən, təkəbbürlü.",
+  "en": "arrogant, conceited",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dambatlanmaq": {
+  "az": "Özünü öymək, lovğalıq etmək.",
+  "en": "to boast, to show off",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "dambatlaşmaq": {
+  "az": "Özünü başqalarından üstün sayıb təkəbbür göstərmək.",
+  "en": "to become arrogant, to put on airs",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dambatlıq": {
+  "az": "Lovğa olma, təkəbbürlü davranış.",
+  "en": "arrogance, conceit",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "damcıcıq": {
+  "az": "Xırda, balaca damcı.",
+  "en": "a tiny drop",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "damcı-damcı": {
+  "az": "Bir-bir damcılar halında, azar-azar.",
+  "en": "drop by drop",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "damcılanmaq": {
+  "az": "Damla-damla axıdılmaq.",
+  "en": "to be dripped",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "damcılatmaq": {
+  "az": "Mayeni damlalar halında axıtmaq.",
+  "en": "to drip, to let fall in drops",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "damcılayıcı": {
+  "az": "Mayeni damla-damla tökməyə yarayan alət; pipet.",
+  "en": "dropper, pipette",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "damcılıq": {
+  "az": "Damda suyun damcılayıb axması üçün düzəldilən yer.",
+  "en": "a drip channel on a roof",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "damdabaca": {
+  "az": "Uşaqları hürküdmək üçün düşünülmüş xəyali varlıq.",
+  "en": "bogey, an imaginary creature used to frighten children",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dam-divar": {
+  "az": "Ev-eşik, binalar və onların divarları.",
+  "en": "houses and walls, buildings",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "damən": {
+  "az": "Klassik dildə: paltarın ətəyi.",
+  "en": "the skirt or hem of a garment",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "damğabasan": {
+  "az": "Damğa basmağa yarayan alət.",
+  "en": "branding iron",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "damğalamaq": {
+  "az": "Heyvana və s.-yə qızmar dəmirlə nişan basmaq.",
+  "en": "to brand",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "damğalatdırmaq": {
+  "az": "Başqasına tapşırıb damğa vurdurmaq.",
+  "en": "to have something branded",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "damğalatmaq": {
+  "az": "Birinin əli ilə damğa basdırmaq.",
+  "en": "to have someone brand something",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "damğasız": {
+  "az": "Üzərində damğa olmayan.",
+  "en": "unbranded",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "damızdırılmaq": {
+  "az": "Damlalar halında tökülmək.",
+  "en": "to be poured drop by drop",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "damızdırmaq": {
+  "az": "Mayeni damla-damla tökmək.",
+  "en": "to pour drop by drop",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "damlacıq": {
+  "az": "Çox kiçik damla.",
+  "en": "droplet",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "damla-damla": {
+  "az": "Damlalar şəklində, azar-azar.",
+  "en": "drop by drop",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "damlatdırılmaq": {
+  "az": "Kiminsə vasitəsilə həbsə saldırılmaq.",
+  "en": "to be jailed at someone's instigation",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "damlatdırmaq": {
+  "az": "Kimisə başqasının əli ilə həbs etdirmək.",
+  "en": "to get someone imprisoned",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "damlatmaq": {
+  "az": "Kiminsə həbsə alınmasına səbəb olmaq.",
+  "en": "to have someone locked up",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "damotu": {
+  "az": "Budaqlı, tüklü, dərman kimi işlənən çoxillik bitki.",
+  "en": "a hairy, branching perennial medicinal herb",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "damsız": {
+  "az": "Üstündə damı olmayan.",
+  "en": "roofless",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "danaayağı": {
+  "az": "Nəm meşələrdə yetişən, iri yarpaqlı çoxillik bitki.",
+  "en": "a large-leaved perennial herb of damp forests",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "danaburnu": {
+  "az": "Nəmli yerlərdə yetişən bir ot.",
+  "en": "a herb growing in damp places",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dana-buzov": {
+  "az": "Gənc iribuynuzlu malın hamısı; danalar və buzovlar.",
+  "en": "calves, young cattle collectively",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "danaça": {
+  "az": "Balaca dana.",
+  "en": "a little calf",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "danadişi": {
+  "az": "Nəm torpaqda yaşayıb bitki kökləri ilə qidalanan iri başlı böcək.",
+  "en": "a large-headed soil insect feeding on plant roots",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dana-doluq": {
+  "az": "Kiçik yaşlı mal-qara, danalar.",
+  "en": "young cattle",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "danagavalı": {
+  "az": "Böyük, dəyirmi və qırmızı rəngli gavalı sortu.",
+  "en": "a large round red plum variety",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dana-kəlçə": {
+  "az": "Hələ bir yaşı tamam olmamış camış balası.",
+  "en": "a buffalo calf under one year old",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "danaqıran": {
+  "az": "Zanbağa bənzər yarpaqları olan bitki; novruzçiçəyi.",
+  "en": "a plant with lily-like leaves",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "danalobya": {
+  "az": "Dənələri iri olan lobya sortu.",
+  "en": "a large-seeded bean variety",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "danılmaq": {
+  "az": "İnkar edilmək, doğru sayılmamaq.",
+  "en": "to be denied",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "danışdırılmaq": {
+  "az": "Danışmağa vadar edilmək; sorğu-suala tutulmaq.",
+  "en": "to be made to talk, to be questioned",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "danışılmaq": {
+  "az": "Haqqında söhbət açılmaq, deyilmək.",
+  "en": "to be told or talked about",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "danqıldatmaq": {
+  "az": "Metal əşyanı vurub cingiltili səs çıxarmaq.",
+  "en": "to clang, to clatter",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "danlaqlı": {
+  "az": "Tez-tez danlanan, həmişə məzəmmət eşidən.",
+  "en": "often scolded, reproached",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "danlayıb-dansımaq": {
+  "az": "Kimisə şiddətlə danlayıb töhmətləndirmək.",
+  "en": "to scold severely",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "danüzü": {
+  "az": "Səhərin açıldığı vaxt, dan yeri sökülən çağ.",
+  "en": "dawn, daybreak",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "daraqağzı": {
+  "az": "Daraq dişlərindən düşən yun və s. tullantıları.",
+  "en": "combings, wool waste left in a comb",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "daraqcıq": {
+  "az": "Balaca daraq.",
+  "en": "a small comb",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "daraqçı": {
+  "az": "Daraq düzəldən sənətkar.",
+  "en": "comb-maker",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "daraq-daraq": {
+  "az": "Daraq dişləri kimi yanaşı sıralanmış halda.",
+  "en": "in comb-like rows",
+  "pos": "adverb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "daraqlanma": {
+  "az": "Daraqla daranma, daraqdan keçirilmə.",
+  "en": "combing, being combed",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "daraqlanmaq": {
+  "az": "Daraq vasitəsilə daranıb təmizlənmək.",
+  "en": "to be combed",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "daraqlı": {
+  "az": "Başında və ya bədənində darağa oxşar çıxıntısı olan.",
+  "en": "crested, having a comb",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "daraqlıq": {
+  "az": "Daraq düzəltmək üçün yararlı olan (material).",
+  "en": "suitable for making combs",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "daraqotu": {
+  "az": "Quraq, daşlı yamaclarda yetişən taxılkimilərdən ot.",
+  "en": "a grass of dry stony slopes",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "daraldıcı": {
+  "az": "Bir şeyi dar vəziyyətə gətirən, genişlənməyə imkan verməyən.",
+  "en": "narrowing, constricting",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "daraldılmaq": {
+  "az": "Ensizləşdirilmək, dar vəziyyətə gətirilmək.",
+  "en": "to be narrowed",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "daraltdırmaq": {
+  "az": "Başqasına tapşırıb bir şeyi dar etdirmək.",
+  "en": "to have something narrowed or taken in",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "daranıq": {
+  "az": "Daraqdan keçirilmiş, daranmış.",
+  "en": "combed",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "daranqı": {
+  "az": "Qovaq növündən olan hündür ağac; piramidal qovaq.",
+  "en": "pyramidal poplar",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "daraşdırmaq": {
+  "az": "Bir şeyin üstünə toplaşmağa vadar etmək.",
+  "en": "to make swarm onto something",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "daraşmaq": {
+  "az": "Bir şeyin üstünə toplu halda cumub yığışmaq.",
+  "en": "to swarm onto, to fall upon",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "darayı": {
+  "az": "Köhnə dildə: qırmızımtıl-bənövşəyi rəngdə incə ipək parça.",
+  "en": "a fine reddish-purple silk fabric",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "darayıcı": {
+  "az": "Yun və ya lif darayan işçi.",
+  "en": "comber, carder",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "darboğaz": {
+  "az": "Boğazı ensiz olan (qab).",
+  "en": "narrow-necked",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "darboğazlı": {
+  "az": "Ensiz boğazı olan (səhəng, bardaq və s.).",
+  "en": "narrow-necked",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "darcərgəli": {
+  "az": "Cərgələri bir-birinə yaxın olan (əkin).",
+  "en": "close-rowed (of sowing)",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "darçı": {
+  "az": "Köhnə dildə: məhkumu dar ağacından asan şəxs, cəllad.",
+  "en": "hangman",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "darçınlı": {
+  "az": "İçinə darçın qatılmış və ya darçınla hazırlanmış.",
+  "en": "flavoured with cinnamon",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dar-düdük": {
+  "az": "Həddindən artıq dar, əyninə çox kip gələn.",
+  "en": "very tight, skin-tight",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dargözlü": {
+  "az": "Başqasının uğuruna həsəd aparan, paxıl.",
+  "en": "envious, jealous",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "dargözlülük": {
+  "az": "Başqasının uğuruna həsəd aparma; paxıllıq.",
+  "en": "envy",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "darğınlıq": {
+  "az": "İnciyib küsmüş halda olma, pərtlik.",
+  "en": "resentment, being upset",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "darxətli": {
+  "az": "Rels xətləri arasındakı məsafə ensiz olan.",
+  "en": "narrow-gauge",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "darıxdırıcılıq": {
+  "az": "Bir şeyin cansıxıcı və yeknəsək olması.",
+  "en": "tediousness, dullness",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "darıxsınmaq": {
+  "az": "Bir az darıxmaq və ya darıxırmış kimi görünmək.",
+  "en": "to feel somewhat bored",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "darıquşu": {
+  "az": "Sərçəyə bənzər kiçik çöl quşu.",
+  "en": "corn bunting",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "darımaq": {
+  "az": "Cırmaqlayıb yırtmaq, didib dağıtmaq.",
+  "en": "to tear, to scratch apart",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "darıotu": {
+  "az": "Daşlı yamaclarda yetişən bir ot.",
+  "en": "a herb growing on stony slopes",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "darısqallaşdırılmaq": {
+  "az": "Ensiz və sıx vəziyyətə salınmaq.",
+  "en": "to be made cramped or tight",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "darısqallaşdırmaq": {
+  "az": "Bir yeri ensiz, sıxışıq hala gətirmək.",
+  "en": "to make cramped or tight",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "darısqallaşmaq": {
+  "az": "Getdikcə sıxışıq, ensiz olmaq.",
+  "en": "to become cramped",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "darqursaq": {
+  "az": "Səbri az olan, tez hövsələdən çıxan.",
+  "en": "impatient",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "darqursaqlı": {
+  "az": "Hövsələsi dar, səbirsiz.",
+  "en": "impatient, short-tempered",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "darqursaqlıq": {
+  "az": "Səbir və təhəmmül azlığı.",
+  "en": "impatience",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "darlaşdırılmaq": {
+  "az": "Eni azaldılıb daha ensiz edilmək.",
+  "en": "to be narrowed",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "darlaşdırmaq": {
+  "az": "Bir şeyin enini azaldıb onu ensizləşdirmək.",
+  "en": "to narrow, to make narrower",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "darlaşmaq": {
+  "az": "Eni azalıb getdikcə ensizləşmək.",
+  "en": "to narrow, to become narrower",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "darmacal": {
+  "az": "Tələsik, vaxt darlığında.",
+  "en": "hastily, in a hurry",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "darmadağın": {
+  "az": "Tamamilə dağılmış, alt-üst olmuş.",
+  "en": "utterly smashed, in total disarray",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dartay": {
+  "az": "Keçmişdə quyudan neft çıxarmaqda işlədilən uzun vedrə.",
+  "en": "a long bucket formerly used to bail oil from wells",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dartayçı": {
+  "az": "Quyudan uzun vedrə ilə neft çəkən işçi.",
+  "en": "a worker who bailed oil from wells with a bucket",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dartayçılıq": {
+  "az": "Quyudan vedrə ilə neft çıxaran fəhlənin peşəsi.",
+  "en": "the trade of bailing oil from wells",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dartaylama": {
+  "az": "Quyudan uzun vedrə ilə neft çıxarma işi.",
+  "en": "bailing oil from a well by bucket",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dartaylamaq": {
+  "az": "Uzun vedrə ilə quyudan neft çəkib çıxarmaq.",
+  "en": "to bail oil from a well with a bucket",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dartdırmaq": {
+  "az": "Başqasına bir şeyi çəkdirmək, dartmağa məcbur etmək.",
+  "en": "to have something pulled or towed",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dartı": {
+  "az": "Bir şeyi çəkib aparma, dartma.",
+  "en": "pulling, traction",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dartıcı": {
+  "az": "Maşın və mexanizmlərdə çəkmə işini görən hissə.",
+  "en": "the pulling part of a mechanism, a puller",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dartılmaq": {
+  "az": "Tutulub çəkilmək, gərilmək.",
+  "en": "to be pulled, to be stretched taut",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dartım": {
+  "az": "Bir şeyin nə qədər gərildiyini göstərən ölçü.",
+  "en": "degree of tension",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dartınmaq": {
+  "az": "Özünü geri çəkib əldən qurtulmağa çalışmaq.",
+  "en": "to pull back, to struggle to break loose",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dartışmaq": {
+  "az": "Bir-birini tutub o tərəf-bu tərəfə çəkmək, əlbəyaxa olmaq.",
+  "en": "to tug at each other, to scuffle",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "darürəkli": {
+  "az": "Ancaq öz xeyrini düşünən, xırdaçı və paxıl.",
+  "en": "small-minded, petty",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "darürəklilik": {
+  "az": "Ancaq öz xeyrini güdmə, xırdaçılıq və paxıllıq.",
+  "en": "pettiness, small-mindedness",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "darvazaçı": {
+  "az": "Böyük qapını qoruyub açan-bağlayan işçi.",
+  "en": "gatekeeper",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "darvazalı": {
+  "az": "Böyük giriş qapısı olan.",
+  "en": "having a gate",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "darvinçi": {
+  "az": "Darvinin təkamül nəzəriyyəsini qəbul edən şəxs.",
+  "en": "a Darwinist",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dastançı": {
+  "az": "Dastan və nağıl danışan şəxs.",
+  "en": "a teller of epic tales, storyteller",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dastançılıq": {
+  "az": "Dastan danışma sənəti.",
+  "en": "the art of epic storytelling",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "daşadöyən": {
+  "az": "Sərçəkimilərdən uzun quyruqlu balaca quş; çaydaçapan.",
+  "en": "wagtail",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "daşadöymə": {
+  "az": "Uşaqların daşlarla oynadığı oyun.",
+  "en": "a children's game played with stones",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "daşarmudu": {
+  "az": "Girdə, uzun müddət saxlanılan bərk armud sortu.",
+  "en": "a hard, round, long-keeping pear",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "daşatan": {
+  "az": "Qədim döyüşlərdə ağır daşlar tullamaq üçün işlənən alət.",
+  "en": "a catapult, a stone-throwing engine",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "daşbadam": {
+  "az": "Qabığı bərk olan badam sortu.",
+  "en": "a hard-shelled almond",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "daşçıxaran": {
+  "az": "Karxanada daş çıxaran fəhlə.",
+  "en": "quarryman",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "daşçıxarma": {
+  "az": "Bədəndən daşın cərrahi yolla çıxarılması.",
+  "en": "lithotomy, surgical removal of a stone",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "daşçılıq": {
+  "az": "Daşla işləyən ustanın peşəsi.",
+  "en": "stonemasonry, the stoneworker's trade",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "daşdələn": {
+  "az": "Daşda deşik açmaq üçün alət.",
+  "en": "a stone drill",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "daşdırmaq": {
+  "az": "Mayenin qabdan aşıb tökülməsinə səbəb olmaq.",
+  "en": "to let overflow, to make boil over",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "daş-divar": {
+  "az": "Bütün bina və tikililər, onların hasarı və divarı.",
+  "en": "buildings and their walls",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "daşdoğrayan": {
+  "az": "Daşı xırda parçalara bölən maşın.",
+  "en": "stone crusher",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "daşdöşəyən": {
+  "az": "Yol və küçələrə daş düzən fəhlə.",
+  "en": "paver",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "daşdöyən": {
+  "az": "Daşı əzib xırdalayan maşın.",
+  "en": "stone-crushing machine",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "daşəppəyi": {
+  "az": "Daş aralarında yetişən bozumtul ot.",
+  "en": "a greyish herb growing among stones",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "daşıq": {
+  "az": "Bir yerdən başqa yerə aparılmalı olan.",
+  "en": "to be carried, requiring transport",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "daşıqçı": {
+  "az": "Yük daşıyan işçi; hambal.",
+  "en": "porter, carrier",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "daşıqçılıq": {
+  "az": "Yük daşıma peşəsi, hamballıq.",
+  "en": "the porter's trade",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "daşıntı": {
+  "az": "Nəqliyyatla bir yerdən başqa yerə aparılan yük.",
+  "en": "goods in transit, freight",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "daşıtdırmaq": {
+  "az": "Daşıma işini başqasına gördürmək.",
+  "en": "to have something carried",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "daş-kəsək": {
+  "az": "Daşlar və bərk torpaq topaları.",
+  "en": "stones and clods",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "daş-kəsəkli": {
+  "az": "Daş və torpaq topaları ilə dolu olan.",
+  "en": "stony and cloddy",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "daş-kəsəklik": {
+  "az": "Daşlı, kəsəkli bərk yer.",
+  "en": "stony, cloddy ground",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "daşkəsən": {
+  "az": "Tikinti daşlarını lazımi ölçüdə kəsən usta və ya maşın.",
+  "en": "stone-cutter",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "daş-qaşlı": {
+  "az": "Qiymətli daşlarla bəzənmiş.",
+  "en": "jewelled, set with gems",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "daşqəlbli": {
+  "az": "Ürəyi daş kimi bərk, rəhmi olmayan.",
+  "en": "stony-hearted, heartless",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "daşqəlblilik": {
+  "az": "Rəhm və mərhəmət hissinin olmaması, sərtlik.",
+  "en": "stony-heartedness",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "daşqınlıq": {
+  "az": "Çayın daşıb məcrasından çıxması halı.",
+  "en": "flood, high water",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "daşqıran": {
+  "az": "Daşı ovub xırda parçalara ayıran maşın.",
+  "en": "stone crusher",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "daşqovunu": {
+  "az": "Dəyirmi və ya yastı formalı yemiş sortu.",
+  "en": "a round or flattish melon variety",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "daşlandırmaq": {
+  "az": "Mayenin qabdan aşıb axmasına səbəb olmaq.",
+  "en": "to make overflow",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "daşlatmaq": {
+  "az": "Bir yerin üstünü daşla örtdürmək.",
+  "en": "to have something paved or covered with stones",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "daşlı-kəsəkli": {
+  "az": "Daşı və torpaq topaları çox olan.",
+  "en": "stony and cloddy",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "daşlı-qayalı": {
+  "az": "Daş və qaya ilə dolu olan.",
+  "en": "stony and rocky",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "daşmişarlayan": {
+  "az": "Daşı mişarla kəsib lazımi ölçüyə gətirən işçi.",
+  "en": "a stone sawyer",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "daşnak": {
+  "az": "Erməni millətçi Daşnaksütyun partiyasının üzvü.",
+  "en": "a member of the Armenian Dashnak party",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "daşoynadan": {
+  "az": "Ağır daşlarla gimnastika hərəkətləri edən atlet.",
+  "en": "a strongman who performs feats with stones",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "daşsız": {
+  "az": "İçində daş olmayan.",
+  "en": "stoneless",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "daş-tərəzi": {
+  "az": "Tərəzi və onun çəki daşları.",
+  "en": "scales and weights",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "daştülək": {
+  "az": "Təbiətdə böyümüş, əhilləşdirilməsi çətin olan qırğı.",
+  "en": "a wild-caught hawk that is hard to tame",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "daşyonma": {
+  "az": "Daşı yonub hamarlama işi.",
+  "en": "stone dressing, masonry",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "davacıl": {
+  "az": "Tez-tez dava salan, savaşqan.",
+  "en": "quarrelsome, pugnacious",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "low"
+ },
+ "davaçı": {
+  "az": "Dərman hazırlayıb satan şəxs.",
+  "en": "a maker and seller of medicines",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "dava-dalaşsız": {
+  "az": "Mübahisə və qalmaqal olmadan keçən, sakit.",
+  "en": "peaceful, free of quarrels",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dava-dava": {
+  "az": "Uşaqların döyüşmə oyunu.",
+  "en": "a children's play-fighting game",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dava-dərman": {
+  "az": "Müalicə üçün işlədilən dərmanlar.",
+  "en": "medicines, remedies",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dava-dərmansız": {
+  "az": "Heç bir dərman işlətmədən.",
+  "en": "without any medicine",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "davakarcasına": {
+  "az": "Dava-dalaşa hazır halda, savaşqan tərzdə.",
+  "en": "pugnaciously",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "davakarlıq": {
+  "az": "Dava salmağa meyilli xasiyyət.",
+  "en": "pugnacity, quarrelsomeness",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "davalamaq": {
+  "az": "Bir şeyə dərman vurmaq və ya səpmək.",
+  "en": "to treat with medicine or pesticide",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "davalanmaq": {
+  "az": "Üzərinə dərman səpilmək və ya vurulmaq.",
+  "en": "to be treated with medicine or pesticide",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "davalatmaq": {
+  "az": "Başqasına dərman vurdurmaq.",
+  "en": "to have something treated with medicine",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "davalıq": {
+  "az": "Bir məsələnin mübahisəli, qalmaqallı olması.",
+  "en": "contentiousness",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "davalı-şavalı": {
+  "az": "Mübahisəli, qalmaqallı.",
+  "en": "contentious, disputed",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "davametmə": {
+  "az": "Bir şeyin sürdüyü vaxt.",
+  "en": "duration",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dava-mərəkə": {
+  "az": "Səs-küylü dava, qalmaqal.",
+  "en": "brawl, row",
+  "pos": "noun",
+  "src": "both",
+  "conf": "low"
+ },
+ "dava-mərəkəli": {
+  "az": "Qalmaqal və dava ilə dolu.",
+  "en": "full of rows, quarrelsome",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "davamiyyət": {
+  "az": "Dərslərə və ya məşğələlərə müntəzəm gəlmə.",
+  "en": "attendance",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "davarçılıq": {
+  "az": "Qoyun-keçi yetişdirmə sahəsi.",
+  "en": "sheep and goat breeding",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "davarlı": {
+  "az": "Qoyun-keçisi olan.",
+  "en": "owning sheep and goats",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "davasız": {
+  "az": "Müalicəsi, çarəsi tapılmayan.",
+  "en": "incurable, without remedy",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "davasızlıq": {
+  "az": "Çarə və müalicənin olmaması.",
+  "en": "lack of remedy",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dava-şavalı": {
+  "az": "Üstündə mübahisə gedən, həll olunmamış.",
+  "en": "disputed, contentious",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dava-şavasız": {
+  "az": "Mübahisəsiz, sülh içində.",
+  "en": "peacefully, in harmony",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "davranışlı": {
+  "az": "Xoş rəftarı olan, nəzakətli.",
+  "en": "well-mannered, courteous",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "davranışsız": {
+  "az": "Ədəbsiz, kobud rəftarlı.",
+  "en": "rude, impudent",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "davulçu": {
+  "az": "Davul çalan musiqiçi.",
+  "en": "drummer",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "davulçuluq": {
+  "az": "Davul çalmaq peşəsi.",
+  "en": "the profession of a drummer",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dayaqlamaq": {
+  "az": "Bir şeyin altına söykək qoyub saxlamaq.",
+  "en": "to prop up",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dayaqlanmaq": {
+  "az": "Altına söykək qoyulmaq.",
+  "en": "to be propped up",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dayaqlı": {
+  "az": "Altında söykəyi olan.",
+  "en": "propped, supported",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dayaqlıq": {
+  "az": "Söykək kimi işlətməyə yararlı olan.",
+  "en": "fit for use as a prop",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dayaqsız": {
+  "az": "Söykəyi, dayanacağı olmayan.",
+  "en": "unsupported",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dayaqsızlıq": {
+  "az": "Arxasız, köməksiz qalma halı.",
+  "en": "lack of support",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dayandırıcı": {
+  "az": "Bir prosesi durduran, irəliləməyə mane olan.",
+  "en": "halting, inhibiting",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dayanıq": {
+  "az": "Bir şeyin nə qədər möhkəm və uzunömürlü olması.",
+  "en": "durability, endurance",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dayanıqlaşdırılmaq": {
+  "az": "Sabit, möhkəm hala gətirilmək.",
+  "en": "to be stabilized",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dayanıqlaşdırmaq": {
+  "az": "Bir şeyi möhkəm və davamlı hala gətirmək.",
+  "en": "to make durable, to stabilize",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dayanıqsızlıq": {
+  "az": "Mətanət və dözüm çatışmazlığı.",
+  "en": "lack of endurance or resolve",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dayanış": {
+  "az": "Bir yerdə durmağın, dayanmağın üsulu.",
+  "en": "manner of standing, stance",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dayanmazlıq": {
+  "az": "Fasiləsiz davam etmə halı.",
+  "en": "ceaselessness",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dayazbilikli": {
+  "az": "Bilikləri səthi olan.",
+  "en": "having superficial knowledge",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dayazdüşüncəli": {
+  "az": "Dərin düşünə bilməyən, fikri məhdud.",
+  "en": "narrow-minded, shallow",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dayazfikirli": {
+  "az": "Məsələnin mahiyyətinə varmayan, səthi düşünən.",
+  "en": "shallow-minded",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dayazfikirlilik": {
+  "az": "Səthi düşünmə, fikir dayazlığı.",
+  "en": "shallow-mindedness",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dayazlamaq": {
+  "az": "Dərinliyini itirib dayaz olmaq.",
+  "en": "to become shallow",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dayazlandırılmaq": {
+  "az": "Dərinliyi azaldılmaq.",
+  "en": "to be made shallow",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dayazlandırmaq": {
+  "az": "Bir şeyin dərinliyini azaltmaq.",
+  "en": "to make shallow",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dayazlanmaq": {
+  "az": "Dərinliyi azalıb dayaz hala gəlmək.",
+  "en": "to become shallow",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dayazlaşmaq": {
+  "az": "Tədricən dərinliyini itirmək.",
+  "en": "to grow shallow",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dayazlatmaq": {
+  "az": "Bir şeyin dayaz hala düşməsinə səbəb olmaq.",
+  "en": "to cause to become shallow",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dayçalı": {
+  "az": "Yanında körpə balası, dayçası olan (madyan).",
+  "en": "with a foal at foot",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dayəlik": {
+  "az": "Uşağa baxan dayənin işi.",
+  "en": "the job of a nanny or wet nurse",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dayıdostu": {
+  "az": "Dayının həyat yoldaşına hörmətlə edilən müraciət.",
+  "en": "a respectful term of address for one's maternal uncle's wife",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dayılı": {
+  "az": "Anasının qardaşı olan.",
+  "en": "having a maternal uncle",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dayılıq": {
+  "az": "Ananın ögey qardaşı; ögey dayı.",
+  "en": "step-uncle on the mother's side",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "low"
+ }
+}

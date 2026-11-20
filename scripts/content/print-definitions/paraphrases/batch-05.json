@@ -1,0 +1,1933 @@
+{
+ "bəyimbacı": {
+  "az": "Qonşu və ya tanış qadına hörmətlə müraciət forması.",
+  "en": "a respectful form of address for a neighbour or other woman",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bəyimçörəyi": {
+  "az": "Buğda unu, yumurta, yağ və süddən hazırlanan qoğal növü.",
+  "en": "a bun made of wheat flour with eggs, butter and milk",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bəyirişmək": {
+  "az": "Bir-birinə qoşularaq birlikdə mələmək.",
+  "en": "to bleat together",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bəyirti": {
+  "az": "Keçi, qoyun kimi heyvanların mələyərkən çıxardığı səs.",
+  "en": "a bleat",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "bəyirtmək": {
+  "az": "Heyvanı mələməyə, bağırmağa vadar etmək.",
+  "en": "to make an animal bleat",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "bəylik": {
+  "az": "Bəy olma vəziyyəti; ağalıq və zadəganlıq.",
+  "en": "the status of a bey; lordship or nobility",
+  "pos": "noun",
+  "src": "both",
+  "conf": "low"
+ },
+ "bəyzadə": {
+  "az": "Bəy ailəsindən gələn, bəyin oğlu olan şəxs.",
+  "en": "a bey's son; a person of noble birth",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "bəyzadəlik": {
+  "az": "Bəy soyundan olma, zadəgan mənşəli olma.",
+  "en": "noble birth or lineage",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "bəzədilmək": {
+  "az": "Bəzəklə süslənmək, gözəl görkəm verilmək.",
+  "en": "to be adorned or decorated",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bəzəkçi": {
+  "az": "Bəzək işləri ilə məşğul olan usta.",
+  "en": "decorator",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "bəzəkçilik": {
+  "az": "Bəzək vurma işi və bu işin peşəsi.",
+  "en": "the trade of a decorator",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "bəzək-düzək": {
+  "az": "Lazımsız, artıq bəzəklər və süs əşyaları.",
+  "en": "frills and finery; excessive decoration",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bəzək-düzəkli": {
+  "az": "Çoxlu bəzəyi olan, bəzədilmiş.",
+  "en": "decorated or adorned",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bəzəklənmək": {
+  "az": "Özünü süsləmək, özünə bəzək taxmaq.",
+  "en": "to adorn oneself",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "bəzəksizlik": {
+  "az": "Heç bir bəzəyi olmama, sadəlik.",
+  "en": "plainness; lack of decoration",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bəzəndirilmək": {
+  "az": "Başqası tərəfindən geyindirilib bəzənmək.",
+  "en": "to be adorned or dressed up",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bəzənib-düzənmək": {
+  "az": "Gözəl geyinib özünə bəzək vurmaq.",
+  "en": "to dress up and adorn oneself",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "bəzəniş": {
+  "az": "Özünü bəzəmə, süslənmə prosesi.",
+  "en": "adorning oneself; dressing up",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bəzətdirmək": {
+  "az": "Bəzək işini başqasına gördürmək.",
+  "en": "to have something decorated or adorned",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "bəzzaz": {
+  "az": "Parça və arşın malı ilə alver edən tacir.",
+  "en": "cloth merchant; draper",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bəzzazlıq": {
+  "az": "Parça satmaqla dolanma peşəsi.",
+  "en": "the cloth trade; drapery",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bıçaqçılıq": {
+  "az": "Bıçaq düzəltmə peşəsi.",
+  "en": "knife-making; the cutler's trade",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bıçaqitiləyən": {
+  "az": "Bıçaqları itiləməklə məşğul olan adam.",
+  "en": "knife-grinder",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bıçaqqayıran": {
+  "az": "Bıçaq düzəldən usta.",
+  "en": "knife-maker; cutler",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bıçaqlanmaq": {
+  "az": "Bıçaq zərbəsi ilə yaralanmaq.",
+  "en": "to be knifed or stabbed",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "bıçaqlatmaq": {
+  "az": "Birini başqasına bıçaqla vurdurmaq.",
+  "en": "to have someone knifed",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bıçaqlı": {
+  "az": "Üzərində bıçaq və ya kəsici tiyə olan.",
+  "en": "having a knife or blade",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bıçqıbalığı": {
+  "az": "Mişarbalığı adlanan dəniz balığı.",
+  "en": "sawfish",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bıçqıçı": {
+  "az": "Mişarla ağac kəsən işçi.",
+  "en": "sawyer",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "bıçqıçılıq": {
+  "az": "Mişarla ağac kəsmə peşəsi.",
+  "en": "the work of a sawyer",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bıçqılanmaq": {
+  "az": "Mişar vasitəsilə kəsilmək.",
+  "en": "to be sawn",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "bıçqılatmaq": {
+  "az": "Bir şeyi başqasına mişarla kəsdirmək.",
+  "en": "to have something sawn",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bığcıq": {
+  "az": "Həşəratların başında yerləşən, tükə bənzər hiss orqanı.",
+  "en": "antenna (of an insect)",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "bığıburma": {
+  "az": "Yetkin yaşa çatmış, iri cüssəli (gənc).",
+  "en": "grown-up and strapping (of a young man)",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "bığıqırxıq": {
+  "az": "Bığını qırxmış, bığsız qalmış.",
+  "en": "with the moustache shaved off",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bığlanmaq": {
+  "az": "Üzündə bığ tükləri görünməyə başlamaq.",
+  "en": "to grow a moustache",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "bığlıca": {
+  "az": "Taxılkimilərdən olan birillik ot.",
+  "en": "an annual grass of the cereal family",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bığlı-saqqallı": {
+  "az": "Saqqal və bığ saxlayan; yaşa dolmuş.",
+  "en": "bearded and moustached; grown-up",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "bığsız": {
+  "az": "Bığ saxlamayan, üzündə bığı olmayan.",
+  "en": "without a moustache",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "bılina": {
+  "az": "Rus şifahi xalq yaradıcılığına aid epik dastan.",
+  "en": "bylina, a Russian folk epic",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bıtraq": {
+  "az": "Sıx halda bitən alaq otu.",
+  "en": "a weed that grows densely",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bıtraqlıq": {
+  "az": "Bıtraq otu ilə örtülmüş sahə.",
+  "en": "a patch overgrown with bitraq weed",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bibərli": {
+  "az": "Bibərlə ədviyyatlanmış, tərkibində bibər olan.",
+  "en": "peppered; containing pepper",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "bibigəlini": {
+  "az": "Bibinin oğlunun həyat yoldaşı.",
+  "en": "the wife of one's paternal aunt's son",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bic-bic": {
+  "az": "Hiyləgərcəsinə, kələkbaz bir tərzdə.",
+  "en": "slyly or cunningly",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bicləşmək": {
+  "az": "Zaman keçdikcə daha hiyləgər və kələkbaz olmaq.",
+  "en": "to become sly or cunning",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "biçarəlik": {
+  "az": "Əlacsız qalma, kimsəsiz və aciz vəziyyət.",
+  "en": "helplessness; a hopeless plight",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "biçdirtmək": {
+  "az": "Otu, taxılı və ya paltarı başqasına biçməyi tapşırmaq.",
+  "en": "to have something mown, reaped or cut out",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "biçənəcək": {
+  "az": "Otu biçilən çəmənlik sahəsi.",
+  "en": "a hayfield or mowing meadow",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "biçici": {
+  "az": "Paltar üçün parça biçən dərzi ustası.",
+  "en": "cutter (in tailoring)",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "biçimsizləşdirilmək": {
+  "az": "Görkəmi pozularaq eybəcər vəziyyətə gətirilmək.",
+  "en": "to be made shapeless or ugly",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "biçinçilik": {
+  "az": "Taxıl və ya ot biçmə işi, biçinçi peşəsi.",
+  "en": "the work of a reaper",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bidad": {
+  "az": "Haqsızlıq və zorakılıq, insana verilən iztirab.",
+  "en": "oppression or tyranny",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bidərd": {
+  "az": "Heç bir qayğısı, kədəri olmayan.",
+  "en": "carefree; untroubled",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bidət": {
+  "az": "Dinə və ya köklü adət-ənənəyə zidd olan yenilik.",
+  "en": "an innovation contrary to religion or custom; heresy",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bidin": {
+  "az": "Heç bir dinə inanmayan.",
+  "en": "irreligious; godless",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bidinlik": {
+  "az": "Dinə etiqad etməmə halı.",
+  "en": "irreligion; godlessness",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "biəməl": {
+  "az": "Sözü ilə işi uyğun gəlməyən, vədini yerinə yetirməyən.",
+  "en": "one whose deeds do not match their words",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "bifərasət": {
+  "az": "Zirəkliyi, bacarığı olmayan; fərsiz.",
+  "en": "lacking sense or ability; inept",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "biganələnmək": {
+  "az": "Laqeyd və ya özgə münasibət bəsləməyə başlamaq.",
+  "en": "to become indifferent or estranged",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "biganələşmək": {
+  "az": "Bir şeyə qarşı laqeyd hala gəlmək.",
+  "en": "to become indifferent",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bigüman": {
+  "az": "Heç bir şübhə olmadan, şəksiz olaraq.",
+  "en": "undoubtedly; certainly",
+  "pos": "adverb",
+  "src": "both",
+  "conf": "high"
+ },
+ "bihallıq": {
+  "az": "Gücsüzlük, halsız və yorğun olma vəziyyəti.",
+  "en": "weakness or exhaustion",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "bihörmət": {
+  "az": "Başqalarına hörmət göstərməyən; sayğısız.",
+  "en": "disrespectful",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "bihörmətlik": {
+  "az": "Hörmət göstərməmə, sayğısızlıq.",
+  "en": "disrespect",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "bihuşedici": {
+  "az": "Adamı məst edib huşunu başından alan.",
+  "en": "intoxicating; stupefying",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "biixtiyarlıq": {
+  "az": "İradədən asılı olmadan baş vermə, ixtiyarsız olma.",
+  "en": "involuntariness",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bikar-bikar": {
+  "az": "Heç bir iş görmədən, boş-boş.",
+  "en": "idly",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bikef-bikef": {
+  "az": "Əhvalı pozuq halda, könülsüz.",
+  "en": "listlessly; in low spirits",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bikefləmək": {
+  "az": "Kefi pozulmaq, qəmgin və pərişan olmaq.",
+  "en": "to become upset or downcast",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "bikəs": {
+  "az": "Heç bir yaxını, qohum-əqrəbası olmayan.",
+  "en": "friendless; without kin",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "biqeyrətləşmək": {
+  "az": "Qeyrətini və namus hissini itirmək.",
+  "en": "to lose one's sense of honour",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "biqərar": {
+  "az": "Rahatlığı olmayan, səbirsiz və narahat.",
+  "en": "restless; impatient",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "biqudi": {
+  "az": "Saçı buruq etmək üçün sarınan kiçik borucuq.",
+  "en": "hair curler",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bildaparat": {
+  "az": "Təsviri və mətni teleqraf xətti ilə uzağa ötürən cihaz.",
+  "en": "a phototelegraph apparatus for transmitting images",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bildirçinbaz": {
+  "az": "Həvəs üçün bildirçin bəsləyən şəxs.",
+  "en": "a quail fancier",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "biletçi": {
+  "az": "Nəqliyyatda bilet satan və ya yoxlayan işçi.",
+  "en": "conductor; ticket collector",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "biletsatan": {
+  "az": "Kassada tamaşa və seans biletləri satan işçi.",
+  "en": "ticket seller",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "biletsiz": {
+  "az": "Əlində bilet olmayan, bilet almamış.",
+  "en": "without a ticket",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "bilən": {
+  "az": "Anlayışlı, məlumatlı, işdən baş çıxaran.",
+  "en": "knowledgeable; understanding",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "bilərəkdən": {
+  "az": "Qəsdən, şüurlu surətdə.",
+  "en": "knowingly; deliberately",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bilərzikli": {
+  "az": "Qolunda qolbaq olan.",
+  "en": "wearing a bracelet",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "bilicilik": {
+  "az": "Bir işi yaxşı bilmə, mahirlik və məlumatlılıq.",
+  "en": "expertise; knowledgeability",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "biliklilik": {
+  "az": "Geniş biliyə malik olma.",
+  "en": "the quality of being knowledgeable",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "bilinməzlik": {
+  "az": "Naməlum olma, aydın olmama vəziyyəti.",
+  "en": "obscurity; uncertainty",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "billah": {
+  "az": "Allahın adı ilə and içərkən deyilən söz.",
+  "en": "by God! (an oath)",
+  "pos": "interjection",
+  "src": "both",
+  "conf": "high"
+ },
+ "billion": {
+  "az": "Bəzi hesab sistemlərində milyarda, digərlərində trilyona bərabər ədəd.",
+  "en": "billion",
+  "pos": "numeral",
+  "src": "both",
+  "conf": "high"
+ },
+ "bilməyərəkdən": {
+  "az": "Xəbəri olmadan, qəsdsiz.",
+  "en": "unknowingly; unintentionally",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bilməzlik": {
+  "az": "Məlumatsızlıq, bir şeydən xəbərsiz olma.",
+  "en": "ignorance; lack of knowledge",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bilvasitə": {
+  "az": "Birbaşa deyil, başqa bir vasitə ilə.",
+  "en": "indirectly",
+  "pos": "adverb",
+  "src": "both",
+  "conf": "high"
+ },
+ "bilyardçı": {
+  "az": "Bilyard oyununu xoşlayan və ya ustalıqla oynayan şəxs.",
+  "en": "billiards player",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bilyardxana": {
+  "az": "Bilyard oyunu üçün ayrılmış otaq və ya salon.",
+  "en": "billiard room",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "bimar": {
+  "az": "Səhhəti pozulmuş, naxoş olan.",
+  "en": "sick; ill",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "bimarlıq": {
+  "az": "Səhhətin pozulması, naxoş olma halı.",
+  "en": "illness; sickness",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "biməkan": {
+  "az": "Daimi yeri, ev-eşiyi olmayan.",
+  "en": "homeless; without an abode",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bimürvət": {
+  "az": "Mərhəməti, insafı olmayan.",
+  "en": "merciless; unscrupulous",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "bimürvətlik": {
+  "az": "İnsafsız və rəhmsiz davranış.",
+  "en": "mercilessness; unfairness",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "binadan": {
+  "az": "Lap başlanğıcdan, ilk vaxtdan.",
+  "en": "from the very beginning",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "binamusluq": {
+  "az": "Namus və ləyaqətdən məhrum olma.",
+  "en": "dishonour; dishonesty",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "binar": {
+  "az": "İki hissədən ibarət olan, ikili.",
+  "en": "binary; dual",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "binələnmək": {
+  "az": "Bir yerdə yerləşib daimi məskunlaşmaq.",
+  "en": "to settle down somewhere; to take root",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "binəli": {
+  "az": "Uzun müddətdən bəri bir yerdə yaşayan, yerli.",
+  "en": "long-settled; permanent",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bintlənmək": {
+  "az": "Sarğı ilə sarılmaq.",
+  "en": "to be bandaged",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "bintlətmək": {
+  "az": "Yaranı başqasına sarğı ilə sardırmaq.",
+  "en": "to have something bandaged",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bintli": {
+  "az": "Sarğı ilə bağlanmış.",
+  "en": "bandaged",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "biocərəyan": {
+  "az": "Canlı orqanizmin toxumalarında yaranan elektrik cərəyanı.",
+  "en": "bioelectric current",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "biofizik": {
+  "az": "Biofizika sahəsində çalışan alim.",
+  "en": "biophysicist",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "biofiziki": {
+  "az": "Biofizikaya aid olan.",
+  "en": "biophysical",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "biokimyaçı": {
+  "az": "Biokimya üzrə mütəxəssis.",
+  "en": "biochemist",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bioqraf": {
+  "az": "Kiminsə həyat yolunu qələmə alan müəllif.",
+  "en": "biographer",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "birailəli": {
+  "az": "Doğma ailə üzvləri qədər yaxın olan.",
+  "en": "as close as one family",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "birailəlik": {
+  "az": "Bir ailə kimi səmimi yaxınlıq.",
+  "en": "family-like closeness",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "birarvadlılıq": {
+  "az": "Kişinin yalnız bir arvadla evli olması.",
+  "en": "monogamy",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "biratımlıq": {
+  "az": "Bir dəfə atəş açmağa və ya bir dəfəlik işə yetən.",
+  "en": "enough for a single shot or use",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "biratlı": {
+  "az": "Yalnız bir at qoşulmuş (araba və s.).",
+  "en": "one-horse",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "biratomlu": {
+  "az": "Molekulu tək atomdan ibarət olan.",
+  "en": "monatomic",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "biravarlı": {
+  "az": "Tək avarla idarə olunan.",
+  "en": "one-oared",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "biraylıq": {
+  "az": "Bir ay çəkən və ya bir aylıq müddətə hesablanmış.",
+  "en": "month-long; lasting a month",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "birbarmaqlı": {
+  "az": "Əlində yalnız bir barmağı olan.",
+  "en": "having only one finger",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "birbaşlı": {
+  "az": "Tək başı olan.",
+  "en": "one-headed",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "birbuğumlu": {
+  "az": "Yalnız bir buğumdan ibarət olan.",
+  "en": "single-jointed; having one node",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "birbuynuzlu": {
+  "az": "Tək buynuzu olan.",
+  "en": "one-horned",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "bircərgəli": {
+  "az": "Tək sıra şəklində düzülmüş və ya əkilmiş.",
+  "en": "single-row",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "bircərgəlilik": {
+  "az": "Tək sıradan ibarət olma xüsusiyyəti.",
+  "en": "the quality of being single-row",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bircildli": {
+  "az": "Tək cilddə nəşr olunmuş.",
+  "en": "one-volume",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "bircildlik": {
+  "az": "Tək cilddən ibarət nəşr.",
+  "en": "one-volume edition",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "bircins": {
+  "az": "Eyni növə, eyni cinsə aid olan.",
+  "en": "homogeneous; of the same kind",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bircür": {
+  "az": "Eyni cür olan, bir-birindən fərqlənməyən.",
+  "en": "identical; of the same kind",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "birçalovlu": {
+  "az": "Yalnız bir çalovu olan (ekskavator və s.).",
+  "en": "single-bucket",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "birçəkləmək": {
+  "az": "Dava zamanı birinin saçından tutmaq.",
+  "en": "to grab someone by the hair in a fight",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "birçəklənmək": {
+  "skip": "only a cross-reference to obscure 'saclanmaq'; sense unclear"
+ },
+ "birçəkləşmək": {
+  "az": "Dalaşarkən bir-birinin saçından tutub çəkmək.",
+  "en": "to pull each other's hair in a fight",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "birçəklik": {
+  "az": "Saça taxılan bəzək əşyası.",
+  "en": "hair ornament; hairpin",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "birçəksiz": {
+  "az": "Qabaq saçı, kəkili olmayan.",
+  "en": "without a fringe of hair",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "birdəstəkli": {
+  "az": "Tək qulpu, tutacağı olan.",
+  "en": "single-handled",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "birdibli": {
+  "az": "Birdəfəlik, tamamilə və qəti şəkildə.",
+  "en": "once and for all; for good",
+  "pos": "adverb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "birdilli": {
+  "az": "Yalnız bir dildə olan.",
+  "en": "monolingual",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "birdirsəkli": {
+  "az": "Tək dirsəyə, bir əyilmə yerinə malik olan.",
+  "en": "having a single elbow or bend",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "birdorlu": {
+  "az": "Tək dor ağacı olan (gəmi).",
+  "en": "single-masted",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "birdüymə": {
+  "az": "Bir düym ölçüsündə olan.",
+  "en": "one-inch",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "birevcikli": {
+  "az": "Erkək və dişi çiçəkləri eyni bitki üzərində olan.",
+  "en": "monoecious",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "birevli": {
+  "az": "Bir evin adamları kimi yaxın və mehriban.",
+  "en": "as close as members of one household",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "birevlilik": {
+  "az": "Bir ailə üzvləri kimi səmimi münasibət.",
+  "en": "household-like intimacy",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "birə-beş": {
+  "az": "Beş dəfə çox, beşqat.",
+  "en": "fivefold",
+  "pos": "adverb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "birə-bir": {
+  "az": "Hər vahidə bir vahid düşməklə, tam bərabər.",
+  "en": "one to one",
+  "pos": "adverb",
+  "src": "both",
+  "conf": "high"
+ },
+ "birəbitdən": {
+  "az": "Sərçədən balaca, torpaq rəngində olan quş.",
+  "en": "brambling (a small finch)",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "birəçiçəyi": {
+  "az": "Qurudulmuş çiçəklərindən həşərat əleyhinə toz hazırlanan birillik bitki.",
+  "en": "pyrethrum, an insect-powder plant",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "birədədli": {
+  "az": "Tək ədəddən ibarət.",
+  "en": "consisting of a single number",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "birə-iki": {
+  "az": "İki qat artıq, ikiqat.",
+  "en": "twofold; double",
+  "pos": "adverb",
+  "src": "both",
+  "conf": "high"
+ },
+ "birələmək": {
+  "az": "Bir yeri və ya bir şeyi birə ilə bulaşdırmaq.",
+  "en": "to infest with fleas",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "birələnmək": {
+  "az": "Üstünə, paltarına birə düşmək.",
+  "en": "to become infested with fleas",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "birələtmək": {
+  "skip": "causative of ambiguous 'to flea'; sense unclear"
+ },
+ "birəli": {
+  "az": "Üstünə birə daraşmış.",
+  "en": "flea-infested",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "birəm-birəm": {
+  "az": "Bir-bir, hər birini ayrılıqda.",
+  "en": "one by one",
+  "pos": "adverb",
+  "src": "both",
+  "conf": "high"
+ },
+ "birə-min": {
+  "az": "Min dəfə artıq, minqat.",
+  "en": "a thousandfold",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "birəotu": {
+  "az": "Ondan dərman hazırlanan bitki növü.",
+  "en": "a plant used to make medicine",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "birə-üç": {
+  "az": "Üç dəfə çox, üçqat.",
+  "en": "threefold",
+  "pos": "adverb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "birə-yüz": {
+  "az": "Yüz qat artıq, yüzqat.",
+  "en": "a hundredfold",
+  "pos": "adverb",
+  "src": "both",
+  "conf": "high"
+ },
+ "birfamiliyalı": {
+  "az": "Kiminləsə eyni soyadı olan.",
+  "en": "bearing the same surname",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "birfazalı": {
+  "az": "Tək fazadan ibarət olan (elektrik cərəyanı).",
+  "en": "single-phase",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "birfikirli": {
+  "az": "Eyni baxışları və düşüncəni paylaşan.",
+  "en": "like-minded",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "birfikirlilik": {
+  "az": "Baxış və düşüncələrin üst-üstə düşməsi.",
+  "en": "like-mindedness",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "birgəlik": {
+  "az": "Birlikdə hərəkət etmə, ortaqlıq və həmrəylik.",
+  "en": "togetherness; partnership",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "birgöz": {
+  "az": "Meşə kənarında və kolluqlarda yetişən kol.",
+  "en": "a shrub of forest edges and thickets",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "birhecalı": {
+  "az": "Yalnız bir hecadan ibarət olan.",
+  "en": "monosyllabic",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "birhecalılıq": {
+  "az": "Sözün tək hecadan ibarət olması.",
+  "en": "monosyllabism",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "birhəftəlik": {
+  "az": "Bir həftə çəkən və ya bir həftəyə hesablanmış.",
+  "en": "week-long; lasting one week",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "birhovur": {
+  "az": "Qısa bir müddət, azacıq.",
+  "en": "a little while; a bit",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "birhovurluq": {
+  "az": "Çox qısa vaxt üçün olan, anlıq.",
+  "en": "momentary; lasting a moment",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "birxətli": {
+  "az": "Üzərində tək xətt çəkilmiş olan.",
+  "en": "single-lined; having one line",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "birigünkü": {
+  "az": "Birisi günə aid olan.",
+  "en": "of the day after tomorrow",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "birjaçı": {
+  "az": "Birjada qiymət dəyişmələrindən gəlir götürən alverçi.",
+  "en": "stock-jobber; speculator",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "birjaçılıq": {
+  "az": "Birjada möhtəkirlik etmə peşəsi.",
+  "en": "stock-jobbing; speculation",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "birka": {
+  "az": "Əşyaya və ya yükə bərkidilən etiket lövhəsi.",
+  "en": "tag or label",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "birkalamaq": {
+  "az": "Bir şeyə etiket bərkitmək.",
+  "en": "to label or tag",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "birkalanmaq": {
+  "az": "Üzərinə etiket vurulmaq.",
+  "en": "to be labelled",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "birkalatmaq": {
+  "az": "Etiket vurma işini başqasına gördürmək.",
+  "en": "to have something labelled",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "birkəndli": {
+  "az": "Eyni kənddən olan adam.",
+  "en": "fellow villager",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "birkərəlik": {
+  "az": "Həmişəlik, bir dəfəlik və qəti olaraq.",
+  "en": "once and for all",
+  "pos": "adverb",
+  "src": "both",
+  "conf": "high"
+ },
+ "birkiloqramlıq": {
+  "az": "Bir kiloqram çəkisi olan.",
+  "en": "one-kilogram",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "birkorpuslu": {
+  "az": "Tək gövdəsi olan (gəmi).",
+  "en": "single-hulled",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "birküçəli": {
+  "az": "Kiminləsə eyni küçədə yaşayan.",
+  "en": "living on the same street",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "birqapılı": {
+  "az": "Tək qapısı olan.",
+  "en": "single-door",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "birqatlı": {
+  "az": "Tək qatdan ibarət olan.",
+  "en": "single-layered",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "birqəpiklik": {
+  "az": "Bir qəpik dəyərində olan sikkə.",
+  "en": "one-kopeck coin",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "birqiymətli": {
+  "az": "Eyni qiymətə malik olan.",
+  "en": "of equal price or value",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "birqollu": {
+  "az": "Tək qolu olan, bir qolunu itirmiş.",
+  "en": "one-armed",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "birqulplu": {
+  "az": "Yalnız bir tutacağı olan.",
+  "en": "one-handled",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "birqütblü": {
+  "az": "Tək qütbü olan.",
+  "en": "unipolar",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "birlampalı": {
+  "az": "Yalnız bir lampa ilə təchiz olunmuş.",
+  "en": "single-lamp",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "birləçəkli": {
+  "az": "Çiçəyində tək ləçək olan.",
+  "en": "single-petalled",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "birləpəli": {
+  "az": "Toxumunda yalnız bir ləpə olan (bitki).",
+  "en": "monocotyledonous",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "birmanatlıq": {
+  "az": "Dəyəri bir manat olan.",
+  "en": "worth one manat",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "birməchullu": {
+  "az": "Yalnız bir naməlum kəmiyyəti olan (tənlik).",
+  "en": "with one unknown",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "birməhəlləli": {
+  "az": "Kiminləsə bir məhəllədə yaşayan.",
+  "en": "from the same neighbourhood",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "birmənzilli": {
+  "az": "Yalnız bir mənzildən ibarət olan (ev).",
+  "en": "single-flat",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "birmərtəbəli": {
+  "az": "Tək mərtəbədən ibarət olan.",
+  "en": "single-storey",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "birməsləkli": {
+  "az": "Eyni əqidəni, ideyanı paylaşan.",
+  "en": "sharing the same creed or convictions",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "birmotorlu": {
+  "az": "Tək mühərriklə işləyən.",
+  "en": "single-engined",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "birnövbəli": {
+  "az": "Bir növbə ərzində həyata keçirilən.",
+  "en": "single-shift",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "birnüvəli": {
+  "az": "Yalnız bir nüvəsi olan (hüceyrə və s.).",
+  "en": "mononuclear",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "biroxlu": {
+  "az": "Tək oxa malik olan.",
+  "en": "uniaxial",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "biroxluluq": {
+  "az": "Tək oxa malik olma xüsusiyyəti.",
+  "en": "uniaxiality",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "birotaqlı": {
+  "az": "Tək otaqdan ibarət olan.",
+  "en": "one-room",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "biroturuma": {
+  "az": "Ara vermədən, bir oturuşda.",
+  "en": "at one sitting",
+  "pos": "adverb",
+  "src": "both",
+  "conf": "high"
+ },
+ "birpərdəli": {
+  "az": "Tək pərdədən ibarət olan (pyes).",
+  "en": "one-act",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "birsaatlıq": {
+  "az": "Bir saat çəkən və ya bir saata hesablanmış.",
+  "en": "hour-long",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "birsəsli": {
+  "az": "Tək səs partiyası ilə ifa olunan.",
+  "en": "monophonic; for one voice",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "birsimli": {
+  "az": "Tək simi olan (musiqi aləti).",
+  "en": "single-stringed",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "birşəhərli": {
+  "az": "Eyni şəhərdən olan adam.",
+  "en": "fellow townsman",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "birşəkilli": {
+  "az": "Eyni formada olan, bir-birinə oxşar.",
+  "en": "uniform; of the same shape",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "birtaylı": {
+  "az": "Yalnız bir taydan ibarət olan (qapı və s.).",
+  "en": "single-leaf (of a door)",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "birtəbəqəli": {
+  "az": "Tək laydan ibarət olan.",
+  "en": "single-layer",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "birtəhər": {
+  "az": "Qəribə, adama tuhaf görünən.",
+  "en": "strange; odd",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "birtərkibli": {
+  "az": "Tək ünsürdən ibarət olan, sadə.",
+  "en": "consisting of one component; simple",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "birtipli": {
+  "az": "Eyni tipə aid olan, bir-birinə bənzər.",
+  "en": "of the same type",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "birtoxumlu": {
+  "az": "Yalnız bir növ toxumla əkilmiş.",
+  "en": "sown with a single kind of seed",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "birtonlu": {
+  "az": "Dəyişmədən eyni tonda səslənən, yeknəsəq.",
+  "en": "monotonous",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "birtonluq": {
+  "az": "Bir ton yük götürə bilən.",
+  "en": "one-ton (capacity)",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "birüzvlü": {
+  "az": "Tək üzvdən ibarət olan.",
+  "en": "monomial; single-member",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "birvaxtlı": {
+  "az": "Eyni zamanda baş verən.",
+  "en": "simultaneous",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "birvalentli": {
+  "az": "Valentliyi bir olan (kimyəvi element).",
+  "en": "univalent",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "biryaruslu": {
+  "az": "Tək yarusdan, bir qatdan ibarət olan.",
+  "en": "single-tier; one-storey",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "biryaş": {
+  "az": "Bir yaşı olan.",
+  "en": "one year old",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "biryaşar": {
+  "az": "Bir yaşına çatmış (heyvan və ya uşaq).",
+  "en": "one year old; yearling",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "biryaşlı": {
+  "az": "Yaşı bir il olan.",
+  "en": "one year old",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "biryataqlı": {
+  "az": "Bir nəfərin yatması üçün nəzərdə tutulmuş.",
+  "en": "single (bed); for one sleeper",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "biryerli": {
+  "az": "Eyni yerdən, eyni eldən olan.",
+  "en": "from the same place; fellow countryman",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "biryolluq": {
+  "az": "Bir dəfəlik və həmişəlik.",
+  "en": "once and for all",
+  "pos": "adverb",
+  "src": "both",
+  "conf": "high"
+ },
+ "bis": {
+  "az": "Tamaşaçıların ifanın təkrarını istəyərkən qışqırdığı söz.",
+  "en": "encore!",
+  "pos": "interjection",
+  "src": "both",
+  "conf": "high"
+ },
+ "bisavadlıq": {
+  "az": "Oxuyub-yazmağı bacarmama, təhsilsizlik.",
+  "en": "illiteracy",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "biş-düş": {
+  "az": "Yemək hazırlama və mətbəx işləri.",
+  "en": "cooking; cookery",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "bişərəflik": {
+  "az": "Şərəf və ləyaqətdən məhrumluq.",
+  "en": "dishonour",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "bişi": {
+  "az": "Şirin yağlı xəmirdən hazırlanan nazik qoğal.",
+  "en": "a thin sweet pastry",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bişirib-düşürmək": {
+  "az": "Yemək hazırlamaq, xörək bişirmək.",
+  "en": "to cook",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "bişirimlik": {
+  "az": "Bir dəfə bişirməyə yetən miqdar.",
+  "en": "enough for one cooking",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "bişirtdirmək": {
+  "az": "Xörəyi başqasına bişirtmək.",
+  "en": "to have food cooked by someone",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "bişirtmək": {
+  "az": "Yeməyi bişirməyi başqasına tapşırmaq.",
+  "en": "to have someone cook something",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bişkin": {
+  "az": "Lazım olan qədər yaxşı bişmiş.",
+  "en": "well-cooked; well-baked",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "bişkinlik": {
+  "az": "Yaxşı bişmiş olma halı.",
+  "en": "the state of being well cooked",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "bitərəfləşdirilmək": {
+  "az": "Neytral vəziyyətə gətirilmək.",
+  "en": "to be neutralized",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "bitərəfləşdirmək": {
+  "az": "Bir kəsi və ya bir şeyi neytral vəziyyətə gətirmək.",
+  "en": "to neutralize",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "bitərəfləşmək": {
+  "az": "Neytral mövqe tutmaq, tərəfsiz olmaq.",
+  "en": "to become neutral",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "bitib-tükənmək": {
+  "az": "Tamamilə qurtarmaq, sona yetmək.",
+  "en": "to run out completely",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bitib-tükənməz": {
+  "az": "Heç qurtarmayan, sonu görünməyən qədər çox.",
+  "en": "endless; inexhaustible",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "bitişdirilmək": {
+  "az": "İki şey bir-birinə yapışdırılıb birləşdirilmək.",
+  "en": "to be joined or connected",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "bitişiklik": {
+  "az": "Yanaşı, bir-birinə dəyərək yerləşmə halı.",
+  "en": "adjacency; contiguity",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "bitkiçi": {
+  "az": "Bitki yetişdirən, bitkiçilik üzrə mütəxəssis.",
+  "en": "plant grower; crop specialist",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "bitləmək": {
+  "az": "Paltarı və ya başı bitdən təmizləmək.",
+  "en": "to delouse",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bitlənmək": {
+  "az": "Başına, paltarına bit daraşmaq.",
+  "en": "to become lousy; to get lice",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bitlilik": {
+  "az": "Bit basmış olma vəziyyəti.",
+  "en": "lousiness; pediculosis",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "bitməzlik": {
+  "az": "Sona yetməmə, heç qurtarmama xüsusiyyəti.",
+  "en": "endlessness; inexhaustibility",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "bitməz-tükənməz": {
+  "az": "Saymaqla qurtarmayan, son dərəcə çox.",
+  "en": "endless; inexhaustible",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bitumlaşmaq": {
+  "az": "Qatrana çevrilmək, bitum halını almaq.",
+  "en": "to turn into bitumen",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bitumlu": {
+  "az": "İçində bitum olan, bitum qatılmış.",
+  "en": "bituminous",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "bivasitə": {
+  "az": "Vasitəçisiz olan, birbaşa.",
+  "en": "direct; immediate",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bivəfalıq": {
+  "az": "Sədaqətsizlik, dostluğa və sözə xəyanət.",
+  "en": "unfaithfulness; disloyalty",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "biyanlıq": {
+  "az": "Biyan kökü bitən sahə.",
+  "en": "a field of liquorice",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "biyarlıq": {
+  "az": "Haqqı ödənilmədən, mükəlləfiyyət qaydasında görülən (iş).",
+  "en": "done as corvée (unpaid forced labour)",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "biz-biz": {
+  "az": "Tüklər haqqında: dikəlmiş, ayağa qalxmış halda.",
+  "en": "on end (of hair)",
+  "pos": "adverb",
+  "src": "both",
+  "conf": "high"
+ },
+ "bizburun": {
+  "az": "Burnu biz kimi sivri olan.",
+  "en": "sharp-nosed",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bizdimdik": {
+  "az": "Uzun, əyri və sivri dimdikli cüllüt növü.",
+  "en": "a long-billed snipe-like bird",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bizquyruq": {
+  "az": "İnsan bağırsağında yaşayan, quyruğu sivri parazit qurd.",
+  "en": "pinworm",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bizlənmək": {
+  "az": "Biz batırılıb deşilmək.",
+  "en": "to be pierced with an awl",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bizlətmək": {
+  "az": "Bir şeyin ucunu başqasına sivriltdirmək.",
+  "en": "to have something sharpened to a point",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "bizotu": {
+  "az": "Quraq yamaclarda yetişən birillik ot.",
+  "en": "an annual plant of dry slopes",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bizşəkilli": {
+  "az": "Biz formasında, ucu sivri olan.",
+  "en": "awl-shaped",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bizvari": {
+  "az": "Forması biz və ya iynəni xatırladan.",
+  "en": "awl-shaped",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "blef": {
+  "az": "Mövcud olmayan bir şeylə öyünmə, aldatmaq üçün şişirtmə.",
+  "en": "bluff",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "blin": {
+  "az": "Tavada qızardılan nazik mayalı xəmir kökəsi.",
+  "en": "a thin pancake (blini)",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "blindaj": {
+  "az": "Düşmən atəşindən qorunmaq üçün qazılmış hərbi sığınacaq.",
+  "en": "dugout shelter",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bloklaşdırmaq": {
+  "az": "Mühasirəyə almaq, əlaqəni kəsmək.",
+  "en": "to blockade; to block",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bloklatmaq": {
+  "az": "Bir şeyin bağlanmasını başqasına tapşırmaq.",
+  "en": "to have something blocked or blockaded",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bloklu": {
+  "az": "Hazır bloklardan yığılan (tikinti).",
+  "en": "sectional; built of blocks",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bloknot": {
+  "az": "Qopardıla bilən vərəqlərdən ibarət qeyd dəftəri.",
+  "en": "notepad; notebook",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "bobrik": {
+  "az": "Bir növ qalın yun parça.",
+  "en": "castor (a heavy woollen cloth)",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "boğanaqlı": {
+  "az": "Havası ağır, nəfəs almaq çətin olan, bürkülü.",
+  "en": "sultry; stifling",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "low"
+ }
+}

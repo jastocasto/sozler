@@ -1,0 +1,1937 @@
+{
+ "dərmançiləyən": {
+  "az": "Kimyəvi maddələri səpməyə və ya püskürtməyə xidmət edən.",
+  "en": "spraying chemicals (of a device)",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dərmançiləyici": {
+  "az": "Kimyəvi dərmanları püskürtmək üçün işlədilən.",
+  "en": "used for spraying chemicals",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dərmanqayıran": {
+  "az": "Dərman hazırlayan mütəxəssis, əczaçı.",
+  "en": "pharmaceutical chemist",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dərmanlama": {
+  "az": "Bitkiləri və ya materialı kimyəvi preparatla işləmə.",
+  "en": "treatment with chemicals",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "dərmanlanma": {
+  "az": "Kimyəvi preparatla işlənmə, üzərinə dərman vurulma.",
+  "en": "being treated with chemicals",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "dərmanlanmaq": {
+  "az": "Kimyəvi maddə ilə işlənmək, üzərinə dərman səpilmək.",
+  "en": "to be treated with chemicals",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dərmanlatdırmaq": {
+  "az": "Bir şeyi başqasına kimyəvi dərmanla işlətdirmək.",
+  "en": "to have something treated with chemicals",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "dərmanlayıcı": {
+  "az": "Kimyəvi dərmanla işləmək üçün istifadə olunan.",
+  "en": "used for chemical treatment",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dərmanlı": {
+  "az": "İçinə dərman qatılmış olan.",
+  "en": "containing medicine",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dərmansız": {
+  "az": "Əlacı tapılmayan, müalicə edilə bilməyən.",
+  "en": "incurable, without remedy",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dərmansızlıq": {
+  "az": "Çarəsi, əlacı olmama halı.",
+  "en": "lack of remedy or medicine",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dərmə": {
+  "az": "Meyvə, gül və s. qoparıb toplama işi.",
+  "en": "picking or gathering",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dərnə": {
+  "az": "Toyda gəlinin yanında olan qadın, yengə.",
+  "en": "bride's attendant (dialect)",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dərnəkçi": {
+  "az": "Hər hansı dərnəyin üzvü olan şəxs.",
+  "en": "member of a club or circle",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dərsdənkənar": {
+  "az": "Məktəb dərslərindən sonra, onlardan ayrı keçirilən.",
+  "en": "extracurricular",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dərvişlik": {
+  "az": "Dərviş həyatı sürmə, dərvişin məşğuliyyəti.",
+  "en": "the life or calling of a dervish",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dəryazlamaq": {
+  "az": "Otu və ya taxılı dəryazla biçmək.",
+  "en": "to scythe",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dəryazlanmaq": {
+  "az": "Dəryaz vasitəsilə biçilmək.",
+  "en": "to be scythed",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dərzbağlayan": {
+  "az": "Biçilən taxılı dərz şəklində bağlayan (maşın).",
+  "en": "sheaf-binding; sheaf-binder",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dərzdaşıyan": {
+  "az": "Taxıl dərzlərini daşımaq üçün işlədilən.",
+  "en": "sheaf-carrying",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dərzənək": {
+  "az": "Yerə yayılan, iynəyəbənzər kiçik yarpaqlı ot bitkisi.",
+  "en": "a creeping herb with small needle-like leaves",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dərzixana": {
+  "az": "Paltar biçilib tikildiyi emalatxana.",
+  "en": "tailor's shop",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dərziquşu": {
+  "az": "Sərçəkimilərə aid balaca meşə quşu.",
+  "en": "a small forest songbird",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dərzilik": {
+  "az": "Paltar tikmə peşəsi, dərzinin işi.",
+  "en": "tailoring, the tailor's trade",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dərzləmək": {
+  "az": "Biçilmiş otu və ya taxılı bağlayıb dərz etmək.",
+  "en": "to bind into sheaves",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dərzlənmək": {
+  "az": "Biçilib dərz şəklində bağlanmaq.",
+  "en": "to be bound into sheaves",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dərzlik": {
+  "az": "Dərz bağlamaq üçün yararlı olan.",
+  "en": "suitable for binding sheaves",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dərzyığan": {
+  "az": "Bağlanmış dərzləri bir yerə toplayan (maşın).",
+  "en": "sheaf-gathering",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dəsgah": {
+  "az": "Böyük təmtəraq, dəbdəbə və təntənə.",
+  "en": "pomp and splendour",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dəsgahlı": {
+  "az": "Təmtəraqlı, dəbdəbəli və yaxşı təşkil olunmuş.",
+  "en": "lavish, magnificent",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dəsgirə": {
+  "az": "Nazik çubuqlardan və ya qarğıdan toxunmuş balaca səbət.",
+  "en": "a small wicker basket",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dəsmalasan": {
+  "az": "Dəsmal asmaq üçün qurğu, asılqan.",
+  "en": "towel rack",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "dəsmallamaq": {
+  "az": "Dəsmalla silib qurulamaq.",
+  "en": "to wipe with a towel",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dəsmallanmaq": {
+  "az": "Dəsmal ilə silinib qurudulmaq.",
+  "en": "to be towelled",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dəsmallı": {
+  "az": "Dəsmalı olan, dəsmal götürmüş.",
+  "en": "having a kerchief",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dəsmallıq": {
+  "az": "Dəsmal tikmək üçün yararlı parça.",
+  "en": "towelling",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dəstəbaşılıq": {
+  "az": "Bir dəstəyə rəhbərlik etmə, onun başçısı olma.",
+  "en": "leadership of a group or gang",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dəstəbaz": {
+  "az": "Tərəfdarlarından qrup yaradıb öz istəyini həyata keçirməyə çalışan adam.",
+  "en": "a cliquish person, faction-builder",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dəstəbazlıq": {
+  "az": "Öz məqsədi üçün qruplaşma yaratma, firqəçilik.",
+  "en": "cliquishness",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dəstəçi": {
+  "az": "Bir dəstənin üzvü və ya onu yaradan adam.",
+  "en": "member or organizer of a group",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dəstə-dəstə": {
+  "az": "Qrup-qrup, ayrı-ayrı dəstələr halında.",
+  "en": "in groups or bunches",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dəstəklətmək": {
+  "az": "Başqasına dəstək, dayaq vurdurmaq.",
+  "en": "to have something supported or propped",
+  "pos": "verb",
+  "src": "both",
+  "conf": "low"
+ },
+ "dəstəkli": {
+  "az": "Tutmaq üçün dəstəyi olan.",
+  "en": "having a handle",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dəstəklik": {
+  "az": "Dəstək düzəltməyə yararlı olan.",
+  "en": "suitable for making a handle",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "dəstəksiz": {
+  "az": "Tutacağı, qulpu olmayan.",
+  "en": "without a handle",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dəstələmək": {
+  "az": "Ayrı-ayrı şeyləri bir yerə yığıb dəstə halına gətirmək.",
+  "en": "to bunch or bundle up",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dəstələndirmək": {
+  "az": "Bir neçə şeyi bir yerə bağlayıb dəstə etmək.",
+  "en": "to tie into bunches",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dəstələnmək": {
+  "az": "Bir yerə yığışıb dəstə şəklinə düşmək.",
+  "en": "to gather into groups or bunches",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dəstələşmək": {
+  "az": "Qrup-qrup bir yerə yığışmaq, qruplaşmaq.",
+  "en": "to form groups",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dəstələtdirmək": {
+  "az": "Başqasına bir şeyi dəstə halına saldırmaq.",
+  "en": "to have something bunched up",
+  "pos": "verb",
+  "src": "both",
+  "conf": "low"
+ },
+ "dəstəli": {
+  "az": "Tutmaq üçün qulpu, dəstəyi olan.",
+  "en": "having a handle",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dəstəmazlı": {
+  "az": "Dini qaydaya uyğun olaraq dəstəmaz almış.",
+  "en": "having performed ritual ablution",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dəvəcik": {
+  "az": "Torqanadlılara aid kiçik həşərat növü.",
+  "en": "snakefly",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dəvəfındığı": {
+  "az": "Cökə ağacında yetişən meyvə.",
+  "en": "linden fruit",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dəvəgötürməz": {
+  "az": "Həddən artıq ağır və iri həcmli.",
+  "en": "huge and very heavy",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dəvəqıran": {
+  "az": "Quru və daşlı yamaclarda bitən tikanlı kol.",
+  "en": "a thorny shrub of dry stony slopes",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dəvəqırxan": {
+  "az": "Əvvəllər dəvələrin yununu qırxan adam.",
+  "en": "camel shearer",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dəvəqulağı": {
+  "az": "Kökü aşı maddəsi ilə zəngin olan, boyaq kimi işlədilən bitki.",
+  "en": "a plant with tannin-rich roots used as a dye",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dəvəli": {
+  "az": "Dəvə üstündə gedən adam.",
+  "en": "camel rider",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dəvəotu": {
+  "az": "Marenakimilər fəsiləsinə aid birillik ot.",
+  "en": "an annual herb of the madder family",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dəvətedici": {
+  "az": "Çağırış xarakteri daşıyan, dəvət edən.",
+  "en": "inviting",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dəvətli": {
+  "az": "Qonaqlığa və ya tədbirə çağırılmış.",
+  "en": "invited",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dəyanətlilik": {
+  "az": "Sözündə möhkəm durma, səbatlı olma.",
+  "en": "steadfastness",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dəyanətsizlik": {
+  "az": "Verdiyi sözə sadiq qalmama, səbatsızlıq.",
+  "en": "unreliability, lack of steadfastness",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dəydirmək": {
+  "az": "Bir əşyanı başqa bir şeyə toxundurmaq.",
+  "en": "to make something touch",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dəyəlik": {
+  "az": "Dəyə tikmək üçün gərək olan yer və ya material.",
+  "en": "site or material for a herder's hut",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dəyənəkləmək": {
+  "az": "Dəyənəklə vurub döymək.",
+  "en": "to cudgel",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dəyənəklənmək": {
+  "az": "Dəyənəklə vurulub döyülmək.",
+  "en": "to be cudgelled",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dəyənəkli": {
+  "az": "Əlində dəyənək tutan.",
+  "en": "carrying a cudgel",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dəyərlilik": {
+  "az": "Qiymətli olma, dəyəri olma keyfiyyəti.",
+  "en": "worth, value",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dəyib-dolaşmaq": {
+  "az": "Birinə sataşıb narahat etmək, mane olmaq.",
+  "en": "to bother or pester someone",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dəyirmançılıq": {
+  "az": "Dəyirmançının peşəsi, dəyirman işlətmə.",
+  "en": "the miller's trade",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dəyirmanxana": {
+  "az": "Dəyirmanın yerləşdiyi bina, yer.",
+  "en": "mill house",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dəyirmanlıq": {
+  "az": "Üyütmək üçün dəyirmana aparılmağa hazır olan.",
+  "en": "intended for milling (of grain)",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dəyirmibaş": {
+  "az": "Başı girdə olan.",
+  "en": "round-headed",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dəyirmiləmək": {
+  "az": "Bir şeyi girdə, yumru şəklə salmaq.",
+  "en": "to make round, to round off",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dəyirmilənmək": {
+  "az": "Yumru şəkil almaq, girdə olmaq.",
+  "en": "to become round",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dəyirmiləşdirilmək": {
+  "az": "Yuvarlaq formaya salınmaq, girdə edilmək.",
+  "en": "to be rounded",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dəyirmiləşdirmək": {
+  "az": "Bir şeyi yuvarlaq və girdə formaya salmaq.",
+  "en": "to make round, to round off",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dəyirmilik": {
+  "az": "Girdə olma halı, yumruluq.",
+  "en": "roundness",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dəyirmisifət": {
+  "az": "Üzü girdə, yumru olan.",
+  "en": "round-faced",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dəyirmisifətli": {
+  "az": "Girdə üzlü olan.",
+  "en": "round-faced",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dəyirmitəhər": {
+  "az": "Bir qədər girdəyə oxşayan.",
+  "en": "roundish",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "dəyişdirilməz": {
+  "az": "Başqası ilə əvəz oluna bilməyən, dəyişməyə gəlməyən.",
+  "en": "unchangeable, irreplaceable",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dəyişdirtmək": {
+  "az": "Kimisə nəyisə dəyişməyə vadar etmək.",
+  "en": "to make someone change something",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dəyişəcək": {
+  "az": "Dəyişmək üçün ehtiyat paltar, alt paltarı.",
+  "en": "change of clothes or linen",
+  "pos": "noun",
+  "src": "both",
+  "conf": "low"
+ },
+ "dəyişəkçi": {
+  "az": "Xəstəxana, mehmanxana kimi yerlərdə yataq və alt paltarlarına baxan işçi.",
+  "en": "linen attendant",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dəyişəkli": {
+  "az": "Əvəz etmək üçün ehtiyatı olan.",
+  "en": "having a spare or change",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dəyişəklik": {
+  "az": "Alt paltarı tikmək üçün yararlı olan.",
+  "en": "suitable for linen",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "dəyişəktikən": {
+  "az": "Alt paltarı tikməklə məşğul olan tikişçi.",
+  "en": "seamstress",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dəyişilməyən": {
+  "az": "Daim eyni qalan, sabit.",
+  "en": "constant, invariable",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dəyişilməzlik": {
+  "az": "Heç dəyişməyən halda olma.",
+  "en": "invariability",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dəyişməzlik": {
+  "az": "Sabit qalma, dəyişməmə xüsusiyyəti.",
+  "en": "invariability, immutability",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dəyməqaç": {
+  "az": "Uşaqların oynadığı bir oyun.",
+  "en": "a children's game",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dəyyusluq": {
+  "az": "Arvadının xəyanətinə göz yuman kişinin halı, qeyrətsizlik.",
+  "en": "cuckoldry",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dəzgahçı": {
+  "az": "Dəzgahda çalışan fəhlə.",
+  "en": "machine operator",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dəzgahqayıran": {
+  "az": "Müxtəlif dəzgahlar düzəldən, buraxan.",
+  "en": "machine-tool-building",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dəzgahqayırma": {
+  "az": "Dəzgahların və onların hissələrinin istehsalı.",
+  "en": "machine-tool building",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dəzgahlı": {
+  "az": "Dəzgahı olan, dəzgah üzərinə qoyulmuş.",
+  "en": "having or mounted on a stand",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "dəzgahsazlayan": {
+  "az": "Dəzgahları quraşdırıb nizamlayan usta.",
+  "en": "machine-tool setter",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dıbırlıq": {
+  "az": "Erkək keçi olma halı.",
+  "en": "the state of being a he-goat",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "dığ": {
+  "az": "Ağciyərləri tutan vərəm xəstəliyi.",
+  "en": "tuberculosis, consumption",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dığdığ": {
+  "az": "Adamı bezdirən, bitib-tükənməyən dedi-qodu və mübahisə.",
+  "en": "endless squabbling and gossip",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "dığ-dığ": {
+  "az": "Qaynayan suyun və ya başqa mayenin səsi.",
+  "en": "the bubbling sound of boiling liquid",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dığıldamaq": {
+  "az": "Qaynayarkən dığ-dığ səsi çıxarmaq.",
+  "en": "to bubble, to make a bubbling sound",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dığıltı": {
+  "az": "Qaynayan mayedən gələn dığ-dığ səsi.",
+  "en": "bubbling sound",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dığırladılmaq": {
+  "az": "Diyirlədilib yuvarlanmaq.",
+  "en": "to be rolled",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dığırlamaq": {
+  "az": "Bir şeyi yerlə yuvarlatmaq, diyirlətmək.",
+  "en": "to roll something",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dığırlanmaq": {
+  "az": "Yuvarlana-yuvarlana hərəkət etmək.",
+  "en": "to roll along",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dığırlatmaq": {
+  "az": "Bir şeyi yuvarlanmağa məcbur etmək, diyirlətmək.",
+  "en": "to roll something along",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dığlamaq": {
+  "az": "Vərəmə yoluxmaq; məcazən dərddən əriyib getmək.",
+  "en": "to fall ill with consumption; to pine away",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dığlatmaq": {
+  "az": "Həddən çox incidib birinin canını boğaza yığmaq.",
+  "en": "to wear someone out, to exasperate",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dılğırlıq": {
+  "az": "Heyvanın tükünün tökülüb keçəlləşməsi halı.",
+  "en": "mangy, hairless state (of an animal)",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dınqır": {
+  "az": "Qavala bənzəyən zərb musiqi aləti.",
+  "en": "a tambourine-like instrument",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dırıldamaq": {
+  "az": "Cırıltılı səs çıxarmaq.",
+  "en": "to creak or screech",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dırmalamaq": {
+  "az": "Dırnaqla və ya iti şeylə qaşıyıb cızmaq.",
+  "en": "to scratch or claw",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dırmıqçı": {
+  "az": "Dırmıq vasitəsilə işləyən adam.",
+  "en": "raker, one who works with a rake",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dırmıqlamaq": {
+  "az": "Torpağı dırmıqla təmizləyib hamarlamaq.",
+  "en": "to rake",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dırmıqlanmaq": {
+  "az": "Dırmıq çəkilib təmizlənmək.",
+  "en": "to be raked",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dırmıqlatmaq": {
+  "az": "Başqasına dırmıq çəkdirmək.",
+  "en": "to have something raked",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dırnaqbağası": {
+  "az": "Dırnaqlı heyvanlarda dırnağın büzüşməsinə səbəb olan xəstəlik.",
+  "en": "a hoof disease of ungulates",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dırnaqcıq": {
+  "az": "Balaca dırnaq.",
+  "en": "small nail or claw",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dırnaqçeynəmə": {
+  "az": "Dişlə dırnaq gəmirmə vərdişi.",
+  "en": "nail-biting",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dırnaqdibi": {
+  "az": "Dırnaq ətrafının iltihablanıb irinləməsi.",
+  "en": "whitlow, inflammation at the nail base",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dırnaqlamaq": {
+  "az": "Dırnaqla cızmaq, cırmaqlamaq.",
+  "en": "to scratch with the nails",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dırnaqlanmaq": {
+  "az": "Dırnaqla cızılmaq, cırmaqlanmaq.",
+  "en": "to be scratched with nails",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dırnaqlaşmaq": {
+  "az": "Bir-birini dırnaqla cızmaq.",
+  "en": "to scratch each other",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dırnaqlı": {
+  "az": "Dırnaqları olan.",
+  "en": "having nails or hooves",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dırnaqsız": {
+  "az": "Dırnağı olmayan və ya dırnağı tökülmüş.",
+  "en": "nailless, without nails",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dırnaqsızlıq": {
+  "az": "Dırnaqları olmama halı.",
+  "en": "the state of having no nails or hooves",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dırnaqşəkilli": {
+  "az": "Forması dırnağa bənzəyən.",
+  "en": "nail-shaped",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dırnaqtəmizləyən": {
+  "az": "Dırnaqları təmizləmək üçün fırça.",
+  "en": "nail-brush",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "diabetli": {
+  "az": "Şəkər xəstəliyindən əziyyət çəkən.",
+  "en": "diabetic",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "diafilm": {
+  "az": "Ekrana salınan şəffaf kadrlardan ibarət film lenti.",
+  "en": "filmstrip",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "diaxronik": {
+  "az": "Zaman boyu tarixi inkişafla bağlı olan.",
+  "en": "diachronic",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "diaxroniya": {
+  "az": "Dil faktlarının tarixi inkişaf baxımından öyrənilməsi.",
+  "en": "diachrony",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dialektizm": {
+  "az": "Ədəbi dildə işlənən dialekt sözü və ya ifadəsi.",
+  "en": "dialecticism, dialect word",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dialektoloji": {
+  "az": "Ləhcələrin öyrənilməsinə, dialektologiyaya aid olan.",
+  "en": "dialectological",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dialoji": {
+  "az": "Dialoq şəklində olan, dialoqa aid.",
+  "en": "dialogic",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "diametrli": {
+  "az": "Müəyyən ölçüdə diametri olan.",
+  "en": "having a given diameter",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "diapazonlu": {
+  "az": "Müəyyən həcmdə diapazonu olan.",
+  "en": "having a certain range",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "diapozitiv": {
+  "az": "Ekrana proyeksiya edilən şəffaf fotoşəkil.",
+  "en": "lantern slide, transparency",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "diatez": {
+  "az": "Orqanizmin müəyyən xəstəliklərə anadangəlmə meyilliliyi.",
+  "en": "diathesis",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "diatonik": {
+  "az": "Ladın pərdələri üzrə ardıcıl qaydada hərəkət edən.",
+  "en": "diatonic",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dibaçə": {
+  "az": "Köhnə kitablarda zərlə naxışlanmış giriş səhifələri.",
+  "en": "ornamented preface of an old book",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dibcik": {
+  "az": "Tüfəng qundağının sinəyə söykənən enli ucu.",
+  "en": "butt of a rifle stock",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dibdolduran": {
+  "az": "Bitkilərin dibinə torpaq çəkən kənd təsərrüfatı aləti.",
+  "en": "hiller, earthing-up tool",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dibiyastı": {
+  "az": "Alt hissəsi düz, yastı olan.",
+  "en": "flat-bottomed",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dibli": {
+  "az": "Dibi, altı olan.",
+  "en": "having a bottom",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "diblik": {
+  "az": "Altı olan əşyaların ən aşağı hissəsi.",
+  "en": "bottom part",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dibölçən": {
+  "az": "Su hövzələrinin dərinliyini ölçən cihaz.",
+  "en": "depth gauge, sounding device",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "diddirtmək": {
+  "az": "Başqasını bir şeyi didib parçalamağa məcbur etmək.",
+  "en": "to have something torn apart or teased",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "didə": {
+  "az": "Klassik şeirdə göz.",
+  "en": "eye (poetic)",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "didələmək": {
+  "az": "Bir şeyi kiçik tikələrə ayırıb qoparmaq.",
+  "en": "to tear into small pieces",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "didələnmək": {
+  "az": "Tikə-tikə qoparılmaq, didilmək.",
+  "en": "to be torn into pieces",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "didələtmək": {
+  "az": "Bir şeyi başqasına didib parçalatmaq.",
+  "en": "to have something torn apart",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "didərginlik": {
+  "az": "Yurdundan ayrı düşüb sərgərdan gəzən adamın vəziyyəti.",
+  "en": "displacement, wandering",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "didik-didik": {
+  "az": "Hər tərəfi didilib cırılmış.",
+  "en": "tattered, torn to pieces",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "didikləmək": {
+  "az": "Bir şeyi tel-tel, xırda parçalara ayırmaq.",
+  "en": "to pull apart into shreds",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "didiklənmək": {
+  "az": "Didilib xırda parçalara ayrılmaq.",
+  "en": "to become tattered, to be shredded",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "didim-didim": {
+  "az": "Cırılıb tikə-tikə olmuş.",
+  "en": "tattered",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "didinmək": {
+  "az": "Özünü möhkəm qaşımaq.",
+  "en": "to scratch oneself hard",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "didinti": {
+  "az": "Yun didildikdən sonra qalan qırıntı.",
+  "en": "wool waste left after teasing",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "didişdirilmək": {
+  "az": "Hər tərəfdən didilib parçalanmaq.",
+  "en": "to be torn at",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "didişdirmək": {
+  "az": "Bir şeyi hər biri bir tərəfdən dartıb didmək.",
+  "en": "to tear at from all sides",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "diffuziya": {
+  "az": "Maddə hissəciklərinin bir-birinə qarışıb yayılması.",
+  "en": "diffusion",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "difterit": {
+  "az": "Boğazda ərp əmələ gətirən yoluxucu xəstəlik.",
+  "en": "diphtheria",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "diftonq": {
+  "az": "Bir hecada birləşən iki saitdən ibarət səs.",
+  "en": "diphthong",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "diftonqlaşma": {
+  "az": "Saitin diftonqa çevrilməsi prosesi.",
+  "en": "diphthongization",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "diftonqlaşmaq": {
+  "az": "Diftonqa çevrilmək, diftonq yaratmaq.",
+  "en": "to diphthongize",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "diftonqluq": {
+  "az": "Səsin diftonq olma xüsusiyyəti.",
+  "en": "the quality of being a diphthong",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "diftonqvari": {
+  "az": "Diftonqa bənzəyən, ona yaxın olan.",
+  "en": "diphthong-like",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dikbığ": {
+  "az": "Bığının ucları yuxarı burulmuş.",
+  "en": "with an upturned moustache",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dikburunlu": {
+  "az": "Burnu yuxarı qalxmış olan.",
+  "en": "snub-nosed",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "dik-dik": {
+  "az": "Gözünü çəkmədən, zillənərək (baxmaq).",
+  "en": "steadily, fixedly (of looking)",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dikəldilmək": {
+  "az": "Dik vəziyyətə gətirilmək, yuxarı qaldırılmaq.",
+  "en": "to be straightened up",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dikili": {
+  "az": "Şaquli vəziyyətdə duran, dikəldilmiş.",
+  "en": "upright, erected",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dikilmək": {
+  "az": "Gözlərini bir yerə zilləyib baxmaq.",
+  "en": "to stare fixedly",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dikqulaq": {
+  "az": "Qulaqları şaquli duran.",
+  "en": "prick-eared",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dikləmə": {
+  "az": "Şaquli istiqamətdə, yuxarıya doğru.",
+  "en": "upright, vertically",
+  "pos": "adverb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dikləmək": {
+  "az": "Bir şeyi qaldırıb dik vəziyyətə gətirmək.",
+  "en": "to set upright",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dikləndirmək": {
+  "az": "Bir şeyi qaldırıb şaquli qoymaq.",
+  "en": "to raise upright",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dikləşdirmək": {
+  "az": "Bir şeyi dik vəziyyətə salmaq.",
+  "en": "to make upright or steep",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dikləşmək": {
+  "az": "Dik vəziyyət almaq.",
+  "en": "to become upright or steep",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "diklətmək": {
+  "az": "Başqasına bir şeyi dik qaldırtmaq.",
+  "en": "to have something set upright",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dikli": {
+  "az": "Çıxıntısı, qabarığı olan.",
+  "en": "having a protrusion",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "diksiniş": {
+  "az": "Qəflətən səksənib diksinmə.",
+  "en": "a start, a flinch",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "diksiya": {
+  "az": "Sözlərin aydın və düzgün tələffüzü.",
+  "en": "diction, articulation",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "diktat": {
+  "az": "Birinin öz iradəsini başqalarına zorla qəbul etdirməsi.",
+  "en": "dictate, imposition of will",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "diktofon": {
+  "az": "Danışığı yazmaq üçün səsyazma cihazı.",
+  "en": "dictaphone",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "diktorluq": {
+  "az": "Diktorun peşəsi, işi.",
+  "en": "the job of an announcer",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "diqqətcillik": {
+  "az": "Hər şeyə diqqətlə yanaşma xüsusiyyəti.",
+  "en": "attentiveness",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dilbaş": {
+  "az": "Əsasən iribuynuzlu mal-qarada rast gəlinən xəstəlik.",
+  "en": "a disease of cattle",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dilbaz": {
+  "az": "Könül açan, gözəl.",
+  "en": "charming, lovely (poetic)",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dilbədil": {
+  "skip": "evidence has only labels, no sense text"
+ },
+ "dilbilən": {
+  "az": "Dərrakəli, işin yolunu bilən və təcrübəli.",
+  "en": "sensible and experienced",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dilbilməzlik": {
+  "az": "Sözü anlamama, qanmazlıq.",
+  "en": "obtuseness, slowness to understand",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dilcik": {
+  "az": "Balaca dil və ya dilə bənzər çıxıntı.",
+  "en": "small tongue; tongue-like projection",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dilçə": {
+  "az": "Kiçik dil və ya dilə bənzər hissə.",
+  "en": "small tongue; tongue-shaped part",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dildalayan": {
+  "az": "Heyvanlara yem kimi verilən beşyarpaq ot.",
+  "en": "a five-leaved forage herb",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dildən-dilə": {
+  "az": "Ağızdan ağıza keçərək, camaat arasında.",
+  "en": "from mouth to mouth",
+  "pos": "adverb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dil-dil": {
+  "az": "Cəh-cəh vuraraq, şirin-şirin (ötmək).",
+  "en": "chirpingly, in twitters (of birds)",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "dil-diş": {
+  "az": "Ağızdakı dil ilə dişlər birlikdə.",
+  "en": "tongue and teeth",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dil-dodaq": {
+  "az": "Dil ilə dodaqlar birlikdə.",
+  "en": "tongue and lips",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dildönməz": {
+  "az": "Dil səslərinin demək olar işlənmədiyi aşıq şeiri forması.",
+  "en": "an ashik verse form avoiding lingual sounds",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "diletantlıq": {
+  "az": "Lazımi bilik olmadan bir sahə ilə həvəskarcasına məşğul olma.",
+  "en": "dilettantism",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "diləkli": {
+  "az": "Bir arzusu, təmənnası olan.",
+  "en": "having a wish or request",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "diləksiz": {
+  "az": "Heç bir təmənna güdmədən, istəksiz.",
+  "en": "without any wish or expectation",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "diləksizlik": {
+  "az": "Heç nə istəməmə, təmənnasızlıq.",
+  "en": "absence of wishes or expectations",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dilənçiləşdirilmək": {
+  "az": "Dilənçi vəziyyətinə salınmaq.",
+  "en": "to be reduced to beggary",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dilənçiləşdirmək": {
+  "az": "Birini hər şeydən məhrum edib dilənçiyə döndərmək.",
+  "en": "to reduce to beggary",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dilənçiləşmək": {
+  "az": "Var-dövlətini itirib dilənçiyə dönmək.",
+  "en": "to become a beggar",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "diləndirmək": {
+  "az": "Birini dilənməyə vadar etmək.",
+  "en": "to force someone to beg",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "diligödəklik": {
+  "az": "Qüsuru və ya sirri olduğu üçün etiraz etməyə cəsarət etməmə.",
+  "en": "inability to speak up because of one's own fault",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dilik-dilik": {
+  "az": "Kənarları dişli, kəsikli formada olan.",
+  "en": "scalloped, notched",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dilikləmək": {
+  "az": "Kənarını dişli formada kəsmək.",
+  "en": "to scallop",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "diliklənmək": {
+  "az": "Kənarı dişli şəkildə kəsilmək.",
+  "en": "to be scalloped",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "diliklətmək": {
+  "az": "Başqasına bir şeyi dişli formada kəsdirmək.",
+  "en": "to have something scalloped",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dilikli": {
+  "az": "Kəsik dişləri, dilikləri olan.",
+  "en": "notched, scalloped",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dilim-dilim": {
+  "az": "Dilimlər şəklində, parça-parça.",
+  "en": "in slices",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dilimləndirmək": {
+  "az": "Bir şeyi kəsib dilimlərə ayırmaq.",
+  "en": "to slice",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dilimlənmək": {
+  "az": "Dilimlərə bölünərək doğranmaq.",
+  "en": "to be sliced",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dilimlətmək": {
+  "az": "Başqasına bir şeyi dilimlərə böldürmək.",
+  "en": "to have something sliced",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dilimli": {
+  "az": "Dilimlərə bölünmüş olan.",
+  "en": "sliced, in segments",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dilişirinlik": {
+  "az": "Xoş danışma, mehriban və sevimli olma.",
+  "en": "sweet-spokenness, amiability",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "diliuzun": {
+  "az": "Özünü haqlı bildiyi üçün cəsarətlə danışan.",
+  "en": "outspoken, bold in speech",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "diliuzunluq": {
+  "az": "Cəsarətlə, çəkinmədən danışma halı.",
+  "en": "outspokenness",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dilqanadan": {
+  "az": "Bəzi növlərində boya və dərman maddələri olan ot bitkisi.",
+  "en": "a herb containing dye and medicinal substances",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dilləndirilmək": {
+  "az": "Danışmağa məcbur edilmək.",
+  "en": "to be made to speak",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dillənmək": {
+  "az": "Susqunluğu pozub danışmağa başlamaq.",
+  "en": "to speak up, to begin to speak",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dilli-ağızlı": {
+  "az": "Xoş və nəzakətli danışan.",
+  "en": "smooth-spoken, affable",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dilli-dilavər": {
+  "az": "Danışığı rəvan, dilavər olan.",
+  "en": "voluble, glib",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dilli-dilavərlik": {
+  "az": "Rəvan və cəld danışma qabiliyyəti.",
+  "en": "volubility, glibness",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dilmanclıq": {
+  "az": "Tərcüməçinin işi, dilmanc vəzifəsi.",
+  "en": "interpreting, the job of an interpreter",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dilsiz-ağızsız": {
+  "az": "Səsi çıxmayan, mütiyanə və yazıq.",
+  "en": "meek and timid",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dilucu": {
+  "az": "Dilin ucunun köməyi ilə tələffüz edilən.",
+  "en": "apical (of a sound)",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dimdikdibi": {
+  "az": "Bəzi quşlarda dimdiyin kökündə qalınlaşmış dəri.",
+  "en": "cere",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dimdiklənmək": {
+  "az": "Dimdiyi ilə öz lələklərini təmizləmək.",
+  "en": "to preen with the beak",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dimdikləşmək": {
+  "az": "Bir-birini dimdikləmək.",
+  "en": "to peck at each other",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dimdikli": {
+  "az": "Dimdiyi olan.",
+  "en": "beaked",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dimedrol": {
+  "az": "Yuxugətirici və allergiyaya qarşı dərman.",
+  "en": "diphenhydramine, a sedative antiallergic drug",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dinamikalı": {
+  "az": "Hərəkətli, dinamik olan.",
+  "en": "dynamic",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dinamiklik": {
+  "az": "Hərəkət və daxili enerji ilə dolu olma.",
+  "en": "dynamism",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dinamitçi": {
+  "az": "Dinamitdən istifadə edərək partlatma işi görən usta.",
+  "en": "dynamiter, blaster",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dinamitli": {
+  "az": "İçində dinamit olan.",
+  "en": "containing dynamite",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dinamo": {
+  "az": "Mexaniki enerjini elektrik cərəyanına çevirən maşın.",
+  "en": "dynamo",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dinarlıq": {
+  "az": "Bir dinar dəyərində olan şey.",
+  "en": "something worth one dinar",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dinc-dinməz": {
+  "az": "Sakit, heç kimə qarışmayan.",
+  "en": "quiet and peaceable",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "dincləşdirilmək": {
+  "az": "Torpaq bir müddət əkilmədən dincəldilmək.",
+  "en": "to be left fallow (of land)",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dindarcasına": {
+  "az": "Mömin adam kimi, dindar tərzdə.",
+  "en": "piously",
+  "pos": "adverb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dindirilmək": {
+  "az": "Sorğu-suala tutulmaq, istintaqda ifadə vermək.",
+  "en": "to be interrogated",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "ding": {
+  "az": "Çəltiyi döyərək qabığından ayıran qurğu.",
+  "en": "rice-hulling mill",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dingildəşmək": {
+  "az": "Hamılıqla birlikdə hoppanmaq.",
+  "en": "to jump up all together",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dingildətmək": {
+  "az": "Birini hoppanmağa, atılıb düşməyə vadar etmək.",
+  "en": "to make someone jump about",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dinib-danışmaq": {
+  "az": "Dil açıb söz demək, danışmaq.",
+  "en": "to speak, to say a word",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "din-iman": {
+  "az": "Dini inanc və etiqad.",
+  "en": "faith and religion",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dinlənilmək": {
+  "az": "Qulaq asılmaq, eşidilmək.",
+  "en": "to be listened to",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dinlənmək": {
+  "az": "Dinləyicilər tərəfindən qulaq asılmaq.",
+  "en": "to be listened to",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "dinməzcə": {
+  "az": "Səsini çıxarmadan, susaraq.",
+  "en": "silently",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "dinməz-danışmaz": {
+  "az": "Az danışan, susqun.",
+  "en": "taciturn, silent",
+  "pos": "adjective",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "dinpərəst": {
+  "az": "Dinə bərk bağlı olan, dinin tərəfdarı.",
+  "en": "devoutly religious",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dinpərvər": {
+  "az": "Dini qoruyan, dinə sadiq olan.",
+  "en": "devoted to religion",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "diplomatcasına": {
+  "az": "Diplomat kimi, ustalıqla və incəliklə.",
+  "en": "diplomatically, tactfully",
+  "pos": "adverb",
+  "src": "both",
+  "conf": "high"
+ },
+ "diplomatlıq": {
+  "az": "Diplomatın peşəsi və vəzifəsi.",
+  "en": "diplomacy, the work of a diplomat",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "diplomçu": {
+  "az": "Buraxılış işi yazan tələbə.",
+  "en": "student writing a graduation thesis",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "diplomsuz": {
+  "az": "Diplomu, rəsmi təhsil sənədi olmayan.",
+  "en": "without a diploma",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "dirçəldilmək": {
+  "az": "Əvvəlkindən daha sağlam vəziyyətə gətirilmək.",
+  "en": "to be restored to health, to be revived",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dirçələnmək": {
+  "az": "Yenidən canlanmaq, özünə gəlmək.",
+  "en": "to revive, to recover",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "direksiya": {
+  "az": "Müəssisəni idarə edən rəhbərlik, idarə heyəti.",
+  "en": "board of directors, management",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "high"
+ },
+ "direktorluq": {
+  "az": "Direktorun vəzifəsi və fəaliyyəti.",
+  "en": "directorship",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "dirədöymə": {
+  "az": "Uşaqların kütləvi oynadığı oyun.",
+  "en": "a children's group game",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dirəkcik": {
+  "az": "Balaca və ya nazik dirək.",
+  "en": "small post or pole",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dirəklənmək": {
+  "az": "Dirəklə dayaq vurulub möhkəmləndirilmək.",
+  "en": "to be propped with poles",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dirəklətmək": {
+  "az": "Başqasına dirək, dayaq qoydurmaq.",
+  "en": "to have poles or props put in",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dirəşmək": {
+  "az": "Hamılıqla gözlərini bir nöqtəyə zilləyib baxmaq.",
+  "en": "to stare fixedly (of several people)",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "dirhəm": {
+  "az": "Təxminən üç qrama bərabər köhnə çəki vahidi.",
+  "en": "dirham, a unit of weight of 3.12 g",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "diribaşlaşmaq": {
+  "az": "Daha çevik və zirək olmaq.",
+  "en": "to become lively and nimble",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ }
+}
