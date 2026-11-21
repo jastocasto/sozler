@@ -17,8 +17,10 @@ Each new definition records its method:
 Links (root for derivations, syn for cross-references) are added only between existing
 headwords that are not already connected, each with its citation.  A suffix or compound
 link for a word that already has a definition needs evidence that the base is right: that
-definition names the base, or the definition sentences of the word's primary explanatory
-entry name it (bare or inflected, never as part of another headword).  Print prose is used
+definition, or the definition sentences of the word's primary explanatory entry, names the
+base (bare or inflected, never as part of another headword).  A closed compound is not split
+where a longer headword plus a derivational suffix explains the word (kontur-lamaq is not
+kont + urlamaq), nor at a short piece of an international loan.  Print prose is used
 as evidence only and is never copied into the output: a paraphrase that shares six or
 more consecutive words with its print entry is rejected.
 """
@@ -52,6 +54,12 @@ PREFIXES = {
 SUFFIX_LIKE = {'dan', 'dən', 'lıq', 'lik', 'luq', 'lük', 'çılıq', 'çilik', 'ləmə', 'lama', 'lamaq', 'ləmək', 'lar', 'lər',
                'mış', 'miş', 'muş', 'müş', 'acaq', 'əcək', 'ası', 'əsi', 'daş', 'dar', 'kar', 'gar', 'xana', 'stan',
                'baz', 'keş', 'kəş', 'dan', 'çı', 'çi', 'ənək', 'anaq'}
+# Endings that make a word read as one longer stem plus a suffix (kontur-lamaq, cığal-laşma), not as two words.
+DERIVING = {front for back, front in (('lamaq', 'ləmək'), ('lanmaq', 'lənmək'), ('laşmaq', 'ləşmək'), ('lama', 'ləmə'),
+                                      ('lanma', 'lənmə'), ('laşma', 'ləşmə'), ('laşdırmaq', 'ləşdirmək'), ('çılıq', 'çilik'),
+                                      ('çuluq', 'çülük'), ('lıq', 'lik'), ('luq', 'lük'), ('sız', 'siz'), ('suz', 'süz'))
+            for front in (back, front)}
+PAIRED_ENDINGS = {'sı', 'si', 'su', 'sü', 'nı', 'ni', 'nu', 'nü', 'lı', 'li', 'lu', 'lü'}
 POS = {'noun', 'verb', 'adjective', 'adverb', 'numeral', 'pronoun', 'interjection', 'postposition',
        'conjunction', 'particle', 'phrase'}
 EXPLICIT_FROM = re.compile(r'^"([^"]+)"\s*-?\s*(?:dan|dən|ın|in|un|ün)?\s*(?:sözündən\s+)?'
@@ -385,33 +393,38 @@ class Builder:
             self._senses[word] = found
         return self._senses[word]
 
-    def print_mentions(self, word, base_word):
-        """The explanatory dictionary's definition of word names base_word (bare or inflected)."""
+    def names(self, text, word, base_word):
+        """Azerbaijani text about word names base_word, bare or with a case, possessive or plural ending."""
         base = key(base_word)
         if len(base) < 3:
-            return None
+            return False
         stems = {base}
         if base[-1] in 'qk' and not base.endswith(('maq', 'mək')):
             stems.add(base[:-1] + {'q': 'ğ', 'k': 'y'}[base[-1]])
         own = key(word)
+        for token in re.findall(r'\w+', key(text)):
+            if token.startswith(own) and len(own) > len(base):
+                continue
+            # A token that is itself another headword (kirə for kir) is not evidence for the base.
+            if token != base and token in self.by_key:
+                continue
+            if any(token.startswith(stem) and token[len(stem):] in INFLECTIONS
+                   and (stem == base or token[len(stem):][:1] in VOWELS) for stem in stems):
+                return True
+        return False
+
+    def print_mentions(self, word, base_word):
+        """The explanatory dictionary's definition of word names base_word (bare or inflected)."""
         for text, volume, page in self.print_senses(word):
-            for token in re.findall(r'\w+', key(text)):
-                if token.startswith(own) and len(own) > len(base):
-                    continue
-                # A token that is itself another headword (kirə for kir) is not evidence for the base.
-                if token != base and token in self.by_key:
-                    continue
-                if any(token.startswith(stem) and token[len(stem):] in INFLECTIONS
-                       and (stem == base or token[len(stem):][:1] in VOWELS) for stem in stems):
-                    return print_source(volume, page)
+            if self.names(text, word, base_word):
+                return print_source(volume, page)
         return None
 
-    @staticmethod
-    def mentions(own, base_word, base):
+    def mentions(self, word, own, base_word, base):
         text = (own['az'] + ' ' + own['en']).lower()
         g = gloss(base).lower() if base else ''
         whole = lambda term: re.search(r'(?<!\w)' + re.escape(term) + r'(?!\w)', text) is not None
-        return whole(base_word.lower()) or (len(g) >= 3 and whole(g))
+        return whole(base_word.lower()) or (len(g) >= 3 and whole(g)) or self.names(own['az'], word, base_word)
 
     def usable(self, word):
         node = self.defined(word)
@@ -422,7 +435,10 @@ class Builder:
         if re.search(r'[- ]', word):
             parts = []
             for piece in re.split(r'[- ]', word):
-                candidates = [piece] + [piece[:-size] for size in (3, 2, 1) if piece.endswith(('sı', 'si', 'su', 'sü', 'ı', 'i', 'u', 'ü', 'nı', 'ni')) and len(piece) - size >= 3]
+                # Strip a real ending before a lone vowel: babalı is baba + -lı (not babal), kirpisi is kirpi + -si.
+                sizes = [2] if piece[-2:] in PAIRED_ENDINGS else []
+                sizes += [1, 3] if piece[-1:] in 'ıiuü' else []
+                candidates = [piece] + [piece[:-size] for size in sizes if len(piece) - size >= 3]
                 found = next((c for c in candidates if len(c) >= 3 and self.usable(c)), None)
                 if not found:
                     return None
@@ -437,6 +453,12 @@ class Builder:
             a, b = word[:i], word[i:]
             if b in SUFFIX_LIKE or len(b) < 4 or (b[0] in VOWELS and len(b) < 6):
                 continue
+            # A longer headword plus a suffix explains the word better (kontur + -lamaq, not kont + urlamaq).
+            if any(word[:j] in self.nodes and word[j:] in DERIVING for j in range(i + 1, len(word) - 2)):
+                continue
+            # International loans are not split at a short piece (futurologiya is not fut + urologiya).
+            if b[0] in VOWELS and len(a) <= 4 and b.endswith(('iya', 'ika')):
+                continue
             if self.usable(a) and self.usable(b):
                 score = min(len(a), len(b))
                 if not best or score > best[0]:
@@ -450,7 +472,9 @@ class Builder:
 
     def compounds(self):
         for word in list(self.nodes):
-            if self.degree[word] and not self.undefined(word):
+            # Connected words keep the links they have, except paraphrased ones: a paraphrase replaces the rule definition
+            # that would have linked the parts, and each part still has to be named by the paraphrase or the print entry.
+            if self.degree[word] and not self.undefined(word) and self.definitions.get(word, {}).get('method') != 'paraphrase':
                 continue
             found = self.compound_parts(word)
             if not found:
@@ -465,7 +489,7 @@ class Builder:
                     continue
                 base = self.defined(part)
                 confirmed = None
-                if own and self.definitions.get(word, {}).get('method') != 'rule' and not self.mentions(own, part, base):
+                if own and self.definitions.get(word, {}).get('method') != 'rule' and not self.mentions(word, own, part, base):
                     confirmed = self.print_mentions(word, part)
                     if not confirmed:
                         continue
@@ -506,7 +530,7 @@ class Builder:
                         continue
                     own = self.defined(word)
                     confirmed = None
-                    if own and self.definitions.get(word, {}).get('method') != 'rule' and not self.mentions(own, base_word, base):
+                    if own and self.definitions.get(word, {}).get('method') != 'rule' and not self.mentions(word, own, base_word, base):
                         confirmed = self.print_mentions(word, base_word)
                         if not confirmed:
                             self.stats['rule:unconfirmed-existing'] += 1
