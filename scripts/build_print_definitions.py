@@ -15,7 +15,10 @@ Each new definition records its method:
   rule             a transparent, productive suffix of a defined base word (qayda ilə qurulub)
 
 Links (root for derivations, syn for cross-references) are added only between existing
-headwords that are not already connected, each with its citation.  Print prose is used
+headwords that are not already connected, each with its citation.  A suffix or compound
+link for a word that already has a definition needs evidence that the base is right: that
+definition names the base, or the definition sentences of the word's primary explanatory
+entry name it (bare or inflected, never as part of another headword).  Print prose is used
 as evidence only and is never copied into the output: a paraphrase that shares six or
 more consecutive words with its print entry is rejected.
 """
@@ -58,6 +61,12 @@ SEE_ONLY = re.compile(r'^(?:(?:\[[^\]]{1,100}\]|[a-zçğıöşüə]{1,8}\.)\s*)*
 HOMONYM = re.compile(r'[- ]?\d{1,2}$')
 BACK, FRONT = set('aıou'), set('əeiöü')
 VOWELS = BACK | FRONT
+# Case, possessive and plural endings (all harmony variants) that may follow a base word
+# when a print definition names it: "Kədəri olmayan" names kədər, "Ata minmiş" names at.
+INFLECTIONS = {''} | {pre + v + post for v in 'ıiuü' for pre in ('', 's', 'n', 'y') for post in ('', 'n', 'na', 'nə', 'nı', 'ni', 'nu', 'nü', 'nda', 'ndə', 'ndan', 'ndən')} \
+    | {'a', 'ə', 'ya', 'yə', 'na', 'nə', 'da', 'də', 'ta', 'tə', 'dan', 'dən', 'tan', 'tən', 'nda', 'ndə', 'ndan', 'ndən',
+       'la', 'lə', 'yla', 'ylə', 'lar', 'lər', 'ları', 'ləri', 'ların', 'lərin', 'lara', 'lərə', 'larda', 'lərdə',
+       'lardan', 'lərdən', 'nın', 'nin', 'nun', 'nün', 'yın', 'yin', 'yun', 'yün', 'dır', 'dir', 'dur', 'dür'}
 
 
 def key(word):
@@ -123,6 +132,23 @@ def possessive_stem(word):
     return stem[:-1] + {'ğ': 'q', 'y': 'k'}.get(stem[-1], stem[-1]) if stem[-1] in 'ğy' else stem
 
 
+def definition_sentences(text, limit=3):
+    """First sentence of up to three numbered senses, without labels, examples or idioms."""
+    text = text.split('◊')[0]
+    head = re.match(r'^((?:\[[^\]]{0,120}\]\s*|[a-zçğıöşüə.]{1,8}\.\s*|və\s+)*)', text)
+    body = text[len(head[1]):]
+    parts = re.split(r'(?:^|\s)(\d{1,2})\.\s', body)
+    out = []
+    for chunk in [parts[0]] + [parts[i + 1] for i in range(1, len(parts) - 1, 2)]:
+        chunk = re.sub(r'^((?:[a-zçğıöşüə]{1,8}\.\s*)+)', '', chunk.strip())
+        first = re.split(r'(?<=[.;?!])\s+(?=[A-ZÇĞIİÖŞÜƏ–\[]|"\S)|\s\.\.', chunk)[0][:220]
+        if first:
+            out.append(first)
+        if len(out) >= limit:
+            break
+    return out
+
+
 def ngrams(text, size=6):
     words = re.findall(r'\w+', text.lower())
     return {tuple(words[i:i + size]) for i in range(len(words) - size + 1)}
@@ -145,6 +171,7 @@ class Builder:
         self.definitions = {}
         self.edges = []
         self.stats = collections.Counter()
+        self._senses = {}
 
     def defined(self, word):
         node = self.nodes.get(word)
@@ -345,6 +372,40 @@ class Builder:
             return self.causative(base_word, base)
         return None
 
+    def print_senses(self, word):
+        """Definition sentences (no examples) of the word's primary explanatory-dictionary entry."""
+        if word not in self._senses:
+            found = []
+            for text, volume, page in self.print.get(key(word), []):
+                if EXPLICIT_FROM.match(text) or SEE_ONLY.match(text):
+                    continue
+                # Only the first homonym: it carries the sense that the atlas definition describes.
+                found.append((' '.join(definition_sentences(text)), volume, page))
+                break
+            self._senses[word] = found
+        return self._senses[word]
+
+    def print_mentions(self, word, base_word):
+        """The explanatory dictionary's definition of word names base_word (bare or inflected)."""
+        base = key(base_word)
+        if len(base) < 3:
+            return None
+        stems = {base}
+        if base[-1] in 'qk' and not base.endswith(('maq', 'mək')):
+            stems.add(base[:-1] + {'q': 'ğ', 'k': 'y'}[base[-1]])
+        own = key(word)
+        for text, volume, page in self.print_senses(word):
+            for token in re.findall(r'\w+', key(text)):
+                if token.startswith(own) and len(own) > len(base):
+                    continue
+                # A token that is itself another headword (kirə for kir) is not evidence for the base.
+                if token != base and token in self.by_key:
+                    continue
+                if any(token.startswith(stem) and token[len(stem):] in INFLECTIONS
+                       and (stem == base or token[len(stem):][:1] in VOWELS) for stem in stems):
+                    return print_source(volume, page)
+        return None
+
     @staticmethod
     def mentions(own, base_word, base):
         text = (own['az'] + ' ' + own['en']).lower()
@@ -403,11 +464,15 @@ class Builder:
                 if part not in self.nodes:
                     continue
                 base = self.defined(part)
+                confirmed = None
                 if own and self.definitions.get(word, {}).get('method') != 'rule' and not self.mentions(own, part, base):
-                    continue
+                    confirmed = self.print_mentions(word, part)
+                    if not confirmed:
+                        continue
                 before = len(self.edges)
                 self.link(word, part, 'topic', 'Mürəkkəb söz · tərkib hissəsi', f'«{part}» bu mürəkkəb sözün tərkib hissəsidir.',
-                          f'{part} is a component of this compound.', refs, 'compound')
+                          f'{part} is a component of this compound.', refs + ([confirmed] if confirmed else []),
+                          'compound-print' if confirmed else 'compound')
                 linked.append(len(self.edges) > before)
             if self.undefined(word):
                 if kind == 'prefix':
@@ -440,12 +505,16 @@ class Builder:
                     if not made:
                         continue
                     own = self.defined(word)
+                    confirmed = None
                     if own and self.definitions.get(word, {}).get('method') != 'rule' and not self.mentions(own, base_word, base):
-                        self.stats['rule:unconfirmed-existing'] += 1
-                        continue
+                        confirmed = self.print_mentions(word, base_word)
+                        if not confirmed:
+                            self.stats['rule:unconfirmed-existing'] += 1
+                            continue
                     self.link(word, base_word, 'root', 'Söz yaradıcılığı · -' + suffix,
                               f'«{word}» sözü «{base_word}» sözündən -{suffix} şəkilçisi ilə düzəlir.',
-                              f'{word} is formed from {base_word} with the suffix -{suffix}.', refs, 'rule')
+                              f'{word} is formed from {base_word} with the suffix -{suffix}.',
+                              refs + ([confirmed] if confirmed else []), 'rule-print' if confirmed else 'rule')
                     if define and self.undefined(word):
                         self.define(word, *made, refs, 'rule', base=base_word)
                     break
