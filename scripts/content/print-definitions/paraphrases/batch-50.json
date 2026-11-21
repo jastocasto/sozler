@@ -223,7 +223,7 @@
 "tasalanmaq":{"az":"Sıxılıb boğulmaq.","en":"to be choked or stifled","pos":"verb","src":"musayev","conf":"low"},
 "taskabab":{"az":"Taskababıda bişirilən ət və kartof xörəyi.","en":"a meat and potato stew cooked in a lidded pot","pos":"noun","src":"izahli","conf":"high"},
 "taskababı":{"az":"Qapağı kip bağlanan iki qulplu qazan.","en":"a two-handled lidded pot","pos":"noun","src":"izahli","conf":"high"},
-"tat":{"az":"Azərbaycanda və İranda yaşayan irandilli xalq.","en":"Tat, an Iranian-speaking people","pos":"noun","src":"izahli","conf":"high"},
+"tat":{"az":"İran dillərindən birində danışan, Azərbaycanda və İranda yaşayan xalq.","en":"Tat, an Iranian-speaking people","pos":"noun","src":"izahli","conf":"high"},
 "tatar":{"az":"Tatarıstanın əsas türkdilli xalqı və onun nümayəndəsi.","en":"Tatar","pos":"noun","src":"both","conf":"high"},
 "tatarılamaq":{"az":"Qamçı ilə vurmaq.","en":"to whip","pos":"verb","src":"izahli","conf":"high"},
 "tatarlaşmaq":{"az":"Tatar dilini və adətlərini mənimsəmək.","en":"to become Tatarized","pos":"verb","src":"musayev","conf":"high"},
