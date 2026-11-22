@@ -85,7 +85,28 @@ POSITIONS = {'üstü': ('üstündə', 'on or above'), 'altı': ('altında', 'und
              'kənarı': ('kənarında', 'at the edge of'), 'qırağı': ('qırağında', 'at the edge of'), 'ardı': ('ardında', 'behind')}
 # Heads that a combining form only seems to end in: -qrafik and -metrik are not kinds of qrafik (chart) or metrik.
 FALSE_HEADS = {'qrafik', 'metrik', 'metrlik', 'qramlıq', 'metraj', 'metr', 'qram', 'litr'}
-VERBAL_KINDS = {'converb-repeat', 'verbal-noun', 'passive', 'passive-n', 'causative', 'become', 'make', 'acquire'}
+VERBAL_KINDS = {'converb-repeat', 'verbal-noun', 'passive', 'passive-n', 'causative', 'become', 'make', 'acquire',
+                'doer', 'action', 'result', 'never'}
+# Endings a verb stem takes in running text (becər-ən, üfür-ücü, keçir-məz, aç-ma, düş-müş), so a definition that uses
+# a participle or verbal noun names the verb.
+VERB_ENDINGS = set('an ən yan yən maz məz ma mə maq mək ar ər araq ərək yaraq yərək malı məli mayan məyən'.split()) | {
+    ending.replace('V', v) for v in 'ıiuü' for ending in 'Vb yVb mVş Vr dV Vş yVş VcV yVcV VntV ntV'.split()}
+VERB_FORM_TAILS = {'', 'lar', 'lər', 'ı', 'i', 'u', 'ü', 'ın', 'in', 'un', 'ün', 'dır', 'dir', 'dur', 'dür'}
+# Word-forming endings of a verb stem: (kind, after a consonant, after a vowel); V takes four-way and A two-way harmony.
+VERB_SUFFIXES = [('doer', 'VcV', 'yVcV'), ('result', 'VntV', 'ntV'), ('action', 'Vş', 'yVş'), ('never', 'mAz', 'mAz'),
+                 ('perfect', 'mVş', 'mVş'), ('participle', 'An', 'yAn'), ('verbal-noun', 'mA', 'mA')]
+# Verb-derived nouns and adjectives that the suffix rules define (the others are inflections, used only inside compounds).
+VERB_DERIVED = {'doer', 'action', 'result', 'never'}
+# Case endings on the first part of a compound whose second part governs it (göy-dən düşmüş, heyvan-a oxşar).
+CASE_ENDINGS = ('dan', 'dən', 'da', 'də', 'ya', 'yə', 'nı', 'ni', 'nu', 'nü', 'sı', 'si', 'su', 'sü', 'a', 'ə', 'ı', 'i', 'u', 'ü')
+# Adjectives and postpositions that govern the case of the word before them: heyvan-a oxşar, tərif-ə layiq, rinq-dən kənar.
+GOVERNORS = {'dative': {'oxşar', 'bənzər', 'layiq', 'dözümlü', 'davamlı', 'məxsus', 'aid', 'uyğun', 'yaxın', 'bərabər', 'qarşı',
+                        'həssas', 'sadiq', 'xas', 'müvafiq', 'tabe', 'yararlı', 'qadir', 'dəyər', 'doğru', 'tərəf'},
+             'ablative': {'kənar', 'xaric', 'uzaq', 'asılı', 'ibarət', 'azad', 'başqa', 'savayı', 'əvvəl', 'sonra', 'yuxarı',
+                          'aşağı', 'artıq', 'qabaq'}}
+CASE_OF = {'a': 'dative', 'ə': 'dative', 'ya': 'dative', 'yə': 'dative', 'dan': 'ablative', 'dən': 'ablative',
+           'da': 'locative', 'də': 'locative', 'nı': 'accusative', 'ni': 'accusative', 'nu': 'accusative', 'nü': 'accusative',
+           'sı': 'possessive', 'si': 'possessive', 'su': 'possessive', 'sü': 'possessive'}
 PAIRED_ENDINGS = {'sı', 'si', 'su', 'sü', 'nı', 'ni', 'nu', 'nü', 'lı', 'li', 'lu', 'lü'}
 POS = {'noun', 'verb', 'adjective', 'adverb', 'numeral', 'pronoun', 'interjection', 'postposition',
        'conjunction', 'particle', 'phrase'}
@@ -158,6 +179,60 @@ def english_plural(short, base_word):
     if short.endswith('y') and short[-2:-1] not in 'aeiou':
         return short[:-1] + 'ies'
     return short + ('es' if short.endswith(('x', 'sh', 'ch')) else 's')
+
+
+def english_verb(gloss_text, verb_forms):
+    """Base form and -ing form of a verb's English gloss: ('blow', 'blowing') for "to blow", or the model's verb forms."""
+    forms = verb_forms or {}
+    model_plain, model_ing = clean_form(forms.get('base')), clean_form(forms.get('ing'))
+    match = re.match(r'(?:to )?([a-z]+(?: [a-z]+){0,3})(?=$|[;,])', gloss_text)
+    if not match or match[1].split()[0] in ('causative', 'passive', 'verbal', 'reflexive', 'reciprocal', 'negative', 'variant'):
+        return (model_plain, model_ing) if model_plain and model_ing else ('', '')
+    # Keep the first of several alternatives (peel or skin -> peel); a gloss that only points elsewhere has no verb.
+    plain = match[1].split(' or ')[0]
+    if re.search(r'\b(?:of|synonyms?|see)\b', plain):
+        return (model_plain, model_ing) if model_plain and model_ing else ('', '')
+    if plain == model_plain and model_ing:
+        return plain, model_ing
+    first, _, rest = plain.partition(' ')
+    if first == 'be':
+        ing = 'being'
+    elif first.endswith('ie'):
+        ing = first[:-2] + 'ying'
+    elif first.endswith('e') and not first.endswith(('ee', 'ye', 'oe')):
+        ing = first[:-1] + 'ing'
+    elif re.fullmatch(r'[^aeiou]*[aeiou][bdgmnpt]', first):
+        ing = first + first[-1] + 'ing'
+    else:
+        ing = first + 'ing'
+    return plain, ing + (' ' + rest if rest else '')
+
+
+def third_person(plain):
+    first, _, rest = plain.partition(' ')
+    special = {'be': 'is', 'have': 'has', 'do': 'does', 'go': 'goes'}
+    if first in special:
+        first = special[first]
+    elif re.search(r'[^aeiou]y$', first):
+        first = first[:-1] + 'ies'
+    elif first.endswith(('s', 'x', 'z', 'ch', 'sh', 'o')):
+        first += 'es'
+    else:
+        first += 's'
+    return first + (' ' + rest if rest else '')
+
+
+def verb_splits(form):
+    """Candidate (stem, suffix, kind) splits of form into a verb stem and a word-forming or participle ending."""
+    for kind, after_consonant, after_vowel in VERB_SUFFIXES:
+        for pattern in dict.fromkeys((after_consonant, after_vowel)):
+            stem = form[:-len(pattern)]
+            if len(stem) < 2 or not last_vowel(stem):
+                continue
+            if after_consonant != after_vowel and (stem[-1] in VOWELS) != (pattern == after_vowel):
+                continue
+            if form[-len(pattern):] == pattern.replace('V', h4(stem)).replace('A', h2(stem)):
+                yield stem, form[-len(pattern):], kind
 
 
 def word_of(base_word, suffix):
@@ -239,6 +314,7 @@ class Builder:
         self.edges = []
         self.stats = collections.Counter()
         self._senses = {}
+        self.form_kind = {}
 
     def defined(self, word):
         node = self.nodes.get(word)
@@ -433,6 +509,7 @@ class Builder:
                 'c' + v4 + ('q' if v4 in 'ıu' else 'k'): 'diminutive',
                 'ç' + v2: 'diminutive',
                 'c' + v2 + ('sına' if v2 == 'a' else 'sinə'): 'manner',
+                'vari': 'like',
             }
             if suffix in kinds:
                 yield base_word, kinds[suffix], suffix
@@ -468,6 +545,10 @@ class Builder:
             verb = match[1] + infinitive_ending(match[1])
             if verb in self.nodes:
                 yield verb, 'causative', 't'
+        # Nouns and adjectives made from a verb: göndərici (göndərmək + -ici), baxış, kəsinti, qorxmaz.
+        found = self.verb_of(word)
+        if found and found[1] in VERB_DERIVED and word not in found[0]:
+            yield found
 
     def rule_definition(self, base_word, kind, suffix, base):
         g, pos = gloss(base), base['pos']
@@ -526,6 +607,23 @@ class Builder:
         # -lan after a noun has too many senses to state by rule (çapaqlanmaq, çisəklənmək); after an adjective it is "become".
         if kind == 'acquire' and pos == 'adjective':
             return f'«{base_word}» sözündən -{suffix} şəkilçisi ilə düzələn fel: {base_word} olmaq.', f'to become {short}', 'verb'
+        if kind == 'like' and nominal:
+            return (f'«{base_word}» sözündən -{suffix} şəkilçisi ilə düzələn sifət: {base_word} kimi, ona bənzəyən.',
+                    f'{short}-like' if english and ' ' not in short else f'like {short}', 'adjective')
+        if pos == 'verb' and kind in VERB_DERIVED:
+            plain, ing = english_verb(g, base.get('verbForms'))
+            if kind == 'doer':
+                return (f'«{base_word}» felindən -{suffix} şəkilçisi ilə düzələn söz: bu işi görən şəxs və ya vasitə.',
+                        f'one that {third_person(plain)}' if plain else f'agent noun of {base_word} ({g})', 'noun')
+            if kind == 'action':
+                return (f'«{base_word}» felindən -{suffix} şəkilçisi ilə düzələn isim: bu hərəkət və ya onun tərzi.',
+                        f'the act or manner of {ing}' if ing else f'action noun of {base_word} ({g})', 'noun')
+            if kind == 'result':
+                return (f'«{base_word}» felindən -{suffix} şəkilçisi ilə düzələn isim: bu hərəkətin nəticəsi və ya qalığı.',
+                        f'what results from {ing}' if ing else f'result noun of {base_word} ({g})', 'noun')
+            negative = ('that is not ' + plain[3:]) if plain.startswith('be ') else f'that does not {plain}'
+            return (f'«{base_word}» felindən -{suffix} şəkilçisi ilə düzələn sifət: bu hərəkəti etməyən və ya ona uğramayan.',
+                    negative if plain else f'negative participle of {base_word} ({g})', 'adjective')
         if pos == 'verb' and kind == 'verbal-noun':
             return self.verbal_noun(base_word, base)
         if pos == 'verb' and kind == 'passive':
@@ -558,6 +656,10 @@ class Builder:
         if base[-1] in 'qk' and not base.endswith(('maq', 'mək')):
             stems.add(base[:-1] + {'q': 'ğ', 'k': 'y'}[base[-1]])
         own = key(word)
+        # A verb is also named by its participles and verbal nouns (becərən, üfürücü, açma; edən for etmək).
+        verb_stems = []
+        if base.endswith(('maq', 'mək')) and len(base) >= 5:
+            verb_stems = [base[:-3]] + ([base[:-4] + 'd'] if base[:-3].endswith('t') else [])
         for token in re.findall(r'\w+', key(text)):
             if token.startswith(own) and len(own) > len(base):
                 continue
@@ -567,6 +669,11 @@ class Builder:
             if any(token.startswith(stem) and token[len(stem):] in INFLECTIONS
                    and (stem == base or token[len(stem):][:1] in VOWELS) for stem in stems):
                 return True
+            for stem in verb_stems:
+                rest = token[len(stem):] if token.startswith(stem) else None
+                if rest and (stem == verb_stems[0] or rest[0] in VOWELS) and any(
+                        rest.startswith(ending) and rest[len(ending):] in VERB_FORM_TAILS for ending in VERB_ENDINGS):
+                    return True
         return False
 
     def print_mentions(self, word, base_word):
@@ -602,6 +709,39 @@ class Builder:
             if node and node['pos'] == 'verb':
                 return verb
         return None
+
+    def verb_of(self, form):
+        """(verb, kind, suffix) when form is a verb stem plus an ending: becərən, üfürücü, keçirməz, gəmirinti, baxış."""
+        for stem, suffix, kind in verb_splits(form):
+            # A stem-final t turns into d before a vowel (edən is etmək + -ən, eşidiş is eşitmək + -iş).
+            for candidate in [stem] + ([stem[:-1] + 't'] if stem.endswith('d') and suffix[0] in VOWELS else []):
+                verb = candidate + infinitive_ending(candidate)
+                if (self.usable(verb) or {}).get('pos') == 'verb':
+                    return verb, kind, suffix
+        return None
+
+    def governed_noun(self, piece):
+        """The headword of a compound's first part, bare or with the case its second part governs (göy-dən, heyvan-a)."""
+        node = self.usable(piece)
+        if node and node['pos'] != 'verb':
+            return piece, None
+        for ending in CASE_ENDINGS:
+            stem = piece[:-len(ending)]
+            if not piece.endswith(ending) or len(stem) < 3:
+                continue
+            vowel = next(ch for ch in ending if ch in VOWELS)
+            if vowel != (h2(stem) if vowel in 'aə' else h4(stem)):
+                continue
+            # A buffer consonant (y, n) only follows a vowel; a bare vowel ending only follows a consonant.
+            if ending[0] in 'yn' and stem[-1] not in VOWELS or ending[0] in VOWELS and stem[-1] in VOWELS:
+                continue
+            candidates = [stem] + ([stem[:-1] + {'ğ': 'q', 'y': 'k'}[stem[-1]]] if ending[0] in VOWELS and stem[-1] in 'ğy' else [])
+            for candidate in candidates:
+                node = self.usable(candidate)
+                if node and node['pos'] != 'verb':
+                    # After a consonant, -ı is either the accusative or the possessive (yal-ı gödək).
+                    return candidate, CASE_OF.get(ending, 'accusative or possessive')
+        return None, None
 
     def compound_parts(self, word):
         """Return (parts, kind) for a compound of existing headwords, or None."""
@@ -650,7 +790,35 @@ class Builder:
                 stem = possessive_stem(b)
                 if stem and len(stem) >= 3 and len(a) + len(stem) >= 7 and stem not in SUFFIX_LIKE and self.usable(stem) and self.usable(stem)['pos'] in ('noun', 'word'):
                     best = (0, [a, stem])
-        return (best[1], 'closed') if best else None
+        if best:
+            return best[1], 'closed'
+        # The first part is governed by a verb form or a postpositional adjective: gül + becər-ən, hava + üfür-ücü,
+        # göy-dən + düşmüş, heyvan-a + oxşar.
+        for i in range(3, len(word) - 3):
+            a, b = word[:i], word[i:]
+            if b in SUFFIX_LIKE or len(b) < 4:
+                continue
+            noun, case = self.governed_noun(a)
+            if not noun:
+                continue
+            # A short noun with a case ending is too often a chance match in an undefined word (tabasaran is not tab-a saran).
+            if case and len(noun) < 4 and self.undefined(word):
+                continue
+            verb = self.verb_of(b)
+            node = self.usable(b)
+            second = None
+            if verb and len(verb[0]) >= 5:
+                second = verb[0]
+            elif case and node and node['pos'] != 'verb':
+                # A case-marked noun needs a word that governs that case; a possessive one an adjective (yal-ı gödək).
+                if b in GOVERNORS.get(case, ()) or 'possessive' in case and node['pos'] == 'adjective':
+                    second = b
+            if second and second != noun:
+                score = min(len(noun), len(b))
+                if not best or score > best[0]:
+                    best = (score, [noun, second])
+                    self.form_kind[word] = verb[1] if verb and second == verb[0] else None
+        return (best[1], 'governed') if best else None
 
     def quantified(self):
         """Quantity word + noun + -lı: çoxbarmaqlı is having many fingers, ikimərtəbəli is having two storeys."""
@@ -775,10 +943,15 @@ class Builder:
                     glosses = [f'{part} ({gloss(self.defined(part))})' for part in parts]
                     names = ' və '.join(f'«{part}»' for part in parts)
                     az = {'paired': f'{names} sözlərindən düzələn qoşa söz.', 'phrase': f'{names} sözlərindən ibarət birləşmə.',
-                          'closed': f'{names} sözlərindən düzələn mürəkkəb söz.'}[kind]
-                    en = {'paired': 'paired compound of ', 'phrase': 'phrase made of ', 'closed': 'compound of '}[kind] + ' and '.join(glosses)
+                          'closed': f'{names} sözlərindən düzələn mürəkkəb söz.', 'governed': f'{names} sözlərindən düzələn mürəkkəb söz.'}[kind]
+                    en = {'paired': 'paired compound of ', 'phrase': 'phrase made of ', 'closed': 'compound of ',
+                          'governed': 'compound of '}[kind] + ' and '.join(glosses)
                     last = self.defined(parts[-1])['pos']
                     pos = 'phrase' if kind == 'phrase' else last if last in POS else 'noun'
+                    # A verb as the second part enters as a participle or verbal noun (gülbecərən, hesabaçma).
+                    form = self.form_kind.get(word) if kind == 'governed' else None
+                    if form:
+                        pos = 'noun' if form in ('doer', 'action', 'result', 'verbal-noun') else 'adjective'
                     self.define(word, az, en, pos, refs, 'rule', base=parts[-1])
 
     def rules(self, define=True):
