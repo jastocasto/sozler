@@ -1,0 +1,1072 @@
+{
+ "subatlantik": {
+  "az": "Holosenin son, müasir iqlim dövrünə aid.",
+  "en": "Subatlantic",
+  "pos": "adjective"
+ },
+ "subatmosfer": {
+  "az": "Atmosfer təzyiqindən aşağı olan.",
+  "en": "subatmospheric",
+  "pos": "adjective"
+ },
+ "subatom": {
+  "az": "Atomdan kiçik zərrəcik.",
+  "en": "subatomic particle",
+  "pos": "noun"
+ },
+ "subbakalavr": {
+  "skip": "meaning not certain"
+ },
+ "subblok": {
+  "az": "Blokun tərkib hissəsi.",
+  "en": "sub-block",
+  "pos": "noun"
+ },
+ "subcırtdan": {
+  "az": "Eyni temperaturlu adi ulduzlardan zəif işıqlanan ulduz.",
+  "en": "subdwarf (star)",
+  "pos": "noun"
+ },
+ "subdisk": {
+  "skip": "meaning not certain"
+ },
+ "subdominant": {
+  "az": "Ladın dördüncü pilləsi və ya ona əsaslanan akkord.",
+  "en": "subdominant",
+  "pos": "noun"
+ },
+ "subekvatorial": {
+  "az": "Ekvatorial və tropik qurşaqlar arasındakı iqlimə aid.",
+  "en": "subequatorial",
+  "pos": "adjective"
+ },
+ "subəzəyi": {
+  "skip": "meaning not certain"
+ },
+ "subfonem": {
+  "skip": "meaning not certain"
+ },
+ "subharmonik": {
+  "az": "Əsas tezlikdən tam dəfələrlə kiçik tezliyə aid.",
+  "en": "subharmonic",
+  "pos": "adjective"
+ },
+ "subibəri": {
+  "skip": "plant name not certain"
+ },
+ "subiti": {
+  "skip": "meaning not certain"
+ },
+ "subkontinent": {
+  "az": "Materikin böyük, ayrıca seçilən hissəsi.",
+  "en": "subcontinent",
+  "pos": "noun"
+ },
+ "subkontinental": {
+  "az": "Subkontinentə aid.",
+  "en": "subcontinental",
+  "pos": "adjective"
+ },
+ "subqitə": {
+  "az": "Materikin böyük, ayrıca seçilən hissəsi.",
+  "en": "subcontinent",
+  "pos": "noun"
+ },
+ "sublimat": {
+  "az": "Sublimasiya yolu ilə alınan maddə.",
+  "en": "sublimate",
+  "pos": "noun"
+ },
+ "sublimator": {
+  "az": "Maddəni sublimasiya yolu ilə ayıran qurğu.",
+  "en": "sublimator",
+  "pos": "noun"
+ },
+ "sublimə": {
+  "skip": "used only in compounds"
+ },
+ "sublisenziya": {
+  "az": "Lisenziya sahibinin hüququ başqasına verməsi.",
+  "en": "sublicence",
+  "pos": "noun"
+ },
+ "submaksimal": {
+  "az": "Maksimumdan bir qədər aşağı.",
+  "en": "submaximal",
+  "pos": "adjective"
+ },
+ "submikroelement": {
+  "skip": "meaning not certain"
+ },
+ "submikron": {
+  "az": "Mikrondan kiçik ölçülü.",
+  "en": "submicron",
+  "pos": "adjective"
+ },
+ "submikroskopik": {
+  "az": "Adi mikroskopla görünməyəcək qədər kiçik.",
+  "en": "submicroscopic",
+  "pos": "adjective"
+ },
+ "submillimetr": {
+  "az": "Millimetrdən kiçik.",
+  "en": "submillimetre",
+  "pos": "adjective"
+ },
+ "submodel": {
+  "az": "Böyük modelin tərkib hissəsi olan model.",
+  "en": "submodel",
+  "pos": "noun"
+ },
+ "submotiv": {
+  "skip": "meaning not certain"
+ },
+ "subnormal": {
+  "az": "Normadan aşağı.",
+  "en": "subnormal",
+  "pos": "adjective"
+ },
+ "suboptimal": {
+  "az": "Ən yaxşı səviyyədən aşağı.",
+  "en": "suboptimal",
+  "pos": "adjective"
+ },
+ "suborbital": {
+  "az": "Orbitə çıxmadan aparılan uçuşa aid.",
+  "en": "suborbital",
+  "pos": "adjective"
+ },
+ "subordinatura": {
+  "skip": "meaning not certain"
+ },
+ "suborqanizm": {
+  "skip": "meaning not certain"
+ },
+ "subölüşdürücü": {
+  "skip": "meaning not certain"
+ },
+ "subparalel": {
+  "az": "Demək olar ki, paralel olan.",
+  "en": "subparallel",
+  "pos": "adjective"
+ },
+ "subregional": {
+  "az": "Regionun bir hissəsinə aid.",
+  "en": "subregional",
+  "pos": "adjective"
+ },
+ "subroqasiya": {
+  "az": "Ödənilmiş zərərə görə tələb hüququnun sığortaçıya keçməsi.",
+  "en": "subrogation",
+  "pos": "noun"
+ },
+ "substandart": {
+  "az": "Standarta tam uyğun olmayan, keyfiyyəti aşağı.",
+  "en": "substandard",
+  "pos": "adjective"
+ },
+ "substant": {
+  "skip": "meaning not certain"
+ },
+ "substitut": {
+  "az": "Əvəzedici, əvəz edən şey.",
+  "en": "substitute",
+  "pos": "noun"
+ },
+ "substratostat": {
+  "skip": "meaning not certain"
+ },
+ "subterminal": {
+  "az": "Ucuna yaxın yerləşən.",
+  "en": "subterminal",
+  "pos": "adjective"
+ },
+ "suburaxma": {
+  "az": "Suyun buraxılması.",
+  "en": "water release",
+  "pos": "noun"
+ },
+ "subvariant": {
+  "az": "Variantın alt növü.",
+  "en": "subvariant",
+  "pos": "noun"
+ },
+ "subvulkan": {
+  "az": "Yer səthinə çıxmadan bərkimiş vulkan kütləsi.",
+  "en": "subvolcano",
+  "pos": "noun"
+ },
+ "sucincilimi": {
+  "skip": "plant name not certain"
+ },
+ "sucüllütü": {
+  "skip": "meaning not certain"
+ },
+ "suçiləyici": {
+  "az": "Su çiləyən qurğu.",
+  "en": "water sprinkler",
+  "pos": "noun"
+ },
+ "sudartan": {
+  "az": "Suyu çəkib qaldıran qurğu.",
+  "en": "water lifter",
+  "pos": "noun"
+ },
+ "sudartma": {
+  "az": "Suyun çəkilib qaldırılması.",
+  "en": "drawing up water",
+  "pos": "noun"
+ },
+ "sudaşıma": {
+  "az": "Suyun daşınması.",
+  "en": "water carrying",
+  "pos": "noun"
+ },
+ "sudibi": {
+  "az": "Su hövzəsinin dibi.",
+  "en": "bottom of a body of water",
+  "pos": "noun"
+ },
+ "sudolduran": {
+  "az": "Qablara su dolduran qurğu.",
+  "en": "water filler",
+  "pos": "noun"
+ },
+ "sudoldurma": {
+  "az": "Qabın su ilə doldurulması.",
+  "en": "filling with water",
+  "pos": "noun"
+ },
+ "sudöyən": {
+  "skip": "meaning not certain"
+ },
+ "suduruldan": {
+  "az": "Bulanıq suyu durulaşdıran qurğu.",
+  "en": "water clarifier",
+  "pos": "noun"
+ },
+ "sudurulducu": {
+  "az": "Suyu durulaşdıran qurğu və ya maddə.",
+  "en": "water clarifier",
+  "pos": "noun"
+ },
+ "sudurultma": {
+  "az": "Bulanıq suyun durulaşdırılması.",
+  "en": "water clarification",
+  "pos": "noun"
+ },
+ "suələfi": {
+  "skip": "plant name not certain"
+ },
+ "sufayı": {
+  "skip": "meaning not certain"
+ },
+ "sufındığı": {
+  "az": "Suda bitən, buynuzlu qoz meyvəsi olan bitki.",
+  "en": "water chestnut (Trapa)",
+  "pos": "noun"
+ },
+ "sufışqırdan": {
+  "az": "Su fışqıran qurğu.",
+  "en": "water jet",
+  "pos": "noun"
+ },
+ "sugöbələyi": {
+  "skip": "meaning not certain"
+ },
+ "sugörməz": {
+  "skip": "meaning not certain"
+ },
+ "sugötürmə": {
+  "az": "Su hövzəsindən su götürülməsi.",
+  "en": "water withdrawal",
+  "pos": "noun"
+ },
+ "suhazırlayıcı": {
+  "az": "Suyu istifadəyə hazırlayan qurğu.",
+  "en": "water treatment unit",
+  "pos": "noun"
+ },
+ "suhopduran": {
+  "az": "Suyu özünə hopduran.",
+  "en": "water-absorbing",
+  "pos": "adjective"
+ },
+ "suhopdurmaz": {
+  "az": "Suyu özünə hopdurmayan.",
+  "en": "water-repellent",
+  "pos": "adjective"
+ },
+ "suhorizontu": {
+  "az": "Yeraltı suyun yerləşdiyi qat.",
+  "en": "aquifer level",
+  "pos": "noun"
+ },
+ "suxərçəngi": {
+  "skip": "meaning not certain"
+ },
+ "suincilotu": {
+  "skip": "plant name not certain"
+ },
+ "suisidən": {
+  "skip": "meaning not certain"
+ },
+ "sukeçirmə": {
+  "az": "Suyun içindən keçirilməsi.",
+  "en": "water permeability",
+  "pos": "noun"
+ },
+ "sukərəvizi": {
+  "skip": "plant name not certain"
+ },
+ "sukre": {
+  "az": "Ekvadorun keçmiş pul vahidi.",
+  "en": "sucre",
+  "pos": "noun"
+ },
+ "suqabı": {
+  "az": "Su üçün qab.",
+  "en": "water container",
+  "pos": "noun"
+ },
+ "suqaldırıcı": {
+  "az": "Suyu yuxarı qaldıran qurğu.",
+  "en": "water lifter",
+  "pos": "noun"
+ },
+ "suqarışdırıcı": {
+  "skip": "meaning not certain"
+ },
+ "suqaynadıcı": {
+  "az": "Su qaynadan cihaz.",
+  "en": "water boiler",
+  "pos": "noun"
+ },
+ "suqəbuledici": {
+  "az": "Su hövzəsindən su götürən qurğu.",
+  "en": "water intake",
+  "pos": "noun"
+ },
+ "suqızdırıcı": {
+  "az": "Su qızdıran cihaz.",
+  "en": "water heater",
+  "pos": "noun"
+ },
+ "suqızdırma": {
+  "az": "Suyun qızdırılması.",
+  "en": "water heating",
+  "pos": "noun"
+ },
+ "suqqestiv": {
+  "az": "Təlqinə əsaslanan, təlqin edən.",
+  "en": "suggestive",
+  "pos": "adjective"
+ },
+ "suqqestopediya": {
+  "az": "Təlqindən istifadə edən sürətli öyrənmə üsulu.",
+  "en": "suggestopedia",
+  "pos": "noun"
+ },
+ "suqoruma": {
+  "az": "Suyun və su hövzələrinin qorunması.",
+  "en": "water conservation",
+  "pos": "noun"
+ },
+ "suqoruyan": {
+  "az": "Suyu qoruyan.",
+  "en": "water-protecting",
+  "pos": "adjective"
+ },
+ "suqoruyucu": {
+  "az": "Su hövzələrini qoruyan.",
+  "en": "water-protective",
+  "pos": "adjective"
+ },
+ "suqovşağı": {
+  "az": "İki çayın birləşdiyi yer.",
+  "en": "confluence",
+  "pos": "noun"
+ },
+ "suqovuşan": {
+  "skip": "meaning not certain"
+ },
+ "sulələyi": {
+  "skip": "meaning not certain"
+ },
+ "sulfamid": {
+  "az": "Bakteriyalara qarşı işlədilən sintetik dərman qrupu.",
+  "en": "sulfonamide",
+  "pos": "noun"
+ },
+ "sulfanil": {
+  "skip": "meaning not certain"
+ },
+ "sulfanilamid": {
+  "az": "Bakteriyalara qarşı işlədilən sintetik dərman.",
+  "en": "sulfanilamide",
+  "pos": "noun"
+ },
+ "sulfanol": {
+  "az": "Sintetik yuyucu maddə.",
+  "en": "sulfanol (detergent)",
+  "pos": "noun"
+ },
+ "sulfidin": {
+  "skip": "meaning not certain"
+ },
+ "sulfid-selenit": {
+  "skip": "meaning not certain"
+ },
+ "sulfit": {
+  "az": "Kükürdlü turşunun duzu.",
+  "en": "sulfite",
+  "pos": "noun"
+ },
+ "sulfohidrat": {
+  "skip": "meaning not certain"
+ },
+ "sulfoturşu": {
+  "az": "Sulfo qrupu olan üzvi turşu.",
+  "en": "sulfonic acid",
+  "pos": "noun"
+ },
+ "sumbatçı": {
+  "skip": "meaning not certain"
+ },
+ "sumbatlayıcı": {
+  "skip": "meaning not certain"
+ },
+ "sumbatsız": {
+  "skip": "meaning not certain"
+ },
+ "sumərciməyi": {
+  "az": "Suyun səthində üzən xırda bitki.",
+  "en": "duckweed",
+  "pos": "noun"
+ },
+ "sumilçəyi": {
+  "skip": "meaning not certain"
+ },
+ "suötürən": {
+  "az": "Suyu ötürən.",
+  "en": "water-conducting",
+  "pos": "adjective"
+ },
+ "suötürücü": {
+  "az": "Suyu ötürən boru və ya qurğu.",
+  "en": "water conduit",
+  "pos": "noun"
+ },
+ "supaylayıcı": {
+  "az": "Suyu paylayan qurğu.",
+  "en": "water distributor",
+  "pos": "noun"
+ },
+ "supermen": {
+  "az": "Fövqəlbəşər, qeyri-adi güclü adam.",
+  "en": "superman",
+  "pos": "noun"
+ },
+ "supersonik": {
+  "az": "Səsdən sürətli.",
+  "en": "supersonic",
+  "pos": "adjective"
+ },
+ "superstar": {
+  "az": "Çox məşhur ulduz.",
+  "en": "superstar",
+  "pos": "noun"
+ },
+ "supertrauler": {
+  "az": "Böyük trol balıqçılıq gəmisi.",
+  "en": "supertrawler",
+  "pos": "noun"
+ },
+ "supervayzer": {
+  "az": "İşə nəzarət edən məsul şəxs.",
+  "en": "supervisor",
+  "pos": "noun"
+ },
+ "suppletivizm": {
+  "az": "Bir sözün formalarının müxtəlif köklərdən yaranması.",
+  "en": "suppletion",
+  "pos": "noun"
+ },
+ "surdoloqoterapevt": {
+  "az": "Eşitmə qüsurlu adamların nitqi ilə məşğul olan mütəxəssis.",
+  "en": "speech therapist for the hearing-impaired",
+  "pos": "noun"
+ },
+ "susaxlayıcı": {
+  "az": "Suyu saxlayan.",
+  "en": "water-retaining",
+  "pos": "adjective"
+ },
+ "susaxlama": {
+  "az": "Suyun saxlanması.",
+  "en": "water retention",
+  "pos": "noun"
+ },
+ "susəpələmə": {
+  "az": "Su səpələmə.",
+  "en": "water sprinkling",
+  "pos": "noun"
+ },
+ "susəpələyən": {
+  "az": "Su səpələyən.",
+  "en": "sprinkling",
+  "pos": "adjective"
+ },
+ "susəpici": {
+  "az": "Su səpən qurğu.",
+  "en": "sprinkler",
+  "pos": "noun"
+ },
+ "susəpmə": {
+  "az": "Su səpmə.",
+  "en": "sprinkling",
+  "pos": "noun"
+ },
+ "susərçəsi": {
+  "skip": "meaning not certain"
+ },
+ "susıçradan": {
+  "skip": "meaning not certain"
+ },
+ "susıçradıcı": {
+  "skip": "meaning not certain"
+ },
+ "susızdıran": {
+  "az": "Suyu sızdıran.",
+  "en": "leaking water",
+  "pos": "adjective"
+ },
+ "susızdırıcı": {
+  "skip": "meaning not certain"
+ },
+ "susoyudan": {
+  "az": "Suyu soyudan.",
+  "en": "water-cooling",
+  "pos": "adjective"
+ },
+ "susoyuducu": {
+  "az": "Su soyudan cihaz.",
+  "en": "water cooler",
+  "pos": "noun"
+ },
+ "susoyutma": {
+  "az": "Suyun soyudulması.",
+  "en": "water cooling",
+  "pos": "noun"
+ },
+ "susünbülçiçəyi": {
+  "skip": "plant name not certain"
+ },
+ "susüzən": {
+  "az": "Suyu süzən qurğu.",
+  "en": "water filter",
+  "pos": "noun"
+ },
+ "sutəmizləyən": {
+  "az": "Suyu təmizləyən.",
+  "en": "water-purifying",
+  "pos": "adjective"
+ },
+ "sutəmizləyici": {
+  "az": "Suyu təmizləyən qurğu.",
+  "en": "water purifier",
+  "pos": "noun"
+ },
+ "sutənzimedici": {
+  "az": "Su axınını tənzimləyən.",
+  "en": "water-regulating",
+  "pos": "adjective"
+ },
+ "sutənzimləyici": {
+  "az": "Su axınını tənzimləyən qurğu.",
+  "en": "water regulator",
+  "pos": "noun"
+ },
+ "sutərəsi": {
+  "skip": "plant name not certain"
+ },
+ "sutoplayan": {
+  "az": "Su toplayan.",
+  "en": "water-collecting",
+  "pos": "adjective"
+ },
+ "sutoplayıcı": {
+  "az": "Su toplayan qurğu.",
+  "en": "water collector",
+  "pos": "noun"
+ },
+ "sutökən": {
+  "skip": "meaning not certain"
+ },
+ "sututmaz": {
+  "skip": "meaning not certain"
+ },
+ "sututucu": {
+  "skip": "meaning not certain"
+ },
+ "sututumlu": {
+  "az": "Suyu çox saxlaya bilən.",
+  "en": "water-retentive",
+  "pos": "adjective"
+ },
+ "sututumsuz": {
+  "az": "Suyu saxlaya bilməyən.",
+  "en": "not water-retentive",
+  "pos": "adjective"
+ },
+ "suverən": {
+  "az": "Müstəqil, ali hakimiyyətə malik.",
+  "en": "sovereign",
+  "pos": "adjective"
+ },
+ "suvermə": {
+  "az": "Bitkilərə və ya torpağa su vermə.",
+  "en": "watering",
+  "pos": "noun"
+ },
+ "suvurma": {
+  "skip": "meaning not certain"
+ },
+ "suyabatan": {
+  "az": "Suya batan.",
+  "en": "sinking in water",
+  "pos": "adjective"
+ },
+ "suyabatıq": {
+  "az": "Suya batmış.",
+  "en": "submerged",
+  "pos": "adjective"
+ },
+ "suyaoxşar": {
+  "az": "Suya bənzəyən.",
+  "en": "water-like",
+  "pos": "adjective"
+ },
+ "suyayatan": {
+  "skip": "meaning not certain"
+ },
+ "suyığan": {
+  "az": "Su yığan.",
+  "en": "water-collecting",
+  "pos": "adjective"
+ },
+ "suyığıcı": {
+  "az": "Su yığan qurğu və ya hövzə.",
+  "en": "water collector",
+  "pos": "noun"
+ },
+ "suyığma": {
+  "az": "Suyun yığılması.",
+  "en": "water collection",
+  "pos": "noun"
+ },
+ "suyoncası": {
+  "skip": "plant name not certain"
+ },
+ "suyumşaldıcı": {
+  "az": "Suyun codluğunu azaldan qurğu və ya maddə.",
+  "en": "water softener",
+  "pos": "noun"
+ },
+ "sübhan": {
+  "az": "Hər nöqsandan uzaq olan; Allahın sifətlərindən biri.",
+  "en": "the Glorified (attribute of God)",
+  "pos": "noun"
+ },
+ "sübhanallah": {
+  "az": "Təəccüb bildirən və ya Allahı uca tutan nida.",
+  "en": "glory be to God!",
+  "pos": "interjection"
+ },
+ "sübhdən-axşamacan": {
+  "az": "Səhərdən axşama qədər.",
+  "en": "from dawn till dusk",
+  "pos": "adverb"
+ },
+ "sübhdən-axşamadək": {
+  "az": "Səhərdən axşama qədər.",
+  "en": "from dawn till dusk",
+  "pos": "adverb"
+ },
+ "sübutluluq": {
+  "az": "Dəlillərə əsaslanma, sübutlu olma.",
+  "en": "being well-founded",
+  "pos": "noun"
+ },
+ "südgül": {
+  "skip": "plant name not certain"
+ },
+ "südotu": {
+  "skip": "plant name not certain"
+ },
+ "süxurlaşdıran": {
+  "skip": "meaning not certain"
+ },
+ "sülhlük-dinclik": {
+  "az": "Sülh və əmin-amanlıq.",
+  "en": "peace and quiet",
+  "pos": "noun"
+ },
+ "süls": {
+  "az": "Ərəb xəttinin iri, zərif növlərindən biri.",
+  "en": "thuluth script",
+  "pos": "noun"
+ },
+ "sümüktörədən qat": {
+  "az": "Sümük toxuması əmələ gətirən qat.",
+  "en": "osteogenic layer",
+  "pos": "phrase"
+ },
+ "sünbülotu": {
+  "skip": "plant name not certain"
+ },
+ "sünəçə": {
+  "skip": "meaning not certain"
+ },
+ "süpürgəotu": {
+  "skip": "plant name not certain"
+ },
+ "sürreal": {
+  "az": "Gerçəklikdən kənar, xəyali.",
+  "en": "surreal",
+  "pos": "adjective"
+ },
+ "sürtkü yağları": {
+  "az": "Sürtünməni azaltmaq üçün işlədilən yağlar.",
+  "en": "lubricating oils",
+  "pos": "phrase"
+ },
+ "sürüm": {
+  "skip": "meaning not certain"
+ },
+ "sürüngəc": {
+  "skip": "meaning not certain"
+ },
+ "sürvəotu": {
+  "skip": "plant name not certain"
+ },
+ "süzən": {
+  "skip": "meaning not certain"
+ },
+ "süzəni": {
+  "az": "Orta Asiyada tikmə ilə bəzədilmiş parça.",
+  "en": "suzani (embroidered textile)",
+  "pos": "noun"
+ },
+ "süzük": {
+  "skip": "meaning not certain"
+ },
+ "süzülü": {
+  "skip": "meaning not certain"
+ },
+ "svan": {
+  "az": "Gürcüstanın Svanetiya bölgəsində yaşayan xalqın nümayəndəsi.",
+  "en": "Svan",
+  "pos": "noun"
+ },
+ "svastika": {
+  "az": "Ucları əyilmiş xaç şəklində simvol.",
+  "en": "swastika",
+  "pos": "noun"
+ },
+ "svay": {
+  "az": "Binanın özülü üçün yerə vurulan dirək.",
+  "en": "pile (foundation)",
+  "pos": "noun"
+ },
+ "svopinq": {
+  "skip": "meaning not certain"
+ },
+ "tabaqlama üsulu": {
+  "skip": "meaning not certain"
+ },
+ "tabasaranca": {
+  "az": "Tabasaran dilində.",
+  "en": "in Tabasaran",
+  "pos": "adverb"
+ },
+ "tabeetdirmə siyasəti": {
+  "az": "Başqalarını özünə tabe etmə siyasəti.",
+  "en": "policy of subjugation",
+  "pos": "phrase"
+ },
+ "tabletləmə maşını": {
+  "az": "Toz halında maddədən həb hazırlayan maşın.",
+  "en": "tableting machine",
+  "pos": "phrase"
+ },
+ "tabletləyici": {
+  "az": "Həb hazırlayan qurğu.",
+  "en": "tablet press",
+  "pos": "noun"
+ },
+ "tabofobiya": {
+  "skip": "meaning not certain"
+ },
+ "taboiflic": {
+  "skip": "meaning not certain"
+ },
+ "tabulyator": {
+  "az": "Mətni sütunlarla düzmək üçün klaviş.",
+  "en": "tab key, tabulator",
+  "pos": "noun"
+ },
+ "tacaoxşar": {
+  "az": "Taca bənzəyən.",
+  "en": "crown-like",
+  "pos": "adjective"
+ },
+ "tacir-tüccar": {
+  "az": "Tacirlər, alverçilər.",
+  "en": "merchants and traders",
+  "pos": "noun"
+ },
+ "tael": {
+  "az": "Çində keçmiş çəki və pul vahidi.",
+  "en": "tael",
+  "pos": "noun"
+ },
+ "tafefobiya": {
+  "az": "Diri-diri basdırılmaqdan xəstə qorxu.",
+  "en": "taphephobia",
+  "pos": "noun"
+ },
+ "tağaoxşar": {
+  "az": "Tağa bənzəyən.",
+  "en": "arch-like",
+  "pos": "adjective"
+ },
+ "tağbatağ": {
+  "skip": "meaning not certain"
+ },
+ "taxçasız-boğçasız": {
+  "skip": "meaning not certain"
+ },
+ "taxifagiya": {
+  "az": "Yeməyi tələsik udma.",
+  "en": "tachyphagia",
+  "pos": "noun"
+ },
+ "taxifaziya": {
+  "az": "Həddindən artıq sürətli nitq.",
+  "en": "tachyphasia",
+  "pos": "noun"
+ },
+ "taxifemiya": {
+  "skip": "meaning not certain"
+ },
+ "taxifilaksiya": {
+  "az": "Dərmanın təkrar qəbulda təsirinin sürətlə azalması.",
+  "en": "tachyphylaxis",
+  "pos": "noun"
+ },
+ "taxigenez": {
+  "skip": "meaning not certain"
+ },
+ "taxilaliya": {
+  "az": "Çox sürətli danışıq.",
+  "en": "tachylalia",
+  "pos": "noun"
+ },
+ "taxta-tuxta": {
+  "az": "Müxtəlif taxta parçaları, taxta qırıntıları.",
+  "en": "bits of wood",
+  "pos": "noun"
+ },
+ "takofobiya": {
+  "az": "Sürətdən xəstə qorxu.",
+  "en": "tachophobia (fear of speed)",
+  "pos": "noun"
+ },
+ "taksa": {
+  "skip": "several unrelated senses"
+ },
+ "taksasiya": {
+  "az": "Meşənin ağac ehtiyatının qiymətləndirilməsi.",
+  "en": "forest valuation",
+  "pos": "noun"
+ },
+ "taks-fri": {
+  "az": "Turistlərə alış zamanı vergini geri qaytaran sistem.",
+  "en": "tax-free (shopping)",
+  "pos": "noun"
+ },
+ "taksidermist": {
+  "az": "Heyvan müqəvvaları hazırlayan usta.",
+  "en": "taxidermist",
+  "pos": "noun"
+ },
+ "taksoid": {
+  "skip": "meaning not certain"
+ },
+ "taksonomik": {
+  "az": "Canlıların təsnifatına aid.",
+  "en": "taxonomic",
+  "pos": "adjective"
+ },
+ "taktil": {
+  "az": "Toxunma ilə bağlı.",
+  "en": "tactile",
+  "pos": "adjective"
+ },
+ "taktometr": {
+  "skip": "meaning not certain"
+ },
+ "taqal": {
+  "skip": "meaning not certain"
+ },
+ "taqanok": {
+  "skip": "meaning not certain"
+ },
+ "taqqıldaq": {
+  "skip": "meaning not certain"
+ },
+ "talamokortikal": {
+  "az": "Talamusla beyin qabığı arasındakı.",
+  "en": "thalamocortical",
+  "pos": "adjective"
+ },
+ "talamotomiya": {
+  "az": "Talamusun bir hissəsinin cərrahi yolla dağıdılması.",
+  "en": "thalamotomy",
+  "pos": "noun"
+ },
+ "talamus": {
+  "az": "Ara beynin əsas hissəsi, görmə qabarı.",
+  "en": "thalamus",
+  "pos": "noun"
+ },
+ "talassin": {
+  "skip": "meaning not certain"
+ },
+ "talassofobiya": {
+  "az": "Dənizdən xəstə qorxu.",
+  "en": "thalassophobia",
+  "pos": "noun"
+ },
+ "talassoterapiya": {
+  "az": "Dəniz suyu və iqlimi ilə müalicə.",
+  "en": "thalassotherapy",
+  "pos": "noun"
+ },
+ "taleyiqara": {
+  "az": "Taleyi qara olan, bədbəxt.",
+  "en": "ill-fated",
+  "pos": "adjective"
+ },
+ "talibançı": {
+  "az": "Taliban hərəkatının tərəfdarı.",
+  "en": "Taliban supporter",
+  "pos": "noun"
+ },
+ "talisman": {
+  "az": "Uğur gətirdiyinə inanılan əşya.",
+  "en": "talisman",
+  "pos": "noun"
+ },
+ "talkan": {
+  "skip": "meaning not certain"
+ },
+ "talklayıcı": {
+  "skip": "meaning not certain"
+ },
+ "tambur": {
+  "skip": "several unrelated senses"
+ },
+ "tamil": {
+  "az": "Hindistanın cənubunda və Şri-Lankada yaşayan xalqın nümayəndəsi.",
+  "en": "Tamil",
+  "pos": "noun"
+ },
+ "tammətnli": {
+  "az": "Mətni tam olan.",
+  "en": "full-text",
+  "pos": "adjective"
+ },
+ "tamötürücülü": {
+  "skip": "meaning not certain"
+ },
+ "tamponaj": {
+  "az": "Quyu divarlarının sementlə bərkidilməsi.",
+  "en": "well cementing",
+  "pos": "noun"
+ },
+ "tanatofobiya": {
+  "az": "Ölümdən xəstə qorxu.",
+  "en": "thanatophobia",
+  "pos": "noun"
+ },
+ "tandem": {
+  "az": "İki nəfərin birgə fəaliyyəti; iki nəfərlik velosiped.",
+  "en": "tandem",
+  "pos": "noun"
+ },
+ "tangens": {
+  "az": "Bucağın qarşı katetinin bitişik katetə nisbəti olan triqonometrik funksiya.",
+  "en": "tangent (trigonometry)",
+  "pos": "noun"
+ },
+ "tangensial": {
+  "az": "Toxunan xətt istiqamətində yönələn.",
+  "en": "tangential",
+  "pos": "adjective"
+ },
+ "tangenta": {
+  "skip": "meaning not certain"
+ },
+ "tangental": {
+  "skip": "meaning not certain"
+ },
+ "tanıda-tanıda": {
+  "skip": "form not certain"
+ },
+ "tanımaza-bilməzə": {
+  "skip": "meaning not certain"
+ },
+ "tanımaza-görməzə": {
+  "skip": "meaning not certain"
+ },
+ "tanıtım": {
+  "az": "Təqdimat, bir şeyi tanıtma.",
+  "en": "presentation, promotion",
+  "pos": "noun"
+ },
+ "tanıyan-bilən": {
+  "skip": "meaning not certain"
+ },
+ "tankodrom": {
+  "az": "Tank sürücülərinin məşq meydançası.",
+  "en": "tank training ground",
+  "pos": "noun"
+ },
+ "tanqut": {
+  "az": "Qədim tanqut xalqının nümayəndəsi.",
+  "en": "Tangut",
+  "pos": "noun"
+ },
+ "tano-astek": {
+  "skip": "meaning not certain"
+ },
+ "tanoyuto-astek": {
+  "skip": "meaning not certain"
+ },
+ "tanrıçı-şamançı": {
+  "skip": "meaning not certain"
+ },
+ "tanrıçı-şamanist": {
+  "skip": "meaning not certain"
+ },
+ "tanrısevər": {
+  "az": "Tanrını sevən, dindar.",
+  "en": "God-loving",
+  "pos": "adjective"
+ },
+ "tantamareska": {
+  "skip": "meaning not certain"
+ }
+}

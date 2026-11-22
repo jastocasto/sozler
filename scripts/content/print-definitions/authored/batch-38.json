@@ -1,0 +1,1018 @@
+{
+ "tantra": {
+  "az": "Hinduizm və buddizmdə mistik təlim və ayin mətnləri.",
+  "en": "tantra",
+  "pos": "noun"
+ },
+ "tantraizm": {
+  "az": "Tantraya əsaslanan dini-mistik cərəyan.",
+  "en": "Tantrism",
+  "pos": "noun"
+ },
+ "tapdada-tapdada": {
+  "skip": "form not certain"
+ },
+ "tapdalada-tapdalada": {
+  "skip": "form not certain"
+ },
+ "tapınaq": {
+  "az": "Məbəd, ibadət yeri.",
+  "en": "temple",
+  "pos": "noun"
+ },
+ "tapınan": {
+  "az": "Sitayiş edən adam.",
+  "en": "worshipper",
+  "pos": "noun"
+ },
+ "tara": {
+  "az": "Malın qablaşdırıldığı qab, yeşik və ya kisə.",
+  "en": "packaging, container",
+  "pos": "noun"
+ },
+ "taraqqataraq": {
+  "skip": "meaning not certain"
+ },
+ "tarantas": {
+  "az": "Uzun yollar üçün dördtəkərli at arabası.",
+  "en": "tarantass (carriage)",
+  "pos": "noun"
+ },
+ "tarap-turup": {
+  "skip": "meaning not certain"
+ },
+ "tarbozavr": {
+  "az": "Asiyada yaşamış nəhəng yırtıcı dinozavr.",
+  "en": "tarbosaurus",
+  "pos": "noun"
+ },
+ "targetinq": {
+  "az": "Reklamın müəyyən auditoriyaya yönəldilməsi.",
+  "en": "targeting",
+  "pos": "noun"
+ },
+ "tarixdənəvvəlki": {
+  "az": "Yazılı tarixdən əvvəlki dövrə aid.",
+  "en": "prehistoric",
+  "pos": "adjective"
+ },
+ "tarixdənqabaqkı": {
+  "az": "Yazılı tarixdən əvvəlki dövrə aid.",
+  "en": "prehistoric",
+  "pos": "adjective"
+ },
+ "tarixdənöncəki": {
+  "az": "Yazılı tarixdən əvvəlki dövrə aid.",
+  "en": "prehistoric",
+  "pos": "adjective"
+ },
+ "tarixəqədərki": {
+  "az": "Yazılı tarixdən əvvəlki dövrə aid.",
+  "en": "prehistoric",
+  "pos": "adjective"
+ },
+ "tarixi-politoloji": {
+  "az": "Tarix və politologiyaya aid.",
+  "en": "historical-political",
+  "pos": "adjective"
+ },
+ "tarixi-taktoloji": {
+  "skip": "meaning not certain"
+ },
+ "tarixizm": {
+  "az": "Hadisələrə tarixi inkişaf baxımından yanaşma prinsipi.",
+  "en": "historicism",
+  "pos": "noun"
+ },
+ "tarixöncəsi": {
+  "az": "Yazılı tarixdən əvvəlki dövrə aid.",
+  "en": "prehistoric",
+  "pos": "adjective"
+ },
+ "tarzoplastika": {
+  "az": "Göz qapağı qığırdağının plastik əməliyyatı.",
+  "en": "tarsoplasty",
+  "pos": "noun"
+ },
+ "tarzotomiya": {
+  "az": "Göz qapağı qığırdağının cərrahi kəsilməsi.",
+  "en": "tarsotomy",
+  "pos": "noun"
+ },
+ "tasman": {
+  "skip": "meaning not certain"
+ },
+ "taşelhit": {
+  "az": "Mərakeşdə danışılan bərbər dili.",
+  "en": "Tashelhit",
+  "pos": "noun"
+ },
+ "tataz": {
+  "skip": "meaning not certain"
+ },
+ "tatca": {
+  "az": "Tat dilində.",
+  "en": "in Tat",
+  "pos": "adverb"
+ },
+ "tatuaj": {
+  "az": "Dəriyə vurulan döymə.",
+  "en": "tattoo",
+  "pos": "noun"
+ },
+ "taurofobiya": {
+  "az": "Buğalardan xəstə qorxu.",
+  "en": "taurophobia",
+  "pos": "noun"
+ },
+ "tavalma": {
+  "skip": "meaning not certain"
+ },
+ "tavtasizm": {
+  "skip": "meaning not certain"
+ },
+ "tavtometriya": {
+  "skip": "meaning not certain"
+ },
+ "taym-aut": {
+  "az": "Oyunda komandaya verilən qısa fasilə.",
+  "en": "time-out",
+  "pos": "noun"
+ },
+ "taym-çarter": {
+  "az": "Gəminin müəyyən müddətə icarəsi.",
+  "en": "time charter",
+  "pos": "noun"
+ },
+ "taym-element": {
+  "skip": "meaning not certain"
+ },
+ "taymoqraf": {
+  "skip": "meaning not certain"
+ },
+ "tayvanlı": {
+  "az": "Tayvanda doğulmuş və ya yaşayan şəxs.",
+  "en": "Taiwanese",
+  "pos": "noun"
+ },
+ "taz": {
+  "skip": "several unrelated senses"
+ },
+ "tazısız-tulasız": {
+  "skip": "meaning not certain"
+ },
+ "teatrlaşma": {
+  "az": "Teatr xarakteri alma.",
+  "en": "theatricalization",
+  "pos": "noun"
+ },
+ "teatrofobiya": {
+  "skip": "meaning not certain"
+ },
+ "texminimum": {
+  "az": "İş üçün lazım olan əsas texniki biliklər məcmusu.",
+  "en": "technical minimum",
+  "pos": "noun"
+ },
+ "texnik-intendant": {
+  "skip": "meaning not certain"
+ },
+ "texnisizm": {
+  "skip": "meaning not certain"
+ },
+ "texnogen": {
+  "az": "İnsanın texniki fəaliyyəti nəticəsində yaranan.",
+  "en": "technogenic",
+  "pos": "adjective"
+ },
+ "texnogenez": {
+  "az": "Texnikanın inkişafı və təbiətə təsiri prosesi.",
+  "en": "technogenesis",
+  "pos": "noun"
+ },
+ "texnokrat": {
+  "az": "İdarəçiliyin texniki mütəxəssislərə verilməsinin tərəfdarı.",
+  "en": "technocrat",
+  "pos": "noun"
+ },
+ "texnokratiya": {
+  "az": "Hakimiyyətin texniki mütəxəssislərə məxsus olduğu idarə forması.",
+  "en": "technocracy",
+  "pos": "noun"
+ },
+ "texnokratizm": {
+  "az": "Texnokratiya ideyası.",
+  "en": "technocratism",
+  "pos": "noun"
+ },
+ "texnopark": {
+  "az": "Elmi və texnoloji müəssisələrin cəmləşdiyi ərazi.",
+  "en": "technology park",
+  "pos": "noun"
+ },
+ "texnopolis": {
+  "az": "Elm və yüksək texnologiya şəhəri.",
+  "en": "technopolis",
+  "pos": "noun"
+ },
+ "texnoton": {
+  "skip": "meaning not certain"
+ },
+ "texnozoy": {
+  "skip": "meaning not certain"
+ },
+ "teknofobiya": {
+  "az": "Texnikadan və yeni texnologiyadan qorxu.",
+  "en": "technophobia",
+  "pos": "noun"
+ },
+ "tekstema": {
+  "skip": "meaning not certain"
+ },
+ "tekstofobiya": {
+  "skip": "meaning not certain"
+ },
+ "tekstovinit": {
+  "skip": "meaning not certain"
+ },
+ "tekstrop": {
+  "skip": "meaning not certain"
+ },
+ "teksturat": {
+  "skip": "meaning not certain"
+ },
+ "tektometr": {
+  "skip": "meaning not certain"
+ },
+ "tektonik-dekorativ": {
+  "skip": "meaning not certain"
+ },
+ "tektonik-maqmatik": {
+  "az": "Tektonik və maqmatik proseslərə aid.",
+  "en": "tectono-magmatic",
+  "pos": "adjective"
+ },
+ "telbətel": {
+  "az": "Tel-tel, sap-sap.",
+  "en": "strand by strand",
+  "pos": "adverb"
+ },
+ "teleaparatura": {
+  "az": "Televiziya avadanlığı.",
+  "en": "television equipment",
+  "pos": "noun"
+ },
+ "telediastolik": {
+  "skip": "meaning not certain"
+ },
+ "telefoniya": {
+  "az": "Telefon rabitəsi.",
+  "en": "telephony",
+  "pos": "noun"
+ },
+ "telefonofobiya": {
+  "az": "Telefonla danışmaqdan qorxu.",
+  "en": "telephone phobia",
+  "pos": "noun"
+ },
+ "telefraqma": {
+  "skip": "meaning not certain"
+ },
+ "telexronika": {
+  "az": "Televiziyada hadisələrin xronikası.",
+  "en": "television chronicle",
+  "pos": "noun"
+ },
+ "telekast": {
+  "skip": "meaning not certain"
+ },
+ "teleks": {
+  "az": "Teleqraf xətti ilə mətn mübadiləsi sistemi.",
+  "en": "telex",
+  "pos": "noun"
+ },
+ "telemarketçi": {
+  "az": "Telefonla satış aparan işçi.",
+  "en": "telemarketer",
+  "pos": "noun"
+ },
+ "teleofobiya": {
+  "skip": "meaning not certain"
+ },
+ "telepat": {
+  "az": "Telepatiya qabiliyyəti olduğu iddia edilən şəxs.",
+  "en": "telepath",
+  "pos": "noun"
+ },
+ "telepatik": {
+  "az": "Telepatiyaya aid.",
+  "en": "telepathic",
+  "pos": "adjective"
+ },
+ "telepromter": {
+  "az": "Danışana mətni ekranda göstərən cihaz.",
+  "en": "teleprompter",
+  "pos": "noun"
+ },
+ "telerentgenometriya": {
+  "skip": "meaning not certain"
+ },
+ "telesiqnallaşdırma": {
+  "skip": "meaning not certain"
+ },
+ "teleskopik": {
+  "az": "Bir-birinin içinə keçən hissələrdən ibarət; teleskopa aid.",
+  "en": "telescopic",
+  "pos": "adjective"
+ },
+ "teleşop": {
+  "az": "Televiziya ilə mal satan mağaza.",
+  "en": "TV shop",
+  "pos": "noun"
+ },
+ "teleşopinq": {
+  "az": "Televiziya vasitəsilə alış-veriş.",
+  "en": "teleshopping",
+  "pos": "noun"
+ },
+ "teleşou": {
+  "az": "Televiziya şousu.",
+  "en": "TV show",
+  "pos": "noun"
+ },
+ "teletekst": {
+  "az": "Televiziya ekranında mətn şəklində verilən məlumat xidməti.",
+  "en": "teletext",
+  "pos": "noun"
+ },
+ "televernisaj": {
+  "skip": "meaning not certain"
+ },
+ "teliblast": {
+  "skip": "meaning not certain"
+ },
+ "teliqırxıq": {
+  "skip": "meaning not certain"
+ },
+ "telisığallı": {
+  "skip": "meaning not certain"
+ },
+ "telit": {
+  "skip": "meaning not certain"
+ },
+ "tellurik": {
+  "az": "Yerə, yer qabığına aid.",
+  "en": "telluric",
+  "pos": "adjective"
+ },
+ "teloftonofobiya": {
+  "skip": "meaning not certain"
+ },
+ "teluq": {
+  "skip": "meaning not certain"
+ },
+ "temperasiya": {
+  "az": "Musiqi səs sistemində intervalların bərabərləşdirilməsi.",
+  "en": "temperament (tuning)",
+  "pos": "noun"
+ },
+ "tempomer": {
+  "skip": "meaning not certain"
+ },
+ "temposkopiya": {
+  "skip": "meaning not certain"
+ },
+ "tendensioz": {
+  "az": "Qərəzli, müəyyən meylə tabe olan.",
+  "en": "tendentious",
+  "pos": "adjective"
+ },
+ "teniofobiya": {
+  "az": "Lent qurdlarından xəstə qorxu.",
+  "en": "taeniophobia",
+  "pos": "noun"
+ },
+ "tenzoqurğu": {
+  "skip": "meaning not certain"
+ },
+ "tenzorezistiv": {
+  "az": "Deformasiya zamanı müqaviməti dəyişən.",
+  "en": "tensoresistive",
+  "pos": "adjective"
+ },
+ "teoantroponim": {
+  "az": "Tanrı adından yaranmış şəxs adı.",
+  "en": "theophoric personal name",
+  "pos": "noun"
+ },
+ "teodisiya": {
+  "az": "Dünyada şərin varlığına baxmayaraq Allahın ədalətini əsaslandıran təlim.",
+  "en": "theodicy",
+  "pos": "noun"
+ },
+ "teofobiya": {
+  "az": "Allahdan və dindən xəstə qorxu.",
+  "en": "theophobia",
+  "pos": "noun"
+ },
+ "teofor": {
+  "skip": "meaning not certain"
+ },
+ "teokratik": {
+  "az": "Hakimiyyətin din xadimlərinə məxsus olduğu quruluşa aid.",
+  "en": "theocratic",
+  "pos": "adjective"
+ },
+ "teonim": {
+  "az": "Tanrı adı.",
+  "en": "theonym",
+  "pos": "noun"
+ },
+ "teonimika": {
+  "az": "Tanrı adlarını öyrənən onomastika sahəsi.",
+  "en": "theonymy (study)",
+  "pos": "noun"
+ },
+ "teonimiya": {
+  "az": "Tanrı adlarının məcmusu.",
+  "en": "theonymy",
+  "pos": "noun"
+ },
+ "teosentrik": {
+  "az": "Allahı hər şeyin mərkəzi sayan.",
+  "en": "theocentric",
+  "pos": "adjective"
+ },
+ "ter": {
+  "skip": "meaning not certain"
+ },
+ "terabayt": {
+  "az": "Min qiqabayta bərabər informasiya vahidi.",
+  "en": "terabyte",
+  "pos": "noun"
+ },
+ "terapaskal": {
+  "az": "Bir trilyon paskala bərabər təzyiq vahidi.",
+  "en": "terapascal",
+  "pos": "noun"
+ },
+ "teratofobiya": {
+  "az": "Eybəcərlikdən və ya eybəcər uşaq doğmaqdan qorxu.",
+  "en": "teratophobia",
+  "pos": "noun"
+ },
+ "teriofauna": {
+  "az": "Bir ərazinin məməliləri.",
+  "en": "mammal fauna",
+  "pos": "noun"
+ },
+ "teriologiya": {
+  "az": "Məməliləri öyrənən zoologiya sahəsi.",
+  "en": "theriology (mammalogy)",
+  "pos": "noun"
+ },
+ "termal": {
+  "az": "İsti bulaqlara, istiliyə aid.",
+  "en": "thermal",
+  "pos": "adjective"
+ },
+ "termik": {
+  "az": "İstiliklə bağlı.",
+  "en": "thermal",
+  "pos": "adjective"
+ },
+ "termiki": {
+  "skip": "meaning not certain"
+ },
+ "terminativ": {
+  "skip": "meaning not certain"
+ },
+ "terminator": {
+  "skip": "several unrelated senses"
+ },
+ "termist": {
+  "skip": "meaning not certain"
+ },
+ "termitofaq": {
+  "az": "Termitlərlə qidalanan heyvan.",
+  "en": "termite-eater",
+  "pos": "noun"
+ },
+ "termobarik": {
+  "az": "Yüksək temperatur və təzyiq dalğası yaradan partlayışa aid.",
+  "en": "thermobaric",
+  "pos": "adjective"
+ },
+ "termobatiqraf": {
+  "skip": "meaning not certain"
+ },
+ "termobatoqraf": {
+  "skip": "meaning not certain"
+ },
+ "termobiont": {
+  "skip": "meaning not certain"
+ },
+ "termobur": {
+  "skip": "meaning not certain"
+ },
+ "termodövrlük": {
+  "skip": "meaning not certain"
+ },
+ "termoerroziya": {
+  "az": "Donmuş torpağın istilik təsiri ilə dağılması.",
+  "en": "thermal erosion",
+  "pos": "noun"
+ },
+ "termofit": {
+  "skip": "meaning not certain"
+ },
+ "termofon": {
+  "skip": "meaning not certain"
+ },
+ "termogen": {
+  "az": "İstilik yaradan.",
+  "en": "thermogenic",
+  "pos": "adjective"
+ },
+ "termoxromizm": {
+  "az": "Maddənin temperaturdan asılı olaraq rəngini dəyişməsi.",
+  "en": "thermochromism",
+  "pos": "noun"
+ },
+ "termokleystoqamiya": {
+  "skip": "meaning not certain"
+ },
+ "termoklin": {
+  "az": "Su hövzəsində temperaturun dərinliklə kəskin dəyişdiyi təbəqə.",
+  "en": "thermocline",
+  "pos": "noun"
+ },
+ "termokrenofil": {
+  "skip": "meaning not certain"
+ },
+ "termoqab": {
+  "az": "İçindəkinin istiliyini uzun müddət saxlayan qab.",
+  "en": "thermos container",
+  "pos": "noun"
+ },
+ "termoqalvanomaqnit": {
+  "skip": "meaning not certain"
+ },
+ "termolak": {
+  "skip": "meaning not certain"
+ },
+ "termonasti": {
+  "az": "Bitki orqanlarının temperatur dəyişməsinə cavab hərəkəti.",
+  "en": "thermonasty",
+  "pos": "noun"
+ },
+ "termonastik": {
+  "az": "Termonastiyaya aid.",
+  "en": "thermonastic",
+  "pos": "adjective"
+ },
+ "termoperiodizm": {
+  "az": "Orqanizmlərin gecə-gündüz temperatur dəyişməsinə uyğunlaşması.",
+  "en": "thermoperiodism",
+  "pos": "noun"
+ },
+ "termorənglilik": {
+  "skip": "meaning not certain"
+ },
+ "termozit": {
+  "skip": "meaning not certain"
+ },
+ "terpentin": {
+  "az": "İynəyarpaqlı ağacların qatranından alınan efir yağı.",
+  "en": "turpentine",
+  "pos": "noun"
+ },
+ "terrakota": {
+  "az": "Şirsiz bişmiş gil və ondan hazırlanan məmulat.",
+  "en": "terracotta",
+  "pos": "noun"
+ },
+ "terrarium": {
+  "az": "Sürünənləri və ya bitkiləri saxlamaq üçün şüşə qab.",
+  "en": "terrarium",
+  "pos": "noun"
+ },
+ "terrektor": {
+  "skip": "meaning not certain"
+ },
+ "terrigen": {
+  "az": "Qurudan gətirilmiş materialdan əmələ gələn.",
+  "en": "terrigenous",
+  "pos": "adjective"
+ },
+ "terrikon": {
+  "az": "Şaxtadan çıxarılan boş süxurdan yığılmış təpə.",
+  "en": "spoil heap",
+  "pos": "noun"
+ },
+ "terronim": {
+  "skip": "meaning not certain"
+ },
+ "teslametr": {
+  "az": "Maqnit induksiyasını ölçən cihaz.",
+  "en": "teslameter",
+  "pos": "noun"
+ },
+ "teso": {
+  "skip": "meaning not certain"
+ },
+ "testikulyar": {
+  "az": "Toxumluqlara aid.",
+  "en": "testicular",
+  "pos": "adjective"
+ },
+ "testofobiya": {
+  "az": "İmtahan və testlərdən qorxu.",
+  "en": "test anxiety",
+  "pos": "noun"
+ },
+ "testologiya": {
+  "az": "Testlərin hazırlanması və tətbiqi haqqında elm.",
+  "en": "testology",
+  "pos": "noun"
+ },
+ "tetaniya": {
+  "az": "Əzələlərin qıcolma ilə yığılması halı.",
+  "en": "tetany",
+  "pos": "noun"
+ },
+ "tetra": {
+  "skip": "several unrelated senses"
+ },
+ "tetraedrik": {
+  "az": "Tetraedr formasında olan.",
+  "en": "tetrahedral",
+  "pos": "adjective"
+ },
+ "tetraedrit": {
+  "az": "Mis və sürmə tərkibli mineral.",
+  "en": "tetrahedrite",
+  "pos": "noun"
+ },
+ "tetraftonq": {
+  "skip": "meaning not certain"
+ },
+ "tetraqonal": {
+  "az": "Kvadrat əsaslı prizma simmetriyasına malik.",
+  "en": "tetragonal",
+  "pos": "adjective"
+ },
+ "tetraniya": {
+  "skip": "meaning not certain"
+ },
+ "tetrarx": {
+  "az": "Qədim dövrdə ölkənin dörddə birinin hökmdarı.",
+  "en": "tetrarch",
+  "pos": "noun"
+ },
+ "tetrasiklik": {
+  "az": "Dörd halqalı molekul quruluşuna malik.",
+  "en": "tetracyclic",
+  "pos": "adjective"
+ },
+ "tetril": {
+  "az": "Partlayıcı kimyəvi maddə.",
+  "en": "tetryl",
+  "pos": "noun"
+ },
+ "tetrod": {
+  "az": "Dörd elektrodlu elektron lampası.",
+  "en": "tetrode",
+  "pos": "noun"
+ },
+ "teurgiya": {
+  "az": "Tanrıları çağırmaq məqsədi daşıyan sehrli ayinlər.",
+  "en": "theurgy",
+  "pos": "noun"
+ },
+ "tevtofobiya": {
+  "skip": "meaning not certain"
+ },
+ "teymuri": {
+  "az": "Teymurilər sülaləsinə və onun dövrünə aid.",
+  "en": "Timurid",
+  "pos": "adjective"
+ },
+ "tezaurus": {
+  "az": "Dilin bütün sözlərini mənaca qruplaşdıran lüğət.",
+  "en": "thesaurus",
+  "pos": "noun"
+ },
+ "tezis": {
+  "az": "Müddəanın qısa ifadəsi; məruzənin əsas fikirləri.",
+  "en": "thesis, abstract",
+  "pos": "noun"
+ },
+ "tezlikcə": {
+  "skip": "meaning not certain"
+ },
+ "təbii-arid torpaq": {
+  "skip": "meaning not certain"
+ },
+ "təbilçalma texnikası": {
+  "skip": "meaning not certain"
+ },
+ "təbriksiz-filansız": {
+  "skip": "meaning not certain"
+ },
+ "təcrübəsiz-sınaqsız": {
+  "skip": "meaning not certain"
+ },
+ "təəssüratçılıq": {
+  "skip": "meaning not certain"
+ },
+ "təhərbətəhər": {
+  "skip": "meaning not certain"
+ },
+ "təhvilat": {
+  "skip": "meaning not certain"
+ },
+ "təkərləmə": {
+  "skip": "several unrelated senses"
+ },
+ "təklə": {
+  "skip": "meaning not certain"
+ },
+ "təkrarçılıq": {
+  "az": "Eyni şeyi təkrar etməyə meyil.",
+  "en": "repetitiveness",
+  "pos": "noun"
+ },
+ "təkvərəsəlik": {
+  "skip": "meaning not certain"
+ },
+ "təqibetmə əməliyyatı": {
+  "skip": "meaning not certain"
+ },
+ "tələm-tələsiklik": {
+  "az": "Hər işi tələsik görmə halı.",
+  "en": "hastiness",
+  "pos": "noun"
+ },
+ "təlimatçı-maşinist": {
+  "skip": "meaning not certain"
+ },
+ "təmizlədə-təmizlədə": {
+  "skip": "form not certain"
+ },
+ "tənbəlxana": {
+  "az": "Tənbəllərin toplaşdığı yer.",
+  "en": "den of idlers",
+  "pos": "noun"
+ },
+ "təngə": {
+  "skip": "several unrelated senses"
+ },
+ "təngidə-təngidə": {
+  "skip": "form not certain"
+ },
+ "tənli": {
+  "skip": "meaning not certain"
+ },
+ "təpəotu": {
+  "skip": "meaning not certain"
+ },
+ "təpiklədə-təpiklədə": {
+  "skip": "form not certain"
+ },
+ "tərəotu": {
+  "skip": "meaning not certain"
+ },
+ "tərotu": {
+  "skip": "meaning not certain"
+ },
+ "tərpədə-tərpədə": {
+  "skip": "form not certain"
+ },
+ "təs": {
+  "skip": "meaning not certain"
+ },
+ "təsərrüfatlardaxili": {
+  "az": "Təsərrüfatların daxilində olan.",
+  "en": "intra-farm",
+  "pos": "adjective"
+ },
+ "təsəvvürat": {
+  "az": "Təsəvvürlər, düşüncədə yaranan obrazlar.",
+  "en": "notions, ideas",
+  "pos": "noun"
+ },
+ "təsnifatlandırılma": {
+  "az": "Təsnifata salınma.",
+  "en": "being classified",
+  "pos": "noun"
+ },
+ "təşəbbüskarlıqla": {
+  "az": "Təşəbbüs göstərərək.",
+  "en": "with initiative",
+  "pos": "adverb"
+ },
+ "təşkilati": {
+  "az": "Təşkilatla, təşkil etmə işi ilə bağlı.",
+  "en": "organizational",
+  "pos": "adjective"
+ },
+ "təvazökarlıqla": {
+  "az": "Təvazökar şəkildə.",
+  "en": "modestly",
+  "pos": "adverb"
+ },
+ "təzəbətəzə": {
+  "skip": "meaning not certain"
+ },
+ "təzələdə-təzələdə": {
+  "skip": "form not certain"
+ },
+ "tiakol": {
+  "skip": "meaning not certain"
+ },
+ "tiaminbromid": {
+  "az": "B1 vitamininin bromlu duzu şəklində dərman.",
+  "en": "thiamine bromide",
+  "pos": "noun"
+ },
+ "tiflokafe": {
+  "skip": "meaning not certain"
+ },
+ "tikəcək": {
+  "skip": "form not certain"
+ },
+ "tikənəcək": {
+  "skip": "form not certain"
+ },
+ "tiksotrop": {
+  "az": "Silkələndikdə duruluşan, sakitlikdə yenidən qatılaşan.",
+  "en": "thixotropic",
+  "pos": "adjective"
+ },
+ "tiksotropiya": {
+  "az": "Mexaniki təsirdən duruluşub sonra yenidən qatılaşma xassəsi.",
+  "en": "thixotropy",
+  "pos": "noun"
+ },
+ "tiqel": {
+  "skip": "meaning not certain"
+ },
+ "timalin": {
+  "skip": "meaning not certain"
+ },
+ "timektomiya": {
+  "az": "Timus vəzinin cərrahi yolla çıxarılması.",
+  "en": "thymectomy",
+  "pos": "noun"
+ },
+ "timerqaziya": {
+  "skip": "meaning not certain"
+ },
+ "timiko-limfatik": {
+  "skip": "meaning not certain"
+ },
+ "timinoza": {
+  "skip": "meaning not certain"
+ },
+ "timokratiya": {
+  "az": "Hakimiyyətin varlı və ya şərəfli şəxslərə məxsus olduğu quruluş.",
+  "en": "timocracy",
+  "pos": "noun"
+ },
+ "timoliz": {
+  "skip": "meaning not certain"
+ },
+ "timoma": {
+  "az": "Timus vəzinin şişi.",
+  "en": "thymoma",
+  "pos": "noun"
+ },
+ "timpanofoniya": {
+  "skip": "meaning not certain"
+ },
+ "timpanotomiya": {
+  "az": "Təbil pərdəsinin cərrahi kəsilməsi.",
+  "en": "tympanotomy",
+  "pos": "noun"
+ },
+ "tinbətin": {
+  "skip": "meaning not certain"
+ },
+ "tindalizasiya": {
+  "az": "Bir neçə gün ardıcıl qızdırmaqla sterilizasiya üsulu.",
+  "en": "tyndallization",
+  "pos": "noun"
+ },
+ "tindin": {
+  "skip": "meaning not certain"
+ },
+ "tioduz": {
+  "skip": "meaning not certain"
+ },
+ "tioefir": {
+  "az": "Oksigen əvəzinə kükürd olan efir.",
+  "en": "thioether",
+  "pos": "noun"
+ },
+ "tiofenol": {
+  "az": "Fenolun kükürdlü analoqu olan üzvi maddə.",
+  "en": "thiophenol",
+  "pos": "noun"
+ },
+ "tiopental": {
+  "az": "Venadaxili narkoz üçün işlədilən dərman.",
+  "en": "thiopental",
+  "pos": "noun"
+ },
+ "tiosidik çövhəri": {
+  "skip": "meaning not certain"
+ },
+ "tiospirt": {
+  "az": "Hidroksil qrupu əvəzinə kükürdlü qrup olan spirt.",
+  "en": "thiol",
+  "pos": "noun"
+ },
+ "tioturşu": {
+  "az": "Oksigeni qismən kükürdlə əvəz olunmuş turşu.",
+  "en": "thioacid",
+  "pos": "noun"
+ },
+ "tipaj": {
+  "az": "Müəyyən insan tipinin xarici görkəmi və xasiyyəti.",
+  "en": "type (casting)",
+  "pos": "noun"
+ },
+ "tipifikasiya": {
+  "az": "Ümumi tipə salma, tipikləşdirmə.",
+  "en": "typification",
+  "pos": "noun"
+ },
+ "tipogenez": {
+  "skip": "meaning not certain"
+ },
+ "tipoqravür": {
+  "skip": "meaning not certain"
+ },
+ "tipolitoqrafiya": {
+  "skip": "meaning not certain"
+ },
+ "tirada": {
+  "az": "Uzun, təmtəraqlı nitq parçası.",
+  "en": "tirade",
+  "pos": "noun"
+ },
+ "tiraniya": {
+  "az": "Zalım hökmdarın hakimiyyəti, istibdad.",
+  "en": "tyranny",
+  "pos": "noun"
+ },
+ "tiratron": {
+  "az": "Qazla doldurulmuş idarə olunan elektron lampası.",
+  "en": "thyratron",
+  "pos": "noun"
+ },
+ "tireoid": {
+  "az": "Qalxanabənzər vəzə aid.",
+  "en": "thyroid",
+  "pos": "adjective"
+ },
+ "tireoidektomiya": {
+  "az": "Qalxanabənzər vəzin cərrahi yolla çıxarılması.",
+  "en": "thyroidectomy",
+  "pos": "noun"
+ },
+ "tireoidit": {
+  "az": "Qalxanabənzər vəzin iltihabı.",
+  "en": "thyroiditis",
+  "pos": "noun"
+ },
+ "tirməsayağı naxış": {
+  "skip": "meaning not certain"
+ },
+ "titanlaşdırılma": {
+  "skip": "meaning not certain"
+ },
+ "titanlaşdırma": {
+  "skip": "meaning not certain"
+ },
+ "titrlənmə": {
+  "az": "Titrləmə yolu ilə qatılığın təyin olunması.",
+  "en": "being titrated",
+  "pos": "noun"
+ },
+ "tiv": {
+  "skip": "meaning not certain"
+ },
+ "tiyələyə-tiyələyə": {
+  "skip": "form not certain"
+ },
+ "tofalarca": {
+  "az": "Tofalar dilində.",
+  "en": "in Tofa",
+  "pos": "adverb"
+ },
+ "toğlubaşı daş": {
+  "skip": "meaning not certain"
+ }
+}
