@@ -1,0 +1,1164 @@
+{
+"homofon": {
+"az": "Eyni səslənən, yazılışı və mənası fərqli söz.",
+"en": "homophone",
+"pos": "noun"
+},
+"homogenez": {
+"skip": "meaning not known with confidence"
+},
+"homogenləşdirici": {
+"az": "Qarışığı bircinsli edən qurğu.",
+"en": "homogenizer",
+"pos": "noun"
+},
+"homoxromiya": {
+"az": "Eyni rənglilik.",
+"en": "homochromy",
+"pos": "noun"
+},
+"homokeçid": {
+"az": "Eyni yarımkeçiricinin müxtəlif növləri arasındakı keçid.",
+"en": "homojunction",
+"pos": "noun"
+},
+"homomorf": {
+"az": "Quruluşca uyğun.",
+"en": "homomorphic",
+"pos": "adjective"
+},
+"homonim": {
+"az": "Yazılışı eyni, mənası fərqli söz.",
+"en": "homonym",
+"pos": "noun"
+},
+"homoorqan": {
+"skip": "meaning not known with confidence"
+},
+"homosentrik": {
+"az": "Ortaq mərkəzli.",
+"en": "homocentric",
+"pos": "adjective"
+},
+"homosfer": {
+"az": "Atmosferin qazları qarışıq olan aşağı qatı.",
+"en": "homosphere",
+"pos": "noun"
+},
+"hoplofobiya": {
+"az": "Silahdan qorxu.",
+"en": "hoplophobia",
+"pos": "noun"
+},
+"hopper": {
+"az": "Səpələnən yük üçün bunker.",
+"en": "hopper",
+"pos": "noun"
+},
+"hopper-dozator": {
+"az": "Dozalayıcı bunker.",
+"en": "hopper doser",
+"pos": "noun"
+},
+"hormonal": {
+"az": "Hormonlara aid.",
+"en": "hormonal",
+"pos": "adjective"
+},
+"hormonoterapiya": {
+"az": "Hormonlarla müalicə.",
+"en": "hormone therapy",
+"pos": "noun"
+},
+"hortenziya": {
+"az": "İri gül salxımlı bəzək kolu.",
+"en": "hydrangea",
+"pos": "noun"
+},
+"hortultu": {
+"az": "Hortuldama səsi.",
+"en": "slurping sound",
+"pos": "noun"
+},
+"hospis": {
+"az": "Ağır xəstələrə qulluq evi.",
+"en": "hospice",
+"pos": "noun"
+},
+"hospitalizasiya": {
+"az": "Xəstəxanaya yerləşdirmə.",
+"en": "hospitalization",
+"pos": "noun"
+},
+"hospitalizə": {
+"az": "Xəstəxanaya yerləşdirmə.",
+"en": "hospitalization",
+"pos": "noun"
+},
+"hostel": {
+"az": "Ucuz yataqxana-mehmanxana.",
+"en": "hostel",
+"pos": "noun"
+},
+"hot-doq": {
+"az": "Sosisli bulka.",
+"en": "hot dog",
+"pos": "noun"
+},
+"hotelçilik": {
+"az": "Mehmanxana işi.",
+"en": "hotel business",
+"pos": "noun"
+},
+"hottentot": {
+"az": "Cənubi Afrikada yaşayan xalq, xoyxoy.",
+"en": "Khoikhoi (dated: Hottentot)",
+"pos": "noun"
+},
+"höcətcil": {
+"az": "Höcətləşməyi sevən.",
+"en": "contrary",
+"pos": "adjective"
+},
+"humifikasiya": {
+"az": "Bitki qalıqlarının humusa çevrilməsi.",
+"en": "humification",
+"pos": "noun"
+},
+"humifikator": {
+"skip": "meaning not known with confidence"
+},
+"humin": {
+"az": "Humusun həll olmayan hissəsi.",
+"en": "humin",
+"pos": "noun"
+},
+"huminokerit": {
+"skip": "meaning not known with confidence"
+},
+"humit": {
+"skip": "meaning not known with confidence"
+},
+"humolit": {
+"skip": "meaning not known with confidence"
+},
+"humoral": {
+"az": "Bədən mayeləri ilə bağlı.",
+"en": "humoral",
+"pos": "adjective"
+},
+"huri-qılman": {
+"az": "Cənnət huriləri və qılmanları.",
+"en": "houris and ghilmans",
+"pos": "noun"
+},
+"hücrənişin": {
+"az": "Hücrədə tənha yaşayan adam.",
+"en": "recluse",
+"pos": "noun"
+},
+"hüquqazidd": {
+"az": "Hüquqa zidd olan.",
+"en": "unlawful",
+"pos": "adjective"
+},
+"hülakü": {
+"az": "Hülakülər sülaləsinə aid.",
+"en": "Ilkhanid",
+"pos": "adjective"
+},
+"xaçaoxşar": {
+"az": "Xaça oxşayan.",
+"en": "cross-shaped",
+"pos": "adjective"
+},
+"xaçotu": {
+"skip": "meaning not known with confidence"
+},
+"xalazadə": {
+"az": "Xalanın övladı.",
+"en": "cousin (maternal aunt's child)",
+"pos": "noun"
+},
+"xalçasız-palazsız": {
+"az": "Evində xalı-palaz olmayan, kasıb.",
+"en": "destitute",
+"pos": "adjective"
+},
+"xanaxap": {
+"skip": "meaning not known with confidence"
+},
+"xapan": {
+"skip": "meaning not known with confidence"
+},
+"xarakteroqraf": {
+"skip": "meaning not known with confidence"
+},
+"xarizmatik": {
+"az": "Cazibədar, insanları arxasınca aparan.",
+"en": "charismatic",
+"pos": "adjective"
+},
+"xarofit yosunlar": {
+"az": "Xara yosunları sinfi.",
+"en": "charophyte algae",
+"pos": "noun"
+},
+"xartıltı": {
+"az": "Xartıldama səsi.",
+"en": "crunching sound",
+"pos": "noun"
+},
+"xemogen çöküntülər": {
+"az": "Kimyəvi yolla əmələ gələn çöküntülər.",
+"en": "chemogenic sediments",
+"pos": "noun"
+},
+"xemoreseptor": {
+"az": "Kimyəvi qıcığı qəbul edən reseptor.",
+"en": "chemoreceptor",
+"pos": "noun"
+},
+"xevsur": {
+"az": "Gürcüstanın dağlıq hissəsində yaşayan etnik qrup.",
+"en": "Khevsur",
+"pos": "noun"
+},
+"xəngəllik ət": {
+"az": "Xəngəl üçün doğranmış ət.",
+"en": "meat for khangal",
+"pos": "noun"
+},
+"xərc-borcsuz": {
+"az": "Xərci-borcu olmayan.",
+"en": "free of costs and debts",
+"pos": "adjective"
+},
+"xərcsiz-borcsuz": {
+"az": "Xərci-borcu olmayan.",
+"en": "free of costs and debts",
+"pos": "adjective"
+},
+"xətlərarası": {
+"az": "Xətlər arasında olan.",
+"en": "interlinear",
+"pos": "adjective"
+},
+"xətsiz": {
+"az": "Xətti olmayan.",
+"en": "unlined",
+"pos": "adjective"
+},
+"xətsiz-zolaqsız": {
+"az": "Xətsiz, zolaqsız, düz.",
+"en": "plain",
+"pos": "adjective"
+},
+"xıdır": {
+"skip": "meaning not known with confidence"
+},
+"xıncırtı": {
+"skip": "meaning not known with confidence"
+},
+"xırçıldada-xırçıldada": {
+"az": "Xırçıldadaraq.",
+"en": "crunching",
+"pos": "adverb"
+},
+"xırdalada-xırdalada": {
+"az": "Xırdalayaraq.",
+"en": "crumbling",
+"pos": "adverb"
+},
+"xırdaotlu": {
+"az": "Xırda otu olan.",
+"en": "short-grassed",
+"pos": "adjective"
+},
+"xırdaotluq": {
+"az": "Xırda ot bitən yer.",
+"en": "short-grass meadow",
+"pos": "noun"
+},
+"xırdaseriyalı istehsalat": {
+"az": "Az sayda məhsul buraxan istehsal.",
+"en": "small-batch production",
+"pos": "noun"
+},
+"xışıldada-xışıldada": {
+"az": "Xışıldadaraq.",
+"en": "rustling",
+"pos": "adverb"
+},
+"xionofil": {
+"az": "Qarsevən.",
+"en": "chionophilous",
+"pos": "adjective"
+},
+"xionosfer": {
+"az": "Daimi qar qatı zonası.",
+"en": "chionosphere",
+"pos": "noun"
+},
+"xirofobiya": {
+"skip": "meaning not known with confidence"
+},
+"xirtdənək": {
+"skip": "meaning not known with confidence"
+},
+"xiştək": {
+"az": "Paltarın qoltuğuna və ya ağına tikilən üçbucaq parça.",
+"en": "gusset",
+"pos": "noun"
+},
+"xiyarotu": {
+"az": "Xiyar iyi verən dərman bitkisi.",
+"en": "borage",
+"pos": "noun"
+},
+"xloramin": {
+"az": "Xlorlu dezinfeksiya maddəsi.",
+"en": "chloramine",
+"pos": "noun"
+},
+"xlorofilsiz bitkilər": {
+"az": "Xlorofili olmayan bitkilər.",
+"en": "non-green plants",
+"pos": "noun"
+},
+"xolesterin": {
+"az": "Xolesterol.",
+"en": "cholesterol",
+"pos": "noun"
+},
+"xolesterol": {
+"az": "Qanda olan yağabənzər maddə.",
+"en": "cholesterol",
+"pos": "noun"
+},
+"xoraotu": {
+"skip": "meaning not known with confidence"
+},
+"xorasız-yarasız": {
+"az": "Xorası, yarası olmayan, sağlam.",
+"en": "unhurt",
+"pos": "adjective"
+},
+"xorazaq": {
+"skip": "meaning not known with confidence"
+},
+"xoroqrafiya": {
+"az": "Ölkə və ərazilərin təsviri.",
+"en": "chorography",
+"pos": "noun"
+},
+"xoronimiya": {
+"az": "Region adlarının məcmusu.",
+"en": "choronymy",
+"pos": "noun"
+},
+"xoruzquyruğu çay": {
+"az": "Tünd dəmlənmiş qırmızımtıl çay.",
+"en": "strong red tea",
+"pos": "noun"
+},
+"xoşxassəlik": {
+"az": "Xoşxassəli olma.",
+"en": "benignity",
+"pos": "noun"
+},
+"xozan": {
+"skip": "meaning not known with confidence"
+},
+"xrematonimiya": {
+"az": "Əşya və məhsul adlarının məcmusu.",
+"en": "chrematonymy",
+"pos": "noun"
+},
+"xromat": {
+"az": "Xrom turşusunun duzu.",
+"en": "chromate",
+"pos": "noun"
+},
+"xromatonim": {
+"az": "Rəng adı.",
+"en": "colour name",
+"pos": "noun"
+},
+"xromofobiya": {
+"az": "Rənglərdən qorxu.",
+"en": "chromophobia",
+"pos": "noun"
+},
+"xronobiologiya": {
+"az": "Bioloji ritmləri öyrənən elm.",
+"en": "chronobiology",
+"pos": "noun"
+},
+"xronofobiya": {
+"az": "Zamanın keçməsindən qorxu.",
+"en": "chronophobia",
+"pos": "noun"
+},
+"xrononimik": {
+"az": "Zaman adlarına aid.",
+"en": "chrononymic",
+"pos": "adjective"
+},
+"xrononimiya": {
+"az": "Tarixi dövr adlarının məcmusu.",
+"en": "chrononymy",
+"pos": "noun"
+},
+"xronoskop": {
+"az": "Qısa zaman fasilələrini ölçən cihaz.",
+"en": "chronoscope",
+"pos": "noun"
+},
+"xronoskopik": {
+"skip": "meaning not known with confidence"
+},
+"xronotip": {
+"az": "Gündəlik fəallıq tipi.",
+"en": "chronotype",
+"pos": "noun"
+},
+"xronotop": {
+"az": "Bədii əsərdə zaman və məkan birliyi.",
+"en": "chronotope",
+"pos": "noun"
+},
+"xunveybin": {
+"az": "Çində mədəni inqilab dövrünün gənc fəalı.",
+"en": "Red Guard",
+"pos": "noun"
+},
+"xurcuntayı": {
+"skip": "meaning not known with confidence"
+},
+"xüsusiləşməyən əlavə": {
+"az": "Ayrıca intonasiya ilə seçilməyən əlavə.",
+"en": "non-detached appositive",
+"pos": "noun"
+},
+"xüsusi-tematik": {
+"az": "Xüsusi mövzulu.",
+"en": "special-topic",
+"pos": "adjective"
+},
+"iber": {
+"az": "Qədim İspaniya xalqı.",
+"en": "Iberian",
+"pos": "noun"
+},
+"ibricə": {
+"skip": "meaning not known with confidence"
+},
+"icraat": {
+"az": "Hüquqi işin icrası.",
+"en": "proceedings",
+"pos": "noun"
+},
+"icraiyyə": {
+"az": "İcra hakimiyyəti.",
+"en": "executive",
+"pos": "noun"
+},
+"içdon": {
+"az": "Alt paltarı.",
+"en": "underclothes",
+"pos": "noun"
+},
+"içəcək": {
+"az": "İçmək üçün maye.",
+"en": "drink",
+"pos": "noun"
+},
+"içər-içməz": {
+"az": "İçən kimi.",
+"en": "as soon as (one) drinks",
+"pos": "adverb"
+},
+"içəridəki": {
+"az": "İçəridə olan.",
+"en": "inner",
+"pos": "adjective"
+},
+"içibərk": {
+"az": "İçi bərk olan.",
+"en": "solid inside",
+"pos": "adjective"
+},
+"iç-içə": {
+"az": "Biri digərinin içində.",
+"en": "nested",
+"pos": "adverb"
+},
+"içidolu": {
+"az": "İçi dolu olan.",
+"en": "filled",
+"pos": "adjective"
+},
+"içiyanan": {
+"az": "Ürəyi yanan, dərdli.",
+"en": "grieving",
+"pos": "adjective"
+},
+"iç-üz": {
+"skip": "meaning not known with confidence"
+},
+"idarəedilməyən": {
+"az": "İdarə olunmayan.",
+"en": "uncontrollable",
+"pos": "adjective"
+},
+"identifikator": {
+"az": "Eyniləşdirən ad və ya kod.",
+"en": "identifier",
+"pos": "noun"
+},
+"ideoqram": {
+"az": "Anlayışı bildirən yazı işarəsi.",
+"en": "ideogram",
+"pos": "noun"
+},
+"idioblast": {
+"az": "Ətrafındakılardan fərqlənən bitki hüceyrəsi.",
+"en": "idioblast",
+"pos": "noun"
+},
+"idioxromatizm": {
+"skip": "meaning not known with confidence"
+},
+"idiokraz": {
+"skip": "meaning not known with confidence"
+},
+"idioqrama": {
+"az": "Xromosom dəstinin sxemi.",
+"en": "idiogram",
+"pos": "noun"
+},
+"idiomorfizm": {
+"skip": "meaning not known with confidence"
+},
+"idiopatik": {
+"az": "Səbəbi məlum olmayan.",
+"en": "idiopathic",
+"pos": "adjective"
+},
+"idioplazm": {
+"az": "İrsiyyət daşıyıcısı plazma.",
+"en": "idioplasm",
+"pos": "noun"
+},
+"idiosinkraziya": {
+"az": "Fərdi dözümsüzlük.",
+"en": "idiosyncrasy",
+"pos": "noun"
+},
+"idiotizm": {
+"az": "Ağılsızlıq, idiotluq.",
+"en": "idiocy",
+"pos": "noun"
+},
+"idioüslub": {
+"az": "Fərdi üslub.",
+"en": "idiostyle",
+"pos": "noun"
+},
+"ixnit": {
+"az": "Daşlaşmış iz.",
+"en": "ichnite",
+"pos": "noun"
+},
+"ixnoqrafiya": {
+"az": "Binanın yerüstü planı.",
+"en": "ichnography",
+"pos": "noun"
+},
+"ixorotoraks": {
+"skip": "meaning not known with confidence"
+},
+"ixtiofaq": {
+"az": "Balıqyeyən.",
+"en": "piscivorous",
+"pos": "adjective"
+},
+"ixtiofauna": {
+"az": "Bir yerin balıqları.",
+"en": "fish fauna",
+"pos": "noun"
+},
+"ixtiol": {
+"az": "Şist yağından alınan dərman.",
+"en": "ichthammol",
+"pos": "noun"
+},
+"ixtior": {
+"skip": "meaning not known with confidence"
+},
+"ixtiosenoz": {
+"az": "Balıq birliyi.",
+"en": "fish community",
+"pos": "noun"
+},
+"ixtiosid": {
+"skip": "meaning not known with confidence"
+},
+"ixtiotoksikon": {
+"skip": "meaning not known with confidence"
+},
+"ikiqollu çay": {
+"az": "İki qolu olan çay.",
+"en": "two-branched river",
+"pos": "noun"
+},
+"ikonizm": {
+"skip": "meaning not known with confidence"
+},
+"ikonoskop": {
+"az": "Televiziya ötürücü borusu.",
+"en": "iconoscope",
+"pos": "noun"
+},
+"ikonostas": {
+"az": "Kilsədə ikonalar divarı.",
+"en": "iconostasis",
+"pos": "noun"
+},
+"ikotip": {
+"skip": "meaning not known with confidence"
+},
+"ikterik": {
+"az": "Sarılığa aid.",
+"en": "icteric",
+"pos": "adjective"
+},
+"iqnimbrit": {
+"az": "Vulkan tüfündən əmələ gələn süxur.",
+"en": "ignimbrite",
+"pos": "noun"
+},
+"iqnispumit": {
+"skip": "meaning not known with confidence"
+},
+"iqumen": {
+"az": "Pravoslav monastırının rəisi.",
+"en": "hegumen",
+"pos": "noun"
+},
+"iqumeniya": {
+"az": "Qadın monastırının rəisəsi.",
+"en": "hegumenia",
+"pos": "noun"
+},
+"ilaxır çərşənbə": {
+"az": "Novruzdan əvvəlki son çərşənbə.",
+"en": "last Wednesday before Novruz",
+"pos": "noun"
+},
+"ilanüzlü": {
+"az": "Üzü ilana oxşayan.",
+"en": "snake-faced",
+"pos": "adjective"
+},
+"ilayırıcı": {
+"skip": "meaning not known with confidence"
+},
+"ilbaşı": {
+"az": "İlin başlanğıcı, Yeni il.",
+"en": "New Year",
+"pos": "noun"
+},
+"ileosekal": {
+"az": "Nazik və kor bağırsağın birləşdiyi yerə aid.",
+"en": "ileocaecal",
+"pos": "adjective"
+},
+"ileostaz": {
+"skip": "meaning not known with confidence"
+},
+"ilginc": {
+"az": "Maraqlı.",
+"en": "interesting",
+"pos": "adjective"
+},
+"il-ildən": {
+"az": "İldən-ilə.",
+"en": "year by year",
+"pos": "adverb"
+},
+"illeizm": {
+"az": "Özündən üçüncü şəxsdə danışma.",
+"en": "illeism",
+"pos": "noun"
+},
+"illiativ": {
+"az": "İçəriyə yönəliş halı.",
+"en": "illative",
+"pos": "noun"
+},
+"illüminat": {
+"az": "İlluminatlar cəmiyyətinin üzvü.",
+"en": "Illuminatus",
+"pos": "noun"
+},
+"illüminator": {
+"az": "Gəmi və ya təyyarə pəncərəsi.",
+"en": "porthole",
+"pos": "noun"
+},
+"illüval horizont": {
+"az": "Yuyulmuş maddələrin toplandığı torpaq qatı.",
+"en": "illuvial horizon",
+"pos": "noun"
+},
+"illüzion": {
+"az": "Fokus göstərmə sənəti.",
+"en": "conjuring",
+"pos": "noun"
+},
+"ilortası": {
+"az": "İlin ortası.",
+"en": "midyear",
+"pos": "noun"
+},
+"ilot": {
+"az": "Qədim Spartada qul əkinçi.",
+"en": "helot",
+"pos": "noun"
+},
+"ilsonu": {
+"az": "İlin sonu.",
+"en": "year-end",
+"pos": "noun"
+},
+"imbibisiya suyu": {
+"az": "Toxumanın hopdurduğu su.",
+"en": "imbibition water",
+"pos": "noun"
+},
+"imeyl": {
+"az": "Elektron poçt.",
+"en": "email",
+"pos": "noun"
+},
+"imicmeyker": {
+"az": "İmic yaradan mütəxəssis.",
+"en": "image maker",
+"pos": "noun"
+},
+"imitativ": {
+"az": "Təqlidi.",
+"en": "imitative",
+"pos": "adjective"
+},
+"imitator": {
+"az": "Təqlid edən.",
+"en": "imitator",
+"pos": "noun"
+},
+"immaterial": {
+"az": "Qeyri-maddi.",
+"en": "immaterial",
+"pos": "adjective"
+},
+"immaterializm": {
+"az": "Maddənin varlığını inkar edən təlim.",
+"en": "immaterialism",
+"pos": "noun"
+},
+"immoralizm": {
+"az": "Əxlaq normalarını rədd edən baxış.",
+"en": "immoralism",
+"pos": "noun"
+},
+"immunizasiya": {
+"az": "Toxunulmazlıq yaratma, peyvənd.",
+"en": "immunization",
+"pos": "noun"
+},
+"immunizə": {
+"az": "Toxunulmazlıq yaratma.",
+"en": "immunization",
+"pos": "noun"
+},
+"immunocisim": {
+"az": "Antitel.",
+"en": "antibody",
+"pos": "noun"
+},
+"immunogenez": {
+"az": "İmmunitetin yaranması.",
+"en": "immunogenesis",
+"pos": "noun"
+},
+"immunokimya": {
+"az": "İmmunitetin kimyası.",
+"en": "immunochemistry",
+"pos": "noun"
+},
+"immunopatalogiya": {
+"az": "İmmun sistemin xəstəlikləri elmi.",
+"en": "immunopathology",
+"pos": "noun"
+},
+"immunoprofilaktika": {
+"az": "Peyvəndlə qoruma.",
+"en": "immunoprophylaxis",
+"pos": "noun"
+},
+"immunosit": {
+"az": "İmmun hüceyrə.",
+"en": "immunocyte",
+"pos": "noun"
+},
+"immunostimulyasiya": {
+"az": "İmmuniteti gücləndirmə.",
+"en": "immunostimulation",
+"pos": "noun"
+},
+"immunostimulyator": {
+"az": "İmmuniteti gücləndirən maddə.",
+"en": "immunostimulant",
+"pos": "noun"
+},
+"immunsupressant": {
+"az": "İmmuniteti zəiflədən dərman.",
+"en": "immunosuppressant",
+"pos": "noun"
+},
+"immunsupressiv": {
+"az": "İmmuniteti zəiflədən.",
+"en": "immunosuppressive",
+"pos": "adjective"
+},
+"immunsupressiya": {
+"az": "İmmunitetin zəiflədilməsi.",
+"en": "immunosuppression",
+"pos": "noun"
+},
+"impakt-faktor": {
+"az": "Elmi jurnalın sitat göstəricisi.",
+"en": "impact factor",
+"pos": "noun"
+},
+"imperfektiv": {
+"az": "Bitməmiş hərəkət bildirən.",
+"en": "imperfective",
+"pos": "adjective"
+},
+"implant": {
+"az": "Bədənə yerləşdirilən süni hissə.",
+"en": "implant",
+"pos": "noun"
+},
+"implantologiya": {
+"az": "İmplantlarla müalicə sahəsi.",
+"en": "implantology",
+"pos": "noun"
+},
+"implementator": {
+"az": "Həyata keçirən.",
+"en": "implementer",
+"pos": "noun"
+},
+"imploziya": {
+"az": "İçəriyə doğru partlayış.",
+"en": "implosion",
+"pos": "noun"
+},
+"impreqnasiya": {
+"az": "Hopdurma.",
+"en": "impregnation",
+"pos": "noun"
+},
+"imprinter": {
+"az": "Plastik kartdan çap edən cihaz.",
+"en": "imprinter",
+"pos": "noun"
+},
+"impsonit": {
+"skip": "meaning not known with confidence"
+},
+"imsak": {
+"az": "Orucun başlandığı səhər vaxtı.",
+"en": "imsak (start of fast)",
+"pos": "noun"
+},
+"inaktiv": {
+"az": "Fəal olmayan.",
+"en": "inactive",
+"pos": "adjective"
+},
+"inaktivasiya": {
+"az": "Fəallığın aradan qaldırılması.",
+"en": "inactivation",
+"pos": "noun"
+},
+"inamsızlıqla": {
+"az": "İnanmayaraq.",
+"en": "distrustfully",
+"pos": "adverb"
+},
+"inbentos": {
+"skip": "meaning not known with confidence"
+},
+"incədən-incə": {
+"az": "Çox incə şəkildə.",
+"en": "in great detail",
+"pos": "adverb"
+},
+"indeksasiya": {
+"az": "Gəlirin qiymət artımına uyğunlaşdırılması.",
+"en": "indexation",
+"pos": "noun"
+},
+"indeksator": {
+"az": "İndeks tərtib edən.",
+"en": "indexer",
+"pos": "noun"
+},
+"indeksə": {
+"az": "İndeksləşdirmə.",
+"en": "indexation",
+"pos": "noun"
+},
+"indikasiya": {
+"az": "Göstəriş, əlamət.",
+"en": "indication",
+"pos": "noun"
+},
+"indiqokarmin": {
+"az": "Göy boya maddəsi.",
+"en": "indigo carmine",
+"pos": "noun"
+},
+"indilikcə": {
+"az": "Hələlik.",
+"en": "for now",
+"pos": "adverb"
+},
+"individ": {
+"az": "Fərd.",
+"en": "individual",
+"pos": "noun"
+},
+"individualizasiya": {
+"az": "Fərdiləşdirmə.",
+"en": "individualization",
+"pos": "noun"
+},
+"indoksikasiya": {
+"skip": "meaning not known with confidence"
+},
+"indoksiluriya": {
+"skip": "meaning not known with confidence"
+},
+"indoktrinasiya": {
+"az": "Fikir aşılama.",
+"en": "indoctrination",
+"pos": "noun"
+},
+"induktivizm": {
+"az": "Biliyi təcrübədən çıxaran baxış.",
+"en": "inductivism",
+"pos": "noun"
+},
+"induktoterm": {
+"skip": "meaning not known with confidence"
+},
+"induktotermiya": {
+"az": "Maqnit sahəsi ilə qızdırma müalicəsi.",
+"en": "inductothermy",
+"pos": "noun"
+},
+"indulgensiya": {
+"az": "Günahdan bağışlanma kağızı.",
+"en": "indulgence",
+"pos": "noun"
+},
+"indurativ": {
+"az": "Bərkiyən, sərtləşən.",
+"en": "indurative",
+"pos": "adjective"
+},
+"induziya": {
+"skip": "meaning not known with confidence"
+},
+"infauna": {
+"az": "Dəniz dibinin içində yaşayan heyvanlar.",
+"en": "infauna",
+"pos": "noun"
+},
+"infeksionist": {
+"az": "Yoluxucu xəstəliklər həkimi.",
+"en": "infectious disease specialist",
+"pos": "noun"
+},
+"infektartrit": {
+"az": "Yoluxucu oynaq iltihabı.",
+"en": "infectious arthritis",
+"pos": "noun"
+},
+"infertillik": {
+"az": "Sonsuzluq.",
+"en": "infertility",
+"pos": "noun"
+},
+"infestasiya": {
+"az": "Parazitlərin yoluxması.",
+"en": "infestation",
+"pos": "noun"
+},
+"infiks": {
+"az": "Kökün içinə daxil edilən şəkilçi.",
+"en": "infix",
+"pos": "noun"
+},
+"infiltrasiya": {
+"az": "Sızma, içəri keçmə.",
+"en": "infiltration",
+"pos": "noun"
+},
+"infiltrat": {
+"az": "Toxumada yığılmış hüceyrə və maye.",
+"en": "infiltrate",
+"pos": "noun"
+},
+"infiltrativ": {
+"az": "Sızma yolu ilə yayılan.",
+"en": "infiltrative",
+"pos": "adjective"
+},
+"infiltrə": {
+"az": "Sızıb keçmə.",
+"en": "infiltration",
+"pos": "noun"
+},
+"inflyasion": {
+"az": "İnflyasiyaya aid.",
+"en": "inflationary",
+"pos": "adjective"
+},
+"infodemiya": {
+"az": "Həddən artıq yanlış məlumat yayılması.",
+"en": "infodemic",
+"pos": "noun"
+},
+"infoqrafika": {
+"az": "Məlumatın qrafik təsviri.",
+"en": "infographics",
+"pos": "noun"
+},
+"informant": {
+"az": "Məlumat verən şəxs.",
+"en": "informant",
+"pos": "noun"
+},
+"informetriya": {
+"az": "İnformasiya axınlarının kəmiyyət təhlili.",
+"en": "informetrics",
+"pos": "noun"
+},
+"infoteynment": {
+"az": "Əyləncəli xəbər proqramı.",
+"en": "infotainment",
+"pos": "noun"
+},
+"infotorial": {
+"skip": "meaning not known with confidence"
+},
+"infotur": {
+"az": "Tanışlıq turu.",
+"en": "familiarization trip",
+"pos": "noun"
+},
+"infrakanilkulyar": {
+"skip": "meaning not known with confidence"
+},
+"infuzor": {
+"skip": "meaning not known with confidence"
+},
+"infuzoriya": {
+"az": "Kirpikli birhüceyrəlilər.",
+"en": "infusoria",
+"pos": "noun"
+},
+"inhalyasiya": {
+"az": "Dərmanın nəfəslə qəbulu.",
+"en": "inhalation",
+"pos": "noun"
+},
+"inhalyator": {
+"az": "Nəfəslə dərman qəbulu cihazı.",
+"en": "inhaler",
+"pos": "noun"
+},
+"inxoativ": {
+"az": "Hərəkətin başlanğıcını bildirən.",
+"en": "inchoative",
+"pos": "adjective"
+},
+"inisial": {
+"az": "Adın baş hərfi.",
+"en": "initial",
+"pos": "noun"
+},
+"inkapsulyasiya": {
+"az": "Örtük içinə alma.",
+"en": "encapsulation",
+"pos": "noun"
+},
+"inkir": {
+"skip": "meaning not known with confidence"
+},
+"ink-jet": {
+"az": "Mürəkkəb püskürən çap üsulu.",
+"en": "inkjet",
+"pos": "noun"
+},
+"inklüziv": {
+"az": "Hamını əhatə edən.",
+"en": "inclusive",
+"pos": "adjective"
+},
+"inkoqnito": {
+"az": "Adını gizlədərək.",
+"en": "incognito",
+"pos": "adverb"
+},
+"inkorporasiya": {
+"az": "Birləşdirmə, daxil etmə.",
+"en": "incorporation",
+"pos": "noun"
+},
+"inkorporlaşan": {
+"az": "Sözləri bir cümlə-sözdə birləşdirən.",
+"en": "incorporating",
+"pos": "adjective"
+},
+"inkrement": {
+"az": "Artım miqdarı.",
+"en": "increment",
+"pos": "noun"
+},
+"inkretor": {
+"skip": "meaning not known with confidence"
+},
+"inkrustə": {
+"az": "İnkrustasiya ilə bəzəmə.",
+"en": "inlay",
+"pos": "noun"
+},
+"inkubasiya": {
+"az": "Gizli dövr; yumurtanı süni yolla isitmə.",
+"en": "incubation",
+"pos": "noun"
+},
+"inkurabel": {
+"az": "Sağalmaz.",
+"en": "incurable",
+"pos": "adjective"
+}
+}
