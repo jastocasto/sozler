@@ -12,7 +12,7 @@ Read this first if you are an AI agent or developer picking up the work. Everyth
 
 ## Goal of the current work
 
-Every headword should have a correct, cited definition (Azerbaijani + English) and real connections. The atlas has 90,849 headwords: 22,207 dictionary entries plus 68,642 spellings from the 2021 orthography dictionary, which lists spellings only. `dist/print-definitions.js` fills definitions and links for headwords that had none, using four labelled methods (paraphrase, derivation note, cross-reference, rule). Current counts are in `dist/print-definitions-attribution.json` → `summary`.
+Every headword should have a correct, cited definition (Azerbaijani + English) and real connections. The atlas has 90,849 headwords: 22,207 dictionary entries plus 68,642 spellings from the 2021 orthography dictionary, which lists spellings only. `dist/print-definitions.js` fills definitions and links for headwords that had none, using five labelled methods (paraphrase, derivation note, cross-reference, rule, and AI-written `authored` definitions for words no print source covers). Current counts are in `dist/print-definitions-attribution.json` → `summary`.
 
 ## What is left
 
@@ -25,7 +25,7 @@ A `batch-NN.partK.json` file is a half-finished batch: keep it, write the remain
 Possible next steps:
 
 1. Review the paraphrases marked `"conf": "low"` (shown in the app as *yoxlanılmalıdır / needs review*).
-2. Write definitions for the spelling-only words that no print source covers (most are international loanwords). Label any such AI-written text clearly, the same way.
+2. Keep writing AI-written definitions for spellings that no print source covers (about 16,000 remain, mostly international loanwords). They go in `scripts/content/print-definitions/authored/batch-NN.json` (`batch-00` … `batch-09` are done) with the same entry format as paraphrases but no `src`: `{"word": {"az": "...", "en": "...", "pos": "noun"}}`, or `{"skip": "reason"}` when unsure. The builder refuses a word that either print dictionary covers, cites only the orthography page, and the app always marks these *yoxlanılmalıdır / needs review*. `python3 scripts/list_authoring_queue.py model.json izahli.sqlite musayev.sqlite 250` prints the next words, most useful first: a base word lets the suffix rules define its derivatives, so those come first.
 3. Links: a word that has a paraphrase gets its suffix or compound link only when the paraphrase (or its print entry) names the base word, bare or inflected. A word that is itself another headword (*yerin*, *ətrafında*) does not count as an inflected form. So a paraphrase that could link should name its base word (*Nəm yerlərdə bitən zəhərli baldırğan növü.*). About 100 paraphrased words remain isolated; most are wrong splits (*ayrıqotu* is not *ayrı* + *qot*) or have a base of a word class the suffix rules skip.
 
 ## How to write a paraphrase batch
