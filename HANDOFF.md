@@ -2,6 +2,21 @@
 
 Read this first if you are an AI agent or developer picking up the work. Everything you need is in this repository. No local state from earlier sessions is required.
 
+## Autopilot (owner-approved 22 Nov 2026): read this first when resuming
+
+The owner asked for unattended, continuous work on making definitions and connections more complete and correct, published automatically once verified. Their subscription ends on 23 Nov 2026, so this may be the last session. An hourly scheduled check-in (minute 41) resumes the work after usage limits.
+
+Work on branch `claude/tender-davinci-qpimp0`. Each cycle:
+
+1. `git fetch origin && git status` (the branch must be clean and equal to `origin/claude/tender-davinci-qpimp0`). In a fresh container run `scripts/autopilot.sh setup` first (downloads the print dictionaries into `.cache/print`, about 2 minutes).
+2. `scripts/autopilot.sh queue 250` lists the next headwords that no print dictionary covers, most useful first (bases whose definition lets the suffix rules define their derivatives). `scripts/autopilot.sh next-batch` gives the next file number NN.
+3. Write `scripts/content/print-definitions/authored/batch-NN.json`: one object keyed by every listed word, `{"az": "...", "en": "...", "pos": "noun"}` (az: one short Azerbaijani sentence ending with a period; en: lowercase gloss, verbs start with "to "; pos as in `scripts/content/print-definitions/BRIEF.md`) or `{"skip": "reason"}` when unsure. Use only knowledge you are confident of; these are shown as *AI-written, needs review*. Write the file in two halves if it is long.
+4. `scripts/autopilot.sh rebuild` (about 3 minutes): rebuilds print definitions, README counts, the runtime data, cache keys and the offline package, then runs the quick tests. It must end with `REBUILD OK`.
+5. Commit (`Add AI-written definitions batch NN`) and push to the branch.
+6. After about three batches (or before stopping), `scripts/autopilot.sh release` (about 25 minutes): full test suite; if no test fails beyond the 20 known ones, it fast-forwards `soz-toxumasi` to HEAD, waits for Vercel and runs `scripts/live_check.cjs` against https://soz-toxumasi.vercel.app. It must end with `RELEASED <sha>` and `LIVE CHECK PASS`.
+
+If `release` reports new failures, fix them or `git revert` the batch, rebuild and try again; never publish a failing build and never force-push. If the live check fails after publishing, revert the last batch on the branch, rebuild, verify and release the revert. After about 13,000 words the queue empties; then review `"conf": "low"` paraphrases (shown as *yoxlanılmalıdır*) the same way.
+
 ## November 2026 improvement round
 
 The owner approved five improvements; they were published to `soz-toxumasi` at `744d79e` (22 Nov 2026) and the owner enabled Web Analytics. Later work continues on branch `claude/tender-davinci-qpimp0`; each merge into `soz-toxumasi` needs the owner's approval. After publishing: two-stage loading (`soz-text.json`, see README). README section "Fast loading, word forms, frequency and word origins" documents them and the rebuild order.
