@@ -4,7 +4,7 @@ Read this first if you are an AI agent or developer picking up the work. Everyth
 
 ## November 2026 improvement round
 
-The owner approved five improvements. They are built on branch `claude/tender-davinci-qpimp0`; merging into `soz-toxumasi` (production) needs the owner's approval. README section "Fast loading, word forms, frequency and word origins" documents them and the rebuild order.
+The owner approved five improvements; they were published to `soz-toxumasi` at `744d79e` (22 Nov 2026) and the owner enabled Web Analytics. Later work continues on branch `claude/tender-davinci-qpimp0`; each merge into `soz-toxumasi` needs the owner's approval. After publishing: two-stage loading (`soz-text.json`, see README). README section "Fast loading, word forms, frequency and word origins" documents them and the rebuild order.
 
 1. **Fast loading.** `scripts/build_runtime.cjs` runs `createModel` at build time and writes `dist/soz-core.json`, `dist/details/N.json` and `dist/forms-archive.json`; `restoreModel` in `dist/model.js` rebuilds the model API and the build fails unless it matches `createModel`. The 17 layer files stay in `dist/` as build inputs and for the data tests (`tests/layers.cjs` lists them); the page and the offline package no longer load them. `vercel.json` caches the data files and every script and stylesheet except `sw.js` for a year (the page requests them with content-hash `?v=` keys); it also sets `X-Content-Type-Options: nosniff`.
 2. **Inflected forms in search**: `dist/morphology.js`, tested by `tests/morphology.cjs`.

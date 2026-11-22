@@ -10,7 +10,8 @@ An Azerbaijani word galaxy following the supplied charcoal-and-serif concept. Th
 
 **Loading.** The page no longer downloads the 17 data layers (about 96 MB of JavaScript) or runs `createModel` in the browser. `scripts/build_runtime.cjs` runs `createModel` once at build time and writes:
 
-- `dist/soz-core.json` (about 4.6 MB compressed): headwords, short definitions, senses, links, alphabetical order, the verb and form indexes, frequency ranks and the homonym list. `index.html` preloads it; `restoreModel` in `dist/model.js` rebuilds the same model API from it.
+- `dist/soz-core.json` (about 2.3 MB compressed): headwords, links, alphabetical order, the verb and form indexes, frequency ranks and the homonym list — what the map, word search and verb wheel need. `index.html` preloads it; `restoreModel` in `dist/model.js` rebuilds the model API from it.
+- `dist/soz-text.json` (about 2.5 MB compressed): definitions, senses and their citations, fetched right after the core (`model.ensureText()`). Until it arrives, definitions show "…" and search matches headwords only; `app.js` then fills in the meaning card, open search results and lists, and starts the picture quiz and daily word, which read definitions.
 - `dist/details/N.json` (1,024 files): the sources behind each link (connection senses and citations) and each word's origin, fetched when a word is opened. A word's file is `shardOf(word, 1024)`.
 - `dist/forms-archive.json`: the full noun-form records, fetched when the Forms section opens.
 

@@ -3,6 +3,7 @@ const assert = require('node:assert/strict'), fs = require('fs'), path = require
 const { restoreModel } = require('../dist/model.js'), { fetchJSON } = require('./layers.cjs');
 const dist = path.join(__dirname, '../dist');
 const model = restoreModel(JSON.parse(fs.readFileSync(path.join(dist, 'soz-core.json'), 'utf8')), { fetchJSON });
+model.ensureText();
 const node = w => model.byWord.get(w);
 
 // Frequency: the most common words rank first and map to levels by rank.

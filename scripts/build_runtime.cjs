@@ -152,6 +152,15 @@ fs.writeFileSync(path.join(dist, 'forms-archive.json'), formsText);
 
 // ---- core ----
 const pick = (o, keys) => Object.fromEntries(keys.map(k => [k, o[k]]));
+// Definitions, senses and their citations go to soz-text.json, which the page
+// fetches right after the core: the map, word search and verb wheel do not
+// need them, so the first screen arrives sooner.
+const TEXT_FIELDS = new Set(['az', 'en', 'bilingualSenses', 'definitionSources', 'definitionReviewAttribution', 'definitionBase']);
+const textPart = { cols: {}, sparse: {}, refs, english, azerbaijani };
+for (const field of Object.keys(cols)) if (TEXT_FIELDS.has(field)) { textPart.cols[field] = cols[field]; delete cols[field]; }
+for (const field of Object.keys(sparse)) if (TEXT_FIELDS.has(field)) { textPart.sparse[field] = sparse[field]; delete sparse[field]; }
+const textJson = JSON.stringify(textPart);
+fs.writeFileSync(path.join(dist, 'soz-text.json'), textJson);
 const core = {
   meta: {
     orthography: pick(w.WORD_WEB_ORTHOGRAPHY, ['title', 'edition', 'year', 'url']),
@@ -162,8 +171,8 @@ const core = {
   },
   homonyms,
   frequency: frequencyRank.size ? nodes.map(n => frequencyRank.get(n.w) || 0) : null,
-  nodes: { count, orthographyStart, cols, sparse, english, azerbaijani, rank, excluded },
-  refs,
+  nodes: { count, orthographyStart, cols, sparse, rank, excluded },
+  text: { file: 'soz-text.json', hash: hash(textJson).slice(0, 16) },
   edges: { types: typeList, notes: noteList, flat },
   aliases: m.aliases,
   verbEvidence: m.verbEvidence,
@@ -175,14 +184,27 @@ const core = {
 const json = JSON.stringify(core);
 fs.writeFileSync(path.join(dist, 'soz-core.json'), json);
 fs.rmSync(path.join(dist, 'soz-core.js'), { force: true });
-log('soz-core.json', (json.length / 1048576).toFixed(1), 'MB; forms-archive.json', (formsText.length / 1048576).toFixed(1), 'MB');
+log('soz-core.json', (json.length / 1048576).toFixed(1), 'MB; soz-text.json', (textJson.length / 1048576).toFixed(1), 'MB; forms-archive.json', (formsText.length / 1048576).toFixed(1), 'MB');
 
 // ---- verify: the restored model must behave like createModel ----
 const restoredCore = JSON.parse(fs.readFileSync(path.join(dist, 'soz-core.json'), 'utf8'));
 // Equivalence with createModel is checked without the frequency layer, which
 // only reorders search results; frequency is checked separately at the end.
 const fetchJSON = file => JSON.parse(fs.readFileSync(path.join(dist, file.split('?')[0]), 'utf8'));
+// Before the text file loads, the map structure and word search already work.
+{
+  const early = restoreModel({ ...restoredCore, frequency: null }, { fetchJSON });
+  assert.equal(early.textLoaded(), false);
+  assert.equal(early.nodes.length, count);
+  assert.equal(early.byWord.get('kitab').az, undefined, 'definitions wait for soz-text.json');
+  assert.equal(early.search('kitab', 3)[0].w, 'kitab', 'word search works before the text arrives');
+  assert.equal(early.related(early.byWord.get('kitab')).length, m.related(m.byWord.get('kitab')).length);
+  assert.equal(early.ensureText(), true);
+  assert.equal(early.byWord.get('kitab').az, m.byWord.get('kitab').az);
+  assert.equal(early.search('book', 3).map(n => n.w).join(), m.search('book', 3).map(n => n.w).join(), 'meaning search after the text arrives');
+}
 const r = restoreModel({ ...restoredCore, frequency: null }, { fetchJSON });
+assert.equal(r.ensureText(), true);
 const canon = value => JSON.stringify(value, (k, v) => {
   if (v && typeof v === 'object' && !Array.isArray(v)) return Object.fromEntries(Object.keys(v).sort().filter(key => !empty(v[key])).map(key => [key, v[key]]));
   return v;
@@ -251,6 +273,7 @@ for (let i = 0; i < count; i += 211) for (const depth of [1, 2]) {
 }
 if (restoredCore.frequency) {
   const f = restoreModel(restoredCore, { fetchJSON });
+  f.ensureText();
   let ranked = 0;
   for (const n of f.nodes) { const info = f.frequency(n); if (info) { ranked++; assert.equal(info.rank, frequencyRank.get(n.w)); } else assert(!frequencyRank.has(n.w)); }
   for (const q of samples) assert.deepEqual(new Set(f.search(q, 30).map(n => n.w)).size, f.search(q, 30).length);

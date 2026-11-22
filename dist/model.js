@@ -124,24 +124,33 @@ const searchText=(first,senses,side)=>normalize([first,...(senses||[]).map(s=>s[
 const NO_EVIDENCE=Object.freeze([]);
 function restoreModel(core,{fetchJSON}={}){
  const collator=new Intl.Collator('az');
- const {count,cols,sparse,orthographyStart,english:englishExceptions,azerbaijani:azerbaijaniExceptions,rank,excluded}=core.nodes,refs=core.refs;
- const nodes=new Array(count),value=(field,i)=>{const col=cols[field],v=col.values[i];return v===null?undefined:col.dict?col.dict[v]:v;};
- for(let i=0;i<count;i++)nodes[i]={id:value('id',i),w:value('w',i),en:value('en',i),az:value('az',i),pos:value('pos',i),quality:value('quality',i)};
- for(const field in cols){
-  if(['id','w','en','az','pos','quality'].includes(field))continue;
-  const {values,dict,refList}=cols[field];
-  for(let i=0;i<count;i++){const v=values[i];if(v===null)continue;nodes[i][field]=refList?v.map(j=>refs[j]):dict?dict[v]:v;}
+ const {count,cols,sparse,orthographyStart,rank,excluded}=core.nodes;
+ // Definitions and senses arrive separately (core.text, soz-text.json); older
+ // snapshots keep them in the core itself.
+ let englishExceptions=core.nodes.english||{},azerbaijaniExceptions=core.nodes.azerbaijani||{},textLoaded=!core.text;
+ const value=(columns,field,i)=>{const col=columns[field];if(!col)return undefined;const v=col.values[i];return v===null?undefined:col.dict?col.dict[v]:v;};
+ const nodes=new Array(count);
+ for(let i=0;i<count;i++)nodes[i]={id:value(cols,'id',i),w:value(cols,'w',i),en:value(cols,'en',i),az:value(cols,'az',i),pos:value(cols,'pos',i),quality:value(cols,'quality',i)};
+ function assign(columns,sparseFields,refs,skip){
+  for(const field in columns){
+   if(skip.includes(field))continue;
+   const {values,dict,refList}=columns[field];
+   for(let i=0;i<count;i++){const v=values[i];if(v===null)continue;nodes[i][field]=refList?v.map(j=>refs[j]):dict?dict[v]:v;}
+  }
+  for(const field in sparseFields){const map=sparseFields[field];for(const i in map)nodes[i][field]=map[i];}
  }
- for(const field in sparse){const map=sparse[field];for(const i in map)nodes[i][field]=map[i];}
+ assign(cols,sparse,core.refs||[],['id','w','en','az','pos','quality']);
  const verbEvidence=core.verbEvidence;
  for(let i=orthographyStart;i<count;i++){const n=nodes[i];if(verbEvidence[n.w])n.verbEvidence=verbEvidence[n.w];}
- // Search fields (lower, key, english, azerbaijani) are not needed to draw the
- // map. prepareSearch(limit) fills them a slice at a time; search fills the rest.
- let prepared=0;
+ // Search fields are not needed to draw the map. prepareSearch(limit) fills
+ // them a slice at a time; search fills the rest. Word keys (lower, key) need
+ // only the headword; meaning text (english, azerbaijani) waits for the text.
+ let preparedKeys=0,preparedText=0;
  function prepareSearch(limit=Infinity){
-  const end=Math.min(count,prepared+limit);
-  for(let i=prepared;i<end;i++){const n=nodes[i];n.lower=n.w.toLocaleLowerCase('az');n.key=normalize(n.w);n.english=englishExceptions[i]??searchText(n.en,n.bilingualSenses,'en');n.azerbaijani=azerbaijaniExceptions[i]??searchText(n.az,n.bilingualSenses,'az');}
-  prepared=end;return prepared===count;
+  let budget=limit;
+  for(;preparedKeys<count&&budget>0;budget--){const n=nodes[preparedKeys++];n.lower=n.w.toLocaleLowerCase('az');n.key=normalize(n.w);}
+  if(textLoaded)for(;preparedText<count&&budget>0;budget--){const i=preparedText++,n=nodes[i];n.english=englishExceptions[i]??searchText(n.en,n.bilingualSenses,'en');n.azerbaijani=azerbaijaniExceptions[i]??searchText(n.az,n.bilingualSenses,'az');}
+  return preparedKeys===count&&(!textLoaded||preparedText===count);
  }
  const byWord=new Map(),byId=new Map();let maxId=0;
  for(const n of nodes){byWord.set(n.w,n);byId.set(n.id,n);if(n.id>maxId)maxId=n.id;}
@@ -185,7 +194,7 @@ function restoreModel(core,{fetchJSON}={}){
  function archiveMode(w){return (formsByWord.get(w)||[]).some(n=>n.kind==='nominal')?'forms':'grammar';}
  function search(q,limit=10){
   prepareSearch();const query=q.trim(),s=normalize(query),exact=query.toLocaleLowerCase('az');if(!s)return[];const buckets=[[],[],[],[],[],[]];
-  for(const n of nodes){const az=n.azerbaijani||'';const score=n.lower===exact?0:n.key===s?1:n.key.startsWith(s)?2:n.key.includes(s)?3:n.english.startsWith(s)||az.startsWith(s)?4:n.english.includes(s)||az.includes(s)?5:9;if(score<9)buckets[score].push(n);}
+  for(const n of nodes){const az=n.azerbaijani||'',en=n.english||'';const score=n.lower===exact?0:n.key===s?1:n.key.startsWith(s)?2:n.key.includes(s)?3:en.startsWith(s)||az.startsWith(s)?4:en.includes(s)||az.includes(s)?5:9;if(score<9)buckets[score].push(n);}
   const results=[];for(const bucket of buckets){bucket.sort((a,b)=>Number(a.quality!=='curated')-Number(b.quality!=='curated')||Number(a.pos==='form')-Number(b.pos==='form')||(core.frequency?commonness(a)-commonness(b)||0:0)||a.w.length-b.w.length||rankById[a.id]-rankById[b.id]);results.push(...bucket.slice(0,limit-results.length));if(results.length>=limit)break;}return results;
  }
  function neighborhood(n,depth,filters){
@@ -214,13 +223,15 @@ function restoreModel(core,{fetchJSON}={}){
  }
  // Returns true when the word's details are present, otherwise a promise.
  function ensureDetails(word){const i=shardOf(word,shardCount);return load('details/'+i+'.json?v='+shardHashes[i],data=>{applyShard(data);loadedShards.add(i);},()=>loadedShards.has(i),pendingShards,i);}
- let formsLoaded=false;const pendingForms=new Map();
+ let formsLoaded=false;const pendingForms=new Map(),pendingText=new Map();
+ // Definitions, senses and citations (soz-text.json). Returns true or a promise.
+ function ensureText(){return load(core.text?core.text.file+'?v='+core.text.hash:'',data=>{assign(data.cols,data.sparse,data.refs||[],[]);englishExceptions=data.english||{};azerbaijaniExceptions=data.azerbaijani||{};textLoaded=true;},()=>textLoaded,pendingText,'text');}
  function ensureForms(){return load('forms-archive.json?v='+core.formsArchive,data=>{for(let i=0;i<data.length;i++){const record=nominalRecords[i];Object.assign(record,data[i],{meaningKey:normalize(data[i].az+' '+data[i].en),definitions:data[i].analyses.map(a=>({az:a.az,en:a.en}))});}formsLoaded=true;},()=>formsLoaded,pendingForms,'forms');}
  // Approximate learner level from frequency rank (an estimate, not an official CEFR list).
  const LEVELS=[[500,'A1'],[1500,'A2'],[3500,'B1'],[7000,'B2'],[15000,'C1'],[Infinity,'C2']],BANDS=[[1000,5],[3000,4],[10000,3],[25000,2],[Infinity,1]];
  function frequency(n){const rank=n&&frequencyById[n.id];if(!rank)return null;return {rank,level:LEVELS.find(([max])=>rank<=max)[1],band:BANDS.find(([max])=>rank<=max)[1]};}
  let byFrequency=null;const commonWords=()=>byFrequency??=nodes.filter(n=>frequencyById[n.id]).sort((a,b)=>frequencyById[a.id]-frequencyById[b.id]);
- return {meta:core.meta,frequency,commonWords,wordDetails:word=>wordDetails.get(word)||null,isHomonym:word=>homonyms.has(word),prepareSearch,degree:n=>{const i=position.get(n.id);return i===undefined?0:degree[i+1]-degree[i];},nodes,orthographyNodes,specialNodes,verbEvidence,byWord,byId,edges,adjacency,related,search,neighborhood,alphabetical,allByWord,grammarRecords,grammarSearch,nominalRecords,nominalSearch,formsByWord,resolveWord,archiveMode,aliases,connectionInfo,ensureDetails,ensureForms,formsLoaded:()=>formsLoaded,detailsLoaded:word=>loadedShards.has(shardOf(word,shardCount))};
+ return {meta:core.meta,ensureText,textLoaded:()=>textLoaded,frequency,commonWords,wordDetails:word=>wordDetails.get(word)||null,isHomonym:word=>homonyms.has(word),prepareSearch,degree:n=>{const i=position.get(n.id);return i===undefined?0:degree[i+1]-degree[i];},nodes,orthographyNodes,specialNodes,verbEvidence,byWord,byId,edges,adjacency,related,search,neighborhood,alphabetical,allByWord,grammarRecords,grammarSearch,nominalRecords,nominalSearch,formsByWord,resolveWord,archiveMode,aliases,connectionInfo,ensureDetails,ensureForms,formsLoaded:()=>formsLoaded,detailsLoaded:word=>loadedShards.has(shardOf(word,shardCount))};
 }
 const api={normalize,types,createModel,restoreModel,shardOf};if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.WordWeb=api;
 })(typeof window!=='undefined'?window:globalThis);

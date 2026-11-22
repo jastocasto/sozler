@@ -10,6 +10,8 @@ if(core&&typeof core.then==='function')core.then(start,failed);else start(core);
 function failed(error){console.error(error);const message=document.createElement('p');message.textContent='Sözlər yüklənmədi. İnternet bağlantısını yoxlayıb səhifəni yeniləyin.';$('mapLoading').replaceChildren(message);}
 function start(core){
 const model=restoreModel(core,{fetchJSON});
+// Start fetching definitions at once; the map does not wait for them.
+const textLoading=model.ensureText();
 const posNames={word:'söz',noun:'isim',verb:'fel',adjective:'sifət',function:'qrammatik söz',form:'söz forması',adverb:'zərf',numeral:'say',pronoun:'əvəzlik',interjection:'nida',postposition:'qoşma',determiner:'təyinedici',conjunction:'bağlayıcı',particle:'ədat',preposition:'ön qoşma',phrase:'ifadə'};
 let saved;try{saved=new Set(JSON.parse(localStorage.getItem('soz-toxumasi:saved')||'[]').filter(w=>model.allByWord.has(w)).map(w=>model.aliases[w]||w));}catch{saved=new Set();}
 const state={selected:null,filters:new Set(Object.keys(types)),history:[],arrival:null,searchItems:[],searchIndex:0,libraryMode:'all',libraryLimit:60};
@@ -21,8 +23,9 @@ function fitMeaningTitle(){const title=document.getElementById('meaningWord'),ho
 window.addEventListener('resize',fitMeaningTitle);
 function html(tag,cls,text){const e=document.createElement(tag);if(cls)e.className=cls;if(text!==undefined)e.textContent=text;return e;}
 function preview(n){
- const az=html('small','preview-az',n.az||(n.special?'Xüsusi':'İzah hələ əlavə edilməyib.'));
- const en=html('small','preview-en',n.en||(n.special?'Special':'Definition pending.'));
+ const waiting=!model.textLoaded();
+ const az=html('small','preview-az',n.az||(waiting?'…':n.special?'Xüsusi':'İzah hələ əlavə edilməyib.'));
+ const en=html('small','preview-en',n.en||(waiting?'…':n.special?'Special':'Definition pending.'));
  az.lang='az';en.lang='en';return [az,en];
 }
 let toastTimeout;function toast(message){$('toast').textContent=message;$('toast').classList.add('show');clearTimeout(toastTimeout);toastTimeout=setTimeout(()=>$('toast').classList.remove('show'),2600);}
@@ -98,7 +101,7 @@ function renderFrequency(n){
 }
 function renderMeaning(n){
  const info=window.WordInfo.describeWord(n,model.byWord);$('meaningCard').querySelector('.sheet-scroll').scrollTop=0;
- $('meaningWord').textContent=n.w;fitMeaningTitle();renderFrequency(n);$('meaningPos').textContent=(n.orthographyPage&&n.pos==='word'?'orfoqrafiya':posNames[n.pos]||n.pos)+(model.isHomonym(n.w)?' · omonim':'');$('meaningDefinition').textContent=info.definition||(n.special?window.WordInfo.specialMeaning.az:'İzah hələ əlavə edilməyib.');$('meaningDefinition').lang='az';$('meaningEnglish').textContent=info.definitionEnglish||(n.special?window.WordInfo.specialMeaning.en:'Definition pending.');$('meaningEnglish').lang='en';$('meaningEnglish').hidden=false;$('definitionLanguage').hidden=false;
+ $('meaningWord').textContent=n.w;fitMeaningTitle();renderFrequency(n);$('meaningPos').textContent=(n.orthographyPage&&n.pos==='word'?'orfoqrafiya':posNames[n.pos]||n.pos)+(model.isHomonym(n.w)?' · omonim':'');$('meaningDefinition').textContent=!model.textLoaded()?'…':info.definition||(n.special?window.WordInfo.specialMeaning.az:'İzah hələ əlavə edilməyib.');$('meaningDefinition').lang='az';$('meaningEnglish').textContent=!model.textLoaded()?'…':info.definitionEnglish||(n.special?window.WordInfo.specialMeaning.en:'Definition pending.');$('meaningEnglish').lang='en';$('meaningEnglish').hidden=false;$('definitionLanguage').hidden=false;
  const grammar=$('meaningGrammar');grammar.replaceChildren();
  if(state.searchedForm){const f=state.searchedForm,line=html('span','searched-form');line.append(html('strong','',f.form),document.createTextNode(' — '+f.parts.map(x=>x.az).join(' · ')));if(f.english){const en=html('span','searched-form-en',' · '+f.english);en.lang='en';line.append(en);}grammar.append(line);}
  if(info.base){const label=html('span','',info.form?info.form.label+' · əsas söz: ':'əsas söz: '),base=html('button','meaning-base',info.base.w);base.onclick=()=>select(info.base);grammar.append(label,base);if(info.suffix)grammar.append(html('span','suffix-note',` + -${info.suffix}`));grammar.append(html('span','base-gloss',` (${info.base.en})`));}
@@ -181,7 +184,7 @@ document.addEventListener('keydown',e=>{if((e.metaKey||e.ctrlKey)&&e.key.toLower
 function library(mode,query=''){if(mode==='grammar'){openGrammar(query);return;}if(activePage==='grammar')showMap(true);restoreLibrary();closeMenu();state.libraryMode=mode;state.libraryLimit=60;$('libraryTitle').textContent=mode==='common'?'Ən çox işlənən sözlər':mode==='saved'?'Yadda saxlananlar':mode==='grammar'?'Qrammatika':mode==='forms'?'Hal və cəm formaları':mode==='special'?'Xüsusi sözlər · Special':'Sözlük';$('librarySearch').value=query;$('librarySearch').placeholder=mode==='grammar'?'Fel və ya təsrif forması ilə axtar…':mode==='forms'?'Əsas söz və ya forma ilə axtar…':'Söz və ya məna ilə axtar…';$('librarySearch').setAttribute('aria-label',mode==='grammar'?'Qrammatika arxivində axtar':mode==='forms'?'Formalar arxivində axtar':'Sözlükdə axtar');$('grammarIntro').hidden=mode!=='grammar';$('formsIntro').hidden=mode!=='forms';for(const b of document.querySelectorAll('[data-library-mode]'))b.setAttribute('aria-pressed',b.dataset.libraryMode===mode);renderLibrary();if(!$('libraryDialog').open&&!$('libraryDialog').hasAttribute('open'))$('libraryDialog').showModal();}
 const grammarLabels={past:'keçmiş zaman',present:'indiki zaman',future:'gələcək zaman',negative:'inkar',positive:'təsdiq',singular:'tək',plural:'cəm','first-person':'I şəxs','second-person':'II şəxs','third-person':'III şəxs',participle:'feli sifət',imperative:'əmr şəkli',conditional:'şərt şəkli',indicative:'xəbər şəkli',converb:'feli bağlama',conjugated:'təsrif forması','non-past':'keçmiş olmayan zaman',definite:'müəyyən',indefinite:'qeyri-müəyyən',perfect:'bitmiş',imperfect:'bitməmiş',nominative:'adlıq hal',genitive:'yiyəlik hal',dative:'yönlük hal',accusative:'təsirlik hal',locative:'yerlik hal',ablative:'çıxışlıq hal',possessive:'mənsubiyyət',comitative:'birgəlik',comparative:'müqayisə',predicative:'xəbərlik',misspelling:'yazılış variantı'};
 const LEVEL_NAMES=['A1','A2','B1','B2','C1','C2'];
-function commonList(query){let list=model.commonWords();if(state.libraryLevel)list=list.filter(n=>model.frequency(n).level===state.libraryLevel);if(query){const q=normalize(query.trim());model.prepareSearch();list=list.filter(n=>n.key.includes(q)||n.english.includes(q)||(n.azerbaijani||'').includes(q));}return list;}
+function commonList(query){let list=model.commonWords();if(state.libraryLevel)list=list.filter(n=>model.frequency(n).level===state.libraryLevel);if(query){const q=normalize(query.trim());model.prepareSearch();list=list.filter(n=>n.key.includes(q)||(n.english||'').includes(q)||(n.azerbaijani||'').includes(q));}return list;}
 function levelFilters(){const bar=html('div','level-filters');bar.setAttribute('role','group');bar.setAttribute('aria-label','Səviyyə');for(const level of [null,...LEVEL_NAMES]){const b=html('button','',level||'hamısı');b.setAttribute('aria-pressed',String((state.libraryLevel||null)===level));b.onclick=()=>{state.libraryLevel=level;state.libraryLimit=60;renderLibrary();};bar.append(b);}return bar;}
 function renderLibrary(){const query=$('librarySearch').value,mode=state.libraryMode;
  if(mode==='forms'&&!model.formsLoaded()){const pending=model.ensureForms();if(pending!==true){$('libraryList').replaceChildren(html('p','empty-results','Formalar arxivi yüklənir…'));$('libraryMeta').textContent='';$('loadMore').hidden=true;pending.then(()=>{if(state.libraryMode==='forms')renderLibrary();},()=>{if(state.libraryMode==='forms')$('libraryList').replaceChildren(html('p','empty-results','Formalar arxivi yüklənmədi. İnternet bağlantısını yoxlayıb yenidən açın.'));});return;}}let list=mode==='grammar'?model.grammarSearch(query):mode==='forms'?model.nominalSearch(query):mode==='common'?commonList(query):query?model.search(query,model.nodes.length):model.alphabetical;
@@ -221,6 +224,7 @@ function readGrammarRoute(){if(!location.hash.startsWith('#grammar='))return nul
 for(const id of ['conjugationBack','conjugationBrand'])$(id).onclick=e=>{e.preventDefault();showMap(true);$('menuButton').focus?.({preventScroll:true});};
 // The picture quiz is its own page (#sekil). Pictures never appear in the word map.
 function openPictures(writeRoute=true){
+ if(!pictureQuiz){if(writeRoute)toast('Şəkillər hazırlanır, bir anlıq gözləyin…');return;}
  if(race?.blocking){toast('Yarışı bitirdikdən sonra şəkilli sınağı aça bilərsiniz.');if(location.hash==='#sekil')history.replaceState(null,'','#w='+encodeURIComponent(state.selected.w));return;}
  closeMenu();closeSearch();for(const d of document.querySelectorAll('dialog[open]'))d.close();
  if(activePage==='grammar'){conjugation?.close();$('conjugationPage').hidden=true;restoreLibrary();}
@@ -237,21 +241,38 @@ window.addEventListener('hashchange',route);window.addEventListener('popstate',r
 function updateLocation({region,cluster}){currentRegion=region;currentCluster=cluster;$('breadcrumbRegion').hidden=!region;$('breadcrumbSeparator').hidden=!region;$('breadcrumbCluster').hidden=!cluster;$('breadcrumbRegion').textContent=region?.label||'';$('breadcrumbCluster').textContent=cluster?.label||'';}
 try{galaxy=window.GalaxyView.mount({model,onSelect:n=>select(n,true,true,null,false,'map'),onLocation:updateLocation});$('mapLoading').hidden=true;}catch(error){console.error(error);$('mapLoading').replaceChildren(html('p','','Xəritə bu brauzerdə açıla bilmədi. Sözlük və axtarışdan istifadə edə bilərsiniz.'));}
 for(const r of (galaxy?.atlas.regions||window.WORD_GALAXY_DATA.regions)){const b=html('button','',r.label);b.style.setProperty('--region-color',r.color);b.dataset.region=r.id;b.append(html('span','',r.count.toLocaleString('az')));b.onclick=()=>{closeMenu();setSheet(false);galaxy?.visitRegion(r.id);};$('regionDirectory').append(b);}
-$('collectionSize').textContent=model.nodes.length.toLocaleString('az')+' söz və ifadə';$('sourceCounts').textContent=`Xəritədə ${model.nodes.length.toLocaleString('az')} ayrı lüğət girişi: ${model.nodes.filter(n=>!n.w.includes(' ')).length.toLocaleString('az')} tək söz və ${model.nodes.filter(n=>n.w.includes(' ')).length.toLocaleString('az')} söz birləşməsi / ifadə. ${model.meta.nominal.moved_entries.toLocaleString('az')} qrammatik forma ayrıca formalar bölməsinə keçirilib. Fel təsrifləri ayrıca qrammatika arxivindədir (${model.grammarRecords.length.toLocaleString('az')} qeyd). İki böyük-kiçik hərf variantı birləşdirilib. İlkin məlumatlar saxlanılıb. ${model.orthographyNodes.length.toLocaleString('az')} yazılış orfoqrafiya lüğətinə əsasən əlavə edilib. Onlardan ${model.orthographyNodes.filter(n=>n.az&&n.en).length.toLocaleString('az')} sözün izahı Azərbaycan və ingilis dillərində göstərilir. ${model.meta.growth.added_entries} söz və ifadədən ibarət genişlənmədən sonra tam məna yoxlaması aparılıb: ${model.meta.verification.assessed_entries.toLocaleString('az')} girişə baxılıb, ${model.meta.verification.corrected_entries.toLocaleString('az')} girişin izahı və ya əlavə mənaları dəqiqləşdirilib. Düzəlişlərin mənbələri söz kartında və yoxlama hesabatında göstərilir. Azərbaycan əlifbasının bütün hərfləri üzrə yeni söz əlaqələrində lüğət və qrammatika mənbələri göstərilir.`;
+function renderCounts(){$('collectionSize').textContent=model.nodes.length.toLocaleString('az')+' söz və ifadə';$('sourceCounts').textContent=`Xəritədə ${model.nodes.length.toLocaleString('az')} ayrı lüğət girişi: ${model.nodes.filter(n=>!n.w.includes(' ')).length.toLocaleString('az')} tək söz və ${model.nodes.filter(n=>n.w.includes(' ')).length.toLocaleString('az')} söz birləşməsi / ifadə. ${model.meta.nominal.moved_entries.toLocaleString('az')} qrammatik forma ayrıca formalar bölməsinə keçirilib. Fel təsrifləri ayrıca qrammatika arxivindədir (${model.grammarRecords.length.toLocaleString('az')} qeyd). İki böyük-kiçik hərf variantı birləşdirilib. İlkin məlumatlar saxlanılıb. ${model.orthographyNodes.length.toLocaleString('az')} yazılış orfoqrafiya lüğətinə əsasən əlavə edilib. Onlardan ${model.orthographyNodes.filter(n=>n.az&&n.en).length.toLocaleString('az')} sözün izahı Azərbaycan və ingilis dillərində göstərilir. ${model.meta.growth.added_entries} söz və ifadədən ibarət genişlənmədən sonra tam məna yoxlaması aparılıb: ${model.meta.verification.assessed_entries.toLocaleString('az')} girişə baxılıb, ${model.meta.verification.corrected_entries.toLocaleString('az')} girişin izahı və ya əlavə mənaları dəqiqləşdirilib. Düzəlişlərin mənbələri söz kartında və yoxlama hesabatında göstərilir. Azərbaycan əlifbasının bütün hərfləri üzrə yeni söz əlaqələrində lüğət və qrammatika mənbələri göstərilir.`;}
+renderCounts();
 conjugation=window.ConjugationUI.mount({model,onChange:writeGrammarRoute,onMap:word=>select(model.byWord.get(word))});
 try{morphology=window.SozMorphology.create({model,normalize,engine:conjugation.engine,verbs:conjugation.dictionary.verbs,english:window.ConjugationEnglish,englishData:window.CONJUGATION_ENGLISH_DATA});}catch(error){console.warn('Word-form analysis is unavailable',error);}
-pictureQuiz=window.PictureQuizUI.mount({model,html,onMap:word=>{history.replaceState(null,'','#w='+encodeURIComponent(word));showMap(false);select(model.byWord.get(word));}});
+// The picture quiz and the daily word/quiz read definitions when they start,
+// so they start once soz-text.json has arrived (at once in tests).
+function mountTextModules(){
+ pictureQuiz=window.PictureQuizUI.mount({model,html,onMap:word=>{history.replaceState(null,'','#w='+encodeURIComponent(word));showMap(false);select(model.byWord.get(word));}});
+ window.LearningUI.mount({model,select,html});
+ if(location.hash==='#sekil')openPictures(false);
+}
 $('pictureQuizButton').onclick=()=>openPictures(true);
 const initialGrammar=readGrammarRoute();
 const initialWord=hashWord(),initialNode=fromHash();select(initialNode||model.byWord.get('gözəl'),false,!!initialNode,null,!initialNode);if(!initialNode&&model.formsByWord.has(initialWord))library(model.archiveMode(initialWord),initialWord);
 if(initialGrammar)openGrammar(initialGrammar.word,false,initialGrammar);
-if(location.hash==='#sekil')openPictures(false);
-window.LearningUI.mount({model,select,html});
+if(textLoading===true)mountTextModules();
 race=window.RaceUI.mount({model,galaxy,select,resetHistory:()=>{state.history=[];},prepareMap:()=>{const previous=new Set(state.filters);state.filters=new Set(Object.keys(types));visibleFilters();galaxy?.setFilters(state.filters);return ()=>{state.filters=previous;visibleFilters();detail();galaxy?.setFilters(state.filters);};},selected:()=>state.selected?.w,toast,html});
 // Vercel Web Analytics: anonymous page-view counts, no cookies. Only on the deployed site.
 try{if(location.protocol==='https:'&&!/^(localhost|127\.|\[)/.test(location.hostname)){window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments);};const script=document.createElement('script');script.defer=true;script.src='/_vercel/insights/script.js';document.head.append(script);}}catch{}
 // Prepare search text in small slices while the visitor looks at the map.
-(function prepareSearchWhenIdle(){const idle=window.requestIdleCallback||(fn=>setTimeout(()=>{const start=performance.now();fn({timeRemaining:()=>Math.max(0,12-(performance.now()-start))});},40));idle(deadline=>{let done=false;while(!done&&deadline.timeRemaining()>4)done=model.prepareSearch(1500);if(!done)prepareSearchWhenIdle();else idle(()=>morphology?.warm());});})();
+const idle=window.requestIdleCallback||(fn=>setTimeout(()=>{const start=performance.now();fn({timeRemaining:()=>Math.max(0,12-(performance.now()-start))});},40));
+function prepareSearchWhenIdle(){idle(deadline=>{let done=false;while(!done&&deadline.timeRemaining()>4)done=model.prepareSearch(1500);if(!done)prepareSearchWhenIdle();else idle(()=>morphology?.warm());});}
+prepareSearchWhenIdle();
+// Definitions arrive in soz-text.json after the map: fill in what is on screen.
+function textReady(){
+ renderCounts();mountTextModules();
+ if(state.selected){const scroll=$('meaningCard').querySelector('.sheet-scroll'),top=scroll.scrollTop,senses=$('otherSenses').open;detail();scroll.scrollTop=top;$('otherSenses').open=senses;}
+ if(!$('searchResults').hidden)showSearch();
+ if($('libraryDialog').open||$('libraryDialog').hasAttribute('open'))renderLibrary();
+ prepareSearchWhenIdle();
+}
+if(textLoading!==true)textLoading.then(textReady,error=>{console.error(error);toast('İzahlar yüklənmədi. Səhifəni yeniləyin.');});
 window.SozApp={selectWord:word=>select(model.resolveWord(word)),inspect:()=>({selected:state.selected?.w,sheetOpen,page:activePage,race:race?.inspect(),conjugation:conjugation?.inspect(),...galaxy?.inspect()})};
 }
 })();

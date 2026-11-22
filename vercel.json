@@ -12,7 +12,7 @@
       ]
     },
     {
-      "source": "/(soz-core\\.json|forms-archive\\.json|details/.*\\.json)",
+      "source": "/(soz-core\\.json|soz-text\\.json|forms-archive\\.json|details/.*\\.json)",
       "headers": [
         {
           "key": "Cache-Control",

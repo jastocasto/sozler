@@ -4,7 +4,8 @@ const assert = require('node:assert/strict'), fs = require('fs'), vm = require('
 const dist = path.join(__dirname, '../dist'), sandbox = { window: {} };
 for (const f of ['conjugation-data', 'conjugation-english-data']) vm.runInNewContext(fs.readFileSync(path.join(dist, f + '.js'), 'utf8'), sandbox);
 const W = require('../dist/model.js'), CE = require('../dist/conjugation-engine.js'), EN = require('../dist/conjugation-english.js'), M = require('../dist/morphology.js');
-const model = W.restoreModel(JSON.parse(fs.readFileSync(path.join(dist, 'soz-core.json'), 'utf8')));
+const model = W.restoreModel(JSON.parse(fs.readFileSync(path.join(dist, 'soz-core.json'), 'utf8')), { fetchJSON: require('./layers.cjs').fetchJSON });
+model.ensureText();
 const D = CE.withDictionary(sandbox.window.WORD_CONJUGATIONS, model), E = CE.create(D);
 const analyser = M.create({ model, normalize: W.normalize, engine: E, verbs: D.verbs, english: EN, englishData: sandbox.window.CONJUGATION_ENGLISH_DATA });
 const first = q => analyser.analyze(q)[0];

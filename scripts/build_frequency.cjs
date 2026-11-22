@@ -21,7 +21,8 @@ const MIN_COUNT = 3; // per corpus; rarer tokens are ignored there, and are matc
   if (!countsFile) { console.error('usage: build_frequency.cjs counts.tsv'); process.exit(2); }
   const sandbox = { window: {} };
   for (const f of ['conjugation-data', 'conjugation-english-data']) vm.runInNewContext(fs.readFileSync(path.join(dist, f + '.js'), 'utf8'), sandbox);
-  const model = W.restoreModel(JSON.parse(fs.readFileSync(path.join(dist, 'soz-core.json'), 'utf8')));
+  const model = W.restoreModel(JSON.parse(fs.readFileSync(path.join(dist, 'soz-core.json'), 'utf8')), { fetchJSON: file => JSON.parse(fs.readFileSync(path.join(dist, file.split('?')[0]), 'utf8')) });
+  model.ensureText();
   const D = CE.withDictionary(sandbox.window.WORD_CONJUGATIONS, model), E = CE.create(D);
   const analyser = M.create({ model, normalize: W.normalize, engine: E, verbs: D.verbs, english: EN, englishData: sandbox.window.CONJUGATION_ENGLISH_DATA });
   model.prepareSearch();
