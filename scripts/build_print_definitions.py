@@ -394,9 +394,10 @@ class Builder:
             verb = match[1] + infinitive_ending(match[1])
             if verb in self.nodes:
                 yield verb, 'causative', 'd' + match[2] + 'r'
-        # Causative -t after a vowel-final verb stem: bankalamaq -> bankalatmaq, oxumaq -> oxutmaq.
-        match = re.fullmatch(r'(.+[aıoueəiöü])t(maq|mək)', word)
-        if match:
+        # Causative -t after a vowel-final verb stem (bankalamaq -> bankalatmaq, oxumaq -> oxutmaq) or a stem of two or
+        # more syllables ending in -r or -l (aşdırmaq -> aşdırtmaq, darılmaq -> darıltmaq).
+        match = re.fullmatch(r'(.+[aıoueəiöü])t(maq|mək)', word) or re.fullmatch(r'(.+[aıoueəiöü][rl])t(maq|mək)', word)
+        if match and (match[1][-1] in VOWELS or len(re.findall(r'[aıoueəiöü]', match[1])) >= 2):
             verb = match[1] + infinitive_ending(match[1])
             if verb in self.nodes:
                 yield verb, 'causative', 't'
