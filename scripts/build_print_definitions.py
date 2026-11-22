@@ -53,6 +53,7 @@ PREFIXES = {
     'neo': 'neo', 'poli': 'poly', 'psixo': 'psycho', 'radio': 'radio ', 'sosio': 'socio', 'super': 'super',
     'tele': 'tele', 'termo': 'thermo', 'ultra': 'ultra', 'video': 'video ', 'foto': 'photo', 'nano': 'nano',
     'kilo': 'kilo', 'santi': 'centi', 'milli': 'milli', 'vitse': 'vice-', 'eks': 'ex-', 'post': 'post-',
+    'kvazi': 'quasi-', 'psevdo': 'pseudo-', 'krio': 'cryo', 'giqa': 'giga', 'ekstra': 'extra-',
 }
 # Endings that are dictionary headwords but act as suffixes at the end of a word.
 SUFFIX_LIKE = {'dan', 'dən', 'lıq', 'lik', 'luq', 'lük', 'çılıq', 'çilik', 'ləmə', 'lama', 'lamaq', 'ləmək', 'lar', 'lər',
