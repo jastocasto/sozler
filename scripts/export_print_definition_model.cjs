@@ -28,6 +28,14 @@ const nodes = model.nodes.map(node => {
   const row = { w: node.w, az: node.az || '', en: node.en || '', pos: node.pos, degree: degree.get(node.w) || 0 };
   if (node.orthographyPage) row.page = node.orthographyPage;
   if (node.definitionMethod) row.method = node.definitionMethod;
+  // Where the current definition comes from, so links built on it can cite the same source.
+  const refs = (node.definitionSources || []).filter(ref => ref.url && /^https:\/\//.test(ref.url)).map(ref => ({ title: ref.title || 'lüğət', url: ref.url }));
+  if (!refs.length && node.source?.head) {
+    const edition = node.source.edition || 'en';
+    refs.push({ title: `Wiktionary (${edition})`, url: node.source.url || `https://${edition}.wiktionary.org/wiki/${encodeURIComponent(node.source.head)}` });
+  }
+  if (refs.length && row.az) row.refs = refs.slice(0, 2);
+  if (node.definitionAuditStatus === 'needs-review') row.review = true;
   if (node.pos === 'verb') {
     const phrase = baseFromGloss(node.en);
     const verb = phrase && principal(phrase);
@@ -35,5 +43,8 @@ const nodes = model.nodes.map(node => {
   }
   return row;
 });
-fs.writeFileSync(process.argv[2], JSON.stringify({ nodes, edges: pairs }));
+// Word pairs that reviewers rejected; the model drops any link between them, so the builder must not make one.
+const blocked = [];
+for (const layer of Object.values(w)) for (const [a, b] of (layer && layer.blocked) || []) blocked.push([a, b]);
+fs.writeFileSync(process.argv[2], JSON.stringify({ nodes, edges: pairs, blocked }));
 console.log(nodes.length, 'nodes', pairs.length, 'edges');

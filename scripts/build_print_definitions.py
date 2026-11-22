@@ -138,6 +138,19 @@ BILINGUAL_SEE = re.compile(r'^(?:(?:[a-zçğıöşüə]{1,5}\.|\d\.)\s*)+bax\s+(
 # An explanatory entry whose first sense is a cross-reference, followed by quotations or more senses.
 LEADING_SEE = re.compile(r'^(?:(?:\[[^\]]{1,100}\]|[a-zçğıöşüə]{1,8}\.)\s*)*(?:1\.\s*)?b\s*a\s*x\s+'
                          r'([a-zçğıöşüə]+(?:[- ][a-zçğıöşüə]+)*)(?:\s*\d{1,2})?\s*(?:[.;,]|$)', re.I)
+# Wiktionary's wording for a definition that only points at another headword: «alternative form of şivən».
+FORM_OF = re.compile(r'^(?:[a-z]+\.\s*)?(?:(?:an?|the)\s+)?(?:(?:obsolete|archaic|dated|rare|nonstandard|non-standard|colloquial|'
+                     r'dialectal|informal|historical|alternative|common|standard|eye dialect|pronunciation)\s+)*(?:form|spelling|'
+                     r'misspelling|variant|plural|abbreviation|initialism|acronym|clipping|contraction|romanization)s?\s+of\s+'
+                     r'([^\s,;:()“"]+(?:\s[^\s,;:()“"]+){0,2})', re.I)
+# Lowercase labels ending in a period before the sense of an atlas definition: «kimya. », «biokimyəvi, genetik. ».
+ORIGINAL_LABELS = re.compile(r'^(?:[a-zçğıöşüə]{2,14}(?:,\s*[a-zçğıöşüə]{2,14})*\.\s+)+(?=\S)')
+# Light verbs head verb phrases without saying much (kömək vermək, narahatlıq keçirmək), so they make no class link.
+LIGHT_VERBS = set('vermək keçirmək göstərmək gətirmək demək çıxmaq itirmək qalmaq salmaq düşmək almaq tutmaq çəkmək qoymaq '
+                  'yetirmək gəlmək getmək durmaq bilmək bilməz etdirmək olunmaq edilmək'.split())
+# Words that name a form, not a class, and so never head a definition: «şivənin alternativ forması», «… qısaltması».
+FORM_HEADS = {'alternativ', 'yazılış', 'yazılma', 'çoxluq', 'abreviatura', 'qısaltma', 'variant', 'tələffüz', 'forma',
+              'etdirmək', 'etmək', 'eləmək', 'olmaq', 'söz'}
 HOMONYM = re.compile(r'[- ]?\d{1,2}$')
 BACK, FRONT = set('aıou'), set('əeiöü')
 VOWELS = BACK | FRONT
@@ -323,6 +336,8 @@ def ngrams(text, size=6):
 class Builder:
     def __init__(self, model, explanatory, bilingual):
         self.nodes = {n['w']: n for n in model['nodes']}
+        # Pairs that reviewers rejected (the model drops any link between them).
+        self.blocked = {tuple(sorted(pair)) for pair in model.get('blocked', [])}
         self.by_key = {}
         for node in model['nodes']:
             self.by_key.setdefault(key(node['w']), node['w'])
@@ -354,7 +369,7 @@ class Builder:
 
     def link(self, a, b, kind, note, sense_az, sense_en, refs, source):
         pair = tuple(sorted((a, b)))
-        if a == b or a not in self.nodes or b not in self.nodes or pair in self.connected:
+        if a == b or a not in self.nodes or b not in self.nodes or pair in self.connected or pair in self.blocked:
             return
         self.connected.add(pair)
         self.degree[a] += 1
@@ -1021,6 +1036,44 @@ class Builder:
                           f'The explanatory dictionary refers {word} to {target}.', [print_source(volume, page)],
                           'cross-reference-lead')
 
+    def original_definition_links(self):
+        """Link a still isolated word whose definition came with the atlas (not from this builder) the same way, citing
+        that definition's own source: a form-of definition to its headword (şüvən: «alternative form of şivən»), else
+        the synonym or class word, else the noun of a relational definition. Form words never head (alternativ, qısaltma)."""
+        for word, node in list(self.nodes.items()):
+            # A definition that review flagged as doubtful is no ground for a link.
+            if (self.degree[word] or word in self.definitions or node.get('review') or not node.get('refs')
+                    or not node.get('az', '').strip()):
+                continue
+            # Leading domain labels are not part of the sense: «kimya. ruterfordium», «biokimyəvi, genetik. nukleotid».
+            az = ORIGINAL_LABELS.sub('', node['az'].strip())
+            refs, definition = node['refs'], {'az': az, 'en': node.get('en', ''), 'pos': node.get('pos')}
+            form = FORM_OF.match(definition['en'].strip())
+            if form:
+                pieces = form[1].rstrip('.').split()
+                target = next((self.by_key[key(' '.join(pieces[:n]))] for n in range(len(pieces), 0, -1)
+                               if key(' '.join(pieces[:n])) in self.by_key), None)
+                if target and target != word:
+                    self.link(word, target, 'syn', 'Tərif · forma', f'Tərifə görə «{word}» «{target}» sözünün başqa forması və ya yazılışıdır.',
+                              f'By its definition, {word} is another form or spelling of {target}.', refs, 'original-form')
+                continue
+            heads = [(kind, other) for kind, other in self.definition_head(word, definition)
+                     if other not in FORM_HEADS and not (kind == 'genus' and other in LIGHT_VERBS)]
+            for kind, other in heads:
+                if kind == 'syn':
+                    self.link(word, other, 'syn', 'Tərif · sinonim', f'«{word}» tərifdə «{other}» sözü ilə izah olunur.',
+                              f'{word} is defined by the word {other}.', refs, 'original-synonym')
+                elif definition['pos'] == 'noun':
+                    self.link(word, other, 'topic', 'Tərif · ümumi anlayış', f'Tərifə görə «{word}» bir {other} növüdür.',
+                              f'By its definition, {word} is a kind of {other}.', refs, 'original-genus')
+                else:
+                    self.link(word, other, 'topic', 'Tərif · əsas söz', f'«{word}» tərifdə «{other}» sözü əsasında izah olunur.',
+                              f'{word} is defined in terms of {other}.', refs, 'original-genus')
+            if not heads:
+                for other in self.relation_nouns(word, definition):
+                    self.link(word, other, 'topic', 'Tərif · əsas söz', f'«{word}» tərifdə «{other}» sözü əsasında izah olunur.',
+                              f'{word} is defined in terms of {other}.', refs, 'original-relation')
+
     def relation_nouns(self, word, definition):
         """Nouns a relational definition is built on: «Əlkimyaya aid.» -> əlkimya, «Üç sinifdən ibarət.» -> sinif,
         «Toxunma ilə bağlı.» -> toxunma, «Ödü olan.» -> öd, «Tarix və politologiyaya aid.» -> tarix, politologiya."""
@@ -1227,6 +1280,7 @@ def main():
     builder.definition_links()
     builder.bilingual_references()
     builder.leading_references()
+    builder.original_definition_links()
     after_undefined = sum(1 for w in builder.nodes if not builder.defined(w))
     after_isolated = sum(1 for w in builder.nodes if not builder.degree[w])
     methods = collections.Counter(d['method'] for d in builder.definitions.values())
