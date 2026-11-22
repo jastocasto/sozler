@@ -63,6 +63,7 @@ DERIVING = {front for back, front in (('lamaq', 'ləmək'), ('lanmaq', 'lənmək
                                       ('lanma', 'lənmə'), ('laşma', 'ləşmə'), ('laşdırmaq', 'ləşdirmək'), ('çılıq', 'çilik'),
                                       ('çuluq', 'çülük'), ('lıq', 'lik'), ('luq', 'lük'), ('sız', 'siz'), ('suz', 'süz'))
             for front in (back, front)}
+VERBAL_KINDS = {'verbal-noun', 'passive', 'passive-n', 'causative', 'become', 'make', 'acquire'}
 PAIRED_ENDINGS = {'sı', 'si', 'su', 'sü', 'nı', 'ni', 'nu', 'nü', 'lı', 'li', 'lu', 'lü'}
 POS = {'noun', 'verb', 'adjective', 'adverb', 'numeral', 'pronoun', 'interjection', 'postposition',
        'conjunction', 'particle', 'phrase'}
@@ -121,7 +122,7 @@ def gloss(node):
     if node.get('pos') == 'verb':
         parts = [part for part in parts if part.lower().startswith('to ')] or parts
     text = parts[0] if parts else node['en']
-    text = re.sub(r'^(?:to|a|an|the)\s+', '', text, flags=re.I).rstrip('.:').strip()
+    text = re.sub(r'\s+', ' ', re.sub(r'^(?:to|a|an|the)\s+', '', text, flags=re.I)).rstrip('.:').strip()
     # Lower-case a sentence-initial capital, but keep acronyms and proper names written in capitals.
     return text[:1].lower() + text[1:] if text[:1].isupper() and not text[1:2].isupper() and node.get('pos') != 'name' else text
 
@@ -380,6 +381,12 @@ class Builder:
             verb = match[1] + infinitive_ending(match[1])
             if verb in self.nodes:
                 yield verb, 'causative', 'd' + match[2] + 'r'
+        # Causative -t after a vowel-final verb stem: bankalamaq -> bankalatmaq, oxumaq -> oxutmaq.
+        match = re.fullmatch(r'(.+[aıoueəiöü])t(maq|mək)', word)
+        if match:
+            verb = match[1] + infinitive_ending(match[1])
+            if verb in self.nodes:
+                yield verb, 'causative', 't'
 
     def rule_definition(self, base_word, kind, suffix, base):
         g, pos = gloss(base), base['pos']
@@ -474,11 +481,33 @@ class Builder:
         node = self.defined(word)
         return node if node and node['pos'] not in ('function', 'form', 'particle') and not word.startswith('-') else None
 
+    def converb_verb(self, piece):
+        """The verb of a converb in -ıb (bölüb -> bölmək, döyüb -> döymək, eşidib -> eşitmək, bəzəyib -> bəzəmək)."""
+        if not re.search(r'[ıiuü]b$', piece) or len(piece) < 4:
+            return None
+        stem = piece[:-2]
+        stems = [stem]
+        if stem.endswith('y') and stem[-2:-1] in VOWELS:
+            stems.append(stem[:-1])
+        if stem.endswith('d'):
+            stems.append(stem[:-1] + 't')
+        for candidate in stems:
+            verb = candidate + infinitive_ending(candidate)
+            node = self.usable(verb)
+            if node and node['pos'] == 'verb':
+                return verb
+        return None
+
     def compound_parts(self, word):
         """Return (parts, kind) for a compound of existing headwords, or None."""
         if re.search(r'[- ]', word):
             parts = []
             for piece in re.split(r'[- ]', word):
+                # A paired verb opens with a converb: bölüb-paylamaq is bölmək + paylamaq.
+                verb = self.converb_verb(piece) if '-' in word and re.search(r'(?:maq|mək)$', word) else None
+                if verb:
+                    parts.append(verb)
+                    continue
                 # Strip a real ending before a lone vowel: babalı is baba + -lı (not babal), kirpisi is kirpi + -si.
                 sizes = [2] if piece[-2:] in PAIRED_ENDINGS else []
                 sizes += [1, 3] if piece[-1:] in 'ıiuü' else []
@@ -492,6 +521,10 @@ class Builder:
             rest = word[len(prefix):]
             if word.startswith(prefix) and len(rest) >= 4 and self.usable(rest):
                 return [prefix, rest], 'prefix'
+        # A verb form of an existing headword is not split as a compound (turşulatma is turşulatmaq + -ma); adjective
+        # compounds in -lı often are compounds (iri + başlı), so only verbal derivations block the split.
+        if any(kind in VERBAL_KINDS for _, kind, _ in self.analyses(word)):
+            return None
         best = None
         for i in range(3, len(word) - 3):
             a, b = word[:i], word[i:]
