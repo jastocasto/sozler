@@ -987,6 +987,9 @@ class Builder:
             stem = possessive_stem(token)
             head = next((c for c in (token, stem) if c and self.usable(c)), None)
             if not head:
+                # A plural class word: torpaq heyvan-lar-ı, bitişik əkiz-lər.
+                head = next((c[:-3] for c in (token, stem) if c and re.search(r'.{3}(?:lar|lər)$', c) and self.usable(c[:-3])), None)
+            if not head:
                 return []
             # An izafet head carries the possessive even when the bare form is another word: rüşeym qat-ı (not qatı,
             # thick), çoban it-i (not iti, sharp). Not after a possessive form, where it is a predicate: ucu iti (sharp).
@@ -1078,17 +1081,26 @@ class Builder:
         """Nouns a relational definition is built on: «Əlkimyaya aid.» -> əlkimya, «Üç sinifdən ibarət.» -> sinif,
         «Toxunma ilə bağlı.» -> toxunma, «Ödü olan.» -> öd, «Tarix və politologiyaya aid.» -> tarix, politologiya."""
         def noun(candidate):
-            node = self.usable(candidate)
-            ok = node and node['pos'] != 'verb' and candidate != word and candidate not in GENERIC_HEADS
-            return candidate if ok else None
+            # A proper noun is written with a capital: Rusiya-ya qarşı.
+            real = candidate if candidate in self.nodes else self.by_key.get(key(candidate))
+            node = real and self.usable(real)
+            ok = node and node['pos'] != 'verb' and real != word and real not in GENERIC_HEADS
+            return real if ok else None
 
         def governed(token, case):
             found, found_case = self.governed_noun(token)
             if found and found_case == case and noun(found):
-                return found
-            # A plural before the case: mikrolit-lər-ə, bakteriya-lar-a, hərf-lər-dən.
-            plural = re.match(r'^(.{3,}?)(?:lar|lər)(?:a|ə|dan|dən)$', token)
-            return noun(plural.group(1)) if plural else None
+                return noun(found)
+            cases = {'a': 'dative', 'ə': 'dative', 'dan': 'ablative', 'dən': 'ablative', 'da': 'locative', 'də': 'locative'}
+            # A plural before the case (mikrolit-lər-ə, hərf-lər-dən), or a possessive with its n (müalicə-si-n-ə, qurşağ-ı-n-a).
+            for pattern in (r'^(.{3,}?)(?:lar|lər)(a|ə|dan|dən|da|də)$', r'^(.{2,}?)(?:lar|lər)?(?:s[ıiuü]|[ıiuü])n(a|ə|dan|dən|da|də)$'):
+                match = re.match(pattern, token)
+                if match and cases[match.group(2)] == case:
+                    stem = match.group(1)
+                    for candidate in [stem] + ([stem[:-1] + {'ğ': 'q', 'y': 'k'}[stem[-1]]] if stem[-1] in 'ğy' else []):
+                        if noun(candidate):
+                            return noun(candidate)
+            return None
 
         def possessed(token):
             # «X-ı olan» (having X); a token that is itself a headword (yaxşı olan) is not a possessive form.
@@ -1105,9 +1117,16 @@ class Builder:
         found = []
         for item in [item.strip() for item in clause.split(',') if item.strip()][:2]:
             tokens = re.findall(r'[\wçğıöşüə-]+', key(item))
-            having = bool(tokens) and tokens[-1] == 'olan'
+            having = bool(tokens) and tokens[-1] in ('olan', 'olmayan')
+            lacking = having and tokens[-1] == 'olmayan'
             if having:
                 tokens = tokens[:-1]
+            if having and len(tokens) == 1 and not lacking:
+                # «Estoniyadan olan» (from Estonia), «Altda olan» (located below).
+                head = governed(tokens[0], 'ablative') or governed(tokens[0], 'locative')
+                if head and head not in found:
+                    found.append(head)
+                continue
             if len(tokens) < 2:
                 continue
             if tokens[-1] == 'bağlı' and len(tokens) >= 3 and tokens[-2] == 'ilə':
@@ -1118,6 +1137,9 @@ class Builder:
                 head, rest = governed(tokens[-2], 'ablative'), tokens[:-2]
             elif having:
                 head, rest = possessed(tokens[-1]), tokens[:-1]
+                # «Mətni tam olan» (whose text is complete): the possessed noun before an adjective.
+                if not head and not lacking and len(tokens) >= 2 and (self.usable(tokens[-1]) or {}).get('pos') == 'adjective':
+                    head, rest = possessed(tokens[-2]), tokens[:-2]
             else:
                 continue
             if not head:
