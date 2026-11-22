@@ -1,0 +1,1074 @@
+{
+ "onomastik": {
+  "az": "Onomastikaya aid.",
+  "en": "onomastic",
+  "pos": "adjective"
+ },
+ "onomatopoetik": {
+  "az": "Səs təqlidinə əsaslanan.",
+  "en": "onomatopoeic",
+  "pos": "adjective"
+ },
+ "onomatopoetika": {
+  "skip": "meaning not certain"
+ },
+ "ontobiologiya": {
+  "skip": "meaning not certain"
+ },
+ "ontobioloji": {
+  "skip": "meaning not certain"
+ },
+ "ontogenetik": {
+  "az": "Fərdi inkişafa aid.",
+  "en": "ontogenetic",
+  "pos": "adjective"
+ },
+ "ontogenetika": {
+  "skip": "meaning not certain"
+ },
+ "ontomorfogenez": {
+  "skip": "meaning not certain"
+ },
+ "ooqoni": {
+  "skip": "meaning not certain"
+ },
+ "opera-oratoriya": {
+  "az": "Opera və oratoriya xüsusiyyətlərini birləşdirən əsər.",
+  "en": "opera-oratorio",
+  "pos": "noun"
+ },
+ "operasionalistik": {
+  "skip": "meaning not certain"
+ },
+ "operasionalizm": {
+  "az": "Elmi anlayışları ölçmə əməliyyatları ilə izah edən təlim.",
+  "en": "operationalism",
+  "pos": "noun"
+ },
+ "opossum": {
+  "az": "Amerikada yaşayan kisəli heyvan.",
+  "en": "opossum",
+  "pos": "noun"
+ },
+ "opoyaz": {
+  "az": "Rus formalist ədəbiyyatşünaslarının cəmiyyəti.",
+  "en": "OPOYAZ",
+  "pos": "noun"
+ },
+ "optant": {
+  "az": "Vətəndaşlığını seçmiş şəxs.",
+  "en": "optant",
+  "pos": "noun"
+ },
+ "optayp": {
+  "skip": "meaning not certain"
+ },
+ "optometr": {
+  "az": "Görmə itiliyini yoxlayan mütəxəssis və ya cihaz.",
+  "en": "optometrist; optometer",
+  "pos": "noun"
+ },
+ "optometriya": {
+  "az": "Görmənin yoxlanması və korreksiyası.",
+  "en": "optometry",
+  "pos": "noun"
+ },
+ "optron": {
+  "az": "İşıq mənbəyi və qəbuledicidən ibarət cihaz.",
+  "en": "optocoupler",
+  "pos": "noun"
+ },
+ "oranjad": {
+  "az": "Portağal şirəsindən sərinləşdirici içki.",
+  "en": "orangeade",
+  "pos": "noun"
+ },
+ "oratoriya": {
+  "az": "Xor, solist və orkestr üçün iri vokal-simfonik əsər.",
+  "en": "oratorio",
+  "pos": "noun"
+ },
+ "orbitin": {
+  "skip": "meaning not certain"
+ },
+ "orda": {
+  "az": "Köçəri xalqların hərbi-siyasi birliyi.",
+  "en": "horde",
+  "pos": "noun"
+ },
+ "order": {
+  "az": "Sütun və tirlərin müəyyən memarlıq sistemi; sərəncam sənədi.",
+  "en": "order (architecture); warrant",
+  "pos": "noun"
+ },
+ "orfium": {
+  "skip": "meaning not certain"
+ },
+ "orfoqraf": {
+  "skip": "meaning not certain"
+ },
+ "orfoqram": {
+  "az": "Orfoqrafiya qaydası ilə yazılan hərf və ya söz yeri.",
+  "en": "spelling point",
+  "pos": "noun"
+ },
+ "oriqami": {
+  "az": "Kağızı qatlayıb fiqurlar düzəltmə sənəti.",
+  "en": "origami",
+  "pos": "noun"
+ },
+ "orqanoqrafik": {
+  "skip": "meaning not certain"
+ },
+ "orqanoqrafiya": {
+  "skip": "meaning not certain"
+ },
+ "ornamentalçı": {
+  "skip": "meaning not certain"
+ },
+ "ornitoz": {
+  "az": "Quşlardan keçən yoluxucu xəstəlik.",
+  "en": "ornithosis",
+  "pos": "noun"
+ },
+ "ortoborat": {
+  "skip": "meaning not certain"
+ },
+ "ortodoksal": {
+  "az": "Ortodoks, ənənəyə sadiq.",
+  "en": "orthodox",
+  "pos": "adjective"
+ },
+ "ortodoksal-katolik": {
+  "skip": "meaning not certain"
+ },
+ "ortoferrit": {
+  "skip": "meaning not certain"
+ },
+ "ortofosfat": {
+  "az": "Ortofosfat turşusunun duzu.",
+  "en": "orthophosphate",
+  "pos": "noun"
+ },
+ "ortogenetik": {
+  "skip": "meaning not certain"
+ },
+ "ortohidrogen": {
+  "az": "Nüvə spinləri paralel olan hidrogen molekulu.",
+  "en": "orthohydrogen",
+  "pos": "noun"
+ },
+ "ortoxromatik": {
+  "az": "Sarı və yaşıl şüalara da həssas olan.",
+  "en": "orthochromatic",
+  "pos": "adjective"
+ },
+ "ortomərkəz": {
+  "az": "Üçbucağın hündürlüklərinin kəsişmə nöqtəsi.",
+  "en": "orthocentre",
+  "pos": "noun"
+ },
+ "ortosilikat": {
+  "az": "Ortosilisium turşusunun duzu.",
+  "en": "orthosilicate",
+  "pos": "noun"
+ },
+ "osman": {
+  "skip": "meaning not certain"
+ },
+ "osmos": {
+  "az": "Həlledicinin yarımkeçirici arakəsmədən keçməsi.",
+  "en": "osmosis",
+  "pos": "noun"
+ },
+ "osteoqrafiya": {
+  "skip": "meaning not certain"
+ },
+ "ot-çiçək": {
+  "az": "Otlar və çiçəklər.",
+  "en": "grass and flowers",
+  "pos": "noun"
+ },
+ "otçu": {
+  "skip": "meaning not certain"
+ },
+ "otolarinqologiya": {
+  "az": "Qulaq, burun və boğaz xəstəliklərini öyrənən tibb sahəsi.",
+  "en": "otolaryngology",
+  "pos": "noun"
+ },
+ "otolarinqoloq": {
+  "az": "Qulaq-burun-boğaz həkimi.",
+  "en": "ENT specialist",
+  "pos": "noun"
+ },
+ "ot-sarmaşıq": {
+  "skip": "meaning not certain"
+ },
+ "oyrat": {
+  "az": "Qərbi monqol xalqı və onun nümayəndəsi.",
+  "en": "Oirat",
+  "pos": "noun"
+ },
+ "ödem": {
+  "az": "Toxumalarda maye toplanması nəticəsində şişkinlik.",
+  "en": "edema",
+  "pos": "noun"
+ },
+ "öfkəli-öfkəli": {
+  "az": "Hirslə.",
+  "en": "angrily",
+  "pos": "adverb"
+ },
+ "öldürgən": {
+  "skip": "meaning not certain"
+ },
+ "ö-ləşmə": {
+  "skip": "meaning not certain"
+ },
+ "ön-içəri": {
+  "skip": "meaning not certain"
+ },
+ "ön-kənar": {
+  "skip": "meaning not certain"
+ },
+ "ön-yan": {
+  "skip": "meaning not certain"
+ },
+ "ötkəm-ötkəm": {
+  "az": "Ötkəmliklə, sərt danışaraq.",
+  "en": "brusquely",
+  "pos": "adverb"
+ },
+ "özçəkim": {
+  "az": "Özünü çəkdiyin fotoşəkil.",
+  "en": "selfie",
+  "pos": "noun"
+ },
+ "öz-özlüyündə": {
+  "az": "Özlüyündə, başqa şeydən asılı olmayaraq.",
+  "en": "in itself",
+  "pos": "adverb"
+ },
+ "özüalışan": {
+  "az": "Öz-özünə alışan.",
+  "en": "self-igniting",
+  "pos": "adjective"
+ },
+ "özüboşalan": {
+  "az": "Yükünü öz-özünə boşaldan.",
+  "en": "self-unloading",
+  "pos": "adjective"
+ },
+ "özüboşaldıcı": {
+  "az": "Yükünü öz-özünə boşaldan.",
+  "en": "self-unloading",
+  "pos": "adjective"
+ },
+ "özüçəkən": {
+  "skip": "meaning not certain"
+ },
+ "özüdanışan": {
+  "skip": "meaning not certain"
+ },
+ "özüdolan": {
+  "az": "Öz-özünə dolan.",
+  "en": "self-filling",
+  "pos": "adjective"
+ },
+ "özüdolma": {
+  "skip": "meaning not certain"
+ },
+ "özügedən": {
+  "az": "Öz mühərriki ilə hərəkət edən.",
+  "en": "self-propelled",
+  "pos": "adjective"
+ },
+ "özüirəliləyən": {
+  "skip": "meaning not certain"
+ },
+ "özüişıqlanan": {
+  "az": "Öz-özünə işıq saçan.",
+  "en": "self-luminous",
+  "pos": "adjective"
+ },
+ "özüişləyən": {
+  "az": "Avtomatik işləyən.",
+  "en": "self-acting",
+  "pos": "adjective"
+ },
+ "özüitilənən": {
+  "az": "Öz-özünə itilənən.",
+  "en": "self-sharpening",
+  "pos": "adjective"
+ },
+ "özüköklənən": {
+  "skip": "meaning not certain"
+ },
+ "özüközərən": {
+  "skip": "meaning not certain"
+ },
+ "özüqalxan": {
+  "skip": "meaning not certain"
+ },
+ "özüquruyan": {
+  "az": "Öz-özünə quruyan.",
+  "en": "self-drying",
+  "pos": "adjective"
+ },
+ "özüldaşı": {
+  "az": "Bünövrəyə qoyulan ilk daş.",
+  "en": "foundation stone",
+  "pos": "noun"
+ },
+ "özündəncücərmə": {
+  "skip": "meaning not certain"
+ },
+ "özünəbaxan": {
+  "skip": "meaning not certain"
+ },
+ "özünəçəkmə": {
+  "skip": "meaning not certain"
+ },
+ "özünəgüvənmə": {
+  "az": "Özünə inam.",
+  "en": "self-confidence",
+  "pos": "noun"
+ },
+ "özünəinduksiya": {
+  "az": "Dövrədə cərəyanın dəyişməsi nəticəsində elektrik hərəkət qüvvəsinin yaranması.",
+  "en": "self-induction",
+  "pos": "noun"
+ },
+ "özünəkorreksiya": {
+  "skip": "meaning not certain"
+ },
+ "özünəqapanma": {
+  "az": "Özünə qapılma, ətrafdan təcrid olunma.",
+  "en": "withdrawal into oneself",
+  "pos": "noun"
+ },
+ "özünəqapılma": {
+  "az": "Ətrafdan təcrid olunub öz aləminə çəkilmə.",
+  "en": "withdrawal into oneself",
+  "pos": "noun"
+ },
+ "özünəqayıdış": {
+  "az": "Özünə, mənşəyinə qayıtma.",
+  "en": "return to oneself",
+  "pos": "noun"
+ },
+ "özünəqəsd": {
+  "az": "İntihar.",
+  "en": "suicide",
+  "pos": "noun"
+ },
+ "özünəqiymət": {
+  "az": "Özünə verdiyi qiymət.",
+  "en": "self-esteem",
+  "pos": "noun"
+ },
+ "özünətəlqin": {
+  "az": "Özünə fikir aşılama.",
+  "en": "autosuggestion",
+  "pos": "noun"
+ },
+ "özünətəsir": {
+  "skip": "meaning not certain"
+ },
+ "özünüaparma": {
+  "az": "Davranış.",
+  "en": "conduct, behaviour",
+  "pos": "noun"
+ },
+ "özünübərpa": {
+  "az": "Öz-özünə bərpa olunma.",
+  "en": "self-repair",
+  "pos": "noun"
+ },
+ "özünüidarəçilik": {
+  "az": "Özünü idarəetmə.",
+  "en": "self-government",
+  "pos": "noun"
+ },
+ "özünüinandırma": {
+  "az": "Özünü bir şeyə inandırma.",
+  "en": "self-persuasion",
+  "pos": "noun"
+ },
+ "özünüinkişaf": {
+  "az": "Şəxsin öz-özünü inkişaf etdirməsi.",
+  "en": "self-development",
+  "pos": "noun"
+ },
+ "özünükəşf": {
+  "az": "Özünü dərk etmə.",
+  "en": "self-discovery",
+  "pos": "noun"
+ },
+ "özünümaliyyələşdirmə": {
+  "az": "Xərcləri öz gəliri hesabına ödəmə.",
+  "en": "self-financing",
+  "pos": "noun"
+ },
+ "özünümühakimə": {
+  "az": "Özünü qınama.",
+  "en": "self-judgement",
+  "pos": "noun"
+ },
+ "özünüöldürmə": {
+  "az": "İntihar.",
+  "en": "suicide",
+  "pos": "noun"
+ },
+ "özünüsığorta": {
+  "az": "Riskə qarşı öz vəsaiti ilə sığortalanma.",
+  "en": "self-insurance",
+  "pos": "noun"
+ },
+ "özünütəmizləmə": {
+  "az": "Öz-özünə təmizlənmə.",
+  "en": "self-cleaning",
+  "pos": "noun"
+ },
+ "özünütənzim": {
+  "az": "Öz-özünü tənzimləmə.",
+  "en": "self-regulation",
+  "pos": "noun"
+ },
+ "özünütəsdiq": {
+  "az": "Özünü təsdiq etmə.",
+  "en": "self-affirmation",
+  "pos": "noun"
+ },
+ "özünüyandırma": {
+  "az": "Özünü yandırma.",
+  "en": "self-immolation",
+  "pos": "noun"
+ },
+ "özüölçən": {
+  "az": "Avtomatik ölçən.",
+  "en": "self-measuring",
+  "pos": "adjective"
+ },
+ "özü-özündən": {
+  "az": "Öz-özünə, kənar təsir olmadan.",
+  "en": "by itself",
+  "pos": "adverb"
+ },
+ "özürəngləyən": {
+  "skip": "meaning not certain"
+ },
+ "özüsazlanan": {
+  "az": "Öz-özünə sazlanan.",
+  "en": "self-adjusting",
+  "pos": "adjective"
+ },
+ "özüsıxan": {
+  "skip": "meaning not certain"
+ },
+ "özüsönən": {
+  "az": "Öz-özünə sönən.",
+  "en": "self-extinguishing",
+  "pos": "adjective"
+ },
+ "özüsulanma": {
+  "skip": "meaning not certain"
+ },
+ "özütəmizləyən": {
+  "az": "Öz-özünü təmizləyən.",
+  "en": "self-cleaning",
+  "pos": "adjective"
+ },
+ "özütikən": {
+  "skip": "meaning not certain"
+ },
+ "özütormozlanan": {
+  "skip": "meaning not certain"
+ },
+ "özütozlanan": {
+  "az": "Öz tozcuğu ilə tozlanan.",
+  "en": "self-pollinating",
+  "pos": "adjective"
+ },
+ "özütuşlanan": {
+  "skip": "meaning not certain"
+ },
+ "özütutan": {
+  "skip": "meaning not certain"
+ },
+ "özüuyğunlaşan": {
+  "az": "Şəraitə öz-özünə uyğunlaşan.",
+  "en": "self-adapting",
+  "pos": "adjective"
+ },
+ "özüyağlayan": {
+  "az": "Öz-özünü yağlayan.",
+  "en": "self-lubricating",
+  "pos": "adjective"
+ },
+ "özüyanan": {
+  "skip": "meaning not certain"
+ },
+ "özüyayan": {
+  "skip": "meaning not certain"
+ },
+ "özüyerləşən": {
+  "skip": "meaning not certain"
+ },
+ "özüyonan": {
+  "skip": "meaning not certain"
+ },
+ "özüyuyan": {
+  "skip": "meaning not certain"
+ },
+ "özüyüklənən": {
+  "az": "Yükü öz-özünə götürən.",
+  "en": "self-loading",
+  "pos": "adjective"
+ },
+ "pad": {
+  "skip": "several unrelated senses"
+ },
+ "pafos": {
+  "az": "Coşqun ruh yüksəkliyi, ehtiras.",
+  "en": "pathos, fervour",
+  "pos": "noun"
+ },
+ "pafta": {
+  "skip": "meaning not certain"
+ },
+ "paginasiya": {
+  "az": "Səhifələrin nömrələnməsi.",
+  "en": "pagination",
+  "pos": "noun"
+ },
+ "paxıl-paxıl": {
+  "az": "Paxıllıqla.",
+  "en": "enviously",
+  "pos": "adverb"
+ },
+ "paketbot": {
+  "az": "Poçt və sərnişin daşıyan gəmi.",
+  "en": "packet boat",
+  "pos": "noun"
+ },
+ "palatoplastika": {
+  "az": "Damağın bərpa əməliyyatı.",
+  "en": "palatoplasty",
+  "pos": "noun"
+ },
+ "palatso": {
+  "az": "İtaliyada saray, malikanə.",
+  "en": "palazzo",
+  "pos": "noun"
+ },
+ "palex": {
+  "az": "Lak üzərində miniatür rəssamlıq.",
+  "en": "Palekh miniature",
+  "pos": "noun"
+ },
+ "paleoantropologiya": {
+  "az": "Qədim insanların qalıqlarını öyrənən elm.",
+  "en": "paleoanthropology",
+  "pos": "noun"
+ },
+ "paleoantropoloji": {
+  "az": "Paleoantropologiyaya aid.",
+  "en": "paleoanthropological",
+  "pos": "adjective"
+ },
+ "paleoantropoloq": {
+  "az": "Paleoantropologiya üzrə alim.",
+  "en": "paleoanthropologist",
+  "pos": "noun"
+ },
+ "paleoantroponim": {
+  "skip": "meaning not certain"
+ },
+ "paleoarktik": {
+  "az": "Avrasiyanın və Şimali Afrikanın zoocoğrafi vilayətinə aid.",
+  "en": "Palearctic",
+  "pos": "adjective"
+ },
+ "paleoarktika": {
+  "az": "Avrasiya və Şimali Afrikanı əhatə edən zoocoğrafi vilayət.",
+  "en": "Palearctic realm",
+  "pos": "noun"
+ },
+ "paleoasiyalı": {
+  "az": "Sibirin qədim yerli xalqlarından biri.",
+  "en": "Paleo-Asiatic",
+  "pos": "noun"
+ },
+ "paleobiocoğrafiya": {
+  "az": "Keçmiş canlıların coğrafi yayılmasını öyrənən elm.",
+  "en": "paleobiogeography",
+  "pos": "noun"
+ },
+ "paleobiogeokimya": {
+  "skip": "meaning not certain"
+ },
+ "paleobiologiya": {
+  "az": "Qazıntı canlıların biologiyasını öyrənən elm.",
+  "en": "paleobiology",
+  "pos": "noun"
+ },
+ "paleobioloji": {
+  "az": "Paleobiologiyaya aid.",
+  "en": "paleobiological",
+  "pos": "adjective"
+ },
+ "paleobioloq": {
+  "az": "Paleobiologiya üzrə alim.",
+  "en": "paleobiologist",
+  "pos": "noun"
+ },
+ "paleobiosenoz": {
+  "skip": "meaning not certain"
+ },
+ "paleobiosfer": {
+  "skip": "meaning not certain"
+ },
+ "paleobotanik": {
+  "az": "Qazıntı bitkiləri öyrənən alim.",
+  "en": "paleobotanist",
+  "pos": "noun"
+ },
+ "paleocoğrafi": {
+  "az": "Keçmiş geoloji dövrlərin coğrafiyasına aid.",
+  "en": "paleogeographic",
+  "pos": "adjective"
+ },
+ "paleoekologiya": {
+  "az": "Qədim canlıların mühitlə əlaqəsini öyrənən elm.",
+  "en": "paleoecology",
+  "pos": "noun"
+ },
+ "paleoekoloji": {
+  "az": "Paleoekologiyaya aid.",
+  "en": "paleoecological",
+  "pos": "adjective"
+ },
+ "paleoendemik": {
+  "az": "Qədimdən qalmış, məhdud ərazidə yaşayan növ.",
+  "en": "paleoendemic",
+  "pos": "noun"
+ },
+ "paleofiziologiya": {
+  "skip": "meaning not certain"
+ },
+ "paleofizioloji": {
+  "skip": "meaning not certain"
+ },
+ "paleogen": {
+  "az": "Kaynozoy erasının ilk dövrü.",
+  "en": "Paleogene",
+  "pos": "noun"
+ },
+ "paleogenetika": {
+  "az": "Qədim canlıların DNT-sini öyrənən elm.",
+  "en": "paleogenetics",
+  "pos": "noun"
+ },
+ "paleogeokimya": {
+  "skip": "meaning not certain"
+ },
+ "paleogeologiya": {
+  "skip": "meaning not certain"
+ },
+ "paleogeoloq": {
+  "skip": "meaning not certain"
+ },
+ "paleohidronim": {
+  "skip": "meaning not certain"
+ },
+ "paleoxəritə": {
+  "az": "Keçmiş geoloji dövrün coğrafi xəritəsi.",
+  "en": "paleogeographic map",
+  "pos": "noun"
+ },
+ "paleokanyon": {
+  "skip": "meaning not certain"
+ },
+ "paleokarpologiya": {
+  "skip": "meaning not certain"
+ },
+ "paleolinqvistika": {
+  "az": "Dillərin qədim, yazıdan əvvəlki vəziyyətini bərpa edən elm.",
+  "en": "paleolinguistics",
+  "pos": "noun"
+ },
+ "paleomaqnit": {
+  "skip": "meaning not certain"
+ },
+ "paleonevrologiya": {
+  "skip": "meaning not certain"
+ },
+ "paleorelyef": {
+  "az": "Keçmiş geoloji dövrlərin relyefi.",
+  "en": "paleorelief",
+  "pos": "noun"
+ },
+ "paleosen": {
+  "az": "Paleogenin ilk epoxası.",
+  "en": "Paleocene",
+  "pos": "noun"
+ },
+ "paleoterapiya": {
+  "skip": "meaning not certain"
+ },
+ "paleotoponim": {
+  "skip": "meaning not certain"
+ },
+ "paleotorpaq": {
+  "az": "Keçmiş dövrlərdə əmələ gəlmiş basdırılmış torpaq.",
+  "en": "paleosol",
+  "pos": "noun"
+ },
+ "paleotropik": {
+  "az": "Köhnə Dünyanın tropik vilayətinə aid.",
+  "en": "paleotropical",
+  "pos": "adjective"
+ },
+ "paleovulkanizm": {
+  "skip": "meaning not certain"
+ },
+ "paleovulkanologiya": {
+  "skip": "meaning not certain"
+ },
+ "paleozoologiya": {
+  "az": "Qazıntı heyvanları öyrənən elm.",
+  "en": "paleozoology",
+  "pos": "noun"
+ },
+ "paleozooloq": {
+  "az": "Paleozoologiya üzrə alim.",
+  "en": "paleozoologist",
+  "pos": "noun"
+ },
+ "palingeneziya": {
+  "skip": "meaning not certain"
+ },
+ "palmetta": {
+  "az": "Palma yarpağına bənzər bəzək naxışı.",
+  "en": "palmette",
+  "pos": "noun"
+ },
+ "palmira": {
+  "skip": "meaning not certain"
+ },
+ "palmitat": {
+  "az": "Palmitin turşusunun duzu və ya efiri.",
+  "en": "palmitate",
+  "pos": "noun"
+ },
+ "paloqraf": {
+  "skip": "meaning not certain"
+ },
+ "paltarbiçdi": {
+  "skip": "meaning not certain"
+ },
+ "pamflet": {
+  "az": "Kəskin satirik ictimai-siyasi yazı.",
+  "en": "lampoon, pamphlet",
+  "pos": "noun"
+ },
+ "pampas": {
+  "az": "Cənubi Amerikanın çöllük düzənlikləri.",
+  "en": "pampas",
+  "pos": "noun"
+ },
+ "panagiya": {
+  "az": "Yepiskopun sinəsinə taxdığı ikona.",
+  "en": "panagia (pectoral icon)",
+  "pos": "noun"
+ },
+ "panama": {
+  "az": "Yay üçün enli kənarlı yüngül şlyapa.",
+  "en": "panama hat",
+  "pos": "noun"
+ },
+ "panangin": {
+  "az": "Kalium və maqneziumlu ürək dərmanı.",
+  "en": "Panangin",
+  "pos": "noun"
+ },
+ "pandanus": {
+  "az": "Tropik ağacabənzər bitki.",
+  "en": "screw pine",
+  "pos": "noun"
+ },
+ "pandekt": {
+  "az": "Roma hüququ normalarının toplusu.",
+  "en": "Pandects",
+  "pos": "noun"
+ },
+ "panduri": {
+  "az": "Gürcü üçsimli xalq çalğı aləti.",
+  "en": "panduri",
+  "pos": "noun"
+ },
+ "pangeya": {
+  "az": "Keçmişdə mövcud olmuş vahid materik.",
+  "en": "Pangaea",
+  "pos": "noun"
+ },
+ "panxroniya": {
+  "skip": "meaning not certain"
+ },
+ "paniranist": {
+  "az": "Paniranizm tərəfdarı.",
+  "en": "pan-Iranist",
+  "pos": "noun"
+ },
+ "paniranizm": {
+  "az": "İran xalqlarının birliyi ideologiyası.",
+  "en": "pan-Iranism",
+  "pos": "noun"
+ },
+ "panislamist": {
+  "az": "Panislamizm tərəfdarı.",
+  "en": "pan-Islamist",
+  "pos": "noun"
+ },
+ "panislamizm": {
+  "az": "Bütün müsəlmanların birliyi ideologiyası.",
+  "en": "pan-Islamism",
+  "pos": "noun"
+ },
+ "pankardit": {
+  "az": "Ürəyin bütün qişalarının iltihabı.",
+  "en": "pancarditis",
+  "pos": "noun"
+ },
+ "pankration": {
+  "az": "Qədim yunan güləş və yumruq döyüşü.",
+  "en": "pankration",
+  "pos": "noun"
+ },
+ "panloqizm": {
+  "az": "Dünyanı ağlın təcəssümü sayan fəlsəfi baxış.",
+  "en": "panlogism",
+  "pos": "noun"
+ },
+ "pannus": {
+  "skip": "meaning not certain"
+ },
+ "panoptoz": {
+  "skip": "meaning not certain"
+ },
+ "panplanasiya": {
+  "skip": "meaning not certain"
+ },
+ "panslavist": {
+  "az": "Panslavizm tərəfdarı.",
+  "en": "Pan-Slavist",
+  "pos": "noun"
+ },
+ "panslavizm": {
+  "az": "Bütün slavyanların birliyi ideologiyası.",
+  "en": "Pan-Slavism",
+  "pos": "noun"
+ },
+ "papain": {
+  "az": "Papayadan alınan zülal parçalayıcı ferment.",
+  "en": "papain",
+  "pos": "noun"
+ },
+ "papaqaldıqaç": {
+  "skip": "meaning not certain"
+ },
+ "papaqqaçırtdı": {
+  "skip": "meaning not certain"
+ },
+ "papaverin": {
+  "az": "Damar genişləndirici dərman.",
+  "en": "papaverine",
+  "pos": "noun"
+ },
+ "papirologiya": {
+  "az": "Papirus yazılarını öyrənən elm.",
+  "en": "papyrology",
+  "pos": "noun"
+ },
+ "papiroloq": {
+  "az": "Papirologiya üzrə alim.",
+  "en": "papyrologist",
+  "pos": "noun"
+ },
+ "papist": {
+  "az": "Papanın hakimiyyətinin tərəfdarı.",
+  "en": "papist",
+  "pos": "noun"
+ },
+ "papizm": {
+  "az": "Papanın ali hakimiyyətini qəbul edən təlim.",
+  "en": "papism",
+  "pos": "noun"
+ },
+ "pappataçi": {
+  "az": "Ağcaqanadların daşıdığı qısa müddətli qızdırma.",
+  "en": "sandfly fever",
+  "pos": "noun"
+ },
+ "parabioz": {
+  "skip": "meaning not certain"
+ },
+ "paradiqmatik": {
+  "az": "Paradiqmaya aid.",
+  "en": "paradigmatic",
+  "pos": "adjective"
+ },
+ "paradiqmatika": {
+  "az": "Dil vahidlərinin paradiqmatik münasibətlərini öyrənən sahə.",
+  "en": "paradigmatics",
+  "pos": "noun"
+ },
+ "paraelüvi": {
+  "skip": "meaning not certain"
+ },
+ "paraf": {
+  "az": "Sənədin hər səhifəsində qısa imza.",
+  "en": "initials (signature)",
+  "pos": "noun"
+ },
+ "parafil": {
+  "skip": "meaning not certain"
+ },
+ "parafraz": {
+  "az": "Mətnin öz sözləri ilə yenidən ifadəsi.",
+  "en": "paraphrase",
+  "pos": "noun"
+ },
+ "parakinez": {
+  "skip": "meaning not certain"
+ },
+ "paraksial": {
+  "az": "Optik oxa yaxın olan.",
+  "en": "paraxial",
+  "pos": "adjective"
+ },
+ "paraqrafiya": {
+  "az": "Yazıda hərf və sözlərin dəyişdirilməsi pozğunluğu.",
+  "en": "paragraphia",
+  "pos": "noun"
+ },
+ "paralelçi": {
+  "skip": "meaning not certain"
+ },
+ "parallaks": {
+  "az": "Müşahidə nöqtəsinin dəyişməsi ilə cismin görünən yerdəyişməsi.",
+  "en": "parallax",
+  "pos": "noun"
+ },
+ "parallaktik": {
+  "az": "Parallaksa aid.",
+  "en": "parallactic",
+  "pos": "adjective"
+ },
+ "paraplegiya": {
+  "az": "Hər iki ayağın iflici.",
+  "en": "paraplegia",
+  "pos": "noun"
+ },
+ "parataksis": {
+  "az": "Cümlələrin bağlayıcısız yanaşı düzülüşü.",
+  "en": "parataxis",
+  "pos": "noun"
+ },
+ "parexeza": {
+  "skip": "meaning not certain"
+ },
+ "parheli": {
+  "az": "Günəşin yanında görünən işıqlı ləkə, yalançı günəş.",
+  "en": "parhelion, sun dog",
+  "pos": "noun"
+ },
+ "parıldaq": {
+  "skip": "meaning not certain"
+ },
+ "parkerizasiya": {
+  "az": "Poladın səthinin fosfat örtüklə korroziyadan qorunması.",
+  "en": "parkerizing",
+  "pos": "noun"
+ },
+ "parkur": {
+  "az": "Şəhər mühitində maneələri sürətlə keçmə idmanı; atçılıqda maneəli yol.",
+  "en": "parkour; course",
+  "pos": "noun"
+ },
+ "parlaq-parlaq": {
+  "az": "Çox parlaq.",
+  "en": "very bright",
+  "pos": "adjective"
+ },
+ "paroksiton": {
+  "az": "Vurğusu sondan ikinci hecada olan söz.",
+  "en": "paroxytone",
+  "pos": "noun"
+ },
+ "paroksizm": {
+  "az": "Xəstəlik tutmasının şiddətlənməsi.",
+  "en": "paroxysm",
+  "pos": "noun"
+ },
+ "paronixiya": {
+  "az": "Dırnaq ətrafı toxumanın iltihabı.",
+  "en": "paronychia",
+  "pos": "noun"
+ },
+ "paronomaziya": {
+  "az": "Səsləri oxşar sözlərlə söz oyunu.",
+  "en": "paronomasia",
+  "pos": "noun"
+ },
+ "par-par parıldamaq": {
+  "az": "Çox parlaq işıldamaq.",
+  "en": "to gleam brightly",
+  "pos": "verb"
+ },
+ "parsek": {
+  "az": "Astronomiyada uzunluq vahidi.",
+  "en": "parsec",
+  "pos": "noun"
+ },
+ "parsel": {
+  "az": "Torpaq sahəsi.",
+  "en": "land parcel",
+  "pos": "noun"
+ },
+ "parsial ton": {
+  "az": "Mürəkkəb səsin tərkibindəki ayrıca ton.",
+  "en": "partial tone",
+  "pos": "noun"
+ },
+ "pasxaliya": {
+  "az": "Pasxa gününü hesablama cədvəli.",
+  "en": "paschal table",
+  "pos": "noun"
+ },
+ "paskvil": {
+  "az": "Təhqiramiz satirik yazı.",
+  "en": "lampoon",
+  "pos": "noun"
+ },
+ "passion": {
+  "az": "İsanın əzabları mövzusunda musiqi əsəri.",
+  "en": "Passion (music)",
+  "pos": "noun"
+ },
+ "passivasiya": {
+  "az": "Metal səthinin qoruyucu təbəqə ilə korroziyaya davamlı edilməsi.",
+  "en": "passivation",
+  "pos": "noun"
+ },
+ "pasta": {
+  "skip": "several unrelated senses"
+ },
+ "pasterellyoz": {
+  "az": "Heyvanların pasterellaların törətdiyi yoluxucu xəstəliyi.",
+  "en": "pasteurellosis",
+  "pos": "noun"
+ }
+}

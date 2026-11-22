@@ -1,0 +1,1092 @@
+{
+ "pastiçço": {
+  "az": "Başqa əsərlərdən parçaların birləşdirilməsi ilə yaradılmış əsər; təqlid.",
+  "en": "pastiche",
+  "pos": "noun"
+ },
+ "pastoral": {
+  "az": "Kənd və çoban həyatını tərənnüm edən əsər.",
+  "en": "pastoral",
+  "pos": "noun"
+ },
+ "pastorel": {
+  "az": "Çoban qızı ilə cəngavər haqqında orta əsr mahnısı.",
+  "en": "pastourelle",
+  "pos": "noun"
+ },
+ "patella": {
+  "az": "Diz qapağı.",
+  "en": "kneecap",
+  "pos": "noun"
+ },
+ "patetik": {
+  "az": "Coşqun, həyəcanlı.",
+  "en": "emotional, impassioned",
+  "pos": "adjective"
+ },
+ "patetika": {
+  "az": "Coşqunluq, pafos.",
+  "en": "pathos",
+  "pos": "noun"
+ },
+ "patobiosenoz": {
+  "skip": "meaning not certain"
+ },
+ "patofiziologiya": {
+  "az": "Xəstəlik zamanı orqanizmin funksiyalarını öyrənən elm.",
+  "en": "pathophysiology",
+  "pos": "noun"
+ },
+ "patofizioloji": {
+  "az": "Patofiziologiyaya aid.",
+  "en": "pathophysiological",
+  "pos": "adjective"
+ },
+ "patofizioloq": {
+  "az": "Patofiziologiya üzrə mütəxəssis.",
+  "en": "pathophysiologist",
+  "pos": "noun"
+ },
+ "patogenetik": {
+  "az": "Xəstəliyin inkişaf mexanizminə aid.",
+  "en": "pathogenetic",
+  "pos": "adjective"
+ },
+ "patomorfologiya": {
+  "az": "Xəstəlik zamanı orqanlardakı quruluş dəyişikliklərini öyrənən elm.",
+  "en": "pathomorphology",
+  "pos": "noun"
+ },
+ "patomorfoloji": {
+  "az": "Patomorfologiyaya aid.",
+  "en": "pathomorphological",
+  "pos": "adjective"
+ },
+ "patopsixologiya": {
+  "az": "Psixi pozğunluqları psixoloji üsullarla öyrənən sahə.",
+  "en": "pathopsychology",
+  "pos": "noun"
+ },
+ "patopsixoloji": {
+  "az": "Patopsixologiyaya aid.",
+  "en": "pathopsychological",
+  "pos": "adjective"
+ },
+ "patrimonium": {
+  "az": "Feodalın irsi torpaq mülkü.",
+  "en": "patrimony",
+  "pos": "noun"
+ },
+ "patristika": {
+  "az": "Erkən kilsə atalarının təlimi və onu öyrənən sahə.",
+  "en": "patristics",
+  "pos": "noun"
+ },
+ "patronim": {
+  "az": "Atanın adından düzəlmiş ad, ata adı.",
+  "en": "patronymic",
+  "pos": "noun"
+ },
+ "patulektor": {
+  "skip": "meaning not certain"
+ },
+ "pauerliftinq": {
+  "az": "Ştanqla üç hərəkətdən ibarət ağırlıqqaldırma idmanı.",
+  "en": "powerlifting",
+  "pos": "noun"
+ },
+ "pauperizm": {
+  "az": "Kütləvi yoxsulluq.",
+  "en": "pauperism",
+  "pos": "noun"
+ },
+ "pausal ödəniş": {
+  "skip": "meaning not certain"
+ },
+ "pay-pay bölmək": {
+  "az": "Hissələrə ayırıb paylamaq.",
+  "en": "to divide into shares",
+  "pos": "verb"
+ },
+ "pazotu": {
+  "skip": "meaning not certain"
+ },
+ "pedant": {
+  "az": "Xırdalıqlarda həddən artıq dəqiq və tələbkar adam.",
+  "en": "pedant",
+  "pos": "noun"
+ },
+ "pedikulyoz": {
+  "az": "Bitlənmə.",
+  "en": "pediculosis",
+  "pos": "noun"
+ },
+ "pedoqamiya": {
+  "skip": "meaning not certain"
+ },
+ "pedologiya": {
+  "az": "Torpaqşünaslıq; uşaq inkişafı haqqında köhnə təlim.",
+  "en": "pedology",
+  "pos": "noun"
+ },
+ "pedoloji": {
+  "az": "Pedologiyaya aid.",
+  "en": "pedological",
+  "pos": "adjective"
+ },
+ "pedoloq": {
+  "az": "Pedologiya üzrə mütəxəssis.",
+  "en": "pedologist",
+  "pos": "noun"
+ },
+ "pedosfer": {
+  "az": "Yer kürəsinin torpaq örtüyü.",
+  "en": "pedosphere",
+  "pos": "noun"
+ },
+ "pekan": {
+  "az": "Şimali Amerika qoz ağacı və onun qozu.",
+  "en": "pecan",
+  "pos": "noun"
+ },
+ "peqmatit": {
+  "az": "İri kristallı maqmatik süxur.",
+  "en": "pegmatite",
+  "pos": "noun"
+ },
+ "pelaqofit": {
+  "skip": "meaning not certain"
+ },
+ "pelenq": {
+  "az": "Obyektə istiqamətin bucağı.",
+  "en": "bearing (direction)",
+  "pos": "noun"
+ },
+ "pelofaq": {
+  "skip": "meaning not certain"
+ },
+ "peneklimaks": {
+  "skip": "meaning not certain"
+ },
+ "peneplen": {
+  "az": "Aşınma nəticəsində əmələ gəlmiş az dalğalı düzənlik.",
+  "en": "peneplain",
+  "pos": "noun"
+ },
+ "penitensiar": {
+  "az": "Cəzaçəkmə müəssisələrinə aid.",
+  "en": "penitentiary",
+  "pos": "adjective"
+ },
+ "pennin": {
+  "skip": "meaning not certain"
+ },
+ "pensne": {
+  "az": "Burnun üstünə sıxılan qulpsuz eynək.",
+  "en": "pince-nez",
+  "pos": "noun"
+ },
+ "pentaedr": {
+  "az": "Beş üzlü çoxüzlü.",
+  "en": "pentahedron",
+  "pos": "noun"
+ },
+ "pentaxord": {
+  "az": "Beş pilləli səsdüzümü.",
+  "en": "pentachord",
+  "pos": "noun"
+ },
+ "pentametr": {
+  "az": "Beş stopalı şeir vəzni.",
+  "en": "pentameter",
+  "pos": "noun"
+ },
+ "pentatonika": {
+  "az": "Beş pilləli lad sistemi.",
+  "en": "pentatonic scale",
+  "pos": "noun"
+ },
+ "pentlandit": {
+  "az": "Nikel və dəmir sulfiddən ibarət mineral.",
+  "en": "pentlandite",
+  "pos": "noun"
+ },
+ "pentoz": {
+  "az": "Beş karbonlu şəkər.",
+  "en": "pentose",
+  "pos": "noun"
+ },
+ "perennialist": {
+  "skip": "meaning not certain"
+ },
+ "perennializm": {
+  "skip": "meaning not certain"
+ },
+ "perifiton": {
+  "az": "Sualtı əşyaların üzərində yaşayan orqanizmlər.",
+  "en": "periphyton",
+  "pos": "noun"
+ },
+ "periheli": {
+  "az": "Planetin orbitinin Günəşə ən yaxın nöqtəsi.",
+  "en": "perihelion",
+  "pos": "noun"
+ },
+ "periklaz": {
+  "az": "Maqnezium oksidindən ibarət mineral.",
+  "en": "periclase",
+  "pos": "noun"
+ },
+ "periklinal": {
+  "skip": "meaning not certain"
+ },
+ "perilla": {
+  "az": "Ətirli yağlı toxumları olan bitki.",
+  "en": "perilla",
+  "pos": "noun"
+ },
+ "perinatal": {
+  "az": "Doğuşdan bir az əvvəl və sonrakı dövrə aid.",
+  "en": "perinatal",
+  "pos": "adjective"
+ },
+ "periostit": {
+  "az": "Sümük qişasının iltihabı.",
+  "en": "periostitis",
+  "pos": "noun"
+ },
+ "peripatetizm": {
+  "az": "Aristotelin fəlsəfi məktəbi.",
+  "en": "Peripateticism",
+  "pos": "noun"
+ },
+ "peripter": {
+  "az": "Hər tərəfdən sütunlarla əhatə olunmuş qədim yunan məbədi.",
+  "en": "peripteros",
+  "pos": "noun"
+ },
+ "periselen": {
+  "az": "Ay orbitində Aya ən yaxın nöqtə.",
+  "en": "periselene",
+  "pos": "noun"
+ },
+ "peristil": {
+  "az": "Həyəti və ya binanı əhatə edən sütunlu qalereya.",
+  "en": "peristyle",
+  "pos": "noun"
+ },
+ "perkal": {
+  "az": "Sıx pambıq parça.",
+  "en": "percale",
+  "pos": "noun"
+ },
+ "perqamin": {
+  "az": "Yağ keçirməyən sıx kağız.",
+  "en": "parchment paper",
+  "pos": "noun"
+ },
+ "perqressiya": {
+  "skip": "meaning not certain"
+ },
+ "perl": {
+  "az": "Proqramlaşdırma dili.",
+  "en": "Perl",
+  "pos": "noun"
+ },
+ "perlokusiya": {
+  "az": "Nitq aktının dinləyiciyə təsiri.",
+  "en": "perlocution",
+  "pos": "noun"
+ },
+ "permafrost": {
+  "az": "Çoxillik donuşluq.",
+  "en": "permafrost",
+  "pos": "noun"
+ },
+ "permanqanat": {
+  "az": "Manqan turşusunun duzu.",
+  "en": "permanganate",
+  "pos": "noun"
+ },
+ "permeametr": {
+  "skip": "meaning not certain"
+ },
+ "peronosporoz": {
+  "az": "Göbələk törədən bitki xəstəliyi, yalançı unlu şeh.",
+  "en": "downy mildew",
+  "pos": "noun"
+ },
+ "perpendikulyar": {
+  "az": "Düz bucaq altında kəsişən.",
+  "en": "perpendicular",
+  "pos": "adjective"
+ },
+ "perseid": {
+  "az": "Avqustda müşahidə olunan meteor axını.",
+  "en": "Perseid",
+  "pos": "noun"
+ },
+ "pertinet": {
+  "skip": "meaning not certain"
+ },
+ "pessimum zona": {
+  "skip": "meaning not certain"
+ },
+ "peşqurd": {
+  "skip": "meaning not certain"
+ },
+ "peşman-peşman": {
+  "az": "Peşmanlıqla.",
+  "en": "regretfully",
+  "pos": "adverb"
+ },
+ "petexiya": {
+  "az": "Dəridə nöqtəvari qansızma.",
+  "en": "petechia",
+  "pos": "noun"
+ },
+ "petrobiont": {
+  "skip": "meaning not certain"
+ },
+ "petroqraf": {
+  "az": "Süxurları öyrənən mütəxəssis.",
+  "en": "petrographer",
+  "pos": "noun"
+ },
+ "petrolatum": {
+  "az": "Neft emalından alınan yarımbərk kütlə, vazelin.",
+  "en": "petrolatum",
+  "pos": "noun"
+ },
+ "petuniya": {
+  "az": "Qıfşəkilli çiçəkli dekorativ bitki.",
+  "en": "petunia",
+  "pos": "noun"
+ },
+ "peyinər": {
+  "skip": "meaning not certain"
+ },
+ "pəl qatmaq": {
+  "skip": "meaning not certain"
+ },
+ "pələbığ": {
+  "skip": "meaning not certain"
+ },
+ "pərt-pərt": {
+  "az": "Pərtliklə.",
+  "en": "embarrassedly",
+  "pos": "adverb"
+ },
+ "pıç": {
+  "skip": "meaning not certain"
+ },
+ "pıxta": {
+  "az": "Küknar ağacı.",
+  "en": "fir",
+  "pos": "noun"
+ },
+ "pırhapır uçmaq": {
+  "skip": "meaning not certain"
+ },
+ "pırpır": {
+  "skip": "meaning not certain"
+ },
+ "pırpızbaş": {
+  "az": "Saçı dağınıq olan.",
+  "en": "tousle-headed",
+  "pos": "adjective"
+ },
+ "pırpızsaç": {
+  "az": "Saçı dağınıq olan.",
+  "en": "tousle-haired",
+  "pos": "adjective"
+ },
+ "pırtlaq-pırtlaq": {
+  "skip": "meaning not certain"
+ },
+ "pide": {
+  "az": "Türk yastı çörəyi.",
+  "en": "pide",
+  "pos": "noun"
+ },
+ "pielit": {
+  "az": "Böyrək ləyəninin iltihabı.",
+  "en": "pyelitis",
+  "pos": "noun"
+ },
+ "pifaqoreizm": {
+  "az": "Pifaqor və ardıcıllarının təlimi.",
+  "en": "Pythagoreanism",
+  "pos": "noun"
+ },
+ "piketaj": {
+  "skip": "meaning not certain"
+ },
+ "pikkolo": {
+  "az": "Kiçik fleyta.",
+  "en": "piccolo",
+  "pos": "noun"
+ },
+ "piknometr": {
+  "az": "Sıxlığı təyin etmək üçün şüşə qab.",
+  "en": "pycnometer",
+  "pos": "noun"
+ },
+ "pikrit": {
+  "az": "Olivinlə zəngin maqmatik süxur.",
+  "en": "picrite",
+  "pos": "noun"
+ },
+ "piktoqraf": {
+  "skip": "meaning not certain"
+ },
+ "piktoqrafik": {
+  "az": "Şəkil yazısına aid.",
+  "en": "pictographic",
+  "pos": "adjective"
+ },
+ "piktoqrafiya": {
+  "az": "Şəkil yazısı.",
+  "en": "pictography",
+  "pos": "noun"
+ },
+ "pilates": {
+  "az": "Əzələləri möhkəmləndirən məşq sistemi.",
+  "en": "Pilates",
+  "pos": "noun"
+ },
+ "pilyastr": {
+  "az": "Divardan çıxan yastı yarımsütun.",
+  "en": "pilaster",
+  "pos": "noun"
+ },
+ "pinç-effekt": {
+  "az": "Cərəyanın maqnit sahəsi ilə plazmanın sıxılması.",
+  "en": "pinch effect",
+  "pos": "noun"
+ },
+ "pinen": {
+  "az": "Skipidarın əsas tərkib hissəsi olan terpen.",
+  "en": "pinene",
+  "pos": "noun"
+ },
+ "pinol": {
+  "skip": "meaning not certain"
+ },
+ "pinset": {
+  "az": "Kiçik əşyaları tutmaq üçün kiçik maşa.",
+  "en": "tweezers",
+  "pos": "noun"
+ },
+ "pinspotter": {
+  "skip": "meaning not certain"
+ },
+ "pinti-pinti": {
+  "skip": "meaning not certain"
+ },
+ "piodermiya": {
+  "az": "Dərinin irinli xəstəliyi.",
+  "en": "pyoderma",
+  "pos": "noun"
+ },
+ "pip": {
+  "skip": "meaning not certain"
+ },
+ "piramidon": {
+  "az": "Ağrıkəsici və qızdırmasalıcı dərman.",
+  "en": "aminophenazone",
+  "pos": "noun"
+ },
+ "pirenomiset": {
+  "skip": "meaning not certain"
+ },
+ "pirinq": {
+  "skip": "meaning not certain"
+ },
+ "pirobenzol": {
+  "skip": "meaning not certain"
+ },
+ "pirodetektor": {
+  "skip": "meaning not certain"
+ },
+ "pirodinamika": {
+  "skip": "meaning not certain"
+ },
+ "piroelektrik": {
+  "az": "Qızdırıldıqda elektriklənən kristal.",
+  "en": "pyroelectric",
+  "pos": "noun"
+ },
+ "pirofillit": {
+  "az": "Alüminium silikatından ibarət yumşaq mineral.",
+  "en": "pyrophyllite",
+  "pos": "noun"
+ },
+ "pirofit": {
+  "az": "Yanğına davamlı bitki.",
+  "en": "pyrophyte",
+  "pos": "noun"
+ },
+ "pirofobiya": {
+  "az": "Oddan xəstə qorxu.",
+  "en": "pyrophobia",
+  "pos": "noun"
+ },
+ "pirofor": {
+  "az": "Havada öz-özünə alışan maddə.",
+  "en": "pyrophoric substance",
+  "pos": "noun"
+ },
+ "pirofosfat": {
+  "az": "Pirofosfat turşusunun duzu.",
+  "en": "pyrophosphate",
+  "pos": "noun"
+ },
+ "pirogen": {
+  "az": "Qızdırma törədən maddə.",
+  "en": "pyrogen",
+  "pos": "noun"
+ },
+ "pirogenetik": {
+  "skip": "meaning not certain"
+ },
+ "pirokatexin": {
+  "az": "İkiatomlu fenol.",
+  "en": "pyrocatechol",
+  "pos": "noun"
+ },
+ "piroksen": {
+  "az": "Silikat mineralları qrupu.",
+  "en": "pyroxene",
+  "pos": "noun"
+ },
+ "piroksilin": {
+  "az": "Partlayıcı nitrosellüloza növü.",
+  "en": "pyroxylin, guncotton",
+  "pos": "noun"
+ },
+ "piroqallol": {
+  "az": "Üçatomlu fenol.",
+  "en": "pyrogallol",
+  "pos": "noun"
+ },
+ "pirolüzit": {
+  "az": "Manqan dioksidindən ibarət mineral.",
+  "en": "pyrolusite",
+  "pos": "noun"
+ },
+ "pirometallurgiya": {
+  "az": "Yüksək temperaturda metal alınması.",
+  "en": "pyrometallurgy",
+  "pos": "noun"
+ },
+ "pirometrik": {
+  "az": "Yüksək temperaturların ölçülməsinə aid.",
+  "en": "pyrometric",
+  "pos": "adjective"
+ },
+ "pirometriya": {
+  "az": "Yüksək temperaturların ölçülməsi.",
+  "en": "pyrometry",
+  "pos": "noun"
+ },
+ "piropatron": {
+  "skip": "meaning not certain"
+ },
+ "piroplazmoz": {
+  "az": "Gənələrin yaydığı heyvan qan-parazit xəstəliyi.",
+  "en": "piroplasmosis",
+  "pos": "noun"
+ },
+ "pirosulfat": {
+  "skip": "meaning not certain"
+ },
+ "pirotexniki": {
+  "az": "Pirotexnikaya aid.",
+  "en": "pyrotechnic",
+  "pos": "adjective"
+ },
+ "piroterapiya": {
+  "az": "Süni qızdırma ilə müalicə.",
+  "en": "pyrotherapy",
+  "pos": "noun"
+ },
+ "pirrotin": {
+  "az": "Maqnitli dəmir sulfid mineralı.",
+  "en": "pyrrhotite",
+  "pos": "noun"
+ },
+ "pissikato": {
+  "az": "Simli aləti barmaqla dartıb çalma üsulu.",
+  "en": "pizzicato",
+  "pos": "noun"
+ },
+ "pişikburnu": {
+  "skip": "meaning not certain"
+ },
+ "pitç": {
+  "skip": "meaning not certain"
+ },
+ "piton": {
+  "az": "Zəhərsiz iri boğucu ilan.",
+  "en": "python",
+  "pos": "noun"
+ },
+ "piuriya": {
+  "az": "Sidikdə irin olması.",
+  "en": "pyuria",
+  "pos": "noun"
+ },
+ "piyaləgöz": {
+  "skip": "meaning not certain"
+ },
+ "piyetist": {
+  "az": "Piyetizm tərəfdarı.",
+  "en": "pietist",
+  "pos": "noun"
+ },
+ "piyetizm": {
+  "az": "Daxili dindarlığı önə çəkən protestant cərəyanı.",
+  "en": "pietism",
+  "pos": "noun"
+ },
+ "piyəbənzər": {
+  "az": "Piyə bənzəyən.",
+  "en": "fat-like",
+  "pos": "adjective"
+ },
+ "pizolit": {
+  "az": "Noxud böyüklüyündə dənəciklərdən ibarət süxur.",
+  "en": "pisolite",
+  "pos": "noun"
+ },
+ "plagin": {
+  "az": "Proqrama yeni imkan əlavə edən modul.",
+  "en": "plug-in",
+  "pos": "noun"
+ },
+ "plagiotropizm": {
+  "skip": "meaning not certain"
+ },
+ "plaket": {
+  "az": "Relyefli kiçik metal lövhə.",
+  "en": "plaquette",
+  "pos": "noun"
+ },
+ "planar": {
+  "az": "Müstəvi üzərində yerləşən.",
+  "en": "planar",
+  "pos": "adjective"
+ },
+ "planauyğunluq": {
+  "skip": "meaning not certain"
+ },
+ "planimetr": {
+  "az": "Fiqurun sahəsini ölçən cihaz.",
+  "en": "planimeter",
+  "pos": "noun"
+ },
+ "planimetrik": {
+  "az": "Planimetriyaya aid.",
+  "en": "planimetric",
+  "pos": "adjective"
+ },
+ "planimetriya": {
+  "az": "Müstəvi fiqurları öyrənən həndəsə bölməsi.",
+  "en": "plane geometry",
+  "pos": "noun"
+ },
+ "planktonologiya": {
+  "az": "Planktonu öyrənən elm.",
+  "en": "planktology",
+  "pos": "noun"
+ },
+ "planktonoloq": {
+  "skip": "meaning not certain"
+ },
+ "plantaj": {
+  "skip": "meaning not certain"
+ },
+ "plasentasiya": {
+  "skip": "meaning not certain"
+ },
+ "plastikli": {
+  "skip": "meaning not certain"
+ },
+ "plaşkout": {
+  "skip": "meaning not certain"
+ },
+ "plata": {
+  "az": "Elektron hissələr yerləşdirilmiş lövhə.",
+  "en": "circuit board",
+  "pos": "noun"
+ },
+ "plato": {
+  "az": "Yüksəklikdə yerləşən düzənlik, yayla.",
+  "en": "plateau",
+  "pos": "noun"
+ },
+ "plats": {
+  "skip": "meaning not certain"
+ },
+ "plaun": {
+  "az": "Sporlu həmişəyaşıl ot bitkisi.",
+  "en": "clubmoss",
+  "pos": "noun"
+ },
+ "plaz": {
+  "skip": "meaning not certain"
+ },
+ "plazmotomiya": {
+  "skip": "meaning not certain"
+ },
+ "pleksit": {
+  "skip": "meaning not certain"
+ },
+ "plener": {
+  "az": "Açıq havada rəsm çəkmə.",
+  "en": "plein air",
+  "pos": "noun"
+ },
+ "plenogen": {
+  "skip": "meaning not certain"
+ },
+ "plerematika": {
+  "skip": "meaning not certain"
+ },
+ "pletizmoqraf": {
+  "az": "Orqanın həcm dəyişmələrini yazan cihaz.",
+  "en": "plethysmograph",
+  "pos": "noun"
+ },
+ "pletizmoqrafiya": {
+  "az": "Orqanın həcm dəyişmələrinin yazılması.",
+  "en": "plethysmography",
+  "pos": "noun"
+ },
+ "pleyston": {
+  "az": "Su səthində üzən orqanizmlər.",
+  "en": "pleuston",
+  "pos": "noun"
+ },
+ "plikativ": {
+  "az": "Qırışıqlıqla bağlı.",
+  "en": "plicative",
+  "pos": "adjective"
+ },
+ "plotter": {
+  "az": "Böyük ölçülü çertyojlar çəkən çap qurğusu.",
+  "en": "plotter",
+  "pos": "noun"
+ },
+ "plür": {
+  "skip": "meaning not certain"
+ },
+ "plüralist": {
+  "az": "Plüralizm tərəfdarı.",
+  "en": "pluralist",
+  "pos": "noun"
+ },
+ "plüralizm": {
+  "az": "Fikir və baxışların müxtəlifliyi prinsipi.",
+  "en": "pluralism",
+  "pos": "noun"
+ },
+ "plüvial": {
+  "az": "Yağıntılı dövrə aid.",
+  "en": "pluvial",
+  "pos": "adjective"
+ },
+ "pnevmatika": {
+  "az": "Sıxılmış hava ilə işləyən qurğular.",
+  "en": "pneumatics",
+  "pos": "noun"
+ },
+ "pnevmatod": {
+  "skip": "meaning not certain"
+ },
+ "pnevmatoliz": {
+  "az": "Maqmadan ayrılan qazların süxurları dəyişdirməsi.",
+  "en": "pneumatolysis",
+  "pos": "noun"
+ },
+ "pnevmator": {
+  "skip": "meaning not certain"
+ },
+ "pnevmoavtomatika": {
+  "az": "Sıxılmış hava ilə işləyən avtomatika.",
+  "en": "pneumatic automation",
+  "pos": "noun"
+ },
+ "pnevmoelement": {
+  "skip": "meaning not certain"
+ },
+ "pnevmokonioz": {
+  "az": "Toz udmaqdan yaranan ağciyər xəstəliyi.",
+  "en": "pneumoconiosis",
+  "pos": "noun"
+ },
+ "pnevmokonteyner": {
+  "skip": "meaning not certain"
+ },
+ "pnevmoqraf": {
+  "az": "Tənəffüs hərəkətlərini yazan cihaz.",
+  "en": "pneumograph",
+  "pos": "noun"
+ },
+ "pnevmoqrafiya": {
+  "az": "Tənəffüs hərəkətlərinin yazılması.",
+  "en": "pneumography",
+  "pos": "noun"
+ },
+ "pnevmomikoz": {
+  "az": "Ağciyərin göbələk xəstəliyi.",
+  "en": "pneumomycosis",
+  "pos": "noun"
+ },
+ "pnevmomüqavimət": {
+  "skip": "meaning not certain"
+ },
+ "pnevmonəqliyyat": {
+  "az": "Boru ilə hava axını vasitəsilə yük daşıma.",
+  "en": "pneumatic conveying",
+  "pos": "noun"
+ },
+ "pnevmosiqnal": {
+  "skip": "meaning not certain"
+ },
+ "pnevmosistem": {
+  "skip": "meaning not certain"
+ },
+ "pnevmoskleroz": {
+  "az": "Ağciyər toxumasının birləşdirici toxuma ilə əvəz olunması.",
+  "en": "pneumosclerosis",
+  "pos": "noun"
+ },
+ "pnevmostansiya": {
+  "skip": "meaning not certain"
+ },
+ "pnevmotaxometr": {
+  "skip": "meaning not certain"
+ },
+ "podkeçer": {
+  "skip": "meaning not certain"
+ },
+ "podometr": {
+  "az": "Addım sayan cihaz.",
+  "en": "pedometer",
+  "pos": "noun"
+ },
+ "podometriya": {
+  "skip": "meaning not certain"
+ },
+ "poqonofor": {
+  "az": "Dərin dənizlərdə yaşayan borucuqlu qurd.",
+  "en": "pogonophoran",
+  "pos": "noun"
+ },
+ "polder": {
+  "az": "Dəniz və ya çay səviyyəsindən aşağıda bəndlə qorunan quru sahə.",
+  "en": "polder",
+  "pos": "noun"
+ },
+ "polemik": {
+  "az": "Mübahisəyə aid, mübahisəli.",
+  "en": "polemical",
+  "pos": "adjective"
+ },
+ "polemika": {
+  "az": "Mübahisə, fikir çəkişməsi.",
+  "en": "polemic",
+  "pos": "noun"
+ },
+ "polibiont": {
+  "skip": "meaning not certain"
+ },
+ "polifaq": {
+  "az": "Müxtəlif qida ilə qidalanan canlı.",
+  "en": "polyphage",
+  "pos": "noun"
+ },
+ "polifenizm": {
+  "az": "Eyni genotipdən mühitə görə müxtəlif fenotiplərin yaranması.",
+  "en": "polyphenism",
+  "pos": "noun"
+ },
+ "poliftonq": {
+  "skip": "meaning not certain"
+ },
+ "polixoriya": {
+  "az": "Toxum və meyvələrin müxtəlif yollarla yayılması.",
+  "en": "polychory",
+  "pos": "noun"
+ },
+ "poliksen": {
+  "skip": "meaning not certain"
+ },
+ "poliqalin sular": {
+  "skip": "meaning not certain"
+ },
+ "polimaran": {
+  "skip": "meaning not certain"
+ },
+ "poliment": {
+  "skip": "meaning not certain"
+ },
+ "polimetriya": {
+  "skip": "meaning not certain"
+ },
+ "polioma": {
+  "skip": "meaning not certain"
+ },
+ "polipoz": {
+  "az": "Selikli qişada çoxlu polip əmələ gəlməsi.",
+  "en": "polyposis",
+  "pos": "noun"
+ },
+ "poliptot": {
+  "az": "Eyni sözün müxtəlif qrammatik formalarda təkrarı.",
+  "en": "polyptoton",
+  "pos": "noun"
+ },
+ "polisaprob": {
+  "skip": "meaning not certain"
+ },
+ "polispermiya": {
+  "az": "Yumurta hüceyrəsinə bir neçə spermatozoidin daxil olması.",
+  "en": "polyspermy",
+  "pos": "noun"
+ },
+ "politipiya": {
+  "skip": "meaning not certain"
+ },
+ "politonik": {
+  "skip": "meaning not certain"
+ },
+ "poliuriya": {
+  "az": "Sidik ifrazının artması.",
+  "en": "polyuria",
+  "pos": "noun"
+ },
+ "polka": {
+  "az": "Çex xalq rəqsi.",
+  "en": "polka",
+  "pos": "noun"
+ },
+ "pollusit": {
+  "az": "Sezium tərkibli mineral.",
+  "en": "pollucite",
+  "pos": "noun"
+ },
+ "pollyusiya": {
+  "az": "Yuxuda iradəsiz toxum ifrazı.",
+  "en": "nocturnal emission",
+  "pos": "noun"
+ },
+ "polubak": {
+  "az": "Gəminin burnunda göyərtə üstü tikili.",
+  "en": "forecastle",
+  "pos": "noun"
+ },
+ "polyarimetr": {
+  "az": "Polyarlaşma müstəvisinin fırlanmasını ölçən cihaz.",
+  "en": "polarimeter",
+  "pos": "noun"
+ },
+ "polyarimetrik": {
+  "az": "Polyarimetriyaya aid.",
+  "en": "polarimetric",
+  "pos": "adjective"
+ },
+ "polyarimetriya": {
+  "az": "Polyarlaşma müstəvisinin fırlanmasına görə analiz üsulu.",
+  "en": "polarimetry",
+  "pos": "noun"
+ },
+ "polyaroqrafik": {
+  "az": "Polyaroqrafiyaya aid.",
+  "en": "polarographic",
+  "pos": "adjective"
+ },
+ "polyaroqrafiya": {
+  "az": "Elektrokimyəvi analiz üsulu.",
+  "en": "polarography",
+  "pos": "noun"
+ },
+ "pomelo": {
+  "az": "İri sitrus meyvəsi.",
+  "en": "pomelo",
+  "pos": "noun"
+ },
+ "pompelmus": {
+  "az": "İri sitrus meyvəsi.",
+  "en": "pomelo",
+  "pos": "noun"
+ },
+ "ponomar": {
+  "az": "Pravoslav kilsəsində kiçik xidmətçi.",
+  "en": "sexton",
+  "pos": "noun"
+ },
+ "pontifik": {
+  "az": "Qədim Romada ali kahin; Roma papası.",
+  "en": "pontiff",
+  "pos": "noun"
+ },
+ "ponton": {
+  "az": "Üzən körpü üçün yastıdibli qayıq.",
+  "en": "pontoon",
+  "pos": "noun"
+ },
+ "populizm": {
+  "az": "Kütlənin rəğbətini qazanmağa yönəlik siyasət.",
+  "en": "populism",
+  "pos": "noun"
+ },
+ "popurri": {
+  "az": "Məşhur melodiyaların ardıcıl birləşdirilməsi.",
+  "en": "medley",
+  "pos": "noun"
+ },
+ "porfirin": {
+  "az": "Hemoqlobin və xlorofilin tərkibindəki üzvi birləşmə.",
+  "en": "porphyrin",
+  "pos": "noun"
+ },
+ "porfiriya": {
+  "az": "Porfirin mübadiləsinin irsi pozğunluğu.",
+  "en": "porphyria",
+  "pos": "noun"
+ },
+ "pori": {
+  "skip": "meaning not certain"
+ },
+ "portamento": {
+  "az": "Bir səsdən digərinə sürüşərək keçid.",
+  "en": "portamento",
+  "pos": "noun"
+ },
+ "porter": {
+  "az": "Tünd güclü pivə növü.",
+  "en": "porter (beer)",
+  "pos": "noun"
+ },
+ "portik": {
+  "az": "Binanın girişində sütunlu eyvan.",
+  "en": "portico",
+  "pos": "noun"
+ },
+ "portik-eyvan": {
+  "skip": "meaning not certain"
+ },
+ "portulan": {
+  "az": "Orta əsrlərin dəniz xəritəsi.",
+  "en": "portolan chart",
+  "pos": "noun"
+ },
+ "poruçik": {
+  "az": "Keçmişdə rus ordusunda zabit rütbəsi.",
+  "en": "lieutenant (Russian army)",
+  "pos": "noun"
+ }
+}
