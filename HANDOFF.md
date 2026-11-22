@@ -64,6 +64,8 @@ Rules that matter: write new wording, never copy the print definitions (the buil
 
 Commit the rebuilt `dist/` and push to `soz-toxumasi`. Vercel deploys it to https://soz-toxumasi.vercel.app. Before calling the work live, check in the Vercel dashboard that the deployment is Ready, then open the site and the picture quiz (`#sekil`).
 
+Vercel settings: Git connection at https://vercel.com/jasons-projects-ec574315/soz-toxumasi/settings/git, production branch at https://vercel.com/jasons-projects-ec574315/soz-toxumasi/settings/environments.
+
 ## Known test status
 
 Tests were compared on the imported code (commit `dc6b885`) and on this branch. These 29 tests already failed on the imported code, before any of this work, and still fail the same way: additions-data, atlas-zoom-interactions, bilingual-interactions, camera-selection, complete-web-interactions, continuous-gathering, galaxy-data, galaxy-interactions, gathering-interactions, grammar-interactions, interactions, nominal-data, nominal-interactions, pinch-zoom, race-finish, race-navigation-lock, race-practice, race-ui, reference-completion, relation-audit-data, relation-audit-interactions, relationship-interactions, responsive-interactions, selection-magnet, selection-sizing, verification-data, visible-arrivals, whole-word-page, word-info-and-physics. Several check hashes of data files that later layers legitimately changed (for example `learning-data.js`), so they need their expectations updated rather than the data reverted. All other tests pass, including `print-definitions-data.cjs` and `offline.cjs`.
