@@ -131,6 +131,9 @@ EXPLICIT_FROM = re.compile(r'^"([^"]+)"\s*-?\s*(?:dan|dən|ın|in|un|ün)?\s*(?:
                            r'(f\s*\.?\s*is\.|f\s*\.\s*sif\.|icb\.|məch\.|qayıd\.|qarş\.|kiç\.|oxş\.|mücər\.)', re.I)
 SEE_ONLY = re.compile(r'^(?:(?:\[[^\]]{1,100}\]|[a-zçğıöşüə]{1,8}\.)\s*)*b\s*a\s*x\s+'
                       r'([a-zçğıöşüə]+(?:[- ][a-zçğıöşüə]+)*)(?:\s*\d{1,2})?\s*\.?$', re.I)
+# A Musayev entry that opens with a cross-reference, after part-of-speech labels or a sense number: «s. 1. bax qəbiz;».
+BILINGUAL_SEE = re.compile(r'^(?:(?:[a-zçğıöşüə]{1,5}\.|\d\.)\s*)*bax\s+([a-zçğıöşüə]+(?:[- ][a-zçğıöşüə]+)*)'
+                           r'(?:\s+(?:I{1,3}|\d))?\s*(?:[;,.]|$)', re.I)
 HOMONYM = re.compile(r'[- ]?\d{1,2}$')
 BACK, FRONT = set('aıou'), set('əeiöü')
 VOWELS = BACK | FRONT
@@ -983,6 +986,21 @@ class Builder:
             return [('genus', head)]
         return []
 
+    def bilingual_references(self):
+        """Link a word to the headword its Musayev entry refers it to (qımıldanmaq: «f. bax qımıldamaq»)."""
+        for word in list(self.nodes):
+            for text, page in self.musayev.get(key(word), []):
+                match = BILINGUAL_SEE.match(text.strip())
+                if not match:
+                    continue
+                target = self.by_key.get(key(match[1]))
+                if target and target != word:
+                    self.link(word, target, 'syn', 'Musayev lüğəti · bax',
+                              f'Musayevin lüğəti «{word}» sözü üçün «{target}» sözünə istinad edir.',
+                              f'The Musayev dictionary refers {word} to {target}.', [bilingual_source(page)],
+                              'bilingual-cross-reference')
+                break
+
     def relation_nouns(self, word, definition):
         """Nouns a relational definition is built on: «Əlkimyaya aid.» -> əlkimya, «Üç sinifdən ibarət.» -> sinif,
         «Toxunma ilə bağlı.» -> toxunma, «Ödü olan.» -> öd, «Tarix və politologiyaya aid.» -> tarix, politologiya."""
@@ -1187,6 +1205,7 @@ def main():
         if len(builder.definitions) + len(builder.edges) == size:
             break
     builder.definition_links()
+    builder.bilingual_references()
     after_undefined = sum(1 for w in builder.nodes if not builder.defined(w))
     after_isolated = sum(1 for w in builder.nodes if not builder.degree[w])
     methods = collections.Counter(d['method'] for d in builder.definitions.values())
