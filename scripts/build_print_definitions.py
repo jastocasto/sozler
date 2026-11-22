@@ -146,11 +146,12 @@ FORM_OF = re.compile(r'^(?:[a-z]+\.\s*)?(?:(?:an?|the)\s+)?(?:(?:obsolete|archai
 # Lowercase labels ending in a period before the sense of an atlas definition: «kimya. », «biokimyəvi, genetik. ».
 ORIGINAL_LABELS = re.compile(r'^(?:[a-zçğıöşüə]{2,14}(?:,\s*[a-zçğıöşüə]{2,14})*\.\s+)+(?=\S)')
 # Light verbs head verb phrases without saying much (kömək vermək, narahatlıq keçirmək), so they make no class link.
-LIGHT_VERBS = set('vermək keçirmək göstərmək gətirmək demək çıxmaq itirmək qalmaq salmaq düşmək almaq tutmaq çəkmək qoymaq '
-                  'yetirmək gəlmək getmək durmaq bilmək bilməz etdirmək olunmaq edilmək'.split())
+LIGHT_VERBS = set('vermək keçirmək göstərmək gətirmək demək çıxmaq çıxarmaq itirmək qalmaq salmaq düşmək almaq tutmaq çəkmək '
+                  'qoymaq yetirmək gəlmək getmək durmaq bilmək bilməz etdirmək olunmaq edilmək vermə keçirmə göstərmə '
+                  'gətirmə çıxarma qoyma yetirmə'.split())
 # Words that name a form, not a class, and so never head a definition: «şivənin alternativ forması», «… qısaltması».
 FORM_HEADS = {'alternativ', 'yazılış', 'yazılma', 'çoxluq', 'abreviatura', 'qısaltma', 'variant', 'tələffüz', 'forma',
-              'etdirmək', 'etmək', 'eləmək', 'olmaq', 'söz'}
+              'etdirmək', 'etmək', 'eləmək', 'olmaq', 'söz', 'anlayış'}
 HOMONYM = re.compile(r'[- ]?\d{1,2}$')
 BACK, FRONT = set('aıou'), set('əeiöü')
 VOWELS = BACK | FRONT
@@ -1059,6 +1060,12 @@ class Builder:
                 if target and target != word:
                     self.link(word, target, 'syn', 'Tərif · forma', f'Tərifə görə «{word}» «{target}» sözünün başqa forması və ya yazılışıdır.',
                               f'By its definition, {word} is another form or spelling of {target}.', refs, 'original-form')
+                continue
+            # «Xalyarın Hamamlı və Qax forması»: the dialect form of another word, named after a place (capitalised), so
+            # no class word; «idarə forması» (teokratiya) still names one.
+            first = re.findall(r'[\wçğıöşüəÇĞIİÖŞÜƏ-]+', re.split(r'[,;.]', re.sub(r'\([^)]*\)', '', az))[0])
+            if (len(first) >= 2 and possessive_stem(key(first[-1])) in ('forma', 'variant', 'yazılış', 'yazılma')
+                    and first[-2][:1].isupper()):
                 continue
             heads = [(kind, other) for kind, other in self.definition_head(word, definition)
                      if other not in FORM_HEADS and not (kind == 'genus' and other in LIGHT_VERBS)]
