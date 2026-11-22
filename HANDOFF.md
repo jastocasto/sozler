@@ -15,6 +15,8 @@ Work on branch `claude/tender-davinci-qpimp0`. Each cycle:
 5. Commit (`Add AI-written definitions batch NN`) and push to the branch.
 6. After about three batches (or before stopping), `scripts/autopilot.sh release` (about 25 minutes): full test suite; if no test fails beyond the 20 known ones, it fast-forwards `soz-toxumasi` to HEAD, waits for Vercel and runs `scripts/live_check.cjs` against https://soz-toxumasi.vercel.app. It must end with `RELEASED <sha>` and `LIVE CHECK PASS`.
 
+Progress (22 Nov 2026, evening): authored batches up to 51 are written; batches up to 48 and two link fixes are live (`e380f9d`). Headwords without a definition: 9367 → 6453; without a connection: 9425 → 8190. Most remaining isolated words have an AI-written or paraphrased definition whose head is not a headword; `definition_links` in `scripts/build_print_definitions.py` links synonyms, class words and (fallback) the noun a relational definition is built on ("Əlkimyaya aid", "Üç otaqdan ibarət", "Dörd proqramı olan"). Write each batch in two halves, check them against `.cache/print/queue.txt` (every queued word exactly once), and delete the halves only after the merged file is written (`python3 merge.py && rm …`).
+
 If `release` reports new failures, fix them or `git revert` the batch, rebuild and try again; never publish a failing build and never force-push. If the live check fails after publishing, revert the last batch on the branch, rebuild, verify and release the revert. After about 13,000 words the queue empties; then review `"conf": "low"` paraphrases (shown as *yoxlanılmalıdır*) the same way.
 
 ## November 2026 improvement round
