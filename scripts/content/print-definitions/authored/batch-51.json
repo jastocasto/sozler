@@ -1,0 +1,1064 @@
+{
+ "qıvırcıqtük": {
+  "az": "Tükü qıvrım olan.",
+  "en": "curly-haired",
+  "pos": "adjective"
+ },
+ "qıvrımtel": {
+  "skip": "meaning not certain"
+ },
+ "qıyğac": {
+  "skip": "meaning not certain"
+ },
+ "qıyğacı-qıyğacı": {
+  "skip": "meaning not certain"
+ },
+ "qıymaca": {
+  "skip": "meaning not certain"
+ },
+ "qızılısaç": {
+  "skip": "meaning not certain"
+ },
+ "qızılyun": {
+  "skip": "meaning not certain"
+ },
+ "qiyal": {
+  "skip": "meaning not certain"
+ },
+ "qlaqolisa": {
+  "skip": "meaning not certain"
+ },
+ "qlasiologiya": {
+  "az": "Buzlaqları öyrənən elm.",
+  "en": "glaciology",
+  "pos": "noun"
+ },
+ "qlasioloq": {
+  "az": "Buzlaqları öyrənən alim.",
+  "en": "glaciologist",
+  "pos": "noun"
+ },
+ "qlaukopirit": {
+  "skip": "meaning not certain"
+ },
+ "qlisin": {
+  "az": "Ən sadə amin turşusu.",
+  "en": "glycine",
+  "pos": "noun"
+ },
+ "qlisser": {
+  "az": "Su səthində sürüşərək hərəkət edən sürətli qayıq.",
+  "en": "hydroplane boat",
+  "pos": "noun"
+ },
+ "qlossa": {
+  "skip": "meaning not certain"
+ },
+ "qlossematika": {
+  "az": "Dili saf formal münasibətlər sistemi kimi öyrənən dilçilik nəzəriyyəsi.",
+  "en": "glossematics",
+  "pos": "noun"
+ },
+ "qlossologiya": {
+  "skip": "meaning not certain"
+ },
+ "qlottal": {
+  "az": "Qırtlaqda yaranan.",
+  "en": "glottal",
+  "pos": "adjective"
+ },
+ "qlottoxronologiya": {
+  "az": "Dillərin ayrılma vaxtını əsas lüğətin dəyişməsinə görə təyin etmə üsulu.",
+  "en": "glottochronology",
+  "pos": "noun"
+ },
+ "qneseologiya": {
+  "az": "İdrak nəzəriyyəsi.",
+  "en": "epistemology",
+  "pos": "noun"
+ },
+ "qneseoloji": {
+  "az": "İdrak nəzəriyyəsinə aid.",
+  "en": "epistemological",
+  "pos": "adjective"
+ },
+ "qnostik": {
+  "az": "Qnostisizmə aid; onun tərəfdarı.",
+  "en": "Gnostic",
+  "pos": "adjective"
+ },
+ "qoca-qoca": {
+  "skip": "meaning not certain"
+ },
+ "qoji": {
+  "az": "Qurudulmuş qırmızı giləmeyvə.",
+  "en": "goji berry",
+  "pos": "noun"
+ },
+ "qolay-qolay": {
+  "skip": "meaning not certain"
+ },
+ "qoleador": {
+  "az": "Çox qol vuran futbolçu.",
+  "en": "prolific goalscorer",
+  "pos": "noun"
+ },
+ "qom-qom etmək": {
+  "skip": "meaning not certain"
+ },
+ "qoniometriya": {
+  "az": "Bucaqların ölçülməsi.",
+  "en": "goniometry",
+  "pos": "noun"
+ },
+ "qonokok": {
+  "az": "Süzənək törədən bakteriya.",
+  "en": "gonococcus",
+  "pos": "noun"
+ },
+ "qorlu-qorlu": {
+  "skip": "meaning not certain"
+ },
+ "qoşacib": {
+  "az": "İki cibi olan.",
+  "en": "two-pocketed",
+  "pos": "adjective"
+ },
+ "qotika": {
+  "az": "Orta əsrlər Avropasında sivri tağlı memarlıq üslubu.",
+  "en": "Gothic style",
+  "pos": "noun"
+ },
+ "qovuqca": {
+  "skip": "meaning not certain"
+ },
+ "qövr etmək": {
+  "az": "Ağrının şiddətlənib təkrar-təkrar tutması.",
+  "en": "to throb (of pain)",
+  "pos": "verb"
+ },
+ "qradualizm": {
+  "az": "Dəyişikliklərin tədricən baş verdiyini qəbul edən baxış.",
+  "en": "gradualism",
+  "pos": "noun"
+ },
+ "qrammatikləşmə": {
+  "az": "Müstəqil sözün qrammatik vasitəyə çevrilməsi.",
+  "en": "grammaticalization",
+  "pos": "noun"
+ },
+ "qrammem": {
+  "az": "Qrammatik kateqoriyanın bir mənası.",
+  "en": "grammeme",
+  "pos": "noun"
+ },
+ "qranulosit": {
+  "az": "Sitoplazmasında dənəciklər olan ağ qan hüceyrəsi.",
+  "en": "granulocyte",
+  "pos": "noun"
+ },
+ "qril-tabaka": {
+  "skip": "meaning not certain"
+ },
+ "qripli-qripli": {
+  "skip": "meaning not certain"
+ },
+ "qrosbux": {
+  "az": "Mühasibat baş kitabı.",
+  "en": "general ledger",
+  "pos": "noun"
+ },
+ "qrosulyar": {
+  "az": "Kalsium-alüminium qranatı.",
+  "en": "grossular",
+  "pos": "noun"
+ },
+ "qrotesk": {
+  "az": "Fantastik və real olanı kəskin şişirdərək birləşdirən bədii üslub.",
+  "en": "grotesque",
+  "pos": "noun"
+ },
+ "qruppeto": {
+  "az": "Musiqidə əsas notun ətrafında bəzək.",
+  "en": "gruppetto, turn",
+  "pos": "noun"
+ },
+ "qrusi": {
+  "skip": "meaning not certain"
+ },
+ "quayava": {
+  "az": "Tropik meyvə ağacı və onun ətirli meyvəsi.",
+  "en": "guava",
+  "pos": "noun"
+ },
+ "qubarlı-qubarlı": {
+  "az": "Kədərlə, qəmli halda.",
+  "en": "sorrowfully",
+  "pos": "adverb"
+ },
+ "qumma": {
+  "skip": "meaning not certain"
+ },
+ "qurama-qurama söhbət": {
+  "skip": "meaning not certain"
+ },
+ "quraşıqlı": {
+  "skip": "meaning not certain"
+ },
+ "qurşaqtutdu": {
+  "skip": "meaning not certain"
+ },
+ "qurudaşı": {
+  "skip": "meaning not certain"
+ },
+ "qurulum": {
+  "az": "Proqramın kompüterə quraşdırılması.",
+  "en": "installation (software)",
+  "pos": "noun"
+ },
+ "qusli": {
+  "az": "Qədim rus simli çalğı aləti.",
+  "en": "gusli",
+  "pos": "noun"
+ },
+ "qutta": {
+  "skip": "meaning not certain"
+ },
+ "qvayula": {
+  "az": "Kauçuk verən kol bitkisi.",
+  "en": "guayule",
+  "pos": "noun"
+ },
+ "labada": {
+  "skip": "meaning not certain"
+ },
+ "labirintit": {
+  "az": "Daxili qulağın iltihabı.",
+  "en": "labyrinthitis",
+  "pos": "noun"
+ },
+ "labirintopatiya": {
+  "skip": "meaning not certain"
+ },
+ "lagerr": {
+  "skip": "meaning not certain"
+ },
+ "laj": {
+  "skip": "meaning not certain"
+ },
+ "lakton": {
+  "az": "Daxili halqavi mürəkkəb efir.",
+  "en": "lactone",
+  "pos": "noun"
+ },
+ "laqeyd-laqeyd": {
+  "az": "Laqeydliklə.",
+  "en": "indifferently",
+  "pos": "adverb"
+ },
+ "laqlin": {
+  "skip": "meaning not certain"
+ },
+ "laləüzlü": {
+  "az": "Üzü lalə kimi qırmızı və gözəl olan.",
+  "en": "rosy-cheeked",
+  "pos": "adjective"
+ },
+ "lamarkizm": {
+  "az": "Lamarkın təkamül təlimi.",
+  "en": "Lamarckism",
+  "pos": "noun"
+ },
+ "lambeozavr": {
+  "az": "Başında daraq olan ot yeyən dinozavr.",
+  "en": "Lambeosaurus",
+  "pos": "noun"
+ },
+ "lambert": {
+  "skip": "meaning not certain"
+ },
+ "lambir": {
+  "skip": "meaning not certain"
+ },
+ "lamer": {
+  "skip": "meaning not certain"
+ },
+ "lamina": {
+  "skip": "meaning not certain"
+ },
+ "laminat": {
+  "az": "Qatlı örtük materialı, laminat döşəmə.",
+  "en": "laminate",
+  "pos": "noun"
+ },
+ "lampas": {
+  "az": "Şalvarın yanından tikilmiş rəngli zolaq.",
+  "en": "trouser stripe",
+  "pos": "noun"
+ },
+ "landqraf": {
+  "az": "Orta əsrlər Almaniyasında titul.",
+  "en": "landgrave",
+  "pos": "noun"
+ },
+ "landşturm": {
+  "az": "Almaniya və Avstriyada ehtiyat qoşun.",
+  "en": "Landsturm",
+  "pos": "noun"
+ },
+ "landtaq": {
+  "az": "Almaniya və Avstriyada vilayət parlamenti.",
+  "en": "Landtag",
+  "pos": "noun"
+ },
+ "lanqust": {
+  "az": "Qısqacsız iri dəniz xərçəngi.",
+  "en": "spiny lobster",
+  "pos": "noun"
+ },
+ "lansetnik": {
+  "az": "Dəniz dibində yaşayan kiçik başsız xordalı heyvan.",
+  "en": "lancelet",
+  "pos": "noun"
+ },
+ "lantanoid": {
+  "az": "Lantanla başlayan nadir torpaq elementləri qrupundan biri.",
+  "en": "lanthanide",
+  "pos": "noun"
+ },
+ "lapar": {
+  "skip": "meaning not certain"
+ },
+ "lapilli": {
+  "az": "Vulkandan atılan xırda daş parçaları.",
+  "en": "lapilli",
+  "pos": "noun"
+ },
+ "laporoskopik": {
+  "az": "Laparoskopiya ilə aparılan.",
+  "en": "laparoscopic",
+  "pos": "adjective"
+ },
+ "larinqal": {
+  "az": "Qırtlaqda yaranan.",
+  "en": "laryngeal",
+  "pos": "adjective"
+ },
+ "larinqologiya": {
+  "az": "Qırtlaq xəstəliklərini öyrənən tibb sahəsi.",
+  "en": "laryngology",
+  "pos": "noun"
+ },
+ "larinqoloji": {
+  "az": "Larinqologiyaya aid.",
+  "en": "laryngological",
+  "pos": "adjective"
+ },
+ "larinqoloq": {
+  "az": "Qırtlaq xəstəlikləri üzrə həkim.",
+  "en": "laryngologist",
+  "pos": "noun"
+ },
+ "larqo": {
+  "az": "Çox ağır templə.",
+  "en": "largo",
+  "pos": "adverb"
+ },
+ "lataniya": {
+  "az": "Yelpikvari yarpaqlı palma.",
+  "en": "latania palm",
+  "pos": "noun"
+ },
+ "latayır-latayır": {
+  "skip": "meaning not certain"
+ },
+ "latimeriya": {
+  "az": "Qədim əlüzgəcli balıqların yaşayan nümayəndəsi.",
+  "en": "coelacanth",
+  "pos": "noun"
+ },
+ "latinist": {
+  "az": "Latın dili mütəxəssisi.",
+  "en": "Latinist",
+  "pos": "noun"
+ },
+ "latit": {
+  "az": "Vulkanik süxur.",
+  "en": "latite",
+  "pos": "noun"
+ },
+ "layba": {
+  "skip": "meaning not certain"
+ },
+ "laymərdan": {
+  "skip": "meaning not certain"
+ },
+ "lazurit": {
+  "az": "Göy rəngli mineral, lacivərd daşı.",
+  "en": "lazurite, lapis lazuli",
+  "pos": "noun"
+ },
+ "lederin": {
+  "skip": "meaning not certain"
+ },
+ "legion": {
+  "az": "Qədim Romada əsas qoşun hissəsi; çoxlu sayda.",
+  "en": "legion",
+  "pos": "noun"
+ },
+ "legislatura": {
+  "az": "Qanunverici orqanın səlahiyyət müddəti.",
+  "en": "legislative term",
+  "pos": "noun"
+ },
+ "legist": {
+  "skip": "meaning not certain"
+ },
+ "legitimasiya": {
+  "az": "Qanuniləşdirmə, qanuni tanınma.",
+  "en": "legitimation",
+  "pos": "noun"
+ },
+ "legitimist": {
+  "az": "Devrilmiş sülalənin hakimiyyət hüququnun tərəfdarı.",
+  "en": "legitimist",
+  "pos": "noun"
+ },
+ "legitimizm": {
+  "az": "Devrilmiş sülalənin hüququnu müdafiə edən siyasi cərəyan.",
+  "en": "legitimism",
+  "pos": "noun"
+ },
+ "leksikologiya": {
+  "az": "Dilin lüğət tərkibini öyrənən dilçilik bölməsi.",
+  "en": "lexicology",
+  "pos": "noun"
+ },
+ "leksikoloji": {
+  "az": "Leksikologiyaya aid.",
+  "en": "lexicological",
+  "pos": "adjective"
+ },
+ "leksikoloq": {
+  "az": "Leksikologiya üzrə mütəxəssis.",
+  "en": "lexicologist",
+  "pos": "noun"
+ },
+ "leqato": {
+  "az": "Səsləri rəvan bir-birinə bağlayaraq.",
+  "en": "legato",
+  "pos": "adverb"
+ },
+ "lemminq": {
+  "az": "Tundrada yaşayan kiçik gəmirici.",
+  "en": "lemming",
+  "pos": "noun"
+ },
+ "lendlord": {
+  "az": "İngiltərədə iri torpaq sahibi.",
+  "en": "landlord",
+  "pos": "noun"
+ },
+ "lentikulit": {
+  "skip": "meaning not certain"
+ },
+ "lepra": {
+  "az": "Cüzam.",
+  "en": "leprosy",
+  "pos": "noun"
+ },
+ "lepton": {
+  "az": "Güclü qarşılıqlı təsirdə iştirak etməyən elementar hissəcik.",
+  "en": "lepton",
+  "pos": "noun"
+ },
+ "leptospiroz": {
+  "az": "Leptospiraların törətdiyi yoluxucu xəstəlik.",
+  "en": "leptospirosis",
+  "pos": "noun"
+ },
+ "leveric": {
+  "skip": "meaning not certain"
+ },
+ "levirat": {
+  "az": "Dul qadının ərinin qardaşına ərə getməsi adəti.",
+  "en": "levirate",
+  "pos": "noun"
+ },
+ "levulyoza": {
+  "az": "Meyvə şəkəri, fruktoza.",
+  "en": "levulose, fructose",
+  "pos": "noun"
+ },
+ "leyborizm": {
+  "az": "İngiltərədə leyborist partiyasının ideologiyası.",
+  "en": "Labourism",
+  "pos": "noun"
+ },
+ "leykobirləşmə": {
+  "skip": "meaning not certain"
+ },
+ "leykoensefalit": {
+  "az": "Beyin ağ maddəsinin iltihabı.",
+  "en": "leukoencephalitis",
+  "pos": "noun"
+ },
+ "leykokrat": {
+  "skip": "meaning not certain"
+ },
+ "leykonixiya": {
+  "az": "Dırnaqlarda ağ ləkələr.",
+  "en": "leukonychia",
+  "pos": "noun"
+ },
+ "leyomioma": {
+  "az": "Saya əzələ toxumasından xoşxassəli şiş.",
+  "en": "leiomyoma",
+  "pos": "noun"
+ },
+ "leyşmanioz": {
+  "az": "Leyşmaniyaların törətdiyi parazitar xəstəlik.",
+  "en": "leishmaniasis",
+  "pos": "noun"
+ },
+ "lələdağ etmək": {
+  "skip": "meaning not certain"
+ },
+ "lələkbaş": {
+  "skip": "meaning not certain"
+ },
+ "lənbər vurmaq": {
+  "skip": "meaning not certain"
+ },
+ "lərgəvər": {
+  "skip": "meaning not certain"
+ },
+ "lıqvər": {
+  "skip": "meaning not certain"
+ },
+ "libor": {
+  "az": "London banklararası kredit faiz dərəcəsi.",
+  "en": "LIBOR",
+  "pos": "noun"
+ },
+ "licimsiz-licimsiz": {
+  "skip": "meaning not certain"
+ },
+ "lidaza": {
+  "az": "Toxuma keçiriciliyini artıran ferment preparatı.",
+  "en": "lidase (hyaluronidase)",
+  "pos": "noun"
+ },
+ "likopod": {
+  "az": "Plaunlar cinsindən sporlu bitki.",
+  "en": "clubmoss",
+  "pos": "noun"
+ },
+ "likvidli": {
+  "az": "Asanlıqla pula çevrilə bilən.",
+  "en": "liquid (asset)",
+  "pos": "adjective"
+ },
+ "liqanda": {
+  "skip": "meaning not certain"
+ },
+ "limb": {
+  "skip": "several unrelated senses"
+ },
+ "limfodrenaj": {
+  "az": "Limfa axınını yaxşılaşdıran masaj və ya müalicə.",
+  "en": "lymphatic drainage",
+  "pos": "noun"
+ },
+ "limfoqranulematoz": {
+  "az": "Limfa düyünlərinin bədxassəli xəstəliyi.",
+  "en": "Hodgkin lymphoma",
+  "pos": "noun"
+ },
+ "limfoleykosit": {
+  "skip": "meaning not certain"
+ },
+ "limfosarkoma": {
+  "az": "Limfa toxumasının bədxassəli şişi.",
+  "en": "lymphosarcoma",
+  "pos": "noun"
+ },
+ "limnonim": {
+  "az": "Göl adı.",
+  "en": "lake name",
+  "pos": "noun"
+ },
+ "limonium": {
+  "az": "Quru çiçəklər üçün yetişdirilən bitki.",
+  "en": "sea lavender",
+  "pos": "noun"
+ },
+ "linqvistik": {
+  "az": "Dilçiliyə aid.",
+  "en": "linguistic",
+  "pos": "adjective"
+ },
+ "linqvokulturologiya": {
+  "az": "Dil ilə mədəniyyətin əlaqəsini öyrənən elm.",
+  "en": "linguoculturology",
+  "pos": "noun"
+ },
+ "linqvokulturoloji": {
+  "az": "Linqvokulturologiyaya aid.",
+  "en": "linguocultural",
+  "pos": "adjective"
+ },
+ "linqvopoetik": {
+  "az": "Linqvopoetikaya aid.",
+  "en": "linguopoetic",
+  "pos": "adjective"
+ },
+ "linqvopoetika": {
+  "az": "Bədii mətnin dil vasitələrini öyrənən sahə.",
+  "en": "linguistic poetics",
+  "pos": "noun"
+ },
+ "linqvosemiotik": {
+  "az": "Linqvosemiotikaya aid.",
+  "en": "linguosemiotic",
+  "pos": "adjective"
+ },
+ "linqvosemiotika": {
+  "az": "Dili işarələr sistemi kimi öyrənən sahə.",
+  "en": "linguosemiotics",
+  "pos": "noun"
+ },
+ "linqvostilistika": {
+  "az": "Dilin üslub vasitələrini öyrənən sahə.",
+  "en": "linguistic stylistics",
+  "pos": "noun"
+ },
+ "linqvopsixologiya": {
+  "az": "Psixolinqvistika.",
+  "en": "psycholinguistics",
+  "pos": "noun"
+ },
+ "linqvopsixoloji": {
+  "az": "Linqvopsixologiyaya aid.",
+  "en": "psycholinguistic",
+  "pos": "adjective"
+ },
+ "linqvotekstologiya": {
+  "skip": "meaning not certain"
+ },
+ "linqvotekstoloji": {
+  "skip": "meaning not certain"
+ },
+ "linqvotekstoloq": {
+  "skip": "meaning not certain"
+ },
+ "linneit": {
+  "az": "Kobalt sulfiddən ibarət mineral.",
+  "en": "linnaeite",
+  "pos": "noun"
+ },
+ "liparit": {
+  "az": "Turş vulkanik süxur, riolit.",
+  "en": "liparite, rhyolite",
+  "pos": "noun"
+ },
+ "lipaza": {
+  "az": "Yağları parçalayan ferment.",
+  "en": "lipase",
+  "pos": "noun"
+ },
+ "lipofillinq": {
+  "az": "Bədənin bir yerindən götürülmüş piyin başqa yerə köçürülməsi.",
+  "en": "lipofilling",
+  "pos": "noun"
+ },
+ "liposaksiya": {
+  "az": "Artıq piyin sorularaq çıxarılması əməliyyatı.",
+  "en": "liposuction",
+  "pos": "noun"
+ },
+ "listerioz": {
+  "az": "Listeriyaların törətdiyi yoluxucu xəstəlik.",
+  "en": "listeriosis",
+  "pos": "noun"
+ },
+ "listvenit": {
+  "skip": "meaning not certain"
+ },
+ "litavra": {
+  "az": "Kasa şəklində böyük zərb aləti.",
+  "en": "timpani",
+  "pos": "noun"
+ },
+ "litera": {
+  "az": "Mətbəə hərfi; şərti hərf işarəsi.",
+  "en": "type letter",
+  "pos": "noun"
+ },
+ "litoatmosfer": {
+  "skip": "meaning not certain"
+ },
+ "litofit": {
+  "az": "Daş üzərində bitən bitki.",
+  "en": "lithophyte",
+  "pos": "noun"
+ },
+ "litogenezis": {
+  "az": "Çöküntü süxurlarının əmələ gəlməsi.",
+  "en": "lithogenesis",
+  "pos": "noun"
+ },
+ "litokimyəvi": {
+  "skip": "meaning not certain"
+ },
+ "litonim": {
+  "skip": "meaning not certain"
+ },
+ "litopon": {
+  "az": "Ağ mineral boyaq.",
+  "en": "lithopone",
+  "pos": "noun"
+ },
+ "litoral": {
+  "az": "Dəniz sahilinin qabarma-çəkilmə zolağı.",
+  "en": "littoral zone",
+  "pos": "noun"
+ },
+ "litsini": {
+  "skip": "meaning not certain"
+ },
+ "liuvill": {
+  "skip": "meaning not certain"
+ },
+ "lizardit": {
+  "az": "Serpentin qrupundan mineral.",
+  "en": "lizardite",
+  "pos": "noun"
+ },
+ "lizbek": {
+  "skip": "meaning not certain"
+ },
+ "lizin": {
+  "az": "Əvəzolunmaz amin turşusu.",
+  "en": "lysine",
+  "pos": "noun"
+ },
+ "lizis": {
+  "az": "Hüceyrənin əriyib dağılması.",
+  "en": "lysis",
+  "pos": "noun"
+ },
+ "lobbist": {
+  "az": "Lobbiçilik edən şəxs.",
+  "en": "lobbyist",
+  "pos": "noun"
+ },
+ "lobbizm": {
+  "az": "Qərar verənlərə təsir göstərmə fəaliyyəti.",
+  "en": "lobbying",
+  "pos": "noun"
+ },
+ "lociya": {
+  "skip": "meaning not certain"
+ },
+ "loka": {
+  "skip": "meaning not certain"
+ },
+ "lokaut": {
+  "az": "Sahibkarın fəhlələri işdən kənarlaşdırması.",
+  "en": "lockout",
+  "pos": "noun"
+ },
+ "lokayata": {
+  "az": "Qədim hind materialist fəlsəfi məktəbi.",
+  "en": "Lokayata",
+  "pos": "noun"
+ },
+ "lokomasiya": {
+  "skip": "meaning not certain"
+ },
+ "loksodromiya": {
+  "az": "Bütün meridianları eyni bucaq altında kəsən xətt.",
+  "en": "rhumb line",
+  "pos": "noun"
+ },
+ "lokusiya": {
+  "skip": "meaning not certain"
+ },
+ "lollard": {
+  "az": "On dördüncü əsrdə İngiltərədə kilsəyə qarşı dini hərəkatın üzvü.",
+  "en": "Lollard",
+  "pos": "noun"
+ },
+ "lonjeron": {
+  "az": "Təyyarə qanadının əsas uzununa tiri.",
+  "en": "spar (wing)",
+  "pos": "noun"
+ },
+ "lopital": {
+  "skip": "meaning not certain"
+ },
+ "lopolit": {
+  "az": "Nimçə formalı intruziv maqmatik cisim.",
+  "en": "lopolith",
+  "pos": "noun"
+ },
+ "losman": {
+  "az": "Gəmini limana yönəldən dənizçi, loçman.",
+  "en": "maritime pilot",
+  "pos": "noun"
+ },
+ "loş-loş": {
+  "skip": "meaning not certain"
+ },
+ "loşmid": {
+  "skip": "meaning not certain"
+ },
+ "lot": {
+  "skip": "several unrelated senses"
+ },
+ "lösit": {
+  "skip": "meaning not certain"
+ },
+ "ludçu": {
+  "skip": "meaning not certain"
+ },
+ "lunit": {
+  "skip": "meaning not certain"
+ },
+ "luza": {
+  "az": "Bilyard stolunun torlu cibi.",
+  "en": "pocket (billiards)",
+  "pos": "noun"
+ },
+ "lüfə": {
+  "az": "Qara dənizdə yaşayan yırtıcı balıq.",
+  "en": "bluefish",
+  "pos": "noun"
+ },
+ "lüizit": {
+  "az": "Döyüş zəhərləyici maddəsi.",
+  "en": "lewisite",
+  "pos": "noun"
+ },
+ "lümək-lümək": {
+  "skip": "meaning not certain"
+ },
+ "lümə-lümə": {
+  "skip": "meaning not certain"
+ },
+ "lünet": {
+  "skip": "several unrelated senses"
+ },
+ "lüpus": {
+  "az": "Dərinin xroniki xəstəliyi.",
+  "en": "lupus",
+  "pos": "noun"
+ },
+ "lüteotrop": {
+  "skip": "meaning not certain"
+ },
+ "lyapis": {
+  "az": "Gümüş nitratdan hazırlanan yandırıcı dərman.",
+  "en": "lunar caustic",
+  "pos": "noun"
+ },
+ "madaroz": {
+  "az": "Kirpiklərin tökülməsi.",
+  "en": "madarosis",
+  "pos": "noun"
+ },
+ "madriqal": {
+  "az": "Kiçik lirik şeir; çoxsəsli vokal əsər.",
+  "en": "madrigal",
+  "pos": "noun"
+ },
+ "magistrat": {
+  "az": "Şəhər idarəsi; bəzi ölkələrdə hakim.",
+  "en": "magistracy; magistrate",
+  "pos": "noun"
+ },
+ "mahaqoni": {
+  "az": "Qırmızı-qəhvəyi qiymətli ağac.",
+  "en": "mahogany",
+  "pos": "noun"
+ },
+ "mahcamallı": {
+  "skip": "meaning not certain"
+ },
+ "mahmızı": {
+  "skip": "meaning not certain"
+ },
+ "majorat": {
+  "az": "Mülkün böyük oğula keçməsi qaydası.",
+  "en": "primogeniture",
+  "pos": "noun"
+ },
+ "maklüra": {
+  "az": "Narıncıyabənzər meyvəli dekorativ ağac.",
+  "en": "Osage orange",
+  "pos": "noun"
+ },
+ "makrofit": {
+  "az": "Gözlə görünən iri su bitkisi.",
+  "en": "macrophyte",
+  "pos": "noun"
+ },
+ "makrolid": {
+  "az": "Antibiotiklər qrupu.",
+  "en": "macrolide",
+  "pos": "noun"
+ },
+ "makrolit": {
+  "skip": "meaning not certain"
+ },
+ "makros": {
+  "az": "Əməliyyatlar ardıcıllığını avtomatik yerinə yetirən əmr.",
+  "en": "macro",
+  "pos": "noun"
+ },
+ "makrotoponimik": {
+  "skip": "meaning not certain"
+ },
+ "maqas": {
+  "skip": "meaning not certain"
+ },
+ "maqnali": {
+  "skip": "meaning not certain"
+ },
+ "maqnalium": {
+  "az": "Alüminium və maqnezium ərintisi.",
+  "en": "magnalium",
+  "pos": "noun"
+ },
+ "maqnetometr": {
+  "az": "Maqnit sahəsini ölçən cihaz.",
+  "en": "magnetometer",
+  "pos": "noun"
+ },
+ "maqnetometrik": {
+  "az": "Maqnit sahəsinin ölçülməsinə aid.",
+  "en": "magnetometric",
+  "pos": "adjective"
+ },
+ "maqnitobiologiya": {
+  "az": "Maqnit sahəsinin canlılara təsirini öyrənən elm.",
+  "en": "magnetobiology",
+  "pos": "noun"
+ },
+ "maqnitoelektrik": {
+  "az": "Maqnit və elektrik hadisələrinin əlaqəsinə aid.",
+  "en": "magnetoelectric",
+  "pos": "adjective"
+ },
+ "maqnitokardioqraf": {
+  "az": "Ürəyin maqnit sahəsini yazan cihaz.",
+  "en": "magnetocardiograph",
+  "pos": "noun"
+ },
+ "maqnitokardioqram": {
+  "az": "Ürəyin maqnit sahəsinin yazısı.",
+  "en": "magnetocardiogram",
+  "pos": "noun"
+ },
+ "maqnitologiya": {
+  "az": "Maqnetizmi öyrənən elm.",
+  "en": "magnetology",
+  "pos": "noun"
+ },
+ "maqnitoloq": {
+  "skip": "meaning not certain"
+ },
+ "maqnitomexanika": {
+  "skip": "meaning not certain"
+ },
+ "maqnitomexaniki": {
+  "skip": "meaning not certain"
+ },
+ "maqnitooptik": {
+  "az": "Maqnitooptikaya aid.",
+  "en": "magneto-optical",
+  "pos": "adjective"
+ },
+ "maqnitooptika": {
+  "az": "Maqnit sahəsinin optik hadisələrə təsirini öyrənən sahə.",
+  "en": "magneto-optics",
+  "pos": "noun"
+ },
+ "maqnitoradiola": {
+  "az": "Maqnitofon və radioqəbuledicidən ibarət cihaz.",
+  "en": "radio-tape recorder",
+  "pos": "noun"
+ },
+ "maqnitostatik": {
+  "az": "Sabit maqnit sahələrinə aid.",
+  "en": "magnetostatic",
+  "pos": "adjective"
+ },
+ "maqnitostatika": {
+  "az": "Sabit maqnit sahələrini öyrənən sahə.",
+  "en": "magnetostatics",
+  "pos": "noun"
+ },
+ "maqnitoterapiya": {
+  "az": "Maqnit sahəsi ilə müalicə.",
+  "en": "magnetotherapy",
+  "pos": "noun"
+ },
+ "maqnitotropizm": {
+  "skip": "meaning not certain"
+ },
+ "malakofiliya": {
+  "skip": "meaning not certain"
+ },
+ "malein": {
+  "skip": "meaning not certain"
+ },
+ "malisa": {
+  "skip": "meaning not certain"
+ },
+ "malpiki": {
+  "skip": "meaning not certain"
+ },
+ "maltusçu": {
+  "az": "Maltusçuluq tərəfdarı.",
+  "en": "Malthusian",
+  "pos": "noun"
+ },
+ "mamba": {
+  "az": "Afrikada yaşayan çox zəhərli ilan.",
+  "en": "mamba",
+  "pos": "noun"
+ },
+ "mammaliologiya": {
+  "az": "Məməliləri öyrənən elm.",
+  "en": "mammalogy",
+  "pos": "noun"
+ },
+ "mammoplastika": {
+  "az": "Süd vəzisinin forma və ölçüsünü dəyişən əməliyyat.",
+  "en": "mammoplasty",
+  "pos": "noun"
+ },
+ "mandamus": {
+  "skip": "meaning not certain"
+ },
+ "mandatari": {
+  "skip": "meaning not certain"
+ },
+ "mandola": {
+  "az": "Mandolinə oxşar iri simli alət.",
+  "en": "mandola",
+  "pos": "noun"
+ },
+ "mandraqora": {
+  "az": "Kökü insan fiquruna bənzəyən zəhərli bitki.",
+  "en": "mandrake",
+  "pos": "noun"
+ },
+ "mandril": {
+  "az": "Üzü rəngarəng Afrika meymunu.",
+  "en": "mandrill",
+  "pos": "noun"
+ }
+}

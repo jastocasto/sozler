@@ -1,0 +1,1044 @@
+{
+ "kontrasepsiya": {
+  "az": "Hamiləliyin qarşısını alma üsulları.",
+  "en": "contraception",
+  "pos": "noun"
+ },
+ "kontrastiv": {
+  "az": "Dilləri qarşılaşdırıb fərqlərini öyrənən.",
+  "en": "contrastive",
+  "pos": "adjective"
+ },
+ "kontratitul": {
+  "skip": "meaning not certain"
+ },
+ "konulyari": {
+  "skip": "meaning not certain"
+ },
+ "konvektor": {
+  "az": "Havanı konveksiya yolu ilə qızdıran cihaz.",
+  "en": "convector heater",
+  "pos": "noun"
+ },
+ "konvensionalist": {
+  "az": "Konvensionalizm tərəfdarı.",
+  "en": "conventionalist",
+  "pos": "noun"
+ },
+ "konvensionalizm": {
+  "az": "Elmi anlayışları razılaşma nəticəsi sayan fəlsəfi təlim.",
+  "en": "conventionalism",
+  "pos": "noun"
+ },
+ "konvensiya": {
+  "az": "Beynəlxalq müqavilə, saziş.",
+  "en": "convention",
+  "pos": "noun"
+ },
+ "konvergent": {
+  "az": "Bir nöqtəyə yaxınlaşan; oxşar şəraitdə oxşarlaşan.",
+  "en": "convergent",
+  "pos": "adjective"
+ },
+ "konvertə": {
+  "skip": "meaning not certain"
+ },
+ "konvoy": {
+  "az": "Mühafizə dəstəsi.",
+  "en": "convoy, escort",
+  "pos": "noun"
+ },
+ "konyunktiv": {
+  "az": "Bəzi dillərdə arzu-şərt şəkli.",
+  "en": "subjunctive",
+  "pos": "noun"
+ },
+ "konyunktiva": {
+  "az": "Gözün selikli qişası.",
+  "en": "conjunctiva",
+  "pos": "noun"
+ },
+ "kopal": {
+  "az": "Lak hazırlamaq üçün bərk təbii qatran.",
+  "en": "copal",
+  "pos": "noun"
+ },
+ "kora": {
+  "az": "Qərbi Afrikanın çoxsimli çalğı aləti.",
+  "en": "kora",
+  "pos": "noun"
+ },
+ "kord": {
+  "az": "Şin karkası üçün möhkəm sap və ya parça.",
+  "en": "cord (tyre fabric)",
+  "pos": "noun"
+ },
+ "korda": {
+  "skip": "meaning not certain"
+ },
+ "kordait": {
+  "az": "Paleozoyda yaşamış nəhəng çılpaqtoxumlu ağac.",
+  "en": "Cordaites",
+  "pos": "noun"
+ },
+ "kordon": {
+  "az": "Mühafizə zəncirli dəstəsi; sərhəd keçidi.",
+  "en": "cordon",
+  "pos": "noun"
+ },
+ "koriolis": {
+  "skip": "meaning not certain"
+ },
+ "kormofit": {
+  "az": "Gövdə, yarpaq və kökə ayrılan ali bitki.",
+  "en": "cormophyte",
+  "pos": "noun"
+ },
+ "korporasiya": {
+  "az": "Böyük birlik, şirkət.",
+  "en": "corporation",
+  "pos": "noun"
+ },
+ "korrekt": {
+  "az": "Nəzakətli, düzgün.",
+  "en": "correct, polite",
+  "pos": "adjective"
+ },
+ "kortizon": {
+  "az": "Böyrəküstü vəzin hormonu və ondan alınan dərman.",
+  "en": "cortisone",
+  "pos": "noun"
+ },
+ "korun-korun yanmaq": {
+  "skip": "meaning not certain"
+ },
+ "koruş-koruş baxmaq": {
+  "skip": "meaning not certain"
+ },
+ "koryuşka": {
+  "az": "Şimal dənizlərində yaşayan kiçik balıq.",
+  "en": "smelt (fish)",
+  "pos": "noun"
+ },
+ "kosa-kosa": {
+  "skip": "meaning not certain"
+ },
+ "kosmetologiya": {
+  "az": "Dəri və görünüşə qulluq haqqında tibb sahəsi.",
+  "en": "cosmetology",
+  "pos": "noun"
+ },
+ "kosmetoloji": {
+  "az": "Kosmetologiyaya aid.",
+  "en": "cosmetological",
+  "pos": "adjective"
+ },
+ "kosmofizik": {
+  "skip": "meaning not certain"
+ },
+ "kosmofizika": {
+  "az": "Kosmik fəzanın fiziki proseslərini öyrənən elm.",
+  "en": "space physics",
+  "pos": "noun"
+ },
+ "kosmoxronologiya": {
+  "skip": "meaning not certain"
+ },
+ "kosmoqraf": {
+  "skip": "meaning not certain"
+ },
+ "kosmopsixologiya": {
+  "az": "Kosmik uçuşda insan psixikasını öyrənən elm.",
+  "en": "space psychology",
+  "pos": "noun"
+ },
+ "kosmopsixoloq": {
+  "skip": "meaning not certain"
+ },
+ "kosmotəbabət": {
+  "az": "Kosmik tibb.",
+  "en": "space medicine",
+  "pos": "noun"
+ },
+ "kosmotoponim": {
+  "skip": "meaning not certain"
+ },
+ "kosmozoonim": {
+  "skip": "meaning not certain"
+ },
+ "kostiya": {
+  "skip": "meaning not certain"
+ },
+ "koşenil": {
+  "az": "Qırmızı boyaq alınan həşərat və həmin boyaq.",
+  "en": "cochineal",
+  "pos": "noun"
+ },
+ "koşnay": {
+  "skip": "meaning not certain"
+ },
+ "kovellin": {
+  "az": "Mis sulfiddən ibarət göy mineral.",
+  "en": "covellite",
+  "pos": "noun"
+ },
+ "koyne": {
+  "az": "Ümumi danışıq dili, ortaq dil.",
+  "en": "koine",
+  "pos": "noun"
+ },
+ "köhnə-köhnə": {
+  "az": "Çox köhnə.",
+  "en": "very old",
+  "pos": "adjective"
+ },
+ "kökyumrusu": {
+  "skip": "meaning not certain"
+ },
+ "könlüqubarlı": {
+  "az": "Könlü kədərli olan.",
+  "en": "heavy-hearted",
+  "pos": "adjective"
+ },
+ "köntöy-köntöy": {
+  "az": "Kobud şəkildə.",
+  "en": "crudely, rudely",
+  "pos": "adverb"
+ },
+ "köpüklü-köpüklü": {
+  "skip": "meaning not certain"
+ },
+ "körpəcəli": {
+  "skip": "meaning not certain"
+ },
+ "köşəkgöz": {
+  "skip": "meaning not certain"
+ },
+ "kötüklü-kötüklü": {
+  "skip": "meaning not certain"
+ },
+ "közənək": {
+  "skip": "meaning not certain"
+ },
+ "krakovyak": {
+  "az": "Polşa xalq rəqsi.",
+  "en": "krakowiak",
+  "pos": "noun"
+ },
+ "krambol": {
+  "skip": "meaning not certain"
+ },
+ "kramer": {
+  "skip": "meaning not certain"
+ },
+ "kranets": {
+  "az": "Gəmini zərbədən qoruyan yumşaq yastıq.",
+  "en": "fender (boat)",
+  "pos": "noun"
+ },
+ "kraniologiya": {
+  "az": "Kəllənin quruluşunu öyrənən elm.",
+  "en": "craniology",
+  "pos": "noun"
+ },
+ "kranioloji": {
+  "az": "Kraniologiyaya aid.",
+  "en": "craniological",
+  "pos": "adjective"
+ },
+ "kraniometr": {
+  "az": "Kəllə ölçülərini ölçən alət.",
+  "en": "craniometer",
+  "pos": "noun"
+ },
+ "kraniometrik": {
+  "az": "Kəllə ölçülməsinə aid.",
+  "en": "craniometric",
+  "pos": "adjective"
+ },
+ "kraniometriya": {
+  "az": "Kəllənin ölçülməsi.",
+  "en": "craniometry",
+  "pos": "noun"
+ },
+ "kratogen": {
+  "skip": "meaning not certain"
+ },
+ "kreasionist": {
+  "az": "Kreasionizm tərəfdarı.",
+  "en": "creationist",
+  "pos": "noun"
+ },
+ "kreasionizm": {
+  "az": "Dünyanın Allah tərəfindən yaradıldığı təlimi.",
+  "en": "creationism",
+  "pos": "noun"
+ },
+ "krek": {
+  "skip": "several unrelated senses"
+ },
+ "kren": {
+  "az": "Gəminin və ya təyyarənin yana əyilməsi.",
+  "en": "list, heel, bank",
+  "pos": "noun"
+ },
+ "krenometr": {
+  "skip": "meaning not certain"
+ },
+ "kreozot": {
+  "az": "Ağac qatranından alınan antiseptik maye.",
+  "en": "creosote",
+  "pos": "noun"
+ },
+ "kres": {
+  "skip": "meaning not certain"
+ },
+ "kretin": {
+  "az": "Kretinizmdən əziyyət çəkən şəxs; söyüş kimi axmaq.",
+  "en": "cretin",
+  "pos": "noun"
+ },
+ "kreton": {
+  "az": "Mebel üzlüyü üçün sıx pambıq parça.",
+  "en": "cretonne",
+  "pos": "noun"
+ },
+ "kriminalçı": {
+  "skip": "meaning not certain"
+ },
+ "kriminalçı-ekspert": {
+  "skip": "meaning not certain"
+ },
+ "kriminalistik": {
+  "az": "Kriminalistikaya aid.",
+  "en": "forensic",
+  "pos": "adjective"
+ },
+ "krinolin": {
+  "az": "Keçmişdə ətəyi genişləndirmək üçün çənbərli alt ətək.",
+  "en": "crinoline",
+  "pos": "noun"
+ },
+ "kriofil": {
+  "az": "Soyuq şəraitdə yaşamağa uyğunlaşmış canlı.",
+  "en": "cryophile",
+  "pos": "noun"
+ },
+ "kriolit": {
+  "az": "Alüminium istehsalında işlədilən flüorlu mineral.",
+  "en": "cryolite",
+  "pos": "noun"
+ },
+ "kriosfer": {
+  "az": "Yer kürəsinin buz və donmuş torpaq qatı.",
+  "en": "cryosphere",
+  "pos": "noun"
+ },
+ "kriostat": {
+  "az": "Çox aşağı temperaturu saxlayan qurğu.",
+  "en": "cryostat",
+  "pos": "noun"
+ },
+ "kriotron": {
+  "skip": "meaning not certain"
+ },
+ "kriptofit": {
+  "az": "Tumurcuqları torpaq altında və ya suda qışlayan bitki.",
+  "en": "cryptophyte",
+  "pos": "noun"
+ },
+ "kriptorxizm": {
+  "az": "Xayanın xayalığa enməməsi.",
+  "en": "cryptorchidism",
+  "pos": "noun"
+ },
+ "kriptozoy": {
+  "az": "Kembridən əvvəlki geoloji dövr.",
+  "en": "Cryptozoic",
+  "pos": "noun"
+ },
+ "kristalloqraf": {
+  "az": "Kristalloqrafiya üzrə mütəxəssis.",
+  "en": "crystallographer",
+  "pos": "noun"
+ },
+ "kroket": {
+  "az": "Topu taxta çəkiclə qapılardan keçirmə oyunu; qızardılmış qiymə köftəsi.",
+  "en": "croquet; croquette",
+  "pos": "noun"
+ },
+ "krokus": {
+  "az": "Erkən yazda açan soğanaqlı çiçək, zəfəran.",
+  "en": "crocus",
+  "pos": "noun"
+ },
+ "kronqlas": {
+  "az": "Az sındırıcı optik şüşə.",
+  "en": "crown glass",
+  "pos": "noun"
+ },
+ "kropper": {
+  "skip": "meaning not certain"
+ },
+ "kros-assambler": {
+  "skip": "meaning not certain"
+ },
+ "krup": {
+  "az": "Qırtlağın boğucu iltihabı.",
+  "en": "croup",
+  "pos": "noun"
+ },
+ "kryaj": {
+  "az": "Alçaq dağ silsiləsi.",
+  "en": "low ridge",
+  "pos": "noun"
+ },
+ "ksenobiotik": {
+  "az": "Canlı orqanizm üçün yad kimyəvi maddə.",
+  "en": "xenobiotic",
+  "pos": "noun"
+ },
+ "ksenoqamiya": {
+  "az": "Bir bitkinin başqa bitkinin tozcuğu ilə tozlanması.",
+  "en": "xenogamy",
+  "pos": "noun"
+ },
+ "ksenolit": {
+  "az": "Maqmatik süxurda yad süxur parçası.",
+  "en": "xenolith",
+  "pos": "noun"
+ },
+ "ksenotransplantasiya": {
+  "az": "Başqa növdən orqan köçürülməsi.",
+  "en": "xenotransplantation",
+  "pos": "noun"
+ },
+ "ksilit": {
+  "az": "Şəkər əvəzedicisi kimi işlədilən spirt.",
+  "en": "xylitol",
+  "pos": "noun"
+ },
+ "ksilofobiya": {
+  "az": "Meşədən və ya ağacdan xəstə qorxu.",
+  "en": "xylophobia",
+  "pos": "noun"
+ },
+ "ksiloqraf": {
+  "az": "Ağac üzərində qravüra ustası.",
+  "en": "wood engraver",
+  "pos": "noun"
+ },
+ "ksiloqravür": {
+  "az": "Ağac üzərində həkk olunmuş qravüra.",
+  "en": "woodcut",
+  "pos": "noun"
+ },
+ "ksul": {
+  "skip": "meaning not certain"
+ },
+ "ktematonim": {
+  "skip": "meaning not certain"
+ },
+ "kubabənzər": {
+  "az": "Kuba bənzəyən, kub şəklində.",
+  "en": "cube-like",
+  "pos": "adjective"
+ },
+ "kubrik": {
+  "az": "Gəmidə heyətin yataq otağı.",
+  "en": "crew's quarters",
+  "pos": "noun"
+ },
+ "kulbaba": {
+  "skip": "meaning not certain"
+ },
+ "kuler": {
+  "az": "Soyuducu ventilyator; su soyudan qurğu.",
+  "en": "cooler",
+  "pos": "noun"
+ },
+ "kulonometr": {
+  "az": "Elektrik yükünün miqdarını ölçən cihaz.",
+  "en": "coulometer",
+  "pos": "noun"
+ },
+ "kulonometriya": {
+  "az": "Elektrik miqdarına görə maddə təyini üsulu.",
+  "en": "coulometry",
+  "pos": "noun"
+ },
+ "kulturizm": {
+  "az": "Bodibildinq.",
+  "en": "bodybuilding",
+  "pos": "noun"
+ },
+ "kumja": {
+  "skip": "meaning not certain"
+ },
+ "kumpir": {
+  "az": "İçi müxtəlif əlavələrlə doldurulmuş bişmiş kartof.",
+  "en": "kumpir (stuffed baked potato)",
+  "pos": "noun"
+ },
+ "kunq-fu": {
+  "az": "Çin döyüş sənəti.",
+  "en": "kung fu",
+  "pos": "noun"
+ },
+ "kupfer": {
+  "skip": "meaning not certain"
+ },
+ "kuporos": {
+  "az": "Bəzi metalların sulfat duzu, göydaş.",
+  "en": "vitriol",
+  "pos": "noun"
+ },
+ "kupür": {
+  "az": "Mətndən çıxarılmış hissə; qiymətli kağızın nominalı.",
+  "en": "cut; denomination",
+  "pos": "noun"
+ },
+ "kurare": {
+  "az": "Ox zəhəri kimi işlədilən bitki zəhəri.",
+  "en": "curare",
+  "pos": "noun"
+ },
+ "kuray": {
+  "az": "Başqırd xalq nəfəs aləti.",
+  "en": "kurai (flute)",
+  "pos": "noun"
+ },
+ "kurbet": {
+  "skip": "meaning not certain"
+ },
+ "kurçatovium": {
+  "az": "Süni yolla alınmış radioaktiv kimyəvi element, rezerfordium.",
+  "en": "kurchatovium (rutherfordium)",
+  "pos": "noun"
+ },
+ "kurkum": {
+  "az": "Zərdəçal.",
+  "en": "turmeric",
+  "pos": "noun"
+ },
+ "kurqan": {
+  "az": "Qədim qəbir üstündə torpaq təpə.",
+  "en": "burial mound",
+  "pos": "noun"
+ },
+ "kurqan-muzey": {
+  "skip": "meaning not certain"
+ },
+ "kurortologiya": {
+  "az": "Kurort amillərinin müalicə təsirini öyrənən elm.",
+  "en": "balneology",
+  "pos": "noun"
+ },
+ "kurortoloq": {
+  "az": "Kurortologiya üzrə həkim.",
+  "en": "balneologist",
+  "pos": "noun"
+ },
+ "kurtaj": {
+  "az": "Vasitəçiyə verilən haqq.",
+  "en": "brokerage fee",
+  "pos": "noun"
+ },
+ "kurtuaz": {
+  "az": "Nəzakətli, saray adabına uyğun.",
+  "en": "courtly",
+  "pos": "adjective"
+ },
+ "kurtye": {
+  "skip": "meaning not certain"
+ },
+ "kuruş": {
+  "az": "Türkiyə lirəsinin yüzdə biri.",
+  "en": "kuruş",
+  "pos": "noun"
+ },
+ "kuskokvium": {
+  "skip": "meaning not certain"
+ },
+ "kustod": {
+  "skip": "meaning not certain"
+ },
+ "kutor": {
+  "skip": "meaning not certain"
+ },
+ "kücü": {
+  "skip": "meaning not certain"
+ },
+ "kükrək-kükrək": {
+  "skip": "meaning not certain"
+ },
+ "küllü-küllü": {
+  "skip": "meaning not certain"
+ },
+ "küret": {
+  "az": "Cərrahi qaşıq.",
+  "en": "curette",
+  "pos": "noun"
+ },
+ "kürənbaş": {
+  "az": "Başı kürən olan.",
+  "en": "red-headed",
+  "pos": "adjective"
+ },
+ "kürənbel": {
+  "skip": "meaning not certain"
+ },
+ "kürənsaç": {
+  "az": "Saçı kürən olan.",
+  "en": "red-haired",
+  "pos": "adjective"
+ },
+ "küri": {
+  "az": "Radioaktivlik vahidi.",
+  "en": "curie",
+  "pos": "noun"
+ },
+ "küriterapiya": {
+  "skip": "meaning not certain"
+ },
+ "kürkür": {
+  "skip": "meaning not certain"
+ },
+ "kürvimetr": {
+  "az": "Xəritədə əyri xətlərin uzunluğunu ölçən cihaz.",
+  "en": "curvimeter",
+  "pos": "noun"
+ },
+ "küsdümotukimi": {
+  "skip": "meaning not certain"
+ },
+ "küskün-küskün": {
+  "az": "Küskün halda.",
+  "en": "sulkily",
+  "pos": "adverb"
+ },
+ "küstüşam": {
+  "skip": "meaning not certain"
+ },
+ "küsülü-küsülü": {
+  "skip": "meaning not certain"
+ },
+ "küt-küt": {
+  "skip": "meaning not certain"
+ },
+ "küvəz": {
+  "az": "Vaxtından əvvəl doğulmuş körpələr üçün inkubator.",
+  "en": "incubator (for newborns)",
+  "pos": "noun"
+ },
+ "kvadrirem": {
+  "skip": "meaning not certain"
+ },
+ "kvadrokopter": {
+  "az": "Dörd pərli pilotsuz uçan aparat.",
+  "en": "quadcopter",
+  "pos": "noun"
+ },
+ "kvadrupl-dabl": {
+  "skip": "meaning not certain"
+ },
+ "kvalimetr": {
+  "skip": "meaning not certain"
+ },
+ "kvalimetriya": {
+  "az": "Məhsul keyfiyyətinin kəmiyyətcə qiymətləndirilməsi.",
+  "en": "qualimetry",
+  "pos": "noun"
+ },
+ "kvarsit": {
+  "az": "Kvars qumdaşından əmələ gəlmiş bərk süxur.",
+  "en": "quartzite",
+  "pos": "noun"
+ },
+ "kvazi": {
+  "skip": "meaning not certain"
+ },
+ "kverşlaq": {
+  "az": "Mədəndə süxur qatlarını kəsən üfüqi qazma.",
+  "en": "crosscut",
+  "pos": "noun"
+ },
+ "kvietist": {
+  "az": "Kvietizm tərəfdarı.",
+  "en": "quietist",
+  "pos": "noun"
+ },
+ "kvietizm": {
+  "az": "Passiv təslimiyyəti təbliğ edən dini-mistik cərəyan.",
+  "en": "quietism",
+  "pos": "noun"
+ },
+ "kvintesensiya": {
+  "az": "Əsas mahiyyət, ən mühüm cəhət.",
+  "en": "quintessence",
+  "pos": "noun"
+ },
+ "kyat": {
+  "az": "Myanmanın pul vahidi.",
+  "en": "kyat",
+  "pos": "noun"
+ },
+ "kyokusinkay": {
+  "az": "Karatenin təmaslı üslubu.",
+  "en": "Kyokushin karate",
+  "pos": "noun"
+ },
+ "qabarıq-qabarıq": {
+  "az": "Qabarıqları olan, kələ-kötür.",
+  "en": "bumpy",
+  "pos": "adjective"
+ },
+ "qabıqlı-qabıqlı": {
+  "az": "Qabığı soyulmamış halda.",
+  "en": "unpeeled",
+  "pos": "adverb"
+ },
+ "qabro-plagioqranit": {
+  "skip": "meaning not certain"
+ },
+ "qac-qac doğramaq": {
+  "skip": "meaning not certain"
+ },
+ "qaçançayır": {
+  "skip": "meaning not certain"
+ },
+ "qafel": {
+  "skip": "meaning not certain"
+ },
+ "qafel-qardel": {
+  "skip": "meaning not certain"
+ },
+ "qafil-qafil": {
+  "az": "Xəbərsiz, gözlənilmədən.",
+  "en": "unawares",
+  "pos": "adverb"
+ },
+ "qafqazdilli": {
+  "az": "Qafqaz dillərində danışan.",
+  "en": "Caucasian-speaking",
+  "pos": "adjective"
+ },
+ "qaqar": {
+  "skip": "meaning not certain"
+ },
+ "qalaksit": {
+  "skip": "meaning not certain"
+ },
+ "qalakturon": {
+  "skip": "meaning not certain"
+ },
+ "qalça": {
+  "skip": "meaning not certain"
+ },
+ "qalça-bel": {
+  "skip": "meaning not certain"
+ },
+ "qalça-daraq": {
+  "skip": "meaning not certain"
+ },
+ "qalça-korbağırsaq": {
+  "skip": "meaning not certain"
+ },
+ "qalça-qasıq": {
+  "skip": "meaning not certain"
+ },
+ "qalera": {
+  "az": "Avarlı qədim hərbi gəmi.",
+  "en": "galley",
+  "pos": "noun"
+ },
+ "qalınbaldırlı": {
+  "az": "Baldırları qalın olan.",
+  "en": "thick-calved",
+  "pos": "adjective"
+ },
+ "qalınca": {
+  "az": "Bir qədər qalın.",
+  "en": "rather thick",
+  "pos": "adjective"
+ },
+ "qalvanomaqnit": {
+  "az": "Elektrik cərəyanı ilə maqnit sahəsinin qarşılıqlı təsirinə aid.",
+  "en": "galvanomagnetic",
+  "pos": "adjective"
+ },
+ "qalvanometrik": {
+  "az": "Qalvanometrlə ölçməyə aid.",
+  "en": "galvanometric",
+  "pos": "adjective"
+ },
+ "qalvanometriya": {
+  "skip": "meaning not certain"
+ },
+ "qalvanoplastik": {
+  "az": "Qalvanoplastikaya aid.",
+  "en": "electroforming",
+  "pos": "adjective"
+ },
+ "qalvanotexnika": {
+  "az": "Elektroliz yolu ilə metal örtüklər çəkmə texnikası.",
+  "en": "electroplating",
+  "pos": "noun"
+ },
+ "qambit": {
+  "az": "Şahmatda üstünlük üçün fiqur qurban verilən debüt.",
+  "en": "gambit",
+  "pos": "noun"
+ },
+ "qametoqamiya": {
+  "skip": "meaning not certain"
+ },
+ "qametosit": {
+  "az": "Cinsi hüceyrələri əmələ gətirən hüceyrə.",
+  "en": "gametocyte",
+  "pos": "noun"
+ },
+ "qammaqrafiya": {
+  "az": "Qamma-şüalarla müayinə və şəkilçəkmə.",
+  "en": "gamma radiography",
+  "pos": "noun"
+ },
+ "qammasizm": {
+  "az": "Q səsinin qüsurlu tələffüzü.",
+  "en": "gammacism",
+  "pos": "noun"
+ },
+ "qanaş": {
+  "skip": "meaning not certain"
+ },
+ "qanit": {
+  "az": "Sink və alüminium oksidindən ibarət mineral.",
+  "en": "gahnite",
+  "pos": "noun"
+ },
+ "qanqli": {
+  "az": "Orta əsrlərdə türk tayfası.",
+  "en": "Qangli (Turkic tribe)",
+  "pos": "noun"
+ },
+ "qanlı-qanlı": {
+  "skip": "meaning not certain"
+ },
+ "qanmaz-qanmaz": {
+  "az": "Anlamazcasına.",
+  "en": "obtusely",
+  "pos": "adverb"
+ },
+ "qansız-qansız": {
+  "skip": "meaning not certain"
+ },
+ "qanunsuz-qanunsuz": {
+  "az": "Qanunsuz yolla.",
+  "en": "illegally",
+  "pos": "adverb"
+ },
+ "qara-ağ": {
+  "az": "Ağ-qara.",
+  "en": "black-and-white",
+  "pos": "adjective"
+ },
+ "qaracadil": {
+  "skip": "meaning not certain"
+ },
+ "qaradalaq etmək": {
+  "skip": "meaning not certain"
+ },
+ "qaradeyin": {
+  "skip": "meaning not certain"
+ },
+ "qaradöş": {
+  "az": "Döşü qara olan.",
+  "en": "black-breasted",
+  "pos": "adjective"
+ },
+ "qaragözlük etmək": {
+  "skip": "meaning not certain"
+ },
+ "qarağan": {
+  "skip": "meaning not certain"
+ },
+ "qaramac": {
+  "skip": "meaning not certain"
+ },
+ "qaraürək": {
+  "az": "Qəlbi qara, kinli.",
+  "en": "black-hearted",
+  "pos": "adjective"
+ },
+ "qaraüz": {
+  "az": "Üzü qara olan; biabır olmuş.",
+  "en": "dark-faced; disgraced",
+  "pos": "adjective"
+ },
+ "qarda": {
+  "skip": "meaning not certain"
+ },
+ "qarevait": {
+  "skip": "meaning not certain"
+ },
+ "qarmaqca": {
+  "skip": "meaning not certain"
+ },
+ "qarpacaq": {
+  "skip": "meaning not certain"
+ },
+ "qaskoneyd": {
+  "skip": "meaning not certain"
+ },
+ "qastinqsit": {
+  "skip": "meaning not certain"
+ },
+ "qastroezofaqial": {
+  "az": "Mədə və qida borusuna aid.",
+  "en": "gastroesophageal",
+  "pos": "adjective"
+ },
+ "qausmanit": {
+  "az": "Manqan oksidindən ibarət mineral.",
+  "en": "hausmannite",
+  "pos": "noun"
+ },
+ "qavot": {
+  "az": "Köhnə fransız rəqsi.",
+  "en": "gavotte",
+  "pos": "noun"
+ },
+ "qayım-qayım": {
+  "az": "Möhkəm-möhkəm.",
+  "en": "firmly",
+  "pos": "adverb"
+ },
+ "qaynar-qaynar": {
+  "az": "Qaynar halda, isti-isti.",
+  "en": "piping hot",
+  "pos": "adverb"
+ },
+ "qayo": {
+  "skip": "meaning not certain"
+ },
+ "qayot": {
+  "az": "Yastı zirvəli sualtı dağ.",
+  "en": "guyot",
+  "pos": "noun"
+ },
+ "qazabənzər": {
+  "az": "Qaza bənzəyən.",
+  "en": "gas-like, gaseous",
+  "pos": "adjective"
+ },
+ "qazəmələgətirici": {
+  "az": "Qaz əmələ gətirən.",
+  "en": "gas-forming",
+  "pos": "adjective"
+ },
+ "qazifer": {
+  "skip": "meaning not certain"
+ },
+ "qazmaqsız": {
+  "skip": "meaning not certain"
+ },
+ "qazoanalizator": {
+  "az": "Qaz qarışığının tərkibini təyin edən cihaz.",
+  "en": "gas analyser",
+  "pos": "noun"
+ },
+ "qeydəalınma": {
+  "az": "Qeydiyyata alınma.",
+  "en": "registration",
+  "pos": "noun"
+ },
+ "qeyri-holonom": {
+  "skip": "meaning not certain"
+ },
+ "qeyri-iş": {
+  "skip": "meaning not certain"
+ },
+ "qeysəriyyə": {
+  "skip": "meaning not certain"
+ },
+ "qeyzerit qaynağı": {
+  "skip": "meaning not certain"
+ },
+ "qədid": {
+  "az": "Qurudulmuş duzlu ət.",
+  "en": "dried salted meat",
+  "pos": "noun"
+ },
+ "qələvi-bazaltoid": {
+  "skip": "meaning not certain"
+ },
+ "qələvi-qabroid": {
+  "skip": "meaning not certain"
+ },
+ "qəmsiz-qəmsiz": {
+  "az": "Heç bir qəm-qüssə olmadan.",
+  "en": "carefree",
+  "pos": "adverb"
+ },
+ "qəni-qəni": {
+  "skip": "meaning not certain"
+ },
+ "qəribə-qəribə": {
+  "az": "Təəccüblü şəkildə.",
+  "en": "strangely",
+  "pos": "adverb"
+ },
+ "qəşş etmək": {
+  "az": "Huşunu itirmək.",
+  "en": "to faint",
+  "pos": "verb"
+ },
+ "qət etmək": {
+  "az": "Kəsmək; yolu keçmək; qərara gəlmək.",
+  "en": "to cut; to cover (a distance)",
+  "pos": "verb"
+ },
+ "qətimkan tədbiri": {
+  "az": "Təqsirləndirilən şəxsin qaçmasının qarşısını alan tədbir.",
+  "en": "preventive measure",
+  "pos": "noun"
+ },
+ "qəzəbli-qəzəbli": {
+  "az": "Qəzəblə.",
+  "en": "angrily",
+  "pos": "adverb"
+ },
+ "qıcpula": {
+  "skip": "meaning not certain"
+ },
+ "qıpıqgöz": {
+  "skip": "meaning not certain"
+ },
+ "qırmabığ": {
+  "skip": "meaning not certain"
+ },
+ "qırmaqlıq": {
+  "skip": "meaning not certain"
+ },
+ "qırmızıbaş": {
+  "az": "Başı qırmızı olan.",
+  "en": "red-headed",
+  "pos": "adjective"
+ },
+ "qırovlu-qırovlu": {
+  "skip": "meaning not certain"
+ },
+ "qıs vurmaq": {
+  "skip": "meaning not certain"
+ },
+ "qısayol": {
+  "az": "Qısa yol; proqramı tez açmaq üçün işarə.",
+  "en": "shortcut",
+  "pos": "noun"
+ },
+ "qıvırcıqlı": {
+  "az": "Qıvrım, buruq.",
+  "en": "curly",
+  "pos": "adjective"
+ }
+}
