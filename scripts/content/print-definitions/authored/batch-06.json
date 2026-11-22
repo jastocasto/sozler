@@ -1,0 +1,1162 @@
+{
+"temporal": {
+"az": "Zamana aid; gicgah nahiyəsinə aid.",
+"en": "temporal",
+"pos": "adjective"
+},
+"tentləmək": {
+"az": "Üstünə tent çəkmək.",
+"en": "to cover with an awning",
+"pos": "verb"
+},
+"terminşünas": {
+"az": "Terminləri öyrənən mütəxəssis.",
+"en": "terminologist",
+"pos": "noun"
+},
+"termostimullaşmaq": {
+"skip": "meaning not known with confidence"
+},
+"teyləşmək": {
+"skip": "meaning not known with confidence"
+},
+"təbiətsevər": {
+"az": "Təbiəti sevən.",
+"en": "nature lover",
+"pos": "noun"
+},
+"təcridedici": {
+"az": "Təcrid edən.",
+"en": "isolating",
+"pos": "adjective"
+},
+"təxəllüsşünas": {
+"az": "Təxəllüsləri öyrənən alim.",
+"en": "scholar of pen names",
+"pos": "noun"
+},
+"təxiredilməz": {
+"az": "Təxirə salına bilməyən, təcili.",
+"en": "urgent",
+"pos": "adjective"
+},
+"təxribedici": {
+"az": "Təxribat törədən.",
+"en": "subversive",
+"pos": "adjective"
+},
+"təklifyönümlü": {
+"az": "Təklifə əsaslanan.",
+"en": "supply-side",
+"pos": "adjective"
+},
+"təkrari": {
+"az": "Təkrar olunan.",
+"en": "repeated, secondary",
+"pos": "adjective"
+},
+"təqləşdirmək": {
+"skip": "meaning not known with confidence"
+},
+"təqlidi": {
+"az": "Təqlidə əsaslanan.",
+"en": "imitative",
+"pos": "adjective"
+},
+"təlaşlanmaq": {
+"az": "Təlaşa düşmək.",
+"en": "to become anxious",
+"pos": "verb"
+},
+"tələbyönümlü": {
+"az": "Tələbə əsaslanan.",
+"en": "demand-driven",
+"pos": "adjective"
+},
+"təlimatlanmaq": {
+"az": "Təlimat almaq.",
+"en": "to be briefed",
+"pos": "verb"
+},
+"təlimlənmək": {
+"az": "Təlim keçmək.",
+"en": "to be trained",
+"pos": "verb"
+},
+"təməllənmək": {
+"az": "Təməli qoyulmaq.",
+"en": "to be founded",
+"pos": "verb"
+},
+"tənləmək": {
+"az": "Tən etmək, bərabərləşdirmək.",
+"en": "to even out",
+"pos": "verb"
+},
+"təpcəkləmək": {
+"skip": "meaning not known with confidence"
+},
+"tərbiyələtmək": {
+"az": "Başqasına tərbiyə etdirmək.",
+"en": "to have brought up",
+"pos": "verb"
+},
+"tərəfbaz": {
+"az": "Tərəfkeşlik edən.",
+"en": "partisan",
+"pos": "noun"
+},
+"təzkirəşünas": {
+"az": "Təzkirələri öyrənən alim.",
+"en": "scholar of tazkiras",
+"pos": "noun"
+},
+"tıxanıq": {
+"az": "Tıxanmış.",
+"en": "blocked",
+"pos": "adjective"
+},
+"ticari": {
+"az": "Ticarətə aid.",
+"en": "commercial",
+"pos": "adjective"
+},
+"tikanuc": {
+"az": "Ucu tikanlı.",
+"en": "thorn-tipped",
+"pos": "adjective"
+},
+"tikici": {
+"az": "Tikən.",
+"en": "builder",
+"pos": "noun"
+},
+"tirələmək": {
+"skip": "meaning not known with confidence"
+},
+"titrədilmək": {
+"az": "Titrəməyə məcbur edilmək.",
+"en": "to be made to tremble",
+"pos": "verb"
+},
+"toxtanmaq": {
+"az": "Sakitləşmək.",
+"en": "to calm down",
+"pos": "verb"
+},
+"toxumşünas": {
+"az": "Toxumları öyrənən mütəxəssis.",
+"en": "seed specialist",
+"pos": "noun"
+},
+"toksiki": {
+"az": "Zəhərli.",
+"en": "toxic",
+"pos": "adjective"
+},
+"toksikoloq": {
+"az": "Zəhərləri öyrənən mütəxəssis.",
+"en": "toxicologist",
+"pos": "noun"
+},
+"tolerant": {
+"az": "Dözümlü.",
+"en": "tolerant",
+"pos": "adjective"
+},
+"topbaz": {
+"az": "Top oyununu sevən.",
+"en": "ball-game lover",
+"pos": "noun"
+},
+"toponimşünas": {
+"az": "Yer adlarını öyrənən alim.",
+"en": "toponymist",
+"pos": "noun"
+},
+"toybaz": {
+"az": "Toy-düyünü sevən.",
+"en": "lover of weddings",
+"pos": "noun"
+},
+"toylamaq": {
+"az": "Toy etmək.",
+"en": "to hold a wedding",
+"pos": "verb"
+},
+"transsendent": {
+"az": "Təcrübədən kənar, ötəri.",
+"en": "transcendent",
+"pos": "adjective"
+},
+"triboelektrik": {
+"az": "Sürtünmədən yaranan elektrik.",
+"en": "triboelectricity",
+"pos": "noun"
+},
+"trixinelloz": {
+"az": "Trixinellaların törətdiyi parazitar xəstəlik.",
+"en": "trichinellosis",
+"pos": "noun"
+},
+"trivial": {
+"az": "Adi, bayağı.",
+"en": "trivial",
+"pos": "adjective"
+},
+"trüfel": {
+"az": "Yeraltı yeməli göbələk.",
+"en": "truffle",
+"pos": "noun"
+},
+"tualetlənmək": {
+"az": "Bəzənib-düzənmək.",
+"en": "to make one's toilet",
+"pos": "verb"
+},
+"tufanlamaq": {
+"az": "Tufan qopmaq.",
+"en": "to storm",
+"pos": "verb"
+},
+"tulladılmaq": {
+"az": "Tullanmağa məcbur edilmək.",
+"en": "to be thrown",
+"pos": "verb"
+},
+"turançı": {
+"az": "Turançılıq tərəfdarı.",
+"en": "Turanist",
+"pos": "noun"
+},
+"turanpərəst": {
+"az": "Turana pərəstiş edən.",
+"en": "Turanist",
+"pos": "noun"
+},
+"turansevər": {
+"az": "Turanı sevən.",
+"en": "Turanist",
+"pos": "adjective"
+},
+"turanşünas": {
+"az": "Turan xalqlarını öyrənən alim.",
+"en": "Turanologist",
+"pos": "noun"
+},
+"turboventilyator": {
+"az": "Turbinlə işləyən ventilyator.",
+"en": "turbofan",
+"pos": "noun"
+},
+"tutulğan": {
+"az": "Tez tutulan, kəkələyən.",
+"en": "stammering",
+"pos": "adjective"
+},
+"tükəbənzər": {
+"az": "Tükə bənzər.",
+"en": "hair-like",
+"pos": "adjective"
+},
+"tükəmək": {
+"skip": "meaning not known with confidence"
+},
+"tülkülənib-yaltaqlanmaq": {
+"az": "Tülkü kimi yaltaqlanmaq.",
+"en": "to fawn slyly",
+"pos": "verb"
+},
+"tünüklətmək": {
+"skip": "meaning not known with confidence"
+},
+"türbətlənmək": {
+"skip": "meaning not known with confidence"
+},
+"türksevər": {
+"az": "Türkləri sevən.",
+"en": "Turkophile",
+"pos": "noun"
+},
+"tütor": {
+"az": "Fərdi müəllim, mentor.",
+"en": "tutor",
+"pos": "noun"
+},
+"üçləşmək": {
+"az": "Üç olmaq.",
+"en": "to become three",
+"pos": "verb"
+},
+"üçnövçü": {
+"skip": "meaning not known with confidence"
+},
+"ünləşmək": {
+"az": "Bir-birinə səslənmək.",
+"en": "to call to each other",
+"pos": "verb"
+},
+"ürəyiyanan": {
+"az": "Qayğıkeş.",
+"en": "caring",
+"pos": "adjective"
+},
+"ürpətmək": {
+"az": "Ürpəndirmək.",
+"en": "to give the shivers",
+"pos": "verb"
+},
+"ürpmək": {
+"skip": "meaning not known with confidence"
+},
+"üz-astar": {
+"az": "Üz və astar.",
+"en": "outside and lining",
+"pos": "noun"
+},
+"üzgünləmək": {
+"skip": "meaning not known with confidence"
+},
+"üzlədilmək": {
+"az": "Üz çəkdirilmək.",
+"en": "to be faced",
+"pos": "verb"
+},
+"üzübərk": {
+"az": "Həyasız.",
+"en": "brazen",
+"pos": "adjective"
+},
+"üzvlənmək": {
+"az": "Üzv olmaq.",
+"en": "to become a member",
+"pos": "verb"
+},
+"vahidşünas": {
+"az": "Əliağa Vahidin yaradıcılığını öyrənən alim.",
+"en": "scholar of Aliagha Vahid",
+"pos": "noun"
+},
+"vaxmistr": {
+"az": "Süvaridə kiçik komandir rütbəsi.",
+"en": "sergeant (cavalry)",
+"pos": "noun"
+},
+"vaqifşünas": {
+"az": "Molla Pənah Vaqifin yaradıcılığını öyrənən alim.",
+"en": "scholar of Vagif",
+"pos": "noun"
+},
+"vannalanmaq": {
+"az": "Vannada çimmək.",
+"en": "to take a bath",
+"pos": "verb"
+},
+"variativ": {
+"az": "Dəyişkən, variantlı.",
+"en": "variable",
+"pos": "adjective"
+},
+"vazehşünas": {
+"az": "Mirzə Şəfi Vazehin yaradıcılığını öyrənən alim.",
+"en": "scholar of Vazeh",
+"pos": "noun"
+},
+"vədəbaz": {
+"az": "Boş vəd verən.",
+"en": "promiser",
+"pos": "noun"
+},
+"vikipediya": {
+"az": "Könüllülərin yazdığı açıq internet ensiklopediyası.",
+"en": "Wikipedia",
+"pos": "noun"
+},
+"virulent": {
+"az": "Xəstəlik törətmə qabiliyyəti yüksək olan.",
+"en": "virulent",
+"pos": "adjective"
+},
+"vitse-çempion": {
+"az": "İkinci yer tutan.",
+"en": "runner-up",
+"pos": "noun"
+},
+"vitse-direktor": {
+"az": "Direktor müavini.",
+"en": "deputy director",
+"pos": "noun"
+},
+"vitse-qubernator": {
+"az": "Qubernator müavini.",
+"en": "vice-governor",
+"pos": "noun"
+},
+"vizaj": {
+"az": "Üz makiyajı.",
+"en": "make-up (face)",
+"pos": "noun"
+},
+"vokalçı": {
+"az": "Müğənni.",
+"en": "vocalist",
+"pos": "noun"
+},
+"volontyor": {
+"az": "Könüllü.",
+"en": "volunteer",
+"pos": "noun"
+},
+"vunderkind": {
+"az": "Erkən istedad göstərən uşaq.",
+"en": "child prodigy",
+"pos": "noun"
+},
+"vurğunşünas": {
+"az": "Səməd Vurğunun yaradıcılığını öyrənən alim.",
+"en": "scholar of Samad Vurgun",
+"pos": "noun"
+},
+"şafran": {
+"az": "Zəfəran.",
+"en": "saffron",
+"pos": "noun"
+},
+"şahmatsevər": {
+"az": "Şahmatı sevən.",
+"en": "chess lover",
+"pos": "noun"
+},
+"şaxtayadavamsız": {
+"az": "Şaxtaya davam gətirməyən.",
+"en": "not frost-resistant",
+"pos": "adjective"
+},
+"şaxtayadözümlü": {
+"az": "Şaxtaya dözən.",
+"en": "frost-tolerant",
+"pos": "adjective"
+},
+"şaxtayadözümsüz": {
+"az": "Şaxtaya dözməyən.",
+"en": "frost-sensitive",
+"pos": "adjective"
+},
+"şaqqamaq": {
+"skip": "meaning not known with confidence"
+},
+"şappıldadılmaq": {
+"az": "Şappıldatdırılmaq.",
+"en": "to be made to splash",
+"pos": "verb"
+},
+"şekspirşünas": {
+"az": "Şekspirin yaradıcılığını öyrənən alim.",
+"en": "Shakespeare scholar",
+"pos": "noun"
+},
+"şeytanpərəst": {
+"az": "Şeytana sitayiş edən.",
+"en": "Satanist",
+"pos": "noun"
+},
+"şəfəqlətmək": {
+"az": "Şəfəqləndirmək.",
+"en": "to make radiant",
+"pos": "verb"
+},
+"şəffaflatmaq": {
+"az": "Şəffaf etmək.",
+"en": "to make transparent",
+"pos": "verb"
+},
+"şəkilçiləşdirilmək": {
+"az": "Şəkilçiyə çevrilmək.",
+"en": "to be grammaticalized as a suffix",
+"pos": "verb"
+},
+"şənlikləndirmək": {
+"az": "Şənlik etmək, şənləndirmək.",
+"en": "to cheer up",
+"pos": "verb"
+},
+"şənüzlü": {
+"az": "Üzü şən.",
+"en": "cheerful-looking",
+"pos": "adjective"
+},
+"şərəflətmək": {
+"az": "Şərəfləndirmək.",
+"en": "to honour",
+"pos": "verb"
+},
+"şərtlənmək": {
+"az": "Şərtlə bağlanmaq.",
+"en": "to be conditioned",
+"pos": "verb"
+},
+"şiferaltı": {
+"az": "Şifer altında olan.",
+"en": "under the slate roof",
+"pos": "adjective"
+},
+"şirnikləndirilmək": {
+"az": "Şirnikdirilmək.",
+"en": "to be tempted",
+"pos": "verb"
+},
+"şirniklətmək": {
+"az": "Şirnikdirmək.",
+"en": "to tempt",
+"pos": "verb"
+},
+"şistlənmək": {
+"skip": "meaning not known with confidence"
+},
+"şişbaş": {
+"az": "Başı şiş.",
+"en": "pointed-headed",
+"pos": "adjective"
+},
+"şitləmək": {
+"skip": "meaning not known with confidence"
+},
+"şivçə": {
+"az": "Nazik budaqcıq.",
+"en": "twig",
+"pos": "noun"
+},
+"şiyav": {
+"skip": "meaning not known with confidence"
+},
+"şlixləmək": {
+"skip": "meaning not known with confidence"
+},
+"şlis": {
+"az": "Paltarın ətəyində kəsik.",
+"en": "slit",
+"pos": "noun"
+},
+"şorangə": {
+"skip": "meaning not known with confidence"
+},
+"şoselənmək": {
+"az": "Şose çəkilmək.",
+"en": "to be paved as a highway",
+"pos": "verb"
+},
+"şoumen": {
+"az": "Şou aparıcısı.",
+"en": "showman",
+"pos": "noun"
+},
+"şplintləmək": {
+"az": "Şplintlə bərkitmək.",
+"en": "to pin with a cotter",
+"pos": "verb"
+},
+"ştempel": {
+"az": "Möhür, damğa.",
+"en": "stamp",
+"pos": "noun"
+},
+"şumallamaq": {
+"skip": "meaning not known with confidence"
+},
+"şumerşünas": {
+"az": "Şumerləri öyrənən alim.",
+"en": "Sumerologist",
+"pos": "noun"
+},
+"şüakeçirməz": {
+"az": "Şüa keçirməyən.",
+"en": "radiopaque",
+"pos": "adjective"
+},
+"ucalamaq": {
+"skip": "meaning not known with confidence"
+},
+"ufalatmaq": {
+"az": "Xırdalatmaq.",
+"en": "to have crumbled",
+"pos": "verb"
+},
+"ufoloq": {
+"az": "NLO-ları öyrənən.",
+"en": "ufologist",
+"pos": "noun"
+},
+"ufuldanmaq": {
+"az": "Ufuldamaq.",
+"en": "to groan",
+"pos": "verb"
+},
+"ufuldaşmaq": {
+"az": "Birlikdə ufuldamaq.",
+"en": "to groan together",
+"pos": "verb"
+},
+"uğranmaq": {
+"skip": "meaning not known with confidence"
+},
+"ulduzpərəst": {
+"az": "Ulduzlara sitayiş edən.",
+"en": "star worshipper",
+"pos": "noun"
+},
+"ultimativ": {
+"az": "Ultimatum xarakterli.",
+"en": "ultimative",
+"pos": "adjective"
+},
+"unsuz": {
+"az": "Unu olmayan.",
+"en": "without flour",
+"pos": "adjective"
+},
+"uşaqsevər": {
+"az": "Uşaqları sevən.",
+"en": "child-loving",
+"pos": "adjective"
+},
+"uşu": {
+"az": "Çin döyüş sənəti.",
+"en": "wushu",
+"pos": "noun"
+},
+"utilitar": {
+"az": "Fayda güdən.",
+"en": "utilitarian",
+"pos": "adjective"
+},
+"uyarlaşmaq": {
+"az": "Uyğunlaşmaq.",
+"en": "to adapt",
+"pos": "verb"
+},
+"uzantı": {
+"az": "Davam, uzanma.",
+"en": "extension",
+"pos": "noun"
+},
+"uzunlamaq": {
+"skip": "meaning not known with confidence"
+},
+"uzurpator": {
+"az": "Hakimiyyəti zorla ələ keçirən.",
+"en": "usurper",
+"pos": "noun"
+},
+"yadlaşıb-yağılaşmaq": {
+"az": "Yadlaşıb düşmən olmaq.",
+"en": "to become estranged and hostile",
+"pos": "verb"
+},
+"yağırlamaq": {
+"az": "Yağır etmək.",
+"en": "to gall",
+"pos": "verb"
+},
+"yançaqlamaq": {
+"skip": "meaning not known with confidence"
+},
+"yarımdupleks": {
+"az": "Növbə ilə iki istiqamətdə ötürmə rejimi.",
+"en": "half-duplex",
+"pos": "noun"
+},
+"yarımkar": {
+"az": "Az eşidən.",
+"en": "hard of hearing",
+"pos": "adjective"
+},
+"yarımoynaq": {
+"skip": "meaning not known with confidence"
+},
+"yastan": {
+"skip": "meaning not known with confidence"
+},
+"yaşadılmaq": {
+"az": "Yaşadılıb qorunmaq.",
+"en": "to be kept alive",
+"pos": "verb"
+},
+"yaşanmaq": {
+"az": "Yaşanılmaq.",
+"en": "to be lived, to be experienced",
+"pos": "verb"
+},
+"yaşantı": {
+"az": "Yaşanılmış hiss, təcrübə.",
+"en": "experience",
+"pos": "noun"
+},
+"yaşarı": {
+"skip": "meaning not known with confidence"
+},
+"yavıncımaq": {
+"skip": "meaning not known with confidence"
+},
+"yayxalamaq": {
+"skip": "meaning not known with confidence"
+},
+"yaymalamaq": {
+"skip": "meaning not known with confidence"
+},
+"yeddiyaş": {
+"az": "Yeddi yaşlı.",
+"en": "seven-year-old",
+"pos": "adjective"
+},
+"yeger": {
+"az": "Ovçu; atıcı əsgər.",
+"en": "huntsman; rifleman",
+"pos": "noun"
+},
+"yerləmək": {
+"az": "Yerə qoymaq, yerləşdirmək.",
+"en": "to place",
+"pos": "verb"
+},
+"yığıcıl": {
+"az": "Yığmağı sevən.",
+"en": "thrifty",
+"pos": "adjective"
+},
+"yıxanmaq": {
+"skip": "meaning not known with confidence"
+},
+"yivləmək": {
+"az": "Yiv açmaq.",
+"en": "to thread",
+"pos": "verb"
+},
+"yoğurum": {
+"skip": "meaning not known with confidence"
+},
+"yoq": {
+"skip": "meaning not known with confidence"
+},
+"yolbasar": {
+"az": "Yol basan maşın.",
+"en": "road roller",
+"pos": "noun"
+},
+"yoluşmaq": {
+"az": "Bir-birini yolmaq.",
+"en": "to pluck at each other",
+"pos": "verb"
+},
+"yomrulmaq": {
+"skip": "meaning not known with confidence"
+},
+"yontamaq": {
+"az": "Yonmaq.",
+"en": "to hew",
+"pos": "verb"
+},
+"yordam": {
+"az": "Yardım.",
+"en": "help",
+"pos": "noun"
+},
+"yortum": {
+"skip": "meaning not known with confidence"
+},
+"yönlənmək": {
+"az": "Yönəlmək.",
+"en": "to be directed",
+"pos": "verb"
+},
+"yönüm": {
+"az": "İstiqamət.",
+"en": "direction, orientation",
+"pos": "noun"
+},
+"yuğlamaq": {
+"skip": "meaning not known with confidence"
+},
+"yumşadılmaq": {
+"az": "Yumşaldılmaq.",
+"en": "to be softened",
+"pos": "verb"
+},
+"yumşaqqəlbli": {
+"az": "Qəlbi yumşaq.",
+"en": "soft-hearted",
+"pos": "adjective"
+},
+"yunanpərəst": {
+"az": "Yunanlara pərəstiş edən.",
+"en": "philhellene",
+"pos": "noun"
+},
+"yunuağ": {
+"az": "Yunu ağ.",
+"en": "white-fleeced",
+"pos": "adjective"
+},
+"yuvarladılmaq": {
+"az": "Diyirlədilmək.",
+"en": "to be rolled",
+"pos": "verb"
+},
+"yuvarlaqlandırmaq": {
+"az": "Yuvarlaq etmək.",
+"en": "to round off",
+"pos": "verb"
+},
+"yürüdülmək": {
+"az": "Yeridilmək.",
+"en": "to be made to walk",
+"pos": "verb"
+},
+"zapal": {
+"az": "Partlayıcı alışdırıcı.",
+"en": "fuse, primer",
+"pos": "noun"
+},
+"zəkalanmaq": {
+"az": "Zəka qazanmaq.",
+"en": "to become wise",
+"pos": "verb"
+},
+"zəlzələyədavamlı": {
+"az": "Zəlzələyə davam gətirən.",
+"en": "earthquake-resistant",
+"pos": "adjective"
+},
+"zəlzələyədavamsız": {
+"az": "Zəlzələyə davam gətirməyən.",
+"en": "not earthquake-resistant",
+"pos": "adjective"
+},
+"zərpərəst": {
+"az": "Qızıla pərəstiş edən.",
+"en": "gold-worshipping",
+"pos": "adjective"
+},
+"zərrələmək": {
+"az": "Zərrələrə ayırmaq.",
+"en": "to break into particles",
+"pos": "verb"
+},
+"zırıldanmaq": {
+"az": "Zırıldamaq.",
+"en": "to whine",
+"pos": "verb"
+},
+"zırıldaşmaq": {
+"az": "Birlikdə zırıldamaq.",
+"en": "to whine together",
+"pos": "verb"
+},
+"ziqzaq": {
+"az": "Zikzak xətt.",
+"en": "zigzag",
+"pos": "noun"
+},
+"zob": {
+"az": "Ur, boğaz şişi; quşun çinədanı.",
+"en": "goitre; crop",
+"pos": "noun"
+},
+"zoocoğrafiyaşünas": {
+"az": "Heyvanların yayılmasını öyrənən alim.",
+"en": "zoogeographer",
+"pos": "noun"
+},
+"zoomühəndis": {
+"az": "Heyvandarlıq mühəndisi.",
+"en": "zootechnician",
+"pos": "noun"
+},
+"zorbalatmaq": {
+"skip": "meaning not known with confidence"
+},
+"zökəmləmək": {
+"az": "Zökəm olmaq.",
+"en": "to catch a cold",
+"pos": "verb"
+},
+"zummerləmək": {
+"az": "Zummer səsi vermək.",
+"en": "to buzz",
+"pos": "verb"
+},
+"zülmətlənmək": {
+"az": "Qaranlıqlaşmaq.",
+"en": "to grow dark",
+"pos": "verb"
+},
+"zümrələnmək": {
+"az": "Zümrələrə ayrılmaq.",
+"en": "to form groups",
+"pos": "verb"
+},
+"abazin": {
+"az": "Şimali Qafqazda yaşayan xalq və onun nümayəndəsi.",
+"en": "Abazin",
+"pos": "noun"
+},
+"abdali": {
+"skip": "meaning not known with confidence"
+},
+"abduksiya": {
+"az": "Ətrafın bədəndən uzaqlaşdırılması hərəkəti.",
+"en": "abduction (anatomy)",
+"pos": "noun"
+},
+"abduktor": {
+"az": "Ətrafı bədəndən uzaqlaşdıran əzələ.",
+"en": "abductor muscle",
+"pos": "noun"
+},
+"abgərdan": {
+"skip": "meaning not known with confidence"
+},
+"abionim": {
+"skip": "meaning not known with confidence"
+},
+"abiotik": {
+"az": "Cansız təbiətə aid.",
+"en": "abiotic",
+"pos": "adjective"
+},
+"abiotrofiya": {
+"az": "Toxumaların vaxtından əvvəl zəifləməsi.",
+"en": "abiotrophy",
+"pos": "noun"
+},
+"abituriyent": {
+"az": "Ali məktəbə daxil olmaq istəyən məzun.",
+"en": "university applicant",
+"pos": "noun"
+},
+"abi-zəmzəm": {
+"az": "Məkkədəki Zəmzəm quyusunun suyu.",
+"en": "Zamzam water",
+"pos": "noun"
+},
+"ablastika": {
+"skip": "meaning not known with confidence"
+},
+"ablaut": {
+"az": "Kökdə saitin qrammatik dəyişməsi.",
+"en": "ablaut",
+"pos": "noun"
+},
+"ablefariya": {
+"az": "Göz qapağının anadangəlmə olmaması.",
+"en": "ablepharia",
+"pos": "noun"
+},
+"ablepsiya": {
+"az": "Korluq.",
+"en": "ablepsia, blindness",
+"pos": "noun"
+},
+"abraxiya": {
+"az": "Qolların anadangəlmə olmaması.",
+"en": "abrachia",
+"pos": "noun"
+},
+"abrikotin": {
+"skip": "meaning not known with confidence"
+},
+"absans": {
+"az": "Qısa müddətli huşun itməsi.",
+"en": "absence seizure",
+"pos": "noun"
+},
+"absent": {
+"az": "Qaşqa yovşanlı spirtli içki.",
+"en": "absinthe",
+"pos": "noun"
+},
+"absentizm": {
+"az": "Seçkilərdə iştirakdan yayınma; işə gəlməmə.",
+"en": "absenteeism",
+"pos": "noun"
+},
+"absesektomiya": {
+"az": "Absesin cərrahi yolla çıxarılması.",
+"en": "abscess excision",
+"pos": "noun"
+},
+"absesoqrafiya": {
+"skip": "meaning not known with confidence"
+},
+"absorbent": {
+"az": "Udan maddə.",
+"en": "absorbent",
+"pos": "noun"
+},
+"absorber": {
+"az": "Udma qurğusu.",
+"en": "absorber",
+"pos": "noun"
+},
+"absorbsiometr": {
+"az": "Udulmanı ölçən cihaz.",
+"en": "absorptiometer",
+"pos": "noun"
+},
+"absorbsiometriya": {
+"az": "Udulmanın ölçülməsi.",
+"en": "absorptiometry",
+"pos": "noun"
+},
+"absorbsiyaedici": {
+"az": "Udan, udma qabiliyyətli.",
+"en": "absorbing",
+"pos": "adjective"
+},
+"abstinensiya": {
+"az": "Asılılıqdan imtina zamanı yaranan pozuntu.",
+"en": "withdrawal syndrome",
+"pos": "noun"
+},
+"abstraksionizm": {
+"az": "Mücərrəd sənət cərəyanı.",
+"en": "abstractionism",
+"pos": "noun"
+},
+"acıağacı": {
+"skip": "meaning not known with confidence"
+},
+"acıotu": {
+"skip": "meaning not known with confidence"
+},
+"acizcə": {
+"az": "Acizanə.",
+"en": "helplessly",
+"pos": "adverb"
+},
+"acqalma": {
+"az": "Ac qalma.",
+"en": "starvation",
+"pos": "noun"
+},
+"açar-açmaz": {
+"az": "Açan kimi.",
+"en": "as soon as (one) opens",
+"pos": "adverb"
+},
+"açıcı": {
+"az": "Açan.",
+"en": "opener",
+"pos": "noun"
+},
+"açıqqəlbli": {
+"az": "Səmimi.",
+"en": "open-hearted",
+"pos": "adjective"
+},
+"açılar-açılmaz": {
+"az": "Açılan kimi.",
+"en": "as soon as it opens",
+"pos": "adverb"
+},
+"açılışdan-açılışa": {
+"az": "Bir açılışdan digərinə.",
+"en": "from one opening to the next",
+"pos": "adverb"
+},
+"açırım": {
+"skip": "meaning not known with confidence"
+},
+"adaiçi": {
+"az": "Adanın daxilində olan.",
+"en": "inland (on an island)",
+"pos": "adjective"
+},
+"adamağladan": {
+"az": "Adamı ağladan.",
+"en": "heart-rending",
+"pos": "adjective"
+},
+"adamçaşdıran": {
+"az": "Adamı çaşdıran.",
+"en": "confusing",
+"pos": "adjective"
+},
+"adamincidən": {
+"az": "Adamı incidən.",
+"en": "hurtful",
+"pos": "adjective"
+},
+"adaptiv": {
+"az": "Uyğunlaşan.",
+"en": "adaptive",
+"pos": "adjective"
+},
+"adaptogen": {
+"az": "Orqanizmin uyğunlaşmasını artıran vasitə.",
+"en": "adaptogen",
+"pos": "noun"
+},
+"adayanı": {
+"az": "Adanın yanında olan.",
+"en": "off the island",
+"pos": "adjective"
+},
+"addəyişmə": {
+"az": "Adın dəyişdirilməsi.",
+"en": "renaming",
+"pos": "noun"
+},
+"adduksiya": {
+"az": "Ətrafın bədənə yaxınlaşdırılması hərəkəti.",
+"en": "adduction",
+"pos": "noun"
+},
+"adenoid": {
+"az": "Burun-udlaqda limfa toxumasının böyüməsi.",
+"en": "adenoids",
+"pos": "noun"
+},
+"adentiya": {
+"az": "Dişlərin olmaması.",
+"en": "anodontia",
+"pos": "noun"
+},
+"adətincə": {
+"az": "Adəti üzrə.",
+"en": "as usual",
+"pos": "adverb"
+},
+"adıçəkilən": {
+"az": "Adı çəkilən.",
+"en": "aforementioned",
+"pos": "adjective"
+},
+"adıgedən": {
+"az": "Adı keçən.",
+"en": "aforesaid",
+"pos": "adjective"
+},
+"adlamac": {
+"skip": "meaning not known with confidence"
+},
+"administrasiya": {
+"az": "İdarə heyəti.",
+"en": "administration",
+"pos": "noun"
+},
+"administrativ": {
+"az": "İnzibati.",
+"en": "administrative",
+"pos": "adjective"
+},
+"admiralitet": {
+"az": "Dəniz donanmasını idarə edən orqan.",
+"en": "admiralty",
+"pos": "noun"
+},
+"adrenoreseptor": {
+"az": "Adrenalinə həssas reseptor.",
+"en": "adrenoreceptor",
+"pos": "noun"
+}
+}
