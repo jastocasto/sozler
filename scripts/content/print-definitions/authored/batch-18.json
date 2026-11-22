@@ -1,0 +1,1142 @@
+{
+"gəyirdici": {
+"az": "Gəyirmə törədən.",
+"en": "belch-inducing",
+"pos": "adjective"
+},
+"giqabit": {
+"az": "Milyard bitə bərabər informasiya vahidi.",
+"en": "gigabit",
+"pos": "noun"
+},
+"giqahers": {
+"az": "Milyard hersə bərabər tezlik vahidi.",
+"en": "gigahertz",
+"pos": "noun"
+},
+"gilanlı": {
+"az": "Gilandan olan adam.",
+"en": "native of Gilan",
+"pos": "noun"
+},
+"gilbişirən": {
+"az": "Gil bişirən usta.",
+"en": "clay firer",
+"pos": "noun"
+},
+"giləzən": {
+"skip": "meaning not known with confidence"
+},
+"gilzai": {
+"az": "Puştun qəbiləsi.",
+"en": "Ghilzai",
+"pos": "noun"
+},
+"gimrik": {
+"skip": "meaning not known with confidence"
+},
+"ginandromorfizm": {
+"az": "Orqanizmdə həm erkək, həm dişi əlamətlərin birləşməsi.",
+"en": "gynandromorphism",
+"pos": "noun"
+},
+"ginekomastiya": {
+"az": "Kişilərdə süd vəzilərinin böyüməsi.",
+"en": "gynaecomastia",
+"pos": "noun"
+},
+"ginogenez": {
+"az": "Yalnız ana xromosomları ilə inkişaf.",
+"en": "gynogenesis",
+"pos": "noun"
+},
+"ginopodi": {
+"skip": "meaning not known with confidence"
+},
+"ginospor": {
+"az": "Dişi spor.",
+"en": "gynospore",
+"pos": "noun"
+},
+"gipsoqrafik": {
+"az": "Hipsoqrafiyaya, yer səthinin hündürlüyünə aid.",
+"en": "hypsographic",
+"pos": "adjective"
+},
+"girdəağız": {
+"az": "Ağzı girdə olan.",
+"en": "round-mouthed",
+"pos": "adjective"
+},
+"girdədib": {
+"az": "Dibi girdə olan.",
+"en": "round-bottomed",
+"pos": "adjective"
+},
+"girdəvari": {
+"az": "Girdəyə oxşar.",
+"en": "roundish",
+"pos": "adjective"
+},
+"girdəvər": {
+"az": "Girdəyə yaxın.",
+"en": "roundish",
+"pos": "adjective"
+},
+"girlyanda": {
+"az": "Çələng, bəzək zənciri.",
+"en": "garland",
+"pos": "noun"
+},
+"girohorizont": {
+"az": "Təyyarədə süni üfüq cihazı.",
+"en": "gyro horizon",
+"pos": "noun"
+},
+"giroida": {
+"az": "Minimal səth növü.",
+"en": "gyroid",
+"pos": "noun"
+},
+"giroqonit": {
+"az": "Xara yosunlarının daşlaşmış meyvəsi.",
+"en": "gyrogonite",
+"pos": "noun"
+},
+"girolazer": {
+"az": "Lazer giroskop.",
+"en": "laser gyroscope",
+"pos": "noun"
+},
+"girovgötürən": {
+"az": "Girov götürən adam.",
+"en": "hostage-taker",
+"pos": "noun"
+},
+"gitarayaoxşar": {
+"az": "Gitaraya oxşayan.",
+"en": "guitar-like",
+"pos": "adjective"
+},
+"gizləncək": {
+"az": "Gizlənmək üçün yer.",
+"en": "hiding place",
+"pos": "noun"
+},
+"gizlənəcək": {
+"skip": "meaning not known with confidence"
+},
+"goruyanmış": {
+"az": "Söyüş: qəbri yanmış.",
+"en": "damned",
+"pos": "adjective"
+},
+"göbəkatan": {
+"skip": "meaning not known with confidence"
+},
+"göbəkkəsdi": {
+"az": "Uşağı doğulanda nişanlama adəti.",
+"en": "betrothal at birth",
+"pos": "noun"
+},
+"göbələkyetişdirən": {
+"az": "Göbələk yetişdirən adam.",
+"en": "mushroom grower",
+"pos": "noun"
+},
+"göbələyəoxşar": {
+"az": "Göbələyə oxşayan.",
+"en": "mushroom-like",
+"pos": "adjective"
+},
+"gömülü": {
+"az": "Basdırılmış, torpağa gömülmüş.",
+"en": "buried",
+"pos": "adjective"
+},
+"gönbiçən": {
+"az": "Gön biçən usta.",
+"en": "leather cutter",
+"pos": "noun"
+},
+"göndərici": {
+"az": "Göndərən şəxs və ya qurğu.",
+"en": "sender",
+"pos": "noun"
+},
+"göndoğrayan": {
+"az": "Gön doğrayan usta.",
+"en": "leather cutter",
+"pos": "noun"
+},
+"görməməzlik": {
+"az": "Görməzdən gəlmə.",
+"en": "feigned ignorance",
+"pos": "noun"
+},
+"görməzə-bilməzə": {
+"az": "Görmədən, bilmədən.",
+"en": "sight unseen",
+"pos": "adverb"
+},
+"görsəniş": {
+"az": "Görünüş.",
+"en": "appearance",
+"pos": "noun"
+},
+"görünəcək": {
+"skip": "meaning not known with confidence"
+},
+"görünməmiş": {
+"az": "Misli görünməyən.",
+"en": "unprecedented",
+"pos": "adjective"
+},
+"görünür": {
+"az": "Deyəsən, yəqin ki.",
+"en": "apparently",
+"pos": "adverb"
+},
+"götürhagötür": {
+"az": "Hamının götürməsi.",
+"en": "grab-all",
+"pos": "noun"
+},
+"gövhəri": {
+"az": "Gövhər kimi.",
+"en": "gem-like",
+"pos": "adjective"
+},
+"göycə": {
+"az": "Bir az göy.",
+"en": "bluish",
+"pos": "adjective"
+},
+"göydəndüşmüş": {
+"az": "Göydən düşmüş kimi gözlənilməz.",
+"en": "heaven-sent",
+"pos": "adjective"
+},
+"göyəçalan": {
+"skip": "meaning not known with confidence"
+},
+"göyəçalar": {
+"skip": "meaning not known with confidence"
+},
+"göyənək": {
+"skip": "meaning not known with confidence"
+},
+"göyərçinotu": {
+"skip": "meaning not known with confidence"
+},
+"göyməkotu": {
+"skip": "meaning not known with confidence"
+},
+"göyşük": {
+"skip": "meaning not known with confidence"
+},
+"göyümçiçək": {
+"skip": "meaning not known with confidence"
+},
+"gözağı": {
+"az": "Gözün ağ hissəsi.",
+"en": "white of the eye",
+"pos": "noun"
+},
+"gözaldadan": {
+"az": "Gözü aldadan.",
+"en": "deceptive",
+"pos": "adjective"
+},
+"gözdağı": {
+"az": "Qorxutma, hədə.",
+"en": "intimidation",
+"pos": "noun"
+},
+"gözdənaralı": {
+"az": "Gözdən uzaq.",
+"en": "out of sight",
+"pos": "adjective"
+},
+"gözdəniraq": {
+"az": "Gözdən uzaq.",
+"en": "out of sight",
+"pos": "adjective"
+},
+"gözdənuzaq": {
+"az": "Gözdən uzaq olan.",
+"en": "out of sight",
+"pos": "adjective"
+},
+"gözdəyən": {
+"skip": "meaning not known with confidence"
+},
+"gözədəymə": {
+"az": "Diqqəti cəlb etmə.",
+"en": "conspicuousness",
+"pos": "noun"
+},
+"gözəgəlmə": {
+"az": "Göz yanılması.",
+"en": "optical illusion",
+"pos": "noun"
+},
+"gözəgörümlü": {
+"az": "Görkəmli, göz oxşayan.",
+"en": "presentable",
+"pos": "adjective"
+},
+"gözəlçə": {
+"az": "Gözəl qız.",
+"en": "pretty girl",
+"pos": "noun"
+},
+"gözənək": {
+"az": "Kiçik deşik, göz.",
+"en": "small opening",
+"pos": "noun"
+},
+"gözəyici": {
+"skip": "meaning not known with confidence"
+},
+"gözlədici": {
+"skip": "meaning not known with confidence"
+},
+"gözləm": {
+"az": "Gözləmə.",
+"en": "waiting",
+"pos": "noun"
+},
+"gözoxşar": {
+"az": "Göz oxşayan.",
+"en": "eye-pleasing",
+"pos": "adjective"
+},
+"gözoxşayan": {
+"az": "Gözə xoş gələn.",
+"en": "eye-pleasing",
+"pos": "adjective"
+},
+"gözyaşı vəzisi": {
+"az": "Göz yaşı ifraz edən vəzi.",
+"en": "lacrimal gland",
+"pos": "noun"
+},
+"gözyoran": {
+"az": "Gözü yoran.",
+"en": "eye-straining",
+"pos": "adjective"
+},
+"gurultuölçən": {
+"az": "Gurultunu ölçən cihaz.",
+"en": "noise meter",
+"pos": "noun"
+},
+"gücəndirici": {
+"az": "Gücləndirici.",
+"en": "amplifier",
+"pos": "noun"
+},
+"gücotu": {
+"skip": "meaning not known with confidence"
+},
+"gülabi": {
+"az": "Çəhrayı, gül rəngli.",
+"en": "rose-pink",
+"pos": "adjective"
+},
+"gülbecərən": {
+"az": "Gül becərən adam.",
+"en": "rose grower",
+"pos": "noun"
+},
+"gülbəsər": {
+"skip": "meaning not known with confidence"
+},
+"gülçiçəkkimi": {
+"az": "Gül çiçəyi kimi.",
+"en": "flower-like",
+"pos": "adjective"
+},
+"güləbətinqıyı": {
+"skip": "meaning not known with confidence"
+},
+"gülə-danışa": {
+"az": "Gülərək, danışaraq.",
+"en": "laughing and chatting",
+"pos": "adverb"
+},
+"gülləkeçirməz": {
+"az": "Gülləni keçirməyən.",
+"en": "bulletproof",
+"pos": "adjective"
+},
+"gülümsəyiş": {
+"az": "Gülümsəmə.",
+"en": "smile",
+"pos": "noun"
+},
+"gümüşəoxşar": {
+"az": "Gümüşə oxşayan.",
+"en": "silvery",
+"pos": "adjective"
+},
+"gümüşxana": {
+"skip": "meaning not known with confidence"
+},
+"gümüşvari": {
+"az": "Gümüş kimi.",
+"en": "silvery",
+"pos": "adjective"
+},
+"günbəzəoxşar": {
+"az": "Günbəzə oxşayan.",
+"en": "dome-like",
+"pos": "adjective"
+},
+"günbəzvari": {
+"az": "Günbəz şəkilli.",
+"en": "dome-shaped",
+"pos": "adjective"
+},
+"gündöyən": {
+"az": "Gün düşən.",
+"en": "sun-exposed",
+"pos": "adjective"
+},
+"gündöyməz": {
+"az": "Gün düşməyən.",
+"en": "shady",
+"pos": "adjective"
+},
+"gündüşməz": {
+"az": "Gün düşməyən.",
+"en": "shady",
+"pos": "adjective"
+},
+"güneydəki": {
+"az": "Güneydə olan.",
+"en": "southern",
+"pos": "adjective"
+},
+"günəşüzlü": {
+"az": "Üzü günəş kimi parlaq.",
+"en": "radiant-faced",
+"pos": "adjective"
+},
+"gün-günə": {
+"az": "Gündən-günə.",
+"en": "day by day",
+"pos": "adverb"
+},
+"günlərlə": {
+"az": "Neçə gün ərzində.",
+"en": "for days",
+"pos": "adverb"
+},
+"günü-gündən": {
+"az": "Gündən-günə.",
+"en": "day by day",
+"pos": "adverb"
+},
+"günüuzadılmış": {
+"az": "Uzadılmış günlü.",
+"en": "extended-day",
+"pos": "adjective"
+},
+"güvədüşən": {
+"az": "Güvə düşmüş.",
+"en": "moth-eaten",
+"pos": "adjective"
+},
+"güvəkəsməz": {
+"az": "Güvə kəsməyən.",
+"en": "moth-proof",
+"pos": "adjective"
+},
+"güzgüyəoxşar": {
+"az": "Güzgüyə oxşayan.",
+"en": "mirror-like",
+"pos": "adjective"
+},
+"haçandan": {
+"az": "Nə vaxtdan.",
+"en": "since when",
+"pos": "adverb"
+},
+"haçayabənzər": {
+"az": "Haçaya bənzəyən.",
+"en": "fork-like",
+"pos": "adjective"
+},
+"haçayaoxşar": {
+"az": "Haçaya oxşayan.",
+"en": "fork-like",
+"pos": "adjective"
+},
+"haçavari": {
+"az": "Haça şəkilli.",
+"en": "forked",
+"pos": "adjective"
+},
+"hadisəçilik": {
+"skip": "meaning not known with confidence"
+},
+"haxışta": {
+"skip": "meaning not known with confidence"
+},
+"hakimanə": {
+"az": "Hökmlü, ağa kimi.",
+"en": "imperious",
+"pos": "adjective"
+},
+"hakimi-mütləqlik": {
+"az": "Mütləq hakimiyyət.",
+"en": "absolute rule",
+"pos": "noun"
+},
+"haqkəsən": {
+"az": "Haqqı kəsən.",
+"en": "unjust",
+"pos": "adjective"
+},
+"haqsevən": {
+"az": "Haqqı sevən.",
+"en": "justice-loving",
+"pos": "adjective"
+},
+"haqsızca": {
+"az": "Haqsız şəkildə.",
+"en": "unjustly",
+"pos": "adverb"
+},
+"haqtanımaz": {
+"az": "Haqqı tanımayan.",
+"en": "unjust",
+"pos": "adjective"
+},
+"haqtanıyan": {
+"az": "Haqqı tanıyan.",
+"en": "fair-minded",
+"pos": "adjective"
+},
+"halallıca": {
+"az": "Halal yolla.",
+"en": "lawfully",
+"pos": "adverb"
+},
+"halbahallıq": {
+"skip": "meaning not known with confidence"
+},
+"hallıca-dulluca": {
+"skip": "meaning not known with confidence"
+},
+"hallüsinogen": {
+"az": "Halüsinasiya törədən maddə.",
+"en": "hallucinogen",
+"pos": "noun"
+},
+"halobiont": {
+"az": "Duzlu mühitdə yaşayan orqanizm.",
+"en": "halobiont",
+"pos": "noun"
+},
+"halobios": {
+"az": "Dəniz canlılarının məcmusu.",
+"en": "halobios",
+"pos": "noun"
+},
+"haloid": {
+"az": "Halogen birləşməsi.",
+"en": "halide",
+"pos": "noun"
+},
+"haloidofit": {
+"skip": "meaning not known with confidence"
+},
+"halokserofit": {
+"az": "Duzlu quru torpaq bitkisi.",
+"en": "haloxerophyte",
+"pos": "noun"
+},
+"halolit": {
+"skip": "meaning not known with confidence"
+},
+"halopelit": {
+"skip": "meaning not known with confidence"
+},
+"halosfer": {
+"skip": "meaning not known with confidence"
+},
+"hamarsəthli": {
+"az": "Səthi hamar olan.",
+"en": "smooth-surfaced",
+"pos": "adjective"
+},
+"hamburger": {
+"az": "Kotletli bulka.",
+"en": "hamburger",
+"pos": "noun"
+},
+"hanaquran": {
+"az": "Hana quran usta.",
+"en": "loom setter",
+"pos": "noun"
+},
+"handabir": {
+"skip": "meaning not known with confidence"
+},
+"haplologiya": {
+"az": "Sözdə oxşar hecanın düşməsi.",
+"en": "haplology",
+"pos": "noun"
+},
+"haptefobiya": {
+"az": "Toxunulmaqdan qorxu.",
+"en": "haptephobia",
+"pos": "noun"
+},
+"hard-disk": {
+"az": "Sərt disk yaddaşı.",
+"en": "hard disk",
+"pos": "noun"
+},
+"hard-rok": {
+"az": "Sərt rok musiqisi.",
+"en": "hard rock",
+"pos": "noun"
+},
+"harınca": {
+"skip": "meaning not known with confidence"
+},
+"harmalin": {
+"az": "Üzərlikdən alınan alkaloid.",
+"en": "harmaline",
+"pos": "noun"
+},
+"hasarlada-hasarlada": {
+"az": "Hasarlayaraq.",
+"en": "fencing in",
+"pos": "adverb"
+},
+"hasiletmə": {
+"az": "Hasil etmə.",
+"en": "production",
+"pos": "noun"
+},
+"haşimi": {
+"az": "Haşimilər sülaləsinə aid.",
+"en": "Hashemite",
+"pos": "adjective"
+},
+"hatteriya": {
+"az": "Yeni Zelandiyada yaşayan qədim sürünən.",
+"en": "tuatara",
+"pos": "noun"
+},
+"havacat": {
+"skip": "meaning not known with confidence"
+},
+"havaçəkən": {
+"az": "Hava çəkən qurğu.",
+"en": "exhaust fan",
+"pos": "noun"
+},
+"havadəyişdirən": {
+"az": "Havanı dəyişən.",
+"en": "ventilating",
+"pos": "adjective"
+},
+"hava-hava mərmisi": {
+"az": "Havadan havaya atılan raket.",
+"en": "air-to-air missile",
+"pos": "noun"
+},
+"havaxtkı": {
+"az": "Nə vaxtkı.",
+"en": "of what time",
+"pos": "adjective"
+},
+"havaisidən": {
+"az": "Havanı isidən.",
+"en": "air-heating",
+"pos": "adjective"
+},
+"havaötürən": {
+"az": "Hava ötürən.",
+"en": "air-conducting",
+"pos": "adjective"
+},
+"havapaylayan": {
+"az": "Havanı paylayan.",
+"en": "air-distributing",
+"pos": "adjective"
+},
+"havasoran": {
+"az": "Havanı soran.",
+"en": "air-sucking",
+"pos": "adjective"
+},
+"havatoplayan": {
+"az": "Hava toplayan.",
+"en": "air-collecting",
+"pos": "adjective"
+},
+"havaüfürən": {
+"az": "Hava üfürən.",
+"en": "air-blowing",
+"pos": "adjective"
+},
+"havaüfürücü": {
+"az": "Hava üfürən qurğu.",
+"en": "blower",
+"pos": "noun"
+},
+"havaverən": {
+"az": "Hava verən.",
+"en": "air-supplying",
+"pos": "adjective"
+},
+"havay dili": {
+"az": "Havay adalarının polineziya dili.",
+"en": "Hawaiian language",
+"pos": "noun"
+},
+"havayaqalxma": {
+"az": "Havaya qalxma.",
+"en": "takeoff",
+"pos": "noun"
+},
+"havayığan": {
+"az": "Hava yığan.",
+"en": "air-collecting",
+"pos": "adjective"
+},
+"hay-harayla": {
+"az": "Səs-küylə.",
+"en": "noisily",
+"pos": "adverb"
+},
+"hay-küysüzlük": {
+"az": "Səs-küysüz olma.",
+"en": "quietness",
+"pos": "noun"
+},
+"haymorit": {
+"az": "Haymor boşluğunun iltihabı.",
+"en": "maxillary sinusitis",
+"pos": "noun"
+},
+"haymoroqrafiya": {
+"az": "Haymor boşluğunun rentgen müayinəsi.",
+"en": "maxillary sinus radiography",
+"pos": "noun"
+},
+"haymorotomiya": {
+"az": "Haymor boşluğunun cərrahi açılması.",
+"en": "maxillary antrotomy",
+"pos": "noun"
+},
+"hazırcavablılıq": {
+"az": "Hazırcavab olma.",
+"en": "quick-wittedness",
+"pos": "noun"
+},
+"hazır-qayıb": {
+"skip": "meaning not known with confidence"
+},
+"hazırlayıcı": {
+"az": "Hazırlayan.",
+"en": "preparatory",
+"pos": "adjective"
+},
+"hazırolma": {
+"az": "Hazır olma.",
+"en": "readiness",
+"pos": "noun"
+},
+"hedcer": {
+"az": "Riskdən sığortalanan.",
+"en": "hedger",
+"pos": "noun"
+},
+"hedonofobiya": {
+"az": "Həzzdən qorxu.",
+"en": "hedonophobia",
+"pos": "noun"
+},
+"hekatomba": {
+"az": "Kütləvi qurban, qırğın.",
+"en": "hecatomb",
+"pos": "noun"
+},
+"hekistotermizm": {
+"skip": "meaning not known with confidence"
+},
+"heksadaktiliya": {
+"az": "Altı barmaqlılıq.",
+"en": "hexadactyly",
+"pos": "noun"
+},
+"heksaqonal": {
+"az": "Altıbucaqlı.",
+"en": "hexagonal",
+"pos": "adjective"
+},
+"heksod": {
+"az": "Altı elektrodlu lampa.",
+"en": "hexode",
+"pos": "noun"
+},
+"heksogen": {
+"az": "Güclü partlayıcı maddə.",
+"en": "hexogen",
+"pos": "noun"
+},
+"hektokaloriya": {
+"az": "Yüz kaloriya.",
+"en": "hectocalorie",
+"pos": "noun"
+},
+"hektoqram": {
+"az": "Yüz qram.",
+"en": "hectogram",
+"pos": "noun"
+},
+"hektolitr": {
+"az": "Yüz litr.",
+"en": "hectolitre",
+"pos": "noun"
+},
+"hektopaskal": {
+"az": "Yüz paskal.",
+"en": "hectopascal",
+"pos": "noun"
+},
+"heqabekkerel": {
+"skip": "meaning not known with confidence"
+},
+"heliobiont": {
+"skip": "meaning not known with confidence"
+},
+"heliofil": {
+"az": "Günəşsevən.",
+"en": "heliophilous",
+"pos": "adjective"
+},
+"heliofiliya": {
+"skip": "meaning not known with confidence"
+},
+"heliofob": {
+"az": "Günəşdən qaçan.",
+"en": "heliophobic",
+"pos": "adjective"
+},
+"helioqurğu": {
+"az": "Günəş enerjisi qurğusu.",
+"en": "solar installation",
+"pos": "noun"
+},
+"heliometr": {
+"az": "Ulduzlararası bucaq ölçən teleskop.",
+"en": "heliometer",
+"pos": "noun"
+},
+"heliopatiya": {
+"skip": "meaning not known with confidence"
+},
+"heliosentrik": {
+"az": "Mərkəzində Günəş olan.",
+"en": "heliocentric",
+"pos": "adjective"
+},
+"heliosentrizm": {
+"az": "Günəşmərkəzli dünya təsəvvürü.",
+"en": "heliocentrism",
+"pos": "noun"
+},
+"helioskop": {
+"az": "Günəşi müşahidə cihazı.",
+"en": "helioscope",
+"pos": "noun"
+},
+"heliostat": {
+"az": "Günəş şüasını bir istiqamətə yönəldən güzgü.",
+"en": "heliostat",
+"pos": "noun"
+},
+"heliotrof": {
+"skip": "meaning not known with confidence"
+},
+"heliotrop": {
+"az": "Günəşəbaxan ətirli bitki; yaşıl daş.",
+"en": "heliotrope",
+"pos": "noun"
+},
+"heliozoy": {
+"az": "Şüalı birhüceyrəli.",
+"en": "heliozoan",
+"pos": "noun"
+},
+"heliport": {
+"az": "Vertolyot meydançası.",
+"en": "heliport",
+"pos": "noun"
+},
+"helmint": {
+"az": "Parazit qurd.",
+"en": "helminth",
+"pos": "noun"
+},
+"helmintoz": {
+"az": "Parazit qurd xəstəliyi.",
+"en": "helminthiasis",
+"pos": "noun"
+},
+"helobiont": {
+"skip": "meaning not known with confidence"
+},
+"helofit": {
+"az": "Bataqlıq bitkisi.",
+"en": "helophyte",
+"pos": "noun"
+},
+"helonim": {
+"skip": "meaning not known with confidence"
+},
+"hemafit": {
+"skip": "meaning not known with confidence"
+},
+"hemartroz": {
+"az": "Oynağa qan sızması.",
+"en": "haemarthrosis",
+"pos": "noun"
+},
+"hematidroz": {
+"az": "Qanlı tərləmə.",
+"en": "haematidrosis",
+"pos": "noun"
+},
+"hematoblast": {
+"az": "Qan hüceyrəsinin ilkin forması.",
+"en": "haematoblast",
+"pos": "noun"
+},
+"hematofaq": {
+"az": "Qanla qidalanan.",
+"en": "blood-feeding",
+"pos": "adjective"
+},
+"hematofobiya": {
+"az": "Qandan qorxu.",
+"en": "haematophobia",
+"pos": "noun"
+},
+"hematogen": {
+"az": "Qan vasitəsilə yayılan.",
+"en": "haematogenous",
+"pos": "adjective"
+},
+"hematometr": {
+"skip": "meaning not known with confidence"
+},
+"hemerofil": {
+"skip": "meaning not known with confidence"
+},
+"hemerofit": {
+"skip": "meaning not known with confidence"
+},
+"hemerofob": {
+"skip": "meaning not known with confidence"
+},
+"hemikriptofit": {
+"az": "Tumurcuğu torpaq səthində qışlayan bitki.",
+"en": "hemicryptophyte",
+"pos": "noun"
+},
+"hemikserofit": {
+"skip": "meaning not known with confidence"
+},
+"hemofilik": {
+"az": "Hemofiliya xəstəsi.",
+"en": "haemophiliac",
+"pos": "noun"
+},
+"hemoqram": {
+"az": "Qanın tərkib analizi.",
+"en": "blood count",
+"pos": "noun"
+},
+"hemolimfa": {
+"az": "Onurğasızların qanı.",
+"en": "haemolymph",
+"pos": "noun"
+},
+"hemolitik": {
+"az": "Qırmızı qan hüceyrələrini parçalayan.",
+"en": "haemolytic",
+"pos": "adjective"
+},
+"hemometr": {
+"az": "Qanda hemoqlobini ölçən cihaz.",
+"en": "haemometer",
+"pos": "noun"
+},
+"henrimetr": {
+"az": "İnduktivliyi ölçən cihaz.",
+"en": "inductance meter",
+"pos": "noun"
+},
+"hepatomeqaliya": {
+"az": "Qaraciyərin böyüməsi.",
+"en": "hepatomegaly",
+"pos": "noun"
+},
+"heptod": {
+"az": "Yeddi elektrodlu lampa.",
+"en": "heptode",
+"pos": "noun"
+},
+"herbalogiya": {
+"skip": "meaning not known with confidence"
+},
+"herbari": {
+"skip": "meaning not known with confidence"
+},
+"herbarizasiya": {
+"az": "Herbari üçün bitki toplama.",
+"en": "herbarization",
+"pos": "noun"
+},
+"herbisid": {
+"az": "Alaq öldürən maddə.",
+"en": "herbicide",
+"pos": "noun"
+},
+"hermetizasiya": {
+"az": "Hava keçirməz etmə.",
+"en": "sealing",
+"pos": "noun"
+},
+"hermoşlem": {
+"az": "Hermetik dəbilqə.",
+"en": "pressure helmet",
+"pos": "noun"
+},
+"hernioqrafiya": {
+"az": "Yırtığın rentgen müayinəsi.",
+"en": "herniography",
+"pos": "noun"
+},
+"herofobiya": {
+"skip": "meaning not known with confidence"
+},
+"heroskop": {
+"skip": "meaning not known with confidence"
+},
+"herostratizm": {
+"az": "Cinayətlə şöhrət qazanma həvəsi.",
+"en": "herostratism",
+"pos": "noun"
+},
+"herpes": {
+"az": "Dəri və selikli qişada qabarcıqlı virus xəstəliyi.",
+"en": "herpes",
+"pos": "noun"
+},
+"herpetobiont": {
+"skip": "meaning not known with confidence"
+},
+"herpetofauna": {
+"az": "Bir yerin sürünən və suda-quruda yaşayanları.",
+"en": "herpetofauna",
+"pos": "noun"
+},
+"herpetofobiya": {
+"az": "Sürünənlərdən qorxu.",
+"en": "herpetophobia",
+"pos": "noun"
+},
+"hersinid": {
+"az": "Hersin qırışıqlığına aid.",
+"en": "Hercynian",
+"pos": "adjective"
+},
+"hesabaçma": {
+"az": "Hesab açma.",
+"en": "opening an account",
+"pos": "noun"
+},
+"hesabatçılıq": {
+"az": "Hesabat vermə işi.",
+"en": "reporting",
+"pos": "noun"
+},
+"het": {
+"skip": "meaning not known with confidence"
+},
+"heteroepitaksiya": {
+"az": "Bir kristalın başqa maddə üzərində böyüdülməsi.",
+"en": "heteroepitaxy",
+"pos": "noun"
+},
+"heterofilliya": {
+"az": "Eyni bitkidə müxtəlif yarpaqlar.",
+"en": "heterophylly",
+"pos": "noun"
+},
+"heterogenez": {
+"az": "Növbəli nəsildəyişmə.",
+"en": "heterogenesis",
+"pos": "noun"
+},
+"heteroxromiya": {
+"az": "Gözlərin müxtəlif rəngdə olması.",
+"en": "heterochromia",
+"pos": "noun"
+},
+"heterokeçid": {
+"az": "Müxtəlif yarımkeçiricilərin birləşmə sərhədi.",
+"en": "heterojunction",
+"pos": "noun"
+},
+"heteroorqan": {
+"skip": "meaning not known with confidence"
+},
+"heteropsiya": {
+"skip": "meaning not known with confidence"
+},
+"heterosfer": {
+"az": "Atmosferin qazları qarışmayan yuxarı qatı.",
+"en": "heterosphere",
+"pos": "noun"
+},
+"heteroterm": {
+"az": "Bədən istiliyi dəyişkən olan heyvan.",
+"en": "heterotherm",
+"pos": "noun"
+},
+"heterotopiya": {
+"az": "Toxumanın qeyri-adi yerdə olması.",
+"en": "heterotopia",
+"pos": "noun"
+},
+"heterozoid": {
+"skip": "meaning not known with confidence"
+},
+"heyranlıqla": {
+"az": "Heyran qalaraq.",
+"en": "admiringly",
+"pos": "adverb"
+},
+"heyrətlə": {
+"az": "Təəccüblə.",
+"en": "in astonishment",
+"pos": "adverb"
+},
+"heyvanaoxşar": {
+"az": "Heyvana oxşayan.",
+"en": "animal-like",
+"pos": "adjective"
+}
+}
