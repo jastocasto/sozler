@@ -16,15 +16,17 @@ Every headword should have a correct, cited definition (Azerbaijani + English) a
 
 ## What is left
 
-1. **Finish the paraphrase batches.** 64 batches (`batch-00` … `batch-63`, 277 words each) are needed. Each finished batch is `scripts/content/print-definitions/paraphrases/batch-NN.json`. To see which are missing:
+All 64 paraphrase batches (`batch-00` … `batch-63`) are written, and none shares five consecutive words with its print entry. This work is on branch `claude/wonderful-davinci-g526vf` and has not been merged into `soz-toxumasi`. To confirm that no batch is missing:
 
-       python3 -c "import os;have={f[6:8] for f in os.listdir('scripts/content/print-definitions/paraphrases') if f.endswith('.json') and 'part' not in f};print('missing:',[f'{i:02d}' for i in range(64) if f'{i:02d}' not in have])"
+    python3 -c "import os;have={f[6:8] for f in os.listdir('scripts/content/print-definitions/paraphrases') if f.endswith('.json') and 'part' not in f};print('missing:',[f'{i:02d}' for i in range(64) if f'{i:02d}' not in have])"
 
-   A `batch-NN.partK.json` file is a half-finished batch: keep it, write the remaining words, merge into `batch-NN.json`, delete the parts.
+A `batch-NN.partK.json` file is a half-finished batch: keep it, write the remaining words, merge into `batch-NN.json`, delete the parts. Rebuild and test after any change to a batch (see "Rebuild" below).
 
-2. **Rebuild and test** after adding batches (see "Rebuild" below), then commit and push to `soz-toxumasi`.
+Possible next steps:
 
-3. Possible next steps after that: review the paraphrases marked `"conf": "low"` (shown in the app as *yoxlanılmalıdır / needs review*); write definitions for the remaining spelling-only words that no print source covers (most are international loanwords). Label any such AI-written text clearly, the same way.
+1. Review the paraphrases marked `"conf": "low"` (shown in the app as *yoxlanılmalıdır / needs review*).
+2. Write definitions for the spelling-only words that no print source covers (most are international loanwords). Label any such AI-written text clearly, the same way.
+3. Links: a word that has a paraphrase gets its suffix or compound link only when the paraphrase (or its print entry) names the base word, bare or inflected. A word that is itself another headword (*yerin*, *ətrafında*) does not count as an inflected form. So a paraphrase that could link should name its base word (*Nəm yerlərdə bitən zəhərli baldırğan növü.*). About 100 paraphrased words remain isolated; most are wrong splits (*ayrıqotu* is not *ayrı* + *qot*) or have a base of a word class the suffix rules skip.
 
 ## How to write a paraphrase batch
 
@@ -41,7 +43,7 @@ Every headword should have a correct, cited definition (Azerbaijani + English) a
 
 4. For each missing `NN`, follow `scripts/content/print-definitions/BRIEF.md` exactly: read `/tmp/soz-evidence/batch-NN.jsonl`, write `scripts/content/print-definitions/paraphrases/batch-NN.json` with every word as a key, and run the validation command in the brief.
 
-Rules that matter: write new wording, never copy the print definitions (the build rejects any paraphrase sharing six consecutive words with its print entry); one sentence of Azerbaijani ending with a period plus a short lowercase English gloss; use `{"skip": "reason"}` rather than guessing.
+Rules that matter: write new wording, never copy the print definitions (the build rejects any paraphrase sharing six consecutive words with its print entry, and the brief asks for no five-word reuse); name the base word where the word is a transparent derivation or compound, so it can be linked; one sentence of Azerbaijani ending with a period plus a short lowercase English gloss; use `{"skip": "reason"}` rather than guessing.
 
 ## Rebuild
 
