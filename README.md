@@ -35,6 +35,8 @@ Serve `dist` with any static HTTP server or open `dist/index.html`. No build/run
 
 **Şəkilli sınaq** is a separate page (`#sekil`), opened from the menu. Each round has 10 questions in one of two modes: *Şəkil → söz* (see a line drawing, pick the word from four) or *Söz → şəkil* (see a word, pick its drawing from four). Rounds can be limited to one topic: animals, food and plants, things, people and body, nature and places, or actions. After each answer the word's Azerbaijani and English definitions appear, with a link that opens the word in the map. Results list every picture, and a missed-only retry is offered. Keys 1–4 answer and Enter continues. The best score per mode and topic is kept in this browser only.
 
+A question always fits one screen, on phones and laptops, and nothing scrolls. The picture shrinks to the height that is left. The answer bar (✓/×, the word, a short definition and the English gloss) has its space reserved from the start, with the Next button beside it, so answering never moves the picture or the options. On narrow phones the Next button is a round arrow. Sideways phones put the picture on the left and the options on the right.
+
 Pictures appear **only on this page**. The word map, meaning sheet, daily word and other quizzes have no pictures.
 
 `dist/pictures.js` holds **715 line drawings**, one word each:

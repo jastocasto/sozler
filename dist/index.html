@@ -3,7 +3,7 @@
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="soz-build" content="magnet-2026-11-15"><meta name="theme-color" content="#303030"><meta name="description" content="SÖZ — Azərbaycan sözlərinin kainatı. Sözlər, mənalar və aralarındakı bağlar arasında səyahət edin.">
 <title>SÖZ — Söz kainatı</title><link rel="icon" type="image/svg+xml" href="favicon.svg?v=0060e8b718985fb3"><link rel="stylesheet" href="style.css?v=2a92fb2cc9eeda42"><link rel="stylesheet" href="galaxy.css?v=74e5caeb0cd0d412">
-<link rel="stylesheet" href="picture-quiz.css?v=5f9273c83660f5f6"><link rel="stylesheet" href="conjugation.css?v=afa2c3d76ec9a56f"><link rel="manifest" href="manifest.webmanifest?v=7d134e69683aebb8"><link rel="apple-touch-icon" href="icons/apple-touch-icon.png?v=ce619a12def03125"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="SÖZ"></head><body>
+<link rel="stylesheet" href="picture-quiz.css?v=148f13cb5e6de706"><link rel="stylesheet" href="conjugation.css?v=afa2c3d76ec9a56f"><link rel="manifest" href="manifest.webmanifest?v=7d134e69683aebb8"><link rel="apple-touch-icon" href="icons/apple-touch-icon.png?v=ce619a12def03125"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="SÖZ"></head><body>
 <main class="studio galaxy-studio">
 <section class="map" id="map" aria-label="Söz kainatı">
 <canvas id="universeCanvas" aria-hidden="true"></canvas>
@@ -67,7 +67,7 @@
  <section id="pictureIntro" class="picture-content">
   <div class="eyebrow">ŞƏKİLLİ SINAQ</div>
   <h1 id="pictureQuizTitle" tabindex="-1">Şəkli tanı, sözü tap.</h1>
-  <p class="picture-lead">Hər sualda bir xətt rəsmi və dörd söz var. Uyğun sözü seç; cavabdan sonra sözün Azərbaycan və ingilis dillərində izahı görünür. Bir-birinə çox oxşayan sözlər eyni sualda verilmir.</p>
+  <p class="picture-lead">Hər sualda bir rəsm və dörd söz. Cavabdan sonra sözün izahı görünür.</p>
   <div class="section-label">SINAQ NÖVÜ</div>
   <div class="picture-modes" role="group" aria-label="Sınaq növü"><button type="button" data-picture-mode="picture" aria-pressed="true">Şəkil → söz</button><button type="button" data-picture-mode="word" aria-pressed="false">Söz → şəkil</button></div>
   <div class="section-label">MÖVZU</div>
@@ -76,14 +76,16 @@
   <button id="pictureStart" type="button" class="primary-button">Sınağa başla →</button>
   <p class="picture-note"><span id="pictureCount"></span>. Rəsmlər: <a href="https://openmoji.org" target="_blank" rel="noopener">OpenMoji</a> (CC BY-SA 4.0) və SÖZ üçün çəkilmiş xətt rəsmləri. <a href="pictures-attribution.json" target="_blank" rel="noopener">Mənbələr ↗</a></p>
  </section>
- <section id="picturePlay" class="picture-content" hidden aria-label="Sual">
+ <section id="picturePlay" class="picture-content picture-play" hidden aria-label="Sual">
   <progress id="pictureMeter" class="picture-meter" max="10" value="0" aria-label="Cavablandırılmış suallar"></progress>
   <h2 id="picturePrompt" tabindex="-1">Bu şəkildə nə var?</h2>
-  <div id="pictureStage" class="picture-stage"></div>
+  <div class="picture-stage-wrap"><div id="pictureStage" class="picture-stage"></div></div>
   <div id="pictureOptions" class="picture-options" role="group" aria-label="Cavab variantları"></div>
-  <div id="pictureFeedback" class="picture-feedback" role="status" aria-live="polite" aria-atomic="true" hidden></div>
-  <button id="pictureNext" type="button" class="primary-button" hidden>Növbəti sual →</button>
-  <p class="picture-note picture-keys">Klaviatura: 1–4 ilə seç, Enter ilə davam et.</p>
+  <div class="picture-dock">
+   <p id="pictureHint" class="picture-hint">Variantlardan birini seç.<span class="keys-hint"> Klaviatura: 1–4 ilə seç, Enter ilə davam et.</span></p>
+   <div id="pictureFeedback" class="picture-feedback" role="status" aria-live="polite" aria-atomic="true" hidden></div>
+   <button id="pictureNext" type="button" class="primary-button" hidden><span class="next-label">Növbəti</span> →</button>
+  </div>
  </section>
  <section id="pictureResults" class="picture-content" hidden aria-label="Nəticə">
   <div class="eyebrow">NƏTİCƏ</div>
@@ -99,5 +101,5 @@
 <script src="race-data.js?v=736341e97713a89c"></script><script src="race.js?v=12ca173d78da0905"></script><script src="race-ui.js?v=c541f8e8e32b0969"></script>
 <script src="offline.js?v=3bd66d15dc378598"></script>
 <script src="growth.js?v=536e7738aa59764e"></script>
-<script src="orthography-lexical.js?v=ec4c58d5354f0d56"></script><script src="orthography-lexical-evidence.js?v=2ed8703db71bbaa6"></script><script src="print-definitions.js?v=ae12f794324093f3"></script><script src="orthography.js?v=9f2fd6e1283e71e3"></script><script src="verification.js?v=e294517e0f9c70bf"></script><script src="pictures.js?v=1efaea337529e2e0"></script><script src="picture-quiz.js?v=7818baf020da7790"></script><script src="picture-quiz-ui.js?v=fcec779af057a631"></script><script src="app.js?v=c26b05f5194d0f21"></script>
+<script src="orthography-lexical.js?v=ec4c58d5354f0d56"></script><script src="orthography-lexical-evidence.js?v=2ed8703db71bbaa6"></script><script src="print-definitions.js?v=ae12f794324093f3"></script><script src="orthography.js?v=9f2fd6e1283e71e3"></script><script src="verification.js?v=e294517e0f9c70bf"></script><script src="pictures.js?v=1efaea337529e2e0"></script><script src="picture-quiz.js?v=7818baf020da7790"></script><script src="picture-quiz-ui.js?v=06951d3017056bc7"></script><script src="app.js?v=c26b05f5194d0f21"></script>
 </body></html>

@@ -46,6 +46,8 @@ assert.equal([...$('pictureCategories').children].find(c => c.textContent.starts
 assert.equal(JSON.parse(storage.get('soz-toxumasi:picture-quiz:v1')).category, 'animals');
 $('pictureStart').click();
 assert(!$('picturePlay').hidden && $('pictureIntro').hidden);
+assert(page.classList.contains('is-playing'), 'a question is locked to one screen');
+assert(!$('pictureHint').hidden && $('pictureFeedback').hidden, 'hint until answered');
 assert.equal($('pictureStage').querySelectorAll('svg').length, 1, 'one picture on the stage');
 assert.equal($('pictureStage').getAttribute('aria-label'), 'Tapılacaq şəkil', 'the label does not give the answer away');
 assert.equal(options().length, 4);
@@ -62,10 +64,12 @@ for (let i = 0; i < 10; i++) {
   assert(animalWords.has(right), 'question comes from the chosen topic');
   const pick = i === 0 ? words.find(w => w !== right) : right;
   key(String(words.indexOf(pick) + 1));
-  assert(!$('pictureFeedback').hidden);
+  assert(!$('pictureFeedback').hidden && $('pictureHint').hidden, 'answer bar replaces the hint');
+  assert(!$('pictureNext').hidden && /→/.test($('pictureNext').textContent), 'next button sits in the answer bar');
+  assert.equal($('pictureNext').parentElement, $('pictureFeedback').parentElement, 'next button beside the result');
   assert(options().every(b => b.disabled));
   assert.equal(options().find(b => b.dataset.word === right).classList.contains('correct'), true);
-  if (pick !== right) { assert(options().find(b => b.dataset.word === pick).classList.contains('incorrect')); assert.match($('pictureFeedback').textContent, /alınmadı/); }
+  if (pick !== right) { assert(options().find(b => b.dataset.word === pick).classList.contains('incorrect')); assert.match($('pictureFeedback').textContent, /alınmadı/); assert.match($('pictureFeedback').textContent, /Düzgün cavab:/); }
   else correct++;
   assert($('pictureFeedback').querySelector('.feedback-word').textContent === right);
   assert($('pictureFeedback').querySelectorAll('p[lang=az], p[lang=en]').length >= 2, 'bilingual definition after answering');
@@ -76,6 +80,7 @@ for (let i = 0; i < 10; i++) {
   key('Enter');
 }
 assert(!$('pictureResults').hidden && $('picturePlay').hidden);
+assert(!page.classList.contains('is-playing'), 'results can scroll');
 assert.equal($('pictureResultScore').textContent, '9 / 10');
 assert.equal($('pictureReview').children.length, 10);
 assert($('pictureReview').querySelectorAll('svg').length === 10, 'review shows each picture');

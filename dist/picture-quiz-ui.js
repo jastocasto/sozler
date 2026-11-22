@@ -18,7 +18,8 @@ function mount({model,html,onMap}){
  }
  const categoryLabel=id=>id==='all'?'Hamısı':engine.categories.find(c=>c.id===id)?.label||id;
  function definition(word){const n=model.byWord.get(word),info=root.WordInfo?.describeWord?.(n,model.byWord);return {az:info?.definition||n.az||'',en:info?.definitionEnglish||n.en||''};}
- function show(section){for(const id of ['pictureIntro','picturePlay','pictureResults'])$(id).hidden=id!==section;page.scrollTop=0;}
+ // While a question is open the page is locked to one screen: the picture shrinks to fit, nothing scrolls.
+ function show(section){for(const id of ['pictureIntro','picturePlay','pictureResults'])$(id).hidden=id!==section;page.classList.toggle('is-playing',section==='picturePlay');page.scrollTop=0;}
  function renderIntro(){
   for(const b of page.querySelectorAll('[data-picture-mode]'))b.setAttribute('aria-pressed',String(b.dataset.pictureMode===settings.mode));
   const holder=$('pictureCategories');holder.replaceChildren();
@@ -48,14 +49,14 @@ function mount({model,html,onMap}){
    $('picturePrompt').textContent='Bu söz hansı şəkildir?';stage.className='picture-stage is-word';
    stage.removeAttribute('role');stage.removeAttribute('aria-label');const w=html('p','stage-word',q.answer.word);w.lang='az';stage.append(w);
   }
-  options.className='picture-options '+(quiz.mode==='word'?'is-pictures':'is-words');
+  options.className='picture-options '+(quiz.mode==='word'?'is-pictures':'is-words');$('picturePlay').classList.toggle('is-word',quiz.mode==='word');
   q.options.forEach((item,index)=>{
    const b=html('button','picture-option'),number=html('span','option-number',String(index+1));b.type='button';b.dataset.word=item.word;number.setAttribute('aria-hidden','true');b.append(number);
    if(quiz.mode==='word'){b.append(picture(item));b.setAttribute('aria-label','Şəkil '+(index+1));}
    else{const label=html('span','option-word',item.word);label.lang='az';b.append(label);}
    b.onclick=()=>submit(item.word);options.append(b);
   });
-  $('pictureFeedback').replaceChildren();$('pictureFeedback').hidden=true;$('pictureNext').hidden=true;
+  $('pictureFeedback').replaceChildren();$('pictureFeedback').hidden=true;$('pictureNext').hidden=true;$('pictureHint').hidden=false;
   $('picturePrompt').focus({preventScroll:true});
  }
  function submit(word){
@@ -71,13 +72,16 @@ function mount({model,html,onMap}){
    }
   }
   if(quiz.mode==='picture')$('pictureStage').setAttribute('aria-label','Şəkil: '+q.answer.word);
-  const feedback=$('pictureFeedback'),d=definition(q.answer.word);feedback.hidden=false;feedback.classList.toggle('is-correct',result.correct);
-  feedback.append(html('strong','',result.correct?'Doğrudur.':'Bu dəfə alınmadı.'));
-  const named=html('p','feedback-word',q.answer.word);named.lang='az';feedback.append(named);
-  const az=html('p','',d.az),en=html('p','',d.en);az.lang='az';en.lang='en';feedback.append(az,en);
-  const open=html('button','quiet-link','Sözü xəritədə aç ↗');open.type='button';open.onclick=()=>onMap(q.answer.word);feedback.append(open);
+  // Compact result: mark, word, map link, a two-line definition and the English gloss, beside the Next button.
+  const feedback=$('pictureFeedback'),d=definition(q.answer.word),head=html('p','feedback-head');feedback.hidden=false;$('pictureHint').hidden=true;
+  feedback.classList.toggle('is-correct',result.correct);
+  head.append(html('span','feedback-mark',result.correct?'✓':'×'),html('strong','feedback-status',result.correct?'Doğrudur.':'Bu dəfə alınmadı.'),' ');
+  if(!result.correct)head.append(html('span','feedback-label','Düzgün cavab:'));
+  const named=html('span','feedback-word',q.answer.word);named.lang='az';head.append(named);
+  const open=html('button','quiet-link feedback-map','↗');open.type='button';open.setAttribute('aria-label',q.answer.word+' sözünü xəritədə aç');open.title='Sözü xəritədə aç';open.onclick=()=>onMap(q.answer.word);head.append(open);
+  const az=html('p','feedback-az',d.az),en=html('p','feedback-en',d.en);az.lang='az';en.lang='en';feedback.append(head,az,en);
   $('pictureProgress').textContent=scoreText();$('pictureMeter').value=quiz.answers.length;
-  $('pictureNext').textContent=quiz.index===quiz.questions.length-1?'Nəticəyə bax →':'Növbəti sual →';$('pictureNext').hidden=false;$('pictureNext').focus({preventScroll:true});$('pictureNext').scrollIntoView?.({block:'nearest',behavior:root.matchMedia?.('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});
+  $('pictureNext').replaceChildren(html('span','next-label',quiz.index===quiz.questions.length-1?'Nəticə':'Növbəti'),' →');$('pictureNext').hidden=false;$('pictureNext').focus({preventScroll:true});
  }
  function finish(){
   show('pictureResults');
