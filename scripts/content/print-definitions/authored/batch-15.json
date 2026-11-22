@@ -1,0 +1,1184 @@
+{
+"exoosteoskop": {
+"skip": "meaning not known with confidence"
+},
+"exopatiya": {
+"skip": "meaning not known with confidence"
+},
+"exosimptomlar": {
+"skip": "meaning not known with confidence"
+},
+"ejeksiya": {
+"az": "Atılma, çıxarılma.",
+"en": "ejection",
+"pos": "noun"
+},
+"ekametr": {
+"skip": "meaning not known with confidence"
+},
+"eklektik-ensiklopedist": {
+"az": "Eklektik ensiklopedist.",
+"en": "eclectic encyclopedist",
+"pos": "noun"
+},
+"eklezionim": {
+"az": "Kilsə adı.",
+"en": "ecclesionym",
+"pos": "noun"
+},
+"ekliptika": {
+"az": "Günəşin illik görünən yolu.",
+"en": "ecliptic",
+"pos": "noun"
+},
+"ekloqa": {
+"az": "Çoban həyatından bəhs edən şeir.",
+"en": "eclogue",
+"pos": "noun"
+},
+"ekobiont": {
+"skip": "meaning not known with confidence"
+},
+"ekofuturologiya": {
+"az": "Ekologiyanın gələcəyini proqnozlaşdıran sahə.",
+"en": "ecofuturology",
+"pos": "noun"
+},
+"ekogenez": {
+"az": "Ekosistemin yaranması.",
+"en": "ecogenesis",
+"pos": "noun"
+},
+"ekoiqlim": {
+"az": "Ekosistemin iqlimi.",
+"en": "ecoclimate",
+"pos": "noun"
+},
+"ekologis": {
+"skip": "meaning not known with confidence"
+},
+"ekomarka": {
+"az": "Ekoloji təmizlik nişanı.",
+"en": "eco-label",
+"pos": "noun"
+},
+"ekomorf": {
+"az": "Mühitə uyğun forma.",
+"en": "ecomorph",
+"pos": "noun"
+},
+"ekonom": {
+"az": "Qənaətcil; iqtisad sinfi.",
+"en": "economy (class)",
+"pos": "noun"
+},
+"ekonometrika": {
+"az": "İqtisadiyyatda riyazi-statistik üsullar.",
+"en": "econometrics",
+"pos": "noun"
+},
+"ekonomizm": {
+"az": "İqtisadi mübarizəni üstün tutan cərəyan.",
+"en": "economism",
+"pos": "noun"
+},
+"ekopolis": {
+"az": "Ekoloji şəhər.",
+"en": "ecopolis",
+"pos": "noun"
+},
+"ekosinif": {
+"skip": "meaning not known with confidence"
+},
+"ekotoks": {
+"skip": "meaning not known with confidence"
+},
+"ekotoksikant": {
+"az": "Ətraf mühiti zəhərləyən maddə.",
+"en": "ecotoxicant",
+"pos": "noun"
+},
+"ekotop": {
+"az": "Ekosistemin yaşayış yeri.",
+"en": "ecotope",
+"pos": "noun"
+},
+"ekranlaşdırıcı": {
+"az": "Ekran yaradan.",
+"en": "screening",
+"pos": "adjective"
+},
+"ekranlayıcı": {
+"az": "Ekranlayan qurğu.",
+"en": "shield",
+"pos": "noun"
+},
+"eksfoliasiya": {
+"az": "Qatların qopması.",
+"en": "exfoliation",
+"pos": "noun"
+},
+"eksfoliativ": {
+"az": "Qopmalı.",
+"en": "exfoliative",
+"pos": "adjective"
+},
+"ekshumasiya": {
+"az": "Meyitin qəbirdən çıxarılması.",
+"en": "exhumation",
+"pos": "noun"
+},
+"eksistensial": {
+"az": "Varlığa aid.",
+"en": "existential",
+"pos": "adjective"
+},
+"eks-kansler": {
+"az": "Keçmiş kansler.",
+"en": "former chancellor",
+"pos": "noun"
+},
+"ekskresiya": {
+"az": "İfrazat.",
+"en": "excretion",
+"pos": "noun"
+},
+"ekskret": {
+"az": "İfraz olunan maddə.",
+"en": "excreta",
+"pos": "noun"
+},
+"ekskursovod": {
+"az": "Ekskursiya bələdçisi.",
+"en": "tour guide",
+"pos": "noun"
+},
+"eks-mer": {
+"az": "Keçmiş mer.",
+"en": "former mayor",
+"pos": "noun"
+},
+"ekspander": {
+"az": "Əzələ məşqi aləti.",
+"en": "chest expander",
+"pos": "noun"
+},
+"ekspirasiya": {
+"az": "Nəfəsvermə.",
+"en": "expiration",
+"pos": "noun"
+},
+"ekspirator": {
+"skip": "meaning not known with confidence"
+},
+"eksplantat": {
+"az": "Orqanizmdən götürülmüş toxuma parçası.",
+"en": "explant",
+"pos": "noun"
+},
+"eksplerent": {
+"skip": "meaning not known with confidence"
+},
+"ekspletiv": {
+"az": "Əlavə söz.",
+"en": "expletive",
+"pos": "noun"
+},
+"eksplisit": {
+"az": "Açıq ifadə olunmuş.",
+"en": "explicit",
+"pos": "adjective"
+},
+"eksploziv": {
+"az": "Partlayıcı.",
+"en": "explosive",
+"pos": "adjective"
+},
+"eksploziya": {
+"az": "Partlayış.",
+"en": "explosion",
+"pos": "noun"
+},
+"eksponent": {
+"az": "Üst göstərici.",
+"en": "exponent",
+"pos": "noun"
+},
+"eksponometr": {
+"az": "İşıqlanma ölçən cihaz.",
+"en": "exposure meter",
+"pos": "noun"
+},
+"ekspressiya": {
+"az": "İfadəlilik.",
+"en": "expression",
+"pos": "noun"
+},
+"ekspulverizasiya": {
+"skip": "meaning not known with confidence"
+},
+"ekssentrizm": {
+"skip": "meaning not known with confidence"
+},
+"eks-spiker": {
+"az": "Keçmiş spiker.",
+"en": "former speaker",
+"pos": "noun"
+},
+"ekstensional": {
+"az": "Həcm baxımından.",
+"en": "extensional",
+"pos": "adjective"
+},
+"ekstenziya": {
+"az": "Açılma, uzanma.",
+"en": "extension",
+"pos": "noun"
+},
+"eksteroreseptor": {
+"az": "Xarici qıcıqları qəbul edən reseptor.",
+"en": "exteroceptor",
+"pos": "noun"
+},
+"ekstirpasiya": {
+"az": "Orqanın tam çıxarılması.",
+"en": "extirpation",
+"pos": "noun"
+},
+"ekstradisiya": {
+"az": "Cinayətkarın başqa dövlətə verilməsi.",
+"en": "extradition",
+"pos": "noun"
+},
+"ekstraksiya": {
+"az": "Çıxarma.",
+"en": "extraction",
+"pos": "noun"
+},
+"ekstralinqvistik": {
+"az": "Dildənkənar.",
+"en": "extralinguistic",
+"pos": "adjective"
+},
+"ekstrapiramid": {
+"az": "Piramid yollarından kənar.",
+"en": "extrapyramidal",
+"pos": "adjective"
+},
+"ekstrapolyator": {
+"skip": "meaning not known with confidence"
+},
+"ekstrasensizm": {
+"az": "Ekstrasensor qabiliyyətlərə inam.",
+"en": "belief in extrasensory powers",
+"pos": "noun"
+},
+"ekstraton": {
+"skip": "meaning not known with confidence"
+},
+"ekstravazat": {
+"az": "Damardan sızan maye.",
+"en": "extravasate",
+"pos": "noun"
+},
+"ekstruder": {
+"az": "Materialı sıxıb kalıpdan keçirən maşın.",
+"en": "extruder",
+"pos": "noun"
+},
+"ektaziya": {
+"az": "Genişlənmə.",
+"en": "ectasia",
+"pos": "noun"
+},
+"ektodermal": {
+"az": "Ektodermaya aid.",
+"en": "ectodermal",
+"pos": "adjective"
+},
+"ektofit": {
+"az": "Xarici parazit bitki.",
+"en": "ectophyte",
+"pos": "noun"
+},
+"ektogenez": {
+"az": "Bədəndən kənar inkişaf.",
+"en": "ectogenesis",
+"pos": "noun"
+},
+"ektomiya": {
+"az": "Çıxarma əməliyyatı.",
+"en": "ectomy",
+"pos": "noun"
+},
+"ektomorfiya": {
+"az": "Arıq bədən tipi.",
+"en": "ectomorphy",
+"pos": "noun"
+},
+"ektopiya": {
+"az": "Orqanın qeyri-adi yerləşməsi.",
+"en": "ectopia",
+"pos": "noun"
+},
+"ektropiya": {
+"az": "Göz qapağının çevrilməsi.",
+"en": "ectropion",
+"pos": "noun"
+},
+"ekvalayzer": {
+"az": "Səs tezliklərini tənzimləyən qurğu.",
+"en": "equalizer",
+"pos": "noun"
+},
+"ekvayer": {
+"az": "Kart əməliyyatlarına xidmət edən bank.",
+"en": "acquirer",
+"pos": "noun"
+},
+"ekvayrinq": {
+"az": "Kartla ödənişlərin qəbulu.",
+"en": "acquiring",
+"pos": "noun"
+},
+"ekvilibristika": {
+"az": "Tarazlıq sənəti.",
+"en": "equilibristics",
+"pos": "noun"
+},
+"ekviritmik": {
+"az": "Eyni ritmli.",
+"en": "equirhythmic",
+"pos": "adjective"
+},
+"ekzantema": {
+"az": "Dəri səpgisi.",
+"en": "exanthema",
+"pos": "noun"
+},
+"ekzarx": {
+"az": "Pravoslav kilsəsində yüksək rütbə.",
+"en": "exarch",
+"pos": "noun"
+},
+"ekzeksiya": {
+"skip": "meaning not known with confidence"
+},
+"ekzekusiya": {
+"az": "İcra, cəzanın icrası.",
+"en": "execution",
+"pos": "noun"
+},
+"ekzekvatura": {
+"az": "Konsula verilən icazə.",
+"en": "exequatur",
+"pos": "noun"
+},
+"ekzerez": {
+"az": "Cərrahi çıxarma.",
+"en": "exeresis",
+"pos": "noun"
+},
+"ekzistans": {
+"az": "Mövcudluq.",
+"en": "existence",
+"pos": "noun"
+},
+"ekzistensial": {
+"az": "Varlığa aid.",
+"en": "existential",
+"pos": "adjective"
+},
+"ekzitpol": {
+"az": "Seçki məntəqəsindən çıxışda sorğu.",
+"en": "exit poll",
+"pos": "noun"
+},
+"ekzoderma": {
+"az": "Xarici qat.",
+"en": "exoderm",
+"pos": "noun"
+},
+"ekzofaziya": {
+"az": "Səsli nitq.",
+"en": "exophasia",
+"pos": "noun"
+},
+"ekzofit": {
+"az": "Xaricə böyüyən şiş.",
+"en": "exophytic tumour",
+"pos": "noun"
+},
+"ekzoftalm": {
+"az": "Göz almasının irəli çıxması.",
+"en": "exophthalmos",
+"pos": "noun"
+},
+"ekzogen": {
+"az": "Xarici mənşəli.",
+"en": "exogenous",
+"pos": "adjective"
+},
+"ekzokrin": {
+"az": "Xarici sekresiyalı.",
+"en": "exocrine",
+"pos": "adjective"
+},
+"ekzoqamiya": {
+"az": "Qəbilədən kənar evlilik.",
+"en": "exogamy",
+"pos": "noun"
+},
+"ekzonim": {
+"az": "Yer adının xarici dildəki forması.",
+"en": "exonym",
+"pos": "noun"
+},
+"ekzorsizm": {
+"az": "Cin çıxarma ayini.",
+"en": "exorcism",
+"pos": "noun"
+},
+"ekzosentrik": {
+"az": "Mərkəzi xaricdə olan.",
+"en": "exocentric",
+"pos": "adjective"
+},
+"ekzosfera": {
+"az": "Atmosferin ən xarici qatı.",
+"en": "exosphere",
+"pos": "noun"
+},
+"ekzostoz": {
+"az": "Sümük çıxıntısı.",
+"en": "exostosis",
+"pos": "noun"
+},
+"ekzoterik": {
+"az": "Hamı üçün açıq.",
+"en": "exoteric",
+"pos": "adjective"
+},
+"ekzoterizm": {
+"az": "Ekzoterik xarakter.",
+"en": "exotericism",
+"pos": "noun"
+},
+"ekzotermik": {
+"az": "İstilik ayıran.",
+"en": "exothermic",
+"pos": "adjective"
+},
+"eqo": {
+"az": "Mən, şəxsiyyət.",
+"en": "ego",
+"pos": "noun"
+},
+"eqofoniya": {
+"skip": "meaning not known with confidence"
+},
+"eqomaniya": {
+"az": "Özünə həddən artıq düşkünlük.",
+"en": "egomania",
+"pos": "noun"
+},
+"eqosentrik": {
+"az": "Özünü mərkəz sayan.",
+"en": "egocentric",
+"pos": "adjective"
+},
+"elamca": {
+"az": "Elam dilində.",
+"en": "in Elamite",
+"pos": "adverb"
+},
+"elarası": {
+"az": "Ellər arasında.",
+"en": "between peoples",
+"pos": "adjective"
+},
+"elastoliz": {
+"skip": "meaning not known with confidence"
+},
+"elastoz": {
+"az": "Elastik liflərin dəyişməsi.",
+"en": "elastosis",
+"pos": "noun"
+},
+"elativ": {
+"az": "Çıxışlıq halı.",
+"en": "elative",
+"pos": "noun"
+},
+"elektorat": {
+"az": "Seçicilər.",
+"en": "electorate",
+"pos": "noun"
+},
+"elektrikkeçirən": {
+"az": "Cərəyan keçirən.",
+"en": "conductive",
+"pos": "adjective"
+},
+"elektrikləşdirici": {
+"az": "Elektrikləşdirən.",
+"en": "electrifying",
+"pos": "adjective"
+},
+"elektrikölçmə": {
+"az": "Elektrik ölçmə.",
+"en": "electrical measurement",
+"pos": "noun"
+},
+"elektroanalgeziya": {
+"az": "Elektriklə ağrısızlaşdırma.",
+"en": "electroanalgesia",
+"pos": "noun"
+},
+"elektrobur": {
+"az": "Elektrik qazma aləti.",
+"en": "electric drill (well)",
+"pos": "noun"
+},
+"elektrobus": {
+"az": "Elektrik avtobusu.",
+"en": "electric bus",
+"pos": "noun"
+},
+"elektroepilyasiya": {
+"az": "Elektriklə tük təmizləmə.",
+"en": "electrolysis hair removal",
+"pos": "noun"
+},
+"elektroepilyator": {
+"az": "Elektrik epilyator.",
+"en": "electric epilator",
+"pos": "noun"
+},
+"elektrofon": {
+"az": "Elektrik musiqi aləti.",
+"en": "electrophone",
+"pos": "noun"
+},
+"elektrofor": {
+"az": "Elektrostatik yük toplayan cihaz.",
+"en": "electrophorus",
+"pos": "noun"
+},
+"elektroforez": {
+"az": "Hissəciklərin elektrik sahəsində hərəkəti.",
+"en": "electrophoresis",
+"pos": "noun"
+},
+"elektroxod": {
+"az": "Elektrikli gəmi.",
+"en": "electric ship",
+"pos": "noun"
+},
+"elektroizolit": {
+"skip": "meaning not known with confidence"
+},
+"elektrokar": {
+"az": "Elektrik arabası.",
+"en": "electric cart",
+"pos": "noun"
+},
+"elektrolitik": {
+"az": "Elektrolizə aid.",
+"en": "electrolytic",
+"pos": "adjective"
+},
+"elektrolüminessent": {
+"az": "Elektriklə işıqlanan.",
+"en": "electroluminescent",
+"pos": "adjective"
+},
+"elektroneyroqram": {
+"az": "Sinir fəaliyyətinin yazısı.",
+"en": "electroneurogram",
+"pos": "noun"
+},
+"elektroneyromioqrafiya": {
+"az": "Sinir və əzələlərin elektrik fəaliyyətinin yazılması.",
+"en": "electroneuromyography",
+"pos": "noun"
+},
+"elektrooptiki": {
+"az": "Elektrooptikaya aid.",
+"en": "electro-optical",
+"pos": "adjective"
+},
+"elektropnevmatika": {
+"az": "Elektrik və pnevmatik idarəetmə.",
+"en": "electropneumatics",
+"pos": "noun"
+},
+"elektrostimulyasiya": {
+"az": "Elektriklə stimullaşdırma.",
+"en": "electrical stimulation",
+"pos": "noun"
+},
+"elektroşok": {
+"az": "Elektrik şoku ilə müalicə.",
+"en": "electroshock",
+"pos": "noun"
+},
+"elektrotermik": {
+"az": "Elektrotermiyaya aid.",
+"en": "electrothermal",
+"pos": "adjective"
+},
+"eleron": {
+"az": "Təyyarə qanadında hərəkətli hissə.",
+"en": "aileron",
+"pos": "noun"
+},
+"elxani": {
+"az": "Elxanilər dövlətinə aid.",
+"en": "Ilkhanid",
+"pos": "adjective"
+},
+"eliksir": {
+"az": "Möcüzəli içki; dərman məhlulu.",
+"en": "elixir",
+"pos": "noun"
+},
+"eliminasiya": {
+"az": "Kənarlaşdırma.",
+"en": "elimination",
+"pos": "noun"
+},
+"elli-obalı": {
+"az": "El-oba sahibi.",
+"en": "with kin and community",
+"pos": "adjective"
+},
+"ellipsis": {
+"az": "Cümlədə sözün buraxılması.",
+"en": "ellipsis",
+"pos": "noun"
+},
+"elmi-ateistik": {
+"az": "Elmi ateizmə aid.",
+"en": "scientific-atheist",
+"pos": "adjective"
+},
+"elmi-polemik": {
+"az": "Elmi mübahisəyə aid.",
+"en": "scientific-polemical",
+"pos": "adjective"
+},
+"elüvial": {
+"az": "Yerində aşınmış süxura aid.",
+"en": "eluvial",
+"pos": "adjective"
+},
+"elüvial-delüvial": {
+"az": "Elüvial və delüvial.",
+"en": "eluvial-deluvial",
+"pos": "adjective"
+},
+"emaletmə": {
+"az": "Emal etmə.",
+"en": "processing",
+"pos": "noun"
+},
+"emanasiya": {
+"az": "Çıxma, şüalanma.",
+"en": "emanation",
+"pos": "noun"
+},
+"emanoterapiya": {
+"az": "Radon ilə müalicə.",
+"en": "radon therapy",
+"pos": "noun"
+},
+"emansipasiya": {
+"az": "Azad olma, bərabərhüquqluluq.",
+"en": "emancipation",
+"pos": "noun"
+},
+"embrio": {
+"az": "Rüşeym.",
+"en": "embryo",
+"pos": "noun"
+},
+"embriodiya": {
+"skip": "meaning not known with confidence"
+},
+"embriokardiya": {
+"az": "Ürək ritmi pozğunluğu.",
+"en": "embryocardia",
+"pos": "noun"
+},
+"embrional": {
+"az": "Rüşeymə aid.",
+"en": "embryonic",
+"pos": "adjective"
+},
+"embriopatiya": {
+"az": "Rüşeymin inkişaf qüsuru.",
+"en": "embryopathy",
+"pos": "noun"
+},
+"embriotoksik": {
+"az": "Rüşeymə zərərli.",
+"en": "embryotoxic",
+"pos": "adjective"
+},
+"emfizematoz": {
+"az": "Emfizemalı.",
+"en": "emphysematous",
+"pos": "adjective"
+},
+"emixofobiya": {
+"skip": "meaning not known with confidence"
+},
+"emotikon": {
+"az": "Emosiya işarəsi.",
+"en": "emoticon",
+"pos": "noun"
+},
+"empidi": {
+"skip": "meaning not known with confidence"
+},
+"empiriya": {
+"az": "Təcrübə.",
+"en": "empirical experience",
+"pos": "noun"
+},
+"emulqator": {
+"az": "Emulsiya yaradan maddə.",
+"en": "emulsifier",
+"pos": "noun"
+},
+"enameloma": {
+"az": "Diş minasının şişi.",
+"en": "enameloma",
+"pos": "noun"
+},
+"enantiosemiya": {
+"az": "Sözün əks mənalar daşıması.",
+"en": "enantiosemy",
+"pos": "noun"
+},
+"enantibioz": {
+"skip": "meaning not known with confidence"
+},
+"endaortit": {
+"az": "Aortanın daxili qişasının iltihabı.",
+"en": "endaortitis",
+"pos": "noun"
+},
+"endoderma": {
+"az": "Daxili rüşeym qatı.",
+"en": "endoderm",
+"pos": "noun"
+},
+"endofaq": {
+"skip": "meaning not known with confidence"
+},
+"endogen": {
+"az": "Daxili mənşəli.",
+"en": "endogenous",
+"pos": "adjective"
+},
+"endogenez": {
+"az": "Daxili qüvvələrlə inkişaf.",
+"en": "endogenesis",
+"pos": "noun"
+},
+"endokard": {
+"az": "Ürəyin daxili qişası.",
+"en": "endocardium",
+"pos": "noun"
+},
+"endokardial": {
+"az": "Endokarda aid.",
+"en": "endocardial",
+"pos": "adjective"
+},
+"endokrin": {
+"az": "Daxili sekresiyalı.",
+"en": "endocrine",
+"pos": "adjective"
+},
+"endoqam": {
+"az": "Endoqamiyaya əməl edən.",
+"en": "endogamous",
+"pos": "adjective"
+},
+"endoqamiya": {
+"az": "Qrup daxilində evlilik.",
+"en": "endogamy",
+"pos": "noun"
+},
+"endometrik": {
+"skip": "meaning not known with confidence"
+},
+"endonevral": {
+"az": "Sinir daxilində olan.",
+"en": "endoneural",
+"pos": "adjective"
+},
+"endosentrik": {
+"az": "Mərkəzi daxildə olan.",
+"en": "endocentric",
+"pos": "adjective"
+},
+"endoskop": {
+"az": "Daxili orqanları müayinə cihazı.",
+"en": "endoscope",
+"pos": "noun"
+},
+"endoskopik": {
+"az": "Endoskopiyaya aid.",
+"en": "endoscopic",
+"pos": "adjective"
+},
+"endosmometr": {
+"skip": "meaning not known with confidence"
+},
+"endotermiya": {
+"az": "İstilik udma.",
+"en": "endothermy",
+"pos": "noun"
+},
+"endotoksemiya": {
+"az": "Qanda endotoksinlər.",
+"en": "endotoxaemia",
+"pos": "noun"
+},
+"eneolit": {
+"az": "Mis-daş dövrü.",
+"en": "Chalcolithic",
+"pos": "noun"
+},
+"enervasiya": {
+"az": "Sinirsizləşmə.",
+"en": "enervation",
+"pos": "noun"
+},
+"enəcək-qalxacaq": {
+"az": "Enib-qalxacaq.",
+"en": "going up and down",
+"pos": "adjective"
+},
+"enə-en": {
+"az": "Eninə.",
+"en": "crosswise",
+"pos": "adverb"
+},
+"eninə-boyuna": {
+"az": "Eninə və uzununa, hərtərəfli.",
+"en": "thoroughly",
+"pos": "adverb"
+},
+"enissofobiya": {
+"skip": "meaning not known with confidence"
+},
+"enlədə-enlədə": {
+"az": "Enlədə-enlədə, genişlənərək.",
+"en": "widening",
+"pos": "adverb"
+},
+"enlidiş": {
+"az": "Dişi enli.",
+"en": "broad-toothed",
+"pos": "adjective"
+},
+"enliqol": {
+"az": "Qolu enli.",
+"en": "wide-sleeved",
+"pos": "adjective"
+},
+"enologiya": {
+"az": "Şərabçılıq elmi.",
+"en": "oenology",
+"pos": "noun"
+},
+"enoteka": {
+"az": "Şərab kolleksiyası.",
+"en": "wine cellar",
+"pos": "noun"
+},
+"enoterapiya": {
+"az": "Şərabla müalicə.",
+"en": "oenotherapy",
+"pos": "noun"
+},
+"ensefaloqrafiya": {
+"az": "Beynin müayinəsi.",
+"en": "encephalography",
+"pos": "noun"
+},
+"ensefalomielit": {
+"az": "Beyin və onurğa iliyinin iltihabı.",
+"en": "encephalomyelitis",
+"pos": "noun"
+},
+"ensefalopatiya": {
+"az": "Beyin xəstəliyi.",
+"en": "encephalopathy",
+"pos": "noun"
+},
+"ensizlətmə": {
+"az": "Ensizləşdirmə.",
+"en": "narrowing",
+"pos": "noun"
+},
+"enterogen": {
+"az": "Bağırsaq mənşəli.",
+"en": "enterogenous",
+"pos": "adjective"
+},
+"enteroqastral": {
+"az": "Bağırsaq və mədəyə aid.",
+"en": "enterogastric",
+"pos": "adjective"
+},
+"enteroskop": {
+"az": "Bağırsağı müayinə cihazı.",
+"en": "enteroscope",
+"pos": "noun"
+},
+"enterospazm": {
+"az": "Bağırsaq qıcolması.",
+"en": "enterospasm",
+"pos": "noun"
+},
+"enterovirus": {
+"az": "Bağırsaq virusu.",
+"en": "enterovirus",
+"pos": "noun"
+},
+"entodermik": {
+"az": "Entodermaya aid.",
+"en": "endodermal",
+"pos": "adjective"
+},
+"entomofaq": {
+"az": "Həşəratyeyən.",
+"en": "entomophage",
+"pos": "noun"
+},
+"entomofobiya": {
+"az": "Həşəratdan qorxu.",
+"en": "entomophobia",
+"pos": "noun"
+},
+"entropik": {
+"az": "Entropiyaya aid.",
+"en": "entropic",
+"pos": "adjective"
+},
+"entropiya": {
+"az": "Sistemin nizamsızlıq ölçüsü.",
+"en": "entropy",
+"pos": "noun"
+},
+"enukleasiya": {
+"az": "Bütöv çıxarma.",
+"en": "enucleation",
+"pos": "noun"
+},
+"enurez": {
+"az": "Sidik saxlamama.",
+"en": "enuresis",
+"pos": "noun"
+},
+"enzim": {
+"az": "Ferment.",
+"en": "enzyme",
+"pos": "noun"
+},
+"enzimatik": {
+"az": "Fermentativ.",
+"en": "enzymatic",
+"pos": "adjective"
+},
+"enzimologiya": {
+"az": "Fermentləri öyrənən elm.",
+"en": "enzymology",
+"pos": "noun"
+},
+"enzimopatiya": {
+"az": "Ferment çatışmazlığı xəstəliyi.",
+"en": "enzymopathy",
+"pos": "noun"
+},
+"enzimoterapiya": {
+"az": "Fermentlərlə müalicə.",
+"en": "enzyme therapy",
+"pos": "noun"
+},
+"eozin": {
+"az": "Qırmızı boyaq.",
+"en": "eosin",
+"pos": "noun"
+},
+"eozofobiya": {
+"az": "Səhərdən qorxu.",
+"en": "eosophobia",
+"pos": "noun"
+},
+"epataj": {
+"az": "Qəsdən təəccübləndirmə.",
+"en": "épatage",
+"pos": "noun"
+},
+"ependimit": {
+"az": "Beyin mədəciklərinin iltihabı.",
+"en": "ependymitis",
+"pos": "noun"
+},
+"epenteza": {
+"az": "Sözə səs artırılması.",
+"en": "epenthesis",
+"pos": "noun"
+},
+"epeyrologiya": {
+"skip": "meaning not known with confidence"
+},
+"epiderma": {
+"az": "Üst dəri qatı.",
+"en": "epidermis",
+"pos": "noun"
+},
+"epidermal": {
+"az": "Epidermaya aid.",
+"en": "epidermal",
+"pos": "adjective"
+},
+"epidermis": {
+"az": "Üst dəri qatı.",
+"en": "epidermis",
+"pos": "noun"
+},
+"epifarinqoskopiya": {
+"skip": "meaning not known with confidence"
+},
+"epifilaksiya": {
+"skip": "meaning not known with confidence"
+},
+"epifiz": {
+"az": "Beyin vəzisi; sümük ucu.",
+"en": "pineal gland; epiphysis",
+"pos": "noun"
+},
+"epifizar": {
+"az": "Epifizə aid.",
+"en": "epiphyseal",
+"pos": "adjective"
+},
+"epifizeoliz": {
+"az": "Sümük ucunun ayrılması.",
+"en": "epiphysiolysis",
+"pos": "noun"
+},
+"epifizit": {
+"az": "Epifizin iltihabı.",
+"en": "epiphysitis",
+"pos": "noun"
+},
+"epigenez": {
+"az": "Tədrici yeni törəmə ilə inkişaf.",
+"en": "epigenesis",
+"pos": "noun"
+},
+"epikürizm": {
+"az": "Epikür fəlsəfəsi.",
+"en": "Epicureanism",
+"pos": "noun"
+},
+"epiqastral": {
+"az": "Mədə üstü nahiyəyə aid.",
+"en": "epigastric",
+"pos": "adjective"
+},
+"epiqonizm": {
+"az": "Təqlidçilik.",
+"en": "epigonism",
+"pos": "noun"
+},
+"epilyasiya": {
+"az": "Tükün kökündən çıxarılması.",
+"en": "epilation",
+"pos": "noun"
+},
+"epilyator": {
+"az": "Tük çıxaran cihaz.",
+"en": "epilator",
+"pos": "noun"
+},
+"epimona": {
+"skip": "meaning not known with confidence"
+},
+"epipelagial": {
+"az": "Okeanın üst qatı.",
+"en": "epipelagic zone",
+"pos": "noun"
+},
+"epistaksiyofobiya": {
+"skip": "meaning not known with confidence"
+},
+"epistolyar": {
+"az": "Məktub janrına aid.",
+"en": "epistolary",
+"pos": "adjective"
+},
+"epiteldaxili": {
+"az": "Epitel daxilində.",
+"en": "intraepithelial",
+"pos": "adjective"
+},
+"epiteli": {
+"skip": "meaning not known with confidence"
+},
+"epizm": {
+"skip": "meaning not known with confidence"
+},
+"eponim": {
+"az": "Ad verən şəxs.",
+"en": "eponym",
+"pos": "noun"
+},
+"eponj": {
+"az": "Yumşaq toxunma parça.",
+"en": "sponge cloth",
+"pos": "noun"
+},
+"ereytofobiya": {
+"az": "Qızarmaqdan qorxu.",
+"en": "erythrophobia",
+"pos": "noun"
+},
+"eritroblast": {
+"az": "Eritrositin ilkin hüceyrəsi.",
+"en": "erythroblast",
+"pos": "noun"
+},
+"erqastoplazma": {
+"az": "Hüceyrədə dənəvər endoplazmatik şəbəkə.",
+"en": "ergastoplasm",
+"pos": "noun"
+},
+"erqativ dillər": {
+"az": "Erqativ quruluşlu dillər.",
+"en": "ergative languages",
+"pos": "noun"
+},
+"erqaziofobiya": {
+"az": "İşdən qorxu.",
+"en": "ergasiophobia",
+"pos": "noun"
+},
+"erqometr": {
+"az": "Gücü ölçən cihaz.",
+"en": "ergometer",
+"pos": "noun"
+},
+"erqon": {
+"skip": "meaning not known with confidence"
+}
+}

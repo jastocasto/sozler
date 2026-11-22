@@ -1,0 +1,1196 @@
+{
+"periton": {
+"az": "Qarın boşluğunu örtən seroz qişa.",
+"en": "peritoneum",
+"pos": "noun"
+},
+"fassiya": {
+"az": "Əzələləri örtən birləşdirici toxuma qişası.",
+"en": "fascia",
+"pos": "noun"
+},
+"bürger": {
+"az": "Kotletli bulka, hamburger.",
+"en": "burger",
+"pos": "noun"
+},
+"etnos": {
+"az": "Ortaq dil, mədəniyyət və mənşəyi olan insan birliyi.",
+"en": "ethnos, ethnic group",
+"pos": "noun"
+},
+"kondilus": {
+"az": "Sümüyün oynaq çıxıntısı.",
+"en": "condyle",
+"pos": "noun"
+},
+"kulis": {
+"az": "Səhnənin yan arxa hissəsi, pərdəarxası.",
+"en": "wings (of a stage)",
+"pos": "noun"
+},
+"qanqlion": {
+"az": "Sinir hüceyrələrinin düyünü.",
+"en": "ganglion",
+"pos": "noun"
+},
+"plevra": {
+"az": "Ağciyəri örtən seroz qişa.",
+"en": "pleura",
+"pos": "noun"
+},
+"alnıdik": {
+"az": "Alnı dik.",
+"en": "high-browed",
+"pos": "adjective"
+},
+"aloe": {
+"az": "Ətli yarpaqlı dərman bitkisi.",
+"en": "aloe",
+"pos": "noun"
+},
+"alogizm": {
+"az": "Məntiqsizlik.",
+"en": "alogism",
+"pos": "noun"
+},
+"alovlandırıcı": {
+"az": "Alovlandıran.",
+"en": "igniting; igniter",
+"pos": "adjective"
+},
+"alpaqa": {
+"az": "Cənubi Amerika dəvəkimisi; onun yunu.",
+"en": "alpaca",
+"pos": "noun"
+},
+"alpaut": {
+"skip": "meaning not known with confidence"
+},
+"alpenştok": {
+"az": "Uclu alpinist çubuğu.",
+"en": "alpenstock",
+"pos": "noun"
+},
+"alsız": {
+"skip": "meaning not known with confidence"
+},
+"altaist": {
+"az": "Altay dillərini öyrənən alim.",
+"en": "Altaicist",
+"pos": "noun"
+},
+"altar": {
+"az": "Məbəddə qurbangah.",
+"en": "altar",
+"pos": "noun"
+},
+"altaylı": {
+"az": "Altayda yaşayan.",
+"en": "Altaian",
+"pos": "noun"
+},
+"altdakı": {
+"az": "Altda olan.",
+"en": "lower",
+"pos": "adjective"
+},
+"alternasiya": {
+"az": "Növbələşmə, səslərin əvəzlənməsi.",
+"en": "alternation",
+"pos": "noun"
+},
+"altıca": {
+"skip": "meaning not known with confidence"
+},
+"altmışca": {
+"skip": "meaning not known with confidence"
+},
+"altmışillik": {
+"az": "Altmış illik.",
+"en": "sixtieth anniversary; sixty-year",
+"pos": "noun"
+},
+"alto": {
+"az": "Qadın və ya uşağın alçaq səsi.",
+"en": "alto",
+"pos": "noun"
+},
+"altunotu": {
+"skip": "meaning not known with confidence"
+},
+"alümoplast": {
+"skip": "meaning not known with confidence"
+},
+"alveolar": {
+"az": "Diş yuvağı ilə bağlı (səs).",
+"en": "alveolar",
+"pos": "adjective"
+},
+"alverxana": {
+"az": "Alver yeri.",
+"en": "trading place",
+"pos": "noun"
+},
+"amalqama": {
+"az": "Civənin metallarla ərintisi.",
+"en": "amalgam",
+"pos": "noun"
+},
+"amalqamasiya": {
+"az": "Civə ilə ərinti alma.",
+"en": "amalgamation",
+"pos": "noun"
+},
+"amansızlıqla": {
+"az": "Amansızcasına.",
+"en": "mercilessly",
+"pos": "adverb"
+},
+"amazon": {
+"az": "Döyüşkən qadın; amazon tutuquşusu.",
+"en": "Amazon (warrior woman)",
+"pos": "noun"
+},
+"amazonka": {
+"az": "Qadın atlı geyimi; qadın atlı.",
+"en": "riding habit; horsewoman",
+"pos": "noun"
+},
+"ambalaj": {
+"az": "Qablaşdırma.",
+"en": "packaging",
+"pos": "noun"
+},
+"ambistom": {
+"az": "Amerikada yaşayan quyruqlu suda-quruda yaşayan.",
+"en": "ambystoma salamander",
+"pos": "noun"
+},
+"ambivalent": {
+"az": "İkili, ziddiyyətli.",
+"en": "ambivalent",
+"pos": "adjective"
+},
+"ambulans": {
+"az": "Təcili yardım maşını.",
+"en": "ambulance",
+"pos": "noun"
+},
+"amenoreya": {
+"az": "Aybaşının kəsilməsi.",
+"en": "amenorrhoea",
+"pos": "noun"
+},
+"amensiya": {
+"az": "Kəskin şüur pozğunluğu.",
+"en": "amentia",
+"pos": "noun"
+},
+"amerikasayağı": {
+"az": "Amerika üsulu ilə.",
+"en": "American-style",
+"pos": "adverb"
+},
+"ametropiya": {
+"az": "Gözün refraksiya qüsuru.",
+"en": "ametropia",
+"pos": "noun"
+},
+"amfiarktik": {
+"az": "Arktikanın hər iki tərəfində yayılan.",
+"en": "amphi-arctic",
+"pos": "adjective"
+},
+"amfiatlantik": {
+"az": "Atlantikanın hər iki sahilində yayılan.",
+"en": "amphi-Atlantic",
+"pos": "adjective"
+},
+"amfiblastula": {
+"az": "Bəzi süngərlərin sürfəsi.",
+"en": "amphiblastula",
+"pos": "noun"
+},
+"amfibol-asbest": {
+"az": "Amfibol qrupundan asbest.",
+"en": "amphibole asbestos",
+"pos": "noun"
+},
+"amfisenoz": {
+"skip": "meaning not known with confidence"
+},
+"amfium": {
+"az": "Amerika suda-quruda yaşayanı.",
+"en": "amphiuma",
+"pos": "noun"
+},
+"amhar": {
+"az": "Efiopiyanın əsas xalqlarından biri.",
+"en": "Amhara",
+"pos": "noun"
+},
+"amid": {
+"az": "Ammonyakın üzvi törəməsi.",
+"en": "amide",
+"pos": "noun"
+},
+"amidobenzol": {
+"az": "Anilin.",
+"en": "aminobenzene",
+"pos": "noun"
+},
+"amidaz": {
+"az": "Amidləri parçalayan ferment.",
+"en": "amidase",
+"pos": "noun"
+},
+"amilnitrit": {
+"az": "Damargenişləndirici dərman.",
+"en": "amyl nitrite",
+"pos": "noun"
+},
+"amilopektin": {
+"az": "Nişastanın budaqlı komponenti.",
+"en": "amylopectin",
+"pos": "noun"
+},
+"amilaz": {
+"az": "Nişastanı parçalayan ferment.",
+"en": "amylase",
+"pos": "noun"
+},
+"amimiya": {
+"az": "Mimikanın itməsi.",
+"en": "amimia",
+"pos": "noun"
+},
+"aminazin": {
+"az": "Psixiatriyada işlənən sakitləşdirici dərman.",
+"en": "aminazine (chlorpromazine)",
+"pos": "noun"
+},
+"amital": {
+"az": "Yuxugətirici dərman.",
+"en": "amytal",
+"pos": "noun"
+},
+"ammonal": {
+"az": "Partlayıcı qarışıq.",
+"en": "ammonal",
+"pos": "noun"
+},
+"ammonit": {
+"az": "Qazıntı halında qalan molyusk; partlayıcı.",
+"en": "ammonite",
+"pos": "noun"
+},
+"amoralizm": {
+"az": "Əxlaq normalarını rədd etmə.",
+"en": "amoralism",
+"pos": "noun"
+},
+"ampeloqrafiya": {
+"az": "Üzüm sortlarını təsvir edən elm.",
+"en": "ampelography",
+"pos": "noun"
+},
+"ampelometriya": {
+"az": "Üzüm yarpaqlarının ölçülməsi.",
+"en": "ampelometry",
+"pos": "noun"
+},
+"amperaj": {
+"az": "Cərəyan şiddəti.",
+"en": "amperage",
+"pos": "noun"
+},
+"amplidin": {
+"az": "Elektrik maşın gücləndiricisi.",
+"en": "amplidyne",
+"pos": "noun"
+},
+"amplifikasiya": {
+"az": "Gücləndirmə.",
+"en": "amplification",
+"pos": "noun"
+},
+"amulet": {
+"az": "Tilsim, nəzərlik.",
+"en": "amulet",
+"pos": "noun"
+},
+"anaayrı": {
+"az": "Anası ayrı.",
+"en": "half-sibling by a different mother",
+"pos": "adjective"
+},
+"anabazin": {
+"az": "Zəhərli alkaloid.",
+"en": "anabasine",
+"pos": "noun"
+},
+"anadanögey": {
+"skip": "meaning not known with confidence"
+},
+"anafema": {
+"az": "Kilsədən qovma, lənət.",
+"en": "anathema",
+"pos": "noun"
+},
+"anaxronik": {
+"az": "Zamanına uyğun olmayan.",
+"en": "anachronistic",
+"pos": "adjective"
+},
+"anamnestik": {
+"az": "Anamnezə aid.",
+"en": "anamnestic",
+"pos": "adjective"
+},
+"anamnez": {
+"az": "Xəstəliyin tarixçəsi.",
+"en": "medical history",
+"pos": "noun"
+},
+"anamorfizm": {
+"az": "Anamorfoz.",
+"en": "anamorphism",
+"pos": "noun"
+},
+"anamorfot": {
+"az": "Anamorf təsvir yaradan optik qurğu.",
+"en": "anamorphic lens",
+"pos": "noun"
+},
+"anamorfoz": {
+"az": "Təhrif olunmuş təsvir; göbələyin cinsiyyətsiz forması.",
+"en": "anamorphosis",
+"pos": "noun"
+},
+"anaplazmoz": {
+"az": "Heyvanların parazitar xəstəliyi.",
+"en": "anaplasmosis",
+"pos": "noun"
+},
+"anartriya": {
+"az": "Nitqin tələffüz pozğunluğu.",
+"en": "anarthria",
+"pos": "noun"
+},
+"anaspid": {
+"az": "Qədim çənəsiz balıq.",
+"en": "anaspid",
+"pos": "noun"
+},
+"anastiqmatik": {
+"az": "Astiqmatizmdən azad.",
+"en": "anastigmatic",
+"pos": "adjective"
+},
+"anastrofa": {
+"az": "Söz sırasının dəyişdirilməsi.",
+"en": "anastrophe",
+"pos": "noun"
+},
+"anatoksik": {
+"az": "Anatoksinə aid.",
+"en": "anatoxic",
+"pos": "adjective"
+},
+"anatosizm": {
+"az": "Faizə faiz hesablanması.",
+"en": "anatocism",
+"pos": "noun"
+},
+"ançous": {
+"az": "Kiçik dəniz balığı.",
+"en": "anchovy",
+"pos": "noun"
+},
+"andiçmə": {
+"az": "And içmə.",
+"en": "oath-taking",
+"pos": "noun"
+},
+"andraqogika": {
+"az": "Böyüklərin təhsili haqqında elm.",
+"en": "andragogy",
+"pos": "noun"
+},
+"androgen": {
+"az": "Kişi cinsiyyət hormonu.",
+"en": "androgen",
+"pos": "noun"
+},
+"androgenetik": {
+"az": "Androgenezə aid.",
+"en": "androgenetic",
+"pos": "adjective"
+},
+"androgenez": {
+"az": "Yalnız ata xromosomları ilə inkişaf.",
+"en": "androgenesis",
+"pos": "noun"
+},
+"android": {
+"az": "İnsanabənzər robot.",
+"en": "android",
+"pos": "noun"
+},
+"androspora": {
+"az": "Erkək spor.",
+"en": "androspore",
+"pos": "noun"
+},
+"anemofiliya": {
+"az": "Küləklə tozlanma.",
+"en": "anemophily",
+"pos": "noun"
+},
+"anemoxoriya": {
+"az": "Toxumların küləklə yayılması.",
+"en": "anemochory",
+"pos": "noun"
+},
+"anergiya": {
+"az": "Reaksiya verməmə halı.",
+"en": "anergy",
+"pos": "noun"
+},
+"aneroid": {
+"az": "Mayesiz barometr.",
+"en": "aneroid barometer",
+"pos": "noun"
+},
+"anestezin": {
+"az": "Yerli keyidici dərman.",
+"en": "anaesthesin (benzocaine)",
+"pos": "noun"
+},
+"anevrizm": {
+"az": "Damarın genişlənməsi.",
+"en": "aneurysm",
+"pos": "noun"
+},
+"anfas": {
+"az": "Üzbəüz görünüş.",
+"en": "full face",
+"pos": "noun"
+},
+"anfilada": {
+"az": "Bir xətt üzrə düzülən otaqlar.",
+"en": "enfilade",
+"pos": "noun"
+},
+"anginol": {
+"az": "Boğaz üçün antiseptik dərman.",
+"en": "anginol",
+"pos": "noun"
+},
+"angioma": {
+"az": "Damar şişi.",
+"en": "angioma",
+"pos": "noun"
+},
+"angionevroz": {
+"az": "Damar sinir pozğunluğu.",
+"en": "angioneurosis",
+"pos": "noun"
+},
+"angioreseptor": {
+"az": "Damar reseptoru.",
+"en": "angioreceptor",
+"pos": "noun"
+},
+"anharmonik": {
+"az": "Harmonik olmayan.",
+"en": "anharmonic",
+"pos": "adjective"
+},
+"anharmoniya": {
+"az": "Harmonik olmama.",
+"en": "anharmonicity",
+"pos": "noun"
+},
+"anilid": {
+"az": "Anilinin turşu törəməsi.",
+"en": "anilide",
+"pos": "noun"
+},
+"anilin": {
+"az": "Boyaq istehsalında işlənən aromatik amin.",
+"en": "aniline",
+"pos": "noun"
+},
+"anion": {
+"az": "Mənfi yüklü ion.",
+"en": "anion",
+"pos": "noun"
+},
+"ankerit": {
+"az": "Karbonat mineral.",
+"en": "ankerite",
+"pos": "noun"
+},
+"ankilostomid": {
+"az": "Bağırsaq parazit qurdu.",
+"en": "hookworm",
+"pos": "noun"
+},
+"ankilostomidoz": {
+"az": "Ankilostomidlərin törətdiyi xəstəlik.",
+"en": "hookworm disease",
+"pos": "noun"
+},
+"anklav": {
+"az": "Başqa dövlətin ərazisi ilə əhatələnmiş ərazi.",
+"en": "enclave",
+"pos": "noun"
+},
+"anqar": {
+"az": "Təyyarə saxlanan bina.",
+"en": "hangar",
+"pos": "noun"
+},
+"anqlisizm": {
+"az": "İngilis dilindən alınma.",
+"en": "anglicism",
+"pos": "noun"
+},
+"anqloloq": {
+"az": "İngilis dilini öyrənən alim.",
+"en": "Anglicist",
+"pos": "noun"
+},
+"anqlomaniya": {
+"az": "İngilis üsullarına pərəstiş.",
+"en": "Anglomania",
+"pos": "noun"
+},
+"anqlosakson": {
+"az": "İngilis-sakson.",
+"en": "Anglo-Saxon",
+"pos": "noun"
+},
+"annuminas": {
+"skip": "meaning not known with confidence"
+},
+"anofeles": {
+"az": "Malyariya ağcaqanadı.",
+"en": "anopheles",
+"pos": "noun"
+},
+"anomal": {
+"az": "Qeyri-adi.",
+"en": "anomalous",
+"pos": "adjective"
+},
+"anomiya": {
+"az": "Sosial normaların zəifləməsi; ad unutma.",
+"en": "anomie; anomia",
+"pos": "noun"
+},
+"anşlaq": {
+"az": "Bütün biletlərin satılması.",
+"en": "full house, sell-out",
+"pos": "noun"
+},
+"ant": {
+"skip": "meaning not known with confidence"
+},
+"antekologiya": {
+"az": "Çiçək ekologiyası.",
+"en": "anthecology",
+"pos": "noun"
+},
+"antenari": {
+"skip": "meaning not known with confidence"
+},
+"anti-Amerika": {
+"az": "Amerikaya qarşı yönəlmiş.",
+"en": "anti-American",
+"pos": "adjective"
+},
+"anti-Azərbaycan": {
+"az": "Azərbaycana qarşı yönəlmiş.",
+"en": "anti-Azerbaijani",
+"pos": "adjective"
+},
+"antibakterial": {
+"az": "Bakteriyalara qarşı.",
+"en": "antibacterial",
+"pos": "adjective"
+},
+"antibarion": {
+"az": "Barionun antihissəciyi.",
+"en": "antibaryon",
+"pos": "noun"
+},
+"antidetonasiya": {
+"az": "Detonasiyanın qarşısının alınması.",
+"en": "antiknock",
+"pos": "noun"
+},
+"antidetonator": {
+"az": "Detonasiyanı azaldan əlavə.",
+"en": "antiknock agent",
+"pos": "noun"
+},
+"antidopinq": {
+"az": "Dopinqə qarşı.",
+"en": "anti-doping",
+"pos": "adjective"
+},
+"antifon": {
+"az": "İki xorun növbə ilə oxuması.",
+"en": "antiphon",
+"pos": "noun"
+},
+"antifrankoçu": {
+"az": "Frankoya qarşı çıxan.",
+"en": "anti-Francoist",
+"pos": "noun"
+},
+"antifriksiya": {
+"az": "Sürtünməni azaldan.",
+"en": "antifriction",
+"pos": "noun"
+},
+"anti-Hitler": {
+"az": "Hitlerə qarşı.",
+"en": "anti-Hitler",
+"pos": "adjective"
+},
+"antikonstitusion": {
+"az": "Konstitusiyaya zidd.",
+"en": "unconstitutional",
+"pos": "adjective"
+},
+"antimonit": {
+"az": "Stibnit mineralı.",
+"en": "stibnite",
+"pos": "noun"
+},
+"antinekrotik": {
+"az": "Toxuma ölümünə qarşı.",
+"en": "antinecrotic",
+"pos": "adjective"
+},
+"antioksidant": {
+"az": "Oksidləşməyə qarşı maddə.",
+"en": "antioxidant",
+"pos": "noun"
+},
+"antiperistaltika": {
+"az": "Bağırsağın əks hərəkəti.",
+"en": "antiperistalsis",
+"pos": "noun"
+},
+"antipiren": {
+"az": "Yanmağı çətinləşdirən maddə.",
+"en": "fire retardant",
+"pos": "noun"
+},
+"antipiretik": {
+"az": "Qızdırma salan.",
+"en": "antipyretic",
+"pos": "adjective"
+},
+"anti-Rusiya": {
+"az": "Rusiyaya qarşı.",
+"en": "anti-Russian",
+"pos": "adjective"
+},
+"antisipasiya": {
+"az": "Qabaqcadan görmə.",
+"en": "anticipation",
+"pos": "noun"
+},
+"antitezis": {
+"az": "Tezisə qarşı qoyulan fikir.",
+"en": "antithesis",
+"pos": "noun"
+},
+"antitoksik": {
+"az": "Toksinə qarşı.",
+"en": "antitoxic",
+"pos": "adjective"
+},
+"antonimiya": {
+"az": "Əks mənalılıq.",
+"en": "antonymy",
+"pos": "noun"
+},
+"antonomaziya": {
+"az": "Xüsusi adın ümumi isim kimi işlənməsi.",
+"en": "antonomasia",
+"pos": "noun"
+},
+"antosian": {
+"az": "Bitkilərə rəng verən piqment.",
+"en": "anthocyanin",
+"pos": "noun"
+},
+"antraxinon": {
+"az": "Boyaq istehsalında işlənən birləşmə.",
+"en": "anthraquinone",
+"pos": "noun"
+},
+"antraknoz": {
+"az": "Bitkilərin göbələk xəstəliyi.",
+"en": "anthracnose",
+"pos": "noun"
+},
+"antrasen": {
+"az": "Kömür qatranından alınan karbohidrogen.",
+"en": "anthracene",
+"pos": "noun"
+},
+"antreprenyor": {
+"az": "Özəl teatr sahibkarı.",
+"en": "impresario",
+"pos": "noun"
+},
+"antrepriz": {
+"az": "Özəl teatr müəssisəsi.",
+"en": "private theatrical enterprise",
+"pos": "noun"
+},
+"antrobiosenoz": {
+"skip": "meaning not known with confidence"
+},
+"antropik": {
+"az": "İnsanla bağlı.",
+"en": "anthropic",
+"pos": "adjective"
+},
+"antropodinamik": {
+"skip": "meaning not known with confidence"
+},
+"antropofagiya": {
+"az": "Adamyeyənlik.",
+"en": "cannibalism",
+"pos": "noun"
+},
+"antropogenez": {
+"az": "İnsanın mənşəyi və təkamülü.",
+"en": "anthropogenesis",
+"pos": "noun"
+},
+"antropoid": {
+"az": "İnsanabənzər meymun.",
+"en": "anthropoid ape",
+"pos": "noun"
+},
+"antropomorfik": {
+"az": "İnsan şəklində təsəvvür olunan.",
+"en": "anthropomorphic",
+"pos": "adjective"
+},
+"antroponim": {
+"az": "İnsan adı.",
+"en": "anthroponym",
+"pos": "noun"
+},
+"antroponimiya": {
+"az": "İnsan adları sistemi.",
+"en": "anthroponymy",
+"pos": "noun"
+},
+"antroponoz": {
+"az": "Yalnız insanlarda olan yoluxucu xəstəlik.",
+"en": "anthroponosis",
+"pos": "noun"
+},
+"antroposenologiya": {
+"skip": "meaning not known with confidence"
+},
+"antropotexnika": {
+"az": "İnsan və texnikanın uyğunlaşmasını öyrənən elm.",
+"en": "ergonomics",
+"pos": "noun"
+},
+"anturaj": {
+"az": "Ətraf mühit.",
+"en": "entourage, surroundings",
+"pos": "noun"
+},
+"anuriya": {
+"az": "Sidiyin ayrılmaması.",
+"en": "anuria",
+"pos": "noun"
+},
+"anyi": {
+"skip": "meaning not known with confidence"
+},
+"anzerin": {
+"skip": "meaning not known with confidence"
+},
+"aortit": {
+"az": "Aortanın iltihabı.",
+"en": "aortitis",
+"pos": "noun"
+},
+"apaçi": {
+"az": "Şimali Amerika hindu tayfası.",
+"en": "Apache",
+"pos": "noun"
+},
+"apar-gətir": {
+"az": "Aparıb-gətirmə, qaçaqaç.",
+"en": "fetching and carrying",
+"pos": "noun"
+},
+"apart-hotel": {
+"az": "Mənzil tipli otel.",
+"en": "aparthotel",
+"pos": "noun"
+},
+"apartament": {
+"az": "Mənzil, iri yaşayış sahəsi.",
+"en": "apartment",
+"pos": "noun"
+},
+"apatrid": {
+"az": "Vətəndaşlığı olmayan şəxs.",
+"en": "stateless person",
+"pos": "noun"
+},
+"apeliant": {
+"az": "Apellyasiya şikayəti verən.",
+"en": "appellant",
+"pos": "noun"
+},
+"apendiks": {
+"az": "Kor bağırsağın soxulcanvari çıxıntısı.",
+"en": "appendix",
+"pos": "noun"
+},
+"aperiodik": {
+"az": "Dövri olmayan.",
+"en": "aperiodic",
+"pos": "adjective"
+},
+"apersepsiya": {
+"az": "Qavrayışın əvvəlki təcrübədən asılılığı.",
+"en": "apperception",
+"pos": "noun"
+},
+"apertur": {
+"az": "Optik sistemin işıq keçirən dəliyi.",
+"en": "aperture",
+"pos": "noun"
+},
+"apeyron": {
+"az": "Qədim yunan fəlsəfəsində hədsiz başlanğıc.",
+"en": "apeiron",
+"pos": "noun"
+},
+"apikal": {
+"az": "Zirvəyə aid; dil ucu ilə tələffüz olunan.",
+"en": "apical",
+"pos": "adjective"
+},
+"apinevroz": {
+"skip": "meaning not known with confidence"
+},
+"apitoksik": {
+"az": "Arı zəhərinə aid.",
+"en": "apitoxic",
+"pos": "adjective"
+},
+"aplanat": {
+"az": "Sferik aberrasiyasız obyektiv.",
+"en": "aplanat",
+"pos": "noun"
+},
+"aplet": {
+"az": "Kiçik proqram əlavəsi.",
+"en": "applet",
+"pos": "noun"
+},
+"aplikasiya": {
+"az": "Kəsilmiş parçalarla yapışdırma işi; əlavə proqram.",
+"en": "appliqué; application",
+"pos": "noun"
+},
+"aplikator": {
+"az": "Dərman çəkmək üçün alət.",
+"en": "applicator",
+"pos": "noun"
+},
+"aplit": {
+"az": "İnce dənəli maqmatik süxur.",
+"en": "aplite",
+"pos": "noun"
+},
+"apoastr": {
+"az": "Orbitin ulduzdan ən uzaq nöqtəsi.",
+"en": "apoastron",
+"pos": "noun"
+},
+"apodid": {
+"az": "Ayaqsız suda-quruda yaşayan.",
+"en": "caecilian",
+"pos": "noun"
+},
+"apofem": {
+"skip": "meaning not known with confidence"
+},
+"apofeoz": {
+"az": "Təntənəli final.",
+"en": "apotheosis",
+"pos": "noun"
+},
+"apoferment": {
+"az": "Fermentin zülal hissəsi.",
+"en": "apoenzyme",
+"pos": "noun"
+},
+"apofiz": {
+"az": "Sümük çıxıntısı.",
+"en": "apophysis",
+"pos": "noun"
+},
+"apogey": {
+"az": "Orbitin Yerdən ən uzaq nöqtəsi; zirvə.",
+"en": "apogee",
+"pos": "noun"
+},
+"apokalipsis": {
+"az": "Dünyanın sonu.",
+"en": "apocalypse",
+"pos": "noun"
+},
+"apolitik": {
+"az": "Siyasətə laqeyd.",
+"en": "apolitical",
+"pos": "adjective"
+},
+"apologiya": {
+"az": "Müdafiə, tərif.",
+"en": "apology, apologia",
+"pos": "noun"
+},
+"apomorfin": {
+"az": "Qusdurucu dərman.",
+"en": "apomorphine",
+"pos": "noun"
+},
+"aponevroz": {
+"az": "Vətərli lövhə.",
+"en": "aponeurosis",
+"pos": "noun"
+},
+"apoplektik": {
+"az": "İnsulta aid.",
+"en": "apoplectic",
+"pos": "adjective"
+},
+"aporiya": {
+"az": "Həll olunmaz məntiqi çətinlik.",
+"en": "aporia",
+"pos": "noun"
+},
+"aport": {
+"az": "İtə gətir əmri.",
+"en": "fetch! (command)",
+"pos": "interjection"
+},
+"aposelen": {
+"az": "Ay orbitinin ən uzaq nöqtəsi.",
+"en": "apolune",
+"pos": "noun"
+},
+"aposentr": {
+"az": "Orbitin mərkəzdən ən uzaq nöqtəsi.",
+"en": "apocentre",
+"pos": "noun"
+},
+"aposterior": {
+"az": "Təcrübəyə əsaslanan.",
+"en": "a posteriori",
+"pos": "adjective"
+},
+"aposteriori": {
+"az": "Təcrübə əsasında.",
+"en": "a posteriori",
+"pos": "adverb"
+},
+"apostol": {
+"az": "Həvari.",
+"en": "apostle",
+"pos": "noun"
+},
+"apostolik": {
+"az": "Həvarilərə aid.",
+"en": "apostolic",
+"pos": "adjective"
+},
+"appendikulyar": {
+"az": "Ətraflara aid.",
+"en": "appendicular",
+"pos": "adjective"
+},
+"apressin": {
+"skip": "meaning not known with confidence"
+},
+"apriori": {
+"az": "Təcrübədən əvvəl.",
+"en": "a priori",
+"pos": "adverb"
+},
+"aprobasiya": {
+"az": "Rəsmi təsdiq.",
+"en": "approbation",
+"pos": "noun"
+},
+"aprobator": {
+"skip": "meaning not known with confidence"
+},
+"aproksimasiya": {
+"az": "Təxmini hesablama.",
+"en": "approximation",
+"pos": "noun"
+},
+"apsida": {
+"az": "Kilsədə yarımdairəvi çıxıntı; orbit nöqtəsi.",
+"en": "apse; apsis",
+"pos": "noun"
+},
+"araba-furqon": {
+"az": "Araba və furqon, yük nəqliyyatı.",
+"en": "carts and wagons",
+"pos": "noun"
+},
+"arabinoza": {
+"az": "Beşkarbonlu şəkər.",
+"en": "arabinose",
+"pos": "noun"
+},
+"araxnoidit": {
+"az": "Hörümçəkvari qişanın iltihabı.",
+"en": "arachnoiditis",
+"pos": "noun"
+},
+"araxnologiya": {
+"az": "Hörümçəkkimiləri öyrənən elm.",
+"en": "arachnology",
+"pos": "noun"
+},
+"aradakı": {
+"az": "Arada olan.",
+"en": "in between",
+"pos": "adjective"
+},
+"aranış": {
+"skip": "meaning not known with confidence"
+},
+"aranje": {
+"skip": "meaning not known with confidence"
+},
+"aranjirovka": {
+"az": "Musiqi əsərinin işlənməsi.",
+"en": "arrangement (music)",
+"pos": "noun"
+},
+"araölçmə": {
+"az": "Aralıq ölçmə.",
+"en": "intermediate measurement",
+"pos": "noun"
+},
+"araverməz": {
+"az": "Fasiləsiz.",
+"en": "incessant",
+"pos": "adjective"
+},
+"arbitron": {
+"skip": "meaning not known with confidence"
+},
+"arbolit": {
+"az": "Ağac yonqarı əlavəli beton.",
+"en": "wood concrete",
+"pos": "noun"
+},
+"arborisid": {
+"az": "Ağacları məhv edən herbisid.",
+"en": "arboricide",
+"pos": "noun"
+},
+"arbutin": {
+"az": "Bitki qlikozidi.",
+"en": "arbutin",
+"pos": "noun"
+},
+"arçi": {
+"skip": "meaning not known with confidence"
+},
+"arenqa": {
+"skip": "meaning not known with confidence"
+},
+"arginin": {
+"az": "Amin turşusu.",
+"en": "arginine",
+"pos": "noun"
+},
+"arxaduran": {
+"az": "Arxa duran, havadar.",
+"en": "backer",
+"pos": "noun"
+},
+"arxantrop": {
+"az": "Ən qədim insanlar.",
+"en": "archanthropus",
+"pos": "noun"
+},
+"arxar": {
+"az": "Dağ qoyunu.",
+"en": "argali",
+"pos": "noun"
+},
+"arxarmerinos": {
+"az": "Arxar və merinos hibridi.",
+"en": "arkharomerino",
+"pos": "noun"
+},
+"arxeopteriks": {
+"az": "Qədim quş.",
+"en": "archaeopteryx",
+"pos": "noun"
+},
+"arxespora": {
+"az": "Spor törədən ilkin hüceyrələr.",
+"en": "archesporium",
+"pos": "noun"
+},
+"arxetip": {
+"az": "İlkin nümunə.",
+"en": "archetype",
+"pos": "noun"
+},
+"arxikarp": {
+"skip": "meaning not known with confidence"
+},
+"arximilyoner": {
+"az": "Çox varlı adam.",
+"en": "multimillionaire",
+"pos": "noun"
+},
+"arximiset": {
+"skip": "meaning not known with confidence"
+},
+"arxitrav": {
+"az": "Sütunların üstündəki tir.",
+"en": "architrave",
+"pos": "noun"
+},
+"arxivarius": {
+"az": "Arxivçi.",
+"en": "archivist",
+"pos": "noun"
+},
+"arxivator": {
+"skip": "meaning not known with confidence"
+}
+}

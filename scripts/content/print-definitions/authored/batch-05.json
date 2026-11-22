@@ -1,0 +1,1202 @@
+{
+"özümlü": {
+"az": "Özünə məxsus, orijinal.",
+"en": "original, distinctive",
+"pos": "adjective"
+},
+"özünəarxayın": {
+"az": "Özünə güvənən.",
+"en": "self-confident",
+"pos": "adjective"
+},
+"özünəəmin": {
+"az": "Özünə əmin olan.",
+"en": "self-assured",
+"pos": "adjective"
+},
+"özünəhakim": {
+"az": "Özünü ələ ala bilən.",
+"en": "self-controlled",
+"pos": "adjective"
+},
+"özünəheyran": {
+"az": "Özünə vurğun.",
+"en": "narcissistic",
+"pos": "adjective"
+},
+"özünəxas": {
+"az": "Özünə məxsus.",
+"en": "peculiar, distinctive",
+"pos": "adjective"
+},
+"özünəvurğun": {
+"az": "Özünü həddən artıq bəyənən.",
+"en": "vain, narcissistic",
+"pos": "adjective"
+},
+"özününküləşdirmək": {
+"az": "Mənimsəmək, öz malı etmək.",
+"en": "to appropriate",
+"pos": "verb"
+},
+"özünütəcrid": {
+"az": "Özünü başqalarından ayırma.",
+"en": "self-isolation",
+"pos": "noun"
+},
+"paxırlamaq": {
+"skip": "meaning not known with confidence"
+},
+"paketləşdirilmək": {
+"az": "Paketə salınmaq.",
+"en": "to be packaged",
+"pos": "verb"
+},
+"paleobiokimya": {
+"az": "Qədim orqanizmlərin kimyəvi qalıqlarını öyrənən elm.",
+"en": "palaeobiochemistry",
+"pos": "noun"
+},
+"paleoiqlimşünas": {
+"az": "Keçmiş geoloji dövrlərin iqlimini öyrənən alim.",
+"en": "palaeoclimatologist",
+"pos": "noun"
+},
+"palet": {
+"az": "Rəssamın boya qarışdırdığı lövhə; yük altlığı.",
+"en": "palette; pallet",
+"pos": "noun"
+},
+"palladiumlamaq": {
+"az": "Palladiumla örtmək.",
+"en": "to plate with palladium",
+"pos": "verb"
+},
+"pampaq": {
+"skip": "meaning not known with confidence"
+},
+"parafrazlamaq": {
+"az": "Başqa sözlərlə ifadə etmək.",
+"en": "to paraphrase",
+"pos": "verb"
+},
+"paralimpiya": {
+"az": "Əlilliyi olan idmançıların olimpiya oyunları.",
+"en": "Paralympics",
+"pos": "noun"
+},
+"partiyabaz": {
+"az": "Partiya çəkişmələrini sevən.",
+"en": "partisan",
+"pos": "noun"
+},
+"partiyadaş": {
+"az": "Eyni partiyanın üzvü.",
+"en": "fellow party member",
+"pos": "noun"
+},
+"pasiyent": {
+"az": "Xəstə.",
+"en": "patient",
+"pos": "noun"
+},
+"passionar": {
+"az": "Böyük daxili enerjiyə malik, fəal.",
+"en": "passionate, driven",
+"pos": "adjective"
+},
+"passivlətmək": {
+"az": "Passivləşdirmək.",
+"en": "to make passive",
+"pos": "verb"
+},
+"pastor": {
+"az": "Protestant keşişi.",
+"en": "pastor",
+"pos": "noun"
+},
+"patrul": {
+"az": "Keşikçi dəstə.",
+"en": "patrol",
+"pos": "noun"
+},
+"pediatr": {
+"az": "Uşaq həkimi.",
+"en": "paediatrician",
+"pos": "noun"
+},
+"pelenqləmək": {
+"az": "Radio siqnalının istiqamətini təyin etmək.",
+"en": "to take a bearing on",
+"pos": "verb"
+},
+"periodik": {
+"az": "Dövri.",
+"en": "periodic",
+"pos": "adjective"
+},
+"periskop": {
+"az": "Gizli yerdən müşahidə üçün güzgülü optik cihaz.",
+"en": "periscope",
+"pos": "noun"
+},
+"permanent": {
+"az": "Daimi, fasiləsiz.",
+"en": "permanent",
+"pos": "adjective"
+},
+"persistent": {
+"az": "Davamlı, inadlı.",
+"en": "persistent",
+"pos": "adjective"
+},
+"peşəşünas": {
+"az": "Peşələri öyrənən mütəxəssis.",
+"en": "occupational scientist",
+"pos": "noun"
+},
+"peyzaj": {
+"az": "Mənzərə; mənzərə rəsmi.",
+"en": "landscape",
+"pos": "noun"
+},
+"pəlin": {
+"az": "Yovşan.",
+"en": "wormwood",
+"pos": "noun"
+},
+"pəlmələmək": {
+"skip": "meaning not known with confidence"
+},
+"pəriüzlü": {
+"az": "Üzü pəri kimi gözəl.",
+"en": "fairy-faced, beautiful",
+"pos": "adjective"
+},
+"pərvanələnmək": {
+"az": "Pərvanə kimi dolanmaq.",
+"en": "to hover like a moth",
+"pos": "verb"
+},
+"pətəkləmək": {
+"az": "Pətəyə yığmaq.",
+"en": "to hive",
+"pos": "verb"
+},
+"pıçılğanlamaq": {
+"skip": "meaning not known with confidence"
+},
+"pifaqorçu": {
+"az": "Pifaqor təliminin tərəfdarı.",
+"en": "Pythagorean",
+"pos": "noun"
+},
+"pikant": {
+"az": "Ədviyyatlı; maraqlı, cazibəli.",
+"en": "piquant",
+"pos": "adjective"
+},
+"piqmentlənmək": {
+"az": "Piqment toplanmaq.",
+"en": "to become pigmented",
+"pos": "verb"
+},
+"pinələtdirmək": {
+"az": "Başqasına pinələtmək.",
+"en": "to have patched",
+"pos": "verb"
+},
+"pin-kodlamaq": {
+"az": "PİN-kod qoymaq.",
+"en": "to set a PIN",
+"pos": "verb"
+},
+"pirotexnik": {
+"az": "Atəşfəşanlıq mütəxəssisi; atəşfəşanlığa aid.",
+"en": "pyrotechnician; pyrotechnic",
+"pos": "noun"
+},
+"pisuar": {
+"az": "Kişi tualetində divar unitazı.",
+"en": "urinal",
+"pos": "noun"
+},
+"pişpişə": {
+"skip": "meaning not known with confidence"
+},
+"pitixana": {
+"az": "Piti yeməyi verilən yeməkxana.",
+"en": "piti house",
+"pos": "noun"
+},
+"piyadalamaq": {
+"az": "Piyada getmək.",
+"en": "to go on foot",
+"pos": "verb"
+},
+"piyadalaşmaq": {
+"az": "Piyada qalmaq.",
+"en": "to be left on foot",
+"pos": "verb"
+},
+"planetşünas": {
+"az": "Planetləri öyrənən alim.",
+"en": "planetologist",
+"pos": "noun"
+},
+"plastır": {
+"az": "Yaraya yapışdırılan yapışqanlı lent.",
+"en": "sticking plaster",
+"pos": "noun"
+},
+"plastifikator": {
+"az": "Plastikliyi artıran əlavə.",
+"en": "plasticizer",
+"pos": "noun"
+},
+"plunjer": {
+"az": "Nasosda porşen; tıxacaçan.",
+"en": "plunger",
+"pos": "noun"
+},
+"pnevmatik": {
+"az": "Sıxılmış havanın gücü ilə işləyən.",
+"en": "pneumatic",
+"pos": "adjective"
+},
+"podzol": {
+"az": "Ağımtıl yuyulmuş meşə torpağı.",
+"en": "podzol",
+"pos": "noun"
+},
+"poladlaşdırılmaq": {
+"az": "Polada çevrilmək, poladla örtülmək.",
+"en": "to be steeled",
+"pos": "verb"
+},
+"poliqlot": {
+"az": "Çox dil bilən adam.",
+"en": "polyglot",
+"pos": "noun"
+},
+"polimorf": {
+"az": "Çoxşəkilli.",
+"en": "polymorphic",
+"pos": "adjective"
+},
+"pompadur": {
+"az": "Saçı yuxarı daranmış qabarıq düzüm.",
+"en": "pompadour",
+"pos": "noun"
+},
+"pornoqraf": {
+"az": "Pornoqrafiya hazırlayan.",
+"en": "pornographer",
+"pos": "noun"
+},
+"pozalanmaq": {
+"az": "Poza vermək.",
+"en": "to pose",
+"pos": "verb"
+},
+"pozitivist": {
+"az": "Pozitivizm tərəfdarı.",
+"en": "positivist",
+"pos": "noun"
+},
+"pozunuq": {
+"skip": "meaning not known with confidence"
+},
+"pörtlədilmək": {
+"az": "Pörtlədilib yarı bişirilmək.",
+"en": "to be parboiled",
+"pos": "verb"
+},
+"praqmatik": {
+"az": "Əməli fayda güdən.",
+"en": "pragmatic",
+"pos": "adjective"
+},
+"preferans": {
+"az": "Kart oyunu növü.",
+"en": "preference (card game)",
+"pos": "noun"
+},
+"produktiv": {
+"az": "Məhsuldar.",
+"en": "productive",
+"pos": "adjective"
+},
+"profilləmək": {
+"az": "Profil vermək; ixtisaslaşdırmaq.",
+"en": "to profile",
+"pos": "verb"
+},
+"prokonsul": {
+"az": "Qədim Romada vilayət hakimi.",
+"en": "proconsul",
+"pos": "noun"
+},
+"proktoloq": {
+"az": "Düz bağırsaq xəstəlikləri üzrə həkim.",
+"en": "proctologist",
+"pos": "noun"
+},
+"protektor": {
+"az": "Himayədar; təkərin xarici protektor qatı.",
+"en": "protector; tyre tread",
+"pos": "noun"
+},
+"psevdomillətçi": {
+"az": "Yalançı millətçi.",
+"en": "pseudo-nationalist",
+"pos": "noun"
+},
+"pteropod": {
+"az": "Qanadayaqlı dəniz molyusku.",
+"en": "pteropod",
+"pos": "noun"
+},
+"pudlinqləmək": {
+"az": "Çuqunu pudlinq üsulu ilə dəmirə çevirmək.",
+"en": "to puddle (iron)",
+"pos": "verb"
+},
+"pulbaz": {
+"az": "Pul düşkünü.",
+"en": "money-grubber",
+"pos": "noun"
+},
+"pulcuqlanmaq": {
+"az": "Pulcuq bağlamaq.",
+"en": "to become scaly",
+"pos": "verb"
+},
+"puritan": {
+"az": "Ciddi əxlaq tərəfdarı; puritan.",
+"en": "puritan",
+"pos": "noun"
+},
+"puşbol": {
+"az": "Böyük topla oynanan komanda oyunu.",
+"en": "pushball",
+"pos": "noun"
+},
+"püskürdülmək": {
+"az": "Püskürtmək yolu ilə çilənmək.",
+"en": "to be sprayed",
+"pos": "verb"
+},
+"radioxət": {
+"az": "Radio rabitə xətti.",
+"en": "radio link",
+"pos": "noun"
+},
+"radiorezistent": {
+"az": "Şüalanmaya davamlı.",
+"en": "radioresistant",
+"pos": "adjective"
+},
+"rafizi": {
+"az": "Şiələrə verilən tarixi ad.",
+"en": "Rafidi",
+"pos": "noun"
+},
+"rayonbaz": {
+"az": "Yerliçi, rayonçuluq edən.",
+"en": "localist",
+"pos": "noun"
+},
+"reaiqlimləşdirmək": {
+"az": "Yenidən iqlimə uyğunlaşdırmaq.",
+"en": "to reacclimatize",
+"pos": "verb"
+},
+"reaktivləşdirilmək": {
+"az": "Yenidən fəallaşdırılmaq.",
+"en": "to be reactivated",
+"pos": "verb"
+},
+"reduksiyaedici": {
+"az": "Reduksiya edən.",
+"en": "reducing",
+"pos": "adjective"
+},
+"refrakter": {
+"az": "Odadavamlı.",
+"en": "refractory",
+"pos": "adjective"
+},
+"refrijerator": {
+"az": "Soyuducu vaqon və ya qurğu.",
+"en": "refrigerator car",
+"pos": "noun"
+},
+"regional": {
+"az": "Regiona aid.",
+"en": "regional",
+"pos": "adjective"
+},
+"regionşünas": {
+"az": "Regionları öyrənən mütəxəssis.",
+"en": "area studies specialist",
+"pos": "noun"
+},
+"registr": {
+"az": "Səsin diapazonu; qeydiyyat kitabı.",
+"en": "register",
+"pos": "noun"
+},
+"relyativ": {
+"az": "Nisbi.",
+"en": "relative",
+"pos": "adjective"
+},
+"reneqat": {
+"az": "Öz əqidəsindən dönmüş adam.",
+"en": "renegade",
+"pos": "noun"
+},
+"reprezentativ": {
+"az": "Təmsiledici.",
+"en": "representative",
+"pos": "adjective"
+},
+"repulpator": {
+"az": "Pulpa qarışdıran qurğu.",
+"en": "repulper",
+"pos": "noun"
+},
+"resessiv": {
+"az": "Genetikada üstün olmayan.",
+"en": "recessive",
+"pos": "adjective"
+},
+"resosiallaşmaq": {
+"az": "Yenidən cəmiyyətə uyğunlaşmaq.",
+"en": "to resocialize",
+"pos": "verb"
+},
+"respondent": {
+"az": "Sorğuda cavab verən.",
+"en": "respondent",
+"pos": "noun"
+},
+"ressorlamaq": {
+"az": "Ressorla təchiz etmək.",
+"en": "to fit with springs",
+"pos": "verb"
+},
+"rezistent": {
+"az": "Davamlı, müqavimətli.",
+"en": "resistant",
+"pos": "adjective"
+},
+"rəğbətlənmək": {
+"az": "Rəğbət qazanmaq.",
+"en": "to win favour",
+"pos": "verb"
+},
+"rəiyyətsevər": {
+"az": "Rəiyyəti sevən.",
+"en": "caring for the people",
+"pos": "adjective"
+},
+"rəkət": {
+"skip": "meaning not known with confidence"
+},
+"rəngləndirici": {
+"az": "Rəngləndirən.",
+"en": "colouring",
+"pos": "adjective"
+},
+"rigidli": {
+"az": "Sərt, elastik olmayan.",
+"en": "rigid",
+"pos": "adjective"
+},
+"rişələmək": {
+"az": "Rişə atmaq.",
+"en": "to take root",
+"pos": "verb"
+},
+"ritualşünas": {
+"az": "Ritualları öyrənən alim.",
+"en": "ritual studies scholar",
+"pos": "noun"
+},
+"rodiumlamaq": {
+"az": "Rodiumla örtmək.",
+"en": "to rhodium-plate",
+"pos": "verb"
+},
+"rok-n-rol": {
+"az": "Ritmik rəqs musiqisi janrı.",
+"en": "rock and roll",
+"pos": "noun"
+},
+"romanşünas": {
+"az": "Roman dillərini öyrənən alim.",
+"en": "Romanist",
+"pos": "noun"
+},
+"ruhsal": {
+"az": "Ruhi, mənəvi.",
+"en": "spiritual",
+"pos": "adjective"
+},
+"rumişünas": {
+"az": "Mövlana Ruminin yaradıcılığını öyrənən alim.",
+"en": "scholar of Rumi",
+"pos": "noun"
+},
+"rusiyapərəst": {
+"az": "Rusiyaya meylli.",
+"en": "pro-Russian",
+"pos": "adjective"
+},
+"rusofil": {
+"az": "Rusları və rus mədəniyyətini sevən.",
+"en": "Russophile",
+"pos": "noun"
+},
+"ruspərəst": {
+"az": "Ruslara pərəstiş edən.",
+"en": "pro-Russian",
+"pos": "adjective"
+},
+"russevər": {
+"az": "Rusları sevən.",
+"en": "Russophile",
+"pos": "adjective"
+},
+"rusşünas": {
+"az": "Rus dili və mədəniyyətini öyrənən alim.",
+"en": "Russianist",
+"pos": "noun"
+},
+"rütubətədavamlı": {
+"az": "Rütubətə davam gətirən.",
+"en": "moisture-resistant",
+"pos": "adjective"
+},
+"rütubətədavamsız": {
+"az": "Rütubətə davam gətirməyən.",
+"en": "not moisture-resistant",
+"pos": "adjective"
+},
+"sabirşünas": {
+"az": "Mirzə Ələkbər Sabirin yaradıcılığını öyrənən alim.",
+"en": "scholar of Sabir",
+"pos": "noun"
+},
+"sabitsizləşdirilmək": {
+"az": "Sabitliyi pozulmaq.",
+"en": "to be destabilized",
+"pos": "verb"
+},
+"saxladılmaq": {
+"az": "Saxlatdırılmaq.",
+"en": "to be kept",
+"pos": "verb"
+},
+"saxlayıcı": {
+"az": "Saxlayan, qoruyucu.",
+"en": "preservative, keeping",
+"pos": "adjective"
+},
+"sakral": {
+"az": "Müqəddəs, dini.",
+"en": "sacred",
+"pos": "adjective"
+},
+"salehəməl": {
+"az": "Saleh əməl sahibi.",
+"en": "righteous",
+"pos": "adjective"
+},
+"salım": {
+"skip": "meaning not known with confidence"
+},
+"salışmaq": {
+"skip": "meaning not known with confidence"
+},
+"sallanbaş": {
+"skip": "meaning not known with confidence"
+},
+"sarıca": {
+"az": "Bir az sarı.",
+"en": "yellowish",
+"pos": "adjective"
+},
+"sarsıdılmaq": {
+"az": "Sarsılmaq.",
+"en": "to be shaken",
+"pos": "verb"
+},
+"sazlayıcı": {
+"az": "Tənzimləyən.",
+"en": "tuning, adjusting",
+"pos": "adjective"
+},
+"seksopatoloq": {
+"az": "Cinsi pozğunluqlar üzrə həkim.",
+"en": "sexual dysfunction specialist",
+"pos": "noun"
+},
+"sektant": {
+"az": "Təriqət üzvü.",
+"en": "sectarian",
+"pos": "noun"
+},
+"selektiv": {
+"az": "Seçici.",
+"en": "selective",
+"pos": "adjective"
+},
+"selenoloq": {
+"az": "Ayı öyrənən alim.",
+"en": "selenologist",
+"pos": "noun"
+},
+"selenşünas": {
+"az": "Ayı öyrənən alim.",
+"en": "selenologist",
+"pos": "noun"
+},
+"senaj": {
+"az": "Yarımquru ot silosu.",
+"en": "haylage",
+"pos": "noun"
+},
+"seysmofəal": {
+"az": "Zəlzələ baş verən.",
+"en": "seismically active",
+"pos": "adjective"
+},
+"sədalanmaq": {
+"az": "Səslənmək.",
+"en": "to sound",
+"pos": "verb"
+},
+"səfəvi": {
+"az": "Səfəvilər sülaləsinə aid.",
+"en": "Safavid",
+"pos": "adjective"
+},
+"səfillənmək": {
+"az": "Səfil hala düşmək.",
+"en": "to fall into misery",
+"pos": "verb"
+},
+"sənətdaş": {
+"az": "Eyni sənətin sahibi.",
+"en": "fellow craftsman",
+"pos": "noun"
+},
+"sənətsevər": {
+"az": "Sənəti sevən.",
+"en": "art lover",
+"pos": "noun"
+},
+"səpgilənmək": {
+"az": "Səpgi çıxmaq.",
+"en": "to break out in a rash",
+"pos": "verb"
+},
+"səpgilətmək": {
+"skip": "meaning not known with confidence"
+},
+"sərxoşlamaq": {
+"az": "Sərxoş olmaq.",
+"en": "to get drunk",
+"pos": "verb"
+},
+"sərinlədilmək": {
+"az": "Sərinləşdirilmək.",
+"en": "to be cooled",
+"pos": "verb"
+},
+"sərrastlamaq": {
+"az": "Sərrast etmək.",
+"en": "to adjust, to align",
+"pos": "verb"
+},
+"sərtxasiyyətli": {
+"az": "Xasiyyəti sərt.",
+"en": "stern",
+"pos": "adjective"
+},
+"sərtlətmək": {
+"az": "Sərtləşdirmək.",
+"en": "to harden",
+"pos": "verb"
+},
+"sərvqəd": {
+"az": "Sərv qamətli, ucaboy.",
+"en": "slender as a cypress",
+"pos": "adjective"
+},
+"səthiləşdirici": {
+"az": "Səthiləşdirən.",
+"en": "superficializing",
+"pos": "adjective"
+},
+"sıçranmaq": {
+"skip": "meaning not known with confidence"
+},
+"sığımaq": {
+"skip": "meaning not known with confidence"
+},
+"sıxaclamaq": {
+"az": "Sıxacla sıxmaq.",
+"en": "to clamp",
+"pos": "verb"
+},
+"sıxnaşmaq": {
+"az": "Sıxlaşıb toplaşmaq.",
+"en": "to crowd together",
+"pos": "verb"
+},
+"sırıdılmaq": {
+"az": "Sırıyıb tikilmək.",
+"en": "to be quilted",
+"pos": "verb"
+},
+"sısqalmaq": {
+"az": "Sısqa olmaq.",
+"en": "to become puny",
+"pos": "verb"
+},
+"sıtma": {
+"az": "Malyariya, isitmə.",
+"en": "malaria",
+"pos": "noun"
+},
+"sıyılmaq": {
+"az": "Sıyrılmaq.",
+"en": "to be scraped",
+"pos": "verb"
+},
+"sızıldaşmaq": {
+"az": "Birlikdə sızıldamaq.",
+"en": "to whimper together",
+"pos": "verb"
+},
+"sifon": {
+"az": "Mayeni axıtmaq üçün əyri boru; qazlı su qabı.",
+"en": "siphon",
+"pos": "noun"
+},
+"siğəbaz": {
+"az": "Siğə kəsdirməyi sevən.",
+"en": "given to temporary marriages",
+"pos": "noun"
+},
+"sikkəşünas": {
+"az": "Sikkələri öyrənən alim.",
+"en": "numismatist",
+"pos": "noun"
+},
+"siqnallamaq": {
+"az": "Siqnal vermək.",
+"en": "to signal",
+"pos": "verb"
+},
+"siləmək": {
+"skip": "meaning not known with confidence"
+},
+"silkənmək": {
+"az": "Silkələnmək.",
+"en": "to shake oneself",
+"pos": "verb"
+},
+"silkətmək": {
+"az": "Silkələtmək.",
+"en": "to have shaken",
+"pos": "verb"
+},
+"siloslaşdırılmaq": {
+"az": "Siloslanmaq.",
+"en": "to be ensiled",
+"pos": "verb"
+},
+"silsilələnmək": {
+"az": "Silsilə təşkil etmək.",
+"en": "to form a series",
+"pos": "verb"
+},
+"simfonist": {
+"az": "Simfoniya bəstəkarı.",
+"en": "symphonist",
+"pos": "noun"
+},
+"simulyakor": {
+"az": "Əslinin yerini tutan surət.",
+"en": "simulacrum",
+"pos": "noun"
+},
+"simvolist": {
+"az": "Simvolizm tərəfdarı.",
+"en": "symbolist",
+"pos": "noun"
+},
+"sinədaşı": {
+"az": "Qəbir üstünə qoyulan daş.",
+"en": "gravestone",
+"pos": "noun"
+},
+"sinxronlamaq": {
+"az": "Sinxronlaşdırmaq.",
+"en": "to synchronize",
+"pos": "verb"
+},
+"sirkələnmək": {
+"az": "Sirkə turşusu ilə işlənmək.",
+"en": "to be soured with vinegar",
+"pos": "verb"
+},
+"sirkələtmək": {
+"az": "Başqasına sirkələtmək.",
+"en": "to have soured with vinegar",
+"pos": "verb"
+},
+"sirkulyarlamaq": {
+"skip": "meaning not known with confidence"
+},
+"sitayişkar": {
+"az": "Sitayiş edən.",
+"en": "worshipper",
+"pos": "noun"
+},
+"sitoekoloq": {
+"az": "Hüceyrə ekologiyası üzrə mütəxəssis.",
+"en": "cytoecologist",
+"pos": "noun"
+},
+"sitrusoloq": {
+"az": "Sitrus bitkiləri üzrə mütəxəssis.",
+"en": "citrus specialist",
+"pos": "noun"
+},
+"situativ": {
+"az": "Vəziyyətə bağlı.",
+"en": "situational",
+"pos": "adjective"
+},
+"sivrilətmək": {
+"az": "Sivri etmək.",
+"en": "to sharpen to a point",
+"pos": "verb"
+},
+"sivrişmək": {
+"skip": "meaning not known with confidence"
+},
+"siyallamaq": {
+"skip": "meaning not known with confidence"
+},
+"skeytbord": {
+"az": "Təkərli taxta.",
+"en": "skateboard",
+"pos": "noun"
+},
+"slalom": {
+"az": "Dalanlı enişli xizək yarışı.",
+"en": "slalom",
+"pos": "noun"
+},
+"slavyanofil": {
+"az": "Slavyan mədəniyyətinə pərəstiş edən.",
+"en": "Slavophile",
+"pos": "noun"
+},
+"soxuşmaq": {
+"az": "Bir-birinin arasına soxulmaq.",
+"en": "to push in together",
+"pos": "verb"
+},
+"solaq": {
+"az": "Sol əlini işlədən.",
+"en": "left-handed",
+"pos": "adjective"
+},
+"soluşmaq": {
+"az": "Birlikdə solmaq.",
+"en": "to fade together",
+"pos": "verb"
+},
+"sous": {
+"az": "Xörəyə tökülən şirə.",
+"en": "sauce",
+"pos": "noun"
+},
+"soyğuntu": {
+"az": "Soyğun, talan.",
+"en": "robbery",
+"pos": "noun"
+},
+"sozarmaq": {
+"skip": "meaning not known with confidence"
+},
+"sökük-tikik": {
+"az": "Sökülüb tikilmiş, yamaqlı.",
+"en": "patched up",
+"pos": "adjective"
+},
+"spektral": {
+"az": "Spektrə aid.",
+"en": "spectral",
+"pos": "adjective"
+},
+"spiker": {
+"az": "Parlament sədri; diktor.",
+"en": "speaker",
+"pos": "noun"
+},
+"spinozaçı": {
+"az": "Spinoza fəlsəfəsinin tərəfdarı.",
+"en": "Spinozist",
+"pos": "noun"
+},
+"ssuda": {
+"az": "Borc, kredit.",
+"en": "loan",
+"pos": "noun"
+},
+"stabilləşdirici": {
+"az": "Sabitləşdirən.",
+"en": "stabilizing; stabilizer",
+"pos": "adjective"
+},
+"statist": {
+"az": "Səhnədə sözsüz rol ifaçısı.",
+"en": "extra (actor)",
+"pos": "noun"
+},
+"stilist": {
+"az": "Üslub ustası; obraz yaradan mütəxəssis.",
+"en": "stylist",
+"pos": "noun"
+},
+"stop-kran": {
+"az": "Qatarı təcili dayandıran kran.",
+"en": "emergency brake",
+"pos": "noun"
+},
+"stratostat": {
+"az": "Stratosferə qalxan hava şarı.",
+"en": "stratospheric balloon",
+"pos": "noun"
+},
+"streslənmək": {
+"az": "Stres keçirmək.",
+"en": "to get stressed",
+"pos": "verb"
+},
+"stüard": {
+"az": "Təyyarədə və ya gəmidə xidmətçi.",
+"en": "steward",
+"pos": "noun"
+},
+"subasqı": {
+"az": "Su basqını.",
+"en": "flood",
+"pos": "noun"
+},
+"sugötürücü": {
+"az": "Suyu ötürən, su apararı.",
+"en": "water-conducting",
+"pos": "adjective"
+},
+"sukeçirici": {
+"az": "Suyu keçirən.",
+"en": "water-permeable",
+"pos": "adjective"
+},
+"sukeçirməz": {
+"az": "Suyu keçirməyən.",
+"en": "waterproof",
+"pos": "adjective"
+},
+"sumo": {
+"az": "Yapon güləşi.",
+"en": "sumo",
+"pos": "noun"
+},
+"surdopedaqoq": {
+"az": "Kar uşaqlara təlim verən müəllim.",
+"en": "teacher of the deaf",
+"pos": "noun"
+},
+"surdotexnika": {
+"az": "Karlar üçün texniki vasitələr.",
+"en": "hearing aid technology",
+"pos": "noun"
+},
+"surdotərcümə": {
+"az": "Jest dilinə tərcümə.",
+"en": "sign language interpreting",
+"pos": "noun"
+},
+"suvaqüstü": {
+"az": "Suvağın üstündən çəkilmiş.",
+"en": "surface-mounted",
+"pos": "adjective"
+},
+"suvurucu": {
+"az": "Suyu sovuran.",
+"en": "water-sucking",
+"pos": "adjective"
+},
+"suyum": {
+"skip": "meaning not known with confidence"
+},
+"südləmək": {
+"az": "Süd qatmaq.",
+"en": "to add milk",
+"pos": "verb"
+},
+"süfrəsiaçıq": {
+"az": "Qonaqpərvər.",
+"en": "hospitable",
+"pos": "adjective"
+},
+"süxurşünas": {
+"az": "Süxurları öyrənən alim.",
+"en": "petrographer",
+"pos": "noun"
+},
+"sülək": {
+"skip": "meaning not known with confidence"
+},
+"sümüklənmək": {
+"az": "Sümük bağlamaq.",
+"en": "to ossify",
+"pos": "verb"
+},
+"sümürtləmək": {
+"skip": "meaning not known with confidence"
+},
+"sürrealist": {
+"az": "Sürrealizm tərəfdarı.",
+"en": "surrealist",
+"pos": "noun"
+},
+"sürüdülmək": {
+"az": "Sürüdülüb aparılmaq.",
+"en": "to be dragged",
+"pos": "verb"
+},
+"sürükləşmək": {
+"skip": "meaning not known with confidence"
+},
+"sürükmək": {
+"skip": "meaning not known with confidence"
+},
+"süründürücü": {
+"az": "Süründürən; ləngidən.",
+"en": "dragging, delaying",
+"pos": "adjective"
+},
+"sürüşkənlətmək": {
+"az": "Sürüşkən etmək.",
+"en": "to make slippery",
+"pos": "verb"
+},
+"süskün": {
+"az": "Süst, halsız.",
+"en": "listless",
+"pos": "adjective"
+},
+"süstkün": {
+"az": "Süst, halsız.",
+"en": "listless",
+"pos": "adjective"
+},
+"sütuncuq": {
+"az": "Kiçik sütun.",
+"en": "small column",
+"pos": "noun"
+},
+"taksomotor": {
+"az": "Taksi avtomobili.",
+"en": "taxicab",
+"pos": "noun"
+},
+"tallom": {
+"az": "Ali bitkilərdən fərqli olaraq gövdə və yarpağa bölünməyən bitki bədəni.",
+"en": "thallus",
+"pos": "noun"
+},
+"talmudçu": {
+"az": "Talmud alimi; quru ehkamçı.",
+"en": "Talmudist",
+"pos": "noun"
+},
+"tanrıtanımaz": {
+"az": "Allahı tanımayan.",
+"en": "godless",
+"pos": "adjective"
+},
+"tapıcı": {
+"az": "Tapan.",
+"en": "finder",
+"pos": "noun"
+},
+"tapıl": {
+"skip": "meaning not known with confidence"
+},
+"tarazlaşdırıcı": {
+"az": "Tarazlaşdıran.",
+"en": "balancing; equalizer",
+"pos": "adjective"
+},
+"tarazlı": {
+"az": "Tarazlıqlı.",
+"en": "balanced",
+"pos": "adjective"
+},
+"tayqa": {
+"az": "Şimalın sıx iynəyarpaqlı meşəsi.",
+"en": "taiga",
+"pos": "noun"
+},
+"taylamaq": {
+"az": "Tay-tay etmək.",
+"en": "to pair up",
+"pos": "verb"
+},
+"taylandırmaq": {
+"skip": "meaning not known with confidence"
+},
+"tazıbaz": {
+"az": "Tazı saxlayan, tazı həvəskarı.",
+"en": "greyhound fancier",
+"pos": "noun"
+},
+"teatral": {
+"az": "Teatra aid; süni təmtəraqlı.",
+"en": "theatrical",
+"pos": "adjective"
+},
+"teatrsevər": {
+"az": "Teatrı sevən.",
+"en": "theatregoer",
+"pos": "noun"
+},
+"texnikaşünas": {
+"az": "Texnikanı öyrənən mütəxəssis.",
+"en": "technologist",
+"pos": "noun"
+},
+"teksturlanmaq": {
+"az": "Tekstur verilmək.",
+"en": "to be textured",
+"pos": "verb"
+},
+"telegenik": {
+"az": "Ekranda yaxşı görünən.",
+"en": "telegenic",
+"pos": "adjective"
+}
+}

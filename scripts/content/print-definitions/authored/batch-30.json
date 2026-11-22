@@ -1,0 +1,1142 @@
+{
+"nəfəsotu": {
+"skip": "meaning not known with confidence"
+},
+"nəmgül": {
+"skip": "meaning not known with confidence"
+},
+"nənəciyəz": {
+"az": "Əziz nənə.",
+"en": "dear granny",
+"pos": "noun"
+},
+"nənəsiz-babasız": {
+"az": "Nənəsi, babası olmayan.",
+"en": "without grandparents",
+"pos": "adjective"
+},
+"nənəsiz-balasız": {
+"skip": "meaning not known with confidence"
+},
+"nəriltisiz-gurultusuz": {
+"az": "Səs-küysüz.",
+"en": "without fuss",
+"pos": "adverb"
+},
+"nəsimli": {
+"az": "Mehli, sərin.",
+"en": "breezy",
+"pos": "adjective"
+},
+"nəsimlik": {
+"skip": "meaning not known with confidence"
+},
+"nəsimsiz": {
+"az": "Mehsiz.",
+"en": "windless",
+"pos": "adjective"
+},
+"nəsnə": {
+"az": "Şey.",
+"en": "thing",
+"pos": "noun"
+},
+"nəstəliq": {
+"az": "Fars-ərəb xəttinin bir növü.",
+"en": "nastaliq",
+"pos": "noun"
+},
+"nəticəsiz-kötücəsiz": {
+"az": "Nəslin davamı olmayan.",
+"en": "without descendants",
+"pos": "adjective"
+},
+"nəvəciyəz": {
+"az": "Əziz nəvə.",
+"en": "dear grandchild",
+"pos": "noun"
+},
+"nəvəsiz-nəticəsiz": {
+"az": "Nəvəsi, nəticəsi olmayan.",
+"en": "without grandchildren",
+"pos": "adjective"
+},
+"nəzərəçarpacaq": {
+"az": "Nəzərə çarpacaq qədər.",
+"en": "noticeable",
+"pos": "adjective"
+},
+"nibelunq": {
+"az": "Alman eposunda nibelunq.",
+"en": "Nibelung",
+"pos": "noun"
+},
+"niderland": {
+"az": "Hollandiyaya aid.",
+"en": "Dutch",
+"pos": "adjective"
+},
+"nixrom": {
+"az": "Nikel-xrom ərintisi.",
+"en": "nichrome",
+"pos": "noun"
+},
+"nikobarlı": {
+"az": "Nikobar adalarından olan adam.",
+"en": "Nicobarese",
+"pos": "noun"
+},
+"niktitropizm": {
+"az": "Bitki yarpaqlarının gecə vəziyyəti.",
+"en": "nyctinasty",
+"pos": "noun"
+},
+"niktofobiya": {
+"az": "Qaranlıqdan qorxu.",
+"en": "nyctophobia",
+"pos": "noun"
+},
+"niqrol": {
+"skip": "meaning not known with confidence"
+},
+"niqrozin": {
+"az": "Qara boya.",
+"en": "nigrosine",
+"pos": "noun"
+},
+"nimfa": {
+"az": "Pəri; həşəratın inkişaf mərhələsi.",
+"en": "nymph",
+"pos": "noun"
+},
+"nimfomaniya": {
+"az": "Qadında hədsiz cinsi istək.",
+"en": "nymphomania",
+"pos": "noun"
+},
+"nimonik": {
+"az": "Nikel əsaslı ərinti.",
+"en": "Nimonic alloy",
+"pos": "noun"
+},
+"nin-citsu": {
+"az": "Nindzya döyüş sənəti.",
+"en": "ninjutsu",
+"pos": "noun"
+},
+"nindza": {
+"az": "Yapon casus-döyüşçü.",
+"en": "ninja",
+"pos": "noun"
+},
+"nippel": {
+"az": "Birləşdirici boru ucluğu.",
+"en": "nipple",
+"pos": "noun"
+},
+"nirvana": {
+"az": "Buddizmdə əbədi rahatlıq halı.",
+"en": "nirvana",
+"pos": "noun"
+},
+"nisbə": {
+"az": "Mənsubiyyət bildirən ad.",
+"en": "nisba",
+"pos": "noun"
+},
+"nisbiyyətsizlik": {
+"skip": "meaning not known with confidence"
+},
+"nitrid": {
+"az": "Azot birləşməsi.",
+"en": "nitride",
+"pos": "noun"
+},
+"nitril": {
+"az": "Siano qruplu üzvi birləşmə.",
+"en": "nitrile",
+"pos": "noun"
+},
+"nitril-kauçuk": {
+"az": "Yağadavamlı sintetik kauçuk.",
+"en": "nitrile rubber",
+"pos": "noun"
+},
+"nitroboya": {
+"az": "Nitrolu boya.",
+"en": "nitro dye",
+"pos": "noun"
+},
+"nitrodəri": {
+"skip": "meaning not known with confidence"
+},
+"nitroefir": {
+"skip": "meaning not known with confidence"
+},
+"nitroemal": {
+"az": "Nitroselüloz emalı.",
+"en": "nitro enamel",
+"pos": "noun"
+},
+"nitroetan": {
+"az": "Nitroalkan.",
+"en": "nitroethane",
+"pos": "noun"
+},
+"nitrofenol": {
+"az": "Nitro qruplu fenol.",
+"en": "nitrophenol",
+"pos": "noun"
+},
+"nitrofil": {
+"az": "Azotlu torpaqsevən.",
+"en": "nitrophilous",
+"pos": "adjective"
+},
+"nitrofit": {
+"az": "Azotlu torpaqda bitən bitki.",
+"en": "nitrophyte",
+"pos": "noun"
+},
+"nitrofos": {
+"az": "Azot-fosfor gübrəsi.",
+"en": "nitrophos",
+"pos": "noun"
+},
+"nitrogen": {
+"az": "Azot.",
+"en": "nitrogen",
+"pos": "noun"
+},
+"nitroxlorbenzol": {
+"skip": "meaning not known with confidence"
+},
+"nitroipək": {
+"az": "Süni ipək.",
+"en": "nitro silk",
+"pos": "noun"
+},
+"nitroqrup": {
+"az": "Nitro qrupu.",
+"en": "nitro group",
+"pos": "noun"
+},
+"nitrolak": {
+"az": "Nitroselüloz lakı.",
+"en": "nitro lacquer",
+"pos": "noun"
+},
+"nitrometan": {
+"az": "Ən sadə nitroalkan.",
+"en": "nitromethane",
+"pos": "noun"
+},
+"nitrometr": {
+"skip": "meaning not known with confidence"
+},
+"nitron": {
+"skip": "meaning not known with confidence"
+},
+"nitronatrit": {
+"az": "Natrium nitrat mineralı.",
+"en": "nitronatrite",
+"pos": "noun"
+},
+"nitroörtük": {
+"az": "Nitro boya örtüyü.",
+"en": "nitro coating",
+"pos": "noun"
+},
+"nitropenton": {
+"skip": "meaning not known with confidence"
+},
+"nitrorəng": {
+"az": "Nitro boya.",
+"en": "nitro paint",
+"pos": "noun"
+},
+"nitrospirt": {
+"skip": "meaning not known with confidence"
+},
+"nitroz": {
+"skip": "meaning not known with confidence"
+},
+"nitrozil-bromid": {
+"skip": "meaning not known with confidence"
+},
+"nitrozil-xlorid": {
+"skip": "meaning not known with confidence"
+},
+"nitrozil-sulfat": {
+"skip": "meaning not known with confidence"
+},
+"nitrozobirləşmə": {
+"az": "Nitrozo qruplu birləşmə.",
+"en": "nitroso compound",
+"pos": "noun"
+},
+"nivx": {
+"az": "Saxalin və Amurda yaşayan xalq.",
+"en": "Nivkh",
+"pos": "noun"
+},
+"nizamlaşdırıcı": {
+"az": "Nizama salan.",
+"en": "regulating",
+"pos": "adjective"
+},
+"noğul-moğul": {
+"skip": "meaning not known with confidence"
+},
+"nokdaun": {
+"az": "Boksçunun yerə yıxılması.",
+"en": "knockdown",
+"pos": "noun"
+},
+"noktürn": {
+"az": "Gecə mövzulu musiqi əsəri.",
+"en": "nocturne",
+"pos": "noun"
+},
+"noqata": {
+"skip": "meaning not known with confidence"
+},
+"noqayca": {
+"az": "Noqay dilində.",
+"en": "in Nogai",
+"pos": "adverb"
+},
+"nomarx": {
+"az": "Qədim Misirdə vilayət hakimi.",
+"en": "nomarch",
+"pos": "noun"
+},
+"nomenklatur": {
+"skip": "meaning not known with confidence"
+},
+"nominalistik konsepsiya": {
+"az": "Nominalizmə əsaslanan baxış.",
+"en": "nominalist conception",
+"pos": "noun"
+},
+"nominalizasiya": {
+"az": "İsimləşmə.",
+"en": "nominalization",
+"pos": "noun"
+},
+"nominativ": {
+"az": "Adlıq hal.",
+"en": "nominative",
+"pos": "noun"
+},
+"nomofobiya": {
+"az": "Telefonsuz qalmaq qorxusu.",
+"en": "nomophobia",
+"pos": "noun"
+},
+"nomogenez": {
+"az": "Təkamülün qanunauyğunluqla getməsi təlimi.",
+"en": "nomogenesis",
+"pos": "noun"
+},
+"nomoqram": {
+"az": "Hesablama qrafiki.",
+"en": "nomogram",
+"pos": "noun"
+},
+"nomosenoz": {
+"skip": "meaning not known with confidence"
+},
+"nonakkord": {
+"az": "Doqquzluq akkord.",
+"en": "ninth chord",
+"pos": "noun"
+},
+"nonius": {
+"az": "Ölçü cihazının köməkçi şkalası.",
+"en": "vernier",
+"pos": "noun"
+},
+"nonsens": {
+"az": "Mənasızlıq.",
+"en": "nonsense",
+"pos": "noun"
+},
+"noolandşaft": {
+"skip": "meaning not known with confidence"
+},
+"noosfer": {
+"az": "Ağıl sferası.",
+"en": "noosphere",
+"pos": "noun"
+},
+"noosferik": {
+"az": "Noosferə aid.",
+"en": "noospheric",
+"pos": "adjective"
+},
+"nordkap": {
+"skip": "meaning not known with confidence"
+},
+"nordmarkit": {
+"skip": "meaning not known with confidence"
+},
+"norit": {
+"az": "Maqmatik süxur.",
+"en": "norite",
+"pos": "noun"
+},
+"normandiyalı": {
+"az": "Normandiyadan olan adam.",
+"en": "Norman",
+"pos": "noun"
+},
+"normativizm": {
+"az": "Hüquqda norma nəzəriyyəsi.",
+"en": "normativism",
+"pos": "noun"
+},
+"nostalji": {
+"az": "Həsrət, nostalji.",
+"en": "nostalgia",
+"pos": "noun"
+},
+"nostrifikasiya": {
+"az": "Xarici diplomun tanınması.",
+"en": "nostrification",
+"pos": "noun"
+},
+"notabena": {
+"az": "Diqqət edin işarəsi.",
+"en": "nota bene",
+"pos": "noun"
+},
+"notariat": {
+"az": "Notariat orqanları.",
+"en": "notary office",
+"pos": "noun"
+},
+"notasiya": {
+"az": "Not yazısı.",
+"en": "notation",
+"pos": "noun"
+},
+"notbuk": {
+"az": "Portativ kompüter.",
+"en": "laptop",
+"pos": "noun"
+},
+"noumenal": {
+"az": "Numenə aid.",
+"en": "noumenal",
+"pos": "adjective"
+},
+"novasiya": {
+"az": "Öhdəliyin yenisi ilə əvəzlənməsi.",
+"en": "novation",
+"pos": "noun"
+},
+"novruznisə": {
+"skip": "meaning not known with confidence"
+},
+"novruzotu": {
+"skip": "meaning not known with confidence"
+},
+"novvari çokəklik": {
+"skip": "meaning not known with confidence"
+},
+"nozema": {
+"az": "Arı xəstəliyi törədicisi.",
+"en": "Nosema",
+"pos": "noun"
+},
+"növbələnməyən": {
+"az": "Növbələnməyən.",
+"en": "non-alternating",
+"pos": "adjective"
+},
+"növdəyişkənliyi indeksi": {
+"skip": "meaning not known with confidence"
+},
+"nuklear": {
+"az": "Nüvəyə aid.",
+"en": "nuclear",
+"pos": "adjective"
+},
+"nuklein": {
+"az": "Nuklein turşusu.",
+"en": "nuclein",
+"pos": "noun"
+},
+"nukleofil": {
+"az": "Nüvəyə meyilli reagent.",
+"en": "nucleophile",
+"pos": "noun"
+},
+"nukleus": {
+"az": "Nüvə.",
+"en": "nucleus",
+"pos": "noun"
+},
+"nullifikasiya": {
+"az": "Ləğv etmə.",
+"en": "nullification",
+"pos": "noun"
+},
+"nullisomiya": {
+"az": "Bir cüt xromosomun olmaması.",
+"en": "nullisomy",
+"pos": "noun"
+},
+"numerasiya": {
+"az": "Nömrələmə.",
+"en": "numeration",
+"pos": "noun"
+},
+"numerofobiya": {
+"az": "Rəqəmlərdən qorxu.",
+"en": "numerophobia",
+"pos": "noun"
+},
+"nunsi": {
+"az": "Papa elçisi.",
+"en": "nuncio",
+"pos": "noun"
+},
+"nupe": {
+"az": "Nigeriyada yaşayan xalq.",
+"en": "Nupe",
+"pos": "noun"
+},
+"nutasiya": {
+"az": "Ox titrəməsi.",
+"en": "nutation",
+"pos": "noun"
+},
+"nutriya": {
+"az": "Bataqlıq qunduzu.",
+"en": "coypu",
+"pos": "noun"
+},
+"nuttalioz": {
+"skip": "meaning not known with confidence"
+},
+"nuvistor": {
+"az": "Miniatür elektron lampa.",
+"en": "nuvistor",
+"pos": "noun"
+},
+"nuvoriş": {
+"az": "Təzə varlanmış adam.",
+"en": "nouveau riche",
+"pos": "noun"
+},
+"nyuvikon": {
+"skip": "meaning not known with confidence"
+},
+"oaykı": {
+"az": "O aydakı.",
+"en": "of that month",
+"pos": "adjective"
+},
+"oazis": {
+"az": "Səhrada yaşıllıq.",
+"en": "oasis",
+"pos": "noun"
+},
+"obduksiya": {
+"az": "Meyitin yarılması.",
+"en": "autopsy",
+"pos": "noun"
+},
+"ober": {
+"skip": "meaning not known with confidence"
+},
+"ober-burqomistr": {
+"az": "Baş burqomistr.",
+"en": "chief burgomaster",
+"pos": "noun"
+},
+"ober-kansler": {
+"skip": "meaning not known with confidence"
+},
+"obliqator": {
+"skip": "meaning not known with confidence"
+},
+"obliterasiya": {
+"az": "Boşluğun tıxanması.",
+"en": "obliteration",
+"pos": "noun"
+},
+"obliterasiyaedici": {
+"az": "Tıxayan.",
+"en": "obliterating",
+"pos": "adjective"
+},
+"obol": {
+"az": "Qədim Yunan sikkəsi.",
+"en": "obol",
+"pos": "noun"
+},
+"obskurant": {
+"az": "Maarif düşməni.",
+"en": "obscurantist",
+"pos": "noun"
+},
+"obskurantizm": {
+"az": "Maarifə düşmənçilik.",
+"en": "obscurantism",
+"pos": "noun"
+},
+"oddanqoruyucu": {
+"az": "Oddan qoruyan.",
+"en": "fireproof",
+"pos": "adjective"
+},
+"odquyruqlu": {
+"skip": "meaning not known with confidence"
+},
+"odluca": {
+"az": "Odlu.",
+"en": "fiery",
+"pos": "adjective"
+},
+"odoqraf": {
+"skip": "meaning not known with confidence"
+},
+"odövrkü": {
+"az": "O dövrkü.",
+"en": "of that time",
+"pos": "adjective"
+},
+"odsöndürücü": {
+"az": "Od söndürən.",
+"en": "fire-extinguishing",
+"pos": "adjective"
+},
+"odsuz-atəşsiz": {
+"az": "Odsuz, isti olmayan.",
+"en": "without fire",
+"pos": "adjective"
+},
+"odsuz-közsüz": {
+"az": "Odsuz, isti olmayan.",
+"en": "without fire",
+"pos": "adjective"
+},
+"ofiolit": {
+"az": "Okean qabığı süxurları kompleksi.",
+"en": "ophiolite",
+"pos": "noun"
+},
+"oflayn": {
+"az": "Şəbəkədən kənar.",
+"en": "offline",
+"pos": "adjective"
+},
+"ofşor": {
+"az": "Vergi güzəştli xarici zona.",
+"en": "offshore",
+"pos": "adjective"
+},
+"oftalmoskop": {
+"az": "Göz dibini müayinə cihazı.",
+"en": "ophthalmoscope",
+"pos": "noun"
+},
+"ogecəki": {
+"az": "O gecəki.",
+"en": "of that night",
+"pos": "adjective"
+},
+"ogünkü": {
+"az": "O günkü.",
+"en": "of that day",
+"pos": "adjective"
+},
+"oğlaqqıran ay": {
+"az": "Mart ayının xalq adı.",
+"en": "March (folk name)",
+"pos": "noun"
+},
+"oğuz-səlcuq": {
+"az": "Oğuz-səlcuq dövrünə aid.",
+"en": "Oghuz-Seljuk",
+"pos": "adjective"
+},
+"oxbatmaz": {
+"az": "Ox batmayan.",
+"en": "arrow-proof",
+"pos": "adjective"
+},
+"oxboyu": {
+"az": "Ox boyu məsafə.",
+"en": "bowshot",
+"pos": "noun"
+},
+"oxçatmaz": {
+"az": "Ox çatmayan.",
+"en": "out of bowshot",
+"pos": "adjective"
+},
+"oxkeçən": {
+"skip": "meaning not known with confidence"
+},
+"oxkeçirən": {
+"skip": "meaning not known with confidence"
+},
+"oxkeçirməz": {
+"az": "Ox keçirməyən.",
+"en": "arrow-proof",
+"pos": "adjective"
+},
+"oxkeçməz": {
+"az": "Ox keçməyən.",
+"en": "arrow-proof",
+"pos": "adjective"
+},
+"oxotu": {
+"skip": "meaning not known with confidence"
+},
+"oxumlu": {
+"skip": "meaning not known with confidence"
+},
+"oidium": {
+"az": "Üzüm unlu şeh xəstəliyi.",
+"en": "powdery mildew",
+"pos": "noun"
+},
+"oilki": {
+"az": "O ilki.",
+"en": "of that year",
+"pos": "adjective"
+},
+"okeanarium": {
+"az": "Böyük dəniz akvariumu.",
+"en": "oceanarium",
+"pos": "noun"
+},
+"okeanaşırı": {
+"az": "Okeanın o tayındakı.",
+"en": "transoceanic",
+"pos": "adjective"
+},
+"okeanonim": {
+"az": "Okean adı.",
+"en": "ocean name",
+"pos": "noun"
+},
+"okkazional": {
+"az": "Təsadüfi, bir dəfəlik.",
+"en": "occasional",
+"pos": "adjective"
+},
+"okkazionalizm": {
+"az": "Fərdi yaradılmış söz.",
+"en": "nonce word",
+"pos": "noun"
+},
+"okklüziya": {
+"az": "Tıxanma; dişlərin qapanışı.",
+"en": "occlusion",
+"pos": "noun"
+},
+"okkultizm": {
+"az": "Gizli elmlərə inam.",
+"en": "occultism",
+"pos": "noun"
+},
+"oksalat": {
+"az": "Turşəng turşusunun duzu.",
+"en": "oxalate",
+"pos": "noun"
+},
+"oksamit": {
+"skip": "meaning not known with confidence"
+},
+"oksazin": {
+"skip": "meaning not known with confidence"
+},
+"oksidaza": {
+"az": "Oksidləşmə fermenti.",
+"en": "oxidase",
+"pos": "noun"
+},
+"oksidimetriya": {
+"az": "Oksidləşmə-reduksiya titrləməsi.",
+"en": "redox titration",
+"pos": "noun"
+},
+"oksigenoterapiya": {
+"az": "Oksigenlə müalicə.",
+"en": "oxygen therapy",
+"pos": "noun"
+},
+"oksihemoqlobin": {
+"az": "Oksigenlə birləşmiş hemoqlobin.",
+"en": "oxyhaemoglobin",
+"pos": "noun"
+},
+"oksixinolin": {
+"az": "Analitik reagent.",
+"en": "oxyquinoline",
+"pos": "noun"
+},
+"oksixromatofil": {
+"skip": "meaning not known with confidence"
+},
+"oksisefaliya": {
+"az": "Qüllə başlılıq.",
+"en": "oxycephaly",
+"pos": "noun"
+},
+"oksonium": {
+"az": "Oksonium ionu.",
+"en": "oxonium",
+"pos": "noun"
+},
+"oksosintez": {
+"az": "Hidroformilləşmə.",
+"en": "oxo synthesis",
+"pos": "noun"
+},
+"oktet": {
+"az": "Səkkiz ifaçı ansamblı.",
+"en": "octet",
+"pos": "noun"
+},
+"oktod": {
+"az": "Səkkiz elektrodlu lampa.",
+"en": "octode",
+"pos": "noun"
+},
+"oktyabryat": {
+"az": "Kiçik məktəbli sovet təşkilatı üzvü.",
+"en": "Little Octobrist",
+"pos": "noun"
+},
+"okulyar": {
+"az": "Optik cihazın göz linzası.",
+"en": "eyepiece",
+"pos": "noun"
+},
+"oqami": {
+"skip": "meaning not known with confidence"
+},
+"oqur": {
+"az": "Qədim türk tayfası.",
+"en": "Oghur",
+"pos": "noun"
+},
+"olar-olmaz": {
+"az": "Olan kimi.",
+"en": "as soon as it happens",
+"pos": "adverb"
+},
+"olefin": {
+"az": "Doymamış karbohidrogen.",
+"en": "olefin",
+"pos": "noun"
+},
+"olein": {
+"az": "Olein turşusu.",
+"en": "olein",
+"pos": "noun"
+},
+"oliqodon": {
+"skip": "meaning not known with confidence"
+},
+"oliqofagiya": {
+"az": "Az növ qida ilə qidalanma.",
+"en": "oligophagy",
+"pos": "noun"
+},
+"oliqofren": {
+"az": "Əqli geriliyi olan.",
+"en": "person with intellectual disability",
+"pos": "noun"
+},
+"oliqofreniya": {
+"az": "Anadangəlmə əqli gerilik.",
+"en": "oligophrenia",
+"pos": "noun"
+},
+"oliqofrenopedaqogika": {
+"az": "Əqli geriliyi olanların təlimi.",
+"en": "special education",
+"pos": "noun"
+},
+"oliqofrenopedaqoq": {
+"az": "Əqli geriliyi olanların müəllimi.",
+"en": "special-education teacher",
+"pos": "noun"
+},
+"oliqoxet": {
+"az": "Azqıllı qurd.",
+"en": "oligochaete",
+"pos": "noun"
+},
+"oliqoklaz": {
+"az": "Çöl şpatı mineralı.",
+"en": "oligoclase",
+"pos": "noun"
+},
+"oliqopolist": {
+"az": "Oliqopoliya iştirakçısı.",
+"en": "oligopolist",
+"pos": "noun"
+},
+"oliqosaxarid": {
+"az": "Az sayda şəkərdən ibarət karbohidrat.",
+"en": "oligosaccharide",
+"pos": "noun"
+},
+"oliqosaprob": {
+"az": "Az çirkli suda yaşayan.",
+"en": "oligosaprobic",
+"pos": "adjective"
+},
+"oliqosen": {
+"az": "Paleogenin son epoxası.",
+"en": "Oligocene",
+"pos": "noun"
+},
+"oliqotrof": {
+"az": "Az qidalı.",
+"en": "oligotrophic",
+"pos": "adjective"
+},
+"olmaya-bilməyə": {
+"skip": "meaning not known with confidence"
+},
+"ombrometr": {
+"az": "Yağış ölçən cihaz.",
+"en": "rain gauge",
+"pos": "noun"
+},
+"omnibus": {
+"az": "Çoxyerli at arabası.",
+"en": "omnibus",
+"pos": "noun"
+},
+"omofon": {
+"skip": "meaning not known with confidence"
+},
+"omoform": {
+"skip": "meaning not known with confidence"
+},
+"omoqraf": {
+"az": "Eyni yazılan, fərqli oxunan söz.",
+"en": "homograph",
+"pos": "noun"
+},
+"onadamlıq": {
+"az": "On adamlıq.",
+"en": "for ten people",
+"pos": "adjective"
+},
+"ondakı": {
+"az": "Onda olan.",
+"en": "that is with them",
+"pos": "adjective"
+},
+"ondoqraf": {
+"skip": "meaning not known with confidence"
+},
+"ondördgecəlik": {
+"az": "On dörd gecəlik.",
+"en": "fourteen-night",
+"pos": "adjective"
+},
+"ondulyator": {
+"skip": "meaning not known with confidence"
+},
+"ondüymə": {
+"az": "On düyməli.",
+"en": "ten-button",
+"pos": "adjective"
+},
+"onxoserkoz": {
+"az": "Qurdların törətdiyi dəri-göz xəstəliyi.",
+"en": "onchocerciasis",
+"pos": "noun"
+},
+"oniks": {
+"az": "Zolaqlı akik.",
+"en": "onyx",
+"pos": "noun"
+},
+"onim": {
+"az": "Xüsusi ad.",
+"en": "proper name",
+"pos": "noun"
+},
+"onimiya": {
+"az": "Xüsusi adların məcmusu.",
+"en": "onymy",
+"pos": "noun"
+},
+"onimləşmə": {
+"az": "Xüsusi ada çevrilmə.",
+"en": "onymization",
+"pos": "noun"
+},
+"onkiloluq": {
+"az": "On kiloluq.",
+"en": "ten-kilo",
+"pos": "adjective"
+},
+"onqon": {
+"az": "Totem ruhun təsviri.",
+"en": "ongon",
+"pos": "noun"
+},
+"onlitrlik": {
+"az": "On litrlik.",
+"en": "ten-litre",
+"pos": "adjective"
+},
+"onnəfərlik": {
+"az": "On nəfərlik.",
+"en": "for ten people",
+"pos": "adjective"
+},
+"onnövçülük": {
+"skip": "meaning not known with confidence"
+},
+"onomatopeya": {
+"az": "Səstəqlidi.",
+"en": "onomatopoeia",
+"pos": "noun"
+},
+"on-onbeş": {
+"az": "On və ya on beş.",
+"en": "ten or fifteen",
+"pos": "numeral"
+},
+"onsaatlıq": {
+"az": "On saatlıq.",
+"en": "ten-hour",
+"pos": "adjective"
+},
+"onüçillik müharibə": {
+"az": "On üç il davam edən müharibə.",
+"en": "Thirteen Years' War",
+"pos": "noun"
+},
+"onüzlü": {
+"az": "On üzlü.",
+"en": "ten-faced",
+"pos": "adjective"
+},
+"ooqamiya": {
+"az": "İri yumurta hüceyrəsi ilə mayalanma.",
+"en": "oogamy",
+"pos": "noun"
+},
+"oolit": {
+"az": "Dənəli əhəngdaşı.",
+"en": "oolite",
+"pos": "noun"
+},
+"oomiset": {
+"az": "Yalançı göbələk.",
+"en": "oomycete",
+"pos": "noun"
+},
+"opalessensiya": {
+"az": "Opal kimi parıldama.",
+"en": "opalescence",
+"pos": "noun"
+},
+"opalin": {
+"az": "Süd rəngli şüşə.",
+"en": "opaline",
+"pos": "noun"
+},
+"opera-buff": {
+"az": "Komik opera.",
+"en": "opera buffa",
+"pos": "noun"
+},
+"operaçılıq": {
+"skip": "meaning not known with confidence"
+},
+"operalaşma": {
+"skip": "meaning not known with confidence"
+},
+"opistorxoz": {
+"az": "Qaraciyər qurdu xəstəliyi.",
+"en": "opisthorchiasis",
+"pos": "noun"
+},
+"opium": {
+"az": "Tiryək.",
+"en": "opium",
+"pos": "noun"
+},
+"optasiya": {
+"skip": "meaning not known with confidence"
+},
+"optikator": {
+"skip": "meaning not known with confidence"
+},
+"optimat": {
+"az": "Qədim Romada aristokrat partiya üzvü.",
+"en": "optimate",
+"pos": "noun"
+},
+"optimizator": {
+"az": "Optimallaşdırıcı.",
+"en": "optimizer",
+"pos": "noun"
+},
+"opus": {
+"az": "Əsər nömrəsi.",
+"en": "opus",
+"pos": "noun"
+},
+"oranqutan": {
+"az": "İri insanabənzər meymun.",
+"en": "orangutan",
+"pos": "noun"
+},
+"oraon": {
+"az": "Hindistan xalqı.",
+"en": "Oraon",
+"pos": "noun"
+},
+"orator": {
+"az": "Natiq.",
+"en": "orator",
+"pos": "noun"
+},
+"ordonans": {
+"az": "Fərman.",
+"en": "ordinance",
+"pos": "noun"
+},
+"orduyaqədər hazırlıq": {
+"az": "Hərbi xidmətəqədərki hazırlıq.",
+"en": "pre-conscription training",
+"pos": "noun"
+},
+"orfik": {
+"az": "Orfeyə aid.",
+"en": "Orphic",
+"pos": "adjective"
+},
+"orfofoniya": {
+"az": "Düzgün tələffüz.",
+"en": "orthophony",
+"pos": "noun"
+},
+"orionid": {
+"az": "Oktyabr meteor axını.",
+"en": "Orionids",
+"pos": "noun"
+},
+"orisfera": {
+"skip": "meaning not known with confidence"
+}
+}

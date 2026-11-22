@@ -342,7 +342,7 @@
   "conf": "high"
  },
  "çiriş": {
-  "az": "Zanbaqkimilər fəsiləsindən olan yabanı bəzək və tərəvəz bitkisi.",
+  "az": "Zanbaqkimilərdən yabanı bitki; bəzək üçün əkilir, tərəvəz kimi yeyilir.",
   "en": "a wild plant of the lily family (eremurus)",
   "pos": "noun",
   "src": "izahli",
@@ -1248,14 +1248,14 @@
   "conf": "high"
  },
  "çöltərəsi": {
-  "az": "Erkən yazda bitən, yeməyə qatılan ot.",
+  "az": "Erkən yazda çöldə bitən, yeməyə qatılan tərə.",
   "en": "an early spring herb used in cooking",
   "pos": "noun",
   "src": "izahli",
   "conf": "high"
  },
  "çöltoyuğu": {
-  "az": "Toyuqkimilərdən olan yabanı meşə quşu.",
+  "az": "Toyuğa bənzər yabanı meşə və çöl quşu.",
   "en": "hazel grouse",
   "pos": "noun",
   "src": "musayev",
@@ -1482,7 +1482,7 @@
   "conf": "high"
  },
  "çuğundurotu": {
-  "az": "Üzəri tüklərlə örtülü, bir və ya çoxillik ot bitkisi.",
+  "az": "Səthi tüklü, bir və ya bir neçə il yaşayan ot.",
   "en": "a hairy herbaceous plant",
   "pos": "noun",
   "src": "izahli",

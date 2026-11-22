@@ -1,0 +1,1171 @@
+{
+"çaxılı": {
+"skip": "meaning not known with confidence"
+},
+"xırç": {
+"az": "Xırç səsi.",
+"en": "crunch (sound)",
+"pos": "interjection"
+},
+"oyum": {
+"skip": "meaning not known with confidence"
+},
+"turna": {
+"az": "Uzunayaqlı iri köçəri quş, durna.",
+"en": "crane (bird)",
+"pos": "noun"
+},
+"türlü": {
+"az": "Cürbəcür, müxtəlif.",
+"en": "various",
+"pos": "adjective"
+},
+"erqonim": {
+"az": "Müəssisə və ya təşkilat adı.",
+"en": "ergonym",
+"pos": "noun"
+},
+"ertədən-ertəyə": {
+"az": "Hər səhər tezdən.",
+"en": "early every morning",
+"pos": "adverb"
+},
+"eskalasiya": {
+"az": "Kəskinləşmə, genişlənmə.",
+"en": "escalation",
+"pos": "noun"
+},
+"eskarp": {
+"az": "Səngərin dik divarı.",
+"en": "escarp",
+"pos": "noun"
+},
+"eskort": {
+"az": "Müşayiət dəstəsi.",
+"en": "escort",
+"pos": "noun"
+},
+"eskulap": {
+"az": "Həkim (zarafatla).",
+"en": "physician (jocular)",
+"pos": "noun"
+},
+"esmines": {
+"az": "Eskadra minadaşıyanı.",
+"en": "destroyer",
+"pos": "noun"
+},
+"espadron": {
+"az": "İdman qılıncı.",
+"en": "espadron (sabre)",
+"pos": "noun"
+},
+"espander": {
+"az": "Əzələ məşqi aləti.",
+"en": "chest expander",
+"pos": "noun"
+},
+"esperantoca": {
+"az": "Esperanto dilində.",
+"en": "in Esperanto",
+"pos": "adverb"
+},
+"estamp": {
+"az": "Çap qrafikası nümunəsi.",
+"en": "print (engraving)",
+"pos": "noun"
+},
+"estampaj": {
+"az": "Relyefin kağıza köçürülmüş surəti.",
+"en": "squeeze (impression)",
+"pos": "noun"
+},
+"esteziya": {
+"az": "Hissiyyat.",
+"en": "sensibility",
+"pos": "noun"
+},
+"estivasiya": {
+"az": "Yay yuxusu.",
+"en": "aestivation",
+"pos": "noun"
+},
+"estoniyalı": {
+"az": "Estoniyadan olan.",
+"en": "Estonian",
+"pos": "noun"
+},
+"etilamin": {
+"az": "Üzvi amin.",
+"en": "ethylamine",
+"pos": "noun"
+},
+"etilbromid": {
+"az": "Etil bromid.",
+"en": "ethyl bromide",
+"pos": "noun"
+},
+"etilenpropilen": {
+"az": "Etilen-propilen kauçuku.",
+"en": "ethylene-propylene rubber",
+"pos": "noun"
+},
+"etilkarbonol": {
+"skip": "meaning not known with confidence"
+},
+"etilnitrit": {
+"az": "Etil nitrit.",
+"en": "ethyl nitrite",
+"pos": "noun"
+},
+"etimon": {
+"az": "Sözün ilkin forması və mənası.",
+"en": "etymon",
+"pos": "noun"
+},
+"etiopatogenez": {
+"az": "Xəstəliyin səbəbi və inkişafı.",
+"en": "aetiopathogenesis",
+"pos": "noun"
+},
+"etnocaz": {
+"az": "Etnik motivli caz.",
+"en": "ethno-jazz",
+"pos": "noun"
+},
+"etnodil": {
+"az": "Etnik qrupun dili.",
+"en": "ethnic language",
+"pos": "noun"
+},
+"etnoidman": {
+"az": "Xalq idman oyunları.",
+"en": "ethnic sports",
+"pos": "noun"
+},
+"etnolinqvistik": {
+"az": "Etnolinqvistikaya aid.",
+"en": "ethnolinguistic",
+"pos": "adjective"
+},
+"etnonimika": {
+"az": "Xalq adlarının məcmusu.",
+"en": "ethnonymics",
+"pos": "noun"
+},
+"etnonimiya": {
+"az": "Xalq adları sistemi.",
+"en": "ethnonymy",
+"pos": "noun"
+},
+"etnotur": {
+"az": "Etnoqrafik turizm səfəri.",
+"en": "ethnic tour",
+"pos": "noun"
+},
+"etrusk": {
+"az": "Qədim İtaliya xalqı.",
+"en": "Etruscan",
+"pos": "noun"
+},
+"eukariot": {
+"az": "Nüvəli hüceyrəli orqanizm.",
+"en": "eukaryote",
+"pos": "noun"
+},
+"evakuasiya": {
+"az": "Köçürmə.",
+"en": "evacuation",
+"pos": "noun"
+},
+"evakuator": {
+"az": "Maşın daşıyan yedək maşını.",
+"en": "tow truck",
+"pos": "noun"
+},
+"evdemonizm": {
+"az": "Xoşbəxtliyi əxlaqın əsası sayan təlim.",
+"en": "eudaemonism",
+"pos": "noun"
+},
+"evdidimit": {
+"skip": "meaning not known with confidence"
+},
+"evdiometr": {
+"az": "Qazları ölçən cihaz.",
+"en": "eudiometer",
+"pos": "noun"
+},
+"evenk": {
+"az": "Sibir xalqı.",
+"en": "Evenk",
+"pos": "noun"
+},
+"evfonik": {
+"az": "Ahəngdar.",
+"en": "euphonic",
+"pos": "adjective"
+},
+"evfoniya": {
+"az": "Ahəngdarlıq.",
+"en": "euphony",
+"pos": "noun"
+},
+"evfuizm": {
+"az": "Bəzəkli üslub.",
+"en": "euphuism",
+"pos": "noun"
+},
+"evgördü": {
+"skip": "meaning not known with confidence"
+},
+"evxərci": {
+"az": "Ev xərci.",
+"en": "household expenses",
+"pos": "noun"
+},
+"evkloz": {
+"skip": "meaning not known with confidence"
+},
+"evkomiya": {
+"az": "Bitki növü.",
+"en": "eucommia",
+"pos": "noun"
+},
+"evquraşdırıcı": {
+"az": "Ev tikən.",
+"en": "house builder",
+"pos": "noun"
+},
+"evolyusion": {
+"az": "Təkamülə aid.",
+"en": "evolutionary",
+"pos": "adjective"
+},
+"evpulu": {
+"az": "Ev pulu.",
+"en": "house money",
+"pos": "noun"
+},
+"evrifaq": {
+"az": "Müxtəlif qidalı orqanizm.",
+"en": "euryphage",
+"pos": "noun"
+},
+"evristik": {
+"az": "Kəşfə yönələn.",
+"en": "heuristic",
+"pos": "adjective"
+},
+"ev-studiya": {
+"az": "Evdə qurulmuş studiya.",
+"en": "home studio",
+"pos": "noun"
+},
+"evtikən": {
+"az": "Ev tikən.",
+"en": "house builder",
+"pos": "noun"
+},
+"evyıxma": {
+"az": "Ev yıxma.",
+"en": "home-wrecking",
+"pos": "noun"
+},
+"eyakulyasiya": {
+"az": "Toxum ifrazı.",
+"en": "ejaculation",
+"pos": "noun"
+},
+"eydonimika": {
+"skip": "meaning not known with confidence"
+},
+"eydonimiya": {
+"skip": "meaning not known with confidence"
+},
+"eyxofobiya": {
+"skip": "meaning not known with confidence"
+},
+"eyniböyüklük": {
+"az": "Eyni böyüklükdə olma.",
+"en": "equality in size",
+"pos": "noun"
+},
+"eyniəsilli": {
+"az": "Eyni əsildən.",
+"en": "of the same origin",
+"pos": "adjective"
+},
+"eynihüquqlu": {
+"az": "Eyni hüquqlu.",
+"en": "having equal rights",
+"pos": "adjective"
+},
+"eynimahiyyətli": {
+"az": "Eyni mahiyyətli.",
+"en": "of the same essence",
+"pos": "adjective"
+},
+"eynimarkalı": {
+"az": "Eyni markalı.",
+"en": "of the same brand",
+"pos": "adjective"
+},
+"eynimənşəli": {
+"az": "Eyni mənşəli.",
+"en": "of the same origin",
+"pos": "adjective"
+},
+"eyniməzmunlu": {
+"az": "Eyni məzmunlu.",
+"en": "of the same content",
+"pos": "adjective"
+},
+"eynioxlu": {
+"az": "Eyni oxlu.",
+"en": "coaxial",
+"pos": "adjective"
+},
+"eynirejimli": {
+"az": "Eyni rejimli.",
+"en": "single-mode",
+"pos": "adjective"
+},
+"eynisiqnallı": {
+"az": "Eyni siqnallı.",
+"en": "single-signal",
+"pos": "adjective"
+},
+"eynişəkilli": {
+"az": "Eyni şəkilli.",
+"en": "uniform in shape",
+"pos": "adjective"
+},
+"eynitezlikli": {
+"az": "Eyni tezlikli.",
+"en": "of the same frequency",
+"pos": "adjective"
+},
+"eyniyollu": {
+"az": "Eyni yollu.",
+"en": "single-track",
+"pos": "adjective"
+},
+"eysoptrofobiya": {
+"az": "Güzgüdən qorxu.",
+"en": "eisoptrophobia",
+"pos": "noun"
+},
+"eytrofiya": {
+"az": "Normal qidalanma.",
+"en": "eutrophy",
+"pos": "noun"
+},
+"ezofaqit": {
+"az": "Qida borusunun iltihabı.",
+"en": "oesophagitis",
+"pos": "noun"
+},
+"ezopsayağı": {
+"az": "Ezop dili ilə, eyhamla.",
+"en": "in Aesopian language",
+"pos": "adverb"
+},
+"ezoterizm": {
+"az": "Gizli təlim.",
+"en": "esotericism",
+"pos": "noun"
+},
+"əbrişimi": {
+"az": "İpək rəngli.",
+"en": "silken",
+"pos": "adjective"
+},
+"əclafca": {
+"az": "Əclaf kimi.",
+"en": "vilely",
+"pos": "adverb"
+},
+"ədəbgözləməz": {
+"az": "Ədəb gözləməyən.",
+"en": "impolite",
+"pos": "adjective"
+},
+"ədəbgözləyən": {
+"az": "Ədəbli.",
+"en": "polite",
+"pos": "adjective"
+},
+"ədədbəədəd": {
+"az": "Bir-bir.",
+"en": "one by one",
+"pos": "adverb"
+},
+"əfqanca": {
+"az": "Əfqan dilində.",
+"en": "in Pashto",
+"pos": "adverb"
+},
+"əfsunlayıcı": {
+"az": "Ovsunlayan.",
+"en": "enchanting",
+"pos": "adjective"
+},
+"əfşar": {
+"az": "Türk tayfası.",
+"en": "Afshar",
+"pos": "noun"
+},
+"əfvetmə": {
+"az": "Əfv etmə.",
+"en": "pardoning",
+"pos": "noun"
+},
+"əhəməni": {
+"az": "Əhəmənilərə aid.",
+"en": "Achaemenid",
+"pos": "adjective"
+},
+"əhəngsevməyən": {
+"az": "Əhəngli torpağı sevməyən (bitki).",
+"en": "calcifuge",
+"pos": "adjective"
+},
+"əhliləşdirici": {
+"az": "Əhliləşdirən.",
+"en": "domesticating",
+"pos": "adjective"
+},
+"əkər-əkməz": {
+"az": "Əkən kimi.",
+"en": "as soon as (one) sows",
+"pos": "adverb"
+},
+"əksedilən": {
+"az": "Əks edilən.",
+"en": "reflected",
+"pos": "adjective"
+},
+"əksəri": {
+"az": "Əksəriyyət.",
+"en": "most",
+"pos": "adjective"
+},
+"əksolma": {
+"az": "Əks olunma.",
+"en": "reflection",
+"pos": "noun"
+},
+"əksolunan": {
+"az": "Əks olunan.",
+"en": "reflected",
+"pos": "adjective"
+},
+"əqlcə": {
+"az": "Ağılca.",
+"en": "mentally",
+"pos": "adverb"
+},
+"əqrəbotu": {
+"skip": "meaning not known with confidence"
+},
+"əlacedilməz": {
+"az": "Əlac edilməz.",
+"en": "incurable",
+"pos": "adjective"
+},
+"əlatılıq": {
+"skip": "meaning not known with confidence"
+},
+"əlçalma": {
+"az": "Əl çalma.",
+"en": "clapping",
+"pos": "noun"
+},
+"əlçatmayan": {
+"az": "Əl çatmayan.",
+"en": "unreachable",
+"pos": "adjective"
+},
+"əlçimlənmə": {
+"skip": "meaning not known with confidence"
+},
+"əldədüzəltmə": {
+"az": "Əldə düzəldilən.",
+"en": "handmade",
+"pos": "adjective"
+},
+"əldəgəzdirmə": {
+"az": "Əldən-ələ gəzdirilən.",
+"en": "handed around",
+"pos": "adjective"
+},
+"əldəngüclü": {
+"skip": "meaning not known with confidence"
+},
+"əldəniti": {
+"skip": "meaning not known with confidence"
+},
+"əldəstəyi": {
+"az": "Əl dəstəyi.",
+"en": "handgrip",
+"pos": "noun"
+},
+"əleyhissalam": {
+"az": "Peyğəmbər adından sonra işlənən dua ifadəsi.",
+"en": "peace be upon him",
+"pos": "interjection"
+},
+"ələgəlmə": {
+"az": "Ələ gəlmə.",
+"en": "yielding to handling",
+"pos": "noun"
+},
+"ələgəlməz": {
+"az": "Ələ gəlməyən, nadinc.",
+"en": "unmanageable",
+"pos": "adjective"
+},
+"ələksatan": {
+"az": "Ələk satan.",
+"en": "sieve seller",
+"pos": "noun"
+},
+"ələkvari": {
+"az": "Ələk kimi.",
+"en": "sieve-like",
+"pos": "adjective"
+},
+"ələnti": {
+"az": "Ələnib qalan.",
+"en": "siftings",
+"pos": "noun"
+},
+"ələöyrəncəli": {
+"az": "Ələ öyrəşmiş.",
+"en": "tame",
+"pos": "adjective"
+},
+"ələsalma": {
+"az": "Ələ salma.",
+"en": "mockery",
+"pos": "noun"
+},
+"ələyəoxşar": {
+"az": "Ələyə oxşar.",
+"en": "sieve-like",
+"pos": "adjective"
+},
+"ələyici": {
+"az": "Ələyən.",
+"en": "sifter",
+"pos": "noun"
+},
+"əlhəd daşı": {
+"skip": "meaning not known with confidence"
+},
+"əl-hərəkət dili": {
+"az": "Jest dili.",
+"en": "sign language",
+"pos": "noun"
+},
+"əliağaclı": {
+"az": "Əlində ağac olan.",
+"en": "holding a stick",
+"pos": "adjective"
+},
+"əliavtomatlı": {
+"az": "Əlində avtomat olan.",
+"en": "armed with a submachine gun",
+"pos": "adjective"
+},
+"əlibaltalı": {
+"az": "Əlində balta olan.",
+"en": "holding an axe",
+"pos": "adjective"
+},
+"əlibayraqlı": {
+"az": "Əlində bayraq olan.",
+"en": "holding a flag",
+"pos": "adjective"
+},
+"əlibıçaqlı": {
+"az": "Əlində bıçaq olan.",
+"en": "knife-wielding",
+"pos": "adjective"
+},
+"əliçıraqlı": {
+"az": "Əlində çıraq olan.",
+"en": "holding a lamp",
+"pos": "adjective"
+},
+"əliçomaqlı": {
+"az": "Əlində çomaq olan.",
+"en": "club-wielding",
+"pos": "adjective"
+},
+"əlidəyənəkli": {
+"az": "Əlində dəyənək olan.",
+"en": "holding a cudgel",
+"pos": "adjective"
+},
+"əligətirmə": {
+"skip": "meaning not known with confidence"
+},
+"əlisulu": {
+"skip": "meaning not known with confidence"
+},
+"əlitapançalı": {
+"az": "Əlində tapança olan.",
+"en": "pistol-wielding",
+"pos": "adjective"
+},
+"əlitərli": {
+"skip": "meaning not known with confidence"
+},
+"əlitüfəngli": {
+"az": "Əlində tüfəng olan.",
+"en": "rifle-bearing",
+"pos": "adjective"
+},
+"əliverimli": {
+"az": "Əli bərəkətli.",
+"en": "lucky in work",
+"pos": "adjective"
+},
+"əlkimyəvi": {
+"az": "Əlkimyaya aid.",
+"en": "alchemical",
+"pos": "adjective"
+},
+"əllicə": {
+"skip": "meaning not known with confidence"
+},
+"əlüzgəcli": {
+"skip": "meaning not known with confidence"
+},
+"əlüzyuma": {
+"az": "Əl-üz yuma.",
+"en": "washing (hands and face)",
+"pos": "noun"
+},
+"əlverən": {
+"az": "Əl verən, münasib.",
+"en": "convenient",
+"pos": "adjective"
+},
+"əlyazmaşünas": {
+"az": "Əlyazmaları öyrənən alim.",
+"en": "codicologist",
+"pos": "noun"
+},
+"əlyetən": {
+"az": "Əl yetən.",
+"en": "within reach",
+"pos": "adjective"
+},
+"əməliyyatxana": {
+"az": "Əməliyyat otağı.",
+"en": "operating theatre",
+"pos": "noun"
+},
+"əməvi": {
+"az": "Əməvilər sülaləsinə aid.",
+"en": "Umayyad",
+"pos": "adjective"
+},
+"əmicanı": {
+"az": "Əziz əmi.",
+"en": "dear uncle",
+"pos": "noun"
+},
+"əminliklə": {
+"az": "Əminliklə.",
+"en": "confidently",
+"pos": "adverb"
+},
+"əmisiz-dayısız": {
+"az": "Qohumsuz, kimsəsiz.",
+"en": "without kin",
+"pos": "adjective"
+},
+"əmizdirici": {
+"az": "Əmizdirən.",
+"en": "nursing",
+"pos": "adjective"
+},
+"əmredici": {
+"az": "Əmr edən.",
+"en": "imperative",
+"pos": "adjective"
+},
+"əmziyəoxşar": {
+"az": "Əmziyə oxşar.",
+"en": "nipple-like",
+"pos": "adjective"
+},
+"ənəlhəq": {
+"az": "Sufi ifadəsi: \"Mən Haqqam\".",
+"en": "\"I am the Truth\" (Sufi saying)",
+"pos": "noun"
+},
+"ənliksiz-kirşansız": {
+"az": "Ənliksiz, kirşansız, bəzəksiz.",
+"en": "without make-up",
+"pos": "adjective"
+},
+"ərbaz": {
+"skip": "meaning not known with confidence"
+},
+"ərəbotu": {
+"skip": "meaning not known with confidence"
+},
+"ərgəc": {
+"skip": "meaning not known with confidence"
+},
+"əridə-əridə": {
+"skip": "meaning not known with confidence"
+},
+"ərişağacı": {
+"az": "Ərişə yaymaq üçün ağac.",
+"en": "noodle rolling pin",
+"pos": "noun"
+},
+"ərklə": {
+"az": "Ərk edərək.",
+"en": "familiarly, presumingly",
+"pos": "adverb"
+},
+"əsəbiliklə": {
+"az": "Əsəbi halda.",
+"en": "nervously",
+"pos": "adverb"
+},
+"əsəyən": {
+"skip": "meaning not known with confidence"
+},
+"əsgərvari duruş": {
+"az": "Əsgər kimi duruş.",
+"en": "soldierly stance",
+"pos": "noun"
+},
+"əsməşal": {
+"skip": "meaning not known with confidence"
+},
+"əsnəyiş": {
+"az": "Əsnəmə.",
+"en": "yawning",
+"pos": "noun"
+},
+"əsrdaş": {
+"az": "Eyni əsrdə yaşayan.",
+"en": "contemporary",
+"pos": "noun"
+},
+"əsrdən-əsrə": {
+"az": "Əsrdən əsrə.",
+"en": "from century to century",
+"pos": "adverb"
+},
+"əsrlərlə": {
+"az": "Əsrlər boyu.",
+"en": "for centuries",
+"pos": "adverb"
+},
+"əşyayi-dəlil": {
+"az": "Maddi sübut.",
+"en": "material evidence",
+"pos": "noun"
+},
+"ətiq": {
+"az": "Qədim, köhnə.",
+"en": "ancient",
+"pos": "adjective"
+},
+"ətirləşdirici": {
+"az": "Ətirləşdirən.",
+"en": "aromatizing",
+"pos": "adjective"
+},
+"ətkəsən": {
+"az": "Ət kəsən.",
+"en": "butcher",
+"pos": "noun"
+},
+"əvəlikaşı": {
+"az": "Əvəlik ilə bişirilən aş.",
+"en": "sorrel soup",
+"pos": "noun"
+},
+"əvəz-əvəzə": {
+"az": "Növbə ilə.",
+"en": "alternately",
+"pos": "adverb"
+},
+"əvvəldə": {
+"az": "Əvvəlində.",
+"en": "at first",
+"pos": "adverb"
+},
+"əvvəldəki": {
+"az": "Əvvəldə olan.",
+"en": "initial",
+"pos": "adjective"
+},
+"əyaniləşdirici": {
+"az": "Əyaniləşdirən.",
+"en": "illustrative",
+"pos": "adjective"
+},
+"əyirməlik yun": {
+"az": "Əyirmək üçün yun.",
+"en": "spinning wool",
+"pos": "noun"
+},
+"əyiş-üyüş": {
+"skip": "meaning not known with confidence"
+},
+"əyləyər-əyləməz": {
+"az": "Əyləyən kimi.",
+"en": "as soon as (one) stops",
+"pos": "adverb"
+},
+"əyyami-qədimdən": {
+"az": "Qədim zamanlardan.",
+"en": "since ancient times",
+"pos": "adverb"
+},
+"əyyubi": {
+"az": "Əyyubilər sülaləsinə aid.",
+"en": "Ayyubid",
+"pos": "adjective"
+},
+"əzabçəkən": {
+"az": "Əzab çəkən.",
+"en": "suffering",
+"pos": "adjective"
+},
+"əzbərlədə-əzbərlədə": {
+"az": "Əzbərlədərək.",
+"en": "making learn by heart",
+"pos": "adverb"
+},
+"əzələvi": {
+"az": "Əzələyə aid.",
+"en": "muscular",
+"pos": "adjective"
+},
+"əziş-büzüş": {
+"skip": "meaning not known with confidence"
+},
+"əzizdən-əziz": {
+"az": "Ən əziz.",
+"en": "dearest",
+"pos": "adjective"
+},
+"fakolazer": {
+"skip": "meaning not known with confidence"
+},
+"faktoloji": {
+"az": "Faktlara aid.",
+"en": "factual",
+"pos": "adjective"
+},
+"faktoriya": {
+"az": "Ticarət məntəqəsi.",
+"en": "trading post",
+"pos": "noun"
+},
+"fakültətiv": {
+"az": "Seçmə, məcburi olmayan.",
+"en": "optional",
+"pos": "adjective"
+},
+"faqoprofilaktika": {
+"az": "Faqlarla profilaktika.",
+"en": "phage prophylaxis",
+"pos": "noun"
+},
+"falerist": {
+"az": "Nişan toplayan.",
+"en": "phalerist",
+"pos": "noun"
+},
+"faleronim": {
+"skip": "meaning not known with confidence"
+},
+"fanaberiya": {
+"az": "Lovğalıq.",
+"en": "arrogance",
+"pos": "noun"
+},
+"fanat": {
+"az": "Fanatik azarkeş.",
+"en": "fan, fanatic",
+"pos": "noun"
+},
+"fanerlətdirmə": {
+"skip": "meaning not known with confidence"
+},
+"fanetlətdirmək": {
+"skip": "meaning not known with confidence"
+},
+"fanerofit": {
+"az": "Tumurcuqları hündürdə qışlayan bitki.",
+"en": "phanerophyte",
+"pos": "noun"
+},
+"faneroqram": {
+"skip": "meaning not known with confidence"
+},
+"fanerozey": {
+"az": "Geoloji eon.",
+"en": "Phanerozoic",
+"pos": "noun"
+},
+"fan-klub": {
+"az": "Azarkeş klubu.",
+"en": "fan club",
+"pos": "noun"
+},
+"fantasmaqorik": {
+"az": "Xəyali, qorxulu.",
+"en": "phantasmagoric",
+"pos": "adjective"
+},
+"farinqal": {
+"az": "Udlağa aid.",
+"en": "pharyngeal",
+"pos": "adjective"
+},
+"farinqoplastika": {
+"az": "Udlağın plastikası.",
+"en": "pharyngoplasty",
+"pos": "noun"
+},
+"farinqoskop": {
+"az": "Udlağı müayinə cihazı.",
+"en": "pharyngoscope",
+"pos": "noun"
+},
+"farisey": {
+"az": "İkiüzlü; qədim yəhudi təriqəti üzvü.",
+"en": "Pharisee",
+"pos": "noun"
+},
+"farvater": {
+"az": "Gəmi yolu.",
+"en": "fairway",
+"pos": "noun"
+},
+"fasfarağat": {
+"skip": "meaning not known with confidence"
+},
+"fastfud": {
+"az": "Tez hazırlanan yemək.",
+"en": "fast food",
+"pos": "noun"
+},
+"fatal": {
+"az": "Ölümcül, qaçılmaz.",
+"en": "fatal",
+"pos": "adjective"
+},
+"fatum": {
+"az": "Tale.",
+"en": "fate",
+"pos": "noun"
+},
+"faunistika": {
+"az": "Faunaları öyrənən sahə.",
+"en": "faunistics",
+"pos": "noun"
+},
+"favorit": {
+"az": "Ən çox şansı olan; sevimli.",
+"en": "favourite",
+"pos": "noun"
+},
+"fazenda": {
+"az": "Braziliyada fermer təsərrüfatı.",
+"en": "fazenda",
+"pos": "noun"
+},
+"fazmofobiya": {
+"az": "Ruhlardan qorxu.",
+"en": "phasmophobia",
+"pos": "noun"
+},
+"fazotron": {
+"az": "Hissəcik sürətləndiricisi.",
+"en": "synchrocyclotron",
+"pos": "noun"
+},
+"febrifobiya": {
+"az": "Qızdırmadan qorxu.",
+"en": "febriphobia",
+"pos": "noun"
+},
+"feerik": {
+"az": "Nağılvari.",
+"en": "fairy-tale",
+"pos": "adjective"
+},
+"feilsiz cümlə": {
+"az": "Feli olmayan cümlə.",
+"en": "verbless sentence",
+"pos": "noun"
+},
+"felloid": {
+"skip": "meaning not known with confidence"
+},
+"felyuqa": {
+"az": "Kiçik yelkənli gəmi.",
+"en": "felucca",
+"pos": "noun"
+},
+"feministika": {
+"az": "Feminizm araşdırmaları.",
+"en": "feminist studies",
+"pos": "noun"
+},
+"feminizasiya": {
+"az": "Qadın əlamətlərinin artması.",
+"en": "feminization",
+"pos": "noun"
+},
+"femtokimya": {
+"az": "Ultraqısa kimyəvi prosesləri öyrənən sahə.",
+"en": "femtochemistry",
+"pos": "noun"
+},
+"femtosaniya": {
+"az": "Saniyənin kvadrilyonda biri.",
+"en": "femtosecond",
+"pos": "noun"
+},
+"fenetika": {
+"az": "Fenotip əlamətlərini öyrənən sahə.",
+"en": "phenetics",
+"pos": "noun"
+},
+"fenqofobiya": {
+"az": "Gün işığından qorxu.",
+"en": "phengophobia",
+"pos": "noun"
+},
+"fenolabənzər": {
+"az": "Fenola bənzər.",
+"en": "phenol-like",
+"pos": "adjective"
+},
+"fenolaoxşar": {
+"az": "Fenola oxşar.",
+"en": "phenol-like",
+"pos": "adjective"
+},
+"fenoplast": {
+"az": "Fenol əsaslı plastik.",
+"en": "phenolic plastic",
+"pos": "noun"
+},
+"fenospektr": {
+"skip": "meaning not known with confidence"
+},
+"fenotipik": {
+"az": "Fenotipə aid.",
+"en": "phenotypic",
+"pos": "adjective"
+},
+"fermentativ": {
+"az": "Fermentə aid.",
+"en": "enzymatic",
+"pos": "adjective"
+},
+"ferralit": {
+"az": "Dəmirli tropik torpaq.",
+"en": "ferrallite",
+"pos": "noun"
+},
+"ferrimaqnetik": {
+"az": "Ferrimaqnit xassəli.",
+"en": "ferrimagnetic",
+"pos": "adjective"
+},
+"ferrimaqnetizm": {
+"az": "Ferrimaqnit xassə.",
+"en": "ferrimagnetism",
+"pos": "noun"
+},
+"ferrimaqnit": {
+"az": "Ferrimaqnit maddə.",
+"en": "ferrimagnet",
+"pos": "noun"
+},
+"ferrotitan": {
+"az": "Dəmir-titan ərintisi.",
+"en": "ferrotitanium",
+"pos": "noun"
+},
+"fertilizm": {
+"skip": "meaning not known with confidence"
+},
+"feyerverk": {
+"az": "Atəşfəşanlıq.",
+"en": "fireworks",
+"pos": "noun"
+},
+"feysart": {
+"az": "Üz rəsmi.",
+"en": "face art",
+"pos": "noun"
+},
+"feysbuk": {
+"az": "Sosial şəbəkə.",
+"en": "Facebook",
+"pos": "noun"
+},
+"fəhlə-gənclər məktəbi": {
+"az": "İşləyən gənclər üçün axşam məktəbi.",
+"en": "school for working youth",
+"pos": "noun"
+},
+"fəxarətdoğurucu": {
+"az": "Fəxr doğuran.",
+"en": "inspiring pride",
+"pos": "adjective"
+},
+"fəxrləndirici": {
+"az": "Fəxrləndirən.",
+"en": "inspiring pride",
+"pos": "adjective"
+},
+"fəqih": {
+"az": "Fiqh alimi.",
+"en": "Islamic jurist",
+"pos": "noun"
+},
+"fələstinli": {
+"az": "Fələstindən olan.",
+"en": "Palestinian",
+"pos": "noun"
+},
+"fəlsəfi-qnoseoloji": {
+"az": "Fəlsəfi və idrak nəzəriyyəsinə aid.",
+"en": "philosophical-epistemological",
+"pos": "adjective"
+},
+"fəndaxili": {
+"az": "Fənn daxilində.",
+"en": "intra-subject",
+"pos": "adjective"
+},
+"fənlərarası": {
+"az": "Fənlər arasında.",
+"en": "interdisciplinary",
+"pos": "adjective"
+},
+"fənni": {
+"skip": "meaning not known with confidence"
+}
+}

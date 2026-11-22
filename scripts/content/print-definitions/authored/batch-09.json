@@ -1,0 +1,1172 @@
+{
+"arxivolt": {
+"az": "Tağın kənarındakı bəzəkli çərçivə.",
+"en": "archivolt",
+"pos": "noun"
+},
+"arxont": {
+"az": "Qədim Afinada yüksək vəzifəli şəxs.",
+"en": "archon",
+"pos": "noun"
+},
+"arxozavr": {
+"az": "Qədim sürünənlər qrupu.",
+"en": "archosaur",
+"pos": "noun"
+},
+"arıqcıq": {
+"az": "Arıq, cılız.",
+"en": "skinny little",
+"pos": "adjective"
+},
+"arıqladıcı": {
+"az": "Arıqladan.",
+"en": "slimming",
+"pos": "adjective"
+},
+"arıotu": {
+"az": "Arıların sevdiyi ətirli dərman bitkisi, melissa.",
+"en": "lemon balm",
+"pos": "noun"
+},
+"ari": {
+"az": "Hind-Avropa xalqlarına aid köhnə termin.",
+"en": "Aryan",
+"pos": "noun"
+},
+"arid torpaqlar": {
+"az": "Quraq iqlimli ərazilərin torpaqları.",
+"en": "arid soils",
+"pos": "noun"
+},
+"arifmometr": {
+"az": "Mexaniki hesablama maşını.",
+"en": "arithmometer",
+"pos": "noun"
+},
+"ariozo": {
+"az": "Ariya ilə resitativ arasında vokal parça.",
+"en": "arioso",
+"pos": "noun"
+},
+"aristokratik": {
+"az": "Aristokratiyaya aid.",
+"en": "aristocratic",
+"pos": "adjective"
+},
+"ariyetta": {
+"az": "Kiçik ariya.",
+"en": "arietta",
+"pos": "noun"
+},
+"arizant": {
+"skip": "meaning not known with confidence"
+},
+"arkada": {
+"az": "Tağlı qalereya.",
+"en": "arcade",
+"pos": "noun"
+},
+"arkfunksiya": {
+"az": "Tərs triqonometrik funksiya.",
+"en": "inverse trigonometric function",
+"pos": "noun"
+},
+"arkkosekans": {
+"az": "Kosekansın tərs funksiyası.",
+"en": "arccosecant",
+"pos": "noun"
+},
+"arkkosinus": {
+"az": "Kosinusun tərs funksiyası.",
+"en": "arccosine",
+"pos": "noun"
+},
+"arkkotangens": {
+"az": "Kotangensin tərs funksiyası.",
+"en": "arccotangent",
+"pos": "noun"
+},
+"arkoz": {
+"az": "Çöl şpatlı qumdaşı.",
+"en": "arkose",
+"pos": "noun"
+},
+"arksekans": {
+"az": "Sekansın tərs funksiyası.",
+"en": "arcsecant",
+"pos": "noun"
+},
+"arksinus": {
+"az": "Sinusun tərs funksiyası.",
+"en": "arcsine",
+"pos": "noun"
+},
+"arktangens": {
+"az": "Tangensin tərs funksiyası.",
+"en": "arctangent",
+"pos": "noun"
+},
+"arqali": {
+"az": "Dağ qoyunu.",
+"en": "argali",
+"pos": "noun"
+},
+"arqazid": {
+"skip": "meaning not known with confidence"
+},
+"arqo": {
+"az": "Qapalı qrupun xüsusi danışığı.",
+"en": "argot",
+"pos": "noun"
+},
+"arqonavt": {
+"az": "Qədim yunan əfsanəsində Arqo gəmisinin üzvü; dəniz molyusku.",
+"en": "argonaut",
+"pos": "noun"
+},
+"arqotizm": {
+"az": "Arqodan alınma söz.",
+"en": "argot word",
+"pos": "noun"
+},
+"arqumentasiya": {
+"az": "Dəlillərlə əsaslandırma.",
+"en": "argumentation",
+"pos": "noun"
+},
+"armaturlaşdırıcı": {
+"skip": "meaning not known with confidence"
+},
+"armokarkas": {
+"az": "Dəmir-betonun armatur karkası.",
+"en": "reinforcement cage",
+"pos": "noun"
+},
+"armudağız": {
+"skip": "meaning not known with confidence"
+},
+"arnaut": {
+"az": "Albanlara verilən köhnə ad.",
+"en": "Arnaut, Albanian",
+"pos": "noun"
+},
+"arnautca": {
+"az": "Alban dilində.",
+"en": "in Albanian",
+"pos": "adverb"
+},
+"aroqonit": {
+"skip": "meaning not known with confidence"
+},
+"aromalampa": {
+"az": "Efir yağı buxarlandıran lampa.",
+"en": "aroma lamp",
+"pos": "noun"
+},
+"aromatik birləşmə": {
+"az": "Benzol halqası olan üzvi birləşmə.",
+"en": "aromatic compound",
+"pos": "noun"
+},
+"aromatizasiya": {
+"az": "Ətir vermə; aromatik birləşməyə çevirmə.",
+"en": "aromatization",
+"pos": "noun"
+},
+"aromorfoz": {
+"az": "Təkamüldə ümumi quruluşun yüksəlməsi.",
+"en": "aromorphosis",
+"pos": "noun"
+},
+"arpad": {
+"skip": "meaning not known with confidence"
+},
+"arsenid": {
+"az": "Arsenin metalla birləşməsi.",
+"en": "arsenide",
+"pos": "noun"
+},
+"arşaki": {
+"az": "Arşakilər sülaləsinə aid.",
+"en": "Arsacid",
+"pos": "adjective"
+},
+"art-bankinq": {
+"az": "İncəsənət əsərləri ilə bank xidməti.",
+"en": "art banking",
+"pos": "noun"
+},
+"art-deko": {
+"az": "XX əsrin əvvəllərinin bəzəkli memarlıq və dizayn üslubu.",
+"en": "Art Deco",
+"pos": "noun"
+},
+"artefakt": {
+"az": "İnsan əli ilə yaradılmış əşya.",
+"en": "artefact",
+"pos": "noun"
+},
+"arterioplastika": {
+"az": "Arteriyanın bərpa əməliyyatı.",
+"en": "arterioplasty",
+"pos": "noun"
+},
+"artıq-əskiklik": {
+"az": "Artıqlıq və əskiklik.",
+"en": "surplus and shortage",
+"pos": "noun"
+},
+"artistizm": {
+"az": "Sənətkarlıq.",
+"en": "artistry",
+"pos": "noun"
+},
+"artralgiya": {
+"az": "Oynaq ağrısı.",
+"en": "arthralgia",
+"pos": "noun"
+},
+"artritizm": {
+"az": "Oynaq iltihabına meyillilik.",
+"en": "arthritism",
+"pos": "noun"
+},
+"artrologiya": {
+"az": "Oynaqları öyrənən elm.",
+"en": "arthrology",
+"pos": "noun"
+},
+"artroz": {
+"az": "Oynağın degenerativ xəstəliyi.",
+"en": "arthrosis",
+"pos": "noun"
+},
+"art-studiya": {
+"az": "Sənət emalatxanası.",
+"en": "art studio",
+"pos": "noun"
+},
+"art-vizaj": {
+"az": "Bədii üz makiyajı.",
+"en": "artistic make-up",
+"pos": "noun"
+},
+"arvadcığaz": {
+"az": "Yazıq qadın.",
+"en": "poor little woman",
+"pos": "noun"
+},
+"arzuedilən": {
+"az": "Arzu olunan.",
+"en": "desirable",
+"pos": "adjective"
+},
+"arzuolunan": {
+"az": "Arzu edilən.",
+"en": "desirable",
+"pos": "adjective"
+},
+"asanaçılan": {
+"az": "Asan açılan.",
+"en": "easy-opening",
+"pos": "adjective"
+},
+"asanəriyən": {
+"az": "Asan əriyən.",
+"en": "low-melting",
+"pos": "adjective"
+},
+"asetilaseton": {
+"az": "Üzvi həlledici.",
+"en": "acetylacetone",
+"pos": "noun"
+},
+"asetilenid": {
+"az": "Asetilenin metal törəməsi.",
+"en": "acetylide",
+"pos": "noun"
+},
+"asfaltçəkən": {
+"az": "Asfalt döşəyən fəhlə və ya maşın.",
+"en": "asphalt layer",
+"pos": "noun"
+},
+"asfaltdöşəyən": {
+"az": "Asfalt döşəyən.",
+"en": "asphalt paver",
+"pos": "noun"
+},
+"asfaltüstü hamarlıq": {
+"az": "Asfalt səthinin hamarlığı.",
+"en": "asphalt surface smoothness",
+"pos": "noun"
+},
+"asfiksiya": {
+"az": "Boğulma.",
+"en": "asphyxia",
+"pos": "noun"
+},
+"asıcı": {
+"az": "Asmaq üçün qurğu.",
+"en": "hanger",
+"pos": "noun"
+},
+"asım-asım": {
+"skip": "meaning not known with confidence"
+},
+"asırqalotu": {
+"skip": "meaning not known with confidence"
+},
+"asimptotik ifadə": {
+"az": "Hədd yaxınlığında təxmini ifadə.",
+"en": "asymptotic expression",
+"pos": "noun"
+},
+"asindeton": {
+"az": "Bağlayıcısız birləşmə.",
+"en": "asyndeton",
+"pos": "noun"
+},
+"asinxron": {
+"az": "Eyni vaxtda olmayan.",
+"en": "asynchronous",
+"pos": "adjective"
+},
+"askaridoz": {
+"az": "Askaridlərin törətdiyi xəstəlik.",
+"en": "ascariasis",
+"pos": "noun"
+},
+"askoxitoz": {
+"az": "Bitkilərin göbələk xəstəliyi.",
+"en": "ascochyta blight",
+"pos": "noun"
+},
+"askomiset": {
+"az": "Kisəli göbələk.",
+"en": "ascomycete",
+"pos": "noun"
+},
+"aspid": {
+"az": "Qara şist daşı; gürzə ilanı.",
+"en": "slate; asp",
+"pos": "noun"
+},
+"aspirasiya": {
+"az": "Sorma; nəfəsli tələffüz.",
+"en": "aspiration",
+"pos": "noun"
+},
+"aspirator": {
+"az": "Sorucu cihaz.",
+"en": "aspirator",
+"pos": "noun"
+},
+"assambleya": {
+"az": "Məclis.",
+"en": "assembly",
+"pos": "noun"
+},
+"assamlı": {
+"az": "Hindistanın Assam ştatından olan.",
+"en": "Assamese",
+"pos": "noun"
+},
+"assenizasiya": {
+"az": "Kanalizasiya tullantılarının çıxarılması.",
+"en": "sewage disposal",
+"pos": "noun"
+},
+"assenizator": {
+"az": "Kanalizasiya təmizləyən işçi və ya maşın.",
+"en": "sewage worker; sewage truck",
+"pos": "noun"
+},
+"assidi": {
+"skip": "meaning not known with confidence"
+},
+"assiqnasiya": {
+"az": "Vəsaitin ayrılması.",
+"en": "allocation of funds",
+"pos": "noun"
+},
+"assistentura": {
+"az": "Assistentlik dövrü.",
+"en": "assistantship",
+"pos": "noun"
+},
+"assonans": {
+"az": "Saitlərin həmahəngliyi.",
+"en": "assonance",
+"pos": "noun"
+},
+"assosiativ": {
+"az": "Assosiasiyaya əsaslanan.",
+"en": "associative",
+"pos": "adjective"
+},
+"assur": {
+"az": "Assuriyalı.",
+"en": "Assyrian",
+"pos": "noun"
+},
+"astabasar": {
+"skip": "meaning not known with confidence"
+},
+"astalıqla": {
+"az": "Yavaşca.",
+"en": "slowly",
+"pos": "adverb"
+},
+"astarlayıcı": {
+"az": "Astar çəkən.",
+"en": "lining",
+"pos": "adjective"
+},
+"astek": {
+"az": "Meksikanın qədim xalqı.",
+"en": "Aztec",
+"pos": "noun"
+},
+"astepiya": {
+"skip": "meaning not known with confidence"
+},
+"asteroksilon": {
+"skip": "meaning not known with confidence"
+},
+"asterometr": {
+"skip": "meaning not known with confidence"
+},
+"astiqmatik": {
+"az": "Astiqmatizmi olan.",
+"en": "astigmatic",
+"pos": "adjective"
+},
+"astraqal": {
+"az": "Topuq sümüyü; memarlıq naxışı.",
+"en": "talus; astragal",
+"pos": "noun"
+},
+"astrokorreksiya": {
+"az": "Ulduzlara görə istiqamət düzəlişi.",
+"en": "astro-correction",
+"pos": "noun"
+},
+"astropelenqator": {
+"az": "Ulduzlara görə istiqaməti təyin edən cihaz.",
+"en": "astro direction finder",
+"pos": "noun"
+},
+"astrositoma": {
+"az": "Beyin şişi növü.",
+"en": "astrocytoma",
+"pos": "noun"
+},
+"astroskop": {
+"skip": "meaning not known with confidence"
+},
+"aşağılayıcı": {
+"az": "Alçaldıcı.",
+"en": "humiliating",
+"pos": "adjective"
+},
+"aşanti": {
+"az": "Qanada yaşayan xalq.",
+"en": "Ashanti",
+"pos": "noun"
+},
+"aşkaranə": {
+"az": "Açıq-aşkar.",
+"en": "openly",
+"pos": "adverb"
+},
+"aşkaredici": {
+"az": "Aşkar edən.",
+"en": "detecting",
+"pos": "adjective"
+},
+"aşkarlayıcı": {
+"az": "Aşkarlayan cihaz.",
+"en": "detector",
+"pos": "noun"
+},
+"aşkenazi": {
+"az": "Mərkəzi və Şərqi Avropa yəhudisi.",
+"en": "Ashkenazi",
+"pos": "noun"
+},
+"aşqara": {
+"skip": "meaning not known with confidence"
+},
+"aşqarası": {
+"skip": "meaning not known with confidence"
+},
+"aşqarlayıcı": {
+"skip": "meaning not known with confidence"
+},
+"aşsız": {
+"az": "Aşı, yeməyi olmayan.",
+"en": "foodless",
+"pos": "adjective"
+},
+"ataayrı": {
+"az": "Atası ayrı.",
+"en": "half-sibling by a different father",
+"pos": "adjective"
+},
+"atabask": {
+"az": "Şimali Amerika hindu dil ailəsi.",
+"en": "Athabaskan",
+"pos": "noun"
+},
+"atabəy": {
+"az": "Səlcuqlu dövründə şahzadə tərbiyəçisi və hökmdar.",
+"en": "atabeg",
+"pos": "noun"
+},
+"atacığaz": {
+"az": "Yazıq ata.",
+"en": "poor dear father",
+"pos": "noun"
+},
+"atadanayrı": {
+"az": "Atadan ayrı.",
+"en": "paternal half-sibling",
+"pos": "adjective"
+},
+"atadanögey": {
+"skip": "meaning not known with confidence"
+},
+"ataraksiya": {
+"az": "Sakitlik, ruhi rahatlıq.",
+"en": "ataraxia",
+"pos": "noun"
+},
+"atarpası": {
+"skip": "meaning not known with confidence"
+},
+"atasız-babasız": {
+"az": "Atasız, kimsəsiz.",
+"en": "without father or kin",
+"pos": "adjective"
+},
+"atçapar": {
+"az": "Atlı çapar.",
+"en": "mounted courier",
+"pos": "noun"
+},
+"atçənə": {
+"az": "Çənəsi at çənəsi kimi uzun.",
+"en": "horse-jawed",
+"pos": "adjective"
+},
+"atdöşü": {
+"skip": "meaning not known with confidence"
+},
+"ateistləşdirici": {
+"az": "Ateizmə yönəldən.",
+"en": "atheizing",
+"pos": "adjective"
+},
+"ateroma": {
+"az": "Piyli kistəbənzər törəmə.",
+"en": "atheroma",
+"pos": "noun"
+},
+"ateromatoz": {
+"az": "Damar divarlarında ateromalar.",
+"en": "atheromatosis",
+"pos": "noun"
+},
+"atəşaçma": {
+"az": "Atəş açma.",
+"en": "opening fire",
+"pos": "noun"
+},
+"athaat": {
+"skip": "meaning not known with confidence"
+},
+"atılış": {
+"az": "Atılma.",
+"en": "throw, ejection",
+"pos": "noun"
+},
+"atkeçməz": {
+"az": "Atın keçə bilmədiyi.",
+"en": "impassable for horses",
+"pos": "adjective"
+},
+"atkimi": {
+"az": "At kimi.",
+"en": "horse-like",
+"pos": "adjective"
+},
+"atquşu": {
+"skip": "meaning not known with confidence"
+},
+"atlant": {
+"az": "Sütun yerinə işlənən kişi heykəli; birinci boyun fəqərəsi.",
+"en": "atlas, atlant",
+"pos": "noun"
+},
+"atlantrop": {
+"az": "Afrikada tapılmış qədim insan.",
+"en": "Atlanthropus",
+"pos": "noun"
+},
+"atlayış": {
+"az": "Tullanma.",
+"en": "jump",
+"pos": "noun"
+},
+"atletizm": {
+"az": "Bədən gücünün inkişafı.",
+"en": "athleticism",
+"pos": "noun"
+},
+"atmofil": {
+"az": "Atmosferdə toplanan (element).",
+"en": "atmophile",
+"pos": "adjective"
+},
+"atonik": {
+"az": "Tonusu zəif.",
+"en": "atonic",
+"pos": "adjective"
+},
+"atreziya": {
+"az": "Təbii dəliyin olmaması.",
+"en": "atresia",
+"pos": "noun"
+},
+"atribusiya": {
+"az": "Aid etmə, müəllifliyin təyini.",
+"en": "attribution",
+"pos": "noun"
+},
+"atributor": {
+"skip": "meaning not known with confidence"
+},
+"atrofik": {
+"az": "Atrofiyaya uğramış.",
+"en": "atrophic",
+"pos": "adjective"
+},
+"atropati": {
+"skip": "meaning not known with confidence"
+},
+"atropatenalı": {
+"az": "Atropatenadan olan.",
+"en": "inhabitant of Atropatene",
+"pos": "noun"
+},
+"attik": {
+"az": "Qədim Attikaya aid; karniz üstündəki divar.",
+"en": "Attic; attic storey",
+"pos": "adjective"
+},
+"atyalı": {
+"skip": "meaning not known with confidence"
+},
+"audiensiya": {
+"az": "Rəsmi qəbul.",
+"en": "audience (formal)",
+"pos": "noun"
+},
+"audio": {
+"az": "Səs yazısı.",
+"en": "audio",
+"pos": "noun"
+},
+"audiodisk": {
+"az": "Səs diski.",
+"en": "audio disc",
+"pos": "noun"
+},
+"audiokaset": {
+"az": "Səs kaseti.",
+"en": "audio cassette",
+"pos": "noun"
+},
+"audioməhdudlaşdırıcı": {
+"az": "Səs səviyyəsini məhdudlaşdıran qurğu.",
+"en": "audio limiter",
+"pos": "noun"
+},
+"audioplata": {
+"az": "Kompüterin səs kartı.",
+"en": "sound card",
+"pos": "noun"
+},
+"audiopleyer": {
+"az": "Səs yazılarını səsləndirən cihaz.",
+"en": "audio player",
+"pos": "noun"
+},
+"audit": {
+"az": "Maliyyə yoxlaması.",
+"en": "audit",
+"pos": "noun"
+},
+"auditor": {
+"az": "Maliyyə yoxlayıcısı.",
+"en": "auditor",
+"pos": "noun"
+},
+"auksoxrom": {
+"az": "Boyağın rəngini gücləndirən qrup.",
+"en": "auxochrome",
+"pos": "noun"
+},
+"aurofobiya": {
+"skip": "meaning not known with confidence"
+},
+"autekologiya": {
+"az": "Ayrı növün ekologiyası.",
+"en": "autecology",
+"pos": "noun"
+},
+"autentik": {
+"az": "Əsl, həqiqi.",
+"en": "authentic",
+"pos": "adjective"
+},
+"autentikasiya": {
+"az": "Həqiqiliyin yoxlanması.",
+"en": "authentication",
+"pos": "noun"
+},
+"autogen": {
+"az": "Öz-özünə yaranan.",
+"en": "autogenous",
+"pos": "adjective"
+},
+"autohemoterapiya": {
+"az": "Xəstənin öz qanı ilə müalicə.",
+"en": "autohaemotherapy",
+"pos": "noun"
+},
+"autohipnoz": {
+"az": "Özünühipnoz.",
+"en": "self-hypnosis",
+"pos": "noun"
+},
+"autointoksikasiya": {
+"az": "Orqanizmin öz məhsulları ilə zəhərlənməsi.",
+"en": "autointoxication",
+"pos": "noun"
+},
+"autotreninq": {
+"az": "Özünü təlqinlə rahatlatma.",
+"en": "autogenic training",
+"pos": "noun"
+},
+"autovaksin": {
+"az": "Xəstənin öz mikroblarından hazırlanan vaksin.",
+"en": "autovaccine",
+"pos": "noun"
+},
+"autsayder": {
+"az": "Uduş şansı az olan iştirakçı; kənarda qalan.",
+"en": "outsider",
+"pos": "noun"
+},
+"avamca": {
+"az": "Avam kimi.",
+"en": "naively",
+"pos": "adverb"
+},
+"avan": {
+"skip": "meaning not known with confidence"
+},
+"avankamera": {
+"az": "Ön kamera, gəmi qapısının ön hissəsi.",
+"en": "antechamber",
+"pos": "noun"
+},
+"avanloja": {
+"skip": "meaning not known with confidence"
+},
+"avanport": {
+"az": "Limanın xarici hissəsi.",
+"en": "outer harbour",
+"pos": "noun"
+},
+"avanpost": {
+"az": "Ön mövqe.",
+"en": "outpost",
+"pos": "noun"
+},
+"avantaj": {
+"az": "Üstünlük.",
+"en": "advantage",
+"pos": "noun"
+},
+"avantürin": {
+"az": "Parıltılı kvars daşı.",
+"en": "aventurine",
+"pos": "noun"
+},
+"avanzal": {
+"az": "Ön otaq.",
+"en": "anteroom",
+"pos": "noun"
+},
+"averaj": {
+"az": "Qolların fərqi.",
+"en": "goal difference",
+"pos": "noun"
+},
+"avers": {
+"az": "Sikkənin üz tərəfi.",
+"en": "obverse",
+"pos": "noun"
+},
+"avia": {
+"az": "Hava poçtu.",
+"en": "air mail",
+"pos": "noun"
+},
+"aviacihazqayırma": {
+"az": "Təyyarə cihazları istehsalı.",
+"en": "aircraft instrument making",
+"pos": "noun"
+},
+"aviahorizont": {
+"az": "Təyyarənin vəziyyətini göstərən cihaz.",
+"en": "artificial horizon",
+"pos": "noun"
+},
+"aviaxət": {
+"az": "Hava xətti.",
+"en": "air route",
+"pos": "noun"
+},
+"aviaxilasedici": {
+"az": "Hava xilasetmə xidməti.",
+"en": "air rescue",
+"pos": "noun"
+},
+"aviaklub": {
+"az": "Aviasiya klubu.",
+"en": "flying club",
+"pos": "noun"
+},
+"aviakonvert": {
+"az": "Hava poçtu zərfi.",
+"en": "airmail envelope",
+"pos": "noun"
+},
+"avialayner": {
+"az": "Böyük sərnişin təyyarəsi.",
+"en": "airliner",
+"pos": "noun"
+},
+"aviameteostansiya": {
+"az": "Aviasiya meteorologiya stansiyası.",
+"en": "aviation weather station",
+"pos": "noun"
+},
+"aviamodelizm": {
+"az": "Təyyarə modelləri qurma.",
+"en": "aeromodelling",
+"pos": "noun"
+},
+"aviaradioqəbuledici": {
+"az": "Təyyarə radioqəbuledicisi.",
+"en": "aircraft radio receiver",
+"pos": "noun"
+},
+"aviaradiolokator": {
+"az": "Təyyarə radarı.",
+"en": "airborne radar",
+"pos": "noun"
+},
+"aviaraketqayırma": {
+"az": "Təyyarə və raket istehsalı.",
+"en": "aerospace manufacturing",
+"pos": "noun"
+},
+"aviareys": {
+"az": "Uçuş reysi.",
+"en": "flight",
+"pos": "noun"
+},
+"aviatozlayıcı": {
+"az": "Təyyarədən dərman səpən qurğu.",
+"en": "crop duster",
+"pos": "noun"
+},
+"aviatras": {
+"az": "Hava yolu.",
+"en": "airway",
+"pos": "noun"
+},
+"avietka": {
+"az": "Kiçik təyyarə.",
+"en": "light aircraft",
+"pos": "noun"
+},
+"avifauna": {
+"az": "Bir ərazinin quşları.",
+"en": "avifauna",
+"pos": "noun"
+},
+"avlakogen": {
+"az": "Platformada dərin xətti çökəklik.",
+"en": "aulacogen",
+"pos": "noun"
+},
+"avometr": {
+"az": "Universal elektrik ölçü cihazı.",
+"en": "multimeter",
+"pos": "noun"
+},
+"avroçek": {
+"az": "Avropa bank çeki.",
+"en": "Eurocheque",
+"pos": "noun"
+},
+"avropaçılıq": {
+"az": "Avropaya meyl.",
+"en": "Europeanism",
+"pos": "noun"
+},
+"avropasayağı": {
+"az": "Avropa üsulu ilə.",
+"en": "European-style",
+"pos": "adverb"
+},
+"avropasentrizm": {
+"az": "Avropanı mərkəzə qoyan baxış.",
+"en": "Eurocentrism",
+"pos": "noun"
+},
+"avroviziya": {
+"az": "Avropa televiziya mahnı müsabiqəsi.",
+"en": "Eurovision",
+"pos": "noun"
+},
+"avstralorp": {
+"az": "Toyuq cinsi.",
+"en": "Australorp",
+"pos": "noun"
+},
+"avtoaraşdırıcı sistem": {
+"skip": "meaning not known with confidence"
+},
+"avtobioqrafizm": {
+"az": "Əsərdə müəllifin həyatının əks olunması.",
+"en": "autobiographism",
+"pos": "noun"
+},
+"avtodin": {
+"skip": "meaning not known with confidence"
+},
+"avtodrom": {
+"az": "Avtomobil yarışı meydanı.",
+"en": "motor-racing track",
+"pos": "noun"
+},
+"avtofurqon": {
+"az": "Furqon maşın.",
+"en": "van",
+"pos": "noun"
+},
+"avtogenez": {
+"az": "Daxili qüvvələrlə inkişaf təlimi.",
+"en": "autogenesis",
+"pos": "noun"
+},
+"avtoxət": {
+"az": "Avtobus xətti.",
+"en": "bus route",
+"pos": "noun"
+},
+"avtoxton": {
+"az": "Yerli mənşəli.",
+"en": "autochthonous",
+"pos": "adjective"
+},
+"avtoklav": {
+"az": "Yüksək təzyiqli qızdırıcı qab.",
+"en": "autoclave",
+"pos": "noun"
+},
+"avtokollimasiya": {
+"az": "Optik cihazların yoxlanması üsulu.",
+"en": "autocollimation",
+"pos": "noun"
+},
+"avtokollimator": {
+"az": "Avtokollimasiya cihazı.",
+"en": "autocollimator",
+"pos": "noun"
+},
+"avtokrat": {
+"az": "Mütləq hökmdar.",
+"en": "autocrat",
+"pos": "noun"
+},
+"avtokratik": {
+"az": "Mütləqiyyətçi.",
+"en": "autocratic",
+"pos": "adjective"
+},
+"avtoqol": {
+"az": "Öz qapısına vurulan qol.",
+"en": "own goal",
+"pos": "noun"
+},
+"avtoqreyd": {
+"skip": "meaning not known with confidence"
+},
+"avtoliz": {
+"az": "Toxumanın öz fermentləri ilə parçalanması.",
+"en": "autolysis",
+"pos": "noun"
+},
+"avtomexanizə": {
+"skip": "meaning not known with confidence"
+},
+"avtometriya": {
+"skip": "meaning not known with confidence"
+},
+"avtomiksis": {
+"az": "Özünü dölləmə.",
+"en": "automixis",
+"pos": "noun"
+},
+"avtomodelizm": {
+"az": "Avtomobil modelləri qurma.",
+"en": "model car building",
+"pos": "noun"
+},
+"avtomotohəvəskar": {
+"az": "Avtomobil və motosiklet həvəskarı.",
+"en": "motoring enthusiast",
+"pos": "noun"
+},
+"avtomotoklub": {
+"az": "Avtomobil və motosiklet klubu.",
+"en": "motor club",
+"pos": "noun"
+},
+"avtopansionat": {
+"az": "Avtomobil turistləri üçün pansionat.",
+"en": "motel",
+"pos": "noun"
+},
+"avtoprofilaktika": {
+"skip": "meaning not known with confidence"
+},
+"avtoprofilaktoriya": {
+"skip": "meaning not known with confidence"
+},
+"avtoralli": {
+"az": "Avtomobil rallisi.",
+"en": "car rally",
+"pos": "noun"
+},
+"avtorek": {
+"skip": "meaning not known with confidence"
+},
+"avtorequlyasiya": {
+"az": "Öz-özünü tənzimləmə.",
+"en": "self-regulation",
+"pos": "noun"
+},
+"avtorequlyator": {
+"az": "Avtomatik tənzimləyici.",
+"en": "automatic regulator",
+"pos": "noun"
+},
+"avtorodeo": {
+"az": "Avtomobil sürmə ustalığı yarışı.",
+"en": "auto rodeo",
+"pos": "noun"
+},
+"avtostop": {
+"az": "Yoldan keçən maşınlarla pulsuz səyahət; avtomatik əyləc.",
+"en": "hitchhiking; automatic stop",
+"pos": "noun"
+},
+"avtotip": {
+"skip": "meaning not known with confidence"
+},
+"avtotomiya": {
+"az": "Heyvanın bədən hissəsini özü qoparması.",
+"en": "autotomy",
+"pos": "noun"
+},
+"avuar": {
+"az": "Xarici aktivlər.",
+"en": "assets abroad",
+"pos": "noun"
+},
+"avunkulat": {
+"az": "Dayının bacısı uşaqları üzərində xüsusi hüququ.",
+"en": "avunculate",
+"pos": "noun"
+},
+"ayağıqəlsəməli": {
+"skip": "meaning not known with confidence"
+},
+"ayağıpulcuqlu": {
+"az": "Ayağı pulcuqlu.",
+"en": "scaly-footed",
+"pos": "adjective"
+},
+"ayaqbasdı": {
+"skip": "meaning not known with confidence"
+},
+"ayaqcıqlararası çuxur": {
+"az": "Beyin ayaqcıqları arasındakı çuxur.",
+"en": "interpeduncular fossa",
+"pos": "noun"
+},
+"ayılar-ayılmaz": {
+"az": "Ayılan kimi.",
+"en": "as soon as (one) comes round",
+"pos": "adverb"
+},
+"ayırd": {
+"az": "Fərqləndirmə (ayırd etmək).",
+"en": "distinction",
+"pos": "noun"
+},
+"ayırdedici": {
+"az": "Fərqləndirici.",
+"en": "distinguishing",
+"pos": "adjective"
+},
+"ay-il": {
+"az": "Aylar və illər.",
+"en": "months and years",
+"pos": "noun"
+},
+"aylarla": {
+"az": "Aylar boyu.",
+"en": "for months",
+"pos": "adverb"
+},
+"aymara": {
+"az": "Cənubi Amerika hindu xalqı.",
+"en": "Aymara",
+"pos": "noun"
+},
+"aynaotu": {
+"skip": "meaning not known with confidence"
+},
+"azadetmə": {
+"az": "Azad etmə.",
+"en": "liberation",
+"pos": "noun"
+},
+"azadolma": {
+"az": "Azad olma.",
+"en": "getting free",
+"pos": "noun"
+}
+}

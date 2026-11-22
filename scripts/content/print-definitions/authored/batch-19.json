@@ -1,0 +1,1156 @@
+{
+"xəngəl": {
+"az": "Qıymalı və ya qurutlu xəmir parçalarından bişirilən yemək.",
+"en": "khangal (dough dish)",
+"pos": "noun"
+},
+"karen": {
+"az": "Myanmada yaşayan xalq.",
+"en": "Karen",
+"pos": "noun"
+},
+"katalon": {
+"az": "İspaniyanın Kataloniya bölgəsinin xalqı.",
+"en": "Catalan",
+"pos": "noun"
+},
+"koryak": {
+"az": "Kamçatkada yaşayan xalq.",
+"en": "Koryak",
+"pos": "noun"
+},
+"qrız": {
+"az": "Quba rayonunda yaşayan Şahdağ xalqı.",
+"en": "Kryts",
+"pos": "noun"
+},
+"lahıc": {
+"skip": "meaning not known with confidence"
+},
+"mancur": {
+"az": "Şimal-şərqi Çində yaşayan xalq.",
+"en": "Manchu",
+"pos": "noun"
+},
+"mansi": {
+"az": "Qərbi Sibirdə yaşayan uqor xalqı.",
+"en": "Mansi",
+"pos": "noun"
+},
+"masai": {
+"az": "Keniya və Tanzaniyada yaşayan köçəri xalq.",
+"en": "Maasai",
+"pos": "noun"
+},
+"meqrel": {
+"az": "Gürcüstanın qərbində yaşayan kartvel xalqı.",
+"en": "Mingrelian",
+"pos": "noun"
+},
+"osk": {
+"az": "Qədim İtaliya xalqı.",
+"en": "Oscan",
+"pos": "noun"
+},
+"pəhləvi": {
+"az": "Orta fars dili və yazısı.",
+"en": "Pahlavi",
+"pos": "noun"
+},
+"poloves": {
+"az": "Orta əsrlərdə Şərqi Avropa çöllərində yaşamış türk xalqı.",
+"en": "Cuman",
+"pos": "noun"
+},
+"porfir": {
+"az": "İri kristallı maqmatik süxur.",
+"en": "porphyry",
+"pos": "noun"
+},
+"puştu": {
+"az": "Əfqanıstanın əsas dillərindən biri.",
+"en": "Pashto",
+"pos": "noun"
+},
+"saxur": {
+"az": "Azərbaycanın şimalında və Dağıstanda yaşayan xalq.",
+"en": "Tsakhur",
+"pos": "noun"
+},
+"saks": {
+"az": "Qədim german tayfası.",
+"en": "Saxon",
+"pos": "noun"
+},
+"sosis": {
+"az": "Nazik kolbasa.",
+"en": "sausage",
+"pos": "noun"
+},
+"tabasaran": {
+"az": "Dağıstanda yaşayan xalq.",
+"en": "Tabasaran",
+"pos": "noun"
+},
+"tatu": {
+"az": "Dəriyə vurulan şəkil.",
+"en": "tattoo",
+"pos": "noun"
+},
+"tofalar": {
+"az": "Şərqi Sibirdə yaşayan kiçik türk xalqı.",
+"en": "Tofalar",
+"pos": "noun"
+},
+"toxar": {
+"az": "Qədim Mərkəzi Asiyada yaşamış hind-Avropa xalqı.",
+"en": "Tocharian",
+"pos": "noun"
+},
+"tunqus": {
+"az": "Sibirdə yaşayan xalq, evenk.",
+"en": "Tungus",
+"pos": "noun"
+},
+"şumer": {
+"az": "Qədim Mesopotamiya xalqı.",
+"en": "Sumerian",
+"pos": "noun"
+},
+"udegey": {
+"az": "Uzaq Şərqdə yaşayan xalq.",
+"en": "Udege",
+"pos": "noun"
+},
+"udi": {
+"az": "Qəbələ rayonunda yaşayan qədim xalq.",
+"en": "Udi",
+"pos": "noun"
+},
+"ukrain": {
+"az": "Ukrayna xalqının nümayəndəsi.",
+"en": "Ukrainian",
+"pos": "noun"
+},
+"hədbəhəd": {
+"skip": "meaning not known with confidence"
+},
+"həftəbəhəftə": {
+"az": "Hər həftə, həftədən-həftəyə.",
+"en": "week by week",
+"pos": "adverb"
+},
+"həftələrlə": {
+"az": "Neçə həftə ərzində.",
+"en": "for weeks",
+"pos": "adverb"
+},
+"həkim-infeksionist": {
+"az": "Yoluxucu xəstəliklər həkimi.",
+"en": "infectious disease doctor",
+"pos": "noun"
+},
+"həkim-interna": {
+"az": "Təcrübə keçən gənc həkim.",
+"en": "medical intern",
+"pos": "noun"
+},
+"həkim-ortoped": {
+"az": "Sümük və oynaq xəstəlikləri həkimi.",
+"en": "orthopaedist",
+"pos": "noun"
+},
+"həmşəri": {
+"az": "Eyni şəhərdən olan adam.",
+"en": "fellow townsman",
+"pos": "noun"
+},
+"hərc-mərc": {
+"az": "Qarmaqarışıqlıq, özbaşınalıq.",
+"en": "chaos",
+"pos": "noun"
+},
+"hərəkətləndirici": {
+"az": "Hərəkətə gətirən.",
+"en": "driving",
+"pos": "adjective"
+},
+"hərfən": {
+"az": "Sözbəsöz, hərfi mənada.",
+"en": "literally",
+"pos": "adverb"
+},
+"hərləc": {
+"skip": "meaning not known with confidence"
+},
+"hərləngəc": {
+"skip": "meaning not known with confidence"
+},
+"həryönlü": {
+"az": "Hər tərəfə yönəlmiş.",
+"en": "omnidirectional",
+"pos": "adjective"
+},
+"həryönümlü": {
+"az": "Hər yönə uyğun.",
+"en": "versatile",
+"pos": "adjective"
+},
+"həsrətlə": {
+"az": "Həsrət çəkərək.",
+"en": "longingly",
+"pos": "adverb"
+},
+"həssaslıqla": {
+"az": "Həssas şəkildə.",
+"en": "sensitively",
+"pos": "adverb"
+},
+"hətərən-pətərən": {
+"az": "Mənasız, dolaşıq danışıq.",
+"en": "nonsense",
+"pos": "noun"
+},
+"həyəcanla": {
+"az": "Həyəcan keçirərək.",
+"en": "excitedly",
+"pos": "adverb"
+},
+"həzmetmə prosesi": {
+"az": "Qidanın orqanizmdə həzm olunması.",
+"en": "digestion",
+"pos": "noun"
+},
+"hıqqıltı": {
+"az": "Hıqqıldama səsi.",
+"en": "grunt",
+"pos": "noun"
+},
+"hialuron": {
+"az": "Hialuron turşusu.",
+"en": "hyaluronan",
+"pos": "noun"
+},
+"hibbon": {
+"az": "Uzunqollu insanabənzər meymun.",
+"en": "gibbon",
+"pos": "noun"
+},
+"hicri-şəmsi": {
+"az": "Günəş təqviminə əsaslanan hicri tarix.",
+"en": "Solar Hijri",
+"pos": "adjective"
+},
+"hidatofit": {
+"az": "Suyun altında yaşayan bitki.",
+"en": "hydatophyte",
+"pos": "noun"
+},
+"hidradenit": {
+"az": "Tər vəzisinin iltihabı.",
+"en": "hidradenitis",
+"pos": "noun"
+},
+"hidradenoma": {
+"az": "Tər vəzisinin xoşxassəli şişi.",
+"en": "hidradenoma",
+"pos": "noun"
+},
+"hidratasiya": {
+"az": "Maddənin su ilə birləşməsi.",
+"en": "hydration",
+"pos": "noun"
+},
+"hidrator": {
+"az": "Nəmləndirici vasitə.",
+"en": "moisturizer",
+"pos": "noun"
+},
+"hidrazid": {
+"az": "Hidrazin törəməsi.",
+"en": "hydrazide",
+"pos": "noun"
+},
+"hidrazin": {
+"az": "Azot və hidrogen birləşməsi, raket yanacağı.",
+"en": "hydrazine",
+"pos": "noun"
+},
+"hidremiya": {
+"az": "Qanda suyun artması.",
+"en": "hydraemia",
+"pos": "noun"
+},
+"hidrobiont": {
+"az": "Suda yaşayan orqanizm.",
+"en": "aquatic organism",
+"pos": "noun"
+},
+"hidrobios": {
+"az": "Su canlılarının məcmusu.",
+"en": "hydrobios",
+"pos": "noun"
+},
+"hidrobur": {
+"skip": "meaning not known with confidence"
+},
+"hidrofiliya": {
+"az": "Suya meyillilik.",
+"en": "hydrophilicity",
+"pos": "noun"
+},
+"hidrofon": {
+"az": "Suyun altında səsi qəbul edən cihaz.",
+"en": "hydrophone",
+"pos": "noun"
+},
+"hidrogenaza": {
+"az": "Hidrogeni oksidləşdirən ferment.",
+"en": "hydrogenase",
+"pos": "noun"
+},
+"hidroxarit": {
+"skip": "meaning not known with confidence"
+},
+"hidroxor": {
+"az": "Toxumu su ilə yayılan bitki.",
+"en": "hydrochore",
+"pos": "noun"
+},
+"hidroxoriya": {
+"az": "Toxumun su ilə yayılması.",
+"en": "hydrochory",
+"pos": "noun"
+},
+"hidroid": {
+"az": "Bağırsaqboşluqlu dəniz heyvanı.",
+"en": "hydroid",
+"pos": "noun"
+},
+"hidroizobat": {
+"skip": "meaning not known with confidence"
+},
+"hidroizohips": {
+"az": "Qrunt sularının eyni səviyyə xətti.",
+"en": "hydroisohypse",
+"pos": "noun"
+},
+"hidroizolə": {
+"az": "Sudan izolə etmə.",
+"en": "waterproofing",
+"pos": "noun"
+},
+"hidroksid": {
+"az": "Metalın hidroksil qrupu ilə birləşməsi.",
+"en": "hydroxide",
+"pos": "noun"
+},
+"hidroksil": {
+"az": "Oksigen və hidrogendən ibarət qrup.",
+"en": "hydroxyl",
+"pos": "noun"
+},
+"hidrolaza": {
+"az": "Hidrolizi sürətləndirən ferment.",
+"en": "hydrolase",
+"pos": "noun"
+},
+"hidromaniya": {
+"skip": "meaning not known with confidence"
+},
+"hidromika": {
+"az": "Sulu slyuda.",
+"en": "hydromica",
+"pos": "noun"
+},
+"hidronavt": {
+"az": "Sualtı tədqiqatçı.",
+"en": "aquanaut",
+"pos": "noun"
+},
+"hidronefroz": {
+"az": "Böyrəyin sidiklə genişlənməsi.",
+"en": "hydronephrosis",
+"pos": "noun"
+},
+"hidropatik": {
+"az": "Su ilə müalicəyə aid.",
+"en": "hydropathic",
+"pos": "adjective"
+},
+"hidropatiya": {
+"az": "Su ilə müalicə.",
+"en": "hydropathy",
+"pos": "noun"
+},
+"hidroperikard": {
+"az": "Ürək kisəsində maye yığılması.",
+"en": "hydropericardium",
+"pos": "noun"
+},
+"hidropon": {
+"az": "Torpaqsız bitki becərmə.",
+"en": "hydroponics",
+"pos": "noun"
+},
+"hidrops": {
+"az": "Bədən boşluqlarında maye yığılması.",
+"en": "dropsy",
+"pos": "noun"
+},
+"hidropsammon": {
+"skip": "meaning not known with confidence"
+},
+"hidrosefaliya": {
+"az": "Beyində maye yığılması.",
+"en": "hydrocephalus",
+"pos": "noun"
+},
+"hidrosfer": {
+"az": "Yerin su qatı.",
+"en": "hydrosphere",
+"pos": "noun"
+},
+"hidroskop": {
+"az": "Suyun altını görmək üçün cihaz.",
+"en": "hydroscope",
+"pos": "noun"
+},
+"hidroskopik": {
+"az": "Rütubəti çəkən.",
+"en": "hygroscopic",
+"pos": "adjective"
+},
+"hidrostat": {
+"az": "Suyun səviyyəsini saxlayan qurğu.",
+"en": "hydrostat",
+"pos": "noun"
+},
+"hidrotasiya": {
+"skip": "meaning not known with confidence"
+},
+"hidroterm": {
+"az": "İsti yeraltı su.",
+"en": "hydrothermal fluid",
+"pos": "noun"
+},
+"hidrotermal": {
+"az": "İsti yeraltı sularla bağlı.",
+"en": "hydrothermal",
+"pos": "adjective"
+},
+"hidrotop": {
+"skip": "meaning not known with confidence"
+},
+"hidrotoraks": {
+"az": "Plevra boşluğunda maye yığılması.",
+"en": "hydrothorax",
+"pos": "noun"
+},
+"hidrozofobiya": {
+"skip": "meaning not known with confidence"
+},
+"hidrozol": {
+"az": "Bərk hissəciklərin suda dispers sistemi.",
+"en": "hydrosol",
+"pos": "noun"
+},
+"hierofobiya": {
+"az": "Müqəddəs əşyalardan qorxu.",
+"en": "hierophobia",
+"pos": "noun"
+},
+"hifema": {
+"az": "Gözün ön kamerasına qan sızması.",
+"en": "hyphaema",
+"pos": "noun"
+},
+"hifomikoz": {
+"skip": "meaning not known with confidence"
+},
+"hifomiset": {
+"az": "Kif göbələyi.",
+"en": "hyphomycete",
+"pos": "noun"
+},
+"hiqrin": {
+"skip": "meaning not known with confidence"
+},
+"hiqrofil": {
+"az": "Rütubətsevən.",
+"en": "hygrophilous",
+"pos": "adjective"
+},
+"hiqrofobiya": {
+"az": "Rütubətdən qorxu.",
+"en": "hygrophobia",
+"pos": "noun"
+},
+"hiqroqraf": {
+"az": "Rütubəti qeyd edən cihaz.",
+"en": "hygrograph",
+"pos": "noun"
+},
+"hiqromorfizm": {
+"skip": "meaning not known with confidence"
+},
+"hiqroskop": {
+"az": "Havanın rütubətini göstərən cihaz.",
+"en": "hygroscope",
+"pos": "noun"
+},
+"hilsiz-mixəksiz": {
+"az": "Hiyləsiz, açıq.",
+"en": "guileless",
+"pos": "adjective"
+},
+"hiolit": {
+"skip": "meaning not known with confidence"
+},
+"hiossin": {
+"az": "Bənövşə bitkilərindən alınan alkaloid.",
+"en": "hyoscine",
+"pos": "noun"
+},
+"hipabissal süxurlar": {
+"az": "Az dərinlikdə donmuş maqmatik süxurlar.",
+"en": "hypabyssal rocks",
+"pos": "noun"
+},
+"hipalgeziya": {
+"az": "Ağrı hissinin azalması.",
+"en": "hypalgesia",
+"pos": "noun"
+},
+"hipegiyafobiya": {
+"skip": "meaning not known with confidence"
+},
+"hiperadipoz": {
+"skip": "meaning not known with confidence"
+},
+"hiperadrenalizm": {
+"az": "Böyrəküstü vəzinin artıq işləməsi.",
+"en": "hyperadrenalism",
+"pos": "noun"
+},
+"hiperaxın": {
+"skip": "meaning not known with confidence"
+},
+"hiperaktiv": {
+"az": "Hədsiz fəal.",
+"en": "hyperactive",
+"pos": "adjective"
+},
+"hiperakuziya": {
+"az": "Səslərə həddən artıq həssaslıq.",
+"en": "hyperacusis",
+"pos": "noun"
+},
+"hiperbarik": {
+"az": "Yüksək təzyiqli.",
+"en": "hyperbaric",
+"pos": "adjective"
+},
+"hiperbazit": {
+"az": "Silisiumu az olan maqmatik süxur.",
+"en": "ultrabasic rock",
+"pos": "noun"
+},
+"hiperbuliya": {
+"skip": "meaning not known with confidence"
+},
+"hiperdaktiliya": {
+"az": "Artıq barmaqlılıq.",
+"en": "hyperdactyly",
+"pos": "noun"
+},
+"hiperdaktilizm": {
+"az": "Artıq barmaqlılıq.",
+"en": "hyperdactyly",
+"pos": "noun"
+},
+"hiperdiaqnostika": {
+"az": "Olmayan xəstəliyin təyin edilməsi.",
+"en": "overdiagnosis",
+"pos": "noun"
+},
+"hiperdiploid": {
+"az": "Xromosom sayı artıq olan.",
+"en": "hyperdiploid",
+"pos": "adjective"
+},
+"hiperemezis": {
+"az": "Hədsiz qusma.",
+"en": "hyperemesis",
+"pos": "noun"
+},
+"hiperergiya": {
+"az": "Qıcıqlandırıcıya güclü reaksiya.",
+"en": "hyperergy",
+"pos": "noun"
+},
+"hiperesteziya": {
+"az": "Hissiyyatın artması.",
+"en": "hyperaesthesia",
+"pos": "noun"
+},
+"hiperfunksiya": {
+"az": "Orqanın artıq işləməsi.",
+"en": "hyperfunction",
+"pos": "noun"
+},
+"hipergenez": {
+"skip": "meaning not known with confidence"
+},
+"hipergeneziya": {
+"skip": "meaning not known with confidence"
+},
+"hipergenitalizm": {
+"az": "Cinsiyyət orqanlarının erkən inkişafı.",
+"en": "hypergenitalism",
+"pos": "noun"
+},
+"hiperhəssas": {
+"az": "Hədsiz həssas.",
+"en": "hypersensitive",
+"pos": "adjective"
+},
+"hiperhidratasiya": {
+"az": "Orqanizmdə suyun artıqlığı.",
+"en": "hyperhydration",
+"pos": "noun"
+},
+"hiperimmun": {
+"az": "Güclü immunitetli.",
+"en": "hyperimmune",
+"pos": "adjective"
+},
+"hiperimmunizasiya": {
+"az": "Təkrar peyvəndlə güclü immunitet yaratma.",
+"en": "hyperimmunization",
+"pos": "noun"
+},
+"hiperkeratoz": {
+"az": "Dərinin buynuz qatının qalınlaşması.",
+"en": "hyperkeratosis",
+"pos": "noun"
+},
+"hiperkinez": {
+"az": "Qeyri-iradi artıq hərəkətlər.",
+"en": "hyperkinesis",
+"pos": "noun"
+},
+"hiperkoristik": {
+"skip": "meaning not known with confidence"
+},
+"hiperkorrekt": {
+"az": "Hədsiz düzəldilmiş.",
+"en": "hypercorrect",
+"pos": "adjective"
+},
+"hiperkortisizm": {
+"az": "Kortizolun artıqlığı.",
+"en": "hypercortisolism",
+"pos": "noun"
+},
+"hiperqlikemik": {
+"az": "Qanda şəkəri artıran.",
+"en": "hyperglycaemic",
+"pos": "adjective"
+},
+"hipermarket": {
+"az": "Çox böyük univermaq.",
+"en": "hypermarket",
+"pos": "noun"
+},
+"hipermedia": {
+"az": "Keçidlərlə bağlı mətn, səs və görüntü.",
+"en": "hypermedia",
+"pos": "noun"
+},
+"hipermimiya": {
+"skip": "meaning not known with confidence"
+},
+"hipermneziya": {
+"az": "Yaddaşın hədsiz güclənməsi.",
+"en": "hypermnesia",
+"pos": "noun"
+},
+"hipermodernizm": {
+"skip": "meaning not known with confidence"
+},
+"hipermorfoz": {
+"skip": "meaning not known with confidence"
+},
+"hipernüvə": {
+"az": "Hiperon daşıyan atom nüvəsi.",
+"en": "hypernucleus",
+"pos": "noun"
+},
+"hiperon": {
+"az": "Ağır elementar zərrəcik.",
+"en": "hyperon",
+"pos": "noun"
+},
+"hiperosmiya": {
+"az": "Qoxu hissinin artması.",
+"en": "hyperosmia",
+"pos": "noun"
+},
+"hiperplastik": {
+"az": "Toxumanın artıq böyüməsinə aid.",
+"en": "hyperplastic",
+"pos": "adjective"
+},
+"hiperreallıq": {
+"az": "Real ilə təqlidin ayırd edilməməsi.",
+"en": "hyperreality",
+"pos": "noun"
+},
+"hipersema": {
+"skip": "meaning not known with confidence"
+},
+"hipersəciyyə": {
+"skip": "meaning not known with confidence"
+},
+"hipersənəd": {
+"az": "Keçidli elektron sənəd.",
+"en": "hyperdocument",
+"pos": "noun"
+},
+"hipersəs": {
+"az": "Çox yüksək tezlikli səs.",
+"en": "hypersound",
+"pos": "noun"
+},
+"hiperstenit": {
+"skip": "meaning not known with confidence"
+},
+"hipertekstuallıq": {
+"az": "Mətnlərin keçidlərlə bağlılığı.",
+"en": "hypertextuality",
+"pos": "noun"
+},
+"hipertenziv": {
+"az": "Təzyiqi yüksək olan.",
+"en": "hypertensive",
+"pos": "adjective"
+},
+"hipertermal": {
+"skip": "meaning not known with confidence"
+},
+"hipertonik": {
+"az": "Osmos təzyiqi yüksək olan.",
+"en": "hypertonic",
+"pos": "adjective"
+},
+"hipertrafik": {
+"skip": "meaning not known with confidence"
+},
+"hipertrofik": {
+"az": "Orqanın böyüməsinə aid.",
+"en": "hypertrophic",
+"pos": "adjective"
+},
+"hiperurbanizm": {
+"az": "Dildə hədsiz ədəbi düzəltmə.",
+"en": "hyperurbanism",
+"pos": "noun"
+},
+"hipervitaminoz": {
+"az": "Vitaminin artıqlığından xəstəlik.",
+"en": "hypervitaminosis",
+"pos": "noun"
+},
+"hipnologiya": {
+"az": "Yuxu və hipnozu öyrənən elm.",
+"en": "hypnology",
+"pos": "noun"
+},
+"hipnoterapiya": {
+"az": "Hipnozla müalicə.",
+"en": "hypnotherapy",
+"pos": "noun"
+},
+"hipoderma": {
+"az": "Dərialtı qat.",
+"en": "hypodermis",
+"pos": "noun"
+},
+"hipodermatoz": {
+"skip": "meaning not known with confidence"
+},
+"hipodermit": {
+"skip": "meaning not known with confidence"
+},
+"hipodinamiya": {
+"az": "Hərəkətsizlik.",
+"en": "physical inactivity",
+"pos": "noun"
+},
+"hipohidroz": {
+"az": "Tərləmənin azalması.",
+"en": "hypohidrosis",
+"pos": "noun"
+},
+"hipoxromik": {
+"az": "Rəngi zəif olan.",
+"en": "hypochromic",
+"pos": "adjective"
+},
+"hipokamp": {
+"az": "Beynin yaddaşla bağlı hissəsi.",
+"en": "hippocampus",
+"pos": "noun"
+},
+"hipokoristik": {
+"az": "Əzizləmə bildirən.",
+"en": "hypocoristic",
+"pos": "adjective"
+},
+"hipokortisizm": {
+"az": "Kortizolun çatışmazlığı.",
+"en": "hypocortisolism",
+"pos": "noun"
+},
+"hipoksemiya": {
+"az": "Qanda oksigenin azalması.",
+"en": "hypoxaemia",
+"pos": "noun"
+},
+"hipoqlikemik": {
+"az": "Qanda şəkəri azaldan.",
+"en": "hypoglycaemic",
+"pos": "adjective"
+},
+"hipomastiya": {
+"az": "Süd vəzilərinin zəif inkişafı.",
+"en": "hypomastia",
+"pos": "noun"
+},
+"hipomenoreya": {
+"az": "Aybaşının az olması.",
+"en": "hypomenorrhoea",
+"pos": "noun"
+},
+"hipomimiya": {
+"az": "Mimikanın zəifləməsi.",
+"en": "hypomimia",
+"pos": "noun"
+},
+"hipomneziya": {
+"az": "Yaddaşın zəifləməsi.",
+"en": "hypomnesia",
+"pos": "noun"
+},
+"hipomorfoz": {
+"skip": "meaning not known with confidence"
+},
+"hiponeyston": {
+"az": "Suyun üst qatında yaşayan orqanizmlər.",
+"en": "hyponeuston",
+"pos": "noun"
+},
+"hipopatiya": {
+"skip": "meaning not known with confidence"
+},
+"hipoploid": {
+"az": "Xromosom sayı az olan.",
+"en": "hypoploid",
+"pos": "adjective"
+},
+"hiposmiya": {
+"az": "Qoxu hissinin zəifləməsi.",
+"en": "hyposmia",
+"pos": "noun"
+},
+"hipostaz": {
+"az": "Qanın aşağı hissələrdə yığılması.",
+"en": "hypostasis",
+"pos": "noun"
+},
+"hiposteziya": {
+"az": "Hissiyyatın zəifləməsi.",
+"en": "hypoaesthesia",
+"pos": "noun"
+},
+"hiposulfit": {
+"az": "Natrium tiosulfat.",
+"en": "hyposulphite",
+"pos": "noun"
+},
+"hipotaksis": {
+"az": "Tabelilik əlaqəsi.",
+"en": "hypotaxis",
+"pos": "noun"
+},
+"hipotalamik": {
+"az": "Hipotalamusa aid.",
+"en": "hypothalamic",
+"pos": "adjective"
+},
+"hipotenziya": {
+"az": "Qan təzyiqinin aşağı olması.",
+"en": "hypotension",
+"pos": "noun"
+},
+"hipotermal": {
+"skip": "meaning not known with confidence"
+},
+"hipotonik": {
+"az": "Osmos təzyiqi aşağı olan.",
+"en": "hypotonic",
+"pos": "adjective"
+},
+"hipotoniya": {
+"az": "Əzələ tonusunun və ya təzyiqin aşağı olması.",
+"en": "hypotonia",
+"pos": "noun"
+},
+"hipotrofiya": {
+"az": "Qidalanma çatışmazlığından zəif inkişaf.",
+"en": "hypotrophy",
+"pos": "noun"
+},
+"hipovitaminoz": {
+"az": "Vitamin çatışmazlığı.",
+"en": "hypovitaminosis",
+"pos": "noun"
+},
+"hippodrom": {
+"az": "At yarışı meydanı.",
+"en": "hippodrome",
+"pos": "noun"
+},
+"hippurit": {
+"az": "Qazıntı halında olan qədim ikitaylı molyusk.",
+"en": "hippurite",
+"pos": "noun"
+},
+"hipsofil": {
+"skip": "meaning not known with confidence"
+},
+"hipsofobiya": {
+"az": "Hündürlükdən qorxu.",
+"en": "fear of heights",
+"pos": "noun"
+},
+"hirokompas": {
+"az": "Giroskoplu kompas.",
+"en": "gyrocompass",
+"pos": "noun"
+},
+"hirssiz-hikkəsiz": {
+"az": "Hirsi-hikkəsi olmayan.",
+"en": "even-tempered",
+"pos": "adjective"
+},
+"hirssiz-qəzəbsiz": {
+"az": "Hirssiz, sakit.",
+"en": "calm",
+"pos": "adjective"
+},
+"hirudin": {
+"az": "Zəlinin ifraz etdiyi qanın laxtalanmasını əngəlləyən maddə.",
+"en": "hirudin",
+"pos": "noun"
+},
+"hirudoterapevt": {
+"az": "Zəli ilə müalicə edən həkim.",
+"en": "leech therapist",
+"pos": "noun"
+},
+"hirudoterapiya": {
+"az": "Zəli ilə müalicə.",
+"en": "leech therapy",
+"pos": "noun"
+},
+"hissediləcək": {
+"az": "Hiss olunacaq qədər.",
+"en": "noticeable",
+"pos": "adjective"
+},
+"hissiyatlı": {
+"az": "Hissləri güclü olan.",
+"en": "emotional",
+"pos": "adjective"
+},
+"histamin": {
+"az": "Allergiyada ifraz olunan maddə.",
+"en": "histamine",
+"pos": "noun"
+},
+"histerezis": {
+"az": "Təsirin dəyişməsindən geri qalan effekt.",
+"en": "hysteresis",
+"pos": "noun"
+},
+"histerologiya": {
+"skip": "meaning not known with confidence"
+},
+"histeromaqmatik": {
+"skip": "meaning not known with confidence"
+},
+"histeropeksiya": {
+"az": "Uşaqlığın cərrahi bərkidilməsi.",
+"en": "hysteropexy",
+"pos": "noun"
+},
+"histeroproton": {
+"skip": "meaning not known with confidence"
+},
+"histidaza": {
+"az": "Histidini parçalayan ferment.",
+"en": "histidase",
+"pos": "noun"
+},
+"histidin": {
+"az": "Amin turşusu.",
+"en": "histidine",
+"pos": "noun"
+},
+"histoqram": {
+"az": "Sütunlu tezlik diaqramı.",
+"en": "histogram",
+"pos": "noun"
+},
+"histoplazmin": {
+"az": "Göbələk xəstəliyi üçün diaqnostik maddə.",
+"en": "histoplasmin",
+"pos": "noun"
+},
+"hit": {
+"az": "Çox populyar mahnı.",
+"en": "hit",
+"pos": "noun"
+},
+"hitlerizm": {
+"az": "Hitlerin ideologiyası.",
+"en": "Hitlerism",
+"pos": "noun"
+},
+"hit-parad": {
+"az": "Populyar mahnılar siyahısı.",
+"en": "hit parade",
+"pos": "noun"
+},
+"hodoqraf": {
+"az": "Sürət vektorunun ucunun cızdığı əyri.",
+"en": "hodograph",
+"pos": "noun"
+},
+"hodonim": {
+"az": "Küçə adı.",
+"en": "hodonym",
+"pos": "noun"
+},
+"hodonimika": {
+"az": "Küçə adlarını öyrənən sahə.",
+"en": "study of street names",
+"pos": "noun"
+},
+"hofmakler": {
+"skip": "meaning not known with confidence"
+},
+"hofmarşal": {
+"az": "Saray təsərrüfatı rəisi.",
+"en": "Hofmarschall",
+"pos": "noun"
+},
+"hofmeyster": {
+"az": "Saray idarəçisi.",
+"en": "court steward",
+"pos": "noun"
+},
+"hokku": {
+"az": "Yapon üçmisralıq şeiri.",
+"en": "haiku",
+"pos": "noun"
+},
+"hoqqar": {
+"skip": "meaning not known with confidence"
+},
+"holdinq": {
+"az": "Başqa şirkətlərin səhmlərinə sahib olan şirkət.",
+"en": "holding company",
+"pos": "noun"
+},
+"holohidrobiont": {
+"skip": "meaning not known with confidence"
+},
+"holoqram": {
+"az": "Həcmli lazer təsviri.",
+"en": "hologram",
+"pos": "noun"
+},
+"holonom": {
+"skip": "meaning not known with confidence"
+},
+"holoplankton": {
+"az": "Bütün ömrünü planktonda keçirən orqanizmlər.",
+"en": "holoplankton",
+"pos": "noun"
+},
+"holosen": {
+"az": "Dördüncü dövrün son epoxası.",
+"en": "Holocene",
+"pos": "noun"
+},
+"holotip": {
+"az": "Növün təsvirində əsas nümunə.",
+"en": "holotype",
+"pos": "noun"
+},
+"holotopiya": {
+"skip": "meaning not known with confidence"
+},
+"holoturiya": {
+"az": "Dəniz xiyarı.",
+"en": "sea cucumber",
+"pos": "noun"
+},
+"homeomorfiya": {
+"az": "Topoloji ekvivalentlik.",
+"en": "homeomorphism",
+"pos": "noun"
+},
+"homeopat": {
+"az": "Homeopatiya ilə müalicə edən həkim.",
+"en": "homeopath",
+"pos": "noun"
+},
+"homeopatiya": {
+"az": "Kiçik dozalarla müalicə üsulu.",
+"en": "homeopathy",
+"pos": "noun"
+},
+"homeopolyar": {
+"az": "Kovalent, ion yaratmayan.",
+"en": "homopolar",
+"pos": "adjective"
+},
+"homiklofobiya": {
+"az": "Dumandan qorxu.",
+"en": "homichlophobia",
+"pos": "noun"
+},
+"hominid": {
+"az": "İnsanabənzər primat.",
+"en": "hominid",
+"pos": "noun"
+},
+"hominofobiya": {
+"skip": "meaning not known with confidence"
+},
+"hominologiya": {
+"skip": "meaning not known with confidence"
+},
+"homodesmik": {
+"skip": "meaning not known with confidence"
+},
+"homofob": {
+"az": "Homoseksuallara nifrət edən.",
+"en": "homophobe",
+"pos": "noun"
+}
+}

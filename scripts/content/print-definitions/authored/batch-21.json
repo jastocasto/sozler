@@ -1,0 +1,1150 @@
+{
+"inkvizision": {
+"az": "İnkvizisiyaya aid.",
+"en": "inquisitional",
+"pos": "adjective"
+},
+"inqressiv": {
+"az": "Hərəkətin başlanmasını bildirən.",
+"en": "ingressive",
+"pos": "adjective"
+},
+"inqressiya": {
+"az": "Dənizin quruya irəliləməsi.",
+"en": "ingression",
+"pos": "noun"
+},
+"inneizm": {
+"az": "Anadangəlmə ideyalar təlimi.",
+"en": "innatism",
+"pos": "noun"
+},
+"inokulyasiya": {
+"az": "Peyvənd materialının yeridilməsi.",
+"en": "inoculation",
+"pos": "noun"
+},
+"inorqanik": {
+"az": "Qeyri-üzvi.",
+"en": "inorganic",
+"pos": "adjective"
+},
+"inosilikat": {
+"az": "Zəncirvari silikat.",
+"en": "inosilicate",
+"pos": "noun"
+},
+"inozitol": {
+"az": "Vitaminəbənzər spirt.",
+"en": "inositol",
+"pos": "noun"
+},
+"insayder": {
+"az": "Daxili məlumatı olan şəxs.",
+"en": "insider",
+"pos": "noun"
+},
+"insayt": {
+"az": "Qəfil dərk etmə.",
+"en": "insight",
+"pos": "noun"
+},
+"insektofunkisid": {
+"skip": "meaning not known with confidence"
+},
+"inseminasiya": {
+"az": "Mayalandırma.",
+"en": "insemination",
+"pos": "noun"
+},
+"inserasiya": {
+"skip": "meaning not known with confidence"
+},
+"insolyasiya": {
+"az": "Günəş şüalanması.",
+"en": "insolation",
+"pos": "noun"
+},
+"inspeksiya": {
+"az": "Yoxlama, təftiş.",
+"en": "inspection",
+"pos": "noun"
+},
+"inspektura": {
+"az": "Müfəttişlik.",
+"en": "inspectorate",
+"pos": "noun"
+},
+"inspirator": {
+"az": "İlham verən, təşəbbüskar.",
+"en": "instigator",
+"pos": "noun"
+},
+"instaqram": {
+"az": "Foto paylaşma sosial şəbəkəsi.",
+"en": "Instagram",
+"pos": "noun"
+},
+"instalyasiya": {
+"az": "Quraşdırma; məkan kompozisiyası.",
+"en": "installation",
+"pos": "noun"
+},
+"instans": {
+"az": "İnstansiya, pillə.",
+"en": "instance",
+"pos": "noun"
+},
+"institusional": {
+"az": "İnstitutlara aid.",
+"en": "institutional",
+"pos": "adjective"
+},
+"instrumentalizm": {
+"az": "Biliyi alət sayan fəlsəfi baxış.",
+"en": "instrumentalism",
+"pos": "noun"
+},
+"insulinemiya": {
+"az": "Qanda insulinin miqdarı.",
+"en": "insulinaemia",
+"pos": "noun"
+},
+"insulinoma": {
+"az": "İnsulin ifraz edən şiş.",
+"en": "insulinoma",
+"pos": "noun"
+},
+"insulinoterapiya": {
+"az": "İnsulinlə müalicə.",
+"en": "insulin therapy",
+"pos": "noun"
+},
+"insulonim": {
+"az": "Ada adı.",
+"en": "island name",
+"pos": "noun"
+},
+"insulosit": {
+"skip": "meaning not known with confidence"
+},
+"insulyator": {
+"az": "İzolyator.",
+"en": "insulator",
+"pos": "noun"
+},
+"integer": {
+"az": "Tam ədəd tipi.",
+"en": "integer",
+"pos": "noun"
+},
+"inteqrativ": {
+"az": "Birləşdirici.",
+"en": "integrative",
+"pos": "adjective"
+},
+"inteqrə": {
+"az": "İnteqrasiya.",
+"en": "integration",
+"pos": "noun"
+},
+"intequment": {
+"az": "Örtük.",
+"en": "integument",
+"pos": "noun"
+},
+"intensifikasiya": {
+"az": "Gücləndirmə, intensivləşmə.",
+"en": "intensification",
+"pos": "noun"
+},
+"intensifikator": {
+"az": "Gücləndirici.",
+"en": "intensifier",
+"pos": "noun"
+},
+"intensiya": {
+"az": "Gərginlik, güc.",
+"en": "intensity",
+"pos": "noun"
+},
+"interaktiv": {
+"az": "Qarşılıqlı əlaqəli.",
+"en": "interactive",
+"pos": "adjective"
+},
+"interdialekt": {
+"az": "Dialektlərarası ünsiyyət forması.",
+"en": "interdialect",
+"pos": "noun"
+},
+"interfaks": {
+"az": "Rusiya xəbər agentliyi.",
+"en": "Interfax",
+"pos": "noun"
+},
+"interfaza": {
+"az": "Hüceyrə bölünmələri arasındakı dövr.",
+"en": "interphase",
+"pos": "noun"
+},
+"interleksem": {
+"skip": "meaning not known with confidence"
+},
+"interlinqva": {
+"az": "Süni beynəlxalq dil.",
+"en": "Interlingua",
+"pos": "noun"
+},
+"interlinqvistika": {
+"az": "Beynəlxalq dilləri öyrənən sahə.",
+"en": "interlinguistics",
+"pos": "noun"
+},
+"interlinyaj": {
+"az": "Sətirarası tərcümə.",
+"en": "interlinear translation",
+"pos": "noun"
+},
+"internatura": {
+"az": "Gənc həkimlərin təcrübə dövrü.",
+"en": "internship",
+"pos": "noun"
+},
+"internet-marketoloq": {
+"az": "İnternetdə marketinq mütəxəssisi.",
+"en": "internet marketer",
+"pos": "noun"
+},
+"interpol": {
+"az": "Beynəlxalq polis təşkilatı.",
+"en": "Interpol",
+"pos": "noun"
+},
+"interpolyator": {
+"az": "İnterpolyasiya edən qurğu.",
+"en": "interpolator",
+"pos": "noun"
+},
+"interpretasiya": {
+"az": "Şərh, yozum.",
+"en": "interpretation",
+"pos": "noun"
+},
+"interpunksiya": {
+"az": "Durğu işarələri sistemi.",
+"en": "punctuation",
+"pos": "noun"
+},
+"intertekstual": {
+"az": "Mətnlərarası.",
+"en": "intertextual",
+"pos": "adjective"
+},
+"intervensiya": {
+"az": "Müdaxilə.",
+"en": "intervention",
+"pos": "noun"
+},
+"intervokal": {
+"az": "Saitlər arasında olan.",
+"en": "intervocalic",
+"pos": "adjective"
+},
+"intonem": {
+"az": "İntonasiya vahidi.",
+"en": "intoneme",
+"pos": "noun"
+},
+"intrabronxial": {
+"az": "Bronxların içində olan.",
+"en": "intrabronchial",
+"pos": "adjective"
+},
+"intraklast": {
+"skip": "meaning not known with confidence"
+},
+"intrakutan": {
+"az": "Dəridaxili.",
+"en": "intracutaneous",
+"pos": "adjective"
+},
+"intralüminal": {
+"az": "Boşluq içində olan.",
+"en": "intraluminal",
+"pos": "adjective"
+},
+"intravenoz": {
+"az": "Venadaxili.",
+"en": "intravenous",
+"pos": "adjective"
+},
+"introdusent": {
+"az": "Başqa yerdən gətirilmiş növ.",
+"en": "introduced species",
+"pos": "noun"
+},
+"introspeksiya": {
+"az": "Özünümüşahidə.",
+"en": "introspection",
+"pos": "noun"
+},
+"introspektiv": {
+"az": "Özünümüşahidəyə aid.",
+"en": "introspective",
+"pos": "adjective"
+},
+"intuitivizm": {
+"az": "Biliyi fəhmə əsaslandıran təlim.",
+"en": "intuitionism",
+"pos": "noun"
+},
+"inventarizə": {
+"az": "İnventarizasiya.",
+"en": "stocktaking",
+"pos": "noun"
+},
+"involyusiya": {
+"az": "Geriyə inkişaf.",
+"en": "involution",
+"pos": "noun"
+},
+"inyunktiv": {
+"az": "Əmr-arzu forması.",
+"en": "injunctive",
+"pos": "noun"
+},
+"ionika": {
+"az": "İonlar haqqında elm.",
+"en": "ionics",
+"pos": "noun"
+},
+"ionizator": {
+"az": "Havanı ionlaşdıran cihaz.",
+"en": "ionizer",
+"pos": "noun"
+},
+"ionizə": {
+"az": "İonlaşdırma.",
+"en": "ionization",
+"pos": "noun"
+},
+"ionlaşdıran": {
+"az": "İonlaşdıran.",
+"en": "ionizing",
+"pos": "adjective"
+},
+"ionofon": {
+"skip": "meaning not known with confidence"
+},
+"ionoforez": {
+"az": "İonların elektrik sahəsində hərəkəti.",
+"en": "ionophoresis",
+"pos": "noun"
+},
+"ionoterapiya": {
+"skip": "meaning not known with confidence"
+},
+"iontoforez": {
+"az": "Cərəyanla dərman yeritmə.",
+"en": "iontophoresis",
+"pos": "noun"
+},
+"ipaçan": {
+"az": "İp açan.",
+"en": "thread-unwinding",
+"pos": "adjective"
+},
+"ipaçma": {
+"az": "İpin açılması.",
+"en": "unwinding thread",
+"pos": "noun"
+},
+"ipboyama": {
+"az": "İp boyama.",
+"en": "thread dyeing",
+"pos": "noun"
+},
+"ipli": {
+"az": "İpi olan.",
+"en": "corded",
+"pos": "adjective"
+},
+"ipucu": {
+"az": "İşarə, yönəldici məlumat.",
+"en": "clue",
+"pos": "noun"
+},
+"iranəsilli": {
+"az": "İran əsilli.",
+"en": "of Iranian descent",
+"pos": "adjective"
+},
+"iranmənşəli": {
+"az": "İran mənşəli.",
+"en": "of Iranian origin",
+"pos": "adjective"
+},
+"iremofobiya": {
+"az": "Tənhalıqdan qorxu.",
+"en": "eremophobia",
+"pos": "noun"
+},
+"irəlilədə-irəlilədə": {
+"az": "İrəliləyərək.",
+"en": "moving forward",
+"pos": "adverb"
+},
+"iriçaydaşılı": {
+"az": "İri çay daşları olan.",
+"en": "cobbly",
+"pos": "adjective"
+},
+"iridodonez": {
+"az": "Göz qüzehli qişasının titrəməsi.",
+"en": "iridodonesis",
+"pos": "noun"
+},
+"irinotu": {
+"skip": "meaning not known with confidence"
+},
+"irizasiya": {
+"az": "Göy qurşağı rəngləri ilə parıldama.",
+"en": "iridescence",
+"pos": "noun"
+},
+"ironik": {
+"az": "İstehzalı.",
+"en": "ironic",
+"pos": "adjective"
+},
+"irrasionalizm": {
+"az": "Ağıldan kənar idrakı üstün tutan təlim.",
+"en": "irrationalism",
+"pos": "noun"
+},
+"irritasiya": {
+"az": "Qıcıqlanma.",
+"en": "irritation",
+"pos": "noun"
+},
+"irtmə": {
+"skip": "meaning not known with confidence"
+},
+"isitməotu": {
+"skip": "meaning not known with confidence"
+},
+"iskit": {
+"az": "Skif.",
+"en": "Scythian",
+"pos": "noun"
+},
+"islamaqədərki": {
+"az": "İslamdan əvvəlki.",
+"en": "pre-Islamic",
+"pos": "adjective"
+},
+"islamiada": {
+"az": "İslam ölkələrinin idman oyunları.",
+"en": "Islamic Solidarity Games",
+"pos": "noun"
+},
+"isterasiya": {
+"skip": "meaning not known with confidence"
+},
+"istiqlaliyyətsevər": {
+"az": "Müstəqilliyi sevən.",
+"en": "independence-loving",
+"pos": "adjective"
+},
+"istintaqaqədər": {
+"az": "İstintaqa qədər.",
+"en": "pre-investigation",
+"pos": "adjective"
+},
+"istintaqaqədərki": {
+"az": "İstintaqdan əvvəlki.",
+"en": "pre-investigation",
+"pos": "adjective"
+},
+"istisevər": {
+"az": "İstisevən.",
+"en": "thermophilic",
+"pos": "adjective"
+},
+"işaxtaran": {
+"az": "İş axtaran adam.",
+"en": "job seeker",
+"pos": "noun"
+},
+"işbacarmaz": {
+"az": "İş bacarmayan.",
+"en": "incompetent",
+"pos": "adjective"
+},
+"işbölən": {
+"az": "İşi bölüşdürən.",
+"en": "task distributor",
+"pos": "noun"
+},
+"işbölmə": {
+"az": "İşin bölüşdürülməsi.",
+"en": "division of labour",
+"pos": "noun"
+},
+"işburaxan": {
+"az": "İşi buraxan.",
+"en": "quitter",
+"pos": "noun"
+},
+"işdənkənar": {
+"az": "İşdən kənar.",
+"en": "off-duty",
+"pos": "adjective"
+},
+"işemik": {
+"az": "Qan azlığına aid.",
+"en": "ischaemic",
+"pos": "adjective"
+},
+"işəçıxma": {
+"az": "İşə çıxma.",
+"en": "going to work",
+"pos": "noun"
+},
+"işədavamlılıq": {
+"az": "İşə davamlı olma.",
+"en": "work endurance",
+"pos": "noun"
+},
+"işədözümlü": {
+"az": "İşə dözümlü.",
+"en": "hard-working",
+"pos": "adjective"
+},
+"işəgecikmə": {
+"az": "İşə gecikmə.",
+"en": "lateness for work",
+"pos": "noun"
+},
+"işəgötürmə": {
+"az": "İşə götürmə.",
+"en": "hiring",
+"pos": "noun"
+},
+"işəgötürülən": {
+"az": "İşə götürülən.",
+"en": "hired",
+"pos": "adjective"
+},
+"işəgötürülmə": {
+"az": "İşə götürülmə.",
+"en": "being hired",
+"pos": "noun"
+},
+"işəsalıcı": {
+"az": "İşə salan qurğu.",
+"en": "starter",
+"pos": "noun"
+},
+"işəsalma": {
+"az": "İşə salma.",
+"en": "start-up",
+"pos": "noun"
+},
+"işəyarama": {
+"az": "İşə yarama.",
+"en": "usefulness",
+"pos": "noun"
+},
+"işığadavamlıq": {
+"az": "İşığa davamlılıq.",
+"en": "lightfastness",
+"pos": "noun"
+},
+"işığadözümsüz": {
+"az": "İşığa dözümsüz.",
+"en": "light-sensitive",
+"pos": "adjective"
+},
+"işıqhaişıqda": {
+"az": "Hələ işıq ikən.",
+"en": "while it is still light",
+"pos": "adverb"
+},
+"işıqkeçirməyən": {
+"az": "İşıq keçirməyən.",
+"en": "opaque",
+"pos": "adjective"
+},
+"işıqlayan": {
+"az": "İşıqlandıran.",
+"en": "illuminating",
+"pos": "adjective"
+},
+"işkənbə": {
+"az": "Qarın, mədə; işkənbə yeməyi.",
+"en": "tripe",
+"pos": "noun"
+},
+"işqabağı": {
+"az": "İşdən əvvəl.",
+"en": "before work",
+"pos": "adverb"
+},
+"işortası": {
+"az": "İş vaxtının ortası.",
+"en": "midday break time",
+"pos": "noun"
+},
+"işsevər": {
+"az": "İşi sevən.",
+"en": "hard-working",
+"pos": "adjective"
+},
+"işsonu": {
+"az": "İşin sonu.",
+"en": "end of work",
+"pos": "noun"
+},
+"işvəsiz-nazsız": {
+"az": "Naz-qəmzəsiz, sadə.",
+"en": "unaffected",
+"pos": "adjective"
+},
+"itasizm": {
+"az": "İta kimi tələffüz.",
+"en": "itacism",
+"pos": "noun"
+},
+"iterativ": {
+"az": "Təkrarlanan.",
+"en": "iterative",
+"pos": "adjective"
+},
+"itxasiyyət": {
+"az": "İt xasiyyətli.",
+"en": "vicious-tempered",
+"pos": "adjective"
+},
+"itiaxma": {
+"skip": "meaning not known with confidence"
+},
+"itib-batan": {
+"az": "İtib yox olan.",
+"en": "lost and vanished",
+"pos": "adjective"
+},
+"itili": {
+"skip": "meaning not known with confidence"
+},
+"itli-küçüklü": {
+"az": "İtli, küçüklü, bütün ailəsi ilə.",
+"en": "with the whole brood",
+"pos": "adverb"
+},
+"itöyrədən": {
+"az": "İt öyrədən.",
+"en": "dog trainer",
+"pos": "noun"
+},
+"itöyrətmə": {
+"az": "İt öyrətmə.",
+"en": "dog training",
+"pos": "noun"
+},
+"itpaxlası": {
+"skip": "meaning not known with confidence"
+},
+"itsifət": {
+"az": "İt sifətli.",
+"en": "dog-faced",
+"pos": "adjective"
+},
+"iyen": {
+"az": "Yaponiyanın pul vahidi.",
+"en": "yen",
+"pos": "noun"
+},
+"iyerarxik": {
+"az": "Pilləli.",
+"en": "hierarchical",
+"pos": "adjective"
+},
+"iynətutğacı": {
+"az": "İynə tutan alət.",
+"en": "needle holder",
+"pos": "noun"
+},
+"izadrin": {
+"skip": "meaning not known with confidence"
+},
+"izaxtarma": {
+"az": "İz axtarma.",
+"en": "tracking",
+"pos": "noun"
+},
+"izburaxan": {
+"az": "İz buraxan.",
+"en": "trace-leaving",
+"pos": "adjective"
+},
+"izburaxma": {
+"az": "İz buraxma.",
+"en": "leaving traces",
+"pos": "noun"
+},
+"izlədə-izlədə": {
+"az": "İzləyərək.",
+"en": "following",
+"pos": "adverb"
+},
+"izlənim": {
+"az": "Təəssürat.",
+"en": "impression",
+"pos": "noun"
+},
+"izli": {
+"az": "İzi olan.",
+"en": "tracked",
+"pos": "adjective"
+},
+"izoanabaz": {
+"skip": "meaning not known with confidence"
+},
+"izoanemon": {
+"skip": "meaning not known with confidence"
+},
+"izoant": {
+"skip": "meaning not known with confidence"
+},
+"izobaz": {
+"skip": "meaning not known with confidence"
+},
+"izoelektrik": {
+"az": "Elektrik yükü sıfır olan.",
+"en": "isoelectric",
+"pos": "adjective"
+},
+"izoqlos": {
+"az": "Dil hadisəsinin yayılma sərhədi.",
+"en": "isogloss",
+"pos": "noun"
+},
+"izopeyz": {
+"skip": "meaning not known with confidence"
+},
+"izopikn": {
+"skip": "meaning not known with confidence"
+},
+"izopiya": {
+"skip": "meaning not known with confidence"
+},
+"izosemiya": {
+"skip": "meaning not known with confidence"
+},
+"izosenoz": {
+"skip": "meaning not known with confidence"
+},
+"izoseroterapiya": {
+"skip": "meaning not known with confidence"
+},
+"izoseyst": {
+"az": "Eyni zəlzələ gücü xətti.",
+"en": "isoseismal line",
+"pos": "noun"
+},
+"izosintaqm": {
+"skip": "meaning not known with confidence"
+},
+"izosporiya": {
+"az": "Eyni ölçülü sporlar əmələ gətirmə.",
+"en": "isospory",
+"pos": "noun"
+},
+"izoterm": {
+"az": "Eyni temperatur xətti.",
+"en": "isotherm",
+"pos": "noun"
+},
+"izotermik": {
+"az": "Sabit temperaturlu.",
+"en": "isothermal",
+"pos": "adjective"
+},
+"izotip": {
+"az": "Eyni tip.",
+"en": "isotype",
+"pos": "noun"
+},
+"izoton": {
+"az": "Eyni neytron saylı nüvə.",
+"en": "isotone",
+"pos": "noun"
+},
+"izotonik": {
+"az": "Eyni osmos təzyiqli.",
+"en": "isotonic",
+"pos": "adjective"
+},
+"izotoniya": {
+"az": "Eyni osmos təzyiqi.",
+"en": "isotonia",
+"pos": "noun"
+},
+"izotor": {
+"skip": "meaning not known with confidence"
+},
+"iztanıma": {
+"az": "İzi tanıma.",
+"en": "track recognition",
+"pos": "noun"
+},
+"iztapma": {
+"az": "İz tapma.",
+"en": "finding traces",
+"pos": "noun"
+},
+"jarqonizm": {
+"az": "Jarqon söz.",
+"en": "jargonism",
+"pos": "noun"
+},
+"jelvak": {
+"skip": "meaning not known with confidence"
+},
+"jirobus": {
+"skip": "meaning not known with confidence"
+},
+"jiron": {
+"skip": "meaning not known with confidence"
+},
+"kabalyero": {
+"az": "İspan zadəganı.",
+"en": "caballero",
+"pos": "noun"
+},
+"kabare": {
+"az": "Əyləncə proqramlı restoran.",
+"en": "cabaret",
+"pos": "noun"
+},
+"kabarqa": {
+"az": "Müşk maralı.",
+"en": "musk deer",
+"pos": "noun"
+},
+"kabloqram": {
+"az": "Kabel teleqramı.",
+"en": "cablegram",
+"pos": "noun"
+},
+"kaboşon": {
+"az": "Cilalanmış qübbəvari qiymətli daş.",
+"en": "cabochon",
+"pos": "noun"
+},
+"kaçin": {
+"az": "Myanmada yaşayan xalq.",
+"en": "Kachin",
+"pos": "noun"
+},
+"kadaverin": {
+"az": "Çürümə zamanı əmələ gələn zəhər.",
+"en": "cadaverine",
+"pos": "noun"
+},
+"kafeteri": {
+"az": "Özünəxidmət kafesi.",
+"en": "cafeteria",
+"pos": "noun"
+},
+"kağan": {
+"az": "Qədim türk hökmdarı.",
+"en": "khagan",
+"pos": "noun"
+},
+"kağızağacı": {
+"skip": "meaning not known with confidence"
+},
+"kaxeti": {
+"az": "Gürcüstanın şərq bölgəsi.",
+"en": "Kakheti",
+"pos": "noun"
+},
+"kakofonik": {
+"az": "Qulaqyırtan.",
+"en": "cacophonous",
+"pos": "adjective"
+},
+"kakofoniya": {
+"az": "Qulaqyırtan səs qarışıqlığı.",
+"en": "cacophony",
+"pos": "noun"
+},
+"kakogevziya": {
+"az": "Ağızda pis dad.",
+"en": "cacogeusia",
+"pos": "noun"
+},
+"kakoqrafiya": {
+"az": "Pis xətt.",
+"en": "cacography",
+"pos": "noun"
+},
+"kakologiya": {
+"skip": "meaning not known with confidence"
+},
+"kalabar paxlası": {
+"az": "Zəhərli Afrika paxlası.",
+"en": "Calabar bean",
+"pos": "noun"
+},
+"kalamit": {
+"az": "Daşlaşmış qədim qatırquyruğu.",
+"en": "calamite",
+"pos": "noun"
+},
+"kalandrlayıcı": {
+"az": "Kalandrdan keçirən fəhlə.",
+"en": "calender operator",
+"pos": "noun"
+},
+"kaleydofon": {
+"skip": "meaning not known with confidence"
+},
+"kalibrator": {
+"az": "Ölçü cihazını yoxlayan qurğu.",
+"en": "calibrator",
+"pos": "noun"
+},
+"kalikotomiya": {
+"skip": "meaning not known with confidence"
+},
+"kaliptra": {
+"az": "Mamırda spor qutusunun örtüyü.",
+"en": "calyptra",
+"pos": "noun"
+},
+"kalladar": {
+"skip": "meaning not known with confidence"
+},
+"kalloid": {
+"skip": "meaning not known with confidence"
+},
+"kalloza": {
+"az": "Bitki hüceyrə divarı polisaxaridi.",
+"en": "callose",
+"pos": "noun"
+},
+"kallus": {
+"az": "Yara toxuması; bitki yara qabığı.",
+"en": "callus",
+"pos": "noun"
+},
+"kalmanı": {
+"skip": "meaning not known with confidence"
+},
+"kalorifer": {
+"az": "İsitmə radiatoru.",
+"en": "heater",
+"pos": "noun"
+},
+"kalorizasiya": {
+"az": "Metal səthinə alüminium hopdurma.",
+"en": "calorizing",
+"pos": "noun"
+},
+"kalorizator": {
+"skip": "meaning not known with confidence"
+},
+"kalsifikasiya": {
+"az": "Əhəngləşmə.",
+"en": "calcification",
+"pos": "noun"
+},
+"kalsinat": {
+"skip": "meaning not known with confidence"
+},
+"kamba": {
+"skip": "meaning not known with confidence"
+},
+"kambiform": {
+"skip": "meaning not known with confidence"
+},
+"kambist": {
+"az": "Valyuta dəyişən.",
+"en": "money changer",
+"pos": "noun"
+},
+"kambuz": {
+"az": "Gəmi mətbəxi.",
+"en": "galley",
+"pos": "noun"
+},
+"kameral": {
+"az": "Otaqda aparılan.",
+"en": "in-office",
+"pos": "adjective"
+},
+"kameralistika": {
+"az": "Dövlət idarəçiliyi elmi.",
+"en": "cameralism",
+"pos": "noun"
+},
+"kameraman": {
+"az": "Kino və ya televiziya operatoru.",
+"en": "cameraman",
+"pos": "noun"
+},
+"kamerdiner": {
+"az": "Ev xidmətçisi.",
+"en": "valet",
+"pos": "noun"
+},
+"kamin": {
+"az": "Buxarı.",
+"en": "fireplace",
+"pos": "noun"
+},
+"kamkorder": {
+"az": "Videokamera.",
+"en": "camcorder",
+"pos": "noun"
+},
+"kamor": {
+"skip": "meaning not known with confidence"
+},
+"kampotomiya": {
+"skip": "meaning not known with confidence"
+},
+"kamptonit": {
+"skip": "meaning not known with confidence"
+},
+"kampus": {
+"az": "Universitet şəhərciyi.",
+"en": "campus",
+"pos": "noun"
+},
+"kamzol": {
+"az": "Qolsuz gödəkçə.",
+"en": "camisole",
+"pos": "noun"
+},
+"kanalizator": {
+"az": "Kanalizasiya işçisi.",
+"en": "sewage worker",
+"pos": "noun"
+},
+"kanape": {
+"az": "Kiçik divan; xırda buterbrod.",
+"en": "canapé",
+"pos": "noun"
+},
+"kanarya": {
+"az": "Kənar quşu.",
+"en": "canary",
+"pos": "noun"
+},
+"kanaryaotu": {
+"skip": "meaning not known with confidence"
+},
+"kanaryaotukimi": {
+"skip": "meaning not known with confidence"
+},
+"kandidoz": {
+"az": "Göbələk xəstəliyi.",
+"en": "candidiasis",
+"pos": "noun"
+},
+"kankroid": {
+"az": "Dəri xərçəngi.",
+"en": "cancroid",
+"pos": "noun"
+},
+"kanqlı": {
+"az": "Qədim türk tayfası.",
+"en": "Kangly",
+"pos": "noun"
+},
+"kannara": {
+"skip": "meaning not known with confidence"
+},
+"kannibal": {
+"az": "Adamyeyən.",
+"en": "cannibal",
+"pos": "noun"
+},
+"kanonik": {
+"az": "Qəbul olunmuş qaydaya uyğun.",
+"en": "canonical",
+"pos": "adjective"
+},
+"kanonizasiya": {
+"az": "Müqəddəslər sırasına daxil etmə.",
+"en": "canonization",
+"pos": "noun"
+},
+"kanotye": {
+"az": "Hasır şlyapa.",
+"en": "boater",
+"pos": "noun"
+},
+"kanovizion": {
+"skip": "meaning not known with confidence"
+},
+"kanserogen": {
+"az": "Xərçəng törədən.",
+"en": "carcinogen",
+"pos": "noun"
+},
+"kantar": {
+"az": "Qapan, iri tərəzi.",
+"en": "steelyard",
+"pos": "noun"
+},
+"kantarofiliya": {
+"skip": "meaning not known with confidence"
+},
+"kante": {
+"skip": "meaning not known with confidence"
+},
+"kanyon": {
+"az": "Dərin dar dərə.",
+"en": "canyon",
+"pos": "noun"
+},
+"kanyul": {
+"az": "Tibbi boru.",
+"en": "cannula",
+"pos": "noun"
+},
+"kaolin": {
+"az": "Ağ gil.",
+"en": "kaolin",
+"pos": "noun"
+},
+"kapistrum": {
+"skip": "meaning not known with confidence"
+},
+"kapitalizasiya": {
+"az": "Gəlirin kapitala çevrilməsi.",
+"en": "capitalization",
+"pos": "noun"
+},
+"kapitalizə": {
+"az": "Kapitallaşdırma.",
+"en": "capitalization",
+"pos": "noun"
+},
+"kapitalizməqədərki": {
+"az": "Kapitalizmdən əvvəlki.",
+"en": "pre-capitalist",
+"pos": "adjective"
+},
+"kapitul": {
+"az": "Rahiblər şurası.",
+"en": "chapter",
+"pos": "noun"
+}
+}

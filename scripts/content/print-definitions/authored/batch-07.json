@@ -1,0 +1,1071 @@
+{
+"adresant": {
+"az": "Məktubu göndərən.",
+"en": "sender",
+"pos": "noun"
+},
+"adresat": {
+"az": "Məktubun ünvanlandığı şəxs.",
+"en": "addressee",
+"pos": "noun"
+},
+"adsorber": {
+"az": "Adsorbsiya qurğusu.",
+"en": "adsorber",
+"pos": "noun"
+},
+"adsorbsiyaedici": {
+"az": "Səthinə maddə toplayan.",
+"en": "adsorbent",
+"pos": "adjective"
+},
+"advalor": {
+"az": "Malın dəyərinə görə hesablanan (rüsum).",
+"en": "ad valorem",
+"pos": "adjective"
+},
+"adventist": {
+"az": "Adventist təriqətinin üzvü.",
+"en": "Adventist",
+"pos": "noun"
+},
+"adventizm": {
+"az": "İsanın ikinci gəlişini gözləyən protestant cərəyanı.",
+"en": "Adventism",
+"pos": "noun"
+},
+"advermə": {
+"az": "Ad qoyma.",
+"en": "naming",
+"pos": "noun"
+},
+"adyal": {
+"az": "Yüngül yorğan.",
+"en": "blanket",
+"pos": "noun"
+},
+"adyalüzü": {
+"az": "Yorğanüzü.",
+"en": "duvet cover",
+"pos": "noun"
+},
+"adyunkt": {
+"az": "Elmi işçi köməkçisi; doktorant.",
+"en": "adjunct; doctoral candidate",
+"pos": "noun"
+},
+"aerobika": {
+"az": "Musiqi altında aerob idman məşqləri.",
+"en": "aerobics",
+"pos": "noun"
+},
+"aerobiont": {
+"az": "Oksigenli mühitdə yaşayan orqanizm.",
+"en": "aerobe",
+"pos": "noun"
+},
+"aerobios": {
+"az": "Havada yaşayan orqanizmlər.",
+"en": "aerobios",
+"pos": "noun"
+},
+"aerobus": {
+"az": "Çox yerli sərnişin təyyarəsi.",
+"en": "airbus",
+"pos": "noun"
+},
+"aerofon": {
+"az": "Hava axını ilə səslənən musiqi aləti.",
+"en": "aerophone",
+"pos": "noun"
+},
+"aerofotokadr": {
+"az": "Təyyarədən çəkilmiş şəkil.",
+"en": "aerial photograph",
+"pos": "noun"
+},
+"aeroqrafiya": {
+"az": "Atmosferin təsviri.",
+"en": "aerography",
+"pos": "noun"
+},
+"aeroloji": {
+"az": "Aerologiyaya aid.",
+"en": "aerological",
+"pos": "adjective"
+},
+"aeroloq": {
+"az": "Atmosferin yuxarı qatlarını öyrənən alim.",
+"en": "aerologist",
+"pos": "noun"
+},
+"aeromorfoz": {
+"az": "Hava mühitinin təsiri ilə orqanizmdə dəyişiklik.",
+"en": "aeromorphosis",
+"pos": "noun"
+},
+"aerotermik": {
+"az": "Hava və istilik ilə bağlı.",
+"en": "aerothermal",
+"pos": "adjective"
+},
+"afaziologiya": {
+"az": "Afaziyanı öyrənən elm.",
+"en": "aphasiology",
+"pos": "noun"
+},
+"aferezis": {
+"az": "Sözün əvvəlindən səsin düşməsi.",
+"en": "aphaeresis",
+"pos": "noun"
+},
+"affekt": {
+"az": "Güclü qısamüddətli emosional hal.",
+"en": "affect, passion",
+"pos": "noun"
+},
+"affektiv": {
+"az": "Emosional.",
+"en": "affective",
+"pos": "adjective"
+},
+"affrikat": {
+"az": "Qovuşuq samit (c, ç).",
+"en": "affricate",
+"pos": "noun"
+},
+"afrikantrop": {
+"az": "Afrikada tapılmış qədim insan.",
+"en": "Africanthropus",
+"pos": "noun"
+},
+"afroamerikalı": {
+"az": "Afrika əsilli amerikalı.",
+"en": "African American",
+"pos": "noun"
+},
+"afrosentrik": {
+"az": "Afrikanı mərkəzə qoyan.",
+"en": "Afrocentric",
+"pos": "adjective"
+},
+"afrosentrizm": {
+"az": "Afrikanı mərkəzə qoyan baxış.",
+"en": "Afrocentrism",
+"pos": "noun"
+},
+"ağacbasdıran": {
+"skip": "meaning not known with confidence"
+},
+"ağacəkmə": {
+"az": "Ağac əkmə.",
+"en": "tree planting",
+"pos": "noun"
+},
+"ağacəri": {
+"skip": "meaning not known with confidence"
+},
+"ağacgəmirən": {
+"az": "Ağac gəmirən (həşərat).",
+"en": "wood-boring",
+"pos": "adjective"
+},
+"ağacoyan": {
+"az": "Ağac oyan.",
+"en": "wood carver",
+"pos": "noun"
+},
+"ağacoyma": {
+"az": "Ağac üzərində oyma sənəti.",
+"en": "wood carving",
+"pos": "noun"
+},
+"ağactəmizləyən": {
+"az": "Ağacı təmizləyən.",
+"en": "tree-cleaning",
+"pos": "adjective"
+},
+"ağacyonan": {
+"az": "Ağac yonan.",
+"en": "woodworking",
+"pos": "adjective"
+},
+"ağaçalan": {
+"skip": "meaning not known with confidence"
+},
+"ağayıl": {
+"skip": "meaning not known with confidence"
+},
+"ağbirçək-qarabirçək": {
+"az": "Qocalı-cavanlı qadınlar.",
+"en": "women old and young",
+"pos": "noun"
+},
+"ağdaban": {
+"skip": "meaning not known with confidence"
+},
+"ağdamar": {
+"az": "Ağ damarlı.",
+"en": "white-veined",
+"pos": "adjective"
+},
+"ağdamlı": {
+"az": "Damı ağ.",
+"en": "white-roofed",
+"pos": "adjective"
+},
+"ağgödən": {
+"skip": "meaning not known with confidence"
+},
+"ağgözcük": {
+"skip": "meaning not known with confidence"
+},
+"ağxalatlı": {
+"az": "Ağ xalat geyinmiş.",
+"en": "in a white coat",
+"pos": "adjective"
+},
+"ağılsızca": {
+"az": "Ağılsızcasına.",
+"en": "foolishly",
+"pos": "adverb"
+},
+"ağırsönən əhəng": {
+"az": "Sönməsi ləng gedən əhəng.",
+"en": "slow-slaking lime",
+"pos": "noun"
+},
+"ağıziçi": {
+"az": "Ağızdaxili.",
+"en": "intraoral",
+"pos": "adjective"
+},
+"ağkalmık": {
+"skip": "meaning not known with confidence"
+},
+"ağqoyunlu": {
+"az": "Ağqoyunlu dövlətinə və tayfa ittifaqına aid.",
+"en": "Aq Qoyunlu",
+"pos": "noun"
+},
+"ağlagələn": {
+"az": "Ağla gələn, ağlabatan.",
+"en": "conceivable",
+"pos": "adjective"
+},
+"ağlagirməz": {
+"az": "Ağla sığmayan.",
+"en": "inconceivable",
+"pos": "adjective"
+},
+"ağlarot": {
+"skip": "meaning not known with confidence"
+},
+"ağlauyar": {
+"az": "Ağlabatan.",
+"en": "reasonable",
+"pos": "adjective"
+},
+"ağlı-bozlu": {
+"az": "Ağ və boz rəngli.",
+"en": "white and grey",
+"pos": "adjective"
+},
+"ağlıkəsən": {
+"az": "Ağlı kəsən, anlaqlı.",
+"en": "perceptive",
+"pos": "adjective"
+},
+"ağlı-qaralı": {
+"az": "Ağ və qara.",
+"en": "black and white",
+"pos": "adjective"
+},
+"ağlı-qırmızılı": {
+"az": "Ağ və qırmızı.",
+"en": "white and red",
+"pos": "adjective"
+},
+"ağlı-sarılı": {
+"az": "Ağ və sarı.",
+"en": "white and yellow",
+"pos": "adjective"
+},
+"ağmaq": {
+"skip": "meaning not known with confidence"
+},
+"ağnabat": {
+"az": "Ağ rəngli nabat.",
+"en": "white rock candy",
+"pos": "noun"
+},
+"ağsunqur": {
+"skip": "meaning not known with confidence"
+},
+"ağüz": {
+"az": "Üzü ağ.",
+"en": "white-faced",
+"pos": "adjective"
+},
+"ağyunlu": {
+"az": "Yunu ağ.",
+"en": "white-fleeced",
+"pos": "adjective"
+},
+"ağyunluq": {
+"skip": "meaning not known with confidence"
+},
+"ağzıbağlı": {
+"az": "Ağzı bağlı.",
+"en": "closed, sealed",
+"pos": "adjective"
+},
+"ağzıdolu": {
+"az": "Ağzı dolu.",
+"en": "with a full mouth",
+"pos": "adjective"
+},
+"ağzıkəsərsiz": {
+"az": "Sözü keçməyən.",
+"en": "ineffectual",
+"pos": "adjective"
+},
+"ağzıqanlı": {
+"az": "Ağzı qanlı; yırtıcı.",
+"en": "bloody-mouthed; savage",
+"pos": "adjective"
+},
+"ahuyerişlı": {
+"az": "Ceyran yerişli.",
+"en": "graceful-gaited",
+"pos": "adjective"
+},
+"axay": {
+"skip": "meaning not known with confidence"
+},
+"axıdıcı": {
+"az": "Axıdan.",
+"en": "draining",
+"pos": "adjective"
+},
+"axırdakı": {
+"az": "Axırda olan.",
+"en": "last",
+"pos": "adjective"
+},
+"axırkı": {
+"az": "Axırıncı.",
+"en": "last",
+"pos": "adjective"
+},
+"axmaqca": {
+"az": "Axmaqcasına.",
+"en": "foolishly",
+"pos": "adverb"
+},
+"axromatik": {
+"az": "Rəngsiz; rəng ayrılmasını aradan qaldıran.",
+"en": "achromatic",
+"pos": "adjective"
+},
+"axromatika": {
+"az": "Axromatik sistem.",
+"en": "achromatics",
+"pos": "noun"
+},
+"axromatizm": {
+"az": "Rəng ayrılmasının olmaması.",
+"en": "achromatism",
+"pos": "noun"
+},
+"axşamayaxın": {
+"az": "Axşama yaxın.",
+"en": "towards evening",
+"pos": "adverb"
+},
+"axurcuq": {
+"az": "Kiçik axur.",
+"en": "small manger",
+"pos": "noun"
+},
+"aidiyyəti qurumlar": {
+"az": "Müvafiq idarələr.",
+"en": "relevant authorities",
+"pos": "noun"
+},
+"ajio-konto": {
+"az": "Ajionun hesabı.",
+"en": "agio account",
+"pos": "noun"
+},
+"ajiotaj": {
+"az": "Qiymətlərin süni şişirdilməsi; həyəcan.",
+"en": "agiotage; excitement",
+"pos": "noun"
+},
+"akademiyalararası": {
+"az": "Akademiyalar arasında olan.",
+"en": "inter-academy",
+"pos": "adjective"
+},
+"akarisid": {
+"az": "Gənələrə qarşı vasitə.",
+"en": "acaricide",
+"pos": "noun"
+},
+"akatafaziya": {
+"az": "Cümlə qurma pozğunluğu.",
+"en": "acataphasia",
+"pos": "noun"
+},
+"akkad": {
+"az": "Qədim Mesopotamiya xalqı; akkad.",
+"en": "Akkadian",
+"pos": "noun"
+},
+"akkomodasiya": {
+"az": "Uyğunlaşma; gözün fokuslanması.",
+"en": "accommodation",
+"pos": "noun"
+},
+"akkreditasiya": {
+"az": "Rəsmi tanınma.",
+"en": "accreditation",
+"pos": "noun"
+},
+"akkreditə": {
+"az": "Akkreditasiya (akkreditə etmək).",
+"en": "accreditation",
+"pos": "noun"
+},
+"akkresiya": {
+"az": "Hissəciklərin birləşərək böyüməsi.",
+"en": "accretion",
+"pos": "noun"
+},
+"akkuzativ": {
+"az": "Təsirlik hal.",
+"en": "accusative",
+"pos": "noun"
+},
+"aklimaks": {
+"skip": "meaning not known with confidence"
+},
+"akmeist": {
+"az": "Akmeizm tərəfdarı.",
+"en": "Acmeist",
+"pos": "noun"
+},
+"akril": {
+"az": "Akril turşusundan alınan sintetik material.",
+"en": "acrylic",
+"pos": "noun"
+},
+"akrilon": {
+"az": "Akril lif.",
+"en": "acrylic fibre",
+"pos": "noun"
+},
+"akrofonetik": {
+"skip": "meaning not known with confidence"
+},
+"akronim": {
+"az": "Baş hərflərdən düzələn qısaltma.",
+"en": "acronym",
+"pos": "noun"
+},
+"akrostik": {
+"az": "Misraların ilk hərflərindən söz alınan şeir.",
+"en": "acrostic",
+"pos": "noun"
+},
+"akrotiri": {
+"skip": "meaning not known with confidence"
+},
+"akselbant": {
+"az": "Hərbi formada qaytandan bəzək.",
+"en": "aiguillette",
+"pos": "noun"
+},
+"akselerasiya": {
+"az": "Sürətlənmə; uşaqların sürətli inkişafı.",
+"en": "acceleration",
+"pos": "noun"
+},
+"akseleroqraf": {
+"az": "Təcili yazan cihaz.",
+"en": "accelerograph",
+"pos": "noun"
+},
+"aksentoloji": {
+"az": "Vurğunu öyrənən sahəyə aid.",
+"en": "accentological",
+"pos": "adjective"
+},
+"aksentoloq": {
+"az": "Vurğu üzrə mütəxəssis.",
+"en": "accentologist",
+"pos": "noun"
+},
+"akseptor": {
+"az": "Qəbul edən atom və ya molekul.",
+"en": "acceptor",
+"pos": "noun"
+},
+"aksesuar": {
+"az": "Əlavə bəzək əşyası.",
+"en": "accessory",
+"pos": "noun"
+},
+"aksidensiya": {
+"az": "Kiçik çap işləri.",
+"en": "jobbing printing",
+"pos": "noun"
+},
+"aksiologiya": {
+"az": "Dəyərlər nəzəriyyəsi.",
+"en": "axiology",
+"pos": "noun"
+},
+"aksiologizm": {
+"az": "Dəyərçilik.",
+"en": "axiologism",
+"pos": "noun"
+},
+"aksioloji": {
+"az": "Dəyərlər nəzəriyyəsinə aid.",
+"en": "axiological",
+"pos": "adjective"
+},
+"aksiometr": {
+"az": "Sükanın vəziyyətini göstərən cihaz.",
+"en": "axiometer",
+"pos": "noun"
+},
+"aksonometrik": {
+"az": "Aksonometriyaya aid.",
+"en": "axonometric",
+"pos": "adjective"
+},
+"aksonometriya": {
+"az": "Cismi koordinat oxları üzrə təsvir üsulu.",
+"en": "axonometry",
+"pos": "noun"
+},
+"aktant": {
+"az": "Feldə hərəkətin iştirakçısı.",
+"en": "actant",
+"pos": "noun"
+},
+"aktinometrik": {
+"az": "Günəş radiasiyasının ölçülməsinə aid.",
+"en": "actinometric",
+"pos": "adjective"
+},
+"aktivator": {
+"az": "Fəallaşdıran maddə.",
+"en": "activator",
+"pos": "noun"
+},
+"aktualizm": {
+"az": "Keçmişi müasir proseslərlə izah edən baxış.",
+"en": "actualism",
+"pos": "noun"
+},
+"aktuar": {
+"az": "Sığorta riyaziyyatçısı.",
+"en": "actuary",
+"pos": "noun"
+},
+"aktuariat": {
+"az": "Sığorta hesablamaları.",
+"en": "actuarial science",
+"pos": "noun"
+},
+"aktyorcasına": {
+"az": "Aktyor kimi.",
+"en": "theatrically",
+"pos": "adverb"
+},
+"akustimetr": {
+"az": "Səs ölçən cihaz.",
+"en": "acoustimeter",
+"pos": "noun"
+},
+"akut": {
+"az": "Kəskin vurğu işarəsi.",
+"en": "acute accent",
+"pos": "noun"
+},
+"akva": {
+"az": "Su (mürəkkəb sözlərdə).",
+"en": "aqua",
+"pos": "noun"
+},
+"akvaaerobika": {
+"az": "Suda aerobika.",
+"en": "aqua aerobics",
+"pos": "noun"
+},
+"akvabildinq": {
+"skip": "meaning not known with confidence"
+},
+"akvametr": {
+"skip": "meaning not known with confidence"
+},
+"akvametriya": {
+"skip": "meaning not known with confidence"
+},
+"akvamədəniyyət": {
+"az": "Su orqanizmlərinin yetişdirilməsi.",
+"en": "aquaculture",
+"pos": "noun"
+},
+"akvapark": {
+"az": "Su attraksionları parkı.",
+"en": "water park",
+"pos": "noun"
+},
+"akvaplan": {
+"skip": "meaning not known with confidence"
+},
+"akvapoetik": {
+"skip": "meaning not known with confidence"
+},
+"akvapoetika": {
+"skip": "meaning not known with confidence"
+},
+"akvatel": {
+"skip": "meaning not known with confidence"
+},
+"akvizisiya": {
+"az": "Əldə etmə.",
+"en": "acquisition",
+"pos": "noun"
+},
+"akvizitor": {
+"az": "Sifariş toplayan agent.",
+"en": "canvasser",
+"pos": "noun"
+},
+"aqamiya": {
+"az": "Cinsi çoxalmanın olmaması.",
+"en": "agamy",
+"pos": "noun"
+},
+"aqatis": {
+"skip": "meaning not known with confidence"
+},
+"aqav dili": {
+"az": "Efiopiyada kuşit dili.",
+"en": "Agaw language",
+"pos": "noun"
+},
+"aqioqrafiya": {
+"az": "Müqəddəslərin həyatını təsvir edən ədəbiyyat.",
+"en": "hagiography",
+"pos": "noun"
+},
+"aqlay": {
+"skip": "meaning not known with confidence"
+},
+"aqlikon": {
+"skip": "meaning not known with confidence"
+},
+"aqloporit": {
+"az": "Gildən alınan məsaməli tikinti materialı.",
+"en": "agloporite",
+"pos": "noun"
+},
+"aqogika": {
+"az": "Musiqidə tempin incə dəyişməsi.",
+"en": "agogics",
+"pos": "noun"
+},
+"aqorafobiya": {
+"az": "Açıq yerdən qorxu.",
+"en": "agoraphobia",
+"pos": "noun"
+},
+"aqrafiya": {
+"az": "Yazma qabiliyyətinin itməsi.",
+"en": "agraphia",
+"pos": "noun"
+},
+"aqrammatik": {
+"az": "Qrammatik pozğunluqlu.",
+"en": "agrammatic",
+"pos": "adjective"
+},
+"aqrammatizm": {
+"az": "Qrammatik cümlə qura bilməmə.",
+"en": "agrammatism",
+"pos": "noun"
+},
+"aqranulosit": {
+"az": "Dənəciksiz leykosit.",
+"en": "agranulocyte",
+"pos": "noun"
+},
+"aqravasiya": {
+"az": "Xəstəlik əlamətlərinin şişirdilməsi.",
+"en": "aggravation",
+"pos": "noun"
+},
+"aqreqasiya": {
+"az": "Birləşmə, toplanma.",
+"en": "aggregation",
+"pos": "noun"
+},
+"aqreman": {
+"az": "Səfirin namizədliyinə qəbul edən dövlətin razılığı.",
+"en": "agrément",
+"pos": "noun"
+},
+"aqressiv": {
+"az": "Təcavüzkar.",
+"en": "aggressive",
+"pos": "adjective"
+},
+"aqressiya": {
+"az": "Təcavüz.",
+"en": "aggression",
+"pos": "noun"
+},
+"aqro": {
+"az": "Kənd təsərrüfatı (mürəkkəb sözlərdə).",
+"en": "agro-",
+"pos": "noun"
+},
+"aqrobakterioloji": {
+"az": "Torpaq bakteriologiyasına aid.",
+"en": "agrobacteriological",
+"pos": "adjective"
+},
+"aqrobioloq": {
+"az": "Aqrobiologiya mütəxəssisi.",
+"en": "agrobiologist",
+"pos": "noun"
+},
+"aqrobotanik": {
+"az": "Aqrobotanika mütəxəssisi.",
+"en": "agrobotanist",
+"pos": "noun"
+},
+"aqrobotaniki": {
+"az": "Aqrobotanikaya aid.",
+"en": "agrobotanical",
+"pos": "adjective"
+},
+"aqroekoloq": {
+"az": "Aqroekologiya mütəxəssisi.",
+"en": "agroecologist",
+"pos": "noun"
+},
+"aqrofirma": {
+"az": "Kənd təsərrüfatı firması.",
+"en": "agribusiness firm",
+"pos": "noun"
+},
+"aqrofobiya": {
+"skip": "meaning not known with confidence"
+},
+"aqrofon": {
+"az": "Torpaq və iqlim şəraiti.",
+"en": "agronomic background",
+"pos": "noun"
+},
+"aqrofurol": {
+"skip": "meaning not known with confidence"
+},
+"aqrokabinet": {
+"az": "Aqronomluq kabineti.",
+"en": "agronomy room",
+"pos": "noun"
+},
+"aqrokombinat": {
+"az": "Aqrosənaye kombinatı.",
+"en": "agro-industrial complex",
+"pos": "noun"
+},
+"aqrokurs": {
+"az": "Aqronomluq kursu.",
+"en": "agronomy course",
+"pos": "noun"
+},
+"aqromeliorativ": {
+"az": "Torpaq yaxşılaşdırılmasına aid.",
+"en": "agro-ameliorative",
+"pos": "adjective"
+},
+"aqromeşəmeliorasiya": {
+"az": "Meşə zolaqları ilə torpaq yaxşılaşdırılması.",
+"en": "agroforestry improvement",
+"pos": "noun"
+},
+"aqrometeoroloji": {
+"az": "Aqrometeorologiyaya aid.",
+"en": "agrometeorological",
+"pos": "adjective"
+},
+"aqrometr": {
+"skip": "meaning not known with confidence"
+},
+"aqronim": {
+"skip": "meaning not known with confidence"
+},
+"aqrosenoz": {
+"az": "Süni kənd təsərrüfatı ekosistemi.",
+"en": "agrocoenosis",
+"pos": "noun"
+},
+"aqroşəhərcik": {
+"az": "Kənd tipli şəhərcik.",
+"en": "agrotown",
+"pos": "noun"
+},
+"aqrozootexnik": {
+"az": "Aqronom-zootexnik.",
+"en": "agro-zootechnician",
+"pos": "noun"
+},
+"aqrozootexnika": {
+"az": "Aqronomluq və zootexnika.",
+"en": "agro-zootechnics",
+"pos": "noun"
+},
+"aqrozootexniki": {
+"az": "Aqrozootexnikaya aid.",
+"en": "agro-zootechnical",
+"pos": "adjective"
+},
+"alaqçalan": {
+"az": "Alaq çalan, alaq təmizləyən.",
+"en": "weeder",
+"pos": "noun"
+},
+"alanin": {
+"az": "Amin turşusu.",
+"en": "alanine",
+"pos": "noun"
+},
+"alar-almaz": {
+"az": "Alan kimi.",
+"en": "as soon as (one) takes",
+"pos": "adverb"
+},
+"alarmizm": {
+"az": "Həyəcan təbili çalma meyli.",
+"en": "alarmism",
+"pos": "noun"
+},
+"albedo": {
+"az": "Səthin işığı əks etdirmə qabiliyyəti.",
+"en": "albedo",
+"pos": "noun"
+},
+"alca": {
+"skip": "meaning not known with confidence"
+},
+"aleator": {
+"skip": "meaning not known with confidence"
+},
+"aleatorik": {
+"az": "Təsadüfə əsaslanan.",
+"en": "aleatoric",
+"pos": "adjective"
+},
+"aleatorika": {
+"az": "Musiqidə təsadüfilik üsulu.",
+"en": "aleatorics",
+"pos": "noun"
+},
+"aleksiya": {
+"az": "Oxuma qabiliyyətinin itməsi.",
+"en": "alexia",
+"pos": "noun"
+},
+"aleut": {
+"az": "Aleut adalarının yerli xalqı.",
+"en": "Aleut",
+"pos": "noun"
+},
+"aleutca": {
+"az": "Aleut dilində.",
+"en": "in Aleut",
+"pos": "adverb"
+},
+"alfa": {
+"az": "Yunan əlifbasının ilk hərfi.",
+"en": "alpha",
+"pos": "noun"
+},
+"alfametr": {
+"az": "Alfa-zərrəciklərini ölçən cihaz.",
+"en": "alphameter",
+"pos": "noun"
+},
+"alfa-radiometr": {
+"az": "Alfa-şüalanmanı ölçən cihaz.",
+"en": "alpha radiometer",
+"pos": "noun"
+},
+"alfa-spektr": {
+"az": "Alfa-zərrəciklərin enerji spektri.",
+"en": "alpha spectrum",
+"pos": "noun"
+},
+"alfa-zərrəcik": {
+"az": "Helium nüvəsi.",
+"en": "alpha particle",
+"pos": "noun"
+},
+"alfresko": {
+"az": "Yaş suvaq üzərində rəsm.",
+"en": "al fresco",
+"pos": "noun"
+},
+"algezimetr": {
+"az": "Ağrı həssaslığını ölçən cihaz.",
+"en": "algesimeter",
+"pos": "noun"
+},
+"algisid": {
+"az": "Yosunlara qarşı vasitə.",
+"en": "algicide",
+"pos": "noun"
+},
+"alhaal": {
+"az": "Dərhal.",
+"en": "immediately",
+"pos": "adverb"
+},
+"alınaltı": {
+"az": "Alının altında olan.",
+"en": "below the forehead",
+"pos": "adjective"
+},
+"alıntı": {
+"az": "Alınma söz; sitat.",
+"en": "borrowing; quotation",
+"pos": "noun"
+},
+"alınüstü": {
+"az": "Alının üstündə olan.",
+"en": "above the forehead",
+"pos": "adjective"
+},
+"alizarin": {
+"az": "Qırmızı boyaq.",
+"en": "alizarin",
+"pos": "noun"
+},
+"alkald": {
+"skip": "meaning not known with confidence"
+},
+"alkoqolik": {
+"az": "Spirtli içki aludəçisi.",
+"en": "alcoholic",
+"pos": "noun"
+},
+"Allah-taala": {
+"az": "Uca Allah.",
+"en": "God Almighty",
+"pos": "noun"
+},
+"allahtərəfi": {
+"az": "Allah xatirinə.",
+"en": "for God's sake",
+"pos": "adverb"
+},
+"allahverən": {
+"az": "Allahın verdiyi.",
+"en": "God-given",
+"pos": "adjective"
+},
+"alleqorizm": {
+"az": "Alleqoriya üsulu.",
+"en": "allegorism",
+"pos": "noun"
+},
+"allergen": {
+"az": "Allergiya törədən maddə.",
+"en": "allergen",
+"pos": "noun"
+},
+"allerqoloq": {
+"az": "Allergiya üzrə həkim.",
+"en": "allergist",
+"pos": "noun"
+},
+"alliterasiya": {
+"az": "Eyni samitlərin təkrarı.",
+"en": "alliteration",
+"pos": "noun"
+},
+"alloemiya": {
+"skip": "meaning not known with confidence"
+},
+"alloetnonim": {
+"az": "Bir xalqın başqa xalqlar tərəfindən verilən adı.",
+"en": "alloethnonym",
+"pos": "noun"
+},
+"allofonik": {
+"az": "Allofona aid.",
+"en": "allophonic",
+"pos": "adjective"
+},
+"allofraza": {
+"skip": "meaning not known with confidence"
+},
+"allogenotip": {
+"skip": "meaning not known with confidence"
+},
+"alloxton": {
+"az": "Başqa yerdən gəlmə.",
+"en": "allochthonous",
+"pos": "adjective"
+},
+"allologiya": {
+"skip": "meaning not known with confidence"
+},
+"allonim": {
+"az": "Başqasının adı ilə yazılmış təxəllüs.",
+"en": "allonym",
+"pos": "noun"
+},
+"allopat": {
+"az": "Allopatiya ilə müalicə edən həkim.",
+"en": "allopath",
+"pos": "noun"
+},
+"allopatik": {
+"az": "Allopatiyaya aid.",
+"en": "allopathic",
+"pos": "adjective"
+},
+"allopatiya": {
+"az": "Əks təsirli dərmanlarla müalicə.",
+"en": "allopathy",
+"pos": "noun"
+},
+"allopatrik": {
+"az": "Ayrı ərazilərdə yaşayan.",
+"en": "allopatric",
+"pos": "adjective"
+},
+"allotropik": {
+"az": "Allotropiyaya aid.",
+"en": "allotropic",
+"pos": "adjective"
+},
+"allotrof": {
+"skip": "meaning not known with confidence"
+},
+"almacıqaltı": {
+"az": "Yanaq sümüyünün altında olan.",
+"en": "below the cheekbone",
+"pos": "adjective"
+}
+}

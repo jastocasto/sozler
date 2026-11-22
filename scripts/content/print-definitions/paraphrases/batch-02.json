@@ -1497,7 +1497,7 @@
   "conf": "high"
  },
  "avtosistern": {
-  "az": "Maye daşımaq üçün çəni olan maşın.",
+  "az": "Maye daşıyan sisterni olan maşın.",
   "en": "tank truck",
   "pos": "noun",
   "src": "musayev",
@@ -1871,14 +1871,14 @@
   "conf": "high"
  },
  "ayıpəncəsi": {
-  "az": "Akantus adlanan bitki.",
+  "az": "Yarpaqları ayı pəncəsinə bənzəyən akantus bitkisi.",
   "en": "acanthus",
   "pos": "noun",
   "src": "musayev",
   "conf": "high"
  },
  "ayısoğanı": {
-  "az": "Çəmənlikdə bitən soğanaqlı ot.",
+  "az": "Çəmənlikdə bitən yabanı soğan növü.",
   "en": "ramsons, wild garlic",
   "pos": "noun",
   "src": "both",

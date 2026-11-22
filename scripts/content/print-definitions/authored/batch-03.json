@@ -1,0 +1,1174 @@
+{
+"düşər": {
+"skip": "meaning not known with confidence"
+},
+"düşər-düşməz": {
+"az": "Düşən kimi, dərhal.",
+"en": "as soon as (it) falls",
+"pos": "adverb"
+},
+"düzoxlu": {
+"az": "Oxu düz olan.",
+"en": "straight-axis",
+"pos": "adjective"
+},
+"düzyonuş": {
+"skip": "meaning not known with confidence"
+},
+"ehtiraslanmaq": {
+"az": "Ehtirasa gəlmək.",
+"en": "to become passionate",
+"pos": "verb"
+},
+"ehtiyatcıl": {
+"az": "Ehtiyatlı davranan.",
+"en": "cautious",
+"pos": "adjective"
+},
+"ekspansiv": {
+"az": "Genişlənməyə meylli; coşqun.",
+"en": "expansive",
+"pos": "adjective"
+},
+"ekstraktiv": {
+"az": "Çıxarılmaqla əldə edilən.",
+"en": "extractive",
+"pos": "adjective"
+},
+"ekstrasens": {
+"az": "Fövqəladə duyma qabiliyyəti olduğu iddia edilən adam.",
+"en": "psychic",
+"pos": "noun"
+},
+"ekstravaqant": {
+"az": "Qəribə, adi olmayan.",
+"en": "extravagant, eccentric",
+"pos": "adjective"
+},
+"elektrikgötürücü": {
+"az": "Elektrik cərəyanını kontakt xəttindən götürən qurğu.",
+"en": "current collector",
+"pos": "noun"
+},
+"elektrikləmək": {
+"az": "Elektrikləşdirmək.",
+"en": "to electrify",
+"pos": "verb"
+},
+"eleqant": {
+"az": "Zərif, qəşəng.",
+"en": "elegant",
+"pos": "adjective"
+},
+"elit": {
+"az": "Seçmə, ən yaxşı.",
+"en": "elite",
+"pos": "adjective"
+},
+"elmsevər": {
+"az": "Elmi sevən.",
+"en": "science-loving",
+"pos": "adjective"
+},
+"elmşünas": {
+"az": "Elmin özünü öyrənən mütəxəssis.",
+"en": "science studies scholar",
+"pos": "noun"
+},
+"emiqrant": {
+"az": "Mühacir.",
+"en": "emigrant",
+"pos": "noun"
+},
+"emotiv": {
+"az": "Hiss ifadə edən.",
+"en": "emotive",
+"pos": "adjective"
+},
+"emulsiya": {
+"az": "Bir mayenin digərində xırda damcılar şəklində qarışığı.",
+"en": "emulsion",
+"pos": "noun"
+},
+"endemik": {
+"az": "Yalnız müəyyən ərazidə yayılan.",
+"en": "endemic",
+"pos": "adjective"
+},
+"enlilətmək": {
+"skip": "meaning not known with confidence"
+},
+"ensiklopediyaşünas": {
+"az": "Ensiklopediyalar üzrə mütəxəssis.",
+"en": "encyclopedist",
+"pos": "noun"
+},
+"epoxal": {
+"az": "Bir dövr açan, tarixi əhəmiyyətli.",
+"en": "epochal",
+"pos": "adjective"
+},
+"epolet": {
+"az": "Zabit formasının çiyninə taxılan nişan.",
+"en": "epaulette",
+"pos": "noun"
+},
+"erudit": {
+"az": "Geniş biliyə malik.",
+"en": "erudite",
+"pos": "adjective"
+},
+"etruskşünas": {
+"az": "Etrusk dili və mədəniyyətini öyrənən alim.",
+"en": "Etruscologist",
+"pos": "noun"
+},
+"evolyusionist": {
+"az": "Təkamül nəzəriyyəsinin tərəfdarı.",
+"en": "evolutionist",
+"pos": "noun"
+},
+"eyniaçıq": {
+"skip": "meaning not known with confidence"
+},
+"eynidəyərli": {
+"az": "Eyni dəyərdə olan.",
+"en": "equivalent",
+"pos": "adjective"
+},
+"eynilətmək": {
+"az": "Eyniləşdirmək.",
+"en": "to make identical",
+"pos": "verb"
+},
+"eynitipli": {
+"az": "Eyni tipdə olan.",
+"en": "of the same type",
+"pos": "adjective"
+},
+"ədalətsevər": {
+"az": "Ədaləti sevən.",
+"en": "justice-loving",
+"pos": "adjective"
+},
+"ədəbiyyatsevər": {
+"az": "Ədəbiyyatı sevən.",
+"en": "literature lover",
+"pos": "noun"
+},
+"əfsanələşdirilmək": {
+"az": "Əfsanəyə çevrilmək.",
+"en": "to be mythologized",
+"pos": "verb"
+},
+"əfsuslanmaq": {
+"az": "Təəssüflənmək.",
+"en": "to regret",
+"pos": "verb"
+},
+"əksedici": {
+"az": "Əks etdirən.",
+"en": "reflecting",
+"pos": "adjective"
+},
+"ələbaxan": {
+"az": "Başqasının əlinə baxan, asılı.",
+"en": "dependent on others",
+"pos": "adjective"
+},
+"ələbaxım": {
+"az": "Başqasından asılılıq.",
+"en": "dependence on others",
+"pos": "noun"
+},
+"ələvi": {
+"az": "Ələvi təriqətinin tərəfdarı.",
+"en": "Alevi",
+"pos": "noun"
+},
+"əlibərk": {
+"az": "Xəsis, əli açılmayan.",
+"en": "tight-fisted",
+"pos": "adjective"
+},
+"əlkimyagər": {
+"az": "Kimyagər, əlkimya ilə məşğul olan.",
+"en": "alchemist",
+"pos": "noun"
+},
+"əlyetər": {
+"az": "Əl çatan.",
+"en": "within reach",
+"pos": "adjective"
+},
+"əməlbir": {
+"az": "Əlbir, sözbir olan.",
+"en": "in collusion",
+"pos": "adjective"
+},
+"əndərəbadi": {
+"az": "Mənasız, yersiz.",
+"en": "absurd, nonsensical",
+"pos": "adjective"
+},
+"əndişələnmək": {
+"az": "Narahat olmaq.",
+"en": "to worry",
+"pos": "verb"
+},
+"ənliklənmək": {
+"az": "Ənlik sürtmək.",
+"en": "to apply rouge",
+"pos": "verb"
+},
+"əntiqşünas": {
+"az": "Antik əşyalar üzrə mütəxəssis.",
+"en": "antiquarian",
+"pos": "noun"
+},
+"əruzşünas": {
+"az": "Əruz vəznini öyrənən alim.",
+"en": "scholar of aruz prosody",
+"pos": "noun"
+},
+"əsgilətmək": {
+"skip": "meaning not known with confidence"
+},
+"əşyabaz": {
+"az": "Əşya yığmağı sevən.",
+"en": "hoarder of things",
+"pos": "noun"
+},
+"əşyəvi": {
+"az": "Əşyaya aid, maddi.",
+"en": "material, of things",
+"pos": "adjective"
+},
+"əyici": {
+"az": "Əyən.",
+"en": "bending",
+"pos": "adjective"
+},
+"əyilməz": {
+"az": "Əyilməyən, mətin.",
+"en": "unbending",
+"pos": "adjective"
+},
+"əyriəl": {
+"skip": "meaning not known with confidence"
+},
+"əzabkeş": {
+"az": "Əzab çəkən.",
+"en": "long-suffering",
+"pos": "adjective"
+},
+"faqohəssas": {
+"az": "Faqlara həssas.",
+"en": "phage-sensitive",
+"pos": "adjective"
+},
+"farağatlamaq": {
+"skip": "meaning not known with confidence"
+},
+"farsşünas": {
+"az": "Fars dili və mədəniyyətini öyrənən alim.",
+"en": "Persianist",
+"pos": "noun"
+},
+"faşistpərəst": {
+"az": "Faşizmə rəğbət bəsləyən.",
+"en": "fascist sympathizer",
+"pos": "noun"
+},
+"feldfebel": {
+"az": "Keçmişdə kiçik zabitlərdən yuxarı unter-zabit rütbəsi.",
+"en": "sergeant major",
+"pos": "noun"
+},
+"feldyeger": {
+"az": "Mühüm sənədləri çatdıran hərbi kuryer.",
+"en": "courier",
+"pos": "noun"
+},
+"fəxarətlənmək": {
+"az": "Fəxr etmək.",
+"en": "to take pride",
+"pos": "verb"
+},
+"fəxrlənmək": {
+"az": "Fəxr hissi keçirmək.",
+"en": "to feel proud",
+"pos": "verb"
+},
+"fənalanmaq": {
+"az": "Pisləşmək.",
+"en": "to get worse",
+"pos": "verb"
+},
+"fərasətlənmək": {
+"az": "Fərasətli olmaq.",
+"en": "to become shrewd",
+"pos": "verb"
+},
+"fırıldanmaq": {
+"skip": "meaning not known with confidence"
+},
+"fıştırıqlamaq": {
+"az": "Fit çalmaq.",
+"en": "to whistle",
+"pos": "verb"
+},
+"fibroz": {
+"az": "Toxumanın bərkiyib çapıqlaşması.",
+"en": "fibrosis",
+"pos": "noun"
+},
+"filister": {
+"az": "Dar düşüncəli, mənfəətpərəst adam.",
+"en": "philistine",
+"pos": "noun"
+},
+"fizikaşünas": {
+"az": "Fizika elmi üzrə mütəxəssis.",
+"en": "physics scholar",
+"pos": "noun"
+},
+"flügerləmək": {
+"skip": "meaning not known with confidence"
+},
+"formatlamaq": {
+"az": "Formatını müəyyən etmək; diski yenidən hazırlamaq.",
+"en": "to format",
+"pos": "verb"
+},
+"fotofon": {
+"az": "İşıq dəstəsi ilə səs ötürən cihaz.",
+"en": "photophone",
+"pos": "noun"
+},
+"fotofonik": {
+"az": "Fotofona aid.",
+"en": "photophonic",
+"pos": "adjective"
+},
+"fövqəliradə": {
+"skip": "meaning not known with confidence"
+},
+"fövqəlmilli": {
+"az": "Millətlərdən yuxarı duran.",
+"en": "supranational",
+"pos": "adjective"
+},
+"fraksiyalanmaq": {
+"az": "Fraksiyalara bölünmək.",
+"en": "to split into factions",
+"pos": "verb"
+},
+"fransızpərəst": {
+"az": "Fransaya pərəstiş edən.",
+"en": "Francophile",
+"pos": "noun"
+},
+"frant": {
+"az": "Bəzəkli geyinməyi sevən, dəbdəbəli kişi.",
+"en": "dandy",
+"pos": "noun"
+},
+"freydçi": {
+"az": "Freyd təliminin tərəfdarı.",
+"en": "Freudian",
+"pos": "noun"
+},
+"frigid": {
+"az": "Cinsi soyuqluğu olan.",
+"en": "frigid",
+"pos": "adjective"
+},
+"ftiziatr": {
+"az": "Vərəm üzrə həkim.",
+"en": "tuberculosis specialist",
+"pos": "noun"
+},
+"fürsətcil": {
+"az": "Fürsətdən istifadə edən.",
+"en": "opportunistic",
+"pos": "adjective"
+},
+"genderşünas": {
+"az": "Gender məsələlərini öyrənən mütəxəssis.",
+"en": "gender studies scholar",
+"pos": "noun"
+},
+"germanşünas": {
+"az": "German dillərini öyrənən alim.",
+"en": "Germanist",
+"pos": "noun"
+},
+"gerontoloq": {
+"az": "Qocalıq problemlərini öyrənən alim.",
+"en": "gerontologist",
+"pos": "noun"
+},
+"gigitləmək": {
+"skip": "meaning not known with confidence"
+},
+"gödəkqıç": {
+"az": "Qıçları gödək.",
+"en": "short-legged",
+"pos": "adjective"
+},
+"göllətmək": {
+"skip": "meaning not known with confidence"
+},
+"gölşünas": {
+"az": "Gölləri öyrənən alim.",
+"en": "limnologist",
+"pos": "noun"
+},
+"gönləmək": {
+"skip": "meaning not known with confidence"
+},
+"gönlətdirmək": {
+"skip": "meaning not known with confidence"
+},
+"görücü": {
+"skip": "meaning not known with confidence"
+},
+"gövdələnmək": {
+"az": "Gövdə əmələ gətirmək.",
+"en": "to grow a trunk",
+"pos": "verb"
+},
+"göyərçinbaz": {
+"az": "Göyərçin saxlayan, göyərçin həvəskarı.",
+"en": "pigeon fancier",
+"pos": "noun"
+},
+"göyot": {
+"skip": "meaning not known with confidence"
+},
+"gözəkləmək": {
+"skip": "meaning not known with confidence"
+},
+"gözgötürməz": {
+"az": "Başqasının uğurunu görə bilməyən, paxıl.",
+"en": "envious",
+"pos": "adjective"
+},
+"gözüçəp": {
+"az": "Gözü çəp.",
+"en": "cross-eyed",
+"pos": "adjective"
+},
+"gözügötürməz": {
+"az": "Paxıl.",
+"en": "envious",
+"pos": "adjective"
+},
+"gücürgəmək": {
+"skip": "meaning not known with confidence"
+},
+"gülümsənmək": {
+"az": "Gülümsəmək.",
+"en": "to smile",
+"pos": "verb"
+},
+"günahlanmaq": {
+"az": "Günahkar sayılmaq.",
+"en": "to be blamed",
+"pos": "verb"
+},
+"güzgülənmək": {
+"az": "Güzgüdə əks olunmaq.",
+"en": "to be mirrored",
+"pos": "verb"
+},
+"haker": {
+"az": "Kompüter sistemlərinə icazəsiz daxil olan adam.",
+"en": "hacker",
+"pos": "noun"
+},
+"hakimiyyətpərəst": {
+"az": "Hakimiyyətə hərisi olan.",
+"en": "power-hungry",
+"pos": "adjective"
+},
+"haqpərəst": {
+"az": "Haqqa bağlı, ədalətpərəst.",
+"en": "devoted to truth",
+"pos": "adjective"
+},
+"halallamaq": {
+"az": "Halal etmək, bağışlamaq.",
+"en": "to forgive (a debt or right)",
+"pos": "verb"
+},
+"hallatmaq": {
+"skip": "meaning not known with confidence"
+},
+"hamamlanmaq": {
+"az": "Hamamda yuyunmaq.",
+"en": "to bathe",
+"pos": "verb"
+},
+"hamarüz": {
+"az": "Üzü hamar.",
+"en": "smooth-faced",
+"pos": "adjective"
+},
+"heçləmək": {
+"az": "Heçə endirmək.",
+"en": "to nullify",
+"pos": "verb"
+},
+"herpetoloq": {
+"az": "Sürünənləri və suda-quruda yaşayanları öyrənən alim.",
+"en": "herpetologist",
+"pos": "noun"
+},
+"heteroatom": {
+"az": "Üzvi molekulda karbon və hidrogendən başqa atom.",
+"en": "heteroatom",
+"pos": "noun"
+},
+"heyləmək": {
+"skip": "meaning not known with confidence"
+},
+"hədisşünas": {
+"az": "Hədisləri öyrənən alim.",
+"en": "hadith scholar",
+"pos": "noun"
+},
+"hədiyyəbaz": {
+"az": "Hədiyyə verməyi və ya almağı sevən.",
+"en": "fond of gifts",
+"pos": "adjective"
+},
+"hənbəli": {
+"az": "Hənbəli məzhəbinin tərəfdarı.",
+"en": "Hanbali",
+"pos": "noun"
+},
+"hənirlənmək": {
+"skip": "meaning not known with confidence"
+},
+"həzmedici": {
+"az": "Həzmə kömək edən.",
+"en": "digestive",
+"pos": "adjective"
+},
+"hırıldaşmaq": {
+"az": "Bir-birinə hırıldamaq.",
+"en": "to snarl at each other",
+"pos": "verb"
+},
+"hicablanmaq": {
+"az": "Hicab örtmək.",
+"en": "to put on a hijab",
+"pos": "verb"
+},
+"hidrofob": {
+"az": "Su keçirməyən, suyu itələyən.",
+"en": "hydrophobic",
+"pos": "adjective"
+},
+"hikkələnmək": {
+"az": "Hikkəyə düşmək, acıqlanmaq.",
+"en": "to get angry",
+"pos": "verb"
+},
+"hiqroskopik": {
+"az": "Nəmi özünə çəkən.",
+"en": "hygroscopic",
+"pos": "adjective"
+},
+"hiperasid": {
+"az": "Turşuluğu yüksək olan.",
+"en": "hyperacid",
+"pos": "adjective"
+},
+"hissedilməz": {
+"az": "Hiss edilməyən.",
+"en": "imperceptible",
+"pos": "adjective"
+},
+"histokimya": {
+"az": "Toxumaların kimyəvi tərkibini öyrənən elm.",
+"en": "histochemistry",
+"pos": "noun"
+},
+"hişləmək": {
+"skip": "meaning not known with confidence"
+},
+"hitlerçi": {
+"az": "Hitler tərəfdarı.",
+"en": "Hitlerite",
+"pos": "noun"
+},
+"hökumətpərəst": {
+"az": "Hökuməti dəstəkləyən.",
+"en": "pro-government",
+"pos": "adjective"
+},
+"hökumətyönümlü": {
+"az": "Hökumətə meylli.",
+"en": "pro-government",
+"pos": "adjective"
+},
+"hörmələmək": {
+"az": "Hörmək.",
+"en": "to braid",
+"pos": "verb"
+},
+"hörücü": {
+"az": "Hörən.",
+"en": "weaver",
+"pos": "noun"
+},
+"hövllənmək": {
+"az": "Qorxuya düşmək.",
+"en": "to take fright",
+"pos": "verb"
+},
+"huşlanmaq": {
+"skip": "meaning not known with confidence"
+},
+"hürriyyətsevər": {
+"az": "Azadlığı sevən.",
+"en": "freedom-loving",
+"pos": "adjective"
+},
+"xaqanişünas": {
+"az": "Xaqaninin yaradıcılığını öyrənən alim.",
+"en": "scholar of Khaqani",
+"pos": "noun"
+},
+"xanımlanmaq": {
+"az": "Xanım kimi davranmaq.",
+"en": "to act the lady",
+"pos": "verb"
+},
+"xardallamaq": {
+"az": "Xardal sürtmək.",
+"en": "to spread with mustard",
+"pos": "verb"
+},
+"xarizma": {
+"az": "İnsanları özünə cəlb edən güclü təsir qüvvəsi.",
+"en": "charisma",
+"pos": "noun"
+},
+"xatacıl": {
+"az": "Tez-tez xəta edən.",
+"en": "error-prone",
+"pos": "adjective"
+},
+"xəbərləmək": {
+"az": "Xəbər vermək.",
+"en": "to inform",
+"pos": "verb"
+},
+"xətaişünas": {
+"az": "Şah İsmayıl Xətainin yaradıcılığını öyrənən alim.",
+"en": "scholar of Khatai",
+"pos": "noun"
+},
+"xətşünas": {
+"az": "Xəttatlıq üzrə mütəxəssis.",
+"en": "calligraphy expert",
+"pos": "noun"
+},
+"xəyyamşünas": {
+"az": "Ömər Xəyyamın yaradıcılığını öyrənən alim.",
+"en": "scholar of Khayyam",
+"pos": "noun"
+},
+"xəzəlləmək": {
+"az": "Xəzəl tökmək.",
+"en": "to shed leaves",
+"pos": "verb"
+},
+"xəzləmək": {
+"az": "Xəzlə astarlamaq.",
+"en": "to line with fur",
+"pos": "verb"
+},
+"xıxırtmaq": {
+"skip": "meaning not known with confidence"
+},
+"xırxılamaq": {
+"skip": "meaning not known with confidence"
+},
+"xırpalaşmaq": {
+"skip": "meaning not known with confidence"
+},
+"xiffətcil": {
+"az": "Tez qəmlənən.",
+"en": "melancholic",
+"pos": "adjective"
+},
+"xoşüzlü": {
+"az": "Üzü xoş.",
+"en": "pleasant-faced",
+"pos": "adjective"
+},
+"xronometraj": {
+"az": "İş vaxtının ölçülməsi.",
+"en": "time study",
+"pos": "noun"
+},
+"xumarlamaq": {
+"az": "Xumar olmaq.",
+"en": "to become languid",
+"pos": "verb"
+},
+"xürrəmi": {
+"az": "Xürrəmilər hərəkatının tərəfdarı.",
+"en": "Khurramite",
+"pos": "noun"
+},
+"ictimaiyyətşünas": {
+"az": "Cəmiyyəti öyrənən alim.",
+"en": "social scientist",
+"pos": "noun"
+},
+"içiçürük": {
+"az": "İçi çürük.",
+"en": "rotten inside",
+"pos": "adjective"
+},
+"idarəolunmaz": {
+"az": "İdarə edilə bilməyən.",
+"en": "uncontrollable",
+"pos": "adjective"
+},
+"idiot": {
+"az": "Ağıldan kəm; axmaq.",
+"en": "idiot",
+"pos": "noun"
+},
+"idmansevər": {
+"az": "İdmanı sevən.",
+"en": "sports lover",
+"pos": "noun"
+},
+"ifrazlanmaq": {
+"az": "İfraz olunmaq.",
+"en": "to be secreted",
+"pos": "verb"
+},
+"ikinövçü": {
+"skip": "meaning not known with confidence"
+},
+"ikonoborçu": {
+"az": "İkonalara pərəstişə qarşı çıxan.",
+"en": "iconoclast",
+"pos": "noun"
+},
+"illüstrə": {
+"skip": "meaning not known with confidence"
+},
+"iltihablanmaq": {
+"az": "İltihab vermək.",
+"en": "to become inflamed",
+"pos": "verb"
+},
+"immanent": {
+"az": "Daxilən xas olan.",
+"en": "immanent",
+"pos": "adjective"
+},
+"immunogen": {
+"az": "İmmun reaksiya yaradan maddə.",
+"en": "immunogen",
+"pos": "noun"
+},
+"improvizə": {
+"az": "Hazırlıqsız, yerindəcə yaradılan (improvizə etmək).",
+"en": "improvisation",
+"pos": "noun"
+},
+"impulslanmaq": {
+"skip": "meaning not known with confidence"
+},
+"indiferent": {
+"az": "Laqeyd.",
+"en": "indifferent",
+"pos": "adjective"
+},
+"inersiya": {
+"az": "Ətalət.",
+"en": "inertia",
+"pos": "noun"
+},
+"infantil": {
+"az": "Uşaq kimi, yetkin olmayan.",
+"en": "infantile",
+"pos": "adjective"
+},
+"informatik": {
+"az": "İnformatika üzrə mütəxəssis.",
+"en": "computer scientist",
+"pos": "noun"
+},
+"informator": {
+"az": "Məlumat verən şəxs.",
+"en": "informer, informant",
+"pos": "noun"
+},
+"inkorporlaşmaq": {
+"az": "Tərkibə daxil olmaq.",
+"en": "to be incorporated",
+"pos": "verb"
+},
+"insanşünas": {
+"az": "İnsanı öyrənən alim.",
+"en": "anthropologist",
+"pos": "noun"
+},
+"intriqabaz": {
+"az": "Fitnə-fəsad salan.",
+"en": "intriguer",
+"pos": "noun"
+},
+"ipçi": {
+"az": "İp toxuyan və ya satan.",
+"en": "rope maker",
+"pos": "noun"
+},
+"ipliklənmək": {
+"az": "İplik halına düşmək.",
+"en": "to become stringy",
+"pos": "verb"
+},
+"ipliklətmək": {
+"skip": "meaning not known with confidence"
+},
+"irincik": {
+"skip": "meaning not known with confidence"
+},
+"ironiya": {
+"az": "İstehzalı eyham.",
+"en": "irony",
+"pos": "noun"
+},
+"irreal": {
+"az": "Real olmayan.",
+"en": "unreal",
+"pos": "adjective"
+},
+"islampərəst": {
+"az": "İslama bağlı.",
+"en": "devoted to Islam",
+"pos": "adjective"
+},
+"islamsevər": {
+"az": "İslamı sevən.",
+"en": "devoted to Islam",
+"pos": "adjective"
+},
+"ismaili": {
+"az": "İsmaililər təriqətinin tərəfdarı.",
+"en": "Ismaili",
+"pos": "noun"
+},
+"istiliyədavamlı": {
+"az": "İstiliyə davam gətirən.",
+"en": "heat-resistant",
+"pos": "adjective"
+},
+"istiliyədözümlü": {
+"az": "İstiliyə dözən.",
+"en": "heat-tolerant",
+"pos": "adjective"
+},
+"istinasız": {
+"az": "İstisnasız.",
+"en": "without exception",
+"pos": "adverb"
+},
+"işığadavamsız": {
+"az": "İşıqdan solan.",
+"en": "not lightfast",
+"pos": "adjective"
+},
+"iyəşmək": {
+"skip": "meaning not known with confidence"
+},
+"izoxron": {
+"az": "Eyni müddətdə baş verən.",
+"en": "isochronous",
+"pos": "adjective"
+},
+"izomorf": {
+"az": "Eyni quruluşlu.",
+"en": "isomorphic",
+"pos": "adjective"
+},
+"kafellətdirmək": {
+"az": "Başqasına kafel döşətmək.",
+"en": "to have tiled",
+"pos": "verb"
+},
+"kaftarlamaq": {
+"skip": "meaning not known with confidence"
+},
+"kalanlaşmaq": {
+"skip": "meaning not known with confidence"
+},
+"kalvinçi": {
+"az": "Kalvin təliminin tərəfdarı.",
+"en": "Calvinist",
+"pos": "noun"
+},
+"kapsullamaq": {
+"az": "Kapsula salmaq.",
+"en": "to encapsulate",
+"pos": "verb"
+},
+"karioz": {
+"az": "Kariyesə tutulmuş.",
+"en": "carious",
+"pos": "adjective"
+},
+"kartinq": {
+"az": "Kiçik yarış avtomobillərində yarış.",
+"en": "karting",
+"pos": "noun"
+},
+"kaskad": {
+"az": "Pilləli şəlalə; ardıcıl pillələr.",
+"en": "cascade",
+"pos": "noun"
+},
+"kauzal": {
+"az": "Səbəbiyyətə aid.",
+"en": "causal",
+"pos": "adjective"
+},
+"keçirdilmək": {
+"az": "Keçirilmək, həyata keçirilmək.",
+"en": "to be carried out",
+"pos": "verb"
+},
+"keyfiyyətləndirmək": {
+"az": "Keyfiyyətini müəyyən etmək.",
+"en": "to qualify, to characterize",
+"pos": "verb"
+},
+"keyləndirici": {
+"az": "Keyləşdirən.",
+"en": "numbing",
+"pos": "adjective"
+},
+"keylətmək": {
+"az": "Keyləşdirmək.",
+"en": "to numb",
+"pos": "verb"
+},
+"keynsçi": {
+"az": "Keyns iqtisadi təliminin tərəfdarı.",
+"en": "Keynesian",
+"pos": "noun"
+},
+"kələsər": {
+"skip": "meaning not known with confidence"
+},
+"kəngər": {
+"az": "Gövdəsi və yarpaqları yeyilən tikanlı çöl bitkisi.",
+"en": "gundelia, a thistle",
+"pos": "noun"
+},
+"kəsilməz": {
+"az": "Kəsilməyən, fasiləsiz.",
+"en": "uninterrupted",
+"pos": "adjective"
+},
+"kəskinlətmək": {
+"az": "Kəskinləşdirmək.",
+"en": "to sharpen, to intensify",
+"pos": "verb"
+},
+"kəsmiklətmək": {
+"skip": "meaning not known with confidence"
+},
+"kifləndirilmək": {
+"az": "Kif basdırılmaq.",
+"en": "to be made mouldy",
+"pos": "verb"
+},
+"kilkələmək": {
+"skip": "meaning not known with confidence"
+},
+"killer": {
+"az": "Muzdlu qatil.",
+"en": "hired killer",
+"pos": "noun"
+},
+"kiloom": {
+"az": "Min oma bərabər müqavimət vahidi.",
+"en": "kiloohm",
+"pos": "noun"
+},
+"kimyaşünas": {
+"az": "Kimya üzrə mütəxəssis.",
+"en": "chemist",
+"pos": "noun"
+},
+"kinoman": {
+"az": "Kinoya həddən artıq həvəsli.",
+"en": "film buff",
+"pos": "noun"
+},
+"kinopərəst": {
+"az": "Kinonu sevən.",
+"en": "film lover",
+"pos": "noun"
+},
+"kirləmək": {
+"az": "Kirlətmək.",
+"en": "to soil",
+"pos": "verb"
+},
+"kitabxanaşünas": {
+"az": "Kitabxanaçılıq elmi üzrə mütəxəssis.",
+"en": "library scientist",
+"pos": "noun"
+},
+"kitrələmək": {
+"skip": "meaning not known with confidence"
+},
+"kobudxasiyyətli": {
+"az": "Xasiyyəti kobud.",
+"en": "rough-natured",
+"pos": "adjective"
+},
+"koherent": {
+"az": "Uzlaşmış, ardıcıl.",
+"en": "coherent",
+"pos": "adjective"
+},
+"koqnitiv": {
+"az": "İdraka aid.",
+"en": "cognitive",
+"pos": "adjective"
+},
+"kombinələmək": {
+"az": "Birləşdirmək.",
+"en": "to combine",
+"pos": "verb"
+},
+"kommunikativ": {
+"az": "Ünsiyyətə aid; ünsiyyətcil.",
+"en": "communicative",
+"pos": "adjective"
+},
+"kommunistləşdirilmək": {
+"az": "Kommunist ideologiyasına uyğunlaşdırılmaq.",
+"en": "to be communized",
+"pos": "verb"
+},
+"komplimentbaz": {
+"az": "Kompliment deməyi sevən.",
+"en": "flatterer",
+"pos": "noun"
+},
+"kompostlanmaq": {
+"az": "Kompost halına salınmaq.",
+"en": "to be composted",
+"pos": "verb"
+},
+"konfidensial": {
+"az": "Məxfi.",
+"en": "confidential",
+"pos": "adjective"
+},
+"konfusiçi": {
+"az": "Konfutsi təliminin tərəfdarı.",
+"en": "Confucian",
+"pos": "noun"
+},
+"konsertmeyster": {
+"az": "Orkestrdə qrupa rəhbərlik edən musiqiçi; müşayiətçi pianoçu.",
+"en": "concertmaster; accompanist",
+"pos": "noun"
+},
+"konstant": {
+"az": "Sabit kəmiyyət.",
+"en": "constant",
+"pos": "noun"
+},
+"kontekstual": {
+"az": "Kontekstə aid.",
+"en": "contextual",
+"pos": "adjective"
+},
+"konteynerləşdirilmək": {
+"az": "Konteynerlə daşınmağa uyğunlaşdırılmaq.",
+"en": "to be containerized",
+"pos": "verb"
+},
+"kontrafakt": {
+"az": "Saxta, təqlid məhsul.",
+"en": "counterfeit",
+"pos": "noun"
+},
+"kontraktlamaq": {
+"az": "Müqavilə ilə işə götürmək.",
+"en": "to contract",
+"pos": "verb"
+},
+"konturlamaq": {
+"az": "Konturunu çəkmək.",
+"en": "to outline",
+"pos": "verb"
+},
+"kontuziyalanmaq": {
+"az": "Kontuziya almaq.",
+"en": "to be shell-shocked",
+"pos": "verb"
+},
+"konvensional": {
+"az": "Ənənəvi, şərti.",
+"en": "conventional",
+"pos": "adjective"
+},
+"konveyer": {
+"az": "Fasiləsiz hərəkət edən daşıyıcı lent.",
+"en": "conveyor",
+"pos": "noun"
+},
+"konvulsiv": {
+"az": "Qıcolmalı.",
+"en": "convulsive",
+"pos": "adjective"
+},
+"kopyor": {
+"skip": "meaning not known with confidence"
+},
+"kornet": {
+"az": "Mis nəfəs aləti; köhnə süvari rütbəsi.",
+"en": "cornet",
+"pos": "noun"
+},
+"koroğluşünas": {
+"az": "\"Koroğlu\" dastanını öyrənən alim.",
+"en": "scholar of the Koroghlu epic",
+"pos": "noun"
+},
+"korporativ": {
+"az": "Korporasiyaya aid.",
+"en": "corporate",
+"pos": "adjective"
+},
+"korrelyativ": {
+"az": "Qarşılıqlı əlaqəli.",
+"en": "correlative",
+"pos": "adjective"
+},
+"korrupsioner": {
+"az": "Rüşvətxor məmur.",
+"en": "corrupt official",
+"pos": "noun"
+}
+}

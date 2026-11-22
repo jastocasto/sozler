@@ -87,7 +87,7 @@
   "conf": "high"
  },
  "ala-bəzəklik": {
-  "az": "Rəngarəng, ala-bula görünən şeyin vəziyyəti.",
+  "az": "Ala-bəzək olma, rəngarənglik.",
   "en": "motleyness, variegation",
   "pos": "noun",
   "src": "izahli",
@@ -129,7 +129,7 @@
   "conf": "high"
  },
  "alacaqanad": {
-  "az": "Meşələrdə yaşayan kiçik nəğməkar quş.",
+  "az": "Qanadları alaca olan kiçik nəğməkar meşə quşu.",
   "en": "a small woodland songbird",
   "pos": "noun",
   "src": "izahli",
@@ -269,7 +269,7 @@
   "conf": "high"
  },
  "ala-qolaylıq": {
-  "az": "Bir işin ortababdan, birtəhər görülməsi halı.",
+  "az": "Ala-qolay görülmə, işin birtəhər görülməsi.",
   "en": "a so-so, middling state",
   "pos": "noun",
   "src": "izahli",
@@ -947,7 +947,7 @@
   "conf": "high"
  },
  "altıüzlü": {
-  "az": "Altı üzü olan (həndəsi cisim).",
+  "az": "Altı üzdən ibarət (həndəsi cisim).",
   "en": "six-faced, hexahedral",
   "pos": "adjective",
   "src": "izahli",
@@ -1332,7 +1332,7 @@
   "conf": "high"
  },
  "antikommunist": {
-  "az": "Kommunizmə qarşı çıxan şəxs.",
+  "az": "Kommunistlərə və kommunizmə qarşı çıxan şəxs.",
   "en": "anti-Communist",
   "pos": "noun",
   "src": "musayev",

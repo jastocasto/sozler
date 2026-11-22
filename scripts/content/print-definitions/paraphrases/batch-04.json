@@ -385,7 +385,7 @@
   "conf": "high"
  },
  "beçələmə": {
-  "az": "Yeni ana arının işçi arılarla birlikdə pətəkdən ayrılması.",
+  "az": "Beçələmək: ana arının işçi arılarla pətəkdən ayrılması.",
   "en": "swarming of bees",
   "pos": "noun",
   "src": "izahli",
@@ -1680,7 +1680,7 @@
   "conf": "high"
  },
  "bərabərhüquqlu": {
-  "az": "Başqaları ilə eyni hüquqlara malik olan.",
+  "az": "Başqaları ilə bərabər, eyni hüquqlu olan.",
   "en": "having equal rights",
   "pos": "adjective",
   "src": "musayev",
@@ -1722,7 +1722,7 @@
   "conf": "high"
  },
  "bəraətverici": {
-  "az": "Xərcləri və ya hərəkəti əsaslandıran (sənəd haqqında).",
+  "az": "Xərcə və ya hərəkətə bəraət qazandıran, onu əsaslandıran (sənəd).",
   "en": "justifying (of a document)",
   "pos": "adjective",
   "src": "musayev",

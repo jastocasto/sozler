@@ -1,0 +1,1146 @@
+{
+"pedantizm": {
+"az": "Xırdaçılıq, quru formalizm.",
+"en": "pedantry",
+"pos": "noun"
+},
+"pedobiont": {
+"az": "Torpaqda yaşayan orqanizm.",
+"en": "soil organism",
+"pos": "noun"
+},
+"pedofauna": {
+"az": "Torpaq faunası.",
+"en": "soil fauna",
+"pos": "noun"
+},
+"pedogenez": {
+"az": "Torpaq əmələ gəlməsi.",
+"en": "pedogenesis",
+"pos": "noun"
+},
+"pedometr": {
+"az": "Addımsayar.",
+"en": "pedometer",
+"pos": "noun"
+},
+"pedosentrizm": {
+"az": "Uşaq mərkəzli təlim.",
+"en": "paedocentrism",
+"pos": "noun"
+},
+"pekaltı": {
+"skip": "meaning not known with confidence"
+},
+"pekari": {
+"az": "Amerika donuzu.",
+"en": "peccary",
+"pos": "noun"
+},
+"pelagial": {
+"az": "Açıq dənizin su qatı.",
+"en": "pelagic zone",
+"pos": "noun"
+},
+"pelagik": {
+"az": "Açıq dənizə aid.",
+"en": "pelagic",
+"pos": "adjective"
+},
+"pelaqonim": {
+"az": "Dəniz adı.",
+"en": "sea name",
+"pos": "noun"
+},
+"pelaqonimiya": {
+"az": "Dəniz adlarının məcmusu.",
+"en": "pelagonymy",
+"pos": "noun"
+},
+"pelarqoniya": {
+"az": "Ətirşah.",
+"en": "pelargonium",
+"pos": "noun"
+},
+"pelenqasiya": {
+"az": "İstiqamət təyini.",
+"en": "direction finding",
+"pos": "noun"
+},
+"pelenqator": {
+"az": "İstiqamət təyinedici.",
+"en": "direction finder",
+"pos": "noun"
+},
+"pelerin": {
+"az": "Qolsuz plaş.",
+"en": "cape",
+"pos": "noun"
+},
+"pellaqra": {
+"az": "Vitamin çatışmazlığı xəstəliyi.",
+"en": "pellagra",
+"pos": "noun"
+},
+"pelofil": {
+"az": "Lilsevən.",
+"en": "pelophilous",
+"pos": "adjective"
+},
+"pelofob": {
+"az": "Lildən qaçan.",
+"en": "pelophobous",
+"pos": "adjective"
+},
+"pelogen qat": {
+"skip": "meaning not known with confidence"
+},
+"pelorik çiçək": {
+"skip": "meaning not known with confidence"
+},
+"peloterapiya": {
+"az": "Palçıqla müalicə.",
+"en": "mud therapy",
+"pos": "noun"
+},
+"pelvimetr": {
+"az": "Çanaq ölçən cihaz.",
+"en": "pelvimeter",
+"pos": "noun"
+},
+"penal": {
+"az": "Qələm qabı.",
+"en": "pencil case",
+"pos": "noun"
+},
+"penalti": {
+"az": "On bir metrlik cərimə zərbəsi.",
+"en": "penalty kick",
+"pos": "noun"
+},
+"penetrometr": {
+"az": "Batma dərinliyini ölçən cihaz.",
+"en": "penetrometer",
+"pos": "noun"
+},
+"penni": {
+"az": "Finlandiyanın keçmiş xırda pulu.",
+"en": "penni",
+"pos": "noun"
+},
+"penobeton": {
+"az": "Köpük beton.",
+"en": "foam concrete",
+"pos": "noun"
+},
+"penoplast": {
+"az": "Köpük plastik.",
+"en": "foam plastic",
+"pos": "noun"
+},
+"penopolistirol": {
+"az": "Köpük polistirol.",
+"en": "expanded polystyrene",
+"pos": "noun"
+},
+"penoşüşə": {
+"az": "Köpük şüşə.",
+"en": "foam glass",
+"pos": "noun"
+},
+"pens": {
+"az": "Paltarda tikilən büküm.",
+"en": "dart",
+"pos": "noun"
+},
+"pentaftorid": {
+"az": "Beş ftor atomlu birləşmə.",
+"en": "pentafluoride",
+"pos": "noun"
+},
+"pentaxlorfenol": {
+"az": "Antiseptik maddə.",
+"en": "pentachlorophenol",
+"pos": "noun"
+},
+"pentaxlorid": {
+"az": "Beş xlor atomlu birləşmə.",
+"en": "pentachloride",
+"pos": "noun"
+},
+"pentakarbonil": {
+"skip": "meaning not known with confidence"
+},
+"pentaqastrin": {
+"az": "Mədə şirəsi stimulyatoru.",
+"en": "pentagastrin",
+"pos": "noun"
+},
+"pentaqram": {
+"az": "Beşguşəli ulduz.",
+"en": "pentagram",
+"pos": "noun"
+},
+"pentaqrid": {
+"skip": "meaning not known with confidence"
+},
+"pentaprizma": {
+"az": "Beşüzlü prizma.",
+"en": "pentaprism",
+"pos": "noun"
+},
+"pentasellüloz": {
+"skip": "meaning not known with confidence"
+},
+"pentasulfid": {
+"az": "Beş kükürd atomlu birləşmə.",
+"en": "pentasulfide",
+"pos": "noun"
+},
+"pentatlon": {
+"az": "Beşnövçülük.",
+"en": "pentathlon",
+"pos": "noun"
+},
+"pentod": {
+"az": "Beş elektrodlu lampa.",
+"en": "pentode",
+"pos": "noun"
+},
+"penüar": {
+"az": "Yüngül qadın xalatı.",
+"en": "peignoir",
+"pos": "noun"
+},
+"penya": {
+"az": "Gecikmə cəriməsi.",
+"en": "late penalty",
+"pos": "noun"
+},
+"peonaj": {
+"az": "Borc əsarəti.",
+"en": "peonage",
+"pos": "noun"
+},
+"pepsi-kola": {
+"az": "Qazlı içki markası.",
+"en": "Pepsi-Cola",
+"pos": "noun"
+},
+"pepsin": {
+"az": "Mədə fermenti.",
+"en": "pepsin",
+"pos": "noun"
+},
+"peptidaza": {
+"az": "Peptidləri parçalayan ferment.",
+"en": "peptidase",
+"pos": "noun"
+},
+"peptizasiya": {
+"az": "Çöküntünün kolloid məhlula keçməsi.",
+"en": "peptization",
+"pos": "noun"
+},
+"pepton": {
+"az": "Zülal parçalanma məhsulu.",
+"en": "peptone",
+"pos": "noun"
+},
+"perennial": {
+"az": "Çoxillik.",
+"en": "perennial",
+"pos": "adjective"
+},
+"perfokart": {
+"az": "Deşikli kart.",
+"en": "punched card",
+"pos": "noun"
+},
+"perfokartoteka": {
+"az": "Deşikli kart kartotekası.",
+"en": "punched-card file",
+"pos": "noun"
+},
+"perfolent": {
+"az": "Deşikli lent.",
+"en": "punched tape",
+"pos": "noun"
+},
+"perforasiya": {
+"az": "Deşilmə.",
+"en": "perforation",
+"pos": "noun"
+},
+"perforator": {
+"az": "Deşikaçan alət.",
+"en": "perforator",
+"pos": "noun"
+},
+"performativ": {
+"az": "Söyləməklə icra olunan.",
+"en": "performative",
+"pos": "adjective"
+},
+"perhidrol": {
+"az": "Qatı hidrogen peroksid.",
+"en": "perhydrol",
+"pos": "noun"
+},
+"perxlorat": {
+"az": "Perxlor turşusunun duzu.",
+"en": "perchlorate",
+"pos": "noun"
+},
+"perxlorvinil": {
+"az": "Xlorlaşdırılmış polivinilxlorid.",
+"en": "perchlorovinyl",
+"pos": "noun"
+},
+"periastr": {
+"az": "Ulduza ən yaxın nöqtə.",
+"en": "periastron",
+"pos": "noun"
+},
+"periderma": {
+"az": "Bitkinin örtük toxuması.",
+"en": "periderm",
+"pos": "noun"
+},
+"periferik": {
+"az": "Kənar.",
+"en": "peripheral",
+"pos": "adjective"
+},
+"perifrastik": {
+"az": "Təsviri ifadəli.",
+"en": "periphrastic",
+"pos": "adjective"
+},
+"perifraz": {
+"az": "Təsviri ifadə.",
+"en": "periphrasis",
+"pos": "noun"
+},
+"perikard": {
+"az": "Ürək kisəsi.",
+"en": "pericardium",
+"pos": "noun"
+},
+"perikolit": {
+"skip": "meaning not known with confidence"
+},
+"periqastrit": {
+"az": "Mədə xarici qişasının iltihabı.",
+"en": "perigastritis",
+"pos": "noun"
+},
+"periqlyasial zona": {
+"az": "Buzlaq ətrafı zona.",
+"en": "periglacial zone",
+"pos": "noun"
+},
+"perinefrit": {
+"az": "Böyrək ətrafı iltihab.",
+"en": "perinephritis",
+"pos": "noun"
+},
+"periodontit": {
+"az": "Diş kökü ətrafı iltihab.",
+"en": "periodontitis",
+"pos": "noun"
+},
+"peripatetik": {
+"az": "Aristotel məktəbinin davamçısı.",
+"en": "peripatetic",
+"pos": "noun"
+},
+"periplazma": {
+"skip": "meaning not known with confidence"
+},
+"perisentr": {
+"az": "Ən yaxın orbit nöqtəsi.",
+"en": "pericentre",
+"pos": "noun"
+},
+"periskopik": {
+"az": "Periskopa aid.",
+"en": "periscopic",
+"pos": "adjective"
+},
+"peristaltika": {
+"az": "Bağırsaqların dalğavari hərəkəti.",
+"en": "peristalsis",
+"pos": "noun"
+},
+"perkarbonat": {
+"az": "Ağardıcı maddə.",
+"en": "percarbonate",
+"pos": "noun"
+},
+"perkussiya": {
+"az": "Tıqqıldatma ilə müayinə; zərb alətləri.",
+"en": "percussion",
+"pos": "noun"
+},
+"perlit": {
+"az": "Vulkan şüşəsi.",
+"en": "perlite",
+"pos": "noun"
+},
+"perlon": {
+"az": "Sintetik lif.",
+"en": "Perlon",
+"pos": "noun"
+},
+"permalloy": {
+"az": "Nikel-dəmir ərintisi.",
+"en": "permalloy",
+"pos": "noun"
+},
+"permanqanatometriya": {
+"az": "Permanqanatla titrləmə.",
+"en": "permanganometry",
+"pos": "noun"
+},
+"permendyur": {
+"az": "Kobalt-dəmir ərintisi.",
+"en": "permendur",
+"pos": "noun"
+},
+"permenorm": {
+"skip": "meaning not known with confidence"
+},
+"perminvar": {
+"skip": "meaning not known with confidence"
+},
+"permutit": {
+"az": "Su yumşaldıcı.",
+"en": "permutite",
+"pos": "noun"
+},
+"permyak": {
+"az": "Komi-permyak.",
+"en": "Komi-Permyak",
+"pos": "noun"
+},
+"peroksid": {
+"az": "Oksigen-oksigen rabitəli birləşmə.",
+"en": "peroxide",
+"pos": "noun"
+},
+"peroksosulfat": {
+"skip": "meaning not known with confidence"
+},
+"peroksoturşu": {
+"az": "Perokso turşu.",
+"en": "peroxy acid",
+"pos": "noun"
+},
+"peronospor": {
+"az": "Yalançı unlu şeh göbələyi.",
+"en": "downy mildew",
+"pos": "noun"
+},
+"peroral": {
+"az": "Ağız yolu ilə.",
+"en": "oral",
+"pos": "adjective"
+},
+"persepsiya": {
+"az": "Qavrayış.",
+"en": "perception",
+"pos": "noun"
+},
+"persona": {
+"az": "Şəxs; rol.",
+"en": "persona",
+"pos": "noun"
+},
+"personalizm": {
+"az": "Şəxsiyyəti əsas sayan fəlsəfə.",
+"en": "personalism",
+"pos": "noun"
+},
+"personifikasiya": {
+"az": "Şəxsləndirmə.",
+"en": "personification",
+"pos": "noun"
+},
+"perspektoqraf": {
+"skip": "meaning not known with confidence"
+},
+"persulfat": {
+"az": "Ağardıcı və oksidləşdirici.",
+"en": "persulfate",
+"pos": "noun"
+},
+"perşeron": {
+"az": "Ağır yük atı cinsi.",
+"en": "Percheron",
+"pos": "noun"
+},
+"perturbasiya": {
+"az": "Pozulma.",
+"en": "perturbation",
+"pos": "noun"
+},
+"perturşu": {
+"skip": "meaning not known with confidence"
+},
+"peryodat": {
+"az": "Peryod turşusunun duzu.",
+"en": "periodate",
+"pos": "noun"
+},
+"peseta": {
+"az": "İspaniyanın keçmiş pul vahidi.",
+"en": "peseta",
+"pos": "noun"
+},
+"peso": {
+"az": "Latın Amerikası pul vahidi.",
+"en": "peso",
+"pos": "noun"
+},
+"pessimistcə": {
+"az": "Bədbincəsinə.",
+"en": "pessimistically",
+"pos": "adverb"
+},
+"pestisid": {
+"az": "Zərərvericilərə qarşı maddə.",
+"en": "pesticide",
+"pos": "noun"
+},
+"peşmərgə": {
+"az": "Kürd silahlı qüvvəsinin döyüşçüsü.",
+"en": "Peshmerga",
+"pos": "noun"
+},
+"petabayt": {
+"az": "Kvadrilyon bayt.",
+"en": "petabyte",
+"pos": "noun"
+},
+"petarda": {
+"az": "Partlayıcı fişəng.",
+"en": "petard",
+"pos": "noun"
+},
+"petisiya": {
+"az": "Toplu müraciət.",
+"en": "petition",
+"pos": "noun"
+},
+"petit": {
+"az": "Kiçik şrift.",
+"en": "petit (type size)",
+"pos": "noun"
+},
+"petrokimya": {
+"az": "Neft kimyası.",
+"en": "petrochemistry",
+"pos": "noun"
+},
+"petroqlif": {
+"az": "Qaya rəsmi.",
+"en": "petroglyph",
+"pos": "noun"
+},
+"petrol": {
+"skip": "meaning not known with confidence"
+},
+"petrolein": {
+"skip": "meaning not known with confidence"
+},
+"petroleum": {
+"az": "Neft.",
+"en": "petroleum",
+"pos": "noun"
+},
+"petrurgiya": {
+"az": "Daş tökmə.",
+"en": "stone casting",
+"pos": "noun"
+},
+"peyinlədə-peyinlədə": {
+"az": "Peyinləyərək.",
+"en": "manuring",
+"pos": "adverb"
+},
+"peyntbol": {
+"az": "Boya güllələri ilə döyüş oyunu.",
+"en": "paintball",
+"pos": "noun"
+},
+"pəhləvicə": {
+"az": "Pəhləvi dilində.",
+"en": "in Pahlavi",
+"pos": "adverb"
+},
+"pəncablı": {
+"az": "Pəncabdan olan adam.",
+"en": "Punjabi",
+"pos": "noun"
+},
+"pəncə-pəncəyə": {
+"az": "Əlbəyaxa.",
+"en": "hand to hand",
+"pos": "adverb"
+},
+"pərçimlədə-pərçimlədə": {
+"az": "Pərçimləyərək.",
+"en": "riveting",
+"pos": "adverb"
+},
+"pərdəaşırı": {
+"az": "Pərdəni aşan.",
+"en": "over the curtain",
+"pos": "adjective"
+},
+"pətənə": {
+"skip": "meaning not known with confidence"
+},
+"pfenniq": {
+"az": "Almaniyanın keçmiş xırda pulu.",
+"en": "pfennig",
+"pos": "noun"
+},
+"pıqqapıq": {
+"skip": "meaning not known with confidence"
+},
+"piar": {
+"az": "İctimaiyyətlə əlaqələr.",
+"en": "public relations",
+"pos": "noun"
+},
+"piarkampaniya": {
+"az": "İmic kampaniyası.",
+"en": "PR campaign",
+"pos": "noun"
+},
+"piastr": {
+"az": "Xırda pul vahidi.",
+"en": "piastre",
+"pos": "noun"
+},
+"pieloqrafiya": {
+"az": "Böyrək ləyəninin rentgeni.",
+"en": "pyelography",
+"pos": "noun"
+},
+"pielonefrit": {
+"az": "Böyrək və ləyəninin iltihabı.",
+"en": "pyelonephritis",
+"pos": "noun"
+},
+"pikador": {
+"az": "Nizəli atlı korrida iştirakçısı.",
+"en": "picador",
+"pos": "noun"
+},
+"pike": {
+"az": "Naxışlı pambıq parça; şaquli enmə.",
+"en": "piqué",
+"pos": "noun"
+},
+"pikermiya": {
+"skip": "meaning not known with confidence"
+},
+"piknik": {
+"az": "Açıq havada yemək.",
+"en": "picnic",
+"pos": "noun"
+},
+"piknometrik üsul": {
+"az": "Sıxlığın piknometrlə təyini.",
+"en": "pycnometric method",
+"pos": "noun"
+},
+"piknospor": {
+"skip": "meaning not known with confidence"
+},
+"pikofarad": {
+"az": "Farad trilyonda biri.",
+"en": "picofarad",
+"pos": "noun"
+},
+"pikoplankton": {
+"az": "Ən kiçik plankton.",
+"en": "picoplankton",
+"pos": "noun"
+},
+"pikrin turşusu": {
+"az": "Partlayıcı sarı turşu.",
+"en": "picric acid",
+"pos": "noun"
+},
+"piqmey": {
+"az": "Bəstəboy Afrika xalqı.",
+"en": "Pygmy",
+"pos": "noun"
+},
+"piletromboz": {
+"az": "Qapı venasının trombozu.",
+"en": "pylethrombosis",
+"pos": "noun"
+},
+"pilinq": {
+"az": "Dərinin üst qatının təmizlənməsi.",
+"en": "peeling",
+"pos": "noun"
+},
+"pilokarpin": {
+"az": "Göz dərmanı alkaloid.",
+"en": "pilocarpine",
+"pos": "noun"
+},
+"pilon": {
+"az": "Dayaq sütunu.",
+"en": "pylon",
+"pos": "noun"
+},
+"pilorospazm": {
+"az": "Mədə çıxacağının spazmı.",
+"en": "pylorospasm",
+"pos": "noun"
+},
+"pima": {
+"az": "Şimali Amerika hindu xalqı.",
+"en": "Pima",
+"pos": "noun"
+},
+"pinakoid": {
+"skip": "meaning not known with confidence"
+},
+"pinakon": {
+"skip": "meaning not known with confidence"
+},
+"pinçer": {
+"az": "Alman it cinsi.",
+"en": "pinscher",
+"pos": "noun"
+},
+"pin-kod": {
+"az": "Gizli kod.",
+"en": "PIN code",
+"pos": "noun"
+},
+"pint": {
+"az": "Maye ölçü vahidi.",
+"en": "pint",
+"pos": "noun"
+},
+"pionefroz": {
+"az": "Böyrəyin irinləməsi.",
+"en": "pyonephrosis",
+"pos": "noun"
+},
+"pipet": {
+"az": "Damcı borusu.",
+"en": "pipette",
+"pos": "noun"
+},
+"pipikotu": {
+"skip": "meaning not known with confidence"
+},
+"piramidal": {
+"az": "Piramida şəkilli.",
+"en": "pyramidal",
+"pos": "adjective"
+},
+"piramometr": {
+"skip": "meaning not known with confidence"
+},
+"piranoqraf": {
+"skip": "meaning not known with confidence"
+},
+"pirargirit": {
+"az": "Gümüş filizi.",
+"en": "pyrargyrite",
+"pos": "noun"
+},
+"pirke": {
+"skip": "meaning not known with confidence"
+},
+"piroferal": {
+"skip": "meaning not known with confidence"
+},
+"piroxlor": {
+"az": "Niobium mineralı.",
+"en": "pyrochlore",
+"pos": "noun"
+},
+"pironaft": {
+"skip": "meaning not known with confidence"
+},
+"piroplazmidoz": {
+"az": "Gənələrin yaydığı qan xəstəliyi.",
+"en": "piroplasmosis",
+"pos": "noun"
+},
+"piroskaf": {
+"az": "Köhnə buxar gəmisi.",
+"en": "steamboat",
+"pos": "noun"
+},
+"piroskop": {
+"skip": "meaning not known with confidence"
+},
+"pirovidikon": {
+"skip": "meaning not known with confidence"
+},
+"pirrol": {
+"az": "Azotlu heterotsiklik birləşmə.",
+"en": "pyrrole",
+"pos": "noun"
+},
+"pirsinq": {
+"az": "Bədənə sırğa taxma.",
+"en": "piercing",
+"pos": "noun"
+},
+"piruet": {
+"az": "Bir ayaq üstə fırlanma.",
+"en": "pirouette",
+"pos": "noun"
+},
+"pisağız": {
+"az": "Pis danışan.",
+"en": "foul-mouthed",
+"pos": "adjective"
+},
+"pişim-pişim": {
+"skip": "meaning not known with confidence"
+},
+"pitçinq": {
+"az": "Layihəni təqdim etmə.",
+"en": "pitching",
+"pos": "noun"
+},
+"pitç-sessiya": {
+"az": "Layihə təqdimatı.",
+"en": "pitch session",
+"pos": "noun"
+},
+"pitekantrop": {
+"az": "Qədim insan, homo erektus.",
+"en": "Pithecanthropus",
+"pos": "noun"
+},
+"pituitrin": {
+"az": "Hipofiz hormonu preparatı.",
+"en": "pituitrin",
+"pos": "noun"
+},
+"piyəoxşar": {
+"az": "Piyə oxşar.",
+"en": "fat-like",
+"pos": "adjective"
+},
+"plagioklaz": {
+"az": "Çöl şpatı qrupu.",
+"en": "plagioclase",
+"pos": "noun"
+},
+"plagiotrop": {
+"az": "Çəp böyüyən.",
+"en": "plagiotropic",
+"pos": "adjective"
+},
+"plakofobiya": {
+"skip": "meaning not known with confidence"
+},
+"planetar": {
+"az": "Planetlərə aid.",
+"en": "planetary",
+"pos": "adjective"
+},
+"planetizm": {
+"skip": "meaning not known with confidence"
+},
+"planetoqrafik": {
+"skip": "meaning not known with confidence"
+},
+"planetomorfologiya": {
+"skip": "meaning not known with confidence"
+},
+"planetonim": {
+"az": "Planet adı.",
+"en": "planet name",
+"pos": "noun"
+},
+"planisfer": {
+"az": "Ulduz xəritəsi.",
+"en": "planisphere",
+"pos": "noun"
+},
+"planktonofit": {
+"skip": "meaning not known with confidence"
+},
+"planşet": {
+"az": "Lövhəvari kompüter.",
+"en": "tablet",
+"pos": "noun"
+},
+"planşet-bloknot": {
+"skip": "meaning not known with confidence"
+},
+"plasdarm": {
+"az": "Hücum üçün məntəqə.",
+"en": "bridgehead",
+"pos": "noun"
+},
+"plast-beton": {
+"skip": "meaning not known with confidence"
+},
+"plastikat": {
+"az": "Plastik material.",
+"en": "plastic compound",
+"pos": "noun"
+},
+"plastiki": {
+"az": "Plastikaya aid.",
+"en": "plastic",
+"pos": "adjective"
+},
+"plastilin": {
+"az": "Heykəltəraşlıq gili.",
+"en": "plasticine",
+"pos": "noun"
+},
+"plastin": {
+"skip": "meaning not known with confidence"
+},
+"platforminq": {
+"az": "Benzin keyfiyyətini artırma prosesi.",
+"en": "platforming",
+"pos": "noun"
+},
+"platinit": {
+"az": "Platin əvəzedici ərinti.",
+"en": "platinite",
+"pos": "noun"
+},
+"platinium": {
+"skip": "meaning not known with confidence"
+},
+"platinotron": {
+"skip": "meaning not known with confidence"
+},
+"plaunkimi": {
+"skip": "meaning not known with confidence"
+},
+"plaza": {
+"az": "Ticarət mərkəzi; meydan.",
+"en": "plaza",
+"pos": "noun"
+},
+"plazmagen": {
+"skip": "meaning not known with confidence"
+},
+"plazmatron": {
+"az": "Plazma generatoru.",
+"en": "plasma torch",
+"pos": "noun"
+},
+"plazmodi": {
+"az": "Çoxnüvəli sitoplazma kütləsi.",
+"en": "plasmodium",
+"pos": "noun"
+},
+"plazmoqamiya": {
+"az": "Plazmanın birləşməsi.",
+"en": "plasmogamy",
+"pos": "noun"
+},
+"plazmoliftinq": {
+"az": "Öz qan plazması ilə cavanlaşdırma.",
+"en": "plasma lifting",
+"pos": "noun"
+},
+"plazmoliz": {
+"az": "Hüceyrə protoplastının büzüşməsi.",
+"en": "plasmolysis",
+"pos": "noun"
+},
+"plazmon": {
+"az": "Plazma rəqsinin kvantı.",
+"en": "plasmon",
+"pos": "noun"
+},
+"plazmoterapiya": {
+"az": "Plazma ilə müalicə.",
+"en": "plasma therapy",
+"pos": "noun"
+},
+"plebs": {
+"az": "Qədim Romada sadə xalq.",
+"en": "plebs",
+"pos": "noun"
+},
+"pleksiqlas": {
+"az": "Üzvi şüşə.",
+"en": "Plexiglas",
+"pos": "noun"
+},
+"plenar": {
+"az": "Ümumi.",
+"en": "plenary",
+"pos": "adjective"
+},
+"plenarium": {
+"skip": "meaning not known with confidence"
+},
+"plerem": {
+"skip": "meaning not known with confidence"
+},
+"plevralgiya": {
+"az": "Plevra ağrısı.",
+"en": "pleuralgia",
+"pos": "noun"
+},
+"plevropnevmoniya": {
+"az": "Plevra və ağciyər iltihabı.",
+"en": "pleuropneumonia",
+"pos": "noun"
+},
+"pleyada": {
+"az": "Ulduz topası; görkəmli şəxslər dəstəsi.",
+"en": "pleiad",
+"pos": "noun"
+},
+"pleyer": {
+"az": "Səs oynadıcı.",
+"en": "player",
+"pos": "noun"
+},
+"pleysteyşen": {
+"az": "Oyun konsolu.",
+"en": "PlayStation",
+"pos": "noun"
+},
+"pleziantrop": {
+"skip": "meaning not known with confidence"
+},
+"pleziozavr": {
+"az": "Uzunboyunlu dəniz sürünəni.",
+"en": "plesiosaur",
+"pos": "noun"
+},
+"pliakrilnitril": {
+"skip": "meaning not known with confidence"
+},
+"plimetafosfat": {
+"skip": "meaning not known with confidence"
+},
+"plintus": {
+"az": "Divar dibi lövhəsi.",
+"en": "skirting board",
+"pos": "noun"
+},
+"pliopitek": {
+"skip": "meaning not known with confidence"
+},
+"plis": {
+"az": "Pambıq məxmər.",
+"en": "velveteen",
+"pos": "noun"
+},
+"plisse": {
+"az": "Qırçınlı parça.",
+"en": "pleated fabric",
+"pos": "noun"
+},
+"plumbikon": {
+"skip": "meaning not known with confidence"
+},
+"plutofobiya": {
+"az": "Var-dövlətdən qorxu.",
+"en": "plutophobia",
+"pos": "noun"
+},
+"plutokratik": {
+"az": "Plutokratiyaya aid.",
+"en": "plutocratic",
+"pos": "adjective"
+},
+"plutokratiya": {
+"az": "Varlıların hakimiyyəti.",
+"en": "plutocracy",
+"pos": "noun"
+},
+"plutonik": {
+"az": "Dərinlik süxurlarına aid.",
+"en": "plutonic",
+"pos": "adjective"
+},
+"plutonizm": {
+"az": "Süxurların maqmadan yaranması təlimi.",
+"en": "plutonism",
+"pos": "noun"
+},
+"plümaj": {
+"az": "Lələk bəzəyi.",
+"en": "plumage",
+"pos": "noun"
+},
+"plüral": {
+"az": "Cəm.",
+"en": "plural",
+"pos": "noun"
+},
+"plüvioqraf": {
+"az": "Yağıntını qeyd edən cihaz.",
+"en": "pluviograph",
+"pos": "noun"
+},
+"pnevmoblok": {
+"skip": "meaning not known with confidence"
+},
+"pnevmokok": {
+"az": "Sətəlcəm törədicisi.",
+"en": "pneumococcus",
+"pos": "noun"
+},
+"pnevmometr": {
+"skip": "meaning not known with confidence"
+},
+"pnevmonasos": {
+"az": "Pnevmatik nasos.",
+"en": "pneumatic pump",
+"pos": "noun"
+},
+"pnevmonika": {
+"az": "Pnevmatik idarəetmə texnikası.",
+"en": "pneumonics",
+"pos": "noun"
+},
+"pnevmooptik": {
+"skip": "meaning not known with confidence"
+},
+"pnevmopanel": {
+"skip": "meaning not known with confidence"
+},
+"pnevmopoçt": {
+"az": "Pnevmatik poçt.",
+"en": "pneumatic post",
+"pos": "noun"
+},
+"pnevmorele": {
+"az": "Pnevmatik rele.",
+"en": "pneumatic relay",
+"pos": "noun"
+},
+"pnevmotomiya": {
+"az": "Ağciyərin kəsilməsi.",
+"en": "pneumotomy",
+"pos": "noun"
+},
+"poçtamt": {
+"az": "Baş poçt.",
+"en": "main post office",
+"pos": "noun"
+}
+}

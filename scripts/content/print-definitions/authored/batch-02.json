@@ -1,0 +1,1092 @@
+{
+"binələmək": {
+"skip": "meaning not known with confidence"
+},
+"borlamaq": {
+"skip": "meaning not known with confidence"
+},
+"bütövləmək": {
+"az": "Bütöv hala gətirmək.",
+"en": "to make whole",
+"pos": "verb"
+},
+"cavablamaq": {
+"az": "Cavab vermək.",
+"en": "to answer",
+"pos": "verb"
+},
+"cılızlamaq": {
+"az": "Cılız hala düşmək.",
+"en": "to become puny",
+"pos": "verb"
+},
+"çamırlamaq": {
+"az": "Çamıra bulamaq.",
+"en": "to cover with mud",
+"pos": "verb"
+},
+"çəpləmək": {
+"skip": "meaning not known with confidence"
+},
+"çərəlmək": {
+"skip": "meaning not known with confidence"
+},
+"çılpaqlamaq": {
+"az": "Çılpaq etmək, soyundurmaq.",
+"en": "to strip bare",
+"pos": "verb"
+},
+"çökəkləmək": {
+"skip": "meaning not known with confidence"
+},
+"çözəmək": {
+"skip": "meaning not known with confidence"
+},
+"dazlamaq": {
+"az": "Dazlaşmaq, saçı tökülmək.",
+"en": "to go bald",
+"pos": "verb"
+},
+"etillənmək": {
+"az": "Etil qrupu birləşdirilmək.",
+"en": "to be ethylated",
+"pos": "verb"
+},
+"əlçimləmək": {
+"skip": "meaning not known with confidence"
+},
+"xətləmək": {
+"az": "Xətt çəkmək, xətlərə bölmək.",
+"en": "to rule lines",
+"pos": "verb"
+},
+"induksiyalamaq": {
+"az": "İnduksiya yaratmaq.",
+"en": "to induce (electrically)",
+"pos": "verb"
+},
+"izahatlanmaq": {
+"skip": "meaning not known with confidence"
+},
+"qazmaqlamaq": {
+"skip": "meaning not known with confidence"
+},
+"qripləmək": {
+"az": "Qripə yoluxmaq.",
+"en": "to catch flu",
+"pos": "verb"
+},
+"laxtalamaq": {
+"az": "Laxtalanıb qatılaşmaq.",
+"en": "to clot",
+"pos": "verb"
+},
+"lığlamaq": {
+"az": "Lığ basmaq, lillənmək.",
+"en": "to silt up",
+"pos": "verb"
+},
+"löhrəmləmək": {
+"az": "Löhrəm yerişlə getmək.",
+"en": "to amble",
+"pos": "verb"
+},
+"lüməkləmək": {
+"skip": "meaning not known with confidence"
+},
+"mucullamaq": {
+"skip": "meaning not known with confidence"
+},
+"növbələmək": {
+"az": "Növbə ilə dəyişdirmək.",
+"en": "to alternate",
+"pos": "verb"
+},
+"pələləmək": {
+"skip": "meaning not known with confidence"
+},
+"pırpızlamaq": {
+"skip": "meaning not known with confidence"
+},
+"portlamaq": {
+"skip": "meaning not known with confidence"
+},
+"rəngsizləmək": {
+"az": "Rəngini götürmək.",
+"en": "to decolourize",
+"pos": "verb"
+},
+"ruberoidləmək": {
+"az": "Ruberoidlə örtmək.",
+"en": "to cover with roofing felt",
+"pos": "verb"
+},
+"sıxlamaq": {
+"az": "Sıxlaşdırmaq.",
+"en": "to compact",
+"pos": "verb"
+},
+"sonulmaq": {
+"skip": "meaning not known with confidence"
+},
+"sterilləmək": {
+"az": "Sterilləşdirmək, mikroblardan təmizləmək.",
+"en": "to sterilize",
+"pos": "verb"
+},
+"təbəqələmək": {
+"az": "Təbəqə-təbəqə düzmək.",
+"en": "to layer, to stratify",
+"pos": "verb"
+},
+"təşkilatlanmaq": {
+"az": "Təşkilata birləşmək, mütəşəkkil hala gəlmək.",
+"en": "to become organized",
+"pos": "verb"
+},
+"tirləmək": {
+"skip": "meaning not known with confidence"
+},
+"topallamaq": {
+"az": "Axsamaq.",
+"en": "to limp",
+"pos": "verb"
+},
+"tosqunlamaq": {
+"skip": "meaning not known with confidence"
+},
+"şorlamaq": {
+"az": "Duzlamaq, şor etmək.",
+"en": "to salt",
+"pos": "verb"
+},
+"hoppuldamaq": {
+"skip": "meaning not known with confidence"
+},
+"tabaqlamaq": {
+"skip": "meaning not known with confidence"
+},
+"uralamaq": {
+"skip": "meaning not known with confidence"
+},
+"ağtüklü": {
+"az": "Tükü ağ.",
+"en": "white-haired",
+"pos": "adjective"
+},
+"altayşünas": {
+"az": "Altay dillərini və xalqlarını öyrənən alim.",
+"en": "Altaicist",
+"pos": "noun"
+},
+"altruist": {
+"az": "Başqalarının xeyrini öz mənafeyindən üstün tutan adam.",
+"en": "altruist",
+"pos": "noun"
+},
+"amerikapərəst": {
+"az": "Amerikaya pərəstiş edən.",
+"en": "pro-American",
+"pos": "adjective"
+},
+"amfoter": {
+"az": "Həm turşu, həm də əsas xassəsi göstərən.",
+"en": "amphoteric",
+"pos": "adjective"
+},
+"anabaptist": {
+"az": "Yalnız böyüklərin xaç suyuna salınmasını qəbul edən xristian təriqətinin üzvü.",
+"en": "Anabaptist",
+"pos": "noun"
+},
+"angioloq": {
+"az": "Damar xəstəlikləri üzrə həkim.",
+"en": "angiologist",
+"pos": "noun"
+},
+"anlaşmaz": {
+"az": "Anlaşa bilməyən, razılığa gəlməyən.",
+"en": "unable to come to an understanding",
+"pos": "adjective"
+},
+"arbovirus": {
+"az": "Həşəratlarla yayılan virus.",
+"en": "arbovirus",
+"pos": "noun"
+},
+"arealşünas": {
+"az": "Dil və ya canlıların yayılma arealını öyrənən mütəxəssis.",
+"en": "areal researcher",
+"pos": "noun"
+},
+"aristotelçi": {
+"az": "Aristotel fəlsəfəsinin tərəfdarı.",
+"en": "Aristotelian",
+"pos": "noun"
+},
+"aromatlanmaq": {
+"az": "Ətir qatılmaq.",
+"en": "to be flavoured",
+"pos": "verb"
+},
+"artıqlaşmaq": {
+"az": "Getdikcə artmaq.",
+"en": "to increase",
+"pos": "verb"
+},
+"arzuedilməz": {
+"az": "Arzu olunmayan.",
+"en": "undesirable",
+"pos": "adjective"
+},
+"aseksual": {
+"az": "Cinsi meyli olmayan.",
+"en": "asexual",
+"pos": "adjective"
+},
+"assurşünas": {
+"az": "Qədim Assuriyanı öyrənən alim.",
+"en": "Assyriologist",
+"pos": "noun"
+},
+"aşağılamaq": {
+"az": "Alçaltmaq, təhqir etmək.",
+"en": "to humiliate",
+"pos": "verb"
+},
+"aşırdılmaq": {
+"az": "Aşırılmaq, o biri tərəfə keçirilmək.",
+"en": "to be thrown over",
+"pos": "verb"
+},
+"aşkarlamaq": {
+"az": "Aşkar etmək, üzə çıxarmaq.",
+"en": "to reveal, to detect",
+"pos": "verb"
+},
+"aşqallamaq": {
+"skip": "meaning not known with confidence"
+},
+"atağız": {
+"skip": "meaning not known with confidence"
+},
+"atəşlənmək": {
+"az": "Alışmaq, od tutmaq.",
+"en": "to catch fire",
+"pos": "verb"
+},
+"atılğan": {
+"az": "Tələsik atılan, ehtiyatsız.",
+"en": "impulsive",
+"pos": "adjective"
+},
+"at-öküz": {
+"az": "At və öküz, qoşqu heyvanları.",
+"en": "horses and oxen",
+"pos": "noun"
+},
+"audioqurğu": {
+"az": "Səs yazan və ya səsləndirən cihaz.",
+"en": "audio device",
+"pos": "noun"
+},
+"audiovizual": {
+"az": "Həm eşitmə, həm görmə ilə qavranılan.",
+"en": "audiovisual",
+"pos": "adjective"
+},
+"auralanmaq": {
+"skip": "meaning not known with confidence"
+},
+"aviabenzin": {
+"az": "Təyyarə mühərrikləri üçün benzin.",
+"en": "aviation gasoline",
+"pos": "noun"
+},
+"aviadetektor": {
+"skip": "meaning not known with confidence"
+},
+"aviamexanik": {
+"az": "Təyyarə mexaniki.",
+"en": "aircraft mechanic",
+"pos": "noun"
+},
+"aviamühəndis": {
+"az": "Aviasiya mühəndisi.",
+"en": "aeronautical engineer",
+"pos": "noun"
+},
+"aviamühərrik": {
+"az": "Təyyarə mühərriki.",
+"en": "aircraft engine",
+"pos": "noun"
+},
+"avianəqliyyat": {
+"az": "Hava nəqliyyatı.",
+"en": "air transport",
+"pos": "noun"
+},
+"aviasəyahət": {
+"az": "Təyyarə ilə səyahət.",
+"en": "air travel",
+"pos": "noun"
+},
+"aviatexnik": {
+"az": "Təyyarələrə texniki xidmət göstərən mütəxəssis.",
+"en": "aviation technician",
+"pos": "noun"
+},
+"avtobalanslaşdırıcı": {
+"az": "Tarazlığı avtomatik saxlayan qurğu.",
+"en": "automatic balancer",
+"pos": "noun"
+},
+"aylatmaq": {
+"skip": "meaning not known with confidence"
+},
+"ayrıntı": {
+"az": "Təfərrüat.",
+"en": "detail",
+"pos": "noun"
+},
+"ayyarım": {
+"az": "Bir ay yarım.",
+"en": "a month and a half",
+"pos": "noun"
+},
+"azərbaycanpərəst": {
+"az": "Azərbaycana bağlı, onu sevən.",
+"en": "devoted to Azerbaijan",
+"pos": "adjective"
+},
+"azobenzol": {
+"az": "Boyaq istehsalında işlənən narıncı kristal maddə.",
+"en": "azobenzene",
+"pos": "noun"
+},
+"balaqan": {
+"az": "Yarmarka tamaşası; hoqqabazlıq, oyunbazlıq.",
+"en": "fairground show; farce",
+"pos": "noun"
+},
+"balansir": {
+"az": "Tarazlıq ağacı, yırğalanan ling.",
+"en": "balance beam",
+"pos": "noun"
+},
+"balkanşünas": {
+"az": "Balkanları öyrənən mütəxəssis.",
+"en": "Balkanist",
+"pos": "noun"
+},
+"ballamaq": {
+"az": "Bal qiymət vermək.",
+"en": "to score, to grade",
+"pos": "verb"
+},
+"baltikşünas": {
+"az": "Baltik dillərini və xalqlarını öyrənən mütəxəssis.",
+"en": "Balticist",
+"pos": "noun"
+},
+"banal": {
+"az": "Bayağı, adi.",
+"en": "banal",
+"pos": "adjective"
+},
+"baptist": {
+"az": "Baptist təriqətinin üzvü.",
+"en": "Baptist",
+"pos": "noun"
+},
+"barmen": {
+"az": "Barda içki satan və hazırlayan işçi.",
+"en": "bartender",
+"pos": "noun"
+},
+"barsızlamaq": {
+"az": "Bar verməz olmaq.",
+"en": "to become barren",
+"pos": "verb"
+},
+"başarı": {
+"az": "Uğur.",
+"en": "success",
+"pos": "noun"
+},
+"bataqlıqlanmaq": {
+"az": "Bataqlığa çevrilmək.",
+"en": "to become swampy",
+"pos": "verb"
+},
+"batini": {
+"az": "Daxili, gizli.",
+"en": "inner, esoteric",
+"pos": "adjective"
+},
+"baydarka": {
+"az": "Kürəklə idarə olunan yüngül qayıq.",
+"en": "kayak",
+"pos": "noun"
+},
+"berilliumlamaq": {
+"az": "Berilliumla örtmək.",
+"en": "to coat with beryllium",
+"pos": "verb"
+},
+"bezaredici": {
+"az": "Bezdirən, usandıran.",
+"en": "tiresome",
+"pos": "adjective"
+},
+"bezlətdirmək": {
+"skip": "meaning not known with confidence"
+},
+"bəxtiyarşünas": {
+"az": "Bəxtiyar Vahabzadənin yaradıcılığını öyrənən alim.",
+"en": "scholar of Bakhtiyar Vahabzade",
+"pos": "noun"
+},
+"bərabərüzvlü": {
+"az": "Üzvləri bərabər olan.",
+"en": "having equal members",
+"pos": "adjective"
+},
+"bəraətlənmək": {
+"az": "Bəraət qazanmaq.",
+"en": "to be acquitted",
+"pos": "verb"
+},
+"bərəkətlənmək": {
+"az": "Bərəkətli olmaq.",
+"en": "to become abundant",
+"pos": "verb"
+},
+"bərkxəlitəli": {
+"az": "Xəlitəsi bərk olan.",
+"en": "hard-natured",
+"pos": "adjective"
+},
+"bəzəyib-düzəmək": {
+"skip": "meaning not known with confidence"
+},
+"biblioqrafiyaşünas": {
+"az": "Biblioqrafiya mütəxəssisi.",
+"en": "bibliographer",
+"pos": "noun"
+},
+"biçimsizlətmək": {
+"az": "Biçimsiz hala salmaq.",
+"en": "to deform",
+"pos": "verb"
+},
+"bikarlamaq": {
+"az": "İşsiz qalmaq.",
+"en": "to be idle",
+"pos": "verb"
+},
+"biləndər": {
+"skip": "meaning not known with confidence"
+},
+"bimolekulyar": {
+"az": "İki molekulun iştirak etdiyi.",
+"en": "bimolecular",
+"pos": "adjective"
+},
+"binalanmaq": {
+"skip": "meaning not known with confidence"
+},
+"binokulyar": {
+"az": "İki gözlə görmə ilə bağlı.",
+"en": "binocular",
+"pos": "adjective"
+},
+"bitumlatdırmaq": {
+"az": "Başqasına bitum vurdurmaq.",
+"en": "to have coated with bitumen",
+"pos": "verb"
+},
+"bivariant": {
+"az": "İki dəyişənli.",
+"en": "bivariate",
+"pos": "adjective"
+},
+"blefləmək": {
+"az": "Blef etmək, aldadıcı görüntü yaratmaq.",
+"en": "to bluff",
+"pos": "verb"
+},
+"bos": {
+"skip": "meaning not known with confidence"
+},
+"boşbaş": {
+"az": "Boşbeyin.",
+"en": "empty-headed",
+"pos": "adjective"
+},
+"bozardılmaq": {
+"skip": "meaning not known with confidence"
+},
+"brezent": {
+"az": "Su keçirməyən qalın parça.",
+"en": "tarpaulin",
+"pos": "noun"
+},
+"briket": {
+"az": "Sıxılmış kömür və ya başqa maddə kəsəyi.",
+"en": "briquette",
+"pos": "noun"
+},
+"briolin": {
+"skip": "meaning not known with confidence"
+},
+"brioloq": {
+"az": "Mamırları öyrənən alim.",
+"en": "bryologist",
+"pos": "noun"
+},
+"budaqlamaq": {
+"az": "Budaq atmaq.",
+"en": "to branch out",
+"pos": "verb"
+},
+"bun": {
+"skip": "meaning not known with confidence"
+},
+"burmaclamaq": {
+"skip": "meaning not known with confidence"
+},
+"buynuzbaş": {
+"skip": "meaning not known with confidence"
+},
+"buzlaqşünas": {
+"az": "Buzlaqları öyrənən alim.",
+"en": "glaciologist",
+"pos": "noun"
+},
+"cabbarlışünas": {
+"az": "Cəfər Cabbarlının yaradıcılığını öyrənən alim.",
+"en": "scholar of Jafar Jabbarly",
+"pos": "noun"
+},
+"canısulu": {
+"skip": "meaning not known with confidence"
+},
+"cansızlamaq": {
+"az": "Cansız hala düşmək.",
+"en": "to lose vitality",
+"pos": "verb"
+},
+"cantaraq": {
+"skip": "meaning not known with confidence"
+},
+"cavanlatmaq": {
+"az": "Cavanlaşdırmaq.",
+"en": "to rejuvenate",
+"pos": "verb"
+},
+"cavidşünas": {
+"az": "Hüseyn Cavidin yaradıcılığını öyrənən alim.",
+"en": "scholar of Huseyn Javid",
+"pos": "noun"
+},
+"cazpərəst": {
+"az": "Cazı sevən.",
+"en": "jazz lover",
+"pos": "noun"
+},
+"cələk": {
+"skip": "meaning not known with confidence"
+},
+"cəzalamaq": {
+"az": "Cəza vermək.",
+"en": "to punish",
+"pos": "verb"
+},
+"cıqqalanmaq": {
+"skip": "meaning not known with confidence"
+},
+"cırtdanquş": {
+"skip": "meaning not known with confidence"
+},
+"cızmalayıb-qaralamaq": {
+"skip": "meaning not known with confidence"
+},
+"cibiboş": {
+"az": "Pulu olmayan.",
+"en": "penniless",
+"pos": "adjective"
+},
+"cildlədilmək": {
+"az": "Cild tikdirilmək.",
+"en": "to be bound (of a book)",
+"pos": "verb"
+},
+"cincar": {
+"skip": "meaning not known with confidence"
+},
+"cingildəşmək": {
+"az": "Birlikdə cingildəmək.",
+"en": "to jingle together",
+"pos": "verb"
+},
+"cükküldəşmək": {
+"skip": "meaning not known with confidence"
+},
+"cünun": {
+"az": "Dəlilik.",
+"en": "madness",
+"pos": "noun"
+},
+"çadralanmaq": {
+"az": "Çadraya bürünmək.",
+"en": "to put on a chador",
+"pos": "verb"
+},
+"çaxmaqçı": {
+"skip": "meaning not known with confidence"
+},
+"çalışmaz": {
+"az": "İşləməyi sevməyən.",
+"en": "work-shy",
+"pos": "adjective"
+},
+"çapaqlanmaq": {
+"az": "Gözə çapaq yığılmaq.",
+"en": "to become bleary-eyed",
+"pos": "verb"
+},
+"çarpaşmaq": {
+"skip": "meaning not known with confidence"
+},
+"çaşırmaq": {
+"skip": "meaning not known with confidence"
+},
+"çatallamaq": {
+"az": "Çatallaşmaq, haçalanmaq.",
+"en": "to fork",
+"pos": "verb"
+},
+"çatıldamaq": {
+"skip": "meaning not known with confidence"
+},
+"çexollatdırmaq": {
+"az": "Başqasına çexol keçirtmək.",
+"en": "to have covered",
+"pos": "verb"
+},
+"çekist": {
+"az": "Çeka orqanlarının əməkdaşı.",
+"en": "Chekist",
+"pos": "noun"
+},
+"çeşməklənmək": {
+"az": "Eynək taxmaq.",
+"en": "to put on glasses",
+"pos": "verb"
+},
+"çeynəşmək": {
+"skip": "meaning not known with confidence"
+},
+"çəliklənmək": {
+"skip": "meaning not known with confidence"
+},
+"çəliklətmək": {
+"skip": "meaning not known with confidence"
+},
+"çəngləmək": {
+"skip": "meaning not known with confidence"
+},
+"çənləmək": {
+"az": "Çən düşmək, dumanlanmaq.",
+"en": "to become foggy",
+"pos": "verb"
+},
+"çənlənib-çiskinlənmək": {
+"az": "Çən və çiskin düşmək.",
+"en": "to turn foggy and drizzly",
+"pos": "verb"
+},
+"çənləyib-çiskinləmək": {
+"az": "Çən düşüb çiskin yağmaq.",
+"en": "to turn foggy and drizzly",
+"pos": "verb"
+},
+"çəpikləmək": {
+"skip": "meaning not known with confidence"
+},
+"çətinlətmək": {
+"az": "Çətinləşdirmək.",
+"en": "to make difficult",
+"pos": "verb"
+},
+"çəyirdəklənmək": {
+"az": "Çəyirdək bağlamaq.",
+"en": "to form stones (of fruit)",
+"pos": "verb"
+},
+"çıxardılmaq": {
+"az": "Çıxarılmaq.",
+"en": "to be taken out",
+"pos": "verb"
+},
+"çıxım": {
+"az": "Çıxış yolu.",
+"en": "way out",
+"pos": "noun"
+},
+"çıxışmaq": {
+"skip": "meaning not known with confidence"
+},
+"çıldırmaq": {
+"az": "Dəli olmaq, ağlını itirmək.",
+"en": "to go mad",
+"pos": "verb"
+},
+"çırtıqlamaq": {
+"skip": "meaning not known with confidence"
+},
+"çiləkənləmək": {
+"skip": "meaning not known with confidence"
+},
+"çiniləmək": {
+"skip": "meaning not known with confidence"
+},
+"çip": {
+"az": "Mikrosxem; kiçik plastik nişan.",
+"en": "chip",
+"pos": "noun"
+},
+"çirklətmək": {
+"az": "Çirkləndirtmək.",
+"en": "to have dirtied",
+"pos": "verb"
+},
+"çitəkləmək": {
+"skip": "meaning not known with confidence"
+},
+"çivilənmək": {
+"skip": "meaning not known with confidence"
+},
+"çiyniəyri": {
+"az": "Çiyni əyri olan.",
+"en": "crooked-shouldered",
+"pos": "adjective"
+},
+"çoğan": {
+"az": "Kökü sabun kimi işlənən bitki.",
+"en": "soapwort",
+"pos": "noun"
+},
+"çoxdəyişkən": {
+"az": "Çox dəyişən.",
+"en": "highly variable",
+"pos": "adjective"
+},
+"çoxetnoslu": {
+"az": "Bir çox etnosdan ibarət.",
+"en": "multi-ethnic",
+"pos": "adjective"
+},
+"çoxxətli": {
+"az": "Çox xətti olan.",
+"en": "multiline",
+"pos": "adjective"
+},
+"çoxişlək": {
+"az": "Tez-tez işlənən.",
+"en": "frequently used",
+"pos": "adjective"
+},
+"çoxyaşar": {
+"az": "Uzun ömürlü; çoxillik.",
+"en": "long-lived; perennial",
+"pos": "adjective"
+},
+"çopurlamaq": {
+"az": "Çopurlaşmaq.",
+"en": "to become pockmarked",
+"pos": "verb"
+},
+"çoturlamaq": {
+"skip": "meaning not known with confidence"
+},
+"çöküşmək": {
+"skip": "meaning not known with confidence"
+},
+"çönük": {
+"skip": "meaning not known with confidence"
+},
+"çöpükləmək": {
+"skip": "meaning not known with confidence"
+},
+"çözənmək": {
+"skip": "meaning not known with confidence"
+},
+"çuxurladılmaq": {
+"skip": "meaning not known with confidence"
+},
+"çuqunlamaq": {
+"skip": "meaning not known with confidence"
+},
+"çürüdülmək": {
+"az": "Çürüdülüb xarab edilmək.",
+"en": "to be left to rot",
+"pos": "verb"
+},
+"çürükləmək": {
+"skip": "meaning not known with confidence"
+},
+"dadgül": {
+"skip": "meaning not known with confidence"
+},
+"dağladılmaq": {
+"az": "Dağ basdırılmaq.",
+"en": "to be branded",
+"pos": "verb"
+},
+"danışmaz": {
+"az": "Az danışan.",
+"en": "taciturn",
+"pos": "adjective"
+},
+"darınmaq": {
+"skip": "meaning not known with confidence"
+},
+"dartıqdodaq": {
+"skip": "meaning not known with confidence"
+},
+"dastanşünas": {
+"az": "Dastanları öyrənən alim.",
+"en": "scholar of epics",
+"pos": "noun"
+},
+"dayanıqlanmaq": {
+"az": "Dayanıqlı olmaq.",
+"en": "to become stable",
+"pos": "verb"
+},
+"dayazdib": {
+"az": "Dibi dayaz.",
+"en": "shallow-bottomed",
+"pos": "adjective"
+},
+"dekaqram": {
+"az": "On qrama bərabər çəki vahidi.",
+"en": "decagram",
+"pos": "noun"
+},
+"dekatirləmək": {
+"az": "Parçanı buxarla işləyib çəkilməyə qarşı hazırlamaq.",
+"en": "to decatize",
+"pos": "verb"
+},
+"demokratiyapərəst": {
+"az": "Demokratiya tərəfdarı.",
+"en": "democracy supporter",
+"pos": "noun"
+},
+"demon": {
+"az": "İblis, şər ruh.",
+"en": "demon",
+"pos": "noun"
+},
+"demonetləşmək": {
+"az": "Pul kimi dövriyyədən çıxmaq.",
+"en": "to be demonetized",
+"pos": "verb"
+},
+"demonik": {
+"az": "İblisə xas.",
+"en": "demonic",
+"pos": "adjective"
+},
+"dempferləmək": {
+"az": "Rəqsi sönümləmək.",
+"en": "to damp",
+"pos": "verb"
+},
+"depolyarlaşmaq": {
+"az": "Qütblüyünü itirmək.",
+"en": "to depolarize",
+"pos": "verb"
+},
+"desiqram": {
+"az": "Qramın onda biri.",
+"en": "decigram",
+"pos": "noun"
+},
+"dezaktivləşdirici": {
+"az": "Radioaktiv və ya zəhərli maddədən təmizləyən.",
+"en": "decontaminating",
+"pos": "adjective"
+},
+"dəfedilməz": {
+"az": "Dəf edilə bilməyən.",
+"en": "irresistible, unstoppable",
+"pos": "adjective"
+},
+"dəfolunmaz": {
+"az": "Dəf olunmayan.",
+"en": "irrepressible",
+"pos": "adjective"
+},
+"dəmirdon": {
+"az": "Dəmir zirehə bürünmüş.",
+"en": "iron-clad",
+"pos": "adjective"
+},
+"dəmirlətmək": {
+"skip": "meaning not known with confidence"
+},
+"dərkedici": {
+"az": "Dərk edən, idraki.",
+"en": "cognitive",
+"pos": "adjective"
+},
+"dərmanşünas": {
+"az": "Dərmanları öyrənən mütəxəssis.",
+"en": "pharmacologist",
+"pos": "noun"
+},
+"dəyərlənmək": {
+"az": "Dəyər qazanmaq.",
+"en": "to gain value",
+"pos": "verb"
+},
+"dınqıldanmaq": {
+"skip": "meaning not known with confidence"
+},
+"diafraqm": {
+"az": "Fotoaparatda işığı tənzimləyən dəlik; diafraqma.",
+"en": "aperture; diaphragm",
+"pos": "noun"
+},
+"dibləmək": {
+"skip": "meaning not known with confidence"
+},
+"dicey": {
+"skip": "meaning not known with confidence"
+},
+"diferensiallamaq": {
+"az": "Diferensialını tapmaq.",
+"en": "to differentiate",
+"pos": "verb"
+},
+"diksinişmək": {
+"az": "Hamılıqla diksinmək.",
+"en": "to start together",
+"pos": "verb"
+},
+"diliquru": {
+"skip": "meaning not known with confidence"
+},
+"dilisərt": {
+"az": "Sərt danışan.",
+"en": "sharp-tongued",
+"pos": "adjective"
+},
+"dinlədilmək": {
+"az": "Dinləməyə məcbur edilmək.",
+"en": "to be made to listen",
+"pos": "verb"
+},
+"disharmonik": {
+"az": "Ahəngsiz.",
+"en": "disharmonious",
+"pos": "adjective"
+},
+"disharmoniya": {
+"az": "Ahəngsizlik.",
+"en": "disharmony",
+"pos": "noun"
+},
+"diskretləmək": {
+"az": "Fasiləsiz kəmiyyəti ayrı-ayrı qiymətlərə bölmək.",
+"en": "to discretize",
+"pos": "verb"
+},
+"dişəkləmək": {
+"skip": "meaning not known with confidence"
+},
+"dizilmək": {
+"az": "Sıraya düzülmək.",
+"en": "to be lined up",
+"pos": "verb"
+},
+"doktrinyor": {
+"az": "Nəzəri ehkamlara kor-koranə bağlı adam.",
+"en": "doctrinaire",
+"pos": "noun"
+},
+"doqqazlamaq": {
+"skip": "meaning not known with confidence"
+},
+"dolaylamaq": {
+"az": "Dolanıb keçmək.",
+"en": "to go round",
+"pos": "verb"
+},
+"domra": {
+"az": "Üç simli rus xalq çalğı aləti.",
+"en": "domra",
+"pos": "noun"
+},
+"doyurdulmaq": {
+"az": "Doyurulmaq.",
+"en": "to be fed full",
+"pos": "verb"
+},
+"dozalandırılmaq": {
+"az": "Doza ilə verilmək.",
+"en": "to be dosed",
+"pos": "verb"
+},
+"dördnövçü": {
+"skip": "meaning not known with confidence"
+},
+"döşüdolu": {
+"skip": "meaning not known with confidence"
+},
+"dövlətləndirilmək": {
+"az": "Dövlət mülkiyyətinə keçirilmək.",
+"en": "to be nationalized",
+"pos": "verb"
+},
+"dövlətsizləşdirilmək": {
+"az": "Dövlətçilikdən məhrum edilmək.",
+"en": "to be deprived of statehood",
+"pos": "verb"
+},
+"döyənəkləmək": {
+"skip": "meaning not known with confidence"
+},
+"dreyfləmək": {
+"az": "Axınla sürüklənmək.",
+"en": "to drift",
+"pos": "verb"
+},
+"drosselləmək": {
+"az": "Axını boğub azaltmaq.",
+"en": "to throttle",
+"pos": "verb"
+},
+"dual": {
+"az": "İkili.",
+"en": "dual",
+"pos": "adjective"
+},
+"duyarsızlaşmaq": {
+"az": "Duyğusuz olmaq.",
+"en": "to become insensitive",
+"pos": "verb"
+},
+"dürmələmək": {
+"az": "Dürüb bükmək.",
+"en": "to roll up",
+"pos": "verb"
+},
+"dürtük": {
+"skip": "meaning not known with confidence"
+}
+}

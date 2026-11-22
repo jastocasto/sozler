@@ -1,5 +1,5 @@
 {
- "method": "Definitions for headwords that had none. Paraphrases are AI-assisted new wording of the cited explanatory (2006) and Musayev Azerbaijani–English dictionary senses; derivation and cross-reference definitions follow explicit statements in the explanatory dictionary; rule-based definitions describe transparent productive suffixes of defined base words. Print prose is cited, not republished. This is not native-speaker verification.",
+ "method": "Definitions for headwords that had none. Paraphrases are AI-assisted new wording of the cited explanatory (2006) and Musayev Azerbaijani–English dictionary senses; derivation and cross-reference definitions follow explicit statements in the explanatory dictionary; rule-based definitions describe transparent productive suffixes of defined base words; authored definitions are AI-written for spellings that neither print dictionary covers, cite only the orthography page and are marked for review. Print prose is cited, not republished. This is not native-speaker verification.",
  "license": "New editorial text is shared under CC BY-SA 4.0.",
  "sources": {
   "explanatory": [
@@ -37,32 +37,40 @@
  },
  "summary": {
   "undefined_before": 63985,
-  "undefined_after": 31779,
+  "undefined_after": 9367,
   "isolated_before": 30802,
-  "isolated_after": 21858,
-  "definitions": 32206,
+  "isolated_after": 9425,
+  "definitions": 54618,
   "definitions_by_method": {
-   "cross-reference": 297,
-   "derivation": 2540,
-   "paraphrase": 10162,
-   "rule": 19207
+   "authored": 6776,
+   "cross-reference": 410,
+   "derivation": 3591,
+   "paraphrase": 17587,
+   "rule": 26254
   },
-  "low_confidence_paraphrases": 637,
-  "links": 17650,
+  "low_confidence_paraphrases": 737,
+  "links": 33788,
   "stats": {
-   "definitions:cross-reference": 297,
-   "definitions:derivation": 2540,
-   "definitions:paraphrase": 10162,
-   "definitions:rule": 19207,
-   "links:compound": 14382,
+   "definitions:authored": 6776,
+   "definitions:cross-reference": 410,
+   "definitions:derivation": 3591,
+   "definitions:paraphrase": 17587,
+   "definitions:rule": 26254,
+   "links:combining": 2196,
+   "links:compound": 18064,
+   "links:compound-print": 394,
    "links:cross-reference": 150,
+   "links:definition-genus": 3461,
+   "links:definition-synonym": 920,
    "links:derivation": 1644,
-   "links:rule": 1474,
-   "paraphrase:rejected-copy": 10,
-   "paraphrase:rejected-unsourced": 13,
-   "paraphrase:skipped": 64,
-   "rule:unconfirmed-existing": 52208
+   "links:loan-family": 1055,
+   "links:quantity": 551,
+   "links:rule": 4700,
+   "links:rule-print": 653,
+   "paraphrase:rejected-unsourced": 24,
+   "paraphrase:skipped": 89,
+   "rule:unconfirmed-existing": 64845
   }
  },
- "output_sha256": "ae12f794324093f3045e830822d5c5b0f95fb38c315114dd1a30780ff2a2c696"
+ "output_sha256": "3e4a00c4a186361c62b4acc80c33d71306d2d75feaf025b31ff9830b6f99ea58"
 }

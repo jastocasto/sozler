@@ -1,0 +1,1190 @@
+{
+"azeotrop": {
+"az": "Sabit tərkibdə qaynayan maye qarışığı.",
+"en": "azeotrope",
+"pos": "noun"
+},
+"azerit": {
+"skip": "meaning not known with confidence"
+},
+"azərbaycanyönümlü": {
+"az": "Azərbaycana yönəlmiş.",
+"en": "Azerbaijan-oriented",
+"pos": "adjective"
+},
+"azimutal": {
+"az": "Azimutla bağlı.",
+"en": "azimuthal",
+"pos": "adjective"
+},
+"azinfos-etil": {
+"az": "Fosfor üzvi insektisid.",
+"en": "azinphos-ethyl",
+"pos": "noun"
+},
+"azinfos-metil": {
+"az": "Fosfor üzvi insektisid.",
+"en": "azinphos-methyl",
+"pos": "noun"
+},
+"azişlənmə": {
+"az": "Az işlənən olma.",
+"en": "rare usage",
+"pos": "noun"
+},
+"azoamin": {
+"az": "Azo qrupu olan amin.",
+"en": "azo amine",
+"pos": "noun"
+},
+"azoanilin": {
+"az": "Anilin əsaslı azo birləşmə.",
+"en": "azoaniline",
+"pos": "noun"
+},
+"azobirləşmə": {
+"az": "Azo qrupu olan üzvi birləşmə.",
+"en": "azo compound",
+"pos": "noun"
+},
+"azoboya": {
+"az": "Azo birləşmələrindən alınan boya.",
+"en": "azo dye",
+"pos": "noun"
+},
+"azokomponent": {
+"az": "Azo boyanın tərkib hissəsi.",
+"en": "azo component",
+"pos": "noun"
+},
+"azoksibenzol": {
+"az": "Azoksi qrupu olan benzol törəməsi.",
+"en": "azoxybenzene",
+"pos": "noun"
+},
+"azoksibirləşmə": {
+"az": "Azoksi qrupu olan birləşmə.",
+"en": "azoxy compound",
+"pos": "noun"
+},
+"azoksitörəmə": {
+"az": "Azoksi törəməsi.",
+"en": "azoxy derivative",
+"pos": "noun"
+},
+"azoqrup": {
+"az": "İki azot atomundan ibarət funksional qrup.",
+"en": "azo group",
+"pos": "noun"
+},
+"azometan": {
+"az": "Azo qrupu olan metan törəməsi.",
+"en": "azomethane",
+"pos": "noun"
+},
+"azometin": {
+"az": "Karbon-azot ikiqat rabitəli birləşmə.",
+"en": "azomethine",
+"pos": "noun"
+},
+"azonallıq": {
+"az": "Zonallığa tabe olmama.",
+"en": "azonality",
+"pos": "noun"
+},
+"azotobakter": {
+"az": "Havadan azot mənimsəyən torpaq bakteriyası.",
+"en": "azotobacter",
+"pos": "noun"
+},
+"azotobakterin": {
+"az": "Azotobakterdən hazırlanan gübrə.",
+"en": "azotobacterin",
+"pos": "noun"
+},
+"azotometr": {
+"az": "Azotun miqdarını ölçən cihaz.",
+"en": "azotometer",
+"pos": "noun"
+},
+"babadanqalan": {
+"az": "Babadan qalma, irsən keçən.",
+"en": "inherited from forefathers",
+"pos": "adjective"
+},
+"babasilotu": {
+"skip": "meaning not known with confidence"
+},
+"babezioz": {
+"az": "Babeziyaların törətdiyi heyvan xəstəliyi.",
+"en": "babesiosis",
+"pos": "noun"
+},
+"babəki": {
+"az": "Babək hərəkatının tərəfdarı.",
+"en": "follower of Babak",
+"pos": "noun"
+},
+"babilli": {
+"az": "Babil sakini.",
+"en": "Babylonian",
+"pos": "noun"
+},
+"bacatəmizləyən": {
+"az": "Baca təmizləyən.",
+"en": "chimney sweep",
+"pos": "noun"
+},
+"badamcıqüstü çuxur": {
+"az": "Badamcıq vəzinin üstündəki çuxur.",
+"en": "supratonsillar fossa",
+"pos": "noun"
+},
+"baftatoxuyan": {
+"az": "Bafta toxuyan.",
+"en": "lace weaver",
+"pos": "noun"
+},
+"bager nasosu": {
+"az": "Lil sorucu nasos.",
+"en": "dredge pump",
+"pos": "noun"
+},
+"bağançanaq": {
+"skip": "meaning not known with confidence"
+},
+"bağışlayıcı": {
+"az": "Bağışlayan.",
+"en": "forgiving",
+"pos": "adjective"
+},
+"bahamlı": {
+"az": "Baham adalarından olan.",
+"en": "Bahamian",
+"pos": "noun"
+},
+"baxil": {
+"skip": "meaning not known with confidence"
+},
+"bakalavriat": {
+"az": "Ali təhsilin birinci pilləsi.",
+"en": "bachelor's programme",
+"pos": "noun"
+},
+"bakalavriatura": {
+"az": "Bakalavr pilləsi.",
+"en": "bachelor's degree programme",
+"pos": "noun"
+},
+"bakelit": {
+"az": "Fenol-formaldehid plastiki.",
+"en": "Bakelite",
+"pos": "noun"
+},
+"bakonqo": {
+"az": "Konqo xalqı.",
+"en": "Bakongo",
+"pos": "noun"
+},
+"bakterial": {
+"az": "Bakteriyalara aid.",
+"en": "bacterial",
+"pos": "adjective"
+},
+"bakterioflora": {
+"az": "Bakteriya florası.",
+"en": "bacterial flora",
+"pos": "noun"
+},
+"bakterioxlorin": {
+"az": "Fotosintez edən bakteriyaların piqmenti.",
+"en": "bacteriochlorin",
+"pos": "noun"
+},
+"bakterioqram": {
+"az": "Bakteriya tərkibinin göstəricisi.",
+"en": "bacteriogram",
+"pos": "noun"
+},
+"bakterioprotein": {
+"az": "Bakteriya zülalı.",
+"en": "bacterial protein",
+"pos": "noun"
+},
+"bakterioskopiya": {
+"az": "Bakteriyaların mikroskopda tədqiqi.",
+"en": "bacterioscopy",
+"pos": "noun"
+},
+"bakteriostatik": {
+"az": "Bakteriyaların çoxalmasını dayandıran.",
+"en": "bacteriostatic",
+"pos": "adjective"
+},
+"bakteriostaz": {
+"az": "Bakteriyaların çoxalmasının dayanması.",
+"en": "bacteriostasis",
+"pos": "noun"
+},
+"bakteriotrofizm": {
+"skip": "meaning not known with confidence"
+},
+"bakterioz": {
+"az": "Bakteriyaların törətdiyi bitki xəstəliyi.",
+"en": "bacteriosis",
+"pos": "noun"
+},
+"bakterisid": {
+"az": "Bakteriyaları öldürən.",
+"en": "bactericide",
+"pos": "noun"
+},
+"baktriyalı": {
+"az": "Qədim Baktriyadan olan.",
+"en": "Bactrian",
+"pos": "noun"
+},
+"baqanda": {
+"az": "Uqandada yaşayan xalq.",
+"en": "Baganda",
+"pos": "noun"
+},
+"baqaud": {
+"skip": "meaning not known with confidence"
+},
+"baqvalin": {
+"skip": "meaning not known with confidence"
+},
+"balaalma": {
+"az": "Bala alma, çoxaltma.",
+"en": "breeding offspring",
+"pos": "noun"
+},
+"balabəyli": {
+"skip": "meaning not known with confidence"
+},
+"balağıdar": {
+"az": "Balağı dar.",
+"en": "narrow-legged (trousers)",
+"pos": "adjective"
+},
+"balağıgen": {
+"az": "Balağı gen.",
+"en": "wide-legged (trousers)",
+"pos": "adjective"
+},
+"balağıqırçınlı": {
+"az": "Balağı qırçınlı.",
+"en": "with pleated legs",
+"pos": "adjective"
+},
+"balaxana": {
+"az": "Evin yuxarı mərtəbəsi, eyvanlı otaq.",
+"en": "upper room, balcony room",
+"pos": "noun"
+},
+"balansirləyici": {
+"az": "Tarazlaşdıran.",
+"en": "balancing",
+"pos": "adjective"
+},
+"balbal": {
+"az": "Qədim türk daş heykəli.",
+"en": "balbal (Turkic stone figure)",
+"pos": "noun"
+},
+"balet-oratoriya": {
+"az": "Balet və oratoriyanı birləşdirən əsər.",
+"en": "ballet-oratorio",
+"pos": "noun"
+},
+"balıqbaş": {
+"az": "Başı balıq başına bənzər.",
+"en": "fish-headed",
+"pos": "adjective"
+},
+"balıqdaşıyan": {
+"az": "Balıq daşıyan.",
+"en": "fish-carrying",
+"pos": "adjective"
+},
+"balıqdoğrayan": {
+"az": "Balıq doğrayan.",
+"en": "fish-cutting",
+"pos": "adjective"
+},
+"balıqdonduran": {
+"az": "Balıq donduran.",
+"en": "fish-freezing",
+"pos": "adjective"
+},
+"balıqduzlayan": {
+"az": "Balıq duzlayan.",
+"en": "fish-salting",
+"pos": "adjective"
+},
+"balıqovlayan": {
+"az": "Balıq ovlayan.",
+"en": "fishing",
+"pos": "adjective"
+},
+"balıqtəmizləyən": {
+"az": "Balıq təmizləyən.",
+"en": "fish-cleaning",
+"pos": "adjective"
+},
+"balıqüzgüclü": {
+"skip": "meaning not known with confidence"
+},
+"balıqyeyən": {
+"az": "Balıqla qidalanan.",
+"en": "fish-eating",
+"pos": "adjective"
+},
+"balıqyuyan": {
+"az": "Balıq yuyan.",
+"en": "fish-washing",
+"pos": "adjective"
+},
+"balker": {
+"az": "Toplu yük gəmisi.",
+"en": "bulk carrier",
+"pos": "noun"
+},
+"ballaster": {
+"az": "Ballast daşıyan maşın.",
+"en": "ballast machine",
+"pos": "noun"
+},
+"baller": {
+"skip": "meaning not known with confidence"
+},
+"balnefiziologiya": {
+"az": "Mineral suların orqanizmə təsirini öyrənən elm.",
+"en": "balneophysiology",
+"pos": "noun"
+},
+"balneofizioloji": {
+"az": "Balneofiziologiyaya aid.",
+"en": "balneophysiological",
+"pos": "adjective"
+},
+"balneoreaksiya": {
+"az": "Mineral su müalicəsinə reaksiya.",
+"en": "balneoreaction",
+"pos": "noun"
+},
+"balneotexnika": {
+"az": "Mineral su müalicəsi texnikası.",
+"en": "balneotechnics",
+"pos": "noun"
+},
+"balometr": {
+"skip": "meaning not known with confidence"
+},
+"balsız-qaymaqsız": {
+"az": "Bal-qaymaq olmadan, sadə.",
+"en": "plain, without honey or cream",
+"pos": "adjective"
+},
+"baltalı-baltasız": {
+"az": "Baltalı da, baltasız da.",
+"en": "with or without an axe",
+"pos": "adjective"
+},
+"baluba": {
+"az": "Konqo xalqı.",
+"en": "Baluba",
+"pos": "noun"
+},
+"balverən": {
+"az": "Bal verən.",
+"en": "honey-yielding",
+"pos": "adjective"
+},
+"balyaj": {
+"az": "Saçın açıq tonlarla boyanması.",
+"en": "balayage",
+"pos": "noun"
+},
+"bamper": {
+"az": "Avtomobilin ön və arxa qoruyucu tiri.",
+"en": "bumper",
+"pos": "noun"
+},
+"banditizm": {
+"az": "Quldurluq.",
+"en": "banditry",
+"pos": "noun"
+},
+"bankabağlayan": {
+"az": "Bankaları bağlayan maşın.",
+"en": "can-sealing machine",
+"pos": "noun"
+},
+"bankdaxili audit": {
+"az": "Bankın daxili yoxlaması.",
+"en": "internal bank audit",
+"pos": "noun"
+},
+"bankdankənar": {
+"az": "Bankdan kənar.",
+"en": "non-bank",
+"pos": "adjective"
+},
+"banner": {
+"az": "Reklam lövhəsi.",
+"en": "banner",
+"pos": "noun"
+},
+"bantu": {
+"az": "Afrikanın bantu xalqları.",
+"en": "Bantu",
+"pos": "noun"
+},
+"baobab": {
+"az": "Afrikanın nəhəng gövdəli ağacı.",
+"en": "baobab",
+"pos": "noun"
+},
+"baramaaçan": {
+"az": "Barama açan.",
+"en": "cocoon-reeling",
+"pos": "adjective"
+},
+"baramaaçma": {
+"az": "Baramanın açılması.",
+"en": "cocoon reeling",
+"pos": "noun"
+},
+"baramabəsləyən": {
+"az": "Barama bəsləyən.",
+"en": "silkworm breeder",
+"pos": "noun"
+},
+"baramaboğan": {
+"az": "Baramanı buxarla boğan.",
+"en": "cocoon-stifling",
+"pos": "adjective"
+},
+"baramadöyən": {
+"az": "Barama döyən.",
+"en": "cocoon-beating",
+"pos": "adjective"
+},
+"baramasaxlayan": {
+"az": "Barama saxlayan.",
+"en": "cocoon-storing",
+"pos": "adjective"
+},
+"baramasarıyan": {
+"az": "Barama sarıyan.",
+"en": "cocoon-winding",
+"pos": "adjective"
+},
+"baramatəmizləyən": {
+"az": "Barama təmizləyən.",
+"en": "cocoon-cleaning",
+"pos": "adjective"
+},
+"barani": {
+"skip": "meaning not known with confidence"
+},
+"barbital": {
+"az": "Yuxugətirici dərman.",
+"en": "barbital",
+"pos": "noun"
+},
+"barbotaj": {
+"az": "Qazın mayedən keçirilməsi.",
+"en": "bubbling, sparging",
+"pos": "noun"
+},
+"barbotyer": {
+"az": "Qaz keçirən qurğu.",
+"en": "sparger",
+"pos": "noun"
+},
+"bargətirən": {
+"az": "Bar gətirən.",
+"en": "fruit-bearing",
+"pos": "adjective"
+},
+"bariatrik": {
+"az": "Piylənmə müalicəsinə aid.",
+"en": "bariatric",
+"pos": "adjective"
+},
+"barketta": {
+"az": "Açıq kuzovlu idman avtomobili.",
+"en": "barchetta",
+"pos": "noun"
+},
+"barmaqotu": {
+"skip": "meaning not known with confidence"
+},
+"barmaqucu": {
+"az": "Barmağın ucu.",
+"en": "fingertip",
+"pos": "noun"
+},
+"baroaparat": {
+"az": "Təzyiq ölçən aparat.",
+"en": "pressure apparatus",
+"pos": "noun"
+},
+"barofunksiya": {
+"az": "Təzyiqə həssas funksiya.",
+"en": "barofunction",
+"pos": "noun"
+},
+"barokamera": {
+"az": "Təzyiq kamerası.",
+"en": "pressure chamber",
+"pos": "noun"
+},
+"barokko": {
+"az": "XVI–XVIII əsrlərin təmtəraqlı sənət üslubu.",
+"en": "Baroque",
+"pos": "noun"
+},
+"baronet": {
+"az": "İngiltərədə zadəgan titulu.",
+"en": "baronet",
+"pos": "noun"
+},
+"baroreseptor": {
+"az": "Təzyiqə həssas reseptor.",
+"en": "baroreceptor",
+"pos": "noun"
+},
+"baroskop": {
+"az": "Havanın sıxlığını göstərən cihaz.",
+"en": "baroscope",
+"pos": "noun"
+},
+"baroterapiya": {
+"az": "Təzyiqlə müalicə.",
+"en": "barotherapy",
+"pos": "noun"
+},
+"barotermoqraf": {
+"az": "Təzyiq və temperaturu yazan cihaz.",
+"en": "barothermograph",
+"pos": "noun"
+},
+"barotermometr": {
+"az": "Təzyiq və temperatur ölçən cihaz.",
+"en": "barothermometer",
+"pos": "noun"
+},
+"barraj": {
+"az": "Bənd, sədd; əlavə matç.",
+"en": "barrage; play-off",
+"pos": "noun"
+},
+"barrakuda": {
+"az": "Yırtıcı dəniz balığı.",
+"en": "barracuda",
+"pos": "noun"
+},
+"barsil": {
+"skip": "meaning not known with confidence"
+},
+"bartolinit": {
+"az": "Bartolin vəzisinin iltihabı.",
+"en": "bartholinitis",
+"pos": "noun"
+},
+"barundi": {
+"az": "Burundi xalqı.",
+"en": "Barundi",
+"pos": "noun"
+},
+"barverən": {
+"az": "Bar verən.",
+"en": "fruit-bearing",
+"pos": "adjective"
+},
+"basalaq": {
+"skip": "meaning not known with confidence"
+},
+"basılı": {
+"az": "Basılmış.",
+"en": "pressed, printed",
+"pos": "adjective"
+},
+"bask": {
+"az": "Pireneydə yaşayan xalq.",
+"en": "Basque",
+"pos": "noun"
+},
+"basorama": {
+"skip": "meaning not known with confidence"
+},
+"basuto": {
+"az": "Lesoto xalqı.",
+"en": "Basotho",
+"pos": "noun"
+},
+"başçısız-sərkərdəsiz": {
+"az": "Başçısı, sərkərdəsi olmayan.",
+"en": "leaderless",
+"pos": "adjective"
+},
+"başıkəsik": {
+"az": "Başı kəsilmiş.",
+"en": "headless, beheaded",
+"pos": "adjective"
+},
+"başıləçəkli": {
+"az": "Başı ləçəkli.",
+"en": "with petalled head",
+"pos": "adjective"
+},
+"başıtüklü yonca": {
+"az": "Tüklü başlı yonca növü.",
+"en": "hairy-headed clover",
+"pos": "noun"
+},
+"başqası": {
+"az": "Başqa adam.",
+"en": "someone else",
+"pos": "noun"
+},
+"başpulu": {
+"az": "Adambaşına alınan vergi.",
+"en": "poll tax",
+"pos": "noun"
+},
+"baştağ": {
+"skip": "meaning not known with confidence"
+},
+"başucalılıq": {
+"az": "Başıucalıq, şərəf.",
+"en": "honour, pride",
+"pos": "noun"
+},
+"batabat": {
+"skip": "meaning not known with confidence"
+},
+"batak": {
+"az": "Sumatrada yaşayan xalq.",
+"en": "Batak",
+"pos": "noun"
+},
+"batalist": {
+"az": "Döyüş səhnələri rəssamı.",
+"en": "battle painter",
+"pos": "noun"
+},
+"batat": {
+"az": "Şirin kartof.",
+"en": "sweet potato",
+"pos": "noun"
+},
+"batırıcı": {
+"az": "Batıran.",
+"en": "sinking",
+"pos": "adjective"
+},
+"batial": {
+"az": "Dənizin dərin yamac zonasına aid.",
+"en": "bathyal",
+"pos": "adjective"
+},
+"bationim": {
+"az": "Su dibi relyef formasının adı.",
+"en": "bathonym",
+"pos": "noun"
+},
+"batiskaf": {
+"az": "Dərin dəniz tədqiqat aparatı.",
+"en": "bathyscaphe",
+"pos": "noun"
+},
+"batoxrom": {
+"az": "Rəngi dərinləşdirən qrup.",
+"en": "bathochrome",
+"pos": "noun"
+},
+"batometr": {
+"az": "Dərinlikdən su nümunəsi götürən cihaz.",
+"en": "bathometer",
+"pos": "noun"
+},
+"baton": {
+"az": "Uzunsov çörək; şokolad batonu.",
+"en": "baton loaf; bar",
+"pos": "noun"
+},
+"bayandur": {
+"az": "Oğuz tayfalarından biri.",
+"en": "Bayandur (Oghuz tribe)",
+"pos": "noun"
+},
+"bayker": {
+"az": "Motosiklet həvəskarı.",
+"en": "biker",
+"pos": "noun"
+},
+"bayramaşı": {
+"az": "Bayram aşı, plov.",
+"en": "festive pilaf",
+"pos": "noun"
+},
+"bayrambəyi": {
+"skip": "meaning not known with confidence"
+},
+"baytaq": {
+"skip": "meaning not known with confidence"
+},
+"bazaltik": {
+"az": "Bazalta aid.",
+"en": "basaltic",
+"pos": "adjective"
+},
+"bazaraşağı": {
+"skip": "meaning not known with confidence"
+},
+"bazidi": {
+"az": "Bazidiomisetlərdə spor əmələ gətirən orqan.",
+"en": "basidium",
+"pos": "noun"
+},
+"bazofiliya": {
+"az": "Qanda bazofillərin artması.",
+"en": "basophilia",
+"pos": "noun"
+},
+"behverən": {
+"az": "Beh verən.",
+"en": "depositor (of earnest money)",
+"pos": "noun"
+},
+"bekkerel": {
+"az": "Radioaktivlik vahidi.",
+"en": "becquerel",
+"pos": "noun"
+},
+"bekronim": {
+"az": "Mövcud sözə sonradan uydurulmuş açılış.",
+"en": "backronym",
+"pos": "noun"
+},
+"belan": {
+"skip": "meaning not known with confidence"
+},
+"belbağlanası dost": {
+"az": "Bel bağlanacaq etibarlı dost.",
+"en": "reliable friend",
+"pos": "noun"
+},
+"beliaçıq": {
+"skip": "meaning not known with confidence"
+},
+"beliquzdu": {
+"az": "Beli qozbel.",
+"en": "hunchbacked",
+"pos": "adjective"
+},
+"belq": {
+"az": "Belçikalı.",
+"en": "Belgian",
+"pos": "noun"
+},
+"belladon": {
+"az": "Zəhərli dərman bitkisi.",
+"en": "belladonna",
+"pos": "noun"
+},
+"bellini": {
+"az": "Şampan və şaftalı kokteyli.",
+"en": "Bellini (cocktail)",
+"pos": "noun"
+},
+"bel-omba fəqərələri": {
+"az": "Bel və omba fəqərələri.",
+"en": "lumbosacral vertebrae",
+"pos": "noun"
+},
+"bemba": {
+"az": "Zambiya xalqı.",
+"en": "Bemba",
+"pos": "noun"
+},
+"beninli": {
+"az": "Benindən olan.",
+"en": "Beninese",
+"pos": "noun"
+},
+"benqal": {
+"az": "Benqal xalqı.",
+"en": "Bengali",
+"pos": "noun"
+},
+"bentos": {
+"az": "Su dibində yaşayan orqanizmlər.",
+"en": "benthos",
+"pos": "noun"
+},
+"benuar": {
+"az": "Teatrda parter səviyyəsindəki lojalar.",
+"en": "baignoire (box)",
+"pos": "noun"
+},
+"benue-konqolez": {
+"az": "Niger-Konqo dil qolu.",
+"en": "Benue–Congo",
+"pos": "noun"
+},
+"benzilbenzoat": {
+"az": "Qaşınmaya qarşı dərman.",
+"en": "benzyl benzoate",
+"pos": "noun"
+},
+"benzilxlorid": {
+"az": "Kimyəvi birləşmə.",
+"en": "benzyl chloride",
+"pos": "noun"
+},
+"benzilsellüloz": {
+"az": "Sellüloz efiri.",
+"en": "benzyl cellulose",
+"pos": "noun"
+},
+"benzindolduran": {
+"az": "Benzin dolduran.",
+"en": "fuel-filling",
+"pos": "adjective"
+},
+"benzinədavamlı": {
+"az": "Benzinə davamlı.",
+"en": "petrol-resistant",
+"pos": "adjective"
+},
+"benzingötürücü": {
+"az": "Benzin götürən boru.",
+"en": "fuel intake",
+"pos": "noun"
+},
+"benzinölçmə": {
+"az": "Benzinin ölçülməsi.",
+"en": "fuel gauging",
+"pos": "noun"
+},
+"bermudlu": {
+"az": "Bermud adalarından olan.",
+"en": "Bermudian",
+"pos": "noun"
+},
+"bertol": {
+"skip": "meaning not known with confidence"
+},
+"bertollid": {
+"az": "Dəyişkən tərkibli birləşmə.",
+"en": "berthollide",
+"pos": "noun"
+},
+"beşarşınlıq": {
+"az": "Beş arşın uzunluğunda.",
+"en": "five arshins long",
+"pos": "adjective"
+},
+"beşayaqlı masa": {
+"az": "Beş ayaqlı masa.",
+"en": "five-legged table",
+"pos": "noun"
+},
+"beşbaşlıq norma": {
+"skip": "meaning not known with confidence"
+},
+"beşdəqiqəlik toplantı": {
+"az": "Beş dəqiqəlik qısa iclas.",
+"en": "five-minute meeting",
+"pos": "noun"
+},
+"beşləmə": {
+"az": "Beşə çatdırma.",
+"en": "making five",
+"pos": "noun"
+},
+"beşincisi": {
+"az": "Beşinci olan.",
+"en": "the fifth one",
+"pos": "noun"
+},
+"beşkiloluq": {
+"az": "Beş kiloqram çəkən.",
+"en": "five-kilogram",
+"pos": "adjective"
+},
+"beşlitrlik": {
+"az": "Beş litr tutan.",
+"en": "five-litre",
+"pos": "adjective"
+},
+"beşminillik": {
+"az": "Beş min il davam edən.",
+"en": "five-thousand-year",
+"pos": "adjective"
+},
+"beşsinifli məktəb": {
+"az": "Beş sinifdən ibarət məktəb.",
+"en": "five-class school",
+"pos": "noun"
+},
+"beşsütunluq": {
+"az": "Beş sütunlu.",
+"en": "five-column",
+"pos": "adjective"
+},
+"beştarlalıq": {
+"az": "Beş tarlalı növbəli əkin.",
+"en": "five-field rotation",
+"pos": "noun"
+},
+"beştərəflik": {
+"az": "Beş tərəfli olma.",
+"en": "five-sidedness",
+"pos": "noun"
+},
+"beşvaqonluq": {
+"az": "Beş vaqonluq.",
+"en": "five-wagon",
+"pos": "adjective"
+},
+"beşyerlik": {
+"az": "Beş yerlik.",
+"en": "five-seater",
+"pos": "adjective"
+},
+"beşyüzçü": {
+"az": "Beş yüz sentner məhsul götürən.",
+"en": "high-yield grower",
+"pos": "noun"
+},
+"betakam": {
+"az": "Peşəkar video formatı.",
+"en": "Betacam",
+"pos": "noun"
+},
+"betondağıdan maşın": {
+"az": "Beton dağıdan maşın.",
+"en": "concrete breaker",
+"pos": "noun"
+},
+"betondələn": {
+"az": "Beton deşən.",
+"en": "concrete drill",
+"pos": "noun"
+},
+"betondöşəyən": {
+"az": "Beton döşəyən.",
+"en": "concrete paver",
+"pos": "noun"
+},
+"betonsındıran": {
+"az": "Beton sındıran.",
+"en": "concrete breaker",
+"pos": "noun"
+},
+"betontökən": {
+"az": "Beton tökən.",
+"en": "concrete pourer",
+"pos": "noun"
+},
+"bezmen": {
+"az": "Əl tərəzisi.",
+"en": "steelyard",
+"pos": "noun"
+},
+"bədağız": {
+"az": "Pis danışan.",
+"en": "foul-mouthed",
+"pos": "adjective"
+},
+"bədbəxtcə": {
+"az": "Bədbəxt kimi.",
+"en": "wretchedly",
+"pos": "adverb"
+},
+"bədbincə": {
+"az": "Bədbin kimi.",
+"en": "pessimistically",
+"pos": "adverb"
+},
+"bədəbəd": {
+"skip": "meaning not known with confidence"
+},
+"bədənəyatımlı": {
+"az": "Bədənə yatımlı.",
+"en": "form-fitting",
+"pos": "adjective"
+},
+"bədənləmə güzgü": {
+"skip": "meaning not known with confidence"
+},
+"bədöv at": {
+"az": "Cins, cəld at.",
+"en": "thoroughbred horse",
+"pos": "noun"
+},
+"bədövlük": {
+"az": "Bədöv olma.",
+"en": "swiftness, pedigree",
+"pos": "noun"
+},
+"bəh": {
+"az": "Bəh-bəh, heyranlıq nidası.",
+"en": "oh! (admiration)",
+"pos": "interjection"
+},
+"bəhməni": {
+"az": "Bəhmənilər sülaləsinə aid.",
+"en": "Bahmani",
+"pos": "adjective"
+},
+"bəxtiaçılmış": {
+"az": "Bəxti açılmış.",
+"en": "lucky",
+"pos": "adjective"
+},
+"bəxtiyari": {
+"az": "İranda yaşayan tayfa.",
+"en": "Bakhtiari",
+"pos": "noun"
+},
+"bəlğəmgətirən": {
+"az": "Bəlğəm gətirən.",
+"en": "expectorant",
+"pos": "adjective"
+},
+"bəluc": {
+"az": "Bəlucistan xalqı.",
+"en": "Baloch",
+"pos": "noun"
+},
+"bəlucca": {
+"az": "Bəluc dilində.",
+"en": "in Balochi",
+"pos": "adverb"
+},
+"bəndatan": {
+"skip": "meaning not known with confidence"
+},
+"bəndatma": {
+"skip": "meaning not known with confidence"
+},
+"bəndetmə": {
+"az": "Bənd etmə.",
+"en": "binding, attaching",
+"pos": "noun"
+},
+"bəni-adəm": {
+"az": "Adəm övladı, insanlar.",
+"en": "mankind",
+"pos": "noun"
+},
+"bəni-insan": {
+"az": "İnsan övladı.",
+"en": "humankind",
+"pos": "noun"
+},
+"bərabəraktivli": {
+"az": "Aktivliyi bərabər olan.",
+"en": "equally active",
+"pos": "adjective"
+},
+"bərabəroxlu": {
+"az": "Oxları bərabər.",
+"en": "equiaxed",
+"pos": "adjective"
+},
+"bərabəryavaşıyan": {
+"az": "Bərabər yavaşıyan.",
+"en": "uniformly decelerated",
+"pos": "adjective"
+},
+"bərabəryeyinləşən": {
+"az": "Bərabər sürətlənən.",
+"en": "uniformly accelerated",
+"pos": "adjective"
+},
+"bəraətqazandırıcı": {
+"az": "Bəraət qazandıran.",
+"en": "exculpatory",
+"pos": "adjective"
+},
+"bəridəki": {
+"az": "Bəridə olan.",
+"en": "on this side",
+"pos": "adjective"
+},
+"bəriki": {
+"az": "Bəridəki.",
+"en": "on this side",
+"pos": "adjective"
+},
+"bərkxəlitəlik": {
+"az": "Bərk xəlitəli olma.",
+"en": "hard nature",
+"pos": "noun"
+},
+"bərklikölçmə": {
+"az": "Bərkliyin ölçülməsi.",
+"en": "hardness testing",
+"pos": "noun"
+},
+"bərməki": {
+"az": "Bərməkilər nəslinə aid.",
+"en": "Barmakid",
+"pos": "adjective"
+},
+"bərpaedən": {
+"az": "Bərpa edən.",
+"en": "restoring",
+"pos": "adjective"
+},
+"bərpaetmə": {
+"az": "Bərpa etmə.",
+"en": "restoration",
+"pos": "noun"
+},
+"bərsiz-bəzəksiz": {
+"az": "Bəzəksiz, sadə.",
+"en": "unadorned",
+"pos": "adjective"
+},
+"bətndənkənar": {
+"az": "Bətndən kənar.",
+"en": "extrauterine",
+"pos": "adjective"
+},
+"bəydili": {
+"skip": "meaning not known with confidence"
+},
+"bəzəkaçan": {
+"skip": "meaning not known with confidence"
+},
+"bəzənər-bəzənməz": {
+"az": "Bəzənən kimi.",
+"en": "as soon as (one) dresses up",
+"pos": "adverb"
+},
+"bəziləri": {
+"az": "Bəzi adamlar.",
+"en": "some people",
+"pos": "noun"
+},
+"bibiciyəz": {
+"az": "Əziz bibi.",
+"en": "dear aunt",
+"pos": "noun"
+},
+"biblioloq": {
+"az": "Kitabşünas.",
+"en": "bibliologist",
+"pos": "noun"
+}
+}

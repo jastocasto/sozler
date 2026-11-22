@@ -1,0 +1,1130 @@
+{
+"orisikl": {
+"skip": "meaning not known with confidence"
+},
+"oriya": {
+"az": "Hindistanın Odişa ştatının xalqı və dili.",
+"en": "Odia",
+"pos": "noun"
+},
+"oriyent": {
+"az": "Şərq.",
+"en": "the Orient",
+"pos": "noun"
+},
+"oriyental": {
+"az": "Şərqə aid.",
+"en": "oriental",
+"pos": "adjective"
+},
+"oriyentalistika": {
+"az": "Şərqşünaslıq.",
+"en": "Oriental studies",
+"pos": "noun"
+},
+"oriyentirləmə": {
+"az": "İstiqamətləndirmə.",
+"en": "orientation",
+"pos": "noun"
+},
+"orkestrant": {
+"az": "Orkestr üzvü.",
+"en": "orchestra member",
+"pos": "noun"
+},
+"orqanayzer": {
+"az": "Gündəlik planlaşdırıcı.",
+"en": "organizer",
+"pos": "noun"
+},
+"orqanetta": {
+"skip": "meaning not known with confidence"
+},
+"orqanogen": {
+"az": "Üzvi mənşəli.",
+"en": "organogenic",
+"pos": "adjective"
+},
+"orqanola": {
+"skip": "meaning not known with confidence"
+},
+"orqanologiya": {
+"az": "Musiqi alətləri elmi.",
+"en": "organology",
+"pos": "noun"
+},
+"orqanoterapiya": {
+"az": "Heyvan orqanlarından alınan preparatlarla müalicə.",
+"en": "organotherapy",
+"pos": "noun"
+},
+"orleançı": {
+"az": "Orlean sülaləsinin tərəfdarı.",
+"en": "Orleanist",
+"pos": "noun"
+},
+"orlon": {
+"az": "Akril lifi.",
+"en": "Orlon",
+"pos": "noun"
+},
+"ornitofauna": {
+"az": "Bir yerin quşları.",
+"en": "avifauna",
+"pos": "noun"
+},
+"ornitofiliya": {
+"az": "Bitkinin quşlarla tozlanması.",
+"en": "ornithophily",
+"pos": "noun"
+},
+"ornitonim": {
+"az": "Quş adı.",
+"en": "bird name",
+"pos": "noun"
+},
+"ornitopod": {
+"az": "Quşayaqlı dinozavr.",
+"en": "ornithopod",
+"pos": "noun"
+},
+"ornitopter": {
+"az": "Qanad çalan uçan aparat.",
+"en": "ornithopter",
+"pos": "noun"
+},
+"oroç": {
+"az": "Uzaq Şərqdə yaşayan kiçik xalq.",
+"en": "Oroch",
+"pos": "noun"
+},
+"orogenezis": {
+"az": "Dağ əmələ gəlməsi.",
+"en": "orogenesis",
+"pos": "noun"
+},
+"oron": {
+"skip": "meaning not known with confidence"
+},
+"oronimika": {
+"az": "Dağ adlarını öyrənən sahə.",
+"en": "oronymy",
+"pos": "noun"
+},
+"ortaçətinlikli": {
+"az": "Orta çətinlikli.",
+"en": "medium-difficulty",
+"pos": "adjective"
+},
+"ortadakı": {
+"az": "Ortada olan.",
+"en": "middle",
+"pos": "adjective"
+},
+"ortaqfokuslu": {
+"az": "Ortaq fokuslu.",
+"en": "confocal",
+"pos": "adjective"
+},
+"ortikon": {
+"az": "Televiziya ötürücü borusu.",
+"en": "orthicon",
+"pos": "noun"
+},
+"ortit": {
+"az": "Nadir torpaq mineralı.",
+"en": "allanite",
+"pos": "noun"
+},
+"ortobromit": {
+"skip": "meaning not known with confidence"
+},
+"ortodoksiya": {
+"az": "Ehkamçılıq.",
+"en": "orthodoxy",
+"pos": "noun"
+},
+"ortodontik": {
+"az": "Diş düzəldilməsinə aid.",
+"en": "orthodontic",
+"pos": "adjective"
+},
+"ortodontiya": {
+"az": "Dişlərin düzəldilməsi sahəsi.",
+"en": "orthodontics",
+"pos": "noun"
+},
+"ortodromiya": {
+"az": "Ən qısa yol xətti.",
+"en": "orthodrome",
+"pos": "noun"
+},
+"ortoefir": {
+"skip": "meaning not known with confidence"
+},
+"ortogenez": {
+"az": "Təkamülün bir istiqamətdə getməsi.",
+"en": "orthogenesis",
+"pos": "noun"
+},
+"ortoxlorit": {
+"skip": "meaning not known with confidence"
+},
+"ortoxromatizasiya": {
+"skip": "meaning not known with confidence"
+},
+"ortokuzen": {
+"skip": "meaning not known with confidence"
+},
+"ortoqneys": {
+"az": "Maqmatik mənşəli qneys.",
+"en": "orthogneiss",
+"pos": "noun"
+},
+"ortoqrafik": {
+"az": "Orfoqrafik.",
+"en": "orthographic",
+"pos": "adjective"
+},
+"ortolamarkizm": {
+"skip": "meaning not known with confidence"
+},
+"ortopediya": {
+"az": "Dayaq-hərəkət sistemi təbabəti.",
+"en": "orthopaedics",
+"pos": "noun"
+},
+"ortopter": {
+"az": "Düzqanadlı həşərat.",
+"en": "orthopteran",
+"pos": "noun"
+},
+"ortoradioskopiya": {
+"skip": "meaning not known with confidence"
+},
+"orucağız": {
+"skip": "meaning not known with confidence"
+},
+"oskca": {
+"az": "Osk dilində.",
+"en": "in Oscan",
+"pos": "adverb"
+},
+"osmoreseptor": {
+"az": "Osmos təzyiqini duyan reseptor.",
+"en": "osmoreceptor",
+"pos": "noun"
+},
+"osmotik": {
+"az": "Osmosa aid.",
+"en": "osmotic",
+"pos": "adjective"
+},
+"ossiloqraf": {
+"az": "Rəqsləri qeyd edən cihaz.",
+"en": "oscillograph",
+"pos": "noun"
+},
+"ossiloskop": {
+"az": "Siqnal formasını göstərən cihaz.",
+"en": "oscilloscope",
+"pos": "noun"
+},
+"ossuari": {
+"az": "Sümük qabı.",
+"en": "ossuary",
+"pos": "noun"
+},
+"osteoxondroz": {
+"az": "Onurğa qığırdağının distrofiyası.",
+"en": "osteochondrosis",
+"pos": "noun"
+},
+"osteomalyasiya": {
+"az": "Sümüklərin yumşalması.",
+"en": "osteomalacia",
+"pos": "noun"
+},
+"osteomiyelit": {
+"az": "Sümük iliyinin iltihabı.",
+"en": "osteomyelitis",
+"pos": "noun"
+},
+"ostoqot": {
+"az": "Ostqot.",
+"en": "Ostrogoth",
+"pos": "noun"
+},
+"ostrakizm": {
+"az": "Qədim Afinada sürgün.",
+"en": "ostracism",
+"pos": "noun"
+},
+"ostrakod": {
+"az": "Kiçik xərçəngkimi.",
+"en": "ostracod",
+"pos": "noun"
+},
+"ostrakoderma": {
+"az": "Qədim zirehli balıq.",
+"en": "ostracoderm",
+"pos": "noun"
+},
+"ostraqot": {
+"az": "Ostqot.",
+"en": "Ostrogoth",
+"pos": "noun"
+},
+"ostyak": {
+"az": "Xantının köhnə adı.",
+"en": "Ostyak",
+"pos": "noun"
+},
+"otbağlayan": {
+"az": "Ot bağlayan maşın.",
+"en": "hay baler",
+"pos": "noun"
+},
+"otbiti": {
+"skip": "meaning not known with confidence"
+},
+"otçalımı": {
+"az": "Ot çalımı.",
+"en": "swath",
+"pos": "noun"
+},
+"otçevirən": {
+"az": "Ot çevirən maşın.",
+"en": "hay tedder",
+"pos": "noun"
+},
+"otdaşıyan": {
+"az": "Ot daşıyan.",
+"en": "hay-carrying",
+"pos": "adjective"
+},
+"otenit": {
+"az": "Uranlı mineral.",
+"en": "autunite",
+"pos": "noun"
+},
+"otxırdalayan": {
+"az": "Ot xırdalayan maşın.",
+"en": "hay chopper",
+"pos": "noun"
+},
+"ot-kolcuq": {
+"skip": "meaning not known with confidence"
+},
+"otlağan": {
+"skip": "meaning not known with confidence"
+},
+"otolit": {
+"az": "Qulaq daşı.",
+"en": "otolith",
+"pos": "noun"
+},
+"otologiya": {
+"az": "Qulaq xəstəlikləri elmi.",
+"en": "otology",
+"pos": "noun"
+},
+"otoplastika": {
+"az": "Qulaq plastikası.",
+"en": "otoplasty",
+"pos": "noun"
+},
+"otoskleroz": {
+"az": "Orta qulaq sümüklərinin bərkiməsi.",
+"en": "otosclerosis",
+"pos": "noun"
+},
+"otpresləyən": {
+"az": "Ot presləyən maşın.",
+"en": "hay press",
+"pos": "noun"
+},
+"otşəkilli": {
+"az": "Ot şəkilli.",
+"en": "grass-like",
+"pos": "adjective"
+},
+"oturar-oturmaz": {
+"az": "Oturan kimi.",
+"en": "as soon as (one) sits",
+"pos": "adverb"
+},
+"otuzluq lampa": {
+"az": "Otuz vatlıq lampa.",
+"en": "thirty-watt lamp",
+"pos": "noun"
+},
+"otüstü": {
+"az": "Otun üstü.",
+"en": "on the grass",
+"pos": "adjective"
+},
+"otüyüdən": {
+"az": "Ot üyüdən maşın.",
+"en": "grass mill",
+"pos": "noun"
+},
+"otyığma": {
+"az": "Ot yığma.",
+"en": "haymaking",
+"pos": "noun"
+},
+"outlet": {
+"az": "Endirimli mağaza.",
+"en": "outlet store",
+"pos": "noun"
+},
+"ovaxtkı": {
+"az": "O vaxtkı.",
+"en": "of that time",
+"pos": "adjective"
+},
+"ovist": {
+"az": "Rüşeymin yumurtada olması təlimçisi.",
+"en": "ovist",
+"pos": "noun"
+},
+"ovsana": {
+"skip": "meaning not known with confidence"
+},
+"ovsunotu": {
+"skip": "meaning not known with confidence"
+},
+"ovurdaq": {
+"skip": "meaning not known with confidence"
+},
+"oykonimika": {
+"az": "Yaşayış məntəqəsi adlarını öyrənən sahə.",
+"en": "oikonymy",
+"pos": "noun"
+},
+"oykotoponim": {
+"az": "Yaşayış məntəqəsi adı.",
+"en": "settlement name",
+"pos": "noun"
+},
+"oykumen": {
+"az": "Məskunlaşmış dünya.",
+"en": "oecumene",
+"pos": "noun"
+},
+"oynaya-gülə": {
+"az": "Oynayıb gülərək.",
+"en": "playing and laughing",
+"pos": "adverb"
+},
+"oy-oy": {
+"az": "Ağrı və təəssüf nidası.",
+"en": "oh dear",
+"pos": "interjection"
+},
+"ozamankı": {
+"az": "O zamankı.",
+"en": "of that time",
+"pos": "adjective"
+},
+"ozokerit": {
+"az": "Dağ mumu.",
+"en": "ozokerite",
+"pos": "noun"
+},
+"ozonator": {
+"az": "Ozon istehsal edən cihaz.",
+"en": "ozonizer",
+"pos": "noun"
+},
+"ozonometr": {
+"az": "Ozonu ölçən cihaz.",
+"en": "ozonometer",
+"pos": "noun"
+},
+"ozonosfer": {
+"az": "Ozon təbəqəsi.",
+"en": "ozonosphere",
+"pos": "noun"
+},
+"ozonoterapiya": {
+"az": "Ozonla müalicə.",
+"en": "ozone therapy",
+"pos": "noun"
+},
+"ödaltı": {
+"skip": "meaning not known with confidence"
+},
+"öddaşı": {
+"az": "Öd kisəsində daş.",
+"en": "gallstone",
+"pos": "noun"
+},
+"ödqovan": {
+"az": "Öd qovan.",
+"en": "choleretic",
+"pos": "adjective"
+},
+"ödqovucu": {
+"az": "Öd qovan dərman.",
+"en": "choleretic",
+"pos": "noun"
+},
+"ödlü": {
+"az": "Ödü olan; cəsarətli.",
+"en": "bold",
+"pos": "adjective"
+},
+"ödotu": {
+"skip": "meaning not known with confidence"
+},
+"öksəotu": {
+"skip": "meaning not known with confidence"
+},
+"öküzotu": {
+"skip": "meaning not known with confidence"
+},
+"ölçülən": {
+"az": "Ölçülə bilən.",
+"en": "measurable",
+"pos": "adjective"
+},
+"öləng": {
+"skip": "meaning not known with confidence"
+},
+"ölər-ölməz": {
+"az": "Ölən kimi.",
+"en": "as soon as (one) dies",
+"pos": "adverb"
+},
+"ölübaş": {
+"skip": "meaning not known with confidence"
+},
+"ömürbəömür": {
+"az": "Ömürlük.",
+"en": "for life",
+"pos": "adverb"
+},
+"ömürlükcə": {
+"az": "Ömürlük.",
+"en": "for life",
+"pos": "adverb"
+},
+"öncəki": {
+"az": "Əvvəlki.",
+"en": "previous",
+"pos": "adjective"
+},
+"önkotancıqlı": {
+"skip": "meaning not known with confidence"
+},
+"önkotançı": {
+"skip": "meaning not known with confidence"
+},
+"önqəlsəməli": {
+"skip": "meaning not known with confidence"
+},
+"ördəkçilik": {
+"az": "Ördək yetişdirmə.",
+"en": "duck farming",
+"pos": "noun"
+},
+"öyrəncəli": {
+"skip": "meaning not known with confidence"
+},
+"özünəgüvən": {
+"az": "Özünə inam.",
+"en": "self-confidence",
+"pos": "noun"
+},
+"özünətəsirlənmə": {
+"skip": "meaning not known with confidence"
+},
+"özünüsığortalama": {
+"az": "Özünü sığortalama.",
+"en": "self-insurance",
+"pos": "noun"
+},
+"paftatutan": {
+"skip": "meaning not known with confidence"
+},
+"paxidermiya": {
+"az": "Dərinin qalınlaşması.",
+"en": "pachydermia",
+"pos": "noun"
+},
+"paximeningit": {
+"az": "Beynin sərt qişasının iltihabı.",
+"en": "pachymeningitis",
+"pos": "noun"
+},
+"paxlaotu": {
+"skip": "meaning not known with confidence"
+},
+"paleo-azərbaycan": {
+"skip": "meaning not known with confidence"
+},
+"paleofitologiya": {
+"az": "Qədim bitkilər elmi.",
+"en": "palaeobotany",
+"pos": "noun"
+},
+"paleolinqvistik": {
+"skip": "meaning not known with confidence"
+},
+"paleolitik": {
+"az": "Paleolitə aid.",
+"en": "Palaeolithic",
+"pos": "adjective"
+},
+"paleopitek": {
+"skip": "meaning not known with confidence"
+},
+"paleotip süxur": {
+"skip": "meaning not known with confidence"
+},
+"paleotoponimiya": {
+"az": "Qədim yer adları.",
+"en": "palaeotoponymy",
+"pos": "noun"
+},
+"paleozavr": {
+"skip": "meaning not known with confidence"
+},
+"paleozoocoğrafiya": {
+"az": "Qədim heyvanların yayılması elmi.",
+"en": "palaeozoogeography",
+"pos": "noun"
+},
+"palitra": {
+"az": "Rəng lövhəsi.",
+"en": "palette",
+"pos": "noun"
+},
+"palliativ": {
+"az": "Müvəqqəti yüngülləşdirən.",
+"en": "palliative",
+"pos": "adjective"
+},
+"pamp-aerobika": {
+"az": "Ağırlıqla aerobika.",
+"en": "pump aerobics",
+"pos": "noun"
+},
+"pampanqan": {
+"az": "Filippin xalqı.",
+"en": "Kapampangan",
+"pos": "noun"
+},
+"pampasotu": {
+"az": "Pampas otu.",
+"en": "pampas grass",
+"pos": "noun"
+},
+"panafrikan": {
+"az": "Bütün Afrikaya aid.",
+"en": "pan-African",
+"pos": "adjective"
+},
+"panaseya": {
+"az": "Hər dərdə dərman.",
+"en": "panacea",
+"pos": "noun"
+},
+"panbarxat": {
+"az": "Qalın məxmər.",
+"en": "panne velvet",
+"pos": "noun"
+},
+"pança-şila": {
+"az": "Buddizmin beş əxlaqi qaydası.",
+"en": "Pancha Sila",
+"pos": "noun"
+},
+"pandançiçəkli": {
+"skip": "meaning not known with confidence"
+},
+"pandemik": {
+"az": "Pandemiyaya aid.",
+"en": "pandemic",
+"pos": "adjective"
+},
+"pandemiyaöncəsi": {
+"az": "Pandemiyadan əvvəlki.",
+"en": "pre-pandemic",
+"pos": "adjective"
+},
+"pandit": {
+"az": "Hindistanda alim.",
+"en": "pundit",
+"pos": "noun"
+},
+"pandus": {
+"az": "Maili keçid.",
+"en": "ramp",
+"pos": "noun"
+},
+"panxristianizm": {
+"skip": "meaning not known with confidence"
+},
+"panqasinan": {
+"az": "Filippin xalqı.",
+"en": "Pangasinan",
+"pos": "noun"
+},
+"panoftalmit": {
+"az": "Gözün bütün qatlarının iltihabı.",
+"en": "panophthalmitis",
+"pos": "noun"
+},
+"panserozit": {
+"skip": "meaning not known with confidence"
+},
+"pansion": {
+"az": "Qonaq evi; yataqxanalı məktəb.",
+"en": "boarding house",
+"pos": "noun"
+},
+"pansionat": {
+"az": "İstirahət evi.",
+"en": "holiday home",
+"pos": "noun"
+},
+"panspermiya": {
+"az": "Həyatın kosmosdan gəlməsi fərziyyəsi.",
+"en": "panspermia",
+"pos": "noun"
+},
+"panteon": {
+"az": "Bütün tanrılar; görkəmli şəxslərin məzarlığı.",
+"en": "pantheon",
+"pos": "noun"
+},
+"pantofaq": {
+"az": "Hər şeyyeyən.",
+"en": "pantophagous",
+"pos": "adjective"
+},
+"pantoqraf": {
+"az": "Çertyoj köçürən mexanizm.",
+"en": "pantograph",
+"pos": "noun"
+},
+"pantometr": {
+"skip": "meaning not known with confidence"
+},
+"pantomim": {
+"az": "Mimika tamaşası.",
+"en": "pantomime",
+"pos": "noun"
+},
+"pantürkizm": {
+"az": "Türk xalqlarının birliyi ideyası.",
+"en": "Pan-Turkism",
+"pos": "noun"
+},
+"papaqlama qar": {
+"skip": "meaning not known with confidence"
+},
+"papaya": {
+"az": "Tropik meyvə.",
+"en": "papaya",
+"pos": "noun"
+},
+"papirofobiya": {
+"az": "Kağızdan qorxu.",
+"en": "papyrophobia",
+"pos": "noun"
+},
+"papuas": {
+"az": "Yeni Qvineyanın yerli xalqı.",
+"en": "Papuan",
+"pos": "noun"
+},
+"paraallergiya": {
+"skip": "meaning not known with confidence"
+},
+"paraaminofenol": {
+"skip": "meaning not known with confidence"
+},
+"parabola": {
+"az": "İkinci dərəcəli əyri.",
+"en": "parabola",
+"pos": "noun"
+},
+"paraboloqraf": {
+"skip": "meaning not known with confidence"
+},
+"parabutlerid": {
+"skip": "meaning not known with confidence"
+},
+"parafinoterapiya": {
+"az": "Parafinlə müalicə.",
+"en": "paraffin therapy",
+"pos": "noun"
+},
+"paraxor": {
+"skip": "meaning not known with confidence"
+},
+"paraxronizm": {
+"az": "Tarixi xronoloji səhv.",
+"en": "parachronism",
+"pos": "noun"
+},
+"parakeratoz": {
+"az": "Dəri buynuzlaşmasının pozulması.",
+"en": "parakeratosis",
+"pos": "noun"
+},
+"paraldehid": {
+"az": "Yuxugətirici maddə.",
+"en": "paraldehyde",
+"pos": "noun"
+},
+"paraleloedr": {
+"skip": "meaning not known with confidence"
+},
+"paralimpiada": {
+"az": "Əlillər olimpiadası.",
+"en": "Paralympics",
+"pos": "noun"
+},
+"paralinqvistik": {
+"az": "Dilə qoşulan qeyri-verbal vasitələrə aid.",
+"en": "paralinguistic",
+"pos": "adjective"
+},
+"paralogik": {
+"az": "Məntiqə zidd.",
+"en": "paralogical",
+"pos": "adjective"
+},
+"paralogizm": {
+"az": "Qəsdsiz məntiqi səhv.",
+"en": "paralogism",
+"pos": "noun"
+},
+"paramentan": {
+"skip": "meaning not known with confidence"
+},
+"paramilitar": {
+"az": "Yarımhərbi.",
+"en": "paramilitary",
+"pos": "adjective"
+},
+"paramneziya": {
+"az": "Yaddaş təhrifi.",
+"en": "paramnesia",
+"pos": "noun"
+},
+"paranoidal": {
+"az": "Paranoyaya aid.",
+"en": "paranoid",
+"pos": "adjective"
+},
+"paranomiya": {
+"skip": "meaning not known with confidence"
+},
+"parantrop": {
+"az": "Qədim insanabənzər.",
+"en": "Paranthropus",
+"pos": "noun"
+},
+"parapitek": {
+"skip": "meaning not known with confidence"
+},
+"paraplegik": {
+"az": "Alt ətrafları iflic olan.",
+"en": "paraplegic",
+"pos": "noun"
+},
+"paraproktit": {
+"az": "Düz bağırsaq ətrafı iltihabı.",
+"en": "paraproctitis",
+"pos": "noun"
+},
+"parapsoriaz": {
+"az": "Psoriazabənzər dəri xəstəliyi.",
+"en": "parapsoriasis",
+"pos": "noun"
+},
+"parasimpatik": {
+"az": "Parasimpatik sinir sisteminə aid.",
+"en": "parasympathetic",
+"pos": "adjective"
+},
+"paratireoid": {
+"az": "Qalxanabənzər vəziətrafı.",
+"en": "parathyroid",
+"pos": "adjective"
+},
+"paratuberkulyoz": {
+"az": "Mal-qarada bağırsaq xəstəliyi.",
+"en": "paratuberculosis",
+"pos": "noun"
+},
+"paravtoxton": {
+"skip": "meaning not known with confidence"
+},
+"paravulkanogen": {
+"skip": "meaning not known with confidence"
+},
+"parazitar": {
+"az": "Parazitlərin törətdiyi.",
+"en": "parasitic",
+"pos": "adjective"
+},
+"parazitofobiya": {
+"az": "Parazitlərdən qorxu.",
+"en": "parasitophobia",
+"pos": "noun"
+},
+"parazitosenoz": {
+"az": "Ev sahibindəki parazitlər birliyi.",
+"en": "parasitocoenosis",
+"pos": "noun"
+},
+"parenximatoz": {
+"az": "Parenximaya aid.",
+"en": "parenchymatous",
+"pos": "adjective"
+},
+"pareto qanunu": {
+"az": "Nəticələrin çoxunu az səbəbin verməsi prinsipi.",
+"en": "Pareto principle",
+"pos": "noun"
+},
+"pareyazavr": {
+"az": "Qədim iri sürünən.",
+"en": "pareiasaur",
+"pos": "noun"
+},
+"parf dili": {
+"az": "Qədim Parfiya dili.",
+"en": "Parthian language",
+"pos": "noun"
+},
+"parfiyalı": {
+"az": "Parfiyadan olan.",
+"en": "Parthian",
+"pos": "noun"
+},
+"parfüm": {
+"az": "Ətir.",
+"en": "perfume",
+"pos": "noun"
+},
+"parfümeriya": {
+"az": "Ətriyyat.",
+"en": "perfumery",
+"pos": "noun"
+},
+"parıldada-parıldada": {
+"az": "Parıldadaraq.",
+"en": "gleaming",
+"pos": "adverb"
+},
+"parkinson xəstəliyi": {
+"az": "Titrəmə ilə gedən sinir xəstəliyi.",
+"en": "Parkinson's disease",
+"pos": "noun"
+},
+"parkinsonizm": {
+"az": "Parkinson sindromu.",
+"en": "parkinsonism",
+"pos": "noun"
+},
+"parkomat": {
+"az": "Dayanacaq haqqı avtomatı.",
+"en": "parking meter",
+"pos": "noun"
+},
+"parlada-parlada": {
+"az": "Parladaraq.",
+"en": "polishing",
+"pos": "adverb"
+},
+"parlamentar": {
+"az": "Parlamentə aid.",
+"en": "parliamentary",
+"pos": "adjective"
+},
+"parlamentari": {
+"skip": "meaning not known with confidence"
+},
+"parlamentçilik": {
+"az": "Parlamentarizm.",
+"en": "parliamentarism",
+"pos": "noun"
+},
+"parodont": {
+"az": "Diş ətrafı toxumalar.",
+"en": "periodontium",
+"pos": "noun"
+},
+"parodontoz": {
+"az": "Diş ətrafı toxumaların xəstəliyi.",
+"en": "periodontal disease",
+"pos": "noun"
+},
+"paroksizmal iflic": {
+"skip": "meaning not known with confidence"
+},
+"paronimik": {
+"az": "Paronimə aid.",
+"en": "paronymic",
+"pos": "adjective"
+},
+"paronimiya": {
+"az": "Oxşar səslənən sözlər.",
+"en": "paronymy",
+"pos": "noun"
+},
+"parotit": {
+"az": "Qulaqətrafı vəzinin iltihabı, parotit.",
+"en": "mumps",
+"pos": "noun"
+},
+"parselyasiya": {
+"az": "Torpağın sahələrə bölünməsi.",
+"en": "parcelling",
+"pos": "noun"
+},
+"parsinq": {
+"az": "Mətnin təhlili.",
+"en": "parsing",
+"pos": "noun"
+},
+"parsizm": {
+"az": "Zərdüştilik.",
+"en": "Parsiism",
+"pos": "noun"
+},
+"partikulyar": {
+"az": "Xüsusi, ayrıca.",
+"en": "particular",
+"pos": "adjective"
+},
+"partikulyarizm": {
+"az": "Ayrıçılıq.",
+"en": "particularism",
+"pos": "noun"
+},
+"partikulyasiya": {
+"skip": "meaning not known with confidence"
+},
+"partlanğıc": {
+"skip": "meaning not known with confidence"
+},
+"partokratiya": {
+"az": "Partiya hakimiyyəti.",
+"en": "partocracy",
+"pos": "noun"
+},
+"partologiya": {
+"skip": "meaning not known with confidence"
+},
+"parusin": {
+"az": "Qalın kətan parça.",
+"en": "sailcloth",
+"pos": "noun"
+},
+"pasaj": {
+"az": "Keçid; tağlı mağazalar keçidi.",
+"en": "arcade",
+"pos": "noun"
+},
+"pasifik": {
+"az": "Sakit okeana aid.",
+"en": "Pacific",
+"pos": "adjective"
+},
+"paslaya-paslaya": {
+"az": "Paslayaraq.",
+"en": "passing",
+"pos": "adverb"
+},
+"passionari": {
+"skip": "meaning not known with confidence"
+},
+"pasterizator": {
+"az": "Pasterizə aparatı.",
+"en": "pasteurizer",
+"pos": "noun"
+},
+"pastilaj": {
+"skip": "meaning not known with confidence"
+},
+"pasyans": {
+"az": "Kart falı oyunu.",
+"en": "patience",
+"pos": "noun"
+},
+"pataqoniyalı": {
+"az": "Pataqoniyadan olan.",
+"en": "Patagonian",
+"pos": "noun"
+},
+"patan": {
+"az": "Puştun.",
+"en": "Pathan",
+"pos": "noun"
+},
+"paternalizm": {
+"az": "Himayəçilik.",
+"en": "paternalism",
+"pos": "noun"
+},
+"patisson": {
+"az": "Boşqab balqabağı.",
+"en": "pattypan squash",
+"pos": "noun"
+},
+"patronat": {
+"az": "Himayə.",
+"en": "patronage",
+"pos": "noun"
+},
+"patronimik": {
+"az": "Ata adından düzələn.",
+"en": "patronymic",
+"pos": "adjective"
+},
+"patronimiya": {
+"az": "Ata nəsli.",
+"en": "patronymy",
+"pos": "noun"
+},
+"patronluq barıt": {
+"az": "Patron üçün barıt.",
+"en": "cartridge powder",
+"pos": "noun"
+},
+"pauza": {
+"az": "Fasilə.",
+"en": "pause",
+"pos": "noun"
+},
+"pavinol": {
+"skip": "meaning not known with confidence"
+},
+"payızağzı": {
+"az": "Payızın başlanğıcı.",
+"en": "beginning of autumn",
+"pos": "noun"
+},
+"pay-ülüş": {
+"az": "Pay, hissə.",
+"en": "share",
+"pos": "noun"
+},
+"pazabənzər": {
+"skip": "meaning not known with confidence"
+},
+"peçeneq": {
+"az": "Orta əsr türk tayfası.",
+"en": "Pecheneg",
+"pos": "noun"
+}
+}

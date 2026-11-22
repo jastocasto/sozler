@@ -1,13 +1,13 @@
 {
  "bəyimbacı": {
-  "az": "Qonşu və ya tanış qadına hörmətlə müraciət forması.",
+  "az": "Qonşu və ya tanış qadına bacı deyə hörmətlə müraciət.",
   "en": "a respectful form of address for a neighbour or other woman",
   "pos": "noun",
   "src": "izahli",
   "conf": "high"
  },
  "bəyimçörəyi": {
-  "az": "Buğda unu, yumurta, yağ və süddən hazırlanan qoğal növü.",
+  "az": "Buğda unu, yumurta, yağ və süddən bişirilən çörək, qoğal növü.",
   "en": "a bun made of wheat flour with eggs, butter and milk",
   "pos": "noun",
   "src": "izahli",
@@ -742,14 +742,14 @@
   "conf": "high"
  },
  "biofizik": {
-  "az": "Biofizika sahəsində çalışan alim.",
+  "az": "Biofizika sahəsində çalışan fizik alim.",
   "en": "biophysicist",
   "pos": "noun",
   "src": "musayev",
   "conf": "high"
  },
  "biofiziki": {
-  "az": "Biofizikaya aid olan.",
+  "az": "Biofizikaya aid olan, canlılardakı fiziki prosesləri öyrənən.",
   "en": "biophysical",
   "pos": "adjective",
   "src": "musayev",

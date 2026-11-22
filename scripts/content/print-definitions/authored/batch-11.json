@@ -1,0 +1,1169 @@
+{
+"bibliometrik": {
+"az": "Biblioqrafik göstəricilərin ölçülməsinə aid.",
+"en": "bibliometric",
+"pos": "adjective"
+},
+"biçlamar": {
+"skip": "meaning not known with confidence"
+},
+"bifleks": {
+"skip": "meaning not known with confidence"
+},
+"bijüteriya": {
+"az": "Qiymətsiz bəzək əşyaları.",
+"en": "costume jewellery",
+"pos": "noun"
+},
+"bilateral": {
+"az": "İkitərəfli.",
+"en": "bilateral",
+"pos": "adjective"
+},
+"bilaterizm": {
+"az": "İkitərəflilik.",
+"en": "bilateralism",
+"pos": "noun"
+},
+"bilbord": {
+"az": "Böyük reklam lövhəsi.",
+"en": "billboard",
+"pos": "noun"
+},
+"bilbroker": {
+"az": "Veksel vasitəçisi.",
+"en": "bill broker",
+"pos": "noun"
+},
+"bilək-əldarağı oynaqları": {
+"az": "Bilək sümükləri ilə əldarağı sümükləri arasındakı oynaqlar.",
+"en": "carpometacarpal joints",
+"pos": "noun"
+},
+"bilgəc": {
+"az": "Bilikli, ağıllı.",
+"en": "knowledgeable",
+"pos": "adjective"
+},
+"bilgin": {
+"az": "Alim, bilikli adam.",
+"en": "scholar",
+"pos": "noun"
+},
+"bilinər-bilinməz": {
+"az": "Güclə bilinən.",
+"en": "barely noticeable",
+"pos": "adjective"
+},
+"bilinqva": {
+"az": "Paralel iki dilli mətn.",
+"en": "bilingual text",
+"pos": "noun"
+},
+"bilinqvial təlim": {
+"az": "İki dildə tədris.",
+"en": "bilingual teaching",
+"pos": "noun"
+},
+"billinq": {
+"az": "Xidmətlərin hesablanıb faktura yazılması.",
+"en": "billing",
+"pos": "noun"
+},
+"bimədəd": {
+"az": "Köməksiz.",
+"en": "helpless",
+"pos": "adjective"
+},
+"binəsalan": {
+"az": "Bünövrə qoyan, əsasını qoyan.",
+"en": "founder",
+"pos": "noun"
+},
+"bintsarıyan": {
+"az": "Bint saran.",
+"en": "bandaging",
+"pos": "adjective"
+},
+"biodinamiki": {
+"az": "Biodinamikaya aid.",
+"en": "biodynamic",
+"pos": "adjective"
+},
+"biogel": {
+"az": "Bioloji gel.",
+"en": "biogel",
+"pos": "noun"
+},
+"biogen": {
+"az": "Canlı orqanizmlər tərəfindən yaranan.",
+"en": "biogenic",
+"pos": "adjective"
+},
+"biogenez": {
+"az": "Canlının canlıdan törəməsi.",
+"en": "biogenesis",
+"pos": "noun"
+},
+"biogeokəşfiyyat": {
+"az": "Bitkilərə görə faydalı qazıntı axtarışı.",
+"en": "biogeochemical prospecting",
+"pos": "noun"
+},
+"biogeosenologiya": {
+"az": "Biogeosenozları öyrənən elm.",
+"en": "biogeocoenology",
+"pos": "noun"
+},
+"biogeosfer": {
+"az": "Canlıların yaşadığı geoloji təbəqə.",
+"en": "biogeosphere",
+"pos": "noun"
+},
+"bioxron": {
+"skip": "meaning not known with confidence"
+},
+"bioxronometr": {
+"skip": "meaning not known with confidence"
+},
+"biokonsentrasiya": {
+"az": "Maddənin orqanizmdə toplanması.",
+"en": "bioconcentration",
+"pos": "noun"
+},
+"biolinq": {
+"skip": "meaning not known with confidence"
+},
+"biolit": {
+"az": "Orqanizmlərdən əmələ gələn süxur.",
+"en": "biolith",
+"pos": "noun"
+},
+"biom": {
+"az": "Oxşar iqlimli böyük ekoloji sistem.",
+"en": "biome",
+"pos": "noun"
+},
+"biomembranologiya": {
+"az": "Bioloji membranları öyrənən elm.",
+"en": "biomembranology",
+"pos": "noun"
+},
+"biomitsin": {
+"az": "Antibiotik.",
+"en": "biomycin",
+"pos": "noun"
+},
+"biomorf": {
+"az": "Canlı formasına bənzər.",
+"en": "biomorphic",
+"pos": "adjective"
+},
+"bionim": {
+"az": "Canlı orqanizmin adı.",
+"en": "bionym",
+"pos": "noun"
+},
+"biorevitalizasiya": {
+"az": "Dərinin hialuron turşusu ilə cavanlaşdırılması.",
+"en": "biorevitalization",
+"pos": "noun"
+},
+"biostimulyator": {
+"az": "Bioloji proseslərin stimulyatoru.",
+"en": "biostimulant",
+"pos": "noun"
+},
+"biostratiqrafiya": {
+"az": "Süxurların qazıntılara görə bölünməsi.",
+"en": "biostratigraphy",
+"pos": "noun"
+},
+"biota": {
+"az": "Bir ərazinin canlıları.",
+"en": "biota",
+"pos": "noun"
+},
+"biotaksiya": {
+"skip": "meaning not known with confidence"
+},
+"biotik": {
+"az": "Canlı təbiətə aid.",
+"en": "biotic",
+"pos": "adjective"
+},
+"biotin": {
+"az": "B qrupu vitamini.",
+"en": "biotin",
+"pos": "noun"
+},
+"biotip": {
+"az": "Eyni genotipli fərdlər qrupu.",
+"en": "biotype",
+"pos": "noun"
+},
+"biotok": {
+"az": "Bioelektrik cərəyanı.",
+"en": "biocurrent",
+"pos": "noun"
+},
+"biovit": {
+"az": "Yem əlavəsi.",
+"en": "biovit (feed additive)",
+"pos": "noun"
+},
+"biplekser": {
+"skip": "meaning not known with confidence"
+},
+"bipolyer": {
+"az": "İki qütblü.",
+"en": "bipolar",
+"pos": "adjective"
+},
+"birbişirimlik ət": {
+"az": "Bir dəfəlik bişirilən ət.",
+"en": "meat for one cooking",
+"pos": "noun"
+},
+"birema": {
+"az": "İki sıra avarlı qədim gəmi.",
+"en": "bireme",
+"pos": "noun"
+},
+"biseksual": {
+"az": "Hər iki cinsə meyilli.",
+"en": "bisexual",
+"pos": "adjective"
+},
+"bispiral": {
+"az": "İkiqat spiral.",
+"en": "double spiral",
+"pos": "noun"
+},
+"bisulfat": {
+"az": "Hidrosulfat.",
+"en": "bisulfate",
+"pos": "noun"
+},
+"bisulfit": {
+"az": "Hidrosulfit.",
+"en": "bisulfite",
+"pos": "noun"
+},
+"bişirici": {
+"az": "Bişirən.",
+"en": "cook, cooker",
+"pos": "noun"
+},
+"bitər-bitməz": {
+"az": "Bitən kimi.",
+"en": "as soon as it ends",
+"pos": "adverb"
+},
+"bitirər-bitirməz": {
+"az": "Bitirən kimi.",
+"en": "as soon as one finishes",
+"pos": "adverb"
+},
+"bitkiyeyən": {
+"az": "Bitki ilə qidalanan.",
+"en": "herbivorous",
+"pos": "adjective"
+},
+"bitkoin": {
+"az": "Rəqəmsal kriptovalyuta.",
+"en": "bitcoin",
+"pos": "noun"
+},
+"bitotu": {
+"skip": "meaning not known with confidence"
+},
+"bitsiz-birəsiz": {
+"az": "Bitsiz-birəsiz, təmiz.",
+"en": "free of lice and fleas",
+"pos": "adjective"
+},
+"bitsiz-sirkəsiz": {
+"az": "Bitsiz, sirkəsiz.",
+"en": "free of lice and nits",
+"pos": "adjective"
+},
+"bivalent": {
+"az": "İki valentli.",
+"en": "bivalent",
+"pos": "adjective"
+},
+"biz-çənə bağı": {
+"az": "Biz çıxıntısı ilə çənə arasındakı bağ.",
+"en": "stylomandibular ligament",
+"pos": "noun"
+},
+"bizəoxşar": {
+"az": "Biz kimi.",
+"en": "awl-shaped",
+"pos": "adjective"
+},
+"bizli": {
+"az": "Bizi olan.",
+"en": "with an awl",
+"pos": "adjective"
+},
+"bizli-sizli": {
+"skip": "meaning not known with confidence"
+},
+"biz-udlaq əzələsi": {
+"az": "Biz çıxıntısından udlağa gedən əzələ.",
+"en": "stylopharyngeus muscle",
+"pos": "noun"
+},
+"blasfemiya": {
+"az": "Küfr.",
+"en": "blasphemy",
+"pos": "noun"
+},
+"blefaroplastika": {
+"az": "Göz qapağının plastik əməliyyatı.",
+"en": "blepharoplasty",
+"pos": "noun"
+},
+"blefarospazm": {
+"az": "Göz qapağının qıcolması.",
+"en": "blepharospasm",
+"pos": "noun"
+},
+"blenda": {
+"az": "Sink sulfid mineralı.",
+"en": "blende",
+"pos": "noun"
+},
+"blek-boks təhlil": {
+"az": "Daxili quruluşu bilinməyən sistemin təhlili.",
+"en": "black-box analysis",
+"pos": "noun"
+},
+"blender": {
+"az": "Qarışdırıcı mətbəx cihazı.",
+"en": "blender",
+"pos": "noun"
+},
+"blink-komparator": {
+"az": "Fotoşəkilləri növbə ilə müqayisə edən astronomik cihaz.",
+"en": "blink comparator",
+"pos": "noun"
+},
+"blink-mikroskop": {
+"az": "Fotoşəkilləri müqayisə edən mikroskop.",
+"en": "blink microscope",
+"pos": "noun"
+},
+"blister": {
+"az": "Həblər üçün plastik qablaşdırma.",
+"en": "blister pack",
+"pos": "noun"
+},
+"blits": {
+"az": "Sürətli şahmat partiyası.",
+"en": "blitz chess",
+"pos": "noun"
+},
+"blitter": {
+"skip": "meaning not known with confidence"
+},
+"blokaoxşar": {
+"az": "Bloka oxşar.",
+"en": "block-like",
+"pos": "adjective"
+},
+"blokpan": {
+"az": "Hazır tikinti paneli.",
+"en": "building block panel",
+"pos": "noun"
+},
+"blutuz": {
+"az": "Simsiz yaxın məsafə rabitəsi.",
+"en": "Bluetooth",
+"pos": "noun"
+},
+"bluz": {
+"az": "Qadın koftası.",
+"en": "blouse",
+"pos": "noun"
+},
+"blüm": {
+"az": "Kvadrat kəsikli polad yarımfabrikat.",
+"en": "bloom (steel)",
+"pos": "noun"
+},
+"blüminq": {
+"az": "Blüm yayan dəzgah.",
+"en": "blooming mill",
+"pos": "noun"
+},
+"boakonstruktor": {
+"az": "Böyük ilan.",
+"en": "boa constrictor",
+"pos": "noun"
+},
+"boğazotu": {
+"skip": "meaning not known with confidence"
+},
+"boğmagül": {
+"skip": "meaning not known with confidence"
+},
+"boliviyalı": {
+"az": "Boliviyadan olan.",
+"en": "Bolivian",
+"pos": "noun"
+},
+"bolonya": {
+"skip": "meaning not known with confidence"
+},
+"boltbağlayan": {
+"az": "Bolt bağlayan.",
+"en": "bolt-tightening",
+"pos": "adjective"
+},
+"boltburan": {
+"az": "Bolt buran alət.",
+"en": "bolt driver",
+"pos": "noun"
+},
+"boltsuz-vintsiz": {
+"az": "Boltsuz, vintsiz.",
+"en": "without bolts or screws",
+"pos": "adjective"
+},
+"bonapart": {
+"az": "Bonapartçı.",
+"en": "Bonapartist",
+"pos": "noun"
+},
+"bonifikasiya": {
+"az": "Güzəşt, mükafat.",
+"en": "bonification",
+"pos": "noun"
+},
+"bonza": {
+"az": "Buddist rahib.",
+"en": "bonze",
+"pos": "noun"
+},
+"boransız-qarsız": {
+"az": "Boransız, qarsız.",
+"en": "without blizzards or snow",
+"pos": "adjective"
+},
+"boransız-şaxtasız": {
+"az": "Boransız, şaxtasız.",
+"en": "without blizzards or frost",
+"pos": "adjective"
+},
+"borcödəmə": {
+"az": "Borcun ödənməsi.",
+"en": "debt repayment",
+"pos": "noun"
+},
+"borcödəyən": {
+"az": "Borc ödəyən.",
+"en": "debtor paying off",
+"pos": "noun"
+},
+"bor-fosfid": {
+"az": "Borla fosforun birləşməsi.",
+"en": "boron phosphide",
+"pos": "noun"
+},
+"bor-ftorid": {
+"az": "Borla ftorun birləşməsi.",
+"en": "boron fluoride",
+"pos": "noun"
+},
+"borjom": {
+"az": "Gürcüstanın mineral suyu.",
+"en": "Borjomi water",
+"pos": "noun"
+},
+"bortbağı": {
+"skip": "meaning not known with confidence"
+},
+"bortlayıcı": {
+"skip": "meaning not known with confidence"
+},
+"boruçəkən": {
+"az": "Boru çəkən.",
+"en": "pipe layer",
+"pos": "noun"
+},
+"borudaşıyan": {
+"az": "Boru daşıyan.",
+"en": "pipe carrier",
+"pos": "noun"
+},
+"borudoğrayan": {
+"az": "Boru doğrayan.",
+"en": "pipe cutter",
+"pos": "noun"
+},
+"boruhazırlayan": {
+"az": "Boru hazırlayan.",
+"en": "pipe maker",
+"pos": "noun"
+},
+"boruqaynaqlayan": {
+"az": "Boru qaynaqlayan.",
+"en": "pipe welder",
+"pos": "noun"
+},
+"boruqəlibləyən": {
+"az": "Boru qəlibləyən.",
+"en": "pipe moulding",
+"pos": "adjective"
+},
+"boruquraşdıran": {
+"az": "Boru quraşdıran.",
+"en": "pipe fitter",
+"pos": "noun"
+},
+"boruoturdan": {
+"az": "Boru oturdan.",
+"en": "pipe setter",
+"pos": "noun"
+},
+"borutəmizləyən": {
+"az": "Boru təmizləyən.",
+"en": "pipe cleaner",
+"pos": "noun"
+},
+"borututan": {
+"az": "Boru tutan alət.",
+"en": "pipe wrench",
+"pos": "noun"
+},
+"botel": {
+"az": "Gəmi-otel.",
+"en": "boatel",
+"pos": "noun"
+},
+"botoks": {
+"az": "Botulinum toksini preparatı.",
+"en": "Botox",
+"pos": "noun"
+},
+"botokud": {
+"az": "Braziliya hindu tayfası.",
+"en": "Botocudo",
+"pos": "noun"
+},
+"botulinoterapiya": {
+"az": "Botulinum toksini ilə müalicə.",
+"en": "botulinum therapy",
+"pos": "noun"
+},
+"boyabişirən": {
+"az": "Boya bişirən.",
+"en": "dye boiler",
+"pos": "noun"
+},
+"boyaqəzən": {
+"skip": "meaning not known with confidence"
+},
+"boylum": {
+"skip": "meaning not known with confidence"
+},
+"boynudərisiz": {
+"skip": "meaning not known with confidence"
+},
+"boysuz-buxunsuz": {
+"az": "Boysuz, cüssəsiz.",
+"en": "small of stature",
+"pos": "adjective"
+},
+"boyverən": {
+"az": "Boy verən.",
+"en": "growing",
+"pos": "adjective"
+},
+"bozaçalan": {
+"az": "Boza çalan.",
+"en": "greyish",
+"pos": "adjective"
+},
+"bozaçalar": {
+"az": "Bozumtul.",
+"en": "greyish",
+"pos": "adjective"
+},
+"bozax": {
+"skip": "meaning not known with confidence"
+},
+"bölümlüləçəkli": {
+"az": "Ləçəkləri bölümlü.",
+"en": "with divided petals",
+"pos": "adjective"
+},
+"bölümlüyarpaq çuğundur": {
+"az": "Yarpaqları bölümlü çuğundur növü.",
+"en": "divided-leaf beet",
+"pos": "noun"
+},
+"böyrəkboyu qızartı": {
+"skip": "meaning not known with confidence"
+},
+"böyrəkdənkənar": {
+"az": "Böyrəkdən kənar.",
+"en": "extrarenal",
+"pos": "adjective"
+},
+"böyükintensivli": {
+"az": "İntensivliyi böyük.",
+"en": "high-intensity",
+"pos": "adjective"
+},
+"braxistron": {
+"skip": "meaning not known with confidence"
+},
+"brakeraj": {
+"az": "Məhsulun keyfiyyət yoxlaması.",
+"en": "quality inspection",
+"pos": "noun"
+},
+"braqa": {
+"az": "Evdə hazırlanan zəif spirtli içki.",
+"en": "home-brew, braga",
+"pos": "noun"
+},
+"bramin": {
+"az": "Hinduizmdə ruhani kastası.",
+"en": "Brahmin",
+"pos": "noun"
+},
+"brander": {
+"az": "Yandırıcı gəmi.",
+"en": "fire ship",
+"pos": "noun"
+},
+"braşpil": {
+"az": "Lövbər qaldıran bucurqad.",
+"en": "windlass",
+"pos": "noun"
+},
+"braulyoz": {
+"az": "Arı xəstəliyi.",
+"en": "braulosis",
+"pos": "noun"
+},
+"breton": {
+"az": "Bretan xalqı.",
+"en": "Breton",
+"pos": "noun"
+},
+"breyn-rinq": {
+"az": "İntellektual yarış.",
+"en": "brain ring (quiz)",
+"pos": "noun"
+},
+"brınza": {
+"az": "Duzlu ağ pendir.",
+"en": "brynza",
+"pos": "noun"
+},
+"briq": {
+"az": "İki dorlu yelkənli gəmi.",
+"en": "brig",
+"pos": "noun"
+},
+"briqantin": {
+"az": "Yüngül iki dorlu gəmi.",
+"en": "brigantine",
+"pos": "noun"
+},
+"briozoy": {
+"az": "Mamırheyvanı.",
+"en": "bryozoan",
+"pos": "noun"
+},
+"bronxadenit": {
+"az": "Bronx limfa düyünlərinin iltihabı.",
+"en": "bronchoadenitis",
+"pos": "noun"
+},
+"bronxektaziya": {
+"az": "Bronxların genişlənməsi.",
+"en": "bronchiectasis",
+"pos": "noun"
+},
+"bronxogen": {
+"az": "Bronxlardan törəyən.",
+"en": "bronchogenic",
+"pos": "adjective"
+},
+"bronxopnevmoniya": {
+"az": "Bronxlar və ağciyərin iltihabı.",
+"en": "bronchopneumonia",
+"pos": "noun"
+},
+"brusit": {
+"az": "Maqnezium hidroksid mineralı.",
+"en": "brucite",
+"pos": "noun"
+},
+"bruter": {
+"skip": "meaning not known with confidence"
+},
+"buaykı": {
+"skip": "meaning not known with confidence"
+},
+"bubon": {
+"az": "İltihablı limfa düyünü.",
+"en": "bubo",
+"pos": "noun"
+},
+"budaqatma": {
+"az": "Budaq atma.",
+"en": "branching",
+"pos": "noun"
+},
+"budəfəki": {
+"az": "Bu dəfəki.",
+"en": "this time's",
+"pos": "adjective"
+},
+"budəfəlik": {
+"az": "Bu dəfəlik.",
+"en": "for this once",
+"pos": "adverb"
+},
+"budi": {
+"skip": "meaning not known with confidence"
+},
+"buduq": {
+"skip": "meaning not known with confidence"
+},
+"buduqca": {
+"skip": "meaning not known with confidence"
+},
+"buffon": {
+"az": "Komik opera aktyoru.",
+"en": "buffo",
+"pos": "noun"
+},
+"buff-opera": {
+"az": "Komik opera.",
+"en": "opera buffa",
+"pos": "noun"
+},
+"bugecəki": {
+"az": "Bu gecəki.",
+"en": "tonight's",
+"pos": "adjective"
+},
+"bugecəlik": {
+"az": "Bu gecəlik.",
+"en": "for tonight",
+"pos": "adverb"
+},
+"buğaoxşar": {
+"az": "Buğaya oxşar.",
+"en": "bull-like",
+"pos": "adjective"
+},
+"buğdayıot": {
+"skip": "meaning not known with confidence"
+},
+"buxara papaq": {
+"az": "Buxara dərisindən papaq.",
+"en": "Bukhara fur hat",
+"pos": "noun"
+},
+"buxarkeçirməyən": {
+"az": "Buxar keçirməyən.",
+"en": "vapour-proof",
+"pos": "adjective"
+},
+"buxarlandıran": {
+"az": "Buxarlandıran.",
+"en": "evaporating",
+"pos": "adjective"
+},
+"builki": {
+"az": "Bu ilki.",
+"en": "this year's",
+"pos": "adjective"
+},
+"bukinistika": {
+"az": "Köhnə kitab ticarəti.",
+"en": "second-hand book trade",
+"pos": "noun"
+},
+"bukmeyker": {
+"az": "Mərc qəbul edən.",
+"en": "bookmaker",
+"pos": "noun"
+},
+"buq": {
+"skip": "meaning not known with confidence"
+},
+"bulqar": {
+"az": "Bolqar.",
+"en": "Bulgarian",
+"pos": "noun"
+},
+"buluddağıdan": {
+"az": "Buludu dağıdan.",
+"en": "cloud-dispersing",
+"pos": "adjective"
+},
+"bundesrat": {
+"az": "Almaniyada torpaqlar şurası.",
+"en": "Bundesrat",
+"pos": "noun"
+},
+"bundestaq": {
+"az": "Almaniya parlamenti.",
+"en": "Bundestag",
+"pos": "noun"
+},
+"bundesver": {
+"az": "Almaniya silahlı qüvvələri.",
+"en": "Bundeswehr",
+"pos": "noun"
+},
+"buntürk": {
+"skip": "meaning not known with confidence"
+},
+"buracıq-oracıq": {
+"az": "Bura-ora.",
+"en": "here and there",
+"pos": "adverb"
+},
+"burğuitiləyən": {
+"az": "Burğu itiləyən.",
+"en": "drill-sharpening",
+"pos": "adjective"
+},
+"burjua-yunker": {
+"az": "Burjua və yunker.",
+"en": "bourgeois-Junker",
+"pos": "adjective"
+},
+"burqomistr": {
+"az": "Şəhər bələdiyyə başçısı.",
+"en": "burgomaster",
+"pos": "noun"
+},
+"burqund": {
+"az": "Burqundiyalı.",
+"en": "Burgundian",
+"pos": "noun"
+},
+"burlak": {
+"az": "Gəmi dartan fəhlə.",
+"en": "barge hauler",
+"pos": "noun"
+},
+"burnuaşağı": {
+"az": "Burnu aşağı, təvazökar.",
+"en": "humble",
+"pos": "adjective"
+},
+"burnuəzik": {
+"az": "Burnu əzik.",
+"en": "flat-nosed",
+"pos": "adjective"
+},
+"burnusallaq": {
+"az": "Burnu sallaq.",
+"en": "droop-nosed",
+"pos": "adjective"
+},
+"burnuyuxarı": {
+"az": "Burnu yuxarı, lovğa.",
+"en": "stuck-up",
+"pos": "adjective"
+},
+"buruqlararası": {
+"az": "Buruqlar arasında olan.",
+"en": "between derricks",
+"pos": "adjective"
+},
+"busaatkı": {
+"az": "Bu saatkı.",
+"en": "current, present",
+"pos": "adjective"
+},
+"bussol": {
+"az": "Kompas.",
+"en": "compass (surveying)",
+"pos": "noun"
+},
+"bustrofedon yazı": {
+"az": "Sətirlərin növbə ilə sağdan və soldan yazılması.",
+"en": "boustrophedon writing",
+"pos": "noun"
+},
+"buşotu": {
+"skip": "meaning not known with confidence"
+},
+"butamid": {
+"az": "Şəkərsalıcı dərman.",
+"en": "butamide",
+"pos": "noun"
+},
+"butik": {
+"az": "Moda mağazası.",
+"en": "boutique",
+"pos": "noun"
+},
+"butil-kauçuk": {
+"az": "Sintetik kauçuk.",
+"en": "butyl rubber",
+"pos": "noun"
+},
+"butirometr": {
+"az": "Südün yağlılığını ölçən cihaz.",
+"en": "butyrometer",
+"pos": "noun"
+},
+"buzovbəsləyən": {
+"az": "Buzov bəsləyən.",
+"en": "calf rearer",
+"pos": "noun"
+},
+"buzyaran": {
+"az": "Buz yaran gəmi.",
+"en": "icebreaker",
+"pos": "noun"
+},
+"büdcədənkənar": {
+"az": "Büdcədən kənar.",
+"en": "off-budget",
+"pos": "adjective"
+},
+"büküntü": {
+"az": "Bükülmüş yer.",
+"en": "fold",
+"pos": "noun"
+},
+"bürüş-bürüş": {
+"az": "Qırış-qırış.",
+"en": "wrinkled",
+"pos": "adjective"
+},
+"cacıq": {
+"az": "Qatıq, xiyar və göyərtidən soyuq xörək.",
+"en": "jajik (yogurt and cucumber dish)",
+"pos": "noun"
+},
+"cakuzi": {
+"az": "Hidromassajlı vanna.",
+"en": "jacuzzi",
+"pos": "noun"
+},
+"calaqalma": {
+"az": "Calaq alma.",
+"en": "taking a graft",
+"pos": "noun"
+},
+"calaqetmə": {
+"az": "Calaq etmə.",
+"en": "grafting",
+"pos": "noun"
+},
+"calğa": {
+"skip": "meaning not known with confidence"
+},
+"canayatımlı": {
+"az": "Cana yatımlı, xoş.",
+"en": "pleasant",
+"pos": "adjective"
+},
+"canıyananlıqla": {
+"az": "Can yandıraraq.",
+"en": "with devotion",
+"pos": "adverb"
+},
+"canıyanma": {
+"az": "Can yanma.",
+"en": "compassion",
+"pos": "noun"
+},
+"canıyanmış": {
+"az": "Canı yanmış.",
+"en": "grieved",
+"pos": "adjective"
+},
+"canüzücü": {
+"az": "Can üzən.",
+"en": "exhausting",
+"pos": "adjective"
+},
+"carcar": {
+"az": "Car çəkən.",
+"en": "crier",
+"pos": "noun"
+},
+"cavanşir": {
+"skip": "meaning not known with confidence"
+},
+"cazmen": {
+"az": "Caz musiqiçisi.",
+"en": "jazzman",
+"pos": "noun"
+},
+"cekpot": {
+"az": "Böyük uduş.",
+"en": "jackpot",
+"pos": "noun"
+},
+"ceyranqaçışlı": {
+"az": "Ceyran kimi qaçan.",
+"en": "gazelle-swift",
+"pos": "adjective"
+},
+"cəbhəboyu hücum": {
+"az": "Bütün cəbhə boyu hücum.",
+"en": "frontal attack",
+"pos": "noun"
+},
+"cəbrayılotu": {
+"skip": "meaning not known with confidence"
+},
+"cəlairi": {
+"az": "Cəlairilər sülaləsinə aid.",
+"en": "Jalayirid",
+"pos": "adjective"
+},
+"cəlbetmə": {
+"az": "Cəlb etmə.",
+"en": "attraction, involvement",
+"pos": "noun"
+},
+"cəmləyici": {
+"az": "Toplayan.",
+"en": "collecting; collector",
+"pos": "adjective"
+},
+"cəngavərcə": {
+"az": "Cəngavər kimi.",
+"en": "chivalrously",
+"pos": "adverb"
+},
+"cərəyanayıran": {
+"az": "Cərəyan ayıran.",
+"en": "current-separating",
+"pos": "adjective"
+},
+"cərəyandəyişdirən": {
+"az": "Cərəyanın istiqamətini dəyişən qurğu.",
+"en": "commutator",
+"pos": "noun"
+},
+"cərəyankeçirməyən": {
+"az": "Cərəyan keçirməyən.",
+"en": "non-conducting",
+"pos": "adjective"
+},
+"cərəyanölçmə": {
+"az": "Cərəyanın ölçülməsi.",
+"en": "current measurement",
+"pos": "noun"
+},
+"cərəyanötürən": {
+"az": "Cərəyan ötürən.",
+"en": "current-conducting",
+"pos": "adjective"
+},
+"cərəyanpaylayan": {
+"az": "Cərəyan paylayan.",
+"en": "current-distributing",
+"pos": "adjective"
+},
+"cərəyanverən": {
+"az": "Cərəyan verən.",
+"en": "current-supplying",
+"pos": "adjective"
+},
+"cərəyanyığan": {
+"az": "Cərəyan yığan.",
+"en": "current collector",
+"pos": "noun"
+},
+"cərgələrarası məsafə": {
+"az": "Cərgələr arasındakı məsafə.",
+"en": "row spacing",
+"pos": "noun"
+},
+"cəvahirsatan": {
+"az": "Cəvahirat satan.",
+"en": "jeweller",
+"pos": "noun"
+},
+"cəvizsındıran": {
+"az": "Qoz sındıran.",
+"en": "nutcracker",
+"pos": "noun"
+},
+"cəzaçəkən": {
+"az": "Cəza çəkən.",
+"en": "convict",
+"pos": "noun"
+},
+"cınqıldaqotu": {
+"skip": "meaning not known with confidence"
+},
+"cihazquraşdıran": {
+"az": "Cihaz quraşdıran.",
+"en": "instrument fitter",
+"pos": "noun"
+},
+"cihazyığan": {
+"az": "Cihaz yığan.",
+"en": "instrument assembler",
+"pos": "noun"
+},
+"cik-bik": {
+"skip": "meaning not known with confidence"
+},
+"cildləyici": {
+"az": "Cildləyən.",
+"en": "binder",
+"pos": "noun"
+},
+"cimcimə": {
+"skip": "meaning not known with confidence"
+},
+"cinotu": {
+"skip": "meaning not known with confidence"
+},
+"cismaniyyət": {
+"az": "Cismanilik.",
+"en": "corporeality",
+"pos": "noun"
+},
+"coşqu": {
+"az": "Coşqunluq.",
+"en": "enthusiasm",
+"pos": "noun"
+},
+"cövhərçəkən": {
+"az": "Cövhər çəkən.",
+"en": "extractor",
+"pos": "noun"
+},
+"cücəgözü parça": {
+"az": "Xırda naxışlı parça.",
+"en": "bird's-eye fabric",
+"pos": "noun"
+},
+"cücü-mücü": {
+"az": "Həşəratlar.",
+"en": "insects, bugs",
+"pos": "noun"
+},
+"cükkültü": {
+"skip": "meaning not known with confidence"
+},
+"cürcənək": {
+"skip": "meaning not known with confidence"
+}
+}

@@ -1,0 +1,1118 @@
+{
+"buraç": {
+"skip": "meaning not known with confidence"
+},
+"cütsaylı": {
+"az": "Cüt saylı.",
+"en": "even-numbered",
+"pos": "adjective"
+},
+"cüyürotu": {
+"skip": "meaning not known with confidence"
+},
+"cüzicə": {
+"az": "Cüzi miqdarda.",
+"en": "slightly",
+"pos": "adverb"
+},
+"çağatay": {
+"az": "Çağatay türkcəsi; Çağatay ulusuna aid.",
+"en": "Chagatai",
+"pos": "noun"
+},
+"çağırışaqədər": {
+"az": "Hərbi çağırışdan əvvəl.",
+"en": "pre-conscription",
+"pos": "adjective"
+},
+"çağırışaqədərki": {
+"az": "Çağırışdan əvvəlki.",
+"en": "pre-conscription",
+"pos": "adjective"
+},
+"çax": {
+"skip": "meaning not known with confidence"
+},
+"çaxçux": {
+"az": "Şaqqıltı, gurultu.",
+"en": "clatter",
+"pos": "noun"
+},
+"çaxırdaşı": {
+"az": "Çaxır çöküntüsü, şərab daşı.",
+"en": "wine tartar",
+"pos": "noun"
+},
+"çaxmağı": {
+"skip": "meaning not known with confidence"
+},
+"çaxnaq": {
+"skip": "meaning not known with confidence"
+},
+"çalan": {
+"az": "Çalğı çalan.",
+"en": "player (of an instrument)",
+"pos": "noun"
+},
+"çalası": {
+"skip": "meaning not known with confidence"
+},
+"çal-çevir": {
+"az": "Çalıb-çevirmə, qarışdırma.",
+"en": "stirring, turning over",
+"pos": "noun"
+},
+"çaldırıcı": {
+"skip": "meaning not known with confidence"
+},
+"çalğıbağı": {
+"skip": "meaning not known with confidence"
+},
+"çalhaçal": {
+"az": "Çala-çala, çuxur-çuxur.",
+"en": "full of pits",
+"pos": "adjective"
+},
+"çalxaq": {
+"skip": "meaning not known with confidence"
+},
+"çaralğa": {
+"skip": "meaning not known with confidence"
+},
+"çarpışıq": {
+"az": "Çarpaz, kəsişən.",
+"en": "crossing",
+"pos": "adjective"
+},
+"çartağ": {
+"skip": "meaning not known with confidence"
+},
+"çataçat": {
+"az": "Çat-çat.",
+"en": "cracked all over",
+"pos": "adjective"
+},
+"çata-çatmaya": {
+"az": "Çatan kimi.",
+"en": "just as (one) arrives",
+"pos": "adverb"
+},
+"çatalaq": {
+"skip": "meaning not known with confidence"
+},
+"çatar-çatmaz": {
+"az": "Çatan kimi.",
+"en": "as soon as (one) arrives",
+"pos": "adverb"
+},
+"çataşıq": {
+"skip": "meaning not known with confidence"
+},
+"çatımlıq": {
+"az": "Çatacaq qədər.",
+"en": "enough to reach",
+"pos": "adjective"
+},
+"çatıotu": {
+"skip": "meaning not known with confidence"
+},
+"çatışıq": {
+"skip": "meaning not known with confidence"
+},
+"çatqı": {
+"az": "Çatılmış şey.",
+"en": "thing tied together",
+"pos": "noun"
+},
+"çatlayış": {
+"az": "Çatlama.",
+"en": "crack, cracking",
+"pos": "noun"
+},
+"çatmatağ": {
+"skip": "meaning not known with confidence"
+},
+"çaybaşı": {
+"az": "Çayın başlanğıcı.",
+"en": "head of a river",
+"pos": "noun"
+},
+"çaybudayan": {
+"az": "Çay kollarını budayan maşın.",
+"en": "tea-bush pruner",
+"pos": "noun"
+},
+"çaybükən": {
+"az": "Çay yarpağını büküb burma maşını.",
+"en": "tea-rolling machine",
+"pos": "noun"
+},
+"çayəkən": {
+"az": "Çay əkən.",
+"en": "tea planter",
+"pos": "noun"
+},
+"çaynvord": {
+"az": "Sözlərin zəncir şəklində düzüldüyü söz oyunu.",
+"en": "chainword puzzle",
+"pos": "noun"
+},
+"çayotu": {
+"skip": "meaning not known with confidence"
+},
+"çaypaylayan": {
+"az": "Çay paylayan.",
+"en": "tea distributor",
+"pos": "noun"
+},
+"çaytəmizləyən": {
+"az": "Çay yarpağını təmizləyən.",
+"en": "tea-cleaning",
+"pos": "adjective"
+},
+"çayyetişdirən": {
+"az": "Çay yetişdirən.",
+"en": "tea grower",
+"pos": "noun"
+},
+"çek-ap": {
+"az": "Tibbi müayinə.",
+"en": "check-up",
+"pos": "noun"
+},
+"çek-in": {
+"az": "Qeydiyyatdan keçmə.",
+"en": "check-in",
+"pos": "noun"
+},
+"çesuça": {
+"az": "İpək parça növü.",
+"en": "tussore silk",
+"pos": "noun"
+},
+"çevirici": {
+"az": "Çevirən qurğu.",
+"en": "converter",
+"pos": "noun"
+},
+"çeviriş": {
+"az": "Çevirmə.",
+"en": "turn, conversion",
+"pos": "noun"
+},
+"çevrəvi": {
+"az": "Çevrə şəklində.",
+"en": "circular",
+"pos": "adjective"
+},
+"çeynəyici": {
+"az": "Çeynəyən.",
+"en": "chewing",
+"pos": "adjective"
+},
+"çəkəcək": {
+"skip": "meaning not known with confidence"
+},
+"çəkhaçək": {
+"az": "Çəkişmə, didişmə.",
+"en": "tug-of-war, wrangling",
+"pos": "noun"
+},
+"çəkiçəkən": {
+"az": "Çəki çəkən.",
+"en": "weigher",
+"pos": "noun"
+},
+"çəkimlik tütün": {
+"az": "Bir çəkimlik tütün.",
+"en": "tobacco for one smoke",
+"pos": "noun"
+},
+"çəkiş-bərkiş": {
+"az": "Çəkişmə, mübahisə.",
+"en": "wrangling",
+"pos": "noun"
+},
+"çəlpəş": {
+"skip": "meaning not known with confidence"
+},
+"çəltikəkmə": {
+"az": "Çəltik əkmə.",
+"en": "rice planting",
+"pos": "noun"
+},
+"çəltikyığan": {
+"az": "Çəltik yığan.",
+"en": "rice harvester",
+"pos": "noun"
+},
+"çəmənotu": {
+"az": "Çəmən otu.",
+"en": "meadow grass",
+"pos": "noun"
+},
+"çənə-çənəyə": {
+"az": "Çənə-çənəyə vermək, mübahisə etmək.",
+"en": "arguing face to face",
+"pos": "adverb"
+},
+"çəpişotu": {
+"skip": "meaning not known with confidence"
+},
+"çəplilik": {
+"az": "Çəp olma.",
+"en": "squint",
+"pos": "noun"
+},
+"çərəzxor": {
+"az": "Çərəz sevən.",
+"en": "snack lover",
+"pos": "noun"
+},
+"çərtili": {
+"az": "Çərtilmiş.",
+"en": "notched",
+"pos": "adjective"
+},
+"çətinliklə": {
+"az": "Güclə, zəhmətlə.",
+"en": "with difficulty",
+"pos": "adverb"
+},
+"çətinoxunan": {
+"az": "Çətin oxunan.",
+"en": "hard to read",
+"pos": "adjective"
+},
+"çətinsatılan": {
+"az": "Çətin satılan.",
+"en": "hard to sell",
+"pos": "adjective"
+},
+"çətintapılan": {
+"az": "Çətin tapılan.",
+"en": "hard to find",
+"pos": "adjective"
+},
+"çığır-bağırtı": {
+"az": "Qışqırıq.",
+"en": "shouting",
+"pos": "noun"
+},
+"çıxaçıx": {
+"az": "Hamının çıxması.",
+"en": "exodus, rush to leave",
+"pos": "noun"
+},
+"çıxar-çıxmaz": {
+"az": "Çıxan kimi.",
+"en": "as soon as (one) leaves",
+"pos": "adverb"
+},
+"çılçılpaq": {
+"az": "Lüt-üryan.",
+"en": "stark naked",
+"pos": "adjective"
+},
+"çılğınca": {
+"az": "Çılğın kimi.",
+"en": "frenziedly",
+"pos": "adverb"
+},
+"çılın-çılpaq": {
+"az": "Tamamilə çılpaq.",
+"en": "stark naked",
+"pos": "adjective"
+},
+"çımxırtı": {
+"skip": "meaning not known with confidence"
+},
+"çınqılüyüdən": {
+"az": "Çınqıl üyüdən.",
+"en": "gravel crusher",
+"pos": "noun"
+},
+"çınqılyuyan": {
+"az": "Çınqıl yuyan.",
+"en": "gravel washer",
+"pos": "noun"
+},
+"çınqılyükləyən": {
+"az": "Çınqıl yükləyən.",
+"en": "gravel loader",
+"pos": "noun"
+},
+"çıraqdan": {
+"az": "Çıraq qabı.",
+"en": "lamp holder",
+"pos": "noun"
+},
+"çır-çırpı": {
+"az": "Çör-çöp.",
+"en": "brushwood",
+"pos": "noun"
+},
+"çırpaçırp": {
+"az": "Çırpışma.",
+"en": "beating, thrashing",
+"pos": "noun"
+},
+"çırpıcı": {
+"az": "Çırpan.",
+"en": "beater",
+"pos": "noun"
+},
+"çırpıq": {
+"skip": "meaning not known with confidence"
+},
+"çırpışdırıcı": {
+"skip": "meaning not known with confidence"
+},
+"çibanotu": {
+"skip": "meaning not known with confidence"
+},
+"çiçəkaçan": {
+"az": "Çiçək açan.",
+"en": "flowering",
+"pos": "adjective"
+},
+"çiçəkdöyən": {
+"skip": "meaning not known with confidence"
+},
+"çiçəksatan": {
+"az": "Gül satan.",
+"en": "florist",
+"pos": "noun"
+},
+"çiçəksuyu": {
+"az": "Çiçək ətirli su.",
+"en": "flower water",
+"pos": "noun"
+},
+"çiçəkverən": {
+"az": "Çiçək verən.",
+"en": "flowering",
+"pos": "adjective"
+},
+"çilikbasdırma": {
+"skip": "meaning not known with confidence"
+},
+"çilikburnu": {
+"skip": "meaning not known with confidence"
+},
+"çilləpayı": {
+"skip": "meaning not known with confidence"
+},
+"çipset": {
+"az": "Kompüterin əsas mikrosxem dəsti.",
+"en": "chipset",
+"pos": "noun"
+},
+"çirişəoxşar": {
+"az": "Çirişə oxşar.",
+"en": "paste-like",
+"pos": "adjective"
+},
+"çirişotu": {
+"skip": "meaning not known with confidence"
+},
+"çirkaparan": {
+"az": "Çirki aparan.",
+"en": "dirt-removing",
+"pos": "adjective"
+},
+"çirkgötürməz": {
+"az": "Çirk tutmayan.",
+"en": "dirt-resistant",
+"pos": "adjective"
+},
+"çivəoxşar": {
+"skip": "meaning not known with confidence"
+},
+"çivqayışlı-kardan ötürməsi": {
+"skip": "meaning not known with confidence"
+},
+"çivvari": {
+"skip": "meaning not known with confidence"
+},
+"çiyanotu": {
+"skip": "meaning not known with confidence"
+},
+"çiyə": {
+"skip": "meaning not known with confidence"
+},
+"çizburger": {
+"az": "Pendirli burger.",
+"en": "cheeseburger",
+"pos": "noun"
+},
+"çobanotu": {
+"skip": "meaning not known with confidence"
+},
+"çocuqca": {
+"az": "Uşaq kimi.",
+"en": "childishly",
+"pos": "adverb"
+},
+"çocuqcığaz": {
+"az": "Balaca uşaq.",
+"en": "little child",
+"pos": "noun"
+},
+"çoxdamarlı kabel": {
+"az": "Çox damarlı kabel.",
+"en": "multicore cable",
+"pos": "noun"
+},
+"çoxqruplu təkan": {
+"skip": "meaning not known with confidence"
+},
+"çoxməhsuldarlı": {
+"az": "Çox məhsuldar.",
+"en": "high-yielding",
+"pos": "adjective"
+},
+"çoxməhsuldarlıq": {
+"az": "Yüksək məhsuldarlıq.",
+"en": "high productivity",
+"pos": "noun"
+},
+"çoxsənətli artel": {
+"az": "Bir neçə sənət üzrə artel.",
+"en": "multi-trade cooperative",
+"pos": "noun"
+},
+"çolum-çocuq": {
+"az": "Uşaq-muşaq.",
+"en": "kids, children",
+"pos": "noun"
+},
+"çömbələk": {
+"az": "Çömbələn.",
+"en": "squatting",
+"pos": "adjective"
+},
+"çöpbaşı": {
+"skip": "meaning not known with confidence"
+},
+"çöpdoğrayan": {
+"az": "Çöp doğrayan.",
+"en": "chaff cutter",
+"pos": "noun"
+},
+"çöpəgülən": {
+"skip": "meaning not known with confidence"
+},
+"çörəkçixana": {
+"az": "Çörək bişirilən yer.",
+"en": "bakery",
+"pos": "noun"
+},
+"çörəkgətirən": {
+"az": "Çörək gətirən.",
+"en": "bread deliverer",
+"pos": "noun"
+},
+"çörəkotu": {
+"skip": "meaning not known with confidence"
+},
+"çörəkyığan": {
+"az": "Çörək yığan.",
+"en": "bread collector",
+"pos": "noun"
+},
+"çuğundurdoğrayan": {
+"az": "Çuğundur doğrayan maşın.",
+"en": "beet slicer",
+"pos": "noun"
+},
+"çuğundurəkmə": {
+"az": "Çuğundur əkmə.",
+"en": "beet planting",
+"pos": "noun"
+},
+"çuxuraçan": {
+"az": "Çuxur açan.",
+"en": "pit digger",
+"pos": "noun"
+},
+"çuxursuz-çalasız": {
+"az": "Çuxursuz, hamar.",
+"en": "smooth, without pits",
+"pos": "adjective"
+},
+"çuxursuz-çökəksiz": {
+"az": "Çuxursuz, hamar.",
+"en": "smooth, without hollows",
+"pos": "adjective"
+},
+"çukça": {
+"az": "Çukot xalqı.",
+"en": "Chukchi",
+"pos": "noun"
+},
+"çukçaca": {
+"az": "Çukça dilində.",
+"en": "in Chukchi",
+"pos": "adverb"
+},
+"çuquntökən": {
+"az": "Çuqun tökən.",
+"en": "iron founder",
+"pos": "noun"
+},
+"çulan": {
+"az": "Anbar otağı.",
+"en": "storeroom",
+"pos": "noun"
+},
+"çutqabağı": {
+"skip": "meaning not known with confidence"
+},
+"çüyütotu": {
+"skip": "meaning not known with confidence"
+},
+"dadbilməz": {
+"az": "Dad bilməyən.",
+"en": "unappreciative",
+"pos": "adjective"
+},
+"dağarısı": {
+"az": "Dağ arısı.",
+"en": "mountain bee",
+"pos": "noun"
+},
+"dağaşıran": {
+"az": "Dağ aşıran.",
+"en": "mountain-crossing",
+"pos": "adjective"
+},
+"dağatıcı alay": {
+"az": "Dağ atıcı alayı.",
+"en": "mountain rifle regiment",
+"pos": "noun"
+},
+"dağavar": {
+"skip": "meaning not known with confidence"
+},
+"dağbaşı": {
+"az": "Dağın başı.",
+"en": "mountaintop",
+"pos": "noun"
+},
+"dağbeli": {
+"az": "Dağın beli.",
+"en": "mountain ridge",
+"pos": "noun"
+},
+"dağəmələgətirən": {
+"az": "Dağ əmələ gətirən.",
+"en": "orogenic",
+"pos": "adjective"
+},
+"dağəmələgətirmə": {
+"az": "Dağ əmələ gəlməsi.",
+"en": "orogeny",
+"pos": "noun"
+},
+"dağlayıcı": {
+"az": "Dağlayan.",
+"en": "cauterizing",
+"pos": "adjective"
+},
+"dağotu": {
+"skip": "meaning not known with confidence"
+},
+"dağ-tundra": {
+"az": "Dağ tundrası.",
+"en": "mountain tundra",
+"pos": "noun"
+},
+"dağyalı": {
+"az": "Dağın yalı.",
+"en": "mountain crest",
+"pos": "noun"
+},
+"daxiletmə": {
+"az": "Daxil etmə.",
+"en": "input, insertion",
+"pos": "noun"
+},
+"daxiliqızdırma sistemi": {
+"az": "Daxili qızdırma sistemi.",
+"en": "internal heating system",
+"pos": "noun"
+},
+"daxilisoyutma qurğusu": {
+"az": "Daxili soyutma qurğusu.",
+"en": "internal cooling unit",
+"pos": "noun"
+},
+"daxiliyanma mühərriki": {
+"az": "Daxili yanma mühərriki.",
+"en": "internal combustion engine",
+"pos": "noun"
+},
+"dairətutan": {
+"skip": "meaning not known with confidence"
+},
+"dakron": {
+"az": "Sintetik poliester lif.",
+"en": "Dacron",
+"pos": "noun"
+},
+"daktil": {
+"az": "Bir vurğulu və iki vurğusuz hecadan ibarət ölçü.",
+"en": "dactyl",
+"pos": "noun"
+},
+"dalğaqaytaran": {
+"az": "Dalğanı qaytaran.",
+"en": "wave-reflecting",
+"pos": "adjective"
+},
+"dalğasaxlayan": {
+"az": "Dalğasaxlayan qurğu.",
+"en": "breakwater",
+"pos": "noun"
+},
+"dalğatutan": {
+"az": "Dalğa tutan.",
+"en": "wave-catching",
+"pos": "adjective"
+},
+"dalğaverən": {
+"az": "Dalğa verən.",
+"en": "wave-generating",
+"pos": "adjective"
+},
+"dalğayarıcı": {
+"az": "Dalğa yaran.",
+"en": "wave-breaking",
+"pos": "adjective"
+},
+"dalğayazan": {
+"az": "Dalğaları yazan cihaz.",
+"en": "wave recorder",
+"pos": "noun"
+},
+"damardanxaric": {
+"az": "Damardan kənar.",
+"en": "extravascular",
+"pos": "adjective"
+},
+"damardankənar": {
+"az": "Damardan kənar.",
+"en": "extravascular",
+"pos": "adjective"
+},
+"damartikən": {
+"skip": "meaning not known with confidence"
+},
+"damaryığan": {
+"skip": "meaning not known with confidence"
+},
+"damdolusu": {
+"az": "Dam dolusu.",
+"en": "a roomful",
+"pos": "noun"
+},
+"damğalayıcı": {
+"az": "Damğalayan.",
+"en": "branding",
+"pos": "adjective"
+},
+"darağan": {
+"skip": "meaning not known with confidence"
+},
+"daram-daram saç": {
+"az": "Daranmış saç.",
+"en": "combed hair",
+"pos": "noun"
+},
+"dard": {
+"skip": "meaning not known with confidence"
+},
+"dardöşlü at": {
+"az": "Döşü dar at.",
+"en": "narrow-chested horse",
+"pos": "noun"
+},
+"dardöşlülük": {
+"az": "Döşü dar olma.",
+"en": "narrow-chestedness",
+"pos": "noun"
+},
+"dargin": {
+"az": "Dağıstanda yaşayan xalq.",
+"en": "Dargin",
+"pos": "noun"
+},
+"dargincə": {
+"az": "Dargin dilində.",
+"en": "in Dargin",
+"pos": "adverb"
+},
+"darsonval": {
+"az": "Yüksək tezlikli cərəyanla müalicə.",
+"en": "darsonvalization",
+"pos": "noun"
+},
+"dartıq": {
+"skip": "meaning not known with confidence"
+},
+"dartıqsimli": {
+"skip": "meaning not known with confidence"
+},
+"daşabasma": {
+"az": "Litoqrafiya.",
+"en": "lithography",
+"pos": "noun"
+},
+"daşağac": {
+"skip": "meaning not known with confidence"
+},
+"daşçapı": {
+"skip": "meaning not known with confidence"
+},
+"daş-daşa": {
+"skip": "meaning not known with confidence"
+},
+"daşəzən": {
+"az": "Daş əzən maşın.",
+"en": "stone crusher",
+"pos": "noun"
+},
+"daşınıq": {
+"az": "Daşınmış.",
+"en": "transported",
+"pos": "adjective"
+},
+"daşqaldıran": {
+"az": "Daş qaldıran.",
+"en": "stone lifter",
+"pos": "noun"
+},
+"daşürək": {
+"az": "Daş ürəkli.",
+"en": "stone-hearted",
+"pos": "adjective"
+},
+"daşyığan": {
+"az": "Daş yığan.",
+"en": "stone gatherer",
+"pos": "noun"
+},
+"data": {
+"az": "Məlumat.",
+"en": "data",
+"pos": "noun"
+},
+"dataqram": {
+"az": "Paket şəbəkəsində müstəqil məlumat paketi.",
+"en": "datagram",
+"pos": "noun"
+},
+"datakart": {
+"skip": "meaning not known with confidence"
+},
+"dava-dartış": {
+"az": "Dava, mübahisə.",
+"en": "quarrel",
+"pos": "noun"
+},
+"davasız-vuruşsuz": {
+"az": "Davasız, sülh içində.",
+"en": "without a fight",
+"pos": "adjective"
+},
+"dayanaq": {
+"az": "Dayaq.",
+"en": "support",
+"pos": "noun"
+},
+"dayanar-dayanmaz": {
+"az": "Dayanan kimi.",
+"en": "as soon as (it) stops",
+"pos": "adverb"
+},
+"dayandoldurum": {
+"skip": "meaning not known with confidence"
+},
+"dayanılmaz": {
+"az": "Dözülməz.",
+"en": "unbearable",
+"pos": "adjective"
+},
+"daycest": {
+"az": "Xülasə, toplu.",
+"en": "digest",
+"pos": "noun"
+},
+"daylaqotu": {
+"skip": "meaning not known with confidence"
+},
+"dazalaq": {
+"skip": "meaning not known with confidence"
+},
+"deaerasiya": {
+"az": "Qazsızlaşdırma.",
+"en": "deaeration",
+"pos": "noun"
+},
+"deaerator": {
+"az": "Qazsızlaşdırıcı.",
+"en": "deaerator",
+"pos": "noun"
+},
+"deafferentasiya": {
+"az": "Sinir siqnallarının kəsilməsi.",
+"en": "deafferentation",
+"pos": "noun"
+},
+"dealkolizasiya": {
+"az": "Spirtin çıxarılması.",
+"en": "dealcoholization",
+"pos": "noun"
+},
+"debarkader": {
+"az": "Üzən körpü.",
+"en": "landing stage",
+"pos": "noun"
+},
+"dederon": {
+"az": "Sintetik lif.",
+"en": "Dederon (fibre)",
+"pos": "noun"
+},
+"dedollarizasiya": {
+"az": "Dollardan imtina.",
+"en": "de-dollarization",
+"pos": "noun"
+},
+"defektoskop": {
+"az": "Qüsur aşkar edən cihaz.",
+"en": "flaw detector",
+"pos": "noun"
+},
+"defektoskopik": {
+"az": "Qüsur aşkar etməyə aid.",
+"en": "flaw-detection",
+"pos": "adjective"
+},
+"defektoskopiya": {
+"az": "Qüsurların aşkar edilməsi.",
+"en": "non-destructive testing",
+"pos": "noun"
+},
+"defeminizasiya": {
+"az": "Qadın əlamətlərinin itməsi.",
+"en": "defeminization",
+"pos": "noun"
+},
+"definitiv": {
+"az": "Qəti.",
+"en": "definitive",
+"pos": "adjective"
+},
+"deflyator": {
+"az": "Qiymət indeksi.",
+"en": "deflator",
+"pos": "noun"
+},
+"defoliant": {
+"az": "Yarpaq tökdürən kimyəvi maddə.",
+"en": "defoliant",
+"pos": "noun"
+},
+"defolt": {
+"az": "Borcu ödəməmə.",
+"en": "default",
+"pos": "noun"
+},
+"deformasiyaedici": {
+"az": "Deformasiya edən.",
+"en": "deforming",
+"pos": "adjective"
+},
+"deformator": {
+"skip": "meaning not known with confidence"
+},
+"dehelmintizasiya": {
+"az": "Qurd əleyhinə müalicə.",
+"en": "deworming",
+"pos": "noun"
+},
+"dehidrat": {
+"skip": "meaning not known with confidence"
+},
+"dehidrator": {
+"az": "Susuzlaşdırıcı.",
+"en": "dehydrator",
+"pos": "noun"
+},
+"deist": {
+"az": "Deizm tərəfdarı.",
+"en": "deist",
+"pos": "noun"
+},
+"dekadans": {
+"az": "Tənəzzül.",
+"en": "decadence",
+"pos": "noun"
+},
+"dekadentizm": {
+"az": "Dekadans cərəyanı.",
+"en": "decadentism",
+"pos": "noun"
+},
+"dekalsifikasiya": {
+"az": "Kalsiumun itməsi.",
+"en": "decalcification",
+"pos": "noun"
+},
+"dekalsinasiya": {
+"skip": "meaning not known with confidence"
+},
+"dekametr": {
+"az": "On metr.",
+"en": "decametre",
+"pos": "noun"
+},
+"dekatron": {
+"az": "Sayğac lampası.",
+"en": "dekatron",
+"pos": "noun"
+},
+"dekodlaşdırmaq": {
+"az": "Şifri açmaq.",
+"en": "to decode",
+"pos": "verb"
+},
+"dekolte": {
+"az": "Açıq boyun yaxası.",
+"en": "décolleté",
+"pos": "noun"
+},
+"dekompensasiya": {
+"az": "Orqanın funksiyasının pozulması.",
+"en": "decompensation",
+"pos": "noun"
+},
+"dekompensə": {
+"skip": "meaning not known with confidence"
+},
+"dekompilyator": {
+"az": "Proqramı ilkin koda çevirən proqram.",
+"en": "decompiler",
+"pos": "noun"
+},
+"dekompozisiya": {
+"az": "Hissələrə ayırma.",
+"en": "decomposition",
+"pos": "noun"
+},
+"dekompressiv": {
+"az": "Təzyiqi azaldan.",
+"en": "decompressive",
+"pos": "adjective"
+},
+"dekonstruktiv": {
+"az": "Dekonstruksiyaya aid.",
+"en": "deconstructive",
+"pos": "adjective"
+},
+"dekonstruktivizm": {
+"az": "Memarlıq cərəyanı.",
+"en": "deconstructivism",
+"pos": "noun"
+},
+"dekorativizm": {
+"az": "Bəzəkçilik.",
+"en": "decorativism",
+"pos": "noun"
+},
+"dekretizasiya": {
+"skip": "meaning not known with confidence"
+},
+"dekstrofobiya": {
+"skip": "meaning not known with confidence"
+},
+"dekstrokardiya": {
+"az": "Ürəyin sağda yerləşməsi.",
+"en": "dextrocardia",
+"pos": "noun"
+},
+"dekstroza": {
+"az": "Qlükoza.",
+"en": "dextrose",
+"pos": "noun"
+},
+"dekvantlayıcı": {
+"skip": "meaning not known with confidence"
+},
+"deqlyasiasiya": {
+"az": "Buzlaqların əriməsi.",
+"en": "deglaciation",
+"pos": "noun"
+},
+"delesiya": {
+"az": "Xromosom hissəsinin itməsi.",
+"en": "deletion",
+"pos": "noun"
+},
+"delfi": {
+"skip": "meaning not known with confidence"
+},
+"delfinari": {
+"az": "Delfin hovuzu.",
+"en": "dolphinarium",
+"pos": "noun"
+},
+"delikates": {
+"az": "Ləziz yemək.",
+"en": "delicacy",
+"pos": "noun"
+},
+"deltayaoxşar": {
+"az": "Deltaya oxşar.",
+"en": "delta-shaped",
+"pos": "adjective"
+},
+"demarkasiya": {
+"az": "Sərhədin müəyyənləşdirilməsi.",
+"en": "demarcation",
+"pos": "noun"
+},
+"demarketinq": {
+"az": "Tələbatı azaltma marketinqi.",
+"en": "demarketing",
+"pos": "noun"
+},
+"demarş": {
+"az": "Diplomatik çıxış.",
+"en": "démarche",
+"pos": "noun"
+},
+"dementofobiya": {
+"skip": "meaning not known with confidence"
+},
+"demerec": {
+"skip": "meaning not known with confidence"
+},
+"demineralizasiya": {
+"az": "Mineralların itməsi.",
+"en": "demineralization",
+"pos": "noun"
+},
+"demisezon": {
+"az": "Mövsümlər arası.",
+"en": "between-season",
+"pos": "adjective"
+},
+"demo": {
+"az": "Nümayiş versiyası.",
+"en": "demo",
+"pos": "noun"
+}
+}

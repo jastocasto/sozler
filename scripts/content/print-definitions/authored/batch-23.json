@@ -1,0 +1,1136 @@
+{
+"kleoma": {
+"az": "Ətirli bəzək bitkisi.",
+"en": "cleome",
+"pos": "noun"
+},
+"klepper": {
+"az": "Qatlanan qayıq.",
+"en": "folding kayak",
+"pos": "noun"
+},
+"kleruxiya": {
+"az": "Qədim Afinada xaricdə torpaq payı.",
+"en": "cleruchy",
+"pos": "noun"
+},
+"klimatip": {
+"skip": "meaning not known with confidence"
+},
+"klimat-kontrol": {
+"az": "Avtomatik iqlim tənzimləmə.",
+"en": "climate control",
+"pos": "noun"
+},
+"klimatoqram": {
+"az": "İqlim göstəricilərinin qrafiki.",
+"en": "climatogram",
+"pos": "noun"
+},
+"klimator": {
+"skip": "meaning not known with confidence"
+},
+"klimatoterapiya": {
+"az": "İqlimlə müalicə.",
+"en": "climatotherapy",
+"pos": "noun"
+},
+"klimatron": {
+"skip": "meaning not known with confidence"
+},
+"klinik-diaqnostik": {
+"az": "Klinik diaqnozla bağlı.",
+"en": "clinical-diagnostic",
+"pos": "adjective"
+},
+"klinik-laborator": {
+"az": "Klinik laboratoriya ilə bağlı.",
+"en": "clinical-laboratory",
+"pos": "adjective"
+},
+"klinker": {
+"az": "Bişirilmiş sement xammalı; möhkəm kərpic.",
+"en": "clinker",
+"pos": "noun"
+},
+"klinostat": {
+"az": "Bitkini fırladan cihaz.",
+"en": "clinostat",
+"pos": "noun"
+},
+"klio": {
+"az": "Tarix ilhamçısı.",
+"en": "Clio",
+"pos": "noun"
+},
+"kliona": {
+"skip": "meaning not known with confidence"
+},
+"klipmeyker": {
+"az": "Klip çəkən rejissor.",
+"en": "music video director",
+"pos": "noun"
+},
+"klir": {
+"skip": "meaning not known with confidence"
+},
+"klirens": {
+"az": "Təmizlənmə sürəti; aralıq.",
+"en": "clearance",
+"pos": "noun"
+},
+"kliros": {
+"az": "Kilsədə xor yeri.",
+"en": "choir loft",
+"pos": "noun"
+},
+"klistran": {
+"skip": "meaning not known with confidence"
+},
+"klişoqraf": {
+"skip": "meaning not known with confidence"
+},
+"klobuk": {
+"az": "Pravoslav rahib papağı.",
+"en": "klobuk",
+"pos": "noun"
+},
+"klon": {
+"az": "Genetik eyni nüsxə.",
+"en": "clone",
+"pos": "noun"
+},
+"klonus": {
+"az": "Əzələnin ritmik qıcolması.",
+"en": "clonus",
+"pos": "noun"
+},
+"klounada": {
+"az": "Kloun tamaşası.",
+"en": "clowning",
+"pos": "noun"
+},
+"klovis": {
+"az": "Qədim Amerika mədəniyyəti.",
+"en": "Clovis culture",
+"pos": "noun"
+},
+"knesset": {
+"az": "İsrail parlamenti.",
+"en": "Knesset",
+"pos": "noun"
+},
+"koaquloqraf": {
+"az": "Qanın laxtalanmasını qeyd edən cihaz.",
+"en": "coagulograph",
+"pos": "noun"
+},
+"koaqulyasiya": {
+"az": "Laxtalanma.",
+"en": "coagulation",
+"pos": "noun"
+},
+"koartikulyasiya": {
+"az": "Qonşu səslərin tələffüzdə bir-birinə təsiri.",
+"en": "coarticulation",
+"pos": "noun"
+},
+"koaservasiya": {
+"az": "Kolloid məhlulun ayrılması.",
+"en": "coacervation",
+"pos": "noun"
+},
+"kobaltin": {
+"az": "Kobalt filizi.",
+"en": "cobaltite",
+"pos": "noun"
+},
+"koban": {
+"skip": "meaning not known with confidence"
+},
+"kobol": {
+"az": "Proqramlaşdırma dili.",
+"en": "COBOL",
+"pos": "noun"
+},
+"kobra": {
+"az": "Zəhərli ilan.",
+"en": "cobra",
+"pos": "noun"
+},
+"kobzar": {
+"az": "Kobza çalan Ukrayna xalq müğənnisi.",
+"en": "kobzar",
+"pos": "noun"
+},
+"koder": {
+"az": "Kodlaşdırıcı.",
+"en": "coder",
+"pos": "noun"
+},
+"kodifikasiya": {
+"az": "Qanunların sistemə salınması.",
+"en": "codification",
+"pos": "noun"
+},
+"kodoskop": {
+"az": "Proyektor.",
+"en": "overhead projector",
+"pos": "noun"
+},
+"koersitiv": {
+"az": "Maqnitsizləşdirici.",
+"en": "coercive",
+"pos": "adjective"
+},
+"koevolyusiya": {
+"az": "Birgə təkamül.",
+"en": "coevolution",
+"pos": "noun"
+},
+"kox çöpləri": {
+"az": "Vərəm bakteriyaları.",
+"en": "tubercle bacilli",
+"pos": "noun"
+},
+"koketka": {
+"az": "Nazlı qadın.",
+"en": "coquette",
+"pos": "noun"
+},
+"koksidioz": {
+"az": "Koksidilərin törətdiyi xəstəlik.",
+"en": "coccidiosis",
+"pos": "noun"
+},
+"koksinellid": {
+"az": "Parabüzən.",
+"en": "ladybird",
+"pos": "noun"
+},
+"koqnistiya": {
+"skip": "meaning not known with confidence"
+},
+"koqnitivistika": {
+"az": "İdrak elmi.",
+"en": "cognitive science",
+"pos": "noun"
+},
+"koqorta": {
+"az": "Eyni dövrdə doğulmuşlar qrupu; Roma dəstəsi.",
+"en": "cohort",
+"pos": "noun"
+},
+"kolabrasiya": {
+"skip": "meaning not known with confidence"
+},
+"kolanı": {
+"skip": "meaning not known with confidence"
+},
+"kolaoxşar": {
+"az": "Kolaya oxşar.",
+"en": "cola-like",
+"pos": "adjective"
+},
+"kolbaşı": {
+"az": "Kolun başı.",
+"en": "top of a bush",
+"pos": "noun"
+},
+"kolbektizm": {
+"skip": "meaning not known with confidence"
+},
+"koldibi": {
+"az": "Kolun dibi.",
+"en": "base of a bush",
+"pos": "noun"
+},
+"koldkrem": {
+"az": "Soyuq krem.",
+"en": "cold cream",
+"pos": "noun"
+},
+"kolibakterioz": {
+"az": "Bağırsaq çöpü infeksiyası.",
+"en": "colibacillosis",
+"pos": "noun"
+},
+"kolizey": {
+"az": "Roma amfiteatrı.",
+"en": "colosseum",
+"pos": "noun"
+},
+"kollayder": {
+"az": "Hissəcik sürətləndiricisi.",
+"en": "collider",
+"pos": "noun"
+},
+"kollegium": {
+"az": "Kollegiya, şura.",
+"en": "collegium",
+"pos": "noun"
+},
+"kollektor-dren": {
+"az": "Drenaj kollektoru.",
+"en": "collector drain",
+"pos": "noun"
+},
+"kolliqasiya": {
+"skip": "meaning not known with confidence"
+},
+"kollimator": {
+"az": "Paralel şüa dəstəsi yaradan cihaz.",
+"en": "collimator",
+"pos": "noun"
+},
+"kolliziya": {
+"az": "Toqquşma; ziddiyyət.",
+"en": "collision",
+"pos": "noun"
+},
+"kollodium": {
+"az": "Yapışqanlı məhlul.",
+"en": "collodion",
+"pos": "noun"
+},
+"kollokart": {
+"skip": "meaning not known with confidence"
+},
+"kolloksilin": {
+"az": "Nitrosellüloza.",
+"en": "nitrocellulose",
+"pos": "noun"
+},
+"kollokvium": {
+"az": "Elmi müsahibə.",
+"en": "colloquium",
+"pos": "noun"
+},
+"kolloplas": {
+"skip": "meaning not known with confidence"
+},
+"kollopsion": {
+"skip": "meaning not known with confidence"
+},
+"kollotipiya": {
+"az": "Jelatin çap üsulu.",
+"en": "collotype",
+"pos": "noun"
+},
+"kollüvi": {
+"az": "Yamac çöküntüləri.",
+"en": "colluvium",
+"pos": "noun"
+},
+"kolmataj": {
+"az": "Lilləndirmə.",
+"en": "colmatage",
+"pos": "noun"
+},
+"kolomenka": {
+"skip": "meaning not known with confidence"
+},
+"kolonial": {
+"az": "Müstəmləkə.",
+"en": "colonial",
+"pos": "adjective"
+},
+"kolonrəqəm": {
+"az": "Sütun nömrəsi.",
+"en": "column number",
+"pos": "noun"
+},
+"koloristika": {
+"az": "Rəng sənəti.",
+"en": "coloristics",
+"pos": "noun"
+},
+"kolposkop": {
+"az": "Uşaqlıq boynunu müayinə cihazı.",
+"en": "colposcope",
+"pos": "noun"
+},
+"kolpotomiya": {
+"az": "Uşaqlıq yolunun kəsilməsi.",
+"en": "colpotomy",
+"pos": "noun"
+},
+"kolumbit": {
+"az": "Niobium filizi.",
+"en": "columbite",
+"pos": "noun"
+},
+"kolumnist": {
+"az": "Köşə yazarı.",
+"en": "columnist",
+"pos": "noun"
+},
+"komandor": {
+"az": "Hərbi rütbə; ordenin rəisi.",
+"en": "commander",
+"pos": "noun"
+},
+"komba": {
+"skip": "meaning not known with confidence"
+},
+"kombikorm": {
+"az": "Qarışıq yem.",
+"en": "compound feed",
+"pos": "noun"
+},
+"kombinator": {
+"az": "Kombinasiya ustası.",
+"en": "schemer",
+"pos": "noun"
+},
+"komediya-pamflet": {
+"az": "Satirik komediya.",
+"en": "satirical comedy",
+"pos": "noun"
+},
+"komicə": {
+"az": "Komi dilində.",
+"en": "in Komi",
+"pos": "adverb"
+},
+"komiks": {
+"az": "Şəkilli hekayə.",
+"en": "comic",
+"pos": "noun"
+},
+"komi-permyak": {
+"az": "Komi xalqının qolu.",
+"en": "Komi-Permyak",
+"pos": "noun"
+},
+"komissioner": {
+"az": "Komissiyaçı.",
+"en": "commission agent",
+"pos": "noun"
+},
+"komissura": {
+"az": "Birləşmə yeri.",
+"en": "commissure",
+"pos": "noun"
+},
+"komitativ": {
+"az": "Birgəlik halı.",
+"en": "comitative",
+"pos": "noun"
+},
+"kommelina": {
+"az": "Bəzək bitkisi.",
+"en": "dayflower",
+"pos": "noun"
+},
+"kommendasiya": {
+"skip": "meaning not known with confidence"
+},
+"kommensal": {
+"az": "Başqasının hesabına zərərsiz yaşayan orqanizm.",
+"en": "commensal",
+"pos": "noun"
+},
+"komment": {
+"az": "Şərh.",
+"en": "comment",
+"pos": "noun"
+},
+"kommentari": {
+"az": "Şərhlər.",
+"en": "commentary",
+"pos": "noun"
+},
+"kommersant": {
+"az": "Tacir.",
+"en": "businessman",
+"pos": "noun"
+},
+"kommunikativistika": {
+"az": "Ünsiyyət elmi.",
+"en": "communication studies",
+"pos": "noun"
+},
+"kommunikator": {
+"az": "Ünsiyyət vasitəçisi.",
+"en": "communicator",
+"pos": "noun"
+},
+"kommutat": {
+"skip": "meaning not known with confidence"
+},
+"kommutativ": {
+"az": "Yerdəyişmə qanununa tabe.",
+"en": "commutative",
+"pos": "adjective"
+},
+"kommünike": {
+"az": "Rəsmi bəyanat.",
+"en": "communiqué",
+"pos": "noun"
+},
+"komonim": {
+"skip": "meaning not known with confidence"
+},
+"komonimiya": {
+"skip": "meaning not known with confidence"
+},
+"kompander": {
+"az": "Siqnal sıxıb-genişləndirən cihaz.",
+"en": "compander",
+"pos": "noun"
+},
+"kompanyon": {
+"az": "Şərik.",
+"en": "companion",
+"pos": "noun"
+},
+"komparativistika": {
+"az": "Müqayisəli dilçilik.",
+"en": "comparative studies",
+"pos": "noun"
+},
+"kompensator": {
+"az": "Əvəzləyici qurğu.",
+"en": "compensator",
+"pos": "noun"
+},
+"kompensə": {
+"az": "Kompensasiya.",
+"en": "compensation",
+"pos": "noun"
+},
+"kompetensiya": {
+"az": "Səriştə.",
+"en": "competence",
+"pos": "noun"
+},
+"kompleksonometriya": {
+"az": "Kompleksonlarla titrləmə.",
+"en": "complexometry",
+"pos": "noun"
+},
+"komplektsizlik": {
+"az": "Natamamlıq.",
+"en": "incompleteness",
+"pos": "noun"
+},
+"komplementarlıq": {
+"az": "Bir-birini tamamlama.",
+"en": "complementarity",
+"pos": "noun"
+},
+"kompressiya": {
+"az": "Sıxılma.",
+"en": "compression",
+"pos": "noun"
+},
+"kompton": {
+"skip": "meaning not known with confidence"
+},
+"kompüteromaniya": {
+"az": "Kompüterə aludəlik.",
+"en": "computer addiction",
+"pos": "noun"
+},
+"komtometr": {
+"skip": "meaning not known with confidence"
+},
+"kondensasiyalaşdırıcı": {
+"skip": "meaning not known with confidence"
+},
+"kondensə": {
+"az": "Kondensasiya.",
+"en": "condensation",
+"pos": "noun"
+},
+"kondensit": {
+"skip": "meaning not known with confidence"
+},
+"kondensor": {
+"az": "Kondensor linza.",
+"en": "condenser",
+"pos": "noun"
+},
+"kondiloma": {
+"az": "Ziyilvari törəmə.",
+"en": "condyloma",
+"pos": "noun"
+},
+"kondor": {
+"az": "Böyük Amerika leşyeyən quşu.",
+"en": "condor",
+"pos": "noun"
+},
+"kondotta": {
+"skip": "meaning not known with confidence"
+},
+"kondotyer": {
+"az": "Muzdlu dəstə başçısı.",
+"en": "condottiere",
+"pos": "noun"
+},
+"konduit": {
+"skip": "meaning not known with confidence"
+},
+"konduktometriya": {
+"az": "Elektrik keçiriciliyinin ölçülməsi.",
+"en": "conductometry",
+"pos": "noun"
+},
+"konfeksion": {
+"az": "Hazır paltar.",
+"en": "ready-to-wear",
+"pos": "adjective"
+},
+"konfidensiya": {
+"az": "Məxfilik.",
+"en": "confidentiality",
+"pos": "noun"
+},
+"konfirmasiya": {
+"az": "Təsdiq; dini mərasim.",
+"en": "confirmation",
+"pos": "noun"
+},
+"konfrontasiya": {
+"az": "Qarşıdurma.",
+"en": "confrontation",
+"pos": "noun"
+},
+"konfrontativ": {
+"az": "Qarşıdurmalı.",
+"en": "confrontational",
+"pos": "adjective"
+},
+"konxiologiya": {
+"az": "Molyusk qabıqlarını öyrənən elm.",
+"en": "conchology",
+"pos": "noun"
+},
+"konxoida": {
+"az": "Müstəvi əyri.",
+"en": "conchoid",
+"pos": "noun"
+},
+"konik": {
+"az": "Konusvari.",
+"en": "conical",
+"pos": "adjective"
+},
+"konklav": {
+"az": "Papa seçən kardinallar yığıncağı.",
+"en": "conclave",
+"pos": "noun"
+},
+"konkordans": {
+"az": "Sözlük göstərici.",
+"en": "concordance",
+"pos": "noun"
+},
+"konqlomerasiya": {
+"az": "Topalaşma.",
+"en": "conglomeration",
+"pos": "noun"
+},
+"konqreqasiya": {
+"az": "Dini birlik.",
+"en": "congregation",
+"pos": "noun"
+},
+"konqresmen": {
+"az": "ABŞ Konqresinin üzvü.",
+"en": "congressman",
+"pos": "noun"
+},
+"konneks": {
+"skip": "meaning not known with confidence"
+},
+"konnektor": {
+"az": "Birləşdirici.",
+"en": "connector",
+"pos": "noun"
+},
+"konnotasiya": {
+"az": "Əlavə məna çaları.",
+"en": "connotation",
+"pos": "noun"
+},
+"konsekvent": {
+"az": "Ardıcıl.",
+"en": "consistent",
+"pos": "adjective"
+},
+"konsentrasiya": {
+"az": "Qatılıq; cəmləşmə.",
+"en": "concentration",
+"pos": "noun"
+},
+"konsentrator": {
+"az": "Qatılaşdırıcı.",
+"en": "concentrator",
+"pos": "noun"
+},
+"konsentrizm": {
+"az": "Təlimdə dairəvi təkrar prinsipi.",
+"en": "concentric teaching",
+"pos": "noun"
+},
+"konsepsus": {
+"skip": "meaning not known with confidence"
+},
+"konseptakul": {
+"skip": "meaning not known with confidence"
+},
+"konseptosfer": {
+"az": "Anlayışlar sferası.",
+"en": "conceptosphere",
+"pos": "noun"
+},
+"konservant": {
+"az": "Qoruyucu maddə.",
+"en": "preservative",
+"pos": "noun"
+},
+"konservasiya": {
+"az": "Mühafizə; konservləşdirmə.",
+"en": "conservation",
+"pos": "noun"
+},
+"konservatizm": {
+"az": "Mühafizəkarlıq.",
+"en": "conservatism",
+"pos": "noun"
+},
+"konsiqnant": {
+"az": "Mal göndərən.",
+"en": "consignor",
+"pos": "noun"
+},
+"konsiqnator": {
+"az": "Mal qəbul edən.",
+"en": "consignee",
+"pos": "noun"
+},
+"konsistensiya": {
+"az": "Qatılıq.",
+"en": "consistency",
+"pos": "noun"
+},
+"konsistent": {
+"az": "Ardıcıl.",
+"en": "consistent",
+"pos": "adjective"
+},
+"konsistometr": {
+"az": "Qatılıq ölçən cihaz.",
+"en": "consistometer",
+"pos": "noun"
+},
+"konsistor": {
+"skip": "meaning not known with confidence"
+},
+"konsistoriya": {
+"az": "Kilsə şurası.",
+"en": "consistory",
+"pos": "noun"
+},
+"konsolidasiya": {
+"az": "Birləşdirmə, möhkəmləndirmə.",
+"en": "consolidation",
+"pos": "noun"
+},
+"konsolidə": {
+"az": "Konsolidasiya.",
+"en": "consolidation",
+"pos": "noun"
+},
+"konsonans": {
+"az": "Ahəngdar səslənmə.",
+"en": "consonance",
+"pos": "noun"
+},
+"konsonantizm": {
+"az": "Samitlər sistemi.",
+"en": "consonant system",
+"pos": "noun"
+},
+"konsonata": {
+"skip": "meaning not known with confidence"
+},
+"konsorsiya": {
+"skip": "meaning not known with confidence"
+},
+"konsort": {
+"az": "Hökmdarın həyat yoldaşı.",
+"en": "consort",
+"pos": "noun"
+},
+"konspiralogiya": {
+"az": "Sui-qəsd nəzəriyyələri.",
+"en": "conspiracy theorizing",
+"pos": "noun"
+},
+"konstatasiya": {
+"az": "Faktı qeyd etmə.",
+"en": "statement of fact",
+"pos": "noun"
+},
+"konstebl": {
+"az": "İngiltərədə polis.",
+"en": "constable",
+"pos": "noun"
+},
+"konstituent": {
+"az": "Tərkib hissəsi.",
+"en": "constituent",
+"pos": "noun"
+},
+"konstitusion": {
+"az": "Konstitusiyaya aid.",
+"en": "constitutional",
+"pos": "adjective"
+},
+"konstitusional": {
+"az": "Konstitusiyaya aid.",
+"en": "constitutional",
+"pos": "adjective"
+},
+"konstitutiv": {
+"az": "Təsisedici.",
+"en": "constitutive",
+"pos": "adjective"
+},
+"konstrativ": {
+"skip": "meaning not known with confidence"
+},
+"konsulat": {
+"az": "Konsulluq.",
+"en": "consulate",
+"pos": "noun"
+},
+"konsultant": {
+"az": "Məsləhətçi.",
+"en": "consultant",
+"pos": "noun"
+},
+"konsultativ": {
+"az": "Məşvərətçi.",
+"en": "consultative",
+"pos": "adjective"
+},
+"konsument": {
+"az": "İstehlakçı.",
+"en": "consumer",
+"pos": "noun"
+},
+"konsumerizm": {
+"az": "İstehlakçılıq.",
+"en": "consumerism",
+"pos": "noun"
+},
+"kontaktor": {
+"az": "Elektrik açarı.",
+"en": "contactor",
+"pos": "noun"
+},
+"kontaminasiya": {
+"az": "Çirklənmə; qarışma.",
+"en": "contamination",
+"pos": "noun"
+},
+"kontantist": {
+"skip": "meaning not known with confidence"
+},
+"kontekstualizm": {
+"az": "Kontekstə əsaslanan baxış.",
+"en": "contextualism",
+"pos": "noun"
+},
+"kontinuativ": {
+"az": "Davam bildirən.",
+"en": "continuative",
+"pos": "adjective"
+},
+"kontinuitet": {
+"az": "Fasiləsizlik.",
+"en": "continuity",
+"pos": "noun"
+},
+"kontinuum": {
+"az": "Fasiləsiz çoxluq.",
+"en": "continuum",
+"pos": "noun"
+},
+"konto-avizo": {
+"skip": "meaning not known with confidence"
+},
+"kontolor": {
+"skip": "meaning not known with confidence"
+},
+"kontomat": {
+"skip": "meaning not known with confidence"
+},
+"konto-passiv": {
+"skip": "meaning not known with confidence"
+},
+"konto-separato": {
+"skip": "meaning not known with confidence"
+},
+"kontrabalans": {
+"az": "Əks çəki.",
+"en": "counterbalance",
+"pos": "noun"
+},
+"kontrabarometr": {
+"skip": "meaning not known with confidence"
+},
+"kontrabroker": {
+"skip": "meaning not known with confidence"
+},
+"kontrafaktçılıq": {
+"az": "Saxta mal istehsalı.",
+"en": "counterfeiting",
+"pos": "noun"
+},
+"kontrajur": {
+"az": "Arxadan işıqlandırma.",
+"en": "backlighting",
+"pos": "noun"
+},
+"kontraksion": {
+"skip": "meaning not known with confidence"
+},
+"kontramarka": {
+"az": "Pulsuz bilet.",
+"en": "complimentary ticket",
+"pos": "noun"
+},
+"kontrapost": {
+"az": "Heykəldə bədən çəkisinin bir ayağa düşdüyü duruş.",
+"en": "contrapposto",
+"pos": "noun"
+},
+"kontraseptik": {
+"az": "Hamiləliyin qarşısını alan.",
+"en": "contraceptive",
+"pos": "adjective"
+},
+"kontraseptiv": {
+"az": "Hamiləliyin qarşısını alan vasitə.",
+"en": "contraceptive",
+"pos": "noun"
+},
+"kontrasiqnasiya": {
+"az": "Əlavə imza.",
+"en": "countersignature",
+"pos": "noun"
+},
+"kontrasiqnatura": {
+"az": "Əlavə imza.",
+"en": "countersignature",
+"pos": "noun"
+},
+"kontratip": {
+"skip": "meaning not known with confidence"
+},
+"kontr-buxar": {
+"skip": "meaning not known with confidence"
+},
+"kontrqalop": {
+"skip": "meaning not known with confidence"
+},
+"kontrqals": {
+"skip": "meaning not known with confidence"
+},
+"kontr-mədəniyyət": {
+"az": "Əks-mədəniyyət.",
+"en": "counterculture",
+"pos": "noun"
+},
+"kontrollinq": {
+"az": "İdarəetmə nəzarəti.",
+"en": "controlling",
+"pos": "noun"
+},
+"kontroverza": {
+"az": "Mübahisə.",
+"en": "controversy",
+"pos": "noun"
+},
+"konveksion": {
+"az": "Konveksiyaya aid.",
+"en": "convective",
+"pos": "adjective"
+},
+"konvektiv": {
+"az": "Konveksiya ilə.",
+"en": "convective",
+"pos": "adjective"
+},
+"konvent": {
+"az": "Fransa inqilabında qanunverici məclis; monastır.",
+"en": "convention",
+"pos": "noun"
+},
+"konversiya": {
+"az": "Çevirmə, dəyişdirmə.",
+"en": "conversion",
+"pos": "noun"
+},
+"konvertasiya": {
+"az": "Valyutanın dəyişdirilməsi.",
+"en": "conversion",
+"pos": "noun"
+},
+"konverter": {
+"az": "Çevirici.",
+"en": "converter",
+"pos": "noun"
+},
+"konyuqasiya": {
+"az": "Birləşmə; fel təsrifi.",
+"en": "conjugation",
+"pos": "noun"
+},
+"konyuqat": {
+"skip": "meaning not known with confidence"
+},
+"konyunktivit": {
+"az": "Göz selikli qişasının iltihabı.",
+"en": "conjunctivitis",
+"pos": "noun"
+},
+"kooperator": {
+"az": "Kooperativ üzvü.",
+"en": "cooperator",
+"pos": "noun"
+},
+"koordinatoqraf": {
+"az": "Koordinatları qeyd edən cihaz.",
+"en": "coordinatograph",
+"pos": "noun"
+},
+"koordinator": {
+"az": "Əlaqələndirici.",
+"en": "coordinator",
+"pos": "noun"
+},
+"koortasiya": {
+"skip": "meaning not known with confidence"
+},
+"kopiraytinq": {
+"az": "Reklam mətni yazma.",
+"en": "copywriting",
+"pos": "noun"
+},
+"kopolimer": {
+"az": "Müxtəlif monomerlərdən polimer.",
+"en": "copolymer",
+"pos": "noun"
+},
+"koprofagiya": {
+"az": "Nəcis yemə.",
+"en": "coprophagy",
+"pos": "noun"
+},
+"koptik": {
+"az": "Kopt dilinə aid.",
+"en": "Coptic",
+"pos": "adjective"
+},
+"kopulyasiya": {
+"az": "Cütləşmə.",
+"en": "copulation",
+"pos": "noun"
+},
+"koramalotu": {
+"skip": "meaning not known with confidence"
+},
+"kordebalet": {
+"az": "Baletdə kütləvi rəqqaslar.",
+"en": "corps de ballet",
+"pos": "noun"
+},
+"kordiyerit": {
+"az": "Silikat mineralı.",
+"en": "cordierite",
+"pos": "noun"
+},
+"kordodrom": {
+"skip": "meaning not known with confidence"
+},
+"korinebakterioz": {
+"skip": "meaning not known with confidence"
+},
+"korinebakteriya": {
+"az": "Çöpvari bakteriya.",
+"en": "corynebacterium",
+"pos": "noun"
+},
+"korinozomoz": {
+"skip": "meaning not known with confidence"
+},
+"kor-koranəlik": {
+"az": "Korkoranəlik.",
+"en": "blindness to facts",
+"pos": "noun"
+},
+"korma": {
+"skip": "meaning not known with confidence"
+},
+"korner": {
+"az": "Künc zərbəsi.",
+"en": "corner kick",
+"pos": "noun"
+},
+"kornuel dili": {
+"az": "Kornuoll kelt dili.",
+"en": "Cornish language",
+"pos": "noun"
+},
+"koroğluluq": {
+"az": "Koroğlu kimi igidlik.",
+"en": "Koroghlu-like valour",
+"pos": "noun"
+},
+"koroğlusayağı": {
+"az": "Koroğlu sayağı.",
+"en": "in Koroghlu's way",
+"pos": "adverb"
+},
+"koroğluyana": {
+"az": "Koroğlu kimi.",
+"en": "in Koroghlu's way",
+"pos": "adverb"
+},
+"koronoqraf": {
+"az": "Günəş tacını müşahidə cihazı.",
+"en": "coronagraph",
+"pos": "noun"
+},
+"koronometr": {
+"skip": "meaning not known with confidence"
+},
+"kor-peşmancasına": {
+"az": "Peşman halda.",
+"en": "ruefully",
+"pos": "adverb"
+},
+"korporant": {
+"skip": "meaning not known with confidence"
+},
+"korporativizm": {
+"az": "Korporasiyalar sistemi.",
+"en": "corporatism",
+"pos": "noun"
+},
+"korporator": {
+"skip": "meaning not known with confidence"
+},
+"korreksiya": {
+"az": "Düzəliş.",
+"en": "correction",
+"pos": "noun"
+}
+}
