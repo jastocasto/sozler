@@ -966,6 +966,13 @@ class Builder:
             head = next((c for c in (token, stem) if c and self.usable(c)), None)
             if not head:
                 return []
+            # An izafet head carries the possessive even when the bare form is another word: rüşeym qat-ı (not qatı,
+            # thick), çoban it-i (not iti, sharp). Not after a possessive form, where it is a predicate: ucu iti (sharp).
+            nominal = lambda c: c and (self.usable(c) or {}).get('pos') in ('noun', 'word')
+            if (head == token and definition['pos'] == 'noun' and not nominal(token) and index > 0 and stem != token
+                    and not (possessive_stem(tokens[index - 1]) != tokens[index - 1] and not self.usable(tokens[index - 1]))):
+                stems = [stem] + ([stem[:-1] + {'ğ': 'q', 'y': 'k'}[stem[-1]]] if stem and stem[-1] in 'ğy' else [])
+                head = next((c for c in stems if nominal(c)), head)
             if head in KIND_HEADS and index > 0:
                 continue
             if head in GENERIC_HEADS or head == word:
