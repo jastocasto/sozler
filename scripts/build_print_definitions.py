@@ -107,6 +107,12 @@ VERB_SUFFIXES = [('doer', 'VcV', 'yVcV'), ('result', 'VntV', 'ntV'), ('action', 
                  ('perfect', 'mVş', 'mVş'), ('participle', 'An', 'yAn'), ('verbal-noun', 'mA', 'mA')]
 # Verb-derived nouns and adjectives that the suffix rules define (the others are inflections, used only inside compounds).
 VERB_DERIVED = {'doer', 'action', 'result', 'never'}
+# Invariant suffixes of Persian origin: çayxana, namazgah, torpaqşünas, qəpikpərəst, qanunpərvər, oyunbaz.
+INVARIANT_SUFFIXES = {'xana': 'place', 'gah': 'place', 'şünas': 'expert', 'şünaslıq': 'study', 'pərəst': 'devotee',
+                      'pərvər': 'devotee', 'baz': 'fond'}
+# Suffixes with several senses (qeyrət-lə, sabah-dan, yapon-ca, büllur-i, oyun-baz): they only link a word whose own
+# definition names the base, and never define one.
+LINK_ONLY = {'with', 'from', 'ca', 'relational', 'fond'}
 # Case endings on the first part of a compound whose second part governs it (göy-dən düşmüş, heyvan-a oxşar).
 CASE_ENDINGS = ('dan', 'dən', 'da', 'də', 'ya', 'yə', 'nı', 'ni', 'nu', 'nü', 'sı', 'si', 'su', 'sü', 'a', 'ə', 'ı', 'i', 'u', 'ü')
 # Adjectives and postpositions that govern the case of the word before them: heyvan-a oxşar, tərif-ə layiq, rinq-dən kənar.
@@ -520,7 +526,15 @@ class Builder:
                 'ç' + v2: 'diminutive',
                 'c' + v2 + ('sına' if v2 == 'a' else 'sinə'): 'manner',
                 'vari': 'like',
+                'l' + v2: 'with',
+                'd' + v2 + 'n': 'from',
+                'c' + v2: 'ca',
             }
+            kinds.update(INVARIANT_SUFFIXES)
+            # -anə after a consonant, -yanə after a vowel (aşiqanə, dahiyanə); relational -i only after a consonant.
+            kinds['yanə' if base_word[-1] in VOWELS else 'anə'] = 'manner-ane'
+            if base_word[-1] not in VOWELS:
+                kinds['i'] = 'relational'
             if suffix in kinds:
                 yield base_word, kinds[suffix], suffix
         # Place compounds: qarınüstü (qarın + üstü), and "between" adjectives: banklararası (bank + -lar + arası).
@@ -617,6 +631,24 @@ class Builder:
         # -lan after a noun has too many senses to state by rule (çapaqlanmaq, çisəklənmək); after an adjective it is "become".
         if kind == 'acquire' and pos == 'adjective':
             return f'«{base_word}» sözündən -{suffix} şəkilçisi ilə düzələn fel: {base_word} olmaq.', f'to become {short}', 'verb'
+        if kind in LINK_ONLY and nominal:
+            return f'«{base_word}» sözündən -{suffix} şəkilçisi ilə düzələn söz.', f'formed from {base_word} ({g}) with -{suffix}', pos
+        if kind == 'place' and pos in ('noun', 'word'):
+            return (f'«{base_word}» sözündən -{suffix} şəkilçisi ilə düzələn isim: {base_word} ilə bağlı yer.',
+                    f'place for {short}' if english else f'place of {base_word}', 'noun')
+        if kind == 'expert' and nominal:
+            return f'«{base_word}» üzrə mütəxəssis.', f'specialist in {short}', 'noun'
+        if kind == 'study' and nominal:
+            return f'«{base_word}» sahəsini öyrənən elm.', f'study of {short}', 'noun'
+        if kind == 'devotee' and nominal:
+            return (f'«{base_word}» sözündən -{suffix} şəkilçisi ilə düzələn söz: {base_word} pərəstişkarı, ona hədsiz bağlı olan.',
+                    f'devotee of {short}', 'noun')
+        if kind == 'manner-ane' and nominal:
+            if pos in ('noun', 'word'):
+                en = f'like {article(short)}' if english and ' ' not in short else f'like {short}'
+            else:
+                en = f'in {article(short)} manner' if ' ' not in short else f'as if {short}'
+            return f'«{base_word}» sözündən -{suffix} şəkilçisi ilə düzələn söz: {base_word} kimi, ona xas tərzdə.', en, 'adjective'
         if kind == 'like' and nominal:
             return (f'«{base_word}» sözündən -{suffix} şəkilçisi ilə düzələn sifət: {base_word} kimi, ona bənzəyən.',
                     f'{short}-like' if english and ' ' not in short else f'like {short}', 'adjective')
@@ -1030,6 +1062,9 @@ class Builder:
                     if not made:
                         continue
                     own = self.defined(word)
+                    # An ambiguous suffix needs a definition of the word itself (not a rule's) that names the base.
+                    if kind in LINK_ONLY and (not own or self.definitions.get(word, {}).get('method') == 'rule'):
+                        continue
                     confirmed = None
                     if own and self.definitions.get(word, {}).get('method') != 'rule' and not self.mentions(word, own, base_word, base):
                         confirmed = self.print_mentions(word, base_word)
@@ -1040,7 +1075,7 @@ class Builder:
                               f'«{word}» sözü «{base_word}» sözündən -{suffix} şəkilçisi ilə düzəlir.',
                               f'{word} is formed from {base_word} with the suffix -{suffix}.',
                               refs + ([confirmed] if confirmed else []), 'rule-print' if confirmed else 'rule')
-                    if define and self.undefined(word):
+                    if define and self.undefined(word) and kind not in LINK_ONLY:
                         self.define(word, *made, refs, 'rule', base=base_word)
                     break
             if len(self.definitions) + len(self.edges) == before:
