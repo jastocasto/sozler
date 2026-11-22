@@ -245,10 +245,11 @@ class Builder:
         en = f"the act of {ing}" if ing else f"verbal noun of {verb} ({gloss(base)})"
         return f'«{verb}» felindən düzələn feli isim; bu hərəkətin icrası.', en, 'noun'
 
-    def passive(self, verb, base):
+    def passive(self, verb, base, reflexive=False):
         participle = clean_form((base.get('verbForms') or {}).get('participle'))
         en = f"to be {participle}" if participle else f"passive of {verb} ({gloss(base)})"
-        return f'«{verb}» felinin məchul növü.', en, 'verb'
+        # -n after a -la verb is passive or reflexive (bağlanmaq: to be tied, or to tie oneself up).
+        return f'«{verb}» felinin {"məchul və ya qayıdış" if reflexive else "məchul"} növü.', en, 'verb'
 
     def causative(self, verb, base):
         plain = clean_form((base.get('verbForms') or {}).get('base'))
@@ -318,7 +319,11 @@ class Builder:
         """Yield (base_word, kind, suffix) for transparent derivations of an existing headword."""
         if ' ' in word or len(word) < 5:
             return
-        for size in range(2, min(len(word) - 2, 7) + 1):
+        # Passive or reflexive -n of a -la verb comes first: açıqlanmaq is açıqlamaq + -n, not açıq + -lanmaq.
+        match = re.fullmatch(r'(.+l[aə])n(maq|mək)', word)
+        if match and match[1] + infinitive_ending(match[1]) in self.nodes:
+            yield match[1] + infinitive_ending(match[1]), 'passive-n', 'n'
+        for size in range(2, min(len(word) - 2, 9) + 1):
             base_word, suffix = word[:-size], word[-size:]
             if len(base_word) < 3 or base_word not in self.nodes:
                 continue
@@ -332,6 +337,7 @@ class Builder:
                 'ç' + v4: 'agent',
                 'l' + v2 + 'ş' + infinitive_ending(base_word): 'become',
                 'l' + v2 + 'şd' + h4(base_word + v2) + 'r' + infinitive_ending(base_word + v2): 'make',
+                'l' + v2 + 'n' + infinitive_ending(base_word): 'acquire',
             }
             if suffix in kinds:
                 yield base_word, kinds[suffix], suffix
@@ -372,10 +378,25 @@ class Builder:
             return f'{base_word.capitalize()} hala gəlmək, getdikcə {base_word} olmaq.', f'to become {g}', 'verb'
         if kind == 'make' and pos == 'adjective':
             return f'Bir şeyi {base_word} hala gətirmək.', f'to make something {g}', 'verb'
+        # A long descriptive gloss reads badly inside a verb gloss; name the base word instead.
+        short = g if len(g.split()) <= 4 else base_word
+        if g.startswith('having '):
+            short = 'with ' + g[7:]
+        if kind == 'become' and pos in ('noun', 'word'):
+            return (f'«{base_word}» sözündən -{suffix} şəkilçisi ilə düzələn fel: {base_word} halına keçmək, {base_word} xarakteri almaq.',
+                    f'to turn into or become like {short}', 'verb')
+        if kind == 'make' and pos in ('noun', 'word'):
+            return (f'«{base_word}» sözündən -{suffix} şəkilçisi ilə düzələn fel: bir şeyi {base_word} halına salmaq.',
+                    f'to turn something into {short}', 'verb')
+        # -lan after a noun has too many senses to state by rule (çapaqlanmaq, çisəklənmək); after an adjective it is "become".
+        if kind == 'acquire' and pos == 'adjective':
+            return f'«{base_word}» sözündən -{suffix} şəkilçisi ilə düzələn fel: {base_word} olmaq.', f'to become {short}', 'verb'
         if pos == 'verb' and kind == 'verbal-noun':
             return self.verbal_noun(base_word, base)
         if pos == 'verb' and kind == 'passive':
             return self.passive(base_word, base)
+        if pos == 'verb' and kind == 'passive-n':
+            return self.passive(base_word, base, reflexive=True)
         if pos == 'verb' and kind == 'causative':
             return self.causative(base_word, base)
         return None
@@ -503,7 +524,12 @@ class Builder:
                     prefix, rest = parts
                     g = gloss(self.defined(rest))
                     az = f'«{rest}» sözünə {prefix}- ön hissəsi artırılmaqla düzələn söz.'
-                    en = f'{PREFIXES[prefix]}{g}' if not PREFIXES[prefix].endswith(' ') else f'{PREFIXES[prefix]}{g}'
+                    combining = PREFIXES[prefix]
+                    # Glue the combining form only onto a one-word gloss (thermo + nuclear); a phrase gets the prefix named.
+                    if ' ' in g and (not combining.endswith(' ') or re.match(r'(?:verbal noun|passive|causative|turn|become|make|be)\b', g)):
+                        en = ('to ' if self.defined(rest)['pos'] == 'verb' else '') + f"{g}, with the prefix {combining.strip().rstrip('-')}-"
+                    else:
+                        en = f'{combining}{g}'
                     self.define(word, az, en, self.defined(rest)['pos'] if self.defined(rest)['pos'] in POS else 'noun', refs, 'rule', base=rest)
                 else:
                     glosses = [f'{part} ({gloss(self.defined(part))})' for part in parts]
@@ -520,6 +546,8 @@ class Builder:
             before = len(self.definitions) + len(self.edges)
             for word in list(self.nodes):
                 for base_word, kind, suffix in self.analyses(word):
+                    # Show verb-forming suffixes without the infinitive ending: -laş, -laşdır, -lan.
+                    suffix = suffix[:-3] if kind in ('become', 'make', 'acquire') else suffix
                     base = self.defined(base_word)
                     page = self.nodes[word].get('page')
                     refs = ([spelling_source(page)] if page else []) + [GRAMMAR]
