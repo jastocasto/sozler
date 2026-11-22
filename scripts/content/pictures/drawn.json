@@ -1,0 +1,726 @@
+{
+ "almond.n.01": {
+  "svg": "<g transform=\"rotate(-25 26 38)\"><path d=\"M26 12C38 22 42 38 36 54C33 62 19 62 16 54C10 38 14 22 26 12Z\"/><path d=\"M22 26c2 4 2 8 0 12M30 30c2 4 2 8 0 12M24 44c2 3 2 6 0 9\" stroke-width=\"1.2\"/></g><g transform=\"rotate(20 50 40)\"><path d=\"M50 16C61 25 65 39 59 53C56 60 44 60 41 53C35 39 39 25 50 16Z\"/><path d=\"M47 28c2 4 2 8 0 12M54 34c2 4 2 8 0 12\" stroke-width=\"1.2\"/></g>",
+  "word": "badam"
+ },
+ "ankle.n.01": {
+  "group": "leg",
+  "svg": "<polyline points=\"30 4 40 34 34 56\" stroke-width=\"8\"/><polyline points=\"34 57 30 62 50 62\" stroke-width=\"7\"/><path d=\"M60 44L44.2 53\" stroke-width=\"1.8\"/><path d=\"M39 56L42.6 50.2L45.8 55.8Z\" fill=\"currentColor\" stroke-width=\"1\"/>",
+  "word": "topuq"
+ },
+ "apron.n.01": {
+  "svg": "<path d=\"M28 18C28 6 44 6 44 18\"/><path d=\"M28 18H44V28C50 30 54 30 56 28L52 62H20L16 28C18 30 22 30 28 28Z\"/><path d=\"M16 30l-9 5M56 30l9 5\"/><rect x=\"28\" y=\"42\" width=\"16\" height=\"10\"/>",
+  "word": "önlük"
+ },
+ "aquarium.n.01": {
+  "svg": "<rect x=\"8\" y=\"14\" width=\"56\" height=\"44\" rx=\"3\"/><path d=\"M8 22H64\" stroke-width=\"1.2\"/><path d=\"M6 58H66V64H6Z\"/><path d=\"M22 38C26 32 36 32 40 38C36 44 26 44 22 38Z\"/><path d=\"M22 38L16 33V43Z\"/><circle cx=\"34\" cy=\"37\" r=\"1\" fill=\"currentColor\"/><path d=\"M52 58C48 50 56 44 52 36M57 58C59 50 55 46 59 40\"/><circle cx=\"44\" cy=\"30\" r=\"1.8\"/><circle cx=\"46\" cy=\"25\" r=\"1.2\"/><path d=\"M12 58C14 54 18 54 20 58\"/>",
+  "word": "akvarium"
+ },
+ "baby_buggy.n.01": {
+  "svg": "<path d=\"M14 34C14 20 26 12 38 12V34Z\"/><path d=\"M14 34H56C56 44 48 50 36 50H26C20 50 14 44 14 34Z\"/><path d=\"M56 34L62 22H68\"/><circle cx=\"22\" cy=\"58\" r=\"6\"/><circle cx=\"50\" cy=\"58\" r=\"6\"/><circle cx=\"22\" cy=\"58\" r=\"1.5\" fill=\"currentColor\"/><circle cx=\"50\" cy=\"58\" r=\"1.5\" fill=\"currentColor\"/>",
+  "word": "uşaq arabası"
+ },
+ "baklava.n.01": {
+  "svg": "<path d=\"M36 14L62 30L36 46L10 30Z\"/><path d=\"M10 30V40L36 56L62 40V30\"/><path d=\"M36 46V56\"/><path d=\"M10 34L36 50L62 34M10 37L36 53L62 37\" stroke-width=\"1.2\"/><ellipse cx=\"36\" cy=\"30\" rx=\"5\" ry=\"3\" fill=\"currentColor\"/>",
+  "word": "paxlava"
+ },
+ "balcony.n.01": {
+  "svg": "<rect x=\"24\" y=\"8\" width=\"24\" height=\"36\"/><path d=\"M36 8V44\"/><circle cx=\"33\" cy=\"28\" r=\"1\" fill=\"currentColor\"/><circle cx=\"39\" cy=\"28\" r=\"1\" fill=\"currentColor\"/><rect x=\"10\" y=\"44\" width=\"52\" height=\"4\"/><path d=\"M10 30H62\"/><path d=\"M14 30V44\" stroke-width=\"1.5\"/><path d=\"M20 30V44\" stroke-width=\"1.5\"/><path d=\"M26 30V44\" stroke-width=\"1.5\"/><path d=\"M32 30V44\" stroke-width=\"1.5\"/><path d=\"M38 30V44\" stroke-width=\"1.5\"/><path d=\"M44 30V44\" stroke-width=\"1.5\"/><path d=\"M50 30V44\" stroke-width=\"1.5\"/><path d=\"M56 30V44\" stroke-width=\"1.5\"/><path d=\"M16 48L22 54H50L56 48\"/><path d=\"M4 4V66M68 4V66\" stroke-width=\"1.2\"/>",
+  "word": "balkon"
+ },
+ "barrel.n.01": {
+  "svg": "<path d=\"M20 10C14 24 14 48 20 62H52C58 48 58 24 52 10Z\"/><path d=\"M18 20Q36 24 54 20M16 36H56M18 52Q36 56 54 52\"/><path d=\"M30 10C28 24 28 48 30 62M42 10C44 24 44 48 42 62\" stroke-width=\"1.5\"/>",
+  "word": "çəllək"
+ },
+ "beacon.n.03": {
+  "svg": "<path d=\"M28 60L32 22H40L44 60Z\"/><path d=\"M30.5 48H41.5M31.5 36H40.5\"/><rect x=\"30\" y=\"14\" width=\"12\" height=\"8\"/><path d=\"M28 14L36 6L44 14Z\"/><path d=\"M44 16L64 10M44 20L64 26M28 16L8 10M28 20L8 26\"/><path d=\"M18 60H54\"/><path d=\"M4 66q4 -3 8 0t8 0t8 0t8 0t8 0t8 0t8 0t8 0\"/>",
+  "word": "mayak"
+ },
+ "beehive.n.04": {
+  "svg": "<path d=\"M14 58C10 40 18 18 36 16C54 18 62 40 58 58Z\"/><path d=\"M12.5 50H59.5M13.5 42H58.5M15.5 34H56.5M20 26H52\" stroke-width=\"1.5\"/><path d=\"M30 58V53C30 48 42 48 42 53V58Z\" fill=\"currentColor\"/><path d=\"M8 58H64\"/><ellipse cx=\"60\" cy=\"10\" rx=\"4\" ry=\"2.6\"/><path d=\"M59 8Q59.5 4.8 56.5 3.7Q56 6.8 59 8Z\"/><path d=\"M61 8Q64 6.8 63.5 3.7Q60.5 4.8 61 8Z\"/><path d=\"M54 12C48 16 46 12 42 14\" stroke-dasharray=\"1.5 3\"/>",
+  "word": "arı pətəyi"
+ },
+ "belt.n.01": {
+  "svg": "<path d=\"M4 30H24M4 42H24\"/><path d=\"M40 30H64Q68 36 64 42H40\"/><rect x=\"24\" y=\"26\" width=\"16\" height=\"20\" rx=\"3\"/><path d=\"M28 36H40\"/><circle cx=\"50\" cy=\"36\" r=\"1.5\" fill=\"currentColor\"/><circle cx=\"56\" cy=\"36\" r=\"1.5\" fill=\"currentColor\"/><rect x=\"44\" y=\"29\" width=\"3\" height=\"14\" rx=\"0.5\" stroke-width=\"1.2\"/>",
+  "word": "kəmər"
+ },
+ "bench.n.01": {
+  "svg": "<rect x=\"8\" y=\"14\" width=\"56\" height=\"6\" rx=\"1\"/><rect x=\"8\" y=\"24\" width=\"56\" height=\"6\" rx=\"1\"/><rect x=\"4\" y=\"36\" width=\"64\" height=\"6\" rx=\"1\"/><path d=\"M14 14V36M58 14V36\"/><path d=\"M10 42V60M62 42V60M14 42L10 52M58 42L62 52\"/>",
+  "word": "skamya"
+ },
+ "binoculars.n.01": {
+  "svg": "<rect x=\"8\" y=\"28\" width=\"22\" height=\"32\" rx=\"7\"/><rect x=\"42\" y=\"28\" width=\"22\" height=\"32\" rx=\"7\"/><rect x=\"13\" y=\"16\" width=\"12\" height=\"12\" rx=\"2\"/><rect x=\"47\" y=\"16\" width=\"12\" height=\"12\" rx=\"2\"/><rect x=\"28\" y=\"32\" width=\"16\" height=\"8\" rx=\"2\"/><ellipse cx=\"19\" cy=\"52\" rx=\"7\" ry=\"4\"/><ellipse cx=\"53\" cy=\"52\" rx=\"7\" ry=\"4\"/>",
+  "word": "binokl"
+ },
+ "bite.v.01": {
+  "svg": "<path d=\"M48 22C56 26 60 36 58 46C56 58 46 64 36 61C26 64 14 56 13 44C12 30 22 20 34 22C38 23 40 24 42 24\"/><path d=\"M48 22C44 26 46 30 50 31C46 35 49 40 53 40C50 44 52 48 57 49\"/><path d=\"M36 22C36 16 38 12 42 10\"/><path d=\"M40 14Q46.8 15.2 51.3 9.9Q44.4 8.7 40 14Z\"/>",
+  "word": "dişləmək"
+ },
+ "bracelet.n.02": {
+  "svg": "<ellipse cx=\"36\" cy=\"40\" rx=\"26\" ry=\"13\"/><ellipse cx=\"36\" cy=\"38\" rx=\"20\" ry=\"8.5\"/><path d=\"M30 27.5L36 22L42 27.5L36 31Z\"/><circle cx=\"20\" cy=\"30\" r=\"2\"/><circle cx=\"52\" cy=\"30\" r=\"2\"/>",
+  "word": "bilərzik"
+ },
+ "branch.n.02": {
+  "svg": "<path d=\"M4 52C20 46 40 36 68 20\"/><path d=\"M24 44L30 30M44 34L54 40M56 27L60 16\"/><path d=\"M30 30Q35 24.8 32.1 18.2Q27.1 23.4 30 30Z\"/><path d=\"M30 30Q36.5 31.9 40.3 26.2Q33.8 24.4 30 30Z\"/><path d=\"M54 40Q56.8 46.2 63.5 45.5Q60.8 39.3 54 40Z\"/><path d=\"M54 40Q50.5 45 54 50Q57.5 45 54 40Z\"/><path d=\"M60 16Q65.5 13.4 65 7.3Q59.5 9.9 60 16Z\"/><path d=\"M16 48Q10.4 51.8 12.2 58.3Q17.9 54.5 16 48Z\"/><path d=\"M40 38Q35.7 42.3 38.3 47.8Q42.6 43.5 40 38Z\"/><path d=\"M68 20Q73.6 20.8 75.8 15.5Q70.1 14.7 68 20Z\"/>",
+  "word": "budaq"
+ },
+ "bridge.n.01": {
+  "svg": "<path d=\"M4 30H68M4 35H68\"/><path d=\"M4 22H68\"/><path d=\"M10 22V30\"/><path d=\"M18 22V30\"/><path d=\"M26 22V30\"/><path d=\"M34 22V30\"/><path d=\"M42 22V30\"/><path d=\"M50 22V30\"/><path d=\"M58 22V30\"/><path d=\"M66 22V30\"/><path d=\"M12 52Q36 26 60 52\"/><path d=\"M20 35V44.8M28 35V40.4M44 35V40.4M52 35V44.8\"/><path d=\"M6 35V52M66 35V52\"/><path d=\"M6 58q4 -3 8 0t8 0t8 0t8 0t8 0t8 0t8 0\"/><path d=\"M14 64q4 -3 8 0t8 0t8 0t8 0t8 0\"/>",
+  "word": "körpü"
+ },
+ "brush.n.02": {
+  "svg": "<path d=\"M10 34C10 26 18 22 36 22C54 22 62 26 62 34Z\"/><rect x=\"10\" y=\"34\" width=\"52\" height=\"6\" rx=\"1\"/><path d=\"M13 40V52\" stroke-width=\"1.5\"/><path d=\"M17 40V52\" stroke-width=\"1.5\"/><path d=\"M21 40V52\" stroke-width=\"1.5\"/><path d=\"M25 40V52\" stroke-width=\"1.5\"/><path d=\"M29 40V52\" stroke-width=\"1.5\"/><path d=\"M33 40V52\" stroke-width=\"1.5\"/><path d=\"M37 40V52\" stroke-width=\"1.5\"/><path d=\"M41 40V52\" stroke-width=\"1.5\"/><path d=\"M45 40V52\" stroke-width=\"1.5\"/><path d=\"M49 40V52\" stroke-width=\"1.5\"/><path d=\"M53 40V52\" stroke-width=\"1.5\"/><path d=\"M57 40V52\" stroke-width=\"1.5\"/>",
+  "word": "şotka"
+ },
+ "button.n.01": {
+  "svg": "<circle cx=\"36\" cy=\"36\" r=\"24\"/><circle cx=\"36\" cy=\"36\" r=\"18\"/><circle cx=\"30\" cy=\"30\" r=\"3\"/><circle cx=\"42\" cy=\"30\" r=\"3\"/><circle cx=\"30\" cy=\"42\" r=\"3\"/><circle cx=\"42\" cy=\"42\" r=\"3\"/><path d=\"M31.5 31.5L40.5 40.5M40.5 31.5L31.5 40.5\" stroke-width=\"1.5\"/>",
+  "word": "düymə"
+ },
+ "cart.n.01": {
+  "svg": "<path d=\"M8 24H50V42H8Z\"/><path d=\"M8 30H50M8 36H50\" stroke-width=\"1.2\"/><path d=\"M50 34L68 28\"/><circle cx=\"26\" cy=\"50\" r=\"11\"/><circle cx=\"26\" cy=\"50\" r=\"2.5\" fill=\"currentColor\"/><path d=\"M26 39V61M15 50H37M18 42L34 58M34 42L18 58\" stroke-width=\"1.5\"/><path d=\"M2 62H70\"/>",
+  "word": "araba"
+ },
+ "cast.n.03": {
+  "svg": "<rect x=\"14\" y=\"12\" width=\"44\" height=\"48\" stroke-width=\"4\" stroke-dasharray=\"0 5\"/><rect x=\"21\" y=\"19\" width=\"30\" height=\"34\"/><path d=\"M21 46L31 34L38 41L43 36L51 46\"/><circle cx=\"43\" cy=\"27\" r=\"3\"/>",
+  "word": "marka"
+ },
+ "caterpillar.n.01": {
+  "svg": "<circle cx=\"12\" cy=\"50\" r=\"6\"/><circle cx=\"22\" cy=\"44\" r=\"6.5\"/><circle cx=\"33\" cy=\"41\" r=\"6.5\"/><circle cx=\"44\" cy=\"42\" r=\"6.5\"/><circle cx=\"54\" cy=\"38\" r=\"6.5\"/><circle cx=\"62\" cy=\"30\" r=\"7\"/><circle cx=\"64\" cy=\"28\" r=\"1.2\" fill=\"currentColor\"/><path d=\"M60 23L56 14M65 23L68 14\"/><path d=\"M12 56v4M22 50.5v6M33 47.5v6M44 48.5v6M54 44.5v6\"/>",
+  "word": "tırtıl"
+ },
+ "cauliflower.n.01": {
+  "svg": "<path d=\"M14 38c-4-8 4-16 11-12c2-8 13-9 17-2c6-6 17-1 14 7c8 1 9 11 3 14\"/><path d=\"M24 34c2-3 6-3 8 0M36 30c2-3 6-3 8 0M44 38c2-3 6-3 8 0M28 42c2-3 6-3 8 0\" stroke-width=\"1.5\"/><path d=\"M10 38C12 50 24 60 36 62C48 60 60 50 62 40\"/><path d=\"M10 38C20 44 26 54 30 62M62 40C54 46 46 54 42 62\"/>",
+  "word": "gülkələm"
+ },
+ "cave.n.01": {
+  "svg": "<path d=\"M2 60H70\"/><path d=\"M4 60C6 40 14 26 30 20C44 14 58 22 64 36C68 44 68 52 68 60\"/><path d=\"M20 60C20 46 27 37 36 37C45 37 52 46 52 60Z\" fill=\"currentColor\"/><path d=\"M42 22l6 5M14 40l4-6M56 33l4 5M28 28l-5 3\"/>",
+  "word": "mağara"
+ },
+ "cell.n.01": {
+  "svg": "<path d=\"M36 8C52 8 64 18 64 34C64 52 52 64 36 64C18 64 8 52 8 36C8 18 20 8 36 8Z\"/><circle cx=\"38\" cy=\"34\" r=\"10\"/><circle cx=\"40\" cy=\"32\" r=\"3.5\" fill=\"currentColor\"/><ellipse cx=\"20\" cy=\"26\" rx=\"4\" ry=\"2.5\" transform=\"rotate(30 20 26)\"/><ellipse cx=\"22\" cy=\"48\" rx=\"5\" ry=\"3\" transform=\"rotate(-20 22 48)\"/><ellipse cx=\"52\" cy=\"50\" rx=\"4\" ry=\"2.5\" transform=\"rotate(40 52 50)\"/><ellipse cx=\"54\" cy=\"22\" rx=\"3.5\" ry=\"2.2\"/><path d=\"M14 38c2-2 4 2 6 0M44 56c2-2 4 2 6 0M30 18c2-2 4 2 6 0\" stroke-width=\"1.2\"/><circle cx=\"28\" cy=\"56\" r=\"1.2\" fill=\"currentColor\"/><circle cx=\"48\" cy=\"16\" r=\"1.2\" fill=\"currentColor\"/>",
+  "word": "hüceyrə"
+ },
+ "chandelier.n.01": {
+  "svg": "<path d=\"M36 2V14\"/><circle cx=\"36\" cy=\"18\" r=\"4\"/><path d=\"M33 22C26 34 16 32 13 26M39 22C46 34 56 32 59 26M36 22V34\"/><rect x=\"11\" y=\"18\" width=\"4\" height=\"8\"/><rect x=\"57\" y=\"18\" width=\"4\" height=\"8\"/><rect x=\"34\" y=\"34\" width=\"4\" height=\"8\"/><path d=\"M13 16q-2-3 0-6q2 3 0 6M59 16q-2-3 0-6q2 3 0 6M36 32q-2-3 0-6q2 3 0 6\"/><path d=\"M22 34v5M50 34v5M28 42v4M44 42v4\"/><circle cx=\"22\" cy=\"41\" r=\"1.5\" fill=\"currentColor\"/><circle cx=\"50\" cy=\"41\" r=\"1.5\" fill=\"currentColor\"/>",
+  "word": "çilçıraq"
+ },
+ "chimney.n.01": {
+  "svg": "<path d=\"M4 54L36 30L68 54\"/><path d=\"M12 48V66M60 48V66\"/><path d=\"M46 37V18H56V44.5\"/><path d=\"M44 18H58\"/><path d=\"M46 24H56M46 30H56M51 18V24M48 24V30M54 30V36M46 36H56\" stroke-width=\"1.2\"/><rect x=\"30\" y=\"50\" width=\"12\" height=\"16\"/>",
+  "word": "baca"
+ },
+ "chin.n.01": {
+  "group": "bust",
+  "svg": "<circle cx=\"36\" cy=\"22\" r=\"11\"/><circle cx=\"32\" cy=\"22\" r=\"1.3\" fill=\"currentColor\"/><circle cx=\"40\" cy=\"22\" r=\"1.3\" fill=\"currentColor\"/><path d=\"M36 24v3.5h-1.5\" stroke-width=\"1.2\"/><path d=\"M33 29.5q3 2 6 0\" stroke-width=\"1.2\"/><path d=\"M29 17.5q3-2.2 6 0M37 17.5q3-2.2 6 0\" stroke-width=\"1.2\"/><path d=\"M31 32.5V40M41 32.5V40\"/><path d=\"M8 66C8 50 20 42 31 40M41 40C52 42 64 50 64 66\"/><path d=\"M60 42L45.5 35.8\" stroke-width=\"1.8\"/><path d=\"M40 33.5L46.8 32.9L44.3 38.8Z\" fill=\"currentColor\" stroke-width=\"1\"/>",
+  "word": "çənə"
+ },
+ "corkscrew.n.01": {
+  "svg": "<path d=\"M14 14H58\" stroke-width=\"5\"/><path d=\"M36 14V24\"/><path d=\"M36 24c8 2 8 6 0 8c-8 2-8 6 0 8c8 2 8 6 0 8c-8 2-8 6 0 8l0 6\"/>",
+  "word": "ştopor"
+ },
+ "cupboard.n.01": {
+  "svg": "<rect x=\"16\" y=\"10\" width=\"40\" height=\"52\" rx=\"2\"/><path d=\"M13 10H59\"/><path d=\"M36 10V62\"/><path d=\"M32 32V40M40 32V40\"/><path d=\"M20 62V66M52 62V66\"/><rect x=\"21\" y=\"16\" width=\"10\" height=\"40\" rx=\"1\" stroke-width=\"1.2\"/><rect x=\"41\" y=\"16\" width=\"10\" height=\"40\" rx=\"1\" stroke-width=\"1.2\"/>",
+  "word": "dolab"
+ },
+ "cylinder.n.01": {
+  "svg": "<ellipse cx=\"36\" cy=\"16\" rx=\"20\" ry=\"6\"/><path d=\"M16 16V56A20 6 0 0 0 56 56V16\"/><path d=\"M16 56A20 6 0 0 1 56 56\" stroke-dasharray=\"3 4\"/>",
+  "word": "silindr"
+ },
+ "dig.v.01": {
+  "svg": "<circle cx=\"24\" cy=\"10\" r=\"4.5\" fill=\"currentColor\"/><polyline points=\"26 18 30 38 22 50 20 62\" stroke-width=\"4.5\"/><polyline points=\"30 38 38 50 40 62\" stroke-width=\"4.5\"/><polyline points=\"26 22 38 34\" stroke-width=\"4.5\"/><polyline points=\"26 22 42 28\" stroke-width=\"4.5\"/><path d=\"M50 8L42 52\" stroke-width=\"2.5\"/><path d=\"M36 52H48L46 62H38Z\" fill=\"currentColor\"/><path d=\"M50 8h6\"/><path d=\"M4 64H68\"/><path d=\"M50 64C52 56 60 54 68 56\" fill=\"none\"/>",
+  "word": "qazmaq"
+ },
+ "dive.v.01": {
+  "svg": "<circle cx=\"40\" cy=\"32\" r=\"4.5\" fill=\"currentColor\"/><polyline points=\"44 26 56 12\" stroke-width=\"4.5\"/><polyline points=\"56 12 62 6\" stroke-width=\"4.5\"/><polyline points=\"56 12 66 10\" stroke-width=\"4.5\"/><polyline points=\"43 30 34 38\" stroke-width=\"4.5\"/><polyline points=\"43 30 36 40\" stroke-width=\"4.5\"/><path d=\"M4 52q4 -3 8 0t8 0t8 0t8 0t8 0t8 0t8 0t8 0\"/><path d=\"M8 60q4 -3 8 0t8 0t8 0t8 0t8 0t8 0t8 0\"/><path d=\"M26 46l-4-4M32 44v-5M38 46l4-4\" stroke-width=\"1.5\"/>",
+  "word": "dalmaq"
+ },
+ "dome.n.01": {
+  "svg": "<path d=\"M14 38C14 22 24 13 36 13C48 13 58 22 58 38Z\"/><path d=\"M36 13V5\"/><circle cx=\"36\" cy=\"4\" r=\"1.5\"/><rect x=\"12\" y=\"38\" width=\"48\" height=\"8\"/><path d=\"M16 46V60\"/><path d=\"M24 46V60\"/><path d=\"M32 46V60\"/><path d=\"M40 46V60\"/><path d=\"M48 46V60\"/><path d=\"M56 46V60\"/><path d=\"M10 60H62V64H10Z\"/>",
+  "word": "qübbə"
+ },
+ "domino.n.02": {
+  "svg": "<rect x=\"10\" y=\"10\" width=\"24\" height=\"46\" rx=\"3\"/><path d=\"M10 33H34\"/><circle cx=\"16\" cy=\"16\" r=\"2\" fill=\"currentColor\"/><circle cx=\"28\" cy=\"27\" r=\"2\" fill=\"currentColor\"/><circle cx=\"22\" cy=\"22\" r=\"2\" fill=\"currentColor\"/><circle cx=\"16\" cy=\"40\" r=\"2\" fill=\"currentColor\"/><circle cx=\"28\" cy=\"40\" r=\"2\" fill=\"currentColor\"/><circle cx=\"16\" cy=\"49\" r=\"2\" fill=\"currentColor\"/><circle cx=\"28\" cy=\"49\" r=\"2\" fill=\"currentColor\"/><g transform=\"rotate(18 50 40)\"><rect x=\"38\" y=\"18\" width=\"24\" height=\"46\" rx=\"3\"/><path d=\"M38 41H62\"/><circle cx=\"50\" cy=\"30\" r=\"2\" fill=\"currentColor\"/><circle cx=\"44\" cy=\"48\" r=\"2\" fill=\"currentColor\"/><circle cx=\"56\" cy=\"58\" r=\"2\" fill=\"currentColor\"/><circle cx=\"50\" cy=\"53\" r=\"2\" fill=\"currentColor\"/></g>",
+  "word": "domino"
+ },
+ "drill.n.01": {
+  "svg": "<rect x=\"10\" y=\"18\" width=\"46\" height=\"20\" rx=\"5\"/><path d=\"M56 24H62V32H56\"/><path d=\"M62 28H70\"/><path d=\"M64 26l2 4M67 26l2 4\" stroke-width=\"1.2\"/><path d=\"M26 38L22 60H36L38 38\"/><path d=\"M38 42h4\"/><rect x=\"18\" y=\"60\" width=\"22\" height=\"6\" rx=\"1\"/><path d=\"M16 24H36\" stroke-width=\"1.2\"/>",
+  "word": "burğu"
+ },
+ "drink.v.01": {
+  "svg": "<circle cx=\"26\" cy=\"14\" r=\"4.5\" fill=\"currentColor\"/><polyline points=\"27 21 29 44\" stroke-width=\"4.5\"/><polyline points=\"29 44 24 64\" stroke-width=\"4.5\"/><polyline points=\"29 44 34 64\" stroke-width=\"4.5\"/><polyline points=\"28 26 40 32 42 22\" stroke-width=\"4.5\"/><g transform=\"rotate(-35 44 15)\"><rect x=\"39\" y=\"6\" width=\"10\" height=\"16\" rx=\"1.5\"/><path d=\"M39.5 12H48.5\" stroke-width=\"1.2\"/></g>",
+  "word": "içmək"
+ },
+ "driver.n.01": {
+  "svg": "<path d=\"M12 24V62H32\" stroke-width=\"3\"/><circle cx=\"24\" cy=\"14\" r=\"4.5\" fill=\"currentColor\"/><polyline points=\"24 22 26 44 44 46 46 62\" stroke-width=\"4.5\"/><polyline points=\"25 28 38 34 44 30\" stroke-width=\"4.5\"/><circle cx=\"50\" cy=\"34\" r=\"12\"/><circle cx=\"50\" cy=\"34\" r=\"2.5\" fill=\"currentColor\"/><path d=\"M38 34H62M50 34V46\" stroke-width=\"1.5\"/>",
+  "word": "sürücü"
+ },
+ "dumbbell.n.01": {
+  "svg": "<path d=\"M22 36H50\" stroke-width=\"4\"/><rect x=\"10\" y=\"24\" width=\"8\" height=\"24\" rx=\"2\"/><rect x=\"54\" y=\"24\" width=\"8\" height=\"24\" rx=\"2\"/><rect x=\"18\" y=\"28\" width=\"4\" height=\"16\" rx=\"1\"/><rect x=\"50\" y=\"28\" width=\"4\" height=\"16\" rx=\"1\"/><path d=\"M7 32V40M65 32V40\"/>",
+  "word": "hantel"
+ },
+ "earring.n.01": {
+  "svg": "<path d=\"M20 10C24 6 28 10 24 16\"/><circle cx=\"24\" cy=\"23\" r=\"6\"/><path d=\"M24 29L20 39L24 50L28 39Z\"/><path d=\"M44 10C48 6 52 10 48 16\"/><circle cx=\"48\" cy=\"23\" r=\"6\"/><path d=\"M48 29L44 39L48 50L52 39Z\"/>",
+  "word": "sırğa"
+ },
+ "elbow.n.01": {
+  "group": "arm",
+  "svg": "<polyline points=\"6 14 28 44 52 30\" stroke-width=\"8\"/><circle cx=\"58\" cy=\"26\" r=\"6\" fill=\"currentColor\"/><path d=\"M10 64L21.5 54\" stroke-width=\"1.8\"/><path d=\"M26 50L23.6 56.4L19.4 51.5Z\" fill=\"currentColor\" stroke-width=\"1\"/>",
+  "word": "dirsək"
+ },
+ "eraser.n.01": {
+  "svg": "<path d=\"M12 38L36 22L60 34L36 50Z\"/><path d=\"M12 38V46L36 58V50M36 58L60 42V34\"/><path d=\"M24 30L48 42V50\" stroke-width=\"1.5\"/><path d=\"M10 64H20M24 64h2M30 64h2\" stroke-width=\"1.5\"/><circle cx=\"42\" cy=\"62\" r=\"1\" fill=\"currentColor\"/><circle cx=\"48\" cy=\"64\" r=\"1\" fill=\"currentColor\"/>",
+  "word": "pozan"
+ },
+ "eyebrow.n.01": {
+  "group": "bust",
+  "svg": "<circle cx=\"36\" cy=\"22\" r=\"11\"/><circle cx=\"32\" cy=\"22\" r=\"1.3\" fill=\"currentColor\"/><circle cx=\"40\" cy=\"22\" r=\"1.3\" fill=\"currentColor\"/><path d=\"M36 24v3.5h-1.5\" stroke-width=\"1.2\"/><path d=\"M33 29.5q3 2 6 0\" stroke-width=\"1.2\"/><path d=\"M29 17.5q3-2.2 6 0M37 17.5q3-2.2 6 0\" stroke-width=\"3\"/><path d=\"M31 32.5V40M41 32.5V40\"/><path d=\"M8 66C8 50 20 42 31 40M41 40C52 42 64 50 64 66\"/><path d=\"M64 12L50.9 14.8\" stroke-width=\"1.8\"/><path d=\"M45 16L50.2 11.6L51.5 17.9Z\" fill=\"currentColor\" stroke-width=\"1\"/>",
+  "word": "qaş"
+ },
+ "fall.v.01": {
+  "svg": "<circle cx=\"52\" cy=\"46\" r=\"4.5\" fill=\"currentColor\"/><polyline points=\"46 42 30 36\" stroke-width=\"4.5\"/><polyline points=\"30 36 20 24 12 22\" stroke-width=\"4.5\"/><polyline points=\"30 36 18 40 10 34\" stroke-width=\"4.5\"/><polyline points=\"44 40 52 30\" stroke-width=\"4.5\"/><polyline points=\"44 40 56 54\" stroke-width=\"4.5\"/><path d=\"M4 60H68\"/><path d=\"M26 18l-4-6M34 16l2-7M18 30l-7-2\" stroke-width=\"1.5\"/><circle cx=\"60\" cy=\"18\" r=\"3\"/><circle cx=\"64\" cy=\"10\" r=\"2\"/>",
+  "word": "düşmək"
+ },
+ "fence.n.01": {
+  "svg": "<path d=\"M2 60H70\"/><path d=\"M4 34H68M4 50H68\"/><path d=\"M6 60V26l4-6l4 6V60\"/><path d=\"M18 60V26l4-6l4 6V60\"/><path d=\"M30 60V26l4-6l4 6V60\"/><path d=\"M42 60V26l4-6l4 6V60\"/><path d=\"M54 60V26l4-6l4 6V60\"/>",
+  "word": "hasar"
+ },
+ "fern.n.01": {
+  "svg": "<path d=\"M18 66C22 46 32 24 54 8\"/><path d=\"M19.7 58.7Q16.8 52.4 10.3 49.8Q13.2 56.2 19.7 58.7Z\"/><path d=\"M19.7 58.7Q26.6 59.8 32.4 55.9Q25.5 54.8 19.7 58.7Z\"/><path d=\"M21.2 53.8Q18.9 47.7 12.8 45.1Q15.1 51.3 21.2 53.8Z\"/><path d=\"M21.2 53.8Q27.6 55.3 33.1 51.8Q26.7 50.2 21.2 53.8Z\"/><path d=\"M22.9 48.9Q21.2 43 15.6 40.4Q17.3 46.4 22.9 48.9Z\"/><path d=\"M22.9 48.9Q28.8 50.8 34 47.6Q28.2 45.7 22.9 48.9Z\"/><path d=\"M24.9 44Q23.8 38.3 18.6 35.9Q19.7 41.5 24.9 44Z\"/><path d=\"M24.9 44Q30.2 46.3 35.2 43.3Q29.9 41.1 24.9 44Z\"/><path d=\"M27.3 39.1Q26.8 33.8 22 31.4Q22.5 36.7 27.3 39.1Z\"/><path d=\"M27.3 39.1Q32 41.7 36.7 39Q32 36.5 27.3 39.1Z\"/><path d=\"M30 34.3Q30 29.3 25.6 27Q25.5 32 30 34.3Z\"/><path d=\"M30 34.3Q34.1 37.1 38.4 34.7Q34.3 31.9 30 34.3Z\"/><path d=\"M33 29.6Q33.5 25 29.5 22.8Q28.9 27.4 33 29.6Z\"/><path d=\"M33 29.6Q36.5 32.6 40.5 30.4Q37.1 27.4 33 29.6Z\"/><path d=\"M36.4 24.9Q37.4 20.8 33.7 18.8Q32.6 22.9 36.4 24.9Z\"/><path d=\"M36.4 24.9Q39.2 28.1 43 26.1Q40.1 23 36.4 24.9Z\"/><path d=\"M40.2 20.4Q41.6 16.8 38.2 15Q36.7 18.6 40.2 20.4Z\"/><path d=\"M40.2 20.4Q42.3 23.7 45.8 21.9Q43.6 18.6 40.2 20.4Z\"/><path d=\"M44.3 16.1Q46.2 13 43 11.4Q41.2 14.5 44.3 16.1Z\"/><path d=\"M44.3 16.1Q45.9 19.3 49 17.6Q47.5 14.4 44.3 16.1Z\"/>",
+  "word": "qıjı"
+ },
+ "fireplace.n.01": {
+  "svg": "<rect x=\"4\" y=\"10\" width=\"64\" height=\"6\" rx=\"1\"/><path d=\"M8 16V64M64 16V64\"/><path d=\"M20 64V38C20 30 52 30 52 38V64\"/><path d=\"M30 60C26 52 32 48 31 40C37 45 40 52 37 60Z\"/><path d=\"M38 60C36 54 41 51 41 46C46 50 47 56 44 60Z\"/><path d=\"M23 62L49 58M23 58L49 62\" stroke-width=\"2.5\"/><path d=\"M8 28H20M52 28H64M8 42H20M52 42H64M8 54H20M52 54H64M14 16V28M58 16V28M14 42V54M58 42V54\" stroke-width=\"1.2\"/><path d=\"M2 64H70\"/>",
+  "word": "buxarı"
+ },
+ "flag.n.01": {
+  "svg": "<path d=\"M14 8V64\"/><path d=\"M8 64H20\"/><circle cx=\"14\" cy=\"6\" r=\"2\"/><path d=\"M14 11C24 5 32 17 42 13C50 9 56 11 60 13V37C52 33 46 35 38 39C30 43 22 35 14 37\"/>",
+  "word": "bayraq"
+ },
+ "forest.n.02": {
+  "svg": "<path d=\"M4 62H68\"/><polygon points=\"36 6 25 24 31 24 21 38 29 38 19 52 53 52 43 38 51 38 41 24 47 24\"/><path d=\"M36 52V62\"/><path d=\"M12 62V46\"/><circle cx=\"12\" cy=\"38\" r=\"8\"/><path d=\"M60 62V45\"/><circle cx=\"60\" cy=\"36\" r=\"9\"/>",
+  "word": "meşə"
+ },
+ "funnel.n.01": {
+  "svg": "<path d=\"M12 14C12 18 60 18 60 14\"/><path d=\"M12 14C12 10 60 10 60 14L40 38V62H32V38Z\"/>",
+  "word": "qıf"
+ },
+ "gate.n.01": {
+  "svg": "<rect x=\"4\" y=\"20\" width=\"8\" height=\"44\"/><rect x=\"60\" y=\"20\" width=\"8\" height=\"44\"/><path d=\"M3 20H13M59 20H69\"/><circle cx=\"8\" cy=\"17\" r=\"2\"/><circle cx=\"64\" cy=\"17\" r=\"2\"/><path d=\"M12 60H60M12 44H60\"/><path d=\"M12 30Q36 18 60 30\"/><path d=\"M18 27.4V60M24 25.5V60M30 24.4V60M36 24V60M42 24.4V60M48 25.5V60M54 27.4V60\"/><path d=\"M2 64H70\"/>",
+  "word": "darvaza"
+ },
+ "gazelle.n.01": {
+  "svg": "<path d=\"M20 34C24 28 40 28 46 30C50 28 52 22 52 18\"/><path d=\"M52 18L58 16L60 20L54 24\"/><circle cx=\"55\" cy=\"18\" r=\"0.8\" fill=\"currentColor\"/><path d=\"M53 16C50 8 52 4 56 2M55 16C54 8 58 4 62 4\"/><path d=\"M20 34C16 36 16 42 20 44C24 46 40 46 46 40C48 36 48 32 46 30\"/><path d=\"M22 44L20 64M28 45L28 64M40 44L42 64M45 41L50 62\"/><path d=\"M18 36L13 40\"/>",
+  "word": "ceyran"
+ },
+ "give.v.01": {
+  "svg": "<polyline points=\"2 46 22 42\" stroke-width=\"6\"/><polyline points=\"70 46 50 42\" stroke-width=\"6\"/><rect x=\"22\" y=\"28\" width=\"28\" height=\"20\" rx=\"2\"/><path d=\"M36 28V48M22 36H50\" stroke-width=\"1.5\"/><path d=\"M36 28C30 20 26 26 36 28C46 26 42 20 36 28Z\"/><path d=\"M22 16C30 8 42 8 50 16\"/><path d=\"M50 16L44 15.5L48.5 11Z\" fill=\"currentColor\" stroke-width=\"1\"/>",
+  "word": "vermək"
+ },
+ "glue.n.01": {
+  "svg": "<rect x=\"22\" y=\"28\" width=\"28\" height=\"34\" rx=\"4\"/><path d=\"M26 28L30 20H42L46 28\"/><path d=\"M33 20L36 9L39 20\"/><path d=\"M36 3c-2 3-2 5 0 5c2 0 2-2 0-5\"/><rect x=\"26\" y=\"38\" width=\"20\" height=\"14\" rx=\"1\" stroke-width=\"1.2\"/>",
+  "word": "yapışqan"
+ },
+ "gramophone.n.01": {
+  "svg": "<rect x=\"10\" y=\"46\" width=\"36\" height=\"16\" rx=\"1\"/><ellipse cx=\"28\" cy=\"46\" rx=\"16\" ry=\"4\"/><circle cx=\"28\" cy=\"45\" r=\"1.5\" fill=\"currentColor\"/><path d=\"M42 46V36C42 32 44 30 48 30\"/><path d=\"M47 31C52 24 54 14 52 5C60 6 68 13 67 22C62 26 56 29 50 33\"/><path d=\"M14 62V66M42 62V66\"/>",
+  "word": "qrammofon"
+ },
+ "grass.n.01": {
+  "svg": "<path d=\"M4 62H68\"/><path d=\"M16 62C17 54 12 46 8 40\"/><path d=\"M40 62C41 50 36 42 32 36\"/><path d=\"M62 62C63 56 58 48 54 42\"/><path d=\"M18 62C18 54 21 46 26 38\"/><path d=\"M42 62C42 46 45 38 50 30\"/><path d=\"M64 62C64 50 67 42 72 34\"/><path d=\"M12 62V42\"/><path d=\"M28 62V32\"/><path d=\"M34 62V38\"/><path d=\"M52 62V36\"/><path d=\"M24 62C25 52 22 44 18 38M48 62C48 52 52 46 56 42\"/>",
+  "word": "ot"
+ },
+ "grater.n.01": {
+  "svg": "<path d=\"M22 14H50L56 62H16Z\"/><path d=\"M28 14V7H44V14\"/><path d=\"M25 24h4\" stroke-width=\"1.5\"/><path d=\"M33 24h4\" stroke-width=\"1.5\"/><path d=\"M41 24h4\" stroke-width=\"1.5\"/><path d=\"M24 32h4\" stroke-width=\"1.5\"/><path d=\"M32 32h4\" stroke-width=\"1.5\"/><path d=\"M40 32h4\" stroke-width=\"1.5\"/><path d=\"M23 40h4\" stroke-width=\"1.5\"/><path d=\"M31 40h4\" stroke-width=\"1.5\"/><path d=\"M39 40h4\" stroke-width=\"1.5\"/><path d=\"M46 40h4\" stroke-width=\"1.5\"/><path d=\"M22 48h4\" stroke-width=\"1.5\"/><path d=\"M30 48h4\" stroke-width=\"1.5\"/><path d=\"M38 48h4\" stroke-width=\"1.5\"/><path d=\"M46 48h4\" stroke-width=\"1.5\"/><path d=\"M21 56h4\" stroke-width=\"1.5\"/><path d=\"M29 56h4\" stroke-width=\"1.5\"/><path d=\"M37 56h4\" stroke-width=\"1.5\"/><path d=\"M45 56h4\" stroke-width=\"1.5\"/>",
+  "word": "rəndə"
+ },
+ "greenhouse.n.01": {
+  "svg": "<path d=\"M8 60V36C8 20 20 12 36 12C52 12 64 20 64 36V60Z\"/><path d=\"M22 60V17.5M36 60V12M50 60V17.5M8 40H64\"/><path d=\"M4 60H68\"/><path d=\"M15 60Q19.4 56.8 18.1 51.5Q13.7 54.7 15 60Z\"/><path d=\"M15 60Q16.3 54.7 11.9 51.5Q10.6 56.8 15 60Z\"/><path d=\"M43 60Q47.4 56.8 46.1 51.5Q41.7 54.7 43 60Z\"/><path d=\"M43 60Q44.3 54.7 39.9 51.5Q38.6 56.8 43 60Z\"/><path d=\"M57 60Q60.6 56.6 58.4 52.1Q54.7 55.5 57 60Z\"/>",
+  "word": "istixana"
+ },
+ "hand_blower.n.01": {
+  "svg": "<path d=\"M14 16H44C50 16 52 20 52 25C52 30 50 34 44 34H14C10 34 8 30 8 25C8 20 10 16 14 16Z\"/><path d=\"M52 21H61V29H52\"/><path d=\"M24 34L20 62H30L34 34\"/><path d=\"M65 20h4M65 25h5M65 30h4\"/><path d=\"M12 21V29M15 21V29\" stroke-width=\"1.2\"/>",
+  "word": "fen"
+ },
+ "harp.n.01": {
+  "svg": "<path d=\"M14 12V62\" stroke-width=\"4\"/><path d=\"M14 12C26 4 42 24 60 16\"/><path d=\"M14 62L58 18\"/><path d=\"M20.9 10.1V56.9\" stroke-width=\"1.2\"/><path d=\"M25.8 10.8V51.7\" stroke-width=\"1.2\"/><path d=\"M31.1 12.6V46.2\" stroke-width=\"1.2\"/><path d=\"M36.6 14.7V40.4\" stroke-width=\"1.2\"/><path d=\"M42.4 16.7V34.3\" stroke-width=\"1.2\"/><path d=\"M48.4 17.8V28\" stroke-width=\"1.2\"/><path d=\"M10 64H24\"/>",
+  "word": "arfa"
+ },
+ "haven.n.01": {
+  "svg": "<path d=\"M2 56C16 46 30 46 44 56C52 50 62 50 70 54\"/><ellipse cx=\"38\" cy=\"60\" rx=\"16\" ry=\"3.5\"/><path d=\"M30 60q3 -1.5 6 0t6 0\"/><path d=\"M24 55C25 44 23 36 21 28\"/><path d=\"M48 55C47 46 49 38 52 31\"/><circle cx=\"60\" cy=\"14\" r=\"5\"/><path d=\"M21 28Q16.4 23.1 9.7 23.9Q14.3 28.8 21 28Z\"/><path d=\"M21 28Q20.6 21.3 15 17.6Q15.4 24.3 21 28Z\"/><path d=\"M21 28Q26.6 24.3 27 17.6Q21.4 21.3 21 28Z\"/><path d=\"M21 28Q27.7 28.8 32.3 23.9Q25.6 23.1 21 28Z\"/><path d=\"M21 28Q24.7 33.6 31.4 34Q27.7 28.4 21 28Z\"/><path d=\"M52 31Q47.4 26.1 40.7 26.9Q45.3 31.8 52 31Z\"/><path d=\"M52 31Q51.6 24.3 46 20.6Q46.4 27.3 52 31Z\"/><path d=\"M52 31Q57.6 27.3 58 20.6Q52.4 24.3 52 31Z\"/><path d=\"M52 31Q58.7 31.8 63.3 26.9Q56.6 26.1 52 31Z\"/><path d=\"M52 31Q55.7 36.6 62.4 37Q58.7 31.4 52 31Z\"/>",
+  "word": "vahə"
+ },
+ "hazelnut.n.01": {
+  "svg": "<path d=\"M18 38C18 52 26 62 36 62C46 62 54 52 54 38Z\"/><path d=\"M16 38C16 30 24 24 36 24C48 24 56 30 56 38Z\"/><path d=\"M36 24V16\"/><path d=\"M22 32l4 4M30 28l2 6M42 28l-2 6M50 32l-4 4\" stroke-width=\"1.2\"/>",
+  "word": "fındıq"
+ },
+ "hexagon.n.01": {
+  "svg": "<polygon points=\"62 36 49 58.5 23 58.5 10 36 23 13.5 49 13.5\"/>",
+  "word": "altıbucaqlı"
+ },
+ "hill.n.01": {
+  "svg": "<path d=\"M2 62C14 32 44 30 60 62\"/><path d=\"M38 42C48 26 62 24 70 36\"/><path d=\"M2 62H70\"/><path d=\"M30 38V28\"/><circle cx=\"30\" cy=\"22\" r=\"6\"/><circle cx=\"58\" cy=\"12\" r=\"5\"/><path d=\"M58 3V1M66 12h2M64 6l2-2\"/>",
+  "word": "təpə"
+ },
+ "hoe.n.01": {
+  "svg": "<path d=\"M12 66L54 14\" stroke-width=\"3\"/><path d=\"M48 10L66 22L60 28L46 18Z\"/>",
+  "word": "kətmən"
+ },
+ "horseshoe.n.01": {
+  "svg": "<path d=\"M16 12C8 30 10 54 36 60C62 54 64 30 56 12L48 14C54 30 52 48 36 52C20 48 18 30 24 14Z\"/><circle cx=\"17\" cy=\"24\" r=\"1.4\" fill=\"currentColor\"/><circle cx=\"16\" cy=\"36\" r=\"1.4\" fill=\"currentColor\"/><circle cx=\"20\" cy=\"47\" r=\"1.4\" fill=\"currentColor\"/><circle cx=\"55\" cy=\"24\" r=\"1.4\" fill=\"currentColor\"/><circle cx=\"56\" cy=\"36\" r=\"1.4\" fill=\"currentColor\"/><circle cx=\"52\" cy=\"47\" r=\"1.4\" fill=\"currentColor\"/>",
+  "word": "nal"
+ },
+ "hosiery.n.01": {
+  "svg": "<circle cx=\"30\" cy=\"40\" r=\"20\"/><circle cx=\"30\" cy=\"40\" r=\"14\"/><circle cx=\"30\" cy=\"40\" r=\"8\"/><path d=\"M50 40C58 40 62 32 62 24\"/><rect x=\"58\" y=\"12\" width=\"8\" height=\"12\" rx=\"2\"/><path d=\"M60 9l-2-5M62 9V3M64 9l2-5\"/>",
+  "word": "şlanq"
+ },
+ "igniter.n.01": {
+  "svg": "<rect x=\"22\" y=\"30\" width=\"26\" height=\"34\" rx=\"4\"/><path d=\"M22 30V24H48V30\"/><circle cx=\"30\" cy=\"20\" r=\"4\"/><path d=\"M30 16V24\" stroke-width=\"1\"/><path d=\"M41 22C35 16 38 10 41 4C47 12 47 18 41 22Z\"/>",
+  "word": "alışqan"
+ },
+ "iron.n.01": {
+  "svg": "<path d=\"M8 52H60C63 52 65 49 63 45L56 31C54 27 50 25 45 25H18C12 25 8 30 8 36Z\"/><path d=\"M20 25C20 13 46 13 48 25\"/><path d=\"M8 46H62\" stroke-width=\"1.2\"/><circle cx=\"42\" cy=\"38\" r=\"2.5\"/><path d=\"M18 60c2-3 0-5 2-8M28 60c2-3 0-5 2-8M38 60c2-3 0-5 2-8\" stroke-width=\"1.5\"/>",
+  "word": "ütü"
+ },
+ "jump.v.01": {
+  "svg": "<circle cx=\"36\" cy=\"9\" r=\"4.5\" fill=\"currentColor\"/><polyline points=\"36 17 36 36\" stroke-width=\"4.5\"/><polyline points=\"36 22 26 12\" stroke-width=\"4.5\"/><polyline points=\"36 22 46 12\" stroke-width=\"4.5\"/><polyline points=\"36 36 28 44 32 52\" stroke-width=\"4.5\"/><polyline points=\"36 36 44 44 40 52\" stroke-width=\"4.5\"/><path d=\"M14 64H58\"/><path d=\"M22 58l-4 2M50 58l4 2\" stroke-width=\"1.5\"/><ellipse cx=\"36\" cy=\"64\" rx=\"10\" ry=\"1.5\"/>",
+  "word": "atlanmaq"
+ },
+ "kettle.n.01": {
+  "svg": "<path d=\"M18 58C13 46 16 30 24 26H48C56 30 59 46 54 58Z\"/><path d=\"M28 26C28 20 44 20 44 26\"/><circle cx=\"36\" cy=\"18\" r=\"2\"/><path d=\"M22 30C20 8 52 8 50 30\"/><path d=\"M17 44C12 40 8 34 6 28L10 27C12 32 15 35 18 37\"/><path d=\"M14 58H58\"/>",
+  "word": "çaydan"
+ },
+ "kick.v.01": {
+  "svg": "<circle cx=\"24\" cy=\"10\" r=\"4.5\" fill=\"currentColor\"/><polyline points=\"26 18 28 38 22 50 20 62\" stroke-width=\"4.5\"/><polyline points=\"28 38 42 44 50 48\" stroke-width=\"4.5\"/><polyline points=\"26 22 14 30\" stroke-width=\"4.5\"/><polyline points=\"26 22 38 28\" stroke-width=\"4.5\"/><circle cx=\"58\" cy=\"50\" r=\"7\"/><path d=\"M58 43l-4 5h8l-4-5M51 50h14M54 56l4-6l4 6\" stroke-width=\"1.2\"/><path d=\"M4 64H40\"/>",
+  "word": "təpik atmaq"
+ },
+ "knee.n.01": {
+  "group": "leg",
+  "svg": "<polyline points=\"30 4 40 34 34 56\" stroke-width=\"8\"/><polyline points=\"34 57 30 62 50 62\" stroke-width=\"7\"/><path d=\"M64 22L51.1 29.9\" stroke-width=\"1.8\"/><path d=\"M46 33L49.5 27.1L52.8 32.6Z\" fill=\"currentColor\" stroke-width=\"1\"/>",
+  "word": "diz"
+ },
+ "ladle.n.01": {
+  "svg": "<path d=\"M8 40C8 60 36 60 36 40Z\"/><path d=\"M34 40C42 30 46 18 46 8\"/><path d=\"M46 8c0-4 6-5 6 0\"/>",
+  "word": "çömçə"
+ },
+ "lake.n.01": {
+  "svg": "<ellipse cx=\"38\" cy=\"50\" rx=\"28\" ry=\"11\"/><path d=\"M26 47q3 -2 6 0t6 0\"/><path d=\"M40 53q3 -2 6 0t6 0\"/><path d=\"M30 56q3 -2 6 0\"/><path d=\"M10 44V24M15 42V30M6 45V32\"/><ellipse cx=\"10\" cy=\"22\" rx=\"1.8\" ry=\"4\" fill=\"currentColor\"/><ellipse cx=\"15\" cy=\"28\" rx=\"1.6\" ry=\"3.5\" fill=\"currentColor\"/><ellipse cx=\"6\" cy=\"30\" rx=\"1.6\" ry=\"3.5\" fill=\"currentColor\"/><path d=\"M20 36L30 26L36 31L44 22L56 34\"/><path d=\"M60 40V29\"/><circle cx=\"60\" cy=\"22\" r=\"7\"/>",
+  "word": "göl"
+ },
+ "library.n.01": {
+  "svg": "<rect x=\"10\" y=\"8\" width=\"52\" height=\"56\"/><path d=\"M10 26H62M10 44H62\"/><rect x=\"14\" y=\"12\" width=\"4\" height=\"14\"/><rect x=\"19\" y=\"14\" width=\"4\" height=\"12\"/><rect x=\"24\" y=\"11\" width=\"4\" height=\"15\"/><rect x=\"29\" y=\"13\" width=\"4\" height=\"13\"/><rect x=\"34\" y=\"11\" width=\"4\" height=\"15\"/><rect x=\"39\" y=\"15\" width=\"4\" height=\"11\"/><rect x=\"44\" y=\"12\" width=\"4\" height=\"14\"/><rect x=\"49\" y=\"13\" width=\"4\" height=\"13\"/><rect x=\"54\" y=\"11\" width=\"4\" height=\"15\"/><rect x=\"14\" y=\"31\" width=\"4\" height=\"13\"/><rect x=\"19\" y=\"29\" width=\"4\" height=\"15\"/><rect x=\"24\" y=\"32\" width=\"4\" height=\"12\"/><rect x=\"29\" y=\"30\" width=\"4\" height=\"14\"/><rect x=\"34\" y=\"29\" width=\"4\" height=\"15\"/><rect x=\"39\" y=\"31\" width=\"4\" height=\"13\"/><rect x=\"44\" y=\"29\" width=\"4\" height=\"15\"/><rect x=\"49\" y=\"32\" width=\"4\" height=\"12\"/><rect x=\"54\" y=\"30\" width=\"4\" height=\"14\"/><rect x=\"14\" y=\"47\" width=\"4\" height=\"15\"/><rect x=\"19\" y=\"49\" width=\"4\" height=\"13\"/><rect x=\"24\" y=\"48\" width=\"4\" height=\"14\"/><rect x=\"29\" y=\"50\" width=\"4\" height=\"12\"/><rect x=\"34\" y=\"47\" width=\"4\" height=\"15\"/><rect x=\"39\" y=\"48\" width=\"4\" height=\"14\"/><rect x=\"44\" y=\"49\" width=\"4\" height=\"13\"/><rect x=\"49\" y=\"47\" width=\"4\" height=\"15\"/><rect x=\"54\" y=\"49\" width=\"4\" height=\"13\"/>",
+  "word": "kitabxana"
+ },
+ "listen.v.01": {
+  "svg": "<path d=\"M22 62V50C14 46 10 38 10 28C10 16 20 8 32 8C44 8 52 16 52 28C52 34 50 38 54 44L50 46V52C50 56 46 58 42 56L38 56V62\"/><path d=\"M40 24C40 18 34 16 30 20C26 24 30 30 34 30C34 34 30 38 28 40\"/><path d=\"M58 20C62 24 62 32 58 36M63 14C69 22 69 34 63 42\"/>",
+  "word": "dinləmək"
+ },
+ "marimba.n.01": {
+  "svg": "<rect x=\"10\" y=\"18\" width=\"6\" height=\"36\" rx=\"1\"/><rect x=\"18\" y=\"21\" width=\"6\" height=\"30\" rx=\"1\"/><rect x=\"26\" y=\"24\" width=\"6\" height=\"24\" rx=\"1\"/><rect x=\"34\" y=\"27\" width=\"6\" height=\"18\" rx=\"1\"/><rect x=\"42\" y=\"30\" width=\"6\" height=\"12\" rx=\"1\"/><rect x=\"50\" y=\"33\" width=\"6\" height=\"6\" rx=\"1\"/><rect x=\"58\" y=\"36\" width=\"6\" height=\"0\" rx=\"1\"/><path d=\"M6 30H66M6 46H62\" stroke-width=\"1.2\"/><path d=\"M30 64L50 50M44 66L56 52\"/><circle cx=\"51\" cy=\"49\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"57\" cy=\"51\" r=\"2.5\" fill=\"currentColor\"/>",
+  "word": "ksilofon"
+ },
+ "match.n.01": {
+  "svg": "<rect x=\"6\" y=\"40\" width=\"40\" height=\"22\" rx=\"2\"/><path d=\"M6 47H46\" stroke-width=\"1.2\"/><path d=\"M10 50h4M17 50h4M24 50h4\" stroke-width=\"1.2\"/><path d=\"M52 64L58 28\" stroke-width=\"3\"/><ellipse cx=\"58.6\" cy=\"24\" rx=\"3.6\" ry=\"4.6\" fill=\"currentColor\" transform=\"rotate(10 58.6 24)\"/><path d=\"M59 18C54 12 57 7 60 2C65 8 65 13 59 18Z\"/>",
+  "word": "kibrit"
+ },
+ "memorial.n.03": {
+  "svg": "<path d=\"M18 64H54V58H18Z\"/><path d=\"M22 58V42H50V58\"/><path d=\"M19 42H53\"/><circle cx=\"36\" cy=\"10\" r=\"4.5\" fill=\"currentColor\"/><polyline points=\"36 17 36 30\" stroke-width=\"4.5\"/><polyline points=\"36 21 28 28\" stroke-width=\"4.5\"/><polyline points=\"36 21 43 13 45 6\" stroke-width=\"4.5\"/><polyline points=\"36 30 32 40\" stroke-width=\"4.5\"/><polyline points=\"36 30 40 40\" stroke-width=\"4.5\"/><circle cx=\"45.5\" cy=\"4\" r=\"2\"/>",
+  "word": "heykəl"
+ },
+ "mortar.n.01": {
+  "svg": "<path d=\"M14 34H58C58 50 48 60 36 60C24 60 14 50 14 34Z\"/><path d=\"M11 34H61\"/><path d=\"M28 60L26 65H46L44 60\"/><path d=\"M38 44L56 10\" stroke-width=\"6\"/><circle cx=\"56.5\" cy=\"9\" r=\"4\" fill=\"currentColor\"/>",
+  "word": "həvəng"
+ },
+ "mustache.n.01": {
+  "svg": "<path d=\"M36 32C30 25 20 25 14 31C10 35 6 35 4 31C6 41 20 43 36 35C52 43 66 41 68 31C66 35 62 35 58 31C52 25 42 25 36 32Z\" fill=\"currentColor\"/><path d=\"M36 10V22c-3 2-3 4 0 5\"/>",
+  "word": "bığ"
+ },
+ "nail.n.01": {
+  "svg": "<g transform=\"rotate(30 36 36)\"><rect x=\"25\" y=\"6\" width=\"22\" height=\"5\" rx=\"1.5\"/><path d=\"M33 11H39V54L36 64L33 54Z\"/><path d=\"M33 15h6M33 18h6\" stroke-width=\"1.2\"/></g>",
+  "word": "mismar"
+ },
+ "neck.n.01": {
+  "group": "bust",
+  "svg": "<circle cx=\"36\" cy=\"22\" r=\"11\"/><circle cx=\"32\" cy=\"22\" r=\"1.3\" fill=\"currentColor\"/><circle cx=\"40\" cy=\"22\" r=\"1.3\" fill=\"currentColor\"/><path d=\"M36 24v3.5h-1.5\" stroke-width=\"1.2\"/><path d=\"M33 29.5q3 2 6 0\" stroke-width=\"1.2\"/><path d=\"M29 17.5q3-2.2 6 0M37 17.5q3-2.2 6 0\" stroke-width=\"1.2\"/><path d=\"M31 32.5V40M41 32.5V40\"/><path d=\"M8 66C8 50 20 42 31 40M41 40C52 42 64 50 64 66\"/><path d=\"M64 28L49.6 33.8\" stroke-width=\"1.8\"/><path d=\"M44 36L48.4 30.8L50.8 36.7Z\" fill=\"currentColor\" stroke-width=\"1\"/>",
+  "word": "boyun"
+ },
+ "necklace.n.01": {
+  "svg": "<circle cx=\"14\" cy=\"12\" r=\"2.4\"/><circle cx=\"18\" cy=\"23.3\" r=\"2.4\"/><circle cx=\"22\" cy=\"32.2\" r=\"2.4\"/><circle cx=\"26\" cy=\"39\" r=\"2.4\"/><circle cx=\"30.5\" cy=\"43.5\" r=\"2.4\"/><circle cx=\"41.5\" cy=\"43.5\" r=\"2.4\"/><circle cx=\"46\" cy=\"39\" r=\"2.4\"/><circle cx=\"50\" cy=\"32.2\" r=\"2.4\"/><circle cx=\"54\" cy=\"23.3\" r=\"2.4\"/><circle cx=\"58\" cy=\"12\" r=\"2.4\"/><circle cx=\"36\" cy=\"46\" r=\"2.4\" fill=\"currentColor\"/><path d=\"M36 48.5V51\"/><path d=\"M36 51L30 58L36 66L42 58Z\"/>",
+  "word": "boyunbağı"
+ },
+ "oar.n.01": {
+  "svg": "<path d=\"M10 62L42 30\" stroke-width=\"3\"/><ellipse cx=\"53\" cy=\"19\" rx=\"17\" ry=\"5\" transform=\"rotate(-45 53 19)\"/><path d=\"M10 62l-4 4\" stroke-width=\"5\"/>",
+  "word": "avar"
+ },
+ "octagon.n.01": {
+  "svg": "<polygon points=\"60.9 46.3 46.3 60.9 25.7 60.9 11.1 46.3 11.1 25.7 25.7 11.1 46.3 11.1 60.9 25.7\"/>",
+  "word": "səkkizbucaq"
+ },
+ "oven.n.01": {
+  "svg": "<rect x=\"10\" y=\"14\" width=\"52\" height=\"50\" rx=\"2\"/><path d=\"M10 24H62\"/><circle cx=\"17\" cy=\"19\" r=\"2\"/><circle cx=\"24\" cy=\"19\" r=\"2\"/><circle cx=\"31\" cy=\"19\" r=\"2\"/><rect x=\"42\" y=\"17\" width=\"14\" height=\"4\" rx=\"1\"/><rect x=\"18\" y=\"34\" width=\"36\" height=\"22\" rx=\"2\"/><path d=\"M20 29H52\"/><path d=\"M24 44h4M32 44h4M40 44h4\" stroke-width=\"1.5\"/>",
+  "word": "duxovka"
+ },
+ "paint.v.01": {
+  "svg": "<rect x=\"10\" y=\"10\" width=\"36\" height=\"52\" stroke-width=\"1.2\"/><path d=\"M10 16H30V62H10Z\" fill=\"currentColor\"/><rect x=\"28\" y=\"12\" width=\"10\" height=\"24\" rx=\"3\"/><path d=\"M38 24H48V44H40V58\" stroke-width=\"2.5\"/><rect x=\"37\" y=\"58\" width=\"6\" height=\"10\" rx=\"2\"/>",
+  "word": "rəngləmək"
+ },
+ "paper.n.01": {
+  "svg": "<path d=\"M16 8H46L58 20V64H16Z\"/><path d=\"M46 8V20H58\"/><path d=\"M22 30H52M22 38H52M22 46H52M22 54H40\" stroke-width=\"1.5\"/>",
+  "word": "kağız"
+ },
+ "pelican.n.01": {
+  "svg": "<path d=\"M16 44C16 34 24 28 34 30C42 32 46 40 44 48C42 56 32 60 24 58C18 56 16 50 16 44Z\"/><path d=\"M38 31C38 22 41 14 47 12\"/><circle cx=\"50\" cy=\"12\" r=\"5\"/><path d=\"M54 11L69 20\"/><path d=\"M53 15C57 27 64 29 69 20\"/><circle cx=\"49\" cy=\"10\" r=\"1\" fill=\"currentColor\"/><path d=\"M26 58V66M32 58V66M23 66H29M29 66H35\"/><path d=\"M20 42C26 46 34 46 40 42\"/>",
+  "word": "qutan"
+ },
+ "perfume.n.02": {
+  "svg": "<rect x=\"18\" y=\"30\" width=\"30\" height=\"32\" rx=\"6\"/><path d=\"M28 30V22H38V30\"/><rect x=\"26\" y=\"16\" width=\"14\" height=\"6\" rx=\"1.5\"/><path d=\"M40 19H48\"/><path d=\"M48 19C56 19 60 24 58 30C56 36 50 34 50 30\"/><path d=\"M10 14l-4-3M10 20H4M12 8l-2-5\" stroke-width=\"1.5\"/><path d=\"M24 40H42\" stroke-width=\"1.2\"/>",
+  "word": "ətriyyat"
+ },
+ "pilaf.n.01": {
+  "svg": "<ellipse cx=\"36\" cy=\"54\" rx=\"31\" ry=\"9\"/><path d=\"M12 52C14 34 26 22 36 22C46 22 58 34 60 52\"/><path d=\"M24 40l2.5-1\" stroke-width=\"1.5\"/><path d=\"M30 33l2.5-1\" stroke-width=\"1.5\"/><path d=\"M38 30l2.5-1\" stroke-width=\"1.5\"/><path d=\"M44 38l2.5-1\" stroke-width=\"1.5\"/><path d=\"M34 44l2.5-1\" stroke-width=\"1.5\"/><path d=\"M48 46l2.5-1\" stroke-width=\"1.5\"/><path d=\"M20 48l2.5-1\" stroke-width=\"1.5\"/><path d=\"M28 50l2.5-1\" stroke-width=\"1.5\"/><circle cx=\"36\" cy=\"24\" r=\"3\" fill=\"currentColor\"/><circle cx=\"46\" cy=\"30\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"26\" cy=\"30\" r=\"2.5\" fill=\"currentColor\"/>",
+  "word": "plov"
+ },
+ "pillow.n.01": {
+  "svg": "<path d=\"M12 22C20 18 52 18 60 22C64 32 64 44 60 52C52 56 20 56 12 52C8 44 8 32 12 22Z\"/><path d=\"M12 22l5 5M60 22l-5 5M12 52l5-5M60 52l-5-5\"/><path d=\"M28 38q8 4 16 0\"/>",
+  "word": "yastıq"
+ },
+ "pliers.n.01": {
+  "svg": "<path d=\"M34 33L29 10Q33 4 36 10M38 33L43 10Q39 4 36 10\"/><circle cx=\"36\" cy=\"36\" r=\"3\"/><path d=\"M34 39C28 48 24 56 22 66M38 39C44 48 48 56 50 66\"/><path d=\"M27 51L22 66M45 51L50 66\" stroke-width=\"5\"/>",
+  "word": "kəlbətin"
+ },
+ "plum.n.01": {
+  "svg": "<path d=\"M36 18C50 18 57 30 57 42C57 56 48 64 36 64C24 64 15 56 15 42C15 30 22 18 36 18Z\"/><path d=\"M36 18C30 30 30 50 36 64\" stroke-width=\"1.5\"/><path d=\"M24 32c-2 6-2 12 0 16\" stroke-width=\"1.5\"/><path d=\"M36 18C36 12 38 8 41 6\"/>",
+  "word": "gavalı"
+ },
+ "pour.v.01": {
+  "svg": "<g transform=\"rotate(-40 22 24)\"><path d=\"M12 14H30L28 40H14Z\"/><path d=\"M30 20C36 20 36 30 29 31\"/><path d=\"M12 14L8 10\"/></g><path d=\"M12 22C14 34 20 42 22 50\" stroke-width=\"1.5\"/><path d=\"M14 48H34L32 66H16Z\"/><path d=\"M15 54H33\" stroke-width=\"1.2\"/>",
+  "word": "tökmək"
+ },
+ "prison.n.01": {
+  "svg": "<rect x=\"14\" y=\"12\" width=\"44\" height=\"48\" rx=\"2\"/><path d=\"M14 30H58\"/><path d=\"M23 12V60M32 12V60M41 12V60M50 12V60\" stroke-width=\"3\"/><path d=\"M4 8H14M58 8H68M4 64H68M4 20H10M62 20H68M4 40H10M62 40H68M4 52H10M62 52H68\" stroke-width=\"1.2\"/>",
+  "word": "həbsxana"
+ },
+ "pumpkin.n.01": {
+  "svg": "<path d=\"M36 20C22 15 8 24 8 41C8 57 22 63 36 59C50 63 64 57 64 41C64 24 50 15 36 20Z\"/><path d=\"M36 20C28 30 28 50 36 59M36 20C44 30 44 50 36 59M24 18C16 30 18 52 26 61M48 18C56 30 54 52 46 61\"/><path d=\"M36 20C36 14 38 9 42 7\"/><path d=\"M39 13Q46.5 14.5 51.2 8.6Q43.7 7 39 13Z\"/>",
+  "word": "boranı"
+ },
+ "puppet.n.01": {
+  "svg": "<path d=\"M18 8H54\" stroke-width=\"3\"/><path d=\"M36 4V16\" stroke-width=\"3\"/><path d=\"M20 8L23 30M52 8L49 30M36 16V21M26 8L31 62M46 8L41 62\" stroke-width=\"1\"/><circle cx=\"36\" cy=\"26\" r=\"4.5\" fill=\"currentColor\"/><polyline points=\"36 31 36 46\" stroke-width=\"4.5\"/><polyline points=\"36 35 29 34 23 30\" stroke-width=\"4.5\"/><polyline points=\"36 35 43 34 49 30\" stroke-width=\"4.5\"/><polyline points=\"36 46 33 54 31 62\" stroke-width=\"4.5\"/><polyline points=\"36 46 39 54 41 62\" stroke-width=\"4.5\"/>",
+  "word": "marionet"
+ },
+ "push.v.01": {
+  "svg": "<rect x=\"42\" y=\"26\" width=\"24\" height=\"34\"/><circle cx=\"18\" cy=\"16\" r=\"4.5\" fill=\"currentColor\"/><polyline points=\"20 24 28 40 34 52 30 62\" stroke-width=\"4.5\"/><polyline points=\"28 40 18 52 10 62\" stroke-width=\"4.5\"/><polyline points=\"22 28 42 32\" stroke-width=\"4.5\"/><polyline points=\"22 30 42 42\" stroke-width=\"4.5\"/><path d=\"M4 64H70\"/><path d=\"M44 22l4-4M58 22l4-4\" stroke-width=\"1.2\"/>",
+  "word": "itələmək"
+ },
+ "pyramid.n.01": {
+  "svg": "<path d=\"M36 8L6 56L44 64L66 46Z\"/><path d=\"M36 8L44 64\"/><path d=\"M6 56L66 46\" stroke-dasharray=\"3 4\"/>",
+  "word": "piramida"
+ },
+ "radish.n.01": {
+  "svg": "<path d=\"M36 28C48 28 54 38 50 48C46 56 38 60 36 66C34 60 26 56 22 48C18 38 24 28 36 28Z\"/><path d=\"M36 66V70\"/><path d=\"M36 28Q34.2 16.5 23.1 12.7Q25 24.2 36 28Z\"/><path d=\"M36 28Q47 24.2 48.9 12.7Q37.8 16.5 36 28Z\"/><path d=\"M36 28Q40 19 36 10Q32 19 36 28Z\"/>",
+  "word": "turp"
+ },
+ "raft.n.01": {
+  "svg": "<rect x=\"8\" y=\"30\" width=\"56\" height=\"7\" rx=\"3.5\"/><rect x=\"8\" y=\"37\" width=\"56\" height=\"7\" rx=\"3.5\"/><rect x=\"8\" y=\"44\" width=\"56\" height=\"7\" rx=\"3.5\"/><path d=\"M18 28V53M54 28V53\" stroke-width=\"3\"/><path d=\"M36 30V8\"/><path d=\"M38 10L56 22H38Z\"/><path d=\"M2 60q4 -3 8 0t8 0t8 0t8 0t8 0t8 0t8 0t8 0t8 0\"/>",
+  "word": "sal"
+ },
+ "raspberry.n.01": {
+  "svg": "<circle cx=\"28\" cy=\"30\" r=\"5\"/><circle cx=\"36\" cy=\"30\" r=\"5\"/><circle cx=\"44\" cy=\"30\" r=\"5\"/><circle cx=\"24\" cy=\"39\" r=\"5\"/><circle cx=\"32\" cy=\"39\" r=\"5\"/><circle cx=\"40\" cy=\"39\" r=\"5\"/><circle cx=\"48\" cy=\"39\" r=\"5\"/><circle cx=\"28\" cy=\"48\" r=\"5\"/><circle cx=\"36\" cy=\"48\" r=\"5\"/><circle cx=\"44\" cy=\"48\" r=\"5\"/><circle cx=\"32\" cy=\"57\" r=\"5\"/><circle cx=\"40\" cy=\"57\" r=\"5\"/><path d=\"M26 24L36 18L46 24M30 20L36 26L42 20\"/><path d=\"M36 18V10\"/>",
+  "word": "moruq"
+ },
+ "read.v.01": {
+  "svg": "<circle cx=\"36\" cy=\"13\" r=\"7\" fill=\"currentColor\"/><path d=\"M22 46C22 30 50 30 50 46\" stroke-width=\"4.5\"/><path d=\"M14 40L36 45L58 40V60L36 65L14 60Z\"/><path d=\"M36 45V65\"/><path d=\"M19 47l12 3M19 52l12 3M41 50l12-3M41 55l12-3\" stroke-width=\"1.2\"/>",
+  "word": "oxumaq"
+ },
+ "rectangle.n.01": {
+  "svg": "<rect x=\"8\" y=\"20\" width=\"56\" height=\"32\"/>",
+  "word": "düzbucaq"
+ },
+ "refrigerator.n.01": {
+  "svg": "<rect x=\"18\" y=\"6\" width=\"36\" height=\"60\" rx=\"4\"/><path d=\"M18 26H54\"/><path d=\"M24 13V20M24 32V45\"/><path d=\"M22 66v2M50 66v2\"/>",
+  "word": "soyuducu"
+ },
+ "river.n.01": {
+  "svg": "<path d=\"M33 8C26 18 40 24 30 34C20 44 28 52 12 66\"/><path d=\"M40 8C36 18 52 24 44 34C34 46 54 54 50 66\"/><path d=\"M30 48q3 -2 6 0\"/><path d=\"M36 26q2.5 -2 5 0\"/><path d=\"M26 58q3 -2 6 0t6 0\"/><path d=\"M2 14Q14 4 28 11M45 11Q58 2 70 12\"/><path d=\"M12 44V35\"/><circle cx=\"12\" cy=\"30\" r=\"5\"/><path d=\"M62 50V41\"/><circle cx=\"62\" cy=\"36\" r=\"5\"/>",
+  "word": "irmaq"
+ },
+ "rug.n.01": {
+  "svg": "<rect x=\"14\" y=\"10\" width=\"44\" height=\"52\"/><rect x=\"19\" y=\"15\" width=\"34\" height=\"42\"/><path d=\"M36 22L48 36L36 50L24 36Z\"/><path d=\"M36 30L42 36L36 42L30 36Z\"/><path d=\"M19 22l5-7M53 22l-5-7M19 50l5 7M53 50l-5 7\"/><path d=\"M16 10V5M16 62V67\"/><path d=\"M20 10V5M20 62V67\"/><path d=\"M24 10V5M24 62V67\"/><path d=\"M28 10V5M28 62V67\"/><path d=\"M32 10V5M32 62V67\"/><path d=\"M36 10V5M36 62V67\"/><path d=\"M40 10V5M40 62V67\"/><path d=\"M44 10V5M44 62V67\"/><path d=\"M48 10V5M48 62V67\"/><path d=\"M52 10V5M52 62V67\"/><path d=\"M56 10V5M56 62V67\"/>",
+  "word": "xalça"
+ },
+ "sack.n.01": {
+  "svg": "<path d=\"M28 18C20 26 12 38 12 50C12 60 22 64 36 64C50 64 60 60 60 50C60 38 52 26 44 18\"/><path d=\"M28 18C24 14 26 8 30 10C32 6 40 6 42 10C46 8 48 14 44 18\"/><path d=\"M26 20C32 22 40 22 46 20\" stroke-width=\"3\"/><path d=\"M22 40c4 4 4 12 0 16M50 40c-4 4-4 12 0 16\" stroke-width=\"1.2\"/>",
+  "word": "kisə"
+ },
+ "saltshaker.n.01": {
+  "svg": "<path d=\"M24 24C24 12 48 12 48 24Z\"/><path d=\"M24 24H48L52 62H20Z\"/><circle cx=\"32\" cy=\"18\" r=\"1.2\" fill=\"currentColor\"/><circle cx=\"36\" cy=\"16\" r=\"1.2\" fill=\"currentColor\"/><circle cx=\"40\" cy=\"18\" r=\"1.2\" fill=\"currentColor\"/><path d=\"M26 34H46\" stroke-width=\"1.2\"/>",
+  "word": "duzluq"
+ },
+ "samovar.n.01": {
+  "svg": "<path d=\"M20 24C12 30 12 48 20 54H52C60 48 60 30 52 24Z\"/><path d=\"M26 24V18H46V24\"/><path d=\"M28 18C28 9 44 9 44 18\"/><path d=\"M44 13L53 8\"/><circle cx=\"36\" cy=\"7\" r=\"1.8\"/><path d=\"M18 30C9 30 9 40 15 42M54 30C63 30 63 40 57 42\"/><path d=\"M15 39H57\" stroke-width=\"1.2\"/><path d=\"M36 46H25V52\" stroke-width=\"2.5\"/><path d=\"M22 44H29\" stroke-width=\"2\"/><path d=\"M26 54L22 62H50L46 54\"/><path d=\"M18 62H54\"/><path d=\"M22 62V66M50 62V66\"/>",
+  "word": "samovar"
+ },
+ "sausage.n.01": {
+  "svg": "<path d=\"M14 24H50M14 44H50\"/><path d=\"M14 24C6 24 6 44 14 44\"/><path d=\"M8 34H4M4 31V37\"/><ellipse cx=\"50\" cy=\"34\" rx=\"5\" ry=\"10\"/><circle cx=\"49\" cy=\"30\" r=\"1\" fill=\"currentColor\"/><circle cx=\"51\" cy=\"36\" r=\"1\" fill=\"currentColor\"/><circle cx=\"48\" cy=\"38\" r=\"1\" fill=\"currentColor\"/><ellipse cx=\"60\" cy=\"54\" rx=\"6\" ry=\"10\"/><circle cx=\"59\" cy=\"50\" r=\"1\" fill=\"currentColor\"/><circle cx=\"61\" cy=\"56\" r=\"1\" fill=\"currentColor\"/><circle cx=\"58\" cy=\"58\" r=\"1\" fill=\"currentColor\"/>",
+  "word": "kolbasa"
+ },
+ "sea.n.01": {
+  "svg": "<path d=\"M4 30H68\"/><path d=\"M25 30a11 11 0 0 1 22 0\"/><path d=\"M36 14V9M24 19l-3-3M48 19l3-3M18 26h-4M54 26h4\"/><path d=\"M4 40q4 -3 8 0t8 0t8 0t8 0t8 0t8 0t8 0t8 0\"/><path d=\"M8 50q4 -3 8 0t8 0t8 0t8 0t8 0t8 0t8 0\"/><path d=\"M4 60q4 -3 8 0t8 0t8 0t8 0t8 0t8 0t8 0t8 0\"/>",
+  "word": "dəniz"
+ },
+ "seesaw.n.01": {
+  "svg": "<path d=\"M6 46L66 26\" stroke-width=\"3\"/><path d=\"M28 62L36 37L44 62Z\"/><path d=\"M14 43.6V36M58 28.4V20\"/><path d=\"M4 62H68\"/><circle cx=\"10\" cy=\"24\" r=\"4.5\" fill=\"currentColor\"/><polyline points=\"10 31 10 40\" stroke-width=\"4.5\"/><circle cx=\"62\" cy=\"10\" r=\"4.5\" fill=\"currentColor\"/><polyline points=\"62 17 62 26\" stroke-width=\"4.5\"/>",
+  "word": "basqıncaq"
+ },
+ "semicircle.n.01": {
+  "svg": "<path d=\"M8 48A28 28 0 0 1 64 48Z\"/>",
+  "word": "yarımdairə"
+ },
+ "sewing_machine.n.01": {
+  "svg": "<rect x=\"6\" y=\"54\" width=\"60\" height=\"8\" rx=\"2\"/><path d=\"M14 54V22C14 16 18 14 24 14H54C58 14 60 16 60 20V36H54\"/><path d=\"M54 36V44H60V36\"/><path d=\"M57 44V52\"/><path d=\"M30 14V8M26 8H34\"/><circle cx=\"20\" cy=\"28\" r=\"5\"/><path d=\"M24 54V44H50V54\"/>",
+  "word": "tikiş maşını"
+ },
+ "shelf.n.01": {
+  "svg": "<path d=\"M6 32H66M6 58H66\"/><path d=\"M12 32l6 6M60 32l-6 6M12 58l6 6M60 58l-6 6\"/><rect x=\"12\" y=\"14\" width=\"5\" height=\"18\"/><rect x=\"18\" y=\"12\" width=\"5\" height=\"20\"/><rect x=\"24\" y=\"16\" width=\"5\" height=\"16\"/><path d=\"M30 31L36 15L40 16.5L34 32\"/><path d=\"M50 32l-2-8h12l-2 8\"/><path d=\"M54 24Q58.8 21.6 58.5 16.2Q53.7 18.6 54 24Z\"/><path d=\"M54 24Q54.3 18.6 49.5 16.2Q49.2 21.6 54 24Z\"/><rect x=\"12\" y=\"44\" width=\"14\" height=\"14\" rx=\"2\"/><rect x=\"30\" y=\"42\" width=\"5\" height=\"16\"/><rect x=\"36\" y=\"40\" width=\"5\" height=\"18\"/><circle cx=\"54\" cy=\"52\" r=\"6\"/>",
+  "word": "rəf"
+ },
+ "shirt.n.01": {
+  "svg": "<path d=\"M18 26V64H54V26\"/><path d=\"M26 10L14 14L6 50L13 52L18 26M46 10L58 14L66 50L59 52L54 26\"/><path d=\"M26 10L28 20L36 17L44 20L46 10L36 14Z\"/><path d=\"M36 17V64\"/><path d=\"M7 46L14 48M65 46L58 48\"/><circle cx=\"36\" cy=\"27\" r=\"1.4\" fill=\"currentColor\"/><circle cx=\"36\" cy=\"37\" r=\"1.4\" fill=\"currentColor\"/><circle cx=\"36\" cy=\"47\" r=\"1.4\" fill=\"currentColor\"/><circle cx=\"36\" cy=\"57\" r=\"1.4\" fill=\"currentColor\"/><rect x=\"42\" y=\"28\" width=\"7\" height=\"7\"/>",
+  "word": "köynək"
+ },
+ "shoulder.n.01": {
+  "group": "bust",
+  "svg": "<circle cx=\"36\" cy=\"22\" r=\"11\"/><circle cx=\"32\" cy=\"22\" r=\"1.3\" fill=\"currentColor\"/><circle cx=\"40\" cy=\"22\" r=\"1.3\" fill=\"currentColor\"/><path d=\"M36 24v3.5h-1.5\" stroke-width=\"1.2\"/><path d=\"M33 29.5q3 2 6 0\" stroke-width=\"1.2\"/><path d=\"M29 17.5q3-2.2 6 0M37 17.5q3-2.2 6 0\" stroke-width=\"1.2\"/><path d=\"M31 32.5V40M41 32.5V40\"/><path d=\"M8 66C8 50 20 42 31 40M41 40C52 42 64 50 64 66\"/><path d=\"M68 30L59.7 40.3\" stroke-width=\"1.8\"/><path d=\"M56 45L57.2 38.3L62.2 42.3Z\" fill=\"currentColor\" stroke-width=\"1\"/>",
+  "word": "çiyin"
+ },
+ "sickle.n.01": {
+  "svg": "<path d=\"M26 50C10 40 12 16 32 10C50 6 62 16 60 30C56 20 46 16 36 18C24 22 22 38 31 47Z\"/><path d=\"M28 50L14 64\" stroke-width=\"5\"/>",
+  "word": "oraq"
+ },
+ "sieve.n.01": {
+  "svg": "<circle cx=\"30\" cy=\"36\" r=\"20\"/><circle cx=\"30\" cy=\"36\" r=\"17\" stroke-width=\"1\"/><path d=\"M18 24V48\" stroke-width=\"1\"/><path d=\"M24 20.1V51.9\" stroke-width=\"1\"/><path d=\"M30 19V53\" stroke-width=\"1\"/><path d=\"M36 20.1V51.9\" stroke-width=\"1\"/><path d=\"M42 24V48\" stroke-width=\"1\"/><path d=\"M18 24H42\" stroke-width=\"1\"/><path d=\"M14.1 30H45.9\" stroke-width=\"1\"/><path d=\"M13 36H47\" stroke-width=\"1\"/><path d=\"M14.1 42H45.9\" stroke-width=\"1\"/><path d=\"M18 48H42\" stroke-width=\"1\"/><path d=\"M44 22L62 6\" stroke-width=\"4\"/>",
+  "word": "xəlbir"
+ },
+ "sink.n.01": {
+  "svg": "<path d=\"M8 34H64C64 48 52 56 36 56C20 56 8 48 8 34Z\"/><path d=\"M30 56V66H42V56\"/><path d=\"M36 34V20H48V26\"/><path d=\"M32 20H40\"/><path d=\"M48 30v2M48 36v2\"/><ellipse cx=\"36\" cy=\"40\" rx=\"6\" ry=\"2\"/>",
+  "word": "əlüz yuyan"
+ },
+ "sit.v.01": {
+  "svg": "<path d=\"M30 44H54M32 44V64M52 44V64M54 44V20\"/><circle cx=\"40\" cy=\"12\" r=\"4.5\" fill=\"currentColor\"/><polyline points=\"44 22 46 42 28 42 26 60 20 60\" stroke-width=\"4.5\"/><polyline points=\"44 26 34 34 30 40\" stroke-width=\"4.5\"/>",
+  "word": "oturmaq"
+ },
+ "skirt.n.01": {
+  "svg": "<rect x=\"24\" y=\"12\" width=\"24\" height=\"7\"/><path d=\"M24 19L12 60H60L48 19\"/><path d=\"M30 19L24 60M36 19V60M42 19L48 60\"/>",
+  "word": "ətək"
+ },
+ "skyscraper.n.01": {
+  "svg": "<rect x=\"24\" y=\"16\" width=\"24\" height=\"50\"/><rect x=\"28\" y=\"10\" width=\"16\" height=\"6\"/><path d=\"M36 2V10\"/><path d=\"M8 66H64\"/><path d=\"M28 22h4M34 22h4M40 22h4\" stroke-width=\"1.5\"/><path d=\"M28 28h4M34 28h4M40 28h4\" stroke-width=\"1.5\"/><path d=\"M28 34h4M34 34h4M40 34h4\" stroke-width=\"1.5\"/><path d=\"M28 40h4M34 40h4M40 40h4\" stroke-width=\"1.5\"/><path d=\"M28 46h4M34 46h4M40 46h4\" stroke-width=\"1.5\"/><path d=\"M28 52h4M34 52h4M40 52h4\" stroke-width=\"1.5\"/><path d=\"M28 58h4M34 58h4M40 58h4\" stroke-width=\"1.5\"/><rect x=\"8\" y=\"40\" width=\"14\" height=\"26\"/><rect x=\"50\" y=\"32\" width=\"14\" height=\"34\"/><path d=\"M12 46h6M12 52h6M12 58h6M54 38h6M54 44h6M54 50h6M54 56h6\" stroke-width=\"1.5\"/>",
+  "word": "göydələn"
+ },
+ "slide_fastener.n.01": {
+  "svg": "<path d=\"M22 34L14 4M50 34L58 4M26 34V68M46 34V68\"/><path d=\"M30 34L22 4M42 34L50 4\" stroke-width=\"1.2\"/><rect x=\"30\" y=\"38\" width=\"6\" height=\"2\"/><rect x=\"36\" y=\"40\" width=\"6\" height=\"2\"/><rect x=\"30\" y=\"42\" width=\"6\" height=\"2\"/><rect x=\"36\" y=\"44\" width=\"6\" height=\"2\"/><rect x=\"30\" y=\"46\" width=\"6\" height=\"2\"/><rect x=\"36\" y=\"48\" width=\"6\" height=\"2\"/><rect x=\"30\" y=\"50\" width=\"6\" height=\"2\"/><rect x=\"36\" y=\"52\" width=\"6\" height=\"2\"/><rect x=\"30\" y=\"54\" width=\"6\" height=\"2\"/><rect x=\"36\" y=\"56\" width=\"6\" height=\"2\"/><rect x=\"30\" y=\"58\" width=\"6\" height=\"2\"/><rect x=\"36\" y=\"60\" width=\"6\" height=\"2\"/><rect x=\"30\" y=\"62\" width=\"6\" height=\"2\"/><rect x=\"36\" y=\"64\" width=\"6\" height=\"2\"/><path d=\"M28.8 29.8h3M43.2 29.8h-3\" stroke-width=\"2\"/><path d=\"M27.4 25h3M44.6 25h-3\" stroke-width=\"2\"/><path d=\"M26.1 20.3h3M45.9 20.3h-3\" stroke-width=\"2\"/><path d=\"M24.7 15.5h3M47.3 15.5h-3\" stroke-width=\"2\"/><path d=\"M23.4 10.8h3M48.6 10.8h-3\" stroke-width=\"2\"/><rect x=\"28\" y=\"26\" width=\"16\" height=\"10\" rx=\"2\"/><rect x=\"32\" y=\"36\" width=\"8\" height=\"14\" rx=\"3\"/><circle cx=\"36\" cy=\"46\" r=\"1.4\" fill=\"currentColor\"/>",
+  "word": "zəncirbənd"
+ },
+ "slingshot.n.01": {
+  "svg": "<path d=\"M36 66V42\" stroke-width=\"5\"/><path d=\"M36 42L24 16M36 42L48 16\" stroke-width=\"4\"/><path d=\"M24 16C26 30 46 30 48 16\" stroke-width=\"1.5\"/><circle cx=\"36\" cy=\"26\" r=\"3.5\" fill=\"currentColor\"/>",
+  "word": "sapand"
+ },
+ "smoke.n.01": {
+  "svg": "<rect x=\"12\" y=\"46\" width=\"14\" height=\"20\"/><rect x=\"10\" y=\"42\" width=\"18\" height=\"4\"/><path d=\"M4 66H68\"/><path d=\"M18.6 35.6a3.6 3.6 0 0 1 0.6-6.9a5.4 5.4 0 0 1 9.6-2.4a4.2 4.2 0 0 1 7.2 3a3.3 3.3 0 0 1 -0.6 6.3Z\"/><path d=\"M26.8 25.8a4.8 4.8 0 0 1 0.8-9.2a7.2 7.2 0 0 1 12.8-3.2a5.6 5.6 0 0 1 9.6 4a4.4 4.4 0 0 1 -0.8 8.4Z\"/><path d=\"M40.1 15.1a5.1 5.1 0 0 1 0.8-9.8a7.6 7.6 0 0 1 13.6-3.4a6 6 0 0 1 10.2 4.2a4.7 4.7 0 0 1 -0.8 8.9Z\"/>",
+  "word": "tüstü"
+ },
+ "sow.v.01": {
+  "svg": "<circle cx=\"22\" cy=\"12\" r=\"4.5\" fill=\"currentColor\"/><polyline points=\"22 20 24 40 18 52 16 62\" stroke-width=\"4.5\"/><polyline points=\"24 40 30 52 32 62\" stroke-width=\"4.5\"/><polyline points=\"22 25 36 30 42 28\" stroke-width=\"4.5\"/><polyline points=\"22 25 12 34\" stroke-width=\"4.5\"/><circle cx=\"46\" cy=\"34\" r=\"1.2\" fill=\"currentColor\"/><circle cx=\"50\" cy=\"40\" r=\"1.2\" fill=\"currentColor\"/><circle cx=\"47\" cy=\"44\" r=\"1.2\" fill=\"currentColor\"/><circle cx=\"53\" cy=\"47\" r=\"1.2\" fill=\"currentColor\"/><circle cx=\"49\" cy=\"51\" r=\"1.2\" fill=\"currentColor\"/><path d=\"M38 64H70M42 58q6-3 12 0M56 58q6-3 12 0\" stroke-width=\"1.5\"/>",
+  "word": "əkmək"
+ },
+ "squat.v.01": {
+  "svg": "<circle cx=\"30\" cy=\"14\" r=\"4.5\" fill=\"currentColor\"/><polyline points=\"30 22 28 40 44 44 42 60\" stroke-width=\"4.5\"/><polyline points=\"28 40 40 50 38 62\" stroke-width=\"4.5\"/><polyline points=\"30 27 46 32\" stroke-width=\"4.5\"/><polyline points=\"30 27 48 26\" stroke-width=\"4.5\"/><path d=\"M8 64H64\"/>",
+  "word": "çöməlmək"
+ },
+ "stairs.n.01": {
+  "svg": "<path d=\"M6 62V56H18V46H30V36H42V26H54V16H66V62Z\"/><path d=\"M12 56V46M24 46V36M36 36V26M48 26V16M60 16V6\"/><path d=\"M12 46L60 6\"/>",
+  "word": "pilləkən"
+ },
+ "stool.n.01": {
+  "svg": "<ellipse cx=\"36\" cy=\"18\" rx=\"18\" ry=\"5\"/><path d=\"M18 18V22C18 26 54 26 54 22V18\"/><path d=\"M22 24L16 62M50 24L56 62M31 26L29 58M41 26L43 58\"/><path d=\"M20 44H52\"/>",
+  "word": "kətil"
+ },
+ "stork.n.01": {
+  "svg": "<ellipse cx=\"32\" cy=\"30\" rx=\"15\" ry=\"8\" transform=\"rotate(-12 32 30)\"/><path d=\"M44 25C48 19 48 13 46 8\"/><circle cx=\"47\" cy=\"7\" r=\"3\"/><path d=\"M50 7L65 11L50 10\"/><path d=\"M20 30L8 36L20 36Z\" fill=\"currentColor\"/><path d=\"M22 28C30 34 40 34 46 28\"/><path d=\"M30 38V64M35 37L41 50L34 52\"/><path d=\"M26 64H34\"/>",
+  "word": "leylək"
+ },
+ "submarine.n.01": {
+  "svg": "<path d=\"M8 42C8 34 16 30 26 30H52C62 30 66 36 66 42C66 48 62 54 52 54H26C16 54 8 50 8 42Z\"/><rect x=\"30\" y=\"20\" width=\"14\" height=\"10\" rx=\"2\"/><path d=\"M38 20V11H45\"/><circle cx=\"22\" cy=\"42\" r=\"2.5\"/><circle cx=\"32\" cy=\"42\" r=\"2.5\"/><circle cx=\"42\" cy=\"42\" r=\"2.5\"/><circle cx=\"52\" cy=\"42\" r=\"2.5\"/><path d=\"M66 42L70 37M66 42L70 47\"/><circle cx=\"16\" cy=\"22\" r=\"2\"/><circle cx=\"12\" cy=\"14\" r=\"1.5\"/><circle cx=\"20\" cy=\"12\" r=\"1.2\"/>",
+  "word": "sualtı qayıq"
+ },
+ "sweater.n.01": {
+  "svg": "<path d=\"M24 10L12 14L6 48L14 50L18 28V62H54V28L58 50L66 48L60 14L48 10C44 16 28 16 24 10Z\"/><path d=\"M18 56H54\"/><path d=\"M22 56V62\" stroke-width=\"1.2\"/><path d=\"M26 56V62\" stroke-width=\"1.2\"/><path d=\"M30 56V62\" stroke-width=\"1.2\"/><path d=\"M34 56V62\" stroke-width=\"1.2\"/><path d=\"M38 56V62\" stroke-width=\"1.2\"/><path d=\"M42 56V62\" stroke-width=\"1.2\"/><path d=\"M46 56V62\" stroke-width=\"1.2\"/><path d=\"M50 56V62\" stroke-width=\"1.2\"/><path d=\"M7 44L15 46M65 44L57 46\"/><path d=\"M18 34l4-4l4 4l4-4l4 4l4-4l4 4l4-4l4 4l4-4\" stroke-width=\"1.5\"/><path d=\"M27 12C30 15 42 15 45 12\" stroke-width=\"1.2\"/>",
+  "word": "sviter"
+ },
+ "swing.n.02": {
+  "svg": "<path d=\"M10 10H62\"/><path d=\"M10 10L4 64M10 10L16 64M62 10L56 64M62 10L68 64\"/><path d=\"M26 10V46M46 10V46\"/><rect x=\"22\" y=\"46\" width=\"28\" height=\"4\" rx=\"1\"/>",
+  "word": "yelləncək"
+ },
+ "table.n.02": {
+  "svg": "<path d=\"M14 20H58L64 26H8Z\"/><rect x=\"8\" y=\"26\" width=\"56\" height=\"5\"/><path d=\"M13 31V60M59 31V60M19 31V50M53 31V50\"/>",
+  "word": "stol"
+ },
+ "tadpole.n.01": {
+  "svg": "<circle cx=\"22\" cy=\"34\" r=\"10\"/><circle cx=\"18\" cy=\"31\" r=\"1.6\" fill=\"currentColor\"/><path d=\"M32 34C40 26 46 42 54 34C58 30 62 32 66 34\"/><path d=\"M8 56q4 -2 8 0t8 0t8 0t8 0t8 0t8 0t8 0\"/><path d=\"M16 62q4 -2 8 0t8 0t8 0t8 0t8 0\"/>",
+  "word": "çömçəquyruq"
+ },
+ "tape.n.01": {
+  "svg": "<circle cx=\"30\" cy=\"36\" r=\"20\"/><circle cx=\"30\" cy=\"36\" r=\"9\"/><path d=\"M30 56H64L61 59L64 62H33\"/><path d=\"M30 16C42 16 50 24 50 36\" stroke-width=\"1.2\"/>",
+  "word": "skotç"
+ },
+ "thermos.n.01": {
+  "svg": "<rect x=\"26\" y=\"6\" width=\"20\" height=\"10\" rx=\"2\"/><path d=\"M30 16V20M42 16V20\"/><rect x=\"22\" y=\"20\" width=\"28\" height=\"44\" rx=\"6\"/><path d=\"M22 30H50M22 54H50\"/><path d=\"M28 36V48\" stroke-width=\"1.5\"/>",
+  "word": "termos"
+ },
+ "thimble.n.02": {
+  "svg": "<path d=\"M24 60V32C24 14 48 14 48 32V60\"/><path d=\"M22 60H50M24 55H48\"/><circle cx=\"32\" cy=\"26\" r=\"1.1\" fill=\"currentColor\"/><circle cx=\"36\" cy=\"26\" r=\"1.1\" fill=\"currentColor\"/><circle cx=\"40\" cy=\"26\" r=\"1.1\" fill=\"currentColor\"/><circle cx=\"29\" cy=\"32\" r=\"1.1\" fill=\"currentColor\"/><circle cx=\"33\" cy=\"32\" r=\"1.1\" fill=\"currentColor\"/><circle cx=\"37\" cy=\"32\" r=\"1.1\" fill=\"currentColor\"/><circle cx=\"41\" cy=\"32\" r=\"1.1\" fill=\"currentColor\"/><circle cx=\"45\" cy=\"32\" r=\"1.1\" fill=\"currentColor\"/><circle cx=\"28\" cy=\"38\" r=\"1.1\" fill=\"currentColor\"/><circle cx=\"32\" cy=\"38\" r=\"1.1\" fill=\"currentColor\"/><circle cx=\"36\" cy=\"38\" r=\"1.1\" fill=\"currentColor\"/><circle cx=\"40\" cy=\"38\" r=\"1.1\" fill=\"currentColor\"/><circle cx=\"44\" cy=\"38\" r=\"1.1\" fill=\"currentColor\"/><circle cx=\"28\" cy=\"44\" r=\"1.1\" fill=\"currentColor\"/><circle cx=\"32\" cy=\"44\" r=\"1.1\" fill=\"currentColor\"/><circle cx=\"36\" cy=\"44\" r=\"1.1\" fill=\"currentColor\"/><circle cx=\"40\" cy=\"44\" r=\"1.1\" fill=\"currentColor\"/><circle cx=\"44\" cy=\"44\" r=\"1.1\" fill=\"currentColor\"/><circle cx=\"28\" cy=\"50\" r=\"1.1\" fill=\"currentColor\"/><circle cx=\"32\" cy=\"50\" r=\"1.1\" fill=\"currentColor\"/><circle cx=\"36\" cy=\"50\" r=\"1.1\" fill=\"currentColor\"/><circle cx=\"40\" cy=\"50\" r=\"1.1\" fill=\"currentColor\"/><circle cx=\"44\" cy=\"50\" r=\"1.1\" fill=\"currentColor\"/>",
+  "word": "üskük"
+ },
+ "thorax.n.02": {
+  "group": "bust",
+  "svg": "<circle cx=\"36\" cy=\"22\" r=\"11\"/><circle cx=\"32\" cy=\"22\" r=\"1.3\" fill=\"currentColor\"/><circle cx=\"40\" cy=\"22\" r=\"1.3\" fill=\"currentColor\"/><path d=\"M36 24v3.5h-1.5\" stroke-width=\"1.2\"/><path d=\"M33 29.5q3 2 6 0\" stroke-width=\"1.2\"/><path d=\"M29 17.5q3-2.2 6 0M37 17.5q3-2.2 6 0\" stroke-width=\"1.2\"/><path d=\"M31 32.5V40M41 32.5V40\"/><path d=\"M8 66C8 50 20 42 31 40M41 40C52 42 64 50 64 66\"/><path d=\"M62 62L45.6 56.1\" stroke-width=\"1.8\"/><path d=\"M40 54L46.7 53L44.5 59.1Z\" fill=\"currentColor\" stroke-width=\"1\"/>",
+  "word": "sinə"
+ },
+ "throne.n.01": {
+  "svg": "<path d=\"M18 38V12L24 18L30 8L36 16L42 8L48 18L54 12V38\"/><rect x=\"12\" y=\"38\" width=\"48\" height=\"8\" rx=\"2\"/><path d=\"M14 46V64M58 46V64M18 46V58M54 46V58\"/><path d=\"M10 32V46M62 32V46\" stroke-width=\"3\"/><circle cx=\"36\" cy=\"26\" r=\"3\" fill=\"currentColor\"/><path d=\"M24 26h4M44 26h4\" stroke-width=\"1.5\"/>",
+  "word": "taxt-tac"
+ },
+ "throw.v.01": {
+  "svg": "<circle cx=\"22\" cy=\"18\" r=\"4.5\" fill=\"currentColor\"/><polyline points=\"24 26 26 44 16 54 12 64\" stroke-width=\"4.5\"/><polyline points=\"26 44 34 54 38 64\" stroke-width=\"4.5\"/><polyline points=\"24 30 10 24 8 14\" stroke-width=\"4.5\"/><polyline points=\"24 30 36 30\" stroke-width=\"4.5\"/><circle cx=\"56\" cy=\"16\" r=\"5\"/><path d=\"M38 26C44 18 48 16 51 16\" stroke-dasharray=\"2 4\"/><path d=\"M4 66H50\"/>",
+  "word": "atmaq"
+ },
+ "toothpaste.n.01": {
+  "svg": "<path d=\"M8 28L44 24C48 24 50 27 50 30V42C50 45 48 48 44 48L8 44Z\"/><path d=\"M8 26V46\" stroke-width=\"3\"/><path d=\"M13 27V45\" stroke-width=\"1.2\"/><rect x=\"20\" y=\"31\" width=\"18\" height=\"10\" rx=\"1\" stroke-width=\"1.2\"/><path d=\"M50 32H54V40H50\"/><path d=\"M54 34C62 34 66 28 62 24C59 21 55 24 57 27\"/>",
+  "word": "diş məcunu"
+ },
+ "torch.n.01": {
+  "svg": "<path d=\"M33 66L30 36H42L39 66Z\"/><path d=\"M31.2 44H40.8M31.8 52H40.2\" stroke-width=\"1.5\"/><path d=\"M25 30H47L43 36H29Z\"/><path d=\"M36 4C44 12 49 19 46 25C44 29 28 29 26 25C23 19 28 11 36 4Z\"/><path d=\"M36 14C40 18 41 22 39 25H33C31 22 32 18 36 14Z\" fill=\"currentColor\"/>",
+  "word": "məşəl"
+ },
+ "towel.n.01": {
+  "svg": "<path d=\"M6 14H66\"/><circle cx=\"6\" cy=\"14\" r=\"2\"/><circle cx=\"66\" cy=\"14\" r=\"2\"/><path d=\"M18 14V60H54V14\"/><path d=\"M18 22H54\"/><path d=\"M18 48H54M18 53H54\"/><path d=\"M22 60v4M30 60v4M38 60v4M46 60v4M50 60v4\"/>",
+  "word": "dəsmal"
+ },
+ "transport.v.02": {
+  "svg": "<rect x=\"30\" y=\"20\" width=\"22\" height=\"18\"/><circle cx=\"28\" cy=\"10\" r=\"4.5\" fill=\"currentColor\"/><polyline points=\"28 19 30 40 22 52 20 62\" stroke-width=\"4.5\"/><polyline points=\"30 40 36 52 40 62\" stroke-width=\"4.5\"/><polyline points=\"28 23 34 38\" stroke-width=\"4.5\"/><polyline points=\"28 23 46 38\" stroke-width=\"4.5\"/><path d=\"M4 64H70\"/><path d=\"M8 34h8M6 40h8\" stroke-width=\"1.5\"/>",
+  "word": "daşımaq"
+ },
+ "trouser.n.01": {
+  "svg": "<path d=\"M20 8H52L56 64H40L36 26L32 64H16Z\"/><path d=\"M20 14H52\"/><path d=\"M36 14V26\"/><path d=\"M22 14C24 20 28 21 31 14M50 14C48 20 44 21 41 14\"/>",
+  "word": "şalvar"
+ },
+ "tunnel.n.01": {
+  "svg": "<path d=\"M2 56L20 22L29 31L40 12L70 56\"/><path d=\"M22 56V44a14 14 0 0 1 28 0V56\"/><path d=\"M28 56V46a8 8 0 0 1 16 0V56\" fill=\"currentColor\"/><path d=\"M28 56L18 68M44 56L54 68\"/><path d=\"M36 60V62M36 65V67\"/><path d=\"M2 56H22M50 56H70\"/>",
+  "word": "tunel"
+ },
+ "typewriter.n.01": {
+  "svg": "<path d=\"M10 62L16 36H56L62 62Z\"/><path d=\"M24 32V8H48V32\"/><path d=\"M28 14H44M28 19H42M28 24H40\" stroke-width=\"1.2\"/><rect x=\"12\" y=\"30\" width=\"48\" height=\"6\" rx=\"3\"/><circle cx=\"21\" cy=\"45\" r=\"1.6\"/><circle cx=\"27\" cy=\"45\" r=\"1.6\"/><circle cx=\"33\" cy=\"45\" r=\"1.6\"/><circle cx=\"39\" cy=\"45\" r=\"1.6\"/><circle cx=\"45\" cy=\"45\" r=\"1.6\"/><circle cx=\"51\" cy=\"45\" r=\"1.6\"/><circle cx=\"18\" cy=\"52\" r=\"1.6\"/><circle cx=\"24\" cy=\"52\" r=\"1.6\"/><circle cx=\"30\" cy=\"52\" r=\"1.6\"/><circle cx=\"36\" cy=\"52\" r=\"1.6\"/><circle cx=\"42\" cy=\"52\" r=\"1.6\"/><circle cx=\"48\" cy=\"52\" r=\"1.6\"/><circle cx=\"54\" cy=\"52\" r=\"1.6\"/><path d=\"M24 58H48\"/>",
+  "word": "yazı maşını"
+ },
+ "vase.n.01": {
+  "svg": "<path d=\"M26 8H46\"/><path d=\"M30 8C30 16 26 18 22 26C14 40 20 58 28 64H44C52 58 58 40 50 26C46 18 42 16 42 8\"/><path d=\"M18 34H54M17 46H55\"/><path d=\"M18 40l4-3l4 3l4-3l4 3l4-3l4 3l4-3l4 3\" stroke-width=\"1.5\"/>",
+  "word": "vaza"
+ },
+ "vest.n.01": {
+  "svg": "<path d=\"M24 8L36 22L48 8L58 14V56L50 62H38L36 58L34 62H22L14 56V14Z\"/><path d=\"M36 22V58\"/><path d=\"M24 8C24 16 20 22 14 24M48 8C48 16 52 22 58 24\" stroke-width=\"1.5\"/><circle cx=\"36\" cy=\"30\" r=\"1.4\" fill=\"currentColor\"/><circle cx=\"36\" cy=\"38\" r=\"1.4\" fill=\"currentColor\"/><circle cx=\"36\" cy=\"46\" r=\"1.4\" fill=\"currentColor\"/><path d=\"M20 40h8M44 40h8\" stroke-width=\"1.5\"/>",
+  "word": "jilet"
+ },
+ "wallet.n.01": {
+  "svg": "<rect x=\"10\" y=\"22\" width=\"52\" height=\"34\" rx=\"4\"/><path d=\"M44 30H62V46H44a8 8 0 0 1 0-16Z\"/><circle cx=\"46\" cy=\"38\" r=\"2\"/><path d=\"M18 22V14H38V22\"/><path d=\"M22 22V18H34\" stroke-width=\"1.2\"/>",
+  "word": "pulqabı"
+ },
+ "walnut.n.01": {
+  "svg": "<path d=\"M36 10C52 10 60 24 60 38C60 54 50 64 36 64C22 64 12 54 12 38C12 24 20 10 36 10Z\"/><path d=\"M34 10C31 30 31 44 34 64M38 10C41 30 41 44 38 64\" stroke-width=\"1.5\"/><path d=\"M18 28c4 2 6-2 10 0M44 24c4 2 6-2 10 0M16 42c4 2 6-2 10 0M46 42c4 2 6-2 10 0M22 54c3 2 5-1 8 0M42 54c3 1 5-2 8 0\" stroke-width=\"1.5\"/>",
+  "word": "qoz"
+ },
+ "walrus.n.01": {
+  "svg": "<path d=\"M16 34C16 20 26 12 36 12C46 12 56 20 56 34C56 44 50 50 36 50C22 50 16 44 16 34Z\"/><circle cx=\"28\" cy=\"26\" r=\"1.6\" fill=\"currentColor\"/><circle cx=\"44\" cy=\"26\" r=\"1.6\" fill=\"currentColor\"/><path d=\"M24 40C24 34 36 34 36 40C36 34 48 34 48 40C48 46 36 46 36 42C36 46 24 46 24 40Z\"/><path d=\"M30 44L28 64L32 64L33 46M42 44L44 64L40 64L39 46\"/><path d=\"M10 66C12 56 18 52 24 50M62 66C60 56 54 52 48 50\"/><circle cx=\"28\" cy=\"40\" r=\"0.7\" fill=\"currentColor\"/><circle cx=\"31\" cy=\"38\" r=\"0.7\" fill=\"currentColor\"/><circle cx=\"41\" cy=\"38\" r=\"0.7\" fill=\"currentColor\"/><circle cx=\"44\" cy=\"40\" r=\"0.7\" fill=\"currentColor\"/>",
+  "word": "morj"
+ },
+ "water.v.03": {
+  "svg": "<path d=\"M8 28H32V50C32 52 30 54 28 54H12C10 54 8 52 8 50Z\"/><path d=\"M12 28C12 18 28 18 28 30\"/><path d=\"M32 34L50 22\"/><rect x=\"49\" y=\"17\" width=\"5\" height=\"8\" rx=\"1\" transform=\"rotate(-34 51 21)\"/><path d=\"M55 24l2 4M58 22l3 4M60 18l4 3\" stroke-width=\"1.5\"/><path d=\"M60 32v3M56 38v3M63 40v3\" stroke-width=\"1.5\"/><path d=\"M48 64H70\"/><path d=\"M58 64V52\"/><path d=\"M58 55Q55.9 49.7 50.2 50.5Q52.4 55.8 58 55Z\"/><path d=\"M58 55Q63.6 55.8 65.8 50.5Q60.1 49.7 58 55Z\"/>",
+  "word": "suvarmaq"
+ },
+ "waterfall.n.01": {
+  "svg": "<path d=\"M4 14H22C22 30 18 44 20 54\"/><path d=\"M36 14H68\"/><path d=\"M36 14C38 30 42 44 40 54\"/><path d=\"M20 8Q29 12 38 8\"/><path d=\"M25 14V52M30 14V52M35 14V52\" stroke-width=\"1.5\"/><ellipse cx=\"30\" cy=\"60\" rx=\"24\" ry=\"5\"/><path d=\"M14 52l-4-4M46 52l4-4M30 50v-3\"/><path d=\"M50 26l8 4M56 40l8-2M8 30l6 4\"/>",
+  "word": "şəlalə"
+ },
+ "whip.n.01": {
+  "svg": "<path d=\"M10 64L24 46\" stroke-width=\"5\"/><path d=\"M24 46C38 20 64 18 62 34C60 48 42 44 46 32C49 24 58 26 58 30\"/>",
+  "word": "şallaq"
+ },
+ "whistle.n.03": {
+  "svg": "<path d=\"M10 28H40C52 28 60 36 60 44C60 52 54 58 46 58C38 58 32 52 32 44V38H10Z\"/><path d=\"M34 28L38 22H46L44 28\"/><circle cx=\"46\" cy=\"44\" r=\"4\" fill=\"currentColor\"/><path d=\"M58 22l4-4M62 28h5\"/>",
+  "word": "fit"
+ },
+ "willow.n.01": {
+  "svg": "<path d=\"M36 66C34 56 37 46 34 34\"/><path d=\"M10 40C10 20 22 10 36 10C50 10 62 20 62 40\"/><path d=\"M14 28C11 40 12 50 14 58M20 20C17 36 18 48 20 56M28 14C26 32 27 44 28 52M44 14C46 32 45 44 44 52M52 20C55 36 54 48 52 56M58 28C61 40 60 50 58 58\" stroke-width=\"1.5\"/><path d=\"M34 40L26 30M35 46L44 34\" stroke-width=\"1.5\"/><path d=\"M20 66H52\"/>",
+  "word": "söyüd"
+ },
+ "word:anemometr": {
+  "category": "things",
+  "svg": "<path d=\"M36 30V64\"/><path d=\"M30 64H42\"/><circle cx=\"36\" cy=\"28\" r=\"2.5\"/><path d=\"M36 28L17.2 24.9\"/><path d=\"M36 28L54.8 24.9\"/><path d=\"M36 28L36 37\"/><ellipse cx=\"15.3\" cy=\"24.6\" rx=\"5\" ry=\"4\"/><ellipse cx=\"56.7\" cy=\"24.6\" rx=\"5\" ry=\"4\"/><ellipse cx=\"36\" cy=\"38\" rx=\"5\" ry=\"4\"/><path d=\"M8 12c4-3 8 3 12 0M50 8c4-3 8 3 12 0\" stroke-width=\"1.5\"/>",
+  "word": "anemometr"
+ },
+ "word:buta": {
+  "category": "things",
+  "svg": "<path d=\"M30 64C14 60 10 42 20 30C28 20 40 18 46 10C48 5 55 5 55 11C55 17 49 19 47 23C57 31 59 49 49 59C43 65 36 66 30 64Z\"/><path d=\"M32 56C22 53 20 42 26 35C31 29 38 28 42 24C50 32 51 45 44 52C40 56 36 57 32 56Z\" stroke-width=\"1.2\"/><circle cx=\"35\" cy=\"44\" r=\"4\"/><circle cx=\"35\" cy=\"44\" r=\"1.2\" fill=\"currentColor\"/><circle cx=\"51\" cy=\"11\" r=\"1.5\" fill=\"currentColor\"/><circle cx=\"46.7\" cy=\"51.3\" r=\"0.9\" fill=\"currentColor\"/><circle cx=\"38.2\" cy=\"56.8\" r=\"0.9\" fill=\"currentColor\"/><circle cx=\"28.3\" cy=\"54.5\" r=\"0.9\" fill=\"currentColor\"/><circle cx=\"23.1\" cy=\"45.8\" r=\"0.9\" fill=\"currentColor\"/><circle cx=\"25.7\" cy=\"36\" r=\"0.9\" fill=\"currentColor\"/><circle cx=\"34.5\" cy=\"31.1\" r=\"0.9\" fill=\"currentColor\"/><circle cx=\"44.3\" cy=\"34\" r=\"0.9\" fill=\"currentColor\"/>",
+  "word": "buta"
+ },
+ "word:dolma": {
+  "category": "food",
+  "svg": "<ellipse cx=\"36\" cy=\"54\" rx=\"31\" ry=\"9\"/><g transform=\"rotate(-8 24 48)\"><rect x=\"11\" y=\"43\" width=\"26\" height=\"10\" rx=\"5\"/><path d=\"M17 43C19 48 19 48 17 53M27 43C29 48 29 48 27 53\" stroke-width=\"1.2\"/></g><g transform=\"rotate(8 48 48)\"><rect x=\"35\" y=\"43\" width=\"26\" height=\"10\" rx=\"5\"/><path d=\"M41 43C43 48 43 48 41 53M51 43C53 48 53 48 51 53\" stroke-width=\"1.2\"/></g><g transform=\"rotate(0 36 36)\"><rect x=\"23\" y=\"31\" width=\"26\" height=\"10\" rx=\"5\"/><path d=\"M29 31C31 36 31 36 29 41M39 31C41 36 41 36 39 41\" stroke-width=\"1.2\"/></g>",
+  "word": "dolma"
+ },
+ "word:kamança": {
+  "category": "things",
+  "svg": "<circle cx=\"32\" cy=\"40\" r=\"10\"/><path d=\"M24 40H40\" stroke-width=\"1.2\"/><path d=\"M32 50V66\" stroke-width=\"2.5\"/><path d=\"M30 30V9M34 30V9\"/><rect x=\"29\" y=\"3\" width=\"6\" height=\"7\" rx=\"1\"/><path d=\"M29 5h-3M35 5h3M29 8h-3M35 8h3\"/><path d=\"M30 46h4\"/><path d=\"M46 8C52 24 56 44 58 64\"/><path d=\"M50 8C55 24 59 44 61 64\" stroke-width=\"1\"/><path d=\"M46 8h4M58 64h3\"/>",
+  "word": "kamança"
+ },
+ "word:kök": {
+  "svg": "<path d=\"M4 30H68\"/><path d=\"M36 30V14\"/><path d=\"M36 18Q32.8 11.5 25.6 12Q28.8 18.5 36 18Z\"/><path d=\"M36 14Q43.2 14.5 46.4 8Q39.2 7.5 36 14Z\"/><path d=\"M36 30V48C36 54 34 58 30 62M36 40C30 42 24 46 18 56M36 44C42 46 48 52 52 62M36 36C44 38 52 42 58 50M36 50C38 54 40 58 40 66\" stroke-width=\"1.5\"/><path d=\"M24 50l-3 1M47 52l3 0M30 58l-3 2\" stroke-width=\"1.2\"/>",
+  "word": "kök"
+ },
+ "word:kəlağayı": {
+  "category": "things",
+  "svg": "<path d=\"M6 16H66L36 60Z\"/><path d=\"M14 21H58L36 52Z\" stroke-width=\"1.2\"/><path d=\"M26 33c-4 0 -5 -5 -2 -8c1.5 -2 4 -2 4 -5c2 3 3 9 -2 13Z\" stroke-width=\"1.2\"/><path d=\"M38 32c-4 0 -5 -5 -2 -8c1.5 -2 4 -2 4 -5c2 3 3 9 -2 13Z\" stroke-width=\"1.2\"/><path d=\"M32 43c-4 0 -5 -5 -2 -8c1.5 -2 4 -2 4 -5c2 3 3 9 -2 13Z\" stroke-width=\"1.2\"/><path d=\"M44 34c-3.2 0 -4 -4 -1.6 -6.4c1.2 -1.6 3.2 -1.6 3.2 -4c1.6 2.4 2.4 7.2 -1.6 10.4Z\" stroke-width=\"1.2\"/><path d=\"M9 20.4l-3 2\" stroke-width=\"1.2\"/><path d=\"M13.5 27l-3 2\" stroke-width=\"1.2\"/><path d=\"M18 33.6l-3 2\" stroke-width=\"1.2\"/><path d=\"M22.5 40.2l-3 2\" stroke-width=\"1.2\"/><path d=\"M27 46.8l-3 2\" stroke-width=\"1.2\"/><path d=\"M31.5 53.4l-3 2\" stroke-width=\"1.2\"/><path d=\"M63 20.4l3 2\" stroke-width=\"1.2\"/><path d=\"M58.5 27l3 2\" stroke-width=\"1.2\"/><path d=\"M54 33.6l3 2\" stroke-width=\"1.2\"/><path d=\"M49.5 40.2l3 2\" stroke-width=\"1.2\"/><path d=\"M45 46.8l3 2\" stroke-width=\"1.2\"/><path d=\"M40.5 53.4l3 2\" stroke-width=\"1.2\"/><path d=\"M36 60v5\"/>",
+  "word": "kəlağayı"
+ },
+ "word:papaq": {
+  "category": "things",
+  "svg": "<path d=\"M18 58V22C18 15 54 15 54 22V58C54 62 18 62 18 58Z\"/><ellipse cx=\"36\" cy=\"22\" rx=\"18\" ry=\"5\"/><path d=\"M22 26c2-3 5-3 5 0\" stroke-width=\"1.5\"/><path d=\"M30 26c2-3 5-3 5 0\" stroke-width=\"1.5\"/><path d=\"M38 26c2-3 5-3 5 0\" stroke-width=\"1.5\"/><path d=\"M46 26c2-3 5-3 5 0\" stroke-width=\"1.5\"/><path d=\"M18 34c2-3 5-3 5 0\" stroke-width=\"1.5\"/><path d=\"M26 34c2-3 5-3 5 0\" stroke-width=\"1.5\"/><path d=\"M34 34c2-3 5-3 5 0\" stroke-width=\"1.5\"/><path d=\"M42 34c2-3 5-3 5 0\" stroke-width=\"1.5\"/><path d=\"M48 34c2-3 5-3 5 0\" stroke-width=\"1.5\"/><path d=\"M22 42c2-3 5-3 5 0\" stroke-width=\"1.5\"/><path d=\"M30 42c2-3 5-3 5 0\" stroke-width=\"1.5\"/><path d=\"M38 42c2-3 5-3 5 0\" stroke-width=\"1.5\"/><path d=\"M46 42c2-3 5-3 5 0\" stroke-width=\"1.5\"/><path d=\"M18 50c2-3 5-3 5 0\" stroke-width=\"1.5\"/><path d=\"M26 50c2-3 5-3 5 0\" stroke-width=\"1.5\"/><path d=\"M34 50c2-3 5-3 5 0\" stroke-width=\"1.5\"/><path d=\"M42 50c2-3 5-3 5 0\" stroke-width=\"1.5\"/><path d=\"M48 50c2-3 5-3 5 0\" stroke-width=\"1.5\"/><path d=\"M18 56C18 60 54 60 54 56\" stroke-width=\"1.2\"/>",
+  "word": "papaq"
+ },
+ "word:qaval": {
+  "category": "things",
+  "svg": "<circle cx=\"36\" cy=\"36\" r=\"26\"/><circle cx=\"36\" cy=\"36\" r=\"21\"/><circle cx=\"58.5\" cy=\"42.9\" r=\"2.6\"/><circle cx=\"41.1\" cy=\"58.9\" r=\"2.6\"/><circle cx=\"18.7\" cy=\"51.9\" r=\"2.6\"/><circle cx=\"13.6\" cy=\"28.9\" r=\"2.6\"/><circle cx=\"31\" cy=\"13\" r=\"2.6\"/><circle cx=\"53.5\" cy=\"20.3\" r=\"2.6\"/><path d=\"M28 30c2-4 6-4 8 0M38 40c2-4 6-4 8 0\" stroke-width=\"1.2\"/>",
+  "word": "qaval"
+ },
+ "word:qazan": {
+  "category": "things",
+  "svg": "<path d=\"M12 30H60V44C60 54 50 60 36 60C22 60 12 54 12 44Z\"/><path d=\"M10 30H62\"/><path d=\"M14 26C14 18 58 18 58 26Z\"/><circle cx=\"36\" cy=\"16\" r=\"2.5\"/><path d=\"M12 36C6 36 4 40 8 42M60 36C66 36 68 40 64 42\"/><path d=\"M22 60L20 66M50 60L52 66\"/>",
+  "word": "qazan"
+ },
+ "word:saz": {
+  "category": "things",
+  "svg": "<g transform=\"rotate(-28 36 36)\"><path d=\"M36 65C24 65 21 52 25 44C28 38 32 35 36 35C40 35 44 38 47 44C51 52 48 65 36 65Z\"/><circle cx=\"36\" cy=\"49\" r=\"2.2\"/><path d=\"M32 59h8\"/><path d=\"M34 35V8M38 35V8\"/><path d=\"M34 12H38\" stroke-width=\"1\"/><path d=\"M34 16H38\" stroke-width=\"1\"/><path d=\"M34 20H38\" stroke-width=\"1\"/><path d=\"M34 24H38\" stroke-width=\"1\"/><path d=\"M34 28H38\" stroke-width=\"1\"/><path d=\"M34 32H38\" stroke-width=\"1\"/><path d=\"M34 8L33 2H39L38 8\"/><path d=\"M33 4h-3M39 4h3M33 7h-3M39 7h3\"/></g>",
+  "word": "saz"
+ },
+ "word:səməni": {
+  "category": "food",
+  "svg": "<path d=\"M8 50H64L58 60H14Z\"/><path d=\"M14 50C14 46 13 36 12 24\" stroke-width=\"1.5\"/><path d=\"M19 50C19 40 20 30 21 18\" stroke-width=\"1.5\"/><path d=\"M24 50C24 38 23 28 22 16\" stroke-width=\"1.5\"/><path d=\"M29 50C29 34 30 24 31 12\" stroke-width=\"1.5\"/><path d=\"M34 50C34 32 34 22 34 10\" stroke-width=\"1.5\"/><path d=\"M39 50C39 34 38 24 37 12\" stroke-width=\"1.5\"/><path d=\"M44 50C44 36 45 26 46 14\" stroke-width=\"1.5\"/><path d=\"M49 50C49 38 48 28 47 16\" stroke-width=\"1.5\"/><path d=\"M54 50C54 42 55 32 56 20\" stroke-width=\"1.5\"/><path d=\"M59 50C59 46 60 36 61 24\" stroke-width=\"1.5\"/><path d=\"M13 42H59M13 46H59\" stroke-width=\"1.5\"/><path d=\"M36 44C30 36 24 40 30 44C24 48 30 52 36 44C42 36 48 40 42 44C48 48 42 52 36 44Z\"/><path d=\"M34 46L30 56M38 46L42 56\"/>",
+  "word": "səməni"
+ },
+ "word:tar": {
+  "category": "things",
+  "svg": "<g transform=\"rotate(-28 36 36)\"><path d=\"M36 64C24 64 22 52 28 46.5C24 41 27 34 36 34C45 34 48 41 44 46.5C50 52 48 64 36 64Z\"/><ellipse cx=\"36\" cy=\"55\" rx=\"6.5\" ry=\"5.5\"/><path d=\"M32.5 59h7\"/><path d=\"M34 34V10M38 34V10\"/><path d=\"M34 14H38\" stroke-width=\"1\"/><path d=\"M34 18H38\" stroke-width=\"1\"/><path d=\"M34 22H38\" stroke-width=\"1\"/><path d=\"M34 26H38\" stroke-width=\"1\"/><path d=\"M34 30H38\" stroke-width=\"1\"/><rect x=\"32.5\" y=\"2\" width=\"7\" height=\"8\" rx=\"1\"/><path d=\"M32.5 4.5h-3M32.5 7.5h-3M39.5 4.5h3M39.5 7.5h3\"/></g>",
+  "word": "tar"
+ },
+ "wrist.n.01": {
+  "group": "arm",
+  "svg": "<polyline points=\"6 14 28 44 52 30\" stroke-width=\"8\"/><circle cx=\"58\" cy=\"26\" r=\"6\" fill=\"currentColor\"/><path d=\"M64 52L55.6 40.8\" stroke-width=\"1.8\"/><path d=\"M52 36L58.2 38.9L53 42.7Z\" fill=\"currentColor\" stroke-width=\"1\"/>",
+  "word": "bilək"
+ }
+}

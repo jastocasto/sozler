@@ -1,0 +1,3253 @@
+{
+ "accordion.n.01": {
+  "annotation": "accordion",
+  "author": "Liz Bravo",
+  "openmoji": "1FA97",
+  "word": "akkordeon"
+ },
+ "airplane.n.01": {
+  "annotation": "airplane",
+  "author": "Ronja Bäurlen",
+  "openmoji": "2708",
+  "word": "təyyarə"
+ },
+ "ambulance.n.01": {
+  "annotation": "ambulance",
+  "author": "Ronja Bäurlen",
+  "openmoji": "1F691",
+  "word": "təcili tibbi yardım"
+ },
+ "american_bison.n.01": {
+  "annotation": "water buffalo",
+  "author": "Sofie Ascherl",
+  "openmoji": "1F403",
+  "word": "camış"
+ },
+ "anchor.n.01": {
+  "annotation": "anchor",
+  "author": "Ronja Bäurlen",
+  "openmoji": "2693",
+  "word": "lövbər"
+ },
+ "angel.n.01": {
+  "annotation": "baby angel",
+  "author": "Anne Frauendorf",
+  "openmoji": "1F47C",
+  "word": "mələk"
+ },
+ "ant.n.01": {
+  "annotation": "ant",
+  "author": "Selina Bauder",
+  "openmoji": "1F41C",
+  "word": "qarışqa"
+ },
+ "antenna.n.01": {
+  "annotation": "satellite antenna",
+  "author": "Sina Schulz",
+  "openmoji": "1F4E1",
+  "word": "antena"
+ },
+ "apparel.n.01": {
+  "annotation": "woman’s clothes",
+  "author": "Jonas Roßner",
+  "openmoji": "1F45A",
+  "word": "paltar"
+ },
+ "appearance:bald": {
+  "annotation": "man: bald",
+  "author": "Nadine Bartel",
+  "openmoji": "1F468-200D-1F9B2",
+  "word": "keçəl"
+ },
+ "apple.n.01": {
+  "annotation": "red apple",
+  "author": "Liz Bravo",
+  "openmoji": "1F34E",
+  "word": "alma"
+ },
+ "armchair.n.01": {
+  "annotation": "armchair",
+  "author": "Baris Camli",
+  "openmoji": "E141",
+  "word": "kreslo"
+ },
+ "arrow.n.02": {
+  "annotation": "up arrow",
+  "author": "Guemil Project",
+  "openmoji": "2B06",
+  "word": "ox"
+ },
+ "astronaut.n.01": {
+  "annotation": "astronaut",
+  "author": "Benedikt Groß",
+  "openmoji": "1F9D1-200D-1F680",
+  "word": "astronavt"
+ },
+ "automaton.n.02": {
+  "annotation": "robot",
+  "author": "Mariella Steeb",
+  "openmoji": "1F916",
+  "word": "robot"
+ },
+ "avocado.n.01": {
+  "annotation": "avocado",
+  "author": "Marius Schnabel",
+  "openmoji": "1F951",
+  "word": "avokado"
+ },
+ "ax.n.01": {
+  "annotation": "axe",
+  "author": "Tonia Reinhardt",
+  "openmoji": "E347",
+  "word": "balta"
+ },
+ "baby.n.01": {
+  "annotation": "baby",
+  "author": "Johanna Wellnitz",
+  "openmoji": "1F476",
+  "word": "körpə"
+ },
+ "bacon.n.01": {
+  "annotation": "bacon",
+  "author": "Miriam Vollmeier",
+  "openmoji": "1F953",
+  "word": "bekon"
+ },
+ "badminton.n.01": {
+  "annotation": "badminton",
+  "author": "Sarah Mager",
+  "openmoji": "1F3F8",
+  "word": "badminton"
+ },
+ "bag.n.01": {
+  "annotation": "handbag",
+  "author": "Jonas Roßner",
+  "openmoji": "1F45C",
+  "word": "çanta"
+ },
+ "bag.n.04": {
+  "annotation": "purse",
+  "author": "Jonas Roßner",
+  "openmoji": "1F45B",
+  "word": "sumka"
+ },
+ "bagel.n.01": {
+  "annotation": "bagel",
+  "author": "Ricarda Krejci",
+  "openmoji": "1F96F",
+  "word": "bublik"
+ },
+ "baggage.n.01": {
+  "annotation": "luggage",
+  "author": "Jonas Dunkel",
+  "openmoji": "1F9F3",
+  "word": "baqaj"
+ },
+ "ball.n.01": {
+  "annotation": "soccer ball",
+  "author": "Vanessa Boutzikoudi",
+  "openmoji": "26BD",
+  "word": "top"
+ },
+ "ball.n.03": {
+  "annotation": "globe showing Europe-Africa",
+  "author": "Martin Wehl",
+  "openmoji": "1F30D",
+  "word": "yer kürəsi"
+ },
+ "banana.n.01": {
+  "annotation": "banana",
+  "author": "Marius Schnabel",
+  "openmoji": "1F34C",
+  "word": "banan"
+ },
+ "bandage.n.01": {
+  "annotation": "adhesive bandage",
+  "author": "Sam Eckert",
+  "openmoji": "1FA79",
+  "word": "sarğı"
+ },
+ "bank.n.01": {
+  "annotation": "bank",
+  "author": "Martin Wehl",
+  "openmoji": "1F3E6",
+  "word": "bank"
+ },
+ "barrow.n.03": {
+  "annotation": "wheelbarrow",
+  "author": "Fanny Jung",
+  "openmoji": "E344",
+  "word": "daşka"
+ },
+ "baseball.n.02": {
+  "annotation": "baseball",
+  "author": "Vanessa Boutzikoudi",
+  "openmoji": "26BE",
+  "word": "beysbol"
+ },
+ "baseball_glove.n.01": {
+  "annotation": "gloves",
+  "author": "Laura Schießer",
+  "openmoji": "1F9E4",
+  "word": "əlcək"
+ },
+ "basket.n.01": {
+  "annotation": "basket",
+  "author": "Tonia Reinhardt",
+  "openmoji": "1F9FA",
+  "word": "səbət"
+ },
+ "basketball.n.02": {
+  "annotation": "basketball",
+  "author": "Vanessa Boutzikoudi",
+  "openmoji": "1F3C0",
+  "word": "basketbol"
+ },
+ "bat.n.01": {
+  "annotation": "bat",
+  "author": "Sofie Ascherl",
+  "openmoji": "1F987",
+  "word": "yarasa"
+ },
+ "bathe.v.01": {
+  "annotation": "person taking bath",
+  "author": "Anne Frauendorf",
+  "openmoji": "1F6C0",
+  "word": "çimmək"
+ },
+ "bathtub.n.01": {
+  "annotation": "bathtub",
+  "author": "Lisa Schulz",
+  "openmoji": "1F6C1",
+  "word": "vanna"
+ },
+ "battery.n.02": {
+  "annotation": "battery",
+  "author": "Jonas Roßner",
+  "openmoji": "1F50B",
+  "word": "batareya"
+ },
+ "beach.n.01": {
+  "annotation": "beach with umbrella",
+  "author": "Martin Wehl",
+  "openmoji": "1F3D6",
+  "word": "çimərlik"
+ },
+ "bead.n.01": {
+  "annotation": "nazar amulet",
+  "author": "Nicole Kornhaas",
+  "openmoji": "1F9FF",
+  "word": "muncuq"
+ },
+ "bear.n.01": {
+  "annotation": "bear",
+  "author": "Sofie Ascherl",
+  "openmoji": "1F43B",
+  "word": "ayı"
+ },
+ "beard.n.01": {
+  "annotation": "person: beard",
+  "author": "Lisa Thiel",
+  "openmoji": "1F9D4",
+  "word": "saqqal"
+ },
+ "beaver.n.01": {
+  "annotation": "beaver",
+  "author": "Liz Bravo",
+  "openmoji": "1F9AB",
+  "word": "qunduz"
+ },
+ "bed.n.01": {
+  "annotation": "bed",
+  "author": "Lisa Schulz",
+  "openmoji": "1F6CF",
+  "word": "yataq"
+ },
+ "bee.n.01": {
+  "annotation": "honeybee",
+  "author": "Selina Bauder",
+  "openmoji": "1F41D",
+  "word": "arı"
+ },
+ "beer.n.01": {
+  "annotation": "beer mug",
+  "author": "Laura Humpfer",
+  "openmoji": "1F37A",
+  "word": "pivə"
+ },
+ "beetle.n.01": {
+  "annotation": "beetle",
+  "author": "Liz Bravo",
+  "openmoji": "1FAB2",
+  "word": "böcək"
+ },
+ "bell.n.01": {
+  "annotation": "bell",
+  "author": "Rana Cakir",
+  "openmoji": "1F514",
+  "word": "zəng"
+ },
+ "bicycle.n.01": {
+  "annotation": "bicycle",
+  "author": "Ronja Bäurlen",
+  "openmoji": "1F6B2",
+  "word": "velosiped"
+ },
+ "bird.n.01": {
+  "annotation": "bird",
+  "author": "Selina Bauder",
+  "openmoji": "1F426",
+  "word": "quş"
+ },
+ "bison.n.01": {
+  "annotation": "bison",
+  "author": "Liz Bravo",
+  "openmoji": "1F9AC",
+  "word": "bizon"
+ },
+ "blueberry.n.01": {
+  "annotation": "blueberries",
+  "author": "Liz Bravo",
+  "openmoji": "1FAD0",
+  "word": "qaragilə"
+ },
+ "boat.n.01": {
+  "annotation": "sailboat",
+  "author": "Ronja Bäurlen",
+  "openmoji": "26F5",
+  "word": "qayıq"
+ },
+ "bone.n.01": {
+  "annotation": "bone",
+  "author": "Laura Schießer",
+  "openmoji": "1F9B4",
+  "word": "sümük"
+ },
+ "book.n.02": {
+  "annotation": "closed book",
+  "author": "Jonas Roßner",
+  "openmoji": "1F4D5",
+  "word": "kitab"
+ },
+ "bookmark.n.01": {
+  "annotation": "bookmark",
+  "author": "Jonas Roßner",
+  "openmoji": "1F516",
+  "word": "əlfəcin"
+ },
+ "boomerang.n.01": {
+  "annotation": "boomerang",
+  "author": "Liz Bravo",
+  "openmoji": "1FA83",
+  "word": "bumeranq"
+ },
+ "boot.n.01": {
+  "annotation": "woman’s boot",
+  "author": "Jonas Roßner",
+  "openmoji": "1F462",
+  "word": "çəkmə"
+ },
+ "bottle.n.01": {
+  "annotation": "glass bottle",
+  "author": "Benedikt Seidl",
+  "openmoji": "E0CB",
+  "word": "butulka"
+ },
+ "bouquet.n.01": {
+  "annotation": "bouquet",
+  "author": "Liz Bravo",
+  "openmoji": "1F490",
+  "word": "güldəstə"
+ },
+ "bow.v.03": {
+  "annotation": "person bowing",
+  "author": "Johanna Wellnitz",
+  "openmoji": "1F647",
+  "word": "əyilmək"
+ },
+ "bowl.n.01": {
+  "annotation": "steaming bowl",
+  "author": "Hend Hourani",
+  "openmoji": "1F35C",
+  "word": "çanaq"
+ },
+ "bowling.n.01": {
+  "annotation": "bowling",
+  "author": "Sarah Mager",
+  "openmoji": "1F3B3",
+  "word": "boulinq"
+ },
+ "box.n.01": {
+  "annotation": "package",
+  "author": "Liz Bravo",
+  "openmoji": "1F4E6",
+  "word": "qutu"
+ },
+ "boxing.n.01": {
+  "annotation": "boxing glove",
+  "author": "Vanessa Boutzikoudi",
+  "openmoji": "1F94A",
+  "word": "boks"
+ },
+ "brain.n.01": {
+  "annotation": "brain",
+  "author": "Julian Grüneberg",
+  "openmoji": "1F9E0",
+  "word": "beyin"
+ },
+ "bread.n.01": {
+  "annotation": "bread",
+  "author": "Miriam Vollmeier",
+  "openmoji": "1F35E",
+  "word": "çörək"
+ },
+ "brick.n.01": {
+  "annotation": "brick",
+  "author": "Jonas Dunkel",
+  "openmoji": "1F9F1",
+  "word": "kərpic"
+ },
+ "broccoli.n.01": {
+  "annotation": "broccoli",
+  "author": "Marius Schnabel",
+  "openmoji": "1F966",
+  "word": "brokoli"
+ },
+ "broom.n.01": {
+  "annotation": "broom",
+  "author": "Tonia Reinhardt",
+  "openmoji": "1F9F9",
+  "word": "süpürgə"
+ },
+ "bucket.n.01": {
+  "annotation": "bucket",
+  "author": "Liz Bravo",
+  "openmoji": "1FAA3",
+  "word": "vedrə"
+ },
+ "building.n.01": {
+  "annotation": "classical building",
+  "author": "Martin Wehl",
+  "openmoji": "1F3DB",
+  "word": "bina"
+ },
+ "bull.n.01": {
+  "annotation": "ox",
+  "author": "Sofie Ascherl",
+  "openmoji": "1F402",
+  "word": "buğa"
+ },
+ "bus.n.01": {
+  "annotation": "bus",
+  "author": "Ronja Bäurlen",
+  "openmoji": "1F68C",
+  "word": "avtobus"
+ },
+ "butter.n.01": {
+  "annotation": "butter",
+  "author": "Evelyn Soos",
+  "openmoji": "1F9C8",
+  "word": "kərə yağı"
+ },
+ "butterfly.n.01": {
+  "annotation": "butterfly",
+  "author": "Robert Winslow",
+  "openmoji": "1F98B",
+  "word": "kəpənək"
+ },
+ "cab.n.03": {
+  "annotation": "taxi",
+  "author": "Ronja Bäurlen",
+  "openmoji": "1F695",
+  "word": "taksi"
+ },
+ "cable.n.02": {
+  "annotation": "cable",
+  "author": "Baris Camli",
+  "openmoji": "E1CB",
+  "word": "kabel"
+ },
+ "cactus.n.01": {
+  "annotation": "cactus",
+  "author": "Liz Bravo",
+  "openmoji": "1F335",
+  "word": "kaktus"
+ },
+ "cake.n.01": {
+  "annotation": "birthday cake",
+  "author": "Miriam Vollmeier",
+  "openmoji": "1F382",
+  "word": "tort"
+ },
+ "camel.n.01": {
+  "annotation": "camel",
+  "author": "Sofie Ascherl",
+  "openmoji": "1F42A",
+  "word": "dəvə"
+ },
+ "camera.n.01": {
+  "annotation": "camera",
+  "author": "Sina Schulz",
+  "openmoji": "1F4F7",
+  "word": "fotoaparat"
+ },
+ "candle.n.01": {
+  "annotation": "candle",
+  "author": "Sina Schulz",
+  "openmoji": "1F56F",
+  "word": "şam"
+ },
+ "cane.n.01": {
+  "annotation": "white cane",
+  "author": "Sam Eckert",
+  "openmoji": "1F9AF",
+  "word": "çəlik"
+ },
+ "canoe.n.01": {
+  "annotation": "canoe",
+  "author": "Jonas Dunkel",
+  "openmoji": "1F6F6",
+  "word": "kanoe"
+ },
+ "cap.n.01": {
+  "annotation": "billed cap",
+  "author": "Jennifer Pätzold",
+  "openmoji": "1F9E2",
+  "word": "kepka"
+ },
+ "car.n.01": {
+  "annotation": "automobile",
+  "author": "Ronja Bäurlen",
+  "openmoji": "1F697",
+  "word": "maşın"
+ },
+ "car.n.02": {
+  "annotation": "railway car",
+  "author": "Liz Bravo",
+  "openmoji": "1F683",
+  "word": "vaqon"
+ },
+ "carousel.n.01": {
+  "annotation": "carousel horse",
+  "author": "Louisa Mantsch",
+  "openmoji": "1F3A0",
+  "word": "karusel"
+ },
+ "carrot.n.01": {
+  "annotation": "carrot",
+  "author": "Marius Schnabel",
+  "openmoji": "1F955",
+  "word": "yerkökü"
+ },
+ "cat.n.01": {
+  "annotation": "cat",
+  "author": "Sofie Ascherl",
+  "openmoji": "1F408",
+  "word": "pişik"
+ },
+ "cellular_telephone.n.01": {
+  "annotation": "mobile phone",
+  "author": "Martin Wehl",
+  "openmoji": "1F4F1",
+  "word": "mobil telefon"
+ },
+ "chain.n.02": {
+  "annotation": "chains",
+  "author": "Hilda Kalyoncu",
+  "openmoji": "26D3",
+  "word": "zəncir"
+ },
+ "chair.n.01": {
+  "annotation": "chair",
+  "author": "Sam Eckert",
+  "openmoji": "1FA91",
+  "word": "stul"
+ },
+ "cheese.n.01": {
+  "annotation": "cheese wedge",
+  "author": "Miriam Vollmeier",
+  "openmoji": "1F9C0",
+  "word": "pendir"
+ },
+ "chess.n.01": {
+  "annotation": "chess pawn",
+  "author": "Nicole Kornhaas",
+  "openmoji": "265F",
+  "word": "şahmat"
+ },
+ "chestnut.n.01": {
+  "annotation": "chestnut",
+  "author": "Hend Hourani",
+  "openmoji": "1F330",
+  "word": "şabalıd"
+ },
+ "chick.n.01": {
+  "annotation": "hatching chick",
+  "author": "Selina Bauder",
+  "openmoji": "1F423",
+  "word": "cücə"
+ },
+ "chicken.n.01": {
+  "annotation": "chicken",
+  "author": "Selina Bauder",
+  "openmoji": "1F414",
+  "word": "toyuq"
+ },
+ "child.n.01": {
+  "annotation": "child",
+  "author": "Johanna Wellnitz",
+  "openmoji": "1F9D2",
+  "word": "uşaq"
+ },
+ "christmas_bush.n.01": {
+  "annotation": "Christmas tree",
+  "author": "Liz Bravo",
+  "openmoji": "1F384",
+  "word": "yolka"
+ },
+ "church.n.02": {
+  "annotation": "church",
+  "author": "Martin Wehl",
+  "openmoji": "26EA",
+  "word": "kilsə"
+ },
+ "cigarette.n.01": {
+  "annotation": "cigarette",
+  "author": "Marius Schnabel",
+  "openmoji": "1F6AC",
+  "word": "siqaret"
+ },
+ "cinema.n.02": {
+  "annotation": "cinema",
+  "author": "Liz Bravo",
+  "openmoji": "1F3A6",
+  "word": "kino"
+ },
+ "circle.n.01": {
+  "annotation": "red circle",
+  "author": "Ricarda Krejci",
+  "openmoji": "1F534",
+  "word": "dairə"
+ },
+ "city.n.01": {
+  "annotation": "cityscape",
+  "author": "Martin Wehl",
+  "openmoji": "1F3D9",
+  "word": "şəhər"
+ },
+ "climb.v.01": {
+  "annotation": "person climbing",
+  "author": "Johanna Wellnitz",
+  "openmoji": "1F9D7",
+  "word": "dırmaşmaq"
+ },
+ "clock.n.01": {
+  "annotation": "alarm clock",
+  "author": "Rana Cakir",
+  "openmoji": "23F0",
+  "word": "saat"
+ },
+ "cloud.n.01": {
+  "annotation": "cloud",
+  "author": "Vanessa Boutzikoudi",
+  "openmoji": "2601",
+  "word": "bulud"
+ },
+ "clown.n.01": {
+  "annotation": "clown face",
+  "author": "Emily Jäger",
+  "openmoji": "1F921",
+  "word": "kloun"
+ },
+ "coat.n.01": {
+  "annotation": "coat",
+  "author": "Daniel Quiros",
+  "openmoji": "1F9E5",
+  "word": "palto"
+ },
+ "cobweb.n.01": {
+  "annotation": "spider web",
+  "author": "Selina Bauder",
+  "openmoji": "1F578",
+  "word": "hörümçək toru"
+ },
+ "cock.n.04": {
+  "annotation": "rooster",
+  "author": "Selina Bauder",
+  "openmoji": "1F413",
+  "word": "xoruz"
+ },
+ "cockroach.n.01": {
+  "annotation": "cockroach",
+  "author": "Liz Bravo",
+  "openmoji": "1FAB3",
+  "word": "tarakan"
+ },
+ "cocktail.n.01": {
+  "annotation": "cocktail glass",
+  "author": "Laura Humpfer",
+  "openmoji": "1F378",
+  "word": "kokteyl"
+ },
+ "cocoa.n.01": {
+  "annotation": "chocolate bar",
+  "author": "Miriam Vollmeier",
+  "openmoji": "1F36B",
+  "word": "şokolad"
+ },
+ "coffee.n.01": {
+  "annotation": "roasted coffee bean",
+  "author": "Alexander Müller",
+  "openmoji": "E0C6",
+  "word": "qəhvə"
+ },
+ "coffee_mill.n.01": {
+  "annotation": "coffee grinder",
+  "author": "Alexander Müller",
+  "openmoji": "E156",
+  "word": "qəhvəüyüdən"
+ },
+ "comb.n.01": {
+  "annotation": "hair pick",
+  "author": "Linda Hartmann",
+  "openmoji": "1FAAE",
+  "word": "daraq"
+ },
+ "comet.n.01": {
+  "annotation": "comet",
+  "author": "Lois Proksch",
+  "openmoji": "2604",
+  "word": "quyruqlu ulduz"
+ },
+ "compass.n.01": {
+  "annotation": "compass",
+  "author": "Kai Magnus Müller",
+  "openmoji": "1F9ED",
+  "word": "kompas"
+ },
+ "computer.n.01": {
+  "annotation": "desktop computer",
+  "author": "Jonas Roßner",
+  "openmoji": "1F5A5",
+  "word": "kompüter"
+ },
+ "cook.n.01": {
+  "annotation": "cook",
+  "author": "Benedikt Groß",
+  "openmoji": "1F9D1-200D-1F373",
+  "word": "aşpaz"
+ },
+ "cook.v.01": {
+  "annotation": "cooking",
+  "author": "Miriam Vollmeier",
+  "openmoji": "1F373",
+  "word": "bişirmək"
+ },
+ "cookie.n.01": {
+  "annotation": "cookie",
+  "author": "Miriam Vollmeier",
+  "openmoji": "1F36A",
+  "word": "peçenye"
+ },
+ "corn.n.01": {
+  "annotation": "ear of corn",
+  "author": "Marius Schnabel",
+  "openmoji": "1F33D",
+  "word": "qarğıdalı"
+ },
+ "cornet.n.01": {
+  "annotation": "trumpet",
+  "author": "Sina Schulz",
+  "openmoji": "1F3BA",
+  "word": "kərənay"
+ },
+ "cow.n.01": {
+  "annotation": "cow",
+  "author": "Sofie Ascherl",
+  "openmoji": "1F404",
+  "word": "inək"
+ },
+ "crab.n.01": {
+  "annotation": "crab",
+  "author": "Liz Bravo",
+  "openmoji": "1F980",
+  "word": "yengəc"
+ },
+ "crescent.n.01": {
+  "annotation": "star and crescent",
+  "author": "Jose Avila",
+  "openmoji": "262A",
+  "word": "aypara"
+ },
+ "crescent_roll.n.01": {
+  "annotation": "croissant",
+  "author": "Miriam Vollmeier",
+  "openmoji": "1F950",
+  "word": "kruasan"
+ },
+ "crocodile.n.01": {
+  "annotation": "crocodile",
+  "author": "Selina Bauder",
+  "openmoji": "1F40A",
+  "word": "timsah"
+ },
+ "cross.n.01": {
+  "annotation": "latin cross",
+  "author": "Jose Avila",
+  "openmoji": "271D",
+  "word": "xaç"
+ },
+ "crutch.n.01": {
+  "annotation": "crutch",
+  "author": "Niklas Kuntz",
+  "openmoji": "1FA7C",
+  "word": "kruk"
+ },
+ "cry.v.02": {
+  "annotation": "crying face",
+  "author": "Mariella Steeb",
+  "openmoji": "1F622",
+  "word": "ağlamaq"
+ },
+ "cucumber.n.01": {
+  "annotation": "cucumber",
+  "author": "Liz Bravo",
+  "openmoji": "1F952",
+  "word": "xiyar"
+ },
+ "cup.n.01": {
+  "annotation": "hot beverage",
+  "author": "Alexander Müller",
+  "openmoji": "2615",
+  "word": "fincan"
+ },
+ "cyclist.n.01": {
+  "annotation": "person biking",
+  "author": "Johanna Wellnitz",
+  "openmoji": "1F6B4",
+  "word": "velosipedçi"
+ },
+ "dance.v.01": {
+  "annotation": "woman dancing",
+  "author": "Johanna Wellnitz",
+  "openmoji": "1F483",
+  "word": "rəqs etmək"
+ },
+ "deer.n.01": {
+  "annotation": "deer",
+  "author": "Sofie Ascherl",
+  "openmoji": "1F98C",
+  "word": "maral"
+ },
+ "desert.n.01": {
+  "annotation": "desert",
+  "author": "Martin Wehl",
+  "openmoji": "1F3DC",
+  "word": "səhra"
+ },
+ "detective.n.01": {
+  "annotation": "detective",
+  "author": "Lisa Thiel",
+  "openmoji": "1F575",
+  "word": "xəfiyyəçi"
+ },
+ "dinosaur.n.01": {
+  "annotation": "sauropod",
+  "author": "Selina Bauder",
+  "openmoji": "1F995",
+  "word": "dinozavr"
+ },
+ "diskette.n.01": {
+  "annotation": "floppy disk",
+  "author": "Jonas Roßner",
+  "openmoji": "1F4BE",
+  "word": "disket"
+ },
+ "doctor.n.01": {
+  "annotation": "health worker",
+  "author": "Benedikt Groß",
+  "openmoji": "1F9D1-200D-2695-FE0F",
+  "word": "həkim"
+ },
+ "dog.n.01": {
+  "annotation": "dog",
+  "author": "Sofie Ascherl",
+  "openmoji": "1F415",
+  "word": "it"
+ },
+ "doll.n.01": {
+  "annotation": "nesting dolls",
+  "author": "Liz Bravo",
+  "openmoji": "1FA86",
+  "word": "gəlincik"
+ },
+ "dolphinfish.n.02": {
+  "annotation": "dolphin",
+  "author": "Kris Kowal",
+  "openmoji": "1F42C",
+  "word": "delfin"
+ },
+ "domestic_ass.n.01": {
+  "annotation": "donkey",
+  "author": "Charlotte Beha",
+  "openmoji": "1FACF",
+  "word": "eşşək"
+ },
+ "doorway.n.01": {
+  "annotation": "door",
+  "author": "Lisa Schulz",
+  "openmoji": "1F6AA",
+  "word": "qapı"
+ },
+ "dragon.n.01": {
+  "annotation": "dragon",
+  "author": "Selina Bauder",
+  "openmoji": "1F409",
+  "word": "əjdaha"
+ },
+ "dress.n.01": {
+  "annotation": "dress",
+  "author": "Jonas Roßner",
+  "openmoji": "1F457",
+  "word": "don"
+ },
+ "drink.n.01": {
+  "annotation": "cup with straw",
+  "author": "Laura Humpfer",
+  "openmoji": "1F964",
+  "word": "içki"
+ },
+ "drone.n.01": {
+  "annotation": "drone",
+  "author": "Kai Magnus Müller",
+  "openmoji": "E1D2",
+  "word": "dron"
+ },
+ "drum.n.01": {
+  "annotation": "drum",
+  "author": "Sina Schulz",
+  "openmoji": "1F941",
+  "word": "təbil"
+ },
+ "duck.n.01": {
+  "annotation": "duck",
+  "author": "Selina Bauder",
+  "openmoji": "1F986",
+  "word": "ördək"
+ },
+ "eagle.n.01": {
+  "annotation": "eagle",
+  "author": "Selina Bauder",
+  "openmoji": "1F985",
+  "word": "qartal"
+ },
+ "ear.n.01": {
+  "annotation": "ear",
+  "author": "Julian Grüneberg",
+  "openmoji": "1F442",
+  "word": "qulaq"
+ },
+ "earphone.n.01": {
+  "annotation": "headphone",
+  "author": "Sina Schulz",
+  "openmoji": "1F3A7",
+  "word": "qulaqlıq"
+ },
+ "earthworm.n.01": {
+  "annotation": "worm",
+  "author": "Liz Bravo",
+  "openmoji": "1FAB1",
+  "word": "soxulcan"
+ },
+ "eat.v.01": {
+  "annotation": "fork and knife",
+  "author": "Jonas Roßner",
+  "openmoji": "1F374",
+  "word": "yemək"
+ },
+ "egg.n.01": {
+  "annotation": "egg",
+  "author": "Niklas Kuntz",
+  "openmoji": "1F95A",
+  "word": "yumurta"
+ },
+ "eggplant.n.01": {
+  "annotation": "eggplant",
+  "author": "Marius Schnabel",
+  "openmoji": "1F346",
+  "word": "badımcan"
+ },
+ "elephant.n.01": {
+  "annotation": "elephant",
+  "author": "Sofie Ascherl",
+  "openmoji": "1F418",
+  "word": "fil"
+ },
+ "embrace.v.02": {
+  "annotation": "people hugging",
+  "author": "Kai Wanschura",
+  "openmoji": "1FAC2",
+  "word": "qucaqlamaq"
+ },
+ "engineer.n.01": {
+  "annotation": "technologist",
+  "author": "Benedikt Groß",
+  "openmoji": "1F9D1-200D-1F4BB",
+  "word": "mühəndis"
+ },
+ "envelope.n.01": {
+  "annotation": "envelope",
+  "author": "Marius Schnabel",
+  "openmoji": "2709",
+  "word": "zərf"
+ },
+ "exit.v.01": {
+  "annotation": "exit",
+  "author": "Baris Camli",
+  "openmoji": "E10D",
+  "word": "çıxmaq"
+ },
+ "eye.n.01": {
+  "annotation": "eye",
+  "author": "Julian Grüneberg",
+  "openmoji": "1F441",
+  "word": "göz"
+ },
+ "face.n.01": {
+  "annotation": "neutral face",
+  "author": "Mariella Steeb",
+  "openmoji": "1F610",
+  "word": "sifət"
+ },
+ "facsimile.n.02": {
+  "annotation": "fax machine",
+  "author": "Martin Wehl",
+  "openmoji": "1F4E0",
+  "word": "faks"
+ },
+ "factory.n.01": {
+  "annotation": "factory",
+  "author": "Martin Wehl",
+  "openmoji": "1F3ED",
+  "word": "zavod"
+ },
+ "fairy.n.01": {
+  "annotation": "fairy",
+  "author": "Nadine Bartel",
+  "openmoji": "1F9DA",
+  "word": "pəri"
+ },
+ "fan.n.01": {
+  "annotation": "folding hand fan",
+  "author": "Anna Schneider",
+  "openmoji": "1FAAD",
+  "word": "yelpik"
+ },
+ "farmer.n.01": {
+  "annotation": "farmer",
+  "author": "Benedikt Groß",
+  "openmoji": "1F9D1-200D-1F33E",
+  "word": "fermer"
+ },
+ "feather.n.01": {
+  "annotation": "feather",
+  "author": "Liz Bravo",
+  "openmoji": "1FAB6",
+  "word": "lələk"
+ },
+ "ferry.n.01": {
+  "annotation": "ferry",
+  "author": "Lois Proksch",
+  "openmoji": "26F4",
+  "word": "bərə"
+ },
+ "file.n.03": {
+  "annotation": "file folder",
+  "author": "Sina Schulz",
+  "openmoji": "1F4C1",
+  "word": "fayl"
+ },
+ "film.n.03": {
+  "annotation": "film frames",
+  "author": "Sina Schulz",
+  "openmoji": "1F39E",
+  "word": "film"
+ },
+ "finger.n.01": {
+  "annotation": "index pointing up",
+  "author": "Julian Grüneberg",
+  "openmoji": "261D",
+  "word": "barmaq"
+ },
+ "fire.n.01": {
+  "annotation": "fire",
+  "author": "Guemil Project",
+  "openmoji": "1F525",
+  "word": "atəş"
+ },
+ "fire_extinguisher.n.01": {
+  "annotation": "fire extinguisher",
+  "author": "Tonia Reinhardt",
+  "openmoji": "1F9EF",
+  "word": "odsöndürən"
+ },
+ "firecracker.n.01": {
+  "annotation": "firecracker",
+  "author": "Jonas Dunkel",
+  "openmoji": "1F9E8",
+  "word": "taraqqa"
+ },
+ "fireman.n.04": {
+  "annotation": "firefighter",
+  "author": "Benedikt Groß",
+  "openmoji": "1F9D1-200D-1F692",
+  "word": "yanğınsöndürən"
+ },
+ "fish.n.01": {
+  "annotation": "fish",
+  "author": "Selina Bauder",
+  "openmoji": "1F41F",
+  "word": "balıq"
+ },
+ "fishing_rod.n.01": {
+  "annotation": "fishing pole",
+  "author": "Vanessa Boutzikoudi",
+  "openmoji": "1F3A3",
+  "word": "qarmaq"
+ },
+ "fist.n.01": {
+  "annotation": "raised fist",
+  "author": "Julian Grüneberg",
+  "openmoji": "270A",
+  "word": "yumruq"
+ },
+ "flamingo.n.01": {
+  "annotation": "flamingo",
+  "author": "Mariella Steeb",
+  "openmoji": "1F9A9",
+  "word": "qızılqaz"
+ },
+ "flatbread.n.01": {
+  "annotation": "flatbread",
+  "author": "Liz Bravo",
+  "openmoji": "1FAD3",
+  "word": "fətir"
+ },
+ "flood.n.01": {
+  "annotation": "flood",
+  "author": "Guemil Project",
+  "openmoji": "E09F",
+  "word": "sel"
+ },
+ "flower.n.01": {
+  "annotation": "blossom",
+  "author": "Hilda Kalyoncu",
+  "openmoji": "1F33C",
+  "word": "çiçək"
+ },
+ "flute.n.01": {
+  "annotation": "flute",
+  "author": "Christian Engler",
+  "openmoji": "1FA88",
+  "word": "fleyta"
+ },
+ "fly.n.01": {
+  "annotation": "fly",
+  "author": "Liz Bravo",
+  "openmoji": "1FAB0",
+  "word": "milçək"
+ },
+ "fog.n.01": {
+  "annotation": "fog",
+  "author": "Nelly Nieter",
+  "openmoji": "1F32B",
+  "word": "duman"
+ },
+ "foot.n.01": {
+  "annotation": "foot",
+  "author": "Daniel Utz",
+  "openmoji": "1F9B6",
+  "word": "ayaq"
+ },
+ "fountain.n.01": {
+  "annotation": "fountain",
+  "author": "Louisa Mantsch",
+  "openmoji": "26F2",
+  "word": "fontan"
+ },
+ "fox.n.01": {
+  "annotation": "fox",
+  "author": "Sofie Ascherl",
+  "openmoji": "1F98A",
+  "word": "tülkü"
+ },
+ "frog.n.01": {
+  "annotation": "frog",
+  "author": "Selina Bauder",
+  "openmoji": "1F438",
+  "word": "qurbağa"
+ },
+ "fuel.n.01": {
+  "annotation": "fuel pump",
+  "author": "Ronja Bäurlen",
+  "openmoji": "26FD",
+  "word": "yanacaq"
+ },
+ "garden.n.01": {
+  "annotation": "house with garden",
+  "author": "Martin Wehl",
+  "openmoji": "1F3E1",
+  "word": "bağ"
+ },
+ "garlic.n.01": {
+  "annotation": "garlic",
+  "author": "Yasmin Abdullahi",
+  "openmoji": "1F9C4",
+  "word": "sarımsaq"
+ },
+ "gear.n.01": {
+  "annotation": "gear",
+  "author": "Hilda Kalyoncu",
+  "openmoji": "2699",
+  "word": "çarxdiş"
+ },
+ "giant.n.04": {
+  "annotation": "whale",
+  "author": "Kris Kowal",
+  "openmoji": "1F40B",
+  "word": "balina"
+ },
+ "giant_panda.n.01": {
+  "annotation": "panda",
+  "author": "Sofie Ascherl",
+  "openmoji": "1F43C",
+  "word": "panda"
+ },
+ "giraffe.n.01": {
+  "annotation": "giraffe",
+  "author": "Sofie Ascherl",
+  "openmoji": "1F992",
+  "word": "zürafə"
+ },
+ "girl.n.01": {
+  "annotation": "girl",
+  "author": "Johanna Wellnitz",
+  "openmoji": "1F467",
+  "word": "qız"
+ },
+ "goat.n.01": {
+  "annotation": "goat",
+  "author": "Sofie Ascherl",
+  "openmoji": "1F410",
+  "word": "keçi"
+ },
+ "golf.n.01": {
+  "annotation": "person golfing",
+  "author": "Johanna Wellnitz",
+  "openmoji": "1F3CC",
+  "word": "qolf"
+ },
+ "goose.n.01": {
+  "annotation": "goose",
+  "author": "Paul Gabriel",
+  "openmoji": "1FABF",
+  "word": "qaz"
+ },
+ "gorilla.n.01": {
+  "annotation": "gorilla",
+  "author": "Sofie Ascherl",
+  "openmoji": "1F98D",
+  "word": "qorilla"
+ },
+ "grain.n.01": {
+  "annotation": "sheaf of rice",
+  "author": "Hend Hourani",
+  "openmoji": "1F33E",
+  "word": "dən"
+ },
+ "grandfather.n.01": {
+  "annotation": "old man",
+  "author": "Liz Bravo",
+  "openmoji": "1F474",
+  "word": "baba"
+ },
+ "grandma.n.01": {
+  "annotation": "old woman",
+  "author": "Johanna Wellnitz",
+  "openmoji": "1F475",
+  "word": "nənə"
+ },
+ "grape.n.01": {
+  "annotation": "grapes",
+  "author": "Hend Hourani",
+  "openmoji": "1F347",
+  "word": "üzüm"
+ },
+ "grasshopper.n.01": {
+  "annotation": "cricket",
+  "author": "Selina Bauder",
+  "openmoji": "1F997",
+  "word": "çəyirtkə"
+ },
+ "grave.n.02": {
+  "annotation": "headstone",
+  "author": "Liz Bravo",
+  "openmoji": "1FAA6",
+  "word": "qəbir"
+ },
+ "guitar.n.01": {
+  "annotation": "guitar",
+  "author": "Sina Schulz",
+  "openmoji": "1F3B8",
+  "word": "gitara"
+ },
+ "hamburger.n.01": {
+  "annotation": "hamburger",
+  "author": "Miriam Vollmeier",
+  "openmoji": "1F354",
+  "word": "hamburqer"
+ },
+ "hammer.n.01": {
+  "annotation": "hammer",
+  "author": "Hilda Kalyoncu",
+  "openmoji": "1F528",
+  "word": "çəkic"
+ },
+ "hamster.n.01": {
+  "annotation": "hamster",
+  "author": "Sofie Ascherl",
+  "openmoji": "1F439",
+  "word": "dağsiçanı"
+ },
+ "hand.n.01": {
+  "annotation": "raised hand",
+  "author": "Julian Grüneberg",
+  "openmoji": "270B",
+  "word": "əl"
+ },
+ "hand_glass.n.02": {
+  "annotation": "magnifying glass tilted left",
+  "author": "Sina Schulz",
+  "openmoji": "1F50D",
+  "word": "lupa"
+ },
+ "hat.n.01": {
+  "annotation": "top hat",
+  "author": "Jonas Roßner",
+  "openmoji": "1F3A9",
+  "word": "şlyapa"
+ },
+ "headscarf.n.01": {
+  "annotation": "woman with headscarf",
+  "author": "Lisa Thiel",
+  "openmoji": "1F9D5",
+  "word": "yaylıq"
+ },
+ "heart.n.02": {
+  "annotation": "anatomical heart",
+  "author": "Tonia Reinhardt",
+  "openmoji": "1FAC0",
+  "word": "ürək"
+ },
+ "helicopter.n.01": {
+  "annotation": "helicopter",
+  "author": "Ronja Bäurlen",
+  "openmoji": "1F681",
+  "word": "vertolyot"
+ },
+ "helmet.n.01": {
+  "annotation": "motorbike helmet",
+  "author": "Xavier Martinez",
+  "openmoji": "E14A",
+  "word": "dəbilqə"
+ },
+ "hippopotamus.n.01": {
+  "annotation": "hippopotamus",
+  "author": "Laura Schießer",
+  "openmoji": "1F99B",
+  "word": "begemot"
+ },
+ "hog.n.01": {
+  "annotation": "boar",
+  "author": "Sofie Ascherl",
+  "openmoji": "1F417",
+  "word": "qaban"
+ },
+ "hog.n.03": {
+  "annotation": "pig",
+  "author": "Sofie Ascherl",
+  "openmoji": "1F416",
+  "word": "donuz"
+ },
+ "hole.n.01": {
+  "annotation": "hole",
+  "author": "Laura Humpfer",
+  "openmoji": "1F573",
+  "word": "deşik"
+ },
+ "home_plate.n.01": {
+  "annotation": "fork and knife with plate",
+  "author": "Jonas Roßner",
+  "openmoji": "1F37D",
+  "word": "boşqab"
+ },
+ "honey.n.01": {
+  "annotation": "honey pot",
+  "author": "Miriam Vollmeier",
+  "openmoji": "1F36F",
+  "word": "bal"
+ },
+ "hoop.n.02": {
+  "annotation": "ring",
+  "author": "Jonas Roßner",
+  "openmoji": "1F48D",
+  "word": "üzük"
+ },
+ "horse.n.01": {
+  "annotation": "horse",
+  "author": "Sofie Ascherl",
+  "openmoji": "1F40E",
+  "word": "at"
+ },
+ "hospital.n.01": {
+  "annotation": "hospital",
+  "author": "Martin Wehl",
+  "openmoji": "1F3E5",
+  "word": "xəstəxana"
+ },
+ "hotel.n.01": {
+  "annotation": "hotel",
+  "author": "Martin Wehl",
+  "openmoji": "1F3E8",
+  "word": "mehmanxana"
+ },
+ "house.n.01": {
+  "annotation": "house",
+  "author": "Martin Wehl",
+  "openmoji": "1F3E0",
+  "word": "ev"
+ },
+ "hurricane.n.01": {
+  "annotation": "cyclone",
+  "author": "Vanessa Boutzikoudi",
+  "openmoji": "1F300",
+  "word": "qasırğa"
+ },
+ "hut.n.01": {
+  "annotation": "hut",
+  "author": "Liz Bravo",
+  "openmoji": "1F6D6",
+  "word": "koma"
+ },
+ "hyacinth.n.01": {
+  "annotation": "hyacinth",
+  "author": "Simon Rutsch",
+  "openmoji": "1FABB",
+  "word": "sümbül"
+ },
+ "ice.n.01": {
+  "annotation": "ice",
+  "author": "Evelyn Soos",
+  "openmoji": "1F9CA",
+  "word": "buz"
+ },
+ "ice_bear.n.01": {
+  "annotation": "polar bear",
+  "author": "Sina Grund",
+  "openmoji": "1F43B-200D-2744-FE0F",
+  "word": "ağ ayı"
+ },
+ "ice_cream.n.01": {
+  "annotation": "ice cream",
+  "author": "Miriam Vollmeier",
+  "openmoji": "1F368",
+  "word": "dondurma"
+ },
+ "ice_hockey.n.01": {
+  "annotation": "ice hockey",
+  "author": "Vanessa Boutzikoudi",
+  "openmoji": "1F3D2",
+  "word": "buzüstü xokkey"
+ },
+ "iceberg.n.01": {
+  "annotation": "iceberg",
+  "author": "Sina Grund",
+  "openmoji": "E2C0",
+  "word": "buzdağı"
+ },
+ "internet.n.01": {
+  "annotation": "goal net",
+  "author": "Nicole Kornhaas",
+  "openmoji": "1F945",
+  "word": "tor"
+ },
+ "intestine.n.01": {
+  "annotation": "intestine",
+  "author": "Fanny Jung",
+  "openmoji": "E315",
+  "word": "bağırsaq"
+ },
+ "island.n.01": {
+  "annotation": "desert island",
+  "author": "Martin Wehl",
+  "openmoji": "1F3DD",
+  "word": "ada"
+ },
+ "jar.n.01": {
+  "annotation": "jar",
+  "author": "Alexander Müller",
+  "openmoji": "1FAD9",
+  "word": "banka"
+ },
+ "jersey.n.03": {
+  "annotation": "t-shirt",
+  "author": "Jonas Roßner",
+  "openmoji": "1F455",
+  "word": "futbolka"
+ },
+ "judge.n.01": {
+  "annotation": "judge",
+  "author": "Benedikt Groß",
+  "openmoji": "1F9D1-200D-2696-FE0F",
+  "word": "hakim"
+ },
+ "jug.n.01": {
+  "annotation": "milk jug",
+  "author": "Alexander Müller",
+  "openmoji": "E153",
+  "word": "dolça"
+ },
+ "juice.n.01": {
+  "annotation": "beverage box",
+  "author": "Evelyn Soos",
+  "openmoji": "1F9C3",
+  "word": "şirə"
+ },
+ "kangaroo.n.01": {
+  "annotation": "kangaroo",
+  "author": "Laura Schießer",
+  "openmoji": "1F998",
+  "word": "kenquru"
+ },
+ "key.n.01": {
+  "annotation": "key",
+  "author": "Lisa Schulz",
+  "openmoji": "1F511",
+  "word": "açar"
+ },
+ "keyboard.n.01": {
+  "annotation": "keyboard",
+  "author": "Carlin MacKenzie",
+  "openmoji": "2328",
+  "word": "klaviatura"
+ },
+ "kidney.n.01": {
+  "annotation": "kidney",
+  "author": "Tonia Reinhardt",
+  "openmoji": "E316",
+  "word": "böyrək"
+ },
+ "kimono.n.01": {
+  "annotation": "kimono",
+  "author": "Liz Bravo",
+  "openmoji": "1F458",
+  "word": "kimono"
+ },
+ "king.n.01": {
+  "annotation": "crown",
+  "author": "Jonas Roßner",
+  "openmoji": "1F451",
+  "word": "kral"
+ },
+ "kiss.n.02": {
+  "annotation": "kiss mark",
+  "author": "Laura Humpfer",
+  "openmoji": "1F48B",
+  "word": "öpüş"
+ },
+ "kite.n.03": {
+  "annotation": "kite",
+  "author": "Evelyn Soos",
+  "openmoji": "1FA81",
+  "word": "çərpələng"
+ },
+ "knife.n.01": {
+  "annotation": "kitchen knife",
+  "author": "Jonas Roßner",
+  "openmoji": "1F52A",
+  "word": "bıçaq"
+ },
+ "knot.n.02": {
+  "annotation": "knot",
+  "author": "Liz Bravo",
+  "openmoji": "1FAA2",
+  "word": "düyün"
+ },
+ "koala.n.01": {
+  "annotation": "koala",
+  "author": "Sofie Ascherl",
+  "openmoji": "1F428",
+  "word": "koala"
+ },
+ "ladder.n.01": {
+  "annotation": "ladder",
+  "author": "Liz Bravo",
+  "openmoji": "1FA9C",
+  "word": "nərdivan"
+ },
+ "ladybug.n.01": {
+  "annotation": "lady beetle",
+  "author": "Liz Bravo",
+  "openmoji": "1F41E",
+  "word": "xallı böcək"
+ },
+ "lamp.n.01": {
+  "annotation": "diya lamp",
+  "author": "Sam Eckert",
+  "openmoji": "1FA94",
+  "word": "çıraq"
+ },
+ "lantern.n.01": {
+  "annotation": "red paper lantern",
+  "author": "Abby Esquivel",
+  "openmoji": "1F3EE",
+  "word": "fanus"
+ },
+ "laptop.n.01": {
+  "annotation": "laptop",
+  "author": "Jonas Roßner",
+  "openmoji": "1F4BB",
+  "word": "noutbuk"
+ },
+ "laugh.v.01": {
+  "annotation": "face with tears of joy",
+  "author": "Emily Jäger",
+  "openmoji": "1F602",
+  "word": "gülmək"
+ },
+ "leaf.n.01": {
+  "annotation": "maple leaf",
+  "author": "Hilda Kalyoncu",
+  "openmoji": "1F341",
+  "word": "yarpaq"
+ },
+ "leg.n.01": {
+  "annotation": "leg",
+  "author": "Laura Schießer",
+  "openmoji": "1F9B5",
+  "word": "bacaq"
+ },
+ "lemon.n.01": {
+  "annotation": "lemon",
+  "author": "Marius Schnabel",
+  "openmoji": "1F34B",
+  "word": "limon"
+ },
+ "leopard.n.01": {
+  "annotation": "leopard",
+  "author": "Sofie Ascherl",
+  "openmoji": "1F406",
+  "word": "bəbir"
+ },
+ "light_bulb.n.01": {
+  "annotation": "light bulb",
+  "author": "Sina Schulz",
+  "openmoji": "1F4A1",
+  "word": "lampoçka"
+ },
+ "lightning.n.01": {
+  "annotation": "high voltage",
+  "author": "Vanessa Boutzikoudi",
+  "openmoji": "26A1",
+  "word": "şimşək"
+ },
+ "lion.n.01": {
+  "annotation": "lion",
+  "author": "Sofie Ascherl",
+  "openmoji": "1F981",
+  "word": "şir"
+ },
+ "lip.n.01": {
+  "annotation": "biting lip",
+  "author": "Alexander Müller",
+  "openmoji": "1FAE6",
+  "word": "dodaq"
+ },
+ "lipstick.n.01": {
+  "annotation": "lipstick",
+  "author": "Anne Frauendorf",
+  "openmoji": "1F484",
+  "word": "pomada"
+ },
+ "liver.n.01": {
+  "annotation": "liver",
+  "author": "Tonia Reinhardt",
+  "openmoji": "E312",
+  "word": "qaraciyər"
+ },
+ "lizard.n.01": {
+  "annotation": "lizard",
+  "author": "Selina Bauder",
+  "openmoji": "1F98E",
+  "word": "kərtənkələ"
+ },
+ "llama.n.01": {
+  "annotation": "llama",
+  "author": "Carlin MacKenzie",
+  "openmoji": "1F999",
+  "word": "lama"
+ },
+ "lobster.n.01": {
+  "annotation": "lobster",
+  "author": "Ricarda Krejci",
+  "openmoji": "1F99E",
+  "word": "omar"
+ },
+ "lock.n.01": {
+  "annotation": "unlocked",
+  "author": "Lisa Schulz",
+  "openmoji": "1F513",
+  "word": "kilid"
+ },
+ "lotus.n.01": {
+  "annotation": "lotus",
+  "author": "Max Isele",
+  "openmoji": "1FAB7",
+  "word": "lotos"
+ },
+ "loudspeaker.n.01": {
+  "annotation": "loudspeaker",
+  "author": "Rana Cakir",
+  "openmoji": "1F4E2",
+  "word": "səsucaldan"
+ },
+ "lung.n.01": {
+  "annotation": "lungs",
+  "author": "Fanny Jung",
+  "openmoji": "1FAC1",
+  "word": "ağciyər"
+ },
+ "machinist.n.01": {
+  "annotation": "mechanic",
+  "author": "Benedikt Groß",
+  "openmoji": "1F9D1-200D-1F527",
+  "word": "mexanik"
+ },
+ "magnet.n.01": {
+  "annotation": "magnet",
+  "author": "Tonia Reinhardt",
+  "openmoji": "1F9F2",
+  "word": "maqnit"
+ },
+ "male_child.n.01": {
+  "annotation": "boy",
+  "author": "Johanna Wellnitz",
+  "openmoji": "1F466",
+  "word": "oğlan"
+ },
+ "mammoth.n.01": {
+  "annotation": "mammoth",
+  "author": "Liz Bravo",
+  "openmoji": "1F9A3",
+  "word": "mamont"
+ },
+ "man.n.01": {
+  "annotation": "man",
+  "author": "Johanna Wellnitz",
+  "openmoji": "1F468",
+  "word": "kişi"
+ },
+ "map.n.01": {
+  "annotation": "world map",
+  "author": "Martin Wehl",
+  "openmoji": "1F5FA",
+  "word": "xəritə"
+ },
+ "meat.n.01": {
+  "annotation": "cut of meat",
+  "author": "Miriam Vollmeier",
+  "openmoji": "1F969",
+  "word": "ət"
+ },
+ "medicine.n.02": {
+  "annotation": "medication",
+  "author": "Fanny Jung",
+  "openmoji": "E307",
+  "word": "dərman"
+ },
+ "mermaid.n.01": {
+  "annotation": "mermaid",
+  "author": "Sina Chlod",
+  "openmoji": "1F9DC-200D-2640-FE0F",
+  "word": "su pərisi"
+ },
+ "microbe.n.01": {
+  "annotation": "microbe",
+  "author": "Benedikt Groß",
+  "openmoji": "1F9A0",
+  "word": "mikrob"
+ },
+ "microscope.n.01": {
+  "annotation": "microscope",
+  "author": "Marleen Heine",
+  "openmoji": "1F52C",
+  "word": "mikroskop"
+ },
+ "milk.n.01": {
+  "annotation": "glass of milk",
+  "author": "Laura Humpfer",
+  "openmoji": "1F95B",
+  "word": "süd"
+ },
+ "milky_way.n.01": {
+  "annotation": "milky way",
+  "author": "Jonas Dunkel",
+  "openmoji": "1F30C",
+  "word": "kəhkəşan"
+ },
+ "minibus.n.01": {
+  "annotation": "minibus",
+  "author": "Ronja Bäurlen",
+  "openmoji": "1F690",
+  "word": "mikroavtobus"
+ },
+ "mirror.n.01": {
+  "annotation": "mirror",
+  "author": "Liz Bravo",
+  "openmoji": "1FA9E",
+  "word": "güzgü"
+ },
+ "monkey.n.01": {
+  "annotation": "monkey",
+  "author": "Sofie Ascherl",
+  "openmoji": "1F412",
+  "word": "meymun"
+ },
+ "moon.n.02": {
+  "annotation": "crescent moon",
+  "author": "Vanessa Boutzikoudi",
+  "openmoji": "1F319",
+  "word": "ay"
+ },
+ "mosque.n.01": {
+  "annotation": "mosque",
+  "author": "Liz Bravo",
+  "openmoji": "1F54C",
+  "word": "məscid"
+ },
+ "mosquito.n.01": {
+  "annotation": "mosquito",
+  "author": "Liz Bravo",
+  "openmoji": "1F99F",
+  "word": "ağcaqanad"
+ },
+ "mother.n.01": {
+  "annotation": "woman feeding baby",
+  "author": "Liz Bravo",
+  "openmoji": "1F469-200D-1F37C",
+  "word": "ana"
+ },
+ "motorboat.n.01": {
+  "annotation": "motor boat",
+  "author": "Ronja Bäurlen",
+  "openmoji": "1F6E5",
+  "word": "kater"
+ },
+ "motorcycle.n.01": {
+  "annotation": "motorcycle",
+  "author": "Johanna Wellnitz",
+  "openmoji": "1F3CD",
+  "word": "motosiklet"
+ },
+ "mountain.n.01": {
+  "annotation": "mountain",
+  "author": "Martin Wehl",
+  "openmoji": "26F0",
+  "word": "dağ"
+ },
+ "mouse.n.01": {
+  "annotation": "mouse",
+  "author": "Sofie Ascherl",
+  "openmoji": "1F401",
+  "word": "siçan"
+ },
+ "mouth.n.01": {
+  "annotation": "mouth",
+  "author": "Julian Grüneberg",
+  "openmoji": "1F444",
+  "word": "ağız"
+ },
+ "muscle.n.01": {
+  "annotation": "flexed biceps",
+  "author": "Julian Grüneberg",
+  "openmoji": "1F4AA",
+  "word": "əzələ"
+ },
+ "mushroom.n.01": {
+  "annotation": "mushroom",
+  "author": "Marius Schnabel",
+  "openmoji": "1F344",
+  "word": "göbələk"
+ },
+ "necktie.n.01": {
+  "annotation": "necktie",
+  "author": "Jonas Roßner",
+  "openmoji": "1F454",
+  "word": "qalstuk"
+ },
+ "nest.n.01": {
+  "annotation": "empty nest",
+  "author": "Alena Peichl",
+  "openmoji": "1FAB9",
+  "word": "yuva"
+ },
+ "newspaper.n.03": {
+  "annotation": "newspaper",
+  "author": "Jonas Roßner",
+  "openmoji": "1F4F0",
+  "word": "qəzet"
+ },
+ "nose.n.01": {
+  "annotation": "nose",
+  "author": "Julian Grüneberg",
+  "openmoji": "1F443",
+  "word": "burun"
+ },
+ "notebook.n.02": {
+  "annotation": "ledger",
+  "author": "Jonas Roßner",
+  "openmoji": "1F4D2",
+  "word": "dəftər"
+ },
+ "notepad.n.01": {
+  "annotation": "spiral notepad",
+  "author": "Sina Schulz",
+  "openmoji": "1F5D2",
+  "word": "bloknot"
+ },
+ "nurse.n.01": {
+  "annotation": "female nurse",
+  "author": "Tonia Reinhardt",
+  "openmoji": "E302",
+  "word": "tibb bacısı"
+ },
+ "nut.n.01": {
+  "annotation": "nut and bolt",
+  "author": "Marleen Heine",
+  "openmoji": "1F529",
+  "word": "qayka"
+ },
+ "octopus.n.01": {
+  "annotation": "octopus",
+  "author": "Selina Bauder",
+  "openmoji": "1F419",
+  "word": "səkkizayaq"
+ },
+ "onion.n.01": {
+  "annotation": "onion",
+  "author": "Yasmin Abdullahi",
+  "openmoji": "1F9C5",
+  "word": "soğan"
+ },
+ "orange.n.01": {
+  "annotation": "tangerine",
+  "author": "Liz Bravo",
+  "openmoji": "1F34A",
+  "word": "portağal"
+ },
+ "otter.n.01": {
+  "annotation": "otter",
+  "author": "Yasmin Abdullahi",
+  "openmoji": "1F9A6",
+  "word": "çay samuru"
+ },
+ "owl.n.01": {
+  "annotation": "owl",
+  "author": "Selina Bauder",
+  "openmoji": "1F989",
+  "word": "bayquş"
+ },
+ "oyster.n.01": {
+  "annotation": "oyster",
+  "author": "Liz Bravo",
+  "openmoji": "1F9AA",
+  "word": "istiridyə"
+ },
+ "paintbrush.n.01": {
+  "annotation": "paintbrush",
+  "author": "Rana Cakir",
+  "openmoji": "1F58C",
+  "word": "fırça"
+ },
+ "palace.n.01": {
+  "annotation": "castle",
+  "author": "Martin Wehl",
+  "openmoji": "1F3F0",
+  "word": "qala"
+ },
+ "palm.n.03": {
+  "annotation": "palm tree",
+  "author": "Hilda Kalyoncu",
+  "openmoji": "1F334",
+  "word": "palma"
+ },
+ "pancake.n.01": {
+  "annotation": "pancakes",
+  "author": "Ricarda Krejci",
+  "openmoji": "1F95E",
+  "word": "pankek"
+ },
+ "paper_clip.n.01": {
+  "annotation": "paperclip",
+  "author": "Sina Schulz",
+  "openmoji": "1F4CE",
+  "word": "kağız qısqacı"
+ },
+ "parachute.n.01": {
+  "annotation": "parachute",
+  "author": "Evelyn Soos",
+  "openmoji": "1FA82",
+  "word": "paraşüt"
+ },
+ "parrot.n.01": {
+  "annotation": "parrot",
+  "author": "Ricarda Krejci",
+  "openmoji": "1F99C",
+  "word": "tutuquşu"
+ },
+ "pastry.n.01": {
+  "annotation": "pie",
+  "author": "Miriam Vollmeier",
+  "openmoji": "1F967",
+  "word": "piroq"
+ },
+ "paw.n.01": {
+  "annotation": "paw prints",
+  "author": "Sofie Ascherl",
+  "openmoji": "1F43E",
+  "word": "pəncə"
+ },
+ "peach.n.01": {
+  "annotation": "peach",
+  "author": "Marius Schnabel",
+  "openmoji": "1F351",
+  "word": "şaftalı"
+ },
+ "peacock.n.01": {
+  "annotation": "peacock",
+  "author": "Laura Schießer",
+  "openmoji": "1F99A",
+  "word": "tovuz"
+ },
+ "pear.n.01": {
+  "annotation": "pear",
+  "author": "Marius Schnabel",
+  "openmoji": "1F350",
+  "word": "armud"
+ },
+ "pen.n.01": {
+  "annotation": "pen",
+  "author": "Rana Cakir",
+  "openmoji": "1F58A",
+  "word": "qələm"
+ },
+ "pencil.n.01": {
+  "annotation": "pencil",
+  "author": "Rana Cakir",
+  "openmoji": "270F",
+  "word": "karandaş"
+ },
+ "penguin.n.01": {
+  "annotation": "penguin",
+  "author": "Selina Bauder",
+  "openmoji": "1F427",
+  "word": "pinqvin"
+ },
+ "pepper.n.01": {
+  "annotation": "hot pepper",
+  "author": "Marius Schnabel",
+  "openmoji": "1F336",
+  "word": "istiot"
+ },
+ "perspiration.n.01": {
+  "annotation": "sweat droplets",
+  "author": "Laura Humpfer",
+  "openmoji": "1F4A6",
+  "word": "tər"
+ },
+ "piano.n.01": {
+  "annotation": "musical keyboard",
+  "author": "Sina Schulz",
+  "openmoji": "1F3B9",
+  "word": "fortepiano"
+ },
+ "pick.n.07": {
+  "annotation": "pick",
+  "author": "Hilda Kalyoncu",
+  "openmoji": "26CF",
+  "word": "külüng"
+ },
+ "picture.n.01": {
+  "annotation": "picture",
+  "author": "Kai Magnus Müller",
+  "openmoji": "E142",
+  "word": "şəkil"
+ },
+ "pigeon.n.01": {
+  "annotation": "pigeon",
+  "author": "Carlin MacKenzie",
+  "openmoji": "E009",
+  "word": "göyərçin"
+ },
+ "pill.n.01": {
+  "annotation": "pill",
+  "author": "Marius Schnabel",
+  "openmoji": "1F48A",
+  "word": "həb"
+ },
+ "pilot.n.01": {
+  "annotation": "pilot",
+  "author": "Benedikt Groß",
+  "openmoji": "1F9D1-200D-2708-FE0F",
+  "word": "təyyarəçi"
+ },
+ "pin.n.01": {
+  "annotation": "safety pin",
+  "author": "Tonia Reinhardt",
+  "openmoji": "1F9F7",
+  "word": "sancaq"
+ },
+ "pineapple.n.01": {
+  "annotation": "pineapple",
+  "author": "Marius Schnabel",
+  "openmoji": "1F34D",
+  "word": "ananas"
+ },
+ "pizza.n.01": {
+  "annotation": "pizza",
+  "author": "Miriam Vollmeier",
+  "openmoji": "1F355",
+  "word": "pizza"
+ },
+ "planet.n.01": {
+  "annotation": "ringed planet",
+  "author": "Liz Bravo",
+  "openmoji": "1FA90",
+  "word": "planet"
+ },
+ "plant.n.01": {
+  "annotation": "potted plant",
+  "author": "Liz Bravo",
+  "openmoji": "1FAB4",
+  "word": "bitki"
+ },
+ "plaything.n.01": {
+  "annotation": "teddy bear",
+  "author": "Liz Bravo",
+  "openmoji": "1F9F8",
+  "word": "oyuncaq"
+ },
+ "plug.n.01": {
+  "annotation": "electric plug",
+  "author": "Jonas Roßner",
+  "openmoji": "1F50C",
+  "word": "taxıc"
+ },
+ "pomegranate.n.01": {
+  "annotation": "pomegranate",
+  "author": "Carlin MacKenzie",
+  "openmoji": "E0C4",
+  "word": "nar"
+ },
+ "popcorn.n.01": {
+  "annotation": "popcorn",
+  "author": "Miriam Vollmeier",
+  "openmoji": "1F37F",
+  "word": "popkorn"
+ },
+ "poppy.n.01": {
+  "annotation": "poppy",
+  "author": "Carlin MacKenzie",
+  "openmoji": "E002",
+  "word": "xaşxaş"
+ },
+ "porcupine.n.01": {
+  "annotation": "hedgehog",
+  "author": "Sofie Ascherl",
+  "openmoji": "1F994",
+  "word": "kirpi"
+ },
+ "portuguese_man-of-war.n.01": {
+  "annotation": "jellyfish",
+  "author": "Raluca Maniu",
+  "openmoji": "1FABC",
+  "word": "meduza"
+ },
+ "potato.n.01": {
+  "annotation": "potato",
+  "author": "Marius Schnabel",
+  "openmoji": "1F954",
+  "word": "kartof"
+ },
+ "pray.v.01": {
+  "annotation": "folded hands",
+  "author": "Julian Grüneberg",
+  "openmoji": "1F64F",
+  "word": "dua etmək"
+ },
+ "prince.n.01": {
+  "annotation": "prince",
+  "author": "Lisa Thiel",
+  "openmoji": "1F934",
+  "word": "şahzadə"
+ },
+ "printer.n.01": {
+  "annotation": "printer",
+  "author": "Jonas Roßner",
+  "openmoji": "1F5A8",
+  "word": "printer"
+ },
+ "projector.n.01": {
+  "annotation": "film projector",
+  "author": "Sina Schulz",
+  "openmoji": "1F4FD",
+  "word": "proyektor"
+ },
+ "rabbit.n.01": {
+  "annotation": "rabbit",
+  "author": "Sofie Ascherl",
+  "openmoji": "1F407",
+  "word": "dovşan"
+ },
+ "raccoon.n.01": {
+  "annotation": "raccoon",
+  "author": "Laura Schießer",
+  "openmoji": "1F99D",
+  "word": "yenot"
+ },
+ "radio_receiver.n.01": {
+  "annotation": "radio",
+  "author": "Sina Schulz",
+  "openmoji": "1F4FB",
+  "word": "radio"
+ },
+ "rain.n.01": {
+  "annotation": "cloud with rain",
+  "author": "Vanessa Boutzikoudi",
+  "openmoji": "1F327",
+  "word": "yağış"
+ },
+ "rainbow.n.01": {
+  "annotation": "rainbow",
+  "author": "Vanessa Boutzikoudi",
+  "openmoji": "1F308",
+  "word": "göy qurşağı"
+ },
+ "random-access_memory.n.01": {
+  "annotation": "ram",
+  "author": "Sofie Ascherl",
+  "openmoji": "1F40F",
+  "word": "qoç"
+ },
+ "rat.n.01": {
+  "annotation": "rat",
+  "author": "Sofie Ascherl",
+  "openmoji": "1F400",
+  "word": "siçovul"
+ },
+ "razor.n.01": {
+  "annotation": "razor",
+  "author": "Sam Eckert",
+  "openmoji": "1FA92",
+  "word": "ülgüc"
+ },
+ "rhinoceros.n.01": {
+  "annotation": "rhinoceros",
+  "author": "Sofie Ascherl",
+  "openmoji": "1F98F",
+  "word": "kərgədan"
+ },
+ "ribbon.n.01": {
+  "annotation": "ribbon",
+  "author": "Laura Humpfer",
+  "openmoji": "1F380",
+  "word": "lent"
+ },
+ "rice.n.01": {
+  "annotation": "cooked rice",
+  "author": "Miriam Vollmeier",
+  "openmoji": "1F35A",
+  "word": "düyü"
+ },
+ "ring.n.02": {
+  "annotation": "doughnut",
+  "author": "Miriam Vollmeier",
+  "openmoji": "1F369",
+  "word": "ponçik"
+ },
+ "road.n.01": {
+  "annotation": "motorway",
+  "author": "Nadja Grün",
+  "openmoji": "1F6E3",
+  "word": "yol"
+ },
+ "rock.n.01": {
+  "annotation": "rock",
+  "author": "Liz Bravo",
+  "openmoji": "1FAA8",
+  "word": "daş"
+ },
+ "rocket.n.01": {
+  "annotation": "rocket",
+  "author": "Kris Kowal",
+  "openmoji": "1F680",
+  "word": "raket"
+ },
+ "roller_skate.n.01": {
+  "annotation": "roller skate",
+  "author": "Liz Bravo",
+  "openmoji": "1F6FC",
+  "word": "rolik"
+ },
+ "rosary.n.01": {
+  "annotation": "prayer beads",
+  "author": "Jonas Roßner",
+  "openmoji": "1F4FF",
+  "word": "təsbeh"
+ },
+ "rose.n.01": {
+  "annotation": "rose",
+  "author": "Hilda Kalyoncu",
+  "openmoji": "1F339",
+  "word": "gül"
+ },
+ "row.v.01": {
+  "annotation": "person rowing boat",
+  "author": "Johanna Wellnitz",
+  "openmoji": "1F6A3",
+  "word": "avarlamaq"
+ },
+ "ruler.n.01": {
+  "annotation": "straight ruler",
+  "author": "Sina Schulz",
+  "openmoji": "1F4CF",
+  "word": "xətkeş"
+ },
+ "run.v.01": {
+  "annotation": "person running",
+  "author": "Johanna Wellnitz",
+  "openmoji": "1F3C3",
+  "word": "qaçmaq"
+ },
+ "runt.n.01": {
+  "annotation": "shrimp",
+  "author": "Robert Winslow",
+  "openmoji": "1F990",
+  "word": "krevet"
+ },
+ "salad.n.01": {
+  "annotation": "green salad",
+  "author": "Ricarda Krejci",
+  "openmoji": "1F957",
+  "word": "salat"
+ },
+ "sandal.n.01": {
+  "annotation": "thong sandal",
+  "author": "Liz Bravo",
+  "openmoji": "1FA74",
+  "word": "sandal"
+ },
+ "sandwich.n.01": {
+  "annotation": "sandwich",
+  "author": "Miriam Vollmeier",
+  "openmoji": "1F96A",
+  "word": "sandviç"
+ },
+ "satellite.n.01": {
+  "annotation": "satellite",
+  "author": "Ronja Bäurlen",
+  "openmoji": "1F6F0",
+  "word": "peyk"
+ },
+ "saw.n.02": {
+  "annotation": "saw",
+  "author": "Tonia Reinhardt",
+  "openmoji": "E348",
+  "word": "mişar"
+ },
+ "sax.n.02": {
+  "annotation": "saxophone",
+  "author": "Sina Schulz",
+  "openmoji": "1F3B7",
+  "word": "saksofon"
+ },
+ "scarf.n.01": {
+  "annotation": "scarf",
+  "author": "Laura Schießer",
+  "openmoji": "1F9E3",
+  "word": "şərf"
+ },
+ "school.n.02": {
+  "annotation": "school",
+  "author": "Niklas Kuntz",
+  "openmoji": "1F3EB",
+  "word": "məktəb"
+ },
+ "scientist.n.01": {
+  "annotation": "scientist",
+  "author": "Benedikt Groß",
+  "openmoji": "1F9D1-200D-1F52C",
+  "word": "alim"
+ },
+ "scissors.n.01": {
+  "annotation": "scissors",
+  "author": "Sina Schulz",
+  "openmoji": "2702",
+  "word": "qayçı"
+ },
+ "scorpio.n.01": {
+  "annotation": "scorpion",
+  "author": "Selina Bauder",
+  "openmoji": "1F982",
+  "word": "əqrəb"
+ },
+ "scream.v.03": {
+  "annotation": "face screaming in fear",
+  "author": "Mariella Steeb",
+  "openmoji": "1F631",
+  "word": "çığırmaq"
+ },
+ "screwdriver.n.01": {
+  "annotation": "screwdriver",
+  "author": "Liz Bravo",
+  "openmoji": "1FA9B",
+  "word": "vintaçan"
+ },
+ "sealing_wax.n.01": {
+  "annotation": "seal",
+  "author": "Liz Bravo",
+  "openmoji": "1F9AD",
+  "word": "suiti"
+ },
+ "seedling.n.01": {
+  "annotation": "seedling",
+  "author": "Hilda Kalyoncu",
+  "openmoji": "1F331",
+  "word": "şitil"
+ },
+ "sewing_needle.n.01": {
+  "annotation": "sewing needle",
+  "author": "Liz Bravo",
+  "openmoji": "1FAA1",
+  "word": "iynə"
+ },
+ "shampoo.n.01": {
+  "annotation": "lotion bottle",
+  "author": "Tonia Reinhardt",
+  "openmoji": "1F9F4",
+  "word": "şampun"
+ },
+ "shark.n.01": {
+  "annotation": "shark",
+  "author": "Selina Bauder",
+  "openmoji": "1F988",
+  "word": "akula"
+ },
+ "sheep.n.01": {
+  "annotation": "ewe",
+  "author": "Sofie Ascherl",
+  "openmoji": "1F411",
+  "word": "qoyun"
+ },
+ "shield.n.01": {
+  "annotation": "shield",
+  "author": "Hilda Kalyoncu",
+  "openmoji": "1F6E1",
+  "word": "qalxan"
+ },
+ "ship.n.01": {
+  "annotation": "ship",
+  "author": "Ronja Bäurlen",
+  "openmoji": "1F6A2",
+  "word": "gəmi"
+ },
+ "shoe.n.01": {
+  "annotation": "man’s shoe",
+  "author": "Jonas Roßner",
+  "openmoji": "1F45E",
+  "word": "ayaqqabı"
+ },
+ "shop.n.01": {
+  "annotation": "convenience store",
+  "author": "Martin Wehl",
+  "openmoji": "1F3EA",
+  "word": "dükan"
+ },
+ "short_pants.n.01": {
+  "annotation": "shorts",
+  "author": "Sam Eckert",
+  "openmoji": "1FA73",
+  "word": "şort"
+ },
+ "shower.n.01": {
+  "annotation": "shower",
+  "author": "Lisa Schulz",
+  "openmoji": "1F6BF",
+  "word": "duş"
+ },
+ "singer.n.01": {
+  "annotation": "singer",
+  "author": "Benedikt Groß",
+  "openmoji": "1F9D1-200D-1F3A4",
+  "word": "müğənni"
+ },
+ "skeletal_system.n.01": {
+  "annotation": "x-ray",
+  "author": "Tim Loose",
+  "openmoji": "1FA7B",
+  "word": "skelet"
+ },
+ "skier.n.01": {
+  "annotation": "skier",
+  "author": "Johanna Wellnitz",
+  "openmoji": "26F7",
+  "word": "xizəkçi"
+ },
+ "skull.n.01": {
+  "annotation": "skull",
+  "author": "Mariella Steeb",
+  "openmoji": "1F480",
+  "word": "kəllə"
+ },
+ "skullcap.n.01": {
+  "annotation": "person with skullcap",
+  "author": "Anne Frauendorf",
+  "openmoji": "1F472",
+  "word": "araqçın"
+ },
+ "sled.n.01": {
+  "annotation": "sled",
+  "author": "Nicole Kornhaas",
+  "openmoji": "1F6F7",
+  "word": "xizək"
+ },
+ "sleep.v.01": {
+  "annotation": "sleeping face",
+  "author": "Emily Jäger",
+  "openmoji": "1F634",
+  "word": "yatmaq"
+ },
+ "slipper.n.01": {
+  "annotation": "flat shoe",
+  "author": "Laura Schießer",
+  "openmoji": "1F97F",
+  "word": "başmaq"
+ },
+ "smile.v.01": {
+  "annotation": "smiling face",
+  "author": "Emily Jäger",
+  "openmoji": "263A",
+  "word": "gülümsəmək"
+ },
+ "snail.n.01": {
+  "annotation": "snail",
+  "author": "Selina Bauder",
+  "openmoji": "1F40C",
+  "word": "ilbiz"
+ },
+ "snake.n.01": {
+  "annotation": "snake",
+  "author": "Selina Bauder",
+  "openmoji": "1F40D",
+  "word": "ilan"
+ },
+ "sneeze.v.01": {
+  "annotation": "sneezing face",
+  "author": "Emily Jäger",
+  "openmoji": "1F927",
+  "word": "asqırmaq"
+ },
+ "snog.v.01": {
+  "annotation": "kiss",
+  "author": "Lisa Schulz",
+  "openmoji": "1F48F",
+  "word": "öpmək"
+ },
+ "snow.n.01": {
+  "annotation": "cloud with snow",
+  "author": "Vanessa Boutzikoudi",
+  "openmoji": "1F328",
+  "word": "qar"
+ },
+ "snowboard.n.01": {
+  "annotation": "snowboarder",
+  "author": "Johanna Wellnitz",
+  "openmoji": "1F3C2",
+  "word": "snoubord"
+ },
+ "snowflake.n.01": {
+  "annotation": "snowflake",
+  "author": "Vanessa Boutzikoudi",
+  "openmoji": "2744",
+  "word": "qar dənəsi"
+ },
+ "snowman.n.01": {
+  "annotation": "snowman",
+  "author": "Lois Proksch",
+  "openmoji": "2603",
+  "word": "qar adam"
+ },
+ "soap.n.01": {
+  "annotation": "soap",
+  "author": "Tonia Reinhardt",
+  "openmoji": "1F9FC",
+  "word": "sabun"
+ },
+ "sock.n.01": {
+  "annotation": "socks",
+  "author": "Laura Schießer",
+  "openmoji": "1F9E6",
+  "word": "corab"
+ },
+ "soldier.n.01": {
+  "annotation": "guard",
+  "author": "Lisa Thiel",
+  "openmoji": "1F482",
+  "word": "əsgər"
+ },
+ "spaghetti.n.01": {
+  "annotation": "spaghetti",
+  "author": "Liz Bravo",
+  "openmoji": "1F35D",
+  "word": "spaqetti"
+ },
+ "spectacles.n.01": {
+  "annotation": "glasses",
+  "author": "Jonas Roßner",
+  "openmoji": "1F453",
+  "word": "eynək"
+ },
+ "spider.n.01": {
+  "annotation": "spider",
+  "author": "Selina Bauder",
+  "openmoji": "1F577",
+  "word": "hörümçək"
+ },
+ "sponge.n.01": {
+  "annotation": "sponge",
+  "author": "Tonia Reinhardt",
+  "openmoji": "1F9FD",
+  "word": "süngər"
+ },
+ "spoon.n.01": {
+  "annotation": "spoon",
+  "author": "Jonas Roßner",
+  "openmoji": "1F944",
+  "word": "qaşıq"
+ },
+ "square.n.01": {
+  "annotation": "red square",
+  "author": "Sam Eckert",
+  "openmoji": "1F7E5",
+  "word": "kvadrat"
+ },
+ "squid.n.01": {
+  "annotation": "squid",
+  "author": "Selina Bauder",
+  "openmoji": "1F991",
+  "word": "kalmar"
+ },
+ "squirrel.n.01": {
+  "annotation": "chipmunk",
+  "author": "Sofie Ascherl",
+  "openmoji": "1F43F",
+  "word": "sincab"
+ },
+ "stand.v.01": {
+  "annotation": "person standing",
+  "author": "Laura Dworatschek",
+  "openmoji": "1F9CD",
+  "word": "durmaq"
+ },
+ "star.n.01": {
+  "annotation": "star",
+  "author": "Vanessa Boutzikoudi",
+  "openmoji": "2B50",
+  "word": "ulduz"
+ },
+ "station.n.01": {
+  "annotation": "station",
+  "author": "Ronja Bäurlen",
+  "openmoji": "1F689",
+  "word": "vağzal"
+ },
+ "stick.n.03": {
+  "annotation": "joystick",
+  "author": "Lisa Schulz",
+  "openmoji": "1F579",
+  "word": "coystik"
+ },
+ "stomach.n.01": {
+  "annotation": "stomach",
+  "author": "Fanny Jung",
+  "openmoji": "E313",
+  "word": "mədə"
+ },
+ "storm.n.01": {
+  "annotation": "cloud with lightning and rain",
+  "author": "Vanessa Boutzikoudi",
+  "openmoji": "26C8",
+  "word": "tufan"
+ },
+ "strawberry.n.01": {
+  "annotation": "strawberry",
+  "author": "Liz Bravo",
+  "openmoji": "1F353",
+  "word": "çiyələk"
+ },
+ "sunflower.n.01": {
+  "annotation": "sunflower",
+  "author": "Hilda Kalyoncu",
+  "openmoji": "1F33B",
+  "word": "günəbaxan"
+ },
+ "sunlight.n.01": {
+  "annotation": "sun",
+  "author": "Vanessa Boutzikoudi",
+  "openmoji": "2600",
+  "word": "günəş"
+ },
+ "swan.n.01": {
+  "annotation": "swan",
+  "author": "Laura Schießer",
+  "openmoji": "1F9A2",
+  "word": "qu quşu"
+ },
+ "swim.v.01": {
+  "annotation": "person swimming",
+  "author": "Johanna Wellnitz",
+  "openmoji": "1F3CA",
+  "word": "üzmək"
+ },
+ "swimsuit.n.01": {
+  "annotation": "one-piece swimsuit",
+  "author": "Sam Eckert",
+  "openmoji": "1FA71",
+  "word": "çimərlik geyimi"
+ },
+ "synagogue.n.01": {
+  "annotation": "synagogue",
+  "author": "Martin Wehl",
+  "openmoji": "1F54D",
+  "word": "sinaqoq"
+ },
+ "syringe.n.01": {
+  "annotation": "syringe",
+  "author": "Tonia Reinhardt",
+  "openmoji": "1F489",
+  "word": "şpris"
+ },
+ "table_tennis.n.01": {
+  "annotation": "ping pong",
+  "author": "Vanessa Boutzikoudi",
+  "openmoji": "1F3D3",
+  "word": "stolüstü tennis"
+ },
+ "tea.n.01": {
+  "annotation": "teacup without handle",
+  "author": "Laura Humpfer",
+  "openmoji": "1F375",
+  "word": "çay"
+ },
+ "teacher.n.01": {
+  "annotation": "teacher",
+  "author": "Benedikt Groß",
+  "openmoji": "1F9D1-200D-1F3EB",
+  "word": "müəllim"
+ },
+ "teapot.n.01": {
+  "annotation": "teapot",
+  "author": "Andrew Luckett",
+  "openmoji": "1FAD6",
+  "word": "çaynik"
+ },
+ "telephone.n.01": {
+  "annotation": "telephone",
+  "author": "Kai Wanschura",
+  "openmoji": "260E",
+  "word": "telefon"
+ },
+ "telescope.n.01": {
+  "annotation": "telescope",
+  "author": "Sina Schulz",
+  "openmoji": "1F52D",
+  "word": "teleskop"
+ },
+ "television.n.02": {
+  "annotation": "television",
+  "author": "Sina Schulz",
+  "openmoji": "1F4FA",
+  "word": "televiziya"
+ },
+ "tent.n.01": {
+  "annotation": "tent",
+  "author": "Martin Wehl",
+  "openmoji": "26FA",
+  "word": "çadır"
+ },
+ "theater.n.01": {
+  "annotation": "performing arts",
+  "author": "Martin Wehl",
+  "openmoji": "1F3AD",
+  "word": "teatr"
+ },
+ "thermometer.n.01": {
+  "annotation": "thermometer",
+  "author": "Vanessa Boutzikoudi",
+  "openmoji": "1F321",
+  "word": "termometr"
+ },
+ "thread.n.01": {
+  "annotation": "thread",
+  "author": "Nicole Kornhaas",
+  "openmoji": "1F9F5",
+  "word": "sap"
+ },
+ "thumb.n.01": {
+  "annotation": "thumbs up",
+  "author": "Julian Grüneberg",
+  "openmoji": "1F44D",
+  "word": "baş barmaq"
+ },
+ "tiger.n.01": {
+  "annotation": "tiger",
+  "author": "Sofie Ascherl",
+  "openmoji": "1F405",
+  "word": "pələng"
+ },
+ "toilet.n.01": {
+  "annotation": "toilet",
+  "author": "Lisa Schulz",
+  "openmoji": "1F6BD",
+  "word": "tualet"
+ },
+ "tomato.n.01": {
+  "annotation": "tomato",
+  "author": "Marius Schnabel",
+  "openmoji": "1F345",
+  "word": "pomidor"
+ },
+ "tongue.n.01": {
+  "annotation": "tongue",
+  "author": "Julian Grüneberg",
+  "openmoji": "1F445",
+  "word": "dil"
+ },
+ "tooth.n.01": {
+  "annotation": "tooth",
+  "author": "Laura Schießer",
+  "openmoji": "1F9B7",
+  "word": "diş"
+ },
+ "toothbrush.n.01": {
+  "annotation": "toothbrush",
+  "author": "Liz Bravo",
+  "openmoji": "1FAA5",
+  "word": "diş fırçası"
+ },
+ "tornado.n.01": {
+  "annotation": "tornado",
+  "author": "Vanessa Boutzikoudi",
+  "openmoji": "1F32A",
+  "word": "tornado"
+ },
+ "tower.n.01": {
+  "annotation": "Tokyo tower",
+  "author": "Louisa Mantsch",
+  "openmoji": "1F5FC",
+  "word": "qüllə"
+ },
+ "town.n.01": {
+  "annotation": "town",
+  "author": "Kai Magnus Müller",
+  "openmoji": "E203",
+  "word": "qəsəbə"
+ },
+ "tractor.n.01": {
+  "annotation": "tractor",
+  "author": "Ronja Bäurlen",
+  "openmoji": "1F69C",
+  "word": "traktor"
+ },
+ "train.n.01": {
+  "annotation": "locomotive",
+  "author": "Ronja Bäurlen",
+  "openmoji": "1F682",
+  "word": "qatar"
+ },
+ "tramway.n.01": {
+  "annotation": "tram",
+  "author": "Nadja Grün",
+  "openmoji": "1F68A",
+  "word": "tramvay"
+ },
+ "trap.n.01": {
+  "annotation": "mouse trap",
+  "author": "Liz Bravo",
+  "openmoji": "1FAA4",
+  "word": "tələ"
+ },
+ "tree.n.01": {
+  "annotation": "deciduous tree",
+  "author": "Hilda Kalyoncu",
+  "openmoji": "1F333",
+  "word": "ağac"
+ },
+ "triangle.n.01": {
+  "annotation": "red triangle pointed up",
+  "author": "Lisa Schulz",
+  "openmoji": "1F53A",
+  "word": "üçbucaq"
+ },
+ "trolleybus.n.01": {
+  "annotation": "trolleybus",
+  "author": "Nadja Grün",
+  "openmoji": "1F68E",
+  "word": "trolleybus"
+ },
+ "trophy.n.02": {
+  "annotation": "trophy",
+  "author": "Julian Grüneberg",
+  "openmoji": "1F3C6",
+  "word": "mükafat"
+ },
+ "truck.n.01": {
+  "annotation": "pickup truck",
+  "author": "Liz Bravo",
+  "openmoji": "1F6FB",
+  "word": "yük maşını"
+ },
+ "tulip.n.01": {
+  "annotation": "tulip",
+  "author": "Hilda Kalyoncu",
+  "openmoji": "1F337",
+  "word": "tülpan"
+ },
+ "turban.n.01": {
+  "annotation": "person wearing turban",
+  "author": "Lisa Thiel",
+  "openmoji": "1F473",
+  "word": "çalma"
+ },
+ "turbine.n.01": {
+  "annotation": "wind energy",
+  "author": "Ricarda Krejci",
+  "openmoji": "E2D1",
+  "word": "turbin"
+ },
+ "turkey.n.01": {
+  "annotation": "turkey",
+  "author": "Selina Bauder",
+  "openmoji": "1F983",
+  "word": "hinduşka"
+ },
+ "turtleneck.n.01": {
+  "annotation": "turtle",
+  "author": "Robert Winslow",
+  "openmoji": "1F422",
+  "word": "tısbağa"
+ },
+ "umbrella.n.01": {
+  "annotation": "umbrella",
+  "author": "Vanessa Boutzikoudi",
+  "openmoji": "2602",
+  "word": "çətir"
+ },
+ "vampire.n.01": {
+  "annotation": "vampire",
+  "author": "Nadine Bartel",
+  "openmoji": "1F9DB",
+  "word": "vampir"
+ },
+ "vent.n.03": {
+  "annotation": "volcano",
+  "author": "Guemil Project",
+  "openmoji": "1F30B",
+  "word": "vulkan"
+ },
+ "violin.n.01": {
+  "annotation": "violin",
+  "author": "Sina Schulz",
+  "openmoji": "1F3BB",
+  "word": "skripka"
+ },
+ "volleyball.n.02": {
+  "annotation": "volleyball",
+  "author": "Vanessa Boutzikoudi",
+  "openmoji": "1F3D0",
+  "word": "voleybol"
+ },
+ "walk.v.01": {
+  "annotation": "person walking",
+  "author": "Johanna Wellnitz",
+  "openmoji": "1F6B6",
+  "word": "gəzmək"
+ },
+ "wall_socket.n.01": {
+  "annotation": "outlet",
+  "author": "Kai Magnus Müller",
+  "openmoji": "E144",
+  "word": "rozetka"
+ },
+ "washer.n.03": {
+  "annotation": "washing machine",
+  "author": "Kai Wanschura",
+  "openmoji": "E1CF",
+  "word": "paltaryuyan"
+ },
+ "watch.n.01": {
+  "annotation": "watch",
+  "author": "Rana Cakir",
+  "openmoji": "231A",
+  "word": "qol saatı"
+ },
+ "water.n.01": {
+  "annotation": "droplet",
+  "author": "Vanessa Boutzikoudi",
+  "openmoji": "1F4A7",
+  "word": "su"
+ },
+ "watermelon.n.01": {
+  "annotation": "watermelon",
+  "author": "Marius Schnabel",
+  "openmoji": "1F349",
+  "word": "qarpız"
+ },
+ "wave.n.01": {
+  "annotation": "water wave",
+  "author": "Vanessa Boutzikoudi",
+  "openmoji": "1F30A",
+  "word": "dalğa"
+ },
+ "wheel.n.01": {
+  "annotation": "wheel",
+  "author": "Niklas Kuntz",
+  "openmoji": "1F6DE",
+  "word": "təkər"
+ },
+ "wheelchair.n.01": {
+  "annotation": "manual wheelchair",
+  "author": "Evelyn Soos",
+  "openmoji": "1F9BD",
+  "word": "əlil arabası"
+ },
+ "wind.n.01": {
+  "annotation": "wind face",
+  "author": "Vanessa Boutzikoudi",
+  "openmoji": "1F32C",
+  "word": "külək"
+ },
+ "window.n.01": {
+  "annotation": "window",
+  "author": "Liz Bravo",
+  "openmoji": "1FA9F",
+  "word": "pəncərə"
+ },
+ "wine.n.01": {
+  "annotation": "wine glass",
+  "author": "Laura Humpfer",
+  "openmoji": "1F377",
+  "word": "şərab"
+ },
+ "wing.n.01": {
+  "annotation": "wing",
+  "author": "Kathrin Gerold",
+  "openmoji": "1FABD",
+  "word": "qanad"
+ },
+ "wisconsinite.n.01": {
+  "annotation": "badger",
+  "author": "Laura Schießer",
+  "openmoji": "1F9A1",
+  "word": "porsuq"
+ },
+ "wolf.n.01": {
+  "annotation": "wolf",
+  "author": "Sofie Ascherl",
+  "openmoji": "1F43A",
+  "word": "qurd"
+ },
+ "woman.n.01": {
+  "annotation": "woman",
+  "author": "Johanna Wellnitz",
+  "openmoji": "1F469",
+  "word": "qadın"
+ },
+ "wood.n.01": {
+  "annotation": "wood",
+  "author": "Liz Bravo",
+  "openmoji": "1FAB5",
+  "word": "oduncaq"
+ },
+ "wool.n.01": {
+  "annotation": "yarn",
+  "author": "Nicole Kornhaas",
+  "openmoji": "1F9F6",
+  "word": "yun"
+ },
+ "word:DNT": {
+  "annotation": "dna",
+  "author": "Alan Seng",
+  "category": "things",
+  "openmoji": "1F9EC",
+  "word": "DNT"
+ },
+ "word:ailə": {
+  "annotation": "family",
+  "author": "Lisa Schulz",
+  "category": "people",
+  "openmoji": "1F46A",
+  "word": "ailə"
+ },
+ "word:amerika futbolu": {
+  "annotation": "american football",
+  "author": "Vanessa Boutzikoudi",
+  "category": "actions",
+  "openmoji": "1F3C8",
+  "word": "amerika futbolu"
+ },
+ "word:avtomat qələm": {
+  "annotation": "fountain pen",
+  "author": "Rana Cakir",
+  "category": "things",
+  "openmoji": "1F58B",
+  "word": "avtomat qələm"
+ },
+ "word:barkod": {
+  "annotation": "barcode",
+  "author": "Alexander Müller",
+  "category": "things",
+  "openmoji": "E1D9",
+  "word": "barkod"
+ },
+ "word:bilet": {
+  "annotation": "ticket",
+  "author": "Laura Humpfer",
+  "category": "things",
+  "openmoji": "1F3AB",
+  "word": "bilet"
+ },
+ "word:cıdır": {
+  "annotation": "horse racing",
+  "author": "Johanna Wellnitz",
+  "category": "actions",
+  "openmoji": "1F3C7",
+  "word": "cıdır"
+ },
+ "word:etiket": {
+  "annotation": "label",
+  "author": "Jonas Roßner",
+  "category": "things",
+  "openmoji": "1F3F7",
+  "word": "etiket"
+ },
+ "word:gün eynəyi": {
+  "annotation": "sunglasses",
+  "author": "Jonas Roßner",
+  "category": "things",
+  "openmoji": "1F576",
+  "word": "gün eynəyi"
+ },
+ "word:hündürdaban": {
+  "annotation": "high-heeled shoe",
+  "author": "Jonas Roßner",
+  "category": "things",
+  "openmoji": "1F460",
+  "word": "hündürdaban"
+ },
+ "word:kredit kartı": {
+  "annotation": "credit card",
+  "author": "Marius Schnabel",
+  "category": "things",
+  "openmoji": "1F4B3",
+  "word": "kredit kartı"
+ },
+ "word:qəbz": {
+  "annotation": "receipt",
+  "author": "Tonia Reinhardt",
+  "openmoji": "1F9FE",
+  "word": "qəbz"
+ },
+ "word:sikkə": {
+  "annotation": "coin",
+  "author": "Liz Bravo",
+  "category": "things",
+  "openmoji": "1FA99",
+  "word": "sikkə"
+ },
+ "word:toy": {
+  "annotation": "wedding",
+  "author": "Martin Wehl",
+  "category": "people",
+  "openmoji": "1F492",
+  "word": "toy"
+ },
+ "word:təqvim": {
+  "annotation": "calendar",
+  "author": "Sina Schulz",
+  "category": "things",
+  "openmoji": "1F4C5",
+  "word": "təqvim"
+ },
+ "word:tərəzi": {
+  "annotation": "scales",
+  "author": "Fanny Jung",
+  "category": "things",
+  "openmoji": "E32B",
+  "word": "tərəzi"
+ },
+ "word:xəbərdarlıq": {
+  "annotation": "warning",
+  "author": "Miriam Vollmeier",
+  "category": "things",
+  "openmoji": "26A0",
+  "word": "xəbərdarlıq"
+ },
+ "word:xəyalət": {
+  "annotation": "ghost",
+  "author": "Mariella Steeb",
+  "category": "people",
+  "openmoji": "1F47B",
+  "word": "xəyalət"
+ },
+ "worker.n.01": {
+  "annotation": "factory worker",
+  "author": "Benedikt Groß",
+  "openmoji": "1F9D1-200D-1F3ED",
+  "word": "işçi"
+ },
+ "wrestler.n.01": {
+  "annotation": "people wrestling",
+  "author": "Johanna Wellnitz",
+  "openmoji": "1F93C",
+  "word": "güləşçi"
+ },
+ "write.v.01": {
+  "annotation": "writing hand",
+  "author": "Julian Grüneberg",
+  "openmoji": "270D",
+  "word": "yazmaq"
+ },
+ "yawn.v.01": {
+  "annotation": "yawning face",
+  "author": "Liz Bravo",
+  "openmoji": "1F971",
+  "word": "əsnəmək"
+ },
+ "zebra.n.01": {
+  "annotation": "zebra",
+  "author": "Sofie Ascherl",
+  "openmoji": "1F993",
+  "word": "zebra"
+ }
+}

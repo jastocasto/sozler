@@ -5,7 +5,7 @@ const model=createModel(window.WORD_WEB_DATA,window.WORD_WEB_EXTRA,window.WORD_W
 const posNames={word:'söz',noun:'isim',verb:'fel',adjective:'sifət',function:'qrammatik söz',form:'söz forması',adverb:'zərf',numeral:'say',pronoun:'əvəzlik',interjection:'nida',postposition:'qoşma',determiner:'təyinedici',conjunction:'bağlayıcı',particle:'ədat',preposition:'ön qoşma',phrase:'ifadə'};
 let saved;try{saved=new Set(JSON.parse(localStorage.getItem('soz-toxumasi:saved')||'[]').filter(w=>model.allByWord.has(w)).map(w=>model.aliases[w]||w));}catch{saved=new Set();}
 const state={selected:null,filters:new Set(Object.keys(types)),history:[],arrival:null,searchItems:[],searchIndex:0,libraryMode:'all',libraryLimit:60};
-let conjugation=null,activePage='map',returnHash='',routeOpening=false;
+let conjugation=null,pictureQuiz=null,activePage='map',returnHash='',routeOpening=false;
 let race=null;
 let galaxy=null,sheetOpen=false,sheetGesture=null,suppressSheetClick=false,currentRegion=null,currentCluster=null;
 const titleMeasure=document.createElement('canvas').getContext('2d');
@@ -130,11 +130,12 @@ for(const d of document.querySelectorAll('dialog'))d.addEventListener('click',e=
 
 const archiveNodes=['grammarIntro','librarySearch','libraryMeta','libraryList','loadMore'];
 function restoreLibrary(){for(const id of archiveNodes)if($(id).parentElement!==$('libraryDialog'))$('libraryDialog').append($(id));}
-function showMap(writeRoute=true){const restoreFocus=$('conjugationPage').contains(document.activeElement);conjugation?.close();activePage='map';$('conjugationPage').hidden=true;document.querySelector('.galaxy-studio').hidden=false;document.title='SÖZ — Söz kainatı';restoreLibrary();galaxy?.setPageHidden(false);if(restoreFocus)$('menuButton').focus?.({preventScroll:true});if(writeRoute)history.replaceState(null,'',returnHash||'#w='+encodeURIComponent(state.selected?.w||'gözəl'));}
+function showMap(writeRoute=true){const restoreFocus=$('conjugationPage').contains(document.activeElement)||$('pictureQuizPage').contains(document.activeElement);conjugation?.close();pictureQuiz?.close();activePage='map';$('conjugationPage').hidden=true;$('pictureQuizPage').hidden=true;document.querySelector('.galaxy-studio').hidden=false;document.title='SÖZ — Söz kainatı';restoreLibrary();galaxy?.setPageHidden(false);if(restoreFocus)$('menuButton').focus?.({preventScroll:true});if(writeRoute)history.replaceState(null,'',returnHash||'#w='+encodeURIComponent(state.selected?.w||'gözəl'));}
 function openGrammar(query='',writeRoute=true,config={}){
  if(race?.blocking){toast('Yarışı bitirdikdən sonra qrammatikanı aça bilərsiniz.');return;}
  closeMenu();closeSearch();if($('libraryDialog').hasAttribute('open'))$('libraryDialog').close();
- if(activePage!=='grammar'){returnHash=location.hash.startsWith('#grammar=')?'#w='+encodeURIComponent(state.selected?.w||'gözəl'):location.hash;if(writeRoute)(history.pushState||history.replaceState).call(history,{page:'grammar'},'','#grammar='+encodeURIComponent(query||'qaçmaq'));}
+ if(activePage==='pictures'){pictureQuiz?.close();$('pictureQuizPage').hidden=true;}
+ if(activePage==='map'){returnHash=location.hash.startsWith('#grammar=')?'#w='+encodeURIComponent(state.selected?.w||'gözəl'):location.hash;if(writeRoute)(history.pushState||history.replaceState).call(history,{page:'grammar'},'','#grammar='+encodeURIComponent(query||'qaçmaq'));}
  activePage='grammar';galaxy?.setPageHidden(true);document.querySelector('.galaxy-studio').hidden=true;$('conjugationPage').hidden=false;document.title='Fel təsrifləri — SÖZ';
  for(const id of archiveNodes)$('conjugationArchiveBody').append($(id));
  state.libraryMode='grammar';state.libraryLimit=60;$('libraryTitle').textContent='Qrammatika';$('grammarIntro').hidden=false;$('librarySearch').value=query;$('librarySearch').placeholder='Fel və ya saxlanmış forma ilə axtar…';$('librarySearch').setAttribute('aria-label','Qrammatika arxivində axtar');$('conjugationArchiveCount').textContent=model.grammarRecords.length+' forma';renderLibrary();
@@ -144,7 +145,18 @@ function openGrammar(query='',writeRoute=true,config={}){
 function writeGrammarRoute(c){if(activePage==='grammar'&&!routeOpening&&c.verb&&!c.pending)history.replaceState({page:'grammar'},'','#grammar='+encodeURIComponent(c.verb)+'&t='+c.tense+'&p='+c.person+'&n='+(c.negative?1:0)+'&q='+(c.question?1:0));}
 function readGrammarRoute(){if(!location.hash.startsWith('#grammar='))return null;try{const [word,...parts]=location.hash.slice(9).split('&'),params=Object.fromEntries(parts.map(p=>p.split('=')));return {word:decodeURIComponent(word),tense:params.t,person:params.p,negative:params.n===undefined?undefined:params.n==='1',question:params.q==='1'};}catch{return {word:'qaçmaq'};}}
 for(const id of ['conjugationBack','conjugationBrand'])$(id).onclick=e=>{e.preventDefault();showMap(true);$('menuButton').focus?.({preventScroll:true});};
-function route(){if(race?.blocking){history.replaceState(null,'','#w='+encodeURIComponent(state.selected.w));return;}const g=readGrammarRoute();if(g){openGrammar(g.word,false,g);return;}if(activePage==='grammar')showMap(false);const n=fromHash();if(n){if(n!==state.selected)select(n,false,false);}else if(model.formsByWord.has(hashWord()))library(model.archiveMode(hashWord()),hashWord());}
+// The picture quiz is its own page (#sekil). Pictures never appear in the word map.
+function openPictures(writeRoute=true){
+ if(race?.blocking){toast('Yarışı bitirdikdən sonra şəkilli sınağı aça bilərsiniz.');if(location.hash==='#sekil')history.replaceState(null,'','#w='+encodeURIComponent(state.selected.w));return;}
+ closeMenu();closeSearch();for(const d of document.querySelectorAll('dialog[open]'))d.close();
+ if(activePage==='grammar'){conjugation?.close();$('conjugationPage').hidden=true;restoreLibrary();}
+ if(activePage==='map')returnHash=location.hash.startsWith('#sekil')?'#w='+encodeURIComponent(state.selected?.w||'gözəl'):location.hash;
+ if(writeRoute&&location.hash!=='#sekil')(history.pushState||history.replaceState).call(history,{page:'pictures'},'','#sekil');
+ activePage='pictures';galaxy?.setPageHidden(true);document.querySelector('.galaxy-studio').hidden=true;$('pictureQuizPage').hidden=false;document.title='Şəkilli sınaq — SÖZ';
+ pictureQuiz.open();
+}
+for(const id of ['pictureBack','pictureBrand'])$(id).onclick=e=>{e.preventDefault();showMap(true);$('menuButton').focus?.({preventScroll:true});};
+function route(){if(race?.blocking){history.replaceState(null,'','#w='+encodeURIComponent(state.selected.w));return;}if(location.hash==='#sekil'){openPictures(false);return;}const g=readGrammarRoute();if(g){openGrammar(g.word,false,g);return;}if(activePage!=='map')showMap(false);const n=fromHash();if(n){if(n!==state.selected)select(n,false,false);}else if(model.formsByWord.has(hashWord()))library(model.archiveMode(hashWord()),hashWord());}
 function hashWord(){try{return decodeURIComponent(location.hash.replace(/^#w=/,''));}catch{return '';}}
 function fromHash(){return model.resolveWord(hashWord());}
 window.addEventListener('hashchange',route);window.addEventListener('popstate',route);
@@ -153,9 +165,12 @@ try{galaxy=window.GalaxyView.mount({model,onSelect:n=>select(n,true,true,null,fa
 for(const r of (galaxy?.atlas.regions||window.WORD_GALAXY_DATA.regions)){const b=html('button','',r.label);b.style.setProperty('--region-color',r.color);b.dataset.region=r.id;b.append(html('span','',r.count.toLocaleString('az')));b.onclick=()=>{closeMenu();setSheet(false);galaxy?.visitRegion(r.id);};$('regionDirectory').append(b);}
 $('collectionSize').textContent=model.nodes.length.toLocaleString('az')+' söz və ifadə';$('sourceCounts').textContent=`Xəritədə ${model.nodes.length.toLocaleString('az')} ayrı lüğət girişi: ${model.nodes.filter(n=>!n.w.includes(' ')).length.toLocaleString('az')} tək söz və ${model.nodes.filter(n=>n.w.includes(' ')).length.toLocaleString('az')} söz birləşməsi / ifadə. ${window.WORD_WEB_NOMINAL.meta.moved_entries.toLocaleString('az')} qrammatik forma ayrıca formalar bölməsinə keçirilib. Fel təsrifləri ayrıca qrammatika arxivindədir (${model.grammarRecords.length.toLocaleString('az')} qeyd). İki böyük-kiçik hərf variantı birləşdirilib. İlkin məlumatlar saxlanılıb. ${model.orthographyNodes.length.toLocaleString('az')} yazılış orfoqrafiya lüğətinə əsasən əlavə edilib. Onlardan ${model.orthographyNodes.filter(n=>n.az&&n.en).length.toLocaleString('az')} sözün izahı Azərbaycan və ingilis dillərində göstərilir. ${window.WORD_WEB_GROWTH.meta.added_entries} söz və ifadədən ibarət genişlənmədən sonra tam məna yoxlaması aparılıb: ${window.WORD_WEB_VERIFICATION.meta.assessed_entries.toLocaleString('az')} girişə baxılıb, ${window.WORD_WEB_VERIFICATION.meta.corrected_entries.toLocaleString('az')} girişin izahı və ya əlavə mənaları dəqiqləşdirilib. Düzəlişlərin mənbələri söz kartında və yoxlama hesabatında göstərilir. Azərbaycan əlifbasının bütün hərfləri üzrə yeni söz əlaqələrində lüğət və qrammatika mənbələri göstərilir.`;
 conjugation=window.ConjugationUI.mount({model,onChange:writeGrammarRoute,onMap:word=>select(model.byWord.get(word))});
+pictureQuiz=window.PictureQuizUI.mount({model,html,onMap:word=>{history.replaceState(null,'','#w='+encodeURIComponent(word));showMap(false);select(model.byWord.get(word));}});
+$('pictureQuizButton').onclick=()=>openPictures(true);
 const initialGrammar=readGrammarRoute();
 const initialWord=hashWord(),initialNode=fromHash();select(initialNode||model.byWord.get('gözəl'),false,!!initialNode,null,!initialNode);if(!initialNode&&model.formsByWord.has(initialWord))library(model.archiveMode(initialWord),initialWord);
 if(initialGrammar)openGrammar(initialGrammar.word,false,initialGrammar);
+if(location.hash==='#sekil')openPictures(false);
 window.LearningUI.mount({model,select,html});
 race=window.RaceUI.mount({model,galaxy,select,resetHistory:()=>{state.history=[];},prepareMap:()=>{const previous=new Set(state.filters);state.filters=new Set(Object.keys(types));visibleFilters();galaxy?.setFilters(state.filters);return ()=>{state.filters=previous;visibleFilters();detail();galaxy?.setFilters(state.filters);};},selected:()=>state.selected?.w,toast,html});
 window.SozApp={selectWord:word=>select(model.resolveWord(word)),inspect:()=>({selected:state.selected?.w,sheetOpen,page:activePage,race:race?.inspect(),conjugation:conjugation?.inspect(),...galaxy?.inspect()})};

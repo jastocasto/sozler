@@ -31,6 +31,28 @@ Paraphrases are AI-assisted editorial text under CC BY-SA 4.0, kept in `scripts/
 
 Serve `dist` with any static HTTP server or open `dist/index.html`. No build/runtime dependencies or external fonts are required.
 
+## Picture quiz
+
+**Şəkilli sınaq** is a separate page (`#sekil`), opened from the menu. Each round has 10 questions in one of two modes: *Şəkil → söz* (see a line drawing, pick the word from four) or *Söz → şəkil* (see a word, pick its drawing from four). Rounds can be limited to one topic: animals, food and plants, things, people and body, nature and places, or actions. After each answer the word's Azerbaijani and English definitions appear, with a link that opens the word in the map. Results list every picture, and a missed-only retry is offered. Keys 1–4 answer and Enter continues. The best score per mode and topic is kept in this browser only.
+
+Pictures appear **only on this page**. The word map, meaning sheet, daily word and other quizzes have no pictures.
+
+`dist/pictures.js` holds **715 line drawings**, one word each:
+
+- **539 from [OpenMoji](https://openmoji.org) 15.1.0's line set** (CC BY-SA 4.0, authors credited per picture). Each match between a word and a drawing was checked by eye. Mismatched senses, ambiguous drawings and duplicates were dropped.
+- **176 drawn for SÖZ** (`scripts/draw_pictures.py`, CC BY-SA 4.0, AI-assisted). These use the same 72 × 72 grid and 2 px round stroke, and each was reviewed on a contact sheet. Examples include xalça, samovar, tar, saz, kəlağayı, papaq, səməni, buta, paxlava, plov, ceyran and mayak. Body parts are drawn with a pointer (*boyun*, *diz*), and drawings that share a base are never shown in the same question.
+
+All drawings use `currentColor`, so they take the page's cream ink. The build accepts only drawing elements (`path`, `circle`, `rect` and the like) with plain geometry values, so the page can insert them as markup. Within a question, the dictionary's synonym and root links and the English glosses keep near-identical answers apart; for example, *qayıq* and *kater* are never offered together. Credits are in `dist/pictures-attribution.json`.
+
+The candidate list (9,469 drawable headwords) and the plan for further pictures are in `scripts/content/pictures/PLAN.md`. To rebuild:
+
+    python3 scripts/draw_pictures.py                      # SÖZ drawings -> scripts/content/pictures/drawn.json
+    python3 scripts/import_openmoji.py OPENMOJI_SVG_DIR   # picked OpenMoji SVGs -> scripts/content/pictures/openmoji.json
+    python3 scripts/build_pictures.py                     # -> dist/pictures.js, dist/pictures-attribution.json
+    python3 scripts/version_assets.py && python3 scripts/build_offline.py
+    node tests/picture-quiz-data.cjs
+    NODE_PATH=/path/to/linkedom/node_modules node tests/picture-quiz-page.cjs
+
 ## Continuous magnetic selection and intact labels
 
 Tapping a word fixes its currently displayed position to a world anchor, then pans the camera until that anchor reaches the usable center. The background and every displayed world point move with the camera; only related words move independently on their springs. Selecting another word mid-flight retains its position, radius and momentum. Selection preserves orientation while smoothly panning and zooming over 1,050 ms to the standard selected bubble size. Radius follows camera-travel progress, not an independent spring. New neighbors start at their actual projected coordinates; only invisible distances are compressed, keeping the source direction and a starting point beyond the viewport edge. Former neighbors shrink and return toward their atlas locations instead of disappearing on selection. Only tiny retired dots are removed on subsequent refreshes; the original atlas data remains fixed.
