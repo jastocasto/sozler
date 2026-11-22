@@ -78,6 +78,7 @@ LOAN_SENSES = [('loq', 'logiya', '«{head}» üzrə mütəxəssis.', 'specialist
                ('metrik', 'metriya', '«{head}» ilə bağlı.', 'relating to {g}', 'adjective'),
                ('ist', 'izm', '«{head}» tərəfdarı.', 'supporter of {g}', 'noun'),
                ('istik', 'izm', '«{head}» ilə bağlı.', 'relating to {g}', 'adjective')]
+NOT_DOCTRINES = {'autizm', 'bilinqvizm', 'monolinqvizm', 'sadomazoxizm', 'eqosentrizm', 'seksualizm', 'latinizm'}
 # Place words that close a compound (qarınüstü, çənəaltı, parkboyu): Azerbaijani locative and English preposition.
 POSITIONS = {'üstü': ('üstündə', 'on or above'), 'altı': ('altında', 'under'), 'arası': ('arasında', 'between'),
              'içi': ('içində', 'inside'), 'yanı': ('yanında', 'beside'), 'önü': ('önündə', 'in front of'),
@@ -87,6 +88,15 @@ POSITIONS = {'üstü': ('üstündə', 'on or above'), 'altı': ('altında', 'und
 FALSE_HEADS = {'qrafik', 'metrik', 'metrlik', 'qramlıq', 'metraj', 'metr', 'qram', 'litr'}
 VERBAL_KINDS = {'converb-repeat', 'verbal-noun', 'passive', 'passive-n', 'causative', 'become', 'make', 'acquire',
                 'doer', 'action', 'result', 'never'}
+# Words too general, or too grammatical, to head a definition usefully (a tool, a person, a place, doing, being).
+GENERIC_HEADS = set('şəxs adam kəs insan yer şey hal vəziyyət iş hərəkət proses vasitə üsul qayda tərz zaman vaxt dövr ad '
+                    'söz termin ifadə məna xüsusiyyət keyfiyyət hissə sahə elm növ cins forma şəkil cür məcmu toplu sistem '
+                    'obyekt element biri birisi olan kimi üçün aid bağlı məxsus edən bilən olmayan və ya yaxud ilə qədər görə '
+                    'tərəf şəkildə surətdə tərzdə vasitəsilə etmək olmaq eləmək olunmaq edilmək qılmaq halı adı tərəfdarı bir '
+                    'az çox ən daha lap nümayəndə etmə eləmə olma olmama olunma edilmə gəlmə salma vermə düşmə sürmə qılma '
+                    'tutma çəkmə getmə'.split())
+# A head like "növ" (kind) passes the genus to the word before it: zəhərli baldırğan növü.
+KIND_HEADS = {'növ', 'cins', 'çeşid', 'sort', 'forma', 'variant'}
 # Endings a verb stem takes in running text (becər-ən, üfür-ücü, keçir-məz, aç-ma, düş-müş), so a definition that uses
 # a participle or verbal noun names the verb.
 VERB_ENDINGS = set('an ən yan yən maz məz ma mə maq mək ar ər araq ərək yaraq yərək malı məli mayan məyən'.split()) | {
@@ -864,10 +874,14 @@ class Builder:
                 for ending, head_ending, az, en, pos in LOAN_SENSES:
                     head = stem + head_ending
                     if word == stem + ending and head in words and self.undefined(word) and self.usable(head):
+                        # -ist is a supporter only of a doctrine; an autist or a bilinqvist has the condition, a latinist
+                        # studies Latin.
+                        if ending == 'ist' and (head in NOT_DOCTRINES or not gloss(self.defined(head)).endswith('ism')):
+                            continue
                         page = self.nodes[word].get('page')
                         refs = ([spelling_source(page)] if page else []) + [GRAMMAR]
                         self.define(word, az.format(head=head), en.format(g=gloss(self.defined(head))), pos, refs, 'rule', base=head)
-            ordered = sorted(words, key=lambda w: (not self.defined(w), len(w)))
+            ordered = sorted(words, key=lambda w: (not self.defined(w), len(w), w))
             for word in ordered[1:]:
                 refs = [spelling_source(self.nodes[w]['page']) for w in (ordered[0], word) if self.nodes[w].get('page')] or [GRAMMAR]
                 self.link(word, ordered[0], 'root', 'Alınma söz ailəsi · eyni kök',
@@ -898,6 +912,52 @@ class Builder:
             self.link(word, head, 'topic', f'Mürəkkəb termin · {combining}- + {head}',
                       f'«{word}» sözü «{combining}-» ön hissəsi və «{head}» sözündən ibarətdir.',
                       f'{word} is {combining}- plus {head}.', refs, 'combining')
+
+    def definition_head(self, word, definition):
+        """Links a definition gives: the words of a synonym list (Kabus, xəyal) or the head of a descriptive phrase."""
+        text = re.sub(r'\([^)]*\)', '', definition['az'])
+        clause = re.split(r'(?<=[.!?])\s', text)[0].rstrip('.!?').split(';')[0]
+        items = [item.strip() for item in clause.split(',') if item.strip()]
+        if not items:
+            return []
+        if all(len(item.split()) <= 2 for item in items):
+            found = [('syn', key(item)) for item in items
+                     if key(item) != word and self.usable(key(item)) and key(item) not in GENERIC_HEADS]
+            if found:
+                return list(dict.fromkeys(found))
+        # Azerbaijani phrases are head-final: the last word (possessive removed) of the first item names the class.
+        tokens = re.findall(r'[\wçğıöşüə-]+', key(items[0]))
+        for index in range(len(tokens) - 1, max(-1, len(tokens) - 3), -1):
+            token = tokens[index]
+            stem = possessive_stem(token)
+            head = next((c for c in (token, stem) if c and self.usable(c)), None)
+            if not head:
+                return []
+            if head in KIND_HEADS and index > 0:
+                continue
+            if head in GENERIC_HEADS or head == word:
+                return []
+            pos = self.usable(head)['pos']
+            if pos != definition['pos'] and not (definition['pos'] == 'noun' and pos == 'word'):
+                return []
+            return [('genus', head)]
+        return []
+
+    def definition_links(self):
+        """Link a still isolated word to the synonym or class word its own definition is built on (doker: Liman fəhləsi)."""
+        for word, definition in list(self.definitions.items()):
+            if definition.get('method') not in ('paraphrase', 'authored') or self.degree[word]:
+                continue
+            for kind, other in self.definition_head(word, definition):
+                if kind == 'syn':
+                    self.link(word, other, 'syn', 'Tərif · sinonim', f'«{word}» tərifdə «{other}» sözü ilə izah olunur.',
+                              f'{word} is defined by the word {other}.', definition['refs'], 'definition-synonym')
+                elif definition['pos'] == 'noun':
+                    self.link(word, other, 'topic', 'Tərif · ümumi anlayış', f'Tərifə görə «{word}» bir {other} növüdür.',
+                              f'By its definition, {word} is a kind of {other}.', definition['refs'], 'definition-genus')
+                else:
+                    self.link(word, other, 'topic', 'Tərif · əsas söz', f'«{word}» tərifdə «{other}» sözü əsasında izah olunur.',
+                              f'{word} is defined in terms of {other}.', definition['refs'], 'definition-genus')
 
     def compounds(self):
         for word in list(self.nodes):
@@ -1020,6 +1080,7 @@ def main():
         builder.compounds()
         if len(builder.definitions) + len(builder.edges) == size:
             break
+    builder.definition_links()
     after_undefined = sum(1 for w in builder.nodes if not builder.defined(w))
     after_isolated = sum(1 for w in builder.nodes if not builder.degree[w])
     methods = collections.Counter(d['method'] for d in builder.definitions.values())
