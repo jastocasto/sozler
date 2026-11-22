@@ -78,6 +78,11 @@ LOAN_SENSES = [('loq', 'logiya', '«{head}» üzrə mütəxəssis.', 'specialist
                ('metrik', 'metriya', '«{head}» ilə bağlı.', 'relating to {g}', 'adjective'),
                ('ist', 'izm', '«{head}» tərəfdarı.', 'supporter of {g}', 'noun'),
                ('istik', 'izm', '«{head}» ilə bağlı.', 'relating to {g}', 'adjective')]
+# Place words that close a compound (qarınüstü, çənəaltı, parkboyu): Azerbaijani locative and English preposition.
+POSITIONS = {'üstü': ('üstündə', 'on or above'), 'altı': ('altında', 'under'), 'arası': ('arasında', 'between'),
+             'içi': ('içində', 'inside'), 'yanı': ('yanında', 'beside'), 'önü': ('önündə', 'in front of'),
+             'arxası': ('arxasında', 'behind'), 'ətrafı': ('ətrafında', 'around'), 'boyu': ('boyunca', 'along'),
+             'kənarı': ('kənarında', 'at the edge of'), 'qırağı': ('qırağında', 'at the edge of'), 'ardı': ('ardında', 'behind')}
 VERBAL_KINDS = {'verbal-noun', 'passive', 'passive-n', 'causative', 'become', 'make', 'acquire'}
 PAIRED_ENDINGS = {'sı', 'si', 'su', 'sü', 'nı', 'ni', 'nu', 'nü', 'lı', 'li', 'lu', 'lü'}
 POS = {'noun', 'verb', 'adjective', 'adverb', 'numeral', 'pronoun', 'interjection', 'postposition',
@@ -138,9 +143,31 @@ DOMAIN_LABELS = ('chem biol zool physics mineral anat biochem math astron geol r
                  'text book vet publ paleont miner metal meteorol sociol archaeol eco hydrol special spec').split()
 
 
+def article(phrase):
+    return ('an ' if phrase[:1] in 'aeiou' else 'a ') + phrase
+
+
+def english_plural(short, base_word):
+    """Plural of a one-word English gloss; the Azerbaijani plural when only the base word is available."""
+    if short == base_word:
+        return base_word + 'l' + h2(base_word) + 'r'
+    if ' ' in short or short.endswith('s'):
+        return short
+    if short.endswith('y') and short[-2:-1] not in 'aeiou':
+        return short[:-1] + 'ies'
+    return short + ('es' if short.endswith(('x', 'sh', 'ch')) else 's')
+
+
+def word_of(base_word, suffix):
+    """The plural that a "between" adjective is built on: bank + lar|arası -> banklar."""
+    return base_word + suffix[:3]
+
+
 def gloss(node):
     labels = '|'.join(re.escape(label) for label in DOMAIN_LABELS)
     text = re.sub(rf'^(?:(?:{labels})\.\s+)+(?=\w)', '', re.sub(r'\([^)]*\)?', '', node['en']))
+    # A usage note ("In classical usage, ashamed") is not the meaning.
+    text = re.sub(r'^(?:in (?:classical|colloquial|poetic|dialectal|figurative|archaic|literary) (?:usage|use)|colloquial|obsolete|archaic|poetic)[,;:]\s*', '', text, flags=re.I)
     # A bare "special" label before a field name ("special chromatography") is not part of the meaning.
     text = re.sub(r'^special (?=\w+(?:logy|graphy|metry|nomy|ics)\b)', '', text)
     parts = [part.strip() for part in re.split(r'[;,:]|\.\s', text) if part.strip()]
@@ -387,9 +414,21 @@ class Builder:
                 'l' + v2 + 'ş' + infinitive_ending(base_word): 'become',
                 'l' + v2 + 'şd' + h4(base_word + v2) + 'r' + infinitive_ending(base_word + v2): 'make',
                 'l' + v2 + 'n' + infinitive_ending(base_word): 'acquire',
+                'c' + v4 + ('q' if v4 in 'ıu' else 'k'): 'diminutive',
+                'ç' + v2: 'diminutive',
+                'c' + v2 + ('sına' if v2 == 'a' else 'sinə'): 'manner',
             }
             if suffix in kinds:
                 yield base_word, kinds[suffix], suffix
+        # Place compounds: qarınüstü (qarın + üstü), and "between" adjectives: banklararası (bank + -lar + arası).
+        for place in POSITIONS:
+            base_word = word[:-len(place)]
+            if word.endswith(place) and len(base_word) >= 3:
+                plural = re.fullmatch(r'(.+)(lar|lər)', base_word) if place == 'arası' else None
+                if plural and plural[1] in self.nodes and plural[2] == 'l' + h2(plural[1]) + 'r':
+                    yield plural[1], 'between', plural[2] + place
+                elif base_word in self.nodes:
+                    yield base_word, 'position', place
         # Verbal noun: yazma <- yazmaq
         if word.endswith(('ma', 'mə')):
             verb = word + ('q' if word.endswith('ma') else 'k')
@@ -444,6 +483,23 @@ class Builder:
         if kind == 'make' and pos in ('noun', 'word'):
             return (f'«{base_word}» sözündən -{suffix} şəkilçisi ilə düzələn fel: bir şeyi {base_word} halına salmaq.',
                     f'to turn something into {short}', 'verb')
+        if kind == 'diminutive' and pos in ('noun', 'word'):
+            return f'«{base_word}» sözündən -{suffix} şəkilçisi ilə düzələn kiçiltmə: kiçik {base_word}.', f'little {short}', 'noun'
+        english = short != base_word  # the gloss is English, not the Azerbaijani base used as a fallback
+        if kind == 'manner' and nominal:
+            if pos in ('noun', 'word'):
+                en = f'like {article(short)}' if english and ' ' not in short else f'like {short}'
+            else:
+                en = f'in {article(short)} manner' if ' ' not in short else f'as if {short}'
+            return f'«{base_word}» sözündən -{suffix} şəkilçisi ilə düzələn zərf: {base_word} kimi.', en, 'adverb'
+        if kind == 'position' and pos in ('noun', 'word'):
+            locative, preposition = POSITIONS[suffix]
+            target = english_plural(short, base_word) if suffix == 'arası' else (f'the {short}' if english else short)
+            return (f'«{base_word}» və «{suffix}» sözlərindən düzələn sifət: {base_word} {locative} olan.',
+                    f'{preposition} {target}', 'adjective')
+        if kind == 'between' and pos in ('noun', 'word'):
+            return (f'«{base_word}» sözündən düzələn sifət: {word_of(base_word, suffix)} arasında olan.',
+                    f'between {english_plural(short, base_word)}', 'adjective')
         # -lan after a noun has too many senses to state by rule (çapaqlanmaq, çisəklənmək); after an adjective it is "become".
         if kind == 'acquire' and pos == 'adjective':
             return f'«{base_word}» sözündən -{suffix} şəkilçisi ilə düzələn fel: {base_word} olmaq.', f'to become {short}', 'verb'
