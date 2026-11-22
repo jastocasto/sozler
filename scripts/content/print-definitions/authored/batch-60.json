@@ -1,0 +1,992 @@
+{
+ "translyator": {
+  "az": "Proqramı bir dildən digərinə çevirən proqram.",
+  "en": "translator (compiler)",
+  "pos": "noun"
+ },
+ "transmissiv": {
+  "skip": "meaning not certain"
+ },
+ "transmissometr": {
+  "skip": "meaning not certain"
+ },
+ "transpirasiya": {
+  "az": "Bitkilərin yarpaqlarla su buxarlandırması.",
+  "en": "transpiration",
+  "pos": "noun"
+ },
+ "transvaginal": {
+  "az": "Uşaqlıq yolu vasitəsilə aparılan.",
+  "en": "transvaginal",
+  "pos": "adjective"
+ },
+ "tranş": {
+  "az": "Böyük borcun və ya kreditin bir hissəsi.",
+  "en": "tranche",
+  "pos": "noun"
+ },
+ "trassant": {
+  "az": "Köçürmə vekselini verən şəxs.",
+  "en": "drawer (of a bill)",
+  "pos": "noun"
+ },
+ "trassat": {
+  "az": "Vekseli ödəməli olan şəxs.",
+  "en": "drawee",
+  "pos": "noun"
+ },
+ "trassologiya": {
+  "az": "İzləri öyrənən kriminalistika sahəsi.",
+  "en": "trace evidence analysis",
+  "pos": "noun"
+ },
+ "trast": {
+  "az": "Əmlakın etibarlı idarəçiliyə verilməsi; iri inhisar birliyi.",
+  "en": "trust",
+  "pos": "noun"
+ },
+ "tratt": {
+  "az": "Köçürmə vekseli.",
+  "en": "bill of exchange, draft",
+  "pos": "noun"
+ },
+ "trauler": {
+  "az": "Trol ilə balıq tutan gəmi.",
+  "en": "trawler",
+  "pos": "noun"
+ },
+ "travers": {
+  "az": "Dağ yamacını üfüqi keçmə; eninə tir.",
+  "en": "traverse",
+  "pos": "noun"
+ },
+ "trayel": {
+  "skip": "meaning not certain"
+ },
+ "tredban": {
+  "az": "Qaçış trenajoru.",
+  "en": "treadmill",
+  "pos": "noun"
+ },
+ "tredjen-krol": {
+  "skip": "meaning not certain"
+ },
+ "tredjen-stil": {
+  "skip": "meaning not certain"
+ },
+ "trekbol": {
+  "az": "Kursoru idarə edən diyircəkli qurğu.",
+  "en": "trackball",
+  "pos": "noun"
+ },
+ "treker": {
+  "skip": "meaning not certain"
+ },
+ "treonin": {
+  "az": "Əvəzolunmaz amin turşusu.",
+  "en": "threonine",
+  "pos": "noun"
+ },
+ "treppinq": {
+  "skip": "meaning not certain"
+ },
+ "treska": {
+  "az": "Şimal dənizlərinin vətəgə balığı.",
+  "en": "cod",
+  "pos": "noun"
+ },
+ "treyder": {
+  "az": "Birjada alqı-satqı ilə məşğul olan şəxs.",
+  "en": "trader",
+  "pos": "noun"
+ },
+ "treydinq": {
+  "az": "Birjada alqı-satqı fəaliyyəti.",
+  "en": "trading",
+  "pos": "noun"
+ },
+ "trianqulyasiya": {
+  "az": "Üçbucaqlar şəbəkəsi ilə məntəqələrin yerini təyin etmə üsulu.",
+  "en": "triangulation",
+  "pos": "noun"
+ },
+ "triba": {
+  "skip": "meaning not certain"
+ },
+ "tribokimyəvi": {
+  "az": "Sürtünmə zamanı kimyəvi proseslərə aid.",
+  "en": "tribochemical",
+  "pos": "adjective"
+ },
+ "tribologiya": {
+  "az": "Sürtünmə və aşınmanı öyrənən elm.",
+  "en": "tribology",
+  "pos": "noun"
+ },
+ "triboloji": {
+  "az": "Tribologiyaya aid.",
+  "en": "tribological",
+  "pos": "adjective"
+ },
+ "tribolüminessensiya": {
+  "az": "Sürtünmə və ya qırılma zamanı işıq saçma.",
+  "en": "triboluminescence",
+  "pos": "noun"
+ },
+ "tribometr": {
+  "az": "Sürtünmə əmsalını ölçən cihaz.",
+  "en": "tribometer",
+  "pos": "noun"
+ },
+ "tribometriya": {
+  "skip": "meaning not certain"
+ },
+ "tribosistem": {
+  "skip": "meaning not certain"
+ },
+ "tribotexnik": {
+  "skip": "meaning not certain"
+ },
+ "tribotexnika": {
+  "az": "Sürtünmə və aşınmanın texniki tətbiqi.",
+  "en": "tribotechnology",
+  "pos": "noun"
+ },
+ "tribotexniki": {
+  "skip": "meaning not certain"
+ },
+ "tribotexnologiya": {
+  "skip": "meaning not certain"
+ },
+ "triesiya": {
+  "skip": "meaning not certain"
+ },
+ "triftonq": {
+  "az": "Bir hecada üç saitin birləşməsi.",
+  "en": "triphthong",
+  "pos": "noun"
+ },
+ "trigger": {
+  "az": "İki dayanıqlı vəziyyəti olan elektron sxem; tətik.",
+  "en": "trigger, flip-flop",
+  "pos": "noun"
+ },
+ "trixidi": {
+  "skip": "meaning not certain"
+ },
+ "trixinol": {
+  "skip": "meaning not certain"
+ },
+ "trixit": {
+  "skip": "meaning not certain"
+ },
+ "trixofitiya": {
+  "az": "Dəri və saçın göbələk xəstəliyi.",
+  "en": "trichophytosis, ringworm",
+  "pos": "noun"
+ },
+ "trixomoniaz": {
+  "az": "Trixomonadların törətdiyi xəstəlik.",
+  "en": "trichomoniasis",
+  "pos": "noun"
+ },
+ "trixoplaks": {
+  "az": "Ən sadə quruluşlu çoxhüceyrəli heyvan.",
+  "en": "Trichoplax",
+  "pos": "noun"
+ },
+ "trixosist": {
+  "skip": "meaning not certain"
+ },
+ "trixotillomaniya": {
+  "az": "Öz saçını yolma vərdişi.",
+  "en": "trichotillomania",
+  "pos": "noun"
+ },
+ "triklin": {
+  "skip": "meaning not certain"
+ },
+ "triqatron": {
+  "skip": "meaning not certain"
+ },
+ "triqonal qəfəs": {
+  "skip": "meaning not certain"
+ },
+ "trilobit": {
+  "az": "Paleozoyda yaşamış qədim dəniz buğumayaqlısı.",
+  "en": "trilobite",
+  "pos": "noun"
+ },
+ "trimaran": {
+  "az": "Üç gövdəli gəmi.",
+  "en": "trimaran",
+  "pos": "noun"
+ },
+ "trimatod": {
+  "skip": "meaning not certain"
+ },
+ "trinitron": {
+  "skip": "meaning not certain"
+ },
+ "trinte": {
+  "skip": "meaning not certain"
+ },
+ "triod": {
+  "az": "Üç elektrodlu elektron lampası.",
+  "en": "triode",
+  "pos": "noun"
+ },
+ "tripanofobiya": {
+  "az": "İynədən və iynə vurulmaqdan qorxu.",
+  "en": "trypanophobia",
+  "pos": "noun"
+ },
+ "triplbar": {
+  "skip": "meaning not certain"
+ },
+ "tripod": {
+  "az": "Üç ayaqlı dayaq, ştativ.",
+  "en": "tripod",
+  "pos": "noun"
+ },
+ "trips": {
+  "az": "Bitkilərə zərər verən kiçik həşərat.",
+  "en": "thrips",
+  "pos": "noun"
+ },
+ "trisaxarid": {
+  "az": "Üç monosaxariddən ibarət karbohidrat.",
+  "en": "trisaccharide",
+  "pos": "noun"
+ },
+ "triyer": {
+  "az": "Toxumu ölçüsünə görə təmizləyən maşın.",
+  "en": "seed separator",
+  "pos": "noun"
+ },
+ "trofey": {
+  "az": "Hərbi qənimət; idman mükafatı.",
+  "en": "trophy",
+  "pos": "noun"
+ },
+ "trofiki": {
+  "az": "Toxumaların qidalanmasına aid.",
+  "en": "trophic",
+  "pos": "adjective"
+ },
+ "trofozoit": {
+  "az": "İbtidai parazitin qidalanan mərhələsi.",
+  "en": "trophozoite",
+  "pos": "noun"
+ },
+ "troxofor": {
+  "az": "Bəzi onurğasızların sürfəsi.",
+  "en": "trochophore",
+  "pos": "noun"
+ },
+ "troqlobiont": {
+  "az": "Yalnız mağaralarda yaşayan canlı.",
+  "en": "troglobiont",
+  "pos": "noun"
+ },
+ "troqlofil": {
+  "az": "Mağaralarda yaşamağa meylli canlı.",
+  "en": "troglophile",
+  "pos": "noun"
+ },
+ "trollinq": {
+  "az": "İnternetdə qəsdən təxribatçı yazılar yazma.",
+  "en": "trolling",
+  "pos": "noun"
+ },
+ "tromboembolik": {
+  "az": "Trombun damarı tıxamasına aid.",
+  "en": "thromboembolic",
+  "pos": "adjective"
+ },
+ "tromboplastik": {
+  "skip": "meaning not certain"
+ },
+ "tromboplastin": {
+  "az": "Qanın laxtalanmasında iştirak edən maddə.",
+  "en": "thromboplastin",
+  "pos": "noun"
+ },
+ "tropika": {
+  "az": "Tropik qurşaq.",
+  "en": "the tropics",
+  "pos": "noun"
+ },
+ "tropopauza": {
+  "az": "Troposfer ilə stratosfer arasındakı keçid qatı.",
+  "en": "tropopause",
+  "pos": "noun"
+ },
+ "trot": {
+  "az": "Atın yorğa yerişi.",
+  "en": "trot",
+  "pos": "noun"
+ },
+ "trüm": {
+  "az": "Gəminin yük anbarı.",
+  "en": "hold (ship)",
+  "pos": "noun"
+ },
+ "tuberkuloma": {
+  "az": "Vərəm ocağının kapsulla əhatələnmiş forması.",
+  "en": "tuberculoma",
+  "pos": "noun"
+ },
+ "tubulqa": {
+  "skip": "meaning not certain"
+ },
+ "tuffit": {
+  "az": "Tuf və çöküntü materialından ibarət süxur.",
+  "en": "tuffite",
+  "pos": "noun"
+ },
+ "tufogen-çökmə": {
+  "skip": "meaning not certain"
+ },
+ "tuklips": {
+  "skip": "meaning not certain"
+ },
+ "tulyaremiya": {
+  "az": "Gəmiricilərdən keçən yoluxucu xəstəlik.",
+  "en": "tularemia",
+  "pos": "noun"
+ },
+ "tumbler": {
+  "az": "Elektrik açarı; ağzı enli stəkan.",
+  "en": "toggle switch; tumbler",
+  "pos": "noun"
+ },
+ "tumbul-tumbul": {
+  "skip": "meaning not certain"
+ },
+ "turbellari": {
+  "skip": "meaning not certain"
+ },
+ "turbidimetr": {
+  "az": "Bulanıqlığı ölçən cihaz.",
+  "en": "turbidimeter",
+  "pos": "noun"
+ },
+ "turbidimetrik": {
+  "skip": "meaning not certain"
+ },
+ "turbidimetriya": {
+  "az": "Bulanıq məhluldan keçən işığa görə analiz üsulu.",
+  "en": "turbidimetry",
+  "pos": "noun"
+ },
+ "turboaqreqat": {
+  "az": "Turbin və generatordan ibarət aqreqat.",
+  "en": "turbine set",
+  "pos": "noun"
+ },
+ "turbodinamo": {
+  "skip": "meaning not certain"
+ },
+ "turbogenerator": {
+  "az": "Turbinlə hərəkətə gətirilən generator.",
+  "en": "turbogenerator",
+  "pos": "noun"
+ },
+ "turbokompressor": {
+  "az": "Turbinlə işləyən kompressor.",
+  "en": "turbocompressor",
+  "pos": "noun"
+ },
+ "turbulentli": {
+  "skip": "meaning not certain"
+ },
+ "turel": {
+  "az": "Fırlanan atəş qülləsi.",
+  "en": "turret",
+  "pos": "noun"
+ },
+ "turənc": {
+  "skip": "meaning not certain"
+ },
+ "tutaq": {
+  "skip": "meaning not certain"
+ },
+ "tümənlik": {
+  "skip": "meaning not certain"
+ },
+ "tümler": {
+  "skip": "meaning not certain"
+ },
+ "türbək": {
+  "skip": "meaning not certain"
+ },
+ "türingit": {
+  "skip": "meaning not certain"
+ },
+ "türinq": {
+  "skip": "meaning not certain"
+ },
+ "türkbaf": {
+  "skip": "meaning not certain"
+ },
+ "türksayağılıq": {
+  "skip": "meaning not certain"
+ },
+ "türlü-türlü": {
+  "az": "Müxtəlif, cürbəcür.",
+  "en": "various",
+  "pos": "adjective"
+ },
+ "tvel": {
+  "az": "Nüvə reaktorunun yanacaq elementi.",
+  "en": "fuel rod",
+  "pos": "noun"
+ },
+ "tvin": {
+  "skip": "meaning not certain"
+ },
+ "tvindek": {
+  "skip": "meaning not certain"
+ },
+ "tvip": {
+  "skip": "meaning not certain"
+ },
+ "tvirl": {
+  "skip": "meaning not certain"
+ },
+ "üçağız": {
+  "skip": "meaning not certain"
+ },
+ "üçbuynuz": {
+  "skip": "meaning not certain"
+ },
+ "üçdiş": {
+  "skip": "meaning not certain"
+ },
+ "üçdüymə": {
+  "skip": "meaning not certain"
+ },
+ "üçqulaq": {
+  "skip": "meaning not certain"
+ },
+ "üçpillə": {
+  "skip": "meaning not certain"
+ },
+ "üçrəng": {
+  "skip": "meaning not certain"
+ },
+ "üçtəpə": {
+  "skip": "meaning not certain"
+ },
+ "üçyaş": {
+  "skip": "meaning not certain"
+ },
+ "ümumdil": {
+  "skip": "meaning not certain"
+ },
+ "ürkək-ürkək": {
+  "az": "Ürkə-ürkə, qorxa-qorxa.",
+  "en": "timidly",
+  "pos": "adverb"
+ },
+ "ütməcə": {
+  "skip": "meaning not certain"
+ },
+ "üzgəcotu": {
+  "skip": "meaning not certain"
+ },
+ "üzvlənən": {
+  "skip": "meaning not certain"
+ },
+ "vakuummetriya": {
+  "skip": "meaning not certain"
+ },
+ "vaqon-ev": {
+  "skip": "meaning not certain"
+ },
+ "validol": {
+  "az": "Ürək ağrılarında dil altına qoyulan dərman.",
+  "en": "Validol",
+  "pos": "noun"
+ },
+ "vallisneriya": {
+  "az": "Akvariumlarda saxlanan sualtı bitki.",
+  "en": "Vallisneria",
+  "pos": "noun"
+ },
+ "valokordin": {
+  "az": "Sakitləşdirici ürək damcısı.",
+  "en": "Valocordin",
+  "pos": "noun"
+ },
+ "valtorn": {
+  "az": "Mis nəfəsli musiqi aləti.",
+  "en": "French horn",
+  "pos": "noun"
+ },
+ "vam-vam qaynatmaq": {
+  "skip": "meaning not certain"
+ },
+ "var-gəl etmək": {
+  "skip": "meaning not certain"
+ },
+ "vaterxət": {
+  "az": "Gəminin gövdəsində suyun səviyyəsini göstərən xətt.",
+  "en": "waterline",
+  "pos": "noun"
+ },
+ "vatertali": {
+  "skip": "meaning not certain"
+ },
+ "vaterştaq": {
+  "skip": "meaning not certain"
+ },
+ "vektor-kardioskopiya": {
+  "skip": "meaning not certain"
+ },
+ "velobol": {
+  "skip": "meaning not certain"
+ },
+ "veloerqometr": {
+  "az": "Fiziki yükü ölçən stasionar velosiped.",
+  "en": "cycle ergometer",
+  "pos": "noun"
+ },
+ "veloqrametriya": {
+  "skip": "meaning not certain"
+ },
+ "velomoped": {
+  "skip": "meaning not certain"
+ },
+ "venzel": {
+  "az": "Adın baş hərflərindən bəzəkli naxış.",
+  "en": "monogram",
+  "pos": "noun"
+ },
+ "veyil-veyil": {
+  "skip": "meaning not certain"
+ },
+ "veysmanist": {
+  "skip": "meaning not certain"
+ },
+ "veysmanizm": {
+  "az": "Veysmanın irsiyyət nəzəriyyəsi.",
+  "en": "Weismannism",
+  "pos": "noun"
+ },
+ "vəzərək": {
+  "skip": "meaning not certain"
+ },
+ "vibroxəlbir": {
+  "skip": "meaning not certain"
+ },
+ "vibroizolyasiya": {
+  "az": "Titrəmələrin ötürülməsinin qarşısını alma.",
+  "en": "vibration isolation",
+  "pos": "noun"
+ },
+ "vibrokipləşdirici": {
+  "skip": "meaning not certain"
+ },
+ "vibrometr": {
+  "az": "Titrəmələri ölçən cihaz.",
+  "en": "vibrometer",
+  "pos": "noun"
+ },
+ "vibrometriya": {
+  "az": "Titrəmələrin ölçülməsi.",
+  "en": "vibrometry",
+  "pos": "noun"
+ },
+ "vibroporşen": {
+  "skip": "meaning not certain"
+ },
+ "vibroprokat": {
+  "skip": "meaning not certain"
+ },
+ "vibroterapiya": {
+  "az": "Titrəmə ilə müalicə.",
+  "en": "vibration therapy",
+  "pos": "noun"
+ },
+ "video": {
+  "az": "Hərəkətli görüntünün yazılması və göstərilməsi; videoyazı.",
+  "en": "video",
+  "pos": "noun"
+ },
+ "viktimologiya": {
+  "az": "Cinayət qurbanlarını öyrənən elm.",
+  "en": "victimology",
+  "pos": "noun"
+ },
+ "villanelle": {
+  "az": "Təkrarlanan misralı on doqquz misralıq şeir forması.",
+  "en": "villanelle",
+  "pos": "noun"
+ },
+ "vindsörfer": {
+  "az": "Vindsörfinqlə məşğul olan idmançı.",
+  "en": "windsurfer",
+  "pos": "noun"
+ },
+ "viskozimetr": {
+  "az": "Özlülüyü ölçən cihaz.",
+  "en": "viscometer",
+  "pos": "noun"
+ },
+ "viskozimetriya": {
+  "az": "Özlülüyün ölçülməsi.",
+  "en": "viscometry",
+  "pos": "noun"
+ },
+ "vizir": {
+  "az": "Nişan alma qurğusu.",
+  "en": "sight, viewfinder",
+  "pos": "noun"
+ },
+ "volley": {
+  "az": "Topu yerə düşməmiş vurma.",
+  "en": "volley",
+  "pos": "noun"
+ },
+ "volyuta": {
+  "az": "İon sütun başlığında spiral bəzək.",
+  "en": "volute",
+  "pos": "noun"
+ },
+ "vörcinel": {
+  "skip": "meaning not certain"
+ },
+ "şabazit": {
+  "az": "Seolit qrupundan mineral.",
+  "en": "chabazite",
+  "pos": "noun"
+ },
+ "şabdar": {
+  "skip": "meaning not certain"
+ },
+ "şaber": {
+  "az": "Metal səthi qaşımaq üçün alət.",
+  "en": "scraper (tool)",
+  "pos": "noun"
+ },
+ "şabot": {
+  "skip": "meaning not certain"
+ },
+ "şahanə-şahanə": {
+  "skip": "meaning not certain"
+ },
+ "şahsevdi": {
+  "skip": "meaning not certain"
+ },
+ "şax-şax baxmaq": {
+  "skip": "meaning not certain"
+ },
+ "şaland": {
+  "az": "Yastıdibli yük gəmisi.",
+  "en": "lighter, barge",
+  "pos": "noun"
+ },
+ "şamı": {
+  "skip": "meaning not certain"
+ },
+ "şami": {
+  "skip": "meaning not certain"
+ },
+ "şamot": {
+  "az": "Odadavamlı bişmiş gil.",
+  "en": "chamotte, fireclay",
+  "pos": "noun"
+ },
+ "şamsızlıq": {
+  "skip": "meaning not certain"
+ },
+ "şanagül": {
+  "skip": "meaning not certain"
+ },
+ "şankr": {
+  "az": "Cinsi xəstəlikdə əmələ gələn yara.",
+  "en": "chancre",
+  "pos": "noun"
+ },
+ "şanson": {
+  "az": "Fransız estrada mahnısı.",
+  "en": "chanson",
+  "pos": "noun"
+ },
+ "şapiroqraf": {
+  "az": "Mətni çoxaldan sadə cihaz.",
+  "en": "hectograph",
+  "pos": "noun"
+ },
+ "şapiroqrafik": {
+  "skip": "meaning not certain"
+ },
+ "şapiroqrafiya": {
+  "skip": "meaning not certain"
+ },
+ "şaraban": {
+  "az": "Üstü açıq çoxyerli minik arabası.",
+  "en": "charabanc",
+  "pos": "noun"
+ },
+ "şariaj": {
+  "az": "Süxur kütləsinin başqa süxur üzərinə itələnməsi.",
+  "en": "nappe, overthrust",
+  "pos": "noun"
+ },
+ "şarlama": {
+  "skip": "meaning not certain"
+ },
+ "şaryaj": {
+  "az": "Süxur kütləsinin başqa süxur üzərinə itələnməsi.",
+  "en": "nappe, overthrust",
+  "pos": "noun"
+ },
+ "şasse": {
+  "skip": "meaning not certain"
+ },
+ "şeffen": {
+  "skip": "meaning not certain"
+ },
+ "şefferit": {
+  "skip": "meaning not certain"
+ },
+ "şensi": {
+  "skip": "meaning not certain"
+ },
+ "şerl": {
+  "az": "Qara turmalin.",
+  "en": "schorl",
+  "pos": "noun"
+ },
+ "şerlit": {
+  "skip": "meaning not certain"
+ },
+ "şerma": {
+  "skip": "meaning not certain"
+ },
+ "şevelit": {
+  "skip": "meaning not certain"
+ },
+ "şever": {
+  "skip": "meaning not certain"
+ },
+ "şevret": {
+  "skip": "meaning not certain"
+ },
+ "şeyelit": {
+  "az": "Kalsium volframatdan ibarət mineral.",
+  "en": "scheelite",
+  "pos": "noun"
+ },
+ "şeyk": {
+  "skip": "meaning not certain"
+ },
+ "şəxslənmiş": {
+  "skip": "meaning not certain"
+ },
+ "şəl": {
+  "skip": "meaning not certain"
+ },
+ "şələbığ": {
+  "az": "Bığı iri və sıx olan.",
+  "en": "bushy-moustached",
+  "pos": "adjective"
+ },
+ "şələmzar": {
+  "skip": "meaning not certain"
+ },
+ "şərəşur": {
+  "skip": "meaning not certain"
+ },
+ "şəvəbığ": {
+  "skip": "meaning not certain"
+ },
+ "şxer": {
+  "az": "Kiçik qayalı adalarla dolu sahil.",
+  "en": "skerries",
+  "pos": "noun"
+ },
+ "şxun": {
+  "az": "İki və ya daha çox dorlu yelkənli gəmi.",
+  "en": "schooner",
+  "pos": "noun"
+ },
+ "şırıldaca": {
+  "skip": "meaning not certain"
+ },
+ "şi": {
+  "skip": "meaning not certain"
+ },
+ "şiber": {
+  "az": "Tüstü borusunu bağlayan sürgü.",
+  "en": "damper (flue)",
+  "pos": "noun"
+ },
+ "şiblək": {
+  "skip": "meaning not certain"
+ },
+ "şido": {
+  "skip": "meaning not certain"
+ },
+ "şifrator": {
+  "az": "Məlumatı şifrləyən qurğu.",
+  "en": "encoder",
+  "pos": "noun"
+ },
+ "şifrlənmiş mətn": {
+  "az": "Şifrə ilə yazılmış mətn.",
+  "en": "ciphertext",
+  "pos": "noun"
+ },
+ "şimoza": {
+  "skip": "meaning not certain"
+ },
+ "şinqard": {
+  "skip": "meaning not certain"
+ },
+ "şinql": {
+  "skip": "meaning not certain"
+ },
+ "şinşilla": {
+  "az": "Qiymətli xəzi olan Cənubi Amerika gəmiricisi.",
+  "en": "chinchilla",
+  "pos": "noun"
+ },
+ "şip": {
+  "skip": "several unrelated senses"
+ },
+ "şirinkök": {
+  "az": "Biyan.",
+  "en": "licorice root",
+  "pos": "noun"
+ },
+ "şirintum": {
+  "skip": "meaning not certain"
+ },
+ "şirnik": {
+  "skip": "meaning not certain"
+ },
+ "şistosom": {
+  "az": "Qan damarlarında yaşayan parazit qurd.",
+  "en": "schistosome",
+  "pos": "noun"
+ },
+ "şistosomatoz": {
+  "az": "Şistosom qurdlarının törətdiyi xəstəlik.",
+  "en": "schistosomiasis",
+  "pos": "noun"
+ },
+ "şişkin-şişkin": {
+  "skip": "meaning not certain"
+ },
+ "şivəli-şivəli": {
+  "skip": "meaning not certain"
+ },
+ "şizobuliya": {
+  "skip": "meaning not certain"
+ },
+ "şizoqoniya": {
+  "az": "Bəzi ibtidailərin çoxlu bölünmə yolu ilə çoxalması.",
+  "en": "schizogony",
+  "pos": "noun"
+ },
+ "şizont": {
+  "az": "Çoxlu bölünmə mərhələsindəki ibtidai parazit.",
+  "en": "schizont",
+  "pos": "noun"
+ },
+ "şkans": {
+  "az": "Gəminin arxa göyərtəsi.",
+  "en": "quarterdeck",
+  "pos": "noun"
+ },
+ "şkiv": {
+  "az": "Qayış ötürməsinin çarxı.",
+  "en": "pulley",
+  "pos": "noun"
+ },
+ "şkot": {
+  "az": "Yelkənin aşağı küncünü dartan ip.",
+  "en": "sheet (sail rope)",
+  "pos": "noun"
+ },
+ "şlaq": {
+  "skip": "several unrelated senses"
+ },
+ "şlixt": {
+  "skip": "meaning not certain"
+ },
+ "şlir": {
+  "skip": "meaning not certain"
+ },
+ "şlüpbalka": {
+  "az": "Qayığı qaldırıb endirmək üçün gəmi kranı.",
+  "en": "davit",
+  "pos": "noun"
+ },
+ "şmaltin": {
+  "skip": "meaning not certain"
+ },
+ "şmutstitul": {
+  "az": "Kitab bölməsindən əvvəl yalnız başlıq olan səhifə.",
+  "en": "half title",
+  "pos": "noun"
+ },
+ "şnau": {
+  "skip": "meaning not certain"
+ },
+ "şnek": {
+  "az": "Materialı vintlə hərəkət etdirən qurğu.",
+  "en": "screw conveyor, auger",
+  "pos": "noun"
+ },
+ "şnitsel": {
+  "az": "Döyülüb qızardılmış ət dilimi.",
+  "en": "schnitzel",
+  "pos": "noun"
+ },
+ "şomaj": {
+  "skip": "meaning not certain"
+ },
+ "şona": {
+  "az": "Zimbabvedə yaşayan bantu xalqı və onun dili.",
+  "en": "Shona",
+  "pos": "noun"
+ },
+ "şonkinit": {
+  "skip": "meaning not certain"
+ },
+ "şorankol": {
+  "skip": "meaning not certain"
+ },
+ "şorlomit": {
+  "skip": "meaning not certain"
+ },
+ "şoşonit": {
+  "skip": "meaning not certain"
+ },
+ "şpaler": {
+  "az": "Bitkiləri bağlamaq üçün çərçivə; düzülüş cərgəsi.",
+  "en": "trellis; line (of troops)",
+  "pos": "noun"
+ },
+ "şpasiya": {
+  "az": "Mətbəədə sözlər arasında boşluq qoymaq üçün lövhə.",
+  "en": "space (type)",
+  "pos": "noun"
+ },
+ "şpatel": {
+  "az": "Yastı kürəkcik.",
+  "en": "spatula",
+  "pos": "noun"
+ },
+ "şpatel-qoruyucu": {
+  "skip": "meaning not certain"
+ },
+ "şpiqat": {
+  "skip": "meaning not certain"
+ }
+}
