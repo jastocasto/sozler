@@ -28,7 +28,7 @@
   "conf": "high"
  },
  "abılıq": {
-  "az": "Mavi rəngdə olma, mavilik.",
+  "az": "Abı rəngdə olma, mavilik.",
   "en": "blueness",
   "pos": "noun",
   "src": "musayev",
@@ -84,14 +84,14 @@
   "conf": "high"
  },
  "acıbaldırğan": {
-  "az": "Nəm yerlərdə bitən zəhərli ot.",
+  "az": "Nəm yerlərdə bitən zəhərli baldırğan növü.",
   "en": "a poisonous plant of damp places",
   "pos": "noun",
   "src": "izahli",
   "conf": "high"
  },
  "acıbiyan": {
-  "az": "Tərkibində alkaloid olan çoxillik bitki.",
+  "az": "Biyana bənzər, tərkibində alkaloid olan acı bitki.",
   "en": "a perennial alkaloid-bearing plant",
   "pos": "noun",
   "src": "izahli",
@@ -112,7 +112,7 @@
   "conf": "low"
  },
  "acıxəmrə": {
-  "az": "Xəmiri qıcqırtmaq üçün işlədilən maya.",
+  "az": "Xəmiri qıcqırtmaq üçün işlədilən acı xəmrə, maya.",
   "en": "leaven; sourdough starter",
   "pos": "noun",
   "src": "izahli",
@@ -210,7 +210,7 @@
   "conf": "low"
  },
  "acıyovşan": {
-  "az": "Meşə kənarındakı otlu yamaclarda bitən dərman otu.",
+  "az": "Meşə kənarı yamaclarda bitən dərman yovşanı.",
   "en": "wormwood, a medicinal herb",
   "pos": "noun",
   "src": "izahli",
@@ -315,7 +315,7 @@
   "conf": "low"
  },
  "açıq-saçıqlıq": {
-  "az": "Özünü həddən artıq sərbəst və çəkinmədən aparma.",
+  "az": "Açıq-saçıq olma, özünü çəkinmədən aparma.",
   "en": "openness; lack of restraint or modesty",
   "pos": "noun",
   "src": "musayev",
@@ -581,7 +581,7 @@
   "conf": "high"
  },
  "ağabacı": {
-  "az": "Böyük qardaşın, dayının və ya başqa qohumun arvadına hörmətlə müraciət.",
+  "az": "Hörmətli bacı kimi müraciət: böyük qardaşın, dayının arvadına deyilir.",
   "en": "respectful term for an elder kinsman's wife",
   "pos": "noun",
   "src": "izahli",
@@ -672,7 +672,7 @@
   "conf": "high"
  },
  "ağanənə": {
-  "az": "Ailənin yaşlı və hörmətli qadınına verilən ad.",
+  "az": "Ailənin yaşlı hörmətli qadınına, böyük nənəyə verilən ad.",
   "en": "respectful term for the family matriarch",
   "pos": "noun",
   "src": "izahli",
@@ -1610,7 +1610,7 @@
   "conf": "high"
  },
  "axır-əzəl": {
-  "az": "Nəhayət bir gün, gec-tez.",
+  "az": "Axır ki, nəhayət; gec-tez.",
   "en": "sooner or later, eventually",
   "pos": "adverb",
   "src": "both",

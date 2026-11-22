@@ -371,7 +371,7 @@
   "conf": "high"
  },
  "dəvəfındığı": {
-  "az": "Cökə ağacında yetişən meyvə.",
+  "az": "Cökə ağacının fındığa bənzər meyvəsi.",
   "en": "linden fruit",
   "pos": "noun",
   "src": "izahli",
@@ -574,7 +574,7 @@
   "conf": "high"
  },
  "dəyirmitəhər": {
-  "az": "Bir qədər girdəyə oxşayan.",
+  "az": "Bir qədər dəyirmi, girdəyə oxşayan.",
   "en": "roundish",
   "pos": "adjective",
   "src": "musayev",
@@ -1295,7 +1295,7 @@
   "conf": "high"
  },
  "dikli": {
-  "az": "Çıxıntısı, qabarığı olan.",
+  "az": "Dik çıxıntısı, qabarığı olan.",
   "en": "having a protrusion",
   "pos": "adjective",
   "src": "izahli",

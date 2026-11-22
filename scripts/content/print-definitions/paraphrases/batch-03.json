@@ -577,7 +577,7 @@
 "conf": "high"
 },
 "badambacı": {
-"az": "Yaşlı qadına, qayınanaya və ya gəlinə hörmətlə müraciət sözü.",
+"az": "Yaşlı qadına, qayınanaya, gəlinə bacı deyə hörmətlə müraciət.",
 "en": "respectful form of address for older women or in-laws",
 "pos": "noun",
 "src": "izahli",
@@ -850,7 +850,7 @@
 "conf": "high"
 },
 "bağlı-bağatlı": {
-"az": "Çoxlu bağı və yaşıllığı olan.",
+"az": "Bağlı, çoxlu bağı və yaşıllığı olan.",
 "en": "full of gardens and greenery",
 "pos": "adjective",
 "src": "izahli",
@@ -1046,7 +1046,7 @@
 "conf": "high"
 },
 "balabacı": {
-"az": "Kiçiklərin böyük qadın qohuma hörmətlə müraciət sözü.",
+"az": "Kiçiklərin böyük qadın qohuma bacı deyə hörmətlə müraciəti.",
 "en": "respectful term for an elder female relative",
 "pos": "noun",
 "src": "izahli",
@@ -1753,7 +1753,7 @@
 "conf": "high"
 },
 "barvermə": {
-"az": "Bitkinin meyvə gətirməsi.",
+"az": "Bitkinin bar verməsi, meyvə gətirməsi.",
 "en": "fruiting",
 "pos": "noun",
 "src": "musayev",
@@ -1823,7 +1823,7 @@
 "conf": "high"
 },
 "basmaqəlib": {
-"az": "Yenilik olmadan korkoranə təqlid edilmiş, şablon.",
+"az": "Yenilik olmadan bir qəlibdən çıxmış kimi təqlid edilmiş, şablon.",
 "en": "stereotyped, clichéd",
 "pos": "adjective",
 "src": "izahli",
@@ -1879,7 +1879,7 @@
 "conf": "high"
 },
 "başaparma": {
-"az": "Özbaşınalıq, sözə baxmama.",
+"az": "Başını götürüb getmə: özbaşınalıq, sözə baxmama.",
 "en": "unruliness",
 "pos": "noun",
 "src": "musayev",

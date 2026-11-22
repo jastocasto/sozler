@@ -98,14 +98,14 @@
   "conf": "high"
  },
  "dağtərxunu": {
-  "az": "Müalicədə istifadə olunan ot və ya yarımkol bitki.",
+  "az": "Dağlarda bitən, müalicədə işlədilən tərxun növü.",
   "en": "a medicinal herb or subshrub",
   "pos": "noun",
   "src": "izahli",
   "conf": "high"
  },
  "dağturpu": {
-  "az": "Yarpaqları uzunsov olan iki illik ot.",
+  "az": "Dağlarda bitən, yarpaqları uzunsov ikiillik turp növü.",
   "en": "a biennial herb with elongated leaves",
   "pos": "noun",
   "src": "izahli",
@@ -343,7 +343,7 @@
   "conf": "high"
  },
  "dallıq": {
-  "az": "Kürəyi dayamaq üçün olan hissə; arxalıq.",
+  "az": "Kürəyi dal tərəfdən dayamaq üçün hissə; arxalıq.",
   "en": "a backrest",
   "pos": "noun",
   "src": "izahli",
@@ -1435,7 +1435,7 @@
   "conf": "high"
  },
  "daş-qaşlı": {
-  "az": "Qiymətli daşlarla bəzənmiş.",
+  "az": "Daş-qaşla bəzənmiş.",
   "en": "jewelled, set with gems",
   "pos": "adjective",
   "src": "izahli",
@@ -1568,7 +1568,7 @@
   "conf": "low"
  },
  "dava-dalaşsız": {
-  "az": "Mübahisə və qalmaqal olmadan keçən, sakit.",
+  "az": "Dava-dalaş olmadan keçən, sakit.",
   "en": "peaceful, free of quarrels",
   "pos": "adjective",
   "src": "musayev",
@@ -1701,14 +1701,14 @@
   "conf": "high"
  },
  "dava-şavalı": {
-  "az": "Üstündə mübahisə gedən, həll olunmamış.",
+  "az": "Üstündə dava-şava gedən, həll olunmamış.",
   "en": "disputed, contentious",
   "pos": "adjective",
   "src": "musayev",
   "conf": "high"
  },
  "dava-şavasız": {
-  "az": "Mübahisəsiz, sülh içində.",
+  "az": "Dava-şava olmadan, sülh içində.",
   "en": "peacefully, in harmony",
   "pos": "adverb",
   "src": "musayev",
@@ -1834,7 +1834,7 @@
   "conf": "high"
  },
  "dayazbilikli": {
-  "az": "Bilikləri səthi olan.",
+  "az": "Bilikləri dayaz, səthi olan.",
   "en": "having superficial knowledge",
   "pos": "adjective",
   "src": "musayev",
