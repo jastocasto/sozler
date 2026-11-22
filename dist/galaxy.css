@@ -110,7 +110,9 @@ dialog{background:#46463f;border:1px solid #99917d70;color:#e8e0ce;border-radius
 .declension-table tbody th{font-weight:400;width:38%}
 .case-name{display:block;color:#e6dccb;font-size:13px}
 .case-question{display:block;color:#a99f8c;font-size:10px}
-.declension-table td{color:#f3e7cf;overflow-wrap:anywhere}
+.declension-scroll{overflow-x:auto;overscroll-behavior-x:contain}
+.declension-table td{color:#f3e7cf;white-space:nowrap}
 .declension-table td.documented::after{content:' ●';color:#d9c79f;font-size:9px}
 .unverified{color:#e6a96b;margin-left:2px}
 .declension-note{margin:8px 0 0;font-size:11px;line-height:1.6;color:#bfb19c}
+@media(max-width:480px){.case-question{display:none}.declension-table{font-size:13px}.declension-table th,.declension-table td{padding:5px 6px}.declension-table tbody th{width:auto}}

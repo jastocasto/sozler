@@ -88,7 +88,7 @@ function renderDeclension(n){
   }
   body.append(tr);
  }
- table.append(body);box.append(owners,table);
+ table.append(body);const scroll=html('div','declension-scroll');scroll.append(table);box.append(owners,scroll);
  const notes=[];
  if(stem&&(changed||stem[0]==='hard'))notes.push(stem[0]==='hard'?`k/q dəyişmir: ${lower}${M.declension(n.w,'hard')[3].rows[0].singular.slice(lower.length)} (${STEM_SOURCE[stem[1]]})`:`Saitlə başlayan şəkilçidən əvvəl kök dəyişir: ${lower} → ${stem[0]==='drop'?lower.slice(0,-2)+lower.slice(-1):lower.slice(0,-1)+(lower.endsWith('k')?'y':'ğ')}- (${STEM_SOURCE[stem[1]]}${marked?' *':''})`);
  if(documented.size)notes.push('● lüğətin formalar arxivində qeyd olunan formalar');
