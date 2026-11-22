@@ -1,0 +1,1026 @@
+{
+ "blankizm": {
+  "az": "Kiçik inqilabçı qrupun sui-qəsd yolu ilə hakimiyyəti ələ keçirməsi ideyası.",
+  "en": "Blanquism",
+  "pos": "noun"
+ },
+ "blefarit": {
+  "az": "Göz qapağı kənarlarının iltihabı.",
+  "en": "blepharitis",
+  "pos": "noun"
+ },
+ "blennoreya": {
+  "az": "Selikli qişadan irinli ifrazat axması.",
+  "en": "blennorrhea",
+  "pos": "noun"
+ },
+ "blind": {
+  "skip": "several unrelated senses"
+ },
+ "blitskriq": {
+  "az": "İldırım sürətli müharibə.",
+  "en": "blitzkrieg",
+  "pos": "noun"
+ },
+ "blokbaster": {
+  "az": "Böyük gəlir gətirən məşhur film.",
+  "en": "blockbuster",
+  "pos": "noun"
+ },
+ "boa": {
+  "az": "Böyük boğucu ilan; qadının boynuna saldığı lələk şərf.",
+  "en": "boa",
+  "pos": "noun"
+ },
+ "bodibildinq": {
+  "az": "Əzələləri inkişaf etdirən idman növü.",
+  "en": "bodybuilding",
+  "pos": "noun"
+ },
+ "bolluca-bolluca": {
+  "az": "Çox bol, bol-bol.",
+  "en": "abundantly",
+  "pos": "adverb"
+ },
+ "bonitirə etmək": {
+  "az": "Heyvanların və ya torpağın keyfiyyətini qiymətləndirmək.",
+  "en": "to grade (livestock, soil)",
+  "pos": "verb"
+ },
+ "bonus-malus": {
+  "az": "Sürücünün qəzasız sürməsinə görə sığorta haqqının azaldılıb-artırılması sistemi.",
+  "en": "bonus-malus",
+  "pos": "noun"
+ },
+ "borasit": {
+  "az": "Bor tərkibli mineral.",
+  "en": "boracite",
+  "pos": "noun"
+ },
+ "borat": {
+  "az": "Bor turşusunun duzu.",
+  "en": "borate",
+  "pos": "noun"
+ },
+ "boreal": {
+  "az": "Şimal, mülayim soyuq iqlim qurşağına aid.",
+  "en": "boreal",
+  "pos": "adjective"
+ },
+ "boza": {
+  "az": "Darı və ya arpadan hazırlanan turşməzə içki.",
+  "en": "boza",
+  "pos": "noun"
+ },
+ "bozca": {
+  "skip": "meaning not certain"
+ },
+ "böyüklü": {
+  "skip": "meaning not certain"
+ },
+ "bradilaliya": {
+  "az": "Nitqin patoloji yavaşlığı.",
+  "en": "bradylalia",
+  "pos": "noun"
+ },
+ "braxisefaliya": {
+  "az": "Kəllənin enli və qısa olması.",
+  "en": "brachycephaly",
+  "pos": "noun"
+ },
+ "bras": {
+  "az": "Yelkəni döndərmək üçün ip.",
+  "en": "brace (rope)",
+  "pos": "noun"
+ },
+ "braunit": {
+  "az": "Manqan mineralı.",
+  "en": "braunite",
+  "pos": "noun"
+ },
+ "brauninq": {
+  "az": "Avtomatik tapança növü.",
+  "en": "Browning pistol",
+  "pos": "noun"
+ },
+ "breyk": {
+  "skip": "several unrelated senses"
+ },
+ "brəhmən": {
+  "az": "Hinduizmdə ən yüksək kastaya mənsub kahin.",
+  "en": "Brahmin",
+  "pos": "noun"
+ },
+ "briz": {
+  "az": "Dəniz sahilində gündüz dənizdən, gecə qurudan əsən yüngül külək.",
+  "en": "breeze",
+  "pos": "noun"
+ },
+ "bromat": {
+  "az": "Brom turşusunun duzu.",
+  "en": "bromate",
+  "pos": "noun"
+ },
+ "bromid": {
+  "az": "Bromun birləşməsi.",
+  "en": "bromide",
+  "pos": "noun"
+ },
+ "bronxoqrafiya": {
+  "az": "Bronxların rentgen müayinəsi.",
+  "en": "bronchography",
+  "pos": "noun"
+ },
+ "broşür": {
+  "az": "Kiçik həcmli nazik kitabça.",
+  "en": "brochure",
+  "pos": "noun"
+ },
+ "bucaqdiş": {
+  "skip": "meaning not certain"
+ },
+ "buffonada": {
+  "az": "Kobud komik oyun, təlxəklik.",
+  "en": "buffoonery",
+  "pos": "noun"
+ },
+ "bugünlük": {
+  "az": "Bu günə aid, bu gün üçün.",
+  "en": "for today",
+  "pos": "adjective"
+ },
+ "bukle": {
+  "az": "Düyünlü sapdan toxunmuş parça.",
+  "en": "bouclé",
+  "pos": "noun"
+ },
+ "bulimiya": {
+  "az": "Doymaq bilməyən aclıq hissi ilə yeməyin pozulması.",
+  "en": "bulimia",
+  "pos": "noun"
+ },
+ "bum": {
+  "az": "Qəfil yüksəliş, canlanma.",
+  "en": "boom",
+  "pos": "noun"
+ },
+ "bunlu-bunsuz": {
+  "skip": "meaning not certain"
+ },
+ "burcuda-burcuda": {
+  "skip": "form not certain"
+ },
+ "burger": {
+  "az": "Bulka arasına kotlet qoyulmuş yemək.",
+  "en": "burger",
+  "pos": "noun"
+ },
+ "buruqlu": {
+  "az": "Buruqları olan.",
+  "en": "with derricks",
+  "pos": "adjective"
+ },
+ "buşel": {
+  "az": "Britaniya və ABŞ-da həcm ölçüsü.",
+  "en": "bushel",
+  "pos": "noun"
+ },
+ "butan-butilen": {
+  "az": "Butan və butilen qarışığı.",
+  "en": "butane-butylene",
+  "pos": "noun"
+ },
+ "butilen": {
+  "az": "Dörd karbonlu doymamış karbohidrogen qaz.",
+  "en": "butylene",
+  "pos": "noun"
+ },
+ "buts": {
+  "az": "Futbolçu ayaqqabısı.",
+  "en": "football boots",
+  "pos": "noun"
+ },
+ "buyur-buyur": {
+  "skip": "meaning not certain"
+ },
+ "buzovburnu": {
+  "skip": "meaning not certain"
+ },
+ "büks": {
+  "az": "Tibbi materialları sterilizə etmək üçün metal qab.",
+  "en": "sterilizing drum",
+  "pos": "noun"
+ },
+ "büret": {
+  "az": "Mayenin həcmini dəqiq ölçmək üçün bölgülü şüşə boru.",
+  "en": "burette",
+  "pos": "noun"
+ },
+ "bürünük": {
+  "skip": "meaning not certain"
+ },
+ "bürüşüklü": {
+  "az": "Bürüşmüş, qırışlı.",
+  "en": "wrinkled",
+  "pos": "adjective"
+ },
+ "büsbütünlük": {
+  "skip": "meaning not certain"
+ },
+ "büzük-büzük": {
+  "az": "Qırçın-qırçın, büzülmüş halda.",
+  "en": "puckered",
+  "pos": "adjective"
+ },
+ "büzüşüklü": {
+  "az": "Büzüşmüş.",
+  "en": "shrivelled",
+  "pos": "adjective"
+ },
+ "byef": {
+  "az": "Bəndin yuxarı və ya aşağı tərəfindəki su sahəsi.",
+  "en": "reach (of a dam)",
+  "pos": "noun"
+ },
+ "calaşıq-calaşıq": {
+  "skip": "meaning not certain"
+ },
+ "can-can demək": {
+  "az": "Mehribanlıqla danışmaq.",
+  "en": "to speak affectionately",
+  "pos": "verb"
+ },
+ "canlı-canlı": {
+  "az": "Diri-diri.",
+  "en": "alive",
+  "pos": "adverb"
+ },
+ "cek": {
+  "skip": "meaning not certain"
+ },
+ "ceyrangöz": {
+  "az": "Ceyran kimi gözəl gözlü.",
+  "en": "gazelle-eyed",
+  "pos": "adjective"
+ },
+ "cəld-cəld": {
+  "az": "Tez-tez, çevik.",
+  "en": "quickly, briskly",
+  "pos": "adverb"
+ },
+ "cəldliklə": {
+  "az": "Cəld şəkildə.",
+  "en": "quickly, nimbly",
+  "pos": "adverb"
+ },
+ "cəngəli": {
+  "skip": "meaning not certain"
+ },
+ "cəsur-cəsur": {
+  "az": "Cəsarətlə.",
+  "en": "bravely",
+  "pos": "adverb"
+ },
+ "cığalı-cığalı": {
+  "skip": "meaning not certain"
+ },
+ "cırmaq-cırmaq etmək": {
+  "az": "Dırnaqla cırmaqlamaq.",
+  "en": "to scratch all over",
+  "pos": "verb"
+ },
+ "cırtdanboy": {
+  "az": "Cırtdan boylu, çox balaca.",
+  "en": "dwarf-sized",
+  "pos": "adjective"
+ },
+ "cırtqoz-cırtqoz": {
+  "skip": "meaning not certain"
+ },
+ "cingəldi": {
+  "skip": "meaning not certain"
+ },
+ "ciyən": {
+  "skip": "meaning not certain"
+ },
+ "cod-cod danışmaq": {
+  "az": "Kobud danışmaq.",
+  "en": "to speak rudely",
+  "pos": "verb"
+ },
+ "codsaç": {
+  "az": "Saçı cod olan.",
+  "en": "coarse-haired",
+  "pos": "adjective"
+ },
+ "coul": {
+  "az": "Enerji və iş vahidi.",
+  "en": "joule",
+  "pos": "noun"
+ },
+ "cucuq": {
+  "skip": "meaning not certain"
+ },
+ "cumbulu-cumbulu": {
+  "skip": "meaning not certain"
+ },
+ "cut": {
+  "skip": "meaning not certain"
+ },
+ "cütayaq": {
+  "az": "İki ayağı birləşdirərək.",
+  "en": "with both feet together",
+  "pos": "adverb"
+ },
+ "cütbaş": {
+  "skip": "meaning not certain"
+ },
+ "cütdiş": {
+  "skip": "meaning not certain"
+ },
+ "cüz-cüz oxumaq": {
+  "skip": "meaning not certain"
+ },
+ "çaba": {
+  "az": "Səy, cəhd.",
+  "en": "effort",
+  "pos": "noun"
+ },
+ "çağırtoğan": {
+  "skip": "meaning not certain"
+ },
+ "çağrı mərkəzi": {
+  "az": "Telefon zənglərini qəbul edən xidmət mərkəzi.",
+  "en": "call centre",
+  "pos": "noun"
+ },
+ "çaxmaqsız": {
+  "skip": "meaning not certain"
+ },
+ "çapaçap": {
+  "skip": "meaning not certain"
+ },
+ "çarpa": {
+  "skip": "meaning not certain"
+ },
+ "çarpaşıqlı": {
+  "skip": "meaning not certain"
+ },
+ "çarpıq": {
+  "skip": "meaning not certain"
+ },
+ "çartinq": {
+  "skip": "meaning not certain"
+ },
+ "çartlaq": {
+  "skip": "meaning not certain"
+ },
+ "çaruk": {
+  "skip": "meaning not certain"
+ },
+ "çaşqın-çaşqın": {
+  "az": "Çaşqınlıqla, nə edəcəyini bilməyərək.",
+  "en": "in confusion",
+  "pos": "adverb"
+ },
+ "çataq-çataq": {
+  "skip": "meaning not certain"
+ },
+ "çataqlı-çataqlı": {
+  "skip": "meaning not certain"
+ },
+ "çatalbaş": {
+  "skip": "meaning not certain"
+ },
+ "çatallı": {
+  "az": "Çatalı olan, haçalı.",
+  "en": "forked",
+  "pos": "adjective"
+ },
+ "çatlanquş": {
+  "skip": "meaning not certain"
+ },
+ "çaydaçapan": {
+  "skip": "meaning not certain"
+ },
+ "çevrikə-çevrikə": {
+  "skip": "meaning not certain"
+ },
+ "çəkçəki": {
+  "skip": "meaning not certain"
+ },
+ "çəkicbaş": {
+  "az": "Başı çəkicə oxşayan.",
+  "en": "hammer-headed",
+  "pos": "adjective"
+ },
+ "çələmbəri": {
+  "skip": "meaning not certain"
+ },
+ "çəmənlicə": {
+  "skip": "meaning not certain"
+ },
+ "çənbərbığ": {
+  "skip": "meaning not certain"
+ },
+ "çəpdiş": {
+  "skip": "meaning not certain"
+ },
+ "çəpəki-çəpəki": {
+  "az": "Çəp-çəp, yan-yana baxaraq.",
+  "en": "askance, sideways",
+  "pos": "adverb"
+ },
+ "çəpəkilik": {
+  "skip": "meaning not certain"
+ },
+ "çərələ-çərələ oturmaq": {
+  "skip": "meaning not certain"
+ },
+ "çığırda-çığırda": {
+  "skip": "form not certain"
+ },
+ "çıldağ": {
+  "skip": "meaning not certain"
+ },
+ "çırtaçırtla çırtlamaq": {
+  "skip": "meaning not certain"
+ },
+ "çigil": {
+  "az": "Orta əsrlərdə türk tayfası.",
+  "en": "Chigil (Turkic tribe)",
+  "pos": "noun"
+ },
+ "çilədağı": {
+  "skip": "meaning not certain"
+ },
+ "çiləyi": {
+  "skip": "meaning not certain"
+ },
+ "çilikbaşı": {
+  "skip": "meaning not certain"
+ },
+ "çimərcək": {
+  "skip": "meaning not certain"
+ },
+ "çimir eləmək": {
+  "az": "Bir az yatmaq, mürgüləmək.",
+  "en": "to take a nap",
+  "pos": "verb"
+ },
+ "çir": {
+  "skip": "meaning not certain"
+ },
+ "çiru": {
+  "skip": "meaning not certain"
+ },
+ "çivəbənzər": {
+  "skip": "meaning not certain"
+ },
+ "çivir": {
+  "skip": "meaning not certain"
+ },
+ "çiy-çiy": {
+  "az": "Bişirmədən, çiy halda.",
+  "en": "raw",
+  "pos": "adverb"
+ },
+ "çiyrinə-çiyrinə": {
+  "skip": "meaning not certain"
+ },
+ "çoxadamlıq": {
+  "az": "Çoxlu adamın olması, izdiham.",
+  "en": "crowdedness",
+  "pos": "noun"
+ },
+ "çoxcildlik": {
+  "az": "Çox cilddən ibarət.",
+  "en": "multi-volume",
+  "pos": "adjective"
+ },
+ "çoxçələkli": {
+  "skip": "meaning not certain"
+ },
+ "çoxdiş": {
+  "skip": "meaning not certain"
+ },
+ "çoxgünlük": {
+  "az": "Çox gün davam edən.",
+  "en": "lasting many days",
+  "pos": "adjective"
+ },
+ "çoxişlənmə": {
+  "az": "Çox işlədilmə.",
+  "en": "frequent use",
+  "pos": "noun"
+ },
+ "çoxkəsicili": {
+  "az": "Çoxlu kəsici hissəsi olan.",
+  "en": "multi-blade",
+  "pos": "adjective"
+ },
+ "çoxkilometrlik": {
+  "az": "Çox kilometr uzunluğunda olan.",
+  "en": "many kilometres long",
+  "pos": "adjective"
+ },
+ "çoxqat": {
+  "az": "Çox qatdan ibarət.",
+  "en": "multilayered",
+  "pos": "adjective"
+ },
+ "çoxməkikli": {
+  "skip": "meaning not certain"
+ },
+ "çoxmilyardlı": {
+  "az": "Bir neçə milyard dəyərində olan.",
+  "en": "multibillion",
+  "pos": "adjective"
+ },
+ "çoxmilyardlıq": {
+  "az": "Bir neçə milyard dəyərində olan.",
+  "en": "multibillion",
+  "pos": "adjective"
+ },
+ "çoxmilyonluq": {
+  "az": "Bir neçə milyon dəyərində və ya sayda olan.",
+  "en": "multimillion",
+  "pos": "adjective"
+ },
+ "çoxminlik": {
+  "az": "Bir neçə minlik.",
+  "en": "of many thousands",
+  "pos": "adjective"
+ },
+ "çoxoxlu": {
+  "az": "Çox oxu olan.",
+  "en": "multi-axle",
+  "pos": "adjective"
+ },
+ "çoxtapılan": {
+  "az": "Tez-tez rast gəlinən.",
+  "en": "commonly found",
+  "pos": "adjective"
+ },
+ "çomul": {
+  "skip": "meaning not certain"
+ },
+ "çotur-çotur": {
+  "skip": "meaning not certain"
+ },
+ "çökülü qalmaq": {
+  "skip": "meaning not certain"
+ },
+ "çölləmək": {
+  "skip": "meaning not certain"
+ },
+ "çöprə": {
+  "skip": "meaning not certain"
+ },
+ "çuğ": {
+  "skip": "meaning not certain"
+ },
+ "çutqu": {
+  "skip": "meaning not certain"
+ },
+ "çürük-çürük": {
+  "az": "Tamamilə çürümüş.",
+  "en": "completely rotten",
+  "pos": "adjective"
+ },
+ "dadım": {
+  "az": "Bir dəfə dadmaq üçün az miqdar.",
+  "en": "a taste, a bite",
+  "pos": "noun"
+ },
+ "dağıda-dağıda": {
+  "skip": "form not certain"
+ },
+ "dağınıq-dağınıq": {
+  "az": "Səpələnmiş halda, ayrı-ayrı.",
+  "en": "scattered",
+  "pos": "adverb"
+ },
+ "dahiyanə-dahiyanə": {
+  "skip": "meaning not certain"
+ },
+ "dakiardit": {
+  "skip": "meaning not certain"
+ },
+ "daktiloqrafik": {
+  "skip": "meaning not certain"
+ },
+ "daktiloqrafiya": {
+  "skip": "meaning not certain"
+ },
+ "dalar": {
+  "skip": "meaning not certain"
+ },
+ "dalın-dalın getmək": {
+  "az": "Geri-geri getmək.",
+  "en": "to walk backwards",
+  "pos": "verb"
+ },
+ "daltonid": {
+  "skip": "meaning not certain"
+ },
+ "daman": {
+  "az": "Afrikada və Ön Asiyada yaşayan kiçik məməli heyvan.",
+  "en": "hyrax",
+  "pos": "noun"
+ },
+ "damno": {
+  "skip": "meaning not certain"
+ },
+ "danadiş": {
+  "skip": "meaning not certain"
+ },
+ "danait": {
+  "skip": "meaning not certain"
+ },
+ "danla": {
+  "skip": "meaning not certain"
+ },
+ "daosizm": {
+  "az": "Tao anlayışına əsaslanan Çin fəlsəfi və dini təlimi.",
+  "en": "Taoism",
+  "pos": "noun"
+ },
+ "darağız": {
+  "az": "Ağzı dar olan.",
+  "en": "narrow-mouthed",
+  "pos": "adjective"
+ },
+ "daraqlıca": {
+  "skip": "meaning not certain"
+ },
+ "darğın-darğın": {
+  "az": "Küskün halda, acıqlı.",
+  "en": "sulkily, angrily",
+  "pos": "adverb"
+ },
+ "darmacallıq": {
+  "skip": "meaning not certain"
+ },
+ "darsonvalizasiya": {
+  "az": "Yüksək tezlikli zəif cərəyanla müalicə.",
+  "en": "darsonvalization",
+  "pos": "noun"
+ },
+ "dartac": {
+  "skip": "meaning not certain"
+ },
+ "dartaq": {
+  "skip": "meaning not certain"
+ },
+ "dastana": {
+  "skip": "meaning not certain"
+ },
+ "daşkəsənit": {
+  "skip": "meaning not certain"
+ },
+ "datolit": {
+  "az": "Bor və kalsium silikatlı mineral.",
+  "en": "datolite",
+  "pos": "noun"
+ },
+ "datsit": {
+  "az": "Vulkanik mənşəli süxur.",
+  "en": "dacite",
+  "pos": "noun"
+ },
+ "davsonit": {
+  "skip": "meaning not certain"
+ },
+ "dayka": {
+  "az": "Süxur çatlarını dolduran lövhəşəkilli maqmatik cisim.",
+  "en": "dike (geology)",
+  "pos": "noun"
+ },
+ "daz-dazalaq": {
+  "skip": "meaning not certain"
+ },
+ "deanimasiya": {
+  "skip": "meaning not certain"
+ },
+ "debay": {
+  "skip": "meaning not certain"
+ },
+ "debayeqram": {
+  "az": "Toz şəklində kristalın rentgen difraksiya şəkli.",
+  "en": "Debye pattern",
+  "pos": "noun"
+ },
+ "debilizm": {
+  "az": "Zəif dərəcəli əqli gerilik.",
+  "en": "mild intellectual disability",
+  "pos": "noun"
+ },
+ "deburs": {
+  "skip": "meaning not certain"
+ },
+ "dedveyt": {
+  "az": "Gəminin ümumi yükgötürmə qabiliyyəti.",
+  "en": "deadweight",
+  "pos": "noun"
+ },
+ "de-fakto": {
+  "az": "Faktiki olaraq.",
+  "en": "de facto",
+  "pos": "adverb"
+ },
+ "defektologiya": {
+  "az": "Fiziki və əqli qüsurlu uşaqların təlim-tərbiyəsi haqqında elm.",
+  "en": "defectology",
+  "pos": "noun"
+ },
+ "defektoloq": {
+  "az": "Defektologiya üzrə mütəxəssis.",
+  "en": "defectologist",
+  "pos": "noun"
+ },
+ "defektoloji": {
+  "az": "Defektologiyaya aid.",
+  "en": "defectological",
+  "pos": "adjective"
+ },
+ "deferentit": {
+  "skip": "meaning not certain"
+ },
+ "deflektor": {
+  "az": "Hava və ya qaz axınını yönəldən qurğu.",
+  "en": "deflector",
+  "pos": "noun"
+ },
+ "dehidroksilləşmə": {
+  "skip": "meaning not certain"
+ },
+ "deja-vü": {
+  "az": "Yeni vəziyyəti əvvəl yaşamış kimi hiss etmə.",
+  "en": "déjà vu",
+  "pos": "noun"
+ },
+ "dekadent": {
+  "az": "Dekadentizm nümayəndəsi.",
+  "en": "decadent",
+  "pos": "noun"
+ },
+ "dekantasiya": {
+  "az": "Mayenin çöküntüdən ehmalca süzülməsi.",
+  "en": "decantation",
+  "pos": "noun"
+ },
+ "dekatir": {
+  "skip": "meaning not certain"
+ },
+ "dekel": {
+  "skip": "meaning not certain"
+ },
+ "deklamator": {
+  "az": "Şeiri bədii şəkildə söyləyən ifaçı.",
+  "en": "reciter",
+  "pos": "noun"
+ },
+ "dekontaminasiya": {
+  "az": "Zəhərli və ya radioaktiv maddələrdən təmizləmə.",
+  "en": "decontamination",
+  "pos": "noun"
+ },
+ "dekort": {
+  "skip": "meaning not certain"
+ },
+ "dekripitasiya": {
+  "skip": "meaning not certain"
+ },
+ "dekstrin": {
+  "az": "Nişastanın parçalanmasından alınan maddə.",
+  "en": "dextrin",
+  "pos": "noun"
+ },
+ "dekumbasiya": {
+  "skip": "meaning not certain"
+ },
+ "delafossit": {
+  "skip": "meaning not certain"
+ },
+ "delikt": {
+  "az": "Hüquq pozuntusu.",
+  "en": "delict, offence",
+  "pos": "noun"
+ },
+ "demaqogiya": {
+  "az": "Yalan vədlərlə və şirnikləndirici sözlərlə kütləni aldatma.",
+  "en": "demagogy",
+  "pos": "noun"
+ },
+ "demantoid": {
+  "az": "Yaşıl rəngli qiymətli qranat.",
+  "en": "demantoid",
+  "pos": "noun"
+ },
+ "demekologiya": {
+  "skip": "meaning not certain"
+ },
+ "demiurq": {
+  "az": "Dünyanı yaradan ilahi qüvvə.",
+  "en": "demiurge",
+  "pos": "noun"
+ },
+ "demotik": {
+  "az": "Qədim Misirin sadələşmiş yazısına aid; xalq dilinə aid.",
+  "en": "demotic",
+  "pos": "adjective"
+ },
+ "dempfer": {
+  "az": "Rəqsləri söndürən qurğu.",
+  "en": "damper",
+  "pos": "noun"
+ },
+ "dendrologiya": {
+  "az": "Ağac və kolları öyrənən botanika sahəsi.",
+  "en": "dendrology",
+  "pos": "noun"
+ },
+ "dendroloji": {
+  "az": "Dendrologiyaya aid.",
+  "en": "dendrological",
+  "pos": "adjective"
+ },
+ "dendroloq": {
+  "az": "Dendrologiya üzrə mütəxəssis.",
+  "en": "dendrologist",
+  "pos": "noun"
+ },
+ "dendrometr": {
+  "az": "Ağacın hündürlüyünü və diametrini ölçən cihaz.",
+  "en": "dendrometer",
+  "pos": "noun"
+ },
+ "dendrometriya": {
+  "az": "Ağacların ölçülməsi üsulları.",
+  "en": "dendrometry",
+  "pos": "noun"
+ },
+ "depilyasiya": {
+  "az": "Bədəndəki tüklərin təmizlənməsi.",
+  "en": "depilation",
+  "pos": "noun"
+ },
+ "deprivasiya": {
+  "az": "Əsas tələbatlardan məhrumetmə.",
+  "en": "deprivation",
+  "pos": "noun"
+ },
+ "derivatoqraf": {
+  "skip": "meaning not certain"
+ },
+ "derivatologiya": {
+  "az": "Söz yaradıcılığını öyrənən dilçilik sahəsi.",
+  "en": "derivatology",
+  "pos": "noun"
+ },
+ "derivatoloji": {
+  "az": "Derivatologiyaya aid.",
+  "en": "derivational",
+  "pos": "adjective"
+ },
+ "dermatoz": {
+  "az": "Dəri xəstəliyi.",
+  "en": "dermatosis",
+  "pos": "noun"
+ },
+ "dermoskopiya": {
+  "az": "Dərinin xüsusi cihazla böyüdülərək müayinəsi.",
+  "en": "dermoscopy",
+  "pos": "noun"
+ },
+ "deroqasiya": {
+  "az": "Qanunun qismən ləğvi.",
+  "en": "derogation",
+  "pos": "noun"
+ },
+ "desikant": {
+  "az": "Nəmi udan quruducu maddə.",
+  "en": "desiccant",
+  "pos": "noun"
+ },
+ "desima": {
+  "skip": "meaning not certain"
+ },
+ "desktop": {
+  "az": "Masaüstü kompüter; ekranın iş masası.",
+  "en": "desktop",
+  "pos": "noun"
+ },
+ "deskvamasiya": {
+  "az": "Dərinin üst qatının pul-pul qopması.",
+  "en": "desquamation",
+  "pos": "noun"
+ },
+ "desman": {
+  "az": "Suda yaşayan köstəbəyəbənzər heyvan.",
+  "en": "desman",
+  "pos": "noun"
+ },
+ "desmana": {
+  "skip": "meaning not certain"
+ },
+ "desmoliz": {
+  "skip": "meaning not certain"
+ },
+ "desmurgiya": {
+  "az": "Sarğı qoyma haqqında tibb bölməsi.",
+  "en": "desmurgy (bandaging)",
+  "pos": "noun"
+ },
+ "destruksiya": {
+  "az": "Dağılma, quruluşun pozulması.",
+  "en": "destruction",
+  "pos": "noun"
+ },
+ "deşdək": {
+  "skip": "meaning not certain"
+ },
+ "deşifr": {
+  "skip": "meaning not certain"
+ },
+ "deteriorasiya": {
+  "az": "Pisləşmə, keyfiyyətin aşağı düşməsi.",
+  "en": "deterioration",
+  "pos": "noun"
+ },
+ "detrit": {
+  "az": "Ölmüş üzvi qalıqların xırda hissəcikləri.",
+  "en": "detritus",
+  "pos": "noun"
+ },
+ "detrityeyən": {
+  "az": "Detritlə qidalanan.",
+  "en": "detritivorous",
+  "pos": "adjective"
+ },
+ "devastasiya": {
+  "az": "Dağıdılma, viran qoyulma.",
+  "en": "devastation",
+  "pos": "noun"
+ },
+ "deviasiya": {
+  "az": "Normadan və ya istiqamətdən kənara çıxma.",
+  "en": "deviation",
+  "pos": "noun"
+ },
+ "devizay": {
+  "skip": "meaning not certain"
+ },
+ "devon": {
+  "az": "Paleozoy erasının dördüncü dövrü.",
+  "en": "Devonian",
+  "pos": "noun"
+ },
+ "deyktik": {
+  "az": "İşarə edən, göstərici.",
+  "en": "deictic",
+  "pos": "adjective"
+ },
+ "deytaqram": {
+  "skip": "meaning not certain"
+ },
+ "deziqnasiya": {
+  "skip": "meaning not certain"
+ },
+ "dəfn-kəfn etmək": {
+  "az": "Ölünü kəfənləyib dəfn etmək.",
+  "en": "to shroud and bury",
+  "pos": "verb"
+ },
+ "dəhmər": {
+  "skip": "meaning not certain"
+ },
+ "dəli-dəli": {
+  "az": "Dəli kimi.",
+  "en": "madly",
+  "pos": "adverb"
+ },
+ "dəlməgöz": {
+  "skip": "meaning not certain"
+ },
+ "dəmli-dəmli": {
+  "skip": "meaning not certain"
+ },
+ "dənəli-dənəli": {
+  "az": "Dənə-dənə, dənəvər.",
+  "en": "granular",
+  "pos": "adjective"
+ },
+ "dənizbozcası": {
+  "skip": "meaning not certain"
+ },
+ "dərgil": {
+  "skip": "meaning not certain"
+ },
+ "dəridən-qabıqdan çıxmaq": {
+  "az": "Bir iş üçün bütün gücünü sərf etmək.",
+  "en": "to bend over backwards",
+  "pos": "verb"
+ }
+}

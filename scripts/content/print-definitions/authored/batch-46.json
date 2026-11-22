@@ -1,0 +1,1068 @@
+{
+ "etnodemoqrafiya": {
+  "az": "Xalqların say və tərkibini öyrənən demoqrafiya sahəsi.",
+  "en": "ethnodemography",
+  "pos": "noun"
+ },
+ "etnodilçilik": {
+  "az": "Dili xalqın mədəniyyəti ilə əlaqədə öyrənən sahə.",
+  "en": "ethnolinguistics",
+  "pos": "noun"
+ },
+ "etnoekologiya": {
+  "az": "Xalqların təbiətlə münasibətini öyrənən elm.",
+  "en": "ethnoecology",
+  "pos": "noun"
+ },
+ "etnoekoloji": {
+  "az": "Etnoekologiyaya aid.",
+  "en": "ethnoecological",
+  "pos": "adjective"
+ },
+ "etnoekoloq": {
+  "az": "Etnoekologiya üzrə mütəxəssis.",
+  "en": "ethnoecologist",
+  "pos": "noun"
+ },
+ "etnogenezis": {
+  "az": "Xalqın yaranma və formalaşma prosesi.",
+  "en": "ethnogenesis",
+  "pos": "noun"
+ },
+ "etnohidronim": {
+  "az": "Etnik addan yaranmış su obyekti adı.",
+  "en": "hydronym from an ethnonym",
+  "pos": "noun"
+ },
+ "etnokonfessional": {
+  "az": "Etnik və dini mənsubiyyətə aid.",
+  "en": "ethno-confessional",
+  "pos": "adjective"
+ },
+ "etnokonflikt": {
+  "az": "Etnik zəmində münaqişə.",
+  "en": "ethnic conflict",
+  "pos": "noun"
+ },
+ "etnokulturologiya": {
+  "az": "Xalqların mədəniyyətini öyrənən elm.",
+  "en": "ethnocultural studies",
+  "pos": "noun"
+ },
+ "etnokulturoloji": {
+  "az": "Etnokulturologiyaya aid.",
+  "en": "ethnocultural",
+  "pos": "adjective"
+ },
+ "etnoqrafizm": {
+  "az": "Bədii əsərdə məişət və adətlərin geniş təsviri.",
+  "en": "ethnographism",
+  "pos": "noun"
+ },
+ "etnolandşaft": {
+  "skip": "meaning not certain"
+ },
+ "etnolinqvistika": {
+  "az": "Dili xalqın mədəniyyəti ilə əlaqədə öyrənən sahə.",
+  "en": "ethnolinguistics",
+  "pos": "noun"
+ },
+ "etnologiya": {
+  "az": "Xalqları, onların mənşəyini və mədəniyyətini öyrənən elm.",
+  "en": "ethnology",
+  "pos": "noun"
+ },
+ "etnoloji": {
+  "az": "Etnologiyaya aid.",
+  "en": "ethnological",
+  "pos": "adjective"
+ },
+ "etnoloq": {
+  "az": "Etnologiya üzrə mütəxəssis.",
+  "en": "ethnologist",
+  "pos": "noun"
+ },
+ "etnomental": {
+  "az": "Xalqın dünyagörüşünə, təfəkkür tərzinə aid.",
+  "en": "ethnomental",
+  "pos": "adjective"
+ },
+ "etnomədəni": {
+  "az": "Xalqın mədəniyyətinə aid.",
+  "en": "ethnocultural",
+  "pos": "adjective"
+ },
+ "etnooronim": {
+  "az": "Etnik addan yaranmış dağ adı.",
+  "en": "oronym from an ethnonym",
+  "pos": "noun"
+ },
+ "etnooykonim": {
+  "az": "Etnik addan yaranmış yaşayış məntəqəsi adı.",
+  "en": "settlement name from an ethnonym",
+  "pos": "noun"
+ },
+ "etnosemiotika": {
+  "skip": "meaning not certain"
+ },
+ "etnosiyasi": {
+  "az": "Etnik və siyasi məsələlərə aid.",
+  "en": "ethnopolitical",
+  "pos": "adjective"
+ },
+ "etnososiologiya": {
+  "az": "Etnik qrupların sosial həyatını öyrənən elm.",
+  "en": "ethnosociology",
+  "pos": "noun"
+ },
+ "etnososioloji": {
+  "az": "Etnososiologiyaya aid.",
+  "en": "ethnosociological",
+  "pos": "adjective"
+ },
+ "etnososioloq": {
+  "az": "Etnososiologiya üzrə mütəxəssis.",
+  "en": "ethnosociologist",
+  "pos": "noun"
+ },
+ "etnotoponim": {
+  "az": "Etnik addan yaranmış yer adı.",
+  "en": "ethnotoponym",
+  "pos": "noun"
+ },
+ "ev-mətbəx": {
+  "az": "Ev və mətbəx işləri.",
+  "en": "home and kitchen",
+  "pos": "noun"
+ },
+ "ev-muzey": {
+  "az": "Görkəmli şəxsin yaşadığı evdə yaradılmış muzey.",
+  "en": "house museum",
+  "pos": "noun"
+ },
+ "ev-ocaq": {
+  "az": "Ailə, ev-eşik.",
+  "en": "home and hearth",
+  "pos": "noun"
+ },
+ "evolyusiya": {
+  "az": "Təkamül, tədrici inkişaf.",
+  "en": "evolution",
+  "pos": "noun"
+ },
+ "evrifagiya": {
+  "skip": "meaning not certain"
+ },
+ "evriqal": {
+  "az": "Suyun duzluluq dəyişmələrinə dözən.",
+  "en": "euryhaline",
+  "pos": "adjective"
+ },
+ "evrioksibiont": {
+  "skip": "meaning not certain"
+ },
+ "evriterm": {
+  "az": "Temperaturun geniş dəyişmələrinə dözən canlı.",
+  "en": "eurytherm",
+  "pos": "noun"
+ },
+ "evritmiya": {
+  "az": "Hərəkətlərin ritmik ahəngdarlığı.",
+  "en": "eurhythmy",
+  "pos": "noun"
+ },
+ "eydonim": {
+  "skip": "meaning not certain"
+ },
+ "ezoterik": {
+  "az": "Yalnız seçilmişlərə açıq olan, gizli.",
+  "en": "esoteric",
+  "pos": "adjective"
+ },
+ "ezoterika": {
+  "az": "Gizli, mistik təlimlər məcmusu.",
+  "en": "esotericism",
+  "pos": "noun"
+ },
+ "əbəs-əbəs": {
+  "az": "Boş yerə, nahaq.",
+  "en": "in vain",
+  "pos": "adverb"
+ },
+ "ədalı-ədalı": {
+  "az": "Naz-qəmzə ilə.",
+  "en": "coquettishly",
+  "pos": "adverb"
+ },
+ "ədəbli-ədəbli": {
+  "az": "Ədəblə, nəzakətlə.",
+  "en": "politely",
+  "pos": "adverb"
+ },
+ "ədəbsiz-ədəbsiz": {
+  "az": "Ədəbsizcəsinə.",
+  "en": "rudely, indecently",
+  "pos": "adverb"
+ },
+ "əxlaqsız-əxlaqsız": {
+  "az": "Əxlaqsızcasına.",
+  "en": "immorally",
+  "pos": "adverb"
+ },
+ "əkiztay": {
+  "skip": "meaning not certain"
+ },
+ "əlcə-əlcə": {
+  "skip": "meaning not certain"
+ },
+ "əlçatarlı": {
+  "skip": "meaning not certain"
+ },
+ "əl-ətək": {
+  "skip": "meaning not certain"
+ },
+ "ələyəz": {
+  "skip": "meaning not certain"
+ },
+ "əlində-ovucunda": {
+  "skip": "meaning not certain"
+ },
+ "əl-ovuc": {
+  "skip": "meaning not certain"
+ },
+ "əlvari": {
+  "az": "Ələ oxşayan.",
+  "en": "hand-shaped",
+  "pos": "adjective"
+ },
+ "əlyetərli": {
+  "skip": "meaning not certain"
+ },
+ "əndəm": {
+  "skip": "meaning not certain"
+ },
+ "əntiqçi": {
+  "az": "Antikvar əşyalar alıb-satan adam.",
+  "en": "antique dealer",
+  "pos": "noun"
+ },
+ "ərküdə": {
+  "skip": "meaning not certain"
+ },
+ "ərkyanalıq": {
+  "skip": "meaning not certain"
+ },
+ "əsassız-əsassız": {
+  "az": "Heç bir əsas olmadan.",
+  "en": "groundlessly",
+  "pos": "adverb"
+ },
+ "əsəbi-əsəbi": {
+  "az": "Əsəbi halda.",
+  "en": "nervously, irritably",
+  "pos": "adverb"
+ },
+ "əskilən": {
+  "skip": "meaning not certain"
+ },
+ "ət-can": {
+  "az": "Bədən, ət.",
+  "en": "flesh, body",
+  "pos": "noun"
+ },
+ "ətgətirən": {
+  "skip": "meaning not certain"
+ },
+ "ət-qan": {
+  "az": "Ət və qan; bədən.",
+  "en": "flesh and blood",
+  "pos": "noun"
+ },
+ "ətqanad": {
+  "skip": "meaning not certain"
+ },
+ "ət-piy": {
+  "az": "Ət və piy.",
+  "en": "meat and fat",
+  "pos": "noun"
+ },
+ "ət-süd": {
+  "az": "Ət və süd məhsulları.",
+  "en": "meat and milk",
+  "pos": "noun"
+ },
+ "əvəzlikləşmə": {
+  "az": "Sözün əvəzliyə keçməsi.",
+  "en": "pronominalization",
+  "pos": "noun"
+ },
+ "əydi": {
+  "skip": "meaning not certain"
+ },
+ "əyribaş": {
+  "skip": "meaning not certain"
+ },
+ "əyriböyürlü": {
+  "skip": "meaning not certain"
+ },
+ "əyriqıçlı": {
+  "az": "Qıçları əyri olan.",
+  "en": "bow-legged",
+  "pos": "adjective"
+ },
+ "əyriqılçalı": {
+  "az": "Qılçaları əyri olan.",
+  "en": "bow-legged",
+  "pos": "adjective"
+ },
+ "əyriqol": {
+  "skip": "meaning not certain"
+ },
+ "əzgən": {
+  "skip": "meaning not certain"
+ },
+ "əzim-əzim": {
+  "skip": "meaning not certain"
+ },
+ "faktoqraf": {
+  "skip": "meaning not certain"
+ },
+ "faq": {
+  "az": "Bakteriyanı yoluxduran virus.",
+  "en": "phage",
+  "pos": "noun"
+ },
+ "faqodiaqnostika": {
+  "az": "Faqlardan istifadə ilə bakteriyaların təyini.",
+  "en": "phage typing",
+  "pos": "noun"
+ },
+ "faqofobiya": {
+  "az": "Udmaqdan xəstə qorxu.",
+  "en": "phagophobia",
+  "pos": "noun"
+ },
+ "faradey": {
+  "az": "Elektrik yükü vahidi.",
+  "en": "faraday",
+  "pos": "noun"
+ },
+ "faradometr": {
+  "skip": "meaning not certain"
+ },
+ "farmakodinamika": {
+  "az": "Dərmanların orqanizmə təsirini öyrənən farmakologiya bölməsi.",
+  "en": "pharmacodynamics",
+  "pos": "noun"
+ },
+ "farmakoterapevt": {
+  "skip": "meaning not certain"
+ },
+ "fatik funksiya": {
+  "az": "Dilin ünsiyyəti qurmaq və saxlamaq funksiyası.",
+  "en": "phatic function",
+  "pos": "noun"
+ },
+ "faunist": {
+  "az": "Faunanı öyrənən mütəxəssis.",
+  "en": "faunist",
+  "pos": "noun"
+ },
+ "faunistik": {
+  "az": "Faunaya aid.",
+  "en": "faunistic",
+  "pos": "adjective"
+ },
+ "favizm": {
+  "az": "Paxla yeyərkən baş verən irsi qan xəstəliyi.",
+  "en": "favism",
+  "pos": "noun"
+ },
+ "favus": {
+  "az": "Baş dərisinin göbələk xəstəliyi, keçəllik.",
+  "en": "favus",
+  "pos": "noun"
+ },
+ "fazometr": {
+  "az": "Fazalar fərqini ölçən cihaz.",
+  "en": "phase meter",
+  "pos": "noun"
+ },
+ "fekaluriya": {
+  "skip": "meaning not certain"
+ },
+ "fenantren": {
+  "az": "Üç benzol halqalı aromatik karbohidrogen.",
+  "en": "phenanthrene",
+  "pos": "noun"
+ },
+ "fenestrasiya": {
+  "skip": "meaning not certain"
+ },
+ "fermentopatiya": {
+  "az": "Fermentlərin çatışmazlığı və ya pozulması ilə bağlı xəstəlik.",
+  "en": "enzymopathy",
+  "pos": "noun"
+ },
+ "ferrodinamik": {
+  "skip": "meaning not certain"
+ },
+ "ferroelektrik": {
+  "az": "Kortəbii elektrik qütblənməsinə malik maddə.",
+  "en": "ferroelectric",
+  "pos": "noun"
+ },
+ "ferroplastik": {
+  "skip": "meaning not certain"
+ },
+ "ferrorezonans": {
+  "az": "Ferromaqnit nüvəli dövrədə rezonans hadisəsi.",
+  "en": "ferroresonance",
+  "pos": "noun"
+ },
+ "ferrosilisium": {
+  "az": "Dəmirlə silisiumun ərintisi.",
+  "en": "ferrosilicon",
+  "pos": "noun"
+ },
+ "ferrovolfram": {
+  "az": "Dəmirlə volframın ərintisi.",
+  "en": "ferrotungsten",
+  "pos": "noun"
+ },
+ "ferrozond": {
+  "az": "Zəif maqnit sahəsini ölçən cihaz.",
+  "en": "fluxgate magnetometer",
+  "pos": "noun"
+ },
+ "fertil": {
+  "az": "Nəsil verməyə qadir.",
+  "en": "fertile",
+  "pos": "adjective"
+ },
+ "fətva": {
+  "az": "İslam alimin şəriət məsələsi üzrə verdiyi rəy.",
+  "en": "fatwa",
+  "pos": "noun"
+ },
+ "fibroadenoma": {
+  "az": "Vəzi və birləşdirici toxumadan ibarət xoşxassəli şiş.",
+  "en": "fibroadenoma",
+  "pos": "noun"
+ },
+ "fibroangioma": {
+  "skip": "meaning not certain"
+ },
+ "fikofaq": {
+  "skip": "meaning not certain"
+ },
+ "filan-filan": {
+  "az": "Və sairə, bu kimi şeylər.",
+  "en": "and so on",
+  "pos": "phrase"
+ },
+ "filant": {
+  "skip": "meaning not certain"
+ },
+ "fillofora": {
+  "skip": "meaning not certain"
+ },
+ "filloksera": {
+  "az": "Üzüm köklərinə zərər verən həşərat.",
+  "en": "phylloxera",
+  "pos": "noun"
+ },
+ "fillokladi": {
+  "skip": "meaning not certain"
+ },
+ "fillokser": {
+  "skip": "meaning not certain"
+ },
+ "filogenetik": {
+  "az": "Filogenezə aid.",
+  "en": "phylogenetic",
+  "pos": "adjective"
+ },
+ "filogenetika": {
+  "az": "Canlıların təkamül qohumluğunu öyrənən elm.",
+  "en": "phylogenetics",
+  "pos": "noun"
+ },
+ "firn": {
+  "az": "Dağlarda sıxlaşıb dənəvər buza çevrilmiş qar.",
+  "en": "firn",
+  "pos": "noun"
+ },
+ "fitobentos": {
+  "az": "Su hövzəsinin dibində yaşayan bitkilər.",
+  "en": "phytobenthos",
+  "pos": "noun"
+ },
+ "fitobiologiya": {
+  "skip": "meaning not certain"
+ },
+ "fitobioloji": {
+  "skip": "meaning not certain"
+ },
+ "fitobioloq": {
+  "skip": "meaning not certain"
+ },
+ "fitobiotik": {
+  "skip": "meaning not certain"
+ },
+ "fitocoğrafi": {
+  "az": "Bitkilərin coğrafi yayılmasına aid.",
+  "en": "phytogeographic",
+  "pos": "adjective"
+ },
+ "fitocoğrafiya": {
+  "az": "Bitkilərin yer kürəsində yayılmasını öyrənən elm.",
+  "en": "phytogeography",
+  "pos": "noun"
+ },
+ "fitoftor": {
+  "az": "Kartof və pomidorda xəstəlik törədən göbələk.",
+  "en": "phytophthora",
+  "pos": "noun"
+ },
+ "fitogenetika": {
+  "az": "Bitkilərin irsiyyətini öyrənən elm.",
+  "en": "plant genetics",
+  "pos": "noun"
+ },
+ "fitogenezis": {
+  "skip": "meaning not certain"
+ },
+ "fitohormon": {
+  "az": "Bitkilərin böyüməsini tənzimləyən hormon.",
+  "en": "plant hormone",
+  "pos": "noun"
+ },
+ "fitoideonim": {
+  "skip": "meaning not certain"
+ },
+ "fitolaboratoriya": {
+  "skip": "meaning not certain"
+ },
+ "fitologiya": {
+  "az": "Botanika, bitkiləri öyrənən elm.",
+  "en": "phytology",
+  "pos": "noun"
+ },
+ "fitoloq": {
+  "az": "Botanik.",
+  "en": "botanist",
+  "pos": "noun"
+ },
+ "fitomeliorasiya": {
+  "az": "Torpağı bitki əkməklə yaxşılaşdırma.",
+  "en": "phytomelioration",
+  "pos": "noun"
+ },
+ "fitooronim": {
+  "az": "Bitki adından yaranmış dağ adı.",
+  "en": "oronym from a plant name",
+  "pos": "noun"
+ },
+ "fitooykonim": {
+  "az": "Bitki adından yaranmış yaşayış məntəqəsi adı.",
+  "en": "settlement name from a plant name",
+  "pos": "noun"
+ },
+ "fitopaleontologiya": {
+  "az": "Qazıntı bitkiləri öyrənən elm.",
+  "en": "paleobotany",
+  "pos": "noun"
+ },
+ "fitoparazit": {
+  "az": "Bitkilərdə parazitlik edən orqanizm.",
+  "en": "plant parasite",
+  "pos": "noun"
+ },
+ "fitoplankton": {
+  "az": "Suda üzən mikroskopik bitkilər.",
+  "en": "phytoplankton",
+  "pos": "noun"
+ },
+ "fitoplazma": {
+  "az": "Bitki xəstəlikləri törədən hüceyrə divarsız bakteriya.",
+  "en": "phytoplasma",
+  "pos": "noun"
+ },
+ "fitosanitar": {
+  "az": "Bitkiləri xəstəlik və ziyanvericilərdən qorumağa aid.",
+  "en": "phytosanitary",
+  "pos": "adjective"
+ },
+ "fitosanitariya": {
+  "az": "Bitkiləri xəstəlik və ziyanvericilərdən qoruma tədbirləri.",
+  "en": "phytosanitary control",
+  "pos": "noun"
+ },
+ "fitoterapevt": {
+  "az": "Bitkilərlə müalicə edən həkim.",
+  "en": "herbal therapist",
+  "pos": "noun"
+ },
+ "fitoterapiya": {
+  "az": "Dərman bitkiləri ilə müalicə.",
+  "en": "phytotherapy",
+  "pos": "noun"
+ },
+ "fitotoponim": {
+  "az": "Bitki adından yaranmış yer adı.",
+  "en": "phytotoponym",
+  "pos": "noun"
+ },
+ "fitotopoqrafiya": {
+  "skip": "meaning not certain"
+ },
+ "fitourbanonim": {
+  "skip": "meaning not certain"
+ },
+ "fitozoonim": {
+  "skip": "meaning not certain"
+ },
+ "fizionim": {
+  "skip": "meaning not certain"
+ },
+ "fiziopatoloji": {
+  "skip": "meaning not certain"
+ },
+ "flajolet": {
+  "az": "Kiçik uzununa tutulan fleyta; simlərdə yüngül toxunuşla alınan səs.",
+  "en": "flageolet",
+  "pos": "noun"
+ },
+ "fleboqraf": {
+  "skip": "meaning not certain"
+ },
+ "fleboqrafiya": {
+  "az": "Venaların rentgen müayinəsi.",
+  "en": "phlebography",
+  "pos": "noun"
+ },
+ "flebologiya": {
+  "az": "Vena xəstəliklərini öyrənən tibb sahəsi.",
+  "en": "phlebology",
+  "pos": "noun"
+ },
+ "fleboloq": {
+  "az": "Vena xəstəlikləri üzrə həkim.",
+  "en": "phlebologist",
+  "pos": "noun"
+ },
+ "fleqma": {
+  "skip": "meaning not certain"
+ },
+ "flint": {
+  "skip": "several unrelated senses"
+ },
+ "fliş": {
+  "az": "Dəniz çöküntülərinin ritmik növbələşən qatları.",
+  "en": "flysch",
+  "pos": "noun"
+ },
+ "florist": {
+  "az": "Gül kompozisiyaları hazırlayan usta.",
+  "en": "florist",
+  "pos": "noun"
+ },
+ "floristik": {
+  "az": "Floraya aid.",
+  "en": "floristic",
+  "pos": "adjective"
+ },
+ "fluktuasiya": {
+  "az": "Kəmiyyətin orta qiymətdən təsadüfi kənaraçıxması.",
+  "en": "fluctuation",
+  "pos": "noun"
+ },
+ "flüoroqraf": {
+  "az": "Flüoroqrafiya aparatı.",
+  "en": "fluorograph",
+  "pos": "noun"
+ },
+ "follikulin": {
+  "az": "Qadın cinsiyyət hormonu, estron.",
+  "en": "folliculin, estrone",
+  "pos": "noun"
+ },
+ "fomoz": {
+  "skip": "meaning not certain"
+ },
+ "fonematika": {
+  "skip": "meaning not certain"
+ },
+ "fonoavtoqraf": {
+  "az": "Səs dalğalarını yazan ilk cihaz.",
+  "en": "phonautograph",
+  "pos": "noun"
+ },
+ "fonodiaqram": {
+  "skip": "meaning not certain"
+ },
+ "fonojurnal": {
+  "skip": "meaning not certain"
+ },
+ "fonokardioqrafiya": {
+  "az": "Ürək səslərinin qrafik yazılması.",
+  "en": "phonocardiography",
+  "pos": "noun"
+ },
+ "fonokardioqram": {
+  "az": "Ürək səslərinin qrafik yazısı.",
+  "en": "phonocardiogram",
+  "pos": "noun"
+ },
+ "fonokateter": {
+  "skip": "meaning not certain"
+ },
+ "fonokolleksiya": {
+  "skip": "meaning not certain"
+ },
+ "fonomorfologiya": {
+  "skip": "meaning not certain"
+ },
+ "fonomorfoloji": {
+  "skip": "meaning not certain"
+ },
+ "fonomüntəxəbat": {
+  "skip": "meaning not certain"
+ },
+ "fonosemantik": {
+  "skip": "meaning not certain"
+ },
+ "fonosemantika": {
+  "az": "Səslərin məna ilə əlaqəsini öyrənən dilçilik sahəsi.",
+  "en": "phonosemantics",
+  "pos": "noun"
+ },
+ "fonosintaksis": {
+  "skip": "meaning not certain"
+ },
+ "fonoüslubiyyat": {
+  "skip": "meaning not certain"
+ },
+ "forte": {
+  "az": "Güclü, ucadan.",
+  "en": "forte",
+  "pos": "adverb"
+ },
+ "fortifikasiya": {
+  "az": "Hərbi istehkam tikintisi.",
+  "en": "fortification",
+  "pos": "noun"
+ },
+ "fotoqrammetriya": {
+  "az": "Obyektlərin ölçü və formasını fotoşəkillərə görə təyin etmə.",
+  "en": "photogrammetry",
+  "pos": "noun"
+ },
+ "fototeleqrafiya": {
+  "az": "Təsvirlərin teleqrafla ötürülməsi.",
+  "en": "phototelegraphy",
+  "pos": "noun"
+ },
+ "fototutum effekti": {
+  "skip": "meaning not certain"
+ },
+ "fotovoltaik xassə": {
+  "skip": "meaning not certain"
+ },
+ "franko": {
+  "az": "Malın daşınma xərclərinin kimin hesabına olduğunu göstərən şərt.",
+  "en": "franco (delivery term)",
+  "pos": "noun"
+ },
+ "franko-anbar": {
+  "az": "Malın alıcının anbarına qədər çatdırılması şərti.",
+  "en": "free to warehouse",
+  "pos": "noun"
+ },
+ "franko-bort": {
+  "az": "Malın gəmi bortuna qədər satıcı hesabına çatdırılması şərti.",
+  "en": "free on board",
+  "pos": "noun"
+ },
+ "franko-gəmi": {
+  "skip": "meaning not certain"
+ },
+ "franşiza": {
+  "az": "Sığortanın ödəmədiyi zərər hissəsi; ticarət nişanından istifadə hüququ.",
+  "en": "deductible; franchise",
+  "pos": "noun"
+ },
+ "frayer": {
+  "skip": "meaning not certain"
+ },
+ "freydist": {
+  "az": "Freydizm tərəfdarı.",
+  "en": "Freudian",
+  "pos": "noun"
+ },
+ "freydizm": {
+  "az": "Ziqmund Freydin psixoanaliz təlimi.",
+  "en": "Freudianism",
+  "pos": "noun"
+ },
+ "friqold": {
+  "skip": "meaning not certain"
+ },
+ "frizer": {
+  "az": "Dondurma hazırlayan maşın.",
+  "en": "ice-cream freezer",
+  "pos": "noun"
+ },
+ "fronda": {
+  "az": "Hakimiyyətə qarşı prinsipsiz müxalifət.",
+  "en": "fronde",
+  "pos": "noun"
+ },
+ "fulleren": {
+  "az": "Karbon atomlarından ibarət kürəvari molekul.",
+  "en": "fullerene",
+  "pos": "noun"
+ },
+ "fullerit": {
+  "az": "Fullerenlərdən ibarət kristal.",
+  "en": "fullerite",
+  "pos": "noun"
+ },
+ "fulyar": {
+  "az": "Yüngül ipək parça; ipək boyun yaylığı.",
+  "en": "foulard",
+  "pos": "noun"
+ },
+ "funksionalist": {
+  "az": "Funksionalizm tərəfdarı.",
+  "en": "functionalist",
+  "pos": "noun"
+ },
+ "funksionalizm": {
+  "az": "Hadisələri funksiyalarına görə izah edən yanaşma.",
+  "en": "functionalism",
+  "pos": "noun"
+ },
+ "furaj": {
+  "az": "Mal-qara yemi.",
+  "en": "fodder",
+  "pos": "noun"
+ },
+ "furfurol": {
+  "az": "Kəpəkdən alınan üzvi həlledici.",
+  "en": "furfural",
+  "pos": "noun"
+ },
+ "furqon": {
+  "az": "Örtülü yük maşını və ya araba.",
+  "en": "van",
+  "pos": "noun"
+ },
+ "furunkul": {
+  "az": "Tük kisəsinin irinli iltihabı, çiban.",
+  "en": "boil, furuncle",
+  "pos": "noun"
+ },
+ "furunkulyoz": {
+  "az": "Bədəndə çoxlu çiban əmələ gəlməsi.",
+  "en": "furunculosis",
+  "pos": "noun"
+ },
+ "futurologiya": {
+  "az": "Gələcəyi proqnozlaşdıran elm.",
+  "en": "futurology",
+  "pos": "noun"
+ },
+ "füçers": {
+  "az": "Gələcəkdə müəyyən qiymətə mal almaq və ya satmaq müqaviləsi.",
+  "en": "futures contract",
+  "pos": "noun"
+ },
+ "gavangir": {
+  "skip": "meaning not certain"
+ },
+ "gavər": {
+  "skip": "meaning not certain"
+ },
+ "gebraist": {
+  "skip": "meaning not certain"
+ },
+ "gebraizm": {
+  "skip": "meaning not certain"
+ },
+ "gecəb": {
+  "skip": "meaning not certain"
+ },
+ "geləbənzər": {
+  "skip": "meaning not certain"
+ },
+ "geminasiya": {
+  "az": "Samitin qoşalaşması.",
+  "en": "gemination",
+  "pos": "noun"
+ },
+ "genağız": {
+  "az": "Ağzı geniş olan.",
+  "en": "wide-mouthed",
+  "pos": "adjective"
+ },
+ "geniş-geniş": {
+  "az": "Çox geniş, rahat.",
+  "en": "spacious; at length",
+  "pos": "adverb"
+ },
+ "genocoğrafiya": {
+  "az": "Genlərin coğrafi yayılmasını öyrənən elm.",
+  "en": "genogeography",
+  "pos": "noun"
+ },
+ "genotipoloji": {
+  "skip": "meaning not certain"
+ },
+ "genotoponim": {
+  "skip": "meaning not certain"
+ },
+ "geomerida": {
+  "skip": "meaning not certain"
+ },
+ "geometriya": {
+  "az": "Fəza formalarını və münasibətlərini öyrənən riyaziyyat bölməsi.",
+  "en": "geometry",
+  "pos": "noun"
+ },
+ "georgin": {
+  "az": "İri parlaq çiçəkli dekorativ bitki.",
+  "en": "dahlia",
+  "pos": "noun"
+ },
+ "geotektonik": {
+  "az": "Geotektonikaya aid.",
+  "en": "geotectonic",
+  "pos": "adjective"
+ },
+ "geotektonika": {
+  "az": "Yer qabığının quruluşunu və hərəkətlərini öyrənən elm.",
+  "en": "geotectonics",
+  "pos": "noun"
+ },
+ "geotermika": {
+  "az": "Yerin daxili istiliyini öyrənən elm.",
+  "en": "geothermics",
+  "pos": "noun"
+ },
+ "geraniol": {
+  "az": "Qızılgül iyli terpen spirti.",
+  "en": "geraniol",
+  "pos": "noun"
+ },
+ "germanofobiya": {
+  "az": "Almanlara qarşı düşmənçilik.",
+  "en": "Germanophobia",
+  "pos": "noun"
+ },
+ "geştaltpsixologiya": {
+  "az": "Qavrayışı bütöv strukturlar kimi öyrənən psixologiya cərəyanı.",
+  "en": "Gestalt psychology",
+  "pos": "noun"
+ },
+ "geştaltpsixoloji": {
+  "az": "Geştaltpsixologiyaya aid.",
+  "en": "Gestalt-psychological",
+  "pos": "adjective"
+ },
+ "getit": {
+  "az": "Dəmir hidroksidindən ibarət mineral.",
+  "en": "goethite",
+  "pos": "noun"
+ },
+ "getr": {
+  "az": "Ayaqqabının üstündən geyilən baldırlıq.",
+  "en": "gaiter",
+  "pos": "noun"
+ },
+ "geytonoqamiya": {
+  "az": "Eyni bitkinin bir çiçəyindən digərinə tozlanma.",
+  "en": "geitonogamy",
+  "pos": "noun"
+ },
+ "geyzer": {
+  "az": "Vaxtaşırı isti su fəvvarəsi vuran bulaq.",
+  "en": "geyser",
+  "pos": "noun"
+ },
+ "gədəbəyit": {
+  "skip": "meaning not certain"
+ },
+ "gəlinanası": {
+  "az": "Gəlinin anası.",
+  "en": "bride's mother",
+  "pos": "noun"
+ },
+ "gəlingördü": {
+  "skip": "meaning not certain"
+ },
+ "gəlinqırqıçı": {
+  "skip": "meaning not certain"
+ },
+ "gənəş": {
+  "skip": "meaning not certain"
+ },
+ "gərməklik": {
+  "skip": "meaning not certain"
+ },
+ "gərmic": {
+  "skip": "meaning not certain"
+ },
+ "gərnuş etmək": {
+  "skip": "meaning not certain"
+ },
+ "gəvəng": {
+  "skip": "meaning not certain"
+ },
+ "giasint": {
+  "az": "Ətirli salxım çiçəkli soğanaqlı bitki; qırmızı-narıncı qiymətli daş.",
+  "en": "hyacinth",
+  "pos": "noun"
+ },
+ "gibbon": {
+  "az": "Cənub-Şərqi Asiyada yaşayan uzunqollu meymun.",
+  "en": "gibbon",
+  "pos": "noun"
+ },
+ "gibbs": {
+  "skip": "meaning not certain"
+ },
+ "gibibayt": {
+  "az": "2 üstü 30 bayta bərabər informasiya vahidi.",
+  "en": "gibibyte",
+  "pos": "noun"
+ },
+ "gid": {
+  "az": "Bələdçi.",
+  "en": "guide",
+  "pos": "noun"
+ },
+ "gigit": {
+  "skip": "meaning not certain"
+ },
+ "giqant": {
+  "az": "Nəhəng, çox iri.",
+  "en": "giant",
+  "pos": "noun"
+ },
+ "gilbert": {
+  "skip": "meaning not certain"
+ },
+ "gilcə": {
+  "skip": "meaning not certain"
+ },
+ "gilənşah": {
+  "skip": "meaning not certain"
+ },
+ "gilyotin": {
+  "az": "Baş kəsmək üçün düşən bıçaqlı alət.",
+  "en": "guillotine",
+  "pos": "noun"
+ }
+}

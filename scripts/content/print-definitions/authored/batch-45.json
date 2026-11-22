@@ -1,0 +1,1068 @@
+{
+ "dərin-dərin": {
+  "az": "Çox dərindən.",
+  "en": "deeply",
+  "pos": "adverb"
+ },
+ "dərisaqqovu": {
+  "skip": "meaning not certain"
+ },
+ "dərmanlada-dərmanlada": {
+  "skip": "form not certain"
+ },
+ "dəvəayağı": {
+  "skip": "meaning not certain"
+ },
+ "dəvəboynu": {
+  "skip": "meaning not certain"
+ },
+ "dəvəçökürdən": {
+  "skip": "meaning not certain"
+ },
+ "dəvəqarnı": {
+  "skip": "meaning not certain"
+ },
+ "dəyirmiağız": {
+  "az": "Ağzı dəyirmi olan.",
+  "en": "round-mouthed",
+  "pos": "adjective"
+ },
+ "dəyirmi-dəyirmi": {
+  "az": "Dairəvi, girdə-girdə.",
+  "en": "round, in circles",
+  "pos": "adjective"
+ },
+ "dəyirmigöz": {
+  "az": "Gözləri dəyirmi olan.",
+  "en": "round-eyed",
+  "pos": "adjective"
+ },
+ "dəyişməyən": {
+  "az": "Dəyişilməz, sabit qalan.",
+  "en": "unchanging",
+  "pos": "adjective"
+ },
+ "dəyməmənə": {
+  "skip": "meaning not certain"
+ },
+ "dığırlada-dığırlada": {
+  "skip": "form not certain"
+ },
+ "dımırıq": {
+  "skip": "meaning not certain"
+ },
+ "diabaz": {
+  "az": "Tünd yaşıl və ya qara rəngli maqmatik süxur.",
+  "en": "diabase",
+  "pos": "noun"
+ },
+ "diafon": {
+  "skip": "meaning not certain"
+ },
+ "diafoniya": {
+  "skip": "meaning not certain"
+ },
+ "diaqlif": {
+  "skip": "meaning not certain"
+ },
+ "diaqnostik": {
+  "az": "Diaqnoz qoymağa aid.",
+  "en": "diagnostic",
+  "pos": "adjective"
+ },
+ "diallaq": {
+  "az": "Mineralların bir növü olan qatlı piroksen.",
+  "en": "diallage",
+  "pos": "noun"
+ },
+ "diapauz": {
+  "az": "Həşəratların inkişafında müvəqqəti dayanma dövrü.",
+  "en": "diapause",
+  "pos": "noun"
+ },
+ "diapedez": {
+  "az": "Qan hüceyrələrinin damar divarından toxumaya keçməsi.",
+  "en": "diapedesis",
+  "pos": "noun"
+ },
+ "diatonika": {
+  "az": "Yeddi pilləli səs sistemi.",
+  "en": "diatonic system",
+  "pos": "noun"
+ },
+ "diedr": {
+  "az": "İki müstəvinin əmələ gətirdiyi bucaq.",
+  "en": "dihedral angle",
+  "pos": "noun"
+ },
+ "diereza": {
+  "skip": "meaning not certain"
+ },
+ "difenil": {
+  "az": "İki fenil qrupundan ibarət aromatik karbohidrogen.",
+  "en": "biphenyl",
+  "pos": "noun"
+ },
+ "diferent": {
+  "skip": "meaning not certain"
+ },
+ "difraksiya": {
+  "az": "Dalğaların maneəni əyib keçməsi.",
+  "en": "diffraction",
+  "pos": "noun"
+ },
+ "difraktometr": {
+  "az": "Difraksiya mənzərəsini ölçən cihaz.",
+  "en": "diffractometer",
+  "pos": "noun"
+ },
+ "digenit": {
+  "skip": "meaning not certain"
+ },
+ "digiset": {
+  "skip": "meaning not certain"
+ },
+ "dixoqamiya": {
+  "az": "Bitkidə erkəkcik və dişiciyin müxtəlif vaxtda yetişməsi.",
+  "en": "dichogamy",
+  "pos": "noun"
+ },
+ "dixotomiya": {
+  "az": "Bütövün iki hissəyə bölünməsi.",
+  "en": "dichotomy",
+  "pos": "noun"
+ },
+ "dikbaş-dikbaş": {
+  "az": "Dikbaşlıqla, inadkarcasına.",
+  "en": "stubbornly",
+  "pos": "adverb"
+ },
+ "dikdöş": {
+  "skip": "meaning not certain"
+ },
+ "dikkit": {
+  "skip": "meaning not certain"
+ },
+ "diqraf": {
+  "az": "Bir səsi bildirən iki hərfin birləşməsi.",
+  "en": "digraph",
+  "pos": "noun"
+ },
+ "dildənkənar qalıq": {
+  "skip": "meaning not certain"
+ },
+ "dilxor-dilxor": {
+  "az": "Kədərli halda.",
+  "en": "glumly",
+  "pos": "adverb"
+ },
+ "dilogiya": {
+  "az": "İki hissədən ibarət əsər.",
+  "en": "dilogy",
+  "pos": "noun"
+ },
+ "dimorfiya": {
+  "az": "Eyni növün iki formada olması.",
+  "en": "dimorphism",
+  "pos": "noun"
+ },
+ "dina": {
+  "az": "Köhnə qüvvə vahidi.",
+  "en": "dyne",
+  "pos": "noun"
+ },
+ "dinamoqrafiya": {
+  "skip": "meaning not certain"
+ },
+ "dinamometriya": {
+  "az": "Qüvvənin ölçülməsi.",
+  "en": "dynamometry",
+  "pos": "noun"
+ },
+ "dina-saniyə": {
+  "skip": "meaning not certain"
+ },
+ "dingildədə-dingildədə": {
+  "skip": "form not certain"
+ },
+ "dinqo": {
+  "az": "Avstraliyada yaşayan vəhşi it.",
+  "en": "dingo",
+  "pos": "noun"
+ },
+ "dinməzcə-dinməzcə": {
+  "az": "Heç nə demədən, səssizcə.",
+  "en": "silently",
+  "pos": "adverb"
+ },
+ "dinməz-dinməz": {
+  "az": "Heç nə demədən, səssizcə.",
+  "en": "silently",
+  "pos": "adverb"
+ },
+ "diplomant": {
+  "az": "Diplom işi yazan tələbə; müsabiqə diplomu almış şəxs.",
+  "en": "diploma student; diploma winner",
+  "pos": "noun"
+ },
+ "diptix": {
+  "az": "İki hissədən ibarət rəsm və ya əsər.",
+  "en": "diptych",
+  "pos": "noun"
+ },
+ "diricəalaq": {
+  "skip": "meaning not certain"
+ },
+ "diriciyəz": {
+  "skip": "meaning not certain"
+ },
+ "disaxarid": {
+  "az": "İki monosaxariddən ibarət karbohidrat.",
+  "en": "disaccharide",
+  "pos": "noun"
+ },
+ "disfoniya": {
+  "az": "Səsin pozulması.",
+  "en": "dysphonia",
+  "pos": "noun"
+ },
+ "disillab": {
+  "skip": "meaning not certain"
+ },
+ "diskant": {
+  "az": "Uşaqların yüksək səs tembri.",
+  "en": "treble (voice)",
+  "pos": "noun"
+ },
+ "diskresion": {
+  "az": "Öz mülahizəsinə görə qərar vermə ixtiyarına əsaslanan.",
+  "en": "discretionary",
+  "pos": "adjective"
+ },
+ "diskret": {
+  "az": "Kəsikli, ayrı-ayrı hissələrdən ibarət.",
+  "en": "discrete",
+  "pos": "adjective"
+ },
+ "dispaç": {
+  "skip": "meaning not certain"
+ },
+ "dispanserizasiya": {
+  "az": "Əhalinin müntəzəm profilaktik tibbi müayinəsi.",
+  "en": "regular health screening",
+  "pos": "noun"
+ },
+ "dispaşa": {
+  "az": "Dəniz qəzası zərərinin bölüşdürülməsi hesabı.",
+  "en": "average adjustment",
+  "pos": "noun"
+ },
+ "disponent": {
+  "skip": "meaning not certain"
+ },
+ "distansiometr": {
+  "skip": "meaning not certain"
+ },
+ "dişək-dişək etmək": {
+  "skip": "meaning not certain"
+ },
+ "dişqurtlayan": {
+  "skip": "meaning not certain"
+ },
+ "dişsiz-dişsiz": {
+  "skip": "meaning not certain"
+ },
+ "dittologiya": {
+  "skip": "meaning not certain"
+ },
+ "diurez": {
+  "az": "Müəyyən vaxtda ifraz olunan sidiyin miqdarı.",
+  "en": "diuresis",
+  "pos": "noun"
+ },
+ "diyetologiya": {
+  "az": "Pəhriz və qidalanma haqqında elm.",
+  "en": "dietetics",
+  "pos": "noun"
+ },
+ "diyetoloq": {
+  "az": "Pəhriz üzrə həkim.",
+  "en": "dietitian",
+  "pos": "noun"
+ },
+ "dizajio": {
+  "skip": "meaning not certain"
+ },
+ "dizartriya": {
+  "az": "Nitq orqanlarının sinir pozğunluğu nəticəsində tələffüzün pozulması.",
+  "en": "dysarthria",
+  "pos": "noun"
+ },
+ "dizdonu": {
+  "skip": "meaning not certain"
+ },
+ "dodekafoniya": {
+  "az": "On iki tonlu bəstəkarlıq texnikası.",
+  "en": "dodecaphony",
+  "pos": "noun"
+ },
+ "dodu-dodu oynamaq": {
+  "skip": "meaning not certain"
+ },
+ "doğal": {
+  "az": "Təbii.",
+  "en": "natural",
+  "pos": "adjective"
+ },
+ "dokumentonim": {
+  "skip": "meaning not certain"
+ },
+ "doqquz-doqquz": {
+  "az": "Doqquzar-doqquzar.",
+  "en": "nine at a time",
+  "pos": "adverb"
+ },
+ "doqquzqat": {
+  "az": "Doqquz qat.",
+  "en": "ninefold",
+  "pos": "adjective"
+ },
+ "doqma": {
+  "az": "Şübhəsiz həqiqət kimi qəbul edilən müddəa.",
+  "en": "dogma",
+  "pos": "noun"
+ },
+ "doqmatika": {
+  "az": "Dini ehkamlar sistemi.",
+  "en": "dogmatics",
+  "pos": "noun"
+ },
+ "dolağac": {
+  "skip": "meaning not certain"
+ },
+ "dolayı-dolayı": {
+  "az": "Dolayısı ilə, üstüörtülü.",
+  "en": "indirectly",
+  "pos": "adverb"
+ },
+ "dolu-dolu": {
+  "az": "Ağzına qədər dolu.",
+  "en": "brimful",
+  "pos": "adjective"
+ },
+ "domatofobiya": {
+  "az": "Evdə olmaqdan xəstə qorxu.",
+  "en": "domatophobia",
+  "pos": "noun"
+ },
+ "dombalankök": {
+  "skip": "meaning not certain"
+ },
+ "dombra": {
+  "az": "Qazax və qırğızların iki simli musiqi aləti.",
+  "en": "dombra",
+  "pos": "noun"
+ },
+ "do-minor": {
+  "az": "Do notu üzərində minor lad.",
+  "en": "C minor",
+  "pos": "noun"
+ },
+ "domisil": {
+  "az": "Vekselin ödənilməli olduğu yer.",
+  "en": "domicile (of a bill)",
+  "pos": "noun"
+ },
+ "dondan-dona girmək": {
+  "az": "Bir haldan başqa hala keçmək, cürbəcür sifətə girmək.",
+  "en": "to change one's colours",
+  "pos": "verb"
+ },
+ "donor-aktseptor": {
+  "az": "Bir atomun elektron cütünü digərinə verdiyi əlaqəyə aid.",
+  "en": "donor-acceptor",
+  "pos": "adjective"
+ },
+ "donuq-donuq": {
+  "az": "İfadəsiz, solğun halda.",
+  "en": "dully, blankly",
+  "pos": "adverb"
+ },
+ "dopelflint": {
+  "skip": "meaning not certain"
+ },
+ "dorik": {
+  "az": "Qədim yunan memarlığında sadə sütun orderinə aid.",
+  "en": "Doric",
+  "pos": "adjective"
+ },
+ "dostca": {
+  "az": "Dost kimi, dostcasına.",
+  "en": "in a friendly way",
+  "pos": "adverb"
+ },
+ "dovşangöz": {
+  "skip": "meaning not certain"
+ },
+ "dozator": {
+  "az": "Maddəni müəyyən miqdarda ölçüb verən qurğu.",
+  "en": "dispenser, doser",
+  "pos": "noun"
+ },
+ "dozimetrik": {
+  "az": "Radiasiya dozasının ölçülməsinə aid.",
+  "en": "dosimetric",
+  "pos": "adjective"
+ },
+ "dozimetriya": {
+  "az": "Radiasiya dozasının ölçülməsi.",
+  "en": "dosimetry",
+  "pos": "noun"
+ },
+ "dönməyə-dönməyə": {
+  "skip": "meaning not certain"
+ },
+ "dördbaş": {
+  "skip": "meaning not certain"
+ },
+ "dördbölüm": {
+  "skip": "meaning not certain"
+ },
+ "dördbuynuz": {
+  "skip": "meaning not certain"
+ },
+ "dörd-dinişli": {
+  "skip": "meaning not certain"
+ },
+ "dördguşə": {
+  "az": "Dörd küncü olan, dördbucaqlı.",
+  "en": "four-cornered",
+  "pos": "adjective"
+ },
+ "dördkəsicidişli": {
+  "skip": "meaning not certain"
+ },
+ "dördyarpaq": {
+  "skip": "meaning not certain"
+ },
+ "dördyaş": {
+  "skip": "meaning not certain"
+ },
+ "döyməgil": {
+  "skip": "meaning not certain"
+ },
+ "döyümdaşı": {
+  "skip": "meaning not certain"
+ },
+ "dren": {
+  "az": "Yaradan maye axıtmaq üçün boru və ya zolaq.",
+  "en": "drain (medical)",
+  "pos": "noun"
+ },
+ "drepanofikus": {
+  "skip": "meaning not certain"
+ },
+ "dresva": {
+  "az": "Süxurların aşınmasından əmələ gələn xırda qırıntı.",
+  "en": "grus",
+  "pos": "noun"
+ },
+ "drezin": {
+  "az": "Dəmir yolunda işlədilən kiçik vaqonetka.",
+  "en": "draisine, rail trolley",
+  "pos": "noun"
+ },
+ "drimonim": {
+  "az": "Meşə adı.",
+  "en": "forest name",
+  "pos": "noun"
+ },
+ "dromonim": {
+  "az": "Yol adı.",
+  "en": "road name",
+  "pos": "noun"
+ },
+ "drossel": {
+  "az": "Dəyişən cərəyan dövrəsində induktiv sarğac.",
+  "en": "choke (electrical)",
+  "pos": "noun"
+ },
+ "drozofil": {
+  "az": "Genetik təcrübələrdə işlədilən meyvə milçəyi.",
+  "en": "fruit fly (Drosophila)",
+  "pos": "noun"
+ },
+ "duayen": {
+  "az": "Diplomatik korpusun başçısı; sahənin ən hörmətli nümayəndəsi.",
+  "en": "doyen",
+  "pos": "noun"
+ },
+ "duxobor": {
+  "az": "Kilsə ayinlərini rədd edən rus dini təriqətinin üzvü.",
+  "en": "Doukhobor",
+  "pos": "noun"
+ },
+ "duma": {
+  "az": "Rusiyada nümayəndəli məclis.",
+  "en": "Duma",
+  "pos": "noun"
+ },
+ "duopsoniya": {
+  "skip": "meaning not certain"
+ },
+ "durğun-durğun": {
+  "skip": "meaning not certain"
+ },
+ "durma-qaç": {
+  "skip": "meaning not certain"
+ },
+ "duvaqqapdı": {
+  "skip": "meaning not certain"
+ },
+ "duyğulu-duyğulu": {
+  "az": "Hisslə, təsirli şəkildə.",
+  "en": "with feeling",
+  "pos": "adverb"
+ },
+ "duzlu-duzlu": {
+  "skip": "meaning not certain"
+ },
+ "duzsuz-duzsuz": {
+  "skip": "meaning not certain"
+ },
+ "düdəkburun": {
+  "skip": "meaning not certain"
+ },
+ "dükçələyə-dükçələyə": {
+  "skip": "meaning not certain"
+ },
+ "dürmə": {
+  "az": "Lavaşa bükülmüş yemək.",
+  "en": "wrap",
+  "pos": "noun"
+ },
+ "düşərli-düşərsiz": {
+  "skip": "meaning not certain"
+ },
+ "düşük-düşük danışmaq": {
+  "skip": "meaning not certain"
+ },
+ "düyünlücə": {
+  "skip": "meaning not certain"
+ },
+ "düzaxım": {
+  "skip": "meaning not certain"
+ },
+ "düzəldə-düzəldə": {
+  "skip": "form not certain"
+ },
+ "dyakon": {
+  "az": "Pravoslav kilsəsində keşişin köməkçisi.",
+  "en": "deacon",
+  "pos": "noun"
+ },
+ "dzeren": {
+  "az": "Mərkəzi Asiyanın çöllərində yaşayan ceyran növü.",
+  "en": "Mongolian gazelle",
+  "pos": "noun"
+ },
+ "dzot": {
+  "az": "Torpaq və ağacdan qurulmuş atəş nöqtəsi.",
+  "en": "earth-and-timber pillbox",
+  "pos": "noun"
+ },
+ "ebena": {
+  "skip": "meaning not certain"
+ },
+ "ebonit": {
+  "az": "Kauçukdan alınan bərk qara izolyasiya materialı.",
+  "en": "ebonite",
+  "pos": "noun"
+ },
+ "ebru": {
+  "az": "Su səthində boyalarla naxış salıb kağıza köçürmə sənəti.",
+  "en": "paper marbling",
+  "pos": "noun"
+ },
+ "edelveys": {
+  "az": "Yüksək dağlarda bitən ağ tüklü çiçək.",
+  "en": "edelweiss",
+  "pos": "noun"
+ },
+ "efemer": {
+  "az": "Ömrü çox qısa olan, keçici.",
+  "en": "ephemeral",
+  "pos": "adjective"
+ },
+ "ehmalca-ehmalca": {
+  "az": "Çox ehtiyatla, yavaşca.",
+  "en": "very gently",
+  "pos": "adverb"
+ },
+ "ehmal-ehmal": {
+  "az": "Yavaş-yavaş, ehtiyatla.",
+  "en": "gently, carefully",
+  "pos": "adverb"
+ },
+ "ehtimallı": {
+  "az": "Ehtimal olunan.",
+  "en": "probable",
+  "pos": "adjective"
+ },
+ "ehtiraslı-ehtiraslı": {
+  "az": "Böyük ehtirasla.",
+  "en": "passionately",
+  "pos": "adverb"
+ },
+ "exinokokkoz": {
+  "az": "Exinokokk qurdunun törətdiyi parazitar xəstəlik.",
+  "en": "echinococcosis",
+  "pos": "noun"
+ },
+ "exoensefaloqraf": {
+  "az": "Beyni ultrasəslə müayinə edən cihaz.",
+  "en": "echoencephalograph",
+  "pos": "noun"
+ },
+ "exoensefaloqrafiya": {
+  "az": "Beynin ultrasəs müayinəsi.",
+  "en": "echoencephalography",
+  "pos": "noun"
+ },
+ "exolot": {
+  "az": "Suyun dərinliyini səs dalğası ilə ölçən cihaz.",
+  "en": "echo sounder",
+  "pos": "noun"
+ },
+ "exooftalmoqraf": {
+  "skip": "meaning not certain"
+ },
+ "exooftalmoqrafiya": {
+  "az": "Gözün ultrasəs müayinəsi.",
+  "en": "ophthalmic ultrasonography",
+  "pos": "noun"
+ },
+ "exopleks": {
+  "skip": "meaning not certain"
+ },
+ "ekistik": {
+  "skip": "meaning not certain"
+ },
+ "ekistika": {
+  "az": "İnsan məskənlərini öyrənən elm.",
+  "en": "ekistics",
+  "pos": "noun"
+ },
+ "eklampsiya": {
+  "az": "Hamiləlikdə qıcolmalarla keçən ağır hal.",
+  "en": "eclampsia",
+  "pos": "noun"
+ },
+ "eklektik": {
+  "az": "Müxtəlif baxış və üslubları qarışdıran.",
+  "en": "eclectic",
+  "pos": "adjective"
+ },
+ "eklektika": {
+  "az": "Müxtəlif baxış və üslubların mexaniki birləşməsi.",
+  "en": "eclecticism",
+  "pos": "noun"
+ },
+ "ekobiomorf": {
+  "skip": "meaning not certain"
+ },
+ "ekocoğrafi": {
+  "skip": "meaning not certain"
+ },
+ "ekofilosof": {
+  "skip": "meaning not certain"
+ },
+ "ekofobiya": {
+  "skip": "meaning not certain"
+ },
+ "ekogenetika": {
+  "az": "Ətraf mühit amillərinin irsiyyətə təsirini öyrənən elm.",
+  "en": "ecogenetics",
+  "pos": "noun"
+ },
+ "ekolinqvist": {
+  "az": "Ekolinqvistika üzrə mütəxəssis.",
+  "en": "ecolinguist",
+  "pos": "noun"
+ },
+ "ekolinqvistika": {
+  "az": "Dillə mühit arasındakı əlaqələri öyrənən dilçilik sahəsi.",
+  "en": "ecolinguistics",
+  "pos": "noun"
+ },
+ "ekomonitor": {
+  "skip": "meaning not certain"
+ },
+ "ekonometriya": {
+  "az": "İqtisadi əlaqələri riyazi-statistik üsullarla öyrənən elm.",
+  "en": "econometrics",
+  "pos": "noun"
+ },
+ "ekotexnika": {
+  "skip": "meaning not certain"
+ },
+ "ekotopologiya": {
+  "skip": "meaning not certain"
+ },
+ "eks-çempion": {
+  "az": "Keçmiş çempion.",
+  "en": "former champion",
+  "pos": "noun"
+ },
+ "eks-deputat": {
+  "az": "Keçmiş deputat.",
+  "en": "former MP",
+  "pos": "noun"
+ },
+ "eks-dividend": {
+  "az": "Dividend hüququ olmadan satılan səhm.",
+  "en": "ex-dividend",
+  "pos": "noun"
+ },
+ "eks-ekspert": {
+  "az": "Keçmiş ekspert.",
+  "en": "former expert",
+  "pos": "noun"
+ },
+ "eksistensialist": {
+  "az": "Ekzistensializm tərəfdarı.",
+  "en": "existentialist",
+  "pos": "noun"
+ },
+ "eksistensializm": {
+  "az": "İnsan varlığını və azadlığını əsas tutan fəlsəfi cərəyan.",
+  "en": "existentialism",
+  "pos": "noun"
+ },
+ "eks-kral": {
+  "az": "Keçmiş kral.",
+  "en": "former king",
+  "pos": "noun"
+ },
+ "eks-nazir": {
+  "az": "Keçmiş nazir.",
+  "en": "former minister",
+  "pos": "noun"
+ },
+ "eksployt": {
+  "az": "Proqram zəifliyindən istifadə edən kod.",
+  "en": "exploit",
+  "pos": "noun"
+ },
+ "eks-prezident": {
+  "az": "Keçmiş prezident.",
+  "en": "former president",
+  "pos": "noun"
+ },
+ "ekspropriasiya": {
+  "az": "Mülkiyyətin məcburi alınması.",
+  "en": "expropriation",
+  "pos": "noun"
+ },
+ "ekspropriator": {
+  "az": "Mülkiyyəti məcburi alan şəxs və ya qurum.",
+  "en": "expropriator",
+  "pos": "noun"
+ },
+ "ekstemum": {
+  "skip": "meaning not certain"
+ },
+ "eksterritorial": {
+  "az": "Yerli qanunların təsirindən kənarda olan.",
+  "en": "extraterritorial",
+  "pos": "adjective"
+ },
+ "ekstranet": {
+  "az": "Təşkilatın tərəfdaşlar üçün açıq daxili şəbəkəsi.",
+  "en": "extranet",
+  "pos": "noun"
+ },
+ "eks-vitse-prezident": {
+  "az": "Keçmiş vitse-prezident.",
+  "en": "former vice president",
+  "pos": "noun"
+ },
+ "ektima": {
+  "az": "Dərinin irinli yaralı iltihabı.",
+  "en": "ecthyma",
+  "pos": "noun"
+ },
+ "ekzoallergen": {
+  "az": "Orqanizmə xaricdən daxil olan allergen.",
+  "en": "exoallergen",
+  "pos": "noun"
+ },
+ "ekzobiologiya": {
+  "az": "Yerdən kənarda həyatın mümkünlüyünü öyrənən elm.",
+  "en": "exobiology",
+  "pos": "noun"
+ },
+ "ekzobioloji": {
+  "az": "Ekzobiologiyaya aid.",
+  "en": "exobiological",
+  "pos": "adjective"
+ },
+ "ekzolinqvist": {
+  "skip": "meaning not certain"
+ },
+ "ekzolinqvistika": {
+  "skip": "meaning not certain"
+ },
+ "ekzosferik": {
+  "az": "Ekzosferə aid.",
+  "en": "exospheric",
+  "pos": "adjective"
+ },
+ "eqosentrist": {
+  "az": "Yalnız özünü düşünən adam.",
+  "en": "egocentric person",
+  "pos": "noun"
+ },
+ "el-aləm": {
+  "az": "Hamı, bütün camaat.",
+  "en": "everyone, all the people",
+  "pos": "noun"
+ },
+ "eldəniz": {
+  "skip": "meaning not certain"
+ },
+ "elektrobazoqraf": {
+  "skip": "meaning not certain"
+ },
+ "elektrofil": {
+  "az": "Elektron cütünü qəbul edən hissəcik.",
+  "en": "electrophile",
+  "pos": "noun"
+ },
+ "elektrofotometrik": {
+  "az": "Elektrofotometriyaya aid.",
+  "en": "electrophotometric",
+  "pos": "adjective"
+ },
+ "elektrofotometriya": {
+  "az": "İşığın fotoelektrik cihazlarla ölçülməsi.",
+  "en": "electrophotometry",
+  "pos": "noun"
+ },
+ "elektroqastroqraf": {
+  "az": "Mədənin bioelektrik fəaliyyətini yazan cihaz.",
+  "en": "electrogastrograph",
+  "pos": "noun"
+ },
+ "elektroqastroqrafiya": {
+  "az": "Mədənin bioelektrik fəaliyyətinin yazılması.",
+  "en": "electrogastrography",
+  "pos": "noun"
+ },
+ "elektroneyroqraf": {
+  "skip": "meaning not certain"
+ },
+ "elektroneyroqrafiya": {
+  "az": "Sinirlərin elektrik fəaliyyətinin yazılması.",
+  "en": "electroneurography",
+  "pos": "noun"
+ },
+ "elektrotomoqraf": {
+  "skip": "meaning not certain"
+ },
+ "el-el gəzmək": {
+  "az": "Ölkə-ölkə, el-el dolaşmaq.",
+  "en": "to wander from land to land",
+  "pos": "verb"
+ },
+ "elə-beləcə": {
+  "az": "Elə bu şəkildə, səbəbsiz.",
+  "en": "just like that",
+  "pos": "adverb"
+ },
+ "eliziya": {
+  "az": "Söz sonundakı saitin növbəti saitdən əvvəl düşməsi.",
+  "en": "elision",
+  "pos": "noun"
+ },
+ "ellinq": {
+  "az": "Gəmi və ya dirijablın tikildiyi örtülü yer.",
+  "en": "slipway shed, hangar",
+  "pos": "noun"
+ },
+ "elmmetriya": {
+  "az": "Elmi fəaliyyətin kəmiyyət göstəricilərini öyrənən sahə.",
+  "en": "scientometrics",
+  "pos": "noun"
+ },
+ "emalat": {
+  "skip": "meaning not certain"
+ },
+ "emu": {
+  "az": "Avstraliyada yaşayan uçmayan iri quş.",
+  "en": "emu",
+  "pos": "noun"
+ },
+ "endoallergen": {
+  "az": "Orqanizmin özündə yaranan allergen.",
+  "en": "endoallergen",
+  "pos": "noun"
+ },
+ "endobronxit": {
+  "az": "Bronxların selikli qişasının iltihabı.",
+  "en": "endobronchitis",
+  "pos": "noun"
+ },
+ "endoflebit": {
+  "az": "Vena daxili qişasının iltihabı.",
+  "en": "endophlebitis",
+  "pos": "noun"
+ },
+ "endofobiya": {
+  "skip": "meaning not certain"
+ },
+ "endoplazma": {
+  "az": "Sitoplazmanın daxili qatı.",
+  "en": "endoplasm",
+  "pos": "noun"
+ },
+ "endostetoskop": {
+  "skip": "meaning not certain"
+ },
+ "endotoksin": {
+  "az": "Bakteriyanın məhvi zamanı ayrılan zəhər.",
+  "en": "endotoxin",
+  "pos": "noun"
+ },
+ "endşpil": {
+  "az": "Şahmat partiyasının son mərhələsi.",
+  "en": "endgame",
+  "pos": "noun"
+ },
+ "eniologiya": {
+  "skip": "meaning not certain"
+ },
+ "enioloq": {
+  "skip": "meaning not certain"
+ },
+ "enklitik": {
+  "az": "Əvvəlki sözə vurğusuz bitişən.",
+  "en": "enclitic",
+  "pos": "adjective"
+ },
+ "enklitika": {
+  "az": "Əvvəlki sözə vurğusuz bitişən söz.",
+  "en": "enclitic",
+  "pos": "noun"
+ },
+ "enliayaq": {
+  "az": "Ayaqları enli olan.",
+  "en": "broad-footed",
+  "pos": "adjective"
+ },
+ "enli-enli": {
+  "az": "Çox enli.",
+  "en": "very broad",
+  "pos": "adjective"
+ },
+ "enligöz": {
+  "skip": "meaning not certain"
+ },
+ "enter": {
+  "az": "Klaviaturada əmri təsdiq edən düymə.",
+  "en": "Enter key",
+  "pos": "noun"
+ },
+ "epiqrafik": {
+  "az": "Epiqrafikaya aid.",
+  "en": "epigraphic",
+  "pos": "adjective"
+ },
+ "epoxonim": {
+  "skip": "meaning not certain"
+ },
+ "erker": {
+  "az": "Binanın divarından çıxan şüşəli otaq hissəsi.",
+  "en": "bay window",
+  "pos": "noun"
+ },
+ "erqonomik": {
+  "az": "İstifadəsi rahat olan, insana uyğunlaşdırılmış.",
+  "en": "ergonomic",
+  "pos": "adjective"
+ },
+ "erqotizm": {
+  "az": "Çovdar mahmızı ilə zəhərlənmə.",
+  "en": "ergotism",
+  "pos": "noun"
+ },
+ "erlift": {
+  "az": "Sıxılmış hava ilə maye qaldıran nasos.",
+  "en": "airlift pump",
+  "pos": "noun"
+ },
+ "eses": {
+  "skip": "meaning not certain"
+ },
+ "esparset": {
+  "az": "Yem üçün əkilən paxlalı ot bitkisi.",
+  "en": "sainfoin",
+  "pos": "noun"
+ },
+ "estet": {
+  "az": "Gözəlliyə hər şeydən üstün qiymət verən adam.",
+  "en": "aesthete",
+  "pos": "noun"
+ },
+ "eşim": {
+  "skip": "meaning not certain"
+ },
+ "eşqli-eşqli": {
+  "skip": "meaning not certain"
+ },
+ "etatizm": {
+  "az": "Dövlətin iqtisadiyyata və ictimai həyata geniş müdaxiləsi siyasəti.",
+  "en": "statism",
+  "pos": "noun"
+ },
+ "etiologiya": {
+  "az": "Xəstəliklərin səbəbləri haqqında təlim.",
+  "en": "etiology",
+  "pos": "noun"
+ },
+ "etioloji": {
+  "az": "Etiologiyaya aid.",
+  "en": "etiological",
+  "pos": "adjective"
+ },
+ "etnoantroponim": {
+  "az": "Etnik addan yaranmış şəxs adı.",
+  "en": "personal name from an ethnonym",
+  "pos": "noun"
+ },
+ "etnoarxeologiya": {
+  "az": "Arxeoloji materialları etnoqrafik məlumatla izah edən elm.",
+  "en": "ethnoarchaeology",
+  "pos": "noun"
+ },
+ "etnoarxeoloji": {
+  "az": "Etnoarxeologiyaya aid.",
+  "en": "ethnoarchaeological",
+  "pos": "adjective"
+ },
+ "etnobotanika": {
+  "az": "Xalqların bitkilərdən istifadəsini öyrənən elm.",
+  "en": "ethnobotany",
+  "pos": "noun"
+ },
+ "etnocoğrafiya": {
+  "az": "Xalqların yerləşməsini öyrənən coğrafiya sahəsi.",
+  "en": "ethnogeography",
+  "pos": "noun"
+ },
+ "etnodemoqrafik": {
+  "az": "Xalqların say və tərkibinə aid.",
+  "en": "ethno-demographic",
+  "pos": "adjective"
+ }
+}
