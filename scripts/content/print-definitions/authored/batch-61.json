@@ -1,0 +1,864 @@
+{
+ "şpinelid": {
+  "skip": "meaning not certain"
+ },
+ "şprinq": {
+  "az": "Gəmini lövbərdə saxlamaq üçün kəndir.",
+  "en": "spring line",
+  "pos": "noun"
+ },
+ "şprintov": {
+  "skip": "meaning not certain"
+ },
+ "şprudelşteyn": {
+  "skip": "meaning not certain"
+ },
+ "şpunt": {
+  "az": "Taxtaların birləşməsi üçün yiv; dirək divar.",
+  "en": "tongue-and-groove; sheet piling",
+  "pos": "noun"
+ },
+ "şreder": {
+  "az": "Kağızı xırda zolaqlara doğrayan maşın.",
+  "en": "paper shredder",
+  "pos": "noun"
+ },
+ "ştaket": {
+  "az": "Taxta şaxtalardan çəpər.",
+  "en": "picket fence",
+  "pos": "noun"
+ },
+ "ştaq": {
+  "az": "Gəmidə dorları tutan dayaq ipi.",
+  "en": "stay (rigging)",
+  "pos": "noun"
+ },
+ "ştam": {
+  "az": "Mikroorqanizmlərin təmiz kulturası.",
+  "en": "strain (microbiology)",
+  "pos": "noun"
+ },
+ "ştamb": {
+  "az": "Ağacın kökdən ilk budaqlara qədər gövdə hissəsi.",
+  "en": "trunk (of a tree)",
+  "pos": "noun"
+ },
+ "şteven": {
+  "az": "Gəmi gövdəsinin qabaq və ya arxa ucundakı tir.",
+  "en": "stem (of a ship)",
+  "pos": "noun"
+ },
+ "ştiri": {
+  "skip": "meaning not certain"
+ },
+ "ştivka": {
+  "skip": "meaning not certain"
+ },
+ "ştokverk": {
+  "az": "Süxurda çoxlu filiz damarlarının şəbəkəsi.",
+  "en": "stockwork",
+  "pos": "noun"
+ },
+ "ştromeyerit": {
+  "skip": "meaning not certain"
+ },
+ "ştrossa": {
+  "skip": "meaning not certain"
+ },
+ "ştuf": {
+  "az": "Mineral və ya filiz parçası nümunəsi.",
+  "en": "ore specimen",
+  "pos": "noun"
+ },
+ "şturm": {
+  "az": "Hücum, həmlə.",
+  "en": "assault, storm",
+  "pos": "noun"
+ },
+ "şturtros": {
+  "skip": "meaning not certain"
+ },
+ "ştuser": {
+  "az": "Boru birləşdirici qısa ucluq.",
+  "en": "pipe fitting",
+  "pos": "noun"
+ },
+ "şumallı": {
+  "skip": "meaning not certain"
+ },
+ "şumerologiya": {
+  "az": "Qədim şumer dilini və mədəniyyətini öyrənən elm.",
+  "en": "Sumerology",
+  "pos": "noun"
+ },
+ "şumeroloq": {
+  "az": "Şumerologiya üzrə alim.",
+  "en": "Sumerologist",
+  "pos": "noun"
+ },
+ "şungit": {
+  "az": "Karbonla zəngin qara süxur.",
+  "en": "shungite",
+  "pos": "noun"
+ },
+ "şümşadboy": {
+  "az": "Şümşad kimi uca və qamətli.",
+  "en": "tall and slender",
+  "pos": "adjective"
+ },
+ "şütte": {
+  "skip": "meaning not certain"
+ },
+ "şva": {
+  "skip": "meaning not certain"
+ },
+ "şvart": {
+  "skip": "meaning not certain"
+ },
+ "şvartov": {
+  "az": "Gəmini sahilə bağlamaq üçün kəndir.",
+  "en": "mooring line",
+  "pos": "noun"
+ },
+ "şvasit": {
+  "skip": "meaning not certain"
+ },
+ "şvits": {
+  "skip": "meaning not certain"
+ },
+ "uca-uca": {
+  "az": "Çox uca.",
+  "en": "very tall",
+  "pos": "adjective"
+ },
+ "udabənzər": {
+  "skip": "meaning not certain"
+ },
+ "udlaqlaşma": {
+  "skip": "meaning not certain"
+ },
+ "udlu": {
+  "skip": "meaning not certain"
+ },
+ "udsuz": {
+  "skip": "meaning not certain"
+ },
+ "ufologiya": {
+  "az": "Naməlum uçan obyektləri öyrənən sahə.",
+  "en": "ufology",
+  "pos": "noun"
+ },
+ "ufoloji": {
+  "az": "Ufologiyaya aid.",
+  "en": "ufological",
+  "pos": "adjective"
+ },
+ "uinter": {
+  "skip": "meaning not certain"
+ },
+ "ulaş": {
+  "skip": "meaning not certain"
+ },
+ "u-laşma": {
+  "skip": "meaning not certain"
+ },
+ "ulseroz": {
+  "skip": "meaning not certain"
+ },
+ "ultradəb": {
+  "skip": "meaning not certain"
+ },
+ "ultramafik": {
+  "az": "Silisiumu çox az, maqnezium və dəmiri çox olan.",
+  "en": "ultramafic",
+  "pos": "adjective"
+ },
+ "ultramafit": {
+  "az": "Ultramafik maqmatik süxur.",
+  "en": "ultramafic rock",
+  "pos": "noun"
+ },
+ "ultramarin": {
+  "az": "Parlaq göy boyaq.",
+  "en": "ultramarine",
+  "pos": "noun"
+ },
+ "ulva": {
+  "az": "Dəniz salatı adlanan yaşıl yosun.",
+  "en": "sea lettuce",
+  "pos": "noun"
+ },
+ "ulvit": {
+  "skip": "meaning not certain"
+ },
+ "umangit": {
+  "skip": "meaning not certain"
+ },
+ "umlaut": {
+  "az": "Saitin sonrakı saitin təsiri ilə dəyişməsi; onun işarəsi.",
+  "en": "umlaut",
+  "pos": "noun"
+ },
+ "unələyən": {
+  "skip": "meaning not certain"
+ },
+ "uniformist": {
+  "skip": "meaning not certain"
+ },
+ "uniformizm": {
+  "az": "Keçmiş geoloji proseslərin indikilərə bənzədiyini qəbul edən təlim.",
+  "en": "uniformitarianism",
+  "pos": "noun"
+ },
+ "unisemiya": {
+  "skip": "meaning not certain"
+ },
+ "universalçı": {
+  "skip": "meaning not certain"
+ },
+ "unjanka": {
+  "skip": "meaning not certain"
+ },
+ "unluşeh": {
+  "az": "Bitkilərin üzərində unlu ərp əmələ gətirən göbələk xəstəliyi.",
+  "en": "powdery mildew",
+  "pos": "noun"
+ },
+ "unüyüdən": {
+  "skip": "meaning not certain"
+ },
+ "uperizasiya": {
+  "az": "Südün buxarla qısa müddətli yüksək temperaturda sterilizasiyası.",
+  "en": "uperization (UHT)",
+  "pos": "noun"
+ },
+ "uraturiya": {
+  "az": "Sidikdə urat duzlarının çox olması.",
+  "en": "uraturia",
+  "pos": "noun"
+ },
+ "urbanist": {
+  "az": "Şəhərsalma mütəxəssisi.",
+  "en": "urban planner",
+  "pos": "noun"
+ },
+ "urbanistik": {
+  "az": "Şəhər həyatına, şəhərsalmaya aid.",
+  "en": "urbanistic",
+  "pos": "adjective"
+ },
+ "urbanizm": {
+  "az": "Böyük şəhərlərin salınması nəzəriyyəsi.",
+  "en": "urbanism",
+  "pos": "noun"
+ },
+ "uretrometr": {
+  "skip": "meaning not certain"
+ },
+ "uretrometriya": {
+  "skip": "meaning not certain"
+ },
+ "urobakteriya": {
+  "skip": "meaning not certain"
+ },
+ "urodinamik": {
+  "az": "Sidik yollarının funksiyasına aid.",
+  "en": "urodynamic",
+  "pos": "adjective"
+ },
+ "urodinamika": {
+  "az": "Sidik axınının və sidik yollarının funksiyasının öyrənilməsi.",
+  "en": "urodynamics",
+  "pos": "noun"
+ },
+ "uroterapiya": {
+  "skip": "meaning not certain"
+ },
+ "ustaclı": {
+  "az": "Ustaclı tayfasına mənsub.",
+  "en": "of the Ustajlu tribe",
+  "pos": "adjective"
+ },
+ "utleqar": {
+  "skip": "meaning not certain"
+ },
+ "uzanıq": {
+  "skip": "meaning not certain"
+ },
+ "uzunbaş": {
+  "skip": "meaning not certain"
+ },
+ "uzunqıçlı": {
+  "az": "Qıçları uzun olan.",
+  "en": "long-legged",
+  "pos": "adjective"
+ },
+ "yabadiş": {
+  "skip": "meaning not certain"
+ },
+ "yağ-ət": {
+  "az": "Yağ və ət.",
+  "en": "fat and meat",
+  "pos": "noun"
+ },
+ "yaxtsmen": {
+  "az": "Yaxta idmançısı.",
+  "en": "yachtsman",
+  "pos": "noun"
+ },
+ "yakan": {
+  "skip": "meaning not certain"
+ },
+ "yalabənzər": {
+  "skip": "meaning not certain"
+ },
+ "yalax": {
+  "skip": "meaning not certain"
+ },
+ "yalotu": {
+  "skip": "meaning not certain"
+ },
+ "yamaqlı-yamaqlı": {
+  "az": "Hər yeri yamaqlı.",
+  "en": "patched all over",
+  "pos": "adjective"
+ },
+ "yançaq": {
+  "skip": "meaning not certain"
+ },
+ "yandı-qındı vermək": {
+  "skip": "meaning not certain"
+ },
+ "yansenist": {
+  "az": "Yansenizm tərəfdarı.",
+  "en": "Jansenist",
+  "pos": "noun"
+ },
+ "yansenizm": {
+  "az": "Katolik kilsəsində dini cərəyan.",
+  "en": "Jansenism",
+  "pos": "noun"
+ },
+ "yan-yançaq": {
+  "skip": "meaning not certain"
+ },
+ "yapyalnızlıq": {
+  "az": "Tam tənhalıq.",
+  "en": "utter loneliness",
+  "pos": "noun"
+ },
+ "yaraqlıca": {
+  "skip": "meaning not certain"
+ },
+ "yaralı-yaralı": {
+  "skip": "meaning not certain"
+ },
+ "yaramaz-yaramaz": {
+  "skip": "meaning not certain"
+ },
+ "yaram-yaram çağırmaq": {
+  "skip": "meaning not certain"
+ },
+ "yardar": {
+  "skip": "meaning not certain"
+ },
+ "yarıqdiş": {
+  "skip": "meaning not certain"
+ },
+ "yarımçıq-yarımçıq": {
+  "az": "Natamam, yarıda qalmış halda.",
+  "en": "half-finished",
+  "pos": "adverb"
+ },
+ "yarımişıq": {
+  "az": "Zəif işıq, alatoranlıq.",
+  "en": "half-light",
+  "pos": "noun"
+ },
+ "yarımkaldera": {
+  "skip": "meaning not certain"
+ },
+ "yarımperiodlu": {
+  "skip": "meaning not certain"
+ },
+ "yarımtam": {
+  "skip": "meaning not certain"
+ },
+ "yarımuzanıq": {
+  "az": "Yarı uzanmış halda.",
+  "en": "half-reclining",
+  "pos": "adjective"
+ },
+ "yarımvinit": {
+  "skip": "meaning not certain"
+ },
+ "yarpaqlı-yarpaqlı": {
+  "skip": "meaning not certain"
+ },
+ "yaslamaq": {
+  "skip": "meaning not certain"
+ },
+ "yaslıca": {
+  "skip": "meaning not certain"
+ },
+ "yastıdib": {
+  "az": "Dibi yastı olan.",
+  "en": "flat-bottomed",
+  "pos": "adjective"
+ },
+ "yastıdöş": {
+  "az": "Döşü yastı olan.",
+  "en": "flat-chested",
+  "pos": "adjective"
+ },
+ "yaşılayaq": {
+  "skip": "meaning not certain"
+ },
+ "yaşılca": {
+  "skip": "meaning not certain"
+ },
+ "yaş-yaş": {
+  "skip": "meaning not certain"
+ },
+ "yatrofobiya": {
+  "az": "Həkimlərdən xəstə qorxu.",
+  "en": "iatrophobia",
+  "pos": "noun"
+ },
+ "yavaşa": {
+  "skip": "meaning not certain"
+ },
+ "yaydayaşıl": {
+  "skip": "meaning not certain"
+ },
+ "yayılan": {
+  "az": "Geniş yayılan.",
+  "en": "spreading",
+  "pos": "adjective"
+ },
+ "yayınbalığı": {
+  "az": "İri bığlı şirin su balığı, naqqa.",
+  "en": "wels catfish",
+  "pos": "noun"
+ },
+ "yayınıq-yayınıq": {
+  "skip": "meaning not certain"
+ },
+ "yaylanan": {
+  "skip": "meaning not certain"
+ },
+ "yeddibarmaq": {
+  "skip": "meaning not certain"
+ },
+ "yeddidüymə": {
+  "skip": "meaning not certain"
+ },
+ "yeddiyaşlı": {
+  "az": "Yeddi yaşı olan.",
+  "en": "seven-year-old",
+  "pos": "adjective"
+ },
+ "yeddi-yeddi": {
+  "az": "Yeddi-yeddi, yeddişər.",
+  "en": "seven at a time",
+  "pos": "adverb"
+ },
+ "yekəbığ": {
+  "az": "Bığı iri olan.",
+  "en": "big-moustached",
+  "pos": "adjective"
+ },
+ "yekədil": {
+  "skip": "meaning not certain"
+ },
+ "yekəpər-yekəpər": {
+  "skip": "meaning not certain"
+ },
+ "yelayaq": {
+  "az": "Külək kimi cəld yeriyən.",
+  "en": "swift-footed",
+  "pos": "adjective"
+ },
+ "yelli-yelli": {
+  "skip": "meaning not certain"
+ },
+ "yeparxiya": {
+  "az": "Yepiskopun idarə etdiyi kilsə dairəsi.",
+  "en": "diocese, eparchy",
+  "pos": "noun"
+ },
+ "yeretik": {
+  "az": "Kilsə ehkamlarından kənara çıxan şəxs.",
+  "en": "heretic",
+  "pos": "noun"
+ },
+ "yerqulacı": {
+  "skip": "meaning not certain"
+ },
+ "yerləşgə": {
+  "skip": "meaning not certain"
+ },
+ "yerliçi": {
+  "skip": "meaning not certain"
+ },
+ "yetəcək": {
+  "skip": "form not certain"
+ },
+ "yetki vermək": {
+  "az": "Səlahiyyət vermək.",
+  "en": "to authorize",
+  "pos": "verb"
+ },
+ "yetkin-yetkin": {
+  "skip": "meaning not certain"
+ },
+ "yeyilməklik": {
+  "skip": "meaning not certain"
+ },
+ "yezuit": {
+  "az": "Katolik İsa ordeninin üzvü; hiyləgər, ikiüzlü adam.",
+  "en": "Jesuit",
+  "pos": "noun"
+ },
+ "yəhərbel": {
+  "az": "Beli yəhər kimi çökük olan.",
+  "en": "saddle-backed",
+  "pos": "adjective"
+ },
+ "yodat": {
+  "az": "Yod turşusunun duzu.",
+  "en": "iodate",
+  "pos": "noun"
+ },
+ "yod-ionoterapiya": {
+  "skip": "meaning not certain"
+ },
+ "yodometrik": {
+  "az": "Yodometriyaya aid.",
+  "en": "iodometric",
+  "pos": "adjective"
+ },
+ "yodometriya": {
+  "az": "Yoddan istifadə ilə kəmiyyət analizi üsulu.",
+  "en": "iodometry",
+  "pos": "noun"
+ },
+ "yoğunayaq": {
+  "az": "Ayaqları yoğun olan.",
+  "en": "thick-legged",
+  "pos": "adjective"
+ },
+ "yox-bəli": {
+  "skip": "meaning not certain"
+ },
+ "yox-yox": {
+  "az": "Qəti inkar: xeyr, xeyr.",
+  "en": "no, no",
+  "pos": "interjection"
+ },
+ "yolkəsdi": {
+  "skip": "meaning not certain"
+ },
+ "yoncavar": {
+  "skip": "meaning not certain"
+ },
+ "yonmadaş": {
+  "az": "Yonulmuş tikinti daşı.",
+  "en": "dressed stone",
+  "pos": "noun"
+ },
+ "yonuq-yonuq": {
+  "skip": "meaning not certain"
+ },
+ "yönlü-yönlü": {
+  "skip": "meaning not certain"
+ },
+ "yönsüz-yönsüz": {
+  "skip": "meaning not certain"
+ },
+ "yuğ": {
+  "skip": "meaning not certain"
+ },
+ "yuxaürək": {
+  "skip": "meaning not certain"
+ },
+ "yulafsöz": {
+  "skip": "meaning not certain"
+ },
+ "yuma": {
+  "skip": "meaning not certain"
+ },
+ "yumaqlı": {
+  "skip": "meaning not certain"
+ },
+ "yumaqlıq": {
+  "skip": "meaning not certain"
+ },
+ "yumrucuqlu": {
+  "skip": "meaning not certain"
+ },
+ "yumşaq-yumşaq": {
+  "az": "Yumşaqlıqla, mülayim.",
+  "en": "softly, gently",
+  "pos": "adverb"
+ },
+ "yunabənzər": {
+  "az": "Yuna bənzəyən.",
+  "en": "wool-like",
+  "pos": "adjective"
+ },
+ "yunluca": {
+  "skip": "meaning not certain"
+ },
+ "yunusbalığı": {
+  "az": "Delfin.",
+  "en": "dolphin",
+  "pos": "noun"
+ },
+ "yura": {
+  "az": "Mezozoy erasının ikinci dövrü.",
+  "en": "Jurassic",
+  "pos": "noun"
+ },
+ "yustitsiari": {
+  "skip": "meaning not certain"
+ },
+ "yuvanc": {
+  "skip": "meaning not certain"
+ },
+ "yuvarlaqağız": {
+  "skip": "meaning not certain"
+ },
+ "yuvenal": {
+  "az": "Yerin dərinliyindən ilk dəfə səthə çıxan.",
+  "en": "juvenile (geology)",
+  "pos": "adjective"
+ },
+ "yüksəkkontraslı": {
+  "az": "Kontrastı yüksək olan.",
+  "en": "high-contrast",
+  "pos": "adjective"
+ },
+ "yüksəkproteinli": {
+  "az": "Zülalı çox olan.",
+  "en": "high-protein",
+  "pos": "adjective"
+ },
+ "yüngülayaq": {
+  "az": "Ayağı yüngül, cəld yeriyən.",
+  "en": "light-footed",
+  "pos": "adjective"
+ },
+ "yüyrüklü": {
+  "skip": "meaning not certain"
+ },
+ "zağ-zağ əsmək": {
+  "az": "Qorxudan və ya soyuqdan bərk titrəmək.",
+  "en": "to shiver violently",
+  "pos": "verb"
+ },
+ "zalom": {
+  "skip": "meaning not certain"
+ },
+ "zapper": {
+  "skip": "meaning not certain"
+ },
+ "zavallı-zavallı": {
+  "az": "Yazıq-yazıq.",
+  "en": "pitifully",
+  "pos": "adverb"
+ },
+ "zaylsuq": {
+  "skip": "meaning not certain"
+ },
+ "zevqma": {
+  "az": "Bir sözün eyni anda müxtəlif mənalarda bir neçə sözə aid edilməsi.",
+  "en": "zeugma",
+  "pos": "noun"
+ },
+ "zəlki": {
+  "skip": "meaning not certain"
+ },
+ "zənlə baxmaq": {
+  "az": "Diqqətlə baxmaq.",
+  "en": "to look closely",
+  "pos": "verb"
+ },
+ "zərfləşən": {
+  "az": "Zərfə çevrilən.",
+  "en": "becoming an adverb",
+  "pos": "adjective"
+ },
+ "zərif-zərif": {
+  "az": "Zərifliklə.",
+  "en": "gracefully",
+  "pos": "adverb"
+ },
+ "zinc": {
+  "skip": "meaning not certain"
+ },
+ "zinqşpil": {
+  "az": "Danışıq və mahnılardan ibarət alman musiqili tamaşası.",
+  "en": "Singspiel",
+  "pos": "noun"
+ },
+ "zirkeş": {
+  "skip": "meaning not certain"
+ },
+ "zirkon": {
+  "az": "Sirkonium silikatından ibarət mineral, qiymətli daş.",
+  "en": "zircon",
+  "pos": "noun"
+ },
+ "zirkonoid": {
+  "skip": "meaning not certain"
+ },
+ "zondaj": {
+  "az": "Zondla müayinə və ya kəşfiyyat.",
+  "en": "sounding, probing",
+  "pos": "noun"
+ },
+ "zooadyektiv": {
+  "skip": "meaning not certain"
+ },
+ "zooantroponim": {
+  "az": "Heyvan adından yaranmış şəxs adı.",
+  "en": "personal name from an animal name",
+  "pos": "noun"
+ },
+ "zoobiologiya": {
+  "skip": "meaning not certain"
+ },
+ "zoobioloji": {
+  "skip": "meaning not certain"
+ },
+ "zoobioloq": {
+  "skip": "meaning not certain"
+ },
+ "zoocərrah": {
+  "skip": "meaning not certain"
+ },
+ "zoocoğrafi": {
+  "az": "Heyvanların coğrafi yayılmasına aid.",
+  "en": "zoogeographic",
+  "pos": "adjective"
+ },
+ "zoocoğrafiya": {
+  "az": "Heyvanların yer kürəsində yayılmasını öyrənən elm.",
+  "en": "zoogeography",
+  "pos": "noun"
+ },
+ "zooetnonim": {
+  "skip": "meaning not certain"
+ },
+ "zoofenologiya": {
+  "skip": "meaning not certain"
+ },
+ "zoogigiyena": {
+  "az": "Heyvanların saxlanma şəraitinin gigiyenası.",
+  "en": "animal hygiene",
+  "pos": "noun"
+ },
+ "zoogigiyenik": {
+  "skip": "meaning not certain"
+ },
+ "zoohidronim": {
+  "az": "Heyvan adından yaranmış su obyekti adı.",
+  "en": "hydronym from an animal name",
+  "pos": "noun"
+ },
+ "zookabinet": {
+  "skip": "meaning not certain"
+ },
+ "zookimyəvi": {
+  "skip": "meaning not certain"
+ },
+ "zookombinat": {
+  "skip": "meaning not certain"
+ },
+ "zookosmonim": {
+  "skip": "meaning not certain"
+ },
+ "zooleksem": {
+  "skip": "meaning not certain"
+ },
+ "zoomağaza": {
+  "az": "Ev heyvanları və onlar üçün mallar satılan mağaza.",
+  "en": "pet shop",
+  "pos": "noun"
+ },
+ "zooməntəqə": {
+  "skip": "meaning not certain"
+ },
+ "zoonimik": {
+  "skip": "meaning not certain"
+ },
+ "zoonimika": {
+  "az": "Heyvan adlarını öyrənən onomastika sahəsi.",
+  "en": "zoonymy",
+  "pos": "noun"
+ },
+ "zoooronim": {
+  "az": "Heyvan adından yaranmış dağ adı.",
+  "en": "oronym from an animal name",
+  "pos": "noun"
+ },
+ "zoopaleontoloq": {
+  "skip": "meaning not certain"
+ },
+ "zoopaleontologiya": {
+  "skip": "meaning not certain"
+ },
+ "zoopaleontoloji": {
+  "skip": "meaning not certain"
+ },
+ "zooparazit": {
+  "az": "Heyvan mənşəli parazit.",
+  "en": "animal parasite",
+  "pos": "noun"
+ },
+ "zooplankton": {
+  "az": "Suda üzən xırda heyvanlar.",
+  "en": "zooplankton",
+  "pos": "noun"
+ },
+ "zoopsixologiya": {
+  "az": "Heyvanların psixikasını öyrənən elm.",
+  "en": "animal psychology",
+  "pos": "noun"
+ },
+ "zoopsixoloji": {
+  "az": "Zoopsixologiyaya aid.",
+  "en": "of animal psychology",
+  "pos": "adjective"
+ },
+ "zoopsixoloq": {
+  "az": "Heyvan psixologiyası üzrə mütəxəssis.",
+  "en": "animal psychologist",
+  "pos": "noun"
+ },
+ "zoosemantik": {
+  "skip": "meaning not certain"
+ },
+ "zoosporangi": {
+  "skip": "meaning not certain"
+ },
+ "zootexnoloq": {
+  "skip": "meaning not certain"
+ },
+ "zooterapiya": {
+  "az": "Heyvanlarla ünsiyyət vasitəsilə müalicə.",
+  "en": "animal-assisted therapy",
+  "pos": "noun"
+ },
+ "zootoponim": {
+  "az": "Heyvan adından yaranmış yer adı.",
+  "en": "toponym from an animal name",
+  "pos": "noun"
+ },
+ "zülüm-zülüm ağlamaq": {
+  "az": "Çox acı-acı ağlamaq.",
+  "en": "to weep bitterly",
+  "pos": "verb"
+ }
+}
