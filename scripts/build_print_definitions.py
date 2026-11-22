@@ -83,6 +83,8 @@ POSITIONS = {'üstü': ('üstündə', 'on or above'), 'altı': ('altında', 'und
              'içi': ('içində', 'inside'), 'yanı': ('yanında', 'beside'), 'önü': ('önündə', 'in front of'),
              'arxası': ('arxasında', 'behind'), 'ətrafı': ('ətrafında', 'around'), 'boyu': ('boyunca', 'along'),
              'kənarı': ('kənarında', 'at the edge of'), 'qırağı': ('qırağında', 'at the edge of'), 'ardı': ('ardında', 'behind')}
+# Heads that a combining form only seems to end in: -qrafik and -metrik are not kinds of qrafik (chart) or metrik.
+FALSE_HEADS = {'qrafik', 'metrik', 'metrlik', 'qramlıq', 'metraj', 'metr', 'qram', 'litr'}
 VERBAL_KINDS = {'verbal-noun', 'passive', 'passive-n', 'causative', 'become', 'make', 'acquire'}
 PAIRED_ENDINGS = {'sı', 'si', 'su', 'sü', 'nı', 'ni', 'nu', 'nü', 'lı', 'li', 'lu', 'lü'}
 POS = {'noun', 'verb', 'adjective', 'adverb', 'numeral', 'pronoun', 'interjection', 'postposition',
@@ -683,6 +685,31 @@ class Builder:
                           f'«{word}» və «{ordered[0]}» eyni alınma kökdən düzəlib.',
                           f'{word} and {ordered[0]} are built on the same borrowed stem.', refs, 'loan-family')
 
+    def combining_heads(self):
+        """Link a learned compound to its head: dendrofobiya -> fobiya, aqroturizm -> turizm, kardioplastika -> plastika.
+
+        The first part must end in the combining vowel -o- and recur as such before at least three headwords, so an
+        accidental -o- (passionarlıq) does not count.
+        """
+        splits = []
+        for word in self.nodes:
+            if ' ' in word or '-' in word or len(word) < 9:
+                continue
+            for i in range(3, len(word) - 5):
+                head = word[i:]
+                node = self.usable(head) if word[i - 1] == 'o' and head not in FALSE_HEADS else None
+                if node and node['pos'] in ('noun', 'word', 'adjective') and len(head) >= 5:
+                    splits.append((word, word[:i], head))
+                    break
+        recurring = collections.Counter(combining for _, combining, _ in splits)
+        for word, combining, head in splits:
+            if recurring[combining] < 3 or not re.search(r'[aıoueəiöü].*o$', combining):
+                continue
+            refs = ([spelling_source(self.nodes[word]['page'])] if self.nodes[word].get('page') else []) + [GRAMMAR]
+            self.link(word, head, 'topic', f'Mürəkkəb termin · {combining}- + {head}',
+                      f'«{word}» sözü «{combining}-» ön hissəsi və «{head}» sözündən ibarətdir.',
+                      f'{word} is {combining}- plus {head}.', refs, 'combining')
+
     def compounds(self):
         for word in list(self.nodes):
             # Connected words keep the links they have, except paraphrased ones: a paraphrase replaces the rule definition
@@ -795,6 +822,7 @@ def main():
         builder.rules()
         builder.quantified()
         builder.loan_families()
+        builder.combining_heads()
         builder.compounds()
         if len(builder.definitions) + len(builder.edges) == size:
             break

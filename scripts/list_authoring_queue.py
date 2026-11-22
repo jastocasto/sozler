@@ -24,7 +24,7 @@ B.paraphrases()
 B.authored()
 for _ in range(6):
     size = len(B.definitions) + len(B.edges)
-    B.print_notes(); B.rules(); B.quantified(); B.loan_families(); B.compounds()
+    B.print_notes(); B.rules(); B.quantified(); B.loan_families(); B.combining_heads(); B.compounds()
     if len(B.definitions) + len(B.edges) == size:
         break
 done = set()
