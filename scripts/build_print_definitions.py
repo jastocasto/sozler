@@ -141,6 +141,8 @@ DOMAIN_LABELS = ('chem biol zool physics mineral anat biochem math astron geol r
 def gloss(node):
     labels = '|'.join(re.escape(label) for label in DOMAIN_LABELS)
     text = re.sub(rf'^(?:(?:{labels})\.\s+)+(?=\w)', '', re.sub(r'\([^)]*\)?', '', node['en']))
+    # A bare "special" label before a field name ("special chromatography") is not part of the meaning.
+    text = re.sub(r'^special (?=\w+(?:logy|graphy|metry|nomy|ics)\b)', '', text)
     parts = [part.strip() for part in re.split(r'[;,:]|\.\s', text) if part.strip()]
     if node.get('pos') == 'verb':
         parts = [part for part in parts if part.lower().startswith('to ')] or parts
