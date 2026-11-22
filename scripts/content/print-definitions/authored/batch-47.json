@@ -1,0 +1,1062 @@
+{
+ "gingivit": {
+  "az": "Diş ətinin iltihabı.",
+  "en": "gingivitis",
+  "pos": "noun"
+ },
+ "ginofor": {
+  "skip": "meaning not certain"
+ },
+ "ginostegi": {
+  "skip": "meaning not certain"
+ },
+ "gipsometrik": {
+  "az": "Yer səthinin hündürlüklərinə aid.",
+  "en": "hypsometric",
+  "pos": "adjective"
+ },
+ "gipsometriya": {
+  "az": "Yer səthinin hündürlüklərini ölçmə.",
+  "en": "hypsometry",
+  "pos": "noun"
+ },
+ "girdəbaş": {
+  "az": "Başı girdə olan.",
+  "en": "round-headed",
+  "pos": "adjective"
+ },
+ "girdədiş": {
+  "skip": "meaning not certain"
+ },
+ "girdəgöz": {
+  "az": "Gözləri girdə olan.",
+  "en": "round-eyed",
+  "pos": "adjective"
+ },
+ "giroaqreqat": {
+  "skip": "meaning not certain"
+ },
+ "giroazimut": {
+  "skip": "meaning not certain"
+ },
+ "girodinamika": {
+  "skip": "meaning not certain"
+ },
+ "girofora": {
+  "skip": "meaning not certain"
+ },
+ "girointeqrator": {
+  "skip": "meaning not certain"
+ },
+ "girokamera": {
+  "skip": "meaning not certain"
+ },
+ "girokompas": {
+  "az": "Giroskopla şimal istiqamətini göstərən kompas.",
+  "en": "gyrocompass",
+  "pos": "noun"
+ },
+ "giromaqnit": {
+  "az": "Fırlanma ilə maqnit xassələri arasındakı əlaqəyə aid.",
+  "en": "gyromagnetic",
+  "pos": "adjective"
+ },
+ "gizlibaş": {
+  "skip": "meaning not certain"
+ },
+ "gizlicə-gizlicə": {
+  "az": "Heç kimə bildirmədən, xəlvətcə.",
+  "en": "secretly",
+  "pos": "adverb"
+ },
+ "gizlinçək": {
+  "skip": "meaning not certain"
+ },
+ "gizlin-gizlin": {
+  "az": "Xəlvətcə, gizli şəkildə.",
+  "en": "secretly",
+  "pos": "adverb"
+ },
+ "göbələkboy": {
+  "skip": "meaning not certain"
+ },
+ "gödəkayaq": {
+  "az": "Ayaqları qısa olan.",
+  "en": "short-legged",
+  "pos": "adjective"
+ },
+ "gödəkdiş": {
+  "skip": "meaning not certain"
+ },
+ "gödək-gödək": {
+  "az": "Qısa-qısa.",
+  "en": "short",
+  "pos": "adjective"
+ },
+ "gödəkqıçlı": {
+  "az": "Qıçları qısa olan.",
+  "en": "short-legged",
+  "pos": "adjective"
+ },
+ "gödəksaç": {
+  "az": "Saçı qısa olan.",
+  "en": "short-haired",
+  "pos": "adjective"
+ },
+ "gödəksap": {
+  "skip": "meaning not certain"
+ },
+ "göliyiri": {
+  "skip": "meaning not certain"
+ },
+ "gördəvər": {
+  "skip": "meaning not certain"
+ },
+ "görəlgə": {
+  "skip": "meaning not certain"
+ },
+ "görməmiş-görməmiş": {
+  "az": "Görməmiş adam kimi, acgözlüklə.",
+  "en": "greedily, like an upstart",
+  "pos": "adverb"
+ },
+ "götürgə": {
+  "skip": "meaning not certain"
+ },
+ "gövşəməyən": {
+  "az": "Gövşəmə qabiliyyəti olmayan.",
+  "en": "non-ruminant",
+  "pos": "adjective"
+ },
+ "göydaş": {
+  "skip": "meaning not certain"
+ },
+ "göyəlcəm": {
+  "skip": "meaning not certain"
+ },
+ "göyül": {
+  "skip": "meaning not certain"
+ },
+ "göyün": {
+  "skip": "meaning not certain"
+ },
+ "gözəyarılıq": {
+  "skip": "meaning not certain"
+ },
+ "gözyaşı-burun": {
+  "skip": "meaning not certain"
+ },
+ "gur-gur": {
+  "skip": "meaning not certain"
+ },
+ "gursaç": {
+  "az": "Saçı sıx olan.",
+  "en": "thick-haired",
+  "pos": "adjective"
+ },
+ "gursəs": {
+  "az": "Səsi gur olan.",
+  "en": "loud-voiced",
+  "pos": "adjective"
+ },
+ "gücükeçirmə": {
+  "skip": "meaning not certain"
+ },
+ "gülənşah": {
+  "skip": "meaning not certain"
+ },
+ "güləvər": {
+  "skip": "meaning not certain"
+ },
+ "gülülcə": {
+  "skip": "meaning not certain"
+ },
+ "gümüşotu": {
+  "skip": "meaning not certain"
+ },
+ "gündəcə": {
+  "skip": "meaning not certain"
+ },
+ "günəbənzər": {
+  "az": "Günəşə bənzəyən.",
+  "en": "sun-like",
+  "pos": "adjective"
+ },
+ "günəmuzdlu": {
+  "az": "Gündəlik muzd alan.",
+  "en": "paid by the day",
+  "pos": "adjective"
+ },
+ "haçabaş": {
+  "skip": "meaning not certain"
+ },
+ "haçadil": {
+  "az": "Dili haça olan.",
+  "en": "fork-tongued",
+  "pos": "adjective"
+ },
+ "halallıqla": {
+  "az": "Halal yolla, vicdanla.",
+  "en": "honestly",
+  "pos": "adverb"
+ },
+ "halbahal olmaq": {
+  "skip": "meaning not certain"
+ },
+ "haldan-hala düşmək": {
+  "az": "Bir haldan başqa hala keçmək, çox həyəcanlanmaq.",
+  "en": "to be beside oneself",
+  "pos": "verb"
+ },
+ "hallanmayan": {
+  "az": "Hal şəkilçisi qəbul etməyən.",
+  "en": "indeclinable",
+  "pos": "adjective"
+ },
+ "halogenez": {
+  "skip": "meaning not certain"
+ },
+ "halsız-halsız": {
+  "az": "Gücsüz halda.",
+  "en": "weakly, listlessly",
+  "pos": "adverb"
+ },
+ "hamadril": {
+  "az": "Afrikada və Ərəbistanda yaşayan pavian növü.",
+  "en": "hamadryas baboon",
+  "pos": "noun"
+ },
+ "hamarüzlü": {
+  "az": "Səthi hamar olan.",
+  "en": "smooth-surfaced",
+  "pos": "adjective"
+ },
+ "handikap": {
+  "az": "Zəif iştirakçıya verilən üstünlük; maneə.",
+  "en": "handicap",
+  "pos": "noun"
+ },
+ "haradasa": {
+  "az": "Hansısa bir yerdə.",
+  "en": "somewhere",
+  "pos": "adverb"
+ },
+ "hardtop": {
+  "az": "Sərt çıxarılabilən damı olan avtomobil.",
+  "en": "hardtop",
+  "pos": "noun"
+ },
+ "hardtop-sedan": {
+  "skip": "meaning not certain"
+ },
+ "harmotom": {
+  "az": "Seolit qrupundan mineral.",
+  "en": "harmotome",
+  "pos": "noun"
+ },
+ "harpaksofobiya": {
+  "az": "Soyulmaqdan, oğrulardan xəstə qorxu.",
+  "en": "harpaxophobia",
+  "pos": "noun"
+ },
+ "harpun": {
+  "az": "Balina və iri balıq ovu üçün mızraq.",
+  "en": "harpoon",
+  "pos": "noun"
+ },
+ "harsburgit": {
+  "az": "Olivin və piroksendən ibarət maqmatik süxur.",
+  "en": "harzburgite",
+  "pos": "noun"
+ },
+ "havalı-havalı": {
+  "skip": "meaning not certain"
+ },
+ "havayıca": {
+  "skip": "meaning not certain"
+ },
+ "hayanlıq": {
+  "skip": "meaning not certain"
+ },
+ "hedc": {
+  "az": "Qiymət riskindən sığortalanma əqdi.",
+  "en": "hedge",
+  "pos": "noun"
+ },
+ "hedcinq": {
+  "az": "Qiymət dəyişməsi riskindən sığortalanma.",
+  "en": "hedging",
+  "pos": "noun"
+ },
+ "hekistoterm": {
+  "skip": "meaning not certain"
+ },
+ "hektoqraf": {
+  "az": "Mətni jelatin lövhə vasitəsilə çoxaldan cihaz.",
+  "en": "hectograph",
+  "pos": "noun"
+ },
+ "hektoqrafik": {
+  "az": "Hektoqrafla çap olunan.",
+  "en": "hectographic",
+  "pos": "adjective"
+ },
+ "hektoqrafiya": {
+  "az": "Hektoqrafla çoxaltma üsulu.",
+  "en": "hectography",
+  "pos": "noun"
+ },
+ "hektometr": {
+  "az": "Yüz metrə bərabər uzunluq vahidi.",
+  "en": "hectometre",
+  "pos": "noun"
+ },
+ "hektometrik": {
+  "skip": "meaning not certain"
+ },
+ "hekzametr": {
+  "az": "Altı stopalı şeir vəzni.",
+  "en": "hexameter",
+  "pos": "noun"
+ },
+ "helenit": {
+  "skip": "meaning not certain"
+ },
+ "helikoprion": {
+  "az": "Diş spiralı olan qədim köpəkbalığı.",
+  "en": "Helicoprion",
+  "pos": "noun"
+ },
+ "heliobiologiya": {
+  "az": "Günəş fəallığının canlılara təsirini öyrənən elm.",
+  "en": "heliobiology",
+  "pos": "noun"
+ },
+ "heliodor": {
+  "az": "Sarı rəngli berill.",
+  "en": "heliodor",
+  "pos": "noun"
+ },
+ "helioenergetika": {
+  "az": "Günəş enerjisindən istifadə sahəsi.",
+  "en": "solar energy engineering",
+  "pos": "noun"
+ },
+ "heliofizik": {
+  "az": "Günəş fizikası üzrə mütəxəssis.",
+  "en": "solar physicist",
+  "pos": "noun"
+ },
+ "heliofizika": {
+  "az": "Günəşin fizikasını öyrənən elm.",
+  "en": "solar physics",
+  "pos": "noun"
+ },
+ "heliofobiya": {
+  "az": "Günəş işığından xəstə qorxu.",
+  "en": "heliophobia",
+  "pos": "noun"
+ },
+ "heliogeofizika": {
+  "az": "Günəş-Yer əlaqələrini öyrənən elm.",
+  "en": "heliogeophysics",
+  "pos": "noun"
+ },
+ "heliogeofiziki": {
+  "az": "Heliogeofizikaya aid.",
+  "en": "heliogeophysical",
+  "pos": "adjective"
+ },
+ "heliokompleks": {
+  "skip": "meaning not certain"
+ },
+ "helioqraf": {
+  "az": "Günəş şüası ilə işarə verən cihaz; Günəşi fotoşəkilə çəkən teleskop.",
+  "en": "heliograph",
+  "pos": "noun"
+ },
+ "helioqrafiya": {
+  "skip": "meaning not certain"
+ },
+ "helioqravür": {
+  "az": "Fotomexaniki üsulla hazırlanan qravüra.",
+  "en": "photogravure",
+  "pos": "noun"
+ },
+ "helioquruducu": {
+  "az": "Günəş enerjisi ilə işləyən quruducu.",
+  "en": "solar dryer",
+  "pos": "noun"
+ },
+ "heliotexnik": {
+  "az": "Günəş texnikası üzrə mütəxəssis.",
+  "en": "solar engineer",
+  "pos": "noun"
+ },
+ "heliotexniki": {
+  "az": "Heliotexnikaya aid.",
+  "en": "solar-engineering",
+  "pos": "adjective"
+ },
+ "heliotexnika": {
+  "az": "Günəş enerjisini istifadə edən qurğular texnikası.",
+  "en": "solar engineering",
+  "pos": "noun"
+ },
+ "helioterapevt": {
+  "az": "Günəş şüaları ilə müalicə edən həkim.",
+  "en": "heliotherapist",
+  "pos": "noun"
+ },
+ "helioterapiya": {
+  "az": "Günəş şüaları ilə müalicə.",
+  "en": "heliotherapy",
+  "pos": "noun"
+ },
+ "heliotropizm": {
+  "az": "Bitkinin günəşə doğru əyilməsi.",
+  "en": "heliotropism",
+  "pos": "noun"
+ },
+ "hemaqlütinasiya": {
+  "az": "Qırmızı qan cisimciklərinin bir-birinə yapışması.",
+  "en": "hemagglutination",
+  "pos": "noun"
+ },
+ "hemerobiya": {
+  "skip": "meaning not certain"
+ },
+ "hemimorfit": {
+  "az": "Sink silikatından ibarət mineral.",
+  "en": "hemimorphite",
+  "pos": "noun"
+ },
+ "hemodez": {
+  "az": "Zəhərlənmədə işlədilən qan əvəzedici məhlul.",
+  "en": "Hemodez (infusion solution)",
+  "pos": "noun"
+ },
+ "hemodinamika": {
+  "az": "Damarlarda qanın hərəkəti.",
+  "en": "hemodynamics",
+  "pos": "noun"
+ },
+ "hemosorbsiya": {
+  "az": "Qanın sorbentlərdən keçirilib təmizlənməsi.",
+  "en": "hemoperfusion",
+  "pos": "noun"
+ },
+ "hemoterapiya": {
+  "az": "Qan köçürmə ilə müalicə.",
+  "en": "hemotherapy",
+  "pos": "noun"
+ },
+ "hendiadiz": {
+  "az": "Bir anlayışın iki sözlə 'və' bağlayıcısı vasitəsilə ifadəsi.",
+  "en": "hendiadys",
+  "pos": "noun"
+ },
+ "hepatargiya": {
+  "skip": "meaning not certain"
+ },
+ "hepatoma": {
+  "az": "Qaraciyər şişi.",
+  "en": "hepatoma",
+  "pos": "noun"
+ },
+ "heraldik": {
+  "az": "Gerblərə aid.",
+  "en": "heraldic",
+  "pos": "adjective"
+ },
+ "herniotomiya": {
+  "az": "Yırtığın cərrahi kəsilməsi.",
+  "en": "herniotomy",
+  "pos": "noun"
+ },
+ "hersdorfit": {
+  "skip": "meaning not certain"
+ },
+ "hersinit": {
+  "az": "Dəmir və alüminium oksidindən ibarət mineral.",
+  "en": "hercynite",
+  "pos": "noun"
+ },
+ "hessit": {
+  "az": "Gümüş tellurid mineralı.",
+  "en": "hessite",
+  "pos": "noun"
+ },
+ "heş-funksiya": {
+  "az": "Verilənləri sabit uzunluqlu koda çevirən funksiya.",
+  "en": "hash function",
+  "pos": "noun"
+ },
+ "heterodin": {
+  "az": "Qəbuledicidə yerli rəqslər generatoru.",
+  "en": "heterodyne",
+  "pos": "noun"
+ },
+ "heterofemiya": {
+  "skip": "meaning not certain"
+ },
+ "heterofobiya": {
+  "skip": "meaning not certain"
+ },
+ "heterogenit": {
+  "skip": "meaning not certain"
+ },
+ "heterokeçirici": {
+  "skip": "meaning not certain"
+ },
+ "heteroqrafiya": {
+  "skip": "meaning not certain"
+ },
+ "heteroquruluşlu": {
+  "skip": "meaning not certain"
+ },
+ "heteromorfit": {
+  "skip": "meaning not certain"
+ },
+ "heteromorfiya": {
+  "skip": "meaning not certain"
+ },
+ "heteromorfoz": {
+  "az": "Bərpa zamanı itmiş orqanın yerinə başqa orqanın inkişafı.",
+  "en": "heteromorphosis",
+  "pos": "noun"
+ },
+ "heteronimiya": {
+  "skip": "meaning not certain"
+ },
+ "heteroplastika": {
+  "az": "Başqa növdən götürülmüş toxumanın köçürülməsi.",
+  "en": "heteroplasty",
+  "pos": "noun"
+ },
+ "heteropolyar": {
+  "az": "Müxtəlif yüklü qütbləri olan.",
+  "en": "heteropolar",
+  "pos": "adjective"
+ },
+ "heterosərhəd": {
+  "skip": "meaning not certain"
+ },
+ "heterosillabik": {
+  "az": "Müxtəlif hecalara aid.",
+  "en": "heterosyllabic",
+  "pos": "adjective"
+ },
+ "heterostruktur": {
+  "az": "Müxtəlif yarımkeçiricilərdən ibarət qatlı quruluş.",
+  "en": "heterostructure",
+  "pos": "noun"
+ },
+ "heteroüzv": {
+  "skip": "meaning not certain"
+ },
+ "heterozis": {
+  "az": "Hibridlərin valideynlərdən güclü olması.",
+  "en": "heterosis, hybrid vigour",
+  "pos": "noun"
+ },
+ "heveya": {
+  "az": "Şirəsindən kauçuk alınan tropik ağac.",
+  "en": "rubber tree",
+  "pos": "noun"
+ },
+ "heysiz-heysiz": {
+  "az": "Taqətsiz halda.",
+  "en": "feebly",
+  "pos": "adverb"
+ },
+ "heyvərə-heyvərə": {
+  "skip": "meaning not certain"
+ },
+ "həlməl": {
+  "skip": "meaning not certain"
+ },
+ "həlməşikli": {
+  "skip": "meaning not certain"
+ },
+ "həmxasiyyətli": {
+  "az": "Eyni xasiyyətli.",
+  "en": "of the same temperament",
+  "pos": "adjective"
+ },
+ "hərəkətlənmək": {
+  "az": "Hərəkətə gəlmək.",
+  "en": "to start moving",
+  "pos": "verb"
+ },
+ "həris-həris": {
+  "az": "Acgözlüklə.",
+  "en": "greedily",
+  "pos": "adverb"
+ },
+ "həsirotu": {
+  "skip": "meaning not certain"
+ },
+ "həvəsli-həvəsli": {
+  "az": "Böyük həvəslə.",
+  "en": "eagerly",
+  "pos": "adverb"
+ },
+ "həyalı-həyalı": {
+  "az": "Utancaqlıqla.",
+  "en": "bashfully",
+  "pos": "adverb"
+ },
+ "həyasız-həyasız": {
+  "az": "Həyasızcasına.",
+  "en": "shamelessly",
+  "pos": "adverb"
+ },
+ "həyəcansızlıq": {
+  "az": "Həyəcan keçirməmə, sakitlik.",
+  "en": "calmness",
+  "pos": "noun"
+ },
+ "həzəc": {
+  "skip": "meaning not certain"
+ },
+ "hialit": {
+  "az": "Rəngsiz şəffaf opal.",
+  "en": "hyalite",
+  "pos": "noun"
+ },
+ "hialofan": {
+  "skip": "meaning not certain"
+ },
+ "hiasint": {
+  "az": "Ətirli salxım çiçəkli soğanaqlı bitki.",
+  "en": "hyacinth",
+  "pos": "noun"
+ },
+ "hibridologiya": {
+  "az": "Hibridləşməni öyrənən elm.",
+  "en": "hybridology",
+  "pos": "noun"
+ },
+ "hibridoloji": {
+  "az": "Hibridologiyaya aid.",
+  "en": "hybridological",
+  "pos": "adjective"
+ },
+ "hibridoloq": {
+  "skip": "meaning not certain"
+ },
+ "hiddenit": {
+  "az": "Yaşıl rəngli qiymətli spodumen.",
+  "en": "hiddenite",
+  "pos": "noun"
+ },
+ "hiddətli-hiddətli": {
+  "az": "Qəzəblə.",
+  "en": "furiously",
+  "pos": "adverb"
+ },
+ "hidra": {
+  "az": "Şirin sularda yaşayan kiçik bağırsaqboşluqlu heyvan; çoxbaşlı mifik ilan.",
+  "en": "hydra",
+  "pos": "noun"
+ },
+ "hidrant": {
+  "az": "Yanğın zamanı su götürmək üçün kran.",
+  "en": "hydrant",
+  "pos": "noun"
+ },
+ "hidrargillit": {
+  "az": "Alüminium hidroksidindən ibarət mineral.",
+  "en": "gibbsite",
+  "pos": "noun"
+ },
+ "hidrartroz": {
+  "az": "Oynaqda maye toplanması.",
+  "en": "hydrarthrosis",
+  "pos": "noun"
+ },
+ "hidrofloqopit": {
+  "skip": "meaning not certain"
+ },
+ "hidroforminq": {
+  "az": "Hidrogen iştirakı ilə benzinin keyfiyyətini artırma prosesi.",
+  "en": "hydroforming",
+  "pos": "noun"
+ },
+ "hidroreya": {
+  "skip": "meaning not certain"
+ },
+ "hidrotroilit": {
+  "skip": "meaning not certain"
+ },
+ "hikikomori": {
+  "az": "Cəmiyyətdən təcrid olunub evdən çıxmayan adam.",
+  "en": "hikikomori",
+  "pos": "noun"
+ },
+ "hiqrometriya": {
+  "az": "Havanın rütubətini ölçmə.",
+  "en": "hygrometry",
+  "pos": "noun"
+ },
+ "hind-avropa": {
+  "az": "Hind-Avropa dil ailəsinə aid.",
+  "en": "Indo-European",
+  "pos": "adjective"
+ },
+ "hipemiya": {
+  "skip": "meaning not certain"
+ },
+ "hiperbaton": {
+  "az": "Cümlədə sözlərin adi sırasının pozulması.",
+  "en": "hyperbaton",
+  "pos": "noun"
+ },
+ "hiperlink": {
+  "az": "Başqa sənədə keçid verən əlaqə.",
+  "en": "hyperlink",
+  "pos": "noun"
+ },
+ "hiperlordoz": {
+  "az": "Onurğanın bel nahiyəsində artıq irəli əyilməsi.",
+  "en": "hyperlordosis",
+  "pos": "noun"
+ },
+ "hipermetamorfoz": {
+  "skip": "meaning not certain"
+ },
+ "hiperplaziya": {
+  "az": "Hüceyrələrin çoxalması nəticəsində toxumanın böyüməsi.",
+  "en": "hyperplasia",
+  "pos": "noun"
+ },
+ "hipersomniya": {
+  "az": "Patoloji yuxululuq.",
+  "en": "hypersomnia",
+  "pos": "noun"
+ },
+ "hipersten": {
+  "az": "Piroksen qrupundan mineral.",
+  "en": "hypersthene",
+  "pos": "noun"
+ },
+ "hipertenziya": {
+  "az": "Yüksək qan təzyiqi.",
+  "en": "hypertension",
+  "pos": "noun"
+ },
+ "hipertrixoz": {
+  "az": "Bədəndə artıq tük bitməsi.",
+  "en": "hypertrichosis",
+  "pos": "noun"
+ },
+ "hiperyük": {
+  "skip": "meaning not certain"
+ },
+ "hip-hop": {
+  "az": "Rep və ritmik musiqiyə əsaslanan küçə mədəniyyəti və musiqi üslubu.",
+  "en": "hip-hop",
+  "pos": "noun"
+ },
+ "hipidiomorf": {
+  "skip": "meaning not certain"
+ },
+ "hipnopediya": {
+  "az": "Yuxuda öyrətmə üsulu.",
+  "en": "hypnopedia",
+  "pos": "noun"
+ },
+ "hipobiosfer": {
+  "skip": "meaning not certain"
+ },
+ "hipodontiya": {
+  "az": "Bəzi dişlərin anadangəlmə olmaması.",
+  "en": "hypodontia",
+  "pos": "noun"
+ },
+ "hipoekosistem": {
+  "skip": "meaning not certain"
+ },
+ "hipofunksiya": {
+  "az": "Orqanın funksiyasının zəifləməsi.",
+  "en": "hypofunction",
+  "pos": "noun"
+ },
+ "hipogen": {
+  "az": "Yerin dərinliyində əmələ gələn.",
+  "en": "hypogene",
+  "pos": "adjective"
+ },
+ "hipogevziya": {
+  "az": "Dad hissinin zəifləməsi.",
+  "en": "hypogeusia",
+  "pos": "noun"
+ },
+ "hipokaliemiya": {
+  "az": "Qanda kaliumun azalması.",
+  "en": "hypokalemia",
+  "pos": "noun"
+ },
+ "hipoqalaktika": {
+  "skip": "meaning not certain"
+ },
+ "hipoqastrit": {
+  "skip": "meaning not certain"
+ },
+ "hipomaniya": {
+  "az": "Yüngül maniya halı.",
+  "en": "hypomania",
+  "pos": "noun"
+ },
+ "hippofobiya": {
+  "az": "Atlardan xəstə qorxu.",
+  "en": "hippophobia",
+  "pos": "noun"
+ },
+ "hippoterapevt": {
+  "az": "At vasitəsilə müalicə edən mütəxəssis.",
+  "en": "hippotherapist",
+  "pos": "noun"
+ },
+ "hippoterapiya": {
+  "az": "Atla müalicə, müalicəvi atçılıq.",
+  "en": "hippotherapy",
+  "pos": "noun"
+ },
+ "hiromaqnit": {
+  "skip": "meaning not certain"
+ },
+ "hirsli-hirsli": {
+  "az": "Hirslə, acıqla.",
+  "en": "angrily",
+  "pos": "adverb"
+ },
+ "hirsutism": {
+  "az": "Qadınlarda kişi tipli tük artımı.",
+  "en": "hirsutism",
+  "pos": "noun"
+ },
+ "histofiziologiya": {
+  "az": "Toxumaların funksiyalarını öyrənən elm.",
+  "en": "histophysiology",
+  "pos": "noun"
+ },
+ "histokimyəvi": {
+  "az": "Toxumaların kimyəvi tərkibinə aid.",
+  "en": "histochemical",
+  "pos": "adjective"
+ },
+ "histopatologiya": {
+  "az": "Toxumalarda xəstəlik dəyişikliklərini öyrənən elm.",
+  "en": "histopathology",
+  "pos": "noun"
+ },
+ "hol": {
+  "az": "Binada geniş giriş salonu.",
+  "en": "hall, lobby",
+  "pos": "noun"
+ },
+ "holoqraf": {
+  "skip": "meaning not certain"
+ },
+ "holoqrafik": {
+  "az": "Holoqrafiyaya aid, üçölçülü təsvirli.",
+  "en": "holographic",
+  "pos": "adjective"
+ },
+ "holoqrafiya": {
+  "az": "Lazerlə üçölçülü təsvir almaq üsulu.",
+  "en": "holography",
+  "pos": "noun"
+ },
+ "holovizion": {
+  "skip": "meaning not certain"
+ },
+ "homofobiya": {
+  "az": "Homoseksuallara qarşı düşmənçilik.",
+  "en": "homophobia",
+  "pos": "noun"
+ },
+ "homogenetik": {
+  "skip": "meaning not certain"
+ },
+ "homoqraf": {
+  "az": "Yazılışı eyni, mənası və tələffüzü fərqli söz.",
+  "en": "homograph",
+  "pos": "noun"
+ },
+ "homoqrafik": {
+  "skip": "meaning not certain"
+ },
+ "homoqrafiya": {
+  "skip": "meaning not certain"
+ },
+ "homoplastika": {
+  "az": "Eyni növdən götürülmüş toxumanın köçürülməsi.",
+  "en": "homoplasty",
+  "pos": "noun"
+ },
+ "homopolyar": {
+  "az": "Eyni yüklü qütbləri olan.",
+  "en": "homopolar",
+  "pos": "adjective"
+ },
+ "homotransplantasiya": {
+  "az": "Eyni növün fərdləri arasında orqan köçürülməsi.",
+  "en": "allotransplantation",
+  "pos": "noun"
+ },
+ "hoppan-hoppan": {
+  "skip": "meaning not certain"
+ },
+ "horizont": {
+  "az": "Üfüq; geologiyada müəyyən qat.",
+  "en": "horizon",
+  "pos": "noun"
+ },
+ "horst": {
+  "az": "Yer qabığının qırılmalar arasında qalxmış hissəsi.",
+  "en": "horst",
+  "pos": "noun"
+ },
+ "hortonolit": {
+  "skip": "meaning not certain"
+ },
+ "host": {
+  "az": "Şəbəkədə xidmət göstərən kompüter.",
+  "en": "host",
+  "pos": "noun"
+ },
+ "host-əlaqə": {
+  "skip": "meaning not certain"
+ },
+ "host-kompüter": {
+  "az": "Şəbəkədə xidmət göstərən əsas kompüter.",
+  "en": "host computer",
+  "pos": "noun"
+ },
+ "host-maşın": {
+  "az": "Şəbəkədə xidmət göstərən əsas kompüter.",
+  "en": "host machine",
+  "pos": "noun"
+ },
+ "host-ünvan": {
+  "az": "Şəbəkədə kompüterin ünvanı.",
+  "en": "host address",
+  "pos": "noun"
+ },
+ "höyüşlü": {
+  "skip": "meaning not certain"
+ },
+ "hudmundit": {
+  "skip": "meaning not certain"
+ },
+ "humidlik": {
+  "az": "İqlimin rütubətli olması.",
+  "en": "humidity (of climate)",
+  "pos": "noun"
+ },
+ "huşlu-huşlu": {
+  "skip": "meaning not certain"
+ },
+ "huşsuz-huşsuz": {
+  "skip": "meaning not certain"
+ },
+ "hücrəsəl": {
+  "az": "Hücrəyə aid.",
+  "en": "cellular",
+  "pos": "adjective"
+ },
+ "hüznlü-hüznlü": {
+  "az": "Kədərlə.",
+  "en": "sorrowfully",
+  "pos": "adverb"
+ },
+ "xaçabənzər": {
+  "az": "Xaça oxşayan.",
+  "en": "cross-shaped",
+  "pos": "adjective"
+ },
+ "xaldey": {
+  "az": "Qədim Mesopotamiyada yaşamış xalq və onun nümayəndəsi.",
+  "en": "Chaldean",
+  "pos": "noun"
+ },
+ "xalkantit": {
+  "az": "Mis sulfatından ibarət göy mineral.",
+  "en": "chalcanthite",
+  "pos": "noun"
+ },
+ "xalkozin": {
+  "az": "Mis sulfiddən ibarət mineral.",
+  "en": "chalcocite",
+  "pos": "noun"
+ },
+ "xallı-xallı": {
+  "az": "Çoxlu xalı olan.",
+  "en": "spotted",
+  "pos": "adjective"
+ },
+ "xalsedon": {
+  "az": "Kvarsın bərk lifli növü, yarımqiymətli daş.",
+  "en": "chalcedony",
+  "pos": "noun"
+ },
+ "xamırmaya": {
+  "skip": "meaning not certain"
+ },
+ "xamıtqıçlı": {
+  "skip": "meaning not certain"
+ },
+ "xanəhmədi": {
+  "skip": "meaning not certain"
+ },
+ "xarab-xarab": {
+  "skip": "meaning not certain"
+ },
+ "xarius": {
+  "az": "Soyuq çaylarda yaşayan qızılbalıq fəsiləsindən balıq.",
+  "en": "grayling",
+  "pos": "noun"
+ },
+ "xemodinamika": {
+  "skip": "meaning not certain"
+ },
+ "xemosintez": {
+  "az": "Bakteriyaların kimyəvi reaksiyaların enerjisi ilə üzvi maddə yaratması.",
+  "en": "chemosynthesis",
+  "pos": "noun"
+ },
+ "xemosorbsiya": {
+  "az": "Kimyəvi reaksiya ilə müşayiət olunan udma.",
+  "en": "chemisorption",
+  "pos": "noun"
+ },
+ "xemotaksis": {
+  "az": "Hüceyrənin kimyəvi maddəyə doğru və ya ondan hərəkəti.",
+  "en": "chemotaxis",
+  "pos": "noun"
+ },
+ "xeyloplastika": {
+  "az": "Dodaqların bərpa əməliyyatı.",
+  "en": "cheiloplasty",
+  "pos": "noun"
+ },
+ "xəbis-xəbis": {
+  "skip": "meaning not certain"
+ },
+ "xəfif-xəfif": {
+  "az": "Yüngülcə, yavaşca.",
+  "en": "lightly, softly",
+  "pos": "adverb"
+ },
+ "xəlvətiyyə": {
+  "az": "Sufi təriqəti.",
+  "en": "Khalwati Sufi order",
+  "pos": "noun"
+ },
+ "xənazir": {
+  "skip": "meaning not certain"
+ }
+}
