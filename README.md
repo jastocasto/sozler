@@ -1,6 +1,6 @@
 # SÖZ — Söz Toxuması
 
-The active atlas lives in `dist/`, with data preparation scripts in `scripts/` and regression checks in `tests/`. This GitHub import is based on Sites version 57 (`fe0e3e5946c3d8b1006b8c9c50f14a0092f35927`).
+The active atlas lives in `dist/`, with data preparation scripts in `scripts/` and regression checks in `tests/`.
 
 The [original Söz Xəritəsi project](archive/sozler/) is preserved as it appeared in `jastocasto/sozler` at `67ac2835060e7bf94fa7fa43a8553ee8e64c02d4`. The archive includes its HTML, CSS, JavaScript, Flask backend, and dependency list. The legacy backend reads a Google Sheet and expects `SERVICE_ACCOUNT_JSON` at runtime. The current atlas runs from static files.
 
@@ -32,7 +32,7 @@ Paraphrases and AI-written definitions are editorial text under CC BY-SA 4.0, ke
 
 ## Run
 
-Serve `dist` with any static HTTP server or open `dist/index.html`. No build/runtime dependencies or external fonts are required.
+The live site is https://soz-toxumasi.vercel.app, deployed by Vercel from the `dist/` folder of branch `soz-toxumasi`. Locally, serve `dist` with any static HTTP server or open `dist/index.html`. No build/runtime dependencies or external fonts are required.
 
 ## Picture quiz
 
@@ -331,7 +331,7 @@ Build order after any served-file changes:
 
 Origins and frequency research are deferred under the user's race-then-offline priority. Unpublished research is saved outside `dist` in `/workspace/soz-sources`; the map, dictionary relations and word metadata have not been changed in this release.
 
-Offline download compatibility: the host returns a 307 redirect for `/index.html`, so the package fetches the canonical scope root for that file and saves it under both cache aliases. SHA-256 validation still checks the original page bytes. The download button checks for an updated worker before starting; download timeouts reset with progress. The offline test reproduces the index redirect and confirms the downloader never requests that redirecting URL.
+Offline download compatibility: some hosts redirect `/index.html`, so the package fetches the canonical scope root for that file and saves it under both cache aliases. SHA-256 validation still checks the original page bytes. The download button checks for an updated worker before starting; download timeouts reset with progress. The offline test reproduces the index redirect and confirms the downloader never requests that redirecting URL.
 
 Race navigation lock: the renderer blocks drag, pinch, wheel and map-navigation keys during a race, as well as public galaxy/zoom actions. Disabled/hidden controls and the selection guard also block search and navigation shortcuts. A plain bubble tap and the existing counted Back action remain valid. Ending the race restores ordinary map navigation.
 

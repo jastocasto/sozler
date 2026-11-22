@@ -6,7 +6,8 @@ Read this first if you are an AI agent or developer picking up the work. Everyth
 
 - **Branch `soz-toxumasi`**: the current project (Söz Toxuması). Work here.
 - **Branch `main`**: the original 2024 Söz Xəritəsi Flask app, also archived in `archive/sozler/`. Tag `legacy-sozler` marks its last commit.
-- **`dist/`**: the complete static site. There is no build step at runtime; serve `dist/` with any static server or publish it as-is. `.openai/hosting.json` points the hosting at `dist/`.
+- **`dist/`**: the complete static site. There is no build step at runtime; serve `dist/` with any static server or publish it as-is.
+- **Hosting**: Vercel project `soz-toxumasi`, live at https://soz-toxumasi.vercel.app. It serves `dist/` as plain static files (no framework, no build command). Pushing to `soz-toxumasi` deploys production; other branches get preview deployments, which require a Vercel login. The production address is public.
 - **`scripts/`**: data builders. **`tests/`**: regression checks (`node tests/<name>.cjs`; interaction tests need `NODE_PATH` pointing at a `linkedom` install).
 - **`README.md`**: feature documentation. The section "Headword count and print-dictionary definitions" describes the newest data layer.
 
@@ -58,6 +59,10 @@ Rules that matter: write new wording, never copy the print definitions (the buil
     node tests/offline.cjs
 
 `version_assets.py` refreshes the `?v=` cache keys in `dist/index.html`; `build_offline.py` regenerates `dist/sw.js` and `dist/offline-package.json`. Run both whenever any file in `dist/` changes, or offline installs break.
+
+## Deploy
+
+Commit the rebuilt `dist/` and push to `soz-toxumasi`. Vercel deploys it to https://soz-toxumasi.vercel.app. Before calling the work live, check in the Vercel dashboard that the deployment is Ready, then open the site and the picture quiz (`#sekil`).
 
 ## Known test status
 
