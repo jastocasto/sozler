@@ -85,7 +85,7 @@ POSITIONS = {'üstü': ('üstündə', 'on or above'), 'altı': ('altında', 'und
              'kənarı': ('kənarında', 'at the edge of'), 'qırağı': ('qırağında', 'at the edge of'), 'ardı': ('ardında', 'behind')}
 # Heads that a combining form only seems to end in: -qrafik and -metrik are not kinds of qrafik (chart) or metrik.
 FALSE_HEADS = {'qrafik', 'metrik', 'metrlik', 'qramlıq', 'metraj', 'metr', 'qram', 'litr'}
-VERBAL_KINDS = {'verbal-noun', 'passive', 'passive-n', 'causative', 'become', 'make', 'acquire'}
+VERBAL_KINDS = {'converb-repeat', 'verbal-noun', 'passive', 'passive-n', 'causative', 'become', 'make', 'acquire'}
 PAIRED_ENDINGS = {'sı', 'si', 'su', 'sü', 'nı', 'ni', 'nu', 'nü', 'lı', 'li', 'lu', 'lü'}
 POS = {'noun', 'verb', 'adjective', 'adverb', 'numeral', 'pronoun', 'interjection', 'postposition',
        'conjunction', 'particle', 'phrase'}
@@ -397,6 +397,20 @@ class Builder:
         """Yield (base_word, kind, suffix) for transparent derivations of an existing headword."""
         if ' ' in word or len(word) < 5:
             return
+        # Doubled converb (ağlaya-ağlaya, bilə-bilə) or doubled noun (mərhələ-mərhələ, parça-parça).
+        match = re.fullmatch(r'([^- ]+)-\1', word)
+        if match:
+            piece = match[1]
+            if piece[-1] in 'aə':
+                stems = [piece[:-1]] + ([piece[:-2]] if piece[:-1].endswith('y') else [])
+                verb = next((s + infinitive_ending(s) for s in stems if (self.usable(s + infinitive_ending(s)) or {}).get('pos') == 'verb'), None)
+                if verb:
+                    yield verb, 'converb-repeat', piece[-1]
+                    return
+            # A doubled participle (görməmiş-görməmiş) is not "X by X".
+            if piece in self.nodes and not re.search(r'm[ıiuü]ş$', piece):
+                yield piece, 'repeat', ''
+            return
         # Passive or reflexive -n of a -la verb comes first: açıqlanmaq is açıqlamaq + -n, not açıq + -lanmaq.
         match = re.fullmatch(r'(.+l[aə])n(maq|mək)', word)
         if match and match[1] + infinitive_ending(match[1]) in self.nodes:
@@ -477,6 +491,7 @@ class Builder:
             return f'Bir şeyi {base_word} hala gətirmək.', f'to make something {g}', 'verb'
         # A long descriptive gloss reads badly inside a verb gloss; name the base word instead.
         short = g if len(g.split()) <= 4 else base_word
+        english = short != base_word  # the gloss is English, not the Azerbaijani base used as a fallback
         if g.startswith('having '):
             short = 'with ' + g[7:]
         if kind == 'become' and pos in ('noun', 'word'):
@@ -485,9 +500,15 @@ class Builder:
         if kind == 'make' and pos in ('noun', 'word'):
             return (f'«{base_word}» sözündən -{suffix} şəkilçisi ilə düzələn fel: bir şeyi {base_word} halına salmaq.',
                     f'to turn something into {short}', 'verb')
+        if kind == 'converb-repeat' and pos == 'verb':
+            ing = clean_form((base.get('verbForms') or {}).get('ing'))
+            en = f'while {ing}, again and again' if ing else f'repeatedly, as in {base_word} ({g})'
+            return f'«{base_word}» felindən düzələn təkrarlı feli bağlama: hərəkətin davamlı, təkrar-təkrar icrasını bildirir.', en, 'adverb'
+        if kind == 'repeat' and pos in ('noun', 'word'):
+            en = f'{short} by {short}' if english and ' ' not in short else f'one {base_word} after another'
+            return f'«{base_word}» sözünün təkrarı ilə düzələn zərf: {base_word} ardınca {base_word}, bir-bir.', en, 'adverb'
         if kind == 'diminutive' and pos in ('noun', 'word'):
             return f'«{base_word}» sözündən -{suffix} şəkilçisi ilə düzələn kiçiltmə: kiçik {base_word}.', f'little {short}', 'noun'
-        english = short != base_word  # the gloss is English, not the Azerbaijani base used as a fallback
         if kind == 'manner' and nominal:
             if pos in ('noun', 'word'):
                 en = f'like {article(short)}' if english and ' ' not in short else f'like {short}'
