@@ -1,0 +1,1176 @@
+{
+"fantom": {
+"az": "Kabus, xəyal; tibbi təlim manekeni.",
+"en": "phantom; training dummy",
+"pos": "noun"
+},
+"fətirxana": {
+"az": "Fətir bişirilən yer.",
+"en": "flatbread bakery",
+"pos": "noun"
+},
+"fındıqçılıq": {
+"az": "Fındıq yetişdirmə.",
+"en": "hazelnut growing",
+"pos": "noun"
+},
+"fındıqtəmizləyən": {
+"az": "Fındıq təmizləyən.",
+"en": "hazelnut-cleaning",
+"pos": "adjective"
+},
+"fırladıcı": {
+"az": "Fırladan.",
+"en": "rotating",
+"pos": "adjective"
+},
+"fırlanqac": {
+"az": "Fırlanan oyuncaq.",
+"en": "whirligig",
+"pos": "noun"
+},
+"fırlayış": {
+"az": "Fırlatma.",
+"en": "spin",
+"pos": "noun"
+},
+"fısqırda-fısqırda": {
+"az": "Fısqıraraq.",
+"en": "snorting",
+"pos": "adverb"
+},
+"fısqırtı": {
+"az": "Fısqırma səsi.",
+"en": "snort",
+"pos": "noun"
+},
+"fianit": {
+"az": "Süni qiymətli daş.",
+"en": "cubic zirconia",
+"pos": "noun"
+},
+"fiber": {
+"az": "Lifli material.",
+"en": "fibre",
+"pos": "noun"
+},
+"fiber-optik": {
+"az": "Optik liflə bağlı.",
+"en": "fibre-optic",
+"pos": "adjective"
+},
+"fibroblastik": {
+"az": "Fibroblastlara aid.",
+"en": "fibroblastic",
+"pos": "adjective"
+},
+"fibromatoz": {
+"az": "Çoxsaylı fibromalar.",
+"en": "fibromatosis",
+"pos": "noun"
+},
+"fibromiksoma": {
+"az": "Qarışıq birləşdirici toxuma şişi.",
+"en": "fibromyxoma",
+"pos": "noun"
+},
+"fibromioma": {
+"az": "Əzələ-birləşdirici toxuma şişi.",
+"en": "fibromyoma",
+"pos": "noun"
+},
+"fibrooptik": {
+"az": "Lifli optika.",
+"en": "fibre-optic",
+"pos": "adjective"
+},
+"fibroşüşə": {
+"az": "Şüşə lif.",
+"en": "fibreglass",
+"pos": "noun"
+},
+"fibroz-kavernoz": {
+"az": "Lifli və boşluqlu.",
+"en": "fibrocavernous",
+"pos": "adjective"
+},
+"ficili": {
+"skip": "meaning not known with confidence"
+},
+"fikirçəkən": {
+"az": "Fikir çəkən.",
+"en": "worrying",
+"pos": "adjective"
+},
+"fiksasiya": {
+"az": "Bərkitmə, qeyd etmə.",
+"en": "fixation",
+"pos": "noun"
+},
+"fiksəedici": {
+"az": "Bərkidən.",
+"en": "fixing",
+"pos": "adjective"
+},
+"fiksiya": {
+"az": "Bədii uydurma.",
+"en": "fiction",
+"pos": "noun"
+},
+"fiktonim": {
+"az": "Uydurma ad.",
+"en": "fictonym",
+"pos": "noun"
+},
+"fiqurant": {
+"az": "Səhnədə sözsüz iştirakçı; işdə figurant.",
+"en": "figurant",
+"pos": "noun"
+},
+"fiqurasiya": {
+"az": "Fiqurlu bəzək.",
+"en": "figuration",
+"pos": "noun"
+},
+"fiqurativ": {
+"az": "Təsviri.",
+"en": "figurative",
+"pos": "adjective"
+},
+"filantropist": {
+"az": "Xeyriyyəçi.",
+"en": "philanthropist",
+"pos": "noun"
+},
+"filarmonik": {
+"az": "Filarmoniyaya aid.",
+"en": "philharmonic",
+"pos": "adjective"
+},
+"filatelçi": {
+"az": "Marka toplayan.",
+"en": "philatelist",
+"pos": "noun"
+},
+"fildekos": {
+"az": "Pambıq sap növü.",
+"en": "lisle thread",
+"pos": "noun"
+},
+"filemafobiya": {
+"az": "Öpüşdən qorxu.",
+"en": "philemaphobia",
+"pos": "noun"
+},
+"filiqran": {
+"az": "İncə zərgərlik işi; su nişanı.",
+"en": "filigree; watermark",
+"pos": "noun"
+},
+"filioqrafiya": {
+"skip": "meaning not known with confidence"
+},
+"filizdaşıyan": {
+"az": "Filiz daşıyan.",
+"en": "ore-carrying",
+"pos": "adjective"
+},
+"filizsaflaşdıran": {
+"az": "Filizi saflaşdıran.",
+"en": "ore-dressing",
+"pos": "adjective"
+},
+"filler": {
+"az": "Doldurucu maddə.",
+"en": "filler",
+"pos": "noun"
+},
+"filloxinon": {
+"az": "K1 vitamini.",
+"en": "phylloquinone",
+"pos": "noun"
+},
+"filloid": {
+"az": "Yarpaqvari.",
+"en": "phylloid",
+"pos": "adjective"
+},
+"filmçəkən": {
+"az": "Film çəkən.",
+"en": "filmmaker",
+"pos": "noun"
+},
+"filofoniya": {
+"skip": "meaning not known with confidence"
+},
+"filogenez": {
+"az": "Növlərin tarixi inkişafı.",
+"en": "phylogenesis",
+"pos": "noun"
+},
+"filtrat": {
+"az": "Süzüntü.",
+"en": "filtrate",
+"pos": "noun"
+},
+"fimoz": {
+"az": "Sünnət dərisinin daralması.",
+"en": "phimosis",
+"pos": "noun"
+},
+"fincanvari": {
+"az": "Fincan kimi.",
+"en": "cup-shaped",
+"pos": "adjective"
+},
+"fin-uqor dilləri": {
+"az": "Ural dil ailəsinin qolu.",
+"en": "Finno-Ugric languages",
+"pos": "noun"
+},
+"fiskal": {
+"az": "Xəzinəyə aid.",
+"en": "fiscal",
+"pos": "adjective"
+},
+"fisqarmon": {
+"az": "Əl ilə çalınan kiçik orqan.",
+"en": "harmonium",
+"pos": "noun"
+},
+"fişburger": {
+"az": "Balıqlı burger.",
+"en": "fish burger",
+"pos": "noun"
+},
+"fişəngbaz": {
+"az": "Fişəng atmağı sevən.",
+"en": "firecracker enthusiast",
+"pos": "noun"
+},
+"fişəngdan": {
+"az": "Fişəng qabı.",
+"en": "cartridge pouch",
+"pos": "noun"
+},
+"fitə-qətifə": {
+"skip": "meaning not known with confidence"
+},
+"fitinq": {
+"az": "Boru birləşdiricisi.",
+"en": "fitting",
+"pos": "noun"
+},
+"fitofaq": {
+"az": "Bitkiyeyən.",
+"en": "phytophagous",
+"pos": "adjective"
+},
+"fitogen": {
+"az": "Bitki mənşəli.",
+"en": "phytogenic",
+"pos": "adjective"
+},
+"fitoiqlim": {
+"az": "Bitki örtüyündəki mikroiqlim.",
+"en": "phytoclimate",
+"pos": "noun"
+},
+"fitokimya": {
+"az": "Bitki kimyası.",
+"en": "phytochemistry",
+"pos": "noun"
+},
+"fitokütlə": {
+"az": "Bitki kütləsi.",
+"en": "phytomass",
+"pos": "noun"
+},
+"fitol": {
+"az": "Xlorofilin tərkib hissəsi olan spirt.",
+"en": "phytol",
+"pos": "noun"
+},
+"fitomorfoz": {
+"skip": "meaning not known with confidence"
+},
+"fitonimikon": {
+"skip": "meaning not known with confidence"
+},
+"fitonomiya": {
+"skip": "meaning not known with confidence"
+},
+"fitonsid": {
+"az": "Bitkilərin ifraz etdiyi antimikrob maddə.",
+"en": "phytoncide",
+"pos": "noun"
+},
+"fitosenologiya": {
+"az": "Bitki birliklərini öyrənən elm.",
+"en": "phytocoenology",
+"pos": "noun"
+},
+"fitosenotik": {
+"az": "Bitki birliyinə aid.",
+"en": "phytocoenotic",
+"pos": "adjective"
+},
+"fitoz": {
+"az": "Bitki xəstəliyi.",
+"en": "phytosis",
+"pos": "noun"
+},
+"fizionomika": {
+"az": "Üzə görə xasiyyəti təyin etmə.",
+"en": "physiognomy",
+"pos": "noun"
+},
+"fiziopatik": {
+"skip": "meaning not known with confidence"
+},
+"fiziopatiya": {
+"skip": "meaning not known with confidence"
+},
+"fizioprofilaktika": {
+"az": "Fiziki üsullarla profilaktika.",
+"en": "physioprophylaxis",
+"pos": "noun"
+},
+"flamidioz": {
+"skip": "meaning not known with confidence"
+},
+"flanş": {
+"az": "Boru birləşdirici halqa.",
+"en": "flange",
+"pos": "noun"
+},
+"flavin": {
+"az": "Sarı piqment.",
+"en": "flavin",
+"pos": "noun"
+},
+"flayer": {
+"az": "Reklam vərəqəsi.",
+"en": "flyer",
+"pos": "noun"
+},
+"flebolit": {
+"az": "Damar daşı.",
+"en": "phlebolith",
+"pos": "noun"
+},
+"fleboliz": {
+"skip": "meaning not known with confidence"
+},
+"fləş": {
+"az": "Fləş yaddaş.",
+"en": "flash drive",
+"pos": "noun"
+},
+"fləş-banner": {
+"az": "Animasiyalı reklam.",
+"en": "flash banner",
+"pos": "noun"
+},
+"fləş-kart": {
+"az": "Fləş yaddaş kartı.",
+"en": "flash card",
+"pos": "noun"
+},
+"fləş-mob": {
+"az": "Qəfil kütləvi aksiya.",
+"en": "flash mob",
+"pos": "noun"
+},
+"flibustyer": {
+"az": "Dəniz qulduru.",
+"en": "filibuster (pirate)",
+"pos": "noun"
+},
+"flis": {
+"az": "Yumşaq sintetik parça.",
+"en": "fleece",
+"pos": "noun"
+},
+"flomaster": {
+"az": "Keçə uclu qələm.",
+"en": "felt-tip pen",
+"pos": "noun"
+},
+"flor": {
+"skip": "meaning not known with confidence"
+},
+"floristika": {
+"az": "Gül tərtibatı; floranı öyrənmə.",
+"en": "floristry; floristics",
+"pos": "noun"
+},
+"flot": {
+"az": "Donanma.",
+"en": "fleet",
+"pos": "noun"
+},
+"flotinq": {
+"az": "Üzən məzənnə.",
+"en": "floating (rate)",
+"pos": "noun"
+},
+"flüoressens": {
+"az": "Flüoressensiya.",
+"en": "fluorescence",
+"pos": "noun"
+},
+"flüorimetr": {
+"az": "Flüoressensiyanı ölçən cihaz.",
+"en": "fluorimeter",
+"pos": "noun"
+},
+"flüid": {
+"az": "Görünməz axın, mayeyəbənzər maddə.",
+"en": "fluid",
+"pos": "noun"
+},
+"fobofobiya": {
+"az": "Qorxudan qorxu.",
+"en": "phobophobia",
+"pos": "noun"
+},
+"fokal": {
+"az": "Fokusa aid.",
+"en": "focal",
+"pos": "adjective"
+},
+"fokuslaşdırıcı": {
+"az": "Fokuslaşdıran.",
+"en": "focusing",
+"pos": "adjective"
+},
+"fol": {
+"az": "Qayda pozuntusu.",
+"en": "foul",
+"pos": "noun"
+},
+"foliant": {
+"az": "Böyük ölçülü kitab.",
+"en": "folio",
+"pos": "noun"
+},
+"follikulit": {
+"az": "Tük follikulunun iltihabı.",
+"en": "folliculitis",
+"pos": "noun"
+},
+"follikulyoz": {
+"skip": "meaning not known with confidence"
+},
+"fonemika": {
+"az": "Fonemləri öyrənən sahə.",
+"en": "phonemics",
+"pos": "noun"
+},
+"fonestem": {
+"az": "Səs simvolizmi daşıyan səs birləşməsi.",
+"en": "phonestheme",
+"pos": "noun"
+},
+"fonika": {
+"az": "Səs tərəfi.",
+"en": "phonics",
+"pos": "noun"
+},
+"fonoalbom": {
+"az": "Səs albomu.",
+"en": "audio album",
+"pos": "noun"
+},
+"fonofilm": {
+"az": "Səsli film.",
+"en": "sound film",
+"pos": "noun"
+},
+"fonoforez": {
+"az": "Ultrasəslə dərman yeritmə.",
+"en": "phonophoresis",
+"pos": "noun"
+},
+"fonon": {
+"az": "Kristal qəfəs rəqsinin kvantı.",
+"en": "phonon",
+"pos": "noun"
+},
+"fonopatiya": {
+"az": "Səs pozğunluğu.",
+"en": "phonopathy",
+"pos": "noun"
+},
+"fonoskop": {
+"skip": "meaning not known with confidence"
+},
+"fora": {
+"az": "Qabaqcadan verilən üstünlük.",
+"en": "head start, handicap",
+"pos": "noun"
+},
+"forel": {
+"az": "Alabalıq.",
+"en": "trout",
+"pos": "noun"
+},
+"formalistcə": {
+"az": "Formalist kimi.",
+"en": "formalistically",
+"pos": "adverb"
+},
+"formant": {
+"az": "Səsin rezonans tezliyi; şəkilçi.",
+"en": "formant",
+"pos": "noun"
+},
+"forpost": {
+"az": "Ön mövqe.",
+"en": "outpost",
+"pos": "noun"
+},
+"fortuna": {
+"az": "Bəxt, tale.",
+"en": "fortune",
+"pos": "noun"
+},
+"fosfid": {
+"az": "Fosforun metalla birləşməsi.",
+"en": "phosphide",
+"pos": "noun"
+},
+"fosfin": {
+"az": "Zəhərli qaz.",
+"en": "phosphine",
+"pos": "noun"
+},
+"fosforoskop": {
+"skip": "meaning not known with confidence"
+},
+"fotoakustik hadisə": {
+"az": "İşığın səsə çevrilməsi hadisəsi.",
+"en": "photoacoustic effect",
+"pos": "noun"
+},
+"fotoartırıcı": {
+"skip": "meaning not known with confidence"
+},
+"fotofil": {
+"az": "İşıqsevən.",
+"en": "photophilic",
+"pos": "adjective"
+},
+"fotofob": {
+"az": "İşıqdan qaçan.",
+"en": "photophobic",
+"pos": "adjective"
+},
+"fotoforez": {
+"az": "İşığın təsiri ilə hissəcik hərəkəti.",
+"en": "photophoresis",
+"pos": "noun"
+},
+"fotogen": {
+"az": "Şəkildə yaxşı çıxan.",
+"en": "photogenic",
+"pos": "adjective"
+},
+"fotohelioqraf": {
+"az": "Günəşi fotoşəkilə çəkən cihaz.",
+"en": "photoheliograph",
+"pos": "noun"
+},
+"fotomaniya": {
+"az": "Fotoqrafiya həvəsi.",
+"en": "photomania",
+"pos": "noun"
+},
+"foton": {
+"az": "İşıq kvantı.",
+"en": "photon",
+"pos": "noun"
+},
+"fotonüvə reaksiyası": {
+"az": "Fotonla törənən nüvə reaksiyası.",
+"en": "photonuclear reaction",
+"pos": "noun"
+},
+"fotooksidant": {
+"az": "İşıqla oksidləşdirici.",
+"en": "photo-oxidant",
+"pos": "noun"
+},
+"fotoskop": {
+"skip": "meaning not known with confidence"
+},
+"fotoşop": {
+"az": "Şəkil redaktə proqramı.",
+"en": "Photoshop",
+"pos": "noun"
+},
+"fototeka": {
+"az": "Fotoşəkil arxivi.",
+"en": "photo library",
+"pos": "noun"
+},
+"fototermal": {
+"az": "İşıq və istiliyə aid.",
+"en": "photothermal",
+"pos": "adjective"
+},
+"fototermik": {
+"az": "İşıq-istilik.",
+"en": "photothermic",
+"pos": "adjective"
+},
+"fototermoliz": {
+"az": "İşıqla toxuma qızdırılması.",
+"en": "photothermolysis",
+"pos": "noun"
+},
+"foveal": {
+"az": "Gözün mərkəzi çuxuruna aid.",
+"en": "foveal",
+"pos": "adjective"
+},
+"fövqəl": {
+"az": "Üstün, fövqəladə.",
+"en": "super-, extra-",
+"pos": "adjective"
+},
+"fövqəldövlət": {
+"az": "Super güc.",
+"en": "superpower",
+"pos": "noun"
+},
+"fövqəlhökumət": {
+"az": "Hökumətdən üstün qurum.",
+"en": "supragovernmental body",
+"pos": "noun"
+},
+"fövqəlinsani": {
+"az": "İnsanüstü.",
+"en": "superhuman",
+"pos": "adjective"
+},
+"fövqəllayihə": {
+"az": "Böyük layihə.",
+"en": "megaproject",
+"pos": "noun"
+},
+"fövqəlpsixoloji": {
+"az": "Psixologiyadan kənar.",
+"en": "parapsychological",
+"pos": "adjective"
+},
+"fraxtaçı": {
+"az": "Fraxt sahibi.",
+"en": "freighter",
+"pos": "noun"
+},
+"fraxtlayıcı": {
+"az": "Gəmi kirayələyən.",
+"en": "charterer",
+"pos": "noun"
+},
+"fraxt-reliz": {
+"skip": "meaning not known with confidence"
+},
+"fraqmentasiya": {
+"az": "Parçalanma.",
+"en": "fragmentation",
+"pos": "noun"
+},
+"framuqa": {
+"az": "Pəncərənin yuxarı açılan hissəsi.",
+"en": "transom window",
+"pos": "noun"
+},
+"françayzer": {
+"az": "Françayz verən şirkət.",
+"en": "franchisor",
+"pos": "noun"
+},
+"frankofoniya": {
+"az": "Fransızdilli dünya.",
+"en": "Francophonie",
+"pos": "noun"
+},
+"frankofobiya": {
+"az": "Fransızlardan qorxu, nifrət.",
+"en": "Francophobia",
+"pos": "noun"
+},
+"fratriya": {
+"az": "Qəbilə ittifaqı.",
+"en": "phratry",
+"pos": "noun"
+},
+"frazem": {
+"az": "Frazeoloji birləşmə.",
+"en": "phraseme",
+"pos": "noun"
+},
+"freatik": {
+"az": "Qrunt sularına aid.",
+"en": "phreatic",
+"pos": "adjective"
+},
+"freatobiologiya": {
+"skip": "meaning not known with confidence"
+},
+"freatobiont": {
+"skip": "meaning not known with confidence"
+},
+"freatofit": {
+"az": "Kökü qrunt suyuna çatan bitki.",
+"en": "phreatophyte",
+"pos": "noun"
+},
+"frenalgiya": {
+"skip": "meaning not known with confidence"
+},
+"freon": {
+"az": "Soyuducu qaz.",
+"en": "freon",
+"pos": "noun"
+},
+"freym": {
+"az": "Çərçivə, kadr.",
+"en": "frame",
+"pos": "noun"
+},
+"fri-kartof": {
+"az": "Qızardılmış kartof.",
+"en": "French fries",
+"pos": "noun"
+},
+"friker": {
+"az": "Qəribə adam.",
+"en": "freak",
+"pos": "noun"
+},
+"friksiya": {
+"az": "Sürtünmə.",
+"en": "friction",
+"pos": "noun"
+},
+"frilans": {
+"az": "Müstəqil iş.",
+"en": "freelance",
+"pos": "noun"
+},
+"frinoderma": {
+"az": "Vitamin çatışmazlığından dəri qabalığı.",
+"en": "phrynoderma",
+"pos": "noun"
+},
+"fritür": {
+"az": "Qaynar yağda qızartma.",
+"en": "deep frying",
+"pos": "noun"
+},
+"frontinq": {
+"skip": "meaning not known with confidence"
+},
+"frontispis": {
+"az": "Kitabın titul səhifəsi qarşısındakı şəkil.",
+"en": "frontispiece",
+"pos": "noun"
+},
+"fruktan": {
+"az": "Fruktoza polimeri.",
+"en": "fructan",
+"pos": "noun"
+},
+"ftiziatriya": {
+"az": "Vərəm müalicəsi.",
+"en": "phthisiatry",
+"pos": "noun"
+},
+"ftorid": {
+"az": "Ftor birləşməsi.",
+"en": "fluoride",
+"pos": "noun"
+},
+"ftorlon": {
+"az": "Ftorlu polimer.",
+"en": "fluoropolymer",
+"pos": "noun"
+},
+"ftorplast": {
+"az": "Ftorlu plastik.",
+"en": "fluoroplastic",
+"pos": "noun"
+},
+"fuko cərəyanı": {
+"az": "Burulğan cərəyanı.",
+"en": "eddy current",
+"pos": "noun"
+},
+"fuksin": {
+"az": "Qırmızı boyaq.",
+"en": "fuchsine",
+"pos": "noun"
+},
+"fumiqant": {
+"az": "Qazla dezinfeksiya maddəsi.",
+"en": "fumigant",
+"pos": "noun"
+},
+"funksioner": {
+"az": "Partiya məmuru.",
+"en": "functionary",
+"pos": "noun"
+},
+"funktiv": {
+"skip": "meaning not known with confidence"
+},
+"funqisid": {
+"az": "Göbələk əleyhinə maddə.",
+"en": "fungicide",
+"pos": "noun"
+},
+"furnitur": {
+"az": "Mebel və paltar aksesuarları.",
+"en": "fittings",
+"pos": "noun"
+},
+"furşet": {
+"az": "Ayaqüstü ziyafət.",
+"en": "buffet reception",
+"pos": "noun"
+},
+"futurofobiya": {
+"az": "Gələcəkdən qorxu.",
+"en": "fear of the future",
+"pos": "noun"
+},
+"futzal": {
+"az": "Zalda futbol.",
+"en": "futsal",
+"pos": "noun"
+},
+"fuziya": {
+"az": "Birləşmə.",
+"en": "fusion",
+"pos": "noun"
+},
+"fürer": {
+"az": "Lider (nasist Almaniyasında).",
+"en": "Führer",
+"pos": "noun"
+},
+"fyeld": {
+"az": "Daşlı plato.",
+"en": "fjeld",
+"pos": "noun"
+},
+"galış": {
+"skip": "meaning not known with confidence"
+},
+"gebraistika": {
+"az": "İvrit dilini öyrənən elm.",
+"en": "Hebrew studies",
+"pos": "noun"
+},
+"gecaçılan": {
+"az": "Gec açılan.",
+"en": "late-blooming",
+"pos": "adjective"
+},
+"gecbişən": {
+"az": "Gec bişən.",
+"en": "slow-cooking",
+"pos": "adjective"
+},
+"gecböyüyən": {
+"az": "Gec böyüyən.",
+"en": "slow-growing",
+"pos": "adjective"
+},
+"geccücərən": {
+"az": "Gec cücərən.",
+"en": "slow-germinating",
+"pos": "adjective"
+},
+"gecəotu": {
+"skip": "meaning not known with confidence"
+},
+"gedər-getməz": {
+"az": "Gedən kimi.",
+"en": "as soon as (one) goes",
+"pos": "adverb"
+},
+"gel": {
+"az": "Jele kimi maddə.",
+"en": "gel",
+"pos": "noun"
+},
+"geləoxşar": {
+"az": "Gelə oxşar.",
+"en": "gel-like",
+"pos": "adjective"
+},
+"gel-kollektor": {
+"skip": "meaning not known with confidence"
+},
+"geller büdcəsi": {
+"skip": "meaning not known with confidence"
+},
+"gel-sprey": {
+"az": "Gel sprey.",
+"en": "gel spray",
+"pos": "noun"
+},
+"gelşəkilli": {
+"az": "Gel şəkilli.",
+"en": "gel-like",
+"pos": "adjective"
+},
+"gematit": {
+"az": "Qırmızı dəmir filizi.",
+"en": "haematite",
+"pos": "noun"
+},
+"gemellologiya": {
+"az": "Əkizləri öyrənən elm.",
+"en": "gemellology",
+"pos": "noun"
+},
+"gender": {
+"az": "Sosial cins.",
+"en": "gender",
+"pos": "noun"
+},
+"gendöş": {
+"az": "Döşü gen.",
+"en": "broad-chested",
+"pos": "adjective"
+},
+"gendöşlü at": {
+"az": "Döşü gen at.",
+"en": "broad-chested horse",
+"pos": "noun"
+},
+"general-anşef": {
+"az": "Köhnə ən yüksək general rütbəsi.",
+"en": "general-in-chief",
+"pos": "noun"
+},
+"general-kvartimeyster": {
+"az": "Qərargah rütbəsi.",
+"en": "quartermaster general",
+"pos": "noun"
+},
+"generativ": {
+"az": "Törədici.",
+"en": "generative",
+"pos": "adjective"
+},
+"genofond": {
+"az": "Gen ehtiyatı.",
+"en": "gene pool",
+"pos": "noun"
+},
+"genologiya": {
+"az": "Janrları öyrənən sahə.",
+"en": "genology",
+"pos": "noun"
+},
+"genonim": {
+"skip": "meaning not known with confidence"
+},
+"genonimiya": {
+"skip": "meaning not known with confidence"
+},
+"genotipik": {
+"az": "Genotipə aid.",
+"en": "genotypic",
+"pos": "adjective"
+},
+"geobiont": {
+"az": "Torpaqda yaşayan orqanizm.",
+"en": "geobiont",
+"pos": "noun"
+},
+"geobioz": {
+"skip": "meaning not known with confidence"
+},
+"geodezik": {
+"az": "Geodeziyaya aid.",
+"en": "geodesic",
+"pos": "adjective"
+},
+"geofagiya": {
+"az": "Torpaq yeməyə meyl.",
+"en": "geophagy",
+"pos": "noun"
+},
+"geofil": {
+"az": "Torpaqsevən.",
+"en": "geophilous",
+"pos": "adjective"
+},
+"geofiliya": {
+"skip": "meaning not known with confidence"
+},
+"geofit": {
+"az": "Yeraltı orqanla qışlayan bitki.",
+"en": "geophyte",
+"pos": "noun"
+},
+"geoizobat": {
+"skip": "meaning not known with confidence"
+},
+"geokarpiya": {
+"az": "Meyvənin torpaqda yetişməsi.",
+"en": "geocarpy",
+"pos": "noun"
+},
+"geokratik": {
+"az": "Quru üstünlüyü dövrünə aid.",
+"en": "geocratic",
+"pos": "adjective"
+},
+"geonastiya": {
+"skip": "meaning not known with confidence"
+},
+"geonim": {
+"az": "Coğrafi ad.",
+"en": "geonym",
+"pos": "noun"
+},
+"geonimiya": {
+"skip": "meaning not known with confidence"
+},
+"geonomenklatur": {
+"skip": "meaning not known with confidence"
+},
+"geortonim": {
+"az": "Bayram adı.",
+"en": "heortonym",
+"pos": "noun"
+},
+"geosfer": {
+"az": "Yerin qatı.",
+"en": "geosphere",
+"pos": "noun"
+},
+"geosinklinal": {
+"az": "Yer qabığının hərəkətli qurşağı.",
+"en": "geosyncline",
+"pos": "noun"
+},
+"geotektonogen": {
+"skip": "meaning not known with confidence"
+},
+"geotektura": {
+"skip": "meaning not known with confidence"
+},
+"geotermal": {
+"az": "Yerin istiliyinə aid.",
+"en": "geothermal",
+"pos": "adjective"
+},
+"geridəki": {
+"az": "Geridə olan.",
+"en": "rear, back",
+"pos": "adjective"
+},
+"geromorfizm": {
+"skip": "meaning not known with confidence"
+},
+"gerontofiliya": {
+"az": "Yaşlılara cinsi meyl.",
+"en": "gerontophilia",
+"pos": "noun"
+},
+"gerontopsixologiya": {
+"az": "Qocalıq psixologiyası.",
+"en": "gerontopsychology",
+"pos": "noun"
+},
+"gerusiya": {
+"az": "Spartada ağsaqqallar şurası.",
+"en": "gerousia",
+"pos": "noun"
+},
+"getinaks": {
+"az": "Kağız-qatran laminat.",
+"en": "getinax (laminate)",
+"pos": "noun"
+},
+"getto": {
+"az": "Təcrid edilmiş məhəllə.",
+"en": "ghetto",
+"pos": "noun"
+},
+"gez": {
+"az": "Nişangah.",
+"en": "backsight",
+"pos": "noun"
+},
+"gələnaykı": {
+"az": "Gələn ayki.",
+"en": "next month's",
+"pos": "adjective"
+},
+"gələnilki": {
+"az": "Gələn ilki.",
+"en": "next year's",
+"pos": "adjective"
+},
+"gələr-gəlməz": {
+"az": "Gələn kimi.",
+"en": "as soon as (one) arrives",
+"pos": "adverb"
+},
+"gəlimli-gedimli": {
+"az": "Gəlib-gedən, ötəri.",
+"en": "transient",
+"pos": "adjective"
+},
+"gəlirgətirən": {
+"az": "Gəlir gətirən.",
+"en": "profitable",
+"pos": "adjective"
+},
+"gəmiburaxan": {
+"az": "Gəmi buraxan.",
+"en": "ship-launching",
+"pos": "adjective"
+},
+"gəmiqaldıran": {
+"az": "Gəmi qaldıran qurğu.",
+"en": "ship lift",
+"pos": "noun"
+},
+"gəmirinti": {
+"az": "Gəmirilmiş qalıq.",
+"en": "gnawed remains",
+"pos": "noun"
+},
+"gərayi": {
+"az": "Krım Gəray sülaləsinə aid.",
+"en": "Giray",
+"pos": "adjective"
+},
+"gərici": {
+"az": "Gərən.",
+"en": "tensioner",
+"pos": "noun"
+},
+"gətir-apar": {
+"az": "Gətirib-aparma, xidmət.",
+"en": "fetching and carrying",
+"pos": "noun"
+},
+"gətirhagətir": {
+"az": "Hamının gətirməsi.",
+"en": "bringing en masse",
+"pos": "noun"
+}
+}
