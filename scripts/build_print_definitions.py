@@ -976,12 +976,75 @@ class Builder:
             return [('genus', head)]
         return []
 
+    def relation_nouns(self, word, definition):
+        """Nouns a relational definition is built on: «Əlkimyaya aid.» -> əlkimya, «Üç sinifdən ibarət.» -> sinif,
+        «Toxunma ilə bağlı.» -> toxunma, «Ödü olan.» -> öd, «Tarix və politologiyaya aid.» -> tarix, politologiya."""
+        def noun(candidate):
+            node = self.usable(candidate)
+            ok = node and node['pos'] != 'verb' and candidate != word and candidate not in GENERIC_HEADS
+            return candidate if ok else None
+
+        def governed(token, case):
+            found, found_case = self.governed_noun(token)
+            if found and found_case == case and noun(found):
+                return found
+            # A plural before the case: mikrolit-lər-ə, bakteriya-lar-a, hərf-lər-dən.
+            plural = re.match(r'^(.{3,}?)(?:lar|lər)(?:a|ə|dan|dən)$', token)
+            return noun(plural.group(1)) if plural else None
+
+        def possessed(token):
+            # «X-ı olan» (having X); a token that is itself a headword (yaxşı olan) is not a possessive form.
+            stem = possessive_stem(token)
+            if self.usable(token) or not stem or stem == token:
+                return None
+            for candidate in [stem] + ([stem[:-1] + {'ğ': 'q', 'y': 'k'}[stem[-1]]] if stem[-1] in 'ğy' else []):
+                if noun(candidate):
+                    return candidate
+            return None
+
+        text = re.sub(r'\([^)]*\)', '', definition['az'])
+        clause = re.split(r'(?<=[.!?])\s', text)[0].rstrip('.!?').split(';')[0]
+        found = []
+        for item in [item.strip() for item in clause.split(',') if item.strip()][:2]:
+            tokens = re.findall(r'[\wçğıöşüə-]+', key(item))
+            having = bool(tokens) and tokens[-1] == 'olan'
+            if having:
+                tokens = tokens[:-1]
+            if len(tokens) < 2:
+                continue
+            if tokens[-1] == 'bağlı' and len(tokens) >= 3 and tokens[-2] == 'ilə':
+                head, rest = noun(tokens[-3]), tokens[:-3]
+            elif tokens[-1] in GOVERNORS['dative'] | {'bənzəyən', 'oxşayan', 'mənsub'}:
+                head, rest = governed(tokens[-2], 'dative'), tokens[:-2]
+            elif tokens[-1] in ('ibarət', 'kənar', 'xaric', 'asılı', 'azad'):
+                head, rest = governed(tokens[-2], 'ablative'), tokens[:-2]
+            elif having:
+                head, rest = possessed(tokens[-1]), tokens[:-1]
+            else:
+                continue
+            if not head:
+                continue
+            group = [head]
+            # A case ending covers every noun joined by «və» before it: tarix və politologiya-ya aid.
+            while len(rest) >= 2 and rest[-1] == 'və' and noun(rest[-2]):
+                group.insert(0, rest[-2])
+                rest = rest[:-2]
+            found += [other for other in group if other not in found]
+        return found
+
     def definition_links(self):
-        """Link a still isolated word to the synonym or class word its own definition is built on (doker: Liman fəhləsi)."""
+        """Link a still isolated word to the synonym or class word its own definition is built on (doker: Liman fəhləsi),
+        or else to the noun a relational definition is built on (əlkimyəvi: Əlkimyaya aid -> əlkimya)."""
         for word, definition in list(self.definitions.items()):
             if definition.get('method') not in ('paraphrase', 'authored') or self.degree[word]:
                 continue
-            for kind, other in self.definition_head(word, definition):
+            heads = self.definition_head(word, definition)
+            if not heads:
+                for other in self.relation_nouns(word, definition):
+                    self.link(word, other, 'topic', 'Tərif · əsas söz', f'«{word}» tərifdə «{other}» sözü əsasında izah olunur.',
+                              f'{word} is defined in terms of {other}.', definition['refs'], 'definition-relation')
+                continue
+            for kind, other in heads:
                 if kind == 'syn':
                     self.link(word, other, 'syn', 'Tərif · sinonim', f'«{word}» tərifdə «{other}» sözü ilə izah olunur.',
                               f'{word} is defined by the word {other}.', definition['refs'], 'definition-synonym')
