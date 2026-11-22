@@ -1,0 +1,1114 @@
+{
+"metakompilyator": {
+"az": "Kompilyator yaradan proqram.",
+"en": "metacompiler",
+"pos": "noun"
+},
+"metaqram": {
+"skip": "meaning not known with confidence"
+},
+"metaldehid": {
+"az": "Bərk yanacaq tableti.",
+"en": "metaldehyde",
+"pos": "noun"
+},
+"metalepsis": {
+"az": "Məcazın məcazı.",
+"en": "metalepsis",
+"pos": "noun"
+},
+"metalinqvistik": {
+"az": "Metadilə aid.",
+"en": "metalinguistic",
+"pos": "adjective"
+},
+"metalinqvistika": {
+"az": "Dilin mədəniyyətlə əlaqəsini öyrənən sahə.",
+"en": "metalinguistics",
+"pos": "noun"
+},
+"metallid": {
+"az": "Metalların birləşməsi.",
+"en": "intermetallic compound",
+"pos": "noun"
+},
+"metallizasiya": {
+"az": "Səthin metalla örtülməsi.",
+"en": "metallization",
+"pos": "noun"
+},
+"metallogenik": {
+"az": "Filiz əmələ gəlməsinə aid.",
+"en": "metallogenic",
+"pos": "adjective"
+},
+"metalloizol": {
+"skip": "meaning not known with confidence"
+},
+"metalloplast": {
+"skip": "meaning not known with confidence"
+},
+"metallotermiya": {
+"az": "Metalın başqa metalla bərpası.",
+"en": "metallothermy",
+"pos": "noun"
+},
+"metaloqrafika": {
+"skip": "meaning not known with confidence"
+},
+"metameriya": {
+"az": "Bədənin seqmentlərə bölünməsi.",
+"en": "metamerism",
+"pos": "noun"
+},
+"metaməntiq": {
+"az": "Məntiqin əsaslarını öyrənən sahə.",
+"en": "metalogic",
+"pos": "noun"
+},
+"metamərkəz": {
+"skip": "meaning not known with confidence"
+},
+"metamətn": {
+"az": "Mətn haqqında mətn.",
+"en": "metatext",
+"pos": "noun"
+},
+"metamorfogen": {
+"skip": "meaning not known with confidence"
+},
+"metampsixoz": {
+"az": "Ruhun köçməsi.",
+"en": "metempsychosis",
+"pos": "noun"
+},
+"metanəzəriyyə": {
+"az": "Nəzəriyyə haqqında nəzəriyyə.",
+"en": "metatheory",
+"pos": "noun"
+},
+"metanlaşma": {
+"az": "Metan əmələ gəlməsi.",
+"en": "methanation",
+"pos": "noun"
+},
+"metantenk": {
+"az": "Biokütlədən metan alan çən.",
+"en": "methane digester",
+"pos": "noun"
+},
+"metaplastik": {
+"az": "Metaplaziyaya aid.",
+"en": "metaplastic",
+"pos": "adjective"
+},
+"metaplazma": {
+"skip": "meaning not known with confidence"
+},
+"metapsixologiya": {
+"az": "Psixologiyanın nəzəri əsasları.",
+"en": "metapsychology",
+"pos": "noun"
+},
+"metariyaziyyat": {
+"az": "Riyaziyyatın əsaslarını öyrənən sahə.",
+"en": "metamathematics",
+"pos": "noun"
+},
+"metasemiotik": {
+"skip": "meaning not known with confidence"
+},
+"metasentr": {
+"az": "Üzən cismin dayanıqlıq mərkəzi.",
+"en": "metacentre",
+"pos": "noun"
+},
+"metasilikat": {
+"az": "Metasilisium turşusunun duzu.",
+"en": "metasilicate",
+"pos": "noun"
+},
+"metasimvol": {
+"az": "Simvol haqqında simvol.",
+"en": "metasymbol",
+"pos": "noun"
+},
+"metasomatik": {
+"az": "Metasomatizmə aid.",
+"en": "metasomatic",
+"pos": "adjective"
+},
+"metasomatizm": {
+"az": "Süxurun kimyəvi əvəzlənməsi.",
+"en": "metasomatism",
+"pos": "noun"
+},
+"metastatik": {
+"az": "Metastaza aid.",
+"en": "metastatic",
+"pos": "adjective"
+},
+"metateorem": {
+"az": "Formal sistem haqqında teorem.",
+"en": "metatheorem",
+"pos": "noun"
+},
+"metatoniya": {
+"az": "Vurğunun yer dəyişməsi.",
+"en": "metatony",
+"pos": "noun"
+},
+"metazid": {
+"skip": "meaning not known with confidence"
+},
+"meteopatik": {
+"az": "Havaya həssas.",
+"en": "weather-sensitive",
+"pos": "adjective"
+},
+"meteopatiya": {
+"az": "Hava dəyişməsinə həssaslıq.",
+"en": "meteoropathy",
+"pos": "noun"
+},
+"meteopost": {
+"az": "Meteoroloji məntəqə.",
+"en": "weather post",
+"pos": "noun"
+},
+"meteoritika": {
+"az": "Meteoritləri öyrənən elm.",
+"en": "meteoritics",
+"pos": "noun"
+},
+"metikal": {
+"az": "Mozambikin pul vahidi.",
+"en": "metical",
+"pos": "noun"
+},
+"metil-butadien": {
+"az": "İzopren.",
+"en": "isoprene",
+"pos": "noun"
+},
+"metilmetakrilat": {
+"az": "Üzvi şüşə monomeri.",
+"en": "methyl methacrylate",
+"pos": "noun"
+},
+"metilnitrit": {
+"az": "Uçucu üzvi birləşmə.",
+"en": "methyl nitrite",
+"pos": "noun"
+},
+"metiloranj": {
+"az": "Turşu-qələvi indikatoru.",
+"en": "methyl orange",
+"pos": "noun"
+},
+"metionin": {
+"az": "Kükürdlü amin turşusu.",
+"en": "methionine",
+"pos": "noun"
+},
+"metol": {
+"az": "Foto aşkarlayıcı.",
+"en": "metol",
+"pos": "noun"
+},
+"meton": {
+"skip": "meaning not known with confidence"
+},
+"metramper": {
+"skip": "meaning not known with confidence"
+},
+"metrobus": {
+"az": "Ayrıca zolaqda işləyən avtobus sistemi.",
+"en": "metrobus",
+"pos": "noun"
+},
+"metromaniya": {
+"az": "Şeir yazmaq həvəsi.",
+"en": "metromania",
+"pos": "noun"
+},
+"metronom cihaz": {
+"az": "Tempi göstərən cihaz.",
+"en": "metronome",
+"pos": "noun"
+},
+"metropol": {
+"az": "Müstəmləkə sahibi olan ana dövlət.",
+"en": "metropole",
+"pos": "noun"
+},
+"meymunağacı": {
+"skip": "meaning not known with confidence"
+},
+"meymuncığaz": {
+"az": "Kiçik meymun.",
+"en": "little monkey",
+"pos": "noun"
+},
+"mezalyans": {
+"az": "Bərabər olmayan nikah.",
+"en": "misalliance",
+"pos": "noun"
+},
+"mezenxima": {
+"az": "Rüşeymin birləşdirici toxuması.",
+"en": "mesenchyme",
+"pos": "noun"
+},
+"mezenterium": {
+"az": "Bağırsaq müsariqəsi.",
+"en": "mesentery",
+"pos": "noun"
+},
+"mezo": {
+"skip": "meaning not known with confidence"
+},
+"mezofauna": {
+"az": "Orta ölçülü torpaq heyvanları.",
+"en": "mesofauna",
+"pos": "noun"
+},
+"mezofaza": {
+"az": "Maye kristal fazası.",
+"en": "mesophase",
+"pos": "noun"
+},
+"mezoforma": {
+"skip": "meaning not known with confidence"
+},
+"mezohippus": {
+"az": "Qədim üçbarmaqlı at.",
+"en": "Mesohippus",
+"pos": "noun"
+},
+"mezoiqlim": {
+"az": "Yerli iqlim.",
+"en": "mesoclimate",
+"pos": "noun"
+},
+"mezokarp": {
+"az": "Meyvənin orta qatı.",
+"en": "mesocarp",
+"pos": "noun"
+},
+"mezokaynozoy": {
+"skip": "meaning not known with confidence"
+},
+"mezokefaliya": {
+"az": "Orta başlılıq.",
+"en": "mesocephaly",
+"pos": "noun"
+},
+"mezoklimat": {
+"az": "Yerli iqlim.",
+"en": "mesoclimate",
+"pos": "noun"
+},
+"mezokotil": {
+"skip": "meaning not known with confidence"
+},
+"mezoqamiya": {
+"skip": "meaning not known with confidence"
+},
+"mezomorf": {
+"az": "Əzələli bədən tipli.",
+"en": "mesomorph",
+"pos": "noun"
+},
+"mezonin": {
+"az": "Binanın üst yarım mərtəbəsi.",
+"en": "mezzanine",
+"pos": "noun"
+},
+"mezopodi": {
+"skip": "meaning not known with confidence"
+},
+"mezosap": {
+"skip": "meaning not known with confidence"
+},
+"mezotrof": {
+"az": "Orta qidalı.",
+"en": "mesotrophic",
+"pos": "adjective"
+},
+"mezozavr": {
+"az": "Qədim su sürünəni.",
+"en": "mesosaur",
+"pos": "noun"
+},
+"mezozona": {
+"skip": "meaning not known with confidence"
+},
+"məğrurluqla": {
+"az": "Məğrur halda.",
+"en": "proudly",
+"pos": "adverb"
+},
+"məhəkdaşı": {
+"az": "Qızılı yoxlamaq üçün daş.",
+"en": "touchstone",
+"pos": "noun"
+},
+"məhəlliçilik": {
+"az": "Yerlipərəstlik.",
+"en": "localism",
+"pos": "noun"
+},
+"məhkəməyəqədər": {
+"az": "Məhkəməyə qədər.",
+"en": "pre-trial",
+"pos": "adjective"
+},
+"məhkəməyəqədərki": {
+"az": "Məhkəmədən əvvəlki.",
+"en": "pre-trial",
+"pos": "adjective"
+},
+"məktəbəhazırlıq": {
+"az": "Məktəbə hazırlıq.",
+"en": "school readiness",
+"pos": "noun"
+},
+"məqsədilə": {
+"az": "Məqsədi ilə, üçün.",
+"en": "with the aim of",
+"pos": "adverb"
+},
+"mələkotu": {
+"skip": "meaning not known with confidence"
+},
+"mələşər-mələşməz": {
+"skip": "meaning not known with confidence"
+},
+"mənasızca": {
+"az": "Mənasız şəkildə.",
+"en": "pointlessly",
+"pos": "adverb"
+},
+"mənəviyyatca": {
+"az": "Mənəviyyat baxımından.",
+"en": "morally",
+"pos": "adverb"
+},
+"məntiqi-qnoseoloji": {
+"az": "Məntiq və idrak nəzəriyyəsinə aid.",
+"en": "logico-epistemological",
+"pos": "adjective"
+},
+"mərhumə": {
+"az": "Vəfat etmiş qadın.",
+"en": "the late (woman)",
+"pos": "noun"
+},
+"mərmərüzlü": {
+"az": "Üzü mərmər kimi.",
+"en": "marble-faced",
+"pos": "adjective"
+},
+"məryəmböcəyi": {
+"az": "Parabüzən.",
+"en": "ladybird",
+"pos": "noun"
+},
+"məsləhətamiz": {
+"az": "Məsləhət xarakterli.",
+"en": "advisory",
+"pos": "adjective"
+},
+"məsləhətdaş": {
+"az": "Məsləhətləşilən adam.",
+"en": "confidant",
+"pos": "noun"
+},
+"məstalıbəyli": {
+"skip": "meaning not known with confidence"
+},
+"məstləndirici": {
+"az": "Məst edən.",
+"en": "intoxicating",
+"pos": "adjective"
+},
+"məşəldar": {
+"az": "Məşəl daşıyan.",
+"en": "torchbearer",
+"pos": "noun"
+},
+"məşğulat": {
+"az": "Məşğələ.",
+"en": "lesson",
+"pos": "noun"
+},
+"məşqlilik": {
+"az": "Məşqli olma.",
+"en": "fitness",
+"pos": "noun"
+},
+"məşvərətsiz-məsləhətsiz": {
+"az": "Heç kimlə məsləhətləşmədən.",
+"en": "without consultation",
+"pos": "adverb"
+},
+"məyusca": {
+"az": "Məyus halda.",
+"en": "dejectedly",
+"pos": "adverb"
+},
+"məzəcil": {
+"az": "Məzəli, zarafatcıl.",
+"en": "jocular",
+"pos": "adjective"
+},
+"mıxaoxşar": {
+"az": "Mıxa oxşar.",
+"en": "nail-like",
+"pos": "adjective"
+},
+"mırtamırt": {
+"skip": "meaning not known with confidence"
+},
+"mışılhamışıl": {
+"az": "Mışıl-mışıl.",
+"en": "soundly (asleep)",
+"pos": "adverb"
+},
+"mialgiya": {
+"az": "Əzələ ağrısı.",
+"en": "myalgia",
+"pos": "noun"
+},
+"miaz": {
+"az": "Sürfələrin törətdiyi xəstəlik.",
+"en": "myiasis",
+"pos": "noun"
+},
+"miazm": {
+"az": "Zəhərli buxar.",
+"en": "miasma",
+"pos": "noun"
+},
+"mifomaniya": {
+"az": "Uydurma danışmağa meyl.",
+"en": "mythomania",
+"pos": "noun"
+},
+"mifonim": {
+"az": "Mifik ad.",
+"en": "mythonym",
+"pos": "noun"
+},
+"mifopersonim": {
+"skip": "meaning not known with confidence"
+},
+"mikanit": {
+"az": "Slyuda izolyasiya materialı.",
+"en": "micanite",
+"pos": "noun"
+},
+"mikoflora": {
+"az": "Göbələk florası.",
+"en": "mycoflora",
+"pos": "noun"
+},
+"mikokütlə": {
+"skip": "meaning not known with confidence"
+},
+"mikolitik": {
+"skip": "meaning not known with confidence"
+},
+"mikotoksikoz": {
+"az": "Göbələk zəhərlənməsi.",
+"en": "mycotoxicosis",
+"pos": "noun"
+},
+"mikotrofizm": {
+"skip": "meaning not known with confidence"
+},
+"mikozin": {
+"skip": "meaning not known with confidence"
+},
+"mikrobar": {
+"az": "Barın milyonda biri.",
+"en": "microbar",
+"pos": "noun"
+},
+"mikrobiomasin": {
+"skip": "meaning not known with confidence"
+},
+"mikrobleydinq": {
+"az": "Qaşa iynə ilə tük çəkmə.",
+"en": "microblading",
+"pos": "noun"
+},
+"mikrobloqinq": {
+"az": "Qısa yazılarla bloq yazma.",
+"en": "microblogging",
+"pos": "noun"
+},
+"mikrobus": {
+"az": "Kiçik avtobus.",
+"en": "minibus",
+"pos": "noun"
+},
+"mikrobüret": {
+"az": "Kiçik büret.",
+"en": "microburette",
+"pos": "noun"
+},
+"mikrodermabraziya": {
+"az": "Dərinin üst qatının cilalanması.",
+"en": "microdermabrasion",
+"pos": "noun"
+},
+"mikroelektrodozator": {
+"skip": "meaning not known with confidence"
+},
+"mikroevolusiya": {
+"az": "Növ daxilində kiçik dəyişikliklər.",
+"en": "microevolution",
+"pos": "noun"
+},
+"mikrofaq": {
+"az": "Kiçik faqosit.",
+"en": "microphage",
+"pos": "noun"
+},
+"mikrofil": {
+"az": "Kiçik yarpaq.",
+"en": "microphyll",
+"pos": "noun"
+},
+"mikrofiliya": {
+"skip": "meaning not known with confidence"
+},
+"mikrofiş": {
+"az": "Mikrofilm kartı.",
+"en": "microfiche",
+"pos": "noun"
+},
+"mikrofit": {
+"az": "Mikroskopik bitki.",
+"en": "microphyte",
+"pos": "noun"
+},
+"mikrofoniya": {
+"az": "Mikrofon effekti.",
+"en": "microphony",
+"pos": "noun"
+},
+"mikroftalm": {
+"skip": "meaning not known with confidence"
+},
+"mikrohenri": {
+"az": "Milyonda bir henri.",
+"en": "microhenry",
+"pos": "noun"
+},
+"mikrohes": {
+"skip": "meaning not known with confidence"
+},
+"mikrointer": {
+"skip": "meaning not known with confidence"
+},
+"mikrokardiya": {
+"az": "Ürəyin kiçikliyi.",
+"en": "microcardia",
+"pos": "noun"
+},
+"mikrokator": {
+"az": "Dəqiq ölçü cihazı.",
+"en": "microcator",
+"pos": "noun"
+},
+"mikroklinləşmə": {
+"skip": "meaning not known with confidence"
+},
+"mikrokod": {
+"az": "Prosessorun daxili kodu.",
+"en": "microcode",
+"pos": "noun"
+},
+"mikrokok": {
+"az": "Kürəvi bakteriya.",
+"en": "micrococcus",
+"pos": "noun"
+},
+"mikrokontrolyor": {
+"az": "Kiçik idarəetmə kompüteri.",
+"en": "microcontroller",
+"pos": "noun"
+},
+"mikrokristallik": {
+"az": "Xırda kristallı.",
+"en": "microcrystalline",
+"pos": "adjective"
+},
+"mikrokristalloskopik": {
+"skip": "meaning not known with confidence"
+},
+"mikrokristalloskopiya": {
+"skip": "meaning not known with confidence"
+},
+"mikrokultura": {
+"az": "Kiçik bakteriya kulturası.",
+"en": "microculture",
+"pos": "noun"
+},
+"mikroküri": {
+"az": "Milyonda bir küri.",
+"en": "microcurie",
+"pos": "noun"
+},
+"mikroqliya": {
+"az": "Sinir sisteminin immun hüceyrələri.",
+"en": "microglia",
+"pos": "noun"
+},
+"mikroqlossiya": {
+"az": "Dilin kiçikliyi.",
+"en": "microglossia",
+"pos": "noun"
+},
+"mikroqrafiya": {
+"az": "Mikroskopik şəkil.",
+"en": "micrography",
+"pos": "noun"
+},
+"mikrolit": {
+"az": "Xırda daş alət.",
+"en": "microlith",
+"pos": "noun"
+},
+"mikrolitik": {
+"az": "Mikrolitlərə aid.",
+"en": "microlithic",
+"pos": "adjective"
+},
+"mikromeliya": {
+"az": "Ətrafların kiçikliyi.",
+"en": "micromelia",
+"pos": "noun"
+},
+"mikronez dilləri": {
+"az": "Mikroneziyanın dilləri.",
+"en": "Micronesian languages",
+"pos": "noun"
+},
+"mikroneziyalı": {
+"az": "Mikroneziyadan olan adam.",
+"en": "Micronesian",
+"pos": "noun"
+},
+"mikronizasiya": {
+"az": "Mikron ölçüsünədək xırdalama.",
+"en": "micronization",
+"pos": "noun"
+},
+"mikronukleus": {
+"az": "Kiçik nüvə.",
+"en": "micronucleus",
+"pos": "noun"
+},
+"mikroom": {
+"az": "Milyonda bir om.",
+"en": "microohm",
+"pos": "noun"
+},
+"mikroosilloqraf": {
+"skip": "meaning not known with confidence"
+},
+"mikroölçən": {
+"skip": "meaning not known with confidence"
+},
+"mikropertit": {
+"skip": "meaning not known with confidence"
+},
+"mikropile": {
+"az": "Toxum girəcəyi.",
+"en": "micropyle",
+"pos": "noun"
+},
+"mikropilinq": {
+"skip": "meaning not known with confidence"
+},
+"mikroplyonka": {
+"az": "Mikrofilm.",
+"en": "microfilm",
+"pos": "noun"
+},
+"mikropreparat": {
+"az": "Mikroskop üçün preparat.",
+"en": "microscope slide",
+"pos": "noun"
+},
+"mikropsiya": {
+"az": "Əşyaları kiçik görmə.",
+"en": "micropsia",
+"pos": "noun"
+},
+"mikroroller": {
+"skip": "meaning not known with confidence"
+},
+"mikrosap": {
+"skip": "meaning not known with confidence"
+},
+"mikrosefal": {
+"az": "Başı kiçik adam.",
+"en": "microcephalic",
+"pos": "noun"
+},
+"mikroseqmentləmə": {
+"az": "Kiçik seqmentlərə bölmə.",
+"en": "microsegmentation",
+"pos": "noun"
+},
+"mikrosenoz": {
+"skip": "meaning not known with confidence"
+},
+"mikrosoplazma": {
+"skip": "meaning not known with confidence"
+},
+"mikrospektoskop": {
+"skip": "meaning not known with confidence"
+},
+"mikrosporangi": {
+"az": "Mikrospor yuvası.",
+"en": "microsporangium",
+"pos": "noun"
+},
+"mikrosporidi": {
+"az": "Hüceyrədaxili parazit.",
+"en": "microsporidian",
+"pos": "noun"
+},
+"mikrosporiya": {
+"az": "Göbələk dəri xəstəliyi.",
+"en": "microsporia",
+"pos": "noun"
+},
+"mikrosporofer": {
+"skip": "meaning not known with confidence"
+},
+"mikrosporofil": {
+"az": "Mikrospor daşıyan yarpaq.",
+"en": "microsporophyll",
+"pos": "noun"
+},
+"mikroterm": {
+"skip": "meaning not known with confidence"
+},
+"mikrotip": {
+"skip": "meaning not known with confidence"
+},
+"mikrotiya": {
+"az": "Qulaq seyvanının kiçikliyi.",
+"en": "microtia",
+"pos": "noun"
+},
+"mikrotoponimiya": {
+"az": "Kiçik yer adları.",
+"en": "microtoponymy",
+"pos": "noun"
+},
+"mikrotoposistem": {
+"skip": "meaning not known with confidence"
+},
+"mikrotrofizm": {
+"skip": "meaning not known with confidence"
+},
+"miks-fond": {
+"skip": "meaning not known with confidence"
+},
+"miksin": {
+"az": "Çapaqlı ilanbalığı.",
+"en": "hagfish",
+"pos": "noun"
+},
+"miksobakteriya": {
+"az": "Selikli bakteriya.",
+"en": "myxobacterium",
+"pos": "noun"
+},
+"miksomiset": {
+"az": "Selikli göbələk.",
+"en": "myxomycete",
+"pos": "noun"
+},
+"miksoplazma": {
+"skip": "meaning not known with confidence"
+},
+"miksoploidiya": {
+"skip": "meaning not known with confidence"
+},
+"miksospora": {
+"skip": "meaning not known with confidence"
+},
+"miksosporidi": {
+"az": "Balıq paraziti.",
+"en": "myxosporean",
+"pos": "noun"
+},
+"miqma": {
+"skip": "meaning not known with confidence"
+},
+"miqmasel": {
+"skip": "meaning not known with confidence"
+},
+"miqmatit": {
+"az": "Qarışıq metamorfik süxur.",
+"en": "migmatite",
+"pos": "noun"
+},
+"miqmatron": {
+"skip": "meaning not known with confidence"
+},
+"miqnatis": {
+"az": "Maqnit.",
+"en": "magnet",
+"pos": "noun"
+},
+"miqrant": {
+"az": "Köçkün.",
+"en": "migrant",
+"pos": "noun"
+},
+"milem": {
+"skip": "meaning not known with confidence"
+},
+"millenium": {
+"az": "Minillik.",
+"en": "millennium",
+"pos": "noun"
+},
+"millibar": {
+"az": "Barın mində biri.",
+"en": "millibar",
+"pos": "noun"
+},
+"milliküri": {
+"az": "Kürinin mində biri.",
+"en": "millicurie",
+"pos": "noun"
+},
+"millima": {
+"az": "Tunisin xırda pul vahidi.",
+"en": "millime",
+"pos": "noun"
+},
+"milliyyətcə": {
+"az": "Milliyyət baxımından.",
+"en": "by nationality",
+"pos": "adverb"
+},
+"milyardca": {
+"az": "Milyard qədər.",
+"en": "about a billion",
+"pos": "adverb"
+},
+"milyardlarca": {
+"az": "Milyardlarla.",
+"en": "billions of",
+"pos": "adverb"
+},
+"mimiki": {
+"az": "Mimikaya aid.",
+"en": "mimic",
+"pos": "adjective"
+},
+"mina-detanator": {
+"skip": "meaning not known with confidence"
+},
+"mineraqrafiya": {
+"az": "Filizlərin mikroskopla öyrənilməsi.",
+"en": "mineragraphy",
+"pos": "noun"
+},
+"mineralit": {
+"skip": "meaning not known with confidence"
+},
+"mineralizasiya": {
+"az": "Minerallaşma.",
+"en": "mineralization",
+"pos": "noun"
+},
+"mineralizator": {
+"az": "Minerallaşdırıcı.",
+"en": "mineralizer",
+"pos": "noun"
+},
+"minezinger": {
+"az": "Orta əsr alman şairi.",
+"en": "minnesinger",
+"pos": "noun"
+},
+"miniçarcer": {
+"skip": "meaning not known with confidence"
+},
+"minimaks": {
+"az": "Minimum itkini seçmə prinsipi.",
+"en": "minimax",
+"pos": "noun"
+},
+"minimizasiya": {
+"az": "Minimuma endirmə.",
+"en": "minimization",
+"pos": "noun"
+},
+"minimotoidman": {
+"az": "Mini motosiklet idmanı.",
+"en": "minimoto racing",
+"pos": "noun"
+},
+"minipansionat": {
+"az": "Kiçik pansionat.",
+"en": "small guesthouse",
+"pos": "noun"
+},
+"minitipoqrafiya": {
+"az": "Kiçik mətbəə.",
+"en": "small printing shop",
+"pos": "noun"
+},
+"miniven": {
+"az": "Kiçik mikroavtobus.",
+"en": "minivan",
+"pos": "noun"
+},
+"minnətlə": {
+"az": "Minnət qoyaraq.",
+"en": "grudgingly",
+"pos": "adverb"
+},
+"minoqa": {
+"az": "Ağızsöyən balıq.",
+"en": "lamprey",
+"pos": "noun"
+},
+"minor": {
+"az": "Kiçik lad.",
+"en": "minor",
+"pos": "noun"
+},
+"minorka": {
+"az": "Toyuq cinsi.",
+"en": "Minorca chicken",
+"pos": "noun"
+},
+"miogen": {
+"az": "Əzələdən törəyən.",
+"en": "myogenic",
+"pos": "adjective"
+},
+"miogensinklinal": {
+"skip": "meaning not known with confidence"
+},
+"miokardiodistrofiya": {
+"az": "Ürək əzələsinin distrofiyası.",
+"en": "myocardial dystrophy",
+"pos": "noun"
+},
+"mioqlobin": {
+"az": "Əzələ zülalı.",
+"en": "myoglobin",
+"pos": "noun"
+},
+"mioqraf": {
+"az": "Əzələ yığılmasını qeyd edən cihaz.",
+"en": "myograph",
+"pos": "noun"
+},
+"miomatoz": {
+"az": "Çoxsaylı mioma.",
+"en": "myomatosis",
+"pos": "noun"
+},
+"miostimulyasiya": {
+"az": "Əzələnin elektriklə stimullaşdırılması.",
+"en": "myostimulation",
+"pos": "noun"
+},
+"miostimulyator": {
+"az": "Əzələ stimulyatoru.",
+"en": "muscle stimulator",
+"pos": "noun"
+},
+"miozit": {
+"az": "Əzələ iltihabı.",
+"en": "myositis",
+"pos": "noun"
+},
+"miranda": {
+"az": "Uranın peyki.",
+"en": "Miranda",
+"pos": "noun"
+},
+"mirbaşı": {
+"skip": "meaning not known with confidence"
+},
+"misella": {
+"az": "Kolloid hissəcik.",
+"en": "micelle",
+"pos": "noun"
+},
+"miskənə": {
+"skip": "meaning not known with confidence"
+},
+"misraaşırı": {
+"az": "Misradan misraya keçən.",
+"en": "enjambed",
+"pos": "adjective"
+},
+"misri qılınc": {
+"az": "Misir poladından qılınc.",
+"en": "Egyptian sword",
+"pos": "noun"
+},
+"missis": {
+"az": "Xanım.",
+"en": "Mrs",
+"pos": "noun"
+},
+"misteriya": {
+"az": "Orta əsr dini tamaşası.",
+"en": "mystery play",
+"pos": "noun"
+},
+"mişari": {
+"skip": "meaning not known with confidence"
+},
+"mitogenetik": {
+"az": "Hüceyrə bölünməsini oyadan.",
+"en": "mitogenetic",
+"pos": "adjective"
+},
+"mizantropiya": {
+"az": "İnsanlara nifrət.",
+"en": "misanthropy",
+"pos": "noun"
+},
+"mnemo": {
+"skip": "meaning not known with confidence"
+},
+"mnemometr": {
+"skip": "meaning not known with confidence"
+},
+"mnemosxem": {
+"az": "Yadda saxlama sxemi.",
+"en": "mnemonic diagram",
+"pos": "noun"
+},
+"mnemosina": {
+"az": "Yaddaş ilahəsi.",
+"en": "Mnemosyne",
+"pos": "noun"
+},
+"mnemotexnika": {
+"az": "Yadda saxlama üsulları.",
+"en": "mnemonics",
+"pos": "noun"
+}
+}
