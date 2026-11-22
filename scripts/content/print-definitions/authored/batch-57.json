@@ -1,0 +1,1016 @@
+{
+ "retinit": {
+  "az": "Gözün torlu qişasının iltihabı.",
+  "en": "retinitis",
+  "pos": "noun"
+ },
+ "retinopatiya": {
+  "az": "Torlu qişanın qeyri-iltihabi zədələnməsi.",
+  "en": "retinopathy",
+  "pos": "noun"
+ },
+ "retragent": {
+  "skip": "meaning not certain"
+ },
+ "retrektivlik": {
+  "skip": "meaning not certain"
+ },
+ "retrokompütinq": {
+  "skip": "meaning not certain"
+ },
+ "retroqressiya": {
+  "skip": "meaning not certain"
+ },
+ "retrosedent": {
+  "skip": "meaning not certain"
+ },
+ "retta": {
+  "skip": "meaning not certain"
+ },
+ "reutilizasiya": {
+  "skip": "meaning not certain"
+ },
+ "revalorizasiya": {
+  "skip": "meaning not certain"
+ },
+ "revers": {
+  "az": "Sikkənin arxa üzü; hərəkətin əks istiqamətə dəyişdirilməsi.",
+  "en": "reverse",
+  "pos": "noun"
+ },
+ "reversiya": {
+  "az": "Əvvəlki vəziyyətə qayıtma.",
+  "en": "reversion",
+  "pos": "noun"
+ },
+ "revivalizm": {
+  "az": "Dini dirçəliş hərəkatı.",
+  "en": "revivalism",
+  "pos": "noun"
+ },
+ "revokasiya": {
+  "az": "Geri çağırma, ləğv etmə.",
+  "en": "revocation",
+  "pos": "noun"
+ },
+ "reyder": {
+  "az": "Müəssisəni qeyri-qanuni ələ keçirən şəxs; dəniz basqınçısı gəmisi.",
+  "en": "raider",
+  "pos": "noun"
+ },
+ "rezorbsiya": {
+  "az": "Toxumaların sorulub əriməsi.",
+  "en": "resorption",
+  "pos": "noun"
+ },
+ "rəqsedən sistem": {
+  "skip": "meaning not certain"
+ },
+ "rəyə": {
+  "skip": "meaning not certain"
+ },
+ "rıçaq": {
+  "az": "Dayaq nöqtəsi ətrafında fırlanan bərk mil, ling.",
+  "en": "lever",
+  "pos": "noun"
+ },
+ "rias": {
+  "az": "Dəniz basmış çay vadisi olan sahil körfəzi.",
+  "en": "ria",
+  "pos": "noun"
+ },
+ "riççiya": {
+  "skip": "meaning not certain"
+ },
+ "riçerkata": {
+  "skip": "meaning not certain"
+ },
+ "rieltor": {
+  "az": "Daşınmaz əmlak agenti.",
+  "en": "realtor",
+  "pos": "noun"
+ },
+ "rifmoid": {
+  "skip": "meaning not certain"
+ },
+ "rift": {
+  "az": "Yer qabığının qırılma zonasında uzun dərə.",
+  "en": "rift",
+  "pos": "noun"
+ },
+ "rikabə": {
+  "skip": "meaning not certain"
+ },
+ "rikketsioz": {
+  "az": "Rikketsiyaların törətdiyi xəstəlik.",
+  "en": "rickettsiosis",
+  "pos": "noun"
+ },
+ "rikketsiya": {
+  "az": "Hüceyrədaxili parazit bakteriya.",
+  "en": "rickettsia",
+  "pos": "noun"
+ },
+ "rikrisiya": {
+  "skip": "meaning not certain"
+ },
+ "rilsan": {
+  "skip": "meaning not certain"
+ },
+ "rimessa": {
+  "skip": "meaning not certain"
+ },
+ "rinqton": {
+  "az": "Telefon zənginin melodiyası.",
+  "en": "ringtone",
+  "pos": "noun"
+ },
+ "rinolaliya": {
+  "az": "Burundan danışma.",
+  "en": "rhinolalia",
+  "pos": "noun"
+ },
+ "ripal": {
+  "skip": "meaning not certain"
+ },
+ "risposta": {
+  "az": "Qılıncoynatmada cavab zərbəsi.",
+  "en": "riposte",
+  "pos": "noun"
+ },
+ "rişəndə": {
+  "skip": "meaning not certain"
+ },
+ "rişta": {
+  "skip": "meaning not certain"
+ },
+ "ritifobiya": {
+  "skip": "meaning not certain"
+ },
+ "ritm-ostinantlıq": {
+  "skip": "meaning not certain"
+ },
+ "ritor": {
+  "az": "Natiqlik müəllimi; natiq.",
+  "en": "rhetor",
+  "pos": "noun"
+ },
+ "ritorno": {
+  "skip": "meaning not certain"
+ },
+ "riturnel": {
+  "az": "Vokal əsərdə alət girişi və ya nəqarəti.",
+  "en": "ritornello",
+  "pos": "noun"
+ },
+ "rizobentos": {
+  "skip": "meaning not certain"
+ },
+ "rizobiont": {
+  "skip": "meaning not certain"
+ },
+ "rizoplast": {
+  "skip": "meaning not certain"
+ },
+ "rizopodi": {
+  "skip": "meaning not certain"
+ },
+ "rodentisid": {
+  "az": "Gəmiricilərə qarşı zəhər.",
+  "en": "rodenticide",
+  "pos": "noun"
+ },
+ "rododendron": {
+  "az": "İri çiçəkli həmişəyaşıl kol.",
+  "en": "rhododendron",
+  "pos": "noun"
+ },
+ "rodologiya": {
+  "skip": "meaning not certain"
+ },
+ "rodonit": {
+  "az": "Çəhrayı rəngli manqan silikat mineralı.",
+  "en": "rhodonite",
+  "pos": "noun"
+ },
+ "rolqanq": {
+  "az": "Yükləri daşımaq üçün diyircəkli nəqledici.",
+  "en": "roller conveyor",
+  "pos": "noun"
+ },
+ "roll": {
+  "skip": "several unrelated senses"
+ },
+ "rolli": {
+  "skip": "meaning not certain"
+ },
+ "rombododekaedr": {
+  "az": "On iki romb üzlü çoxüzlü.",
+  "en": "rhombic dodecahedron",
+  "pos": "noun"
+ },
+ "rondo": {
+  "az": "Əsas mövzunun təkrarlandığı musiqi forması; şeir forması.",
+  "en": "rondo",
+  "pos": "noun"
+ },
+ "rondo-sonata": {
+  "az": "Rondo və sonata formalarını birləşdirən musiqi forması.",
+  "en": "sonata-rondo",
+  "pos": "noun"
+ },
+ "ropali": {
+  "skip": "meaning not certain"
+ },
+ "ropalistik": {
+  "skip": "meaning not certain"
+ },
+ "rostr": {
+  "az": "Qədim gəminin burnundakı tərən; heyvanın uzanmış ağız hissəsi.",
+  "en": "rostrum",
+  "pos": "noun"
+ },
+ "rozbif": {
+  "az": "Qızardılmış mal əti.",
+  "en": "roast beef",
+  "pos": "noun"
+ },
+ "ruberoid": {
+  "az": "Dam örtmək üçün bitumlu material.",
+  "en": "roofing felt",
+  "pos": "noun"
+ },
+ "rudefit": {
+  "skip": "meaning not certain"
+ },
+ "rulada": {
+  "az": "Bəzəkli sürətli vokal keçidi; rulet.",
+  "en": "roulade",
+  "pos": "noun"
+ },
+ "rumpel": {
+  "az": "Sükanı döndərmək üçün qol.",
+  "en": "tiller",
+  "pos": "noun"
+ },
+ "rustika": {
+  "az": "Kobud yonulmuş daşla divar üzlüyü.",
+  "en": "rustication",
+  "pos": "noun"
+ },
+ "ruter": {
+  "az": "Şəbəkələr arasında məlumat paketlərini yönləndirən qurğu.",
+  "en": "router",
+  "pos": "noun"
+ },
+ "rutkit": {
+  "az": "Kompüterdə zərərli proqramı gizlədən proqramlar toplusu.",
+  "en": "rootkit",
+  "pos": "noun"
+ },
+ "sabadilla": {
+  "skip": "meaning not certain"
+ },
+ "saci": {
+  "skip": "meaning not certain"
+ },
+ "sadəqəlbli": {
+  "az": "Ürəyi təmiz, saf.",
+  "en": "simple-hearted",
+  "pos": "adjective"
+ },
+ "sadomazoxist": {
+  "az": "Sadomazoxizmə meylli şəxs.",
+  "en": "sadomasochist",
+  "pos": "noun"
+ },
+ "safflorit": {
+  "skip": "meaning not certain"
+ },
+ "safsar": {
+  "skip": "meaning not certain"
+ },
+ "safürək": {
+  "az": "Ürəyi təmiz olan.",
+  "en": "pure-hearted",
+  "pos": "adjective"
+ },
+ "sağır-sağır": {
+  "skip": "meaning not certain"
+ },
+ "saxarimetr": {
+  "az": "Məhlulda şəkər miqdarını ölçən cihaz.",
+  "en": "saccharimeter",
+  "pos": "noun"
+ },
+ "saxarimetriya": {
+  "az": "Şəkər miqdarının ölçülməsi.",
+  "en": "saccharimetry",
+  "pos": "noun"
+ },
+ "saxta-saxta": {
+  "skip": "meaning not certain"
+ },
+ "sakitcə-sakitcə": {
+  "az": "Çox sakit, səssizcə.",
+  "en": "very quietly",
+  "pos": "adverb"
+ },
+ "sakrament": {
+  "az": "Xristianlıqda müqəddəs ayin.",
+  "en": "sacrament",
+  "pos": "noun"
+ },
+ "salahlı": {
+  "skip": "meaning not certain"
+ },
+ "salamandra": {
+  "az": "Kərtənkələyə oxşar quyruqlu suda-quruda yaşayan.",
+  "en": "salamander",
+  "pos": "noun"
+ },
+ "salamlı": {
+  "skip": "meaning not certain"
+ },
+ "salamlıq": {
+  "skip": "meaning not certain"
+ },
+ "salar": {
+  "skip": "meaning not certain"
+ },
+ "sallaqdöş": {
+  "skip": "meaning not certain"
+ },
+ "sallamalı": {
+  "skip": "meaning not certain"
+ },
+ "sallamalıq": {
+  "skip": "meaning not certain"
+ },
+ "sallamasız": {
+  "skip": "meaning not certain"
+ },
+ "salp": {
+  "az": "Dənizdə üzən bareləbənzər şəffaf onurğasız.",
+  "en": "salp",
+  "pos": "noun"
+ },
+ "salto": {
+  "az": "Havada mayallaq aşma.",
+  "en": "somersault",
+  "pos": "noun"
+ },
+ "sanar": {
+  "skip": "meaning not certain"
+ },
+ "sanasiya": {
+  "az": "Ağız boşluğunun müalicə ilə sağlamlaşdırılması.",
+  "en": "oral sanitation",
+  "pos": "noun"
+ },
+ "sancaqayaq": {
+  "skip": "meaning not certain"
+ },
+ "sancaqlıca": {
+  "skip": "meaning not certain"
+ },
+ "sanda": {
+  "az": "Çin təmaslı döyüş idmanı.",
+  "en": "sanda (sanshou)",
+  "pos": "noun"
+ },
+ "sangina": {
+  "az": "Qırmızı-qəhvəyi rəsm karandaşı.",
+  "en": "sanguine (chalk)",
+  "pos": "noun"
+ },
+ "sanqvinik": {
+  "az": "Şən, hərəkətli temperamentli adam.",
+  "en": "sanguine person",
+  "pos": "noun"
+ },
+ "sanskritologiya": {
+  "az": "Sanskrit dilini öyrənən elm.",
+  "en": "Sanskrit studies",
+  "pos": "noun"
+ },
+ "santoku": {
+  "az": "Yapon mətbəx bıçağı.",
+  "en": "santoku knife",
+  "pos": "noun"
+ },
+ "santur": {
+  "az": "Çubuqlarla çalınan simli musiqi aləti.",
+  "en": "santur",
+  "pos": "noun"
+ },
+ "sapandabənzər": {
+  "az": "Sapanda bənzəyən.",
+  "en": "slingshot-shaped",
+  "pos": "adjective"
+ },
+ "saplaqlı-saplaqlı": {
+  "skip": "meaning not certain"
+ },
+ "saponik": {
+  "skip": "meaning not certain"
+ },
+ "saprofit": {
+  "az": "Ölmüş üzvi qalıqlarla qidalanan orqanizm.",
+  "en": "saprophyte",
+  "pos": "noun"
+ },
+ "sapropelit": {
+  "skip": "meaning not certain"
+ },
+ "sarasin": {
+  "az": "Orta əsrlərdə Avropada müsəlman ərəblərə verilən ad.",
+  "en": "Saracen",
+  "pos": "noun"
+ },
+ "sardoniks": {
+  "az": "Zolaqlı qəhvəyi-ağ əqiq.",
+  "en": "sardonyx",
+  "pos": "noun"
+ },
+ "sarıcalı": {
+  "skip": "meaning not certain"
+ },
+ "sarıcəfərli": {
+  "skip": "meaning not certain"
+ },
+ "sarımtıl-ağ": {
+  "az": "Sarıya çalan ağ.",
+  "en": "yellowish-white",
+  "pos": "adjective"
+ },
+ "sarı-sarı": {
+  "skip": "meaning not certain"
+ },
+ "sarıtük": {
+  "az": "Tükü sarı olan.",
+  "en": "yellow-haired",
+  "pos": "adjective"
+ },
+ "sari": {
+  "az": "Hind qadınlarının bədənə sarınan milli geyimi.",
+  "en": "sari",
+  "pos": "noun"
+ },
+ "sarja": {
+  "az": "Çəpəki toxunmuş parça.",
+  "en": "serge",
+  "pos": "noun"
+ },
+ "sarkoidoz": {
+  "az": "Orqanlarda düyüncüklər əmələ gələn sistem xəstəliyi.",
+  "en": "sarcoidosis",
+  "pos": "noun"
+ },
+ "sarqan": {
+  "az": "Uzun nazik bədənli dəniz balığı.",
+  "en": "garfish",
+  "pos": "noun"
+ },
+ "sasak": {
+  "skip": "meaning not certain"
+ },
+ "sassolin": {
+  "az": "Bor turşusundan ibarət mineral.",
+  "en": "sassolite",
+  "pos": "noun"
+ },
+ "savacaq": {
+  "skip": "meaning not certain"
+ },
+ "savat": {
+  "skip": "meaning not certain"
+ },
+ "sayağılıq": {
+  "skip": "meaning not certain"
+ },
+ "sayalı": {
+  "skip": "meaning not certain"
+ },
+ "sayda": {
+  "skip": "meaning not certain"
+ },
+ "sayğısız-sayğısız": {
+  "az": "Hörmətsizcəsinə.",
+  "en": "disrespectfully",
+  "pos": "adverb"
+ },
+ "sayka": {
+  "skip": "meaning not certain"
+ },
+ "sayru": {
+  "skip": "meaning not certain"
+ },
+ "seboreya": {
+  "az": "Piy vəzilərinin fəaliyyətinin pozulması.",
+  "en": "seborrhea",
+  "pos": "noun"
+ },
+ "sediplen": {
+  "skip": "meaning not certain"
+ },
+ "sekans": {
+  "az": "Filmin ardıcıl kadrlardan ibarət epizodu.",
+  "en": "sequence (film)",
+  "pos": "noun"
+ },
+ "sekresiya": {
+  "az": "Vəzilərin şirə ifraz etməsi.",
+  "en": "secretion",
+  "pos": "noun"
+ },
+ "sekretin": {
+  "az": "Mədəaltı vəzin ifrazını stimullaşdıran hormon.",
+  "en": "secretin",
+  "pos": "noun"
+ },
+ "seksofobiya": {
+  "skip": "meaning not certain"
+ },
+ "seksopatologiya": {
+  "az": "Cinsi pozğunluqları öyrənən tibb sahəsi.",
+  "en": "sexual medicine",
+  "pos": "noun"
+ },
+ "seksta": {
+  "az": "Altı pilləlik musiqi intervalı.",
+  "en": "sixth (interval)",
+  "pos": "noun"
+ },
+ "sekstet": {
+  "az": "Altı ifaçıdan ibarət ansambl və onun üçün əsər.",
+  "en": "sextet",
+  "pos": "noun"
+ },
+ "sekstina": {
+  "az": "Altı misralı bəndlərdən ibarət şeir forması.",
+  "en": "sestina",
+  "pos": "noun"
+ },
+ "seksualist": {
+  "skip": "meaning not certain"
+ },
+ "sekunda": {
+  "az": "İki pilləlik musiqi intervalı.",
+  "en": "second (interval)",
+  "pos": "noun"
+ },
+ "sekyüritizasiya": {
+  "az": "Aktivlərin qiymətli kağızlara çevrilməsi.",
+  "en": "securitization",
+  "pos": "noun"
+ },
+ "selektor": {
+  "az": "Kanal və ya siqnal seçən qurğu; seçici rabitə sistemi.",
+  "en": "selector",
+  "pos": "noun"
+ },
+ "selenit": {
+  "skip": "several unrelated senses"
+ },
+ "selenoqrafik": {
+  "az": "Ayın səthinin təsvirinə aid.",
+  "en": "selenographic",
+  "pos": "adjective"
+ },
+ "selenoqrafiya": {
+  "az": "Ayın səthinin təsviri.",
+  "en": "selenography",
+  "pos": "noun"
+ },
+ "selenologiya": {
+  "az": "Ayın geologiyasını öyrənən elm.",
+  "en": "selenology",
+  "pos": "noun"
+ },
+ "selenoloji": {
+  "az": "Selenologiyaya aid.",
+  "en": "selenological",
+  "pos": "adjective"
+ },
+ "selenonim": {
+  "skip": "meaning not certain"
+ },
+ "selenosentrik": {
+  "az": "Ayın mərkəzinə nisbətən götürülən.",
+  "en": "selenocentric",
+  "pos": "adjective"
+ },
+ "selfi": {
+  "az": "Özünü çəkdiyin fotoşəkil.",
+  "en": "selfie",
+  "pos": "noun"
+ },
+ "sellozolv": {
+  "az": "Lak və boya həlledicisi.",
+  "en": "cellosolve",
+  "pos": "noun"
+ },
+ "sema": {
+  "skip": "meaning not certain"
+ },
+ "semanq": {
+  "az": "Malakka yarımadasının yerli xalqı.",
+  "en": "Semang",
+  "pos": "noun"
+ },
+ "semikarbazid": {
+  "skip": "meaning not certain"
+ },
+ "semiotik": {
+  "az": "Semiotikaya aid.",
+  "en": "semiotic",
+  "pos": "adjective"
+ },
+ "sendast": {
+  "skip": "meaning not certain"
+ },
+ "senogenez": {
+  "skip": "meaning not certain"
+ },
+ "senoi": {
+  "skip": "meaning not certain"
+ },
+ "senokinez": {
+  "skip": "meaning not certain"
+ },
+ "senon": {
+  "skip": "meaning not certain"
+ },
+ "senosfer": {
+  "skip": "meaning not certain"
+ },
+ "senoz": {
+  "skip": "meaning not certain"
+ },
+ "sensimonist": {
+  "az": "Sen-Simonun utopik sosializm təliminin tərəfdarı.",
+  "en": "Saint-Simonian",
+  "pos": "noun"
+ },
+ "sensimonizm": {
+  "az": "Sen-Simonun utopik sosializm təlimi.",
+  "en": "Saint-Simonianism",
+  "pos": "noun"
+ },
+ "sensitometr": {
+  "az": "Foto materialların işığa həssaslığını ölçən cihaz.",
+  "en": "sensitometer",
+  "pos": "noun"
+ },
+ "sensitometrik": {
+  "az": "Sensitometriyaya aid.",
+  "en": "sensitometric",
+  "pos": "adjective"
+ },
+ "sensitometriya": {
+  "az": "Foto materialların işığa həssaslığının ölçülməsi.",
+  "en": "sensitometry",
+  "pos": "noun"
+ },
+ "sentrist": {
+  "az": "Siyasətdə mərkəzçi.",
+  "en": "centrist",
+  "pos": "noun"
+ },
+ "seolit": {
+  "az": "Məsaməli alüminium silikat mineralı.",
+  "en": "zeolite",
+  "pos": "noun"
+ },
+ "separatçı": {
+  "az": "Separatçılıq edən şəxs.",
+  "en": "separatist",
+  "pos": "noun"
+ },
+ "sepiolit": {
+  "az": "Lületaşı adlanan yumşaq mineral.",
+  "en": "sepiolite, meerschaum",
+  "pos": "noun"
+ },
+ "septet": {
+  "az": "Yeddi ifaçıdan ibarət ansambl və onun üçün əsər.",
+  "en": "septet",
+  "pos": "noun"
+ },
+ "serisin": {
+  "az": "İpək zülalı.",
+  "en": "sericin",
+  "pos": "noun"
+ },
+ "serkosporoz": {
+  "az": "Göbələk törədən bitki yarpaq ləkəliyi.",
+  "en": "cercospora leaf spot",
+  "pos": "noun"
+ },
+ "serologiya": {
+  "az": "Qan zərdabını öyrənən elm.",
+  "en": "serology",
+  "pos": "noun"
+ },
+ "seroloq": {
+  "az": "Serologiya üzrə mütəxəssis.",
+  "en": "serologist",
+  "pos": "noun"
+ },
+ "seroterapiya": {
+  "az": "Zərdabla müalicə.",
+  "en": "serotherapy",
+  "pos": "noun"
+ },
+ "serpentin": {
+  "az": "Yaşıl rəngli maqnezium silikat mineralı; ilanvari yol.",
+  "en": "serpentine",
+  "pos": "noun"
+ },
+ "serussit": {
+  "az": "Qurğuşun karbonatdan ibarət mineral.",
+  "en": "cerussite",
+  "pos": "noun"
+ },
+ "servitut": {
+  "az": "Başqasının əmlakından məhdud istifadə hüququ.",
+  "en": "easement, servitude",
+  "pos": "noun"
+ },
+ "sestodoz": {
+  "az": "Lent qurdlarının törətdiyi xəstəlik.",
+  "en": "cestodiasis",
+  "pos": "noun"
+ },
+ "severyan": {
+  "skip": "meaning not certain"
+ },
+ "sevincəklik": {
+  "skip": "meaning not certain"
+ },
+ "seyner": {
+  "az": "Torla balıq tutan gəmi.",
+  "en": "seiner",
+  "pos": "noun"
+ },
+ "seyrəkdiş": {
+  "az": "Dişləri seyrək olan.",
+  "en": "gap-toothed",
+  "pos": "adjective"
+ },
+ "seyrəksaç": {
+  "az": "Saçı seyrək olan.",
+  "en": "thin-haired",
+  "pos": "adjective"
+ },
+ "seyrəktük": {
+  "az": "Tükü seyrək olan.",
+  "en": "sparse-haired",
+  "pos": "adjective"
+ },
+ "seyrəkyun": {
+  "skip": "meaning not certain"
+ },
+ "seysmoakustik": {
+  "skip": "meaning not certain"
+ },
+ "seysmoakustika": {
+  "skip": "meaning not certain"
+ },
+ "seysmohidroakustik": {
+  "skip": "meaning not certain"
+ },
+ "seysmohidroakustika": {
+  "skip": "meaning not certain"
+ },
+ "seysmokardioqraf": {
+  "skip": "meaning not certain"
+ },
+ "seysmokardioqrafik": {
+  "skip": "meaning not certain"
+ },
+ "seysmokardioqram": {
+  "skip": "meaning not certain"
+ },
+ "seysmokəşfiyyat": {
+  "az": "Seysmik dalğalarla yeraltı quruluşun kəşfiyyatı.",
+  "en": "seismic exploration",
+  "pos": "noun"
+ },
+ "seysmostansiya": {
+  "az": "Zəlzələləri qeydə alan stansiya.",
+  "en": "seismic station",
+  "pos": "noun"
+ },
+ "seysmostatistik": {
+  "skip": "meaning not certain"
+ },
+ "seysmostatistika": {
+  "skip": "meaning not certain"
+ },
+ "seysmotektonik": {
+  "az": "Zəlzələlərin tektonik quruluşla əlaqəsinə aid.",
+  "en": "seismotectonic",
+  "pos": "adjective"
+ },
+ "seysmotektonika": {
+  "az": "Zəlzələlərin tektonik quruluşla əlaqəsini öyrənən elm.",
+  "en": "seismotectonics",
+  "pos": "noun"
+ },
+ "seytnot": {
+  "az": "Şahmatda vaxt çatışmazlığı.",
+  "en": "time trouble (Zeitnot)",
+  "pos": "noun"
+ },
+ "sezar": {
+  "skip": "meaning not certain"
+ },
+ "səbətə": {
+  "skip": "meaning not certain"
+ },
+ "sədo": {
+  "skip": "meaning not certain"
+ },
+ "səhvli": {
+  "az": "Səhvi olan.",
+  "en": "erroneous",
+  "pos": "adjective"
+ },
+ "səkkizsütun": {
+  "skip": "meaning not certain"
+ },
+ "səlcuq": {
+  "az": "Səlcuqlar sülaləsinə aid.",
+  "en": "Seljuk",
+  "pos": "adjective"
+ },
+ "sən-mən": {
+  "az": "Sözləşmə, mübahisə.",
+  "en": "squabbling",
+  "pos": "noun"
+ },
+ "səpələng": {
+  "skip": "meaning not certain"
+ },
+ "sərgərdan-sərgərdan": {
+  "az": "Avara-avara, sərgərdan halda.",
+  "en": "aimlessly",
+  "pos": "adverb"
+ },
+ "sərxanbəyli": {
+  "skip": "meaning not certain"
+ },
+ "səri": {
+  "skip": "meaning not certain"
+ },
+ "sərin-sərin": {
+  "az": "Sərin halda.",
+  "en": "coolly",
+  "pos": "adverb"
+ },
+ "sərsəm-sərsəm": {
+  "az": "Sərsəm halda.",
+  "en": "dazedly",
+  "pos": "adverb"
+ },
+ "sərvboy": {
+  "az": "Sərv kimi uca boylu.",
+  "en": "tall and slender",
+  "pos": "adjective"
+ },
+ "sərvqədli": {
+  "az": "Sərv kimi uca boylu.",
+  "en": "tall and slender",
+  "pos": "adjective"
+ },
+ "sətin": {
+  "az": "Parlaq üzlü pambıq parça.",
+  "en": "sateen",
+  "pos": "noun"
+ },
+ "səyənək": {
+  "skip": "meaning not certain"
+ },
+ "sıçrağan": {
+  "skip": "meaning not certain"
+ },
+ "sıfırlı": {
+  "skip": "meaning not certain"
+ },
+ "sıfırlıq": {
+  "skip": "meaning not certain"
+ },
+ "sıfırsız": {
+  "skip": "meaning not certain"
+ },
+ "sıxıcılı": {
+  "skip": "meaning not certain"
+ },
+ "sınıqlı": {
+  "skip": "meaning not certain"
+ },
+ "sısqa-sısqa": {
+  "skip": "meaning not certain"
+ },
+ "sıyıqlı": {
+  "skip": "meaning not certain"
+ },
+ "sızqa-sızqa": {
+  "skip": "meaning not certain"
+ },
+ "sibilyant": {
+  "az": "Fısıltılı samit.",
+  "en": "sibilant",
+  "pos": "noun"
+ },
+ "sibirxoruzu": {
+  "skip": "meaning not certain"
+ },
+ "sibiryarası": {
+  "az": "Heyvanların və insanın ağır yoluxucu xəstəliyi.",
+  "en": "anthrax",
+  "pos": "noun"
+ },
+ "sicilləməli": {
+  "skip": "meaning not certain"
+ },
+ "sicilləməsiz": {
+  "skip": "meaning not certain"
+ },
+ "siderasiya": {
+  "az": "Yaşıl gübrə bitkiləri əkib torpağa qatma.",
+  "en": "green manuring",
+  "pos": "noun"
+ },
+ "siderat": {
+  "az": "Yaşıl gübrə kimi əkilən bitki.",
+  "en": "green manure crop",
+  "pos": "noun"
+ },
+ "sifilidologiya": {
+  "az": "Sifilisi öyrənən tibb sahəsi.",
+  "en": "syphilology",
+  "pos": "noun"
+ },
+ "sifilidoloji": {
+  "skip": "meaning not certain"
+ },
+ "sifilidoloq": {
+  "skip": "meaning not certain"
+ },
+ "siftəlik": {
+  "skip": "meaning not certain"
+ },
+ "sikadofit": {
+  "skip": "meaning not certain"
+ },
+ "sikloheksan": {
+  "az": "Altı karbonlu halqavi doymuş karbohidrogen.",
+  "en": "cyclohexane",
+  "pos": "noun"
+ },
+ "sikloheptan": {
+  "az": "Yeddi karbonlu halqavi doymuş karbohidrogen.",
+  "en": "cycloheptane",
+  "pos": "noun"
+ },
+ "sikloklimaks": {
+  "skip": "meaning not certain"
+ },
+ "siklopropan": {
+  "az": "Narkoz üçün işlədilən halqavi qaz.",
+  "en": "cyclopropane",
+  "pos": "noun"
+ },
+ "siklosilikat": {
+  "az": "Halqavi quruluşlu silikat.",
+  "en": "cyclosilicate",
+  "pos": "noun"
+ },
+ "siqnatura": {
+  "az": "Kitab vərəqində çap işarəsi; dərman qabındakı yazı.",
+  "en": "signature",
+  "pos": "noun"
+ },
+ "silxrom": {
+  "skip": "meaning not certain"
+ },
+ "sillabem": {
+  "skip": "meaning not certain"
+ },
+ "sillabika": {
+  "skip": "meaning not certain"
+ },
+ "simbiont": {
+  "az": "Simbiozda yaşayan orqanizm.",
+  "en": "symbiont",
+  "pos": "noun"
+ },
+ "simfonizm": {
+  "az": "Musiqi təfəkkürünün simfonik inkişaf prinsipi.",
+  "en": "symphonism",
+  "pos": "noun"
+ }
+}

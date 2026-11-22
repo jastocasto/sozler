@@ -1,0 +1,1084 @@
+{
+ "porzan": {
+  "skip": "meaning not certain"
+ },
+ "posessiya": {
+  "az": "Sahiblik, mülkiyyətə malik olma.",
+  "en": "possession",
+  "pos": "noun"
+ },
+ "possibilist": {
+  "az": "Possibilizm tərəfdarı.",
+  "en": "possibilist",
+  "pos": "noun"
+ },
+ "possibilizm": {
+  "az": "İnsan fəaliyyətinin təbiətlə müəyyən olunmadığını qəbul edən coğrafi təlim.",
+  "en": "possibilism",
+  "pos": "noun"
+ },
+ "postfiks": {
+  "az": "Sözün sonuna artırılan morfem.",
+  "en": "postfix",
+  "pos": "noun"
+ },
+ "postnatal": {
+  "az": "Doğuşdan sonrakı dövrə aid.",
+  "en": "postnatal",
+  "pos": "adjective"
+ },
+ "potaboy": {
+  "skip": "meaning not certain"
+ },
+ "potensiometrik": {
+  "az": "Potensiometriyaya aid.",
+  "en": "potentiometric",
+  "pos": "adjective"
+ },
+ "potensiometriya": {
+  "az": "Elektrod potensialını ölçməklə analiz üsulu.",
+  "en": "potentiometry",
+  "pos": "noun"
+ },
+ "poverbank": {
+  "az": "Cihazları doldurmaq üçün daşınan akkumulyator.",
+  "en": "power bank",
+  "pos": "noun"
+ },
+ "poykilosomatik": {
+  "skip": "meaning not certain"
+ },
+ "poykiloterm": {
+  "az": "Bədən temperaturu mühitdən asılı olan heyvan.",
+  "en": "poikilotherm",
+  "pos": "noun"
+ },
+ "pozuq-pozuq": {
+  "skip": "meaning not certain"
+ },
+ "pradil": {
+  "skip": "meaning not certain"
+ },
+ "prakrit": {
+  "az": "Qədim və orta hind xalq dilləri.",
+  "en": "Prakrit",
+  "pos": "noun"
+ },
+ "praqmatika": {
+  "az": "Dil vahidlərinin istifadəsini və təsirini öyrənən sahə.",
+  "en": "pragmatics",
+  "pos": "noun"
+ },
+ "praqmatonim": {
+  "skip": "meaning not certain"
+ },
+ "prazeodium": {
+  "az": "Nadir torpaq metalı, kimyəvi element.",
+  "en": "praseodymium",
+  "pos": "noun"
+ },
+ "prednizolon": {
+  "az": "Hormonal iltihab əleyhinə dərman.",
+  "en": "prednisolone",
+  "pos": "noun"
+ },
+ "preferensial": {
+  "az": "Üstünlük verən, güzəştli.",
+  "en": "preferential",
+  "pos": "adjective"
+ },
+ "preferensiya": {
+  "az": "Güzəşt, üstünlük.",
+  "en": "preference",
+  "pos": "noun"
+ },
+ "prefisit": {
+  "skip": "meaning not certain"
+ },
+ "prelat": {
+  "az": "Katolik kilsəsinin yüksək rütbəli ruhanisi.",
+  "en": "prelate",
+  "pos": "noun"
+ },
+ "preparat": {
+  "az": "Dərman vasitəsi; tədqiqat üçün hazırlanmış nümunə.",
+  "en": "preparation, drug",
+  "pos": "noun"
+ },
+ "pressinq": {
+  "az": "Rəqibə sıx təzyiq göstərmə taktikası.",
+  "en": "pressing (sport)",
+  "pos": "noun"
+ },
+ "prestissimo": {
+  "az": "Son dərəcə cəld templə.",
+  "en": "prestissimo",
+  "pos": "adverb"
+ },
+ "presviter": {
+  "az": "Erkən xristian icmasının ağsaqqalı; keşiş.",
+  "en": "presbyter",
+  "pos": "noun"
+ },
+ "preterit": {
+  "az": "Bəzi dillərdə keçmiş zaman forması.",
+  "en": "preterite",
+  "pos": "noun"
+ },
+ "prevalid": {
+  "skip": "meaning not certain"
+ },
+ "prezumpsiya": {
+  "az": "Əksi sübut olunana qədər doğru sayılan fərziyyə.",
+  "en": "presumption",
+  "pos": "noun"
+ },
+ "priçastiye": {
+  "skip": "meaning not certain"
+ },
+ "prikazçik": {
+  "az": "Keçmişdə tacirin yanında satıcı işçi.",
+  "en": "shop clerk",
+  "pos": "noun"
+ },
+ "primas": {
+  "az": "Ölkənin baş yepiskopu.",
+  "en": "primate (bishop)",
+  "pos": "noun"
+ },
+ "primula": {
+  "az": "Erkən yazda açan çiçək, çuxurçiçəyi.",
+  "en": "primrose",
+  "pos": "noun"
+ },
+ "pritça": {
+  "skip": "meaning not certain"
+ },
+ "proant": {
+  "skip": "meaning not certain"
+ },
+ "produsent": {
+  "az": "Ekosistemdə üzvi maddə yaradan orqanizm.",
+  "en": "producer (ecology)",
+  "pos": "noun"
+ },
+ "profaşist": {
+  "az": "Faşizmə rəğbət bəsləyən.",
+  "en": "pro-fascist",
+  "pos": "adjective"
+ },
+ "profaşizm": {
+  "skip": "meaning not certain"
+ },
+ "profilaktika": {
+  "az": "Xəstəliklərin qarşısını alma tədbirləri.",
+  "en": "prevention, prophylaxis",
+  "pos": "noun"
+ },
+ "profiloqraf": {
+  "az": "Səthin profilini yazan cihaz.",
+  "en": "profilograph",
+  "pos": "noun"
+ },
+ "profiloqrafik": {
+  "skip": "meaning not certain"
+ },
+ "profilometr": {
+  "az": "Səthin kələ-kötürlüyünü ölçən cihaz.",
+  "en": "profilometer",
+  "pos": "noun"
+ },
+ "profototropizm": {
+  "skip": "meaning not certain"
+ },
+ "proklimaks": {
+  "skip": "meaning not certain"
+ },
+ "proklitika": {
+  "az": "Sonrakı sözə vurğusuz bitişən söz.",
+  "en": "proclitic",
+  "pos": "noun"
+ },
+ "proksi": {
+  "az": "Vasitəçi server.",
+  "en": "proxy",
+  "pos": "noun"
+ },
+ "proksi-server": {
+  "az": "İstifadəçi ilə internet arasında vasitəçi server.",
+  "en": "proxy server",
+  "pos": "noun"
+ },
+ "proktit": {
+  "az": "Düz bağırsağın iltihabı.",
+  "en": "proctitis",
+  "pos": "noun"
+ },
+ "proktologiya": {
+  "az": "Düz bağırsaq xəstəliklərini öyrənən tibb sahəsi.",
+  "en": "proctology",
+  "pos": "noun"
+ },
+ "proqnostik": {
+  "az": "Proqnoza aid.",
+  "en": "prognostic",
+  "pos": "adjective"
+ },
+ "proqnostika": {
+  "az": "Proqnozlaşdırma nəzəriyyəsi və üsulları.",
+  "en": "prognostics",
+  "pos": "noun"
+ },
+ "proliferasiya": {
+  "az": "Hüceyrələrin çoxalması ilə toxumanın böyüməsi; yayılma.",
+  "en": "proliferation",
+  "pos": "noun"
+ },
+ "prolifikasiya": {
+  "skip": "meaning not certain"
+ },
+ "prolin": {
+  "az": "Amin turşusu.",
+  "en": "proline",
+  "pos": "noun"
+ },
+ "prolonqasiya": {
+  "az": "Müddətin uzadılması.",
+  "en": "prolongation",
+  "pos": "noun"
+ },
+ "prolüvial": {
+  "az": "Müvəqqəti axınların çöküntülərinə aid.",
+  "en": "proluvial",
+  "pos": "adjective"
+ },
+ "prolüvium": {
+  "az": "Müvəqqəti axınların dağ ətəyində yığdığı çöküntülər.",
+  "en": "proluvium",
+  "pos": "noun"
+ },
+ "promomaterial": {
+  "az": "Reklam materialı.",
+  "en": "promotional material",
+  "pos": "noun"
+ },
+ "promotor": {
+  "az": "Təşkilatçı; genin başlanğıcını göstərən DNT hissəsi.",
+  "en": "promoter",
+  "pos": "noun"
+ },
+ "promulqasiya": {
+  "az": "Qanunun rəsmi elan olunması.",
+  "en": "promulgation",
+  "pos": "noun"
+ },
+ "propiley": {
+  "az": "Qədim yunan qala və ya məbədinin sütunlu girişi.",
+  "en": "propylaeum",
+  "pos": "noun"
+ },
+ "prosenoz": {
+  "skip": "meaning not certain"
+ },
+ "prosodem": {
+  "skip": "meaning not certain"
+ },
+ "prosodiya": {
+  "az": "Vurğu, ton və ritm kimi nitq xüsusiyyətləri.",
+  "en": "prosody",
+  "pos": "noun"
+ },
+ "protanopiya": {
+  "az": "Qırmızı rəngi ayırd etməmə.",
+  "en": "protanopia",
+  "pos": "noun"
+ },
+ "proteid": {
+  "az": "Mürəkkəb zülal.",
+  "en": "conjugated protein",
+  "pos": "noun"
+ },
+ "proterozoy": {
+  "az": "Kembridən əvvəlki geoloji era.",
+  "en": "Proterozoic",
+  "pos": "noun"
+ },
+ "proteza": {
+  "skip": "meaning not certain"
+ },
+ "protistologiya": {
+  "az": "Birhüceyrəli orqanizmləri öyrənən elm.",
+  "en": "protistology",
+  "pos": "noun"
+ },
+ "protium": {
+  "az": "Hidrogenin yüngül izotopu.",
+  "en": "protium",
+  "pos": "noun"
+ },
+ "protobiologiya": {
+  "skip": "meaning not certain"
+ },
+ "protobiosenoz": {
+  "skip": "meaning not certain"
+ },
+ "protoxlorofil": {
+  "az": "Xlorofilin sələfi olan piqment.",
+  "en": "protochlorophyll",
+  "pos": "noun"
+ },
+ "protoqalaktika": {
+  "az": "Yaranmaqda olan qalaktika.",
+  "en": "protogalaxy",
+  "pos": "noun"
+ },
+ "protonefrit": {
+  "skip": "meaning not certain"
+ },
+ "protoneolit": {
+  "skip": "meaning not certain"
+ },
+ "protopektin": {
+  "skip": "meaning not certain"
+ },
+ "protoplast": {
+  "az": "Hüceyrə divarından azad edilmiş hüceyrə.",
+  "en": "protoplast",
+  "pos": "noun"
+ },
+ "protoplatforma": {
+  "skip": "meaning not certain"
+ },
+ "protoplazmatik": {
+  "az": "Protoplazmaya aid.",
+  "en": "protoplasmic",
+  "pos": "adjective"
+ },
+ "protopter": {
+  "az": "Afrikada yaşayan ikinəfəsli balıq.",
+  "en": "African lungfish",
+  "pos": "noun"
+ },
+ "protorenessans": {
+  "az": "İtaliyada İntibahdan əvvəlki dövr.",
+  "en": "Proto-Renaissance",
+  "pos": "noun"
+ },
+ "prototrof": {
+  "skip": "meaning not certain"
+ },
+ "protovitamin": {
+  "az": "Orqanizmdə vitaminə çevrilən maddə.",
+  "en": "provitamin",
+  "pos": "noun"
+ },
+ "protozoologiya": {
+  "az": "İbtidai heyvanları öyrənən elm.",
+  "en": "protozoology",
+  "pos": "noun"
+ },
+ "protozooloji": {
+  "az": "Protozoologiyaya aid.",
+  "en": "protozoological",
+  "pos": "adjective"
+ },
+ "protozooloq": {
+  "az": "Protozoologiya üzrə alim.",
+  "en": "protozoologist",
+  "pos": "noun"
+ },
+ "providensializm": {
+  "az": "Tarixi ilahi iradə ilə izah edən təlim.",
+  "en": "providentialism",
+  "pos": "noun"
+ },
+ "prozenxima": {
+  "az": "Uzunsov hüceyrələrdən ibarət bitki toxuması.",
+  "en": "prosenchyma",
+  "pos": "noun"
+ },
+ "prudonist": {
+  "az": "Prudonizm tərəfdarı.",
+  "en": "Proudhonist",
+  "pos": "noun"
+ },
+ "prudonizm": {
+  "az": "Prudonun xırda burjua sosializm təlimi.",
+  "en": "Proudhonism",
+  "pos": "noun"
+ },
+ "prustit": {
+  "az": "Gümüş və arsen sulfid mineralı.",
+  "en": "proustite",
+  "pos": "noun"
+ },
+ "psammofil": {
+  "az": "Qumlu yerlərdə yaşayan canlı.",
+  "en": "psammophile",
+  "pos": "noun"
+ },
+ "psammofit": {
+  "az": "Qumda bitən bitki.",
+  "en": "psammophyte",
+  "pos": "noun"
+ },
+ "psefit": {
+  "az": "İri qırıntılı çöküntü süxur.",
+  "en": "psephite",
+  "pos": "noun"
+ },
+ "psevdomorfizm": {
+  "skip": "meaning not certain"
+ },
+ "psixopatik": {
+  "az": "Psixopatiyaya aid.",
+  "en": "psychopathic",
+  "pos": "adjective"
+ },
+ "psixosomatik": {
+  "az": "Psixika ilə bədənin əlaqəsinə aid.",
+  "en": "psychosomatic",
+  "pos": "adjective"
+ },
+ "psixosomatika": {
+  "az": "Psixi amillərin bədən xəstəliklərinə təsirini öyrənən sahə.",
+  "en": "psychosomatics",
+  "pos": "noun"
+ },
+ "psixozoy": {
+  "skip": "meaning not certain"
+ },
+ "psilofit": {
+  "az": "Ən qədim quru bitkiləri.",
+  "en": "psilophyte",
+  "pos": "noun"
+ },
+ "psittakoz": {
+  "az": "Tutuquşulardan keçən yoluxucu xəstəlik.",
+  "en": "psittacosis",
+  "pos": "noun"
+ },
+ "ptoz": {
+  "az": "Orqanın aşağı düşməsi; göz qapağının sallanması.",
+  "en": "ptosis",
+  "pos": "noun"
+ },
+ "puanson": {
+  "az": "Ştamplama alətinin basan hissəsi.",
+  "en": "punch (die)",
+  "pos": "noun"
+ },
+ "puaz": {
+  "az": "Özlülük vahidi.",
+  "en": "poise",
+  "pos": "noun"
+ },
+ "puerperal": {
+  "az": "Doğuşdan sonrakı dövrə aid.",
+  "en": "puerperal",
+  "pos": "adjective"
+ },
+ "puksiniya": {
+  "az": "Pas xəstəliyi törədən göbələk.",
+  "en": "Puccinia (rust fungus)",
+  "pos": "noun"
+ },
+ "pula-pula": {
+  "skip": "meaning not certain"
+ },
+ "pulinq": {
+  "skip": "meaning not certain"
+ },
+ "pulloroz": {
+  "az": "Cücələrin yoluxucu xəstəliyi.",
+  "en": "pullorum disease",
+  "pos": "noun"
+ },
+ "purizm": {
+  "az": "Dili alınma sözlərdən təmizləmə meyli.",
+  "en": "purism",
+  "pos": "noun"
+ },
+ "pussolan": {
+  "az": "Sementə qatılan vulkanik material.",
+  "en": "pozzolana",
+  "pos": "noun"
+ },
+ "pustula": {
+  "az": "İrinli səpgi.",
+  "en": "pustule",
+  "pos": "noun"
+ },
+ "pünhan-pünhan": {
+  "az": "Gizlicə.",
+  "en": "secretly",
+  "pos": "adverb"
+ },
+ "püstəağız": {
+  "az": "Ağzı püstə kimi kiçik və gözəl olan.",
+  "en": "small-mouthed (beauty)",
+  "pos": "adjective"
+ },
+ "rabdit": {
+  "skip": "meaning not certain"
+ },
+ "rabdom": {
+  "skip": "meaning not certain"
+ },
+ "rabdomioliz": {
+  "az": "Əzələ toxumasının dağılması.",
+  "en": "rhabdomyolysis",
+  "pos": "noun"
+ },
+ "radarskop": {
+  "skip": "meaning not certain"
+ },
+ "radian": {
+  "az": "Bucaq ölçü vahidi.",
+  "en": "radian",
+  "pos": "noun"
+ },
+ "radiant": {
+  "az": "Meteor axınının çıxış nöqtəsi.",
+  "en": "radiant (astronomy)",
+  "pos": "noun"
+ },
+ "radifə": {
+  "skip": "meaning not certain"
+ },
+ "radikalçı": {
+  "skip": "meaning not certain"
+ },
+ "radikulopatiya": {
+  "az": "Onurğa beyni köklərinin zədələnməsi.",
+  "en": "radiculopathy",
+  "pos": "noun"
+ },
+ "radiofrekans": {
+  "az": "Radiotezlik.",
+  "en": "radio frequency",
+  "pos": "noun"
+ },
+ "radioşüa": {
+  "skip": "meaning not certain"
+ },
+ "radioteleqrafiya": {
+  "az": "Teleqraf siqnallarının radio ilə ötürülməsi.",
+  "en": "radiotelegraphy",
+  "pos": "noun"
+ },
+ "radioteodolit": {
+  "skip": "meaning not certain"
+ },
+ "radula": {
+  "az": "Molyuskların dişli dil aparatı.",
+  "en": "radula",
+  "pos": "noun"
+ },
+ "rafiya": {
+  "az": "Lifli yarpaqlı palma və onun lifi.",
+  "en": "raffia",
+  "pos": "noun"
+ },
+ "raxiometr": {
+  "skip": "meaning not certain"
+ },
+ "rakel": {
+  "skip": "meaning not certain"
+ },
+ "raqu": {
+  "az": "Ət və tərəvəzdən qatı bişmiş yemək.",
+  "en": "ragout",
+  "pos": "noun"
+ },
+ "rambulye": {
+  "skip": "meaning not certain"
+ },
+ "ramburs": {
+  "skip": "meaning not certain"
+ },
+ "rambutan": {
+  "az": "Tükcüklü qabıqlı tropik meyvə.",
+  "en": "rambutan",
+  "pos": "noun"
+ },
+ "rami": {
+  "az": "Lifli gicitkən fəsiləsindən bitki.",
+  "en": "ramie",
+  "pos": "noun"
+ },
+ "rantye": {
+  "az": "Kapitalından faiz gəliri ilə yaşayan adam.",
+  "en": "rentier",
+  "pos": "noun"
+ },
+ "ranversman": {
+  "skip": "meaning not certain"
+ },
+ "rapport": {
+  "az": "Qarşılıqlı anlaşma; naxışın təkrarlanan hissəsi.",
+  "en": "rapport; pattern repeat",
+  "pos": "noun"
+ },
+ "rasionalçı": {
+  "skip": "meaning not certain"
+ },
+ "rastra": {
+  "skip": "meaning not certain"
+ },
+ "rataniya": {
+  "skip": "meaning not certain"
+ },
+ "ratisid": {
+  "az": "Siçovullara qarşı zəhər.",
+  "en": "rat poison",
+  "pos": "noun"
+ },
+ "ratit": {
+  "az": "Uçmayan iri quş.",
+  "en": "ratite",
+  "pos": "noun"
+ },
+ "raund-törn": {
+  "skip": "meaning not certain"
+ },
+ "rauvolfiya": {
+  "az": "Kökündən təzyiq salan dərman alınan tropik kol.",
+  "en": "rauvolfia",
+  "pos": "noun"
+ },
+ "rayber": {
+  "skip": "meaning not certain"
+ },
+ "rayberləmək": {
+  "skip": "meaning not certain"
+ },
+ "rayqras": {
+  "az": "Yem və qazon üçün çoxillik ot.",
+  "en": "ryegrass",
+  "pos": "noun"
+ },
+ "rayts": {
+  "skip": "meaning not certain"
+ },
+ "re": {
+  "az": "Musiqi qammasının ikinci notu.",
+  "en": "re (note D)",
+  "pos": "noun"
+ },
+ "reabsorbsiya": {
+  "az": "Yenidən sorulma.",
+  "en": "reabsorption",
+  "pos": "noun"
+ },
+ "reaktivçi": {
+  "skip": "meaning not certain"
+ },
+ "reali": {
+  "skip": "meaning not certain"
+ },
+ "realionim": {
+  "skip": "meaning not certain"
+ },
+ "realtor": {
+  "az": "Daşınmaz əmlak agenti.",
+  "en": "realtor",
+  "pos": "noun"
+ },
+ "redressasiya": {
+  "skip": "meaning not certain"
+ },
+ "redublikativ": {
+  "skip": "meaning not certain"
+ },
+ "reduktaza": {
+  "az": "Bərpa reaksiyalarını sürətləndirən ferment.",
+  "en": "reductase",
+  "pos": "noun"
+ },
+ "redusent": {
+  "az": "Üzvi qalıqları parçalayan orqanizm.",
+  "en": "decomposer",
+  "pos": "noun"
+ },
+ "refaksiya": {
+  "skip": "meaning not certain"
+ },
+ "referal": {
+  "az": "Tövsiyə ilə cəlb olunmuş müştəri.",
+  "en": "referral",
+  "pos": "noun"
+ },
+ "refiqium": {
+  "az": "Canlıların əlverişsiz dövrdə sağ qaldığı ərazi.",
+  "en": "refugium",
+  "pos": "noun"
+ },
+ "refleksoqrafiya": {
+  "skip": "meaning not certain"
+ },
+ "reflüks": {
+  "az": "Mayenin geri axması.",
+  "en": "reflux",
+  "pos": "noun"
+ },
+ "refren": {
+  "az": "Təkrarlanan misra və ya musiqi hissəsi, nəqarət.",
+  "en": "refrain",
+  "pos": "noun"
+ },
+ "regionar": {
+  "az": "Bədənin müəyyən nahiyəsinə aid.",
+  "en": "regional",
+  "pos": "adjective"
+ },
+ "registrator": {
+  "az": "Qeydiyyat aparan şəxs və ya qurum.",
+  "en": "registrar",
+  "pos": "noun"
+ },
+ "reimmiqrasiya": {
+  "az": "Vətənə geri köçmə.",
+  "en": "re-immigration",
+  "pos": "noun"
+ },
+ "reimport": {
+  "az": "İxrac olunmuş malın geri gətirilməsi.",
+  "en": "reimport",
+  "pos": "noun"
+ },
+ "reinjinirinq": {
+  "az": "Biznes proseslərinin köklü yenidən qurulması.",
+  "en": "re-engineering",
+  "pos": "noun"
+ },
+ "reinteqrasiya": {
+  "az": "Yenidən birləşmə.",
+  "en": "reintegration",
+  "pos": "noun"
+ },
+ "reinvestisiya": {
+  "az": "Gəlirin yenidən investisiyaya yönəldilməsi.",
+  "en": "reinvestment",
+  "pos": "noun"
+ },
+ "rekambio": {
+  "skip": "meaning not certain"
+ },
+ "rekonfiqurasiya": {
+  "az": "Konfiqurasiyanın dəyişdirilməsi.",
+  "en": "reconfiguration",
+  "pos": "noun"
+ },
+ "rekonkista": {
+  "az": "Pireney yarımadasının ərəblərdən geri alınması.",
+  "en": "Reconquista",
+  "pos": "noun"
+ },
+ "rekonversiya": {
+  "az": "Hərbi istehsaldan mülki istehsala keçid.",
+  "en": "reconversion",
+  "pos": "noun"
+ },
+ "rekreditiv": {
+  "skip": "meaning not certain"
+ },
+ "rekrutinq": {
+  "az": "İşçi seçmə və işə cəlb etmə.",
+  "en": "recruiting",
+  "pos": "noun"
+ },
+ "rekrutyor": {
+  "az": "İşçi seçimi üzrə mütəxəssis.",
+  "en": "recruiter",
+  "pos": "noun"
+ },
+ "rekta": {
+  "skip": "meaning not certain"
+ },
+ "rektal": {
+  "az": "Düz bağırsağa aid.",
+  "en": "rectal",
+  "pos": "adjective"
+ },
+ "rektoskopiya": {
+  "az": "Düz bağırsağın cihazla müayinəsi.",
+  "en": "rectoscopy",
+  "pos": "noun"
+ },
+ "rekvirent": {
+  "skip": "meaning not certain"
+ },
+ "rekvizisiya": {
+  "az": "Əmlakın dövlət ehtiyacı üçün məcburi alınması.",
+  "en": "requisition",
+  "pos": "noun"
+ },
+ "req": {
+  "skip": "meaning not certain"
+ },
+ "reqata": {
+  "az": "Yelkənli və ya avarlı qayıq yarışı.",
+  "en": "regatta",
+  "pos": "noun"
+ },
+ "reqres": {
+  "az": "Geriləmə, tənəzzül.",
+  "en": "regress",
+  "pos": "noun"
+ },
+ "reqresiddia": {
+  "skip": "meaning not certain"
+ },
+ "requlyasiya": {
+  "az": "Tənzimləmə.",
+  "en": "regulation",
+  "pos": "noun"
+ },
+ "requrqitasiya": {
+  "az": "Mədə möhtəviyyatının ağıza qayıtması.",
+  "en": "regurgitation",
+  "pos": "noun"
+ },
+ "reliz": {
+  "az": "Yeni məhsul və ya musiqi albomunun buraxılışı.",
+  "en": "release",
+  "pos": "noun"
+ },
+ "rema": {
+  "az": "Cümlədə yeni məlumat bildirən hissə.",
+  "en": "rheme",
+  "pos": "noun"
+ },
+ "remarketinq": {
+  "az": "Sayta əvvəl girmiş istifadəçilərə yönəlmiş reklam.",
+  "en": "remarketing",
+  "pos": "noun"
+ },
+ "remeyk": {
+  "az": "Köhnə filmin və ya mahnının yeni versiyası.",
+  "en": "remake",
+  "pos": "noun"
+ },
+ "remitent": {
+  "skip": "meaning not certain"
+ },
+ "remontant": {
+  "az": "Mövsümdə bir neçə dəfə çiçək açan və ya meyvə verən.",
+  "en": "remontant",
+  "pos": "adjective"
+ },
+ "ren təkəri": {
+  "skip": "meaning not certain"
+ },
+ "renat": {
+  "skip": "meaning not certain"
+ },
+ "renaturasiya": {
+  "az": "Zülalın təbii quruluşunun bərpası.",
+  "en": "renaturation",
+  "pos": "noun"
+ },
+ "render": {
+  "az": "Kompüter modelindən təsvir yaradılması.",
+  "en": "rendering",
+  "pos": "noun"
+ },
+ "renoqrafik": {
+  "skip": "meaning not certain"
+ },
+ "renoqrafiya": {
+  "az": "Böyrək funksiyasının radioizotop müayinəsi.",
+  "en": "renography",
+  "pos": "noun"
+ },
+ "rentabel": {
+  "az": "Gəlirli, sərfəli.",
+  "en": "profitable",
+  "pos": "adjective"
+ },
+ "rentgenodiaqnostik": {
+  "az": "Rentgen diaqnostikasına aid.",
+  "en": "X-ray diagnostic",
+  "pos": "adjective"
+ },
+ "rentgenodiaqnostika": {
+  "az": "Rentgen şüaları ilə diaqnoz qoyma.",
+  "en": "X-ray diagnostics",
+  "pos": "noun"
+ },
+ "rentgenofizioloji": {
+  "skip": "meaning not certain"
+ },
+ "rentgenofizioloq": {
+  "skip": "meaning not certain"
+ },
+ "rentgenofotoqrafiya": {
+  "skip": "meaning not certain"
+ },
+ "rentgenofotometr": {
+  "skip": "meaning not certain"
+ },
+ "rentgenofotometriya": {
+  "skip": "meaning not certain"
+ },
+ "rentgenokimoqraf": {
+  "skip": "meaning not certain"
+ },
+ "rentgenokimoqrafik": {
+  "skip": "meaning not certain"
+ },
+ "rentgenoqraf": {
+  "skip": "meaning not certain"
+ },
+ "rentgenometr": {
+  "az": "Rentgen şüalanmasının dozasını ölçən cihaz.",
+  "en": "X-ray dosimeter",
+  "pos": "noun"
+ },
+ "rentgenometrik": {
+  "skip": "meaning not certain"
+ },
+ "rentgenometriya": {
+  "skip": "meaning not certain"
+ },
+ "rentgenooptika": {
+  "az": "Rentgen şüalarının optikası.",
+  "en": "X-ray optics",
+  "pos": "noun"
+ },
+ "rentgenoradiologiya": {
+  "skip": "meaning not certain"
+ },
+ "rentgenoradioloji": {
+  "skip": "meaning not certain"
+ },
+ "rentgenoradioloq": {
+  "skip": "meaning not certain"
+ },
+ "rentgenosemiotika": {
+  "skip": "meaning not certain"
+ },
+ "rentgenostruktur": {
+  "az": "Kristal quruluşunun rentgen şüaları ilə öyrənilməsinə aid.",
+  "en": "X-ray structural",
+  "pos": "adjective"
+ },
+ "rentgenotexnik": {
+  "az": "Rentgen avadanlığı üzrə texnik.",
+  "en": "X-ray technician",
+  "pos": "noun"
+ },
+ "rentgenotexnika": {
+  "az": "Rentgen avadanlığı və onun texnikası.",
+  "en": "X-ray engineering",
+  "pos": "noun"
+ },
+ "rentgenotexniki": {
+  "az": "Rentgenotexnikaya aid.",
+  "en": "X-ray engineering",
+  "pos": "adjective"
+ },
+ "reparasiya": {
+  "az": "Bərpa; DNT zədələrinin aradan qaldırılması.",
+  "en": "repair",
+  "pos": "noun"
+ },
+ "repellent": {
+  "az": "Həşəratları qovan maddə.",
+  "en": "insect repellent",
+  "pos": "noun"
+ },
+ "repo": {
+  "az": "Qiymətli kağızların geri alınma şərti ilə satışı.",
+  "en": "repo (repurchase agreement)",
+  "pos": "noun"
+ },
+ "report": {
+  "az": "Birjada möhlətli əqdin uzadılması.",
+  "en": "contango (report)",
+  "pos": "noun"
+ },
+ "reprint": {
+  "az": "Kitabın fotomexaniki üsulla təkrar nəşri.",
+  "en": "reprint",
+  "pos": "noun"
+ },
+ "reprivatizasiya": {
+  "az": "Dövləti mülkiyyətin yenidən özəlləşdirilməsi.",
+  "en": "reprivatization",
+  "pos": "noun"
+ },
+ "reproduktologiya": {
+  "az": "Nəsilvermə funksiyasını öyrənən tibb sahəsi.",
+  "en": "reproductive medicine",
+  "pos": "noun"
+ },
+ "reproduktoloji": {
+  "az": "Reproduktologiyaya aid.",
+  "en": "reproductive-medicine",
+  "pos": "adjective"
+ },
+ "reproduktoloq": {
+  "az": "Sonsuzluq və nəsilvermə üzrə həkim.",
+  "en": "fertility specialist",
+  "pos": "noun"
+ },
+ "reproqrafik": {
+  "skip": "meaning not certain"
+ },
+ "reproqrafiya": {
+  "az": "Sənədlərin surətinin çıxarılması texnikası.",
+  "en": "reprography",
+  "pos": "noun"
+ },
+ "repşnur": {
+  "az": "Alpinistlərin işlətdiyi nazik möhkəm ip.",
+  "en": "accessory cord",
+  "pos": "noun"
+ },
+ "reptili": {
+  "skip": "meaning not certain"
+ },
+ "resepissa": {
+  "skip": "meaning not certain"
+ },
+ "reserva": {
+  "skip": "meaning not certain"
+ },
+ "resiklizasiya": {
+  "az": "Tullantıların təkrar emalı.",
+  "en": "recycling",
+  "pos": "noun"
+ },
+ "resital": {
+  "az": "Bir ifaçının solo konserti.",
+  "en": "recital",
+  "pos": "noun"
+ },
+ "restriksiya": {
+  "az": "Məhdudlaşdırma.",
+  "en": "restriction",
+  "pos": "noun"
+ },
+ "restrukturizasiya": {
+  "az": "Yenidən strukturlaşdırma.",
+  "en": "restructuring",
+  "pos": "noun"
+ },
+ "retardasiya": {
+  "az": "Ləngimə, gecikmə.",
+  "en": "retardation",
+  "pos": "noun"
+ },
+ "retargetinq": {
+  "az": "Sayta əvvəl girmiş istifadəçilərə yönəlmiş reklam.",
+  "en": "retargeting",
+  "pos": "noun"
+ },
+ "retinal": {
+  "az": "Görmə piqmentinin tərkib hissəsi olan A vitamini aldehidi.",
+  "en": "retinal",
+  "pos": "noun"
+ }
+}
