@@ -1,0 +1,79 @@
+{
+  "headwords_considered": 90849,
+  "candidates": 9469,
+  "by_tier": {
+    "A": 5533,
+    "B": 3936
+  },
+  "by_priority": {
+    "2": 3815,
+    "4": 3292,
+    "3": 2250,
+    "1": 112
+  },
+  "by_source": {
+    "core": 6177,
+    "orthography": 3292
+  },
+  "by_kind": {
+    "object": 2771,
+    "person": 1503,
+    "handling": 677,
+    "plant": 662,
+    "animal": 617,
+    "material": 402,
+    "food": 392,
+    "body": 389,
+    "movement": 359,
+    "nature": 295,
+    "senses": 150,
+    "body action": 140,
+    "change": 140,
+    "shape": 130,
+    "appearance": 102,
+    "speaking & writing": 86,
+    "colour": 84,
+    "weather & light": 82,
+    "social action": 74,
+    "making": 72,
+    "sport & fight": 51,
+    "place": 47,
+    "giving & taking": 44,
+    "eating & drinking": 44,
+    "activity": 42,
+    "position": 33,
+    "weather": 31,
+    "event": 24,
+    "learning": 21,
+    "feeling": 4,
+    "flag": 1
+  },
+  "concepts": 6940,
+  "concepts_by_tier": {
+    "A": 3828,
+    "B": 3112
+  },
+  "concepts_by_route": {
+    "custom-icon": 5208,
+    "photo": 1120,
+    "pictogram-set": 585,
+    "swatch": 26,
+    "flag": 1
+  },
+  "concepts_by_priority": {
+    "2": 2623,
+    "4": 2437,
+    "3": 1768,
+    "1": 112
+  },
+  "priority_key": {
+    "1": "word in the quiz",
+    "2": "core dictionary, tier A",
+    "3": "core dictionary, tier B",
+    "4": "orthography-dictionary headword"
+  },
+  "tier_key": {
+    "A": "clearly drawable",
+    "B": "probably drawable; check before drawing"
+  }
+}

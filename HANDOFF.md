@@ -26,6 +26,8 @@ Every headword should have a correct, cited definition (Azerbaijani + English) a
 
 3. Possible next steps after that: review the paraphrases marked `"conf": "low"` (shown in the app as *yoxlanılmalıdır / needs review*); write definitions for the remaining spelling-only words that no print source covers (most are international loanwords). Label any such AI-written text clearly, the same way.
 
+4. **Pictures for words** (proposal): `scripts/content/pictures/PLAN.md` describes the list of 9,469 drawable headwords (6,940 pictures) and the plan for sourcing and drawing them. Nothing in `dist/` uses it yet.
+
 ## How to write a paraphrase batch
 
 1. Get the source PDFs (public, cited throughout the data):
