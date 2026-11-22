@@ -63,6 +63,11 @@ DERIVING = {front for back, front in (('lamaq', 'ləmək'), ('lanmaq', 'lənmək
                                       ('lanma', 'lənmə'), ('laşma', 'ləşmə'), ('laşdırmaq', 'ləşdirmək'), ('çılıq', 'çilik'),
                                       ('çuluq', 'çülük'), ('lıq', 'lik'), ('luq', 'lük'), ('sız', 'siz'), ('suz', 'süz'))
             for front in (back, front)}
+# Quantity words that open a noun + -lı adjective (çoxbarmaqlı, ikimərtəbəli), with Azerbaijani and English wording.
+QUANTIFIERS = {'çox': ('çoxlu', 'multi'), 'az': ('az', 'low'), 'bir': ('bir', 'one'), 'iki': ('iki', 'two'), 'üç': ('üç', 'three'),
+               'dörd': ('dörd', 'four'), 'beş': ('beş', 'five'), 'altı': ('altı', 'six'), 'yeddi': ('yeddi', 'seven'),
+               'səkkiz': ('səkkiz', 'eight'), 'doqquz': ('doqquz', 'nine'), 'on': ('on', 'ten'), 'yüz': ('yüz', 'hundred'),
+               'min': ('min', 'thousand')}
 VERBAL_KINDS = {'verbal-noun', 'passive', 'passive-n', 'causative', 'become', 'make', 'acquire'}
 PAIRED_ENDINGS = {'sı', 'si', 'su', 'sü', 'nı', 'ni', 'nu', 'nü', 'lı', 'li', 'lu', 'lü'}
 POS = {'noun', 'verb', 'adjective', 'adverb', 'numeral', 'pronoun', 'interjection', 'postposition',
@@ -116,8 +121,16 @@ def infinitive_ending(stem):
     return 'maq' if last_vowel(stem) in BACK else 'mək'
 
 
+# Domain labels that some English glosses start with ("chem. methyl", "el.-tech. electrode").
+DOMAIN_LABELS = ('chem biol zool physics mineral anat biochem math astron geol religious econ polit fin arts physical music comp '
+                 'geometric psychol info geogr ling ornithol sexol philol genet legal philos physiol psychiatr ichthyol el.-tech '
+                 'kulin tech gram geometer entomol architect cytol scientific min pharma chess linguist microbiol sport sports '
+                 'text book vet publ paleont miner metal meteorol sociol archaeol eco hydrol').split()
+
+
 def gloss(node):
-    text = re.sub(r'\([^)]*\)?', '', node['en'])
+    labels = '|'.join(re.escape(label) for label in DOMAIN_LABELS)
+    text = re.sub(rf'^(?:(?:{labels})\.\s+)+(?=\w)', '', re.sub(r'\([^)]*\)?', '', node['en']))
     parts = [part.strip() for part in re.split(r'[;,:]|\.\s', text) if part.strip()]
     if node.get('pos') == 'verb':
         parts = [part for part in parts if part.lower().startswith('to ')] or parts
@@ -547,6 +560,32 @@ class Builder:
                     best = (0, [a, stem])
         return (best[1], 'closed') if best else None
 
+    def quantified(self):
+        """Quantity word + noun + -lı: çoxbarmaqlı is having many fingers, ikimərtəbəli is having two storeys."""
+        for word in list(self.nodes):
+            if not self.undefined(word) or ' ' in word or '-' in word:
+                continue
+            for quantity in sorted(QUANTIFIERS, key=len, reverse=True):
+                rest = word[len(quantity):]
+                if not word.startswith(quantity) or len(rest) < 5 or rest[-2] != 'l':
+                    continue
+                noun = rest[:-2]
+                base = self.usable(noun)
+                if len(noun) < 3 or not base or base['pos'] not in ('noun', 'word') or rest[-1] != h4(noun):
+                    continue
+                az_quantity, en_quantity = QUANTIFIERS[quantity]
+                g = gloss(base)
+                # English compound adjectives keep the noun singular: two-leaf, ten-foot, multi-block, low-voltage.
+                en = f'{en_quantity}-{g}' if re.fullmatch(r'[a-z]+', g) else f"with {dict(multi='many', low='few').get(en_quantity, en_quantity)} {g}"
+                page = self.nodes[word].get('page')
+                refs = ([spelling_source(page)] if page else []) + [GRAMMAR]
+                self.link(word, noun, 'root', f'Söz yaradıcılığı · {quantity}- + -l{rest[-1]}',
+                          f'«{word}» sözü «{noun}» sözündən «{quantity}» sözü və -l{rest[-1]} şəkilçisi ilə düzəlir.',
+                          f'{word} is formed from {noun} with {quantity} and the suffix -l{rest[-1]}.', refs, 'quantity')
+                self.define(word, f'«{quantity}» və «{noun}» sözlərindən düzələn sifət: {az_quantity} {noun} olan.',
+                            en, 'adjective', refs, 'rule', base=noun)
+                break
+
     def compounds(self):
         for word in list(self.nodes):
             # Connected words keep the links they have, except paraphrased ones: a paraphrase replaces the rule definition
@@ -657,6 +696,7 @@ def main():
         size = len(builder.definitions) + len(builder.edges)
         builder.print_notes()
         builder.rules()
+        builder.quantified()
         builder.compounds()
         if len(builder.definitions) + len(builder.edges) == size:
             break
