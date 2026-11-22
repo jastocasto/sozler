@@ -83,7 +83,7 @@ function renderOrigin(n){
   box.append(note,list);
  }else for(const o of details.o||[])box.append(originLine(o));
  const link=html('a','relation-source','Wiktionary (en) ↗');link.href='https://en.wiktionary.org/wiki/'+encodeURIComponent(n.w)+'#Azerbaijani';link.target='_blank';link.rel='noopener';
- box.append(html('span','origin-source','Mənbə: '),link,document.createTextNode(' · CC BY-SA 4.0'));
+ box.append(html('span','origin-source','Mənbə: '),link,html('span','origin-source',' · CC BY-SA 4.0'));
 }
 function renderContext(n){
  const context=$('meaningContext');context.replaceChildren();context.hidden=!state.arrival;if(state.arrival){const t=types[state.arrival.type],proof=model.connectionInfo(state.arrival.edge,n.w);context.append(document.createTextNode(`${state.arrival.from} — ${n.w} · ${t.description}`));context.style.setProperty('--relation-color',t.color);if(proof){const line=html('span','relation-sense',`əlaqənin mənası · ${proof.from}: ${proof.sense}`);line.lang=proof.language;context.append(line);if(proof.senseEnglish){const english=html('span','relation-sense-en',proof.senseEnglish);english.lang='en';context.append(english);}const labels={'South-Azerbaijani':'Cənubi Azərbaycan işlənməsi',euphemistic:'evfemizm',poetic:'poetik',informal:'qeyri-rəsmi',obsolete:'köhnəlmiş',broadly:'geniş mənada',offensive:'təhqiramiz',slur:'təhqiramiz ad',derogatory:'alçaldıcı',ethnic:'etnik',dated:'köhnəlmiş',slang:'jarqon',rare:'az işlənən',archaic:'köhnəlmiş',dialectal:'şivə',colloquial:'danışıq dili',Classical:'klassik dil',figuratively:'məcazi',vulgar:'kobud ifadə'};const tags=(proof.tags||[]).map(x=>labels[x]).filter(Boolean);if(proof.qualifier||tags.length)context.append(html('span','relation-register',[proof.qualifier,...tags].filter(Boolean).join(' · ')));for(const ref of proof.refs||[{edition:proof.edition,head:proof.head}]){const a=html('a','relation-source','mənbə · '+(ref.title||ref.head||'lüğət')+' ↗');a.href=ref.url||'https://'+ref.edition+'.wiktionary.org/wiki/'+encodeURIComponent(ref.head);a.target='_blank';a.rel='noopener';context.append(a);}}}
@@ -152,7 +152,7 @@ let interesting=null;
 $('randomButton').onclick=()=>{interesting??=model.nodes.filter(n=>['curated','wiktionary','editorial'].includes(n.quality)&&model.degree(n)>0);const options=interesting.filter(n=>n.id!==state.selected.id);select(options[Math.floor(Math.random()*options.length)]);};$('bookmarkButton').onclick=toggleSave;
 // One search row for an analysed form (kitab·lar·ımız·dan), or the verb-wheel shortcut after it.
 function analysisOption(item,i){
- const a=item.analysis||item.conjugationOf,b=html('button',item.analysis?'search-option form-analysis':'grammar-shortcut');b.id='search-option-'+i;b.setAttribute('role','option');b.setAttribute('aria-selected',i===0);b.onpointerdown=e=>e.preventDefault();
+ const a=item.analysis||item.conjugationOf,b=html('button',item.analysis?'search-option form-analysis':'wheel-shortcut');b.id='search-option-'+i;b.dataset.word=a.word;b.setAttribute('role','option');b.setAttribute('aria-selected',i===0);b.onpointerdown=e=>e.preventDefault();
  if(item.conjugationOf){b.textContent='«'+a.form+'» təsrif cədvəlində · '+a.word+' ↗';b.onclick=()=>openAnalysisForm(a);return b;}
  const form=html('span','analysis-form');a.segments.forEach((part,k)=>{if(k)form.append(html('span','analysis-joint','·'));form.append(html(k?'span':'b','',part));});
  const az=html('small','preview-az',a.word+' · '+a.parts.map(x=>x.az).join(' · '));az.lang='az';b.append(form,az);
@@ -170,7 +170,7 @@ function showSearch(){const query=$('search').value;const result=$('searchResult
  state.searchIndex=0;result.hidden=false;$('search').setAttribute('aria-expanded','true');
  for(const [i,n]of state.searchItems.entries()){
   if(n.analysis||n.conjugationOf){result.append(analysisOption(n,i));continue;}
-  const b=html('button','search-option');b.id='search-option-'+i;b.setAttribute('role','option');b.setAttribute('aria-selected',i===0);b.append(html('span','',n.w),...preview(n));b.onpointerdown=e=>e.preventDefault();b.onclick=()=>select(n);result.append(b);}
+  const b=html('button','search-option');b.dataset.word=n.w;b.id='search-option-'+i;b.setAttribute('role','option');b.setAttribute('aria-selected',i===0);b.append(html('span','',n.w),...preview(n));b.onpointerdown=e=>e.preventDefault();b.onclick=()=>select(n);result.append(b);}
  for(const mode of ['forms','grammar']){if(!forms.some(f=>(f.kind==='nominal'?'forms':'grammar')===mode))continue;const i=state.searchItems.length;state.searchItems.push({grammarQuery:query,archiveMode:mode});const b=html('button','grammar-shortcut',mode==='forms'?'hal / cəm forması · formalarda aç ↗':'təsrif forması · qrammatikada aç ↗');b.id='search-option-'+i;b.setAttribute('role','option');b.setAttribute('aria-selected',i===0);b.onpointerdown=e=>e.preventDefault();b.onclick=()=>{closeSearch();library(mode,query);};result.append(b);}
  if(!state.searchItems.length&&!forms.length)result.append(html('div','empty-results','Söz tapılmadı. “melumat”, “etmək” və ya “beautiful” ilə axtarın.'));
  if(state.searchItems.length)$('search').setAttribute('aria-activedescendant','search-option-0');else $('search').removeAttribute('aria-activedescendant');}
@@ -251,7 +251,7 @@ race=window.RaceUI.mount({model,galaxy,select,resetHistory:()=>{state.history=[]
 // Vercel Web Analytics: anonymous page-view counts, no cookies. Only on the deployed site.
 try{if(location.protocol==='https:'&&!/^(localhost|127\.|\[)/.test(location.hostname)){window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments);};const script=document.createElement('script');script.defer=true;script.src='/_vercel/insights/script.js';document.head.append(script);}}catch{}
 // Prepare search text in small slices while the visitor looks at the map.
-(function prepareSearchWhenIdle(){const idle=window.requestIdleCallback||(fn=>setTimeout(()=>fn({timeRemaining:()=>8}),40));idle(deadline=>{let done=false;while(!done&&deadline.timeRemaining()>4)done=model.prepareSearch(1500);if(!done)prepareSearchWhenIdle();});})();
+(function prepareSearchWhenIdle(){const idle=window.requestIdleCallback||(fn=>setTimeout(()=>{const start=performance.now();fn({timeRemaining:()=>Math.max(0,12-(performance.now()-start))});},40));idle(deadline=>{let done=false;while(!done&&deadline.timeRemaining()>4)done=model.prepareSearch(1500);if(!done)prepareSearchWhenIdle();else idle(()=>morphology?.warm());});})();
 window.SozApp={selectWord:word=>select(model.resolveWord(word)),inspect:()=>({selected:state.selected?.w,sheetOpen,page:activePage,race:race?.inspect(),conjugation:conjugation?.inspect(),...galaxy?.inspect()})};
 }
 })();

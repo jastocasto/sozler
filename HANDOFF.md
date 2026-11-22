@@ -2,17 +2,17 @@
 
 Read this first if you are an AI agent or developer picking up the work. Everything you need is in this repository. No local state from earlier sessions is required.
 
-## Work in progress (November 2026 improvement round)
+## November 2026 improvement round
 
-The owner approved five improvements, done in this order on branch `claude/tender-davinci-qpimp0` (not yet merged into `soz-toxumasi`; merging or pushing to `soz-toxumasi` needs the owner's approval):
+The owner approved five improvements. They are built on branch `claude/tender-davinci-qpimp0`; merging into `soz-toxumasi` (production) needs the owner's approval. README section "Fast loading, word forms, frequency and word origins" documents them and the rebuild order.
 
-1. **Fast loading.** The page used to load all 16 data layers (~96 MB of JavaScript, 10 MB compressed) and run `createModel` in the browser: about 29 s and 450 MB on a mid-range phone over 4G. Now `scripts/build_runtime.cjs` runs `createModel` once at build time and writes `dist/soz-core.js` (what the map, search and meaning strip need), `dist/details/N.json` (link evidence, loaded when a word is opened) and `dist/forms-archive.json` (full noun-form records, loaded when Forms opens). `restoreModel` in `dist/model.js` rebuilds the same model API; the build fails unless the restored model matches `createModel` for every word, link, search sample and connection sense. The layer files stay in `dist/` as build inputs and for the data tests, but the page no longer loads them and the offline package skips them. `dist/vercel.json` gives `?v=`-versioned files a one-year immutable cache.
-2. **Inflected forms in search** (`kitablarımızdan` → *kitab* + plural + 1pl possessive + ablative; `getdim` → *getmək*, past, 1sg).
-3. **Word frequency and levels** from a public corpus frequency list.
-4. **Separate unrelated meanings** (*çay*: I tea, II river) **and word origin** from cited sources.
-5. **Vercel Web Analytics.**
+1. **Fast loading.** `scripts/build_runtime.cjs` runs `createModel` at build time and writes `dist/soz-core.json`, `dist/details/N.json` and `dist/forms-archive.json`; `restoreModel` in `dist/model.js` rebuilds the model API and the build fails unless it matches `createModel`. The 17 layer files stay in `dist/` as build inputs and for the data tests (`tests/layers.cjs` lists them); the page and the offline package no longer load them. `dist/vercel.json` caches the data files and every script and stylesheet except `sw.js` for a year (the page requests them with content-hash `?v=` keys); it also sets `X-Content-Type-Options: nosniff`.
+2. **Inflected forms in search**: `dist/morphology.js`, tested by `tests/morphology.cjs`.
+3. **Frequency and levels**: `scripts/count_corpus_words.py` + `scripts/build_frequency.cjs` → `scripts/content/frequency/headword-frequency.tsv` (committed; corpora are not). Run `build_runtime.cjs` after changing the TSV.
+4. **Word origins and homonyms**: `scripts/build_etymology.py` → `scripts/content/etymology/` (committed; the Kaikki file is not).
+5. **Vercel Web Analytics**: loaded by `app.js` on the deployed site. The owner still has to enable Web Analytics in the Vercel project (Analytics tab); the API used here cannot switch it on.
 
-`scripts/run_tests.sh` runs the tests three at a time (installs linkedom into `.cache/` on first use). An hourly scheduled check-in resumes this work in the owner's Claude session.
+After any change in `dist/`, run `python3 scripts/version_assets.py && python3 scripts/build_offline.py`. `scripts/run_tests.sh` runs the tests three at a time (installs linkedom into `.cache/` on first use). An hourly scheduled check-in (minute 41) resumed this work in the owner's Claude session while it was in progress.
 
 ## Where things are
 
@@ -80,6 +80,6 @@ Vercel settings: Git connection at https://vercel.com/jasons-projects-ec574315/s
 
 ## Known test status
 
-Tests were compared on the imported code (commit `dc6b885`) and on this branch. These 29 tests already failed on the imported code, before any of this work, and still fail the same way: additions-data, atlas-zoom-interactions, bilingual-interactions, camera-selection, complete-web-interactions, continuous-gathering, galaxy-data, galaxy-interactions, gathering-interactions, grammar-interactions, interactions, nominal-data, nominal-interactions, pinch-zoom, race-finish, race-navigation-lock, race-practice, race-ui, reference-completion, relation-audit-data, relation-audit-interactions, relationship-interactions, responsive-interactions, selection-magnet, selection-sizing, verification-data, visible-arrivals, whole-word-page, word-info-and-physics. Several check hashes of data files that later layers legitimately changed (for example `learning-data.js`), so they need their expectations updated rather than the data reverted. All other tests pass, including `print-definitions-data.cjs` and `offline.cjs`.
+`scripts/run_tests.sh` was run on the last imported commit (`a1cbd6b`) and on this round's final build. These 20 tests failed before this round and still fail at the same assertion: additions-data, atlas-zoom-interactions, bilingual-interactions, complete-web-interactions, continuous-gathering, galaxy-data, galaxy-interactions, gathering-interactions, grammar-interactions, interactions, nominal-data, nominal-interactions, pinch-zoom, reference-completion, relation-audit-data, relation-audit-interactions (times out at 900 s), responsive-interactions, selection-magnet, verification-data, word-info-and-physics. Several check hashes or counts of data files that later layers legitimately changed, so they need updated expectations rather than reverted data. camera-selection, conjugation-page and conjugation-suffixes, which earlier runs lost to memory limits, pass. All other tests pass, including the new morphology and frequency-and-origins tests and offline.cjs.
 
-Run tests a few at a time: each loads ~100 MB of data, and many in parallel can run out of memory.
+Run tests a few at a time: data tests load ~100 MB of layers, and many in parallel can run out of memory. Tests that build their own `createModel` load the layers through `tests/layers.cjs` (or `boot({layers:true})` in the harness); the page itself does not.

@@ -1,5 +1,5 @@
 const assert=require('node:assert/strict'),{boot}=require('./galaxy-harness.cjs');
-const {window,$,input,frames,runFrames,storage}=boot({hash:'#w='+encodeURIComponent('eləmək'),width:1000,height:700});
+const {window,$,input,frames,runFrames,storage}=boot({hash:'#w='+encodeURIComponent('eləmək'),width:1000,height:700,layers:true});
 const click=id=>$(id).click();
 function choose(word){input('search',word);$('searchResults').firstElementChild.click();assert.equal($('meaningWord').textContent,word);}
 function assertPair(){assert.equal($('meaningDefinition').lang,'az');assert.equal($('meaningEnglish').lang,'en');assert($('meaningDefinition').textContent.trim());assert($('meaningEnglish').textContent.trim());assert(!$('meaningEnglish').hidden);assert(!$('definitionLanguage').hidden);assert.equal($('definitionLanguage').textContent,'Azərbaycan dilində');assert(!/[\u0400-\u04ff]/u.test($('meaningCard').textContent),'No Russian text in the meaning card');}

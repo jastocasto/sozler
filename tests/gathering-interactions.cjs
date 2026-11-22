@@ -5,7 +5,7 @@ for(const [width,height]of [[320,568],[390,844],[844,390],[280,200],[1440,900]])
  for(let i=0;i<p.length;i++)for(let j=i+1;j<p.length;j++)assert(Math.hypot(p[i].x-p[j].x,p[i].y-p[j].y)>P.radius(p[i])+P.radius(p[j])+3);
 }
 for(const [width,height,reduced]of [[320,568,false],[390,844,false],[844,390,false],[1440,900,false],[390,844,true]]){
- const h=boot({width,height,reduced}),{window,$,runFrames,pointer}=h,inspect=()=>window.SozApp.inspect();
+ const h=boot({width,height,reduced,layers:true}),{window,$,runFrames,pointer}=h,inspect=()=>window.SozApp.inspect();
  const model=window.WordWeb.createModel(window.WORD_WEB_DATA,window.WORD_WEB_EXTRA,window.WORD_WEB_GRAMMAR,window.WORD_WEB_VOCABULARY,window.WORD_WEB_REVIEW,window.WORD_WEB_BILINGUAL,window.WORD_WEB_EXPANSION,window.WORD_WEB_NOMINAL,window.WORD_WEB_ADDITIONS,window.WORD_WEB_RELATIONS);
  const fixed=JSON.stringify(window.WORD_GALAXY_DATA.points);
  function separated(){const p=inspect().particles;for(let i=0;i<p.length;i++)for(let j=i+1;j<p.length;j++)assert(Math.hypot(p[i].x-p[j].x,p[i].y-p[j].y)>=p[i].r+p[j].r-.001);}

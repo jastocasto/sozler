@@ -97,3 +97,5 @@ dialog{background:#46463f;border:1px solid #99917d70;color:#e8e0ce;border-radius
 .level-filters button[aria-pressed=true]{background:#e1d8c8;color:#37342e;border-color:#e1d8c8}
 .frequency-note{font-size:11px;line-height:1.6;color:#c7bdac;margin:4px 0 0}
 .frequency-rank{display:block;color:#d9c79f;font-size:10px;margin-bottom:2px}
+.wheel-shortcut{display:block;width:100%;padding:12px 10px;text-align:left;font-size:11px;line-height:1.6;color:#e3cf9d;border-top:1px solid #776e5e;border-radius:9px}
+.wheel-shortcut:hover,.wheel-shortcut[aria-selected=true]{background:#615c53}

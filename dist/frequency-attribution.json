@@ -1,0 +1,36 @@
+{
+ "sources": [
+  {
+   "name": "Azerbaijani Wikipedia, articles (latest dump)",
+   "url": "https://dumps.wikimedia.org/azwiki/",
+   "license": "CC BY-SA 4.0"
+  },
+  {
+   "name": "OPUS CCAligned v1, Azerbaijani monolingual (web crawl)",
+   "url": "https://opus.nlpl.eu/CCAligned/corpus/version/CCAligned",
+   "citation": "El-Kishky et al. 2020, CCAligned; J. Tiedemann 2012, Parallel Data, Tools and Interfaces in OPUS"
+  },
+  {
+   "name": "OPUS OpenSubtitles v2024, Azerbaijani monolingual",
+   "url": "https://opus.nlpl.eu/OpenSubtitles/corpus/version/OpenSubtitles",
+   "citation": "P. Lison and J. Tiedemann 2016, OpenSubtitles2016; http://www.opensubtitles.org/"
+  }
+ ],
+ "method": "Lowercase Azerbaijani word tokens are counted in each corpus (Wikipedia markup removed). A token counts for the headword it spells, otherwise for the headword the site search analyser derives it from (inflected nouns and conjugated verbs). Counts below 3 in a corpus are ignored. Each corpus is scaled to occurrences per million words and the corpora are averaged with equal weight. Headwords are ranked by that average.",
+ "levels": "A1 rank 1–500, A2 501–1500, B1 1501–3500, B2 3501–7000, C1 7001–15000, C2 above 15000. An approximation from frequency, not an official CEFR word list.",
+ "published": "Only ranks are published in the site data; per-corpus counts are in scripts/content/frequency/headword-frequency.tsv. No corpus text is stored.",
+ "limitations": "Homographs share one count (gəlir \"income\" and gəlir \"comes\" are both counted for the exact headword gəlir). The analyser chooses one reading per token. The subtitle corpus is small. Wikipedia over-represents names and technical vocabulary.",
+ "summary": {
+  "corpus_tokens": {
+   "subtitles": 481115,
+   "web": 9875869,
+   "wikipedia": 53232597
+  },
+  "min_count_per_corpus": 3,
+  "token_types": 796473,
+  "matched_exact": 32894,
+  "matched_by_analysis": 166624,
+  "unmatched": 343193,
+  "headwords_ranked": 36074
+ }
+}

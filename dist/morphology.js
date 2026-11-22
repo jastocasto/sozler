@@ -104,7 +104,8 @@ function pluralize(phrase){
 // A short English headword gloss that can safely take "my", "from" and a plural.
 function simpleGloss(node){
  const first=String(node?.en||'').split(/[;,(]/)[0].trim().replace(/\.$/,'').replace(/^(a|an|the) /i,'');
- if(!first||first.split(' ').length>3||/^to /i.test(first)||/[^a-z' -]/i.test(first))return '';
+ // Descriptive glosses ("diminutive of kitab", "act of …") do not take "my" or "from" well.
+ if(!first||first.split(' ').length>3||/^to /i.test(first)||/[^a-z' -]/i.test(first)||/^(diminutive|plural|alternative|variant|form|act|state|process|quality|abbreviation|short form|one who|person who|something)\b|\bof\b/i.test(first))return '';
  const word=first.split(' ')[0];
  return word.length>1&&word===word.toUpperCase()?first:first.charAt(0).toLowerCase()+first.slice(1);
 }
@@ -192,9 +193,11 @@ function create({model,normalize,engine,verbs,english,englishData}){
   if(!found.length)found=[...verbAnalyses(token,true),...nominalAnalyses(token,true)];
   const weight=a=>(a.node?.az?0:2)+(a.node?.quality==='orthography'?1:0),common=a=>model.frequency?.(a.node)?.rank||Infinity;
   found.sort((a,b)=>weight(a)-weight(b)||(common(a)-common(b)||0)||b.segments[0].length-a.segments[0].length||a.parts.length-b.parts.length);
+  // Two bases that read the same way (otaq / otağ: "in my room") add nothing; keep the more common.
+  const seen=new Set();found=found.filter(a=>{const key=a.parts.map(p=>p.az).join()+'|'+(a.english||a.word);if(seen.has(key))return false;seen.add(key);return true;});
   return found.slice(0,limit);
  }
- return {analyze,pronoun};
+ return {analyze,pronoun,warm:indexes};
 }
 const api={create,nominalForms,pluralize};if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.SozMorphology=api;
 })(typeof window!=='undefined'?window:globalThis);

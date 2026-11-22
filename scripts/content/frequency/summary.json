@@ -1,0 +1,13 @@
+{
+ "corpus_tokens": {
+  "subtitles": 481115,
+  "web": 9875869,
+  "wikipedia": 53232597
+ },
+ "min_count_per_corpus": 3,
+ "token_types": 796473,
+ "matched_exact": 32894,
+ "matched_by_analysis": 166624,
+ "unmatched": 343193,
+ "headwords_ranked": 36074
+}

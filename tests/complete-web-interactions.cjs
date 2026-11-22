@@ -1,6 +1,6 @@
 const assert=require('node:assert/strict'),{boot}=require('./galaxy-harness.cjs'),geometry=require('./assert-web-geometry.cjs');
 for(const [width,height,reduced]of [[320,568,false],[390,844,false],[844,390,false],[1440,900,false],[390,844,true]]){
- const h=boot({width,height,reduced}),{window,$,runFrames,pointer,frames}=h,s=()=>window.SozApp.inspect();
+ const h=boot({width,height,reduced,layers:true}),{window,$,runFrames,pointer,frames}=h,s=()=>window.SozApp.inspect();
  const model=window.WordWeb.createModel(window.WORD_WEB_DATA,window.WORD_WEB_EXTRA,window.WORD_WEB_GRAMMAR,window.WORD_WEB_VOCABULARY,window.WORD_WEB_REVIEW,window.WORD_WEB_BILINGUAL,window.WORD_WEB_EXPANSION,window.WORD_WEB_NOMINAL,window.WORD_WEB_ADDITIONS,window.WORD_WEB_RELATIONS),atlas=window.WordGalaxy.createAtlas(window.WORD_GALAXY_DATA,model),original=JSON.stringify(window.WORD_GALAXY_DATA.points);
  assert.equal(s().atlasLines.length,atlas.edges.length,'The overview draws every documented edge');assert(s().atlasLines.every(e=>e.color==='#bcbdb7'));
  function complete(){const state=s(),ids=new Set([...state.atlasLines,...state.lines].map(e=>e.id)),moving=new Set([...state.particles,...state.surroundings].map(p=>p.word)),points=new Map(state.screenPositions.map(p=>[p.word,p]));for(const e of atlas.edges){const expected=moving.has(e.from.word)||moving.has(e.to.word)||window.WordGalaxy.crossesViewport(points.get(e.from.word),points.get(e.to.word),width,height,4);assert.equal(ids.has(e.id),expected,'Every recorded visible connection has one rendered path');}geometry(state);}
