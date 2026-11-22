@@ -199,5 +199,56 @@ function create({model,normalize,engine,verbs,english,englishData}){
  }
  return {analyze,pronoun,warm:indexes};
 }
-const api={create,nominalForms,pluralize};if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.SozMorphology=api;
+// Noun tables: one form per case, singular and plural, for each possessor.
+// `shape` is the stem change before a vowel ending, decided at build time
+// (scripts/build_noun_stems.cjs): "soft" (çörək → çörəyi), "drop" (ağız → ağzı),
+// or none. su keeps a y (suyu, suyun) like the analyser above.
+const CASE_ROWS=[
+ {id:'nom',az:'Adlıq',question:'kim? nə?',en:'nominative'},
+ {id:'gen',az:'Yiyəlik',question:'kimin? nəyin?',en:'genitive · of'},
+ {id:'dat',az:'Yönlük',question:'kimə? nəyə? hara?',en:'dative · to'},
+ {id:'acc',az:'Təsirlik',question:'kimi? nəyi? haranı?',en:'accusative · object'},
+ {id:'loc',az:'Yerlik',question:'kimdə? nədə? harada?',en:'locative · in, at'},
+ {id:'abl',az:'Çıxışlıq',question:'kimdən? nədən? haradan?',en:'ablative · from'},
+ {id:'ins',az:'ilə',question:'kimlə? nə ilə?',en:'with'}
+];
+const POSSESSORS=[{az:'—',en:''},{az:'mənim',en:'my'},{az:'sənin',en:'your'},{az:'onun',en:'his/her/its'},{az:'bizim',en:'our'},{az:'sizin',en:'your'},{az:'onların',en:'their'}];
+function declension(word,shape){
+ const stem=String(word).toLocaleLowerCase('az');
+ const before=shape==='soft'&&/[kq]$/.test(stem)?stem.slice(0,-1)+(stem.endsWith('k')?'y':'ğ'):shape==='drop'?stem.slice(0,-2)+stem.slice(-1):stem==='su'?'suy':stem;
+ const changes=before!==stem;
+ // Add an ending that starts with a vowel after a consonant: the bare stem uses its changed shape.
+ const joinVowel=(x,raw,ending)=>(raw?before:x)+ending;
+ const consonantFinal=(x,raw)=>!endsVowel(raw&&changes?before:x)||(raw&&stem==='su');
+ function possess(x,raw,p){
+  const h=harmony(x);
+  if(!consonantFinal(x,raw))return x+['m','n','s'+h.I,'m'+h.I+'z','n'+h.I+'z'][p];
+  return joinVowel(x,raw,[h.I+'m',h.I+'n',h.I,h.I+'m'+h.I+'z',h.I+'n'+h.I+'z'][p]);
+ }
+ function kase(x,raw,id,third){
+  const h=harmony(x),vowel=!consonantFinal(x,raw);
+  switch(id){
+   case 'nom':return x;
+   case 'gen':return vowel?x+'n'+h.I+'n':joinVowel(x,raw,h.I+'n');
+   case 'dat':return third?x+'n'+h.A:vowel?x+'y'+h.A:joinVowel(x,raw,h.A);
+   case 'acc':return third||vowel?x+'n'+h.I:joinVowel(x,raw,h.I);
+   case 'loc':return x+(third?'nd':'d')+h.A;
+   case 'abl':return x+(third?'nd':'d')+h.A+'n';
+   case 'ins':return x+(endsVowel(x)?'yl':'l')+h.A;
+  }
+ }
+ const plural=stem+'l'+harmony(stem).A+'r';
+ return POSSESSORS.map((owner,index)=>{
+  const p=index-1;
+  // onların: the possessed noun takes the third-person ending (onların kitabı / kitabları).
+  const forms=[false,true].map(pl=>{
+   const x=pl?plural:stem,raw=!pl;
+   if(p<0)return {base:x,raw,third:false};
+   const poss=p===5?2:p;
+   return {base:possess(x,raw,poss),raw:false,third:poss===2};
+  });
+  return {owner,rows:CASE_ROWS.map(row=>({...row,singular:kase(forms[0].base,forms[0].raw,row.id,forms[0].third),plural:kase(forms[1].base,forms[1].raw,row.id,forms[1].third)}))};
+ });
+}
+const api={create,nominalForms,pluralize,declension,CASE_ROWS,POSSESSORS};if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.SozMorphology=api;
 })(typeof window!=='undefined'?window:globalThis);

@@ -21,6 +21,10 @@ const content = path.join(__dirname, 'content');
 const readOptional = (file, fallback) => fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, 'utf8')) : fallback;
 // Word origins and homonyms from English Wiktionary (scripts/build_etymology.py).
 const etymology = readOptional(path.join(content, 'etymology', 'etymology.json'), {});
+// Noun stem changes for the noun tables (scripts/build_noun_stems.cjs): [shape, source].
+const nounStems = readOptional(path.join(content, 'nouns', 'stems.json'), {});
+// A word's details: origin and homonyms (o, h) and its stem change (s).
+const detailsOf = word => (etymology[word] || nounStems[word]) ? { ...(etymology[word] || {}), ...(nounStems[word] ? { s: nounStems[word] } : {}) } : null;
 const etymologyLanguages = readOptional(path.join(content, 'etymology', 'languages.json'), {});
 // Frequency rank per headword from public corpora (scripts/build_frequency.cjs).
 const frequencyFile = path.join(content, 'frequency', 'headword-frequency.tsv'), frequencyRank = new Map();
@@ -118,7 +122,7 @@ const prepareProof = p => {
 };
 const shards = Array.from({ length: SHARDS }, () => ({ ev: [], evIndex: new Map(), e: [], refs: [], refIndex: new Map(), w: {} }));
 let wordDetails = 0;
-for (const n of nodes) if (etymology[n.w]) { shards[shardOf(n.w, SHARDS)].w[n.w] = etymology[n.w]; wordDetails++; }
+for (const n of nodes) { const d = detailsOf(n.w); if (d) { shards[shardOf(n.w, SHARDS)].w[n.w] = d; wordDetails++; } }
 const homonyms = nodes.filter(n => etymology[n.w]?.h).map(n => n.w);
 // Citations repeat across a shard's proofs, so each shard keeps a table of them.
 const shardRef = (shard, ref) => { const k = JSON.stringify(ref); if (!shard.refIndex.has(k)) { shard.refIndex.set(k, shard.refs.length); shard.refs.push(ref); } return shard.refIndex.get(k); };
@@ -142,7 +146,7 @@ const shardHashes = shards.map((shard, i) => {
   detailBytes += text.length;
   return hash(text).slice(0, 16);
 });
-log('word origins for', wordDetails, 'headwords;', homonyms.length, 'with homonyms');
+log('word details (origins, noun stems) for', wordDetails, 'headwords;', homonyms.length, 'with homonyms');
 log('details', SHARDS, 'files', (detailBytes / 1048576).toFixed(1), 'MB;', untranslatable, 'proofs without a translation pair');
 
 // ---- forms archive ----
@@ -235,7 +239,7 @@ log('nodes, edges and orders match');
 assert.equal(r.edges[0].evidence.length, 0);
 for (const n of nodes) assert.equal(r.ensureDetails(n.w), true);
 assert.equal(r.ensureForms(), true);
-for (const n of nodes) assert.equal(canon(r.wordDetails(n.w)), canon(etymology[n.w] || null), 'word details of ' + n.w);
+for (const n of nodes) assert.equal(canon(r.wordDetails(n.w)), canon(detailsOf(n.w)), 'word details of ' + n.w);
 for (const word of homonyms) assert(r.isHomonym(word), 'homonym ' + word);
 let infoChecked = 0, infoErrors = 0;
 const info = (model, edge, word) => { try { return canon(model.connectionInfo(edge, word)); } catch (error) { return 'ERROR ' + error.message; } };

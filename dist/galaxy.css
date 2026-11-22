@@ -99,3 +99,18 @@ dialog{background:#46463f;border:1px solid #99917d70;color:#e8e0ce;border-radius
 .frequency-rank{display:block;color:#d9c79f;font-size:10px;margin-bottom:2px}
 .wheel-shortcut{display:block;width:100%;padding:12px 10px;text-align:left;font-size:11px;line-height:1.6;color:#e3cf9d;border-top:1px solid #776e5e;border-radius:9px}
 .wheel-shortcut:hover,.wheel-shortcut[aria-selected=true]{background:#615c53}
+/* Noun tables in the expanded meaning sheet. */
+.meaning-declension{margin:14px 0 6px}
+.owner-filters{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0 10px}
+.owner-filters button{min-height:34px;padding:4px 12px;border:1px solid #918779;border-radius:17px;font-size:12px}
+.owner-filters button[aria-pressed=true]{background:#e1d8c8;color:#37342e;border-color:#e1d8c8}
+.declension-table{width:100%;border-collapse:collapse;font-size:14px}
+.declension-table th,.declension-table td{padding:6px 8px;border-top:1px solid #ffffff14;text-align:left;vertical-align:top}
+.declension-table thead th{font-size:11px;letter-spacing:1px;color:#bfb19c;font-weight:400;border-top:0}
+.declension-table tbody th{font-weight:400;width:38%}
+.case-name{display:block;color:#e6dccb;font-size:13px}
+.case-question{display:block;color:#a99f8c;font-size:10px}
+.declension-table td{color:#f3e7cf;overflow-wrap:anywhere}
+.declension-table td.documented::after{content:' ●';color:#d9c79f;font-size:9px}
+.unverified{color:#e6a96b;margin-left:2px}
+.declension-note{margin:8px 0 0;font-size:11px;line-height:1.6;color:#bfb19c}

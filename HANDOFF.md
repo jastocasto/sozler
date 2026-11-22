@@ -12,6 +12,8 @@ The owner approved five improvements; they were published to `soz-toxumasi` at `
 4. **Word origins and homonyms**: `scripts/build_etymology.py` → `scripts/content/etymology/` (committed; the Kaikki file is not).
 5. **Vercel Web Analytics**: loaded by `app.js` on the deployed site. The owner still has to enable Web Analytics in the Vercel project (Analytics tab); the API used here cannot switch it on.
 
+6. **Noun tables** (owner-approved next round): case/possessive tables in the meaning sheet; `scripts/build_noun_stems.cjs counts.tsv` → `scripts/content/nouns/stems.json` (committed), read by `build_runtime.cjs`.
+
 After any change in `dist/`, run `python3 scripts/version_assets.py && python3 scripts/build_offline.py`. `scripts/run_tests.sh` runs the tests three at a time (installs linkedom into `.cache/` on first use). An hourly scheduled check-in (minute 41) resumed this work in the owner's Claude session while it was in progress.
 
 ## Where things are

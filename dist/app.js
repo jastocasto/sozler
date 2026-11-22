@@ -58,7 +58,43 @@ function detail(){
 }
 function chipTitle(chip,n){const {edge,description}=chip.linkInfo,proof=model.connectionInfo(edge,n.w);chip.title=description+' · '+(proof?proof.from+': '+proof.sense:edge.note);}
 // Link evidence arrived: update chip titles and the arrival sense without redrawing the sheet.
-function refreshEvidence(n){for(const chip of $('connections').querySelectorAll('.word-chip'))if(chip.linkInfo)chipTitle(chip,n);renderContext(n);renderOrigin(n);}
+function refreshEvidence(n){for(const chip of $('connections').querySelectorAll('.word-chip'))if(chip.linkInfo)chipTitle(chip,n);renderContext(n);renderDeclension(n);renderOrigin(n);}
+// Noun table: every case, singular and plural, for the chosen possessor. Forms
+// follow the rules in morphology.js; the stem change (çörək → çörəy-, ağız → ağz-)
+// comes from the word's detail file (scripts/build_noun_stems.cjs).
+let declensionOwner=0;
+const OWNER_LABEL=['adi','mənim','sənin','onun','bizim','sizin','onların'];
+const STEM_SOURCE={archive:'formalar arxivinə görə',corpus:'mətnlərdəki işlənməyə görə',compound:'sözün son hissəsinə görə',rule:'qayda ilə',uncertain:'mənbədə yoxlanılmayıb'};
+function renderDeclension(n){
+ const box=$('meaningDeclension'),M=window.SozMorphology;box.replaceChildren();
+ const show=!!M?.declension&&n.pos==='noun'&&!/[\s-]/.test(n.w);box.hidden=!show;if(!show)return;
+ box.append(html('div','section-label','HAL VƏ CƏM'));
+ if(!model.detailsLoaded(n.w)){box.append(html('p','declension-note','…'));return;}
+ const stem=model.wordDetails(n.w)?.s,tables=M.declension(n.w,stem?.[0]),lower=n.w.toLocaleLowerCase('az');
+ const documented=new Set(model.nominalRecords.filter(r=>(r.lemma||r.base)===n.w).map(r=>r.w.toLocaleLowerCase('az')));
+ const owners=html('div','owner-filters');owners.setAttribute('role','group');owners.setAttribute('aria-label','Mənsubiyyət');
+ OWNER_LABEL.forEach((label,i)=>{const b=html('button','',label);b.setAttribute('aria-pressed',String(i===declensionOwner));b.onclick=()=>{declensionOwner=i;renderDeclension(n);};owners.append(b);});
+ const {owner,rows}=tables[declensionOwner],table=html('table','declension-table'),head=html('tr');
+ head.append(html('th'),html('th','','tək'),html('th','','cəm'));table.append(html('thead'));table.firstChild.append(head);
+ const body=html('tbody');let marked=false,changed=false;
+ for(const row of rows){
+  const tr=html('tr'),th=html('th');th.scope='row';th.append(html('span','case-name',row.az),html('small','case-question',row.question));tr.append(th);
+  for(const form of [row.singular,row.plural]){
+   const td=html('td'),altered=!form.startsWith(lower);changed||=altered;
+   td.textContent=form;td.title=[row.en,owner.en].filter(Boolean).join(' · ');
+   if(documented.has(form)){td.classList.add('documented');td.title+=' · lüğət arxivində qeyd olunub';}
+   if(altered&&stem?.[1]==='uncertain'){td.append(html('span','unverified','*'));marked=true;}
+   tr.append(td);
+  }
+  body.append(tr);
+ }
+ table.append(body);box.append(owners,table);
+ const notes=[];
+ if(stem&&(changed||stem[0]==='hard'))notes.push(stem[0]==='hard'?`k/q dəyişmir: ${lower}${M.declension(n.w,'hard')[3].rows[0].singular.slice(lower.length)} (${STEM_SOURCE[stem[1]]})`:`Saitlə başlayan şəkilçidən əvvəl kök dəyişir: ${lower} → ${stem[0]==='drop'?lower.slice(0,-2)+lower.slice(-1):lower.slice(0,-1)+(lower.endsWith('k')?'y':'ğ')}- (${STEM_SOURCE[stem[1]]}${marked?' *':''})`);
+ if(documented.size)notes.push('● lüğətin formalar arxivində qeyd olunan formalar');
+ notes.push('Formalar qayda ilə qurulub. Onların: onların kitabı / kitabları.');
+ const p=html('p','declension-note',notes.join(' · '));box.append(p);
+}
 // Word origin and homonyms (English Wiktionary), shown in the expanded sheet.
 const KAIKKI_POS={adj:'adjective',adv:'adverb',num:'numeral',pron:'pronoun',intj:'interjection',postp:'postposition',conj:'conjunction',name:'name',suffix:'suffix',prefix:'prefix'},EXTRA_POS={name:'xüsusi ad',suffix:'şəkilçi',prefix:'önşəkilçi'};
 const FAMILY_AZ={turkic:'türk',arabic:'ərəb',persian:'fars',russian:'rus'},FAMILY_EN={turkic:'Turkic',arabic:'Arabic',persian:'Persian',russian:'Russian'},ROMAN=['I','II','III','IV','V','VI'];
@@ -77,7 +113,7 @@ function originLine(o){
  const text=html('span','origin-text',o.text);text.lang='en';line.append(text);return line;
 }
 function renderOrigin(n){
- const box=$('meaningOrigin'),details=model.wordDetails(n.w);box.replaceChildren();box.hidden=!details;if(!details)return;
+ const box=$('meaningOrigin'),found=model.wordDetails(n.w),details=found?.o||found?.h?found:null;box.replaceChildren();box.hidden=!details;if(!details)return;
  box.append(html('div','section-label',details.h?'OMONİMLƏR VƏ MƏNŞƏ':'MƏNŞƏYİ'));
  if(details.h){
   const note=html('p','homonym-note','Eyni yazılan, lakin mənşəcə fərqli sözlər. ');const en=html('span','',' Words spelled alike, with different origins.');en.lang='en';note.append(en);
@@ -108,7 +144,7 @@ function renderMeaning(n){
  if(info.listedForm)grammar.append(html('span','form-notice','lüğət cədvəlindən forma'));
  if(info.generated){grammar.append(html('span','form-notice','qayda ilə yaradılmış forma'));}
  if(conjugation?.hasVerb(n.w)||n.pos==='verb'&&model.grammarRecords.some(f=>f.base===n.w)){const b=html('button','meaning-base','təsrif formaları ↗');b.onclick=()=>library('grammar',n.w);grammar.append(b);}if(model.nominalRecords.some(f=>f.lemma===n.w||f.w===n.w)){const b=html('button','meaning-base','hal və cəm formaları ↗');b.onclick=()=>library('forms',n.w);grammar.append(b);}grammar.hidden=!grammar.childNodes.length;
- renderContext(n);renderOrigin(n);
+ renderContext(n);renderDeclension(n);renderOrigin(n);
  const example=$('meaningExample');example.replaceChildren();example.hidden=!info.example;
  if(info.example){example.append(html('span','example-label','məsələn'),html('q','example-az',info.example[0]));const en=html('span','example-en',info.example[1]);en.lang='en';example.append(en);}
  $('meaningUsage').textContent=info.usage;$('meaningUsage').hidden=!info.usage;
