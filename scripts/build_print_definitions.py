@@ -132,8 +132,12 @@ EXPLICIT_FROM = re.compile(r'^"([^"]+)"\s*-?\s*(?:dan|dən|ın|in|un|ün)?\s*(?:
 SEE_ONLY = re.compile(r'^(?:(?:\[[^\]]{1,100}\]|[a-zçğıöşüə]{1,8}\.)\s*)*b\s*a\s*x\s+'
                       r'([a-zçğıöşüə]+(?:[- ][a-zçğıöşüə]+)*)(?:\s*\d{1,2})?\s*\.?$', re.I)
 # A Musayev entry that opens with a cross-reference, after part-of-speech labels or a sense number: «s. 1. bax qəbiz;».
-BILINGUAL_SEE = re.compile(r'^(?:(?:[a-zçğıöşüə]{1,5}\.|\d\.)\s*)*bax\s+([a-zçğıöşüə]+(?:[- ][a-zçğıöşüə]+)*)'
+# An unlabelled «bax X» is a phrase split off the previous entry by the PDF extraction (abad etmək bax ...), not a reference.
+BILINGUAL_SEE = re.compile(r'^(?:(?:[a-zçğıöşüə]{1,5}\.|\d\.)\s*)+bax\s+([a-zçğıöşüə]+(?:[- ][a-zçğıöşüə]+)*)'
                            r'(?:\s+(?:I{1,3}|\d))?\s*(?:[;,.]|$)', re.I)
+# An explanatory entry whose first sense is a cross-reference, followed by quotations or more senses.
+LEADING_SEE = re.compile(r'^(?:(?:\[[^\]]{1,100}\]|[a-zçğıöşüə]{1,8}\.)\s*)*(?:1\.\s*)?b\s*a\s*x\s+'
+                         r'([a-zçğıöşüə]+(?:[- ][a-zçğıöşüə]+)*)(?:\s*\d{1,2})?\s*(?:[.;,]|$)', re.I)
 HOMONYM = re.compile(r'[- ]?\d{1,2}$')
 BACK, FRONT = set('aıou'), set('əeiöü')
 VOWELS = BACK | FRONT
@@ -1001,6 +1005,22 @@ class Builder:
                               'bilingual-cross-reference')
                 break
 
+    def leading_references(self):
+        """Link a word to the headword its only explanatory entry refers its first sense to (geyəcək: «b a x geyim. …»).
+        A word with homonym entries is left out: köpük (foam) has a colloquial homonym that refers to qəpik."""
+        for word in list(self.nodes):
+            entries = self.print.get(key(word), [])
+            if len(entries) != 1:
+                continue
+            text, volume, page = entries[0]
+            match = LEADING_SEE.match(text.split('◊')[0].strip())
+            target = self.by_key.get(key(match[1])) if match else None
+            if target and target != word:
+                self.link(word, target, 'syn', 'İzahlı lüğət · bax',
+                          f'İzahlı lüğət «{word}» sözü üçün «{target}» sözünə istinad edir.',
+                          f'The explanatory dictionary refers {word} to {target}.', [print_source(volume, page)],
+                          'cross-reference-lead')
+
     def relation_nouns(self, word, definition):
         """Nouns a relational definition is built on: «Əlkimyaya aid.» -> əlkimya, «Üç sinifdən ibarət.» -> sinif,
         «Toxunma ilə bağlı.» -> toxunma, «Ödü olan.» -> öd, «Tarix və politologiyaya aid.» -> tarix, politologiya."""
@@ -1206,6 +1226,7 @@ def main():
             break
     builder.definition_links()
     builder.bilingual_references()
+    builder.leading_references()
     after_undefined = sum(1 for w in builder.nodes if not builder.defined(w))
     after_isolated = sum(1 for w in builder.nodes if not builder.degree[w])
     methods = collections.Counter(d['method'] for d in builder.definitions.values())
