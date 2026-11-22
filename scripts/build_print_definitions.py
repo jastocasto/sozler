@@ -68,6 +68,16 @@ QUANTIFIERS = {'çox': ('çoxlu', 'multi'), 'az': ('az', 'low'), 'bir': ('bir', 
                'dörd': ('dörd', 'four'), 'beş': ('beş', 'five'), 'altı': ('altı', 'six'), 'yeddi': ('yeddi', 'seven'),
                'səkkiz': ('səkkiz', 'eight'), 'doqquz': ('doqquz', 'nine'), 'on': ('on', 'ten'), 'yüz': ('yüz', 'hundred'),
                'min': ('min', 'thousand')}
+# Borrowed derivational sets sharing one stem (psixologiya, psixoloji, psixoloq). Words of a set are linked; where the
+# head is defined, a member whose sense follows from it gets a rule definition: (ending, head ending, az, en).
+LOAN_FAMILIES = [('logiya', 'loji', 'loq'), ('qrafiya', 'qrafik', 'qraf'), ('metriya', 'metrik', 'metr'), ('izm', 'ist', 'istik'),
+                 ('ika', 'ik')]
+LOAN_SENSES = [('loq', 'logiya', '«{head}» üzrə mütəxəssis.', 'specialist in {g}', 'noun'),
+               ('loji', 'logiya', '«{head}» ilə bağlı.', 'relating to {g}', 'adjective'),
+               ('qrafik', 'qrafiya', '«{head}» ilə bağlı.', 'relating to {g}', 'adjective'),
+               ('metrik', 'metriya', '«{head}» ilə bağlı.', 'relating to {g}', 'adjective'),
+               ('ist', 'izm', '«{head}» tərəfdarı.', 'supporter of {g}', 'noun'),
+               ('istik', 'izm', '«{head}» ilə bağlı.', 'relating to {g}', 'adjective')]
 VERBAL_KINDS = {'verbal-noun', 'passive', 'passive-n', 'causative', 'become', 'make', 'acquire'}
 PAIRED_ENDINGS = {'sı', 'si', 'su', 'sü', 'nı', 'ni', 'nu', 'nü', 'lı', 'li', 'lu', 'lü'}
 POS = {'noun', 'verb', 'adjective', 'adverb', 'numeral', 'pronoun', 'interjection', 'postposition',
@@ -125,7 +135,7 @@ def infinitive_ending(stem):
 DOMAIN_LABELS = ('chem biol zool physics mineral anat biochem math astron geol religious econ polit fin arts physical music comp '
                  'geometric psychol info geogr ling ornithol sexol philol genet legal philos physiol psychiatr ichthyol el.-tech '
                  'kulin tech gram geometer entomol architect cytol scientific min pharma chess linguist microbiol sport sports '
-                 'text book vet publ paleont miner metal meteorol sociol archaeol eco hydrol').split()
+                 'text book vet publ paleont miner metal meteorol sociol archaeol eco hydrol special spec').split()
 
 
 def gloss(node):
@@ -587,6 +597,34 @@ class Builder:
                             en, 'adjective', refs, 'rule', base=noun)
                 break
 
+    def loan_families(self):
+        """Link borrowed words built on one stem (gerontologiya, gerontoloq) and define members that follow from the head."""
+        families = collections.defaultdict(set)
+        for word in self.nodes:
+            if ' ' in word or '-' in word:
+                continue
+            for index, endings in enumerate(LOAN_FAMILIES):
+                ending = next((e for e in sorted(endings, key=len, reverse=True) if word.endswith(e) and len(word) - len(e) >= 3), None)
+                if ending:
+                    families[index, word[:-len(ending)]].add(word)
+                    break
+        for (index, stem), words in families.items():
+            if len(words) < 2:
+                continue
+            for word in sorted(words):
+                for ending, head_ending, az, en, pos in LOAN_SENSES:
+                    head = stem + head_ending
+                    if word == stem + ending and head in words and self.undefined(word) and self.usable(head):
+                        page = self.nodes[word].get('page')
+                        refs = ([spelling_source(page)] if page else []) + [GRAMMAR]
+                        self.define(word, az.format(head=head), en.format(g=gloss(self.defined(head))), pos, refs, 'rule', base=head)
+            ordered = sorted(words, key=lambda w: (not self.defined(w), len(w)))
+            for word in ordered[1:]:
+                refs = [spelling_source(self.nodes[w]['page']) for w in (ordered[0], word) if self.nodes[w].get('page')] or [GRAMMAR]
+                self.link(word, ordered[0], 'root', 'Alınma söz ailəsi · eyni kök',
+                          f'«{word}» və «{ordered[0]}» eyni alınma kökdən düzəlib.',
+                          f'{word} and {ordered[0]} are built on the same borrowed stem.', refs, 'loan-family')
+
     def compounds(self):
         for word in list(self.nodes):
             # Connected words keep the links they have, except paraphrased ones: a paraphrase replaces the rule definition
@@ -622,7 +660,7 @@ class Builder:
                     az = f'«{rest}» sözünə {prefix}- ön hissəsi artırılmaqla düzələn söz.'
                     combining = PREFIXES[prefix]
                     # Glue the combining form only onto a one-word gloss (thermo + nuclear); a phrase gets the prefix named.
-                    if ' ' in g and (not combining.endswith(' ') or re.match(r'(?:verbal noun|passive|causative|turn|become|make|be)\b', g)):
+                    if ' ' in g and (not combining.endswith(' ') or re.match(r'(?:verbal noun|passive|causative|turn|become|make|be|relating|specialist|supporter|having|without|with)\b', g)):
                         en = ('to ' if self.defined(rest)['pos'] == 'verb' else '') + f"{g}, with the prefix {combining.strip().rstrip('-')}-"
                     else:
                         en = f'{combining}{g}'
@@ -698,6 +736,7 @@ def main():
         builder.print_notes()
         builder.rules()
         builder.quantified()
+        builder.loan_families()
         builder.compounds()
         if len(builder.definitions) + len(builder.edges) == size:
             break
