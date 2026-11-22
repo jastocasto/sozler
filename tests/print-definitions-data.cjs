@@ -10,7 +10,7 @@ const args = [w.WORD_WEB_DATA, w.WORD_WEB_EXTRA, w.WORD_WEB_GRAMMAR, w.WORD_WEB_
   w.WORD_WEB_VERIFICATION, w.WORD_WEB_ORTHOGRAPHY, w.WORD_WEB_ORTHOGRAPHY_LEXICAL];
 const before = createModel(...args), m = createModel(...args, w.WORD_WEB_PRINT_DEFINITIONS), layer = w.WORD_WEB_PRINT_DEFINITIONS;
 const attribution = JSON.parse(fs.readFileSync('dist/print-definitions-attribution.json', 'utf8'));
-const METHODS = new Set(['paraphrase', 'derivation', 'cross-reference', 'rule']);
+const METHODS = new Set(['paraphrase', 'derivation', 'cross-reference', 'rule', 'authored']);
 const POS = new Set(['noun', 'verb', 'adjective', 'adverb', 'numeral', 'pronoun', 'interjection', 'postposition', 'conjunction', 'particle', 'phrase']);
 
 // Same headwords, same identities and the same atlas: the layer adds text and links only.
@@ -40,6 +40,8 @@ for (const [word, d] of Object.entries(layer.definitions)) {
   assert(!/[\u0400-\u04ff]|[\u00c0-\u00ff]{3}/.test((d.az + d.en).replace(/[\u00e7\u00c7\u00f6\u00d6\u00fc\u00dc\u00e9]/g, '')), word + ' decoded text');
   assert(d.refs.length && d.refs.every(r => r.title && /^https:\/\//.test(r.url)), word + ' cited');
   if (d.method === 'paraphrase') assert(d.refs.some(r => /izahli_lugeti|Azerbaycanca_Ingilisce/.test(r.url)), word + ' paraphrase cites print evidence');
+  // AI-written definitions claim no print source: they cite only the orthography page for the spelling.
+  if (d.method === 'authored') assert(d.refs.length === 1 && /Orfoqrafiya_2021/.test(d.refs[0].url), word + ' authored cites the spelling only');
   if (d.method === 'rule' || d.method === 'derivation') assert(m.byWord.has(d.base), word + ' names an existing base word');
   if (d.method === 'cross-reference') assert(m.byWord.has(d.see), word + ' names an existing target');
 }

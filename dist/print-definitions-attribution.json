@@ -1,5 +1,5 @@
 {
- "method": "Definitions for headwords that had none. Paraphrases are AI-assisted new wording of the cited explanatory (2006) and Musayev Azerbaijani–English dictionary senses; derivation and cross-reference definitions follow explicit statements in the explanatory dictionary; rule-based definitions describe transparent productive suffixes of defined base words. Print prose is cited, not republished. This is not native-speaker verification.",
+ "method": "Definitions for headwords that had none. Paraphrases are AI-assisted new wording of the cited explanatory (2006) and Musayev Azerbaijani–English dictionary senses; derivation and cross-reference definitions follow explicit statements in the explanatory dictionary; rule-based definitions describe transparent productive suffixes of defined base words; authored definitions are AI-written for spellings that neither print dictionary covers, cite only the orthography page and are marked for review. Print prose is cited, not republished. This is not native-speaker verification.",
  "license": "New editorial text is shared under CC BY-SA 4.0.",
  "sources": {
   "explanatory": [
@@ -37,33 +37,35 @@
  },
  "summary": {
   "undefined_before": 63985,
-  "undefined_after": 23288,
+  "undefined_after": 22447,
   "isolated_before": 30802,
-  "isolated_after": 20560,
-  "definitions": 40697,
+  "isolated_after": 20427,
+  "definitions": 41538,
   "definitions_by_method": {
+   "authored": 193,
    "cross-reference": 410,
    "derivation": 3589,
    "paraphrase": 17587,
-   "rule": 19111
+   "rule": 19759
   },
   "low_confidence_paraphrases": 737,
-  "links": 19114,
+  "links": 19275,
   "stats": {
+   "definitions:authored": 193,
    "definitions:cross-reference": 410,
    "definitions:derivation": 3589,
    "definitions:paraphrase": 17587,
-   "definitions:rule": 19111,
-   "links:compound": 14956,
+   "definitions:rule": 19759,
+   "links:compound": 14999,
    "links:compound-print": 217,
    "links:cross-reference": 150,
    "links:derivation": 1644,
-   "links:rule": 1704,
+   "links:rule": 1822,
    "links:rule-print": 443,
    "paraphrase:rejected-unsourced": 24,
    "paraphrase:skipped": 89,
-   "rule:unconfirmed-existing": 50395
+   "rule:unconfirmed-existing": 50436
   }
  },
- "output_sha256": "1c8923cc30f8d2297400789206f8eb75f4e1bb4a07a23907299925024417a866"
+ "output_sha256": "16512020c8d7971e5dfe64877c14d57d202c6d1538c4b48bb8418076321cc86f"
 }

@@ -7,12 +7,16 @@ Inputs
              SQLite caches from scripts/extract_print_dictionaries.py
   scripts/content/print-definitions/paraphrases/*.json
              AI-assisted bilingual paraphrases written from the cited print entries
+  scripts/content/print-definitions/authored/*.json
+             AI-written definitions for spellings that neither print dictionary covers
 
 Each new definition records its method:
   paraphrase       new wording of the explanatory and/or Musayev dictionary sense (AI-assisted)
   derivation       the explanatory dictionary states the word is formed from a base ("X"dan f.is.)
   cross-reference  the explanatory dictionary refers the word to another headword (bax X)
   rule             a transparent, productive suffix of a defined base word (qayda ilə qurulub)
+  authored         AI-written, for a spelling with no entry in either print dictionary; it cites
+                   only the orthography page that attests the spelling and is always marked for review
 
 Links (root for derivations, syn for cross-references) are added only between existing
 headwords that are not already connected, each with its citation.  A suffix or compound
@@ -238,6 +242,25 @@ class Builder:
                     continue
                 extra = {'confidence': 'low'} if entry.get('conf') == 'low' else {}
                 self.define(word, az[0].upper() + az[1:], en[0].lower() + en[1:] if en[:2] != 'I ' else en, pos, refs, 'paraphrase', **extra)
+
+    # AI-written definitions for words no print source covers ----------------------------
+    def authored(self):
+        for path in sorted((CONTENT / 'authored').glob('batch-[0-9][0-9].json')):
+            for word, entry in json.loads(path.read_text()).items():
+                if not self.undefined(word) or 'skip' in entry:
+                    continue
+                k = key(word)
+                # A word either print dictionary covers gets a cited paraphrase instead.
+                if self.print.get(k) or self.musayev.get(k):
+                    self.stats['authored:rejected-in-print'] += 1
+                    continue
+                az, en, pos = entry.get('az', '').strip(), entry.get('en', '').strip(), entry.get('pos')
+                page = self.nodes.get(word, {}).get('page')
+                if not az.endswith('.') or not en or pos not in POS or len(az) > 260 or len(en) > 200 or not page:
+                    self.stats['authored:rejected-format'] += 1
+                    continue
+                self.define(word, az[0].upper() + az[1:], en[0].lower() + en[1:] if en[:2] != 'I ' else en, pos,
+                            [spelling_source(page)], 'authored')
 
     # Templates --------------------------------------------------------------------
     def verbal_noun(self, verb, base):
@@ -596,6 +619,7 @@ def main():
     before_undefined = sum(1 for n in model['nodes'] if not (n['az'].strip() and n['en'].strip()))
     before_isolated = sum(1 for n in model['nodes'] if not n['degree'])
     builder.paraphrases()
+    builder.authored()
     for _ in range(6):
         size = len(builder.definitions) + len(builder.edges)
         builder.print_notes()
@@ -619,7 +643,8 @@ def main():
         'method': 'Definitions for headwords that had none. Paraphrases are AI-assisted new wording of the cited explanatory '
                   '(2006) and Musayev Azerbaijani–English dictionary senses; derivation and cross-reference definitions follow '
                   'explicit statements in the explanatory dictionary; rule-based definitions describe transparent productive '
-                  'suffixes of defined base words. Print prose is cited, not republished. This is not native-speaker verification.',
+                  'suffixes of defined base words; authored definitions are AI-written for spellings that neither print '
+                  'dictionary covers, cite only the orthography page and are marked for review. Print prose is cited, not republished. This is not native-speaker verification.',
         'license': 'New editorial text is shared under CC BY-SA 4.0.',
         'sources': {'explanatory': [{'volume': v, 'file': p, 'sha256': h} for v, p, h in explanatory_hashes],
                     'bilingual': [{'file': p, 'sha256': h} for p, h in bilingual_hashes],
