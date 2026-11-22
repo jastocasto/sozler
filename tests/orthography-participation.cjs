@@ -7,14 +7,9 @@ const {boot} = require('./galaxy-harness.cjs');
 const dist = path.join(__dirname,'../dist');
 const read = file => fs.readFileSync(path.join(dist,file),'utf8');
 const context = vm.createContext({window:{}});
-const globals = read('app.js').match(/^const model=createModel\((.+)\);$/m)[1].split(',').map(name => name.split('.')[1]);
-const extra = new Set(['conjugation-data.js','galaxy-data.js','race-data.js','learning-data.js','orthography-lexical-evidence.js']);
-for (const match of read('index.html').matchAll(/<script src="([^"?]+)/g)) {
-  const file = match[1], code = read(file);
-  if (extra.has(file) || globals.some(name => code.includes('window.'+name+'=') || code.includes('window.'+name+' ='))) {
-    vm.runInContext(code,context,{filename:file});
-  }
-}
+const {MODEL_GLOBALS:globals,loadLayers} = require('./layers.cjs');
+loadLayers(context);
+for (const file of ['conjugation-data.js','galaxy-data.js','race-data.js','learning-data.js']) vm.runInContext(read(file),context,{filename:file});
 const w = context.window;
 const {createModel} = require('../dist/model.js');
 const args = globals.map(name => w[name]);

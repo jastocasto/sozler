@@ -6,6 +6,33 @@ The [original Söz Xəritəsi project](archive/sozler/) is preserved as it appea
 
 An Azerbaijani word galaxy following the supplied charcoal-and-serif concept. The persistent atlas fills the screen on desktop and mobile. Compact search floats above it; a shallow bilingual definition strip expands by tap or upward drag. Word of the day stays in a small shortcut, with the quiz, dictionary, saved words and grammar in the menu. Touch supports pinch zoom, pan, and bubble dragging. No cursor illustrations, EN/AZ switches or motion pause controls are included.
 
+## Fast loading, word forms, frequency and word origins (November 2026)
+
+**Loading.** The page no longer downloads the 17 data layers (about 96 MB of JavaScript) or runs `createModel` in the browser. `scripts/build_runtime.cjs` runs `createModel` once at build time and writes:
+
+- `dist/soz-core.json` (about 4.6 MB compressed): headwords, short definitions, senses, links, alphabetical order, the verb and form indexes, frequency ranks and the homonym list. `index.html` preloads it; `restoreModel` in `dist/model.js` rebuilds the same model API from it.
+- `dist/details/N.json` (1,024 files): the sources behind each link (connection senses and citations) and each word's origin, fetched when a word is opened. A word's file is `shardOf(word, 1024)`.
+- `dist/forms-archive.json`: the full noun-form records, fetched when the Forms section opens.
+
+The build fails unless the restored model matches `createModel` for every word, link, ordering, connection sense and a set of sample searches. Search text and each word's link list are built on first use, so the map appears sooner. On a mid-range phone over 4G (Chrome throttling, local test server) the site is usable in 10–13 s instead of 29 s, uses about 150 MB of memory instead of 450 MB, and transfers 5 MB instead of 10 MB. `dist/vercel.json` caches every `?v=`-versioned file for a year. The data layers stay in `dist/` as build inputs and for the data tests; the page and the offline package do not use them.
+
+**Word forms in search.** `dist/morphology.js` recognises inflected words. Verbs: the conjugation engine generates every form of each verb whose stem the typed word starts with, and the word is matched against them, so `getdim` shows *getmək* · Şühudi keçmiş · I şəxs tək · "I went", with a shortcut to that cell of the verb wheel. Nouns and adjectives: plural, possessive, case, -kı and "to be" endings are generated for each headword the word starts with, including k→y, q→ğ, *su*→*suy-* and documented vowel loss (*ağız*→*ağzı*), so `kitablarımızdan` shows *kitab* · cəm · mənsubiyyət (bizim) · çıxışlıq hal · "from our books". Words typed without Azerbaijani letters (`gedirem`) are matched too. An analysis is shown only when a generated form equals the typed word. Choosing it opens the headword with the searched form noted on the meaning card. `tests/morphology.cjs` covers these cases.
+
+**Frequency and levels.** `scripts/count_corpus_words.py` counts word tokens in Azerbaijani Wikipedia, the OPUS CCAligned web crawl and OPUS OpenSubtitles; `scripts/build_frequency.cjs` assigns each token to its headword (directly or through the analyser), averages occurrences per million across the three corpora and ranks the headwords (`scripts/content/frequency/headword-frequency.tsv`). The meaning strip shows five dots and an approximate level (A1 ≤ 500, A2 ≤ 1,500, B1 ≤ 3,500, B2 ≤ 7,000, C1 ≤ 15,000, C2 beyond); search lists more common words first within each kind of match; the menu and dictionary have a most-common-words list with level filters. Levels are estimates from frequency, not an official CEFR list. Sources and method: `dist/frequency-attribution.json`.
+
+**Word origins and homonyms.** `scripts/build_etymology.py` reads English Wiktionary's Azerbaijani entries (Kaikki extract) into `scripts/content/etymology/etymology.json`: for 8,725 headwords, the etymology sentence and the chain of source languages it names (*avtomobil*: rus dili ← fransız dili ← qədim yunan dili), and for 224 headwords with separate etymologies, numbered homonyms (*çay* I "tea", Çin dilləri; *çay* II "river", Ulu Türk dili). The expanded meaning sheet shows them with the Wiktionary link; the strip marks homonyms. Sources and method: `dist/etymology-attribution.json`.
+
+**Analytics.** On the deployed HTTPS site, `app.js` loads Vercel Web Analytics (anonymous page views, no cookies). Analytics must also be enabled once in the Vercel project's Analytics tab.
+
+Rebuild after changing any data layer, then refresh cache keys and the offline package:
+
+    python3 -I scripts/build_etymology.py kaikki.org-dictionary-Azerbaijani.jsonl     # only when refreshing origins
+    node --max-old-space-size=8192 scripts/build_runtime.cjs
+    python3 scripts/version_assets.py && python3 scripts/build_offline.py
+    node tests/morphology.cjs
+
+To refresh frequency (needs the three corpus files), run `build_runtime.cjs` first, then `python3 -I scripts/count_corpus_words.py counts.tsv wikipedia=… web=… subtitles=…` and `node scripts/build_frequency.cjs counts.tsv`, then `build_runtime.cjs` again.
+
 ## Headword count and print-dictionary definitions
 
 The atlas has **90,849 headwords** (`dist/word-count.json`): 22,207 dictionary entries with fixed atlas positions and 68,642 further spellings from the 2021 orthography dictionary (*Azərbaycan dilinin orfoqrafiya lüğəti*, 7th edition), placed in the separate Orfoqrafiya region. The orthography dictionary lists spellings only, so most of those entries started without a meaning, and many had no connection.

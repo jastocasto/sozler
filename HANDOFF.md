@@ -2,6 +2,18 @@
 
 Read this first if you are an AI agent or developer picking up the work. Everything you need is in this repository. No local state from earlier sessions is required.
 
+## Work in progress (November 2026 improvement round)
+
+The owner approved five improvements, done in this order on branch `claude/tender-davinci-qpimp0` (not yet merged into `soz-toxumasi`; merging or pushing to `soz-toxumasi` needs the owner's approval):
+
+1. **Fast loading.** The page used to load all 16 data layers (~96 MB of JavaScript, 10 MB compressed) and run `createModel` in the browser: about 29 s and 450 MB on a mid-range phone over 4G. Now `scripts/build_runtime.cjs` runs `createModel` once at build time and writes `dist/soz-core.js` (what the map, search and meaning strip need), `dist/details/N.json` (link evidence, loaded when a word is opened) and `dist/forms-archive.json` (full noun-form records, loaded when Forms opens). `restoreModel` in `dist/model.js` rebuilds the same model API; the build fails unless the restored model matches `createModel` for every word, link, search sample and connection sense. The layer files stay in `dist/` as build inputs and for the data tests, but the page no longer loads them and the offline package skips them. `dist/vercel.json` gives `?v=`-versioned files a one-year immutable cache.
+2. **Inflected forms in search** (`kitablarımızdan` → *kitab* + plural + 1pl possessive + ablative; `getdim` → *getmək*, past, 1sg).
+3. **Word frequency and levels** from a public corpus frequency list.
+4. **Separate unrelated meanings** (*çay*: I tea, II river) **and word origin** from cited sources.
+5. **Vercel Web Analytics.**
+
+`scripts/run_tests.sh` runs the tests three at a time (installs linkedom into `.cache/` on first use). An hourly scheduled check-in resumes this work in the owner's Claude session.
+
 ## Where things are
 
 - **Branch `soz-toxumasi`**: the current project (Söz Toxuması). Work here.

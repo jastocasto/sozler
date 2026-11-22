@@ -1,7 +1,11 @@
 /* Small dependency-free data layer, also usable by Node for verification. */
 (function (root) {
 'use strict';
-const normalize = s => String(s || '').toLocaleLowerCase('az').replace(/ı/g,'i').replace(/ə/g,'e').replace(/ö/g,'o').replace(/ü/g,'u').replace(/ğ/g,'g').replace(/ş/g,'s').replace(/ç/g,'c').normalize('NFKD').replace(/[\u0300-\u036f]/g,'');
+// Fold to plain lowercase letters for search. Azerbaijani-specific lowercasing
+// only differs for I/İ, and both end as "i" after folding, so the faster
+// toLowerCase gives the same result (scripts/build_runtime.cjs checks this).
+const FOLD={'ı':'i','ə':'e','ö':'o','ü':'u','ğ':'g','ş':'s','ç':'c'};
+const normalize = s => {const folded=String(s || '').toLowerCase().replace(/[ıəöüğşç]/g,c=>FOLD[c]);return /[^\x00-\x7f]/.test(folded)?folded.normalize('NFKD').replace(/[\u0300-\u036f]/g,''):folded;};
 const types = {
  root:{name:'eyni kök',description:'Eyni kök və törəmə sözlər',color:'#5072e3',fill:'#5072e3',border:'#5072e3',text:'#ffffff',order:0},
  syn:{name:'sinonimlər',description:'Yaxın və ya eyni məna',color:'#58c978',fill:'#58c978',border:'#58c978',text:'#ffffff',order:1},
@@ -112,5 +116,111 @@ function createModel(raw,extra={nodes:[],edges:[],enrichment:{}},grammar={record
  }
  return {nodes,orthographyNodes,specialNodes,verbEvidence:lexical.verbs||{},byWord,byId,edges,adjacency,related,search,neighborhood,alphabetical,allNodes,allByWord,allEdges,grammarRecords,grammarSearch,nominalRecords,nominalSearch,formsByWord,resolveWord,archiveMode,aliases,connectionInfo,translationPair};
 }
-const api={normalize,types,createModel};if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.WordWeb=api;
+// The browser does not run createModel. scripts/build_runtime.cjs runs it once,
+// writes the result to soz-core.js plus on-demand files, and restoreModel
+// rebuilds the same model API from them. The build checks both agree.
+function shardOf(word,count){let h=0x811c9dc5;for(let i=0;i<word.length;i++){h^=word.charCodeAt(i);h=Math.imul(h,0x01000193);}return (h>>>0)%count;}
+const searchText=(first,senses,side)=>normalize([first,...(senses||[]).map(s=>s[side])].join('; '));
+const NO_EVIDENCE=Object.freeze([]);
+function restoreModel(core,{fetchJSON}={}){
+ const collator=new Intl.Collator('az');
+ const {count,cols,sparse,orthographyStart,english:englishExceptions,azerbaijani:azerbaijaniExceptions,rank,excluded}=core.nodes,refs=core.refs;
+ const nodes=new Array(count),value=(field,i)=>{const col=cols[field],v=col.values[i];return v===null?undefined:col.dict?col.dict[v]:v;};
+ for(let i=0;i<count;i++)nodes[i]={id:value('id',i),w:value('w',i),en:value('en',i),az:value('az',i),pos:value('pos',i),quality:value('quality',i)};
+ for(const field in cols){
+  if(['id','w','en','az','pos','quality'].includes(field))continue;
+  const {values,dict,refList}=cols[field];
+  for(let i=0;i<count;i++){const v=values[i];if(v===null)continue;nodes[i][field]=refList?v.map(j=>refs[j]):dict?dict[v]:v;}
+ }
+ for(const field in sparse){const map=sparse[field];for(const i in map)nodes[i][field]=map[i];}
+ const verbEvidence=core.verbEvidence;
+ for(let i=orthographyStart;i<count;i++){const n=nodes[i];if(verbEvidence[n.w])n.verbEvidence=verbEvidence[n.w];}
+ // Search fields (lower, key, english, azerbaijani) are not needed to draw the
+ // map. prepareSearch(limit) fills them a slice at a time; search fills the rest.
+ let prepared=0;
+ function prepareSearch(limit=Infinity){
+  const end=Math.min(count,prepared+limit);
+  for(let i=prepared;i<end;i++){const n=nodes[i];n.lower=n.w.toLocaleLowerCase('az');n.key=normalize(n.w);n.english=englishExceptions[i]??searchText(n.en,n.bilingualSenses,'en');n.azerbaijani=azerbaijaniExceptions[i]??searchText(n.az,n.bilingualSenses,'az');}
+  prepared=end;return prepared===count;
+ }
+ const byWord=new Map(),byId=new Map();let maxId=0;
+ for(const n of nodes){byWord.set(n.w,n);byId.set(n.id,n);if(n.id>maxId)maxId=n.id;}
+ const rankById=new Int32Array(maxId+1);for(let i=0;i<count;i++)rankById[nodes[i].id]=rank[i];
+ // Corpus frequency rank (1 = most common); 0 means the word was not found often enough to rank.
+ const frequencyById=new Int32Array(maxId+1);if(core.frequency)for(let i=0;i<count;i++)frequencyById[nodes[i].id]=core.frequency[i];
+ const commonness=n=>frequencyById[n.id]||Infinity;
+ const allByWord=new Map(byWord);for(const [w,id] of excluded)if(!allByWord.has(w))allByWord.set(w,{id,w});
+ const orthographyNodes=nodes.slice(orthographyStart);
+ const alphabetical=nodes.map((n,i)=>i).sort((a,b)=>rank[a]-rank[b]||a-b).map(i=>nodes[i]);
+ const specialNodes=alphabetical.filter(node=>node.special);
+ // Link evidence arrives with a word's detail file; until then an edge has none.
+ const evidenceById=new Map();
+ class Edge{constructor(id,a,b,type,note){this.id=id;this.a=a;this.b=b;this.type=type;this.note=note;}get evidence(){return evidenceById.get(this.id)||NO_EVIDENCE;}}
+ const {flat,types:typeList,notes}=core.edges,edges=new Array(flat.length/4);
+ for(let i=0,k=0;k<flat.length;i++,k+=4)edges[i]=new Edge(i,nodes[flat[k]],nodes[flat[k+1]],typeList[flat[k+2]],notes[flat[k+3]]);
+ // Each word's links are sorted and wrapped on first use; edgesOf holds edge indexes per word.
+ const position=new Map();nodes.forEach((n,i)=>position.set(n.id,i));
+ const degree=new Int32Array(count+1);
+ for(let k=0;k<flat.length;k+=4){degree[flat[k]+1]++;degree[flat[k+1]+1]++;}
+ for(let i=0;i<count;i++)degree[i+1]+=degree[i];
+ const edgesOf=new Int32Array(degree[count]),fill=degree.slice(0,count);
+ for(let k=0,e=0;k<flat.length;k+=4,e++){edgesOf[fill[flat[k]]++]=e;edgesOf[fill[flat[k+1]]++]=e;}
+ const linkLists=new Map();
+ const adjacency={get(id){
+  if(linkLists.has(id))return linkLists.get(id);
+  const i=position.get(id);if(i===undefined)return undefined;
+  const list=[];for(let k=degree[i];k<degree[i+1];k++){const e=edges[edgesOf[k]];list.push({node:e.a.id===id?e.b:e.a,edge:e});}
+  if(list.length>1)list.sort((a,b)=>types[a.edge.type].order-types[b.edge.type].order||rankById[a.node.id]-rankById[b.node.id]);
+  linkLists.set(id,list);return list;
+ },has:id=>position.has(id)};
+ const related=(n,filters=new Set(Object.keys(types)))=>(adjacency.get(n.id)||[]).filter(x=>filters.has(x.edge.type));
+ const grammarRecords=core.grammarRecords;
+ const nominalRecords=core.nominal.map(([w,base,lemma,kind,id])=>({w,base,lemma,kind,id,key:normalize(w),baseKey:normalize(base),lemmaKey:normalize(lemma)}));
+ const formsByWord=new Map();for(const n of [...nominalRecords,...grammarRecords]){if(!formsByWord.has(n.w))formsByWord.set(n.w,[]);formsByWord.get(n.w).push(n);}
+ const aliases=core.aliases;
+ function grammarSearch(q=''){const s=normalize(q.trim());return grammarRecords.filter(n=>!s||n.key.includes(s)||n.baseKey.includes(s)||normalize(n.senses.join(' ')).includes(s)).sort((a,b)=>Number(b.key===s)-Number(a.key===s)||Number(b.baseKey===s)-Number(a.baseKey===s)||collator.compare(a.base,b.base)||collator.compare(a.w,b.w));}
+ // Until the forms archive loads, records carry spellings and bases but not meanings.
+ function nominalSearch(q=''){const s=normalize(q.trim());if(!s)return nominalRecords;return nominalRecords.filter(n=>n.key.includes(s)||n.baseKey.includes(s)||n.lemmaKey.includes(s)||(n.meaningKey||'').includes(s)).sort((a,b)=>Number(b.key===s)-Number(a.key===s)||Number(b.baseKey===s)-Number(a.baseKey===s)||collator.compare(a.lemma||a.base,b.lemma||b.base)||collator.compare(a.w,b.w));}
+ function resolveWord(w,seen=new Set()){if(seen.has(w))return;seen.add(w);return byWord.get(w)||byWord.get(aliases[w])||(formsByWord.get(w)||[]).map(n=>resolveWord(n.lemma||n.base,seen)).find(Boolean);}
+ function archiveMode(w){return (formsByWord.get(w)||[]).some(n=>n.kind==='nominal')?'forms':'grammar';}
+ function search(q,limit=10){
+  prepareSearch();const query=q.trim(),s=normalize(query),exact=query.toLocaleLowerCase('az');if(!s)return[];const buckets=[[],[],[],[],[],[]];
+  for(const n of nodes){const az=n.azerbaijani||'';const score=n.lower===exact?0:n.key===s?1:n.key.startsWith(s)?2:n.key.includes(s)?3:n.english.startsWith(s)||az.startsWith(s)?4:n.english.includes(s)||az.includes(s)?5:9;if(score<9)buckets[score].push(n);}
+  const results=[];for(const bucket of buckets){bucket.sort((a,b)=>Number(a.quality!=='curated')-Number(b.quality!=='curated')||Number(a.pos==='form')-Number(b.pos==='form')||(core.frequency?commonness(a)-commonness(b)||0:0)||a.w.length-b.w.length||rankById[a.id]-rankById[b.id]);results.push(...bucket.slice(0,limit-results.length));if(results.length>=limit)break;}return results;
+ }
+ function neighborhood(n,depth,filters){
+  const items=[{node:n,depth:0,type:'root',parent:null}],seen=new Set([n.id]);
+  const all=related(n,filters);let topicCount=0;
+  for(const x of all){if(seen.has(x.node.id))continue;if(x.edge.type==='topic'&&topicCount++>=5)continue;if(items.length>=25)break;items.push({...x,depth:1,type:x.edge.type,parent:n.id});seen.add(x.node.id);}
+  if(depth===2){const direct=items.slice(1);for(let round=0;round<4;round++){for(const parent of direct){const options=related(parent.node,filters).filter(x=>!seen.has(x.node.id));const next=options[0];if(next&&items.length<48){items.push({...next,depth:2,type:next.edge.type,parent:parent.node.id});seen.add(next.node.id);}}}}
+  const shown=new Map();for(const id of seen)for(const {edge} of adjacency.get(id))if(seen.has(edge.a.id)&&seen.has(edge.b.id)&&filters.has(edge.type))shown.set(edge.id,edge);return {items,edges:[...shown.values()],total:all.length};
+ }
+ function connectionInfo(edge,word){
+  const proof=[...edge.evidence].filter(e=>e.sense||e.senseAz).sort((a,b)=>Number(Boolean(b.auditReviewed))-Number(Boolean(a.auditReviewed))||Number(b.scope==='reviewed')-Number(a.scope==='reviewed')||Number(Boolean(b.senseAz))-Number(Boolean(a.senseAz))||Number(b.from===word)-Number(a.from===word)||Number(b.scope==='sense')-Number(a.scope==='sense'))[0]||null;
+  if(!proof)return null;
+  if(proof.senseAz&&proof.senseEn)return {...proof,language:'az',sense:proof.senseAz,senseEnglish:proof.senseEn,qualifier:proof.qualifierAz||'',qualifierEnglish:proof.qualifierEn||''};
+  // The build stores the Azerbaijani/English pair of a source-language sense as $t.
+  const {$t:pair,...rest}=proof;if(!pair)return rest;
+  return {...rest,sourceLanguage:rest.language,language:'az',sense:pair[0],senseEnglish:pair[1],qualifier:pair[2]||'',qualifierEnglish:pair[3]||''};
+ }
+ // Detail files: link evidence for every word in one hash shard.
+ const wordDetails=new Map(),homonyms=new Set(core.homonyms||[]),loadedShards=new Set(),pendingShards=new Map(),{count:shardCount,hashes:shardHashes}=core.details;
+ function applyShard(data){if(data.w)for(const word in data.w)wordDetails.set(word,data.w[word]);const refs=data.refs||[];for(const proof of data.ev)if(proof.refs)proof.refs=proof.refs.map(j=>refs[j]);for(const [id,list] of data.e)evidenceById.set(id,list.map(j=>data.ev[j]));}
+ function load(path,apply,done,pending,key){
+  if(done())return true;if(pending.has(key))return pending.get(key);if(!fetchJSON)return true;
+  const result=fetchJSON(path);
+  if(result&&typeof result.then==='function'){const promise=result.then(data=>{if(!done())apply(data);pending.delete(key);return true;},error=>{pending.delete(key);throw error;});pending.set(key,promise);return promise;}
+  apply(result);return true;
+ }
+ // Returns true when the word's details are present, otherwise a promise.
+ function ensureDetails(word){const i=shardOf(word,shardCount);return load('details/'+i+'.json?v='+shardHashes[i],data=>{applyShard(data);loadedShards.add(i);},()=>loadedShards.has(i),pendingShards,i);}
+ let formsLoaded=false;const pendingForms=new Map();
+ function ensureForms(){return load('forms-archive.json?v='+core.formsArchive,data=>{for(let i=0;i<data.length;i++){const record=nominalRecords[i];Object.assign(record,data[i],{meaningKey:normalize(data[i].az+' '+data[i].en),definitions:data[i].analyses.map(a=>({az:a.az,en:a.en}))});}formsLoaded=true;},()=>formsLoaded,pendingForms,'forms');}
+ // Approximate learner level from frequency rank (an estimate, not an official CEFR list).
+ const LEVELS=[[500,'A1'],[1500,'A2'],[3500,'B1'],[7000,'B2'],[15000,'C1'],[Infinity,'C2']],BANDS=[[1000,5],[3000,4],[10000,3],[25000,2],[Infinity,1]];
+ function frequency(n){const rank=n&&frequencyById[n.id];if(!rank)return null;return {rank,level:LEVELS.find(([max])=>rank<=max)[1],band:BANDS.find(([max])=>rank<=max)[1]};}
+ let byFrequency=null;const commonWords=()=>byFrequency??=nodes.filter(n=>frequencyById[n.id]).sort((a,b)=>frequencyById[a.id]-frequencyById[b.id]);
+ return {meta:core.meta,frequency,commonWords,wordDetails:word=>wordDetails.get(word)||null,isHomonym:word=>homonyms.has(word),prepareSearch,degree:n=>{const i=position.get(n.id);return i===undefined?0:degree[i+1]-degree[i];},nodes,orthographyNodes,specialNodes,verbEvidence,byWord,byId,edges,adjacency,related,search,neighborhood,alphabetical,allByWord,grammarRecords,grammarSearch,nominalRecords,nominalSearch,formsByWord,resolveWord,archiveMode,aliases,connectionInfo,ensureDetails,ensureForms,formsLoaded:()=>formsLoaded,detailsLoaded:word=>loadedShards.has(shardOf(word,shardCount))};
+}
+const api={normalize,types,createModel,restoreModel,shardOf};if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.WordWeb=api;
 })(typeof window!=='undefined'?window:globalThis);

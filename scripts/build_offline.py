@@ -2,7 +2,10 @@
 import hashlib,json
 from pathlib import Path
 root=Path(__file__).resolve().parent.parent/'dist'
-files=sorted(p for p in root.rglob('*') if p.is_file() and p.name not in {'sw.js','offline-package.json'})
+# The data layers are inputs to scripts/build_runtime.cjs; the page loads soz-core.js
+# and the details/ files instead, so the offline package leaves the layers out.
+LAYERS={name+'.js' for name in ['data','lexicon','grammar','vocabulary','review','bilingual','expansion','nominal','additions','relations','references','growth','orthography-lexical','orthography-lexical-evidence','print-definitions','orthography','verification']}
+files=sorted(p for p in root.rglob('*') if p.is_file() and p.name not in {'sw.js','offline-package.json','vercel.json'} and str(p.relative_to(root)) not in LAYERS)
 version=hashlib.sha256(Path(__file__).read_bytes()+b''.join(str(p.relative_to(root)).encode()+p.read_bytes() for p in files)).hexdigest()[:16]
 assets=[str(p.relative_to(root)) for p in files];meta={'version':version,'files':len(files),'bytes':sum(p.stat().st_size for p in files),'policy':'Offline availability requires a completed download on this device. Browser storage eviction can remove the package.'}
 (root/'offline-package.json').write_text(json.dumps(meta,indent=2)+'\n')

@@ -13,6 +13,7 @@ Object.defineProperties(window.HTMLElement.prototype, { clientWidth: { get() { r
 window.HTMLElement.prototype.showModal = function () { this.setAttribute('open', ''); }; window.HTMLElement.prototype.close = function () { this.removeAttribute('open'); };
 window.HTMLElement.prototype.scrollIntoView = function () {};
 require('./galaxy-harness.cjs').canvasMock(window);
+window.SOZ_FETCH_JSON = require('./layers.cjs').fetchJSON;
 const ctx = vm.createContext(window);
 for (const script of window.document.querySelectorAll('script[src]')) { const file = script.getAttribute('src').split('?')[0]; vm.runInContext(fs.readFileSync(path.join(dir, file), 'utf8'), ctx, { filename: file }); }
 const $ = id => window.document.getElementById(id), page = $('pictureQuizPage');

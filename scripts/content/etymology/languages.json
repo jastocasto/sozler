@@ -1,0 +1,214 @@
+{
+ "Akkadian": [
+  "akkad dili",
+  "semitic"
+ ],
+ "Ancient Greek": [
+  "qədim yunan dili",
+  "european"
+ ],
+ "Arabic": [
+  "ərəb dili",
+  "arabic"
+ ],
+ "Aramaic": [
+  "arami dili",
+  "semitic"
+ ],
+ "Armenian": [
+  "erməni dili",
+  "caucasian"
+ ],
+ "Bulgarian": [
+  "bolqar dili",
+  "slavic"
+ ],
+ "Chagatai": [
+  "Çağatay dili",
+  "turkic"
+ ],
+ "Classical Persian": [
+  "klassik fars dili",
+  "persian"
+ ],
+ "Dutch": [
+  "niderland dili",
+  "european"
+ ],
+ "English": [
+  "ingilis dili",
+  "european"
+ ],
+ "French": [
+  "fransız dili",
+  "european"
+ ],
+ "Georgian": [
+  "gürcü dili",
+  "caucasian"
+ ],
+ "German": [
+  "alman dili",
+  "european"
+ ],
+ "Greek": [
+  "yunan dili",
+  "european"
+ ],
+ "Hebrew": [
+  "ivrit",
+  "semitic"
+ ],
+ "Hindi": [
+  "hind dili",
+  "asian"
+ ],
+ "Hungarian": [
+  "macar dili",
+  "european"
+ ],
+ "Italian": [
+  "italyan dili",
+  "european"
+ ],
+ "Japanese": [
+  "yapon dili",
+  "asian"
+ ],
+ "Kipchak": [
+  "qıpçaq dili",
+  "turkic"
+ ],
+ "Late Latin": [
+  "son latın dili",
+  "european"
+ ],
+ "Latin": [
+  "latın dili",
+  "european"
+ ],
+ "Medieval Latin": [
+  "orta əsr latın dili",
+  "european"
+ ],
+ "Middle Chinese": [
+  "orta Çin dili",
+  "asian"
+ ],
+ "Middle Mongol": [
+  "orta monqol dili",
+  "mongolic"
+ ],
+ "Middle Persian": [
+  "orta fars (pəhləvi) dili",
+  "persian"
+ ],
+ "Mongolian": [
+  "monqol dili",
+  "mongolic"
+ ],
+ "New Latin": [
+  "yeni latın dili",
+  "european"
+ ],
+ "Old Anatolian Turkish": [
+  "Qədim Anadolu türkcəsi",
+  "turkic"
+ ],
+ "Old Armenian": [
+  "qədim erməni dili",
+  "caucasian"
+ ],
+ "Old French": [
+  "qədim fransız dili",
+  "european"
+ ],
+ "Old Persian": [
+  "qədim fars dili",
+  "persian"
+ ],
+ "Old Turkic": [
+  "Qədim türk dili",
+  "turkic"
+ ],
+ "Ottoman Turkish": [
+  "Osmanlı türkcəsi",
+  "turkic"
+ ],
+ "Parthian": [
+  "parfiya dili",
+  "iranian"
+ ],
+ "Persian": [
+  "fars dili",
+  "persian"
+ ],
+ "Polish": [
+  "polyak dili",
+  "slavic"
+ ],
+ "Portuguese": [
+  "portuqal dili",
+  "european"
+ ],
+ "Proto-Common Turkic": [
+  "Ulu Ümumtürk dili",
+  "turkic"
+ ],
+ "Proto-Iranian": [
+  "Ulu İran dili",
+  "iranian"
+ ],
+ "Proto-Mongolic": [
+  "Ulu Monqol dili",
+  "mongolic"
+ ],
+ "Proto-Oghuz": [
+  "Ulu Oğuz dili",
+  "turkic"
+ ],
+ "Proto-Turkic": [
+  "Ulu Türk dili",
+  "turkic"
+ ],
+ "Romanian": [
+  "rumın dili",
+  "european"
+ ],
+ "Russian": [
+  "rus dili",
+  "russian"
+ ],
+ "Sanskrit": [
+  "sanskrit",
+  "asian"
+ ],
+ "Sinitic": [
+  "Çin dilləri",
+  "asian"
+ ],
+ "Sogdian": [
+  "soğd dili",
+  "iranian"
+ ],
+ "Spanish": [
+  "ispan dili",
+  "european"
+ ],
+ "Talysh": [
+  "talış dili",
+  "iranian"
+ ],
+ "Tatar": [
+  "tatar dili",
+  "turkic"
+ ],
+ "Turkish": [
+  "türk dili",
+  "turkic"
+ ],
+ "Turkmen": [
+  "türkmən dili",
+  "turkic"
+ ]
+}
