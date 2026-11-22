@@ -1,0 +1,1038 @@
+{
+ "mucuq": {
+  "skip": "meaning not certain"
+ },
+ "mudexar": {
+  "az": "İspaniyada xristian və islam ünsürlərini birləşdirən memarlıq üslubu.",
+  "en": "Mudéjar",
+  "pos": "noun"
+ },
+ "mukor": {
+  "az": "Kif göbələyi cinsi.",
+  "en": "mucor (mould)",
+  "pos": "noun"
+ },
+ "mumabənzər": {
+  "az": "Muma bənzəyən.",
+  "en": "waxy",
+  "pos": "adjective"
+ },
+ "mundial": {
+  "az": "Futbol üzrə dünya çempionatı.",
+  "en": "World Cup",
+  "pos": "noun"
+ },
+ "munis-munis": {
+  "skip": "meaning not certain"
+ },
+ "murdar-murdar": {
+  "skip": "meaning not certain"
+ },
+ "mücərrədçi": {
+  "az": "Abstrakt sənət nümayəndəsi.",
+  "en": "abstractionist",
+  "pos": "noun"
+ },
+ "müctəs": {
+  "skip": "meaning not certain"
+ },
+ "müftə-müftə": {
+  "az": "Pulsuz, havayı.",
+  "en": "for free",
+  "pos": "adverb"
+ },
+ "münsərih": {
+  "skip": "meaning not certain"
+ },
+ "mürəkkəbli": {
+  "az": "Mürəkkəbi olan; mürəkkəbə bulaşmış.",
+  "en": "inky",
+  "pos": "adjective"
+ },
+ "mürgülü-mürgülü": {
+  "az": "Mürgüləyərək.",
+  "en": "drowsily",
+  "pos": "adverb"
+ },
+ "mütaliəsizlik": {
+  "az": "Kitab oxumama, mütaliə vərdişinin olmaması.",
+  "en": "lack of reading",
+  "pos": "noun"
+ },
+ "mütəqarib": {
+  "az": "Əruzun bəhrlərindən biri.",
+  "en": "mutaqarib (metre)",
+  "pos": "noun"
+ },
+ "naçar-naçar": {
+  "az": "Çarəsiz halda.",
+  "en": "helplessly",
+  "pos": "adverb"
+ },
+ "naftalan": {
+  "az": "Müalicəvi xüsusiyyətli neft növü.",
+  "en": "Naftalan oil",
+  "pos": "noun"
+ },
+ "naftoxinon": {
+  "skip": "meaning not certain"
+ },
+ "nagüman-nagüman": {
+  "skip": "meaning not certain"
+ },
+ "naxoş-naxoş": {
+  "az": "Xəstə halda.",
+  "en": "unwell",
+  "pos": "adverb"
+ },
+ "naitivizm": {
+  "az": "Bəzi biliklərin anadangəlmə olduğunu iddia edən təlim.",
+  "en": "nativism",
+  "pos": "noun"
+ },
+ "nala-mıxa vurmaq": {
+  "az": "Gah birinin, gah digərinin tərəfini saxlamaq.",
+  "en": "to run with the hare and hunt with the hounds",
+  "pos": "verb"
+ },
+ "nalayiq-nalayiq": {
+  "az": "Nalayiq şəkildə.",
+  "en": "indecently",
+  "pos": "adverb"
+ },
+ "namərd-namərd": {
+  "az": "Namərdcəsinə.",
+  "en": "treacherously",
+  "pos": "adverb"
+ },
+ "nanizm": {
+  "az": "Cırtdanboyluq.",
+  "en": "dwarfism",
+  "pos": "noun"
+ },
+ "nanka": {
+  "az": "Möhkəm sarımtıl pambıq parça.",
+  "en": "nankeen",
+  "pos": "noun"
+ },
+ "narındiş": {
+  "skip": "meaning not certain"
+ },
+ "narıntük": {
+  "skip": "meaning not certain"
+ },
+ "narkoanaliz": {
+  "az": "Narkotik vasitə altında psixi analiz.",
+  "en": "narcoanalysis",
+  "pos": "noun"
+ },
+ "narkobiznes": {
+  "az": "Narkotik alveri.",
+  "en": "drug trade",
+  "pos": "noun"
+ },
+ "narkodispanser": {
+  "az": "Narkomaniya müalicəsi üzrə dispanser.",
+  "en": "drug treatment clinic",
+  "pos": "noun"
+ },
+ "narkohipnoz": {
+  "az": "Dərmanla yaradılan hipnoz.",
+  "en": "narcohypnosis",
+  "pos": "noun"
+ },
+ "narkokartel": {
+  "az": "Narkotik alveri ilə məşğul olan cinayətkar birlik.",
+  "en": "drug cartel",
+  "pos": "noun"
+ },
+ "narkologiya": {
+  "az": "Narkomaniya və alkoqolizmi öyrənən tibb sahəsi.",
+  "en": "addiction medicine",
+  "pos": "noun"
+ },
+ "narkoloji": {
+  "az": "Narkologiyaya aid.",
+  "en": "addiction-medicine",
+  "pos": "adjective"
+ },
+ "narkoloq": {
+  "az": "Narkologiya üzrə həkim.",
+  "en": "addiction specialist",
+  "pos": "noun"
+ },
+ "narkomafiya": {
+  "az": "Narkotik alverini idarə edən cinayətkar təşkilat.",
+  "en": "drug mafia",
+  "pos": "noun"
+ },
+ "narkotranzit": {
+  "az": "Narkotiklərin ölkə ərazisindən keçirilməsi.",
+  "en": "drug transit",
+  "pos": "noun"
+ },
+ "nasturan": {
+  "az": "Uran oksidindən ibarət mineral.",
+  "en": "pitchblende",
+  "pos": "noun"
+ },
+ "natrolit": {
+  "az": "Seolit qrupundan mineral.",
+  "en": "natrolite",
+  "pos": "noun"
+ },
+ "nautilus": {
+  "az": "Spiral çanaqlı dəniz molyusku.",
+  "en": "nautilus",
+  "pos": "noun"
+ },
+ "nazikbığ": {
+  "az": "Bığı nazik olan.",
+  "en": "thin-moustached",
+  "pos": "adjective"
+ },
+ "nazikdiş": {
+  "skip": "meaning not certain"
+ },
+ "nazikqaş": {
+  "az": "Qaşları nazik olan.",
+  "en": "thin-browed",
+  "pos": "adjective"
+ },
+ "naziklif": {
+  "skip": "meaning not certain"
+ },
+ "nazik-nazik": {
+  "az": "Çox nazik.",
+  "en": "very thin",
+  "pos": "adjective"
+ },
+ "nebulyar": {
+  "az": "Dumanlığa aid.",
+  "en": "nebular",
+  "pos": "adjective"
+ },
+ "neçəlik": {
+  "skip": "meaning not certain"
+ },
+ "nef": {
+  "az": "Kilsənin uzununa hissəsi.",
+  "en": "nave",
+  "pos": "noun"
+ },
+ "nefelometr": {
+  "az": "Bulanıqlığı ölçən cihaz.",
+  "en": "nephelometer",
+  "pos": "noun"
+ },
+ "nefelometrik": {
+  "az": "Bulanıqlığın ölçülməsinə aid.",
+  "en": "nephelometric",
+  "pos": "adjective"
+ },
+ "nefelometriya": {
+  "az": "Bulanıq mühitlərin işığı səpməsinə görə analiz üsulu.",
+  "en": "nephelometry",
+  "pos": "noun"
+ },
+ "nefoskop": {
+  "az": "Buludların hərəkət istiqamətini təyin edən cihaz.",
+  "en": "nephoscope",
+  "pos": "noun"
+ },
+ "nefrolitiaz": {
+  "az": "Böyrək daşı xəstəliyi.",
+  "en": "nephrolithiasis",
+  "pos": "noun"
+ },
+ "nefron": {
+  "az": "Böyrəyin quruluş və funksiya vahidi.",
+  "en": "nephron",
+  "pos": "noun"
+ },
+ "nefroptoz": {
+  "az": "Böyrəyin aşağı düşməsi.",
+  "en": "nephroptosis",
+  "pos": "noun"
+ },
+ "negidal": {
+  "az": "Amur hövzəsində yaşayan tunqus-mancur xalqı.",
+  "en": "Negidal",
+  "pos": "noun"
+ },
+ "nekral zona": {
+  "skip": "meaning not certain"
+ },
+ "nekrobakterioz": {
+  "az": "Heyvanlarda toxumaların ölməsi ilə keçən yoluxucu xəstəlik.",
+  "en": "necrobacillosis",
+  "pos": "noun"
+ },
+ "nekrobiotik": {
+  "skip": "meaning not certain"
+ },
+ "nekrofaq": {
+  "az": "Leşlə qidalanan heyvan.",
+  "en": "necrophage",
+  "pos": "noun"
+ },
+ "nekrofit": {
+  "skip": "meaning not certain"
+ },
+ "nekrofobiya": {
+  "az": "Ölülərdən və ölümdən xəstə qorxu.",
+  "en": "necrophobia",
+  "pos": "noun"
+ },
+ "nekrologiya": {
+  "skip": "meaning not certain"
+ },
+ "nekroloji": {
+  "skip": "meaning not certain"
+ },
+ "nekromantiya": {
+  "az": "Ölülərin ruhunu çağırma ilə falçılıq.",
+  "en": "necromancy",
+  "pos": "noun"
+ },
+ "nekronim": {
+  "az": "Qəbiristanlıq adı.",
+  "en": "cemetery name",
+  "pos": "noun"
+ },
+ "nekroplankton": {
+  "skip": "meaning not certain"
+ },
+ "nektobentos": {
+  "skip": "meaning not certain"
+ },
+ "neqativist": {
+  "skip": "meaning not certain"
+ },
+ "neqativizm": {
+  "az": "Hər şeyi inkar etmə meyli.",
+  "en": "negativism",
+  "pos": "noun"
+ },
+ "neqosiant": {
+  "az": "Topdan satış taciri.",
+  "en": "wholesale merchant",
+  "pos": "noun"
+ },
+ "nelma": {
+  "az": "Şimal çaylarında yaşayan qızılbalıq fəsiləsindən balıq.",
+  "en": "nelma",
+  "pos": "noun"
+ },
+ "nemalit": {
+  "skip": "meaning not certain"
+ },
+ "nematologiya": {
+  "az": "Yumru qurdları öyrənən elm.",
+  "en": "nematology",
+  "pos": "noun"
+ },
+ "nemertin": {
+  "az": "Lentşəkilli dəniz qurdu.",
+  "en": "ribbon worm",
+  "pos": "noun"
+ },
+ "neobiont": {
+  "skip": "meaning not certain"
+ },
+ "neofit": {
+  "az": "Yeni dinə keçmiş şəxs; təzə başlayan.",
+  "en": "neophyte",
+  "pos": "noun"
+ },
+ "neofrost": {
+  "skip": "meaning not certain"
+ },
+ "neoqlobalist": {
+  "skip": "meaning not certain"
+ },
+ "neoqlobalizm": {
+  "skip": "meaning not certain"
+ },
+ "neoplaziya": {
+  "az": "Yeni toxuma, şiş əmələ gəlməsi.",
+  "en": "neoplasia",
+  "pos": "noun"
+ },
+ "neotektonik": {
+  "az": "Neotektonikaya aid.",
+  "en": "neotectonic",
+  "pos": "adjective"
+ },
+ "neoteniya": {
+  "az": "Sürfə mərhələsində çoxalma qabiliyyəti.",
+  "en": "neoteny",
+  "pos": "noun"
+ },
+ "neotip": {
+  "skip": "meaning not certain"
+ },
+ "neotomist": {
+  "az": "Neotomizm tərəfdarı.",
+  "en": "neo-Thomist",
+  "pos": "noun"
+ },
+ "neotomizm": {
+  "az": "Foma Akvinskinin təliminə əsaslanan katolik fəlsəfəsi.",
+  "en": "neo-Thomism",
+  "pos": "noun"
+ },
+ "neper": {
+  "az": "Sönmə və gücləndirmə vahidi.",
+  "en": "neper",
+  "pos": "noun"
+ },
+ "neptunizm": {
+  "az": "Süxurların dəniz suyundan əmələ gəldiyi haqda köhnə nəzəriyyə.",
+  "en": "Neptunism",
+  "pos": "noun"
+ },
+ "nerit": {
+  "skip": "meaning not certain"
+ },
+ "nerunq": {
+  "skip": "meaning not certain"
+ },
+ "nervasiya": {
+  "az": "Yarpağın və ya qanadın damarlanması.",
+  "en": "venation",
+  "pos": "noun"
+ },
+ "nervür": {
+  "az": "Gotik tağın qabarıq qabırğası.",
+  "en": "rib (vault)",
+  "pos": "noun"
+ },
+ "nestor": {
+  "az": "Bir sahənin ən yaşlı və hörmətli nümayəndəsi.",
+  "en": "doyen",
+  "pos": "noun"
+ },
+ "nettinq": {
+  "skip": "meaning not certain"
+ },
+ "nevropatologiya": {
+  "az": "Sinir xəstəliklərini öyrənən tibb sahəsi.",
+  "en": "neuropathology, neurology",
+  "pos": "noun"
+ },
+ "nevropatoloji": {
+  "az": "Nevropatologiyaya aid.",
+  "en": "neurological",
+  "pos": "adjective"
+ },
+ "neybət-neybət": {
+  "skip": "meaning not certain"
+ },
+ "neyroagent": {
+  "skip": "meaning not certain"
+ },
+ "neyroallergiya": {
+  "skip": "meaning not certain"
+ },
+ "neyroanatom": {
+  "az": "Sinir sisteminin anatomiyası üzrə mütəxəssis.",
+  "en": "neuroanatomist",
+  "pos": "noun"
+ },
+ "neyroanatomiya": {
+  "az": "Sinir sisteminin quruluşunu öyrənən elm.",
+  "en": "neuroanatomy",
+  "pos": "noun"
+ },
+ "neyrobiofizik": {
+  "skip": "meaning not certain"
+ },
+ "neyrobiofizika": {
+  "skip": "meaning not certain"
+ },
+ "neyrobiofiziki": {
+  "skip": "meaning not certain"
+ },
+ "neyrobiologiya": {
+  "az": "Sinir sistemini öyrənən biologiya sahəsi.",
+  "en": "neurobiology",
+  "pos": "noun"
+ },
+ "neyrobioloji": {
+  "az": "Neyrobiologiyaya aid.",
+  "en": "neurobiological",
+  "pos": "adjective"
+ },
+ "neyrobioloq": {
+  "az": "Neyrobiologiya üzrə alim.",
+  "en": "neurobiologist",
+  "pos": "noun"
+ },
+ "neyrobionika": {
+  "skip": "meaning not certain"
+ },
+ "neyrodinamik": {
+  "skip": "meaning not certain"
+ },
+ "neyrodinamika": {
+  "skip": "meaning not certain"
+ },
+ "neyrogenetik": {
+  "az": "Neyrogenetikaya aid.",
+  "en": "neurogenetic",
+  "pos": "adjective"
+ },
+ "neyrogenetika": {
+  "az": "Sinir sisteminin irsi xüsusiyyətlərini öyrənən elm.",
+  "en": "neurogenetics",
+  "pos": "noun"
+ },
+ "neyroginekologiya": {
+  "skip": "meaning not certain"
+ },
+ "neyroginekoloji": {
+  "skip": "meaning not certain"
+ },
+ "neyroginekoloq": {
+  "skip": "meaning not certain"
+ },
+ "neyrohematologiya": {
+  "skip": "meaning not certain"
+ },
+ "neyrohematoloji": {
+  "skip": "meaning not certain"
+ },
+ "neyrohematoloq": {
+  "skip": "meaning not certain"
+ },
+ "neyrohistologiya": {
+  "az": "Sinir toxumasını öyrənən elm.",
+  "en": "neurohistology",
+  "pos": "noun"
+ },
+ "neyrohistoloji": {
+  "az": "Neyrohistologiyaya aid.",
+  "en": "neurohistological",
+  "pos": "adjective"
+ },
+ "neyrohistoloq": {
+  "skip": "meaning not certain"
+ },
+ "neyrohumoral": {
+  "az": "Sinir və humoral tənzimləməyə aid.",
+  "en": "neurohumoral",
+  "pos": "adjective"
+ },
+ "neyroinfeksiya": {
+  "az": "Sinir sisteminin yoluxucu xəstəliyi.",
+  "en": "neuroinfection",
+  "pos": "noun"
+ },
+ "neyrokibernetik": {
+  "skip": "meaning not certain"
+ },
+ "neyrokibernetika": {
+  "az": "Sinir sisteminin idarəetmə prinsiplərini öyrənən kibernetika sahəsi.",
+  "en": "neurocybernetics",
+  "pos": "noun"
+ },
+ "neyrokimyəvi": {
+  "az": "Sinir sisteminin kimyasına aid.",
+  "en": "neurochemical",
+  "pos": "adjective"
+ },
+ "neyroqlobulin": {
+  "skip": "meaning not certain"
+ },
+ "neyroleptanalgeziya": {
+  "az": "Neyroleptik və ağrıkəsici ilə aparılan ümumi anesteziya.",
+  "en": "neuroleptanalgesia",
+  "pos": "noun"
+ },
+ "neyroleykoz": {
+  "skip": "meaning not certain"
+ },
+ "neyrolipoma": {
+  "skip": "meaning not certain"
+ },
+ "neyromalyariya": {
+  "skip": "meaning not certain"
+ },
+ "neyromorfologiya": {
+  "skip": "meaning not certain"
+ },
+ "neyromorfoloji": {
+  "skip": "meaning not certain"
+ },
+ "neyroplastika": {
+  "skip": "meaning not certain"
+ },
+ "neyroplazma": {
+  "skip": "meaning not certain"
+ },
+ "neyroplegik": {
+  "skip": "meaning not certain"
+ },
+ "neyroprotektor": {
+  "az": "Sinir hüceyrələrini zədələnmədən qoruyan dərman.",
+  "en": "neuroprotective drug",
+  "pos": "noun"
+ },
+ "neyropsixologiya": {
+  "az": "Psixi proseslərin beyin əsaslarını öyrənən elm.",
+  "en": "neuropsychology",
+  "pos": "noun"
+ },
+ "neyropsixoloji": {
+  "az": "Neyropsixologiyaya aid.",
+  "en": "neuropsychological",
+  "pos": "adjective"
+ },
+ "neyropsixoloq": {
+  "az": "Neyropsixologiya üzrə mütəxəssis.",
+  "en": "neuropsychologist",
+  "pos": "noun"
+ },
+ "neyroşəbəkə": {
+  "az": "Beynin iş prinsipinə əsaslanan hesablama modeli.",
+  "en": "neural network",
+  "pos": "noun"
+ },
+ "neyrotaxometr": {
+  "skip": "meaning not certain"
+ },
+ "neyrotoksikologiya": {
+  "az": "Zəhərli maddələrin sinir sisteminə təsirini öyrənən elm.",
+  "en": "neurotoxicology",
+  "pos": "noun"
+ },
+ "neyrotoksikoloji": {
+  "az": "Neyrotoksikologiyaya aid.",
+  "en": "neurotoxicological",
+  "pos": "adjective"
+ },
+ "neyrotoksikoloq": {
+  "skip": "meaning not certain"
+ },
+ "neystonologiya": {
+  "skip": "meaning not certain"
+ },
+ "neyzilber": {
+  "az": "Mis, nikel və sink ərintisi.",
+  "en": "nickel silver",
+  "pos": "noun"
+ },
+ "nəfis-nəfis": {
+  "skip": "meaning not certain"
+ },
+ "nəm-nüm etmək": {
+  "skip": "meaning not certain"
+ },
+ "nigaran-nigaran": {
+  "az": "Narahatlıqla.",
+  "en": "anxiously",
+  "pos": "adverb"
+ },
+ "nikbin-nikbin": {
+  "az": "Nikbinliklə.",
+  "en": "optimistically",
+  "pos": "adverb"
+ },
+ "nikelin": {
+  "az": "Mis və nikel ərintisi.",
+  "en": "nickeline alloy",
+  "pos": "noun"
+ },
+ "niqrin": {
+  "skip": "meaning not certain"
+ },
+ "nilsborium": {
+  "az": "Süni radioaktiv kimyəvi element, bohrium.",
+  "en": "nielsbohrium (bohrium)",
+  "pos": "noun"
+ },
+ "nimfalid": {
+  "skip": "meaning not certain"
+ },
+ "nimtənə": {
+  "skip": "meaning not certain"
+ },
+ "nisgilli-nisgilli": {
+  "az": "Həsrətlə, kədərlə.",
+  "en": "wistfully",
+  "pos": "adverb"
+ },
+ "nisyəlik": {
+  "skip": "meaning not certain"
+ },
+ "nisyəsiz": {
+  "skip": "meaning not certain"
+ },
+ "nitrobakteriya": {
+  "az": "Nitritləri nitratlara çevirən bakteriya.",
+  "en": "nitrobacter",
+  "pos": "noun"
+ },
+ "nitrobenzol": {
+  "az": "Badam iyli zəhərli nitrobirləşmə.",
+  "en": "nitrobenzene",
+  "pos": "noun"
+ },
+ "nitrobirləşmə": {
+  "az": "Tərkibində nitroqrup olan birləşmə.",
+  "en": "nitro compound",
+  "pos": "noun"
+ },
+ "nitroetilen": {
+  "skip": "meaning not certain"
+ },
+ "nitrofosfat": {
+  "az": "Azotlu-fosforlu gübrə.",
+  "en": "nitrophosphate",
+  "pos": "noun"
+ },
+ "nitroxlorid": {
+  "skip": "meaning not certain"
+ },
+ "nitrokalit": {
+  "skip": "meaning not certain"
+ },
+ "nitrokauçuk": {
+  "skip": "meaning not certain"
+ },
+ "nitroqarışıq": {
+  "skip": "meaning not certain"
+ },
+ "nitroqlikol": {
+  "az": "Partlayıcı maddə.",
+  "en": "nitroglycol",
+  "pos": "noun"
+ },
+ "nitroqliserin": {
+  "az": "Güclü partlayıcı maddə və ürək dərmanı.",
+  "en": "nitroglycerin",
+  "pos": "noun"
+ },
+ "nitronaftalin": {
+  "skip": "meaning not certain"
+ },
+ "nitroörtülü": {
+  "skip": "meaning not certain"
+ },
+ "nitroparafin": {
+  "skip": "meaning not certain"
+ },
+ "nitropolimer": {
+  "skip": "meaning not certain"
+ },
+ "nitropropan": {
+  "skip": "meaning not certain"
+ },
+ "nitrosellüloz": {
+  "az": "Sellülozanın nitrat efiri.",
+  "en": "nitrocellulose",
+  "pos": "noun"
+ },
+ "nitrosulfat": {
+  "skip": "meaning not certain"
+ },
+ "nitrotoluol": {
+  "az": "Toluolun nitrobirləşməsi.",
+  "en": "nitrotoluene",
+  "pos": "noun"
+ },
+ "nizamlı-nizamlı": {
+  "az": "Qaydalı şəkildə.",
+  "en": "in an orderly way",
+  "pos": "adverb"
+ },
+ "nizamsız-nizamsız": {
+  "az": "Qaydasız şəkildə.",
+  "en": "chaotically",
+  "pos": "adverb"
+ },
+ "nizədiş": {
+  "skip": "meaning not certain"
+ },
+ "no-frost": {
+  "az": "Soyuducuda buz yığılmasının qarşısını alan sistem.",
+  "en": "no-frost",
+  "pos": "noun"
+ },
+ "noktambulizm": {
+  "az": "Yuxuda gəzmə.",
+  "en": "sleepwalking",
+  "pos": "noun"
+ },
+ "nomen": {
+  "skip": "meaning not certain"
+ },
+ "nomenklatur-ünvan": {
+  "skip": "meaning not certain"
+ },
+ "nominalist": {
+  "az": "Nominalizm tərəfdarı.",
+  "en": "nominalist",
+  "pos": "noun"
+ },
+ "nominalizm": {
+  "az": "Ümumi anlayışları yalnız ad sayan fəlsəfi təlim.",
+  "en": "nominalism",
+  "pos": "noun"
+ },
+ "nomoqrafiya": {
+  "az": "Nomoqramların qurulması haqqında riyaziyyat bölməsi.",
+  "en": "nomography",
+  "pos": "noun"
+ },
+ "nonparel": {
+  "az": "Kiçik mətbəə şrifti.",
+  "en": "nonpareil (type)",
+  "pos": "noun"
+ },
+ "nori": {
+  "az": "Qurudulmuş dəniz yosunu təbəqəsi.",
+  "en": "nori",
+  "pos": "noun"
+ },
+ "noriya": {
+  "az": "Su qaldıran çarx.",
+  "en": "noria",
+  "pos": "noun"
+ },
+ "nostro": {
+  "az": "Bankın başqa bankdakı hesabı.",
+  "en": "nostro account",
+  "pos": "noun"
+ },
+ "notifikasiya": {
+  "az": "Rəsmi bildiriş.",
+  "en": "notification",
+  "pos": "noun"
+ },
+ "notoqrafik": {
+  "skip": "meaning not certain"
+ },
+ "notoqrafiya": {
+  "skip": "meaning not certain"
+ },
+ "noumen": {
+  "az": "Kant fəlsəfəsində təcrübədən kənar şey.",
+  "en": "noumenon",
+  "pos": "noun"
+ },
+ "novokain": {
+  "az": "Yerli keyləşdirici dərman.",
+  "en": "procaine",
+  "pos": "noun"
+ },
+ "novruziyyə": {
+  "skip": "meaning not certain"
+ },
+ "novur": {
+  "skip": "meaning not certain"
+ },
+ "nozelit": {
+  "skip": "meaning not certain"
+ },
+ "nöqtəli-nöqtəli": {
+  "az": "Nöqtə-nöqtə.",
+  "en": "dotted",
+  "pos": "adjective"
+ },
+ "nudist": {
+  "az": "Çılpaq gəzmə tərəfdarı.",
+  "en": "nudist",
+  "pos": "noun"
+ },
+ "nudizm": {
+  "az": "Çılpaq gəzməni təbliğ edən hərəkat.",
+  "en": "nudism",
+  "pos": "noun"
+ },
+ "nukleaz": {
+  "az": "Nuklein turşularını parçalayan ferment.",
+  "en": "nuclease",
+  "pos": "noun"
+ },
+ "nuklid": {
+  "az": "Müəyyən proton və neytron sayı olan atom növü.",
+  "en": "nuclide",
+  "pos": "noun"
+ },
+ "nuklon": {
+  "az": "Atom nüvəsinin hissəciyi, proton və ya neytron.",
+  "en": "nucleon",
+  "pos": "noun"
+ },
+ "nummulit": {
+  "az": "Qazıntı halında qalmış iri birhüceyrəli.",
+  "en": "nummulite",
+  "pos": "noun"
+ },
+ "nunataq": {
+  "az": "Buzlaqdan çıxan qaya zirvəsi.",
+  "en": "nunatak",
+  "pos": "noun"
+ },
+ "nurlu-nurlu": {
+  "skip": "meaning not certain"
+ },
+ "nuşcanlıq": {
+  "skip": "meaning not certain"
+ },
+ "ober-leytenant": {
+  "az": "Bəzi ordularda baş leytenant rütbəsi.",
+  "en": "first lieutenant",
+  "pos": "noun"
+ },
+ "ober-prokuror": {
+  "az": "Çar Rusiyasında Sinodun başçısı.",
+  "en": "Chief Procurator",
+  "pos": "noun"
+ },
+ "oberton": {
+  "az": "Əsas tonla birgə səslənən yuxarı ton.",
+  "en": "overtone",
+  "pos": "noun"
+ },
+ "oblast": {
+  "az": "Vilayət.",
+  "en": "oblast, region",
+  "pos": "noun"
+ },
+ "obstruksionizm": {
+  "skip": "meaning not certain"
+ },
+ "obturator": {
+  "az": "Dəliyi bağlayan qurğu və ya protez.",
+  "en": "obturator",
+  "pos": "noun"
+ },
+ "obyektivizm": {
+  "az": "Obyektivlik prinsipi.",
+  "en": "objectivism",
+  "pos": "noun"
+ },
+ "od-his": {
+  "skip": "meaning not certain"
+ },
+ "od-köz": {
+  "skip": "meaning not certain"
+ },
+ "odometriya": {
+  "skip": "meaning not certain"
+ },
+ "oftalmiya": {
+  "az": "Gözün iltihabı.",
+  "en": "ophthalmia",
+  "pos": "noun"
+ },
+ "oxaqaçma": {
+  "skip": "meaning not certain"
+ },
+ "oxcüllüt": {
+  "skip": "meaning not certain"
+ },
+ "oxçətir": {
+  "skip": "meaning not certain"
+ },
+ "ox-ilan": {
+  "skip": "meaning not certain"
+ },
+ "oxra": {
+  "az": "Sarı və ya qırmızı təbii boyaq.",
+  "en": "ochre",
+  "pos": "noun"
+ },
+ "okapi": {
+  "az": "Zürafəkimilərdən Afrika heyvanı.",
+  "en": "okapi",
+  "pos": "noun"
+ },
+ "okeanoqraf": {
+  "az": "Okeanoqrafiya üzrə alim.",
+  "en": "oceanographer",
+  "pos": "noun"
+ },
+ "okser": {
+  "az": "Atçılıqda yüksək maneə.",
+  "en": "oxer",
+  "pos": "noun"
+ },
+ "oksidental": {
+  "az": "Qərbə aid.",
+  "en": "occidental",
+  "pos": "adjective"
+ },
+ "oksihomometriya": {
+  "skip": "meaning not certain"
+ },
+ "oksiton": {
+  "az": "Vurğusu son hecada olan söz.",
+  "en": "oxytone",
+  "pos": "noun"
+ },
+ "oksiturşu": {
+  "az": "Hidroksil qrupu olan karbon turşusu.",
+  "en": "hydroxy acid",
+  "pos": "noun"
+ },
+ "oktola": {
+  "skip": "meaning not certain"
+ },
+ "oqon": {
+  "skip": "meaning not certain"
+ },
+ "o-laşma": {
+  "skip": "meaning not certain"
+ },
+ "oleoqrafik": {
+  "skip": "meaning not certain"
+ },
+ "oleoqrafiya": {
+  "az": "Yağlı boya rəsmini təqlid edən rəngli çap.",
+  "en": "oleography",
+  "pos": "noun"
+ },
+ "olmaya-olmaya": {
+  "skip": "meaning not certain"
+ },
+ "olmaz-olmaz": {
+  "skip": "meaning not certain"
+ },
+ "omik": {
+  "skip": "meaning not certain"
+ },
+ "ommatidi": {
+  "az": "Mürəkkəb gözün ayrıca gözcüyü.",
+  "en": "ommatidium",
+  "pos": "noun"
+ },
+ "omomorfem": {
+  "skip": "meaning not certain"
+ },
+ "om-santimetr": {
+  "skip": "meaning not certain"
+ },
+ "onaltımərtəbə": {
+  "skip": "meaning not certain"
+ },
+ "ondatra": {
+  "az": "Qiymətli xəzi olan su gəmiricisi.",
+  "en": "muskrat",
+  "pos": "noun"
+ },
+ "onixiya": {
+  "az": "Dırnaq yatağının iltihabı.",
+  "en": "onychia",
+  "pos": "noun"
+ },
+ "onomalogiya": {
+  "skip": "meaning not certain"
+ },
+ "onomaloji": {
+  "skip": "meaning not certain"
+ }
+}
