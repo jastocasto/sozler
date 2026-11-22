@@ -1,0 +1,1200 @@
+{
+"kortalmaq": {
+"skip": "meaning not known with confidence"
+},
+"kosmetoloq": {
+"az": "Kosmetologiya üzrə mütəxəssis.",
+"en": "cosmetologist",
+"pos": "noun"
+},
+"kökən": {
+"az": "Mənşə, əsil.",
+"en": "origin, root",
+"pos": "noun"
+},
+"könlüqubar": {
+"az": "Könlü qubarlı, qəmli.",
+"en": "heavy-hearted",
+"pos": "adjective"
+},
+"könüllənmək": {
+"az": "Könülsüz olmaq; incimək.",
+"en": "to take offence",
+"pos": "verb"
+},
+"köpəşimək": {
+"skip": "meaning not known with confidence"
+},
+"köpgər": {
+"skip": "meaning not known with confidence"
+},
+"kösövləmək": {
+"az": "Kösövlə qurdalamaq.",
+"en": "to poke with a firebrand",
+"pos": "verb"
+},
+"köşəkləmək": {
+"skip": "meaning not known with confidence"
+},
+"kötüklənmək": {
+"az": "Kötük kimi qalmaq.",
+"en": "to become stump-like",
+"pos": "verb"
+},
+"kötür": {
+"skip": "meaning not known with confidence"
+},
+"kreditləmək": {
+"az": "Kredit vermək.",
+"en": "to lend, to credit",
+"pos": "verb"
+},
+"krevetka": {
+"az": "Kiçik dəniz xərçəngkimisi.",
+"en": "shrimp",
+"pos": "noun"
+},
+"kros": {
+"az": "Kobud ərazidə qaçış yarışı.",
+"en": "cross-country race",
+"pos": "noun"
+},
+"krosovka": {
+"az": "İdman ayaqqabısı.",
+"en": "trainer, sneaker",
+"pos": "noun"
+},
+"kuklaşünas": {
+"az": "Kuklaları və kukla teatrını öyrənən mütəxəssis.",
+"en": "puppetry scholar",
+"pos": "noun"
+},
+"kulinar": {
+"az": "Aşpazlıq ustası.",
+"en": "culinary expert",
+"pos": "noun"
+},
+"kulturist": {
+"az": "Bədən quruculuğu ilə məşğul olan idmançı.",
+"en": "bodybuilder",
+"pos": "noun"
+},
+"kumir": {
+"az": "Pərəstiş obyekti, büt.",
+"en": "idol",
+"pos": "noun"
+},
+"küpləmək": {
+"az": "Küpə doldurmaq.",
+"en": "to put in jars",
+"pos": "verb"
+},
+"kürdşünas": {
+"az": "Kürd dili və mədəniyyətini öyrənən alim.",
+"en": "Kurdologist",
+"pos": "noun"
+},
+"kürətdirmək": {
+"skip": "meaning not known with confidence"
+},
+"kvadratlamaq": {
+"az": "Kvadratlara bölmək.",
+"en": "to divide into squares",
+"pos": "verb"
+},
+"qabıqlamaq": {
+"az": "Qabığını soymaq.",
+"en": "to peel",
+"pos": "verb"
+},
+"qablandırılmaq": {
+"az": "Qablaşdırılmaq.",
+"en": "to be packaged",
+"pos": "verb"
+},
+"qadınpərəst": {
+"az": "Qadın düşkünü.",
+"en": "womanizer",
+"pos": "noun"
+},
+"qaxsıdılmaq": {
+"skip": "meaning not known with confidence"
+},
+"qalıcı": {
+"az": "Daimi, qalan.",
+"en": "lasting, permanent",
+"pos": "adjective"
+},
+"qalvanopalçıq": {
+"az": "Elektrik cərəyanı ilə birgə tətbiq edilən müalicəvi palçıq.",
+"en": "galvanic mud therapy",
+"pos": "noun"
+},
+"qanadıyekə": {
+"az": "Qanadı iri.",
+"en": "large-winged",
+"pos": "adjective"
+},
+"qanıbir": {
+"az": "Eyni qandan olan.",
+"en": "of the same blood",
+"pos": "adjective"
+},
+"qanıqaçıq": {
+"az": "Rəngi qaçmış, solğun.",
+"en": "pale",
+"pos": "adjective"
+},
+"qanıqatı": {
+"az": "Qanı qatı; inadkar.",
+"en": "thick-blooded; stubborn",
+"pos": "adjective"
+},
+"qanıqatışıq": {
+"az": "Qanı qarışıq, metis.",
+"en": "of mixed blood",
+"pos": "adjective"
+},
+"qanıqlatmaq": {
+"skip": "meaning not known with confidence"
+},
+"qansızlamaq": {
+"az": "Qansız qalmaq.",
+"en": "to become bloodless",
+"pos": "verb"
+},
+"qarakol": {
+"skip": "meaning not known with confidence"
+},
+"qarğınmaq": {
+"skip": "meaning not known with confidence"
+},
+"qarınpərəst": {
+"az": "Qarnının qulu.",
+"en": "glutton",
+"pos": "noun"
+},
+"qarışmaz": {
+"az": "Başqası ilə qarışmayan.",
+"en": "immiscible; aloof",
+"pos": "adjective"
+},
+"qarnıkök": {
+"az": "Qarnı kök, dolğun.",
+"en": "pot-bellied",
+"pos": "adjective"
+},
+"qatqılanmaq": {
+"skip": "meaning not known with confidence"
+},
+"qatlatdırmaq": {
+"az": "Başqasına qatlatmaq.",
+"en": "to have folded",
+"pos": "verb"
+},
+"qavram": {
+"az": "Anlayış.",
+"en": "concept",
+"pos": "noun"
+},
+"qazmaqlaşmaq": {
+"skip": "meaning not known with confidence"
+},
+"qazogenerator": {
+"az": "Bərk yanacaqdan yanar qaz alan qurğu.",
+"en": "gas generator",
+"pos": "noun"
+},
+"qeyri-kompetent": {
+"az": "Səriştəsiz.",
+"en": "incompetent",
+"pos": "adjective"
+},
+"qeyri-proporsional": {
+"az": "Mütənasib olmayan.",
+"en": "disproportionate",
+"pos": "adjective"
+},
+"qəbullanmaq": {
+"az": "Qəbul edilmək.",
+"en": "to be accepted",
+"pos": "verb"
+},
+"qədəri": {
+"az": "Qəza-qədərə aid; qismət.",
+"en": "fated",
+"pos": "adjective"
+},
+"qəhvəcil": {
+"az": "Qəhvəni çox sevən.",
+"en": "coffee lover",
+"pos": "noun"
+},
+"qəlbiaçıq": {
+"az": "Səmimi, açıqürəkli.",
+"en": "open-hearted",
+"pos": "adjective"
+},
+"qələvilənmək": {
+"az": "Qələvi xassəsi almaq.",
+"en": "to become alkaline",
+"pos": "verb"
+},
+"qələvilətmək": {
+"az": "Qələviləşdirmək.",
+"en": "to alkalize",
+"pos": "verb"
+},
+"qəlibləşdirilmək": {
+"az": "Qəlibə salınmaq.",
+"en": "to be stereotyped",
+"pos": "verb"
+},
+"qərbpərəst": {
+"az": "Qərbə pərəstiş edən.",
+"en": "Westernizer",
+"pos": "noun"
+},
+"qərbşünas": {
+"az": "Qərb ölkələrini öyrənən alim.",
+"en": "Occidentalist",
+"pos": "noun"
+},
+"qərməti": {
+"skip": "meaning not known with confidence"
+},
+"qətilətmək": {
+"az": "Qətiləşdirmək.",
+"en": "to make final",
+"pos": "verb"
+},
+"qıcışmaq": {
+"az": "Qaşınmaq, göynəmək.",
+"en": "to itch",
+"pos": "verb"
+},
+"qığılcımlatmaq": {
+"az": "Qığılcım saçdırmaq.",
+"en": "to make spark",
+"pos": "verb"
+},
+"qıncalmaq": {
+"skip": "meaning not known with confidence"
+},
+"qıncamaq": {
+"skip": "meaning not known with confidence"
+},
+"qırmızılamaq": {
+"az": "Qırmızı rəngə boyamaq.",
+"en": "to paint red",
+"pos": "verb"
+},
+"qırtıldanmaq": {
+"skip": "meaning not known with confidence"
+},
+"qırtıldaşmaq": {
+"skip": "meaning not known with confidence"
+},
+"qısqırmaq": {
+"skip": "meaning not known with confidence"
+},
+"qıvırcıqlamaq": {
+"az": "Qıvırmaq, buruq etmək.",
+"en": "to curl",
+"pos": "verb"
+},
+"qıvrımlatmaq": {
+"az": "Qıvrım etdirmək.",
+"en": "to have curled",
+"pos": "verb"
+},
+"qıyğacılatmaq": {
+"skip": "meaning not known with confidence"
+},
+"qıymaz": {
+"az": "Qıyıb verə bilməyən, xəsis.",
+"en": "stingy",
+"pos": "adjective"
+},
+"qızırqalamaq": {
+"skip": "meaning not known with confidence"
+},
+"qiymətlətdirmək": {
+"az": "Başqasına qiymət qoydurmaq.",
+"en": "to have valued",
+"pos": "verb"
+},
+"qlaukonit": {
+"az": "Dəniz çöküntülərində yaranan yaşıl mineral.",
+"en": "glauconite",
+"pos": "noun"
+},
+"qlobigerin": {
+"az": "Əhəngli qabıqlı birhüceyrəli dəniz orqanizmi.",
+"en": "globigerina",
+"pos": "noun"
+},
+"qoluşikəst": {
+"az": "Qolu şikəst.",
+"en": "with a crippled arm",
+"pos": "adjective"
+},
+"qorqudşünas": {
+"az": "\"Kitabi-Dədə Qorqud\" dastanlarını öyrənən alim.",
+"en": "scholar of the Dede Korkut epic",
+"pos": "noun"
+},
+"qovuqlamaq": {
+"az": "Qovuq-qovuq olmaq.",
+"en": "to blister",
+"pos": "verb"
+},
+"qozaoxşar": {
+"az": "Qozaya oxşayan.",
+"en": "boll-like",
+"pos": "adjective"
+},
+"qrafoman": {
+"az": "Yazmağa xəstəlik dərəcəsində həvəsli, istedadsız müəllif.",
+"en": "graphomaniac",
+"pos": "noun"
+},
+"qranulyator": {
+"az": "Maddəni dənəvər hala salan qurğu.",
+"en": "granulator",
+"pos": "noun"
+},
+"qravürləmək": {
+"az": "Qravür hazırlamaq.",
+"en": "to engrave",
+"pos": "verb"
+},
+"qreyfer": {
+"az": "Toplu yükləri tutan çalovlu qurğu.",
+"en": "grab bucket",
+"pos": "noun"
+},
+"qrosmeyster": {
+"az": "Ən yüksək şahmat adı.",
+"en": "grandmaster",
+"pos": "noun"
+},
+"qründer": {
+"az": "Spekulyativ şirkət təsisçisi.",
+"en": "company promoter",
+"pos": "noun"
+},
+"qubarlamaq": {
+"az": "Qəmlənmək.",
+"en": "to become sorrowful",
+"pos": "verb"
+},
+"qumbrin": {
+"az": "Gil kimi süxur, ağardıcı torpaq.",
+"en": "gumbrine (clay)",
+"pos": "noun"
+},
+"qurdürək": {
+"az": "Qorxmaz, cəsur.",
+"en": "lion-hearted",
+"pos": "adjective"
+},
+"quruot": {
+"az": "Quru ot, yonca.",
+"en": "hay",
+"pos": "noun"
+},
+"qutsal": {
+"az": "Müqəddəs.",
+"en": "holy",
+"pos": "adjective"
+},
+"quttaperça": {
+"az": "Bəzi ağacların şirəsindən alınan kauçuka bənzər maddə.",
+"en": "gutta-percha",
+"pos": "noun"
+},
+"qutturallaşmaq": {
+"az": "Boğaz səsinə çevrilmək.",
+"en": "to become guttural",
+"pos": "verb"
+},
+"qutulamaq": {
+"az": "Qutulara yığmaq.",
+"en": "to box",
+"pos": "verb"
+},
+"labil": {
+"az": "Dəyişkən, qeyri-sabit.",
+"en": "labile, unstable",
+"pos": "adjective"
+},
+"laklandırılmaq": {
+"az": "Laklanmaq.",
+"en": "to be varnished",
+"pos": "verb"
+},
+"laləüz": {
+"az": "Üzü lalə kimi qırmızı.",
+"en": "tulip-faced, rosy-cheeked",
+"pos": "adjective"
+},
+"laminasiyalanmaq": {
+"az": "Laminasiya edilmək.",
+"en": "to be laminated",
+"pos": "verb"
+},
+"landşaftşünas": {
+"az": "Landşaftları öyrənən alim.",
+"en": "landscape scientist",
+"pos": "noun"
+},
+"laslamaq": {
+"skip": "meaning not known with confidence"
+},
+"latayırçı": {
+"skip": "meaning not known with confidence"
+},
+"latent": {
+"az": "Gizli, aşkar olmayan.",
+"en": "latent",
+"pos": "adjective"
+},
+"latınşünas": {
+"az": "Latın dilini öyrənən alim.",
+"en": "Latinist",
+"pos": "noun"
+},
+"latifundiya": {
+"az": "İri torpaq mülkü.",
+"en": "latifundium",
+"pos": "noun"
+},
+"layihələmək": {
+"az": "Layihələndirmək.",
+"en": "to design, to plan",
+"pos": "verb"
+},
+"lələkləmək": {
+"az": "Lələklə bəzəmək.",
+"en": "to feather",
+"pos": "verb"
+},
+"lətifəbaz": {
+"az": "Lətifə danışmağı sevən.",
+"en": "joker, anecdote teller",
+"pos": "noun"
+},
+"likvid": {
+"az": "Asanlıqla pula çevrilə bilən.",
+"en": "liquid (asset)",
+"pos": "adjective"
+},
+"linoleumlatdırmaq": {
+"az": "Başqasına linoleum döşətmək.",
+"en": "to have linoleum laid",
+"pos": "verb"
+},
+"liter": {
+"az": "Növbəti hərf işarəsi; çap hərfi.",
+"en": "letter (in a numbering)",
+"pos": "noun"
+},
+"lokator": {
+"az": "Obyektlərin yerini radio və ya səs dalğaları ilə təyin edən qurğu.",
+"en": "locator, radar",
+"pos": "noun"
+},
+"lokomobil": {
+"az": "Səyyar buxar maşını.",
+"en": "locomobile",
+"pos": "noun"
+},
+"lopalamaq": {
+"az": "Topa-topa etmək.",
+"en": "to clump",
+"pos": "verb"
+},
+"loto": {
+"az": "Rəqəmli kartlarla oynanan stolüstü oyun.",
+"en": "lotto",
+"pos": "noun"
+},
+"lotulanmaq": {
+"az": "Lotu kimi davranmaq.",
+"en": "to act the rascal",
+"pos": "verb"
+},
+"lujise": {
+"skip": "meaning not known with confidence"
+},
+"macərabaz": {
+"az": "Macəra axtaran.",
+"en": "adventurer",
+"pos": "noun"
+},
+"mafioz": {
+"az": "Mafiyaya aid.",
+"en": "mafia-related",
+"pos": "adjective"
+},
+"mafiyabaz": {
+"az": "Mafiya üzvü.",
+"en": "mafioso",
+"pos": "noun"
+},
+"mahcamal": {
+"az": "Ay üzlü, gözəl.",
+"en": "moon-faced, beautiful",
+"pos": "adjective"
+},
+"mailləndirilmək": {
+"az": "Maili hala salınmaq.",
+"en": "to be tilted",
+"pos": "verb"
+},
+"makler": {
+"az": "Birjada vasitəçi.",
+"en": "broker",
+"pos": "noun"
+},
+"maksimalçı": {
+"az": "Maksimal tələblər irəli sürən.",
+"en": "maximalist",
+"pos": "noun"
+},
+"maqnetit": {
+"az": "Qara rəngli maqnitli dəmir filizi.",
+"en": "magnetite",
+"pos": "noun"
+},
+"manyak": {
+"az": "Bir fikrə xəstəlik dərəcəsində bağlı adam.",
+"en": "maniac",
+"pos": "noun"
+},
+"maopərəst": {
+"az": "Mao Tszedun tərəfdarı.",
+"en": "Maoist",
+"pos": "noun"
+},
+"marginal": {
+"az": "Kənar, ikinci dərəcəli; cəmiyyətin kənarında qalan.",
+"en": "marginal",
+"pos": "adjective"
+},
+"marjinal": {
+"az": "Marginal.",
+"en": "marginal",
+"pos": "adjective"
+},
+"marker": {
+"az": "Qalın uclu flomaster; nişan.",
+"en": "marker",
+"pos": "noun"
+},
+"mazoxist": {
+"az": "Əzab çəkməkdən həzz alan.",
+"en": "masochist",
+"pos": "noun"
+},
+"mehdiçi": {
+"az": "Mehdi təliminin tərəfdarı.",
+"en": "Mahdist",
+"pos": "noun"
+},
+"mehmandar": {
+"az": "Qonaqları qarşılayan, qonaq qəbul edən.",
+"en": "host, receiver of guests",
+"pos": "noun"
+},
+"mehmanlamaq": {
+"az": "Qonaq etmək.",
+"en": "to host",
+"pos": "verb"
+},
+"meqafon": {
+"az": "Səsi gücləndirən buynuz şəkilli cihaz.",
+"en": "megaphone",
+"pos": "noun"
+},
+"menisk": {
+"az": "Diz oynağında qığırdaq; mayenin əyri səthi.",
+"en": "meniscus",
+"pos": "noun"
+},
+"mental": {
+"az": "Zehni, əqli.",
+"en": "mental",
+"pos": "adjective"
+},
+"merkantil": {
+"az": "Tamahkar, hesabçı.",
+"en": "mercantile",
+"pos": "adjective"
+},
+"mesenat": {
+"az": "Elm və sənəti himayə edən.",
+"en": "patron of the arts",
+"pos": "noun"
+},
+"meşələnmək": {
+"az": "Meşə basmaq.",
+"en": "to become wooded",
+"pos": "verb"
+},
+"metalabənzər": {
+"az": "Metala bənzər.",
+"en": "metal-like",
+"pos": "adjective"
+},
+"metastabil": {
+"az": "Yalançı sabit.",
+"en": "metastable",
+"pos": "adjective"
+},
+"meteohəssas": {
+"az": "Hava dəyişikliyinə həssas.",
+"en": "weather-sensitive",
+"pos": "adjective"
+},
+"metillənmək": {
+"az": "Metil qrupu birləşdirilmək.",
+"en": "to be methylated",
+"pos": "verb"
+},
+"metlaxlatdırmaq": {
+"az": "Başqasına metlax döşətmək.",
+"en": "to have metlakh tiles laid",
+"pos": "verb"
+},
+"meyillətmək": {
+"az": "Meyilləndirmək.",
+"en": "to incline",
+"pos": "verb"
+},
+"meypərəst": {
+"az": "Şərab düşkünü.",
+"en": "wine lover",
+"pos": "noun"
+},
+"meyvəpərəst": {
+"az": "Meyvəni çox sevən.",
+"en": "fruit lover",
+"pos": "noun"
+},
+"mədəniyyətşünas": {
+"az": "Mədəniyyəti öyrənən alim.",
+"en": "cultural studies scholar",
+"pos": "noun"
+},
+"məfhumi": {
+"az": "Anlayışa aid.",
+"en": "conceptual",
+"pos": "adjective"
+},
+"məxəzşünas": {
+"az": "Mənbələri öyrənən alim.",
+"en": "source studies scholar",
+"pos": "noun"
+},
+"məktəbşünas": {
+"az": "Məktəb təhsilini öyrənən mütəxəssis.",
+"en": "education scholar",
+"pos": "noun"
+},
+"məqsədyönümlü": {
+"az": "Məqsədə yönəlmiş.",
+"en": "goal-oriented",
+"pos": "adjective"
+},
+"məlahətlənmək": {
+"az": "Məlahətli olmaq.",
+"en": "to become charming",
+"pos": "verb"
+},
+"mənimsədilmək": {
+"az": "Mənimsənilməsinə çalışılmaq.",
+"en": "to be made to assimilate",
+"pos": "verb"
+},
+"mərəçüyüd": {
+"skip": "meaning not known with confidence"
+},
+"mərgimüş": {
+"skip": "meaning not known with confidence"
+},
+"mərhəmətkar": {
+"az": "Mərhəmətli.",
+"en": "merciful",
+"pos": "adjective"
+},
+"mırıldaşmaq": {
+"az": "Bir-biri ilə mırıldamaq.",
+"en": "to mumble together",
+"pos": "verb"
+},
+"mırtlaşmaq": {
+"skip": "meaning not known with confidence"
+},
+"mızıldaşmaq": {
+"az": "Bir-biri ilə mızıldamaq.",
+"en": "to mutter together",
+"pos": "verb"
+},
+"mifşünas": {
+"az": "Mifləri öyrənən alim.",
+"en": "mythologist",
+"pos": "noun"
+},
+"mikoloq": {
+"az": "Göbələkləri öyrənən alim.",
+"en": "mycologist",
+"pos": "noun"
+},
+"mikotrof": {
+"az": "Göbələklə simbioz halında qidalanan.",
+"en": "mycotrophic",
+"pos": "adjective"
+},
+"mikrosefaliya": {
+"az": "Başın və beynin anadangəlmə kiçikliyi.",
+"en": "microcephaly",
+"pos": "noun"
+},
+"millətbaz": {
+"az": "Millətçiliyi alver vasitəsinə çevirən.",
+"en": "demagogic nationalist",
+"pos": "noun"
+},
+"millətsevən": {
+"az": "Millətini sevən.",
+"en": "patriotic",
+"pos": "adjective"
+},
+"millətsevər": {
+"az": "Millətini sevən.",
+"en": "patriotic",
+"pos": "adjective"
+},
+"mirzəcəlilşünas": {
+"az": "Cəlil Məmmədquluzadənin yaradıcılığını öyrənən alim.",
+"en": "scholar of Jalil Mammadguluzadeh",
+"pos": "noun"
+},
+"mitinqbaz": {
+"az": "Mitinqləri sevən.",
+"en": "rally enthusiast",
+"pos": "noun"
+},
+"mitralyoz": {
+"az": "Köhnə çoxlüləli pulemyot.",
+"en": "mitrailleuse",
+"pos": "noun"
+},
+"moda": {
+"az": "Müəyyən vaxtda geniş yayılmış zövq, dəb.",
+"en": "fashion",
+"pos": "noun"
+},
+"modal": {
+"az": "Modallıq bildirən.",
+"en": "modal",
+"pos": "adjective"
+},
+"moderator": {
+"az": "Müzakirəni idarə edən şəxs.",
+"en": "moderator",
+"pos": "noun"
+},
+"modullatmaq": {
+"az": "Modulyasiya etmək.",
+"en": "to modulate",
+"pos": "verb"
+},
+"moizəxan": {
+"az": "Moizə oxuyan.",
+"en": "preacher",
+"pos": "noun"
+},
+"mollanəsrəddinçi": {
+"az": "\"Molla Nəsrəddin\" jurnalının ətrafındakı yazıçılardan.",
+"en": "member of the Molla Nasreddin circle",
+"pos": "noun"
+},
+"mollanəsrəddinşünas": {
+"az": "\"Molla Nəsrəddin\" jurnalını öyrənən alim.",
+"en": "scholar of Molla Nasreddin",
+"pos": "noun"
+},
+"monax": {
+"az": "Rahib.",
+"en": "monk",
+"pos": "noun"
+},
+"monqolabənzər": {
+"az": "Monqollara bənzəyən.",
+"en": "Mongoloid",
+"pos": "adjective"
+},
+"monqolaoxşar": {
+"az": "Monqollara oxşayan.",
+"en": "Mongoloid",
+"pos": "adjective"
+},
+"monoqam": {
+"az": "Bir arvadla evli olan.",
+"en": "monogamous",
+"pos": "adjective"
+},
+"monopol": {
+"az": "İnhisarçı.",
+"en": "monopolistic",
+"pos": "adjective"
+},
+"monumentalist": {
+"az": "Monumental sənət ustası.",
+"en": "monumentalist",
+"pos": "noun"
+},
+"morfoloq": {
+"az": "Morfologiya üzrə mütəxəssis.",
+"en": "morphologist",
+"pos": "noun"
+},
+"morqan": {
+"az": "Genetikada xromosomlar arası məsafə vahidi.",
+"en": "morgan (unit)",
+"pos": "noun"
+},
+"motivlənmək": {
+"az": "Motiv qazanmaq, həvəslənmək.",
+"en": "to become motivated",
+"pos": "verb"
+},
+"motobol": {
+"az": "Motosikletlə oynanan futbol.",
+"en": "motoball",
+"pos": "noun"
+},
+"mövləviyyə": {
+"az": "Mövlana Cəlaləddin Ruminin əsasını qoyduğu sufi təriqəti.",
+"en": "Mevlevi order",
+"pos": "noun"
+},
+"mufel": {
+"az": "Odadavamlı qapalı qızdırma kamerası.",
+"en": "muffle (furnace)",
+"pos": "noun"
+},
+"muğampərəst": {
+"az": "Muğamı sevən.",
+"en": "mugham lover",
+"pos": "noun"
+},
+"multikultural": {
+"az": "Çoxmədəniyyətli.",
+"en": "multicultural",
+"pos": "adjective"
+},
+"muncuqlamaq": {
+"az": "Muncuqla bəzəmək.",
+"en": "to bead",
+"pos": "verb"
+},
+"mübarizlənmək": {
+"az": "Mübariz olmaq.",
+"en": "to become militant",
+"pos": "verb"
+},
+"müxalifətyönümlü": {
+"az": "Müxalifətə meylli.",
+"en": "opposition-leaning",
+"pos": "adjective"
+},
+"müxtəsərlətmək": {
+"az": "Qısaltmaq.",
+"en": "to abridge",
+"pos": "verb"
+},
+"mükəmməllətmək": {
+"az": "Mükəmməlləşdirmək.",
+"en": "to perfect",
+"pos": "verb"
+},
+"müqayisələndirilmək": {
+"az": "Müqayisə edilmək.",
+"en": "to be compared",
+"pos": "verb"
+},
+"müqayisələnmək": {
+"az": "Müqayisə olunmaq.",
+"en": "to be compared",
+"pos": "verb"
+},
+"münbitləndirilmək": {
+"az": "Münbit edilmək.",
+"en": "to be made fertile",
+"pos": "verb"
+},
+"münbitlətmək": {
+"az": "Münbitləşdirmək.",
+"en": "to fertilize",
+"pos": "verb"
+},
+"müşfiqşünas": {
+"az": "Mikayıl Müşfiqin yaradıcılığını öyrənən alim.",
+"en": "scholar of Mikayil Mushfig",
+"pos": "noun"
+},
+"nanolaşdırmaq": {
+"az": "Nano ölçüyə salmaq.",
+"en": "to nanosize",
+"pos": "verb"
+},
+"narkobaron": {
+"az": "Narkotik ticarətinin başçısı.",
+"en": "drug lord",
+"pos": "noun"
+},
+"narkoman": {
+"az": "Narkotik aludəçisi.",
+"en": "drug addict",
+"pos": "noun"
+},
+"natura": {
+"az": "Əsl görünüş; əmtəə şəklində ödəniş (natura ilə).",
+"en": "nature; payment in kind",
+"pos": "noun"
+},
+"naturfəlsəfə": {
+"az": "Təbiət fəlsəfəsi.",
+"en": "natural philosophy",
+"pos": "noun"
+},
+"nazildilmək": {
+"az": "Nazildilib incəldilmək.",
+"en": "to be thinned",
+"pos": "verb"
+},
+"nefelin": {
+"az": "Qələvi alüminium silikatı mineralı.",
+"en": "nepheline",
+"pos": "noun"
+},
+"neyrokimya": {
+"az": "Sinir sisteminin kimyasını öyrənən elm.",
+"en": "neurochemistry",
+"pos": "noun"
+},
+"nəbatişünas": {
+"az": "Nəbatinin yaradıcılığını öyrənən alim.",
+"en": "scholar of Nabati",
+"pos": "noun"
+},
+"nəfslənmək": {
+"az": "Nəfsə qapılmaq.",
+"en": "to become greedy",
+"pos": "verb"
+},
+"nəhsləmək": {
+"az": "Nəhs saymaq.",
+"en": "to consider ominous",
+"pos": "verb"
+},
+"nəqqaş": {
+"az": "Naxış çəkən rəssam.",
+"en": "ornamental painter",
+"pos": "noun"
+},
+"nəqqaşkar": {
+"az": "Nəqqaş.",
+"en": "ornamental painter",
+"pos": "noun"
+},
+"nəqşbəndi": {
+"az": "Nəqşbəndi təriqətinin üzvü.",
+"en": "Naqshbandi",
+"pos": "noun"
+},
+"nəmləmək": {
+"az": "Nəm etmək.",
+"en": "to moisten",
+"pos": "verb"
+},
+"nərmənazik": {
+"az": "Zərif, incə.",
+"en": "delicate",
+"pos": "adjective"
+},
+"nəsildaş": {
+"az": "Eyni nəsildən olan.",
+"en": "contemporary, peer",
+"pos": "noun"
+},
+"nəsimişünas": {
+"az": "Nəsiminin yaradıcılığını öyrənən alim.",
+"en": "scholar of Nasimi",
+"pos": "noun"
+},
+"nəticəyönümlü": {
+"az": "Nəticəyə yönəlmiş.",
+"en": "results-oriented",
+"pos": "adjective"
+},
+"nitqləndirmək": {
+"az": "Nitq qabiliyyəti vermək.",
+"en": "to give speech to",
+"pos": "verb"
+},
+"nitrolaşdırmaq": {
+"az": "Nitrolaşdırma aparmaq, nitro qrupu daxil etmək.",
+"en": "to nitrate",
+"pos": "verb"
+},
+"nitsşeçi": {
+"az": "Nitşe fəlsəfəsinin tərəfdarı.",
+"en": "Nietzschean",
+"pos": "noun"
+},
+"nivelir": {
+"az": "Yerin hündürlük fərqlərini ölçən cihaz.",
+"en": "level (surveying)",
+"pos": "noun"
+},
+"nizamişünas": {
+"az": "Nizaminin yaradıcılığını öyrənən alim.",
+"en": "scholar of Nizami",
+"pos": "noun"
+},
+"normallatmaq": {
+"az": "Normallaşdırmaq.",
+"en": "to normalize",
+"pos": "verb"
+},
+"nöqtəvi": {
+"az": "Nöqtə şəklində.",
+"en": "point-like, punctate",
+"pos": "adjective"
+},
+"növləndirilmək": {
+"az": "Növlərə bölünmək.",
+"en": "to be classified",
+"pos": "verb"
+},
+"nümunəviləşdirilmək": {
+"az": "Nümunəvi hala gətirilmək.",
+"en": "to be made exemplary",
+"pos": "verb"
+},
+"nüsxələmək": {
+"az": "Nüsxəsini çıxarmaq.",
+"en": "to copy",
+"pos": "verb"
+},
+"nyuton": {
+"az": "Qüvvə vahidi.",
+"en": "newton",
+"pos": "noun"
+},
+"ocaqlamaq": {
+"az": "Ocaq qalamaq.",
+"en": "to build a hearth fire",
+"pos": "verb"
+},
+"od-atəş": {
+"az": "Od, alov.",
+"en": "fire",
+"pos": "noun"
+},
+"odlaşmaq": {
+"az": "Alovlanmaq.",
+"en": "to flare up",
+"pos": "verb"
+},
+"oxçu": {
+"az": "Oxatan.",
+"en": "archer",
+"pos": "noun"
+},
+"ox-yaraq": {
+"az": "Ox və silah.",
+"en": "bow and arms",
+"pos": "noun"
+},
+"okeanşünas": {
+"az": "Okeanları öyrənən alim.",
+"en": "oceanographer",
+"pos": "noun"
+},
+"oleandr": {
+"az": "Həmişəyaşıl zəhərli bəzək kolu.",
+"en": "oleander",
+"pos": "noun"
+},
+"operasevər": {
+"az": "Operanı sevən.",
+"en": "opera lover",
+"pos": "noun"
+},
+"ordinator": {
+"az": "Xəstəxanada həkim-rezident.",
+"en": "resident physician",
+"pos": "noun"
+},
+"otladılmaq": {
+"az": "Otarılmaq.",
+"en": "to be grazed",
+"pos": "verb"
+},
+"ovşünas": {
+"az": "Ovçuluq elmi üzrə mütəxəssis.",
+"en": "game specialist",
+"pos": "noun"
+},
+"oynadılmaq": {
+"az": "Oynatdırılmaq.",
+"en": "to be made to play",
+"pos": "verb"
+},
+"oyundaş": {
+"az": "Oyun yoldaşı.",
+"en": "playmate",
+"pos": "noun"
+},
+"ozonlanmaq": {
+"az": "Ozonla zənginləşdirilmək.",
+"en": "to be ozonized",
+"pos": "verb"
+},
+"ödədilmək": {
+"az": "Ödənilmək.",
+"en": "to be paid",
+"pos": "verb"
+},
+"ödsüz": {
+"az": "Qorxaq.",
+"en": "cowardly",
+"pos": "adjective"
+},
+"ötüşkən": {
+"az": "Ötüb keçən.",
+"en": "passing, fleeting",
+"pos": "adjective"
+},
+"özgəninkiləşdirilmək": {
+"az": "Başqasının mülkü kimi qəbul edilmək; yadlaşdırılmaq.",
+"en": "to be alienated",
+"pos": "verb"
+},
+"özgəninkiləşmək": {
+"az": "Başqasının olmaq; yadlaşmaq.",
+"en": "to become alienated",
+"pos": "verb"
+},
+"özlük": {
+"az": "Şəxsiyyət, özünə məxsusluq.",
+"en": "selfhood, identity",
+"pos": "noun"
+}
+}
