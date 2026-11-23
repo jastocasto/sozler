@@ -831,6 +831,12 @@ class Builder:
                     return candidate, CASE_OF.get(ending, 'accusative or possessive')
         return None, None
 
+    def attested_stem(self, stem):
+        """A stem that is not a headword itself but carries -lı and -sız in two headwords (yarar: yararlı, yararsız)."""
+        if len(stem) < 4:
+            return False
+        return sum(1 for ending in ('lı', 'li', 'lu', 'lü', 'sız', 'siz', 'suz', 'süz') if stem + ending in self.nodes) >= 2
+
     def compound_parts(self, word):
         """Return (parts, kind) for a compound of existing headwords, or None."""
         if re.search(r'[- ]', word):
@@ -869,7 +875,9 @@ class Builder:
             if b in SUFFIX_LIKE or len(b) < 4 or (b[0] in VOWELS and len(b) < 6):
                 continue
             # A longer headword plus a suffix explains the word better (kontur + -lamaq, not kont + urlamaq).
-            if any(word[:j] in self.nodes and word[j:] in DERIVING for j in range(i + 1, len(word) - 2)):
+            # A stem known only from its derivatives counts before a verb-forming ending (yarar + -lanmaq, not yar + arlanmaq).
+            if any(word[j:] in DERIVING and (word[:j] in self.nodes or word[j:].endswith(('maq', 'mək', 'ma', 'mə'))
+                                              and self.attested_stem(word[:j])) for j in range(i + 1, len(word) - 2)):
                 continue
             # International loans are not split at a short piece (futurologiya is not fut + urologiya).
             if b[0] in VOWELS and len(a) <= 4 and b.endswith(('iya', 'ika')):
