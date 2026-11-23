@@ -39,7 +39,7 @@
   "undefined_before": 63985,
   "undefined_after": 4890,
   "isolated_before": 30802,
-  "isolated_after": 6076,
+  "isolated_after": 6040,
   "definitions": 59095,
   "definitions_by_method": {
    "authored": 10967,
@@ -49,28 +49,28 @@
    "rule": 26537
   },
   "low_confidence_paraphrases": 737,
-  "links": 38538,
+  "links": 38574,
   "stats": {
    "definitions:authored": 10967,
    "definitions:cross-reference": 413,
    "definitions:derivation": 3591,
    "definitions:paraphrase": 17587,
    "definitions:rule": 26537,
-   "links:bilingual-cross-reference": 899,
+   "links:bilingual-cross-reference": 898,
    "links:combining": 2362,
    "links:compound": 18650,
    "links:compound-print": 396,
    "links:cross-reference": 150,
-   "links:cross-reference-lead": 135,
+   "links:cross-reference-lead": 133,
    "links:definition-genus": 4174,
-   "links:definition-relation": 261,
-   "links:definition-synonym": 984,
+   "links:definition-relation": 260,
+   "links:definition-synonym": 1007,
    "links:derivation": 1644,
    "links:loan-family": 1057,
    "links:original-form": 95,
    "links:original-genus": 757,
    "links:original-relation": 23,
-   "links:original-synonym": 675,
+   "links:original-synonym": 692,
    "links:quantity": 895,
    "links:rule": 4728,
    "links:rule-print": 653,
@@ -79,5 +79,5 @@
    "rule:unconfirmed-existing": 65196
   }
  },
- "output_sha256": "43c7cee549035d4f6127c03e8da2f6bbb44d192d53d447f27e4296d164590c38"
+ "output_sha256": "09dbb8fffcbd5ff01bfafe7b2858791cac770e550731139e71af8b61e7ba96f0"
 }

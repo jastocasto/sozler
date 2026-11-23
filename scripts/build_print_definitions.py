@@ -1088,7 +1088,7 @@ class Builder:
             if (len(first) >= 2 and possessive_stem(key(first[-1])) in ('forma', 'variant', 'yazılış', 'yazılma')
                     and first[-2][:1].isupper()):
                 continue
-            heads = [(kind, other) for kind, other in self.definition_head(word, definition)
+            heads = [(kind, other) for kind, other in self.definition_head(word, definition) or self.later_synonyms(word, definition)
                      if other not in FORM_HEADS and not (kind == 'genus' and other in LIGHT_VERBS)]
             for kind, other in heads:
                 if kind == 'syn':
@@ -1180,13 +1180,25 @@ class Builder:
             found += [other for other in group if other not in found]
         return found
 
+    def later_synonyms(self, word, definition):
+        """Synonyms in a later clause of the first sentence: «Gözləri eyni istiqamətə baxmayan; çəpgöz.» -> çəpgöz."""
+        text = re.sub(r'\([^)]*\)', '', definition['az'])
+        clauses = re.split(r'(?<=[.!?])\s', text)[0].rstrip('.!?').split(';')[1:]
+        for clause in clauses:
+            items = [key(item.strip()) for item in clause.split(',') if item.strip()]
+            if items and all(len(item.split()) <= 2 for item in items):
+                found = [('syn', item) for item in items if item != word and self.usable(item) and item not in GENERIC_HEADS]
+                if found:
+                    return list(dict.fromkeys(found))
+        return []
+
     def definition_links(self):
         """Link a still isolated word to the synonym or class word its own definition is built on (doker: Liman fəhləsi),
         or else to the noun a relational definition is built on (əlkimyəvi: Əlkimyaya aid -> əlkimya)."""
         for word, definition in list(self.definitions.items()):
             if definition.get('method') not in ('paraphrase', 'authored') or self.degree[word]:
                 continue
-            heads = self.definition_head(word, definition)
+            heads = self.definition_head(word, definition) or self.later_synonyms(word, definition)
             if not heads:
                 for other in self.relation_nouns(word, definition):
                     self.link(word, other, 'topic', 'Tərif · əsas söz', f'«{word}» tərifdə «{other}» sözü əsasında izah olunur.',
