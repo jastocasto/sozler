@@ -42,15 +42,15 @@
  },
  "summary": {
   "undefined_before": 63985,
-  "undefined_after": 4296,
+  "undefined_after": 3296,
   "isolated_before": 30802,
   "isolated_after": 5892,
-  "definitions": 59689,
+  "definitions": 60689,
   "definitions_by_method": {
    "authored": 10851,
    "cross-reference": 413,
    "derivation": 3604,
-   "meaning": 5794,
+   "meaning": 6794,
    "paraphrase": 18074,
    "rule": 20953
   },
@@ -60,7 +60,7 @@
    "definitions:authored": 10851,
    "definitions:cross-reference": 413,
    "definitions:derivation": 3604,
-   "definitions:meaning": 5794,
+   "definitions:meaning": 6794,
    "definitions:paraphrase": 18074,
    "definitions:rule": 20953,
    "links:bilingual-cross-reference": 897,
@@ -89,5 +89,5 @@
   },
   "dictionary_reviews": 402
  },
- "output_sha256": "323d4d5bc11a538c9d5d0f85a57ebe4d6785442b27eda762a4e306ea25d20c1a"
+ "output_sha256": "be629d30bd8375a36229e2f478ea6d447e4d5102a5f5dbfdf35db05fda14d03d"
 }

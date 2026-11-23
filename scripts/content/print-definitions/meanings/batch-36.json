@@ -1,0 +1,6106 @@
+{
+ "araya-ərsəyə gəlmək": {
+  "az": "Tədricən yaranıb formalaşmaq.",
+  "en": "to come into being or take shape",
+  "pos": "verb"
+ },
+ "avazlanmaq": {
+  "az": "Səsi, avazı ucalmaq.",
+  "en": "to rise in pitch or volume",
+  "pos": "verb"
+ },
+ "basqılamaq": {
+  "az": "Birinə və ya bir şeyə təzyiq göstərmək.",
+  "en": "to exert pressure on someone or something",
+  "pos": "verb"
+ },
+ "basqılama": {
+  "az": "Birinə və ya bir şeyə təzyiq göstərmə.",
+  "en": "exerting pressure on someone or something",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "basqılanmaq": {
+  "az": "Təzyiqə məruz qalmaq.",
+  "en": "to be subjected to pressure",
+  "pos": "verb"
+ },
+ "basqılanma": {
+  "az": "Təzyiqə məruz qalma.",
+  "en": "being subjected to pressure",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "binalanmaq": {
+  "az": "Bir yerdə əsası qoyulub qurulmaq.",
+  "en": "to be founded or established",
+  "pos": "verb"
+ },
+ "binalanma": {
+  "az": "Bir yerdə əsası qoyulub qurulma.",
+  "en": "being founded or established",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "binələmək": {
+  "az": "Bir yerdə binə salmaq, məskunlaşmaq.",
+  "en": "to set up a settlement or encampment",
+  "pos": "verb"
+ },
+ "binələmə": {
+  "az": "Bir yerdə binə salma, məskunlaşma.",
+  "en": "setting up a settlement or encampment",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "binələtmək": {
+  "az": "Birini bir yerdə binə salmağa sövq etmək.",
+  "en": "to have someone settle or encamp in a place",
+  "pos": "verb"
+ },
+ "binələtmə": {
+  "az": "Birini bir yerdə binə salmağa sövq etmə.",
+  "en": "having someone settle or encamp in a place",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "bükmələmək": {
+  "az": "Parçada qatlar, bükmələr əmələ gətirmək.",
+  "en": "to form pleats or folds in fabric",
+  "pos": "verb"
+ },
+ "bükmələmə": {
+  "az": "Parçada qatlar, bükmələr əmələ gətirmə.",
+  "en": "forming pleats or folds in fabric",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "bükmələnmək": {
+  "az": "Üzərində qatlar və ya bükmələr əmələ gəlmək.",
+  "en": "to develop folds or pleats",
+  "pos": "verb"
+ },
+ "bükmələnmə": {
+  "az": "Üzərində qatlar və ya bükmələr əmələ gəlmə.",
+  "en": "developing folds or pleats",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "bükmələtmək": {
+  "az": "Parçaya bükmələr saldırmaq.",
+  "en": "to have fabric pleated",
+  "pos": "verb"
+ },
+ "bükmələtmə": {
+  "az": "Parçaya bükmələr saldırma.",
+  "en": "having fabric pleated",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "bükümləmək": {
+  "az": "Qatlayıb bükümlər əmələ gətirmək.",
+  "en": "to form a series of folds",
+  "pos": "verb"
+ },
+ "bükümləmə": {
+  "az": "Qatlayıb bükümlər əmələ gətirmə.",
+  "en": "forming a series of folds",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "bükümlənmək": {
+  "az": "Qat-qat bükülmək.",
+  "en": "to become folded into a series of folds",
+  "pos": "verb"
+ },
+ "bükümlənmə": {
+  "az": "Qat-qat bükülmə.",
+  "en": "becoming folded into a series of folds",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "bükümlətmək": {
+  "az": "Qatlayıb bükümlər düzəltdirmək.",
+  "en": "to have folds made in something",
+  "pos": "verb"
+ },
+ "bükümlətmə": {
+  "az": "Qatlayıb bükümlər düzəltdirmə.",
+  "en": "having folds made in something",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "bəmləmək": {
+  "az": "Səsi bəm tona keçirmək.",
+  "en": "to lower a sound into a deeper register",
+  "pos": "verb"
+ },
+ "bəmləmə": {
+  "az": "Səsi bəm tona keçirmə.",
+  "en": "lowering a sound into a deeper register",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "bəmlənmək": {
+  "az": "Səsi qalınlaşmaq, bəm tona keçmək.",
+  "en": "to become lower in pitch",
+  "pos": "verb"
+ },
+ "bəmlənmə": {
+  "az": "Səsin qalınlaşması, bəm tona keçməsi.",
+  "en": "becoming lower in pitch",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "bəmlətmək": {
+  "az": "Səsin bəm tona keçirilməsinə səbəb olmaq.",
+  "en": "to cause a sound to be lowered in pitch",
+  "pos": "verb"
+ },
+ "bəmlətmə": {
+  "az": "Səsin bəm tona keçirilməsinə səbəb olma.",
+  "en": "causing a sound to be lowered in pitch",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "bəzəyib-düzəmək": {
+  "az": "Bir şeyi səliqəyə salıb gözəlləşdirmək.",
+  "en": "to arrange and decorate something",
+  "pos": "verb"
+ },
+ "bəzəyib-düzəmə": {
+  "az": "Bir şeyi səliqəyə salıb gözəlləşdirmə.",
+  "en": "arranging and decorate something",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "cunalamaq": {
+  "az": "Üstünü cuna ilə örtmək və ya sarımaq.",
+  "en": "to cover or wrap with gauze",
+  "pos": "verb"
+ },
+ "cunalama": {
+  "az": "Üstünü cuna ilə örtmək və ya sarıma.",
+  "en": "covering or wrap with gauze",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "cunalanmaq": {
+  "az": "Cuna ilə örtülmək və ya sarınmaq.",
+  "en": "to be covered or wrapped in gauze",
+  "pos": "verb"
+ },
+ "cunalanma": {
+  "az": "Cuna ilə örtülmək və ya sarınma.",
+  "en": "being covered or wrapped in gauze",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "cükküldəşmək": {
+  "az": "Bir neçə quş birlikdə cikkildəmək.",
+  "en": "to chirp together, of birds",
+  "pos": "verb"
+ },
+ "cükküldəşmə": {
+  "az": "Bir neçə quş birlikdə cikkildəmə.",
+  "en": "chirping together, of birds",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "cüz-cüz oxumaq": {
+  "az": "Mətni cüzlərə bölüb hissə-hissə oxumaq.",
+  "en": "to read a text section by section",
+  "pos": "verb"
+ },
+ "dehidrogenlənmək": {
+  "az": "Kimyəvi çevrilmə zamanı hidrogen itirmək.",
+  "en": "to lose hydrogen in a chemical transformation",
+  "pos": "verb"
+ },
+ "dehidrogenlənmə": {
+  "az": "Kimyəvi çevrilmə zamanı hidrogen itirmə.",
+  "en": "losing hydrogen in a chemical transformation",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "dehidrogenləşdirmək": {
+  "az": "Maddənin tərkibindən hidrogen ayırmaq.",
+  "en": "to remove hydrogen from a substance",
+  "pos": "verb"
+ },
+ "dehidrogenləşdirmə": {
+  "az": "Maddənin tərkibindən hidrogen ayırma.",
+  "en": "removing hydrogen from a substance",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "dehidrogenləşmək": {
+  "az": "Tərkibindən hidrogen ayrılmaq.",
+  "en": "to undergo dehydrogenation",
+  "pos": "verb"
+ },
+ "depolimerləşdirmək": {
+  "az": "Polimer zəncirlərini daha kiçik vahidlərə parçalamaq.",
+  "en": "to break polymer chains down into smaller units",
+  "pos": "verb"
+ },
+ "depolimerləşdirmə": {
+  "az": "Polimer zəncirlərini daha kiçik vahidlərə parçalama.",
+  "en": "breaking polymer chains down into smaller units",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "depolimerləşmək": {
+  "az": "Polimer zəncirlərinin parçalanması ilə kiçik vahidlərə ayrılmaq.",
+  "en": "to break down into smaller units through depolymerization",
+  "pos": "verb"
+ },
+ "dibləmək": {
+  "az": "Bitkinin dibinə torpaq yığmaq.",
+  "en": "to heap earth around the base of a plant",
+  "pos": "verb"
+ },
+ "dibləmə": {
+  "az": "Bitkinin dibinə torpaq yığma.",
+  "en": "heaping earth around the base of a plant",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "dişəkləmək": {
+  "az": "Alətin səthinə xırda dişlər və ya kərtiklər açmaq.",
+  "en": "to cut small teeth or notches in a tool surface",
+  "pos": "verb"
+ },
+ "dişəkləmə": {
+  "az": "Alətin səthinə xırda dişlər və ya kərtiklər açma.",
+  "en": "cutting small teeth or notches in a tool surface",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "düşük-düşük danışmaq": {
+  "az": "Yersiz, bayağı sözlər söyləmək.",
+  "en": "to talk in a vulgar or foolish manner",
+  "pos": "verb"
+ },
+ "dınqıldanmaq": {
+  "az": "Təkrar-təkrar dınqıltı səsi çıxarmaq.",
+  "en": "to make a repeated clanging sound",
+  "pos": "verb"
+ },
+ "dınqıldanma": {
+  "az": "Təkrar-təkrar dınqıltı səsi çıxarma.",
+  "en": "making a repeated clanging sound",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "dəmirlətmək": {
+  "az": "Bir şeyi dəmirlə üzlətdirmək və ya möhkəmlətdirmək.",
+  "en": "to have something faced or reinforced with iron",
+  "pos": "verb"
+ },
+ "dəmirlətmə": {
+  "az": "Bir şeyi dəmirlə üzlətdirmək və ya möhkəmlətdirmə.",
+  "en": "having something faced or reinforced with iron",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "enlilətmək": {
+  "az": "Bir şeyin enini artırmaq.",
+  "en": "to increase the width of something",
+  "pos": "verb"
+ },
+ "enlilətmə": {
+  "az": "Bir şeyin enini artırma.",
+  "en": "increasing the width of something",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "farağatlamaq": {
+  "az": "Hərəkəti və ya narahatlığı dayandırıb sakitləşmək.",
+  "en": "to settle down and become still",
+  "pos": "verb"
+ },
+ "farağatlama": {
+  "az": "Hərəkəti və ya narahatlığı dayandırıb sakitləşmə.",
+  "en": "settling down and become still",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "fırıldanmaq": {
+  "az": "Öz oxu ətrafında və ya bir şeyin başına dolanmaq.",
+  "en": "to spin or turn around something",
+  "pos": "verb"
+ },
+ "fırıldanma": {
+  "az": "Öz oxu ətrafında və ya bir şeyin başına dolanma.",
+  "en": "spinning or turn around something",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "gilabılamaq": {
+  "az": "Gilabı ilə yumaq və ya təmizləmək.",
+  "en": "to clean with fuller's earth",
+  "pos": "verb"
+ },
+ "gilabılama": {
+  "az": "Gilabı ilə yumaq və ya təmizləmə.",
+  "en": "cleaning with fuller's earth",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "gilabılanmaq": {
+  "az": "Gilabı ilə yuyulmaq və ya təmizlənmək.",
+  "en": "to be cleaned with fuller's earth",
+  "pos": "verb"
+ },
+ "gilabılanma": {
+  "az": "Gilabı ilə yuyulmaq və ya təmizlənmə.",
+  "en": "being cleaned with fuller's earth",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "göllətmək": {
+  "az": "Suyun bir yerdə toplanmasını təmin etmək.",
+  "en": "to cause water to collect in a pool",
+  "pos": "verb"
+ },
+ "göllətmə": {
+  "az": "Suyun bir yerdə toplanmasını təmin etmə.",
+  "en": "causing water to collect in a pool",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "gərləmək": {
+  "az": "Bir şeyi çəkib tarım vəziyyətə gətirmək.",
+  "en": "to stretch something taut",
+  "pos": "verb"
+ },
+ "gərləmə": {
+  "az": "Bir şeyi çəkib tarım vəziyyətə gətirmə.",
+  "en": "stretching something taut",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "gərlənmək": {
+  "az": "Dartılaraq tarım vəziyyətə düşmək.",
+  "en": "to become stretched taut",
+  "pos": "verb"
+ },
+ "gərlənmə": {
+  "az": "Dartılaraq tarım vəziyyətə düşmə.",
+  "en": "becoming stretched taut",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "hoppuldamaq": {
+  "az": "Ardıcıl olaraq yüngülcə atılıb-düşmək.",
+  "en": "to bounce or hop repeatedly",
+  "pos": "verb"
+ },
+ "hoppuldatmaq": {
+  "az": "Bir şeyi dalbadal atıb-tutmaq və ya hoppandırmaq.",
+  "en": "to make something bounce repeatedly",
+  "pos": "verb"
+ },
+ "hoppuldatma": {
+  "az": "Bir şeyi dalbadal atıb-tutmaq və ya hoppandırma.",
+  "en": "making something bounce repeatedly",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "huşlanmaq": {
+  "az": "Özünə gəlmək, huşunu yenidən toplamaq.",
+  "en": "to regain consciousness or composure",
+  "pos": "verb"
+ },
+ "huşlanma": {
+  "az": "Özünə gəlmə, huşunu yenidən toplama.",
+  "en": "regaining consciousness or composure",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "hövsərləmək": {
+  "az": "Taxılı sovurub yüngül qatışıqlardan təmizləmək.",
+  "en": "to winnow grain to remove light impurities",
+  "pos": "verb"
+ },
+ "hövsərləmə": {
+  "az": "Taxılı sovurub yüngül qatışıqlardan təmizləmə.",
+  "en": "winnowing grain to remove light impurities",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "hövsərlənmək": {
+  "az": "Sovrulub yüngül qatışıqlardan təmizlənmək.",
+  "en": "to be winnowed to remove light impurities",
+  "pos": "verb"
+ },
+ "hövsərlənmə": {
+  "az": "Sovrulub yüngül qatışıqlardan təmizlənmə.",
+  "en": "being winnowed to remove light impurities",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "izahatlandırmaq": {
+  "az": "Bir məsələyə aydınlıq gətirən izah vermək.",
+  "en": "to provide an explanation of a matter",
+  "pos": "verb"
+ },
+ "izahatlandırma": {
+  "az": "Bir məsələyə aydınlıq gətirən izah vermə.",
+  "en": "providing an explanation of a matter",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "izahatlanmaq": {
+  "az": "İzah vasitəsilə aydınlaşmaq.",
+  "en": "to be clarified by an explanation",
+  "pos": "verb"
+ },
+ "izahatlanma": {
+  "az": "İzah vasitəsilə aydınlaşma.",
+  "en": "being clarified by an explanation",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "kapronlamaq": {
+  "az": "Kapronla örtmək və ya möhkəmləndirmək.",
+  "en": "to coat or reinforce with nylon",
+  "pos": "verb"
+ },
+ "kapronlama": {
+  "az": "Kapronla örtmək və ya möhkəmləndirmə.",
+  "en": "coating or reinforce with nylon",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "kapronlanmaq": {
+  "az": "Kapronla örtülmək.",
+  "en": "to be coated with nylon",
+  "pos": "verb"
+ },
+ "kapronlanma": {
+  "az": "Kapronla örtülmə.",
+  "en": "being coated with nylon",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "korun-korun yanmaq": {
+  "az": "Alovlanmadan, asta-asta içindən yanmaq.",
+  "en": "to smoulder slowly without bursting into flame",
+  "pos": "verb"
+ },
+ "köşəkləmək": {
+  "az": "Dəvə haqqında, bala doğmaq.",
+  "en": "to give birth to a calf, of a camel",
+  "pos": "verb"
+ },
+ "köşəkləmə": {
+  "az": "Dəvə haqqında, bala doğma.",
+  "en": "giving birth to a calf, of a camel",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "kürətdirmək": {
+  "az": "Bir şeyi kürəklə yığışdırtdırmaq.",
+  "en": "to have something cleared away with a shovel",
+  "pos": "verb"
+ },
+ "kürətdirmə": {
+  "az": "Bir şeyi kürəklə yığışdırtdırma.",
+  "en": "having something cleared away with a shovel",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "mırt vurmaq": {
+  "az": "Danışıqda zarafat edib boş söhbətlə vaxt keçirmək.",
+  "en": "to pass the time bantering or chatting idly",
+  "pos": "verb"
+ },
+ "mırtlaşmaq": {
+  "az": "Qarşılıqlı zarafat edib əylənmək.",
+  "en": "to banter with one another",
+  "pos": "verb"
+ },
+ "mırtlaşma": {
+  "az": "Qarşılıqlı zarafat edib əylənmə.",
+  "en": "bantering with one another",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "nəfəslənmək": {
+  "az": "Nəfəsini dərmək üçün dincəlmək.",
+  "en": "to pause to catch one's breath",
+  "pos": "verb"
+ },
+ "nəfəslənmə": {
+  "az": "Nəfəsini dərmək üçün dincəlmə.",
+  "en": "pausing to catch one's breath",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "nəm-nüm etmək": {
+  "az": "Aydın cavab verməyib tərəddüdlə mızıldanmaq.",
+  "en": "to mumble or hedge instead of giving a clear answer",
+  "pos": "verb"
+ },
+ "paxırlamaq": {
+  "az": "Mis səthində yaşılımtıl örtük əmələ gəlmək.",
+  "en": "to develop verdigris on a copper surface",
+  "pos": "verb"
+ },
+ "paxırlama": {
+  "az": "Mis səthində yaşılımtıl örtük əmələ gəlmə.",
+  "en": "developing verdigris on a copper surface",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "pozuşdurmaq": {
+  "az": "Aralarında münasibətləri pisləşdirmək.",
+  "en": "to cause people to fall out with one another",
+  "pos": "verb"
+ },
+ "pozuşdurma": {
+  "az": "Aralarında münasibətləri pisləşdirmə.",
+  "en": "causing people to fall out with one another",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "pozuşmaq": {
+  "az": "Aralarında yaxşı münasibət qalmamaq.",
+  "en": "to fall out with one another",
+  "pos": "verb"
+ },
+ "pozuşma": {
+  "az": "Aralarında yaxşı münasibət qalmama.",
+  "en": "falling out with one another",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "puplaşmaq": {
+  "az": "Həşərat haqqında, sürfə mərhələsindən pup mərhələsinə keçmək.",
+  "en": "to enter the pupal stage, of an insect",
+  "pos": "verb"
+ },
+ "puplaşma": {
+  "az": "Həşəratın sürfə mərhələsindən pup mərhələsinə keçməsi.",
+  "en": "entering the pupal stage, of an insect",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "pörtələmək": {
+  "az": "Qidanı qısa müddət isti suda və ya buxarda saxlamaq.",
+  "en": "to blanch food briefly in hot water or steam",
+  "pos": "verb"
+ },
+ "pörtələmə": {
+  "az": "Qidanı qısa müddət isti suda və ya buxarda saxlama.",
+  "en": "blanching food briefly in hot water or steam",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "pörtələnmək": {
+  "az": "Qısa müddət isti suda və ya buxarda bişmək.",
+  "en": "to be briefly cooked in hot water or steam",
+  "pos": "verb"
+ },
+ "pörtələnmə": {
+  "az": "Qısa müddət isti suda və ya buxarda bişmə.",
+  "en": "being briefly cooked in hot water or steam",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "pörtələtmək": {
+  "az": "Qidanı isti suda və ya buxarda azca bişirtdirmək.",
+  "en": "to have food briefly blanched or steamed",
+  "pos": "verb"
+ },
+ "pörtələtmə": {
+  "az": "Qidanı isti suda və ya buxarda azca bişirtdirmə.",
+  "en": "having food briefly blanched or steamed",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "pırhapır uçmaq": {
+  "az": "Qanad çırpıntısı ilə səs salaraq uçmaq.",
+  "en": "to fly with a loud flutter of wings",
+  "pos": "verb"
+ },
+ "pırpızlamaq": {
+  "az": "Saçı və ya tükü qarışdırıb qabartmaq.",
+  "en": "to ruffle hair or feathers",
+  "pos": "verb"
+ },
+ "pırpızlama": {
+  "az": "Saçı və ya tükü qarışdırıb qabartma.",
+  "en": "ruffling hair or feathers",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "pırpızlatmaq": {
+  "az": "Saçı və ya tükü qabartdırmaq.",
+  "en": "to have hair or feathers ruffled up",
+  "pos": "verb"
+ },
+ "pırpızlatma": {
+  "az": "Saçı və ya tükü qabartdırma.",
+  "en": "having hair or feathers ruffled up",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "qac-qac doğramaq": {
+  "az": "Nazik dilimlərə kəsmək.",
+  "en": "to cut into thin slices",
+  "pos": "verb"
+ },
+ "qaragözlük etmək": {
+  "az": "Şit hərəkətlərlə diqqəti özünə çəkməyə çalışmaq.",
+  "en": "to clown around to attract attention",
+  "pos": "verb"
+ },
+ "qarğınmaq": {
+  "az": "Birinə qarğış yağdırmaq.",
+  "en": "to curse or utter imprecations against someone",
+  "pos": "verb"
+ },
+ "qarğınma": {
+  "az": "Birinə qarğış yağdırma.",
+  "en": "cursing or utter imprecations against someone",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "qatqılanmaq": {
+  "az": "Tərkibinə əlavə maddə qarışdırılmaq.",
+  "en": "to have an additive mixed into it",
+  "pos": "verb"
+ },
+ "qatqılanma": {
+  "az": "Tərkibinə əlavə maddə qarışdırılma.",
+  "en": "having an additive mixed into it",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "qazmaqlaşmaq": {
+  "az": "Bişən xörəyin dibində bərk qabıq əmələ gəlmək.",
+  "en": "to form a crust at the bottom during cooking",
+  "pos": "verb"
+ },
+ "qazmaqlaşma": {
+  "az": "Bişən xörəyin dibində bərk qabıq əmələ gəlmə.",
+  "en": "forming a crust at the bottom during cooking",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "qoşulmamaq": {
+  "az": "Bir işə və ya qrupa qatılmaqdan kənar qalmaq.",
+  "en": "to remain outside an activity or group",
+  "pos": "verb"
+ },
+ "qırtıldanmaq": {
+  "az": "Qısa, xırçıldayan səslər çıxarmaq.",
+  "en": "to make a repeated crunching sound",
+  "pos": "verb"
+ },
+ "qırtıldanma": {
+  "az": "Qısa, xırçıldayan səslər çıxarma.",
+  "en": "making a repeated crunching sound",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "rayberləmək": {
+  "az": "Deşiyin divarını rayberlə yonub ölçüsünü dəqiqləşdirmək.",
+  "en": "to ream a bore to its final size",
+  "pos": "verb"
+ },
+ "refleksləndirmək": {
+  "az": "Bir qıcığa refleks cavab yaratmaq.",
+  "en": "to induce a reflex response to a stimulus",
+  "pos": "verb"
+ },
+ "refleksləndirmə": {
+  "az": "Bir qıcığa refleks cavab yaratma.",
+  "en": "inducing a reflex response to a stimulus",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "refleksləndirilmək": {
+  "az": "Refleks cavabın yaranmasına səbəb olan təsirə məruz qalmaq.",
+  "en": "to be subjected to a stimulus that elicits a reflex",
+  "pos": "verb"
+ },
+ "refleksləndirilmə": {
+  "az": "Refleks cavabın yaranmasına səbəb olan təsirə məruz qalma.",
+  "en": "being subjected to a stimulus that elicits a reflex",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "sapınmaq": {
+  "az": "Tutduğu yoldan və ya istiqamətdən kənara dönmək.",
+  "en": "to veer away from a course",
+  "pos": "verb"
+ },
+ "sapınma": {
+  "az": "Tutduğu yoldan və ya istiqamətdən kənara dönmə.",
+  "en": "veering away from a course",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "sapındırmaq": {
+  "az": "Bir şeyi öz yolundan kənara yönəltmək.",
+  "en": "to divert something from its course",
+  "pos": "verb"
+ },
+ "sapındırma": {
+  "az": "Bir şeyi öz yolundan kənara yönəltmə.",
+  "en": "diverting something from its course",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "saqqızlamaq": {
+  "az": "Saqqız kimi yapışqan maddə ilə örtmək.",
+  "en": "to coat with a gummy substance",
+  "pos": "verb"
+ },
+ "saqqızlama": {
+  "az": "Saqqız kimi yapışqan maddə ilə örtmə.",
+  "en": "coating with a gummy substance",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "saqqızlanmaq": {
+  "az": "Saqqız kimi yapışqan hala gəlmək.",
+  "en": "to become gummy or sticky",
+  "pos": "verb"
+ },
+ "saqqızlanma": {
+  "az": "Saqqız kimi yapışqan hala gəlmə.",
+  "en": "becoming gummy or sticky",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "saçalamaq": {
+  "az": "Uclarını saçaq kimi tellərə ayırmaq.",
+  "en": "to separate the ends into strands or fringe",
+  "pos": "verb"
+ },
+ "saçalama": {
+  "az": "Uclarını saçaq kimi tellərə ayırma.",
+  "en": "separating the ends into strands or fringe",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "saçalanmaq": {
+  "az": "Ucları saçaq kimi tellərə ayrılmaq.",
+  "en": "to fray or split into strands at the ends",
+  "pos": "verb"
+ },
+ "saçalanma": {
+  "az": "Ucları saçaq kimi tellərə ayrılma.",
+  "en": "fraying or split into strands at the ends",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "saçalatmaq": {
+  "az": "Uclarını saçaq şəklinə saldırmaq.",
+  "en": "to have the ends fringed",
+  "pos": "verb"
+ },
+ "saçalatma": {
+  "az": "Uclarını saçaq şəklinə saldırma.",
+  "en": "having the ends fringed",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "selikləmək": {
+  "az": "Üstünə selik bulaşdırmaq.",
+  "en": "to cover something with mucus",
+  "pos": "verb"
+ },
+ "selikləmə": {
+  "az": "Üstünə selik bulaşdırma.",
+  "en": "covering something with mucus",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "seliklənmək": {
+  "az": "Səthində selikli qat əmələ gəlmək.",
+  "en": "to develop a coating of mucus",
+  "pos": "verb"
+ },
+ "seliklənmə": {
+  "az": "Səthində selikli qat əmələ gəlmə.",
+  "en": "developing a coating of mucus",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "seliklətmək": {
+  "az": "Bir şeyin seliklə örtülməsinə səbəb olmaq.",
+  "en": "to cause something to become coated in mucus",
+  "pos": "verb"
+ },
+ "seliklətmə": {
+  "az": "Bir şeyin seliklə örtülməsinə səbəb olma.",
+  "en": "causing something to become coated in mucus",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "sivrişmək": {
+  "az": "Sürüşüb aradan çıxmaq.",
+  "en": "to slip or slide away",
+  "pos": "verb"
+ },
+ "sivrişmə": {
+  "az": "Sürüşüb aradan çıxma.",
+  "en": "slipping or slide away",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "sonuclanmaq": {
+  "az": "Bir nəticəyə çatmaq, tamamlanmaq.",
+  "en": "to reach a conclusion or outcome",
+  "pos": "verb"
+ },
+ "sonuclanma": {
+  "az": "Bir nəticəyə çatma, tamamlanma.",
+  "en": "reaching a conclusion or outcome",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "səpgilətmək": {
+  "az": "Dəridə səpgi əmələ gətirmək.",
+  "en": "to cause a skin rash",
+  "pos": "verb"
+ },
+ "səpgilətmə": {
+  "az": "Dəridə səpgi əmələ gətirmə.",
+  "en": "causing a skin rash",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "taylandırmaq": {
+  "az": "Tay şəklində yığdırmaq.",
+  "en": "to have material gathered into bales or stacks",
+  "pos": "verb"
+ },
+ "taylandırma": {
+  "az": "Tay şəklində yığdırma.",
+  "en": "having material gathered into bales or stacks",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "tikanlanmaq": {
+  "az": "Üzərində tikanlar əmələ gəlmək.",
+  "en": "to develop thorns or spines",
+  "pos": "verb"
+ },
+ "tikanlanma": {
+  "az": "Üzərində tikanlar əmələ gəlmə.",
+  "en": "developing thorns or spines",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "tirləmək": {
+  "az": "Tir qoymaq və ya tirlərlə möhkəmləndirmək.",
+  "en": "to fit or reinforce with beams",
+  "pos": "verb"
+ },
+ "tirləmə": {
+  "az": "Tir qoymaq və ya tirlərlə möhkəmləndirmə.",
+  "en": "fitting or reinforce with beams",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "tirlətmək": {
+  "az": "Tirlərlə möhkəmlətdirmək.",
+  "en": "to have beams fitted for support",
+  "pos": "verb"
+ },
+ "tirlətmə": {
+  "az": "Tirlərlə möhkəmlətdirmə.",
+  "en": "having beams fitted for support",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "tosqunlatmaq": {
+  "az": "Daha kök və dolu hala gətirmək.",
+  "en": "to make plumper",
+  "pos": "verb"
+ },
+ "tosqunlatma": {
+  "az": "Daha kök və dolu hala gətirmə.",
+  "en": "making plumper",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "uclamaq": {
+  "az": "Bir şeyin ucunu yonub itiləmək.",
+  "en": "to sharpen the end of something",
+  "pos": "verb"
+ },
+ "uclama": {
+  "az": "Bir şeyin ucunu yonub itiləmə.",
+  "en": "sharpening the end of something",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "uclanmaq": {
+  "az": "Ucu itilənib sivrilmək.",
+  "en": "to become pointed at the end",
+  "pos": "verb"
+ },
+ "uclanma": {
+  "az": "Ucu itilənib sivrilmə.",
+  "en": "becoming pointed at the end",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "vam-vam qaynatmaq": {
+  "az": "Zəif odda asta qaynatmaq.",
+  "en": "to simmer gently",
+  "pos": "verb"
+ },
+ "var-gəl etmək": {
+  "az": "İki nöqtə arasında təkrar gedib qayıtmaq.",
+  "en": "to pace or go back and forth",
+  "pos": "verb"
+ },
+ "xamalamaq": {
+  "az": "Üstünə xama çəkmək və ya xama qatmaq.",
+  "en": "to dress or mix with sour cream",
+  "pos": "verb"
+ },
+ "xamalama": {
+  "az": "Üstünə xama çəkmək və ya xama qatma.",
+  "en": "dressing or mix with sour cream",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "xamalanmaq": {
+  "az": "Xama ilə örtülmək və ya qarışdırılmaq.",
+  "en": "to be dressed or mixed with sour cream",
+  "pos": "verb"
+ },
+ "xamalanma": {
+  "az": "Xama ilə örtülmək və ya qarışdırılma.",
+  "en": "being dressed or mixed with sour cream",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "xamalatmaq": {
+  "az": "Üstünə xama çəkdirmək.",
+  "en": "to have sour cream spread over something",
+  "pos": "verb"
+ },
+ "xamalatma": {
+  "az": "Üstünə xama çəkdirmə.",
+  "en": "having sour cream spread over something",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "xırxılamaq": {
+  "az": "Boğazdan xırıltılı səs çıxarmaq.",
+  "en": "to make a hoarse rattling sound",
+  "pos": "verb"
+ },
+ "xırxılama": {
+  "az": "Boğazdan xırıltılı səs çıxarma.",
+  "en": "making a hoarse rattling sound",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "xəzanlamaq": {
+  "az": "Yarpaqlarını tökmək və ya payızda solmaq.",
+  "en": "to shed leaves or wither in autumn",
+  "pos": "verb"
+ },
+ "xəzanlama": {
+  "az": "Yarpaqlarını tökmək və ya payızda solma.",
+  "en": "shedding leaves or wither in autumn",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "xəzanlanmaq": {
+  "az": "Yarpaqları payızda saralıb tökülmək.",
+  "en": "to lose yellowing leaves in autumn",
+  "pos": "verb"
+ },
+ "xəzanlanma": {
+  "az": "Yarpaqları payızda saralıb tökülmə.",
+  "en": "losing yellowing leaves in autumn",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "yomrulmaq": {
+  "az": "Yumru bir forma almaq.",
+  "en": "to become rounded",
+  "pos": "verb"
+ },
+ "yomrulma": {
+  "az": "Yumru bir forma alma.",
+  "en": "becoming rounded",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "zaylamaq": {
+  "az": "Bir şeyi korlamaq və ya yararsız hala salmaq.",
+  "en": "to spoil something or render it unusable",
+  "pos": "verb"
+ },
+ "zaylama": {
+  "az": "Bir şeyi korlamaq və ya yararsız hala salma.",
+  "en": "spoiling something or render it unusable",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "zaylanmaq": {
+  "az": "Xarab olub yararsız hala düşmək.",
+  "en": "to become spoiled or unfit for use",
+  "pos": "verb"
+ },
+ "zaylanma": {
+  "az": "Xarab olub yararsız hala düşmə.",
+  "en": "becoming spoiled or unfit for use",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "ziyillənmək": {
+  "az": "Dəridə ziyillər əmələ gəlmək.",
+  "en": "to develop warts on the skin",
+  "pos": "verb"
+ },
+ "ziyillənmə": {
+  "az": "Dəridə ziyillər əmələ gəlmə.",
+  "en": "developing warts on the skin",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "çivilənmək": {
+  "az": "Mismar və ya çiv ilə bərkidilmək.",
+  "en": "to be fastened with nails or pegs",
+  "pos": "verb"
+ },
+ "çivilənmə": {
+  "az": "Mismar və ya çiv ilə bərkidilmə.",
+  "en": "being fastened with nails or pegs",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "çuqunlamaq": {
+  "az": "Çuqunla örtmək və ya bərkitmək.",
+  "en": "to face or reinforce with cast iron",
+  "pos": "verb"
+ },
+ "çuqunlama": {
+  "az": "Çuqunla örtmək və ya bərkitmə.",
+  "en": "facing or reinforce with cast iron",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "çökülü qalmaq": {
+  "az": "Çökmüş vəziyyətdə qalmaq.",
+  "en": "to remain in a sunken or collapsed position",
+  "pos": "verb"
+ },
+ "çökəkləmək": {
+  "az": "Səthdə çökəklik açmaq.",
+  "en": "to hollow out a depression in a surface",
+  "pos": "verb"
+ },
+ "çökəkləmə": {
+  "az": "Səthdə çökəklik açma.",
+  "en": "hollowing out a depression in a surface",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "çökəklətmək": {
+  "az": "Səthdə çökəklik açdırmaq.",
+  "en": "to have a depression hollowed out",
+  "pos": "verb"
+ },
+ "çökəklətmə": {
+  "az": "Səthdə çökəklik açdırma.",
+  "en": "having a depression hollowed out",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "çöpləmək": {
+  "az": "Xırda çöpləri və ya dənələri bir-bir götürmək.",
+  "en": "to pick up small sticks or grains one by one",
+  "pos": "verb"
+ },
+ "çöpləmə": {
+  "az": "Xırda çöpləri və ya dənələri bir-bir götürmə.",
+  "en": "picking up small sticks or grains one by one",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "çırtıqlamaq": {
+  "az": "Barmaqları bir-birinə sürtüb çırt səsi çıxarmaq.",
+  "en": "to snap one's fingers",
+  "pos": "verb"
+ },
+ "çırtıqlama": {
+  "az": "Barmaqları bir-birinə sürtüb çırt səsi çıxarma.",
+  "en": "snapping one's fingers",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "çəpikləmək": {
+  "az": "Əlləri bir-birinə vuraraq səs çıxarmaq.",
+  "en": "to clap one's hands",
+  "pos": "verb"
+ },
+ "çəpikləmə": {
+  "az": "Əlləri bir-birinə vuraraq səs çıxarma.",
+  "en": "clapping one's hands",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "çəpləmək": {
+  "az": "Bir şeyi maili vəziyyətə gətirmək.",
+  "en": "to set something at a slant",
+  "pos": "verb"
+ },
+ "çəpləmə": {
+  "az": "Bir şeyi maili vəziyyətə gətirmə.",
+  "en": "setting something at a slant",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "çəplətmək": {
+  "az": "Bir şeyi maili vəziyyətə saldırmaq.",
+  "en": "to have something set at a slant",
+  "pos": "verb"
+ },
+ "çəplətmə": {
+  "az": "Bir şeyi maili vəziyyətə saldırma.",
+  "en": "having something set at a slant",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "çətirlənmək": {
+  "az": "Çətir kimi açılıb yayılmaq.",
+  "en": "to spread out like an umbrella",
+  "pos": "verb"
+ },
+ "çətirlənmə": {
+  "az": "Çətir kimi açılıb yayılma.",
+  "en": "spreading out like an umbrella",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "şaqqamaq": {
+  "az": "Kəskin və gur şaqqıltı səsi çıxarmaq.",
+  "en": "to make a loud cracking sound",
+  "pos": "verb"
+ },
+ "şaqqama": {
+  "az": "Kəskin və gur şaqqıltı səsi çıxarma.",
+  "en": "making a loud cracking sound",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "şaxtalanmaq": {
+  "az": "Səthi şaxta ilə örtülmək.",
+  "en": "to become covered with frost",
+  "pos": "verb"
+ },
+ "şaxtalanma": {
+  "az": "Səthi şaxta ilə örtülmə.",
+  "en": "becoming covered with frost",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "şərikləmək": {
+  "az": "Birini işə və ya mülkiyyətə ortaq etmək.",
+  "en": "to make someone a partner or co-owner",
+  "pos": "verb"
+ },
+ "şərikləmə": {
+  "az": "Birini işə və ya mülkiyyətə ortaq etmə.",
+  "en": "making someone a partner or co-owner",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "şəriklənmək": {
+  "az": "Bir işdə və ya mülkdə ortaq olmaq.",
+  "en": "to enter into a partnership or share ownership",
+  "pos": "verb"
+ },
+ "şəriklənmə": {
+  "az": "Bir işdə və ya mülkdə ortaq olma.",
+  "en": "entering into a partnership or share ownership",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "əlçimləmək": {
+  "az": "Yunu və ya pambığı kiçik dəstələrə ayırmaq.",
+  "en": "to separate wool or cotton into small tufts",
+  "pos": "verb"
+ },
+ "əlçimləmə": {
+  "az": "Yunu və ya pambığı kiçik dəstələrə ayırma.",
+  "en": "separating wool or cotton into small tufts",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "əlçimlətmək": {
+  "az": "Yunu və ya pambığı kiçik dəstələrə ayırtdırmaq.",
+  "en": "to have wool or cotton separated into small tufts",
+  "pos": "verb"
+ },
+ "əlçimlətmə": {
+  "az": "Yunu və ya pambığı kiçik dəstələrə ayırtdırma.",
+  "en": "having wool or cotton separated into small tufts",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "saylamaq": {
+  "az": "Bir neçə şey arasından uyğun olanları seçib ayırmaq.",
+  "en": "to select suitable items from among several",
+  "pos": "verb"
+ },
+ "saylama": {
+  "az": "Bir neçə şey arasından uyğun olanları seçib ayırma.",
+  "en": "selecting suitable items from among several",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "saylanmaq": {
+  "az": "Bir neçə şey arasından seçilib ayrılmaq.",
+  "en": "to be picked out or selected",
+  "pos": "verb"
+ },
+ "saylanma": {
+  "az": "Bir neçə şey arasından seçilib ayrılma.",
+  "en": "being picked out or selected",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "saylatmaq": {
+  "az": "Başqasına bir neçə şey arasından seçim etdirmək.",
+  "en": "to have someone select items from a group",
+  "pos": "verb"
+ },
+ "saylatma": {
+  "az": "Başqasına bir neçə şey arasından seçim etdirmə.",
+  "en": "having someone select items from a group",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "burmaclamaq": {
+  "az": "Buraraq spiral və ya qıvrım formaya salmaq.",
+  "en": "to twist something into a coil",
+  "pos": "verb"
+ },
+ "burmaclama": {
+  "az": "Buraraq spiral və ya qıvrım formaya salma.",
+  "en": "twisting something into a coil",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "dükçələmək": {
+  "az": "İpliyi dükçə şəklində sarımaq.",
+  "en": "to wind yarn into a small skein or spindleful",
+  "pos": "verb"
+ },
+ "dükçələmə": {
+  "az": "İpliyi dükçə şəklində sarıma.",
+  "en": "winding yarn into a small skein or spindleful",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "dükçələnmək": {
+  "az": "Dükçə şəklində sarınmaq.",
+  "en": "to be wound into a small bundle of yarn",
+  "pos": "verb"
+ },
+ "dükçələnmə": {
+  "az": "Dükçə şəklində sarınma.",
+  "en": "being wound into a small bundle of yarn",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "dükçələtmək": {
+  "az": "İpliyi dükçə halında sarıtdırmaq.",
+  "en": "to have yarn wound into small bundles",
+  "pos": "verb"
+ },
+ "dükçələtmə": {
+  "az": "İpliyi dükçə halında sarıtdırma.",
+  "en": "having yarn wound into small bundles",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "fitələmək": {
+  "az": "Bir şeyi burub fitil şəklinə salmaq.",
+  "en": "to roll or twist something into a wicklike shape",
+  "pos": "verb"
+ },
+ "fitələmə": {
+  "az": "Bir şeyi burub fitil şəklinə salma.",
+  "en": "rolling or twist something into a wicklike shape",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "fitələnmək": {
+  "az": "Burulub fitil kimi uzunsov şəkil almaq.",
+  "en": "to become twisted into a wicklike shape",
+  "pos": "verb"
+ },
+ "fitələnmə": {
+  "az": "Burulub fitil kimi uzunsov şəkil alma.",
+  "en": "becoming twisted into a wicklike shape",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "gönləmək": {
+  "az": "Dəri və ya gönlə örtmək.",
+  "en": "to cover with hide or leather",
+  "pos": "verb"
+ },
+ "gönləmə": {
+  "az": "Dəri və ya gönlə örtmə.",
+  "en": "covering with hide or leather",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "gönlətdirmək": {
+  "az": "Bir şeyi gönlə üzlətdirmək.",
+  "en": "to have something covered with leather",
+  "pos": "verb"
+ },
+ "gönlətdirmə": {
+  "az": "Bir şeyi gönlə üzlətdirmə.",
+  "en": "having something covered with leather",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "heyləmək": {
+  "az": "Hey deyə səslənib çağırmaq.",
+  "en": "to call out hey to attract attention",
+  "pos": "verb"
+ },
+ "heyləmə": {
+  "az": "Hey deyə səslənib çağırma.",
+  "en": "calling out hey to attract attention",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "impulslanmaq": {
+  "az": "İmpulsun təsiri ilə hərəkətə gəlmək.",
+  "en": "to be activated by an impulse",
+  "pos": "verb"
+ },
+ "impulslanma": {
+  "az": "İmpulsun təsiri ilə hərəkətə gəlmə.",
+  "en": "being activated by an impulse",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "ipliklətmək": {
+  "az": "Lifi əyirdib iplik halına saldırmaq.",
+  "en": "to have fibre spun into yarn",
+  "pos": "verb"
+ },
+ "ipliklətmə": {
+  "az": "Lifi əyirdib iplik halına saldırma.",
+  "en": "having fibre spun into yarn",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "kəsmiklətmək": {
+  "az": "Südü çürüdüb kəsmik əmələ gətirmək.",
+  "en": "to cause milk to form curds",
+  "pos": "verb"
+ },
+ "kəsmiklətmə": {
+  "az": "Südü çürüdüb kəsmik əmələ gətirmə.",
+  "en": "causing milk to form curds",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "möhrələmək": {
+  "az": "Səthi möhrə ilə hamarlayıb parıldatmaq.",
+  "en": "to burnish a surface with a polishing tool",
+  "pos": "verb"
+ },
+ "nəfəsləmək": {
+  "az": "Bir şeyin üstünə nəfəs vermək.",
+  "en": "to breathe onto something",
+  "pos": "verb"
+ },
+ "nəfəsləmə": {
+  "az": "Bir şeyin üstünə nəfəs vermə.",
+  "en": "breathing onto something",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "qazmaqlamaq": {
+  "az": "Xörəyin dibində qızarmış qabıq əmələ gətirmək.",
+  "en": "to form a browned crust during cooking",
+  "pos": "verb"
+ },
+ "qazmaqlama": {
+  "az": "Xörəyin dibində qızarmış qabıq əmələ gətirmə.",
+  "en": "forming a browned crust during cooking",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "qazmaqlatmaq": {
+  "az": "Xörəyin dibində qabıq əmələ gətirdirmək.",
+  "en": "to cause food to develop a crust during cooking",
+  "pos": "verb"
+ },
+ "qazmaqlatma": {
+  "az": "Xörəyin dibində qabıq əmələ gətirdirmə.",
+  "en": "causing food to develop a crust during cooking",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "qırtıldaşmaq": {
+  "az": "Bir neçə səs mənbəyindən birlikdə qırtıltı gəlmək.",
+  "en": "to make repeated clucking or crunching sounds together",
+  "pos": "verb"
+ },
+ "qırtıldaşma": {
+  "az": "Bir neçə səs mənbəyindən birlikdə qırtıltı gəlmə.",
+  "en": "making repeated clucking or crunching sounds together",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "sifətləndirmək": {
+  "az": "Bir şeyi müəyyən əlamətinə görə səciyyələndirmək.",
+  "en": "to characterize something by a particular attribute",
+  "pos": "verb"
+ },
+ "sifətləndirmə": {
+  "az": "Bir şeyi müəyyən əlamətinə görə səciyyələndirmə.",
+  "en": "characterizing something by a particular attribute",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "sifətlənmək": {
+  "az": "Müəyyən əlamət və ya keyfiyyət qazanmaq.",
+  "en": "to acquire a particular attribute",
+  "pos": "verb"
+ },
+ "sifətlənmə": {
+  "az": "Müəyyən əlamət və ya keyfiyyət qazanma.",
+  "en": "acquiring a particular attribute",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "sirkulyarlamaq": {
+  "az": "Taxtanı dairəvi mişarla kəsmək.",
+  "en": "to cut timber with a circular saw",
+  "pos": "verb"
+ },
+ "sirkulyarlama": {
+  "az": "Taxtanı dairəvi mişarla kəsmə.",
+  "en": "cutting timber with a circular saw",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "sürükmək": {
+  "az": "Bir şeyi səth üzəri ilə çəkib aparmaq.",
+  "en": "to drag something along a surface",
+  "pos": "verb"
+ },
+ "sürükmə": {
+  "az": "Bir şeyi səth üzəri ilə çəkib aparma.",
+  "en": "dragging something along a surface",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "sürfələnmək": {
+  "az": "İnkişaf zamanı sürfə mərhələsinə keçmək.",
+  "en": "to enter a larval stage",
+  "pos": "verb"
+ },
+ "sürfələnmə": {
+  "az": "Orqanizmin inkişaf zamanı sürfə mərhələsinə keçməsi.",
+  "en": "entering a larval stage",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "subaylanmaq": {
+  "az": "Subay vəziyyətə keçmək.",
+  "en": "to become single",
+  "pos": "verb"
+ },
+ "subaylanma": {
+  "az": "Subay vəziyyətə keçmə.",
+  "en": "becoming single",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "tikanlamaq": {
+  "az": "Bir şeyə tikan batırmaq və ya tikan taxmaq.",
+  "en": "to prick or stud something with thorns",
+  "pos": "verb"
+ },
+ "tikanlama": {
+  "az": "Bir şeyə tikan batırmaq və ya tikan taxma.",
+  "en": "pricking or stud something with thorns",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "tikanlatmaq": {
+  "az": "Bir şeyə tikan taxdırmaq.",
+  "en": "to have thorns attached to something",
+  "pos": "verb"
+ },
+ "tikanlatma": {
+  "az": "Bir şeyə tikan taxdırma.",
+  "en": "having thorns attached to something",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "tiyələmək": {
+  "az": "Kəsici alətə tiyə taxmaq.",
+  "en": "to fit a blade to a cutting tool",
+  "pos": "verb"
+ },
+ "tiyələmə": {
+  "az": "Kəsici alətə tiyə taxma.",
+  "en": "fitting a blade to a cutting tool",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "tiyələnmək": {
+  "az": "Tiyə ilə təchiz olunmaq.",
+  "en": "to be fitted with a blade",
+  "pos": "verb"
+ },
+ "tiyələnmə": {
+  "az": "Tiyə ilə təchiz olunma.",
+  "en": "being fitted with a blade",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "tiyələtmək": {
+  "az": "Kəsici alətə tiyə taxdırmaq.",
+  "en": "to have a blade fitted to a tool",
+  "pos": "verb"
+ },
+ "tiyələtmə": {
+  "az": "Kəsici alətə tiyə taxdırma.",
+  "en": "having a blade fitted to a tool",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "tosqunlamaq": {
+  "az": "Kökəlib dolu bədənli olmaq.",
+  "en": "to become plump",
+  "pos": "verb"
+ },
+ "tosqunlama": {
+  "az": "Kökəlib dolu bədənli olma.",
+  "en": "becoming plump",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "uzunlamaq": {
+  "az": "Uzun istiqamətdə uzanmaq və ya uzatmaq.",
+  "en": "to extend lengthwise",
+  "pos": "verb"
+ },
+ "uzunlama": {
+  "az": "Uzun istiqamətdə uzanmaq və ya uzatma.",
+  "en": "extending lengthwise",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "yomalamaq": {
+  "az": "Bir şeyi əllə yumru formaya salmaq.",
+  "en": "to roll something into a ball",
+  "pos": "verb"
+ },
+ "yomalama": {
+  "az": "Bir şeyi əllə yumru formaya salma.",
+  "en": "rolling something into a ball",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "yomalanmaq": {
+  "az": "Yumru topa şəklinə düşmək.",
+  "en": "to form into a ball",
+  "pos": "verb"
+ },
+ "yomalanma": {
+  "az": "Yumru topa şəklinə düşmə.",
+  "en": "forming into a ball",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "yomalatmaq": {
+  "az": "Bir şeyi yumru formaya saldırmaq.",
+  "en": "to have something rolled into a ball",
+  "pos": "verb"
+ },
+ "yomalatma": {
+  "az": "Bir şeyi yumru formaya saldırma.",
+  "en": "having something rolled into a ball",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "zehləmək": {
+  "az": "Parçanın kənarına bəzək zolağı tikmək.",
+  "en": "to sew decorative trim along a fabric edge",
+  "pos": "verb"
+ },
+ "zehləmə": {
+  "az": "Parçanın kənarına bəzək zolağı tikmə.",
+  "en": "sewing decorative trim along a fabric edge",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "zehlənmək": {
+  "az": "Kənarına bəzək zolağı tikilmək.",
+  "en": "to be edged with decorative trim",
+  "pos": "verb"
+ },
+ "zehlənmə": {
+  "az": "Kənarına bəzək zolağı tikilmə.",
+  "en": "being edged with decorative trim",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "çoturlamaq": {
+  "az": "Səthində çopur izləri əmələ gəlmək.",
+  "en": "to become pitted or pockmarked",
+  "pos": "verb"
+ },
+ "çoturlama": {
+  "az": "Səthində çopur izləri əmələ gəlmə.",
+  "en": "becoming pitted or pockmarked",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "çiniləmək": {
+  "az": "Səthi çini ilə üzləmək.",
+  "en": "to face a surface with glazed tiles",
+  "pos": "verb"
+ },
+ "çiniləmə": {
+  "az": "Səthi çini ilə üzləmə.",
+  "en": "facing a surface with glazed tiles",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "çürükləmək": {
+  "az": "Çürük yerləri və ya məhsulları seçib ayırmaq.",
+  "en": "to pick out rotten parts or items",
+  "pos": "verb"
+ },
+ "çürükləmə": {
+  "az": "Çürük yerləri və ya məhsulları seçib ayırma.",
+  "en": "picking out rotten parts or items",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "çətirləmək": {
+  "az": "Üstünü çətir şəklində örtmək.",
+  "en": "to cover something like a canopy",
+  "pos": "verb"
+ },
+ "çətirləmə": {
+  "az": "Üstünü çətir şəklində örtmə.",
+  "en": "covering something like a canopy",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "çətirləndirmək": {
+  "az": "Çətir kimi açılıb yayılmasına səbəb olmaq.",
+  "en": "to cause something to spread like an umbrella",
+  "pos": "verb"
+ },
+ "çətirləndirmə": {
+  "az": "Çətir kimi açılıb yayılmasına səbəb olma.",
+  "en": "causing something to spread like an umbrella",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "şriftləmək": {
+  "az": "Yazını seçilmiş şriftlə tərtib etmək.",
+  "en": "to set lettering in a chosen typeface",
+  "pos": "verb"
+ },
+ "şriftləmə": {
+  "az": "Yazını seçilmiş şriftlə tərtib etmə.",
+  "en": "setting lettering in a chosen typeface",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "şriftlənmək": {
+  "az": "Müəyyən şriftlə tərtib olunmaq.",
+  "en": "to be set in a particular typeface",
+  "pos": "verb"
+ },
+ "şriftlənmə": {
+  "az": "Müəyyən şriftlə tərtib olunma.",
+  "en": "being set in a particular typeface",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "şumallamaq": {
+  "az": "Səthi sürtüb hamar və parlaq etmək.",
+  "en": "to smooth and polish a surface",
+  "pos": "verb"
+ },
+ "şumallama": {
+  "az": "Səthi sürtüb hamar və parlaq etmə.",
+  "en": "smoothing and polish a surface",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "şaxtalamaq": {
+  "az": "Soyuğun təsiri ilə səthi dondurmaq.",
+  "en": "to freeze the surface through exposure to cold",
+  "pos": "verb"
+ },
+ "şaxtalama": {
+  "az": "Soyuğun təsiri ilə səthi dondurma.",
+  "en": "freezing the surface through exposure to cold",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "çilingləmək": {
+  "az": "Xırda metal əşyaların toxunuşu kimi səs çıxarmaq.",
+  "en": "to make a light metallic ringing sound",
+  "pos": "verb"
+ },
+ "çilingləmə": {
+  "az": "Xırda metal əşyaların toxunuşu kimi səs çıxarma.",
+  "en": "making a light metallic ringing sound",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
+    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+   }
+  ]
+ },
+ "becidlik": {
+  "az": "İşi çevik və yubanmadan görmə xüsusiyyəti.",
+  "en": "promptness or briskness",
+  "pos": "noun"
+ },
+ "briolin": {
+  "az": "Saçı yatırtmaq və parıldatmaq üçün yağlı kosmetik vasitə.",
+  "en": "brilliantine, an oily hair dressing",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Open English WordNet · brilliantine",
+    "url": "https://github.com/globalwordnet/english-wordnet/blob/9b6aca775ae10ad3d2dc9956e8ad42a4ce1e076b/src/yaml/noun.artifact.yaml#L14776"
+   }
+  ]
+ },
+ "briolinli": {
+  "az": "Saçına briolin çəkilmiş.",
+  "en": "with hair dressed in brilliantine",
+  "pos": "adjective"
+ },
+ "büsbütünlük": {
+  "az": "Tamlıq, heç bir hissənin kənarda qalmaması.",
+  "en": "completeness or entirety",
+  "pos": "noun"
+ },
+ "darmacallıq": {
+  "az": "Vaxtın və ya fürsətin çox məhdud olması.",
+  "en": "a shortage of time or opportunity",
+  "pos": "noun"
+ },
+ "döşüdoluluq": {
+  "az": "Sinənin enli və dolu olması.",
+  "en": "fullness of the chest",
+  "pos": "noun"
+ },
+ "gözəyarılıq": {
+  "az": "Ölçmədən, gözə təxmin etmə üsulu.",
+  "en": "estimation by eye",
+  "pos": "noun"
+ },
+ "keçməzlik": {
+  "az": "Bir yerdən və ya mühitdən keçməyin mümkün olmaması.",
+  "en": "impassability or impermeability",
+  "pos": "noun"
+ },
+ "metabilik": {
+  "az": "İnsanın öz biliyi və bilmə üsulları haqqında biliyi.",
+  "en": "knowledge about knowledge itself",
+  "pos": "noun"
+ },
+ "metadilçilik": {
+  "az": "Dil haqqında danışmaq üçün istifadə olunan vasitələrin öyrənilməsi.",
+  "en": "the study of the language used to describe language",
+  "pos": "noun"
+ },
+ "meteolabillik": {
+  "az": "Hava şəraitinin dəyişməsinə qarşı həssaslıq.",
+  "en": "sensitivity to changes in the weather",
+  "pos": "noun"
+ },
+ "nisyəlik": {
+  "az": "Pulunu sonra vermək şərti ilə alınmış və ya verilmiş şey.",
+  "en": "an item obtained or supplied on credit",
+  "pos": "noun"
+ },
+ "operaçılıq": {
+  "az": "Opera sənəti ilə peşəkar məşğuliyyət.",
+  "en": "professional involvement in opera",
+  "pos": "noun"
+ },
+ "səkkizyaşarlıq": {
+  "az": "Səkkiz yaşında olma dövrü və ya halı.",
+  "en": "the state of being eight years old",
+  "pos": "noun"
+ },
+ "tayqıçlılıq": {
+  "az": "Bir ayağın olmaması halı.",
+  "en": "the state of having only one leg",
+  "pos": "noun"
+ },
+ "təkadlı": {
+  "az": "Yalnız bir adı olan.",
+  "en": "having a single name",
+  "pos": "adjective"
+ },
+ "təkbaytlı": {
+  "az": "Bir bayt yer tutan və ya bir baytdan istifadə edən.",
+  "en": "occupying or using a single byte",
+  "pos": "adjective"
+ },
+ "təkdəqiqlikli": {
+  "az": "Hesablamada birqat dəqiqliklə təqdim olunan.",
+  "en": "single-precision in numerical computation",
+  "pos": "adjective"
+ },
+ "təksahibli": {
+  "az": "Yalnız bir mülkiyyətçisi olan.",
+  "en": "having a single owner",
+  "pos": "adjective"
+ },
+ "təkvərəsəlik": {
+  "az": "Mirasın bütövlükdə bir vərəsəyə keçməsi.",
+  "en": "succession by a single heir",
+  "pos": "noun"
+ },
+ "təkəllilik": {
+  "az": "Yalnız bir əldən istifadə etmə və ya bir əlin olması.",
+  "en": "one-handedness",
+  "pos": "noun"
+ },
+ "təkətəklik": {
+  "az": "İki nəfərin başqaları olmadan qarşılaşması.",
+  "en": "a one-to-one encounter",
+  "pos": "noun"
+ },
+ "təkətəkdə": {
+  "az": "Yalnız ikilikdə, başqa adam olmadan.",
+  "en": "face to face in private",
+  "pos": "adverb"
+ },
+ "yarımvatlıq": {
+  "az": "Gücü yarım vatt olan.",
+  "en": "rated at half a watt",
+  "pos": "adjective"
+ },
+ "yarımkub": {
+  "az": "Kubun iki bərabər hissəsindən biri.",
+  "en": "one half of a cube",
+  "pos": "noun"
+ },
+ "yarımoynaq": {
+  "az": "Sümüklər arasında məhdud hərəkətə imkan verən birləşmə.",
+  "en": "a slightly movable joint",
+  "pos": "noun"
+ },
+ "yeddidüyümlük": {
+  "az": "Uzunluğu və ya ölçüsü yeddi düym olan.",
+  "en": "measuring seven inches",
+  "pos": "adjective"
+ },
+ "üçkubluq": {
+  "az": "Həcmi üç kub vahid olan.",
+  "en": "having a volume of three cubic units",
+  "pos": "adjective"
+ },
+ "üçhakimiyyətlilik": {
+  "az": "Eyni vaxtda üç hakimiyyət mərkəzinin mövcudluğu.",
+  "en": "the coexistence of three centres of power",
+  "pos": "noun"
+ },
+ "şükümlülük": {
+  "az": "Uğurlu və bərəkətli olma xüsusiyyəti.",
+  "en": "auspiciousness or good fortune",
+  "pos": "noun"
+ },
+ "yararlanma": {
+  "az": "Bir imkandan və ya vasitədən fayda götürmə.",
+  "en": "making use of or benefiting from something",
+  "pos": "noun"
+ },
+ "çiyrinmə": {
+  "az": "Bir şeydən ikrah duyma, bezmə.",
+  "en": "feeling disgust or aversion",
+  "pos": "noun"
+ },
+ "çiyrindirmə": {
+  "az": "Başqa birində ikrah və ya bezginlik oyatma.",
+  "en": "causing someone to feel disgust or aversion",
+  "pos": "noun"
+ },
+ "çatıldama": {
+  "az": "Qısa və kəskin çatırtı səslərinin çıxması.",
+  "en": "a crackling sound",
+  "pos": "noun"
+ },
+ "qədləmə": {
+  "az": "Əsasən danışıqda, nazik yonqarlar kəsərək yonma.",
+  "en": "whittling or paring, in colloquial usage",
+  "pos": "noun"
+ },
+ "qədlənmə": {
+  "az": "Nazik yonqarlar şəklində yonulma.",
+  "en": "being pared or whittled",
+  "pos": "noun"
+ },
+ "konyunkturçu": {
+  "az": "Mövqeyini cari vəziyyətdən qazanc götürməyə uyğun dəyişən adam.",
+  "en": "an opportunist who adapts to prevailing conditions",
+  "pos": "noun"
+ },
+ "konyunkturçuluq": {
+  "az": "Cari şəraitdən şəxsi mənafe üçün istifadə etmə meyli.",
+  "en": "opportunism in response to prevailing conditions",
+  "pos": "noun"
+ },
+ "konyunktur": {
+  "az": "Mövcud iqtisadi və ya siyasi şəraitdən asılı olan.",
+  "en": "dependent on current economic or political conditions",
+  "pos": "adjective"
+ },
+ "prayd": {
+  "az": "Birlikdə yaşayan şirlər qrupu.",
+  "en": "a pride of lions",
+  "pos": "noun"
+ },
+ "praymeriz": {
+  "az": "Partiyanın seçkilərdə namizədini müəyyənləşdirən ilkin səsvermə.",
+  "en": "a primary election to choose a party candidate",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Open English WordNet · primary election",
+    "url": "https://github.com/globalwordnet/english-wordnet/blob/9b6aca775ae10ad3d2dc9956e8ad42a4ce1e076b/src/yaml/noun.act.yaml#L8641"
+   }
+  ]
+ },
+ "kontanqo": {
+  "az": "Müddətli müqavilə üzrə qiymətin cari bazar qiymətindən yüksək olması.",
+  "en": "contango, when a futures price exceeds the spot price",
+  "pos": "noun"
+ },
+ "duopsoniya": {
+  "az": "Bazarda əsas alıcıların iki olduğu vəziyyət.",
+  "en": "a market dominated by two buyers",
+  "pos": "noun"
+ },
+ "nettinq": {
+  "az": "Qarşılıqlı maliyyə tələblərini əvəzləşdirərək yekun xalis məbləği hesablama.",
+  "en": "netting, the offsetting of obligations to determine a net balance",
+  "pos": "noun"
+ },
+ "konsummasiya": {
+  "az": "Bir prosesin və ya əqdin başa çatdırılması.",
+  "en": "the completion or consummation of a process or transaction",
+  "pos": "noun"
+ },
+ "manko": {
+  "az": "Uçotdakı miqdarla faktiki qalıq arasındakı çatışmazlıq.",
+  "en": "a shortage relative to the amount recorded in accounts",
+  "pos": "noun"
+ },
+ "leveric": {
+  "az": "Maliyyədə borc vəsaitindən istifadə ilə sərmayənin təsirini artırma.",
+  "en": "financial leverage through borrowed funds",
+  "pos": "noun"
+ },
+ "vençur": {
+  "az": "Yüksək risk və böyümə imkanı olan layihəyə yönələn sərmayə və ya təşəbbüs.",
+  "en": "a venture or investment involving high risk and growth potential",
+  "pos": "noun"
+ },
+ "tollinq əməliyyatları": {
+  "az": "Sifarişçinin xammalının haqq müqabilində emal edilib ona qaytarılması.",
+  "en": "toll processing of a customer's raw materials for a fee",
+  "pos": "noun"
+ },
+ "ramburs": {
+  "az": "Ticarət və bank əməliyyatında xərcin və ya ödənişin əvəzinin verilməsi.",
+  "en": "reimbursement in a commercial or banking transaction",
+  "pos": "noun"
+ },
+ "transfert": {
+  "az": "Pulun, hüququn və ya aktivin bir tərəfdən digərinə keçirilməsi.",
+  "en": "a transfer of funds, rights or assets",
+  "pos": "noun"
+ },
+ "remitent": {
+  "az": "Veksel üzrə ödənişi almaq hüququ olan ilkin şəxs.",
+  "en": "the original payee of a bill of exchange",
+  "pos": "noun"
+ },
+ "rimessa": {
+  "az": "Borcun ödənməsi üçün başqa yerə göndərilən pul və ya ödəniş sənədi.",
+  "en": "a remittance used to settle an obligation elsewhere",
+  "pos": "noun"
+ },
+ "kollopsion": {
+  "az": "Müəyyən aktivi razılaşdırılmış qiymətə almaq hüququ verən opsion.",
+  "en": "a call option giving the holder the right to buy an asset at an agreed price",
+  "pos": "noun"
+ },
+ "pausal ödəniş": {
+  "az": "Hissələrə və ya vahidlərə görə hesablanmayan əvvəlcədən razılaşdırılmış ümumi ödəniş.",
+  "en": "an agreed lump-sum payment",
+  "pos": "noun"
+ },
+ "friqold": {
+  "az": "İngilis torpaq hüququnda müddəti əvvəlcədən məhdudlaşdırılmamış mülkiyyət növü.",
+  "en": "a freehold estate in land",
+  "pos": "noun"
+ },
+ "mandamus": {
+  "az": "Məhkəmənin vəzifəli şəxsə və ya orqana qanuni vəzifəni yerinə yetirmək barədə əmri.",
+  "en": "a court order requiring a public official or body to perform a legal duty",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Open English WordNet · mandamus",
+    "url": "https://github.com/globalwordnet/english-wordnet/blob/9b6aca775ae10ad3d2dc9956e8ad42a4ce1e076b/src/yaml/noun.communication.yaml#L15435"
+   }
+  ]
+ },
+ "mansipasiya": {
+  "az": "Qədim Roma hüququnda əmlakın mərasim qaydasında özgəninkiləşdirilməsi.",
+  "en": "mancipation, a formal conveyance of property in Roman law",
+  "pos": "noun"
+ },
+ "komitsiya": {
+  "az": "Qədim Romada səsvermə və qərar qəbulu üçün çağırılan xalq yığıncağı.",
+  "en": "a popular assembly in ancient Rome",
+  "pos": "noun"
+ },
+ "kommendasiya": {
+  "az": "Orta əsrlərdə insanın himayə müqabilində daha güclü şəxsin tabeliyinə keçməsi.",
+  "en": "the medieval act of entering a lord's protection and service",
+  "pos": "noun"
+ },
+ "villan": {
+  "az": "Orta əsr Qərbi Avropasında malikanəyə bağlı asılı kəndli.",
+  "en": "a villein, a dependent peasant on a medieval European manor",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Open English WordNet · villein",
+    "url": "https://github.com/globalwordnet/english-wordnet/blob/9b6aca775ae10ad3d2dc9956e8ad42a4ce1e076b/src/yaml/noun.person.yaml#L61723"
+   }
+  ]
+ },
+ "yustitsiari": {
+  "az": "Orta əsr Avropasında yüksək məhkəmə və ya idarəçilik vəzifəsi daşıyan şəxs.",
+  "en": "a justiciar, a high judicial or administrative officer in medieval Europe",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Open English WordNet · justiciar",
+    "url": "https://github.com/globalwordnet/english-wordnet/blob/9b6aca775ae10ad3d2dc9956e8ad42a4ce1e076b/src/yaml/noun.person.yaml#L40446"
+   }
+  ]
+ },
+ "prudensiya": {
+  "az": "Davranışda qabaqcadan düşünmək və düzgün mühakimə etmək qabiliyyəti.",
+  "en": "prudence or practical judgement",
+  "pos": "noun"
+ },
+ "profaşizm": {
+  "az": "Faşist ideyalarına və ya rejimlərinə dəstək.",
+  "en": "support for fascist ideas or regimes",
+  "pos": "noun"
+ },
+ "panxristianizm": {
+  "az": "Xristian icmalarının birliyini müdafiə edən baxış.",
+  "en": "advocacy of unity among Christian communities",
+  "pos": "noun"
+ },
+ "neoqlobalizm": {
+  "az": "Qloballaşmanın yeni formasını və ya yeni qlobal inteqrasiya siyasətini bildirən anlayış.",
+  "en": "a new form of globalism or advocacy of renewed global integration",
+  "pos": "noun"
+ },
+ "neoqlobalist": {
+  "az": "Yeni qlobal inteqrasiya siyasətinin tərəfdarı.",
+  "en": "an advocate of a new form of globalism",
+  "pos": "noun"
+ },
+ "antropososiologiya": {
+  "az": "İnsanın bioloji və sosial xüsusiyyətlərinin əlaqəsini araşdıran tarixi istiqamət.",
+  "en": "a historical field concerned with relations between human biological and social characteristics",
+  "pos": "noun"
+ },
+ "antropososioloji": {
+  "az": "İnsanın bioloji və sosial xüsusiyyətlərinin əlaqəsini araşdıran yanaşmaya aid.",
+  "en": "pertaining to the study of human biological and social characteristics",
+  "pos": "adjective"
+ },
+ "antropososioloq": {
+  "az": "İnsanın bioloji və sosial xüsusiyyətlərinin əlaqəsini araşdıran mütəxəssis.",
+  "en": "a specialist in the relationship between human biological and social characteristics",
+  "pos": "noun"
+ },
+ "exokardiolokator": {
+  "az": "Ürək strukturlarını ultrasəs əks-sədaları vasitəsilə müəyyən edən cihaz.",
+  "en": "an instrument that locates cardiac structures using ultrasound echoes",
+  "pos": "noun"
+ },
+ "neyrokibernetik": {
+  "az": "Sinir sisteminin idarəetmə və informasiya proseslərini kibernetika baxımından öyrənən mütəxəssis.",
+  "en": "a specialist in the cybernetic study of neural control and information processing",
+  "pos": "noun"
+ },
+ "neyrobiofizik": {
+  "az": "Sinir sisteminin fəaliyyətinin fiziki əsaslarını öyrənən alim.",
+  "en": "a scientist studying the physical basis of nervous-system function",
+  "pos": "noun"
+ },
+ "neyrobionika": {
+  "az": "Sinir sisteminin iş prinsiplərindən texniki qurğularda istifadə edən istiqamət.",
+  "en": "the application of principles of nervous-system function to engineered devices",
+  "pos": "noun"
+ },
+ "neyromalyariya": {
+  "az": "Sinir sisteminin, xüsusən beynin zədələnməsi ilə gedən malyariya.",
+  "en": "malaria with neurological involvement, especially cerebral malaria",
+  "pos": "noun"
+ },
+ "neyrolipoma": {
+  "az": "Sinirlə əlaqəli piy toxumasından yaranan xoşxassəli törəmə.",
+  "en": "a benign fatty tumour associated with a nerve",
+  "pos": "noun"
+ },
+ "neyroleykoz": {
+  "az": "Leykoz hüceyrələrinin sinir sisteminə keçməsi ilə gedən zədələnmə.",
+  "en": "involvement of the nervous system by leukaemia",
+  "pos": "noun"
+ },
+ "uveopatiya": {
+  "az": "Gözün damarlı qişasının xəstəliyi.",
+  "en": "a disorder of the uveal tract of the eye",
+  "pos": "noun"
+ },
+ "ureteroliz": {
+  "az": "Sidik axarının onu sıxan ətraf toxumalardan cərrahi yolla azad edilməsi.",
+  "en": "surgical freeing of a ureter from constricting surrounding tissue",
+  "pos": "noun"
+ },
+ "uretrotom": {
+  "az": "Sidik kanalında kəsik aparmaq üçün istifadə olunan cərrahi alət.",
+  "en": "a surgical instrument for incising the urethra",
+  "pos": "noun"
+ },
+ "meatomiya": {
+  "az": "Təbii dəliyin cərrahi kəsiklə genişləndirilməsi.",
+  "en": "surgical enlargement of a bodily opening by incision",
+  "pos": "noun"
+ },
+ "panserozit": {
+  "az": "Bir neçə seroz qişanın eyni zamanda iltihabı.",
+  "en": "inflammation involving multiple serous membranes",
+  "pos": "noun"
+ },
+ "fibroangioma": {
+  "az": "Lifli birləşdirici toxuma və damar elementlərindən ibarət xoşxassəli törəmə.",
+  "en": "a benign growth composed of fibrous and vascular tissue",
+  "pos": "noun"
+ },
+ "proktoplastika": {
+  "az": "Düz bağırsaq və ya anus nahiyəsində bərpaedici cərrahiyyə.",
+  "en": "reconstructive surgery of the rectum or anus",
+  "pos": "noun"
+ },
+ "meloplastika": {
+  "az": "Yanağın forma və toxumalarının cərrahi bərpası.",
+  "en": "surgical reconstruction of the cheek",
+  "pos": "noun"
+ },
+ "tenzomüqavimət": {
+  "az": "Deformasiya zamanı elektrik müqaviməti dəyişən ölçü elementi.",
+  "en": "a resistive strain-gauge element",
+  "pos": "noun"
+ },
+ "taxodinamo": {
+  "az": "Fırlanma sürətinə uyğun gərginlik yaradan kiçik generator.",
+  "en": "a tachogenerator producing voltage proportional to rotational speed",
+  "pos": "noun"
+ },
+ "giroazimut": {
+  "az": "Giroskopik cihazla müəyyən edilən azimut.",
+  "en": "an azimuth determined by gyroscopic reference",
+  "pos": "noun"
+ },
+ "jirobus": {
+  "az": "Enerjini fırlanan nazimçarxda saxlayan avtobus.",
+  "en": "a gyrobus powered by energy stored in a flywheel",
+  "pos": "noun"
+ },
+ "girokamera": {
+  "az": "Təsvirin sabitliyi üçün giroskopla tarazlanan kamera.",
+  "en": "a gyroscopically stabilized camera",
+  "pos": "noun"
+ },
+ "motokompressor": {
+  "az": "Mühərrik və kompressordan ibarət aqreqat.",
+  "en": "a combined engine and compressor unit",
+  "pos": "noun"
+ },
+ "motoplaner": {
+  "az": "Mühərriklə təchiz edilmiş planer.",
+  "en": "a motor glider",
+  "pos": "noun"
+ },
+ "rapid-çəkiliş": {
+  "az": "Hərəkəti sonradan ləng göstərmək üçün yüksək kadr tezliyində aparılan çəkiliş.",
+  "en": "high-speed filming for slow-motion playback",
+  "pos": "noun"
+ },
+ "telekast": {
+  "az": "Televiziya vasitəsilə yayımlanan veriliş.",
+  "en": "a telecast or television broadcast",
+  "pos": "noun"
+ },
+ "videotrakt": {
+  "az": "Videosiqnalın keçdiyi elektron dövrələr ardıcıllığı.",
+  "en": "a chain of circuits through which a video signal passes",
+  "pos": "noun"
+ },
+ "pnevmosiqnal": {
+  "az": "Sıxılmış havanın təzyiqi və ya axını ilə ötürülən siqnal.",
+  "en": "a signal conveyed by air pressure or flow",
+  "pos": "noun"
+ },
+ "pnevmosistem": {
+  "az": "Enerjini və ya idarəetmə siqnallarını sıxılmış hava ilə ötürən sistem.",
+  "en": "a system transmitting power or control signals using compressed air",
+  "pos": "noun"
+ },
+ "pnevmostansiya": {
+  "az": "Sıxılmış havanı hazırlayıb avadanlığa verən qurğular kompleksi.",
+  "en": "a station that prepares and supplies compressed air",
+  "pos": "noun"
+ },
+ "pnevmomüqavimət": {
+  "az": "Pnevmatik dövrədə hava axınına qarşı göstərilən müqavimət.",
+  "en": "resistance to airflow in a pneumatic circuit",
+  "pos": "noun"
+ },
+ "pnevmokonteyner": {
+  "az": "Boru ilə hava axını vasitəsilə daşınan konteyner.",
+  "en": "a carrier moved through a tube by air pressure",
+  "pos": "noun"
+ },
+ "vaqon-ev": {
+  "az": "Yaşamaq üçün uyğunlaşdırılmış vaqon tipli daşınan tikili.",
+  "en": "a wagon-type mobile dwelling",
+  "pos": "noun"
+ },
+ "velomoped": {
+  "az": "Velosiped quruluşunu kiçik mühərriklə birləşdirən nəqliyyat vasitəsi.",
+  "en": "a motor-assisted bicycle or light moped",
+  "pos": "noun"
+ },
+ "veneroxod": {
+  "az": "Venera planetinin səthi üzərində hərəkət üçün nəzərdə tutulmuş aparat.",
+  "en": "a rover designed to travel on the surface of Venus",
+  "pos": "noun"
+ },
+ "vaterjaket": {
+  "az": "Qurğunun və ya mühərrikin ətrafında soyuducu suyun dövr etdiyi örtük.",
+  "en": "a water jacket surrounding equipment for cooling",
+  "pos": "noun"
+ },
+ "vibroforma": {
+  "az": "Materialı titrəyişlə sıxlaşdırmağa imkan verən qəlib.",
+  "en": "a mould that compacts material by vibration",
+  "pos": "noun"
+ },
+ "vibroporşen": {
+  "az": "İş zamanı titrəyiş hərəkəti edən porşen.",
+  "en": "a piston operating with a vibratory motion",
+  "pos": "noun"
+ },
+ "variooptika": {
+  "az": "Fokus məsafəsi dəyişdirilə bilən optik sistem.",
+  "en": "variable-focal-length optics",
+  "pos": "noun"
+ },
+ "mikroölçən": {
+  "az": "Çox kiçik ölçüləri və ya kəmiyyətləri təyin edən cihaz.",
+  "en": "an instrument for measuring very small dimensions or quantities",
+  "pos": "noun"
+ },
+ "a-laşma": {
+  "az": "Səsin «a» saitinə çevrilməsi.",
+  "en": "a sound change resulting in the vowel a",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L4967601"
+   }
+  ]
+ },
+ "o-laşma": {
+  "az": "Səsin «o» saitinə çevrilməsi.",
+  "en": "a sound change resulting in the vowel o",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L5044283"
+   }
+  ]
+ },
+ "u-laşma": {
+  "az": "Səsin «u» saitinə çevrilməsi.",
+  "en": "a sound change resulting in the vowel u",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L5086707"
+   }
+  ]
+ },
+ "ö-ləşmə": {
+  "az": "Səsin «ö» saitinə çevrilməsi.",
+  "en": "a sound change resulting in the vowel ö",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L5109136"
+   }
+  ]
+ },
+ "astroskop": {
+  "az": "Göy cisimlərini müşahidə etmək üçün işlədilən qurğu.",
+  "en": "a device for observing celestial objects",
+  "pos": "noun"
+ },
+ "deviometr": {
+  "az": "Kənaraçıxmanı ölçmək üçün işlədilən qurğu.",
+  "en": "a device for measuring deviation",
+  "pos": "noun"
+ },
+ "distansiometr": {
+  "az": "İki nöqtə arasındakı məsafəni ölçmək üçün işlədilən qurğu.",
+  "en": "a device for measuring the distance between two points",
+  "pos": "noun"
+ },
+ "endosmometr": {
+  "az": "Osmos zamanı mayenin keçməsini ölçmək üçün işlədilən qurğu.",
+  "en": "a device for measuring the flow of liquid by osmosis",
+  "pos": "noun"
+ },
+ "faradometr": {
+  "az": "Elektrik tutumunu ölçmək üçün işlədilən qurğu.",
+  "en": "a device for measuring electrical capacitance",
+  "pos": "noun"
+ },
+ "kinemometr": {
+  "az": "Hərəkət sürətini ölçmək üçün işlədilən qurğu.",
+  "en": "a device for measuring speed",
+  "pos": "noun"
+ },
+ "krenometr": {
+  "az": "Gəminin yana əyilmə bucağını ölçmək üçün işlədilən qurğu.",
+  "en": "a device for measuring the angle of a ship’s heel",
+  "pos": "noun"
+ },
+ "permeametr": {
+  "az": "Materialın keçiriciliyini təyin etmək üçün işlədilən qurğu.",
+  "en": "a device for determining the permeability of a material",
+  "pos": "noun"
+ },
+ "pnevmotaxometr": {
+  "az": "Nəfəs axınının sürətini ölçmək üçün işlədilən qurğu.",
+  "en": "a device for measuring respiratory airflow",
+  "pos": "noun"
+ },
+ "polyariskop": {
+  "az": "Maddəni polyarlaşmış işıqda öyrənmək üçün işlədilən qurğu.",
+  "en": "a device for examining material in polarized light",
+  "pos": "noun"
+ },
+ "taxokardiometr": {
+  "az": "Ürək döyüntülərinin tezliyini ölçmək üçün işlədilən qurğu.",
+  "en": "a device for measuring heart rate",
+  "pos": "noun"
+ },
+ "tenzoçevirici": {
+  "az": "Mexaniki deformasiyanı ölçülən siqnala çevirmək üçün işlədilən qurğu.",
+  "en": "a device for converting strain into a measurable signal",
+  "pos": "noun"
+ },
+ "termobatiqraf": {
+  "az": "Suyun temperaturunu dərinliyə görə qeyd etmək üçün işlədilən qurğu.",
+  "en": "a device for recording water temperature as a function of depth",
+  "pos": "noun"
+ },
+ "termobatoqraf": {
+  "az": "Suyun temperaturunu dərinliyə görə qeydə almaq üçün işlədilən qurğu.",
+  "en": "a device for recording water temperature at different depths",
+  "pos": "noun"
+ },
+ "torsiometr": {
+  "az": "Milin burulmasını və ya burucu momenti ölçmək üçün işlədilən qurğu.",
+  "en": "a device for measuring shaft twist or torque",
+  "pos": "noun"
+ },
+ "transmissometr": {
+  "az": "Mühitdən keçən işığın payını ölçmək üçün işlədilən qurğu.",
+  "en": "a device for measuring the fraction of light transmitted through a medium",
+  "pos": "noun"
+ },
+ "vaporimetr": {
+  "az": "Buxarlanmanı və ya buxar təzyiqini ölçmək üçün işlədilən qurğu.",
+  "en": "a device for measuring evaporation or vapour pressure",
+  "pos": "noun"
+ },
+ "vebermetr": {
+  "az": "Maqnit selini ölçmək üçün işlədilən qurğu.",
+  "en": "a device for measuring magnetic flux",
+  "pos": "noun"
+ },
+ "vattmetroqraf": {
+  "az": "Elektrik gücünün zamanla dəyişməsini yazmaq üçün işlədilən qurğu.",
+  "en": "a device for recording electrical power over time",
+  "pos": "noun"
+ },
+ "voltmetroqraf": {
+  "az": "Gərginliyin zamanla dəyişməsini yazmaq üçün işlədilən qurğu.",
+  "en": "a device for recording voltage over time",
+  "pos": "noun"
+ },
+ "volüminometr": {
+  "az": "Cismin həcmini ölçmək üçün işlədilən qurğu.",
+  "en": "a device for measuring the volume of an object",
+  "pos": "noun"
+ },
+ "volümometr": {
+  "az": "Həcmi təyin etmək üçün işlədilən qurğu.",
+  "en": "a device for determining volume",
+  "pos": "noun"
+ },
+ "radarskop": {
+  "az": "Radardan gələn əks-sədaları ekranda göstərmək üçün işlədilən qurğu.",
+  "en": "a device for displaying radar echoes",
+  "pos": "noun"
+ },
+ "fosforoskop": {
+  "az": "İşıqlandırma kəsildikdən sonra fosforessensiyanı müşahidə etmək üçün işlədilən qurğu.",
+  "en": "a device for observing phosphorescence after illumination ends",
+  "pos": "noun"
+ },
+ "klimatoqraf": {
+  "az": "İqlim göstəricilərini qeydə almaq üçün işlədilən qurğu.",
+  "en": "a device for recording climatic variables",
+  "pos": "noun"
+ },
+ "mikrospektoskop": {
+  "az": "Mikroskopik nümunənin spektrini müşahidə etmək üçün işlədilən qurğu.",
+  "en": "a device for examining the spectrum of a microscopic sample",
+  "pos": "noun"
+ },
+ "piranoqraf": {
+  "az": "Yer səthinə düşən ümumi günəş şüalanmasını yazmaq üçün işlədilən qurğu.",
+  "en": "a device for recording global solar irradiance",
+  "pos": "noun"
+ },
+ "seysmokardioqraf": {
+  "az": "Ürəyin fəaliyyəti ilə bağlı döş qəfəsi titrəyişlərini yazmaq üçün işlədilən qurğu.",
+  "en": "a device for recording chest vibrations associated with cardiac activity",
+  "pos": "noun"
+ },
+ "rentgenokimoqraf": {
+  "az": "Hərəkət edən orqanın sərhədlərini rentgen üsulu ilə yazmaq üçün işlədilən qurğu.",
+  "en": "a device for recording organ motion by X-ray kymography",
+  "pos": "noun"
+ },
+ "pnevmoelement": {
+  "az": "Sıxılmış hava ilə idarəetmə funksiyasını yerinə yetirmək üçün işlədilən qurğu.",
+  "en": "a device for performing a control function using compressed air",
+  "pos": "noun"
+ },
+ "rentgenofotometr": {
+  "az": "Rentgen təsvirinin optik sıxlığını ölçmək üçün işlədilən qurğu.",
+  "en": "a device for measuring the optical density of an X-ray image",
+  "pos": "noun"
+ },
+ "kaliper-pərgar": {
+  "az": "Qarşılıqlı iki nöqtə arasındakı ölçünü götürmək üçün işlədilən qurğu.",
+  "en": "a device for taking the distance between two opposite points",
+  "pos": "noun"
+ },
+ "termobur": {
+  "az": "Süxurda istilik təsiri ilə quyu açmaq üçün işlədilən qurğu.",
+  "en": "a device for drilling rock by thermal action",
+  "pos": "noun"
+ },
+ "vibrokipləşdirici": {
+  "az": "Materialı titrəyişlə sıxlaşdırmaq üçün işlədilən qurğu.",
+  "en": "a device for compacting material by vibration",
+  "pos": "noun"
+ },
+ "vibroxəlbir": {
+  "az": "Dənəvər materialı titrəyişlə ələmək üçün işlədilən qurğu.",
+  "en": "a device for sieving granular material by vibration",
+  "pos": "noun"
+ },
+ "vakuumlayıcı": {
+  "az": "Qapalı həcmdən havanı çıxarmaq üçün işlədilən qurğu.",
+  "en": "a device for evacuating air from an enclosure",
+  "pos": "noun"
+ },
+ "suqarışdırıcı": {
+  "az": "Suyu digər maye ilə və ya müxtəlif temperaturlu su axınlarını bir-biri ilə qarışdırmaq üçün işlədilən qurğu.",
+  "en": "a device for mixing water streams or blending water with another liquid",
+  "pos": "noun"
+ },
+ "torbalama maşını": {
+  "az": "Məhsulu torbalara doldurmaq üçün işlədilən qurğu.",
+  "en": "a device for filling bags with a product",
+  "pos": "noun"
+ },
+ "torfyığan kombayn": {
+  "az": "Torfu yığıb daşıyıcıya ötürmək üçün işlədilən qurğu.",
+  "en": "a device for collecting peat and delivering it to a carrier",
+  "pos": "noun"
+ },
+ "tütünqurudan aparat": {
+  "az": "Tütün yarpaqlarını qurutmaq üçün işlədilən qurğu.",
+  "en": "a device for drying tobacco leaves",
+  "pos": "noun"
+ },
+ "barofiziologiya": {
+  "az": "Tədqiqat mövzusu təzyiq dəyişmələrinin orqanizmə təsiri olan elm sahəsi.",
+  "en": "the study of the effects of pressure changes on the body",
+  "pos": "noun"
+ },
+ "barofizioloq": {
+  "az": "Tədqiqat mövzusu təzyiq dəyişmələrinin orqanizmə təsiri olan mütəxəssis.",
+  "en": "a specialist in the effects of pressure changes on the body",
+  "pos": "noun"
+ },
+ "fitobiologiya": {
+  "az": "Tədqiqat mövzusu bitkilərin həyat prosesləri olan elm sahəsi.",
+  "en": "the study of the life processes of plants",
+  "pos": "noun"
+ },
+ "fitobioloq": {
+  "az": "Tədqiqat mövzusu bitkilərin həyat prosesləri olan mütəxəssis.",
+  "en": "a specialist in the life processes of plants",
+  "pos": "noun"
+ },
+ "fitobioloji": {
+  "az": "Bitkilərin həyat prosesləri ilə bağlı.",
+  "en": "relating to the life processes of plants",
+  "pos": "adjective"
+ },
+ "morfofiziologiya": {
+  "az": "Tədqiqat mövzusu orqanizmin quruluşu ilə funksiyalarının əlaqəsi olan elm sahəsi.",
+  "en": "the study of the relationship between structure and function in organisms",
+  "pos": "noun"
+ },
+ "zoobiologiya": {
+  "az": "Tədqiqat mövzusu heyvanların həyat prosesləri olan elm sahəsi.",
+  "en": "the study of the life processes of animals",
+  "pos": "noun"
+ },
+ "zoobioloq": {
+  "az": "Tədqiqat mövzusu heyvanların həyat prosesləri olan mütəxəssis.",
+  "en": "a specialist in the life processes of animals",
+  "pos": "noun"
+ },
+ "zoobioloji": {
+  "az": "Heyvanların həyat prosesləri ilə bağlı.",
+  "en": "relating to the life processes of animals",
+  "pos": "adjective"
+ },
+ "zoopaleontologiya": {
+  "az": "Tədqiqat mövzusu qazıntı heyvan qalıqları olan elm sahəsi.",
+  "en": "the study of fossil animals",
+  "pos": "noun"
+ },
+ "zoopaleontoloq": {
+  "az": "Tədqiqat mövzusu qazıntı heyvan qalıqları olan mütəxəssis.",
+  "en": "a specialist in fossil animals",
+  "pos": "noun"
+ },
+ "zoopaleontoloji": {
+  "az": "Qazıntı heyvan qalıqları ilə bağlı.",
+  "en": "relating to fossil animals",
+  "pos": "adjective"
+ },
+ "rentgenoradiologiya": {
+  "az": "Tədqiqat mövzusu rentgen şüalarının və digər şüalanma növlərinin tibbi tətbiqi olan elm sahəsi.",
+  "en": "the study of the medical applications of X-rays and other radiation",
+  "pos": "noun"
+ },
+ "rentgenoradioloq": {
+  "az": "Tədqiqat mövzusu rentgen şüalarının və digər şüalanma növlərinin tibbi tətbiqi olan mütəxəssis.",
+  "en": "a specialist in the medical applications of X-rays and other radiation",
+  "pos": "noun"
+ },
+ "rentgenoradioloji": {
+  "az": "Rentgen şüalarının və digər şüalanma növlərinin tibbi tətbiqi ilə bağlı.",
+  "en": "relating to the medical applications of X-rays and other radiation",
+  "pos": "adjective"
+ },
+ "paleofiziologiya": {
+  "az": "Tədqiqat mövzusu keçmiş dövrlərdə yaşamış orqanizmlərin fiziologiyası olan elm sahəsi.",
+  "en": "the study of the physiology of organisms of past geological ages",
+  "pos": "noun"
+ },
+ "paleofizioloji": {
+  "az": "Keçmiş dövrlərdə yaşamış orqanizmlərin fiziologiyası ilə bağlı.",
+  "en": "relating to the physiology of organisms of past geological ages",
+  "pos": "adjective"
+ },
+ "neyrohematologiya": {
+  "az": "Tədqiqat mövzusu qan xəstəlikləri ilə sinir sisteminin əlaqəsi olan elm sahəsi.",
+  "en": "the study of the relationship between blood disorders and the nervous system",
+  "pos": "noun"
+ },
+ "neyrohematoloq": {
+  "az": "Tədqiqat mövzusu qan xəstəlikləri ilə sinir sisteminin əlaqəsi olan mütəxəssis.",
+  "en": "a specialist in the relationship between blood disorders and the nervous system",
+  "pos": "noun"
+ },
+ "neyrohematoloji": {
+  "az": "Qan xəstəlikləri ilə sinir sisteminin əlaqəsi ilə bağlı.",
+  "en": "relating to the relationship between blood disorders and the nervous system",
+  "pos": "adjective"
+ },
+ "neyroginekologiya": {
+  "az": "Tədqiqat mövzusu sinir sistemi ilə qadın reproduktiv sisteminin qarşılıqlı əlaqəsi olan elm sahəsi.",
+  "en": "the study of interactions between the nervous and female reproductive systems",
+  "pos": "noun"
+ },
+ "neyroginekoloq": {
+  "az": "Tədqiqat mövzusu sinir sistemi ilə qadın reproduktiv sisteminin qarşılıqlı əlaqəsi olan mütəxəssis.",
+  "en": "a specialist in interactions between the nervous and female reproductive systems",
+  "pos": "noun"
+ },
+ "neyroginekoloji": {
+  "az": "Sinir sistemi ilə qadın reproduktiv sisteminin qarşılıqlı əlaqəsi ilə bağlı.",
+  "en": "relating to interactions between the nervous and female reproductive systems",
+  "pos": "adjective"
+ },
+ "linqvotekstologiya": {
+  "az": "Tədqiqat mövzusu mətnin dil quruluşu olan elm sahəsi.",
+  "en": "the study of the linguistic structure of texts",
+  "pos": "noun"
+ },
+ "linqvotekstoloq": {
+  "az": "Tədqiqat mövzusu mətnin dil quruluşu olan mütəxəssis.",
+  "en": "a specialist in the linguistic structure of texts",
+  "pos": "noun"
+ },
+ "linqvotekstoloji": {
+  "az": "Mətnin dil quruluşu ilə bağlı.",
+  "en": "relating to the linguistic structure of texts",
+  "pos": "adjective"
+ },
+ "fonomorfologiya": {
+  "az": "Tədqiqat mövzusu səs quruluşu ilə morfoloji quruluşun qarşılıqlı əlaqəsi olan elm sahəsi.",
+  "en": "the study of the interaction of sound structure and morphology",
+  "pos": "noun"
+ },
+ "fonomorfoloji": {
+  "az": "Səs quruluşu ilə morfoloji quruluşun qarşılıqlı əlaqəsi ilə bağlı.",
+  "en": "relating to the interaction of sound structure and morphology",
+  "pos": "adjective"
+ },
+ "kosmoxronologiya": {
+  "az": "Tədqiqat mövzusu kosmik hadisələrin vaxtı və ardıcıllığı olan elm sahəsi.",
+  "en": "the study of the timing and sequence of cosmic events",
+  "pos": "noun"
+ },
+ "metallooptika": {
+  "az": "Tədqiqat mövzusu metalların işıqla qarşılıqlı təsiri olan elm sahəsi.",
+  "en": "the study of the interaction of metals with light",
+  "pos": "noun"
+ },
+ "maqnitomexanika": {
+  "az": "Tədqiqat mövzusu maqnit və mexaniki hadisələrin qarşılıqlı təsiri olan elm sahəsi.",
+  "en": "the study of interactions between magnetic and mechanical effects",
+  "pos": "noun"
+ },
+ "maqnitomexaniki": {
+  "az": "Maqnit və mexaniki hadisələrin qarşılıqlı təsiri ilə bağlı.",
+  "en": "relating to interactions between magnetic and mechanical effects",
+  "pos": "adjective"
+ },
+ "topogeodeziya": {
+  "az": "Tədqiqat mövzusu yer səthinin ölçülməsi və topoqrafik təsviri olan elm sahəsi.",
+  "en": "the study of land surveying and the topographic representation of terrain",
+  "pos": "noun"
+ },
+ "topogeodezik": {
+  "az": "Yer səthinin ölçülməsi və topoqrafik təsviri ilə bağlı.",
+  "en": "relating to land surveying and the topographic representation of terrain",
+  "pos": "adjective"
+ },
+ "seysmoakustika": {
+  "az": "Tədqiqat mövzusu seysmik və akustik dalğaların yayılması və əlaqəsi olan elm sahəsi.",
+  "en": "the study of the propagation and interaction of seismic and acoustic waves",
+  "pos": "noun"
+ },
+ "seysmoakustik": {
+  "az": "Seysmik və akustik dalğaların yayılması və əlaqəsi ilə bağlı.",
+  "en": "relating to the propagation and interaction of seismic and acoustic waves",
+  "pos": "adjective"
+ },
+ "seysmohidroakustika": {
+  "az": "Tədqiqat mövzusu seysmik dalğalarla suda yayılan səs dalğalarının qarşılıqlı təsiri olan elm sahəsi.",
+  "en": "the study of interactions between seismic waves and underwater sound",
+  "pos": "noun"
+ },
+ "seysmohidroakustik": {
+  "az": "Seysmik dalğalarla suda yayılan səs dalğalarının qarşılıqlı təsiri ilə bağlı.",
+  "en": "relating to interactions between seismic waves and underwater sound",
+  "pos": "adjective"
+ },
+ "seysmostatistika": {
+  "az": "Tədqiqat mövzusu zəlzələlərin statistik qanunauyğunluqları olan elm sahəsi.",
+  "en": "the study of statistical patterns of earthquakes",
+  "pos": "noun"
+ },
+ "seysmostatistik": {
+  "az": "Zəlzələlərin statistik qanunauyğunluqları ilə bağlı.",
+  "en": "relating to statistical patterns of earthquakes",
+  "pos": "adjective"
+ },
+ "neystonologiya": {
+  "az": "Tədqiqat mövzusu su səthində və ona bitişik təbəqədə yaşayan orqanizmlər olan elm sahəsi.",
+  "en": "the study of organisms living at or near the surface film of water",
+  "pos": "noun"
+ },
+ "freatobiologiya": {
+  "az": "Tədqiqat mövzusu yeraltı sularda yaşayan orqanizmlər olan elm sahəsi.",
+  "en": "the study of organisms living in groundwater",
+  "pos": "noun"
+ },
+ "etnosemiotika": {
+  "az": "Tədqiqat mövzusu müxtəlif xalqların mədəniyyətində işarə sistemləri olan elm sahəsi.",
+  "en": "the study of sign systems in different cultures",
+  "pos": "noun"
+ },
+ "membranologiya": {
+  "az": "Tədqiqat mövzusu bioloji membranların quruluş və funksiyaları olan elm sahəsi.",
+  "en": "the study of the structure and function of biological membranes",
+  "pos": "noun"
+ },
+ "membranoloq": {
+  "az": "Tədqiqat mövzusu bioloji membranların quruluş və funksiyaları olan mütəxəssis.",
+  "en": "a specialist in the structure and function of biological membranes",
+  "pos": "noun"
+ },
+ "paleonevrologiya": {
+  "az": "Tədqiqat mövzusu qədim orqanizmlərin sinir sistemi olan elm sahəsi.",
+  "en": "the study of the nervous systems of ancient organisms",
+  "pos": "noun"
+ },
+ "orqanoqrafiya": {
+  "az": "Tədqiqat mövzusu orqanların forma və quruluşunun təsviri olan elm sahəsi.",
+  "en": "the study of the descriptive anatomy of organs",
+  "pos": "noun"
+ },
+ "orqanoqrafik": {
+  "az": "Orqanların forma və quruluşunun təsviri ilə bağlı.",
+  "en": "relating to the descriptive anatomy of organs",
+  "pos": "adjective"
+ },
+ "osteoqrafiya": {
+  "az": "Tədqiqat mövzusu sümüklərin quruluşunun təsviri olan elm sahəsi.",
+  "en": "the study of the descriptive anatomy of bones",
+  "pos": "noun"
+ },
+ "ixtioqrafiya": {
+  "az": "Tədqiqat mövzusu balıqların təsviri və fərqləndirici xüsusiyyətləri olan elm sahəsi.",
+  "en": "the study of the description and distinguishing features of fishes",
+  "pos": "noun"
+ },
+ "ixtioqraf": {
+  "az": "Tədqiqat mövzusu balıqların təsviri və fərqləndirici xüsusiyyətləri olan mütəxəssis.",
+  "en": "a specialist in the description and distinguishing features of fishes",
+  "pos": "noun"
+ },
+ "fitotopoqrafiya": {
+  "az": "Tədqiqat mövzusu bitkilərin müəyyən ərazidə məkan üzrə yerləşməsi olan elm sahəsi.",
+  "en": "the study of the spatial distribution of plants within an area",
+  "pos": "noun"
+ },
+ "kosmofizik": {
+  "az": "Tədqiqat mövzusu kosmosda baş verən fiziki proseslər olan mütəxəssis.",
+  "en": "a specialist in physical processes in space",
+  "pos": "noun"
+ },
+ "morfofonemika": {
+  "az": "Tədqiqat mövzusu morfemlərin tərkibində səs əvəzlənmələri olan elm sahəsi.",
+  "en": "the study of sound alternations within morphemes",
+  "pos": "noun"
+ },
+ "zoofenologiya": {
+  "az": "Tədqiqat mövzusu heyvanların həyatında mövsümi hadisələr olan elm sahəsi.",
+  "en": "the study of seasonal events in the lives of animals",
+  "pos": "noun"
+ },
+ "kariosistematika": {
+  "az": "Tədqiqat mövzusu orqanizmlərin xromosom xüsusiyyətlərinə görə təsnifatı olan elm sahəsi.",
+  "en": "the study of classification of organisms using chromosome characteristics",
+  "pos": "noun"
+ },
+ "tribotexnologiya": {
+  "az": "Tədqiqat mövzusu maşın hissələrində sürtünmə, yağlama və yeyilmə olan elm sahəsi.",
+  "en": "the study of friction, lubrication and wear in machinery",
+  "pos": "noun"
+ },
+ "tribotexnik": {
+  "az": "Tədqiqat mövzusu maşın hissələrində sürtünmə, yağlama və yeyilmə olan mütəxəssis.",
+  "en": "a specialist in friction, lubrication and wear in machinery",
+  "pos": "noun"
+ },
+ "tribotexniki": {
+  "az": "Maşın hissələrində sürtünmə, yağlama və yeyilmə ilə bağlı.",
+  "en": "relating to friction, lubrication and wear in machinery",
+  "pos": "adjective"
+ },
+ "xemodinamika": {
+  "az": "Tədqiqat mövzusu kimyəvi proseslərin zaman və məkan üzrə dəyişməsi olan elm sahəsi.",
+  "en": "the study of the dynamics of chemical processes",
+  "pos": "noun"
+ },
+ "helonim": {
+  "az": "Onomastikada bataqlığın xüsusi adı.",
+  "en": "in onomastics, the proper name of a marsh or swamp",
+  "pos": "noun"
+ },
+ "selenonim": {
+  "az": "Onomastikada Ay səthindəki obyektin xüsusi adı.",
+  "en": "in onomastics, the proper name of a feature on the Moon",
+  "pos": "noun"
+ },
+ "paleoantroponim": {
+  "az": "Onomastikada qədim dövrdə işlənmiş şəxsin xüsusi adı.",
+  "en": "in onomastics, the proper name of a person in historical or ancient usage",
+  "pos": "noun"
+ },
+ "mezohidronim": {
+  "az": "Onomastikada orta ölçülü su obyektinin xüsusi adı.",
+  "en": "in onomastics, the proper name of a medium-sized body of water",
+  "pos": "noun"
+ },
+ "dokumentonim": {
+  "az": "Onomastikada sənədin xüsusi adı.",
+  "en": "in onomastics, the proper name of a document",
+  "pos": "noun"
+ },
+ "mifofitonim": {
+  "az": "Onomastikada mifik bitkinin xüsusi adı.",
+  "en": "in onomastics, the proper name of a mythical plant",
+  "pos": "noun"
+ },
+ "mifozoonim": {
+  "az": "Onomastikada mifik heyvanın xüsusi adı.",
+  "en": "in onomastics, the proper name of a mythical animal",
+  "pos": "noun"
+ },
+ "mifopersonim": {
+  "az": "Onomastikada mifoloji personajın xüsusi adı.",
+  "en": "in onomastics, the proper name of a mythological character",
+  "pos": "noun"
+ },
+ "epoxonim": {
+  "az": "Onomastikada tarixi dövrün xüsusi adı.",
+  "en": "in onomastics, the proper name of a historical period",
+  "pos": "noun"
+ },
+ "komonim": {
+  "az": "Onomastikada kənd yaşayış məntəqəsinin xüsusi adı.",
+  "en": "in onomastics, the proper name of a rural settlement",
+  "pos": "noun"
+ },
+ "litonim": {
+  "az": "Onomastikada daşın və ya qayanın xüsusi adı.",
+  "en": "in onomastics, the proper name of a stone or rock formation",
+  "pos": "noun"
+ },
+ "aqronim": {
+  "az": "Onomastikada əkin sahəsinin xüsusi adı.",
+  "en": "in onomastics, the proper name of a cultivated field",
+  "pos": "noun"
+ },
+ "bivalyuta": {
+  "az": "İki valyuta ilə bağlı.",
+  "en": "relating to two currencies",
+  "pos": "adjective"
+ },
+ "neyrokardiogen": {
+  "az": "Sinir sisteminin ürəyin işinə təsiri ilə bağlı.",
+  "en": "relating to neural influences on heart function",
+  "pos": "adjective"
+ },
+ "mikrokristalloskopik": {
+  "az": "Kiçik kristalların mikroskopla tədqiqi ilə bağlı.",
+  "en": "relating to the microscopic examination of crystals",
+  "pos": "adjective"
+ },
+ "xronoskopik": {
+  "az": "Çox qısa zaman intervallarının ölçülməsi ilə bağlı.",
+  "en": "relating to measurement of very short time intervals",
+  "pos": "adjective"
+ },
+ "homoqrafik": {
+  "az": "Yazılışı eyni olan sözlər ilə bağlı.",
+  "en": "relating to words that are written alike",
+  "pos": "adjective"
+ },
+ "paleolinqvistik": {
+  "az": "Qədim dillərin tədqiqi ilə bağlı.",
+  "en": "relating to the study of ancient languages",
+  "pos": "adjective"
+ },
+ "litokimyəvi": {
+  "az": "Süxurların kimyəvi tərkibi ilə bağlı.",
+  "en": "relating to the chemical composition of rocks",
+  "pos": "adjective"
+ },
+ "zookimyəvi": {
+  "az": "Heyvan orqanizmində maddələrin tərkibi və çevrilməsi ilə bağlı.",
+  "en": "relating to chemical substances and processes in animals",
+  "pos": "adjective"
+ },
+ "zoosemantik": {
+  "az": "Heyvanlarla bağlı dil mənaları ilə bağlı.",
+  "en": "relating to linguistic meanings associated with animals",
+  "pos": "adjective"
+ },
+ "surdopedaqoji": {
+  "az": "Eşitmə məhdudiyyətli şəxslərin təhsili ilə bağlı.",
+  "en": "relating to the education of deaf and hard-of-hearing people",
+  "pos": "adjective"
+ },
+ "tiflotexniki": {
+  "az": "Görmə məhdudiyyətli şəxslər üçün texniki vasitələr ilə bağlı.",
+  "en": "relating to assistive technology for blind and partially sighted people",
+  "pos": "adjective"
+ },
+ "paleomaqnit": {
+  "az": "Keçmiş geoloji dövrlərin maqnit sahəsi ilə bağlı.",
+  "en": "relating to the magnetic field of past geological ages",
+  "pos": "adjective"
+ },
+ "fiziopatoloji": {
+  "az": "Xəstəlik zamanı orqanizmin fəaliyyətində dəyişikliklər ilə bağlı.",
+  "en": "relating to changes in physiological function during disease",
+  "pos": "adjective"
+ },
+ "genotipoloji": {
+  "az": "Genotiplərin təsnifatı ilə bağlı.",
+  "en": "relating to the classification of genotypes",
+  "pos": "adjective"
+ },
+ "ferrodinamik": {
+  "az": "Ferromaqnit nüvədən istifadə edən elektrodinamik sistem ilə bağlı.",
+  "en": "relating to an electrodynamic system employing a ferromagnetic core",
+  "pos": "adjective"
+ },
+ "statokinetik": {
+  "az": "Bədənin hərəkət və tarazlıq vəziyyəti ilə bağlı.",
+  "en": "relating to motion and postural equilibrium",
+  "pos": "adjective"
+ },
+ "statoakustik": {
+  "az": "Tarazlıq və eşitmə funksiyaları ilə bağlı.",
+  "en": "relating to the functions of balance and hearing",
+  "pos": "adjective"
+ },
+ "transbukkal": {
+  "az": "Yanağın selikli qişasından keçid ilə bağlı.",
+  "en": "relating to passage through the lining of the cheek",
+  "pos": "adjective"
+ },
+ "neyrodinamik": {
+  "az": "Sinir proseslərinin dinamikası ilə bağlı.",
+  "en": "relating to the dynamics of nervous processes",
+  "pos": "adjective"
+ },
+ "rentgenokimoqrafik": {
+  "az": "Rentgen üsulu ilə hərəkətin qeydiyyatı ilə bağlı.",
+  "en": "relating to the recording of movement by X-ray kymography",
+  "pos": "adjective"
+ },
+ "seysmokardioqrafik": {
+  "az": "Ürəyin yaratdığı mexaniki titrəyişlərin qeydiyyatı ilə bağlı.",
+  "en": "relating to the recording of mechanical vibrations produced by the heart",
+  "pos": "adjective"
+ },
+ "rentgenometrik": {
+  "az": "Rentgen şüalanmasının ölçülməsi ilə bağlı.",
+  "en": "relating to the measurement of X radiation",
+  "pos": "adjective"
+ },
+ "notoqrafik": {
+  "az": "Musiqinin notla yazılması ilə bağlı.",
+  "en": "relating to the notation of music",
+  "pos": "adjective"
+ },
+ "xronoqrafik": {
+  "az": "Zamanın və hadisələrin ardıcıllığının qeydiyyatı ilə bağlı.",
+  "en": "relating to the recording of time or chronological sequence",
+  "pos": "adjective"
+ },
+ "planetoqrafik": {
+  "az": "Planet səthinin təsviri və koordinatları ilə bağlı.",
+  "en": "relating to the description and coordinates of planetary surfaces",
+  "pos": "adjective"
+ },
+ "ala-ağ": {
+  "az": "Ağ rəng üstünlük təşkil edən, başqa rəngli ləkələri də olan.",
+  "en": "predominantly white with patches of another colour",
+  "pos": "adjective"
+ },
+ "azseçilən": {
+  "az": "Ətrafındakılardan çətin fərqləndirilən.",
+  "en": "barely distinguishable",
+  "pos": "adjective"
+ },
+ "beliaçıq": {
+  "az": "Bel hissəsini örtməyən və ya beli açıq qalan.",
+  "en": "leaving the back or waist exposed",
+  "pos": "adjective"
+ },
+ "balıqüzgüclü": {
+  "az": "Balığın üzgəcinə bənzər üzvü olan.",
+  "en": "having a fishlike fin",
+  "pos": "adjective"
+ },
+ "bağırsaqtənəffüslü": {
+  "az": "Bağırsağı vasitəsilə də qaz mübadiləsi aparan.",
+  "en": "capable of intestinal respiration",
+  "pos": "adjective"
+ },
+ "biratılan": {
+  "az": "Yenidən doldurulmadan yalnız bir atış edə bilən.",
+  "en": "single-shot",
+  "pos": "adjective"
+ },
+ "birkəsikli": {
+  "az": "Bir kəsiyi olan.",
+  "en": "having one cuts or notches",
+  "pos": "adjective"
+ },
+ "birli-ikili": {
+  "az": "Bir-bir və ya iki-iki.",
+  "en": "singly or in pairs",
+  "pos": "adverb"
+ },
+ "buaykı": {
+  "az": "Cari aya aid olan.",
+  "en": "of the current month",
+  "pos": "adjective"
+ },
+ "boynudərisiz": {
+  "az": "Boyun nahiyəsinin dərisi olmayan.",
+  "en": "lacking skin on the neck",
+  "pos": "adjective"
+ },
+ "becid-becid": {
+  "az": "İşi cəld və yubanmadan görərək.",
+  "en": "briskly and without delay",
+  "pos": "adverb"
+ },
+ "bənzərli": {
+  "az": "Başqa bir şeylə oxşarlığı olan.",
+  "en": "similar or bearing a resemblance",
+  "pos": "adjective"
+ },
+ "dartıqdodaq": {
+  "az": "Dodaqları dartılmış görünən.",
+  "en": "having taut or stretched lips",
+  "pos": "adjective"
+ },
+ "dartıqdodaqlı": {
+  "az": "Dodaqları gərilmiş vəziyyətdə olan.",
+  "en": "with taut lips",
+  "pos": "adjective"
+ },
+ "dartıqsimli": {
+  "az": "Simləri gərilmiş olan.",
+  "en": "having taut strings",
+  "pos": "adjective"
+ },
+ "dildəniti": {
+  "az": "Sözlə sərt və kəskin cavab verən.",
+  "en": "sharp-tongued",
+  "pos": "adjective"
+ },
+ "dinsizcə": {
+  "az": "Dini inancı olmayan şəxsə xas tərzdə.",
+  "en": "in an irreligious manner",
+  "pos": "adverb"
+ },
+ "dördbuynuz": {
+  "az": "Dörd buynuzu olan.",
+  "en": "having four horns",
+  "pos": "adjective"
+ },
+ "dördkəsicidişli": {
+  "az": "Dörd kəsici dişi olan.",
+  "en": "having four incisor teeth",
+  "pos": "adjective"
+ },
+ "döşüdolu": {
+  "az": "Sinəsi dolu və enli olan.",
+  "en": "full-chested",
+  "pos": "adjective"
+ },
+ "dəmbərəgözlü": {
+  "az": "Gözləri qabarıq şəkildə irəli çıxan.",
+  "en": "having protruding eyes",
+  "pos": "adjective"
+ },
+ "enligöz": {
+  "az": "Gözləri enli və iri görünən.",
+  "en": "wide-eyed",
+  "pos": "adjective"
+ },
+ "geləbənzər": {
+  "az": "Qatılığı və görünüşü gelə oxşayan.",
+  "en": "gel-like",
+  "pos": "adjective"
+ },
+ "gödəkdiş": {
+  "az": "Dişləri qısa olan.",
+  "en": "short-toothed",
+  "pos": "adjective"
+ },
+ "göyəçalan": {
+  "az": "Rəngi göyə yaxın olan.",
+  "en": "bluish",
+  "pos": "adjective"
+ },
+ "göyəçalar": {
+  "az": "Göy çaları olan.",
+  "en": "tinged with blue",
+  "pos": "adjective"
+ },
+ "heteroquruluşlu": {
+  "az": "Bir-birindən fərqli quruluş hissələrindən təşkil olunan.",
+  "en": "composed of structurally different parts",
+  "pos": "adjective"
+ },
+ "immunlu": {
+  "az": "Müəyyən xəstəliyə qarşı immuniteti olan.",
+  "en": "having immunity to a particular disease",
+  "pos": "adjective"
+ },
+ "itili": {
+  "az": "İti ucu və ya kəsici tərəfi olan.",
+  "en": "having a pointed tip or sharp edge",
+  "pos": "adjective"
+ },
+ "kamerli": {
+  "az": "Bir və ya bir neçə kamerası olan.",
+  "en": "provided with a chamber or chambers",
+  "pos": "adjective"
+ },
+ "kəmçiy": {
+  "az": "Tam bişməmiş, bir qədər çiy qalmış.",
+  "en": "partly raw or undercooked",
+  "pos": "adjective"
+ },
+ "kötür-kötür": {
+  "az": "Səthi hamar olmayıb çıxıntı və çuxurlarla örtülmüş.",
+  "en": "rough and uneven",
+  "pos": "adjective"
+ },
+ "lələkbölümlü": {
+  "az": "Yarpaq haqqında, orta damar boyu lələk kimi bölünmüş.",
+  "en": "pinnately divided, of a leaf",
+  "pos": "adjective"
+ },
+ "lələkvari-yarıqlı": {
+  "az": "Başlıca oxun iki tərəfində lələkvari yarıqları olan.",
+  "en": "pinnately cleft",
+  "pos": "adjective"
+ },
+ "mahcamallı": {
+  "az": "Şeirdə üzü ay kimi gözəl təsvir edilən.",
+  "en": "moon-faced or beautiful-faced, in poetic usage",
+  "pos": "adjective"
+ },
+ "mırıqdiş": {
+  "az": "Dişlərindən bəzisi qırıq və ya əskik olan.",
+  "en": "having broken or missing teeth",
+  "pos": "adjective"
+ },
+ "naziklif": {
+  "az": "Nazik liflərdən ibarət olan.",
+  "en": "fine-fibred",
+  "pos": "adjective"
+ },
+ "nisyəsiz": {
+  "az": "Əvəzinin sonra ödənməsi şərti olmadan.",
+  "en": "without deferred payment",
+  "pos": "adverb"
+ },
+ "nitroörtülü": {
+  "az": "Üzərinə nitroəsaslı örtük çəkilmiş.",
+  "en": "coated with a nitro-based finish",
+  "pos": "adjective"
+ },
+ "nizədiş": {
+  "az": "Dişləri nizə ucu kimi sivri olan.",
+  "en": "having spear-pointed teeth",
+  "pos": "adjective"
+ },
+ "onaltımərtəbə": {
+  "az": "On altı mərtəbədən ibarət olan.",
+  "en": "sixteen-storey",
+  "pos": "adjective"
+ },
+ "omik": {
+  "az": "Om qanununa tabe olan elektrik müqavimətinə aid.",
+  "en": "ohmic, relating to resistance obeying Ohm’s law",
+  "pos": "adjective"
+ },
+ "ornamentalçı": {
+  "az": "Bəzək naxışları hazırlayan rəssam və ya sənətkar.",
+  "en": "a designer or maker of ornamental patterns",
+  "pos": "noun"
+ },
+ "pazabənzər": {
+  "az": "Bir uca doğru daralaraq paz formasını alan.",
+  "en": "wedge-shaped",
+  "pos": "adjective"
+ },
+ "paraleloedr": {
+  "az": "Surətləri paralel köçürmə ilə fəzanı boşluqsuz dolduran çoxüzlü.",
+  "en": "a polyhedron that tiles space by translation",
+  "pos": "noun"
+ },
+ "planauyğunluq": {
+  "az": "Qabaqcadan müəyyən olunmuş plana uyğunluq.",
+  "en": "conformity to a plan",
+  "pos": "noun"
+ },
+ "plastikli": {
+  "az": "Deformasiya zamanı aldığı formanı saxlaya bilən.",
+  "en": "capable of retaining a deformed shape",
+  "pos": "adjective"
+ },
+ "qeyri-holonom": {
+  "az": "Mexanikada yalnız koordinatlarla ifadə edilən məhdudiyyətlərə gətirilməyən.",
+  "en": "nonholonomic, of a mechanical constraint not reducible to one on coordinates alone",
+  "pos": "adjective"
+ },
+ "qeyri-iş": {
+  "az": "İş vaxtından və ya əmək fəaliyyətindən kənar olan.",
+  "en": "non-working or outside working time",
+  "pos": "adjective"
+ },
+ "qoltuğuboş": {
+  "az": "Qoltuğunda heç nə tutmayan.",
+  "en": "carrying nothing under the arm",
+  "pos": "adjective"
+ },
+ "qıvrımtel": {
+  "az": "Telləri qıvrılan.",
+  "en": "curly-haired",
+  "pos": "adjective"
+ },
+ "qızılısaç": {
+  "az": "Saçları qızılı rəngdə olan.",
+  "en": "golden-haired",
+  "pos": "adjective"
+ },
+ "sallanbaş": {
+  "az": "Başı aşağı əyilmiş və ya sallanan.",
+  "en": "drooping-headed",
+  "pos": "adjective"
+ },
+ "sallanbaşlı": {
+  "az": "Başı aşağıya doğru sallanan.",
+  "en": "having a drooping head",
+  "pos": "adjective"
+ },
+ "sallaqdöş": {
+  "az": "Döşü aşağı sallanan.",
+  "en": "having a pendulous breast or chest",
+  "pos": "adjective"
+ },
+ "sincabxəzili": {
+  "az": "Sincab xəzi ilə örtülmüş və ya haşiyələnmiş.",
+  "en": "covered or trimmed with squirrel fur",
+  "pos": "adjective"
+ },
+ "solgirişli": {
+  "az": "Girişi sol tərəfdə yerləşən.",
+  "en": "having an entrance on the left",
+  "pos": "adjective"
+ },
+ "solgirişsiz": {
+  "az": "Sol tərəfdə girişi olmayan.",
+  "en": "without a left-hand entrance",
+  "pos": "adjective"
+ },
+ "sıfırlı": {
+  "az": "Tərkibində sıfır olan.",
+  "en": "containing a zero",
+  "pos": "adjective"
+ },
+ "sıfırsız": {
+  "az": "Tərkibində sıfır olmayan.",
+  "en": "containing no zero",
+  "pos": "adjective"
+ },
+ "tamsaitlilik": {
+  "az": "Səs birləşməsində saitlərin tam şəkildə işlənməsi.",
+  "en": "the presence of a full vowel sequence",
+  "pos": "noun"
+ },
+ "tamötürücülü": {
+  "az": "Mühərrikin qüvvəsi bütün aparıcı oxlara ötürülən.",
+  "en": "equipped with all-wheel drive",
+  "pos": "adjective"
+ },
+ "tanıyan-bilən": {
+  "az": "Bir adamı və ya məsələni yaxından tanıyan.",
+  "en": "acquainted or familiar with someone or something",
+  "pos": "adjective"
+ },
+ "teliqırxıq": {
+  "az": "Saçının telləri qırxılmış.",
+  "en": "having cropped hair",
+  "pos": "adjective"
+ },
+ "telisığallı": {
+  "az": "Saçının telləri səliqə ilə hamarlanmış.",
+  "en": "having neatly smoothed hair",
+  "pos": "adjective"
+ },
+ "tikanuclu": {
+  "az": "Ucu tikan kimi sivri olan.",
+  "en": "spine-tipped",
+  "pos": "adjective"
+ },
+ "topavari-qozvari": {
+  "az": "Yumru topa və ya qoz formasında olan.",
+  "en": "rounded like a ball or nut",
+  "pos": "adjective"
+ },
+ "toppuzbaş": {
+  "az": "Başı toppuz kimi qalınlaşıb yumrulaşan.",
+  "en": "club-headed",
+  "pos": "adjective"
+ },
+ "transkanalikulyar": {
+  "az": "Kanalcıqdan keçən və ya onun vasitəsilə aparılan.",
+  "en": "passing through or performed via a small canal",
+  "pos": "adjective"
+ },
+ "transmissiv": {
+  "az": "Ötürülmə yolu ilə yayılan.",
+  "en": "transmissible",
+  "pos": "adjective"
+ },
+ "tranzitor": {
+  "az": "Qısa müddət davam edib keçən.",
+  "en": "transient",
+  "pos": "adjective"
+ },
+ "trapesiodal": {
+  "az": "Trapesiya formasına yaxın olan.",
+  "en": "trapezoidal",
+  "pos": "adjective"
+ },
+ "tükkeçirməyən": {
+  "az": "Tükün keçməsinə imkan verməyən.",
+  "en": "impermeable to hair or down",
+  "pos": "adjective"
+ },
+ "təkmeyarlı": {
+  "az": "Bir meyar əsasında müəyyən edilən.",
+  "en": "based on a single criterion",
+  "pos": "adjective"
+ },
+ "unələyən": {
+  "az": "Unu ələkdən keçirən.",
+  "en": "used for sifting flour",
+  "pos": "adjective"
+ },
+ "uzunluluq": {
+  "az": "Uzun olma xüsusiyyəti və ya uzunluq ölçüsü.",
+  "en": "length or the quality of being long",
+  "pos": "noun"
+ },
+ "uzunsüngül": {
+  "az": "Sünbülləri uzun olan.",
+  "en": "long-eared, of grain",
+  "pos": "adjective"
+ },
+ "vertikal-frez": {
+  "az": "Frez oxu şaquli yerləşən.",
+  "en": "vertical-milling",
+  "pos": "adjective"
+ },
+ "yadadüşən": {
+  "az": "Sonradan xatırlanan.",
+  "en": "coming back to mind",
+  "pos": "adjective"
+ },
+ "yaddaqalmaz": {
+  "az": "Yadda iz buraxmayan.",
+  "en": "unmemorable",
+  "pos": "adjective"
+ },
+ "yanıbalalı": {
+  "az": "Balası yanında olan.",
+  "en": "accompanied by its young",
+  "pos": "adjective"
+ },
+ "yanıqulplu": {
+  "az": "Qulpu yan tərəfdə yerləşən.",
+  "en": "having a handle on the side",
+  "pos": "adjective"
+ },
+ "yarımoynaqlı": {
+  "az": "Qismən hərəkət edən oynaqla birləşmiş.",
+  "en": "joined by a partly movable articulation",
+  "pos": "adjective"
+ },
+ "yarımperiodlu": {
+  "az": "Yarım perioda uyğun gələn.",
+  "en": "corresponding to half a period",
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L5097741"
+   }
+  ]
+ },
+ "yarıoyuq": {
+  "az": "Qismən oyulmuş və ya batıq olan.",
+  "en": "partly hollowed or sunken",
+  "pos": "adjective"
+ },
+ "yarıəzik": {
+  "az": "Qismən əzilmiş.",
+  "en": "partly crushed",
+  "pos": "adjective"
+ },
+ "yastanvari": {
+  "az": "Düz səthli dağ meydançasına bənzəyən.",
+  "en": "resembling a level mountain ledge",
+  "pos": "adjective"
+ },
+ "yaydayaşıl": {
+  "az": "Yayda yarpaqlı olub soyuq fəsildə yarpaqlarını tökən.",
+  "en": "summer-green, retaining foliage in summer",
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L5098297"
+   }
+  ]
+ },
+ "yaşanılmaz": {
+  "az": "Yaşamaq üçün yararsız olan.",
+  "en": "uninhabitable",
+  "pos": "adjective"
+ },
+ "yaşılayaq": {
+  "az": "Ayaqları yaşıl rəngdə olan.",
+  "en": "green-legged",
+  "pos": "adjective"
+ },
+ "yaşılsov": {
+  "az": "Azacıq yaşıl çalarlı.",
+  "en": "greenish",
+  "pos": "adjective"
+ },
+ "yeyilməz-içilməz": {
+  "az": "Nə yeməyə, nə də içməyə yarayan.",
+  "en": "unfit for eating or drinking",
+  "pos": "adjective"
+ },
+ "yolabaxan": {
+  "az": "Birinin gəlməsini gözləyən və ya yola tərəf baxan.",
+  "en": "watching the road or awaiting someone's arrival",
+  "pos": "adjective"
+ },
+ "yolagələn": {
+  "az": "Razılaşmağa meyilli, yola gətirilə bilən.",
+  "en": "amenable to persuasion",
+  "pos": "adjective"
+ },
+ "yolaçıxan": {
+  "az": "Səfərə başlayan.",
+  "en": "setting out on a journey",
+  "pos": "adjective"
+ },
+ "yoluaçıq": {
+  "az": "Getdiyi yolda maneə olmayan.",
+  "en": "having a clear route ahead",
+  "pos": "adjective"
+ },
+ "yoluqısa": {
+  "az": "Gedəcəyi məsafə az olan.",
+  "en": "having only a short way to go",
+  "pos": "adjective"
+ },
+ "yoluuzaq": {
+  "az": "Gedəcəyi yer uzaqda olan.",
+  "en": "having far to travel",
+  "pos": "adjective"
+ },
+ "yoluuzun": {
+  "az": "Qət edəcəyi yol uzun olan.",
+  "en": "having a long journey ahead",
+  "pos": "adjective"
+ },
+ "yoluyaxın": {
+  "az": "Gedəcəyi yer yaxın olan.",
+  "en": "having a nearby destination",
+  "pos": "adjective"
+ },
+ "yoxaçıxan": {
+  "az": "Gözdən itən və ya mövcudluğu sona çatan.",
+  "en": "disappearing",
+  "pos": "adjective"
+ },
+ "yoğrulu": {
+  "az": "Yoğrulub hazırlanmış.",
+  "en": "kneaded",
+  "pos": "adjective"
+ },
+ "yumaqlı": {
+  "az": "Üzərində yumaqlar olan və ya yumaq halına salınmış.",
+  "en": "bearing or formed into balls",
+  "pos": "adjective"
+ },
+ "yumrucuqlu": {
+  "az": "Üzərində kiçik yumru çıxıntıları olan.",
+  "en": "having small rounded bumps",
+  "pos": "adjective"
+ },
+ "yuvarlaqağız": {
+  "az": "Ağız dəliyi dairəvi olan.",
+  "en": "round-mouthed",
+  "pos": "adjective"
+ },
+ "yuxaürək": {
+  "az": "Başqalarının halına tez yanan.",
+  "en": "tender-hearted",
+  "pos": "adjective"
+ },
+ "yönəlik": {
+  "az": "Müəyyən məqsədə və ya istiqamətə yönəlmiş.",
+  "en": "directed towards or intended for",
+  "pos": "adjective"
+ },
+ "çarpıq": {
+  "az": "Düz istiqamətdən kənara əyilmiş.",
+  "en": "crooked or askew",
+  "pos": "adjective"
+ },
+ "çatalbaş": {
+  "az": "Başı iki yerə haçalanmış.",
+  "en": "fork-headed",
+  "pos": "adjective"
+ },
+ "çivəbənzər": {
+  "az": "Çiv formasını xatırladan.",
+  "en": "peg-shaped",
+  "pos": "adjective"
+ },
+ "çivəoxşar": {
+  "az": "Görünüşcə çivi xatırladan.",
+  "en": "resembling a peg",
+  "pos": "adjective"
+ },
+ "çoxdiş": {
+  "az": "Dişləri çox olan.",
+  "en": "many-toothed",
+  "pos": "adjective"
+ },
+ "çoxməkikli": {
+  "az": "Bir neçə məkiklə işləyən.",
+  "en": "using multiple shuttles",
+  "pos": "adjective"
+ },
+ "çoxçələkli": {
+  "az": "Bir neçə çələyi olan.",
+  "en": "having multiple barrels or vats",
+  "pos": "adjective"
+ },
+ "çəpdiş": {
+  "az": "Dişləri əyri və ya maili düzülmüş.",
+  "en": "having slanting teeth",
+  "pos": "adjective"
+ },
+ "ön-içəri": {
+  "az": "Ön və iç tərəfə yönəlmiş.",
+  "en": "directed towards the front and inside",
+  "pos": "adjective"
+ },
+ "ön-kənar": {
+  "az": "Ön və xarici tərəfdə yerləşən.",
+  "en": "situated towards the front and outside",
+  "pos": "adjective"
+ },
+ "ön-yan": {
+  "az": "Ön və yan hissədə yerləşən.",
+  "en": "anterolateral",
+  "pos": "adjective"
+ },
+ "önqəlsəməli": {
+  "az": "Qəlsəmələri bədənin ön hissəsində yerləşən.",
+  "en": "having gills in the front part of the body",
+  "pos": "adjective"
+ },
+ "özüirəliləyən": {
+  "az": "Əlavə itələmə olmadan irəli hərəkət edən.",
+  "en": "self-advancing",
+  "pos": "adjective"
+ },
+ "özüköklənən": {
+  "az": "Köklənməsini avtomatik tənzimləyən.",
+  "en": "self-tuning",
+  "pos": "adjective"
+ },
+ "özüközərən": {
+  "az": "Öz-özünə közərməyə başlayan.",
+  "en": "becoming incandescent on its own",
+  "pos": "adjective"
+ },
+ "özüqalxan": {
+  "az": "Öz mexanizmi ilə yuxarı qalxan.",
+  "en": "self-raising",
+  "pos": "adjective"
+ },
+ "özüsıxan": {
+  "az": "Sıxma əməlini avtomatik yerinə yetirən.",
+  "en": "self-tightening",
+  "pos": "adjective"
+ },
+ "özütormozlanan": {
+  "az": "Əyləci avtomatik işə düşən.",
+  "en": "self-braking",
+  "pos": "adjective"
+ },
+ "özütuşlanan": {
+  "az": "Hədəfə və ya müəyyən nöqtəyə avtomatik yönələn.",
+  "en": "self-aiming",
+  "pos": "adjective"
+ },
+ "özüyanan": {
+  "az": "Xarici alov verilmədən alışan.",
+  "en": "self-igniting",
+  "pos": "adjective"
+ },
+ "özüyayan": {
+  "az": "Öz-özünə yayılan.",
+  "en": "self-spreading",
+  "pos": "adjective"
+ },
+ "özüyerləşən": {
+  "az": "Öz yerini avtomatik tutan.",
+  "en": "self-positioning",
+  "pos": "adjective"
+ },
+ "özüyonan": {
+  "az": "İşlədikcə öz kəsici səthini itiləyən.",
+  "en": "self-sharpening",
+  "pos": "adjective"
+ },
+ "özüyuyan": {
+  "az": "Öz səthini və ya mexanizmini yuyan.",
+  "en": "self-washing",
+  "pos": "adjective"
+ },
+ "ümidsaçar": {
+  "az": "İnsanlarda ümid oyadan.",
+  "en": "inspiring hope",
+  "pos": "adjective"
+ },
+ "ümumdil": {
+  "az": "Bütövlükdə dilə və bütün dil daşıyıcılarına aid olan.",
+  "en": "common to the language as a whole",
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L5109806"
+   }
+  ]
+ },
+ "üzqaraldan": {
+  "az": "Utanc və xəcalət gətirən.",
+  "en": "disgraceful or shameful",
+  "pos": "adjective"
+ },
+ "üzvlənməyən": {
+  "az": "Ayrı-ayrı tərkib hissələrinə bölünməyən.",
+  "en": "not divisible into constituent parts",
+  "pos": "adjective"
+ },
+ "üzvlənən": {
+  "az": "Ayrı-ayrı tərkib hissələrinə bölünə bilən.",
+  "en": "divisible into constituent parts",
+  "pos": "adjective"
+ },
+ "üzüsarıqlı": {
+  "az": "Üzü sarğı ilə örtülmüş.",
+  "en": "with the face bandaged",
+  "pos": "adjective"
+ },
+ "şifrlənməmiş parol": {
+  "az": "Açıq şəkildə saxlanılan və ya ötürülən parol.",
+  "en": "an unencrypted password",
+  "pos": "noun"
+ },
+ "şifrləşdirilmiş depeşa": {
+  "az": "Mətni şifrə ilə yazılmış rəsmi xəbər.",
+  "en": "an encrypted dispatch",
+  "pos": "noun"
+ },
+ "şüadankənar": {
+  "az": "Şüanın əhatə etdiyi sahədən kənarda yerləşən.",
+  "en": "outside the beam",
+  "pos": "adjective"
+ },
+ "şüalanmasız müayinə": {
+  "az": "İonlaşdırıcı şüa istifadə etməyən müayinə.",
+  "en": "an examination without ionizing radiation",
+  "pos": "noun"
+ },
+ "şüşəsiz-taxtasız": {
+  "az": "Nə şüşəsi, nə də taxtası olan.",
+  "en": "without glass or boards",
+  "pos": "adjective"
+ },
+ "əldəniti": {
+  "az": "Əl işini çevik görən.",
+  "en": "quick with one's hands",
+  "pos": "adjective"
+ },
+ "əlitərli": {
+  "az": "Əlinin içi tərləmiş.",
+  "en": "having sweaty palms",
+  "pos": "adjective"
+ },
+ "əlyetərli": {
+  "az": "Çatmaq və ya istifadə etmək mümkün olan.",
+  "en": "accessible or within reach",
+  "pos": "adjective"
+ },
+ "əlçatarlı": {
+  "az": "Əl çatan məsafədə yerləşən.",
+  "en": "within reach",
+  "pos": "adjective"
+ },
+ "əyribaş": {
+  "az": "Başı əyilmiş və ya əyri olan.",
+  "en": "having a bent head",
+  "pos": "adjective"
+ },
+ "əyriböyürlü": {
+  "az": "Yan tərəfi əyilmiş olan.",
+  "en": "having a curved or crooked side",
+  "pos": "adjective"
+ },
+ "əyriqol": {
+  "az": "Qolu əyri olan.",
+  "en": "having a bent arm",
+  "pos": "adjective"
+ },
+ "əyriəlli": {
+  "az": "Əli əyri olan, məcazi mənada oğurluğa meyilli.",
+  "en": "crooked-handed, also figuratively inclined to steal",
+  "pos": "adjective"
+ },
+ "ikiayaq": {
+  "az": "İki ayağı olan.",
+  "en": "having two legs",
+  "pos": "adjective"
+ },
+ "ikiqapaq": {
+  "az": "İki qapağı olan.",
+  "en": "having two lids or valves",
+  "pos": "adjective"
+ },
+ "ikinövçü": {
+  "az": "İki idman növündən ibarət birləşmiş yarışın iştirakçısı.",
+  "en": "a competitor in a combined event consisting of two disciplines",
+  "pos": "noun"
+ },
+ "ikinövçülük": {
+  "az": "İki idman növü üzrə nəticələrin birlikdə hesablandığı yarış.",
+  "en": "a combined sporting event consisting of two disciplines",
+  "pos": "noun"
+ },
+ "üçdiş": {
+  "az": "Üç dişi olan.",
+  "en": "having three teeth",
+  "pos": "adjective"
+ },
+ "üçbuynuz": {
+  "az": "Üç buynuzu olan.",
+  "en": "having three horns",
+  "pos": "adjective"
+ },
+ "üçağız": {
+  "az": "Üç ağzı olan.",
+  "en": "having three openings or mouths",
+  "pos": "adjective"
+ },
+ "üçkəsikli": {
+  "az": "Üç kəsiyi olan.",
+  "en": "having three cuts or notches",
+  "pos": "adjective"
+ },
+ "üçpillə": {
+  "az": "Üç pilləsi olan.",
+  "en": "having three steps or stages",
+  "pos": "adjective"
+ },
+ "üçrəng": {
+  "az": "Üç rəngi olan.",
+  "en": "having three colours",
+  "pos": "adjective"
+ },
+ "üçyaş": {
+  "az": "Üç yaşı olan.",
+  "en": "three years old",
+  "pos": "adjective"
+ },
+ "üçnövçü": {
+  "az": "Üç idman növündən ibarət birləşmiş yarışın iştirakçısı.",
+  "en": "a competitor in a combined event consisting of three disciplines",
+  "pos": "noun"
+ },
+ "dördyarpaq": {
+  "az": "Dörd yarpağı olan.",
+  "en": "having four leaves",
+  "pos": "adjective"
+ },
+ "dördyaş": {
+  "az": "Dörd yaşı olan.",
+  "en": "four years old",
+  "pos": "adjective"
+ },
+ "dördnövçü": {
+  "az": "Dörd idman növündən ibarət birləşmiş yarışın iştirakçısı.",
+  "en": "a competitor in a combined event consisting of four disciplines",
+  "pos": "noun"
+ },
+ "dördnövçülük": {
+  "az": "Dörd idman növü üzrə nəticələrin birlikdə hesablandığı yarış.",
+  "en": "a combined sporting event consisting of four disciplines",
+  "pos": "noun"
+ },
+ "beşyarpaq": {
+  "az": "Beş yarpağı olan.",
+  "en": "having five leaves",
+  "pos": "adjective"
+ },
+ "beşdilim": {
+  "az": "Beş dilimi olan.",
+  "en": "having five slices or segments",
+  "pos": "adjective"
+ },
+ "beşdüymə": {
+  "az": "Beş düyməsi olan.",
+  "en": "having five buttons",
+  "pos": "adjective"
+ },
+ "yeddibarmaq": {
+  "az": "Yeddi barmağı olan.",
+  "en": "having seven fingers or toes",
+  "pos": "adjective"
+ },
+ "yeddidüymə": {
+  "az": "Yeddi düyməsi olan.",
+  "en": "having seven buttons",
+  "pos": "adjective"
+ },
+ "səkkizsütun": {
+  "az": "Səkkiz sütunu olan.",
+  "en": "having eight columns",
+  "pos": "adjective"
+ },
+ "onnövçülük": {
+  "az": "On idman növü üzrə nəticələrin birlikdə hesablandığı yarış.",
+  "en": "a combined sporting event consisting of ten disciplines",
+  "pos": "noun"
+ },
+ "yüzxanalıq": {
+  "az": "Yüz xanası olan.",
+  "en": "having one hundred compartments or cells",
+  "pos": "adjective"
+ },
+ "zoocərrah": {
+  "az": "Heyvanlar üzərində cərrahiyyə əməliyyatları aparan baytar.",
+  "en": "a veterinary surgeon",
+  "pos": "noun"
+ },
+ "karetçi": {
+  "az": "At qoşulmuş kareti idarə edən şəxs.",
+  "en": "a carriage driver",
+  "pos": "noun"
+ },
+ "karetçilik": {
+  "az": "At qoşulmuş karet sürücüsünün peşəsi.",
+  "en": "the occupation of a carriage driver",
+  "pos": "noun"
+ },
+ "bilinqvist": {
+  "az": "İki dildə danışan şəxs.",
+  "en": "a bilingual speaker",
+  "pos": "noun"
+ },
+ "biləndərlik": {
+  "az": "Çox şey bilmək və bilikli olmaq xüsusiyyəti.",
+  "en": "the quality of being knowledgeable",
+  "pos": "noun"
+ },
+ "modelist": {
+  "az": "Model və ya kiçildilmiş nümunələr hazırlayan şəxs.",
+  "en": "a maker of models or scale replicas",
+  "pos": "noun"
+ },
+ "mototurist": {
+  "az": "Motosikletlə səyahət edən turist.",
+  "en": "a motorcycle tourist",
+  "pos": "noun"
+ },
+ "rasionalçı": {
+  "az": "Bilik və mühakimədə ağıla əsaslanan şəxs.",
+  "en": "a rationalist",
+  "pos": "noun"
+ },
+ "radikalçı": {
+  "az": "Köklü dəyişikliklərin tərəfdarı.",
+  "en": "an advocate of radical change",
+  "pos": "noun"
+ },
+ "sedent": {
+  "az": "Öz tələb hüququnu başqasına keçirən tərəf.",
+  "en": "the assignor of a claim or right",
+  "pos": "noun"
+ },
+ "posessor": {
+  "az": "Bir şeyə faktiki sahiblik edən şəxs.",
+  "en": "a possessor, someone who holds a thing",
+  "pos": "noun"
+ },
+ "postqlossator": {
+  "az": "Orta əsrlərdə Roma hüququna şərhlər yazan sonrakı dövr hüquqşünası.",
+  "en": "a postglossator, a later medieval commentator on Roman law",
+  "pos": "noun"
+ },
+ "legist": {
+  "az": "Roma hüququ üzrə təhsil almış hüquqşünas.",
+  "en": "a jurist versed in Roman law",
+  "pos": "noun"
+ },
+ "reqressant": {
+  "az": "Ödədiyi məbləği başqa məsul şəxsdən geri tələb edən tərəf.",
+  "en": "a party seeking reimbursement by recourse",
+  "pos": "noun"
+ },
+ "reqressat": {
+  "az": "Reqres tələbi yönələn tərəf.",
+  "en": "the party against whom a claim for recourse is made",
+  "pos": "noun"
+ },
+ "reqresiddia": {
+  "az": "Başqasının əvəzinə ödənilmiş məbləğin geri alınması tələbi.",
+  "en": "a claim for recourse or reimbursement",
+  "pos": "noun"
+ },
+ "mandatari": {
+  "az": "Başqasının verdiyi tapşırığı onun adından icra edən şəxs.",
+  "en": "a mandatary acting under another person's authority",
+  "pos": "noun"
+ },
+ "kriminalçı-ekspert": {
+  "az": "Cinayət işində maddi sübutları elmi üsullarla araşdıran mütəxəssis.",
+  "en": "a forensic examiner",
+  "pos": "noun"
+ },
+ "kopyorçu": {
+  "az": "Svay vuran qurğunu idarə edən işçi.",
+  "en": "a pile-driver operator",
+  "pos": "noun"
+ },
+ "zootexnoloq": {
+  "az": "Heyvanların yetişdirilməsi və saxlanması texnologiyası üzrə mütəxəssis.",
+  "en": "a specialist in livestock production technology",
+  "pos": "noun"
+ },
+ "surdoloqoped": {
+  "az": "Eşitmə məhdudiyyətli insanlarda nitqin inkişafı ilə məşğul olan mütəxəssis.",
+  "en": "a speech therapist working with deaf or hard-of-hearing people",
+  "pos": "noun"
+ },
+ "leptospiroloq": {
+  "az": "Leptospiroz və onun törədiciləri üzrə mütəxəssis.",
+  "en": "a specialist in leptospirosis and leptospires",
+  "pos": "noun"
+ },
+ "tornaçı-karuselçi": {
+  "az": "Karusel tipli şaquli torna dəzgahında işləyən usta.",
+  "en": "a vertical turret lathe operator",
+  "pos": "noun"
+ },
+ "vitse-əlaqələndirici": {
+  "az": "Əlaqələndiricinin müavini vəzifəsini daşıyan şəxs.",
+  "en": "a deputy coordinator",
+  "pos": "noun"
+ },
+ "dicey": {
+  "az": "Yazılmış musiqini seçib auditoriya üçün səsləndirən şəxs.",
+  "en": "a disc jockey who selects and plays recorded music",
+  "pos": "noun"
+ },
+ "diceylik": {
+  "az": "Yazılmış musiqini seçib auditoriyaya təqdim etmə işi.",
+  "en": "the work of a disc jockey",
+  "pos": "noun"
+ },
+ "arxivator": {
+  "az": "Faylları bir arxivdə toplayan və adətən sıxışdıran proqram.",
+  "en": "a file archiver",
+  "pos": "noun"
+ },
+ "utilit": {
+  "az": "Kompüter sistemində xüsusi yardımçı işi görən proqram.",
+  "en": "a utility program",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Open English WordNet · utility program",
+    "url": "https://github.com/globalwordnet/english-wordnet/blob/9b6aca775ae10ad3d2dc9956e8ad42a4ce1e076b/src/yaml/noun.communication.yaml#L16868"
+   }
+  ]
+ },
+ "deytaqram": {
+  "az": "Şəbəkədə müstəqil şəkildə ünvanlanan məlumat paketi.",
+  "en": "a datagram, an independently addressed network packet",
+  "pos": "noun"
+ },
+ "kros-assambler": {
+  "az": "Başqa prosessor üçün maşın kodu yaradan assembler.",
+  "en": "a cross-assembler",
+  "pos": "noun"
+ },
+ "körpü-yönləndici": {
+  "az": "Şəbəkə körpüsü ilə yönləndiricinin funksiyalarını birləşdirən qurğu.",
+  "en": "a brouter combining network bridging and routing",
+  "pos": "noun"
+ },
+ "stek": {
+  "az": "Son daxil edilən elementin birinci çıxarıldığı verilənlər strukturu.",
+  "en": "a last-in, first-out data structure",
+  "pos": "noun"
+ },
+ "spayder": {
+  "az": "İnternet səhifələrini keçidlər vasitəsilə avtomatik gəzən proqram.",
+  "en": "a web crawler",
+  "pos": "noun"
+ },
+ "blitter": {
+  "az": "Yaddaşdakı təsvir bloklarını sürətlə köçürən qrafik qurğu.",
+  "en": "a graphics unit for moving blocks of bitmap data",
+  "pos": "noun"
+ },
+ "pup": {
+  "az": "Həşəratın sürfə ilə yetkin fərd arasındakı inkişaf mərhələsi.",
+  "en": "the pupal stage between larva and adult",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Open English WordNet · pupa",
+    "url": "https://github.com/globalwordnet/english-wordnet/blob/9b6aca775ae10ad3d2dc9956e8ad42a4ce1e076b/src/yaml/noun.animal.yaml#L35935"
+   }
+  ]
+ },
+ "freatobiont": {
+  "az": "Yeraltı sularda yaşayan orqanizm.",
+  "en": "an organism inhabiting groundwater",
+  "pos": "noun"
+ },
+ "rizobiont": {
+  "az": "Bitkilərin köklərində və ya kökətrafı mühitdə yaşayan orqanizm.",
+  "en": "an organism living in or around plant roots",
+  "pos": "noun"
+ },
+ "petrobiont": {
+  "az": "Qaya və daş səthlərdə və ya onların içində yaşayan orqanizm.",
+  "en": "a rock-dwelling organism",
+  "pos": "noun"
+ },
+ "stenotop": {
+  "az": "Məhdud tipli yaşayış mühitinə uyğunlaşmış orqanizm.",
+  "en": "an organism restricted to a narrow range of habitats",
+  "pos": "noun"
+ },
+ "stenooksibiont": {
+  "az": "Yalnız dar oksigen qatılığı intervalında yaşaya bilən orqanizm.",
+  "en": "an organism tolerating only a narrow range of oxygen concentrations",
+  "pos": "noun"
+ },
+ "hekistoterm": {
+  "az": "Çox az istilik tələb edən bitki.",
+  "en": "a plant adapted to very low heat availability",
+  "pos": "noun"
+ },
+ "hemikserofit": {
+  "az": "Quraqlığa qismən uyğunlaşmış bitki.",
+  "en": "a plant partially adapted to dry conditions",
+  "pos": "noun"
+ },
+ "hidropsammon": {
+  "az": "Suda qum dənələri arasındakı boşluqlarda yaşayan orqanizmlər birliyi.",
+  "en": "the community living between submerged sand grains",
+  "pos": "noun"
+ },
+ "hemerofil": {
+  "az": "İnsan fəaliyyəti ilə dəyişmiş mühitdən faydalanan orqanizm.",
+  "en": "an organism favoured by human-modified habitats",
+  "pos": "noun"
+ },
+ "hemerofob": {
+  "az": "İnsanın güclü dəyişdirdiyi mühitdən çəkinən orqanizm.",
+  "en": "an organism sensitive to human disturbance",
+  "pos": "noun"
+ },
+ "hemerofit": {
+  "az": "İnsan fəaliyyəti ilə dəyişmiş şəraitdə yayılan bitki.",
+  "en": "a plant favoured by habitats altered by people",
+  "pos": "noun"
+ },
+ "hemerobiya": {
+  "az": "Ekosistemin insan fəaliyyəti ilə dəyişdirilmə dərəcəsi.",
+  "en": "the degree of human influence on an ecosystem",
+  "pos": "noun"
+ },
+ "hekistotermizm": {
+  "az": "Çox aşağı istilik tələbatı ilə səciyyələnən uyğunlaşma.",
+  "en": "adaptation to very low heat availability",
+  "pos": "noun"
+ },
+ "fikofaq": {
+  "az": "Yosunlarla qidalanan orqanizm.",
+  "en": "an organism that feeds on algae",
+  "pos": "noun"
+ },
+ "pelofaq": {
+  "az": "Lildəki üzvi qalıqları udaraq qidalanan orqanizm.",
+  "en": "a mud-feeding organism that consumes organic matter in sediment",
+  "pos": "noun"
+ },
+ "nektobentos": {
+  "az": "Dib yaxınlığında üzən və dib mühiti ilə sıx bağlı olan su heyvanları.",
+  "en": "swimming aquatic animals closely associated with the bottom",
+  "pos": "noun"
+ },
+ "nekroplankton": {
+  "az": "Suda asılı qalan ölü plankton orqanizmləri.",
+  "en": "dead planktonic organisms suspended in water",
+  "pos": "noun"
+ },
+ "planktonofit": {
+  "az": "Suda sərbəst asılı yaşayan bitki və ya yosun.",
+  "en": "a plant or alga living suspended in the water",
+  "pos": "noun"
+ },
+ "poykilokserofit": {
+  "az": "Su miqdarı mühitin rütubətinə görə dəyişən quraqlığadavamlı bitki.",
+  "en": "a drought-adapted plant whose water content varies with ambient moisture",
+  "pos": "noun"
+ },
+ "polisaprob": {
+  "az": "Üzvi çirklənməsi çox yüksək olan sularda yaşamağa uyğunlaşmış orqanizm.",
+  "en": "an organism adapted to heavily organically polluted waters",
+  "pos": "noun"
+ },
+ "izoanemon": {
+  "az": "Xəritədə eyni külək sürəti olan nöqtələri birləşdirən xətt.",
+  "en": "a line joining points of equal wind speed",
+  "pos": "noun"
+ },
+ "izobaz": {
+  "az": "Yer qabığının eyni miqdarda şaquli hərəkət etdiyi nöqtələri birləşdirən xətt.",
+  "en": "a line joining points of equal crustal uplift or subsidence",
+  "pos": "noun"
+ },
+ "izoanabaz": {
+  "az": "Yer qabığının bərabər qalxma müşahidə olunan nöqtələrini birləşdirən xətt.",
+  "en": "a line joining points with equal uplift",
+  "pos": "noun"
+ },
+ "izosemiya": {
+  "az": "Dil vahidlərinin mənaca eyniliyi və ya uyğunluğu.",
+  "en": "identity or correspondence of meaning between linguistic units",
+  "pos": "noun"
+ },
+ "dehidroksilləşmə": {
+  "az": "Qızdırılma və ya kimyəvi çevrilmə zamanı hidroksil qruplarının ayrılması.",
+  "en": "loss of hydroxyl groups during heating or chemical change",
+  "pos": "noun"
+ },
+ "dekalsinasiya": {
+  "az": "Maddədən və ya toxumadan kalsium duzlarının çıxarılması.",
+  "en": "decalcification, removal of calcium salts",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Open English WordNet · decalcification",
+    "url": "https://github.com/globalwordnet/english-wordnet/blob/9b6aca775ae10ad3d2dc9956e8ad42a4ce1e076b/src/yaml/noun.process.yaml#L1835"
+   }
+  ]
+ },
+ "elastoliz": {
+  "az": "Elastik liflərin və ya elastinin parçalanması.",
+  "en": "breakdown of elastin or elastic fibres",
+  "pos": "noun"
+ },
+ "desmoliz": {
+  "az": "Kimyəvi rabitələrin qırılması ilə maddənin parçalanması.",
+  "en": "decomposition through cleavage of chemical bonds",
+  "pos": "noun"
+ },
+ "metafraza": {
+  "az": "Mətni sözbəsöz başqa dilə çevirmə.",
+  "en": "a literal, word-for-word translation",
+  "pos": "noun"
+ },
+ "omofon": {
+  "az": "Səslənməsi eyni, mənası fərqli olan söz.",
+  "en": "a word pronounced like another with a different meaning",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Open English WordNet · homophone",
+    "url": "https://github.com/globalwordnet/english-wordnet/blob/9b6aca775ae10ad3d2dc9956e8ad42a4ce1e076b/src/yaml/noun.communication.yaml#L50487"
+   }
+  ]
+ },
+ "omoform": {
+  "az": "Başqa sözlə yalnız müəyyən qrammatik formada üst-üstə düşən söz forması.",
+  "en": "a word form coinciding with a form of a different word",
+  "pos": "noun"
+ },
+ "omomorfem": {
+  "az": "Forması eyni, mənası və ya vəzifəsi ayrı olan morfem.",
+  "en": "a morpheme identical in form to another with a different function or meaning",
+  "pos": "noun"
+ },
+ "disillab": {
+  "az": "İki hecadan ibarət söz.",
+  "en": "a disyllable or two-syllable word",
+  "pos": "noun"
+ },
+ "diereza": {
+  "az": "Yanaşı saitlərin ayrı hecalarda tələffüz edilməsi.",
+  "en": "the pronunciation of adjacent vowels in separate syllables",
+  "pos": "noun"
+ },
+ "krazis": {
+  "az": "Yanaşı gələn saitlərin bir sait və ya diftonqda birləşməsi.",
+  "en": "contraction of adjacent vowels into a single vowel or diphthong",
+  "pos": "noun"
+ },
+ "tetraftonq": {
+  "az": "Bir hecada ardıcıl dörd sait elementindən ibarət səs birləşməsi.",
+  "en": "a sequence of four vowel elements in one syllable",
+  "pos": "noun"
+ },
+ "şva": {
+  "az": "Vurğusuz mövqedə tez işlənən orta sıra neytral sait.",
+  "en": "schwa, a mid-central vowel",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Open English WordNet · schwa",
+    "url": "https://github.com/globalwordnet/english-wordnet/blob/9b6aca775ae10ad3d2dc9956e8ad42a4ce1e076b/src/yaml/noun.communication.yaml#L49452"
+   }
+  ]
+ },
+ "topoizoqlos": {
+  "az": "Dil xüsusiyyətinin coğrafi yayılma sərhədini göstərən xətt.",
+  "en": "a geographical boundary marking the distribution of a linguistic feature",
+  "pos": "noun"
+ },
+ "monem": {
+  "az": "Dilin məna daşıyan ən kiçik vahidlərindən biri.",
+  "en": "a minimal meaningful unit of language",
+  "pos": "noun"
+ },
+ "semikarbazid": {
+  "az": "Hidrazinlə qohum olan və karbonil birləşmələri ilə törəmələr verən üzvi maddə.",
+  "en": "semicarbazide, an organic compound that forms derivatives with carbonyl compounds",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L5072843"
+   }
+  ]
+ },
+ "ketoza": {
+  "az": "Molekulunda keton qrupu olan monosaxarid.",
+  "en": "a ketose, a monosaccharide containing a ketone group",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Open English WordNet · ketose",
+    "url": "https://github.com/globalwordnet/english-wordnet/blob/9b6aca775ae10ad3d2dc9956e8ad42a4ce1e076b/src/yaml/noun.substance.yaml#L20493"
+   }
+  ]
+ },
+ "pirosulfat": {
+  "az": "Pirosulfat ionunu daşıyan duz.",
+  "en": "a disulfate salt containing the pyrosulfate ion",
+  "pos": "noun"
+ },
+ "tartarat": {
+  "az": "Şərab turşusunun duzu və ya efiri.",
+  "en": "a salt or ester of tartaric acid",
+  "pos": "noun"
+ },
+ "propilenoksid": {
+  "az": "Propilendən törəyən üçüzvlü halqalı efir.",
+  "en": "propylene oxide, a cyclic ether derived from propene",
+  "pos": "noun"
+ },
+ "nitropropan": {
+  "az": "Propan molekulunda hidrogeni nitro qrupu əvəz edən üzvi maddə.",
+  "en": "a nitro derivative of propane",
+  "pos": "noun"
+ },
+ "nitroetilen": {
+  "az": "Nitro qrupu daşıyan etilen törəməsi.",
+  "en": "nitroethylene, a nitro derivative of ethene",
+  "pos": "noun"
+ },
+ "nitronaftalin": {
+  "az": "Naftalin halqasında nitro qrupu olan üzvi birləşmə.",
+  "en": "a nitro-substituted naphthalene",
+  "pos": "noun"
+ },
+ "nitroxlorbenzol": {
+  "az": "Benzol halqasında həm xlor, həm də nitro qrupu olan maddə.",
+  "en": "a benzene derivative bearing both chloro and nitro substituents",
+  "pos": "noun"
+ },
+ "nitroparafin": {
+  "az": "Alkanın nitro qrupu daşıyan törəməsi.",
+  "en": "a nitro-substituted alkane",
+  "pos": "noun"
+ },
+ "nitrospirt": {
+  "az": "Molekulunda həm hidroksil, həm də nitro qrupu olan spirt.",
+  "en": "an alcohol bearing a nitro group",
+  "pos": "noun"
+ },
+ "nitrozil-xlorid": {
+  "az": "Azot, oksigen və xlordan ibarət NOCl birləşməsi.",
+  "en": "nitrosyl chloride, NOCl",
+  "pos": "noun"
+ },
+ "nitrozil-bromid": {
+  "az": "Azot, oksigen və bromdan ibarət NOBr birləşməsi.",
+  "en": "nitrosyl bromide, NOBr",
+  "pos": "noun"
+ },
+ "vinilamin": {
+  "az": "İkiqat rabitəli vinil qrupuna amin qrupu bağlanmış birləşmə.",
+  "en": "vinylamine, an amine attached to a vinyl group",
+  "pos": "noun"
+ },
+ "ortoefir": {
+  "az": "Eyni karbon atomunda üç alkoksi qrupu olan üzvi birləşmə.",
+  "en": "an orthoester containing three alkoxy groups on the same carbon atom",
+  "pos": "noun"
+ },
+ "tioaldehid": {
+  "az": "Karbonil oksigeni kükürdlə əvəz olunmuş aldehid analoqu.",
+  "en": "a sulfur analogue of an aldehyde",
+  "pos": "noun"
+ },
+ "tiokarbonat": {
+  "az": "Karbonatın oksigen atomlarından birini və ya bir neçəsini kükürd əvəz edən birləşmə.",
+  "en": "a carbonate analogue with sulfur replacing one or more oxygen atoms",
+  "pos": "noun"
+ },
+ "naftoxinon": {
+  "az": "Naftalin quruluşundan törəyən xinon.",
+  "en": "a quinone derived from the naphthalene ring system",
+  "pos": "noun"
+ },
+ "nanotoz": {
+  "az": "Hissəciklərinin ölçüsü nanometr miqyasında olan toz.",
+  "en": "a powder made up of nanoscale particles",
+  "pos": "noun"
+ },
+ "om-santimetr": {
+  "az": "Elektrik xüsusi müqavimətinin om ilə santimetrin hasilinə bərabər vahidi.",
+  "en": "the ohm centimetre, a unit of electrical resistivity",
+  "pos": "noun"
+ },
+ "kilosten": {
+  "az": "Min stenə bərabər tarixi qüvvə vahidi.",
+  "en": "a historical force unit equal to one thousand sthènes",
+  "pos": "noun"
+ },
+ "lambert": {
+  "az": "Parlaqlığın kvadrat santimetrə bir bölünsün pi kandela ilə ifadə olunan vahidi.",
+  "en": "a unit of luminance equal to one over pi candelas per square centimetre",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Open English WordNet · lambert",
+    "url": "https://github.com/globalwordnet/english-wordnet/blob/9b6aca775ae10ad3d2dc9956e8ad42a4ce1e076b/src/yaml/noun.quantity.yaml#L3723"
+   }
+  ]
+ },
+ "zinc": {
+  "az": "İngiliscə sink metalının adı, bəzi terminlərdə işlənən forma.",
+  "en": "zinc, the metal designated by the symbol Zn",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Open English WordNet · zinc",
+    "url": "https://github.com/globalwordnet/english-wordnet/blob/9b6aca775ae10ad3d2dc9956e8ad42a4ce1e076b/src/yaml/noun.substance.yaml#L4381"
+   }
+  ]
+ },
+ "paroksizmal iflic": {
+  "az": "Tutmalar şəklində meydana çıxan keçici iflic.",
+  "en": "paralysis appearing in recurrent attacks",
+  "pos": "noun"
+ },
+ "tenioz": {
+  "az": "Taenia cinsindən lentşəkilli qurdların bağırsaqda yaratdığı xəstəlik.",
+  "en": "an intestinal tapeworm infection caused by Taenia",
+  "pos": "noun"
+ },
+ "tenodez": {
+  "az": "Vətərin sümüyə və ya başqa toxumaya cərrahi yolla bərkidilməsi.",
+  "en": "surgical fixation of a tendon to bone or other tissue",
+  "pos": "noun"
+ },
+ "proktospazm": {
+  "az": "Düz bağırsaq və ya anal nahiyə əzələlərinin qeyri-iradi yığılması.",
+  "en": "involuntary contraction of rectal or anal muscles",
+  "pos": "noun"
+ },
+ "perikolit": {
+  "az": "Yoğun bağırsağı əhatə edən toxumaların iltihabı.",
+  "en": "inflammation of the tissues surrounding the colon",
+  "pos": "noun"
+ },
+ "fekaluriya": {
+  "az": "Sidikdə nəcis maddəsinin olması.",
+  "en": "the presence of fecal matter in urine",
+  "pos": "noun"
+ },
+ "labirintopatiya": {
+  "az": "Daxili qulaq labirintinin xəstəliyi.",
+  "en": "a disorder of the inner-ear labyrinth",
+  "pos": "noun"
+ },
+ "pleksit": {
+  "az": "Sinir kələfinin iltihabı.",
+  "en": "inflammation of a nerve plexus",
+  "pos": "noun"
+ },
+ "tenar": {
+  "az": "Ovucun baş barmaq dibindəki əzələli qabarıqlığı.",
+  "en": "the muscular prominence at the base of the thumb",
+  "pos": "noun"
+ },
+ "qonada": {
+  "az": "Cinsiyyət hüceyrələri əmələ gətirən vəz.",
+  "en": "a gonad, an organ that produces sex cells",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Open English WordNet · gonad",
+    "url": "https://github.com/globalwordnet/english-wordnet/blob/9b6aca775ae10ad3d2dc9956e8ad42a4ce1e076b/src/yaml/noun.body.yaml#L17555"
+   }
+  ]
+ },
+ "talalgiya": {
+  "az": "Daban nahiyəsində ağrı.",
+  "en": "pain in the heel",
+  "pos": "noun"
+ },
+ "hiperadipoz": {
+  "az": "Piy toxumasının həddindən çox toplanması.",
+  "en": "excessive accumulation of body fat",
+  "pos": "noun"
+ },
+ "hipermimiya": {
+  "az": "Mimikanın həddindən artıq ifadəli və hərəkətli olması.",
+  "en": "exaggerated facial expression",
+  "pos": "noun"
+ },
+ "insulosit": {
+  "az": "Mədəaltı vəzin adacıqlarında yerləşən endokrin hüceyrə.",
+  "en": "an endocrine cell of a pancreatic islet",
+  "pos": "noun"
+ },
+ "traxeol": {
+  "az": "Həşəratın traxeya sistemində toxumalara çatan nazik son borucuq.",
+  "en": "a fine terminal tube in the insect tracheal system",
+  "pos": "noun"
+ },
+ "tonofilament": {
+  "az": "Epitel hüceyrələrinə mexaniki dayaq verən keratin filamenti.",
+  "en": "a keratin intermediate filament supporting an epithelial cell",
+  "pos": "noun"
+ },
+ "tonofibril": {
+  "az": "Epitel hüceyrəsində tonofilament dəstəsi.",
+  "en": "a bundle of tonofilaments in an epithelial cell",
+  "pos": "noun"
+ },
+ "zoosporangi": {
+  "az": "Hərəkətli sporların əmələ gəldiyi spor kisəsi.",
+  "en": "a sporangium that produces motile spores",
+  "pos": "noun"
+ },
+ "ginofor": {
+  "az": "Çiçəkdə yumurtalığı yuxarı qaldıran saplaq.",
+  "en": "a stalk supporting the ovary of a flower",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Open English WordNet · gynophore",
+    "url": "https://github.com/globalwordnet/english-wordnet/blob/9b6aca775ae10ad3d2dc9956e8ad42a4ce1e076b/src/yaml/noun.plant.yaml#L4158"
+   }
+  ]
+ },
+ "kauloid": {
+  "az": "Bəzi ibtidai bitkilərdə gövdəyə bənzəyən hissə.",
+  "en": "a stemlike structure in a nonvascular plant or alga",
+  "pos": "noun"
+ },
+ "fillokladi": {
+  "az": "Yarpaq funksiyasını yerinə yetirən yastı yaşıl zoğ.",
+  "en": "a flattened green shoot functioning as a leaf",
+  "pos": "noun"
+ },
+ "kladodi": {
+  "az": "Yarpaq kimi fotosintez edən dəyişilmiş gövdə budağı.",
+  "en": "a modified stem segment functioning as a leaf",
+  "pos": "noun"
+ },
+ "plagiotropizm": {
+  "az": "Bitki orqanının təsir istiqamətinə maili böyüməsi.",
+  "en": "oblique growth of a plant organ relative to a stimulus",
+  "pos": "noun"
+ },
+ "neotip": {
+  "az": "İlkin tip materialı olmadıqda növ adını sabitləşdirmək üçün seçilən nümunə.",
+  "en": "a replacement type specimen designated when original type material is unavailable",
+  "pos": "noun"
+ },
+ "tautonim": {
+  "az": "Cins və növ adları eyni olan elmi ad.",
+  "en": "a scientific name in which genus and specific epithet are identical",
+  "pos": "noun"
+ },
+ "tavtonim": {
+  "az": "Cins adı ilə növ epitetinin təkrarlandığı elmi ad.",
+  "en": "a tautonym, a scientific name repeating the genus name as its epithet",
+  "pos": "noun"
+ },
+ "sferokonus": {
+  "az": "Kürəvi və konusvari səthlərin birləşdiyi forma.",
+  "en": "a form combining spherical and conical surfaces",
+  "pos": "noun"
+ },
+ "intraklast": {
+  "az": "Çöküntünün həmin hövzədə qopub yenidən çökən parçası.",
+  "en": "a fragment of sediment eroded and redeposited within the same basin",
+  "pos": "noun"
+ },
+ "mezokotil": {
+  "az": "Cücərtidə buğumla koleoptil arasındakı gövdəcik hissəsi.",
+  "en": "the seedling stem segment between the scutellar node and coleoptile",
+  "pos": "noun"
+ },
+ "maqnitotropizm": {
+  "az": "Canlı orqanizmin maqnit sahəsinə istiqamətlənmiş reaksiyası.",
+  "en": "a directional response to a magnetic field",
+  "pos": "noun"
+ },
+ "bemit": {
+  "az": "Boksitin tərkibində rast gəlinən alüminium oksihidroksid mineralı.",
+  "en": "boehmite, an aluminium oxyhydroxide mineral found in bauxite",
+  "pos": "noun"
+ },
+ "bismutit": {
+  "az": "Bismutun oksikarbonat mineralı.",
+  "en": "bismutite, a bismuth oxycarbonate mineral",
+  "pos": "noun"
+ },
+ "dakiardit": {
+  "az": "Seolit qrupuna daxil olan sulu alümosilikat mineralı.",
+  "en": "dachiardite, a hydrated aluminosilicate of the zeolite group",
+  "pos": "noun"
+ },
+ "davsonit": {
+  "az": "Natrium və alüminiumun hidroksikarbonat mineralı.",
+  "en": "dawsonite, a sodium aluminium hydroxycarbonate mineral",
+  "pos": "noun"
+ },
+ "delafossit": {
+  "az": "Mis və dəmir oksidindən ibarət mineral.",
+  "en": "delafossite, a copper iron oxide mineral",
+  "pos": "noun"
+ },
+ "digenit": {
+  "az": "Mis filizlərində rast gəlinən mis sulfid mineralı.",
+  "en": "digenite, a copper sulfide mineral",
+  "pos": "noun"
+ },
+ "dikkit": {
+  "az": "Kaolinitlə eyni tərkibli, kristal quruluşu fərqli gil mineralı.",
+  "en": "dickite, a clay mineral polymorphous with kaolinite",
+  "pos": "noun"
+ },
+ "hersdorfit": {
+  "az": "Nikel, arsen və kükürd tərkibli mineral.",
+  "en": "gersdorffite, a nickel arsenic sulfide mineral",
+  "pos": "noun"
+ },
+ "heterogenit": {
+  "az": "Kobaltın oksihidroksid mineralı.",
+  "en": "heterogenite, a cobalt oxyhydroxide mineral",
+  "pos": "noun"
+ },
+ "hudmundit": {
+  "az": "Dəmir, sürmə və kükürddən ibarət mineral.",
+  "en": "gudmundite, an iron antimony sulfide mineral",
+  "pos": "noun"
+ },
+ "humit": {
+  "az": "Maqneziumla zəngin silikat mineralı, humit qrupunun adını verən üzvü.",
+  "en": "humite, a magnesium silicate mineral of the humite group",
+  "pos": "noun"
+ },
+ "hialofan": {
+  "az": "Barium və kalium tərkibli çöl şpatı.",
+  "en": "hyalophane, a barium-bearing potassium feldspar",
+  "pos": "noun"
+ },
+ "kubanit": {
+  "az": "Mis və dəmir sulfidindən ibarət filiz mineralı.",
+  "en": "cubanite, a copper iron sulfide mineral",
+  "pos": "noun"
+ },
+ "qalaksit": {
+  "az": "Şpinel qrupunda manqan və alüminium tərkibli mineral.",
+  "en": "galaxite, a manganese aluminium spinel",
+  "pos": "noun"
+ },
+ "qalenobismutit": {
+  "az": "Qurğuşun və bismut sulfidindən ibarət mineral.",
+  "en": "galenobismutite, a lead bismuth sulfide mineral",
+  "pos": "noun"
+ },
+ "şorlomit": {
+  "az": "Qranat qrupuna aid titanla zəngin mineral.",
+  "en": "schorlomite, a titanium-rich garnet mineral",
+  "pos": "noun"
+ },
+ "ştromeyerit": {
+  "az": "Mis və gümüş sulfidindən ibarət mineral.",
+  "en": "stromeyerite, a copper silver sulfide mineral",
+  "pos": "noun"
+ },
+ "umangit": {
+  "az": "Mis və selenin birləşməsindən ibarət mineral.",
+  "en": "umangite, a copper selenide mineral",
+  "pos": "noun"
+ },
+ "violarit": {
+  "az": "Dəmir və nikelin sulfid mineralı.",
+  "en": "violarite, an iron nickel sulfide mineral",
+  "pos": "noun"
+ },
+ "ureilit": {
+  "az": "Karbon daşıyan, adətən olivin və piroksenlə zəngin daş meteorit.",
+  "en": "a ureilite, a carbon-bearing achondritic meteorite rich in olivine and pyroxene",
+  "pos": "noun"
+ },
+ "nemalit": {
+  "az": "Brusitin lifli quruluşa malik növü.",
+  "en": "nemalite, a fibrous variety of brucite",
+  "pos": "noun"
+ },
+ "nitrokalit": {
+  "az": "Təbii kalium nitrat mineralı.",
+  "en": "nitrokalite, naturally occurring potassium nitrate",
+  "pos": "noun"
+ },
+ "lösit": {
+  "az": "Kalium və alüminium tərkibli feldşpatoid mineralı.",
+  "en": "leucite, a potassium aluminium feldspathoid mineral",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L5028891"
+   }
+  ]
+ },
+ "kamptonit": {
+  "az": "Qələvi lamprofirlər qrupuna aid tünd rəngli maqmatik süxur.",
+  "en": "camptonite, a dark alkaline lamprophyre",
+  "pos": "noun"
+ },
+ "nordmarkit": {
+  "az": "Qələvi çöl şpatı ilə zəngin, az miqdarda kvars saxlayan siyenit növü.",
+  "en": "nordmarkite, a quartz-bearing alkali syenite",
+  "pos": "noun"
+ },
+ "iyolit": {
+  "az": "Əsasən nefelin və piroksendən ibarət maqmatik süxur.",
+  "en": "ijolite, an igneous rock chiefly composed of nepheline and pyroxene",
+  "pos": "noun"
+ },
+ "şonkinit": {
+  "az": "Qələvi çöl şpatı və tünd rəngli minerallarla zəngin intruziv süxur.",
+  "en": "shonkinite, a dark intrusive rock containing abundant alkali feldspar",
+  "pos": "noun"
+ },
+ "şoşonit": {
+  "az": "Kaliumla zəngin bazalt tərkibli vulkanik süxur.",
+  "en": "shoshonite, a potassium-rich basaltic volcanic rock",
+  "pos": "noun"
+ },
+ "vitrofir": {
+  "az": "Şüşəvari əsas kütləsində iri kristallar olan vulkanik süxur.",
+  "en": "a vitrophyre, a volcanic rock with phenocrysts in a glassy groundmass",
+  "pos": "noun"
+ },
+ "vitrobazalt": {
+  "az": "Şüşəvari quruluşlu bazalt.",
+  "en": "glassy basalt",
+  "pos": "noun"
+ },
+ "qrauvakka": {
+  "az": "Gil və süxur qırıntıları ilə zəngin, zəif çeşidlənmiş qumdaşı.",
+  "en": "greywacke, a poorly sorted sandstone with abundant matrix and rock fragments",
+  "pos": "noun"
+ },
+ "qravelit": {
+  "az": "Əsas hissəsi sementləşmiş çınqıl ölçülü dənələrdən ibarət çöküntü süxuru.",
+  "en": "a sedimentary rock composed predominantly of cemented gravel-sized grains",
+  "pos": "noun"
+ },
+ "sapropelit": {
+  "az": "Su hövzələrində üzvi lillərin çevrilməsindən yaranmış yanar çöküntü süxuru.",
+  "en": "a combustible sedimentary rock derived from organic-rich aquatic mud",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L5072120"
+   }
+  ]
+ },
+ "kaliçe": {
+  "az": "Quraq ərazilərdə torpaq səthinə yaxın yığılan bərk karbonat qatı.",
+  "en": "caliche, a hardened near-surface carbonate accumulation in dry regions",
+  "pos": "noun"
+ },
+ "traxidolerit": {
+  "az": "Qələvi feldşpat daşıyan dolerit tipli maqmatik süxur.",
+  "en": "trachydolerite, a doleritic rock containing alkali feldspar",
+  "pos": "noun"
+ },
+ "qranulit-qneys": {
+  "az": "Qranulit və qneyslərin birlikdə iştirak etdiyi süxur kompleksi.",
+  "en": "a rock association of granulites and gneisses",
+  "pos": "noun"
+ },
+ "qranit-oneys qatı": {
+  "az": "Əsasən qranit və qneysdən təşkil olunmuş süxur qatı.",
+  "en": "a layer consisting chiefly of granite and gneiss",
+  "pos": "noun"
+ },
+ "metamorfogen": {
+  "az": "Süxurların metamorfizmi nəticəsində yaranmış.",
+  "en": "formed by geological metamorphism",
+  "pos": "adjective"
+ },
+ "paravtoxton": {
+  "az": "Tektonik hərəkətlə ilkin yerindən az uzaqlaşmış süxur kütləsi.",
+  "en": "a rock mass displaced only a short distance from its original position",
+  "pos": "noun"
+ },
+ "tufogen-çökmə": {
+  "az": "Vulkanik tuf materialı ilə çöküntü proseslərinin birgə təsirindən yaranan.",
+  "en": "formed from volcanic tuff material through sedimentary processes",
+  "pos": "adjective"
+ },
+ "təbii-arid torpaq": {
+  "az": "Təbii quraq iqlim şəraitində formalaşan torpaq.",
+  "en": "soil developed under naturally arid conditions",
+  "pos": "noun"
+ },
+ "şordüzən sahə": {
+  "az": "Torpağında duz toplanmış düzənlik ərazi.",
+  "en": "a low-relief area with saline soil",
+  "pos": "noun"
+ },
+ "poliqalin sular": {
+  "az": "Duzluluğu dəniz suyuna yaxın, şortəhər suların yüksək duzluluqlu sinfi.",
+  "en": "polyhaline waters, the more saline class of brackish water",
+  "pos": "noun"
+ },
+ "pelogen qat": {
+  "az": "Su hövzəsinin dibində yeni lillərin yarandığı üst çöküntü qatı.",
+  "en": "the upper sediment layer at a water bottom where fresh mud forms",
+  "pos": "noun"
+ },
+ "pessimum zona": {
+  "az": "Mühit amilinin orqanizmin dözümlülük həddinə yaxın olduğu sahə.",
+  "en": "the range of environmental conditions close to an organism’s tolerance limit",
+  "pos": "noun"
+ },
+ "neozoy": {
+  "az": "Yer tarixinin kaynozoy erası üçün işlədilən ad.",
+  "en": "an alternative name for the Cenozoic era",
+  "pos": "noun"
+ },
+ "mezokaynozoy": {
+  "az": "Mezozoy və kaynozoy eralarını birlikdə əhatə edən zaman intervalı.",
+  "en": "the combined Mesozoic and Cenozoic interval",
+  "pos": "noun"
+ },
+ "neotektonosfer": {
+  "az": "Yer qabığının yeni tektonik hərəkətlərin təsir etdiyi hissəsi.",
+  "en": "the part of the crust affected by recent tectonic movements",
+  "pos": "noun"
+ },
+ "hidrotop": {
+  "az": "Yaşayış mühitinin su rejimi ilə səciyyələnən hissəsi.",
+  "en": "the component of a habitat defined by its water conditions",
+  "pos": "noun"
+ },
+ "senoz": {
+  "az": "Bir ərazidə birgə yaşayan orqanizmlərin birliyi.",
+  "en": "an ecological community",
+  "pos": "noun"
+ },
+ "mikrosenoz": {
+  "az": "Kiçik sahədə formalaşmış canlılar birliyi.",
+  "en": "a small-scale ecological community",
+  "pos": "noun"
+ },
+ "biotaksiya": {
+  "az": "Canlı orqanizmin bioloji qıcıq mənbəyinə doğru və ya ondan uzağa istiqamətli hərəkəti.",
+  "en": "directed movement towards or away from a biological stimulus",
+  "pos": "noun"
+ },
+ "mikotrofizm": {
+  "az": "Göbələklər vasitəsilə və ya onların hesabına qidalanma.",
+  "en": "nutrition obtained through or from fungi",
+  "pos": "noun"
+ },
+ "evrifagiya": {
+  "az": "Çox müxtəlif qidalarla qidalana bilmə.",
+  "en": "the ability to feed on a wide variety of foods",
+  "pos": "noun"
+ },
+ "evrioksibiont": {
+  "az": "Suda həll olmuş oksigenin geniş dəyişmə həddinə dözən orqanizm.",
+  "en": "an organism tolerating a wide range of dissolved oxygen levels",
+  "pos": "noun"
+ },
+ "tafofiliya": {
+  "az": "Qəbirlərə və dəfn adətlərinə xüsusi maraq.",
+  "en": "a pronounced interest in graves and burial customs",
+  "pos": "noun"
+ },
+ "tredekafobiya": {
+  "az": "On üç rəqəminə qarşı güclü qorxu.",
+  "en": "a pronounced fear of the number thirteen",
+  "pos": "noun"
+ },
+ "dementofobiya": {
+  "az": "Ağlını itirməkdən güclü qorxu.",
+  "en": "a persistent fear of losing one's mind",
+  "pos": "noun"
+ },
+ "epistaksiyofobiya": {
+  "az": "Burun qanamasına qarşı güclü qorxu.",
+  "en": "a pronounced fear of nosebleeds",
+  "pos": "noun"
+ },
+ "xirofobiya": {
+  "az": "Əllərə qarşı güclü qorxu.",
+  "en": "a pronounced fear of hands",
+  "pos": "noun"
+ },
+ "teatrofobiya": {
+  "az": "Teatrdan və ya teatr mühitindən güclü qorxu.",
+  "en": "a pronounced fear of theatres",
+  "pos": "noun"
+ },
+ "tunelefobiya": {
+  "az": "Tunellərə girməkdən güclü qorxu.",
+  "en": "a pronounced fear of tunnels",
+  "pos": "noun"
+ },
+ "hominofobiya": {
+  "az": "İnsanlardan güclü qorxu.",
+  "en": "a pronounced fear of people",
+  "pos": "noun"
+ },
+ "topofobiya": {
+  "az": "Müəyyən yerlərə qarşı güclü qorxu.",
+  "en": "an intense aversion to or fear of particular places",
+  "pos": "noun"
+ },
+ "dekstrofobiya": {
+  "az": "Sağ tərəfdə yerləşən şeylərə qarşı qorxu.",
+  "en": "a fear of objects to one's right",
+  "pos": "noun"
+ },
+ "ritifobiya": {
+  "az": "Üzdə və ya dəridə qırışların yaranmasından qorxu.",
+  "en": "a fear of developing wrinkles",
+  "pos": "noun"
+ },
+ "heliofiliya": {
+  "az": "Günəşli və güclü işıqlanan şəraitə üstünlük vermə.",
+  "en": "a preference for sunlight or bright conditions",
+  "pos": "noun"
+ },
+ "talassofil": {
+  "az": "Dəniz mühitinə üstünlük verən.",
+  "en": "adapted to or fond of marine conditions",
+  "pos": "adjective"
+ },
+ "helobiont": {
+  "az": "Bataqlıq mühitində yaşayan orqanizm.",
+  "en": "a marsh-dwelling organism",
+  "pos": "noun"
+ },
+ "heliobiont": {
+  "az": "Güclü günəş işığı olan mühitdə yaşayan orqanizm.",
+  "en": "an organism inhabiting sunlit environments",
+  "pos": "noun"
+ },
+ "felloid": {
+  "az": "Mantar toxumasında divarları suberinləşməmiş hüceyrə.",
+  "en": "a nonsuberized cell in cork tissue",
+  "pos": "noun"
+ },
+ "endofaq": {
+  "az": "Qidasını başqa bir orqanizmin daxilində yeyən canlı.",
+  "en": "an organism that feeds within another organism",
+  "pos": "noun"
+ },
+ "edatop": {
+  "az": "Mühitin torpaq xüsusiyyətləri ilə müəyyənləşən hissəsi.",
+  "en": "the soil-defined component of a habitat",
+  "pos": "noun"
+ },
+ "fitolaboratoriya": {
+  "az": "Bitkilər üzərində tədqiqat aparılan laboratoriya.",
+  "en": "a laboratory for the study of plants",
+  "pos": "noun"
+ },
+ "haloidofit": {
+  "az": "Duzlu torpaqda yaşamağa uyğunlaşmış bitki.",
+  "en": "a salt-tolerant plant",
+  "pos": "noun"
+ },
+ "hifomikoz": {
+  "az": "Sapvari göbələklərin törətdiyi xəstəlik.",
+  "en": "a disease caused by filamentous fungi",
+  "pos": "noun"
+ },
+ "miksoploidiya": {
+  "az": "Eyni orqanizmdə xromosom dəstlərinin sayı fərqli olan hüceyrələrin mövcudluğu.",
+  "en": "the presence in one organism of cells with different ploidy levels",
+  "pos": "noun"
+ },
+ "miksospora": {
+  "az": "Miksosporidilərin həyat dövründə yaranan spor.",
+  "en": "a spore formed in the life cycle of a myxosporean",
+  "pos": "noun"
+ },
+ "sitoaqlütinasiya": {
+  "az": "Hüceyrələrin bir-birinə yapışaraq topalaşması.",
+  "en": "the agglutination or clumping of cells",
+  "pos": "noun"
+ },
+ "monositogenez": {
+  "az": "Monositlərin yaranması və inkişafı.",
+  "en": "formation and development of monocytes",
+  "pos": "noun"
+ },
+ "sitolimfa": {
+  "az": "Hüceyrənin sitoplazmasında olan maye hissə.",
+  "en": "the fluid component of cell cytoplasm",
+  "pos": "noun"
+ },
+ "sitomorfoz": {
+  "az": "Hüceyrənin inkişaf etdikcə forma və quruluşca dəyişməsi.",
+  "en": "changes in cell form and structure during development",
+  "pos": "noun"
+ },
+ "sitotropizm": {
+  "az": "Təsirin və ya orqanizmin müəyyən hüceyrələrə seçici yönəlməsi.",
+  "en": "a selective affinity for particular cells",
+  "pos": "noun"
+ },
+ "periplazma": {
+  "az": "Bəzi bakteriyalarda daxili və xarici membranlar arasındakı mühit.",
+  "en": "the compartment between the inner and outer membranes in certain bacteria",
+  "pos": "noun"
+ },
+ "neyroplazma": {
+  "az": "Sinir hüceyrəsinin sitoplazması.",
+  "en": "the cytoplasm of a nerve cell",
+  "pos": "noun"
+ },
+ "kariosom": {
+  "az": "Hüceyrə nüvəsində sıxlaşmış xromatin kütləsi.",
+  "en": "a compact mass of chromatin in a cell nucleus",
+  "pos": "noun"
+ },
+ "kariosfer": {
+  "az": "Nüvədə xromosomların sıx şəkildə bir yerə toplanmasından yaranan quruluş.",
+  "en": "a compact aggregate of chromosomes in a nucleus",
+  "pos": "noun"
+ },
+ "heteromorfiya": {
+  "az": "Eyni növdə və ya sistemdə fərqli formaların mövcudluğu.",
+  "en": "the occurrence of different forms within one species or system",
+  "pos": "noun"
+ },
+ "plasentasiya": {
+  "az": "Plasentanın əmələ gəlməsi, botanikada isə toxumcuqların yumurtalıqda yerləşmə qaydası.",
+  "en": "formation of the placenta, or in botany the arrangement of ovules within the ovary",
+  "pos": "noun"
+ },
+ "idioxromatizm": {
+  "az": "Mineralın rənginin öz kimyəvi tərkibi ilə müəyyən olunması.",
+  "en": "colouration intrinsic to the chemical composition of a mineral",
+  "pos": "noun"
+ },
+ "psevdomorfizm": {
+  "az": "Mineralın başqa mineralın xarici kristal formasını saxlaması.",
+  "en": "the retention by one mineral of the outward crystal form of another",
+  "pos": "noun"
+ },
+ "pinakoid": {
+  "az": "Kristalloqrafiyada iki paralel üzdən ibarət sadə forma.",
+  "en": "a crystal form consisting of two parallel faces",
+  "pos": "noun"
+ },
+ "triqonal qəfəs": {
+  "az": "Triqonal simmetriyaya malik kristal qəfəsi.",
+  "en": "a crystal lattice with trigonal symmetry",
+  "pos": "noun"
+ },
+ "triklin": {
+  "az": "Kristalloqrafiyada ən aşağı simmetriyalı sistemə aid olan.",
+  "en": "triclinic, belonging to the least symmetrical crystal system",
+  "pos": "adjective"
+ },
+ "politipiya": {
+  "az": "Eyni tərkibli kristal təbəqələrinin müxtəlif ardıcıllıqla düzülməsi.",
+  "en": "variation in the stacking sequence of crystal layers of the same composition",
+  "pos": "noun"
+ },
+ "disinodont": {
+  "az": "Adətən iki iri köpək dişi olan nəsli kəsilmiş terapsidlər qrupunun nümayəndəsi.",
+  "en": "a dicynodont, a member of an extinct group of often tusked therapsids",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Open English WordNet · dicynodont",
+    "url": "https://github.com/globalwordnet/english-wordnet/blob/9b6aca775ae10ad3d2dc9956e8ad42a4ce1e076b/src/yaml/noun.animal.yaml#L13857"
+   }
+  ]
+ },
+ "asteroksilon": {
+  "az": "Devon dövrünə aid nəsli kəsilmiş erkən damarlı bitki cinsi.",
+  "en": "an extinct Devonian genus of early vascular plants (Asteroxylon)",
+  "pos": "noun"
+ },
+ "drepanofikus": {
+  "az": "Devonda yaşamış nəsli kəsilmiş plaunabənzər bitki cinsi.",
+  "en": "an extinct genus of Devonian lycophytes (Drepanophycus)",
+  "pos": "noun"
+ },
+ "pliopitek": {
+  "az": "Miosen dövrünə aid nəsli kəsilmiş primat cinsi.",
+  "en": "an extinct Miocene primate genus (Pliopithecus)",
+  "pos": "noun"
+ },
+ "parapitek": {
+  "az": "Şimali Afrikada qalıqları tapılmış nəsli kəsilmiş qədim primat cinsi.",
+  "en": "an extinct primate genus known from North Africa (Parapithecus)",
+  "pos": "noun"
+ },
+ "seratit": {
+  "az": "Trias dövründə geniş yayılmış ammonoid molyusklar qrupunun nümayəndəsi.",
+  "en": "a ceratite, a member of a group of ammonoids widespread in the Triassic",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L5072929"
+   }
+  ]
+ },
+ "sikadofit": {
+  "az": "Saqovniklərə və onlara qohum toxumlu bitkilərə aid bitki.",
+  "en": "a cycadophyte, a cycad or related seed plant",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L5073221"
+   }
+  ]
+ },
+ "aqatis": {
+  "az": "Araukariyakimilər fəsiləsindən həmişəyaşıl iynəyarpaqlı ağac cinsi.",
+  "en": "a genus of evergreen conifers in the araucaria family (Agathis)",
+  "pos": "noun"
+ },
+ "iksiya": {
+  "az": "Süsənkimilər fəsiləsindən soğanaqlı dekorativ bitki cinsi.",
+  "en": "a genus of ornamental corm-bearing plants of the iris family (Ixia)",
+  "pos": "noun"
+ },
+ "tekoma": {
+  "az": "Biqnoniyakimilər fəsiləsindən kol və ağac cinsi.",
+  "en": "a genus of shrubs and trees in the trumpet-vine family (Tecoma)",
+  "pos": "noun"
+ },
+ "sitta": {
+  "az": "Ağac gövdələrində başıaşağı hərəkət edə bilən xırda quşların cinsi.",
+  "en": "Sitta, the genus of nuthatches",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L5073782"
+   }
+  ]
+ },
+ "berardius": {
+  "az": "Dimdikli balinalar fəsiləsindən iri dəniz məməliləri cinsi.",
+  "en": "a genus of large beaked whales (Berardius)",
+  "pos": "noun"
+ },
+ "kayra": {
+  "az": "Şimal dənizlərində yaşayan, suya baş vuraraq balıq tutan dəniz quşu.",
+  "en": "a guillemot or murre of northern seas",
+  "pos": "noun"
+ },
+ "nimfalid": {
+  "az": "Nimfalidlər fəsiləsinə mənsub gündüz kəpənəyi.",
+  "en": "a brush-footed butterfly of the family Nymphalidae",
+  "pos": "noun"
+ },
+ "empidi": {
+  "az": "Yırtıcı milçəklərin Empididae fəsiləsinin nümayəndəsi.",
+  "en": "a dance fly of the family Empididae",
+  "pos": "noun"
+ },
+ "mizid": {
+  "az": "Krevetə bənzər xırda xərçəngkimilər qrupunun nümayəndəsi.",
+  "en": "a mysid, a small shrimp-like crustacean",
+  "pos": "noun"
+ },
+ "filant": {
+  "az": "Arıları ovlayan yırtıcı qazıcı arı cinsinin nümayəndəsi.",
+  "en": "a beewolf, a predatory wasp of the genus Philanthus",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L5001057"
+   }
+  ]
+ },
+ "kil": {
+  "az": "Gəminin gövdəsi boyunca dib hissəsində uzanan başlıca struktur elementi.",
+  "en": "the keel running lengthwise along the bottom of a vessel",
+  "pos": "noun"
+ },
+ "trisel": {
+  "az": "Güclü küləkdə istifadə edilən kiçik, möhkəm yelkən.",
+  "en": "a trysail, a small heavy sail used in rough weather",
+  "pos": "noun"
+ },
+ "şlüp": {
+  "az": "Adətən bir dor ağacı və qabaq-əsas yelkənləri olan yelkənli gəmi.",
+  "en": "a sloop, typically a single-masted fore-and-aft-rigged sailing vessel",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Open English WordNet · sloop",
+    "url": "https://github.com/globalwordnet/english-wordnet/blob/9b6aca775ae10ad3d2dc9956e8ad42a4ce1e076b/src/yaml/noun.artifact.yaml#L97779"
+   }
+  ]
+ },
+ "topenant": {
+  "az": "Gəmidə bomu və ya reyanın ucunu saxlayan takelaj kəndiri.",
+  "en": "a topping lift supporting a boom or the end of a yard",
+  "pos": "noun"
+ },
+ "vaterştaq": {
+  "az": "Gəminin burun çıxıntısını aşağıdan saxlayan takelaj bağı.",
+  "en": "a bobstay supporting the bowsprit from below",
+  "pos": "noun"
+ },
+ "kvadrirem": {
+  "az": "Antik dövrdə avarçəkənləri dördlük qruplarla təşkil edilən hərbi gəmi.",
+  "en": "an ancient quadrireme, a galley with oarsmen grouped in fours",
+  "pos": "noun"
+ },
+ "kontrqalop": {
+  "az": "Atın dönmə istiqamətinə əks ayaqla apardığı qalop.",
+  "en": "a counter-canter, with the horse on the outside lead",
+  "pos": "noun"
+ },
+ "kapriol": {
+  "az": "Atın havaya sıçrayıb arxa ayaqlarını geriyə atdığı klassik manej hərəkəti.",
+  "en": "a capriole, a dressage leap with a backward kick",
+  "pos": "noun"
+ },
+ "kvadrupl-dabl": {
+  "az": "Basketbolda bir oyunda dörd statistik göstəricinin hərəsində ən azı on vahid toplama.",
+  "en": "a basketball quadruple-double, reaching double figures in four statistical categories in one game",
+  "pos": "noun"
+ },
+ "velobol": {
+  "az": "Velosiped sürən oyunçuların topu rəqib qapısına vurmağa çalışdığı idman oyunu.",
+  "en": "cycle ball, a team sport played on bicycles",
+  "pos": "noun"
+ },
+ "tritikale dəni": {
+  "az": "Buğda ilə çovdarın hibridi olan tritikalenin dənəsi.",
+  "en": "a grain of triticale, a wheat–rye hybrid",
+  "pos": "noun"
+ },
+ "topbaş buğda": {
+  "az": "Sünbülü yığcam və sıx olan buğda tipi.",
+  "en": "club wheat with a compact dense ear",
+  "pos": "noun"
+ },
+ "sarısünbül buğda": {
+  "az": "Sünbülü sarı rəngdə olan buğda.",
+  "en": "wheat bearing yellow ears",
+  "pos": "noun"
+ }
+}

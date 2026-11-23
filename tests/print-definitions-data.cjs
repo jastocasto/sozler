@@ -101,13 +101,14 @@ for (const row of reviewRows) {
   assert.equal(entry.definitionMethod, 'paraphrase', word);
   assert.deepEqual(Array.from(entry.definitionSources, r => r.url.match(/_(\d)\.pdf#page=(\d+)$/).slice(1).join('.')), pages.split(','), word);
 }
-const contextualMeanings = JSON.parse(fs.readFileSync('scripts/content/print-definitions/meanings/batch-35.json', 'utf8'));
+const contextualMeanings = Object.assign({}, ...[35, 36].map(batch =>
+  JSON.parse(fs.readFileSync('scripts/content/print-definitions/meanings/batch-' + batch + '.json', 'utf8'))));
 for (const [word, entry] of Object.entries(contextualMeanings)) {
   const n = node(word);
   assert.equal(n.az, entry.az, word);
   assert.equal(n.en, entry.en, word);
   assert.equal(n.definitionMethod, 'meaning', word);
-  for (const ref of entry.references) assert(n.definitionSources.some(r => r.url === ref.url), word + ' context citation');
+  for (const ref of entry.references || []) assert(n.definitionSources.some(r => r.url === ref.url), word + ' context citation');
 }
 assert.match(node('it-bat düşmək').en, /go missing/);
 assert.match(node('termoqraflı').en, /records temperature/);
