@@ -302,6 +302,12 @@ def clean_form(form):
     return '' if not form or re.search(r'\b(?:or|and|of|to|the|a|an)$|[,;:(]$', form) else form
 
 
+def nationality(node):
+    """A nationality or language adjective is defined by one capitalised word on both sides: ibri, «İbrani», «Hebrew»."""
+    az, en = node.get('az', '').strip(), node.get('en', '').strip()
+    return bool(re.fullmatch(r'[A-ZÇĞIİÖŞÜƏ][\wçğıöşüə]+', az) and re.fullmatch(r'[A-Z][a-z]+', en))
+
+
 def possessive_stem(word):
     """Undo a third-person possessive ending and the q/k voicing it triggers."""
     match = re.fullmatch(r'(.+?)(s?)([ıiuü])', word)
@@ -664,6 +670,11 @@ class Builder:
         # -lan after a noun has too many senses to state by rule (çapaqlanmaq, çisəklənmək); after an adjective it is "become".
         if kind == 'acquire' and pos == 'adjective':
             return f'«{base_word}» sözündən -{suffix} şəkilçisi ilə düzələn fel: {base_word} olmaq.', f'to become {short}', 'verb'
+        if kind == 'ca' and pos == 'adjective' and not nationality(base):
+            # After an adjective -ca weakens it or makes a manner adverb (bozca, qızğınca); after a noun, or a nationality
+            # adjective (ibri, Hebrew: ibricə, in Hebrew), it has more senses.
+            return (f'«{base_word}» sözündən -{suffix} şəkilçisi ilə düzələn söz: bir qədər {base_word}, {base_word} şəkildə.',
+                    f'somewhat {short}, in a {short} manner', 'adverb')
         if kind in LINK_ONLY and nominal:
             return f'«{base_word}» sözündən -{suffix} şəkilçisi ilə düzələn söz.', f'formed from {base_word} ({g}) with -{suffix}', pos
         if kind == 'place' and pos in ('noun', 'word'):
@@ -1296,7 +1307,8 @@ class Builder:
                         continue
                     own = self.defined(word)
                     # An ambiguous suffix needs a definition of the word itself (not a rule's) that names the base.
-                    if kind in LINK_ONLY and (not own or self.definitions.get(word, {}).get('method') == 'rule'):
+                    definable = kind not in LINK_ONLY or kind == 'ca' and base['pos'] == 'adjective' and not nationality(base)
+                    if not definable and (not own or self.definitions.get(word, {}).get('method') == 'rule'):
                         continue
                     confirmed = None
                     if own and self.definitions.get(word, {}).get('method') != 'rule' and not self.mentions(word, own, base_word, base):
@@ -1308,7 +1320,7 @@ class Builder:
                               f'«{word}» sözü «{base_word}» sözündən -{suffix} şəkilçisi ilə düzəlir.',
                               f'{word} is formed from {base_word} with the suffix -{suffix}.',
                               refs + ([confirmed] if confirmed else []), 'rule-print' if confirmed else 'rule')
-                    if define and self.undefined(word) and kind not in LINK_ONLY:
+                    if define and self.undefined(word) and definable:
                         self.define(word, *made, refs, 'rule', base=base_word)
                     break
             if len(self.definitions) + len(self.edges) == before:

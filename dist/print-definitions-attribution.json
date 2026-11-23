@@ -37,28 +37,28 @@
  },
  "summary": {
   "undefined_before": 63985,
-  "undefined_after": 4738,
+  "undefined_after": 4717,
   "isolated_before": 30802,
-  "isolated_after": 5992,
-  "definitions": 59247,
+  "isolated_after": 5983,
+  "definitions": 59268,
   "definitions_by_method": {
    "authored": 10974,
    "cross-reference": 413,
    "derivation": 3591,
    "paraphrase": 17587,
-   "rule": 26682
+   "rule": 26703
   },
   "low_confidence_paraphrases": 737,
-  "links": 38647,
+  "links": 38664,
   "stats": {
    "definitions:authored": 10974,
    "definitions:cross-reference": 413,
    "definitions:derivation": 3591,
    "definitions:paraphrase": 17587,
-   "definitions:rule": 26682,
+   "definitions:rule": 26703,
    "links:bilingual-cross-reference": 897,
    "links:combining": 2362,
-   "links:compound": 18653,
+   "links:compound": 18649,
    "links:compound-print": 396,
    "links:cross-reference": 150,
    "links:cross-reference-lead": 157,
@@ -72,12 +72,12 @@
    "links:original-relation": 23,
    "links:original-synonym": 692,
    "links:quantity": 895,
-   "links:rule": 4774,
+   "links:rule": 4795,
    "links:rule-print": 653,
    "paraphrase:rejected-unsourced": 24,
    "paraphrase:skipped": 89,
    "rule:unconfirmed-existing": 66743
   }
  },
- "output_sha256": "2d57f863d57332ba1df061b21bb7925665561ae3d4e2046d3b62b4f0ccbb1923"
+ "output_sha256": "8700c52ecfa1ffc68edd18fff22a88f9cc61ac78bab2d67271a0e4fa5bd8359d"
 }
