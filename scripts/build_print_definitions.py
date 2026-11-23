@@ -836,6 +836,11 @@ class Builder:
         # compounds in -lı often are compounds (iri + başlı), so only verbal derivations block the split.
         if any(kind in VERBAL_KINDS for _, kind, _ in self.analyses(word)):
             return None
+        # Plant names end in a short possessive head the general split rejects: ilan + ot-u, ayrıq + ot-u, ərik + ağac-ı.
+        for ending, head in (('otu', 'ot'), ('ağacı', 'ağac')):
+            first = word[:-len(ending)]
+            if word.endswith(ending) and len(first) >= 3 and self.usable(head) and (self.usable(first) or {}).get('pos') in ('noun', 'word', 'adjective'):
+                return [first, head], 'closed'
         best = None
         for i in range(3, len(word) - 3):
             a, b = word[:i], word[i:]
@@ -889,16 +894,32 @@ class Builder:
     def quantified(self):
         """Quantity word + noun + -lı: çoxbarmaqlı is having many fingers, ikimərtəbəli is having two storeys."""
         for word in list(self.nodes):
-            if not self.undefined(word) or ' ' in word or '-' in word:
+            if ' ' in word or '-' in word:
                 continue
+            own = None if self.undefined(word) else self.defined(word)
             for quantity in sorted(QUANTIFIERS, key=len, reverse=True):
                 rest = word[len(quantity):]
-                if not word.startswith(quantity) or len(rest) < 5 or rest[-2] != 'l':
+                if not word.startswith(quantity) or len(rest) < 5:
                     continue
-                noun = rest[:-2]
+                # -lı (having: ikimərtəbəli) defines; -lıq (amounting to: dördtonluq) only links a defined word.
+                if rest[-2] == 'l':
+                    noun, suffix = rest[:-2], 'l' + rest[-1]
+                elif own and rest[-3] == 'l' and rest[-1] in 'qk':
+                    noun, suffix = rest[:-3], rest[-3:]
+                else:
+                    continue
                 base = self.usable(noun)
-                if len(noun) < 3 or not base or base['pos'] not in ('noun', 'word') or rest[-1] != h4(noun):
+                if len(noun) < 3 or not base or base['pos'] not in ('noun', 'word') or suffix[1] != h4(noun):
                     continue
+                if own:
+                    # A word that already has a definition is linked only when it names the noun (dördtonluq: «… dörd ton olan»).
+                    if self.definitions.get(word, {}).get('method') != 'rule' and self.mentions(word, own, noun, base):
+                        page = self.nodes[word].get('page')
+                        refs = ([spelling_source(page)] if page else []) + [GRAMMAR]
+                        self.link(word, noun, 'root', f'Söz yaradıcılığı · {quantity}- + -{suffix}',
+                                  f'«{word}» sözü «{noun}» sözündən «{quantity}» sözü və -{suffix} şəkilçisi ilə düzəlir.',
+                                  f'{word} is formed from {noun} with {quantity} and the suffix -{suffix}.', refs, 'quantity')
+                    break
                 az_quantity, en_quantity = QUANTIFIERS[quantity]
                 g = gloss(base)
                 # English compound adjectives keep the noun singular: two-leaf, ten-foot, multi-block, low-voltage.
