@@ -2,6 +2,10 @@
 // Decide how each noun's stem changes before a vowel ending, for the noun tables.
 //
 //   node --max-old-space-size=6144 scripts/build_noun_stems.cjs counts.tsv
+//   node --max-old-space-size=6144 scripts/build_noun_stems.cjs --extend
+//
+// --extend keeps every decision already in stems.json and decides only nouns that are missing (words defined
+// later), from the archive and the rules, since the corpus counts are not committed.
 //
 // counts.tsv is the corpus token count from scripts/count_corpus_words.py.
 // Two changes are decided per noun:
@@ -27,14 +31,18 @@ const DOCUMENTED_DROP = new Set('burun beyin izin isim oğul əyin ağıl fikir 
 const NO_SOFTENING_ORIGINS = new Set(['russian', 'european', 'slavic']);
 
 (async () => {
-  const countsFile = process.argv[2];
-  if (!countsFile) { console.error('usage: build_noun_stems.cjs counts.tsv'); process.exit(2); }
+  const countsFile = process.argv[2], extend = countsFile === '--extend';
+  if (!countsFile) { console.error('usage: build_noun_stems.cjs counts.tsv | --extend'); process.exit(2); }
+  const target = path.join(__dirname, 'content', 'nouns', 'stems.json');
+  const kept = extend ? JSON.parse(fs.readFileSync(target, 'utf8')) : {};
   const fetchJSON = file => JSON.parse(fs.readFileSync(path.join(dist, file.split('?')[0]), 'utf8'));
   const model = W.restoreModel(fetchJSON('soz-core.json'), { fetchJSON });
   model.ensureText();
   const counts = new Map();
-  const lines = readline.createInterface({ input: fs.createReadStream(countsFile, 'utf8'), crlfDelay: Infinity });
-  for await (const line of lines) { if (line.startsWith('#')) continue; const [token, ...cells] = line.split('\t'); counts.set(token, cells.reduce((a, c) => a + +c, 0)); }
+  if (!extend) {
+    const lines = readline.createInterface({ input: fs.createReadStream(countsFile, 'utf8'), crlfDelay: Infinity });
+    for await (const line of lines) { if (line.startsWith('#')) continue; const [token, ...cells] = line.split('\t'); counts.set(token, cells.reduce((a, c) => a + +c, 0)); }
+  }
   const etymology = JSON.parse(fs.readFileSync(path.join(__dirname, 'content', 'etymology', 'etymology.json'), 'utf8'));
   const languages = JSON.parse(fs.readFileSync(path.join(__dirname, 'content', 'etymology', 'languages.json'), 'utf8'));
   const loanFamily = word => { const o = etymology[word]?.o?.[0]; const donor = o?.chain.find(l => languages[l]?.[1] !== 'turkic'); return donor ? languages[donor][1] : null; };
@@ -51,11 +59,12 @@ const NO_SOFTENING_ORIGINS = new Set(['russian', 'european', 'slavic']);
     if (y.kinds >= 3 && y.total >= 3 && y.total >= 2 * x.total) return ['plain', 'corpus'];
     return [null, 'rule'];
   };
-  const out = {}, tally = {}, pending = [];
+  const out = { ...kept }, tally = {}, pending = [];
   const count = key => tally[key] = (tally[key] || 0) + 1;
   for (const n of model.nodes) {
     if (n.pos !== 'noun' || /[\s-]/.test(n.w) || n.w !== n.w.toLocaleLowerCase('az')) continue;
     const w = n.w;
+    if (w in kept) continue;
     if (syllables(w) > 1 && /[aıouəeiöü][kq]$/.test(w)) {
       const soft = w.slice(0, -1) + (w.endsWith('k') ? 'y' : 'ğ');
       let [shape, source] = decide(w, soft, w);
@@ -82,7 +91,6 @@ const NO_SOFTENING_ORIGINS = new Set(['russian', 'european', 'slavic']);
     }
     out[w] = [shape, source]; count('k/q ' + shape + ' ' + source);
   }
-  const target = path.join(__dirname, 'content', 'nouns', 'stems.json');
   fs.mkdirSync(path.dirname(target), { recursive: true });
   fs.writeFileSync(target, JSON.stringify(out, Object.keys(out).sort((a, b) => a.localeCompare(b, 'az')), 0).replace(/\],/g, '],\n') + '\n');
   console.log(JSON.stringify(tally, null, 1));

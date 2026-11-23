@@ -37,6 +37,10 @@ rebuild)
   python3 scripts/build_print_definitions.py $P/model.json $P/izahli.sqlite $P/musayev.sqlite
   python3 scripts/write_print_definitions_readme.py
   node --max-old-space-size=8192 scripts/build_runtime.cjs
+  # Nouns defined since the last stem build get a k/q and vowel-loss decision (existing decisions are kept).
+  before=$(md5sum scripts/content/nouns/stems.json)
+  node --max-old-space-size=6144 scripts/build_noun_stems.cjs --extend > /dev/null
+  [ "$before" = "$(md5sum scripts/content/nouns/stems.json)" ] || node --max-old-space-size=8192 scripts/build_runtime.cjs
   python3 scripts/version_assets.py
   python3 scripts/build_offline.py > /dev/null
   out=$(scripts/run_tests.sh tests/print-definitions-data.cjs tests/morphology.cjs tests/noun-tables.cjs tests/frequency-and-origins.cjs tests/offline.cjs tests/whole-word-labels.cjs)
