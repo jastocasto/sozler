@@ -488,8 +488,14 @@ class Builder:
                     refs += [print_source(volume, p) for _, volume, p in printed[:2]]
                 if entry['src'] in ('musayev', 'both'):
                     refs += [bilingual_source(p) for _, p in self.musayev.get(k, [])[:1]]
+            for ref in entry.get('references', []):
+                if not ref.get('title') or not ref.get('url', '').startswith('https://'):
+                    raise ValueError(f'Invalid lexical reference for {word}')
+                refs.append({'title': ref['title'], 'url': ref['url']})
             current = self.definitions.get(word)
-            az, en = az[0].upper() + az[1:], en[0].lower() + en[1:] if en[:2] != 'I ' else en
+            az = az[0].upper() + az[1:]
+            if not entry.get('references') and en[:2] != 'I ':
+                en = en[0].lower() + en[1:]
             if self.undefined(word):
                 self.define(word, az, en, pos, refs + [spelling_source(page)], 'meaning')
             elif current and current['method'] == 'rule' and FORMATION_ONLY.search(current['az']):
