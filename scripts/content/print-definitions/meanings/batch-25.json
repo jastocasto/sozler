@@ -1,0 +1,974 @@
+{
+ "toyuq-fərə": {
+  "az": "Toyuqlar, fərələr və s.; ev quşları (toplu mənada).",
+  "en": "hens and pullets; poultry",
+  "pos": "noun"
+ },
+ "toyuqlu-cücəli": {
+  "az": "Toyuğu-cücəsi olan, ev quşu saxlayan (toyuqlu-cücəli həyət).",
+  "en": "with hens and chicks, keeping poultry",
+  "pos": "adjective"
+ },
+ "tozlu-torpaqlı": {
+  "az": "Üstünü toz-torpaq basmış, çox tozlu (tozlu-torpaqlı yol).",
+  "en": "dusty, covered in dust and dirt",
+  "pos": "adjective"
+ },
+ "tozlu-tozanaqlı": {
+  "az": "Toz-tozanaqla dolu olan, çox tozlu (tozlu-tozanaqlı hava).",
+  "en": "very dusty, full of dust",
+  "pos": "adjective"
+ },
+ "tozlu-çirkli": {
+  "az": "Üstünü toz və kir basmış, çirkli.",
+  "en": "dusty and dirty, grimy",
+  "pos": "adjective"
+ },
+ "tozsuz-qazsız": {
+  "az": "Havasında toz və zərərli qaz olmayan, təmiz (iş yeri, otaq və s.).",
+  "en": "free of dust and gas",
+  "pos": "adjective"
+ },
+ "tozsuz-torpaqsız": {
+  "az": "Tozu-torpağı olmayan, tərtəmiz.",
+  "en": "free of dust and dirt, clean",
+  "pos": "adjective"
+ },
+ "tozsuz-çirksiz": {
+  "az": "Tozdan və kirdən təmiz olan, tərtəmiz.",
+  "en": "free of dust and dirt, spotless",
+  "pos": "adjective"
+ },
+ "traktor-maşın": {
+  "az": "Traktorlar və başqa kənd təsərrüfatı maşınları; texnika (traktor-maşın parkı).",
+  "en": "tractors and farm machinery",
+  "pos": "noun"
+ },
+ "traktor-təmir": {
+  "az": "Traktorların təmiri ilə məşğul olan (traktor-təmir emalatxanası).",
+  "en": "tractor-repair (e.g. a tractor-repair workshop)",
+  "pos": "adjective"
+ },
+ "trans-alp": {
+  "az": "Alp dağlarından keçən, Alp dağlarının o biri tərəfində olan (trans-alp boru kəməri).",
+  "en": "trans-Alpine",
+  "pos": "adjective",
+  "parts": false
+ },
+ "trans-arktik": {
+  "az": "Arktikadan keçən, Arktikanı kəsib keçən (trans-arktik marşrut).",
+  "en": "trans-Arctic",
+  "pos": "adjective",
+  "parts": false
+ },
+ "transformer-kreslo": {
+  "az": "Açılıb çarpayıya və ya başqa formaya çevrilə bilən kreslo.",
+  "en": "convertible armchair, chair bed",
+  "pos": "noun"
+ },
+ "transformer-çarpayı": {
+  "az": "Qatlanıb divara, şkafa və ya divana çevrilə bilən çarpayı.",
+  "en": "convertible bed, foldaway bed",
+  "pos": "noun"
+ },
+ "tranzit-kommunikasiya": {
+  "az": "Tranzit daşımalar və nəqliyyat-rabitə xətləri ilə bağlı olan (tranzit-kommunikasiya layihələri).",
+  "en": "transit and transport links (e.g. transit-communication projects)",
+  "pos": "adjective"
+ },
+ "trek-nömrə": {
+  "skip": "meaning not certain"
+ },
+ "tuf-torpaq": {
+  "skip": "meaning not certain"
+ },
+ "tufan-fırtına": {
+  "az": "Şiddətli tufan, fırtına; məc. böyük həyəcan, qarışıqlıq.",
+  "en": "storm, tempest; (fig.) turmoil",
+  "pos": "noun"
+ },
+ "tuman-şalvar": {
+  "az": "Tuman, şalvar və bu kimi beldən aşağı geyilən paltarlar.",
+  "en": "skirts and trousers",
+  "pos": "noun"
+ },
+ "tumarlanıb-bəzənmək": {
+  "az": "Saçını sığallayıb, geyinib-keçinib bəzənmək; özünə sığal vermək.",
+  "en": "to preen, to doll oneself up",
+  "pos": "verb"
+ },
+ "tumov-zökəm": {
+  "az": "Burun axması ilə keçən soyuqdəymə; zökəm.",
+  "en": "head cold, runny nose",
+  "pos": "noun"
+ },
+ "tunc-qrafit": {
+  "az": "Tunc və qrafit qarışığından hazırlanan (tunc-qrafit yastığı).",
+  "en": "bronze-graphite",
+  "pos": "adjective"
+ },
+ "tur-agent": {
+  "az": "Turist səfərləri təşkil edən və satan şəxs; turizm agenti.",
+  "en": "travel agent, tour agent",
+  "pos": "noun"
+ },
+ "tur-agentlik": {
+  "az": "Turist səfərləri təşkil edən və satan müəssisə; turizm agentliyi.",
+  "en": "travel agency",
+  "pos": "noun"
+ },
+ "tur-səyahət": {
+  "az": "Əvvəlcədən təşkil olunmuş turist səyahəti; tur.",
+  "en": "tour, package trip",
+  "pos": "noun"
+ },
+ "turac-qırqovul": {
+  "az": "Turac, qırqovul və bu kimi ov quşları (toplu mənada).",
+  "en": "francolins and pheasants; game birds",
+  "pos": "noun"
+ },
+ "turaclı-qırqovullu": {
+  "az": "Turacı və qırqovulu bol olan (turaclı-qırqovullu meşə).",
+  "en": "abounding in francolins and pheasants",
+  "pos": "adjective"
+ },
+ "turbin-nasos": {
+  "az": "Turbinlə hərəkətə gətirilən nasos; turbin və nasosdan ibarət aqreqat.",
+  "en": "turbopump, turbine pump unit",
+  "pos": "noun"
+ },
+ "turbinli-pərli": {
+  "az": "Qaz turbini ilə fırlanan hava pəri (vinti) olan (turbinli-pərli təyyarə, mühərrik).",
+  "en": "turboprop",
+  "pos": "adjective"
+ },
+ "turşu-badımcan": {
+  "az": "Sirkədə və ya duzlu suda qoyulmuş badımcan; badımcan turşusu.",
+  "en": "pickled aubergine (eggplant)",
+  "pos": "noun"
+ },
+ "tutqun-açıq": {
+  "skip": "meaning not certain"
+ },
+ "tökmə-beton": {
+  "az": "Tikinti yerində qəlibə tökülərək bərkidilən beton; monolit beton.",
+  "en": "cast-in-place concrete, poured concrete",
+  "pos": "noun"
+ },
+ "töküb-dağıtmaq": {
+  "az": "Əşyaları ora-bura töküb səpələmək, qarmaqarışıqlıq salmaq; məc. israf etmək.",
+  "en": "to scatter about, make a mess; (fig.) to squander",
+  "pos": "verb"
+ },
+ "tökücü-axıdıcı": {
+  "skip": "meaning not certain"
+ },
+ "tökücü-boşaldıcı": {
+  "az": "Yükü aşırıb tökməklə boşaltmağa yarayan (tökücü-boşaldıcı qurğu).",
+  "en": "dumping, tipping and unloading (of equipment)",
+  "pos": "adjective"
+ },
+ "tökücü-doldurucu": {
+  "az": "Mayeni qablara töküb doldurmağa yarayan (tökücü-doldurucu avtomat).",
+  "en": "filling, bottling (of equipment)",
+  "pos": "adjective"
+ },
+ "tökücü-hamarlayıcı": {
+  "az": "Beton və s. qarışığı töküb səthini hamarlayan (tökücü-hamarlayıcı maşın).",
+  "en": "laying and levelling (of a machine, e.g. a concrete paver)",
+  "pos": "adjective"
+ },
+ "tökücü-süzücü": {
+  "skip": "meaning not certain"
+ },
+ "tökülüb-dağılmaq": {
+  "az": "Uçub dağılmaq, səpələnib dağınıq hala düşmək.",
+  "en": "to fall apart, crumble; to be scattered",
+  "pos": "verb"
+ },
+ "tökülüb-töküşdürülmək": {
+  "az": "Ora-bura atılıb səpələnmək, qarmaqarışıq halda tökülüb qalmaq.",
+  "en": "to be strewn about, lie scattered in disorder",
+  "pos": "verb"
+ },
+ "töküntü-döşəmə": {
+  "skip": "meaning not certain"
+ },
+ "törəyib-artmaq": {
+  "az": "Nəsil verib çoxalmaq, sayca artmaq.",
+  "en": "to breed and multiply",
+  "pos": "verb"
+ },
+ "tövşüyüb-öskürmək": {
+  "az": "Təngnəfəs olub öskürmək, çətinliklə nəfəs alaraq öskürmək.",
+  "en": "to wheeze and cough, pant and cough",
+  "pos": "verb"
+ },
+ "tüfəng-tapança": {
+  "az": "Tüfəng, tapança və bu kimi odlu silahlar (toplu mənada).",
+  "en": "guns, firearms",
+  "pos": "noun"
+ },
+ "tüfəngli-tapançalı": {
+  "az": "Tüfəng və tapança ilə silahlanmış, silahlı.",
+  "en": "armed, carrying guns",
+  "pos": "adjective"
+ },
+ "tüfəngsaz-ekspert": {
+  "az": "Odlu silahları müayinə edib rəy verən silah ustası, mütəxəssis.",
+  "en": "firearms expert, expert gunsmith",
+  "pos": "noun"
+ },
+ "tüfəngsiz-tapançasız": {
+  "az": "Tüfəngi, tapançası olmayan; silahsız.",
+  "en": "unarmed, without guns",
+  "pos": "adjective"
+ },
+ "tükənib-qurtarmaq": {
+  "az": "Tamamilə tükənmək, qurtarıb bitmək.",
+  "en": "to run out completely, be used up",
+  "pos": "verb"
+ },
+ "tülkü-çaqqal": {
+  "az": "Tülkü, çaqqal və bu kimi xırda yırtıcı heyvanlar (toplu mənada).",
+  "en": "foxes and jackals; small predators",
+  "pos": "noun"
+ },
+ "türk-qıpçaq": {
+  "az": "Türk xalqlarının qıpçaq qoluna aid olan (türk-qıpçaq tayfaları).",
+  "en": "Turkic-Kipchak",
+  "pos": "adjective"
+ },
+ "tütor-müəllim": {
+  "az": "Tələbə və ya şagirdə fərdi qaydada rəhbərlik edib təhsilində yol göstərən müəllim.",
+  "en": "tutor, tutor-teacher",
+  "pos": "noun"
+ },
+ "tütək-kaman": {
+  "az": "Tütək, kaman və bu kimi xalq çalğı alətləri; çalğı, musiqi.",
+  "en": "pipe and fiddle; folk instruments, music",
+  "pos": "noun"
+ },
+ "təbaşir-kalsit": {
+  "skip": "meaning not certain"
+ },
+ "təbii-aktiv": {
+  "skip": "meaning not certain"
+ },
+ "təbii-xam": {
+  "az": "Təbii halında olan, emal edilməmiş (təbii-xam material).",
+  "en": "natural and raw, unprocessed",
+  "pos": "adjective"
+ },
+ "təbliğat-böhtan kampaniyası": {
+  "az": "Birini və ya bir ölkəni ləkələmək üçün yalan və böhtana əsaslanan təbliğat kampaniyası.",
+  "en": "smear campaign",
+  "pos": "noun"
+ },
+ "təbliğat-tərif": {
+  "skip": "meaning not certain"
+ },
+ "təbəə-vətəndaş": {
+  "az": "Bir dövlətə mənsub olan şəxs; təbəə, vətəndaş.",
+  "en": "subject, citizen",
+  "pos": "noun"
+ },
+ "təcavüz-təhdid": {
+  "az": "Başqasına qarşı hücum və hədə; zorakılıq və təhdid.",
+  "en": "aggression and threats",
+  "pos": "noun"
+ },
+ "təcavüz-təhqir": {
+  "az": "Birinə qarşı zorakılıq və alçaldıcı rəftar; hücum və təhqir.",
+  "en": "assault and insult, abuse",
+  "pos": "noun"
+ },
+ "təcrübə-tədqiqat": {
+  "az": "Təcrübə aparmaq və elmi araşdırmaqla bağlı olan (təcrübə-tədqiqat işləri).",
+  "en": "experimental and research (e.g. experimental research work)",
+  "pos": "adjective"
+ },
+ "tədris-hazırlıq": {
+  "az": "Tədris və hazırlıq məqsədi daşıyan (tədris-hazırlıq kursları).",
+  "en": "training and preparatory",
+  "pos": "adjective"
+ },
+ "tədris-sınaq": {
+  "az": "Həm tədris, həm də sınaq-təcrübə üçün nəzərdə tutulan (tədris-sınaq sahəsi).",
+  "en": "educational and experimental (e.g. a teaching and test plot)",
+  "pos": "adjective"
+ },
+ "təhlil-tədqiq": {
+  "az": "Bir məsələni təhlil edib elmi cəhətdən araşdırma.",
+  "en": "analysis and research, study",
+  "pos": "noun"
+ },
+ "təhlil-tənqid": {
+  "az": "Bir əsəri və ya hadisəni təhlil edib tənqidi qiymətləndirmə.",
+  "en": "critical analysis",
+  "pos": "noun"
+ },
+ "təhlili-tədqiqi": {
+  "az": "Təhlil və tədqiqata əsaslanan (təhlili-tədqiqi məqalə).",
+  "en": "analytical and research (e.g. an analytical study)",
+  "pos": "adjective"
+ },
+ "təhlili-tənqidi": {
+  "az": "Təhlilə və tənqidi qiymətləndirməyə əsaslanan (təhlili-tənqidi məqalə).",
+  "en": "analytical and critical",
+  "pos": "adjective"
+ },
+ "tək-vahid": {
+  "az": "Yalnız bir olan, yeganə; vahid.",
+  "en": "single, sole, one and only",
+  "pos": "adjective"
+ },
+ "təkid-israr": {
+  "az": "Bir şeyi dönmədən, dəfələrlə tələb etmə; təkid, israr.",
+  "en": "insistence, persistence",
+  "pos": "noun"
+ },
+ "təklik-yalqızlıq": {
+  "az": "Kimsəsiz, tək qalma halı; yalqızlıq.",
+  "en": "loneliness, solitude",
+  "pos": "noun"
+ },
+ "təkmilləşib-kamilləşmək": {
+  "az": "Getdikcə yaxşılaşıb mükəmməl hala gəlmək, püxtələşmək.",
+  "en": "to improve and be perfected, to mature",
+  "pos": "verb"
+ },
+ "təknə-tabaq": {
+  "az": "Təknə, tabaq və bu kimi xəmir və çörək işində işlədilən taxta qablar.",
+  "en": "troughs and trays; wooden kitchenware",
+  "pos": "noun"
+ },
+ "təknə-tabaqlı": {
+  "az": "Təknəsi, tabağı olan; qab-qacaqlı (təknə-tabaqlı ev).",
+  "en": "with troughs and trays, with household utensils",
+  "pos": "adjective"
+ },
+ "təkrarlı-təkrarsız": {
+  "az": "Həm təkrarlı, həm də təkrarsız olan (təkrarlı-təkrarsız birləşmələr).",
+  "en": "with and without repetition",
+  "pos": "adjective"
+ },
+ "təkə-türkmən": {
+  "az": "Türkmənlərin ən böyük tayfalarından biri olan təkə tayfası; bu tayfadan olan şəxs.",
+  "en": "Teke Turkmen (a Turkmen tribe)",
+  "pos": "noun",
+  "parts": false
+ },
+ "təkər-motor bloku": {
+  "az": "Mühərriki təkərin içində yerləşdirilmiş qovşaq; motor-təkər.",
+  "en": "wheel-motor unit, in-wheel motor",
+  "pos": "noun"
+ },
+ "təkərli-barmaqlı": {
+  "az": "Barmaqlı təkərlər vasitəsilə işləyən (təkərli-barmaqlı dırmıq).",
+  "en": "finger-wheel (of a hay rake)",
+  "pos": "adjective"
+ },
+ "təlim-sınaq": {
+  "az": "Təlim keçmək və sınaq aparmaq üçün nəzərdə tutulan (təlim-sınaq poliqonu).",
+  "en": "training and testing (attributive)",
+  "pos": "adjective"
+ },
+ "təlim-təcrübə": {
+  "az": "Nəzəri təlimlə birgə aparılan praktik məşğələ; təlim və təcrübə (təlim-təcrübə mərkəzi).",
+  "en": "training and practice, practical training",
+  "pos": "noun"
+ },
+ "təlimatçı-konsultant": {
+  "az": "Həm təlim keçən, həm də məsləhət verən mütəxəssis.",
+  "en": "instructor-consultant",
+  "pos": "noun"
+ },
+ "təlimatçı-müəllim": {
+  "az": "Praktik təlim keçən müəllim; müəllim vəzifəsində çalışan təlimatçı.",
+  "en": "instructor, teaching instructor",
+  "pos": "noun"
+ },
+ "təlimatçı-nəzarətçi": {
+  "az": "Həm təlimat verən, həm də işin icrasına nəzarət edən şəxs.",
+  "en": "instructor-supervisor",
+  "pos": "noun"
+ },
+ "təlimatçı-sayıcı": {
+  "az": "Siyahıyaalma və ya sayım zamanı sayıcılara təlimat verən və özü də sayım aparan işçi.",
+  "en": "instructor-enumerator (in a census)",
+  "pos": "noun"
+ },
+ "təlimatçı-sürücü": {
+  "az": "Sürücülük öyrədən sürücü; sürücülük təlimatçısı.",
+  "en": "driving instructor",
+  "pos": "noun"
+ },
+ "təlimatçı-təyyarəçi": {
+  "az": "Uçuşu öyrədən təcrübəli təyyarəçi.",
+  "en": "flight instructor, instructor pilot",
+  "pos": "noun"
+ },
+ "təlimatçı-təşviqatçı": {
+  "az": "Siyasi təşviqat aparan və bu işdə başqalarına təlimat verən işçi.",
+  "en": "instructor-agitator (in political work)",
+  "pos": "noun"
+ },
+ "tələ-proqram": {
+  "skip": "meaning not certain"
+ },
+ "tələbnamə-sifariş": {
+  "az": "Mal və ya materialın buraxılması üçün yazılan tələb və sifariş sənədi.",
+  "en": "requisition order",
+  "pos": "noun"
+ },
+ "tələbə-saat": {
+  "az": "Tədris yükünün ölçü vahidi: bir tələbə ilə keçilən bir saatlıq dərs.",
+  "en": "student-hour (unit of teaching load)",
+  "pos": "noun"
+ },
+ "tələffüz-yazı": {
+  "az": "Sözün deyilişi və yazılışı; tələffüz və yazı qaydaları.",
+  "en": "pronunciation and spelling",
+  "pos": "noun"
+ },
+ "təmir-mexanizm": {
+  "az": "Maşın və mexanizmlərin təmiri ilə məşğul olan (təmir-mexanizm sexi).",
+  "en": "repair-mechanical (e.g. a repair-mechanical workshop)",
+  "pos": "adjective"
+ },
+ "təmirçi-çilingər": {
+  "az": "Maşın və avadanlıqları təmir edən çilingər.",
+  "en": "repair fitter, maintenance mechanic",
+  "pos": "noun"
+ },
+ "təmizləyici-yuyucu": {
+  "az": "Təmizləmək və yumaq üçün işlədilən (təmizləyici-yuyucu vasitələr).",
+  "en": "cleaning and washing, detergent",
+  "pos": "adjective"
+ },
+ "təmsilçi-mal": {
+  "az": "Qiymət statistikasında öz qrupunu təmsil edən, qiyməti izlənən mal (istehlak qiymətləri indeksində).",
+  "en": "representative good (in price statistics)",
+  "pos": "noun"
+ },
+ "təmsilçi-əmtəə": {
+  "az": "Qiymət statistikasında bir qrup məhsulu təmsil edən, qiyməti izlənən əmtəə.",
+  "en": "representative commodity (in price statistics)",
+  "pos": "noun"
+ },
+ "tənasüb-mütənasiblik": {
+  "az": "Hissələrin bir-birinə və bütövə ölçü və nisbət baxımından uyğunluğu.",
+  "en": "proportion, proportionality",
+  "pos": "noun"
+ },
+ "tənbəki-qəlyan": {
+  "az": "Qəlyan və onda çəkilən tənbəki; qəlyan çəkmə ləvazimatı.",
+  "en": "hookah and tobacco",
+  "pos": "noun"
+ },
+ "tənbəki-tütün": {
+  "az": "Tənbəki, tütün və bu kimi çəkilən şeylər (toplu mənada).",
+  "en": "tobacco (of all kinds)",
+  "pos": "noun"
+ },
+ "tənbəki-tütünlü": {
+  "az": "İçində tənbəki, tütün olan.",
+  "en": "containing tobacco",
+  "pos": "adjective"
+ },
+ "tənbəki-tütünsüz": {
+  "az": "Tənbəkisi, tütünü olmayan.",
+  "en": "without tobacco",
+  "pos": "adjective"
+ },
+ "tənbəkili-tütünlü": {
+  "az": "Tənbəkisi, tütünü olan; içində tütün olan.",
+  "en": "with tobacco, containing tobacco",
+  "pos": "adjective"
+ },
+ "tənbəkisiz-tütünsüz": {
+  "az": "Tənbəkisi, tütünü olmayan; tütünsüz.",
+  "en": "without tobacco, tobacco-free",
+  "pos": "adjective"
+ },
+ "tənqidli-tənqidsiz": {
+  "skip": "meaning not certain"
+ },
+ "tənqidçi-dilçi": {
+  "az": "Həm ədəbi tənqidlə, həm də dilçiliklə məşğul olan alim.",
+  "en": "critic and linguist",
+  "pos": "noun"
+ },
+ "tənqidçi-filosof": {
+  "az": "Həm tənqidçi, həm də filosof kimi fəaliyyət göstərən şəxs.",
+  "en": "critic and philosopher",
+  "pos": "noun"
+ },
+ "tənqidçi-jurnalist": {
+  "az": "Mətbuatda tənqidi yazılarla çıxış edən jurnalist; həm tənqidçi, həm jurnalist.",
+  "en": "critic and journalist",
+  "pos": "noun"
+ },
+ "tənqidçi-sənətşünas": {
+  "az": "İncəsənət əsərlərini tənqidi təhlil edən sənətşünas.",
+  "en": "art critic",
+  "pos": "noun"
+ },
+ "tənqidçi-teatrşünas": {
+  "az": "Teatr tamaşaları haqqında tənqidi yazılar yazan teatrşünas.",
+  "en": "theatre critic",
+  "pos": "noun"
+ },
+ "tənqidçi-yazıçı": {
+  "az": "Həm bədii əsərlər, həm də tənqidi məqalələr yazan ədib.",
+  "en": "critic and writer",
+  "pos": "noun"
+ },
+ "təntənəli-ritorik": {
+  "az": "Təmtəraqlı və ibarəli, natiqanə üslubda olan (təntənəli-ritorik üslub).",
+  "en": "solemn and rhetorical, grandiloquent",
+  "pos": "adjective"
+ },
+ "təpə-daban": {
+  "skip": "meaning not certain"
+ },
+ "təpə-dırnaq": {
+  "az": "Başdan ayağa qədər, bütünlüklə (təpə-dırnaq silahlanmış).",
+  "en": "from head to toe, completely",
+  "pos": "adverb"
+ },
+ "təpə-dərə": {
+  "az": "Təpələr və dərələr; enişli-yoxuşlu, kələ-kötür yer.",
+  "en": "hills and valleys; rugged terrain",
+  "pos": "noun"
+ },
+ "təpəli-dərəli": {
+  "az": "Təpəsi və dərəsi çox olan, enişli-yoxuşlu (təpəli-dərəli ərazi).",
+  "en": "hilly, rugged, undulating",
+  "pos": "adjective"
+ },
+ "təpəli-tirəli": {
+  "az": "Təpələri və dağ tirələri çox olan, kələ-kötür (təpəli-tirəli ərazi).",
+  "en": "hilly and ridged, rugged",
+  "pos": "adjective",
+  "parts": false
+ },
+ "təqvim-məlumat": {
+  "az": "Təqvimlə yanaşı müxtəlif sorğu məlumatlarını da verən (təqvim-məlumat kitabçası).",
+  "en": "calendar and reference (e.g. a calendar handbook)",
+  "pos": "adjective"
+ },
+ "tərbiyə-təhsil": {
+  "az": "Gənc nəslin tərbiyəsi və təhsili; təlim-tərbiyə.",
+  "en": "upbringing and education",
+  "pos": "noun"
+ },
+ "tərcümə-reminissensiya": {
+  "skip": "meaning not certain"
+ },
+ "tərlik-infuzor": {
+  "az": "Forması başmağa bənzəyən, kirpikli birhüceyrəli ibtidai heyvan; paramesi.",
+  "en": "paramecium, slipper animalcule",
+  "pos": "noun"
+ },
+ "tərlik-təzəlik": {
+  "az": "Tər-təzə olma, təravət; təzəlik.",
+  "en": "freshness",
+  "pos": "noun",
+  "parts": false
+ },
+ "tərs-avand": {
+  "skip": "meaning not certain"
+ },
+ "tərsanəçi-mexanizator": {
+  "skip": "meaning not certain"
+ },
+ "tərtib-nəşr": {
+  "az": "Kitab və ya başqa mətnin hazırlanıb çap olunması (tərtib-nəşr işləri).",
+  "en": "compilation and publication",
+  "pos": "noun"
+ },
+ "tərtib-təqdimat": {
+  "skip": "meaning not certain"
+ },
+ "tərtibatçı-dizayner": {
+  "az": "Kitabın, səhnənin, sərginin və s. bədii tərtibatını hazırlayan dizayner.",
+  "en": "layout designer, design artist",
+  "pos": "noun"
+ },
+ "tərtibçi-bəstəkar": {
+  "az": "Musiqi əsərini və ya musiqi toplusunu tərtib edən bəstəkar.",
+  "en": "composer-compiler, arranger",
+  "pos": "noun"
+ },
+ "tərtibçi-kartoqraf": {
+  "az": "Xəritələri tərtib edən kartoqraf.",
+  "en": "map compiler, cartographer",
+  "pos": "noun"
+ },
+ "tərtibçi-müəllif": {
+  "az": "Kitabı həm tərtib edən, həm də müəllifi olan şəxs.",
+  "en": "compiler and author",
+  "pos": "noun"
+ },
+ "tərtibçi-rəssam": {
+  "az": "Nəşrin hazırlanmasında həm tərtibçi, həm də rəssam kimi iştirak edən şəxs.",
+  "en": "compiler and artist (of a publication)",
+  "pos": "noun"
+ },
+ "tərtibçi-sənətşünas": {
+  "az": "Kitabı və ya albomu tərtib edən sənətşünas.",
+  "en": "compiler and art historian",
+  "pos": "noun"
+ },
+ "tərəf-müqabillik": {
+  "az": "Bir-birinin tərəf-müqabili olma; tərəfdaşlıq münasibəti.",
+  "en": "counterpart relationship, partnership",
+  "pos": "noun"
+ },
+ "tərəkəmə-köçəri": {
+  "az": "Köçəri həyat sürən maldarlar; tərəkəmələr, köçərilər (toplu mənada).",
+  "en": "nomadic herders, nomads",
+  "pos": "noun"
+ },
+ "tərəqqi-inkişaf": {
+  "az": "İrəliyə doğru inkişaf, yüksəliş.",
+  "en": "progress and development",
+  "pos": "noun"
+ },
+ "tərəvəzli-bostanlı": {
+  "az": "Tərəvəz və bostan bitkiləri əkilən (tərəvəzli-bostanlı sahə).",
+  "en": "with vegetable and melon patches",
+  "pos": "adjective"
+ },
+ "təsdiq-inkar": {
+  "az": "Təsdiq və inkar; dilçilikdə hökmün təsdiq və ya inkar şəklində olması.",
+  "en": "affirmation and negation",
+  "pos": "noun"
+ },
+ "təsirlilik-təsirsizlik": {
+  "az": "Dilçilikdə felin təsirli və ya təsirsiz olması (təsirlilik-təsirsizlik kateqoriyası).",
+  "en": "transitivity and intransitivity (of verbs)",
+  "pos": "noun"
+ },
+ "təsviri-analitik": {
+  "az": "Həm təsvirə, həm də təhlilə əsaslanan (təsviri-analitik metod).",
+  "en": "descriptive-analytical",
+  "pos": "adjective"
+ },
+ "təsviri-bioqrafik": {
+  "az": "Bir şəxsin həyat yolunu təsvir edən (təsviri-bioqrafik oçerk).",
+  "en": "descriptive-biographical",
+  "pos": "adjective"
+ },
+ "təsviri-elmi": {
+  "az": "Elmi faktları təsvir yolu ilə verən (təsviri-elmi əsər).",
+  "en": "descriptive-scientific",
+  "pos": "adjective"
+ },
+ "təsviri-empirik": {
+  "az": "Təsvirə və təcrübi müşahidəyə əsaslanan (təsviri-empirik yanaşma).",
+  "en": "descriptive-empirical",
+  "pos": "adjective"
+ },
+ "təsviri-normativ": {
+  "az": "Həm faktları təsvir edən, həm də norma və qaydalar müəyyənləşdirən (təsviri-normativ qrammatika).",
+  "en": "descriptive-normative",
+  "pos": "adjective"
+ },
+ "təsviri-nəqli": {
+  "az": "Təsvir və nəql üsulunu birləşdirən (təsviri-nəqli üslub).",
+  "en": "descriptive-narrative",
+  "pos": "adjective"
+ },
+ "təsviri-topoqrafik": {
+  "az": "Ərazinin relyefini və yerüstü obyektlərini təsvir edən (təsviri-topoqrafik məlumat).",
+  "en": "descriptive-topographic",
+  "pos": "adjective"
+ },
+ "təsviri-təsnifatlaşdırıcı": {
+  "az": "Təsvirə və təsnifata əsaslanan (təsviri-təsnifatlaşdırıcı metod).",
+  "en": "descriptive-classificatory",
+  "pos": "adjective"
+ },
+ "tətbiqi-dekorativ": {
+  "az": "Məişət əşyalarının bədii hazırlanması və bəzədilməsi ilə bağlı olan (tətbiqi-dekorativ sənət).",
+  "en": "decorative and applied (art)",
+  "pos": "adjective"
+ },
+ "təxribat-kəşfiyyat": {
+  "az": "Düşmən arxasında təxribat və kəşfiyyat aparan (təxribat-kəşfiyyat qrupu).",
+  "en": "sabotage and reconnaissance (e.g. a sabotage-reconnaissance group)",
+  "pos": "adjective"
+ },
+ "təxribatçı-kəşfiyyatçı": {
+  "az": "Düşmən arxasında təxribat və kəşfiyyat işi aparan hərbçi.",
+  "en": "sabotage and reconnaissance soldier, saboteur-scout",
+  "pos": "noun"
+ },
+ "təyyarə-mərmi": {
+  "az": "Döyüş başlığı daşıyan pilotsuz uçan aparat; qanadlı raket (köhnə termin).",
+  "en": "flying bomb, cruise missile (dated)",
+  "pos": "noun"
+ },
+ "təyyarə-vertolyot": {
+  "az": "Təyyarələr və vertolyotlar; uçuş aparatları (təyyarə-vertolyot parkı).",
+  "en": "aircraft and helicopters",
+  "pos": "noun"
+ },
+ "təyyarəçi-konstruktor": {
+  "az": "Həm təyyarəçi, həm də təyyarə konstruktoru olan mütəxəssis.",
+  "en": "pilot and aircraft designer",
+  "pos": "noun"
+ },
+ "təyyarəçi-müfəttiş": {
+  "az": "Uçuş heyətinin hazırlığını və uçuş qaydalarına əməl olunmasını yoxlayan təyyarəçi.",
+  "en": "pilot-inspector, check pilot",
+  "pos": "noun"
+ },
+ "təyyarəçi-mühəndis": {
+  "az": "Mühəndis ixtisası olan təyyarəçi; həm təyyarəçi, həm də mühəndis.",
+  "en": "pilot-engineer",
+  "pos": "noun"
+ },
+ "təzədən-təzə": {
+  "skip": "meaning not certain"
+ },
+ "təzəli-köhnəli": {
+  "az": "Təzəsi də, köhnəsi də olan; təzə ilə köhnə qarışıq.",
+  "en": "mixed old and new",
+  "pos": "adjective"
+ },
+ "təşkilat-texnologiya": {
+  "skip": "meaning not certain"
+ },
+ "təşkilati-texnoloji": {
+  "az": "Həm işin təşkili, həm də texnologiyası ilə bağlı olan (təşkilati-texnoloji tədbirlər).",
+  "en": "organizational and technological",
+  "pos": "adjective"
+ },
+ "udlaq-damaq": {
+  "az": "Udlaq və yumşaq damaqla bağlı olan (udlaq-damaq qövsü).",
+  "en": "palatopharyngeal",
+  "pos": "adjective"
+ },
+ "udlaq-qırtlaq": {
+  "az": "Udlaq və qırtlaqla bağlı olan (udlaq-qırtlaq nahiyəsi).",
+  "en": "pharyngolaryngeal",
+  "pos": "adjective"
+ },
+ "uduşlu-uduşsuz": {
+  "az": "Həm uduşlu, həm də uduşsuz olan (uduşlu-uduşsuz biletlər).",
+  "en": "winning and non-winning",
+  "pos": "adjective"
+ },
+ "ulus-oymaq": {
+  "az": "El-oba, tayfa-qəbilə; xalq və onun nəsil bölmələri.",
+  "en": "tribes and clans; folk, kin",
+  "pos": "noun"
+ },
+ "umac-əriştə": {
+  "az": "Umac, əriştə və bu kimi xəmirdən bişirilən ev xörəkləri.",
+  "en": "umach and noodles; homemade pasta dishes",
+  "pos": "noun"
+ },
+ "uran-qrafit": {
+  "az": "Yanacağı uran, neytron yavaşıdıcısı qrafit olan (uran-qrafit reaktoru).",
+  "en": "uranium-graphite (of a reactor)",
+  "pos": "adjective"
+ },
+ "usta-fəhlə": {
+  "az": "Ustalar və fəhlələr; işçi qüvvəsi (toplu mənada).",
+  "en": "craftsmen and workers; workforce",
+  "pos": "noun"
+ },
+ "usta-şagird": {
+  "az": "Usta ilə yanında sənət öyrənən şagird; ustad-şagird münasibəti.",
+  "en": "master and apprentice",
+  "pos": "noun"
+ },
+ "utanıb-çəkinmək": {
+  "az": "Utanıb sıxılmaq, həyadan bir işə cəsarət etməmək.",
+  "en": "to be shy and bashful, hold back out of embarrassment",
+  "pos": "verb"
+ },
+ "uyğunlaşıb-öyrəşmək": {
+  "az": "Yeni şəraitə alışıb uyğunlaşmaq.",
+  "en": "to adapt and get used to, acclimatize",
+  "pos": "verb"
+ },
+ "uzun-gödək": {
+  "az": "Bəzisi uzun, bəzisi gödək olan; müxtəlif uzunluqlu, nahamar.",
+  "en": "uneven, of different lengths",
+  "pos": "adjective"
+ },
+ "uzun-qısa": {
+  "az": "Həm uzun, həm də qısa olan; müxtəlif uzunluqlu (uzun-qısa hecalar).",
+  "en": "long and short, of varying length",
+  "pos": "adjective"
+ },
+ "uzunlu-qısalı": {
+  "az": "Uzunu da, qısası da olan; müxtəlif uzunluqlu.",
+  "en": "of varying lengths, long and short",
+  "pos": "adjective"
+ },
+ "uzunsov-enli": {
+  "az": "Uzunsov və enli formada olan (uzunsov-enli yarpaq).",
+  "en": "oblong and broad",
+  "pos": "adjective"
+ },
+ "uzunsov-ensiz": {
+  "az": "Uzunsov və dar formada olan.",
+  "en": "long and narrow",
+  "pos": "adjective"
+ },
+ "uzunsov-girdə": {
+  "az": "Uzunsov dəyirmi formada olan; oval.",
+  "en": "oval, oblong-round",
+  "pos": "adjective"
+ },
+ "uçub-dağılmaq": {
+  "az": "Çöküb dağılmaq, uçulub xarabaya çevrilmək.",
+  "en": "to collapse, crumble into ruins",
+  "pos": "verb",
+  "parts": false
+ },
+ "uçub-getmək": {
+  "az": "Uçaraq uzaqlaşmaq; məc. tez keçib getmək, yox olmaq.",
+  "en": "to fly away; (fig.) to fly by, vanish",
+  "pos": "verb"
+ },
+ "uçulub-tökülmək": {
+  "az": "Uçulub dağılmaq, parça-parça yerə tökülmək (bina, divar və s.).",
+  "en": "to crumble down, fall into ruin",
+  "pos": "verb"
+ },
+ "uçuq-tökük": {
+  "az": "Uçulub dağılmış, baxımsız, xaraba halda olan (uçuq-tökük ev).",
+  "en": "dilapidated, tumbledown, ramshackle",
+  "pos": "adjective"
+ },
+ "uçurub-dağıtmaq": {
+  "az": "Binanı, tikilini yerlə yeksan edib dağıtmaq; viran qoymaq.",
+  "en": "to demolish, raze, devastate",
+  "pos": "verb",
+  "parts": false
+ },
+ "uğunub-getmək": {
+  "az": "Gülməkdən özündən getmək, qəşş edənə qədər gülmək.",
+  "en": "to be in fits of laughter, split one's sides laughing",
+  "pos": "verb"
+ },
+ "uşaq-böyük": {
+  "az": "Kiçikdən böyüyə hamı; cavan-qoca (uşaq-böyük hamı).",
+  "en": "young and old, everyone",
+  "pos": "noun"
+ },
+ "vakuum-aparat": {
+  "az": "Mayeni aşağı təzyiqdə qaynadıb qatılaşdıran qurğu (şəkər istehsalında və s.).",
+  "en": "vacuum pan, vacuum apparatus",
+  "pos": "noun"
+ },
+ "vakuum-balon": {
+  "az": "İçində vakuum yaradılan və ya saxlanılan qapalı qab.",
+  "en": "vacuum vessel, vacuum cylinder",
+  "pos": "noun"
+ },
+ "vakuum-baraban": {
+  "az": "Vakuum altında işləyən fırlanan silindr (vakuum-filtrlərdə və s.).",
+  "en": "vacuum drum",
+  "pos": "noun"
+ },
+ "vakuum-beton": {
+  "az": "Artıq suyu vakuum vasitəsilə sorulmuş beton.",
+  "en": "vacuum concrete, vacuum-treated concrete",
+  "pos": "noun"
+ },
+ "vakuum-boru": {
+  "az": "İçində vakuum yaradılmış və ya vakuum xəttində işlədilən boru.",
+  "en": "vacuum tube, vacuum pipe",
+  "pos": "noun"
+ },
+ "vakuum-distillə": {
+  "az": "Qaynama temperaturunu azaltmaq üçün aşağı təzyiq altında aparılan distillə.",
+  "en": "vacuum distillation",
+  "pos": "noun"
+ },
+ "vakuum-filtr": {
+  "az": "Mayeni vakuum yaratmaqla süzən filtr.",
+  "en": "vacuum filter",
+  "pos": "noun"
+ },
+ "vakuum-kamera": {
+  "az": "İçində vakuum yaradılan hermetik kamera.",
+  "en": "vacuum chamber",
+  "pos": "noun"
+ },
+ "vakuum-kompressor": {
+  "az": "Qazı sorub vakuum yaradan kompressor.",
+  "en": "vacuum compressor",
+  "pos": "noun"
+ },
+ "vakuum-nasos": {
+  "az": "Qapalı qabdan qazı sorub vakuum yaradan nasos.",
+  "en": "vacuum pump",
+  "pos": "noun"
+ },
+ "vakuum-pres": {
+  "az": "Materialı vakuum altında sıxıb formalaşdıran pres.",
+  "en": "vacuum press",
+  "pos": "noun"
+ },
+ "vakuum-proses": {
+  "az": "Aşağı təzyiq (vakuum) şəraitində aparılan texnoloji proses.",
+  "en": "vacuum process",
+  "pos": "noun"
+ },
+ "vakuum-qurutma": {
+  "az": "Materialın aşağı təzyiq altında qurudulması.",
+  "en": "vacuum drying",
+  "pos": "noun"
+ },
+ "vakuum-rele": {
+  "az": "Kontaktları vakuumlu qabda yerləşən və ya vakuum səviyyəsinə görə işə düşən rele.",
+  "en": "vacuum relay",
+  "pos": "noun"
+ },
+ "vakuum-spektroqraf": {
+  "az": "Havanın uduğu qısadalğalı şüaları öyrənmək üçün vakuumda işləyən spektroqraf.",
+  "en": "vacuum spectrograph",
+  "pos": "noun"
+ },
+ "vakuum-süzgəc": {
+  "az": "Vakuum yaratmaqla süzən süzgəc; vakuum-filtr.",
+  "en": "vacuum filter",
+  "pos": "noun"
+ },
+ "vakuum-termik": {
+  "az": "Vakuum və yüksək temperaturun birgə təsirinə əsaslanan (vakuum-termik üsul).",
+  "en": "vacuum-thermal",
+  "pos": "adjective"
+ },
+ "vakuum-termoelement": {
+  "az": "Vakuumlu qabda yerləşdirilmiş termoelement (yüksəktezlikli cərəyanı və şüalanmanı ölçmək üçün).",
+  "en": "vacuum thermocouple",
+  "pos": "noun"
+ },
+ "vakuum-əyləc": {
+  "az": "Seyrəldilmiş havanın (vakuumun) köməyi ilə işləyən əyləc (dəmiryol vaqonlarında).",
+  "en": "vacuum brake",
+  "pos": "noun"
+ },
+ "valent-optik": {
+  "az": "Molekulun optik xassələrini ayrı-ayrı kimyəvi rabitələrin xassələri ilə izah edən (valent-optik nəzəriyyə).",
+  "en": "valence-optical (in molecular spectroscopy)",
+  "pos": "adjective"
+ },
+ "vals-boston": {
+  "az": "Yavaş templi, sakit hərəkətli vals növü; Boston valsı.",
+  "en": "Boston waltz, slow waltz",
+  "pos": "noun",
+  "parts": false
+ }
+}

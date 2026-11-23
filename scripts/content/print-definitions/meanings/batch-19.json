@@ -1,0 +1,961 @@
+{
+ "lirik-satirik": {
+  "az": "Həm lirik, həm də satirik xüsusiyyət daşıyan (lirik-satirik şeirlər).",
+  "en": "lyrical-satirical",
+  "pos": "adjective"
+ },
+ "lirik-sentimental": {
+  "az": "Lirik ruhlu və həssas, duyğulu (lirik-sentimental əhval-ruhiyyə).",
+  "en": "lyrical and sentimental",
+  "pos": "adjective"
+ },
+ "lirik-yumoristik": {
+  "az": "Lirik ovqatla yumoru birləşdirən (lirik-yumoristik hekayə).",
+  "en": "lyrical-humorous",
+  "pos": "adjective"
+ },
+ "litoloji-petroqrafik": {
+  "az": "Süxurların həm litoloji, həm də petroqrafik tərkibi və xassələrinə aid (litoloji-petroqrafik tədqiqat).",
+  "en": "lithological-petrographic",
+  "pos": "adjective"
+ },
+ "lotu-lotuyana": {
+  "az": "Açıq və səmimi şəkildə, heç nəyi gizlətmədən, dostcasına (lotu-lotuyana danışmaq).",
+  "en": "frankly, candidly, man to man",
+  "pos": "adverb",
+  "src": "izahli"
+ },
+ "lövhəli-lansetvari": {
+  "skip": "technical shape term, meaning not certain"
+ },
+ "lümen-metr": {
+  "skip": "unit or measuring device, not certain"
+ },
+ "lümen-saat": {
+  "az": "İşıq enerjisi vahidi: bir lümen işıq selinin bir saat ərzində daşıdığı enerji.",
+  "en": "lumen-hour",
+  "pos": "noun"
+ },
+ "lümen-saniyə": {
+  "az": "İşıq enerjisi vahidi: bir lümen işıq selinin bir saniyə ərzində daşıdığı enerji.",
+  "en": "lumen-second",
+  "pos": "noun"
+ },
+ "ləqəbli-ayamalı": {
+  "az": "Əsl adından başqa ləqəbi, ayaması olan.",
+  "en": "nicknamed, having a nickname",
+  "pos": "adjective"
+ },
+ "ləqəbsiz-ayamasız": {
+  "az": "Heç bir ləqəbi, ayaması olmayan.",
+  "en": "without a nickname",
+  "pos": "adjective"
+ },
+ "maarifçi-liberal": {
+  "az": "Maarifçilik ideyalarını liberal baxışlarla birləşdirən (maarifçi-liberal ziyalılar).",
+  "en": "liberal-enlightenment; liberal enlightener",
+  "pos": "adjective"
+ },
+ "mahiyyət-məzmun": {
+  "az": "Bir şeyin əsas mənası və daxili məzmunu; özü.",
+  "en": "essence, substance, gist",
+  "pos": "noun"
+ },
+ "mahiyyətli-məzmunlu": {
+  "az": "Dərin mənası və dolğun məzmunu olan (mahiyyətli-məzmunlu çıxış).",
+  "en": "substantive, meaningful",
+  "pos": "adjective"
+ },
+ "mahnı-ballada": {
+  "az": "Ballada xarakterli, nəqli süjeti olan mahnı.",
+  "en": "song-ballad, ballad song",
+  "pos": "noun"
+ },
+ "makiyajlanıb-bəzənmək": {
+  "az": "Üzünə makiyaj vurub bəzənmək, özünə yaraşıq vermək.",
+  "en": "to put on makeup and dress up, to doll oneself up",
+  "pos": "verb"
+ },
+ "makiyajlayıb-bəzəmək": {
+  "az": "Birinin üzünə makiyaj edib onu bəzəmək, yaraşıqlı etmək.",
+  "en": "to make up and adorn (someone), to doll up",
+  "pos": "verb"
+ },
+ "maksimal-minimal": {
+  "az": "Ən böyük və ən kiçik həddə aid olan (maksimal-minimal temperatur).",
+  "en": "maximum and minimum",
+  "pos": "adjective"
+ },
+ "mala-mal": {
+  "az": "Ağzına qədər dolu, lap dolu (anbarlar taxılla mala-mal idi).",
+  "en": "full to the brim, chock-full",
+  "pos": "adjective",
+  "parts": false
+ },
+ "maliyyə-uçot": {
+  "az": "Maliyyə əməliyyatlarının qeydiyyatı və hesabının aparılması (maliyyə-uçot şöbəsi).",
+  "en": "financial accounting",
+  "pos": "noun"
+ },
+ "mallı-heyvanlı": {
+  "az": "Mal-qarası, ev heyvanları olan.",
+  "en": "having livestock",
+  "pos": "adjective"
+ },
+ "mallı-mülklü": {
+  "az": "Var-dövləti, mülkü olan; varlı, dövlətli.",
+  "en": "wealthy, propertied, well-to-do",
+  "pos": "adjective"
+ },
+ "mallı-pullu": {
+  "az": "Var-dövləti, pulu olan; varlı.",
+  "en": "rich, wealthy, moneyed",
+  "pos": "adjective"
+ },
+ "mallı-qoyunlu": {
+  "az": "Mal-qarası və qoyunu olan; heyvandarlıqla dolanan.",
+  "en": "owning cattle and sheep",
+  "pos": "adjective"
+ },
+ "malsız-pulsuz": {
+  "az": "Heç bir var-dövləti olmayan; kasıb, yoxsul.",
+  "en": "penniless, destitute, poor",
+  "pos": "adjective"
+ },
+ "maqnetik-kinetik": {
+  "skip": "technical term, meaning not certain"
+ },
+ "maqnit-hərəkət": {
+  "az": "Maqnit dövrəsində maqnit selini yaradan təsirə aid (maqnit-hərəkət qüvvəsi).",
+  "en": "magnetomotive (maqnit-hərəkət qüvvəsi: magnetomotive force)",
+  "pos": "noun"
+ },
+ "maqnit-istilik": {
+  "az": "Maqnit və istilik hadisələrinin qarşılıqlı əlaqəsinə aid (maqnit-istilik effekti).",
+  "en": "magnetothermal",
+  "pos": "adjective"
+ },
+ "maqnit-mexaniki": {
+  "az": "Maqnit və mexaniki hadisələrin qarşılıqlı əlaqəsinə aid (maqnit-mexaniki effekt).",
+  "en": "magnetomechanical",
+  "pos": "adjective"
+ },
+ "maqnit-müqavimət": {
+  "az": "Maqnit sahəsinin təsiri ilə maddənin elektrik müqavimətinin dəyişməsi.",
+  "en": "magnetoresistance",
+  "pos": "noun"
+ },
+ "marksist-dialektik": {
+  "az": "Marksizmin dialektik metoduna əsaslanan (marksist-dialektik metod).",
+  "en": "Marxist-dialectical",
+  "pos": "adjective"
+ },
+ "marş-manevr": {
+  "skip": "military term, meaning not certain"
+ },
+ "marş-yürüş": {
+  "az": "Qoşunun və ya dəstənin nizamla uzun məsafəyə hərəkəti; yürüş.",
+  "en": "march (of troops)",
+  "pos": "noun"
+ },
+ "maska-örtük": {
+  "az": "Üzü və ya bir şeyin əsl mahiyyətini gizlədən örtük, maska.",
+  "en": "mask, cover; disguise",
+  "pos": "noun"
+ },
+ "matros-operator": {
+  "az": "Gəmidə müəyyən qurğu və ya avadanlığı idarə edən matros.",
+  "en": "seaman-operator",
+  "pos": "noun"
+ },
+ "matros-xilasedici": {
+  "az": "Suda xilasetmə işləri aparan matros.",
+  "en": "rescue seaman",
+  "pos": "noun"
+ },
+ "matç-revanş": {
+  "az": "Əvvəlki görüşdə uduzan tərəfin əvəzini çıxmaq üçün keçirilən təkrar matç.",
+  "en": "return match, rematch",
+  "pos": "noun"
+ },
+ "mavi-gümüşü": {
+  "az": "Maviyə çalan gümüşü rəngdə olan.",
+  "en": "bluish silver",
+  "pos": "adjective"
+ },
+ "maye-buxar": {
+  "az": "Maddənin maye və buxar hallarının birlikdə olduğu (maye-buxar qarışığı).",
+  "en": "liquid-vapour",
+  "pos": "adjective"
+ },
+ "maye-şəffaf görünüşlü": {
+  "az": "Görünüşcə şəffaf maye halında olan (maddələrin təsvirində).",
+  "en": "appearing as a clear liquid",
+  "pos": "adjective"
+ },
+ "mayka-tuman": {
+  "az": "Mayka və tuman; birlikdə geyilən yüngül geyim.",
+  "en": "top and skirt",
+  "pos": "noun"
+ },
+ "mağar-toyxana": {
+  "az": "Toy məclisi üçün qurulan iri çadır; toy keçirilən yer.",
+  "en": "wedding marquee, wedding hall",
+  "pos": "noun"
+ },
+ "mağaza-salon": {
+  "az": "Malların nümayiş etdirilib satıldığı geniş, bəzəkli mağaza (mebel mağaza-salonu).",
+  "en": "showroom, salon store",
+  "pos": "noun"
+ },
+ "maşın-alət": {
+  "az": "Maşınlar və alətlər; işdə istifadə olunan texniki avadanlıq.",
+  "en": "machinery and implements",
+  "pos": "noun"
+ },
+ "maşın-kilometr": {
+  "az": "Nəqliyyat işinin ölçü vahidi: bir maşının bir kilometr yol getməsi.",
+  "en": "vehicle-kilometre",
+  "pos": "noun"
+ },
+ "maşın-meliorasiya": {
+  "az": "Torpaqların maşınların köməyi ilə yaxşılaşdırılmasına aid (maşın-meliorasiya stansiyası).",
+  "en": "machine reclamation (e.g. machine reclamation station)",
+  "pos": "noun"
+ },
+ "maşın-mühərrik": {
+  "skip": "meaning not certain"
+ },
+ "maşın-növbə": {
+  "az": "Bir maşının bir iş növbəsi ərzində işinə bərabər iş vaxtı vahidi.",
+  "en": "machine-shift (unit of machine working time)",
+  "pos": "noun"
+ },
+ "maşın-saat": {
+  "az": "Bir maşının bir saatlıq işinə bərabər iş vaxtı vahidi.",
+  "en": "machine-hour",
+  "pos": "noun"
+ },
+ "mehr-məhəbbət": {
+  "az": "Ürəkdən gələn dərin sevgi, mehribanlıq və bağlılıq.",
+  "en": "love and affection, tender love",
+  "pos": "noun"
+ },
+ "melamin-formaldehid": {
+  "az": "Melaminin formaldehidlə reaksiyasından alınan (melamin-formaldehid qətranı).",
+  "en": "melamine-formaldehyde (resin)",
+  "pos": "noun"
+ },
+ "memar-dizayner": {
+  "az": "Həm memarlıq, həm də dizayn işi ilə məşğul olan mütəxəssis.",
+  "en": "architect-designer",
+  "pos": "noun"
+ },
+ "memar-mühəndislik": {
+  "az": "Memarlıq və mühəndislik işlərinə aid sahə (memar-mühəndislik xidmətləri).",
+  "en": "architectural engineering; architecture and engineering",
+  "pos": "noun"
+ },
+ "memarlıq-dizayn": {
+  "az": "Memarlıqla dizaynı birləşdirən iş sahəsi (memarlıq-dizayn layihəsi).",
+  "en": "architecture and design",
+  "pos": "noun"
+ },
+ "memorial-order": {
+  "az": "Mühasibat uçotunda təsərrüfat əməliyyatlarını qeyd etmək üçün tərtib edilən sənəd.",
+  "en": "memorial order (accounting voucher)",
+  "pos": "noun"
+ },
+ "memuar-salnamə": {
+  "az": "Müəllifin şahidi olduğu hadisələri ardıcıllıqla qələmə aldığı xatirə əsəri.",
+  "en": "memoir-chronicle",
+  "pos": "noun"
+ },
+ "menecment-konsaltinq": {
+  "az": "İdarəetmə məsələləri üzrə məsləhət xidməti göstərmə (menecment-konsaltinq şirkəti).",
+  "en": "management consulting",
+  "pos": "noun"
+ },
+ "menşevik-bolşevik": {
+  "az": "Menşeviklər və bolşeviklər arasında olan və ya hər ikisinə aid (menşevik-bolşevik ixtilafı).",
+  "en": "Menshevik-Bolshevik",
+  "pos": "adjective"
+ },
+ "meqavat-saat": {
+  "az": "Elektrik enerjisi vahidi: bir meqavat gücün bir saatda gördüyü iş; min kilovat-saat.",
+  "en": "megawatt-hour",
+  "pos": "noun"
+ },
+ "metal-gil": {
+  "skip": "meaning not certain"
+ },
+ "metal-gips": {
+  "skip": "meaning not certain"
+ },
+ "metal-keramika": {
+  "az": "Metal əsas üzərinə keramika çəkilməklə və ya metal və keramika tozlarından hazırlanan material (metal-keramika tac).",
+  "en": "metal-ceramic; cermet",
+  "pos": "noun"
+ },
+ "metal-saxsı": {
+  "skip": "meaning not certain"
+ },
+ "metal-üzvi birləşmə": {
+  "az": "Molekulunda metal atomu karbon atomu ilə bilavasitə əlaqələnən kimyəvi birləşmə.",
+  "en": "organometallic compound",
+  "pos": "noun"
+ },
+ "metallı-keramikalı": {
+  "az": "Tərkibində metal və keramika olan; metal-keramikadan hazırlanmış.",
+  "en": "metal-ceramic",
+  "pos": "adjective"
+ },
+ "mexaniki-tökmə": {
+  "az": "Metal tökmə və onun mexaniki emalı ilə məşğul olan (mexaniki-tökmə zavodu).",
+  "en": "mechanical and foundry (of a plant or shop)",
+  "pos": "adjective"
+ },
+ "mexaniki-yığma": {
+  "az": "Detalların mexaniki emalı və yığılması ilə məşğul olan (mexaniki-yığma sexi).",
+  "en": "machining and assembly (of a shop)",
+  "pos": "adjective"
+ },
+ "mey-məzə": {
+  "az": "İçki və onunla yeyilən qəlyanaltı; kef məclisi.",
+  "en": "wine and snacks; drinking and feasting",
+  "pos": "noun"
+ },
+ "mey-məzəli": {
+  "az": "İçkisi və qəlyanaltısı bol olan (mey-məzəli məclis).",
+  "en": "with wine and appetizers, convivial",
+  "pos": "adjective"
+ },
+ "mey-məzəsiz": {
+  "az": "İçkisi və qəlyanaltısı olmayan (məclis haqqında).",
+  "en": "without wine or snacks",
+  "pos": "adjective"
+ },
+ "meyli-məzəli": {
+  "az": "İçkisi və qəlyanaltısı bol olan (meyli-məzəli süfrə).",
+  "en": "with plenty of wine and snacks",
+  "pos": "adjective"
+ },
+ "meysiz-məzəsiz": {
+  "az": "Nə içkisi, nə də qəlyanaltısı olan (məclis haqqında).",
+  "en": "without wine or snacks",
+  "pos": "adjective"
+ },
+ "meyvə-çərəz": {
+  "az": "Süfrəyə qoyulan meyvə, quru meyvə, qoz-fındıq və s.",
+  "en": "fruit and nuts, fruit and snacks",
+  "pos": "noun"
+ },
+ "mezolit-neolit": {
+  "az": "Mezolit və neolit dövrlərinə aid (mezolit-neolit abidələri).",
+  "en": "Mesolithic-Neolithic",
+  "pos": "adjective"
+ },
+ "meşə-meliorasiya": {
+  "az": "Meşə zolaqları salmaqla torpaqları yaxşılaşdırma, eroziya və quraqlığa qarşı mübarizə.",
+  "en": "forest amelioration, agroforestry reclamation",
+  "pos": "noun"
+ },
+ "meşə-meliorativ": {
+  "az": "Meşə əkmək yolu ilə torpaqların yaxşılaşdırılmasına aid (meşə-meliorativ tədbirlər).",
+  "en": "forest-ameliorative",
+  "pos": "adjective"
+ },
+ "meşə-qoruq": {
+  "az": "Ağaclarının kəsilməsi qadağan olunan, qorunan meşə sahəsi.",
+  "en": "forest reserve, protected forest",
+  "pos": "noun"
+ },
+ "meşəlik-çöllük": {
+  "az": "Meşəli və açıq çöl sahələrdən ibarət yer.",
+  "en": "woods and open country",
+  "pos": "noun"
+ },
+ "mikroom-metr": {
+  "skip": "unit or measuring device, not certain"
+ },
+ "mil-dirsək": {
+  "skip": "meaning not certain"
+ },
+ "milliqram-faiz": {
+  "az": "Qatılıq ölçüsü: 100 millilitr (və ya 100 qram) maddədə olan milliqramların sayı (mq%).",
+  "en": "milligram percent (mg%)",
+  "pos": "noun"
+ },
+ "milyonçu-təyyarəçi": {
+  "az": "Qəzasız bir milyon kilometr uçmuş təyyarəçi (fəxri ad kimi).",
+  "en": "million-kilometre pilot (honorific)",
+  "pos": "noun"
+ },
+ "milyonçu-şəhər": {
+  "az": "Əhalisi bir milyondan çox olan şəhər.",
+  "en": "city of over a million people",
+  "pos": "noun"
+ },
+ "mineral-saxsı": {
+  "skip": "meaning not certain"
+ },
+ "minib-düşmək": {
+  "az": "Nəqliyyat vasitəsinə minmək və ondan düşmək (sərnişinlərin minib-düşməsi).",
+  "en": "to get on and off (a vehicle)",
+  "pos": "verb"
+ },
+ "minus-plyus": {
+  "az": "Bir şeyin mənfi və müsbət cəhətləri.",
+  "en": "pros and cons, minuses and pluses",
+  "pos": "noun"
+ },
+ "mis-ammonyak": {
+  "az": "Mis birləşmələrinin ammonyaklı məhlulu ilə əlaqəli (mis-ammonyak lifi).",
+  "en": "cuprammonium (e.g. cuprammonium rayon)",
+  "pos": "adjective"
+ },
+ "mis-kömür": {
+  "skip": "meaning not certain"
+ },
+ "mis-manqan": {
+  "az": "Mis və manqandan ibarət (mis-manqan ərintisi).",
+  "en": "copper-manganese",
+  "pos": "adjective"
+ },
+ "mis-nikelli": {
+  "az": "Tərkibində mis və nikel olan (mis-nikelli filiz).",
+  "en": "copper-nickel",
+  "pos": "adjective"
+ },
+ "mis-qrafit": {
+  "az": "Mis və qrafit tozundan hazırlanan material (mis-qrafit fırçaları).",
+  "en": "copper-graphite",
+  "pos": "noun"
+ },
+ "mis-qrafitli": {
+  "az": "Tərkibində mis və qrafit olan (mis-qrafitli fırça).",
+  "en": "copper-graphite",
+  "pos": "adjective"
+ },
+ "mitinq-konsert": {
+  "az": "Çıxışlar və musiqi nömrələrindən ibarət kütləvi tədbir; mitinqlə birləşən konsert.",
+  "en": "rally-concert",
+  "pos": "noun"
+ },
+ "mobil-operator": {
+  "az": "Mobil rabitə xidməti göstərən şirkət.",
+  "en": "mobile operator, mobile network operator",
+  "pos": "noun"
+ },
+ "montyor-nəzarətçi": {
+  "az": "Elektrik avadanlığını quraşdıran və onun işinə nəzarət edən mütəxəssis.",
+  "en": "fitter-inspector",
+  "pos": "noun"
+ },
+ "monumental-bəzək": {
+  "az": "Binaları, meydanları bəzəmək üçün yaradılan iri həcmli bədii əsərlərə aid (monumental-bəzək sənəti).",
+  "en": "monumental-decorative (art)",
+  "pos": "adjective"
+ },
+ "motor-generator": {
+  "az": "Elektrik mühərriki ilə onun fırlatdığı generatordan ibarət qurğu; cərəyanı bir növdən başqasına çevirir.",
+  "en": "motor-generator (set)",
+  "pos": "noun"
+ },
+ "motor-reduktor": {
+  "az": "Elektrik mühərriki ilə reduktoru bir qurğuda birləşdirən mexanizm.",
+  "en": "gear motor, motor reducer",
+  "pos": "noun"
+ },
+ "motor-çarx": {
+  "az": "Elektrik mühərriki bilavasitə təkərin içinə quraşdırılmış qurğu.",
+  "en": "motor wheel, hub motor",
+  "pos": "noun"
+ },
+ "motosiklet-qayıq": {
+  "skip": "meaning not certain"
+ },
+ "multimedia-server": {
+  "az": "Şəbəkədə səs, video və başqa multimedia məlumatlarını saxlayıb ötürən server.",
+  "en": "multimedia server, media server",
+  "pos": "noun"
+ },
+ "muzey-lektoriya": {
+  "az": "Muzeydə təşkil olunan mühazirəxana; muzeyin mühazirə zalı.",
+  "en": "museum lecture hall",
+  "pos": "noun"
+ },
+ "muzey-malikanə": {
+  "az": "Muzeyə çevrilmiş malikanə; tanınmış şəxsin yaşadığı mülkdə yaradılan muzey.",
+  "en": "manor museum, estate museum",
+  "pos": "noun"
+ },
+ "muzey-park": {
+  "az": "Eksponatları açıq havada nümayiş etdirilən park şəklində muzey.",
+  "en": "museum park, open-air museum",
+  "pos": "noun"
+ },
+ "muzey-yasaq": {
+  "skip": "meaning not certain"
+ },
+ "mövhumat-xurafat": {
+  "az": "Elmə zidd batil inanclar, xurafat.",
+  "en": "superstition, superstitious beliefs",
+  "pos": "noun"
+ },
+ "müayinə-müalicə": {
+  "az": "Xəstənin müayinə olunması və müalicəsi (müayinə-müalicə mərkəzi).",
+  "en": "diagnosis and treatment, medical examination and treatment",
+  "pos": "noun"
+ },
+ "mübahisə-münaqişə": {
+  "az": "Tərəflər arasında mübahisə, çəkişmə və ixtilaf.",
+  "en": "disputes and conflicts, strife",
+  "pos": "noun"
+ },
+ "mübahisə-münaqişəsiz": {
+  "az": "Heç bir mübahisə və çəkişmə olmadan, sakit, dinc.",
+  "en": "without disputes or conflict, peaceful",
+  "pos": "adjective"
+ },
+ "müdir-katibə": {
+  "skip": "meaning not certain"
+ },
+ "müdir-müavin": {
+  "skip": "meaning not certain"
+ },
+ "mühazirə-ekskursiya": {
+  "az": "Mühazirə ilə birləşdirilən ekskursiya; gəzinti zamanı izahat verilən məşğələ.",
+  "en": "lecture excursion, lecture tour",
+  "pos": "noun"
+ },
+ "mühazirə-konsert": {
+  "az": "Musiqi nömrələri ilə müşayiət olunan mühazirə; izahatlı konsert.",
+  "en": "lecture-concert",
+  "pos": "noun"
+ },
+ "mühazirə-seminar": {
+  "az": "Mühazirə və seminar məşğələsini birləşdirən dərs forması.",
+  "en": "lecture-seminar",
+  "pos": "noun"
+ },
+ "mühazirə-tamaşa": {
+  "az": "Səhnə nümayişi ilə müşayiət olunan mühazirə.",
+  "en": "lecture-performance",
+  "pos": "noun"
+ },
+ "mühəndis-axtarış": {
+  "az": "Tikintidən əvvəl ərazinin mühəndis baxımından öyrənilməsinə aid (mühəndis-axtarış işləri).",
+  "en": "engineering survey (e.g. engineering survey works)",
+  "pos": "noun"
+ },
+ "mühəndis-elektromexanik": {
+  "az": "Elektromexanika sahəsində ali təhsilli mühəndis.",
+  "en": "electromechanical engineer",
+  "pos": "noun"
+ },
+ "mühəndis-elektrotexnik": {
+  "az": "Elektrotexnika sahəsində ali təhsilli mühəndis.",
+  "en": "electrical engineer",
+  "pos": "noun"
+ },
+ "mühəndis-fizik": {
+  "az": "Fizika və mühəndislik biliklərini birləşdirən mütəxəssis.",
+  "en": "engineering physicist",
+  "pos": "noun"
+ },
+ "mühəndis-geokimyəvi": {
+  "az": "Tikinti və mühəndis işləri üçün aparılan geokimyəvi tədqiqatlara aid.",
+  "en": "engineering-geochemical",
+  "pos": "adjective"
+ },
+ "mühəndis-hesablama": {
+  "az": "Mühəndis hesablamalarının aparılması (mühəndis-hesablama işləri).",
+  "en": "engineering calculation, engineering analysis",
+  "pos": "noun"
+ },
+ "mühərrik-generator": {
+  "az": "Mühərrik və onun fırlatdığı generatordan ibarət elektrik enerjisi qurğusu.",
+  "en": "engine-generator set; motor-generator",
+  "pos": "noun"
+ },
+ "mülayim-günəşli": {
+  "az": "Havası mülayim və günəşli olan (mülayim-günəşli iqlim).",
+  "en": "mild and sunny",
+  "pos": "adjective"
+ },
+ "mülayim-tutqun": {
+  "skip": "weather or colour sense, not certain"
+ },
+ "mülklü-zorlu": {
+  "az": "Var-dövləti və gücü olan; varlı və nüfuzlu.",
+  "en": "rich and powerful",
+  "pos": "adjective"
+ },
+ "mülkədar-bəy": {
+  "az": "Torpaq sahibi olan bəylər, mülkədarlar təbəqəsi (mülkədar-bəy zülmü).",
+  "en": "landowners and beys, landed nobility",
+  "pos": "noun"
+ },
+ "müqayisə-qarşılaşdırma": {
+  "az": "Şeyləri tutuşdurub oxşar və fərqli cəhətlərini müəyyənləşdirmə.",
+  "en": "comparison, comparative analysis",
+  "pos": "noun"
+ },
+ "müqayisəli-qarşılaşdırma": {
+  "az": "Müqayisə və qarşılaşdırma yolu ilə aparılan təhlil (müqayisəli-qarşılaşdırma üsulu).",
+  "en": "comparative-contrastive analysis",
+  "pos": "noun"
+ },
+ "müqayisəli-təsviri": {
+  "az": "Müqayisəyə və təsvirə əsaslanan (müqayisəli-təsviri metod).",
+  "en": "comparative-descriptive",
+  "pos": "adjective"
+ },
+ "mürid-mürşid": {
+  "az": "Təriqətdə şagirdlə ruhani rəhbər; onlar arasındakı münasibət (mürid-mürşid əlaqəsi).",
+  "en": "disciple and master (in Sufism)",
+  "pos": "noun"
+ },
+ "mürəkkəb-qələm": {
+  "az": "Mürəkkəb və qələm; yazı ləvazimatı.",
+  "en": "pen and ink, writing materials",
+  "pos": "noun",
+  "parts": false
+ },
+ "mürəkkəb-qələmli": {
+  "skip": "meaning not certain"
+ },
+ "müsabiqə-baxış": {
+  "az": "Fəaliyyətin nəticələrinin nümayiş etdirilib qiymətləndirildiyi yarışma (müsabiqə-baxış keçirmək).",
+  "en": "review-contest, competitive showcase",
+  "pos": "noun"
+ },
+ "müsabiqə-imtahan": {
+  "az": "Müsabiqə yolu ilə keçirilən imtahan (işə və ya təhsilə qəbul üçün).",
+  "en": "competitive examination",
+  "pos": "noun"
+ },
+ "müsabiqə-yarış": {
+  "az": "Qalibi müəyyən etmək üçün keçirilən müsabiqə, yarışma.",
+  "en": "contest, competition",
+  "pos": "noun"
+ },
+ "müsibət-faciə": {
+  "az": "Ağır bədbəxtlik, faciəli hadisə.",
+  "en": "tragedy, calamity",
+  "pos": "noun"
+ },
+ "müsibət-fəlakət": {
+  "az": "Böyük bəla, fəlakət, ağır bədbəxtlik.",
+  "en": "calamity, disaster, misfortune",
+  "pos": "noun"
+ },
+ "müstəvi-meridian": {
+  "skip": "technical term, meaning not certain"
+ },
+ "müstəvi-paralel": {
+  "az": "Səthləri bir-birinə paralel müstəvilərdən ibarət olan (müstəvi-paralel lövhə).",
+  "en": "plane-parallel",
+  "pos": "adjective"
+ },
+ "müstəvi-çökük": {
+  "az": "Bir tərəfi müstəvi, o biri tərəfi çökük olan (müstəvi-çökük linza).",
+  "en": "plano-concave",
+  "pos": "adjective"
+ },
+ "mütləqiyyət-feodal": {
+  "az": "Mütləq monarxiya və feodal quruluşuna aid (mütləqiyyət-feodal rejimi).",
+  "en": "absolutist-feudal",
+  "pos": "adjective"
+ },
+ "mütləqiyyət-təhkimçi": {
+  "az": "Mütləq monarxiyaya və təhkimçilik quruluşuna aid (mütləqiyyət-təhkimçi rejim).",
+  "en": "absolutist and serf-owning",
+  "pos": "adjective"
+ },
+ "mütləqiyyət-təhkimçilik": {
+  "az": "Mütləq monarxiya ilə təhkimçilik hüququnun birlikdə hökm sürdüyü quruluş.",
+  "en": "absolutism and serfdom (autocratic serf-owning system)",
+  "pos": "noun"
+ },
+ "müvazi-alternativ": {
+  "skip": "meaning not certain"
+ },
+ "müzikl-tamaşa": {
+  "az": "Müzikl janrında hazırlanmış musiqili səhnə əsəri.",
+  "en": "musical (stage show)",
+  "pos": "noun"
+ },
+ "müğənni-aktyor": {
+  "az": "Həm mahnı oxuyan, həm də aktyorluq edən sənətçi.",
+  "en": "singer-actor",
+  "pos": "noun"
+ },
+ "müğənni-aşıq": {
+  "az": "Saz çalıb oxuyan aşıq; həm müğənni, həm aşıq olan sənətkar.",
+  "en": "ashugh singer",
+  "pos": "noun"
+ },
+ "müğənni-ifaçı": {
+  "az": "Vokal əsərləri ifa edən sənətçi; müğənni.",
+  "en": "singer, vocal performer",
+  "pos": "noun"
+ },
+ "müşavirə-iclas": {
+  "az": "Məsələlərin müzakirə olunduğu yığıncaq, iclas.",
+  "en": "meeting, conference",
+  "pos": "noun"
+ },
+ "müşavirə-seminar": {
+  "az": "Müzakirə və təlim xarakteri daşıyan, seminar şəklində keçirilən müşavirə.",
+  "en": "seminar-meeting, workshop",
+  "pos": "noun"
+ },
+ "müşk-ənbər": {
+  "az": "Müşk və ənbər; xoş, gözəl ətir (adətən şeirdə).",
+  "en": "musk and ambergris; sweet fragrance",
+  "pos": "noun"
+ },
+ "müəllim-loqoped": {
+  "az": "Uşaqların nitq qüsurlarını aradan qaldırmaqla məşğul olan müəllim.",
+  "en": "speech therapist teacher",
+  "pos": "noun"
+ },
+ "müəllim-məşqçi": {
+  "az": "İdman məşğələləri aparan müəllim; həm müəllim, həm də məşqçi.",
+  "en": "teacher-coach, sports instructor",
+  "pos": "noun"
+ },
+ "müəllim-psixoloq": {
+  "az": "Təhsil müəssisəsində psixoloq kimi çalışan, psixoloji biliyə malik müəllim.",
+  "en": "teacher-psychologist, school psychologist",
+  "pos": "noun"
+ },
+ "müəllim-valideyn": {
+  "az": "Müəllimlərlə valideynlər arasında olan (müəllim-valideyn görüşü).",
+  "en": "teacher-parent",
+  "pos": "adjective"
+ },
+ "müəssisə-fabrik": {
+  "az": "Fabriklər və başqa istehsal müəssisələri.",
+  "en": "factories and enterprises, industrial establishments",
+  "pos": "noun"
+ },
+ "müəssisə-firma": {
+  "az": "Müəssisələr və firmalar; təsərrüfat subyektləri.",
+  "en": "enterprises and firms, businesses",
+  "pos": "noun"
+ },
+ "müəssisə-zavod": {
+  "az": "Zavodlar və başqa istehsal müəssisələri.",
+  "en": "plants and enterprises, industrial enterprises",
+  "pos": "noun"
+ },
+ "mıx-çəkic": {
+  "az": "Mıx və çəkic; dülgərlik ləvazimatı.",
+  "en": "hammer and nails",
+  "pos": "noun"
+ },
+ "mıxça-çəkic": {
+  "az": "Xırda mıx və çəkic; mıxlamaq üçün ləvazimat.",
+  "en": "hammer and tacks",
+  "pos": "noun"
+ },
+ "mədaxil-məxaric": {
+  "az": "Daxil olan və xərclənən vəsait; gəlir və çıxar (mədaxil-məxaric dəftəri).",
+  "en": "income and expenditure, receipts and expenses",
+  "pos": "noun"
+ },
+ "mədə-dalaq": {
+  "az": "Mədə ilə dalaq arasında olan, hər ikisinə aid (mədə-dalaq bağı).",
+  "en": "gastrosplenic",
+  "pos": "adjective"
+ },
+ "mədə-çənbər": {
+  "az": "Mədə ilə çənbər bağırsaq arasında olan (mədə-çənbər bağı).",
+  "en": "gastrocolic",
+  "pos": "adjective"
+ },
+ "mədən-geologiya": {
+  "az": "Faydalı qazıntı yataqlarının geoloji cəhətdən öyrənilməsinə aid sahə (mədən-geologiya şəraiti).",
+  "en": "mining geology",
+  "pos": "noun"
+ },
+ "mədən-xilasetmə": {
+  "az": "Mədənlərdə qəza zamanı xilasetmə işləri aparan (mədən-xilasetmə dəstəsi).",
+  "en": "mine rescue",
+  "pos": "adjective"
+ },
+ "mədəni-elmi": {
+  "az": "Həm mədəniyyətə, həm də elmə aid (mədəni-elmi əlaqələr).",
+  "en": "cultural and scientific",
+  "pos": "adjective"
+ },
+ "mədəni-quruculuq": {
+  "az": "Mədəniyyətin inkişaf etdirilməsi, mədəniyyət müəssisələrinin yaradılması işi.",
+  "en": "cultural development, cultural construction",
+  "pos": "noun"
+ },
+ "məhkəmə-ballistik": {
+  "az": "Məhkəmə işləri üçün odlu silah və güllələrin ekspertizasına aid (məhkəmə-ballistik ekspertiza).",
+  "en": "forensic ballistic",
+  "pos": "adjective"
+ },
+ "məhkəmə-baytarlıq": {
+  "az": "Məhkəmə və istintaq üçün heyvanlarla bağlı ekspertiza aparan baytarlıq sahəsi.",
+  "en": "forensic veterinary medicine",
+  "pos": "noun"
+ },
+ "məhkəmə-bioloji": {
+  "az": "Məhkəmə işləri üçün qan, tük və s. bioloji izlərin tədqiqinə aid (məhkəmə-bioloji ekspertiza).",
+  "en": "forensic biological",
+  "pos": "adjective"
+ },
+ "məhkəmə-ekspert": {
+  "az": "Məhkəmə və istintaq orqanları üçün ekspertiza aparan mütəxəssis.",
+  "en": "forensic expert",
+  "pos": "noun"
+ },
+ "məhkəmə-patoloji": {
+  "az": "Məhkəmə işləri üçün ölüm səbəbini və bədəndəki dəyişiklikləri araşdıran (məhkəmə-patoloji ekspertiza).",
+  "en": "forensic pathological",
+  "pos": "adjective"
+ },
+ "məhkəmə-psixiatriya": {
+  "az": "Məhkəmə işlərində şəxsin psixi vəziyyətini araşdıran psixiatriya sahəsi.",
+  "en": "forensic psychiatry",
+  "pos": "noun"
+ },
+ "məhkəmə-təhqiqat": {
+  "az": "Məhkəmə və istintaq orqanlarının apardığı araşdırma işləri.",
+  "en": "judicial investigation",
+  "pos": "noun"
+ },
+ "məktəb-sanatoriya": {
+  "az": "Xəstə və zəif uşaqların həm təhsil aldığı, həm də müalicə olunduğu məktəb.",
+  "en": "sanatorium school",
+  "pos": "noun"
+ },
+ "məlul-məhzun": {
+  "az": "Çox qəmgin, kədərli, məyus.",
+  "en": "sad and sorrowful, downcast, melancholy",
+  "pos": "adjective"
+ },
+ "məlumat-hesablama": {
+  "az": "Məlumatların toplanıb işlənməsi və hesablanması ilə məşğul olan (məlumat-hesablama mərkəzi).",
+  "en": "data processing, information and computing",
+  "pos": "noun"
+ },
+ "mənalı-mənasız": {
+  "az": "Mənalısı da, mənasızı da; hər cür, ağlına gələn (mənalı-mənasız sözlər).",
+  "en": "sensible or senseless, all sorts of (talk)",
+  "pos": "adjective"
+ },
+ "məntiqi-cəbri": {
+  "az": "Məntiq cəbrinə aid; məntiqi əməliyyatların cəbri yolla ifadəsinə əsaslanan.",
+  "en": "logical-algebraic",
+  "pos": "adjective"
+ },
+ "məntiqi-deduktiv": {
+  "az": "Ümumi müddəalardan məntiqi yolla xüsusi nəticə çıxarmağa əsaslanan (məntiqi-deduktiv metod).",
+  "en": "logico-deductive",
+  "pos": "adjective"
+ },
+ "məntiqi-funksional": {
+  "az": "Məntiqi və funksional cəhətdən bağlı olan (məntiqi-funksional sxem).",
+  "en": "logical-functional",
+  "pos": "adjective"
+ },
+ "məntiqi-metodoloji": {
+  "az": "Elmin məntiqi və metodoloji əsaslarına aid.",
+  "en": "logical-methodological",
+  "pos": "adjective"
+ },
+ "məntiqi-qrammatik": {
+  "az": "Cümlə və ifadələrin həm məntiqi, həm də qrammatik quruluşuna aid.",
+  "en": "logical-grammatical",
+  "pos": "adjective"
+ },
+ "məntiqi-semantik": {
+  "az": "Həm məntiqi əlaqəyə, həm də mənaya aid olan.",
+  "en": "logical-semantic",
+  "pos": "adjective"
+ },
+ "məntiqi-sintaktik": {
+  "az": "Həm məntiqi, həm də sintaktik quruluşa aid.",
+  "en": "logical-syntactic",
+  "pos": "adjective"
+ },
+ "məntiqi-üslubi": {
+  "az": "Nitqin həm məntiqi, həm də üslub xüsusiyyətlərinə aid.",
+  "en": "logical-stylistic",
+  "pos": "adjective"
+ },
+ "mənzil-məkan": {
+  "az": "Yaşayış yeri, ev-eşik (mənzil-məkan sahibi olmaq).",
+  "en": "home, dwelling, place to live",
+  "pos": "noun"
+ },
+ "mənəvi-hüquqi": {
+  "az": "Həm mənəvi (əxlaqi), həm də hüquqi cəhətdən olan.",
+  "en": "moral and legal",
+  "pos": "adjective"
+ },
+ "mənəvi-poetik": {
+  "az": "Ruhi aləmlə poeziyanı birləşdirən, mənəvi və poetik məzmunlu.",
+  "en": "spiritual-poetic",
+  "pos": "adjective"
+ },
+ "mərdlik-mərdanəlik": {
+  "az": "İgidlik, cəsarət və kişilik.",
+  "en": "courage, bravery, gallantry",
+  "pos": "noun"
+ },
+ "məscid-türbə": {
+  "az": "Yanında türbə olan məscid; məscid və türbədən ibarət kompleks.",
+  "en": "mosque and mausoleum (complex)",
+  "pos": "noun"
+ },
+ "məsləhət-məşvərət": {
+  "az": "Birlikdə götür-qoy edib məsləhətləşmə.",
+  "en": "consultation, deliberation",
+  "pos": "noun"
+ },
+ "məsləhətçi-həkim": {
+  "az": "Başqa həkimlərə və xəstələrə məsləhət verən təcrübəli həkim.",
+  "en": "consulting physician, consultant doctor",
+  "pos": "noun"
+ },
+ "məsləhətçi-mühəndis": {
+  "az": "Texniki məsələlər üzrə məsləhət verən mühəndis.",
+  "en": "consulting engineer",
+  "pos": "noun"
+ },
+ "məsləhətçi-müəllim": {
+  "az": "Digər müəllimlərə metodik məsləhət verən təcrübəli müəllim.",
+  "en": "consultant teacher, teacher-adviser",
+  "pos": "noun"
+ },
+ "məsələ-misal": {
+  "az": "Riyaziyyatda həll edilən məsələlər və misallar.",
+  "en": "maths problems and exercises",
+  "pos": "noun"
+ },
+ "mətbəəçi-operator": {
+  "az": "Mətbəədə çap maşınlarını idarə edən işçi.",
+  "en": "printing press operator",
+  "pos": "noun"
+ },
+ "mətli-şirəli": {
+  "skip": "meaning not certain"
+ },
+ "mətn-hekayə": {
+  "skip": "meaning not certain"
+ },
+ "mətnşünas-dilçi": {
+  "az": "Mətnşünaslıqla məşğul olan dilçi.",
+  "en": "textologist-linguist, textual scholar",
+  "pos": "noun"
+ }
+}

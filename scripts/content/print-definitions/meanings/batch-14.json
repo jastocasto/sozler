@@ -1,0 +1,979 @@
+{
+ "adam-gün": {
+  "az": "Bir adamın bir iş günü ərzində gördüyü işə bərabər əmək vahidi.",
+  "en": "man-day (unit of labour)",
+  "pos": "noun"
+ },
+ "admiral-mühəndis": {
+  "az": "Hərbi dəniz donanmasının mühəndis-texniki heyəti üçün admiral rütbəsi və bu rütbəli şəxs.",
+  "en": "engineer admiral",
+  "pos": "noun"
+ },
+ "agent-bank": {
+  "az": "Başqa bankın, dövlətin və ya müştərinin adından və tapşırığı ilə müəyyən əməliyyatlar aparan bank.",
+  "en": "agent bank",
+  "pos": "noun"
+ },
+ "aktrisa-müğənni": {
+  "az": "Həm aktrisa kimi rol oynayan, həm də mahnı ifa edən qadın.",
+  "en": "actress and singer",
+  "pos": "noun"
+ },
+ "ala-bəzəkli": {
+  "az": "Rəngarəng naxışlı, al-əlvan bəzəkli; alabəzək.",
+  "en": "brightly decorated, motley, gaudy",
+  "pos": "adjective"
+ },
+ "ala-qonur": {
+  "az": "Qonur rəngdə olub ala ləkələri olan; ləkəli qonur.",
+  "en": "mottled brown",
+  "pos": "adjective"
+ },
+ "alacaqlı-verəcəkli": {
+  "az": "Həm alacağı, həm də verəcəyi olan; bir-biri ilə borc hesabı olan.",
+  "en": "having mutual debts and claims, with accounts to settle",
+  "pos": "adjective"
+ },
+ "albom-kataloq": {
+  "az": "Əsərlərin şəkilləri və onlar haqqında məlumat verilən, albom şəklində buraxılan kataloq.",
+  "en": "illustrated album-catalogue",
+  "pos": "noun"
+ },
+ "albom-monoqrafiya": {
+  "az": "Bir sənətkara və ya mövzuya həsr olunan, çoxlu şəkillə albom şəklində nəşr edilən monoqrafiya.",
+  "en": "illustrated monograph in album form",
+  "pos": "noun"
+ },
+ "albom-plakat": {
+  "az": "Bir mövzuya aid plakatlardan ibarət, albom şəklində buraxılan nəşr.",
+  "en": "album of posters, poster set",
+  "pos": "noun"
+ },
+ "alfa-spektrometr": {
+  "az": "Alfa-zərrəciklərin enerji spektrini ölçən cihaz.",
+  "en": "alpha spectrometer",
+  "pos": "noun"
+ },
+ "alfa-terapiya": {
+  "az": "Alfa-zərrəcik buraxan radioaktiv maddələrlə aparılan şüa müalicəsi.",
+  "en": "alpha therapy (radiotherapy with alpha particles)",
+  "pos": "noun"
+ },
+ "alfa-şüa": {
+  "az": "Radioaktiv parçalanma zamanı buraxılan alfa-zərrəciklər seli.",
+  "en": "alpha ray(s)",
+  "pos": "noun"
+ },
+ "allı-qırmızılı": {
+  "az": "Al-qırmızı, parlaq rəngli bayram paltarı geyinmiş (allı-qırmızılı gəlin).",
+  "en": "dressed in bright red, festively dressed",
+  "pos": "adjective"
+ },
+ "alma-armud": {
+  "az": "Alma, armud və bu kimi meyvələr.",
+  "en": "apples and pears; fruit",
+  "pos": "noun"
+ },
+ "almacıq-alın": {
+  "az": "Almacıq sümüyü ilə alın sümüyünə aid olan (almacıq-alın tikişi).",
+  "en": "zygomaticofrontal",
+  "pos": "adjective"
+ },
+ "almacıq-gicgah": {
+  "az": "Almacıq sümüyü ilə gicgah nahiyəsinə aid olan (almacıq-gicgah siniri).",
+  "en": "zygomaticotemporal",
+  "pos": "adjective"
+ },
+ "almacıq-əng": {
+  "az": "Almacıq sümüyü ilə çənəyə aid olan.",
+  "en": "relating to the cheekbone and jaw",
+  "pos": "adjective"
+ },
+ "alqılı-satqılı": {
+  "az": "Alqı-satqısı olan, alış-veriş gedən (alqılı-satqılı bazar).",
+  "en": "involving buying and selling, busy with trade",
+  "pos": "adjective"
+ },
+ "alqış-qarğış": {
+  "az": "Xeyir-dua və qarğış; yaxşı və pis arzular.",
+  "en": "blessings and curses",
+  "pos": "noun"
+ },
+ "alveollu-borulu": {
+  "az": "Həm boruşəkilli, həm də qovuqcuqşəkilli (alveollu) hissələrdən ibarət olan (alveollu-borulu vəzilər).",
+  "en": "tubuloalveolar (of glands)",
+  "pos": "adjective"
+ },
+ "alça-qaysı": {
+  "az": "Alça, qaysı və bu kimi çəyirdəkli meyvələr.",
+  "en": "cherry plums and apricots; stone fruit",
+  "pos": "noun"
+ },
+ "alça-ərik": {
+  "az": "Alça, ərik və bu kimi çəyirdəkli meyvələr.",
+  "en": "cherry plums and apricots; stone fruit",
+  "pos": "noun"
+ },
+ "alım-verim": {
+  "az": "Alıb-vermə, alış-veriş; adamlar arasında qarşılıqlı iş, əlaqə.",
+  "en": "dealings, give-and-take; trade",
+  "pos": "noun"
+ },
+ "alın-gicgah": {
+  "az": "Alın və gicgah nahiyələrinə aid olan (alın-gicgah nahiyəsi).",
+  "en": "frontotemporal",
+  "pos": "adjective"
+ },
+ "amper-saniyə": {
+  "az": "Bir amper cərəyanın bir saniyədə keçirdiyi elektrik yükünə bərabər vahid; kulon.",
+  "en": "ampere-second (= coulomb)",
+  "pos": "noun"
+ },
+ "amper-sarğı": {
+  "az": "Maqnit hərəkət qüvvəsinin vahidi: bir amper cərəyan keçən bir sarğının yaratdığı qüvvə.",
+  "en": "ampere-turn",
+  "pos": "noun"
+ },
+ "ana-övlad": {
+  "az": "Ana ilə övlad; onlar arasındakı bağlılıq (ana-övlad məhəbbəti).",
+  "en": "mother and child",
+  "pos": "noun"
+ },
+ "analitik-statistik": {
+  "az": "Həm təhlilə, həm də statistik məlumatlara əsaslanan (analitik-statistik hesabat).",
+  "en": "analytical and statistical",
+  "pos": "adjective"
+ },
+ "analoq-kod": {
+  "az": "Analoq siqnalın rəqəmsal koda çevrilməsinə aid olan (analoq-kod çeviricisi).",
+  "en": "analog-to-digital (analog-code)",
+  "pos": "adjective"
+ },
+ "anatomik-morfoloji": {
+  "az": "Həm orqanizmin daxili quruluşuna, həm də xarici formasına aid olan.",
+  "en": "anatomical and morphological",
+  "pos": "adjective"
+ },
+ "anket-sorğu": {
+  "az": "Anket vərəqləri vasitəsilə aparılan sorğu.",
+  "en": "questionnaire survey",
+  "pos": "noun"
+ },
+ "anod-ekran": {
+  "skip": "technical term, meaning not certain"
+ },
+ "anus-büzdüm": {
+  "az": "Anusla büzdüm sümüyü arasındakı nahiyəyə aid olan (anus-büzdüm bağı).",
+  "en": "anococcygeal",
+  "pos": "adjective"
+ },
+ "aparıb-gətirmək": {
+  "az": "Bir şeyi bir yerə aparıb geri gətirmək, daşımaq; (söz) xəbərçilik etmək, söz gəzdirmək.",
+  "en": "to carry to and fro; (of words) to carry tales, to gossip",
+  "pos": "verb"
+ },
+ "aqlütinativ-flektiv": {
+  "az": "Həm iltisaqi (aqlütinativ), həm də flektiv dil əlamətləri daşıyan (aqlütinativ-flektiv dillər).",
+  "en": "agglutinative-inflectional",
+  "pos": "adjective"
+ },
+ "aqrar-iqtisadi": {
+  "az": "Kənd təsərrüfatı və iqtisadiyyatla bağlı olan (aqrar-iqtisadi məsələlər).",
+  "en": "agro-economic, agrarian and economic",
+  "pos": "adjective"
+ },
+ "aqrar-islahat": {
+  "az": "Torpaq mülkiyyəti və kənd təsərrüfatı sahəsində aparılan islahat.",
+  "en": "agrarian reform",
+  "pos": "noun"
+ },
+ "aqrar-istehsal": {
+  "az": "Kənd təsərrüfatı məhsullarının istehsalı; bununla bağlı olan (aqrar-istehsal sahəsi).",
+  "en": "agricultural production",
+  "pos": "noun"
+ },
+ "aqrar-kənd": {
+  "az": "Kənd təsərrüfatına və kənd yerlərinə aid olan.",
+  "en": "agrarian and rural",
+  "pos": "adjective"
+ },
+ "aqrar-sığorta": {
+  "az": "Kənd təsərrüfatı məhsullarının, heyvanlarının və əmlakının sığortası.",
+  "en": "agricultural insurance",
+  "pos": "noun"
+ },
+ "aqrar-əmək": {
+  "az": "Kənd təsərrüfatında görülən əmək; bununla bağlı olan (aqrar-əmək münasibətləri).",
+  "en": "agricultural labour",
+  "pos": "noun"
+ },
+ "aqro-innovativ": {
+  "az": "Kənd təsərrüfatında yeniliklərin tətbiqi ilə bağlı olan (aqro-innovativ mərkəz).",
+  "en": "agro-innovative, relating to agricultural innovation",
+  "pos": "adjective"
+ },
+ "aqronom-entomoloq": {
+  "az": "Kənd təsərrüfatı bitkilərinin zərərverici həşəratları üzrə ixtisaslaşmış aqronom.",
+  "en": "agronomist-entomologist",
+  "pos": "noun"
+ },
+ "aqronom-gülçü": {
+  "az": "Gül və çiçək becərilməsi üzrə ixtisaslaşmış aqronom.",
+  "en": "agronomist specializing in floriculture",
+  "pos": "noun"
+ },
+ "aqronom-meliorator": {
+  "az": "Torpaqların meliorasiyası üzrə ixtisaslaşmış aqronom.",
+  "en": "agronomist and land-reclamation specialist",
+  "pos": "noun"
+ },
+ "aqronom-mexanizator": {
+  "az": "Həm aqronom, həm də kənd təsərrüfatı maşınlarını idarə edən mütəxəssis.",
+  "en": "agronomist and machine operator",
+  "pos": "noun"
+ },
+ "aqronom-toxumçu": {
+  "az": "Toxumçuluq üzrə ixtisaslaşmış aqronom.",
+  "en": "agronomist specializing in seed production",
+  "pos": "noun"
+ },
+ "aqronom-tərəvəzçi": {
+  "az": "Tərəvəzçilik üzrə ixtisaslaşmış aqronom.",
+  "en": "agronomist specializing in vegetable growing",
+  "pos": "noun"
+ },
+ "aqronom-üzümçü": {
+  "az": "Üzümçülük üzrə ixtisaslaşmış aqronom.",
+  "en": "agronomist specializing in viticulture",
+  "pos": "noun"
+ },
+ "araba-fayton": {
+  "az": "Araba, fayton və bu kimi atla çəkilən nəqliyyat vasitələri.",
+  "en": "carts and carriages; horse-drawn transport",
+  "pos": "noun"
+ },
+ "arama-axtarma": {
+  "az": "Bir şeyi tapmaq üçün hər yeri gəzib axtarma; axtarış.",
+  "en": "searching, search",
+  "pos": "noun"
+ },
+ "aramaq-axtarmaq": {
+  "az": "Bir şeyi və ya kimisə tapmaq üçün hər yerə baxmaq, hərtərəfli axtarmaq.",
+  "en": "to search, to look everywhere for",
+  "pos": "verb"
+ },
+ "aran-dağ": {
+  "az": "Aran və dağ yerləri; bunlar arasında olan (aran-dağ köçü).",
+  "en": "lowland and mountain",
+  "pos": "noun"
+ },
+ "aranlı-dağlı": {
+  "az": "Aranda və dağda yaşayanlar; hər yerdən olan adamlar.",
+  "en": "lowlanders and highlanders",
+  "pos": "noun"
+ },
+ "araq-şərab": {
+  "az": "Araq, şərab və bu kimi spirtli içkilər.",
+  "en": "vodka and wine; alcoholic drinks",
+  "pos": "noun"
+ },
+ "ard-arası": {
+  "az": "Bir şeyin sonu, fasiləsi (çox vaxt inkarda: ard-arası kəsilmədən — fasiləsiz).",
+  "en": "end, break (mostly negated: without a break, incessantly)",
+  "pos": "noun"
+ },
+ "armatur-konstruksiya": {
+  "skip": "technical term, meaning not certain"
+ },
+ "arpa-buğda": {
+  "az": "Arpa, buğda və bu kimi dənli bitkilər; taxıl.",
+  "en": "barley and wheat; grain",
+  "pos": "noun"
+ },
+ "arpa-buğdalı": {
+  "az": "Arpası, buğdası olan və ya tərkibinə arpa ilə buğda qatılmış.",
+  "en": "with (or containing) barley and wheat",
+  "pos": "adjective"
+ },
+ "arpa-darı": {
+  "az": "Arpa, darı və bu kimi dənli bitkilər.",
+  "en": "barley and millet; grain",
+  "pos": "noun"
+ },
+ "arpa-darılı": {
+  "az": "Arpası, darısı olan və ya tərkibinə arpa ilə darı qatılmış.",
+  "en": "with (or containing) barley and millet",
+  "pos": "adjective"
+ },
+ "arpa-yarma": {
+  "az": "Arpa, yarma və bu kimi dənli ərzaq.",
+  "en": "barley and groats; grain foodstuffs",
+  "pos": "noun"
+ },
+ "arpalı-samanlı": {
+  "az": "Arpası və samanı olan və ya arpa ilə saman qatılmış (heyvan yemi).",
+  "en": "with barley and straw (of fodder)",
+  "pos": "adjective"
+ },
+ "artırıb-əskiltmək": {
+  "az": "Bir şeyə əlavə edib və ya ondan azaldıb dəyişdirmək (çox vaxt inkarda: artırıb-əskiltmədən — olduğu kimi).",
+  "en": "to add to or take away from (mostly negated: without adding or omitting anything)",
+  "pos": "verb"
+ },
+ "arvadlı-uşaqlı": {
+  "az": "Arvadı və uşaqları olan; ailəli.",
+  "en": "with a wife and children, having a family",
+  "pos": "adjective"
+ },
+ "arvadsız-uşaqsız": {
+  "az": "Arvadı və uşaqları olmayan; ailəsiz, subay.",
+  "en": "without a wife and children, single",
+  "pos": "adjective"
+ },
+ "arxa-dayaq": {
+  "az": "Kiməsə kömək edən, onu müdafiə edən adam və ya qüvvə; arxa, dayaq.",
+  "en": "support, backing; mainstay",
+  "pos": "noun"
+ },
+ "arxa-dirək": {
+  "az": "Kiminsə güvəndiyi, onu saxlayan adam; arxa, dayaq (ailənin arxa-dirəyi).",
+  "en": "mainstay, pillar of support",
+  "pos": "noun"
+ },
+ "arxalıq-çuxa": {
+  "az": "Arxalıq və çuxa; kişilərin milli üst geyimləri.",
+  "en": "arkhalig and chokha (traditional men's garments)",
+  "pos": "noun"
+ },
+ "arxeoloq-etnoqraf": {
+  "az": "Həm arxeologiya, həm də etnoqrafiya ilə məşğul olan alim.",
+  "en": "archaeologist and ethnographer",
+  "pos": "noun"
+ },
+ "arxeoloq-türkoloq": {
+  "az": "Həm arxeologiya, həm də türkologiya ilə məşğul olan alim.",
+  "en": "archaeologist and Turkologist",
+  "pos": "noun"
+ },
+ "arxitektor-dendroloq": {
+  "az": "Həm memar, həm də dendroloq olan, ağac və kollarla yaşıllıq layihələri hazırlayan mütəxəssis.",
+  "en": "architect-dendrologist (landscape specialist)",
+  "pos": "noun"
+ },
+ "arxitektor-dizayner": {
+  "az": "Həm memarlıq, həm də dizayn işləri ilə məşğul olan mütəxəssis.",
+  "en": "architect-designer",
+  "pos": "noun"
+ },
+ "arzu-kam": {
+  "az": "Arzu, istək; ürəyin istədiyi şey.",
+  "en": "wish, desire",
+  "pos": "noun",
+  "src": "izahli"
+ },
+ "arzu-xülya": {
+  "az": "Həyata keçməsi çətin olan arzular, xəyallar.",
+  "en": "dreams and fancies, daydreams",
+  "pos": "noun"
+ },
+ "arzu-xəyal": {
+  "az": "Ürəkdə bəslənən arzular və xəyallar.",
+  "en": "dreams and wishes",
+  "pos": "noun"
+ },
+ "arzu-əməl": {
+  "az": "Arzu, məqsəd; insanın çatmaq istədiyi niyyət.",
+  "en": "aspiration, wish, goal",
+  "pos": "noun",
+  "parts": false
+ },
+ "arı-duru": {
+  "az": "Təmiz və şəffaf, bulanıq olmayan (arı-duru su).",
+  "en": "clean and clear, pure",
+  "pos": "adjective",
+  "parts": false
+ },
+ "arıq-cılız": {
+  "az": "Çox arıq və zəif, cansız görünən.",
+  "en": "thin and weak, scrawny, puny",
+  "pos": "adjective"
+ },
+ "arşınlayıb-ölçmək": {
+  "az": "Bir şeyi arşınla və ya addımla diqqətlə ölçmək; ölçüb-biçmək.",
+  "en": "to measure out carefully; to size up",
+  "pos": "verb"
+ },
+ "asbest-beton": {
+  "az": "Tərkibinə asbest lifləri qatılmış beton tikinti materialı.",
+  "en": "asbestos concrete",
+  "pos": "noun"
+ },
+ "asfalt-betondaşıyan": {
+  "az": "Asfalt-beton qarışığını daşımaq üçün nəzərdə tutulmuş (asfalt-betondaşıyan maşın).",
+  "en": "asphalt-concrete-carrying (of a vehicle)",
+  "pos": "adjective"
+ },
+ "asfalt-betondöşəyən": {
+  "az": "Asfalt-beton qarışığını yola döşəyən maşın.",
+  "en": "asphalt paver",
+  "pos": "noun"
+ },
+ "asıb-kəsmək": {
+  "az": "İnsanları dar ağacından asmaq və başını kəsmək; amansızca cəzalandırmaq, zülm etmək.",
+  "en": "to hang and behead; to execute ruthlessly, to tyrannize",
+  "pos": "verb"
+ },
+ "ata-qardaş": {
+  "az": "Ata və qardaşlar; yaxın kişi qohumlar.",
+  "en": "father and brothers; male kin",
+  "pos": "noun"
+ },
+ "ata-övlad": {
+  "az": "Ata ilə övlad; onlar arasındakı bağlılıq (ata-övlad münasibətləri).",
+  "en": "father and child",
+  "pos": "noun"
+ },
+ "atalı-babalı": {
+  "skip": "meaning not certain"
+ },
+ "atlas-monoqrafiya": {
+  "az": "Xəritələr və ya təsvirlərlə müşayiət olunan, atlas şəklində nəşr edilən monoqrafiya.",
+  "en": "atlas-monograph",
+  "pos": "noun"
+ },
+ "atlı-eşşəkli": {
+  "az": "Ata və eşşəyə minmiş adamlar; minikli yolçular.",
+  "en": "riders on horses and donkeys",
+  "pos": "noun"
+ },
+ "atlı-piyada": {
+  "az": "Kimi atla, kimi piyada (atlı-piyada yola düşdülər).",
+  "en": "on horseback and on foot",
+  "pos": "adverb"
+ },
+ "atlı-qatırlı": {
+  "az": "Ata və qatıra minmiş adamlar; minikli dəstə.",
+  "en": "riders on horses and mules",
+  "pos": "noun"
+ },
+ "atlı-ulaqlı": {
+  "az": "Atı, ulağı olan; minikli.",
+  "en": "with horses and donkeys, mounted",
+  "pos": "adjective"
+ },
+ "atom-elektrik": {
+  "az": "Atom enerjisindən elektrik enerjisi almaqla bağlı olan (atom-elektrik stansiyası).",
+  "en": "nuclear-electric (as in nuclear power plant)",
+  "pos": "adjective"
+ },
+ "atom-güc": {
+  "az": "Atom enerjisi ilə işləyən güc qurğusuna aid olan (atom-güc qurğusu).",
+  "en": "nuclear power (of a power unit)",
+  "pos": "adjective"
+ },
+ "audit-xidmət": {
+  "az": "Auditorların göstərdiyi maliyyə yoxlaması və məsləhət xidməti.",
+  "en": "audit services",
+  "pos": "noun"
+ },
+ "avtobus-ekspres": {
+  "az": "Az dayanacaqla sürətlə hərəkət edən avtobus; ekspres avtobus.",
+  "en": "express bus",
+  "pos": "noun"
+ },
+ "avtobus-laboratoriya": {
+  "az": "Avtobusda quraşdırılmış səyyar laboratoriya.",
+  "en": "mobile laboratory (in a bus)",
+  "pos": "noun"
+ },
+ "avtomat-dəzgah": {
+  "az": "Əməliyyatları avtomatik yerinə yetirən dəzgah; dəzgah-avtomat.",
+  "en": "automatic machine tool",
+  "pos": "noun"
+ },
+ "avtomat-nəqliyyat": {
+  "skip": "technical term, meaning not certain"
+ },
+ "avtomat-zavod": {
+  "az": "İstehsal prosesləri tam avtomatlaşdırılmış zavod.",
+  "en": "automated factory",
+  "pos": "noun"
+ },
+ "avtoqraf-məktub": {
+  "az": "Müəllifin öz əli ilə yazdığı məktub.",
+  "en": "autograph letter (handwritten by its author)",
+  "pos": "noun"
+ },
+ "axarlı-baxarlı": {
+  "az": "Axar suyu və gözəl mənzərəsi olan; gözəl, könülaçan (axarlı-baxarlı yer).",
+  "en": "picturesque, beautiful (esp. of a place)",
+  "pos": "adjective"
+ },
+ "axır-aqibət": {
+  "az": "Bir işin sonu, son nəticəsi; (zərf kimi) nəhayət, axırda.",
+  "en": "the end, final outcome; eventually, in the end",
+  "pos": "noun"
+ },
+ "ayaqyalın-başıaçıq": {
+  "az": "Ayağı yalın, başı açıq; geyimsiz, yoxsul.",
+  "en": "barefoot and bareheaded; ragged, destitute",
+  "pos": "adjective"
+ },
+ "ayıq-sərxoş": {
+  "skip": "meaning not certain"
+ },
+ "azar-əziyyət": {
+  "az": "Xəstəlik, ağrı və çətinlik; dərd-bəla.",
+  "en": "suffering, trouble, hardship",
+  "pos": "noun"
+ },
+ "azar-əziyyətli": {
+  "az": "Əziyyəti, çətinliyi çox olan; əzablı.",
+  "en": "full of hardship, troublesome",
+  "pos": "adjective"
+ },
+ "azar-əziyyətsiz": {
+  "az": "Əziyyəti, çətinliyi olmayan; rahat.",
+  "en": "trouble-free, without hardship",
+  "pos": "adjective"
+ },
+ "azarsız-əziyyətsiz": {
+  "az": "Heç bir xəstəliyi, əziyyəti olmayan; rahat, sakit.",
+  "en": "untroubled, trouble-free",
+  "pos": "adjective"
+ },
+ "açma-yığma": {
+  "az": "Açılıb-yığılan, qatlanan (açma-yığma çarpayı).",
+  "en": "folding, collapsible",
+  "pos": "adjective"
+ },
+ "açıq-aşkarca": {
+  "az": "Heç nə gizlətmədən, aydın şəkildə; açıqca.",
+  "en": "openly, overtly, plainly",
+  "pos": "adverb"
+ },
+ "açıq-aşkarcasına": {
+  "az": "Heç nə gizlətmədən, hamının gözü qarşısında; açıqca.",
+  "en": "openly, overtly, blatantly",
+  "pos": "adverb"
+ },
+ "açıq-aşkarlıq": {
+  "az": "Açıq-aşkar olma, gizli olmama; aşkarlıq.",
+  "en": "openness, obviousness, overtness",
+  "pos": "noun"
+ },
+ "açıq-qara": {
+  "skip": "colour term, meaning not certain"
+ },
+ "ağa-nökər": {
+  "az": "Ağa ilə nökər; onlar arasındakı münasibət (ağa-nökər münasibətləri).",
+  "en": "master and servant",
+  "pos": "noun"
+ },
+ "ağalı-bəyli": {
+  "skip": "meaning not certain"
+ },
+ "ağciyər-mədə": {
+  "skip": "anatomical term, meaning not certain"
+ },
+ "ağciyər-ürək": {
+  "az": "Ağciyərlə ürəyə birlikdə aid olan (ağciyər-ürək çatışmazlığı).",
+  "en": "cardiopulmonary",
+  "pos": "adjective"
+ },
+ "ağrı-qada": {
+  "az": "Ağrı, bəla, dərd (ağrın-qadan alım — əzizləmə ifadəsi).",
+  "en": "pain and trouble, ills (in endearments: may your ills be mine)",
+  "pos": "noun"
+ },
+ "ağrı-əzab": {
+  "az": "Ağrı və əzab; dözülməz iztirab.",
+  "en": "pain and suffering, agony",
+  "pos": "noun"
+ },
+ "ağsaqqal-qarasaqqal": {
+  "az": "Ağsaqqallar və orta yaşlı kişilər; elin yaşlı-cavan bütün kişiləri.",
+  "en": "elders and middle-aged men; all the men of the community",
+  "pos": "noun"
+ },
+ "ağıl-baş": {
+  "az": "Ağıl, düşüncə; sağlam fikir (ağlı-başı yerində olmaq).",
+  "en": "mind, wits, good sense",
+  "pos": "noun"
+ },
+ "ağıl-başlı": {
+  "az": "Ağıllı, düşüncəli, sağlam fikirli.",
+  "en": "sensible, level-headed",
+  "pos": "adjective"
+ },
+ "ağırlı-yüngüllü": {
+  "az": "Ağırı da, yüngülü də olan; müxtəlif çəkidə olan.",
+  "en": "both heavy and light, of varying weight",
+  "pos": "adjective"
+ },
+ "aşırma-birləşmə": {
+  "skip": "technical term, meaning not certain"
+ },
+ "baba-nəvə": {
+  "az": "Baba ilə nəvə; onlar arasındakı bağlılıq.",
+  "en": "grandfather and grandchild",
+  "pos": "noun"
+ },
+ "baha-ucuz": {
+  "az": "Bahalı və ucuz; qiymətcə müxtəlif (baha-ucuz demədən — qiymətə baxmadan).",
+  "en": "expensive and cheap; (regardless of) price",
+  "pos": "adjective"
+ },
+ "bahalı-ucuzlu": {
+  "az": "Bahası da, ucuzu da olan; müxtəlif qiymətli.",
+  "en": "both expensive and cheap, of various prices",
+  "pos": "adjective"
+ },
+ "bal-bəkməz": {
+  "az": "Bal, bəkməz və bu kimi şirin nemətlər.",
+  "en": "honey and fruit molasses; sweet things",
+  "pos": "noun"
+ },
+ "bal-bəkməzli": {
+  "az": "Balı, bəkməzi olan; nemətli, şirin.",
+  "en": "with honey and molasses; sweet, plentiful",
+  "pos": "adjective"
+ },
+ "bal-qaymaq": {
+  "az": "Bal ilə qaymaq; qaymağa bal qatılaraq yeyilən nemət.",
+  "en": "honey and clotted cream (kaymak)",
+  "pos": "noun"
+ },
+ "bal-qaymaqlı": {
+  "az": "Bal və qaymaqla olan; məcazən şirin, xoş.",
+  "en": "with honey and cream; sweet, pleasant",
+  "pos": "adjective"
+ },
+ "bal-yağ": {
+  "az": "Bal və yağ; bol, dadlı nemət.",
+  "en": "honey and butter; rich food",
+  "pos": "noun"
+ },
+ "bal-şərbət": {
+  "az": "Bal və şərbət; şirin içki və nemətlər.",
+  "en": "honey and sherbet; sweet things",
+  "pos": "noun"
+ },
+ "bala-nəvə": {
+  "az": "Övladlar və nəvələr; nəsil, ailə.",
+  "en": "children and grandchildren, offspring",
+  "pos": "noun"
+ },
+ "balaban-nağara": {
+  "az": "Balaban və nağara; bu alətlərlə ifa olunan xalq musiqisi.",
+  "en": "balaban and nagara (folk music)",
+  "pos": "noun"
+ },
+ "balaban-tütək": {
+  "az": "Balaban, tütək və bu kimi xalq nəfəs alətləri.",
+  "en": "balaban and tütək (folk wind instruments)",
+  "pos": "noun"
+ },
+ "balaban-zurna": {
+  "az": "Balaban və zurna; bu alətlərlə ifa olunan xalq musiqisi.",
+  "en": "balaban and zurna (folk music)",
+  "pos": "noun"
+ },
+ "balalı-nəvəli": {
+  "az": "Övladları və nəvələri olan; nəsli böyük.",
+  "en": "with children and grandchildren",
+  "pos": "adjective"
+ },
+ "baldır-topuq": {
+  "az": "Baldıra və topuğa aid olan (baldır-topuq oynağı).",
+  "en": "relating to the lower leg and ankle (as in the ankle joint)",
+  "pos": "adjective"
+ },
+ "balet-fantaziya": {
+  "az": "Fantastik süjetə əsaslanan, sərbəst formalı balet əsəri.",
+  "en": "ballet-fantasy",
+  "pos": "noun"
+ },
+ "balet-maskarad": {
+  "az": "Maskarad səhnələrinə əsaslanan balet tamaşası.",
+  "en": "masquerade ballet",
+  "pos": "noun"
+ },
+ "balet-nağıl": {
+  "az": "Nağıl süjeti əsasında yazılmış balet.",
+  "en": "fairy-tale ballet",
+  "pos": "noun"
+ },
+ "balet-simfoniya": {
+  "az": "Simfonik musiqi əsasında qurulan, simfoniya formasında yazılmış balet.",
+  "en": "ballet-symphony, symphonic ballet",
+  "pos": "noun"
+ },
+ "ballı-bəkməzli": {
+  "az": "Bal və bəkməzlə zəngin; çox şirin; məcazən bolluq içində olan.",
+  "en": "full of honey and molasses; sweet; abundant",
+  "pos": "adjective"
+ },
+ "ballı-qaymaqlı": {
+  "az": "Bal və qaymaqla olan; məcazən çox şirin, xoş.",
+  "en": "with honey and cream; sweet, pleasant",
+  "pos": "adjective"
+ },
+ "ballı-yağlı": {
+  "az": "Bal və yağla zəngin, dadlı; məcazən şirin, yaltaq (ballı-yağlı sözlər).",
+  "en": "rich and sweet; (of words) honeyed, flattering",
+  "pos": "adjective"
+ },
+ "ballı-şərbətli": {
+  "az": "Bal və şərbət kimi şirin; çox şirin.",
+  "en": "very sweet, honeyed",
+  "pos": "adjective"
+ },
+ "balsız-bəkməzsiz": {
+  "az": "Balı, bəkməzi olmayan; şirinliyi olmayan, kasıb (süfrə).",
+  "en": "without honey or molasses; plain, meagre",
+  "pos": "adjective"
+ },
+ "balsız-yağsız": {
+  "az": "Balı, yağı olmayan; kasıb, quru (süfrə, yemək).",
+  "en": "without honey or butter; meagre, plain",
+  "pos": "adjective"
+ },
+ "balta-dəhrə": {
+  "az": "Balta, dəhrə və bu kimi ağac kəsmək üçün alətlər.",
+  "en": "axes and billhooks; woodcutting tools",
+  "pos": "noun"
+ },
+ "baltalı-dəhrəli": {
+  "az": "Əlində balta və dəhrə olan, onlarla silahlanmış.",
+  "en": "armed with axes and billhooks",
+  "pos": "adjective"
+ },
+ "bank-ekvayer": {
+  "az": "Ticarət və xidmət müəssisələrində kartla ödənişlərin qəbulunu və emalını təmin edən bank.",
+  "en": "acquiring bank, acquirer",
+  "pos": "noun"
+ },
+ "bank-müxbir": {
+  "az": "Başqa bankın tapşırığı ilə onun hesabına ödənişlər və digər əməliyyatlar aparan bank.",
+  "en": "correspondent bank",
+  "pos": "noun"
+ },
+ "bank-qarant": {
+  "az": "Müştərinin öhdəliklərinin yerinə yetirilməsinə zəmanət verən bank.",
+  "en": "guarantor bank",
+  "pos": "noun"
+ },
+ "bar-barxana": {
+  "az": "Ev əşyaları, var-dövlət; köçərkən götürülən bütün yük.",
+  "en": "belongings, goods and chattels",
+  "pos": "noun",
+  "parts": false
+ },
+ "bar-barxanalı": {
+  "az": "Bütün ev əşyaları, var-dövləti ilə olan; varlı.",
+  "en": "with all one's belongings; well-off",
+  "pos": "adjective",
+  "parts": false
+ },
+ "bar-bərəkət": {
+  "az": "Bolluq, firavanlıq; məhsulun, nemətin çoxluğu.",
+  "en": "abundance, plenty, bounty",
+  "pos": "noun"
+ },
+ "bar-bərəkətli": {
+  "az": "Məhsulu, neməti bol olan; bərəkətli.",
+  "en": "abundant, fruitful, prosperous",
+  "pos": "adjective"
+ },
+ "bar-bərəkətsiz": {
+  "az": "Məhsulu, neməti olmayan; bərəkətsiz, kasıb.",
+  "en": "barren, unproductive, without abundance",
+  "pos": "adjective"
+ },
+ "barlı-barxanalı": {
+  "az": "Var-dövləti, ev əşyaları çox olan; varlı, dövlətli.",
+  "en": "well-off, with plenty of possessions",
+  "pos": "adjective",
+  "parts": false
+ },
+ "barlı-bərəkətli": {
+  "az": "Məhsulu, neməti bol olan; məhsuldar, bərəkətli.",
+  "en": "fruitful, abundant, prosperous",
+  "pos": "adjective"
+ },
+ "barsız-bəhərsiz": {
+  "az": "Meyvə, məhsul verməyən; məcazən faydasız, nəticəsiz.",
+  "en": "fruitless, barren; useless",
+  "pos": "adjective"
+ },
+ "barsız-bərəkətsiz": {
+  "az": "Məhsulu, bolluğu olmayan; bərəkətsiz.",
+  "en": "unfruitful, barren, without abundance",
+  "pos": "adjective"
+ },
+ "bas-kəs": {
+  "skip": "meaning not certain"
+ },
+ "basıb-keçmək": {
+  "az": "Qarşısına çıxanı əzib-tapdalayıb keçmək; zorla yarıb keçmək.",
+  "en": "to overrun; to trample and push through",
+  "pos": "verb"
+ },
+ "baxmalı-görməli": {
+  "az": "Baxmağa, görməyə dəyən; gözəl, maraqlı.",
+  "en": "worth seeing; good-looking",
+  "pos": "adjective"
+ },
+ "baxımlı-görümlü": {
+  "az": "Görkəmli, qəşəng, xoş görünüşlü.",
+  "en": "good-looking, attractive, presentable",
+  "pos": "adjective"
+ },
+ "baxış-məşq": {
+  "skip": "meaning not certain"
+ },
+ "baxış-satış": {
+  "skip": "meaning not certain"
+ },
+ "baxış-sərgi": {
+  "az": "Əsərlərin və ya məhsulların nümayiş etdirilib qiymətləndirildiyi sərgi.",
+  "en": "review exhibition, show",
+  "pos": "noun"
+ },
+ "baxış-yarış": {
+  "az": "İştirakçıların hazırlığının və nailiyyətlərinin yoxlanılıb qiymətləndirildiyi yarış.",
+  "en": "review competition, contest",
+  "pos": "noun"
+ },
+ "bayır-baca": {
+  "az": "Evin çölü, həyət və ətraf; ev xaricindəki yer.",
+  "en": "outdoors, outside, the yard",
+  "pos": "noun"
+ },
+ "bazu-dirsək": {
+  "az": "Bazu sümüyü ilə dirsək sümüyünə aid olan (bazu-dirsək oynağı).",
+  "en": "humeroulnar",
+  "pos": "adjective"
+ },
+ "bazu-mil": {
+  "az": "Bazu sümüyü ilə mil sümüyünə aid olan (bazu-mil oynağı).",
+  "en": "humeroradial",
+  "pos": "adjective",
+  "parts": false
+ },
+ "bağ-bostanlı": {
+  "az": "Bağı, bostanı olan; bağ-bostanla əhatə olunmuş.",
+  "en": "with orchards and kitchen gardens",
+  "pos": "adjective"
+ },
+ "bağ-bostanlıq": {
+  "az": "Bağ və bostan salınmış geniş yer.",
+  "en": "area of orchards and kitchen gardens",
+  "pos": "noun"
+ },
+ "bağlı-bəhərli": {
+  "az": "Bağları, bəhəri bol olan; məhsuldar.",
+  "en": "with fruitful orchards; fruitful, abundant",
+  "pos": "adjective",
+  "parts": false
+ },
+ "bağır-öfkə": {
+  "skip": "meaning not certain"
+ },
+ "bağırsaq-uşaqlıq": {
+  "az": "Bağırsaqla uşaqlığa aid olan (düz bağırsaq-uşaqlıq çuxuru).",
+  "en": "relating to the intestine (rectum) and uterus",
+  "pos": "adjective",
+  "parts": false
+ },
+ "bağırtı-çığırtı": {
+  "az": "Bağırıb-çığırma, qışqırıq; hay-küy.",
+  "en": "shouting and screaming, uproar",
+  "pos": "noun"
+ },
+ "bağırtılı-çığırtılı": {
+  "az": "Bağırtı və çığırtı ilə dolu; səs-küylü.",
+  "en": "noisy, full of shouting",
+  "pos": "adjective"
+ },
+ "başmaq-corab": {
+  "az": "Başmaq, corab və bu kimi ayaq geyimləri.",
+  "en": "shoes and socks; footwear",
+  "pos": "noun"
+ },
+ "başçı-sərkərdə": {
+  "az": "Xalqa, qoşuna başçılıq edən adam; rəhbər, sərkərdə.",
+  "en": "leader, chief commander",
+  "pos": "noun"
+ },
+ "başçılıq-sərkərdəlik": {
+  "az": "Xalqa, qoşuna başçılıq və komandanlıq etmə.",
+  "en": "leadership and command",
+  "pos": "noun"
+ },
+ "başıaçıq-ayaqyalın": {
+  "az": "Başı açıq, ayağı yalın; geyimsiz, yoxsul.",
+  "en": "bareheaded and barefoot; ragged, destitute",
+  "pos": "adjective"
+ },
+ "bel-arxa": {
+  "skip": "meaning not certain"
+ },
+ "bel-balıq": {
+  "skip": "meaning not certain"
+ },
+ "bel-dırmıq": {
+  "az": "Bel, dırmıq və bu kimi bağ-bostan alətləri.",
+  "en": "spades and rakes; garden tools",
+  "pos": "noun",
+  "parts": false
+ },
+ "bel-külüng": {
+  "az": "Bel, külüng və bu kimi torpaq qazmaq üçün alətlər.",
+  "en": "spades and pickaxes; digging tools",
+  "pos": "noun",
+  "parts": false
+ },
+ "bel-kürək": {
+  "skip": "ambiguous (back and shoulders / spade and shovel), not certain"
+ },
+ "bel-qabırğa": {
+  "az": "Bel nahiyəsi ilə qabırğalara aid olan (bel-qabırğa bağı).",
+  "en": "lumbocostal",
+  "pos": "adjective"
+ },
+ "belli-kürəkli": {
+  "skip": "ambiguous, meaning not certain"
+ },
+ "benzin-oksigen": {
+  "az": "Benzin buxarının oksigenlə yanmasından istifadə edilən (benzin-oksigen kəsmə).",
+  "en": "petrol-oxygen (of flame cutting)",
+  "pos": "adjective"
+ },
+ "berillium-sulfat": {
+  "az": "Berilliumun sulfat turşusu ilə əmələ gətirdiyi duz (BeSO₄).",
+  "en": "beryllium sulphate",
+  "pos": "noun"
+ },
+ "beta-karotin": {
+  "az": "Bitkilərdə, xüsusən yerkökündə olan, orqanizmdə A vitamininə çevrilən narıncı piqment.",
+  "en": "beta-carotene",
+  "pos": "noun"
+ },
+ "beta-zərrəcik": {
+  "az": "Beta-parçalanma zamanı nüvədən buraxılan elektron və ya pozitron.",
+  "en": "beta particle",
+  "pos": "noun"
+ },
+ "beta-şüa": {
+  "az": "Radioaktiv beta-parçalanma zamanı buraxılan beta-zərrəciklər seli.",
+  "en": "beta ray(s)",
+  "pos": "noun"
+ },
+ "beyincik-onurğa": {
+  "az": "Beyinciklə onurğa beyninə aid olan (beyincik-onurğa yolu).",
+  "en": "cerebellospinal",
+  "pos": "adjective"
+ }
+}

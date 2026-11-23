@@ -1,0 +1,960 @@
+{
+ "yod-etan": {
+  "az": "Etan molekulunda bir hidrogen atomunun yodla əvəz olunmasından alınan üzvi birləşmə; etil yodid.",
+  "en": "iodoethane, ethyl iodide",
+  "pos": "noun"
+ },
+ "yod-metan": {
+  "az": "Metan molekulunda bir hidrogen atomunun yodla əvəz olunmasından alınan üzvi birləşmə; metil yodid.",
+  "en": "iodomethane, methyl iodide",
+  "pos": "noun"
+ },
+ "yod-nişastalı": {
+  "az": "Tərkibində yod birləşməsi və nişasta olan, yodla nişastanın reaksiyasına əsaslanan (yod-nişastalı kağız).",
+  "en": "iodine-starch, starch-iodide (e.g. starch-iodide paper)",
+  "pos": "adjective"
+ },
+ "yod-xlorid": {
+  "az": "Yodun xlorla əmələ gətirdiyi kimyəvi birləşmə.",
+  "en": "iodine chloride",
+  "pos": "noun"
+ },
+ "yol-cığır": {
+  "az": "Yollar və cığırlar; bir yerə aparan yol, keçid.",
+  "en": "roads and paths, ways",
+  "pos": "noun"
+ },
+ "yol-yamac": {
+  "az": "Yollar və yamaclar; keçilən dağlıq, enişli-yoxuşlu yer.",
+  "en": "roads and slopes; the way over hilly ground",
+  "pos": "noun"
+ },
+ "yol-yolağa": {
+  "az": "Yollar və kiçik cığırlar; gediş-gəliş yolları.",
+  "en": "roads and paths",
+  "pos": "noun"
+ },
+ "yollu-izli": {
+  "az": "Yolu-izi olan, gediş-gəliş olunan (yer).",
+  "en": "having roads and tracks, frequented (of a place)",
+  "pos": "adjective"
+ },
+ "yolsuz-izsiz": {
+  "az": "Heç bir yolu-izi olmayan, keçilməz (yer).",
+  "en": "trackless, pathless",
+  "pos": "adjective"
+ },
+ "yonub-hamarlamaq": {
+  "az": "Yonaraq səthi düz və hamar hala gətirmək.",
+  "en": "to hew smooth, to plane down",
+  "pos": "verb"
+ },
+ "yonub-naziltmək": {
+  "az": "Yonaraq incəltmək, nazik hala salmaq.",
+  "en": "to whittle down, to pare thin",
+  "pos": "verb"
+ },
+ "yorub-yortmaq": {
+  "skip": "meaning not certain"
+ },
+ "yorğun-üzgün": {
+  "az": "Çox yorulmuş, əldən düşmüş, taqətsiz.",
+  "en": "worn out, exhausted",
+  "pos": "adjective"
+ },
+ "yorğun-əzgin": {
+  "az": "Yorulub əldən düşmüş, halsız və süst.",
+  "en": "tired and listless, worn out",
+  "pos": "adjective"
+ },
+ "yoxlama-baxış": {
+  "az": "Bir şeyin vəziyyətini yoxlamaq üçün ona baxılması; müayinə.",
+  "en": "inspection, examination",
+  "pos": "noun"
+ },
+ "yoxlama-nəzarət": {
+  "az": "Bir işin, fəaliyyətin yoxlanılması və ona nəzarət edilməsi (yoxlama-nəzarət tədbirləri).",
+  "en": "inspection and control, monitoring",
+  "pos": "noun"
+ },
+ "yoxuşlu-enişli": {
+  "az": "Gah yoxuşu, gah enişi olan; enişli-yoxuşlu (yol, ərazi); məc. keşməkeşli (həyat).",
+  "en": "full of ups and downs, hilly (of a road); fig. eventful",
+  "pos": "adjective"
+ },
+ "yoxuşsuz-enişsiz": {
+  "az": "Nə yoxuşu, nə də enişi olan; düz, hamar (yol, ərazi).",
+  "en": "level, flat, with no ups and downs",
+  "pos": "adjective"
+ },
+ "yozma-azma": {
+  "skip": "meaning not certain"
+ },
+ "yozub-azdırmaq": {
+  "skip": "meaning not certain"
+ },
+ "yozub-azmaq": {
+  "skip": "meaning not certain"
+ },
+ "yoğurub-acıtmaq": {
+  "az": "Xəmiri yoğurub mayalanmağa, acımağa qoymaq.",
+  "en": "to knead and leaven (dough)",
+  "pos": "verb"
+ },
+ "yoğurub-qatmaq": {
+  "az": "Yoğuraraq bir-birinə qatmaq, qarışdırmaq.",
+  "en": "to knead together, to mix by kneading",
+  "pos": "verb"
+ },
+ "yubanıb-qalmaq": {
+  "az": "Ləngiyib bir yerdə gecikmək, vaxtında gəlib çıxmamaq.",
+  "en": "to linger, to be held up, to be delayed",
+  "pos": "verb"
+ },
+ "yumma-açma": {
+  "skip": "meaning not certain"
+ },
+ "yumoristik-satirik": {
+  "az": "Həm yumor, həm də satira üslubunda olan (yumoristik-satirik jurnal).",
+  "en": "humorous and satirical",
+  "pos": "adjective"
+ },
+ "yumub-açmaq": {
+  "az": "Gözünü (ağzını) yumub yenidən açmaq; göz qırpmaq.",
+  "en": "to close and open (one's eyes), to blink",
+  "pos": "verb"
+ },
+ "yumurta-hüceyrə": {
+  "az": "Dişi cinsiyyət hüceyrəsi; yumurta hüceyrəsi.",
+  "en": "egg cell, ovum",
+  "pos": "noun"
+ },
+ "yunluq-südlük": {
+  "az": "Həm yun, həm də süd almaq üçün yetişdirilən (heyvan cinsi).",
+  "en": "wool-and-milk, dual-purpose (of livestock breeds)",
+  "pos": "adjective"
+ },
+ "yunluq-ətlik qoyun": {
+  "az": "Həm yun, həm də ət almaq üçün yetişdirilən qoyun cinsi.",
+  "en": "wool-and-meat sheep (dual-purpose breed)",
+  "pos": "noun"
+ },
+ "yurddaş-soydaş": {
+  "az": "Eyni yurddan və eyni soydan olan adamlar; həmyerlilər və soydaşlar.",
+  "en": "compatriots and kinsmen, fellow countrymen",
+  "pos": "noun"
+ },
+ "yurdlu-yuvalı": {
+  "az": "Yurdu-yuvası olan, evi-eşiyi olan, bir yerdə məskunlaşmış.",
+  "en": "having a home, settled",
+  "pos": "adjective"
+ },
+ "yuyub-aşındırmaq": {
+  "az": "Suyun təsiri ilə yuyub tədricən yeyib dağıtmaq (torpağı, sahili, qayanı).",
+  "en": "to wash away and erode",
+  "pos": "verb"
+ },
+ "yuyub-silmək": {
+  "az": "Yuyaraq və silərək təmizləmək; məc. tamamilə yox etmək (ləkəni, izi).",
+  "en": "to wash and wipe clean; fig. to wipe out",
+  "pos": "verb"
+ },
+ "yuyub-çıxarmaq": {
+  "az": "Yuyaraq kənar etmək, təmizləyib aparmaq (ləkəni, kiri).",
+  "en": "to wash out (a stain, dirt)",
+  "pos": "verb"
+ },
+ "yuyulub-silinmək": {
+  "az": "Yuyularaq tamamilə təmizlənmək, izi qalmamaq.",
+  "en": "to be washed away, to be wiped out",
+  "pos": "verb"
+ },
+ "yuyulub-təmizlənmək": {
+  "az": "Yuyularaq kirdən, çirkdən təmiz hala gəlmək.",
+  "en": "to be washed clean",
+  "pos": "verb"
+ },
+ "yönəldici-nəzarət": {
+  "az": "İşin müəyyən istiqamətdə getməsini təmin edən nəzarət; istiqamətləndirici nəzarət.",
+  "en": "guiding supervision, directive control",
+  "pos": "noun"
+ },
+ "yük-nəqliyyat": {
+  "az": "Yük daşınması ilə bağlı olan (yük-nəqliyyat əməliyyatları).",
+  "en": "freight-transport, cargo-transport",
+  "pos": "adjective"
+ },
+ "yüksəlib-ucalmaq": {
+  "az": "Getdikcə yuxarı qalxmaq, ucalmaq; məc. nüfuzu, mövqeyi artmaq.",
+  "en": "to rise high, to soar; fig. to rise in standing",
+  "pos": "verb"
+ },
+ "yükvurma-yükboşaltma": {
+  "az": "Yükün nəqliyyat vasitəsinə vurulması və ondan boşaldılması (yükvurma-yükboşaltma işləri).",
+  "en": "loading and unloading",
+  "pos": "noun"
+ },
+ "yürüş-mitinq": {
+  "az": "Küçə yürüşü ilə müşayiət olunan kütləvi yığıncaq.",
+  "en": "march and rally",
+  "pos": "noun"
+ },
+ "yürüş-mitinqçi": {
+  "az": "Yürüş və mitinqlərin iştirakçısı.",
+  "en": "participant in marches and rallies, demonstrator",
+  "pos": "noun"
+ },
+ "yırtıq-sökük": {
+  "az": "Yırtılıb sökülmüş, köhnəlib dağılmış (paltar və s.).",
+  "en": "torn and tattered, ragged",
+  "pos": "adjective"
+ },
+ "yıxıq-dağınıq": {
+  "az": "Uçub-dağılmış, səliqəsiz, pərakəndə halda olan.",
+  "en": "ruined and scattered, in disarray",
+  "pos": "adjective"
+ },
+ "yıxıq-sökük": {
+  "az": "Uçub-dağılmış, xaraba qalmış (bina, divar və s.).",
+  "en": "ruined, dilapidated, tumbledown",
+  "pos": "adjective"
+ },
+ "yıxıq-uçuq": {
+  "az": "Uçub-dağılmış, xarabalığa dönmüş (ev, divar və s.).",
+  "en": "ruined, tumbledown",
+  "pos": "adjective"
+ },
+ "yığma-quraşdırma": {
+  "az": "Qurğunun, avadanlığın hissələrinin yığılıb yerində qurulması; montaj (yığma-quraşdırma işləri).",
+  "en": "assembly and installation, erection",
+  "pos": "noun"
+ },
+ "yığıb-aparmaq": {
+  "az": "Hamısını toplayıb götürüb aparmaq.",
+  "en": "to gather up and carry off",
+  "pos": "verb"
+ },
+ "yığıb-atmaq": {
+  "az": "Toplayıb kənara tullamaq (lazımsız şeyləri).",
+  "en": "to gather up and throw away",
+  "pos": "verb"
+ },
+ "yığıb-daşımaq": {
+  "az": "Toplayıb başqa yerə daşımaq.",
+  "en": "to collect and haul, to gather and carry",
+  "pos": "verb"
+ },
+ "yığıb-saxlamaq": {
+  "az": "Toplayıb qorumaq, ehtiyat üçün saxlamaq.",
+  "en": "to gather and store, to hoard",
+  "pos": "verb"
+ },
+ "yığıb-səhifələmək": {
+  "az": "Mətni çap üçün yığıb səhifələrə bölmək (mətbəə işində).",
+  "en": "to typeset and make up into pages",
+  "pos": "verb"
+ },
+ "yığıb-toplamaq": {
+  "az": "Hər yerdən bir-bir yığıb bir yerə cəm etmək.",
+  "en": "to gather together, to collect",
+  "pos": "verb"
+ },
+ "yığım-nəqliyyat": {
+  "az": "Toplama və daşıma işlərinə aid olan (yığım-nəqliyyat əməliyyatları).",
+  "en": "collection-and-transport",
+  "pos": "adjective"
+ },
+ "yəhər-yüyən": {
+  "az": "Atın yəhəri, yüyəni və başqa minik ləvazimatı.",
+  "en": "saddle and bridle, tack",
+  "pos": "noun"
+ },
+ "yəhər-yüyənsiz": {
+  "az": "Yəhəri və yüyəni olmayan, çılpaq (at).",
+  "en": "unsaddled and unbridled",
+  "pos": "adjective"
+ },
+ "yəhərli-yüyənli": {
+  "az": "Yəhərlənib yüyənlənmiş, minməyə hazır (at).",
+  "en": "saddled and bridled",
+  "pos": "adjective"
+ },
+ "yəhərsiz-yüyənsiz": {
+  "az": "Nə yəhəri, nə də yüyəni olan (at).",
+  "en": "without saddle or bridle, bareback",
+  "pos": "adjective"
+ },
+ "zavod-fabrik": {
+  "az": "Zavodlar və fabriklər; sənaye müəssisələri.",
+  "en": "factories and plants, industrial enterprises",
+  "pos": "noun"
+ },
+ "zenit-teleskop": {
+  "az": "Zenitə yaxın ulduzları müşahidə edərək coğrafi enliyi təyin etmək üçün işlədilən teleskop.",
+  "en": "zenith telescope",
+  "pos": "noun"
+ },
+ "zillət-məşəqqət": {
+  "az": "Ağır əziyyət, çətinlik, məşəqqət.",
+  "en": "hardship and suffering, ordeal",
+  "pos": "noun"
+ },
+ "zond-məftil": {
+  "skip": "technical term, meaning not certain"
+ },
+ "zor-bəla": {
+  "az": "Böyük çətinlik, güc; çox vaxt «zor-bəla ilə» şəklində: güclə, çətinliklə.",
+  "en": "great difficulty (zor-bəla ilə: with great difficulty, barely)",
+  "pos": "noun"
+ },
+ "zor-xoş": {
+  "az": "Gah zorla, gah xoşluqla; istər-istəməz, bir təhər (zor-xoş razı salmaq).",
+  "en": "by hook or by crook; willy-nilly",
+  "pos": "adverb"
+ },
+ "zülm-sitəm": {
+  "az": "Ağır zülm, işgəncə və haqsızlıq.",
+  "en": "oppression and tyranny, cruelty",
+  "pos": "noun"
+ },
+ "zərbə-pillə": {
+  "skip": "meaning not certain"
+ },
+ "çadra-çarşab": {
+  "az": "Qadınların başını, üzünü və bədənini örtən örtüklər; çadra və çarşab.",
+  "en": "veils, chador and charshaf (women's coverings)",
+  "pos": "noun"
+ },
+ "çal-qonur": {
+  "az": "Boza çalan qonur rəngdə olan.",
+  "en": "greyish-brown",
+  "pos": "adjective"
+ },
+ "çal-çayır": {
+  "skip": "sense of çal here not certain"
+ },
+ "çala-çökük": {
+  "az": "Çalası, çökəyi çox olan; çuxurlu, hamar olmayan (yer, yol).",
+  "en": "full of pits and hollows, uneven, potholed",
+  "pos": "adjective"
+ },
+ "çala-çöküklü": {
+  "az": "Çalaları və çökəklikləri olan, kələ-kötür.",
+  "en": "pitted, full of hollows, bumpy",
+  "pos": "adjective"
+ },
+ "çala-çöküklük": {
+  "az": "Çala və çökəklərlə dolu yer; yerin kələ-kötür olması.",
+  "en": "pits and hollows, unevenness of the ground",
+  "pos": "noun"
+ },
+ "çallı-çayırlı": {
+  "skip": "sense of çal here not certain"
+ },
+ "çallı-çəmənli": {
+  "skip": "sense of çal here not certain"
+ },
+ "çallı-çəmənlik": {
+  "skip": "sense of çal here not certain"
+ },
+ "çallı-çəpərli": {
+  "skip": "sense of çal here not certain"
+ },
+ "çalın-çarpaz": {
+  "az": "Bir-birinin üstündən çarpaz keçən, xaç şəklində (çalın-çarpaz qılınclar).",
+  "en": "criss-cross, crossed",
+  "pos": "adjective",
+  "parts": false
+ },
+ "çalışıb-yaşamaq": {
+  "az": "Zəhmət çəkib işləyərək dolanmaq, həyat sürmək.",
+  "en": "to work for one's living, to live by one's labour",
+  "pos": "verb"
+ },
+ "çalışıb-çabalamaq": {
+  "az": "Bir işi görmək üçün çox əlləşmək, var gücü ilə cəhd etmək.",
+  "en": "to strive hard, to do one's utmost",
+  "pos": "verb"
+ },
+ "çalışıb-əlləşmək": {
+  "az": "Çox zəhmət çəkib əlləşmək, var qüvvəsi ilə çalışmaq.",
+  "en": "to toil, to work hard, to strive",
+  "pos": "verb"
+ },
+ "çapıb-çalmaq": {
+  "az": "Basqın edib var-dövləti zorla almaq; soyub-talamaq.",
+  "en": "to plunder, to pillage, to rob",
+  "pos": "verb"
+ },
+ "çapılıb-talanmaq": {
+  "az": "Basqına məruz qalıb var-dövləti talan edilmək.",
+  "en": "to be plundered and looted",
+  "pos": "verb"
+ },
+ "çapılıb-çalınmaq": {
+  "az": "Talan edilib oğurlanmaq, soyulmaq.",
+  "en": "to be plundered, to be robbed",
+  "pos": "verb"
+ },
+ "çaqqal-canavar": {
+  "az": "Çaqqal, canavar və bu kimi yırtıcı heyvanlar; məc. yırtıcı, zalım adamlar.",
+  "en": "jackals and wolves, predators; fig. predatory people",
+  "pos": "noun"
+ },
+ "çarpaz-çataq": {
+  "az": "Bir-birinin üstündən çarpaz keçən, dolaşıq.",
+  "en": "criss-cross, crisscrossing",
+  "pos": "adjective"
+ },
+ "çarpışıb-vuruşmaq": {
+  "az": "Qızğın döyüşmək, əlbəyaxa vuruşmaq.",
+  "en": "to fight fiercely, to battle",
+  "pos": "verb"
+ },
+ "çarter-partiya": {
+  "az": "Gəminin və ya onun bir hissəsinin yük daşımaq üçün kirayəyə verilməsi barədə müqavilə.",
+  "en": "charter party",
+  "pos": "noun",
+  "parts": false
+ },
+ "çarıq-patava": {
+  "az": "Çarıq və ayağa sarınan patava; köhnə kəndli ayaq geyimi.",
+  "en": "rawhide sandals and footwraps",
+  "pos": "noun"
+ },
+ "çarıqlı-patavalı": {
+  "az": "Ayağında çarıq və patava olan; məc. sadə, kasıb kəndli görkəmli.",
+  "en": "wearing rawhide sandals and footwraps; fig. poor, rustic",
+  "pos": "adjective"
+ },
+ "çatı-kəndir": {
+  "az": "Yük bağlamaq üçün işlədilən çatı, kəndir və bu kimi qalın iplər.",
+  "en": "ropes, cords (for tying loads)",
+  "pos": "noun"
+ },
+ "çatı-kəndirli": {
+  "az": "Çatısı, kəndiri olan; iplə bağlanmış.",
+  "en": "with ropes, roped",
+  "pos": "adjective"
+ },
+ "çatıb-yetmək": {
+  "az": "Gəlib çatmaq, yetişmək.",
+  "en": "to reach, to arrive (at last)",
+  "pos": "verb"
+ },
+ "çatılı-çatısız": {
+  "skip": "meaning not certain"
+ },
+ "çay-çərəz": {
+  "az": "Çay və onunla verilən şirniyyat, meyvə, çərəz; qonaq süfrəsi.",
+  "en": "tea and snacks, refreshments",
+  "pos": "noun"
+ },
+ "çayxana-bufet": {
+  "az": "Çayxana və bufet tipli kiçik yeməkxanalar; ictimai iaşə yerləri.",
+  "en": "teahouses and snack bars, refreshment places",
+  "pos": "noun"
+ },
+ "çayxana-kafe": {
+  "az": "Çay və yüngül yemək təqdim olunan kafe tipli çayxana.",
+  "en": "teahouse-café",
+  "pos": "noun"
+ },
+ "çek-aut": {
+  "az": "Mehmanxanadan çıxarkən nömrənin təhvil verilib hesabın bağlanması; onlayn alışda ödəniş mərhələsi.",
+  "en": "check-out",
+  "pos": "noun",
+  "parts": false
+ },
+ "çertyojçu-konstruktor": {
+  "az": "Həm çertyoj hazırlayan, həm də konstruksiya layihələndirən mütəxəssis.",
+  "en": "draughtsman-designer",
+  "pos": "noun"
+ },
+ "çevirici-düzləndirici": {
+  "az": "Elektrik cərəyanını çevirən və düzləndirən qurğu.",
+  "en": "converter-rectifier",
+  "pos": "noun"
+ },
+ "çiləyici-tozlayıcı": {
+  "az": "Bitkilərə maye dərman çiləyən və ya toz halında dərman səpən aqreqat.",
+  "en": "sprayer-duster (for crop protection)",
+  "pos": "noun"
+ },
+ "çirk-pas": {
+  "az": "Çirk və pas; kir-pas.",
+  "en": "dirt and rust, grime",
+  "pos": "noun"
+ },
+ "çirk-paslı": {
+  "az": "Çirklənib pas basmış.",
+  "en": "dirty and rusty",
+  "pos": "adjective"
+ },
+ "çirk-passız": {
+  "az": "Çirki və pası olmayan, tər-təmiz.",
+  "en": "free of dirt and rust, clean",
+  "pos": "adjective"
+ },
+ "çirksiz-passız": {
+  "az": "Nə çirki, nə də pası olan; tər-təmiz.",
+  "en": "clean, spotless, free of dirt and rust",
+  "pos": "adjective"
+ },
+ "çiskinli-dumanlı": {
+  "az": "Çiskin yağan və duman olan (hava).",
+  "en": "drizzly and foggy, misty",
+  "pos": "adjective"
+ },
+ "çisək-duman": {
+  "az": "Çisək yağışla müşayiət olunan duman; rütubətli, dumanlı hava.",
+  "en": "drizzle and fog, misty weather",
+  "pos": "noun"
+ },
+ "çiyli-bişmişli": {
+  "skip": "meaning not certain"
+ },
+ "çolpa-cücə": {
+  "az": "Toyuğun balaları: çolpalar və cücələr.",
+  "en": "chicks and young poultry",
+  "pos": "noun"
+ },
+ "çor-zəhrimar": {
+  "az": "Qarğış kimi işlənən söz: dərd-bəla, zəhər (çor-zəhrimar olsun!).",
+  "en": "plague and poison (used as an angry curse)",
+  "pos": "noun"
+ },
+ "çor-zəhər": {
+  "az": "Qarğış kimi işlənən söz: bəla, zəhər.",
+  "en": "plague and poison (in curses)",
+  "pos": "noun"
+ },
+ "çul-palan": {
+  "az": "Yük heyvanının belinə salınan çul və palan.",
+  "en": "horsecloth and pack saddle",
+  "pos": "noun"
+ },
+ "çullu-palanlı": {
+  "az": "Belinə çul və palan salınmış (heyvan).",
+  "en": "with horsecloth and pack saddle on",
+  "pos": "adjective"
+ },
+ "çullu-çuxalı": {
+  "az": "Əyninə çul və çuxa geyinmiş; köhnə el geyimində olan.",
+  "en": "dressed in a coarse cloak and chokha, in old-style dress",
+  "pos": "adjective"
+ },
+ "çulsuz-palansız": {
+  "az": "Belində nə çul, nə də palan olan (heyvan).",
+  "en": "without horsecloth or pack saddle",
+  "pos": "adjective"
+ },
+ "çuval-dağar": {
+  "az": "Çuvallar, dağarlar və bu kimi yük qabları.",
+  "en": "sacks and bags",
+  "pos": "noun"
+ },
+ "çuval-dağarcıq": {
+  "az": "Çuvallar və dağarcıqlar; ərzaq və əşya qabları.",
+  "en": "sacks and pouches",
+  "pos": "noun"
+ },
+ "çuval-kisə": {
+  "az": "Çuval, kisə və bu kimi qablar.",
+  "en": "sacks and bags",
+  "pos": "noun"
+ },
+ "çuval-torba": {
+  "az": "Çuvallar, torbalar; yük və əşya qabları.",
+  "en": "sacks and bags",
+  "pos": "noun"
+ },
+ "çuval-zənbil": {
+  "az": "Çuval, zənbil və bu kimi qablar.",
+  "en": "sacks and baskets",
+  "pos": "noun"
+ },
+ "çuxur-çala": {
+  "az": "Yerdəki çuxur və çalalar, batıq yerlər.",
+  "en": "pits and holes, potholes",
+  "pos": "noun"
+ },
+ "çuxur-çökək": {
+  "az": "Çuxurları və çökəkləri olan, kələ-kötür (yer, yol).",
+  "en": "full of pits and hollows, uneven",
+  "pos": "adjective"
+ },
+ "çuxur-çökəkli": {
+  "az": "Çuxurlu, çökəkli, hamar olmayan (yer).",
+  "en": "pitted, uneven, bumpy",
+  "pos": "adjective"
+ },
+ "çuxurlu-təpəli": {
+  "az": "Gah çuxuru, gah təpəsi olan; kələ-kötür (ərazi).",
+  "en": "hilly and hollow, uneven (of terrain)",
+  "pos": "adjective"
+ },
+ "çuxurlu-çalalı": {
+  "az": "Çuxurları və çalaları olan (yol, yer).",
+  "en": "full of pits and potholes",
+  "pos": "adjective"
+ },
+ "çuxurlu-çökəkli": {
+  "az": "Çuxurları, çökəklikləri olan, düz olmayan.",
+  "en": "pitted, full of hollows",
+  "pos": "adjective"
+ },
+ "çuxurluq-təpəlik": {
+  "az": "Çuxurları və təpələri olan kələ-kötür yer.",
+  "en": "uneven ground of hollows and hillocks",
+  "pos": "noun"
+ },
+ "çuxurluq-çökəklik": {
+  "az": "Çuxur və çökəkliklərdən ibarət alçaq yer.",
+  "en": "hollows and depressions, low-lying ground",
+  "pos": "noun"
+ },
+ "çökük-qabarıq": {
+  "az": "Bəzi yerləri çökük, bəzi yerləri qabarıq olan (çökük-qabarıq linza).",
+  "en": "concavo-convex; uneven",
+  "pos": "adjective"
+ },
+ "çöl-biyaban": {
+  "az": "Adamsız, susuz, geniş çöl; səhra.",
+  "en": "wilderness, desert, wasteland",
+  "pos": "noun"
+ },
+ "çöl-düz": {
+  "az": "Açıq, geniş düzənlik; çöl.",
+  "en": "open plain, steppe",
+  "pos": "noun"
+ },
+ "çöl-səhra": {
+  "az": "Geniş, quraq və adamsız çöl.",
+  "en": "desert, wilderness",
+  "pos": "noun"
+ },
+ "çöllü-bayırlı": {
+  "skip": "meaning not certain"
+ },
+ "çömçəli-qaşıqlı": {
+  "skip": "meaning not certain"
+ },
+ "çürüdüb-atmaq": {
+  "az": "Çürüməyə qoyub yararsız hala salmaq və atmaq.",
+  "en": "to let rot and throw away",
+  "pos": "verb"
+ },
+ "çınqıl-daş": {
+  "az": "Çınqıl və daşlar; xırda daşlar.",
+  "en": "gravel and stones",
+  "pos": "noun"
+ },
+ "çınqıl-daşlı": {
+  "az": "Çınqıllı və daşlı (yer, torpaq).",
+  "en": "gravelly and stony",
+  "pos": "adjective"
+ },
+ "çınqıl-qumlu": {
+  "az": "Tərkibində çınqıl və qum olan (torpaq, sahil).",
+  "en": "gravelly-sandy",
+  "pos": "adjective"
+ },
+ "çınqıllı-qumlu": {
+  "az": "Çınqıl və qumla örtülü, tərkibində çınqıl və qum olan.",
+  "en": "gravelly and sandy",
+  "pos": "adjective"
+ },
+ "çıxıntı-girinti": {
+  "az": "Səthdəki çıxıntı və girintilər (sahil xəttinin çıxıntı-girintiləri).",
+  "en": "projections and recesses, ins and outs (of a surface or coastline)",
+  "pos": "noun"
+ },
+ "çıxıntılı-girintili": {
+  "az": "Çıxıntıları və girintiləri olan, düz olmayan (sahil xətti və s.).",
+  "en": "indented, jagged, irregular (of a coastline etc.)",
+  "pos": "adjective"
+ },
+ "çıxış-giriş": {
+  "az": "Bir yerə girib-çıxmaq üçün yol; giriş və çıxış.",
+  "en": "entrance and exit; access",
+  "pos": "noun"
+ },
+ "çıxış-girişli": {
+  "az": "Girişi və çıxışı olan (bina, yer).",
+  "en": "having entrances and exits",
+  "pos": "adjective"
+ },
+ "çıxış-qaçış": {
+  "az": "Çətin vəziyyətdən qurtulmaq üçün yol; çıxış yolu (çıxış-qaçış yolu qalmamaq).",
+  "en": "way out, means of escape",
+  "pos": "noun"
+ },
+ "çıxışlı-girişli": {
+  "az": "Çıxışı və girişi olan (bina, həyət).",
+  "en": "having exits and entrances",
+  "pos": "adjective"
+ },
+ "çığırtmalı-qovurmalı": {
+  "az": "Çığırtma, qovurma kimi yeməkləri olan; bol və ləzzətli (süfrə).",
+  "en": "with chigirtma and qovurma; rich, lavish (of a meal)",
+  "pos": "adjective"
+ },
+ "çığırtı-bağırtı": {
+  "az": "Qışqırıq səsləri, hay-küy.",
+  "en": "shouting and screaming, uproar",
+  "pos": "noun"
+ },
+ "çığırıb-bağırmaq": {
+  "az": "Ucadan qışqırmaq, hay-küy salmaq.",
+  "en": "to shout and scream, to yell",
+  "pos": "verb"
+ },
+ "çığırışıb-bağırışmaq": {
+  "az": "Hamı birlikdə və ya bir-birinə ucadan qışqırmaq, hay-küy qaldırmaq.",
+  "en": "to shout and yell at one another, to raise an uproar",
+  "pos": "verb"
+ },
+ "çəkic-külüng": {
+  "az": "Çəkic, külüng və bu kimi ağır əl alətləri.",
+  "en": "hammer and pickaxe; hand tools",
+  "pos": "noun"
+ },
+ "çəkic-kəlbətin": {
+  "az": "Çəkic, kəlbətin və bu kimi usta alətləri.",
+  "en": "hammer and tongs/pliers; tools",
+  "pos": "noun"
+ },
+ "çəkic-mismar": {
+  "az": "Çəkic və mismar; dülgər ləvazimatı.",
+  "en": "hammer and nails",
+  "pos": "noun"
+ },
+ "çəkic-pres": {
+  "skip": "technical term, meaning not certain"
+ },
+ "çəkic-zindan": {
+  "az": "Dəmirçinin çəkici və zindanı; dəmirçilik alətləri.",
+  "en": "hammer and anvil",
+  "pos": "noun",
+  "parts": false
+ },
+ "çəkinib-utanmaq": {
+  "az": "Utanıb çəkinmək, həya etmək.",
+  "en": "to be shy and hold back, to feel bashful",
+  "pos": "verb"
+ },
+ "çəkişib-bərkişmək": {
+  "az": "Bir-biri ilə mübahisə edib sərt danışmaq, dalaşmaq.",
+  "en": "to quarrel, to bicker, to have words",
+  "pos": "verb"
+ },
+ "çəmən-çala": {
+  "skip": "meaning not certain"
+ },
+ "çəmən-çayır": {
+  "az": "Otla örtülü çəmənliklər; otlaqlar.",
+  "en": "meadows, grassland",
+  "pos": "noun"
+ },
+ "çəməni-boz": {
+  "az": "Çəmən və boz torpaqların əlamətlərini birlikdə daşıyan (çəməni-boz torpaqlar).",
+  "en": "meadow-grey, meadow-serozem (of soils)",
+  "pos": "adjective"
+ },
+ "çəməni-sarı": {
+  "az": "Çəmən və sarı torpaqların əlamətlərini birlikdə daşıyan (çəməni-sarı torpaqlar).",
+  "en": "meadow-yellow (of soils)",
+  "pos": "adjective"
+ },
+ "çən-çiskin": {
+  "az": "Çən və çiskin; dumanlı, rütubətli hava.",
+  "en": "fog and drizzle, misty weather",
+  "pos": "noun"
+ },
+ "çəngəl-qaşıq": {
+  "az": "Çəngəl, qaşıq və bu kimi yemək alətləri.",
+  "en": "cutlery, forks and spoons",
+  "pos": "noun"
+ },
+ "çəngəl-qaşıqlı": {
+  "az": "Çəngəli, qaşığı olan; yemək alətləri ilə təchiz edilmiş (süfrə).",
+  "en": "with forks and spoons, laid with cutlery",
+  "pos": "adjective"
+ },
+ "çənli-dumanlı": {
+  "az": "Çən və duman bürümüş (hava, dağ).",
+  "en": "foggy, misty",
+  "pos": "adjective"
+ },
+ "çənli-çiskinli": {
+  "az": "Çənli və çiskin yağan (hava).",
+  "en": "foggy and drizzly",
+  "pos": "adjective"
+ },
+ "çənə-dilaltı": {
+  "az": "Alt çənə ilə dilaltı sümüyə aid olan (çənə-dilaltı əzələsi).",
+  "en": "mylohyoid",
+  "pos": "adjective"
+ },
+ "çərxi-dövran": {
+  "az": "Fələyin çərxi, zəmanənin gərdişi; tale.",
+  "en": "the wheel of fortune, the turn of fate",
+  "pos": "noun"
+ },
+ "çərəz-mərəz": {
+  "az": "Çərəz və bu kimi şeylər; müxtəlif qəlyanaltılar.",
+  "en": "snacks and the like, nibbles",
+  "pos": "noun",
+  "parts": false
+ },
+ "ögey-doğma": {
+  "az": "Ögey və doğma (ögey-doğma uşaqlar); doğma ilə yadın fərqləndirilməsi.",
+  "en": "step and natural (of children); one's own and others'",
+  "pos": "adjective"
+ },
+ "öküz-eşşək": {
+  "az": "Öküz, eşşək və bu kimi iş heyvanları.",
+  "en": "oxen and donkeys, draught animals",
+  "pos": "noun"
+ },
+ "öküz-ulaq": {
+  "az": "Öküz, ulaq və bu kimi yük və iş heyvanları.",
+  "en": "oxen and pack animals, draught animals",
+  "pos": "noun"
+ },
+ "ölçmə-informasiya": {
+  "az": "Ölçmələrin aparılması və nəticələrinin məlumat kimi işlənməsi ilə bağlı (ölçmə-informasiya sistemi).",
+  "en": "measurement-information (e.g. measurement information system)",
+  "pos": "adjective"
+ },
+ "ölçü-informasiya": {
+  "az": "Ölçü məlumatlarının alınması və işlənməsi ilə bağlı (ölçü-informasiya sistemi).",
+  "en": "measuring-information (e.g. measuring information system)",
+  "pos": "adjective"
+ },
+ "ölüb-itmək": {
+  "az": "Ölüb yox olmaq, tamamilə məhv olmaq; izi-tozu qalmamaq.",
+  "en": "to die out, to perish completely",
+  "pos": "verb"
+ },
+ "ölüm-əcəl": {
+  "az": "Ölüm; insanın ölüm vaxtı, əcəli.",
+  "en": "death, one's appointed hour of death",
+  "pos": "noun"
+ },
+ "ölümlü-itimli": {
+  "az": "Ölümü, itkisi olan; insanın hər an ölə, itə biləcəyi (ölümlü-itimli dünya).",
+  "en": "mortal, full of death and loss (of the world)",
+  "pos": "adjective",
+  "parts": false
+ },
+ "öləziyib-sönmək": {
+  "az": "Alov kimi tədricən zəifləyib sönmək; məc. tədricən yox olmaq.",
+  "en": "to flicker out, to die down and go out",
+  "pos": "verb"
+ },
+ "ömür-günlük": {
+  "az": "Bütün ömür boyu davam edən, ömürlük.",
+  "en": "lifelong",
+  "pos": "adjective"
+ },
+ "öpüşüb-görüşmək": {
+  "az": "Bir-birini öpərək salamlaşmaq, görüşmək.",
+  "en": "to greet each other with kisses",
+  "pos": "verb"
+ },
+ "örtmə-tikmə": {
+  "skip": "meaning not certain"
+ },
+ "örtülüb-açılmaq": {
+  "az": "Gah örtülüb, gah açılmaq; bağlanıb yenidən açılmaq.",
+  "en": "to close and open (repeatedly)",
+  "pos": "verb"
+ },
+ "örtülüb-basdırılmaq": {
+  "az": "Üstü örtülüb torpağa basdırılmaq; məc. ört-basdır edilmək, gizlədilmək.",
+  "en": "to be covered up and buried; fig. to be hushed up",
+  "pos": "verb"
+ },
+ "övrət-uşaq": {
+  "az": "Arvad və uşaqlar; ailə.",
+  "en": "wife and children, family",
+  "pos": "noun"
+ },
+ "öyrədici-yoxlayıcı": {
+  "az": "Həm öyrətmək, həm də bilikləri yoxlamaq məqsədi daşıyan (öyrədici-yoxlayıcı proqram).",
+  "en": "teaching-and-testing (e.g. a training and testing program)",
+  "pos": "adjective"
+ },
+ "ülgüc-bülöv": {
+  "az": "Ülgüc və onu itiləmək üçün bülöv; üz qırxma ləvazimatı.",
+  "en": "razor and whetstone, shaving kit",
+  "pos": "noun"
+ },
+ "ümumi-frontal": {
+  "skip": "meaning not certain"
+ },
+ "ünvan-sorğu": {
+  "az": "Yaşayış ünvanları barədə məlumat verən (ünvan-sorğu bürosu).",
+  "en": "address-inquiry (e.g. address bureau)",
+  "pos": "adjective"
+ },
+ "ürək-böyrək": {
+  "skip": "meaning not certain"
+ },
+ "ürək-ciyər": {
+  "az": "Heyvanın ürəyi və ciyərləri; sakatat.",
+  "en": "heart and liver/lungs; offal, pluck",
+  "pos": "noun"
+ },
+ "ürək-dayaq": {
+  "az": "Mənəvi dayaq, arxa; insanın güvəndiyi adam.",
+  "en": "moral support, a person to lean on",
+  "pos": "noun"
+ },
+ "ürək-göbək": {
+  "skip": "meaning not certain"
+ },
+ "ütü-pres": {
+  "az": "Paltarı sıxaraq ütüləyən qurğu; pres-ütü.",
+  "en": "ironing press, press iron",
+  "pos": "noun"
+ },
+ "üyüdüb-tökmək": {
+  "skip": "meaning not certain"
+ },
+ "üzük-bilərzik": {
+  "az": "Üzük, bilərzik və bu kimi bəzək əşyaları; zinət əşyaları.",
+  "en": "rings and bracelets, jewellery",
+  "pos": "noun"
+ },
+ "üzük-sırğa": {
+  "az": "Üzük, sırğa və bu kimi qadın bəzəkləri.",
+  "en": "rings and earrings, jewellery",
+  "pos": "noun"
+ },
+ "şad-kam": {
+  "az": "Arzusuna çatıb sevinən, şad və məmnun.",
+  "en": "happy and content, joyful (having one's wishes fulfilled)",
+  "pos": "adjective"
+ },
+ "şadaraçı-qarışdırıcı": {
+  "skip": "meaning not certain"
+ },
+ "şadlıq-şadyanalıq": {
+  "az": "Böyük sevinc, şənlik, bayram əhval-ruhiyyəsi.",
+  "en": "joy and merriment, rejoicing",
+  "pos": "noun"
+ },
+ "şahidli-sübutlu": {
+  "az": "Şahidi və sübutu olan, dəlillərlə təsdiqlənmiş.",
+  "en": "with witnesses and evidence, well-attested",
+  "pos": "adjective"
+ },
+ "şair-dilçi": {
+  "az": "Həm şair, həm də dilçi olan şəxs.",
+  "en": "poet and linguist",
+  "pos": "noun"
+ }
+}

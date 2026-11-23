@@ -1,0 +1,970 @@
+{
+ "mətnşünas-tarixçi": {
+  "az": "Həm mətnşünas, həm də tarixçi olan alim.",
+  "en": "textual scholar and historian",
+  "pos": "noun"
+ },
+ "mətnşünas-ədəbiyyatçı": {
+  "az": "Həm mətnşünas, həm də ədəbiyyatşünas olan alim.",
+  "en": "textual scholar and literary scholar",
+  "pos": "noun"
+ },
+ "məşhuri-cahan": {
+  "az": "Bütün dünyada tanınan, dünyaca məşhur.",
+  "en": "world-famous, renowned",
+  "pos": "adjective"
+ },
+ "məşqçi-həkim": {
+  "az": "İdmançılarla işləyən məşqçi və həkim birlikdə (məşqçi-həkim heyəti).",
+  "en": "coaches and doctors; coaching and medical staff (of a team)",
+  "pos": "noun"
+ },
+ "məşqçi-masajçı": {
+  "az": "Həm məşqçi, həm də masajçı kimi çalışan şəxs; məşqçi və masajçı heyəti.",
+  "en": "coach and masseur",
+  "pos": "noun"
+ },
+ "məşqçi-seleksiyaçı": {
+  "az": "Komanda üçün istedadlı oyunçuları axtarıb seçən məşqçi.",
+  "en": "coach-scout (coach responsible for selecting players)",
+  "pos": "noun"
+ },
+ "məşvərət-məsləhət": {
+  "az": "Bir iş barədə birlikdə fikir mübadiləsi aparma, məsləhətləşmə.",
+  "en": "consultation, deliberation and advice",
+  "pos": "noun"
+ },
+ "məşvərətli-məsləhətli": {
+  "az": "Başqaları ilə məsləhətləşərək, ümumi razılıqla görülən (məşvərətli-məsləhətli iş).",
+  "en": "done with consultation, after taking counsel",
+  "pos": "adjective"
+ },
+ "naib-nökər": {
+  "az": "Keçmişdə naiblər və onların nökərləri; hakimin məmurları və xidmətçiləri.",
+  "en": "naibs and their servants; officials and retainers (historical)",
+  "pos": "noun"
+ },
+ "naib-nökərli": {
+  "az": "Ətrafında naibləri və nökərləri olan, böyük xidmətçi dəstəsi ilə gəzən.",
+  "en": "attended by deputies and servants; with a retinue",
+  "pos": "adjective"
+ },
+ "nal-mıx": {
+  "az": "Nal və onu bərkitmək üçün mıxlar; nallama ləvazimatı.",
+  "en": "horseshoes and horseshoe nails",
+  "pos": "noun"
+ },
+ "nal-mıxlı": {
+  "az": "Nalı və mıxları vurulmuş (at, çəkmə və s.).",
+  "en": "shod, fitted with horseshoes (or heel irons) and nails",
+  "pos": "adjective"
+ },
+ "nal-mıxsız": {
+  "az": "Nalı və mıxı olmayan, nallanmamış.",
+  "en": "unshod",
+  "pos": "adjective"
+ },
+ "nalə-fəryad": {
+  "az": "Ağrı və ya kədərdən qopan ucadan inilti və fəryad; ah-nalə.",
+  "en": "wailing and lamentation, groans and cries",
+  "pos": "noun"
+ },
+ "namuslu-qeyrətli": {
+  "az": "Namusunu və şərəfini qoruyan, qeyrətli və ləyaqətli.",
+  "en": "honourable and self-respecting, decent and spirited",
+  "pos": "adjective"
+ },
+ "namussuz-qeyrətsiz": {
+  "az": "Namusu və qeyrəti olmayan, şərəfsiz və ləyaqətsiz.",
+  "en": "dishonourable and shameless",
+  "pos": "adjective"
+ },
+ "nasir-dramaturq": {
+  "az": "Həm nəsr əsərləri, həm də pyeslər yazan yazıçı.",
+  "en": "prose writer and playwright",
+  "pos": "noun"
+ },
+ "nasos-forsunka": {
+  "az": "Dizel mühərrikində yanacağı həm sıxan, həm də silindrə püskürdən birləşmiş qurğu.",
+  "en": "unit injector, pump-injector",
+  "pos": "noun"
+ },
+ "naxış-ornament": {
+  "az": "Bir şeyin üzərindəki bəzək naxışları və ornamentlər; bəzək.",
+  "en": "patterns and ornaments, ornamentation",
+  "pos": "noun"
+ },
+ "nazildib-hamarlamaq": {
+  "az": "Bir şeyi incəldib səthini düz və hamar etmək.",
+  "en": "to thin and smooth (out)",
+  "pos": "verb"
+ },
+ "nazilib-qırılmaq": {
+  "az": "Getdikcə incəlib nəhayət qırılmaq; həddən artıq incəlmək.",
+  "en": "to wear thin and break",
+  "pos": "verb"
+ },
+ "nazlanıb-əzizlənmək": {
+  "az": "Naz edib özünü əzizlətmək, nazla başqalarının qayğısını və diqqətini istəmək.",
+  "en": "to be coy and pampered, to play the spoilt darling",
+  "pos": "verb"
+ },
+ "nazlı-işvəli": {
+  "az": "Çox naz və işvə göstərən, cazibəli və şux.",
+  "en": "coquettish, coy and flirtatious",
+  "pos": "adjective"
+ },
+ "nazlı-qəmzəlı": {
+  "az": "Nazlı və süzgün baxışlı, qəmzə ilə cazibə göstərən.",
+  "en": "coquettish, with languid glances",
+  "pos": "adjective"
+ },
+ "nağara-qaval": {
+  "az": "Nağara və qaval; şənliklərdə çalınan zərb alətləri.",
+  "en": "drum and tambourine; percussion (at festivities)",
+  "pos": "noun"
+ },
+ "nağara-zurna": {
+  "az": "Toy-bayramda çalınan nağara və zurna, şən el musiqisi; məc. təntənə, hay-küy (nağara-zurna ilə qarşılamaq).",
+  "en": "drum and zurna; festive folk music; fig. fanfare, pomp",
+  "pos": "noun"
+ },
+ "nağaralı-zurnalı": {
+  "az": "Nağara və zurna çalınan, musiqili və təmtəraqlı (nağaralı-zurnalı toy).",
+  "en": "with drum and zurna; with music and fanfare",
+  "pos": "adjective"
+ },
+ "nağıl-dastan": {
+  "az": "Nağıllar və dastanlar; şifahi xalq ədəbiyyatının hekayə janrları.",
+  "en": "tales and epics, folk tales",
+  "pos": "noun"
+ },
+ "nağıl-hekayət": {
+  "az": "Nağıllar və hekayətlər; danışılan əhvalatlar.",
+  "en": "tales and stories",
+  "pos": "noun"
+ },
+ "nağıl-opera": {
+  "az": "Nağıl süjeti əsasında yazılmış opera.",
+  "en": "fairy-tale opera",
+  "pos": "noun"
+ },
+ "nağıl-roman": {
+  "az": "Nağıl üslubunda yazılmış, fantastik süjetli roman.",
+  "en": "fairy-tale novel",
+  "pos": "noun"
+ },
+ "nağıl-rəvayət": {
+  "az": "Nağıllar və rəvayətlər; xalq arasında dolaşan əfsanəvi hekayələr.",
+  "en": "tales and legends, folklore",
+  "pos": "noun"
+ },
+ "netto-balans": {
+  "az": "Gəlir və xərclər və ya aktiv və passivlər arasındakı xalis fərq; xalis balans.",
+  "en": "net balance",
+  "pos": "noun"
+ },
+ "ney-nağara": {
+  "az": "Ney və nağara; el şənliklərində çalınan musiqi.",
+  "en": "reed flute and drum (folk music)",
+  "pos": "noun"
+ },
+ "neytron-karotaj": {
+  "az": "Quyuda süxurların neytron şüalanması vasitəsilə tədqiqi üsulu.",
+  "en": "neutron logging (of wells)",
+  "pos": "noun"
+ },
+ "neştərləyib-deşmək": {
+  "az": "Neştərlə və ya iti uclu bir şeylə deşib yarmaq.",
+  "en": "to lance and pierce",
+  "pos": "verb"
+ },
+ "nikotin-sulfat": {
+  "az": "Nikotinin sulfat turşusu ilə duzu; bitki zərərvericilərinə qarşı işlədilir.",
+  "en": "nicotine sulphate (an insecticide)",
+  "pos": "noun"
+ },
+ "nitrat-ion": {
+  "az": "Azot turşusunun mənfi yüklü ionu (NO₃⁻).",
+  "en": "nitrate ion",
+  "pos": "noun"
+ },
+ "nizə-qılınc": {
+  "az": "Nizə və qılınc; soyuq silahlar; məc. döyüş, müharibə.",
+  "en": "spear and sword; arms; fig. warfare",
+  "pos": "noun"
+ },
+ "nişasta-şəkər": {
+  "az": "Nişasta və şəkər; karbohidratlı maddələr (nişasta-şəkər sənayesi).",
+  "en": "starch and sugar; carbohydrates",
+  "pos": "noun"
+ },
+ "nişastalı-şəkərli": {
+  "az": "Tərkibində nişasta və şəkər olan (nişastalı-şəkərli qidalar).",
+  "en": "containing starch and sugar, carbohydrate-rich",
+  "pos": "adjective"
+ },
+ "novator-pedaqoq": {
+  "az": "Təlim-tərbiyədə yeni üsullar tətbiq edən müəllim.",
+  "en": "innovative teacher",
+  "pos": "noun"
+ },
+ "novator-rəssam": {
+  "az": "Təsviri sənətə yeni üslub və üsullar gətirən rəssam.",
+  "en": "innovative artist",
+  "pos": "noun"
+ },
+ "novator-yazıçı": {
+  "az": "Ədəbiyyata yeni ideya, forma və üsullar gətirən yazıçı.",
+  "en": "innovative writer",
+  "pos": "noun"
+ },
+ "novator-şair": {
+  "az": "Poeziyaya yeni forma və üslub gətirən şair.",
+  "en": "innovative poet",
+  "pos": "noun"
+ },
+ "novella-dram": {
+  "az": "Novella və dram janrlarının xüsusiyyətlərini birləşdirən əsər.",
+  "en": "novella-drama (work combining both genres)",
+  "pos": "noun"
+ },
+ "novella-oçerk": {
+  "az": "Novella və oçerk xüsusiyyətlərini birləşdirən nəsr əsəri.",
+  "en": "novella-sketch (prose work combining both genres)",
+  "pos": "noun"
+ },
+ "novella-xatirə": {
+  "az": "Xatirə əsasında novella şəklində yazılmış əsər.",
+  "en": "memoir novella",
+  "pos": "noun"
+ },
+ "noğul-nabat": {
+  "az": "Noğul, nabat və bu kimi şirniyyat; şirni.",
+  "en": "sweets, confectionery (sugared sweets and rock candy)",
+  "pos": "noun"
+ },
+ "nökər-qarabaş": {
+  "az": "Keçmişdə varlı evlərdə qulluq edən kişi və qadın xidmətçilər.",
+  "en": "servants and maidservants, household servants",
+  "pos": "noun"
+ },
+ "nökər-qulluqçu": {
+  "az": "Nökərlər və qulluqçular; xidmətçilər.",
+  "en": "servants",
+  "pos": "noun"
+ },
+ "nöqtəli-vergüllü": {
+  "az": "Nöqtə və vergülləri yerində olan, durğu işarələri qoyulmuş (yazı).",
+  "en": "punctuated (with full stops and commas)",
+  "pos": "adjective"
+ },
+ "nöqtəsiz-vergülsüz": {
+  "az": "Nöqtəsi, vergülü olmayan, durğu işarəsiz; məc. aramsız, fasiləsiz (danışmaq).",
+  "en": "unpunctuated; fig. nonstop, without a pause",
+  "pos": "adjective"
+ },
+ "nöqtəvi-müstəvi": {
+  "skip": "technical term, meaning not certain"
+ },
+ "növləşdirib-qablaşdırmaq": {
+  "az": "Məhsulu növlərinə görə ayırıb qablara yığmaq.",
+  "en": "to sort and pack",
+  "pos": "verb"
+ },
+ "nümunə-təcrübə": {
+  "skip": "meaning not certain"
+ },
+ "nüvə-güc": {
+  "az": "Nüvə reaksiyasından alınan enerjiyə əsaslanan (nüvə-güc qurğusu).",
+  "en": "nuclear power",
+  "pos": "noun"
+ },
+ "nüvə-hüceyrə": {
+  "az": "Hüceyrə nüvəsi və bütövlükdə hüceyrə; onların qarşılıqlı əlaqəsinə aid olan.",
+  "en": "nucleus and cell (biology)",
+  "pos": "noun"
+ },
+ "nüvə-onurğa": {
+  "skip": "meaning not certain"
+ },
+ "nüvə-plazma": {
+  "skip": "ambiguous: biology or physics sense not certain"
+ },
+ "nüvə-raket": {
+  "az": "Nüvə döyüş başlıqlı raketlərə aid olan (nüvə-raket silahı).",
+  "en": "nuclear missile",
+  "pos": "noun"
+ },
+ "nüvə-sitoplazma": {
+  "az": "Hüceyrə nüvəsi ilə sitoplazmaya birlikdə aid olan (nüvə-sitoplazma nisbəti).",
+  "en": "nucleus and cytoplasm; nuclear-cytoplasmic",
+  "pos": "noun"
+ },
+ "nüvə-ulduz": {
+  "skip": "meaning not certain"
+ },
+ "nüvəcik-nüvə": {
+  "az": "Hüceyrə nüvəsi və onun içindəki nüvəcik; onlara birlikdə aid olan.",
+  "en": "nucleolus and nucleus",
+  "pos": "noun"
+ },
+ "nəcis-sidik": {
+  "az": "Nəcis və sidik; orqanizmin ifrazatı.",
+  "en": "faeces and urine, excreta",
+  "pos": "noun"
+ },
+ "nənə-babalı": {
+  "az": "Nənəsi və babası olan, nənə-baba ilə birlikdə yaşayan (ailə).",
+  "en": "with grandparents",
+  "pos": "adjective"
+ },
+ "nənə-bala": {
+  "az": "Nənə ilə nəvəsi, nənə və balası.",
+  "en": "grandmother and grandchild",
+  "pos": "noun"
+ },
+ "nənə-balalı": {
+  "az": "Nənə ilə nəvəsi bir yerdə olan (nənə-balalı getmək).",
+  "en": "grandmother and grandchild together",
+  "pos": "adjective"
+ },
+ "nənə-nəvə": {
+  "az": "Nənə və nəvəsi; onlar arasında olan (nənə-nəvə münasibətləri).",
+  "en": "grandmother and grandchild",
+  "pos": "noun"
+ },
+ "nənə-nəvəli": {
+  "az": "Nənə ilə nəvələri bir yerdə olan; nənəsi və nəvələri olan (ailə).",
+  "en": "with grandmother and grandchildren together",
+  "pos": "adjective"
+ },
+ "nənəli-babalı": {
+  "az": "Nənəsi və babası olan, nənə-baba himayəsində böyüyən.",
+  "en": "having grandparents (living)",
+  "pos": "adjective"
+ },
+ "nənəli-balalı": {
+  "az": "Nənələri və uşaqları ilə birlikdə, bütün ailə üzvləri ilə.",
+  "en": "with grannies and children; with the whole family",
+  "pos": "adjective"
+ },
+ "nəriltili-gurultulu": {
+  "az": "Bərk nərilti və gurultu ilə müşayiət olunan.",
+  "en": "roaring and thundering",
+  "pos": "adjective"
+ },
+ "nəsihət-moizə": {
+  "az": "Birinə düzgün yol göstərmək üçün deyilən öyüd və vəz sözləri.",
+  "en": "admonition and preaching; moralizing",
+  "pos": "noun"
+ },
+ "nəticə-kötücə": {
+  "az": "Nəticələr və kötücələr; uzaq nəsil, törəmələr.",
+  "en": "great-grandchildren and great-great-grandchildren; descendants",
+  "pos": "noun",
+  "parts": false
+ },
+ "nəticəli-kötücəli": {
+  "az": "Nəticələri və kötücələri olan; nəsli çoxalmış.",
+  "en": "with great-grandchildren and great-great-grandchildren",
+  "pos": "adjective",
+  "parts": false
+ },
+ "nəzarət-baxış": {
+  "az": "Bir şeyin vəziyyətini yoxlamaq üçün nəzarət məqsədilə keçirilən baxış.",
+  "en": "inspection, control check",
+  "pos": "noun"
+ },
+ "nəzarət-profilaktiki": {
+  "az": "Nəzarət və profilaktika məqsədi daşıyan (nəzarət-profilaktiki tədbirlər).",
+  "en": "control and preventive",
+  "pos": "adjective"
+ },
+ "nəzarət-sınaq": {
+  "az": "Nəzarət məqsədilə keçirilən sınaq (nəzarət-sınaq işi).",
+  "en": "control test, test check",
+  "pos": "noun"
+ },
+ "nəzarət-xilasetmə": {
+  "az": "Nəzarət və xilasetmə işləri görən (nəzarət-xilasetmə xidməti).",
+  "en": "monitoring and rescue",
+  "pos": "adjective"
+ },
+ "nəzarət-yoxlama": {
+  "az": "Bir işin düzgünlüyünü müəyyən etmək üçün aparılan nəzarət və yoxlama.",
+  "en": "inspection, control and checking; audit",
+  "pos": "noun"
+ },
+ "nəzarətçi-çeşidləyici": {
+  "az": "Məhsulun keyfiyyətinə nəzarət edib onu növlərə ayıran işçi.",
+  "en": "inspector-sorter",
+  "pos": "noun"
+ },
+ "nəzəri-doqmatik": {
+  "az": "Həyatdan ayrı, quru nəzəriyyəyə və ehkamlara əsaslanan.",
+  "en": "theoretical and dogmatic",
+  "pos": "adjective"
+ },
+ "nəzəri-ehkamçı": {
+  "az": "Nəzəriyyəni ehkam kimi qəbul edən, təcrübədən ayrı (nəzəri-ehkamçı yanaşma).",
+  "en": "doctrinaire, theoretically dogmatic",
+  "pos": "adjective"
+ },
+ "nəzəri-intellektual": {
+  "az": "Nəzəri və əqli fəaliyyətə aid olan.",
+  "en": "theoretical and intellectual",
+  "pos": "adjective"
+ },
+ "nəzəri-iqtisadi": {
+  "az": "İqtisadiyyatın nəzəri məsələlərinə aid olan.",
+  "en": "theoretical-economic, of economic theory",
+  "pos": "adjective"
+ },
+ "nəzəri-riyazi": {
+  "az": "Həm nəzəri, həm də riyazi xarakter daşıyan; nəzəri riyaziyyata aid.",
+  "en": "theoretical and mathematical",
+  "pos": "adjective"
+ },
+ "nəşriyyatçı-tipoqraf": {
+  "az": "Həm nəşriyyat, həm də mətbəə işi ilə məşğul olan şəxs.",
+  "en": "publisher and printer",
+  "pos": "noun"
+ },
+ "oda-simfoniya": {
+  "az": "Oda xarakterli, təntənəli simfonik əsər.",
+  "en": "ode-symphony",
+  "pos": "noun"
+ },
+ "odlu-atəşin": {
+  "az": "Odlu, alovlu; çox ehtiraslı, coşğun (odlu-atəşin nitq).",
+  "en": "fiery, ardent, passionate",
+  "pos": "adjective"
+ },
+ "odlu-hisli": {
+  "az": "Od yanan və his-tüstü ilə dolu olan.",
+  "en": "full of fire and soot",
+  "pos": "adjective"
+ },
+ "odsuz-hissiz": {
+  "skip": "ambiguous (soot or feeling), meaning not certain"
+ },
+ "okean-dəniz": {
+  "az": "Okeanlar və dənizlər; dünyanın su hövzələri.",
+  "en": "oceans and seas",
+  "pos": "noun"
+ },
+ "oksigen-konverter": {
+  "az": "Poladın oksigen üfürülən konverterdə əridilməsinə aid olan (oksigen-konverter üsulu).",
+  "en": "basic oxygen (converter) steelmaking",
+  "pos": "noun"
+ },
+ "olan-keçən": {
+  "az": "Baş vermiş hadisələr, olub keçənlər (olan-keçəni danışmaq).",
+  "en": "what happened, the events that took place",
+  "pos": "noun"
+ },
+ "olub-keçmək": {
+  "az": "Baş verib qurtarmaq, artıq keçmişdə qalmaq.",
+  "en": "to happen and be over; to be a thing of the past",
+  "pos": "verb"
+ },
+ "omeqa-zərrəcik": {
+  "az": "Yunan omeqa hərfi ilə işarələnən elementar zərrəcik.",
+  "en": "omega particle",
+  "pos": "noun"
+ },
+ "onurğa-diafraqma": {
+  "skip": "anatomical term, meaning not certain"
+ },
+ "onurğa-ürək": {
+  "skip": "meaning not certain"
+ },
+ "opera-kantata": {
+  "az": "Opera və kantata xüsusiyyətlərini birləşdirən vokal-səhnə əsəri.",
+  "en": "opera-cantata",
+  "pos": "noun"
+ },
+ "opera-komediya": {
+  "az": "Komediya xarakterli opera, komik opera.",
+  "en": "comic opera",
+  "pos": "noun"
+ },
+ "opera-nağıl": {
+  "az": "Nağıl süjeti əsasında yazılmış opera.",
+  "en": "fairy-tale opera",
+  "pos": "noun"
+ },
+ "opera-poema": {
+  "az": "Poema xarakterli, lirik-epik süjetli opera.",
+  "en": "opera-poem",
+  "pos": "noun"
+ },
+ "opera-vodevil": {
+  "az": "Vodevil xarakterli yüngül, şən musiqili səhnə əsəri.",
+  "en": "vaudeville opera, light comic opera",
+  "pos": "noun"
+ },
+ "opera-əfsanə": {
+  "az": "Əfsanə süjeti əsasında yazılmış opera.",
+  "en": "opera-legend, opera based on a legend",
+  "pos": "noun"
+ },
+ "operativ-istehsal": {
+  "az": "İstehsalın cari, gündəlik idarə olunmasına aid olan (operativ-istehsal planlaşdırması).",
+  "en": "operational production (planning, management)",
+  "pos": "adjective"
+ },
+ "optik-akustik": {
+  "az": "İşıq və səs hadisələrinə birlikdə aid olan.",
+  "en": "optoacoustic, optical-acoustic",
+  "pos": "adjective"
+ },
+ "optik-analoji": {
+  "skip": "technical term, meaning not certain"
+ },
+ "optik-astronomik": {
+  "az": "Optik vasitələrlə aparılan astronomik müşahidələrə aid olan.",
+  "en": "optical-astronomical",
+  "pos": "adjective"
+ },
+ "optik-elektrik": {
+  "az": "Optik və elektrik hadisələrini birləşdirən, işığı elektrik siqnalına çevirən.",
+  "en": "optoelectric, electro-optical",
+  "pos": "adjective"
+ },
+ "optik-fotoqrafik": {
+  "az": "Optik cihazlarla fotoşəkil çəkməyə aid olan.",
+  "en": "optical-photographic",
+  "pos": "adjective"
+ },
+ "optik-kinetik": {
+  "az": "Görmə ilə hərəkətin əlaqəsinə, optik və kinetik hadisələrə aid olan.",
+  "en": "optokinetic, optical-kinetic",
+  "pos": "adjective"
+ },
+ "optik-qrafik": {
+  "az": "Həm optik, həm də qrafik üsullara aid olan.",
+  "en": "optical-graphic",
+  "pos": "adjective"
+ },
+ "optik-radioastronomik": {
+  "az": "Həm optik, həm də radioastronomik üsullarla aparılan (müşahidələr).",
+  "en": "optical and radio-astronomical",
+  "pos": "adjective"
+ },
+ "orfoqrafik-qrammatik": {
+  "az": "Həm yazılış, həm də qrammatika qaydalarına aid olan (orfoqrafik-qrammatik səhvlər).",
+  "en": "orthographic and grammatical, spelling and grammar",
+  "pos": "adjective"
+ },
+ "ortodoksal-katolik": {
+  "az": "Pravoslav və katolik kilsələrinə birlikdə aid olan.",
+  "en": "Orthodox and Catholic",
+  "pos": "adjective"
+ },
+ "oruc-namaz": {
+  "az": "Oruc tutma və namaz qılma; dini ibadətlər.",
+  "en": "fasting and prayer; religious observance",
+  "pos": "noun"
+ },
+ "oruclu-namazlı": {
+  "az": "Oruc tutan, namaz qılan; dindar, ibadətə sadiq.",
+  "en": "pious, observant (fasting and praying)",
+  "pos": "adjective"
+ },
+ "otlu-sulu": {
+  "az": "Otu və suyu bol olan (otlu-sulu yaylaq).",
+  "en": "with plenty of grass and water, lush (of pasture)",
+  "pos": "adjective"
+ },
+ "otlu-çiçəkli": {
+  "az": "Otla və çiçəklə örtülü olan (otlu-çiçəkli çəmən).",
+  "en": "grassy and flowery",
+  "pos": "adjective"
+ },
+ "otsuz-alafsız": {
+  "az": "Otu və alafı olmayan, heyvan üçün yemi olmayan; quru, çılpaq.",
+  "en": "without grass or fodder, barren",
+  "pos": "adjective"
+ },
+ "otsuz-çiçəksiz": {
+  "az": "Ot və çiçək bitməyən, çılpaq (otsuz-çiçəksiz çöl).",
+  "en": "without grass or flowers, bare",
+  "pos": "adjective"
+ },
+ "oturaq-bud": {
+  "az": "Oturaq sümüyü ilə bud sümüyünə aid olan (anatomiyada).",
+  "en": "ischiofemoral (anatomy)",
+  "pos": "adjective",
+  "parts": false
+ },
+ "oturaq-dizaltı": {
+  "skip": "anatomical term, meaning not certain"
+ },
+ "oturaq-düz": {
+  "skip": "anatomical term, meaning not certain"
+ },
+ "ovçuluq-atıcılıq": {
+  "az": "Ovçuluq və atıcılıq; ov və nişanaatma idmanı (ovçuluq-atıcılıq klubu).",
+  "en": "hunting and shooting",
+  "pos": "noun"
+ },
+ "oxlu-yaraqlı": {
+  "az": "Oxu, yayı və silahı olan; silahlanmış.",
+  "en": "armed (with bow, arrows and weapons)",
+  "pos": "adjective"
+ },
+ "oyun-məşq": {
+  "az": "Oyun şəklində keçirilən məşq; məşq oyunu.",
+  "en": "practice game, game-based training",
+  "pos": "noun"
+ },
+ "oğlan-uşaq": {
+  "az": "Oğlan uşaqları; oğlanlar, cavanlar.",
+  "en": "boys, lads",
+  "pos": "noun"
+ },
+ "oğul-qız": {
+  "az": "Oğullar və qızlar; övladlar.",
+  "en": "sons and daughters, children",
+  "pos": "noun"
+ },
+ "palanlı-noxtalı": {
+  "az": "Belinə palan, başına noxta salınmış (eşşək, at və s.).",
+  "en": "saddled and haltered (of a pack animal)",
+  "pos": "adjective"
+ },
+ "palanlı-çullu": {
+  "az": "Belinə palan və çul salınmış (heyvan).",
+  "en": "with pack saddle and saddlecloth",
+  "pos": "adjective"
+ },
+ "paleoqraf-dilçi": {
+  "az": "Həm paleoqraf, həm də dilçi olan alim.",
+  "en": "paleographer and linguist",
+  "pos": "noun"
+ },
+ "paleoqraf-mətnşünas": {
+  "az": "Həm paleoqraf, həm də mətnşünas olan alim.",
+  "en": "paleographer and textual scholar",
+  "pos": "noun"
+ },
+ "paleoqraf-tarixçi": {
+  "az": "Həm paleoqraf, həm də tarixçi olan alim.",
+  "en": "paleographer and historian",
+  "pos": "noun"
+ },
+ "paltar-palaz": {
+  "az": "Geyim, döşənəcək və başqa ev əşyaları; şey-şüy (paltar-palazını yığmaq).",
+  "en": "belongings, household goods (clothes, rugs, etc.)",
+  "pos": "noun"
+ },
+ "paltar-palazlı": {
+  "az": "Bütün paltarı və ev əşyaları ilə birlikdə (paltar-palazlı köçmək).",
+  "en": "with all one's belongings",
+  "pos": "adjective"
+ },
+ "paltarlı-palazlı": {
+  "az": "Bütün geyimi və ev əşyaları ilə birlikdə.",
+  "en": "with all one's belongings",
+  "pos": "adjective"
+ },
+ "pambıqçı-mexanizator": {
+  "az": "Pambıq becərilməsində kənd təsərrüfatı maşınları ilə işləyən işçi.",
+  "en": "cotton-growing machine operator",
+  "pos": "noun"
+ },
+ "panel-şüa": {
+  "skip": "technical term, meaning not certain"
+ },
+ "papaq-yaylıq": {
+  "az": "Papaq və yaylıq; kişi və qadın baş geyimləri.",
+  "en": "hats and headscarves, headwear",
+  "pos": "noun"
+ },
+ "parad-baxış": {
+  "az": "Qoşunların və ya idmançıların təntənəli baxışı, parad şəklində nümayişi.",
+  "en": "parade review",
+  "pos": "noun"
+ },
+ "parad-nümayiş": {
+  "az": "Təntənəli yürüş və nümayiş; parad şəklində keçirilən nümayiş.",
+  "en": "parade and demonstration",
+  "pos": "noun"
+ },
+ "parad-proloq": {
+  "skip": "meaning not certain"
+ },
+ "park-qaraj": {
+  "az": "Avtomobillərin saxlanılması və xidməti üçün dayanacaq və qaraj (park-qaraj təsərrüfatı).",
+  "en": "vehicle depot and garage",
+  "pos": "noun",
+  "parts": false
+ },
+ "patriarxal-icma": {
+  "az": "Ata nəslinə əsaslanan, ağsaqqalın başçılıq etdiyi qəbilə icması.",
+  "en": "patriarchal community",
+  "pos": "noun"
+ },
+ "patriarxal-konservativ": {
+  "az": "Ataxanlıq ənənələrinə və köhnə qaydalara bağlı, mühafizəkar.",
+  "en": "patriarchal and conservative",
+  "pos": "adjective"
+ },
+ "pay-bölüş": {
+  "az": "Bir şeyi pay-pay bölmə, bölüşdürmə.",
+  "en": "sharing out, division into shares",
+  "pos": "noun"
+ },
+ "pedaqoq-tərbiyəçi": {
+  "az": "Uşaqların təlimi və tərbiyəsi ilə məşğul olan müəllim.",
+  "en": "teacher and educator, children's educator",
+  "pos": "noun"
+ },
+ "pencəkli-şalvarlı": {
+  "az": "Əynində pencək və şalvar olan; kostyum geyinmiş.",
+  "en": "wearing a jacket and trousers, in a suit",
+  "pos": "adjective"
+ },
+ "pencəksiz-şalvarsız": {
+  "az": "Əynində pencək və şalvar olmayan; yarıçılpaq.",
+  "en": "without jacket or trousers, half-dressed",
+  "pos": "adjective"
+ },
+ "pendir-çörək": {
+  "az": "Pendir və çörək; sadə, gündəlik yemək.",
+  "en": "bread and cheese; simple fare",
+  "pos": "noun"
+ },
+ "pensiya-müavinət": {
+  "az": "Pensiyalar və müavinətlər; sosial ödənişlər.",
+  "en": "pensions and benefits, social payments",
+  "pos": "noun"
+ },
+ "perlit-beton": {
+  "az": "Perlit qatılmaqla hazırlanan yüngül beton.",
+  "en": "perlite concrete",
+  "pos": "noun"
+ },
+ "peyk-şəhərcik": {
+  "az": "Böyük şəhərin yaxınlığında salınmış kiçik peyk şəhər.",
+  "en": "satellite town",
+  "pos": "noun"
+ },
+ "pianoçu-illüstrator": {
+  "az": "Musiqi dərslərində və mühazirələrdə nümunələri fortepianoda ifa edən pianoçu.",
+  "en": "pianist-illustrator (plays musical examples in lectures)",
+  "pos": "noun"
+ },
+ "pir-ocaq": {
+  "az": "Müqəddəs sayılan ziyarət yerləri; pirlər və ocaqlar.",
+  "en": "shrines, holy places",
+  "pos": "noun"
+ },
+ "pis-yaxşı": {
+  "az": "Yaxşı və ya pis, necə olursa olsun; birtəhər (pis-yaxşı dolanmaq).",
+  "en": "for better or worse; somehow, after a fashion",
+  "pos": "adverb"
+ },
+ "piston-detonator": {
+  "az": "Partlayıcı maddəni işə salmaq üçün kapsullu detonator.",
+  "en": "detonator cap, blasting cap",
+  "pos": "noun"
+ },
+ "piy-dənəli": {
+  "skip": "meaning not certain"
+ },
+ "plakat-diaqram": {
+  "az": "Plakat şəklində hazırlanmış diaqram; diaqramlı plakat.",
+  "en": "poster diagram, wall chart",
+  "pos": "noun"
+ },
+ "plakat-portret": {
+  "az": "Plakat şəklində böyük ölçülü portret.",
+  "en": "poster portrait",
+  "pos": "noun"
+ },
+ "plan-fakt": {
+  "az": "Planlaşdırılan göstəricilərlə faktiki nəticələrin müqayisəsi (plan-fakt təhlili).",
+  "en": "plan versus actual (comparison)",
+  "pos": "noun"
+ },
+ "plan-konspekt": {
+  "az": "Dərsin, mühazirənin və s. plan şəklində yazılmış qısa xülasəsi.",
+  "en": "outline with notes (e.g. a lesson plan)",
+  "pos": "noun"
+ },
+ "plan-prospekt": {
+  "az": "Hazırlanacaq əsərin və ya nəşrin məzmununu qısaca açıqlayan plan.",
+  "en": "outline prospectus (of a planned work)",
+  "pos": "noun",
+  "parts": false
+ },
+ "planet-peyk": {
+  "az": "Planet və onun peyki; planetlə peykdən ibarət sistem.",
+  "en": "planet and satellite (system)",
+  "pos": "noun"
+ },
+ "planşet-bloknot": {
+  "skip": "meaning not certain"
+ },
+ "plyus-minus": {
+  "az": "Müsbət və mənfi cəhətlər; təxminən, artıq-əskik (±).",
+  "en": "plus or minus; pros and cons",
+  "pos": "noun"
+ },
+ "poema-dialoq": {
+  "az": "Dialoq şəklində yazılmış poema.",
+  "en": "dialogue poem",
+  "pos": "noun"
+ },
+ "poema-epos": {
+  "az": "Epik xarakterli, qəhrəmanlıq mövzulu böyük poema.",
+  "en": "epic poem",
+  "pos": "noun"
+ },
+ "poetik-koqnitiv": {
+  "az": "Poetik mətnin idrak, dərketmə baxımından öyrənilməsinə aid olan.",
+  "en": "poetic-cognitive (as in cognitive poetics)",
+  "pos": "adjective"
+ },
+ "poetik-qrammatik": {
+  "az": "Poetik dilin qrammatik xüsusiyyətlərinə aid olan.",
+  "en": "poetic-grammatical",
+  "pos": "adjective"
+ },
+ "poliklinika-məsləhətxana": {
+  "az": "Xəstələri ambulator müayinə edən və onlara məsləhət verən tibb müəssisəsi.",
+  "en": "outpatient clinic and consultation centre",
+  "pos": "noun"
+ },
+ "polimer-benzin": {
+  "az": "Olefin qazlarının polimerləşdirilməsi yolu ilə alınan benzin.",
+  "en": "polymer gasoline",
+  "pos": "noun"
+ },
+ "polimer-beton": {
+  "az": "Bağlayıcı kimi polimer qatranlardan istifadə edilən beton.",
+  "en": "polymer concrete",
+  "pos": "noun"
+ },
+ "polimer-sement": {
+  "az": "Tərkibinə polimer qatılmış sement.",
+  "en": "polymer cement",
+  "pos": "noun"
+ },
+ "pomidor-badımcan": {
+  "az": "Pomidor və badımcan; bostan-tərəvəz məhsulları.",
+  "en": "tomatoes and aubergines",
+  "pos": "noun"
+ },
+ "pomidor-soğan": {
+  "az": "Pomidor və soğan; yeməyə qatılan tərəvəz.",
+  "en": "tomatoes and onions",
+  "pos": "noun"
+ },
+ "pomidor-xiyar": {
+  "az": "Pomidor və xiyar; salat üçün tərəvəz.",
+  "en": "tomatoes and cucumbers",
+  "pos": "noun"
+ },
+ "pop-musiqiçi": {
+  "az": "Pop musiqisi ifa edən musiqiçi.",
+  "en": "pop musician",
+  "pos": "noun"
+ },
+ "pop-ədəbiyyat": {
+  "az": "Geniş oxucu kütləsi üçün yazılan yüngül, populyar ədəbiyyat.",
+  "en": "pop literature, popular fiction",
+  "pos": "noun"
+ },
+ "portik-eyvan": {
+  "az": "Binanın girişində sütunlu, üstü örtülü eyvan.",
+  "en": "portico",
+  "pos": "noun"
+ },
+ "portret-məqalə": {
+  "az": "Bir şəxsin həyatını və şəxsiyyətini təsvir edən publisistik məqalə.",
+  "en": "profile (article portraying a person)",
+  "pos": "noun"
+ },
+ "portret-tablo": {
+  "skip": "meaning not certain"
+ },
+ "portretçi-rəssam": {
+  "az": "Portret çəkməklə məşğul olan rəssam.",
+  "en": "portrait painter",
+  "pos": "noun"
+ },
+ "posa-beton": {
+  "az": "Doldurucu kimi şlak (posa) işlədilən beton.",
+  "en": "slag concrete, cinder concrete",
+  "pos": "noun"
+ },
+ "posa-elektrik": {
+  "skip": "technical term, meaning not certain"
+ },
+ "povest-novella": {
+  "az": "Həm povest, həm də novella xüsusiyyətləri daşıyan orta həcmli nəsr əsəri.",
+  "en": "novella (prose work between a short story and a novel)",
+  "pos": "noun"
+ },
+ "pozma-qara": {
+  "skip": "meaning of pozma not certain"
+ },
+ "pozma-qaraçı": {
+  "skip": "meaning of pozma not certain"
+ },
+ "poçt-avtomat": {
+  "skip": "meaning not certain"
+ },
+ "poçt-baqaj": {
+  "az": "Poçt və baqaj daşıyan (poçt-baqaj qatarı).",
+  "en": "mail and baggage (train, car)",
+  "pos": "noun"
+ },
+ "premium-sinif": {
+  "az": "Yüksək keyfiyyətli, bahalı məhsul və xidmət kateqoriyası (premium-sinif avtomobil).",
+  "en": "premium class",
+  "pos": "noun"
+ },
+ "pres-avtomat": {
+  "az": "Avtomatik işləyən pres.",
+  "en": "automatic press",
+  "pos": "noun"
+ },
+ "pres-forma": {
+  "az": "Presdə materiala forma vermək üçün işlədilən qəlib.",
+  "en": "press mould, compression mould",
+  "pos": "noun"
+ },
+ "pres-qayçı": {
+  "az": "Metalı kəsmək üçün pres tipli qayçı.",
+  "en": "press shears",
+  "pos": "noun"
+ },
+ "pres-qəlib": {
+  "az": "Presdə işlədilən qəlib; pres-forma.",
+  "en": "press mould, die",
+  "pos": "noun"
+ },
+ "press-attaşe": {
+  "az": "Diplomatik nümayəndəlikdə mətbuatla əlaqələrə cavabdeh olan əməkdaş.",
+  "en": "press attaché",
+  "pos": "noun",
+  "parts": false
+ },
+ "press-büro": {
+  "az": "Bir təşkilatın mətbuatla əlaqələr bölməsi; mətbuat bürosu.",
+  "en": "press office, press bureau",
+  "pos": "noun",
+  "parts": false
+ },
+ "press-informasiya": {
+  "az": "Mətbuat üçün hazırlanmış rəsmi məlumat; press-reliz.",
+  "en": "press information, press release",
+  "pos": "noun",
+  "parts": false
+ }
+}

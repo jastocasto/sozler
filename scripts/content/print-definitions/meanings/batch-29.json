@@ -1,0 +1,943 @@
+{
+ "altıhəftəlik": {
+  "az": "Altı həftə davam edən və ya altı həftə yaşı olan (altıhəftəlik kurs).",
+  "en": "six-week; six weeks old",
+  "pos": "adjective"
+ },
+ "altıkünc": {
+  "az": "Altı küncü (bucağı) olan fiqur və ya əşya; altıbucaqlı.",
+  "en": "hexagon; hexagonal",
+  "pos": "noun"
+ },
+ "altınəfərlik": {
+  "az": "Altı nəfər üçün nəzərdə tutulan (altınəfərlik otaq).",
+  "en": "for six people, six-person",
+  "pos": "adjective"
+ },
+ "altıqanad": {
+  "skip": "meaning not certain (six-winged? six-leaf?)"
+ },
+ "altıtarlalıq": {
+  "az": "Əkin sahəsinin altı tarlaya bölünərək növbəli əkin aparılması sistemi.",
+  "en": "six-field crop rotation",
+  "pos": "noun"
+ },
+ "alçaqgövdə": {
+  "az": "Gövdəsi alçaq olan (ağac, bitki).",
+  "en": "low-stemmed, low-trunked",
+  "pos": "adjective"
+ },
+ "alçaqgövdəli": {
+  "az": "Gövdəsi alçaq olan (alçaqgövdəli meyvə ağacları).",
+  "en": "low-stemmed, low-trunked",
+  "pos": "adjective"
+ },
+ "alçaqtemperaturlu": {
+  "az": "Temperaturu aşağı olan və ya aşağı temperaturda işləyən.",
+  "en": "low-temperature",
+  "pos": "adjective"
+ },
+ "alçaqtezlikli": {
+  "az": "Tezliyi aşağı olan (alçaqtezlikli dalğalar, cərəyan).",
+  "en": "low-frequency",
+  "pos": "adjective"
+ },
+ "alçaqtəbiətli": {
+  "az": "Xasiyyəti alçaq, rəzil və mənəviyyatca düşkün olan.",
+  "en": "base, mean-spirited, low-minded",
+  "pos": "adjective"
+ },
+ "alçaqtəpəlik": {
+  "az": "Alçaq təpələrdən ibarət ərazi.",
+  "en": "low hills, low hilly terrain",
+  "pos": "noun"
+ },
+ "alçaqtəzyiq": {
+  "az": "Normadan və ya müəyyən həddən aşağı olan təzyiq.",
+  "en": "low pressure",
+  "pos": "noun"
+ },
+ "alçaqtəzyiqli": {
+  "az": "Təzyiqi aşağı olan (alçaqtəzyiqli qaz kəməri).",
+  "en": "low-pressure",
+  "pos": "adjective"
+ },
+ "alçaqvolt": {
+  "az": "Aşağı elektrik gərginliyi.",
+  "en": "low voltage",
+  "pos": "noun"
+ },
+ "alçaqvoltlu": {
+  "az": "Elektrik gərginliyi aşağı olan (alçaqvoltlu xətt).",
+  "en": "low-voltage",
+  "pos": "adjective"
+ },
+ "alçaqxislət": {
+  "az": "Xasiyyəti alçaq, rəzil olan (adam).",
+  "en": "base, vile (person)",
+  "pos": "adjective"
+ },
+ "alçaqxislətli": {
+  "az": "Pis, rəzil xasiyyəti olan; alçaq təbiətli.",
+  "en": "base-natured, vile",
+  "pos": "adjective"
+ },
+ "amilasetat": {
+  "az": "Armud iyi verən rəngsiz üzvi maye; həlledici kimi işlənən mürəkkəb efir.",
+  "en": "amyl acetate",
+  "pos": "noun",
+  "parts": false
+ },
+ "amilbenzol": {
+  "az": "Benzol halqasına amil qrupu birləşmiş aromatik karbohidrogen.",
+  "en": "amylbenzene, pentylbenzene",
+  "pos": "noun",
+  "parts": false
+ },
+ "amilnitrat": {
+  "az": "Amil spirtinin azot turşusu ilə əmələ gətirdiyi mürəkkəb efir.",
+  "en": "amyl nitrate",
+  "pos": "noun",
+  "parts": false
+ },
+ "aminspirt": {
+  "az": "Molekulunda həm amin, həm də hidroksil (spirt) qrupu olan üzvi birləşmə.",
+  "en": "amino alcohol",
+  "pos": "noun",
+  "parts": false
+ },
+ "aminşəkər": {
+  "az": "Hidroksil qruplarından biri amin qrupu ilə əvəz olunmuş şəkər (məs. qlükozamin).",
+  "en": "amino sugar",
+  "pos": "noun",
+  "parts": false
+ },
+ "andızçiçəkli": {
+  "skip": "plant term, not certain"
+ },
+ "ançouskimi": {
+  "az": "Ançousa oxşayan; ançouskimilər fəsiləsinə aid (balıq).",
+  "en": "anchovy-like; of the anchovy family (Engraulidae)",
+  "pos": "adjective"
+ },
+ "aparatqayırma": {
+  "az": "Aparat və cihazların istehsalı (aparatqayırma zavodu).",
+  "en": "apparatus manufacturing, instrument-making",
+  "pos": "noun"
+ },
+ "aqrobakteriologiya": {
+  "az": "Kənd təsərrüfatı üçün əhəmiyyəti olan torpaq, bitki və yem bakteriyalarını öyrənən elm sahəsi.",
+  "en": "agricultural bacteriology",
+  "pos": "noun"
+ },
+ "aqrobakterioloq": {
+  "az": "Kənd təsərrüfatı bakteriologiyası üzrə mütəxəssis.",
+  "en": "agricultural bacteriologist",
+  "pos": "noun"
+ },
+ "aqrobaza": {
+  "az": "Kənd təsərrüfatı işlərini təmin edən baza, məntəqə.",
+  "en": "agricultural base (supply or production centre)",
+  "pos": "noun"
+ },
+ "aqrobotanika": {
+  "az": "Mədəni bitkiləri və alaq otlarını kənd təsərrüfatı baxımından öyrənən botanika sahəsi.",
+  "en": "agricultural botany",
+  "pos": "noun"
+ },
+ "aqrodərnək": {
+  "az": "Kənd təsərrüfatı ilə maraqlananlar üçün təşkil olunan dərnək (məs. məktəbdə).",
+  "en": "agricultural club, young farmers' club",
+  "pos": "noun"
+ },
+ "aqrofizik": {
+  "az": "Aqrofizika sahəsində çalışan mütəxəssis.",
+  "en": "agrophysicist",
+  "pos": "noun"
+ },
+ "aqrofobiya": {
+  "skip": "meaning not certain (agoraphobia?)"
+ },
+ "aqrolaboratoriya": {
+  "az": "Torpaq, toxum, gübrə və s. kənd təsərrüfatı nümunələrini təhlil edən laboratoriya.",
+  "en": "agricultural laboratory",
+  "pos": "noun"
+ },
+ "aqrometr": {
+  "skip": "instrument name, meaning not certain"
+ },
+ "aqrominimum": {
+  "az": "Kənd təsərrüfatı işçilərinə öyrədilən ən zəruri aqrotexniki biliklər; belə biliklər üzrə qısa kurs.",
+  "en": "basic agricultural knowledge; minimum farming course",
+  "pos": "noun"
+ },
+ "aqromüxtəliflik": {
+  "az": "Kənd təsərrüfatında istifadə olunan bitki, heyvan və digər canlı növlərinin müxtəlifliyi.",
+  "en": "agrobiodiversity, agricultural biodiversity",
+  "pos": "noun"
+ },
+ "aqroməktəb": {
+  "az": "Kənd təsərrüfatı bilikləri öyrədilən məktəb, kurs.",
+  "en": "agricultural school",
+  "pos": "noun"
+ },
+ "aqronəzarət": {
+  "az": "Kənd təsərrüfatı məhsullarının, toxumların, gübrələrin keyfiyyətinə nəzarət.",
+  "en": "agricultural inspection, agricultural control",
+  "pos": "noun"
+ },
+ "aqroqayda": {
+  "az": "Kənd təsərrüfatı işlərinin aparılma qaydası; aqrotexniki qayda.",
+  "en": "agronomic rule, farming regulation",
+  "pos": "noun"
+ },
+ "aqrorayon": {
+  "az": "Kənd təsərrüfatı istehsalı üzrə ixtisaslaşmış rayon, bölgə.",
+  "en": "agricultural district, agricultural region",
+  "pos": "noun"
+ },
+ "aqrosahə": {
+  "az": "Kənd təsərrüfatı sahəsi; kənd təsərrüfatına ayrılmış ərazi.",
+  "en": "agricultural sector; farmland area",
+  "pos": "noun"
+ },
+ "aqroticarət": {
+  "az": "Kənd təsərrüfatı məhsullarının ticarəti.",
+  "en": "agricultural trade, agri-food trade",
+  "pos": "noun"
+ },
+ "araölçən": {
+  "az": "İki şey arasındakı məsafəni və ya aralığı ölçən (alət, cihaz).",
+  "en": "distance-measuring, gap-measuring",
+  "pos": "adjective"
+ },
+ "arpakimi": {
+  "az": "Arpaya oxşayan, arpa kimi olan.",
+  "en": "barley-like",
+  "pos": "adjective"
+ },
+ "artıqlamasilə": {
+  "az": "Lazım olandan və ya gözləniləndən artıq; artığı ilə (borcu artıqlamasilə qaytarmaq).",
+  "en": "with interest, with a surplus; more than enough",
+  "pos": "adverb",
+  "parts": false
+ },
+ "arvadsifətli": {
+  "az": "Sifəti qadın üzünə bənzəyən (kişi).",
+  "en": "womanish-faced, effeminate-looking",
+  "pos": "adjective"
+ },
+ "arvadyosunlu": {
+  "skip": "meaning not certain"
+ },
+ "arxadurma": {
+  "az": "Birinə arxa durma, onu müdafiə edib dəstəkləmə.",
+  "en": "backing, support, standing up for someone",
+  "pos": "noun"
+ },
+ "arxaqəlsəməli": {
+  "az": "Qəlsəmələri ürəyin arxasında yerləşən (qarınayaqlı molyusklar).",
+  "en": "opisthobranch (of the Opisthobranchia molluscs)",
+  "pos": "adjective"
+ },
+ "arxçəkmə": {
+  "az": "Suvarma arxı qazma, arx salma işi.",
+  "en": "digging of irrigation ditches",
+  "pos": "noun"
+ },
+ "arıkimi": {
+  "az": "Arıya oxşayan, arı kimi olan (həşərat).",
+  "en": "bee-like",
+  "pos": "adjective"
+ },
+ "arıqapan": {
+  "skip": "animal name, not certain"
+ },
+ "arşınhesabı": {
+  "az": "Arşınla ölçülməklə, arşın hesabı ilə (parça satmaq).",
+  "en": "by the arshin, measured in arshins",
+  "pos": "adverb"
+ },
+ "asfaltdöşəmə": {
+  "az": "Yola və ya səthə asfalt döşəmə işi; asfaltla örtülmüş səth.",
+  "en": "asphalt paving; asphalt surface",
+  "pos": "noun"
+ },
+ "asfaltqarışdıran": {
+  "az": "Asfalt qarışığı hazırlayan maşın, qurğu.",
+  "en": "asphalt mixer",
+  "pos": "noun"
+ },
+ "asfaltqarışdırma": {
+  "az": "Asfalt qarışığının hazırlanması (asfaltqarışdırma qurğusu).",
+  "en": "asphalt mixing",
+  "pos": "noun"
+ },
+ "aslanürəkli": {
+  "az": "Aslan kimi cəsur, çox qorxmaz olan.",
+  "en": "lionhearted, very brave",
+  "pos": "adjective"
+ },
+ "asmakotan": {
+  "az": "Traktora asılaraq bərkidilən kotan.",
+  "en": "mounted plough",
+  "pos": "noun"
+ },
+ "asmatavan": {
+  "az": "Əsas tavandan aşağıda asqılar üzərində quraşdırılan tavan.",
+  "en": "suspended ceiling, drop ceiling",
+  "pos": "noun"
+ },
+ "asmatavanlı": {
+  "az": "Asma tavanı olan (asmatavanlı otaq).",
+  "en": "with a suspended ceiling",
+  "pos": "adjective"
+ },
+ "atmosferdaxili": {
+  "az": "Atmosferin daxilində olan və ya baş verən.",
+  "en": "intra-atmospheric, within the atmosphere",
+  "pos": "adjective"
+ },
+ "atəşaparma": {
+  "az": "Silahlardan atəş açma, düşmənə atəş aparma (hərbi).",
+  "en": "firing, conducting fire",
+  "pos": "noun"
+ },
+ "audiofilm": {
+  "skip": "meaning not certain"
+ },
+ "audiofonologiya": {
+  "az": "Eşitmə və səs-nitq pozğunluqlarını öyrənən tibb sahəsi.",
+  "en": "audiophonology",
+  "pos": "noun"
+ },
+ "audioinformasiya": {
+  "az": "Səs şəklində ötürülən və ya yazılan məlumat.",
+  "en": "audio information",
+  "pos": "noun"
+ },
+ "audiojurnal": {
+  "az": "Səs yazısı şəklində hazırlanan, dinlənilən jurnal.",
+  "en": "audio magazine",
+  "pos": "noun"
+ },
+ "audiometr": {
+  "az": "Eşitmə qabiliyyətinin kəskinliyini ölçən cihaz.",
+  "en": "audiometer",
+  "pos": "noun",
+  "parts": false
+ },
+ "audiomətn": {
+  "az": "Səsləndirilmiş, səs yazısı şəklində olan mətn.",
+  "en": "audio text, spoken-word recording",
+  "pos": "noun"
+ },
+ "audiosistem": {
+  "az": "Səsi qəbul edib gücləndirən və səsləndirən cihazlar dəsti.",
+  "en": "audio system, sound system",
+  "pos": "noun"
+ },
+ "audiosənəd": {
+  "az": "Səs yazısı şəklində olan sənəd.",
+  "en": "audio document, audio record",
+  "pos": "noun"
+ },
+ "audioçıxış": {
+  "az": "Cihazda səs siqnalının çıxdığı yuva, çıxış.",
+  "en": "audio output",
+  "pos": "noun"
+ },
+ "avamtəhər": {
+  "az": "Bir qədər avam, sadəlövh görünən.",
+  "en": "somewhat ignorant, rather simple-minded",
+  "pos": "adjective"
+ },
+ "aviabirləşmə": {
+  "az": "Bir neçə aviasiya hissəsindən ibarət hərbi birləşmə.",
+  "en": "air formation (military aviation formation)",
+  "pos": "noun"
+ },
+ "aviabriqada": {
+  "az": "Hərbi aviasiyada bir neçə eskadrilyadan ibarət briqada.",
+  "en": "air brigade, aviation brigade",
+  "pos": "noun"
+ },
+ "aviacihaz": {
+  "az": "Təyyarədə və ya aviasiyada işlədilən cihaz.",
+  "en": "aircraft instrument, aviation device",
+  "pos": "noun"
+ },
+ "aviadetektor": {
+  "skip": "meaning not certain"
+ },
+ "aviadiviziya": {
+  "az": "Bir neçə aviasiya alayından ibarət hərbi birləşmə.",
+  "en": "air division",
+  "pos": "noun"
+ },
+ "aviahissə": {
+  "az": "Hərbi aviasiyanın hissəsi (alay, eskadrilya və s.).",
+  "en": "air unit, aviation unit",
+  "pos": "noun"
+ },
+ "aviaipoteka": {
+  "az": "Hava gəmisinin (təyyarənin) girov qoyulması; təyyarə ipotekası.",
+  "en": "aircraft mortgage",
+  "pos": "noun"
+ },
+ "aviakassa": {
+  "az": "Təyyarə biletləri satılan kassa.",
+  "en": "air ticket office, airline booking office",
+  "pos": "noun"
+ },
+ "aviakompas": {
+  "az": "Təyyarədə uçuş istiqamətini təyin etmək üçün işlədilən kompas.",
+  "en": "aircraft compass",
+  "pos": "noun"
+ },
+ "aviakorpus": {
+  "az": "Bir neçə aviasiya diviziyasından ibarət hərbi birləşmə.",
+  "en": "air corps",
+  "pos": "noun"
+ },
+ "aviamina": {
+  "az": "Təyyarədən atılan və ya təyyarə ilə qoyulan mina.",
+  "en": "aerial mine, air-dropped mine",
+  "pos": "noun"
+ },
+ "aviamütəxəssis": {
+  "az": "Aviasiya sahəsində çalışan mütəxəssis.",
+  "en": "aviation specialist",
+  "pos": "noun"
+ },
+ "aviamüşahidə": {
+  "az": "Təyyarədən, havadan aparılan müşahidə.",
+  "en": "aerial observation",
+  "pos": "noun"
+ },
+ "aviamüəssisə": {
+  "az": "Aviasiya sahəsində fəaliyyət göstərən müəssisə (aviaşirkət, aviazavod və s.).",
+  "en": "aviation enterprise",
+  "pos": "noun"
+ },
+ "aviaməlumat": {
+  "az": "Aviasiya və uçuşlarla bağlı məlumat.",
+  "en": "aviation information, flight information",
+  "pos": "noun"
+ },
+ "aviapark": {
+  "az": "Bir aviaşirkətin və ya ölkənin malik olduğu təyyarələrin hamısı.",
+  "en": "aircraft fleet",
+  "pos": "noun",
+  "parts": false
+ },
+ "aviaqrup": {
+  "az": "Hərbi aviasiyada bir neçə təyyarə və ya eskadrilyadan ibarət dəstə.",
+  "en": "air group",
+  "pos": "noun"
+ },
+ "aviaqəbuledici": {
+  "az": "Təyyarədə işlədilən radioqəbuledici.",
+  "en": "aircraft radio receiver",
+  "pos": "noun"
+ },
+ "aviarabitə": {
+  "az": "Aviasiyada, təyyarə ilə yer arasında rabitə.",
+  "en": "aviation communications, air-ground communications",
+  "pos": "noun"
+ },
+ "aviasalon": {
+  "az": "Təyyarələrin və aviasiya texnikasının nümayiş etdirildiyi sərgi.",
+  "en": "air show, aerospace exhibition",
+  "pos": "noun"
+ },
+ "aviasiqnal": {
+  "skip": "meaning not certain"
+ },
+ "aviastansiya": {
+  "skip": "meaning not certain"
+ },
+ "aviasərnişin": {
+  "az": "Təyyarə ilə uçan sərnişin.",
+  "en": "air passenger",
+  "pos": "noun"
+ },
+ "aviatexniki": {
+  "az": "Aviasiya texnikası ilə bağlı olan (aviatexniki xidmət).",
+  "en": "aviation-technical; aircraft maintenance (attr.)",
+  "pos": "adjective"
+ },
+ "aviaturist": {
+  "az": "Təyyarə ilə səyahət edən turist.",
+  "en": "air tourist",
+  "pos": "noun"
+ },
+ "aviavağzal": {
+  "az": "Hava limanında sərnişinlərə xidmət edən bina; aerovağzal.",
+  "en": "air terminal",
+  "pos": "noun"
+ },
+ "aviayanacaq": {
+  "az": "Təyyarə mühərrikləri üçün yanacaq (aviabenzin, aviakerosin).",
+  "en": "aviation fuel",
+  "pos": "noun"
+ },
+ "aviazavod": {
+  "az": "Təyyarə və aviasiya texnikası istehsal edən zavod.",
+  "en": "aircraft factory, aircraft plant",
+  "pos": "noun"
+ },
+ "avrokart": {
+  "skip": "meaning not certain"
+ },
+ "avrokosmos": {
+  "skip": "meaning not certain"
+ },
+ "avrokredit": {
+  "az": "Avrovalyuta bazarında beynəlxalq banklar tərəfindən verilən kredit.",
+  "en": "Eurocredit",
+  "pos": "noun",
+  "parts": false
+ },
+ "avroparlament": {
+  "az": "Avropa İttifaqının seçkili qanunverici orqanı; Avropa Parlamenti.",
+  "en": "European Parliament",
+  "pos": "noun",
+  "parts": false
+ },
+ "avrotəmir": {
+  "az": "Mənzilin Avropa standartlarına uyğun, müasir materiallarla yüksək keyfiyyətli təmiri.",
+  "en": "European-standard (high-end) renovation",
+  "pos": "noun",
+  "parts": false
+ },
+ "avtobusqayırma": {
+  "az": "Avtobus istehsalı (avtobusqayırma zavodu).",
+  "en": "bus manufacturing",
+  "pos": "noun"
+ },
+ "avtomobilquraşdırma": {
+  "az": "Avtomobillərin hissələrdən yığılması (avtomobilquraşdırma zavodu).",
+  "en": "car assembly",
+  "pos": "noun"
+ },
+ "ayaqqabısilən": {
+  "az": "Ayaqqabı silmək üçün olan (əsgi, fırça və s.).",
+  "en": "shoe-wiping, for wiping shoes",
+  "pos": "adjective"
+ },
+ "ayaqqabıtikən": {
+  "az": "Ayaqqabı tikən (usta, fabrik).",
+  "en": "shoemaking; shoemaker",
+  "pos": "adjective"
+ },
+ "ayağıyüngül": {
+  "az": "Gəlişi uğur, xeyir gətirən (adam).",
+  "en": "lucky, bringing good luck (of a person's arrival)",
+  "pos": "adjective",
+  "src": "musayev"
+ },
+ "aynabədən": {
+  "skip": "meaning not certain"
+ },
+ "aynabədənli": {
+  "skip": "meaning not certain"
+ },
+ "aynaotu": {
+  "skip": "plant name, not certain"
+ },
+ "ayrıləçəkli": {
+  "az": "Çiçəyinin ləçəkləri bir-birindən ayrı olan (bitkilər).",
+  "en": "polypetalous, choripetalous",
+  "pos": "adjective",
+  "parts": false
+ },
+ "ayğırgözlü": {
+  "skip": "meaning not certain"
+ },
+ "ayıboğan": {
+  "skip": "meaning not certain"
+ },
+ "ayıdöşəyikimi": {
+  "az": "Ayıdöşəyinə (qıjıya) oxşayan (bitki).",
+  "en": "fern-like",
+  "pos": "adjective"
+ },
+ "azanvermə": {
+  "az": "Müsəlmanları namaza çağırmaq üçün azan oxuma.",
+  "en": "calling the adhan (call to prayer)",
+  "pos": "noun"
+ },
+ "azottoplayıcı": {
+  "az": "Havadakı azotu mənimsəyib torpaqda toplayan (bitkilər, bakteriyalar).",
+  "en": "nitrogen-fixing, nitrogen-accumulating",
+  "pos": "adjective"
+ },
+ "açıqbəniz": {
+  "az": "Üzünün rəngi açıq olan; ağbəniz.",
+  "en": "fair-complexioned, fair-skinned",
+  "pos": "adjective"
+ },
+ "açıqtəhər": {
+  "az": "Bir qədər açıq olan; açığa çalan (rəng).",
+  "en": "rather open; lightish (in colour)",
+  "pos": "adjective"
+ },
+ "ağacbasdıran": {
+  "skip": "meaning not certain"
+ },
+ "ağacbasdırma": {
+  "skip": "meaning not certain"
+ },
+ "ağacdoğrama": {
+  "skip": "meaning not certain (wood chopping or wooden joinery)"
+ },
+ "ağacdələnkimi": {
+  "az": "Ağacdələnə oxşayan; ağacdələnkimilərə aid (quş).",
+  "en": "woodpecker-like; piciform",
+  "pos": "adjective"
+ },
+ "ağacsaqqızı": {
+  "az": "Ağacların gövdəsindən sızıb bərkiyən qatran, yapışqanlı maddə.",
+  "en": "tree resin, tree gum",
+  "pos": "noun"
+ },
+ "ağactəmizləmə": {
+  "az": "Ağacları və ya ağac materialını qabıqdan, quru budaqlardan və s. təmizləmə.",
+  "en": "cleaning of trees or timber (removing bark, dead branches)",
+  "pos": "noun"
+ },
+ "ağactəmizləyici": {
+  "az": "Ağacları və ya ağac materialını təmizləyən (maşın, alət).",
+  "en": "tree-cleaning, timber-cleaning (machine, tool)",
+  "pos": "adjective"
+ },
+ "ağacyonma": {
+  "az": "Ağacı yonub hamarlama, ona forma vermə.",
+  "en": "wood planing, wood whittling",
+  "pos": "noun"
+ },
+ "ağadostu": {
+  "skip": "meaning not certain"
+ },
+ "ağagörməz": {
+  "skip": "meaning not certain"
+ },
+ "ağatəbiətli": {
+  "skip": "meaning not certain (generous or imperious)"
+ },
+ "ağaçalan": {
+  "skip": "meaning not certain"
+ },
+ "ağaçalar": {
+  "skip": "meaning not certain"
+ },
+ "ağrıkəsmə": {
+  "az": "Ağrını aradan qaldırma, ağrını kəsmə (ağrıkəsmə dərmanı).",
+  "en": "pain relief",
+  "pos": "noun"
+ },
+ "ağıreşitmə": {
+  "az": "Eşitmə qabiliyyətinin zəifləməsi, çətin eşitmə.",
+  "en": "hearing impairment, hardness of hearing",
+  "pos": "noun"
+ },
+ "ağırsanbal": {
+  "az": "Təmkinli, ciddi və etibarlı; sanballı.",
+  "en": "solid, sedate, reputable",
+  "pos": "adjective"
+ },
+ "ağırsanballı": {
+  "az": "Möhkəm, davamlı; təmkinli, etibarlı, nüfuzlu (ağırsanballı adam, jurnal).",
+  "en": "solid, sturdy; sedate, reliable, reputable",
+  "pos": "adjective",
+  "src": "musayev"
+ },
+ "ağırtəbiət": {
+  "az": "Təmkinli, səbirli, tələsməyən xasiyyəti olan.",
+  "en": "sedate, composed, staid",
+  "pos": "adjective"
+ },
+ "ağırzəhmətli": {
+  "az": "Çox ağır zəhmət tələb edən (ağırzəhmətli iş).",
+  "en": "laborious, back-breaking",
+  "pos": "adjective"
+ },
+ "aşağıgərginlikli": {
+  "az": "Elektrik gərginliyi aşağı olan (aşağıgərginlikli xətt).",
+  "en": "low-voltage",
+  "pos": "adjective"
+ },
+ "aşağıtəzyiqli": {
+  "az": "Təzyiqi aşağı olan.",
+  "en": "low-pressure",
+  "pos": "adjective"
+ },
+ "aşağıvoltlu": {
+  "az": "Elektrik gərginliyi aşağı olan.",
+  "en": "low-voltage",
+  "pos": "adjective"
+ },
+ "aşağıvoltluq": {
+  "az": "Elektrik gərginliyinin aşağı olması; aşağı gərginlik.",
+  "en": "low voltage",
+  "pos": "noun"
+ },
+ "babasilotu": {
+  "skip": "plant name, not certain"
+ },
+ "bacınəvəsi": {
+  "az": "Bacının nəvəsi.",
+  "en": "sister's grandchild (grandniece, grandnephew)",
+  "pos": "noun"
+ },
+ "badaqçeşni": {
+  "skip": "dialect word, meaning not certain"
+ },
+ "balarmudu": {
+  "skip": "meaning not certain"
+ },
+ "balinakimi": {
+  "az": "Balinaya oxşayan; balinakimilərə aid.",
+  "en": "whale-like, cetacean",
+  "pos": "adjective"
+ },
+ "ballıbaba": {
+  "az": "Gicitkənə oxşayan, dalamayan, çiçəkləri nektarlı ot bitkisi (Lamium).",
+  "en": "dead-nettle (Lamium)",
+  "pos": "noun"
+ },
+ "balsüzmə": {
+  "az": "Balı pətəkdən ayırıb süzmə (balsüzmə maşını).",
+  "en": "honey straining, honey extraction",
+  "pos": "noun"
+ },
+ "baltabaşı": {
+  "az": "Baltanın sapa keçirilən dəmir hissəsi; baltanın küt tərəfi.",
+  "en": "axe head; poll of an axe",
+  "pos": "noun"
+ },
+ "balvermə": {
+  "az": "Arıların və ya bal bitkilərinin bal verməsi; bal məhsuldarlığı.",
+  "en": "honey yield, honey production",
+  "pos": "noun"
+ },
+ "balzaminkimi": {
+  "az": "Balzaminə oxşayan; balzaminkimilər fəsiləsinə aid (bitki).",
+  "en": "balsam-like, balsaminaceous",
+  "pos": "adjective"
+ },
+ "balıqbəsləmə": {
+  "az": "Balıqları süni şəraitdə yetişdirmə.",
+  "en": "fish farming, fish breeding",
+  "pos": "noun"
+ },
+ "balıqdaşıma": {
+  "az": "Balığın bir yerdən başqa yerə daşınması.",
+  "en": "fish transport",
+  "pos": "noun"
+ },
+ "balıqdondurma": {
+  "az": "Balığı saxlamaq üçün dondurma.",
+  "en": "fish freezing",
+  "pos": "noun"
+ },
+ "balıqdoğrama": {
+  "az": "Balığı təmizləyib hissələrə doğrama.",
+  "en": "fish cutting, fish dressing",
+  "pos": "noun"
+ },
+ "balıqduzlama": {
+  "az": "Balığı saxlamaq üçün duzlama.",
+  "en": "fish salting",
+  "pos": "noun"
+ },
+ "balıqhisləmə": {
+  "az": "Balığı tüstüyə verib hisləmə.",
+  "en": "fish smoking",
+  "pos": "noun"
+ },
+ "balıqotu": {
+  "skip": "plant name, not certain"
+ },
+ "balıqovlama": {
+  "az": "Balıq tutma.",
+  "en": "fishing, catching fish",
+  "pos": "noun"
+ },
+ "balıqqoruma": {
+  "az": "Balıq ehtiyatlarının qorunması (balıqqoruma idarəsi).",
+  "en": "fish protection, fish conservation",
+  "pos": "noun"
+ },
+ "balıqqurudan": {
+  "az": "Balığı qurudan qurğu və ya işçi.",
+  "en": "fish drier",
+  "pos": "noun"
+ },
+ "balıqqurutma": {
+  "az": "Balığı saxlamaq üçün qurutma.",
+  "en": "fish drying",
+  "pos": "noun"
+ },
+ "balıqsoyuducu": {
+  "az": "Balığı soyuq saxlamaq üçün soyuducu qurğu, anbar.",
+  "en": "fish refrigerator, fish cold store",
+  "pos": "noun"
+ },
+ "balıqsoyutma": {
+  "az": "Balığı saxlamaq üçün soyutma (balıqsoyutma qurğusu).",
+  "en": "fish chilling",
+  "pos": "noun"
+ },
+ "balıqçeşidləmə": {
+  "az": "Balığın növünə və ölçüsünə görə çeşidlənməsi.",
+  "en": "fish sorting, fish grading",
+  "pos": "noun"
+ },
+ "balıqçeşidləyici": {
+  "az": "Balığı növünə və ölçüsünə görə ayıran işçi və ya maşın.",
+  "en": "fish sorter, fish-grading machine",
+  "pos": "noun"
+ },
+ "balıqçoxaldan": {
+  "az": "Balıq artırmaqla, balıq yetişdirməklə məşğul olan (balıqçoxaldan zavod).",
+  "en": "fish-breeding, fish-hatching",
+  "pos": "adjective"
+ },
+ "balıqçoxaltma": {
+  "az": "Balıq ehtiyatlarını artırmaq üçün süni yolla balıq yetişdirib sulara buraxma.",
+  "en": "fish breeding, fish restocking",
+  "pos": "noun"
+ },
+ "bambukkimi": {
+  "az": "Bambuka oxşayan.",
+  "en": "bamboo-like",
+  "pos": "adjective"
+ },
+ "bankabağlama": {
+  "az": "Konserv bankalarının qapağını bağlama; konservləşdirmə.",
+  "en": "jar sealing, canning",
+  "pos": "noun"
+ },
+ "baramaayırma": {
+  "az": "Baramanın keyfiyyətinə görə çeşidlənib ayrılması.",
+  "en": "cocoon sorting",
+  "pos": "noun"
+ },
+ "baramaqurudan": {
+  "az": "Baramanı qurutmaq üçün qurğu.",
+  "en": "cocoon drier",
+  "pos": "noun"
+ },
+ "baramaqurutma": {
+  "az": "Baramanı saxlamaq və emal etmək üçün qurutma.",
+  "en": "cocoon drying",
+  "pos": "noun"
+ },
+ "baramasarıma": {
+  "az": "Baramadan ipək sapın açılıb sarınması.",
+  "en": "cocoon reeling, silk reeling",
+  "pos": "noun"
+ },
+ "baramasaxlama": {
+  "az": "Baramanın emala qədər saxlanması.",
+  "en": "cocoon storage",
+  "pos": "noun"
+ },
+ "baramatəmizləyici": {
+  "az": "Baramanı üstündəki xovdan və çirkdən təmizləyən (maşın, işçi).",
+  "en": "cocoon-cleaning (machine, worker)",
+  "pos": "adjective"
+ },
+ "baratriya": {
+  "az": "Gəmi kapitanının və ya heyətinin gəmi sahibinə, yükə zərər vuran qəsdən qanunsuz hərəkəti (dəniz hüququ).",
+  "en": "barratry",
+  "pos": "noun",
+  "parts": false
+ },
+ "barbarsayağı": {
+  "az": "Barbar kimi, vəhşicəsinə, kobud şəkildə.",
+  "en": "barbarically, like a barbarian",
+  "pos": "adverb"
+ },
+ "bardaşqurma": {
+  "az": "Ayaqlarını çarpaz qatlayıb oturma.",
+  "en": "sitting cross-legged",
+  "pos": "noun"
+ },
+ "bargətirmə": {
+  "az": "Bitkinin bar, meyvə verməsi.",
+  "en": "fruit-bearing, fruiting",
+  "pos": "noun"
+ },
+ "barmaqotu": {
+  "skip": "plant name, not certain"
+ },
+ "barmaqyarpaq": {
+  "skip": "plant term, not certain"
+ },
+ "barmaqyarpaqlı": {
+  "az": "Yarpaqları barmaq kimi bölümlü olan (bitki).",
+  "en": "palmate-leaved, with finger-like leaves",
+  "pos": "adjective"
+ },
+ "basmaqafiyə": {
+  "skip": "literary term, meaning not certain"
+ },
+ "bayrambəyi": {
+  "skip": "meaning not certain"
+ },
+ "bayramyeli": {
+  "skip": "meaning not certain"
+ },
+ "bayraqendirmə": {
+  "az": "Bayrağın dirəkdən endirilməsi (mərasimi).",
+  "en": "lowering of the flag",
+  "pos": "noun"
+ },
+ "bayraqşəkilli": {
+  "az": "Bayraq formasında olan.",
+  "en": "flag-shaped",
+  "pos": "adjective"
+ },
+ "bazaryuxarı": {
+  "skip": "meaning not certain (possibly a place name)"
+ },
+ "bağambürc": {
+  "skip": "meaning not certain"
+ },
+ "bağsalma": {
+  "az": "Yeni bağ salma, meyvə bağı yaratma.",
+  "en": "laying out a garden or orchard",
+  "pos": "noun"
+ },
+ "bağırsaqdaxili": {
+  "az": "Bağırsağın daxilində olan və ya baş verən.",
+  "en": "intraintestinal, within the intestine",
+  "pos": "adjective"
+ },
+ "bağırsaqxarici": {
+  "az": "Bağırsaqdan kənarda olan və ya baş verən (bağırsaqxarici əlamətlər).",
+  "en": "extraintestinal",
+  "pos": "adjective"
+ },
+ "başaparıcı": {
+  "skip": "meaning not certain"
+ },
+ "başağrıtma": {
+  "az": "Birinin başını ağrıtma; lazımsız söz-söhbətlə zəhləsini tökmə.",
+  "en": "causing a headache; pestering, bothering",
+  "pos": "noun"
+ },
+ "başgicəlləndirmə": {
+  "az": "Başın gicəllənməsinə səbəb olma; məcazi mənada birini çaşdırma.",
+  "en": "making dizzy; bewildering",
+  "pos": "noun"
+ },
+ "başqovluq": {
+  "az": "Kompüterdə digər qovluqları özündə saxlayan əsas qovluq; kök qovluq.",
+  "en": "root folder, main folder",
+  "pos": "noun"
+ }
+}

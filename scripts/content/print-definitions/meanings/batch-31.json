@@ -1,0 +1,835 @@
+{
+ "darburunlu": {
+  "az": "Burnu dar olan (darburunlu meymunlar).",
+  "en": "narrow-nosed (e.g. catarrhine monkeys)",
+  "pos": "adjective"
+ },
+ "darqanad": {
+  "skip": "animal name, not certain"
+ },
+ "darqanadlı": {
+  "az": "Qanadları dar olan.",
+  "en": "narrow-winged",
+  "pos": "adjective"
+ },
+ "darsağrılı": {
+  "az": "Sağrısı dar olan (at və s.).",
+  "en": "narrow-rumped (of horses etc.)",
+  "pos": "adjective"
+ },
+ "dartaclı": {
+  "az": "Tacı (çətiri) dar olan (ağaclar).",
+  "en": "narrow-crowned (of trees)",
+  "pos": "adjective"
+ },
+ "daryarpaqlı": {
+  "az": "Yarpaqları dar olan (bitki adlarında).",
+  "en": "narrow-leaved (in plant names)",
+  "pos": "adjective"
+ },
+ "darzolaq": {
+  "skip": "meaning not certain"
+ },
+ "darıkimi": {
+  "az": "Darı dənəsinə oxşayan, onun kimi xırda (darıkimi səpgi).",
+  "en": "millet-like, miliary",
+  "pos": "adjective"
+ },
+ "datakart": {
+  "az": "Kompüterdə və ya mobil qurğuda məlumat saxlamaq və ya ötürmək üçün kart.",
+  "en": "data card",
+  "pos": "noun"
+ },
+ "daxiledilmə": {
+  "az": "Bir şeyin tərkibinə, siyahıya və s. salınma; məlumatın sistemə yazılması.",
+  "en": "inclusion, insertion; input (of data)",
+  "pos": "noun"
+ },
+ "dayazdibli": {
+  "az": "Dibi dayaz olan, dərin olmayan (dayazdibli qab).",
+  "en": "shallow, shallow-bottomed",
+  "pos": "adjective"
+ },
+ "dayazdüşüncə": {
+  "az": "Səthi düşünən, dərin fikirləşə bilməyən (adam).",
+  "en": "shallow-minded, superficial",
+  "pos": "adjective"
+ },
+ "dayazfikir": {
+  "az": "Fikri səthi olan, dərin düşünməyən (adam).",
+  "en": "shallow-minded",
+  "pos": "adjective"
+ },
+ "daylaqotu": {
+  "skip": "plant name, not certain"
+ },
+ "dayıbalası": {
+  "az": "Dayının övladı; dayıoğlu və ya dayıqızı.",
+  "en": "cousin (child of one's maternal uncle)",
+  "pos": "noun"
+ },
+ "dayıcanı": {
+  "skip": "meaning not certain (address form or oath)"
+ },
+ "dağalması": {
+  "skip": "plant name, not certain"
+ },
+ "dağarmudu": {
+  "skip": "plant name, not certain"
+ },
+ "dağcirəsi": {
+  "skip": "plant name, not certain"
+ },
+ "dağdaxili": {
+  "az": "Dağların içərisində yerləşən (dağdaxili çökəklik).",
+  "en": "intramontane",
+  "pos": "adjective"
+ },
+ "dağkəkliyi": {
+  "skip": "bird name, not certain"
+ },
+ "dağmərzəsi": {
+  "skip": "plant name, not certain"
+ },
+ "dağotu": {
+  "skip": "plant name, not certain"
+ },
+ "dağvurma": {
+  "az": "Qızdırılmış dəmirlə bədənə damğa vurma və ya yaranı yandırma; dağlama.",
+  "en": "branding (with a hot iron); cauterization",
+  "pos": "noun",
+  "parts": false
+ },
+ "dağyaranma": {
+  "az": "Yer qabığında dağların əmələ gəlməsi prosesi; orogenez.",
+  "en": "mountain building, orogenesis",
+  "pos": "noun"
+ },
+ "dağçiyələyi": {
+  "skip": "plant name, not certain"
+ },
+ "dağçiçəyi": {
+  "skip": "plant name, not certain"
+ },
+ "daşböyürtkən": {
+  "skip": "plant name, not certain"
+ },
+ "daşcanlı": {
+  "skip": "meaning not certain"
+ },
+ "daşdoğrama": {
+  "skip": "meaning not certain"
+ },
+ "daşdöşəmə": {
+  "az": "Daşdan düzəldilmiş döşəmə; daş döşənmiş səth.",
+  "en": "stone floor, stone paving",
+  "pos": "noun"
+ },
+ "daşdələnkimi": {
+  "skip": "meaning not certain"
+ },
+ "daşmeyvə": {
+  "skip": "botanical term, not certain (drupe or a plant name)"
+ },
+ "daşpalıd": {
+  "skip": "plant name, not certain"
+ },
+ "daşyengəci": {
+  "skip": "animal name, not certain"
+ },
+ "daşıyıcıtezlikli": {
+  "az": "Daşıyıcı tezlikdən istifadə edən (daşıyıcıtezlikli rabitə).",
+  "en": "carrier-frequency (of telecommunication systems)",
+  "pos": "adjective"
+ },
+ "dekodlamaq": {
+  "az": "Kodlaşdırılmış məlumatı açmaq, onu ilkin şəklinə salmaq.",
+  "en": "to decode",
+  "pos": "verb",
+  "parts": false
+ },
+ "delfinkimi": {
+  "az": "Delfinə oxşayan; delfinkimilər fəsiləsinə aid olan.",
+  "en": "dolphin-like, delphinid",
+  "pos": "adjective"
+ },
+ "deltaplaner": {
+  "az": "Üçbucaq formalı qanadı olan, pilotun ondan asılaraq idarə etdiyi yüngül uçuş aparatı.",
+  "en": "hang glider",
+  "pos": "noun"
+ },
+ "deltaplanerçi": {
+  "az": "Deltaplanerlə uçan idmançı.",
+  "en": "hang-glider pilot",
+  "pos": "noun"
+ },
+ "deltaplançı": {
+  "az": "Deltaplanla uçan idmançı.",
+  "en": "hang-glider pilot",
+  "pos": "noun",
+  "parts": false
+ },
+ "demodullaşma": {
+  "az": "Modullaşdırılmış siqnaldan ilkin məlumat siqnalını ayırma.",
+  "en": "demodulation",
+  "pos": "noun",
+  "parts": false
+ },
+ "demofobiya": {
+  "az": "İnsan izdihamından, kütlədən patoloji qorxu.",
+  "en": "demophobia (fear of crowds)",
+  "pos": "noun",
+  "parts": false
+ },
+ "demokratiyayönlü": {
+  "az": "Demokratiyaya yönəlmiş, demokratik dəyərləri dəstəkləyən.",
+  "en": "pro-democratic, democracy-oriented",
+  "pos": "adjective"
+ },
+ "desmankimi": {
+  "az": "Desmana oxşayan (heyvanlar).",
+  "en": "desman-like",
+  "pos": "adjective"
+ },
+ "dialektfövqü": {
+  "az": "Ayrı-ayrı dialektlərdən üstün duran, onlar üçün ümumi olan (dialektfövqü dil forması).",
+  "en": "supradialectal",
+  "pos": "adjective"
+ },
+ "diaqnozqoyma": {
+  "az": "Müayinə əsasında xəstəliyi müəyyənləşdirmə.",
+  "en": "diagnosing, making a diagnosis",
+  "pos": "noun"
+ },
+ "dibdoldurma": {
+  "skip": "meaning not certain"
+ },
+ "dibdərinləşdirici": {
+  "az": "Su hövzəsinin dibini dərinləşdirmək üçün işlədilən (dibdərinləşdirici gəmi).",
+  "en": "dredging (e.g. a dredger)",
+  "pos": "adjective"
+ },
+ "dikbığlı": {
+  "az": "Bığları dik duran, yuxarı qalxmış olan.",
+  "en": "with a bristling, upturned moustache",
+  "pos": "adjective"
+ },
+ "dikdabanlı": {
+  "az": "Dabanı hündür olan (dikdabanlı ayaqqabı).",
+  "en": "high-heeled",
+  "pos": "adjective"
+ },
+ "dikdamaq": {
+  "skip": "meaning not certain"
+ },
+ "dikdöşlü": {
+  "az": "Döşü dik, qabağa çıxmış olan.",
+  "en": "high-chested, with a prominent chest",
+  "pos": "adjective"
+ },
+ "dikenişli": {
+  "az": "Enişi dik olan (dikenişli yol).",
+  "en": "with a steep descent, steeply sloping",
+  "pos": "adjective"
+ },
+ "dikqabırğa": {
+  "skip": "meaning not certain"
+ },
+ "dikqulaqlı": {
+  "az": "Qulaqları dik duran (dikqulaqlı it).",
+  "en": "prick-eared",
+  "pos": "adjective"
+ },
+ "dikyarpaq": {
+  "skip": "plant name, not certain"
+ },
+ "dikyarpaqlı": {
+  "az": "Yarpaqları dik, yuxarıya yönəlmiş olan (bitkilər).",
+  "en": "with erect leaves (of plants)",
+  "pos": "adjective"
+ },
+ "dikyoxuşlu": {
+  "az": "Yoxuşu dik olan (dikyoxuşlu yol).",
+  "en": "steeply rising, with a steep climb",
+  "pos": "adjective"
+ },
+ "dikyuxarı": {
+  "az": "Şaquli istiqamətdə, düz yuxarıya doğru.",
+  "en": "straight up, vertically upwards",
+  "pos": "adverb"
+ },
+ "dilbilmə": {
+  "az": "Dili, xüsusən xarici dilləri bilmə.",
+  "en": "knowledge of a language (of languages)",
+  "pos": "noun"
+ },
+ "dilbənd": {
+  "skip": "meaning not certain"
+ },
+ "dildaxili": {
+  "az": "Dilin öz daxilində olan, başqa dillərlə bağlı olmayan (dildaxili inkişaf).",
+  "en": "intralingual, language-internal",
+  "pos": "adjective"
+ },
+ "dilqanmaz": {
+  "az": "Söz anlamayan, deyilənə qulaq asmayan; inadkar.",
+  "en": "obtuse, who won't listen to reason",
+  "pos": "adjective"
+ },
+ "diltutqacı": {
+  "az": "Ağız boşluğunu müayinə və ya əməliyyat edərkən dili tutub saxlamaq üçün tibbi alət.",
+  "en": "tongue forceps, tongue holder",
+  "pos": "noun"
+ },
+ "dilxarici": {
+  "az": "Dilin özünə aid olmayan, dildən kənarda olan (dilxarici amillər).",
+  "en": "extralinguistic",
+  "pos": "adjective"
+ },
+ "dilçiçəkli": {
+  "az": "Dilşəkilli çiçəkləri olan (mürəkkəbçiçəklilərə aid bitkilər).",
+  "en": "ligulate-flowered (of plants)",
+  "pos": "adjective"
+ },
+ "dimdikbaşlı": {
+  "az": "Başının ön hissəsi dimdiyə bənzəyən; dimdikbaşlılar dəstəsinə aid olan (sürünənlər).",
+  "en": "beak-headed, rhynchocephalian",
+  "pos": "adjective"
+ },
+ "dimdikburun": {
+  "skip": "animal name, not certain"
+ },
+ "dimdikburunlu": {
+  "az": "Burnu dimdiyə oxşayan.",
+  "en": "beak-nosed",
+  "pos": "adjective"
+ },
+ "dimdikşəkilli": {
+  "az": "Dimdiyə oxşar formada olan.",
+  "en": "beak-shaped, rostrate",
+  "pos": "adjective"
+ },
+ "dinamoqraf": {
+  "az": "Qüvvəni ölçüb qeyd edən cihaz.",
+  "en": "dynamograph",
+  "pos": "noun",
+  "parts": false
+ },
+ "dinamotermal": {
+  "az": "Həm təzyiqin, həm də yüksək temperaturun təsiri ilə baş verən (dinamotermal metamorfizm).",
+  "en": "dynamothermal",
+  "pos": "adjective",
+  "parts": false
+ },
+ "dincəqoyma": {
+  "skip": "meaning not certain"
+ },
+ "dirsəkşəkilli": {
+  "az": "Dirsəyə oxşar, bucaq altında əyilmiş formada olan; dirsəkvari.",
+  "en": "elbow-shaped, geniculate",
+  "pos": "adjective",
+  "src": "both"
+ },
+ "diskoplan": {
+  "skip": "meaning not certain"
+ },
+ "diskoplazma": {
+  "skip": "meaning not certain"
+ },
+ "disktutan": {
+  "skip": "meaning not certain"
+ },
+ "divgövdə": {
+  "az": "Div kimi iri gövdəli, nəhəng (adam).",
+  "en": "giant-bodied, huge",
+  "pos": "adjective"
+ },
+ "divgövdəli": {
+  "az": "Gövdəsi div kimi iri olan, nəhəng.",
+  "en": "giant-bodied, huge",
+  "pos": "adjective"
+ },
+ "dizelqayırma": {
+  "az": "Dizel mühərriklərinin istehsalı (dizelqayırma zavodu).",
+  "en": "diesel engine manufacturing",
+  "pos": "noun"
+ },
+ "dizqapaqaltı": {
+  "az": "Diz qapağının altında yerləşən (dizqapaqaltı bağ).",
+  "en": "infrapatellar",
+  "pos": "adjective"
+ },
+ "dişağartma": {
+  "az": "Dişlərin rəngini açma, onları ağartma.",
+  "en": "teeth whitening",
+  "pos": "noun"
+ },
+ "dişdəyişmə": {
+  "az": "Süd dişlərinin tökülüb daimi dişlərlə əvəz olunması.",
+  "en": "change of teeth (milk teeth to permanent)",
+  "pos": "noun"
+ },
+ "dişgöynədici": {
+  "az": "Dişləri göynədən (çox turş, soyuq və s.).",
+  "en": "setting the teeth on edge",
+  "pos": "adjective"
+ },
+ "dişkirəsi": {
+  "skip": "meaning not certain"
+ },
+ "dişkəsən": {
+  "skip": "meaning not certain (tool or machine)"
+ },
+ "dişotu": {
+  "skip": "plant name, not certain"
+ },
+ "dişpardaqlama": {
+  "az": "Dişlərin (o cümlədən dişli çarx dişlərinin) səthini pardaqlayıb hamarlama.",
+  "en": "polishing of teeth (dental or gear teeth)",
+  "pos": "noun"
+ },
+ "dişqoyma": {
+  "az": "Süni diş taxma.",
+  "en": "fitting of artificial teeth",
+  "pos": "noun"
+ },
+ "dişqıcama": {
+  "az": "Qəzəbdən, ağrıdan və s. dişləri bir-birinə möhkəm sıxma.",
+  "en": "clenching of the teeth",
+  "pos": "noun"
+ },
+ "diştökmə": {
+  "az": "Dişlərin tökülməsi (uşaqlarda, heyvanlarda).",
+  "en": "shedding of teeth",
+  "pos": "noun"
+ },
+ "dişyonma": {
+  "skip": "ambiguous (dental preparation or gear shaping)"
+ },
+ "dişçıxarma": {
+  "az": "Körpələrdə dişlərin çıxması; həmçinin xəstə dişin çıxarılması.",
+  "en": "teething; tooth extraction",
+  "pos": "noun"
+ },
+ "dişçəkmə": {
+  "az": "Xəstə dişi dibindən çıxarma.",
+  "en": "tooth extraction",
+  "pos": "noun"
+ },
+ "dodaqbüzmə": {
+  "az": "Narazılıq, etinasızlıq və s. bildirmək üçün dodaqları büzmə.",
+  "en": "pursing of the lips, pout (in displeasure or disdain)",
+  "pos": "noun"
+ },
+ "dodaqşəkilli": {
+  "az": "Dodağa oxşar formada olan.",
+  "en": "lip-shaped, labiate",
+  "pos": "adjective"
+ },
+ "dolbənd": {
+  "skip": "meaning not certain"
+ },
+ "dolubuynuzlu": {
+  "az": "Buynuzlarının içi boş olmayan, bərk olan (maral və s.).",
+  "en": "solid-horned (e.g. deer)",
+  "pos": "adjective"
+ },
+ "doluqanlı": {
+  "skip": "meaning not certain"
+ },
+ "dolusifət": {
+  "az": "Üzü dolğun, ətli olan (adam).",
+  "en": "full-faced, round-faced",
+  "pos": "adjective"
+ },
+ "dolusifətli": {
+  "az": "Üzü dolğun, ətli olan.",
+  "en": "full-faced, chubby-faced",
+  "pos": "adjective"
+ },
+ "doluyanaq": {
+  "az": "Yanaqları dolğun, ətli olan (adam).",
+  "en": "full-cheeked, chubby-cheeked",
+  "pos": "adjective"
+ },
+ "doluyanaqlı": {
+  "az": "Yanaqları dolğun, ətli olan.",
+  "en": "full-cheeked, chubby-cheeked",
+  "pos": "adjective"
+ },
+ "dolğunbədən": {
+  "az": "Bədəni dolğun, ətli olan (adam).",
+  "en": "plump, full-bodied",
+  "pos": "adjective"
+ },
+ "dolğunbədənli": {
+  "az": "Bədəni dolğun, ətli olan.",
+  "en": "plump, full-bodied",
+  "pos": "adjective"
+ },
+ "dolğundodaq": {
+  "az": "Dodaqları dolğun olan (adam).",
+  "en": "full-lipped",
+  "pos": "adjective"
+ },
+ "dolğundodaqlı": {
+  "az": "Dodaqları dolğun olan.",
+  "en": "full-lipped",
+  "pos": "adjective"
+ },
+ "dolğunsifət": {
+  "az": "Üzü dolğun, girdə olan (adam).",
+  "en": "round-faced, full-faced",
+  "pos": "adjective"
+ },
+ "dolğunsifətli": {
+  "az": "Üzü dolğun, girdə olan.",
+  "en": "round-faced, full-faced",
+  "pos": "adjective"
+ },
+ "dolğunsəsli": {
+  "az": "Səsi gur, dolğun və tutumlu olan.",
+  "en": "full-voiced, with a rich voice",
+  "pos": "adjective"
+ },
+ "dolğunvücudlu": {
+  "az": "Vücudu dolğun, ətli olan.",
+  "en": "full-figured, plump",
+  "pos": "adjective"
+ },
+ "dolğunyaruslu": {
+  "skip": "meaning not certain"
+ },
+ "donaçma": {
+  "skip": "meaning not certain"
+ },
+ "donuzquyruğu": {
+  "skip": "meaning not certain"
+ },
+ "doqquzadamlıq": {
+  "az": "Doqquz nəfər üçün nəzərdə tutulan.",
+  "en": "nine-person, for nine people",
+  "pos": "adjective",
+  "parts": false
+ },
+ "doqquzbucaq": {
+  "az": "Doqquz bucağı olan çoxbucaqlı.",
+  "en": "nonagon",
+  "pos": "noun"
+ },
+ "doqquzcildlik": {
+  "az": "Doqquz cilddən ibarət olan (doqquzcildlik əsərlər toplusu).",
+  "en": "nine-volume",
+  "pos": "adjective",
+  "parts": false
+ },
+ "doqquzdonkimi": {
+  "az": "Doqquzdona oxşayan; doqquzdonkimilər fəsiləsinə aid olan (bitkilər).",
+  "en": "honeysuckle-like, caprifoliaceous",
+  "pos": "adjective"
+ },
+ "doqquzdüymə": {
+  "skip": "meaning not certain"
+ },
+ "doqquzlitrlik": {
+  "az": "Doqquz litr tutumu olan.",
+  "en": "nine-litre",
+  "pos": "adjective"
+ },
+ "dorqurma": {
+  "skip": "meaning not certain"
+ },
+ "dovdaqkimi": {
+  "az": "Dovdağa oxşayan; dovdaqkimilər fəsiləsinə aid olan (quşlar).",
+  "en": "bustard-like, otidid",
+  "pos": "adjective"
+ },
+ "dovşanarpası": {
+  "skip": "plant name, not certain"
+ },
+ "dovşankimi": {
+  "az": "Dovşana oxşayan; dovşankimilərə aid olan (heyvanlar).",
+  "en": "hare-like, leporid",
+  "pos": "adjective"
+ },
+ "dovşanqulağı": {
+  "skip": "plant name, not certain"
+ },
+ "dovşantopalı": {
+  "skip": "meaning not certain"
+ },
+ "dovşanyatışı": {
+  "az": "Yüngül, ayıq-sayıq yuxu; özünü yatmışlığa vurma.",
+  "en": "light, wary sleep; feigned sleep",
+  "pos": "noun",
+  "src": "izahli"
+ },
+ "durnabalığıkimi": {
+  "az": "Durnabalığına oxşayan; durnabalığıkimilər fəsiləsinə aid olan (balıqlar).",
+  "en": "pike-like, esocid",
+  "pos": "adjective"
+ },
+ "durnaboğazlı": {
+  "az": "Boynu durnanınkı kimi uzun və nazik olan.",
+  "en": "crane-necked, long-necked",
+  "pos": "adjective"
+ },
+ "durnakimi": {
+  "az": "Durnaya oxşayan; durnakimilər dəstəsinə aid olan (quşlar).",
+  "en": "crane-like, gruiform",
+  "pos": "adjective"
+ },
+ "durnasəsli": {
+  "az": "Səsi durna səsinə bənzəyən.",
+  "en": "with a voice like a crane's",
+  "pos": "adjective"
+ },
+ "durnaçiçəkli": {
+  "skip": "plant name, not certain"
+ },
+ "duzdaşıma": {
+  "az": "Duzun bir yerdən başqa yerə daşınması.",
+  "en": "salt transport",
+  "pos": "noun"
+ },
+ "duzkəsmə": {
+  "skip": "meaning not certain"
+ },
+ "duzkəsən": {
+  "skip": "meaning not certain"
+ },
+ "duzçiçək": {
+  "skip": "plant name, not certain"
+ },
+ "duzçökmə": {
+  "az": "Duzun məhluldan çöküb toplanması.",
+  "en": "salt deposition, precipitation of salt",
+  "pos": "noun"
+ },
+ "duzüyütmə": {
+  "az": "Duzun üyüdülüb xırdalanması.",
+  "en": "salt grinding, salt milling",
+  "pos": "noun"
+ },
+ "dölazadetmə": {
+  "skip": "meaning not certain"
+ },
+ "dölsalma": {
+  "az": "Hamiləliyin vaxtından əvvəl pozulması, dölün düşməsi (əsasən heyvanlarda).",
+  "en": "miscarriage, abortion (esp. in animals)",
+  "pos": "noun"
+ },
+ "dölverici": {
+  "skip": "meaning not certain"
+ },
+ "dölvermə": {
+  "skip": "meaning not certain"
+ },
+ "dönükbarmaqlı": {
+  "skip": "meaning not certain"
+ },
+ "dövlətquşu": {
+  "az": "Xalq inancında başına qonduğu adama xoşbəxtlik, var-dövlət gətirən əfsanəvi quş; bəxt rəmzi.",
+  "en": "bird of fortune (in folklore, bringing luck to the one it lands on)",
+  "pos": "noun"
+ },
+ "dövlətyönlü": {
+  "az": "Dövlətin maraqlarına yönəlmiş, dövləti dəstəkləyən.",
+  "en": "state-oriented, pro-state",
+  "pos": "adjective"
+ },
+ "dövrədəyişmə": {
+  "skip": "meaning not certain"
+ },
+ "dövrədəyişən": {
+  "skip": "meaning not certain"
+ },
+ "dövrəyarpaq": {
+  "skip": "plant name, not certain"
+ },
+ "dövrəyarpaqlı": {
+  "skip": "meaning not certain"
+ },
+ "döymənaxış": {
+  "skip": "ambiguous (chased metal ornament or tattoo)"
+ },
+ "döymənaxışlı": {
+  "skip": "ambiguous (chased metal ornament or tattoo)"
+ },
+ "döymənaxışçı": {
+  "skip": "ambiguous (chased metal ornament or tattoo)"
+ },
+ "döyünçiçəyi": {
+  "skip": "plant name, not certain"
+ },
+ "döyənəkayaqlı": {
+  "az": "Ayağının altında döyənəkli yastıq olan; döyənəkayaqlılara (dəvələrə) aid olan.",
+  "en": "tylopod, callus-footed (of camels)",
+  "pos": "adjective"
+ },
+ "döşdaxili": {
+  "az": "Döş qəfəsinin daxilində yerləşən.",
+  "en": "intrathoracic",
+  "pos": "adjective"
+ },
+ "döşgəlmə": {
+  "skip": "meaning not certain"
+ },
+ "dünyabaxışlı": {
+  "az": "Müəyyən dünyagörüşü olan (geniş dünyabaxışlı insan).",
+  "en": "having a (certain) worldview",
+  "pos": "adjective"
+ },
+ "dünyaduyumlu": {
+  "az": "Dünyanı müəyyən tərzdə duyan, qavrayan (həssas dünyaduyumlu şair).",
+  "en": "with a (certain) sense of the world",
+  "pos": "adjective"
+ },
+ "düymədimdik": {
+  "skip": "animal name, not certain"
+ },
+ "düyməçiçəkli": {
+  "skip": "plant name, not certain"
+ },
+ "düyüarıtma": {
+  "az": "Düyünü qabıqdan, daşdan və zibildən təmizləmə.",
+  "en": "cleaning rice (removing husks and debris)",
+  "pos": "noun"
+ },
+ "düyünsalma": {
+  "az": "İpə, parçaya və s. düyün vurma, düyünləmə.",
+  "en": "knotting, tying a knot",
+  "pos": "noun"
+ },
+ "düyünçiçəyi": {
+  "skip": "plant name, not certain"
+ },
+ "düyütəmizləmə": {
+  "az": "Düyünün qabıqdan və qarışıqlardan təmizlənməsi (düyütəmizləmə zavodu).",
+  "en": "rice cleaning, rice milling",
+  "pos": "noun"
+ },
+ "düzaxımlı": {
+  "skip": "meaning not certain"
+ },
+ "düzağızlı": {
+  "skip": "meaning not certain"
+ },
+ "düzbiçimli": {
+  "skip": "meaning not certain"
+ },
+ "düzbucaqşəkilli": {
+  "az": "Düzbucaqlı formasında olan.",
+  "en": "rectangular",
+  "pos": "adjective"
+ },
+ "düzdalğalı": {
+  "skip": "meaning not certain"
+ },
+ "düzdamarlı": {
+  "az": "Damarları düz, bir-birinə paralel uzanan (yarpaqlar).",
+  "en": "straight-veined, parallel-veined (of leaves)",
+  "pos": "adjective"
+ },
+ "düzdişli": {
+  "az": "Dişləri ox boyunca düz kəsilmiş olan (düzdişli çarx).",
+  "en": "straight-toothed, spur (of gears)",
+  "pos": "adjective"
+ },
+ "düzqatlı": {
+  "skip": "meaning not certain"
+ },
+ "düzquyruqlu": {
+  "skip": "meaning not certain"
+ },
+ "düztezlikli": {
+  "skip": "meaning not certain"
+ },
+ "düztikişli": {
+  "skip": "meaning not certain"
+ },
+ "düztəsirli": {
+  "skip": "meaning not certain"
+ },
+ "düzyonuş": {
+  "skip": "meaning not certain"
+ },
+ "düşərgədaxili": {
+  "az": "Düşərgənin daxilində olan, düşərgəyə aid (düşərgədaxili qaydalar).",
+  "en": "within the camp, intra-camp",
+  "pos": "adjective"
+ },
+ "dırnaqkəsmə": {
+  "az": "Dırnaqları kəsib qısaltma.",
+  "en": "nail clipping, nail trimming",
+  "pos": "noun"
+ },
+ "dırnaqkəsən": {
+  "az": "Dırnaq kəsmək üçün alət.",
+  "en": "nail clippers",
+  "pos": "noun"
+ },
+ "dəfnəgilas": {
+  "skip": "plant name, not certain"
+ },
+ "dəfnəgilənar": {
+  "skip": "plant name, not certain"
+ },
+ "dəfnəkimi": {
+  "az": "Dəfnəyə oxşayan; dəfnəkimilər fəsiləsinə aid olan (bitkilər).",
+  "en": "laurel-like, lauraceous",
+  "pos": "adjective"
+ },
+ "dəhrəburunlu": {
+  "skip": "meaning not certain"
+ },
+ "dəlibaldırğan": {
+  "skip": "plant name, not certain"
+ },
+ "dəlibaşlı": {
+  "az": "Düşünmədən, ehtiyatsız hərəkət edən; dəlisov, qorxmaz.",
+  "en": "reckless, hot-headed, daredevil",
+  "pos": "adjective"
+ },
+ "dəlicəotu": {
+  "skip": "plant name, not certain"
+ },
+ "dəliotu": {
+  "skip": "plant name, not certain"
+ },
+ "dəlipencər": {
+  "skip": "plant name, not certain"
+ },
+ "dəliyarpız": {
+  "skip": "plant name, not certain"
+ },
+ "dəlizoğal": {
+  "skip": "plant name, not certain"
+ },
+ "dəliçiçək": {
+  "skip": "plant name, not certain"
+ },
+ "dəliçətənə": {
+  "skip": "plant name, not certain"
+ },
+ "dəllalbazar": {
+  "skip": "meaning not certain"
+ },
+ "dəlməgözlü": {
+  "skip": "meaning not certain"
+ },
+ "dələkimi": {
+  "az": "Dələyə oxşayan; dələkimilər fəsiləsinə aid olan (gəmiricilər).",
+  "en": "squirrel-like, sciurid",
+  "pos": "adjective"
+ },
+ "dələquyruq": {
+  "skip": "plant name, not certain (or animal)"
+ },
+ "dələquyruqlu": {
+  "skip": "meaning not certain"
+ },
+ "dəmirağacçiçəkli": {
+  "skip": "botanical group name, not certain"
+ }
+}

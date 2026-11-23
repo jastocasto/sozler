@@ -1,0 +1,972 @@
+{
+ "gil-qumlu": {
+  "az": "Tərkibində həm gil, həm də qum olan (gil-qumlu torpaq).",
+  "en": "clayey-sandy (of soil)",
+  "pos": "adjective"
+ },
+ "gil-qumsal": {
+  "az": "Tərkibində gil və qum olan; gilli-qumlu (gil-qumsal torpaq).",
+  "en": "clayey-sandy (of soil)",
+  "pos": "adjective"
+ },
+ "gil-qumsuz": {
+  "az": "Tərkibində gil və qum olmayan.",
+  "en": "free of clay and sand",
+  "pos": "adjective"
+ },
+ "gilli-qumsallı": {
+  "az": "Tərkibində çoxlu gil və qum olan (gilli-qumsallı yer).",
+  "en": "clayey and sandy",
+  "pos": "adjective"
+ },
+ "gilli-torpaqlı": {
+  "az": "Tərkibində gil və torpaq qarışığı olan; bulanıq (gilli-torpaqlı su).",
+  "en": "containing clay and earth; muddy",
+  "pos": "adjective"
+ },
+ "gips-beton": {
+  "az": "Gips bağlayıcısı əsasında hazırlanan yüngül beton; tikinti materialı.",
+  "en": "gypsum concrete",
+  "pos": "noun"
+ },
+ "girintisiz-çıxıntısız": {
+  "az": "Girintisi və çıxıntısı olmayan, düz, hamar (girintisiz-çıxıntısız sahil).",
+  "en": "even, without indentations or projections",
+  "pos": "adjective"
+ },
+ "giriş-çıxışlı": {
+  "az": "Girişi və çıxışı olan.",
+  "en": "having an entrance and an exit",
+  "pos": "adjective"
+ },
+ "girişli-çıxışlı": {
+  "az": "Həm girişi, həm də çıxışı olan.",
+  "en": "having an entrance and an exit",
+  "pos": "adjective"
+ },
+ "gorsuz-kəfənsiz": {
+  "az": "Dəfn olunmamış, nə qəbri, nə də kəfəni olan (adətən qarğışda və ya faciəli ölüm haqqında).",
+  "en": "unburied, without grave or shroud",
+  "pos": "adjective"
+ },
+ "gurultulu-nəriltili": {
+  "az": "Çox uca, gurultu və nərilti ilə səslənən.",
+  "en": "thundering and roaring, booming",
+  "pos": "adjective"
+ },
+ "gödək-enli": {
+  "az": "Boyu qısa, eni geniş olan; yoğun və qısa.",
+  "en": "short and broad; squat, stocky",
+  "pos": "adjective"
+ },
+ "gödək-ensiz": {
+  "az": "Həm qısa, həm də dar olan.",
+  "en": "short and narrow",
+  "pos": "adjective"
+ },
+ "gödək-gödərək": {
+  "az": "Bir qədər qısa, gödəkcə.",
+  "en": "shortish, rather short",
+  "pos": "adjective"
+ },
+ "göl-gölməçə": {
+  "az": "Yerdə yığılıb qalan sular; göllər və gölməçələr (yağışdan sonra hər yer göl-gölməçə idi).",
+  "en": "puddles, pools of water",
+  "pos": "noun"
+ },
+ "göl-gölməçəli": {
+  "az": "Üstündə su yığılıb gölməçələr əmələ gəlmiş (göl-gölməçəli yol).",
+  "en": "full of puddles, waterlogged",
+  "pos": "adjective"
+ },
+ "gön-dəri malları": {
+  "az": "Gön və dəri xammalı, habelə onlardan hazırlanan mallar.",
+  "en": "hides and leather goods",
+  "pos": "noun",
+  "parts": false
+ },
+ "görmə-eşitmə": {
+  "az": "Görmə və eşitmə; göz və qulaqla qavrama (görmə-eşitmə qüsurları).",
+  "en": "sight and hearing; audiovisual",
+  "pos": "noun"
+ },
+ "görüb-eşitmək": {
+  "az": "Bir şeyin öz gözü və qulağı ilə şahidi olmaq; həyatda çox şey görmək.",
+  "en": "to see and hear; to witness, to experience",
+  "pos": "verb"
+ },
+ "görücü-baxıcı": {
+  "skip": "meaning not certain"
+ },
+ "görüşüb-danışmaq": {
+  "az": "Biri ilə bir araya gəlib söhbət etmək.",
+  "en": "to meet and talk",
+  "pos": "verb"
+ },
+ "görüşüb-öpüşmək": {
+  "az": "Görüşərkən bir-birini öpüb mehribanlıqla salamlaşmaq.",
+  "en": "to greet and kiss each other",
+  "pos": "verb"
+ },
+ "gövdə-meyvə": {
+  "skip": "meaning not certain"
+ },
+ "gövdə-örtük": {
+  "skip": "meaning not certain"
+ },
+ "göz-nəzər": {
+  "az": "Xalq inancına görə paxıl baxışın insana zərər verməsi; gözdəymə.",
+  "en": "evil eye",
+  "pos": "noun"
+ },
+ "göz-qaş etmək": {
+  "az": "Göz və qaşla gizli işarə vermək.",
+  "en": "to signal with one's eyes and eyebrows, to wink",
+  "pos": "verb"
+ },
+ "göz-qulaq olmaq": {
+  "az": "Bir kəsə və ya bir şeyə diqqətlə nəzarət etmək, ondan muğayat olmaq.",
+  "en": "to keep an eye on, to look after",
+  "pos": "verb"
+ },
+ "gözəl-qəşəng": {
+  "az": "Çox gözəl, göyçək, qəşəng.",
+  "en": "beautiful, pretty, lovely",
+  "pos": "adjective"
+ },
+ "güc-zor": {
+  "az": "Fiziki güc və zor; məcburetmə (güc-zor işlətmək).",
+  "en": "force, brute force; coercion",
+  "pos": "noun"
+ },
+ "güclü-zorlu": {
+  "az": "Çox güclü, qüvvətli.",
+  "en": "strong, powerful, mighty",
+  "pos": "adjective"
+ },
+ "güclə-zorla": {
+  "az": "Çox çətinliklə, böyük əziyyətlə; zor işlədərək, məcburən.",
+  "en": "with great difficulty, barely; by force",
+  "pos": "adverb"
+ },
+ "gücsüz-zorsuz": {
+  "az": "Gücü-qüvvəti olmayan, zəif, taqətsiz.",
+  "en": "weak, powerless, feeble",
+  "pos": "adjective"
+ },
+ "gül-gülüstan": {
+  "az": "Güllü-çiçəkli bağ; məcazi mənada çiçəklənən, abad və gözəl yer.",
+  "en": "rose garden; a flourishing, beautiful place",
+  "pos": "noun"
+ },
+ "gül-gülüstanlıq": {
+  "az": "Hər tərəfi gül-çiçəkli, abad və gözəl yer.",
+  "en": "a place full of flowers; a blooming, flourishing land",
+  "pos": "noun"
+ },
+ "gül-gülşən": {
+  "az": "Güllü-çiçəkli bağ; abad, gözəl yer.",
+  "en": "flower garden; a blooming place",
+  "pos": "noun"
+ },
+ "gül-gülşənlik": {
+  "az": "Gül-çiçəklə dolu yer; abadlıq, gözəllik.",
+  "en": "a place full of flowers; blooming beauty",
+  "pos": "noun"
+ },
+ "güllük-gülüstanlıq": {
+  "az": "Hər yanı gül-çiçək olan yer; abad, gözəl diyar.",
+  "en": "a land of flowers; a flourishing place",
+  "pos": "noun"
+ },
+ "güllük-gülşənlik": {
+  "az": "Hər tərəfi güllük olan yer; abad, gözəl məkan.",
+  "en": "a land of flowers; a flourishing place",
+  "pos": "noun"
+ },
+ "güllük-çiçəklik": {
+  "az": "Gül və çiçək əkilmiş yer; hər tərəfi gül-çiçək olan məkan.",
+  "en": "flower garden, a place full of flowers",
+  "pos": "noun"
+ },
+ "gülüb-danışmaq": {
+  "az": "Şən halda gülə-gülə söhbət etmək.",
+  "en": "to laugh and chat, to talk merrily",
+  "pos": "verb"
+ },
+ "gün-dirilik": {
+  "az": "Yaşayış, dolanacaq, güzəran.",
+  "en": "life, existence, livelihood",
+  "pos": "noun"
+ },
+ "gündüzlü-gecəli": {
+  "az": "Gecə-gündüz, ara vermədən (gündüzlü-gecəli işləmək).",
+  "en": "day and night, round the clock",
+  "pos": "adverb"
+ },
+ "güney-quzey": {
+  "az": "Cənub və şimal (çox vaxt Güney və Quzey Azərbaycan nəzərdə tutulur).",
+  "en": "south and north (often South and North Azerbaijan)",
+  "pos": "noun"
+ },
+ "güneyli-quzeyli": {
+  "az": "Həm Güney, həm də Quzey Azərbaycandan olan (güneyli-quzeyli azərbaycanlılar).",
+  "en": "from both South and North Azerbaijan",
+  "pos": "adjective"
+ },
+ "günlü-gecəli": {
+  "az": "Gecə-gündüz, fasiləsiz olaraq.",
+  "en": "day and night, round the clock",
+  "pos": "adverb"
+ },
+ "günlü-günəşli": {
+  "az": "Hava açıq və günəşli olan (günlü-günəşli bir gün).",
+  "en": "sunny, bright",
+  "pos": "adjective"
+ },
+ "güzgü-daraq": {
+  "az": "Güzgü və daraq; üz-saç qayğısı üçün əşyalar.",
+  "en": "mirror and comb; toilet articles",
+  "pos": "noun"
+ },
+ "güzgülü-daraqlı": {
+  "skip": "meaning not certain"
+ },
+ "gəlin-qayınana": {
+  "az": "Gəlin ilə qayınana; onlar arasındakı münasibət (gəlin-qayınana çəkişməsi).",
+  "en": "daughter-in-law and mother-in-law",
+  "pos": "noun"
+ },
+ "gəlin-qayınata": {
+  "az": "Gəlin ilə qayınata; onlar arasındakı münasibət.",
+  "en": "daughter-in-law and father-in-law",
+  "pos": "noun"
+ },
+ "gəmi-kran": {
+  "az": "Üzərində yükqaldıran kran quraşdırılmış gəmi; üzən kran.",
+  "en": "floating crane, crane vessel",
+  "pos": "noun"
+ },
+ "gəmi-krançı": {
+  "az": "Üzən kranı idarə edən işçi.",
+  "en": "floating-crane operator",
+  "pos": "noun"
+ },
+ "gəmi-laboratoriya": {
+  "az": "Elmi tədqiqat aparmaq üçün laboratoriya ilə təchiz olunmuş gəmi.",
+  "en": "research vessel, laboratory ship",
+  "pos": "noun"
+ },
+ "gəmi-restoran": {
+  "az": "Restoran kimi istifadə olunan gəmi.",
+  "en": "floating restaurant, restaurant ship",
+  "pos": "noun"
+ },
+ "gərdişi-dövran": {
+  "az": "Zamanın gedişi, taleyin dönüşləri; fələyin çərxi.",
+  "en": "the turn of fortune, vicissitudes of time",
+  "pos": "noun"
+ },
+ "gəzib-baxmaq": {
+  "az": "Bir yeri dolaşaraq seyr etmək, onunla tanış olmaq.",
+  "en": "to look around, to walk around and see, to tour",
+  "pos": "verb"
+ },
+ "hadisə-fakt": {
+  "az": "Baş vermiş hadisələr və faktlar.",
+  "en": "events and facts",
+  "pos": "noun"
+ },
+ "hakim-informator": {
+  "skip": "meaning not certain"
+ },
+ "hakimiyyət-vətəndaş": {
+  "az": "Hakimiyyət ilə vətəndaş və onların qarşılıqlı münasibəti (hakimiyyət-vətəndaş dialoqu).",
+  "en": "government–citizen (relations)",
+  "pos": "noun"
+ },
+ "hal-hekayət": {
+  "az": "Başa gələn əhvalat, olub-keçənlər (hal-hekayətini danışmaq).",
+  "en": "one's story, what happened, account of events",
+  "pos": "noun"
+ },
+ "hal-vəziyyət": {
+  "az": "Vəziyyət, durum; işlərin gedişi.",
+  "en": "state of affairs, situation, condition",
+  "pos": "noun"
+ },
+ "hallıca-dulluca": {
+  "skip": "meaning not certain"
+ },
+ "halsız-əhvalsız": {
+  "az": "Zəif, taqətsiz və kefsiz; özünü pis hiss edən.",
+  "en": "weak and out of sorts, listless",
+  "pos": "adjective"
+ },
+ "halva-külçə": {
+  "az": "Halva və külçə kimi şirin yeməklər.",
+  "en": "halva and sweet buns",
+  "pos": "noun"
+ },
+ "halva-yayma": {
+  "az": "Halva və yayma (nazik yastı çörək).",
+  "en": "halva and thin flatbread",
+  "pos": "noun"
+ },
+ "halva-çörək": {
+  "az": "Halva və çörək.",
+  "en": "halva and bread",
+  "pos": "noun"
+ },
+ "haqq-hüquq": {
+  "az": "İnsana qanunla və ya ədalətlə məxsus olan hüquqlar.",
+  "en": "rights",
+  "pos": "noun"
+ },
+ "haqq-ixtiyar": {
+  "az": "Bir işi görmək üçün olan hüquq və səlahiyyət.",
+  "en": "right and authority, entitlement",
+  "pos": "noun"
+ },
+ "haqq-salam": {
+  "skip": "meaning not certain"
+ },
+ "haram-halal": {
+  "az": "Dinin icazə verdiyi və qadağan etdiyi; məcazi mənada yaxşı ilə pis (haram-halal bilməmək).",
+  "en": "lawful and unlawful; right and wrong",
+  "pos": "noun"
+ },
+ "haray-dad": {
+  "az": "Kömək üçün qışqırıq, fəryad; ədalət istəyi.",
+  "en": "cry for help, outcry",
+  "pos": "noun",
+  "parts": false
+ },
+ "haray-qışqırıq": {
+  "az": "Uca səslə qışqırma; hay-küy, səs-küy.",
+  "en": "shouting, uproar, clamour",
+  "pos": "noun"
+ },
+ "hardtop-sedan": {
+  "az": "Yan pəncərələri arasında dirək olmayan bərk damlı sedan tipli avtomobil.",
+  "en": "hardtop sedan",
+  "pos": "noun"
+ },
+ "hava-raket": {
+  "skip": "meaning not certain"
+ },
+ "hava-yer mərmisi": {
+  "az": "Təyyarədən və ya digər uçan aparatdan yerdəki hədəfə atılan raket, mərmi.",
+  "en": "air-to-surface missile",
+  "pos": "noun"
+ },
+ "hay-həşir": {
+  "az": "Böyük səs-küy, qarışıqlıq, qiyamət (hay-həşir salmaq).",
+  "en": "uproar, commotion, pandemonium",
+  "pos": "noun"
+ },
+ "hay-həşirli": {
+  "az": "Səs-küylü, qarmaqarışıq, hay-küylü.",
+  "en": "tumultuous, noisy",
+  "pos": "adjective"
+ },
+ "hay-şivən": {
+  "az": "Ucadan ağlaşma, fəryad, nalə.",
+  "en": "wailing, lamentation",
+  "pos": "noun"
+ },
+ "haylı-haraylı": {
+  "az": "Səs-küylü, hay-küylü, qışqırıqlı.",
+  "en": "noisy, clamorous",
+  "pos": "adjective"
+ },
+ "hazırlıq-tamamlama": {
+  "skip": "meaning not certain"
+ },
+ "herik-taxıl": {
+  "az": "Herik sahəsinin taxılla növbələşdiyi əkin sistemi (herik-taxıl növbəli əkini).",
+  "en": "fallow-grain (crop rotation)",
+  "pos": "adjective"
+ },
+ "hesab-fakturalı": {
+  "az": "Hesab-faktura ilə rəsmiləşdirilmiş, hesab-fakturası olan.",
+  "en": "invoiced, with an invoice",
+  "pos": "adjective"
+ },
+ "hesab-fakturasız": {
+  "az": "Hesab-faktura ilə rəsmiləşdirilməmiş, hesab-fakturası olmayan.",
+  "en": "uninvoiced, without an invoice",
+  "pos": "adjective"
+ },
+ "hesab-proforma": {
+  "az": "Mal göndərilməzdən əvvəl alıcıya verilən ilkin, məlumat xarakterli hesab.",
+  "en": "pro forma invoice",
+  "pos": "noun"
+ },
+ "hesab-qaimə": {
+  "az": "Göndərilən malın siyahısı və dəyəri göstərilən, həm hesab, həm də qaimə rolunu oynayan sənəd.",
+  "en": "invoice and delivery note (combined)",
+  "pos": "noun"
+ },
+ "hesab-spesifikasiya": {
+  "az": "Malların adı, miqdarı və qiyməti ətraflı göstərilən hesab sənədi.",
+  "en": "itemized invoice, invoice with specification",
+  "pos": "noun"
+ },
+ "hesab-tələbnamə": {
+  "az": "Göstərilən məbləğin ödənilməsini tələb edən hesab sənədi.",
+  "en": "payment demand, invoice requesting payment",
+  "pos": "noun"
+ },
+ "hesablama-cəmləmə": {
+  "az": "Məbləğlərin hesablanıb toplanması işi.",
+  "en": "calculation and summation",
+  "pos": "noun"
+ },
+ "hey-hərəkət": {
+  "az": "Güc və hərəkət qabiliyyəti; taqət.",
+  "en": "strength and vigour, energy",
+  "pos": "noun"
+ },
+ "heykəl-abidə": {
+  "az": "Heykəl və abidələr; heykəl şəklində ucaldılmış abidə.",
+  "en": "statues and monuments; monument",
+  "pos": "noun"
+ },
+ "heykəl-büst": {
+  "az": "Heykəl və büst; heykəltəraşlıq əsərləri.",
+  "en": "statues and busts",
+  "pos": "noun"
+ },
+ "heykəl-fiqur": {
+  "az": "Heykəl şəklində hazırlanmış fiqur; heykəlcik.",
+  "en": "sculpted figure, statuette",
+  "pos": "noun"
+ },
+ "heykəl-kompozisiya": {
+  "az": "Bir neçə fiqurdan ibarət heykəltəraşlıq əsəri.",
+  "en": "sculptural composition, sculptural group",
+  "pos": "noun"
+ },
+ "heysiz-halsız": {
+  "az": "Çox zəif, gücdən düşmüş, taqətsiz.",
+  "en": "weak, exhausted, drained",
+  "pos": "adjective"
+ },
+ "heysiz-hərəkətsiz": {
+  "az": "Taqətdən düşüb hərəkət edə bilməyən.",
+  "en": "weak and motionless, limp",
+  "pos": "adjective"
+ },
+ "hil-mixək": {
+  "az": "Hil, mixək və bu kimi ətirli ədviyyatlar.",
+  "en": "cardamom and cloves; spices",
+  "pos": "noun"
+ },
+ "hilli-mixəkli": {
+  "az": "İçinə hil və mixək qatılmış (hilli-mixəkli çay).",
+  "en": "spiced with cardamom and cloves",
+  "pos": "adjective"
+ },
+ "hirs-hikkə": {
+  "az": "Qəzəb, hiddət, acıq.",
+  "en": "anger, fury",
+  "pos": "noun"
+ },
+ "hirs-qəzəb": {
+  "az": "Güclü qəzəb, hiddət.",
+  "en": "rage, fury",
+  "pos": "noun"
+ },
+ "hirsli-hikkəli": {
+  "az": "Qəzəbli, acıqlı; tez hirslənən.",
+  "en": "angry, irascible, hot-tempered",
+  "pos": "adjective"
+ },
+ "hirsli-qəzəbli": {
+  "az": "Çox hirsli, qəzəb dolu.",
+  "en": "furious, enraged",
+  "pos": "adjective"
+ },
+ "hiss-həyəcanlı": {
+  "az": "Hiss və həyəcanla dolu, emosional.",
+  "en": "emotional, full of feeling",
+  "pos": "adjective"
+ },
+ "hissiz-duyğusuz": {
+  "az": "Heç nə hiss etməyən; laqeyd, soyuq.",
+  "en": "unfeeling, insensitive, emotionless",
+  "pos": "adjective"
+ },
+ "hissiz-tozsuz": {
+  "az": "His və tozdan təmiz olan.",
+  "en": "free of soot and dust, clean",
+  "pos": "adjective",
+  "parts": false
+ },
+ "host-əlaqə": {
+  "skip": "meaning not certain"
+ },
+ "hovuz-delfinari": {
+  "az": "Delfinlərin saxlanıldığı və tamaşa göstərdiyi hovuz.",
+  "en": "dolphinarium pool",
+  "pos": "noun"
+ },
+ "huri-mələk": {
+  "az": "Huri və mələk; məcazi mənada çox gözəl qız, gözəllik timsalı.",
+  "en": "houris and angels; a heavenly beauty",
+  "pos": "noun"
+ },
+ "huri-pəri": {
+  "az": "Huri və pəri; məcazi mənada çox gözəl qız və ya qadın.",
+  "en": "houris and fairies; a heavenly beauty",
+  "pos": "noun"
+ },
+ "huri-pərizad": {
+  "az": "Huri və pərizad; məcazi mənada çox gözəl qız və ya qadın.",
+  "en": "houris and fairies; a heavenly beauty",
+  "pos": "noun"
+ },
+ "huş-guş": {
+  "az": "Diqqət, fikir, huş (huşu-guşu onda idi).",
+  "en": "attention, wits",
+  "pos": "noun",
+  "parts": false
+ },
+ "huşsuz-başsız": {
+  "az": "Unutqan, dalğın, fikri dağınıq.",
+  "en": "absent-minded, scatterbrained",
+  "pos": "adjective"
+ },
+ "hökm-fərman": {
+  "az": "Hökmdarın və ya hakimiyyətin əmri, fərmanı.",
+  "en": "decree, order, command",
+  "pos": "noun"
+ },
+ "hökm-qərar": {
+  "az": "Rəsmi, qəti qərar; hökm.",
+  "en": "verdict, decision, ruling",
+  "pos": "noun"
+ },
+ "hönkürüb-ağlamaq": {
+  "az": "Ucadan, hönkürtü ilə ağlamaq.",
+  "en": "to sob loudly, to weep bitterly",
+  "pos": "verb"
+ },
+ "hönkürüb-hıçqırmaq": {
+  "az": "Ucadan ağlayıb hıçqırmaq.",
+  "en": "to sob convulsively",
+  "pos": "verb"
+ },
+ "hörmətli-izzətli": {
+  "az": "Hörmət və izzət sahibi olan, çox hörmətli.",
+  "en": "highly respected, honoured",
+  "pos": "adjective"
+ },
+ "hörmətsiz-izzətsiz": {
+  "az": "Hörmət və izzət görməyən, qədri bilinməyən.",
+  "en": "unrespected, held in no esteem",
+  "pos": "adjective"
+ },
+ "hörük-burma": {
+  "skip": "meaning not certain"
+ },
+ "hücum-müdafiə taktikası": {
+  "az": "Hücum və müdafiə hərəkətlərini birləşdirən döyüş və ya oyun taktikası.",
+  "en": "offensive-defensive tactics",
+  "pos": "noun"
+ },
+ "hüquqşünas-kriminoloq": {
+  "az": "Cinayətkarlığı öyrənən hüquqşünas mütəxəssis.",
+  "en": "legal criminologist",
+  "pos": "noun"
+ },
+ "hüsn-camal": {
+  "az": "Üz gözəlliyi, gözəllik.",
+  "en": "beauty, good looks",
+  "pos": "noun"
+ },
+ "hüzn-kədər": {
+  "az": "Dərin qəm, kədər.",
+  "en": "grief, sorrow",
+  "pos": "noun"
+ },
+ "hüznlü-dərdli": {
+  "az": "Kədərli, qəmli, dərdli.",
+  "en": "sorrowful, grief-stricken",
+  "pos": "adjective"
+ },
+ "hüznlü-kədərli": {
+  "az": "Çox kədərli, qəmli.",
+  "en": "sad, mournful",
+  "pos": "adjective"
+ },
+ "hədə-hərbə": {
+  "az": "Hədə, qorxutma; hədələyici sözlər (hədə-hərbə gəlmək).",
+  "en": "threats, intimidation",
+  "pos": "noun"
+ },
+ "hədə-söyüş": {
+  "az": "Hədələyici və təhqiredici sözlər.",
+  "en": "threats and abuse",
+  "pos": "noun"
+ },
+ "həkim-allerqoloq": {
+  "az": "Allergik xəstəliklər üzrə ixtisaslaşmış həkim.",
+  "en": "allergist",
+  "pos": "noun"
+ },
+ "həkim-androloq": {
+  "az": "Kişi reproduktiv sisteminin xəstəlikləri üzrə həkim.",
+  "en": "andrologist",
+  "pos": "noun"
+ },
+ "həkim-dermatoloq": {
+  "az": "Dəri xəstəlikləri üzrə ixtisaslaşmış həkim.",
+  "en": "dermatologist",
+  "pos": "noun"
+ },
+ "həkim-diyetoloq": {
+  "az": "Pəhriz və düzgün qidalanma üzrə həkim.",
+  "en": "dietitian, nutrition doctor",
+  "pos": "noun"
+ },
+ "həkim-ekspert": {
+  "az": "Tibbi ekspertiza aparan həkim.",
+  "en": "medical examiner, medical expert",
+  "pos": "noun"
+ },
+ "həkim-endokrinoloq": {
+  "az": "Hormonlar və daxili sekresiya vəzilərinin xəstəlikləri üzrə həkim.",
+  "en": "endocrinologist",
+  "pos": "noun"
+ },
+ "həkim-epidemioloq": {
+  "az": "Yoluxucu xəstəliklərin yayılmasını öyrənən və onların qarşısını alan həkim.",
+  "en": "epidemiologist",
+  "pos": "noun"
+ },
+ "həkim-fizioterapevt": {
+  "az": "Fiziki üsullarla (istilik, işıq, elektrik, masaj və s.) müalicə edən həkim.",
+  "en": "physiotherapist",
+  "pos": "noun"
+ },
+ "həkim-herontoloq": {
+  "az": "Qocalma və yaşlı insanların sağlamlığı üzrə həkim.",
+  "en": "gerontologist",
+  "pos": "noun"
+ },
+ "həkim-immunoloq": {
+  "az": "İmmun sistemin xəstəlikləri üzrə həkim.",
+  "en": "immunologist",
+  "pos": "noun"
+ },
+ "həkim-nevroloq": {
+  "az": "Sinir sistemi xəstəlikləri üzrə həkim.",
+  "en": "neurologist",
+  "pos": "noun"
+ },
+ "həkim-otorinolarinqoloq": {
+  "az": "Qulaq, burun və boğaz xəstəlikləri üzrə həkim; LOR həkimi.",
+  "en": "otorhinolaryngologist, ENT doctor",
+  "pos": "noun"
+ },
+ "həkim-toksikoloq": {
+  "az": "Zəhərlənmələrin müalicəsi və zəhərli maddələr üzrə həkim.",
+  "en": "toxicologist",
+  "pos": "noun"
+ },
+ "həmli-buta": {
+  "skip": "meaning not certain"
+ },
+ "hərbi-atom": {
+  "skip": "meaning not certain"
+ },
+ "hərbi-aviasiya": {
+  "az": "Hərbi aviasiyaya aid olan (hərbi-aviasiya məktəbi).",
+  "en": "military aviation (attributive)",
+  "pos": "adjective"
+ },
+ "hərbi-desant": {
+  "az": "Qoşunların gəmi və ya təyyarə ilə çıxarılmasına aid olan (hərbi-desant əməliyyatı).",
+  "en": "military landing, airborne (attributive)",
+  "pos": "adjective"
+ },
+ "hərbi-hüquqi": {
+  "az": "Həm hərbi, həm də hüquqi xarakter daşıyan; hərbi hüquqa aid olan.",
+  "en": "military-legal",
+  "pos": "adjective"
+ },
+ "hərbi-ideoloji": {
+  "az": "Həm hərbi, həm də ideoloji xarakter daşıyan.",
+  "en": "military and ideological",
+  "pos": "adjective"
+ },
+ "hərzə-hədyan": {
+  "az": "Mənasız, boş və ədəbsiz sözlər; cəfəngiyat.",
+  "en": "nonsense, drivel, rubbish talk",
+  "pos": "noun"
+ },
+ "həyalı-abırlı": {
+  "az": "Utancaq, ismətli, ədəbli.",
+  "en": "modest, decent",
+  "pos": "adjective"
+ },
+ "həyasız-abırsız": {
+  "az": "Utanmaz, ədəbsiz, abır-həya bilməyən.",
+  "en": "shameless, brazen",
+  "pos": "adjective"
+ },
+ "həyət-küçə": {
+  "az": "Həyət və küçə; evin ətrafı.",
+  "en": "yard and street; the neighbourhood",
+  "pos": "noun"
+ },
+ "həyətli-bacalı": {
+  "az": "Öz həyəti, ev-eşiyi olan.",
+  "en": "having a house and yard of one's own",
+  "pos": "adjective"
+ },
+ "həyətsiz-bacasız": {
+  "az": "Ev-eşiyi, həyəti olmayan; yurdsuz.",
+  "en": "without house or home, homeless",
+  "pos": "adjective"
+ },
+ "idarə-dəftərxana": {
+  "az": "İdarə və dəftərxana; kargüzarlıq işi (idarə-dəftərxana ləvazimatı).",
+  "en": "office and clerical work; office (supplies)",
+  "pos": "noun"
+ },
+ "ideya-tərbiyə": {
+  "az": "İnsanların dünyagörüşünü müəyyən ideyalar ruhunda formalaşdırma (ideya-tərbiyə işi).",
+  "en": "ideological education",
+  "pos": "noun"
+ },
+ "iftira-böhtan": {
+  "az": "Yalan ittiham, böhtan, şər.",
+  "en": "slander, calumny",
+  "pos": "noun"
+ },
+ "iftira-böhtanlı": {
+  "az": "İftira və böhtanla dolu.",
+  "en": "slanderous, calumnious",
+  "pos": "adjective"
+ },
+ "iks-şüa": {
+  "az": "Rentgen şüaları.",
+  "en": "X-ray",
+  "pos": "noun"
+ },
+ "ilişib-qalmaq": {
+  "az": "Bir şeyə ilişərək yerindən tərpənə bilməmək; bir yerdə ləngiyib qalmaq.",
+  "en": "to get stuck, to get caught",
+  "pos": "verb"
+ },
+ "ilmə-düymə": {
+  "az": "Paltarın ilmələri və düymələri.",
+  "en": "buttons and buttonholes",
+  "pos": "noun"
+ },
+ "ilmə-düyün": {
+  "az": "İlmə və düyün; düyünlə bağlama.",
+  "en": "loops and knots",
+  "pos": "noun"
+ },
+ "imtahan-sınaq": {
+  "az": "Sınaq, imtahan; çətin sınaq.",
+  "en": "test, trial, ordeal",
+  "pos": "noun"
+ },
+ "imtahan-yoxlama": {
+  "az": "Bilik və bacarığın yoxlanılması; imtahan və yoxlama.",
+  "en": "examination and testing, assessment",
+  "pos": "noun"
+ },
+ "inciyib-getmək": {
+  "az": "Kiminsə sözündən və ya hərəkətindən incik düşüb çıxıb getmək.",
+  "en": "to leave in a huff, to go away offended",
+  "pos": "verb"
+ },
+ "inciyib-küsmək": {
+  "az": "Kimdənsə incik düşüb onunla küsülü qalmaq.",
+  "en": "to take offence and sulk",
+  "pos": "verb"
+ },
+ "internat-məktəb": {
+  "az": "Şagirdlərin yaşayıb təhsil aldığı məktəb; internat.",
+  "en": "boarding school",
+  "pos": "noun"
+ },
+ "internet-səhifə": {
+  "az": "İnternetdə yerləşdirilmiş səhifə; veb-səhifə.",
+  "en": "web page",
+  "pos": "noun"
+ },
+ "iri-xırdalı": {
+  "az": "İrisi də, xırdası da olan; müxtəlif ölçülü (iri-xırdalı daşlar).",
+  "en": "of various sizes, large and small",
+  "pos": "adjective"
+ },
+ "islah-əmək müəssisəsi": {
+  "az": "Məhkum edilmiş şəxslərin cəza çəkdiyi və işlədiyi müəssisə.",
+  "en": "correctional labour institution, penal colony",
+  "pos": "noun"
+ },
+ "ismətli-abırlı": {
+  "az": "Namuslu, iffətli, ədəbli.",
+  "en": "chaste and decent, virtuous",
+  "pos": "adjective"
+ },
+ "ismətli-həyalı": {
+  "az": "İffətli və utancaq, namuslu.",
+  "en": "chaste and modest",
+  "pos": "adjective"
+ },
+ "ismətsiz-abırsız": {
+  "az": "Namussuz, utanmaz, ədəbsiz.",
+  "en": "shameless, immodest, indecent",
+  "pos": "adjective"
+ },
+ "ismətsiz-həyasız": {
+  "az": "Namussuz və həyasız.",
+  "en": "shameless, wanton",
+  "pos": "adjective"
+ },
+ "istək-arzu": {
+  "az": "Arzu, istək, dilək.",
+  "en": "wishes, desires",
+  "pos": "noun"
+ },
+ "istək-arzusuz": {
+  "az": "Heç bir istəyi, arzusu olmayan; könülsüz.",
+  "en": "without wish or desire, indifferent",
+  "pos": "adjective"
+ },
+ "istəkli-arzulu": {
+  "az": "Çox istənilən, sevimli, əziz.",
+  "en": "beloved, dear, longed-for",
+  "pos": "adjective"
+ },
+ "istəksiz-arzusuz": {
+  "az": "Heç bir istək və həvəsi olmayan, könülsüz.",
+  "en": "reluctant, unwilling, listless",
+  "pos": "adjective"
+ },
+ "iyli-tozlu": {
+  "az": "Pis iyi olan və tozla dolu.",
+  "en": "smelly and dusty, musty",
+  "pos": "adjective"
+ },
+ "iynə-dərman": {
+  "az": "Müalicədə işlədilən iynələr və dərmanlar; müalicə.",
+  "en": "injections and medicines; medical treatment",
+  "pos": "noun"
+ },
+ "iynə-sancaq": {
+  "az": "İynə, sancaq və bu kimi xırda tikiş ləvazimatı.",
+  "en": "needles and pins",
+  "pos": "noun"
+ },
+ "iynə-saplı": {
+  "skip": "meaning not certain"
+ },
+ "iysiz-qoxusuz": {
+  "az": "Heç bir iyi, qoxusu olmayan.",
+  "en": "odourless, scentless",
+  "pos": "adjective"
+ },
+ "iztirab-həyəcan": {
+  "az": "Əzab və həyəcan; daxili təlaş, narahatlıq.",
+  "en": "anguish and agitation",
+  "pos": "noun"
+ },
+ "iztirablı-həyəcanlı": {
+  "az": "Əzab və təlaşla dolu, narahat.",
+  "en": "anguished, agitated, troubled",
+  "pos": "adjective"
+ },
+ "iztirabsız-həyəcansız": {
+  "az": "Əzab-əziyyət və təlaş keçirmədən, sakitcə.",
+  "en": "calmly, untroubled",
+  "pos": "adverb"
+ },
+ "içlik-astar": {
+  "az": "Paltarın içinə qoyulan qat və astar.",
+  "en": "interlining and lining",
+  "pos": "noun"
+ },
+ "içlikli-astarlı": {
+  "az": "İçliyi və astarı olan (paltar).",
+  "en": "padded and lined",
+  "pos": "adjective"
+ },
+ "içliksiz-astarsız": {
+  "az": "İçliyi və astarı olmayan (paltar).",
+  "en": "unlined, without padding or lining",
+  "pos": "adjective"
+ },
+ "işvə-naz": {
+  "az": "Naz, işvə, cilvə; nazlı davranış.",
+  "en": "coquetry, coyness, flirtatious airs",
+  "pos": "noun"
+ },
+ "işvə-nazlı": {
+  "az": "Nazlı, işvəli, cilvəli.",
+  "en": "coquettish, coy",
+  "pos": "adjective"
+ },
+ "işvəli-nazlı": {
+  "az": "Naz və işvə ilə davranan, cilvəli.",
+  "en": "coquettish, coy",
+  "pos": "adjective"
+ },
+ "işıq-kölgəli": {
+  "az": "İşıqlı və kölgəli hissələri olan; işıq-kölgə effektli (işıq-kölgəli rəsm).",
+  "en": "with light and shade, chiaroscuro",
+  "pos": "adjective"
+ },
+ "işıq-kölgəsiz": {
+  "skip": "meaning not certain"
+ },
+ "işıq-nur": {
+  "az": "İşıq, nur; parlaqlıq.",
+  "en": "light, radiance",
+  "pos": "noun"
+ },
+ "işıqlı-işıqsız": {
+  "skip": "meaning not certain"
+ },
+ "işıqlı-kölgəli": {
+  "az": "Bəzi yerləri işıqlı, bəzi yerləri kölgəli olan.",
+  "en": "partly lit and partly shaded; dappled",
+  "pos": "adjective"
+ },
+ "işıqlı-nurlu": {
+  "az": "Çox işıqlı, nurlu, parlaq.",
+  "en": "bright, radiant, luminous",
+  "pos": "adjective"
+ },
+ "işıqsız-kölgəsiz": {
+  "skip": "meaning not certain"
+ },
+ "kabab-çörək": {
+  "az": "Kabab və çörək; kabablı süfrə.",
+  "en": "kebab and bread",
+  "pos": "noun"
+ },
+ "kabel-kran": {
+  "az": "Dayaqlar arasında çəkilmiş kanat üzrə hərəkət edən yükqaldıran kran.",
+  "en": "cable crane",
+  "pos": "noun"
+ },
+ "kafe-avtomat": {
+  "az": "Yemək və içkilərin avtomatlar vasitəsilə satıldığı kafe.",
+  "en": "automat (self-service café with vending machines)",
+  "pos": "noun"
+ },
+ "kafe-diskoteka": {
+  "az": "Həm kafe, həm də diskoteka kimi fəaliyyət göstərən əyləncə yeri.",
+  "en": "café-disco",
+  "pos": "noun"
+ }
+}

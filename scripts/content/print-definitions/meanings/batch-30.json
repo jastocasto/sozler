@@ -1,0 +1,876 @@
+{
+ "baştutma": {
+  "az": "Bir işin, tədbirin və ya planın həyata keçməsi, baş verməsi.",
+  "en": "taking place, coming off, realization (of a plan or event)",
+  "pos": "noun"
+ },
+ "başvurma": {
+  "az": "Bir yerə qısa müddətə gedib baş çəkmə; suya başı üstə tullanma.",
+  "en": "dropping in, a brief visit; diving (into water)",
+  "pos": "noun"
+ },
+ "behalan": {
+  "az": "Müqavilə üzrə beh alan, ilkin ödənişi qəbul edən (behalan tərəf).",
+  "en": "receiving a deposit (of a party to a contract)",
+  "pos": "adjective"
+ },
+ "behalma": {
+  "az": "Razılaşmanın təminatı kimi beh, ilkin ödəniş qəbul etmə.",
+  "en": "taking (receiving) a deposit",
+  "pos": "noun"
+ },
+ "behvermə": {
+  "az": "Razılaşmanın təminatı kimi qabaqcadan beh, ilkin ödəniş vermə.",
+  "en": "giving (paying) a deposit",
+  "pos": "noun"
+ },
+ "belağrısı": {
+  "az": "Belin, onurğanın aşağı hissəsində olan ağrı.",
+  "en": "lower back pain, lumbago",
+  "pos": "noun"
+ },
+ "benzinayırma": {
+  "az": "Neftdən və ya təbii qazdan benzin fraksiyasının ayrılması (benzinayırma qurğusu).",
+  "en": "separation (stripping) of gasoline from oil or gas",
+  "pos": "noun"
+ },
+ "benzindaşıma": {
+  "az": "Benzinin bir yerdən başqa yerə daşınması (benzindaşıma maşını).",
+  "en": "transportation of petrol (gasoline)",
+  "pos": "noun"
+ },
+ "betondaşıma": {
+  "az": "Hazır beton qarışığının tikinti yerinə daşınması (betondaşıma maşını).",
+  "en": "transportation of concrete",
+  "pos": "noun"
+ },
+ "betondöşəmə": {
+  "az": "Beton qarışığının qəlibə, yerə və ya yol örtüyünə döşənməsi.",
+  "en": "concrete placing, concrete laying",
+  "pos": "noun"
+ },
+ "betondəlmə": {
+  "az": "Betonu deşmə, betonda dəlik və ya yarıq açma.",
+  "en": "concrete drilling, concrete breaking",
+  "pos": "noun"
+ },
+ "betonqarışdırma": {
+  "az": "Beton qarışığının hazırlanması üçün sement, qum, çınqıl və suyun qarışdırılması.",
+  "en": "concrete mixing",
+  "pos": "noun"
+ },
+ "betonqarışdırıcı": {
+  "az": "Beton qarışığı hazırlamaq üçün fırlanan barabanlı maşın.",
+  "en": "concrete mixer",
+  "pos": "noun"
+ },
+ "betontökmə": {
+  "az": "Beton qarışığının qəlibə və ya tikinti yerinə tökülməsi.",
+  "en": "concrete pouring, concreting",
+  "pos": "noun"
+ },
+ "binadaxili": {
+  "az": "Binanın içində olan, binaya aid olan (binadaxili şəbəkə).",
+  "en": "indoor, in-building, within a building",
+  "pos": "adjective"
+ },
+ "bintsarıma": {
+  "az": "Yaranı və ya zədələnmiş yeri bintlə sarıma.",
+  "en": "bandaging",
+  "pos": "noun"
+ },
+ "binəsalma": {
+  "az": "Maldarların, çobanların yaylaqda və ya qışlaqda binə, müvəqqəti yaşayış yeri qurması.",
+  "en": "setting up a herders' camp",
+  "pos": "noun"
+ },
+ "birəböcək": {
+  "skip": "insect name, not certain"
+ },
+ "bissektor": {
+  "skip": "meaning not certain"
+ },
+ "bitboks": {
+  "az": "Ağız, dodaq və boğazla zərb alətlərinin səsini və ritmini təqlid etmə sənəti.",
+  "en": "beatbox, beatboxing",
+  "pos": "noun",
+  "parts": false
+ },
+ "bitişikerkəkcik": {
+  "az": "Sapları və ya tozluqları bir-birinə bitişmiş erkəkcik.",
+  "en": "connate (fused) stamen",
+  "pos": "noun"
+ },
+ "bitkitərkibli": {
+  "az": "Tərkibində bitki mənşəli maddələr olan (bitkitərkibli dərman).",
+  "en": "plant-based, containing plant ingredients",
+  "pos": "adjective"
+ },
+ "bitotu": {
+  "skip": "plant name, not certain"
+ },
+ "boltkəsən": {
+  "az": "Boltları, metal çubuq və zəncirləri kəsmək üçün uzunsaplı alət.",
+  "en": "bolt cutter",
+  "pos": "noun"
+ },
+ "bortbağı": {
+  "skip": "meaning not certain"
+ },
+ "bortrabitəçi": {
+  "az": "Təyyarə və ya gəmi heyətində radiorabitəni təmin edən mütəxəssis.",
+  "en": "flight (on-board) radio operator",
+  "pos": "noun"
+ },
+ "borubükən": {
+  "skip": "zoological name, not certain"
+ },
+ "borudaxili": {
+  "az": "Borunun içində olan, boru daxilində baş verən (borudaxili təzyiq).",
+  "en": "in-pipe, inside a pipe",
+  "pos": "adjective"
+ },
+ "borudişli": {
+  "az": "Dişləri boru şəklində olan (borudişlilər – Afrikada yaşayan məməlilər dəstəsi).",
+  "en": "tubulidentate (of the aardvark order)",
+  "pos": "adjective"
+ },
+ "borukəsmə": {
+  "az": "Boruları lazımi uzunluqda kəsmə (borukəsmə dəzgahı).",
+  "en": "pipe cutting",
+  "pos": "noun"
+ },
+ "borusıxma": {
+  "az": "Boruları birləşdirmək və ya bərkitmək üçün sıxma, sıxıb tutma.",
+  "en": "pipe clamping, pipe crimping",
+  "pos": "noun"
+ },
+ "borutökmə": {
+  "az": "Boruların ərinmiş metalın qəlibə tökülməsi yolu ilə hazırlanması.",
+  "en": "pipe casting",
+  "pos": "noun"
+ },
+ "boruçiçəkli": {
+  "az": "Çiçəkləri boru şəklində olan (bitki).",
+  "en": "with tubular flowers, tubiflorous",
+  "pos": "adjective"
+ },
+ "boyabişirmə": {
+  "az": "Boyaq maddəsini qaynadaraq hazırlama; yunu, ipliyi boya məhlulunda qaynadıb rəngləmə.",
+  "en": "boiling of dye; dyeing by boiling (wool, yarn)",
+  "pos": "noun"
+ },
+ "boyaqkökü": {
+  "skip": "plant name, not certain"
+ },
+ "boyaqotukimi": {
+  "az": "Boyaqotukimilər fəsiləsinə aid olan (bitki).",
+  "en": "rubiaceous, of the madder family (Rubiaceae)",
+  "pos": "adjective"
+ },
+ "boyaqvuran": {
+  "az": "Parçaya, yuna və ya əşyaya boyaq vuran usta; boyaqçı.",
+  "en": "dyer",
+  "pos": "noun"
+ },
+ "boyaqvurma": {
+  "az": "Parçanı, ipliyi və ya əşyanı boyaqla rəngləmə.",
+  "en": "dyeing, applying dye",
+  "pos": "noun"
+ },
+ "boyaqəzən": {
+  "az": "Boyaq maddələrini əzib xırdalayan (boyaqəzən maşın).",
+  "en": "paint-grinding, pigment-grinding (machine)",
+  "pos": "adjective"
+ },
+ "boyvermə": {
+  "az": "Bitkinin boy atması, hündürlüyə böyüməsi.",
+  "en": "growth in height, shooting up (of plants)",
+  "pos": "noun"
+ },
+ "boyçiçəyi": {
+  "skip": "plant name, not certain"
+ },
+ "bozbənd": {
+  "skip": "meaning not certain"
+ },
+ "bozqovurma": {
+  "az": "Qoyun ətindən soğanla öz yağında pörtlədilərək hazırlanan xörək; bozartma.",
+  "en": "bozartma (lamb braised in its own fat with onions)",
+  "pos": "noun",
+  "src": "izahli"
+ },
+ "boğazgəlmə": {
+  "skip": "meaning not certain"
+ },
+ "briqadadaxili": {
+  "az": "Briqadanın daxilində olan, briqada üzvləri arasında olan.",
+  "en": "within a brigade (team)",
+  "pos": "adjective"
+ },
+ "brombenzol": {
+  "az": "Benzol molekulunda bir hidrogen atomunun brom atomu ilə əvəz olunmasından alınan rəngsiz maye.",
+  "en": "bromobenzene",
+  "pos": "noun"
+ },
+ "bucaqdişli": {
+  "skip": "zoological term, not certain"
+ },
+ "buluddaxili": {
+  "az": "Buludun içində olan, bulud daxilində baş verən (buluddaxili boşalma).",
+  "en": "intracloud, within a cloud",
+  "pos": "adjective"
+ },
+ "burmabuynuzlu": {
+  "az": "Buynuzları burma, spiral şəklində olan (burmabuynuzlu keçi).",
+  "en": "with twisted (spiral) horns",
+  "pos": "adjective"
+ },
+ "burmabığlı": {
+  "az": "Bığının ucları burulub qıvrılmış olan.",
+  "en": "with a twirled (curled) moustache",
+  "pos": "adjective"
+ },
+ "burunçiçək": {
+  "skip": "plant name, not certain"
+ },
+ "buruqqazma": {
+  "az": "Buruq vasitəsilə yerin dərinliyində quyu qazma.",
+  "en": "rig drilling, well drilling",
+  "pos": "noun"
+ },
+ "burğuçiçəyi": {
+  "skip": "plant name, not certain"
+ },
+ "burğuşəkilli": {
+  "az": "Burğu şəklində olan, spiral kimi burulmuş.",
+  "en": "auger-shaped, screw-shaped, spiral",
+  "pos": "adjective"
+ },
+ "buxarpaylama": {
+  "az": "Buxar maşınında və ya sistemində buxarın silindrlərə, işlədicilərə paylanması.",
+  "en": "steam distribution",
+  "pos": "noun"
+ },
+ "buxarpaylayıcı": {
+  "az": "Buxar maşınında buxarın silindrə verilməsini nizamlayan qurğu.",
+  "en": "steam distributor, steam valve gear",
+  "pos": "noun"
+ },
+ "buxarsoyuducu": {
+  "az": "Buxarı soyudan, onun temperaturunu aşağı salan qurğu.",
+  "en": "steam cooler, desuperheater",
+  "pos": "noun"
+ },
+ "buxarsoyutma": {
+  "az": "Buxarı soyutma, onun temperaturunu aşağı salma (buxarsoyutma qurğusu).",
+  "en": "steam cooling",
+  "pos": "noun"
+ },
+ "buxarvermə": {
+  "az": "Turbinə, qızdırıcı sistemə və s. buxar vermə, buxarla təchiz etmə.",
+  "en": "steam supply",
+  "pos": "noun"
+ },
+ "buxarötürücü": {
+  "az": "Buxarı bir yerdən başqa yerə ötürən boru və ya qurğu; buxar xətti.",
+  "en": "steam line, steam conduit",
+  "pos": "noun"
+ },
+ "buxarıgülü": {
+  "skip": "plant name, not certain"
+ },
+ "buxurgülü": {
+  "skip": "plant name, not certain"
+ },
+ "buynuzcuqmeyvə": {
+  "skip": "botanical term, not certain"
+ },
+ "buynuzmeyvə": {
+  "skip": "botanical term, not certain"
+ },
+ "buynuzmeyvəli": {
+  "skip": "botanical term, not certain"
+ },
+ "buyruqqulu": {
+  "az": "Başqasının əmrini düşünmədən, kor-koranə yerinə yetirən adam; nökər, quyruqbulayan.",
+  "en": "lackey, minion, one who blindly follows orders",
+  "pos": "noun"
+ },
+ "buzovbəsləmə": {
+  "az": "Buzovların yemlənib böyüdülməsi, saxlanması.",
+  "en": "calf rearing",
+  "pos": "noun"
+ },
+ "buzqırma": {
+  "az": "Buzu qırma, sındırma; gəmi keçidi üçün buzun parçalanması.",
+  "en": "ice breaking",
+  "pos": "noun"
+ },
+ "buğabənzər": {
+  "az": "Buğaya bənzəyən; buğa kimi iri, güclü.",
+  "en": "bull-like",
+  "pos": "adjective"
+ },
+ "buğdakəpənəyi": {
+  "skip": "insect name, not certain"
+ },
+ "bölükləçəkli": {
+  "skip": "botanical term, not certain"
+ },
+ "böyrəkdaxili": {
+  "az": "Böyrəyin içində olan, böyrək daxilində baş verən.",
+  "en": "intrarenal",
+  "pos": "adjective"
+ },
+ "böyükgözlü": {
+  "az": "Gözləri iri olan.",
+  "en": "big-eyed, large-eyed",
+  "pos": "adjective"
+ },
+ "böyüktutumlu": {
+  "az": "Tutumu böyük olan, çox şey tutan (böyüktutumlu çən).",
+  "en": "large-capacity, high-capacity",
+  "pos": "adjective"
+ },
+ "büdcədaxili": {
+  "az": "Büdcənin daxilində olan, büdcə çərçivəsində olan.",
+  "en": "intra-budgetary, within the budget",
+  "pos": "adjective"
+ },
+ "bünövrəqoyma": {
+  "az": "Tikiləcək binanın bünövrəsini qoyma, təməl atma (bünövrəqoyma mərasimi).",
+  "en": "foundation laying, laying the foundation stone",
+  "pos": "noun"
+ },
+ "bürofaks": {
+  "az": "Rabitə şöbələri vasitəsilə sənədlərin faksla göndərilməsi xidməti.",
+  "en": "bureaufax (public fax service at post offices)",
+  "pos": "noun"
+ },
+ "büstqoyma": {
+  "az": "Bir şəxsin xatirəsinə büst ucaltma, büst qoyma.",
+  "en": "erection of a bust (monument)",
+  "pos": "noun"
+ },
+ "bədməram": {
+  "az": "Pis niyyət, pis məqsəd; pis niyyətli adam.",
+  "en": "ill intent; ill-intentioned person",
+  "pos": "noun"
+ },
+ "bədməramlı": {
+  "az": "Pis niyyətli, başqasına pislik etmək istəyən.",
+  "en": "ill-intentioned, malevolent",
+  "pos": "adjective"
+ },
+ "bədsifətli": {
+  "az": "Sifəti çirkin olan; qaşqabaqlı, xoşagəlməz sifətli.",
+  "en": "ugly-faced; sour-faced",
+  "pos": "adjective"
+ },
+ "bədsurət": {
+  "az": "Sifəti çirkin, eybəcər görkəmli.",
+  "en": "ugly, ill-favoured",
+  "pos": "adjective"
+ },
+ "bədtaleli": {
+  "az": "Taleyi pis gətirən, bəxtsiz.",
+  "en": "ill-fated, unfortunate",
+  "pos": "adjective"
+ },
+ "bəduğurlu": {
+  "az": "Uğursuzluq gətirən, pis əlamətli; bəxtsiz.",
+  "en": "ill-omened, unlucky",
+  "pos": "adjective"
+ },
+ "bədxassə": {
+  "az": "Pis, zərərli xassə, keyfiyyət.",
+  "en": "bad (harmful) quality",
+  "pos": "noun"
+ },
+ "bədxislət": {
+  "az": "Pis xasiyyətli, xisləti pis olan (adam).",
+  "en": "ill-natured, vicious",
+  "pos": "adjective"
+ },
+ "bədxislətli": {
+  "az": "Xasiyyəti, təbiəti pis olan.",
+  "en": "ill-natured, of bad character",
+  "pos": "adjective"
+ },
+ "bədxəbər": {
+  "az": "Pis, kədərli xəbər; belə xəbər gətirən.",
+  "en": "bad news, ill tidings; bearer of bad news",
+  "pos": "noun"
+ },
+ "bəlğəmkəsici": {
+  "az": "Bəlğəmin duruldulub ayrılmasına, öskürəklə çıxmasına kömək edən (bəlğəmkəsici dərman).",
+  "en": "expectorant",
+  "pos": "adjective"
+ },
+ "bəlğəmkəsən": {
+  "az": "Bəlğəmin ayrılmasını və çıxmasını asanlaşdıran dərman.",
+  "en": "expectorant",
+  "pos": "noun"
+ },
+ "bəndatan": {
+  "skip": "meaning not certain"
+ },
+ "bəndatma": {
+  "skip": "meaning not certain"
+ },
+ "bəndedilmə": {
+  "skip": "meaning not certain"
+ },
+ "bəndsalma": {
+  "az": "Suyu saxlamaq və ya istiqamətini dəyişmək üçün çayın qarşısına bənd salma.",
+  "en": "damming, building a dam",
+  "pos": "noun"
+ },
+ "bəndçəkmə": {
+  "az": "Suyun qarşısını almaq üçün bənd, sədd tikmə.",
+  "en": "damming, building a dam or embankment",
+  "pos": "noun"
+ },
+ "bərabərayaqlı": {
+  "az": "Ayaqları eyni quruluşda və ölçüdə olan (bərabərayaqlı xərçəngkimilər).",
+  "en": "isopod, having all legs alike",
+  "pos": "adjective"
+ },
+ "bərabərdəyərli": {
+  "az": "Dəyəri, qiyməti eyni olan; ekvivalent.",
+  "en": "of equal value, equivalent",
+  "pos": "adjective"
+ },
+ "bərabərqamçılı": {
+  "az": "Qamçıları eyni uzunluqda və quruluşda olan (yosunlar, ibtidailər).",
+  "en": "isokont, having equal flagella",
+  "pos": "adjective"
+ },
+ "bərabərqollu": {
+  "az": "Qolları eyni uzunluqda olan (bərabərqollu xaç, bərabərqollu tərəzi).",
+  "en": "equal-armed",
+  "pos": "adjective"
+ },
+ "bərabəryavaşıma": {
+  "az": "Sürətin bərabər zaman fasilələrində eyni qədər azalması.",
+  "en": "uniform deceleration",
+  "pos": "noun"
+ },
+ "bərabəryeyinləşmə": {
+  "az": "Sürətin bərabər zaman fasilələrində eyni qədər artması.",
+  "en": "uniform acceleration",
+  "pos": "noun"
+ },
+ "bərabərçiyinli": {
+  "az": "Çiyinləri eyni uzunluqda olan (bərabərçiyinli ling, bərabərçiyinli tərəzi).",
+  "en": "equal-armed (of a lever or balance)",
+  "pos": "adjective"
+ },
+ "bərabərçəkili": {
+  "az": "Çəkisi eyni olan, eyni ağırlıqda olan.",
+  "en": "of equal weight",
+  "pos": "adjective"
+ },
+ "bərabərəmsallı": {
+  "az": "Əmsalları bərabər olan.",
+  "en": "having equal coefficients",
+  "pos": "adjective"
+ },
+ "bəraətalan": {
+  "az": "Məhkəmədə təqsirsiz sayılıb bəraət alan (bəraətalan şəxs).",
+  "en": "acquitted",
+  "pos": "adjective"
+ },
+ "bəraətalma": {
+  "az": "Məhkəmə qərarı ilə təqsirsiz sayılma, bəraət alma.",
+  "en": "acquittal, being acquitted",
+  "pos": "noun"
+ },
+ "bəraətqazanma": {
+  "az": "Təqsirsizliyini sübut edib bəraət qazanma; haqlı çıxma.",
+  "en": "winning acquittal; vindication",
+  "pos": "noun"
+ },
+ "bəraətvermə": {
+  "az": "Məhkəmənin təqsirləndirilən şəxsi təqsirsiz sayması, ona bəraət verməsi.",
+  "en": "acquitting, acquittal (by a court)",
+  "pos": "noun"
+ },
+ "bərkqabıq": {
+  "skip": "meaning not certain"
+ },
+ "bərkqabıqlı": {
+  "az": "Qabığı bərk, möhkəm olan (bərkqabıqlı meyvə).",
+  "en": "hard-shelled",
+  "pos": "adjective"
+ },
+ "bərpaedilmə": {
+  "az": "Əvvəlki halına qaytarılma, yenidən qurulma, bərpa olunma.",
+  "en": "being restored, restoration",
+  "pos": "noun"
+ },
+ "bəxtibağlanmış": {
+  "az": "Bəxti açılmayan, işi düz gətirməyən; qarğış kimi də işlənir.",
+  "en": "ill-starred, luckless (also used as a curse)",
+  "pos": "adjective"
+ },
+ "bəytərifi": {
+  "az": "Toyda bəyi tərifləyən mahnı, şeir və ya söz.",
+  "en": "song (verse) in praise of the bridegroom at a wedding",
+  "pos": "noun"
+ },
+ "bəzəkaçan": {
+  "skip": "meaning not certain"
+ },
+ "bəzəkvuran": {
+  "az": "Əşyalara, divara və s. bəzək, naxış vuran usta.",
+  "en": "ornamenter, decorator (craftsman)",
+  "pos": "noun"
+ },
+ "cadulatma": {
+  "skip": "meaning not certain"
+ },
+ "calaqvuran": {
+  "az": "Ağaclara calaq vuran adam, peyvəndçi.",
+  "en": "grafter (of trees)",
+  "pos": "noun"
+ },
+ "calaqvurma": {
+  "az": "Bir bitkinin qələmini və ya gözcüyünü başqa bitkiyə calama; peyvənd.",
+  "en": "grafting (of plants)",
+  "pos": "noun"
+ },
+ "canavarpəncəsi": {
+  "skip": "plant name, not certain"
+ },
+ "candamarı": {
+  "az": "Həyati əhəmiyyəti olan əsas qan damarı; məc. bir şeyin ən həyati, əsas hissəsi.",
+  "en": "main artery; fig. lifeline, lifeblood",
+  "pos": "noun"
+ },
+ "canqurtarma": {
+  "az": "İnsanın həyatını təhlükədən xilas etmə (canqurtarma xidməti).",
+  "en": "life-saving, rescue",
+  "pos": "noun"
+ },
+ "cançəkmə": {
+  "skip": "meaning not certain"
+ },
+ "cavanpərçimi": {
+  "skip": "plant name, not certain"
+ },
+ "centlmensayağı": {
+  "az": "Centlmenə yaraşan şəkildə, nəzakətlə; yazılı sənədsiz, şərəf sözünə əsaslanan (centlmensayağı razılaşma).",
+  "en": "like a gentleman, gentlemanly (gentleman's agreement)",
+  "pos": "adverb"
+ },
+ "ceyranduruşlu": {
+  "az": "Ceyran kimi zərif, incə duruşu olan (adətən qadın haqqında).",
+  "en": "with a graceful, gazelle-like bearing",
+  "pos": "adjective"
+ },
+ "ceyrangözlü": {
+  "az": "Ceyran gözü kimi iri və gözəl gözləri olan.",
+  "en": "gazelle-eyed",
+  "pos": "adjective"
+ },
+ "ceyranyerişli": {
+  "az": "Ceyran kimi yüngül və zərif yerişi olan.",
+  "en": "with a light, graceful gazelle-like gait",
+  "pos": "adjective"
+ },
+ "cibxərci": {
+  "az": "Gündəlik kiçik xərclər üçün ayrılan pul.",
+  "en": "pocket money",
+  "pos": "noun"
+ },
+ "cihazquraşdırma": {
+  "az": "Cihazların, aparatların yerində qurulması, montajı.",
+  "en": "installation (mounting) of instruments or devices",
+  "pos": "noun"
+ },
+ "cihazyığma": {
+  "az": "Cihazların hissələrdən yığılması, montajı.",
+  "en": "instrument (device) assembly",
+  "pos": "noun"
+ },
+ "cinotu": {
+  "skip": "plant name, not certain"
+ },
+ "cinsdəyişmə": {
+  "az": "İnsanın cinsinin cərrahi və hormonal yolla dəyişdirilməsi; biol. cinsin dəyişməsi.",
+  "en": "sex change, gender reassignment; biol. sex reversal",
+  "pos": "noun"
+ },
+ "cintutma": {
+  "skip": "meaning not certain"
+ },
+ "coddərili": {
+  "az": "Dərisi cod, kobud olan.",
+  "en": "rough-skinned, coarse-skinned",
+  "pos": "adjective"
+ },
+ "codsaçlı": {
+  "az": "Saçı cod, sərt olan.",
+  "en": "coarse-haired, wiry-haired",
+  "pos": "adjective"
+ },
+ "codtüklü": {
+  "az": "Tükləri cod, sərt olan (codtüklü it).",
+  "en": "wire-haired, rough-coated",
+  "pos": "adjective"
+ },
+ "corabtoxuma": {
+  "az": "Corab toxuma işi və ya istehsalı.",
+  "en": "knitting of socks or stockings; hosiery making",
+  "pos": "noun"
+ },
+ "cökəçiçəkli": {
+  "skip": "meaning not certain"
+ },
+ "cücəçıxartma": {
+  "az": "Yumurtadan cücə çıxarma (kürt toyuqla və ya inkubatorda).",
+  "en": "hatching of chicks, incubation",
+  "pos": "noun"
+ },
+ "cütayaqlı": {
+  "skip": "zoological term, not certain"
+ },
+ "cütbuynuz": {
+  "skip": "meaning not certain"
+ },
+ "cütbuynuzcuq": {
+  "skip": "meaning not certain"
+ },
+ "cütbuynuzcuqlu": {
+  "skip": "meaning not certain"
+ },
+ "cütbuynuzlu": {
+  "az": "Bir cüt buynuzu olan, iki buynuzlu.",
+  "en": "two-horned",
+  "pos": "adjective"
+ },
+ "cütcaynaq": {
+  "skip": "zoological name, not certain"
+ },
+ "cütdişli": {
+  "skip": "meaning not certain"
+ },
+ "cütlələk": {
+  "skip": "meaning not certain"
+ },
+ "cütləçəkli": {
+  "skip": "botanical term, not certain"
+ },
+ "cütnömrəli": {
+  "az": "Nömrəsi cüt rəqəmlə ifadə olunan (cütnömrəli evlər).",
+  "en": "even-numbered",
+  "pos": "adjective"
+ },
+ "cütonurğalı": {
+  "skip": "meaning not certain"
+ },
+ "cütqanadlı": {
+  "skip": "zoological term, not certain"
+ },
+ "cüttoxumlu": {
+  "skip": "botanical term, not certain"
+ },
+ "cütvurma": {
+  "skip": "music term, not certain"
+ },
+ "cütçəyirdəkli": {
+  "skip": "meaning not certain"
+ },
+ "cüyürotu": {
+  "skip": "plant name, not certain"
+ },
+ "cılızquyruq": {
+  "skip": "zoological name, not certain"
+ },
+ "cığkimi": {
+  "az": "Cığkimilər fəsiləsinə aid olan (bitki).",
+  "en": "juncaceous, of the rush family (Juncaceae)",
+  "pos": "adjective"
+ },
+ "cənnətquşu": {
+  "az": "Əsasən Yeni Qvineyada yaşayan, parlaq rəngli lələkləri olan tropik quş.",
+  "en": "bird of paradise",
+  "pos": "noun"
+ },
+ "cəriməvermə": {
+  "az": "Qanun və ya qayda pozuntusuna görə cərimə ödəmə.",
+  "en": "paying a fine",
+  "pos": "noun"
+ },
+ "cərəyanayırma": {
+  "skip": "technical term, not certain"
+ },
+ "cərəyankeçirmə": {
+  "az": "Maddənin elektrik cərəyanını özündən keçirməsi.",
+  "en": "(electrical) conduction",
+  "pos": "noun"
+ },
+ "cərəyankəsici": {
+  "az": "Elektrik dövrəsində cərəyanı kəsən qurğu.",
+  "en": "circuit breaker, current interrupter",
+  "pos": "noun"
+ },
+ "cərəyanpaylama": {
+  "az": "Elektrik enerjisinin işlədicilər arasında paylanması.",
+  "en": "power distribution",
+  "pos": "noun"
+ },
+ "cərəyanpaylayıcı": {
+  "az": "Elektrik cərəyanını işlədicilər arasında paylayan qurğu.",
+  "en": "power distributor, distribution board",
+  "pos": "noun"
+ },
+ "cərəyanqəbuledici": {
+  "az": "Elektrik nəqliyyatında cərəyanı kontakt xəttindən götürən qurğu (tramvay, trolleybus).",
+  "en": "current collector, pantograph",
+  "pos": "noun"
+ },
+ "cərəyanvermə": {
+  "az": "Elektrik cərəyanı vermə, dövrəyə və ya qurğuya enerji vermə.",
+  "en": "power (current) supply",
+  "pos": "noun"
+ },
+ "cərəyanyığma": {
+  "az": "Elektrik cərəyanının kontakt xəttindən və ya generatordan götürülməsi.",
+  "en": "current collection",
+  "pos": "noun"
+ },
+ "cərəyanötürmə": {
+  "az": "Elektrik cərəyanının bir yerdən başqa yerə ötürülməsi.",
+  "en": "transmission of electric current",
+  "pos": "noun"
+ },
+ "cərəyanötürücü": {
+  "az": "Elektrik cərəyanını ötürən naqil və ya hissə.",
+  "en": "current conductor, busbar",
+  "pos": "noun"
+ },
+ "cəzavermə": {
+  "az": "Təqsirkara cəza vermə, onu cəzalandırma.",
+  "en": "punishing, imposition of punishment",
+  "pos": "noun"
+ },
+ "dabangedən": {
+  "skip": "zoological name, not certain"
+ },
+ "dabanhaqqı": {
+  "skip": "meaning not certain"
+ },
+ "dabanqırma": {
+  "skip": "meaning not certain"
+ },
+ "dabanyarpağı": {
+  "skip": "plant name, not certain"
+ },
+ "dairətutan": {
+  "skip": "meaning not certain"
+ },
+ "dalaqotu": {
+  "skip": "plant name, not certain"
+ },
+ "dalğaaparan": {
+  "skip": "technical term, not certain"
+ },
+ "dalğagöstərən": {
+  "skip": "technical term, not certain"
+ },
+ "dalğaqaytarma": {
+  "az": "Dalğaların bir səthdən əks olunaraq geri qayıtması.",
+  "en": "wave reflection",
+  "pos": "noun"
+ },
+ "dalğaqaytarıcı": {
+  "az": "Dalğaları əks etdirib geri qaytaran qurğu və ya tikili.",
+  "en": "wave reflector",
+  "pos": "noun"
+ },
+ "dalğaqırma": {
+  "az": "Dəniz dalğalarının gücünü qırma, onları sındırma (dalğaqırma qurğuları).",
+  "en": "wave breaking",
+  "pos": "noun"
+ },
+ "dalğatutma": {
+  "skip": "technical term, not certain"
+ },
+ "dalğaverici": {
+  "skip": "technical term, not certain"
+ },
+ "dalğayazma": {
+  "skip": "technical term, not certain"
+ },
+ "dalğıckimi": {
+  "az": "Dalğıckimilər dəstəsinə aid olan (quş).",
+  "en": "gaviiform, of the loon (diver) order",
+  "pos": "adjective"
+ },
+ "damartikən": {
+  "az": "Qan damarlarını tikmək üçün işlədilən (damartikən aparat).",
+  "en": "vessel-suturing (of a surgical stapler)",
+  "pos": "adjective"
+ },
+ "damaryaradan": {
+  "skip": "meaning not certain"
+ },
+ "damaryığan": {
+  "skip": "meaning not certain"
+ },
+ "damcısalma": {
+  "az": "Dərmanı damcı şəklində gözə, burna və s. yeritmə.",
+  "en": "instillation of drops",
+  "pos": "noun"
+ },
+ "damcısayma": {
+  "az": "Damcıların sayılması (məs. damcı ilə köçürmədə axın sürətini təyin etmək üçün).",
+  "en": "drop counting",
+  "pos": "noun"
+ },
+ "damcıölçən": {
+  "az": "Mayeni damcı ilə ölçən (damcıölçən şüşə).",
+  "en": "drop-measuring; dropper",
+  "pos": "adjective"
+ },
+ "damcışəkilli": {
+  "az": "Damcı şəklində olan.",
+  "en": "drop-shaped, teardrop-shaped",
+  "pos": "adjective"
+ },
+ "damğabasma": {
+  "az": "Mal-qaraya, ata qızdırılmış dəmirlə damğa basma.",
+  "en": "branding (of livestock)",
+  "pos": "noun"
+ },
+ "danaayağıkimi": {
+  "az": "Danaayağıkimilər fəsiləsinə aid olan (bitki).",
+  "en": "araceous, of the arum family (Araceae)",
+  "pos": "adjective"
+ },
+ "danadişli": {
+  "skip": "meaning not certain"
+ },
+ "danakimi": {
+  "skip": "meaning not certain"
+ },
+ "daraqbığcıqlı": {
+  "az": "Bığcıqları daraq şəklində olan (həşərat).",
+  "en": "with comb-like (pectinate) antennae",
+  "pos": "adjective"
+ },
+ "daraqqanqalı": {
+  "skip": "plant name, not certain"
+ },
+ "darağızlı": {
+  "az": "Ağzı dar olan (darağızlı qab, darağızlı şüşə).",
+  "en": "narrow-mouthed, narrow-necked",
+  "pos": "adjective"
+ },
+ "darburun": {
+  "skip": "meaning not certain"
+ }
+}

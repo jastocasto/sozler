@@ -1,0 +1,916 @@
+{
+ "beçə-cücə": {
+  "az": "Cücələr, beçələr, ev quşlarının balaları; məc. ailədəki kiçik uşaqlar.",
+  "en": "chicks, young poultry; (fig.) little children, brood",
+  "pos": "noun"
+ },
+ "beçəli-cücəli": {
+  "az": "Cücələri, balaları olan; məc. çoxlu kiçik uşağı olan (beçəli-cücəli ailə).",
+  "en": "with chicks; (fig.) with many little children",
+  "pos": "adjective"
+ },
+ "beşlik-üçlük": {
+  "skip": "meaning not certain (school marks or banknotes)"
+ },
+ "bintləyib-bağlamaq": {
+  "az": "Yaranı bintlə sarıyıb bağlamaq.",
+  "en": "to bandage up, to dress (a wound)",
+  "pos": "verb"
+ },
+ "bintləyib-sarımaq": {
+  "az": "Yaranı və ya bədən üzvünü bintlə sarımaq.",
+  "en": "to bandage, to wrap in bandages",
+  "pos": "verb"
+ },
+ "bioloq-genetik": {
+  "az": "Həm biologiya, həm də genetika sahəsində çalışan alim.",
+  "en": "biologist and geneticist",
+  "pos": "noun"
+ },
+ "birə-altı": {
+  "az": "Bir hissəyə qarşı altı hissə; altı qat artıq (birə-altı qaytarmaq).",
+  "en": "sixfold, six to one",
+  "pos": "adverb",
+  "parts": false
+ },
+ "bit-birə": {
+  "az": "Bit, birə və bu kimi parazit həşəratlar.",
+  "en": "lice and fleas, vermin",
+  "pos": "noun"
+ },
+ "bit-birəli": {
+  "az": "Bit və birə basmış.",
+  "en": "infested with lice and fleas, verminous",
+  "pos": "adjective"
+ },
+ "bit-birəsiz": {
+  "az": "Bit və birəsi olmayan, təmiz.",
+  "en": "free of lice and fleas",
+  "pos": "adjective"
+ },
+ "bit-sirkə": {
+  "az": "Bit və onun yumurtaları (sirkə).",
+  "en": "lice and nits",
+  "pos": "noun"
+ },
+ "bitli-birəli": {
+  "az": "Bədənini və ya paltarını bit, birə basmış; çox çirkli, baxımsız.",
+  "en": "lousy and flea-ridden, verminous",
+  "pos": "adjective"
+ },
+ "bitli-sirkəli": {
+  "az": "Saçını, paltarını bit və sirkə basmış.",
+  "en": "infested with lice and nits, lousy",
+  "pos": "adjective",
+  "parts": false
+ },
+ "bizli-bizsiz": {
+  "skip": "meaning not certain"
+ },
+ "biznes-diaqram": {
+  "az": "Biznes göstəricilərini və proseslərini əyani göstərən diaqram.",
+  "en": "business diagram, business chart",
+  "pos": "noun"
+ },
+ "biznes-elita": {
+  "az": "Cəmiyyətdə ən varlı və nüfuzlu iş adamları təbəqəsi.",
+  "en": "business elite",
+  "pos": "noun"
+ },
+ "biznes-partnyor": {
+  "az": "Birgə biznes fəaliyyəti aparılan tərəf müqabili, iş ortağı.",
+  "en": "business partner",
+  "pos": "noun"
+ },
+ "biznes-partnyorluq": {
+  "az": "Şirkətlər və ya iş adamları arasında birgə biznes fəaliyyəti, iş ortaqlığı.",
+  "en": "business partnership",
+  "pos": "noun"
+ },
+ "biznes-planlı": {
+  "az": "Biznes planı olan, biznes plan əsasında qurulan (biznes-planlı layihə).",
+  "en": "with a business plan, based on a business plan",
+  "pos": "adjective"
+ },
+ "biznes-portal": {
+  "az": "İş adamları üçün məlumat və xidmətləri bir yerə toplayan internet saytı.",
+  "en": "business portal (website)",
+  "pos": "noun",
+  "parts": false
+ },
+ "biznes-tərəfdaşlıq": {
+  "az": "Biznes sahəsində birgə fəaliyyət, iş ortaqlığı.",
+  "en": "business partnership",
+  "pos": "noun"
+ },
+ "bizsiz-sizsiz": {
+  "skip": "meaning not certain"
+ },
+ "biçib-doğramaq": {
+  "az": "Kəsib parça-parça etmək; döyüşdə amansızcasına qırmaq.",
+  "en": "to cut to pieces, to hack down",
+  "pos": "verb"
+ },
+ "biçib-tikmək": {
+  "az": "Parçanı biçib paltar tikmək; dərzilik etmək.",
+  "en": "to cut out and sew (clothes), to tailor",
+  "pos": "verb"
+ },
+ "biçib-yığmaq": {
+  "az": "Taxılı və ya otu biçib toplamaq; məhsulu yığmaq.",
+  "en": "to reap and gather in, to harvest",
+  "pos": "verb"
+ },
+ "biçim-döyüm": {
+  "az": "Taxılın biçilməsi və döyülməsi; məhsul yığımı işləri.",
+  "en": "reaping and threshing, harvest work",
+  "pos": "noun",
+  "parts": false
+ },
+ "biçim-yığım": {
+  "az": "Taxılın və ya otun biçilib yığılması; məhsul toplama işləri.",
+  "en": "reaping and gathering, harvesting",
+  "pos": "noun",
+  "parts": false
+ },
+ "biçin-yığım": {
+  "az": "Məhsulun biçilməsi və toplanması; biçin mövsümünün işləri.",
+  "en": "harvest, harvesting",
+  "pos": "noun"
+ },
+ "biçin-yığın": {
+  "skip": "meaning not certain"
+ },
+ "blank-veksel": {
+  "skip": "meaning not certain (blank form or incomplete bill)"
+ },
+ "blits-savaş": {
+  "az": "Düşməni qısa müddətdə sarsıdıcı zərbələrlə məğlub etməyə yönələn ildırım sürətli müharibə.",
+  "en": "blitzkrieg, lightning war",
+  "pos": "noun",
+  "parts": false
+ },
+ "blits-turnir": {
+  "az": "Qısa vaxt nəzarəti ilə oynanılan sürətli şahmat partiyalarından ibarət turnir.",
+  "en": "blitz tournament",
+  "pos": "noun"
+ },
+ "blits-zəfər": {
+  "az": "Çox qısa müddətdə qazanılan qələbə, ildırım sürətli zəfər.",
+  "en": "lightning victory",
+  "pos": "noun",
+  "parts": false
+ },
+ "blok-aparat": {
+  "az": "Dəmir yolunda stansiyada qoyulan, blok-sistemlə qatarların ardıcıl hərəkətini tənzimləyən cihaz.",
+  "en": "block instrument (railway signalling)",
+  "pos": "noun"
+ },
+ "blok-balans": {
+  "skip": "technical term, not certain"
+ },
+ "blok-element": {
+  "skip": "technical term, not certain"
+ },
+ "blok-indikator": {
+  "skip": "technical term, not certain"
+ },
+ "blok-kontakt": {
+  "az": "Elektrik açarında və ya kontaktorda əsas kontaktlarla birlikdə qapanıb-açılan köməkçi kontakt.",
+  "en": "auxiliary contact (of a switch)",
+  "pos": "noun"
+ },
+ "blok-mexanizm": {
+  "skip": "technical term, not certain"
+ },
+ "blok-mexanizmli": {
+  "skip": "technical term, not certain"
+ },
+ "blok-model": {
+  "skip": "technical term, not certain"
+ },
+ "blok-otaq": {
+  "skip": "meaning not certain"
+ },
+ "blok-rele": {
+  "skip": "technical term, not certain"
+ },
+ "blok-sahə": {
+  "skip": "technical term, not certain (railway or oil-field sense)"
+ },
+ "blok-seksiya": {
+  "az": "Çoxmərtəbəli yaşayış binasının öz pilləkən qəfəsi olan tipləşdirilmiş ayrıca hissəsi.",
+  "en": "block section (standard section of an apartment building)",
+  "pos": "noun"
+ },
+ "blok-silindr": {
+  "skip": "technical term, not certain"
+ },
+ "blok-siqnal": {
+  "az": "Dəmir yolunda blok-sahələrin sərhədində qoyulan, qarşıdakı sahənin boş və ya tutulmuş olduğunu göstərən siqnal.",
+  "en": "block signal (railway)",
+  "pos": "noun"
+ },
+ "blok-sistem": {
+  "az": "Dəmir yolunu sahələrə bölərək hər sahədə eyni vaxtda yalnız bir qatarın olmasını təmin edən siqnalizasiya sistemi.",
+  "en": "block system (railway signalling)",
+  "pos": "noun"
+ },
+ "blok-stansiya": {
+  "skip": "technical term, not certain"
+ },
+ "blok-tormoz": {
+  "skip": "technical term, not certain"
+ },
+ "boks-palet": {
+  "az": "Yük saxlamaq və daşımaq üçün yanları divarlı, qutu şəkilli altlıq.",
+  "en": "box pallet, pallet box",
+  "pos": "noun",
+  "parts": false
+ },
+ "bol-bəhrəli": {
+  "az": "Çox bəhrə verən, bol məhsullu.",
+  "en": "very fruitful, highly productive",
+  "pos": "adjective"
+ },
+ "bollu-bərəkətli": {
+  "az": "Hər şeyi bol olan, bərəkətli, firavan (bollu-bərəkətli il).",
+  "en": "plentiful, bountiful",
+  "pos": "adjective"
+ },
+ "bolluq-toxluq": {
+  "az": "Hər şeyin bol olduğu, aclıq çəkilməyən firavan həyat; bolluq.",
+  "en": "abundance, plenty, prosperity",
+  "pos": "noun"
+ },
+ "bolt-vint": {
+  "az": "Bolt, vint və bu kimi bərkitmə detalları.",
+  "en": "bolts and screws, fasteners",
+  "pos": "noun"
+ },
+ "boltlu-vintli": {
+  "az": "Bolt və vintlərlə bərkidilən, birləşdirilən.",
+  "en": "bolted and screwed",
+  "pos": "adjective"
+ },
+ "bor-karbid": {
+  "az": "Borun karbonla əmələ gətirdiyi çox bərk birləşmə; abraziv material kimi işlədilir.",
+  "en": "boron carbide",
+  "pos": "noun"
+ },
+ "boranlı-qarlı": {
+  "az": "Güclü külək əsən və qar yağan, çovğunlu (hava).",
+  "en": "stormy and snowy, blizzardy",
+  "pos": "adjective"
+ },
+ "boranlı-şaxtalı": {
+  "az": "Boranlı və çox soyuq, ayazlı (qış havası).",
+  "en": "stormy and frosty",
+  "pos": "adjective"
+ },
+ "bort-blok": {
+  "skip": "technical term, not certain"
+ },
+ "bort-jurnal": {
+  "az": "Gəmidə və ya təyyarədə səfər, iş və hadisələrin qeyd edildiyi rəsmi jurnal.",
+  "en": "logbook (ship's or aircraft's log)",
+  "pos": "noun"
+ },
+ "bort-komplekt": {
+  "skip": "technical term, not certain"
+ },
+ "borulu-lifli": {
+  "skip": "meaning not certain"
+ },
+ "boya-bəzək": {
+  "az": "Üz-gözə çəkilən boya və taxılan bəzəklər; ümumiyyətlə bəzək-düzək.",
+  "en": "make-up and finery; adornment, decoration",
+  "pos": "noun"
+ },
+ "boya-bəzəkli": {
+  "az": "Boyanıb-bəzənmiş, bəzəkli.",
+  "en": "made-up and adorned; decorated",
+  "pos": "adjective"
+ },
+ "boyalı-bəzəkli": {
+  "az": "Boyanıb-bəzənmiş; rəngli və naxışlı.",
+  "en": "painted and decorated; heavily made-up",
+  "pos": "adjective"
+ },
+ "boyaq-bəzək": {
+  "az": "Boya və bəzək; bəzənmək üçün işlədilən şeylər.",
+  "en": "paint and adornment; make-up and finery",
+  "pos": "noun"
+ },
+ "boyaq-bəzəkli": {
+  "az": "Boyanıb-bəzənmiş, bəzəkli.",
+  "en": "painted and adorned",
+  "pos": "adjective"
+ },
+ "boyaq-bəzəksiz": {
+  "az": "Boyası və bəzəyi olmayan; sadə.",
+  "en": "unpainted and unadorned, plain",
+  "pos": "adjective"
+ },
+ "boyaqlı-bəzəkli": {
+  "az": "Boyanmış və bəzədilmiş, rəngli və bəzəkli.",
+  "en": "painted and decorated",
+  "pos": "adjective"
+ },
+ "boyaqsız-bəzəksiz": {
+  "az": "Heç bir boyası, bəzəyi olmayan; təbii, sadə.",
+  "en": "unpainted and unadorned, plain",
+  "pos": "adjective"
+ },
+ "boyasız-bəzəksiz": {
+  "az": "Boyası, bəzəyi olmayan, sadə; məc. olduğu kimi, şişirtmədən.",
+  "en": "plain, unadorned; (fig.) plainly, without embellishment",
+  "pos": "adjective"
+ },
+ "boyun-bazu kələfi": {
+  "az": "Boyun və bazu sinir kələflərinin birgə adı; boyun, çiyin və qolun sinirlərini verən sinir şəbəkəsi.",
+  "en": "cervicobrachial plexus",
+  "pos": "noun"
+ },
+ "boyun-boğaz": {
+  "az": "Boyun və boğaz; boyun nahiyəsi.",
+  "en": "neck and throat",
+  "pos": "noun"
+ },
+ "boyun-çiyin ağrısı": {
+  "az": "Boyunda və çiyinlərdə hiss olunan ağrı.",
+  "en": "neck and shoulder pain",
+  "pos": "noun"
+ },
+ "boz-bulanıq": {
+  "az": "Bozumtul və bulanıq (su, səma).",
+  "en": "grey and murky, turbid",
+  "pos": "adjective"
+ },
+ "boz-qırmızı": {
+  "az": "Boza çalan qırmızı rəngdə olan.",
+  "en": "greyish-red",
+  "pos": "adjective"
+ },
+ "bozarıb-ağarmaq": {
+  "az": "Qorxu, həyəcan və ya qəzəbdən rəngi qaçmaq, solğunlaşmaq.",
+  "en": "to turn pale, to blanch",
+  "pos": "verb"
+ },
+ "boğuq-kal": {
+  "az": "Boğuq və kobud, qulağa xoş gəlməyən (səs).",
+  "en": "hoarse and gruff (of a voice)",
+  "pos": "adjective"
+ },
+ "boğuq-qırıq nəfəs": {
+  "az": "Xırıltılı, kəsik-kəsik və çətin nəfəs alma.",
+  "en": "hoarse, ragged breathing",
+  "pos": "noun"
+ },
+ "boğuq-xırıltılı": {
+  "az": "Boğuq və xırıltılı (səs, nəfəs).",
+  "en": "hoarse and wheezy, raspy",
+  "pos": "adjective"
+ },
+ "briqada-laboratoriya": {
+  "skip": "meaning not certain"
+ },
+ "briqadir-mexanik": {
+  "az": "Mexaniklər briqadasına rəhbərlik edən mexanik.",
+  "en": "foreman mechanic",
+  "pos": "noun"
+ },
+ "bronx-aorta": {
+  "skip": "anatomical term, not certain"
+ },
+ "bronxial-astma": {
+  "az": "Bronxların daralması nəticəsində təkrarlanan boğulma tutmaları ilə keçən xəstəlik.",
+  "en": "bronchial asthma",
+  "pos": "noun"
+ },
+ "bud-dizaltı": {
+  "az": "Bud və dizaltı nahiyəsinə, xüsusən onların damarlarına aid olan (bud-dizaltı şuntlama).",
+  "en": "femoropopliteal",
+  "pos": "adjective"
+ },
+ "bufet-bar": {
+  "az": "Yüngül yemək və içki verilən kiçik bufet; bar.",
+  "en": "snack bar, buffet bar",
+  "pos": "noun",
+  "parts": false
+ },
+ "bufet-dükan": {
+  "az": "Bufet və dükan; kiçik iaşə və ticarət yeri.",
+  "en": "snack bar and shop",
+  "pos": "noun"
+ },
+ "bufet-kafe": {
+  "az": "Yüngül yemək və içki verilən kafe tipli bufet.",
+  "en": "café, snack bar",
+  "pos": "noun"
+ },
+ "bufet-yeməkxana": {
+  "az": "Yemək verilən bufet, kiçik yeməkxana.",
+  "en": "canteen, cafeteria",
+  "pos": "noun"
+ },
+ "bulud-yağış": {
+  "az": "Bulud və yağış; buludlu, yağışlı hava.",
+  "en": "clouds and rain; rainy weather",
+  "pos": "noun"
+ },
+ "buludlu-tutqun": {
+  "az": "Buludlu və qaranlıq, günəşsiz (hava).",
+  "en": "cloudy and overcast, dull",
+  "pos": "adjective"
+ },
+ "buludlu-yağışlı": {
+  "az": "Buludlu və yağış yağan (hava).",
+  "en": "cloudy and rainy",
+  "pos": "adjective"
+ },
+ "buludsuz-yağışsız": {
+  "az": "Buludu və yağışı olmayan, açıq və quru (hava).",
+  "en": "cloudless and dry",
+  "pos": "adjective"
+ },
+ "buralı-oralı": {
+  "skip": "meaning not certain"
+ },
+ "buraxılış-axtarış": {
+  "skip": "meaning not certain"
+ },
+ "burclayıb-yarpaqlamaq": {
+  "az": "Tumurcuq verib yarpaq açmaq (ağac, bitki).",
+  "en": "to bud and come into leaf",
+  "pos": "verb"
+ },
+ "burjua-feodal": {
+  "az": "Burjua və feodal münasibətlərinin birgə mövcud olduğu, onlara xas olan (burjua-feodal quruluş).",
+  "en": "bourgeois-feudal",
+  "pos": "adjective"
+ },
+ "burjua-klerikal": {
+  "az": "Burjuaziyanın və ruhanilərin maraqlarını birlikdə ifadə edən (burjua-klerikal partiya).",
+  "en": "bourgeois-clerical",
+  "pos": "adjective"
+ },
+ "burulğan-çovğun": {
+  "az": "Qarı burub sovuran güclü qar fırtınası.",
+  "en": "whirling blizzard, swirling snowstorm",
+  "pos": "noun"
+ },
+ "burun-damaq": {
+  "skip": "anatomical term, not certain"
+ },
+ "burun-qulaq": {
+  "az": "Burun və qulaq (çox vaxt «burun-qulaq-boğaz» birləşməsində).",
+  "en": "nose and ears (as in ENT)",
+  "pos": "noun"
+ },
+ "buxar-güc": {
+  "az": "Buxarın enerjisini mexaniki gücə və ya elektrik enerjisinə çevirən (buxar-güc qurğusu).",
+  "en": "steam-power (attrib.)",
+  "pos": "adjective"
+ },
+ "buxar-hidravlik": {
+  "az": "Buxarın və maye təzyiqinin birgə gücü ilə işləyən (buxar-hidravlik pres).",
+  "en": "steam-hydraulic",
+  "pos": "adjective"
+ },
+ "buxar-istilik sistemi": {
+  "az": "Binaların buxarla qızdırılması sistemi.",
+  "en": "steam heating system",
+  "pos": "noun"
+ },
+ "buxar-turbin": {
+  "az": "Buxarın enerjisini fırlanma hərəkətinə çevirən turbin.",
+  "en": "steam turbine",
+  "pos": "noun"
+ },
+ "bölüb-paylamaq": {
+  "az": "Bir şeyi hissələrə bölüb hərəyə payını vermək.",
+  "en": "to divide up and distribute, to share out",
+  "pos": "verb"
+ },
+ "bölünüb-paylanmaq": {
+  "az": "Hissələrə bölünüb hərəyə payı verilmək.",
+  "en": "to be divided up and distributed",
+  "pos": "verb"
+ },
+ "bölüşüb-paylaşmaq": {
+  "az": "Bir şeyi öz aralarında bölüşdürmək, paylaşmaq.",
+  "en": "to share out among themselves",
+  "pos": "verb"
+ },
+ "böyrək-aorta": {
+  "skip": "anatomical term, not certain"
+ },
+ "böyür-baş": {
+  "skip": "meaning not certain"
+ },
+ "büküb-bağlamaq": {
+  "az": "Bir şeyi büküb üstündən bağlamaq, bağlama düzəltmək.",
+  "en": "to wrap up and tie, to bundle up",
+  "pos": "verb"
+ },
+ "büküb-yığmaq": {
+  "az": "Paltarı, yorğan-döşəyi və s. qatlayıb bir yerə yığmaq.",
+  "en": "to fold up and put away",
+  "pos": "verb"
+ },
+ "büst-monument": {
+  "az": "Büst şəklində ucaldılmış abidə.",
+  "en": "bust monument",
+  "pos": "noun"
+ },
+ "büst-portret": {
+  "az": "İnsanın bədəninin yuxarı hissəsini təsvir edən portret-heykəl.",
+  "en": "portrait bust",
+  "pos": "noun"
+ },
+ "bığ-saqqal": {
+  "az": "Bığ və saqqal; üzdəki tüklər.",
+  "en": "moustache and beard, facial hair",
+  "pos": "noun"
+ },
+ "bığsız-saqqalsız": {
+  "az": "Bığı və saqqalı olmayan; məc. hələ çox gənc, təcrübəsiz.",
+  "en": "beardless, smooth-faced; (fig.) callow",
+  "pos": "adjective"
+ },
+ "bədii-dini": {
+  "az": "Həm bədii, həm də dini xarakter daşıyan (bədii-dini əsər).",
+  "en": "artistic and religious",
+  "pos": "adjective"
+ },
+ "bədii-siyasi": {
+  "az": "Həm bədii, həm də siyasi xarakter daşıyan (bədii-siyasi jurnal).",
+  "en": "literary-political, artistic and political",
+  "pos": "adjective"
+ },
+ "bənd-kalibr": {
+  "skip": "technical term, not certain"
+ },
+ "bəndeyi-həqir": {
+  "az": "Danışanın özünü təvazökarlıqla adlandırdığı ifadə: bu aciz bəndəniz.",
+  "en": "your humble servant (humble way of saying 'I')",
+  "pos": "noun",
+  "parts": false
+ },
+ "bənna-fəhlə": {
+  "az": "Bənnalar və fəhlələr; tikintidə çalışan işçilər.",
+  "en": "masons and labourers, building workers",
+  "pos": "noun"
+ },
+ "bənzərli-bənzərsiz": {
+  "skip": "meaning not certain"
+ },
+ "bərklik-boşluq": {
+  "skip": "meaning not certain"
+ },
+ "bərpa-mühafizə": {
+  "az": "Tarixi abidələrin bərpası və qorunması (bərpa-mühafizə işləri).",
+  "en": "restoration and conservation",
+  "pos": "noun"
+ },
+ "bərpa-xilasetmə": {
+  "az": "Qəza və fəlakətlərdən sonra xilasetmə və bərpa ilə bağlı olan (bərpa-xilasetmə işləri).",
+  "en": "rescue and recovery (attrib.)",
+  "pos": "adjective"
+ },
+ "bəsləyib-böyütmək": {
+  "az": "Qayğı göstərib yedirib-içirərək böyütmək, tərbiyə etmək.",
+  "en": "to nurture and bring up, to raise",
+  "pos": "verb"
+ },
+ "bəy-paşa": {
+  "az": "Bəylər və paşalar; hakim, varlı təbəqə.",
+  "en": "beys and pashas, the nobility",
+  "pos": "noun"
+ },
+ "bəy-rəiyyət": {
+  "az": "Bəylər və rəiyyət; ağalar və onlardan asılı kəndlilər.",
+  "en": "lords and peasants",
+  "pos": "noun"
+ },
+ "bəyirti-bağırtı": {
+  "az": "Heyvanların mələşmə və bağırma səsləri; səs-küy.",
+  "en": "bleating and bellowing; din, uproar",
+  "pos": "noun"
+ },
+ "bəylik-xanlıq": {
+  "az": "Bəylərin və xanların hakimiyyəti; feodal idarə üsulu.",
+  "en": "rule of beys and khans, feudal lordship",
+  "pos": "noun"
+ },
+ "bəzəkli-düzəkli": {
+  "az": "Bəzənib-düzənmiş, çox bəzəkli.",
+  "en": "adorned, all decked out",
+  "pos": "adjective"
+ },
+ "cadu-fal": {
+  "az": "Cadu, ovsun və fala baxma.",
+  "en": "witchcraft and fortune-telling",
+  "pos": "noun"
+ },
+ "cahıl-ahıl": {
+  "az": "Cavan və yaşlı; hamı, böyük-kiçik.",
+  "en": "young and old",
+  "pos": "noun"
+ },
+ "calayıb-tökmək": {
+  "skip": "meaning not certain"
+ },
+ "canbir-dilbir": {
+  "az": "Bir-biri ilə tam həmfikir, mehriban və yekdil olan (canbir-dilbir olmaq).",
+  "en": "of one heart and mind, united",
+  "pos": "adjective"
+ },
+ "cansız-qansız": {
+  "az": "Gücsüz, halsız və solğun; canlılığı olmayan.",
+  "en": "lifeless, feeble, wan",
+  "pos": "adjective"
+ },
+ "cavan-cahıl": {
+  "az": "Gənc adamlar, cavanlar.",
+  "en": "young people, the young",
+  "pos": "noun"
+ },
+ "caz-bənd": {
+  "az": "Caz musiqisi ifa edən kiçik orkestr.",
+  "en": "jazz band",
+  "pos": "noun",
+  "parts": false
+ },
+ "caz-kafe": {
+  "az": "Caz musiqisi ifa olunan kafe.",
+  "en": "jazz café",
+  "pos": "noun"
+ },
+ "caz-orkestr": {
+  "az": "Caz musiqisi ifa edən orkestr.",
+  "en": "jazz orchestra, jazz band",
+  "pos": "noun"
+ },
+ "ceyran-cüyür": {
+  "az": "Ceyranlar, cüyürlər və bu kimi çöl heyvanları.",
+  "en": "gazelles and roe deer",
+  "pos": "noun"
+ },
+ "cinayət-cəza": {
+  "az": "Cinayət və onun üçün verilən cəza.",
+  "en": "crime and punishment",
+  "pos": "noun"
+ },
+ "cirə-duz": {
+  "skip": "meaning not certain"
+ },
+ "civə-kvars": {
+  "az": "Kvars kolbalı, civə buxarında elektrik boşalması ilə ultrabənövşəyi şüa verən (civə-kvars lampası).",
+  "en": "mercury-quartz (lamp)",
+  "pos": "adjective"
+ },
+ "ciyər-böyrək": {
+  "az": "Ciyər və böyrək; heyvanın yeməyə işlədilən daxili orqanları.",
+  "en": "liver and kidneys; offal",
+  "pos": "noun"
+ },
+ "corab-trikotaj": {
+  "az": "Corab və trikotaj məmulatları (corab-trikotaj fabriki).",
+  "en": "hosiery and knitwear",
+  "pos": "noun"
+ },
+ "coystik-port": {
+  "az": "Kompüterdə coystik qoşmaq üçün nəzərdə tutulan port.",
+  "en": "joystick port",
+  "pos": "noun",
+  "parts": false
+ },
+ "coğrafiya-kartoqrafiya": {
+  "az": "Coğrafiya və kartoqrafiya elmləri (coğrafiya-kartoqrafiya fakültəsi).",
+  "en": "geography and cartography",
+  "pos": "noun"
+ },
+ "cübbə-çuxa": {
+  "az": "Cübbə, çuxa kimi uzun üst geyimləri.",
+  "en": "robes and chokhas (traditional long coats)",
+  "pos": "noun"
+ },
+ "cücü-həşərat": {
+  "az": "Böcəklər, həşəratlar və bu kimi xırda canlılar.",
+  "en": "insects, bugs, creepy-crawlies",
+  "pos": "noun"
+ },
+ "cırıq-sökük": {
+  "az": "Cırılıb-sökülmüş, köhnəlmiş (paltar).",
+  "en": "torn and tattered, ragged",
+  "pos": "adjective"
+ },
+ "cızma-cızmalı": {
+  "skip": "meaning not certain"
+ },
+ "cızma-cızmasız": {
+  "skip": "meaning not certain"
+ },
+ "cızıb-pozmaq": {
+  "az": "Yazıb və ya çəkib təkrar-təkrar pozmaq.",
+  "en": "to scribble and cross out",
+  "pos": "verb"
+ },
+ "cəftəli-qıfıllı": {
+  "az": "Cəftəsi və qıfılı vurulmuş, möhkəm bağlanmış.",
+  "en": "latched and locked",
+  "pos": "adjective"
+ },
+ "cəld-çevik": {
+  "az": "Tez və diribaş hərəkət edən, çevik.",
+  "en": "quick and agile, nimble",
+  "pos": "adjective"
+ },
+ "cəldlik-çeviklik": {
+  "az": "Hərəkətdə tezlik və diribaşlıq.",
+  "en": "quickness and agility, nimbleness",
+  "pos": "noun"
+ },
+ "cəngli-cidallı": {
+  "az": "Döyüşlü, savaşlı, qovğalı (cəngli-cidallı illər).",
+  "en": "full of fighting, embattled",
+  "pos": "adjective"
+ },
+ "cəngli-nağaralı": {
+  "skip": "meaning not certain"
+ },
+ "dad-tam": {
+  "az": "Yeməyin dadı, ləzzəti.",
+  "en": "taste, flavour",
+  "pos": "noun"
+ },
+ "dallı-qabaqlı": {
+  "skip": "meaning not certain"
+ },
+ "dalğıc-kəsici": {
+  "skip": "meaning not certain"
+ },
+ "dalğıc-matros": {
+  "az": "Dalğıc vəzifəsini yerinə yetirən matros.",
+  "en": "diver seaman",
+  "pos": "noun"
+ },
+ "dalğıc-operator": {
+  "skip": "meaning not certain (underwater cameraman or equipment operator)"
+ },
+ "dam-dirək": {
+  "az": "Evin damı və onu saxlayan dirəklər; tikilinin əsas hissələri.",
+  "en": "roof and posts (of a house)",
+  "pos": "noun"
+ },
+ "damaq-dil qövsü": {
+  "az": "Yumşaq damaqdan dilin kökünə doğru uzanan selikli qişa büküşü.",
+  "en": "palatoglossal arch",
+  "pos": "noun"
+ },
+ "damaq-udlaq": {
+  "az": "Damağa və udlağa aid olan (damaq-udlaq qövsü).",
+  "en": "palatopharyngeal",
+  "pos": "adjective"
+ },
+ "damaq-əng": {
+  "skip": "anatomical term, not certain"
+ },
+ "damcı-maye": {
+  "skip": "technical term, not certain"
+ },
+ "danlaq-dansaq": {
+  "az": "Danlama, məzəmmət, tənə.",
+  "en": "reproaches, scolding",
+  "pos": "noun"
+ },
+ "danlaq-dansaqlı": {
+  "az": "Danlaq və məzəmmətlə dolu.",
+  "en": "reproachful, full of scolding",
+  "pos": "adjective"
+ },
+ "danışqan-zəvzək": {
+  "az": "Çox və boş-boş danışan, naqqal.",
+  "en": "talkative, garrulous",
+  "pos": "adjective"
+ },
+ "danışıb-gülmək": {
+  "az": "Söhbət edib gülmək, şən vaxt keçirmək.",
+  "en": "to chat and laugh",
+  "pos": "verb"
+ },
+ "darlıq-korluq": {
+  "az": "Ehtiyac, yoxsulluq, maddi sıxıntı.",
+  "en": "want, hardship, privation",
+  "pos": "noun"
+ },
+ "dartıb-uzatmaq": {
+  "az": "Dartaraq uzatmaq; məc. işi və ya sözü lüzumsuz uzatmaq.",
+  "en": "to stretch out; (fig.) to drag out",
+  "pos": "verb"
+ },
+ "dartıb-çıxarmaq": {
+  "az": "Güc tətbiq edərək dartıb çıxarmaq.",
+  "en": "to pull out, to drag out",
+  "pos": "verb"
+ },
+ "dastan-tamaşa": {
+  "skip": "meaning not certain"
+ },
+ "dayanıb-durmaq": {
+  "az": "Bir yerdə durub qalmaq, hərəkəti dayandırmaq (çox vaxt inkarda: dayanıb-durmadan).",
+  "en": "to stop, to stand still",
+  "pos": "verb"
+ },
+ "dayı-bacıoğlu": {
+  "az": "Dayı ilə bacısının oğlu; onların arasındakı qohumluq.",
+  "en": "maternal uncle and nephew",
+  "pos": "noun"
+ },
+ "dayı-bala": {
+  "skip": "meaning not certain"
+ },
+ "dağ-aran": {
+  "az": "Dağ və aran; yaylaq və qışlaq yerləri.",
+  "en": "highlands and lowlands",
+  "pos": "noun"
+ },
+ "dağ-bozqırlıq": {
+  "az": "Dağlarda yerləşən bozqır sahəsi, dağ bozqırı.",
+  "en": "mountain steppe",
+  "pos": "noun"
+ },
+ "dağ-buzlaq": {
+  "az": "Dağlarda əmələ gələn buzlaq.",
+  "en": "mountain glacier",
+  "pos": "noun"
+ },
+ "dağ-buzlaqlıq": {
+  "az": "Dağlarda buzlaqların yayıldığı ərazi.",
+  "en": "mountain glacier zone",
+  "pos": "noun"
+ },
+ "dağ-divar": {
+  "skip": "meaning not certain"
+ },
+ "dağ-duman": {
+  "skip": "meaning not certain"
+ },
+ "dağ-düz": {
+  "az": "Dağlar və düzlər; hər yer, bütün diyar (dağı-düzü gəzmək).",
+  "en": "hill and dale, the whole land",
+  "pos": "noun"
+ },
+ "dağ-subtropik": {
+  "az": "Dağlıq ərazilərdəki subtropik iqlimə və ya zonaya aid olan.",
+  "en": "mountain-subtropical",
+  "pos": "adjective"
+ },
+ "dağ-yarımsəhra": {
+  "az": "Dağlıq ərazilərdə yerləşən yarımsəhra.",
+  "en": "mountain semi-desert",
+  "pos": "noun"
+ },
+ "dağ-çöllük": {
+  "skip": "meaning not certain"
+ },
+ "dağ-çəmənlik": {
+  "az": "Dağlarda yerləşən çəmən sahəsi.",
+  "en": "mountain meadow",
+  "pos": "noun"
+ },
+ "dağlı-dərəli": {
+  "az": "Dağları və dərələri olan, kələ-kötür (ərazi).",
+  "en": "hilly and full of valleys, rugged",
+  "pos": "adjective"
+ },
+ "dağlıq-düzənlik": {
+  "az": "Dağlıq və düzənlik ərazilər.",
+  "en": "highlands and plains",
+  "pos": "noun"
+ },
+ "dağılışıb-getmək": {
+  "az": "Müxtəlif tərəflərə ayrılıb getmək (izdiham, toplantı iştirakçıları).",
+  "en": "to disperse, to break up and leave",
+  "pos": "verb"
+ },
+ "daş-dirək": {
+  "skip": "meaning not certain"
+ },
+ "daş-dəmir": {
+  "skip": "meaning not certain"
+ },
+ "daş-gil": {
+  "skip": "meaning not certain"
+ },
+ "daş-palçıq": {
+  "az": "Daş və palçıq; daşlı-palçıqlı yer.",
+  "en": "stones and mud",
+  "pos": "noun"
+ },
+ "daş-palçıqlı": {
+  "skip": "meaning not certain (stony-muddy or mud-mortared)"
+ }
+}

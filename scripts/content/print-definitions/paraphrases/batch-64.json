@@ -1,0 +1,819 @@
+{
+ "ağyanız": {
+  "az": "Ağ üzlü, bənizi açıq olan; ağbəniz.",
+  "en": "fair-faced, pale-faced",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "amanabənd": {
+  "az": "Uçub dağılmaq üzrə olan, sınıq-salxaq; həm də bir işarə, bəhanə gözləyib hazır dayanan.",
+  "en": "rickety, on the verge of collapse; ready to act at the slightest pretext",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "aratlama": {
+  "az": "Dialektdə: toxum səpməzdən əvvəl şumlanmış torpağı suvarma.",
+  "en": "watering ploughed land before sowing",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "aratlamaq": {
+  "az": "Dialektdə: toxum səpməzdən qabaq şumlanmış yeri sulamaq.",
+  "en": "to water ploughed land before sowing",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "arayatı": {
+  "az": "Dialektdə: yolda bir gecə qalıb dincəlməklə (bir gündən uzun çəkən səfər haqqında).",
+  "en": "with one overnight stop (of a journey longer than a day)",
+  "pos": "adverb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "atqulağı": {
+  "az": "Dialektdə: atın qulaqları kimi qoşa, yanaşı, bir səviyyədə; bərabər (yaşca və s.).",
+  "en": "side by side, neck and neck; of the same age",
+  "pos": "adverb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "avral": {
+  "az": "Gəmidə bütün heyətin birlikdə gördüyü təcili iş; ümumiyyətlə, hamının qoşulduğu tələsik, gərgin iş.",
+  "en": "all-hands job (on a ship); rush job",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ayalama": {
+  "az": "Dialektdə: adama el arasında verilən ləqəb; ayama.",
+  "en": "nickname",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ayazlama": {
+  "az": "Ayazlamaq işi; göy üzünün buluddan açılması; gecə şaxtasında üşümə.",
+  "en": "clearing up (of the sky); getting chilled by night frost",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ayazlamaq": {
+  "az": "Buluddan, dumandan təmizlənib açılmaq (göy üzü haqqında); gecə şaxtasında bərk üşümək.",
+  "en": "to clear up (of the sky); to get chilled by night frost",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ay-hay": {
+  "az": "Danışıqda: kinayə, rişxənd və ya narazılıq bildirən nida.",
+  "en": "oh sure!, oh yeah! (ironic or displeased)",
+  "pos": "interjection",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ayranaşı": {
+  "az": "Dialektdə: ayranla bişirilən aş, şorba.",
+  "en": "soup cooked with ayran",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "başaqlama": {
+  "az": "Başaqlamaq işi; taxılın sünbül bağlaması, başaq verməsi.",
+  "en": "earing, forming ears (of grain)",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "başaqlamaq": {
+  "az": "Sünbül bağlamaq, başaq vermək (taxıl haqqında).",
+  "en": "to ear, to form ears (of grain)",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "bəzirgan": {
+  "az": "Köhnəlmiş: tacir, alver edən adam (nağıllarda çox işlənir).",
+  "en": "merchant, trader (archaic)",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "bircəcik": {
+  "az": "Yalnız bir, tək bircə (kiçiltmə, əzizləmə çaları ilə).",
+  "en": "just one, one single",
+  "pos": "numeral",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bircəciyəz": {
+  "az": "Tək bircə, yeganə (əzizləmə çaları ilə).",
+  "en": "just one, only one (endearing)",
+  "pos": "numeral",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "boğmaca": {
+  "az": "Xalq arasında: difteriya, yoluxucu boğaz xəstəliyi; boğma.",
+  "en": "diphtheria (popular name)",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "bri": {
+  "skip": "izahli text belongs to another headword (ari); meaning of bri uncertain"
+ },
+ "cağbacağ": {
+  "az": "Qaydasında, yerli-yerində, səliqə ilə.",
+  "en": "in order, in its proper place",
+  "pos": "adverb",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "cızmalama": {
+  "az": "Cızmalamaq işi; ucu iti bir şeylə və ya dırnaqla cızıq salma.",
+  "en": "scratching",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "cızmalamaq": {
+  "az": "Dırnaqla və ya ucu iti bir şeylə cızıq salmaq, cızmaq.",
+  "en": "to scratch, to scratch lines (on)",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "cibişdan": {
+  "az": "Zarafatla: cib; cibişdana qoymaq – mənimsəmək, cibinə qoymaq.",
+  "en": "pocket (jocular); cibişdana qoymaq – to pocket, to pilfer",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "çevrikmə": {
+  "az": "Çevrikmək işi; dönmə, o yan-bu yana çevrilmə.",
+  "en": "turning over, tossing and turning",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çevrikmək": {
+  "az": "Danışıqda: dönmək, çevrilmək; yataqda o yan-bu yana dönmək.",
+  "en": "to turn over, to toss and turn",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çırtmaq": {
+  "az": "Günəş haqqında: yenicə doğmaq, üfüqdən görünməyə başlamaq.",
+  "en": "to just rise, to peep over the horizon (of the sun)",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çilik": {
+  "az": "Əl ağacı, əsa, çubuq; çəlik.",
+  "en": "walking stick, staff",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "çömbələn": {
+  "az": "Çiban, şiş, ur; başqa mənada: çömbəlmiş halda, pəncələr üstə oturaraq.",
+  "en": "boil, swelling; also: in a squatting position",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "çulğamaq": {
+  "az": "Sarıyıb bürümək, örtmək; bürünmək, sarınmaq.",
+  "en": "to wrap (up), to envelop; to be wrapped up",
+  "pos": "verb",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "dabanbasaraq": {
+  "az": "Tələsik, qaça-qaça; birinin dalınca addım-addım düşərək.",
+  "en": "hastily, at a run; hard on someone's heels",
+  "pos": "adverb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dadanıq": {
+  "az": "Bir şeyə (adətən pis şeyə) öyrəşmiş, alışmış; dadanmış.",
+  "en": "habituated, having got into a (usually bad) habit",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "degenerativ": {
+  "az": "Toxuma və ya orqanizmin tədricən pozulub pisləşməsi əlamətləri olan (degenerativ dəyişikliklər).",
+  "en": "degenerative",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dəmbərəgöz": {
+  "az": "Gözləri qabağa çıxmış, bərəlmiş gözlü.",
+  "en": "goggle-eyed, pop-eyed",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dilbədil": {
+  "az": "Klassik şeirdə: ürəkdən-ürəyə, səmimi və sədaqətlə.",
+  "en": "heart to heart, sincerely (classical)",
+  "pos": "adverb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dodaqbadodaq": {
+  "az": "Ağzına qədər dolu olaraq, ləbələb (stəkanı dodaqbadodaq doldurmaq).",
+  "en": "brimful, to the brim",
+  "pos": "adverb",
+  "src": "both",
+  "conf": "high"
+ },
+ "dovşancığaz": {
+  "az": "Balaca, sevimli dovşan (dovşan sözünün əzizləmə forması).",
+  "en": "little hare, bunny",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "döy-sındır": {
+  "az": "Danışıqda: bərk döyüb əzərək; döyülüb əzişdirilmiş halda.",
+  "en": "with a severe beating; battered",
+  "pos": "adverb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "dumduma": {
+  "az": "Dialektdə: fırfıra, fırlanan oyuncaq.",
+  "en": "spinning top (toy)",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "düşərgah": {
+  "az": "Müvəqqəti yaşayış və dayanacaq yeri, düşərgə; çöldə işləyənlərin dincəlib yemək yediyi yer.",
+  "en": "camp, encampment, halting place",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "elləşmə": {
+  "az": "Elləşmək işi; ictimailəşmə, ümumun malına çevrilmə.",
+  "en": "collectivization, becoming public property",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "elləşmək": {
+  "az": "İctimailəşmək, ümumxalq malına çevrilmək, bütün elin ortaq malı olmaq.",
+  "en": "to become public property, to be collectivized",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "elli": {
+  "az": "Bir eldən, bir yerdən olan, həmyerli; eli, yurdu olan.",
+  "en": "from the same people or place, compatriot; having a homeland",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "əlhavası": {
+  "az": "Danışıqda: qaranlıqda heç nə görmədən, əllə yoxlaya-yoxlaya.",
+  "en": "by feel, by touch, gropingly (in the dark)",
+  "pos": "adverb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "ərəğac": {
+  "az": "Danışıqda: vaxtından əvvəl, erkən yetişən və ya erkən əkilən (məhsul, tarla, quzu və s.).",
+  "en": "early-ripening, early (of crops, lambs, etc.)",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "əssalam": {
+  "az": "Köhnəlmiş: salam olsun, sizə salam (salamlaşma nidası).",
+  "en": "peace be upon you (archaic greeting)",
+  "pos": "interjection",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "file": {
+  "az": "Sümüksüz ət və ya balıq parçası (toyuq filesi, balıq filesi).",
+  "en": "fillet (of meat or fish)",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "görəcək": {
+  "az": "Gözlənilməz bəla və ya pis xəbər qarşısında təəssüf bildirən ifadədə işlənir: «görəcək günlərim varmış», yəni bunu da görmək qismətim imiş.",
+  "en": "used in 'görəcək günlərim varmış': to think I would live to see this!",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "göylü": {
+  "az": "Göyərti əkilmiş, yaşıllığı olan; yaşıl (göylü həyət).",
+  "en": "green, with greenery",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "gözbağlıca": {
+  "az": "Tamaşaçıların diqqətini yayındıraraq fokuslar göstərən artist; fokusçu.",
+  "en": "conjurer, illusionist",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "gözüiti": {
+  "az": "Gözü iti görən, ən xırda şeyi də seçə bilən.",
+  "en": "sharp-eyed",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "gözüitilik": {
+  "az": "Gözün iti görməsi, ən xırda şeyləri seçə bilmə qabiliyyəti.",
+  "en": "sharp-sightedness, keen eyesight",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "hayıl-mayıl": {
+  "az": "Danışıqda: heyran, valeh, məftun (hayıl-mayıl olmaq, qalmaq).",
+  "en": "spellbound, captivated",
+  "pos": "adverb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "hoydulama": {
+  "az": "Hoydulamaq işi; fit çalıb gülərək rişxənd etmə.",
+  "en": "jeering, catcalling",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "hoydulamaq": {
+  "az": "Fit çalıb, gülüb, qışqıraraq birini rişxənd etmək, lağa qoymaq.",
+  "en": "to jeer, to catcall, to hiss off",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "hüzr": {
+  "az": "Danışıqda: yas, təziyə; hüzr yeri – ölü sahibinə başsağlığı verilən yer.",
+  "en": "mourning, wake (hüzr yeri – house of mourning)",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "itmə": {
+  "az": "İtmək işi; yoxa çıxma, qeyb olma, azma.",
+  "en": "loss, disappearance, getting lost",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "izafə": {
+  "az": "Artıq, əlavə, lazım olandan çox (izafə xərc).",
+  "en": "extra, additional, superfluous",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "korş": {
+  "az": "Yaxşı kəsməyən, ağzı iti olmayan; küt (korş bıçaq).",
+  "en": "blunt, dull",
+  "pos": "adjective",
+  "src": "both",
+  "conf": "high"
+ },
+ "kut-kut": {
+  "az": "Topa-topa, qalaq şəklində, yığın-yığın.",
+  "en": "in heaps, in piles, in clusters",
+  "pos": "adverb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "kürələmə": {
+  "az": "Kürələmək işi; qarı, peyini və s. kürəklə kənara atma.",
+  "en": "shovelling",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "kürələmək": {
+  "az": "Qarı, peyini və s. kürəklə kənara atmaq, kürəklə təmizləmək.",
+  "en": "to shovel, to clear with a shovel",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "qaçatbasdı": {
+  "az": "Danışıqda: çox tələsik, hövsələsizliklə, can ata-ata.",
+  "en": "in a great hurry, impatiently",
+  "pos": "adverb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "qarınafətir": {
+  "az": "Danışıqda: muzd almadan, ancaq qarın toxluğuna (qarınafətir işləmək).",
+  "en": "for one's keep only, for food without pay",
+  "pos": "adverb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "qazınmaq": {
+  "az": "Oyulub naxış açılmaq, həkk olunmaq; qaşınıb təmizlənmək.",
+  "en": "to be carved, to be engraved; to be scoured",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "qədləmək": {
+  "az": "Danışıqda: yonmaq, ucunu itiləmək (karandaşı və s.).",
+  "en": "to whittle, to sharpen (e.g. a pencil)",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "qədlənmək": {
+  "az": "Danışıqda: yonulmaq, ucu itilənmək.",
+  "en": "to be whittled, to be sharpened",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "qolubağlı": {
+  "az": "Qolları bağlanmış (adam haqqında); qolları bağlı vəziyyətdə.",
+  "en": "with one's arms tied, bound",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "quğu": {
+  "az": "Quqqu və bu kimi quşların çıxardığı səs.",
+  "en": "cuckoo's call",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "qulcuğaz": {
+  "az": "Qul sözünün əzizləmə forması: kiçik, sadiq qul (klassik şeirdə təvazökarlıq ifadəsi kimi).",
+  "en": "humble little servant",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "qumlaq": {
+  "az": "Hər tərəfi qum olan yer, qumsallıq.",
+  "en": "sandy place, sands",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "quraqlı": {
+  "az": "Bir yerinə əlavə parça calanmış, calaqlı (paltar və s.).",
+  "en": "with a pieced-in patch, patched (of clothing)",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "ləpikdaş": {
+  "az": "Yastı, dəyirmi xırda daşlarla oynanılan uşaq oyunu.",
+  "en": "a game played with small flat stones",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "loqquldama": {
+  "az": "Loqquldamaq işi; mayenin qaynarkən, axarkən çıxardığı boğuq səs; yaranın zoqquldaması.",
+  "en": "gurgling, bubbling; throbbing",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "loqquldamaq": {
+  "az": "Qaynayan, axan və ya tökülən maye kimi boğuq səs çıxarmaq; (yara, diş haqqında) zoqquldamaq.",
+  "en": "to gurgle, to bubble (of liquid); to throb (of a sore)",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "lökkültü": {
+  "az": "Çibanın, irinli yaranın və ya dişin nəbz kimi vura-vura ağrıması; zoqqultu.",
+  "en": "throbbing pain (of a boil, wound or tooth)",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "mazat": {
+  "az": "Yalnız «özünü mazata qoymaq» birləşməsində: nazlanmaq, özünü çəkmək, qiymətini artırmağa çalışmaq.",
+  "en": "(in özünü mazata qoymaq) to play hard to get, to put on airs",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "məchullu": {
+  "az": "Riyaziyyatda: naməlumu olan, məchul kəmiyyət daxil olan (məchullu tənlik).",
+  "en": "containing an unknown (e.g. an equation with unknowns)",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "miozin": {
+  "az": "Əzələ liflərində aktinlə birlikdə əzələnin yığılmasını təmin edən zülal.",
+  "en": "myosin",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "nəzərincə": {
+  "az": "Birinin fikrinə görə, onun baxışına əsasən (onun nəzərincə).",
+  "en": "in someone's view, according to",
+  "pos": "adverb",
+  "src": "both",
+  "conf": "high"
+ },
+ "nitrit": {
+  "az": "Azotlu turşunun (HNO₂) duzu (məs.: natrium nitrit).",
+  "en": "nitrite",
+  "pos": "noun",
+  "src": "musayev",
+  "conf": "low"
+ },
+ "ortopedist": {
+  "az": "Sümük-oynaq və əzələ sisteminin xəstəlik və qüsurlarını müalicə edən həkim; ortoped.",
+  "en": "orthopedist, orthopaedic surgeon",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "paraq": {
+  "skip": "izahli text is truncated; meaning not certain"
+ },
+ "rövnəqləndirmə": {
+  "az": "Rövnəqləndirmək işi; gözəlləşdirmə, bəzəmə; inkişafa təkan vermə.",
+  "en": "embellishment, adornment; giving a boost",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "rövnəqləndirmək": {
+  "az": "Gözəlləşdirmək, daha parlaq və yaraşıqlı etmək, bəzəmək; inkişafına, rəvacına təkan vermək.",
+  "en": "to adorn, to embellish; to give a boost to",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "rövnəqlənmə": {
+  "az": "Rövnəqlənmək işi; gözəlləşmə, parlaqlaşma, canlanma.",
+  "en": "becoming more splendid, flourishing",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "rövnəqlənmək": {
+  "az": "Daha da gözəlləşmək, təravət və parlaqlıq qazanmaq; canlanmaq.",
+  "en": "to become more splendid, to flourish, to brighten",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "salımlıq": {
+  "az": "Bir dəfə dəmləməyə, tökməyə və ya xörəyə salmağa yetən az miqdar (bir salımlıq çay).",
+  "en": "a small amount, enough for one brewing or pinch (e.g. of tea, salt)",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "sapalaq": {
+  "skip": "Musayev gloss (assessment) does not fit; meaning uncertain"
+ },
+ "səbirsizlənmə": {
+  "az": "Səbirsizlənmək işi; səbri tükənmə, hövsələsi daralma.",
+  "en": "growing impatience",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "sonuc": {
+  "az": "Nəticə, aqibət, son.",
+  "en": "result, outcome",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "sör-söküntü": {
+  "az": "Sökülmüş, dağıdılmış şeyin qalıqları, qırıntıları; zir-zibil.",
+  "en": "debris, rubble, scraps",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "spot": {
+  "skip": "Musayev evidence belongs to another headword (sport); meaning uncertain"
+ },
+ "stirol": {
+  "az": "Polistirol və sintetik kauçuk istehsalında işlənən rəngsiz maye karbohidrogen.",
+  "en": "styrene",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "tabaqçalanma": {
+  "az": "Tabaqçalanmaq işi; gülün ləçəklərini geniş açması.",
+  "en": "opening out (of a flower)",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "tabaqçalanmaq": {
+  "az": "Ləçəkləri tabaq kimi geniş yayılmaq, tam açılmaq (gül haqqında).",
+  "en": "to open out fully (of a flower)",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "tablamaq": {
+  "az": "Dözmək, tab gətirmək; bir şeyə qarşı davam gətirmək.",
+  "en": "to endure, to bear, to withstand",
+  "pos": "verb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "teyxa": {
+  "az": "Dialektdə: tamamilə, bütünlüklə, lap.",
+  "en": "completely, entirely",
+  "pos": "adverb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "təpçevir": {
+  "az": "Kənd təsərrüfatında: torpağın alt üzünü üstə çevirməklə (təpçevir təpmək – belə üsulla bel vurmaq).",
+  "en": "(spading) with the soil turned upside down",
+  "pos": "adverb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "təzəlikcə": {
+  "az": "Yenicə, bu yaxınlarda, təzəcə.",
+  "en": "just, recently",
+  "pos": "adverb",
+  "src": "both",
+  "conf": "high"
+ },
+ "tıxışdırma": {
+  "az": "Tıxışdırmaq işi; güclə soxma, sıxışdırıb doldurma.",
+  "en": "cramming, stuffing",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "tıxışdırmaq": {
+  "az": "Güclə soxmaq, sıxışdıraraq doldurmaq; danışıqda: acgözlüklə yemək, tıxmaq.",
+  "en": "to cram, to stuff (into); to gobble",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "türfə": {
+  "az": "Klassik dildə: zərif, incə, cazibəli, gözəl.",
+  "en": "graceful, delicate, charming (classical)",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "üstüpərdəli": {
+  "az": "Açıq deyilməyən, eyhamla ifadə olunan, gizli mənalı.",
+  "en": "veiled, allusive, oblique",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "üzüaçıq": {
+  "az": "Üzünü çadra ilə örtməyən, çadrasız gəzən (qadın haqqında).",
+  "en": "unveiled, not wearing a chador",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "üzüsulu": {
+  "az": "Danışıqda: abrını itirmədən, rüsvay olmadan, şərəfli şəkildə.",
+  "en": "with one's dignity intact, without disgrace",
+  "pos": "adverb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "vedrələmə": {
+  "az": "Vedrələmək işi; ələ salma, lağa qoyma; vedrə ilə çəkmə və ya ölçmə.",
+  "en": "mocking; drawing or measuring with a bucket",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "vedrələmək": {
+  "az": "Danışıqda: birini ələ salmaq, lağa qoymaq; həm də vedrə ilə su və s. çəkmək və ya ölçmək.",
+  "en": "to mock, to make fun of (colloq.); to draw or measure with a bucket",
+  "pos": "verb",
+  "src": "both",
+  "conf": "low"
+ },
+ "şan-şərafət": {
+  "az": "Şöhrət, şərəf, ad-san, böyüklük.",
+  "en": "glory, fame, honour",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ },
+ "ştabel": {
+  "az": "Taxta, kərpic, yeşik və s.-nin müəyyən qaydada üst-üstə yığılmış qalağı.",
+  "en": "stack, pile (of timber, bricks, etc.)",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "low"
+ },
+ "yaxılma": {
+  "az": "Yaxılmaq işi: bir şeyin üstünə sürtülmə, çəkilmə; yandırılma.",
+  "en": "being smeared or applied; being burned",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "yalançıbaş": {
+  "az": "Dialektdə: saxta, süni, əsli olmayan, yalandan olan.",
+  "en": "false, fake, sham",
+  "pos": "adjective",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "yarımağız": {
+  "az": "Danışıqda: könülsüz, istəmədən, həvəssiz (cavab vermək, demək).",
+  "en": "half-heartedly, reluctantly",
+  "pos": "adverb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "yata": {
+  "az": "Kənd təsərrüfatında: suyu sahənin hər yerinə yayıb torpağa hopduraraq (yata sulamaq).",
+  "en": "by flooding (irrigating so water soaks the whole field)",
+  "pos": "adverb",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "yelda": {
+  "az": "Klassik şeirdə: ilin ən uzun gecəsi, dekabrın 21-i gecəsi (şəbi-yelda).",
+  "en": "Yalda, the longest night of the year (winter solstice)",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "yonqarlama": {
+  "az": "Yonqarlamaq işi; ağacı rəndə ilə yonma.",
+  "en": "planing, shaving (wood)",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "yonqarlamaq": {
+  "az": "Rəndə və ya başqa yonucu alətlə ağacın üstünü götürüb nazikləşdirmək; yonmaq.",
+  "en": "to plane, to shave (wood)",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "yonqarlanma": {
+  "az": "Yonqarlanmaq işi; rəndə ilə yonulma.",
+  "en": "being planed",
+  "pos": "noun",
+  "src": "izahli",
+  "conf": "high"
+ },
+ "yonqarlanmaq": {
+  "az": "Rəndə ilə yonulmaq, üstündən yonqar götürülmək.",
+  "en": "to be planed, to be shaved",
+  "pos": "verb",
+  "src": "both",
+  "conf": "high"
+ },
+ "yüzmanatlıq": {
+  "az": "Yüz manat dəyərində olan kağız pul.",
+  "en": "hundred-manat note",
+  "pos": "noun",
+  "src": "both",
+  "conf": "high"
+ }
+}

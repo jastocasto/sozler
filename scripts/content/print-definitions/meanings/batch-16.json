@@ -1,0 +1,937 @@
+{
+ "daş-torpaq": {
+  "az": "Daş və torpaq; bir yerin daşı-torpağı, çox vaxt vətən torpağı mənasında (vətənin daşı-torpağı).",
+  "en": "stones and earth; the land, soil (esp. of one's homeland)",
+  "pos": "noun"
+ },
+ "daş-torpaqlı": {
+  "skip": "meaning not certain"
+ },
+ "daş-torpaqsız": {
+  "skip": "meaning not certain"
+ },
+ "daşlı-qumsallı": {
+  "az": "Həm daşlı, həm də qumlu olan (daşlı-qumsallı sahil).",
+  "en": "stony and sandy",
+  "pos": "adjective"
+ },
+ "daşlı-tikanlı": {
+  "az": "Daşı və tikanı çox olan; məc. çətinliklərlə dolu (daşlı-tikanlı yol).",
+  "en": "stony and thorny; (fig.) full of hardships",
+  "pos": "adjective"
+ },
+ "dekorativ-akustik": {
+  "az": "Həm bəzək, həm də səsi tənzimləmək məqsədi daşıyan (dekorativ-akustik panellər).",
+  "en": "decorative and acoustic",
+  "pos": "adjective"
+ },
+ "delta-dalğa": {
+  "az": "Beynin elektrik fəaliyyətində, əsasən dərin yuxuda yaranan, tezliyi 0,5–4 Hs olan yavaş dalğa.",
+  "en": "delta wave (EEG)",
+  "pos": "noun"
+ },
+ "delta-dəmir": {
+  "az": "Dəmirin təxminən 1394 °C-dən ərimə temperaturuna qədər davamlı olan yüksək temperatur modifikasiyası.",
+  "en": "delta iron (δ-iron)",
+  "pos": "noun"
+ },
+ "delta-effekt": {
+  "skip": "meaning not certain"
+ },
+ "delta-elektron": {
+  "az": "Sürətli yüklü zərrəcik maddədən keçərkən atomdan qopardığı, özü də ionlaşdırma yarada bilən ikinci elektron.",
+  "en": "delta electron (δ-electron)",
+  "pos": "noun"
+ },
+ "delta-elektronlu": {
+  "az": "Delta-elektronlarla bağlı olan, onlara aid olan.",
+  "en": "relating to delta electrons",
+  "pos": "adjective"
+ },
+ "delta-funksiya": {
+  "az": "Bir nöqtədən başqa hər yerdə sıfıra bərabər olan, inteqralı isə vahidə bərabər olan ümumiləşmiş funksiya; Dirak funksiyası.",
+  "en": "delta function, Dirac delta",
+  "pos": "noun"
+ },
+ "delta-hissəcik": {
+  "skip": "meaning not certain"
+ },
+ "delta-hüceyrə": {
+  "az": "Mədəaltı vəzin Langerhans adacıqlarında somatostatin hormonunu hasil edən hüceyrə.",
+  "en": "delta cell",
+  "pos": "noun"
+ },
+ "delta-impuls": {
+  "az": "Müddəti son dərəcə qısa olan, ideal halda delta-funksiya ilə təsvir edilən vahid impuls.",
+  "en": "delta pulse, unit impulse",
+  "pos": "noun"
+ },
+ "delta-metal": {
+  "az": "Mis və sinkdən, az miqdarda dəmir əlavəsi ilə hazırlanan möhkəm, korroziyaya davamlı ərinti; bir növ latun.",
+  "en": "delta metal (an iron-containing brass)",
+  "pos": "noun"
+ },
+ "delta-ritm": {
+  "az": "Elektroensefaloqrammada tezliyi 0,5–4 Hs olan, əsasən dərin yuxuda müşahidə edilən yavaş ritm.",
+  "en": "delta rhythm (EEG)",
+  "pos": "noun"
+ },
+ "delta-şüa": {
+  "az": "Sürətli yüklü zərrəciyin maddədən keçərkən qopardığı delta-elektronların axını.",
+  "en": "delta ray",
+  "pos": "noun"
+ },
+ "diafraqm-mədə": {
+  "az": "Diafraqma ilə mədəyə aid olan, onları birləşdirən (diafraqm-mədə bağı).",
+  "en": "gastrophrenic (relating to the diaphragm and stomach)",
+  "pos": "adjective"
+ },
+ "diafraqm-qabırğa": {
+  "az": "Diafraqma ilə qabırğalar arasında olan, onlara aid (diafraqm-qabırğa cibi).",
+  "en": "costophrenic, costodiaphragmatic",
+  "pos": "adjective"
+ },
+ "diafraqm-qaraciyər": {
+  "az": "Diafraqma ilə qaraciyərə aid olan, onları birləşdirən (diafraqm-qaraciyər bağı).",
+  "en": "hepatophrenic (relating to the diaphragm and liver)",
+  "pos": "adjective"
+ },
+ "diafraqm-ürək": {
+  "az": "Diafraqma ilə ürəyə aid olan (diafraqm-ürək bucağı).",
+  "en": "cardiophrenic",
+  "pos": "adjective"
+ },
+ "didaktik-alleqorik": {
+  "az": "Öyrədici fikri alleqoriya yolu ilə çatdıran (didaktik-alleqorik poema).",
+  "en": "didactic and allegorical",
+  "pos": "adjective"
+ },
+ "didaktik-metodik": {
+  "az": "Təlimin nəzəriyyəsi və metodikası ilə bağlı olan (didaktik-metodik vəsait).",
+  "en": "didactic and methodological",
+  "pos": "adjective"
+ },
+ "didib-parçalamaq": {
+  "az": "Dartıb didərək parça-parça etmək.",
+  "en": "to tear to pieces, to rip apart",
+  "pos": "verb"
+ },
+ "didib-sökmək": {
+  "az": "Hissə-hissə qoparıb dağıtmaq, didərək sökmək.",
+  "en": "to pull apart, to pick to pieces",
+  "pos": "verb"
+ },
+ "didib-tökmək": {
+  "az": "Didərək qoparıb ətrafa tökmək (saçını didib-tökmək).",
+  "en": "to pluck out and scatter, to tear out (e.g. one's hair)",
+  "pos": "verb"
+ },
+ "dil-ağız etmək": {
+  "az": "Şirin dillə yalvarıb-yaxararaq kimisə razı salmağa çalışmaq.",
+  "en": "to coax, to cajole; to plead with sweet words",
+  "pos": "verb"
+ },
+ "dil-qırtlaq": {
+  "az": "Dilə və qırtlağa aid olan, onları birləşdirən.",
+  "en": "relating to the tongue and larynx",
+  "pos": "adjective"
+ },
+ "dilikli-buta": {
+  "az": "Kənarları dilik-dilik, kəsikli olan buta naxışı (xalça ornamentlərində).",
+  "en": "notched boteh (a paisley motif)",
+  "pos": "noun"
+ },
+ "dilikli-itibucaqlı": {
+  "az": "Kənarları dilikli və iti bucaqlı formada olan.",
+  "en": "notched and acute-angled",
+  "pos": "adjective"
+ },
+ "dilçi-etimoloq": {
+  "az": "Sözlərin mənşəyini araşdıran dilçi alim.",
+  "en": "linguist and etymologist",
+  "pos": "noun"
+ },
+ "dilçi-etnoqraf": {
+  "az": "Həm dilçiliklə, həm də etnoqrafiya ilə məşğul olan alim.",
+  "en": "linguist and ethnographer",
+  "pos": "noun"
+ },
+ "dilçi-filosof": {
+  "az": "Həm dilçiliklə, həm də fəlsəfə ilə məşğul olan alim.",
+  "en": "linguist and philosopher",
+  "pos": "noun"
+ },
+ "dilçi-mətnşünas": {
+  "az": "Mətnlərin tədqiqi və nəşri ilə məşğul olan dilçi alim.",
+  "en": "linguist and textual scholar",
+  "pos": "noun"
+ },
+ "dilçi-paleoqraf": {
+  "az": "Qədim yazıları və əlyazmaları öyrənən dilçi alim.",
+  "en": "linguist and palaeographer",
+  "pos": "noun"
+ },
+ "dilçi-tarixçi": {
+  "az": "Həm dilçiliklə, həm də tarixlə məşğul olan alim; dilin tarixini öyrənən dilçi.",
+  "en": "linguist and historian",
+  "pos": "noun"
+ },
+ "dilçi-şərqşünas": {
+  "az": "Şərq dillərini öyrənən dilçi alim.",
+  "en": "linguist and orientalist",
+  "pos": "noun"
+ },
+ "dilçi-ədəbiyyatçı": {
+  "az": "Həm dilçiliklə, həm də ədəbiyyatşünaslıqla məşğul olan alim.",
+  "en": "linguist and literary scholar",
+  "pos": "noun"
+ },
+ "dilək-arzu": {
+  "az": "Arzu, istək; ürəkdən istənilən şey.",
+  "en": "wishes, desires",
+  "pos": "noun"
+ },
+ "dina-saniyə": {
+  "az": "SQS sistemində qüvvə impulsu vahidi: bir dinlik qüvvənin bir saniyə ərzindəki təsiri.",
+  "en": "dyne-second (CGS unit of impulse)",
+  "pos": "noun"
+ },
+ "dinc-yanaşı yaşamaq": {
+  "az": "Bir-biri ilə toqquşmadan, sülh şəraitində yanaşı yaşamaq.",
+  "en": "to coexist peacefully",
+  "pos": "verb"
+ },
+ "dini-psixoloji": {
+  "az": "Din ilə insan psixologiyasının qarşılıqlı əlaqəsinə aid olan.",
+  "en": "religious and psychological; relating to the psychology of religion",
+  "pos": "adjective"
+ },
+ "dinli-imanlı": {
+  "az": "Dinə inanan və onun tələblərinə əməl edən; dindar.",
+  "en": "religious, devout, God-fearing",
+  "pos": "adjective"
+ },
+ "dinsiz-imansız": {
+  "az": "Heç bir dinə, imana inanmayan; məc. insafsız, vicdansız.",
+  "en": "godless, faithless; (fig.) unscrupulous, heartless",
+  "pos": "adjective"
+ },
+ "dinşünas-alim": {
+  "az": "Dinləri elmi cəhətdən öyrənən alim; dinşünas.",
+  "en": "religious studies scholar",
+  "pos": "noun"
+ },
+ "dinşünas-şərqşünas": {
+  "az": "Şərq xalqlarının dinlərini öyrənən şərqşünas alim.",
+  "en": "religious studies scholar and orientalist",
+  "pos": "noun"
+ },
+ "direktiv-planlı": {
+  "az": "Yuxarıdan verilən göstərişlər əsasında mərkəzləşdirilmiş qaydada planlaşdırılan (direktiv-planlı iqtisadiyyat).",
+  "en": "centrally planned, command (economy)",
+  "pos": "adjective"
+ },
+ "divan-kreslo": {
+  "az": "Yumşaq mebel dəsti: divan və kreslolar (divan-kreslo dəsti).",
+  "en": "sofa and armchairs (upholstered furniture set)",
+  "pos": "noun",
+  "parts": false
+ },
+ "diversiyaçı-kəşfiyyatçı": {
+  "az": "Düşmən arxasında kəşfiyyat və təxribat işi aparan hərbçi.",
+  "en": "saboteur-scout, sabotage and reconnaissance operative",
+  "pos": "noun"
+ },
+ "dizel-aqreqat": {
+  "az": "Dizel mühərrikindən və ona birləşdirilmiş maşından (adətən generatordan) ibarət qurğu.",
+  "en": "diesel unit, diesel power set",
+  "pos": "noun"
+ },
+ "dizel-elektrovoz": {
+  "skip": "meaning not certain (diesel-electric vs dual-mode locomotive)"
+ },
+ "dizel-generator": {
+  "az": "Dizel mühərriki ilə hərəkətə gətirilən elektrik generatoru; elektrik enerjisi istehsal edən qurğu.",
+  "en": "diesel generator",
+  "pos": "noun"
+ },
+ "dizel-motor": {
+  "az": "Yanacağı sıxılmış qızmar havada alışan daxili yanma mühərriki; dizel.",
+  "en": "diesel engine",
+  "pos": "noun"
+ },
+ "dizel-motorlu": {
+  "az": "Dizel mühərriki olan, dizel mühərriki ilə işləyən.",
+  "en": "diesel-powered, diesel-engined",
+  "pos": "adjective"
+ },
+ "dizel-motorsuz": {
+  "az": "Dizel mühərriki olmayan.",
+  "en": "without a diesel engine",
+  "pos": "adjective"
+ },
+ "dizel-qatar": {
+  "az": "Dizel mühərrikləri ilə hərəkət edən qatar.",
+  "en": "diesel train, diesel multiple unit",
+  "pos": "noun"
+ },
+ "dizel-çəkic": {
+  "az": "Dizel mühərriki prinsipi ilə işləyən, svay vurmaq üçün istifadə olunan çəkic.",
+  "en": "diesel hammer (pile driver)",
+  "pos": "noun"
+ },
+ "diş-dodaq": {
+  "az": "Alt dodağın üst dişlərə toxunması ilə əmələ gələn (diş-dodaq samitləri: f, v).",
+  "en": "labiodental",
+  "pos": "adjective"
+ },
+ "diş-dırnaq": {
+  "az": "Diş və dırnaq; çox vaxt «diş-dırnaqla» ifadəsində: var gücü ilə, inadla.",
+  "en": "tooth and nail (with all one's might)",
+  "pos": "noun"
+ },
+ "don-kostyum": {
+  "az": "Pencəklə birlikdə geyilən, kostyum təsiri bağışlayan qadın donu.",
+  "en": "dress suit (a dress with a matching jacket)",
+  "pos": "noun"
+ },
+ "donuxub-qalmaq": {
+  "az": "Heyrətdən və ya qorxudan yerində donub hərəkətsiz qalmaq.",
+  "en": "to be stunned, to freeze (in shock)",
+  "pos": "verb"
+ },
+ "doğma-ögey": {
+  "az": "Doğma və ya ögey olan; öz və yad (doğma-ögey ayırmaq).",
+  "en": "own and step-; one's own and others",
+  "pos": "adjective"
+ },
+ "dram-opera": {
+  "skip": "meaning not certain"
+ },
+ "dramatik-komik": {
+  "az": "Həm dramatik, həm də komik ünsürlər daşıyan; tragikomik.",
+  "en": "dramatic and comic, tragicomic",
+  "pos": "adjective"
+ },
+ "drenaj-təmizləmə": {
+  "az": "Drenaj sistemlərinin, kanal və borularının təmizlənməsi (drenaj-təmizləmə işləri).",
+  "en": "drainage cleaning",
+  "pos": "noun"
+ },
+ "dubl-bemol": {
+  "az": "Notu bütöv ton (iki yarım ton) aşağı salan alterasiya işarəsi.",
+  "en": "double flat",
+  "pos": "noun"
+ },
+ "dubl-neqativ": {
+  "az": "Kinofilmin surətlərini çıxarmaq üçün pozitivdən çap edilən təkrar neqativ.",
+  "en": "duplicate negative, dupe negative",
+  "pos": "noun"
+ },
+ "duman-çən": {
+  "az": "Qatı duman, çən.",
+  "en": "fog, mist",
+  "pos": "noun"
+ },
+ "duman-çənli": {
+  "az": "Duman və çənlə örtülmüş (duman-çənli hava).",
+  "en": "foggy, misty",
+  "pos": "adjective"
+ },
+ "dumanlı-tüstülü": {
+  "az": "Duman və tüstü ilə dolu, tutqun olan.",
+  "en": "smoky and hazy",
+  "pos": "adjective"
+ },
+ "dumanlı-çənli": {
+  "az": "Duman və çənlə örtülü olan; çox dumanlı.",
+  "en": "foggy, misty",
+  "pos": "adjective"
+ },
+ "durub-oturmaq": {
+  "skip": "meaning not certain"
+ },
+ "duyğulu-duyğusuz": {
+  "skip": "meaning not certain"
+ },
+ "duzlu-duzsuz": {
+  "skip": "meaning not certain"
+ },
+ "duş-kabinə": {
+  "az": "Duş qəbul etmək üçün ayrılmış, qapılı kiçik bölmə.",
+  "en": "shower cabin, shower enclosure",
+  "pos": "noun"
+ },
+ "dövrə-məhəccər": {
+  "skip": "meaning not certain"
+ },
+ "döymə-döşəmə": {
+  "skip": "meaning not certain"
+ },
+ "döymə-ştamplama": {
+  "az": "Metala döymə və ştamplama yolu ilə forma vermə (döymə-ştamplama sexi).",
+  "en": "forging and stamping",
+  "pos": "noun"
+ },
+ "döyüb-incitmək": {
+  "az": "Döyərək əzab vermək, incitmək.",
+  "en": "to beat and hurt, to maltreat",
+  "pos": "verb"
+ },
+ "döyüb-öldürmək": {
+  "az": "Döyə-döyə öldürmək.",
+  "en": "to beat to death",
+  "pos": "verb"
+ },
+ "döş-qarın": {
+  "az": "Döş qəfəsi ilə qarın boşluğuna aid olan (döş-qarın maneəsi).",
+  "en": "thoracoabdominal",
+  "pos": "adjective"
+ },
+ "döş-sümükaltı": {
+  "skip": "meaning not certain"
+ },
+ "döş-ürək": {
+  "skip": "meaning not certain"
+ },
+ "dünya-aləm": {
+  "az": "Bütün dünya, bütün insanlar; el-aləm (dünya-aləm bunu bilir).",
+  "en": "the whole world, everybody",
+  "pos": "noun",
+  "src": "izahli"
+ },
+ "dürlü-düyünlü": {
+  "skip": "meaning not certain"
+ },
+ "dürr-gövhər": {
+  "az": "İnci və qiymətli daşlar; ümumən çox qiymətli şeylər (çox vaxt məcazi mənada).",
+  "en": "pearls and gems, jewels",
+  "pos": "noun"
+ },
+ "düzüb-qoşmaq": {
+  "az": "Söz, şeir və ya hekayə qurub yaratmaq; uydurmaq (yalan düzüb-qoşmaq).",
+  "en": "to compose (verses); to make up, to invent (stories, lies)",
+  "pos": "verb"
+ },
+ "düşmən-rəqib": {
+  "az": "Düşmən və rəqib; qarşı tərəfdə duran, mübarizə aparılan adamlar.",
+  "en": "enemies and rivals, adversaries",
+  "pos": "noun"
+ },
+ "dəcəl-xata": {
+  "skip": "meaning not certain"
+ },
+ "dədə-bala": {
+  "skip": "meaning not certain"
+ },
+ "dədəli-babalı": {
+  "skip": "meaning not certain"
+ },
+ "dəftər-kitab": {
+  "az": "Dəftər və kitablar; dərs ləvazimatı.",
+  "en": "books and notebooks; school things",
+  "pos": "noun"
+ },
+ "dəftər-kitablı": {
+  "az": "Dəftəri, kitabı olan; dərsə hazır.",
+  "en": "with books and notebooks",
+  "pos": "adjective"
+ },
+ "dəftər-kitabsız": {
+  "az": "Dəftəri, kitabı olmayan.",
+  "en": "without books and notebooks",
+  "pos": "adjective"
+ },
+ "dəftər-qələm": {
+  "az": "Dəftər və qələm; yazı ləvazimatı.",
+  "en": "pen and paper, writing materials",
+  "pos": "noun"
+ },
+ "dəftər-qələmli": {
+  "az": "Dəftəri və qələmi olan, yazmağa hazır.",
+  "en": "with pen and paper",
+  "pos": "adjective"
+ },
+ "dəftər-qələmsiz": {
+  "az": "Dəftəri, qələmi olmayan.",
+  "en": "without pen and paper",
+  "pos": "adjective"
+ },
+ "dəhliz-onurğa": {
+  "skip": "meaning not certain"
+ },
+ "dəhrə-bıçaq": {
+  "az": "Dəhrə, bıçaq və bu kimi kəsici alətlər.",
+  "en": "billhooks and knives; cutting tools",
+  "pos": "noun"
+ },
+ "dəlil-dəlalət": {
+  "skip": "meaning not certain"
+ },
+ "dəlil-sübutlu": {
+  "az": "Dəlil və sübutlarla əsaslandırılmış.",
+  "en": "backed by evidence, substantiated",
+  "pos": "adjective"
+ },
+ "dəlil-sübutsuz": {
+  "az": "Heç bir dəlil və sübutu olmayan; əsassız.",
+  "en": "unfounded, without proof",
+  "pos": "adjective"
+ },
+ "dəlilli-sübutlu": {
+  "az": "Dəlillərlə, sübutlarla əsaslandırılmış.",
+  "en": "well-grounded, substantiated",
+  "pos": "adjective"
+ },
+ "dəmir-arsenit": {
+  "az": "Arsenli turşunun dəmir duzu.",
+  "en": "iron arsenite",
+  "pos": "noun"
+ },
+ "dəmir-nikelli": {
+  "az": "Dəmir və nikeldən ibarət olan (dəmir-nikelli ərinti, dəmir-nikelli akkumulyator).",
+  "en": "iron-nickel",
+  "pos": "adjective"
+ },
+ "dəmirçi-presçi": {
+  "az": "Metalı pres vasitəsilə isti halda emal edən dəmirçi fəhlə.",
+  "en": "forging press operator, press smith",
+  "pos": "noun"
+ },
+ "dəmirçi-ştamplayıcı": {
+  "az": "Metal məmulatı döymə və ştamplama yolu ilə hazırlayan fəhlə.",
+  "en": "drop forger, forger-stamper",
+  "pos": "noun"
+ },
+ "dən-paxla": {
+  "az": "Dənli və paxlalı bitkilər, onların məhsulu.",
+  "en": "grain and legume crops",
+  "pos": "noun"
+ },
+ "dən-taxıl": {
+  "az": "Taxıl, dən; dənli bitkilərin məhsulu.",
+  "en": "grain, cereals",
+  "pos": "noun"
+ },
+ "dəniz-dərya": {
+  "az": "Dənizlər, ümumən böyük su hövzələri.",
+  "en": "the seas, seas and oceans",
+  "pos": "noun"
+ },
+ "dənəvər-hüceyrəli": {
+  "az": "Dənəvər quruluşlu hüceyrələrdən ibarət olan (dənəvər-hüceyrəli şiş).",
+  "en": "granular-cell",
+  "pos": "adjective"
+ },
+ "dərd-həsrət": {
+  "az": "Kədər və həsrət; ayrılıq və ya itki dərdi.",
+  "en": "grief and longing",
+  "pos": "noun"
+ },
+ "dərd-möhnət": {
+  "az": "Dərd, qəm, əziyyət; çəkilən müsibətlər.",
+  "en": "grief and suffering, sorrows",
+  "pos": "noun"
+ },
+ "dərd-qubar": {
+  "az": "Ürəkdə yığılıb qalan dərd, qəm-qüssə.",
+  "en": "grief, sorrow",
+  "pos": "noun"
+ },
+ "dəri-qalantereya": {
+  "az": "Dəridən hazırlanan xırda geyim ləvazimatı və aksessuarlar (çanta, kəmər, pulqabı və s.).",
+  "en": "leather goods, leather haberdashery",
+  "pos": "noun"
+ },
+ "dəri-xırdavat": {
+  "az": "Dəridən hazırlanmış xırda mallar (kəmər, pulqabı, əlcək və s.).",
+  "en": "small leather goods",
+  "pos": "noun"
+ },
+ "dərindən-dərin": {
+  "az": "Çox dərindən, lap dərindən (dərindən-dərin ah çəkmək).",
+  "en": "very deeply",
+  "pos": "adverb"
+ },
+ "dərmanlı-davalı": {
+  "skip": "meaning not certain"
+ },
+ "dərə-qobu": {
+  "az": "Dərələr, yarğanlar; çökəkli, kələ-kötür yer.",
+  "en": "gullies and ravines, rough terrain",
+  "pos": "noun"
+ },
+ "dərə-yarğan": {
+  "az": "Dərələr və yarğanlar; sıldırımlı, çuxurlu yer.",
+  "en": "ravines and gullies",
+  "pos": "noun"
+ },
+ "dəyirman-kombinat": {
+  "az": "Dən üyüdən bir neçə istehsalatı birləşdirən iri un-yarma müəssisəsi.",
+  "en": "milling combine, flour-milling plant",
+  "pos": "noun"
+ },
+ "dəyər-dəyməz": {
+  "skip": "meaning not certain"
+ },
+ "ekspert-psixoloq": {
+  "az": "Psixoloji ekspertiza aparan psixoloq.",
+  "en": "expert psychologist, forensic psychologist",
+  "pos": "noun"
+ },
+ "ekspres-analiz": {
+  "az": "Nəticəni qısa müddətdə verən sürətli analiz.",
+  "en": "express analysis, rapid analysis",
+  "pos": "noun"
+ },
+ "ekspres-metod": {
+  "az": "Nəticəni tez əldə etməyə imkan verən sürətli üsul.",
+  "en": "express method, rapid method",
+  "pos": "noun"
+ },
+ "ekspres-təhlil": {
+  "az": "Qısa vaxtda aparılan sürətli təhlil.",
+  "en": "rapid analysis",
+  "pos": "noun"
+ },
+ "ekspres-üsul": {
+  "az": "Nəticəni tez əldə etməyə imkan verən sürətli üsul.",
+  "en": "rapid method, express method",
+  "pos": "noun"
+ },
+ "elektrik-hava": {
+  "skip": "meaning not certain"
+ },
+ "elektron-volt": {
+  "az": "Zərrəciklərin enerji vahidi: elektronun 1 volt potensiallar fərqindən keçərkən qazandığı enerji.",
+  "en": "electronvolt (eV)",
+  "pos": "noun"
+ },
+ "elmi-dialektik": {
+  "az": "Elmi və dialektik metoda əsaslanan.",
+  "en": "scientific-dialectical",
+  "pos": "adjective"
+ },
+ "elmi-eksperimental": {
+  "az": "Elmi təcrübə və sınaqlarla bağlı olan (elmi-eksperimental baza).",
+  "en": "scientific and experimental",
+  "pos": "adjective"
+ },
+ "elmi-estetik": {
+  "az": "Həm elmi, həm də estetik xarakter daşıyan.",
+  "en": "scientific and aesthetic",
+  "pos": "adjective"
+ },
+ "elmi-hərbi": {
+  "az": "Hərb sahəsində elmi tədqiqatla bağlı olan.",
+  "en": "military-scientific",
+  "pos": "adjective"
+ },
+ "endirmə-qaldırma": {
+  "az": "Yükləri endirmə və qaldırma (endirmə-qaldırma qurğusu).",
+  "en": "lowering and lifting, hoisting",
+  "pos": "noun"
+ },
+ "epik-publisistik": {
+  "az": "Həm epik, həm də publisistik xüsusiyyətlər daşıyan.",
+  "en": "epic and publicistic (journalistic)",
+  "pos": "adjective"
+ },
+ "epizod-kadr": {
+  "skip": "meaning not certain"
+ },
+ "epizod-səhnə": {
+  "skip": "meaning not certain"
+ },
+ "estakada-körpü": {
+  "az": "Dayaqlar üzərində uzanan estakada tipli körpü.",
+  "en": "trestle bridge",
+  "pos": "noun"
+ },
+ "estakada-platforma": {
+  "az": "Dayaqlar üzərində qurulmuş yüksək meydança (məs.: dəniz neft mədənlərində).",
+  "en": "trestle platform, elevated platform",
+  "pos": "noun"
+ },
+ "estrada-sirk": {
+  "az": "Estrada və sirk sənəti (estrada-sirk tamaşası).",
+  "en": "variety and circus (arts)",
+  "pos": "noun"
+ },
+ "etik-estetik": {
+  "az": "Həm əxlaqi, həm də estetik dəyərlərə aid olan.",
+  "en": "ethical and aesthetic",
+  "pos": "adjective"
+ },
+ "eşidib-anlamaq": {
+  "az": "Eşidərək başa düşmək, qavramaq.",
+  "en": "to hear and understand",
+  "pos": "verb"
+ },
+ "eşidib-dinləmək": {
+  "az": "Diqqətlə qulaq asmaq.",
+  "en": "to listen attentively, to heed",
+  "pos": "verb"
+ },
+ "faks-server": {
+  "az": "Şəbəkədə faks məktublarını qəbul edib göndərən server.",
+  "en": "fax server",
+  "pos": "noun"
+ },
+ "fasiləli-axınlı": {
+  "skip": "meaning not certain"
+ },
+ "fasiləsiz-konveyer": {
+  "az": "Dayanmadan hərəkət edən konveyer; fasiləsiz axın üsulu ilə istehsal.",
+  "en": "continuous conveyor",
+  "pos": "noun"
+ },
+ "feodal-burjua": {
+  "az": "Feodal və burjua ünsürlərinin birləşdiyi (feodal-burjua quruluşu).",
+  "en": "feudal-bourgeois",
+  "pos": "adjective"
+ },
+ "feodal-klerikal": {
+  "az": "Feodalların və ruhanilərin maraqlarını ifadə edən.",
+  "en": "feudal-clerical",
+  "pos": "adjective"
+ },
+ "feodal-qəbilə": {
+  "az": "Feodal münasibətləri ilə qəbilə quruluşunun qalıqlarının birgə olduğu (feodal-qəbilə münasibətləri).",
+  "en": "feudal-tribal",
+  "pos": "adjective"
+ },
+ "feodal-təhkimçi": {
+  "az": "Kəndlilərin təhkimçiliyinə əsaslanan feodal quruluşuna aid (feodal-təhkimçi quruluş).",
+  "en": "feudal and serf-owning, feudal-serf",
+  "pos": "adjective"
+ },
+ "ferma-çərçivə": {
+  "skip": "meaning not certain"
+ },
+ "fikir-xəyalat": {
+  "az": "Fikir və xəyal; düşüncəyə dalma.",
+  "en": "thoughts and daydreams, reverie",
+  "pos": "noun"
+ },
+ "film-novella": {
+  "az": "Yığcam süjetli qısa bədii film (çox vaxt bir neçə novelladan ibarət filmin hissəsi).",
+  "en": "short film, film novella",
+  "pos": "noun"
+ },
+ "filosof-ilahiyyatçı": {
+  "az": "Həm fəlsəfə, həm də ilahiyyatla məşğul olan alim.",
+  "en": "philosopher and theologian",
+  "pos": "noun"
+ },
+ "filosof-tənqidçi": {
+  "az": "Həm fəlsəfə, həm də tənqidlə məşğul olan şəxs.",
+  "en": "philosopher and critic",
+  "pos": "noun"
+ },
+ "filtr-paket": {
+  "skip": "meaning not certain"
+ },
+ "filtr-pres": {
+  "az": "Mayeni təzyiq altında süzgəcdən keçirərək bərk hissəciklərdən ayıran qurğu.",
+  "en": "filter press",
+  "pos": "noun"
+ },
+ "fincan-nəlbəki": {
+  "az": "Fincan və nəlbəki; çay-qəhvə qabları.",
+  "en": "cups and saucers",
+  "pos": "noun"
+ },
+ "fitnes-klub": {
+  "az": "İdman məşqləri və sağlamlıq xidmətləri göstərən klub.",
+  "en": "fitness club, gym",
+  "pos": "noun"
+ },
+ "fitnə-feil": {
+  "az": "Fitnə, hiylə, kələk; ara qarışdırma.",
+  "en": "intrigue, scheming, mischief",
+  "pos": "noun",
+  "parts": false
+ },
+ "fitrə-sədəqə": {
+  "az": "Fitrə və sədəqə; ehtiyacı olanlara verilən dini yardım.",
+  "en": "fitra and alms, charity",
+  "pos": "noun"
+ },
+ "fiziki-mənəvi": {
+  "az": "Həm fiziki, həm də mənəvi (fiziki-mənəvi sağlamlıq).",
+  "en": "physical and spiritual (mental)",
+  "pos": "adjective"
+ },
+ "fləş-aksiya": {
+  "skip": "meaning not certain"
+ },
+ "fləş-xəbər": {
+  "az": "Qısa, təcili xəbər; son dəqiqə xəbəri.",
+  "en": "news flash, breaking news",
+  "pos": "noun",
+  "parts": false
+ },
+ "fləş-yığıcı": {
+  "az": "Fləş yaddaş əsasında məlumat saxlayan portativ qurğu; fləşka.",
+  "en": "flash drive, flash storage device",
+  "pos": "noun"
+ },
+ "folqa-karton": {
+  "az": "Üzü nazik metal folqa ilə örtülmüş karton.",
+  "en": "foil-laminated cardboard, foil board",
+  "pos": "noun"
+ },
+ "fonon-elektron": {
+  "az": "Fononlarla elektronların qarşılıqlı təsirinə aid olan (fonon-elektron qarşılıqlı təsiri).",
+  "en": "phonon-electron (e.g. phonon-electron interaction)",
+  "pos": "adjective"
+ },
+ "fortepiano-orqan": {
+  "skip": "meaning not certain"
+ },
+ "franko-gəmi": {
+  "skip": "trade term, exact meaning not certain"
+ },
+ "fraxt-reliz": {
+  "az": "Fraxt haqqının ödənildiyini təsdiq edən və yükün alıcıya verilməsinə icazə verən sənəd.",
+  "en": "freight release",
+  "pos": "noun"
+ },
+ "freska-rəsm": {
+  "az": "Yaş suvaq üzərində freska üsulu ilə çəkilmiş divar rəsmi.",
+  "en": "fresco painting",
+  "pos": "noun"
+ },
+ "ftor-xlorid": {
+  "skip": "chemical compound, exact meaning not certain"
+ },
+ "funksional-qrammatik": {
+  "az": "Qrammatik hadisələri dildəki funksiyası baxımından öyrənən (funksional-qrammatik təhlil).",
+  "en": "functional-grammatical",
+  "pos": "adjective"
+ },
+ "fəlakət-faciə": {
+  "az": "Böyük bədbəxtlik, fəlakət və faciələr.",
+  "en": "disaster and tragedy, calamity",
+  "pos": "noun"
+ },
+ "fəlsəfi-alleqorik": {
+  "az": "Fəlsəfi məzmunu alleqoriya vasitəsilə ifadə edən.",
+  "en": "philosophical-allegorical",
+  "pos": "adjective"
+ },
+ "fəlsəfi-humanist": {
+  "az": "Fəlsəfi və humanist məzmun daşıyan (fəlsəfi-humanist ideyalar).",
+  "en": "philosophical and humanist",
+  "pos": "adjective"
+ },
+ "fəlsəfi-irfani": {
+  "az": "Fəlsəfi və irfani (sufi-mistik) məzmun daşıyan.",
+  "en": "philosophical and mystical (gnostic, Sufi)",
+  "pos": "adjective"
+ },
+ "fəlsəfi-lirik şeir": {
+  "az": "Fəlsəfi düşüncələrin lirik şəkildə ifadə olunduğu şeir.",
+  "en": "philosophical lyric poem",
+  "pos": "noun"
+ },
+ "fəlsəfi-poetik": {
+  "az": "Fəlsəfi fikirləri poetik şəkildə ifadə edən.",
+  "en": "philosophical-poetic",
+  "pos": "adjective"
+ },
+ "fənd-feil": {
+  "az": "Hiylə, kələk, fırıldaq.",
+  "en": "tricks, wiles, cunning",
+  "pos": "noun",
+  "parts": false
+ },
+ "fəqir-füqəra": {
+  "az": "Kasıblar, yoxsullar; köməksiz, aciz insanlar.",
+  "en": "the poor, paupers",
+  "pos": "noun"
+ },
+ "fərdi-psixoloji": {
+  "az": "İnsanın fərdi psixoloji xüsusiyyətlərinə aid olan (fərdi-psixoloji xüsusiyyətlər).",
+  "en": "individual-psychological",
+  "pos": "adjective"
+ },
+ "gedişli-gəlişli": {
+  "skip": "meaning not certain"
+ },
+ "gel-kollektor": {
+  "skip": "meaning not certain"
+ },
+ "gel-köpük": {
+  "skip": "meaning not certain"
+ },
+ "gen-dar": {
+  "skip": "meaning not certain"
+ },
+ "general-bas": {
+  "az": "Barokko musiqisində bas səsinin üstündə rəqəmlərlə akkordların göstərildiyi müşayiət üsulu; basso kontinuo.",
+  "en": "thoroughbass, figured bass, basso continuo",
+  "pos": "noun",
+  "parts": false
+ },
+ "general-komissar": {
+  "skip": "meaning not certain"
+ },
+ "general-prokuror": {
+  "az": "Ölkənin prokurorluq orqanlarına rəhbərlik edən ali vəzifəli şəxs; baş prokuror.",
+  "en": "prosecutor general, attorney general",
+  "pos": "noun"
+ },
+ "genetik-molekulyar": {
+  "az": "İrsiyyəti molekul səviyyəsində öyrənən, genetika ilə molekulyar biologiyaya aid olan.",
+  "en": "molecular-genetic",
+  "pos": "adjective"
+ },
+ "genetik-seleksiyaçı": {
+  "az": "Seleksiya ilə məşğul olan genetik alim.",
+  "en": "geneticist and breeder",
+  "pos": "noun"
+ },
+ "geoloq-paleontoloq": {
+  "az": "Həm geologiya, həm də paleontologiya ilə məşğul olan alim.",
+  "en": "geologist and palaeontologist",
+  "pos": "noun"
+ },
+ "geoloq-topoqraf": {
+  "az": "Həm geoloji, həm də topoqrafik işlər aparan mütəxəssis.",
+  "en": "geologist and topographer",
+  "pos": "noun"
+ },
+ "gey-parad": {
+  "az": "Geylərin və digər LGBT insanların hüquqlarını müdafiə etmək üçün keçirilən yürüş.",
+  "en": "gay pride parade",
+  "pos": "noun"
+ },
+ "gicgah-alın": {
+  "az": "Gicgah və alın nahiyəsinə aid olan.",
+  "en": "frontotemporal",
+  "pos": "adjective"
+ },
+ "gicgah-qulaq": {
+  "az": "Gicgah və qulaq nahiyəsinə aid olan (gicgah-qulaq siniri).",
+  "en": "auriculotemporal",
+  "pos": "adjective"
+ },
+ "gicgah-yanaq": {
+  "az": "Gicgah və yanaq nahiyəsinə aid olan.",
+  "en": "temporozygomatic (relating to the temple and cheek)",
+  "pos": "adjective"
+ },
+ "gicik-qaşınma": {
+  "az": "Dəridə gicişmə, qaşınma; qıcıqlanma.",
+  "en": "itching, irritation",
+  "pos": "noun",
+  "parts": false
+ },
+ "gil-qum": {
+  "az": "Gil və qum qarışığı (gil-qum süxurları).",
+  "en": "clay and sand",
+  "pos": "noun"
+ }
+}

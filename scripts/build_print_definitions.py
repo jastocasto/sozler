@@ -462,12 +462,14 @@ class Builder:
                             [spelling_source(page)], 'authored')
 
     # Meanings for formation-only rule definitions -------------------------------------------
-    def meanings(self):
+    def meanings(self, early=False):
         """A rule definition such as «istək» və «arzulu» sözlərindən düzələn qoşa söz says how a word is built, not what
         it means. An AI-written meaning (meanings/*.json) replaces it; the formation is kept as a note, and the links to
         the parts stay. A word the rules split wrongly ("parts": false) was never split, so it gets the meaning alone."""
+        # A word that is never split gets its meaning before the rules run, so derivatives can still build on it
+        # (toparlanma from toparlanmaq); the others replace their rule definition afterwards.
         for word, entry in self.meaning_entries.items():
-            if 'skip' in entry or word not in self.nodes:
+            if 'skip' in entry or word not in self.nodes or (early and (word not in self.unsplit or not self.undefined(word))):
                 continue
             az, en, pos = entry.get('az', '').strip(), entry.get('en', '').strip(), entry.get('pos')
             page = self.nodes[word].get('page')
@@ -1474,6 +1476,7 @@ def main():
     before_isolated = sum(1 for n in model['nodes'] if not n['degree'])
     builder.paraphrases()
     builder.authored()
+    builder.meanings(early=True)
     for _ in range(6):
         size = len(builder.definitions) + len(builder.edges)
         builder.print_notes()

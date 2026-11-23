@@ -1,0 +1,957 @@
+{
+ "kafe-çayxana": {
+  "az": "Kafe, çayxana və bu kimi yeyib-içmə, istirahət yerləri.",
+  "en": "cafes and teahouses; eateries",
+  "pos": "noun"
+ },
+ "kamvol-mahud": {
+  "az": "Kamvol və mahud kimi yun parçalar; onların istehsalı (kamvol-mahud kombinatı).",
+  "en": "worsted and broadcloth (woollen fabrics and their production)",
+  "pos": "noun"
+ },
+ "kapilyar-kimyəvi": {
+  "az": "Həm kapilyar hadisələrə, həm də kimyəvi proseslərə aid olan.",
+  "en": "capillary-chemical",
+  "pos": "adjective"
+ },
+ "kapilyar-xovlu": {
+  "skip": "meaning not certain"
+ },
+ "kapital-funksiya": {
+  "az": "Siyasi iqtisadda istehsalda bilavasitə işləyən kapital (kapital-mülkiyyətdən fərqli olaraq).",
+  "en": "functioning capital (as opposed to capital as property)",
+  "pos": "noun"
+ },
+ "kapsul-bəbək": {
+  "skip": "term not certain (pupa type?)"
+ },
+ "karkas-panel": {
+  "az": "Karkas və hazır panellərdən ibarət tikinti konstruksiyası.",
+  "en": "frame-and-panel (construction)",
+  "pos": "noun"
+ },
+ "karkas-panelli": {
+  "az": "Dəmir-beton karkas və hazır panellərdən tikilən (karkas-panelli bina).",
+  "en": "frame-and-panel (of buildings)",
+  "pos": "adjective"
+ },
+ "karluq-uyğur": {
+  "az": "Qarluq və uyğur türklərinə, onların dillərinə aid olan (karluq-uyğur dil yarımqrupu: uyğur, özbək dilləri).",
+  "en": "Karluk-Uyghur (subgroup of Turkic languages)",
+  "pos": "adjective"
+ },
+ "karlıq-lallıq": {
+  "az": "Eşitmə və danışma qabiliyyətinin birlikdə olmaması; lal-karlıq.",
+  "en": "deaf-muteness",
+  "pos": "noun"
+ },
+ "karqo-plan": {
+  "az": "Gəmidə yükün harada və necə yerləşdirildiyini göstərən sxem.",
+  "en": "cargo plan, stowage plan",
+  "pos": "noun"
+ },
+ "karqo-sığorta": {
+  "az": "Gəmi, qatar və s. ilə daşınan yükün sığortası.",
+  "en": "cargo insurance",
+  "pos": "noun"
+ },
+ "kartof-soğan": {
+  "az": "Kartof, soğan və bu kimi gündəlik ərzaq; tərəvəz.",
+  "en": "potatoes and onions; basic vegetables",
+  "pos": "noun"
+ },
+ "karton-ruberoid": {
+  "az": "Karton və ruberoid; bu materialların istehsalı (karton-ruberoid zavodu).",
+  "en": "cardboard and roofing felt (production)",
+  "pos": "noun"
+ },
+ "karıxdırıb-çaşdırmaq": {
+  "az": "Birini tamamilə çaşdırıb nə edəcəyini bilməz hala salmaq.",
+  "en": "to confuse utterly, to bewilder",
+  "pos": "verb"
+ },
+ "karıxıb-çaşmaq": {
+  "az": "Tamamilə çaşıb qalmaq, nə edəcəyini bilməmək.",
+  "en": "to become utterly confused, to be at a loss",
+  "pos": "verb"
+ },
+ "katalitik-krekinq": {
+  "az": "Neft məhsullarının katalizator iştirakı ilə parçalanıb yüngül yanacağa çevrilməsi üsulu.",
+  "en": "catalytic cracking",
+  "pos": "noun"
+ },
+ "kataloq-albom": {
+  "az": "Şəkilləri və izahları albom şəklində verilən kataloq (sərginin kataloq-albomu).",
+  "en": "illustrated catalogue (in album form)",
+  "pos": "noun"
+ },
+ "kağız-bakelit": {
+  "az": "Bakelit qatranı hopdurulmuş kağız qatlarından hazırlanan izolyasiya materialı (kağız-bakelit borular).",
+  "en": "paper-bakelite (laminate)",
+  "pos": "noun"
+ },
+ "kef-işrət": {
+  "az": "Yeyib-içmə və əyləncə ilə keçən şən həyat; eyş-işrət.",
+  "en": "revelry, carousing, merrymaking",
+  "pos": "noun"
+ },
+ "keramzit-beton": {
+  "az": "Doldurucusu keramzit olan yüngül beton.",
+  "en": "expanded-clay concrete",
+  "pos": "noun"
+ },
+ "key-maymaq": {
+  "az": "Fərasətsiz, qanmaz və bacarıqsız; key.",
+  "en": "dull, slow-witted, clumsy",
+  "pos": "adjective"
+ },
+ "keçi-çəpiş": {
+  "az": "Keçilər və çəpişlər; keçi sürüsü, xırda mal.",
+  "en": "goats and kids",
+  "pos": "noun"
+ },
+ "keçib-getmək": {
+  "az": "Yanından keçib uzaqlaşmaq; (vaxt haqqında) ötüb keçmək.",
+  "en": "to pass by, to go past; (of time) to pass",
+  "pos": "verb"
+ },
+ "keçib-ötmək": {
+  "az": "Yanından keçib irəli getmək; (vaxt, dövr haqqında) keçib sona çatmaq.",
+  "en": "to pass by; (of time) to go by, to elapse",
+  "pos": "verb"
+ },
+ "keçici-sabit vurğu": {
+  "skip": "linguistic term, meaning not certain"
+ },
+ "keçili-çəpişli": {
+  "az": "Keçisi, çəpişi olan; xırda malı olan.",
+  "en": "with goats and kids",
+  "pos": "adjective"
+ },
+ "keş-blok": {
+  "az": "Keş yaddaşda bir dəfəyə ötürülüb saxlanan məlumat bloku.",
+  "en": "cache block, cache line",
+  "pos": "noun"
+ },
+ "keşniş-nanə": {
+  "az": "Keşniş, nanə və bu kimi ətirli göyərtilər.",
+  "en": "coriander and mint; fresh herbs",
+  "pos": "noun"
+ },
+ "keşniş-şüyüd": {
+  "az": "Keşniş, şüyüd və bu kimi ətirli göyərtilər.",
+  "en": "coriander and dill; fresh herbs",
+  "pos": "noun"
+ },
+ "kilidli-qıfıllı": {
+  "az": "Kilidlənib bağlanmış, qıfıl vurulmuş; möhkəm bağlı.",
+  "en": "locked up, under lock and key",
+  "pos": "adjective"
+ },
+ "kilim-gəbə": {
+  "az": "Kilim, gəbə və bu kimi xalça məmulatı; döşənəcək.",
+  "en": "rugs and carpets",
+  "pos": "noun"
+ },
+ "kiloelektron-volt": {
+  "az": "Min elektron-volta bərabər enerji vahidi.",
+  "en": "kiloelectronvolt (keV)",
+  "pos": "noun",
+  "parts": false
+ },
+ "kilometr-saat": {
+  "skip": "unit meaning not certain"
+ },
+ "kiloqram-atom": {
+  "az": "Kütləsi kiloqramla ifadə olunan atom kütləsinə bərabər olan kimyəvi element miqdarı.",
+  "en": "kilogram-atom",
+  "pos": "noun"
+ },
+ "kiloqram-kütlə": {
+  "az": "Kütlə vahidi kimi kiloqram (kiloqram-qüvvədən fərqli olaraq).",
+  "en": "kilogram-mass (kg as a unit of mass)",
+  "pos": "noun"
+ },
+ "kiloqram-molekul": {
+  "az": "Kütləsi kiloqramla ifadə olunan molekul kütləsinə bərabər olan maddə miqdarı; kilomol.",
+  "en": "kilogram-molecule, kilomole",
+  "pos": "noun"
+ },
+ "kiloqram-qüvvə": {
+  "az": "Bir kiloqramlıq kütləyə yerin cazibəsinin verdiyi ağırlığa bərabər qüvvə vahidi (təqr. 9,81 N).",
+  "en": "kilogram-force (kgf)",
+  "pos": "noun"
+ },
+ "kiloqram-saat": {
+  "skip": "unit meaning not certain"
+ },
+ "kilovat-amper": {
+  "skip": "unit not certain (possibly for kilovolt-ampere)"
+ },
+ "kilovat-amper-saat": {
+  "skip": "unit not certain (possibly for kilovolt-ampere-hour)"
+ },
+ "kilovolt-amper": {
+  "az": "Elektrik dövrələrində tam gücün min volt-amperə bərabər ölçü vahidi.",
+  "en": "kilovolt-ampere (kVA)",
+  "pos": "noun"
+ },
+ "kimyəvi-fiziki": {
+  "az": "Həm kimyəvi, həm də fiziki xassələrə və proseslərə aid olan.",
+  "en": "chemical and physical; physicochemical",
+  "pos": "adjective"
+ },
+ "kin-qəzəb": {
+  "az": "Ürəkdə yığılıb qalmış kin və hiddət.",
+  "en": "rancour and anger, fury",
+  "pos": "noun"
+ },
+ "kin-ədavət": {
+  "az": "Kin və düşmənçilik; birinə qarşı bəslənən nifrət.",
+  "en": "rancour and enmity; bad blood",
+  "pos": "noun"
+ },
+ "kinli-küdurətli": {
+  "az": "Ürəyində kin və inciklik saxlayan.",
+  "en": "rancorous, resentful",
+  "pos": "adjective"
+ },
+ "kinli-ədavətli": {
+  "az": "Kin və düşmənçilik bəsləyən; düşmən münasibətli.",
+  "en": "rancorous, hostile",
+  "pos": "adjective"
+ },
+ "kinsiz-ədavətsiz": {
+  "az": "Heç kimə kin və düşmənçilik bəsləməyən; xoşniyyətli.",
+  "en": "free of malice or enmity, good-hearted",
+  "pos": "adjective"
+ },
+ "kip-möhkəm": {
+  "az": "Sıx və bərk, aralıq qoymadan möhkəm (kip-möhkəm bağlamaq).",
+  "en": "tight and firm; tightly, firmly",
+  "pos": "adjective"
+ },
+ "kir-çirk": {
+  "az": "Kir, çirk və hər cür murdarlıq.",
+  "en": "dirt, filth, grime",
+  "pos": "noun"
+ },
+ "kir-çirkli": {
+  "az": "Kir-çirk basmış, çox çirkli.",
+  "en": "grimy, filthy",
+  "pos": "adjective"
+ },
+ "kir-çirksiz": {
+  "az": "Heç bir kiri, çirki olmayan; tərtəmiz.",
+  "en": "spotless, perfectly clean",
+  "pos": "adjective"
+ },
+ "kirli-paslı": {
+  "az": "Kir basmış və pas atmış; çirkli, baxımsız.",
+  "en": "dirty and rusty, grimy",
+  "pos": "adjective"
+ },
+ "kirli-çirkli": {
+  "az": "Çox çirkli, kir basmış.",
+  "en": "filthy, grimy",
+  "pos": "adjective"
+ },
+ "kirsiz-passız": {
+  "az": "Kirsiz və pas atmamış; məc. saf, ləkəsiz.",
+  "en": "clean and rust-free; (fig.) pure, unsullied",
+  "pos": "adjective"
+ },
+ "kirsiz-çirksiz": {
+  "az": "Heç bir kiri-çirki olmayan; tərtəmiz.",
+  "en": "spotless, perfectly clean",
+  "pos": "adjective"
+ },
+ "kitablı-kitabsız": {
+  "az": "Kitabı olan da, olmayan da; kitablı və ya kitabsız, fərq qoymadan.",
+  "en": "with or without books",
+  "pos": "adjective"
+ },
+ "kitabxanaçılıq-biblioqrafiya": {
+  "az": "Kitabxana işini və biblioqrafiyanı birlikdə əhatə edən elm və təhsil sahəsi.",
+  "en": "library science and bibliography",
+  "pos": "noun"
+ },
+ "kişili-kişisiz": {
+  "az": "Kişisi olan da, olmayan da (ailə, ev haqqında); fərq qoymadan hamısı.",
+  "en": "with or without a man (of households)",
+  "pos": "adjective"
+ },
+ "kişili-qadınlı": {
+  "az": "Kişilərdən və qadınlardan ibarət olan; qarışıq (dəstə, məclis haqqında).",
+  "en": "men and women together; mixed (group)",
+  "pos": "adjective"
+ },
+ "kişisiz-arvadsız": {
+  "skip": "meaning not certain"
+ },
+ "kişmişli-şabalıdlı": {
+  "az": "İçinə kişmiş və şabalıd qatılmış (kişmişli-şabalıdlı plov).",
+  "en": "with raisins and chestnuts (of a dish)",
+  "pos": "adjective"
+ },
+ "klarnet-zurna": {
+  "az": "Klarnet, zurna və bu kimi nəfəsli musiqi alətləri.",
+  "en": "clarinet and zurna; wind instruments",
+  "pos": "noun"
+ },
+ "klerikal-monarxist": {
+  "az": "Ruhanilərin siyasi təsirini və monarxiya quruluşunu birlikdə müdafiə edən şəxs və ya cərəyan.",
+  "en": "clerical-monarchist",
+  "pos": "noun"
+ },
+ "klub-kitabxana": {
+  "az": "Klub və kitabxananın birlikdə yerləşdiyi mədəniyyət müəssisəsi (kənd klub-kitabxanası).",
+  "en": "club-library (combined cultural centre)",
+  "pos": "noun"
+ },
+ "klub-komanda": {
+  "az": "İdman klubları və komandalar; klubu təmsil edən komanda.",
+  "en": "clubs and teams; club team",
+  "pos": "noun"
+ },
+ "klub-çayxana": {
+  "az": "Həm klub, həm də çayxana kimi istifadə olunan ictimai istirahət yeri.",
+  "en": "club-teahouse (social venue)",
+  "pos": "noun"
+ },
+ "kolbasa-çörək": {
+  "az": "Kolbasa və çörək; tələsik yeyilən sadə yemək, qəlyanaltı.",
+  "en": "sausage and bread; a quick snack",
+  "pos": "noun"
+ },
+ "kolloid-maye": {
+  "az": "Hissəcikləri xırda dağılmış halda olan maye; kolloid məhlul.",
+  "en": "colloidal fluid",
+  "pos": "noun"
+ },
+ "kolxoz-kooperativ": {
+  "az": "Sovet iqtisadiyyatında kolxozlara və kooperativlərə məxsus olan (kolxoz-kooperativ mülkiyyəti).",
+  "en": "kolkhoz-cooperative (form of Soviet property)",
+  "pos": "adjective"
+ },
+ "komediya-balet": {
+  "az": "Dram səhnələrini balet nömrələri ilə birləşdirən komik səhnə əsəri.",
+  "en": "comedy-ballet (comédie-ballet)",
+  "pos": "noun"
+ },
+ "kommunal-energetik": {
+  "az": "Kommunal xidmətlərə və enerji təchizatına aid olan (kommunal-energetik təsərrüfat).",
+  "en": "utilities and energy (sector)",
+  "pos": "adjective"
+ },
+ "kommunal-inşaat": {
+  "az": "Şəhər kommunal təsərrüfatına aid tikinti işləri; kommunal tikinti.",
+  "en": "municipal (utilities) construction",
+  "pos": "noun"
+ },
+ "kommunal-mühəndis": {
+  "az": "Su, kanalizasiya, istilik, qaz kimi kommunal və mühəndis şəbəkələrinə aid olan (kommunal-mühəndis infrastrukturu).",
+  "en": "utility and engineering (infrastructure)",
+  "pos": "adjective"
+ },
+ "kommunal-texnik": {
+  "skip": "meaning not certain"
+ },
+ "kompüter-dəstəkli": {
+  "az": "Kompüterin köməyi ilə həyata keçirilən (kompüter-dəstəkli layihələndirmə).",
+  "en": "computer-aided, computer-assisted",
+  "pos": "adjective"
+ },
+ "kompüter-internet": {
+  "az": "Kompüter və internet texnologiyaları birlikdə (kompüter-internet bilikləri).",
+  "en": "computers and the internet",
+  "pos": "noun"
+ },
+ "kompüterçi-operator": {
+  "az": "Kompüterdə məlumatların daxil edilməsi və emalı ilə məşğul olan işçi.",
+  "en": "computer operator",
+  "pos": "noun"
+ },
+ "konfrans-salon": {
+  "az": "Konfrans, iclas və yığıncaqlar keçirmək üçün nəzərdə tutulmuş zal.",
+  "en": "conference hall",
+  "pos": "noun"
+ },
+ "konsert-oçerk": {
+  "skip": "genre term, meaning not certain"
+ },
+ "konsert-rapsodiya": {
+  "az": "Solo alət və orkestr üçün rapsodiya kimi sərbəst formada yazılmış konsert.",
+  "en": "concerto-rhapsody",
+  "pos": "noun"
+ },
+ "kontent-hekayə": {
+  "skip": "meaning not certain"
+ },
+ "konteyner-dükan": {
+  "az": "Konteynerdən düzəldilmiş kiçik ticarət köşkü, dükan.",
+  "en": "container shop, container kiosk",
+  "pos": "noun"
+ },
+ "konto-avizo": {
+  "skip": "banking term, meaning not certain"
+ },
+ "konto-passiv": {
+  "skip": "accounting term, meaning not certain"
+ },
+ "kontrol-ölçü": {
+  "az": "Nəzarət və ölçmə üçün işlədilən (kontrol-ölçü cihazları).",
+  "en": "control and measuring (instruments); instrumentation",
+  "pos": "adjective"
+ },
+ "konturlu-yuvalı": {
+  "skip": "meaning not certain"
+ },
+ "konveyer-quruducu": {
+  "az": "Materialı konveyer lenti ilə hərəkət etdirərək qurudan qurğu.",
+  "en": "conveyor dryer",
+  "pos": "noun"
+ },
+ "konyak-şərab": {
+  "az": "Konyak və şərab; bu içkilərin istehsalı (konyak-şərab zavodu).",
+  "en": "brandy and wine (and their production)",
+  "pos": "noun"
+ },
+ "kor-kar-lal": {
+  "az": "Kor, kar və lal; məc. heç nə görməyən, eşitməyən, dinməyən.",
+  "en": "blind, deaf and dumb; (fig.) oblivious to everything",
+  "pos": "adjective"
+ },
+ "kor-peşmanlıq": {
+  "az": "Arzusuna çatmadan əliboş qalıb məyus olma; peşmançılıq.",
+  "en": "disappointment, frustration (at having failed)",
+  "pos": "noun"
+ },
+ "kor-şil": {
+  "az": "Kor və şikəst; əlil, sağlam olmayan.",
+  "en": "blind and lame; disabled, infirm",
+  "pos": "adjective"
+ },
+ "kor-şillik": {
+  "az": "Korluq və şikəstlik; əlillik.",
+  "en": "blindness and lameness; infirmity",
+  "pos": "noun"
+ },
+ "kosmonavt-həkim": {
+  "az": "Kosmik uçuşda həkim kimi iştirak edən kosmonavt.",
+  "en": "physician-cosmonaut",
+  "pos": "noun"
+ },
+ "kosmonavt-mühəndis": {
+  "az": "Kosmik gəmidə mühəndis vəzifəsini yerinə yetirən kosmonavt.",
+  "en": "engineer-cosmonaut, flight engineer",
+  "pos": "noun"
+ },
+ "kran-ekskavator": {
+  "az": "Həm ekskavator, həm də yükqaldıran kran kimi işləyə bilən maşın; kran və ekskavatorlar.",
+  "en": "crane-excavator; cranes and excavators",
+  "pos": "noun"
+ },
+ "kran-gəmi": {
+  "az": "Üzərində yükqaldıran kran quraşdırılmış gəmi; üzən kran.",
+  "en": "crane ship, floating crane",
+  "pos": "noun"
+ },
+ "kran-katamaran": {
+  "az": "İki gövdəli gəmi üzərində quraşdırılmış iri üzən kran.",
+  "en": "catamaran crane vessel",
+  "pos": "noun"
+ },
+ "krançı-ekskavatorçu": {
+  "az": "Həm kran, həm də ekskavator idarə edən işçi.",
+  "en": "crane and excavator operator",
+  "pos": "noun"
+ },
+ "kraxmallı-ütülü": {
+  "az": "Nişastalanıb ütülənmiş; səliqəli, təmiz (paltar haqqında).",
+  "en": "starched and ironed; crisp, neat",
+  "pos": "adjective"
+ },
+ "kredit-borc": {
+  "az": "Kredit və borc; borc öhdəlikləri.",
+  "en": "credit and debt; loans",
+  "pos": "noun"
+ },
+ "krem-balzam": {
+  "az": "Həm krem, həm də balzam xüsusiyyəti daşıyan kosmetik vasitə.",
+  "en": "cream-balm, balm cream",
+  "pos": "noun"
+ },
+ "krem-pendir": {
+  "az": "Yumşaq, qaymaqlı, çörəyə yaxılan pendir növü.",
+  "en": "cream cheese",
+  "pos": "noun"
+ },
+ "krem-soda": {
+  "az": "Vanil ətirli şirin qazlı içki.",
+  "en": "cream soda",
+  "pos": "noun"
+ },
+ "kremli-sodalı": {
+  "skip": "usage not certain"
+ },
+ "kremli-yağlı": {
+  "az": "Krem və yağla zəngin, ağır (tort, şirniyyat haqqında).",
+  "en": "creamy and rich (of cakes)",
+  "pos": "adjective"
+ },
+ "kremsiz-sodasız": {
+  "skip": "usage not certain"
+ },
+ "krep-fay": {
+  "skip": "fabric name, not certain"
+ },
+ "krep-maroken": {
+  "az": "Üzü dalğalı qırçınlı, ağır ipək və ya yun krep parça.",
+  "en": "crêpe marocain",
+  "pos": "noun",
+  "parts": false
+ },
+ "kreslo-araba": {
+  "az": "Yeriyə bilməyən xəstələr və əlillər üçün təkərli kreslo; əlil arabası.",
+  "en": "wheelchair",
+  "pos": "noun"
+ },
+ "kreslo-xərək": {
+  "az": "Xəstəni oturaq vəziyyətdə daşımaq üçün kreslo şəklində xərək.",
+  "en": "stretcher chair, carrying chair",
+  "pos": "noun"
+ },
+ "kripto-mübadilə": {
+  "az": "Kriptovalyutaların mübadiləsi; bu işin aparıldığı platforma, kriptobirja.",
+  "en": "crypto exchange",
+  "pos": "noun"
+ },
+ "kripto-məzənnə": {
+  "az": "Kriptovalyutanın başqa valyutaya nisbətən məzənnəsi.",
+  "en": "cryptocurrency exchange rate",
+  "pos": "noun"
+ },
+ "kros-faktor": {
+  "skip": "meaning not certain"
+ },
+ "kros-kompilyator": {
+  "az": "Bir platformada başqa platforma üçün icra olunan kod yaradan kompilyator.",
+  "en": "cross-compiler",
+  "pos": "noun",
+  "parts": false
+ },
+ "kros-məzənnə": {
+  "az": "İki valyutanın üçüncü valyutaya (adətən ABŞ dollarına) görə hesablanan qarşılıqlı məzənnəsi.",
+  "en": "cross rate",
+  "pos": "noun",
+  "parts": false
+ },
+ "kuklaçı-aktyor": {
+  "az": "Kukla teatrında kuklaları idarə edərək rol oynayan aktyor.",
+  "en": "puppeteer, puppet-theatre actor",
+  "pos": "noun"
+ },
+ "kulinar-aşpaz": {
+  "az": "Yemək hazırlamağın ustası olan peşəkar aşpaz.",
+  "en": "chef, culinary specialist",
+  "pos": "noun"
+ },
+ "kulon-kontur": {
+  "skip": "meaning not certain"
+ },
+ "kulon-volt": {
+  "az": "Bir kulon yükün bir volt potensiallar fərqindən keçərkən gördüyü işə bərabər enerji vahidi; coul.",
+  "en": "coulomb-volt (= joule)",
+  "pos": "noun",
+  "parts": false
+ },
+ "kulturoloji-innovativ": {
+  "az": "Mədəniyyətşünaslıq yanaşmasını yenilikçiliklə birləşdirən.",
+  "en": "culturological and innovative",
+  "pos": "adjective"
+ },
+ "kurqan-muzey": {
+  "az": "Qədim kurqanın yerində yaradılmış açıq səma altında muzey.",
+  "en": "burial-mound museum",
+  "pos": "noun"
+ },
+ "kvadrat-yuva üsulu": {
+  "az": "Bitkiləri sahədə kvadratların künclərində yuva-yuva əkmə üsulu.",
+  "en": "square-cluster planting method",
+  "pos": "noun"
+ },
+ "kvant-elektron": {
+  "az": "Kvant elektronikasına aid olan (kvant-elektron cihazları).",
+  "en": "quantum-electronic",
+  "pos": "adjective"
+ },
+ "kvartet-poema": {
+  "skip": "genre or title, meaning not certain"
+ },
+ "köhnə-yırtıq": {
+  "az": "Köhnəlib yırtılmış paltar; cır-cındır, əski-üskü.",
+  "en": "old torn clothes; rags, tatters",
+  "pos": "noun"
+ },
+ "kömür-metallurgiya": {
+  "az": "Kömür sənayesi ilə metallurgiyanı birləşdirən sənaye sahəsi (kömür-metallurgiya bazası).",
+  "en": "coal and metallurgical (industry)",
+  "pos": "noun"
+ },
+ "kömür-qrafit": {
+  "az": "Kömür və qrafit qarışığından hazırlanan material (kömür-qrafit elektrodlar, fırçalar).",
+  "en": "carbon-graphite (material)",
+  "pos": "noun"
+ },
+ "kömür-yanacaq": {
+  "az": "Kömür və digər yanacaq növləri; yanacaq sənayesi (kömür-yanacaq kompleksi).",
+  "en": "coal and fuel; fuel industry",
+  "pos": "noun"
+ },
+ "kömürlü-gilli": {
+  "az": "Tərkibində kömür maddəsi və gil olan (kömürlü-gilli şist).",
+  "en": "carbonaceous-clayey (of rocks)",
+  "pos": "adjective"
+ },
+ "köməkçi-podratçı": {
+  "az": "Əsas podratçının tapşırığı ilə işin bir hissəsini görən podratçı; subpodratçı.",
+  "en": "subcontractor",
+  "pos": "noun"
+ },
+ "köpüb-şişmək": {
+  "az": "Şişib həcmcə böyümək; qabarmaq (qarın, bədən haqqında).",
+  "en": "to swell up, to become bloated",
+  "pos": "verb"
+ },
+ "köpüklənib-daşmaq": {
+  "az": "Köpük verib qabın kənarından daşmaq; coşub daşmaq.",
+  "en": "to foam up and overflow; to seethe",
+  "pos": "verb"
+ },
+ "körpücük-dilaltı": {
+  "az": "Körpücük sümüyünə və dilaltı sümüyə aid olan (körpücük-dilaltı əzələsi).",
+  "en": "cleidohyoid",
+  "pos": "adjective"
+ },
+ "körpücük-döş": {
+  "az": "Körpücük sümüyünə və döş sümüyünə aid olan (körpücük-döş oynağı).",
+  "en": "sternoclavicular, cleidosternal",
+  "pos": "adjective"
+ },
+ "körpücük-məməyəbənzər": {
+  "az": "Körpücük sümüyünə və gicgah sümüyünün məməyəbənzər çıxıntısına aid olan.",
+  "en": "cleidomastoid",
+  "pos": "adjective"
+ },
+ "körük-zindan": {
+  "az": "Dəmirçinin körüyü və zindanı; dəmirçilik alətləri, dəmirçixana.",
+  "en": "bellows and anvil; the smithy",
+  "pos": "noun",
+  "parts": false
+ },
+ "kötək-dəyənək": {
+  "az": "Ağac və dəyənəklə döymə; zor, zorakılıq.",
+  "en": "beating, cudgelling; brute force",
+  "pos": "noun"
+ },
+ "kötək-dəyənəkli": {
+  "az": "Əlində ağac və dəyənək olan; zorakılıqla edilən.",
+  "en": "armed with sticks and clubs; violent, heavy-handed",
+  "pos": "adjective"
+ },
+ "közərib-alışmaq": {
+  "az": "Köz kimi qızarıb alov almaq; alışıb yanmaq.",
+  "en": "to glow red and catch fire; to flare up",
+  "pos": "verb"
+ },
+ "közərib-yanmaq": {
+  "az": "Köz kimi qızarıb yanmaq; alovsuz, yavaş-yavaş yanmaq.",
+  "en": "to glow, to smoulder",
+  "pos": "verb"
+ },
+ "köçlü-külfətli": {
+  "az": "Ailəsi, külfəti olan; bütün ailəsi, külfəti ilə birlikdə (köçlü-külfətli gəlmək).",
+  "en": "with one's whole family and household",
+  "pos": "adjective"
+ },
+ "kükrəyib-coşmaq": {
+  "az": "Gur səslə qabarıb coşmaq (dəniz, çay, hiss haqqında).",
+  "en": "to rage, to surge, to roar",
+  "pos": "verb"
+ },
+ "kükrəyib-daşmaq": {
+  "az": "Gurlayaraq coşub sahildən daşmaq; məc. hiss-həyəcanla coşmaq.",
+  "en": "to surge and overflow; (fig.) to brim over with feeling",
+  "pos": "verb"
+ },
+ "külli-aləm": {
+  "az": "Bütün dünya, hamı (külli-aləm bunu bilir).",
+  "en": "the whole world; everyone",
+  "pos": "noun"
+ },
+ "külli-bəşər": {
+  "az": "Bütün bəşəriyyət, bütün insanlar.",
+  "en": "all mankind",
+  "pos": "noun"
+ },
+ "külli-kainat": {
+  "az": "Bütün kainat, bütün aləm.",
+  "en": "the entire universe",
+  "pos": "noun"
+ },
+ "külək-energetik": {
+  "az": "Külək enerjisindən elektrik almağa aid olan (külək-energetik qurğusu).",
+  "en": "wind-power (installation)",
+  "pos": "adjective"
+ },
+ "külək-çovğun": {
+  "az": "Güclü külək və çovğun; sərt qış havası.",
+  "en": "wind and blizzard; snowstorm",
+  "pos": "noun"
+ },
+ "külək-şaxta": {
+  "az": "Külək və şaxta; sərt soyuq hava.",
+  "en": "wind and frost; bitter cold",
+  "pos": "noun"
+ },
+ "küləkli-çovğunlu": {
+  "az": "Güclü külək əsən, çovğunlu (hava).",
+  "en": "windy and blizzardy, stormy",
+  "pos": "adjective"
+ },
+ "küləkli-şaxtalı": {
+  "az": "Külək əsən və şaxtalı (hava).",
+  "en": "windy and frosty, bitterly cold",
+  "pos": "adjective"
+ },
+ "küləşi-sarı": {
+  "az": "Küləş rənginə çalan, solğun sarı rəngdə olan.",
+  "en": "straw-yellow",
+  "pos": "adjective"
+ },
+ "küləşi-sarılıq": {
+  "az": "Küləş kimi solğun sarı rəngdə olma.",
+  "en": "straw-yellowness",
+  "pos": "noun"
+ },
+ "kürək-bel": {
+  "az": "Bədənin kürək və bel hissəsi; həmçinin kürək, bel kimi torpaq işi alətləri.",
+  "en": "back and lower back; shovels and spades",
+  "pos": "noun"
+ },
+ "kürək-körpücük": {
+  "az": "Kürək sümüyünə və körpücük sümüyünə aid olan (kürək-körpücük oynağı).",
+  "en": "scapuloclavicular, acromioclavicular",
+  "pos": "adjective"
+ },
+ "küsüb-barışmaq": {
+  "az": "Bir-birindən küsüb sonra yenidən barışmaq.",
+  "en": "to fall out and make up",
+  "pos": "verb"
+ },
+ "küylü-kələkli": {
+  "skip": "meaning not certain"
+ },
+ "kəbin-nikah": {
+  "az": "Rəsmi və ya dini qaydada bağlanan evlilik; nikah kəsilməsi.",
+  "en": "marriage (contract), wedlock",
+  "pos": "noun"
+ },
+ "kəbin-talaq": {
+  "az": "Nikah bağlama və boşanma işləri (şəriətdə).",
+  "en": "marriage and divorce (in Islamic law)",
+  "pos": "noun"
+ },
+ "kədər-qəm": {
+  "az": "Dərin kədər, qəm-qüssə.",
+  "en": "grief, sorrow",
+  "pos": "noun"
+ },
+ "kədər-qəmli": {
+  "az": "Kədər və qəm dolu; qəmgin.",
+  "en": "sorrowful, grief-stricken",
+  "pos": "adjective"
+ },
+ "kədərli-qəmli": {
+  "az": "Çox kədərli, qəmgin.",
+  "en": "sad, mournful",
+  "pos": "adjective"
+ },
+ "kəkil-birçək": {
+  "az": "Alına və üzə tökülən saç telləri; kəkil və birçək.",
+  "en": "locks of hair, forelocks and curls",
+  "pos": "noun"
+ },
+ "kəllə-baş": {
+  "skip": "meaning not certain"
+ },
+ "kəllə-onurğa": {
+  "az": "Kəlləyə və onurğaya aid olan (kəllə-onurğa keçidi).",
+  "en": "craniovertebral, craniospinal",
+  "pos": "adjective"
+ },
+ "kəllə-peysər": {
+  "skip": "anatomical term, meaning not certain"
+ },
+ "kəllə-udlaq": {
+  "az": "Kəlləyə və udlağa aid olan (kəllə-udlaq kanalı).",
+  "en": "craniopharyngeal",
+  "pos": "adjective"
+ },
+ "kələk-fırıldaq": {
+  "az": "Hiylə, fırıldaq, aldatma işləri.",
+  "en": "tricks and swindles; trickery, chicanery",
+  "pos": "noun"
+ },
+ "kəmiyyət-keyfiyyət": {
+  "az": "Kəmiyyət və keyfiyyət birlikdə; həm miqdar, həm keyfiyyət baxımı (kəmiyyət-keyfiyyət göstəriciləri).",
+  "en": "quantity and quality; quantitative and qualitative",
+  "pos": "noun"
+ },
+ "kərpic-kirəmit": {
+  "az": "Kərpic, kirəmit və bu kimi bişmiş gil tikinti materialları (kərpic-kirəmit zavodu).",
+  "en": "bricks and roof tiles",
+  "pos": "noun"
+ },
+ "kəsib-biçmək": {
+  "az": "Paltar üçün parçanı ölçüb kəsmək; məc. bir işi öz bildiyi kimi həll etmək.",
+  "en": "to cut out (cloth); (fig.) to decide, to settle things as one pleases",
+  "pos": "verb"
+ },
+ "kəsib-tökmək": {
+  "az": "Çoxlu sayda kəsib məhv etmək, qırıb tökmək.",
+  "en": "to cut down, to slaughter, to massacre",
+  "pos": "verb"
+ },
+ "kəsici-deşici": {
+  "az": "Kəsmək və deşmək üçün olan (kəsici-deşici alətlər, silahlar).",
+  "en": "cutting and piercing; sharp (of weapons, tools)",
+  "pos": "adjective"
+ },
+ "kəsici-çeşidləyici": {
+  "skip": "machine name, meaning not certain"
+ },
+ "kəsik-qırıq": {
+  "az": "Arabir kəsilən, ardıcıl olmayan; qırıq-qırıq (kəsik-qırıq danışıq).",
+  "en": "broken, fragmentary, disjointed",
+  "pos": "adjective"
+ },
+ "kəsim-biçim": {
+  "az": "Paltarın biçilmə tərzi, forması; biçim.",
+  "en": "cut, style (of a garment)",
+  "pos": "noun"
+ },
+ "kətan-lavsan": {
+  "az": "Kətan lifi ilə lavsan (poliester) lifinin qarışığından toxunan parça.",
+  "en": "linen-polyester (blend fabric)",
+  "pos": "noun"
+ },
+ "laləli-nərgizli": {
+  "az": "Lalə və nərgiz bitmiş, çiçəkli (laləli-nərgizli çəmən).",
+  "en": "full of tulips and narcissi, flowery",
+  "pos": "adjective"
+ },
+ "laylı-laysız": {
+  "skip": "meaning not certain"
+ },
+ "layner-ekspres": {
+  "skip": "meaning not certain"
+ },
+ "layner-teploxod": {
+  "az": "Daxili yanma mühərriki ilə işləyən iri sərnişin gəmisi; motorlu layner.",
+  "en": "motor liner",
+  "pos": "noun"
+ },
+ "lazer-radar": {
+  "az": "Radio dalğaları əvəzinə lazer şüası ilə obyektlərin yerini və məsafəsini təyin edən qurğu; lidar.",
+  "en": "laser radar, lidar",
+  "pos": "noun"
+ },
+ "leksik-fonetik": {
+  "az": "Həm leksikaya, həm də fonetikaya aid olan.",
+  "en": "lexical and phonetic",
+  "pos": "adjective"
+ },
+ "leksik-frazeoloji": {
+  "az": "Həm leksikaya, həm də frazeologiyaya aid olan (leksik-frazeoloji vahidlər).",
+  "en": "lexical and phraseological",
+  "pos": "adjective"
+ },
+ "leksik-morfoloji": {
+  "az": "Həm leksikaya, həm də morfologiyaya aid olan.",
+  "en": "lexical and morphological",
+  "pos": "adjective"
+ },
+ "leksik-sintaktik": {
+  "az": "Həm leksikaya, həm də sintaksisə aid olan.",
+  "en": "lexico-syntactic",
+  "pos": "adjective"
+ },
+ "leksik-statistik": {
+  "az": "Dillərin lüğət tərkibini statistik üsullarla öyrənən, müqayisə edən (leksik-statistik metod).",
+  "en": "lexicostatistical",
+  "pos": "adjective"
+ },
+ "leksik-üslubi": {
+  "az": "Sözlərin üslub xüsusiyyətlərinə aid olan (leksik-üslubi təhlil).",
+  "en": "lexico-stylistic",
+  "pos": "adjective"
+ },
+ "liberal-burjuaziya": {
+  "az": "Liberal siyasi baxışlara tərəfdar olan burjuaziya təbəqəsi.",
+  "en": "liberal bourgeoisie",
+  "pos": "noun"
+ },
+ "liberal-humanist": {
+  "az": "Liberal və humanist baxışları birləşdirən şəxs; belə görüşlərə aid olan.",
+  "en": "liberal humanist",
+  "pos": "noun"
+ },
+ "likör-araq": {
+  "az": "Likör, araq və bu kimi tünd spirtli içkilər (likör-araq zavodu).",
+  "en": "liqueurs and vodka; spirits",
+  "pos": "noun"
+ },
+ "limon-mandarin": {
+  "az": "Limon, mandarin və bu kimi sitrus meyvələri.",
+  "en": "lemons and tangerines; citrus fruits",
+  "pos": "noun"
+ },
+ "limon-naringi": {
+  "az": "Limon, naringi və bu kimi sitrus meyvələri.",
+  "en": "lemons and tangerines; citrus fruits",
+  "pos": "noun"
+ },
+ "linza-kollektor": {
+  "az": "Optik cihazlarda işıq mənbəyindən gələn şüaları toplayan linza.",
+  "en": "collector lens",
+  "pos": "noun",
+  "parts": false
+ },
+ "linza-obyektiv": {
+  "az": "Optik cihazda müşahidə olunan cismə tərəf yönələn linza; obyektiv linzası.",
+  "en": "objective lens",
+  "pos": "noun"
+ },
+ "lirik-didaktik": {
+  "az": "Həm lirik, həm də öyrədici-tərbiyəvi xarakter daşıyan (lirik-didaktik şeir).",
+  "en": "lyrical-didactic",
+  "pos": "adjective"
+ },
+ "lirik-komik": {
+  "az": "Həm lirik, həm də gülməli səciyyə daşıyan (lirik-komik film).",
+  "en": "lyrical-comic",
+  "pos": "adjective"
+ },
+ "lirik-mistik": {
+  "az": "Lirik hissləri mistik, sufiyanə ruhla birləşdirən (lirik-mistik şeir).",
+  "en": "lyrical-mystical",
+  "pos": "adjective"
+ },
+ "lirik-publisist": {
+  "az": "Lirik duyğuları ictimai-siyasi mövzu ilə birləşdirən (lirik-publisist poema).",
+  "en": "lyrical-publicistic (writing)",
+  "pos": "adjective"
+ }
+}

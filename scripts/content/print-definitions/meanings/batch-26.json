@@ -1,0 +1,904 @@
+{
+ "vals-fantaziya": {
+  "az": "Vals ritmində yazılmış, sərbəst formalı instrumental musiqi əsəri.",
+  "en": "waltz-fantasia (piece of music)",
+  "pos": "noun"
+ },
+ "vaqon-budka": {
+  "skip": "meaning not certain"
+ },
+ "vaqon-buzxana": {
+  "az": "İçinə buz qoyulmaqla soyudulan, tez xarab olan yükləri daşımaq üçün dəmir yolu vaqonu.",
+  "en": "ice-cooled refrigerator car, icebox car",
+  "pos": "noun"
+ },
+ "vaqon-dükan": {
+  "az": "Mal satmaq üçün dükan kimi təchiz edilmiş vaqon; səyyar dükan.",
+  "en": "shop car (railway car fitted out as a mobile shop)",
+  "pos": "noun"
+ },
+ "vaqon-klub": {
+  "az": "Mədəni-maarif tədbirləri keçirmək üçün klub kimi təchiz edilmiş dəmir yolu vaqonu.",
+  "en": "club car",
+  "pos": "noun"
+ },
+ "vaqon-laboratoriya": {
+  "az": "Yolda tədqiqat və ölçmə işləri aparmaq üçün laboratoriya avadanlığı ilə təchiz edilmiş vaqon.",
+  "en": "laboratory car",
+  "pos": "noun"
+ },
+ "vaqon-market": {
+  "az": "Mal satışı üçün mağaza kimi təchiz edilmiş vaqon; səyyar mağaza.",
+  "en": "shop car, mobile store in a railway car",
+  "pos": "noun"
+ },
+ "vaqon-platforma": {
+  "az": "Üstü açıq, yanları olmayan və ya alçaq yanlı yük vaqonu.",
+  "en": "flatcar, platform wagon",
+  "pos": "noun"
+ },
+ "vaqon-qaraj": {
+  "skip": "meaning not certain"
+ },
+ "vaqon-refrijerator": {
+  "az": "Tez xarab olan yükləri daşımaq üçün soyuducu qurğu ilə təchiz edilmiş vaqon.",
+  "en": "refrigerator car, reefer",
+  "pos": "noun"
+ },
+ "vaqon-soyuducu": {
+  "az": "Soyuducu qurğusu olan, tez xarab olan yükləri daşıyan vaqon.",
+  "en": "refrigerator car",
+  "pos": "noun"
+ },
+ "vaqon-stansiya": {
+  "skip": "meaning not certain"
+ },
+ "varlı-yoxsul": {
+  "az": "Varlı da, yoxsul da; varlılar və yoxsullar, hamı (varlı-yoxsul fərqi).",
+  "en": "rich and poor (alike)",
+  "pos": "noun"
+ },
+ "vatt-saat": {
+  "az": "Bir vatt gücün bir saat ərzində gördüyü işə bərabər enerji vahidi.",
+  "en": "watt-hour",
+  "pos": "noun"
+ },
+ "vatt-saniyə": {
+  "az": "Bir vatt gücün bir saniyədə gördüyü işə bərabər enerji vahidi; coul.",
+  "en": "watt-second (= joule)",
+  "pos": "noun"
+ },
+ "vaxt-vədə": {
+  "az": "Bir iş üçün təyin olunmuş və ya uyğun zaman (vaxtı-vədəsi çatmaq).",
+  "en": "(appointed) time, the right time",
+  "pos": "noun"
+ },
+ "vaxtsız-dəvətsiz": {
+  "az": "Gözlənilmədən və dəvət olunmadan gələn (vaxtsız-dəvətsiz qonaq).",
+  "en": "uninvited and unexpected",
+  "pos": "adjective"
+ },
+ "vektor-kardioqraf": {
+  "az": "Ürəyin elektrik fəaliyyətini vektor şəklində qeydə alan tibbi cihaz.",
+  "en": "vectorcardiograph",
+  "pos": "noun"
+ },
+ "vektor-kardioqrafiya": {
+  "az": "Ürəyin elektrik fəaliyyətinin fəzadakı istiqamətini vektor şəklində qeydə alan müayinə üsulu.",
+  "en": "vectorcardiography",
+  "pos": "noun"
+ },
+ "vektor-kardioqram": {
+  "az": "Ürəyin elektrik fəaliyyətini vektor ilgəkləri şəklində göstərən qrafik.",
+  "en": "vectorcardiogram",
+  "pos": "noun"
+ },
+ "vektor-kardioskop": {
+  "az": "Ürəyin elektrik fəaliyyətini vektor şəklində ekranda göstərən cihaz.",
+  "en": "vectorcardioscope",
+  "pos": "noun"
+ },
+ "verbal-analitik": {
+  "az": "Sözlü ifadəyə və təhlilə əsaslanan (verbal-analitik təfəkkür).",
+  "en": "verbal-analytical",
+  "pos": "adjective"
+ },
+ "verbal-məntiqi": {
+  "az": "Sözlərə, anlayışlara və məntiqi mühakiməyə əsaslanan (verbal-məntiqi təfəkkür).",
+  "en": "verbal-logical",
+  "pos": "adjective"
+ },
+ "vergi-töycü": {
+  "az": "Vergilər və başqa məcburi ödənişlər, rüsumlar (ümumi şəkildə).",
+  "en": "taxes and levies, dues",
+  "pos": "noun"
+ },
+ "verici-alıcı": {
+  "az": "Həm siqnal ötürən, həm də siqnal qəbul edən radiotexniki qurğu.",
+  "en": "transceiver, transmitter-receiver",
+  "pos": "noun"
+ },
+ "verici-qəbuledici": {
+  "az": "Həm siqnal ötürən, həm də qəbul edən radiotexniki qurğu; ötürücü-qəbuledici.",
+  "en": "transceiver, transmitter-receiver",
+  "pos": "noun"
+ },
+ "vertikal-burğu": {
+  "az": "Şaquli istiqamətdə deşik açan (vertikal-burğu dəzgahı).",
+  "en": "vertical drilling (of a machine tool)",
+  "pos": "adjective"
+ },
+ "vertikal-dartma": {
+  "skip": "meaning not certain"
+ },
+ "vestibül-foye": {
+  "az": "Binanın, xüsusən teatrın girişindəki geniş zal və gözləmə yeri.",
+  "en": "lobby, vestibule and foyer",
+  "pos": "noun"
+ },
+ "videofilm-konsert": {
+  "az": "Konsert proqramı əsasında çəkilmiş videofilm.",
+  "en": "concert video, filmed concert",
+  "pos": "noun"
+ },
+ "villa-gəmi": {
+  "az": "Villa kimi rahat yaşayış şəraiti ilə təchiz olunmuş gəmi; üzən villa.",
+  "en": "floating villa, villa ship",
+  "pos": "noun"
+ },
+ "vint-manivela": {
+  "skip": "meaning not certain"
+ },
+ "vip-müştəri": {
+  "az": "Xüsusi xidmət və imtiyazlar göstərilən mühüm, nüfuzlu müştəri.",
+  "en": "VIP client, VIP customer",
+  "pos": "noun"
+ },
+ "vip-qonaq": {
+  "az": "Xüsusi hörmət və qayğı göstərilən mühüm, nüfuzlu qonaq.",
+  "en": "VIP guest",
+  "pos": "noun"
+ },
+ "vip-xidmət": {
+  "az": "Mühüm şəxslərə və xüsusi müştərilərə göstərilən yüksək səviyyəli, imtiyazlı xidmət.",
+  "en": "VIP service",
+  "pos": "noun"
+ },
+ "vip-zal": {
+  "az": "Hava limanı, vağzal və s. yerlərdə mühüm şəxslər üçün ayrılmış rahat zal.",
+  "en": "VIP lounge, VIP hall",
+  "pos": "noun"
+ },
+ "vokal-xoreoqrafiya": {
+  "az": "Oxuma və rəqs sənətinin birləşdiyi səhnə ifası (vokal-xoreoqrafiya ansamblı).",
+  "en": "song and dance (vocal and choreographic art)",
+  "pos": "noun"
+ },
+ "volfram-kobalt": {
+  "az": "Volfram karbidi və kobaltdan ibarət (volfram-kobalt bərk ərintisi).",
+  "en": "tungsten-cobalt (of hard alloys)",
+  "pos": "adjective"
+ },
+ "volfram-titan": {
+  "az": "Volfram və titan karbidləri əsasında hazırlanan (volfram-titan bərk ərintisi).",
+  "en": "tungsten-titanium (of hard alloys)",
+  "pos": "adjective"
+ },
+ "volt-ampermetr": {
+  "az": "Həm gərginliyi, həm də cərəyan şiddətini ölçən cihaz.",
+  "en": "volt-ammeter",
+  "pos": "noun"
+ },
+ "volt-elektron": {
+  "skip": "meaning not certain"
+ },
+ "volt-kulon": {
+  "az": "Bir volt gərginlikdə bir kulon yükün yerdəyişməsinə sərf olunan enerji vahidi; coul.",
+  "en": "volt-coulomb (= joule)",
+  "pos": "noun",
+  "parts": false
+ },
+ "volt-qram": {
+  "skip": "meaning not certain"
+ },
+ "volt-saniyə": {
+  "az": "Maqnit selinin vahidi; bir veberə bərabərdir.",
+  "en": "volt-second (= weber)",
+  "pos": "noun"
+ },
+ "voltmetr-ampermetr": {
+  "az": "Gərginliyi və cərəyan şiddətini ölçmək üçün birləşmiş cihaz.",
+  "en": "combined voltmeter and ammeter",
+  "pos": "noun"
+ },
+ "vurma-bölmə": {
+  "az": "Vurma və bölmə hesab əməlləri.",
+  "en": "multiplication and division",
+  "pos": "noun"
+ },
+ "vurma-toplama": {
+  "az": "Vurma və toplama hesab əməlləri; sadə hesablama.",
+  "en": "multiplication and addition; simple arithmetic",
+  "pos": "noun"
+ },
+ "vurma-çıxma": {
+  "az": "Vurma və çıxma hesab əməlləri.",
+  "en": "multiplication and subtraction",
+  "pos": "noun"
+ },
+ "vışka-qaynaq": {
+  "skip": "meaning not certain"
+ },
+ "vəzir-vəkil": {
+  "az": "Hökmdarın vəzirləri və yaxın məmurları; saray əyanları.",
+  "en": "viziers and ministers, court dignitaries",
+  "pos": "noun"
+ },
+ "vəzir-vəkilli": {
+  "az": "Vəzirləri, vəkilləri və saray adamları olan (hökmdar haqqında).",
+  "en": "with viziers and ministers (of a ruler)",
+  "pos": "adjective"
+ },
+ "vəzn-ritm": {
+  "az": "Şeirdə vəzn və ritm; misraların ölçü və ahəng quruluşu.",
+  "en": "metre and rhythm (of verse)",
+  "pos": "noun"
+ },
+ "xahiş-minnət": {
+  "az": "Yalvara-yalvara, dönə-dönə edilən xahiş; yalvarış (xahiş-minnətlə).",
+  "en": "pleading, entreaties",
+  "pos": "noun"
+ },
+ "xala-bibi": {
+  "az": "Xalalar və bibilər; qadın qohumlar.",
+  "en": "aunts (maternal and paternal); female relatives",
+  "pos": "noun"
+ },
+ "xalalı-bibili": {
+  "az": "Xalası, bibisi olan; qohumları olan.",
+  "en": "having aunts; having relatives",
+  "pos": "adjective"
+ },
+ "xalalı-dayılı": {
+  "az": "Xalası, dayısı olan; qohum-əqrəbası olan.",
+  "en": "having aunts and uncles; having kin",
+  "pos": "adjective"
+ },
+ "xalçalı-palazlı": {
+  "az": "Xalça və palazla döşənmiş, bəzədilmiş (xalçalı-palazlı otaq).",
+  "en": "carpeted, furnished with carpets and rugs",
+  "pos": "adjective"
+ },
+ "xan-bəy": {
+  "az": "Xanlar və bəylər; feodal zadəganlar, hakim təbəqə.",
+  "en": "khans and beys; the nobility",
+  "pos": "noun"
+ },
+ "xanəndə-şair": {
+  "az": "Həm xanəndə, həm də şair olan sənətkar.",
+  "en": "singer-poet",
+  "pos": "noun"
+ },
+ "xarratlıq-inşaat": {
+  "az": "Xarratlıq və tikinti işləri (xarratlıq-inşaat sexi).",
+  "en": "carpentry and construction",
+  "pos": "noun"
+ },
+ "xatasız-balasız": {
+  "az": "Heç bir təhlükəsi, bəlası olmayan; sağ-salamat.",
+  "en": "safe and sound, free from harm and misfortune",
+  "pos": "adjective",
+  "parts": false
+ },
+ "xeyir-mənfəət": {
+  "az": "Fayda, qazanc, mənfəət (ümumi şəkildə).",
+  "en": "benefit and profit, gain",
+  "pos": "noun"
+ },
+ "xeyir-mənfəətli": {
+  "az": "Xeyri və mənfəəti olan, fayda gətirən.",
+  "en": "profitable, beneficial",
+  "pos": "adjective"
+ },
+ "xeyir-mənfəətsiz": {
+  "az": "Heç bir xeyri, mənfəəti olmayan; faydasız.",
+  "en": "useless, of no benefit",
+  "pos": "adjective"
+ },
+ "xeyir-zərər": {
+  "az": "Bir şeyin faydası və ziyanı; qazanc və itki.",
+  "en": "benefit and harm; profit and loss",
+  "pos": "noun"
+ },
+ "xeyir-zərərli": {
+  "skip": "meaning not certain"
+ },
+ "xeyir-zərərsiz": {
+  "skip": "meaning not certain"
+ },
+ "xeyirli-mənfəətli": {
+  "az": "Fayda və qazanc gətirən; çox faydalı.",
+  "en": "beneficial, profitable",
+  "pos": "adjective"
+ },
+ "xeyirli-şərli": {
+  "skip": "meaning not certain"
+ },
+ "xeyirsiz-mənfəətsiz": {
+  "az": "Heç bir faydası, qazancı olmayan; tamamilə faydasız.",
+  "en": "useless, of no benefit or profit",
+  "pos": "adjective"
+ },
+ "xeyirsiz-şərsiz": {
+  "az": "Nə xeyri, nə də zərəri olan; heç kəsə nə yaxşılıq, nə pislik edən.",
+  "en": "neither good nor bad, harmless but of no use",
+  "pos": "adjective"
+ },
+ "xidmət-qulluq": {
+  "az": "Birinə xidmət etmə, qulluğunda durma, qayğısına qalma.",
+  "en": "service, attendance, waiting on someone",
+  "pos": "noun"
+ },
+ "xitab-metafor": {
+  "skip": "meaning not certain"
+ },
+ "xitab-perifraz": {
+  "skip": "meaning not certain"
+ },
+ "xof-vahimə": {
+  "az": "Güclü qorxu, dəhşət hissi.",
+  "en": "fear and dread, terror",
+  "pos": "noun"
+ },
+ "xora-yara": {
+  "az": "Bədəndəki yaralar, xoralar (ümumi şəkildə).",
+  "en": "sores and ulcers, wounds",
+  "pos": "noun"
+ },
+ "xörək-bişmiş": {
+  "az": "Bişirilmiş yeməklər, xörəklər (ümumi şəkildə).",
+  "en": "cooked food, dishes",
+  "pos": "noun"
+ },
+ "xörək-çörək": {
+  "az": "Yemək, yeyəcək; gündəlik qida (xörək-çörək hazırlamaq).",
+  "en": "food, meals",
+  "pos": "noun"
+ },
+ "xüms-zəkat": {
+  "az": "İslamda dini ödənişlər: gəlirin beşdə biri olan xüms və zəkat.",
+  "en": "khums and zakat (Islamic religious dues)",
+  "pos": "noun"
+ },
+ "xüsusi-seçmə": {
+  "skip": "meaning not certain"
+ },
+ "xırda-paralı": {
+  "skip": "meaning not certain"
+ },
+ "xış-kotan": {
+  "az": "Xış, kotan və bu kimi torpaq şumlayan alətlər; əkinçilik alətləri.",
+  "en": "ploughs, ploughing implements",
+  "pos": "noun"
+ },
+ "xəmir-xəşil": {
+  "skip": "meaning not certain"
+ },
+ "xəncər-bıçaq": {
+  "az": "Xəncər, bıçaq və bu kimi soyuq silahlar.",
+  "en": "daggers and knives, bladed weapons",
+  "pos": "noun"
+ },
+ "xərc-borclu": {
+  "skip": "meaning not certain"
+ },
+ "xətirli-hörmətli": {
+  "az": "Hamının hörmət etdiyi, xətrini saydığı; nüfuzlu.",
+  "en": "respected, esteemed, highly regarded",
+  "pos": "adjective"
+ },
+ "xətli-zolaqlı": {
+  "az": "Üzərində xətlər və zolaqlar olan.",
+  "en": "lined and striped, streaked",
+  "pos": "adjective"
+ },
+ "xətti-zolaqlı": {
+  "skip": "meaning not certain"
+ },
+ "yad-yağılı": {
+  "skip": "meaning not certain"
+ },
+ "yadlaşıb-uzaqlaşmaq": {
+  "az": "Getdikcə yad olub əlaqəni kəsmək, soyuyub uzaq düşmək.",
+  "en": "to become estranged, to drift apart",
+  "pos": "verb"
+ },
+ "yadlı-qohumlu": {
+  "az": "Yad da, qohum da daxil olmaqla hamı (yadlı-qohumlu hamı yığışdı).",
+  "en": "strangers and relatives alike",
+  "pos": "adjective"
+ },
+ "yadlı-yağılı": {
+  "skip": "meaning not certain"
+ },
+ "yadlı-yağılıq": {
+  "skip": "meaning not certain"
+ },
+ "yadlıq-qohumluq": {
+  "az": "Yad və ya qohum olma; insanlar arasındakı yadlıq və qohumluq münasibəti.",
+  "en": "being a stranger or a relative; kinship or the lack of it",
+  "pos": "noun"
+ },
+ "yalan-doğruluq": {
+  "az": "Bir şeyin yalan və ya doğru olması (xəbərin yalan-doğruluğu).",
+  "en": "truth or falsehood (of something)",
+  "pos": "noun"
+ },
+ "yalan-gerçəklik": {
+  "az": "Bir şeyin yalan və ya gerçək olması.",
+  "en": "falsehood or reality, truth or falsity",
+  "pos": "noun"
+ },
+ "yamaq-yumaq": {
+  "skip": "meaning not certain"
+ },
+ "yamaqlı-yırtıqlı": {
+  "az": "Yamaqlarla dolu və cırıq-cırıq olan; köhnə, cındır (paltar).",
+  "en": "patched and torn, ragged, tattered",
+  "pos": "adjective"
+ },
+ "yan-boyun": {
+  "skip": "meaning not certain"
+ },
+ "yan-civar": {
+  "az": "Bir yerin ətrafı, yaxınlığı; ətraf yerlər.",
+  "en": "surroundings, vicinity, neighbourhood",
+  "pos": "noun"
+ },
+ "yan-pardaq": {
+  "skip": "meaning not certain"
+ },
+ "yan-yön": {
+  "skip": "meaning not certain"
+ },
+ "yanaq-dodaq": {
+  "az": "Yanaqlar və dodaqlar; üzün gözəlliyi.",
+  "en": "cheeks and lips",
+  "pos": "noun"
+ },
+ "yanaq-udlaq": {
+  "az": "Yanağa və udlağa aid olan (yanaq-udlaq fassiyası).",
+  "en": "buccopharyngeal",
+  "pos": "adjective"
+ },
+ "yanlı-yönlü": {
+  "skip": "meaning not certain"
+ },
+ "yanlı-yörəli": {
+  "skip": "meaning not certain"
+ },
+ "yanıb-qaralmaq": {
+  "az": "Yanaraq kömür kimi qaralmaq; məc. dərddən, əzabdan üzülüb əldən düşmək.",
+  "en": "to be charred, to be burnt black; fig. to be consumed by grief",
+  "pos": "verb"
+ },
+ "yaraqlı-əsbablı": {
+  "az": "Silahlanmış və lazımi ləvazimatla təchiz olunmuş; tam silahlı.",
+  "en": "armed and equipped, fully armed",
+  "pos": "adjective"
+ },
+ "yararlı-yararsız": {
+  "az": "İşə yarayanı da, yaramayanı da daxil olmaqla hamısı.",
+  "en": "useful and useless alike, good and bad",
+  "pos": "adjective"
+ },
+ "yarmarka-müsabiqə": {
+  "az": "Məhsulların nümayiş və satışı ilə yanaşı müsabiqə də keçirilən yarmarka.",
+  "en": "fair and contest",
+  "pos": "noun"
+ },
+ "yarmarka-sərgi": {
+  "az": "Malların həm nümayiş etdirildiyi, həm də satıldığı sərgi.",
+  "en": "trade fair, exhibition and sale",
+  "pos": "noun"
+ },
+ "yarıac-yarıtox": {
+  "az": "Tam doymayan, yarımac; ehtiyac içində yaşayan.",
+  "en": "half-fed, underfed, half-starved",
+  "pos": "adjective"
+ },
+ "yarıağıllı-yarıdəli": {
+  "az": "Ağlı tam yerində olmayan, yarı dəli kimi davranan.",
+  "en": "half-crazy, half-mad, not all there",
+  "pos": "adjective"
+ },
+ "yarıtox-yarıac": {
+  "az": "Tam doymayan, yarımac; ehtiyac içində yaşayan.",
+  "en": "half-fed, underfed, half-starved",
+  "pos": "adjective"
+ },
+ "yarıyuxulu-yarıoyaq": {
+  "az": "Yuxu ilə oyaqlıq arasında olaraq, mürgüləyərək.",
+  "en": "half-asleep, half-awake, drowsily",
+  "pos": "adverb"
+ },
+ "yarızarafat-yarıciddi": {
+  "az": "Yarı zarafatla, yarı ciddi şəkildə (yarızarafat-yarıciddi dedi).",
+  "en": "half in jest, half in earnest",
+  "pos": "adverb"
+ },
+ "yarış-müsabiqə": {
+  "az": "Qalibi müəyyən etmək üçün keçirilən yarış, müsabiqə.",
+  "en": "competition, contest",
+  "pos": "noun"
+ },
+ "yas-matəm": {
+  "az": "Ölənə görə tutulan yas, dərin kədər və matəm.",
+  "en": "mourning, grief",
+  "pos": "noun"
+ },
+ "yastı-paralel": {
+  "az": "İki səthi müstəvi və bir-birinə paralel olan (yastı-paralel lövhə).",
+  "en": "plane-parallel",
+  "pos": "adjective"
+ },
+ "yastı-qabarıq": {
+  "az": "Bir tərəfi müstəvi, o biri tərəfi qabarıq olan (yastı-qabarıq linza).",
+  "en": "plano-convex",
+  "pos": "adjective"
+ },
+ "yastı-yapalaq": {
+  "az": "Çox yastı, basıq, yayvan formalı.",
+  "en": "flattened, squat, flat",
+  "pos": "adjective",
+  "parts": false
+ },
+ "yatımına-yastısına": {
+  "skip": "meaning not certain"
+ },
+ "yatıq-batıq": {
+  "skip": "meaning not certain"
+ },
+ "yatır-sərmayə": {
+  "skip": "meaning not certain"
+ },
+ "yatır-sərmayəli": {
+  "skip": "meaning not certain"
+ },
+ "yaxıb-yanmaq": {
+  "skip": "meaning not certain"
+ },
+ "yaxın-yad": {
+  "az": "Yaxın adamlar və yadlar; hamı, başqaları (yaxına-yada möhtac olmaq).",
+  "en": "relatives and strangers; other people",
+  "pos": "noun"
+ },
+ "yaxınlı-uzaqlı": {
+  "az": "Yaxını da, uzağı da daxil olmaqla hamısı (yaxınlı-uzaqlı qohumlar).",
+  "en": "near and distant alike (of relatives)",
+  "pos": "adjective"
+ },
+ "yaxınlı-yadlı": {
+  "az": "Yaxın da, yad da daxil olmaqla hamı (yaxınlı-yadlı hamı).",
+  "en": "kin and strangers alike",
+  "pos": "adjective"
+ },
+ "yaxşılı-pisli": {
+  "az": "Həm yaxşı, həm də pis olan; qarışıq (yaxşılı-pisli günlər).",
+  "en": "good and bad (mixed), for better or worse",
+  "pos": "adjective"
+ },
+ "yaxşılıq-pislik": {
+  "az": "Yaxşı və pis əməllər; xeyir və şər.",
+  "en": "good and evil, good and bad deeds",
+  "pos": "noun"
+ },
+ "yaxşılıq-yamanlıq": {
+  "az": "Yaxşı və yaman əməllər; xeyir və şər.",
+  "en": "good and evil, good and bad deeds",
+  "pos": "noun"
+ },
+ "yaylı-oxlu": {
+  "az": "Yay və oxla silahlanmış (yaylı-oxlu döyüşçü).",
+  "en": "armed with bow and arrows",
+  "pos": "adjective"
+ },
+ "yayıcı-hamarlayıcı": {
+  "az": "Materialı səth üzrə yayıb hamarlayan (asfalt yayıcı-hamarlayıcı maşını).",
+  "en": "spreading and levelling (of a machine, e.g. an asphalt paver)",
+  "pos": "adjective"
+ },
+ "yayıcı-sığallayıcı": {
+  "az": "Materialı səthə yayıb onu sığallayan, hamarlayan maşın və ya qurğu.",
+  "en": "spreader-smoother (machine)",
+  "pos": "noun"
+ },
+ "yazlı-qışlı": {
+  "az": "Yazda da, qışda da; bütün il boyu.",
+  "en": "all year round, in spring and winter alike",
+  "pos": "adverb"
+ },
+ "yazı-oxu": {
+  "az": "Oxuyub-yazma bacarığı; savad (yazı-oxu öyrənmək).",
+  "en": "reading and writing, literacy",
+  "pos": "noun"
+ },
+ "yazı-oxulu": {
+  "az": "Oxuyub-yazmağı bacaran; savadlı.",
+  "en": "literate",
+  "pos": "adjective"
+ },
+ "yazıçı-bəstəkar": {
+  "az": "Həm yazıçı, həm də bəstəkar olan şəxs.",
+  "en": "writer and composer",
+  "pos": "noun"
+ },
+ "yazıçı-filosof": {
+  "az": "Həm yazıçı, həm də filosof olan; əsərlərində fəlsəfi fikirlər irəli sürən yazıçı.",
+  "en": "writer-philosopher",
+  "pos": "noun"
+ },
+ "yazıçı-mütəfəkkir": {
+  "az": "Əsərlərində dərin ictimai və fəlsəfi fikirlər irəli sürən yazıçı.",
+  "en": "writer and thinker",
+  "pos": "noun"
+ },
+ "yağ-bitum": {
+  "skip": "meaning not certain"
+ },
+ "yağ-cövhər": {
+  "skip": "meaning not certain"
+ },
+ "yağ-kanifol": {
+  "skip": "meaning not certain"
+ },
+ "yağ-qara": {
+  "skip": "meaning not certain"
+ },
+ "yağ-qaralı": {
+  "skip": "meaning not certain"
+ },
+ "yağ-qarasız": {
+  "skip": "meaning not certain"
+ },
+ "yağ-qatran": {
+  "skip": "meaning not certain"
+ },
+ "yağ-qaymaq": {
+  "az": "Yağ, qaymaq və bu kimi yağlı süd məhsulları.",
+  "en": "butter and cream, dairy fare",
+  "pos": "noun"
+ },
+ "yağ-soğan": {
+  "az": "Xörəyə qatılan yağ və qızardılmış soğan.",
+  "en": "oil and fried onion (as a cooking base or dressing)",
+  "pos": "noun"
+ },
+ "yağ-süd": {
+  "az": "Yağ, süd və başqa süd məhsulları.",
+  "en": "butter and milk, dairy products",
+  "pos": "noun"
+ },
+ "yağ-turşu": {
+  "skip": "meaning not certain"
+ },
+ "yağ-tər": {
+  "skip": "meaning not certain"
+ },
+ "yağ-yavanlıq": {
+  "az": "Çörəklə yeyilən yağ, pendir və bu kimi qatıqlar; azuqə.",
+  "en": "butter and other things eaten with bread; provisions",
+  "pos": "noun"
+ },
+ "yağlama-silmə": {
+  "az": "Maşın, silah və s. hissələrini yağlayıb silmə, təmizləmə işi.",
+  "en": "oiling and wiping, cleaning and lubrication",
+  "pos": "noun"
+ },
+ "yağlama-soyutma": {
+  "az": "Emal zamanı alətləri həm yağlayan, həm də soyudan (yağlama-soyutma mayesi).",
+  "en": "lubricating-cooling (e.g. of a cutting fluid)",
+  "pos": "adjective",
+  "parts": false
+ },
+ "yağlı-ballı": {
+  "az": "Yağlı və şirin, ləzzətli; məc. şirin, xoşa gələn (yağlı-ballı sözlər).",
+  "en": "rich and sweet; fig. honeyed (of words)",
+  "pos": "adjective"
+ },
+ "yağlı-piyli": {
+  "az": "Çox yağlı, piyli.",
+  "en": "fatty, greasy",
+  "pos": "adjective"
+ },
+ "yağlı-qaralı": {
+  "skip": "meaning not certain"
+ },
+ "yağlı-qaymaqlı": {
+  "az": "Bol yağlı və qaymaqlı; ləzzətli (yemək).",
+  "en": "rich, buttery and creamy",
+  "pos": "adjective"
+ },
+ "yağlı-soğanlı": {
+  "az": "Yağ və soğanla bişirilmiş, ləzzətli (xörək).",
+  "en": "with oil and onion, richly dressed (of food)",
+  "pos": "adjective"
+ },
+ "yağlı-südlü": {
+  "az": "Bol yağlı və südlü; süd məhsulları ilə zəngin.",
+  "en": "rich in butter and milk",
+  "pos": "adjective"
+ },
+ "yağlı-yavan": {
+  "az": "Yağlı da, yavan da; nə olursa olsun (yemək haqqında).",
+  "en": "rich or plain, whatever (food) there is",
+  "pos": "adjective"
+ },
+ "yağlı-yavanlıqlı": {
+  "skip": "meaning not certain"
+ },
+ "yağlı-üzlü": {
+  "skip": "meaning not certain"
+ },
+ "yağlı-ətli": {
+  "skip": "meaning not certain"
+ },
+ "yağsız-balsız": {
+  "skip": "meaning not certain"
+ },
+ "yağsız-piysiz": {
+  "az": "Heç yağı, piyi olmayan; arıq (ət).",
+  "en": "lean, fat-free",
+  "pos": "adjective"
+ },
+ "yağsız-qarasız": {
+  "skip": "meaning not certain"
+ },
+ "yağsız-soğansız": {
+  "az": "Yağ və soğan qatılmadan bişirilmiş; yavan (xörək).",
+  "en": "plain, without oil or onion (of food)",
+  "pos": "adjective"
+ },
+ "yağsız-südsüz": {
+  "az": "Yağı, südü olmayan; yavan, kasıb (süfrə).",
+  "en": "without butter or milk; meagre",
+  "pos": "adjective"
+ },
+ "yağsız-ətsiz": {
+  "az": "Yağ və ət qatılmamış; yavan (xörək).",
+  "en": "without fat or meat, meagre (of food)",
+  "pos": "adjective"
+ },
+ "yağış-çiskin": {
+  "az": "Yağış və çiskin; yağmurlu hava.",
+  "en": "rain and drizzle, wet weather",
+  "pos": "noun"
+ },
+ "yağışlı-yağmurlu": {
+  "az": "Tez-tez yağış yağan; yağmurlu (yağışlı-yağmurlu payız).",
+  "en": "rainy, wet",
+  "pos": "adjective"
+ },
+ "yağışsız-yağmursuz": {
+  "az": "Heç yağış yağmayan; quraq.",
+  "en": "rainless, dry",
+  "pos": "adjective"
+ },
+ "yağışsız-çiskinsiz": {
+  "az": "Nə yağış, nə də çiskin olan; quru, açıq (hava).",
+  "en": "without rain or drizzle, dry",
+  "pos": "adjective"
+ },
+ "yaşıl-şəffaf": {
+  "az": "Yaşıla çalan şəffaf; həm yaşıl, həm də şəffaf.",
+  "en": "transparent green",
+  "pos": "adjective"
+ },
+ "yedirib-içirtmək": {
+  "az": "Birinə yemək və içmək vermək; qonaq etmək.",
+  "en": "to give someone food and drink, to wine and dine",
+  "pos": "verb"
+ },
+ "yekə-balaca": {
+  "az": "Böyük də, kiçik də; böyüklü-kiçikli hamı (yekə-balaca hamı).",
+  "en": "big and small alike, old and young",
+  "pos": "adjective"
+ },
+ "yekəli-balacalı": {
+  "az": "Böyüyü də, kiçiyi də daxil olmaqla hamı (yekəli-balacalı hamı).",
+  "en": "big and small alike, old and young",
+  "pos": "adjective"
+ },
+ "yelli-küləkli": {
+  "az": "Külək əsən, küləkli (hava).",
+  "en": "windy, blustery",
+  "pos": "adjective"
+ },
+ "yelli-yelsiz": {
+  "skip": "meaning not certain"
+ },
+ "yemə-içmə": {
+  "az": "Yemək və içmək; yemək-içmək işi.",
+  "en": "eating and drinking, food and drink",
+  "pos": "noun"
+ },
+ "yeməkxana-çayxana": {
+  "az": "Yeməkxana, çayxana və bu kimi ictimai iaşə yerləri.",
+  "en": "canteens and teahouses, eateries",
+  "pos": "noun"
+ },
+ "yeməli-içməli": {
+  "az": "Yeməyə və içməyə yarayan (yeməli-içməli nə varsa).",
+  "en": "(things) to eat and drink",
+  "pos": "adjective"
+ },
+ "yer-yataq": {
+  "az": "Yatmaq üçün salınan yer, yorğan-döşək; yataq (yer-yataq salmaq).",
+  "en": "bed, bedding, a place to sleep",
+  "pos": "noun"
+ },
+ "yer-yataqlı": {
+  "skip": "meaning not certain"
+ },
+ "yeriş-duruş": {
+  "az": "İnsanın yeriyib-durma tərzi; görkəm, duruş.",
+  "en": "bearing, deportment, carriage",
+  "pos": "noun"
+ },
+ "yerişli-duruşlu": {
+  "az": "Gözəl yerişi və duruşu olan; qamətli, ləyaqətli görkəmli.",
+  "en": "of fine bearing, stately, graceful",
+  "pos": "adjective"
+ },
+ "yerli-yerindəcə": {
+  "skip": "meaning not certain"
+ },
+ "yerli-yurdlu": {
+  "az": "Yeri-yurdu, evi-eşiyi olan; oturaq, məskunlaşmış.",
+  "en": "settled, having a home",
+  "pos": "adjective"
+ },
+ "yerli-ənənəvi": {
+  "az": "Yerli şəraitə və ənənələrə xas olan (yerli-ənənəvi sənətkarlıq).",
+  "en": "local and traditional",
+  "pos": "adjective"
+ },
+ "yersiz-yataqsız": {
+  "az": "Yatmağa yeri, yatacağı olmayan; evsiz-eşiksiz.",
+  "en": "homeless, with nowhere to sleep",
+  "pos": "adjective"
+ },
+ "yeyib-doymaq": {
+  "az": "Yemək yeyib tam doymaq; qarnını doyurmaq.",
+  "en": "to eat one's fill",
+  "pos": "verb"
+ },
+ "yiyə-sahib": {
+  "az": "Bir şeyin sahibi, yiyəsi; qayğısına qalan, himayədar.",
+  "en": "owner, master; protector, guardian",
+  "pos": "noun"
+ },
+ "yiyə-sahibli": {
+  "az": "Yiyəsi, sahibi olan; himayəsiz olmayan.",
+  "en": "having an owner or protector",
+  "pos": "adjective"
+ },
+ "yiyəli-sahibli": {
+  "az": "Yiyəsi, sahibi olan; qayğısına qalanı olan.",
+  "en": "having an owner; looked after, cared for",
+  "pos": "adjective"
+ },
+ "yiyəsiz-sahibsiz": {
+  "az": "Heç bir yiyəsi, sahibi olmayan; baxımsız, kimsəsiz.",
+  "en": "ownerless, abandoned, unprotected",
+  "pos": "adjective"
+ },
+ "yod-benzol": {
+  "skip": "meaning not certain"
+ },
+ "yod-bromid": {
+  "az": "Tərkibində yod və brom birləşmələri olan (yod-bromid suları).",
+  "en": "iodine-bromide (e.g. of mineral waters)",
+  "pos": "adjective"
+ }
+}

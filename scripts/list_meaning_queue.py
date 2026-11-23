@@ -23,6 +23,7 @@ B = b.Builder(json.loads(Path(model).read_text()), sqlite3.connect(f'file:{expla
               sqlite3.connect(f'file:{bilingual}?mode=ro', uri=True))
 B.paraphrases()
 B.authored()
+B.meanings(early=True)
 for _ in range(6):
     size = len(B.definitions) + len(B.edges)
     B.print_notes(); B.rules(); B.quantified(); B.loan_families(); B.combining_heads(); B.compounds()

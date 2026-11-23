@@ -1,0 +1,921 @@
+{
+ "şair-yazıçı": {
+  "az": "Həm şair, həm də yazıçı olan şəxs; şeir və nəsr yazan qələm sahibi.",
+  "en": "poet and writer",
+  "pos": "noun"
+ },
+ "şair-ədəbiyyatşünas": {
+  "az": "Həm şeir yazan, həm də ədəbiyyatı elmi cəhətdən tədqiq edən şəxs.",
+  "en": "poet and literary scholar",
+  "pos": "noun"
+ },
+ "şal-çuxa": {
+  "az": "Şal, çuxa və bu kimi köhnə milli kişi geyimləri.",
+  "en": "traditional national dress (shawl, chokha, etc.)",
+  "pos": "noun"
+ },
+ "şalvar-köynək": {
+  "az": "Şalvar, köynək və bu kimi geyim əşyaları; üst-baş.",
+  "en": "clothes (trousers, shirts, etc.)",
+  "pos": "noun"
+ },
+ "şalğam-çuğundur": {
+  "az": "Şalğam, çuğundur və bu kimi kökümeyvəli tərəvəzlər.",
+  "en": "turnips and beets; root vegetables",
+  "pos": "noun"
+ },
+ "şam-çıraq": {
+  "az": "Şam, çıraq və bu kimi işıq vasitələri; işıq.",
+  "en": "candles and lamps; lighting",
+  "pos": "noun"
+ },
+ "şaman-qəhrəman": {
+  "az": "Həm şaman, həm də qəhrəman olan mifik obraz (qədim türk eposlarında).",
+  "en": "shaman hero (in ancient Turkic epics)",
+  "pos": "noun"
+ },
+ "şan-şərəf": {
+  "az": "Şöhrət və şərəf; ad-san, izzət.",
+  "en": "glory and honour",
+  "pos": "noun"
+ },
+ "şan-şərəfli": {
+  "az": "Böyük şöhrəti və şərəfi olan; izzətli, şanlı.",
+  "en": "glorious, honourable",
+  "pos": "adjective"
+ },
+ "şanlı-şərəfli": {
+  "az": "Şöhrət və şərəflə dolu; şanlı (şanlı-şərəfli tarix).",
+  "en": "glorious and honourable",
+  "pos": "adjective"
+ },
+ "şanssız-şöhrətsiz": {
+  "az": "Nə uğuru, nə də şöhrəti olan; adı-sanı çıxmamış.",
+  "en": "luckless and obscure, without luck or fame",
+  "pos": "adjective"
+ },
+ "şanssız-şərəfsiz": {
+  "az": "Nə uğuru, nə də şərəfi olan; hörmətdən, nüfuzdan məhrum.",
+  "en": "luckless and dishonoured",
+  "pos": "adjective"
+ },
+ "şaqqa-bud": {
+  "az": "Kəsilmiş heyvanın şaqqaları və budları; cəmdəkdən doğranmış iri ət parçaları.",
+  "en": "carcass halves and legs (of meat)",
+  "pos": "noun"
+ },
+ "şarjçı-rəssam": {
+  "az": "Şarj, yəni karikatura çəkən rəssam; karikaturaçı.",
+  "en": "caricaturist, cartoonist",
+  "pos": "noun"
+ },
+ "şil-kor": {
+  "az": "Əlil, şikəst və ya kor olan; sağlamlığını itirmiş.",
+  "en": "crippled and blind; disabled",
+  "pos": "adjective"
+ },
+ "şil-zəlil": {
+  "az": "Şikəst olub aciz, yazıq vəziyyətə düşmüş; köməksiz.",
+  "en": "crippled and helpless, wretched",
+  "pos": "adjective"
+ },
+ "şil-şikəst": {
+  "az": "Əl-ayağı şikəst olan; ağır əlil.",
+  "en": "crippled, maimed",
+  "pos": "adjective"
+ },
+ "şillə-şapalaq": {
+  "az": "Üzə vurulan şillələr, şapalaqlar; əllə döymə.",
+  "en": "slaps; slapping, a beating",
+  "pos": "noun"
+ },
+ "şimal-cənubi": {
+  "az": "Şimaldan cənuba doğru uzanan; şimal və cənubla bağlı olan (şimal-cənubi istiqamət).",
+  "en": "north-south",
+  "pos": "adjective"
+ },
+ "şir-pələng": {
+  "az": "Şir, pələng və bu kimi iri yırtıcılar; məcazən igid, qüvvətli adam.",
+  "en": "lions and tigers; fig. a brave, strong man",
+  "pos": "noun"
+ },
+ "şir-qaplan": {
+  "az": "Şir, qaplan və bu kimi iri yırtıcılar; məcazən igid, qorxmaz adam.",
+  "en": "lions and tigers; fig. a fearless hero",
+  "pos": "noun"
+ },
+ "şixtaçı-dozalayıcı": {
+  "az": "Metallurgiyada şixtanı, yəni sobaya yüklənəcək xammal qarışığını hazırlayıb ölçən fəhlə.",
+  "en": "charge mixer and doser (metallurgy worker)",
+  "pos": "noun"
+ },
+ "şlak-beton": {
+  "az": "Doldurucu kimi şlakdan istifadə edilməklə hazırlanan beton.",
+  "en": "slag concrete, cinder concrete",
+  "pos": "noun"
+ },
+ "şlak-blok": {
+  "az": "Şlakbetondan hazırlanan tikinti bloku.",
+  "en": "cinder block, slag block",
+  "pos": "noun"
+ },
+ "şokolad-marmelad": {
+  "az": "Şokolad, marmelad və bu kimi şirniyyat.",
+  "en": "chocolate and marmalade; sweets",
+  "pos": "noun"
+ },
+ "şokoladlı-marmeladlı": {
+  "az": "İçində şokolad və marmelad olan (şokoladlı-marmeladlı tort).",
+  "en": "with chocolate and marmalade",
+  "pos": "adjective"
+ },
+ "şokoladlı-qozlu": {
+  "az": "Şokolad və qoz qatılmış (şokoladlı-qozlu peçenye).",
+  "en": "with chocolate and walnuts",
+  "pos": "adjective"
+ },
+ "şor-şit": {
+  "az": "Yeməyin duzunun çox və ya az olması; duz baxımından dadı.",
+  "en": "saltiness or blandness (of food)",
+  "pos": "noun"
+ },
+ "şorlaşma-duzlaşma": {
+  "az": "Torpağın və ya suyun tərkibində duzun artması; şoranlaşma.",
+  "en": "salinization",
+  "pos": "noun"
+ },
+ "şou-tamaşa": {
+  "az": "Şou xarakterli tamaşa; əyləncəli səhnə proqramı.",
+  "en": "show, stage show",
+  "pos": "noun"
+ },
+ "şpatel-qoruyucu": {
+  "skip": "meaning not certain"
+ },
+ "şpris-maşın": {
+  "az": "Qiyməni, xəmiri və s. təzyiqlə sıxıb qılafa və ya qəlibə dolduran maşın.",
+  "en": "extruding machine, filling machine (e.g. sausage stuffer)",
+  "pos": "noun"
+ },
+ "şpris-tübik": {
+  "az": "İynəsi olan, bir dozalıq dərmanla doldurulmuş birdəfəlik tübik.",
+  "en": "syrette (single-dose tube with an attached needle)",
+  "pos": "noun"
+ },
+ "ştamp-qaynaq": {
+  "az": "Ştamplanmış hissələrin qaynaqla birləşdirilməsi üsulu (ştamp-qaynaq konstruksiyası).",
+  "en": "stamp-welding; stamped-and-welded",
+  "pos": "noun"
+ },
+ "ştamplanma-bölünmə": {
+  "skip": "meaning not certain"
+ },
+ "ştamplayıcı-bərpaçı": {
+  "skip": "meaning not certain"
+ },
+ "ştamplayıcı-dəmirçi": {
+  "az": "Metalı qəliblərdə döyüb ştamplayan dəmirçi fəhlə.",
+  "en": "drop forger, stamping smith",
+  "pos": "noun"
+ },
+ "ştrix-kodlama": {
+  "az": "Məhsulları ştrix-kodla işarələmə.",
+  "en": "bar coding",
+  "pos": "noun"
+ },
+ "ştrix-kodlamaq": {
+  "az": "Məhsulun üzərinə ştrix-kod vurmaq, onu ştrix-kodla işarələmək.",
+  "en": "to barcode",
+  "pos": "verb"
+ },
+ "ştrix-kodlaşdırma": {
+  "az": "Məhsulları və ya sənədləri ştrix-kodla işarələmə.",
+  "en": "bar coding",
+  "pos": "noun"
+ },
+ "ştrix-kodlaşdırmaq": {
+  "az": "Məhsula və ya sənədə ştrix-kod vermək, onu ştrix-kodla işarələmək.",
+  "en": "to barcode",
+  "pos": "verb"
+ },
+ "şurup-qayka": {
+  "az": "Şurup, qayka və bu kimi bərkidici hissələr.",
+  "en": "screws and nuts; fasteners",
+  "pos": "noun"
+ },
+ "şuruplu-qaykalı": {
+  "az": "Şurup və qayka ilə bərkidilən.",
+  "en": "fastened with screws and nuts",
+  "pos": "adjective"
+ },
+ "şöhrətli-şöhrətsiz": {
+  "az": "Şöhrətli olan da, olmayan da; tanınan-tanınmayan hamı.",
+  "en": "famous and unknown alike",
+  "pos": "adjective"
+ },
+ "şövq-həvəs": {
+  "az": "Bir işə böyük maraq, coşqu və istək.",
+  "en": "zeal, enthusiasm",
+  "pos": "noun"
+ },
+ "şövq-həvəsli": {
+  "az": "Böyük maraq və coşqu ilə dolu; çox həvəsli.",
+  "en": "enthusiastic, eager",
+  "pos": "adjective"
+ },
+ "şövq-həvəssiz": {
+  "az": "Heç bir maraq və coşqu göstərmədən; könülsüz.",
+  "en": "unenthusiastically, half-heartedly",
+  "pos": "adverb"
+ },
+ "şövqlü-həvəsli": {
+  "az": "Böyük həvəs və coşqu ilə işləyən, ruhlu; çox həvəsli.",
+  "en": "enthusiastic, eager",
+  "pos": "adjective"
+ },
+ "şövqsüz-həvəssiz": {
+  "az": "Həvəs və ruh yüksəkliyi olmadan; könülsüz.",
+  "en": "unenthusiastically, listlessly",
+  "pos": "adverb"
+ },
+ "şütüyüb-keçmək": {
+  "az": "Böyük sürətlə yanından və ya içindən ötüb keçmək.",
+  "en": "to whizz past, to dash by",
+  "pos": "verb"
+ },
+ "şüşə-kristal": {
+  "az": "Şüşə və büllur; bunlardan hazırlanan qab-qacaq.",
+  "en": "glass and crystal (ware)",
+  "pos": "noun"
+ },
+ "şüşə-kətan": {
+  "az": "Şüşə liflərindən hazırlanan kətanabənzər material.",
+  "en": "glass-fibre cloth, glass mat",
+  "pos": "noun"
+ },
+ "şüşə-lifli": {
+  "az": "Şüşə liflərindən ibarət olan və ya onlarla möhkəmləndirilmiş.",
+  "en": "glass-fibre, fibreglass",
+  "pos": "adjective"
+ },
+ "şüşə-metal": {
+  "az": "Şüşə və metaldan ibarət olan (şüşə-metal konstruksiya).",
+  "en": "glass-and-metal",
+  "pos": "adjective"
+ },
+ "şüşə-mərmər": {
+  "az": "Mərmərə bənzəyən dekorativ şüşə üzlük materialı.",
+  "en": "glass marble (marble-like facing glass)",
+  "pos": "noun"
+ },
+ "şüşə-paket": {
+  "az": "Hermetik birləşdirilmiş iki və ya daha çox şüşə təbəqəsindən ibarət pəncərə bloku.",
+  "en": "insulated glass unit, double glazing",
+  "pos": "noun"
+ },
+ "şüşə-plastik": {
+  "az": "Şüşə liflə möhkəmləndirilmiş plastik material.",
+  "en": "fibreglass, glass-reinforced plastic",
+  "pos": "noun"
+ },
+ "şüşə-ruberoid": {
+  "az": "Şüşə lifli əsas üzərində hazırlanan ruberoid; dam örtüyü materialı.",
+  "en": "glass-fibre-based roofing felt",
+  "pos": "noun"
+ },
+ "şüşə-sap": {
+  "az": "Şüşə liflərindən hazırlanan sap.",
+  "en": "glass yarn, glass-fibre thread",
+  "pos": "noun"
+ },
+ "şüşə-taxta": {
+  "az": "Şüşə və taxtadan hazırlanmış (şüşə-taxta arakəsmə).",
+  "en": "glass-and-wood",
+  "pos": "adjective"
+ },
+ "şüşə-tekstolit": {
+  "az": "Şüşə parça qatlarını qatranla birləşdirməklə alınan bərk təbəqəli material.",
+  "en": "glass-fibre laminate, glass textolite",
+  "pos": "noun"
+ },
+ "şüşəli-keramikalı": {
+  "az": "Şüşə və keramikadan ibarət olan.",
+  "en": "glass-and-ceramic",
+  "pos": "adjective"
+ },
+ "şüşəli-plastikli": {
+  "az": "Şüşə və plastik hissələri olan.",
+  "en": "with glass and plastic (parts)",
+  "pos": "adjective"
+ },
+ "şüşəli-taxtalı": {
+  "az": "Şüşə və taxta hissələrdən ibarət olan (şüşəli-taxtalı qapı).",
+  "en": "glass-and-wood, glazed wooden",
+  "pos": "adjective"
+ },
+ "şırımlı-topal": {
+  "skip": "meaning not certain"
+ },
+ "şəfa-cəfa": {
+  "skip": "meaning not certain"
+ },
+ "şəfalı-səfalı": {
+  "az": "Həm şəfaverici, həm də gözəl, xoş olan (yer, iqlim haqqında).",
+  "en": "healing and pleasant (of a place or climate)",
+  "pos": "adjective"
+ },
+ "şəhər-bazar": {
+  "az": "Şəhər və onun bazarı; alış-veriş və ictimai həyat yerləri.",
+  "en": "town and marketplace",
+  "pos": "noun"
+ },
+ "şəhər-muzey": {
+  "az": "Tarixi-memarlıq abidələri ilə zəngin olub bütövlükdə qorunan şəhər.",
+  "en": "museum city",
+  "pos": "noun"
+ },
+ "şən-şux": {
+  "az": "Çox şən, gümrah və şux.",
+  "en": "merry, lively, cheerful",
+  "pos": "adjective"
+ },
+ "şərab-araq": {
+  "az": "Şərab, araq və bu kimi spirtli içkilər.",
+  "en": "wine and vodka; alcoholic drinks",
+  "pos": "noun"
+ },
+ "şərab-konyak": {
+  "az": "Şərab, konyak və bu kimi spirtli içkilər (şərab-konyak zavodu).",
+  "en": "wine and brandy; alcoholic drinks",
+  "pos": "noun"
+ },
+ "şərli-böhtanlı": {
+  "az": "Şər və böhtanla dolu; iftiralı.",
+  "en": "slanderous",
+  "pos": "adjective"
+ },
+ "şərq-qərbli": {
+  "skip": "meaning not certain"
+ },
+ "şərqşünas-farsşünas": {
+  "az": "Fars dili və mədəniyyəti üzrə ixtisaslaşmış şərqşünas.",
+  "en": "orientalist and Persianist",
+  "pos": "noun"
+ },
+ "şərqşünas-ərəbşünas": {
+  "az": "Ərəb dili və mədəniyyəti üzrə ixtisaslaşmış şərqşünas.",
+  "en": "orientalist and Arabist",
+  "pos": "noun"
+ },
+ "şərti-statik": {
+  "skip": "meaning not certain"
+ },
+ "şərtli-şərtsiz": {
+  "az": "Həm şərtli, həm də şərtsiz olan.",
+  "en": "conditional and unconditional",
+  "pos": "adjective"
+ },
+ "şərçi-böhtançı": {
+  "az": "Başqalarına şər atıb böhtan yayan adam; iftiraçı.",
+  "en": "slanderer",
+  "pos": "noun"
+ },
+ "əcəl-mayallaq": {
+  "skip": "meaning not certain"
+ },
+ "ədəbi-didaktik": {
+  "az": "Öyrətmək, tərbiyə etmək məqsədi daşıyan ədəbi (ədəbi-didaktik əsər).",
+  "en": "literary-didactic",
+  "pos": "adjective"
+ },
+ "ədəbi-dini": {
+  "az": "Həm ədəbi, həm də dini xarakter daşıyan (ədəbi-dini mətnlər).",
+  "en": "literary and religious",
+  "pos": "adjective"
+ },
+ "ədəbi-dramatik": {
+  "az": "Ədəbiyyat və dram sənəti ilə bağlı olan (ədəbi-dramatik verilişlər).",
+  "en": "literary and dramatic",
+  "pos": "adjective"
+ },
+ "ədəbi-ideoloji": {
+  "az": "Ədəbiyyat və ideologiya ilə bağlı olan (ədəbi-ideoloji mübarizə).",
+  "en": "literary and ideological",
+  "pos": "adjective"
+ },
+ "ədəbi-sənədli": {
+  "az": "Bədii üslubda yazılıb həqiqi faktlara və sənədlərə əsaslanan (ədəbi-sənədli povest).",
+  "en": "literary-documentary",
+  "pos": "adjective"
+ },
+ "ədəbiyyatçı-alim": {
+  "az": "Ədəbiyyatı elmi cəhətdən tədqiq edən alim; ədəbiyyatşünas.",
+  "en": "literary scholar",
+  "pos": "noun"
+ },
+ "ədəbsiz-ərkansız": {
+  "az": "Ədəb-ərkan bilməyən; tərbiyəsiz, kobud.",
+  "en": "ill-mannered, uncouth",
+  "pos": "adjective"
+ },
+ "əfsanəvi-alleqorik": {
+  "az": "Əfsanəyə əsaslanan və alleqorik məna daşıyan.",
+  "en": "legendary and allegorical",
+  "pos": "adjective"
+ },
+ "əfsanəvi-fantastik": {
+  "az": "Əfsanə və fantaziyaya əsaslanan (əfsanəvi-fantastik obrazlar).",
+  "en": "legendary and fantastic, mythical",
+  "pos": "adjective"
+ },
+ "əhli-namaz": {
+  "az": "Namaz qılan, dinin hökmlərinə əməl edən adam; dindar.",
+  "en": "one who keeps the prayers; a pious person",
+  "pos": "noun",
+  "parts": false
+ },
+ "əkdirib-biçdirmək": {
+  "az": "Torpağı başqasına əkdirib məhsulunu biçdirmək; əkin işlərini başqasının əli ilə gördürmək.",
+  "en": "to have (land) sown and harvested by others",
+  "pos": "verb"
+ },
+ "əks-alışma": {
+  "skip": "meaning not certain"
+ },
+ "əks-atom": {
+  "az": "Antihissəciklərdən (antiproton, antineytron, pozitron) təşkil olunmuş atom; antiatom.",
+  "en": "antiatom",
+  "pos": "noun"
+ },
+ "əks-ağırlıq": {
+  "az": "Bir yükü tarazlaşdırmaq üçün qarşı tərəfə qoyulan ağırlıq.",
+  "en": "counterweight",
+  "pos": "noun"
+ },
+ "əks-cavab": {
+  "az": "Bir hərəkətə və ya sözə qarşılıq olaraq verilən cavab.",
+  "en": "response, counter-reply, retort",
+  "pos": "noun"
+ },
+ "əks-cisim": {
+  "skip": "meaning not certain"
+ },
+ "əks-elektrik": {
+  "skip": "meaning not certain"
+ },
+ "əks-elektrod": {
+  "az": "Elektrokimyəvi hüceyrədə işçi elektrodla birlikdə cərəyan dövrəsini tamamlayan köməkçi elektrod.",
+  "en": "counter electrode",
+  "pos": "noun"
+ },
+ "əks-hazırlıq": {
+  "az": "Düşmən hücumunu qabaqlamaq üçün onun hücuma hazırlaşan qoşunlarına endirilən atəş zərbələri.",
+  "en": "counter-preparation (military)",
+  "pos": "noun"
+ },
+ "əks-hissəcik": {
+  "az": "Kütləsi eyni, yükü və bəzi başqa xassələri əks olan elementar hissəcik; antihissəcik.",
+  "en": "antiparticle",
+  "pos": "noun"
+ },
+ "əks-inkişaf": {
+  "az": "Geriyə, tənəzzül istiqamətində dəyişmə; reqres.",
+  "en": "regression, reverse development",
+  "pos": "noun"
+ },
+ "əks-inqilabçılıq": {
+  "az": "İnqilaba qarşı mübarizə; əks-inqilabi fəaliyyət.",
+  "en": "counter-revolutionism, counter-revolutionary activity",
+  "pos": "noun"
+ },
+ "əks-işarə": {
+  "az": "Riyaziyyatda müsbətin qarşısı olan mənfi və ya mənfinin qarşısı olan müsbət işarə.",
+  "en": "opposite sign",
+  "pos": "noun"
+ },
+ "əks-işarəli": {
+  "az": "İşarəsi qarşı tərəfin işarəsinə əks olan (əks-işarəli ədədlər).",
+  "en": "of opposite sign",
+  "pos": "adjective"
+ },
+ "əks-kalibr": {
+  "az": "Başqa kalibrləri yoxlamaq və tənzimləmək üçün işlədilən kalibr.",
+  "en": "check gauge, counter-gauge",
+  "pos": "noun"
+ },
+ "əks-maddə": {
+  "az": "Antihissəciklərdən ibarət olan maddə; antimaddə.",
+  "en": "antimatter",
+  "pos": "noun"
+ },
+ "əks-meyil": {
+  "az": "Əsas meylə əks istiqamətdə olan meyil, maillik.",
+  "en": "reverse slope, counter-gradient",
+  "pos": "noun"
+ },
+ "əks-məqam": {
+  "skip": "meaning not certain"
+ },
+ "əks-mərkəzləşmə": {
+  "skip": "meaning not certain"
+ },
+ "əks-oyun": {
+  "az": "Rəqibin planına və hücumlarına qarşı aparılan oyun.",
+  "en": "counterplay",
+  "pos": "noun"
+ },
+ "əks-parıltı": {
+  "az": "Bir səthdən əks olunan parıltı; işığın əksi.",
+  "en": "reflected glare, reflection",
+  "pos": "noun"
+ },
+ "əks-qoruyucu": {
+  "skip": "meaning not certain"
+ },
+ "əks-qövs": {
+  "skip": "meaning not certain"
+ },
+ "əks-qütb": {
+  "az": "Qarşı tərəfdəki, əks qütb; məcazən tam ziddi olan şey.",
+  "en": "opposite pole; antipode",
+  "pos": "noun"
+ },
+ "əks-rabitə": {
+  "az": "Sistemin çıxışından girişinə qaytarılan siqnal və ya təsir; məcazən rəy, cavab reaksiyası.",
+  "en": "feedback",
+  "pos": "noun"
+ },
+ "əks-rele": {
+  "skip": "meaning not certain"
+ },
+ "əks-sürüşmə": {
+  "skip": "meaning not certain"
+ },
+ "əks-teorem": {
+  "az": "Verilmiş teoremin şərti ilə hökmünün yerini dəyişməklə alınan teorem.",
+  "en": "converse theorem",
+  "pos": "noun"
+ },
+ "əks-transformasiya": {
+  "az": "Verilmiş çevirmənin nəticəsini ilkin vəziyyətə qaytaran çevirmə.",
+  "en": "inverse transformation",
+  "pos": "noun"
+ },
+ "əks-təbliğatçı": {
+  "az": "Rəqib təbliğatına qarşı təbliğat aparan şəxs.",
+  "en": "counter-propagandist",
+  "pos": "noun"
+ },
+ "əks-tərcümə": {
+  "az": "Tərcümə olunmuş mətnin yenidən ilkin dilə tərcüməsi.",
+  "en": "back-translation",
+  "pos": "noun"
+ },
+ "əks-yük": {
+  "skip": "meaning not certain (counterweight or return cargo)"
+ },
+ "əks-zəhər": {
+  "az": "Zəhərin təsirini zərərsizləşdirən maddə; antidot.",
+  "en": "antidote",
+  "pos": "noun"
+ },
+ "əks-şüalanma": {
+  "az": "Atmosferin Yer səthinə doğru yaydığı istilik şüalanması.",
+  "en": "counter-radiation, atmospheric back radiation",
+  "pos": "noun"
+ },
+ "əks-əlifba": {
+  "skip": "meaning not certain"
+ },
+ "əkənəkli-biçənəkli": {
+  "az": "Əkin yerləri və biçənəkləri olan (kənd, təsərrüfat haqqında).",
+  "en": "having ploughland and hay meadows",
+  "pos": "adjective"
+ },
+ "əlli-altmış": {
+  "az": "Təxminən əlli ilə altmış arasında olan say.",
+  "en": "fifty or sixty, fifty to sixty",
+  "pos": "numeral"
+ },
+ "əlçatmaz-ünyetməz": {
+  "az": "Çox uzaqda olan, nə əl, nə də səs çatan; tamamilə əlçatmaz.",
+  "en": "remote, inaccessible, far beyond reach",
+  "pos": "adjective"
+ },
+ "ələk-konveyer": {
+  "skip": "technical term, meaning not certain"
+ },
+ "əmi-dayı": {
+  "az": "Əmilər və dayılar; ata və ana tərəfdən yaxın qohumlar.",
+  "en": "uncles on both sides; close relatives",
+  "pos": "noun"
+ },
+ "əmi-dayılı": {
+  "az": "Əmisi və dayısı olan; ata və ana tərəfdən qohumları olan.",
+  "en": "having uncles on both sides; having close kin",
+  "pos": "adjective"
+ },
+ "əmili-dayılı": {
+  "az": "Əmisi və dayısı olan; ata və ana tərəfdən qohumları olan.",
+  "en": "having uncles on both sides; having close kin",
+  "pos": "adjective"
+ },
+ "əmin-aman": {
+  "az": "Dinc, təhlükəsiz vəziyyət; sakitlik, asayiş.",
+  "en": "peace and security, tranquillity",
+  "pos": "noun"
+ },
+ "əmin-arxayınlıq": {
+  "az": "Tam sakitlik və arxayınlıq; heç bir narahatlığın olmaması.",
+  "en": "calm assurance, peace of mind",
+  "pos": "noun"
+ },
+ "əmin-arxayınlıqla": {
+  "az": "Tam arxayın halda, heç narahat olmadan.",
+  "en": "with complete assurance, calmly",
+  "pos": "adverb"
+ },
+ "əmtəəşünas-ekspert": {
+  "az": "Malların növünü və keyfiyyətini yoxlayıb rəy verən mütəxəssis.",
+  "en": "commodity expert, merchandise appraiser",
+  "pos": "noun"
+ },
+ "əmud-toppuz": {
+  "az": "Əmud, toppuz və bu kimi köhnə zərbəli silahlar.",
+  "en": "maces (old striking weapons)",
+  "pos": "noun"
+ },
+ "əmudlu-toppuzlu": {
+  "az": "Əmud və toppuzla silahlanmış.",
+  "en": "armed with maces",
+  "pos": "adjective"
+ },
+ "əmək-islah düşərgəsi": {
+  "az": "Məhkumların məcburi əməklə cəza çəkdiyi islah müəssisəsi.",
+  "en": "corrective labour camp",
+  "pos": "noun"
+ },
+ "ənsə-dilaltı": {
+  "skip": "anatomical term, meaning not certain"
+ },
+ "ənsə-gicgah": {
+  "az": "Ənsə və gicgah nahiyələrinə aid olan (ənsə-gicgah nahiyəsi).",
+  "en": "occipitotemporal",
+  "pos": "adjective"
+ },
+ "ənsə-onurğa": {
+  "az": "Ənsə və onurğaya aid olan; onlar arasında yerləşən.",
+  "en": "occipitovertebral (of the back of the head and the spine)",
+  "pos": "adjective"
+ },
+ "ərazi-coğrafi": {
+  "az": "Ərazi və coğrafi mövqe ilə bağlı olan (ərazi-coğrafi bölgü).",
+  "en": "territorial-geographical",
+  "pos": "adjective"
+ },
+ "ərazi-mexaniki": {
+  "skip": "meaning not certain"
+ },
+ "əsib-coşmaq": {
+  "az": "Bərk hirslənib qışqırmaq, hiddətlənmək; (külək, dəniz) şiddətlə coşmaq.",
+  "en": "to rage, to rant and rave; (of wind or sea) to storm",
+  "pos": "verb"
+ },
+ "əsil-kök": {
+  "az": "Nəsil, soy-kök; mənşə.",
+  "en": "lineage, ancestry, origin",
+  "pos": "noun"
+ },
+ "əsil-köklü": {
+  "az": "Soyu-kökü məlum və hörmətli nəsildən olan.",
+  "en": "of good stock, well-born",
+  "pos": "adjective"
+ },
+ "əsil-köksüz": {
+  "az": "Soyu-kökü bəlli olmayan; mənşəyi məchul.",
+  "en": "of no lineage, rootless",
+  "pos": "adjective"
+ },
+ "əsil-nəcabətsiz": {
+  "az": "Nəcib nəsildən olmayan; əsil-nəcabəti olmayan.",
+  "en": "lowborn, of no noble lineage",
+  "pos": "adjective"
+ },
+ "əsil-zat": {
+  "az": "Nəsil, soy, mənşə (əsil-zatı bilinməyən).",
+  "en": "lineage, origin, ancestry",
+  "pos": "noun"
+ },
+ "əsilsiz-köksüz": {
+  "az": "Soyu-kökü bəlli olmayan; məcazən alçaq, ləyaqətsiz.",
+  "en": "of unknown origin, rootless; (pejorative) lowborn",
+  "pos": "adjective"
+ },
+ "əsilsiz-nəcabətsiz": {
+  "az": "Nəcib nəsildən olmayan; məcazən alçaq, ləyaqətsiz.",
+  "en": "lowborn, base",
+  "pos": "adjective"
+ },
+ "əsilsiz-nəsilsiz": {
+  "az": "Əsli-nəsli bəlli olmayan; soyu-kökü olmayan.",
+  "en": "of no lineage, of unknown descent",
+  "pos": "adjective"
+ },
+ "əsilsiz-nəsəbsiz": {
+  "az": "Əsli-nəsəbi bəlli olmayan; soyu-kökü olmayan.",
+  "en": "of no pedigree, of unknown descent",
+  "pos": "adjective"
+ },
+ "ətli-piyli": {
+  "az": "Əti və piyi bol olan; kök, dolğun.",
+  "en": "plump, fleshy and fat",
+  "pos": "adjective"
+ },
+ "ətli-südlü": {
+  "az": "Həm ət, həm də süd məhsuldarlığı olan (heyvan cinsi haqqında); ət və süd qatılmış.",
+  "en": "meat-and-milk (of breeds); with meat and milk",
+  "pos": "adjective"
+ },
+ "ətli-sümüklü": {
+  "az": "Əti və sümüyü olan (ət parçası haqqında); iri bədənli, dolğun.",
+  "en": "meat-on-the-bone; sturdy, big-boned",
+  "pos": "adjective"
+ },
+ "ətli-yumurtalı": {
+  "az": "Ət və yumurta ilə hazırlanmış (yemək haqqında); həm ət, həm yumurta verən (quş cinsi).",
+  "en": "with meat and eggs; (of poultry) meat-and-egg",
+  "pos": "adjective"
+ },
+ "ətli-əndamlı": {
+  "az": "Bədəni dolğun və biçimli olan.",
+  "en": "full-bodied, plump and shapely",
+  "pos": "adjective"
+ },
+ "ətlik-yumurtalıq": {
+  "az": "Həm ət, həm də yumurta üçün yetişdirilən (quş cinsi haqqında).",
+  "en": "meat-and-egg, dual-purpose (of poultry breeds)",
+  "pos": "adjective",
+  "parts": false
+ },
+ "ətləşib-piyləşmək": {
+  "az": "Kökəlmək, bədənə ət və piy yığmaq.",
+  "en": "to grow fat, to put on flesh",
+  "pos": "verb"
+ },
+ "əvvəlinci-axırıncı": {
+  "az": "Həm ilk, həm də son olan (əvvəlinci-axırıncı dəfə).",
+  "en": "first and last",
+  "pos": "adjective"
+ },
+ "əxlaqi-dini": {
+  "az": "Əxlaq və dinlə bağlı olan (əxlaqi-dini dəyərlər).",
+  "en": "moral and religious",
+  "pos": "adjective"
+ },
+ "əxlaqi-mistik": {
+  "az": "Əxlaqi və mistik məzmun daşıyan.",
+  "en": "moral and mystical",
+  "pos": "adjective"
+ },
+ "əxlaqi-nəsihətamiz": {
+  "az": "Əxlaqi öyüd-nəsihət xarakteri daşıyan (əxlaqi-nəsihətamiz şeirlər).",
+  "en": "moralizing, morally instructive",
+  "pos": "adjective"
+ },
+ "əxlaqi-psixoloji": {
+  "az": "Əxlaq və psixologiya ilə bağlı olan (əxlaqi-psixoloji iqlim).",
+  "en": "moral and psychological",
+  "pos": "adjective"
+ },
+ "əzabsız-işgəncəsiz": {
+  "az": "Heç bir əzab və işgəncə olmayan; ağrısız-acısız.",
+  "en": "without pain or torment",
+  "pos": "adjective"
+ },
+ "əzabsız-əziyyətsiz": {
+  "az": "Heç bir zəhmət, çətinlik çəkmədən əldə olunan; asan.",
+  "en": "effortless, without hardship",
+  "pos": "adjective"
+ },
+ "əzib-büzmək": {
+  "az": "Bir şeyi əzib qırışdırmaq, büküb əzişdirmək.",
+  "en": "to crumple, to crush",
+  "pos": "verb"
+ },
+ "əzmə-büzmə": {
+  "skip": "meaning not certain"
+ },
+ "əzəl-axır": {
+  "az": "Bir şeyin başlanğıcı və sonu; əvvəl-axır.",
+  "en": "beginning and end",
+  "pos": "noun"
+ },
+ "əzəli-axırı": {
+  "az": "Əvvəldən axıra qədər, həmişə (əzəli-axırı belə olub).",
+  "en": "always, all along, from beginning to end",
+  "pos": "adverb"
+ },
+ "əzələ-dəri": {
+  "az": "Əzələ və dəriyə aid olan (əzələ-dəri siniri).",
+  "en": "musculocutaneous",
+  "pos": "adjective"
+ },
+ "abidəqoyma": {
+  "az": "Abidə ucaltma, heykəl qoyma.",
+  "en": "erection of monuments",
+  "pos": "noun"
+ },
+ "acıağacı": {
+  "skip": "plant name, not certain"
+ },
+ "acıotu": {
+  "skip": "plant name, not certain"
+ },
+ "acıpencər": {
+  "skip": "plant name, not certain"
+ },
+ "acıpencərli": {
+  "skip": "plant name, not certain"
+ },
+ "acıquşəppəyi": {
+  "skip": "plant name, not certain"
+ },
+ "adamcanlı": {
+  "skip": "meaning not certain"
+ },
+ "adamtanıma": {
+  "skip": "meaning not certain"
+ },
+ "adamöldürən": {
+  "az": "Adam öldürən şəxs; qatil.",
+  "en": "killer, murderer",
+  "pos": "noun"
+ },
+ "ahuyeriş": {
+  "az": "Ceyran kimi zərif yerişi olan (gözəl qadın haqqında, poeziyada).",
+  "en": "with a gazelle-like gait (of a beautiful woman, poetic)",
+  "pos": "adjective"
+ },
+ "akvametr": {
+  "skip": "meaning not certain"
+ },
+ "akvapoetik": {
+  "skip": "meaning not certain"
+ },
+ "akvapoetika": {
+  "skip": "meaning not certain"
+ },
+ "alaboyun": {
+  "skip": "animal name, not certain"
+ },
+ "alabıtraq": {
+  "skip": "plant name, not certain"
+ },
+ "alacadamaq": {
+  "skip": "meaning not certain"
+ },
+ "alacagülü": {
+  "skip": "meaning not certain"
+ },
+ "alagüllü": {
+  "az": "Rəngarəng güllərlə bəzədilmiş (parça haqqında).",
+  "en": "with colourful flowers, flowery (of fabric)",
+  "pos": "adjective"
+ },
+ "alapələng": {
+  "skip": "animal name, not certain"
+ },
+ "alapələngi": {
+  "az": "Pələng dərisi kimi ala-bəzək, zolaqlı və ya xallı.",
+  "en": "variegated, tiger-striped",
+  "pos": "adjective"
+ },
+ "almaqurdu": {
+  "skip": "insect name, not certain"
+ },
+ "almaçiçəyi": {
+  "skip": "plant or colour name, not certain"
+ },
+ "altbölmə": {
+  "az": "Bölmənin içindəki daha kiçik hissə; yarımbölmə.",
+  "en": "subsection, subdivision",
+  "pos": "noun"
+ },
+ "altqovluq": {
+  "az": "Kompüterdə başqa qovluğun içində yerləşən qovluq.",
+  "en": "subfolder, subdirectory",
+  "pos": "noun"
+ },
+ "altstandart": {
+  "skip": "meaning not certain"
+ },
+ "altunotu": {
+  "skip": "plant name, not certain"
+ },
+ "altıadamlıq": {
+  "az": "Altı nəfər üçün nəzərdə tutulan (altıadamlıq çadır).",
+  "en": "six-person, for six people",
+  "pos": "adjective",
+  "parts": false
+ }
+}

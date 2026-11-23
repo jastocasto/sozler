@@ -1,0 +1,971 @@
+{
+ "qorxu-üşütməli": {
+  "az": "Adamı qorxudub tüklərini biz-biz edən, vahiməli.",
+  "en": "spine-chilling, terrifying",
+  "pos": "adjective"
+ },
+ "qorxub-titrəmək": {
+  "az": "Qorxudan əsmək, bərk qorxub titrəmək.",
+  "en": "to tremble with fear",
+  "pos": "verb"
+ },
+ "qorxub-çəkinmək": {
+  "az": "Qorxduğu üçün bir işdən, bir şeydən geri durmaq, ehtiyat etmək.",
+  "en": "to shrink back in fear, to be afraid",
+  "pos": "verb"
+ },
+ "qovun-qarpız": {
+  "az": "Qovun və qarpız; bostan məhsulları.",
+  "en": "melons and watermelons; melon crops",
+  "pos": "noun"
+ },
+ "qovun-qarpızlı": {
+  "az": "Qovunu, qarpızı olan (qovun-qarpızlı bostan).",
+  "en": "with melons and watermelons",
+  "pos": "adjective"
+ },
+ "qovunlu-qarpızlı": {
+  "az": "Qovunu və qarpızı bol olan (qovunlu-qarpızlı bostan).",
+  "en": "with melons and watermelons",
+  "pos": "adjective"
+ },
+ "qovurma-çörək": {
+  "az": "Qovurma və çörək; ət qovurması ilə çörəkdən ibarət sadə yemək.",
+  "en": "fried meat (qovurma) and bread",
+  "pos": "noun"
+ },
+ "qovurğa-çərəz": {
+  "az": "Qovurğa, qoz-fındıq və başqa çərəzlər (xüsusən Novruz süfrəsində).",
+  "en": "roasted grain and nuts; snacks, nibbles",
+  "pos": "noun"
+ },
+ "qovurğalı-çərəzli": {
+  "az": "Qovurğası və çərəzi olan (qovurğalı-çərəzli Novruz süfrəsi).",
+  "en": "with roasted grain and snacks",
+  "pos": "adjective"
+ },
+ "qoyun-qoltuq": {
+  "az": "Bir-birini qucaqlamış halda, qucaq-qucağa (qoyun-qoltuq yatmaq).",
+  "en": "in each other's arms, closely embracing",
+  "pos": "adverb",
+  "parts": false
+ },
+ "qoz-fındıqlı": {
+  "az": "İçinə və ya üstünə qoz, fındıq qatılmış.",
+  "en": "with nuts, containing walnuts and hazelnuts",
+  "pos": "adjective"
+ },
+ "qoz-kişmiş": {
+  "az": "Qoz və kişmiş; şirniyyat və xörəklərə qatılan quru meyvə və çərəz.",
+  "en": "walnuts and raisins",
+  "pos": "noun"
+ },
+ "qozlu-kişmişli": {
+  "az": "İçinə qoz və kişmiş qatılmış (qozlu-kişmişli şirniyyat).",
+  "en": "with walnuts and raisins",
+  "pos": "adjective"
+ },
+ "qozlu-meyvəli": {
+  "az": "Qozu və meyvəsi bol olan (qozlu-meyvəli bağ).",
+  "en": "with walnuts and fruit",
+  "pos": "adjective"
+ },
+ "qoşub-düzmək": {
+  "az": "Şeir, mahnı, nağıl və s. düzəltmək; özündən uydurub danışmaq.",
+  "en": "to compose (verses, songs); to make up, invent",
+  "pos": "verb"
+ },
+ "qoşub-yazmaq": {
+  "az": "Şeir, mahnı və s. düzəldib yazıya almaq; uydurub yazmaq.",
+  "en": "to compose and write down (verses); to make up in writing",
+  "pos": "verb"
+ },
+ "qrafik-analitik": {
+  "az": "Qrafik qurma ilə analitik hesablamanı birləşdirən (qrafik-analitik üsul).",
+  "en": "graphic-analytical",
+  "pos": "adjective"
+ },
+ "qrafit-polimer": {
+  "az": "Qrafit və polimerdən ibarət (qrafit-polimer kompozit material).",
+  "en": "graphite-polymer",
+  "pos": "adjective"
+ },
+ "qrafit-qaz": {
+  "az": "Neytronları qrafitlə yavaşıdan və qazla soyudulan (qrafit-qaz reaktoru).",
+  "en": "graphite-gas (gas-cooled, graphite-moderated)",
+  "pos": "adjective",
+  "parts": false
+ },
+ "qram-ion": {
+  "az": "Kütləsi qramla ifadə edilmiş, ionun kütləsinə ədədcə bərabər olan maddə miqdarı.",
+  "en": "gram-ion",
+  "pos": "noun"
+ },
+ "qram-kalori": {
+  "az": "Bir qram suyu bir dərəcə qızdırmaq üçün lazım olan istilik miqdarı; kiçik kalori.",
+  "en": "gram calorie, small calorie",
+  "pos": "noun"
+ },
+ "qram-kütlə": {
+  "skip": "meaning not certain"
+ },
+ "qram-molekulyar": {
+  "az": "Maddənin qramla ifadə olunan molekulyar kütləsinə aid (qram-molekulyar həcm).",
+  "en": "gram-molecular",
+  "pos": "adjective"
+ },
+ "qram-qüvvə": {
+  "az": "Bir qram kütləli cismin normal ağırlıq qüvvəsinə bərabər qüvvə vahidi.",
+  "en": "gram-force",
+  "pos": "noun"
+ },
+ "qrammatik-semantik": {
+  "az": "Həm qrammatik, həm də semantik cəhətə aid olan.",
+  "en": "grammatical-semantic",
+  "pos": "adjective"
+ },
+ "qrant-element": {
+  "az": "Güzəştli kreditdə qrant payını, yəni kreditin güzəşt dərəcəsini göstərən göstərici.",
+  "en": "grant element (of a concessional loan)",
+  "pos": "noun"
+ },
+ "qreyder-elevator": {
+  "az": "Torpağı kəsib transportyorla nəqliyyat vasitəsinə yükləyən yol-tikinti maşını.",
+  "en": "elevating grader",
+  "pos": "noun",
+  "parts": false
+ },
+ "qrimçi-rəssam": {
+  "az": "Teatr və ya kinoda aktyorların qrimini hazırlayan rəssam.",
+  "en": "make-up artist (theatre, film)",
+  "pos": "noun"
+ },
+ "qul-qarabaş": {
+  "az": "Qullar və qarabaşlar; keçmişdə varlılara xidmət edən adamlar.",
+  "en": "slaves and servants, menials",
+  "pos": "noun"
+ },
+ "qulaq-quyruq": {
+  "skip": "meaning not certain"
+ },
+ "qulaq-ənsə": {
+  "skip": "meaning not certain"
+ },
+ "qulaqaltı-çeynəmə": {
+  "az": "Üzün qulaqaltı vəzi və çeynəmə əzələsi yerləşən nahiyəsinə aid (qulaqaltı-çeynəmə nahiyəsi).",
+  "en": "parotid-masseteric (region of the face)",
+  "pos": "adjective"
+ },
+ "qulluq-vəzifə": {
+  "az": "İşlədiyi yer və tutduğu vəzifə; rəsmi iş.",
+  "en": "post, office, official position",
+  "pos": "noun"
+ },
+ "qulluqçu-qarabaş": {
+  "az": "Evdə xidmət edən qulluqçular və qarabaşlar; xidmətçilər.",
+  "en": "servants and maids, domestic servants",
+  "pos": "noun"
+ },
+ "qum-torpaq": {
+  "az": "Qum və torpaq; qumlu torpaq, qum-torpaq qarışığı.",
+  "en": "sand and earth; sandy soil",
+  "pos": "noun"
+ },
+ "qum-şırnaq": {
+  "az": "Sıxılmış hava ilə qum axını püskürdərək səthi təmizləmə üsulu (qum-şırnaq emalı).",
+  "en": "sandblasting",
+  "pos": "noun"
+ },
+ "quraşdırma-sınaq": {
+  "az": "Avadanlığın quraşdırılması və sınaqdan keçirilməsi (quraşdırma-sınaq işləri).",
+  "en": "installation and testing, commissioning",
+  "pos": "noun",
+  "parts": false
+ },
+ "qurd-çaqqal": {
+  "az": "Qurdlar və çaqqallar, yırtıcı heyvanlar; məc. başqasının malına göz dikən, yırtıcı adamlar.",
+  "en": "wolves and jackals; predators (also of rapacious people)",
+  "pos": "noun"
+ },
+ "qurulu-yaşlı": {
+  "skip": "meaning not certain"
+ },
+ "qurum-his": {
+  "az": "Tüstüdən çökən qara his, qurum.",
+  "en": "soot, grime",
+  "pos": "noun"
+ },
+ "qurumlu-hisli": {
+  "az": "Üstünü qurum və his basmış, hisli.",
+  "en": "sooty, soot-covered",
+  "pos": "adjective"
+ },
+ "qurğu-dekor": {
+  "az": "Səhnə tərtibatında işlədilən qurğular və dekorlar.",
+  "en": "stage sets and scenery",
+  "pos": "noun"
+ },
+ "qurğu-dəzgah": {
+  "az": "Müxtəlif qurğular və dəzgahlar; istehsal avadanlığı.",
+  "en": "equipment and machine tools",
+  "pos": "noun"
+ },
+ "qurğu-istehkam": {
+  "az": "Müdafiə üçün tikilmiş qurğular və istehkamlar.",
+  "en": "fortifications, defensive works",
+  "pos": "noun"
+ },
+ "qurğuşun-üzvi": {
+  "az": "Tərkibində qurğuşunla karbon arasında bilavasitə rabitə olan (qurğuşun-üzvi birləşmələr).",
+  "en": "organolead",
+  "pos": "adjective"
+ },
+ "quzey-güney": {
+  "az": "Dağın günəş düşməyən quzey və günəşli güney yamacları; şimal və cənub.",
+  "en": "shady and sunny slopes; north and south",
+  "pos": "noun"
+ },
+ "quzeyli-güneyli": {
+  "az": "Həm Şimali, həm də Cənubi Azərbaycandan olan (quzeyli-güneyli soydaşlar).",
+  "en": "from both North and South Azerbaijan",
+  "pos": "adjective"
+ },
+ "quzu-çəpiş": {
+  "az": "Quzular və çəpişlər; qoyun-keçinin balaları.",
+  "en": "lambs and kids (young sheep and goats)",
+  "pos": "noun"
+ },
+ "quzulayıb-tökülmək": {
+  "az": "Sürüdəki qoyunlar bir-birinin ardınca bol-bol quzulamaq.",
+  "en": "to lamb in large numbers (of a flock)",
+  "pos": "verb"
+ },
+ "quzulu-çəpişli": {
+  "az": "Quzusu və çəpişi olan (quzulu-çəpişli sürü).",
+  "en": "with lambs and kids",
+  "pos": "adjective"
+ },
+ "qövm-əqrəba": {
+  "az": "Qohum-qardaş, bütün qohumlar.",
+  "en": "relatives, kinsfolk",
+  "pos": "noun"
+ },
+ "qüvvətli-zorlu": {
+  "az": "Çox güclü, qüvvətli, zorlu.",
+  "en": "strong, powerful, mighty",
+  "pos": "adjective"
+ },
+ "qılçıqsız-tozsuz": {
+  "skip": "meaning not certain"
+ },
+ "qılınc-qalxan": {
+  "az": "Qılınc və qalxan; döyüş silahları (qılınc-qalxan oyunu).",
+  "en": "sword and shield; arms",
+  "pos": "noun"
+ },
+ "qılınc-qırğın": {
+  "az": "Qılıncla aparılan qanlı döyüş, kütləvi qırğın.",
+  "en": "carnage, slaughter (by the sword)",
+  "pos": "noun"
+ },
+ "qılınc-tüfəng": {
+  "az": "Qılınc, tüfəng və başqa silahlar; silah-sursat.",
+  "en": "arms, weapons (swords and guns)",
+  "pos": "noun"
+ },
+ "qılınclı-qalxanlı": {
+  "az": "Qılınc və qalxanla silahlanmış.",
+  "en": "armed with sword and shield",
+  "pos": "adjective"
+ },
+ "qınaq-töhmət": {
+  "az": "Pis hərəkətə görə bildirilən məzəmmət, danlaq.",
+  "en": "reproach, censure, blame",
+  "pos": "noun"
+ },
+ "qırma-barıt": {
+  "az": "Ov tüfəngi üçün qırma və barıt; ov sursatı.",
+  "en": "shot and powder, ammunition",
+  "pos": "noun"
+ },
+ "qırmaq-əzələ": {
+  "skip": "meaning not certain"
+ },
+ "qırmızı-yaşılı": {
+  "az": "Qırmızı və yaşıl rəngli, əlvan.",
+  "en": "red and green, colourful",
+  "pos": "adjective"
+ },
+ "qırmızımtıl-göyümtül": {
+  "az": "Qırmızıya və göyə çalan, bənövşəyiyə yaxın rəngdə olan.",
+  "en": "reddish-bluish, purplish",
+  "pos": "adjective"
+ },
+ "qırtlaq-udlaq": {
+  "az": "Qırtlaq və udlağa aid olan (qırtlaq-udlaq nahiyəsi).",
+  "en": "laryngopharyngeal",
+  "pos": "adjective"
+ },
+ "qırtma-çırtma": {
+  "skip": "meaning not certain"
+ },
+ "qırıb-atmaq": {
+  "az": "Sındırıb və ya qoparıb atmaq; məhv edib aradan qaldırmaq.",
+  "en": "to break off and throw away; to destroy",
+  "pos": "verb"
+ },
+ "qırıcı-kəşfiyyatçı": {
+  "az": "Həm hava döyüşü, həm də kəşfiyyat üçün nəzərdə tutulan hərbi təyyarə.",
+  "en": "fighter-reconnaissance aircraft",
+  "pos": "noun"
+ },
+ "qırım-qırtı": {
+  "skip": "meaning not certain"
+ },
+ "qırıq-tökük": {
+  "az": "Sınıb-dağılmış, köhnə, yararsız; sınıq-salxaq şeylər, qırıntılar.",
+  "en": "broken, dilapidated; broken bits, odds and ends",
+  "pos": "adjective",
+  "parts": false,
+  "src": "izahli"
+ },
+ "qırıq-çökük": {
+  "az": "Sınıb-çökmüş, əzilib-batmış; köhnəlmiş, uçuq-sökük.",
+  "en": "broken and sunken, battered, dilapidated",
+  "pos": "adjective"
+ },
+ "qırışıq-büzüşük": {
+  "az": "Qırışıb büzüşmüş, qırışlarla dolu.",
+  "en": "wrinkled and shrivelled",
+  "pos": "adjective"
+ },
+ "qısalıb-kiçilmək": {
+  "az": "Qısalıb balacalaşmaq, ölçücə azalmaq.",
+  "en": "to get shorter and smaller, to shrink",
+  "pos": "verb"
+ },
+ "qısnanıb-durmaq": {
+  "skip": "meaning not certain"
+ },
+ "qızartı-bozartı": {
+  "az": "Utanc, hirs və s.-dən üzün gah qızarıb, gah bozarması.",
+  "en": "flushing and paling (of the face, from shame or anger)",
+  "pos": "noun"
+ },
+ "qızdırma-titrəmə": {
+  "az": "Bədən hərarətinin yüksəlməsi ilə birlikdə üşütmə, titrəmə.",
+  "en": "fever with chills, fever and shivering",
+  "pos": "noun"
+ },
+ "qızdırıb-isitmək": {
+  "az": "Yaxşıca qızdırmaq, isti hala gətirmək.",
+  "en": "to heat up, to warm up thoroughly",
+  "pos": "verb"
+ },
+ "qızdırıb-titrəmək": {
+  "az": "Hərarəti qalxıb üşütmək, qızdırma ilə titrəmək.",
+  "en": "to be feverish and shivering",
+  "pos": "verb"
+ },
+ "qızıl-qırmızı": {
+  "skip": "sources disagree, meaning not certain"
+ },
+ "qızıllı-gümüşlü": {
+  "az": "Qızıl və gümüşlə bəzədilmiş; zəngin, bər-bəzəkli.",
+  "en": "adorned with gold and silver",
+  "pos": "adjective"
+ },
+ "qızınıb-isinmək": {
+  "az": "Od və ya günəş qarşısında oturub isinmək.",
+  "en": "to warm oneself (by a fire, in the sun)",
+  "pos": "verb"
+ },
+ "qızışıb-coşmaq": {
+  "az": "Həyəcanlanıb özündən çıxmaq, coşub-qızışmaq.",
+  "en": "to get heated and carried away, to become excited",
+  "pos": "verb"
+ },
+ "qıçsız-qolsuz": {
+  "az": "Qıçı və qolu olmayan; şikəst.",
+  "en": "without arms and legs, limbless",
+  "pos": "adjective"
+ },
+ "qışqırtı-bağırtı": {
+  "az": "Bərkdən qışqırıb bağırma; hay-küy, qalmaqal.",
+  "en": "shouting and yelling, uproar",
+  "pos": "noun"
+ },
+ "qışqırtı-bağırtılı": {
+  "az": "Qışqırıq və bağırtı ilə dolu, hay-küylü.",
+  "en": "noisy, full of shouting",
+  "pos": "adjective"
+ },
+ "qışqırtılı-bağırtılı": {
+  "az": "Qışqırıb-bağırmaqla keçən, hay-küylü (qışqırtılı-bağırtılı mübahisə).",
+  "en": "noisy, full of shouting",
+  "pos": "adjective"
+ },
+ "qəbuledici-verici": {
+  "az": "Həm siqnal qəbul edən, həm də ötürən (qəbuledici-verici qurğu).",
+  "en": "receiving-transmitting; transceiver",
+  "pos": "adjective"
+ },
+ "qəhr-qəzəb": {
+  "az": "Güclü hirs, qəzəb.",
+  "en": "wrath, fury",
+  "pos": "noun"
+ },
+ "qəlibçi-tökməçi": {
+  "az": "Tökmə sexində qəlib hazırlayıb metal tökən işçi.",
+  "en": "moulder and caster (foundry worker)",
+  "pos": "noun"
+ },
+ "qələti-məşhur": {
+  "az": "Geniş yayılıb hamı tərəfindən qəbul edilmiş səhv söz, ifadə və ya fikir.",
+  "en": "a common error that has become accepted usage",
+  "pos": "noun"
+ },
+ "qələvi-metal": {
+  "az": "Dövri sistemin birinci qrupunun əsas yarımqrupuna daxil olan aktiv metal (litium, natrium, kalium və s.).",
+  "en": "alkali metal",
+  "pos": "noun"
+ },
+ "qəm-qayğı": {
+  "az": "Dərd, qəm və qayğılar; ürəyi sıxan düşüncələr.",
+  "en": "cares and sorrows, worries",
+  "pos": "noun"
+ },
+ "qəmli-kədərli": {
+  "az": "Çox qəmli, kədərli, qüssəli.",
+  "en": "sad, sorrowful, melancholy",
+  "pos": "adjective"
+ },
+ "qənd-çay": {
+  "az": "Çay və qənd; çay süfrəsi.",
+  "en": "tea and sugar; tea things",
+  "pos": "noun"
+ },
+ "qənd-çaylı": {
+  "az": "Çayı və qəndi olan (qənd-çaylı süfrə).",
+  "en": "with tea and sugar",
+  "pos": "adjective"
+ },
+ "qəndli-çaylı": {
+  "az": "Qəndi və çayı olan, çay süfrəsi açılmış.",
+  "en": "with tea and sugar",
+  "pos": "adjective"
+ },
+ "qəsdsiz-qərəzsiz": {
+  "az": "Heç bir pis niyyəti, qərəzi olmayan; təmiz ürəkli.",
+  "en": "without ill intent or bias, guileless",
+  "pos": "adjective"
+ },
+ "qəsr-qala": {
+  "az": "Qəsrlər və qalalar; möhtəşəm tikililər.",
+  "en": "castles and fortresses",
+  "pos": "noun"
+ },
+ "radar-detektor": {
+  "az": "Avtomobildə polis radarının siqnalını aşkar edib sürücünü xəbərdar edən cihaz.",
+  "en": "radar detector",
+  "pos": "noun"
+ },
+ "radial-burğu": {
+  "az": "Burğu başlığı sütun ətrafında fırlanan qol üzərində hərəkət edən deşik açma dəzgahı (radial-burğu dəzgahı).",
+  "en": "radial drill (radial drilling machine)",
+  "pos": "noun"
+ },
+ "radioloji-gigiyenik": {
+  "az": "Şüalanmanın insan sağlamlığına təsirindən qorunma ilə bağlı (radioloji-gigiyenik tədqiqat).",
+  "en": "radiological-hygienic, relating to radiation hygiene",
+  "pos": "adjective"
+ },
+ "radist-operator": {
+  "az": "Radio rabitəsini təmin edən mütəxəssis; radist.",
+  "en": "radio operator",
+  "pos": "noun"
+ },
+ "radius-vektor": {
+  "az": "Koordinat başlanğıcından nöqtəyə çəkilən və onun vəziyyətini göstərən vektor.",
+  "en": "radius vector, position vector",
+  "pos": "noun"
+ },
+ "raftinq-tur": {
+  "az": "Çayda sal və ya şişmə qayıqla üzməkdən ibarət turist səfəri.",
+  "en": "rafting tour, rafting trip",
+  "pos": "noun",
+  "parts": false
+ },
+ "raster-darama displeyi": {
+  "az": "Təsviri ekranda sətir-sətir darama yolu ilə yaradan displey.",
+  "en": "raster-scan display",
+  "pos": "noun",
+  "parts": false
+ },
+ "reaktiv-turbin": {
+  "az": "Axının işçi kürəklərdə genişlənməsindən yaranan reaktiv qüvvə ilə fırlanan turbin.",
+  "en": "reaction turbine",
+  "pos": "noun"
+ },
+ "redaktor-müəllif": {
+  "az": "Nəşrin və ya verilişin həm müəllifi, həm də redaktoru olan şəxs.",
+  "en": "author-editor",
+  "pos": "noun"
+ },
+ "redoks-sistem": {
+  "az": "Eyni maddənin oksidləşmiş və reduksiya olunmuş formalarından ibarət sistem.",
+  "en": "redox system",
+  "pos": "noun"
+ },
+ "reduksiya-soyutma": {
+  "az": "Buxarın təzyiqini azaldıb temperaturunu aşağı salan (reduksiya-soyutma qurğusu).",
+  "en": "pressure-reducing and cooling (of steam plant)",
+  "pos": "adjective",
+  "parts": false
+ },
+ "referat-sənəd": {
+  "skip": "meaning not certain"
+ },
+ "referat-xülasə": {
+  "az": "Elmi əsərin, sənədin əsas məzmununu qısa şəkildə verən yazı.",
+  "en": "abstract, synopsis",
+  "pos": "noun"
+ },
+ "referent-katib": {
+  "az": "Rəhbərin həm katibi, həm də köməkçisi və məsləhətçisi kimi çalışan işçi.",
+  "en": "executive secretary, secretary-assistant",
+  "pos": "noun"
+ },
+ "referent-tərcüməçi": {
+  "az": "Xarici dillərdəki materialları tərcümə edib onların icmalını hazırlayan işçi.",
+  "en": "translator-assistant (referent-translator)",
+  "pos": "noun"
+ },
+ "region-bazar": {
+  "az": "Regional iqtisadiyyatda regionun bazar məkanı kimi nəzərdən keçirildiyi yanaşma.",
+  "en": "region as a market (concept in regional economics)",
+  "pos": "noun"
+ },
+ "region-kvazidövlət": {
+  "az": "Regionun dövlətin nisbətən müstəqil alt sistemi kimi nəzərdən keçirildiyi yanaşma.",
+  "en": "region as a quasi-state (concept in regional economics)",
+  "pos": "noun"
+ },
+ "region-kvazikorporasiya": {
+  "az": "Regionun iri iqtisadi subyekt, korporasiya kimi nəzərdən keçirildiyi yanaşma.",
+  "en": "region as a quasi-corporation (concept in regional economics)",
+  "pos": "noun"
+ },
+ "rejissor-multiplikator": {
+  "az": "Cizgi filminə quruluş verən rejissor.",
+  "en": "animation director",
+  "pos": "noun"
+ },
+ "reklam-nəşr": {
+  "az": "Reklam materiallarının hazırlanması və nəşri (reklam-nəşr fəaliyyəti).",
+  "en": "advertising and publishing",
+  "pos": "noun"
+ },
+ "rels-araba": {
+  "az": "Rels üzərində hərəkət edən yük arabası; vaqonet.",
+  "en": "rail cart, rail trolley",
+  "pos": "noun"
+ },
+ "rels-forma": {
+  "skip": "meaning not certain"
+ },
+ "rels-tir": {
+  "skip": "meaning not certain"
+ },
+ "relyef-landşaft": {
+  "az": "Ərazinin relyefi və landşaftı; yer səthinin quruluşu və görünüşü.",
+  "en": "relief and landscape, terrain",
+  "pos": "noun"
+ },
+ "rentgen-ekvivalent": {
+  "az": "Şüalanma dozasının bioloji təsirini rentgenə ekvivalent kimi ifadə edən vahid; ber.",
+  "en": "roentgen equivalent (rem)",
+  "pos": "noun"
+ },
+ "rentgen-kontrast": {
+  "az": "Rentgen şəklində orqanları aydın görünən edən (rentgen-kontrast maddə).",
+  "en": "radiocontrast, X-ray contrast",
+  "pos": "adjective"
+ },
+ "rentgen-quruluş": {
+  "az": "Rentgen şüaları vasitəsilə maddənin kristal quruluşunu öyrənən (rentgen-quruluş analizi).",
+  "en": "X-ray structural (as in X-ray structure analysis)",
+  "pos": "adjective"
+ },
+ "rentgen-spektral": {
+  "az": "Rentgen şüalarının spektrinə əsaslanan (rentgen-spektral analiz).",
+  "en": "X-ray spectral",
+  "pos": "adjective"
+ },
+ "rentgen-şüa": {
+  "az": "Cisimlərin içindən keçə bilən qısa dalğalı elektromaqnit şüası; rentgen şüası.",
+  "en": "X-ray",
+  "pos": "noun"
+ },
+ "rentgen-şüalanma": {
+  "az": "Rentgen şüalarının yayılması; rentgen şüalanması.",
+  "en": "X-ray radiation",
+  "pos": "noun"
+ },
+ "respublikaçı-demokrat": {
+  "az": "Respublika quruluşu və demokratik idarəçilik tərəfdarı olan siyasətçi.",
+  "en": "republican democrat",
+  "pos": "noun"
+ },
+ "respublikaçı-liberal": {
+  "az": "Liberal baxışlı respublikaçı; respublika və liberalizm tərəfdarı.",
+  "en": "liberal republican",
+  "pos": "noun"
+ },
+ "respublikaçı-mühafizəkar": {
+  "az": "Mühafizəkar baxışlı respublikaçı.",
+  "en": "conservative republican",
+  "pos": "noun"
+ },
+ "restoran-kafe": {
+  "az": "Həm restoran, həm də kafe kimi fəaliyyət göstərən yemək yeri.",
+  "en": "restaurant-café",
+  "pos": "noun"
+ },
+ "restoran-mağaza": {
+  "az": "Restoranla mağazanın birlikdə yerləşdiyi müəssisə.",
+  "en": "restaurant and shop",
+  "pos": "noun"
+ },
+ "restoran-pavilyon": {
+  "az": "Yüngül pavilyon tipli tikilidə yerləşən restoran.",
+  "en": "restaurant pavilion",
+  "pos": "noun"
+ },
+ "revanş-matç": {
+  "az": "Uduzan tərəfin əvəz çıxmaq üçün keçirdiyi təkrar oyun.",
+  "en": "return match, rematch",
+  "pos": "noun"
+ },
+ "rezerv-valyuta": {
+  "az": "Mərkəzi banklarda ehtiyat kimi saxlanan və beynəlxalq hesablaşmalarda geniş işlədilən valyuta.",
+  "en": "reserve currency",
+  "pos": "noun"
+ },
+ "rezident-əlaqələndirici": {
+  "az": "BMT-nin bir ölkədəki fəaliyyətini əlaqələndirən yüksək vəzifəli nümayəndəsi.",
+  "en": "resident coordinator (UN)",
+  "pos": "noun"
+ },
+ "rezin-polad": {
+  "az": "Rezin və poladdan ibarət, onların birləşməsindən hazırlanmış.",
+  "en": "rubber-and-steel",
+  "pos": "adjective"
+ },
+ "rezus-faktor": {
+  "az": "Əksər insanların eritrositlərində olan antigen; qanın rezus mənsubiyyətini müəyyən edir.",
+  "en": "Rh factor, rhesus factor",
+  "pos": "noun"
+ },
+ "ricət-haşiyə": {
+  "az": "Bədii əsərdə əsas süjetdən kənara çıxma; haşiyə.",
+  "en": "digression (in a literary work)",
+  "pos": "noun"
+ },
+ "ritm-kod": {
+  "skip": "meaning not certain"
+ },
+ "ritm-konstant": {
+  "skip": "meaning not certain"
+ },
+ "ritm-seksiya": {
+  "az": "Ansamblda ritmi saxlayan alətlər qrupu (zərb alətləri, bas, gitara, fortepiano).",
+  "en": "rhythm section",
+  "pos": "noun"
+ },
+ "ritm-struktur": {
+  "az": "Musiqi və ya şeir əsərində ritmin quruluşu.",
+  "en": "rhythmic structure",
+  "pos": "noun"
+ },
+ "ritm-səs": {
+  "skip": "meaning not certain"
+ },
+ "ritm-səsli": {
+  "skip": "meaning not certain"
+ },
+ "ritm-tembr": {
+  "az": "Musiqidə ritm və tembrə aid olan (ritm-tembr xüsusiyyətləri).",
+  "en": "relating to rhythm and timbre",
+  "pos": "adjective"
+ },
+ "ritm-ton": {
+  "skip": "meaning not certain"
+ },
+ "ritmik-zolaqlı tekstur": {
+  "az": "Süxur və ya filizdə müxtəlif tərkibli zolaqların ritmik növbələşməsindən yaranan tekstur.",
+  "en": "rhythmically banded texture (geology)",
+  "pos": "noun"
+ },
+ "riyazi-məntiqi": {
+  "az": "Həm riyazi, həm də məntiqi; riyazi məntiqə əsaslanan.",
+  "en": "mathematical-logical",
+  "pos": "adjective"
+ },
+ "riyaziyyatçı-mühəndis": {
+  "az": "Riyazi üsulları mühəndislik məsələlərinə tətbiq edən mütəxəssis.",
+  "en": "mathematician-engineer",
+  "pos": "noun"
+ },
+ "riyaziyyatçı-proqramlaşdırıcı": {
+  "az": "Həm riyaziyyatçı, həm də proqramçı olan mütəxəssis.",
+  "en": "mathematician-programmer",
+  "pos": "noun"
+ },
+ "riyaziyyatçı-proqramçı": {
+  "az": "Riyazi bilikləri proqramlaşdırmada tətbiq edən mütəxəssis.",
+  "en": "mathematician-programmer",
+  "pos": "noun"
+ },
+ "robot-dayə": {
+  "az": "Uşağa baxmaq, onu əyləndirmək üçün hazırlanmış robot.",
+  "en": "robot nanny",
+  "pos": "noun"
+ },
+ "robot-insan": {
+  "az": "İnsana bənzəyən robot; android.",
+  "en": "humanoid robot, android",
+  "pos": "noun"
+ },
+ "robot-quş": {
+  "az": "Quşa bənzəyən və ya quş kimi uçan robot.",
+  "en": "robot bird",
+  "pos": "noun"
+ },
+ "robot-tozsoran": {
+  "az": "Otağı özü gəzib tozu təmizləyən avtomatik tozsoran.",
+  "en": "robot vacuum cleaner",
+  "pos": "noun"
+ },
+ "rok-caz": {
+  "az": "Rok və caz üslublarını birləşdirən musiqi istiqaməti.",
+  "en": "jazz-rock, rock-jazz fusion",
+  "pos": "noun"
+ },
+ "rok-metal": {
+  "az": "Sərt, güclü səslənməsi ilə seçilən rok musiqisi üslubları; rok və metal.",
+  "en": "rock and metal (music)",
+  "pos": "noun",
+  "parts": false
+ },
+ "rok-ulduz": {
+  "az": "Məşhur rok musiqiçisi.",
+  "en": "rock star",
+  "pos": "noun"
+ },
+ "romni-marş": {
+  "skip": "meaning not certain"
+ },
+ "rotasiya-fotofilm": {
+  "skip": "meaning not certain"
+ },
+ "rotasiya-vibrasiya": {
+  "az": "Həm fırlanma, həm də titrəmə (vibrasiya) hərəkətinə aid olan.",
+  "en": "rotational-vibrational",
+  "pos": "adjective",
+  "parts": false
+ },
+ "ruhi-psixoloji": {
+  "az": "İnsanın ruhi aləmi və psixologiyası ilə bağlı (ruhi-psixoloji vəziyyət).",
+  "en": "mental and psychological",
+  "pos": "adjective"
+ },
+ "rulon-konstruksiya": {
+  "az": "Zavodda rulon şəklində bükülüb tikinti yerində açılaraq quraşdırılan metal təbəqə konstruksiyası.",
+  "en": "coiled (rolled) sheet-metal structure",
+  "pos": "noun"
+ },
+ "rus-müsəlman məktəbi": {
+  "az": "Çar Rusiyasında müsəlman uşaqlarına rus dili ilə yanaşı ana dili və din dərsləri keçilən məktəb.",
+  "en": "Russian-Muslim school (in Tsarist Russia)",
+  "pos": "noun"
+ },
+ "rus-osmanlı müharibəsi": {
+  "az": "Rusiya imperiyası ilə Osmanlı dövləti arasında baş vermiş müharibələrdən hər biri.",
+  "en": "Russo-Turkish war",
+  "pos": "noun"
+ },
+ "rusca-farsca": {
+  "az": "Rus və fars dillərində, bu dilləri qarışdıraraq (rusca-farsca danışmaq).",
+  "en": "in Russian and Persian",
+  "pos": "adverb"
+ },
+ "rusca-ərəbcə": {
+  "az": "Rus və ərəb dillərində, bu dilləri qarışdıraraq.",
+  "en": "in Russian and Arabic",
+  "pos": "adverb"
+ },
+ "rütubətli-nəmli": {
+  "az": "Rütubəti çox olan, nəm, yaş.",
+  "en": "damp, humid, moist",
+  "pos": "adjective"
+ },
+ "rütubətsiz-nəmsiz": {
+  "az": "Heç bir rütubəti olmayan, quru.",
+  "en": "dry, free of moisture",
+  "pos": "adjective"
+ },
+ "rəhbər-kurator": {
+  "az": "Bir işə, qrupa və ya layihəyə rəhbərlik edib ona nəzarət edən şəxs.",
+  "en": "supervisor, curator",
+  "pos": "noun"
+ },
+ "rəndələyib-hamarlamaq": {
+  "az": "Rəndə ilə yonub hamar etmək.",
+  "en": "to plane smooth",
+  "pos": "verb"
+ },
+ "rəqəm-analoq": {
+  "az": "Rəqəmli siqnalı analoq siqnala çevirən (rəqəm-analoq çevirici).",
+  "en": "digital-to-analogue",
+  "pos": "adjective"
+ },
+ "rəqəm-kod": {
+  "az": "Rəqəmlərdən ibarət kod.",
+  "en": "numeric code",
+  "pos": "noun"
+ },
+ "rəqəm-proqram": {
+  "az": "Rəqəmlərlə yazılmış proqram əsasında idarə olunan (rəqəm-proqram idarəli dəzgah).",
+  "en": "numerical program (as in numerical control, CNC)",
+  "pos": "adjective"
+ },
+ "rəqəm-şifr": {
+  "az": "Rəqəmlərdən ibarət şifr.",
+  "en": "numeric cipher",
+  "pos": "noun"
+ },
+ "rəsm-sərgi": {
+  "az": "Rəsm əsərlərinin nümayiş olunduğu sərgi.",
+  "en": "art exhibition",
+  "pos": "noun"
+ },
+ "rəsmi-ciddi": {
+  "az": "Rəsmi və ciddi, sərbəstliyə yer qoymayan (rəsmi-ciddi ton).",
+  "en": "formal and serious",
+  "pos": "adjective"
+ },
+ "rəsmi-epistolyar": {
+  "az": "Rəsmi yazışmaya, rəsmi məktub üslubuna aid.",
+  "en": "of official correspondence (style)",
+  "pos": "adjective"
+ },
+ "rəsmi-inzibati": {
+  "az": "Rəsmi idarəçiliyə, dövlət idarəetməsinə aid (rəsmi-inzibati sənəd).",
+  "en": "official-administrative",
+  "pos": "adjective"
+ },
+ "rəsmi-işgüzar": {
+  "az": "Rəsmi sənəd və işgüzar yazışmalarda işlədilən (rəsmi-işgüzar üslub).",
+  "en": "official business (style)",
+  "pos": "adjective"
+ },
+ "rəssam-fantast": {
+  "az": "Fantastik mövzularda tablo və illüstrasiyalar çəkən rəssam.",
+  "en": "fantasy artist, science-fiction illustrator",
+  "pos": "noun"
+ },
+ "rəssam-tərtibatçı": {
+  "az": "Kitab, jurnal, səhnə və s.-nin bədii tərtibatını hazırlayan rəssam.",
+  "en": "designer (artist responsible for a book's or stage's design)",
+  "pos": "noun"
+ },
+ "saat-zəncir": {
+  "az": "Cib saatı və onun asıldığı zəncir.",
+  "en": "watch and chain",
+  "pos": "noun"
+ },
+ "saf-səmimi": {
+  "az": "Təmiz ürəkli, riyasız və səmimi.",
+  "en": "pure-hearted and sincere, guileless",
+  "pos": "adjective"
+ },
+ "salam-sifariş": {
+  "az": "Uzaqdakı birinə göndərilən salam, xəbər və tapşırıqlar (salam-sifariş göndərmək).",
+  "en": "greetings and messages (sent to someone far away)",
+  "pos": "noun"
+ },
+ "salon-mağaza": {
+  "az": "Malların nümayiş etdirilib satıldığı mağaza; salon.",
+  "en": "showroom store",
+  "pos": "noun"
+ },
+ "sanitar-mühafizə zonası": {
+  "az": "Sənaye obyekti, su mənbəyi və s. ətrafında əhalini zərərli təsirdən qorumaq üçün ayrılan zona.",
+  "en": "sanitary protection zone",
+  "pos": "noun"
+ },
+ "sanıb-saymaq": {
+  "skip": "meaning not certain"
+ },
+ "saqqal-bığ": {
+  "az": "Saqqal və bığ; kişinin üzündəki tüklər.",
+  "en": "beard and moustache",
+  "pos": "noun"
+ },
+ "saqqallı-bığlı": {
+  "az": "Saqqalı və bığı olan.",
+  "en": "bearded and moustached",
+  "pos": "adjective"
+ },
+ "saray-səltənət": {
+  "az": "Saraylar və hakimiyyət; şahanə, dəbdəbəli həyat.",
+  "en": "palaces and power; royal splendour",
+  "pos": "noun"
+ },
+ "saray-səltənətli": {
+  "az": "Sarayı və səltənəti olan; dəbdəbəli, şahanə.",
+  "en": "with palaces and royal power; regal, splendid",
+  "pos": "adjective"
+ },
+ "sarğı-dolaq": {
+  "az": "Yaraya və ya ayağa sarınan sarğılar, dolaqlar.",
+  "en": "bandages and wrappings",
+  "pos": "noun"
+ },
+ "sarğı-dolaqlı": {
+  "az": "Bədəninə, ayaqlarına sarğı və dolaq sarınmış.",
+  "en": "bandaged, wrapped in bandages",
+  "pos": "adjective"
+ },
+ "sarğı-dolaqsız": {
+  "az": "Sarğısı və dolağı olmayan.",
+  "en": "unbandaged, without wrappings",
+  "pos": "adjective"
+ },
+ "sarı-bənövşəyi": {
+  "az": "Sarıya çalan bənövşəyi rəngdə olan.",
+  "en": "yellowish-purple",
+  "pos": "adjective"
+ },
+ "sarı-dənəli": {
+  "az": "Dənləri sarı rəngdə olan (sarı-dənəli qarğıdalı).",
+  "en": "yellow-grained",
+  "pos": "adjective"
+ },
+ "sarı-samanı": {
+  "az": "Samana bənzər solğun sarı rəngdə olan.",
+  "en": "straw-yellow, pale yellow",
+  "pos": "adjective"
+ },
+ "sarımsaq-qatıq": {
+  "az": "Sarımsaq qatılmış qatıq; xörəklərə əlavə edilən sous.",
+  "en": "garlic yogurt (sauce)",
+  "pos": "noun"
+ },
+ "sarımsaqlı-qatıqlı": {
+  "az": "Üstünə sarımsaqlı qatıq tökülmüş (sarımsaqlı-qatıqlı xəngəl).",
+  "en": "with garlic yogurt",
+  "pos": "adjective"
+ }
+}

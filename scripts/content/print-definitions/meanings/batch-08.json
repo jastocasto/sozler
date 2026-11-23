@@ -1,0 +1,973 @@
+{
+ "top-model": {
+  "az": "Moda sahəsində ən tanınmış, yüksək səviyyəli model (manken).",
+  "en": "top model (fashion)",
+  "pos": "noun",
+  "parts": false
+ },
+ "trapesiyaşəkilli": {
+  "az": "Trapesiya formasında olan.",
+  "en": "trapezoidal, trapezium-shaped",
+  "pos": "adjective"
+ },
+ "yağ-piy": {
+  "az": "Bədəndə və ya ətdə yığılan yağ və piy; kökəlmə nəticəsində toplanan yağ.",
+  "en": "fat, body fat",
+  "pos": "noun"
+ },
+ "yarıməsrlik": {
+  "az": "Yarım əsr (əlli il) davam edən və ya əlli illik tarixi olan.",
+  "en": "half-century, fifty-year",
+  "pos": "adjective"
+ },
+ "yaşıl-boz": {
+  "az": "Yaşıla çalan boz rəngdə olan.",
+  "en": "greenish-grey",
+  "pos": "adjective"
+ },
+ "ana-qız": {
+  "az": "Ana və qızı (birlikdə).",
+  "en": "mother and daughter",
+  "pos": "noun"
+ },
+ "antiböhran": {
+  "az": "Böhrana qarşı yönəlmiş, böhranı aradan qaldırmağa xidmət edən (antiböhran tədbirləri).",
+  "en": "anti-crisis",
+  "pos": "adjective"
+ },
+ "beyindaxili": {
+  "az": "Beynin daxilində olan və ya baş verən (beyindaxili qansızma).",
+  "en": "intracerebral",
+  "pos": "adjective"
+ },
+ "bığayaqlı": {
+  "az": "Ayaqları bığa bənzər çıxıntılara çevrilmiş, sualtı əşyalara yapışıb yaşayan xərçəngkimilərə aid (bığayaqlı xərçənglər).",
+  "en": "cirripede (of barnacles and related crustaceans)",
+  "pos": "adjective"
+ },
+ "bioekologiya": {
+  "az": "Canlı orqanizmlərin ətraf mühitlə qarşılıqlı əlaqəsini öyrənən ekologiya sahəsi.",
+  "en": "bioecology",
+  "pos": "noun"
+ },
+ "blok-sxem": {
+  "az": "Sistemin və ya prosesin əsas hissələrini bloklar şəklində və onların əlaqələrini göstərən sxem.",
+  "en": "block diagram; flowchart",
+  "pos": "noun"
+ },
+ "cavidşünaslıq": {
+  "az": "Hüseyn Cavidin həyat və yaradıcılığını öyrənən elm sahəsi.",
+  "en": "Javid studies (study of Huseyn Javid)",
+  "pos": "noun"
+ },
+ "dil-üslub": {
+  "az": "Mətnin, bədii əsərin dil və üslub xüsusiyyətləri (əsərin dil-üslub xüsusiyyətləri).",
+  "en": "language and style",
+  "pos": "noun"
+ },
+ "dilşəkilli": {
+  "az": "Dil formasında olan (çiçəklər, ləçəklər və s. haqqında: dilşəkilli çiçəklər).",
+  "en": "tongue-shaped, ligulate",
+  "pos": "adjective"
+ },
+ "əksetdirmə": {
+  "az": "Bir şeyin əksini vermə, onu əks etdirmə; inikas, təsvir etmə.",
+  "en": "reflection, reflecting; depiction",
+  "pos": "noun"
+ },
+ "kamera-vokal": {
+  "az": "Kiçik heyət və ya tək ifaçı üçün nəzərdə tutulmuş, kamera musiqisinə aid vokal (kamera-vokal musiqi).",
+  "en": "chamber vocal",
+  "pos": "adjective"
+ },
+ "kanslerlik": {
+  "az": "Kansler vəzifəsi; kanslerin bu vəzifədə olduğu dövr.",
+  "en": "chancellorship",
+  "pos": "noun"
+ },
+ "kasayarpağı": {
+  "skip": "plant name, not certain"
+ },
+ "qala-konsert": {
+  "az": "Təntənəli şəraitdə, adətən tanınmış ifaçıların iştirakı ilə keçirilən böyük konsert.",
+  "en": "gala concert",
+  "pos": "noun",
+  "parts": false
+ },
+ "lord-mer": {
+  "az": "Böyük Britaniyada London və bəzi digər böyük şəhərlərin başçısının titulu.",
+  "en": "Lord Mayor",
+  "pos": "noun"
+ },
+ "manilik": {
+  "skip": "meaning not certain"
+ },
+ "mikrosaniyə": {
+  "az": "Saniyənin milyonda bir hissəsinə bərabər vaxt vahidi.",
+  "en": "microsecond",
+  "pos": "noun"
+ },
+ "monoplan": {
+  "az": "Bir cüt qanadı olan təyyarə.",
+  "en": "monoplane",
+  "pos": "noun",
+  "parts": false
+ },
+ "mühəndis-hidrotexnik": {
+  "az": "Hidrotexniki qurğuların layihələndirilməsi, tikintisi və istismarı üzrə mühəndis.",
+  "en": "hydraulic engineer",
+  "pos": "noun"
+ },
+ "oyun-tamaşa": {
+  "az": "Oyun və səhnə tamaşası ünsürlərini birləşdirən çıxış (xalq oyun-tamaşaları).",
+  "en": "folk play, performance with games",
+  "pos": "noun"
+ },
+ "postkommunist": {
+  "az": "Kommunist rejiminin süqutundan sonrakı dövrə aid olan (postkommunist ölkələr).",
+  "en": "post-communist",
+  "pos": "adjective"
+ },
+ "psixofiziologiya": {
+  "az": "Psixi proseslərin fizioloji əsaslarını öyrənən elm sahəsi.",
+  "en": "psychophysiology",
+  "pos": "noun"
+ },
+ "radioveriliş": {
+  "az": "Radio ilə efirə verilən veriliş.",
+  "en": "radio broadcast, radio programme",
+  "pos": "noun"
+ },
+ "süfrəçibaşı": {
+  "az": "Tarixən: sarayda süfrəçilərin rəisi, hökmdarın süfrəsinə baxan baş xidmətçi.",
+  "en": "chief steward of the royal table (historical)",
+  "pos": "noun"
+ },
+ "sürücü-mexanik": {
+  "az": "Həm nəqliyyat vasitəsini (xüsusən tankı) idarə edən, həm də ona texniki qulluq göstərən şəxs.",
+  "en": "driver-mechanic",
+  "pos": "noun"
+ },
+ "termoelektron": {
+  "az": "Qızdırılmış cismin səthindən elektronların çıxması ilə bağlı (termoelektron emissiyası).",
+  "en": "thermionic",
+  "pos": "adjective"
+ },
+ "təbii-tarixi": {
+  "az": "Həm təbiətə, həm də tarixə aid olan (təbii-tarixi abidələr).",
+  "en": "natural and historical; natural-history",
+  "pos": "adjective"
+ },
+ "tədris-təlim": {
+  "az": "Təhsil müəssisəsində öyrətmə və təlim prosesi; tədris işi (tədris-təlim prosesi).",
+  "en": "teaching and training, instruction",
+  "pos": "noun"
+ },
+ "təktərəfli": {
+  "az": "Yalnız bir tərəfi olan və ya yalnız bir tərəfin mövqeyini əks etdirən; birtərəfli.",
+  "en": "one-sided, unilateral",
+  "pos": "adjective"
+ },
+ "ultrasoyuq": {
+  "az": "Son dərəcə aşağı temperaturda olan, mütləq sıfıra yaxın soyudulmuş (ultrasoyuq atomlar).",
+  "en": "ultracold",
+  "pos": "adjective"
+ },
+ "uzunbaşlı": {
+  "az": "Başı, kəlləsi uzunsov olan.",
+  "en": "long-headed, dolichocephalic",
+  "pos": "adjective"
+ },
+ "yağçiçəyi": {
+  "skip": "plant name, not certain"
+ },
+ "yarımoturaq": {
+  "az": "Yarı oturmuş vəziyyətdə olan (yarımoturaq vəziyyət); qismən oturaq, qismən köçəri həyat sürən.",
+  "en": "half-sitting, semi-recumbent; semi-sedentary",
+  "pos": "adjective"
+ },
+ "yunan-latın": {
+  "az": "Yunan və latın dillərinə və ya mədəniyyətlərinə birlikdə aid olan (yunan-latın terminləri).",
+  "en": "Greek and Latin, Greco-Latin",
+  "pos": "adjective"
+ },
+ "antisanitariya": {
+  "az": "Sanitariya-gigiyena qaydalarına əməl olunmaması; çirkli, sağlamlıq üçün təhlükəli şərait.",
+  "en": "insanitary conditions, lack of sanitation",
+  "pos": "noun"
+ },
+ "antisosialist": {
+  "az": "Sosializmə qarşı çıxan, sosializm əleyhinə olan.",
+  "en": "anti-socialist",
+  "pos": "adjective"
+ },
+ "arxa-yan": {
+  "az": "Arxada və yanda yerləşən, arxa və yan tərəflərə aid olan (arxa-yan səth).",
+  "en": "back and side; posterolateral",
+  "pos": "adjective"
+ },
+ "astrokimya": {
+  "az": "Göy cisimlərinin və kosmik mühitin kimyəvi tərkibini, orada gedən kimyəvi prosesləri öyrənən elm.",
+  "en": "astrochemistry",
+  "pos": "noun"
+ },
+ "avrovalyuta": {
+  "az": "Emitent ölkədən kənarda, xarici banklarda saxlanılan və dövriyyədə olan valyuta (məs.: avrodollar).",
+  "en": "eurocurrency",
+  "pos": "noun",
+  "parts": false
+ },
+ "balaqardaş": {
+  "az": "Kiçik qardaş, ailədə ən kiçik qardaş.",
+  "en": "younger brother, youngest brother",
+  "pos": "noun"
+ },
+ "başgicəlləndirici": {
+  "az": "Başı gicəlləndirən, baş gicəllənməsinə səbəb olan (başgicəlləndirici sürət, qoxu).",
+  "en": "dizzying, giddy-making, heady",
+  "pos": "adjective",
+  "src": "both"
+ },
+ "başgicəllənməsi": {
+  "az": "Ətrafın fırlandığı, tarazlığın itdiyi hissi; baş gicəllənməsi.",
+  "en": "dizziness, vertigo",
+  "pos": "noun"
+ },
+ "biogenetik": {
+  "az": "Canlıların mənşəyi və fərdi, irsi inkişafı ilə bağlı (biogenetik qanun).",
+  "en": "biogenetic",
+  "pos": "adjective"
+ },
+ "bozumtul-sarı": {
+  "az": "Boza çalan sarı rəngdə olan.",
+  "en": "greyish-yellow",
+  "pos": "adjective"
+ },
+ "çərxi-fələk": {
+  "az": "Klassik dildə: fələyin çarxı, dünyanın gərdişi; tale, qismət (çox vaxt şikayət mənasında).",
+  "en": "the wheel of fortune; fate, the turning heavens",
+  "pos": "noun"
+ },
+ "çəyirdəkmeyvə": {
+  "az": "Lətli hissəsinin içində bərk çəyirdəyi olan meyvə (gilas, ərik, şaftalı və s.).",
+  "en": "drupe, stone fruit",
+  "pos": "noun"
+ },
+ "dini-əxlaqi": {
+  "az": "Din və əxlaqla bağlı olan (dini-əxlaqi dəyərlər).",
+  "en": "religious and moral",
+  "pos": "adjective"
+ },
+ "dissidentlik": {
+  "az": "Hakim ideologiya və ya rejimlə razılaşmayıb fərqli fikir söyləmə; dissident olma.",
+  "en": "dissidence, dissent",
+  "pos": "noun"
+ },
+ "ərəbmənşəli": {
+  "az": "Ərəb dilindən gələn, ərəb mənşəyi olan (ərəbmənşəli sözlər).",
+  "en": "of Arabic origin",
+  "pos": "adjective"
+ },
+ "əzgiləbənzər": {
+  "az": "Forma və ya görünüşcə əzgilə oxşayan.",
+  "en": "medlar-like",
+  "pos": "adjective"
+ },
+ "film-balet": {
+  "az": "Kino vasitələri ilə çəkilmiş balet tamaşası; balet filmi.",
+  "en": "film ballet, ballet film",
+  "pos": "noun"
+ },
+ "fotokitab": {
+  "az": "Əsasən fotoşəkillərdən ibarət olan kitab.",
+  "en": "photobook",
+  "pos": "noun"
+ },
+ "fotomaterial": {
+  "az": "Fotoşəkil çəkmək və hazırlamaq üçün işığa həssas materiallar (plyonka, fotokağız və s.); fotoşəkillər toplusu.",
+  "en": "photographic materials; photographs",
+  "pos": "noun"
+ },
+ "hidroaqreqat": {
+  "az": "Hidroelektrik stansiyasında su turbini ilə generatordan ibarət enerji qurğusu.",
+  "en": "hydroelectric generating unit, hydro unit",
+  "pos": "noun"
+ },
+ "xizəkçilik": {
+  "az": "Xizək sürmə idmanı.",
+  "en": "skiing",
+  "pos": "noun"
+ },
+ "iriyarpaqlı": {
+  "az": "Yarpaqları iri olan (bitki adlarında: iriyarpaqlı cökə).",
+  "en": "large-leaved",
+  "pos": "adjective"
+ },
+ "qadınsayağı": {
+  "az": "Qadın kimi, qadınlara xas tərzdə.",
+  "en": "like a woman, in a womanly manner",
+  "pos": "adverb"
+ },
+ "qalxanotu": {
+  "skip": "plant name, not certain"
+ },
+ "lirik-fəlsəfi": {
+  "az": "Lirik hisslərlə fəlsəfi düşüncəni birləşdirən (lirik-fəlsəfi şeir).",
+  "en": "lyrical-philosophical",
+  "pos": "adjective"
+ },
+ "merlik": {
+  "az": "Mer vəzifəsi; merin bu vəzifədə olduğu dövr.",
+  "en": "mayoralty, office of mayor",
+  "pos": "noun"
+ },
+ "mikroforma": {
+  "az": "Çox kiçik ölçülü forma (relyefin mikroformaları); sənədlərin kiçildilmiş surətini saxlayan daşıyıcı (mikrofilm və s.).",
+  "en": "microform",
+  "pos": "noun"
+ },
+ "monogenetik": {
+  "az": "Tək mənşədən yaranan və ya bir genlə müəyyən edilən (monogenetik xəstəliklər).",
+  "en": "monogenetic; monogenic",
+  "pos": "adjective"
+ },
+ "müsavatçılıq": {
+  "az": "Müsavat partiyasının ideologiyası və siyasi xətti; müsavatçı olma.",
+  "en": "Musavatism (the ideology of the Musavat party)",
+  "pos": "noun"
+ },
+ "nanoquruluşlu": {
+  "az": "Nanometr ölçülü struktur elementlərindən ibarət olan (nanoquruluşlu materiallar).",
+  "en": "nanostructured",
+  "pos": "adjective"
+ },
+ "neopozitivizm": {
+  "az": "XX əsrdə yaranmış, fəlsəfənin vəzifəsini elmi biliyin məntiqi təhlili sayan pozitivizm cərəyanı.",
+  "en": "neopositivism, logical positivism",
+  "pos": "noun"
+ },
+ "paltardəyişmə": {
+  "az": "Paltar dəyişmə, geyimi dəyişdirmə (paltardəyişmə otağı).",
+  "en": "changing clothes (as in changing room)",
+  "pos": "noun"
+ },
+ "pazdimdik": {
+  "skip": "bird name, not certain"
+ },
+ "peşəyönümlü": {
+  "az": "Müəyyən peşəyə hazırlamağa yönəldilmiş (peşəyönümlü təhsil).",
+  "en": "vocational, career-oriented",
+  "pos": "adjective"
+ },
+ "pərdəşəkilli": {
+  "az": "Pərdə kimi nazik və yayğın olan, pərdəyə bənzəyən.",
+  "en": "curtain-like, veil-like",
+  "pos": "adjective"
+ },
+ "radiofobiya": {
+  "az": "Radiasiyadan, ionlaşdırıcı şüalanmadan həddən artıq qorxma.",
+  "en": "radiophobia",
+  "pos": "noun"
+ },
+ "radioqalaktika": {
+  "az": "Güclü radioşüalanma mənbəyi olan qalaktika.",
+  "en": "radio galaxy",
+  "pos": "noun"
+ },
+ "radiotamaşa": {
+  "az": "Radio üçün hazırlanıb efirə verilən tamaşa.",
+  "en": "radio play",
+  "pos": "noun"
+ },
+ "roman-epopeya": {
+  "az": "Geniş tarixi hadisələri və xalqın taleyini əks etdirən böyük həcmli roman.",
+  "en": "epic novel, roman-fleuve",
+  "pos": "noun"
+ },
+ "samidilli": {
+  "az": "Sami (semit) dillərindən birində danışan (samidilli xalqlar).",
+  "en": "Semitic-speaking",
+  "pos": "adjective"
+ },
+ "sarımtıl-narıncı": {
+  "az": "Sarıya çalan narıncı rəngdə olan.",
+  "en": "yellowish-orange",
+  "pos": "adjective"
+ },
+ "siçantutan": {
+  "az": "Siçan tutan, siçan ovlamağı bacaran (siçantutan pişik).",
+  "en": "mouse-catching, good at catching mice",
+  "pos": "adjective"
+ },
+ "şaxduran": {
+  "az": "Dik, şax dayanan (şaxduran qulaqlar, budaqlar).",
+  "en": "upright, erect",
+  "pos": "adjective"
+ },
+ "tarixi-ədəbi": {
+  "az": "Tarix və ədəbiyyatla bağlı olan (tarixi-ədəbi əsər).",
+  "en": "historical-literary",
+  "pos": "adjective"
+ },
+ "telekompaniya": {
+  "az": "Televiziya verilişləri hazırlayıb yayımlayan şirkət.",
+  "en": "television company, TV broadcaster",
+  "pos": "noun"
+ },
+ "telekörpü": {
+  "az": "Müxtəlif şəhər və ya ölkələrdəki iştirakçıları televiziya vasitəsilə birləşdirən canlı veriliş.",
+  "en": "TV link-up, telebridge",
+  "pos": "noun"
+ },
+ "telemexaniki": {
+  "az": "Telemexanikaya aid; maşın və qurğuların məsafədən idarə olunması ilə bağlı.",
+  "en": "telemechanical",
+  "pos": "adjective"
+ },
+ "termomexaniki": {
+  "az": "İstilik və mexaniki təsirlərin birgə tətbiqinə əsaslanan (termomexaniki emal).",
+  "en": "thermomechanical",
+  "pos": "adjective"
+ },
+ "təkmandatlı": {
+  "az": "Yalnız bir deputat seçilən, bir mandat nəzərdə tutulan (təkmandatlı seçki dairəsi).",
+  "en": "single-mandate, single-member",
+  "pos": "adjective"
+ },
+ "tikinti-bərpa": {
+  "az": "Tikinti və bərpa (tikinti-bərpa işləri).",
+  "en": "construction and restoration",
+  "pos": "noun"
+ },
+ "tokkata": {
+  "az": "Sürətli, ritmik hərəkətli, ifaçının virtuozluğunu göstərən instrumental (xüsusən klavişli alət üçün) əsər.",
+  "en": "toccata",
+  "pos": "noun",
+  "parts": false
+ },
+ "transmutasiya": {
+  "az": "Bir kimyəvi elementin nüvə reaksiyaları nəticəsində başqa elementə çevrilməsi; çevrilmə.",
+  "en": "transmutation",
+  "pos": "noun",
+  "parts": false
+ },
+ "uzunayaqlı": {
+  "az": "Ayaqları uzun olan.",
+  "en": "long-legged",
+  "pos": "adjective"
+ },
+ "yarımsilindrik": {
+  "az": "Yarım silindr formasında olan.",
+  "en": "semicylindrical",
+  "pos": "adjective"
+ },
+ "yüksəkoktanlı": {
+  "az": "Oktan ədədi yüksək olan, detonasiyaya davamlı (yüksəkoktanlı benzin).",
+  "en": "high-octane",
+  "pos": "adjective"
+ },
+ "aeroterapiya": {
+  "az": "Təmiz açıq havanın müalicəvi təsirindən istifadə edən müalicə üsulu.",
+  "en": "aerotherapy, air therapy",
+  "pos": "noun"
+ },
+ "ana-oğul": {
+  "az": "Ana və oğlu (birlikdə).",
+  "en": "mother and son",
+  "pos": "noun"
+ },
+ "antitoksin": {
+  "az": "Orqanizmdə toksinlərə qarşı əmələ gələn və onları zərərsizləşdirən antitel.",
+  "en": "antitoxin",
+  "pos": "noun"
+ },
+ "ata-nənə": {
+  "skip": "meaning not certain"
+ },
+ "beyin-onurğa": {
+  "az": "Baş beyinlə onurğa beyninə birlikdə aid olan (beyin-onurğa mayesi).",
+  "en": "cerebrospinal",
+  "pos": "adjective"
+ },
+ "bioelektronika": {
+  "az": "Elektronika üsullarının biologiya və tibbdə tətbiqini, canlılardakı elektron proseslərini öyrənən sahə.",
+  "en": "bioelectronics",
+  "pos": "noun"
+ },
+ "birgəpolimerləşmə": {
+  "az": "İki və ya daha çox müxtəlif monomerin birlikdə polimerləşməsi.",
+  "en": "copolymerization",
+  "pos": "noun"
+ },
+ "bloqçuluq": {
+  "az": "Bloq yazma və aparma fəaliyyəti.",
+  "en": "blogging",
+  "pos": "noun"
+ },
+ "daşlı-palçıqlı": {
+  "az": "Həm daşlı, həm də palçıqlı olan (daşlı-palçıqlı yol, sel).",
+  "en": "stony and muddy",
+  "pos": "adjective"
+ },
+ "dibdərinləşdirmə": {
+  "az": "Çayın, limanın, kanalın və s. dibini qazıyıb dərinləşdirmə.",
+  "en": "dredging",
+  "pos": "noun"
+ },
+ "dini-mifoloji": {
+  "az": "Din və mifologiya ilə bağlı olan (dini-mifoloji təsəvvürlər).",
+  "en": "religious-mythological",
+  "pos": "adjective"
+ },
+ "ekran-efir": {
+  "az": "Televiziya ekranı və radio-televiziya efiri ilə bağlı, yayım sahəsinə aid (ekran-efir məkanı).",
+  "en": "broadcast, on-screen and on-air (media)",
+  "pos": "adjective"
+ },
+ "elmi-siyasi": {
+  "az": "Həm elmi, həm də siyasi xarakter daşıyan (elmi-siyasi jurnal).",
+  "en": "scientific and political",
+  "pos": "adjective"
+ },
+ "enlidimdik": {
+  "skip": "bird name, not certain"
+ },
+ "əks-təbliğat": {
+  "az": "Rəqib və ya düşmən təbliğatına qarşı aparılan təbliğat.",
+  "en": "counter-propaganda",
+  "pos": "noun"
+ },
+ "general-admiral": {
+  "az": "Bəzi ölkələrin (məs., çar Rusiyasının) hərbi donanmasında ən yüksək rütbə və bu rütbəni daşıyan şəxs.",
+  "en": "general admiral",
+  "pos": "noun"
+ },
+ "gülqənd": {
+  "az": "Qızılgül ləçəklərindən şəkərlə hazırlanan mürəbbə.",
+  "en": "rose petal jam, gulkand",
+  "pos": "noun"
+ },
+ "hakerlik": {
+  "az": "Kompüter sistemlərinə icazəsiz daxil olma; haker fəaliyyəti.",
+  "en": "hacking",
+  "pos": "noun"
+ },
+ "hərbi-inqilabi": {
+  "az": "Hərbi və inqilabi xarakter daşıyan (hərbi-inqilabi komitə).",
+  "en": "military-revolutionary",
+  "pos": "adjective"
+ },
+ "hərəmlik": {
+  "skip": "meaning not certain"
+ },
+ "xantirmə": {
+  "az": "Nəfis naxışlı, qiymətli tirmə parça növü.",
+  "en": "a fine, costly kind of termeh (patterned shawl cloth)",
+  "pos": "noun"
+ },
+ "ilankölgəsi": {
+  "skip": "plant name, not certain"
+ },
+ "işıqsaçma": {
+  "az": "İşıq saçma, ətrafa işıq yayma; şüalanma.",
+  "en": "light emission, radiance",
+  "pos": "noun",
+  "parts": false
+ },
+ "kimyaçı-texnoloq": {
+  "az": "Kimya texnologiyası üzrə mütəxəssis; kimyəvi istehsal proseslərini təşkil edən mühəndis.",
+  "en": "chemical technologist",
+  "pos": "noun"
+ },
+ "kinoulduz": {
+  "az": "Çox məşhur kino aktyoru və ya aktrisası.",
+  "en": "film star, movie star",
+  "pos": "noun"
+ },
+ "konusabənzər": {
+  "az": "Konusa oxşayan, konus formasında olan.",
+  "en": "cone-like, conical",
+  "pos": "adjective"
+ },
+ "korreksiyaedici": {
+  "az": "Nöqsanı düzəltməyə, korreksiyaya xidmət edən (korreksiyaedici təlim).",
+  "en": "corrective",
+  "pos": "adjective"
+ },
+ "qayışləçək": {
+  "skip": "plant name, not certain"
+ },
+ "qeyri-verbal": {
+  "az": "Sözlə deyil, jest, mimika və s. ilə ifadə olunan (qeyri-verbal ünsiyyət).",
+  "en": "non-verbal",
+  "pos": "adjective"
+ },
+ "qədəhəbənzər": {
+  "az": "Qədəhə oxşayan, qədəh formasında olan.",
+  "en": "goblet-shaped, cup-shaped",
+  "pos": "adjective"
+ },
+ "qəpikotu": {
+  "skip": "plant name, not certain"
+ },
+ "qısadimdik": {
+  "skip": "bird name, not certain"
+ },
+ "qızıl-valyuta": {
+  "az": "Dövlətin qızıl və xarici valyutadan ibarət ehtiyatlarına aid (qızıl-valyuta ehtiyatları).",
+  "en": "gold and foreign-currency (reserves)",
+  "pos": "adjective"
+ },
+ "qızıldərili": {
+  "az": "Amerika qitəsinin yerli xalqlarından olan adam; Amerika hindusu.",
+  "en": "Native American, American Indian",
+  "pos": "noun"
+ },
+ "lələkdəyişmə": {
+  "az": "Quşların köhnə lələklərini töküb yenisini çıxarması; tülək.",
+  "en": "moulting (of birds)",
+  "pos": "noun"
+ },
+ "məntiqçilik": {
+  "skip": "meaning not certain"
+ },
+ "monqol-türk": {
+  "az": "Monqol və türk xalqlarına birlikdə aid olan (monqol-türk tayfaları).",
+  "en": "Mongol-Turkic",
+  "pos": "adjective"
+ },
+ "növəmələgəlmə": {
+  "az": "Təkamül prosesində yeni bioloji növlərin yaranması.",
+  "en": "speciation",
+  "pos": "noun"
+ },
+ "ortodoksluq": {
+  "az": "Hər hansı təlimə, dinə və ya ideologiyaya ciddi, dəyişməz sadiqlik; pravoslavlıq.",
+  "en": "orthodoxy",
+  "pos": "noun"
+ },
+ "oyundankənar": {
+  "az": "Futbolda, xokkeydə: hücumçunun qaydaya zidd olaraq rəqib qapısına topdan və müdafiəçilərdən yaxın vəziyyətdə olması.",
+  "en": "offside",
+  "pos": "noun"
+ },
+ "paralinqvistika": {
+  "az": "Nitqi müşayiət edən qeyri-dil vasitələrini (intonasiya, jest, mimika və s.) öyrənən dilçilik sahəsi.",
+  "en": "paralinguistics",
+  "pos": "noun",
+  "parts": false
+ },
+ "parapsixoloji": {
+  "az": "Parapsixologiyaya aid; elmi izahı olmayan psixi hadisələrlə (telepatiya, telekinez və s.) bağlı.",
+  "en": "parapsychological",
+  "pos": "adjective",
+  "parts": false
+ },
+ "postsosialist": {
+  "az": "Sosialist rejimindən sonrakı dövrə aid olan (postsosialist ölkələr).",
+  "en": "post-socialist",
+  "pos": "adjective"
+ },
+ "radiopyes": {
+  "az": "Radio ilə efirə vermək üçün yazılmış pyes.",
+  "en": "radio play",
+  "pos": "noun"
+ },
+ "reaksiyayagirmə": {
+  "az": "Bir maddənin başqa maddə ilə kimyəvi reaksiyaya girməsi.",
+  "en": "entering into a reaction, reacting",
+  "pos": "noun"
+ },
+ "sarımtıl-qırmızı": {
+  "az": "Sarıya çalan qırmızı rəngdə olan.",
+  "en": "yellowish-red",
+  "pos": "adjective"
+ },
+ "silahqayırma": {
+  "az": "Silah düzəltmə, silah istehsalı (silahqayırma sənəti).",
+  "en": "gunsmithing, arms making",
+  "pos": "noun",
+  "parts": false
+ },
+ "süpürgəgülü": {
+  "skip": "plant name, not certain"
+ },
+ "şair-filosof": {
+  "az": "Əsərlərində dərin fəlsəfi fikirlər ifadə edən şair; həm şair, həm filosof olan şəxs.",
+  "en": "poet-philosopher",
+  "pos": "noun"
+ },
+ "tanrılıq": {
+  "az": "Tanrı olma, ilahi mahiyyət; ilahilik.",
+  "en": "divinity, godhood",
+  "pos": "noun"
+ },
+ "tərtibatçı-rəssam": {
+  "az": "Kitabın, səhnənin, sərginin və s. bədii tərtibatını hazırlayan rəssam.",
+  "en": "designer-artist, art designer",
+  "pos": "noun"
+ },
+ "yarımpeşəkar": {
+  "az": "Bir işlə peşəkar səviyyəyə yaxın, lakin əsas məşğuliyyət kimi olmadan məşğul olan.",
+  "en": "semi-professional",
+  "pos": "adjective"
+ },
+ "yarımsistem": {
+  "az": "Böyük sistemin tərkibində olan, nisbi müstəqilliyə malik hissə.",
+  "en": "subsystem",
+  "pos": "noun"
+ },
+ "astrofotoqrafiya": {
+  "az": "Göy cisimlərinin fotoşəklini çəkmə; astronomik fotoqrafiya.",
+  "en": "astrophotography",
+  "pos": "noun"
+ },
+ "bağ-bostan": {
+  "az": "Meyvə bağı və bostan; əkilib-becərilən bağ yerləri.",
+  "en": "orchards and vegetable gardens",
+  "pos": "noun"
+ },
+ "bədniyyətli": {
+  "az": "Pis niyyəti olan, başqasına pislik istəyən.",
+  "en": "ill-intentioned, malicious",
+  "pos": "adjective"
+ },
+ "birgəpolimer": {
+  "az": "İki və ya daha çox müxtəlif monomerin birlikdə polimerləşməsindən alınan polimer.",
+  "en": "copolymer",
+  "pos": "noun"
+ },
+ "çılpaqgözlü": {
+  "skip": "meaning not certain"
+ },
+ "elektrostatika": {
+  "az": "Sükunətdə olan elektrik yüklərinin qarşılıqlı təsirini və onların sahəsini öyrənən fizika bölməsi.",
+  "en": "electrostatics",
+  "pos": "noun"
+ },
+ "əxlaqi-didaktik": {
+  "az": "Əxlaqi tərbiyə və öyüd-nəsihət məqsədi daşıyan (əxlaqi-didaktik əsərlər).",
+  "en": "moral-didactic",
+  "pos": "adjective"
+ },
+ "əvəzedilmə": {
+  "az": "Bir şeyin və ya kəsin başqası ilə əvəz edilməsi.",
+  "en": "replacement, substitution",
+  "pos": "noun"
+ },
+ "əyriboğaz": {
+  "skip": "meaning not certain"
+ },
+ "fotofobiya": {
+  "az": "Gözün işığa qarşı ağrılı həssaslığı; işıqdan qorxma.",
+  "en": "photophobia",
+  "pos": "noun"
+ },
+ "fotostend": {
+  "az": "Fotoşəkillərin nümayiş etdirildiyi lövhə, stend.",
+  "en": "photo display board",
+  "pos": "noun"
+ },
+ "hava-kosmik": {
+  "az": "Həm atmosferdə, həm də kosmosda fəaliyyətə aid olan (hava-kosmik qüvvələr).",
+  "en": "aerospace",
+  "pos": "adjective"
+ },
+ "hörmət-izzət": {
+  "az": "Böyük hörmət və ehtiram.",
+  "en": "respect and esteem, honour",
+  "pos": "noun"
+ },
+ "hörümçəyəbənzər": {
+  "az": "Hörümçəyə oxşayan.",
+  "en": "spider-like, arachnoid",
+  "pos": "adjective"
+ },
+ "xəritə-sxem": {
+  "az": "Ərazini sadələşdirilmiş şəkildə, yalnız əsas obyektləri göstərməklə təsvir edən xəritə.",
+  "en": "schematic map, sketch map",
+  "pos": "noun"
+ },
+ "ilkağızlı": {
+  "az": "Rüşeymin ilkin ağzı sonradan ağıza çevrilən heyvanlara aid (ilkağızlılar).",
+  "en": "protostome, protostomial",
+  "pos": "adjective"
+ },
+ "inzibati-hüquqi": {
+  "az": "İnzibati hüquqla, dövlət idarəçiliyinin hüquqi tənzimlənməsi ilə bağlı (inzibati-hüquqi münasibətlər).",
+  "en": "administrative-legal",
+  "pos": "adjective"
+ },
+ "irimolekullu": {
+  "az": "Molekulları iri olan, yüksək molekul kütləli (irimolekullu birləşmələr).",
+  "en": "high-molecular, macromolecular",
+  "pos": "adjective"
+ },
+ "kinoklub": {
+  "az": "Kino həvəskarlarını birləşdirən, film nümayişləri və müzakirələr təşkil edən klub.",
+  "en": "film club, cinema club",
+  "pos": "noun"
+ },
+ "kinonovella": {
+  "az": "Novella xarakterli qısa bədii film; kino üçün yazılmış novella.",
+  "en": "film novella, short feature film",
+  "pos": "noun"
+ },
+ "qeyri-elektrolit": {
+  "az": "Məhlulda və ya ərintidə ionlara ayrılmayan, elektrik cərəyanını keçirməyən maddə.",
+  "en": "non-electrolyte",
+  "pos": "noun"
+ },
+ "qırxçıraq": {
+  "skip": "meaning not certain"
+ },
+ "qızılqarın": {
+  "skip": "animal name, not certain"
+ },
+ "leksik-qrammatik": {
+  "az": "Həm leksikaya, həm də qrammatikaya aid olan (leksik-qrammatik kateqoriya).",
+  "en": "lexico-grammatical",
+  "pos": "adjective"
+ },
+ "lord-kansler": {
+  "az": "Böyük Britaniyada ən yüksək dövlət vəzifələrindən biri: ədliyyə sisteminə rəhbərlik edən vəzifəli şəxs.",
+  "en": "Lord Chancellor",
+  "pos": "noun"
+ },
+ "makroseysmik": {
+  "az": "Zəlzələnin insanlar tərəfindən hiss olunan, binalarda və yer səthində görünən təsirlərinə aid (makroseysmik müşahidələr).",
+  "en": "macroseismic",
+  "pos": "adjective"
+ },
+ "memar-mühəndis": {
+  "az": "Həm memar, həm də mühəndis ixtisasına malik mütəxəssis.",
+  "en": "architect-engineer",
+  "pos": "noun"
+ },
+ "meyvəverən": {
+  "az": "Meyvə verən, bar gətirən (meyvəverən ağaclar).",
+  "en": "fruit-bearing",
+  "pos": "adjective"
+ },
+ "məcburedici": {
+  "az": "Məcbur edən, icrası vacib olan (məcburedici tədbirlər).",
+  "en": "coercive, compulsory",
+  "pos": "adjective"
+ },
+ "məhəllədaxili": {
+  "az": "Məhəllənin daxilində olan (məhəllədaxili yollar, həyətlər).",
+  "en": "within a neighbourhood or residential block",
+  "pos": "adjective"
+ },
+ "mikroarxitektura": {
+  "az": "Bir şeyin (prosessorun, toxumanın və s.) daxili, xırda detallı quruluşu.",
+  "en": "microarchitecture",
+  "pos": "noun"
+ },
+ "mikrofotoqrafiya": {
+  "az": "Kiçik obyektlərin mikroskop vasitəsilə fotoşəklini çəkmə; belə çəkilmiş şəkil.",
+  "en": "photomicrography; photomicrograph",
+  "pos": "noun"
+ },
+ "mikrohissəcik": {
+  "az": "Çox kiçik ölçülü hissəcik (atom, molekul, elementar zərrəcik və s.).",
+  "en": "microparticle",
+  "pos": "noun"
+ },
+ "muğamsayağı": {
+  "az": "Muğam üslubunda, muğama bənzər tərzdə.",
+  "en": "in the style of mugham",
+  "pos": "adverb"
+ },
+ "naxışvurma": {
+  "az": "Parçaya və ya başqa səthə naxış salma, naxış işləmə.",
+  "en": "embroidering, decorating with patterns",
+  "pos": "noun"
+ },
+ "neoplastik": {
+  "az": "Tibbdə: şişə, yeni törəməyə aid olan (neoplastik proses).",
+  "en": "neoplastic",
+  "pos": "adjective",
+  "parts": false
+ },
+ "oraqdimdik": {
+  "skip": "bird name, not certain"
+ },
+ "pərəstişkarlıq": {
+  "az": "Birinə və ya bir şeyə pərəstiş etmə, heyranlıq.",
+  "en": "admiration, adoration",
+  "pos": "noun"
+ },
+ "politipik": {
+  "az": "Bir neçə tipdən, formadan ibarət olan (politipik növ).",
+  "en": "polytypic",
+  "pos": "adjective"
+ },
+ "rusca-türkcə": {
+  "az": "Rus dilindən türk dilinə tərcüməni verən (rusca-türkcə lüğət).",
+  "en": "Russian-Turkish (Russian–Turkic), e.g. of a dictionary",
+  "pos": "adjective"
+ },
+ "səhra-çöl": {
+  "az": "Səhra və çöl xüsusiyyətlərini birləşdirən quraq ərazi; səhralar və çöllər.",
+  "en": "desert and steppe; desert steppe",
+  "pos": "noun"
+ },
+ "sufi-dərviş": {
+  "az": "Təsəvvüf yolunu tutmuş dərviş.",
+  "en": "Sufi dervish",
+  "pos": "noun"
+ },
+ "sümükdaxili": {
+  "az": "Sümüyün daxilində olan və ya ora yeridilən (sümükdaxili inyeksiya).",
+  "en": "intraosseous",
+  "pos": "adjective"
+ },
+ "taxtabaşı": {
+  "skip": "meaning not certain"
+ },
+ "tarixi-müqayisəli": {
+  "az": "Hadisələri tarixi inkişafda müqayisə yolu ilə öyrənən (tarixi-müqayisəli metod).",
+  "en": "comparative-historical",
+  "pos": "adjective"
+ },
+ "texnik-geoloq": {
+  "az": "Geoloji kəşfiyyat işlərində çalışan orta ixtisaslı mütəxəssis.",
+  "en": "geological technician",
+  "pos": "noun"
+ },
+ "teleoperator": {
+  "az": "Televiziya çəkilişlərini aparan operator.",
+  "en": "television camera operator",
+  "pos": "noun"
+ },
+ "telestudiya": {
+  "az": "Televiziya verilişlərinin hazırlanıb çəkildiyi və yayımlandığı studiya.",
+  "en": "television studio",
+  "pos": "noun"
+ },
+ "tərbiyəedici": {
+  "az": "Tərbiyə verən, tərbiyəvi təsiri olan (tərbiyəedici əhəmiyyət).",
+  "en": "educational, edifying",
+  "pos": "adjective"
+ },
+ "toparlanmaq": {
+  "az": "Bir yerə yığılmaq, toplanmaq; özünü ələ alıb cəmləşmək.",
+  "en": "to gather together; to pull oneself together",
+  "pos": "verb",
+  "parts": false
+ },
+ "videoadapter": {
+  "az": "Kompüterdə təsviri emal edib monitora ötürən qurğu; videokart.",
+  "en": "video adapter, graphics card",
+  "pos": "noun"
+ },
+ "yağlıq": {
+  "skip": "meaning not certain (kerchief vs. 'for fat')"
+ },
+ "yarımsütun": {
+  "az": "Divara bitişik, yarısı divardan çıxan sütun.",
+  "en": "half-column, engaged column",
+  "pos": "noun"
+ }
+}

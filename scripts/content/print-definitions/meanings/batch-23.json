@@ -1,0 +1,970 @@
+{
+ "sarımtıl-mavi": {
+  "az": "Sarıya çalan mavi rəngdə olan.",
+  "en": "yellowish-blue",
+  "pos": "adjective"
+ },
+ "sarımtıl-palıdı": {
+  "az": "Sarıya çalan palıdı (qəhvəyi) rəngdə olan.",
+  "en": "yellowish-brown",
+  "pos": "adjective"
+ },
+ "satirik-didaktik": {
+  "az": "Həm satirik, həm də öyrədici, tərbiyəvi xarakter daşıyan (satirik-didaktik şeir).",
+  "en": "satirical and didactic",
+  "pos": "adjective"
+ },
+ "satirik-dramatik": {
+  "az": "Satira ilə dram ünsürlərini birləşdirən (satirik-dramatik əsər).",
+  "en": "satirical-dramatic",
+  "pos": "adjective"
+ },
+ "satirik-filosof": {
+  "az": "Həyatı və cəmiyyəti satirik baxışla, fəlsəfi dərinliklə dəyərləndirən yazıçı, mütəfəkkir.",
+  "en": "satirist-philosopher",
+  "pos": "noun"
+ },
+ "satirik-fəlsəfi": {
+  "az": "Həm satirik, həm də fəlsəfi məzmun daşıyan (satirik-fəlsəfi poema).",
+  "en": "satirical-philosophical",
+  "pos": "adjective"
+ },
+ "satirik-komik": {
+  "az": "Satirik tənqidlə yanaşı gülüş doğuran, satirik və komik xarakterli.",
+  "en": "satirical and comic",
+  "pos": "adjective"
+ },
+ "satirik-publisist": {
+  "az": "İctimai-siyasi mövzularda satirik üslubda yazan müəllif.",
+  "en": "satirical publicist, satirical columnist",
+  "pos": "noun"
+ },
+ "satıb-almaq": {
+  "az": "Alqı-satqı etmək, alver etmək.",
+  "en": "to buy and sell, to trade",
+  "pos": "verb"
+ },
+ "satış-alış": {
+  "az": "Malın alınıb satılması; alqı-satqı, ticarət.",
+  "en": "buying and selling, trade",
+  "pos": "noun"
+ },
+ "satış-sərgi": {
+  "az": "Nümayiş olunan məhsulların və ya əsərlərin yerindəcə satıldığı sərgi.",
+  "en": "sales exhibition, exhibition and sale",
+  "pos": "noun"
+ },
+ "savaşlı-dalaşlı": {
+  "az": "Dava-dalaşla, mübahisə və çəkişmə içində (savaşlı-dalaşlı yaşamaq).",
+  "en": "quarrelling and fighting, amid quarrels",
+  "pos": "adverb",
+  "parts": false
+ },
+ "say-hesab": {
+  "az": "Sayma, hesablama; bir şeyin dəqiq sayı, uçotu (say-hesabı yoxdur).",
+  "en": "count, reckoning, tally",
+  "pos": "noun"
+ },
+ "say-hesablı": {
+  "az": "Sayı bəlli və məhdud olan; hesabla, ölçü ilə olan (say-hesablı pul).",
+  "en": "counted, limited in number; carefully reckoned",
+  "pos": "adjective"
+ },
+ "say-hesabsız": {
+  "az": "Sayı-hesabı olmayan, saymaqla qurtarmayan qədər çox.",
+  "en": "countless, innumerable",
+  "pos": "adjective"
+ },
+ "saysız-qədərsiz": {
+  "az": "Saymaq mümkün olmayacaq qədər çox; saysız-hesabsız.",
+  "en": "countless, innumerable, untold",
+  "pos": "adjective"
+ },
+ "sayıb-seçmək": {
+  "az": "Hörmət edib başqalarından ayırmaq, üstün tutmaq; diqqətlə seçmək.",
+  "en": "to hold in esteem, to single out; to choose carefully",
+  "pos": "verb"
+ },
+ "saz-balaban": {
+  "az": "Saz və balaban kimi xalq çalğı alətləri; bu alətlərlə çalınan musiqi, el şənliyi.",
+  "en": "folk instruments and music (saz and balaban); festive music-making",
+  "pos": "noun"
+ },
+ "sazlaşıb-sözləşmək": {
+  "az": "Bir-biri ilə anlaşıb razılığa gəlmək, sözü bir yerə qoymaq.",
+  "en": "to come to terms, to reach an agreement with each other",
+  "pos": "verb"
+ },
+ "sazlı-balabanlı": {
+  "az": "Saz və balaban çalınan, musiqili, şənlikli (sazlı-balabanlı toy).",
+  "en": "with folk music (saz and balaban), festive",
+  "pos": "adjective"
+ },
+ "saç-bığ": {
+  "az": "Saç və bığ; kişinin baş və üz tükü (saç-bığı ağarmaq).",
+  "en": "hair and moustache",
+  "pos": "noun"
+ },
+ "saçlı-bığlı": {
+  "az": "Saç və bığ saxlamış (kişi haqqında).",
+  "en": "with hair and a moustache",
+  "pos": "adjective"
+ },
+ "saçlı-saçaqlı": {
+  "az": "Uzun saçları və ya saçaqları sallanan; saçaqlı.",
+  "en": "shaggy; fringed",
+  "pos": "adjective"
+ },
+ "saçma-qırma": {
+  "az": "Ov tüfəngi üçün xırda qurğuşun dənələri; saçma.",
+  "en": "shot, pellets (for a shotgun)",
+  "pos": "noun"
+ },
+ "saçsız-birçəksiz": {
+  "az": "Başında saçı qalmamış, saçları tökülmüş.",
+  "en": "bald, hairless",
+  "pos": "adjective"
+ },
+ "saçsız-bığsız": {
+  "az": "Başında saçı, üzündə bığı olmayan.",
+  "en": "bald and without a moustache",
+  "pos": "adjective"
+ },
+ "saçsız-saqqalsız": {
+  "az": "Başında saçı, üzündə saqqalı olmayan.",
+  "en": "bald and beardless",
+  "pos": "adjective"
+ },
+ "sağ-islahat": {
+  "skip": "meaning not certain"
+ },
+ "sağsağan-cüllüt": {
+  "az": "Ağ-qara lələkli, uzun qırmızı dimdikli sahil quşu (Haematopus ostralegus).",
+  "en": "Eurasian oystercatcher",
+  "pos": "noun"
+ },
+ "sehr-cadu": {
+  "az": "Ovsun və cadu ilə edilən işlər; sehrbazlıq, cadugərlik.",
+  "en": "magic and witchcraft, sorcery",
+  "pos": "noun"
+ },
+ "seks-robot": {
+  "az": "Cinsi əlaqə üçün nəzərdə tutulmuş insanabənzər robot.",
+  "en": "sex robot",
+  "pos": "noun"
+ },
+ "sel-daşqın": {
+  "az": "Güclü yağışdan və ya qar suyundan yaranan sellər və daşqınlar.",
+  "en": "floods, flooding",
+  "pos": "noun"
+ },
+ "sel-eroziya": {
+  "az": "Sel axınlarının torpağı yuyub aparması, dağıtması (sel-eroziya prosesləri).",
+  "en": "flood erosion, erosion by torrents",
+  "pos": "noun"
+ },
+ "selik-zülal": {
+  "skip": "meaning not certain"
+ },
+ "selləmə-suvarma": {
+  "az": "Suyu sahəyə bol axıdıb torpağı basdırmaqla aparılan suvarma.",
+  "en": "flood irrigation",
+  "pos": "noun"
+ },
+ "semantik-qrammatik": {
+  "az": "Həm məna, həm də qrammatik quruluşla bağlı olan (semantik-qrammatik təhlil).",
+  "en": "semantic-grammatical",
+  "pos": "adjective"
+ },
+ "semantik-sintaktik": {
+  "az": "Həm məna, həm də sintaktik quruluşla bağlı olan (semantik-sintaktik əlaqə).",
+  "en": "semantic-syntactic",
+  "pos": "adjective"
+ },
+ "semantik-struktur": {
+  "az": "Həm məna, həm də quruluş baxımından olan (semantik-struktur təhlil).",
+  "en": "semantic-structural",
+  "pos": "adjective"
+ },
+ "servant-bufet": {
+  "az": "Qab-qacaq saxlamaq üçün şüşəli qapıları olan iri şkaf; servant.",
+  "en": "sideboard, china cabinet",
+  "pos": "noun"
+ },
+ "sevdalı-sevdasız": {
+  "skip": "meaning not certain"
+ },
+ "sevgili-eşqli": {
+  "az": "Sevgi və eşqlə dolu, məhəbbətli.",
+  "en": "loving, full of love and passion",
+  "pos": "adjective"
+ },
+ "sevgisiz-eşqsiz": {
+  "az": "Sevgidən, məhəbbətdən məhrum olan.",
+  "en": "loveless, without love",
+  "pos": "adjective"
+ },
+ "sevilib-seçilmək": {
+  "az": "Hamının sevgisini qazanıb başqalarından fərqlənmək.",
+  "en": "to be loved and singled out, to be held dear above others",
+  "pos": "verb"
+ },
+ "sevinc-gülüş": {
+  "az": "Sevinc və gülüş; şənlik, şadyanalıq.",
+  "en": "joy and laughter, merriment",
+  "pos": "noun"
+ },
+ "sevinc-kədər": {
+  "az": "Həyatın sevincli və kədərli anları; şadlıq və qəm.",
+  "en": "joy and sorrow; the ups and downs of life",
+  "pos": "noun"
+ },
+ "sevincli-kədərli": {
+  "az": "Həm sevinc, həm də kədər doğuran; sevinclə kədərin qarışdığı.",
+  "en": "bittersweet; both joyful and sad",
+  "pos": "adjective"
+ },
+ "sevindirici-kədərləndirici": {
+  "az": "Həm sevindirən, həm də kədərləndirən (xəbər, hadisə).",
+  "en": "both gladdening and saddening, bittersweet",
+  "pos": "adjective"
+ },
+ "sevinib-ağlamaq": {
+  "az": "Sevincdən göz yaşı tökmək.",
+  "en": "to weep for joy",
+  "pos": "verb"
+ },
+ "sevinib-gülmək": {
+  "az": "Çox sevinmək, sevincdən gülmək.",
+  "en": "to rejoice and laugh, to be overjoyed",
+  "pos": "verb"
+ },
+ "sevinib-şadlanmaq": {
+  "az": "Çox sevinmək, fərəhlənmək.",
+  "en": "to rejoice greatly, to be delighted",
+  "pos": "verb"
+ },
+ "sidqi-ürəkdən": {
+  "az": "Tam səmimiyyətlə, saf niyyətlə, ürəkdən.",
+  "en": "wholeheartedly, with all sincerity",
+  "pos": "adverb"
+ },
+ "sifariş-məxaric cədvəli": {
+  "skip": "meaning not certain"
+ },
+ "sildirib-təmizlətmək": {
+  "az": "Bir yeri və ya əşyanı başqasına silib təmizləməyi tapşırmaq.",
+  "en": "to have (something) wiped and cleaned",
+  "pos": "verb"
+ },
+ "silib-arıtmaq": {
+  "az": "Silərək tamamilə təmizləmək, tərtəmiz etmək.",
+  "en": "to wipe clean, to clean thoroughly",
+  "pos": "verb"
+ },
+ "silib-qurutmaq": {
+  "az": "Silərək nəmini götürmək, quru hala salmaq.",
+  "en": "to wipe dry",
+  "pos": "verb"
+ },
+ "silisium-karbid": {
+  "az": "Silisiumun karbonla birləşməsi (SiC); abraziv və yarımkeçirici kimi işlədilən çox bərk maddə.",
+  "en": "silicon carbide",
+  "pos": "noun"
+ },
+ "silələnib-daşmaq": {
+  "az": "Ağzınacan dolub daşmaq.",
+  "en": "to fill to the brim and overflow",
+  "pos": "verb"
+ },
+ "silələyib-doldurmaq": {
+  "az": "Qabı lap ağzına qədər doldurmaq.",
+  "en": "to fill to the brim",
+  "pos": "verb"
+ },
+ "simfoniya-ballada": {
+  "az": "Ballada xarakterli, nəqletmə ruhunda yazılmış simfonik əsər.",
+  "en": "symphony-ballad, symphonic ballad",
+  "pos": "noun"
+ },
+ "simfoniya-kantata": {
+  "az": "Simfoniya və kantata xüsusiyyətlərini birləşdirən, orkestr, xor və solistlər üçün əsər.",
+  "en": "symphony-cantata",
+  "pos": "noun"
+ },
+ "simfoniya-muğam": {
+  "az": "Muğam əsasında simfonik orkestr üçün yazılmış əsər; simfonik muğam.",
+  "en": "symphonic mugham",
+  "pos": "noun"
+ },
+ "simfoniya-poema": {
+  "az": "Poema xarakterli, proqramlı simfonik əsər; simfonik poema.",
+  "en": "symphony-poem, symphonic poem",
+  "pos": "noun"
+ },
+ "simfoniya-rapsodiya": {
+  "az": "Rapsodiya xarakterli, çox vaxt xalq melodiyalarına əsaslanan simfonik əsər.",
+  "en": "symphony-rhapsody, symphonic rhapsody",
+  "pos": "noun"
+ },
+ "simfoniya-rekviyem": {
+  "az": "Ölənlərin xatirəsinə həsr olunmuş, rekviyem xarakterli simfonik əsər.",
+  "en": "symphony-requiem",
+  "pos": "noun"
+ },
+ "simfoniya-süita": {
+  "az": "Bir neçə müstəqil hissədən ibarət, süita quruluşlu simfonik əsər.",
+  "en": "symphony-suite, symphonic suite",
+  "pos": "noun"
+ },
+ "simli-beton": {
+  "az": "Yüksək möhkəmlikli polad məftillərlə (simlərlə) əvvəlcədən gərginləşdirilmiş dəmir-beton.",
+  "en": "string-reinforced prestressed concrete",
+  "pos": "noun"
+ },
+ "simmetrik-radikal": {
+  "skip": "meaning not certain"
+ },
+ "sinc-təbil": {
+  "az": "Sinc və təbil kimi zərb alətləri; bunların səsi ilə müşayiət olunan təntənə.",
+  "en": "cymbals and drums; fanfare",
+  "pos": "noun"
+ },
+ "sinc-təbilli": {
+  "az": "Sinc və təbil çalınan; təntənəli, səs-küylü.",
+  "en": "with cymbals and drums; with great fanfare",
+  "pos": "adjective"
+ },
+ "sinfi-tarixi": {
+  "az": "Sinfi mövqedən və tarixi baxımdan olan (sinfi-tarixi yanaşma).",
+  "en": "class-historical",
+  "pos": "adjective"
+ },
+ "sinfi-əxlaqi": {
+  "az": "Əxlaqı sinfi mənafe baxımından dəyərləndirən (sinfi-əxlaqi meyarlar).",
+  "en": "class-moral, relating to class morality",
+  "pos": "adjective"
+ },
+ "sinir-toxuma": {
+  "az": "Sinir hüceyrələrindən və onları əhatə edən hüceyrələrdən ibarət toxuma.",
+  "en": "nerve tissue, nervous tissue",
+  "pos": "noun"
+ },
+ "sink-fosfat": {
+  "az": "Fosfat turşusunun sink duzu; diş sementi və pas əleyhinə örtük kimi işlədilir.",
+  "en": "zinc phosphate",
+  "pos": "noun"
+ },
+ "sink-insulin": {
+  "az": "Sinklə birləşdirilmiş, uzun müddət təsir edən insulin preparatı.",
+  "en": "zinc insulin",
+  "pos": "noun"
+ },
+ "sink-karbonat": {
+  "az": "Karbonat turşusunun sink duzu (ZnCO₃).",
+  "en": "zinc carbonate",
+  "pos": "noun"
+ },
+ "sink-sulfat": {
+  "az": "Sulfat turşusunun sink duzu (ZnSO₄); sink kuporosu.",
+  "en": "zinc sulphate",
+  "pos": "noun"
+ },
+ "sink-sulfid": {
+  "az": "Sinkin kükürdlə birləşməsi (ZnS); təbiətdə sfalerit mineralı kimi rast gəlinir.",
+  "en": "zinc sulphide",
+  "pos": "noun"
+ },
+ "sintaktik-morfoloji": {
+  "az": "Həm sintaktik, həm də morfoloji cəhətə aid olan (sintaktik-morfoloji təhlil).",
+  "en": "syntactic-morphological, morphosyntactic",
+  "pos": "adjective"
+ },
+ "sintetik-analitik": {
+  "az": "Həm sintetik, həm də analitik xüsusiyyətləri olan (dil quruluşu, üsul).",
+  "en": "synthetic-analytic",
+  "pos": "adjective"
+ },
+ "sinə-kürək": {
+  "az": "Sinə və kürək; adamın gövdəsi, bədən quruluşu.",
+  "en": "chest and back; build, physique",
+  "pos": "noun"
+ },
+ "sinəli-kürəkli": {
+  "az": "Enli sinəli və geniş kürəkli, iri gövdəli, qüvvətli.",
+  "en": "broad-chested and broad-shouldered, sturdy",
+  "pos": "adjective",
+  "parts": false
+ },
+ "sir-sirdaş": {
+  "az": "Ən yaxın dost, sirr bölüşülən adam; sirdaş.",
+  "en": "confidant, bosom friend",
+  "pos": "noun"
+ },
+ "sir-sirdaşlı": {
+  "az": "Bir-birinə sirr açan, çox yaxın, sirdaş olan.",
+  "en": "intimate, confiding in each other",
+  "pos": "adjective"
+ },
+ "sir-sirdaşlıq": {
+  "az": "Bir-biri ilə sirr bölüşəcək qədər yaxın dostluq; sirdaşlıq.",
+  "en": "intimate friendship, confidence",
+  "pos": "noun"
+ },
+ "sirkə-badımcan": {
+  "skip": "meaning not certain"
+ },
+ "sirkə-sarımsaq": {
+  "az": "İçinə əzilmiş sarımsaq qatılmış sirkə; düşbərə və başqa yeməklərə vurulan şirə.",
+  "en": "garlic vinegar (condiment)",
+  "pos": "noun"
+ },
+ "sirli-sirdaşlı": {
+  "skip": "meaning not certain"
+ },
+ "sirli-sözlü": {
+  "skip": "meaning not certain"
+ },
+ "sirr-sehr": {
+  "az": "Sirli və sehrli şeylər; anlaşılmaz, möcüzəli hal.",
+  "en": "mystery and magic, enchantment",
+  "pos": "noun"
+ },
+ "sirr-söz": {
+  "az": "Gizli saxlanan söz, sirr; başqalarından gizlədilən söhbət.",
+  "en": "secrets, confidences",
+  "pos": "noun"
+ },
+ "sis-forma": {
+  "skip": "meaning not certain"
+ },
+ "sis-çən": {
+  "az": "Sıx duman, çən; dumanlı hava.",
+  "en": "fog and mist, haze",
+  "pos": "noun"
+ },
+ "sisli-çənli": {
+  "az": "Duman və çənlə örtülmüş, dumanlı.",
+  "en": "foggy, misty",
+  "pos": "adjective"
+ },
+ "sissiz-çənsiz": {
+  "az": "Dumanı, çəni olmayan; açıq (hava).",
+  "en": "clear, free of fog and mist",
+  "pos": "adjective"
+ },
+ "siyasi-bədii": {
+  "az": "Siyasi mövzuda olan bədii; siyasi və bədii məzmun daşıyan (əsər, jurnal).",
+  "en": "political and literary",
+  "pos": "adjective"
+ },
+ "siyasi-kütləvi": {
+  "az": "Kütlələr arasında siyasi təbliğat və maarifləndirmə ilə bağlı olan (siyasi-kütləvi iş).",
+  "en": "mass political (e.g. mass political work)",
+  "pos": "adjective"
+ },
+ "sizsiz-bizsiz": {
+  "skip": "meaning not certain"
+ },
+ "skalyar-funksiya": {
+  "az": "Hər nöqtəyə bir ədəd (skalyar kəmiyyət) uyğun qoyan funksiya.",
+  "en": "scalar function",
+  "pos": "noun"
+ },
+ "skeyt-rinq": {
+  "az": "Konki, rolik və ya skeytlə sürüşmək üçün xüsusi meydança.",
+  "en": "skating rink",
+  "pos": "noun"
+ },
+ "slayd-aerobika": {
+  "az": "Sürüşkən xüsusi döşəmə üzərində yana sürüşmə hərəkətləri ilə edilən aerobika.",
+  "en": "slide aerobics",
+  "pos": "noun",
+  "parts": false
+ },
+ "slayd-film": {
+  "az": "Ardıcıl göstərilən slaydlardan ibarət film; diafilm.",
+  "en": "filmstrip, slide film",
+  "pos": "noun"
+ },
+ "solub-qurumaq": {
+  "az": "Təravətini itirib quruyub getmək (bitki haqqında).",
+  "en": "to wither and dry up",
+  "pos": "verb"
+ },
+ "sonata-fantaziya": {
+  "az": "Sonata və fantaziya xüsusiyyətlərini birləşdirən, sərbəst formalı instrumental əsər.",
+  "en": "sonata-fantasia",
+  "pos": "noun"
+ },
+ "sort-nümunə": {
+  "az": "Seleksiya və sınaq üçün götürülən bitki sortunun nümunəsi.",
+  "en": "variety sample, cultivar accession",
+  "pos": "noun"
+ },
+ "sort-sınaq": {
+  "az": "Yeni bitki sortlarının məhsuldarlığını və keyfiyyətini yoxlama (sort-sınaq məntəqəsi).",
+  "en": "variety testing (of crops)",
+  "pos": "noun"
+ },
+ "sorğu-çağırış": {
+  "skip": "meaning not certain"
+ },
+ "sorğulu-suallı": {
+  "az": "Sual dolu, nəyisə soruşmaq istəyən (sorğulu-suallı baxış).",
+  "en": "questioning, inquiring",
+  "pos": "adjective"
+ },
+ "sosial-demokratizm": {
+  "az": "Sosial-demokratiyanın ideologiyası və siyasi cərəyanı.",
+  "en": "social democracy, social democratism",
+  "pos": "noun"
+ },
+ "sosial-imperialist": {
+  "az": "Sözdə sosializmi, əməldə imperialist siyasəti müdafiə edən şəxs.",
+  "en": "social imperialist",
+  "pos": "noun"
+ },
+ "sosial-imperializm": {
+  "az": "Sosializm pərdəsi altında yürüdülən imperialist siyasət.",
+  "en": "social imperialism",
+  "pos": "noun"
+ },
+ "sosial-inqilabçı": {
+  "az": "Sosialist-inqilabçılar (eserlər) partiyasının üzvü; sosial inqilab tərəfdarı.",
+  "en": "Socialist Revolutionary; advocate of social revolution",
+  "pos": "noun"
+ },
+ "sosial-opportunizm": {
+  "az": "Fəhlə hərəkatında sinfi mübarizədən imtina edib burjuaziya ilə əməkdaşlığı müdafiə edən cərəyan (marksist terminologiyada).",
+  "en": "social opportunism",
+  "pos": "noun"
+ },
+ "sosial-pasifist": {
+  "az": "Sosial-pasifizm tərəfdarı.",
+  "en": "social pacifist",
+  "pos": "noun"
+ },
+ "sosial-pasifizm": {
+  "az": "Sinfi mübarizə olmadan sülhə nail olmağı təbliğ edən cərəyan (marksist terminologiyada).",
+  "en": "social pacifism",
+  "pos": "noun"
+ },
+ "sosial-reformist": {
+  "az": "Sosial-reformizm tərəfdarı.",
+  "en": "social reformist",
+  "pos": "noun"
+ },
+ "sosial-reformizm": {
+  "az": "İnqilab yerinə tədrici ictimai islahatlarla sosializmə keçməyi müdafiə edən cərəyan.",
+  "en": "social reformism",
+  "pos": "noun"
+ },
+ "sosial-vətənpərvər": {
+  "az": "Müharibədə öz burjua hökumətini dəstəkləyən sosialist (marksist terminologiyada).",
+  "en": "social patriot",
+  "pos": "noun"
+ },
+ "sosial-şovinist": {
+  "az": "Sosial-şovinizm tərəfdarı.",
+  "en": "social chauvinist",
+  "pos": "noun"
+ },
+ "sosial-şovinizm": {
+  "az": "Sosializm pərdəsi altında millətçiliyi və öz hökumətinin işğalçı siyasətini müdafiə etmə (marksist terminologiyada).",
+  "en": "social chauvinism",
+  "pos": "noun"
+ },
+ "sosialist-liberal": {
+  "az": "Sosialist və liberal baxışları birləşdirən (sosialist-liberal ittifaq).",
+  "en": "socialist-liberal",
+  "pos": "adjective"
+ },
+ "sosioloq-ekspert": {
+  "az": "Sosiologiya sahəsində ekspert rəyi verən mütəxəssis.",
+  "en": "expert sociologist",
+  "pos": "noun"
+ },
+ "sovma-sovuşma": {
+  "skip": "meaning not certain"
+ },
+ "sovurub-təmizləmək": {
+  "az": "Taxılı havaya sovuraraq samandan, kəpəkdən təmizləmək.",
+  "en": "to winnow (grain) clean",
+  "pos": "verb"
+ },
+ "sovuşub-keçmək": {
+  "az": "Təhlükə, bəla və s. ziyan vurmadan ötüb keçmək.",
+  "en": "to pass over, to blow over (of danger)",
+  "pos": "verb"
+ },
+ "sovxoz-texnikum": {
+  "az": "Sovet dövründə sovxozun bazasında fəaliyyət göstərən, təhsili təcrübə ilə birləşdirən kənd təsərrüfatı texnikumu.",
+  "en": "sovkhoz technical school (agricultural college attached to a state farm)",
+  "pos": "noun"
+ },
+ "soyuducu-bar": {
+  "az": "İçki və qəlyanaltı saxlamaq üçün kiçik soyuducu; mini-bar.",
+  "en": "minibar, bar fridge",
+  "pos": "noun",
+  "parts": false
+ },
+ "soyuq-isti": {
+  "az": "Həm soyuq, həm də isti olan (soyuq-isti su).",
+  "en": "cold and hot",
+  "pos": "adjective"
+ },
+ "soğan-çörək": {
+  "az": "Soğan və çörək; ən sadə, kasıb yemək (soğan-çörəklə dolanmaq).",
+  "en": "bread and onions; plain, humble fare",
+  "pos": "noun"
+ },
+ "stol-kürsü": {
+  "az": "Stol və kürsülər; oturmaq və işləmək üçün mebel.",
+  "en": "tables and chairs, furniture",
+  "pos": "noun"
+ },
+ "stol-kürsülü": {
+  "az": "Stol və kürsülərlə təchiz olunmuş.",
+  "en": "furnished with tables and chairs",
+  "pos": "adjective"
+ },
+ "stol-stul": {
+  "az": "Stol və stullar; ev və ya iş otağının mebeli.",
+  "en": "tables and chairs, furniture",
+  "pos": "noun"
+ },
+ "stol-şkaf": {
+  "az": "Stol, şkaf və bu kimi mebel əşyaları.",
+  "en": "furniture (tables, cupboards, etc.)",
+  "pos": "noun"
+ },
+ "stollu-kürsülü": {
+  "az": "Stol və kürsülərlə təchiz olunmuş, mebelli.",
+  "en": "furnished with tables and chairs",
+  "pos": "adjective"
+ },
+ "stollu-şkaflı": {
+  "az": "Stolu və şkafı olan, mebellə təchiz edilmiş.",
+  "en": "furnished (with tables and cupboards)",
+  "pos": "adjective"
+ },
+ "stop-linza": {
+  "skip": "meaning not certain"
+ },
+ "stop-silindr": {
+  "skip": "meaning not certain"
+ },
+ "stop-siqnal": {
+  "az": "Avtomobilin arxasında əyləc basılanda yanan qırmızı işıq.",
+  "en": "brake light, stop lamp",
+  "pos": "noun"
+ },
+ "stres-faktor": {
+  "az": "Orqanizmdə stres vəziyyəti yaradan amil.",
+  "en": "stressor, stress factor",
+  "pos": "noun"
+ },
+ "stres-mineral": {
+  "az": "Süxurların yüksək istiqamətli təzyiq (gərginlik) şəraitində metamorfizmi zamanı əmələ gələn mineral.",
+  "en": "stress mineral",
+  "pos": "noun"
+ },
+ "stres-reaksiya": {
+  "az": "Orqanizmin stres yaradan təsirə verdiyi cavab reaksiyası.",
+  "en": "stress response, stress reaction",
+  "pos": "noun"
+ },
+ "stres-test": {
+  "az": "Sistemin, bankın, ürəyin və s. həddən artıq yük altında davamlılığını yoxlamaq üçün sınaq.",
+  "en": "stress test",
+  "pos": "noun"
+ },
+ "stronsium-sulfat": {
+  "az": "Sulfat turşusunun stronsium duzu (SrSO₄); təbiətdə selestin mineralı kimi rast gəlinir.",
+  "en": "strontium sulphate",
+  "pos": "noun"
+ },
+ "stronsium-sulfid": {
+  "az": "Stronsiumun kükürdlə birləşməsi (SrS).",
+  "en": "strontium sulphide",
+  "pos": "noun"
+ },
+ "studiya-məktəb": {
+  "az": "Gənc aktyor, rəssam, musiqiçi və s. yetişdirən yaradıcı emalatxana tipli məktəb.",
+  "en": "studio school",
+  "pos": "noun"
+ },
+ "stəkan-nəlbəki": {
+  "az": "Stəkan, nəlbəki və bu kimi çay qabları.",
+  "en": "glasses and saucers; tea things",
+  "pos": "noun"
+ },
+ "stəkanlı-nəlbəkili": {
+  "az": "Stəkan və nəlbəkilərlə birlikdə olan (stəkanlı-nəlbəkili sini).",
+  "en": "with glasses and saucers",
+  "pos": "adjective"
+ },
+ "subay-soluq": {
+  "skip": "meaning not certain"
+ },
+ "subyekt-predikat": {
+  "az": "Subyekt ilə predikat arasında olan, onların əlaqəsinə aid (subyekt-predikat münasibəti).",
+  "en": "subject-predicate",
+  "pos": "adjective"
+ },
+ "subyektiv-analoji": {
+  "az": "Şəxsi qavrayışa və analogiyaya əsaslanan.",
+  "en": "subjective-analogical",
+  "pos": "adjective"
+ },
+ "subyektiv-ekspressiv": {
+  "az": "Danışanın şəxsi münasibətini və hisslərini ifadə edən (subyektiv-ekspressiv çalar).",
+  "en": "subjective-expressive",
+  "pos": "adjective"
+ },
+ "subyektiv-emosional": {
+  "az": "Şəxsi hiss və duyğulara əsaslanan, onları ifadə edən.",
+  "en": "subjective-emotional",
+  "pos": "adjective"
+ },
+ "subyektiv-empirik": {
+  "az": "Şəxsi təcrübəyə və müşahidəyə əsaslanan.",
+  "en": "subjective-empirical",
+  "pos": "adjective"
+ },
+ "subyektiv-estetik": {
+  "az": "Şəxsi gözəllik duyğusuna, estetik zövqə əsaslanan.",
+  "en": "subjective-aesthetic",
+  "pos": "adjective"
+ },
+ "subyektiv-fəlsəfi": {
+  "az": "Şəxsi baxışa əsaslanan fəlsəfi xarakterli.",
+  "en": "subjective-philosophical",
+  "pos": "adjective"
+ },
+ "subyektiv-idealist": {
+  "az": "Subyektiv idealizm tərəfdarı; dünyanı insan şüurunun və duyğularının məhsulu sayan filosof.",
+  "en": "subjective idealist",
+  "pos": "noun"
+ },
+ "subyektiv-idraki": {
+  "az": "Şəxsin idrakı, onun dərketmə prosesi ilə bağlı olan.",
+  "en": "subjective-cognitive",
+  "pos": "adjective"
+ },
+ "subyektiv-poetik": {
+  "az": "Şairin şəxsi duyğu və baxışını ifadə edən poetik.",
+  "en": "subjective-poetic",
+  "pos": "adjective"
+ },
+ "subyektiv-romantik": {
+  "az": "Şəxsi duyğu və xəyallara əsaslanan romantik (üslub, baxış).",
+  "en": "subjective-romantic",
+  "pos": "adjective"
+ },
+ "sufi-mistik": {
+  "az": "Təsəvvüf və mistika ilə bağlı olan (sufi-mistik ideyalar).",
+  "en": "Sufi-mystical",
+  "pos": "adjective"
+ },
+ "sulfat-hidrokarbonat": {
+  "az": "Tərkibində əsasən sulfat və hidrokarbonat ionları olan (mineral su tipi).",
+  "en": "sulphate-bicarbonate (water type)",
+  "pos": "adjective"
+ },
+ "sulfid-gümüş": {
+  "az": "Gümüşün kükürdlə birləşməsi (Ag₂S); gümüş sulfid.",
+  "en": "silver sulphide",
+  "pos": "noun"
+ },
+ "sulu-sabunlu": {
+  "az": "Sabunlu su ilə islanmış, köpüklü.",
+  "en": "wet with soapy water, soapy",
+  "pos": "adjective"
+ },
+ "suçlu-suçsuz": {
+  "az": "Günahkar da, günahsız da; günahı olub-olmamasından asılı olmayaraq (suçlu-suçsuz hamı).",
+  "en": "guilty and innocent alike",
+  "pos": "adjective"
+ },
+ "söhbət-söz": {
+  "az": "Danışıq, söhbət; ətrafda gəzən söz-söhbət, dedi-qodu.",
+  "en": "talk, conversation; gossip",
+  "pos": "noun"
+ },
+ "söhbətli-sözlü": {
+  "az": "Söz-söhbəti bol olan, danışıqlı (məclis, görüş).",
+  "en": "full of talk and conversation",
+  "pos": "adjective"
+ },
+ "söhbətsiz-sözsüz": {
+  "az": "Heç nə demədən, dinməz-söyləməz.",
+  "en": "without a word, silently",
+  "pos": "adverb"
+ },
+ "sökük-dağınıq": {
+  "az": "Sökülüb dağılmış, uçuq-sökük, xaraba.",
+  "en": "dilapidated, ramshackle, in ruins",
+  "pos": "adjective"
+ },
+ "sökülüb-dağılmaq": {
+  "az": "Hissələrinə ayrılıb uçmaq, tamamilə dağılmaq.",
+  "en": "to fall apart, to fall to pieces",
+  "pos": "verb"
+ },
+ "sökülüb-tökülmək": {
+  "az": "Köhnəlib hissə-hissə dağılmaq, uçub tökülmək.",
+  "en": "to crumble, to fall to pieces",
+  "pos": "verb"
+ },
+ "sökülüb-yığılmaq": {
+  "az": "Hissələrə ayrılıb yenidən quraşdırılmaq (maşın, mebel və s.).",
+  "en": "to be disassembled and reassembled",
+  "pos": "verb"
+ },
+ "söz-danışıq": {
+  "az": "Danışıq, söhbət; insanlar arasında gəzən söz, dedi-qodu.",
+  "en": "talk, conversation; gossip",
+  "pos": "noun"
+ },
+ "söz-hekayət": {
+  "az": "Danışılan əhvalatlar, hekayə və rəvayətlər.",
+  "en": "stories and tales",
+  "pos": "noun"
+ },
+ "söz-səda": {
+  "az": "Söz, səs; xəbər-ətər (adətən inkarda: ondan söz-səda yoxdur).",
+  "en": "word, news; any sound",
+  "pos": "noun"
+ },
+ "söz-tip": {
+  "skip": "meaning not certain"
+ },
+ "söz-zarafat": {
+  "az": "Zarafat, şən söhbət, lətifə.",
+  "en": "banter, jokes and jests",
+  "pos": "noun"
+ },
+ "söz-üzv": {
+  "skip": "meaning not certain"
+ },
+ "sözlü-sovlu": {
+  "skip": "meaning not certain"
+ },
+ "sözlü-söhbətli": {
+  "az": "Söz-söhbəti bol olan, danışıqlı (məclis, görüş).",
+  "en": "full of talk and conversation",
+  "pos": "adjective"
+ },
+ "sözlü-zarafatlı": {
+  "az": "Zarafatla, şən danışıqla dolu; zarafatcıl.",
+  "en": "jocular, full of jokes and banter",
+  "pos": "adjective"
+ },
+ "sözsüz-söhbətsiz": {
+  "az": "Heç bir söz, mübahisə olmadan; dinməzcə.",
+  "en": "without a word, without argument",
+  "pos": "adverb"
+ },
+ "sübh-axşam": {
+  "az": "Səhərdən axşama qədər; gün boyu, həmişə.",
+  "en": "from dawn to dusk; all day long",
+  "pos": "adverb"
+ },
+ "sübutlu-dəlilli": {
+  "az": "Sübut və dəlillərlə əsaslandırılmış, inandırıcı.",
+  "en": "well-substantiated, backed by evidence",
+  "pos": "adjective"
+ },
+ "süd-damazlıq": {
+  "az": "Süd istiqamətli damazlıq heyvandarlığa aid (süd-damazlıq təsərrüfatı).",
+  "en": "dairy-breeding (of livestock farms)",
+  "pos": "adjective"
+ },
+ "süd-qatıq": {
+  "az": "Süd, qatıq və başqa süd məhsulları.",
+  "en": "milk and yogurt, dairy products",
+  "pos": "noun"
+ },
+ "süd-qatıqlı": {
+  "az": "Süd və qatıqla bol olan, süd məhsulları bol olan.",
+  "en": "abounding in milk and yogurt",
+  "pos": "adjective"
+ },
+ "süd-qatıqsız": {
+  "az": "Süd və qatıq olmayan, süd məhsullarından məhrum.",
+  "en": "without milk or yogurt",
+  "pos": "adjective"
+ },
+ "süd-əppək": {
+  "az": "Süd və çörək; sadə, kasıb yemək.",
+  "en": "milk and bread; simple food",
+  "pos": "noun"
+ },
+ "südlü-qatıqlı": {
+  "az": "Süd və qatıq məhsulları bol olan (südlü-qatıqlı kənd).",
+  "en": "rich in milk and yogurt, abounding in dairy products",
+  "pos": "adjective"
+ },
+ "südlü-sağmal": {
+  "az": "Bol süd verən, sağılan (inək, qoyun və s.).",
+  "en": "milch, giving plenty of milk",
+  "pos": "adjective"
+ },
+ "südlük-damazlıq": {
+  "az": "Süd almaq və nəsil artırmaq üçün saxlanılan (mal-qara).",
+  "en": "kept for milk and breeding (of livestock)",
+  "pos": "adjective"
+ },
+ "südsüz-qatıqsız": {
+  "az": "Süd və qatıq olmayan, süd məhsullarından məhrum.",
+  "en": "without milk or yogurt",
+  "pos": "adjective"
+ },
+ "südçülük-ətçilik": {
+  "az": "Həm süd, həm də ət istehsalına yönəlmiş heyvandarlıq.",
+  "en": "dairy and meat farming",
+  "pos": "noun"
+ },
+ "sülh-səadət": {
+  "az": "Sülh və xoşbəxtlik; əmin-amanlıq içində firavan həyat.",
+  "en": "peace and happiness",
+  "pos": "noun"
+ },
+ "sülənib-dilənmək": {
+  "az": "Ora-bura gəzib dilənmək, dilənçilik etmək.",
+  "en": "to wander about begging",
+  "pos": "verb"
+ },
+ "süngü-silah": {
+  "az": "Süngü və başqa silahlar; döyüş silahları.",
+  "en": "bayonets and arms, weapons",
+  "pos": "noun"
+ },
+ "süpürüb-atmaq": {
+  "az": "Süpürüb kənara atmaq; məcazi mənada tamamilə aradan qaldırmaq.",
+  "en": "to sweep away",
+  "pos": "verb"
+ },
+ "süpürüb-silmək": {
+  "az": "Süpürüb silərək təmizləmək, səliqəyə salmaq.",
+  "en": "to sweep and mop, to clean up thoroughly",
+  "pos": "verb"
+ },
+ "sürgüqolu-çarxqolu": {
+  "az": "Porşenin irəli-geri hərəkətini valın fırlanmasına çevirən mexanizmə aid (sürgüqolu-çarxqolu mexanizmi).",
+  "en": "crank-and-connecting-rod (mechanism)",
+  "pos": "adjective"
+ },
+ "sürmə-vəsmə": {
+  "az": "Gözə çəkilən sürmə və qaşa çəkilən vəsmə; göz-qaş bəzəyi.",
+  "en": "kohl and eyebrow dye; eye make-up",
+  "pos": "noun"
+ },
+ "sürmə-vəsməli": {
+  "az": "Gözünə sürmə, qaşına vəsmə çəkilmiş; bəzənmiş.",
+  "en": "with kohl-lined eyes and darkened brows; made up",
+  "pos": "adjective"
+ }
+}

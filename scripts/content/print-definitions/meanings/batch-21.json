@@ -1,0 +1,972 @@
+{
+ "press-katib": {
+  "az": "Dövlət orqanının, təşkilatın və ya rəsmi şəxsin mətbuatla əlaqələrini aparan, onun adından məlumat verən işçi.",
+  "en": "press secretary",
+  "pos": "noun",
+  "parts": false
+ },
+ "press-kod": {
+  "skip": "meaning not certain"
+ },
+ "press-monitorinq": {
+  "az": "Qəzet, jurnal və başqa kütləvi informasiya vasitələrində dərc olunan materialların müntəzəm izlənməsi və təhlili.",
+  "en": "press monitoring, media monitoring",
+  "pos": "noun",
+  "parts": false
+ },
+ "press-qrup": {
+  "az": "Rəsmi tədbiri və ya şəxsi işıqlandıran jurnalistlər qrupu; mətbuat xidmətinin əməkdaşları.",
+  "en": "press group, press pool",
+  "pos": "noun",
+  "parts": false
+ },
+ "press-reklam": {
+  "az": "Qəzet və jurnallarda dərc olunan reklam; mətbuat reklamı.",
+  "en": "press advertising, print advertising",
+  "pos": "noun",
+  "parts": false
+ },
+ "print-server": {
+  "az": "Şəbəkədəki printerləri idarə edən və çap tapşırıqlarını onlara ötürən kompüter, qurğu və ya proqram.",
+  "en": "print server",
+  "pos": "noun"
+ },
+ "projektor-axtarıcı": {
+  "az": "İstiqaməti dəyişdirilə bilən, qaranlıqda obyektləri axtarıb tapmaq üçün işlədilən güclü projektor.",
+  "en": "searchlight",
+  "pos": "noun"
+ },
+ "proloq-uvertüra": {
+  "az": "Opera və ya başqa musiqili səhnə əsərində proloq rolunu oynayan giriş musiqisi.",
+  "en": "prologue-overture",
+  "pos": "noun"
+ },
+ "proqnoz-metallogeniya": {
+  "az": "Faydalı qazıntı yataqlarının yerləşməsini metallogeniya qanunauyğunluqları əsasında qabaqcadan müəyyənləşdirən geologiya sahəsi.",
+  "en": "predictive metallogeny",
+  "pos": "noun"
+ },
+ "proqram-naviqator": {
+  "skip": "meaning not certain"
+ },
+ "publisist-jurnalist": {
+  "az": "Həm publisist, həm də jurnalist kimi fəaliyyət göstərən, ictimai-siyasi mövzularda yazan şəxs.",
+  "en": "publicist and journalist",
+  "pos": "noun"
+ },
+ "publisist-politoloq": {
+  "az": "Həm publisistika ilə məşğul olan, həm də siyasətşünas kimi tanınan şəxs.",
+  "en": "publicist and political scientist",
+  "pos": "noun"
+ },
+ "publisist-yazıçı": {
+  "az": "Bədii əsərlərlə yanaşı publisistika ilə də məşğul olan yazıçı.",
+  "en": "writer and publicist",
+  "pos": "noun"
+ },
+ "pul-şey lotereyası": {
+  "az": "Uduşları həm pul, həm də əşya şəklində verilən lotereya.",
+  "en": "lottery with prizes in cash and in kind",
+  "pos": "noun"
+ },
+ "pullu-hallı": {
+  "az": "Varlı, imkanlı, pulu olan (pullu-hallı adam).",
+  "en": "well-off, wealthy, moneyed",
+  "pos": "adjective"
+ },
+ "pullu-paralı": {
+  "az": "Çoxlu pulu olan, varlı, dövlətli.",
+  "en": "rich, moneyed, well-to-do",
+  "pos": "adjective"
+ },
+ "pörtüb-porsumaq": {
+  "skip": "meaning not certain"
+ },
+ "pörtüb-qızarmaq": {
+  "az": "Utancdan, istidən və ya həyəcandan üzü bərk qızarmaq.",
+  "en": "to flush, to go red in the face, to blush deeply",
+  "pos": "verb"
+ },
+ "püstə-badam": {
+  "az": "Püstə, badam və bu kimi qabıqlı meyvələr; çərəz.",
+  "en": "pistachios and almonds; nuts (as treats)",
+  "pos": "noun"
+ },
+ "pəncə-daban": {
+  "az": "Ayağın və ya ayaqqabının altı: ön hissəsi və dabanı (ayaqqabıya pəncə-daban vurdurmaq).",
+  "en": "sole and heel (of the foot or a shoe)",
+  "pos": "noun"
+ },
+ "pəncələyib-əzmək": {
+  "az": "Pəncəsi ilə tutub didmək və əzmək; amansızcasına əzişdirmək.",
+  "en": "to maul, to claw and crush",
+  "pos": "verb"
+ },
+ "pəncələşib-vuruşmaq": {
+  "az": "Bir-biri ilə əlbəyaxa olub vuruşmaq, dalaşmaq.",
+  "en": "to grapple and fight, to scuffle",
+  "pos": "verb"
+ },
+ "pəncərə-qapı": {
+  "az": "Binanın pəncərələri və qapıları (pəncərə-qapı ustası).",
+  "en": "windows and doors",
+  "pos": "noun"
+ },
+ "pəncərəli-qapılı": {
+  "az": "Pəncərəsi və qapısı olan.",
+  "en": "having windows and doors",
+  "pos": "adjective"
+ },
+ "pəncərəsiz-qapısız": {
+  "az": "Nə pəncərəsi, nə də qapısı olan (pəncərəsiz-qapısız daxma).",
+  "en": "without windows or doors",
+  "pos": "adjective"
+ },
+ "pərakəndə-dağınıq": {
+  "az": "Bir-birindən ayrı düşmüş, səpələnmiş, nizamsız halda olan.",
+  "en": "scattered, dispersed, disorganized",
+  "pos": "adjective"
+ },
+ "qabarlı-cod": {
+  "az": "Ağır zəhmətdən qabar bağlamış və codlaşmış (qabarlı-cod əllər).",
+  "en": "calloused and rough (of hands)",
+  "pos": "adjective"
+ },
+ "qabarmaq-çəkilmək": {
+  "az": "Dəniz suyu haqqında: növbə ilə qalxıb enmək, qabarma və çəkilmə baş vermək.",
+  "en": "to ebb and flow, to rise and fall (of the tide)",
+  "pos": "verb"
+ },
+ "qabarıq-yastı": {
+  "az": "Bir üzü qabarıq, o biri üzü yastı olan (qabarıq-yastı linza).",
+  "en": "plano-convex",
+  "pos": "adjective"
+ },
+ "qabarıq-çökük": {
+  "az": "Bir üzü qabarıq, o biri üzü çökük olan (qabarıq-çökük linza); qabarıq və çökük yerləri olan.",
+  "en": "convexo-concave; uneven, with bumps and hollows",
+  "pos": "adjective"
+ },
+ "qabarıqlı-çökük": {
+  "az": "Qabarıq və çökük yerləri olan, hamar olmayan (qabarıqlı-çökük səth).",
+  "en": "uneven, bumpy, with bumps and hollows",
+  "pos": "adjective"
+ },
+ "qabıq-əzələ": {
+  "skip": "meaning not certain"
+ },
+ "qabırğa-boyun": {
+  "az": "Qabırğalar və boyunla bağlı olan (anatomiyada: qabırğa-boyun kötüyü).",
+  "en": "costocervical",
+  "pos": "adjective"
+ },
+ "qabırğa-döş": {
+  "az": "Qabırğalar və döş sümüyü ilə bağlı olan (qabırğa-döş oynaqları).",
+  "en": "costosternal, sternocostal",
+  "pos": "adjective"
+ },
+ "qabırğa-fəqərə": {
+  "az": "Qabırğalar ilə fəqərələr arasında olan (qabırğa-fəqərə oynağı).",
+  "en": "costovertebral",
+  "pos": "adjective"
+ },
+ "qabırğa-onurğa": {
+  "az": "Qabırğalar və onurğa sütunu ilə bağlı olan.",
+  "en": "costovertebral; relating to the ribs and spine",
+  "pos": "adjective"
+ },
+ "qabırğa-qoltuq": {
+  "az": "Qabırğalar və qoltuq nahiyəsi ilə bağlı olan (qabırğa-qoltuq venası).",
+  "en": "costoaxillary",
+  "pos": "adjective"
+ },
+ "qala-istehkam": {
+  "az": "Qalalar və başqa müdafiə tikililəri; istehkamlar (qala-istehkam sistemi).",
+  "en": "fortifications, forts and defensive works",
+  "pos": "noun"
+ },
+ "qala-tamaşa": {
+  "az": "Xüsusi münasibətlə təntənəli şəkildə göstərilən tamaşa.",
+  "en": "gala performance",
+  "pos": "noun",
+  "parts": false
+ },
+ "qalxan-qırtlaq": {
+  "az": "Anatomiyada: qalxanabənzər qığırdaqla və qırtlaqla bağlı olan.",
+  "en": "thyrolaryngeal (anatomy)",
+  "pos": "adjective"
+ },
+ "qalxan-udlaq": {
+  "az": "Qalxanabənzər qığırdaqla udlaq arasında olan (qalxan-udlaq əzələsi).",
+  "en": "thyropharyngeal",
+  "pos": "adjective"
+ },
+ "qalxan-çalov": {
+  "az": "Qırtlağın qalxanabənzər və çalovabənzər qığırdaqları ilə bağlı olan (qalxan-çalov əzələsi).",
+  "en": "thyroarytenoid",
+  "pos": "adjective"
+ },
+ "qalın-nazik": {
+  "az": "Müxtəlif qalınlıqda olan, qalını da, nazikı də olan.",
+  "en": "thick and thin, of varying thickness",
+  "pos": "adjective"
+ },
+ "qamma-astronomiya": {
+  "az": "Göy cisimlərindən gələn qamma-şüalanmanı öyrənən astronomiya sahəsi.",
+  "en": "gamma-ray astronomy",
+  "pos": "noun"
+ },
+ "qamma-diapazon": {
+  "az": "Elektromaqnit şüalanma spektrinin qamma-şüalara uyğun gələn hissəsi.",
+  "en": "gamma-ray range, gamma band",
+  "pos": "noun"
+ },
+ "qamma-dəmir": {
+  "az": "Dəmirin təqribən 910–1400 °C arasında mövcud olan, səthəmərkəzləşmiş kub qəfəsli allotropik forması.",
+  "en": "gamma iron",
+  "pos": "noun"
+ },
+ "qamma-fraza": {
+  "skip": "meaning not certain"
+ },
+ "qamma-funksiya": {
+  "az": "Faktorial anlayışını həqiqi və kompleks ədədlərə ümumiləşdirən xüsusi riyazi funksiya, Γ(x).",
+  "en": "gamma function",
+  "pos": "noun"
+ },
+ "qamma-hissəcik": {
+  "az": "Qamma-şüalanmanın kvantı; yüksək enerjili foton.",
+  "en": "gamma particle, gamma quantum",
+  "pos": "noun"
+ },
+ "qamma-hündürlükölçən": {
+  "az": "Yerdən hündürlüyü qamma-şüaların əks olunmasına əsasən ölçən cihaz.",
+  "en": "gamma-ray altimeter",
+  "pos": "noun"
+ },
+ "qamma-metod": {
+  "az": "Süxurların təbii və ya süni qamma-şüalanmasının ölçülməsinə əsaslanan geofiziki tədqiqat üsulu.",
+  "en": "gamma method (gamma-ray survey or logging)",
+  "pos": "noun"
+ },
+ "qamma-proses": {
+  "skip": "meaning not certain"
+ },
+ "qamma-radioaktiv": {
+  "az": "Qamma-şüalar buraxan (qamma-radioaktiv izotop).",
+  "en": "gamma-radioactive, gamma-emitting",
+  "pos": "adjective"
+ },
+ "qamma-sahə": {
+  "az": "Qamma-şüalanmanın yayıldığı sahə; radiobiologiyada bitkilərin qamma-şüalarla şüalandırıldığı sahə.",
+  "en": "gamma field",
+  "pos": "noun"
+ },
+ "qamma-sellüloz": {
+  "az": "Sellülozun qələvi məhlulunda həll olan və turşulaşdırıldıqda çökməyən hissəsi.",
+  "en": "gamma cellulose",
+  "pos": "noun"
+ },
+ "qamma-sistem": {
+  "skip": "meaning not certain"
+ },
+ "qamma-spektrometr": {
+  "az": "Qamma-şüalanmanın enerji spektrini ölçən cihaz.",
+  "en": "gamma-ray spectrometer",
+  "pos": "noun"
+ },
+ "qamma-spektroskopiya": {
+  "az": "Qamma-şüaların enerji spektrlərini öyrənən spektroskopiya sahəsi.",
+  "en": "gamma-ray spectroscopy",
+  "pos": "noun"
+ },
+ "qamma-teleskop": {
+  "az": "Kosmosdan gələn qamma-şüalanmanı qeydə alan teleskop.",
+  "en": "gamma-ray telescope",
+  "pos": "noun"
+ },
+ "qamma-topoqraf": {
+  "az": "Orqanizmdə radioaktiv izotopların paylanmasını qeydə alan tibbi diaqnostika cihazı.",
+  "en": "gamma topograph (radionuclide scanner)",
+  "pos": "noun"
+ },
+ "qamma-uran": {
+  "az": "Uranın yüksək temperaturda (təqribən 775 °C-dən ərimə nöqtəsinə qədər) mövcud olan allotropik forması.",
+  "en": "gamma uranium",
+  "pos": "noun"
+ },
+ "qamış-incik": {
+  "skip": "meaning not certain"
+ },
+ "qan-limfa": {
+  "az": "Qan və limfa; qan və limfa damarları ilə bağlı olan (qan-limfa dövranı).",
+  "en": "blood and lymph",
+  "pos": "noun"
+ },
+ "qan-xata": {
+  "az": "Qan tökülməsi, dava-dalaş, böyük bəla (qan-xata törətmək).",
+  "en": "bloodshed, violence, serious trouble",
+  "pos": "noun"
+ },
+ "qanad-qol": {
+  "az": "Məc. güc, dayaq, imkan (qanadı-qolu qırılmaq — köməksiz qalmaq).",
+  "en": "wings and arms; fig. strength, support",
+  "pos": "noun"
+ },
+ "qanad-quyruqsuz": {
+  "az": "Qanadı və quyruğu olmayan.",
+  "en": "wingless and tailless",
+  "pos": "adjective"
+ },
+ "qansız-qadasız": {
+  "az": "Qan tökülmədən, bəlasız, sakit (qansız-qadasız qurtarmaq).",
+  "en": "without bloodshed or trouble, peaceful",
+  "pos": "adjective"
+ },
+ "qanun-cəza": {
+  "az": "Qanun və onun pozulmasına görə veriləcək cəza.",
+  "en": "law and punishment",
+  "pos": "noun"
+ },
+ "qanıq-ənik": {
+  "skip": "meaning not certain"
+ },
+ "qanıq-ənikli": {
+  "skip": "meaning not certain"
+ },
+ "qanırıb-atmaq": {
+  "az": "Güclə burub qoparmaq və bir kənara atmaq.",
+  "en": "to wrench off and throw away",
+  "pos": "verb"
+ },
+ "qanırıb-qırmaq": {
+  "az": "Burub əyərək sındırmaq, güclə qoparmaq.",
+  "en": "to twist and break, to wrench off",
+  "pos": "verb"
+ },
+ "qapalı-bağlı": {
+  "az": "Hər tərəfdən bağlı, qapalı; xarici aləmdən təcrid olunmuş.",
+  "en": "closed, shut in; secluded",
+  "pos": "adjective"
+ },
+ "qapalı-introvert": {
+  "az": "Özünə qapanan, ünsiyyətdən qaçan adam; introvert.",
+  "en": "withdrawn person, introvert",
+  "pos": "noun"
+ },
+ "qapaq-məməcik": {
+  "skip": "meaning not certain"
+ },
+ "qapayıb-bağlamaq": {
+  "az": "Tamamilə bağlamaq, örtüb qapamaq.",
+  "en": "to shut tight, to close up",
+  "pos": "verb"
+ },
+ "qapı-pəncərəli": {
+  "az": "Qapısı və pəncərəsi olan.",
+  "en": "with doors and windows",
+  "pos": "adjective"
+ },
+ "qapı-pəncərəlik": {
+  "az": "Qapı və pəncərə düzəltmək üçün yararlı (qapı-pəncərəlik taxta).",
+  "en": "suitable for making doors and windows (of timber)",
+  "pos": "adjective"
+ },
+ "qapı-pəncərəsiz": {
+  "az": "Qapısı və pəncərəsi olmayan.",
+  "en": "without doors or windows",
+  "pos": "adjective"
+ },
+ "qapısız-bacasız": {
+  "az": "Qapısı və bacası olmayan; yoxsul, yarıuçuq (qapısız-bacasız daxma).",
+  "en": "without door or chimney; ramshackle",
+  "pos": "adjective"
+ },
+ "qapıçı-kuryer": {
+  "az": "Həm qapıçı, həm də kuryer vəzifəsini yerinə yetirən işçi.",
+  "en": "doorkeeper-courier",
+  "pos": "noun"
+ },
+ "qar-boran": {
+  "az": "Qarlı, küləkli hava; çovğun.",
+  "en": "snowstorm, blizzard",
+  "pos": "noun"
+ },
+ "qar-boranlı": {
+  "az": "Qarlı və boranlı, çovğunlu (qar-boranlı qış günü).",
+  "en": "snowy and stormy, blizzardy",
+  "pos": "adjective"
+ },
+ "qar-qiyamət": {
+  "az": "Çox güclü qar, aləmi bürüyən çovğun (çöldə qar-qiyamətdir).",
+  "en": "heavy snowstorm, raging blizzard",
+  "pos": "noun"
+ },
+ "qar-yağışlı": {
+  "az": "Qar və yağış yağan; sulu qarlı (qar-yağışlı hava).",
+  "en": "with snow and rain, sleety",
+  "pos": "adjective"
+ },
+ "qar-yağışsız": {
+  "az": "Qar və yağış yağmayan, quraq (qar-yağışsız qış).",
+  "en": "without snow or rain, dry",
+  "pos": "adjective"
+ },
+ "qar-çovğun": {
+  "az": "Güclü küləklə qar yağması; çovğun.",
+  "en": "blizzard, snowstorm",
+  "pos": "noun"
+ },
+ "qaraciyər-mədə": {
+  "az": "Qaraciyər və mədə ilə bağlı olan (qaraciyər-mədə bağı).",
+  "en": "hepatogastric",
+  "pos": "adjective"
+ },
+ "qaraj-dayanacaq": {
+  "az": "Avtomobillərin saxlanması və dayanması üçün yer; qaraj və dayanacaq.",
+  "en": "garage and parking; parking garage",
+  "pos": "noun"
+ },
+ "qaramtıl-bozumtul": {
+  "az": "Qaraya çalan boz rəngdə olan.",
+  "en": "blackish-grey, dark grey",
+  "pos": "adjective"
+ },
+ "qaranlıq-zülmət": {
+  "az": "Zil qaranlıq, göz-gözü görməyən qaranlıq.",
+  "en": "pitch darkness",
+  "pos": "noun"
+ },
+ "qarlı-sazaqlı": {
+  "az": "Qarlı və soyuq küləkli, şaxtalı (qarlı-sazaqlı qış).",
+  "en": "snowy and freezing, frosty",
+  "pos": "adjective"
+ },
+ "qarlı-tufanlı": {
+  "az": "Qar yağan və tufanlı, çovğunlu.",
+  "en": "snowy and stormy",
+  "pos": "adjective"
+ },
+ "qarlı-yağışlı": {
+  "az": "Həm qar, həm də yağış yağan; sulu qarlı.",
+  "en": "snowy and rainy, sleety",
+  "pos": "adjective"
+ },
+ "qarma-qarış": {
+  "az": "Bir-birinə qarışmış, dolaşıq, nizamsız; qarmaqarışıq.",
+  "en": "jumbled, mixed up, chaotic",
+  "pos": "adjective",
+  "parts": false
+ },
+ "qarmaq-tərəzi": {
+  "az": "Yükün qarmağa asılaraq çəkildiyi asma tərəzi.",
+  "en": "hanging scale, hook scale",
+  "pos": "noun"
+ },
+ "qarğa-quzğun": {
+  "az": "Qarğa, quzğun və bu kimi leşlə qidalanan quşlar.",
+  "en": "crows and ravens; carrion birds",
+  "pos": "noun"
+ },
+ "qarğa-sağsağan": {
+  "az": "Qarğa, sağsağan və bu kimi quşlar.",
+  "en": "crows and magpies",
+  "pos": "noun"
+ },
+ "qarğı-qamış": {
+  "az": "Qarğı, qamış və bu kimi su kənarında bitən bitkilər; qamışlıq.",
+  "en": "reeds and rushes",
+  "pos": "noun"
+ },
+ "qarğı-qamışlı": {
+  "az": "Qarğı və qamışla örtülü, qamışlıq olan (qarğı-qamışlı sahil).",
+  "en": "reedy, overgrown with reeds",
+  "pos": "adjective"
+ },
+ "qarğı-qamışsız": {
+  "az": "Qarğısı və qamışı olmayan.",
+  "en": "free of reeds",
+  "pos": "adjective"
+ },
+ "qarı-qoca": {
+  "az": "Yaşlı adamlar, qocalar; qoca qadınlar və kişilər (qarı-qoca hamı yığışdı).",
+  "en": "old people, the elderly",
+  "pos": "noun"
+ },
+ "qarın-bağırsaq": {
+  "az": "Qarın və bağırsaqlar; həzm orqanları (qarın-bağırsaq xəstəlikləri).",
+  "en": "the abdomen and intestines; abdominal-intestinal",
+  "pos": "noun"
+ },
+ "qarın-qasıq": {
+  "az": "Qarın və qasıq nahiyəsi (qarın-qasıq ağrıları).",
+  "en": "the abdomen and groin",
+  "pos": "noun"
+ },
+ "qarıyıb-qocalmaq": {
+  "az": "Çox qocalmaq, ahıllaşıb əldən düşmək.",
+  "en": "to grow old, to age",
+  "pos": "verb"
+ },
+ "qarış-quruş": {
+  "az": "Qarışıq, dolaşıq, nizamsız halda olan (qarış-quruş yuxular).",
+  "en": "jumbled, mixed up, in disorder",
+  "pos": "adjective",
+  "parts": false,
+  "src": "izahli"
+ },
+ "qarışıq-bulaşıq": {
+  "az": "Qarmaqarışıq, səliqəsiz, çirkli; məc. dolaşıq, aydın olmayan (qarışıq-bulaşıq işlər).",
+  "en": "messy, muddled; murky",
+  "pos": "adjective"
+ },
+ "qarşılıq-güzəşt": {
+  "skip": "meaning not certain"
+ },
+ "qasıq-bud": {
+  "az": "Qasıq və bud nahiyəsinə aid olan.",
+  "en": "inguinofemoral",
+  "pos": "adjective"
+ },
+ "qasıq-büzdüm": {
+  "az": "Qasıq sümüyü ilə büzdüm arasında olan (qasıq-büzdüm əzələsi).",
+  "en": "pubococcygeal",
+  "pos": "adjective"
+ },
+ "qasıq-kapsul": {
+  "az": "Qasıq sümüyü ilə bud oynağının kapsulu arasında olan (qasıq-kapsul bağı).",
+  "en": "pubocapsular",
+  "pos": "adjective"
+ },
+ "qasırğalı-tufanlı": {
+  "az": "Bərk qasırğası, tufanı olan; çox fırtınalı.",
+  "en": "stormy, tempestuous",
+  "pos": "adjective"
+ },
+ "qasırğasız-tufansız": {
+  "az": "Qasırğası, tufanı olmayan; sakit (havası).",
+  "en": "calm, without storms",
+  "pos": "adjective"
+ },
+ "qatar-laboratoriya": {
+  "az": "Elmi tədqiqat və ya sınaq işləri aparmaq üçün avadanlıqla təchiz olunmuş qatar.",
+  "en": "laboratory train",
+  "pos": "noun"
+ },
+ "qatlanıb-açılmaq": {
+  "az": "Qatlanmaq və yenidən açılmaq; qatlana və açıla bilmək (qatlanıb-açılan stol).",
+  "en": "to fold and unfold; to be foldable",
+  "pos": "verb"
+ },
+ "qatlanıb-bağlanmaq": {
+  "az": "Qatlanaraq bağlanmaq, yığışdırılmaq (çətir, stul və s. haqqında).",
+  "en": "to fold up, to fold shut",
+  "pos": "verb"
+ },
+ "qatıq-süd": {
+  "az": "Qatıq, süd və bu kimi süd məhsulları.",
+  "en": "milk and yogurt; dairy products",
+  "pos": "noun"
+ },
+ "qatıq-südlü": {
+  "az": "Qatığı, südü bol olan; süd məhsulları ilə zəngin (qatıq-südlü ev).",
+  "en": "with plenty of milk and yogurt",
+  "pos": "adjective"
+ },
+ "qatıq-südsüz": {
+  "az": "Qatığı, südü olmayan; süd məhsulsuz.",
+  "en": "without milk or yogurt, without dairy",
+  "pos": "adjective"
+ },
+ "qatıq-çörək": {
+  "az": "Qatıq və çörəkdən ibarət sadə yemək.",
+  "en": "yogurt and bread (a simple meal)",
+  "pos": "noun"
+ },
+ "qatır-eşşək": {
+  "az": "Qatır, eşşək və bu kimi yük heyvanları.",
+  "en": "mules and donkeys; pack animals",
+  "pos": "noun"
+ },
+ "qaya-mağara": {
+  "az": "Qayada olan və ya qayada oyulmuş mağara (qaya-mağara məbədi).",
+  "en": "rock cave, rock-cut cave",
+  "pos": "noun"
+ },
+ "qaydasız-qanunsuz": {
+  "az": "Heç bir qayda-qanuna tabe olmayan, özbaşına, nizamsız.",
+  "en": "lawless, disorderly, arbitrary",
+  "pos": "adjective"
+ },
+ "qayka-vint": {
+  "az": "Qaykalar, vintlər və bu kimi bərkitmə detalları.",
+  "en": "nuts and screws; fasteners",
+  "pos": "noun"
+ },
+ "qayka-vintaçan": {
+  "skip": "meaning not certain"
+ },
+ "qaynayıb-daşmaq": {
+  "az": "Bərk qaynayıb qabdan daşmaq; məc. hiss və həyəcandan coşmaq.",
+  "en": "to boil over; fig. to seethe, to brim over (with emotion)",
+  "pos": "verb"
+ },
+ "qaysaqlayıb-qopmaq": {
+  "az": "Üstü qabıq bağlayıb qopub düşmək (yara, boya, suvaq və s. haqqında).",
+  "en": "to crust over and peel off",
+  "pos": "verb",
+  "parts": false
+ },
+ "qayınana-qayınata": {
+  "az": "Ərin və ya arvadın valideynləri; qayınana ilə qayınata.",
+  "en": "parents-in-law, in-laws",
+  "pos": "noun"
+ },
+ "qayınata-qayınana": {
+  "az": "Ərin və ya arvadın valideynləri; qayınata ilə qayınana.",
+  "en": "parents-in-law, in-laws",
+  "pos": "noun"
+ },
+ "qayınata-qayınanalı": {
+  "az": "Qayınatası və qayınanası olan.",
+  "en": "having parents-in-law",
+  "pos": "adjective"
+ },
+ "qayınata-qayınanalıq": {
+  "az": "Qayınata və qayınana olma; onların gəlinə və ya kürəkənə münasibəti.",
+  "en": "being parents-in-law; the role of in-laws",
+  "pos": "noun"
+ },
+ "qayınata-qayınanasız": {
+  "az": "Qayınatası və qayınanası olmayan.",
+  "en": "without parents-in-law",
+  "pos": "adjective"
+ },
+ "qayıqçı-balıqçı": {
+  "az": "Qayıq sürən və balıq tutan adamlar; qayıqçılar və balıqçılar.",
+  "en": "boatmen and fishermen",
+  "pos": "noun"
+ },
+ "qaz-tozlu": {
+  "az": "Havasında qaz və toz olan (qaz-tozlu mühit, qaz-tozlu bulud).",
+  "en": "containing gas and dust (gas-and-dust)",
+  "pos": "adjective",
+  "parts": false
+ },
+ "qaz-tozluluq": {
+  "az": "Havanın qaz və tozla çirklənmə dərəcəsi.",
+  "en": "gas and dust content (of air)",
+  "pos": "noun",
+  "parts": false
+ },
+ "qaz-turbinli": {
+  "az": "Qaz turbini ilə işləyən (qaz-turbinli elektrik stansiyası).",
+  "en": "gas-turbine, gas-turbine powered",
+  "pos": "adjective",
+  "parts": false
+ },
+ "qaz-ördək": {
+  "az": "Qaz, ördək və bu kimi ev su quşları.",
+  "en": "geese and ducks; domestic waterfowl",
+  "pos": "noun"
+ },
+ "qazamat-zindan": {
+  "az": "Qaranlıq, ağır şəraitli həbsxana; zindan.",
+  "en": "dungeon, prison",
+  "pos": "noun"
+ },
+ "qazan-akkumulyator": {
+  "skip": "meaning not certain"
+ },
+ "qazan-tava": {
+  "az": "Qazan, tava və başqa mətbəx qabları.",
+  "en": "pots and pans",
+  "pos": "noun"
+ },
+ "qazan-turbin": {
+  "az": "Buxar qazanı və turbinlə bağlı olan (qazan-turbin sexi).",
+  "en": "boiler-and-turbine (e.g. a boiler-turbine unit)",
+  "pos": "adjective"
+ },
+ "qazan-çaydan": {
+  "az": "Qazan, çaydan və bu kimi mətbəx qabları.",
+  "en": "pots and kettles; kitchenware",
+  "pos": "noun"
+ },
+ "qazan-çaynik": {
+  "az": "Qazan, çaynik və bu kimi mətbəx qabları.",
+  "en": "pots and kettles; kitchenware",
+  "pos": "noun"
+ },
+ "qazlı-tozlu": {
+  "az": "Havasında qaz və toz olan (qazlı-tozlu hava).",
+  "en": "full of gas and dust",
+  "pos": "adjective"
+ },
+ "qazlı-ördəkli": {
+  "az": "Qazı, ördəyi olan; ev quşları saxlanan (qazlı-ördəkli həyət).",
+  "en": "with geese and ducks",
+  "pos": "adjective",
+  "parts": false
+ },
+ "qazsız-tozsuz": {
+  "az": "Havasında qaz və toz olmayan, təmiz.",
+  "en": "free of gas and dust, clean (of air)",
+  "pos": "adjective"
+ },
+ "qaçaq-qiyamçı": {
+  "az": "Hakimiyyətə qarşı mübarizə aparan qaçaqlar və üsyançılar.",
+  "en": "outlaws and rebels",
+  "pos": "noun"
+ },
+ "qaçma-qovma": {
+  "az": "Birinin qaçıb, o birinin onun arxasınca qovması; qaçaqaç, təqib.",
+  "en": "chasing, running after each other",
+  "pos": "noun"
+ },
+ "qaçqın-köçkün": {
+  "az": "Müharibə və ya təhlükə üzündən yurdunu tərk etmiş insanlar; qaçqınlar və məcburi köçkünlər.",
+  "en": "refugees and internally displaced persons",
+  "pos": "noun"
+ },
+ "qaçqınlıq-köçkünlük": {
+  "az": "Qaçqın və məcburi köçkün vəziyyətində yaşama; yurddan didərginlik.",
+  "en": "refugee and displaced status; displacement",
+  "pos": "noun"
+ },
+ "qeyri-aktual": {
+  "az": "Hazırda əhəmiyyətini itirmiş, aktual olmayan.",
+  "en": "irrelevant, no longer topical, outdated",
+  "pos": "adjective"
+ },
+ "qeyri-antiklinal": {
+  "az": "Antiklinal quruluşla bağlı olmayan (qeyri-antiklinal neft tələsi).",
+  "en": "non-anticlinal (e.g. a non-anticlinal trap)",
+  "pos": "adjective"
+ },
+ "qeyri-aşkarlıq": {
+  "az": "Açıq, aşkar olmama; gizlilik, qeyri-şəffaflıq.",
+  "en": "lack of openness, non-transparency; implicitness",
+  "pos": "noun"
+ },
+ "qeyri-diferensial": {
+  "skip": "meaning not certain"
+ },
+ "qeyri-düzxətli": {
+  "az": "Düz xətt boyunca olmayan, əyrixətli (qeyri-düzxətli hərəkət).",
+  "en": "non-rectilinear, curvilinear",
+  "pos": "adjective"
+ },
+ "qeyri-düzünə": {
+  "skip": "meaning not certain"
+ },
+ "qeyri-ekvivalent": {
+  "az": "Dəyərcə və ya mənaca bərabər tutulmayan, ekvivalent olmayan (qeyri-ekvivalent leksika).",
+  "en": "non-equivalent",
+  "pos": "adjective"
+ },
+ "qeyri-elektron": {
+  "az": "Elektron olmayan, elektron vasitələrlə işləməyən (qeyri-elektron sənəd).",
+  "en": "non-electronic",
+  "pos": "adjective"
+ },
+ "qeyri-katalitik": {
+  "az": "Katalizator iştirak etmədən gedən (qeyri-katalitik reaksiya).",
+  "en": "non-catalytic",
+  "pos": "adjective"
+ },
+ "qeyri-keçici": {
+  "skip": "meaning not certain"
+ },
+ "qeyri-kommunikativ": {
+  "az": "Ünsiyyətə meylli olmayan; ünsiyyət məqsədi daşımayan.",
+  "en": "uncommunicative; non-communicative",
+  "pos": "adjective"
+ },
+ "qeyri-likvid fond": {
+  "az": "Satılması və ya pula çevrilməsi çətin olan mal, material və başqa aktivlər ehtiyatı.",
+  "en": "illiquid assets; unsaleable stock",
+  "pos": "noun"
+ },
+ "qeyri-media": {
+  "skip": "meaning not certain"
+ },
+ "qeyri-paralel": {
+  "az": "Paralel olmayan (qeyri-paralel xətlər).",
+  "en": "non-parallel",
+  "pos": "adjective"
+ },
+ "qeyri-paralellik": {
+  "az": "Paralel olmama.",
+  "en": "non-parallelism",
+  "pos": "noun"
+ },
+ "qeyri-peşəkarlıq": {
+  "az": "Peşəkarlığın olmaması; işin bacarıqsız, səriştəsiz görülməsi.",
+  "en": "unprofessionalism, lack of professionalism",
+  "pos": "noun"
+ },
+ "qeyri-polyarlıq": {
+  "az": "Qeyri-polyar olma; molekulda müsbət və mənfi yük mərkəzlərinin üst-üstə düşməsi.",
+  "en": "non-polarity",
+  "pos": "noun"
+ },
+ "qeyri-qranit": {
+  "skip": "meaning not certain"
+ },
+ "qeyri-rasionallıq": {
+  "az": "Ağıl və məntiqə əsaslanmama; irrasionallıq.",
+  "en": "irrationality",
+  "pos": "noun"
+ },
+ "qeyri-sintaktik": {
+  "az": "Sintaksis qaydalarına əsaslanmayan, sintaktik olmayan.",
+  "en": "non-syntactic",
+  "pos": "adjective"
+ },
+ "qeyri-spesifiklik": {
+  "az": "Spesifik, xüsusi xarakter daşımama; ümumilik.",
+  "en": "non-specificity",
+  "pos": "noun"
+ },
+ "qeyri-stasionarlıq": {
+  "az": "Prosesin və ya sistemin zamana görə dəyişkən olması, stasionar olmaması.",
+  "en": "non-stationarity",
+  "pos": "noun"
+ },
+ "qeyri-səlislik": {
+  "az": "Səlis, dəqiq olmama; riyaziyyatda dəqiq sərhədlərin olmaması (qeyri-səlis məntiq); nitqin rəvan olmaması.",
+  "en": "fuzziness; lack of fluency",
+  "pos": "noun"
+ },
+ "qeyri-təvazökar": {
+  "az": "Təvazökar olmayan, özünü öyən, lovğa.",
+  "en": "immodest",
+  "pos": "adjective"
+ },
+ "qeyri-təvazökarlıq": {
+  "az": "Təvazökarlığın olmaması, özünüöymə.",
+  "en": "immodesty",
+  "pos": "noun"
+ },
+ "qeyri-xarakterik": {
+  "az": "Kiməsə və ya nəyəsə xas olmayan, onu səciyyələndirməyən.",
+  "en": "uncharacteristic, atypical",
+  "pos": "adjective"
+ },
+ "qeyri-xora": {
+  "az": "Xora ilə bağlı olmayan (qeyri-xora dispepsiyası).",
+  "en": "non-ulcer (e.g. non-ulcer dyspepsia)",
+  "pos": "adjective"
+ },
+ "qeyri-şablon": {
+  "az": "Şablona uyğun olmayan, standart olmayan; orijinal (qeyri-şablon yanaşma).",
+  "en": "non-standard, unconventional, original",
+  "pos": "adjective"
+ },
+ "qeyri-şərti": {
+  "az": "Heç bir şərtdən asılı olmayan, şərtsiz (qeyri-şərti refleks).",
+  "en": "unconditional, unconditioned",
+  "pos": "adjective"
+ },
+ "qeyri-şərtilik": {
+  "skip": "meaning not certain"
+ },
+ "qeyz-qəzəb": {
+  "az": "Güclü hirs, qəzəb, hiddət.",
+  "en": "rage, fury, wrath",
+  "pos": "noun"
+ },
+ "qeyz-qəzəbli": {
+  "az": "Çox qəzəbli, hiddətli.",
+  "en": "furious, enraged",
+  "pos": "adjective"
+ },
+ "qeyzli-qəzəbli": {
+  "az": "Hirs və qəzəb dolu, çox hiddətli.",
+  "en": "furious, enraged, wrathful",
+  "pos": "adjective"
+ },
+ "qiymət-franko": {
+  "az": "Malın müəyyən məntəqəyə qədər daşınma xərclərini də əhatə edən qiyməti.",
+  "en": "franco price (price including delivery to a named point)",
+  "pos": "noun"
+ },
+ "qobu-dərə": {
+  "az": "Yarğanlar və dərələr; kələ-kötür, çuxurlu yer.",
+  "en": "gullies and ravines; rough terrain",
+  "pos": "noun"
+ },
+ "qobu-dərəli": {
+  "az": "Yarğanlı, dərəli, kələ-kötür (qobu-dərəli ərazi).",
+  "en": "full of gullies and ravines, rugged",
+  "pos": "adjective"
+ },
+ "qohum-qonaq": {
+  "az": "Qohumlar və qonaqlar; evə gəlib-gedən doğmalar.",
+  "en": "relatives and guests, family and visitors",
+  "pos": "noun"
+ },
+ "qohum-tanış": {
+  "az": "Qohumlar və tanışlar; yaxın adamlar.",
+  "en": "relatives and acquaintances, friends and family",
+  "pos": "noun"
+ },
+ "qol-bacaq": {
+  "az": "Qollar və ayaqlar; əl-ayaq.",
+  "en": "arms and legs, limbs",
+  "pos": "noun"
+ },
+ "qol-baş": {
+  "skip": "meaning not certain"
+ },
+ "qol-bilək": {
+  "az": "Qol və bilək; məc. fiziki güc (qolu-biləyi güclü adam).",
+  "en": "arms and wrists; fig. physical strength",
+  "pos": "noun"
+ },
+ "qol-budaqatma": {
+  "az": "Bitkinin qol və budaq verməsi; budaqlanma.",
+  "en": "branching (of a plant)",
+  "pos": "noun"
+ },
+ "qol-budaqlanma": {
+  "az": "Bitkinin qollara və budaqlara ayrılması; şaxələnmə.",
+  "en": "branching, ramification",
+  "pos": "noun"
+ },
+ "qol-qılça": {
+  "az": "Qollar və ayaqlar; əl-ayaq.",
+  "en": "arms and legs, limbs",
+  "pos": "noun"
+ },
+ "qonaqlı-qaralı": {
+  "az": "Qonağı, gələni-gedəni çox olan (qonaqlı-qaralı ev).",
+  "en": "always full of guests and visitors (of a home)",
+  "pos": "adjective",
+  "parts": false
+ },
+ "qonur-kürən": {
+  "az": "Qonura çalan kürən rəngdə olan (at haqqında).",
+  "en": "brownish-red, brownish chestnut (of a horse)",
+  "pos": "adjective"
+ },
+ "qorelyef-portret": {
+  "az": "Qorelyef üsulu ilə işlənmiş portret.",
+  "en": "high-relief portrait",
+  "pos": "noun"
+ },
+ "qoruq-şəhər": {
+  "az": "Tarixi-memarlıq qoruğu elan edilmiş, abidələri dövlət tərəfindən qorunan şəhər.",
+  "en": "protected historic town, city-reserve",
+  "pos": "noun"
+ },
+ "qorxu-ürkü": {
+  "az": "Qorxu, vahimə, həyəcan.",
+  "en": "fear, fright, dread",
+  "pos": "noun"
+ },
+ "qorxu-üşütmə": {
+  "skip": "meaning not certain"
+ }
+}
