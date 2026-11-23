@@ -1186,8 +1186,10 @@ class Builder:
             best = None
             for cut in range(1, len(word)):
                 for base in [word[:cut]] + unvoiced(word[:cut]):
-                    target = self.usable(base)
-                    if (not target or base == word or target['pos'] == 'verb' or word[cut:] not in endings(base)
+                    # A form may be built on a function word (bəzi-ləri, nə-dən, başqa-sı), which never heads a definition.
+                    target = self.usable(base) or ((self.defined(base) or {}).get('pos') == 'function' and self.defined(base)) or None
+                    # on-da, bun-da are the pronouns o and bu with their n, not on (ten) or bun (crisis).
+                    if (not target or base == word or base in ('on', 'bun', 'şun') or target['pos'] == 'verb' or word[cut:] not in endings(base)
                             or len(base) < 3 and target['pos'] not in ('pronoun', 'function', 'numeral')):
                         continue
                     if not best or len(base) > len(best[0]):
