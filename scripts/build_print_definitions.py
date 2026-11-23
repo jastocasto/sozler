@@ -591,9 +591,12 @@ class Builder:
         # Passive with -ıl after a consonant other than l, and causative with -dır.
         match = re.fullmatch(r'(.+[^aıoueəiöül])([ıiuü])l(maq|mək)', word)
         if match and h4(match[1]) == match[2]:
-            verb = match[1] + infinitive_ending(match[1])
-            if verb in self.nodes:
-                yield verb, 'passive', match[2] + 'l'
+            # A stem-final t turns into d before the vowel: turşudulmaq is turşutmaq + -ul.
+            for stem in [match[1]] + ([match[1][:-1] + 't'] if match[1].endswith('d') else []):
+                verb = stem + infinitive_ending(stem)
+                if verb in self.nodes:
+                    yield verb, 'passive', match[2] + 'l'
+                    break
         match = re.fullmatch(r'(.+[^aıoueəiöü])d([ıiuü])r(maq|mək)', word)
         if match and h4(match[1]) == match[2]:
             verb = match[1] + infinitive_ending(match[1])
@@ -893,6 +896,10 @@ class Builder:
                     best = (0, [a, stem])
         if best:
             return best[1], 'closed'
+        # A form of a passive verb is not a compound: yaşa-n-ıl-maz is yaşanmaq + -ıl + -maz, not yaş + anılmaq.
+        bare = re.sub(r'(?<=[aıoueəiöü]n)[ıiuü]l(?=(?:maz|məz|an|ən|ma|mə|maq|mək)$)', '', word)
+        if bare != word and (self.verb_of(bare) or (self.usable(bare) or {}).get('pos') == 'verb'):
+            return None
         # The first part is governed by a verb form or a postpositional adjective: gül + becər-ən, hava + üfür-ücü,
         # göy-dən + düşmüş, heyvan-a + oxşar.
         for i in range(3, len(word) - 3):
