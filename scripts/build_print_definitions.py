@@ -310,6 +310,11 @@ def nationality(node):
     return bool(re.fullmatch(r'[A-ZÇĞIİÖŞÜƏ][\wçğıöşüə]+', az) and re.fullmatch(r'[A-Z][a-z]+', en))
 
 
+def unvoiced(stem):
+    """The q/k form a voiced stem can come from: ayağ → ayaq, çörəy → çörək; a one-syllable stem never voices (dağ)."""
+    return [stem[:-1] + {'ğ': 'q', 'y': 'k'}[stem[-1]]] if stem and stem[-1] in 'ğy' and sum(ch in VOWELS for ch in stem) >= 2 else []
+
+
 def possessive_stem(word):
     """Undo a third-person possessive ending and the q/k voicing it triggers."""
     match = re.fullmatch(r'(.+?)(s?)([ıiuü])', word)
@@ -830,7 +835,7 @@ class Builder:
             # A buffer consonant (y, n) only follows a vowel; a bare vowel ending only follows a consonant.
             if ending[0] in 'yn' and stem[-1] not in VOWELS or ending[0] in VOWELS and stem[-1] in VOWELS:
                 continue
-            candidates = [stem] + ([stem[:-1] + {'ğ': 'q', 'y': 'k'}[stem[-1]]] if ending[0] in VOWELS and stem[-1] in 'ğy' else [])
+            candidates = [stem] + (unvoiced(stem) if ending[0] in VOWELS else [])
             for candidate in candidates:
                 node = self.usable(candidate)
                 if node and node['pos'] != 'verb':
@@ -1175,7 +1180,7 @@ class Builder:
                 match = re.match(pattern, token)
                 if match and cases[match.group(2)] == case:
                     stem = match.group(1)
-                    for candidate in [stem] + ([stem[:-1] + {'ğ': 'q', 'y': 'k'}[stem[-1]]] if stem[-1] in 'ğy' else []):
+                    for candidate in [stem] + unvoiced(stem):
                         if noun(candidate):
                             return noun(candidate)
             return None
@@ -1185,7 +1190,7 @@ class Builder:
             stem = possessive_stem(token)
             if self.usable(token) or not stem or stem == token:
                 return None
-            for candidate in [stem] + ([stem[:-1] + {'ğ': 'q', 'y': 'k'}[stem[-1]]] if stem[-1] in 'ğy' else []):
+            for candidate in [stem] + unvoiced(stem):
                 if noun(candidate):
                     return candidate
             return None
