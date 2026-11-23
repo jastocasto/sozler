@@ -638,6 +638,10 @@ class Builder:
         if kind == 'repeat' and pos in ('noun', 'word'):
             en = f'{short} by {short}' if english and ' ' not in short else f'one {base_word} after another'
             return f'«{base_word}» sözünün təkrarı ilə düzələn zərf: {base_word} ardınca {base_word}, bir-bir.', en, 'adverb'
+        if kind == 'repeat' and pos == 'adjective':
+            # A doubled adjective intensifies it or turns it into a manner adverb (küsülü-küsülü, durğun-durğun).
+            return (f'«{base_word}» sözünün təkrarı ilə düzələn qoşa söz: çox {base_word}, {base_word} halda.',
+                    f'{short} (doubled for emphasis or manner)', 'adverb')
         if kind == 'diminutive' and pos in ('noun', 'word'):
             return f'«{base_word}» sözündən -{suffix} şəkilçisi ilə düzələn kiçiltmə: kiçik {base_word}.', f'little {short}', 'noun'
         if kind == 'manner' and nominal:
