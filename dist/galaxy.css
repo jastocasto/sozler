@@ -118,3 +118,55 @@ dialog{background:#46463f;border:1px solid #99917d70;color:#e8e0ce;border-radius
 .unverified{color:#e6a96b;margin-left:2px}
 .declension-note{margin:8px 0 0;font-size:11px;line-height:1.6;color:#bfb19c}
 @media(max-width:480px){.case-question{display:none}.declension-table{font-size:13px}.declension-table th,.declension-table td{padding:5px 6px}.declension-table tbody th{width:auto}}
+
+/* Region colours and bilingual group names follow the map into the guide. */
+.atlas-guide {
+ width: min(36rem, calc(100% - 1.5rem));
+ max-width: none;
+ max-height: min(48rem, calc(100dvh - 2rem));
+ overflow: hidden;
+}
+.atlas-guide[open] { display: flex; flex-direction: column; }
+.atlas-guide .dialog-header { margin-bottom: 1rem; }
+.atlas-guide h2 { margin: 0; }
+.atlas-guide .library-search { flex: none; }
+.atlas-guide .library-search:focus-visible { outline: 2px solid var(--paper); outline-offset: 2px; }
+#atlasGuideStatus { margin: .65rem 0; font-size: .875rem; }
+.atlas-guide-list { min-height: 0; overflow-y: auto; overscroll-behavior: contain; }
+.guide-region { border-top: 1px solid #ffffff25; }
+.guide-region summary, .guide-jump {
+ display: flex;
+ align-items: center;
+ gap: .75rem;
+ padding: .65rem .45rem;
+ min-height: 2.75rem;
+ text-align: left;
+ width: 100%;
+}
+.guide-region summary { cursor: pointer; list-style: none; }
+.guide-region summary::-webkit-details-marker { display: none; }
+.guide-region summary::before {
+ content: '';
+ width: .45rem;
+ height: .45rem;
+ flex: none;
+ border: solid var(--region-color);
+ border-width: 0 2px 2px 0;
+ transform: rotate(-45deg);
+}
+.guide-region[open] > summary::before { transform: rotate(45deg); }
+.guide-names { display: grid; gap: .15rem; min-width: 0; }
+.guide-names strong { font-weight: 400; font-size: 1.1rem; }
+.guide-names small, .guide-count { font-size: .875rem; color: #d1c9b8; }
+.guide-count { margin-left: auto; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.guide-group { border-left: 2px solid var(--region-color); padding: .15rem .7rem .45rem; margin: 0 .2rem .5rem .55rem; background: #0002; }
+.guide-jump { padding: .35rem .25rem; }
+.guide-jump strong { color: #f5e3bd; }
+.guide-words { display: flex; flex-wrap: wrap; gap: 0 .75rem; }
+.guide-words button { min-height: 2.75rem; padding: .25rem; font-size: .9375rem; text-decoration: underline; text-underline-offset: .2em; text-decoration-color: #b4aa92; }
+.guide-jump:hover strong, .guide-words button:hover { color: white; text-decoration: underline; }
+.guide-region :focus-visible { outline-offset: -2px; }
+@media (max-width: 36rem) {
+ .atlas-guide { padding: 1.1rem; max-height: calc(100dvh - 1rem); }
+ .guide-group { margin-left: .2rem; padding-inline: .5rem; }
+}

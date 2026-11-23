@@ -279,6 +279,98 @@ window.addEventListener('hashchange',route);window.addEventListener('popstate',r
 function updateLocation({region,cluster}){currentRegion=region;currentCluster=cluster;$('breadcrumbRegion').hidden=!region;$('breadcrumbSeparator').hidden=!region;$('breadcrumbCluster').hidden=!cluster;$('breadcrumbRegion').textContent=region?.label||'';$('breadcrumbCluster').textContent=cluster?.label||'';}
 try{galaxy=window.GalaxyView.mount({model,onSelect:n=>select(n,true,true,null,false,'map'),onLocation:updateLocation});$('mapLoading').hidden=true;}catch(error){console.error(error);$('mapLoading').replaceChildren(html('p','','Xəritə bu brauzerdə açıla bilmədi. Sözlük və axtarışdan istifadə edə bilərsiniz.'));}
 for(const r of (galaxy?.atlas.regions||window.WORD_GALAXY_DATA.regions)){const b=html('button','',r.label);b.style.setProperty('--region-color',r.color);b.dataset.region=r.id;b.append(html('span','',r.count.toLocaleString('az')));b.onclick=()=>{closeMenu();setSheet(false);galaxy?.visitRegion(r.id);};$('regionDirectory').append(b);}
+// Build the guide from the mounted atlas on first use, including spelling-only groups.
+if (galaxy) {
+ const atlas = galaxy.atlas;
+ const dialog = $('atlasGuide');
+ const list = $('atlasGuideList');
+ const search = $('atlasGuideSearch');
+ const count = new Intl.NumberFormat('az');
+ let examples;
+
+ function guideExamples() {
+  const samples = atlas.clusters.map(cluster => new Set(
+   cluster.featured.filter(word => atlas.byWord.get(word)?.cluster === cluster.index).slice(0, 3)
+  ));
+  for (const point of atlas.points) {
+   const group = samples[point.cluster];
+   if (group.size < 3) group.add(point.word);
+  }
+  return samples;
+ }
+
+ function guideNames(area) {
+  const names = html('span', 'guide-names');
+  const english = html('small', '', area.en);
+  english.lang = 'en';
+  names.append(html('strong', '', area.label), english);
+  return names;
+ }
+
+ function groupRow(cluster) {
+  const row = html('div', 'guide-group');
+  const jump = html('button', 'guide-jump');
+  jump.dataset.cluster = cluster.id;
+  jump.setAttribute('aria-label', cluster.label + ' qrupunu xəritədə aç');
+  jump.append(guideNames(cluster), html('span', 'guide-count', count.format(cluster.count) + ' söz'));
+  const words = html('div', 'guide-words');
+  for (const word of examples[cluster.index]) {
+   const button = html('button', '', word);
+   button.dataset.word = word;
+   words.append(button);
+  }
+  row.append(jump, words);
+  return row;
+ }
+
+ function renderGuide() {
+  const terms = normalize(search.value.trim()).split(/\s+/).filter(Boolean);
+  const sections = [];
+  let groups = 0;
+  for (const region of atlas.regions) {
+   const matches = region.clusters.map(index => atlas.clusters[index]).filter(cluster => {
+    const names = normalize([region.label, region.en, cluster.label, cluster.en].join(' '));
+    return cluster.count && terms.every(term => names.includes(term));
+   });
+   if (!matches.length) continue;
+   const section = html('details', 'guide-region');
+   section.style.setProperty('--region-color', region.color);
+   if (terms.length || currentRegion?.id === region.id) section.setAttribute('open', '');
+   const summary = html('summary');
+   summary.append(guideNames(region), html('span', 'guide-count', matches.length + ' qrup'));
+   section.append(summary, ...matches.map(groupRow));
+   sections.push(section);
+   groups += matches.length;
+  }
+  list.replaceChildren(...sections);
+  list.scrollTop = 0;
+  $('atlasGuideStatus').textContent = groups
+   ? sections.length + ' bölgə · ' + groups + ' qrup'
+   : 'Uyğun bölgə və ya qrup tapılmadı.';
+ }
+
+ $('atlasGuideButton').hidden = false;
+ $('atlasGuideButton').onclick = () => {
+  if (race?.blocking) return;
+  examples ??= guideExamples();
+  search.value = '';
+  renderGuide();
+  openDialog('atlasGuide');
+ };
+ search.oninput = renderGuide;
+ list.addEventListener('click', event => {
+  const button = event.target.closest('button');
+  if (!button || race?.blocking) return;
+  dialog.close();
+  if (button.dataset.word) {
+   select(atlas.byWord.get(button.dataset.word).node);
+  } else {
+   setSheet(false);
+   galaxy.visitCluster(button.dataset.cluster, {openFeatured: false});
+  }
+  $('graph').focus({preventScroll: true});
+ });
+}
 function renderCounts(){$('collectionSize').textContent=model.nodes.length.toLocaleString('az')+' söz və ifadə';$('sourceCounts').textContent=`Xəritədə ${model.nodes.length.toLocaleString('az')} ayrı lüğət girişi: ${model.nodes.filter(n=>!n.w.includes(' ')).length.toLocaleString('az')} tək söz və ${model.nodes.filter(n=>n.w.includes(' ')).length.toLocaleString('az')} söz birləşməsi / ifadə. ${model.meta.nominal.moved_entries.toLocaleString('az')} qrammatik forma ayrıca formalar bölməsinə keçirilib. Fel təsrifləri ayrıca qrammatika arxivindədir (${model.grammarRecords.length.toLocaleString('az')} qeyd). İki böyük-kiçik hərf variantı birləşdirilib. İlkin məlumatlar saxlanılıb. ${model.orthographyNodes.length.toLocaleString('az')} yazılış orfoqrafiya lüğətinə əsasən əlavə edilib. Onlardan ${model.orthographyNodes.filter(n=>n.az&&n.en).length.toLocaleString('az')} sözün izahı Azərbaycan və ingilis dillərində göstərilir. ${model.meta.growth.added_entries} söz və ifadədən ibarət genişlənmədən sonra tam məna yoxlaması aparılıb: ${model.meta.verification.assessed_entries.toLocaleString('az')} girişə baxılıb, ${model.meta.verification.corrected_entries.toLocaleString('az')} girişin izahı və ya əlavə mənaları dəqiqləşdirilib. Düzəlişlərin mənbələri söz kartında və yoxlama hesabatında göstərilir. Azərbaycan əlifbasının bütün hərfləri üzrə yeni söz əlaqələrində lüğət və qrammatika mənbələri göstərilir.`;}
 renderCounts();
 conjugation=window.ConjugationUI.mount({model,onChange:writeGrammarRoute,onMap:word=>select(model.byWord.get(word))});
