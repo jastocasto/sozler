@@ -58,7 +58,9 @@ PREFIXES = {
 # Endings that are dictionary headwords but act as suffixes at the end of a word.
 SUFFIX_LIKE = {'dan', 'dən', 'lıq', 'lik', 'luq', 'lük', 'çılıq', 'çilik', 'ləmə', 'lama', 'lamaq', 'ləmək', 'lar', 'lər',
                'mış', 'miş', 'muş', 'müş', 'acaq', 'əcək', 'ası', 'əsi', 'daş', 'dar', 'kar', 'gar', 'xana', 'stan',
-               'baz', 'keş', 'kəş', 'dan', 'çı', 'çi', 'ənək', 'anaq'}
+               'baz', 'keş', 'kəş', 'dan', 'çı', 'çi', 'ənək', 'anaq',
+               # Pronoun forms that end privative -sız + -ca words (dinsizcə is dinsiz + -cə, not din + sizcə).
+               'sizcə', 'bizcə', 'məncə', 'səncə', 'sızca', 'suzca', 'süzcə'}
 # Endings that make a word read as one longer stem plus a suffix (kontur-lamaq, cığal-laşma), not as two words.
 DERIVING = {front for back, front in (('lamaq', 'ləmək'), ('lanmaq', 'lənmək'), ('laşmaq', 'ləşmək'), ('lama', 'ləmə'),
                                       ('lanma', 'lənmə'), ('laşma', 'ləşmə'), ('laşdırmaq', 'ləşdirmək'), ('çılıq', 'çilik'),
