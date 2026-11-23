@@ -101,7 +101,7 @@ for (const row of reviewRows) {
   assert.equal(entry.definitionMethod, 'paraphrase', word);
   assert.deepEqual(Array.from(entry.definitionSources, r => r.url.match(/_(\d)\.pdf#page=(\d+)$/).slice(1).join('.')), pages.split(','), word);
 }
-const contextualMeanings = Object.assign({}, ...[35, 36, 37].map(batch =>
+const contextualMeanings = Object.assign({}, ...[35, 36, 37, 38].map(batch =>
   JSON.parse(fs.readFileSync('scripts/content/print-definitions/meanings/batch-' + batch + '.json', 'utf8'))));
 for (const [word, entry] of Object.entries(contextualMeanings)) {
   const n = node(word);
