@@ -1,0 +1,880 @@
+{
+ "zavoddaxili": {
+  "az": "Zavodun daxilində olan, onun öz ərazisinə və işinə aid (zavoddaxili nəqliyyat).",
+  "en": "intra-factory, in-plant",
+  "pos": "adjective"
+ },
+ "zeytunkimi": {
+  "az": "Zeytuna oxşayan; zeytunkimilər fəsiləsinə aid olan (zeytun, yasəmən, göyrüş və s.).",
+  "en": "olive-like; oleaceous (of the olive family, Oleaceae)",
+  "pos": "adjective"
+ },
+ "zeytunçiçəkli": {
+  "az": "Zeytunçiçəklilər sırasına aid olan (bitkilər).",
+  "en": "of the olive order (Oleales)",
+  "pos": "adjective"
+ },
+ "zibildaşıma": {
+  "az": "Zibilin, məişət tullantılarının toplanıb zibilxanaya daşınması.",
+  "en": "refuse removal, garbage hauling",
+  "pos": "noun"
+ },
+ "zibilyandıran": {
+  "az": "Zibili, tullantıları yandıraraq məhv edən (zibilyandıran zavod).",
+  "en": "waste-incinerating (e.g. a waste incineration plant)",
+  "pos": "adjective",
+  "parts": false
+ },
+ "zibilyandırma": {
+  "az": "Zibilin, tullantıların yandırılaraq məhv edilməsi.",
+  "en": "waste incineration, refuse burning",
+  "pos": "noun"
+ },
+ "zibilyığan": {
+  "az": "Zibili toplayan, yığan (zibilyığan maşın).",
+  "en": "refuse-collecting (e.g. a garbage truck)",
+  "pos": "adjective"
+ },
+ "zibilyığma": {
+  "az": "Zibilin, tullantıların toplanması, yığılması.",
+  "en": "refuse collection, garbage collection",
+  "pos": "noun"
+ },
+ "zirincçiçəkli": {
+  "az": "Zirincçiçəklilər sırasına aid olan (bitkilər).",
+  "en": "of the barberry order (of plants)",
+  "pos": "adjective"
+ },
+ "zirkonsilikat": {
+  "az": "Sirkoniumun silikatı; təbiətdə sirkon mineralı şəklində olur, keramikada və odadavamlı materiallarda işlədilir.",
+  "en": "zirconium silicate",
+  "pos": "noun"
+ },
+ "zivanaaçan": {
+  "skip": "meaning not certain"
+ },
+ "zivanakəsən": {
+  "skip": "meaning not certain"
+ },
+ "ziyanvuran": {
+  "az": "Ziyan vuran, zərər yetirən (ziyanvuran həşəratlar).",
+  "en": "harmful, damaging; (of insects) pest",
+  "pos": "adjective",
+  "parts": false
+ },
+ "ziyanvurma": {
+  "az": "Kiməsə və ya bir şeyə ziyan yetirmə, zərər vurma.",
+  "en": "causing damage, doing harm",
+  "pos": "noun"
+ },
+ "zondsalma": {
+  "az": "Müayinə və ya müalicə üçün orqana, boşluğa zond yeritmə.",
+  "en": "probing, insertion of a probe or tube",
+  "pos": "noun"
+ },
+ "zoğalçiçəkli": {
+  "az": "Zoğalçiçəklilər sırasına aid olan (bitkilər).",
+  "en": "of the dogwood order (Cornales)",
+  "pos": "adjective"
+ },
+ "zoğburan": {
+  "az": "Bitkilərin zoğlarını burub zədələyən (həşəratlar).",
+  "en": "shoot-twisting (of insect pests, e.g. shoot moths)",
+  "pos": "adjective"
+ },
+ "zoğvermə": {
+  "az": "Bitkinin zoğ, pöhrə verməsi, cücərti çıxarması.",
+  "en": "sprouting, putting out shoots",
+  "pos": "noun"
+ },
+ "zökəmotu": {
+  "skip": "plant name, not certain"
+ },
+ "zövqoxşayan": {
+  "az": "Zövqü oxşayan, insana xoş gələn, ləzzət verən.",
+  "en": "pleasing, delightful, gratifying",
+  "pos": "adjective"
+ },
+ "zəhmətcanlı": {
+  "skip": "meaning not certain"
+ },
+ "zəhərdişli": {
+  "az": "Zəhərli dişləri olan (ilan və s.).",
+  "en": "having venomous fangs",
+  "pos": "adjective"
+ },
+ "zəlzələqabağı": {
+  "az": "Zəlzələdən əvvəl olan, zəlzələ başlamazdan qabaqkı (zəlzələqabağı dövr).",
+  "en": "pre-earthquake, preceding an earthquake",
+  "pos": "adjective"
+ },
+ "zənbiləbənzər": {
+  "az": "Zənbilə oxşayan, zənbil formasında olan.",
+  "en": "basket-like, basket-shaped",
+  "pos": "adjective"
+ },
+ "zəncirsayağı": {
+  "az": "Zəncir kimi, halqaları bir-birinə ardıcıl bağlanan; zəncirvari.",
+  "en": "chain-like; in the manner of a chain",
+  "pos": "adjective"
+ },
+ "zəncəfilçiçəkli": {
+  "az": "Zəncəfilçiçəklilər sırasına aid olan (zəncəfil, banan və s.).",
+  "en": "zingiberalean, of the ginger order (Zingiberales)",
+  "pos": "adjective"
+ },
+ "zərbaftalı": {
+  "az": "Zərbafta ilə bəzədilmiş və ya zərbaftadan tikilmiş.",
+  "en": "brocaded, trimmed with or made of gold brocade",
+  "pos": "adjective"
+ },
+ "zərbasan": {
+  "skip": "meaning not certain"
+ },
+ "zərbəyədavamlı": {
+  "az": "Zərbəyə davam gətirən, zərbədən asanlıqla sınmayan (zərbəyədavamlı şüşə).",
+  "en": "impact-resistant, shockproof",
+  "pos": "adjective"
+ },
+ "zərbəyədözümlü": {
+  "az": "Zərbəyə dözən, zərbə təsirindən zədələnməyən.",
+  "en": "impact-resistant, shock-resistant",
+  "pos": "adjective"
+ },
+ "zərifnaxışlı": {
+  "az": "İncə, zərif naxışlarla bəzədilmiş.",
+  "en": "delicately patterned, finely ornamented",
+  "pos": "adjective"
+ },
+ "zərifyarpaqlı": {
+  "az": "Yarpaqları incə, zərif olan (bitki adlarında).",
+  "en": "fine-leaved, delicate-leaved (in plant names)",
+  "pos": "adjective"
+ },
+ "zərərvermə": {
+  "az": "Kiməsə və ya bir şeyə zərər yetirmə, ziyan vermə.",
+  "en": "causing harm, doing damage",
+  "pos": "noun"
+ },
+ "zərərvurma": {
+  "az": "Kiməsə və ya bir şeyə zərər vurma, ziyan yetirmə.",
+  "en": "causing damage, inflicting harm",
+  "pos": "noun"
+ },
+ "çalaqazan": {
+  "az": "Çala, çuxur qazan adam və ya maşın.",
+  "en": "pit digger",
+  "pos": "noun",
+  "parts": false
+ },
+ "çalbaşlı": {
+  "az": "Başının tükü çallaşmış, saçı ağ-qara qarışıq olan.",
+  "en": "grey-headed, grizzled",
+  "pos": "adjective"
+ },
+ "çalbığlı": {
+  "az": "Bığı çallaşmış, ağ-qara qarışıq olan.",
+  "en": "grey-moustached",
+  "pos": "adjective"
+ },
+ "çalpapaqlı": {
+  "az": "Başında çal (boz-ağ yunlu) papaq olan.",
+  "en": "wearing a grey sheepskin hat",
+  "pos": "adjective"
+ },
+ "çalsaqqallı": {
+  "az": "Saqqalı çallaşmış, ağarmağa başlamış olan.",
+  "en": "grey-bearded, grizzle-bearded",
+  "pos": "adjective"
+ },
+ "çalsaçlı": {
+  "az": "Saçı çallaşmış, ağ-qara qarışıq olan.",
+  "en": "grey-haired, grizzled",
+  "pos": "adjective"
+ },
+ "çalğıbağı": {
+  "skip": "meaning not certain"
+ },
+ "çaparbaşı": {
+  "az": "Keçmişdə çaparların başçısı, çapar xidmətinə başçılıq edən şəxs.",
+  "en": "chief courier, head of the courier post (historical)",
+  "pos": "noun"
+ },
+ "çarbənd": {
+  "skip": "meaning not certain"
+ },
+ "çardaqdaxili": {
+  "az": "Çardağın içində olan, çardaqda yerləşən.",
+  "en": "in the attic, within the loft",
+  "pos": "adjective"
+ },
+ "çarpaztozlanan": {
+  "az": "Başqa bitkinin çiçək tozu ilə tozlanan (bitki).",
+  "en": "cross-pollinated, cross-pollinating",
+  "pos": "adjective"
+ },
+ "çarpaztozlanma": {
+  "az": "Bir bitkinin çiçəyinin başqa bitkinin çiçək tozu ilə tozlanması.",
+  "en": "cross-pollination",
+  "pos": "noun"
+ },
+ "çarpazvurma": {
+  "skip": "meaning not certain"
+ },
+ "çarxqollu": {
+  "skip": "meaning not certain"
+ },
+ "çarxqolu": {
+  "skip": "meaning not certain"
+ },
+ "çatalbaşlı": {
+  "az": "Başı, ucu çatal kimi iki qola ayrılan.",
+  "en": "fork-headed, with a forked top",
+  "pos": "adjective"
+ },
+ "çataldimdik": {
+  "skip": "bird name, not certain"
+ },
+ "çataldimdikli": {
+  "az": "Dimdiyinin ucu çatal kimi ayrılan (quş).",
+  "en": "fork-billed",
+  "pos": "adjective"
+ },
+ "çatlaqdaban": {
+  "az": "Dabanları çatlamış adam.",
+  "en": "a person with cracked heels",
+  "pos": "noun"
+ },
+ "çatlaqdabanlı": {
+  "az": "Dabanları çatlamış, çatlaq dabanı olan.",
+  "en": "cracked-heeled, with cracked heels",
+  "pos": "adjective"
+ },
+ "çatmaqaşlı": {
+  "az": "Qaşları çatma olan, qaşları bir-birinə qovuşan.",
+  "en": "with eyebrows that meet, unibrowed",
+  "pos": "adjective",
+  "parts": false
+ },
+ "çatmaqurşaq": {
+  "skip": "meaning not certain"
+ },
+ "çatmaqurşaqlı": {
+  "skip": "meaning not certain"
+ },
+ "çatıotu": {
+  "skip": "plant name, not certain"
+ },
+ "çavuşquşu": {
+  "az": "Başında lələk kəkili olan, uzun nazik dimdikli, ala-bəzək lələkli quş; şanapipik, hop-hop.",
+  "en": "hoopoe",
+  "pos": "noun"
+ },
+ "çaybecərən": {
+  "az": "Çay bitkisi becərən, çay yetişdirməklə məşğul olan; çayçı.",
+  "en": "tea-growing; tea grower",
+  "pos": "adjective",
+  "src": "both"
+ },
+ "çaybuludu": {
+  "skip": "meaning not certain"
+ },
+ "çaydaxili": {
+  "az": "Çayın (axar suyun) daxilində olan (çaydaxili adalar).",
+  "en": "in-river, within a river",
+  "pos": "adjective"
+ },
+ "çaygülü": {
+  "skip": "plant or colour term, not certain"
+ },
+ "çayotu": {
+  "skip": "plant name, not certain"
+ },
+ "çaypaylama": {
+  "skip": "meaning not certain"
+ },
+ "çayqartalı": {
+  "az": "Çay və göl sahillərində yaşayıb balıqla qidalanan iri yırtıcı quş.",
+  "en": "osprey",
+  "pos": "noun"
+ },
+ "çayqurudan": {
+  "az": "Çay yarpağını qurudan maşın, qurğu və ya işçi.",
+  "en": "tea dryer (machine or worker)",
+  "pos": "noun",
+  "parts": false
+ },
+ "çaytəmizləyici": {
+  "skip": "meaning not certain (tea or river)"
+ },
+ "çayyovşanı": {
+  "skip": "plant name, not certain"
+ },
+ "çayırçiçəyi": {
+  "skip": "plant name, not certain"
+ },
+ "çağbənd": {
+  "skip": "meaning not certain"
+ },
+ "çağırışyaşlı": {
+  "az": "Hərbi xidmətə çağırış yaşında olan (çağırışyaşlı gənclər).",
+  "en": "of conscription age, draft-age",
+  "pos": "adjective"
+ },
+ "çibanotu": {
+  "skip": "plant name, not certain"
+ },
+ "çibançiçəyi": {
+  "skip": "plant name, not certain"
+ },
+ "çibinçiçək": {
+  "skip": "plant name, not certain"
+ },
+ "çilləpayı": {
+  "az": "Çillə gecəsi qohumlara, xüsusən nişanlı qıza göndərilən hədiyyə, pay.",
+  "en": "Chilla gift (sent to relatives, esp. a fiancée, on the winter solstice night)",
+  "pos": "noun"
+ },
+ "çilsifət": {
+  "az": "Üzü çilli olan adam.",
+  "en": "freckle-faced person",
+  "pos": "noun"
+ },
+ "çilsifətli": {
+  "az": "Üzü çilli olan.",
+  "en": "freckle-faced, freckled",
+  "pos": "adjective"
+ },
+ "çilədağı": {
+  "skip": "meaning not certain"
+ },
+ "çimkəsən": {
+  "az": "Çim kəsmək üçün alət və ya maşın.",
+  "en": "turf cutter, sod cutter",
+  "pos": "noun",
+  "parts": false
+ },
+ "çinarboylu": {
+  "az": "Çinar kimi uca boylu, hündür və qamətli.",
+  "en": "tall as a plane tree, tall and stately",
+  "pos": "adjective"
+ },
+ "çinaryarpaqlı": {
+  "az": "Yarpaqları çinar yarpağına oxşayan (bitki adlarında).",
+  "en": "plane-leaved (in plant names)",
+  "pos": "adjective"
+ },
+ "çirişotu": {
+  "skip": "plant name, not certain"
+ },
+ "çirişəbənzər": {
+  "az": "Çirişə oxşayan (bitki).",
+  "en": "eremurus-like (of plants)",
+  "pos": "adjective"
+ },
+ "çirkaparma": {
+  "skip": "meaning not certain"
+ },
+ "çirkinlətmək": {
+  "az": "Çirkin etmək, görkəmini pisləşdirmək.",
+  "en": "to make ugly, to disfigure",
+  "pos": "verb",
+  "parts": false
+ },
+ "çitələmək": {
+  "skip": "meaning not certain"
+ },
+ "çivyarpaq": {
+  "skip": "plant name, not certain"
+ },
+ "çivyarpaqlı": {
+  "az": "Yarpaqları paz şəkilli olan (bitki adlarında).",
+  "en": "cuneate-leaved, with wedge-shaped leaves (in plant names)",
+  "pos": "adjective"
+ },
+ "çiyanotu": {
+  "skip": "plant name, not certain"
+ },
+ "çiçəbahar": {
+  "skip": "meaning not certain"
+ },
+ "çiçəkdöyən": {
+  "skip": "meaning not certain"
+ },
+ "çiçəkqurdu": {
+  "skip": "insect name, not certain"
+ },
+ "çobanbaşı": {
+  "az": "Çobanların başçısı, baş çoban.",
+  "en": "head shepherd, chief herdsman",
+  "pos": "noun"
+ },
+ "çobanotu": {
+  "skip": "plant name, not certain"
+ },
+ "çobanqarğası": {
+  "skip": "bird name, not certain"
+ },
+ "çobanqovurma": {
+  "az": "Qoyun ətini soğanla qovurmaqla hazırlanan sadə yemək; çoban qovurması.",
+  "en": "shepherd-style fried lamb (kavurma)",
+  "pos": "noun"
+ },
+ "çobansalatı": {
+  "az": "Doğranmış pomidor, xiyar, soğan və göyərtidən hazırlanan salat.",
+  "en": "shepherd's salad",
+  "pos": "noun"
+ },
+ "çobansüzgəci": {
+  "skip": "plant name, not certain"
+ },
+ "çobançiçəyi": {
+  "skip": "plant name, not certain"
+ },
+ "çobançomağı": {
+  "skip": "plant name, not certain"
+ },
+ "çopursifət": {
+  "az": "Üzü çopur olan adam.",
+  "en": "pockmarked person",
+  "pos": "noun"
+ },
+ "çopursifətli": {
+  "az": "Üzü çopur olan, üzündə çiçək xəstəliyinin izləri qalmış.",
+  "en": "pockmarked, pock-faced",
+  "pos": "adjective"
+ },
+ "çopurtəhər": {
+  "az": "Bir qədər çopur, çopura oxşayan.",
+  "en": "somewhat pockmarked",
+  "pos": "adjective"
+ },
+ "çuxurqazan": {
+  "az": "Ağac əkmək, dirək basdırmaq və s. üçün çuxur qazan maşın və ya adam.",
+  "en": "hole digger, post-hole digger",
+  "pos": "noun",
+  "parts": false
+ },
+ "çuxurqazma": {
+  "az": "Çuxur qazma işi.",
+  "en": "digging of holes or pits",
+  "pos": "noun"
+ },
+ "çuğundurböcəyi": {
+  "az": "Çuğundura ziyan vuran böcək; çuğundur ziyanvericisi.",
+  "en": "beet beetle, a beet pest",
+  "pos": "noun"
+ },
+ "çuğundurdoğrama": {
+  "az": "Çuğundur əlavə edilərək hazırlanan soyuq doğrama şorbası.",
+  "en": "cold beetroot soup (beet okroshka)",
+  "pos": "noun"
+ },
+ "çuğundurçıxarma": {
+  "az": "Çuğundurun torpaqdan çıxarılması, yığılması.",
+  "en": "beet lifting, beet harvesting",
+  "pos": "noun"
+ },
+ "çökükburunlu": {
+  "az": "Burnu çökük, basıq olan.",
+  "en": "flat-nosed, saddle-nosed",
+  "pos": "adjective"
+ },
+ "çölkərəvizi": {
+  "skip": "plant name, not certain"
+ },
+ "çölpencəri": {
+  "skip": "plant name, not certain"
+ },
+ "çörəksatan": {
+  "az": "Çörək satan adam; çörəkçi.",
+  "en": "bread seller",
+  "pos": "noun",
+  "src": "both"
+ },
+ "çörəkyapma": {
+  "az": "Təndirdə və ya sacda çörək bişirmə.",
+  "en": "baking bread (esp. flatbread in a tandoor)",
+  "pos": "noun"
+ },
+ "çörəkyağı": {
+  "skip": "meaning not certain"
+ },
+ "çörəkyığma": {
+  "skip": "meaning not certain"
+ },
+ "çılpaqkisəli": {
+  "skip": "biological term, not certain"
+ },
+ "çıraqbənd": {
+  "skip": "meaning not certain"
+ },
+ "çığırtmaplov": {
+  "az": "Üstünə toyuq çığırtması qoyulub verilən plov.",
+  "en": "plov served with chicken chygyrtma",
+  "pos": "noun"
+ },
+ "çəkictullama": {
+  "az": "Yüngül atletikada ağır çəkicin uzağa atılması üzrə yarış növü.",
+  "en": "hammer throw",
+  "pos": "noun"
+ },
+ "çəkidişli": {
+  "skip": "meaning not certain"
+ },
+ "çəkməplov": {
+  "skip": "meaning not certain"
+ },
+ "çəlləkqayırma": {
+  "az": "Çəllək hazırlama işi, çəllək düzəltmə.",
+  "en": "barrel making, cooperage",
+  "pos": "noun"
+ },
+ "çəltikkimi": {
+  "az": "Çəltiyə oxşayan, çəltik kimi olan (bitki).",
+  "en": "rice-like (of plants)",
+  "pos": "adjective"
+ },
+ "çəltiktəmizləyən": {
+  "az": "Çəltiyi qabığından təmizləyən (çəltiktəmizləyən maşın).",
+  "en": "rice-hulling (e.g. a rice-hulling machine)",
+  "pos": "adjective"
+ },
+ "çəltikyığma": {
+  "az": "Çəltiyin biçilib yığılması.",
+  "en": "rice harvesting",
+  "pos": "noun"
+ },
+ "çəməngülü": {
+  "skip": "plant or colour term, not certain"
+ },
+ "çəmənyoncası": {
+  "skip": "plant name, not certain"
+ },
+ "çənbərbağırsaq": {
+  "az": "Yoğun bağırsağın kor bağırsaqla düz bağırsaq arasındakı əsas hissəsi.",
+  "en": "colon",
+  "pos": "noun"
+ },
+ "çənbərburun": {
+  "skip": "meaning not certain"
+ },
+ "çənbərburunlu": {
+  "skip": "meaning not certain"
+ },
+ "çənbərbığlı": {
+  "skip": "meaning not certain"
+ },
+ "çəngəlquyruqlu": {
+  "az": "Quyruğu çəngəl kimi ikiyə ayrılan (quş və s.).",
+  "en": "fork-tailed",
+  "pos": "adjective"
+ },
+ "çənəbənd": {
+  "az": "Papağı, dəbilqəni və s. saxlamaq üçün çənənin altından keçirilən bağ.",
+  "en": "chinstrap",
+  "pos": "noun"
+ },
+ "çəpbucaq": {
+  "skip": "meaning not certain"
+ },
+ "çəpdişli": {
+  "az": "Dişləri çəp, maili yerləşən (çəpdişli çarx).",
+  "en": "helical-toothed, with oblique teeth (e.g. a helical gear)",
+  "pos": "adjective"
+ },
+ "çəpərbaşı": {
+  "az": "Çəpərin üstü, yuxarı hissəsi.",
+  "en": "top of a fence",
+  "pos": "noun"
+ },
+ "çəpərdibi": {
+  "az": "Çəpərin dibi, çəpərin yanındakı yer.",
+  "en": "foot of a fence, ground along a fence",
+  "pos": "noun"
+ },
+ "çərçivəşəkilli": {
+  "az": "Çərçivə formasında olan.",
+  "en": "frame-shaped",
+  "pos": "adjective"
+ },
+ "çətiryarpaqlı": {
+  "az": "Yarpaqları çətir kimi açılan (bitki adlarında).",
+  "en": "umbrella-leaved (in plant names)",
+  "pos": "adjective"
+ },
+ "çətirçiçəklikimi": {
+  "az": "Çətirçiçəklilərə yaxın olan; çətirçiçəklikimilər sırasına aid (bitkilər).",
+  "en": "apialean, of the umbellifer order (Apiales)",
+  "pos": "adjective"
+ },
+ "çətirçiçəyi": {
+  "skip": "plant name, not certain"
+ },
+ "çətənəyarpaq": {
+  "skip": "plant name, not certain"
+ },
+ "çəyirdəkmeyvəli": {
+  "az": "Çəyirdəkli meyvə verən (ərik, şaftalı, gilas və s.).",
+  "en": "stone-fruited, drupaceous",
+  "pos": "adjective"
+ },
+ "çəyirtkəkimi": {
+  "az": "Çəyirtkəyə oxşayan; çəyirtkəkimilərə aid olan (həşərat).",
+  "en": "grasshopper-like; of the grasshopper family",
+  "pos": "adjective"
+ },
+ "öküzdili": {
+  "skip": "plant name, not certain"
+ },
+ "öküzqulaq": {
+  "skip": "plant name, not certain"
+ },
+ "ölkədənxaric": {
+  "skip": "meaning not certain"
+ },
+ "ölçüyəsığmaz": {
+  "az": "Ölçüyə sığmayan, ölçülə bilməyəcək qədər böyük; hədsiz.",
+  "en": "immeasurable, boundless",
+  "pos": "adjective"
+ },
+ "ölüdoğan": {
+  "az": "Ölü uşaq və ya bala doğan.",
+  "en": "giving birth to stillborn young",
+  "pos": "adjective"
+ },
+ "ölüdoğulma": {
+  "az": "Uşağın ana bətnində ölərək cansız doğulması.",
+  "en": "stillbirth",
+  "pos": "noun"
+ },
+ "ölügötürmə": {
+  "az": "Ölünün dəfn edilmək üçün evdən götürülüb aparılması.",
+  "en": "carrying out of the dead for burial",
+  "pos": "noun"
+ },
+ "ölüyarma": {
+  "az": "Ölüm səbəbini müəyyən etmək üçün meyitin yarılması.",
+  "en": "autopsy, post-mortem dissection",
+  "pos": "noun"
+ },
+ "ömüruzadan": {
+  "az": "Ömrü uzadan, insanın daha uzun yaşamasına kömək edən.",
+  "en": "life-prolonging, life-extending",
+  "pos": "adjective"
+ },
+ "ömüruzadıcı": {
+  "az": "Ömrü uzadan, uzunömürlülüyə kömək edən.",
+  "en": "life-prolonging",
+  "pos": "adjective",
+  "parts": false
+ },
+ "öncəduyum": {
+  "az": "Bir şeyin baş verəcəyini qabaqcadan hiss etmə.",
+  "en": "presentiment, premonition",
+  "pos": "noun"
+ },
+ "ördəkboyun": {
+  "skip": "meaning not certain"
+ },
+ "ördəkboyunlu": {
+  "az": "Boynu ördək boynuna oxşayan.",
+  "en": "duck-necked",
+  "pos": "adjective"
+ },
+ "ördəkyetişdirmə": {
+  "az": "Ördək bəsləmə, ördəkçilik.",
+  "en": "duck breeding, duck farming",
+  "pos": "noun"
+ },
+ "ördəkçöpü": {
+  "skip": "plant name, not certain"
+ },
+ "öyüdvermə": {
+  "az": "Kiməsə öyüd-nəsihət vermə.",
+  "en": "admonition, giving advice",
+  "pos": "noun"
+ },
+ "özülqoyma": {
+  "az": "Binanın özülünün, bünövrəsinin qoyulması.",
+  "en": "laying of the foundation",
+  "pos": "noun"
+ },
+ "özültikən": {
+  "az": "Binanın özülünü, bünövrəsini tikən (fəhlə, briqada).",
+  "en": "foundation-building (of workers or crews)",
+  "pos": "adjective"
+ },
+ "ümidsaçan": {
+  "az": "Ətrafa ümid yayan, ümid verən.",
+  "en": "hope-inspiring, hopeful",
+  "pos": "adjective"
+ },
+ "ümumdemokratik": {
+  "az": "Bütün demokratik qüvvələrə aid olan, ümumi demokratik xarakter daşıyan (ümumdemokratik tələblər).",
+  "en": "general-democratic, common to all democratic forces",
+  "pos": "adjective"
+ },
+ "ümuminşaat": {
+  "az": "Ümumi inşaat işləri, xüsusi işlərdən fərqli əsas tikinti işləri (ümuminşaat işləri).",
+  "en": "general construction",
+  "pos": "noun"
+ },
+ "ümummüxalifət": {
+  "az": "Bütün müxalifət qüvvələrini əhatə edən (ümummüxalifət mitinqi).",
+  "en": "all-opposition, of the united opposition",
+  "pos": "adjective"
+ },
+ "ümumməktəb": {
+  "az": "Bütün məktəbə aid olan, məktəbin hamısını əhatə edən (ümumməktəb yığıncağı).",
+  "en": "school-wide",
+  "pos": "adjective"
+ },
+ "ümumpartiya": {
+  "az": "Bütün partiyaya aid olan, partiyanın bütün üzvlərini əhatə edən (ümumpartiya müzakirəsi).",
+  "en": "party-wide",
+  "pos": "adjective"
+ },
+ "ümumtürkoloji": {
+  "az": "Türkologiyanın bütöv sahəsinə, bütün türk dillərinin öyrənilməsinə aid olan.",
+  "en": "general Turkological, pan-Turkological",
+  "pos": "adjective"
+ },
+ "ürəkağrıdan": {
+  "az": "Ürəyi ağrıdan, insanı kədərləndirən, üzən.",
+  "en": "heartbreaking, painful",
+  "pos": "adjective"
+ },
+ "ürəkağrıdıcı": {
+  "az": "İnsanı dərindən kədərləndirən, ürək ağrıdan.",
+  "en": "heart-rending, distressing",
+  "pos": "adjective"
+ },
+ "ürəkköçürmə": {
+  "az": "Ürəyin bir insandan digərinə cərrahi yolla köçürülməsi.",
+  "en": "heart transplant(ation)",
+  "pos": "noun"
+ },
+ "ürəkpartlaması": {
+  "az": "Danışıq dilində: ürəyin qəfildən dayanması, infarkt.",
+  "en": "heart attack; heart failure (colloquial)",
+  "pos": "noun"
+ },
+ "ürəksökücü": {
+  "skip": "meaning not certain"
+ },
+ "ürəksıxılma": {
+  "az": "Ürəkdə sıxıntı, darıxma və narahatlıq hissi.",
+  "en": "heaviness of heart, anguish; tightness in the chest",
+  "pos": "noun"
+ },
+ "ürəksızladıcı": {
+  "az": "Ürəyi sızladan, insanı dərindən kədərləndirən.",
+  "en": "heart-rending, poignant",
+  "pos": "adjective"
+ },
+ "ürəyidərdli": {
+  "az": "Ürəyində dərdi olan, qəmli, kədərli.",
+  "en": "grief-stricken, sorrowful",
+  "pos": "adjective"
+ },
+ "üstcalaq": {
+  "skip": "meaning not certain"
+ },
+ "üstyazı": {
+  "skip": "meaning not certain"
+ },
+ "ütüçəkən": {
+  "az": "Paltar ütüləyən adam, ütüçü.",
+  "en": "ironer, presser (of clothes)",
+  "pos": "noun"
+ },
+ "üzdənsovma": {
+  "skip": "meaning not certain"
+ },
+ "üzlükçəkən": {
+  "az": "Mebelə, oturacaqlara üzlük çəkən usta.",
+  "en": "upholsterer",
+  "pos": "noun"
+ },
+ "üzvqoruyucu": {
+  "az": "Orqanı qoruyub saxlayan, onu kəsib götürmədən aparılan (üzvqoruyucu əməliyyat).",
+  "en": "organ-preserving, organ-sparing (of surgery)",
+  "pos": "adjective"
+ },
+ "üzükotu": {
+  "skip": "plant name, not certain"
+ },
+ "üzüməzən": {
+  "az": "Üzümü əzib şirəsini çıxaran (üzüməzən maşın).",
+  "en": "grape-crushing (e.g. a grape crusher)",
+  "pos": "adjective"
+ },
+ "üzərlikçiçəkli": {
+  "az": "Üzərlikçiçəklilər sırasına aid olan (bitkilər).",
+  "en": "of the harmal order (of plants)",
+  "pos": "adjective"
+ },
+ "şabalıdyarpaqlı": {
+  "az": "Yarpaqları şabalıd yarpağına oxşayan (şabalıdyarpaqlı palıd).",
+  "en": "chestnut-leaved (in plant names)",
+  "pos": "adjective"
+ },
+ "şadxəbər": {
+  "az": "Sevinc gətirən xəbər; müjdə.",
+  "en": "good news, glad tidings",
+  "pos": "noun"
+ },
+ "şagirdyönümlü": {
+  "az": "Şagirdin maraq və ehtiyaclarına yönəlmiş (şagirdyönümlü təlim).",
+  "en": "student-centred, pupil-oriented",
+  "pos": "adjective"
+ },
+ "şahdənə": {
+  "az": "Çətənə bitkisinin toxumu.",
+  "en": "hempseed",
+  "pos": "noun",
+  "parts": false
+ },
+ "şahgülü": {
+  "skip": "plant or colour term, not certain"
+ },
+ "şahpərdə": {
+  "skip": "meaning not certain"
+ },
+ "şamdanabənzər": {
+  "az": "Şamdana oxşayan, şamdan formasında olan.",
+  "en": "candlestick-like, candelabrum-shaped",
+  "pos": "adjective"
+ },
+ "şamkimi": {
+  "az": "Şam ağacına oxşayan; şamkimilər fəsiləsinə aid olan (şam, küknar, ladin və s.).",
+  "en": "pine-like; of the pine family (Pinaceae)",
+  "pos": "adjective",
+  "parts": false
+ },
+ "şanakotan": {
+  "skip": "meaning not certain"
+ },
+ "şanaşəkilli": {
+  "skip": "meaning not certain (fork or comb shape)"
+ },
+ "şaxtadaxili": {
+  "az": "Şaxtanın (mədənin) daxilində olan (şaxtadaxili nəqliyyat).",
+  "en": "in-mine, underground (within a mine)",
+  "pos": "adjective",
+  "parts": false
+ },
+ "şaxtaqazan": {
+  "az": "Şaxta (mədən quyusu) qazan fəhlə və ya maşın.",
+  "en": "shaft sinker (in mining)",
+  "pos": "noun",
+  "parts": false
+ },
+ "şaxtaqazma": {
+  "az": "Şaxta (mədən quyusu) qazma işi.",
+  "en": "shaft sinking (in mining)",
+  "pos": "noun",
+  "parts": false
+ }
+}

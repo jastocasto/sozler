@@ -1,0 +1,890 @@
+{
+ "sırğaşəkilli": {
+  "az": "Sırğa şəklində olan, sırğaya bənzəyən.",
+  "en": "earring-shaped",
+  "pos": "adjective"
+ },
+ "sıxcalaşmaq": {
+  "az": "Getdikcə sıxlaşmaq, daha sıx və ya daha tez-tez olmaq.",
+  "en": "to become denser; to become more frequent",
+  "pos": "verb",
+  "parts": false
+ },
+ "sıxtüklü": {
+  "az": "Tükləri sıx, gur olan.",
+  "en": "thick-haired, densely hairy",
+  "pos": "adjective"
+ },
+ "sığortaedilən": {
+  "az": "Sığorta olunan, sığorta ilə qorunan (sığortaedilən əmlak).",
+  "en": "insured, being insured",
+  "pos": "adjective"
+ },
+ "sığortaedən": {
+  "az": "Sığorta xidməti göstərən, sığorta edən (sığortaedən şirkət).",
+  "en": "insuring; insurer",
+  "pos": "adjective"
+ },
+ "səadətdolu": {
+  "az": "Xoşbəxtliklə, səadətlə dolu olan.",
+  "en": "blissful, full of happiness",
+  "pos": "adjective"
+ },
+ "səbiredilməz": {
+  "az": "Dözülməsi mümkün olmayan, dözülməz.",
+  "en": "unbearable, intolerable",
+  "pos": "adjective"
+ },
+ "səfərqabağı": {
+  "az": "Səfərdən, yola düşməkdən əvvəlki (səfərqabağı hazırlıq).",
+  "en": "pre-trip, before a journey",
+  "pos": "adjective"
+ },
+ "səhləbkimi": {
+  "az": "Səhləbə bənzəyən, səhləb kimi.",
+  "en": "salep-like, like salep",
+  "pos": "adjective"
+ },
+ "səhnəqurma": {
+  "az": "Səhnənin, dekorun qurulması; tamaşanın səhnədə qurulub hazırlanması.",
+  "en": "stage setting, staging",
+  "pos": "noun"
+ },
+ "səlistələffüzlü": {
+  "az": "Tələffüzü səlis, aydın və rəvan olan.",
+  "en": "with fluent, clear pronunciation",
+  "pos": "adjective"
+ },
+ "səpinsonu": {
+  "az": "Səpindən sonrakı dövrə aid olan (səpinsonu becərmə).",
+  "en": "post-sowing, after sowing",
+  "pos": "adjective"
+ },
+ "sərbəstdişicikli": {
+  "az": "Dişicikləri bir-birinə bitişməyən, ayrı-ayrı olan (çiçək).",
+  "en": "with free (separate) pistils (botany)",
+  "pos": "adjective"
+ },
+ "sərbəstdüşüncəli": {
+  "az": "Fikirlərində sərbəst olan, ehkamlara bağlanmayan.",
+  "en": "free-thinking, open-minded",
+  "pos": "adjective"
+ },
+ "sərbəstdüşünən": {
+  "az": "Müstəqil düşünən, dini və ya başqa ehkamlara tabe olmayan.",
+  "en": "free-thinking; freethinker",
+  "pos": "adjective"
+ },
+ "sərbəsterkəkcikli": {
+  "az": "Erkəkcikləri bir-birinə bitişməyən, ayrı-ayrı olan (çiçək).",
+  "en": "with free (separate) stamens (botany)",
+  "pos": "adjective"
+ },
+ "sərbəstləçəkli": {
+  "az": "Ləçəkləri bir-birinə bitişməyən, ayrı-ayrı olan (çiçək).",
+  "en": "polypetalous, with free petals (botany)",
+  "pos": "adjective"
+ },
+ "sərfedən": {
+  "az": "Bir şeyi işlədən, sərf edən (enerji sərfedən cihazlar).",
+  "en": "consuming, using (energy, resources)",
+  "pos": "adjective"
+ },
+ "sərhədpozucu": {
+  "az": "Dövlət sərhədini qanunsuz keçən və ya sərhəd rejimini pozan şəxs.",
+  "en": "border violator, illegal border crosser",
+  "pos": "noun"
+ },
+ "sərhədzolağı": {
+  "az": "Dövlət sərhədi boyunca uzanan, xüsusi rejimi olan ərazi zolağı.",
+  "en": "border strip, border zone",
+  "pos": "noun"
+ },
+ "sərmayəqoyma": {
+  "az": "Gəlir əldə etmək məqsədilə vəsait yatırma; investisiya.",
+  "en": "investment, investing",
+  "pos": "noun"
+ },
+ "sərnişindaşıyan": {
+  "az": "Sərnişin daşımaq üçün olan (sərnişindaşıyan avtobus).",
+  "en": "passenger-carrying, passenger (vehicle)",
+  "pos": "adjective"
+ },
+ "sərtdilli": {
+  "az": "Danışığı sərt, kəskin olan; acıdilli.",
+  "en": "sharp-tongued, harsh-spoken",
+  "pos": "adjective"
+ },
+ "sərvkimi": {
+  "az": "Sərv ağacı kimi uca və düzqamətli (boy-buxun haqqında).",
+  "en": "cypress-like, tall and slender",
+  "pos": "adjective"
+ },
+ "sərvotu": {
+  "skip": "plant name, not certain"
+ },
+ "sərxoşsayağı": {
+  "az": "Sərxoş adam kimi, sərxoşa bənzər tərzdə.",
+  "en": "drunkenly, like a drunk",
+  "pos": "adverb"
+ },
+ "sərçəbudu": {
+  "skip": "meaning not certain (likely a plant or variety name)"
+ },
+ "sərçəotu": {
+  "skip": "plant name, not certain"
+ },
+ "səsalan": {
+  "skip": "meaning not certain (sound-receiving or vote-receiving)"
+ },
+ "səsartıran": {
+  "az": "Səsi gücləndirən (səsartıran qurğu).",
+  "en": "sound-amplifying",
+  "pos": "adjective"
+ },
+ "səsbatıran": {
+  "az": "Səsi zəiflədən, boğan (səsbatıran örtük).",
+  "en": "sound-deadening, sound-damping",
+  "pos": "adjective"
+ },
+ "səsburaxan": {
+  "az": "Səs çıxaran, səs yayan.",
+  "en": "sound-emitting",
+  "pos": "adjective"
+ },
+ "səsdəyişməsi": {
+  "az": "Dildə bir səsin müəyyən şəraitdə və ya tarixən başqa səsə keçməsi.",
+  "en": "sound change (linguistics)",
+  "pos": "noun"
+ },
+ "səskeçirici": {
+  "az": "Səsi özündən keçirən, ötürən material və ya cisim.",
+  "en": "sound conductor",
+  "pos": "noun"
+ },
+ "səskeçməz": {
+  "az": "Səsi özündən keçirməyən (səskeçməz divar).",
+  "en": "soundproof",
+  "pos": "adjective"
+ },
+ "səssöndürən": {
+  "az": "Səsi zəiflədən, söndürən (səssöndürən qurğu).",
+  "en": "sound-damping, silencing",
+  "pos": "adjective"
+ },
+ "səstezlikli": {
+  "az": "Səs tezlikləri diapazonunda olan (səstezlikli siqnal).",
+  "en": "audio-frequency",
+  "pos": "adjective"
+ },
+ "səsuducu": {
+  "az": "Səsi udan, əks-sədanı azaldan material və ya qurğu.",
+  "en": "sound absorber; sound-absorbing",
+  "pos": "noun"
+ },
+ "səsyetməz": {
+  "az": "Səsin çatmadığı qədər uzaq olan.",
+  "en": "out of earshot, beyond the reach of a voice",
+  "pos": "adjective"
+ },
+ "səsçatan": {
+  "az": "Səsin eşidiləcəyi qədər yaxın olan.",
+  "en": "within earshot",
+  "pos": "adjective"
+ },
+ "səsçatmaz": {
+  "az": "Səsin eşidilməyəcəyi qədər uzaq olan.",
+  "en": "out of earshot",
+  "pos": "adjective"
+ },
+ "səsölçmə": {
+  "az": "Səsin gücünü, səviyyəsini ölçmə.",
+  "en": "sound measurement",
+  "pos": "noun"
+ },
+ "səsölçən": {
+  "az": "Səsin gücünü və ya səviyyəsini ölçən (səsölçən cihaz).",
+  "en": "sound-measuring; sound level meter",
+  "pos": "adjective"
+ },
+ "səsötürən": {
+  "az": "Səsi bir yerdən başqa yerə ötürən, keçirən.",
+  "en": "sound-transmitting",
+  "pos": "adjective"
+ },
+ "sətiraçma": {
+  "skip": "meaning not certain"
+ },
+ "sətirsonu": {
+  "az": "Sətrin sonu, sətrin bitdiyi yer.",
+  "en": "end of line, line end",
+  "pos": "noun"
+ },
+ "sətirtökən": {
+  "az": "Mətni bütöv sətirlər şəklində metaldan tökən (sətirtökən maşın).",
+  "en": "line-casting (as in a linotype machine)",
+  "pos": "adjective"
+ },
+ "səviyyəölçən": {
+  "az": "Mayenin və ya başqa maddənin səviyyəsini ölçən (səviyyəölçən cihaz).",
+  "en": "level-measuring; level gauge",
+  "pos": "adjective"
+ },
+ "tabağabənzər": {
+  "az": "Tabağa oxşayan, enli və dayaz.",
+  "en": "tray-like, trough-like",
+  "pos": "adjective"
+ },
+ "tabağaoxşar": {
+  "az": "Formaca tabağa bənzəyən.",
+  "en": "tray-like",
+  "pos": "adjective"
+ },
+ "tabeedici": {
+  "az": "Tabe edən; qrammatikada tabelilik əlaqəsi yaradan (tabeedici bağlayıcılar).",
+  "en": "subordinating",
+  "pos": "adjective"
+ },
+ "tabeetdirici": {
+  "az": "Başqasını tabe olmağa, itaət etməyə məcbur edən.",
+  "en": "subjugating, subordinating",
+  "pos": "adjective"
+ },
+ "tabeetmə": {
+  "az": "Birini və ya bir şeyi özünə tabe etmə, itaət altına alma.",
+  "en": "subjugation, subordination",
+  "pos": "noun"
+ },
+ "tabutabənzər": {
+  "az": "Tabuta oxşayan, tabut kimi uzunsov.",
+  "en": "coffin-like",
+  "pos": "adjective"
+ },
+ "tabutaoxşar": {
+  "az": "Formaca tabuta bənzəyən.",
+  "en": "coffin-like",
+  "pos": "adjective"
+ },
+ "takırabənzər": {
+  "az": "Takıra oxşayan, çatlamış gilli səthi olan (takırabənzər torpaqlar).",
+  "en": "takyr-like",
+  "pos": "adjective"
+ },
+ "takırşəkilli": {
+  "az": "Takır şəklində olan, takırı xatırladan.",
+  "en": "takyr-like, takyr-shaped",
+  "pos": "adjective"
+ },
+ "takırəmələgəlmə": {
+  "az": "Səhrada takırların yaranması prosesi.",
+  "en": "takyr formation",
+  "pos": "noun"
+ },
+ "talaotu": {
+  "skip": "plant name, not certain"
+ },
+ "talliman": {
+  "az": "Limanda gəmiyə yüklənən və ya boşaldılan yükü sayıb qeyd edən işçi.",
+  "en": "tallyman (port cargo checker)",
+  "pos": "noun",
+  "parts": false
+ },
+ "tamağızlı": {
+  "skip": "meaning not certain"
+ },
+ "tamaşaqabağı": {
+  "az": "Tamaşadan əvvəlki (tamaşaqabağı məşq).",
+  "en": "pre-performance, before the show",
+  "pos": "adjective"
+ },
+ "tamprofilli": {
+  "skip": "meaning not certain"
+ },
+ "tamtutumlu": {
+  "skip": "meaning not certain"
+ },
+ "tamtərkibli": {
+  "skip": "meaning not certain"
+ },
+ "tamverici": {
+  "az": "Qidaya dad verən, dadı yaxşılaşdıran (tamverici maddələr).",
+  "en": "flavouring, taste-imparting",
+  "pos": "adjective"
+ },
+ "tamyararlı": {
+  "az": "Tamamilə yararlı olan, istifadəyə tam yarayan.",
+  "en": "fully fit, fully usable",
+  "pos": "adjective"
+ },
+ "tamçəkili": {
+  "skip": "meaning not certain"
+ },
+ "taqətdəndüşmə": {
+  "az": "Çox yorulub gücdən düşmə, əldən düşmə.",
+  "en": "exhaustion, prostration",
+  "pos": "noun"
+ },
+ "taqətdənsalma": {
+  "az": "Birini gücdən salma, əldən salıb taqətsiz qoyma.",
+  "en": "exhausting, wearing out",
+  "pos": "noun"
+ },
+ "tarakankimi": {
+  "az": "Tarakana bənzəyən, tarakan kimi.",
+  "en": "cockroach-like, like a cockroach",
+  "pos": "adjective"
+ },
+ "tarlaotu": {
+  "skip": "plant name, not certain"
+ },
+ "tasabaxma": {
+  "skip": "meaning not certain"
+ },
+ "tasquran": {
+  "skip": "meaning not certain"
+ },
+ "tavayabənzər": {
+  "az": "Tavaya oxşayan, yastı və enli.",
+  "en": "pan-shaped, pan-like",
+  "pos": "adjective"
+ },
+ "tavayaoxşar": {
+  "az": "Formaca tavaya bənzəyən.",
+  "en": "pan-like",
+  "pos": "adjective"
+ },
+ "taxtadoğrama": {
+  "az": "Taxtanı ölçüyə görə kəsib hissələrə ayırma.",
+  "en": "cutting up timber",
+  "pos": "noun",
+  "parts": false
+ },
+ "taxtadoğrayan": {
+  "az": "Taxtanı kəsib hissələrə bölən (taxtadoğrayan dəzgah).",
+  "en": "timber-cutting, wood-cutting",
+  "pos": "adjective"
+ },
+ "taxtakəsmə": {
+  "az": "Taxtanı və ya ağac materialını mişarla kəsmə.",
+  "en": "timber cutting, wood sawing",
+  "pos": "noun"
+ },
+ "taxtamüjə": {
+  "skip": "meaning not certain"
+ },
+ "taxtayabənzər": {
+  "az": "Taxtaya oxşayan; taxta kimi yastı və ya sərt.",
+  "en": "board-like, wood-like",
+  "pos": "adjective"
+ },
+ "taxtayonma": {
+  "az": "Taxtanın səthini yonub hamarlama.",
+  "en": "wood planing",
+  "pos": "noun"
+ },
+ "taxtaçəkmə": {
+  "skip": "meaning not certain"
+ },
+ "taxçaqabağı": {
+  "skip": "meaning not certain"
+ },
+ "taxılbiçmə": {
+  "az": "Yetişmiş taxıl zəmisini biçmə.",
+  "en": "grain reaping",
+  "pos": "noun"
+ },
+ "taxıldaşıyan": {
+  "az": "Taxıl daşımaq üçün olan (taxıldaşıyan gəmi).",
+  "en": "grain-carrying; grain carrier",
+  "pos": "adjective"
+ },
+ "taxılqurutma": {
+  "az": "Saxlamaq üçün taxılı nəmdən qurutma.",
+  "en": "grain drying",
+  "pos": "noun"
+ },
+ "taxılsiçanı": {
+  "skip": "animal name, not certain"
+ },
+ "taxılsovurma": {
+  "az": "Taxılı küləkdə və ya maşınla sovurub saman və qılçıqdan ayırma.",
+  "en": "winnowing grain",
+  "pos": "noun"
+ },
+ "taxılsəpmə": {
+  "az": "Taxıl toxumunu torpağa səpmə.",
+  "en": "grain sowing",
+  "pos": "noun"
+ },
+ "taxıltəmizləmə": {
+  "az": "Taxılı qatışıqlardan, alaq toxumlarından təmizləmə.",
+  "en": "grain cleaning",
+  "pos": "noun"
+ },
+ "taxılyükləmə": {
+  "az": "Taxılı nəqliyyat vasitəsinə və ya anbara yükləmə.",
+  "en": "grain loading",
+  "pos": "noun"
+ },
+ "taxılyükləyən": {
+  "az": "Taxıl yükləmək üçün olan (taxılyükləyən maşın).",
+  "en": "grain-loading; grain loader",
+  "pos": "adjective"
+ },
+ "taxılyığma": {
+  "az": "Taxıl məhsulunu biçib toplama.",
+  "en": "grain harvesting",
+  "pos": "noun"
+ },
+ "taxılçiçəkli": {
+  "skip": "meaning not certain"
+ },
+ "taxılölçmə": {
+  "az": "Taxılın miqdarını və ya çəkisini ölçmə.",
+  "en": "grain measuring",
+  "pos": "noun"
+ },
+ "taxılölçən": {
+  "az": "Taxılın miqdarını və ya çəkisini ölçən (taxılölçən cihaz).",
+  "en": "grain-measuring",
+  "pos": "adjective"
+ },
+ "taybağlayan": {
+  "az": "Ot, pambıq və s. tay şəklində sıxıb bağlayan (taybağlayan maşın).",
+  "en": "baling; baler",
+  "pos": "adjective"
+ },
+ "taybeçə": {
+  "skip": "meaning not certain"
+ },
+ "tayfaxarici": {
+  "az": "Tayfadan kənarda olan, tayfaya aid olmayan (tayfaxarici nikah).",
+  "en": "extra-tribal, outside the tribe",
+  "pos": "adjective"
+ },
+ "tayqapaq": {
+  "skip": "meaning not certain"
+ },
+ "tayqapaqlı": {
+  "skip": "meaning not certain"
+ },
+ "tayqapı": {
+  "skip": "meaning not certain"
+ },
+ "taytəkər": {
+  "skip": "meaning not certain"
+ },
+ "tayçarx": {
+  "skip": "meaning not certain"
+ },
+ "tağqabağı": {
+  "skip": "meaning not certain"
+ },
+ "telatan": {
+  "skip": "meaning not certain"
+ },
+ "temperaturqeydedici": {
+  "az": "Temperaturun dəyişməsini avtomatik yazıb qeyd edən cihaz; termoqraf.",
+  "en": "temperature recorder, thermograph",
+  "pos": "noun"
+ },
+ "tenorsəsli": {
+  "az": "Tenor səsi olan (tenorsəsli müğənni).",
+  "en": "tenor-voiced",
+  "pos": "adjective"
+ },
+ "teplovozqayıran": {
+  "az": "Teplovoz istehsal edən (teplovozqayıran zavod).",
+  "en": "diesel-locomotive-building",
+  "pos": "adjective"
+ },
+ "terminallaşdırılmaq": {
+  "skip": "meaning not certain"
+ },
+ "terminalma": {
+  "az": "Başqa dildən termin götürmə, terminlərin alınması.",
+  "en": "borrowing of terms",
+  "pos": "noun"
+ },
+ "terminyaratma": {
+  "az": "Yeni terminlər yaratma, terminlərin düzəldilməsi.",
+  "en": "term formation, coinage of terms",
+  "pos": "noun"
+ },
+ "termoizolyasiyaedici": {
+  "az": "İstiliyin keçməsinin qarşısını alan (termoizolyasiyaedici material).",
+  "en": "heat-insulating, thermal insulating",
+  "pos": "adjective"
+ },
+ "tezalovlanma": {
+  "az": "Tez alov alma, asanlıqla alışıb yanma xüsusiyyəti.",
+  "en": "rapid ignition, high flammability",
+  "pos": "noun"
+ },
+ "tezalışma": {
+  "az": "Odu tez tutma, tez alışıb yanma xüsusiyyəti.",
+  "en": "quick ignition, inflammability",
+  "pos": "noun",
+  "parts": false
+ },
+ "tezartan": {
+  "az": "Tez artan, sürətlə çoxalan və ya böyüyən.",
+  "en": "fast-growing, rapidly increasing",
+  "pos": "adjective"
+ },
+ "tezatılan": {
+  "skip": "meaning not certain"
+ },
+ "tezaçılan": {
+  "skip": "meaning not certain"
+ },
+ "tezbərkiyən": {
+  "az": "Tez bərkiyən, qısa müddətdə qatılaşan (tezbərkiyən sement).",
+  "en": "quick-setting, fast-hardening",
+  "pos": "adjective"
+ },
+ "tezdonan": {
+  "az": "Tez donan, tez buz bağlayan.",
+  "en": "quick to freeze",
+  "pos": "adjective"
+ },
+ "tezdonduran": {
+  "az": "Məhsulu qısa müddətdə donduran (tezdonduran aparat).",
+  "en": "quick-freezing, fast-freeze",
+  "pos": "adjective"
+ },
+ "tezdondurulan": {
+  "az": "Sürətlə dondurulan (tezdondurulan məhsullar).",
+  "en": "quick-frozen",
+  "pos": "adjective"
+ },
+ "tezdəyişən": {
+  "az": "Tez dəyişən, sabit olmayan.",
+  "en": "rapidly changing, changeable",
+  "pos": "adjective"
+ },
+ "tezgedən": {
+  "az": "Sürətlə hərəkət edən, sürətli (tezgedən gəmi).",
+  "en": "fast, fast-moving",
+  "pos": "adjective"
+ },
+ "tezgörmə": {
+  "skip": "meaning not certain"
+ },
+ "tezgörən": {
+  "skip": "meaning not certain"
+ },
+ "tezkeçmə": {
+  "skip": "meaning not certain"
+ },
+ "tezkəsilən": {
+  "skip": "meaning not certain"
+ },
+ "tezkəsmə": {
+  "skip": "meaning not certain"
+ },
+ "tezlikartıran": {
+  "az": "Siqnalın və ya elektrik cərəyanının tezliyini artıran.",
+  "en": "frequency-raising, frequency-multiplying",
+  "pos": "adjective"
+ },
+ "tezlikartırıcı": {
+  "az": "Siqnalın və ya cərəyanın tezliyini artıran qurğu.",
+  "en": "frequency multiplier",
+  "pos": "noun"
+ },
+ "tezlikölçən": {
+  "az": "Rəqslərin tezliyini ölçən (tezlikölçən cihaz).",
+  "en": "frequency-measuring; frequency meter",
+  "pos": "adjective"
+ },
+ "tezsatılan": {
+  "az": "Tez satılan, alıcısı çox olan (tezsatılan mallar).",
+  "en": "fast-selling",
+  "pos": "adjective"
+ },
+ "tezsezən": {
+  "az": "Hər şeyi tez hiss edən, duyan; həssas.",
+  "en": "perceptive, quick to sense",
+  "pos": "adjective"
+ },
+ "teztikilən": {
+  "az": "Qısa müddətdə tikilən (teztikilən evlər).",
+  "en": "quickly built, quick-to-erect",
+  "pos": "adjective"
+ },
+ "teztikən": {
+  "skip": "meaning not certain"
+ },
+ "teztəsirli": {
+  "az": "Tez təsir göstərən (teztəsirli dərman).",
+  "en": "fast-acting",
+  "pos": "adjective"
+ },
+ "tezuçan": {
+  "az": "Tez buxarlanan (tezuçan mayelər); sürətlə uçan.",
+  "en": "highly volatile; fast-flying",
+  "pos": "adjective"
+ },
+ "tezuçucu": {
+  "az": "Tez buxarlanan, çox uçucu (tezuçucu maddələr).",
+  "en": "highly volatile",
+  "pos": "adjective"
+ },
+ "tezyanan": {
+  "az": "Tez alışıb yanan (tezyanan maddələr).",
+  "en": "highly flammable, fast-burning",
+  "pos": "adjective"
+ },
+ "tezyetişkən": {
+  "az": "Tez yetişən, erkən yetişən (tezyetişkən sortlar).",
+  "en": "early-maturing, early-ripening",
+  "pos": "adjective"
+ },
+ "tezyorulan": {
+  "az": "Tez yorulan, dözümü az olan.",
+  "en": "easily tired",
+  "pos": "adjective"
+ },
+ "tezyorulma": {
+  "az": "Tez yorulma halı, dözümün az olması.",
+  "en": "fatigability, tiring quickly",
+  "pos": "noun"
+ },
+ "tezyığılan": {
+  "az": "Qısa müddətdə yığılıb quraşdırılan (tezyığılan konstruksiyalar).",
+  "en": "quick-assembly, prefabricated",
+  "pos": "adjective"
+ },
+ "tezyığılmış": {
+  "az": "Qısa müddətdə yığılıb quraşdırılmış.",
+  "en": "quickly assembled",
+  "pos": "adjective"
+ },
+ "tezçiçəkləyən": {
+  "az": "Tez çiçəkləyən, erkən çiçək açan.",
+  "en": "early-flowering",
+  "pos": "adjective"
+ },
+ "tezəridilən": {
+  "az": "Asanlıqla və tez əridilən (tezəridilən metallar).",
+  "en": "fusible, easily melted",
+  "pos": "adjective"
+ },
+ "tiaminxlorid": {
+  "az": "B1 vitamininin xlorid duzu; dərman kimi işlədilir.",
+  "en": "thiamine chloride",
+  "pos": "noun"
+ },
+ "tikanburun": {
+  "skip": "animal or plant name, not certain"
+ },
+ "tikanburunlu": {
+  "skip": "meaning not certain"
+ },
+ "tikanqıran": {
+  "skip": "meaning not certain"
+ },
+ "tikanyarpaq": {
+  "skip": "plant name, not certain"
+ },
+ "tikanyarpaqlı": {
+  "az": "Yarpaqları tikanlı olan (bitki).",
+  "en": "spiny-leaved",
+  "pos": "adjective"
+ },
+ "tikişbənd": {
+  "skip": "meaning not certain"
+ },
+ "tikmənaxış": {
+  "az": "Parça üzərində sapla tikilmiş naxış.",
+  "en": "embroidered pattern, embroidery",
+  "pos": "noun"
+ },
+ "tikmənaxışlı": {
+  "az": "Tikmə naxışlarla bəzədilmiş.",
+  "en": "embroidered, decorated with embroidery",
+  "pos": "adjective"
+ },
+ "tilvurma": {
+  "skip": "meaning not certain"
+ },
+ "tilşəkilli": {
+  "skip": "meaning not certain"
+ },
+ "timsahaoxşar": {
+  "az": "Timsaha bənzəyən.",
+  "en": "crocodile-like",
+  "pos": "adjective"
+ },
+ "tingbasdıran": {
+  "skip": "meaning not certain (planting or heeling in saplings)"
+ },
+ "tingbasdırma": {
+  "skip": "meaning not certain (planting or heeling in saplings)"
+ },
+ "tingçıxaran": {
+  "az": "Tingləri tinglikdə torpaqdan çıxaran (tingçıxaran maşın).",
+  "en": "sapling-lifting; sapling lifter",
+  "pos": "adjective"
+ },
+ "tingçıxarma": {
+  "az": "Tingləri tinglikdə torpaqdan çıxarma.",
+  "en": "lifting of saplings",
+  "pos": "noun"
+ },
+ "tirməkürdü": {
+  "az": "Tirmə parçadan tikilmiş kürdü.",
+  "en": "kurdu (sleeveless coat) made of termeh cloth",
+  "pos": "noun"
+ },
+ "titrverici": {
+  "skip": "meaning not certain"
+ },
+ "titrəkçiçək": {
+  "skip": "plant name, not certain"
+ },
+ "tolbənd": {
+  "skip": "meaning not certain"
+ },
+ "tonallaşdıran": {
+  "skip": "meaning not certain"
+ },
+ "tonfilm": {
+  "az": "Səsli film.",
+  "en": "sound film, talkie",
+  "pos": "noun"
+ },
+ "tonusverici": {
+  "az": "Orqanizmin tonusunu artıran, gümrahlıq verən (tonusverici içki).",
+  "en": "tonic, invigorating",
+  "pos": "adjective"
+ },
+ "topalotukimi": {
+  "skip": "plant-related, not certain"
+ },
+ "topatma": {
+  "skip": "meaning not certain (ball throwing or cannon fire)"
+ },
+ "topayarpaqlı": {
+  "az": "Yarpaqları topa halında yerləşən (bitki).",
+  "en": "with clustered leaves",
+  "pos": "adjective"
+ },
+ "topaçiçəkli": {
+  "az": "Çiçəkləri topa halında toplanmış (bitki).",
+  "en": "with clustered flowers",
+  "pos": "adjective"
+ },
+ "topmeyvə": {
+  "skip": "meaning not certain"
+ },
+ "toppuzabənzər": {
+  "az": "Toppuza oxşayan, ucu yoğun və girdə.",
+  "en": "mace-like, club-shaped",
+  "pos": "adjective"
+ },
+ "toppuzaoxşar": {
+  "az": "Formaca toppuza bənzəyən.",
+  "en": "mace-like, club-shaped",
+  "pos": "adjective"
+ },
+ "toppuzbaşlı": {
+  "az": "Başı toppuz kimi yoğun və girdə olan.",
+  "en": "club-headed, knob-headed",
+  "pos": "adjective"
+ },
+ "toppuzbaşı": {
+  "az": "Toppuzun girdə, ağır ucu.",
+  "en": "head of a mace",
+  "pos": "noun"
+ },
+ "toppuzsaçlı": {
+  "skip": "meaning not certain"
+ },
+ "toppuşdodaq": {
+  "az": "Dodaqları dolğun, ətli olan.",
+  "en": "plump-lipped, full-lipped",
+  "pos": "adjective"
+ },
+ "toppuşsifət": {
+  "az": "Sifəti dolğun, yumru olan.",
+  "en": "chubby-faced",
+  "pos": "adjective"
+ },
+ "toppuşyanaq": {
+  "az": "Yanaqları dolğun, ətli olan.",
+  "en": "chubby-cheeked",
+  "pos": "adjective"
+ },
+ "topquyruq": {
+  "skip": "meaning not certain"
+ },
+ "topquyruqlu": {
+  "skip": "meaning not certain"
+ },
+ "topçomaq": {
+  "skip": "meaning not certain (possibly a folk game)"
+ },
+ "toqqabağı": {
+  "skip": "meaning not certain"
+ },
+ "torbatikmə": {
+  "az": "Torba, kisə tikmə işi.",
+  "en": "bag making, sack sewing",
+  "pos": "noun"
+ },
+ "torbatikən": {
+  "az": "Torba, kisə tikən (torbatikən maşın).",
+  "en": "bag-sewing",
+  "pos": "adjective"
+ },
+ "torbayaoxşar": {
+  "az": "Torbaya bənzəyən, kisəvari.",
+  "en": "bag-like, sac-like",
+  "pos": "adjective"
+ },
+ "tordamar": {
+  "skip": "meaning not certain"
+ },
+ "tordamarlı": {
+  "az": "Damarları tor şəklində yerləşən (yarpaq).",
+  "en": "net-veined, reticulate (of leaves)",
+  "pos": "adjective"
+ },
+ "torpaqatan": {
+  "az": "Torpağı kənara atan (torpaqatan qurğu).",
+  "en": "soil-throwing",
+  "pos": "adjective"
+ },
+ "torpaqatma": {
+  "az": "Torpağı kənara və ya müəyyən yerə atma.",
+  "en": "soil throwing, earth casting",
+  "pos": "noun"
+ },
+ "torpaqayırma": {
+  "az": "Torpaq sahəsini müəyyən məqsəd üçün ayırma.",
+  "en": "land allotment",
+  "pos": "noun"
+ },
+ "torpaqbecərmə": {
+  "az": "Torpağı şumlama, yumşaltma və s. yolla əkinə hazırlama.",
+  "en": "tillage, soil cultivation",
+  "pos": "noun"
+ },
+ "torpaqbərkidici": {
+  "az": "Torpağı möhkəmləndirən, sürüşmə və eroziyadan qoruyan.",
+  "en": "soil-stabilizing, soil-binding",
+  "pos": "adjective"
+ },
+ "torpaqbərkitmə": {
+  "az": "Torpağı sürüşməyə və eroziyaya qarşı möhkəmləndirmə.",
+  "en": "soil stabilization",
+  "pos": "noun"
+ },
+ "torpaqdüzləmə": {
+  "az": "Torpaq səthini hamarlayıb düz hala salma.",
+  "en": "land levelling",
+  "pos": "noun"
+ }
+}

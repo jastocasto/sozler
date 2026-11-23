@@ -1,0 +1,916 @@
+{
+ "tənbehetmə": {
+  "az": "Birini səhvinə və ya pis əməlinə görə danlama, ona töhmət vermə.",
+  "en": "reprimanding, censure",
+  "pos": "noun"
+ },
+ "tənbəkiqabı": {
+  "az": "Tənbəki saxlamaq üçün kiçik qab və ya kisə.",
+  "en": "tobacco box, tobacco pouch",
+  "pos": "noun"
+ },
+ "təndirbaşı": {
+  "az": "Təndirin yanı, ətrafı; çörək yapılıb bişirilən yer.",
+  "en": "the place by the tandoor (where bread is baked)",
+  "pos": "noun"
+ },
+ "tənlikqurma": {
+  "az": "Məsələnin şərtinə əsasən tənlik tərtib etmə.",
+  "en": "setting up an equation",
+  "pos": "noun"
+ },
+ "tənqidedici": {
+  "az": "Tənqid edən, tənqidi xarakter daşıyan (tənqidedici fikir).",
+  "en": "critical",
+  "pos": "adjective"
+ },
+ "tənqidolunmaz": {
+  "az": "Tənqid edilə bilməyən, heç bir iradə yer qoymayan; qüsursuz.",
+  "en": "above criticism, irreproachable",
+  "pos": "adjective"
+ },
+ "tənəkqurdu": {
+  "skip": "insect name, not certain"
+ },
+ "tənəkquşu": {
+  "skip": "bird name, not certain"
+ },
+ "tənəkçardaqlı": {
+  "az": "Üstündə üzüm tənəyindən çardaq olan (tənəkçardaqlı həyət).",
+  "en": "with a vine arbour, vine-covered",
+  "pos": "adjective"
+ },
+ "tənəkəyayan": {
+  "az": "Metalı yayıb nazik tənəkə lövhəyə çevirən (tənəkəyayan dəzgah).",
+  "en": "tin-plate rolling (of a mill)",
+  "pos": "adjective"
+ },
+ "tənəvuran": {
+  "az": "Başqasına tənə vuran, onu sancan, məzəmmət edən adam.",
+  "en": "one who reproaches or taunts",
+  "pos": "noun"
+ },
+ "tənəvurma": {
+  "az": "Birinə tənə vurma, onu acı sözlə sancma, məzəmmət etmə.",
+  "en": "reproaching, taunting",
+  "pos": "noun"
+ },
+ "təpcəkvurma": {
+  "az": "Torpağı bel və ya taxta alətlə döyəcləyib bərkitmə.",
+  "en": "tamping, ramming (soil)",
+  "pos": "noun"
+ },
+ "təpəgözlülük": {
+  "skip": "meaning not certain"
+ },
+ "təpəotu": {
+  "skip": "plant name, not certain"
+ },
+ "təpəyəbənzər": {
+  "az": "Təpəyə oxşayan, təpə şəklində olan.",
+  "en": "hill-like, mound-shaped",
+  "pos": "adjective"
+ },
+ "təqaüdəçıxma": {
+  "az": "Yaşa və ya əmək stajına görə işdən ayrılıb təqaüd almağa başlama.",
+  "en": "retirement",
+  "pos": "noun"
+ },
+ "təqdiredici": {
+  "az": "Bəyənmə, razılıq ifadə edən (təqdiredici söz).",
+  "en": "approving, appreciative, commendatory",
+  "pos": "adjective"
+ },
+ "təqibedici": {
+  "az": "Birini təqib edən, izləyən və ya sıxışdıran (təqibedici tədbirlər).",
+  "en": "pursuing; persecutory",
+  "pos": "adjective"
+ },
+ "tərbiyəverici": {
+  "az": "İnsanın əxlaqına, davranışına müsbət təsir edən (tərbiyəverici film).",
+  "en": "educational, edifying",
+  "pos": "adjective"
+ },
+ "tərbiyəvermə": {
+  "az": "Uşağa və ya gəncə tərbiyə vermə, onu böyüdüb yetişdirmə.",
+  "en": "upbringing, educating",
+  "pos": "noun"
+ },
+ "tərgətirici": {
+  "az": "Tərləməni artıran dərman və ya vasitə.",
+  "en": "sudorific, diaphoretic",
+  "pos": "noun"
+ },
+ "tərotu": {
+  "skip": "plant name, not certain"
+ },
+ "tərsməzhəb": {
+  "skip": "meaning not certain"
+ },
+ "tərsçalovlu": {
+  "az": "Çalovu aşağıdan özünə tərəf qazan (tərsçalovlu ekskavator).",
+  "en": "with a backhoe (reverse shovel), of an excavator",
+  "pos": "adjective"
+ },
+ "tərtibatvermə": {
+  "az": "Kitaba, səhnəyə, binaya və s. bədii tərtibat vermə, onu bəzəmə.",
+  "en": "design, decoration (of a book, stage, etc.)",
+  "pos": "noun"
+ },
+ "tərtələsik": {
+  "az": "Çox tələsik, tələsə-tələsə.",
+  "en": "in a great hurry, hurriedly",
+  "pos": "adverb"
+ },
+ "tərxisolunma": {
+  "az": "Hərbi xidmətdən buraxılma, ordudan ehtiyata keçirilmə.",
+  "en": "demobilization, discharge (from military service)",
+  "pos": "noun"
+ },
+ "tərçilov": {
+  "skip": "meaning not certain"
+ },
+ "tərəotu": {
+  "skip": "plant name, not certain"
+ },
+ "tərəçiçəkli": {
+  "az": "Tərəçiçəklilər fəsiləsinə aid olan (tərə, çuğundur, ispanaq və s.).",
+  "en": "chenopodiaceous, of the goosefoot family",
+  "pos": "adjective"
+ },
+ "təsbehəbənzər": {
+  "az": "Təsbehə oxşayan, sapa düzülmüş muncuqları xatırladan.",
+  "en": "rosary-like, beaded",
+  "pos": "adjective"
+ },
+ "təsbehəoxşar": {
+  "az": "Təsbeh kimi görünən, dən-dən düzülmüş.",
+  "en": "resembling prayer beads, beaded",
+  "pos": "adjective"
+ },
+ "təshihedici": {
+  "az": "Səhvləri düzəldən, düzəliş edən (təshihedici əmsal).",
+  "en": "correcting, corrective",
+  "pos": "adjective"
+ },
+ "təsirgöstərmə": {
+  "az": "Birinə və ya bir şeyə təsir göstərmə, onun vəziyyətini dəyişmə.",
+  "en": "influencing, exerting influence",
+  "pos": "noun"
+ },
+ "təsisatdaxili": {
+  "az": "Bir təsisatın, qurumun daxilində olan (təsisatdaxili qaydalar).",
+  "en": "internal (within an institution)",
+  "pos": "adjective"
+ },
+ "təsisetmə": {
+  "az": "Bir qurumu, təşkilatı və s. yaratma, onun əsasını qoyma.",
+  "en": "founding, establishment",
+  "pos": "noun"
+ },
+ "təskinlikgətirici": {
+  "az": "Ürəyə rahatlıq gətirən, təsəlli verən.",
+  "en": "consoling, comforting",
+  "pos": "adjective"
+ },
+ "təskinlikverici": {
+  "az": "Təsəlli verən, insanı sakitləşdirən, ürək-dirək verən.",
+  "en": "comforting, reassuring",
+  "pos": "adjective"
+ },
+ "təsnifatlandırıcı": {
+  "az": "Obyektləri və ya məlumatları müəyyən əlamətlərə görə qruplara ayıran vasitə, sistem.",
+  "en": "classifier",
+  "pos": "noun",
+  "parts": false
+ },
+ "təsnifedici": {
+  "az": "Təsnif edən, qruplara ayıran (təsnifedici əlamət).",
+  "en": "classifying",
+  "pos": "adjective"
+ },
+ "təsvirsabitləşdirici": {
+  "az": "Fotoaparatda və ya kamerada əl titrəyəndə təsvirin bulanmasının qarşısını alan sistem.",
+  "en": "image stabilizer",
+  "pos": "noun"
+ },
+ "təsəkqabı": {
+  "skip": "meaning not certain"
+ },
+ "təsərrüfathesabı": {
+  "az": "Müəssisənin xərclərini öz gəliri hesabına ödədiyi idarəetmə üsulu (sovet dövründə).",
+  "en": "cost accounting, self-financing (Soviet khozraschyot)",
+  "pos": "noun"
+ },
+ "təsərrüfatqurma": {
+  "az": "Təsərrüfatın yaradılması və təşkili; iqtisadi quruculuq.",
+  "en": "economic development, economic construction",
+  "pos": "noun"
+ },
+ "təsəvvüredilməz": {
+  "az": "Təsəvvür etmək mümkün olmayan, ağla sığmayan.",
+  "en": "unimaginable, inconceivable",
+  "pos": "adjective"
+ },
+ "təsəvvürəgəlməz": {
+  "az": "Ağla gəlməyən, təsəvvür edilə bilməyən.",
+  "en": "unimaginable, unthinkable",
+  "pos": "adjective"
+ },
+ "təsəvvürəsığmaz": {
+  "az": "Təsəvvürə sığmayan; inanılmaz dərəcədə böyük və ya qəribə.",
+  "en": "beyond imagination, inconceivable",
+  "pos": "adjective"
+ },
+ "tətbiqedilmə": {
+  "az": "Bir üsulun, qanunun və s. praktikada işlədilməsi.",
+  "en": "application, implementation",
+  "pos": "noun"
+ },
+ "tətbiqedilməz": {
+  "az": "Tətbiq edilə bilməyən, işlədilməsi mümkün olmayan.",
+  "en": "inapplicable",
+  "pos": "adjective"
+ },
+ "tətbiqolunma": {
+  "az": "Bir qaydanın, üsulun və s. işlədilməsi, həyata keçirilməsi.",
+  "en": "application, being applied",
+  "pos": "noun"
+ },
+ "təxirolunmaz": {
+  "az": "Təxirə salına bilməyən, dərhal görülməli olan (təxirolunmaz iş).",
+  "en": "urgent, pressing, that cannot be postponed",
+  "pos": "adjective"
+ },
+ "təxminedici": {
+  "az": "Təxmin edən, ehtimala əsaslanan (təxminedici hesablama).",
+  "en": "estimating, conjectural",
+  "pos": "adjective"
+ },
+ "təyyarədaşıma": {
+  "skip": "meaning not certain"
+ },
+ "təyyarəsürmə": {
+  "az": "Təyyarəni idarə etmə, uçurma; pilotluq.",
+  "en": "piloting, flying an aircraft",
+  "pos": "noun",
+  "parts": false
+ },
+ "təyyarəvurma": {
+  "az": "Düşmən təyyarələrini atəşlə vurub məhv etmə.",
+  "en": "shooting down aircraft",
+  "pos": "noun"
+ },
+ "təyyarəyığan": {
+  "az": "Təyyarələri hissələrdən yığıb quraşdıran (təyyarəyığan zavod).",
+  "en": "aircraft-assembling",
+  "pos": "adjective"
+ },
+ "təyyarəyığma": {
+  "az": "Təyyarələrin hissələrdən yığılıb quraşdırılması.",
+  "en": "aircraft assembly",
+  "pos": "noun"
+ },
+ "təzyiqartırma": {
+  "az": "Qazın, mayenin və s. təzyiqinin artırılması.",
+  "en": "pressure boosting, pressurization",
+  "pos": "noun"
+ },
+ "təzyiqsalan": {
+  "az": "Təzyiqi aşağı salan (təzyiqsalan dərman, təzyiqsalan klapan).",
+  "en": "pressure-reducing; antihypertensive",
+  "pos": "adjective"
+ },
+ "təzyiqsalıcı": {
+  "az": "Təzyiqi azaldan vasitə: qan təzyiqini salan dərman və ya təzyiqi azaldan qurğu.",
+  "en": "pressure reducer; antihypertensive (drug)",
+  "pos": "noun"
+ },
+ "təzyiqölçən": {
+  "az": "Təzyiqi ölçən (təzyiqölçən cihaz).",
+  "en": "pressure-measuring; pressure gauge",
+  "pos": "adjective"
+ },
+ "təzəbinəli": {
+  "skip": "meaning not certain"
+ },
+ "təzədəmli": {
+  "az": "Yenicə dəmlənmiş (təzədəmli çay).",
+  "en": "freshly brewed (of tea)",
+  "pos": "adjective"
+ },
+ "təzəhəvəs": {
+  "az": "Bir işə yenicə həvəs salmış, ona təzə maraq göstərən (adam).",
+  "en": "newly keen, fresh enthusiast",
+  "pos": "noun"
+ },
+ "təşəbbüsedici": {
+  "az": "Təşəbbüs göstərən, bir işin başlanmasına səbəb olan (təşəbbüsedici qrup).",
+  "en": "initiating",
+  "pos": "adjective"
+ },
+ "ucaqamət": {
+  "az": "Hündür boylu, uca qamətli (adam).",
+  "en": "tall, of tall stature",
+  "pos": "adjective"
+ },
+ "ucaqamətli": {
+  "az": "Boyu uca, qaməti düz və hündür olan.",
+  "en": "tall, statuesque",
+  "pos": "adjective"
+ },
+ "ulduzburun": {
+  "skip": "animal name, not certain"
+ },
+ "ulduzmeyvə": {
+  "skip": "plant name, not certain"
+ },
+ "umacovan": {
+  "az": "Umac üçün xəmiri ovub xırda dənələrə çevirən.",
+  "en": "crumbling dough for umach soup",
+  "pos": "adjective"
+ },
+ "ustadsayağı": {
+  "az": "Ustad kimi, ustalıqla, böyük məharətlə.",
+  "en": "masterfully, in a masterly manner",
+  "pos": "adverb"
+ },
+ "ustadyana": {
+  "az": "Ustada yaraşan şəkildə; ustalıqla, məharətlə.",
+  "en": "masterfully, in a masterly way",
+  "pos": "adverb",
+  "parts": false
+ },
+ "uzaqdangörmə": {
+  "skip": "meaning not certain"
+ },
+ "uzaqdanölçmə": {
+  "az": "Ölçmələrin uzaq məsafədən, cihazlar vasitəsilə aparılması; telemetriya.",
+  "en": "telemetry, remote measurement",
+  "pos": "noun"
+ },
+ "uzaqdüşmə": {
+  "skip": "meaning not certain"
+ },
+ "uzaqlıqölçmə": {
+  "az": "Məsafənin, uzaqlığın ölçülməsi.",
+  "en": "distance measurement, rangefinding",
+  "pos": "noun"
+ },
+ "uzaqtəsirli": {
+  "az": "Uzaq məsafəyə təsir göstərən (uzaqtəsirli silah).",
+  "en": "long-range",
+  "pos": "adjective"
+ },
+ "uzaqvurma": {
+  "az": "Uzaq məsafədəki hədəfi vurma, uzağa atəş açma.",
+  "en": "long-range firing",
+  "pos": "noun"
+ },
+ "uzağıgörmə": {
+  "skip": "meaning not certain"
+ },
+ "uzunaşırımlı": {
+  "skip": "meaning not certain"
+ },
+ "uzunbalaq": {
+  "skip": "meaning not certain"
+ },
+ "uzunbalaqlı": {
+  "az": "Balağı uzun olan (uzunbalaqlı şalvar).",
+  "en": "long-legged (of trousers)",
+  "pos": "adjective"
+ },
+ "uzunbığcıqlı": {
+  "az": "Bığcıqları uzun olan (uzunbığcıqlı böcəklər).",
+  "en": "long-antennaed (of insects)",
+  "pos": "adjective"
+ },
+ "uzuncaydaq": {
+  "az": "Uzunboylu və arıq, cılız.",
+  "en": "tall and lanky, gangly",
+  "pos": "adjective"
+ },
+ "uzundimdikli": {
+  "az": "Dimdiyi uzun olan (quş).",
+  "en": "long-billed",
+  "pos": "adjective"
+ },
+ "uzunluqölçmə": {
+  "az": "Uzunluğun, məsafənin ölçülməsi.",
+  "en": "length measurement, linear measurement",
+  "pos": "noun"
+ },
+ "uzunluqölçən": {
+  "az": "Uzunluğu ölçən (uzunluqölçən alət).",
+  "en": "length-measuring",
+  "pos": "adjective"
+ },
+ "uzunpapaq": {
+  "skip": "meaning not certain"
+ },
+ "uzunpapaqlı": {
+  "az": "Başında uzun, hündür papaq olan.",
+  "en": "wearing a tall hat",
+  "pos": "adjective"
+ },
+ "uzunpərli": {
+  "skip": "meaning not certain"
+ },
+ "uzunqanadlı": {
+  "az": "Qanadları uzun olan (quş, həşərat və s.).",
+  "en": "long-winged",
+  "pos": "adjective"
+ },
+ "uzunsifət": {
+  "az": "Üzü uzunsov olan adam.",
+  "en": "long-faced person",
+  "pos": "noun"
+ },
+ "uzunsifətli": {
+  "az": "Üzü uzunsov olan.",
+  "en": "long-faced",
+  "pos": "adjective"
+ },
+ "uzunxortumlu": {
+  "az": "Xortumu uzun olan (həşərat və s.).",
+  "en": "long-snouted, with a long proboscis",
+  "pos": "adjective"
+ },
+ "uzunyarpaqlı": {
+  "az": "Yarpaqları uzun olan (bitki adlarında).",
+  "en": "long-leaved (in plant names)",
+  "pos": "adjective"
+ },
+ "uzunçəkmə": {
+  "skip": "meaning not certain"
+ },
+ "uzunçəkməli": {
+  "az": "Ayağında uzunboğaz çəkmə olan.",
+  "en": "wearing high boots",
+  "pos": "adjective"
+ },
+ "uzunşüalı": {
+  "skip": "meaning not certain"
+ },
+ "uzunşırnaq": {
+  "skip": "meaning not certain"
+ },
+ "uzunşırnaqlı": {
+  "skip": "meaning not certain"
+ },
+ "uzunəsrlik": {
+  "az": "Uzun əsrlər boyu davam edən (uzunəsrlik tarix).",
+  "en": "centuries-long, age-old",
+  "pos": "adjective"
+ },
+ "uçotdankənar": {
+  "az": "Uçota alınmayan, rəsmi qeydiyyatdan kənarda qalan.",
+  "en": "off-the-books, unrecorded",
+  "pos": "adjective"
+ },
+ "uğultuyabənzər": {
+  "az": "Uğultuya oxşayan (uğultuyabənzər səs).",
+  "en": "humming, drone-like",
+  "pos": "adjective"
+ },
+ "uğultuyaoxşar": {
+  "az": "Uğultunu xatırladan, boğuq və uzun sürən.",
+  "en": "resembling a hum or roar",
+  "pos": "adjective"
+ },
+ "uşaqlıqdankənar": {
+  "az": "Uşaqlıq boşluğundan kənarda olan (uşaqlıqdankənar hamiləlik).",
+  "en": "extrauterine, ectopic",
+  "pos": "adjective",
+  "parts": false
+ },
+ "uşağaqalma": {
+  "az": "Hamilə olma, boylu qalma.",
+  "en": "becoming pregnant, conception",
+  "pos": "noun"
+ },
+ "valoxudan": {
+  "az": "Val çalan cihaz; qrammofon, patefon.",
+  "en": "gramophone, record player",
+  "pos": "noun"
+ },
+ "valtrap": {
+  "az": "Yəhərin altından atın belinə salınan bəzəkli örtük.",
+  "en": "shabrack, saddle cloth",
+  "pos": "noun",
+  "parts": false
+ },
+ "valçalan": {
+  "az": "Qrammofon valını səsləndirən cihaz; patefon.",
+  "en": "gramophone, record player",
+  "pos": "noun"
+ },
+ "valçaldıran": {
+  "skip": "meaning not certain"
+ },
+ "vaqonabaxan": {
+  "az": "Dəmiryol vaqonlarına texniki baxış keçirən (vaqonabaxan usta).",
+  "en": "railway-car inspecting; car inspector",
+  "pos": "adjective"
+ },
+ "vaqonayıran": {
+  "skip": "meaning not certain"
+ },
+ "vaqonquraşdıran": {
+  "az": "Vaqonları hissələrdən yığıb quraşdıran (vaqonquraşdıran zavod).",
+  "en": "railway-car assembling",
+  "pos": "adjective"
+ },
+ "vaqonquraşdırma": {
+  "az": "Vaqonların hissələrdən yığılıb quraşdırılması.",
+  "en": "railway car assembly",
+  "pos": "noun"
+ },
+ "vaqonyuyan": {
+  "az": "Vaqonları yuyub təmizləyən (vaqonyuyan qurğu).",
+  "en": "railway-car washing",
+  "pos": "adjective"
+ },
+ "vaqonyükləmə": {
+  "az": "Vaqonlara yük yığma, yerləşdirmə.",
+  "en": "loading of railway cars",
+  "pos": "noun"
+ },
+ "vaqonyığma": {
+  "az": "Vaqonların hissələrdən yığılması.",
+  "en": "railway car assembly",
+  "pos": "noun"
+ },
+ "vaxtçəkən": {
+  "az": "Çox vaxt aparan, uzun çəkən.",
+  "en": "time-consuming",
+  "pos": "adjective"
+ },
+ "vağzaldaxili": {
+  "az": "Vağzalın daxilində olan (vağzaldaxili xidmətlər).",
+  "en": "within the station",
+  "pos": "adjective"
+ },
+ "vağzalqabağı": {
+  "az": "Vağzalın qarşısındakı yer, meydan.",
+  "en": "station forecourt, area in front of the station",
+  "pos": "noun"
+ },
+ "vergiödəmə": {
+  "az": "Vergini dövlətə ödəmə.",
+  "en": "tax payment, paying taxes",
+  "pos": "noun"
+ },
+ "versthesabı": {
+  "az": "Məsafənin verstlə hesablanması, ölçülməsi.",
+  "en": "reckoning in versts",
+  "pos": "noun"
+ },
+ "vertolyotqayırma": {
+  "az": "Vertolyot istehsal edən sənaye sahəsi (vertolyotqayırma zavodu).",
+  "en": "helicopter building, helicopter manufacturing",
+  "pos": "noun"
+ },
+ "vintbağlayan": {
+  "az": "Vintləri burub bərkidən (vintbağlayan alət).",
+  "en": "screw-tightening",
+  "pos": "adjective"
+ },
+ "vintdişli": {
+  "skip": "meaning not certain"
+ },
+ "vinttipli": {
+  "az": "Vint tipində olan, vint prinsipi ilə işləyən (vinttipli nasos).",
+  "en": "screw-type",
+  "pos": "adjective"
+ },
+ "vintəoxşar": {
+  "az": "Vintə bənzəyən, burma şəkilli.",
+  "en": "screw-like, helical",
+  "pos": "adjective"
+ },
+ "virusgəzdirmə": {
+  "az": "Orqanizmdə virus daşıma, xəstələnmədən virusu başqalarına yoluxdura bilmə.",
+  "en": "virus carriage, being a virus carrier",
+  "pos": "noun"
+ },
+ "virusgəzdirən": {
+  "az": "Orqanizmində virus daşıyan və onu yaya bilən.",
+  "en": "virus-carrying; virus carrier",
+  "pos": "adjective"
+ },
+ "vitaminəbənzər": {
+  "az": "Təsiri vitaminlərə oxşayan (vitaminəbənzər maddələr).",
+  "en": "vitamin-like",
+  "pos": "adjective"
+ },
+ "vizaalma": {
+  "az": "Başqa ölkəyə getmək üçün viza əldə etmə.",
+  "en": "obtaining a visa",
+  "pos": "noun"
+ },
+ "voltartıran": {
+  "az": "Elektrik gərginliyini artıran (voltartıran transformator).",
+  "en": "step-up, voltage-boosting",
+  "pos": "adjective"
+ },
+ "voltartırma": {
+  "az": "Elektrik gərginliyinin artırılması.",
+  "en": "voltage boosting, step-up",
+  "pos": "noun"
+ },
+ "voltmilliampermetr": {
+  "az": "Həm gərginliyi, həm də cərəyan şiddətini milliamperlə ölçən cihaz.",
+  "en": "volt-milliammeter",
+  "pos": "noun"
+ },
+ "vışkaquraşdırma": {
+  "az": "Buruq qülləsinin qurulması, quraşdırılması.",
+  "en": "derrick erection, rigging-up",
+  "pos": "noun"
+ },
+ "vışkaquraşdırıcı": {
+  "az": "Buruq qüllələrini quraşdıran işçi.",
+  "en": "derrick erector, rig builder",
+  "pos": "noun"
+ },
+ "vədedici": {
+  "az": "Gələcəkdə yaxşı nəticə vəd edən, ümid verən.",
+  "en": "promising",
+  "pos": "adjective"
+ },
+ "vədverici": {
+  "az": "Ümid oyadan, uğur vəd edən.",
+  "en": "promising, hopeful",
+  "pos": "adjective"
+ },
+ "vədəbaşı": {
+  "skip": "meaning not certain"
+ },
+ "vələmirquşukimi": {
+  "skip": "bird group name, not certain"
+ },
+ "xalıtoxuma": {
+  "az": "Xalı toxuma işi, sənəti.",
+  "en": "carpet weaving",
+  "pos": "noun"
+ },
+ "xalıtoxuyan": {
+  "az": "Xalı toxuyan (xalıtoxuyan qadın, xalıtoxuyan dəzgah).",
+  "en": "carpet-weaving; carpet weaver",
+  "pos": "adjective"
+ },
+ "xanpişik": {
+  "skip": "meaning not certain"
+ },
+ "xanpişiyi": {
+  "skip": "meaning not certain"
+ },
+ "xantəpəl": {
+  "skip": "meaning not certain"
+ },
+ "xanıkimi": {
+  "skip": "fish group name, not certain"
+ },
+ "xaricvurma": {
+  "skip": "meaning not certain"
+ },
+ "xaçdaşıyan": {
+  "az": "Xaç daşıyan, üzərində xaç olan.",
+  "en": "cross-bearing; cross-bearer",
+  "pos": "adjective"
+ },
+ "xaçgülükimi": {
+  "skip": "meaning not certain"
+ },
+ "xaçotu": {
+  "skip": "plant name, not certain"
+ },
+ "xaşxaşyarpaqlı": {
+  "az": "Yarpaqları xaşxaş yarpağına bənzəyən (bitki adlarında).",
+  "en": "poppy-leaved (in plant names)",
+  "pos": "adjective"
+ },
+ "xaşxaşçiçəkli": {
+  "az": "Çiçəyi xaşxaş çiçəyinə bənzəyən (bitki adlarında).",
+  "en": "poppy-flowered (in plant names)",
+  "pos": "adjective"
+ },
+ "xeyirvermə": {
+  "az": "Fayda vermə, xeyir gətirmə.",
+  "en": "benefiting, being useful",
+  "pos": "noun"
+ },
+ "xeyirverməz": {
+  "az": "Heç bir fayda verməyən, faydasız.",
+  "en": "useless, unprofitable",
+  "pos": "adjective"
+ },
+ "xeyirverən": {
+  "az": "Fayda verən, faydalı.",
+  "en": "beneficial, useful",
+  "pos": "adjective"
+ },
+ "xidmətdənkənar": {
+  "az": "Xidmət vaxtından və ya vəzifə borcundan kənar olan (xidmətdənkənar vaxt).",
+  "en": "off-duty; outside one's service",
+  "pos": "adjective"
+ },
+ "xitamvermə": {
+  "az": "Bir işə, fəaliyyətə, müqaviləyə və s. son qoyma.",
+  "en": "termination, ending",
+  "pos": "noun"
+ },
+ "xonçagətirmə": {
+  "az": "Nişan və ya toy zamanı bəzədilmiş xonçaların gətirilməsi adəti.",
+  "en": "bringing of ceremonial trays (khoncha) at an engagement or wedding",
+  "pos": "noun"
+ },
+ "xonçasayağı": {
+  "az": "Xonça kimi, xonça şəklində bəzədilmiş halda.",
+  "en": "like a ceremonial tray (khoncha)",
+  "pos": "adverb"
+ },
+ "xoraotu": {
+  "skip": "plant name, not certain"
+ },
+ "xortumabənzər": {
+  "az": "Xortuma oxşayan, xortum şəklində olan.",
+  "en": "trunk-like, proboscis-like",
+  "pos": "adjective"
+ },
+ "xortumaoxşar": {
+  "az": "Xortumu xatırladan, uzun və borulu.",
+  "en": "resembling a trunk or proboscis",
+  "pos": "adjective"
+ },
+ "xortumşəkilli": {
+  "az": "Xortum şəklində olan.",
+  "en": "trunk-shaped, proboscis-shaped",
+  "pos": "adjective"
+ },
+ "xoruzgözü": {
+  "skip": "plant name, not certain"
+ },
+ "xovölçən": {
+  "az": "Xalçanın, parçanın xovunun hündürlüyünü ölçən (xovölçən cihaz).",
+  "en": "pile-measuring",
+  "pos": "adjective"
+ },
+ "xoşagəlim": {
+  "skip": "meaning not certain"
+ },
+ "xoşgörkəmli": {
+  "az": "Görünüşü xoş olan, yaraşıqlı.",
+  "en": "good-looking, pleasant-looking",
+  "pos": "adjective"
+ },
+ "xoşgülüş": {
+  "az": "Gülüşü xoş olan, gülərüz (adam).",
+  "en": "with a pleasant smile, smiling",
+  "pos": "adjective"
+ },
+ "xoşgülüşlü": {
+  "az": "Gülüşü insana xoş gələn, gülərüz.",
+  "en": "with a pleasant smile, smiling",
+  "pos": "adjective"
+ },
+ "xoşgünlü": {
+  "az": "Xoş günlər keçirən, xoşbəxt yaşayan.",
+  "en": "happy, living in good times",
+  "pos": "adjective"
+ },
+ "xoşgünlük": {
+  "az": "Xoş, firavan günlər; xoşbəxt həyat.",
+  "en": "happy days, prosperity",
+  "pos": "noun"
+ },
+ "xoşgüzəranlı": {
+  "az": "Firavan yaşayan, dolanışığı yaxşı olan.",
+  "en": "well-off, prosperous",
+  "pos": "adjective"
+ },
+ "xoşgüzəranlıq": {
+  "az": "Firavan, rahat yaşayış; rifah.",
+  "en": "prosperity, well-being",
+  "pos": "noun"
+ },
+ "xoşhallı": {
+  "az": "Əhvalı yaxşı olan, şən, kefi kök.",
+  "en": "cheerful, in good spirits",
+  "pos": "adjective"
+ },
+ "xoşməram": {
+  "az": "Niyyəti xoş olan, xeyirxah məqsəd güdən.",
+  "en": "well-meaning, well-intentioned",
+  "pos": "adjective"
+ },
+ "xoşnəfəs": {
+  "skip": "meaning not certain"
+ },
+ "xoşnəfəsli": {
+  "skip": "meaning not certain"
+ },
+ "xoşnəzər": {
+  "skip": "meaning not certain"
+ },
+ "xoşqılıqlı": {
+  "az": "Mülayim, xoşrəftar, hamı ilə yola gedən.",
+  "en": "good-natured, affable",
+  "pos": "adjective"
+ },
+ "xoşsifətli": {
+  "az": "Üzü xoş, mehriban görünən.",
+  "en": "pleasant-faced, kindly-looking",
+  "pos": "adjective"
+ },
+ "xoşsimalı": {
+  "az": "Siması xoş olan, yaraşıqlı.",
+  "en": "pleasant-featured, good-looking",
+  "pos": "adjective"
+ },
+ "xoşsurətli": {
+  "az": "Surəti, üzü xoş və gözəl olan.",
+  "en": "fair-faced, good-looking",
+  "pos": "adjective"
+ },
+ "xoşsöhbətli": {
+  "az": "Söhbəti xoş olan, danışığı ürəyəyatan.",
+  "en": "pleasant to talk to, a good conversationalist",
+  "pos": "adjective"
+ },
+ "xoştaleli": {
+  "az": "Taleyi xoş olan, bəxti gətirən.",
+  "en": "fortunate, lucky",
+  "pos": "adjective"
+ },
+ "xoşxəyal": {
+  "skip": "meaning not certain"
+ },
+ "xoşxəyallı": {
+  "az": "Xoş, şirin xəyallara dalan; xəyalpərvər.",
+  "en": "dreamy, full of sweet dreams",
+  "pos": "adjective"
+ },
+ "xoşəhvallı": {
+  "az": "Əhvalı yaxşı olan, şən və gümrah.",
+  "en": "in good spirits, cheerful",
+  "pos": "adjective"
+ },
+ "xoşəxlaqlı": {
+  "az": "Əxlaqı yaxşı olan, tərbiyəli, xoşxasiyyət.",
+  "en": "well-mannered, of good character",
+  "pos": "adjective"
+ },
+ "xulkimi": {
+  "skip": "fish group name, not certain"
+ },
+ "xurcuntayı": {
+  "az": "Xurcunun iki gözündən (cibindən) biri.",
+  "en": "one pouch of a saddlebag",
+  "pos": "noun"
+ },
+ "xurmayısaçlı": {
+  "az": "Saçı xurmayı, yəni açıq qəhvəyi rəngdə olan.",
+  "en": "chestnut-haired, auburn-haired",
+  "pos": "adjective"
+ },
+ "xörəkbişirmə": {
+  "az": "Xörək hazırlama, yemək bişirmə.",
+  "en": "cooking",
+  "pos": "noun"
+ },
+ "xörəkpaylama": {
+  "az": "Xörəyi qablara çəkib adamlara paylama.",
+  "en": "serving or distributing food",
+  "pos": "noun"
+ },
+ "xınabənd": {
+  "skip": "meaning not certain"
+ },
+ "xınaquyruq": {
+  "skip": "bird name, not certain"
+ },
+ "xınayaxan": {
+  "az": "Saça, ələ və s. xına yaxan, xına qoyan.",
+  "en": "applying henna; one who applies henna",
+  "pos": "adjective",
+  "parts": false
+ },
+ "xınayaxma": {
+  "az": "Saça, ələ, ayağa və s. xına qoyma (həmçinin toydan əvvəlki mərasimdə).",
+  "en": "applying henna; henna ceremony",
+  "pos": "noun"
+ },
+ "xırdaağızlı": {
+  "az": "Ağzı xırda, kiçik olan.",
+  "en": "small-mouthed",
+  "pos": "adjective"
+ },
+ "xırdabaşlı": {
+  "az": "Başı kiçik olan.",
+  "en": "small-headed",
+  "pos": "adjective"
+ }
+}

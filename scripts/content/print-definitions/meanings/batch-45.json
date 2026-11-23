@@ -1,0 +1,930 @@
+{
+ "torpaqdüzləyən": {
+  "az": "Torpağın səthini düzləyən, hamarlayan (torpaqdüzləyən maşın).",
+  "en": "land-levelling (of a machine)",
+  "pos": "adjective"
+ },
+ "torpaqdərinlədən": {
+  "az": "Şum qatını dərinləşdirən, torpağı daha dərindən becərən (torpaqdərinlədən kotan).",
+  "en": "deep-tilling, subsoiling (of a plough)",
+  "pos": "adjective"
+ },
+ "torpaqgötürən": {
+  "az": "Torpağı qazıb götürən və ya daşıyan (torpaqgötürən maşın).",
+  "en": "earth-moving (of a machine)",
+  "pos": "adjective"
+ },
+ "torpaqqaldıran": {
+  "az": "Torpağı yuxarı qaldıran, qazıb yuxarı çıxaran (torpaqqaldıran mexanizm).",
+  "en": "earth-lifting (of a machine)",
+  "pos": "adjective"
+ },
+ "torpaqqaldırma": {
+  "az": "Torpağı yuxarı qaldırma, qazıb yuxarı çıxarma işi.",
+  "en": "lifting of earth",
+  "pos": "noun"
+ },
+ "torpaqsorma": {
+  "az": "Torpağı və ya lili nasosla sorub çıxarma (məs.: dib dərinləşdirmə işlərində).",
+  "en": "suction of soil (e.g. in dredging)",
+  "pos": "noun"
+ },
+ "torpaqtəmizləyici": {
+  "az": "Torpağı daşdan, kökdən, zibildən və ya çirklənmədən təmizləyən.",
+  "en": "soil-cleaning",
+  "pos": "adjective"
+ },
+ "torpaqyaranma": {
+  "az": "Süxurların aşınması və canlıların təsiri ilə torpağın əmələ gəlməsi prosesi.",
+  "en": "soil formation, pedogenesis",
+  "pos": "noun"
+ },
+ "torpaqçıxaran": {
+  "az": "Torpağı qazıb çıxaran (torpaqçıxaran maşın).",
+  "en": "earth-excavating (of a machine)",
+  "pos": "adjective"
+ },
+ "torpaqörtüklü": {
+  "az": "Üstü torpaq qatı ilə örtülmüş (torpaqörtüklü dam).",
+  "en": "earth-covered, covered with soil",
+  "pos": "adjective"
+ },
+ "torpaqşumlayan": {
+  "az": "Torpağı şumlayan, əkinə hazırlayan (torpaqşumlayan alət).",
+  "en": "ploughing, tilling (of an implement)",
+  "pos": "adjective"
+ },
+ "torpedadaşıyan": {
+  "az": "Torpeda daşıyan, torpeda ilə silahlanmış (torpedadaşıyan təyyarə, gəmi).",
+  "en": "torpedo-carrying",
+  "pos": "adjective"
+ },
+ "torquran": {
+  "az": "Tor quran, tor hörən (məs.: balıqçı; torquran hörümçəklər).",
+  "en": "net-setting; web-building (of spiders)",
+  "pos": "adjective"
+ },
+ "torqurma": {
+  "az": "Tor qurma; balıq tutmaq üçün tor salma və ya tor hörmə.",
+  "en": "setting of nets; web-building",
+  "pos": "noun"
+ },
+ "torsarıyan": {
+  "az": "Toru sarıyan, bükən (torsarıyan qurğu).",
+  "en": "net-winding (of a device)",
+  "pos": "adjective"
+ },
+ "torsayaq": {
+  "az": "Tora bənzəyən, tor kimi.",
+  "en": "net-like, reticulate",
+  "pos": "adjective"
+ },
+ "tortoxuyan": {
+  "az": "Tor toxuyan, tor hörən (tortoxuyan maşın, usta).",
+  "en": "net-weaving; net maker",
+  "pos": "adjective",
+  "parts": false
+ },
+ "tortqabı": {
+  "az": "Tort qoymaq, saxlamaq və ya daşımaq üçün qab, qutu.",
+  "en": "cake box, cake container",
+  "pos": "noun"
+ },
+ "toryarpaq": {
+  "skip": "plant name, not certain"
+ },
+ "toryarpaqlı": {
+  "az": "Yarpaqları tor kimi naxışlı, torşəkilli damarlı olan (bitkilər haqqında).",
+  "en": "net-leaved, with net-veined leaves",
+  "pos": "adjective"
+ },
+ "toxmaqçiçəkli": {
+  "skip": "plant term, not certain"
+ },
+ "toxumböcəyi": {
+  "skip": "insect name, not certain"
+ },
+ "toxumdəyişmə": {
+  "az": "Əkində köhnəlmiş toxumu yeni, keyfiyyətli toxumla əvəz etmə.",
+  "en": "seed renewal, seed replacement (in farming)",
+  "pos": "noun"
+ },
+ "toxumdəyişən": {
+  "skip": "meaning not certain"
+ },
+ "toxumgizli": {
+  "skip": "botanical term, not certain"
+ },
+ "toxumqabıq": {
+  "skip": "meaning not certain (possibly a plant name)"
+ },
+ "toxumsəpmə": {
+  "az": "Toxum səpmə, əkin işi.",
+  "en": "sowing (of seed)",
+  "pos": "noun"
+ },
+ "toxumtəmizləyici": {
+  "az": "Toxumu zibildən və yad qarışıqlardan təmizləyən (toxumtəmizləyici maşın).",
+  "en": "seed-cleaning (of a machine)",
+  "pos": "adjective"
+ },
+ "toxumyaradan": {
+  "az": "Toxum əmələ gətirən, toxum verən.",
+  "en": "seed-forming, seed-producing",
+  "pos": "adjective"
+ },
+ "toxumyaratma": {
+  "az": "Toxum əmələ gətirmə, toxumun yaranması prosesi.",
+  "en": "seed formation",
+  "pos": "noun"
+ },
+ "toxumyemə": {
+  "az": "Toxumla, dənlə qidalanma.",
+  "en": "seed eating, granivory",
+  "pos": "noun"
+ },
+ "toxumyığan": {
+  "az": "Toxum toplayan (toxumyığan maşın, işçi).",
+  "en": "seed-collecting",
+  "pos": "adjective"
+ },
+ "toxumyığma": {
+  "az": "Toxum toplama işi.",
+  "en": "seed collection, seed gathering",
+  "pos": "noun"
+ },
+ "toxumçiçəkli": {
+  "skip": "botanical term, not certain"
+ },
+ "toxumçıxaran": {
+  "az": "Meyvədən və ya qozadan toxumu ayırıb çıxaran (toxumçıxaran maşın).",
+  "en": "seed-extracting (of a machine)",
+  "pos": "adjective"
+ },
+ "toxumçıxarı": {
+  "az": "Meyvədən və ya bitkidən alınan toxumun miqdarı.",
+  "en": "seed yield, seed output",
+  "pos": "noun"
+ },
+ "toxumölçmə": {
+  "az": "Səpin zamanı toxumun miqdarını ölçmə, dozalama.",
+  "en": "seed metering",
+  "pos": "noun"
+ },
+ "toxumölçən": {
+  "az": "Toxumun miqdarını ölçən, dozalayan (toxumölçən aparat).",
+  "en": "seed-metering",
+  "pos": "adjective"
+ },
+ "toyuqdarısı": {
+  "skip": "plant name, not certain"
+ },
+ "toyuqkimi": {
+  "az": "Toyuğa bənzəyən; toyuqkimilər dəstəsinə aid olan (quşlar).",
+  "en": "hen-like; galliform",
+  "pos": "adjective"
+ },
+ "toyxərci": {
+  "az": "Toy keçirmək üçün çəkilən xərc.",
+  "en": "wedding expenses",
+  "pos": "noun"
+ },
+ "tozağacıkimi": {
+  "az": "Tozağacına bənzəyən; tozağacıkimilər fəsiləsinə aid olan (bitkilər).",
+  "en": "birch-like; betulaceous",
+  "pos": "adjective"
+ },
+ "toztəmizləmə": {
+  "az": "Havanı, qazı və ya səthi tozdan təmizləmə.",
+  "en": "dust removal, dedusting",
+  "pos": "noun"
+ },
+ "toztəmizləyici": {
+  "az": "Tozu tutub təmizləyən, tozdan təmizləmək üçün olan (toztəmizləyici qurğu).",
+  "en": "dust-removing, dust-cleaning",
+  "pos": "adjective"
+ },
+ "toztəmizləyən": {
+  "az": "Tozu aradan qaldıran, tozdan təmizləyən.",
+  "en": "dust-removing",
+  "pos": "adjective"
+ },
+ "tozuducu": {
+  "az": "Tozu sorub özündə saxlayan qurğu.",
+  "en": "dust extractor, dust-absorbing device",
+  "pos": "noun"
+ },
+ "tozyığıcı": {
+  "az": "Havadakı və ya qazdakı tozu tutub toplayan qurğu.",
+  "en": "dust collector",
+  "pos": "noun"
+ },
+ "transavanqard": {
+  "az": "İtaliyada 1970-80-ci illərdə yaranan, obrazlı rəssamlığa qayıdışı təbliğ edən incəsənət cərəyanı.",
+  "en": "Transavantgarde (art movement)",
+  "pos": "noun",
+  "parts": false
+ },
+ "transfaktor": {
+  "skip": "meaning not certain"
+ },
+ "transkoder": {
+  "az": "Rəqəmsal məlumatı bir kodlaşdırma formatından digərinə çevirən qurğu və ya proqram.",
+  "en": "transcoder",
+  "pos": "noun",
+  "parts": false
+ },
+ "transplantator": {
+  "skip": "meaning not certain"
+ },
+ "transregional": {
+  "az": "Bir neçə regionu əhatə edən, regionlararası (transregional layihə).",
+  "en": "transregional, cross-regional",
+  "pos": "adjective",
+  "parts": false
+ },
+ "transterminləşmək": {
+  "az": "Bir sahənin termini olaraq başqa elm sahəsinə keçib orada da termin kimi işlənmək.",
+  "en": "to pass as a term from one field into another",
+  "pos": "verb",
+  "parts": false
+ },
+ "transtoponimləşmək": {
+  "az": "Bir coğrafi obyektin adı olaraq başqa obyektə keçib onun da adı olmaq.",
+  "en": "to pass as a place name from one geographical feature to another",
+  "pos": "verb",
+  "parts": false
+ },
+ "transtəsir": {
+  "az": "Kompleks birləşmələrdə liqandın özünə qarşı, trans vəziyyətdə duran liqandın rabitəsinə təsiri.",
+  "en": "trans effect, trans influence (in coordination chemistry)",
+  "pos": "noun",
+  "parts": false
+ },
+ "tranşeyqazan": {
+  "az": "Xəndək, tranşey qazan maşın.",
+  "en": "trencher, trench digger",
+  "pos": "noun",
+  "parts": false
+ },
+ "tullantıyığan": {
+  "az": "Tullantıları toplayan (tullantıyığan maşın).",
+  "en": "waste-collecting",
+  "pos": "adjective"
+ },
+ "tumovtutma": {
+  "az": "Soyuqdəymə nəticəsində burun axmasına tutulma.",
+  "en": "catching a cold, getting a runny nose",
+  "pos": "noun"
+ },
+ "tumsəpmə": {
+  "az": "Tum, toxum səpmə.",
+  "en": "sowing of seed",
+  "pos": "noun"
+ },
+ "tumurcuqbağlama": {
+  "az": "Bitkinin tumurcuq əmələ gətirməsi.",
+  "en": "budding, bud formation",
+  "pos": "noun"
+ },
+ "tuneləbənzər": {
+  "az": "Tunelə bənzəyən, tunel şəklində olan.",
+  "en": "tunnel-like",
+  "pos": "adjective"
+ },
+ "tuneləoxşar": {
+  "az": "Tunelə oxşayan, tunel kimi.",
+  "en": "tunnel-like",
+  "pos": "adjective"
+ },
+ "turacotu": {
+  "skip": "plant name, not certain"
+ },
+ "turbinqayıran": {
+  "az": "Turbin istehsal edən (turbinqayıran zavod).",
+  "en": "turbine-building, turbine-manufacturing",
+  "pos": "adjective"
+ },
+ "turbinqayırma": {
+  "az": "Turbin istehsalı; maşınqayırmanın turbin hazırlayan sahəsi (turbinqayırma zavodu).",
+  "en": "turbine building, turbine manufacturing",
+  "pos": "noun"
+ },
+ "turkorporasiya": {
+  "skip": "meaning not certain"
+ },
+ "turnirqabağı": {
+  "az": "Turnirdən əvvəlki, turnirə hazırlıq dövrünə aid (turnirqabağı məşq).",
+  "en": "pre-tournament",
+  "pos": "adjective"
+ },
+ "turşulatmaq": {
+  "skip": "meaning not certain"
+ },
+ "turşuqarışdıran": {
+  "skip": "meaning not certain"
+ },
+ "turşusevən": {
+  "az": "Turş mühitdə yaxşı yaşayan, inkişaf edən (bitkilər, mikroorqanizmlər).",
+  "en": "acidophilic, acid-loving",
+  "pos": "adjective"
+ },
+ "turşuyadözümlü": {
+  "az": "Turşuların təsirinə davam gətirən, turşudan zədələnməyən.",
+  "en": "acid-resistant, acid-tolerant",
+  "pos": "adjective"
+ },
+ "tutbecərən": {
+  "az": "Tut ağacı yetişdirən, tut becərməklə məşğul olan.",
+  "en": "mulberry-growing",
+  "pos": "adjective"
+ },
+ "tutkimi": {
+  "az": "Tuta bənzəyən; tutkimilər fəsiləsinə aid olan (bitkilər).",
+  "en": "mulberry-like; moraceous",
+  "pos": "adjective"
+ },
+ "tutumölçən": {
+  "az": "Tutumu, xüsusən elektrik tutumunu ölçən (tutumölçən cihaz).",
+  "en": "capacity-measuring; capacitance-measuring",
+  "pos": "adjective"
+ },
+ "tutçırpan": {
+  "az": "Tut ağacını silkələyib meyvəsini yerə tökən (adam, qurğu).",
+  "en": "shaking mulberries from the tree (of a person or device)",
+  "pos": "adjective"
+ },
+ "tuşvurma": {
+  "skip": "meaning not certain (fanfare or fencing hit)"
+ },
+ "tökməbədən": {
+  "skip": "meaning not certain"
+ },
+ "tökməbədənli": {
+  "skip": "meaning not certain"
+ },
+ "tökmədaban": {
+  "skip": "meaning not certain"
+ },
+ "törpüdəyməz": {
+  "az": "Törpü ilə işlənməmiş, hamarlanmamış, kələ-kötür.",
+  "en": "unfiled, unpolished, rough",
+  "pos": "adjective",
+  "parts": false
+ },
+ "törəboylu": {
+  "skip": "meaning not certain"
+ },
+ "tövbəedən": {
+  "az": "Günahından peşman olub ondan əl çəkən.",
+  "en": "repentant, penitent",
+  "pos": "adjective"
+ },
+ "tövləbaşı": {
+  "skip": "meaning not certain"
+ },
+ "tövsiyədolu": {
+  "az": "Tövsiyələrlə, məsləhətlərlə dolu.",
+  "en": "full of advice, full of recommendations",
+  "pos": "adjective"
+ },
+ "tövsiyəedici": {
+  "az": "Məcburi olmayıb tövsiyə xarakteri daşıyan (tövsiyəedici qərar).",
+  "en": "advisory, recommendatory",
+  "pos": "adjective"
+ },
+ "tövsiyəedən": {
+  "az": "Tövsiyə edən, məsləhət verən (tövsiyəedən şəxs).",
+  "en": "recommending",
+  "pos": "adjective"
+ },
+ "tükburun": {
+  "skip": "animal name, not certain"
+ },
+ "tükqıran": {
+  "skip": "meaning not certain"
+ },
+ "tüktökmə": {
+  "az": "Heyvanlarda tükün tökülüb dəyişməsi; tüklərin tökülməsi.",
+  "en": "shedding of hair, moulting",
+  "pos": "noun"
+ },
+ "tükyeyən": {
+  "az": "Heyvanların tükü və ya lələyi ilə qidalanan (tükyeyən bitlər).",
+  "en": "hair-eating, feather-eating (of chewing lice)",
+  "pos": "adjective"
+ },
+ "tülküquyruqkimi": {
+  "skip": "botanical term, not certain"
+ },
+ "tülküsayağı": {
+  "az": "Tülkü kimi, tülküyə məxsus hiyləgərliklə.",
+  "en": "fox-like, slyly, cunningly",
+  "pos": "adverb"
+ },
+ "tülküsifət": {
+  "az": "Üzü tülküyə bənzəyən; hiyləgər görkəmli.",
+  "en": "fox-faced; sly-looking",
+  "pos": "adjective"
+ },
+ "tülküsifətli": {
+  "az": "Sifəti tülküyə oxşayan; hiyləgər görkəmli.",
+  "en": "fox-faced",
+  "pos": "adjective"
+ },
+ "tündməzə": {
+  "skip": "meaning not certain"
+ },
+ "tündrəngli": {
+  "az": "Rəngi tünd, dərin olan.",
+  "en": "dark-coloured, deep-coloured",
+  "pos": "adjective",
+  "src": "musayev"
+ },
+ "türkkökənli": {
+  "az": "Türk mənşəli, kökü türk olan (türkkökənli sözlər).",
+  "en": "of Turkic origin",
+  "pos": "adjective"
+ },
+ "türksayağı": {
+  "az": "Türklərə məxsus tərzdə, türk üsulu ilə.",
+  "en": "Turkish-style, in the Turkish manner",
+  "pos": "adverb"
+ },
+ "türksistemli": {
+  "skip": "meaning not certain"
+ },
+ "tüstüburaxan": {
+  "az": "Havaya tüstü buraxan, tüstü çıxaran.",
+  "en": "smoke-emitting",
+  "pos": "adjective"
+ },
+ "tüstüburaxma": {
+  "az": "Havaya tüstü buraxma, tüstü çıxarma.",
+  "en": "emission of smoke",
+  "pos": "noun"
+ },
+ "tüstüpulu": {
+  "az": "Keçmişdə hər evdən, ocaqdan alınan vergi.",
+  "en": "hearth tax, household tax (historical)",
+  "pos": "noun"
+ },
+ "tüstüsoran": {
+  "az": "Tüstünü sorub kənara çıxaran (tüstüsoran qurğu).",
+  "en": "smoke-extracting",
+  "pos": "adjective"
+ },
+ "tüstüsovuran": {
+  "az": "Tüstünü sovurub kənara çıxaran, dağıdan.",
+  "en": "smoke-blowing, smoke-exhausting",
+  "pos": "adjective"
+ },
+ "tüstüverici": {
+  "az": "Tüstü yaradan, tüstü buraxan (tüstüverici qurğu).",
+  "en": "smoke-generating, smoke-producing",
+  "pos": "adjective"
+ },
+ "tüstüvermə": {
+  "az": "Tüstü vermə, tüstü çıxarma.",
+  "en": "emitting smoke, smoking",
+  "pos": "noun"
+ },
+ "tüstüverən": {
+  "az": "Tüstü verən, tüstülənən.",
+  "en": "smoking, smoke-emitting",
+  "pos": "adjective"
+ },
+ "tüstüyolu": {
+  "az": "Sobadan, ocaqdan tüstünün çıxdığı yol; baca.",
+  "en": "flue, chimney",
+  "pos": "noun"
+ },
+ "tüstüçəkmə": {
+  "az": "Tüstünü çəkib bayıra çıxarma (tüstüçəkmə sistemi).",
+  "en": "smoke extraction",
+  "pos": "noun"
+ },
+ "tüstüçəkən": {
+  "az": "Tüstünü çəkib bayıra çıxaran (tüstüçəkən ventilyator).",
+  "en": "smoke-extracting",
+  "pos": "adjective"
+ },
+ "tütündoldurma": {
+  "az": "Papirosa, qəlyana və ya qablara tütün doldurma.",
+  "en": "filling with tobacco",
+  "pos": "noun"
+ },
+ "tütündüzmə": {
+  "az": "Qurutmaq üçün tütün yarpaqlarını sapa düzmə.",
+  "en": "stringing tobacco leaves (for curing)",
+  "pos": "noun"
+ },
+ "tütündüzən": {
+  "az": "Qurutmaq üçün tütün yarpaqlarını sapa düzən işçi və ya maşın.",
+  "en": "tobacco stringer",
+  "pos": "noun",
+  "parts": false
+ },
+ "tütünfermentləmə": {
+  "az": "Tütün yarpaqlarını keyfiyyətini yaxşılaşdırmaq üçün fermentləşdirmə.",
+  "en": "tobacco fermentation",
+  "pos": "noun"
+ },
+ "tütünfermentləyən": {
+  "az": "Tütünü fermentləşdirən (tütünfermentləyən zavod).",
+  "en": "tobacco-fermenting",
+  "pos": "adjective"
+ },
+ "tütünyığan": {
+  "az": "Tütün yarpaqlarını yığan (işçi, maşın).",
+  "en": "tobacco-harvesting",
+  "pos": "adjective"
+ },
+ "tütəyəbənzər": {
+  "az": "Tütəyə bənzəyən, boru şəkilli.",
+  "en": "pipe-like, tubular",
+  "pos": "adjective"
+ },
+ "tığvurma": {
+  "az": "Otu, samanı və ya dərzləri böyük qalaq şəklində yığma.",
+  "en": "stacking (of hay, straw or sheaves)",
+  "pos": "noun"
+ },
+ "təbilüstlüyü": {
+  "skip": "meaning not certain"
+ },
+ "təbəqəyayan": {
+  "az": "Metalı yayaraq təbəqə şəklinə salan (təbəqəyayan dəzgah).",
+  "en": "sheet-rolling (of a mill)",
+  "pos": "adjective"
+ },
+ "təbəqəyayma": {
+  "az": "Metalın yayılaraq təbəqə şəklinə salınması.",
+  "en": "sheet rolling",
+  "pos": "noun"
+ },
+ "təbəqəəyən": {
+  "az": "Metal təbəqələri əyən (təbəqəəyən maşın).",
+  "en": "sheet-bending (of a machine)",
+  "pos": "adjective"
+ },
+ "təcavüzetmə": {
+  "az": "Başqasına, onun ərazisinə və ya hüquqlarına zorla hücum etmə.",
+  "en": "aggression, assault; encroachment",
+  "pos": "noun"
+ },
+ "təchizedici": {
+  "az": "Lazımi avadanlıq, material və s. ilə təmin edən (təchizedici təşkilat).",
+  "en": "supplying, providing",
+  "pos": "adjective"
+ },
+ "təhliledici": {
+  "az": "Təhlil aparan, təhlil xarakteri daşıyan (təhliledici yanaşma).",
+  "en": "analytical, analysing",
+  "pos": "adjective"
+ },
+ "təhliletmə": {
+  "az": "Bir şeyi təhlil etmə, hissələrinə ayırıb araşdırma.",
+  "en": "analysing, analysis",
+  "pos": "noun"
+ },
+ "təhsilverici": {
+  "az": "Təhsil verən, təhsil xidməti göstərən (təhsilverici müəssisə).",
+  "en": "educational, providing education",
+  "pos": "adjective"
+ },
+ "təhsilvermə": {
+  "az": "Təhsil vermə, bilik və bacarıq öyrətmə.",
+  "en": "providing education, teaching",
+  "pos": "noun"
+ },
+ "təhsilverən": {
+  "az": "Təhsil verən (təhsilverən müəssisə).",
+  "en": "educating, providing education",
+  "pos": "adjective"
+ },
+ "təhvilalan": {
+  "az": "Bir şeyi rəsmi qaydada qəbul edən (təhvilalan tərəf).",
+  "en": "receiving (on handover)",
+  "pos": "adjective"
+ },
+ "təhvilalma": {
+  "az": "Malı, əmlakı və s.-ni rəsmi qaydada qəbul edib götürmə.",
+  "en": "acceptance, taking over (on handover)",
+  "pos": "noun"
+ },
+ "təhvilgötürmə": {
+  "az": "Bir şeyi rəsmi qaydada qəbul edib öz öhdəsinə götürmə.",
+  "en": "taking over, acceptance (on handover)",
+  "pos": "noun"
+ },
+ "təhvilgötürən": {
+  "az": "Bir şeyi rəsmi qaydada qəbul edib götürən.",
+  "en": "receiving, taking over (on handover)",
+  "pos": "adjective"
+ },
+ "təhvilverən": {
+  "az": "Bir şeyi başqasına rəsmi qaydada tapşıran (təhvilverən tərəf).",
+  "en": "handing over, delivering",
+  "pos": "adjective"
+ },
+ "təkailəli": {
+  "az": "Bir ailənin yaşaması üçün nəzərdə tutulan (təkailəli ev).",
+  "en": "single-family",
+  "pos": "adjective"
+ },
+ "təkailəlik": {
+  "skip": "meaning not certain"
+ },
+ "təkanvermə": {
+  "az": "Təkan vermə; bir işin inkişafına səbəb olma, onu sürətləndirmə.",
+  "en": "giving impetus, stimulation",
+  "pos": "noun"
+ },
+ "təkanverən": {
+  "az": "Təkan verən, hərəkətə gətirən, stimullaşdıran (təkanverən qüvvə).",
+  "en": "propelling, impelling; stimulating",
+  "pos": "adjective"
+ },
+ "təkanvurma": {
+  "az": "Təkan vurma, itələmə, zərbə ilə hərəkətə gətirmə.",
+  "en": "pushing, jolting",
+  "pos": "noun"
+ },
+ "təkavazlı": {
+  "skip": "meaning not certain"
+ },
+ "təkbeyt": {
+  "az": "Yalnız bir beytdən ibarət şeir; fərd.",
+  "en": "single-couplet poem",
+  "pos": "noun"
+ },
+ "təkbitən": {
+  "az": "Tək-tək, ayrıca bitən (bitkilər haqqında).",
+  "en": "growing singly, solitary (of plants)",
+  "pos": "adjective"
+ },
+ "təkdayanacaqlı": {
+  "skip": "meaning not certain"
+ },
+ "təkdisk": {
+  "skip": "meaning not certain"
+ },
+ "təkdiskli": {
+  "az": "Yalnız bir diski olan (təkdiskli mufta).",
+  "en": "single-disc",
+  "pos": "adjective"
+ },
+ "təkdişli": {
+  "az": "Yalnız bir dişi olan.",
+  "en": "single-toothed",
+  "pos": "adjective"
+ },
+ "təkdırnaq": {
+  "skip": "meaning not certain"
+ },
+ "təkfiqurlu": {
+  "az": "Yalnız bir fiqurdan ibarət olan (təkfiqurlu heykəl, kompozisiya).",
+  "en": "single-figure (of a sculpture or composition)",
+  "pos": "adjective"
+ },
+ "təkgünbəz": {
+  "az": "Yalnız bir günbəzi olan (təkgünbəz məscid).",
+  "en": "single-domed",
+  "pos": "adjective"
+ },
+ "təkhüceyrə": {
+  "skip": "meaning not certain"
+ },
+ "təkkeçidli": {
+  "az": "Yalnız bir keçidi olan (məs.: təkkeçidli tranzistor).",
+  "en": "single-junction, unijunction; single-pass",
+  "pos": "adjective"
+ },
+ "təkköklü": {
+  "az": "Yalnız bir kökü olan (təkköklü diş).",
+  "en": "single-rooted",
+  "pos": "adjective"
+ },
+ "təkkəpapaqlı": {
+  "skip": "meaning not certain"
+ },
+ "təklələk": {
+  "skip": "meaning not certain"
+ },
+ "təklələkli": {
+  "skip": "botanical term, not certain"
+ },
+ "təknikahlı": {
+  "az": "Eyni vaxtda yalnız bir nikahda olan; monoqam.",
+  "en": "monogamous",
+  "pos": "adjective"
+ },
+ "təknömrəli": {
+  "az": "Nömrəsi tək ədəd olan (təknömrəli evlər).",
+  "en": "odd-numbered",
+  "pos": "adjective"
+ },
+ "təknöqtəli": {
+  "az": "Yalnız bir nöqtəsi olan (təknöqtəli hərf).",
+  "en": "single-dotted, one-dot",
+  "pos": "adjective"
+ },
+ "təknəfərlik": {
+  "az": "Bir nəfər üçün nəzərdə tutulan (təknəfərlik otaq).",
+  "en": "single, for one person",
+  "pos": "adjective"
+ },
+ "təknəqayıran": {
+  "az": "Təknə düzəldən, təknə hazırlayan (usta).",
+  "en": "trough-making",
+  "pos": "adjective"
+ },
+ "təknəqayırma": {
+  "az": "Təknə düzəltmə, təknə hazırlama işi.",
+  "en": "trough making",
+  "pos": "noun"
+ },
+ "təknəşəkilli": {
+  "az": "Təknə formasında olan, uzunsov və çökək.",
+  "en": "trough-shaped",
+  "pos": "adjective"
+ },
+ "təkqardaş": {
+  "skip": "meaning not certain"
+ },
+ "təkqütb": {
+  "skip": "meaning not certain"
+ },
+ "təkraredici": {
+  "az": "Təkrar edən, təkrarlayan (təkraredici qurğu).",
+  "en": "repeating",
+  "pos": "adjective"
+ },
+ "təkraredilmə": {
+  "az": "Təkrar edilmə, yenidən edilmə.",
+  "en": "being repeated, repetition",
+  "pos": "noun"
+ },
+ "təkrarolunan": {
+  "az": "Təkrar olunan, dəfələrlə baş verən.",
+  "en": "repeated, recurring",
+  "pos": "adjective"
+ },
+ "təkrarpardaqlamaq": {
+  "az": "Bir şeyi yenidən, ikinci dəfə pardaqlamaq, cilalamaq.",
+  "en": "to repolish, to polish again",
+  "pos": "verb"
+ },
+ "təkrelsli": {
+  "az": "Yalnız bir rels üzərində hərəkət edən (təkrelsli yol).",
+  "en": "monorail, single-rail",
+  "pos": "adjective"
+ },
+ "təkrəng": {
+  "az": "Yalnız bir rəngdə olan; birrəngli.",
+  "en": "monochrome, single-coloured",
+  "pos": "adjective"
+ },
+ "təkrəqəmli": {
+  "az": "Yalnız bir rəqəmdən ibarət olan (təkrəqəmli ədəd).",
+  "en": "single-digit",
+  "pos": "adjective"
+ },
+ "təktanrılıq": {
+  "az": "Yalnız bir tanrıya inanma; monoteizm.",
+  "en": "monotheism",
+  "pos": "noun"
+ },
+ "təktonlu": {
+  "skip": "meaning not certain"
+ },
+ "təktəkə": {
+  "skip": "meaning not certain"
+ },
+ "təktəkərli": {
+  "az": "Yalnız bir təkəri olan (təktəkərli araba).",
+  "en": "single-wheeled, one-wheeled",
+  "pos": "adjective"
+ },
+ "təktəsərrüfatlı": {
+  "skip": "meaning not certain"
+ },
+ "təkyerli": {
+  "az": "Bir nəfərlik yeri olan, bir adam üçün nəzərdə tutulan (təkyerli kayut).",
+  "en": "single-seat, single-berth",
+  "pos": "adjective",
+  "parts": false
+ },
+ "təkyönlü": {
+  "az": "Yalnız bir istiqamətə yönəlmiş; birtərəfli (təkyönlü hərəkət, yanaşma).",
+  "en": "one-way, unidirectional; one-sided",
+  "pos": "adjective",
+  "parts": false
+ },
+ "təkçalovlu": {
+  "az": "Yalnız bir çalovu olan (təkçalovlu ekskavator).",
+  "en": "single-bucket (of an excavator)",
+  "pos": "adjective"
+ },
+ "təkçarxlı": {
+  "az": "Yalnız bir çarxı olan.",
+  "en": "single-wheeled",
+  "pos": "adjective"
+ },
+ "təkşəkilçi": {
+  "skip": "meaning not certain"
+ },
+ "təkərdolduran": {
+  "az": "Təkərə hava vuran (təkərdolduran kompressor).",
+  "en": "tyre-inflating",
+  "pos": "adjective"
+ },
+ "təkərdoldurma": {
+  "az": "Təkərə hava vurma.",
+  "en": "tyre inflation",
+  "pos": "noun"
+ },
+ "təkəryamama": {
+  "az": "Deşilmiş təkəri yamama, təmir etmə.",
+  "en": "tyre patching, tyre repair",
+  "pos": "noun"
+ },
+ "təkəryamayan": {
+  "az": "Deşilmiş təkərləri yamayan, təmir edən (usta).",
+  "en": "tyre-repairing",
+  "pos": "adjective"
+ },
+ "təkəryayma": {
+  "az": "Dəmir yolu təkərlərinin yayma üsulu ilə hazırlanması.",
+  "en": "wheel rolling (in metallurgy)",
+  "pos": "noun"
+ },
+ "təkəryonan": {
+  "az": "Təkərləri yonub emal edən (təkəryonan dəzgah).",
+  "en": "wheel-turning, wheel-machining (of a lathe)",
+  "pos": "adjective"
+ },
+ "təkəryonma": {
+  "az": "Təkərlərin dəzgahda yonulması, emal edilməsi.",
+  "en": "wheel turning, wheel machining",
+  "pos": "noun"
+ },
+ "təkərüzlüyü": {
+  "skip": "meaning not certain"
+ },
+ "təkərəbənzər": {
+  "az": "Təkərə bənzəyən, təkər şəklində olan.",
+  "en": "wheel-like",
+  "pos": "adjective"
+ },
+ "təkərəoxşar": {
+  "az": "Təkərə oxşayan, təkər kimi.",
+  "en": "wheel-like, wheel-shaped",
+  "pos": "adjective"
+ },
+ "təkətəklikdə": {
+  "az": "Kənar adamlar olmadan, yalnız; təkbətək.",
+  "en": "in private, alone; one-on-one",
+  "pos": "adverb",
+  "parts": false
+ },
+ "təlimalma": {
+  "az": "Təlim alma, təlim keçib öyrənmə.",
+  "en": "receiving training",
+  "pos": "noun"
+ },
+ "tələbəyönümlü": {
+  "az": "Tələbələrin ehtiyac və maraqlarına yönəlmiş (tələbəyönümlü təhsil).",
+  "en": "student-centred, student-oriented",
+  "pos": "adjective"
+ },
+ "tələqurma": {
+  "az": "Heyvan və ya quş tutmaq üçün tələ qurma.",
+  "en": "setting traps, trapping",
+  "pos": "noun"
+ },
+ "tələsikli": {
+  "skip": "meaning not certain"
+ },
+ "təmasetmə": {
+  "az": "Təmas etmə, toxunma; əlaqəyə girmə.",
+  "en": "contact, touching; getting in touch",
+  "pos": "noun"
+ },
+ "təminatverən": {
+  "az": "Təminat, zəmanət verən (təminatverən təşkilat).",
+  "en": "guaranteeing; providing assurance",
+  "pos": "adjective"
+ },
+ "təmiretmə": {
+  "az": "Xarab olmuş və ya köhnəlmiş şeyi təmir etmə, düzəltmə.",
+  "en": "repairing, repair",
+  "pos": "noun"
+ },
+ "təmirəyararlı": {
+  "az": "Təmir edilə bilən, təmirə yararlı.",
+  "en": "repairable, fit for repair",
+  "pos": "adjective"
+ }
+}

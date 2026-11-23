@@ -1,0 +1,968 @@
+{
+ "qəmərçöhrəli": {
+  "az": "Üzü ay kimi gözəl və nurlu olan; ayüzlü (poetik).",
+  "en": "moon-faced, fair-faced (poetic)",
+  "pos": "adjective"
+ },
+ "qəpikgüdən": {
+  "az": "Hər qəpiyin hesabını aparan, çox xəsis olan.",
+  "en": "penny-pinching, stingy",
+  "pos": "adjective"
+ },
+ "qərzəktəmizləyən": {
+  "az": "Qozun yaşıl üst qabığını (qərzəyini) təmizləyən (qərzəktəmizləyən maşın).",
+  "en": "husk-removing, hulling (of walnuts)",
+  "pos": "adjective"
+ },
+ "qərənfilçiçəkli": {
+  "az": "Qərənfil çiçəyinə bənzər çiçəkləri olan; qərənfilçiçəklilərə aid olan (bitki).",
+  "en": "with carnation-like flowers; caryophyllaceous",
+  "pos": "adjective"
+ },
+ "qəsrəbənzər": {
+  "az": "Qəsrə oxşayan, qəsr kimi görünən (qəsrəbənzər bina).",
+  "en": "castle-like",
+  "pos": "adjective"
+ },
+ "qəsəbədaxili": {
+  "az": "Qəsəbənin öz ərazisində olan, qəsəbə daxilinə aid (qəsəbədaxili yollar).",
+  "en": "within a settlement, intra-settlement",
+  "pos": "adjective"
+ },
+ "radiodalğaötürücü": {
+  "az": "Radiodalğaları bir yerdən başqa yerə ötürən qurğu və ya xətt.",
+  "en": "radio-wave transmitting device; radio waveguide",
+  "pos": "noun"
+ },
+ "radiotutan": {
+  "az": "Radio siqnallarını tutan, qəbul edən (qurğu).",
+  "en": "picking up radio signals, radio-receiving",
+  "pos": "adjective"
+ },
+ "rafinəolunma": {
+  "az": "Şəkər, yağ, neft və s. məhsulların qatışıqlardan təmizlənib saflaşdırılması.",
+  "en": "refining, being refined",
+  "pos": "noun"
+ },
+ "rahathülqum": {
+  "az": "Nişasta və şəkərdən bişirilən, üstünə şəkər tozu səpilən yumşaq şirniyyat; lokum.",
+  "en": "Turkish delight, lokum",
+  "pos": "noun"
+ },
+ "rahatlıqverici": {
+  "az": "Rahatlıq gətirən, insanı sakitləşdirib dinclik verən.",
+  "en": "comforting, soothing",
+  "pos": "adjective"
+ },
+ "rahatlıqverən": {
+  "az": "Rahatlıq gətirən, dinclik və asudəlik verən.",
+  "en": "comforting, giving comfort",
+  "pos": "adjective"
+ },
+ "raketdaşıma": {
+  "az": "Raketlərin bir yerdən başqa yerə daşınması.",
+  "en": "rocket transportation",
+  "pos": "noun"
+ },
+ "raketdaşıyıcı": {
+  "az": "Raket daşıyan və onları atmağa imkan verən təyyarə, gəmi və ya maşın.",
+  "en": "missile carrier (aircraft, ship, vehicle)",
+  "pos": "noun"
+ },
+ "rakethazırlama": {
+  "az": "Raketin hazırlanması və ya buraxılışa hazır vəziyyətə gətirilməsi.",
+  "en": "rocket preparation (for launch); rocket manufacture",
+  "pos": "noun"
+ },
+ "rakethazırlayan": {
+  "az": "Raket hazırlayan, raketi buraxılışa hazır vəziyyətə gətirən.",
+  "en": "rocket-preparing, rocket-making",
+  "pos": "adjective"
+ },
+ "raketquraşdırma": {
+  "az": "Raketin və ya raket qurğusunun yığılıb yerində quraşdırılması.",
+  "en": "rocket installation, missile assembly",
+  "pos": "noun"
+ },
+ "raketquraşdırıcı": {
+  "az": "Raketləri və raket qurğularını yığıb quraşdıran mütəxəssis.",
+  "en": "missile fitter, rocket assembler",
+  "pos": "noun"
+ },
+ "rakettuşlayan": {
+  "az": "Raketi hədəfə tuşlayan, yönəldən (qurğu, mütəxəssis).",
+  "en": "missile-aiming, rocket-guiding",
+  "pos": "adjective"
+ },
+ "rapakivi": {
+  "az": "İri çöl şpatı kristalları oliqoklaz qabığı ilə əhatələnmiş qranit növü.",
+  "en": "rapakivi (granite)",
+  "pos": "noun",
+  "parts": false
+ },
+ "rastaçıxan": {
+  "skip": "meaning not certain"
+ },
+ "reaksiyavermə": {
+  "az": "Bir təsirə cavab vermə, reaksiya göstərmə.",
+  "en": "reacting, response, reaction",
+  "pos": "noun"
+ },
+ "redaktəolunma": {
+  "az": "Mətnin yoxlanılıb düzəldilməsi, redaktə edilməsi.",
+  "en": "being edited, editing",
+  "pos": "noun"
+ },
+ "reduksiyaetmə": {
+  "az": "Azaltma, sadələşdirmə; kimyada reduksiya prosesini həyata keçirmə.",
+  "en": "reduction, reducing",
+  "pos": "noun"
+ },
+ "regiondankənar": {
+  "az": "Regionun hüdudlarından kənarda olan, bu regiona aid olmayan (regiondankənar dövlətlər).",
+  "en": "extra-regional, outside the region",
+  "pos": "adjective"
+ },
+ "relsbərkidici": {
+  "az": "Relsləri şpallara və ya altlığa bərkidən (relsbərkidici detallar).",
+  "en": "rail-fastening",
+  "pos": "adjective"
+ },
+ "relsbərkidən": {
+  "az": "Relsləri şpallara möhkəm bağlayan, bərkidən (relsbərkidən qurğu).",
+  "en": "rail-fastening",
+  "pos": "adjective"
+ },
+ "relsbərkitmə": {
+  "az": "Relslərin şpallara və ya altlığa möhkəm bərkidilməsi.",
+  "en": "rail fastening",
+  "pos": "noun"
+ },
+ "relsdüzmə": {
+  "az": "Relslərin yol boyu düzülüb döşənməsi.",
+  "en": "rail laying, track laying",
+  "pos": "noun"
+ },
+ "relsdüzən": {
+  "az": "Relsləri yol boyu düzüb döşəyən işçi və ya maşın.",
+  "en": "track layer, rail-laying machine or worker",
+  "pos": "noun",
+  "parts": false
+ },
+ "relsyağlama": {
+  "az": "Aşınmanı azaltmaq üçün relslərin (xüsusən döngələrdə) yağlanması.",
+  "en": "rail lubrication",
+  "pos": "noun"
+ },
+ "relsyağlayan": {
+  "az": "Relsləri yağlayan (relsyağlayan qurğu).",
+  "en": "rail-lubricating",
+  "pos": "adjective"
+ },
+ "relsçəkmə": {
+  "az": "Rels yolunun çəkilməsi, relslərin döşənməsi.",
+  "en": "rail laying, track laying",
+  "pos": "noun"
+ },
+ "relsçəkən": {
+  "az": "Rels yolu çəkən, relsləri döşəyən (işçi, maşın).",
+  "en": "rail-laying, track-laying",
+  "pos": "adjective"
+ },
+ "rentgenmetr": {
+  "az": "Rentgen və qamma şüalanmasının dozasını ölçən cihaz.",
+  "en": "roentgenometer, X-ray dosimeter",
+  "pos": "noun"
+ },
+ "repressor": {
+  "az": "Genin fəaliyyətini, transkripsiyasını basıb saxlayan zülal.",
+  "en": "repressor (protein)",
+  "pos": "noun",
+  "parts": false
+ },
+ "respublikadankənar": {
+  "az": "Respublikanın hüdudlarından kənarda olan, ona aid olmayan.",
+  "en": "outside the republic",
+  "pos": "adjective"
+ },
+ "retrofleksiya": {
+  "az": "Geriyə əyilmə: tibbdə orqanın (xüsusən uşaqlığın) geriyə əyilməsi; fonetikada dil ucunun geriyə qatlanması.",
+  "en": "retroflexion",
+  "pos": "noun",
+  "parts": false
+ },
+ "retrometr": {
+  "skip": "meaning not certain"
+ },
+ "retromobil": {
+  "az": "Çoxdan istehsal olunmuş, kolleksiya və tarixi dəyəri olan köhnə avtomobil.",
+  "en": "vintage car, classic car",
+  "pos": "noun",
+  "parts": false
+ },
+ "retrorefleksiya": {
+  "az": "İşığın düşdüyü istiqamətdə, mənbəyə doğru geri əks olunması.",
+  "en": "retroreflection",
+  "pos": "noun",
+  "parts": false
+ },
+ "retroreflektiv": {
+  "az": "İşığı düşdüyü istiqamətdə mənbəyə geri əks etdirən (retroreflektiv lent).",
+  "en": "retroreflective",
+  "pos": "adjective",
+  "parts": false
+ },
+ "retrosessiya": {
+  "az": "Təkrar sığortaçının qəbul etdiyi riskin bir hissəsini başqa sığortaçıya ötürməsi; hüquqda verilmiş ərazinin və ya hüququn geri qaytarılması.",
+  "en": "retrocession",
+  "pos": "noun",
+  "parts": false
+ },
+ "rezinqarışdıran": {
+  "az": "Rezin qarışığı hazırlayan fəhlə və ya maşın.",
+  "en": "rubber mixer (worker or machine)",
+  "pos": "noun"
+ },
+ "rezinqarışdırıcı": {
+  "az": "Rezin qarışığını hazırlamaq üçün işlədilən maşın.",
+  "en": "rubber mixer (machine)",
+  "pos": "noun"
+ },
+ "rinqdənkənar": {
+  "az": "Rinqdən kənarda olan, rinqə aid olmayan (rinqdənkənar həyat).",
+  "en": "outside the ring",
+  "pos": "adjective"
+ },
+ "riskdənqaçma": {
+  "az": "Riskdən çəkinmə, təhlükəli və qeyri-müəyyən qərarlardan uzaq durma meyli.",
+  "en": "risk aversion, risk avoidance",
+  "pos": "noun"
+ },
+ "riskgötürmə": {
+  "az": "Riskə getmə, mümkün zərərin məsuliyyətini öz üzərinə götürmə.",
+  "en": "risk-taking",
+  "pos": "noun"
+ },
+ "rişəatma": {
+  "az": "Kök atma, kök salma; məcazi olaraq bir yerdə möhkəmlənib yayılma.",
+  "en": "taking root, rooting",
+  "pos": "noun"
+ },
+ "romansement": {
+  "az": "Gilli əhəngdaşı və ya mergelin yandırılıb üyüdülməsindən alınan hidravlik bağlayıcı maddə.",
+  "en": "Roman cement",
+  "pos": "noun",
+  "parts": false
+ },
+ "rotametr": {
+  "az": "Şaquli konusvari boruda üzgəcin qalxma hündürlüyünə görə maye və ya qazın sərfini ölçən cihaz.",
+  "en": "rotameter",
+  "pos": "noun",
+  "parts": false
+ },
+ "rotaprint": {
+  "az": "Kiçik tirajlı çap üçün kiçik ofset çap maşını; bu maşınla çap üsulu.",
+  "en": "rotaprint (small offset press)",
+  "pos": "noun",
+  "parts": false
+ },
+ "ruziverən": {
+  "az": "Ruzi verən, dolanışıq yetirən (çox vaxt Allah haqqında).",
+  "en": "provider of daily bread, sustaining (often of God)",
+  "pos": "adjective"
+ },
+ "rövnəqverici": {
+  "az": "Bir şeyə gözəllik, parlaqlıq və təravət verən.",
+  "en": "embellishing, lending splendour",
+  "pos": "adjective"
+ },
+ "rütubətburaxma": {
+  "az": "Materialın rütubəti özündən keçirməsi və ya xaricə verməsi.",
+  "en": "moisture permeability; moisture release",
+  "pos": "noun"
+ },
+ "rütubətkeçirmə": {
+  "az": "Materialın rütubəti özündən keçirmə qabiliyyəti.",
+  "en": "moisture permeability",
+  "pos": "noun"
+ },
+ "rütubətkeçirən": {
+  "az": "Rütubəti özündən keçirən (rütubətkeçirən material).",
+  "en": "moisture-permeable",
+  "pos": "adjective"
+ },
+ "rütubətsaxlama": {
+  "az": "Torpağın və ya maddənin rütubəti özündə saxlaması.",
+  "en": "moisture retention",
+  "pos": "noun"
+ },
+ "rütubətsaxlayan": {
+  "az": "Rütubəti özündə saxlayan, tez qurumayan (rütubətsaxlayan torpaq).",
+  "en": "moisture-retaining",
+  "pos": "adjective"
+ },
+ "rütubətudan": {
+  "az": "Rütubəti özünə çəkən, udan (rütubətudan material).",
+  "en": "moisture-absorbing, hygroscopic",
+  "pos": "adjective"
+ },
+ "rütubətverən": {
+  "az": "Rütubət verən, nəmləndirən (rütubətverən krem).",
+  "en": "moisturizing; humidifying",
+  "pos": "adjective"
+ },
+ "rütubətçəkmə": {
+  "az": "Rütubəti özünə çəkmə, nəm udma.",
+  "en": "moisture absorption",
+  "pos": "noun"
+ },
+ "rütubətçəkən": {
+  "az": "Rütubəti özünə çəkən, nəm udan.",
+  "en": "moisture-absorbing, hygroscopic",
+  "pos": "adjective"
+ },
+ "rütubətölçən": {
+  "az": "Havanın və ya maddənin rütubətini ölçən cihaz; hiqrometr.",
+  "en": "hygrometer, moisture meter",
+  "pos": "noun"
+ },
+ "rütubətədözümlü": {
+  "az": "Rütubətin təsirinə davamlı olan, nəmdən xarab olmayan.",
+  "en": "moisture-resistant, damp-proof",
+  "pos": "adjective"
+ },
+ "rüşeymdaxili": {
+  "az": "Rüşeymin daxilində olan və ya baş verən.",
+  "en": "intra-embryonic",
+  "pos": "adjective"
+ },
+ "rüşeymxarici": {
+  "az": "Rüşeymdən kənarda olan, onun xaricində yerləşən (rüşeymxarici pərdələr).",
+  "en": "extra-embryonic",
+  "pos": "adjective"
+ },
+ "rüşvətvermə": {
+  "az": "Vəzifəli şəxsə rüşvət vermə; bu cinayət əməli.",
+  "en": "bribe-giving, bribery",
+  "pos": "noun"
+ },
+ "rəngayırma": {
+  "az": "Çapda rəngli təsvirin əsas rənglərə ayrılması.",
+  "en": "colour separation",
+  "pos": "noun"
+ },
+ "rəngdəyişmə": {
+  "az": "Rəngin dəyişməsi, başqa rəngə keçmə.",
+  "en": "colour change, discoloration",
+  "pos": "noun"
+ },
+ "rəngdəyişən": {
+  "az": "Rəngini dəyişən, işıqdan asılı olaraq müxtəlif rənglərə çalan (rəngdəyişən parça).",
+  "en": "colour-changing, iridescent",
+  "pos": "adjective"
+ },
+ "rənggörmə": {
+  "az": "Gözün rəngləri qavrayıb fərqləndirmə qabiliyyəti.",
+  "en": "colour vision",
+  "pos": "noun"
+ },
+ "rəngotu": {
+  "skip": "plant name, not certain"
+ },
+ "rəngseçən": {
+  "az": "Rəngləri bir-birindən seçən, ayıran (rəngseçən cihaz).",
+  "en": "colour-selecting, colour-sorting",
+  "pos": "adjective"
+ },
+ "rəngverici": {
+  "az": "Rəng verən, boyayan (rəngverici maddələr).",
+  "en": "colouring, pigmenting",
+  "pos": "adjective"
+ },
+ "rəngvermə": {
+  "az": "Bir şeyə rəng vermə, onu boyama.",
+  "en": "colouring, dyeing",
+  "pos": "noun"
+ },
+ "rəngverən": {
+  "az": "Rəng verən, boyayan (rəngverən bitkilər).",
+  "en": "colouring, dyeing",
+  "pos": "adjective"
+ },
+ "rəqabətqabiliyyət": {
+  "az": "Məhsulun, müəssisənin və ya ölkənin rəqiblərlə uğurla yarışa bilmə qabiliyyəti.",
+  "en": "competitiveness",
+  "pos": "noun"
+ },
+ "rəqabətədözümlü": {
+  "az": "Rəqabətə davam gətirə bilən, rəqiblər arasında öz yerini qoruyan.",
+  "en": "competitive, able to withstand competition",
+  "pos": "adjective"
+ },
+ "rəqssöndürən": {
+  "az": "Rəqsləri, titrəyişləri söndürən və ya azaldan (rəqssöndürən qurğu).",
+  "en": "vibration-damping, oscillation-damping",
+  "pos": "adjective"
+ },
+ "rəqsterapiya": {
+  "az": "Rəqs və bədən hərəkətləri vasitəsilə aparılan psixoterapiya üsulu.",
+  "en": "dance therapy",
+  "pos": "noun"
+ },
+ "rəqsudan": {
+  "az": "Rəqsləri, titrəyişləri udan (rəqsudan qurğu).",
+  "en": "vibration-absorbing",
+  "pos": "adjective"
+ },
+ "rəqsəbənzər": {
+  "az": "Rəqsə bənzəyən, rəqs kimi olan (rəqsəbənzər hərəkətlər).",
+  "en": "dance-like",
+  "pos": "adjective"
+ },
+ "rəqsəoxşar": {
+  "az": "Rəqsə oxşayan, rəqsi xatırladan.",
+  "en": "dance-like",
+  "pos": "adjective"
+ },
+ "rəqəmhesablayıcı": {
+  "az": "Hesablamaları rəqəmlərlə, diskret şəkildə aparan maşın və ya qurğu.",
+  "en": "digital computer, digital calculating device",
+  "pos": "noun"
+ },
+ "saatyarım": {
+  "az": "Bir saat otuz dəqiqə; bir saat yarım.",
+  "en": "an hour and a half",
+  "pos": "noun"
+ },
+ "sabittərkibli": {
+  "az": "Tərkibi dəyişməyən, sabit qalan (sabittərkibli birləşmələr).",
+  "en": "of constant composition",
+  "pos": "adjective"
+ },
+ "sackülləmə": {
+  "skip": "meaning not certain"
+ },
+ "sadədilli": {
+  "skip": "meaning not certain"
+ },
+ "safcins": {
+  "az": "Başqa cinslərlə qarışmamış, təmiz cinsdən olan (safcins at).",
+  "en": "purebred, thoroughbred",
+  "pos": "adjective"
+ },
+ "safcinsli": {
+  "az": "Təmiz cinsdən olan, cinsi qarışmamış (safcinsli mal-qara).",
+  "en": "purebred, pedigree",
+  "pos": "adjective"
+ },
+ "safqəlb": {
+  "az": "Ürəyi təmiz, səmimi və xeyirxah olan.",
+  "en": "pure-hearted, sincere",
+  "pos": "adjective"
+ },
+ "sahilbərkidən": {
+  "az": "Sahili uçulmaqdan və yuyulmaqdan qoruyub möhkəmləndirən (sahilbərkidən qurğular).",
+  "en": "bank-reinforcing, shore-stabilizing",
+  "pos": "adjective"
+ },
+ "sahilqoruma": {
+  "az": "Sahilin dalğaların və su axınının dağıdıcı təsirindən qorunması.",
+  "en": "coastal protection, bank protection",
+  "pos": "noun"
+ },
+ "sahilqoruyan": {
+  "az": "Sahili dağılmaqdan qoruyan; sahili mühafizə edən (sahilqoruyan qurğular).",
+  "en": "coast-protecting, shore-protecting",
+  "pos": "adjective"
+ },
+ "sahəayırma": {
+  "az": "Müəyyən məqsəd üçün torpaq sahəsinin ayrılması.",
+  "en": "land allocation, allotment of a plot",
+  "pos": "noun"
+ },
+ "salamvermə": {
+  "az": "Salam vermə, salamlaşma.",
+  "en": "greeting, saying hello",
+  "pos": "noun"
+ },
+ "salfetqabı": {
+  "az": "Süfrədə salfetlər qoyulan qab.",
+  "en": "napkin holder",
+  "pos": "noun"
+ },
+ "sallaqdodaq": {
+  "az": "Dodağı aşağı sallanan adam (çox vaxt lağ məqsədilə).",
+  "en": "person with a drooping lip",
+  "pos": "noun"
+ },
+ "sallaqdodaqlı": {
+  "az": "Dodağı aşağı sallanan, sallaq dodaqları olan.",
+  "en": "flap-lipped, with drooping lips",
+  "pos": "adjective"
+ },
+ "sallaqdöşlü": {
+  "az": "Döşləri sallanmış, aşağı düşmüş.",
+  "en": "saggy-breasted",
+  "pos": "adjective"
+ },
+ "sallaqmeyvə": {
+  "skip": "meaning not certain"
+ },
+ "sallaqqarın": {
+  "az": "Qarnı sallanmış, iri qarınlı adam.",
+  "en": "paunchy person, pot-belly",
+  "pos": "noun"
+ },
+ "sallaqqarınlı": {
+  "az": "Qarnı sallanmış, iri sallaq qarnı olan.",
+  "en": "paunchy, pot-bellied",
+  "pos": "adjective"
+ },
+ "sallaqqulaqlı": {
+  "az": "Qulaqları aşağı sallanan (sallaqqulaqlı it).",
+  "en": "lop-eared, floppy-eared",
+  "pos": "adjective"
+ },
+ "sallaqsöyüd": {
+  "az": "Nazik budaqları aşağı sallanan söyüd; salxımsöyüd.",
+  "en": "weeping willow",
+  "pos": "noun"
+ },
+ "sallaqçiyin": {
+  "az": "Çiyinləri aşağı düşmüş, sallanmış adam.",
+  "en": "round-shouldered person",
+  "pos": "noun"
+ },
+ "sallaqçiyinli": {
+  "az": "Çiyinləri aşağı düşmüş, sallanmış.",
+  "en": "round-shouldered, slope-shouldered",
+  "pos": "adjective"
+ },
+ "salxımotu": {
+  "skip": "plant name, not certain"
+ },
+ "salxımçiçəkli": {
+  "az": "Çiçəkləri salxım şəklində düzülmüş (bitki).",
+  "en": "with flowers in clusters, racemose",
+  "pos": "adjective"
+ },
+ "samanyığan": {
+  "az": "Samanı yığan, toplayan (samanyığan maşın).",
+  "en": "straw-collecting",
+  "pos": "adjective"
+ },
+ "samıqıran": {
+  "skip": "meaning not certain"
+ },
+ "samıqırma": {
+  "skip": "meaning not certain"
+ },
+ "sandıqbalıq": {
+  "az": "Bədəni sərt sümük lövhələrdən ibarət qutuvari örtüklə örtülmüş tropik dəniz balığı.",
+  "en": "boxfish, trunkfish",
+  "pos": "noun"
+ },
+ "sandıqtulası": {
+  "skip": "meaning not certain"
+ },
+ "saniyəsayan": {
+  "az": "Saniyələri sayan, göstərən (saniyəsayan əqrəb).",
+  "en": "seconds-counting",
+  "pos": "adjective"
+ },
+ "saniyəsayma": {
+  "az": "Saniyələrin sayılması (məs.: başlanğıcdan əvvəl geri sayım).",
+  "en": "counting of seconds; countdown",
+  "pos": "noun"
+ },
+ "saniyəölçmə": {
+  "az": "Vaxtın saniyələrlə dəqiq ölçülməsi.",
+  "en": "timing (in seconds)",
+  "pos": "noun"
+ },
+ "sapandatma": {
+  "az": "Sapandla daş atma.",
+  "en": "slingshot shooting",
+  "pos": "noun"
+ },
+ "sapeşmə": {
+  "az": "Liflərin və ya iplərin burularaq sap halına salınması.",
+  "en": "thread twisting",
+  "pos": "noun",
+  "parts": false
+ },
+ "sapeşən": {
+  "az": "Sap eşən, ipləri buraraq sap hazırlayan (fəhlə, maşın).",
+  "en": "thread-twisting",
+  "pos": "adjective",
+  "parts": false
+ },
+ "sarmaşıqçiçəkli": {
+  "skip": "plant term, not certain"
+ },
+ "sarqankimi": {
+  "az": "Sarqana bənzər; sarqankimilər fəsiləsinə aid olan (balıq).",
+  "en": "garfish-like; belonid (of fish)",
+  "pos": "adjective"
+ },
+ "sarsazan": {
+  "skip": "fish name, not certain"
+ },
+ "sarıbaşlı": {
+  "az": "Başı sarı olan (quş, böcək və s.).",
+  "en": "yellow-headed",
+  "pos": "adjective"
+ },
+ "sarıbuğum": {
+  "skip": "plant or animal name, not certain"
+ },
+ "sarıdırnaq": {
+  "skip": "plant or animal name, not certain"
+ },
+ "sarıdərili": {
+  "az": "Dərisi sarı rəngdə olan.",
+  "en": "yellow-skinned",
+  "pos": "adjective"
+ },
+ "sarıgözlü": {
+  "az": "Gözləri sarı rəngdə olan.",
+  "en": "yellow-eyed",
+  "pos": "adjective"
+ },
+ "sarıkirpik": {
+  "skip": "plant or animal name, not certain"
+ },
+ "sarıkirpikli": {
+  "az": "Kirpikləri sarı, açıq rəngli olan.",
+  "en": "fair-lashed, with yellow eyelashes",
+  "pos": "adjective"
+ },
+ "sarıqanad": {
+  "skip": "animal name, not certain"
+ },
+ "sarıqulaq": {
+  "skip": "plant or animal name, not certain"
+ },
+ "sarıqundaq": {
+  "skip": "meaning not certain"
+ },
+ "sarıqızdırma": {
+  "az": "Ağcaqanadlar vasitəsilə yayılan, qızdırma və sarılıqla keçən kəskin virus xəstəliyi.",
+  "en": "yellow fever",
+  "pos": "noun"
+ },
+ "sarısancaq": {
+  "skip": "plant name, not certain"
+ },
+ "sarıtorpaqlı": {
+  "az": "Torpağı sarı rəngdə olan (sarıtorpaqlı yamaclar).",
+  "en": "with yellow soil",
+  "pos": "adjective"
+ },
+ "sarıtüklü": {
+  "az": "Tükü sarı rəngdə olan.",
+  "en": "yellow-haired, with yellow fur",
+  "pos": "adjective"
+ },
+ "satışqabağı": {
+  "az": "Satışdan əvvəl olan, satışa qədər görülən (satışqabağı hazırlıq).",
+  "en": "pre-sale",
+  "pos": "adjective"
+ },
+ "savadartırma": {
+  "az": "Biliyin, savadın və ya ixtisas səviyyəsinin artırılması.",
+  "en": "raising literacy; further education, upskilling",
+  "pos": "noun"
+ },
+ "sayagəlməz": {
+  "az": "Saymaqla qurtarmayan, sayı-hesabı olmayan; saysız-hesabsız.",
+  "en": "countless, innumerable",
+  "pos": "adjective",
+  "parts": false
+ },
+ "sayasalmaz": {
+  "az": "Heç kəsi saya salmayan, başqalarını vecinə almayan, etinasız.",
+  "en": "disdainful, disregarding others",
+  "pos": "adjective",
+  "parts": false
+ },
+ "sayqakotu": {
+  "skip": "plant name, not certain"
+ },
+ "sazbağlama": {
+  "skip": "meaning not certain"
+ },
+ "sazbağlayan": {
+  "skip": "meaning not certain"
+ },
+ "sazçalma": {
+  "az": "Saz çalma, sazda ifa etmə.",
+  "en": "saz playing",
+  "pos": "noun",
+  "parts": false
+ },
+ "sazçiçəkli": {
+  "skip": "plant term, not certain"
+ },
+ "saçburan": {
+  "az": "Saçı buran, qıvrım edən (saçburan alət).",
+  "en": "hair-curling",
+  "pos": "adjective"
+ },
+ "saçburma": {
+  "az": "Saçın burulub qıvrılması.",
+  "en": "hair curling",
+  "pos": "noun"
+ },
+ "saçqurutma": {
+  "az": "Yuyulmuş saçın qurudulması (saçqurutma aparatı).",
+  "en": "hair drying",
+  "pos": "noun"
+ },
+ "saçqırxan": {
+  "az": "Saçı qırxan (saçqırxan maşın).",
+  "en": "hair-clipping, head-shaving",
+  "pos": "adjective"
+ },
+ "saçqırxma": {
+  "az": "Başın, saçın qırxılması.",
+  "en": "head shaving, hair clipping",
+  "pos": "noun"
+ },
+ "saçuzadan": {
+  "az": "Saçın uzanmasına, böyüməsinə kömək edən (saçuzadan vasitələr).",
+  "en": "promoting hair growth",
+  "pos": "adjective"
+ },
+ "saçuzatma": {
+  "az": "Saçın uzadılması (təbii yolla və ya süni saç əlavə etməklə).",
+  "en": "growing hair long; hair extension",
+  "pos": "noun"
+ },
+ "saçyolan": {
+  "az": "Saçını yolan (çox vaxt dərddən, kədərdən).",
+  "en": "hair-tearing (in grief)",
+  "pos": "adjective"
+ },
+ "sağlamvücudlu": {
+  "az": "Bədəni sağlam və möhkəm olan.",
+  "en": "physically healthy, robust",
+  "pos": "adjective"
+ },
+ "sağlamşüurlu": {
+  "az": "Ağlı və düşüncəsi sağlam olan, ağıllı-başlı düşünən.",
+  "en": "sound-minded, sane, sensible",
+  "pos": "adjective"
+ },
+ "sağçıxışlı": {
+  "az": "Çıxışı sağ tərəfdə yerləşən (qurğu, cihaz).",
+  "en": "right-outlet, with a right-hand exit",
+  "pos": "adjective",
+  "parts": false
+ },
+ "seansqabağı": {
+  "az": "Seans başlamazdan əvvəl olan (seansqabağı reklam).",
+  "en": "before the session or showing",
+  "pos": "adjective"
+ },
+ "selbasma": {
+  "az": "Sel suyunun bir ərazini basması, örtməsi.",
+  "en": "flooding by a torrent, mudflow inundation",
+  "pos": "noun"
+ },
+ "selenonimiya": {
+  "az": "Ayın səthindəki relyef obyektlərinin adları; onları öyrənən onomastika sahəsi.",
+  "en": "selenonymy (names of lunar features)",
+  "pos": "noun",
+  "parts": false
+ },
+ "selgətirən": {
+  "az": "Sel əmələ gətirən, selə səbəb olan (selgətirən yağışlar).",
+  "en": "flood-causing, torrent-producing",
+  "pos": "adjective"
+ },
+ "selsovan": {
+  "skip": "meaning not certain"
+ },
+ "selsovma": {
+  "skip": "meaning not certain"
+ },
+ "selötürən": {
+  "az": "Sel sularını kənara ötürən, axıdan (selötürən kanal).",
+  "en": "flood-discharging, flood-diverting",
+  "pos": "adjective"
+ },
+ "sementdaşıma": {
+  "az": "Sementin bir yerdən başqa yerə daşınması.",
+  "en": "cement transport",
+  "pos": "noun"
+ },
+ "sementdaşıyan": {
+  "az": "Sement daşıyan (sementdaşıyan maşın, gəmi).",
+  "en": "cement-carrying",
+  "pos": "adjective"
+ },
+ "sementqarışdıran": {
+  "az": "Sement qarışığı hazırlayan fəhlə və ya maşın.",
+  "en": "cement mixer (worker or machine)",
+  "pos": "noun"
+ },
+ "sementqarışdırma": {
+  "az": "Sementin su və digər materiallarla qarışdırılması.",
+  "en": "cement mixing",
+  "pos": "noun"
+ },
+ "sementqarışdırıcı": {
+  "az": "Sement qarışığı hazırlamaq üçün işlədilən maşın.",
+  "en": "cement mixer",
+  "pos": "noun"
+ },
+ "sementqatma": {
+  "az": "Qarışığa sement əlavə etmə.",
+  "en": "adding cement",
+  "pos": "noun"
+ },
+ "sementölçən": {
+  "az": "Sementin miqdarını ölçən (sementölçən qurğu).",
+  "en": "cement-measuring",
+  "pos": "adjective"
+ },
+ "sementüyüdən": {
+  "az": "Sement klinkerini üyüdən (sementüyüdən dəyirman).",
+  "en": "cement-grinding",
+  "pos": "adjective"
+ },
+ "sementüyütmə": {
+  "az": "Sement klinkerinin üyüdülməsi.",
+  "en": "cement grinding",
+  "pos": "noun"
+ },
+ "semestrqabağı": {
+  "az": "Semestr başlamazdan əvvəl olan (semestrqabağı hazırlıq).",
+  "en": "pre-semester",
+  "pos": "adjective"
+ },
+ "semestrsonu": {
+  "az": "Semestrin sonunda olan (semestrsonu imtahanlar).",
+  "en": "end-of-semester",
+  "pos": "adjective"
+ },
+ "senajdoğrama": {
+  "az": "Senaj hazırlamaq üçün otun xırda doğranması.",
+  "en": "chopping of grass for haylage",
+  "pos": "noun"
+ },
+ "senajdoğrayan": {
+  "az": "Senaj üçün otu doğrayan (senajdoğrayan maşın).",
+  "en": "haylage-chopping",
+  "pos": "adjective"
+ },
+ "sentrizm": {
+  "az": "Siyasətdə sağ və sol cərəyanlar arasında orta mövqe tutan istiqamət.",
+  "en": "centrism",
+  "pos": "noun",
+  "parts": false
+ },
+ "seqmentnüvəli": {
+  "az": "Nüvəsi seqmentlərə, paylara bölünmüş (seqmentnüvəli neytrofillər).",
+  "en": "segmented, with a segmented nucleus",
+  "pos": "adjective"
+ },
+ "sessiyaqabağı": {
+  "az": "İmtahan sessiyasından və ya iclas dövründən əvvəl olan.",
+  "en": "pre-session",
+  "pos": "adjective"
+ },
+ "sessiyasonu": {
+  "az": "Sessiyanın sonunda olan (sessiyasonu yekunlar).",
+  "en": "end-of-session",
+  "pos": "adjective"
+ },
+ "seyfaçan": {
+  "az": "Seyfi açan, xüsusən onu sındırıb açan (seyfaçan oğru).",
+  "en": "safe-opening, safe-cracking",
+  "pos": "adjective"
+ },
+ "seyfaçma": {
+  "az": "Seyfin açılması, xüsusən sındırılıb açılması.",
+  "en": "safe opening, safecracking",
+  "pos": "noun"
+ },
+ "seyfdüzəltmə": {
+  "az": "Seyflərin hazırlanması və ya təmir edilməsi.",
+  "en": "safe making or repair",
+  "pos": "noun"
+ },
+ "seyrəkdişli": {
+  "az": "Dişləri bir-birindən aralı olan (adam, daraq və s.).",
+  "en": "gap-toothed; wide-toothed",
+  "pos": "adjective"
+ },
+ "seyrəksaqqal": {
+  "az": "Saqqalı seyrək olan adam.",
+  "en": "man with a sparse beard",
+  "pos": "noun"
+ },
+ "seyrəksaqqallı": {
+  "az": "Saqqalı seyrək olan.",
+  "en": "sparse-bearded",
+  "pos": "adjective"
+ },
+ "seyrəksaçlı": {
+  "az": "Saçı seyrək, az olan.",
+  "en": "thin-haired",
+  "pos": "adjective"
+ },
+ "seyrəksıra": {
+  "skip": "meaning not certain"
+ },
+ "seyrəksıralı": {
+  "az": "Sıraları bir-birindən aralı olan (seyrəksıralı əkin).",
+  "en": "wide-row (of sowing)",
+  "pos": "adjective"
+ },
+ "seyrəkyarpaq": {
+  "skip": "plant name, not certain"
+ },
+ "seyrəkyarpaqlı": {
+  "az": "Yarpaqları seyrək olan (bitki).",
+  "en": "sparse-leaved",
+  "pos": "adjective"
+ },
+ "seyrəkyunlu": {
+  "az": "Yunu seyrək olan (qoyun və s.).",
+  "en": "thin-fleeced, sparse-wooled",
+  "pos": "adjective"
+ },
+ "seyvanabənzər": {
+  "az": "Seyvana, yəni üstü örtülü eyvana və ya talvara bənzəyən.",
+  "en": "canopy-like, porch-like",
+  "pos": "adjective"
+ },
+ "seyvanaoxşar": {
+  "az": "Seyvana oxşayan, üstü örtülü eyvanı xatırladan.",
+  "en": "canopy-like, porch-like",
+  "pos": "adjective"
+ },
+ "sferaşəkilli": {
+  "az": "Kürə şəklində olan, kürəvi.",
+  "en": "spherical",
+  "pos": "adjective"
+ },
+ "sidikdaşıyan": {
+  "az": "Sidiyi böyrəkdən sidik kisəsinə və ya xaricə aparan (sidikdaşıyan yollar).",
+  "en": "urine-conducting, urinary",
+  "pos": "adjective"
+ },
+ "sidikqovan": {
+  "az": "Sidik ifrazını artıran dərman və ya maddə.",
+  "en": "diuretic",
+  "pos": "noun",
+  "parts": false
+ },
+ "sifondolduran": {
+  "az": "Sifonu, yəni qazlı su qabını dolduran (sifondolduran qurğu).",
+  "en": "siphon-filling",
+  "pos": "adjective"
+ }
+}

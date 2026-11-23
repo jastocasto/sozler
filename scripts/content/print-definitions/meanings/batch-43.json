@@ -1,0 +1,933 @@
+{
+ "sifondoldurma": {
+  "az": "Sifonları qazlı su və ya başqa maye ilə doldurma.",
+  "en": "siphon filling",
+  "pos": "noun"
+ },
+ "sifondoldurucu": {
+  "az": "Sifonları maye ilə doldurmaq üçün işlədilən (sifondoldurucu qurğu).",
+  "en": "siphon-filling",
+  "pos": "adjective"
+ },
+ "sikkəkəsən": {
+  "az": "Sikkə zərb edən usta; pul kəsən.",
+  "en": "coiner, minter",
+  "pos": "noun"
+ },
+ "sikkəvuran": {
+  "az": "Sikkə zərb edən adam; sikkəkəsən.",
+  "en": "coiner, minter",
+  "pos": "noun"
+ },
+ "sikkəvurma": {
+  "az": "Metaldan sikkə zərb etmə, pul kəsmə.",
+  "en": "minting, coinage",
+  "pos": "noun"
+ },
+ "sikkəyığan": {
+  "az": "Sikkələr toplayan adam; numizmat.",
+  "en": "coin collector, numismatist",
+  "pos": "noun"
+ },
+ "sikkəyığma": {
+  "az": "Müxtəlif dövrlərin və ölkələrin sikkələrini toplama.",
+  "en": "coin collecting",
+  "pos": "noun"
+ },
+ "silahsaxlama": {
+  "az": "Silahı yanında və ya evində saxlama (qanunsuz silahsaxlama).",
+  "en": "possession of weapons; weapon storage",
+  "pos": "noun"
+ },
+ "silahsaxlayan": {
+  "az": "Silah saxlayan, yanında silahı olan (şəxs) və ya silahın saxlandığı (yer).",
+  "en": "keeping weapons, weapon-holding",
+  "pos": "adjective"
+ },
+ "silosbasdıran": {
+  "az": "Yaşıl yemi silos quyusuna basıb saxlayan, siloslama işi görən (maşın, işçi).",
+  "en": "ensiling, silage-making",
+  "pos": "adjective"
+ },
+ "silosbasdırma": {
+  "az": "Yaşıl yemi silos quyusuna və ya qülləsinə doldurub basma; siloslama.",
+  "en": "ensiling, silage making",
+  "pos": "noun"
+ },
+ "silosdoğrama": {
+  "az": "Silos hazırlamaq üçün yaşıl yemi xırda doğrama.",
+  "en": "chopping of green fodder for silage",
+  "pos": "noun"
+ },
+ "silosyığma": {
+  "az": "Silos üçün yaşıl kütləni biçib toplama.",
+  "en": "harvesting of silage crops",
+  "pos": "noun"
+ },
+ "siluetçəkən": {
+  "az": "Siluet çəkən, adamların və əşyaların siluet şəklində təsvirini yaradan (rəssam).",
+  "en": "silhouette-drawing; silhouettist",
+  "pos": "adjective"
+ },
+ "simfiziologiya": {
+  "skip": "meaning not certain"
+ },
+ "simicxislət": {
+  "az": "Təbiətcə xəsis olan, xəsis xasiyyətli.",
+  "en": "stingy by nature, miserly",
+  "pos": "adjective"
+ },
+ "simicxislətli": {
+  "az": "Xasiyyətcə simic, xəsis olan.",
+  "en": "miserly, stingy by nature",
+  "pos": "adjective"
+ },
+ "simpoziumqabağı": {
+  "az": "Simpoziumdan əvvəl olan (simpoziumqabağı görüş).",
+  "en": "pre-symposium",
+  "pos": "adjective"
+ },
+ "simsaxlayan": {
+  "az": "Simləri bərkidib saxlayan (simli musiqi alətinin hissəsi).",
+  "en": "string-holding (of the tailpiece of a stringed instrument)",
+  "pos": "adjective"
+ },
+ "simçəkmə": {
+  "skip": "meaning not certain (stringing an instrument or wire drawing)"
+ },
+ "sinartroz": {
+  "az": "Sümüklərin hərəkətsiz birləşməsi (məs.: kəllə sümüklərinin tikişləri).",
+  "en": "synarthrosis",
+  "pos": "noun",
+  "parts": false
+ },
+ "sindinamik": {
+  "az": "Bitki birliklərinin dəyişməsinə və inkişafına aid olan.",
+  "en": "syndynamic",
+  "pos": "adjective",
+  "parts": false
+ },
+ "sindinamika": {
+  "az": "Bitki birliklərinin dəyişməsini və növbələşməsini öyrənən sahə.",
+  "en": "syndynamics (study of change in plant communities)",
+  "pos": "noun",
+  "parts": false
+ },
+ "sinkçəkən": {
+  "az": "Metal əşyaların üzərinə sink çəkən, onları sinkləyən (fəhlə, qurğu).",
+  "en": "zinc-coating, galvanizing; galvanizer",
+  "pos": "adjective"
+ },
+ "sinmorfologiya": {
+  "az": "Bitki birliklərinin quruluşunu və xarici görünüşünü öyrənən sahə.",
+  "en": "synmorphology",
+  "pos": "noun",
+  "parts": false
+ },
+ "sinorogen": {
+  "az": "Dağəmələgəlmə (orogenez) ilə eyni vaxtda baş verən və ya əmələ gələn.",
+  "en": "synorogenic",
+  "pos": "adjective",
+  "parts": false
+ },
+ "sinxronoskop": {
+  "az": "İki generatorun və ya elektrik şəbəkəsinin sinxron işləməsini göstərən cihaz.",
+  "en": "synchroscope",
+  "pos": "noun",
+  "parts": false
+ },
+ "sinədağlı": {
+  "az": "Böyük dərd çəkmiş, qəlbi yaralı olan (adam).",
+  "en": "grief-stricken, heartbroken",
+  "pos": "adjective",
+  "parts": false
+ },
+ "sinəyumşaldan": {
+  "az": "Öskürəyi yüngülləşdirən, sinəni rahatlayan (dərman, bitki).",
+  "en": "pectoral, cough-soothing (of a remedy)",
+  "pos": "adjective"
+ },
+ "siqaraoxşar": {
+  "az": "Siqara bənzəyən, siqar formasında olan.",
+  "en": "cigar-shaped",
+  "pos": "adjective"
+ },
+ "siqnaldaşıma": {
+  "az": "Siqnalların bir yerdən başqa yerə ötürülməsi.",
+  "en": "signal transmission",
+  "pos": "noun"
+ },
+ "siqnaldaşıyıcı": {
+  "az": "Siqnalı ötürən, daşıyan vasitə və ya maddə.",
+  "en": "signal carrier",
+  "pos": "noun"
+ },
+ "siqnalvermə": {
+  "az": "Səs, işıq və ya başqa işarə ilə siqnal vermə.",
+  "en": "signalling",
+  "pos": "noun"
+ },
+ "sirkəotu": {
+  "skip": "plant name, not certain"
+ },
+ "sirkəşirə": {
+  "skip": "meaning not certain"
+ },
+ "sirsaxlama": {
+  "az": "Sirri başqalarına açmama, gizli saxlama.",
+  "en": "keeping secrets",
+  "pos": "noun"
+ },
+ "sirsaxlayan": {
+  "az": "Sirr saxlayan, ona deyilən sirri açmayan.",
+  "en": "discreet, able to keep a secret",
+  "pos": "adjective"
+ },
+ "sistemdaxili": {
+  "az": "Sistemin daxilində olan, onun hüdudlarından kənara çıxmayan.",
+  "en": "intra-system, within the system",
+  "pos": "adjective"
+ },
+ "sisterndolduran": {
+  "az": "Sisternləri neft, su və ya başqa maye ilə dolduran (qurğu, məntəqə).",
+  "en": "tank-filling, cistern-filling",
+  "pos": "adjective"
+ },
+ "sisterndoldurma": {
+  "az": "Sisternləri neft, su və ya başqa maye ilə doldurma.",
+  "en": "filling of tanks (cisterns)",
+  "pos": "noun"
+ },
+ "sisəkkimi": {
+  "skip": "meaning not certain"
+ },
+ "sitrusbecərən": {
+  "az": "Limon, portağal kimi sitrus bitkiləri becərən (təsərrüfat, rayon).",
+  "en": "citrus-growing",
+  "pos": "adjective"
+ },
+ "sivridilim": {
+  "skip": "meaning not certain"
+ },
+ "sivridilimli": {
+  "az": "Dilimləri sivri, uclu olan (yarpaq, ləçək).",
+  "en": "with pointed lobes or segments",
+  "pos": "adjective"
+ },
+ "sivrimeyvə": {
+  "skip": "meaning not certain"
+ },
+ "sivrimeyvəli": {
+  "az": "Meyvəsi sivri, uclu olan (bitki adlarında).",
+  "en": "with pointed fruit (in plant names)",
+  "pos": "adjective"
+ },
+ "sivriyarpaqlı": {
+  "az": "Yarpaqları sivri, uclu olan (bitki).",
+  "en": "with pointed leaves, acute-leaved",
+  "pos": "adjective"
+ },
+ "siyənəkkimi": {
+  "az": "Siyənəyə bənzər; cəmi (siyənəkkimilər) siyənək balıqları qrupunun adıdır.",
+  "en": "herring-like (siyənəkkimilər: herrings and their relatives)",
+  "pos": "adjective"
+ },
+ "siçanotu": {
+  "skip": "plant name, not certain"
+ },
+ "siçanqulağı": {
+  "skip": "plant name, not certain"
+ },
+ "siçantutma": {
+  "az": "Siçanları tutma, ovlama.",
+  "en": "mouse-catching",
+  "pos": "noun"
+ },
+ "siçovulqulağı": {
+  "skip": "plant name, not certain"
+ },
+ "slavyanəsilli": {
+  "az": "Əsli slavyan olan, slavyan mənşəli.",
+  "en": "of Slavic origin or descent",
+  "pos": "adjective"
+ },
+ "solbaxışlı": {
+  "az": "Siyasətdə sol baxışlara malik olan.",
+  "en": "left-leaning, of leftist views",
+  "pos": "adjective"
+ },
+ "solooxuyan": {
+  "az": "Solo oxuyan müğənni; solist.",
+  "en": "solo singer, soloist",
+  "pos": "noun"
+ },
+ "soloçalan": {
+  "az": "Musiqi alətində solo ifa edən çalğıçı; solist.",
+  "en": "solo instrumentalist, soloist",
+  "pos": "noun"
+ },
+ "soloçalma": {
+  "az": "Musiqi alətində solo ifa etmə.",
+  "en": "solo playing (on an instrument)",
+  "pos": "noun",
+  "parts": false
+ },
+ "soltərəfli": {
+  "az": "Sol tərəfdə olan və ya sol tərəfə yönələn.",
+  "en": "left-hand, left-sided",
+  "pos": "adjective"
+ },
+ "solyarimetr": {
+  "az": "Günəş şüalanmasının intensivliyini ölçən cihaz.",
+  "en": "solarimeter, pyranometer",
+  "pos": "noun",
+  "parts": false
+ },
+ "solğunbəniz": {
+  "az": "Bənizi solğun, rəngi qaçmış (adam).",
+  "en": "pale-faced",
+  "pos": "adjective"
+ },
+ "solğunləçək": {
+  "skip": "meaning not certain"
+ },
+ "solğunləçəkli": {
+  "az": "Ləçəkləri solğun rəngli olan (bitki).",
+  "en": "with pale petals",
+  "pos": "adjective"
+ },
+ "solğunyarpaq": {
+  "skip": "meaning not certain"
+ },
+ "solğunyarpaqlı": {
+  "az": "Yarpaqları solğun rəngli olan (bitki).",
+  "en": "with pale leaves",
+  "pos": "adjective"
+ },
+ "sonağızlı": {
+  "skip": "meaning not certain"
+ },
+ "sortartırma": {
+  "skip": "meaning not certain"
+ },
+ "sortdəyişmə": {
+  "az": "Köhnə bitki sortlarının yeni, daha məhsuldar sortlarla əvəz edilməsi.",
+  "en": "variety replacement (in crop growing)",
+  "pos": "noun"
+ },
+ "sorğuvermə": {
+  "az": "Məlumat almaq üçün sorğu göndərmə, sorğu ilə müraciət etmə.",
+  "en": "making an inquiry, querying",
+  "pos": "noun"
+ },
+ "sorğuverən": {
+  "az": "Sorğu verən, məlumat istəyən (şəxs, qurum).",
+  "en": "inquiring; inquirer",
+  "pos": "adjective"
+ },
+ "soxulcansayağı": {
+  "az": "Soxulcana bənzər, soxulcan kimi.",
+  "en": "worm-like, vermiform",
+  "pos": "adjective"
+ },
+ "soxulcantəhər": {
+  "az": "Soxulcana oxşar, soxulcan kimi.",
+  "en": "worm-like",
+  "pos": "adjective"
+ },
+ "soyuqsevən": {
+  "az": "Soyuq iqlimə və aşağı temperatura üstünlük verən (bitki, orqanizm).",
+  "en": "cold-loving, psychrophilic",
+  "pos": "adjective"
+ },
+ "soyuğadözümlü": {
+  "az": "Soyuğa və şaxtaya davam gətirən (bitki, heyvan).",
+  "en": "cold-resistant, cold-hardy",
+  "pos": "adjective"
+ },
+ "soğanabənzər": {
+  "az": "Soğana bənzəyən, soğan formasında olan.",
+  "en": "onion-like",
+  "pos": "adjective"
+ },
+ "soğanaoxşar": {
+  "az": "Soğana oxşayan, soğan formasında olan.",
+  "en": "onion-like",
+  "pos": "adjective"
+ },
+ "soğançiçəkli": {
+  "skip": "meaning not certain"
+ },
+ "sporvermə": {
+  "az": "Göbələk və bəzi bitkilərin spor əmələ gətirməsi.",
+  "en": "sporulation, spore formation",
+  "pos": "noun"
+ },
+ "sporverən": {
+  "az": "Spor əmələ gətirən (göbələk, bitki).",
+  "en": "spore-producing, spore-bearing",
+  "pos": "adjective"
+ },
+ "ssudaalan": {
+  "az": "Ssuda, borc alan şəxs və ya təşkilat.",
+  "en": "borrower (of a loan)",
+  "pos": "noun"
+ },
+ "ssudaverən": {
+  "az": "Ssuda, borc verən şəxs və ya təşkilat (bank və s.).",
+  "en": "lender",
+  "pos": "noun"
+ },
+ "stansiyadaxili": {
+  "az": "Stansiyanın daxilində olan (stansiyadaxili yollar).",
+  "en": "intra-station, within the station",
+  "pos": "adjective"
+ },
+ "startqabağı": {
+  "az": "Startdan, yarışın başlanmasından əvvəl olan (startqabağı həyəcan).",
+  "en": "pre-start",
+  "pos": "adjective"
+ },
+ "stendqoyma": {
+  "az": "Nümayiş üçün stend qurma, quraşdırma.",
+  "en": "putting up stands (display boards)",
+  "pos": "noun"
+ },
+ "stereoakustik": {
+  "az": "Stereoakustikaya aid, səsin məkan qavranılmasına aid olan.",
+  "en": "stereoacoustic",
+  "pos": "adjective"
+ },
+ "stereoakustika": {
+  "az": "Səsin iki qulaqla məkan (həcmli) qavranılmasını öyrənən akustika sahəsi.",
+  "en": "stereoacoustics",
+  "pos": "noun"
+ },
+ "stereoavtoqraf": {
+  "az": "Stereofotoşəkillər üzrə xəritədə relyefi və konturları çəkən fotoqrammetrik cihaz.",
+  "en": "stereoautograph (photogrammetric plotter)",
+  "pos": "noun",
+  "parts": false
+ },
+ "stereoboru": {
+  "az": "Cisimləri həcmli göstərən, hərbi müşahidədə işlədilən ikigözlü optik cihaz.",
+  "en": "stereo telescope (binocular periscope used for observation)",
+  "pos": "noun"
+ },
+ "stereoeffekt": {
+  "az": "Səsdə və ya təsvirdə həcm, məkan təəssüratı yaradan effekt.",
+  "en": "stereo effect",
+  "pos": "noun"
+ },
+ "stereofotoaparat": {
+  "az": "Stereoskopik (həcmli) fotoşəkillər çəkmək üçün fotoaparat.",
+  "en": "stereo camera (for stereoscopic photographs)",
+  "pos": "noun"
+ },
+ "stereofotoqrafiya": {
+  "az": "Həcmli təsvir almaq üçün cismin iki nöqtədən çəkilməsi üsulu.",
+  "en": "stereophotography",
+  "pos": "noun"
+ },
+ "stereogücləndirici": {
+  "az": "Stereofonik səs siqnallarını gücləndirən cihaz.",
+  "en": "stereo amplifier",
+  "pos": "noun"
+ },
+ "stereokamera": {
+  "az": "Stereoskopik (həcmli) şəkil və ya film çəkmək üçün kamera.",
+  "en": "stereo camera",
+  "pos": "noun"
+ },
+ "stereokinokamera": {
+  "az": "Stereoskopik (həcmli) kino çəkmək üçün kinokamera.",
+  "en": "stereoscopic cine camera",
+  "pos": "noun"
+ },
+ "stereokinozal": {
+  "az": "Stereoskopik (həcmli) filmlər göstərilən kinozal.",
+  "en": "stereoscopic (3-D) cinema hall",
+  "pos": "noun"
+ },
+ "stereomaqnitofon": {
+  "az": "Səsi stereofonik yazan və səsləndirən maqnitofon.",
+  "en": "stereo tape recorder",
+  "pos": "noun"
+ },
+ "stereometr": {
+  "az": "Stereofotoşəkillər üzrə relyefin hündürlüklərini ölçən fotoqrammetrik cihaz.",
+  "en": "stereometer (photogrammetric instrument)",
+  "pos": "noun",
+  "parts": false
+ },
+ "stereomikrometr": {
+  "skip": "meaning not certain"
+ },
+ "stereomikroskop": {
+  "az": "Cismin həcmli təsvirini verən ikiokulyarlı mikroskop.",
+  "en": "stereo microscope",
+  "pos": "noun"
+ },
+ "stereoplazma": {
+  "skip": "meaning not certain"
+ },
+ "stereoproyektor": {
+  "az": "Stereoskopik (həcmli) təsvirləri ekrana salan proyektor.",
+  "en": "stereo projector",
+  "pos": "noun"
+ },
+ "stereoqəbuledici": {
+  "az": "Stereofonik radio verilişlərini qəbul edən qəbuledici.",
+  "en": "stereo receiver",
+  "pos": "noun"
+ },
+ "stereorentgen": {
+  "az": "Cismin həcmli təsvirini almaq üçün iki bucaqdan rentgen şəkli çəkmə üsulu.",
+  "en": "stereoradiography, stereoscopic X-ray",
+  "pos": "noun"
+ },
+ "stereotelefon": {
+  "az": "Stereofonik səsi dinləmək üçün qulaqlıq.",
+  "en": "stereo headphones",
+  "pos": "noun"
+ },
+ "stereotelevizor": {
+  "az": "Həcmli (stereoskopik) təsvir göstərən televizor.",
+  "en": "stereoscopic (3-D) television set",
+  "pos": "noun"
+ },
+ "stereotipoqraf": {
+  "skip": "meaning not certain"
+ },
+ "stereotipoqrafik": {
+  "skip": "meaning not certain"
+ },
+ "stereotropizm": {
+  "az": "Bitkinin və ya orqanizmin bərk cisimlə toxunmaya qarşı böyümə reaksiyası.",
+  "en": "stereotropism, thigmotropism",
+  "pos": "noun",
+  "parts": false
+ },
+ "stereotəsvir": {
+  "az": "Həcm, üçölçülülük təəssüratı yaradan təsvir.",
+  "en": "stereo image, stereoscopic image",
+  "pos": "noun"
+ },
+ "stereoveriliş": {
+  "az": "Stereofonik səslə yayımlanan radio və ya televiziya verilişi.",
+  "en": "stereo broadcast",
+  "pos": "noun"
+ },
+ "sualverici": {
+  "az": "Sual verən, sual ifadə edən (sualverici baxış).",
+  "en": "questioning, inquiring",
+  "pos": "adjective"
+ },
+ "sualvermə": {
+  "az": "Sual vermə, soruşma.",
+  "en": "asking questions, questioning",
+  "pos": "noun"
+ },
+ "sufiməslək": {
+  "az": "Sufi dünyagörüşünə bağlı olan, təsəvvüf yolunu tutan.",
+  "en": "of Sufi persuasion, Sufi-minded",
+  "pos": "adjective"
+ },
+ "sugülükimi": {
+  "skip": "plant name, not certain"
+ },
+ "suilanıkimi": {
+  "az": "Suilanına bənzər; cəmi (suilanıkimilər) suilanıya yaxın ilanlar qrupunun adıdır.",
+  "en": "like a water snake (suilanıkimilər: grass snakes and their relatives)",
+  "pos": "adjective"
+ },
+ "sulfatsellüloz": {
+  "az": "Oduncağın sulfat üsulu ilə bişirilməsindən alınan sellüloz.",
+  "en": "sulfate (kraft) pulp",
+  "pos": "noun"
+ },
+ "sumaqkimi": {
+  "az": "Sumağa bənzər; cəmi (sumaqkimilər) sumaq və ona yaxın bitkilərin fəsiləsidir.",
+  "en": "sumac-like (sumaqkimilər: the sumac family)",
+  "pos": "adjective"
+ },
+ "suvaqçəkmə": {
+  "az": "Divara, tavana suvaq çəkmə; suvaqlama.",
+  "en": "plastering",
+  "pos": "noun"
+ },
+ "suvaqçəkən": {
+  "az": "Suvaq çəkən (usta, maşın); suvaqçı.",
+  "en": "plastering; plasterer",
+  "pos": "adjective"
+ },
+ "suvarmaqabağı": {
+  "az": "Suvarmadan əvvəl olan, suvarmadan qabaq aparılan.",
+  "en": "pre-irrigation",
+  "pos": "adjective"
+ },
+ "söyüdkimi": {
+  "az": "Söyüdə bənzər; cəmi (söyüdkimilər) söyüd və ona yaxın bitkilərin fəsiləsidir.",
+  "en": "willow-like (söyüdkimilər: the willow family)",
+  "pos": "adjective"
+ },
+ "sözbatmaz": {
+  "skip": "meaning not certain"
+ },
+ "sözdəyişdirmə": {
+  "az": "Sözün qrammatik formalarının dəyişməsi (hal, şəxs, kəmiyyət və s. üzrə).",
+  "en": "inflection (grammar)",
+  "pos": "noun"
+ },
+ "sözeşidən": {
+  "az": "Deyilən sözə qulaq asan, itaətkar (uşaq).",
+  "en": "obedient, biddable",
+  "pos": "adjective"
+ },
+ "sözeşitməz": {
+  "az": "Deyilən sözə qulaq asmayan, itaətsiz.",
+  "en": "disobedient, unruly",
+  "pos": "adjective"
+ },
+ "sözgüləşdirmə": {
+  "skip": "meaning not certain"
+ },
+ "sözkəsən": {
+  "skip": "meaning not certain"
+ },
+ "sözoynadan": {
+  "skip": "meaning not certain"
+ },
+ "sözoynatma": {
+  "skip": "meaning not certain"
+ },
+ "sözqanmaz": {
+  "az": "Deyilən sözü anlamayan, anlayışsız (adam).",
+  "en": "obtuse, slow to understand",
+  "pos": "adjective"
+ },
+ "sözqaytaran": {
+  "az": "Böyüyə və ya başqasına cavab qaytaran, sözə qarşı söz deyən.",
+  "en": "answering back, cheeky",
+  "pos": "adjective"
+ },
+ "sözqaytarma": {
+  "az": "Deyilənə qarşı cavab qaytarma, ağız-ağıza vermə.",
+  "en": "answering back, back talk",
+  "pos": "noun"
+ },
+ "sözqoşan": {
+  "az": "Şeir, nəğmə qoşan adam; el şairi.",
+  "en": "versifier, composer of verses",
+  "pos": "noun"
+ },
+ "sözqoşma": {
+  "az": "Şeir, nəğmə qoşma.",
+  "en": "versifying, composing verses",
+  "pos": "noun"
+ },
+ "söztörədici": {
+  "skip": "meaning not certain"
+ },
+ "südayıran": {
+  "az": "Südü qaymaqdan ayıran (maşın); separator.",
+  "en": "cream-separating (of a machine)",
+  "pos": "adjective"
+ },
+ "südayırma": {
+  "az": "Südün separatorda qaymaq və yağsız südə ayrılması.",
+  "en": "milk separation (cream separation)",
+  "pos": "noun"
+ },
+ "südazlığı": {
+  "az": "Ana südünün və ya heyvanda südün çox az ifraz olunması.",
+  "en": "low milk supply, hypogalactia",
+  "pos": "noun"
+ },
+ "süddişi": {
+  "az": "Uşaqlarda ilk çıxan, sonra tökülüb daimi dişlərlə əvəz olunan diş.",
+  "en": "milk tooth, baby tooth",
+  "pos": "noun",
+  "parts": false
+ },
+ "südləyənkimi": {
+  "az": "Südləyənə bənzər; cəmi (südləyənkimilər) südləyən və ona yaxın bitkilərin fəsiləsidir.",
+  "en": "spurge-like (südləyənkimilər: the spurge family)",
+  "pos": "adjective"
+ },
+ "südləyənçiçəkli": {
+  "skip": "meaning not certain"
+ },
+ "südrəngli": {
+  "az": "Süd rəngində olan, ağımtıl.",
+  "en": "milk-coloured, milky-white",
+  "pos": "adjective"
+ },
+ "südsağan": {
+  "az": "Süd sağan (aparat, adam).",
+  "en": "milking (of a machine); milker",
+  "pos": "adjective"
+ },
+ "südsoyuducu": {
+  "az": "Sağılmış südü soyutmaq üçün qurğu.",
+  "en": "milk cooler",
+  "pos": "noun"
+ },
+ "südsoyutma": {
+  "az": "Sağılmış südü soyutma (südsoyutma qurğusu).",
+  "en": "milk cooling",
+  "pos": "noun"
+ },
+ "südtəmizləyən": {
+  "az": "Südü mexaniki qarışıqlardan təmizləyən (qurğu).",
+  "en": "milk-cleaning, milk-clarifying (of a device)",
+  "pos": "adjective"
+ },
+ "südverimi": {
+  "az": "Heyvanın müəyyən müddətdə verdiyi süd miqdarı.",
+  "en": "milk yield",
+  "pos": "noun"
+ },
+ "südçoxluğu": {
+  "az": "Süd ifrazının normadan çox olması.",
+  "en": "excessive milk production, hypergalactia",
+  "pos": "noun"
+ },
+ "südüyağlı": {
+  "az": "Südü yağlı olan (inək, cins).",
+  "en": "giving rich (high-fat) milk",
+  "pos": "adjective"
+ },
+ "südşirəli": {
+  "az": "Tərkibində südə bənzər ağ şirə olan (bitki).",
+  "en": "having milky sap, lactiferous",
+  "pos": "adjective"
+ },
+ "südşirəsi": {
+  "az": "Bəzi bitkilərdən çıxan ağ, südə bənzər şirə; lateks.",
+  "en": "latex, milky sap",
+  "pos": "noun"
+ },
+ "südəmən": {
+  "az": "Hələ süd əmən, süddən kəsilməmiş (uşaq, bala).",
+  "en": "suckling, unweaned",
+  "pos": "adjective"
+ },
+ "süfrəbaşı": {
+  "skip": "meaning not certain"
+ },
+ "süfrəbəzəyən": {
+  "az": "Süfrəni bəzəyən, ona gözəllik verən (xörək, şirniyyat).",
+  "en": "table-adorning (of a dish)",
+  "pos": "adjective"
+ },
+ "sülhniyyətli": {
+  "az": "Sülh istəyən, niyyəti sülh olan.",
+  "en": "peace-minded, with peaceful intentions",
+  "pos": "adjective"
+ },
+ "sümükdağıdan": {
+  "az": "Sümük toxumasını dağıdan, əridən (hüceyrə).",
+  "en": "bone-destroying, osteoclastic",
+  "pos": "adjective"
+ },
+ "sümükiçliyi": {
+  "skip": "meaning not certain"
+ },
+ "sümükpozan": {
+  "skip": "meaning not certain"
+ },
+ "sümükqıran": {
+  "az": "Sümüyü qıran, sındıran (zərbə, alət).",
+  "en": "bone-breaking",
+  "pos": "adjective"
+ },
+ "sümükyaradan": {
+  "az": "Sümük toxumasını əmələ gətirən (hüceyrə).",
+  "en": "bone-forming, osteoblastic",
+  "pos": "adjective"
+ },
+ "sümükyaradıcı": {
+  "az": "Sümük toxumasının əmələ gəlməsini təmin edən (hüceyrə, toxuma).",
+  "en": "osteogenic, bone-forming",
+  "pos": "adjective"
+ },
+ "sümükyaratma": {
+  "az": "Sümük toxumasının əmələ gəlməsi.",
+  "en": "bone formation, osteogenesis",
+  "pos": "noun"
+ },
+ "sümükzirehli": {
+  "az": "Bədəni sümük lövhələrdən ibarət zirehlə örtülü olan (balıq).",
+  "en": "bony-armoured (of fish)",
+  "pos": "adjective"
+ },
+ "sümüyəbənzər": {
+  "az": "Sümüyə bənzəyən, sümük kimi bərk.",
+  "en": "bone-like, osteoid",
+  "pos": "adjective"
+ },
+ "sümüyədüşən": {
+  "skip": "meaning not certain"
+ },
+ "sümüyəoxşar": {
+  "az": "Sümüyə oxşayan, sümük kimi bərk.",
+  "en": "bone-like",
+  "pos": "adjective"
+ },
+ "sünbülbağlama": {
+  "az": "Taxıl bitkilərinin sünbül əmələ gətirməsi.",
+  "en": "heading, ear formation (in cereals)",
+  "pos": "noun"
+ },
+ "sünbülotu": {
+  "skip": "plant name, not certain"
+ },
+ "sünbülqırma": {
+  "skip": "meaning not certain"
+ },
+ "sünbültoplama": {
+  "az": "Biçindən sonra tarlada qalan sünbülləri yığma.",
+  "en": "gleaning (of ears of grain)",
+  "pos": "noun"
+ },
+ "sünbültoplayan": {
+  "az": "Biçindən sonra tarlada qalan sünbülləri yığan (adam, maşın).",
+  "en": "gleaning; gleaner",
+  "pos": "adjective"
+ },
+ "sünbülyığan": {
+  "az": "Tarlada qalan sünbülləri yığan (adam, maşın).",
+  "en": "gleaning; gleaner",
+  "pos": "adjective"
+ },
+ "sünbülyığma": {
+  "az": "Biçindən sonra tarlada qalan sünbülləri yığma.",
+  "en": "gleaning (of ears of grain)",
+  "pos": "noun"
+ },
+ "sürfədoğan": {
+  "az": "Yumurta əvəzinə sürfə doğan (həşərat).",
+  "en": "larviparous",
+  "pos": "adjective"
+ },
+ "sürfəqoyan": {
+  "az": "Yumurta əvəzinə sürfə qoyan (həşərat).",
+  "en": "larvipositing, depositing larvae",
+  "pos": "adjective"
+ },
+ "sürfəqoyma": {
+  "az": "Bəzi həşəratların yumurta əvəzinə sürfə qoyması.",
+  "en": "larviposition",
+  "pos": "noun"
+ },
+ "sürfəquşu": {
+  "skip": "meaning not certain"
+ },
+ "sürvəotu": {
+  "skip": "plant name, not certain"
+ },
+ "sürübaşı": {
+  "skip": "meaning not certain"
+ },
+ "süstdüşmə": {
+  "az": "Halsızlaşma, süstləşmə; ruhdan düşmə.",
+  "en": "listlessness; becoming weak or dispirited",
+  "pos": "noun"
+ },
+ "süsənkimi": {
+  "az": "Süsənə bənzər; cəmi (süsənkimilər) süsən və ona yaxın bitkilərin fəsiləsidir.",
+  "en": "iris-like (süsənkimilər: the iris family)",
+  "pos": "adjective"
+ },
+ "süsənçiçəkli": {
+  "skip": "meaning not certain"
+ },
+ "sütunabənzər": {
+  "az": "Sütuna bənzəyən, sütun şəklində olan.",
+  "en": "columnar, pillar-like",
+  "pos": "adjective"
+ },
+ "sütunaoxşar": {
+  "az": "Sütuna oxşayan, sütun şəklində olan.",
+  "en": "columnar, pillar-like",
+  "pos": "adjective"
+ },
+ "süxurdağıdan": {
+  "az": "Süxurları dağıdan, xırdalayan (alət, qurğu).",
+  "en": "rock-breaking",
+  "pos": "adjective"
+ },
+ "süxurgötürən": {
+  "az": "Qazılmış süxuru götürüb aparan (maşın, qurğu).",
+  "en": "rock-removing (of a machine)",
+  "pos": "adjective"
+ },
+ "süxurqaldıran": {
+  "az": "Qazılmış süxuru yuxarı qaldıran (qurğu).",
+  "en": "rock-lifting",
+  "pos": "adjective"
+ },
+ "süxurqaldırıcı": {
+  "az": "Mədəndə qazılmış süxuru yuxarı qaldıran qurğu.",
+  "en": "rock hoist (in mining)",
+  "pos": "noun"
+ },
+ "süxurqoparan": {
+  "az": "Süxuru laydan qoparıb ayıran (alət, maşın).",
+  "en": "rock-cutting (tearing rock away)",
+  "pos": "adjective"
+ },
+ "süxurqoparıcı": {
+  "az": "Süxuru laydan qoparıb ayıran qurğu.",
+  "en": "rock cutter (machine)",
+  "pos": "noun"
+ },
+ "süxurqıran": {
+  "az": "Süxuru qırıb xırdalayan (maşın).",
+  "en": "rock-crushing",
+  "pos": "adjective"
+ },
+ "süxurqırıcı": {
+  "az": "Süxuru qırıb xırdalayan maşın.",
+  "en": "rock crusher",
+  "pos": "noun"
+ },
+ "süxursaxlama": {
+  "skip": "meaning not certain"
+ },
+ "süxursaxlayan": {
+  "skip": "meaning not certain"
+ },
+ "süxurtörədici": {
+  "az": "Süxurların əsas tərkibini təşkil edən (süxurtörədici minerallar).",
+  "en": "rock-forming",
+  "pos": "adjective"
+ },
+ "süxuryükləyən": {
+  "az": "Qazılmış süxuru nəqliyyat vasitəsinə yükləyən (maşın).",
+  "en": "rock-loading (of a machine)",
+  "pos": "adjective"
+ },
+ "süxurçıxaran": {
+  "az": "Süxuru qazıb çıxaran (maşın, qurğu).",
+  "en": "rock-extracting",
+  "pos": "adjective"
+ },
+ "süxurçıxarma": {
+  "az": "Süxurun qazılıb çıxarılması.",
+  "en": "rock extraction, removal of rock",
+  "pos": "noun"
+ },
+ "sırğagülü": {
+  "skip": "plant name, not certain"
+ },
+ "sırğaçiçəkli": {
+  "az": "Çiçəkləri sallanan sırğa şəklində olan (fındıq, söyüd kimi bitkilər).",
+  "en": "catkin-bearing, amentiferous",
+  "pos": "adjective"
+ },
+ "sırğaçiçəyi": {
+  "skip": "plant name, not certain"
+ }
+}

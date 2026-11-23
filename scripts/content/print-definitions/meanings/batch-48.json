@@ -1,0 +1,874 @@
+{
+ "yastıtutum": {
+  "skip": "meaning not certain"
+ },
+ "yastıçökük": {
+  "az": "Yastı və bir qədər içəri çökük formada olan.",
+  "en": "flat and concave, shallowly concave",
+  "pos": "adjective"
+ },
+ "yastığabənzər": {
+  "az": "Yastığa oxşayan, yastıq formasında olan.",
+  "en": "pillow-like, pillow-shaped",
+  "pos": "adjective"
+ },
+ "yastığıyüngül": {
+  "skip": "meaning not certain"
+ },
+ "yatıqburun": {
+  "skip": "animal name, not certain"
+ },
+ "yatıqburunlu": {
+  "az": "Burnu yatıq, basıq olan.",
+  "en": "flat-nosed, snub-nosed",
+  "pos": "adjective"
+ },
+ "yatıqşəkilli": {
+  "az": "Yatıq, uzanmış formada olan.",
+  "en": "recumbent, prostrate (in form)",
+  "pos": "adjective"
+ },
+ "yaxaqurtaran": {
+  "az": "Bir işdən və ya adamdan yaxa qurtarmaq üçün edilən, başdansovdu (yaxaqurtaran cavab).",
+  "en": "perfunctory, done just to get rid of something; evasive",
+  "pos": "adjective"
+ },
+ "yaxasıbağlı": {
+  "az": "Yaxası düymələnmiş, bağlı olan (geyim).",
+  "en": "with a closed (buttoned-up) collar",
+  "pos": "adjective"
+ },
+ "yaxınməqsədli": {
+  "az": "Yaxın gələcəkdə həyata keçiriləcək məqsədə yönələn.",
+  "en": "short-term (aimed at immediate goals)",
+  "pos": "adjective"
+ },
+ "yaxınməsafəli": {
+  "az": "Yaxın, qısa məsafə üçün nəzərdə tutulan (yaxınməsafəli raket).",
+  "en": "short-range, close-range",
+  "pos": "adjective"
+ },
+ "yaxıçəkmə": {
+  "az": "Bir səthə nazik qat suvaq, boya və ya məlhəm çəkmə.",
+  "en": "applying a coat (of plaster, paint or ointment)",
+  "pos": "noun"
+ },
+ "yayortası": {
+  "az": "Yayın orta çağı, ən isti vaxtı.",
+  "en": "midsummer",
+  "pos": "noun"
+ },
+ "yazböcəyi": {
+  "skip": "insect name, not certain"
+ },
+ "yazortası": {
+  "az": "Yazın orta çağı.",
+  "en": "mid-spring",
+  "pos": "noun"
+ },
+ "yağayırma": {
+  "az": "Süddən və ya başqa maddədən yağı ayırma.",
+  "en": "separation of fat (e.g. cream from milk)",
+  "pos": "noun"
+ },
+ "yağbasan": {
+  "skip": "meaning not certain"
+ },
+ "yağdoldurma": {
+  "az": "Mühərrikə, qaba və s. yağ doldurma.",
+  "en": "oil filling",
+  "pos": "noun"
+ },
+ "yağdondurma": {
+  "skip": "meaning not certain"
+ },
+ "yağlıdilli": {
+  "az": "Şirin, yaltaqcasına danışan; dilindən bal tökülən.",
+  "en": "smooth-tongued, honey-tongued",
+  "pos": "adjective"
+ },
+ "yağqarışdırma": {
+  "az": "Yağı və ya müxtəlif yağları bir-biri ilə qarışdırma.",
+  "en": "mixing (blending) of oils or fats",
+  "pos": "noun"
+ },
+ "yağqarışdırıcı": {
+  "az": "Yağı başqa maddələrlə və ya müxtəlif yağları qarışdıran qurğu.",
+  "en": "oil mixer",
+  "pos": "noun"
+ },
+ "yağqovucu": {
+  "skip": "meaning not certain"
+ },
+ "yağqəbuledici": {
+  "az": "Yağın toplandığı, qəbul edildiyi qab və ya qurğu.",
+  "en": "oil receiver (tank)",
+  "pos": "noun"
+ },
+ "yağsoyuducu": {
+  "az": "Mühərrikdə və ya maşında işlənən yağı soyudan qurğu.",
+  "en": "oil cooler",
+  "pos": "noun"
+ },
+ "yağsoyutma": {
+  "az": "Yağın soyudulması və ya yağ vasitəsilə soyutma (yağsoyutma sistemi).",
+  "en": "oil cooling",
+  "pos": "noun"
+ },
+ "yağsıxan": {
+  "az": "Bitki toxumlarından və s. yağ sıxıb çıxaran (yağsıxan pres).",
+  "en": "oil-pressing (e.g. an oil press)",
+  "pos": "adjective"
+ },
+ "yağyaxan": {
+  "az": "Səthə yağ çəkən, yağlayan (yağyaxan qurğu).",
+  "en": "greasing, oil-applying",
+  "pos": "adjective",
+  "parts": false
+ },
+ "yağyaxma": {
+  "az": "Bir səthə və ya çörəyə yağ çəkmə, yağlama.",
+  "en": "greasing, oiling; buttering",
+  "pos": "noun"
+ },
+ "yağyaxmacı": {
+  "az": "Üstünə yağ yaxılmış çörək dilimi.",
+  "en": "slice of bread and butter",
+  "pos": "noun"
+ },
+ "yağçalma": {
+  "az": "Nehrədə qatığı çalxalayaraq kərə yağı alma.",
+  "en": "butter churning",
+  "pos": "noun",
+  "parts": false
+ },
+ "yağçıxarma": {
+  "az": "Bir maddədən, xammaldan yağ alma, çıxarma.",
+  "en": "oil extraction, fat extraction",
+  "pos": "noun"
+ },
+ "yağışqabağı": {
+  "az": "Yağış yağmazdan əvvəlki vaxt.",
+  "en": "the time just before the rain",
+  "pos": "noun"
+ },
+ "yağışyağdırıcı": {
+  "az": "Suyu yağış kimi səpərək sahəni suvaran qurğu.",
+  "en": "sprinkler (irrigation machine)",
+  "pos": "noun"
+ },
+ "yağəridici": {
+  "az": "Yağı əridən və ya həll edən maddə, vasitə.",
+  "en": "fat solvent; fat-melting agent",
+  "pos": "noun"
+ },
+ "yağəritmə": {
+  "az": "Kərə yağını və ya piyi qızdırıb əritmə.",
+  "en": "melting (rendering) of butter or fat",
+  "pos": "noun"
+ },
+ "yaşılayaqlı": {
+  "az": "Ayaqları yaşıl olan (quş adlarında).",
+  "en": "green-legged (in bird names)",
+  "pos": "adjective"
+ },
+ "yaşılköynəkli": {
+  "az": "Əynində yaşıl köynək olan.",
+  "en": "wearing a green shirt",
+  "pos": "adjective"
+ },
+ "yaşılpapaqlı": {
+  "az": "Başında yaşıl papaq olan.",
+  "en": "wearing a green hat",
+  "pos": "adjective"
+ },
+ "yekunvurma": {
+  "az": "Bir işin, müzakirənin nəticələrini ümumiləşdirmə.",
+  "en": "summing up, summary",
+  "pos": "noun"
+ },
+ "yekəbarmaq": {
+  "skip": "meaning not certain"
+ },
+ "yekəbarmaqlı": {
+  "az": "Barmaqları iri olan.",
+  "en": "big-fingered",
+  "pos": "adjective"
+ },
+ "yekəbuynuz": {
+  "skip": "animal name, not certain"
+ },
+ "yekəbuynuzlu": {
+  "az": "Buynuzları iri olan.",
+  "en": "big-horned",
+  "pos": "adjective"
+ },
+ "yekəbığlı": {
+  "az": "Bığları iri, gur olan.",
+  "en": "with a big moustache",
+  "pos": "adjective"
+ },
+ "yekədalaq": {
+  "skip": "meaning not certain"
+ },
+ "yekədilli": {
+  "skip": "meaning not certain"
+ },
+ "yekədırnaq": {
+  "skip": "animal name, not certain"
+ },
+ "yekədırnaqlı": {
+  "az": "Dırnaqları iri olan.",
+  "en": "with large nails or hooves",
+  "pos": "adjective"
+ },
+ "yekəqanadlı": {
+  "az": "Qanadları iri olan.",
+  "en": "large-winged",
+  "pos": "adjective"
+ },
+ "yekəyanlı": {
+  "skip": "meaning not certain"
+ },
+ "yelaparan": {
+  "skip": "meaning not certain"
+ },
+ "yelayaqlı": {
+  "az": "Yel kimi sürətlə qaçan, cəld ayaqlı (yelayaqlı at).",
+  "en": "fleet-footed, swift as the wind",
+  "pos": "adjective"
+ },
+ "yelbasan": {
+  "skip": "meaning not certain"
+ },
+ "yelcəvizi": {
+  "skip": "plant name, not certain"
+ },
+ "yeldöyməz": {
+  "skip": "meaning not certain"
+ },
+ "yelingəlmə": {
+  "skip": "meaning not certain"
+ },
+ "yelkənçiçək": {
+  "skip": "plant name, not certain"
+ },
+ "yelpikbığlı": {
+  "az": "Bığları və ya bığcıqları yelpik şəklində olan.",
+  "en": "fan-whiskered; with fan-shaped antennae",
+  "pos": "adjective"
+ },
+ "yelpikyarpaq": {
+  "skip": "plant name, not certain"
+ },
+ "yelpikyarpaqlı": {
+  "az": "Yarpaqları yelpik şəklində olan (bitki adlarında).",
+  "en": "fan-leaved (in plant names)",
+  "pos": "adjective"
+ },
+ "yeltutan": {
+  "skip": "meaning not certain"
+ },
+ "yeltutar": {
+  "skip": "meaning not certain"
+ },
+ "yeltutmaz": {
+  "skip": "meaning not certain"
+ },
+ "yelvuran": {
+  "skip": "meaning not certain"
+ },
+ "yelvurma": {
+  "skip": "meaning not certain"
+ },
+ "yelyarası": {
+  "skip": "meaning not certain"
+ },
+ "yembasdıran": {
+  "az": "Yemi silos quyusuna basdırıb tapdalayan, silos hazırlayan.",
+  "en": "ensiling (fodder), silage-making",
+  "pos": "adjective"
+ },
+ "yembasdırma": {
+  "az": "Yaşıl yemi quyuya və ya xəndəyə doldurub sıxaraq silos hazırlama.",
+  "en": "ensilage, ensiling of fodder",
+  "pos": "noun"
+ },
+ "yemhazırlayan": {
+  "az": "Heyvanlar üçün yem hazırlayan (maşın, işçi).",
+  "en": "fodder-preparing, feed-preparing",
+  "pos": "adjective"
+ },
+ "yempaylayan": {
+  "az": "Heyvanlara yem paylayan (qurğu, işçi).",
+  "en": "feed-distributing",
+  "pos": "adjective"
+ },
+ "yemqarışdırma": {
+  "az": "Müxtəlif yemləri bir-biri ilə qarışdırma.",
+  "en": "mixing of feed (fodder)",
+  "pos": "noun"
+ },
+ "yemtoplayan": {
+  "az": "Yem toplayan, yığan (maşın, heyvan və s.).",
+  "en": "feed-gathering; foraging",
+  "pos": "adjective"
+ },
+ "yemüyüdən": {
+  "az": "Heyvan yemini üyüdən (yemüyüdən dəyirman).",
+  "en": "feed-grinding (e.g. a feed mill)",
+  "pos": "adjective"
+ },
+ "yengəyolu": {
+  "skip": "meaning not certain"
+ },
+ "yenidənhesablama": {
+  "az": "Bir şeyi təzədən, ikinci dəfə hesablama.",
+  "en": "recalculation",
+  "pos": "noun"
+ },
+ "yenidənqazma": {
+  "az": "Quyunu və s. təzədən qazma.",
+  "en": "redrilling",
+  "pos": "noun"
+ },
+ "yenotaoxşar": {
+  "az": "Yenota bənzəyən (yenotaoxşar it).",
+  "en": "raccoon-like",
+  "pos": "adjective"
+ },
+ "yerarmudu": {
+  "az": "Yumruları yeyilən, günəbaxana qohum bitki; topinambur.",
+  "en": "Jerusalem artichoke",
+  "pos": "noun",
+  "parts": false
+ },
+ "yerhaqqı": {
+  "az": "Bir yerdən (torpaqdan, bazarda yerdən) istifadəyə görə ödənilən haqq.",
+  "en": "ground rent; fee for a place or stall",
+  "pos": "noun"
+ },
+ "yerinəsalma": {
+  "az": "Çıxmış sümüyü və ya oynağı öz yerinə qaytarma.",
+  "en": "setting (a dislocated joint or bone)",
+  "pos": "noun",
+  "parts": false
+ },
+ "yerinəsalınmaz": {
+  "skip": "meaning not certain"
+ },
+ "yerköpüyü": {
+  "skip": "mineral or plant name, not certain"
+ },
+ "yerqazma": {
+  "az": "Torpağı qazma, torpaq işi.",
+  "en": "digging, excavation (of earth)",
+  "pos": "noun"
+ },
+ "yerseçmə": {
+  "az": "Tikinti, əkin və s. üçün yer seçmə.",
+  "en": "site selection",
+  "pos": "noun"
+ },
+ "yersoran": {
+  "skip": "meaning not certain"
+ },
+ "yertutan": {
+  "skip": "meaning not certain"
+ },
+ "yertərpənməsi": {
+  "az": "Yer qabığının tərpənməsi; zəlzələ.",
+  "en": "earthquake, earth tremor",
+  "pos": "noun"
+ },
+ "yetimdoyduran": {
+  "az": "Yetimləri yedirib-içirən, xeyirxah.",
+  "en": "feeding orphans; charitable",
+  "pos": "adjective"
+ },
+ "yetimsaxlayan": {
+  "az": "Yetim uşaqları saxlayan, onlara baxan.",
+  "en": "caring for orphans",
+  "pos": "adjective"
+ },
+ "yexidnakimi": {
+  "az": "Yexidnaya bənzəyən.",
+  "en": "echidna-like",
+  "pos": "adjective"
+ },
+ "yeyinyeyən": {
+  "az": "Yeməyi tez, tələsik yeyən.",
+  "en": "eating fast; fast eater",
+  "pos": "adjective"
+ },
+ "yeşikvuran": {
+  "az": "Taxtadan yeşik düzəldən fəhlə.",
+  "en": "box maker, crate maker",
+  "pos": "noun"
+ },
+ "yivkəsən": {
+  "az": "Metal və s. üzərində yiv açan alət.",
+  "en": "thread cutter (tap, die)",
+  "pos": "noun"
+ },
+ "yivölçmə": {
+  "az": "Vintin, borunun və s. yivinin ölçülərini yoxlama.",
+  "en": "thread measurement",
+  "pos": "noun"
+ },
+ "yivölçən": {
+  "az": "Yivin ölçülərini yoxlayan (yivölçən alət).",
+  "en": "thread-measuring (thread gauge)",
+  "pos": "adjective"
+ },
+ "yolbaxıcısı": {
+  "az": "Yolun vəziyyətinə baxan, onu qaydada saxlayan işçi.",
+  "en": "road keeper, road maintenance worker",
+  "pos": "noun"
+ },
+ "yolbənd": {
+  "skip": "meaning not certain"
+ },
+ "yoldöşəmə": {
+  "az": "Yolun üstünü daş, asfalt və s. ilə örtmə; relsləri döşəmə.",
+  "en": "road paving; track laying",
+  "pos": "noun"
+ },
+ "yoldöşəyən": {
+  "az": "Yol örtüyünü və ya rels yolunu döşəyən (maşın, işçi).",
+  "en": "road-paving; track-laying",
+  "pos": "adjective"
+ },
+ "yoldəyişdirici": {
+  "az": "Qatarı bir yoldan başqa yola keçirən qurğu.",
+  "en": "railway switch, points",
+  "pos": "noun"
+ },
+ "yoldəyişmə": {
+  "az": "Bir zolaqdan, yoldan və ya istiqamətdən başqasına keçmə.",
+  "en": "lane change; change of route",
+  "pos": "noun"
+ },
+ "yolhamarlayan": {
+  "az": "Yolun səthini düzəldib hamarlayan (maşın).",
+  "en": "road-levelling",
+  "pos": "adjective"
+ },
+ "yolhamarlayıcı": {
+  "az": "Yolun səthini düzəldib hamarlayan maşın; qreyder.",
+  "en": "road grader, road leveller",
+  "pos": "noun"
+ },
+ "yolkeçirici": {
+  "skip": "meaning not certain"
+ },
+ "yolköçürən": {
+  "az": "Rels yolunu başqa yerə köçürən (maşın).",
+  "en": "track-shifting (machine)",
+  "pos": "adjective"
+ },
+ "yolotu": {
+  "skip": "plant name, not certain"
+ },
+ "yolsalan": {
+  "az": "Yol çəkən, yol inşa edən (yolsalan dəstə).",
+  "en": "road-building",
+  "pos": "adjective"
+ },
+ "yolsalma": {
+  "az": "Yol çəkmə, yol inşa etmə.",
+  "en": "road building",
+  "pos": "noun"
+ },
+ "yoltikən": {
+  "az": "Yol inşa edən (yoltikən dəstə).",
+  "en": "road-building",
+  "pos": "adjective"
+ },
+ "yolçapan": {
+  "skip": "meaning not certain"
+ },
+ "yolçapma": {
+  "skip": "meaning not certain"
+ },
+ "yolçiyini": {
+  "az": "Yolun hərəkət hissəsinin kənarında olan zolaq.",
+  "en": "road shoulder, verge",
+  "pos": "noun"
+ },
+ "yolçəkmə": {
+  "az": "Yol inşa etmə, yol salma.",
+  "en": "road building",
+  "pos": "noun"
+ },
+ "yolçəkən": {
+  "az": "Yol inşa edən, yol salan.",
+  "en": "road-building",
+  "pos": "adjective"
+ },
+ "yolölçmə": {
+  "az": "Yolun uzunluğunu, gedilən məsafəni ölçmə.",
+  "en": "measuring distance (of a road or journey)",
+  "pos": "noun"
+ },
+ "yolölçən": {
+  "az": "Gedilən yolun uzunluğunu ölçən (yolölçən cihaz).",
+  "en": "distance-measuring (e.g. an odometer)",
+  "pos": "adjective"
+ },
+ "yoncadoğrayan": {
+  "az": "Yoncanı doğrayan, xırdalayan (maşın).",
+  "en": "alfalfa-chopping",
+  "pos": "adjective"
+ },
+ "yorğansırıma": {
+  "az": "Yorğanın üzünü sırıyaraq tikmə.",
+  "en": "quilting (of a quilt)",
+  "pos": "noun"
+ },
+ "yorğatoyuq": {
+  "skip": "bird name, not certain"
+ },
+ "yovşanyarpaqlı": {
+  "az": "Yarpaqları yovşan yarpağına oxşayan (bitki adlarında).",
+  "en": "wormwood-leaved (in plant names)",
+  "pos": "adjective"
+ },
+ "yovşançiçək": {
+  "skip": "plant name, not certain"
+ },
+ "yovşançiçəkli": {
+  "az": "Çiçəkləri yovşan çiçəyinə oxşayan (bitki adlarında).",
+  "en": "with wormwood-like flowers (in plant names)",
+  "pos": "adjective"
+ },
+ "yoğunayaqlı": {
+  "az": "Ayaqları yoğun olan.",
+  "en": "thick-legged",
+  "pos": "adjective"
+ },
+ "yoğunbarmaq": {
+  "skip": "animal name, not certain"
+ },
+ "yoğunbarmaqlı": {
+  "az": "Barmaqları yoğun olan.",
+  "en": "thick-fingered",
+  "pos": "adjective"
+ },
+ "yoğunboğaz": {
+  "skip": "meaning not certain"
+ },
+ "yoğunboğazlı": {
+  "az": "Boğazı, boynu yoğun olan.",
+  "en": "thick-necked",
+  "pos": "adjective"
+ },
+ "yoğunbuynuz": {
+  "skip": "animal name, not certain"
+ },
+ "yoğunbuynuzlu": {
+  "az": "Buynuzları yoğun olan.",
+  "en": "thick-horned",
+  "pos": "adjective"
+ },
+ "yoğunbədən": {
+  "skip": "animal name, not certain"
+ },
+ "yoğunbədənli": {
+  "az": "Bədəni yoğun, iri olan.",
+  "en": "thick-bodied, stout",
+  "pos": "adjective"
+ },
+ "yoğundamar": {
+  "skip": "meaning not certain"
+ },
+ "yoğundamarlı": {
+  "az": "Damarları yoğun olan.",
+  "en": "thick-veined",
+  "pos": "adjective"
+ },
+ "yoğundimdikli": {
+  "az": "Dimdiyi yoğun olan (quş adlarında).",
+  "en": "thick-billed (in bird names)",
+  "pos": "adjective"
+ },
+ "yoğunquyruq": {
+  "skip": "animal name, not certain"
+ },
+ "yoğunquyruqlu": {
+  "az": "Quyruğu yoğun olan.",
+  "en": "thick-tailed",
+  "pos": "adjective"
+ },
+ "yoğurtotu": {
+  "skip": "plant name, not certain"
+ },
+ "yubileyqabağı": {
+  "az": "Yubileydən əvvəlki (yubileyqabağı tədbirlər).",
+  "en": "pre-anniversary, ahead of a jubilee",
+  "pos": "adjective"
+ },
+ "yubileysayağı": {
+  "az": "Yubileyə yaraşan tərzdə, təntənəli şəkildə.",
+  "en": "in jubilee style, festively",
+  "pos": "adverb"
+ },
+ "yumaqotu": {
+  "skip": "plant name, not certain"
+ },
+ "yumrudibli": {
+  "az": "Dibi yumru olan (yumrudibli kolba).",
+  "en": "round-bottomed",
+  "pos": "adjective"
+ },
+ "yumrudodaq": {
+  "skip": "animal name, not certain"
+ },
+ "yumrudodaqlı": {
+  "az": "Dodaqları yumru olan.",
+  "en": "round-lipped",
+  "pos": "adjective"
+ },
+ "yumruqşəkilli": {
+  "az": "Yumruq formasında olan.",
+  "en": "fist-shaped",
+  "pos": "adjective"
+ },
+ "yumrusaçaq": {
+  "skip": "meaning not certain"
+ },
+ "yumrusoğanaq": {
+  "skip": "plant name, not certain"
+ },
+ "yumrusoğanaqlı": {
+  "az": "Soğanağı yumru olan (bitki adlarında).",
+  "en": "with round bulbs (in plant names)",
+  "pos": "adjective"
+ },
+ "yumruçənə": {
+  "skip": "meaning not certain"
+ },
+ "yumruçənəli": {
+  "az": "Çənəsi yumru olan.",
+  "en": "round-chinned",
+  "pos": "adjective"
+ },
+ "yumşaqlələkli": {
+  "az": "Lələkləri yumşaq olan.",
+  "en": "soft-feathered",
+  "pos": "adjective"
+ },
+ "yumşaqqabıq": {
+  "skip": "animal name, not certain"
+ },
+ "yumşaqsəth": {
+  "skip": "meaning not certain"
+ },
+ "yumşaqyarpaq": {
+  "skip": "plant name, not certain"
+ },
+ "yuntəmizləmə": {
+  "az": "Yunu çirkdən və qarışıqlardan təmizləmə.",
+  "en": "wool cleaning, wool scouring",
+  "pos": "noun"
+ },
+ "yuntəmizləyən": {
+  "az": "Yunu çirkdən təmizləyən (maşın, işçi).",
+  "en": "wool-cleaning",
+  "pos": "adjective"
+ },
+ "yunyığan": {
+  "az": "Yun yığan, tədarük edən.",
+  "en": "wool-collecting",
+  "pos": "adjective"
+ },
+ "yunyığma": {
+  "az": "Yunun toplanması, tədarükü.",
+  "en": "wool collection, wool procurement",
+  "pos": "noun"
+ },
+ "yuvaaçan": {
+  "skip": "meaning not certain"
+ },
+ "yuvaaçma": {
+  "skip": "meaning not certain"
+ },
+ "yuvacıqotu": {
+  "skip": "plant name, not certain"
+ },
+ "yuvadibi": {
+  "skip": "meaning not certain"
+ },
+ "yuvaotu": {
+  "skip": "plant name, not certain"
+ },
+ "yuvaqurma": {
+  "az": "Quşların və başqa heyvanların özlərinə yuva tikməsi.",
+  "en": "nest building",
+  "pos": "noun"
+ },
+ "yuvarlaqağızlı": {
+  "az": "Ağzı yuvarlaq olan.",
+  "en": "round-mouthed",
+  "pos": "adjective"
+ },
+ "yuvayaoxşar": {
+  "az": "Yuvaya bənzəyən.",
+  "en": "nest-like",
+  "pos": "adjective"
+ },
+ "yuxabişirən": {
+  "az": "Yuxa (nazik çörək) bişirən.",
+  "en": "baking yukha (thin flatbread)",
+  "pos": "adjective"
+ },
+ "yuxayayan": {
+  "az": "Yuxa üçün xəmiri nazik yayan.",
+  "en": "rolling out dough for yukha (thin flatbread)",
+  "pos": "adjective"
+ },
+ "yuxayayma": {
+  "az": "Yuxa bişirmək üçün xəmiri nazik yayma.",
+  "en": "rolling out dough for yukha (thin flatbread)",
+  "pos": "noun"
+ },
+ "yuxaürəkli": {
+  "az": "Ürəyi yumşaq, tez kövrələn, rəhmli.",
+  "en": "soft-hearted, tender-hearted",
+  "pos": "adjective"
+ },
+ "yuxuyozan": {
+  "az": "Yuxuları yozan, mənasını açan adam.",
+  "en": "dream interpreter",
+  "pos": "noun"
+ },
+ "yükalma": {
+  "az": "Yükü qəbul edib götürmə.",
+  "en": "taking on cargo, cargo acceptance",
+  "pos": "noun"
+ },
+ "yükaparan": {
+  "az": "Yük daşıyan, aparan.",
+  "en": "cargo-carrying",
+  "pos": "adjective"
+ },
+ "yükaparma": {
+  "az": "Yükü bir yerdən başqa yerə daşıma.",
+  "en": "carrying cargo, haulage",
+  "pos": "noun"
+ },
+ "yükaşıran": {
+  "skip": "meaning not certain"
+ },
+ "yükdolduran": {
+  "az": "Nəqliyyat vasitəsinə və s. yük dolduran (maşın, işçi).",
+  "en": "loading (of cargo)",
+  "pos": "adjective"
+ },
+ "yükdoldurma": {
+  "az": "Nəqliyyat vasitəsinə və s. yük doldurma.",
+  "en": "loading of cargo",
+  "pos": "noun"
+ },
+ "yüksəkdiapazonlu": {
+  "skip": "meaning not certain"
+ },
+ "yüksəkkalorili": {
+  "az": "Tərkibində çox kalori olan (yüksəkkalorili qida).",
+  "en": "high-calorie",
+  "pos": "adjective"
+ },
+ "yüksəkkarbonlu": {
+  "az": "Tərkibində çox karbon olan (yüksəkkarbonlu polad).",
+  "en": "high-carbon",
+  "pos": "adjective"
+ },
+ "yüksəkkeçidli": {
+  "skip": "meaning not certain"
+ },
+ "yüksəkkükürdlü": {
+  "az": "Tərkibində çox kükürd olan (yüksəkkükürdlü neft).",
+  "en": "high-sulphur",
+  "pos": "adjective"
+ },
+ "yüksəkməhsuldarlıq": {
+  "az": "Məhsuldarlığın yüksək olması; bol məhsul vermə.",
+  "en": "high productivity, high yield",
+  "pos": "noun"
+ },
+ "yüksəkrütubətli": {
+  "az": "Rütubəti yüksək olan.",
+  "en": "high-humidity, very humid",
+  "pos": "adjective"
+ },
+ "yüktutan": {
+  "skip": "meaning not certain"
+ },
+ "yüktutumu": {
+  "az": "Nəqliyyat vasitəsinin götürə bildiyi yükün miqdarı.",
+  "en": "cargo capacity, carrying capacity",
+  "pos": "noun"
+ },
+ "yüngülayaqlı": {
+  "skip": "meaning not certain"
+ },
+ "yüngüldiskli": {
+  "skip": "meaning not certain"
+ },
+ "yüngülfikirli": {
+  "az": "Ciddi düşünməyən, hər şeyə yüngül baxan.",
+  "en": "frivolous, light-minded",
+  "pos": "adjective"
+ },
+ "yüngülsaqqal": {
+  "skip": "meaning not certain"
+ },
+ "yüngültəhər": {
+  "az": "Bir qədər yüngül, yüngülvari.",
+  "en": "lightish, rather light",
+  "pos": "adjective"
+ },
+ "yığımmeyvə": {
+  "az": "Bir-birinə bitişik çoxlu xırda meyvəciklərdən ibarət meyvə (moruq, böyürtkən və s.).",
+  "en": "aggregate (collective) fruit",
+  "pos": "noun"
+ },
+ "yığımqabağı": {
+  "az": "Məhsul yığımından əvvəlki (yığımqabağı dövr).",
+  "en": "pre-harvest",
+  "pos": "adjective"
+ },
+ "yəhəraltlığı": {
+  "az": "Yəhərin altına qoyulan keçə və ya parça.",
+  "en": "saddle blanket, saddle pad",
+  "pos": "noun"
+ },
+ "yəhərbelli": {
+  "az": "Beli yəhər kimi çökük olan (heyvan).",
+  "en": "saddle-backed, sway-backed",
+  "pos": "adjective"
+ },
+ "yəhərburunlu": {
+  "az": "Burnunun üstü yəhər kimi çökük olan.",
+  "en": "saddle-nosed",
+  "pos": "adjective"
+ },
+ "yəhərvuran": {
+  "skip": "meaning not certain"
+ },
+ "yəhərəoxşar": {
+  "az": "Yəhərə bənzəyən, yəhər formasında olan.",
+  "en": "saddle-like, saddle-shaped",
+  "pos": "adjective"
+ },
+ "zanbaqkimi": {
+  "az": "Zanbağa bənzəyən; zanbaq kimi ağ və zərif.",
+  "en": "lily-like",
+  "pos": "adjective"
+ },
+ "zavoddankənar": {
+  "az": "Zavod ərazisindən kənarda olan, zavoda aid olmayan.",
+  "en": "outside the factory, off-site",
+  "pos": "adjective"
+ }
+}

@@ -1,0 +1,884 @@
+{
+ "xırdaburun": {
+  "skip": "plant or animal name, not certain"
+ },
+ "xırdaburunlu": {
+  "az": "Burnu xırda, kiçik olan.",
+  "en": "small-nosed",
+  "pos": "adjective"
+ },
+ "xırdadodaq": {
+  "skip": "plant or animal name, not certain"
+ },
+ "xırdadodaqlı": {
+  "az": "Dodaqları xırda, kiçik olan.",
+  "en": "small-lipped",
+  "pos": "adjective"
+ },
+ "xırdadənəvər": {
+  "az": "Xırda dənələrdən ibarət olan (xırdadənəvər qum, süxur).",
+  "en": "fine-grained",
+  "pos": "adjective"
+ },
+ "xırdagövdə": {
+  "skip": "plant or animal name, not certain"
+ },
+ "xırdagövdəli": {
+  "az": "Gövdəsi, bədəni xırda olan (heyvan, bitki).",
+  "en": "small-bodied; small-stemmed",
+  "pos": "adjective"
+ },
+ "xırdagözlü": {
+  "az": "Gözləri xırda olan.",
+  "en": "small-eyed",
+  "pos": "adjective"
+ },
+ "xırdagüllü": {
+  "az": "Gülləri, çiçəkləri xırda olan; üzərində xırda gül naxışları olan (xırdagüllü çit).",
+  "en": "small-flowered; with a small floral print",
+  "pos": "adjective"
+ },
+ "xırdaköklü": {
+  "az": "Kökləri xırda olan (bitki).",
+  "en": "small-rooted",
+  "pos": "adjective"
+ },
+ "xırdameyvə": {
+  "skip": "plant term, not certain"
+ },
+ "xırdaqatlı": {
+  "az": "Nazik, xırda qatlardan ibarət olan; xırda büzmələri olan.",
+  "en": "thin-layered; finely pleated",
+  "pos": "adjective"
+ },
+ "xırdaqulaq": {
+  "skip": "plant or animal name, not certain"
+ },
+ "xırdaqulaqlı": {
+  "az": "Qulaqları xırda olan.",
+  "en": "small-eared",
+  "pos": "adjective"
+ },
+ "xırdasifət": {
+  "skip": "plant or animal name, not certain"
+ },
+ "xırdasifətli": {
+  "az": "Sifəti, üzü xırda olan.",
+  "en": "small-faced",
+  "pos": "adjective"
+ },
+ "xırdasünbül": {
+  "skip": "plant or animal name, not certain"
+ },
+ "xırdasünbüllü": {
+  "az": "Sünbülləri xırda olan (taxıl, ot).",
+  "en": "small-eared, small-spiked (of cereals and grasses)",
+  "pos": "adjective"
+ },
+ "xırdatoxmaq": {
+  "skip": "plant or animal name, not certain"
+ },
+ "xırdatoxmaqlı": {
+  "skip": "meaning not certain"
+ },
+ "xırdatoxum": {
+  "skip": "plant term, not certain"
+ },
+ "xırdatoxumlu": {
+  "az": "Toxumları xırda olan (bitki, sort).",
+  "en": "small-seeded",
+  "pos": "adjective"
+ },
+ "xırdayarpaqlı": {
+  "az": "Yarpaqları xırda olan (bitki adlarında: xırdayarpaqlı cökə).",
+  "en": "small-leaved",
+  "pos": "adjective"
+ },
+ "xırdaçimli": {
+  "az": "Xırda, kiçik çimlər əmələ gətirən (xırdaçimli taxıllar).",
+  "en": "forming small tussocks or turf (of grasses)",
+  "pos": "adjective"
+ },
+ "xırdaölçülü": {
+  "az": "Ölçüsü kiçik olan.",
+  "en": "small-sized",
+  "pos": "adjective"
+ },
+ "xırmandöymə": {
+  "az": "Xırmanda taxılı döyüb dənini sünbüldən ayırma işi.",
+  "en": "threshing (on a threshing floor)",
+  "pos": "noun"
+ },
+ "xəmirbölən": {
+  "az": "Xəmiri bərabər hissələrə, kündələrə bölən maşın.",
+  "en": "dough divider",
+  "pos": "noun"
+ },
+ "xəmirdoğrayan": {
+  "az": "Xəmiri doğrayan, hissələrə kəsən (xəmirdoğrayan maşın).",
+  "en": "dough-cutting",
+  "pos": "adjective"
+ },
+ "xəmirhazırlayan": {
+  "az": "Xəmir hazırlayan, xəmir yoğuran (xəmirhazırlayan aqreqat).",
+  "en": "dough-making, dough-preparing",
+  "pos": "adjective"
+ },
+ "xəmirçəkən": {
+  "skip": "technical sense not certain"
+ },
+ "xəncərqayıran": {
+  "az": "Xəncər düzəldən usta; xəncərsaz.",
+  "en": "dagger maker",
+  "pos": "noun",
+  "src": "izahli"
+ },
+ "xəncərçiçək": {
+  "skip": "plant name, not certain"
+ },
+ "xəncərəoxşar": {
+  "az": "Xəncərə bənzəyən, xəncər formasında olan.",
+  "en": "dagger-like, dagger-shaped",
+  "pos": "adjective"
+ },
+ "xəndəkqazma": {
+  "az": "Xəndək qazma işi.",
+  "en": "trench digging, ditching",
+  "pos": "noun"
+ },
+ "xərçəngkimi": {
+  "az": "Xərçəngkimilər sinfinə aid olan; xərçəngə bənzəyən (heyvan).",
+  "en": "crustacean; crab-like",
+  "pos": "adjective"
+ },
+ "xərçəngtörədici": {
+  "az": "Xərçəng xəstəliyinin əmələ gəlməsinə səbəb olan maddə və ya amil; kanserogen.",
+  "en": "carcinogen",
+  "pos": "noun"
+ },
+ "xərçəngtörədən": {
+  "az": "Xərçəng xəstəliyi törədə bilən; kanserogen.",
+  "en": "carcinogenic",
+  "pos": "adjective"
+ },
+ "xərçəngyeyən": {
+  "az": "Xərçənglə qidalanan (heyvan, quş).",
+  "en": "crab-eating",
+  "pos": "adjective"
+ },
+ "xərçəngəoxşar": {
+  "az": "Xərçəngə bənzəyən, xərçəng kimi görünən.",
+  "en": "crab-like; cancer-like",
+  "pos": "adjective"
+ },
+ "xəsarətalan": {
+  "az": "Xəsarət almış, zədələnmiş, yaralanmış (xəsarətalan şəxs).",
+  "en": "injured (person)",
+  "pos": "adjective"
+ },
+ "xəstəlikyayan": {
+  "az": "Xəstəliyin yayılmasına səbəb olan (xəstəlikyayan həşəratlar).",
+  "en": "disease-spreading, disease-carrying",
+  "pos": "adjective"
+ },
+ "xəstəlikyayıcı": {
+  "az": "Xəstəlik törədicilərini yayan, xəstəliyin yayılmasına səbəb olan.",
+  "en": "disease-spreading; disease-carrying",
+  "pos": "adjective"
+ },
+ "xəzərlələyi": {
+  "skip": "plant or animal name, not certain"
+ },
+ "yabadişli": {
+  "az": "Dişləri yaba dişləri kimi uzun və seyrək olan.",
+  "en": "fork-toothed, with pitchfork-like teeth",
+  "pos": "adjective"
+ },
+ "yabaquyruq": {
+  "skip": "plant or animal name, not certain"
+ },
+ "yadfikirli": {
+  "az": "Hakim fikir və baxışlardan fərqli, yad fikirlər daşıyan.",
+  "en": "dissident, dissenting; of alien views",
+  "pos": "adjective"
+ },
+ "yadroitələmə": {
+  "az": "Ağır metal kürənin mümkün qədər uzağa itələnməsindən ibarət yüngül atletika növü.",
+  "en": "shot put",
+  "pos": "noun"
+ },
+ "yadroitələyən": {
+  "az": "Yadroitələmə ilə məşğul olan idmançı.",
+  "en": "shot-putter",
+  "pos": "noun"
+ },
+ "yalanabənzər": {
+  "az": "Yalana bənzəyən, həqiqətə uyğun görünməyən.",
+  "en": "seemingly false, lie-like, implausible",
+  "pos": "adjective"
+ },
+ "yalanaoxşar": {
+  "az": "Yalana oxşayan, həqiqətə uyğun görünməyən.",
+  "en": "seemingly false, lie-like, implausible",
+  "pos": "adjective"
+ },
+ "yalançıbülbül": {
+  "skip": "bird name, not certain"
+ },
+ "yalançıçinar": {
+  "skip": "plant name, not certain"
+ },
+ "yalotu": {
+  "skip": "plant name, not certain"
+ },
+ "yamançöpü": {
+  "skip": "plant name, not certain"
+ },
+ "yanacaqdolduran": {
+  "az": "Nəqliyyat vasitələrinə yanacaq dolduran (yanacaqdolduran məntəqə, təyyarə).",
+  "en": "refuelling (e.g. filling station, tanker aircraft)",
+  "pos": "adjective"
+ },
+ "yanacaqkeçirən": {
+  "az": "Yanacağı bir yerdən başqa yerə keçirən, ötürən (yanacaqkeçirən boru).",
+  "en": "fuel-carrying (e.g. fuel line)",
+  "pos": "adjective"
+ },
+ "yanacaqpaylama": {
+  "az": "Yanacağın istehlakçılara və ya mühərrikin hissələrinə paylanması.",
+  "en": "fuel distribution",
+  "pos": "noun"
+ },
+ "yanacaqpaylaşdıran": {
+  "az": "Yanacağı paylaşdıran, bölüşdürən (yanacaqpaylaşdıran qurğu).",
+  "en": "fuel-distributing",
+  "pos": "adjective"
+ },
+ "yanacaqpaylaşdırma": {
+  "az": "Yanacağın bölüşdürülməsi, istehlakçılara və ya qurğulara paylanması.",
+  "en": "fuel distribution",
+  "pos": "noun"
+ },
+ "yanacaqvermə": {
+  "az": "Mühərrikə və ya qurğuya yanacaq verilməsi.",
+  "en": "fuel supply, fuel feed",
+  "pos": "noun"
+ },
+ "yanağıgirdə": {
+  "az": "Yanaqları girdə, dolu olan.",
+  "en": "round-cheeked, chubby-cheeked",
+  "pos": "adjective"
+ },
+ "yanağıyumru": {
+  "az": "Yanaqları yumru, dolu olan.",
+  "en": "round-cheeked, chubby-cheeked",
+  "pos": "adjective"
+ },
+ "yandivar": {
+  "az": "Bir şeyin yan tərəfdəki divarı (binanın, qabın, kuzovun).",
+  "en": "side wall",
+  "pos": "noun"
+ },
+ "yandişli": {
+  "skip": "technical sense not certain"
+ },
+ "yandəstək": {
+  "az": "Bir şeyi yan tərəfdən saxlayan dayaq, söykənəcək.",
+  "en": "side support, side brace",
+  "pos": "noun"
+ },
+ "yanqurum": {
+  "skip": "meaning not certain"
+ },
+ "yanqılıcı": {
+  "az": "Bir yana əyilmiş halda, yanakı (papağı başa qoyma tərzi haqqında; köhnəlmiş).",
+  "en": "aslant, tilted to one side (of a hat)",
+  "pos": "adverb",
+  "src": "izahli"
+ },
+ "yansinirli": {
+  "skip": "meaning not certain"
+ },
+ "yantezlikli": {
+  "skip": "technical sense not certain"
+ },
+ "yançiçək": {
+  "skip": "botanical term, not certain"
+ },
+ "yanötürücü": {
+  "skip": "technical sense not certain"
+ },
+ "yanğınsöndürücü": {
+  "az": "Yanğını söndürmək üçün cihaz; odsöndürən.",
+  "en": "fire extinguisher",
+  "pos": "noun"
+ },
+ "yapışqanabənzər": {
+  "az": "Yapışqana bənzəyən, yapışqan kimi özlü.",
+  "en": "glue-like, gluey",
+  "pos": "adjective"
+ },
+ "yapışqanaoxşar": {
+  "az": "Yapışqana oxşayan, yapışqan kimi özlü.",
+  "en": "glue-like, gluey",
+  "pos": "adjective"
+ },
+ "yapışqantəhər": {
+  "az": "Yapışqana bənzər, yapışqan kimi özlü.",
+  "en": "glue-like, gluey",
+  "pos": "adjective"
+ },
+ "yaqutaoxşar": {
+  "az": "Yaquta bənzəyən; yaqut kimi parlaq qırmızı.",
+  "en": "ruby-like",
+  "pos": "adjective"
+ },
+ "yarpaqaçan": {
+  "az": "Yarpaq açan, yarpaqlamağa başlayan (ağac, kol).",
+  "en": "coming into leaf, leafing",
+  "pos": "adjective"
+ },
+ "yarpaqbükmə": {
+  "az": "Yarpaqların bükülməsi, qıvrılması (bitki xəstəliyi və ya həşərat zərəri nəticəsində).",
+  "en": "leaf rolling, leaf curl",
+  "pos": "noun"
+ },
+ "yarpaqtökmə": {
+  "az": "Ağacların, kolların yarpaqlarını tökməsi; xəzan.",
+  "en": "leaf fall, shedding of leaves",
+  "pos": "noun"
+ },
+ "yarpaqyemə": {
+  "az": "Həşəratların və ya heyvanların bitki yarpaqlarını yeməsi.",
+  "en": "leaf-eating, defoliation (by pests)",
+  "pos": "noun"
+ },
+ "yarpağaoxşar": {
+  "az": "Yarpağa bənzəyən, yarpaq formasında olan.",
+  "en": "leaf-like, leaf-shaped",
+  "pos": "adjective"
+ },
+ "yarpızcücüsü": {
+  "skip": "insect name, not certain"
+ },
+ "yarıaçılan": {
+  "az": "Tam açılmayan, yarıya qədər açılan (qapı, pəncərə, çiçək).",
+  "en": "half-opening, partly opening",
+  "pos": "adjective"
+ },
+ "yarıağarmış": {
+  "az": "Yarısı ağarmış, qismən ağ olmuş (saç, saqqal).",
+  "en": "half-grey, greying",
+  "pos": "adjective"
+ },
+ "yarıağıllı": {
+  "az": "Ağlı tam yerində olmayan; kəmağıl.",
+  "en": "half-witted, simple-minded",
+  "pos": "adjective"
+ },
+ "yarıbataq": {
+  "az": "Qismən bataqlaşmış, yarısı bataqlıq olan yer.",
+  "en": "partly swampy ground",
+  "pos": "noun"
+ },
+ "yarıbatıq": {
+  "az": "Yarısı suya və ya yerə batmış (yarıbatıq gəmi).",
+  "en": "half-sunken, semi-submerged",
+  "pos": "adjective"
+ },
+ "yarıbrezent": {
+  "az": "Brezentdən nazik, iş geyimi və əlcək tikmək üçün işlədilən qalın pambıq parça.",
+  "en": "light canvas, half-tarpaulin (heavy cotton fabric)",
+  "pos": "noun"
+ },
+ "yarıburuq": {
+  "az": "Tam buruq olmayan, bir az qıvrılmış (saç).",
+  "en": "slightly curly, half-curled",
+  "pos": "adjective"
+ },
+ "yarıbuğda": {
+  "skip": "meaning not certain"
+ },
+ "yarıbükük": {
+  "az": "Yarıya qədər bükülmüş, əyilmiş vəziyyətdə olan.",
+  "en": "half-bent, half-folded",
+  "pos": "adjective"
+ },
+ "yarıbükülü": {
+  "az": "Yarıya qədər bükülmüş, əyilmiş (yarıbükülü dizlər).",
+  "en": "half-bent, half-folded",
+  "pos": "adjective"
+ },
+ "yarıbədii": {
+  "az": "Qismən bədii, qismən sənədli olan (yarıbədii əsər).",
+  "en": "semi-fictional, semi-literary",
+  "pos": "adjective"
+ },
+ "yarıdolu": {
+  "az": "Yarısına qədər dolu olan.",
+  "en": "half-full",
+  "pos": "adjective"
+ },
+ "yarıdonmuş": {
+  "az": "Tam donmamış, qismən donmuş.",
+  "en": "half-frozen",
+  "pos": "adjective"
+ },
+ "yarıdəli": {
+  "az": "Ağlı tam yerində olmayan, dəliyə yaxın.",
+  "en": "half-mad, half-crazy",
+  "pos": "adjective"
+ },
+ "yarıelastik": {
+  "az": "Qismən elastik olan.",
+  "en": "semi-elastic",
+  "pos": "adjective"
+ },
+ "yarıgileyli": {
+  "az": "Bir qədər gileyli, narazılıqla qarışıq (yarıgileyli səslə).",
+  "en": "half-reproachful, slightly complaining",
+  "pos": "adjective"
+ },
+ "yarıhəqiqət": {
+  "az": "Həqiqətin yalnız bir hissəsi; tam doğru olmayan məlumat.",
+  "en": "half-truth",
+  "pos": "noun"
+ },
+ "yarıistehza": {
+  "az": "Yüngül, qismən istehza (yarıistehza ilə dedi).",
+  "en": "half-mockery, mild irony",
+  "pos": "noun"
+ },
+ "yarıişıqlı": {
+  "az": "Zəif işıqlandırılmış, yarıqaranlıq.",
+  "en": "half-lit, dim",
+  "pos": "adjective"
+ },
+ "yarıkölgə": {
+  "az": "Tam kölgə ilə işıq arasındakı zəif kölgəli sahə.",
+  "en": "half-shade, penumbra",
+  "pos": "noun"
+ },
+ "yarımastarlı": {
+  "az": "Astarı paltarın yalnız bir hissəsinə tikilmiş olan.",
+  "en": "half-lined",
+  "pos": "adjective"
+ },
+ "yarımavtomatlaşdırılma": {
+  "az": "Prosesin, istehsalın qismən avtomatlaşdırılması.",
+  "en": "semi-automation, partial automation",
+  "pos": "noun"
+ },
+ "yarımbataqlıq": {
+  "az": "Qismən bataqlaşmış ərazi.",
+  "en": "semi-marsh, partly swampy ground",
+  "pos": "noun"
+ },
+ "yarımbitişik": {
+  "az": "Qismən bitişik olan, bir hissəsi ilə birləşmiş.",
+  "en": "semi-attached, partly joined",
+  "pos": "adjective"
+ },
+ "yarımbozqır": {
+  "az": "Bozqırla səhra arasında keçid xarakterli quraq təbii landşaft.",
+  "en": "semi-steppe",
+  "pos": "noun"
+ },
+ "yarımcanlı": {
+  "az": "Zəif, halsız, yarımcan vəziyyətdə olan.",
+  "en": "half-alive, half-dead; feeble",
+  "pos": "adjective"
+ },
+ "yarımdalan": {
+  "skip": "meaning not certain"
+ },
+ "yarımdalğa": {
+  "az": "Dalğanın yarısı; dalğa uzunluğunun yarısı.",
+  "en": "half-wave",
+  "pos": "noun"
+ },
+ "yarımdalğalı": {
+  "az": "Yarımdalğa ilə bağlı olan (yarımdalğalı düzləndirici).",
+  "en": "half-wave",
+  "pos": "adjective"
+ },
+ "yarımdayaq": {
+  "skip": "meaning not certain"
+ },
+ "yarımdirək": {
+  "skip": "meaning not certain"
+ },
+ "yarımdisk": {
+  "az": "Diskin yarısı; yarımdairəvi lövhə.",
+  "en": "half-disc",
+  "pos": "noun"
+ },
+ "yarımdönüş": {
+  "az": "Tam olmayan, yarımçıq dönüş; yarım dövrə dönmə.",
+  "en": "half-turn",
+  "pos": "noun"
+ },
+ "yarımdövrə": {
+  "az": "Dairənin yarısı; yarımdairə şəklində düzülüş (yarımdövrə ilə oturmaq).",
+  "en": "semicircle",
+  "pos": "noun"
+ },
+ "yarımekipaj": {
+  "skip": "meaning not certain"
+ },
+ "yarımelastik": {
+  "az": "Qismən elastik olan.",
+  "en": "semi-elastic",
+  "pos": "adjective"
+ },
+ "yarımetal": {
+  "az": "Xassələrinə görə metallarla qeyri-metallar arasında aralıq mövqe tutan element və ya maddə.",
+  "en": "semimetal, metalloid",
+  "pos": "noun"
+ },
+ "yarımifik": {
+  "az": "Qismən mifik, əfsanəvi olan (yarımifik hökmdar).",
+  "en": "semi-mythical",
+  "pos": "adjective"
+ },
+ "yarıminterval": {
+  "az": "Uclarından yalnız biri daxil olan ədəd aralığı (məs.: [a; b)).",
+  "en": "half-open interval",
+  "pos": "noun"
+ },
+ "yarımkanal": {
+  "skip": "meaning not certain"
+ },
+ "yarımkapilyar": {
+  "skip": "meaning not certain"
+ },
+ "yarımkombinezon": {
+  "az": "Döşlüyü və çiyinlikləri olan iş şalvarı.",
+  "en": "bib overalls, dungarees",
+  "pos": "noun"
+ },
+ "yarımkomplekt": {
+  "az": "Dəstin yarısı; tam olmayan dəst.",
+  "en": "half-set, incomplete set",
+  "pos": "noun"
+ },
+ "yarımkonus": {
+  "az": "Konusun oxu boyunca kəsilmiş yarısı.",
+  "en": "half-cone",
+  "pos": "noun"
+ },
+ "yarımkustar": {
+  "az": "Qismən kustar, sadə avadanlıqla, yarı əl üsulu ilə həyata keçirilən (yarımkustar istehsal).",
+  "en": "semi-artisanal, semi-handicraft",
+  "pos": "adjective"
+ },
+ "yarımkvadrat": {
+  "skip": "meaning not certain"
+ },
+ "yarımkütlə": {
+  "skip": "meaning not certain"
+ },
+ "yarımkəsim": {
+  "skip": "technical sense not certain"
+ },
+ "yarımkəsimli": {
+  "skip": "technical sense not certain"
+ },
+ "yarımlitrlik": {
+  "az": "Yarım litr tutumu olan (yarımlitrlik şüşə).",
+  "en": "half-litre",
+  "pos": "adjective"
+ },
+ "yarımloqarifmik": {
+  "az": "Oxlardan birində loqarifmik, digərində adi şkala olan (yarımloqarifmik qrafik).",
+  "en": "semi-logarithmic",
+  "pos": "adjective"
+ },
+ "yarımləkəli": {
+  "az": "Qismən ləkəli olan.",
+  "en": "partly spotted",
+  "pos": "adjective"
+ },
+ "yarımmaddə": {
+  "skip": "meaning not certain"
+ },
+ "yarımmayeli": {
+  "az": "Yarımmaye halında olan, qatı maye kimi.",
+  "en": "semi-liquid",
+  "pos": "adjective"
+ },
+ "yarımmeymun": {
+  "az": "Lemurlar, lorilər kimi ibtidai primatların ümumi adı.",
+  "en": "prosimian",
+  "pos": "noun"
+ },
+ "yarımmövzu": {
+  "skip": "meaning not certain"
+ },
+ "yarımmüstəvi": {
+  "az": "Müstəvinin bir düz xətt ilə ayrılan iki hissəsindən biri.",
+  "en": "half-plane",
+  "pos": "noun"
+ },
+ "yarımpansion": {
+  "az": "Gecələməyə əlavə olaraq gündə iki dəfə (adətən səhər və axşam) yeməyin verildiyi xidmət növü.",
+  "en": "half board",
+  "pos": "noun"
+ },
+ "yarımparazit": {
+  "az": "Fotosintez edə bilən, lakin su və mineral maddələri başqa bitkidən alan bitki; yarımparazit orqanizm.",
+  "en": "hemiparasite, semiparasite",
+  "pos": "noun"
+ },
+ "yarımpardaqlama": {
+  "az": "Detal səthinin son pardaqlamadan əvvəlki, tam olmayan emalı.",
+  "en": "semi-finishing (machining)",
+  "pos": "noun"
+ },
+ "yarımpauza": {
+  "az": "Musiqidə yarım not müddətinə bərabər fasilə və onun işarəsi.",
+  "en": "half rest (music)",
+  "pos": "noun"
+ },
+ "yarımplatforma": {
+  "skip": "meaning not certain"
+ },
+ "yarımproqram": {
+  "skip": "meaning not certain"
+ },
+ "yarımqollu": {
+  "az": "Qolları dirsəyə qədər, qısa olan (yarımqollu köynək).",
+  "en": "half-sleeved, short-sleeved",
+  "pos": "adjective"
+ },
+ "yarımqramlıq": {
+  "az": "Yarım qram çəkisi olan.",
+  "en": "half-gram, weighing half a gram",
+  "pos": "adjective"
+ },
+ "yarımqəlib": {
+  "az": "Tökmə işində qəlibin iki hissəsindən biri.",
+  "en": "mould half, half-mould",
+  "pos": "noun"
+ },
+ "yarımqəlsəməli": {
+  "skip": "zoological term, not certain"
+ },
+ "yarımrabitəli": {
+  "skip": "meaning not certain"
+ },
+ "yarımradial": {
+  "skip": "meaning not certain"
+ },
+ "yarımrütbəli": {
+  "skip": "meaning not certain"
+ },
+ "yarımsakit": {
+  "az": "Tam sakit olmayan, nisbətən sakit.",
+  "en": "fairly calm, semi-quiet",
+  "pos": "adjective"
+ },
+ "yarımsavanna": {
+  "az": "Savanna tipli, seyrək ağac və kolları olan quraq otluq landşaft.",
+  "en": "semi-savanna",
+  "pos": "noun"
+ },
+ "yarımseriya": {
+  "skip": "meaning not certain"
+ },
+ "yarımsfera": {
+  "az": "Kürənin yarısı; yarımkürə.",
+  "en": "hemisphere",
+  "pos": "noun"
+ },
+ "yarımstasionar": {
+  "az": "Tam stasionar olmayan; daimi yerdə qurulmayıb lazım gəldikdə köçürülə bilən (yarımstasionar qurğu).",
+  "en": "semi-stationary, semi-fixed",
+  "pos": "adjective"
+ },
+ "yarımsulu": {
+  "skip": "meaning not certain"
+ },
+ "yarımsəmimi": {
+  "az": "Tam səmimi olmayan, yarıürəkdən (yarımsəmimi təbəssüm).",
+  "en": "half-sincere",
+  "pos": "adjective"
+ },
+ "yarımsəyyar": {
+  "az": "Qismən səyyar olan; müəyyən vaxtlarda yerini dəyişən.",
+  "en": "semi-mobile, semi-itinerant",
+  "pos": "adjective"
+ },
+ "yarımtəhsilli": {
+  "az": "Təhsili tam olmayan, yarımçıq təhsil almış.",
+  "en": "half-educated, poorly educated",
+  "pos": "adjective"
+ },
+ "yarımuducu": {
+  "skip": "meaning not certain"
+ },
+ "yarımuzanıqlı": {
+  "az": "Yarı uzanmış vəziyyətdə.",
+  "en": "half-lying, half-reclining",
+  "pos": "adverb"
+ },
+ "yarımuzunluq": {
+  "az": "Bir şeyin uzunluğunun yarısı.",
+  "en": "half-length",
+  "pos": "noun"
+ },
+ "yarımvibrasiya": {
+  "skip": "meaning not certain"
+ },
+ "yarımviskoz": {
+  "skip": "meaning not certain"
+ },
+ "yarımvulkanik": {
+  "skip": "meaning not certain"
+ },
+ "yarımçərçivə": {
+  "az": "Bir şeyi tam deyil, qismən əhatə edən çərçivə.",
+  "en": "half-frame",
+  "pos": "noun"
+ },
+ "yarımötürücü": {
+  "skip": "technical sense not certain"
+ },
+ "yarımşikəst": {
+  "az": "Qismən şikəst olmuş, ağır zədəli.",
+  "en": "half-crippled, partly disabled",
+  "pos": "adjective"
+ },
+ "yarınaxoş": {
+  "az": "Bir qədər naxoş, tam sağlam olmayan.",
+  "en": "slightly unwell, poorly",
+  "pos": "adjective"
+ },
+ "yarınəsr": {
+  "skip": "meaning not certain"
+ },
+ "yarınəzm": {
+  "skip": "meaning not certain"
+ },
+ "yarıqaçan": {
+  "az": "Yarı qaçar halda, tələsik addımlarla gedən.",
+  "en": "half-running",
+  "pos": "adjective"
+ },
+ "yarıreal": {
+  "az": "Qismən real, qismən uydurma olan.",
+  "en": "half-real, semi-real",
+  "pos": "adjective"
+ },
+ "yarıritorika": {
+  "skip": "meaning not certain"
+ },
+ "yarısolğun": {
+  "az": "Bir qədər solğun, rəngi azca qaçmış.",
+  "en": "slightly pale, half-faded",
+  "pos": "adjective"
+ },
+ "yarısərt": {
+  "az": "Tam sərt olmayan, orta bərklikdə olan (yarısərt pendir).",
+  "en": "semi-hard, semi-rigid",
+  "pos": "adjective"
+ },
+ "yarıxatirə": {
+  "skip": "meaning not certain"
+ },
+ "yarıyetişən": {
+  "skip": "meaning not certain"
+ },
+ "yarıyuxu": {
+  "az": "Yuxu ilə oyaqlıq arasındakı vəziyyət; mürgü.",
+  "en": "half-sleep, doze, drowsiness",
+  "pos": "noun"
+ },
+ "yarıçürük": {
+  "az": "Qismən çürümüş.",
+  "en": "half-rotten",
+  "pos": "adjective"
+ },
+ "yarışortası": {
+  "az": "Yarışın orta mərhələsinə aid olan.",
+  "en": "mid-competition, mid-race",
+  "pos": "adjective"
+ },
+ "yarışqabağı": {
+  "az": "Yarışdan əvvəlki dövrə aid olan (yarışqabağı hazırlıq).",
+  "en": "pre-competition, pre-race",
+  "pos": "adjective"
+ },
+ "yarışsonrası": {
+  "az": "Yarışdan sonrakı dövrə aid olan (yarışsonrası müsahibə).",
+  "en": "post-competition, post-race",
+  "pos": "adjective"
+ },
+ "yarışsonu": {
+  "az": "Yarışın sonuna, son mərhələsinə aid olan.",
+  "en": "end-of-competition, end-of-race",
+  "pos": "adjective"
+ },
+ "yasgülü": {
+  "skip": "meaning not certain"
+ },
+ "yastıayaqlı": {
+  "az": "Ayağının altı yastı, çökük olmayan.",
+  "en": "flat-footed",
+  "pos": "adjective"
+ },
+ "yastıbuynuzlu": {
+  "az": "Buynuzları yastı olan.",
+  "en": "flat-horned",
+  "pos": "adjective"
+ },
+ "yastıbığcıqlı": {
+  "az": "Bığcıqları yastı olan (həşərat).",
+  "en": "with flattened antennae",
+  "pos": "adjective"
+ },
+ "yastıbığlı": {
+  "az": "Bığları, bığcıqları yastı olan.",
+  "en": "flat-whiskered; with flattened antennae",
+  "pos": "adjective"
+ },
+ "yastıdabanlı": {
+  "az": "Dabanı alçaq, yastı olan (yastıdabanlı ayaqqabı).",
+  "en": "flat-heeled, low-heeled",
+  "pos": "adjective"
+ },
+ "yastıdimdikli": {
+  "az": "Dimdiyi yastı olan (quş).",
+  "en": "flat-billed",
+  "pos": "adjective"
+ },
+ "yastıdodaq": {
+  "skip": "plant or animal name, not certain"
+ },
+ "yastıdodaqlı": {
+  "az": "Dodaqları yastı, nazik olan.",
+  "en": "flat-lipped, thin-lipped",
+  "pos": "adjective"
+ },
+ "yastıdöşlü": {
+  "az": "Döşü, sinəsi yastı olan.",
+  "en": "flat-chested",
+  "pos": "adjective"
+ },
+ "yastıpəncə": {
+  "skip": "plant or animal name, not certain"
+ },
+ "yastıquyruq": {
+  "skip": "plant or animal name, not certain"
+ },
+ "yastıquyruqlu": {
+  "az": "Quyruğu yastı olan.",
+  "en": "flat-tailed",
+  "pos": "adjective"
+ },
+ "yastıqşəkilli": {
+  "az": "Yastıq formasında olan (yastıqşəkilli lava).",
+  "en": "pillow-shaped",
+  "pos": "adjective"
+ }
+}
