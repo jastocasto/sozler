@@ -8,14 +8,14 @@ Inputs
   scripts/content/print-definitions/paraphrases/*.json
              AI-assisted bilingual paraphrases written from the cited print entries
   scripts/content/print-definitions/authored/*.json
-             AI-written definitions for spellings that neither print dictionary covers
+             AI-written definitions requiring source comparison
 
 Each new definition records its method:
   paraphrase       new wording of the explanatory and/or Musayev dictionary sense (AI-assisted)
   derivation       the explanatory dictionary states the word is formed from a base ("X"dan f.is.)
   cross-reference  the explanatory dictionary refers the word to another headword (bax X)
   rule             a transparent, productive suffix of a defined base word (qayda ilə qurulub)
-  authored         AI-written, for a spelling with no entry in either print dictionary; it cites
+  authored         AI-written wording awaiting comparison against a dictionary sense; it cites
                    only the orthography page that attests the spelling and is always marked for review
 
 Links (root for derivations, syn for cross-references) are added only between existing
@@ -30,6 +30,7 @@ more consecutive words with its print entry is rejected.
 """
 import argparse
 import collections
+import csv
 import hashlib
 import json
 import re
@@ -1463,6 +1464,84 @@ window.WORD_WEB_PRINT_DEFINITIONS=(function(data){
 '''
 
 
+def write_reviewed_output(model, refs, definitions, edges, meta):
+    """Apply individually compared senses after the automated dictionary layers."""
+    candidates = {n['w'] for n in model['nodes'] if not n['az'].strip() and not n['en'].strip()}
+    ref_index = {tuple(ref): i for i, ref in enumerate(refs)}
+    reviewed = set()
+    changed_glosses = {}
+    with (CONTENT / 'dictionary-review.tsv').open(encoding='utf-8', newline='') as source:
+        for row in csv.DictReader(source, delimiter='\t'):
+            word = row['word']
+            if word in reviewed or word not in candidates:
+                raise ValueError(f'Duplicate or ineligible reviewed headword: {word}')
+            if row['pos'] not in POS or not row['az'].endswith('.') or not row['en'].strip():
+                raise ValueError(f'Incomplete dictionary review: {word}')
+            pages = row['pages'].split(',')
+            if len(pages) != len(set(pages)) or not all(re.fullmatch(r'[1-4]\.[1-9][0-9]{0,2}', p) for p in pages):
+                raise ValueError(f'Invalid dictionary page for {word}: {pages}')
+            ids = []
+            for page in pages:
+                citation = print_source(*map(int, page.split('.')))
+                pair = (citation['title'], citation['url'])
+                if pair not in ref_index:
+                    ref_index[pair] = len(refs)
+                    refs.append(list(pair))
+                ids.append(ref_index[pair])
+            previous = definitions.get(word)
+            if previous:
+                old = gloss({'en': previous[1], 'pos': previous[2]})
+                new = gloss(row)
+                if old != new:
+                    changed_glosses[word] = (old, new, ids)
+            definitions[word] = [row['az'], row['en'], row['pos'], ids, 'paraphrase']
+            reviewed.add(word)
+
+    # A derived entry can quote the earlier rule's gloss even after its base is corrected.
+    for d in definitions.values():
+        if len(d) < 6 or d[4] not in ('rule', 'derivation'):
+            continue
+        base = d[5].get('base')
+        if base not in changed_glosses:
+            continue
+        old, new, ids = changed_glosses[base]
+        if d[1].endswith(f'({old})'):
+            d[1] = d[1][:-len(old)-2] + f'({new})'
+        elif d[1] == f'having {old}':
+            d[1] = 'with ' + definitions[base][1]
+        else:
+            continue
+        d[3] = list(dict.fromkeys(d[3] + ids))
+
+    # The cited senses rule out these automatic splits into unrelated headwords.
+    false_components = {
+        'termoqraf': {'qraf'}, 'girələmək': {'gir', 'ələmək'}, 'günlüklü': {'gün', 'lüklü'},
+        'dilotu yemək': {'dil'}, 'repressor': {'rep', 'ressor'}, 'şüasaçma': {'saçma'},
+    }
+    kept = [e for e in edges if not (e[2] == 'topic' and e[3] == 'Mürəkkəb söz · tərkib hissəsi'
+                                      and e[1] in false_components.get(e[0], ()))]
+    summary = meta['summary']
+    summary['stats']['links:compound'] -= len(edges) - len(kept)
+    edges = kept
+    connected = {word for e in edges for word in e[:2]}
+    summary['isolated_after'] = sum(not n['degree'] and n['w'] not in connected for n in model['nodes'])
+    summary['links'] = len(edges)
+    methods = collections.Counter(d[4] for d in definitions.values())
+    summary.update(definitions=len(definitions), undefined_after=summary['undefined_before'] - len(definitions),
+                   definitions_by_method=dict(sorted(methods.items())), dictionary_reviews=len(reviewed),
+                   low_confidence_paraphrases=sum(d[4] == 'paraphrase' and len(d) > 5 and d[5].get('confidence') == 'low'
+                                                  for d in definitions.values()))
+    for method, total in methods.items():
+        summary['stats']['definitions:' + method] = total
+    evidence = json.loads((ROOT / 'scripts/content/verification/print-source-summary.json').read_text())
+    meta['sources']['review_extraction'] = {k: evidence[k] for k in ('title', 'research_extraction', 'extraction_sha256')}
+    payload = json.dumps([refs, dict(sorted(definitions.items())), edges], ensure_ascii=False, separators=(',', ':'))
+    OUTPUT.write_text(LOADER.replace('DATA', payload))
+    meta['output_sha256'] = hashlib.sha256(OUTPUT.read_bytes()).hexdigest()
+    ATTRIBUTION.write_text(json.dumps(meta, ensure_ascii=False, indent=1) + '\n')
+    print(json.dumps(summary, ensure_ascii=False, indent=1))
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument('model', type=Path)
@@ -1509,8 +1588,7 @@ def main():
         'method': 'Definitions for headwords that had none. Paraphrases are AI-assisted new wording of the cited explanatory '
                   '(2006) and Musayev Azerbaijani–English dictionary senses; derivation and cross-reference definitions follow '
                   'explicit statements in the explanatory dictionary; rule-based definitions describe transparent productive '
-                  'suffixes of defined base words; authored definitions are AI-written for spellings that neither print '
-                  'dictionary covers, cite only the orthography page and are marked for review. Print prose is cited, not republished. This is not native-speaker verification.',
+                  'suffixes of defined base words; authored definitions cite only the orthography page and are marked for review. Print prose is cited, not republished. This is not native-speaker verification.',
         'license': 'New editorial text is shared under CC BY-SA 4.0.',
         'sources': {'explanatory': [{'volume': v, 'file': p, 'sha256': h} for v, p, h in explanatory_hashes],
                     'bilingual': [{'file': p, 'sha256': h} for p, h in bilingual_hashes],
@@ -1533,11 +1611,7 @@ def main():
         definitions[word] = [d['az'], d['en'], d['pos'], ref_ids(d['refs']), d['method']] + ([extra] if extra else [])
     edges = [[a, b, kind, note, [[p['from'], p['senseAz'], p['senseEn'], ref_ids(p['refs'])] for p in proofs]]
              for a, b, kind, note, _, proofs in builder.edges]
-    payload = json.dumps([refs, definitions, edges], ensure_ascii=False, separators=(',', ':'))
-    OUTPUT.write_text(LOADER.replace('DATA', payload))
-    meta['output_sha256'] = hashlib.sha256(OUTPUT.read_bytes()).hexdigest()
-    ATTRIBUTION.write_text(json.dumps(meta, ensure_ascii=False, indent=1) + '\n')
-    print(json.dumps(summary, ensure_ascii=False, indent=1))
+    write_reviewed_output(model, refs, definitions, edges, meta)
 
 
 if __name__ == '__main__':
