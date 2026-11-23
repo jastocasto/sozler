@@ -137,7 +137,10 @@ BILINGUAL_SEE = re.compile(r'^(?:(?:[a-zçğıöşüə]{1,5}\.|\d\.)\s*)+bax\s+(
                            r'(?:\s+(?:I{1,3}|\d))?\s*(?:[;,.]|$)', re.I)
 # An explanatory entry whose first sense is a cross-reference, followed by quotations or more senses.
 LEADING_SEE = re.compile(r'^(?:(?:\[[^\]]{1,100}\]|[a-zçğıöşüə]{1,8}\.)\s*)*(?:1\.\s*)?b\s*a\s*x\s+'
-                         r'([a-zçğıöşüə]+(?:[- ][a-zçğıöşüə]+)*)(?:\s*\d{1,2})?\s*(?:[.;,]|$)', re.I)
+                         r'([a-zçğıöşüə]+(?:[- ][a-zçğıöşüə]+)*)(?:\s*\d{1,2})?'
+                         # a sense qualifier: «b a x ağıllı 1 və 3-cü mənalarda», «b a x son 3-cü mənada»
+                         r'(?:\s+\d{1,2}(?:\s*(?:,|və)\s*\d{1,2})*\s*[-–]?\s*(?:c[ıiuü]|nc[ıiuü])?\s+məna(?:da|larda))?'
+                         r'\s*(?:[.;,]|$)', re.I)
 # Wiktionary's wording for a definition that only points at another headword: «alternative form of şivən».
 FORM_OF = re.compile(r'^(?:[a-z]+\.\s*)?(?:(?:an?|the)\s+)?(?:(?:obsolete|archaic|dated|rare|nonstandard|non-standard|colloquial|'
                      r'dialectal|informal|historical|alternative|common|standard|eye dialect|pronunciation)\s+)*(?:form|spelling|'

@@ -56,7 +56,7 @@
 "biçimləmək": {"az": "Biçim vermək, formaya salmaq.", "en": "to shape, to format", "pos": "verb"},
 "biqudiləmək": {"az": "Saçı biqudiyə sarımaq.", "en": "to put in curlers", "pos": "verb"},
 "bitumlamaq": {"az": "Bitumla örtmək.", "en": "to coat with bitumen", "pos": "verb"},
-"bokslamaq": {"skip": "meaning not known with confidence"},
+"bokslamaq": {"az": "Yumruqla vurmaq.", "en": "to punch", "pos": "verb"},
 "bordürləmək": {"az": "Yolun, səkinin kənarına bordür daşı düzmək.", "en": "to kerb, to edge", "pos": "verb"},
 "bortlamaq": {"skip": "meaning not known with confidence"},
 "boykotlamaq": {"az": "Boykot etmək.", "en": "to boycott", "pos": "verb"},
