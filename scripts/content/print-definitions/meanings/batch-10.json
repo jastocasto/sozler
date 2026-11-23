@@ -250,9 +250,7 @@
   "en": "mass political (e.g. mass political events)",
   "pos": "adjective"
  },
- "qabıqvermə": {
-  "skip": "meaning not certain"
- },
+ "qabıqvermə": {"az": "Səthdə qabığın yaranması və ya bərkiyib ayrılması prosesi.", "en": "crust or bark formation", "pos": "noun"},
  "qamma-şüa": {
   "az": "Atom nüvələrinin çevrilməsi zamanı yaranan çox qısa dalğalı elektromaqnit şüalanması.",
   "en": "gamma ray",
@@ -339,9 +337,7 @@
   "en": "monomolecular, unimolecular",
   "pos": "adjective"
  },
- "möhürbənd": {
-  "skip": "meaning not certain"
- },
+ "möhürbənd": {"az": "Aşıq şeirində müəllifin öz adını və ya təxəllüsünü bildirdiyi son bənd.", "en": "signature stanza of an ashik poem", "pos": "noun"},
  "müxtəlifsistemli": {
   "az": "Müxtəlif sistemlərə, quruluş tiplərinə mənsub olan (müxtəlifsistemli dillər).",
   "en": "of different systems or structural types",
@@ -528,9 +524,7 @@
   "en": "clustered, clump-shaped",
   "pos": "adjective"
  },
- "topatan": {
-  "skip": "meaning not certain"
- },
+ "topatan": {"az": "Top və ya mərmi atmaq üçün nəzərdə tutulan.", "en": "ball- or projectile-launching", "pos": "adjective"},
  "toyuq-cücə": {
   "az": "Toyuqlar və cücələr; ev quşları.",
   "en": "poultry, hens and chicks",
@@ -582,9 +576,7 @@
   "en": "semi-hard, semi-rigid",
   "pos": "adjective"
  },
- "yarımsıra": {
-  "skip": "meaning not certain"
- },
+ "yarımsıra": {"az": "Sıranın yarısı və ya yarım uzunluqda olan sıra.", "en": "half-row", "pos": "noun"},
  "yastıdibli": {
   "az": "Dibi yastı, düz olan (yastıdibli qayıq).",
   "en": "flat-bottomed",
@@ -830,9 +822,7 @@
   "en": "cafe-restaurant",
   "pos": "noun"
  },
- "kantçılıq": {
-  "skip": "meaning not certain"
- },
+ "kantçılıq": {"az": "İmmanuel Kantın fəlsəfəsinə əsaslanan düşüncə istiqaməti.", "en": "Kantianism", "pos": "noun"},
  "kiberfəza": {
   "az": "Kompüter şəbəkələri və internet vasitəsilə yaranan virtual mühit.",
   "en": "cyberspace",
@@ -901,12 +891,8 @@
   "en": "high-explosive fragmentation",
   "pos": "adjective"
  },
- "qılıncquyruq": {
-  "skip": "animal name, not certain"
- },
- "qırmızıqaşlı": {
-  "skip": "meaning not certain"
- },
+ "qılıncquyruq": {"az": "Erkəyinin quyruq üzgəci qılınc kimi uzanan akvarium balığı.", "en": "swordtail fish", "pos": "noun"},
+ "qırmızıqaşlı": {"az": "Qaşları və ya qaş yerindəki zolağı qırmızı olan.", "en": "red-browed", "pos": "adjective"},
  "qızılçıxarma": {
   "az": "Yerin təkindən qızıl hasil etmə (qızılçıxarma sənayesi).",
   "en": "gold mining",

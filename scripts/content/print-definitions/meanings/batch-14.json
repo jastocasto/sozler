@@ -282,9 +282,7 @@
   "en": "end, break (mostly negated: without a break, incessantly)",
   "pos": "noun"
  },
- "armatur-konstruksiya": {
-  "skip": "technical term, meaning not certain"
- },
+ "armatur-konstruksiya": {"az": "Betonu möhkəmləndirmək üçün çubuqlardan və ya tordan yığılan quruluş.", "en": "reinforcing steel framework", "pos": "noun"},
  "arpa-buğda": {
   "az": "Arpa, buğda və bu kimi dənli bitkilər; taxıl.",
   "en": "barley and wheat; grain",

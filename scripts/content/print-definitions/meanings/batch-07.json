@@ -206,9 +206,7 @@
   "en": "bioelectricity",
   "pos": "noun"
  },
- "boruçiçək": {
-  "skip": "plant name, not certain"
- },
+ "boruçiçək": {"az": "Tacı uzunsov boruya bənzəyən çiçəklər açan, sümürgənkimilərdən ot bitkisi.", "en": "tubeflower of the genus Solenanthus", "pos": "noun"},
  "çəpişotu": {
   "skip": "plant name, not certain"
  },
@@ -250,9 +248,7 @@
  "qışlaqotu": {
   "skip": "plant name, not certain"
  },
- "qolluq": {
-  "skip": "meaning not certain"
- },
+ "qolluq": {"az": "Paltarın qolunu qorumaq və ya qolu örtmək üçün ayrıca taxılan geyim hissəsi.", "en": "sleeve protector", "pos": "noun"},
  "quşçanaqlı": {
   "skip": "meaning not certain"
  },
@@ -271,9 +267,7 @@
   "en": "hymenopterous",
   "pos": "adjective"
  },
- "pişikdırnağı": {
-  "skip": "plant name, not certain"
- },
+ "pişikdırnağı": {"az": "Tikanlı budaqları və paxla meyvəsi olan yabanı kol.", "en": "cat’s claw shrub of the genus Lagonychium", "pos": "noun"},
  "zenit-artilleriya": {
   "az": "Hava hədəflərinə atəş açmaq üçün nəzərdə tutulmuş artilleriya.",
   "en": "anti-aircraft artillery",
@@ -417,9 +411,7 @@
   "en": "assistance; work as an assistant",
   "pos": "noun"
  },
- "qayaotu": {
-  "skip": "plant name, not certain"
- },
+ "qayaotu": {"az": "Qayalıqda bitən, o cümlədən yarpaqları sıx dairə əmələ gətirən bəzi ot bitkilərinin adı.", "en": "name for rock-growing plants such as houseleek and saxifrage", "pos": "noun"},
  "milli-etnik": {
   "az": "Millət və etnik qrupla bağlı olan (milli-etnik azlıqlar).",
   "en": "national-ethnic, ethnonational",
@@ -547,12 +539,8 @@
   "en": "in-line, within a line (of text)",
   "pos": "adjective"
  },
- "solmazçiçək": {
-  "skip": "plant name, not certain"
- },
- "tamhəcmli": {
-  "skip": "meaning not certain"
- },
+ "solmazçiçək": {"az": "Çiçək səbətləri quruduqdan sonra da rəngini və formasını saxlayan ot bitkisi.", "en": "everlasting or immortelle", "pos": "noun"},
+ "tamhəcmli": {"az": "Nəzərdə tutulan ölçüyə və ya həcmin hamısına malik olan.", "en": "full-sized or full-volume", "pos": "adjective"},
  "ultramüasir": {
   "az": "Ən yeni dəbə və üsullara uyğun olan; çox müasir.",
   "en": "ultramodern",
@@ -685,9 +673,7 @@
   "en": "sand and gravel (mixture)",
   "pos": "noun"
  },
- "dağnanəsi": {
-  "skip": "plant name, not certain"
- },
+ "dağnanəsi": {"az": "Nanəkimilərdən olan, yabanı bitən və kəskin nanə ətri verən ot bitkisi.", "en": "wild mint-scented herb of the genus Ziziphora", "pos": "noun"},
  "damardaxili": {
   "az": "Damarın içinə yeridilən, damar daxilində olan (damardaxili iynə).",
   "en": "intravenous",
@@ -706,12 +692,8 @@
  "enliqulaq": {
   "skip": "animal name, not certain"
  },
- "həmişəyaşar": {
-  "skip": "meaning not certain"
- },
- "xayalıq": {
-  "skip": "meaning not certain"
- },
+ "həmişəyaşar": {"az": "İlboyu yaşıl qalan və yarpaqlarının hamısını bir mövsümdə tökməyən.", "en": "evergreen", "pos": "adjective"},
+ "xayalıq": {"az": "Xayaların yerləşdiyi dəri kisəsi.", "en": "scrotum", "pos": "noun"},
  "manevretmə": {
   "az": "Manevr etmə; şəraitə uyğun olaraq məqsədli yerdəyişmə, hərəkət etmə.",
   "en": "manoeuvring",

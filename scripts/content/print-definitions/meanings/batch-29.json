@@ -451,9 +451,7 @@
   "en": "air show, aerospace exhibition",
   "pos": "noun"
  },
- "aviasiqnal": {
-  "skip": "meaning not certain"
- },
+ "aviasiqnal": {"az": "Uçuşa və ya təyyarənin hərəkətinə dair verilən işıq, səs və ya radio işarəsi.", "en": "aviation signal", "pos": "noun"},
  "aviastansiya": {
   "skip": "meaning not certain"
  },
@@ -583,15 +581,9 @@
   "en": "rather open; lightish (in colour)",
   "pos": "adjective"
  },
- "ağacbasdıran": {
-  "skip": "meaning not certain"
- },
- "ağacbasdırma": {
-  "skip": "meaning not certain"
- },
- "ağacdoğrama": {
-  "skip": "meaning not certain (wood chopping or wooden joinery)"
- },
+ "ağacbasdıran": {"az": "Ağac tinglərini torpağa əkən adam və ya maşın.", "en": "tree planter", "pos": "noun"},
+ "ağacbasdırma": {"az": "Tingi torpağa yerləşdirib ağac əkmə işi.", "en": "tree planting", "pos": "noun"},
+ "ağacdoğrama": {"az": "Ağacı və ya ağac materialını hissələrə kəsmə işi.", "en": "cutting wood", "pos": "noun"},
  "ağacdələnkimi": {
   "az": "Ağacdələnə oxşayan; ağacdələnkimilərə aid (quş).",
   "en": "woodpecker-like; piciform",

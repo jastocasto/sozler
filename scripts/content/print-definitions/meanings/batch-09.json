@@ -64,9 +64,7 @@
   "en": "furs and skins, fur and leather",
   "pos": "noun"
  },
- "xortumçiçək": {
-  "skip": "plant name, not certain"
- },
+ "xortumçiçək": {"az": "Çiçəyinin üst hissəsi dimdik kimi uzanan ot bitkisi.", "en": "beaked plant of the genus Rhynchocorys", "pos": "noun"},
  "iritonnajlı": {
   "az": "Böyük tonnajı, yükgötürmə qabiliyyəti olan (iritonnajlı gəmi).",
   "en": "large-tonnage, heavy-tonnage",
@@ -114,9 +112,7 @@
   "pos": "adjective",
   "parts": false
  },
- "malalan": {
-  "skip": "meaning not certain"
- },
+ "malalan": {"az": "Malı satan tərəfdən alan şəxs və ya müəssisə.", "en": "buyer", "pos": "noun"},
  "mesenatlıq": {
   "az": "Elm, mədəniyyət və incəsənətə maddi himayədarlıq etmə.",
   "en": "patronage of the arts",
@@ -622,9 +618,7 @@
  "üzgəcotu": {
   "skip": "plant name, not certain"
  },
- "videomətn": {
-  "skip": "meaning not certain"
- },
+ "videomətn": {"az": "Videoda görünən yazı və ya video üçün hazırlanmış mətn.", "en": "text displayed in or prepared for a video", "pos": "noun"},
  "vinilpiridin": {
   "az": "Polimer və sintetik kauçuk istehsalında işlədilən üzvi birləşmə.",
   "en": "vinylpyridine",
