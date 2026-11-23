@@ -320,7 +320,10 @@ def possessive_stem(word):
         return stem if stem[-1] in VOWELS else None
     if stem[-1] in VOWELS:
         return None
-    return stem[:-1] + {'ğ': 'q', 'y': 'k'}.get(stem[-1], stem[-1]) if stem[-1] in 'ğy' else stem
+    # Only a word of two or more syllables voices its final q/k (ayağı, çörəyi); dağı is dağ and payı is pay.
+    if stem[-1] in 'ğy' and sum(ch in VOWELS for ch in stem) >= 2:
+        return stem[:-1] + {'ğ': 'q', 'y': 'k'}[stem[-1]]
+    return stem
 
 
 def definition_sentences(text, limit=3):
@@ -1053,16 +1056,25 @@ class Builder:
             # An izafet head carries the possessive even when the bare form is another word: rüşeym qat-ı (not qatı,
             # thick), çoban it-i (not iti, sharp). Not after a possessive form, where it is a predicate: ucu iti (sharp).
             nominal = lambda c: c and (self.usable(c) or {}).get('pos') in ('noun', 'word')
-            if (head == token and definition['pos'] == 'noun' and not nominal(token) and index > 0 and stem != token
-                    and not (possessive_stem(tokens[index - 1]) != tokens[index - 1] and not self.usable(tokens[index - 1]))):
-                stems = [stem] + ([stem[:-1] + {'ğ': 'q', 'y': 'k'}[stem[-1]]] if stem and stem[-1] in 'ğy' else [])
-                head = next((c for c in stems if nominal(c)), head)
+            izafet = (definition['pos'] == 'noun' and index > 0 and stem and stem != token
+                      and not (possessive_stem(tokens[index - 1]) != tokens[index - 1] and not self.usable(tokens[index - 1])))
+            # Only a word of two or more syllables softens its k (çörəyi), so payı is pay, never pak.
+            softened = ([stem[:-1] + {'ğ': 'q', 'y': 'k'}[stem[-1]]]
+                        if stem and stem[-1] in 'ğy' and sum(ch in VOWELS for ch in stem) >= 2 else [])
+            if head == token and izafet and not nominal(token):
+                head = next((c for c in [stem] + softened if nominal(c)), head)
+            # An izafet head is a noun even where the headword is listed as an adjective: pul vahid-i, şəkər xəstə-si.
+            noun_reading = False
+            if izafet and not self.usable(token):
+                adjective = next((c for c in [stem] + softened if (self.usable(c) or {}).get('pos') == 'adjective'), None)
+                if adjective and (head == stem and (self.usable(stem) or {}).get('pos') == 'adjective' or not self.usable(head)):
+                    head, noun_reading = adjective, True
             if head in KIND_HEADS and index > 0:
                 continue
             if head in GENERIC_HEADS or head == word:
                 return []
             pos = self.usable(head)['pos']
-            if pos != definition['pos'] and not (definition['pos'] == 'noun' and pos == 'word'):
+            if pos != definition['pos'] and not (definition['pos'] == 'noun' and pos == 'word') and not noun_reading:
                 return []
             return [('genus', head)]
         return []
