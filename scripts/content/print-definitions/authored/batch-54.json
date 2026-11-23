@@ -1063,9 +1063,7 @@
   "en": "passivation",
   "pos": "noun"
  },
- "pasta": {
-  "skip": "several unrelated senses"
- },
+ "pasta": {"az": "Xəmirəbənzər qatı kütlə (diş pastası); italyan makaron yeməyi.", "en": "paste; pasta", "pos": "noun"},
  "pasterellyoz": {
   "az": "Heyvanların pasterellaların törətdiyi yoluxucu xəstəliyi.",
   "en": "pasteurellosis",

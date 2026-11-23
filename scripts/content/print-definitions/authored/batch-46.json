@@ -355,9 +355,7 @@
   "en": "pharmacodynamics",
   "pos": "noun"
  },
- "farmakoterapevt": {
-  "skip": "meaning not certain"
- },
+ "farmakoterapevt": {"az": "Dərmanlarla müalicə üzrə həkim.", "en": "pharmacotherapist", "pos": "noun"},
  "fatik funksiya": {
   "az": "Dilin ünsiyyəti qurmaq və saxlamaq funksiyası.",
   "en": "phatic function",

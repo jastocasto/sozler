@@ -387,9 +387,7 @@
   "en": "confluence",
   "pos": "noun"
  },
- "suqovuşan": {
-  "skip": "meaning not certain"
- },
+ "suqovuşan": {"az": "Çayların birləşdiyi yer.", "en": "confluence of rivers", "pos": "noun"},
  "sulələyi": {
   "skip": "meaning not certain"
  },

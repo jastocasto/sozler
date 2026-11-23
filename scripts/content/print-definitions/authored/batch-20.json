@@ -1077,9 +1077,7 @@
 "infrakanilkulyar": {
 "skip": "meaning not known with confidence"
 },
-"infuzor": {
-"skip": "meaning not known with confidence"
-},
+"infuzor": {"az": "Kirpikləri olan birhüceyrəli ibtidai heyvan.", "en": "infusorian, ciliate", "pos": "noun"},
 "infuzoriya": {
 "az": "Kirpikli birhüceyrəlilər.",
 "en": "infusoria",

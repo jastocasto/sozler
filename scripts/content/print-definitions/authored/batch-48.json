@@ -476,9 +476,7 @@
  "imetiqo": {
   "skip": "meaning not certain"
  },
- "imiş": {
-  "skip": "form not certain"
- },
+ "imiş": {"az": "«İmək» köməkçi felinin nəqli keçmiş forması: deyilənə görə, məlum olduğu kimi idi.", "en": "evidential past of the copula: apparently was, reportedly was", "pos": "particle"},
  "immunlu": {
   "skip": "meaning not certain"
  },
