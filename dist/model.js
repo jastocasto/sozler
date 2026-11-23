@@ -46,7 +46,7 @@ function createModel(raw,extra={nodes:[],edges:[],enrichment:{}},grammar={record
   if(activeSpellings.has(spelling))continue;
   const definition=lexical.definitions?.[w];
   const az=definition?.az||'',en=definition?.en||'';
-  const node={id:allNodes.length+orthographyNodes.length,w,lower,key:normalize(w),az,en,english:normalize(en),azerbaijani:normalize(az),pos:lexical.verbs?.[w]?'verb':definition?.pos||'word',quality:'orthography',orthographyPage:page,verbEvidence:lexical.verbs?.[w],definitionSources:definition?.refs,...(definition?.method?{definitionMethod:definition.method}:{}),...(definition?.confidence?{definitionConfidence:definition.confidence}:{}),...(definition?.base||definition?.see?{definitionBase:definition.base||definition.see}:{})};
+  const node={id:allNodes.length+orthographyNodes.length,w,lower,key:normalize(w),az,en,english:normalize(en),azerbaijani:normalize(az),pos:lexical.verbs?.[w]?'verb':definition?.pos||'word',quality:'orthography',orthographyPage:page,verbEvidence:lexical.verbs?.[w],definitionSources:definition?.refs,...(definition?.method?{definitionMethod:definition.method}:{}),...(definition?.confidence?{definitionConfidence:definition.confidence}:{}),...(definition?.base||definition?.see?{definitionBase:definition.base||definition.see}:{}),...(definition?.formation?{definitionFormation:definition.formation}:{})};
   activeSpellings.add(spelling);
   orthographyNodes.push(node);
   nodes.push(node);

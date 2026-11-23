@@ -4,6 +4,7 @@
 #   scripts/autopilot.sh setup        build the print-dictionary caches and model export in .cache/print (once per container)
 #   scripts/autopilot.sh queue [N]    print the next N words that need an AI-written definition (default 250)
 #   scripts/autopilot.sh next-batch   print the next free authored batch number (NN)
+#   scripts/autopilot.sh meaning-queue [N]  print the next N words whose definition only says how they are built
 #   scripts/autopilot.sh rebuild      rebuild every generated file from the batches and run the quick tests
 #   scripts/autopilot.sh release      full test suite; if only the known failures remain, publish HEAD to
 #                                     soz-toxumasi (fast-forward only) and check the live site
@@ -29,6 +30,9 @@ setup)
   ;;
 queue)
   python3 scripts/list_authoring_queue.py $P/model.json $P/izahli.sqlite $P/musayev.sqlite "${2:-250}"
+  ;;
+meaning-queue)
+  python3 scripts/list_meaning_queue.py $P/model.json $P/izahli.sqlite $P/musayev.sqlite "${2:-150}"
   ;;
 next-batch)
   python3 -c "import os;have={int(f[6:8]) for f in os.listdir('scripts/content/print-definitions/authored') if f.startswith('batch-') and f.endswith('.json') and 'part' not in f};print('%02d'%(max(have)+1))"

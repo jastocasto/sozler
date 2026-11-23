@@ -70,6 +70,8 @@ dialog{background:#46463f;border:1px solid #99917d70;color:#e8e0ce;border-radius
 .analysis-form b{font-weight:400;color:#f3d98e}
 .analysis-joint{color:#a89f8c;margin:0 1px}
 .meaning-grammar .searched-form{display:block;width:100%;margin:0 0 4px;color:#e2d6bf}
+.meaning-grammar .formation-note{display:block;width:100%;margin:0 0 4px;color:#c8bdad}
+.formation-label{color:#9f927c}
 .searched-form strong{font-weight:400;color:#f3d98e}
 .searched-form-en{color:#cbbb9f}
 /* Word origin and homonyms in the expanded meaning sheet. */

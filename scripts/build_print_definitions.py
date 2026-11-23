@@ -127,6 +127,9 @@ CASE_OF = {'a': 'dative', 'ə': 'dative', 'ya': 'dative', 'yə': 'dative', 'dan'
            'da': 'locative', 'də': 'locative', 'nı': 'accusative', 'ni': 'accusative', 'nu': 'accusative', 'nü': 'accusative',
            'sı': 'possessive', 'si': 'possessive', 'su': 'possessive', 'sü': 'possessive'}
 PAIRED_ENDINGS = {'sı', 'si', 'su', 'sü', 'nı', 'ni', 'nu', 'nü', 'lı', 'li', 'lu', 'lü'}
+# Rule definitions that only state how the word is built.
+FORMATION_ONLY = re.compile(r'sözlərindən düzələn (?:qoşa|mürəkkəb) söz\.$|sözlərindən ibarət birləşmə\.$|'
+                            r'ön hissəsi artırılmaqla düzələn söz\.$|şəkilçisi ilə düzələn isim\.$')
 POS = {'noun', 'verb', 'adjective', 'adverb', 'numeral', 'pronoun', 'interjection', 'postposition',
        'conjunction', 'particle', 'phrase'}
 EXPLICIT_FROM = re.compile(r'^"([^"]+)"\s*-?\s*(?:dan|dən|ın|in|un|ün)?\s*(?:sözündən\s+)?'
@@ -371,6 +374,12 @@ class Builder:
             self.musayev[k].append((text, page))
         self.definitions = {}
         self.edges = []
+        # AI-written meanings for words whose rule definition only states the formation (meanings/*.json);
+        # "parts": false marks a word the compound and suffix rules split wrongly (transport is not trans + port).
+        self.meaning_entries = {}
+        for path in sorted((CONTENT / 'meanings').glob('batch-[0-9][0-9].json')):
+            self.meaning_entries.update(json.loads(path.read_text()))
+        self.unsplit = {w for w, e in self.meaning_entries.items() if e.get('parts') is False}
         self.stats = collections.Counter()
         self._senses = {}
         self.form_kind = {}
@@ -452,6 +461,43 @@ class Builder:
                 self.define(word, az[0].upper() + az[1:], en[0].lower() + en[1:] if en[:2] != 'I ' else en, pos,
                             [spelling_source(page)], 'authored')
 
+    # Meanings for formation-only rule definitions -------------------------------------------
+    def meanings(self):
+        """A rule definition such as «istək» və «arzulu» sözlərindən düzələn qoşa söz says how a word is built, not what
+        it means. An AI-written meaning (meanings/*.json) replaces it; the formation is kept as a note, and the links to
+        the parts stay. A word the rules split wrongly ("parts": false) was never split, so it gets the meaning alone."""
+        for word, entry in self.meaning_entries.items():
+            if 'skip' in entry or word not in self.nodes:
+                continue
+            az, en, pos = entry.get('az', '').strip(), entry.get('en', '').strip(), entry.get('pos')
+            page = self.nodes[word].get('page')
+            if not az.endswith('.') or not en or pos not in POS or len(az) > 260 or len(en) > 200 or not page:
+                self.stats['meaning:rejected-format'] += 1
+                continue
+            k = key(word)
+            refs = []
+            if entry.get('src'):
+                printed = [row for row in self.print.get(k, []) if not EXPLICIT_FROM.match(row[0]) and not SEE_ONLY.match(row[0])]
+                if ngrams(az) & ngrams(' '.join(text for text, *_ in printed)):
+                    self.stats['meaning:rejected-copy'] += 1
+                    continue
+                if entry['src'] in ('izahli', 'both'):
+                    refs += [print_source(volume, p) for _, volume, p in printed[:2]]
+                if entry['src'] in ('musayev', 'both'):
+                    refs += [bilingual_source(p) for _, p in self.musayev.get(k, [])[:1]]
+            current = self.definitions.get(word)
+            az, en = az[0].upper() + az[1:], en[0].lower() + en[1:] if en[:2] != 'I ' else en
+            if self.undefined(word):
+                self.define(word, az, en, pos, refs + [spelling_source(page)], 'meaning')
+            elif current and current['method'] == 'rule' and FORMATION_ONLY.search(current['az']):
+                extra = {'formation': {'az': current['az'], 'en': current['en']}}
+                if current.get('base'):
+                    extra['base'] = current['base']
+                self.define(word, az, en, pos, refs + [r for r in current['refs'] if r not in refs], 'meaning', **extra)
+                self.stats['definitions:rule'] -= 1
+            else:
+                self.stats['meaning:not-applied'] += 1
+
     # Templates --------------------------------------------------------------------
     def verbal_noun(self, verb, base):
         ing = clean_form((base.get('verbForms') or {}).get('ing'))
@@ -530,7 +576,7 @@ class Builder:
     # Productive suffixes ------------------------------------------------------------------
     def analyses(self, word):
         """Yield (base_word, kind, suffix) for transparent derivations of an existing headword."""
-        if ' ' in word or len(word) < 5:
+        if ' ' in word or len(word) < 5 or word in self.unsplit:
             return
         # Doubled converb (ağlaya-ağlaya, bilə-bilə) or doubled noun (mərhələ-mərhələ, parça-parça).
         match = re.fullmatch(r'([^- ]+)-\1', word)
@@ -851,6 +897,8 @@ class Builder:
 
     def compound_parts(self, word):
         """Return (parts, kind) for a compound of existing headwords, or None."""
+        if word in self.unsplit:
+            return None
         if re.search(r'[- ]', word):
             parts = []
             for piece in re.split(r'[- ]', word):
@@ -1436,6 +1484,7 @@ def main():
         builder.compounds()
         if len(builder.definitions) + len(builder.edges) == size:
             break
+    builder.meanings()
     builder.definition_links()
     builder.bilingual_references()
     builder.leading_references()

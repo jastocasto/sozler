@@ -159,7 +159,7 @@ const pick = (o, keys) => Object.fromEntries(keys.map(k => [k, o[k]]));
 // Definitions, senses and their citations go to soz-text.json, which the page
 // fetches right after the core: the map, word search and verb wheel do not
 // need them, so the first screen arrives sooner.
-const TEXT_FIELDS = new Set(['az', 'en', 'bilingualSenses', 'definitionSources', 'definitionReviewAttribution', 'definitionBase']);
+const TEXT_FIELDS = new Set(['az', 'en', 'bilingualSenses', 'definitionSources', 'definitionReviewAttribution', 'definitionBase', 'definitionFormation']);
 const textPart = { cols: {}, sparse: {}, refs, english, azerbaijani };
 for (const field of Object.keys(cols)) if (TEXT_FIELDS.has(field)) { textPart.cols[field] = cols[field]; delete cols[field]; }
 for (const field of Object.keys(sparse)) if (TEXT_FIELDS.has(field)) { textPart.sparse[field] = sparse[field]; delete sparse[field]; }

@@ -10,7 +10,7 @@ const args = [w.WORD_WEB_DATA, w.WORD_WEB_EXTRA, w.WORD_WEB_GRAMMAR, w.WORD_WEB_
   w.WORD_WEB_VERIFICATION, w.WORD_WEB_ORTHOGRAPHY, w.WORD_WEB_ORTHOGRAPHY_LEXICAL];
 const before = createModel(...args), m = createModel(...args, w.WORD_WEB_PRINT_DEFINITIONS), layer = w.WORD_WEB_PRINT_DEFINITIONS;
 const attribution = JSON.parse(fs.readFileSync('dist/print-definitions-attribution.json', 'utf8'));
-const METHODS = new Set(['paraphrase', 'derivation', 'cross-reference', 'rule', 'authored']);
+const METHODS = new Set(['paraphrase', 'derivation', 'cross-reference', 'rule', 'authored', 'meaning']);
 const POS = new Set(['noun', 'verb', 'adjective', 'adverb', 'numeral', 'pronoun', 'interjection', 'postposition', 'conjunction', 'particle', 'phrase']);
 
 // Same headwords, same identities and the same atlas: the layer adds text and links only.
@@ -44,6 +44,12 @@ for (const [word, d] of Object.entries(layer.definitions)) {
   if (d.method === 'authored') assert(d.refs.length === 1 && /Orfoqrafiya_2021/.test(d.refs[0].url), word + ' authored cites the spelling only');
   if (d.method === 'rule' || d.method === 'derivation') assert(m.byWord.has(d.base), word + ' names an existing base word');
   if (d.method === 'cross-reference') assert(m.byWord.has(d.see), word + ' names an existing target');
+  // An AI-written meaning replaces a rule definition that only said how the word is built; that formation stays as a note.
+  if (d.method === 'meaning') {
+    assert(d.refs.some(r => /Orfoqrafiya_2021/.test(r.url)), word + ' meaning cites the spelling');
+    if (d.formation) assert(/(?:sözlərindən düzələn (?:qoşa|mürəkkəb) söz|sözlərindən ibarət birləşmə|ön hissəsi artırılmaqla düzələn söz|şəkilçisi ilə düzələn isim)\.$/.test(d.formation.az) && d.formation.en, word + ' formation note');
+    assert(!/sözlərindən düzələn|ön hissəsi artırılmaqla|şəkilçisi ilə düzələn/.test(d.az), word + ' meaning is not a formation');
+  }
 }
 
 // Links join existing headwords once, carry a cited reason, and respect every block list.
@@ -76,6 +82,14 @@ assert(edge('mumiyalama', 'mumiyalamaq', 'root'));
 assert.equal(node('elektrocərrahiyyə').en, 'electrosurgery');
 assert(edge('damardaxili', 'damar', 'topic') && edge('damardaxili', 'daxili', 'topic'));
 assert.equal(node('stulsuz').en, 'without chair');
+// A paired word gets its meaning, with the formation kept apart (istək + arzulu); a wrong split is never made.
+assert.equal(node('istək-arzulu').definitionMethod, 'meaning');
+assert(!/düzələn/.test(node('istək-arzulu').az));
+assert.match(node('istək-arzulu').definitionFormation.az, /«istək» və «arzulu»/);
+assert(edge('istək-arzulu', 'arzulu', 'topic'));
+assert.equal(node('transport').definitionMethod, 'meaning');
+assert(!node('transport').definitionFormation);
+assert(!edge('transport', 'port', 'topic') && !edge('transport', 'trans', 'topic'));
 const degree = model => { const d = new Map(); for (const e of model.edges) { d.set(e.a.w, 1); d.set(e.b.w, 1); } return model.nodes.filter(n => !d.has(n.w)).length; };
 const isolatedBefore = degree(before), isolatedAfter = degree(m);
 assert(isolatedAfter < isolatedBefore, 'fewer isolated words');
