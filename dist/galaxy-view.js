@@ -137,10 +137,14 @@ function mount({model,onSelect,onLocation,onView}){
     if(Math.hypot(chosen.homeX-chosen.x,chosen.homeY-chosen.y)<.01&&Math.hypot(chosen.vx,chosen.vy)<.01){chosen.x=chosen.homeX;chosen.y=chosen.homeY;chosen.vx=chosen.vy=0;}
    }
    const centerMotion=chosen?Math.abs(chosen.vx)+Math.abs(chosen.vy):0,centerVelocity=chosen?{x:chosen.vx,y:chosen.vy}:null;
-   energy=P.step(bodies,[],anchor())+centerMotion;growRadii();if(chosen&&chosen!==drag?.particle){chosen.vx=centerVelocity.x;chosen.vy=centerVelocity.y;}accumulator-=16.66;
+   // Stillness is judged on the selection's own bubbles: two background words whose map spots sit closer than their
+   // circles can nudge each other indefinitely, and they freeze with everything else once the selection rests.
+   const bx=particles.map(p=>p.x),by=particles.map(p=>p.y);P.step(bodies,[],anchor());energy=particles.reduce((e,p,i)=>e+Math.abs(p.x-bx[i])+Math.abs(p.y-by[i])+Math.abs(p.scaleV||0)*30,0)+centerMotion;growRadii();if(chosen&&chosen!==drag?.particle){chosen.vx=centerVelocity.x;chosen.vy=centerVelocity.y;}accumulator-=16.66;
   }constrain();
-   if(steps&&!drag){if(energy/Math.max(1,bodies.length)<.025&&clock-motionStarted>1000&&(!chosen||Math.hypot(chosen.x-chosen.homeX,chosen.y-chosen.homeY)<.01))idleFrames++;else idleFrames=0;
-    if(!selectionTravel&&!particles.some(p=>p.waiting)&&(idleFrames>=20||clock-motionStarted>5200)){settled=true;for(const p of bodies){p.vx=p.vy=p.scaleV=0;p.scale=1;}constrain();}
+   if(steps&&!drag){if(energy/Math.max(1,particles.length)<.025&&clock-motionStarted>1000&&(!chosen||Math.hypot(chosen.x-chosen.homeX,chosen.y-chosen.homeY)<.01))idleFrames++;else idleFrames=0;
+    // Rest once motion is idle, or at the latest 4.2 s after the last kick: bubbles that keep nudging one another
+    // (which depends on where each started on the map) must not hold the selection open.
+    if(!selectionTravel&&!particles.some(p=>p.waiting)&&(idleFrames>=20||clock-motionStarted>4200)){settled=true;for(const p of bodies){p.vx=p.vy=p.scaleV=0;p.scale=1;}constrain();}
    }
   }
   for(const p of bodies){p.el.setAttribute('transform',`translate(${p.x.toFixed(3)} ${p.y.toFixed(3)}) scale(${p.scale.toFixed(3)})`);p.circle.setAttribute('r',p.r);if(p.orbit){p.orbit.setAttribute('r',p.r+7);p.orbit.setAttribute('opacity',G.clamp(p.r/18,0,1));}p.label.setAttribute('transform','scale('+p.r/p.homeR+')');p.label.setAttribute('opacity',p.depth===0?G.clamp((p.r-2)/10,0,1):G.clamp((p.r-6)/10,0,1));}

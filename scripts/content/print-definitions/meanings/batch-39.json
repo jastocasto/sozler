@@ -1,0 +1,907 @@
+{
+ "parafimoz": {
+  "az": "Sünnət dərisinin geri çəkilib başcığın arxasında sıxılması və onu boğması ilə gedən patoloji hal.",
+  "en": "paraphimosis",
+  "pos": "noun",
+  "parts": false
+ },
+ "paragenezis": {
+  "az": "Eyni geoloji proses nəticəsində mineralların birgə əmələ gəlməsi və təbiətdə birlikdə rast gəlinməsi.",
+  "en": "paragenesis (of minerals)",
+  "pos": "noun",
+  "parts": false
+ },
+ "parahelium": {
+  "az": "Atomundakı iki elektronun spinləri əks istiqamətli olan helium halı.",
+  "en": "parahelium",
+  "pos": "noun",
+  "parts": false
+ },
+ "parakauçuk": {
+  "az": "Braziliya heveyası ağacının şirəsindən alınan yüksək keyfiyyətli təbii kauçuk.",
+  "en": "Pará rubber",
+  "pos": "noun",
+  "parts": false
+ },
+ "paraklimaks": {
+  "skip": "ecology term, exact meaning not certain"
+ },
+ "parakrezol": {
+  "az": "Krezolun para izomeri; dezinfeksiyada və üzvi sintezdə işlədilən maddə.",
+  "en": "p-cresol, para-cresol",
+  "pos": "noun",
+  "parts": false
+ },
+ "paraksilol": {
+  "az": "Ksilolun para izomeri; plastik kütlə və sintetik lif istehsalında xammal kimi işlədilir.",
+  "en": "p-xylene, para-xylene",
+  "pos": "noun",
+  "parts": false
+ },
+ "paraleksem": {
+  "skip": "linguistic term, meaning not certain"
+ },
+ "paranefrit": {
+  "az": "Böyrəyi əhatə edən piy toxumasının iltihabı.",
+  "en": "paranephritis",
+  "pos": "noun",
+  "parts": false
+ },
+ "paranekroz": {
+  "az": "Zərərli təsir altında hüceyrədə nekrozdan əvvəl baş verən, geri dönə bilən dəyişikliklər halı.",
+  "en": "paranecrosis",
+  "pos": "noun",
+  "parts": false
+ },
+ "paranitrofenol": {
+  "az": "Nitrofenolun para izomeri; boyaq və dərman maddələri istehsalında işlədilən sarımtıl kristal maddə.",
+  "en": "p-nitrophenol, para-nitrophenol",
+  "pos": "noun",
+  "parts": false
+ },
+ "paraplazma": {
+  "skip": "biology term, meaning not certain"
+ },
+ "paraqneys": {
+  "az": "Çökmə süxurların metamorfizmi nəticəsində əmələ gələn qneys.",
+  "en": "paragneiss",
+  "pos": "noun",
+  "parts": false
+ },
+ "parasimbioz": {
+  "az": "İki orqanizmin bir-birinə nə xeyir, nə də ziyan vermədən birgə yaşaması.",
+  "en": "parasymbiosis",
+  "pos": "noun",
+  "parts": false
+ },
+ "parasintetik": {
+  "az": "Eyni vaxtda həm söz birləşməsi, həm də şəkilçiləşmə yolu ilə yaranan (sözlər haqqında).",
+  "en": "parasynthetic (in word formation)",
+  "pos": "adjective",
+  "parts": false
+ },
+ "parasintez": {
+  "az": "Sözün eyni vaxtda həm kök birləşməsi, həm də şəkilçi artırılması yolu ilə yaranması.",
+  "en": "parasynthesis (in word formation)",
+  "pos": "noun",
+  "parts": false
+ },
+ "paravirus": {
+  "skip": "meaning not certain"
+ },
+ "parazitdaşıma": {
+  "az": "Orqanizmin özündə parazit gəzdirməsi; parazit daşıyıcılığı.",
+  "en": "parasite carriage",
+  "pos": "noun"
+ },
+ "parazitdaşıyan": {
+  "az": "Özündə parazit gəzdirən və onu yayan (parazitdaşıyan həşəratlar).",
+  "en": "parasite-carrying",
+  "pos": "adjective"
+ },
+ "parkdaxili": {
+  "az": "Parkın ərazisində olan (parkdaxili yollar).",
+  "en": "within the park",
+  "pos": "adjective"
+ },
+ "parketdöşəyən": {
+  "az": "Parket döşəmə işi ilə məşğul olan usta.",
+  "en": "parquet layer",
+  "pos": "noun"
+ },
+ "parketdüzən": {
+  "az": "Döşəməyə parket düzən usta.",
+  "en": "parquet layer",
+  "pos": "noun",
+  "parts": false
+ },
+ "parksalma": {
+  "az": "Yeni park yaratma, ərazini abadlaşdırıb orada ağac və gül əkmə.",
+  "en": "laying out a park, park construction",
+  "pos": "noun"
+ },
+ "parlamentqabağı": {
+  "skip": "meaning not certain (time before parliament vs. area in front of it)"
+ },
+ "partizansayağı": {
+  "az": "Partizanlara xas tərzdə, partizan üsulu ilə (partizansayağı döyüşmək).",
+  "en": "partisan-style, guerrilla-style",
+  "pos": "adverb"
+ },
+ "parçatoxuma": {
+  "az": "Saplardan parça toxuma işi; toxuculuq.",
+  "en": "cloth weaving",
+  "pos": "noun"
+ },
+ "parçatoxuyan": {
+  "az": "Parça toxuyan (parçatoxuyan dəzgah, fəhlə).",
+  "en": "cloth-weaving; weaver",
+  "pos": "adjective"
+ },
+ "pasaçan": {
+  "az": "Pası yumşaldıb paslanmış hissələri açmağa kömək edən (pasaçan maye).",
+  "en": "rust-loosening (e.g. penetrating oil)",
+  "pos": "adjective"
+ },
+ "pastəmizləyən": {
+  "az": "Metal səthi pasdan təmizləyən (pastəmizləyən vasitə).",
+  "en": "rust-removing",
+  "pos": "adjective"
+ },
+ "paxlameyvəli": {
+  "az": "Meyvəsi paxla, yəni qın şəklində olan (bitkilər haqqında).",
+  "en": "leguminous, pod-bearing",
+  "pos": "adjective"
+ },
+ "paxlaotu": {
+  "skip": "plant name, not certain"
+ },
+ "paxlaqurdu": {
+  "skip": "insect name, not certain"
+ },
+ "paxlaşəkilli": {
+  "az": "Paxla dənəsi formasında olan.",
+  "en": "bean-shaped",
+  "pos": "adjective"
+ },
+ "payminbər": {
+  "skip": "meaning not certain"
+ },
+ "payızqabağı": {
+  "az": "Payızın başlanmasından bir az əvvəlki vaxt; yayın son günləri.",
+  "en": "the time just before autumn, late summer",
+  "pos": "noun"
+ },
+ "payızsonu": {
+  "az": "Payızın son günləri, son çağı.",
+  "en": "late autumn, end of autumn",
+  "pos": "noun"
+ },
+ "pazotu": {
+  "skip": "plant name, not certain"
+ },
+ "pazqayışlı": {
+  "az": "Pazşəkilli kəsiyi olan qayışla hərəkət ötürən (pazqayışlı ötürmə).",
+  "en": "V-belt (drive)",
+  "pos": "adjective"
+ },
+ "pazyarpaqlı": {
+  "az": "Yarpaqları paz şəklində olan (bitki adlarında).",
+  "en": "cuneate-leaved, with wedge-shaped leaves",
+  "pos": "adjective"
+ },
+ "pensiyaqabağı": {
+  "az": "Pensiya yaşına çatmazdan əvvəlki (pensiyaqabağı yaş).",
+  "en": "pre-retirement",
+  "pos": "adjective"
+ },
+ "peritonxarici": {
+  "az": "Periton boşluğundan kənarda yerləşən və ya aparılan (peritonxarici əməliyyat).",
+  "en": "extraperitoneal",
+  "pos": "adjective"
+ },
+ "perqamentəbənzər": {
+  "az": "Perqamentə bənzəyən, perqament kimi nazik və quru (perqamentəbənzər dəri).",
+  "en": "parchment-like",
+  "pos": "adjective"
+ },
+ "petimetr": {
+  "az": "Zahiri görkəminə, dəbə və bəzəyə həddən artıq fikir verən kişi.",
+  "en": "fop, dandy",
+  "pos": "noun",
+  "parts": false
+ },
+ "peyvəndetmə": {
+  "az": "Xəstəliyə qarşı peyvənd vurma; bitkiyə calaq etmə.",
+  "en": "vaccination, inoculation; grafting",
+  "pos": "noun"
+ },
+ "peçenyebişirən": {
+  "az": "Peçenye bişirən (peçenyebişirən soba, usta).",
+  "en": "biscuit-baking",
+  "pos": "adjective"
+ },
+ "peçenyebükən": {
+  "az": "Peçenyeni kağıza büküb qablaşdıran (peçenyebükən maşın).",
+  "en": "biscuit-wrapping",
+  "pos": "adjective"
+ },
+ "peşəseçmə": {
+  "az": "Gələcək peşəni, ixtisası seçmə.",
+  "en": "career choice, choosing a profession",
+  "pos": "noun"
+ },
+ "piləəyirmə": {
+  "az": "Baramadan ipək sapı açıb əyirmə.",
+  "en": "silk reeling",
+  "pos": "noun"
+ },
+ "pipikotu": {
+  "skip": "plant name, not certain"
+ },
+ "piramidayaoxşar": {
+  "az": "Piramidaya oxşayan, piramida formasında olan.",
+  "en": "pyramid-like, pyramidal",
+  "pos": "adjective"
+ },
+ "pistonqolu": {
+  "skip": "technical term, meaning not certain"
+ },
+ "pisxislət": {
+  "az": "Xasiyyəti pis olan; pis niyyətli, kəmxislət (pisxislət adam).",
+  "en": "ill-natured, of bad character",
+  "pos": "adjective"
+ },
+ "pisxislətli": {
+  "az": "Xisləti, xasiyyəti pis olan; pis niyyətli.",
+  "en": "ill-natured, of bad character",
+  "pos": "adjective"
+ },
+ "piyadaəleyhinə": {
+  "az": "Piyada qoşuna, canlı qüvvəyə qarşı nəzərdə tutulan (piyadaəleyhinə mina).",
+  "en": "anti-personnel",
+  "pos": "adjective"
+ },
+ "piyaləgözlü": {
+  "az": "Gözləri iri və girdə olan.",
+  "en": "big-eyed, with large round eyes",
+  "pos": "adjective"
+ },
+ "piyaləşəkilli": {
+  "az": "Piyalə formasında olan, kasaya oxşayan.",
+  "en": "cup-shaped",
+  "pos": "adjective"
+ },
+ "piyəridən": {
+  "az": "Heyvan piyini əridib ondan yağ alan (piyəridən qazan).",
+  "en": "fat-rendering",
+  "pos": "adjective"
+ },
+ "piyəritmə": {
+  "az": "Heyvan piyini əridib ondan yağ alma.",
+  "en": "fat rendering",
+  "pos": "noun"
+ },
+ "pişikdili": {
+  "skip": "plant or product name, not certain"
+ },
+ "pişikkimi": {
+  "az": "Pişiyə bənzəyən, pişik kimi; pişikkimilər fəsiləsinə aid olan.",
+  "en": "cat-like; feline",
+  "pos": "adjective"
+ },
+ "pişikotukimi": {
+  "az": "Pişikotuya bənzəyən; pişikotukimilər fəsiləsinə aid olan (bitkilər).",
+  "en": "valerian-like; valerianaceous",
+  "pos": "adjective"
+ },
+ "pişikpəncəsi": {
+  "skip": "plant name, not certain"
+ },
+ "pişiksünbülü": {
+  "skip": "plant name, not certain"
+ },
+ "pişikyarpızı": {
+  "skip": "plant name, not certain"
+ },
+ "planetəbənzər": {
+  "az": "Planetə bənzəyən, planet xüsusiyyətləri olan (planetəbənzər cisim).",
+  "en": "planet-like",
+  "pos": "adjective"
+ },
+ "planetəoxşar": {
+  "az": "Planetə oxşayan, planet kimi olan.",
+  "en": "planet-like",
+  "pos": "adjective"
+ },
+ "planşayba": {
+  "az": "Tokar dəzgahının şpindelinə bərkidilən və emal olunan detalı tutan yastı disk.",
+  "en": "faceplate (of a lathe)",
+  "pos": "noun",
+  "parts": false
+ },
+ "platformadaxili": {
+  "az": "Platformanın daxilində olan, onun çərçivəsində işləyən (platformadaxili xidmətlər).",
+  "en": "in-platform, within a platform",
+  "pos": "adjective"
+ },
+ "plenumqabağı": {
+  "az": "Plenumdan əvvəlki, plenum ərəfəsinə aid olan (plenumqabağı günlər).",
+  "en": "pre-plenum, before a plenary session",
+  "pos": "adjective"
+ },
+ "polivinilasetat": {
+  "az": "Vinilasetatın polimerləşməsindən alınan sintetik qatran; yapışqan, lak və boyaların əsası.",
+  "en": "polyvinyl acetate (PVA)",
+  "pos": "noun"
+ },
+ "portdaxili": {
+  "az": "Limanın ərazisində olan (portdaxili daşımalar).",
+  "en": "intra-port, within the port",
+  "pos": "adjective"
+ },
+ "potaboylu": {
+  "skip": "meaning not certain"
+ },
+ "poçtdaşıma": {
+  "az": "Poçt göndərişlərinin bir yerdən başqa yerə daşınması.",
+  "en": "mail transport, mail carriage",
+  "pos": "noun"
+ },
+ "poçtdaşıyan": {
+  "az": "Poçt göndərişlərini daşıyan (poçtdaşıyan maşın); poçtalyon.",
+  "en": "mail-carrying; mail carrier",
+  "pos": "adjective"
+ },
+ "poçtpaylayan": {
+  "az": "Poçt göndərişlərini ünvanlara paylayan (işçi).",
+  "en": "mail-delivering; postman",
+  "pos": "adjective"
+ },
+ "premyeraqabağı": {
+  "az": "Premyeradan əvvəlki, premyera ərəfəsinə aid olan (premyeraqabağı məşqlər).",
+  "en": "pre-premiere",
+  "pos": "adjective"
+ },
+ "presbağlama": {
+  "az": "Pambığı, otu və s.-ni preslə sıxıb tay halında bağlama.",
+  "en": "press baling",
+  "pos": "noun"
+ },
+ "presbağlayan": {
+  "az": "Materialı preslə sıxıb tay halında bağlayan (presbağlayan maşın).",
+  "en": "baling; baler",
+  "pos": "adjective"
+ },
+ "probkadeşən": {
+  "az": "Tıxaclarda deşik açan (probkadeşən alət).",
+  "en": "cork-boring (e.g. a cork borer)",
+  "pos": "adjective"
+ },
+ "probkasıxan": {
+  "az": "Tıxacı sıxıb şüşənin ağzına keçirməyə imkan verən (probkasıxan alət).",
+  "en": "cork-compressing (e.g. a cork press)",
+  "pos": "adjective"
+ },
+ "proqramdankənar": {
+  "az": "Proqrama, xüsusən tədris proqramına daxil olmayan (proqramdankənar tədbirlər).",
+  "en": "extracurricular, outside the programme",
+  "pos": "adjective"
+ },
+ "protezdişli": {
+  "az": "Ağzında süni, protez dişlər olan.",
+  "en": "wearing dentures",
+  "pos": "adjective"
+ },
+ "protezqayırma": {
+  "az": "Protez hazırlama.",
+  "en": "making prostheses, prosthesis manufacture",
+  "pos": "noun"
+ },
+ "protezqoydurma": {
+  "az": "Həkimə müraciət edib protez taxdırma.",
+  "en": "having a prosthesis (denture) fitted",
+  "pos": "noun"
+ },
+ "pulcuqotu": {
+  "skip": "plant name, not certain"
+ },
+ "pulcuqçiçəkli": {
+  "skip": "botanical term, not certain"
+ },
+ "puldəyişdirmə": {
+  "az": "Pulu başqa valyutaya və ya xırda pula dəyişdirmə.",
+  "en": "money exchange, currency exchange",
+  "pos": "noun"
+ },
+ "puldəyişmə": {
+  "az": "Pulu başqa valyutaya və ya xırda pula dəyişmə.",
+  "en": "money changing, currency exchange",
+  "pos": "noun"
+ },
+ "puldəyişən": {
+  "az": "Pul dəyişməklə məşğul olan adam və ya məntəqə; sərraf.",
+  "en": "money changer",
+  "pos": "noun",
+  "parts": false
+ },
+ "pulköçürən": {
+  "az": "Pul köçürmələrini həyata keçirən (pulköçürən sistem, şirkət).",
+  "en": "money-transfer (service)",
+  "pos": "adjective"
+ },
+ "pulkəsmə": {
+  "az": "Sikkə kəsmə, metal pul zərb etmə.",
+  "en": "coinage, minting",
+  "pos": "noun"
+ },
+ "pulkəsən": {
+  "az": "Sikkə kəsən, metal pul zərb edən usta.",
+  "en": "coiner, minter",
+  "pos": "noun",
+  "parts": false
+ },
+ "pulsayan": {
+  "az": "Pulu sayan (pulsayan maşın).",
+  "en": "money-counting",
+  "pos": "adjective"
+ },
+ "pulyığan": {
+  "az": "Pul toplayan; pulu xərcləməyib qənaət edən.",
+  "en": "money-collecting; thrifty",
+  "pos": "adjective"
+ },
+ "pulyığma": {
+  "az": "Pul toplama; pulu xərcləməyib yığma.",
+  "en": "collecting money, fundraising; saving money",
+  "pos": "noun"
+ },
+ "pulçəkmə": {
+  "az": "Bank kartından və ya hesabdan nağd pul çıxarma.",
+  "en": "cash withdrawal",
+  "pos": "noun"
+ },
+ "pöhrəvermə": {
+  "az": "Ağacın kökündən və ya dibindən cavan zoğlar çıxarması.",
+  "en": "sprouting of shoots, suckering",
+  "pos": "noun"
+ },
+ "püstəağızlı": {
+  "az": "Ağzı püstə kimi kiçik və gözəl olan (gözəl haqqında, poetik).",
+  "en": "with a dainty mouth (poetic)",
+  "pos": "adjective"
+ },
+ "püstədodaq": {
+  "az": "Dodaqları püstə kimi kiçik və zərif olan (gözəl haqqında, poetik).",
+  "en": "with dainty pistachio-like lips (poetic)",
+  "pos": "adjective"
+ },
+ "püstədodaqlı": {
+  "az": "Dodaqları püstə kimi kiçik və zərif olan (poetik).",
+  "en": "with dainty pistachio-like lips (poetic)",
+  "pos": "adjective"
+ },
+ "püstəkimi": {
+  "az": "Püstəyə bənzəyən, püstə kimi.",
+  "en": "pistachio-like",
+  "pos": "adjective"
+ },
+ "pırpızbaşlı": {
+  "az": "Saçları pırpız, dağınıq və dik duran.",
+  "en": "tousle-headed, shaggy-haired",
+  "pos": "adjective"
+ },
+ "pırpızsaçlı": {
+  "az": "Saçları dağınıq, dik duran.",
+  "en": "tousle-haired, with bristly hair",
+  "pos": "adjective"
+ },
+ "pəltəknamə": {
+  "skip": "meaning not certain"
+ },
+ "pələburun": {
+  "skip": "noun use not certain (possibly a name)"
+ },
+ "pələburunlu": {
+  "az": "Burnu yastı və enli olan.",
+  "en": "flat-nosed",
+  "pos": "adjective"
+ },
+ "pələbuynuz": {
+  "skip": "noun use not certain (possibly an animal name)"
+ },
+ "pələbuynuzlu": {
+  "az": "Buynuzları yastı və enli olan (heyvan).",
+  "en": "broad-horned, with flat broad horns",
+  "pos": "adjective"
+ },
+ "pələbığlı": {
+  "az": "Bığları enli və gur olan.",
+  "en": "with a broad bushy moustache",
+  "pos": "adjective"
+ },
+ "pələngsayağı": {
+  "az": "Pələng kimi, pələngə xas tərzdə.",
+  "en": "tiger-like, like a tiger",
+  "pos": "adverb"
+ },
+ "pələqulaq": {
+  "skip": "noun use not certain (possibly a name)"
+ },
+ "pələqulaqlı": {
+  "az": "Qulaqları enli və yastı, sallaq olan.",
+  "en": "broad-eared, lop-eared",
+  "pos": "adjective"
+ },
+ "pənahgətirmə": {
+  "az": "Birinə və ya bir yerə sığınma, pənah aparma.",
+  "en": "seeking refuge, taking shelter",
+  "pos": "noun"
+ },
+ "pəricamallı": {
+  "az": "Pəri kimi gözəl üzlü (qadın, qız haqqında).",
+  "en": "fairy-faced, beautiful as a fairy",
+  "pos": "adjective"
+ },
+ "pərisimalı": {
+  "az": "Siması pəri kimi gözəl olan (qadın, qız haqqında).",
+  "en": "fairy-faced, beautiful as a fairy",
+  "pos": "adjective"
+ },
+ "pərisurətli": {
+  "az": "Üzü pəri kimi gözəl olan (qadın, qız haqqında).",
+  "en": "fairy-faced, beautiful as a fairy",
+  "pos": "adjective"
+ },
+ "pəriçöhrəli": {
+  "az": "Çöhrəsi pəri kimi gözəl olan (qadın, qız haqqında).",
+  "en": "fairy-faced, beautiful as a fairy",
+  "pos": "adjective"
+ },
+ "pərqanadlı": {
+  "skip": "zoological term, not certain"
+ },
+ "pərçimaçan": {
+  "az": "Pərçimləri çıxarıb birləşməni açan (pərçimaçan alət).",
+  "en": "rivet-removing",
+  "pos": "adjective"
+ },
+ "pərəstişedici": {
+  "skip": "meaning not certain (adoring vs. inspiring adoration)"
+ },
+ "qabaqböcəyi": {
+  "skip": "insect name, not certain"
+ },
+ "qabaqkimi": {
+  "skip": "meaning not certain (qabaq = front or pumpkin)"
+ },
+ "qabaqkəsmə": {
+  "skip": "meaning not certain"
+ },
+ "qabaqkəsən": {
+  "skip": "meaning not certain"
+ },
+ "qabaqçiçəkli": {
+  "skip": "botanical term, not certain"
+ },
+ "qabaritölçən": {
+  "az": "Yükün və ya nəqliyyat vasitəsinin xarici ölçülərini yoxlayan (qabaritölçən cihaz).",
+  "en": "clearance-gauging (device)",
+  "pos": "adjective"
+ },
+ "qabarıqlatmaq": {
+  "az": "Bir şeyi qabarıq hala salmaq; nəzərə çarpdırmaq, önə çəkmək.",
+  "en": "to make convex or prominent; to bring into relief",
+  "pos": "verb",
+  "parts": false
+ },
+ "qabaxasiyyət": {
+  "az": "Xasiyyəti kobud olan; nəzakətsiz, kobud.",
+  "en": "rude, coarse-natured",
+  "pos": "adjective"
+ },
+ "qabağıgörmə": {
+  "az": "Gələcəkdə baş verəcəkləri əvvəlcədən görə bilmə; uzaqgörənlik.",
+  "en": "foresight",
+  "pos": "noun"
+ },
+ "qabqalaylayan": {
+  "az": "Mis qabları qalaylayan (usta); qalayçı.",
+  "en": "tinning copper vessels; tinner",
+  "pos": "adjective"
+ },
+ "qabyalayan": {
+  "az": "Başqasının süfrəsindən yararlanan, yaltaqlıq edən adam; yaltaq.",
+  "en": "toady, sycophant (lit. dish-licker)",
+  "pos": "noun"
+ },
+ "qabyığan": {
+  "az": "Masalardan çirkli qabları yığan (işçi).",
+  "en": "dish-collecting; busser",
+  "pos": "adjective"
+ },
+ "qabıqdaxili": {
+  "az": "Qabığın (ağac qabığının, beyin qabığının və s.) içində olan.",
+  "en": "within the bark or cortex; intracortical",
+  "pos": "adjective"
+ },
+ "qabıqqurdu": {
+  "skip": "insect name, not certain"
+ },
+ "qabıqsoyan": {
+  "az": "Qabığı soyan (qabıqsoyan maşın, bıçaq).",
+  "en": "peeling; debarking (machine)",
+  "pos": "adjective"
+ },
+ "qabıqyemə": {
+  "az": "Ağac qabığının həşərat və ya heyvanlar tərəfindən yeyilməsi.",
+  "en": "bark-feeding (by pests or animals)",
+  "pos": "noun"
+ },
+ "qabıqçıxaran": {
+  "az": "Dənin, meyvənin qabığını çıxaran (qabıqçıxaran maşın).",
+  "en": "husking, hulling",
+  "pos": "adjective"
+ },
+ "qabırğasayaq": {
+  "skip": "meaning not certain (rib-like vs. edgewise)"
+ },
+ "qabırğasıqalın": {
+  "skip": "meaning not certain (literal or idiomatic)"
+ },
+ "qabığabənzər": {
+  "az": "Qabığa bənzəyən, qabıq kimi.",
+  "en": "shell-like, bark-like, crust-like",
+  "pos": "adjective"
+ },
+ "qabığaoxşar": {
+  "az": "Qabığa oxşayan, qabıq kimi.",
+  "en": "shell-like, bark-like, crust-like",
+  "pos": "adjective"
+ },
+ "qadayandırıcı": {
+  "skip": "meaning not certain"
+ },
+ "qadınxislət": {
+  "az": "Xasiyyətcə qadına bənzəyən (kişi haqqında).",
+  "en": "effeminate, womanish",
+  "pos": "adjective"
+ },
+ "qadınxislətli": {
+  "az": "Xasiyyəti, davranışı qadına bənzəyən (kişi haqqında).",
+  "en": "effeminate, womanish",
+  "pos": "adjective"
+ },
+ "qaladüzü": {
+  "skip": "meaning not certain"
+ },
+ "qalaktikadaxili": {
+  "az": "Qalaktikanın daxilində olan (qalaktikadaxili qaz).",
+  "en": "intragalactic",
+  "pos": "adjective"
+ },
+ "qalxanbalığı": {
+  "az": "Dəniz dibində yaşayan, yastı və girdə bədənli qiymətli balıq; kalkan.",
+  "en": "turbot",
+  "pos": "noun"
+ },
+ "qalxanqulaqlı": {
+  "skip": "zoological term, not certain"
+ },
+ "qalxanquyruqlu": {
+  "skip": "zoological term, not certain"
+ },
+ "qalxaqçiyin": {
+  "skip": "noun use not certain (possibly a name)"
+ },
+ "qalxaqçiyinli": {
+  "az": "Çiyinləri yuxarı qalxmış, dik olan.",
+  "en": "high-shouldered",
+  "pos": "adjective"
+ },
+ "qalındamaq": {
+  "skip": "meaning not certain (possibly an animal name)"
+ },
+ "qalındamaqlı": {
+  "skip": "meaning not certain"
+ },
+ "qalındimdik": {
+  "az": "Qalın, konusvari dimdiyi olan, toxum və meyvə çəyirdəklərini sındıran sərçəkimilərdən quş.",
+  "en": "hawfinch; grosbeak",
+  "pos": "noun"
+ },
+ "qalındimdikli": {
+  "az": "Dimdiyi qalın olan (quşlar haqqında).",
+  "en": "thick-billed",
+  "pos": "adjective"
+ },
+ "qalındodaqlı": {
+  "az": "Dodaqları qalın olan.",
+  "en": "thick-lipped",
+  "pos": "adjective"
+ },
+ "qalındırnaq": {
+  "skip": "noun use not certain (possibly a name)"
+ },
+ "qalındırnaqlı": {
+  "az": "Dırnaqları qalın olan.",
+  "en": "thick-nailed; thick-hoofed",
+  "pos": "adjective"
+ },
+ "qalıngeyimli": {
+  "az": "Qalın, isti paltar geyinmiş.",
+  "en": "warmly dressed, heavily clad",
+  "pos": "adjective"
+ },
+ "qalınlaylı": {
+  "az": "Qalın laylardan ibarət olan (qalınlaylı süxur).",
+  "en": "thick-bedded, thick-layered",
+  "pos": "adjective"
+ },
+ "qalınqabıqlı": {
+  "az": "Qabığı qalın olan (meyvə, qoz və s.).",
+  "en": "thick-shelled, thick-skinned (of fruit, nuts)",
+  "pos": "adjective"
+ },
+ "qalınqabırğa": {
+  "skip": "noun use not certain (possibly a name)"
+ },
+ "qalınqabırğalı": {
+  "az": "Qabırğaları qalın olan.",
+  "en": "thick-ribbed",
+  "pos": "adjective"
+ },
+ "qalıntüklü": {
+  "az": "Tükü qalın və sıx olan.",
+  "en": "thick-furred, shaggy",
+  "pos": "adjective"
+ },
+ "qalınyanaq": {
+  "skip": "noun use not certain (possibly a name)"
+ },
+ "qalınyanaqlı": {
+  "az": "Yanaqları dolu, ətli olan.",
+  "en": "plump-cheeked, chubby-cheeked",
+  "pos": "adjective"
+ },
+ "qalınyarpaq": {
+  "skip": "plant name, not certain"
+ },
+ "qalınyarpaqlı": {
+  "az": "Yarpaqları qalın və ətli olan (bitki adlarında).",
+  "en": "thick-leaved (in plant names)",
+  "pos": "adjective"
+ },
+ "qamçıayaqlı": {
+  "skip": "zoological term, not certain"
+ },
+ "qamışyığan": {
+  "az": "Qamış biçib toplayan (qamışyığan maşın).",
+  "en": "reed-harvesting",
+  "pos": "adjective"
+ },
+ "qamətibükülü": {
+  "az": "Qəddi əyilmiş, beli bükülmüş (qocalıqdan, dərddən).",
+  "en": "bent, stooped (with age or grief)",
+  "pos": "adjective"
+ },
+ "qanadayaqlı": {
+  "az": "Ayağı üzmək üçün qanada bənzər çıxıntılara çevrilmiş (dəniz ilbizləri haqqında).",
+  "en": "pteropod, wing-footed",
+  "pos": "adjective"
+ },
+ "qanadaçma": {
+  "az": "Quşun qanadlarını açması.",
+  "en": "spreading of wings",
+  "pos": "noun"
+ },
+ "qanadqollu": {
+  "skip": "meaning not certain"
+ },
+ "qanadsalma": {
+  "skip": "meaning not certain"
+ },
+ "qanadsındıran": {
+  "az": "Qanad sındıran; məcazi mənada ruhdan salan, ümidi qıran.",
+  "en": "wing-breaking; crushing, disheartening (fig.)",
+  "pos": "adjective"
+ },
+ "qanadçalma": {
+  "az": "Quşun qanadlarını çırpması.",
+  "en": "wing-flapping, flapping of wings",
+  "pos": "noun",
+  "parts": false
+ },
+ "qanadönlüyü": {
+  "skip": "technical term, not certain"
+ },
+ "qanadıqalxanlı": {
+  "skip": "zoological term, not certain"
+ },
+ "qanaxıtma": {
+  "az": "Qan tökmə; qanın axıdılması.",
+  "en": "bloodshed; bleeding",
+  "pos": "noun"
+ },
+ "qanbatıran": {
+  "skip": "meaning not certain"
+ },
+ "qanbatırma": {
+  "skip": "meaning not certain"
+ },
+ "qanbatırmaz": {
+  "skip": "meaning not certain"
+ },
+ "qandayandıran": {
+  "az": "Qanaxmanı dayandıran (qandayandıran dərman).",
+  "en": "hemostatic, styptic",
+  "pos": "adjective"
+ },
+ "qandonduran": {
+  "az": "İnsanın qanını donduran, dəhşət doğuran (qandonduran hadisə).",
+  "en": "blood-curdling, horrifying",
+  "pos": "adjective"
+ },
+ "qangörmə": {
+  "skip": "meaning not certain"
+ },
+ "qanovtəmizləyən": {
+  "az": "Arxı, qanovu təmizləyən (qanovtəmizləyən maşın).",
+  "en": "ditch-cleaning, gutter-cleaning",
+  "pos": "adjective"
+ },
+ "qanqalçiçəkli": {
+  "skip": "botanical term, not certain"
+ },
+ "qanqaraltısı": {
+  "skip": "meaning not certain"
+ },
+ "qanqaralığı": {
+  "skip": "meaning not certain"
+ },
+ "qanqohumluğu": {
+  "az": "Ortaq əcdaddan gələn, qan yolu ilə olan qohumluq.",
+  "en": "blood relationship, consanguinity",
+  "pos": "noun"
+ },
+ "qanquruducu": {
+  "skip": "meaning not certain"
+ },
+ "qanqusan": {
+  "az": "Qan qusan (xəstə haqqında).",
+  "en": "vomiting blood",
+  "pos": "adjective"
+ },
+ "qansorucu": {
+  "az": "Başqa canlıların qanını soran (qansorucu həşəratlar).",
+  "en": "blood-sucking, haematophagous",
+  "pos": "adjective"
+ },
+ "qantörədici": {
+  "skip": "meaning not certain (blood-forming vs. bloodshed)"
+ },
+ "qantörədən": {
+  "skip": "meaning not certain (blood-forming vs. bloodshed)"
+ },
+ "qantəmizləmə": {
+  "az": "Qanın zərərli maddələrdən təmizlənməsi.",
+  "en": "blood purification",
+  "pos": "noun"
+ },
+ "qantəmizləyici": {
+  "az": "Qanı zərərli maddələrdən təmizləyən (qantəmizləyici dərman).",
+  "en": "blood-purifying, depurative",
+  "pos": "adjective"
+ },
+ "qantəmizləyən": {
+  "az": "Qanı zərərli maddələrdən təmizləyən.",
+  "en": "blood-purifying",
+  "pos": "adjective"
+ },
+ "qanyaradan": {
+  "az": "Qan əmələ gətirən (qanyaradan orqanlar).",
+  "en": "blood-forming, hematopoietic",
+  "pos": "adjective",
+  "parts": false
+ }
+}

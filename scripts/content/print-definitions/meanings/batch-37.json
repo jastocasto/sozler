@@ -1,0 +1,956 @@
+{
+ "metalçəkmə": {
+  "az": "Metalı kalibrli deşiklərdən keçirərək məftil, çubuq, boru və s. halına salma.",
+  "en": "metal drawing (e.g. wire drawing)",
+  "pos": "noun"
+ },
+ "metalçəkən": {
+  "az": "Metalçəkmə işi görən (metalçəkən dəzgah); bu işdə çalışan fəhlə.",
+  "en": "metal-drawing; metal drawer (worker)",
+  "pos": "adjective"
+ },
+ "meteoritmənşəli": {
+  "az": "Meteoritdən əmələ gəlmiş, mənşəyi meteoritlə bağlı olan (meteoritmənşəli krater).",
+  "en": "of meteoritic origin",
+  "pos": "adjective"
+ },
+ "metilkauçuk": {
+  "az": "Dimetilbutadiendən alınan sintetik kauçuk.",
+  "en": "methyl rubber",
+  "pos": "noun"
+ },
+ "metilkofein": {
+  "az": "Kofeinə əlavə metil qrupu birləşdirilməklə alınan törəmə.",
+  "en": "methylcaffeine",
+  "pos": "noun"
+ },
+ "metilnitrat": {
+  "az": "Metil spirti ilə azot turşusunun əmələ gətirdiyi efir; partlayıcı maye.",
+  "en": "methyl nitrate",
+  "pos": "noun"
+ },
+ "metilsulfat": {
+  "az": "Metil spirti ilə sulfat turşusunun əmələ gətirdiyi efir və ya duz; metilləşdirici maddə.",
+  "en": "methyl sulphate",
+  "pos": "noun"
+ },
+ "metiltestosteron": {
+  "az": "Testosteronun sintetik törəməsi olan, dərman kimi işlədilən androgen hormon preparatı.",
+  "en": "methyltestosterone",
+  "pos": "noun"
+ },
+ "metodkabinet": {
+  "az": "Məktəbdə və ya təhsil idarəsində müəllimlərə metodik kömək üçün ayrılmış otaq, bölmə.",
+  "en": "methodology room, teaching resource room",
+  "pos": "noun"
+ },
+ "metodmərkəz": {
+  "az": "Təhsil və ya mədəniyyət işçilərinə metodik kömək göstərən mərkəz.",
+  "en": "methodological centre",
+  "pos": "noun"
+ },
+ "metodşura": {
+  "az": "Təhsil müəssisəsində tədris-metodik işə rəhbərlik edən şura.",
+  "en": "methodological council",
+  "pos": "noun"
+ },
+ "metrodaxili": {
+  "az": "Metronun daxilində olan, metroya aid olan (metrodaxili təhlükəsizlik).",
+  "en": "inside the metro, within the subway system",
+  "pos": "adjective"
+ },
+ "metroplastika": {
+  "az": "Uşaqlığın formasını bərpa etmək üçün aparılan plastik cərrahiyyə əməliyyatı.",
+  "en": "metroplasty (plastic surgery of the uterus)",
+  "pos": "noun",
+  "parts": false
+ },
+ "metroritm": {
+  "az": "Musiqidə və ya şeirdə ölçü ilə ritmin vəhdəti.",
+  "en": "metre and rhythm, metrorhythm",
+  "pos": "noun",
+  "parts": false
+ },
+ "metrosalma": {
+  "az": "Metro tikmə, metropoliten xətti salma.",
+  "en": "metro construction",
+  "pos": "noun"
+ },
+ "metrosalon": {
+  "skip": "meaning not certain"
+ },
+ "metroçəkmə": {
+  "az": "Metro xətti çəkmə, metro tikintisi.",
+  "en": "metro construction (laying of metro lines)",
+  "pos": "noun"
+ },
+ "metroçəkən": {
+  "az": "Metro tikintisində çalışan işçi, mühəndis.",
+  "en": "metro builder",
+  "pos": "noun"
+ },
+ "meyiledici": {
+  "skip": "meaning not certain"
+ },
+ "meyiletdirici": {
+  "az": "Bir şeyi (şüanı, hissəcikləri və s.) əvvəlki istiqamətindən yayındıran (meyiletdirici lövhələr).",
+  "en": "deflecting; deflector",
+  "pos": "adjective"
+ },
+ "meyitbasdıran": {
+  "az": "Ölüləri torpağa basdıran, dəfn işi görən (adam).",
+  "en": "burying the dead; gravedigger",
+  "pos": "adjective"
+ },
+ "meyitdaşıyan": {
+  "az": "Ölünü, cənazəni daşıyan (meyitdaşıyan maşın).",
+  "en": "carrying the dead (e.g. a hearse)",
+  "pos": "adjective"
+ },
+ "meyityaran": {
+  "az": "Ölümün səbəbini müəyyən etmək üçün meyiti yarıb müayinə edən həkim; prozektor.",
+  "en": "prosector, autopsy surgeon",
+  "pos": "noun"
+ },
+ "meyityuyan": {
+  "az": "Dəfndən əvvəl meyiti dini qaydaya görə yuyan adam; mürdəşir.",
+  "en": "corpse washer (in Muslim burial rites)",
+  "pos": "noun"
+ },
+ "meymunağacı": {
+  "skip": "plant name, not certain"
+ },
+ "meymunsayaq": {
+  "az": "Meymun kimi, meymuna bənzər tərzdə.",
+  "en": "monkey-like, apishly",
+  "pos": "adverb"
+ },
+ "meymunsayağı": {
+  "az": "Meymun kimi; meymuna xas tərzdə (meymunsayağı yamsılamaq).",
+  "en": "like a monkey, apishly",
+  "pos": "adverb"
+ },
+ "meymunçörəyi": {
+  "az": "Baobab ağacı və onun iri, yeyilən meyvəsi.",
+  "en": "monkey bread (baobab fruit or tree)",
+  "pos": "noun"
+ },
+ "meyvəkolu": {
+  "az": "Meyvə verən kol (moruq, qarağat, firəng üzümü və s.).",
+  "en": "fruit bush",
+  "pos": "noun"
+ },
+ "meyvəkökü": {
+  "skip": "meaning not certain"
+ },
+ "meyvəqurutma": {
+  "az": "Meyvələri uzun müddət saxlamaq üçün qurutma işi.",
+  "en": "fruit drying",
+  "pos": "noun"
+ },
+ "meyvəsatan": {
+  "az": "Meyvə satan adam; meyvə alverçisi.",
+  "en": "fruit seller, fruiterer",
+  "pos": "noun"
+ },
+ "meyvəsatma": {
+  "az": "Meyvə satma, meyvə ticarəti.",
+  "en": "fruit selling, fruit trade",
+  "pos": "noun"
+ },
+ "meyvətəmizləyən": {
+  "az": "Meyvəni qabıqdan, çəyirdəkdən və ya çirkdən təmizləyən (maşın, qurğu).",
+  "en": "fruit-cleaning (machine)",
+  "pos": "adjective"
+ },
+ "meyvəyuyucu": {
+  "az": "Meyvələri yumaq üçün maşın, qurğu.",
+  "en": "fruit washer, fruit-washing machine",
+  "pos": "noun"
+ },
+ "meyvəyığan": {
+  "az": "Meyvə yığan (adam, maşın).",
+  "en": "fruit picker; fruit-picking",
+  "pos": "adjective"
+ },
+ "meşəalması": {
+  "az": "Meşədə yabanı bitən alma ağacı və onun xırda, turş meyvəsi.",
+  "en": "wild apple, crab apple",
+  "pos": "noun"
+ },
+ "meşəaltlığı": {
+  "az": "Meşədə torpağın üstünü örtən tökülmüş yarpaq, iynə, budaq və s. qatı.",
+  "en": "forest litter",
+  "pos": "noun"
+ },
+ "meşəarmudu": {
+  "az": "Meşədə yabanı bitən armud ağacı və onun meyvəsi.",
+  "en": "wild pear",
+  "pos": "noun"
+ },
+ "meşəsalan": {
+  "az": "Ağac əkib yeni meşə yaradan (adam, təsərrüfat).",
+  "en": "forest-planting; afforestation worker",
+  "pos": "adjective"
+ },
+ "meşəyetişdirmə": {
+  "az": "Meşə əkib becərmə, meşənin bərpası və böyüdülməsi işi.",
+  "en": "silviculture, forest growing",
+  "pos": "noun"
+ },
+ "meşəyetişdirən": {
+  "az": "Meşə əkib becərən (adam, təsərrüfat).",
+  "en": "forest-growing; forest grower",
+  "pos": "adjective"
+ },
+ "meşəçiyələyi": {
+  "az": "Meşədə bitən xırda, ətirli meyvəli yabanı çiyələk.",
+  "en": "wild strawberry",
+  "pos": "noun"
+ },
+ "meşəçiçəyi": {
+  "skip": "plant name, not certain"
+ },
+ "meşəəzgili": {
+  "az": "Meşədə yabanı bitən əzgil ağacı və onun meyvəsi.",
+  "en": "wild medlar",
+  "pos": "noun"
+ },
+ "mikroblast": {
+  "skip": "term, sense not certain"
+ },
+ "mikrobtörədici": {
+  "skip": "meaning not certain"
+ },
+ "mikrofaradmetr": {
+  "az": "Elektrik tutumunu mikrofaradlarla ölçən cihaz.",
+  "en": "microfaradmeter (capacitance meter)",
+  "pos": "noun"
+ },
+ "millətdaxili": {
+  "az": "Millətin daxilində olan, onun öz içinə aid olan (millətdaxili birlik).",
+  "en": "intranational, within a nation",
+  "pos": "adjective"
+ },
+ "milreys": {
+  "az": "Portuqaliyada və Braziliyada keçmişdə işlədilmiş pul vahidi.",
+  "en": "milreis (former Portuguese and Brazilian currency)",
+  "pos": "noun",
+  "parts": false
+ },
+ "milyonca": {
+  "skip": "meaning not certain"
+ },
+ "milçəkquşu": {
+  "az": "Amerikada yaşayan, çox kiçik, parlaq lələkli, havada bir yerdə dayana bilən quş; kolibri.",
+  "en": "hummingbird",
+  "pos": "noun"
+ },
+ "minaatma": {
+  "skip": "meaning not certain (mortar fire or mine-laying)"
+ },
+ "minaatıcı": {
+  "skip": "meaning not certain (weapon or crewman)"
+ },
+ "minadişli": {
+  "skip": "meaning not certain"
+ },
+ "minadüzmə": {
+  "skip": "meaning not certain (mine-laying or enamel work)"
+ },
+ "minasaçma": {
+  "skip": "meaning not certain"
+ },
+ "mintonluq": {
+  "az": "Min ton yük götürən və ya min ton tutumu olan (mintonluq gəmi).",
+  "en": "thousand-ton",
+  "pos": "adjective"
+ },
+ "miogensinklinal": {
+  "az": "Geosinklinalın platformaya yaxın, vulkanizmi zəif olan hissəsi; miogeosinklinal.",
+  "en": "miogeosyncline",
+  "pos": "noun",
+  "parts": false
+ },
+ "mismarabənzər": {
+  "az": "Mismara oxşayan, mismar formalı.",
+  "en": "nail-like, nail-shaped",
+  "pos": "adjective"
+ },
+ "mismaraoxşar": {
+  "az": "Mismara bənzəyən, mismar formasında olan.",
+  "en": "nail-like, nail-shaped",
+  "pos": "adjective"
+ },
+ "missaflaşdıran": {
+  "az": "Misi qarışıqlardan təmizləyən, saflaşdıran (missaflaşdıran zavod).",
+  "en": "copper-refining",
+  "pos": "adjective"
+ },
+ "missaflaşdırma": {
+  "az": "Misin qarışıqlardan təmizlənib saf hala salınması.",
+  "en": "copper refining",
+  "pos": "noun"
+ },
+ "mistəmizləmə": {
+  "az": "Misi qarışıqlardan və ya mis əşyaları çirkdən təmizləmə.",
+  "en": "copper refining; cleaning of copper",
+  "pos": "noun"
+ },
+ "mistəmizləyici": {
+  "az": "Misi qarışıqlardan və ya çirkdən təmizləyən (vasitə, qurğu).",
+  "en": "copper-cleaning, copper-refining",
+  "pos": "adjective"
+ },
+ "misyayma": {
+  "az": "Misi vallar arasından keçirib təbəqə, zolaq və s. halına salma.",
+  "en": "copper rolling",
+  "pos": "noun"
+ },
+ "misçıxaran": {
+  "az": "Mis filizi çıxaran (misçıxaran mədən, sənaye).",
+  "en": "copper-mining",
+  "pos": "adjective"
+ },
+ "mixəkkimi": {
+  "az": "Mixəyə oxşayan; mixəkkimilər fəsiləsinə aid olan (bitkilər).",
+  "en": "carnation-like; caryophyllaceous",
+  "pos": "adjective"
+ },
+ "mixəkçiçəkli": {
+  "az": "Mixək çiçəyinə oxşar çiçəkləri olan; mixəkçiçəklilər sırasına aid olan (bitkilər).",
+  "en": "carnation-flowered; of the order Caryophyllales",
+  "pos": "adjective"
+ },
+ "mizansəhnə": {
+  "az": "Tamaşada aktyorların səhnədə yerləşdirilməsi və hərəkət düzümü.",
+  "en": "mise-en-scène",
+  "pos": "noun",
+  "parts": false
+ },
+ "mizrabşəkilli": {
+  "az": "Mizraba oxşayan, mizrab formalı.",
+  "en": "plectrum-shaped",
+  "pos": "adjective"
+ },
+ "mişarabənzər": {
+  "az": "Mişara oxşayan; kənarı mişar dişləri kimi olan.",
+  "en": "saw-like, serrate",
+  "pos": "adjective"
+ },
+ "mişarkənarlı": {
+  "az": "Kənarı mişar dişləri kimi dişli olan (mişarkənarlı yarpaq).",
+  "en": "saw-edged, serrated",
+  "pos": "adjective"
+ },
+ "mişarkəpəyi": {
+  "az": "Ağac mişarlanarkən tökülən xırda ovuntu.",
+  "en": "sawdust",
+  "pos": "noun"
+ },
+ "mişarçəkmə": {
+  "az": "Mişarla kəsmə, mişarlama işi.",
+  "en": "sawing",
+  "pos": "noun"
+ },
+ "mişarçəkən": {
+  "az": "Mişarla ağac kəsən fəhlə; mişarçı.",
+  "en": "sawyer",
+  "pos": "noun"
+ },
+ "modasevən": {
+  "az": "Dəbə həvəsli olan, dəbi izləyib ona uyan (adam).",
+  "en": "fashion-loving, fashion-conscious",
+  "pos": "adjective"
+ },
+ "modelhazırlayan": {
+  "az": "Model, maket hazırlayan (usta, sex).",
+  "en": "model-making; model maker",
+  "pos": "adjective"
+ },
+ "modelqayırma": {
+  "az": "Model, maket düzəltmə işi; modelçilik.",
+  "en": "model making",
+  "pos": "noun"
+ },
+ "molyuskabənzər": {
+  "az": "Molyuskaya oxşayan, molyusk kimi.",
+  "en": "mollusc-like",
+  "pos": "adjective"
+ },
+ "molyuskaoxşar": {
+  "az": "Molyuskaya bənzəyən, molyusk kimi.",
+  "en": "mollusc-like",
+  "pos": "adjective"
+ },
+ "morfonem": {
+  "az": "Bir morfemin müxtəlif variantlarında bir-birini əvəz edən fonemlərin birliyi.",
+  "en": "morphophoneme",
+  "pos": "noun",
+  "parts": false
+ },
+ "morfonemika": {
+  "az": "Morfemlərin fonem tərkibini və onun dəyişmələrini öyrənən dilçilik bölməsi; morfonologiya.",
+  "en": "morphophonemics, morphonology",
+  "pos": "noun",
+  "parts": false
+ },
+ "morjkimi": {
+  "az": "Morja oxşayan, morj kimi (morjkimi bığ).",
+  "en": "walrus-like",
+  "pos": "adjective"
+ },
+ "moruqkimi": {
+  "az": "Moruğa oxşayan, moruq kimi (moruqkimi meyvə).",
+  "en": "raspberry-like",
+  "pos": "adjective"
+ },
+ "moruqyeyən": {
+  "skip": "animal name, not certain"
+ },
+ "motorquraşdırma": {
+  "az": "Motoru yerinə qoyub bərkitmə, qoşma işi.",
+  "en": "engine installation, motor mounting",
+  "pos": "noun"
+ },
+ "motoryığan": {
+  "az": "Motor, mühərrik yığan (fəhlə, sex).",
+  "en": "engine-assembling; engine assembler",
+  "pos": "adjective"
+ },
+ "muncuqgözlü": {
+  "az": "Gözləri muncuq kimi xırda, parlaq və qara olan.",
+  "en": "bead-eyed",
+  "pos": "adjective"
+ },
+ "muncuğabənzər": {
+  "az": "Muncuğa oxşayan, muncuq kimi xırda və yumru.",
+  "en": "bead-like",
+  "pos": "adjective"
+ },
+ "muncuğaoxşar": {
+  "az": "Muncuğa bənzəyən, muncuq formalı.",
+  "en": "bead-like",
+  "pos": "adjective"
+ },
+ "muradquşu": {
+  "skip": "bird name, not certain"
+ },
+ "muradçiçəkli": {
+  "skip": "meaning not certain"
+ },
+ "murdarçakimi": {
+  "az": "Murdarçaya oxşayan; murdarçakimilər fəsiləsinə aid olan (bitkilər).",
+  "en": "buckthorn-like; rhamnaceous",
+  "pos": "adjective"
+ },
+ "murdarçaçiçəkli": {
+  "az": "Murdarçaçiçəklilər sırasına aid olan (bitkilər).",
+  "en": "of the order Rhamnales (buckthorn order)",
+  "pos": "adjective"
+ },
+ "muğamoxuma": {
+  "az": "Muğam ifa etmə, muğamı səsləndirmə.",
+  "en": "mugham singing",
+  "pos": "noun"
+ },
+ "muğamoxuyan": {
+  "az": "Muğam ifa edən müğənni; xanəndə.",
+  "en": "mugham singer, khanende",
+  "pos": "noun"
+ },
+ "möhürbəndli": {
+  "skip": "meaning not certain"
+ },
+ "möhürvuran": {
+  "az": "Sənədlərə və ya məmulata möhür vuran (adam, qurğu).",
+  "en": "stamper; stamping (person or device)",
+  "pos": "noun"
+ },
+ "mövqedəyişmə": {
+  "az": "Mövqeyini başqa yerə keçirmə; mövqe dəyişdirmə (hərbi işdə və s.).",
+  "en": "change of position, repositioning",
+  "pos": "noun"
+ },
+ "mövqeseçmə": {
+  "az": "Yerləşmək və ya döyüş aparmaq üçün mövqe, yer seçmə.",
+  "en": "choice of position, siting",
+  "pos": "noun"
+ },
+ "mövqetutma": {
+  "az": "Müəyyən mövqedə yerləşmə; məsələyə münasibətdə mövqe bildirmə.",
+  "en": "taking up a position; taking a stance",
+  "pos": "noun"
+ },
+ "müalicəolunmaz": {
+  "az": "Müalicə ilə sağaldıla bilməyən (müalicəolunmaz xəstəlik).",
+  "en": "incurable",
+  "pos": "adjective"
+ },
+ "müasirbaxışlı": {
+  "az": "Müasir baxışları, görüşləri olan (adam).",
+  "en": "modern-minded, progressive",
+  "pos": "adjective"
+ },
+ "müasirdavranışlı": {
+  "az": "Müasir dövrə uyğun davranan, rəftar edən.",
+  "en": "modern-mannered",
+  "pos": "adjective"
+ },
+ "müasirgörkəmli": {
+  "az": "Görkəmi müasir olan, müasir görünən.",
+  "en": "modern-looking",
+  "pos": "adjective"
+ },
+ "müasirgörünüşlü": {
+  "az": "Görünüşü müasir olan (müasirgörünüşlü bina).",
+  "en": "modern-looking",
+  "pos": "adjective"
+ },
+ "müasirtipli": {
+  "az": "Müasir tipə aid olan, müasir tələblərə uyğun qurulmuş (müasirtipli məktəb).",
+  "en": "of modern type, modern",
+  "pos": "adjective"
+ },
+ "mübadiləedici": {
+  "az": "Mübadilə aparan qurğu və ya maddə (istilik, ion mübadiləedicisi).",
+  "en": "exchanger (e.g. heat or ion exchanger)",
+  "pos": "noun"
+ },
+ "müflisolma": {
+  "az": "Müflis olma, iflasa uğrama.",
+  "en": "bankruptcy, going bankrupt",
+  "pos": "noun"
+ },
+ "müftəyeyən": {
+  "az": "Başqasının hesabına yaşayan, havayı yeməyə adət etmiş (adam); müftəxor.",
+  "en": "freeloader, sponger",
+  "pos": "adjective"
+ },
+ "müharibəqabağı": {
+  "az": "Müharibədən bilavasitə əvvəlki (müharibəqabağı illər).",
+  "en": "pre-war",
+  "pos": "adjective"
+ },
+ "mühərrikquraşdıran": {
+  "az": "Mühərriki yerinə qoyub bərkidən, quraşdıran (fəhlə, sex).",
+  "en": "engine-installing; engine fitter",
+  "pos": "adjective"
+ },
+ "mühərrikquraşdırma": {
+  "az": "Mühərriki maşına, qurğuya yerləşdirib bərkitmə işi.",
+  "en": "engine installation",
+  "pos": "noun"
+ },
+ "mühərriksazlama": {
+  "az": "Mühərrikin düzgün işləməsi üçün onu tənzimləmə.",
+  "en": "engine tuning, engine adjustment",
+  "pos": "noun"
+ },
+ "mühərrikyığan": {
+  "az": "Mühərrik yığan, onun hissələrini birləşdirən (fəhlə, sex).",
+  "en": "engine-assembling; engine assembler",
+  "pos": "adjective"
+ },
+ "mühərrikyığma": {
+  "az": "Mühərrikin hissələrini birləşdirib yığma işi.",
+  "en": "engine assembly",
+  "pos": "noun"
+ },
+ "mürgüotu": {
+  "skip": "plant name, not certain"
+ },
+ "mürəkkəbdilli": {
+  "az": "Dili mürəkkəb, çətin anlaşılan (mürəkkəbdilli mətn).",
+  "en": "written in complicated language",
+  "pos": "adjective"
+ },
+ "müsavatsayağı": {
+  "skip": "meaning not certain (Musavat party or equality)"
+ },
+ "müsavatyönlü": {
+  "az": "Müsavat partiyasının ideyalarına, mövqeyinə yaxın olan (müsavatyönlü qəzet).",
+  "en": "pro-Musavat (aligned with the Musavat party)",
+  "pos": "adjective"
+ },
+ "müsavatyönümlü": {
+  "az": "Müsavat partiyasının ideyalarına, mövqeyinə yönəlmiş olan (müsavatyönümlü mətbuat).",
+  "en": "pro-Musavat (aligned with the Musavat party)",
+  "pos": "adjective"
+ },
+ "müvazinətsaxlayıcı": {
+  "az": "Müvazinəti, tarazlığı saxlayan (müvazinətsaxlayıcı qurğu).",
+  "en": "balancing, stabilizing",
+  "pos": "adjective"
+ },
+ "müxalifətdaxili": {
+  "az": "Müxalifətin öz daxilində olan (müxalifətdaxili ziddiyyətlər).",
+  "en": "intra-opposition, within the opposition",
+  "pos": "adjective"
+ },
+ "müxtəlifdilli": {
+  "az": "Müxtəlif dillərdə danışan və ya müxtəlif dillərdə olan (müxtəlifdilli xalqlar).",
+  "en": "speaking different languages; multilingual",
+  "pos": "adjective"
+ },
+ "müxtəlifdinli": {
+  "az": "Müxtəlif dinlərə mənsub olan (müxtəlifdinli əhali).",
+  "en": "of different religions, multi-faith",
+  "pos": "adjective"
+ },
+ "müxtəliffazalı": {
+  "az": "Müxtəlif fazalardan ibarət olan və ya müxtəlif fazalı olan (müxtəliffazalı sistem).",
+  "en": "heterophase, multiphase",
+  "pos": "adjective"
+ },
+ "müxtəlifformatlı": {
+  "az": "Müxtəlif formatda, ölçüdə və ya biçimdə olan.",
+  "en": "of various formats",
+  "pos": "adjective"
+ },
+ "müxtəlifgörünüşlü": {
+  "az": "Zahiri görünüşü bir-birindən fərqlənən.",
+  "en": "varied in appearance, of different appearance",
+  "pos": "adjective"
+ },
+ "müxtəlifixtisaslı": {
+  "az": "Müxtəlif ixtisaslara malik olan (müxtəlifixtisaslı mütəxəssislər).",
+  "en": "of various specialities, multidisciplinary",
+  "pos": "adjective"
+ },
+ "müxtəlifkalibrli": {
+  "az": "Müxtəlif kalibrdə, ölçüdə olan (müxtəlifkalibrli silahlar).",
+  "en": "of various calibres",
+  "pos": "adjective"
+ },
+ "müxtəlifməsləkli": {
+  "az": "Müxtəlif məsləkə, əqidəyə mənsub olan (adamlar).",
+  "en": "of different persuasions, of different beliefs",
+  "pos": "adjective"
+ },
+ "müxtəlifməzmunlu": {
+  "az": "Məzmunu müxtəlif olan, müxtəlif mövzuları əhatə edən.",
+  "en": "of varied content",
+  "pos": "adjective"
+ },
+ "müxtəlifpeşəli": {
+  "az": "Müxtəlif peşə sahibi olan (müxtəlifpeşəli adamlar).",
+  "en": "of various professions",
+  "pos": "adjective"
+ },
+ "müxtəlifqamçılı": {
+  "az": "Uzunluğu və quruluşu fərqli qamçıları olan (müxtəlifqamçılı yosunlar).",
+  "en": "heterokont (having unequal flagella)",
+  "pos": "adjective"
+ },
+ "müxtəlifqollu": {
+  "skip": "meaning not certain"
+ },
+ "müxtəlifsəviyyəli": {
+  "az": "Müxtəlif səviyyədə olan, səviyyəsi bir-birindən fərqlənən.",
+  "en": "multi-level, of different levels",
+  "pos": "adjective"
+ },
+ "müxtəliftipli": {
+  "az": "Müxtəlif tiplərə, növlərə aid olan.",
+  "en": "of different types, various",
+  "pos": "adjective"
+ },
+ "müxtəliftəbiətli": {
+  "az": "Təbiəti, mahiyyəti bir-birindən fərqlənən.",
+  "en": "of different nature, heterogeneous",
+  "pos": "adjective"
+ },
+ "müxtəlifxarakterli": {
+  "az": "Xarakteri, səciyyəsi müxtəlif olan (müxtəlifxarakterli işlər).",
+  "en": "of various kinds, of different character",
+  "pos": "adjective"
+ },
+ "müxtəlifxislətli": {
+  "az": "Xasiyyəti, xisləti bir-birindən fərqlənən (adamlar).",
+  "en": "of different dispositions",
+  "pos": "adjective"
+ },
+ "müxtəlifçalarlı": {
+  "az": "Müxtəlif rəng və ya məna çalarları olan.",
+  "en": "of various shades, multi-hued",
+  "pos": "adjective"
+ },
+ "müxtəlifşəkilli": {
+  "az": "Müxtəlif şəkildə, formada olan.",
+  "en": "of various shapes, diverse in form",
+  "pos": "adjective"
+ },
+ "müxtəlifəqidəli": {
+  "az": "Müxtəlif əqidəyə, inanca malik olan.",
+  "en": "of different beliefs, of different convictions",
+  "pos": "adjective"
+ },
+ "müşahidəedici": {
+  "az": "Müşahidə aparan, nəzarət edən (müşahidəedici orqan).",
+  "en": "observing, monitoring; observer",
+  "pos": "adjective"
+ },
+ "müşkqozu": {
+  "skip": "plant name, not certain"
+ },
+ "müşksaçan": {
+  "az": "Müşk kimi ətir saçan, çox ətirli (poetik).",
+  "en": "musk-scented, fragrant (poetic)",
+  "pos": "adjective"
+ },
+ "müəssisədənkənar": {
+  "az": "Müəssisənin hüdudlarından kənarda olan, ona aid olmayan.",
+  "en": "outside the enterprise, external to the enterprise",
+  "pos": "adjective"
+ },
+ "mırıqdişli": {
+  "az": "Ön dişləri sınmış və ya tökülmüş olan.",
+  "en": "gap-toothed, with broken front teeth",
+  "pos": "adjective"
+ },
+ "mıxqayıran": {
+  "az": "Mıx düzəldən (usta, dəzgah).",
+  "en": "nail-making; nail maker",
+  "pos": "adjective"
+ },
+ "mıxvuran": {
+  "az": "Mıx vuran adam və ya alət, qurğu.",
+  "en": "nailer, nail driver",
+  "pos": "noun"
+ },
+ "mıxçıxaran": {
+  "az": "Vurulmuş mıxları çıxarmaq üçün alət.",
+  "en": "nail puller",
+  "pos": "noun"
+ },
+ "mışovultutan": {
+  "skip": "animal name, not certain"
+ },
+ "məcnunsayaq": {
+  "az": "Məcnun kimi; eşqdən özünü itirmiş, dəlicəsinə.",
+  "en": "like Majnun, madly (esp. in love)",
+  "pos": "adverb"
+ },
+ "məcnunsifət": {
+  "az": "Görkəmi Məcnuna bənzəyən; eşqdən dəli kimi olmuş.",
+  "en": "Majnun-like, wild-looking (as if crazed by love)",
+  "pos": "adjective"
+ },
+ "məcnunsöyüd": {
+  "az": "Budaqları aşağı sallanan söyüd növü; Babil söyüdü.",
+  "en": "weeping willow",
+  "pos": "noun"
+ },
+ "mədəndaxili": {
+  "az": "Mədənin daxilində olan (mədəndaxili nəqliyyat).",
+  "en": "in-mine, within a mine",
+  "pos": "adjective"
+ },
+ "mədənqurucu": {
+  "az": "Mədən tikintisində çalışan işçi.",
+  "en": "mine builder",
+  "pos": "noun"
+ },
+ "mədəyuma": {
+  "az": "Mədəni zond vasitəsilə su və ya dərman məhlulu ilə yuma (zəhərlənmədə və s.).",
+  "en": "gastric lavage, stomach pumping",
+  "pos": "noun"
+ },
+ "mədəyumşaldan": {
+  "skip": "meaning not certain"
+ },
+ "mədəyumşaldıcı": {
+  "skip": "meaning not certain"
+ },
+ "məftilaçan": {
+  "skip": "meaning not certain"
+ },
+ "məftilhazırlayan": {
+  "az": "Məftil istehsal edən (zavod, sex, fəhlə).",
+  "en": "wire-making; wire maker",
+  "pos": "adjective"
+ },
+ "məftilqayıran": {
+  "az": "Məftil düzəldən, istehsal edən (usta, dəzgah).",
+  "en": "wire-making; wire maker",
+  "pos": "adjective"
+ },
+ "məftilqurdu": {
+  "az": "Bitkilərin köklərini və yumrularını zədələyən, sərt və nazik bədənli böcək sürfəsi.",
+  "en": "wireworm",
+  "pos": "noun"
+ },
+ "məftilçəkmə": {
+  "az": "Metalı kalibrli deşiklərdən keçirərək məftil hazırlama.",
+  "en": "wire drawing",
+  "pos": "noun"
+ },
+ "məftilçəkən": {
+  "az": "Məftilçəkmə işi görən (dəzgah, fəhlə).",
+  "en": "wire-drawing; wire drawer",
+  "pos": "adjective"
+ },
+ "məftilötürücü": {
+  "az": "Məftili (məs., qaynaq məftilini) iş yerinə ötürən qurğu.",
+  "en": "wire feeder",
+  "pos": "noun"
+ },
+ "məhdudedici": {
+  "az": "Bir şeyi müəyyən həddə saxlayan, məhdudlaşdıran (məhdudedici tədbirlər).",
+  "en": "restrictive, limiting; limiter",
+  "pos": "adjective"
+ },
+ "məhkəməqabağı": {
+  "az": "Məhkəmə baxışından əvvəlki (məhkəməqabağı araşdırma).",
+  "en": "pre-trial",
+  "pos": "adjective"
+ },
+ "məhsulverici": {
+  "az": "Bol məhsul verən, bar gətirən; məhsuldar.",
+  "en": "productive, high-yielding",
+  "pos": "adjective",
+  "src": "izahli"
+ },
+ "məhsulverimi": {
+  "az": "Bir sahədən və ya bitkidən alınan məhsulun miqdarı; məhsuldarlıq.",
+  "en": "yield, crop yield",
+  "pos": "noun"
+ },
+ "məhsulverimli": {
+  "az": "Bol məhsul verən, məhsuldar (məhsulverimli sort).",
+  "en": "productive, high-yielding",
+  "pos": "adjective"
+ },
+ "məhsulvermə": {
+  "az": "Məhsul vermə, bar gətirmə.",
+  "en": "yielding, fruiting, bearing (of crops)",
+  "pos": "noun"
+ },
+ "məhsulverən": {
+  "az": "Məhsul verən, bar gətirən (məhsulverən bağlar).",
+  "en": "bearing, fruit-bearing, yielding",
+  "pos": "adjective"
+ },
+ "məhsulyığan": {
+  "az": "Məhsul yığan (adam, maşın); məhsul toplayan.",
+  "en": "harvesting; harvester",
+  "pos": "adjective"
+ },
+ "məlhəməbənzər": {
+  "az": "Məlhəmə oxşayan, məlhəm kimi qatı və yağlı.",
+  "en": "ointment-like, salve-like",
+  "pos": "adjective"
+ },
+ "məlhəməoxşar": {
+  "az": "Məlhəmə bənzəyən, məlhəm kimi.",
+  "en": "ointment-like, salve-like",
+  "pos": "adjective"
+ },
+ "məlumatalma": {
+  "az": "Məlumat əldə etmə, məlumat toplama.",
+  "en": "obtaining information, information gathering",
+  "pos": "noun"
+ },
+ "məlumatötürmə": {
+  "az": "Məlumatı bir yerdən başqa yerə ötürmə (rabitə kanalları ilə və s.).",
+  "en": "data transmission, information transfer",
+  "pos": "noun"
+ },
+ "məlumatötürücü": {
+  "az": "Məlumatı bir yerdən başqa yerə ötürən qurğu.",
+  "en": "data transmitter",
+  "pos": "noun"
+ },
+ "məlumatötürən": {
+  "az": "Məlumat ötürən (məlumatötürən qurğu, kanal).",
+  "en": "data-transmitting",
+  "pos": "adjective"
+ },
+ "mələkotu": {
+  "az": "Çətirçiçəklilər fəsiləsindən ətirli, dərman kimi işlədilən ot bitkisi; angelika.",
+  "en": "angelica",
+  "pos": "noun"
+ },
+ "mələksifət": {
+  "az": "Üzü mələk kimi gözəl, saf görünüşlü.",
+  "en": "angel-faced, angelic",
+  "pos": "adjective"
+ },
+ "mələksifətli": {
+  "az": "Sifəti mələk kimi gözəl və nurlu olan.",
+  "en": "angel-faced",
+  "pos": "adjective"
+ },
+ "mələksurətli": {
+  "az": "Surəti, üzü mələk kimi gözəl olan.",
+  "en": "angel-faced",
+  "pos": "adjective"
+ },
+ "mələkçöhrə": {
+  "az": "Çöhrəsi mələk kimi gözəl olan.",
+  "en": "angel-faced",
+  "pos": "adjective"
+ },
+ "məmurbaşı": {
+  "az": "Məmurların başçısı; baş məmur.",
+  "en": "chief official",
+  "pos": "noun"
+ },
+ "məməyəoxşar": {
+  "az": "Məməyə, döş giləsinə oxşayan.",
+  "en": "nipple-like, mammillary",
+  "pos": "adjective"
+ },
+ "mənfəətverici": {
+  "az": "Mənfəət, qazanc gətirən.",
+  "en": "profitable",
+  "pos": "adjective"
+ },
+ "mənfəətverən": {
+  "az": "Mənfəət, qazanc verən (mənfəətverən müəssisə).",
+  "en": "profitable, profit-making",
+  "pos": "adjective"
+ },
+ "mənzilbaşı": {
+  "az": "Gedilən yolun son nöqtəsi, çatılacaq yer.",
+  "en": "destination",
+  "pos": "noun"
+ },
+ "mərcangülü": {
+  "skip": "meaning not certain"
+ },
+ "mərcanqurdu": {
+  "skip": "animal name, not certain"
+ },
+ "mərciməyəbənzər": {
+  "az": "Mərcimək dənəsinə oxşayan; linzaşəkilli.",
+  "en": "lentil-shaped, lenticular",
+  "pos": "adjective"
+ },
+ "mərciməyəoxşar": {
+  "az": "Mərcimək dənəsinə bənzəyən, mərcimək formalı.",
+  "en": "lentil-shaped, lenticular",
+  "pos": "adjective"
+ },
+ "mərciyəoxşar": {
+  "az": "Mərcimək dənəsinə bənzəyən, mərcimək formalı.",
+  "en": "lentil-shaped, lenticular",
+  "pos": "adjective"
+ },
+ "mərkəzdaxili": {
+  "az": "Mərkəzin daxilində olan (mərkəzdaxili əlaqələr).",
+  "en": "within a centre, intracentral",
+  "pos": "adjective"
+ },
+ "mərkəzdənxaric": {
+  "az": "Mərkəzdən kənarda yerləşən, mərkəzə düşməyən (mərkəzdənxaric sıxılma); ekssentrik.",
+  "en": "eccentric, off-centre",
+  "pos": "adjective"
+ },
+ "mərmərbədənli": {
+  "az": "Bədəni mərmər kimi ağ və hamar olan (poetik).",
+  "en": "marble-bodied, with skin white as marble (poetic)",
+  "pos": "adjective"
+ }
+}

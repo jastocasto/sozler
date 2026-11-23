@@ -1,0 +1,904 @@
+{
+ "qoşatərkibli": {
+  "az": "İki tərkib hissəsindən ibarət olan; ikikomponentli.",
+  "en": "two-component, binary",
+  "pos": "adjective"
+ },
+ "qoşayarpaqlı": {
+  "az": "Yarpaqları cüt-cüt yerləşən və ya iki yarpağı olan (bitki).",
+  "en": "with paired leaves; two-leaved",
+  "pos": "adjective"
+ },
+ "qoşayelənli": {
+  "skip": "meaning not certain"
+ },
+ "qoşunyığma": {
+  "az": "Qoşun toplama, döyüş üçün ordu yığma.",
+  "en": "raising troops, mustering an army",
+  "pos": "noun"
+ },
+ "qramplastinka": {
+  "az": "Qrammofon və ya patefonda səsləndirilən səs yazılı disk; val.",
+  "en": "gramophone record",
+  "pos": "noun",
+  "parts": false
+ },
+ "qramrentgen": {
+  "az": "Udulmuş şüalanma enerjisinin köhnə ölçü vahidi: bir qram havanın bir rentgen dozasında udduğu enerji.",
+  "en": "gram-roentgen (old unit of absorbed radiation energy)",
+  "pos": "noun"
+ },
+ "qramsantimetr": {
+  "az": "İşin və ya qüvvə momentinin ölçü vahidi: bir qram-qüvvənin bir santimetr yolda gördüyü iş.",
+  "en": "gram-centimetre (unit of work or moment of force)",
+  "pos": "noun"
+ },
+ "qrifvermə": {
+  "az": "Nəşrə və ya sənədə rəsmi qrif verilməsi: dərsliyin təsdiqi və ya məxfilik dərəcəsinin göstərilməsi.",
+  "en": "granting an official stamp (of approval or secrecy) to a publication or document",
+  "pos": "noun"
+ },
+ "qruntqarışdıran": {
+  "az": "Tikinti və yol işlərində qruntu qarışdıran maşın və ya qurğu.",
+  "en": "soil mixer",
+  "pos": "noun"
+ },
+ "qruntqarışdırma": {
+  "az": "Qruntun (torpağın) qarışdırılması, xüsusən tikinti və yol işlərində.",
+  "en": "soil mixing",
+  "pos": "noun"
+ },
+ "qulaqbatma": {
+  "az": "Qulağın tutulması; qulaqda təzyiq və eşitmənin zəifləməsi hissi.",
+  "en": "blocked ears, ear stuffiness",
+  "pos": "noun"
+ },
+ "qulaqdeşən": {
+  "az": "Qulağı deşəcək qədər gur və cingiltili (səs).",
+  "en": "ear-piercing, deafening",
+  "pos": "adjective"
+ },
+ "qulaqseyvanı": {
+  "az": "Xarici qulağın başdan kənara çıxan qığırdaqlı hissəsi.",
+  "en": "auricle, pinna (outer ear)",
+  "pos": "noun"
+ },
+ "qulaqyastığı": {
+  "az": "Yatarkən başın və ya qulağın altına qoyulan kiçik yastıq.",
+  "en": "small pillow",
+  "pos": "noun"
+ },
+ "qulağıaçıq": {
+  "skip": "meaning not certain"
+ },
+ "qulluqsevən": {
+  "skip": "meaning not certain"
+ },
+ "quluncqırma": {
+  "az": "Kürək və çiyin əzələlərindəki qulunc ağrısını ovma, basma və dartma ilə aradan qaldıran xalq müalicəsi.",
+  "en": "folk massage to relieve muscle pain in the back and shoulders",
+  "pos": "noun",
+  "parts": false
+ },
+ "quluncsındırma": {
+  "az": "Qulunc ağrısını kürək və çiyin əzələlərini ovub dartmaqla aradan qaldırma; quluncqırma.",
+  "en": "folk massage to relieve muscle pain in the back and shoulders",
+  "pos": "noun"
+ },
+ "qulunsalma": {
+  "az": "Madyanın vaxtından əvvəl doğması, qulununu salması.",
+  "en": "miscarriage in a mare, slipping a foal",
+  "pos": "noun"
+ },
+ "qumverici": {
+  "az": "Qumu lazımi yerə ötürən, qum səpən (qurğu; məs.: lokomotivin relslərə qum verən qurğusu).",
+  "en": "sand-feeding; sander (device)",
+  "pos": "adjective"
+ },
+ "qumüfürücü": {
+  "az": "Sıxılmış hava ilə qum üfürən maşın və ya qurğu.",
+  "en": "sand blower, sand-blowing machine",
+  "pos": "noun"
+ },
+ "qumüfürən": {
+  "az": "Sıxılmış hava ilə qum üfürən (maşın, qurğu).",
+  "en": "sand-blowing",
+  "pos": "adjective"
+ },
+ "qumələyən": {
+  "az": "Qumu ələyən, iri dənələrdən təmizləyən (maşın, işçi).",
+  "en": "sand-sifting; sand sifter",
+  "pos": "adjective"
+ },
+ "quncuqısa": {
+  "az": "Boğazı (qoncu) qısa olan (çəkmə, corab).",
+  "en": "with short shafts (of boots, socks)",
+  "pos": "adjective"
+ },
+ "quncuuzun": {
+  "az": "Boğazı (qoncu) uzun olan (çəkmə, corab).",
+  "en": "with long shafts (of boots, socks)",
+  "pos": "adjective"
+ },
+ "quncuəyri": {
+  "az": "Boğazı (qoncu) əyri olan (çəkmə).",
+  "en": "with a crooked shaft (of boots)",
+  "pos": "adjective"
+ },
+ "ququkimi": {
+  "az": "Ququ quşu kimi, ququya bənzər.",
+  "en": "like a cuckoo",
+  "pos": "adverb"
+ },
+ "ququotu": {
+  "skip": "plant name, not certain"
+ },
+ "ququçiçəyi": {
+  "skip": "plant name, not certain"
+ },
+ "quramanaxış": {
+  "az": "Müxtəlif rəngli parça və ya hissələrin birləşdirilməsindən yaranan naxış.",
+  "en": "patchwork pattern",
+  "pos": "noun"
+ },
+ "quramanaxışlı": {
+  "az": "Qurama naxışla bəzədilmiş (yorğan, örtük və s.).",
+  "en": "with a patchwork pattern",
+  "pos": "adjective"
+ },
+ "quramatikən": {
+  "az": "Parça qırıqlarını birləşdirib qurama tikən (usta, qadın).",
+  "en": "making patchwork; patchwork maker",
+  "pos": "adjective"
+ },
+ "quraqlığadözümlü": {
+  "az": "Quraqlığa, susuzluğa davamlı olan (bitki, sort).",
+  "en": "drought-resistant, drought-tolerant",
+  "pos": "adjective"
+ },
+ "qurdağzıçiçəkli": {
+  "skip": "plant name, not certain"
+ },
+ "qurdkökü": {
+  "skip": "plant name, not certain"
+ },
+ "qurdpəncəsi": {
+  "skip": "plant name, not certain"
+ },
+ "qurdsayağı": {
+  "az": "Qurd kimi, qurda xas tərzdə (məs.: qurdsayağı ulamaq).",
+  "en": "like a wolf, wolf-fashion",
+  "pos": "adverb"
+ },
+ "qurdtökmə": {
+  "az": "Bağırsaq qurdlarının dərmanla orqanizmdən xaric edilməsi.",
+  "en": "deworming, expulsion of intestinal worms",
+  "pos": "noun"
+ },
+ "qurdtökən": {
+  "az": "Bağırsaq qurdlarını orqanizmdən xaric edən (dərman, bitki).",
+  "en": "anthelmintic, vermifuge",
+  "pos": "adjective"
+ },
+ "qurdyağı": {
+  "skip": "meaning not certain"
+ },
+ "qurdyeməz": {
+  "skip": "meaning not certain"
+ },
+ "qurdürəkli": {
+  "az": "Qurd kimi cəsur, qorxu bilməyən.",
+  "en": "fearless, bold (lit. wolf-hearted)",
+  "pos": "adjective"
+ },
+ "quruboşalma": {
+  "skip": "meaning not certain"
+ },
+ "qurultaysayağı": {
+  "az": "Qurultay kimi, qurultaya bənzər tərzdə.",
+  "en": "in the manner of a congress",
+  "pos": "adverb"
+ },
+ "qurutxəngəli": {
+  "az": "Üzərinə qurut tökülərək verilən xəngəl.",
+  "en": "khangal served with qurut (dried yoghurt)",
+  "pos": "noun"
+ },
+ "qurğuşunotu": {
+  "skip": "plant name, not certain"
+ },
+ "qurğuşunçiçəyi": {
+  "skip": "plant name, not certain"
+ },
+ "qusdurmaotu": {
+  "skip": "plant name, not certain"
+ },
+ "qutabbişirən": {
+  "az": "Qutab bişirən (aşpaz, qadın).",
+  "en": "qutab-making; qutab cook",
+  "pos": "adjective"
+ },
+ "qutabotu": {
+  "skip": "plant name, not certain"
+ },
+ "qutabsatan": {
+  "az": "Qutab satan (şəxs, yer).",
+  "en": "selling qutab; qutab seller",
+  "pos": "adjective"
+ },
+ "qutankimi": {
+  "az": "Qutana bənzər, qutan quşu kimi.",
+  "en": "pelican-like",
+  "pos": "adjective"
+ },
+ "qutubağlama": {
+  "az": "Qutuların bağlanması, qablaşdırılması.",
+  "en": "box sealing, packing boxes",
+  "pos": "noun"
+ },
+ "qutubağlayan": {
+  "az": "Qutuları bağlayıb qablaşdıran (maşın, işçi).",
+  "en": "box-sealing; box packer",
+  "pos": "adjective"
+ },
+ "quyruqbulama": {
+  "az": "Heyvanın quyruğunu yelləməsi; məc. yaltaqlanma.",
+  "en": "tail-wagging; fig. fawning",
+  "pos": "noun"
+ },
+ "quyruqyağı": {
+  "az": "Qoyunun quyruğundan alınan piy; quyruq piyi.",
+  "en": "sheep's tail fat",
+  "pos": "noun",
+  "parts": false
+ },
+ "quyuqazma": {
+  "az": "Su, neft və s. çıxarmaq üçün quyu qazma işi.",
+  "en": "well digging, well drilling",
+  "pos": "noun"
+ },
+ "quyuvuran": {
+  "az": "Quyu qazan usta və ya qurğu.",
+  "en": "well digger, well driller",
+  "pos": "noun",
+  "parts": false
+ },
+ "quyuvurma": {
+  "az": "Quyu qazma, quyu açma işi.",
+  "en": "sinking a well, well drilling",
+  "pos": "noun"
+ },
+ "quzudili": {
+  "skip": "plant name, not certain"
+ },
+ "quzugöbələyi": {
+  "skip": "mushroom name, not certain"
+ },
+ "quzugörən": {
+  "skip": "meaning not certain"
+ },
+ "quzukəsmə": {
+  "az": "Quzuların kəsilməsi.",
+  "en": "slaughtering of lambs",
+  "pos": "noun"
+ },
+ "quzukəsən": {
+  "az": "Quzuları kəsən adam (qəssab).",
+  "en": "lamb slaughterer",
+  "pos": "noun",
+  "parts": false
+ },
+ "quzuotu": {
+  "skip": "plant name, not certain"
+ },
+ "quzuplov": {
+  "az": "Quzu əti ilə bişirilən plov.",
+  "en": "lamb pilaf",
+  "pos": "noun"
+ },
+ "quzuqıran": {
+  "skip": "meaning not certain"
+ },
+ "quzğunqılıcı": {
+  "skip": "plant name, not certain"
+ },
+ "quşaparan": {
+  "skip": "meaning not certain"
+ },
+ "quşburaxan": {
+  "az": "Quşları azadlığa və ya uçmağa buraxan (şəxs).",
+  "en": "releasing birds",
+  "pos": "adjective"
+ },
+ "quşbuğdası": {
+  "skip": "plant name, not certain"
+ },
+ "quşkəsmə": {
+  "az": "Ev quşlarının kəsilməsi.",
+  "en": "poultry slaughtering",
+  "pos": "noun"
+ },
+ "quşkəsən": {
+  "az": "Ev quşlarını kəsən adam və ya qurğu.",
+  "en": "poultry slaughterer",
+  "pos": "noun",
+  "parts": false
+ },
+ "quşmamırı": {
+  "skip": "plant name, not certain"
+ },
+ "quşotu": {
+  "skip": "plant name, not certain"
+ },
+ "quşquyruq": {
+  "skip": "meaning not certain"
+ },
+ "quşquyruğu": {
+  "skip": "meaning not certain"
+ },
+ "quşsatan": {
+  "az": "Quş satan (şəxs).",
+  "en": "bird-selling; bird seller",
+  "pos": "adjective"
+ },
+ "quşsevən": {
+  "az": "Quşları sevən, quş saxlamağı xoşlayan (şəxs).",
+  "en": "bird-loving; bird lover",
+  "pos": "adjective"
+ },
+ "quştutma": {
+  "az": "Quşların tələ, tor və s. ilə tutulması.",
+  "en": "bird catching, fowling",
+  "pos": "noun"
+ },
+ "quşvuran": {
+  "az": "Quş ovlayan, quş vuran ovçu.",
+  "en": "bird hunter, fowler",
+  "pos": "noun",
+  "parts": false
+ },
+ "quşyemişi": {
+  "skip": "plant name, not certain"
+ },
+ "qönçədodaqlı": {
+  "az": "Dodaqları qönçə kimi kiçik və zərif olan (gözəl).",
+  "en": "rosebud-lipped",
+  "pos": "adjective"
+ },
+ "qövsdamarlı": {
+  "az": "Damarları qövs şəklində uzanan (yarpaq).",
+  "en": "arcuate-veined (of leaves)",
+  "pos": "adjective"
+ },
+ "qövsdözümlülüyü": {
+  "az": "Materialın elektrik qövsünün təsirinə dözmə qabiliyyəti.",
+  "en": "arc resistance",
+  "pos": "noun"
+ },
+ "qüssəgətirən": {
+  "az": "İnsanda qüssə, kədər yaradan.",
+  "en": "saddening, depressing, melancholy",
+  "pos": "adjective"
+ },
+ "qüvvədəndüşmə": {
+  "az": "Qanunun, müqavilənin və ya sənədin hüquqi qüvvəsini itirməsi.",
+  "en": "loss of legal force, invalidation",
+  "pos": "noun"
+ },
+ "qıfsəbət": {
+  "skip": "meaning not certain"
+ },
+ "qıfılaçan": {
+  "az": "Qıfıl açan, kilidi açmağı bacaran (şəxs, alət).",
+  "en": "lock-opening; lockpick",
+  "pos": "adjective"
+ },
+ "qıfılaçma": {
+  "az": "Qıfılın açılması, xüsusən açarsız açılması.",
+  "en": "opening a lock, lockpicking",
+  "pos": "noun"
+ },
+ "qıjıkimi": {
+  "az": "Qıjıya bənzər, qıjı kimi.",
+  "en": "fern-like",
+  "pos": "adjective"
+ },
+ "qılyarpaq": {
+  "skip": "plant name, not certain"
+ },
+ "qılçıqşəkilli": {
+  "az": "Qılçıq formasında olan, nazik və uzun.",
+  "en": "awn-shaped, bristle-like",
+  "pos": "adjective"
+ },
+ "qılıncqayıran": {
+  "az": "Qılınc düzəldən (usta); qılınc ustası.",
+  "en": "sword-making; swordsmith",
+  "pos": "adjective"
+ },
+ "qıpıqgözlü": {
+  "az": "Gözləri qıpıq, yarıyumulu olan.",
+  "en": "narrow-eyed, with half-closed eyes",
+  "pos": "adjective"
+ },
+ "qıraqbasan": {
+  "az": "Materialın kənarını basıb sıxan (alət, maşın).",
+  "en": "edge-pressing (tool, machine)",
+  "pos": "adjective"
+ },
+ "qıraqkəsən": {
+  "az": "Materialın (taxta, metal, kağız) kənarlarını kəsən maşın və ya alət.",
+  "en": "edge trimmer",
+  "pos": "noun",
+  "parts": false
+ },
+ "qıraqyonan": {
+  "az": "Materialın kənarını yonan (dəzgah).",
+  "en": "edge-planing (machine)",
+  "pos": "adjective"
+ },
+ "qıraqəyən": {
+  "az": "Materialın kənarını əyən (maşın, alət).",
+  "en": "edge-bending (machine)",
+  "pos": "adjective"
+ },
+ "qırbasma": {
+  "skip": "meaning not certain"
+ },
+ "qırbişirmə": {
+  "az": "Qırın qazanda qızdırılıb əridilməsi.",
+  "en": "boiling tar, heating tar",
+  "pos": "noun",
+  "parts": false
+ },
+ "qırdöşəmə": {
+  "az": "Səthin (damın, yolun) qırla örtülməsi, üzərinə qır döşənməsi.",
+  "en": "tarring, laying tar",
+  "pos": "noun",
+  "parts": false
+ },
+ "qırdöşəyən": {
+  "az": "Səthə qır döşəyən (işçi, maşın).",
+  "en": "tar-laying; tar layer",
+  "pos": "adjective",
+  "parts": false
+ },
+ "qırmaatan": {
+  "az": "Qırma ilə atəş açan (ov tüfəngi).",
+  "en": "shot-firing (of a gun)",
+  "pos": "adjective"
+ },
+ "qırmabığlı": {
+  "az": "Bığı qısa qırxılmış, qısaldılmış olan.",
+  "en": "with a clipped moustache",
+  "pos": "adjective",
+  "parts": false
+ },
+ "qırmakabab": {
+  "skip": "meaning not certain"
+ },
+ "qırmanaxış": {
+  "skip": "meaning not certain"
+ },
+ "qırmasaqqallı": {
+  "az": "Saqqalı qısa qırxılmış, qısaldılmış olan.",
+  "en": "with a trimmed beard",
+  "pos": "adjective",
+  "parts": false
+ },
+ "qırmızıbaşlı": {
+  "az": "Başı qırmızı olan (çox vaxt quş və heyvan adlarında).",
+  "en": "red-headed",
+  "pos": "adjective"
+ },
+ "qırmızıburunlu": {
+  "az": "Burnu qırmızı olan.",
+  "en": "red-nosed",
+  "pos": "adjective"
+ },
+ "qırmızıdimdikli": {
+  "az": "Dimdiyi qırmızı olan (quş).",
+  "en": "red-billed",
+  "pos": "adjective"
+ },
+ "qırmızıdodaqlı": {
+  "az": "Dodaqları qırmızı olan.",
+  "en": "red-lipped",
+  "pos": "adjective"
+ },
+ "qırmızıköynək": {
+  "skip": "meaning not certain"
+ },
+ "qırmızıköynəkli": {
+  "az": "Əynində qırmızı köynək olan.",
+  "en": "red-shirted, wearing a red shirt",
+  "pos": "adjective"
+ },
+ "qırmızınişanlı": {
+  "az": "Üzərində qırmızı nişan, ləkə və ya işarə olan.",
+  "en": "red-marked, red-spotted",
+  "pos": "adjective"
+ },
+ "qırmızıqulaq": {
+  "skip": "meaning not certain"
+ },
+ "qırmızısaqqallı": {
+  "az": "Saqqalı qırmızı, kürən olan.",
+  "en": "red-bearded",
+  "pos": "adjective"
+ },
+ "qırmızısifətli": {
+  "az": "Üzü qırmızı olan, qırmızıyanaq.",
+  "en": "red-faced, ruddy",
+  "pos": "adjective"
+ },
+ "qırmızıtüklü": {
+  "az": "Tükü qırmızı və ya kürən rəngdə olan (heyvan, quş).",
+  "en": "red-haired, with red fur or feathers",
+  "pos": "adjective"
+ },
+ "qırmızıyanaqlı": {
+  "az": "Yanaqları qırmızı, al olan.",
+  "en": "rosy-cheeked, red-cheeked",
+  "pos": "adjective"
+ },
+ "qırqovulkimi": {
+  "az": "Qırqovula bənzər, qırqovul kimi.",
+  "en": "pheasant-like",
+  "pos": "adjective"
+ },
+ "qırqovulplov": {
+  "az": "Qırqovul əti ilə bişirilən plov.",
+  "en": "pheasant pilaf",
+  "pos": "noun"
+ },
+ "qırxbuğumkimi": {
+  "skip": "plant name, not certain"
+ },
+ "qırxdamarlı": {
+  "skip": "meaning not certain"
+ },
+ "qırxdüymə": {
+  "skip": "meaning not certain"
+ },
+ "qırxdüyməli": {
+  "skip": "meaning not certain"
+ },
+ "qırxsütun": {
+  "skip": "meaning not certain"
+ },
+ "qırxsütunlu": {
+  "skip": "meaning not certain"
+ },
+ "qırxtonluq": {
+  "az": "Qırx ton yük götürən və ya qırx ton ağırlığı olan (məs.: qırxtonluq vaqon).",
+  "en": "forty-ton",
+  "pos": "adjective"
+ },
+ "qırıqxətli": {
+  "az": "Qırıq xətlərlə çəkilmiş, qırıq xətlərdən ibarət.",
+  "en": "dashed, drawn with broken lines",
+  "pos": "adjective"
+ },
+ "qırıqxətsiz": {
+  "skip": "meaning not certain"
+ },
+ "qırışsifətli": {
+  "az": "Üzü qırış-qırış olan, üzü qırışmış.",
+  "en": "wrinkle-faced",
+  "pos": "adjective"
+ },
+ "qırışıqsifət": {
+  "az": "Üzü qırışıq olan adam.",
+  "en": "wrinkle-faced person",
+  "pos": "noun"
+ },
+ "qırışıqsifətli": {
+  "az": "Üzü qırışıq olan.",
+  "en": "wrinkle-faced, with a wrinkled face",
+  "pos": "adjective"
+ },
+ "qısaborulu": {
+  "az": "Borusu qısa olan (çiçək, alət, lülə və s.).",
+  "en": "short-tubed; short-barrelled",
+  "pos": "adjective"
+ },
+ "qısaboyun": {
+  "az": "Boynu qısa olan (adam, heyvan).",
+  "en": "short-necked",
+  "pos": "adjective"
+ },
+ "qısaboyunlu": {
+  "az": "Boynu qısa olan (adam, heyvan, quş).",
+  "en": "short-necked",
+  "pos": "adjective"
+ },
+ "qısabığcıq": {
+  "skip": "insect name, not certain"
+ },
+ "qısadalğa": {
+  "az": "Radioda uzunluğu təxminən 10–100 metr olan dalğalar diapazonu; qısa dalğa.",
+  "en": "shortwave (radio)",
+  "pos": "noun"
+ },
+ "qısadimdikli": {
+  "az": "Dimdiyi qısa olan (quş).",
+  "en": "short-billed",
+  "pos": "adjective"
+ },
+ "qısagövdəli": {
+  "az": "Gövdəsi qısa olan (bitki, heyvan).",
+  "en": "short-stemmed; short-bodied",
+  "pos": "adjective"
+ },
+ "qısaqundaq": {
+  "skip": "meaning not certain"
+ },
+ "qısaşüalı": {
+  "az": "Şüaları qısa olan (çiçək, ulduzvari forma və s.).",
+  "en": "short-rayed",
+  "pos": "adjective"
+ },
+ "qısqacşəkilli": {
+  "az": "Qısqac formasında olan.",
+  "en": "pincer-shaped",
+  "pos": "adjective"
+ },
+ "qısırqalan": {
+  "az": "Mayalanmayan, həmin il balalamayan, qısır qalan heyvan.",
+  "en": "barren animal (one that failed to conceive)",
+  "pos": "noun"
+ },
+ "qısırqalma": {
+  "az": "Ev heyvanının mayalanmaması, balalaya bilməməsi.",
+  "en": "failure to conceive (in livestock), barrenness",
+  "pos": "noun"
+ },
+ "qıvraqbədən": {
+  "az": "Bədəni çevik, cəld və yığcam olan.",
+  "en": "lithe, agile-bodied",
+  "pos": "adjective"
+ },
+ "qıvraqbədənli": {
+  "az": "Bədəni çevik, cəld və yığcam olan.",
+  "en": "lithe, agile, well-built",
+  "pos": "adjective"
+ },
+ "qıvrımsaqqallı": {
+  "az": "Saqqalı qıvrım olan.",
+  "en": "curly-bearded",
+  "pos": "adjective"
+ },
+ "qıvrımtelli": {
+  "az": "Saç telləri qıvrım olan.",
+  "en": "curly-haired",
+  "pos": "adjective"
+ },
+ "qıvrımtüklü": {
+  "az": "Tükü qıvrım olan (heyvan, xüsusən qoyun).",
+  "en": "curly-haired, curly-coated",
+  "pos": "adjective"
+ },
+ "qıvrımşəkilli": {
+  "az": "Qıvrım formasında olan, burulmuş.",
+  "en": "curled, spiral-shaped",
+  "pos": "adjective"
+ },
+ "qıyçəkmə": {
+  "az": "Uca səslə qışqırma, qıy çəkmə, haray salma.",
+  "en": "shouting, crying out",
+  "pos": "noun"
+ },
+ "qıyçəkən": {
+  "az": "Uca səslə qışqıran, qıy çəkən.",
+  "en": "shouting, crying out loudly",
+  "pos": "adjective"
+ },
+ "qızqarğası": {
+  "skip": "bird name, not certain"
+ },
+ "qızqaytaran": {
+  "skip": "meaning not certain"
+ },
+ "qızılaxtarma": {
+  "az": "Qızıl yataqlarının axtarılması.",
+  "en": "gold prospecting",
+  "pos": "noun"
+ },
+ "qızılbalıqkimi": {
+  "az": "Qızılbalığa bənzər, qızılbalıq kimi.",
+  "en": "salmon-like",
+  "pos": "adjective"
+ },
+ "qızılbayraqlı": {
+  "az": "Sovet dövründə Qırmızı Bayraq ordeni ilə təltif olunmuş (hərbi hissə, donanma və s.); qırmızıbayraqlı.",
+  "en": "Red Banner (awarded the Order of the Red Banner)",
+  "pos": "adjective",
+  "src": "izahli"
+ },
+ "qızılbənd": {
+  "skip": "meaning not certain"
+ },
+ "qızılemaledici": {
+  "az": "Qızıl emal edən (müəssisə, sənaye sahəsi).",
+  "en": "gold-processing",
+  "pos": "adjective"
+ },
+ "qızılmedalçı": {
+  "az": "Qızıl medal qazanmış şəxs (idmançı, məktəb məzunu və s.).",
+  "en": "gold medallist",
+  "pos": "noun"
+ },
+ "qızılpapaq": {
+  "skip": "meaning not certain"
+ },
+ "qızılpapaqlı": {
+  "skip": "meaning not certain"
+ },
+ "qızılpencər": {
+  "skip": "plant name, not certain"
+ },
+ "qızılqanadlı": {
+  "az": "Qanadları qızılı rəngdə olan.",
+  "en": "golden-winged",
+  "pos": "adjective"
+ },
+ "qızılsatan": {
+  "az": "Qızıl və qızıl məmulatı satan (şəxs).",
+  "en": "gold-selling; gold dealer",
+  "pos": "adjective"
+ },
+ "qızılsatma": {
+  "az": "Qızılın və ya qızıl məmulatının satılması.",
+  "en": "selling gold",
+  "pos": "noun"
+ },
+ "qızılsığırçın": {
+  "skip": "bird name, not certain"
+ },
+ "qızılyunlu": {
+  "az": "Yunu qızılı rəngdə olan (məs.: qızılyunlu qoç).",
+  "en": "golden-fleeced",
+  "pos": "adjective"
+ },
+ "qızılyığan": {
+  "az": "Qızıl yığan, qızıl toplayan (şəxs, qurğu).",
+  "en": "gold-collecting; gold hoarder",
+  "pos": "adjective"
+ },
+ "qızılyığma": {
+  "az": "Qızılın toplanması, yığılması.",
+  "en": "collecting gold, hoarding gold",
+  "pos": "noun"
+ },
+ "qızılçiçək": {
+  "skip": "plant name, not certain"
+ },
+ "qızılçıxaran": {
+  "az": "Qızıl hasil edən (mədən, müəssisə, sənaye).",
+  "en": "gold-mining",
+  "pos": "adjective"
+ },
+ "qızılısaçlı": {
+  "az": "Saçları qızılı rəngdə olan.",
+  "en": "golden-haired",
+  "pos": "adjective"
+ },
+ "qıçatəmizləyən": {
+  "skip": "meaning not certain"
+ },
+ "qıçaçiçəkli": {
+  "skip": "plant name, not certain"
+ },
+ "qığılcımtutan": {
+  "az": "Qığılcımların ətrafa yayılmasının qarşısını alan (qurğu: bacada, lokomotivdə və s.).",
+  "en": "spark-arresting; spark arrester",
+  "pos": "adjective"
+ },
+ "qışlaqbaşı": {
+  "skip": "meaning not certain"
+ },
+ "qışqabağı": {
+  "skip": "ambiguous: 'before winter' or 'winter squash', not certain"
+ },
+ "qışqırıqsalan": {
+  "az": "Qışqırıq salan, səs-küy qaldıran.",
+  "en": "rowdy, raising an uproar",
+  "pos": "adjective"
+ },
+ "qəbirgötürmə": {
+  "skip": "meaning not certain"
+ },
+ "qəbirqazma": {
+  "az": "Ölünü dəfn etmək üçün qəbir qazma işi.",
+  "en": "grave digging",
+  "pos": "noun"
+ },
+ "qədimtarixli": {
+  "az": "Çox qədim tarixi olan.",
+  "en": "ancient, with a long history",
+  "pos": "adjective"
+ },
+ "qədimyana": {
+  "az": "Qədim zamanlara xas tərzdə, köhnə üsulla.",
+  "en": "in the old style, old-fashioned",
+  "pos": "adverb"
+ },
+ "qədirağacı": {
+  "skip": "plant name, not certain"
+ },
+ "qəfəsəbənzər": {
+  "az": "Qəfəsə oxşayan, qəfəs kimi.",
+  "en": "cage-like",
+  "pos": "adjective",
+  "parts": false
+ },
+ "qəhvəüyütmə": {
+  "az": "Qəhvə dənələrinin üyüdülməsi.",
+  "en": "coffee grinding",
+  "pos": "noun"
+ },
+ "qəlbidolu": {
+  "az": "Ürəyi dərd, inciklik və ya kədərlə dolu olan.",
+  "en": "heavy-hearted, aggrieved",
+  "pos": "adjective",
+  "parts": false
+ },
+ "qəlbigeniş": {
+  "az": "Ürəyi geniş, səxavətli və bağışlamağı bacaran.",
+  "en": "big-hearted, magnanimous, generous",
+  "pos": "adjective",
+  "parts": false
+ },
+ "qəlbikövrək": {
+  "az": "Ürəyi kövrək, tez təsirlənən, həssas.",
+  "en": "tender-hearted, sensitive",
+  "pos": "adjective",
+  "parts": false
+ },
+ "qəlbizərif": {
+  "az": "Ürəyi incə, zərif duyğulu.",
+  "en": "gentle-hearted, delicate",
+  "pos": "adjective",
+  "parts": false
+ },
+ "qəlbiçirkin": {
+  "az": "Ürəyi pis, niyyəti çirkin olan.",
+  "en": "evil-hearted, malicious",
+  "pos": "adjective",
+  "parts": false
+ },
+ "qəlbotu": {
+  "skip": "plant name, not certain"
+ },
+ "qəlbəyatma": {
+  "az": "Bir şeyin ürəyə yatması, xoşa gəlməsi.",
+  "en": "appeal, being to one's liking",
+  "pos": "noun"
+ },
+ "qəlibalma": {
+  "az": "Bir əşyanın formasını çıxarmaq üçün ondan qəlib götürmə (məs.: dişlərdən qəlibalma).",
+  "en": "taking a mould, taking an impression",
+  "pos": "noun"
+ },
+ "qəlibtökmə": {
+  "az": "Ərimiş metalı və ya başqa materialı qəlibə töküb məmulat hazırlama.",
+  "en": "mould casting",
+  "pos": "noun"
+ },
+ "qəlibtökən": {
+  "az": "Qəlibə ərimiş metal və ya başqa material tökən (işçi).",
+  "en": "mould-casting; caster",
+  "pos": "adjective"
+ },
+ "qəlibtəmizləyən": {
+  "az": "Qəlibləri təmizləyən (işçi, qurğu).",
+  "en": "mould-cleaning",
+  "pos": "adjective"
+ },
+ "qəmdağıdan": {
+  "az": "Qəmi, kədəri dağıdan, könül açan.",
+  "en": "sorrow-dispelling, cheering",
+  "pos": "adjective"
+ }
+}

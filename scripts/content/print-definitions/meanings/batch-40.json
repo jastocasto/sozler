@@ -1,0 +1,948 @@
+{
+ "qanyaranma": {
+  "az": "Orqanizmdə qan hüceyrələrinin əmələ gəlməsi prosesi.",
+  "en": "hematopoiesis, blood formation",
+  "pos": "noun"
+ },
+ "qanyaratma": {
+  "az": "Orqanizmdə qan hüceyrələrinin yaradılması, qan əmələ gətirmə.",
+  "en": "hematopoiesis, blood formation",
+  "pos": "noun"
+ },
+ "qançəkən": {
+  "skip": "meaning not certain"
+ },
+ "qanəvəzedici": {
+  "az": "Qanın yerinə və ya qan itkisini ödəmək üçün damara yeridilən maye, məhlul.",
+  "en": "blood substitute",
+  "pos": "noun"
+ },
+ "qapıdöymə": {
+  "az": "Qapını döymə, qapını taqqıldatma.",
+  "en": "knocking at the door",
+  "pos": "noun"
+ },
+ "qapıqonşu": {
+  "az": "Qapısı qapısına yaxın olan, ən yaxın qonşu.",
+  "en": "next-door neighbour",
+  "pos": "noun"
+ },
+ "qapısıaçıq": {
+  "az": "Qapısı hamının üzünə açıq olan; qonaqpərvər.",
+  "en": "hospitable, keeping open house",
+  "pos": "adjective"
+ },
+ "qapıçırpma": {
+  "az": "Qapını bərk çırpıb bağlama.",
+  "en": "slamming of a door",
+  "pos": "noun"
+ },
+ "qaqarinit": {
+  "az": "Yuri Qaqarinin adı ilə adlandırılmış, tərkibində itrium və flüor olan nadir mineral.",
+  "en": "gagarinite (a mineral)",
+  "pos": "noun",
+  "parts": false
+ },
+ "qarabayramlıq": {
+  "az": "Yası olan ailəyə ölümdən sonrakı ilk bayramda (qara bayramda) aparılan bayram payı.",
+  "en": "holiday gifts taken to a bereaved family at the first holiday after a death",
+  "pos": "noun"
+ },
+ "qarabaşyovşanı": {
+  "skip": "plant name, not certain"
+ },
+ "qarabeyin": {
+  "skip": "meaning not certain"
+ },
+ "qarabibərli": {
+  "az": "İçinə qara bibər qatılmış, qara bibərlə ədviyyatlanmış.",
+  "en": "seasoned with black pepper",
+  "pos": "adjective"
+ },
+ "qaraboğazlı": {
+  "az": "Boğazı qara olan (quş və heyvan adlarında).",
+  "en": "black-throated (in animal names)",
+  "pos": "adjective"
+ },
+ "qaracadarı": {
+  "skip": "plant name, not certain"
+ },
+ "qaraciyərotu": {
+  "skip": "plant name, not certain"
+ },
+ "qaradimdikli": {
+  "az": "Dimdiyi qara olan (quş adlarında).",
+  "en": "black-billed",
+  "pos": "adjective"
+ },
+ "qaradırnaqlı": {
+  "az": "Dırnaqları qara olan.",
+  "en": "black-hoofed; with black nails",
+  "pos": "adjective"
+ },
+ "qaragiləkimi": {
+  "az": "Qaragiləyə oxşayan; qaragiləkimilər fəsiləsinə aid olan (bitki).",
+  "en": "bilberry-like; vacciniaceous",
+  "pos": "adjective"
+ },
+ "qaragüneyli": {
+  "skip": "meaning not certain"
+ },
+ "qarakotan": {
+  "skip": "meaning not certain"
+ },
+ "qaraköynək": {
+  "az": "İtaliyada faşist partiyasının qara köynək geyən silahlı dəstələrinin üzvü.",
+  "en": "blackshirt (Italian fascist)",
+  "pos": "noun"
+ },
+ "qarakülçə": {
+  "skip": "meaning not certain"
+ },
+ "qarakəmərli": {
+  "az": "Belində qara kəmər olan; döyüş idmanlarında qara kəmər dərəcəsi almış.",
+  "en": "black-belted; holding a black belt (in martial arts)",
+  "pos": "adjective"
+ },
+ "qaramurdarça": {
+  "skip": "plant name, not certain"
+ },
+ "qaranlıqsevən": {
+  "az": "Qaranlıqda yaşamağı sevən, işıqdan qaçan (heyvan, bitki).",
+  "en": "darkness-loving, photophobic",
+  "pos": "adjective"
+ },
+ "qaranquşkimi": {
+  "az": "Qaranquşa oxşayan; qaranquşkimilər fəsiləsinə aid olan (quşlar).",
+  "en": "swallow-like; hirundine",
+  "pos": "adjective"
+ },
+ "qarapaltarlı": {
+  "az": "Qara paltar geymiş (çox vaxt yas əlaməti olaraq).",
+  "en": "dressed in black",
+  "pos": "adjective"
+ },
+ "qarapəncə": {
+  "skip": "meaning not certain"
+ },
+ "qaraqabaqlı": {
+  "az": "Üzü tutqun, qaşqabaqlı; qaraqabaq.",
+  "en": "sullen, scowling, gloomy-faced",
+  "pos": "adjective"
+ },
+ "qaraqabar": {
+  "skip": "meaning not certain"
+ },
+ "qaraqanadlı": {
+  "az": "Qanadları qara olan (quş və həşərat adlarında).",
+  "en": "black-winged",
+  "pos": "adjective"
+ },
+ "qaraqovma": {
+  "skip": "meaning not certain"
+ },
+ "qaraquyruqlu": {
+  "az": "Quyruğu qara olan (heyvan və quş adlarında).",
+  "en": "black-tailed",
+  "pos": "adjective"
+ },
+ "qaraqırğız": {
+  "az": "Qırğızların keçmişdə, onları qazaxlardan fərqləndirmək üçün işlədilən adı.",
+  "en": "Kara-Kirghiz (old name for the Kyrgyz)",
+  "pos": "noun"
+ },
+ "qarasarmaşıq": {
+  "skip": "plant name, not certain"
+ },
+ "qarasarmaşıqlı": {
+  "skip": "depends on a plant name, not certain"
+ },
+ "qarasayağı": {
+  "skip": "meaning not certain"
+ },
+ "qarasərmə": {
+  "skip": "meaning not certain"
+ },
+ "qaratuluq": {
+  "skip": "meaning not certain"
+ },
+ "qaratüklü": {
+  "az": "Tükü qara olan (heyvan).",
+  "en": "black-haired (of animals)",
+  "pos": "adjective"
+ },
+ "qaratərə": {
+  "skip": "plant name, not certain"
+ },
+ "qaraxətmi": {
+  "skip": "plant name, not certain"
+ },
+ "qaraxəşil": {
+  "skip": "meaning not certain"
+ },
+ "qarayelin": {
+  "skip": "meaning not certain"
+ },
+ "qarayunlu": {
+  "az": "Yunu qara olan (qoyun və s.).",
+  "en": "black-fleeced, with black wool",
+  "pos": "adjective"
+ },
+ "qaraçısayaq": {
+  "az": "Qaraçılar kimi, qaraçılara xas tərzdə.",
+  "en": "Gypsy-style, in the Gypsy manner",
+  "pos": "adverb"
+ },
+ "qarağackimi": {
+  "az": "Qarağaca oxşayan; qarağackimilər fəsiləsinə aid olan (bitkilər).",
+  "en": "elm-like; ulmaceous",
+  "pos": "adjective"
+ },
+ "qaraşirə": {
+  "skip": "meaning not certain"
+ },
+ "qardaşmalı": {
+  "skip": "meaning not certain"
+ },
+ "qargilə": {
+  "skip": "meaning not certain"
+ },
+ "qarkürümə": {
+  "az": "Yığılmış qarı kürəklə götürüb kənara atma.",
+  "en": "snow shovelling",
+  "pos": "noun"
+ },
+ "qarkürüyən": {
+  "az": "Qarı kürüyüb kənara atan, yolu qardan təmizləyən (qarkürüyən maşın).",
+  "en": "snow-clearing (e.g. a snowplough)",
+  "pos": "adjective"
+ },
+ "qarmaqbuynuzlu": {
+  "az": "Buynuzları qarmaq kimi əyri olan.",
+  "en": "hook-horned",
+  "pos": "adjective"
+ },
+ "qarmağaoxşar": {
+  "az": "Qarmağa bənzəyən, ucu əyri olan.",
+  "en": "hook-shaped, hooklike",
+  "pos": "adjective"
+ },
+ "qartəmizləmə": {
+  "az": "Yolları, ərazini yağmış qardan təmizləmə.",
+  "en": "snow clearing, snow removal",
+  "pos": "noun"
+ },
+ "qaryağdıran": {
+  "az": "Qar yağdıran (qaryağdıran buludlar); süni qar yaradan (qurğu).",
+  "en": "snow-bearing; snowmaking",
+  "pos": "adjective"
+ },
+ "qaryağdırma": {
+  "az": "Qar yağmasına səbəb olma; süni yolla qar yaratma.",
+  "en": "causing snowfall; snowmaking",
+  "pos": "noun"
+ },
+ "qaryığan": {
+  "az": "Qarı yığıb toplayan (qaryığan maşın).",
+  "en": "snow-collecting (of machines)",
+  "pos": "adjective"
+ },
+ "qarğagözü": {
+  "skip": "plant name, not certain"
+ },
+ "qarğakimi": {
+  "az": "Qarğaya oxşayan; qarğakimilər fəsiləsinə aid olan (quşlar).",
+  "en": "crow-like; corvid",
+  "pos": "adjective"
+ },
+ "qarğarəngi": {
+  "az": "Qarğa rəngində olan, parlaq tünd qara (qarğarəngi saçlar).",
+  "en": "raven-black, jet-black",
+  "pos": "adjective"
+ },
+ "qarğıdalıbiçən": {
+  "az": "Qarğıdalı biçən (qarğıdalıbiçən kombayn).",
+  "en": "maize-harvesting, corn-reaping",
+  "pos": "adjective"
+ },
+ "qarğıdalısəpən": {
+  "az": "Qarğıdalı toxumu səpən (qarğıdalısəpən maşın).",
+  "en": "maize-sowing, corn-planting",
+  "pos": "adjective"
+ },
+ "qarğıdalıyığan": {
+  "az": "Qarğıdalı məhsulunu yığan (qarğıdalıyığan kombayn).",
+  "en": "maize-harvesting, corn-picking",
+  "pos": "adjective"
+ },
+ "qarındankənar": {
+  "skip": "meaning not certain"
+ },
+ "qarındolduran": {
+  "az": "Adamı tez doyduran, qarın dolduran (yemək).",
+  "en": "filling, satiating (of food)",
+  "pos": "adjective"
+ },
+ "qarşıqoyma": {
+  "az": "Bir şeyi başqasına qarşı qoyma; qarşılaşdırma, ziddiyyət yaratma.",
+  "en": "opposing, contraposition; contrasting",
+  "pos": "noun"
+ },
+ "qarəridən": {
+  "az": "Qarı əridən (qarəridən qurğu, isti külək).",
+  "en": "snow-melting",
+  "pos": "adjective"
+ },
+ "qarəritmə": {
+  "az": "Qarı istiliklə əridib suya çevirmə.",
+  "en": "snow melting",
+  "pos": "noun"
+ },
+ "qatarbağlayan": {
+  "az": "Vaqonları bir-birinə bağlayıb qatar tərkibi düzəldən (dəmiryolu işçisi).",
+  "en": "railway car coupler (worker)",
+  "pos": "adjective"
+ },
+ "qatardüzəldən": {
+  "az": "Vaqonları seçib qatar tərkibi düzəldən (dəmiryolu işçisi).",
+  "en": "train-forming (railway worker who makes up trains)",
+  "pos": "adjective"
+ },
+ "qatırabənzər": {
+  "az": "Qatıra bənzəyən, qatıra oxşar.",
+  "en": "mule-like",
+  "pos": "adjective"
+ },
+ "qatıraoxşar": {
+  "az": "Qatıra oxşayan, qatıra bənzər.",
+  "en": "mule-like",
+  "pos": "adjective"
+ },
+ "qatırquyruğukimi": {
+  "az": "Qatırquyruğuna oxşayan; qatırquyruğukimilər fəsiləsinə aid olan (bitkilər).",
+  "en": "horsetail-like; equisetaceous",
+  "pos": "adjective"
+ },
+ "qaxotu": {
+  "skip": "plant name, not certain"
+ },
+ "qaxqurudan": {
+  "az": "Meyvəni qurudub qax hazırlamaq üçün qurğu, meyvə quruducusu.",
+  "en": "fruit dryer",
+  "pos": "noun"
+ },
+ "qayakəsmə": {
+  "az": "Qayanı kəsib parçalama, qaya kəsmə işi.",
+  "en": "rock cutting",
+  "pos": "noun"
+ },
+ "qayakəsən": {
+  "az": "Qayanı kəsib parçalayan usta və ya maşın.",
+  "en": "rock cutter",
+  "pos": "noun"
+ },
+ "qayaqoruğu": {
+  "skip": "meaning not certain"
+ },
+ "qayaqıran": {
+  "az": "Qayaları qıran, parçalayan (qayaqıran maşın).",
+  "en": "rock-breaking",
+  "pos": "adjective"
+ },
+ "qaykaaçan": {
+  "az": "Qaykanı burub açmağa xidmət edən (qaykaaçan açar).",
+  "en": "nut-unscrewing (of tools)",
+  "pos": "adjective"
+ },
+ "qaykaaçma": {
+  "az": "Qaykanı burub boltdan açma, boşaltma.",
+  "en": "unscrewing of nuts",
+  "pos": "noun"
+ },
+ "qaykabağlayan": {
+  "az": "Qaykanı burub bərkitməyə xidmət edən (qaykabağlayan alət).",
+  "en": "nut-tightening (of tools)",
+  "pos": "adjective"
+ },
+ "qaykaburan": {
+  "az": "Qaykanı burub bərkidən və ya açan (qaykaburan alət).",
+  "en": "nut-running, nut-turning (of tools)",
+  "pos": "adjective"
+ },
+ "qaykakəsən": {
+  "az": "Qaykada yiv açan və ya qaykanı kəsən alət, dəzgah.",
+  "en": "nut cutter; nut-tapping tool",
+  "pos": "noun"
+ },
+ "qaymaqayıran": {
+  "az": "Süddən qaymağı ayıran (qaymaqayıran maşın, separator).",
+  "en": "cream-separating (e.g. a cream separator)",
+  "pos": "adjective"
+ },
+ "qaymaqayırma": {
+  "az": "Süddən qaymağın ayrılması.",
+  "en": "cream separation",
+  "pos": "noun"
+ },
+ "qaymaqotu": {
+  "skip": "plant name, not certain"
+ },
+ "qaymaqçəkən": {
+  "az": "Südün üzündən qaymağı çəkib ayıran (qaymaqçəkən qurğu).",
+  "en": "cream-skimming",
+  "pos": "adjective"
+ },
+ "qaynaqedici": {
+  "az": "Metal hissələri qaynaq etməyə xidmət edən (qaynaqedici aparat).",
+  "en": "welding (of devices)",
+  "pos": "adjective"
+ },
+ "qaynaqetmə": {
+  "az": "Metal hissələri əridərək bir-birinə birləşdirmə; qaynaq işi.",
+  "en": "welding",
+  "pos": "noun"
+ },
+ "qaytanqaşlı": {
+  "az": "Qaşları qaytan kimi nazik və qələmlə çəkilmiş kimi olan.",
+  "en": "with thin, finely arched eyebrows",
+  "pos": "adjective"
+ },
+ "qayçıbatmaz": {
+  "skip": "meaning not certain"
+ },
+ "qayıqsayağı": {
+  "az": "Qayığa bənzər, qayıq formasında.",
+  "en": "boat-like, boat-shaped",
+  "pos": "adjective"
+ },
+ "qayıqsürən": {
+  "az": "Qayığı sürən, idarə edən adam; qayıqçı.",
+  "en": "boatman, rower",
+  "pos": "noun"
+ },
+ "qayığaoxşar": {
+  "az": "Qayığa oxşayan, qayıq formasında olan.",
+  "en": "boat-shaped, boatlike",
+  "pos": "adjective"
+ },
+ "qazanabənzər": {
+  "az": "Qazana bənzəyən, qazan formasında olan.",
+  "en": "cauldron-like, pot-shaped",
+  "pos": "adjective"
+ },
+ "qazanalizator": {
+  "az": "Qaz qarışığının tərkibini təyin edən cihaz.",
+  "en": "gas analyser",
+  "pos": "noun",
+  "parts": false
+ },
+ "qazankababı": {
+  "az": "Ət tikələrinin qazanda öz yağında qızardılması ilə hazırlanan kabab.",
+  "en": "pot-cooked kebab",
+  "pos": "noun"
+ },
+ "qazankotleti": {
+  "az": "Qazanda bişirilən kotlet.",
+  "en": "pot-cooked cutlets",
+  "pos": "noun"
+ },
+ "qazanqalaylama": {
+  "az": "Mis qazanların içinin nazik qalay təbəqəsi ilə örtülməsi.",
+  "en": "tinning of (copper) pots",
+  "pos": "noun"
+ },
+ "qazansayaq": {
+  "az": "Qazana bənzər, qazan kimi.",
+  "en": "cauldron-like",
+  "pos": "adjective"
+ },
+ "qazanşəkilli": {
+  "az": "Qazan formasında olan.",
+  "en": "cauldron-shaped, pot-shaped",
+  "pos": "adjective"
+ },
+ "qazayırma": {
+  "az": "Qazı mayedən və ya qaz qarışığını hissələrə ayırma.",
+  "en": "gas separation",
+  "pos": "noun",
+  "parts": false
+ },
+ "qazayırıcı": {
+  "az": "Qazı neftdən, sudan və ya başqa qazlardan ayıran qurğu; separator.",
+  "en": "gas separator",
+  "pos": "noun",
+  "parts": false
+ },
+ "qazboyunlu": {
+  "az": "Boynu qaz boynu kimi uzun olan.",
+  "en": "goose-necked, long-necked",
+  "pos": "adjective"
+ },
+ "qazbölüşdürücü": {
+  "az": "Qazı istehlakçılar arasında bölüşdürən (qazbölüşdürücü məntəqə).",
+  "en": "gas-distribution",
+  "pos": "adjective",
+  "parts": false
+ },
+ "qazdaşıma": {
+  "az": "Qazın boru kəməri, tanker və s. ilə bir yerdən başqa yerə daşınması.",
+  "en": "gas transportation",
+  "pos": "noun",
+  "parts": false
+ },
+ "qazdaşıyan": {
+  "az": "Qaz daşıyan (qazdaşıyan tanker).",
+  "en": "gas-carrying (e.g. a gas carrier)",
+  "pos": "adjective",
+  "parts": false
+ },
+ "qazdoldurucu": {
+  "az": "Balonlara, nəqliyyat vasitələrinə qaz dolduran (qazdoldurucu məntəqə).",
+  "en": "gas-filling",
+  "pos": "adjective",
+  "parts": false
+ },
+ "qazemaledici": {
+  "az": "Təbii qazı emal edən (qazemaledici zavod).",
+  "en": "gas-processing",
+  "pos": "adjective",
+  "parts": false
+ },
+ "qazgeneratorlu": {
+  "az": "Qazgeneratorla təchiz edilmiş, onun verdiyi qazla işləyən (qazgeneratorlu avtomobil).",
+  "en": "gas-generator, producer-gas powered",
+  "pos": "adjective",
+  "parts": false
+ },
+ "qazhidrat": {
+  "az": "Aşağı temperatur və yüksək təzyiqdə qazın su ilə əmələ gətirdiyi buzaoxşar bərk birləşmə.",
+  "en": "gas hydrate",
+  "pos": "noun",
+  "parts": false
+ },
+ "qazkeçirici": {
+  "az": "Qazı özündən keçirən (qazkeçirici material).",
+  "en": "gas-permeable, gas-conducting",
+  "pos": "adjective",
+  "parts": false
+ },
+ "qazkimi": {
+  "az": "Qaza oxşayan; qazkimilər dəstəsinə aid olan (quşlar).",
+  "en": "goose-like; anseriform",
+  "pos": "adjective"
+ },
+ "qazkəsici": {
+  "az": "Metalı qaz alovu ilə kəsən (qazkəsici aparat).",
+  "en": "gas-cutting (of torches)",
+  "pos": "adjective",
+  "parts": false
+ },
+ "qazpaylama": {
+  "az": "Qazın istehlakçılara paylanması (qazpaylama şəbəkəsi).",
+  "en": "gas distribution",
+  "pos": "noun",
+  "parts": false
+ },
+ "qazqaynaqçısı": {
+  "az": "Qaz alovu ilə metal qaynaq edən usta.",
+  "en": "gas welder",
+  "pos": "noun",
+  "parts": false
+ },
+ "qazqaynağı": {
+  "az": "Metal hissələrin qaz alovu ilə qaynaq edilməsi.",
+  "en": "gas welding",
+  "pos": "noun",
+  "parts": false
+ },
+ "qazqurudan": {
+  "az": "Qazı nəmdən təmizləyib qurudan qurğu.",
+  "en": "gas dryer",
+  "pos": "noun",
+  "parts": false
+ },
+ "qazsoran": {
+  "az": "Qazı sorub çəkən (qazsoran qurğu).",
+  "en": "gas-suction, gas-exhausting",
+  "pos": "adjective",
+  "parts": false
+ },
+ "qazsızlatmaq": {
+  "az": "Mayedən, maddədən və ya qabdan qazı çıxarmaq.",
+  "en": "to degas",
+  "pos": "verb",
+  "parts": false
+ },
+ "qazsızma": {
+  "az": "Qazın borudan, qabdan və ya laydan xaricə sızması.",
+  "en": "gas leak, gas leakage",
+  "pos": "noun",
+  "parts": false
+ },
+ "qaztutan": {
+  "az": "Qazı tutub saxlayan (qaztutan qurğu).",
+  "en": "gas-trapping",
+  "pos": "adjective",
+  "parts": false
+ },
+ "qaztutucu": {
+  "az": "Qazı tutub saxlayan, toplayan qurğu.",
+  "en": "gas trap, gas collector",
+  "pos": "noun",
+  "parts": false
+ },
+ "qaztəmizləyici": {
+  "az": "Qazı toz, nəm və zərərli qarışıqlardan təmizləyən (qaztəmizləyici qurğu).",
+  "en": "gas-cleaning, gas-purifying",
+  "pos": "adjective",
+  "parts": false
+ },
+ "qaztəmizləyən": {
+  "az": "Qazı zərərli qarışıqlardan təmizləyən.",
+  "en": "gas-cleaning, gas-purifying",
+  "pos": "adjective",
+  "parts": false
+ },
+ "qaztənzimləmə": {
+  "az": "Qazın təzyiqinin və axınının tənzimlənməsi (qaztənzimləmə məntəqəsi).",
+  "en": "gas (pressure) regulation",
+  "pos": "noun",
+  "parts": false
+ },
+ "qaztənzimləyən": {
+  "az": "Qazın təzyiqini və axınını tənzimləyən.",
+  "en": "gas-regulating",
+  "pos": "adjective",
+  "parts": false
+ },
+ "qazudan": {
+  "az": "Qazı özünə çəkib udan (qazudan maddə).",
+  "en": "gas-absorbing",
+  "pos": "adjective",
+  "parts": false
+ },
+ "qazuducu": {
+  "az": "Qazı udan maddə və ya qurğu.",
+  "en": "gas absorber",
+  "pos": "noun",
+  "parts": false
+ },
+ "qazverici": {
+  "az": "Qaz verən, qaz hasil edən (qazverici quyu, lay).",
+  "en": "gas-yielding, gas-producing",
+  "pos": "adjective",
+  "parts": false
+ },
+ "qazvuran": {
+  "skip": "ambiguous (goose hunter or gas-injecting), not certain"
+ },
+ "qazvurma": {
+  "az": "Lay təzyiqini saxlamaq üçün neft layına quyular vasitəsilə qaz vurulması.",
+  "en": "gas injection (into an oil reservoir)",
+  "pos": "noun",
+  "parts": false
+ },
+ "qazvurucu": {
+  "az": "Laya qaz vurmaq üçün istifadə edilən (qazvurucu quyu, kompressor).",
+  "en": "gas-injection (e.g. a gas-injection well)",
+  "pos": "adjective",
+  "parts": false
+ },
+ "qazyandırıcı": {
+  "az": "Qaz yandıran, qazla işləyən (qazyandırıcı qurğu, məşəl).",
+  "en": "gas-burning",
+  "pos": "adjective",
+  "parts": false
+ },
+ "qazyaradıcı": {
+  "az": "Qaz əmələ gətirən (qazyaradıcı maddə).",
+  "en": "gas-forming, gas-generating",
+  "pos": "adjective",
+  "parts": false
+ },
+ "qazyığan": {
+  "az": "Qazı yığıb toplayan (qazyığan məntəqə).",
+  "en": "gas-collecting, gas-gathering",
+  "pos": "adjective",
+  "parts": false
+ },
+ "qazyığma": {
+  "az": "Quyulardan çıxan qazın yığılıb toplanması (qazyığma sistemi).",
+  "en": "gas gathering, gas collection",
+  "pos": "noun",
+  "parts": false
+ },
+ "qazçıxaran": {
+  "az": "Təbii qaz hasil edən (qazçıxaran müəssisə).",
+  "en": "gas-producing, gas-extracting",
+  "pos": "adjective",
+  "parts": false
+ },
+ "qazötürmə": {
+  "az": "Qazın boru kəmərləri ilə ötürülməsi.",
+  "en": "gas transmission",
+  "pos": "noun",
+  "parts": false
+ },
+ "qazötürücü": {
+  "az": "Qazı uzaq məsafəyə ötürən boru kəməri; qaz kəməri.",
+  "en": "gas transmission line, gas pipeline",
+  "pos": "noun",
+  "parts": false
+ },
+ "qaşalan": {
+  "az": "Qaş alan, qaşları yolub düzəldən (qaşalan qadın).",
+  "en": "eyebrow-plucking",
+  "pos": "adjective"
+ },
+ "qaşaldıran": {
+  "az": "Qaşlarını başqasına aldıran, düzəltdirən.",
+  "en": "having one's eyebrows plucked",
+  "pos": "adjective"
+ },
+ "qaşaldırma": {
+  "az": "Qaşlarını başqasına aldırma, düzəltdirmə.",
+  "en": "having one's eyebrows plucked or shaped",
+  "pos": "noun"
+ },
+ "qaşbənd": {
+  "skip": "meaning not certain"
+ },
+ "qaşıqxəngəli": {
+  "skip": "meaning not certain"
+ },
+ "qeybətedən": {
+  "az": "Başqaları haqqında arxadan pis danışan, qeybət edən.",
+  "en": "gossiping, backbiting",
+  "pos": "adjective"
+ },
+ "qibtəedici": {
+  "az": "Başqalarında qibtə hissi oyadan, qibtə ediləcək (qibtəedici nəticələr).",
+  "en": "enviable",
+  "pos": "adjective"
+ },
+ "qibtəedilməz": {
+  "az": "Qibtə edilməyəcək qədər ağır və ya pis olan (qibtəedilməz vəziyyət).",
+  "en": "unenviable",
+  "pos": "adjective"
+ },
+ "qidavermə": {
+  "az": "Canlıya və ya bitkiyə qida vermə, onu yemləmə; qidalandırma.",
+  "en": "feeding, nourishing",
+  "pos": "noun"
+ },
+ "qitədaxili": {
+  "az": "Bir qitənin öz daxilində olan (qitədaxili uçuşlar).",
+  "en": "intracontinental",
+  "pos": "adjective"
+ },
+ "qiymətdəndüşmə": {
+  "az": "Bir şeyin dəyərini, qiymətini itirməsi; ucuzlaşma.",
+  "en": "depreciation, loss of value",
+  "pos": "noun"
+ },
+ "qiymətkəsmə": {
+  "az": "Bir şeyin, malın qiymətini müəyyən etmə.",
+  "en": "pricing, appraisal",
+  "pos": "noun"
+ },
+ "qiymətkəsən": {
+  "az": "Mala, əmlaka qiymət kəsən, onun dəyərini müəyyən edən şəxs.",
+  "en": "appraiser, valuer",
+  "pos": "noun"
+ },
+ "qiymətverici": {
+  "az": "Qiymət verən, dəyərləndirən (qiymətverici münasibət).",
+  "en": "evaluative, appraising",
+  "pos": "adjective"
+ },
+ "qiymətvermə": {
+  "az": "Bir şeyin dəyərini, keyfiyyətini müəyyən etmə; dəyərləndirmə.",
+  "en": "evaluation, assessment; grading",
+  "pos": "noun"
+ },
+ "qiymətverən": {
+  "az": "Qiymət verən, dəyərləndirən (qiymətverən komissiya).",
+  "en": "assessing, evaluating",
+  "pos": "adjective"
+ },
+ "qiymətəminmə": {
+  "az": "Bir şeyin qiymətinin artması, bahalaşma.",
+  "en": "rise in price, appreciation",
+  "pos": "noun"
+ },
+ "qiyməxəngəl": {
+  "az": "Üstünə qızardılmış qiymə qoyulan xəngəl.",
+  "en": "khingal with minced meat",
+  "pos": "noun"
+ },
+ "qiyməçəkmə": {
+  "az": "Əti ətçəkəndən keçirib qiymə hazırlama.",
+  "en": "mincing (meat)",
+  "pos": "noun"
+ },
+ "qlobusabənzər": {
+  "az": "Qlobusa bənzəyən, kürə şəklində olan.",
+  "en": "globe-like, globular",
+  "pos": "adjective"
+ },
+ "qlobusşəkilli": {
+  "az": "Qlobus şəklində olan, kürəvi.",
+  "en": "globe-shaped, spherical",
+  "pos": "adjective"
+ },
+ "qocayemişi": {
+  "skip": "plant name, not certain"
+ },
+ "qocayerişi": {
+  "az": "Qoca adamın ağır, yavaş yerişi.",
+  "en": "old man's gait, slow shuffling walk",
+  "pos": "noun"
+ },
+ "qolatma": {
+  "skip": "meaning not certain"
+ },
+ "qolaxçası": {
+  "skip": "meaning not certain"
+ },
+ "qolbasdırma": {
+  "az": "Bitkinin (üzüm və s.) qolunu torpağa basdırıb köklətməklə çoxaltma üsulu.",
+  "en": "layering (propagating a plant by burying a shoot)",
+  "pos": "noun"
+ },
+ "qoltuqqulu": {
+  "skip": "meaning not certain"
+ },
+ "qoltuğudolu": {
+  "az": "Qoltuğu, qucağı şeylə, hədiyyə ilə dolu olan (qoltuğudolu gəlmək).",
+  "en": "with one's arms full (esp. of gifts)",
+  "pos": "adjective"
+ },
+ "qonaqcanlı": {
+  "az": "Qonaq sevən, qonaq gələndə sevinən; qonaqpərvər.",
+  "en": "hospitable, fond of guests",
+  "pos": "adjective"
+ },
+ "qondaratikmə": {
+  "az": "Qondara tikmə, ayaqqabı tikmə işi.",
+  "en": "making of qondara shoes, shoemaking",
+  "pos": "noun"
+ },
+ "qondaratikən": {
+  "az": "Qondara, ayaqqabı tikən (usta).",
+  "en": "shoemaking; cobbler",
+  "pos": "adjective"
+ },
+ "qorabasdırma": {
+  "skip": "meaning not certain"
+ },
+ "qoradöymə": {
+  "az": "Abqora hazırlamaq üçün qoranı döyüb suyunu çıxarma.",
+  "en": "crushing unripe grapes (for verjuice)",
+  "pos": "noun"
+ },
+ "qoradöyən": {
+  "az": "Qoranı döyüb suyunu çıxaran (adam, alət).",
+  "en": "crushing unripe grapes (for verjuice)",
+  "pos": "adjective"
+ },
+ "qoruqbağı": {
+  "skip": "meaning not certain"
+ },
+ "qoruqdaxili": {
+  "az": "Qoruğun ərazisi daxilində olan.",
+  "en": "within a nature reserve",
+  "pos": "adjective"
+ },
+ "qotazasma": {
+  "az": "Bəzək üçün bir şeyə qotaz asma.",
+  "en": "hanging of tassels (as decoration)",
+  "pos": "noun"
+ },
+ "qotazbağlama": {
+  "az": "Bəzək üçün bir şeyə qotaz bağlama.",
+  "en": "tying on of tassels",
+  "pos": "noun"
+ },
+ "qoturotu": {
+  "skip": "plant name, not certain"
+ },
+ "qovuqayaqlı": {
+  "az": "Ayaqlarının ucunda qovuqvari sorucu olan xırda həşəratlara (tripslərə) aid.",
+  "en": "bladder-footed; of the thrips (Thysanoptera)",
+  "pos": "adjective"
+ },
+ "qovşaqyığan": {
+  "az": "Maşın və mexanizmlərin ayrı-ayrı qovşaqlarını yığan (qovşaqyığan fəhlə).",
+  "en": "assembling machine units",
+  "pos": "adjective"
+ },
+ "qovşaqyığma": {
+  "az": "Maşın və mexanizmlərin ayrı-ayrı qovşaqlarının yığılması.",
+  "en": "unit assembly, subassembly",
+  "pos": "noun"
+ },
+ "qoxuduyma": {
+  "az": "Qoxuları duyma qabiliyyəti; iybilmə.",
+  "en": "sense of smell, olfaction",
+  "pos": "noun"
+ },
+ "qoyunboğaz": {
+  "skip": "meaning not certain"
+ },
+ "qoyunkökəltmə": {
+  "az": "Qoyunları ət üçün xüsusi yemlə kökəltmə.",
+  "en": "fattening of sheep",
+  "pos": "noun"
+ },
+ "qozkimi": {
+  "az": "Qoza oxşayan; qozkimilər fəsiləsinə aid olan (bitkilər).",
+  "en": "walnut-like; juglandaceous",
+  "pos": "adjective"
+ },
+ "qozqara": {
+  "skip": "meaning not certain"
+ },
+ "qozçiçəkli": {
+  "skip": "meaning not certain"
+ },
+ "qoğalbişirən": {
+  "az": "Qoğal bişirən (usta).",
+  "en": "qogal-baking (of a baker)",
+  "pos": "adjective"
+ },
+ "qoşaaşırımlı": {
+  "az": "İki aşırımı olan (dağ yolu).",
+  "en": "with two passes (of mountain roads)",
+  "pos": "adjective"
+ },
+ "qoşadodaqlı": {
+  "az": "İki dodağı və ya dodaqvari iki hissəsi olan; ikidodaqlı.",
+  "en": "two-lipped, bilabiate",
+  "pos": "adjective"
+ },
+ "qoşadırnaq": {
+  "skip": "ambiguous (cloven hoof or double quotation marks), not certain"
+ },
+ "qoşadəlik": {
+  "skip": "meaning not certain"
+ },
+ "qoşadəlikli": {
+  "az": "İki dəliyi olan (qoşadəlikli düymə).",
+  "en": "two-holed, double-holed",
+  "pos": "adjective"
+ },
+ "qoşaelektron": {
+  "az": "Kimyəvi rabitə yaradan iki elektrondan ibarət cüt; elektron cütü.",
+  "en": "electron pair",
+  "pos": "noun"
+ },
+ "qoşamotorlu": {
+  "az": "İki mühərriki olan (qoşamotorlu təyyarə).",
+  "en": "twin-engine(d)",
+  "pos": "adjective"
+ },
+ "qoşaqalma": {
+  "skip": "meaning not certain"
+ }
+}

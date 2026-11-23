@@ -1,0 +1,936 @@
+{
+ "mərmərkəsmə": {
+  "az": "Mərməri kəsib lövhə və bloklara ayırma işi.",
+  "en": "marble cutting",
+  "pos": "noun"
+ },
+ "mərmərkəsən": {
+  "az": "Mərmər kəsən fəhlə və ya dəzgah.",
+  "en": "marble cutter (worker or machine)",
+  "pos": "noun"
+ },
+ "mərmərçıxaran": {
+  "az": "Mərmər hasil edən (mərmərçıxaran karxana).",
+  "en": "marble-quarrying",
+  "pos": "adjective"
+ },
+ "mərmərüzlüklü": {
+  "az": "Üzü mərmər lövhələrlə örtülmüş (mərmərüzlüklü bina).",
+  "en": "marble-faced, marble-clad",
+  "pos": "adjective"
+ },
+ "mərsinəbənzər": {
+  "az": "Mərsinə oxşayan (bitki adlarında).",
+  "en": "myrtle-like (in plant names)",
+  "pos": "adjective"
+ },
+ "mərtəbədaxili": {
+  "az": "Bir mərtəbənin daxilində olan (mərtəbədaxili dəhliz).",
+  "en": "within a floor, on the same storey",
+  "pos": "adjective"
+ },
+ "məsləhətverən": {
+  "az": "Məsləhət verən, tövsiyə ilə kömək edən (məsləhətverən orqan).",
+  "en": "advisory, consultative",
+  "pos": "adjective"
+ },
+ "mətbəxxərci": {
+  "az": "Evdə yemək və ərzaq üçün çəkilən xərc; bunun üçün ayrılan pul.",
+  "en": "housekeeping money, food expenses",
+  "pos": "noun"
+ },
+ "mətçəkən": {
+  "skip": "meaning not certain"
+ },
+ "məşqetdirici": {
+  "az": "Başqasına məşq etdirən şəxs və ya məşq üçün işlədilən qurğu; trenajor.",
+  "en": "trainer; training device, simulator",
+  "pos": "noun"
+ },
+ "məşqetmə": {
+  "az": "Bacarıq qazanmaq üçün təkrar-təkrar çalışma, məşq etmə.",
+  "en": "practising, training",
+  "pos": "noun"
+ },
+ "məşqqabağı": {
+  "az": "Məşqdən əvvəl olan, məşqdən qabaq edilən (məşqqabağı isinmə).",
+  "en": "pre-training, before practice",
+  "pos": "adjective"
+ },
+ "məşğələqabağı": {
+  "az": "Məşğələdən əvvəl olan (məşğələqabağı hazırlıq).",
+  "en": "pre-class, before a lesson",
+  "pos": "adjective"
+ },
+ "məşəlyandıran": {
+  "az": "Məşəli yandıran şəxs (məs., Olimpiya oyunlarının açılışında).",
+  "en": "torch lighter (person who lights a ceremonial torch)",
+  "pos": "noun"
+ },
+ "məşəlyandırma": {
+  "az": "Məşəlin yandırılması (məs., Olimpiya məşəlinin yandırılma mərasimi).",
+  "en": "torch lighting",
+  "pos": "noun"
+ },
+ "naharqabağı": {
+  "az": "Nahardan əvvəl olan (naharqabağı gəzinti).",
+  "en": "before lunch, pre-lunch",
+  "pos": "adjective"
+ },
+ "nalotu": {
+  "skip": "plant name, not certain"
+ },
+ "nalsökən": {
+  "az": "Atın ayağından köhnə nalı sökmək üçün işlədilən (nalsökən kəlbətin).",
+  "en": "for removing horseshoes",
+  "pos": "adjective"
+ },
+ "nalvuran": {
+  "az": "Atların, ulaqların ayağına nal vuran usta; nalbənd.",
+  "en": "farrier",
+  "pos": "noun"
+ },
+ "nalçəkən": {
+  "skip": "meaning not certain"
+ },
+ "namazqılan": {
+  "az": "Namaz qılan, namazını müntəzəm qılan (dindar adam).",
+  "en": "praying, observant (one who performs salat)",
+  "pos": "adjective"
+ },
+ "namazqılma": {
+  "az": "Namaz qılma, namaz ibadətini yerinə yetirmə.",
+  "en": "performing salat, praying",
+  "pos": "noun"
+ },
+ "naqilçəkmə": {
+  "az": "Elektrik və ya rabitə naqillərinin çəkilməsi işi.",
+  "en": "wiring, laying of cables",
+  "pos": "noun"
+ },
+ "naqilçəkən": {
+  "az": "Naqil çəkən, naqil çəkmə işi görən (naqilçəkən usta).",
+  "en": "wire-laying, cable-laying",
+  "pos": "adjective"
+ },
+ "naqqakimi": {
+  "az": "Naqqaya oxşayan (balıqlar haqqında; naqqakimilər dəstəsi).",
+  "en": "catfish-like (of fish)",
+  "pos": "adjective"
+ },
+ "narbənd": {
+  "skip": "meaning not certain"
+ },
+ "nardənə": {
+  "skip": "meaning not certain"
+ },
+ "narındişli": {
+  "az": "Dişləri xırda və sıx olan (narındişli daraq, mişar).",
+  "en": "fine-toothed",
+  "pos": "adjective"
+ },
+ "narındənə": {
+  "az": "Xırda dənələrdən ibarət olan (narındənə qum).",
+  "en": "fine-grained",
+  "pos": "adjective"
+ },
+ "narındənəvər": {
+  "az": "Xırda dənəli quruluşu olan (narındənəvər süxur).",
+  "en": "fine-grained, finely granular",
+  "pos": "adjective"
+ },
+ "narınsaqqal": {
+  "skip": "meaning not certain"
+ },
+ "narınsaqqallı": {
+  "az": "Saqqalı incə və seyrək olan.",
+  "en": "with a thin, fine beard",
+  "pos": "adjective"
+ },
+ "narıntüklü": {
+  "az": "Üzəri incə, xırda tüklərlə örtülü olan (narıntüklü yarpaq).",
+  "en": "finely hairy, downy",
+  "pos": "adjective"
+ },
+ "narınyarpaq": {
+  "skip": "plant name, not certain"
+ },
+ "narınyarpaqlı": {
+  "az": "Yarpaqları xırda və incə olan (bitki adlarında).",
+  "en": "small-leaved, fine-leaved (in plant names)",
+  "pos": "adjective"
+ },
+ "narşirə": {
+  "skip": "meaning not certain"
+ },
+ "narşirəli": {
+  "skip": "meaning not certain"
+ },
+ "natamamdişli": {
+  "az": "Dişləri tam olmayan və ya zəif inkişaf etmiş (natamamdişlilər — tənbəllər, qarışqayeyənlər və s.).",
+  "en": "edentate (of mammals such as sloths and anteaters)",
+  "pos": "adjective"
+ },
+ "naxakimi": {
+  "az": "Naxaya (naqqaya) oxşayan (balıqlar haqqında; naxakimilər dəstəsi).",
+  "en": "catfish-like (of fish)",
+  "pos": "adjective"
+ },
+ "naxışaçma": {
+  "az": "Bir səth üzərində naxış yaratma, naxış salma.",
+  "en": "patterning, making ornamental patterns",
+  "pos": "noun"
+ },
+ "naxışsalan": {
+  "az": "Bir şeyin üzərinə naxış salan, bəzək vuran (naxışsalan usta).",
+  "en": "ornamenting, pattern-making",
+  "pos": "adjective"
+ },
+ "naxıştikmə": {
+  "az": "Parça üzərində sapla naxış tikmə; tikmə sənəti.",
+  "en": "pattern embroidery",
+  "pos": "noun"
+ },
+ "naxıştikən": {
+  "az": "Parça üzərində sapla naxış tikən (naxıştikən qadın, maşın).",
+  "en": "embroidering; embroiderer",
+  "pos": "adjective"
+ },
+ "naxışvuran": {
+  "az": "Bir şeyin üzərinə naxış vuran usta və ya alət.",
+  "en": "ornamenter; pattern stamper",
+  "pos": "noun"
+ },
+ "nazağacı": {
+  "skip": "plant name, not certain"
+ },
+ "nazbalığı": {
+  "skip": "fish name, not certain"
+ },
+ "nazikbarmaqlı": {
+  "az": "Barmaqları nazik və uzun olan.",
+  "en": "thin-fingered, slender-fingered",
+  "pos": "adjective"
+ },
+ "nazikbığlı": {
+  "az": "Bığı nazik olan.",
+  "en": "with a thin moustache",
+  "pos": "adjective"
+ },
+ "nazikdaban": {
+  "skip": "meaning not certain"
+ },
+ "nazikdabanlı": {
+  "az": "Dabanı nazik olan (nazikdabanlı ayaqqabı).",
+  "en": "thin-heeled (of shoes)",
+  "pos": "adjective"
+ },
+ "nazikdimdikli": {
+  "az": "Dimdiyi nazik olan (quş adlarında: nazikdimdikli qağayı).",
+  "en": "slender-billed (in bird names)",
+  "pos": "adjective"
+ },
+ "nazikdişli": {
+  "az": "Dişləri nazik olan.",
+  "en": "thin-toothed",
+  "pos": "adjective"
+ },
+ "nazikdodaq": {
+  "skip": "animal name, not certain"
+ },
+ "nazikdodaqlı": {
+  "az": "Dodaqları nazik olan.",
+  "en": "thin-lipped",
+  "pos": "adjective"
+ },
+ "nazikgövdə": {
+  "skip": "meaning not certain"
+ },
+ "nazikgövdəli": {
+  "az": "Gövdəsi nazik olan (bitki, ağac, heyvan və s.).",
+  "en": "slender-stemmed; thin-bodied",
+  "pos": "adjective"
+ },
+ "nazikqaşlı": {
+  "az": "Qaşları nazik olan.",
+  "en": "thin-browed, with thin eyebrows",
+  "pos": "adjective"
+ },
+ "nazikquyruq": {
+  "skip": "animal name, not certain"
+ },
+ "nazikquyruqlu": {
+  "az": "Quyruğu nazik olan (heyvan adlarında: nazikquyruqlu qoyun).",
+  "en": "thin-tailed (in animal names)",
+  "pos": "adjective"
+ },
+ "naziktəbəqə": {
+  "az": "Çox nazik qatdan ibarət olan (naziktəbəqə xromatoqrafiyası).",
+  "en": "thin-layer, thin-film",
+  "pos": "adjective"
+ },
+ "nazikyarpaqlı": {
+  "az": "Yarpaqları nazik olan (bitki adlarında).",
+  "en": "thin-leaved (in plant names)",
+  "pos": "adjective"
+ },
+ "nazirlikdaxili": {
+  "az": "Nazirliyin daxilində olan, onun öz işinə aid (nazirlikdaxili yoxlama).",
+  "en": "intra-ministerial, internal to a ministry",
+  "pos": "adjective"
+ },
+ "nağılsayağı": {
+  "az": "Nağıla bənzər, nağıl üslubunda olan (nağılsayağı hekayə).",
+  "en": "fairy-tale-like, in the manner of a folk tale",
+  "pos": "adjective"
+ },
+ "nağılsonu": {
+  "az": "Nağılın sonunda deyilən ənənəvi bitiş ifadəsi (məs., «Göydən üç alma düşdü...»).",
+  "en": "closing formula of a folk tale",
+  "pos": "noun"
+ },
+ "neftaxtaran": {
+  "az": "Neft yataqlarını axtaran (neftaxtaran geoloq, ekspedisiya).",
+  "en": "oil-prospecting",
+  "pos": "adjective"
+ },
+ "neftaxtarma": {
+  "az": "Neft yataqlarının axtarılması, kəşfiyyatı.",
+  "en": "oil prospecting, oil exploration",
+  "pos": "noun"
+ },
+ "neftburaxan": {
+  "skip": "meaning not certain"
+ },
+ "neftburaxma": {
+  "skip": "meaning not certain"
+ },
+ "neftdoyumlu": {
+  "az": "Tərkibi neftlə doymuş (neftdoyumlu lay, süxur).",
+  "en": "oil-saturated",
+  "pos": "adjective"
+ },
+ "neftgötürmə": {
+  "skip": "meaning not certain"
+ },
+ "neftgötürən": {
+  "skip": "meaning not certain"
+ },
+ "neftkeçirmə": {
+  "az": "Neftin boru və ya lay vasitəsilə bir yerdən başqa yerə keçirilməsi.",
+  "en": "oil transfer; passage of oil",
+  "pos": "noun"
+ },
+ "neftkeçirən": {
+  "az": "Nefti özündən keçirən və ya ötürən (neftkeçirən lay, boru).",
+  "en": "oil-permeable; oil-conveying",
+  "pos": "adjective"
+ },
+ "neftmaşınqayırma": {
+  "az": "Neft sənayesi üçün maşın və avadanlıq istehsal edən sənaye sahəsi.",
+  "en": "oil-industry machine building, oilfield equipment manufacturing",
+  "pos": "noun"
+ },
+ "neftparçalayan": {
+  "az": "Nefti və neft məhsullarını parçalayan (neftparçalayan bakteriyalar).",
+  "en": "oil-degrading",
+  "pos": "adjective"
+ },
+ "nefttutan": {
+  "az": "Nefti tutub saxlayan (nefttutan qurğu, lay).",
+  "en": "oil-trapping, oil-catching",
+  "pos": "adjective"
+ },
+ "nefttutma": {
+  "az": "Neftin tutulub saxlanması, yığılması (məs., suya dağılmış neftin).",
+  "en": "oil trapping, oil capture",
+  "pos": "noun"
+ },
+ "nefttutucu": {
+  "az": "Su və ya axıntıdan nefti ayırıb tutan qurğu.",
+  "en": "oil trap, oil separator",
+  "pos": "noun"
+ },
+ "nefttökmə": {
+  "skip": "meaning not certain"
+ },
+ "nefttökən": {
+  "skip": "meaning not certain"
+ },
+ "nefttəmizləmə": {
+  "az": "Neftin qarışıqlardan təmizlənməsi və emalı (nefttəmizləmə zavodu).",
+  "en": "oil refining",
+  "pos": "noun"
+ },
+ "neftvuran": {
+  "az": "Nefti nasosla borular vasitəsilə vurub ötürən (neftvuran stansiya).",
+  "en": "oil-pumping",
+  "pos": "adjective"
+ },
+ "neftvurma": {
+  "az": "Neftin nasoslarla borular vasitəsilə vurulub ötürülməsi (neftvurma stansiyası).",
+  "en": "oil pumping",
+  "pos": "noun"
+ },
+ "neftyığan": {
+  "az": "Nefti yığıb toplayan (neftyığan qurğu, gəmi).",
+  "en": "oil-collecting",
+  "pos": "adjective"
+ },
+ "neftölçmə": {
+  "az": "Neftin miqdarının ölçülməsi.",
+  "en": "oil metering, oil measurement",
+  "pos": "noun"
+ },
+ "neftölçən": {
+  "az": "Neftin miqdarını ölçən (neftölçən cihaz).",
+  "en": "oil-metering; oil meter",
+  "pos": "adjective"
+ },
+ "neftəbənzər": {
+  "az": "Neftə oxşayan (neftəbənzər maddə).",
+  "en": "oil-like, petroleum-like",
+  "pos": "adjective"
+ },
+ "neftədavamlı": {
+  "az": "Neftin təsirinə davam gətirən, neftdən korlanmayan (neftədavamlı rezin).",
+  "en": "oil-resistant",
+  "pos": "adjective"
+ },
+ "neftəoxşar": {
+  "az": "Neftə oxşayan, neftə bənzəyən.",
+  "en": "oil-like, petroleum-like",
+  "pos": "adjective"
+ },
+ "nevrozabənzər": {
+  "az": "Nevroza oxşayan (nevrozabənzər vəziyyət).",
+  "en": "neurosis-like",
+  "pos": "adjective"
+ },
+ "neştərquyruqlu": {
+  "az": "Quyruğu iti neştərə bənzəyən və ya quyruğunda sancma iynəsi olan (heyvan adlarında).",
+  "en": "with a sting-like tail (in animal names)",
+  "pos": "adjective"
+ },
+ "nifrinoxuyan": {
+  "az": "Nifrin edən, qarğış oxuyan adam.",
+  "en": "one who curses",
+  "pos": "noun"
+ },
+ "nifrətdoğurucu": {
+  "az": "Nifrət və ikrah hissi oyadan.",
+  "en": "hateful, odious, arousing hatred",
+  "pos": "adjective"
+ },
+ "nikahbağlama": {
+  "az": "Nikahın rəsmi və ya dini qaydada bağlanması.",
+  "en": "solemnization of marriage, marriage ceremony",
+  "pos": "noun"
+ },
+ "nikbinruhlu": {
+  "az": "Nikbin əhval-ruhiyyəli, hər şeyə ümidlə baxan.",
+  "en": "optimistic, upbeat",
+  "pos": "adjective"
+ },
+ "nikelçəkən": {
+  "az": "Metal əşyaların üzərinə nikel örtük çəkən (nikelçəkən sex, usta).",
+  "en": "nickel-plating",
+  "pos": "adjective"
+ },
+ "nizəatan": {
+  "az": "Nizə atan (nizəatan döyüşçü, idmançı).",
+  "en": "spear-throwing, javelin-throwing",
+  "pos": "adjective"
+ },
+ "nizəatma": {
+  "az": "Nizənin uzağa atılması; yüngül atletika növü.",
+  "en": "javelin throw",
+  "pos": "noun"
+ },
+ "nizəatıcı": {
+  "az": "Nizə atan idmançı.",
+  "en": "javelin thrower",
+  "pos": "noun"
+ },
+ "nizətullama": {
+  "az": "Nizənin uzağa tullanması; yüngül atletika növü.",
+  "en": "javelin throw",
+  "pos": "noun"
+ },
+ "nizətullayan": {
+  "az": "Nizə tullayan (nizətullayan idmançı).",
+  "en": "javelin-throwing",
+  "pos": "adjective"
+ },
+ "nizəyəoxşar": {
+  "az": "Nizəyə oxşayan, nizə formalı (nizəyəoxşar yarpaq).",
+  "en": "spear-like, spear-shaped",
+  "pos": "adjective"
+ },
+ "nişanvuran": {
+  "skip": "meaning not certain"
+ },
+ "nişastadaşıyan": {
+  "az": "Tərkibində nişasta toplayan (nişastadaşıyan bitkilər).",
+  "en": "starch-bearing",
+  "pos": "adjective"
+ },
+ "nokautedici": {
+  "az": "Rəqibi nokauta salan (nokautedici zərbə).",
+  "en": "knockout (blow)",
+  "pos": "adjective"
+ },
+ "normaölçən": {
+  "skip": "meaning not certain"
+ },
+ "novgülü": {
+  "skip": "meaning not certain"
+ },
+ "nökərbaşı": {
+  "az": "Nökərlərin başçısı, böyüyü.",
+  "en": "head servant, chief steward",
+  "pos": "noun"
+ },
+ "nömrəvuran": {
+  "az": "Əşyaların üzərinə nömrə vuran şəxs və ya alət.",
+  "en": "numbering machine; numberer",
+  "pos": "noun"
+ },
+ "nömrəyazan": {
+  "az": "Nömrə yazan, nömrə qoyan (nömrəyazan aparat).",
+  "en": "numbering",
+  "pos": "adjective"
+ },
+ "nömrəyığan": {
+  "az": "Telefon nömrəsini yığmağa xidmət edən (nömrəyığan disk).",
+  "en": "dialling (e.g. a telephone dial)",
+  "pos": "adjective"
+ },
+ "növgülü": {
+  "skip": "meaning not certain"
+ },
+ "nümunəgöstərən": {
+  "az": "Başqalarına nümunə göstərən, örnək olan.",
+  "en": "exemplary, setting an example",
+  "pos": "adjective"
+ },
+ "nümunəgötürən": {
+  "az": "Yoxlama və ya təhlil üçün nümunə götürən (nümunəgötürən cihaz).",
+  "en": "sampling; sampler",
+  "pos": "adjective"
+ },
+ "nəfgötürmə": {
+  "az": "Bir işdən fayda, mənfəət əldə etmə.",
+  "en": "deriving benefit, profiting",
+  "pos": "noun"
+ },
+ "nəfəsbaşı": {
+  "skip": "meaning not certain"
+ },
+ "nəfəsotu": {
+  "skip": "plant name, not certain"
+ },
+ "nəfəsverici": {
+  "skip": "meaning not certain"
+ },
+ "nəhsgətirmə": {
+  "az": "Uğursuzluq, bədbəxtlik gətirmə.",
+  "en": "bringing bad luck",
+  "pos": "noun"
+ },
+ "nəmhopduran": {
+  "az": "Nəmi özünə hopduran (nəmhopduran material).",
+  "en": "moisture-absorbing",
+  "pos": "adjective"
+ },
+ "nəmsevən": {
+  "az": "Nəmli yerlərdə yaxşı bitən və ya yaşayan (nəmsevən bitkilər).",
+  "en": "moisture-loving, hygrophilous",
+  "pos": "adjective"
+ },
+ "nəmçəkən": {
+  "az": "Havadan və ya ətrafdan nəmi özünə çəkən (nəmçəkən maddə).",
+  "en": "hygroscopic, moisture-absorbing",
+  "pos": "adjective"
+ },
+ "nəmölçən": {
+  "az": "Havanın və ya bir maddənin nəmliyini ölçən (nəmölçən cihaz).",
+  "en": "moisture-measuring; hygrometer",
+  "pos": "adjective"
+ },
+ "nəqletdirici": {
+  "skip": "meaning not certain"
+ },
+ "nərbala": {
+  "skip": "meaning not certain"
+ },
+ "nərgizçiçəkli": {
+  "az": "Çiçəkləri nərgizə oxşayan (bitki adlarında).",
+  "en": "narcissus-flowered (in plant names)",
+  "pos": "adjective"
+ },
+ "nərgizçiçəyi": {
+  "skip": "plant name, not certain"
+ },
+ "nərəyetişdirmə": {
+  "az": "Nərə balıqlarının süni yolla yetişdirilməsi.",
+  "en": "sturgeon farming",
+  "pos": "noun"
+ },
+ "nərəyetişdirən": {
+  "az": "Nərə balığı yetişdirən (nərəyetişdirən zavod).",
+  "en": "sturgeon-breeding",
+  "pos": "adjective"
+ },
+ "nəsildəngələn": {
+  "az": "Ata-babadan qalan, nəsildən-nəslə keçib gələn; irsi.",
+  "en": "hereditary, ancestral",
+  "pos": "adjective"
+ },
+ "nəsildənkeçən": {
+  "az": "Nəsildən nəslə keçən, irsən ötürülən (nəsildənkeçən xəstəlik).",
+  "en": "hereditary, passed down through generations",
+  "pos": "adjective"
+ },
+ "nəsilverən": {
+  "az": "Nəsil verən, bala və ya döl verən (nəsilverən heyvan).",
+  "en": "producing offspring, fertile",
+  "pos": "adjective"
+ },
+ "nəticəyönlü": {
+  "az": "Nəticə əldə etməyə yönəlmiş (nəticəyönlü fəaliyyət).",
+  "en": "result-oriented, results-driven",
+  "pos": "adjective"
+ },
+ "nəzirverən": {
+  "az": "Nəzir verən, nəzir paylayan (adam).",
+  "en": "giving votive offerings",
+  "pos": "adjective"
+ },
+ "nəziryığan": {
+  "az": "Nəzir toplayan (məs., ziyarətgahda).",
+  "en": "collecting votive offerings",
+  "pos": "adjective"
+ },
+ "obyektdaxili": {
+  "az": "Obyektin, müəssisənin ərazisi daxilində olan (obyektdaxili yollar).",
+  "en": "on-site, within a facility",
+  "pos": "adjective"
+ },
+ "odadözümlü": {
+  "az": "Oda, yüksək temperatura davam gətirən (odadözümlü kərpic).",
+  "en": "fire-resistant, refractory",
+  "pos": "adjective",
+  "parts": false
+ },
+ "odadözümsüz": {
+  "az": "Oda, yüksək temperatura davam gətirməyən.",
+  "en": "not fire-resistant, non-refractory",
+  "pos": "adjective",
+  "parts": false
+ },
+ "odunhazırlama": {
+  "az": "Yanacaq üçün odun doğrama və tədarük etmə.",
+  "en": "firewood preparation, firewood procurement",
+  "pos": "noun"
+ },
+ "odunhazırlayan": {
+  "az": "Yanacaq üçün odun hazırlayan, tədarük edən.",
+  "en": "firewood-preparing; woodcutter",
+  "pos": "adjective"
+ },
+ "odunyaran": {
+  "az": "Odun yaran, odun doğramağa xidmət edən (odunyaran maşın).",
+  "en": "wood-splitting; log splitter",
+  "pos": "adjective"
+ },
+ "olimpiadaqabağı": {
+  "az": "Olimpiadadan əvvəl olan (olimpiadaqabağı hazırlıq).",
+  "en": "pre-Olympic",
+  "pos": "adjective"
+ },
+ "orağaoxşar": {
+  "az": "Orağa oxşayan, oraq formalı.",
+  "en": "sickle-shaped",
+  "pos": "adjective"
+ },
+ "ortadənəli": {
+  "az": "Dənələri orta irilikdə olan (ortadənəli qum).",
+  "en": "medium-grained",
+  "pos": "adjective"
+ },
+ "ortakalibrli": {
+  "az": "Kalibri orta olan (ortakalibrli silah).",
+  "en": "medium-calibre",
+  "pos": "adjective"
+ },
+ "ortakarbonlu": {
+  "az": "Tərkibində karbon orta miqdarda olan (ortakarbonlu polad).",
+  "en": "medium-carbon",
+  "pos": "adjective"
+ },
+ "ortalifli": {
+  "az": "Lifləri orta uzunluqda olan (ortalifli pambıq).",
+  "en": "medium-staple (of cotton)",
+  "pos": "adjective"
+ },
+ "ortamaaşlı": {
+  "az": "Orta səviyyədə maaş alan və ya maaşı orta olan.",
+  "en": "on an average salary, middle-income",
+  "pos": "adjective"
+ },
+ "ortaqölçülü": {
+  "az": "Ortaq ölçüsü olan (riyaziyyatda: ortaqölçülü kəmiyyətlər).",
+  "en": "commensurable",
+  "pos": "adjective"
+ },
+ "ortaqölçüsüz": {
+  "az": "Ortaq ölçüsü olmayan (riyaziyyatda: ortaqölçüsüz parçalar).",
+  "en": "incommensurable",
+  "pos": "adjective"
+ },
+ "ortasəviyyəli": {
+  "az": "Səviyyəsi orta olan.",
+  "en": "mid-level, average",
+  "pos": "adjective"
+ },
+ "ortatezlikli": {
+  "az": "Tezliyi orta olan (ortatezlikli dalğalar).",
+  "en": "medium-frequency",
+  "pos": "adjective"
+ },
+ "ortayumşaq": {
+  "az": "Orta dərəcədə yumşaq olan.",
+  "en": "medium-soft",
+  "pos": "adjective"
+ },
+ "ortaçeşidli": {
+  "skip": "meaning not certain"
+ },
+ "otuzmərtəbəli": {
+  "az": "Otuz mərtəbəsi olan (otuzmərtəbəli bina).",
+  "en": "thirty-storey",
+  "pos": "adjective"
+ },
+ "ovsunotu": {
+  "skip": "plant name, not certain"
+ },
+ "oymadərən": {
+  "skip": "meaning not certain"
+ },
+ "oymağabənzər": {
+  "skip": "meaning not certain"
+ },
+ "oynaşbazlıq": {
+  "az": "Oynaş saxlama, nikahdankənar gizli münasibətlərə meyil; əxlaqsızlıq.",
+  "en": "philandering, adultery, debauchery",
+  "pos": "noun"
+ },
+ "oyunbabası": {
+  "skip": "meaning not certain"
+ },
+ "oyuqaçan": {
+  "skip": "meaning not certain"
+ },
+ "ozondağıdıcı": {
+  "az": "Ozon təbəqəsini dağıdan (ozondağıdıcı maddələr).",
+  "en": "ozone-depleting",
+  "pos": "adjective"
+ },
+ "oğlansayağı": {
+  "az": "Oğlana bənzər, oğlanlara xas tərzdə olan (oğlansayağı saç düzümü).",
+  "en": "boyish, in a boyish manner",
+  "pos": "adjective"
+ },
+ "paketəbənzər": {
+  "az": "Paketə oxşayan.",
+  "en": "package-like, packet-like",
+  "pos": "adjective"
+ },
+ "paketəoxşar": {
+  "az": "Paketə oxşayan, paket formalı.",
+  "en": "package-like, packet-like",
+  "pos": "adjective"
+ },
+ "pakkamera": {
+  "skip": "meaning not certain"
+ },
+ "paktbağlama": {
+  "az": "Dövlətlər arasında pakt imzalama.",
+  "en": "conclusion of a pact",
+  "pos": "noun"
+ },
+ "palazçırpan": {
+  "az": "Palazın, xalçanın tozunu çırpmaq üçün işlədilən (palazçırpan çubuq).",
+  "en": "carpet-beating; carpet beater",
+  "pos": "adjective"
+ },
+ "palmayabənzər": {
+  "az": "Palmaya oxşayan.",
+  "en": "palm-like",
+  "pos": "adjective"
+ },
+ "palmayaoxşar": {
+  "az": "Palmaya oxşayan, palma kimi.",
+  "en": "palm-like",
+  "pos": "adjective"
+ },
+ "palmaçiçəkli": {
+  "az": "Palmaçiçəklilər (palmalar) dəstəsinə aid olan (bitkilər haqqında).",
+  "en": "of the palm order (Arecales)",
+  "pos": "adjective"
+ },
+ "paltardəyişdirmə": {
+  "az": "Paltarı dəyişmə, başqa paltar geyinmə (paltardəyişdirmə otağı).",
+  "en": "changing clothes (as in a changing room)",
+  "pos": "noun"
+ },
+ "paltarhamarlayan": {
+  "az": "Paltarı hamarlayan, ütüləyən (paltarhamarlayan maşın).",
+  "en": "garment-pressing",
+  "pos": "adjective"
+ },
+ "paltarsaxlanılan": {
+  "az": "Paltar saxlanılan (paltarsaxlanılan otaq, şkaf).",
+  "en": "for keeping clothes (cloakroom, wardrobe)",
+  "pos": "adjective"
+ },
+ "paltarsıxan": {
+  "az": "Yuyulmuş paltarın suyunu sıxan (paltarsıxan maşın).",
+  "en": "clothes-wringing; wringer, spin-dryer",
+  "pos": "adjective"
+ },
+ "paltartikmə": {
+  "az": "Paltar tikmə işi; dərzilik.",
+  "en": "dressmaking, tailoring",
+  "pos": "noun"
+ },
+ "paltartəmizləmə": {
+  "az": "Paltarın ləkə və çirkdən təmizlənməsi (məs., kimyəvi təmizləmə).",
+  "en": "clothes cleaning, dry cleaning",
+  "pos": "noun"
+ },
+ "paltartəmizləyən": {
+  "az": "Paltar təmizləyən (paltartəmizləyən müəssisə).",
+  "en": "clothes-cleaning",
+  "pos": "adjective"
+ },
+ "paltaryuma": {
+  "az": "Paltar yuma işi (paltaryuma maşını).",
+  "en": "laundry, washing clothes",
+  "pos": "noun"
+ },
+ "paltarütüləmə": {
+  "az": "Paltarın ütülənməsi.",
+  "en": "ironing clothes",
+  "pos": "noun"
+ },
+ "paltarütüləyən": {
+  "az": "Paltar ütüləyən (paltarütüləyən maşın).",
+  "en": "clothes-ironing",
+  "pos": "adjective"
+ },
+ "pambıqdaşıma": {
+  "az": "Pambığın bir yerdən başqa yerə daşınması.",
+  "en": "cotton transportation",
+  "pos": "noun"
+ },
+ "pambıqdaşıyan": {
+  "az": "Pambıq daşıyan (pambıqdaşıyan maşın).",
+  "en": "cotton-carrying",
+  "pos": "adjective"
+ },
+ "pambıqqurutma": {
+  "az": "Yığılmış pambığın qurudulması (pambıqqurutma qurğusu).",
+  "en": "cotton drying",
+  "pos": "noun"
+ },
+ "pambıqtəmizləyici": {
+  "az": "Pambığı toxumdan və zibildən təmizləyən (pambıqtəmizləyici zavod).",
+  "en": "cotton-cleaning, cotton-ginning",
+  "pos": "adjective"
+ },
+ "pambıqyükləyici": {
+  "az": "Pambığı nəqliyyat vasitələrinə yükləyən maşın və ya fəhlə.",
+  "en": "cotton loader",
+  "pos": "noun"
+ },
+ "pambıqçöpü": {
+  "az": "Pambıq kolunun yığımdan sonra qalan quru gövdəsi; çox vaxt yanacaq kimi işlədilir.",
+  "en": "cotton stalks (dry stems left after harvest)",
+  "pos": "noun"
+ },
+ "pambıqəkmə": {
+  "az": "Pambıq əkmə işi.",
+  "en": "cotton sowing, cotton planting",
+  "pos": "noun"
+ },
+ "pambıqəkən": {
+  "az": "Pambıq əkən, pambıqçılıqla məşğul olan (pambıqəkən rayon, maşın).",
+  "en": "cotton-growing, cotton-planting",
+  "pos": "adjective"
+ },
+ "pambıqəyirici": {
+  "az": "Pambığı əyirib ip hazırlayan usta.",
+  "en": "cotton spinner",
+  "pos": "noun"
+ },
+ "panartrit": {
+  "az": "Oynağın bütün toxumalarını (qığırdaq, sümük, bağlar) əhatə edən iltihab.",
+  "en": "panarthritis",
+  "pos": "noun",
+  "parts": false
+ },
+ "paneldaşıyan": {
+  "az": "Tikinti panellərini daşıyan (paneldaşıyan maşın).",
+  "en": "panel-carrying (of a truck)",
+  "pos": "adjective"
+ },
+ "panelhazırlama": {
+  "az": "Tikinti panellərinin hazırlanması.",
+  "en": "panel manufacturing",
+  "pos": "noun"
+ },
+ "panellinizm": {
+  "az": "Bütün yunanları vahid dövlətdə birləşdirməyə çalışan siyasi ideologiya.",
+  "en": "Pan-Hellenism",
+  "pos": "noun",
+  "parts": false
+ },
+ "panfobiya": {
+  "az": "Hər şeydən qorxma, ümumi və səbəbsiz qorxu halı.",
+  "en": "panphobia",
+  "pos": "noun",
+  "parts": false
+ },
+ "pansinusit": {
+  "az": "Bütün burunətrafı boşluqların eyni zamanda iltihabı.",
+  "en": "pansinusitis",
+  "pos": "noun",
+  "parts": false
+ },
+ "pantürkçü": {
+  "az": "Pantürkizm tərəfdarı.",
+  "en": "pan-Turkist",
+  "pos": "noun",
+  "parts": false
+ },
+ "panxromatik": {
+  "az": "Görünən spektrin bütün rənglərinə həssas olan (panxromatik plyonka).",
+  "en": "panchromatic",
+  "pos": "adjective",
+  "parts": false
+ },
+ "paraaldehid": {
+  "az": "Asetaldehidin üç molekulunun birləşməsindən alınan maye; yuxugətirici dərman kimi işlədilir.",
+  "en": "paraldehyde",
+  "pos": "noun",
+  "parts": false
+ },
+ "parabiotik": {
+  "az": "Parabiozla bağlı olan (parabiotik vəziyyət).",
+  "en": "parabiotic",
+  "pos": "adjective",
+  "parts": false
+ }
+}

@@ -1,0 +1,965 @@
+{
+ "ildırımkeçirici": {
+  "az": "Binanı ildırım vurmasından qorumaq üçün elektrik boşalmasını yerə ötürən metal çubuq; ildırımötürən.",
+  "en": "lightning conductor, lightning rod",
+  "pos": "noun"
+ },
+ "ildırımkeçirmə": {
+  "az": "İldırımın elektrik boşalmasını zərərsiz şəkildə yerə ötürmə.",
+  "en": "lightning conduction (to earth)",
+  "pos": "noun"
+ },
+ "ildırımkeçirən": {
+  "az": "İldırım boşalmasını yerə ötürən (ildırımkeçirən qurğu).",
+  "en": "lightning-conducting",
+  "pos": "adjective"
+ },
+ "ilişkənkimi": {
+  "skip": "plant name, not certain"
+ },
+ "ilməaçan": {
+  "az": "İlməni, ilmələri açan.",
+  "en": "loop-opening",
+  "pos": "adjective"
+ },
+ "ilməaçma": {
+  "az": "İlməni, ilmələri açma.",
+  "en": "opening (undoing) of loops",
+  "pos": "noun"
+ },
+ "ilməçalan": {
+  "skip": "meaning not certain"
+ },
+ "ilməçalma": {
+  "skip": "meaning not certain"
+ },
+ "incəqatlı": {
+  "az": "Nazik qatlardan ibarət olan (incəqatlı süxur).",
+  "en": "thin-layered, thinly bedded",
+  "pos": "adjective"
+ },
+ "incəqəlb": {
+  "az": "Həssas, zərif qəlbi olan; incə ürəkli.",
+  "en": "tender-hearted, sensitive",
+  "pos": "adjective"
+ },
+ "incəsarıyan": {
+  "skip": "meaning not certain"
+ },
+ "indeksqoyma": {
+  "az": "Mətnə, sənədə və ya siyahıya indeks (göstərici nömrə, işarə) qoyma.",
+  "en": "indexing",
+  "pos": "noun"
+ },
+ "induksiyaedici": {
+  "az": "Elektromaqnit induksiyası yaradan qurğu və ya element; induktor.",
+  "en": "inductor",
+  "pos": "noun"
+ },
+ "informasiyatoplayan": {
+  "az": "Məlumat toplayan (informasiyatoplayan sistem).",
+  "en": "information-gathering, data-collecting",
+  "pos": "adjective"
+ },
+ "informasiyaverici": {
+  "az": "Məlumat verən, məlumat ötürən (informasiyaverici qurğu).",
+  "en": "information-providing; informative",
+  "pos": "adjective"
+ },
+ "informasiyaverən": {
+  "az": "Məlumat verən (informasiyaverən mənbə).",
+  "en": "informing, providing information",
+  "pos": "adjective"
+ },
+ "informasiyaötürən": {
+  "az": "Məlumatı bir yerdən başqa yerə ötürən (informasiyaötürən kanal).",
+  "en": "information-transmitting",
+  "pos": "adjective"
+ },
+ "ingilissayağı": {
+  "az": "İngilislərə xas tərzdə, ingilis kimi (ingilissayağı getmək — vidalaşmadan, xəbərsiz çıxıb getmək).",
+  "en": "in the English manner (leave without saying goodbye)",
+  "pos": "adverb"
+ },
+ "ingilisəsilli": {
+  "az": "Əslən ingilis olan, ingilis mənşəli (ingilisəsilli yazıçı).",
+  "en": "of English descent, English-born",
+  "pos": "adjective"
+ },
+ "inkişafedən": {
+  "az": "İnkişaf yolunda olan, irəliləyən (inkişafedən ölkələr).",
+  "en": "developing",
+  "pos": "adjective"
+ },
+ "intimektomiya": {
+  "az": "Arteriyanın daxili qişasının (intimanın) cərrahi yolla çıxarılması.",
+  "en": "intimectomy",
+  "pos": "noun",
+  "parts": false
+ },
+ "inəkçiçəyi": {
+  "az": "İnəklərdə olan, insana da keçə bilən yüngül virus xəstəliyi; çiçək peyvəndinin əsası olmuşdur.",
+  "en": "cowpox",
+  "pos": "noun",
+  "parts": false
+ },
+ "iondəyişdirici": {
+  "az": "Məhluldakı ionları öz ionları ilə mübadilə edən maddə və ya qurğu; ionit.",
+  "en": "ion exchanger",
+  "pos": "noun"
+ },
+ "iondəyişdirmə": {
+  "az": "Bərk maddə ilə məhlul arasında ionların qarşılıqlı mübadiləsi.",
+  "en": "ion exchange",
+  "pos": "noun"
+ },
+ "iondəyişdirən": {
+  "az": "İon mübadiləsi aparan (iondəyişdirən qatran).",
+  "en": "ion-exchange, ion-exchanging",
+  "pos": "adjective"
+ },
+ "iontörədən": {
+  "az": "İon əmələ gətirən, ionlaşdıran (iontörədən şüalanma).",
+  "en": "ion-generating, ionizing",
+  "pos": "adjective"
+ },
+ "iplikbənd": {
+  "skip": "meaning not certain"
+ },
+ "ipliksarıyan": {
+  "az": "İpliyi makaraya və ya kələfə sarıyan (ipliksarıyan maşın).",
+  "en": "yarn-winding, thread-winding",
+  "pos": "adjective"
+ },
+ "iplikəyirmə": {
+  "az": "Lifləri burub iplik halına salma; iplik istehsalı.",
+  "en": "spinning (of yarn)",
+  "pos": "noun"
+ },
+ "iplikəyirən": {
+  "az": "Lifləri əyirib iplik hazırlayan (iplikəyirən fabrik).",
+  "en": "yarn-spinning",
+  "pos": "adjective"
+ },
+ "ipəkayıran": {
+  "skip": "meaning not certain"
+ },
+ "ipəkayırma": {
+  "skip": "meaning not certain"
+ },
+ "ipəkaçma": {
+  "az": "Baramadan ipək sapını açıb çıxarma.",
+  "en": "silk reeling (unwinding silk from cocoons)",
+  "pos": "noun"
+ },
+ "ipəkbişirmə": {
+  "az": "Baramanı və ya xam ipəyi açmaq, yumşaltmaq üçün isti suda bişirmə.",
+  "en": "cocoon cooking, boiling of raw silk",
+  "pos": "noun"
+ },
+ "ipəkbişirən": {
+  "az": "Baramanı, xam ipəyi isti suda bişirən (ipəkbişirən aparat).",
+  "en": "cocoon-cooking, silk-boiling",
+  "pos": "adjective"
+ },
+ "ipəkburan": {
+  "az": "İpək saplarını buran, eşən (ipəkburan dəzgah).",
+  "en": "silk-throwing, silk-twisting",
+  "pos": "adjective"
+ },
+ "ipəkburma": {
+  "az": "İpək saplarını burub eşmə.",
+  "en": "silk throwing (twisting of silk threads)",
+  "pos": "noun"
+ },
+ "ipəkdidən": {
+  "az": "Xam ipəyi, ipək tullantısını didib açan (ipəkdidən maşın).",
+  "en": "silk-teasing, silk-opening",
+  "pos": "adjective"
+ },
+ "iqlimdəyişmə": {
+  "az": "İqlimin uzun müddət ərzində dəyişməsi.",
+  "en": "climate change",
+  "pos": "noun"
+ },
+ "iqtidarmeyilli": {
+  "az": "Hakimiyyəti dəstəkləyən, iqtidara meyilli olan (iqtidarmeyilli qəzet).",
+  "en": "pro-government",
+  "pos": "adjective"
+ },
+ "iriaddımlı": {
+  "az": "Uzun, iri addımlarla yeriyən.",
+  "en": "long-striding",
+  "pos": "adjective"
+ },
+ "iriayaqlı": {
+  "az": "Ayaqları iri olan.",
+  "en": "big-footed",
+  "pos": "adjective"
+ },
+ "iribaşlı": {
+  "az": "Başı iri olan.",
+  "en": "large-headed",
+  "pos": "adjective"
+ },
+ "iribuynuz": {
+  "skip": "animal name, not certain"
+ },
+ "iricizgili": {
+  "az": "Üz cizgiləri iri olan (iricizgili sifət).",
+  "en": "with large (coarse) features",
+  "pos": "adjective"
+ },
+ "iricüssəli": {
+  "az": "İri bədənli, gövdəli olan.",
+  "en": "big-bodied, burly",
+  "pos": "adjective"
+ },
+ "iridaşlı": {
+  "az": "İri daşları olan (iridaşlı sahil; iridaşlı üzük).",
+  "en": "with large stones",
+  "pos": "adjective"
+ },
+ "iridırnaq": {
+  "skip": "animal name, not certain"
+ },
+ "irihissəli": {
+  "az": "İri hissəciklərdən ibarət olan (irihissəli qum).",
+  "en": "coarse, consisting of large particles",
+  "pos": "adjective"
+ },
+ "irihüceyrəli": {
+  "az": "Hüceyrələri iri olan.",
+  "en": "large-celled, macrocellular",
+  "pos": "adjective"
+ },
+ "irikasacıqlı": {
+  "az": "Kasacığı iri olan (bitki adlarında).",
+  "en": "large-calyxed (in plant names)",
+  "pos": "adjective"
+ },
+ "iriköklü": {
+  "az": "Kökü iri olan (bitki).",
+  "en": "large-rooted",
+  "pos": "adjective"
+ },
+ "irilövhəli": {
+  "az": "İri lövhələri olan və ya iri lövhələrdən ibarət olan.",
+  "en": "large-plated, with large plates",
+  "pos": "adjective"
+ },
+ "iriməsaməli": {
+  "az": "Məsamələri iri olan.",
+  "en": "large-pored, macroporous",
+  "pos": "adjective"
+ },
+ "irinotu": {
+  "skip": "plant name, not certain"
+ },
+ "irintörədici": {
+  "az": "İrin əmələ gətirən mikrob (stafilokok, streptokok və s.).",
+  "en": "pyogenic (pus-forming) organism",
+  "pos": "noun"
+ },
+ "irintörətmə": {
+  "az": "İrin əmələ gətirmə, irinləmə.",
+  "en": "suppuration, pus formation",
+  "pos": "noun"
+ },
+ "iriyanaqlı": {
+  "az": "Yanaqları iri, dolu olan.",
+  "en": "full-cheeked, big-cheeked",
+  "pos": "adjective"
+ },
+ "irəliçəkilmə": {
+  "az": "İrəli çəkilmək işi; vəzifədə irəli çəkilmə, yüksəlmə.",
+  "en": "being moved forward; promotion (to a higher post)",
+  "pos": "noun"
+ },
+ "irəliçəkmə": {
+  "az": "Bir şeyi və ya birini önə çıxarma; vəzifədə yüksəltmə (kadrların irəliçəkməsi).",
+  "en": "moving forward; promotion, advancement (of someone)",
+  "pos": "noun"
+ },
+ "isbatedilən": {
+  "az": "Sübut olunan, isbat edilə bilən.",
+  "en": "provable; being proved",
+  "pos": "adjective"
+ },
+ "islahetmə": {
+  "az": "Bir şeyi düzəltmə, yaxşılaşdırma; islahat aparma.",
+  "en": "reforming, correction, improvement",
+  "pos": "noun"
+ },
+ "islaholunan": {
+  "az": "Düzəldilən, yaxşılaşdırılan; islah edilə bilən.",
+  "en": "being reformed, correctable",
+  "pos": "adjective"
+ },
+ "istehsaldaxili": {
+  "az": "İstehsalın, müəssisənin daxilində olan (istehsaldaxili planlaşdırma).",
+  "en": "in-plant, intra-production",
+  "pos": "adjective"
+ },
+ "istidaşıma": {
+  "az": "İstiliyin bir yerdən başqa yerə daşınması, ötürülməsi.",
+  "en": "heat transfer, heat transport",
+  "pos": "noun"
+ },
+ "istidaşıyan": {
+  "az": "İstiliyi bir yerdən başqa yerə daşıyan (istidaşıyan maye).",
+  "en": "heat-carrying, heat-transfer (medium)",
+  "pos": "adjective"
+ },
+ "istidəyişdirici": {
+  "az": "İstiliyi bir mühitdən digərinə ötürən qurğu; istilikdəyişdirici.",
+  "en": "heat exchanger",
+  "pos": "noun"
+ },
+ "istidəyişdirən": {
+  "az": "İstilik mübadiləsi aparan (istidəyişdirən aparat).",
+  "en": "heat-exchange, heat-exchanging",
+  "pos": "adjective"
+ },
+ "istidəyişmə": {
+  "az": "Cisimlər və ya mühitlər arasında istilik mübadiləsi.",
+  "en": "heat exchange",
+  "pos": "noun"
+ },
+ "istikeçirmə": {
+  "az": "İstiliyin maddədən keçməsi, ötürülməsi; istilikkeçirmə.",
+  "en": "heat conduction, thermal conductivity",
+  "pos": "noun"
+ },
+ "istikeçirən": {
+  "az": "İstiliyi özündən keçirən, ötürən (istikeçirən material).",
+  "en": "heat-conducting, thermally conductive",
+  "pos": "adjective"
+ },
+ "istilikayırma": {
+  "az": "İstilik ayrılması, ətrafa istilik buraxma (reaksiyada istilikayırma).",
+  "en": "heat release, heat evolution",
+  "pos": "noun"
+ },
+ "istilikayırıcı": {
+  "az": "İstilik ayıran, ətrafa istilik buraxan maddə, cisim və ya qurğu.",
+  "en": "heat-releasing agent; heat emitter",
+  "pos": "noun"
+ },
+ "istilikburaxan": {
+  "az": "İstilik buraxan, istiliyi ətrafa verən.",
+  "en": "heat-releasing, heat-emitting",
+  "pos": "adjective"
+ },
+ "istilikburaxma": {
+  "az": "İstiliyin ətrafa buraxılması, verilməsi.",
+  "en": "heat release, heat emission",
+  "pos": "noun"
+ },
+ "istilikdaşıma": {
+  "az": "İstiliyin maye, qaz və s. vasitəsilə bir yerdən başqa yerə daşınması.",
+  "en": "heat transport, heat transfer",
+  "pos": "noun"
+ },
+ "istilikdəyişdirici": {
+  "az": "İstiliyi bir mühitdən (istilikdaşıyıcıdan) digərinə ötürən qurğu.",
+  "en": "heat exchanger",
+  "pos": "noun"
+ },
+ "istilikdəyişdirmə": {
+  "az": "Mühitlər arasında istilik mübadiləsi.",
+  "en": "heat exchange",
+  "pos": "noun"
+ },
+ "istilikdəyişən": {
+  "az": "İstilik mübadiləsi aparan (istilikdəyişən aparat).",
+  "en": "heat-exchanging, heat-exchange",
+  "pos": "adjective"
+ },
+ "istilikkeçirici": {
+  "az": "İstiliyi yaxşı keçirən material və ya cisim.",
+  "en": "heat conductor",
+  "pos": "noun"
+ },
+ "istilikqaytaran": {
+  "az": "İstiliyi geri qaytaran, əks etdirən (istilikqaytaran örtük).",
+  "en": "heat-reflecting",
+  "pos": "adjective"
+ },
+ "istilikqaytarma": {
+  "az": "İstiliyi geri qaytarma, əks etdirmə.",
+  "en": "heat reflection; heat recovery",
+  "pos": "noun"
+ },
+ "istilikqoruma": {
+  "az": "İstiliyi qoruyub saxlama, istilik itkisinin qarşısını alma.",
+  "en": "heat retention, thermal insulation",
+  "pos": "noun"
+ },
+ "istilikqoruyucu": {
+  "az": "İstilik itkisinin qarşısını alan və ya istilikdən qoruyan (istilikqoruyucu örtük).",
+  "en": "heat-insulating; heat-protective",
+  "pos": "adjective"
+ },
+ "istiliksaxlama": {
+  "az": "İstiliyi uzun müddət saxlama, itirməmə.",
+  "en": "heat retention",
+  "pos": "noun"
+ },
+ "istiliksaxlayan": {
+  "az": "İstiliyi uzun müddət saxlayan (istiliksaxlayan material).",
+  "en": "heat-retaining",
+  "pos": "adjective"
+ },
+ "istiliktörədən": {
+  "az": "İstilik yaradan, istilik əmələ gətirən.",
+  "en": "heat-generating, heat-producing",
+  "pos": "adjective"
+ },
+ "istiliktənzimləmə": {
+  "az": "Orqanizmdə və ya qurğuda temperaturun müəyyən səviyyədə saxlanılması.",
+  "en": "thermoregulation, heat regulation",
+  "pos": "noun"
+ },
+ "istilikudan": {
+  "az": "İstiliyi udan, özünə çəkən (istilikudan şüşə).",
+  "en": "heat-absorbing",
+  "pos": "adjective"
+ },
+ "istilikudma": {
+  "az": "İstiliyin cisim və ya maddə tərəfindən udulması.",
+  "en": "heat absorption",
+  "pos": "noun"
+ },
+ "istilikuducu": {
+  "az": "İstiliyi udan qurğu və ya maddə.",
+  "en": "heat absorber",
+  "pos": "noun"
+ },
+ "istilikverən": {
+  "az": "İstilik verən, isidən (istilikverən cihaz).",
+  "en": "heat-giving, heating",
+  "pos": "adjective"
+ },
+ "istilikvurma": {
+  "az": "Orqanizmin həddindən artıq qızması nəticəsində yaranan ağır vəziyyət; istivurma.",
+  "en": "heatstroke",
+  "pos": "noun"
+ },
+ "istilikyaradan": {
+  "az": "İstilik yaradan, istilik əmələ gətirən (istilikyaradan qurğu).",
+  "en": "heat-producing, heat-generating",
+  "pos": "adjective",
+  "parts": false
+ },
+ "istilikyaratma": {
+  "az": "İstilik əmələ gətirmə, istilik istehsalı.",
+  "en": "heat generation",
+  "pos": "noun"
+ },
+ "istiqamətvermə": {
+  "az": "Bir işə, hərəkətə və ya fəaliyyətə müəyyən istiqamət vermə; yönəltmə.",
+  "en": "giving direction, guidance, orientation",
+  "pos": "noun"
+ },
+ "istiqamətverən": {
+  "az": "Müəyyən istiqamət verən, yönəldən (istiqamətverən göstəriş).",
+  "en": "guiding, directing",
+  "pos": "adjective"
+ },
+ "istitörədici": {
+  "az": "İstilik əmələ gətirən maddə və ya vasitə.",
+  "en": "heat-producing agent",
+  "pos": "noun"
+ },
+ "istitörədən": {
+  "az": "İstilik əmələ gətirən, istilik yaradan.",
+  "en": "heat-generating, heat-producing",
+  "pos": "adjective"
+ },
+ "istiyədözümlü": {
+  "az": "Yüksək temperatura davamlı olan (istiyədözümlü bitki, material).",
+  "en": "heat-resistant, heat-tolerant",
+  "pos": "adjective"
+ },
+ "istiyəhəssas": {
+  "az": "İstiyə, temperaturun yüksəlməsinə qarşı həssas olan.",
+  "en": "heat-sensitive",
+  "pos": "adjective"
+ },
+ "istiölçmə": {
+  "az": "Temperaturun və ya istilik miqdarının ölçülməsi.",
+  "en": "heat measurement, thermometry",
+  "pos": "noun"
+ },
+ "istiötürmə": {
+  "az": "İstiliyin bir cisimdən və ya mühitdən digərinə ötürülməsi.",
+  "en": "heat transfer",
+  "pos": "noun"
+ },
+ "istiötürücü": {
+  "az": "İstiliyi bir yerdən başqa yerə ötürən maddə və ya qurğu.",
+  "en": "heat conductor, heat-transfer device",
+  "pos": "noun"
+ },
+ "itibaşlı": {
+  "az": "Başı (ucu) iti, şiş olan.",
+  "en": "sharp-headed, pointed",
+  "pos": "adjective"
+ },
+ "iticaynaqlı": {
+  "az": "Caynaqları iti olan.",
+  "en": "sharp-clawed",
+  "pos": "adjective"
+ },
+ "itidimdik": {
+  "skip": "bird name, not certain"
+ },
+ "itidimdikli": {
+  "az": "Dimdiyi iti, uclu olan.",
+  "en": "sharp-beaked",
+  "pos": "adjective"
+ },
+ "itilələkli": {
+  "az": "Lələkləri iti uclu olan (quşlar).",
+  "en": "with pointed feathers",
+  "pos": "adjective"
+ },
+ "itipərli": {
+  "skip": "meaning not certain"
+ },
+ "itiqayıq": {
+  "skip": "meaning not certain"
+ },
+ "ittihamedən": {
+  "az": "Birini ittiham edən, günahlandıran (ittihamedən tərəf).",
+  "en": "accusing, accusatory; prosecuting",
+  "pos": "adjective"
+ },
+ "ixtisasdəyişmə": {
+  "az": "Bir ixtisasdan başqasına keçmə, peşəni dəyişmə.",
+  "en": "change of specialty (profession), retraining",
+  "pos": "noun"
+ },
+ "iydəkimi": {
+  "az": "İydəyə oxşayan; iydəkimilər fəsiləsinə aid olan (bitki).",
+  "en": "oleaster-like; of the oleaster family (Elaeagnaceae)",
+  "pos": "adjective"
+ },
+ "iyirmimərtəbə": {
+  "az": "İyirmi mərtəbəsi olan (bina).",
+  "en": "twenty-storey",
+  "pos": "adjective"
+ },
+ "iyirmimərtəbəli": {
+  "az": "İyirmi mərtəbəsi olan (iyirmimərtəbəli bina).",
+  "en": "twenty-storey",
+  "pos": "adjective"
+ },
+ "iyirmiyaşlı": {
+  "az": "İyirmi yaşında olan.",
+  "en": "twenty-year-old",
+  "pos": "adjective"
+ },
+ "iynəbatırıcı": {
+  "skip": "meaning not certain"
+ },
+ "iynəburun": {
+  "skip": "animal name, not certain"
+ },
+ "iynəburunlu": {
+  "az": "Burnu iynə kimi nazik və uzun olan.",
+  "en": "needle-nosed",
+  "pos": "adjective"
+ },
+ "iynədişli": {
+  "az": "Dişləri iynə kimi nazik və iti olan.",
+  "en": "needle-toothed",
+  "pos": "adjective"
+ },
+ "iynəgözlü": {
+  "skip": "meaning not certain"
+ },
+ "iynəquyruq": {
+  "skip": "animal name, not certain"
+ },
+ "iynəsancma": {
+  "az": "Bədənə və ya bir şeyə iynə sancma, iynə batırma.",
+  "en": "needle pricking",
+  "pos": "noun"
+ },
+ "iynəyəoxşar": {
+  "az": "İynəyə bənzəyən, iynə şəkilli (iynəyəoxşar yarpaqlar, kristallar).",
+  "en": "needle-like, acicular",
+  "pos": "adjective"
+ },
+ "işarəedici": {
+  "az": "Bir şeyi göstərən, ona işarə edən vasitə; göstərici.",
+  "en": "indicator, pointer",
+  "pos": "noun"
+ },
+ "işarəetmə": {
+  "az": "Bir şeyi göstərmə, ona işarə etmə; işarə qoyma.",
+  "en": "pointing out, indicating; marking",
+  "pos": "noun"
+ },
+ "iştahaartıran": {
+  "az": "İştahı artıran, iştah gətirən (iştahaartıran yemək, dərman).",
+  "en": "appetite-stimulating, appetizing",
+  "pos": "adjective"
+ },
+ "iştahaartırıcı": {
+  "az": "İştahı artıran dərman və ya vasitə.",
+  "en": "appetite stimulant",
+  "pos": "noun"
+ },
+ "iştahagətirici": {
+  "az": "İştah açan yemək, içki və ya dərman.",
+  "en": "appetizer, appetite stimulant",
+  "pos": "noun"
+ },
+ "iştiraketmə": {
+  "az": "Bir işdə, tədbirdə iştirak etmə, ona qatılma.",
+  "en": "participation, taking part",
+  "pos": "noun"
+ },
+ "işğalolunan": {
+  "az": "Düşmən tərəfindən zəbt edilən, işğal altına düşən (işğalolunan ərazilər).",
+  "en": "occupied, being occupied",
+  "pos": "adjective"
+ },
+ "işıqburaxan": {
+  "az": "İşıq saçan və ya işığı özündən keçirən.",
+  "en": "light-emitting; light-transmitting",
+  "pos": "adjective"
+ },
+ "işıqburaxma": {
+  "az": "İşıq saçma və ya işığı özündən keçirmə.",
+  "en": "light emission; light transmission",
+  "pos": "noun"
+ },
+ "işıqkeçirmə": {
+  "az": "İşığı özündən keçirmə (materialın şəffaflıq dərəcəsi).",
+  "en": "light transmission, translucency",
+  "pos": "noun"
+ },
+ "işıqparçalayan": {
+  "az": "İşığı müxtəlif rəngli şüalara ayıran (işıqparçalayan prizma).",
+  "en": "light-dispersing",
+  "pos": "adjective"
+ },
+ "işıqqaytarma": {
+  "az": "İşığı əks etdirmə, geri qaytarma.",
+  "en": "light reflection, reflectance",
+  "pos": "noun"
+ },
+ "işıqverən": {
+  "az": "İşıq verən, işıqlandıran (işıqverən cisim).",
+  "en": "light-giving, luminous",
+  "pos": "adjective"
+ },
+ "işıqölçmə": {
+  "az": "İşığın şiddətinin, işıqlanmanın ölçülməsi; fotometriya.",
+  "en": "photometry, light metering",
+  "pos": "noun"
+ },
+ "işıqötürücü": {
+  "az": "İşığı bir yerdən başqa yerə ötürən qurğu (məs., optik lif).",
+  "en": "light guide, optical fibre",
+  "pos": "noun"
+ },
+ "işıqşüalandırıcı": {
+  "az": "İşıq şüaları saçan, cisimləri işıqla şüalandıran qurğu.",
+  "en": "light irradiator, light emitter",
+  "pos": "noun"
+ },
+ "işığadözümlü": {
+  "az": "İşığın təsirindən dəyişməyən, solmayan (işığadözümlü boya).",
+  "en": "lightfast, light-resistant",
+  "pos": "adjective"
+ },
+ "işığaçıxma": {
+  "skip": "meaning not certain"
+ },
+ "jirobank": {
+  "az": "Nağdsız köçürmə (jiro) əməliyyatları aparan bank.",
+  "en": "giro bank",
+  "pos": "noun"
+ },
+ "kadrdaxili": {
+  "az": "Kino və ya video kadrın daxilində olan (kadrdaxili montaj).",
+  "en": "intra-frame, within the frame",
+  "pos": "adjective"
+ },
+ "kafeldüzən": {
+  "az": "Divara, döşəməyə kafel düzən usta.",
+  "en": "tiler, tile setter",
+  "pos": "noun",
+  "parts": false
+ },
+ "kaktuskimi": {
+  "az": "Kaktusa oxşayan; kaktuskimilər fəsiləsinə aid olan (bitki).",
+  "en": "cactus-like; cactaceous",
+  "pos": "adjective"
+ },
+ "kalafagülü": {
+  "skip": "meaning not certain"
+ },
+ "kalkaetmə": {
+  "az": "Şəkli, cizgini kalka kağızına köçürmə; dilçilikdə başqa dildən sözü hissə-hissə tərcümə edərək götürmə.",
+  "en": "tracing; calquing (loan translation)",
+  "pos": "noun"
+ },
+ "kalkülə": {
+  "skip": "meaning not certain"
+ },
+ "kaloriölçən": {
+  "az": "İstilik miqdarını (kalori ilə) ölçən (kaloriölçən cihaz).",
+  "en": "calorimetric, calorie-measuring",
+  "pos": "adjective"
+ },
+ "kanalqazan": {
+  "az": "Kanal qazan maşın və ya işçi.",
+  "en": "trench digger, canal excavator",
+  "pos": "noun",
+  "parts": false
+ },
+ "kanalçəkmə": {
+  "az": "Kanal çəkmə, kanal salma işi.",
+  "en": "canal building, canal digging",
+  "pos": "noun"
+ },
+ "kanaryaotu": {
+  "az": "Taxılkimilər fəsiləsindən toxumu quş yemi kimi işlədilən ot bitkisi.",
+  "en": "canary grass (Phalaris)",
+  "pos": "noun"
+ },
+ "kanaryaotukimi": {
+  "az": "Kanaryaotuna oxşayan (bitki).",
+  "en": "canary-grass-like",
+  "pos": "adjective"
+ },
+ "kanoesürən": {
+  "az": "Kanoe sürən, kanoe ilə avar çəkən (idmançı).",
+  "en": "canoeing, paddling a canoe",
+  "pos": "adjective"
+ },
+ "kapitaltutumlu": {
+  "az": "Çox kapital qoyuluşu tələb edən (kapitaltutumlu sahə).",
+  "en": "capital-intensive",
+  "pos": "adjective"
+ },
+ "kapitalverimli": {
+  "az": "Qoyulan kapitala görə yüksək gəlir verən.",
+  "en": "yielding a high return on capital",
+  "pos": "adjective"
+ },
+ "karandaşqabı": {
+  "az": "Karandaş və qələm qoymaq üçün qab; penal.",
+  "en": "pencil case, pencil holder",
+  "pos": "noun"
+ },
+ "karandaşşəkilli": {
+  "az": "Karandaş formasında olan.",
+  "en": "pencil-shaped",
+  "pos": "adjective"
+ },
+ "kardiocərrahiyyə": {
+  "az": "Ürək xəstəliklərinin cərrahi müalicəsi ilə məşğul olan tibb sahəsi.",
+  "en": "cardiac surgery, heart surgery",
+  "pos": "noun",
+  "parts": false
+ },
+ "kardiofobiya": {
+  "az": "Ürək xəstəliyinə tutulmaq və ya ürəkdən ölmək qorxusu.",
+  "en": "cardiophobia",
+  "pos": "noun",
+  "parts": false
+ },
+ "kardiokinematoqrafiya": {
+  "skip": "meaning not certain"
+ },
+ "kardiokompleks": {
+  "skip": "meaning not certain"
+ },
+ "kardiomanometriya": {
+  "az": "Ürək boşluqlarında və iri damarlarda qan təzyiqinin ölçülməsi.",
+  "en": "cardiomanometry",
+  "pos": "noun",
+  "parts": false
+ },
+ "kardiomonitor": {
+  "az": "Ürək fəaliyyətini daim izləyib ekranda göstərən tibbi cihaz.",
+  "en": "cardiac monitor, heart monitor",
+  "pos": "noun",
+  "parts": false
+ },
+ "kardionevroz": {
+  "az": "Ürək nahiyəsində ağrı, döyüntü və s. ilə özünü göstərən, üzvi zədəsi olmayan nevroz.",
+  "en": "cardiac neurosis, cardioneurosis",
+  "pos": "noun",
+  "parts": false
+ },
+ "kardioplastika": {
+  "az": "Ürək üzərində və ya mədənin kardiya hissəsində aparılan bərpaedici cərrahi əməliyyat.",
+  "en": "cardioplasty",
+  "pos": "noun",
+  "parts": false
+ },
+ "kardiotaxometr": {
+  "az": "Ürək vurğularının tezliyini ölçən cihaz.",
+  "en": "cardiotachometer",
+  "pos": "noun",
+  "parts": false
+ },
+ "kardiotaxoqraf": {
+  "az": "Ürək vurğularının tezliyini qeyd edib yazan cihaz.",
+  "en": "cardiotachograph",
+  "pos": "noun",
+  "parts": false
+ },
+ "kardioversiya": {
+  "az": "Pozulmuş ürək ritmini elektrik impulsu və ya dərmanla normal ritmə qaytarma.",
+  "en": "cardioversion",
+  "pos": "noun",
+  "parts": false
+ },
+ "karpkimi": {
+  "az": "Karpa oxşayan; karpkimilərə aid olan (balıq).",
+  "en": "carp-like, cyprinid",
+  "pos": "adjective"
+ },
+ "karsinologiya": {
+  "az": "Zoologiyanın xərçəngkimiləri öyrənən bölməsi.",
+  "en": "carcinology (study of crustaceans)",
+  "pos": "noun",
+  "parts": false
+ },
+ "kartest": {
+  "skip": "meaning not certain"
+ },
+ "kartofbasdıran": {
+  "skip": "meaning not certain"
+ },
+ "kartofbasdırma": {
+  "skip": "meaning not certain"
+ },
+ "kartofbecərən": {
+  "az": "Kartof becərən, yetişdirən (kartofbecərən təsərrüfat).",
+  "en": "potato-growing",
+  "pos": "adjective"
+ },
+ "kartofboşaldan": {
+  "az": "Kartofu nəqliyyat vasitəsindən və ya qabdan boşaldan (kartofboşaldan maşın).",
+  "en": "potato-unloading",
+  "pos": "adjective"
+ },
+ "kartofkimi": {
+  "az": "Kartofa oxşayan.",
+  "en": "potato-like",
+  "pos": "adjective"
+ },
+ "kartofkəsən": {
+  "az": "Kartofu doğrayan, kəsən alət və ya maşın.",
+  "en": "potato cutter",
+  "pos": "noun",
+  "parts": false
+ },
+ "kartofyükləyən": {
+  "az": "Kartofu nəqliyyat vasitəsinə yükləyən (kartofyükləyən maşın).",
+  "en": "potato-loading",
+  "pos": "adjective"
+ },
+ "kartofçeşidləyən": {
+  "az": "Kartofu ölçüsünə və keyfiyyətinə görə çeşidləyən (kartofçeşidləyən maşın).",
+  "en": "potato-sorting",
+  "pos": "adjective"
+ },
+ "karvanbasan": {
+  "az": "Karvanlara basqın edib talayan (quldur).",
+  "en": "caravan-raiding (robber)",
+  "pos": "adjective"
+ },
+ "kasayabənzər": {
+  "az": "Kasaya oxşayan, kasa şəklində olan.",
+  "en": "bowl-shaped, cup-like",
+  "pos": "adjective"
+ },
+ "kasıbsayağı": {
+  "az": "Kasıb kimi, kasıblara xas tərzdə; təmtəraqsız, sadə.",
+  "en": "like a poor person; modestly, frugally",
+  "pos": "adverb"
+ },
+ "kasıbtəhər": {
+  "az": "Bir qədər kasıb, yoxsul görünən.",
+  "en": "rather poor, poorish",
+  "pos": "adjective"
+ },
+ "kauçukabənzər": {
+  "az": "Kauçuka oxşayan, rezin kimi elastik.",
+  "en": "rubber-like, rubbery",
+  "pos": "adjective"
+ },
+ "kazuarkimi": {
+  "az": "Kazuara oxşayan; kazuarkimilər dəstəsinə aid olan (quş).",
+  "en": "cassowary-like; casuariiform",
+  "pos": "adjective"
+ },
+ "kağızağacı": {
+  "az": "Tutkimilər fəsiləsindən qabığından kağız hazırlanan ağac.",
+  "en": "paper mulberry (Broussonetia papyrifera)",
+  "pos": "noun"
+ },
+ "kağızdeşən": {
+  "az": "Kağızda deşik açan (kağızdeşən alət).",
+  "en": "paper-punching; hole punch",
+  "pos": "adjective"
+ },
+ "kağızgülü": {
+  "skip": "meaning not certain"
+ },
+ "kağızkəsmə": {
+  "az": "Kağızı kəsmə; kağızdan fiqur, naxış kəsmə.",
+  "en": "paper cutting",
+  "pos": "noun"
+ },
+ "kağızqabıq": {
+  "skip": "plant name, not certain"
+ },
+ "kağızqatlı": {
+  "az": "Kağız qatı və ya qatlarından ibarət olan.",
+  "en": "paper-layered",
+  "pos": "adjective"
+ },
+ "kağıztikən": {
+  "az": "Kağız vərəqlərini tikib bir-birinə bərkidən (kağıztikən maşın).",
+  "en": "paper-stitching (in bookbinding)",
+  "pos": "adjective"
+ },
+ "kaşalotkimi": {
+  "az": "Kaşalota oxşayan; kaşalotkimilərə aid olan (balina).",
+  "en": "sperm-whale-like; physeterid",
+  "pos": "adjective"
+ },
+ "kaşıdöşəyən": {
+  "az": "Kaşı (şirli plitə) döşəyən (usta).",
+  "en": "tile-laying; tiler",
+  "pos": "adjective"
+ },
+ "kaşıdüzən": {
+  "az": "Kaşı (şirli plitə) düzən usta.",
+  "en": "tiler (of glazed tiles)",
+  "pos": "noun",
+  "parts": false
+ },
+ "kefalkimi": {
+  "az": "Kefala oxşayan; kefalkimilərə aid olan (balıq).",
+  "en": "mullet-like; mugilid",
+  "pos": "adjective"
+ },
+ "kerosinkəsici": {
+  "az": "Yanacaq kimi kerosin işlədib metalı kəsən (kerosinkəsici aparat).",
+  "en": "kerosene-cutting (of a cutting torch)",
+  "pos": "adjective"
+ }
+}

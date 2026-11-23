@@ -1,0 +1,887 @@
+{
+ "dəmirhindi": {
+  "az": "Tropik ölkələrdə bitən paxlalı ağac və onun turşməzə, yapışqanlı meyvəsi; tamarind.",
+  "en": "tamarind",
+  "pos": "noun",
+  "parts": false
+ },
+ "dəmirkəsmə": {
+  "az": "Dəmiri, metalı kəsmə işi (dəmirkəsmə dəzgahı).",
+  "en": "iron cutting, metal cutting",
+  "pos": "noun"
+ },
+ "dəmirqaynaqlama": {
+  "az": "Dəmir hissələri qaynaq vasitəsilə birləşdirmə.",
+  "en": "iron welding",
+  "pos": "noun"
+ },
+ "dəmiryayma": {
+  "az": "Qızdırılmış dəmiri vallar arasından keçirib təbəqə, məftil və s. halına salma.",
+  "en": "iron rolling",
+  "pos": "noun"
+ },
+ "dəmiryeyici": {
+  "skip": "meaning not certain"
+ },
+ "dəmirəritmə": {
+  "az": "Dəmiri və ya dəmir filizini yüksək temperaturda əritmə.",
+  "en": "iron smelting",
+  "pos": "noun"
+ },
+ "dəmşalaq": {
+  "skip": "meaning not certain"
+ },
+ "dənizalabaxtası": {
+  "skip": "bird name, not certain"
+ },
+ "dənizarıtma": {
+  "az": "Dəniz suyunu çirkləndiricilərdən arıtma, təmizləmə.",
+  "en": "purification of sea water",
+  "pos": "noun"
+ },
+ "dənizaslanı": {
+  "az": "Sakit okeanın sahillərində yaşayan, kiçik qulaqlı iri suiti.",
+  "en": "sea lion",
+  "pos": "noun"
+ },
+ "dənizhörümçəyi": {
+  "az": "Uzun nazik ayaqları olan, hörümçəyə bənzəyən dəniz buğumayaqlısı.",
+  "en": "sea spider",
+  "pos": "noun"
+ },
+ "dənizqaranquşu": {
+  "az": "Qağayıya yaxın, uzun ensiz qanadlı, çəngəlvari quyruqlu su quşu.",
+  "en": "tern",
+  "pos": "noun"
+ },
+ "dənizqırğısı": {
+  "skip": "bird name, not certain"
+ },
+ "dəniztəmizləmə": {
+  "az": "Dənizi neft və başqa çirkləndiricilərdən təmizləmə.",
+  "en": "sea cleanup, cleaning of the sea",
+  "pos": "noun"
+ },
+ "dənizxardalı": {
+  "skip": "plant name, not certain"
+ },
+ "dənizyosunu": {
+  "az": "Dənizdə bitən yosun.",
+  "en": "seaweed",
+  "pos": "noun"
+ },
+ "dənizçapağı": {
+  "skip": "fish name, not certain"
+ },
+ "dənmeyvə": {
+  "az": "Taxıl bitkilərinin quru, birtoxumlu meyvəsi (buğda, arpa dəni və s.).",
+  "en": "caryopsis, grain (fruit of cereals)",
+  "pos": "noun"
+ },
+ "dənqurutma": {
+  "az": "Taxıl dənini qurutma (dənqurutma maşını).",
+  "en": "grain drying",
+  "pos": "noun"
+ },
+ "dənsovurma": {
+  "az": "Döyülmüş taxılı sovurub dəni saman və qılçıqdan ayırma.",
+  "en": "winnowing (of grain)",
+  "pos": "noun"
+ },
+ "dənsəpici": {
+  "az": "Dən, toxum səpmək üçün kənd təsərrüfatı maşını.",
+  "en": "grain drill, seeder",
+  "pos": "noun"
+ },
+ "dənsəpmə": {
+  "az": "Taxıl dənini, toxumu torpağa səpmə; səpin.",
+  "en": "sowing (of grain)",
+  "pos": "noun"
+ },
+ "dəntəmizləmə": {
+  "az": "Taxıl dənini toz, alaq toxumu və başqa qarışıqlardan təmizləmə.",
+  "en": "grain cleaning",
+  "pos": "noun"
+ },
+ "dənyarmalama": {
+  "az": "Dəni xırdalayıb yarma halına salma.",
+  "en": "grinding grain into groats",
+  "pos": "noun"
+ },
+ "dənşəkilli": {
+  "az": "Dən şəklində olan, dənəvər.",
+  "en": "grain-shaped, granular",
+  "pos": "adjective"
+ },
+ "dənəcikmeyvə": {
+  "skip": "botanical term, not certain"
+ },
+ "dənəcikmeyvəli": {
+  "skip": "botanical term, not certain"
+ },
+ "dənəvərşəkilli": {
+  "az": "Dənəvər görünüşü, quruluşu olan; dənələrdən ibarət.",
+  "en": "granular",
+  "pos": "adjective"
+ },
+ "dərdgətirici": {
+  "az": "Dərd, kədər gətirən, insanı qəmləndirən.",
+  "en": "grievous, bringing sorrow",
+  "pos": "adjective"
+ },
+ "dərdçəkmə": {
+  "az": "Dərd, kədər içində yaşama; əzab, əziyyət çəkmə.",
+  "en": "suffering, grieving",
+  "pos": "noun"
+ },
+ "dərdəcərli": {
+  "skip": "meaning not certain"
+ },
+ "dəriaşılama": {
+  "az": "Xam heyvan dərisini aşı maddələri ilə işləyib möhkəm və yumşaq hala salma.",
+  "en": "tanning (of hides)",
+  "pos": "noun"
+ },
+ "dəribiçmə": {
+  "az": "Dəridən ayaqqabı, paltar və s. hissələrini ölçüyə görə kəsmə.",
+  "en": "leather cutting (in shoemaking, tailoring)",
+  "pos": "noun"
+ },
+ "dəriboyama": {
+  "az": "Aşılanmış dərini boya ilə rəngləmə.",
+  "en": "leather dyeing",
+  "pos": "noun"
+ },
+ "dərinmənalı": {
+  "az": "Dərin mənası olan, üzərində düşünməyə dəyən.",
+  "en": "profound, deeply meaningful",
+  "pos": "adjective"
+ },
+ "dərinməzmunlu": {
+  "az": "Məzmunu dərin və zəngin olan (dərinməzmunlu əsər).",
+  "en": "profound in content",
+  "pos": "adjective"
+ },
+ "dəriqurudan": {
+  "skip": "meaning not certain"
+ },
+ "dərisoyma": {
+  "az": "Kəsilmiş heyvanın dərisini soyub çıxarma.",
+  "en": "skinning, flaying",
+  "pos": "noun"
+ },
+ "dərkedilmə": {
+  "az": "Bir şeyin anlaşılması, şüurla qavranılması.",
+  "en": "being comprehended; comprehension",
+  "pos": "noun"
+ },
+ "dərmanqayırma": {
+  "az": "Dərman hazırlama, dərman düzəltmə işi.",
+  "en": "making of medicines, drug preparation",
+  "pos": "noun"
+ },
+ "dərmançiləmə": {
+  "az": "Bitkilərə zərərvericilərə və xəstəliklərə qarşı dərman çiləmə.",
+  "en": "spraying (of crops with pesticides)",
+  "pos": "noun"
+ },
+ "dərmançiçəyi": {
+  "skip": "plant name, not certain"
+ },
+ "dərsburaxma": {
+  "az": "Dərsə səbəbsiz gəlməmə, dərsdən qaçma.",
+  "en": "truancy, skipping classes",
+  "pos": "noun"
+ },
+ "dərsdemə": {
+  "az": "Müəllimin şagirdlərə dərs deməsi, onlara bilik öyrətməsi.",
+  "en": "teaching, giving lessons",
+  "pos": "noun"
+ },
+ "dərskeçmə": {
+  "az": "Dərsi aparma, yeni mövzunu şagirdlərə izah etmə.",
+  "en": "conducting a lesson, teaching",
+  "pos": "noun"
+ },
+ "dərsqabağı": {
+  "az": "Dərsdən əvvəl olan (dərsqabağı hazırlıq).",
+  "en": "pre-lesson, before class",
+  "pos": "adjective"
+ },
+ "dərzbağlama": {
+  "az": "Biçilmiş taxılı dərz halında bağlama.",
+  "en": "sheaf binding",
+  "pos": "noun"
+ },
+ "dərzdaşıma": {
+  "az": "Dərzləri zəmidən xırmana daşıma.",
+  "en": "carting of sheaves",
+  "pos": "noun"
+ },
+ "dərzkəsən": {
+  "skip": "meaning not certain"
+ },
+ "dərətutu": {
+  "skip": "plant name, not certain"
+ },
+ "dərəyuxarı": {
+  "az": "Dərə boyunca yuxarıya doğru (dərəyuxarı getmək).",
+  "en": "up the valley",
+  "pos": "adverb"
+ },
+ "dəstəqəlsəməli": {
+  "az": "Qəlsəmələri dəstə-dəstə olan (dəniz iynəsi, dəniz atı kimi balıqlar).",
+  "en": "lophobranchiate, tuft-gilled (pipefishes, seahorses)",
+  "pos": "adjective"
+ },
+ "dəvəkimi": {
+  "az": "Dəvəyə oxşayan; dəvəkimilər fəsiləsinə aid (dəvə, lama və s.).",
+  "en": "camel-like, camelid",
+  "pos": "adjective"
+ },
+ "dəvəquşukimi": {
+  "az": "Dəvəquşuna oxşayan; dəvəquşukimilərə aid (quş).",
+  "en": "ostrich-like, struthioniform",
+  "pos": "adjective"
+ },
+ "dəvəçiçəyi": {
+  "skip": "plant name, not certain"
+ },
+ "dəvəənciri": {
+  "skip": "plant name, not certain"
+ },
+ "dəyirmibaşlı": {
+  "az": "Başı dəyirmi olan.",
+  "en": "round-headed",
+  "pos": "adjective"
+ },
+ "dəyirmigözlü": {
+  "az": "Gözləri dəyirmi olan.",
+  "en": "round-eyed",
+  "pos": "adjective"
+ },
+ "dəyirmiüzgəcli": {
+  "az": "Üzgəcləri dəyirmi olan (balıq).",
+  "en": "round-finned",
+  "pos": "adjective"
+ },
+ "dəyişənquruluşlu": {
+  "az": "Quruluşu sabit olmayan, dəyişə bilən (dəyişənquruluşlu sistem).",
+  "en": "variable-structure",
+  "pos": "adjective"
+ },
+ "dəyişənstrukturlu": {
+  "az": "Strukturu sabit olmayan, dəyişə bilən (dəyişənstrukturlu sistem).",
+  "en": "variable-structure",
+  "pos": "adjective"
+ },
+ "dəyişəntərkibli": {
+  "az": "Tərkibi sabit olmayan, dəyişə bilən (dəyişəntərkibli birləşmələr).",
+  "en": "of variable composition",
+  "pos": "adjective"
+ },
+ "dəyənəkayaqlı": {
+  "skip": "meaning not certain"
+ },
+ "dəzgahbaşı": {
+  "skip": "meaning not certain"
+ },
+ "dəzgahquraşdırma": {
+  "az": "Dəzgahları iş yerində qurub işə hazırlama.",
+  "en": "installation of machine tools",
+  "pos": "noun"
+ },
+ "dəzgahqurma": {
+  "skip": "meaning not certain"
+ },
+ "dəzgahsazlama": {
+  "az": "Dəzgahı düzgün işləməsi üçün tənzimləmə.",
+  "en": "adjustment (setting up) of machine tools",
+  "pos": "noun"
+ },
+ "elektrikgötürmə": {
+  "skip": "meaning not certain"
+ },
+ "elektrikköçürmə": {
+  "skip": "meaning not certain"
+ },
+ "elektrikquraşdırma": {
+  "az": "Elektrik xətlərini, cihaz və avadanlığını quraşdırma.",
+  "en": "electrical installation",
+  "pos": "noun"
+ },
+ "elektrikquraşdırıcı": {
+  "az": "Elektrik xətlərini və avadanlığını quraşdıran usta.",
+  "en": "electrician, electrical fitter",
+  "pos": "noun"
+ },
+ "elmdaxili": {
+  "az": "Elmin özünün daxilində olan, ona aid (elmdaxili mübahisələr).",
+  "en": "intrascientific, within science",
+  "pos": "adjective"
+ },
+ "enerjidaşıyıcı": {
+  "az": "Enerji almaq üçün işlədilən maddə və ya mənbə (neft, qaz, kömür və s.).",
+  "en": "energy carrier, energy source",
+  "pos": "noun"
+ },
+ "enerjipaylama": {
+  "az": "Elektrik və başqa enerjinin istehlakçılara paylanması.",
+  "en": "energy distribution, power distribution",
+  "pos": "noun"
+ },
+ "enerjiquraşdırma": {
+  "az": "Elektrik stansiyalarının və başqa enerji avadanlığının quraşdırılması.",
+  "en": "installation of power equipment",
+  "pos": "noun"
+ },
+ "enerjiquraşdırıcı": {
+  "az": "Enerji avadanlığını quraşdıran mütəxəssis.",
+  "en": "power-equipment installer",
+  "pos": "noun"
+ },
+ "enişqabağı": {
+  "skip": "meaning not certain"
+ },
+ "enişyuxarı": {
+  "skip": "meaning not certain"
+ },
+ "enliayaqlı": {
+  "az": "Ayaqları enli olan.",
+  "en": "broad-footed",
+  "pos": "adjective"
+ },
+ "enlibalaq": {
+  "skip": "meaning not certain"
+ },
+ "enlibalaqlı": {
+  "az": "Balağı enli olan (enlibalaqlı şalvar).",
+  "en": "wide-legged, flared (of trousers)",
+  "pos": "adjective"
+ },
+ "enlibarmaqlı": {
+  "az": "Barmaqları enli olan.",
+  "en": "broad-fingered",
+  "pos": "adjective"
+ },
+ "enlibucaq": {
+  "skip": "meaning not certain"
+ },
+ "enlibucaqlı": {
+  "skip": "meaning not certain"
+ },
+ "enlibudaqlı": {
+  "skip": "meaning not certain"
+ },
+ "enliburunlu": {
+  "az": "Burnu enli olan.",
+  "en": "broad-nosed",
+  "pos": "adjective"
+ },
+ "enlibədən": {
+  "skip": "meaning not certain"
+ },
+ "enlibədənli": {
+  "az": "Bədəni enli olan.",
+  "en": "broad-bodied",
+  "pos": "adjective"
+ },
+ "enlicüssəli": {
+  "az": "Cüssəsi enli və iri olan.",
+  "en": "broad-built, burly",
+  "pos": "adjective"
+ },
+ "enlicərgəli": {
+  "az": "Cərgələrin arası geniş olan (enlicərgəli səpin).",
+  "en": "wide-row (of sowing)",
+  "pos": "adjective"
+ },
+ "enlidodaqlı": {
+  "az": "Dodaqları enli olan.",
+  "en": "broad-lipped",
+  "pos": "adjective"
+ },
+ "enligövdə": {
+  "skip": "meaning not certain"
+ },
+ "enligövdəli": {
+  "az": "Gövdəsi enli olan.",
+  "en": "broad-bodied; with a broad trunk",
+  "pos": "adjective"
+ },
+ "enligözlü": {
+  "skip": "meaning not certain"
+ },
+ "enlioturacaqlı": {
+  "az": "Oturacağı enli olan.",
+  "en": "with a wide seat",
+  "pos": "adjective"
+ },
+ "enliqulaqlı": {
+  "az": "Qulaqları enli olan.",
+  "en": "broad-eared",
+  "pos": "adjective"
+ },
+ "enlitəkərli": {
+  "az": "Təkərləri enli olan (enlitəkərli traktor).",
+  "en": "wide-wheeled, with wide tyres",
+  "pos": "adjective"
+ },
+ "enliyanaqlı": {
+  "az": "Yanaqları enli olan.",
+  "en": "broad-cheeked",
+  "pos": "adjective"
+ },
+ "eqofuturist": {
+  "az": "Eqofuturizm cərəyanının tərəfdarı olan şair.",
+  "en": "ego-futurist",
+  "pos": "noun"
+ },
+ "eqofuturizm": {
+  "az": "XX əsrin əvvəllərində rus poeziyasında yaranmış, şairin «mən»ini önə çəkən futurizm qolu.",
+  "en": "Ego-Futurism",
+  "pos": "noun"
+ },
+ "eqopsixologiya": {
+  "az": "Psixoanalizdə «mən»in (eqonun) funksiyalarını öyrənən istiqamət.",
+  "en": "ego psychology",
+  "pos": "noun"
+ },
+ "etilenkarbonat": {
+  "az": "Etilenqlikolun tsiklik karbonat efiri; həlledici kimi işlədilir.",
+  "en": "ethylene carbonate",
+  "pos": "noun"
+ },
+ "etilnitrat": {
+  "az": "Etil spirti ilə azot turşusunun efiri; uçucu, partlayıcı maye.",
+  "en": "ethyl nitrate",
+  "pos": "noun"
+ },
+ "etilvanilin": {
+  "az": "Vanilindən güclü ətirli sintetik maddə; qidaya ətir vermək üçün işlədilir.",
+  "en": "ethylvanillin",
+  "pos": "noun"
+ },
+ "etnosdaxili": {
+  "az": "Bir etnosun daxilində olan (etnosdaxili münasibətlər).",
+  "en": "intra-ethnic",
+  "pos": "adjective"
+ },
+ "exokardioqraf": {
+  "az": "Ultrasəs vasitəsilə ürəyi müayinə edən cihaz.",
+  "en": "echocardiograph",
+  "pos": "noun"
+ },
+ "exokardioqram": {
+  "az": "Exokardioqrafla alınan ürək təsviri, qeydiyyatı.",
+  "en": "echocardiogram",
+  "pos": "noun"
+ },
+ "exokompensasiya": {
+  "az": "Rabitə xətlərində əks-sədanın aradan qaldırılması.",
+  "en": "echo cancellation",
+  "pos": "noun"
+ },
+ "exokompensator": {
+  "az": "Rabitə xətlərində əks-sədanı aradan qaldıran qurğu.",
+  "en": "echo canceller",
+  "pos": "noun"
+ },
+ "eşşəkqulağı": {
+  "skip": "plant name, not certain"
+ },
+ "faizendirmə": {
+  "skip": "meaning not certain"
+ },
+ "fazaimpuls": {
+  "skip": "technical term, not certain"
+ },
+ "festivalqabağı": {
+  "az": "Festivaldan əvvəl olan (festivalqabağı hazırlıq).",
+  "en": "pre-festival",
+  "pos": "adjective"
+ },
+ "festivalsayağı": {
+  "az": "Festival kimi, festivala bənzər tərzdə.",
+  "en": "festival-like, in festival style",
+  "pos": "adverb"
+ },
+ "filizdaşıma": {
+  "az": "Filizi mədəndən emal yerinə və s. daşıma.",
+  "en": "ore haulage, ore transport",
+  "pos": "noun"
+ },
+ "filizçıxarma": {
+  "az": "Yerin təkindən filiz çıxarma.",
+  "en": "ore mining, ore extraction",
+  "pos": "noun"
+ },
+ "filmçəkmə": {
+  "az": "Film çəkmə işi; çəkiliş.",
+  "en": "filming, film shooting",
+  "pos": "noun"
+ },
+ "findilli": {
+  "az": "Fin dilində danışan (findilli əhali).",
+  "en": "Finnish-speaking",
+  "pos": "adjective"
+ },
+ "finəsilli": {
+  "az": "Əslən fin olan, fin mənşəli.",
+  "en": "of Finnish origin, of Finnish descent",
+  "pos": "adjective"
+ },
+ "fitrəçıxarma": {
+  "az": "Ramazan bayramında fitrə sədəqəsini ayırıb ehtiyacı olanlara vermə.",
+  "en": "giving of fitra (alms at the end of Ramadan)",
+  "pos": "noun"
+ },
+ "fitəbasma": {
+  "skip": "meaning not certain"
+ },
+ "fontanvurma": {
+  "az": "Quyudan neftin, qazın və ya suyun təzyiqlə fəvvarə kimi çıxması.",
+  "en": "gushing (of a well)",
+  "pos": "noun"
+ },
+ "fonverimi": {
+  "skip": "meaning not certain"
+ },
+ "fonvermə": {
+  "skip": "meaning not certain"
+ },
+ "fotoartırıcı": {
+  "skip": "technical term, not certain"
+ },
+ "fransızəsilli": {
+  "az": "Əslən fransız olan, fransız mənşəli.",
+  "en": "of French origin, of French descent",
+  "pos": "adjective"
+ },
+ "ftorbenzol": {
+  "az": "Benzolda bir hidrogen atomunun ftorla əvəzlənməsindən alınan maye.",
+  "en": "fluorobenzene",
+  "pos": "noun"
+ },
+ "ftorkauçuk": {
+  "az": "Tərkibində ftor olan, istiyə və kimyəvi təsirlərə davamlı sintetik kauçuk.",
+  "en": "fluororubber, fluoroelastomer",
+  "pos": "noun"
+ },
+ "fövqəliradəli": {
+  "skip": "meaning not certain"
+ },
+ "fövqəlşüur": {
+  "az": "Adi şüurdan üstün sayılan yüksək şüur səviyyəsi (fəlsəfədə, psixologiyada).",
+  "en": "superconsciousness",
+  "pos": "noun"
+ },
+ "fındıqburunlu": {
+  "az": "Burnu fındıq kimi xırda və girdə olan.",
+  "en": "button-nosed",
+  "pos": "adjective"
+ },
+ "fındıqkimi": {
+  "az": "Fındığa oxşayan; fındıqkimilər fəsiləsinə aid (bitki).",
+  "en": "hazel-like; of the hazel family",
+  "pos": "adjective"
+ },
+ "fındıqqırma": {
+  "az": "Fındığın qabığını sındırma.",
+  "en": "cracking of hazelnuts",
+  "pos": "noun"
+ },
+ "fıstıqkimi": {
+  "az": "Fıstığa oxşayan; fıstıqkimilər fəsiləsinə aid (fıstıq, palıd, şabalıd və s.).",
+  "en": "beech-like; fagaceous",
+  "pos": "adjective"
+ },
+ "fıstıqçiçəkli": {
+  "az": "Fıstıqçiçəklilər dəstəsinə aid olan (fıstıq, palıd, şabalıd və s.).",
+  "en": "fagalean (of the order Fagales)",
+  "pos": "adjective"
+ },
+ "fəhləsayağı": {
+  "az": "Fəhlə kimi, fəhləyə xas tərzdə.",
+  "en": "like a worker, in a workman-like way",
+  "pos": "adverb"
+ },
+ "gavalıkimi": {
+  "az": "Gavalıya oxşayan; gavalıkimilərə aid (bitki).",
+  "en": "plum-like (of the plum group)",
+  "pos": "adjective"
+ },
+ "gavalımeyvəli": {
+  "az": "Meyvəsi gavalıya oxşayan (bitki adlarında).",
+  "en": "plum-fruited (in plant names)",
+  "pos": "adjective"
+ },
+ "gecyetişmə": {
+  "az": "Məhsulun adi vaxtdan gec yetişməsi.",
+  "en": "late ripening, late maturation",
+  "pos": "noun"
+ },
+ "gecçiçəkləyən": {
+  "az": "Gec çiçək açan (bitki).",
+  "en": "late-flowering",
+  "pos": "adjective"
+ },
+ "gecəbörkü": {
+  "skip": "meaning not certain"
+ },
+ "gecəgözü": {
+  "skip": "plant name, not certain"
+ },
+ "gecəgülü": {
+  "skip": "plant name, not certain"
+ },
+ "gecəköynəyi": {
+  "az": "Gecə yatarkən geyilən uzun, yüngül köynək.",
+  "en": "nightgown, nightshirt",
+  "pos": "noun"
+ },
+ "gecəotu": {
+  "skip": "plant name, not certain"
+ },
+ "genağızlı": {
+  "az": "Ağzı geniş olan (genağızlı küp).",
+  "en": "wide-mouthed",
+  "pos": "adjective"
+ },
+ "genbalaq": {
+  "skip": "meaning not certain"
+ },
+ "genbalaqlı": {
+  "az": "Balağı gen, enli olan (genbalaqlı şalvar).",
+  "en": "wide-legged, flared (of trousers)",
+  "pos": "adjective"
+ },
+ "gencərgəli": {
+  "az": "Cərgələrin arası geniş olan (gencərgəli səpin).",
+  "en": "wide-row (of sowing)",
+  "pos": "adjective"
+ },
+ "gendüşüncəli": {
+  "az": "Geniş düşünən, dar fikirli olmayan.",
+  "en": "broad-minded",
+  "pos": "adjective"
+ },
+ "genişbaxışlı": {
+  "az": "Dünyagörüşü geniş olan, məsələlərə geniş baxan.",
+  "en": "broad-minded, open-minded",
+  "pos": "adjective"
+ },
+ "genişdiapazonlu": {
+  "az": "Diapazonu geniş olan (genişdiapazonlu cihaz, müğənni).",
+  "en": "wide-range",
+  "pos": "adjective"
+ },
+ "genişotaqlı": {
+  "az": "Otaqları geniş olan (genişotaqlı mənzil).",
+  "en": "with spacious rooms",
+  "pos": "adjective"
+ },
+ "genişprofilli": {
+  "az": "Bir neçə sahəni əhatə edən (genişprofilli mütəxəssis, xəstəxana).",
+  "en": "broad-profile, multi-profile",
+  "pos": "adjective"
+ },
+ "geniştəmayüllü": {
+  "az": "Təmayülü geniş olan, bir neçə istiqaməti əhatə edən.",
+  "en": "broadly oriented, broad-based",
+  "pos": "adjective"
+ },
+ "genişçardaqlı": {
+  "az": "Geniş çardağı, eyvanı olan (genişçardaqlı ev).",
+  "en": "with a wide arbour or veranda",
+  "pos": "adjective"
+ },
+ "genişəlaqəli": {
+  "az": "Geniş əlaqələri, tanışlıqları olan.",
+  "en": "well-connected",
+  "pos": "adjective"
+ },
+ "genköçürmə": {
+  "az": "Genin bir orqanizmdən başqasına köçürülməsi.",
+  "en": "gene transfer",
+  "pos": "noun"
+ },
+ "genkürək": {
+  "skip": "meaning not certain"
+ },
+ "genkürəkli": {
+  "az": "Kürəyi geniş olan.",
+  "en": "broad-backed, broad-shouldered",
+  "pos": "adjective"
+ },
+ "gentuman": {
+  "skip": "meaning not certain"
+ },
+ "gentumanlı": {
+  "az": "Gen, enli tuman geyinmiş.",
+  "en": "wearing a wide skirt",
+  "pos": "adjective"
+ },
+ "gentutumlu": {
+  "az": "Tutumu böyük olan, çox şey tutan.",
+  "en": "capacious, roomy",
+  "pos": "adjective"
+ },
+ "gentəhər": {
+  "skip": "meaning not certain"
+ },
+ "genzolaq": {
+  "skip": "meaning not certain"
+ },
+ "genzolaqlı": {
+  "skip": "meaning not certain"
+ },
+ "genətəkli": {
+  "az": "Ətəyi gen, enli olan (genətəkli paltar).",
+  "en": "wide-skirted",
+  "pos": "adjective"
+ },
+ "geriqalma": {
+  "az": "İnkişafda, irəliləyişdə başqalarından geri qalma; gerilik.",
+  "en": "backwardness, lagging behind",
+  "pos": "noun"
+ },
+ "gerisorulma": {
+  "skip": "meaning not certain"
+ },
+ "gicitkənkimi": {
+  "az": "Gicitkənə oxşayan; gicitkənkimilər fəsiləsinə aid (bitki).",
+  "en": "nettle-like; urticaceous",
+  "pos": "adjective"
+ },
+ "gicitkənçiçəkli": {
+  "az": "Gicitkənçiçəklilər dəstəsinə aid olan (gicitkən, tut, əncir və s.).",
+  "en": "urticalean (of the nettle order)",
+  "pos": "adjective"
+ },
+ "giltorpaq": {
+  "skip": "meaning not certain (clay soil or alumina)"
+ },
+ "giltorpaqlı": {
+  "skip": "meaning not certain"
+ },
+ "giləmərcan": {
+  "skip": "plant name, not certain"
+ },
+ "giləzəhər": {
+  "skip": "plant name, not certain"
+ },
+ "giləzən": {
+  "skip": "meaning not certain"
+ },
+ "girdəbaşlı": {
+  "az": "Başı girdə, dəyirmi olan.",
+  "en": "round-headed",
+  "pos": "adjective"
+ },
+ "girdədilli": {
+  "az": "Dili girdə, disk şəklində olan (girdədilli qurbağalar).",
+  "en": "round-tongued, disc-tongued (of frogs)",
+  "pos": "adjective"
+ },
+ "girdəgözlü": {
+  "az": "Gözləri girdə, dəyirmi olan.",
+  "en": "round-eyed",
+  "pos": "adjective"
+ },
+ "girdəhüceyrəli": {
+  "az": "Hüceyrələri girdə olan.",
+  "en": "round-celled",
+  "pos": "adjective"
+ },
+ "girdəyarpaqlı": {
+  "az": "Yarpaqları girdə olan (bitki adlarında).",
+  "en": "round-leaved (in plant names)",
+  "pos": "adjective"
+ },
+ "girələmək": {
+  "az": "Əlverişli məqamı gözləmək, fürsət güdmək; pusquda durmaq.",
+  "en": "to watch for an opportunity, to lie in wait",
+  "pos": "verb",
+  "parts": false,
+  "src": "izahli"
+ },
+ "gitarayabənzər": {
+  "az": "Gitaraya oxşayan, gitara formasında olan.",
+  "en": "guitar-like",
+  "pos": "adjective"
+ },
+ "gitaraşəkilli": {
+  "az": "Gitara şəklində olan.",
+  "en": "guitar-shaped",
+  "pos": "adjective"
+ },
+ "gizliqovuşan": {
+  "skip": "botanical term, not certain"
+ },
+ "gizliqovuşma": {
+  "skip": "botanical term, not certain"
+ },
+ "gizliqəlsəməli": {
+  "az": "Qəlsəmələri gizli, xaricdən görünməyən (heyvan).",
+  "en": "cryptobranchiate, hidden-gilled",
+  "pos": "adjective"
+ },
+ "gizliçiçək": {
+  "skip": "plant name, not certain"
+ },
+ "gonbulqarın": {
+  "skip": "meaning not certain"
+ },
+ "gonbulqarınlı": {
+  "az": "Qarnı yumru və iri olan.",
+  "en": "pot-bellied",
+  "pos": "adjective"
+ },
+ "gursaçlı": {
+  "az": "Saçı gur, sıx olan.",
+  "en": "thick-haired",
+  "pos": "adjective"
+ },
+ "gursəsli": {
+  "az": "Səsi gur, uca olan.",
+  "en": "loud-voiced, sonorous",
+  "pos": "adjective"
+ },
+ "göbəkatan": {
+  "skip": "meaning not certain"
+ },
+ "göbəkkəsən": {
+  "az": "Doğuş zamanı körpənin göbəyini kəsən qadın; mamaça.",
+  "en": "midwife (who cuts the newborn's umbilical cord)",
+  "pos": "noun"
+ },
+ "göbələkbaşlı": {
+  "az": "Başı, təpəsi göbələk papağına oxşayan.",
+  "en": "mushroom-headed",
+  "pos": "adjective"
+ },
+ "göbələkboylu": {
+  "skip": "meaning not certain"
+ },
+ "göbələkkimi": {
+  "az": "Göbələyə oxşayan.",
+  "en": "mushroom-like, fungoid",
+  "pos": "adjective"
+ },
+ "göbələkmilçəyi": {
+  "az": "Sürfələri göbələklərdə inkişaf edən xırda milçək.",
+  "en": "mushroom fly, fungus gnat",
+  "pos": "noun"
+ },
+ "göbələkyetişdirmə": {
+  "az": "Göbələyi süni şəraitdə becərib yetişdirmə.",
+  "en": "mushroom growing",
+  "pos": "noun"
+ },
+ "göbələyəbənzər": {
+  "az": "Göbələyə bənzəyən, göbələk formasında olan.",
+  "en": "mushroom-like, mushroom-shaped",
+  "pos": "adjective"
+ }
+}

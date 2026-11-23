@@ -1,0 +1,917 @@
+{
+ "kütümartırma": {
+  "az": "Kütüm balığının süni yolla çoxaldılması (kütümartırma zavodu).",
+  "en": "kutum breeding, kutum hatchery work",
+  "pos": "noun"
+ },
+ "küyölçən": {
+  "az": "Səs-küyün səviyyəsini ölçən (küyölçən cihaz).",
+  "en": "noise-measuring; noise meter",
+  "pos": "adjective"
+ },
+ "küçəsalan": {
+  "az": "Yeni küçə salan, küçə çəkən (fəhlə, briqada).",
+  "en": "street-building",
+  "pos": "adjective"
+ },
+ "küçəsalma": {
+  "az": "Yeni küçələrin salınması, çəkilməsi işi.",
+  "en": "street construction, laying out streets",
+  "pos": "noun"
+ },
+ "küçəsulayan": {
+  "az": "Küçələri sulayan (küçəsulayan maşın).",
+  "en": "street-watering (e.g. street sprinkler truck)",
+  "pos": "adjective"
+ },
+ "kəcnəzər": {
+  "az": "Hər şeyə qərəzlə, pis gözlə baxan; bədniyyət.",
+  "en": "ill-disposed, malevolent",
+  "pos": "adjective"
+ },
+ "kədərgətirən": {
+  "az": "İnsanı kədərləndirən, qəm doğuran (kədərgətirən xəbər).",
+  "en": "saddening, distressing",
+  "pos": "adjective"
+ },
+ "kəfənəbənzər": {
+  "az": "Kəfənə bənzəyən, kəfən kimi ağ və bürüyən.",
+  "en": "shroud-like",
+  "pos": "adjective"
+ },
+ "kəfənəoxşar": {
+  "az": "Kəfənə oxşayan, kəfən kimi ağ və bürüyən.",
+  "en": "shroud-like",
+  "pos": "adjective"
+ },
+ "kəhrizbaşı": {
+  "az": "Kəhriz suyunun yer üzünə çıxdığı yer və onun ətrafı.",
+  "en": "kahriz outlet, the place where a kahriz comes to the surface",
+  "pos": "noun"
+ },
+ "kəhrəbayaoxşar": {
+  "az": "Kəhrəbaya oxşayan, kəhrəba kimi sarımtıl və şəffaf.",
+  "en": "amber-like",
+  "pos": "adjective"
+ },
+ "kəklikkimi": {
+  "az": "Kəkliyə oxşayan (quş).",
+  "en": "partridge-like",
+  "pos": "adjective"
+ },
+ "kəlləbənd": {
+  "skip": "meaning not certain"
+ },
+ "kəlləmanqo": {
+  "skip": "meaning not certain"
+ },
+ "kəltəndağıdan": {
+  "az": "Şumlanmış torpaqdakı kəltənləri xırdalayan (kəltəndağıdan alət).",
+  "en": "clod-breaking (e.g. clod crusher)",
+  "pos": "adjective"
+ },
+ "kələboyun": {
+  "az": "Boynu kələ boynu kimi yoğun olan.",
+  "en": "bull-necked",
+  "pos": "adjective"
+ },
+ "kələfəbənzər": {
+  "az": "Kələfə, yumağa bənzəyən.",
+  "en": "skein-like, like a ball of yarn",
+  "pos": "adjective"
+ },
+ "kələfətir": {
+  "skip": "meaning not certain"
+ },
+ "kələmgövdə": {
+  "skip": "plant name, not certain"
+ },
+ "kəmərdeşən": {
+  "az": "Kəmərdə deşik açmaq üçün işlədilən (alət).",
+  "en": "belt-punching (e.g. belt punch)",
+  "pos": "adjective"
+ },
+ "kəmərəbənzər": {
+  "az": "Kəmərə bənzəyən, uzun və ensiz zolaq şəklində olan.",
+  "en": "belt-like, band-shaped",
+  "pos": "adjective"
+ },
+ "kəmərəoxşar": {
+  "az": "Kəmərə oxşayan, uzun və ensiz zolaq şəklində olan.",
+  "en": "belt-like, band-shaped",
+  "pos": "adjective"
+ },
+ "kənafkimi": {
+  "az": "Kənafa oxşayan (bitki, lif).",
+  "en": "kenaf-like",
+  "pos": "adjective"
+ },
+ "kəndirkimi": {
+  "az": "Kəndirə oxşayan, kəndir kimi (ip, lif, bitki).",
+  "en": "rope-like, hemp-like",
+  "pos": "adjective"
+ },
+ "kəndirəbənzər": {
+  "az": "Kəndirə, qalın ipə bənzəyən.",
+  "en": "rope-like, cord-like",
+  "pos": "adjective"
+ },
+ "kəndirəoxşar": {
+  "az": "Kəndirə, qalın ipə oxşayan.",
+  "en": "rope-like, cord-like",
+  "pos": "adjective"
+ },
+ "kəndsalma": {
+  "az": "Yeni kənd salma, kənd tikib yaratma.",
+  "en": "founding of villages, building a new village",
+  "pos": "noun"
+ },
+ "kəndyuxarı": {
+  "az": "Kəndin yuxarı tərəfinə doğru (kəndyuxarı getmək).",
+  "en": "up through the village, toward its upper end",
+  "pos": "adverb"
+ },
+ "kəpəkşəkilli": {
+  "az": "Kəpəyə bənzər xırda pulcuqlar şəklində olan (kəpəkşəkilli dəmrov).",
+  "en": "bran-like, furfuraceous (e.g. pityriasis)",
+  "pos": "adjective"
+ },
+ "kəpənəkçiçəkli": {
+  "az": "Çiçəyi kəpənəyə bənzəyən (paxlalı bitkilər haqqında).",
+  "en": "papilionaceous, with butterfly-shaped flowers",
+  "pos": "adjective"
+ },
+ "kəpənəyəoxşar": {
+  "az": "Kəpənəyə oxşayan, kəpənək şəklində olan.",
+  "en": "butterfly-like",
+  "pos": "adjective"
+ },
+ "kəpəyəbənzər": {
+  "az": "Kəpəyə bənzəyən, xırda qabıqcıqlar şəklində olan.",
+  "en": "bran-like, furfuraceous",
+  "pos": "adjective"
+ },
+ "kəpəyəoxşar": {
+  "az": "Kəpəyə oxşayan, xırda qabıqcıqlar şəklində olan.",
+  "en": "bran-like, furfuraceous",
+  "pos": "adjective"
+ },
+ "kərgədankimi": {
+  "az": "Kərgədana oxşayan; kərgədankimilər fəsiləsinə aid olan (heyvanlar).",
+  "en": "rhinoceros-like, rhinocerotid",
+  "pos": "adjective"
+ },
+ "kərkidimdik": {
+  "skip": "bird name, not certain"
+ },
+ "kərpicbişirmə": {
+  "az": "Xam kərpicin sobada bişirilməsi.",
+  "en": "brick firing, brick burning",
+  "pos": "noun"
+ },
+ "kərpickəsmə": {
+  "az": "Palçığı qəlibə salıb və ya kəsib kərpic hazırlama.",
+  "en": "brickmaking (moulding or cutting bricks)",
+  "pos": "noun"
+ },
+ "kərpicsatan": {
+  "az": "Kərpic satan (adam, dükan).",
+  "en": "brick-selling; brick seller",
+  "pos": "adjective"
+ },
+ "kərpictökmə": {
+  "az": "Kərpic hazırlamaq üçün palçığı qəliblərə tökmə.",
+  "en": "brick moulding",
+  "pos": "noun"
+ },
+ "kərpicəbənzər": {
+  "az": "Kərpicə bənzəyən, kərpic şəklində olan.",
+  "en": "brick-like",
+  "pos": "adjective"
+ },
+ "kərtənkələkimi": {
+  "az": "Kərtənkələyə oxşayan (sürünənlər).",
+  "en": "lizard-like, lacertilian",
+  "pos": "adjective"
+ },
+ "kəsiksaçlı": {
+  "az": "Saçı kəsilmiş, qısa saçlı.",
+  "en": "with cropped hair, short-haired",
+  "pos": "adjective"
+ },
+ "kəsəkkəsən": {
+  "skip": "meaning not certain"
+ },
+ "kəsəkotu": {
+  "skip": "plant name, not certain"
+ },
+ "kətandarayan": {
+  "az": "Kətan liflərini darayan (maşın, fəhlə).",
+  "en": "flax-hackling; flax hackler",
+  "pos": "adjective"
+ },
+ "kətanqurudan": {
+  "az": "Kətanı qurutmaq üçün qurğu.",
+  "en": "flax dryer",
+  "pos": "noun"
+ },
+ "kətantoxuyan": {
+  "az": "Kətandan parça toxuyan (fəhlə, dəzgah).",
+  "en": "linen-weaving; linen weaver",
+  "pos": "adjective"
+ },
+ "kətanəyirmə": {
+  "az": "Kətan liflərindən sap əyirmə.",
+  "en": "flax spinning",
+  "pos": "noun"
+ },
+ "kətanəyirən": {
+  "az": "Kətan lifindən sap əyirən (fəhlə, maşın).",
+  "en": "flax-spinning; flax spinner",
+  "pos": "adjective"
+ },
+ "lakmusotu": {
+  "skip": "plant name, not certain"
+ },
+ "lalədodaqlı": {
+  "az": "Dodaqları lalə kimi qırmızı olan (gözəl haqqında).",
+  "en": "with tulip-red lips (poetic)",
+  "pos": "adjective"
+ },
+ "laləyanaqlı": {
+  "az": "Yanaqları lalə kimi qırmızı olan (gözəl haqqında).",
+  "en": "tulip-cheeked, rosy-cheeked (poetic)",
+  "pos": "adjective"
+ },
+ "laləçiçək": {
+  "skip": "plant name, not certain"
+ },
+ "laləçiçəkli": {
+  "az": "Çiçəkləri laləyə bənzəyən (bitki).",
+  "en": "tulip-flowered",
+  "pos": "adjective"
+ },
+ "lampaaltlığı": {
+  "az": "Lampanın altına qoyulan altlıq, dayaq.",
+  "en": "lamp stand, lamp base",
+  "pos": "noun"
+ },
+ "lampaüstlüyü": {
+  "az": "Lampanın üstünə taxılan örtük; abajur.",
+  "en": "lampshade, lamp cover",
+  "pos": "noun"
+ },
+ "lampion": {
+  "az": "Kağızdan və ya parçadan düzəldilən rəngli fənər (bayram bəzəyi).",
+  "en": "lampion, paper lantern",
+  "pos": "noun",
+  "parts": false
+ },
+ "lassalçı": {
+  "az": "Alman sosialisti F. Lassalın baxışlarının tərəfdarı.",
+  "en": "Lassallean, follower of Ferdinand Lassalle",
+  "pos": "noun",
+  "parts": false
+ },
+ "lavaşbişirmə": {
+  "az": "Lavaş bişirmə işi.",
+  "en": "lavash baking",
+  "pos": "noun"
+ },
+ "lavaşbişirən": {
+  "az": "Lavaş bişirən (qadın, sex, təndir).",
+  "en": "lavash-baking; lavash baker",
+  "pos": "adjective"
+ },
+ "lavaşqulaq": {
+  "az": "Qulaqları iri və sallaq olan.",
+  "en": "lop-eared, big-eared",
+  "pos": "adjective",
+  "src": "both"
+ },
+ "lavaşsalan": {
+  "az": "Sacda və ya təndirdə lavaş salan, bişirən (qadın).",
+  "en": "lavash-baking; one who bakes lavash",
+  "pos": "adjective"
+ },
+ "laytəzyiqi": {
+  "az": "Neft, qaz və ya su laylarındakı flüidin təzyiqi.",
+  "en": "reservoir pressure, formation pressure",
+  "pos": "noun"
+ },
+ "layşəkilli": {
+  "az": "Lay-lay, qat-qat quruluşu olan (layşəkilli yataq).",
+  "en": "stratiform, layer-like",
+  "pos": "adjective"
+ },
+ "laçınquyruğu": {
+  "skip": "meaning not certain"
+ },
+ "lağımatma": {
+  "az": "Dağ süxurunu və ya tikilini partlayıcı maddə ilə partlatma.",
+  "en": "blasting (with explosive charges)",
+  "pos": "noun"
+ },
+ "lenttutan": {
+  "skip": "meaning not certain"
+ },
+ "lentçəkmə": {
+  "skip": "technical sense not certain"
+ },
+ "lentəoxşar": {
+  "az": "Lentə oxşayan, uzun və ensiz.",
+  "en": "ribbon-like",
+  "pos": "adjective"
+ },
+ "leykoma": {
+  "az": "Gözün buynuz qişasında əmələ gələn ağ ləkə; tikan.",
+  "en": "leukoma (corneal opacity)",
+  "pos": "noun",
+  "parts": false
+ },
+ "leyləkkimi": {
+  "az": "Leyləyə oxşayan; leyləkkimilər dəstəsinə aid olan (quşlar).",
+  "en": "stork-like, ciconiiform",
+  "pos": "adjective"
+ },
+ "leyləkotu": {
+  "skip": "plant name, not certain"
+ },
+ "leyləkçiçəyi": {
+  "skip": "plant name, not certain"
+ },
+ "lifayırma": {
+  "az": "Bitki xammalından lifin ayrılması.",
+  "en": "fibre separation",
+  "pos": "noun"
+ },
+ "liftquraşdıran": {
+  "az": "Lift quraşdıran (usta, təşkilat).",
+  "en": "elevator-installing; elevator installer",
+  "pos": "adjective"
+ },
+ "liftquraşdırma": {
+  "az": "Liftlərin binada quraşdırılması işi.",
+  "en": "elevator installation",
+  "pos": "noun"
+ },
+ "lilotu": {
+  "skip": "plant name, not certain"
+ },
+ "limonotu": {
+  "skip": "plant name, not certain"
+ },
+ "linzayabənzər": {
+  "az": "Linzaya bənzəyən, iki tərəfdən qabarıq.",
+  "en": "lens-like, lenticular",
+  "pos": "adjective"
+ },
+ "linzayaoxşar": {
+  "az": "Linzaya oxşayan, iki tərəfdən qabarıq.",
+  "en": "lens-like, lenticular",
+  "pos": "adjective"
+ },
+ "liraquyruq": {
+  "az": "Avstraliyada yaşayan, erkəyinin quyruğu liraya bənzəyən, səs təqlid edən quş.",
+  "en": "lyrebird",
+  "pos": "noun",
+  "parts": false
+ },
+ "lokomotivqayırma": {
+  "az": "Lokomotiv istehsalı (lokomotivqayırma zavodu).",
+  "en": "locomotive building",
+  "pos": "noun"
+ },
+ "lopabığlı": {
+  "az": "Bığı qalın və iri olan, gur bığlı.",
+  "en": "with a thick bushy moustache",
+  "pos": "adjective"
+ },
+ "lopagödən": {
+  "skip": "meaning not certain"
+ },
+ "lopatikan": {
+  "skip": "plant name, not certain"
+ },
+ "loqofobiya": {
+  "az": "Danışmaqdan qorxma; adətən kəkələyənlərdə rast gəlinən nitq qorxusu.",
+  "en": "logophobia (fear of speaking)",
+  "pos": "noun",
+  "parts": false
+ },
+ "loqometr": {
+  "az": "İki elektrik cərəyanının nisbətini ölçən cihaz.",
+  "en": "logometer, ratiometer",
+  "pos": "noun",
+  "parts": false
+ },
+ "loqoritm": {
+  "skip": "meaning not certain"
+ },
+ "lornetşəkilli": {
+  "az": "Lornetə bənzəyən, lornet şəklində olan.",
+  "en": "lorgnette-shaped",
+  "pos": "adjective"
+ },
+ "lotufason": {
+  "az": "Lotulara xas tərzdə olan (geyim, yeriş, davranış).",
+  "en": "in the swaggering style of a lotu (street tough)",
+  "pos": "adjective"
+ },
+ "lotuyana": {
+  "az": "Lotu kimi, lotulara xas tərzdə (lotuyana danışmaq).",
+  "en": "in the manner of a lotu, swaggeringly",
+  "pos": "adverb"
+ },
+ "lövbərotu": {
+  "az": "Meyvəsi iti tikanlı olan, yerə sərilən birillik ot bitkisi; dəmirtikan.",
+  "en": "puncture vine, caltrop (Tribulus terrestris)",
+  "pos": "noun",
+  "src": "izahli"
+ },
+ "lövhəqəlsəməli": {
+  "az": "Qəlsəmələri lövhə şəklində olan (heyvanlar haqqında).",
+  "en": "lamellibranch, having plate-like gills",
+  "pos": "adjective"
+ },
+ "lövhətullama": {
+  "skip": "meaning not certain"
+ },
+ "lövhətullayan": {
+  "skip": "meaning not certain"
+ },
+ "lülqənbər": {
+  "skip": "meaning not certain"
+ },
+ "lüləqazan": {
+  "skip": "meaning not certain"
+ },
+ "lüləqazma": {
+  "skip": "meaning not certain"
+ },
+ "lüləyəbənzər": {
+  "az": "Lüləyə, boruya bənzəyən.",
+  "en": "tube-like, tubular",
+  "pos": "adjective"
+ },
+ "lüləyəoxşar": {
+  "az": "Lüləyə, boruya oxşayan.",
+  "en": "tube-like, tubular",
+  "pos": "adjective"
+ },
+ "lüləşəkilli": {
+  "az": "Lülə, boru şəklində olan.",
+  "en": "tubular, tube-shaped",
+  "pos": "adjective"
+ },
+ "ləkəatma": {
+  "skip": "meaning not certain"
+ },
+ "ləkədüşmə": {
+  "az": "Səthdə ləkə əmələ gəlməsi (meyvədə, parçada və s.).",
+  "en": "spotting, staining",
+  "pos": "noun"
+ },
+ "ləkəgötürməz": {
+  "az": "Ləkə tutmayan, üzərində ləkə qalmayan (parça, örtük).",
+  "en": "stain-resistant",
+  "pos": "adjective"
+ },
+ "ləkəgötürən": {
+  "skip": "ambiguous: stain-removing or stain-prone"
+ },
+ "ləkətəmizləmə": {
+  "az": "Paltardan və ya səthdən ləkələrin təmizlənməsi.",
+  "en": "stain removal",
+  "pos": "noun"
+ },
+ "ləkətəmizləyici": {
+  "az": "Ləkələri təmizləyən (vasitə, maddə).",
+  "en": "stain-removing; stain remover",
+  "pos": "adjective"
+ },
+ "ləkətəmizləyən": {
+  "az": "Ləkələri təmizləyən (vasitə, maye).",
+  "en": "stain-removing",
+  "pos": "adjective"
+ },
+ "ləkəçıxaran": {
+  "az": "Ləkələri çıxaran (vasitə, maye).",
+  "en": "stain-removing; stain remover",
+  "pos": "adjective"
+ },
+ "ləkəçıxarma": {
+  "az": "Paltardan və ya səthdən ləkələrin çıxarılması.",
+  "en": "stain removal",
+  "pos": "noun"
+ },
+ "lələkdamarlı": {
+  "az": "Orta damardan yanlara lələk kimi damarlar ayrılan (lələkdamarlı yarpaq).",
+  "en": "pinnately veined, penninerved",
+  "pos": "adjective"
+ },
+ "lələkotu": {
+  "az": "Dənlərinin uzun, lələkvari tükcükləri olan, çöllərdə bitən çoxillik taxıl otu.",
+  "en": "feather grass (Stipa)",
+  "pos": "noun"
+ },
+ "lələkqusan": {
+  "skip": "meaning not certain"
+ },
+ "lələkqəlsəməli": {
+  "az": "Qəlsəmələri lələyə bənzəyən (heyvanlar haqqında).",
+  "en": "having feather-like gills",
+  "pos": "adjective"
+ },
+ "lələkyeyən": {
+  "az": "Quşların lələyi və dəri pulcuqları ilə qidalanan (lələkyeyən bitlər).",
+  "en": "feather-eating (e.g. chewing lice)",
+  "pos": "adjective"
+ },
+ "lələyəoxşar": {
+  "az": "Lələyə oxşayan, lələk kimi.",
+  "en": "feather-like, feathery",
+  "pos": "adjective",
+  "parts": false
+ },
+ "ləngtərpənişli": {
+  "az": "Ləng tərpənən, hərəkətləri asta olan.",
+  "en": "slow-moving, sluggish",
+  "pos": "adjective"
+ },
+ "ləngyerişli": {
+  "az": "Yerişi ləng olan, asta yeriyən.",
+  "en": "slow-gaited, slow-walking",
+  "pos": "adjective"
+ },
+ "ləpəsındıran": {
+  "skip": "meaning not certain"
+ },
+ "ləpətəmizləyən": {
+  "skip": "meaning not certain"
+ },
+ "ləpəyarpaq": {
+  "skip": "meaning not certain"
+ },
+ "ləpəyarpaqlı": {
+  "skip": "meaning not certain"
+ },
+ "ləpəyeyən": {
+  "skip": "meaning not certain"
+ },
+ "ləpəçıxaran": {
+  "skip": "meaning not certain"
+ },
+ "ləçəkaltlığı": {
+  "skip": "meaning not certain"
+ },
+ "ləğvedilmə": {
+  "az": "Ləğv edilmə; qüvvədən salınma, aradan qaldırılma.",
+  "en": "abolition, cancellation",
+  "pos": "noun"
+ },
+ "ləğvolunma": {
+  "az": "Ləğv olunma; qüvvədən salınma, aradan qaldırılma.",
+  "en": "abolition, cancellation",
+  "pos": "noun"
+ },
+ "ləğvolunmaz": {
+  "az": "Ləğv edilə bilməyən, qüvvədən salına bilməyən.",
+  "en": "irrevocable, non-cancellable",
+  "pos": "adjective"
+ },
+ "mahlıcayıran": {
+  "az": "Pambıq lifini (mahlıcı) çiyiddən ayıran (mahlıcayıran maşın).",
+  "en": "lint-separating, ginning",
+  "pos": "adjective"
+ },
+ "mahnısayağı": {
+  "az": "Mahnı kimi, mahnıya bənzər tərzdə.",
+  "en": "song-like, in a singsong manner",
+  "pos": "adverb"
+ },
+ "maillikölçən": {
+  "az": "Mailliyi, meyil bucağını ölçən (cihaz).",
+  "en": "inclination-measuring; inclinometer, clinometer",
+  "pos": "adjective"
+ },
+ "makethazırlayan": {
+  "az": "Maket hazırlayan (usta, emalatxana).",
+  "en": "model-making; model maker",
+  "pos": "adjective"
+ },
+ "maketqurma": {
+  "az": "Maket qurma, maket düzəltmə işi.",
+  "en": "model building, mock-up making",
+  "pos": "noun"
+ },
+ "malahəris": {
+  "az": "Mal-dövlətə həris olan, tamahkar.",
+  "en": "greedy for wealth, covetous",
+  "pos": "adjective",
+  "parts": false
+ },
+ "malayırma": {
+  "skip": "meaning not certain"
+ },
+ "malgöndərici": {
+  "az": "Malı alıcıya göndərən şəxs və ya təşkilat.",
+  "en": "consignor, shipper",
+  "pos": "noun"
+ },
+ "malkökəltmə": {
+  "az": "Mal-qaranın ət üçün kökəldilməsi.",
+  "en": "livestock fattening",
+  "pos": "noun"
+ },
+ "malotarma": {
+  "az": "Mal-qaranı otlaqda otarma.",
+  "en": "grazing livestock, pasturing",
+  "pos": "noun"
+ },
+ "malçəkmə": {
+  "skip": "meaning not certain"
+ },
+ "mamıraoxşar": {
+  "az": "Mamıra oxşayan.",
+  "en": "moss-like, mossy",
+  "pos": "adjective"
+ },
+ "mamırkimi": {
+  "az": "Mamıra oxşayan (bitki).",
+  "en": "moss-like",
+  "pos": "adjective"
+ },
+ "mancalaq": {
+  "skip": "meaning not certain"
+ },
+ "manevredici": {
+  "az": "Manevr etməyə xidmət edən (manevredici lokomotiv, manevredici mühərrik).",
+  "en": "manoeuvring; shunting (e.g. shunting locomotive)",
+  "pos": "adjective"
+ },
+ "maqnitötürücü": {
+  "skip": "technical sense not certain"
+ },
+ "maralkimi": {
+  "az": "Marala oxşayan; maralkimilər fəsiləsinə aid olan (heyvanlar).",
+  "en": "deer-like, cervid",
+  "pos": "adjective"
+ },
+ "maralkökü": {
+  "az": "Kökündən tonuslandırıcı dərman hazırlanan çoxillik ot bitkisi; levzeya.",
+  "en": "maral root, leuzea (Rhaponticum carthamoides)",
+  "pos": "noun"
+ },
+ "maralotu": {
+  "skip": "plant name, not certain"
+ },
+ "maralyosunu": {
+  "az": "Tundrada bitən, şimal maralının əsas yemi olan şibyə.",
+  "en": "reindeer moss, reindeer lichen (Cladonia)",
+  "pos": "noun"
+ },
+ "maralçiçəyi": {
+  "skip": "plant name, not certain"
+ },
+ "matçqabağı": {
+  "az": "Matçdan əvvəlki (matçqabağı mətbuat konfransı).",
+  "en": "pre-match",
+  "pos": "adjective"
+ },
+ "mavidəbilqəli": {
+  "az": "Mavi dəbilqə taxmış; çox vaxt BMT sülhməramlıları haqqında.",
+  "en": "blue-helmeted (often of UN peacekeepers)",
+  "pos": "adjective"
+ },
+ "mavigeyimli": {
+  "az": "Mavi paltar geyinmiş.",
+  "en": "dressed in blue",
+  "pos": "adjective"
+ },
+ "maviköynəkli": {
+  "az": "Əynində mavi köynək olan.",
+  "en": "wearing a blue shirt",
+  "pos": "adjective"
+ },
+ "mayedaşıyan": {
+  "az": "Maye daşıyan (mayedaşıyan maşın, gəmi).",
+  "en": "liquid-carrying (e.g. tanker)",
+  "pos": "adjective"
+ },
+ "mayeqarışdıran": {
+  "az": "Mayeləri qarışdırmaq üçün qurğu.",
+  "en": "liquid mixer",
+  "pos": "noun"
+ },
+ "mayeqarışdırıcı": {
+  "az": "Mayeləri qarışdırmaq üçün qurğu.",
+  "en": "liquid mixer, agitator",
+  "pos": "noun"
+ },
+ "mayevuran": {
+  "skip": "meaning not certain"
+ },
+ "mayevurma": {
+  "skip": "meaning not certain"
+ },
+ "mayçiçəyi": {
+  "skip": "plant name, not certain"
+ },
+ "mazdeizm": {
+  "az": "Ahura Məzdanı ali tanrı sayan qədim İran dini; zərdüştilik.",
+  "en": "Mazdaism, Zoroastrianism",
+  "pos": "noun",
+  "parts": false
+ },
+ "mazutyandırma": {
+  "az": "Mazutun yanacaq kimi yandırılması (mazutyandırma qurğusu).",
+  "en": "fuel-oil burning",
+  "pos": "noun"
+ },
+ "maşınquraşdıran": {
+  "az": "Maşın və avadanlıq quraşdıran (usta, təşkilat).",
+  "en": "machine-installing; machine fitter",
+  "pos": "adjective"
+ },
+ "maşınquraşdırma": {
+  "az": "Maşınların, avadanlığın quraşdırılması işi.",
+  "en": "machine installation, machine assembly",
+  "pos": "noun"
+ },
+ "maşınsazlama": {
+  "az": "Maşının, dəzgahın iş üçün tənzimlənməsi, sazlanması.",
+  "en": "machine setup, adjustment",
+  "pos": "noun"
+ },
+ "maşınyuma": {
+  "az": "Avtomobilin yuyulması.",
+  "en": "car washing",
+  "pos": "noun"
+ },
+ "maşınyuyan": {
+  "az": "Avtomobil yuyan (adam, qurğu).",
+  "en": "car-washing; car washer",
+  "pos": "adjective"
+ },
+ "maşınyığan": {
+  "az": "Maşın hissələrini birləşdirib yığan (fəhlə, sex).",
+  "en": "machine-assembling; assembler",
+  "pos": "adjective"
+ },
+ "mebelqayıran": {
+  "az": "Mebel düzəldən (usta, fabrik).",
+  "en": "furniture-making; furniture maker",
+  "pos": "adjective"
+ },
+ "mebelqayırma": {
+  "az": "Mebel istehsalı (mebelqayırma fabriki).",
+  "en": "furniture making, furniture manufacture",
+  "pos": "noun"
+ },
+ "mebelquraşdıran": {
+  "az": "Mebeli yığıb yerində quraşdıran (usta).",
+  "en": "furniture-assembling; furniture assembler",
+  "pos": "adjective"
+ },
+ "mebelquraşdırma": {
+  "az": "Mebelin yığılıb yerində quraşdırılması.",
+  "en": "furniture assembly and installation",
+  "pos": "noun"
+ },
+ "mebelyığan": {
+  "az": "Mebel hissələrini birləşdirib yığan (usta).",
+  "en": "furniture-assembling; furniture assembler",
+  "pos": "adjective"
+ },
+ "mebelyığma": {
+  "az": "Mebel hissələrinin birləşdirilib yığılması.",
+  "en": "furniture assembly",
+  "pos": "noun"
+ },
+ "medalkəsən": {
+  "az": "Medal hazırlayan, medal kəsən usta.",
+  "en": "medallist, medal maker",
+  "pos": "noun"
+ },
+ "mediabazar": {
+  "az": "Kütləvi informasiya vasitələri və reklam xidmətləri bazarı.",
+  "en": "media market",
+  "pos": "noun"
+ },
+ "mediafasad": {
+  "az": "Üzərində video və təsvirlər göstərilən, ekranlarla örtülmüş bina fasadı.",
+  "en": "media facade",
+  "pos": "noun"
+ },
+ "mediaholdinq": {
+  "az": "Bir neçə kütləvi informasiya vasitəsinə sahib olan şirkət.",
+  "en": "media holding (company), media group",
+  "pos": "noun"
+ },
+ "mediakiller": {
+  "az": "Sifarişlə kiminsə nüfuzunu ləkələyən materiallar yayan jurnalist.",
+  "en": "media hitman (journalist writing paid smear pieces)",
+  "pos": "noun"
+ },
+ "medialandşaft": {
+  "az": "Ölkədə və ya dövrdə kütləvi informasiya vasitələrinin ümumi mənzərəsi.",
+  "en": "media landscape",
+  "pos": "noun"
+ },
+ "medialinqvistika": {
+  "az": "Kütləvi informasiya vasitələrinin dilini öyrənən dilçilik sahəsi.",
+  "en": "media linguistics",
+  "pos": "noun"
+ },
+ "medialogistika": {
+  "skip": "meaning not established"
+ },
+ "mediamarketinq": {
+  "az": "Kütləvi informasiya vasitələri və media kanalları ilə aparılan marketinq.",
+  "en": "media marketing",
+  "pos": "noun"
+ },
+ "mediamenecer": {
+  "az": "Media layihələrini, KİV fəaliyyətini idarə edən mütəxəssis.",
+  "en": "media manager",
+  "pos": "noun"
+ },
+ "mediamenecment": {
+  "az": "Kütləvi informasiya vasitələrinin və media layihələrinin idarə edilməsi.",
+  "en": "media management",
+  "pos": "noun"
+ },
+ "mediatənqidçi": {
+  "az": "KİV-in fəaliyyətini, media məhsullarını təhlil və tənqid edən şəxs.",
+  "en": "media critic",
+  "pos": "noun"
+ },
+ "mediavirus": {
+  "az": "Mediada sürətlə yayılıb ictimai rəyə təsir edən informasiya, hadisə və ya obraz.",
+  "en": "media virus",
+  "pos": "noun"
+ },
+ "mehtutan": {
+  "skip": "meaning not certain"
+ },
+ "mehtutmaz": {
+  "skip": "meaning not certain"
+ },
+ "mehçəkən": {
+  "skip": "meaning not certain"
+ },
+ "metalaxtaran": {
+  "az": "Torpaqda, divarda və s. gizli metal əşyaları aşkar edən (cihaz).",
+  "en": "metal-detecting; metal detector",
+  "pos": "adjective"
+ },
+ "metalaxtarma": {
+  "az": "Metal əşyaların xüsusi cihazla axtarılıb aşkar edilməsi.",
+  "en": "metal detecting",
+  "pos": "noun"
+ },
+ "metaldoğrama": {
+  "az": "Metaldan hazırlanan pəncərə və qapı çərçivələri; onların hazırlanması.",
+  "en": "metal window and door frames, metal joinery",
+  "pos": "noun"
+ },
+ "metalkəsici": {
+  "az": "Metal kəsmək üçün olan (metalkəsici dəzgah).",
+  "en": "metal-cutting",
+  "pos": "adjective"
+ },
+ "metalmaqnetizm": {
+  "skip": "technical sense not certain"
+ },
+ "metalquraşdırma": {
+  "az": "Metal konstruksiyaların quraşdırılması işi.",
+  "en": "erection of metal structures",
+  "pos": "noun"
+ },
+ "metaltutumu": {
+  "az": "Məmulatın və ya istehsalın vahidinə sərf olunan metalın miqdarı.",
+  "en": "metal intensity (metal used per unit of output)",
+  "pos": "noun"
+ },
+ "metaltökən": {
+  "az": "Ərimiş metalı qəliblərə tökən (fəhlə).",
+  "en": "metal-casting; caster, foundryman",
+  "pos": "adjective"
+ },
+ "metaltərkibli": {
+  "az": "Tərkibində metal olan.",
+  "en": "metal-containing, metalliferous",
+  "pos": "adjective"
+ },
+ "metalyayma": {
+  "az": "Metalın vallar arasından keçirilib təbəqə və ya profil halına salınması.",
+  "en": "metal rolling",
+  "pos": "noun"
+ },
+ "metalyonan": {
+  "az": "Metalı yonan (metalyonan dəzgah).",
+  "en": "metal-planing, metal-shaping",
+  "pos": "adjective"
+ }
+}

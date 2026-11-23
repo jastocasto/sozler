@@ -1,0 +1,937 @@
+{
+ "keçiayaqlı": {
+  "az": "Keçi ayaqlarına bənzər ayaqları olan (adətən mifik varlıqlar haqqında).",
+  "en": "goat-legged, goat-footed",
+  "pos": "adjective"
+ },
+ "keçiağacı": {
+  "skip": "plant name, not certain"
+ },
+ "keçibuynuzlu": {
+  "az": "Keçi buynuzuna bənzər buynuzları olan.",
+  "en": "with goat-like horns",
+  "pos": "adjective"
+ },
+ "keçibuynuzu": {
+  "az": "Uzun, qəhvəyi, şirin qınlı meyvə verən həmişəyaşıl ağac və onun meyvəsi.",
+  "en": "carob (tree and pod)",
+  "pos": "noun"
+ },
+ "keçimoruğu": {
+  "skip": "plant name, not certain"
+ },
+ "keçiotu": {
+  "skip": "plant name, not certain"
+ },
+ "keçiqulağıkimi": {
+  "skip": "meaning not certain"
+ },
+ "keçiqıllı": {
+  "az": "Keçi qılı kimi sərt, qaba tükləri olan.",
+  "en": "with coarse goat-like hair",
+  "pos": "adjective"
+ },
+ "keçisaqqal": {
+  "az": "Çənədə bitən, keçi saqqalına bənzər seyrək, uzunsov saqqal; belə saqqalı olan adam.",
+  "en": "goatee; a man with a goatee",
+  "pos": "noun"
+ },
+ "keçisaqqallı": {
+  "az": "Çənəsində keçi saqqalına bənzər seyrək saqqalı olan.",
+  "en": "goateed, with a goatee",
+  "pos": "adjective"
+ },
+ "keçisöyüdü": {
+  "az": "Enli yarpaqlı, erkən yazda tüklü sırğalar açan söyüd növü.",
+  "en": "goat willow (Salix caprea)",
+  "pos": "noun"
+ },
+ "keçisədəfi": {
+  "skip": "meaning not certain"
+ },
+ "keçiəmcəyi": {
+  "skip": "plant or grape variety name, not certain"
+ },
+ "keçənaxşamkı": {
+  "az": "Keçən axşama, dünən axşama aid olan.",
+  "en": "last night's, of yesterday evening",
+  "pos": "adjective"
+ },
+ "keçəpapaqlı": {
+  "az": "Başında keçədən tikilmiş papaq olan.",
+  "en": "wearing a felt hat",
+  "pos": "adjective"
+ },
+ "keçəşəkilli": {
+  "az": "Keçəyə bənzəyən, keçə kimi sıx və yumşaq olan.",
+  "en": "felt-like",
+  "pos": "adjective"
+ },
+ "keşikçəkmə": {
+  "az": "Növbə ilə gözətçilik etmə, bir yeri və ya kimisə qoruyub gözləmə.",
+  "en": "keeping watch, standing guard; sentry duty",
+  "pos": "noun"
+ },
+ "keşişbaşı": {
+  "az": "Keşişlərin başçısı, baş keşiş.",
+  "en": "chief priest, archpriest",
+  "pos": "noun"
+ },
+ "keşişsifətli": {
+  "az": "Sifəti, görünüşü keşişə oxşayan.",
+  "en": "priest-faced, looking like a priest",
+  "pos": "adjective"
+ },
+ "kifşəkilli": {
+  "az": "Kifə bənzəyən, kif kimi görünən.",
+  "en": "mould-like",
+  "pos": "adjective"
+ },
+ "kilimgülü": {
+  "skip": "meaning not certain"
+ },
+ "kilimnaxış": {
+  "az": "Kilimlərə xas olan, kilim naxışına bənzər naxış.",
+  "en": "kilim pattern",
+  "pos": "noun"
+ },
+ "kilimnaxışlı": {
+  "az": "Kilim naxışları ilə bəzədilmiş.",
+  "en": "kilim-patterned",
+  "pos": "adjective"
+ },
+ "kilimsatan": {
+  "az": "Kilim satan adam, kilim alverçisi.",
+  "en": "kilim seller",
+  "pos": "noun"
+ },
+ "kilimtoxuma": {
+  "az": "Kilim toxuma işi, kilim hazırlama sənəti.",
+  "en": "kilim weaving",
+  "pos": "noun"
+ },
+ "kilimtoxuyan": {
+  "az": "Kilim toxuyan usta.",
+  "en": "kilim weaver",
+  "pos": "noun"
+ },
+ "kilkəbaşlı": {
+  "az": "Başındakı saçları dolaşıb pırtlaşmış olan.",
+  "en": "tousle-headed, with matted hair",
+  "pos": "adjective"
+ },
+ "kilkəsaçlı": {
+  "az": "Saçları dolaşıq, pırtlaşıq olan.",
+  "en": "with matted, tangled hair",
+  "pos": "adjective"
+ },
+ "kilkəşəkilli": {
+  "az": "Dolaşıb pırtlaşmış saça, yuna bənzəyən; dolaşıq.",
+  "en": "tangled, matted-looking",
+  "pos": "adjective"
+ },
+ "kinoqabağı": {
+  "az": "Kino seansından, filmin nümayişindən əvvəl olan.",
+  "en": "pre-screening, before a film",
+  "pos": "adjective"
+ },
+ "kipçərək": {
+  "skip": "meaning not certain"
+ },
+ "kirayəvermə": {
+  "az": "Əmlakı müəyyən haqq müqabilində müvəqqəti istifadəyə vermə.",
+  "en": "renting out, leasing",
+  "pos": "noun"
+ },
+ "kirpibalığı": {
+  "az": "Bədəni tikanlarla örtülü, təhlükə zamanı şar kimi şişən dəniz balığı.",
+  "en": "porcupinefish",
+  "pos": "noun"
+ },
+ "kirpiburun": {
+  "skip": "meaning not certain"
+ },
+ "kirpiotu": {
+  "skip": "plant name, not certain"
+ },
+ "kirşanvuran": {
+  "az": "Üzünə kirşan, üz tozu vuran (adam).",
+  "en": "one who powders her face",
+  "pos": "noun"
+ },
+ "kirşançəkən": {
+  "az": "Üzünə kirşan çəkən, üzünü pudralayan.",
+  "en": "powdering one's face",
+  "pos": "adjective"
+ },
+ "kirşəsürən": {
+  "az": "Kirşəni idarə edən adam.",
+  "en": "sleigh driver, sledge driver",
+  "pos": "noun"
+ },
+ "kirəcduzu": {
+  "skip": "meaning not certain"
+ },
+ "kisətikən": {
+  "az": "Kisə tikən usta.",
+  "en": "sack maker, bag sewer",
+  "pos": "noun"
+ },
+ "kisətoxuyan": {
+  "az": "Kisə toxuyan usta.",
+  "en": "sack weaver, bag weaver",
+  "pos": "noun"
+ },
+ "kisəçəkmə": {
+  "az": "Hamamda bədəni kisə ilə sürtüb kirini təmizləmə.",
+  "en": "scrubbing with a bath mitt (in a bathhouse)",
+  "pos": "noun"
+ },
+ "kitabbağlayan": {
+  "az": "Kitabları cildləyən usta; cildçi.",
+  "en": "bookbinder",
+  "pos": "noun"
+ },
+ "kitabdaşıyan": {
+  "az": "Kitab daşıyan (adam, vasitə).",
+  "en": "book carrier",
+  "pos": "noun"
+ },
+ "kitabsaxlama": {
+  "az": "Kitabxana fondunun qorunub saxlanması işi.",
+  "en": "book storage, preservation of library stock",
+  "pos": "noun"
+ },
+ "kitabsaxlayan": {
+  "az": "Kitabxanada kitab fondunun qorunmasına cavabdeh olan işçi.",
+  "en": "keeper of books (library stock)",
+  "pos": "noun"
+ },
+ "kitabyayan": {
+  "az": "Kitabların satışı və yayılması ilə məşğul olan şəxs və ya təşkilat.",
+  "en": "book distributor",
+  "pos": "noun"
+ },
+ "kitabyayma": {
+  "az": "Kitabların oxuculara çatdırılması, satışı və yayılması işi.",
+  "en": "book distribution",
+  "pos": "noun"
+ },
+ "kitabüzləmə": {
+  "az": "Kitabın üzünə qoruyucu örtük çəkmə.",
+  "en": "covering books (with protective jackets)",
+  "pos": "noun"
+ },
+ "kitabüzləyən": {
+  "az": "Kitabların üzünə örtük çəkən (adam).",
+  "en": "one who covers books",
+  "pos": "noun"
+ },
+ "kiviyəbənzər": {
+  "az": "Kiviyə oxşayan.",
+  "en": "kiwi-like",
+  "pos": "adjective"
+ },
+ "kiçikağızlı": {
+  "az": "Ağzı kiçik olan.",
+  "en": "small-mouthed",
+  "pos": "adjective"
+ },
+ "kiçikboylu": {
+  "az": "Boyu kiçik, alçaq olan.",
+  "en": "short (in stature)",
+  "pos": "adjective"
+ },
+ "kiçikdaşlı": {
+  "az": "Xırda daşları olan (kiçikdaşlı sahil; kiçikdaşlı üzük).",
+  "en": "with small stones",
+  "pos": "adjective"
+ },
+ "kiçikdiametrli": {
+  "az": "Diametri kiçik olan (kiçikdiametrli boru).",
+  "en": "small-diameter",
+  "pos": "adjective"
+ },
+ "kiçikformatlı": {
+  "az": "Ölçüsü, formatı kiçik olan (kiçikformatlı kitab).",
+  "en": "small-format",
+  "pos": "adjective"
+ },
+ "kiçikkalibrli": {
+  "az": "Kalibri kiçik olan (kiçikkalibrli silah).",
+  "en": "small-calibre",
+  "pos": "adjective"
+ },
+ "kiçiklitrajlı": {
+  "az": "Mühərrikinin həcmi və ya qabın tutumu az litr olan.",
+  "en": "small-displacement (of engines); small-capacity",
+  "pos": "adjective"
+ },
+ "kiçikqabaritli": {
+  "az": "Xarici ölçüləri kiçik olan, yığcam.",
+  "en": "small-sized, compact",
+  "pos": "adjective"
+ },
+ "kiçiktorpaqlı": {
+  "az": "Az torpağı olan.",
+  "en": "land-poor, with little land",
+  "pos": "adjective"
+ },
+ "kiçiktutumlu": {
+  "az": "Tutumu, həcmi kiçik olan.",
+  "en": "small-capacity",
+  "pos": "adjective"
+ },
+ "kiçiktəhər": {
+  "az": "Bir qədər kiçik, kiçikcə.",
+  "en": "smallish, rather small",
+  "pos": "adjective",
+  "src": "izahli"
+ },
+ "kişicanlı": {
+  "skip": "meaning not certain"
+ },
+ "kişisifət": {
+  "az": "Sifəti kişiyə oxşayan (qadın haqqında).",
+  "en": "mannish-faced",
+  "pos": "adjective"
+ },
+ "kişisifətli": {
+  "az": "Sifəti kişi sifətinə bənzəyən (qadın haqqında).",
+  "en": "mannish-faced",
+  "pos": "adjective"
+ },
+ "kobrayabənzər": {
+  "az": "Kobraya oxşayan.",
+  "en": "cobra-like",
+  "pos": "adjective"
+ },
+ "kodaçma": {
+  "az": "Şifrələnmiş məlumatın kodunu açma, deşifrə etmə.",
+  "en": "decoding, code-breaking",
+  "pos": "noun"
+ },
+ "kofeterapiya": {
+  "az": "Qəhvədən istifadə edilən müalicə və ya kosmetik prosedurlar.",
+  "en": "coffee therapy (treatments using coffee)",
+  "pos": "noun"
+ },
+ "kolabuynuz": {
+  "skip": "meaning not certain"
+ },
+ "kolabuynuzlu": {
+  "skip": "meaning not certain"
+ },
+ "kolabənzər": {
+  "az": "Kola, kolluğa oxşayan.",
+  "en": "shrub-like, bushy",
+  "pos": "adjective",
+  "parts": false
+ },
+ "kolbasayabənzər": {
+  "az": "Kolbasaya oxşayan.",
+  "en": "sausage-like",
+  "pos": "adjective"
+ },
+ "kolbasayaoxşar": {
+  "az": "Kolbasaya bənzəyən.",
+  "en": "sausage-like",
+  "pos": "adjective"
+ },
+ "kolbaşəkilli": {
+  "az": "Kolba formasında olan.",
+  "en": "flask-shaped",
+  "pos": "adjective"
+ },
+ "kollokasiya": {
+  "az": "Dilçilikdə sözlərin bir-biri ilə sabit, təkrarlanan birləşməsi.",
+  "en": "collocation",
+  "pos": "noun",
+  "parts": false
+ },
+ "kombaynqayıran": {
+  "az": "Kombayn istehsal edən (kombaynqayıran zavod).",
+  "en": "combine-harvester-manufacturing",
+  "pos": "adjective"
+ },
+ "kombaynsürən": {
+  "az": "Kombaynı idarə edən adam; kombaynçı.",
+  "en": "combine operator",
+  "pos": "noun"
+ },
+ "komitent": {
+  "az": "Komisyonçuya öz adından deyil, onun hesabına əqd bağlamağı tapşıran tərəf.",
+  "en": "principal (in a commission agreement), consignor",
+  "pos": "noun",
+  "parts": false
+ },
+ "kondisioneryığan": {
+  "az": "Kondisionerləri hissələrdən yığan (işçi, müəssisə).",
+  "en": "air-conditioner assembler",
+  "pos": "noun"
+ },
+ "kondisioneryığma": {
+  "az": "Kondisionerlərin hissələrdən yığılması.",
+  "en": "air-conditioner assembly",
+  "pos": "noun"
+ },
+ "kondisiyaedici": {
+  "az": "Havanı, materialı və s. lazımi vəziyyətə, normaya gətirən qurğu.",
+  "en": "conditioner, conditioning unit",
+  "pos": "noun"
+ },
+ "konfetbükən": {
+  "az": "Konfetləri kağıza bükən (işçi, maşın).",
+  "en": "sweet-wrapping (machine or worker)",
+  "pos": "adjective"
+ },
+ "konfetqabı": {
+  "az": "Konfet qoyulub süfrəyə verilən bəzəkli qab.",
+  "en": "sweet dish, candy dish",
+  "pos": "noun"
+ },
+ "konsensusəsaslı": {
+  "az": "Bütün tərəflərin razılığına əsaslanan.",
+  "en": "consensus-based",
+  "pos": "adjective"
+ },
+ "konsertqabağı": {
+  "az": "Konsertdən əvvəl olan (konsertqabağı məşq).",
+  "en": "pre-concert",
+  "pos": "adjective"
+ },
+ "kontaktölçən": {
+  "skip": "meaning not certain"
+ },
+ "koordinatölçən": {
+  "az": "Cisimlərin nöqtələrinin koordinatlarını ölçən (koordinatölçən maşın).",
+  "en": "coordinate-measuring",
+  "pos": "adjective"
+ },
+ "koramalotu": {
+  "skip": "plant name, not certain"
+ },
+ "korgözlü": {
+  "skip": "meaning not certain"
+ },
+ "koronafobiya": {
+  "az": "Koronavirusa yoluxmaqdan həddən artıq qorxma.",
+  "en": "coronaphobia, fear of catching coronavirus",
+  "pos": "noun"
+ },
+ "korrelyativizm": {
+  "skip": "meaning not certain"
+ },
+ "korroziyayadavamlı": {
+  "az": "Korroziyaya, paslanmaya qarşı davamlı olan.",
+  "en": "corrosion-resistant",
+  "pos": "adjective"
+ },
+ "korçiban": {
+  "skip": "meaning not certain"
+ },
+ "kosasaqqallı": {
+  "az": "Saqqalı seyrək, az olan.",
+  "en": "thin-bearded, with a sparse beard",
+  "pos": "adjective"
+ },
+ "kottecəoxşar": {
+  "az": "Kottecə bənzəyən.",
+  "en": "cottage-like",
+  "pos": "adjective"
+ },
+ "kranblok": {
+  "skip": "meaning not certain"
+ },
+ "kranqayırma": {
+  "az": "Yükqaldıran kranların istehsalı (kranqayırma zavodu).",
+  "en": "crane building, crane manufacturing",
+  "pos": "noun"
+ },
+ "kranquraşdırma": {
+  "az": "Kranın (yükqaldıran kranın və ya su kranının) yerinə qoyulması.",
+  "en": "installation of cranes or taps",
+  "pos": "noun"
+ },
+ "kreditalan": {
+  "az": "Kredit alan şəxs və ya təşkilat; borcalan.",
+  "en": "borrower",
+  "pos": "noun"
+ },
+ "kreditalma": {
+  "az": "Bankdan və ya başqa qurumdan borc pul alma.",
+  "en": "borrowing, taking out a loan",
+  "pos": "noun"
+ },
+ "kreditgötürmə": {
+  "az": "Geri qaytarmaq şərti ilə borc pul götürmə.",
+  "en": "borrowing, taking out a loan",
+  "pos": "noun"
+ },
+ "kreditverən": {
+  "az": "Kredit verən şəxs və ya təşkilat; borcverən.",
+  "en": "lender, creditor",
+  "pos": "noun"
+ },
+ "kreməbənzər": {
+  "az": "Kremə oxşayan, krem kimi yumşaq və qatı.",
+  "en": "cream-like, creamy",
+  "pos": "adjective"
+ },
+ "kreməoxşar": {
+  "az": "Kremə bənzəyən.",
+  "en": "cream-like, creamy",
+  "pos": "adjective"
+ },
+ "kriptodayanıqlılıq": {
+  "az": "Şifrənin, kriptoqrafik sistemin sındırılmaya qarşı davamlılığı.",
+  "en": "cryptographic strength, resistance to cryptanalysis",
+  "pos": "noun",
+  "parts": false
+ },
+ "kriptodepressiya": {
+  "az": "Coğrafiyada dibi dəniz səviyyəsindən aşağıda, səthi isə yuxarıda olan göl çökəkliyi.",
+  "en": "cryptodepression",
+  "pos": "noun",
+  "parts": false
+ },
+ "kriptoradiometr": {
+  "skip": "technical term, meaning not certain"
+ },
+ "kriptotəhlil": {
+  "az": "Açarı bilmədən şifrələnmiş məlumatı açma üsullarını öyrənən sahə; şifrənin təhlili.",
+  "en": "cryptanalysis",
+  "pos": "noun",
+  "parts": false
+ },
+ "kriptoəməliyyat": {
+  "az": "Kriptovalyuta ilə aparılan alış, satış və ya köçürmə əməliyyatı.",
+  "en": "cryptocurrency transaction",
+  "pos": "noun"
+ },
+ "kristalabənzər": {
+  "az": "Kristala oxşayan, kristal kimi şəffaf və parlaq.",
+  "en": "crystal-like, crystalline",
+  "pos": "adjective"
+ },
+ "kristalaoxşar": {
+  "az": "Kristala bənzəyən.",
+  "en": "crystal-like, crystalline",
+  "pos": "adjective"
+ },
+ "kronpərgar": {
+  "az": "Cisimlərin xarici ölçülərini ölçmək üçün əyri ayaqlı pərgar; kronsirkul.",
+  "en": "outside calipers",
+  "pos": "noun",
+  "parts": false
+ },
+ "kronsirkul": {
+  "az": "Cisimlərin xarici ölçülərini ölçmək üçün əyri ayaqlı alət; kronpərgar.",
+  "en": "outside calipers",
+  "pos": "noun",
+  "parts": false
+ },
+ "kubmetrik": {
+  "az": "Kubmetrlə ölçülən, kubmetrə aid olan.",
+  "en": "volumetric, in cubic metres",
+  "pos": "adjective"
+ },
+ "kubsayağı": {
+  "az": "Kub şəklində, kuba bənzər tərzdə.",
+  "en": "cube-like, cube-shaped",
+  "pos": "adverb"
+ },
+ "kurortdankənar": {
+  "az": "Kurortdan kənarda, kurort şəraitindən kənar olan (kurortdankənar müalicə).",
+  "en": "non-resort, outside a resort",
+  "pos": "adjective"
+ },
+ "kustarçı": {
+  "az": "Evdə və ya kiçik emalatxanada əl ilə məmulat hazırlayan sənətkar.",
+  "en": "handicraftsman, cottage-industry artisan",
+  "pos": "noun",
+  "parts": false
+ },
+ "köbətikən": {
+  "az": "Paltarın kənarına köbə, haşiyə tikən usta.",
+  "en": "one who sews edging on garments",
+  "pos": "noun"
+ },
+ "köhnəfikirli": {
+  "az": "Köhnə fikir və adətlərə bağlı olan, yeniliyi qəbul etməyən.",
+  "en": "old-fashioned, conservative in outlook",
+  "pos": "adjective"
+ },
+ "köhnəüsullu": {
+  "az": "Köhnə üsulla iş görən və ya köhnə üsulla hazırlanmış.",
+  "en": "old-fashioned, using outdated methods",
+  "pos": "adjective"
+ },
+ "kökatma": {
+  "az": "Bitkinin kök buraxması, kök verməsi.",
+  "en": "rooting, putting out roots",
+  "pos": "noun"
+ },
+ "kökbaşlı": {
+  "skip": "meaning not certain"
+ },
+ "kökbecərən": {
+  "skip": "meaning not certain"
+ },
+ "kökotu": {
+  "skip": "plant name, not certain"
+ },
+ "köksalma": {
+  "az": "Bitkinin torpaqda kök buraxıb bərkiməsi; məc. bir yerdə möhkəmlənmə.",
+  "en": "taking root; becoming established",
+  "pos": "noun"
+ },
+ "köksdaxili": {
+  "az": "Döş qəfəsinin daxilində olan.",
+  "en": "intrathoracic",
+  "pos": "adjective"
+ },
+ "köksifət": {
+  "az": "Sifəti kök, dolğun olan.",
+  "en": "fat-faced, chubby-faced",
+  "pos": "adjective"
+ },
+ "köksözlü": {
+  "skip": "meaning not certain"
+ },
+ "köktəmizləyən": {
+  "skip": "meaning not certain"
+ },
+ "kökvermə": {
+  "az": "Bitkinin, qələmin kök buraxması.",
+  "en": "rooting, striking root",
+  "pos": "noun"
+ },
+ "kökçıxaran": {
+  "az": "Kökləri torpaqdan çıxaran (alət, maşın).",
+  "en": "root-pulling (tool or machine)",
+  "pos": "adjective"
+ },
+ "kökəyəbənzər": {
+  "az": "Kökəyə oxşayan, kökə kimi yumru.",
+  "en": "bun-like",
+  "pos": "adjective"
+ },
+ "kökəyəoxşar": {
+  "az": "Kökəyə bənzəyən.",
+  "en": "bun-like",
+  "pos": "adjective"
+ },
+ "kölgəsiqalın": {
+  "az": "Sıx, qalın kölgə salan (kölgəsiqalın ağac).",
+  "en": "giving dense shade, shady",
+  "pos": "adjective"
+ },
+ "kölgəyədözümlü": {
+  "az": "Kölgədə də yaxşı bitə bilən (bitkilər haqqında).",
+  "en": "shade-tolerant",
+  "pos": "adjective"
+ },
+ "kömbədodaq": {
+  "az": "Dodaqları qalın, şişkin olan.",
+  "en": "thick-lipped",
+  "pos": "adjective"
+ },
+ "kömbədodaqlı": {
+  "az": "Dodaqları kömbə kimi qalın, şişkin olan.",
+  "en": "thick-lipped",
+  "pos": "adjective"
+ },
+ "kömbəsifət": {
+  "az": "Sifəti kömbə kimi girdə və dolğun olan.",
+  "en": "round-faced, moon-faced",
+  "pos": "adjective"
+ },
+ "kömbəsifətli": {
+  "az": "Sifəti girdə, dolğun, şişkin olan.",
+  "en": "round-faced, moon-faced",
+  "pos": "adjective"
+ },
+ "kömüraxtaran": {
+  "az": "Kömür yataqları axtaran (geoloq, dəstə).",
+  "en": "coal-prospecting; coal prospector",
+  "pos": "adjective"
+ },
+ "kömürdaşıma": {
+  "az": "Kömürün bir yerdən başqa yerə daşınması.",
+  "en": "coal transport, coal haulage",
+  "pos": "noun"
+ },
+ "kömürqazma": {
+  "az": "Yerin altından kömür çıxarma.",
+  "en": "coal mining, coal digging",
+  "pos": "noun"
+ },
+ "kömürsatan": {
+  "az": "Kömür satan adam.",
+  "en": "coal seller, coal merchant",
+  "pos": "noun"
+ },
+ "kömürsındıran": {
+  "az": "Kömürü xırdalayan, parçalayan (maşın, işçi).",
+  "en": "coal-crushing; coal breaker",
+  "pos": "adjective"
+ },
+ "kömürtəmizləmə": {
+  "az": "Kömürün süxur və başqa qarışıqlardan təmizlənməsi.",
+  "en": "coal cleaning, coal preparation",
+  "pos": "noun"
+ },
+ "kömüryandırma": {
+  "az": "Odundan yandırma yolu ilə kömür hazırlama; kömürün yanacaq kimi yandırılması.",
+  "en": "charcoal burning; burning of coal",
+  "pos": "noun"
+ },
+ "kömüryuyan": {
+  "az": "Kömürü su ilə yuyub qarışıqlardan təmizləyən (kömüryuyan fabrik).",
+  "en": "coal-washing",
+  "pos": "adjective"
+ },
+ "könülsındıran": {
+  "az": "Adamın xətrinə dəyən, könlünü qıran.",
+  "en": "hurtful, heartbreaking",
+  "pos": "adjective"
+ },
+ "körpüsalma": {
+  "az": "Çay, yarğan və s. üzərində körpü tikmə.",
+  "en": "bridge building",
+  "pos": "noun"
+ },
+ "körpütikmə": {
+  "az": "Körpü inşa etmə.",
+  "en": "bridge construction",
+  "pos": "noun"
+ },
+ "körpütikən": {
+  "az": "Körpü inşa edən (usta, təşkilat).",
+  "en": "bridge builder",
+  "pos": "noun"
+ },
+ "körüksayaq": {
+  "az": "Körüyə bənzər, körük kimi.",
+  "en": "bellows-like",
+  "pos": "adjective"
+ },
+ "kötükçıxaran": {
+  "az": "Ağac kötüklərini torpaqdan çıxaran (maşın, alət).",
+  "en": "stump-pulling; stump puller",
+  "pos": "adjective"
+ },
+ "köynəkotu": {
+  "skip": "plant name, not certain"
+ },
+ "köşəbaşı": {
+  "skip": "meaning not certain"
+ },
+ "köşəkgözlü": {
+  "az": "Gözləri köşək gözü kimi iri və gözəl olan.",
+  "en": "large-eyed, with big beautiful eyes (like a camel calf's)",
+  "pos": "adjective"
+ },
+ "köşəçəkmə": {
+  "skip": "meaning not certain"
+ },
+ "küftəburun": {
+  "az": "Burnu küftə kimi yumru, iri olan.",
+  "en": "bulbous-nosed",
+  "pos": "adjective"
+ },
+ "küftəburunlu": {
+  "az": "Burnu yumru və iri olan.",
+  "en": "bulbous-nosed",
+  "pos": "adjective"
+ },
+ "kükürdəritmə": {
+  "az": "Kükürdün qızdırılıb əridilməsi.",
+  "en": "sulphur melting",
+  "pos": "noun"
+ },
+ "kültutan": {
+  "az": "Külü toplayıb saxlayan (qurğu, qab).",
+  "en": "ash-catching; ash pan",
+  "pos": "adjective"
+ },
+ "külçəaxtaran": {
+  "az": "Qızıl və başqa metal külçələri axtaran (adam).",
+  "en": "nugget hunter, prospector",
+  "pos": "noun"
+ },
+ "külçəkəsən": {
+  "az": "Metal külçələrini kəsən (maşın, işçi).",
+  "en": "ingot cutter",
+  "pos": "noun"
+ },
+ "küləkdöyməz": {
+  "az": "Külək vurmayan, küləkdən qorunan (yer).",
+  "en": "sheltered from the wind",
+  "pos": "adjective"
+ },
+ "küləkkeçirici": {
+  "az": "Küləyi, havanı içindən keçirən (küləkkeçirici meşə zolağı).",
+  "en": "wind-permeable",
+  "pos": "adjective"
+ },
+ "küləkkeçirən": {
+  "az": "Küləyi içindən keçirən.",
+  "en": "letting the wind through, wind-permeable",
+  "pos": "adjective"
+ },
+ "küləktutmaz": {
+  "az": "Külək tutmayan, küləkdən qorunan.",
+  "en": "sheltered from the wind",
+  "pos": "adjective"
+ },
+ "küləkçəkən": {
+  "skip": "meaning not certain"
+ },
+ "küləyədavamlı": {
+  "az": "Küləyin təsirinə qarşı davamlı olan.",
+  "en": "wind-resistant",
+  "pos": "adjective",
+  "parts": false
+ },
+ "küləyədözümlü": {
+  "az": "Küləyə tab gətirən, küləkdən zədələnməyən.",
+  "en": "wind-tolerant, wind-resistant",
+  "pos": "adjective",
+  "parts": false
+ },
+ "küləşyığan": {
+  "az": "Küləşi toplayan (maşın, işçi).",
+  "en": "straw-collecting; straw gatherer",
+  "pos": "adjective"
+ },
+ "kündəbölən": {
+  "skip": "meaning not certain (log or dough)"
+ },
+ "kündədodaq": {
+  "az": "Dodaqları qalın, şişkin olan.",
+  "en": "thick-lipped",
+  "pos": "adjective"
+ },
+ "kündədodaqlı": {
+  "az": "Dodaqları kündə kimi qalın olan.",
+  "en": "thick-lipped",
+  "pos": "adjective"
+ },
+ "kündəkəsən": {
+  "skip": "meaning not certain (log or dough)"
+ },
+ "kündəsifət": {
+  "az": "Sifəti girdə, dolğun, şişkin olan.",
+  "en": "round-faced, puffy-faced",
+  "pos": "adjective"
+ },
+ "kündətutan": {
+  "skip": "meaning not certain"
+ },
+ "küpəsalan": {
+  "skip": "meaning not certain"
+ },
+ "küpəsalma": {
+  "skip": "meaning not certain"
+ },
+ "küriterapiya": {
+  "az": "Radium və başqa radioaktiv maddələrin şüaları ilə müalicə.",
+  "en": "curietherapy, radium therapy",
+  "pos": "noun",
+  "parts": false
+ },
+ "kürtdüşmə": {
+  "az": "Toyuğun kürt olması, yumurta üstündə oturmaq istəyi.",
+  "en": "broodiness (of a hen), going broody",
+  "pos": "noun"
+ },
+ "kürüalma": {
+  "az": "Balıqdan kürü çıxarma.",
+  "en": "roe extraction, caviar harvesting",
+  "pos": "noun"
+ },
+ "kürütökən": {
+  "az": "Kürü tökən, kürüləyən (balıq).",
+  "en": "spawning",
+  "pos": "adjective"
+ },
+ "kürəatma": {
+  "skip": "sports term, not certain"
+ },
+ "kürəitələmə": {
+  "skip": "sports term, not certain"
+ },
+ "kürənquyruq": {
+  "skip": "bird or animal name, not certain"
+ },
+ "kürəyəbənzər": {
+  "az": "Kürəyə oxşayan, kürə şəklində olan.",
+  "en": "sphere-like, spherical",
+  "pos": "adjective"
+ },
+ "kürəyəoxşar": {
+  "az": "Kürəyə bənzəyən.",
+  "en": "sphere-like, spherical",
+  "pos": "adjective"
+ },
+ "küsdümotu": {
+  "skip": "plant name, not certain"
+ },
+ "küsdümotukimi": {
+  "az": "Küsdüm otu kimi azacıq toxunuşdan büzüşən; çox tez küsən, inciyən.",
+  "en": "like a sensitive plant; very touchy, quick to take offence",
+  "pos": "adverb"
+ },
+ "küsüsaxlayan": {
+  "az": "Küsüb incikliyini uzun müddət saxlayan.",
+  "en": "grudge-holding, resentful",
+  "pos": "adjective"
+ },
+ "kütağızlı": {
+  "az": "Ağzı, tiyəsi küt olan (bıçaq və s.).",
+  "en": "blunt-edged",
+  "pos": "adjective"
+ },
+ "kütbaxış": {
+  "az": "Mənasız, ifadəsiz, donuq baxış.",
+  "en": "dull look, vacant stare",
+  "pos": "noun"
+ },
+ "kütbaxışlı": {
+  "az": "Baxışı donuq, ifadəsiz olan.",
+  "en": "dull-eyed, with a vacant stare",
+  "pos": "adjective"
+ },
+ "kütbucaq": {
+  "az": "Həndəsədə 90 dərəcədən böyük, 180 dərəcədən kiçik bucaq.",
+  "en": "obtuse angle",
+  "pos": "noun"
+ },
+ "kütbucaqlı": {
+  "az": "Küt bucağı olan (kütbucaqlı üçbucaq).",
+  "en": "obtuse-angled",
+  "pos": "adjective"
+ },
+ "kütdişli": {
+  "az": "Dişləri küt, iti olmayan.",
+  "en": "blunt-toothed",
+  "pos": "adjective"
+ },
+ "kütlədaxili": {
+  "az": "Kütlənin daxilində olan.",
+  "en": "within the mass",
+  "pos": "adjective"
+ },
+ "kütyarpaq": {
+  "az": "Yarpaqlarının ucu küt, yumru olan (bitki adlarında).",
+  "en": "obtuse-leaved (in plant names)",
+  "pos": "adjective"
+ },
+ "kütyarpaqlı": {
+  "az": "Yarpaqlarının ucu küt, yumru olan.",
+  "en": "obtuse-leaved",
+  "pos": "adjective"
+ }
+}

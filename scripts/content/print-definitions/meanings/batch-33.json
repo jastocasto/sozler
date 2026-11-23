@@ -1,0 +1,912 @@
+{
+ "gödəkayaqlı": {
+  "az": "Ayaqları gödək, qısa olan.",
+  "en": "short-legged",
+  "pos": "adjective"
+ },
+ "gödəkbarmaq": {
+  "az": "Barmaqları gödək olan; gödəkbarmaqlı.",
+  "en": "short-fingered; short-toed",
+  "pos": "adjective"
+ },
+ "gödəkboyun": {
+  "az": "Boynu gödək olan; gödəkboyunlu.",
+  "en": "short-necked",
+  "pos": "adjective"
+ },
+ "gödəkboyunlu": {
+  "az": "Boynu gödək, qısa olan.",
+  "en": "short-necked",
+  "pos": "adjective"
+ },
+ "gödəkboğaz": {
+  "az": "Boğazı gödək olan (çəkmə, corab, qab və s.).",
+  "en": "short-topped (of boots, socks); short-necked (of a vessel)",
+  "pos": "adjective"
+ },
+ "gödəkboğazlı": {
+  "az": "Boğazı gödək olan (gödəkboğazlı çəkmə).",
+  "en": "short-topped (of boots, socks); short-necked",
+  "pos": "adjective"
+ },
+ "gödəkbuynuz": {
+  "az": "Buynuzları gödək olan (heyvan); gödəkbuynuzlu.",
+  "en": "short-horned",
+  "pos": "adjective"
+ },
+ "gödəkbuynuzlu": {
+  "az": "Buynuzları gödək olan (gödəkbuynuzlu inək).",
+  "en": "short-horned",
+  "pos": "adjective"
+ },
+ "gödəkdişli": {
+  "az": "Dişləri gödək olan (heyvan, daraq, mişar və s.).",
+  "en": "short-toothed",
+  "pos": "adjective"
+ },
+ "gödəkdəstə": {
+  "az": "Dəstəsi gödək olan; gödəkdəstəli.",
+  "en": "short-handled",
+  "pos": "adjective"
+ },
+ "gödəkdəstəli": {
+  "az": "Dəstəsi gödək olan (bıçaq, külüng və s.).",
+  "en": "short-handled",
+  "pos": "adjective"
+ },
+ "gödəkpaça": {
+  "skip": "meaning not certain (trouser leg or animal leg)"
+ },
+ "gödəkqanad": {
+  "az": "Qanadları gödək olan; gödəkqanadlı.",
+  "en": "short-winged",
+  "pos": "adjective"
+ },
+ "gödəkqanadlı": {
+  "az": "Qanadları gödək, qısa olan (quş, həşərat).",
+  "en": "short-winged",
+  "pos": "adjective"
+ },
+ "gödəkquyruq": {
+  "az": "Quyruğu gödək olan; gödəkquyruqlu.",
+  "en": "short-tailed",
+  "pos": "adjective"
+ },
+ "gödəkquyruqlu": {
+  "az": "Quyruğu gödək, qısa olan.",
+  "en": "short-tailed",
+  "pos": "adjective"
+ },
+ "gödəksaplı": {
+  "az": "Sapı gödək olan (alət; bitkilərdə yarpaq, çiçək).",
+  "en": "short-handled; short-stalked",
+  "pos": "adjective"
+ },
+ "gödəksaçlı": {
+  "az": "Saçı gödək, qısa olan.",
+  "en": "short-haired",
+  "pos": "adjective"
+ },
+ "gödəktəhər": {
+  "az": "Bir qədər gödək, gödəkcə.",
+  "en": "shortish, rather short",
+  "pos": "adjective"
+ },
+ "gödəkömürlü": {
+  "az": "Ömrü qısa olan, az yaşayan; uzun sürməyən.",
+  "en": "short-lived",
+  "pos": "adjective"
+ },
+ "gölşəkilli": {
+  "az": "Göl şəklində olan, gölə bənzəyən.",
+  "en": "lake-shaped",
+  "pos": "adjective"
+ },
+ "gönbiçmə": {
+  "az": "Gönü (dərini) ölçüyə görə biçmə, kəsmə işi.",
+  "en": "cutting out of leather",
+  "pos": "noun"
+ },
+ "göndoğrama": {
+  "az": "Gönü (dərini) hissələrə doğrama, kəsmə işi.",
+  "en": "cutting leather into pieces",
+  "pos": "noun",
+  "parts": false
+ },
+ "gönkəsmə": {
+  "az": "Gönü (dərini) kəsmə işi.",
+  "en": "leather cutting",
+  "pos": "noun"
+ },
+ "gönkəsən": {
+  "az": "Gön kəsən işçi və ya maşın.",
+  "en": "leather cutter",
+  "pos": "noun"
+ },
+ "gönəvəzedici": {
+  "az": "Gönün (təbii dərinin) yerinə işlədilən süni material.",
+  "en": "leather substitute, artificial leather",
+  "pos": "noun"
+ },
+ "görgügülü": {
+  "skip": "meaning not certain"
+ },
+ "görüşqabağı": {
+  "az": "Görüşdən (idmanda oyundan) əvvəl olan (görüşqabağı məşq).",
+  "en": "pre-match; pre-meeting",
+  "pos": "adjective"
+ },
+ "göycəsultan": {
+  "skip": "plant or animal name, not certain"
+ },
+ "göydimdikli": {
+  "az": "Dimdiyi göy rəngdə olan.",
+  "en": "blue-billed",
+  "pos": "adjective"
+ },
+ "göydəmir": {
+  "skip": "meaning not certain"
+ },
+ "göyqanad": {
+  "az": "Qanadları göy rəngdə olan; göyqanadlı.",
+  "en": "blue-winged",
+  "pos": "adjective"
+ },
+ "göyqanadlı": {
+  "az": "Qanadları göy rəngdə olan (quş, kəpənək və s.).",
+  "en": "blue-winged",
+  "pos": "adjective"
+ },
+ "göyquyruq": {
+  "az": "Quyruğu göy rəngdə olan; göyquyruqlu.",
+  "en": "blue-tailed",
+  "pos": "adjective"
+ },
+ "göyquyruqlu": {
+  "az": "Quyruğu göy rəngdə olan.",
+  "en": "blue-tailed",
+  "pos": "adjective"
+ },
+ "göytəhər": {
+  "az": "Bir qədər göy, göyə çalan.",
+  "en": "bluish",
+  "pos": "adjective"
+ },
+ "göyzəban": {
+  "skip": "plant name, not certain"
+ },
+ "göyçəksifət": {
+  "az": "Sifəti göyçək, üzü gözəl olan.",
+  "en": "pretty-faced, fair-faced",
+  "pos": "adjective"
+ },
+ "göyçəksifətli": {
+  "az": "Üzü gözəl, sifəti göyçək olan.",
+  "en": "pretty-faced, good-looking",
+  "pos": "adjective"
+ },
+ "göyçəkçiçək": {
+  "skip": "plant name, not certain"
+ },
+ "göyərçinkimi": {
+  "az": "Göyərçinə bənzəyən; zoologiyada göyərçinkimilər dəstəsinə aid.",
+  "en": "pigeon-like; columbiform",
+  "pos": "adjective"
+ },
+ "göyərçinotu": {
+  "skip": "plant name, not certain"
+ },
+ "gözaldadıcı": {
+  "az": "Görünüşü ilə gözü aldadan, yanlış təsəvvür yaradan.",
+  "en": "deceptive to the eye, illusory",
+  "pos": "adjective"
+ },
+ "gözaldatma": {
+  "az": "Gözə olduğundan fərqli görünmə və ya göstərmə; optik illüziya, fokus.",
+  "en": "optical illusion; trickery, sleight of hand",
+  "pos": "noun"
+ },
+ "gözdəyən": {
+  "skip": "meaning not certain (evil eye sense ambiguous)"
+ },
+ "gözoxşarlığı": {
+  "skip": "meaning not certain"
+ },
+ "gözqamaşma": {
+  "az": "Güclü işıqdan gözün qamaşması, bir anlıq yaxşı görməmə.",
+  "en": "dazzle, glare",
+  "pos": "noun"
+ },
+ "gözqoyma": {
+  "az": "Birini və ya bir şeyi diqqətlə izləmə, nəzarətdə saxlama.",
+  "en": "watching, keeping an eye on; surveillance",
+  "pos": "noun"
+ },
+ "gözyetən": {
+  "az": "Gözün çatdığı, görünən (gözyetən yerə qədər).",
+  "en": "within eyeshot, as far as the eye can see",
+  "pos": "adjective"
+ },
+ "gözçıxarma": {
+  "az": "Gözü oyub çıxarma (cəza və ya işgəncə kimi).",
+  "en": "gouging out of the eyes, blinding",
+  "pos": "noun"
+ },
+ "gözəllətmək": {
+  "skip": "meaning not certain"
+ },
+ "gülbecərmə": {
+  "az": "Gül yetişdirmə, gülçülük işi.",
+  "en": "rose growing, flower growing",
+  "pos": "noun"
+ },
+ "gülkimi": {
+  "az": "Gülə bənzəyən (bitkilər haqqında).",
+  "en": "rose-like",
+  "pos": "adjective"
+ },
+ "güllüqafiyə": {
+  "skip": "meaning not certain"
+ },
+ "gülləbatmaz": {
+  "az": "Güllə keçirməyən, gülləyə davamlı (gülləbatmaz jilet).",
+  "en": "bulletproof",
+  "pos": "adjective"
+ },
+ "gülqönçə": {
+  "az": "Gülün hələ açılmamış qönçəsi.",
+  "en": "rosebud",
+  "pos": "noun"
+ },
+ "gülrəngli": {
+  "az": "Gül rəngində olan, çəhrayı.",
+  "en": "rose-coloured, pink",
+  "pos": "adjective"
+ },
+ "gülyanaqlı": {
+  "az": "Yanaqları gül kimi qırmızı, təravətli olan.",
+  "en": "rosy-cheeked",
+  "pos": "adjective"
+ },
+ "gülümbaharçiçəkli": {
+  "az": "Çiçəkləri gülümbahar çiçəyinə bənzəyən (bitki adlarında).",
+  "en": "calendula-flowered (in plant names)",
+  "pos": "adjective"
+ },
+ "gülşəkər": {
+  "az": "Qızılgül ləçəklərindən şəkərlə bişirilən mürəbbə.",
+  "en": "rose-petal jam",
+  "pos": "noun"
+ },
+ "güləbətinqıyı": {
+  "skip": "meaning not certain"
+ },
+ "güləşhəngi": {
+  "skip": "meaning not certain"
+ },
+ "güləşqabağı": {
+  "az": "Güləşdən əvvəl olan (güləşqabağı çəki ölçmə).",
+  "en": "pre-bout, before a wrestling match",
+  "pos": "adjective"
+ },
+ "gümüşdüymə": {
+  "skip": "may be a plant name, not certain"
+ },
+ "gümüşdüyməli": {
+  "az": "Gümüş düymələri olan (gümüşdüyməli çuxa).",
+  "en": "silver-buttoned",
+  "pos": "adjective"
+ },
+ "gümüşdəstəli": {
+  "az": "Dəstəsi gümüşdən olan və ya gümüşlə bəzənmiş (gümüşdəstəli xəncər).",
+  "en": "silver-handled, silver-hilted",
+  "pos": "adjective"
+ },
+ "gümüşotu": {
+  "skip": "plant name, not certain"
+ },
+ "gümüşqanad": {
+  "az": "Qanadları gümüşü rəngdə olan.",
+  "en": "silver-winged",
+  "pos": "adjective"
+ },
+ "gümüşəbənzər": {
+  "az": "Gümüşə bənzəyən, gümüş kimi parıldayan.",
+  "en": "silvery, silver-like",
+  "pos": "adjective"
+ },
+ "günbəzəbənzər": {
+  "az": "Günbəzə bənzəyən, günbəz şəklində olan.",
+  "en": "dome-shaped, dome-like",
+  "pos": "adjective"
+ },
+ "gündoğuş": {
+  "az": "Günəşin doğması, doğduğu vaxt.",
+  "en": "sunrise",
+  "pos": "noun"
+ },
+ "günlüklü": {
+  "az": "Qabağında gündən qoruyan çıxıntısı (günlüyü) olan (papaq, kepka).",
+  "en": "peaked, visored (of a cap)",
+  "pos": "adjective",
+  "parts": false,
+  "src": "izahli"
+ },
+ "günortaqabağı": {
+  "az": "Günortadan bir qədər əvvəlki vaxt.",
+  "en": "late morning, forenoon",
+  "pos": "noun"
+ },
+ "günortatərəfi": {
+  "az": "Günortaya yaxın vaxtda, günorta çağı.",
+  "en": "around noon, towards midday",
+  "pos": "adverb"
+ },
+ "günvuran": {
+  "az": "Günəş şüalarının düşdüyü, günə açıq olan (yer) (günvuran yamac).",
+  "en": "sunny, sun-exposed",
+  "pos": "adjective"
+ },
+ "günyandırma": {
+  "az": "Günəş şüalarının dərini yandırması; gündən yanma.",
+  "en": "sunburn",
+  "pos": "noun"
+ },
+ "günyandırıcı": {
+  "skip": "meaning not certain"
+ },
+ "günyarı": {
+  "az": "Günün ortası, günorta çağı.",
+  "en": "midday, noon",
+  "pos": "noun"
+ },
+ "günyarısı": {
+  "az": "Günün ortası, günorta vaxtı.",
+  "en": "midday, noon",
+  "pos": "noun"
+ },
+ "günçiçəyi": {
+  "skip": "plant name, not certain"
+ },
+ "günübacı": {
+  "skip": "meaning not certain"
+ },
+ "günəbaxançiçəkli": {
+  "az": "Çiçəkləri günəbaxan çiçəyinə bənzəyən (bitki adlarında).",
+  "en": "sunflower-flowered (in plant names)",
+  "pos": "adjective"
+ },
+ "günəşsevən": {
+  "az": "Günəş işığını sevən, işıqlı yerdə yaxşı bitən (bitki).",
+  "en": "sun-loving, heliophilous",
+  "pos": "adjective"
+ },
+ "gürzəboğaz": {
+  "skip": "plant or animal name, not certain"
+ },
+ "güzgüyəbənzər": {
+  "az": "Güzgüyə bənzəyən, güzgü kimi hamar və parlaq.",
+  "en": "mirror-like",
+  "pos": "adjective"
+ },
+ "güzgüşəkilli": {
+  "az": "Güzgü şəklində olan.",
+  "en": "mirror-shaped",
+  "pos": "adjective"
+ },
+ "gəbətoxuma": {
+  "az": "Gəbə (xovlu xalça) toxuma işi.",
+  "en": "weaving of pile rugs (gaba)",
+  "pos": "noun"
+ },
+ "gəlinaldadan": {
+  "skip": "plant or animal name, not certain"
+ },
+ "gəlinköçürmə": {
+  "az": "Toyda gəlini ata evindən bəyin evinə aparma mərasimi.",
+  "en": "taking the bride to the groom's house (wedding custom)",
+  "pos": "noun"
+ },
+ "gəlinsərçə": {
+  "skip": "bird name, not certain"
+ },
+ "gəlirgətirmə": {
+  "az": "Gəlir, mənfəət gətirmə.",
+  "en": "generating income, yielding profit",
+  "pos": "noun"
+ },
+ "gəlirvermə": {
+  "az": "Gəlir vermə, qazanc gətirmə.",
+  "en": "yielding income, profitability",
+  "pos": "noun"
+ },
+ "gəmiburaxma": {
+  "az": "Tikilmiş gəmini suya endirmə.",
+  "en": "launching (of a ship)",
+  "pos": "noun"
+ },
+ "gəmiburaxıcı": {
+  "skip": "meaning not certain"
+ },
+ "gəmidaxili": {
+  "az": "Gəminin içində olan, gəmiyə aid (gəmidaxili rabitə).",
+  "en": "onboard, shipboard",
+  "pos": "adjective"
+ },
+ "gəmiqaldırma": {
+  "az": "Gəmini yuxarı qaldırma, batmış gəmini suyun üzünə çıxarma.",
+  "en": "ship lifting; raising of sunken ships",
+  "pos": "noun"
+ },
+ "gəmiqaldırıcı": {
+  "az": "Gəmiləri bir su səviyyəsindən başqasına qaldıran qurğu.",
+  "en": "ship lift",
+  "pos": "noun"
+ },
+ "gərdəkbaşı": {
+  "skip": "meaning not certain"
+ },
+ "gərginlikbölən": {
+  "az": "Elektrik gərginliyini hissələrə bölən qurğu.",
+  "en": "voltage divider",
+  "pos": "noun"
+ },
+ "gərginlikölçən": {
+  "az": "Elektrik gərginliyini ölçən cihaz; voltmetr.",
+  "en": "voltmeter",
+  "pos": "noun"
+ },
+ "gərməkkimi": {
+  "skip": "meaning of gərmək here not certain"
+ },
+ "gərməkçiçəkli": {
+  "skip": "meaning of gərmək here not certain"
+ },
+ "gərməşovkimi": {
+  "az": "Gərməşova bənzəyən (bitkilər haqqında).",
+  "en": "viburnum-like",
+  "pos": "adjective"
+ },
+ "halqaborulu": {
+  "skip": "meaning not certain"
+ },
+ "hamarlülə": {
+  "az": "Lüləsinin içi yivsiz, hamar olan (odlu silah) (hamarlülə tüfəng).",
+  "en": "smoothbore",
+  "pos": "adjective"
+ },
+ "hamaryunlu": {
+  "az": "Yunu hamar, düz olan (heyvan).",
+  "en": "smooth-fleeced, smooth-wooled",
+  "pos": "adjective"
+ },
+ "hamaşmeyvə": {
+  "skip": "meaning not certain"
+ },
+ "hambalbaşı": {
+  "az": "Hambalların başçısı, böyüyü.",
+  "en": "head porter, chief of the porters",
+  "pos": "noun"
+ },
+ "hasarqala": {
+  "skip": "meaning not certain"
+ },
+ "havadəyişdirici": {
+  "az": "Qapalı yerdə havanı dəyişdirən, təzə hava verən qurğu.",
+  "en": "air exchanger, ventilator",
+  "pos": "noun"
+ },
+ "havaisidici": {
+  "az": "Havanı qızdıran qurğu.",
+  "en": "air heater",
+  "pos": "noun"
+ },
+ "havaisitmə": {
+  "az": "Havanın qızdırılması; isti hava ilə qızdırma.",
+  "en": "air heating",
+  "pos": "noun"
+ },
+ "havapaylayıcı": {
+  "az": "Havanı bölüşdürüb lazımi yerlərə yönəldən qurğu.",
+  "en": "air distributor",
+  "pos": "noun"
+ },
+ "havasorma": {
+  "az": "Havanı içinə sorub çəkmə.",
+  "en": "air suction, air intake",
+  "pos": "noun"
+ },
+ "havasorucu": {
+  "az": "Havanı içinə sorub çəkən (havasorucu qurğu).",
+  "en": "air-sucking; air intake",
+  "pos": "adjective"
+ },
+ "havasoyuducu": {
+  "az": "Havanı soyudan qurğu; kondisioner.",
+  "en": "air cooler; air conditioner",
+  "pos": "noun"
+ },
+ "havasoyutma": {
+  "az": "Havanın soyudulması və ya hava axını ilə soyutma (havasoyutma sistemi).",
+  "en": "air cooling",
+  "pos": "noun",
+  "parts": false
+ },
+ "havatoplayıcı": {
+  "az": "Havanı bir yerə toplayan (havatoplayıcı çən).",
+  "en": "air-collecting",
+  "pos": "adjective"
+ },
+ "havatəmizləmə": {
+  "az": "Havanın tozdan və zərərli qarışıqlardan təmizlənməsi.",
+  "en": "air purification",
+  "pos": "noun"
+ },
+ "havaverici": {
+  "az": "Hava verən, havanı ötürən (qurğu).",
+  "en": "air-supplying, air-blowing",
+  "pos": "adjective"
+ },
+ "havavuran": {
+  "skip": "meaning not certain (air pump or fan)"
+ },
+ "havayığma": {
+  "az": "Havanı bir yerə toplama, sıxıb yığma.",
+  "en": "air accumulation, air collection",
+  "pos": "noun"
+ },
+ "havayığıcı": {
+  "az": "Sıxılmış havanı toplayıb saxlayan qab; resiver.",
+  "en": "air receiver, air accumulator",
+  "pos": "noun"
+ },
+ "havaçəkmə": {
+  "az": "Havanı sorub çıxarma; ventilyasiya.",
+  "en": "air extraction, ventilation",
+  "pos": "noun"
+ },
+ "havaötürmə": {
+  "az": "Havanı bir yerdən başqa yerə ötürmə.",
+  "en": "air transfer, air conveyance",
+  "pos": "noun"
+ },
+ "hazıryaraq": {
+  "skip": "meaning not certain"
+ },
+ "haçabarmaq": {
+  "skip": "meaning not certain"
+ },
+ "haçabarmaqlı": {
+  "skip": "meaning not certain"
+ },
+ "haçabaşlı": {
+  "az": "Başı, ucu haça olan, ikiyə ayrılan.",
+  "en": "fork-headed, forked at the top",
+  "pos": "adjective"
+ },
+ "haçabudaq": {
+  "az": "İki yerə ayrılan, haça şəkilli budaq.",
+  "en": "forked branch",
+  "pos": "noun"
+ },
+ "haçabudaqlı": {
+  "az": "Budaqları haça şəklində ayrılan.",
+  "en": "with forked branches",
+  "pos": "adjective"
+ },
+ "haçabuynuz": {
+  "az": "Buynuzları haça olan; haçabuynuzlu.",
+  "en": "fork-horned",
+  "pos": "adjective"
+ },
+ "haçabuynuzlu": {
+  "az": "Buynuzları haça, şaxəli olan.",
+  "en": "fork-horned",
+  "pos": "adjective"
+ },
+ "haçabənd": {
+  "skip": "meaning not certain"
+ },
+ "haçadilli": {
+  "az": "Dilinin ucu ikiyə ayrılan, dili haça olan (ilan).",
+  "en": "fork-tongued",
+  "pos": "adjective"
+ },
+ "haçadırnaq": {
+  "az": "İki yerə ayrılan dırnaq (inək, qoyun və s.-də).",
+  "en": "cloven hoof",
+  "pos": "noun"
+ },
+ "haçadırnaqlı": {
+  "az": "Dırnağı haça, ikiyə ayrılan (inək, qoyun, keçi və s.).",
+  "en": "cloven-hoofed",
+  "pos": "adjective"
+ },
+ "hecaayırıcı": {
+  "az": "Sözləri hecalara ayıran işarə və ya proqram.",
+  "en": "syllable divider, hyphenator",
+  "pos": "noun"
+ },
+ "hektarhesabı": {
+  "az": "Hektarla hesablama; hər hektara düşən miqdar (hektarhesabı məhsul).",
+  "en": "per-hectare reckoning, per hectare",
+  "pos": "noun"
+ },
+ "hesabaparma": {
+  "az": "Hesab aparma, gəlir-çıxarın qeydini aparma; mühasibat işi.",
+  "en": "bookkeeping, keeping accounts",
+  "pos": "noun"
+ },
+ "heykəlbaşı": {
+  "skip": "meaning not certain"
+ },
+ "heykəlqoyma": {
+  "az": "Heykəl ucaltma, abidə qoyma.",
+  "en": "erecting a statue or monument",
+  "pos": "noun"
+ },
+ "heykələbənzər": {
+  "az": "Heykələ bənzəyən; donub hərəkətsiz qalan.",
+  "en": "statue-like, statuesque",
+  "pos": "adjective"
+ },
+ "heyrətverici": {
+  "az": "Heyrət doğuran, insanı təəccübləndirən.",
+  "en": "amazing, astonishing",
+  "pos": "adjective"
+ },
+ "hinddarısı": {
+  "skip": "plant name, not certain"
+ },
+ "hindgülü": {
+  "skip": "plant name, not certain"
+ },
+ "hoppultu": {
+  "skip": "meaning not certain"
+ },
+ "hörümçəkkimi": {
+  "az": "Hörümçəyə bənzəyən; zoologiyada hörümçəkkimilər sinfinə aid.",
+  "en": "spider-like; arachnid",
+  "pos": "adjective"
+ },
+ "hörümçəyəoxşar": {
+  "az": "Hörümçəyə oxşayan.",
+  "en": "spider-like",
+  "pos": "adjective"
+ },
+ "hücumqabağı": {
+  "az": "Hücumdan əvvəl olan (hücumqabağı hazırlıq).",
+  "en": "pre-attack, pre-assault",
+  "pos": "adjective"
+ },
+ "hündürdivarlı": {
+  "az": "Divarları hündür olan.",
+  "en": "high-walled",
+  "pos": "adjective"
+ },
+ "hündürhörgülü": {
+  "skip": "meaning not certain (masonry or braid)"
+ },
+ "hündürtavanlı": {
+  "az": "Tavanı hündür olan (otaq, bina).",
+  "en": "high-ceilinged",
+  "pos": "adjective"
+ },
+ "hündürtəkərli": {
+  "az": "Təkərləri hündür, böyük olan.",
+  "en": "high-wheeled",
+  "pos": "adjective"
+ },
+ "həbsxanadaxili": {
+  "az": "Həbsxananın daxilində olan (həbsxanadaxili qaydalar).",
+  "en": "intra-prison, within the prison",
+  "pos": "adjective"
+ },
+ "həcmölçmə": {
+  "az": "Cismin və ya mayenin həcmini ölçmə.",
+  "en": "volume measurement, volumetry",
+  "pos": "noun"
+ },
+ "həcmölçən": {
+  "az": "Həcmi ölçən (həcmölçən qab, cihaz).",
+  "en": "volume-measuring, volumetric",
+  "pos": "adjective"
+ },
+ "həcvnamə": {
+  "az": "Kimisə ələ salan satirik şeir və ya yazı.",
+  "en": "satirical poem, lampoon",
+  "pos": "noun"
+ },
+ "hədəfgöstərmə": {
+  "az": "Hədəfin yerini göstərmə, nişan vermə (hərbi işdə).",
+  "en": "target designation, target indication",
+  "pos": "noun"
+ },
+ "həftəhamamı": {
+  "skip": "meaning not certain"
+ },
+ "həkkolma": {
+  "az": "Yaddaşda, qəlbdə dərin iz buraxma; oyulub yazılma.",
+  "en": "being engraved (esp. in memory)",
+  "pos": "noun"
+ },
+ "həlimxasiyyət": {
+  "az": "Xasiyyəti həlim, yumşaq olan.",
+  "en": "mild-tempered, gentle",
+  "pos": "adjective"
+ },
+ "həmhüdudlu": {
+  "az": "Sərhədi ortaq olan, bir-biri ilə həmsərhəd.",
+  "en": "bordering, sharing a border",
+  "pos": "adjective"
+ },
+ "həmhüquqlu": {
+  "az": "Başqaları ilə eyni hüquqlara malik olan, bərabərhüquqlu.",
+  "en": "having equal rights",
+  "pos": "adjective"
+ },
+ "həməqidəlilik": {
+  "az": "Eyni əqidəyə, inama malik olma; əqidə birliyi.",
+  "en": "community of beliefs, like-mindedness",
+  "pos": "noun"
+ },
+ "həqiqətəbənzər": {
+  "az": "Həqiqətə bənzəyən, inandırıcı görünən.",
+  "en": "plausible, true-to-life, verisimilar",
+  "pos": "adjective"
+ },
+ "həqiqətəoxşar": {
+  "az": "Həqiqətə oxşayan, inandırıcı.",
+  "en": "plausible, true-to-life",
+  "pos": "adjective"
+ },
+ "hərarətendirən": {
+  "az": "Bədənin yüksək hərarətini aşağı salan (dərman).",
+  "en": "antipyretic, fever-reducing",
+  "pos": "adjective"
+ },
+ "hərarətkeçirməz": {
+  "az": "İstiliyi keçirməyən (material).",
+  "en": "heat-insulating, non-heat-conducting",
+  "pos": "adjective"
+ },
+ "hərarətsalan": {
+  "az": "Qızdırmanı, yüksək hərarəti aşağı salan.",
+  "en": "antipyretic, fever-reducing",
+  "pos": "adjective"
+ },
+ "hərarətədavamlı": {
+  "az": "Yüksək temperatura davamlı olan.",
+  "en": "heat-resistant",
+  "pos": "adjective"
+ },
+ "hərarətədözümlü": {
+  "az": "Yüksək temperatura dözən, ondan zərər görməyən.",
+  "en": "heat-tolerant, heat-resistant",
+  "pos": "adjective"
+ },
+ "hərfyığan": {
+  "az": "Mətbəədə hərfləri yığıb mətn düzən işçi və ya maşın; mürəttib.",
+  "en": "typesetter, compositor",
+  "pos": "noun"
+ },
+ "hərfyığma": {
+  "az": "Çap üçün hərfləri yığıb mətn düzəltmə.",
+  "en": "typesetting, composition",
+  "pos": "noun"
+ },
+ "hərəkətötürmə": {
+  "az": "Mexanizmdə hərəkəti bir hissədən başqasına ötürmə.",
+  "en": "transmission (of motion), drive",
+  "pos": "noun"
+ },
+ "hərəkətötürən": {
+  "az": "Hərəkəti bir hissədən başqasına ötürən (hərəkətötürən mexanizm).",
+  "en": "motion-transmitting, drive",
+  "pos": "adjective"
+ },
+ "həsirotu": {
+  "skip": "plant name, not certain"
+ },
+ "həsirtoxuma": {
+  "az": "Həsir toxuma işi.",
+  "en": "mat weaving",
+  "pos": "noun"
+ },
+ "həssasekranlı": {
+  "az": "Toxunuşa həssas ekranı olan (həssasekranlı telefon).",
+  "en": "touchscreen, with a touch-sensitive screen",
+  "pos": "adjective"
+ },
+ "həsədaparıcı": {
+  "az": "Başqalarında qibtə, həsəd oyadan (həsədaparıcı uğur).",
+  "en": "enviable",
+  "pos": "adjective"
+ },
+ "həvədişli": {
+  "skip": "meaning not certain"
+ },
+ "həvəsçiçək": {
+  "skip": "plant name, not certain"
+ },
+ "həşəratqıran": {
+  "az": "Həşəratı məhv edən (həşəratqıran dərman).",
+  "en": "insecticidal",
+  "pos": "adjective"
+ },
+ "ibiskimi": {
+  "az": "İbisə bənzəyən (quşlar haqqında).",
+  "en": "ibis-like",
+  "pos": "adjective"
+ },
+ "iblisəbənzər": {
+  "az": "İblisə bənzəyən, şeytani.",
+  "en": "devilish, demon-like",
+  "pos": "adjective"
+ },
+ "iblisəoxşar": {
+  "az": "İblisə oxşayan, şeytana bənzər.",
+  "en": "devilish, fiendish",
+  "pos": "adjective"
+ },
+ "icraedilmə": {
+  "az": "Yerinə yetirilmə, həyata keçirilmə.",
+  "en": "execution, implementation; being carried out",
+  "pos": "noun"
+ },
+ "igidsayağı": {
+  "az": "İgid kimi, igidə yaraşan tərzdə.",
+  "en": "bravely, heroically, like a hero",
+  "pos": "adverb"
+ },
+ "ikinciağızlı": {
+  "az": "Rüşeym inkişafında ağzı sonradan, yenidən əmələ gələn (heyvanlar) (ikinciağızlılar).",
+  "en": "deuterostome",
+  "pos": "adjective"
+ },
+ "ikrahdoğurucu": {
+  "az": "İkrah, iyrənmə hissi doğuran.",
+  "en": "disgusting, repulsive",
+  "pos": "adjective"
+ },
+ "ilanaoxşar": {
+  "az": "İlana oxşayan.",
+  "en": "snake-like, serpentine",
+  "pos": "adjective"
+ },
+ "ilanbaşlı": {
+  "az": "Başı ilan başına bənzəyən.",
+  "en": "snake-headed",
+  "pos": "adjective"
+ },
+ "ilanboğan": {
+  "skip": "meaning not certain"
+ },
+ "ilandili": {
+  "skip": "plant name, not certain"
+ },
+ "ilantutan": {
+  "az": "İlan tutan, ilan ovlayan.",
+  "en": "snake-catching; snake catcher",
+  "pos": "adjective"
+ },
+ "ilanvuran": {
+  "skip": "meaning not certain"
+ },
+ "ilanxiyarı": {
+  "skip": "plant name, not certain"
+ },
+ "ilanyemişi": {
+  "skip": "plant name, not certain"
+ },
+ "ilanyetişdirmə": {
+  "az": "İlan saxlayıb çoxaltma (çox vaxt zəhər almaq üçün).",
+  "en": "snake breeding, snake farming",
+  "pos": "noun"
+ },
+ "ilbizəoxşar": {
+  "az": "İlbizə oxşayan.",
+  "en": "snail-like",
+  "pos": "adjective"
+ }
+}
