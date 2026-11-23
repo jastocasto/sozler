@@ -747,7 +747,8 @@ class Builder:
         if len(base) < 3:
             return False
         stems = {base}
-        if base[-1] in 'qk' and not base.endswith(('maq', 'mək')):
+        # Only a word of two or more syllables voices its final q/k before a vowel (otaq → otağı; pak → pakı).
+        if base[-1] in 'qk' and not base.endswith(('maq', 'mək')) and sum(ch in VOWELS for ch in base) >= 2:
             stems.add(base[:-1] + {'q': 'ğ', 'k': 'y'}[base[-1]])
         own = key(word)
         # A verb is also named by its participles and verbal nouns (becərən, üfürücü, açma; edən for etmək).
