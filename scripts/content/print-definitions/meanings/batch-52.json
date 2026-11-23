@@ -1,0 +1,909 @@
+{
+ "demokratlıq": {
+  "az": "Demokrat olma; insanlarla sadə, bərabər davranma, demokratik rəftar.",
+  "en": "democratism, democratic attitude",
+  "pos": "noun",
+  "src": "izahli"
+ },
+ "demonluq": {
+  "az": "Demon kimi olma; şeytani, şər xislət.",
+  "en": "demonic nature, devilishness",
+  "pos": "noun"
+ },
+ "deonimlik": {
+  "az": "Xüsusi addan törəyib ümumi sözə çevrilmiş olma xüsusiyyəti.",
+  "en": "the quality of being a deonym",
+  "pos": "noun"
+ },
+ "desantçılıq": {
+  "az": "Desant qoşunlarında xidmət etmə; desantçı olma.",
+  "en": "service as a paratrooper",
+  "pos": "noun"
+ },
+ "desiqramlıq": {
+  "az": "Müəyyən sayda desiqram çəkisi olan (beş desiqramlıq doza).",
+  "en": "of a given number of decigrams",
+  "pos": "adjective"
+ },
+ "diaqonallıq": {
+  "az": "Diaqonal istiqamətdə olma, çəp yerləşmə.",
+  "en": "diagonality, diagonal arrangement",
+  "pos": "noun"
+ },
+ "diferensiallıq": {
+  "skip": "meaning not certain"
+ },
+ "dikdamaqlıq": {
+  "az": "Özünü başqalarından üstün tutma, təkəbbürlük; hər şeyi bəyənməmə, çətin razı qalma.",
+  "en": "haughtiness, arrogance; fastidiousness",
+  "pos": "noun"
+ },
+ "dikdirlik": {
+  "az": "Dikdirləri, kiçik təpələri çox olan yer; təpəlik.",
+  "en": "hillocky ground",
+  "pos": "noun"
+ },
+ "dilimlik": {
+  "az": "Müəyyən sayda dilimdən ibarət olan (səkkiz dilimlik pizza).",
+  "en": "of a given number of slices",
+  "pos": "adjective"
+ },
+ "diploidlik": {
+  "az": "Hüceyrədə iki tam xromosom dəstinin olması.",
+  "en": "diploidy",
+  "pos": "noun"
+ },
+ "disharmoniyalıq": {
+  "az": "Ahəngsizlik, uyğunsuzluq, nizamsızlıq vəziyyəti.",
+  "en": "disharmony, lack of harmony",
+  "pos": "noun"
+ },
+ "divanlıq": {
+  "skip": "meaning not certain"
+ },
+ "diversantlıq": {
+  "az": "Diversant olma; təxribatçılıq fəaliyyəti.",
+  "en": "sabotage, subversive activity",
+  "pos": "noun"
+ },
+ "divgövdəlik": {
+  "az": "Div kimi iri, nəhəng bədənli olma.",
+  "en": "giant build, huge stature",
+  "pos": "noun"
+ },
+ "doktrinyorluq": {
+  "az": "Həyatı nəzərə almadan nəzəri ehkamlara kor-koranə əməl etmə.",
+  "en": "doctrinairism",
+  "pos": "noun"
+ },
+ "doldurumluq": {
+  "az": "Bir dəfə doldurmağa (çubuğu, tüfəngi və s.) yetəcək qədər olan (bir doldurumluq tənbəki).",
+  "en": "enough for one filling or charge (of a pipe, gun, etc.)",
+  "pos": "adjective"
+ },
+ "doluyanaqlıq": {
+  "az": "Yanaqları dolu, ətli olma.",
+  "en": "chubby-cheekedness",
+  "pos": "noun"
+ },
+ "doqmaçılıq": {
+  "az": "Ehkamlara kor-koranə bağlılıq; doqmatizm.",
+  "en": "dogmatism",
+  "pos": "noun"
+ },
+ "dorluq": {
+  "skip": "meaning not certain"
+ },
+ "doğanaqlıq": {
+  "skip": "meaning not certain"
+ },
+ "döngəlik": {
+  "skip": "meaning not certain"
+ },
+ "dönərlik": {
+  "az": "Dönər hazırlamaq üçün yararlı olan (dönərlik ət).",
+  "en": "for making doner kebab (of meat)",
+  "pos": "adjective"
+ },
+ "dönərçilik": {
+  "az": "Dönər kababı hazırlayıb satma işi.",
+  "en": "the doner kebab trade",
+  "pos": "noun"
+ },
+ "döşlüklük": {
+  "az": "Döşlük tikmək üçün yararlı olan (döşlüklük parça).",
+  "en": "suitable for making a bib or apron (of fabric)",
+  "pos": "adjective"
+ },
+ "dühalıq": {
+  "az": "Düha sahibi olma; dahilik.",
+  "en": "genius, brilliance",
+  "pos": "noun"
+ },
+ "dükandarlıq": {
+  "az": "Dükan saxlayıb alver etmə; dükançılıq.",
+  "en": "shopkeeping",
+  "pos": "noun",
+  "src": "both"
+ },
+ "düyəlik": {
+  "az": "Düyə olma, düyə yaşında olma.",
+  "en": "the state or age of a heifer",
+  "pos": "noun"
+ },
+ "düzücülük": {
+  "skip": "meaning not certain"
+ },
+ "dəbbəkarlıq": {
+  "az": "Verilmiş sözdən, razılaşmadan dönmə; cığallıq.",
+  "en": "going back on one's word; cheating",
+  "pos": "noun"
+ },
+ "dəbəlik": {
+  "az": "Dəbə (yırtıq) xəstəliyinə tutulmuş olma.",
+  "en": "having a hernia",
+  "pos": "noun"
+ },
+ "dəccallıq": {
+  "az": "Dəccala xas hiyləgərlik və fitnəkarlıq; insanları yoldan çıxarma.",
+  "en": "deceitfulness, devilry (like the Antichrist)",
+  "pos": "noun"
+ },
+ "dəcəl-xatalıq": {
+  "az": "Dəcəllik, nadinclik, cürbəcür şuluqluq.",
+  "en": "mischief, naughtiness",
+  "pos": "noun"
+ },
+ "dəftərçilik": {
+  "az": "Dəftərdar vəzifəsi; dəftər və hesab işlərini aparma.",
+  "en": "bookkeeping; the office of a record-keeper",
+  "pos": "noun",
+  "src": "izahli"
+ },
+ "dəli-divanəlik": {
+  "az": "Dəlilik, divanəlik; ağılsızcasına, çılğın davranış.",
+  "en": "madness, insanity",
+  "pos": "noun"
+ },
+ "dəlillik": {
+  "skip": "meaning not certain"
+ },
+ "dəlitərəlik": {
+  "az": "Dəlitərə bitkisi çox bitən yer.",
+  "en": "place overgrown with dəlitərə (a herb of the poppy family)",
+  "pos": "noun"
+ },
+ "dəliçətənəlik": {
+  "skip": "plant name, not certain"
+ },
+ "dəlmə-deşiklik": {
+  "az": "İrili-xırdalı deşiklərlə dolu olma; deşik-deşik olma.",
+  "en": "being riddled with holes",
+  "pos": "noun"
+ },
+ "dəmirağaclıq": {
+  "az": "Dəmirağac meşəsi; dəmirağac çox bitən yer.",
+  "en": "ironwood (Parrotia) grove",
+  "pos": "noun"
+ },
+ "dəmirçi-presçilik": {
+  "az": "Metalı döyərək və presləyərək emal etmə işi; dəmirçi-presçi peşəsi.",
+  "en": "work of a forge-press operator",
+  "pos": "noun"
+ },
+ "dəmkeşlik": {
+  "az": "Xanəndəyə dəm tutaraq, zümzümə ilə müşayiət etmə; züyçülük.",
+  "en": "vocal accompaniment (holding the drone); being an accompanist",
+  "pos": "noun",
+  "src": "both"
+ },
+ "dəmlik": {
+  "az": "Çay dəmləmək üçün kiçik çaydan; samovarın üstündə çaydan qoyulan hissə.",
+  "en": "teapot (for brewing tea); samovar crown",
+  "pos": "noun",
+  "src": "izahli"
+ },
+ "dəmxanalıq": {
+  "skip": "meaning not certain"
+ },
+ "dəmşalaqlıq": {
+  "skip": "meaning not certain"
+ },
+ "dəməklik": {
+  "skip": "meaning not certain"
+ },
+ "dəmələklik": {
+  "az": "Dəmələk bitkisi çox bitən yer.",
+  "en": "place overgrown with dəmələk (a bitter plant)",
+  "pos": "noun"
+ },
+ "dənçilik": {
+  "az": "Dənli bitkilər becərmə; taxılçılıq.",
+  "en": "grain farming",
+  "pos": "noun"
+ },
+ "dərmançılıq": {
+  "az": "Dərman hazırlama işi; əczaçılıq.",
+  "en": "pharmacy (as a trade), drug-making",
+  "pos": "noun"
+ },
+ "dəzgahlıq": {
+  "skip": "meaning not certain"
+ },
+ "dəzgahçılıq": {
+  "az": "Dəzgahda işləmə; dəzgahçı peşəsi.",
+  "en": "machine operating (as a trade)",
+  "pos": "noun"
+ },
+ "ehtişamlıq": {
+  "az": "Möhtəşəmlik, əzəmət, dəbdəbə.",
+  "en": "magnificence, splendour",
+  "pos": "noun"
+ },
+ "ekoloqluq": {
+  "az": "Ekoloq peşəsi; ekoloq olma.",
+  "en": "the profession of an ecologist",
+  "pos": "noun"
+ },
+ "eksklüzivlik": {
+  "az": "Yalnız birinə məxsus olma; müstəsnalıq.",
+  "en": "exclusivity",
+  "pos": "noun"
+ },
+ "ekspansionistlik": {
+  "az": "Ərazini və ya təsir dairəsini genişləndirməyə can atma; ekspansionizm.",
+  "en": "expansionism",
+  "pos": "noun"
+ },
+ "eksperimentçilik": {
+  "az": "Təcrübə, sınaq aparmağa meyil; eksperimentçi fəaliyyəti.",
+  "en": "experimentalism, experimenting",
+  "pos": "noun"
+ },
+ "ekspressionistlik": {
+  "az": "Ekspressionizmə xas olma; ekspressionist üslub.",
+  "en": "expressionist character, expressionism",
+  "pos": "noun"
+ },
+ "ekstrasenslik": {
+  "az": "Fövqəladə duyma qabiliyyətinə malik olma; ekstrasens fəaliyyəti.",
+  "en": "psychic abilities; work as a psychic",
+  "pos": "noun"
+ },
+ "ekstremistlik": {
+  "az": "İfrat baxış və hərəkətlərə meyil; ekstremizm.",
+  "en": "extremism",
+  "pos": "noun"
+ },
+ "elbəyilik": {
+  "az": "Elbəyi vəzifəsi; tayfa başçılığı.",
+  "en": "tribal chieftainship",
+  "pos": "noun"
+ },
+ "elektrikgötürücülük": {
+  "skip": "meaning not certain"
+ },
+ "elektrotexniklik": {
+  "az": "Elektrotexnik peşəsi; elektrotexnik olma.",
+  "en": "the profession of an electrical engineer",
+  "pos": "noun"
+ },
+ "eltilik": {
+  "az": "Qardaşların arvadları arasındakı qohumluq münasibəti.",
+  "en": "the relationship between the wives of brothers",
+  "pos": "noun"
+ },
+ "emalçılıq": {
+  "az": "Xammalı emal edib məhsul hazırlama işi.",
+  "en": "processing (of raw materials)",
+  "pos": "noun"
+ },
+ "emiqrantlıq": {
+  "az": "Mühacir olma; mühacirət həyatı.",
+  "en": "emigrant life, emigration",
+  "pos": "noun"
+ },
+ "energetiklik": {
+  "skip": "meaning not certain"
+ },
+ "ensiklopediyaşünaslıq": {
+  "az": "Ensiklopediyaların tarixini və tərtib üsullarını öyrənən sahə.",
+  "en": "the study of encyclopedias",
+  "pos": "noun"
+ },
+ "eralıq": {
+  "skip": "meaning not certain"
+ },
+ "erkəclik": {
+  "skip": "meaning not certain"
+ },
+ "esseçilik": {
+  "az": "Esse yazma; esse janrında yaradıcılıq.",
+  "en": "essay writing",
+  "pos": "noun"
+ },
+ "etimadlılıq": {
+  "az": "Etimad doğuran, etibarlı olma.",
+  "en": "trustworthiness, reliability",
+  "pos": "noun"
+ },
+ "etnoqraflıq": {
+  "az": "Etnoqraf peşəsi; etnoqraf olma.",
+  "en": "the profession of an ethnographer",
+  "pos": "noun"
+ },
+ "etruskşünaslıq": {
+  "az": "Etrusk dilini, tarixini və mədəniyyətini öyrənən elm sahəsi.",
+  "en": "Etruscology",
+  "pos": "noun"
+ },
+ "evolyusionistlik": {
+  "az": "Təkamül nəzəriyyəsinə tərəfdarlıq; evolyusionizm.",
+  "en": "evolutionism",
+  "pos": "noun"
+ },
+ "evyıxanlıq": {
+  "az": "Başqalarının evini yıxma, ailəsini dağıtma; fitnəkarlıq.",
+  "en": "home-wrecking; mischief-making",
+  "pos": "noun"
+ },
+ "eyhamlıq": {
+  "skip": "meaning not certain"
+ },
+ "eşikağasılıq": {
+  "az": "Eşikağası vəzifəsi; sarayda qəbul və mərasimləri idarə etmə.",
+  "en": "the office of court master of ceremonies (eshikaghasi)",
+  "pos": "noun"
+ },
+ "fabrikantlıq": {
+  "az": "Fabrik sahibi olma; fabrikant fəaliyyəti.",
+  "en": "factory ownership; being a manufacturer",
+  "pos": "noun"
+ },
+ "farmakoloqluq": {
+  "az": "Farmakoloq peşəsi; farmakoloq olma.",
+  "en": "the profession of a pharmacologist",
+  "pos": "noun"
+ },
+ "farmasevtlik": {
+  "az": "Farmasevt peşəsi; əczaçılıq.",
+  "en": "the profession of a pharmacist",
+  "pos": "noun"
+ },
+ "fasiləlik": {
+  "skip": "meaning not certain"
+ },
+ "fatalıq": {
+  "az": "Fata tikmək üçün yararlı olan (fatalıq tül).",
+  "en": "suitable for a bridal veil (of fabric)",
+  "pos": "adjective"
+ },
+ "faşistpərəstlik": {
+  "az": "Faşizmə rəğbət bəsləmə, faşizmə pərəstiş.",
+  "en": "pro-fascist sympathies",
+  "pos": "noun"
+ },
+ "feldfebellik": {
+  "az": "Feldfebel rütbəsi, vəzifəsi.",
+  "en": "the rank of sergeant major (feldwebel)",
+  "pos": "noun"
+ },
+ "feldyegerlik": {
+  "az": "Feldyeger xidməti; mühüm sənədləri çatdırma vəzifəsi.",
+  "en": "service as a military courier",
+  "pos": "noun"
+ },
+ "felyetonçuluq": {
+  "az": "Felyeton yazma; felyeton janrında yaradıcılıq.",
+  "en": "feuilleton writing",
+  "pos": "noun"
+ },
+ "fenomenlik": {
+  "az": "Fenomen olma; qeyri-adilik, fövqəladəlik.",
+  "en": "phenomenal nature, extraordinariness",
+  "pos": "noun"
+ },
+ "fenotiplik": {
+  "skip": "meaning not certain"
+ },
+ "fetişlik": {
+  "az": "Fetiş olma; bir şeyə fetiş kimi sitayiş etmə.",
+  "en": "fetish status; fetishism",
+  "pos": "noun"
+ },
+ "feyxoalıq": {
+  "az": "Feyxoa əkilmiş sahə; feyxoa bağı.",
+  "en": "feijoa plantation",
+  "pos": "noun"
+ },
+ "filisterlik": {
+  "az": "Dar düşüncəlilik, mənfəətpərəstlik; filisterə xas həyat tərzi.",
+  "en": "philistinism",
+  "pos": "noun"
+ },
+ "filtrlik": {
+  "az": "Filtr kimi işlədilməyə yararlı olan (filtrlik kağız).",
+  "en": "for use as a filter (e.g. filter paper)",
+  "pos": "adjective"
+ },
+ "firqəçilik": {
+  "az": "Siyasi firqəyə mənsub olma; firqə maraqlarını önə çəkmə.",
+  "en": "party membership; partisanship",
+  "pos": "noun"
+ },
+ "fisincanlıq": {
+  "az": "Fisincan bişirmək üçün yararlı olan (fisincanlıq qoz).",
+  "en": "for making fisinjan",
+  "pos": "adjective"
+ },
+ "fitəçilik": {
+  "skip": "meaning not certain"
+ },
+ "fizikaşünaslıq": {
+  "skip": "meaning not certain"
+ },
+ "formalistlik": {
+  "az": "İşin mahiyyətinə deyil, zahiri formasına üstünlük vermə; formalizm.",
+  "en": "formalism",
+  "pos": "noun"
+ },
+ "fotomexaniklik": {
+  "az": "Fotomexanik peşəsi.",
+  "en": "the profession of a photomechanic",
+  "pos": "noun"
+ },
+ "fotomontajçılıq": {
+  "az": "Fotomontaj hazırlama işi, peşəsi.",
+  "en": "photomontage making",
+  "pos": "noun"
+ },
+ "fotomüşahidəçilik": {
+  "skip": "meaning not certain"
+ },
+ "fotoreklamçılıq": {
+  "az": "Fotoşəkillər vasitəsilə reklam hazırlama işi.",
+  "en": "photo advertising (as a trade)",
+  "pos": "noun"
+ },
+ "fotostendlik": {
+  "skip": "meaning not certain"
+ },
+ "fransızlıq": {
+  "az": "Fransız olma; fransızlara xas xüsusiyyət və davranış.",
+  "en": "Frenchness, French identity",
+  "pos": "noun"
+ },
+ "fransızpərəstlik": {
+  "az": "Fransaya və fransız mədəniyyətinə həddindən artıq rəğbət.",
+  "en": "Francophilia",
+  "pos": "noun"
+ },
+ "frantlıq": {
+  "az": "Bəzənib-düzənməyə, dəbli geyinməyə həddindən artıq meyil.",
+  "en": "dandyism, foppishness",
+  "pos": "noun"
+ },
+ "fraqmentlik": {
+  "az": "Bütöv olmayıb ayrı-ayrı parçalardan ibarət olma; parça-parçalıq.",
+  "en": "fragmentariness",
+  "pos": "noun"
+ },
+ "freydçilik": {
+  "az": "Freydin təliminə tərəfdarlıq; freydizm.",
+  "en": "Freudianism",
+  "pos": "noun"
+ },
+ "frezerçilik": {
+  "az": "Frez dəzgahında işləmə peşəsi.",
+  "en": "milling (as a trade)",
+  "pos": "noun"
+ },
+ "ftiziatrlıq": {
+  "az": "Ftiziatr peşəsi; vərəm xəstəliklərini müalicə etmə.",
+  "en": "the profession of a TB specialist (phthisiatrician)",
+  "pos": "noun"
+ },
+ "furqonçuluq": {
+  "az": "Furqon sürmə işi; furqonçu peşəsi.",
+  "en": "work as a van or wagon driver",
+  "pos": "noun"
+ },
+ "fəhləbaşılıq": {
+  "az": "Fəhləbaşı vəzifəsi; fəhlə dəstəsinə rəhbərlik etmə.",
+  "en": "the position of foreman",
+  "pos": "noun"
+ },
+ "fəlsəfəçilik": {
+  "az": "Mücərrəd mühakimələrə, fəlsəfə satmağa meyil.",
+  "en": "philosophizing",
+  "pos": "noun"
+ },
+ "fərziyyəçilik": {
+  "az": "Fərziyyələr irəli sürməyə meyil; fərziyyəyə əsaslanma.",
+  "en": "speculation, conjecturing",
+  "pos": "noun"
+ },
+ "fətirlik": {
+  "az": "Fətir bişirmək üçün yararlı olan (fətirlik xəmir).",
+  "en": "for making flatbread (fətir)",
+  "pos": "adjective"
+ },
+ "general-mayorluq": {
+  "az": "General-mayor rütbəsi.",
+  "en": "the rank of major general",
+  "pos": "noun"
+ },
+ "geoloqluq": {
+  "az": "Geoloq peşəsi; geoloq olma.",
+  "en": "the profession of a geologist",
+  "pos": "noun"
+ },
+ "germanşünaslıq": {
+  "az": "German dillərini, ədəbiyyatını və mədəniyyətini öyrənən elm sahəsi.",
+  "en": "German studies, Germanistics",
+  "pos": "noun"
+ },
+ "gerontoloqluq": {
+  "az": "Gerontoloq peşəsi.",
+  "en": "the profession of a gerontologist",
+  "pos": "noun"
+ },
+ "gestapoçuluq": {
+  "az": "Gestapoda xidmət etmə; gestapoya xas üsullar.",
+  "en": "service in the Gestapo; Gestapo methods",
+  "pos": "noun"
+ },
+ "geyimlik": {
+  "az": "Paltar tikmək üçün yararlı olan (geyimlik parça).",
+  "en": "for clothing (of fabric)",
+  "pos": "adjective"
+ },
+ "giltorpaqlıq": {
+  "az": "Gilli torpaqdan ibarət yer.",
+  "en": "clay-soil ground",
+  "pos": "noun"
+ },
+ "ginekoloqluq": {
+  "az": "Ginekoloq peşəsi.",
+  "en": "the profession of a gynaecologist",
+  "pos": "noun"
+ },
+ "gipslik": {
+  "skip": "meaning not certain"
+ },
+ "girovçuluq": {
+  "skip": "meaning not certain"
+ },
+ "gitaraçılıq": {
+  "az": "Gitara çalma; gitaraçı peşəsi.",
+  "en": "guitar playing",
+  "pos": "noun"
+ },
+ "giyəvlik": {
+  "az": "Kürəkən olma; kürəkənlik.",
+  "en": "being a son-in-law",
+  "pos": "noun"
+ },
+ "gopculluq": {
+  "az": "Gop vurma, uydurub danışma; lovğalıq.",
+  "en": "boasting, tall talk",
+  "pos": "noun"
+ },
+ "gödəkdəstəlik": {
+  "skip": "meaning not certain"
+ },
+ "gödəkçəlik": {
+  "az": "Gödəkçə tikmək üçün yararlı olan (gödəkçəlik parça).",
+  "en": "for making a jacket (of fabric)",
+  "pos": "adjective"
+ },
+ "gölşünaslıq": {
+  "az": "Gölləri və onlarda gedən prosesləri öyrənən elm sahəsi.",
+  "en": "limnology",
+  "pos": "noun"
+ },
+ "gömrükçülük": {
+  "az": "Gömrük xidmətində işləmə; gömrükçü peşəsi.",
+  "en": "customs work",
+  "pos": "noun"
+ },
+ "görünüşlük": {
+  "skip": "meaning not certain"
+ },
+ "göy-göyərtilik": {
+  "az": "Göy-göyərti əkilən yer.",
+  "en": "plot of greens, herb garden",
+  "pos": "noun"
+ },
+ "göyərçinbazlıq": {
+  "az": "Göyərçin saxlama, göyərçin uçurma həvəsi.",
+  "en": "pigeon fancying",
+  "pos": "noun"
+ },
+ "gözlükçülük": {
+  "az": "Gözlük hazırlama və satma işi.",
+  "en": "the optician's trade",
+  "pos": "noun"
+ },
+ "gözəklik": {
+  "skip": "meaning not certain"
+ },
+ "gülpərəstlik": {
+  "az": "Gülə, çiçəyə böyük sevgi; gül becərmə həvəsi.",
+  "en": "love of flowers",
+  "pos": "noun"
+ },
+ "gülüstanlıq": {
+  "skip": "meaning not certain"
+ },
+ "gülşənlik": {
+  "skip": "meaning not certain"
+ },
+ "güləşçilik": {
+  "az": "Güləş idmanı ilə məşğul olma.",
+  "en": "wrestling",
+  "pos": "noun"
+ },
+ "gümüşçülük": {
+  "az": "Gümüşdən məmulat hazırlama sənəti.",
+  "en": "silversmithing",
+  "pos": "noun"
+ },
+ "günübacılıq": {
+  "az": "Bir kişinin arvadları arasındakı münasibət; günülük.",
+  "en": "the relationship between co-wives",
+  "pos": "noun"
+ },
+ "günəvərlik": {
+  "az": "Günəş yaxşı düşən, günü bol yer.",
+  "en": "sunny place or slope",
+  "pos": "noun"
+ },
+ "güzgülük": {
+  "skip": "meaning not certain"
+ },
+ "güzgüçülük": {
+  "az": "Güzgü düzəltmə sənəti.",
+  "en": "mirror making",
+  "pos": "noun"
+ },
+ "güzlük": {
+  "az": "Payızda əkilən (güzlük buğda); payızlıq.",
+  "en": "autumn-sown, winter (of crops)",
+  "pos": "adjective"
+ },
+ "gəbəlik": {
+  "skip": "meaning not certain"
+ },
+ "gərdənəlik": {
+  "skip": "meaning not certain"
+ },
+ "hacılıq": {
+  "az": "Həcc ziyarətini yerinə yetirmiş olma; hacı adı.",
+  "en": "the status of a hajji",
+  "pos": "noun"
+ },
+ "hap-gopçuluq": {
+  "az": "Boş-boş öyünmə, lovğalanma.",
+  "en": "empty boasting, bragging",
+  "pos": "noun"
+ },
+ "harayçılıq": {
+  "skip": "meaning not certain"
+ },
+ "haçalıq": {
+  "skip": "meaning not certain"
+ },
+ "haşiyəlik": {
+  "skip": "meaning not certain"
+ },
+ "haşiyəçilik": {
+  "skip": "meaning not certain"
+ },
+ "hegemonçuluq": {
+  "az": "Başqaları üzərində hökmranlığa can atma siyasəti; hegemonizm.",
+  "en": "hegemonism",
+  "pos": "noun"
+ },
+ "helikopterçilik": {
+  "skip": "meaning not certain"
+ },
+ "herpetoloqluq": {
+  "az": "Herpetoloq peşəsi.",
+  "en": "the profession of a herpetologist",
+  "pos": "noun"
+ },
+ "hipnozçuluq": {
+  "az": "Hipnoz etmə; hipnozçu peşəsi.",
+  "en": "hypnotism (as a practice)",
+  "pos": "noun"
+ },
+ "hitlerçilik": {
+  "az": "Hitlerin ideologiyası və siyasəti; nasizm.",
+  "en": "Hitlerism, Nazism",
+  "pos": "noun"
+ },
+ "horralıq": {
+  "skip": "meaning not certain"
+ },
+ "hululuq": {
+  "az": "Şaftalı bağı; şaftalı ağacları çox olan yer.",
+  "en": "peach orchard",
+  "pos": "noun"
+ },
+ "hörgüçülük": {
+  "az": "Daş, kərpic hörmə işi; bənnalıq.",
+  "en": "masonry, bricklaying",
+  "pos": "noun"
+ },
+ "hörməçilik": {
+  "az": "Hörmə məmulatı (səbət, həsir və s.) hazırlama sənəti.",
+  "en": "wickerwork, weaving",
+  "pos": "noun"
+ },
+ "hörücülük": {
+  "az": "Hörmə işi; hörücü sənəti.",
+  "en": "weaving, braiding",
+  "pos": "noun"
+ },
+ "hövsələlik": {
+  "az": "Səbirlilik, dözümlülük.",
+  "en": "patience",
+  "pos": "noun"
+ },
+ "hücumçuluq": {
+  "skip": "meaning not certain"
+ },
+ "hürriyyətlik": {
+  "skip": "meaning not certain"
+ },
+ "hürriyyətçilik": {
+  "az": "Azadlıq ideyalarını müdafiə etmə.",
+  "en": "advocacy of freedom",
+  "pos": "noun"
+ },
+ "həcəmətçilik": {
+  "az": "Həcəmət etmə, qan almaqla müalicə sənəti.",
+  "en": "cupping, bloodletting (as a practice)",
+  "pos": "noun"
+ },
+ "hədiklik": {
+  "az": "Hədik bişirmək üçün yararlı olan (hədiklik buğda).",
+  "en": "for making hadik (boiled grain)",
+  "pos": "adjective"
+ },
+ "hədisşünaslıq": {
+  "az": "Hədisləri toplayan və öyrənən elm sahəsi.",
+  "en": "hadith studies",
+  "pos": "noun"
+ },
+ "həmkəndlilik": {
+  "az": "Eyni kənddən olma.",
+  "en": "being from the same village",
+  "pos": "noun"
+ },
+ "həmməsləklik": {
+  "az": "Eyni məsləkdə, eyni əqidədə olma.",
+  "en": "like-mindedness, shared convictions",
+  "pos": "noun"
+ },
+ "həmməzhəblik": {
+  "az": "Eyni dini məzhəbə mənsub olma.",
+  "en": "belonging to the same religious denomination",
+  "pos": "noun"
+ },
+ "həmyerlilik": {
+  "az": "Eyni yerdən, eyni bölgədən olma.",
+  "en": "being fellow countrymen",
+  "pos": "noun"
+ },
+ "hənbəlilik": {
+  "az": "İslamda hənbəli məzhəbinə mənsub olma.",
+  "en": "Hanbalism",
+  "pos": "noun"
+ },
+ "həndəsəşünaslıq": {
+  "skip": "meaning not certain"
+ },
+ "hərəmbaşılıq": {
+  "az": "Hərəmbaşı vəzifəsi.",
+  "en": "the office of harem steward",
+  "pos": "noun"
+ },
+ "ianəçilik": {
+  "az": "İanə vermə, maddi kömək göstərmə.",
+  "en": "donating, charity",
+  "pos": "noun"
+ },
+ "icadçılıq": {
+  "az": "Yeni şeylər icad etmə; ixtiraçılıq.",
+  "en": "inventing, inventiveness",
+  "pos": "noun"
+ },
+ "icmalçılıq": {
+  "az": "İcmal hazırlama işi.",
+  "en": "reviewing, writing surveys",
+  "pos": "noun"
+ },
+ "icmalıq": {
+  "skip": "meaning not certain"
+ },
+ "ictimaiyyətçilik": {
+  "az": "İctimai işlərdə fəal iştirak etmə.",
+  "en": "public activism",
+  "pos": "noun"
+ },
+ "iddiaçılıq": {
+  "skip": "meaning not certain"
+ },
+ "idiotluq": {
+  "az": "Axmaqlıq, kəmağıllıq.",
+  "en": "idiocy",
+  "pos": "noun"
+ },
+ "idmansevərlik": {
+  "az": "İdmana həvəs, idmanı sevmə.",
+  "en": "love of sports",
+  "pos": "noun"
+ },
+ "ifadəçilik": {
+  "skip": "meaning not certain"
+ },
+ "illüstrasiyaçılıq": {
+  "az": "Kitab və jurnallar üçün şəkil çəkmə işi.",
+  "en": "illustration (as a profession)",
+  "pos": "noun"
+ },
+ "illüziyaçılıq": {
+  "skip": "meaning not certain"
+ },
+ "iltihablıq": {
+  "skip": "meaning not certain"
+ },
+ "ilğımlıq": {
+  "skip": "meaning not certain"
+ },
+ "immunogenlik": {
+  "az": "Orqanizmdə immun reaksiya yaratma qabiliyyəti.",
+  "en": "immunogenicity",
+  "pos": "noun"
+ },
+ "imperativlik": {
+  "az": "Qəti tələb xarakteri daşıma; məcburilik.",
+  "en": "imperativeness",
+  "pos": "noun"
+ },
+ "imperialistlik": {
+  "az": "İmperializm siyasətinə tərəfdarlıq.",
+  "en": "imperialism",
+  "pos": "noun"
+ },
+ "imperiyaçılıq": {
+  "az": "İmperiya qurmağa və onu qorumağa can atma siyasəti.",
+  "en": "imperialism, empire-building",
+  "pos": "noun"
+ },
+ "imtiyazçılıq": {
+  "skip": "meaning not certain"
+ },
+ "informatiklik": {
+  "az": "İnformatika üzrə mütəxəssis peşəsi.",
+  "en": "the profession of a computer scientist",
+  "pos": "noun"
+ },
+ "informatorluq": {
+  "az": "Məlumat verən şəxs kimi fəaliyyət; xəbərçilik.",
+  "en": "being an informer",
+  "pos": "noun"
+ },
+ "inteqrallıq": {
+  "az": "Bütövün ayrılmaz hissəsi olma; tamlıq.",
+  "en": "integrality, integral nature",
+  "pos": "noun"
+ },
+ "intizarlıq": {
+  "az": "Səbirsizliklə, həsrətlə gözləmə; intizar halı.",
+  "en": "anxious waiting, longing",
+  "pos": "noun"
+ }
+}

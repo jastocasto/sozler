@@ -1,0 +1,930 @@
+{
+ "intriqabazlıq": {
+  "az": "İntriqa qurmağa, fitnə-fəsad salmağa meyillilik.",
+  "en": "intriguing, scheming",
+  "pos": "noun"
+ },
+ "introvertlik": {
+  "az": "Öz daxili aləminə qapanmağa meyillilik, ünsiyyətə az açıq olma.",
+  "en": "introversion",
+  "pos": "noun"
+ },
+ "ipçilik": {
+  "az": "İp toxuma və ya satma peşəsi.",
+  "en": "rope making (as a trade)",
+  "pos": "noun"
+ },
+ "iranpərəstlik": {
+  "az": "İrana və İran mədəniyyətinə həddən artıq rəğbət.",
+  "en": "Iranophilia",
+  "pos": "noun"
+ },
+ "ixtioloqluq": {
+  "az": "Balıqları öyrənən mütəxəssisin peşəsi.",
+  "en": "the profession of an ichthyologist",
+  "pos": "noun"
+ },
+ "içicilik": {
+  "skip": "meaning not certain"
+ },
+ "jenşenlik": {
+  "az": "Jenşen becərilən yer.",
+  "en": "ginseng plantation",
+  "pos": "noun"
+ },
+ "kabotajçılıq": {
+  "az": "Sahilboyu üzən gəmilərdə işləmə; kabotaj gəmiçiliyi işi.",
+  "en": "work in coastal shipping",
+  "pos": "noun"
+ },
+ "kadetlik": {
+  "az": "Kadet olma; hərbi məktəbdə təhsil alma dövrü.",
+  "en": "cadetship",
+  "pos": "noun"
+ },
+ "kafelçilik": {
+  "az": "Kafel istehsal etmə və ya kafel döşəmə işi.",
+  "en": "tile making; tiling (as a trade)",
+  "pos": "noun"
+ },
+ "kaktusluq": {
+  "az": "Kaktus bitən və ya becərilən yer.",
+  "en": "cactus garden",
+  "pos": "noun"
+ },
+ "kalibrçilik": {
+  "az": "Ölçü alətlərini və detalları kalibrləmə işi.",
+  "en": "calibration work (as a trade)",
+  "pos": "noun"
+ },
+ "kalkulyasiyaçılıq": {
+  "az": "Xərclərin və maya dəyərinin hesablanması ilə məşğul olma.",
+  "en": "cost accounting (as a job)",
+  "pos": "noun"
+ },
+ "kalvinçilik": {
+  "az": "Kalvinin təliminə əsaslanan protestant cərəyanı.",
+  "en": "Calvinism",
+  "pos": "noun"
+ },
+ "kamallıq": {
+  "az": "Ağıllı, dərrakəli olma; yetkinlik, kamillik.",
+  "en": "maturity, wisdom",
+  "pos": "noun"
+ },
+ "kamançılıq": {
+  "az": "Kamança çalma sənəti; kamançı peşəsi.",
+  "en": "kamancha playing",
+  "pos": "noun"
+ },
+ "kamertonçuluq": {
+  "skip": "meaning not certain"
+ },
+ "kaprallıq": {
+  "az": "Kapral rütbəsi və ya vəzifəsi.",
+  "en": "rank of corporal",
+  "pos": "noun"
+ },
+ "kar-korluq": {
+  "az": "Həm eşitmə, həm də görmə qabiliyyətinin olmaması.",
+  "en": "deafblindness",
+  "pos": "noun"
+ },
+ "kar-lallıq": {
+  "az": "Eşitmə və danışma qabiliyyətinin olmaması.",
+  "en": "deaf-mutism",
+  "pos": "noun"
+ },
+ "karateçilik": {
+  "az": "Karate ilə məşğul olma.",
+  "en": "practising karate",
+  "pos": "noun"
+ },
+ "kartotekaçılıq": {
+  "az": "Kartoteka tərtib etmə və aparma işi.",
+  "en": "card-index keeping",
+  "pos": "noun"
+ },
+ "karyeristlik": {
+  "az": "Vəzifədə irəliləmək üçün hər vasitəyə əl atma; şəxsi mənfəəti üstün tutma.",
+  "en": "careerism",
+  "pos": "noun"
+ },
+ "kaskadyorluq": {
+  "az": "Filmlərdə aktyorun yerinə təhlükəli səhnələri ifa etmə peşəsi.",
+  "en": "stunt work",
+  "pos": "noun"
+ },
+ "kataloqçuluq": {
+  "az": "Kataloq tərtib etmə işi.",
+  "en": "cataloguing",
+  "pos": "noun"
+ },
+ "katerçilik": {
+  "az": "Kater heyətində işləmə; kater idarə etmə işi.",
+  "en": "work as a motorboat crewman",
+  "pos": "noun"
+ },
+ "keyidicilik": {
+  "az": "Bədəni və ya bir üzvü hissiz etmə xüsusiyyəti.",
+  "en": "numbing property, anaesthetic effect",
+  "pos": "noun"
+ },
+ "keşikçibaşılıq": {
+  "az": "Gözətçilər rəisinin vəzifəsi.",
+  "en": "the post of chief of the guards",
+  "pos": "noun"
+ },
+ "keşişbaşılıq": {
+  "az": "Baş keşişin vəzifəsi və rütbəsi.",
+  "en": "the office of archpriest",
+  "pos": "noun"
+ },
+ "killerlik": {
+  "az": "Muzdla adam öldürmə; muzdlu qatil işi.",
+  "en": "contract killing",
+  "pos": "noun"
+ },
+ "kiloamperlik": {
+  "az": "Müəyyən sayda kiloamper şiddətində olan (məs.: on kiloamperlik cərəyan).",
+  "en": "of a given number of kiloamperes",
+  "pos": "adjective"
+ },
+ "kiloherslik": {
+  "az": "Müəyyən sayda kilohers tezliyində olan.",
+  "en": "of a given number of kilohertz",
+  "pos": "adjective"
+ },
+ "kilolitrlik": {
+  "az": "Müəyyən sayda kilolitr həcmində olan.",
+  "en": "of a given number of kilolitres",
+  "pos": "adjective"
+ },
+ "kiloomluq": {
+  "az": "Müəyyən sayda kiloom müqavimətində olan.",
+  "en": "of a given number of kiloohms",
+  "pos": "adjective"
+ },
+ "kimyaçılıq": {
+  "az": "Kimyaçı peşəsi; kimya ilə məşğul olma.",
+  "en": "the profession of a chemist",
+  "pos": "noun"
+ },
+ "kimyaşünaslıq": {
+  "az": "Kimya elmi ilə məşğul olma; kimyanı öyrənən sahə.",
+  "en": "chemistry (as a science or profession)",
+  "pos": "noun"
+ },
+ "kinoaktrisalıq": {
+  "az": "Filmlərdə rol oynayan qadın aktyorun peşəsi.",
+  "en": "being a film actress",
+  "pos": "noun"
+ },
+ "kinoartistlik": {
+  "az": "Filmlərdə rol oynayan aktyorun peşəsi.",
+  "en": "film acting (as a profession)",
+  "pos": "noun"
+ },
+ "kinodramaturqluq": {
+  "az": "Filmlər üçün ssenari yazma sənəti.",
+  "en": "screenwriting",
+  "pos": "noun"
+ },
+ "kinomanlıq": {
+  "az": "Kinoya həddən artıq həvəs.",
+  "en": "cinephilia",
+  "pos": "noun"
+ },
+ "kinopərəstlik": {
+  "az": "Kinoya böyük sevgi və həvəs.",
+  "en": "love of cinema",
+  "pos": "noun"
+ },
+ "kinossenariçilik": {
+  "az": "Filmlər üçün ssenari yazma işi.",
+  "en": "screenwriting",
+  "pos": "noun"
+ },
+ "kinosüjetçilik": {
+  "skip": "meaning not certain"
+ },
+ "kinotənqidçilik": {
+  "az": "Filmləri təhlil və tənqid etmə işi.",
+  "en": "film criticism",
+  "pos": "noun"
+ },
+ "kirayənişinlik": {
+  "az": "Kirayə ilə başqasının evində yaşama.",
+  "en": "tenancy, lodging",
+  "pos": "noun"
+ },
+ "kirşəçilik": {
+  "az": "Kirşə sürmə işi.",
+  "en": "sledge driving",
+  "pos": "noun"
+ },
+ "kirəclik": {
+  "skip": "meaning not certain"
+ },
+ "klançılıq": {
+  "az": "Klan maraqlarını hər şeydən üstün tutma; qohumluq və yerlilik əsasında birləşmə.",
+  "en": "clannishness, clan politics",
+  "pos": "noun"
+ },
+ "klarnetçilik": {
+  "az": "Klarnet çalma sənəti; klarnetçi peşəsi.",
+  "en": "clarinet playing",
+  "pos": "noun"
+ },
+ "kofta-tumanlıq": {
+  "az": "Kofta və tuman tikmək üçün yararlı parça.",
+  "en": "fabric for a blouse and skirt",
+  "pos": "noun"
+ },
+ "kolbasaçılıq": {
+  "az": "Kolbasa hazırlama və ya satma işi.",
+  "en": "sausage making (as a trade)",
+  "pos": "noun"
+ },
+ "kolloidlik": {
+  "az": "Kolloid halda olma; kolloid xassəsi.",
+  "en": "colloidal state",
+  "pos": "noun"
+ },
+ "komediantlıq": {
+  "az": "Gülməli oyunlar göstərmə, təlxəklik; məc. yalandan rol oynama.",
+  "en": "clowning, buffoonery; play-acting",
+  "pos": "noun"
+ },
+ "komediyaçılıq": {
+  "az": "Komediya yazma və ya komediyalarda oynama işi.",
+  "en": "comedy writing; comic acting",
+  "pos": "noun"
+ },
+ "komplimentbazlıq": {
+  "az": "Kompliment deməyi çox sevmə; yaltaqlığa meyillilik.",
+  "en": "fondness for paying compliments; flattery",
+  "pos": "noun"
+ },
+ "kompotluq": {
+  "az": "Kompot bişirmək üçün yararlı (kompotluq alma).",
+  "en": "suitable for compote",
+  "pos": "adjective"
+ },
+ "kompressorçuluq": {
+  "az": "Kompressoru idarə etmə işi.",
+  "en": "work as a compressor operator",
+  "pos": "noun"
+ },
+ "kompüterçilik": {
+  "az": "Kompüterlərin quraşdırılması, təmiri və ya proqramlaşdırılması ilə məşğul olma.",
+  "en": "computer work (as a trade)",
+  "pos": "noun"
+ },
+ "konsertmeysterlik": {
+  "az": "Konsertmeyster vəzifəsi və işi.",
+  "en": "the post of concertmaster or accompanist",
+  "pos": "noun"
+ },
+ "konstantlıq": {
+  "az": "Sabit olma, dəyişməzlik.",
+  "en": "constancy, invariance",
+  "pos": "noun"
+ },
+ "kontorçuluq": {
+  "az": "Kontorda xidmətçi kimi işləmə.",
+  "en": "clerical work in an office",
+  "pos": "noun"
+ },
+ "kontr-admirallıq": {
+  "az": "Kontr-admiral rütbəsi.",
+  "en": "rank of rear admiral",
+  "pos": "noun"
+ },
+ "kontrabandçılıq": {
+  "az": "Malları qanunsuz olaraq sərhəddən keçirmə; qaçaqmalçılıq.",
+  "en": "smuggling",
+  "pos": "noun"
+ },
+ "kontrabasçılıq": {
+  "az": "Kontrabas çalma sənəti.",
+  "en": "double bass playing",
+  "pos": "noun"
+ },
+ "konturluq": {
+  "skip": "meaning not certain"
+ },
+ "konveyerçilik": {
+  "az": "Konveyerdə işləmə, konveyeri idarə etmə işi.",
+  "en": "conveyor work",
+  "pos": "noun"
+ },
+ "kooperativçilik": {
+  "az": "Kooperativlərin yaradılması və fəaliyyəti; kooperativ hərəkatı.",
+  "en": "the cooperative movement, cooperativism",
+  "pos": "noun"
+ },
+ "korifeylik": {
+  "az": "Bir sahədə ən görkəmli, aparıcı şəxs olma.",
+  "en": "pre-eminence, being a leading figure",
+  "pos": "noun"
+ },
+ "koroğluşünaslıq": {
+  "az": "Azərbaycan xalq dastanı «Koroğlu»nu öyrənən elm sahəsi.",
+  "en": "Koroghlu studies",
+  "pos": "noun"
+ },
+ "korrupsionerlik": {
+  "az": "Vəzifədən şəxsi mənfəət üçün istifadə etmə; rüşvətxorluq.",
+  "en": "corruption, corrupt practice",
+  "pos": "noun"
+ },
+ "korrupsiyaçılıq": {
+  "az": "Korrupsiya ilə məşğul olma; rüşvətxorluq.",
+  "en": "corruption, corrupt practice",
+  "pos": "noun"
+ },
+ "kosmetoloqluq": {
+  "az": "Kosmetoloq peşəsi.",
+  "en": "the profession of a cosmetologist",
+  "pos": "noun"
+ },
+ "kosmonavtlıq": {
+  "az": "Kosmonavt peşəsi; kosmosa uçuşlarla məşğul olma.",
+  "en": "the profession of a cosmonaut",
+  "pos": "noun"
+ },
+ "kriminoloqluq": {
+  "az": "Cinayətkarlığı öyrənən mütəxəssisin peşəsi.",
+  "en": "the profession of a criminologist",
+  "pos": "noun"
+ },
+ "krujevaçılıq": {
+  "az": "Krujeva toxuma sənəti.",
+  "en": "lace-making",
+  "pos": "noun"
+ },
+ "kuklaşünaslıq": {
+  "az": "Kuklaları və kukla teatrını öyrənən sahə.",
+  "en": "puppetry studies",
+  "pos": "noun"
+ },
+ "kulinarlıq": {
+  "az": "Yemək bişirmə sənəti; aşpazlıq.",
+  "en": "cookery, culinary art",
+  "pos": "noun"
+ },
+ "kultivatorçuluq": {
+  "az": "Kultivatorla torpaq becərmə işi.",
+  "en": "work as a cultivator operator",
+  "pos": "noun"
+ },
+ "kultluq": {
+  "skip": "meaning not certain"
+ },
+ "kulturistlik": {
+  "az": "Bədən quruculuğu ilə məşğul olma.",
+  "en": "bodybuilding",
+  "pos": "noun"
+ },
+ "kumirlik": {
+  "az": "Pərəstiş obyekti olma, büt kimi sevilmə.",
+  "en": "being an idol, idol status",
+  "pos": "noun"
+ },
+ "kupletçilik": {
+  "az": "Estradada kuplet oxuma işi.",
+  "en": "singing topical songs (as a profession)",
+  "pos": "noun"
+ },
+ "kursantlıq": {
+  "az": "Kursant olma; hərbi məktəbdə və ya kursda oxuma dövrü.",
+  "en": "being a cadet, cadetship",
+  "pos": "noun"
+ },
+ "kuryerlik": {
+  "az": "Məktub, sənəd və bağlamaları ünvanlara çatdırma işi.",
+  "en": "courier work",
+  "pos": "noun"
+ },
+ "kvadratlıq": {
+  "skip": "meaning not certain"
+ },
+ "kvartallıq": {
+  "skip": "meaning not certain"
+ },
+ "kvasçılıq": {
+  "az": "Kvas hazırlama və satma işi.",
+  "en": "kvass making and selling",
+  "pos": "noun"
+ },
+ "köşəlik": {
+  "skip": "meaning not certain"
+ },
+ "küftəbozbaşlıq": {
+  "az": "Küftəbozbaş bişirmək üçün yararlı (küftəbozbaşlıq ət).",
+  "en": "for making kufta bozbash",
+  "pos": "adjective"
+ },
+ "külfətlik": {
+  "skip": "meaning not certain"
+ },
+ "külxanaçılıq": {
+  "az": "Hamam ocağını yandırma işi.",
+  "en": "work as a bathhouse stoker",
+  "pos": "noun"
+ },
+ "külüngçülük": {
+  "az": "Külünglə torpaq qazma işi.",
+  "en": "pickaxe work, digging",
+  "pos": "noun"
+ },
+ "kürdlük": {
+  "az": "Kürd olma; kürdlərə xas xüsusiyyətlər.",
+  "en": "Kurdishness, Kurdish identity",
+  "pos": "noun"
+ },
+ "kürdşünaslıq": {
+  "az": "Kürd dilini, tarixini və mədəniyyətini öyrənən elm sahəsi.",
+  "en": "Kurdology, Kurdish studies",
+  "pos": "noun"
+ },
+ "kürüçülük": {
+  "az": "Balıq kürüsünün hasilatı və emalı işi.",
+  "en": "caviar production",
+  "pos": "noun"
+ },
+ "kürəkçilik": {
+  "az": "Avar çəkmə işi.",
+  "en": "rowing (as work)",
+  "pos": "noun"
+ },
+ "kütləlik": {
+  "skip": "meaning not certain"
+ },
+ "küy-kələkçilik": {
+  "az": "Hay-küy qaldırmağa, qalmaqal salmağa meyillilik.",
+  "en": "fussing, troublemaking",
+  "pos": "noun"
+ },
+ "küçüklük": {
+  "az": "İtin bala olduğu dövr.",
+  "en": "puppyhood",
+  "pos": "noun"
+ },
+ "kəbinlik": {
+  "skip": "meaning not certain"
+ },
+ "kəcnəzərlik": {
+  "az": "Birinə pis niyyətlə, düşmən gözü ilə baxma; bədxahlıq.",
+  "en": "ill will, malevolence",
+  "pos": "noun"
+ },
+ "kəfrəmlik": {
+  "skip": "meaning not certain"
+ },
+ "kəkillik": {
+  "skip": "meaning not certain"
+ },
+ "kəkovluq": {
+  "az": "Danışarkən kəkələmə; kəkəlik.",
+  "en": "stammering, stuttering",
+  "pos": "noun",
+  "src": "izahli"
+ },
+ "kəltənlik": {
+  "skip": "meaning not certain"
+ },
+ "kəndirlik": {
+  "skip": "meaning not certain"
+ },
+ "kərkiçilik": {
+  "skip": "meaning not certain"
+ },
+ "kərpiclik": {
+  "skip": "meaning not certain"
+ },
+ "kərəlik": {
+  "skip": "meaning not certain"
+ },
+ "kəvərlik": {
+  "az": "Kəvər əkilən və ya bitən yer.",
+  "en": "patch where kavar greens grow",
+  "pos": "noun"
+ },
+ "lakçılıq": {
+  "az": "Əşyalara lak çəkmə işi.",
+  "en": "varnishing (as a trade)",
+  "pos": "noun"
+ },
+ "lassalçılıq": {
+  "skip": "meaning not certain"
+ },
+ "latınşünaslıq": {
+  "az": "Latın dilini və ədəbiyyatını öyrənən elm sahəsi.",
+  "en": "Latin studies",
+  "pos": "noun"
+ },
+ "layihəçilik": {
+  "az": "Layihə hazırlama, tərtib etmə işi.",
+  "en": "design work, project planning",
+  "pos": "noun"
+ },
+ "lağlağıçılıq": {
+  "az": "Məsxərəçilik, şaklabanlıq.",
+  "en": "buffoonery, clowning",
+  "pos": "noun"
+ },
+ "lehimçilik": {
+  "az": "Lehim vurma işi.",
+  "en": "soldering (as a trade)",
+  "pos": "noun"
+ },
+ "liftçilik": {
+  "az": "Lifti idarə etmə işi.",
+  "en": "lift operating",
+  "pos": "noun"
+ },
+ "lifçilik": {
+  "az": "Hamamda müştərilərə lif çəkmə işi; kisəçilik.",
+  "en": "work of a bathhouse scrubber",
+  "pos": "noun"
+ },
+ "limançılıq": {
+  "az": "Limanda işləmə; liman işi.",
+  "en": "port work, dock work",
+  "pos": "noun"
+ },
+ "litoqrafçılıq": {
+  "az": "Litoqrafiya üsulu ilə çap işi.",
+  "en": "lithographic printing (as a trade)",
+  "pos": "noun"
+ },
+ "litrajlıq": {
+  "skip": "meaning not certain"
+ },
+ "loğmanlıq": {
+  "az": "Xalq təbabəti ilə xəstələri sağaltma; təbiblik.",
+  "en": "healing, practice of folk medicine",
+  "pos": "noun"
+ },
+ "lələklik": {
+  "skip": "meaning not certain"
+ },
+ "lətifəbazlıq": {
+  "az": "Lətifə danışmağı çox sevmə.",
+  "en": "fondness for telling jokes",
+  "pos": "noun"
+ },
+ "ləçərlik": {
+  "az": "Həyasızlıq, ədəbsizlik; söyüşkənlik.",
+  "en": "shamelessness, vulgarity",
+  "pos": "noun"
+ },
+ "maaşlıq": {
+  "skip": "meaning not certain"
+ },
+ "macərabazlıq": {
+  "az": "Macəra axtarmağa meyillilik; avantürizm.",
+  "en": "adventurism",
+  "pos": "noun"
+ },
+ "madyanlıq": {
+  "skip": "meaning not certain"
+ },
+ "mafiyabazlıq": {
+  "az": "Mafiya üsulları ilə iş görmə.",
+  "en": "mafia-like practices",
+  "pos": "noun"
+ },
+ "mafiyaçılıq": {
+  "az": "Mütəşəkkil cinayətkarlıqla məşğul olma.",
+  "en": "organized crime, mafia activity",
+  "pos": "noun"
+ },
+ "magistrallıq": {
+  "skip": "meaning not certain"
+ },
+ "maklerlik": {
+  "az": "Alqı-satqıda vasitəçilik işi.",
+  "en": "brokerage",
+  "pos": "noun"
+ },
+ "maksimalçılıq": {
+  "az": "Ən yüksək, son həddə çatan tələblər irəli sürməyə meyillilik.",
+  "en": "maximalism",
+  "pos": "noun"
+ },
+ "malyeməzlik": {
+  "az": "Varı olduğu halda özünə də xərcləməmə; xəsislik.",
+  "en": "miserliness",
+  "pos": "noun"
+ },
+ "mandarinlik": {
+  "az": "Mandarin ağacları əkilmiş yer.",
+  "en": "mandarin orchard",
+  "pos": "noun"
+ },
+ "manikürçülük": {
+  "az": "Manikür etmə işi.",
+  "en": "manicuring (as a job)",
+  "pos": "noun"
+ },
+ "manqurtluq": {
+  "az": "Öz milli kökünü, tarixini və dilini unutma.",
+  "en": "mankurtism, forgetting one's roots",
+  "pos": "noun"
+ },
+ "manufakturaçılıq": {
+  "az": "Parça alveri; bəzzazlıq.",
+  "en": "drapery trade",
+  "pos": "noun"
+ },
+ "manyaklıq": {
+  "az": "Bir fikrə və ya şeyə xəstəlik dərəcəsində bağlılıq.",
+  "en": "mania, maniacal behaviour",
+  "pos": "noun"
+ },
+ "maopərəstlik": {
+  "az": "Mao Tszedunun ideyalarına pərəstiş; maoizm.",
+  "en": "Maoism",
+  "pos": "noun"
+ },
+ "maqnatlıq": {
+  "az": "Maqnat olma; iri sərvət və təsir sahibi olma.",
+  "en": "being a magnate",
+  "pos": "noun"
+ },
+ "marafonçuluq": {
+  "az": "Marafon qaçışı ilə məşğul olma.",
+  "en": "marathon running",
+  "pos": "noun"
+ },
+ "martençilik": {
+  "az": "Marten sobasında polad əritmə işi.",
+  "en": "open-hearth furnace work",
+  "pos": "noun"
+ },
+ "masajçılıq": {
+  "az": "Masaj etmə peşəsi.",
+  "en": "massage (as a profession)",
+  "pos": "noun"
+ },
+ "matahlıq": {
+  "skip": "meaning not certain"
+ },
+ "materiallıq": {
+  "skip": "meaning not certain"
+ },
+ "matriarxatlıq": {
+  "skip": "meaning not certain"
+ },
+ "maykalıq": {
+  "az": "Mayka tikmək üçün yararlı parça.",
+  "en": "fabric for undershirts",
+  "pos": "noun"
+ },
+ "mazoxistlik": {
+  "az": "Əzab çəkməkdən həzz alma; mazoxizm.",
+  "en": "masochism",
+  "pos": "noun"
+ },
+ "mağazaçılıq": {
+  "az": "Mağazada satıcılıq işi.",
+  "en": "shop work, shopkeeping",
+  "pos": "noun"
+ },
+ "mehmandarlıq": {
+  "az": "Qonaqları qarşılama və onlara xidmət göstərmə; qonaqpərvərlik.",
+  "en": "hosting guests, hospitality",
+  "pos": "noun"
+ },
+ "mehtərbaşılıq": {
+  "az": "Mehtərbaşının vəzifəsi.",
+  "en": "the post of chief groom",
+  "pos": "noun"
+ },
+ "melioratorluq": {
+  "az": "Torpaq meliorasiyası üzrə mütəxəssisin peşəsi.",
+  "en": "the profession of a land-reclamation specialist",
+  "pos": "noun"
+ },
+ "memuarçılıq": {
+  "az": "Xatirələr yazma işi; memuar ədəbiyyatı.",
+  "en": "memoir writing",
+  "pos": "noun"
+ },
+ "meningitlik": {
+  "skip": "meaning not certain"
+ },
+ "metalçılıq": {
+  "az": "Metal sənayesində işləmə; metal emalı işi.",
+  "en": "metalworking",
+  "pos": "noun"
+ },
+ "metroloqluq": {
+  "az": "Metrologiya üzrə mütəxəssisin peşəsi.",
+  "en": "the profession of a metrologist",
+  "pos": "noun"
+ },
+ "metroluq": {
+  "skip": "meaning not certain"
+ },
+ "metroçuluq": {
+  "skip": "meaning not certain"
+ },
+ "meypərəstlik": {
+  "az": "Şəraba düşkünlük.",
+  "en": "fondness for wine",
+  "pos": "noun"
+ },
+ "meyvəpərəstlik": {
+  "az": "Meyvəni çox sevmə.",
+  "en": "love of fruit",
+  "pos": "noun"
+ },
+ "meşinçilik": {
+  "skip": "meaning not certain"
+ },
+ "meşəşünaslıq": {
+  "az": "Meşələri və meşə təsərrüfatını öyrənən elm sahəsi.",
+  "en": "forestry, silviculture",
+  "pos": "noun",
+  "src": "musayev"
+ },
+ "mifoloqluq": {
+  "az": "Mifləri öyrənən mütəxəssisin peşəsi.",
+  "en": "the profession of a mythologist",
+  "pos": "noun"
+ },
+ "mifşünaslıq": {
+  "az": "Mifləri öyrənən elm sahəsi.",
+  "en": "mythology (the study of myths)",
+  "pos": "noun"
+ },
+ "mikoloqluq": {
+  "az": "Göbələkləri öyrənən alimin peşəsi.",
+  "en": "the profession of a mycologist",
+  "pos": "noun"
+ },
+ "mikrobioloqluq": {
+  "az": "Mikroorqanizmləri öyrənən alimin peşəsi.",
+  "en": "the profession of a microbiologist",
+  "pos": "noun"
+ },
+ "mikroiqlimşünaslıq": {
+  "az": "Mikroiqlimi öyrənən elm sahəsi.",
+  "en": "microclimatology",
+  "pos": "noun"
+ },
+ "mikrometrlik": {
+  "az": "Müəyyən sayda mikrometr ölçüsündə olan.",
+  "en": "of a given number of micrometres",
+  "pos": "adjective"
+ },
+ "milliamperlik": {
+  "az": "Müəyyən sayda milliamper şiddətində olan.",
+  "en": "of a given number of milliamperes",
+  "pos": "adjective"
+ },
+ "millətbazlıq": {
+  "az": "Millətçiliyi şəxsi mənfəət vasitəsinə çevirmə; demaqoji millətçilik.",
+  "en": "demagogic nationalism",
+  "pos": "noun"
+ },
+ "milyarderlik": {
+  "az": "Milyarder olma.",
+  "en": "being a billionaire",
+  "pos": "noun"
+ },
+ "milyonerlik": {
+  "az": "Milyoner olma.",
+  "en": "being a millionaire",
+  "pos": "noun"
+ },
+ "mimiklik": {
+  "skip": "meaning not certain"
+ },
+ "minalıq": {
+  "skip": "meaning not certain"
+ },
+ "minomyotçuluq": {
+  "az": "Minomyot hissəsində xidmət etmə.",
+  "en": "service as a mortar man",
+  "pos": "noun"
+ },
+ "mioloqluq": {
+  "az": "Əzələləri öyrənən mütəxəssisin peşəsi.",
+  "en": "the profession of a myologist",
+  "pos": "noun"
+ },
+ "mirqəzəblik": {
+  "az": "Cəza icra etmə işi; cəlladlıq.",
+  "en": "the work of an executioner",
+  "pos": "noun"
+ },
+ "mirvarilik": {
+  "skip": "meaning not certain"
+ },
+ "mismarlıq": {
+  "skip": "meaning not certain"
+ },
+ "mistifikasiyaçılıq": {
+  "az": "Yalan məlumatla insanları aldatma, mistifikasiya ilə məşğul olma.",
+  "en": "hoaxing, mystification",
+  "pos": "noun"
+ },
+ "mitinqbazlıq": {
+  "az": "Mitinqlərə həddən artıq meyil göstərmə.",
+  "en": "fondness for rallies",
+  "pos": "noun"
+ },
+ "mitinqçilik": {
+  "az": "Mitinqlər təşkil etmə və onlarda iştirak etmə.",
+  "en": "rally activism",
+  "pos": "noun"
+ },
+ "mizantropluq": {
+  "az": "İnsanlara nifrət etmə, onlardan uzaq qaçma; mizantropiya.",
+  "en": "misanthropy",
+  "pos": "noun"
+ },
+ "miçmanlıq": {
+  "az": "Miçman rütbəsi.",
+  "en": "rank of naval warrant officer",
+  "pos": "noun"
+ },
+ "modernistlik": {
+  "az": "Modernizm cərəyanına mənsubluq.",
+  "en": "modernism, being a modernist",
+  "pos": "noun"
+ },
+ "moizəxanlıq": {
+  "az": "Moizə oxuma işi.",
+  "en": "preaching",
+  "pos": "noun"
+ },
+ "moizəçilik": {
+  "az": "Moizə oxumağa, nəsihət verməyə meyillilik.",
+  "en": "preaching, moralizing",
+  "pos": "noun"
+ },
+ "mollabaşılıq": {
+  "az": "Mollaların başçısının vəzifəsi.",
+  "en": "the post of chief mullah",
+  "pos": "noun"
+ },
+ "mollanəsrəddinçilik": {
+  "az": "XX əsrin əvvəllərində «Molla Nəsrəddin» jurnalı ətrafında yaranmış satirik ədəbi məktəb.",
+  "en": "the Molla Nasreddin literary school",
+  "pos": "noun"
+ },
+ "mollanəsrəddinşünaslıq": {
+  "az": "Ədəbiyyatşünaslıqda «Molla Nəsrəddin» jurnalını və onun ədəbi məktəbini öyrənən sahə.",
+  "en": "Molla Nasreddin studies",
+  "pos": "noun"
+ },
+ "monarxistlik": {
+  "az": "Monarxiya quruluşunun tərəfdarı olma; monarxizm.",
+  "en": "monarchism",
+  "pos": "noun"
+ },
+ "monarxlıq": {
+  "az": "Monarx olma; monarxın hakimiyyəti.",
+  "en": "being a monarch; monarchical rule",
+  "pos": "noun"
+ },
+ "monaxlıq": {
+  "az": "Dünya işlərindən əl çəkib monastırda yaşama; rahiblik.",
+  "en": "monasticism, monkhood",
+  "pos": "noun"
+ },
+ "monoteistlik": {
+  "az": "Tək tanrıya inanma; monoteizm.",
+  "en": "monotheism",
+  "pos": "noun"
+ },
+ "montajçılıq": {
+  "az": "Qurğuları yığma və quraşdırma işi.",
+  "en": "assembly and installation work",
+  "pos": "noun"
+ },
+ "monumentalistlik": {
+  "az": "Monumental sənətlə məşğul olma.",
+  "en": "monumental art (as a practice)",
+  "pos": "noun"
+ },
+ "morfoloqluq": {
+  "az": "Morfologiya üzrə mütəxəssisin peşəsi.",
+  "en": "the profession of a morphologist",
+  "pos": "noun"
+ },
+ "morzeçilik": {
+  "az": "Morze əlifbası ilə teleqraf işi.",
+  "en": "Morse telegraphy",
+  "pos": "noun"
+ },
+ "mulçalıq": {
+  "skip": "meaning not certain"
+ }
+}

@@ -1,0 +1,931 @@
+{
+ "şaxtavurma": {
+  "az": "Bitkilərin şaxtadan zədələnməsi, donvurma.",
+  "en": "frost damage (to plants)",
+  "pos": "noun"
+ },
+ "şehdərən": {
+  "skip": "meaning not certain"
+ },
+ "şehgətirən": {
+  "az": "Şeh əmələ gətirən, şeh düşməsinə səbəb olan (şehgətirən küləklər).",
+  "en": "dew-bringing",
+  "pos": "adjective"
+ },
+ "şehtökən": {
+  "skip": "meaning not certain"
+ },
+ "şehölçmə": {
+  "az": "Düşən şehin miqdarını ölçmə.",
+  "en": "dew measurement",
+  "pos": "noun"
+ },
+ "şehölçən": {
+  "az": "Düşən şehin miqdarını ölçən (şehölçən cihaz).",
+  "en": "dew-measuring; dew gauge",
+  "pos": "adjective"
+ },
+ "şeypurburunlu": {
+  "skip": "possibly an animal name, not certain"
+ },
+ "şeytanfikirli": {
+  "az": "Şeytan kimi hiyləgər, fitnəkar fikirləri olan.",
+  "en": "devious, scheming",
+  "pos": "adjective"
+ },
+ "şeytanpapaq": {
+  "skip": "plant or fungus name, not certain"
+ },
+ "şeytansifətli": {
+  "az": "Sifəti şeytana bənzəyən, eybəcər və ya hiyləgər görkəmli.",
+  "en": "devil-faced",
+  "pos": "adjective"
+ },
+ "şeşəmodu": {
+  "skip": "meaning not certain"
+ },
+ "şeşəqulaq": {
+  "skip": "meaning not certain"
+ },
+ "şeşəqulaqlı": {
+  "az": "Qulaqları dik duran (heyvan, xüsusən at haqqında).",
+  "en": "with pricked-up ears",
+  "pos": "adjective"
+ },
+ "şifraçan": {
+  "az": "Şifrlənmiş məlumatı açan, oxunaqlı hala salan (şifraçan qurğu).",
+  "en": "decoding, deciphering",
+  "pos": "adjective"
+ },
+ "şifraçma": {
+  "az": "Şifrlənmiş mətni və ya məlumatı açma, oxunaqlı hala salma.",
+  "en": "decryption, deciphering",
+  "pos": "noun"
+ },
+ "şifrmətn": {
+  "az": "Şifrlənmiş, açarsız oxuna bilməyən mətn.",
+  "en": "ciphertext",
+  "pos": "noun"
+ },
+ "şimalmaralı": {
+  "az": "Şimal ölkələrində yaşayan, hər iki cinsində buynuz olan maral növü.",
+  "en": "reindeer",
+  "pos": "noun"
+ },
+ "şimalmoruğu": {
+  "skip": "plant name, not certain"
+ },
+ "şirindənə": {
+  "skip": "possibly a plant or variety name, not certain"
+ },
+ "şirindənəli": {
+  "az": "Dənələri şirin olan (şirindənəli nar).",
+  "en": "sweet-grained, with sweet seeds",
+  "pos": "adjective"
+ },
+ "şirinsöhbət": {
+  "az": "Xoş, şirin danışan, söhbəti maraqlı olan (adam).",
+  "en": "pleasant to talk to; an engaging conversationalist",
+  "pos": "adjective"
+ },
+ "şirinsöhbətli": {
+  "az": "Xoş, şirin danışan, söhbəti maraqlı olan.",
+  "en": "pleasant to talk to, engaging in conversation",
+  "pos": "adjective"
+ },
+ "şirintumlu": {
+  "az": "Tumu şirin olan (şirintumlu qarpız).",
+  "en": "sweet-seeded",
+  "pos": "adjective"
+ },
+ "şirinçəyirdək": {
+  "skip": "possibly a variety name, not certain"
+ },
+ "şirinçəyirdəkli": {
+  "az": "Çəyirdəyinin ləpəsi şirin olan (şirinçəyirdəkli ərik).",
+  "en": "sweet-kernelled",
+  "pos": "adjective"
+ },
+ "şirnibişirmə": {
+  "az": "Şirni, konfet və bu kimi şirniyyat hazırlama.",
+  "en": "confectionery making",
+  "pos": "noun"
+ },
+ "şirnibişirən": {
+  "az": "Şirni, konfet və bu kimi şirniyyat hazırlayan adam; qənnadçı.",
+  "en": "confectioner, sweet-maker",
+  "pos": "noun"
+ },
+ "şirpəncə": {
+  "skip": "meaning not certain"
+ },
+ "şirpəncəli": {
+  "az": "Pəncəsi şir pəncəsi kimi güclü olan; qüvvətli əlli.",
+  "en": "lion-pawed; strong-handed",
+  "pos": "adjective"
+ },
+ "şirəyəbənzər": {
+  "az": "Görünüşü və ya xassəsi şirəyə bənzəyən.",
+  "en": "juice-like, sap-like",
+  "pos": "adjective"
+ },
+ "şirəyəoxşar": {
+  "az": "Görünüşü və ya xassəsi şirəyə oxşayan.",
+  "en": "juice-like, sap-like",
+  "pos": "adjective"
+ },
+ "şirəçıxaran": {
+  "az": "Meyvə və tərəvəzdən şirə çıxaran (şirəçıxaran maşın).",
+  "en": "juice-extracting; juicer",
+  "pos": "adjective"
+ },
+ "şirəçəkmə": {
+  "az": "Meyvə, tərəvəz və ya bitkidən şirə çıxarma.",
+  "en": "juice extraction",
+  "pos": "noun"
+ },
+ "şitilbasdıran": {
+  "az": "Şitilləri torpağa basdıran, əkən (şitilbasdıran maşın).",
+  "en": "seedling-planting; seedling planter",
+  "pos": "adjective"
+ },
+ "şitilbasdırma": {
+  "az": "Şitilləri torpağa basdırma, əkmə.",
+  "en": "planting of seedlings",
+  "pos": "noun"
+ },
+ "şitiləkmə": {
+  "az": "Şitilləri yerinə, torpağa əkmə.",
+  "en": "planting out seedlings, transplanting",
+  "pos": "noun"
+ },
+ "şixtabişirici": {
+  "skip": "technical term, not certain"
+ },
+ "şişgövdə": {
+  "skip": "meaning not certain"
+ },
+ "şişkinbaldır": {
+  "skip": "meaning not certain"
+ },
+ "şişkinbilək": {
+  "skip": "meaning not certain"
+ },
+ "şişkinbiləkli": {
+  "az": "Biləkləri şişkin, qalın olan.",
+  "en": "thick-wristed, with swollen wrists",
+  "pos": "adjective"
+ },
+ "şişmansifət": {
+  "az": "Sifəti dolu, kök olan (adam).",
+  "en": "fat-faced, chubby-faced",
+  "pos": "adjective"
+ },
+ "şişmansifətli": {
+  "az": "Sifəti dolu, kök olan.",
+  "en": "fat-faced, chubby-faced",
+  "pos": "adjective"
+ },
+ "şişmeyvə": {
+  "skip": "botanical term, not certain"
+ },
+ "şişmeyvəli": {
+  "skip": "botanical term, not certain"
+ },
+ "şişpapaqlı": {
+  "az": "Başında ucu şiş, uclu papaq olan.",
+  "en": "wearing a pointed hat",
+  "pos": "adjective"
+ },
+ "şlaktipli": {
+  "az": "Şlak tipində olan, şlaka bənzəyən (şlaktipli material).",
+  "en": "slag-type",
+  "pos": "adjective"
+ },
+ "şlaktəmizləmə": {
+  "az": "Sobadan, ərintidən və s. şlakı təmizləmə, çıxarma.",
+  "en": "slag removal",
+  "pos": "noun"
+ },
+ "şlaktəmizləyən": {
+  "az": "Şlakı təmizləyən, çıxaran (şlaktəmizləyən qurğu).",
+  "en": "slag-removing",
+  "pos": "adjective"
+ },
+ "şokverici": {
+  "az": "Şok yaradan, adamı sarsıdan (şokverici xəbər).",
+  "en": "shocking",
+  "pos": "adjective"
+ },
+ "şorasevən": {
+  "az": "Şoran, duzlu torpaqlarda bitməyə uyğunlaşmış (şorasevən bitkilər).",
+  "en": "halophilic, salt-loving (of plants)",
+  "pos": "adjective"
+ },
+ "şordüzənli": {
+  "az": "Şor, duzlu düzənlikləri olan (şordüzənli ərazi).",
+  "en": "with salt flats",
+  "pos": "adjective"
+ },
+ "şordüzənlik": {
+  "az": "Torpağı duzlu olan düzən yer; şoranlıq düzən.",
+  "en": "salt flat, saline plain",
+  "pos": "noun"
+ },
+ "şorkökə": {
+  "az": "Duzlu xəmirdən bişirilən kökə.",
+  "en": "savoury bun",
+  "pos": "noun"
+ },
+ "şorotu": {
+  "skip": "plant name, not certain"
+ },
+ "şorsüzmə": {
+  "az": "Şorun (kəsmiyin) suyunu torbadan süzüb ayırma.",
+  "en": "straining curd cheese",
+  "pos": "noun",
+  "parts": false
+ },
+ "şorsüzən": {
+  "az": "Şorun (kəsmiyin) suyunu süzmək üçün işlədilən (şorsüzən torba).",
+  "en": "used for straining curd cheese",
+  "pos": "adjective",
+  "parts": false
+ },
+ "şorçörəyi": {
+  "skip": "meaning not certain"
+ },
+ "şpaldüzmə": {
+  "az": "Dəmir yolunda relslərin altına şpalları düzmə, döşəmə.",
+  "en": "laying of railway sleepers",
+  "pos": "noun"
+ },
+ "şpaldüzən": {
+  "az": "Dəmir yolunda şpalları düzən maşın və ya fəhlə.",
+  "en": "sleeper layer (machine or worker)",
+  "pos": "noun",
+  "parts": false
+ },
+ "şpalhopdurma": {
+  "az": "Şpalları çürüməyə qarşı qoruyucu maddə ilə hopdurma.",
+  "en": "impregnation of railway sleepers",
+  "pos": "noun"
+ },
+ "şrifttökmə": {
+  "az": "Mətbəə üçün metaldan şrift, hərf tökmə.",
+  "en": "type founding, typecasting",
+  "pos": "noun"
+ },
+ "şriftyığan": {
+  "az": "Mətbəədə şrift yığan işçi; hürufatçı.",
+  "en": "typesetter, compositor",
+  "pos": "noun"
+ },
+ "şriftyığma": {
+  "az": "Çap üçün hərfləri sıra ilə yığıb mətn düzəltmə.",
+  "en": "typesetting",
+  "pos": "noun"
+ },
+ "ştanqfırladan": {
+  "az": "Qazma işlərində ştanqı (qazma borusunu) fırladan (ştanqfırladan mexanizm).",
+  "en": "rod-rotating (in drilling)",
+  "pos": "adjective",
+  "parts": false
+ },
+ "ştanqfırladıcı": {
+  "az": "Qazma işlərində ştanqı (qazma borusunu) fırladan qurğu.",
+  "en": "rod rotator (in drilling)",
+  "pos": "noun",
+  "parts": false
+ },
+ "ştanqqaldırma": {
+  "az": "Ştanq qaldırmaqdan ibarət idman növü; ağır atletika.",
+  "en": "weightlifting",
+  "pos": "noun"
+ },
+ "şumotu": {
+  "skip": "plant name, not certain"
+ },
+ "şumqabağı": {
+  "az": "Şumdan əvvəl aparılan (şumqabağı gübrələmə).",
+  "en": "pre-ploughing",
+  "pos": "adjective"
+ },
+ "şöbədaxili": {
+  "az": "Bir şöbənin daxilində olan, onun öz işinə aid olan.",
+  "en": "intra-departmental",
+  "pos": "adjective"
+ },
+ "şüaburaxma": {
+  "az": "Şüa yayma, şüa buraxma.",
+  "en": "emission of rays, radiation",
+  "pos": "noun"
+ },
+ "şüakeçirici": {
+  "az": "Şüaları özündən keçirən (şüakeçirici material).",
+  "en": "transparent to rays, radiation-transmitting",
+  "pos": "adjective"
+ },
+ "şüakeçirmə": {
+  "az": "Şüaları özündən keçirmə qabiliyyəti.",
+  "en": "transmission of rays, transmittance",
+  "pos": "noun"
+ },
+ "şüakeçirən": {
+  "az": "Şüaları özündən keçirən.",
+  "en": "transparent to rays, radiation-transmitting",
+  "pos": "adjective"
+ },
+ "şüakeçmə": {
+  "az": "Şüaların bir mühitdən keçməsi.",
+  "en": "passage of rays",
+  "pos": "noun"
+ },
+ "şüakeçməz": {
+  "az": "Şüaları özündən keçirməyən.",
+  "en": "impervious to rays, radiopaque",
+  "pos": "adjective"
+ },
+ "şüakeçən": {
+  "az": "Şüaların keçə bildiyi, şüa keçirən.",
+  "en": "permeable to rays",
+  "pos": "adjective"
+ },
+ "şüaqaytaran": {
+  "az": "Üzərinə düşən şüaları əks etdirən, geri qaytaran (şüaqaytaran səth).",
+  "en": "reflecting (rays), reflective",
+  "pos": "adjective"
+ },
+ "şüaqəbuledici": {
+  "az": "Şüaları, şüalanmanı qəbul edən cihaz və ya hissə.",
+  "en": "radiation receiver",
+  "pos": "noun"
+ },
+ "şüasaçma": {
+  "az": "Şüa yayma, ətrafa şüa saçma; şüalanma.",
+  "en": "radiation, emission of rays",
+  "pos": "noun",
+  "parts": false,
+  "src": "izahli"
+ },
+ "şüasındıran": {
+  "az": "Şüaları sındıran, istiqamətini dəyişən.",
+  "en": "refracting",
+  "pos": "adjective"
+ },
+ "şüasındırıcı": {
+  "az": "Şüaları sındıran cihaz və ya mühit.",
+  "en": "refractor",
+  "pos": "noun"
+ },
+ "şüauducu": {
+  "az": "Şüaları, şüalanmanı udan maddə və ya qurğu.",
+  "en": "radiation absorber",
+  "pos": "noun"
+ },
+ "şüşəbişirmə": {
+  "az": "Şüşə istehsalında xammalı sobada bişirmə, əritmə.",
+  "en": "glass melting, glassmaking",
+  "pos": "noun"
+ },
+ "şüşəbişirən": {
+  "az": "Şüşə bişirən, şüşə istehsal edən (şüşəbişirən soba).",
+  "en": "glass-melting, glassmaking",
+  "pos": "adjective"
+ },
+ "şüşədoğrama": {
+  "skip": "meaning not certain"
+ },
+ "şüşədoğrayan": {
+  "skip": "meaning not certain"
+ },
+ "şüşəformalaşdıran": {
+  "az": "Şüşə əmələ gətirən (şüşəformalaşdıran oksidlər).",
+  "en": "glass-forming",
+  "pos": "adjective"
+ },
+ "şüşəkəsmə": {
+  "az": "Şüşəni ölçüyə görə kəsmə.",
+  "en": "glass cutting",
+  "pos": "noun"
+ },
+ "şüşəqayırma": {
+  "az": "Şüşə və şüşə məmulatı hazırlama (şüşəqayırma zavodu).",
+  "en": "glassmaking",
+  "pos": "noun"
+ },
+ "şüşəqıran": {
+  "skip": "meaning not certain"
+ },
+ "şüşəqırma": {
+  "skip": "meaning not certain"
+ },
+ "şüşəsalma": {
+  "az": "Pəncərə və qapı çərçivələrinə şüşə salma, taxma.",
+  "en": "glazing",
+  "pos": "noun"
+ },
+ "şüşətəmizləmə": {
+  "az": "Şüşəni çirkdən təmizləmə (şüşətəmizləmə vasitəsi).",
+  "en": "glass cleaning",
+  "pos": "noun"
+ },
+ "şüşətəmizləyici": {
+  "az": "Şüşəni təmizləyən (şüşətəmizləyici maye).",
+  "en": "glass-cleaning; glass cleaner",
+  "pos": "adjective"
+ },
+ "şüşəüfürmə": {
+  "az": "Ərimiş şüşəni üfürərək qab və başqa məmulat düzəltmə.",
+  "en": "glassblowing",
+  "pos": "noun"
+ },
+ "şüşəüfürən": {
+  "az": "Ərimiş şüşəni üfürməklə qab və başqa məmulat düzəldən usta.",
+  "en": "glassblower",
+  "pos": "noun",
+  "src": "both"
+ },
+ "şüşəəridən": {
+  "az": "Şüşə xammalını əridən (şüşəəridən soba).",
+  "en": "glass-melting",
+  "pos": "adjective"
+ },
+ "şüşəəritmə": {
+  "az": "Şüşə xammalını yüksək istilikdə əritmə.",
+  "en": "glass melting",
+  "pos": "noun"
+ },
+ "şırımaçan": {
+  "az": "Torpaqda şırım açan (şırımaçan alət).",
+  "en": "furrow-opening; furrower",
+  "pos": "adjective"
+ },
+ "şırımaçma": {
+  "az": "Torpaqda şırım açma, şırım çəkmə.",
+  "en": "furrowing, making furrows",
+  "pos": "noun"
+ },
+ "şəbihçıxarma": {
+  "az": "Kərbəla faciəsini əks etdirən şəbih tamaşası göstərmə.",
+  "en": "staging of a ta'zieh (passion play)",
+  "pos": "noun"
+ },
+ "şəbəkəbənd": {
+  "skip": "meaning not certain"
+ },
+ "şəbəkənaxış": {
+  "az": "Tor, şəbəkə şəklində olan naxış.",
+  "en": "lattice pattern, net-like ornament",
+  "pos": "noun"
+ },
+ "şəbəkəşəkilli": {
+  "az": "Tor, şəbəkə şəklində olan.",
+  "en": "net-like, reticulate",
+  "pos": "adjective"
+ },
+ "şəfatapan": {
+  "az": "Xəstəlikdən şəfa tapan, sağalan adam.",
+  "en": "one who recovers, a healed person",
+  "pos": "noun",
+  "parts": false
+ },
+ "şəfaverən": {
+  "az": "Şəfa verən, xəstəni sağaldan (şəfaverən su).",
+  "en": "healing, curative",
+  "pos": "adjective"
+ },
+ "şəkildəyişən": {
+  "skip": "meaning not certain"
+ },
+ "şələbığlı": {
+  "az": "Bığları iri, qalın və sallaq olan.",
+  "en": "with a bushy drooping mustache",
+  "pos": "adjective"
+ },
+ "şələpapaqlı": {
+  "az": "Başında iri, tüklü papaq olan.",
+  "en": "wearing a big shaggy hat",
+  "pos": "adjective"
+ },
+ "şənxasiyyət": {
+  "az": "Xasiyyəti şən olan, gülərüz.",
+  "en": "cheerful, of a cheerful disposition",
+  "pos": "adjective"
+ },
+ "şərabqabı": {
+  "az": "Şərab saxlamaq və ya süzmək üçün qab.",
+  "en": "wine vessel",
+  "pos": "noun"
+ },
+ "şərabçəkən": {
+  "skip": "meaning not certain"
+ },
+ "şəratan": {
+  "az": "Başqasına şər atan, böhtan deyən; böhtançı.",
+  "en": "slanderous; slanderer",
+  "pos": "adjective"
+ },
+ "şərhedici": {
+  "az": "Bir şeyi şərh edən, izah edən (şərhedici qeydlər).",
+  "en": "explanatory, interpretive; commentator",
+  "pos": "adjective"
+ },
+ "şərqlisayağı": {
+  "az": "Şərqlilər kimi, şərq adətinə uyğun şəkildə.",
+  "en": "in Oriental fashion, like an easterner",
+  "pos": "adverb"
+ },
+ "şəvəbığlı": {
+  "az": "Bığları qapqara olan.",
+  "en": "with a jet-black mustache",
+  "pos": "adjective"
+ },
+ "şəvəsaqqal": {
+  "az": "Saqqalı qapqara olan (adam).",
+  "en": "jet-black-bearded",
+  "pos": "adjective"
+ },
+ "əclafyana": {
+  "az": "Əclaflara xas şəkildə, alçaqcasına.",
+  "en": "villainously, basely",
+  "pos": "adverb",
+  "parts": false
+ },
+ "əhəngsevən": {
+  "az": "Tərkibində əhəng çox olan torpaqlarda bitən (əhəngsevən bitkilər).",
+  "en": "calciphilous, lime-loving (of plants)",
+  "pos": "adjective"
+ },
+ "əkinsalma": {
+  "az": "Sahəyə toxum səpib və ya şitil əkib əkin yaratma.",
+  "en": "sowing, planting of crops",
+  "pos": "noun"
+ },
+ "əkiztaylı": {
+  "az": "Əkiz kimi bir-birinə tay olan; boyda və ya yaşda bərabər olan.",
+  "en": "matched like twins, equal (in size or age)",
+  "pos": "adjective",
+  "src": "izahli"
+ },
+ "əklilqoyma": {
+  "az": "Xatirə məqsədilə abidəyə və ya məzara əklil qoyma.",
+  "en": "wreath-laying",
+  "pos": "noun"
+ },
+ "əlliqəpiklik": {
+  "az": "Dəyəri əlli qəpik olan pul, sikkə.",
+  "en": "fifty-qapik coin",
+  "pos": "noun"
+ },
+ "əlliyaşlı": {
+  "az": "Əlli yaşında olan.",
+  "en": "fifty-year-old",
+  "pos": "adjective"
+ },
+ "əlvanqanadlı": {
+  "az": "Qanadları əlvan, rəngarəng olan.",
+  "en": "with brightly coloured wings",
+  "pos": "adjective"
+ },
+ "ələkşəkilli": {
+  "az": "Ələyə bənzəyən, çoxlu deşikləri olan.",
+  "en": "sieve-like, cribriform",
+  "pos": "adjective"
+ },
+ "ələmyesir": {
+  "az": "Kədərə, qəmə əsir olmuş adam.",
+  "en": "one consumed by grief",
+  "pos": "noun"
+ },
+ "əmretmə": {
+  "az": "Əmr vermə, buyurma.",
+  "en": "commanding, giving orders",
+  "pos": "noun"
+ },
+ "əmziyəbənzər": {
+  "az": "Forması əmziyə bənzəyən (əmziyəbənzər çıxıntı).",
+  "en": "teat-like, nipple-shaped",
+  "pos": "adjective"
+ },
+ "əməköməciçiçəkli": {
+  "az": "Çiçəkləri əməköməci çiçəyinə bənzəyən (bitki adlarında).",
+  "en": "mallow-flowered (in plant names)",
+  "pos": "adjective"
+ },
+ "əməlikamil": {
+  "skip": "meaning not certain"
+ },
+ "əməliyyatqabağı": {
+  "az": "Cərrahi əməliyyatdan əvvəl olan (əməliyyatqabağı müayinə).",
+  "en": "preoperative",
+  "pos": "adjective"
+ },
+ "ənsədaxili": {
+  "skip": "meaning not certain"
+ },
+ "əqrəbotu": {
+  "skip": "plant name, not certain"
+ },
+ "ərincəkkimi": {
+  "az": "Ərincək adam kimi, tənbəlcəsinə.",
+  "en": "lazily, like a lazybones",
+  "pos": "adverb"
+ },
+ "əriştəbalıq": {
+  "skip": "animal name, not certain"
+ },
+ "əriştəbalıqkimi": {
+  "skip": "animal name, not certain"
+ },
+ "ərsinboğaz": {
+  "skip": "meaning not certain"
+ },
+ "ərsindimdikkimi": {
+  "skip": "animal name, not certain"
+ },
+ "ərəbdovşanıkimi": {
+  "az": "Ərəbdovşanına oxşar (zoologiyada ərəbdovşanıkimilər fəsiləsi).",
+  "en": "jerboa-like",
+  "pos": "adjective"
+ },
+ "əsasköklü": {
+  "az": "Əsas kökü güclü inkişaf etmiş (bitki).",
+  "en": "taprooted",
+  "pos": "adjective"
+ },
+ "əsməçiçək": {
+  "skip": "plant name, not certain"
+ },
+ "ətirsünbül": {
+  "skip": "plant name, not certain"
+ },
+ "ətirverici": {
+  "az": "Xoş ətir verən, ətir qatan (ətirverici maddələr).",
+  "en": "aromatic, flavouring",
+  "pos": "adjective"
+ },
+ "ətirşahkimi": {
+  "az": "Ətirşaha oxşar (botanikada ətirşahkimilər fəsiləsi).",
+  "en": "geranium-like",
+  "pos": "adjective"
+ },
+ "ətirşahçiçəkli": {
+  "az": "Çiçəkləri ətirşah çiçəyinə bənzəyən (bitki adlarında).",
+  "en": "geranium-flowered (in plant names)",
+  "pos": "adjective"
+ },
+ "əvəlikkimi": {
+  "az": "Əvəliyə oxşar (bitki adlarında).",
+  "en": "sorrel-like",
+  "pos": "adjective"
+ },
+ "əvəzvaxt": {
+  "skip": "meaning not certain"
+ },
+ "əvəzçıxma": {
+  "skip": "meaning not certain"
+ },
+ "əyarvuran": {
+  "az": "Qiymətli metal məmulatına əyar damğası vuran usta.",
+  "en": "hallmarker (of precious metals)",
+  "pos": "noun"
+ },
+ "əyarvurma": {
+  "az": "Qiymətli metal məmulatına əyar damğası vurma.",
+  "en": "hallmarking",
+  "pos": "noun"
+ },
+ "əyriayaqlı": {
+  "az": "Ayaqları əyri olan.",
+  "en": "bow-legged, crooked-legged",
+  "pos": "adjective"
+ },
+ "əyriağızlı": {
+  "az": "Ağzı əyri, yana çəkilmiş olan.",
+  "en": "wry-mouthed",
+  "pos": "adjective"
+ },
+ "əyribaşlı": {
+  "az": "Başı əyri, yana əyilmiş olan.",
+  "en": "with a crooked or tilted head",
+  "pos": "adjective"
+ },
+ "əyribelli": {
+  "az": "Beli əyri, bükük olan.",
+  "en": "bent-backed, stooped",
+  "pos": "adjective"
+ },
+ "əyriboyunlu": {
+  "az": "Boynu əyri olan.",
+  "en": "wry-necked, crook-necked",
+  "pos": "adjective"
+ },
+ "əyriboğazlı": {
+  "az": "Boğazı əyri olan (əyriboğazlı sürahi).",
+  "en": "crook-necked (of vessels)",
+  "pos": "adjective"
+ },
+ "əyribulamac": {
+  "skip": "meaning not certain"
+ },
+ "əyriburunlu": {
+  "az": "Burnu əyri olan.",
+  "en": "crook-nosed, hook-nosed",
+  "pos": "adjective"
+ },
+ "əyribuynuzlu": {
+  "az": "Buynuzları əyri, burulmuş olan.",
+  "en": "with curved horns",
+  "pos": "adjective"
+ },
+ "əyricızıqlı": {
+  "az": "Əyri cızıqları, xətləri olan.",
+  "en": "with curved lines",
+  "pos": "adjective"
+ },
+ "əyridimdikli": {
+  "az": "Dimdiyi əyri olan.",
+  "en": "crook-billed, with a curved beak",
+  "pos": "adjective"
+ },
+ "əyridişli": {
+  "az": "Dişləri əyri olan (adam və ya dişli çarx haqqında).",
+  "en": "crooked-toothed; with curved teeth (of gears)",
+  "pos": "adjective"
+ },
+ "əyripəncəli": {
+  "az": "Pəncəsi əyri olan.",
+  "en": "with crooked claws or paws",
+  "pos": "adjective"
+ },
+ "əyriqollu": {
+  "az": "Qolları əyri olan.",
+  "en": "crooked-armed",
+  "pos": "adjective"
+ },
+ "əyriçiyinli": {
+  "az": "Çiyinləri əyri, biri o birindən aşağı olan.",
+  "en": "with uneven or crooked shoulders",
+  "pos": "adjective"
+ },
+ "əzgilşəkilli": {
+  "az": "Forması əzgilə bənzəyən.",
+  "en": "medlar-shaped",
+  "pos": "adjective"
+ },
+ "əzvayçiçəkli": {
+  "az": "Çiçəkləri əzvay çiçəyinə bənzəyən (bitki adlarında).",
+  "en": "aloe-flowered (in plant names)",
+  "pos": "adjective"
+ },
+ "əzələyəbənzər": {
+  "az": "Quruluşu və ya görünüşü əzələyə bənzəyən.",
+  "en": "muscle-like",
+  "pos": "adjective"
+ },
+ "adına günü": {
+  "az": "Adamın adını daşıdığı müqəddəsin xatirə günü (xristianlarda).",
+  "en": "name day",
+  "pos": "noun",
+  "parts": false
+ },
+ "açılı qalmaq": {
+  "skip": "meaning not certain"
+ },
+ "bağarası yol": {
+  "az": "Bağların arası ilə keçən yol.",
+  "en": "lane between orchards",
+  "pos": "noun",
+  "parts": false
+ },
+ "beşdaş oynamaq": {
+  "az": "Beş xırda daşla oynanan uşaq oyununu oynamaq.",
+  "en": "to play five-stones (jacks)",
+  "pos": "verb"
+ },
+ "bitməmiş zaman": {
+  "skip": "grammatical term, not certain"
+ },
+ "böyrəkiçi şiş": {
+  "az": "Böyrəyin daxilində əmələ gələn şiş.",
+  "en": "intrarenal tumour, kidney tumour",
+  "pos": "noun",
+  "parts": false
+ },
+ "bədaye teatrı": {
+  "skip": "meaning not certain"
+ },
+ "cini əmsalı": {
+  "az": "Gəlirin əhali arasında bölgüsündəki bərabərsizliyi ölçən göstərici.",
+  "en": "Gini coefficient",
+  "pos": "noun",
+  "parts": false
+ },
+ "cur olmaq": {
+  "skip": "meaning not certain"
+ },
+ "cücəli toyuq": {
+  "az": "Yanında cücələri olan toyuq.",
+  "en": "hen with chicks",
+  "pos": "noun"
+ },
+ "cərgəli əkin": {
+  "az": "Bitkilərin cərgə ilə əkilməsi; belə üsulla salınmış əkin.",
+  "en": "row planting, row crops",
+  "pos": "noun"
+ },
+ "daşınar əmlak": {
+  "az": "Bir yerdən başqa yerə daşına bilən əmlak (pul, nəqliyyat vasitəsi, əşya və s.).",
+  "en": "movable property, chattels",
+  "pos": "noun"
+ },
+ "daşınmaz əmlak": {
+  "az": "Torpaq və ona bağlı olan, yerini dəyişmək mümkün olmayan əmlak (bina, mənzil və s.).",
+  "en": "real estate, immovable property",
+  "pos": "noun"
+ },
+ "dilotu yemək": {
+  "skip": "idiom, meaning not certain"
+ },
+ "doymuş məhlul": {
+  "az": "Verilmiş temperaturda həll olan maddəni artıq həll edə bilməyən məhlul.",
+  "en": "saturated solution",
+  "pos": "noun"
+ },
+ "duyuq düşmək": {
+  "az": "Gizli saxlanan bir şeydən xəbər tutmaq, nəyisə sezmək.",
+  "en": "to get wind of something, to become suspicious",
+  "pos": "verb"
+ },
+ "dəvəyunu şal": {
+  "az": "Dəvə yunundan toxunmuş şal.",
+  "en": "camel-hair shawl",
+  "pos": "noun"
+ },
+ "erkəcli sürü": {
+  "az": "Qabağında yol göstərən erkəci olan sürü.",
+  "en": "flock led by a lead goat",
+  "pos": "noun"
+ },
+ "gözönü hadisə": {
+  "az": "Hamının gözü qarşısında baş verən, aydın görünən hadisə.",
+  "en": "an event in plain view, an evident occurrence",
+  "pos": "noun"
+ },
+ "hali etmək": {
+  "az": "Bir şeyi birinə başa salmaq, anlatmaq.",
+  "en": "to make someone understand, to explain",
+  "pos": "verb"
+ },
+ "koksaki virusu": {
+  "az": "Enteroviruslar qrupuna aid olan, əsasən uşaqlarda yoluxucu xəstəliklər törədən virus.",
+  "en": "Coxsackie virus",
+  "pos": "noun",
+  "parts": false
+ },
+ "kürt toyuq": {
+  "az": "Kürt yatan, yumurta üstündə oturub cücə çıxaran toyuq.",
+  "en": "broody hen",
+  "pos": "noun"
+ },
+ "meteoroqraf cihaz": {
+  "az": "Hava göstəricilərini avtomatik olaraq qeydə alan cihaz.",
+  "en": "meteorograph",
+  "pos": "noun"
+ },
+ "misqalı tirmə": {
+  "skip": "meaning not certain"
+ },
+ "perolu qələm": {
+  "az": "Ucuna metal pero taxılan, mürəkkəbə batırılaraq yazılan qələm.",
+  "en": "dip pen, nib pen",
+  "pos": "noun"
+ },
+ "puç etmək": {
+  "az": "Boşa çıxarmaq, hədər etmək, heçə çıxarmaq.",
+  "en": "to waste, squander; to bring to nothing",
+  "pos": "verb"
+ },
+ "qalaiçi yol": {
+  "az": "Qalanın daxilindən keçən yol.",
+  "en": "road inside a fortress",
+  "pos": "noun"
+ },
+ "qoltuqlu divan": {
+  "az": "Yanlarında qol söykənəcəyi olan divan.",
+  "en": "sofa with armrests",
+  "pos": "noun",
+  "parts": false
+ },
+ "qrant almaq": {
+  "az": "Layihə və ya fəaliyyət üçün qrant əldə etmək.",
+  "en": "to receive a grant",
+  "pos": "verb"
+ },
+ "sinədaşılı məzar": {
+  "az": "Üstünə sinədaşı qoyulmuş məzar.",
+  "en": "grave with a tombstone",
+  "pos": "noun"
+ }
+}

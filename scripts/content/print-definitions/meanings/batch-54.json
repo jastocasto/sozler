@@ -1,0 +1,873 @@
+{
+ "mumluq": {
+  "skip": "meaning not certain"
+ },
+ "murquzluq": {
+  "az": "Murquz bitmiş yer, murquz kolluğu.",
+  "en": "thicket of murquz (a tall reed-like grass)",
+  "pos": "noun"
+ },
+ "muxtariyyətlik": {
+  "az": "Muxtariyyət hüququna malik olma; muxtarlıq.",
+  "en": "autonomy, autonomous status",
+  "pos": "noun"
+ },
+ "muzeylik": {
+  "az": "Muzeydə saxlanmağa layiq olan; çox köhnə, nadir (muzeylik əşya).",
+  "en": "fit for a museum, museum-piece",
+  "pos": "adjective"
+ },
+ "muğamatşünaslıq": {
+  "az": "Muğamların quruluşunu, tarixini və ifa ənənələrini öyrənən musiqişünaslıq sahəsi.",
+  "en": "mugham studies",
+  "pos": "noun"
+ },
+ "muğamlıq": {
+  "skip": "meaning not certain"
+ },
+ "muğampərəstlik": {
+  "az": "Muğamı çox sevmə, muğama böyük həvəs göstərmə.",
+  "en": "love of mugham",
+  "pos": "noun"
+ },
+ "muğamçılıq": {
+  "az": "Muğam ifa etmə sənəti; muğam ifaçılığı.",
+  "en": "mugham performance, the art of mugham singing",
+  "pos": "noun"
+ },
+ "muşketyorluq": {
+  "az": "Muşketyor olma; muşketyor xidməti.",
+  "en": "being a musketeer; musketeer service",
+  "pos": "noun"
+ },
+ "mövhumatpərəstlik": {
+  "az": "Mövhumata, xurafata bağlılıq; batil inanclara uyma.",
+  "en": "superstitiousness",
+  "pos": "noun"
+ },
+ "mövləviyyəlik": {
+  "az": "Mövləvi təriqətinə mənsub olma; bu təriqətin təlimi.",
+  "en": "Mevlevism, adherence to the Mevlevi order",
+  "pos": "noun"
+ },
+ "mübahisəlik": {
+  "skip": "meaning not certain"
+ },
+ "mübahisəçilik": {
+  "az": "Tez-tez mübahisəyə girməyə meyil; höcətləşməyi xoşlama.",
+  "en": "argumentativeness, contentiousness",
+  "pos": "noun"
+ },
+ "mübaliğəçilik": {
+  "az": "Hər şeyi şişirtməyə meyil; danışanda mübaliğəyə yol vermə.",
+  "en": "habit of exaggerating, exaggeration",
+  "pos": "noun"
+ },
+ "mücahidlik": {
+  "az": "Mücahid olma; din, vətən və ya azadlıq uğrunda silahlı mübarizə.",
+  "en": "being a mujahid; fighting for faith or freedom",
+  "pos": "noun"
+ },
+ "müdavimlik": {
+  "az": "Bir yerə müntəzəm gedib-gəlmə; daimi ziyarətçi, dinləyici olma.",
+  "en": "being a regular; regular attendance",
+  "pos": "noun"
+ },
+ "mühafizəçilik": {
+  "az": "Mühafizəçi işi; bir yeri, obyekti qoruma, keşikçilik.",
+  "en": "work as a guard, guarding",
+  "pos": "noun"
+ },
+ "mühazirəçilik": {
+  "az": "Mühazirə oxuma işi; mühazirəçinin fəaliyyəti.",
+  "en": "lecturing; work as a lecturer",
+  "pos": "noun"
+ },
+ "mühərriklik": {
+  "skip": "meaning not certain"
+ },
+ "müjdəlik": {
+  "az": "Xoş xəbər gətirən adama verilən hədiyyə, bəxşiş; muştuluq.",
+  "en": "reward given to the bearer of good news",
+  "pos": "noun"
+ },
+ "müjdəçilik": {
+  "az": "Xoş xəbər gətirmə, müjdə çatdırma; müjdəçi olma.",
+  "en": "bringing good news; being a herald of good tidings",
+  "pos": "noun"
+ },
+ "münəccimbaşılıq": {
+  "az": "Saray münəccimlərinin başçısı vəzifəsi.",
+  "en": "office of chief (court) astrologer",
+  "pos": "noun"
+ },
+ "mürdəşirlik": {
+  "az": "Mürdəşir işi; ölünü dəfndən əvvəl yuma peşəsi.",
+  "en": "work of a corpse washer",
+  "pos": "noun"
+ },
+ "müsafirlik": {
+  "az": "Müsafir olma; yolda, qəriblikdə olma, qonaqlıq.",
+  "en": "being a traveller or guest; being away from home",
+  "pos": "noun"
+ },
+ "mütaliəçilik": {
+  "az": "Çox kitab oxuma vərdişi, mütaliəyə həvəs.",
+  "en": "love of reading, avid reading",
+  "pos": "noun"
+ },
+ "mütləqiyyətpərəstlik": {
+  "az": "Mütləq monarxiya üsul-idarəsinə tərəfdarlıq.",
+  "en": "absolutism, support for absolute monarchy",
+  "pos": "noun"
+ },
+ "mütəfəkkirlik": {
+  "az": "Mütəfəkkir olma; dərin düşünmə və fəlsəfi fikir irəli sürmə qabiliyyəti.",
+  "en": "being a thinker; depth of thought",
+  "pos": "noun"
+ },
+ "müxənnətlik": {
+  "az": "Namərdlik, xəyanətkarlıq; alçaq hərəkət.",
+  "en": "treachery, baseness",
+  "pos": "noun"
+ },
+ "müzakirəlik": {
+  "skip": "meaning not certain"
+ },
+ "müşfiqşünaslıq": {
+  "az": "Mikayıl Müşfiqin həyatını və yaradıcılığını öyrənən ədəbiyyatşünaslıq sahəsi.",
+  "en": "Mushfig studies (study of Mikayil Mushfig)",
+  "pos": "noun"
+ },
+ "müştərilik": {
+  "az": "Müştəri olma; bir yerdən daim alış-veriş etmə, xidmət alma.",
+  "en": "being a customer, patronage",
+  "pos": "noun"
+ },
+ "məddahçılıq": {
+  "az": "Məddah sənəti, xalq qarşısında dastan və mədhiyyə söyləmə; məc. kimisə həddən artıq tərifləmə, yaltaqlıq.",
+  "en": "the art of the meddah (storyteller-panegyrist); fulsome praise, sycophancy",
+  "pos": "noun"
+ },
+ "mədəniyyətçilik": {
+  "skip": "meaning not certain"
+ },
+ "məhlulluq": {
+  "skip": "meaning not certain"
+ },
+ "məlhəmlik": {
+  "skip": "meaning not certain"
+ },
+ "məmurbaşılıq": {
+  "skip": "meaning not certain"
+ },
+ "mənzuməçilik": {
+  "skip": "meaning not certain"
+ },
+ "mərcanlıq": {
+  "skip": "meaning not certain"
+ },
+ "mərmərlik": {
+  "skip": "meaning not certain"
+ },
+ "mərsiyəçilik": {
+  "az": "Mərsiyə oxuma sənəti; mərsiyəçinin işi.",
+  "en": "reciting of elegies (marsiyas), elegy chanting",
+  "pos": "noun"
+ },
+ "məruzəçilik": {
+  "az": "Məruzəçi olma; yığıncaqda məruzə ilə çıxış etmə.",
+  "en": "acting as a speaker or rapporteur",
+  "pos": "noun"
+ },
+ "mərəkəçilik": {
+  "skip": "meaning not certain"
+ },
+ "məsxərəçilik": {
+  "az": "Başqalarını ələ salma, lağa qoyma; masqaraçılıq.",
+  "en": "mockery, buffoonery",
+  "pos": "noun"
+ },
+ "məsəlçilik": {
+  "az": "Danışanda tez-tez məsəl, atalar sözü çəkmə vərdişi.",
+  "en": "habit of quoting proverbs",
+  "pos": "noun"
+ },
+ "mətnlik": {
+  "skip": "meaning not certain"
+ },
+ "məxəzşünaslıq": {
+  "az": "Tarixi və ədəbi mənbələri, onların mənşəyini öyrənən elm sahəsi; mənbəşünaslıq.",
+  "en": "source studies",
+  "pos": "noun"
+ },
+ "məzarçılıq": {
+  "az": "Qəbir qazma işi; məzarçının peşəsi.",
+  "en": "gravedigging (as a trade)",
+  "pos": "noun"
+ },
+ "məğlubiyyətlik": {
+  "skip": "meaning not certain"
+ },
+ "məşqlik": {
+  "skip": "meaning not certain"
+ },
+ "məşuqəbazlıq": {
+  "az": "Qadınlara düşkünlük, aşnabazlıq.",
+  "en": "womanizing, philandering",
+  "pos": "noun",
+  "src": "izahli"
+ },
+ "məşuqəlik": {
+  "az": "Məşuqə olma; kiminsə sevgilisi, aşnası olma.",
+  "en": "being someone's mistress or beloved",
+  "pos": "noun"
+ },
+ "məşvərətçilik": {
+  "az": "Məsləhət vermə işi; məşvərətçi olma.",
+  "en": "advising, consultancy",
+  "pos": "noun"
+ },
+ "məşədilik": {
+  "az": "Məşhədi ziyarət etmiş adamın adı, ünvanı; məşədi olma.",
+  "en": "status of a Mashadi (pilgrim to Mashhad)",
+  "pos": "noun"
+ },
+ "məşəllik": {
+  "skip": "meaning not certain"
+ },
+ "məşəlçilik": {
+  "az": "Məşəl daşıma; məşəlçinin işi.",
+  "en": "torch-bearing",
+  "pos": "noun"
+ },
+ "nargiləlik": {
+  "skip": "meaning not certain"
+ },
+ "naringilik": {
+  "az": "Naringi ağacları əkilmiş sahə, naringi bağı.",
+  "en": "mandarin orchard, tangerine grove",
+  "pos": "noun"
+ },
+ "narkobaronluq": {
+  "az": "Narkobaron olma; narkotik ticarətinə başçılıq.",
+  "en": "being a drug lord; running a drug trade",
+  "pos": "noun"
+ },
+ "narkotiklik": {
+  "skip": "meaning not certain"
+ },
+ "naxırlıq": {
+  "skip": "meaning not certain"
+ },
+ "naz-qəmzəlik": {
+  "skip": "meaning not certain"
+ },
+ "nazəndəlik": {
+  "az": "Nazlı və zərif olma; gözəlin naz-qəmzəsi, işvəsi.",
+  "en": "graceful charm, coquettishness",
+  "pos": "noun"
+ },
+ "neonasistlik": {
+  "az": "Neonasist ideologiyası və ona tərəfdarlıq; neonasizm.",
+  "en": "neo-Nazism",
+  "pos": "noun"
+ },
+ "nevroloqluq": {
+  "az": "Nevroloq peşəsi; sinir xəstəliklərinin müalicəsi ilə məşğul olma.",
+  "en": "work as a neurologist",
+  "pos": "noun"
+ },
+ "nevropatoloqluq": {
+  "az": "Nevropatoloq peşəsi; sinir xəstəliklərinin müalicəsi ilə məşğul olma.",
+  "en": "work as a neurologist (neuropathologist)",
+  "pos": "noun"
+ },
+ "nifaqçılıq": {
+  "az": "Adamlar arasında nifaq salma, ara qarışdırma.",
+  "en": "sowing discord, divisiveness",
+  "pos": "noun"
+ },
+ "nihilistlik": {
+  "az": "Hamının qəbul etdiyi qayda və dəyərləri inkar etmə; nihilizm.",
+  "en": "nihilism",
+  "pos": "noun"
+ },
+ "nikahlılıq": {
+  "az": "Nikahda olma, evli olma.",
+  "en": "married state, matrimony",
+  "pos": "noun"
+ },
+ "nikotinlik": {
+  "skip": "meaning not certain"
+ },
+ "nisbətlik": {
+  "skip": "meaning not certain"
+ },
+ "nisgillik": {
+  "skip": "meaning not certain"
+ },
+ "nitsşeçilik": {
+  "az": "Nitsşenin fəlsəfi təliminə tərəfdarlıq; nitsşeçi olma.",
+  "en": "Nietzscheanism",
+  "pos": "noun"
+ },
+ "nişanlıq": {
+  "skip": "meaning not certain"
+ },
+ "nohurluq": {
+  "skip": "meaning not certain"
+ },
+ "normalıq": {
+  "skip": "meaning not certain"
+ },
+ "noxudçuluq": {
+  "az": "Noxud becərilməsi ilə məşğul olan təsərrüfat sahəsi.",
+  "en": "chickpea growing",
+  "pos": "noun"
+ },
+ "nyutonluq": {
+  "skip": "meaning not certain"
+ },
+ "nömrəbazlıq": {
+  "az": "Hiylə, kələk işlətmə; fırıldaqçılıq.",
+  "en": "trickery, scheming",
+  "pos": "noun"
+ },
+ "növhəçilik": {
+  "az": "Növhə oxuma; növhəçinin işi.",
+  "en": "chanting of noha (mourning songs for the imams)",
+  "pos": "noun"
+ },
+ "növlük": {
+  "skip": "meaning not certain"
+ },
+ "nübarlıq": {
+  "skip": "meaning not certain"
+ },
+ "nüsxəbəndlik": {
+  "az": "Keçmişdə əczaxanada reseptlə dərman hazırlayan işçinin vəzifəsi.",
+  "en": "work of a pharmacy dispenser (old)",
+  "pos": "noun"
+ },
+ "nəbatatçılıq": {
+  "az": "Bitkiləri öyrənmə ilə məşğul olma; botanika (köhn.).",
+  "en": "botany (dated)",
+  "pos": "noun"
+ },
+ "nəbatişünaslıq": {
+  "az": "Seyid Əbülqasım Nəbatinin həyatını və yaradıcılığını öyrənən ədəbiyyatşünaslıq sahəsi.",
+  "en": "Nabati studies (study of Seyid Abulgasim Nabati)",
+  "pos": "noun"
+ },
+ "nəbilik": {
+  "az": "Nəbi olma; peyğəmbərlik.",
+  "en": "prophethood",
+  "pos": "noun"
+ },
+ "nədimlik": {
+  "az": "Nədim olma; hökmdarın yaxın həmsöhbəti olma vəzifəsi.",
+  "en": "position of a boon companion (to a ruler)",
+  "pos": "noun"
+ },
+ "nəqliyyatçılıq": {
+  "az": "Nəqliyyat sahəsində çalışma; nəqliyyatçının işi.",
+  "en": "work in transport",
+  "pos": "noun"
+ },
+ "nəqqaşkarlıq": {
+  "az": "Divara, əşyalara naxış çəkmə sənəti; nəqqaşlıq.",
+  "en": "ornamental painting, decorative painting",
+  "pos": "noun"
+ },
+ "nəqşbəndilik": {
+  "az": "Nəqşbəndi sufi təriqəti, onun təlimi və bu təriqətə mənsub olma.",
+  "en": "Naqshbandism, the Naqshbandi order",
+  "pos": "noun"
+ },
+ "nərlik": {
+  "skip": "meaning not certain"
+ },
+ "nəsildaşlıq": {
+  "az": "Eyni nəslə, eyni nəsildən olma.",
+  "en": "being of the same generation",
+  "pos": "noun"
+ },
+ "nəsimişünaslıq": {
+  "az": "İmadəddin Nəsiminin həyatını və yaradıcılığını öyrənən ədəbiyyatşünaslıq sahəsi.",
+  "en": "Nasimi studies (study of Imadaddin Nasimi)",
+  "pos": "noun"
+ },
+ "nəticəlik": {
+  "skip": "meaning not certain"
+ },
+ "obalıq": {
+  "skip": "meaning not certain"
+ },
+ "odabaşılıq": {
+  "az": "Keçmişdə karvansarada otaqlara baxan adamın vəzifəsi.",
+  "en": "post of odabashi (caravanserai room keeper)",
+  "pos": "noun"
+ },
+ "okeanşünaslıq": {
+  "az": "Okeanları, onların suyunu, canlı aləmini və dibini öyrənən elm; okeanologiya.",
+  "en": "oceanography",
+  "pos": "noun"
+ },
+ "oleandrlıq": {
+  "az": "Oleandr kolları əkilmiş yer.",
+  "en": "oleander plantation, oleander grove",
+  "pos": "noun"
+ },
+ "ombudsmanlıq": {
+  "az": "Ombudsman vəzifəsi və fəaliyyəti; insan hüquqları üzrə müvəkkillik.",
+  "en": "office of ombudsman",
+  "pos": "noun"
+ },
+ "operasevərlik": {
+  "az": "Operanı sevmə, opera sənətinə həvəs.",
+  "en": "love of opera",
+  "pos": "noun"
+ },
+ "ordinatorluq": {
+  "az": "Xəstəxanada ordinator vəzifəsi; həkimin ixtisaslaşma üçün keçdiyi praktik təhsil, ordinatura.",
+  "en": "medical residency",
+  "pos": "noun"
+ },
+ "ordubaşılıq": {
+  "az": "Orduya başçılıq, komandanlıq etmə; ordubaşı vəzifəsi.",
+  "en": "command of an army",
+  "pos": "noun"
+ },
+ "orduluq": {
+  "skip": "meaning not certain"
+ },
+ "ortancıllıq": {
+  "az": "Ailədə ortancıl uşaq olma.",
+  "en": "being the middle child",
+  "pos": "noun"
+ },
+ "ovuqluq": {
+  "skip": "meaning not certain"
+ },
+ "ovşünaslıq": {
+  "az": "Ov heyvanlarını və ov təsərrüfatını öyrənən elm sahəsi.",
+  "en": "game management science, game biology",
+  "pos": "noun"
+ },
+ "oxuculuq": {
+  "az": "Oxucu olma; kitab, qəzet və s. oxuma fəaliyyəti.",
+  "en": "being a reader; readership",
+  "pos": "noun"
+ },
+ "oynaşlıq": {
+  "az": "Nikahdankənar eşq münasibəti; kiminsə oynaşı olma.",
+  "en": "illicit love affair, being someone's lover",
+  "pos": "noun"
+ },
+ "oyuncaqçılıq": {
+  "az": "Oyuncaq düzəltmə və ya satma işi.",
+  "en": "toymaking, toy trade",
+  "pos": "noun"
+ },
+ "oyundaşlıq": {
+  "az": "Oyun yoldaşı olma.",
+  "en": "being playmates",
+  "pos": "noun"
+ },
+ "oyunçuluq": {
+  "skip": "meaning not certain"
+ },
+ "oğru-quldurluq": {
+  "az": "Oğurluq və quldurluq; soyğunçuluq.",
+  "en": "thievery and banditry, robbery",
+  "pos": "noun"
+ },
+ "oğru-əyrilik": {
+  "az": "Oğurluq, əyri iş; cinayətkarlıq.",
+  "en": "thievery, crookedness",
+  "pos": "noun"
+ },
+ "oğrubaşılıq": {
+  "az": "Oğru dəstəsinə başçılıq etmə.",
+  "en": "leadership of a band of thieves",
+  "pos": "noun"
+ },
+ "palanlıq": {
+  "skip": "meaning not certain"
+ },
+ "palançılıq": {
+  "az": "Palan tikmə sənəti; palançının işi.",
+  "en": "pack-saddle making",
+  "pos": "noun"
+ },
+ "paleoiqlimşünaslıq": {
+  "az": "Keçmiş geoloji dövrlərin iqlimini öyrənən elm; paleoklimatologiya.",
+  "en": "palaeoclimatology",
+  "pos": "noun"
+ },
+ "panellik": {
+  "skip": "meaning not certain"
+ },
+ "panteistlik": {
+  "az": "Allahı təbiətlə eyniləşdirən fəlsəfi təlimə tərəfdarlıq; panteizm.",
+  "en": "pantheism",
+  "pos": "noun"
+ },
+ "pantomimikaçılıq": {
+  "az": "Pantomima sənəti ilə məşğul olma; sözsüz, jest və mimika ilə ifa.",
+  "en": "pantomime (as an art or occupation)",
+  "pos": "noun"
+ },
+ "pantürkçülük": {
+  "az": "Bütün türk xalqlarının siyasi və mədəni birliyini təbliğ edən ideologiya.",
+  "en": "pan-Turkism",
+  "pos": "noun"
+ },
+ "papirosluq": {
+  "skip": "meaning not certain"
+ },
+ "paradoksluq": {
+  "az": "Paradoks xarakteri daşıma; ziddiyyətli görünmə, paradoksallıq.",
+  "en": "paradoxicality",
+  "pos": "noun"
+ },
+ "parafinlik": {
+  "skip": "meaning not certain"
+ },
+ "pardaqlıq": {
+  "skip": "meaning not certain"
+ },
+ "pardaqçılıq": {
+  "az": "Mebeli və başqa əşyaları cilalama, pardaqlama işi.",
+  "en": "polishing (as a trade), wood finishing",
+  "pos": "noun"
+ },
+ "pariklik": {
+  "skip": "meaning not certain"
+ },
+ "parketçilik": {
+  "az": "Parket döşəmə işi; parketçinin peşəsi.",
+  "en": "parquet laying",
+  "pos": "noun"
+ },
+ "parodiyaçılıq": {
+  "az": "Parodiya yaratma və ya ifa etmə sənəti.",
+  "en": "parody, the art of parody",
+  "pos": "noun"
+ },
+ "partiyabazlıq": {
+  "az": "Partiya çəkişmələrinə meyil; partiya maraqlarını hər şeydən üstün tutma.",
+  "en": "partisanship, factionalism",
+  "pos": "noun"
+ },
+ "partiyadaşlıq": {
+  "az": "Eyni partiyanın üzvü olma.",
+  "en": "party comradeship",
+  "pos": "noun"
+ },
+ "partiyaçılıq": {
+  "az": "Partiya üzvlüyü; bir partiyaya bağlılıq.",
+  "en": "party membership; partisanship",
+  "pos": "noun"
+ },
+ "parçaçılıq": {
+  "az": "Parça satışı ilə məşğul olma; bəzzazlıq.",
+  "en": "cloth trade, drapery",
+  "pos": "noun"
+ },
+ "pasiyentlik": {
+  "az": "Həkimin müalicəsi altında olma, pasiyent olma.",
+  "en": "being a patient",
+  "pos": "noun"
+ },
+ "patentlik": {
+  "skip": "meaning not certain"
+ },
+ "patriotluq": {
+  "az": "Vətəni sevmə, ona bağlılıq; vətənpərvərlik.",
+  "en": "patriotism",
+  "pos": "noun"
+ },
+ "patrulluq": {
+  "az": "Patrul xidməti; müəyyən ərazini gəzərək keşik çəkmə.",
+  "en": "patrolling, patrol duty",
+  "pos": "noun"
+ },
+ "payçılıq": {
+  "az": "Payçı, səhmdar olma; bir müəssisədə pay iştirakı.",
+  "en": "shareholding, equity participation",
+  "pos": "noun"
+ },
+ "pazılıq": {
+  "az": "Pazı əkilmiş sahə.",
+  "en": "chard bed, chard patch",
+  "pos": "noun"
+ },
+ "pazıçılıq": {
+  "skip": "meaning not certain"
+ },
+ "pediatrlıq": {
+  "az": "Pediatr peşəsi; uşaq xəstəliklərinin müalicəsi ilə məşğul olma.",
+  "en": "work as a paediatrician",
+  "pos": "noun"
+ },
+ "perqamentlik": {
+  "skip": "meaning not certain"
+ },
+ "pessimistlik": {
+  "az": "Hər şeyin pis nəticələnəcəyini gözləməyə meyil; bədbinlik.",
+  "en": "pessimism",
+  "pos": "noun"
+ },
+ "peyvəndlik": {
+  "skip": "meaning not certain"
+ },
+ "peşəçilik": {
+  "skip": "meaning not certain"
+ },
+ "peşəşünaslıq": {
+  "az": "Peşələri, onların xüsusiyyətlərini və insana qoyduğu tələbləri öyrənən sahə.",
+  "en": "occupational studies, professiology",
+  "pos": "noun"
+ },
+ "pianinoçuluq": {
+  "az": "Pianino çalma; pianinoçunun işi.",
+  "en": "piano playing",
+  "pos": "noun"
+ },
+ "pijamalıq": {
+  "az": "Pijama tikmək üçün yararlı (pijamalıq parça).",
+  "en": "suitable for pyjamas (e.g. pyjama fabric)",
+  "pos": "adjective"
+ },
+ "piliklik": {
+  "skip": "meaning not certain"
+ },
+ "piləlik": {
+  "skip": "meaning not certain"
+ },
+ "pionerlik": {
+  "az": "Pioner təşkilatının üzvü olma; bir işdə ilk olma, öncüllük.",
+  "en": "membership in the Pioneers; pioneering",
+  "pos": "noun"
+ },
+ "pirotexniklik": {
+  "az": "Pirotexnik peşəsi; atəşfəşanlıq və partlayıcı qurğular işi.",
+  "en": "pyrotechnics (as a profession)",
+  "pos": "noun"
+ },
+ "pitilik": {
+  "az": "Piti bişirmək üçün yararlı (pitilik ət).",
+  "en": "suitable for piti (e.g. meat for piti)",
+  "pos": "adjective"
+ },
+ "pitiçilik": {
+  "skip": "meaning not certain"
+ },
+ "plakatlıq": {
+  "skip": "meaning not certain"
+ },
+ "plakatçılıq": {
+  "az": "Plakat çəkmə sənəti; plakatçının işi.",
+  "en": "poster design, poster art",
+  "pos": "noun"
+ },
+ "planetşünaslıq": {
+  "az": "Planetləri və onların peyklərini öyrənən elm; planetologiya.",
+  "en": "planetology, planetary science",
+  "pos": "noun"
+ },
+ "plantasiyaçılıq": {
+  "az": "Plantasiya təsərrüfatı ilə məşğul olma.",
+  "en": "plantation farming",
+  "pos": "noun"
+ },
+ "plançılıq": {
+  "az": "Plan tərtib etmə işi; plançının vəzifəsi.",
+  "en": "planning (as a job)",
+  "pos": "noun"
+ },
+ "plaşlıq": {
+  "az": "Plaş tikmək üçün yararlı (plaşlıq parça).",
+  "en": "suitable for raincoats (e.g. raincoat fabric)",
+  "pos": "adjective"
+ },
+ "poliqlotluq": {
+  "az": "Çox dil bilmə; poliqlot olma.",
+  "en": "polyglotism, command of many languages",
+  "pos": "noun"
+ },
+ "poliqrafçılıq": {
+  "az": "Poliqrafiya sahəsində işləmə; mətbəə işi.",
+  "en": "printing trade",
+  "pos": "noun"
+ },
+ "polismenlik": {
+  "az": "Polis nəfəri vəzifəsi; polis işi.",
+  "en": "police work, being a policeman",
+  "pos": "noun"
+ },
+ "politoloqluq": {
+  "az": "Politoloq peşəsi; siyasət elmi ilə məşğul olma.",
+  "en": "work as a political scientist",
+  "pos": "noun"
+ },
+ "pomidorluq": {
+  "az": "Pomidor əkilmiş sahə.",
+  "en": "tomato field, tomato patch",
+  "pos": "noun"
+ },
+ "pompadurluq": {
+  "skip": "meaning not certain"
+ },
+ "populistlik": {
+  "az": "Kütlənin rəğbətini qazanmaq üçün yerinə yetirilməz vədlər vermə; populizm.",
+  "en": "populism",
+  "pos": "noun"
+ },
+ "pornoqraflıq": {
+  "az": "Pornoqrafiya hazırlama və yayma ilə məşğul olma.",
+  "en": "producing pornography, pornography business",
+  "pos": "noun"
+ },
+ "porsuqluq": {
+  "skip": "meaning not certain"
+ },
+ "portağallıq": {
+  "az": "Portağal ağacları əkilmiş sahə, portağal bağı.",
+  "en": "orange grove",
+  "pos": "noun"
+ },
+ "portretçilik": {
+  "az": "Portret çəkmə sənəti; portretçinin işi.",
+  "en": "portraiture, portrait painting",
+  "pos": "noun"
+ },
+ "potensiallıq": {
+  "az": "İmkan halında mövcud olma, potensial xarakter daşıma.",
+  "en": "potentiality",
+  "pos": "noun"
+ },
+ "pozaçılıq": {
+  "skip": "meaning not certain"
+ },
+ "pozitivistlik": {
+  "az": "Pozitivizm təliminə tərəfdarlıq; pozitivizm.",
+  "en": "positivism",
+  "pos": "noun"
+ },
+ "preparatçılıq": {
+  "az": "Laboratoriyada və muzeydə preparat hazırlama işi.",
+  "en": "specimen preparation (as a job)",
+  "pos": "noun"
+ },
+ "projektorçuluq": {
+  "az": "Projektoru idarə etmə işi; projektorçunun vəzifəsi.",
+  "en": "work of a projector or searchlight operator",
+  "pos": "noun"
+ },
+ "prokatçılıq": {
+  "skip": "ambiguous: rolling-mill work or rental business"
+ },
+ "proktoloqluq": {
+  "az": "Proktoloq peşəsi; düz bağırsaq xəstəliklərinin müalicəsi ilə məşğul olma.",
+  "en": "work as a proctologist",
+  "pos": "noun"
+ },
+ "proqramlıq": {
+  "skip": "meaning not certain"
+ },
+ "protokolçuluq": {
+  "az": "Protokol yazma işi; protokolçunun vəzifəsi.",
+  "en": "minute-taking, keeping minutes",
+  "pos": "noun"
+ },
+ "psevdomillətçilik": {
+  "az": "Yalançı, saxta millətçilik; millətçilik pərdəsi altında fəaliyyət.",
+  "en": "pseudo-nationalism",
+  "pos": "noun"
+ },
+ "psixoloqluq": {
+  "az": "Psixoloq peşəsi; psixologiya ilə məşğul olma.",
+  "en": "work as a psychologist",
+  "pos": "noun"
+ },
+ "psixopatlıq": {
+  "az": "Xarakterin anadangəlmə və ya qazanılmış patoloji pozğunluğu; psixopatiya.",
+  "en": "psychopathy",
+  "pos": "noun"
+ },
+ "publisistlik": {
+  "az": "İctimai-siyasi mövzularda yazma; publisistika ilə məşğul olma.",
+  "en": "writing on public affairs, journalism",
+  "pos": "noun"
+ },
+ "pulbazlıq": {
+  "az": "Pula həddən artıq hərislik, pul düşkünlüyü.",
+  "en": "money-grubbing, greed for money",
+  "pos": "noun"
+ },
+ "punsonçuluq": {
+  "skip": "meaning not certain"
+ },
+ "pusquçuluq": {
+  "az": "Pusquda durma, pusqu qurma.",
+  "en": "lying in ambush, ambushing",
+  "pos": "noun"
+ },
+ "pürelik": {
+  "az": "Püre hazırlamaq üçün yararlı (pürelik kartof).",
+  "en": "suitable for purée (e.g. potatoes for mashing)",
+  "pos": "adjective"
+ },
+ "pıtraqlıq": {
+  "az": "Pıtraq basmış yer.",
+  "en": "patch overgrown with cocklebur",
+  "pos": "noun"
+ },
+ "pəhrizlik": {
+  "skip": "meaning not certain"
+ },
+ "pəlinlik": {
+  "az": "Pəlin (yovşan) bitən yer.",
+  "en": "wormwood patch",
+  "pos": "noun"
+ },
+ "pələqulaqlıq": {
+  "skip": "meaning not certain"
+ },
+ "pəncərəlik": {
+  "skip": "meaning not certain"
+ },
+ "pərlik": {
+  "skip": "meaning not certain"
+ },
+ "pərpərənglik": {
+  "az": "Pərpərəng bitən yer.",
+  "en": "purslane patch",
+  "pos": "noun"
+ },
+ "pərpətöyünlük": {
+  "az": "Pərpətöyün bitən yer.",
+  "en": "purslane patch",
+  "pos": "noun"
+ },
+ "pərvanəlik": {
+  "skip": "meaning not certain"
+ },
+ "pərvazlıq": {
+  "skip": "meaning not certain"
+ },
+ "pəyəlik": {
+  "skip": "meaning not certain"
+ },
+ "qabıqlıq": {
+  "skip": "meaning not certain"
+ },
+ "qadınpərəstlik": {
+  "az": "Qadınlara həddən artıq düşkünlük.",
+  "en": "womanizing",
+  "pos": "noun"
+ }
+}

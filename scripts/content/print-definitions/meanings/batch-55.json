@@ -1,0 +1,888 @@
+{
+ "qalaçalıq": {
+  "skip": "meaning not certain"
+ },
+ "qaloşluq": {
+  "skip": "meaning not certain"
+ },
+ "qalvanopalçıqlıq": {
+  "skip": "meaning not certain"
+ },
+ "qalınqabırğalıq": {
+  "skip": "meaning not certain"
+ },
+ "qanlıbıçaqlıq": {
+  "az": "Barışmaz, ölümcül düşmənçilik; qanlı-bıçaqlı olma.",
+  "en": "mortal enmity, deadly feud",
+  "pos": "noun"
+ },
+ "qanqsterlik": {
+  "az": "Qanqsterə xas fəaliyyət; silahlı quldurluq, banditizm.",
+  "en": "gangsterism",
+  "pos": "noun"
+ },
+ "qaplamaçılıq": {
+  "az": "Metal əşyaların üzərinə qızıl, gümüş və s. təbəqə çəkmə sənəti.",
+  "en": "plating, gilding (as a trade)",
+  "pos": "noun"
+ },
+ "qaramalçılıq": {
+  "az": "İribuynuzlu mal-qara saxlama və yetişdirmə; maldarlığın bu sahəsi.",
+  "en": "cattle breeding, cattle farming",
+  "pos": "noun"
+ },
+ "qarameşəlik": {
+  "skip": "meaning not certain"
+ },
+ "qaratikanlıq": {
+  "az": "Qaratikan kollarının sıx bitdiyi yer; tikanlı kolluq.",
+  "en": "thorn thicket, thorny scrub",
+  "pos": "noun"
+ },
+ "qaraçöhrəlik": {
+  "skip": "plant name, not certain"
+ },
+ "qarağaclıq": {
+  "az": "Qarağac ağaclarının çox bitdiyi yer; qarağac meşəsi.",
+  "en": "elm grove, elm wood",
+  "pos": "noun"
+ },
+ "qardaş-bacılıq": {
+  "az": "Qardaş və bacı arasındakı münasibət; qardaş-bacı kimi yaxınlıq.",
+  "en": "brother-sister relationship; sibling closeness",
+  "pos": "noun"
+ },
+ "qarnıyarıqlıq": {
+  "skip": "meaning not certain"
+ },
+ "qarınpərəstlik": {
+  "az": "Yeməyə həddən artıq düşkünlük; qarnının qulu olma.",
+  "en": "gluttony",
+  "pos": "noun"
+ },
+ "qarətkarlıq": {
+  "az": "Qarət etmə, talançılıq; soyğunçuluq.",
+  "en": "plundering, pillage, robbery",
+  "pos": "noun"
+ },
+ "qaysarlıq": {
+  "skip": "meaning not certain"
+ },
+ "qayınlıq": {
+  "az": "Qayın olma; ər və ya arvadın qardaşı ilə olan qohumluq.",
+  "en": "being a brother-in-law; in-law relationship",
+  "pos": "noun"
+ },
+ "qazalaqçılıq": {
+  "az": "Keçmişdə qazalaq (təkatlı, ikitəkərli araba) sürmə və onunla yük, adam daşıma peşəsi.",
+  "en": "carting, cab-driving with a two-wheeled cart (historical trade)",
+  "pos": "noun",
+  "src": "izahli"
+ },
+ "qazkeçiricilik": {
+  "az": "Materialın, maddənin qazı öz içindən keçirə bilmə qabiliyyəti.",
+  "en": "gas permeability",
+  "pos": "noun"
+ },
+ "qeyri-etiklik": {
+  "az": "Etik, əxlaqi normalara uyğun olmama; etikaya zidd davranış.",
+  "en": "unethical nature, unethicalness",
+  "pos": "noun"
+ },
+ "qeyrətkeşlik": {
+  "az": "Vətən, xalq və ailə namusu uğrunda canyandırma; qeyrətli olma.",
+  "en": "zeal, ardour; devotion to honour",
+  "pos": "noun"
+ },
+ "qoluzorbalıq": {
+  "az": "Gücünə arxalanıb başqalarına zor göstərmə; zorbalıq.",
+  "en": "bullying, strong-arm behaviour",
+  "pos": "noun",
+  "src": "izahli"
+ },
+ "qonaqçılıq": {
+  "az": "Qonaq qəbul etməyi sevmə, qonağa hörmət göstərmə; qonaqpərvərlik.",
+  "en": "hospitality",
+  "pos": "noun"
+ },
+ "qondaraçılıq": {
+  "az": "Ayaqqabı tikmə peşəsi; çəkməçilik (köhnə).",
+  "en": "shoemaking, cobbling (dated)",
+  "pos": "noun"
+ },
+ "qoruqluq": {
+  "skip": "meaning not certain"
+ },
+ "qoşunluq": {
+  "skip": "meaning not certain"
+ },
+ "qrafomanlıq": {
+  "az": "Yazmağa xəstəlik dərəcəsində, lakin istedadsız həvəs; qrafomaniya.",
+  "en": "graphomania",
+  "pos": "noun"
+ },
+ "qravürçülük": {
+  "az": "Qravür hazırlama sənəti; lövhə üzərində oyma yolu ilə təsvir yaratma.",
+  "en": "engraving (as an art or trade)",
+  "pos": "noun"
+ },
+ "qrosmeysterlik": {
+  "az": "Qrosmeyster adı, qrosmeyster səviyyəsi.",
+  "en": "grandmastership, grandmaster title",
+  "pos": "noun"
+ },
+ "qründerlik": {
+  "az": "Spekulyativ məqsədlə səhmdar cəmiyyətlər təsis etmə fəaliyyəti.",
+  "en": "company promotion, speculative founding of companies",
+  "pos": "noun"
+ },
+ "quldurbaşılıq": {
+  "az": "Quldur dəstəsinə başçılıq etmə; quldurbaşı olma.",
+  "en": "leadership of a band of robbers",
+  "pos": "noun"
+ },
+ "qunduzçuluq": {
+  "az": "Xəzi üçün qunduz yetişdirmə; təsərrüfatın bu sahəsi.",
+  "en": "beaver farming",
+  "pos": "noun"
+ },
+ "qutuluq": {
+  "skip": "meaning not certain"
+ },
+ "quyuçuluq": {
+  "az": "Quyu qazma peşəsi; quyuçunun işi.",
+  "en": "well digging (as a trade)",
+  "pos": "noun"
+ },
+ "quzuçuluq": {
+  "az": "Quzulara baxma, quzu otarma işi.",
+  "en": "lamb herding",
+  "pos": "noun"
+ },
+ "qütbçülük": {
+  "az": "Qütb bölgələrini tədqiq etmə, orada işləmə; qütbçünün peşəsi.",
+  "en": "polar exploration, polar research",
+  "pos": "noun"
+ },
+ "qıfılçılıq": {
+  "az": "Qıfıl düzəltmə və təmir etmə peşəsi.",
+  "en": "locksmithing",
+  "pos": "noun"
+ },
+ "qırpımlıq": {
+  "az": "Bir göz qırpımı qədər çəkən, çox qısa (bir qırpımlıq an).",
+  "en": "momentary, lasting the blink of an eye",
+  "pos": "adjective"
+ },
+ "qırxıcılıq": {
+  "az": "Qoyun qırxma işi, qırxıcının peşəsi.",
+  "en": "sheep shearing (as an occupation)",
+  "pos": "noun"
+ },
+ "qırxınçılıq": {
+  "skip": "meaning not certain"
+ },
+ "qırışmallıq": {
+  "az": "Qırışmal hərəkət; hiyləgərlik, dələduzluq.",
+  "en": "roguery, rascality, mischief",
+  "pos": "noun"
+ },
+ "qızbibilik": {
+  "az": "Oğlanın qızlarla oturub-durmağı xoşlaması, qorxaq və aciz olması.",
+  "en": "sissiness (of a boy)",
+  "pos": "noun"
+ },
+ "qızılçətirlik": {
+  "skip": "plant name, not certain"
+ },
+ "qəhvəcillik": {
+  "az": "Qəhvəni çox sevmə, qəhvəyə düşkünlük.",
+  "en": "fondness for coffee",
+  "pos": "noun"
+ },
+ "qərbpərəstlik": {
+  "az": "Qərbə, onun mədəniyyətinə və həyat tərzinə kor-koranə pərəstiş.",
+  "en": "worship of the West, Westernism",
+  "pos": "noun"
+ },
+ "qərbşünaslıq": {
+  "az": "Qərb ölkələrinin tarixini, dillərini və mədəniyyətini öyrənən elm sahəsi.",
+  "en": "Occidental studies, Occidentalism",
+  "pos": "noun"
+ },
+ "qəsd-qərəzlik": {
+  "az": "Birinə qarşı düşmənçilik, pis niyyət bəsləmə.",
+  "en": "malice, ill will",
+  "pos": "noun"
+ },
+ "qətl-qarətçilik": {
+  "az": "Adam öldürüb talan etmə; qətl və qarətlə məşğul olma.",
+  "en": "murder and plunder, banditry",
+  "pos": "noun"
+ },
+ "qəzillik": {
+  "skip": "meaning not certain"
+ },
+ "qəzəlxanlıq": {
+  "az": "Qəzəl oxuma, qəzəl ifa etmə sənəti.",
+  "en": "ghazal singing or recitation",
+  "pos": "noun"
+ },
+ "radioastrofiziklik": {
+  "az": "Radioastrofizikin ixtisası, peşəsi.",
+  "en": "profession of a radio astrophysicist",
+  "pos": "noun"
+ },
+ "radiofiziklik": {
+  "az": "Radiofizikin ixtisası, peşəsi.",
+  "en": "profession of a radio physicist",
+  "pos": "noun"
+ },
+ "radiooperatorluq": {
+  "az": "Radiooperatorun işi, peşəsi.",
+  "en": "work of a radio operator",
+  "pos": "noun"
+ },
+ "radiotexniklik": {
+  "az": "Radiotexnikin işi, peşəsi.",
+  "en": "work of a radio technician",
+  "pos": "noun"
+ },
+ "radioşünaslıq": {
+  "az": "Radioəlaqə və radiotexnika ilə bağlı elm sahəsi; radioşünasın ixtisası.",
+  "en": "radio science, radio engineering",
+  "pos": "noun"
+ },
+ "rahibəlik": {
+  "az": "Rahibə olma; rahibənin monastır həyatı.",
+  "en": "being a nun, nunhood",
+  "pos": "noun"
+ },
+ "raketçilik": {
+  "az": "Raket texnikası ilə məşğul olma; raketçinin işi.",
+  "en": "rocketry; service as a rocketeer",
+  "pos": "noun"
+ },
+ "ramazanlıq": {
+  "skip": "meaning not certain"
+ },
+ "rapiraçılıq": {
+  "az": "Rapira ilə qılıncoynatma; bu idman növü ilə məşğul olma.",
+  "en": "foil fencing",
+  "pos": "noun"
+ },
+ "rasionluq": {
+  "skip": "meaning not certain"
+ },
+ "ravvinlik": {
+  "az": "Ravvin vəzifəsi, ravvinin dini rəhbərliyi.",
+  "en": "rabbinate, office of a rabbi",
+  "pos": "noun"
+ },
+ "raxitlik": {
+  "az": "Raxit xəstəliyinə tutulmuş olma; raxit halı.",
+  "en": "rachitic condition, rickets",
+  "pos": "noun"
+ },
+ "rayonbazlıq": {
+  "az": "Öz rayonundan olanlara üstünlük vermə; yerlibazlıq.",
+  "en": "regional favouritism, localism",
+  "pos": "noun"
+ },
+ "realistlik": {
+  "az": "Reallığı, mövcud şəraiti nəzərə alma; realist olma.",
+  "en": "realism, realistic attitude",
+  "pos": "noun"
+ },
+ "referentlik": {
+  "az": "Referentin vəzifəsi; müəyyən sahə üzrə arayış və məsləhət vermə işi.",
+  "en": "post of a referent (adviser)",
+  "pos": "noun"
+ },
+ "reformatorluq": {
+  "az": "Reformator fəaliyyəti; islahatçılıq.",
+  "en": "work as a reformer, reformism",
+  "pos": "noun"
+ },
+ "regionluq": {
+  "skip": "meaning not certain"
+ },
+ "regionçuluq": {
+  "az": "Öz regionundan olanlara üstünlük vermə; yerlibazlıq.",
+  "en": "regionalism, regional favouritism",
+  "pos": "noun"
+ },
+ "reneqatlıq": {
+  "az": "Öz əqidəsindən, dinindən və ya keçmiş mövqeyindən dönmə; dönüklük.",
+  "en": "apostasy, renegadism",
+  "pos": "noun"
+ },
+ "rentaçılıq": {
+  "az": "Renta hesabına, zəhmətsiz gəlirlə yaşama.",
+  "en": "rentier existence, living on unearned income",
+  "pos": "noun"
+ },
+ "repçilik": {
+  "az": "Rep ifa etmə; rep musiqisi ilə məşğul olma.",
+  "en": "rapping, rap performance",
+  "pos": "noun"
+ },
+ "resenziyaçılıq": {
+  "az": "Resenziya, rəy yazma işi.",
+  "en": "reviewing, writing reviews",
+  "pos": "noun"
+ },
+ "residivistlik": {
+  "az": "Cinayəti təkrar törətmə; residivist olma.",
+  "en": "recidivism",
+  "pos": "noun"
+ },
+ "respondentlik": {
+  "az": "Sorğuda cavab verən şəxs kimi iştirak etmə.",
+  "en": "being a respondent",
+  "pos": "noun"
+ },
+ "restorançılıq": {
+  "az": "Restoran işi; restoranların təşkili və idarə edilməsi sahəsi.",
+  "en": "restaurant business",
+  "pos": "noun"
+ },
+ "revizionistlik": {
+  "az": "Revizionizm mövqeyi, revizionist olma.",
+  "en": "revisionism",
+  "pos": "noun"
+ },
+ "revmatoloqluq": {
+  "az": "Revmatoloqun ixtisası, peşəsi.",
+  "en": "profession of a rheumatologist",
+  "pos": "noun"
+ },
+ "reyhanlıq": {
+  "az": "Reyhan əkilmiş və ya reyhan bitən yer.",
+  "en": "basil bed, basil patch",
+  "pos": "noun"
+ },
+ "reçitativlik": {
+  "az": "Reçitativ xüsusiyyət; danışıq intonasiyasına yaxın oxuma tərzi.",
+  "en": "recitative quality",
+  "pos": "noun"
+ },
+ "ritualşünaslıq": {
+  "az": "Ritualları, dini və xalq mərasimlərini öyrənən elm sahəsi.",
+  "en": "ritual studies",
+  "pos": "noun"
+ },
+ "romanşünaslıq": {
+  "skip": "meaning not certain"
+ },
+ "rotmistrlik": {
+  "az": "Rotmistr rütbəsi (keçmişdə süvari qoşunlarında).",
+  "en": "rank of rotmistr (cavalry captain)",
+  "pos": "noun"
+ },
+ "royalistlik": {
+  "az": "Monarxiya tərəfdarlığı; royalist olma.",
+  "en": "royalism",
+  "pos": "noun"
+ },
+ "rumişünaslıq": {
+  "az": "Mövlana Cəlaləddin Ruminin həyat və yaradıcılığını öyrənən elm sahəsi.",
+  "en": "Rumi studies",
+  "pos": "noun"
+ },
+ "rusofillik": {
+  "az": "Ruslara və rus mədəniyyətinə rəğbət.",
+  "en": "Russophilia",
+  "pos": "noun"
+ },
+ "rübabçılıq": {
+  "az": "Rübab çalma sənəti.",
+  "en": "rubab playing",
+  "pos": "noun"
+ },
+ "rəsulluq": {
+  "az": "Allahın elçisi olma; peyğəmbərlik.",
+  "en": "prophethood, apostleship",
+  "pos": "noun"
+ },
+ "rəzalətlik": {
+  "az": "Rəzil, alçaq hərəkət; rüsvayçılıq.",
+  "en": "vileness, disgrace",
+  "pos": "noun"
+ },
+ "saatyarımlıq": {
+  "az": "Bir saat yarım davam edən (saatyarımlıq yol).",
+  "en": "lasting an hour and a half, ninety-minute",
+  "pos": "adjective"
+ },
+ "sabirşünaslıq": {
+  "az": "Mirzə Ələkbər Sabirin həyat və yaradıcılığını öyrənən elm sahəsi.",
+  "en": "Sabir studies",
+  "pos": "noun"
+ },
+ "sabitləşdiricilik": {
+  "az": "Sabitləşdirmə xüsusiyyəti; sabitliyi təmin etmə qabiliyyəti.",
+  "en": "stabilizing property, stabilizing capacity",
+  "pos": "noun"
+ },
+ "saciçilik": {
+  "skip": "meaning not certain"
+ },
+ "saclıq": {
+  "skip": "meaning not certain"
+ },
+ "safcinslik": {
+  "az": "Heyvanın saf, qarışmamış cinsdən olması.",
+  "en": "purebredness, pure breeding",
+  "pos": "noun"
+ },
+ "sahmançılıq": {
+  "skip": "meaning not certain"
+ },
+ "saksofonçuluq": {
+  "az": "Saksofon çalma sənəti.",
+  "en": "saxophone playing",
+  "pos": "noun"
+ },
+ "salfetlik": {
+  "skip": "meaning not certain"
+ },
+ "salxımlıq": {
+  "skip": "meaning not certain"
+ },
+ "salışdırıcılıq": {
+  "az": "Adamları bir-birinin üstünə salışdırma, qızışdırma; fitnəkarlıq.",
+  "en": "instigation, setting people against each other",
+  "pos": "noun"
+ },
+ "samboçuluq": {
+  "az": "Sambo güləşi ilə məşğul olma.",
+  "en": "sambo wrestling",
+  "pos": "noun"
+ },
+ "samuraylıq": {
+  "az": "Samuray olma; samurayın həyat tərzi.",
+  "en": "being a samurai, samurai status",
+  "pos": "noun"
+ },
+ "sandıqdarlıq": {
+  "az": "Keçmişdə sandıqdarın vəzifəsi; xəzinədarlıq.",
+  "en": "office of treasurer (historical)",
+  "pos": "noun"
+ },
+ "sanskritoloqluq": {
+  "az": "Sanskritoloqun ixtisası, peşəsi.",
+  "en": "profession of a Sanskritist",
+  "pos": "noun"
+ },
+ "saqilik": {
+  "az": "Məclisdə şərab paylama; saqinin işi.",
+  "en": "office of a cupbearer",
+  "pos": "noun"
+ },
+ "saqqızlıq": {
+  "skip": "meaning not certain"
+ },
+ "sarımtıllıq": {
+  "az": "Sarımtıl rəngdə olma; azca sarılıq.",
+  "en": "yellowishness",
+  "pos": "noun"
+ },
+ "sarıtorpaqlıq": {
+  "skip": "meaning not certain"
+ },
+ "satiriklik": {
+  "az": "Satirik xüsusiyyət, satira ruhu.",
+  "en": "satirical quality",
+  "pos": "noun"
+ },
+ "savadçılıq": {
+  "az": "Gümüş əşyaları savadla (qara naxışla) bəzəmə sənəti.",
+  "en": "niello work (on silver)",
+  "pos": "noun",
+  "src": "izahli"
+ },
+ "savannalıq": {
+  "skip": "meaning not certain"
+ },
+ "sayıcılıq": {
+  "skip": "meaning not certain"
+ },
+ "sazçılıq": {
+  "az": "Saz çalma sənəti.",
+  "en": "saz playing",
+  "pos": "noun"
+ },
+ "sağımlıq": {
+  "skip": "meaning not certain"
+ },
+ "sağıntılıq": {
+  "skip": "meaning not certain"
+ },
+ "seksopatoloqluq": {
+  "az": "Seksopatoloqun ixtisası, peşəsi.",
+  "en": "profession of a sexologist",
+  "pos": "noun"
+ },
+ "sektantlıq": {
+  "az": "Təriqətçilik; dar qrup maraqlarına qapanma.",
+  "en": "sectarianism",
+  "pos": "noun"
+ },
+ "sektaçılıq": {
+  "az": "Sektaya mənsubluq; təriqətçilik.",
+  "en": "sectarianism",
+  "pos": "noun"
+ },
+ "selbasarlıq": {
+  "az": "Sel sularının basdığı, sellə sulanan yerlər.",
+  "en": "flood-prone land",
+  "pos": "noun"
+ },
+ "seleksionerlik": {
+  "az": "Seleksionerin peşəsi; bitki və heyvanların yeni sort və cinslərini yetişdirmə işi.",
+  "en": "work of a breeder (plant or animal breeding)",
+  "pos": "noun"
+ },
+ "seleksiyaçılıq": {
+  "az": "Seleksiya ilə məşğul olma; yeni sort və cinslər yetişdirmə.",
+  "en": "selective breeding (as an occupation)",
+  "pos": "noun"
+ },
+ "selenoloqluq": {
+  "az": "Selenoloqun ixtisası, peşəsi.",
+  "en": "profession of a selenologist",
+  "pos": "noun"
+ },
+ "selenşünaslıq": {
+  "az": "Ayı öyrənən elm sahəsi; selenologiya.",
+  "en": "selenology",
+  "pos": "noun"
+ },
+ "senajlıq": {
+  "skip": "meaning not certain"
+ },
+ "sexlik": {
+  "skip": "meaning not certain"
+ },
+ "sexçilik": {
+  "skip": "meaning not certain"
+ },
+ "sicimlik": {
+  "skip": "meaning not certain"
+ },
+ "sikkəşünaslıq": {
+  "az": "Sikkələri öyrənən elm sahəsi; numizmatika.",
+  "en": "numismatics",
+  "pos": "noun"
+ },
+ "silahdaşlıq": {
+  "az": "Birlikdə vuruşanlar arasındakı dostluq; döyüş yoldaşlığı.",
+  "en": "comradeship in arms",
+  "pos": "noun"
+ },
+ "silosluq": {
+  "az": "Silos hazırlamaq üçün yetişdirilən (silosluq qarğıdalı).",
+  "en": "grown for silage (e.g. silage maize)",
+  "pos": "adjective"
+ },
+ "simfonistlik": {
+  "az": "Simfonik əsərlər yaratma; simfonist bəstəkarın yaradıcılığı.",
+  "en": "symphonic writing, work as a symphonist",
+  "pos": "noun"
+ },
+ "simfoniyaçılıq": {
+  "skip": "meaning not certain"
+ },
+ "simicxislətlik": {
+  "az": "Xəsis təbiətli olma; simiclik.",
+  "en": "stinginess, miserliness",
+  "pos": "noun"
+ },
+ "simlik": {
+  "skip": "meaning not certain"
+ },
+ "simulyakorluq": {
+  "skip": "meaning not certain"
+ },
+ "simulyantlıq": {
+  "az": "Özünü xəstə və ya işə yararsız kimi göstərmə.",
+  "en": "malingering",
+  "pos": "noun"
+ },
+ "simvolistlik": {
+  "az": "Simvolizm cərəyanına mənsubluq; simvolist üslub.",
+  "en": "symbolism (adherence to Symbolism)",
+  "pos": "noun"
+ },
+ "sincçilik": {
+  "az": "Sinc çalma sənəti.",
+  "en": "cymbal playing",
+  "pos": "noun"
+ },
+ "sinilik": {
+  "skip": "meaning not certain"
+ },
+ "sinoptiklik": {
+  "az": "Sinoptikin peşəsi; hava proqnozu vermə işi.",
+  "en": "work of a weather forecaster",
+  "pos": "noun"
+ },
+ "sinəbəndlik": {
+  "skip": "meaning not certain"
+ },
+ "siqaretlik": {
+  "skip": "meaning not certain"
+ },
+ "siqnalçılıq": {
+  "az": "Siqnal vermə işi; siqnalçının vəzifəsi.",
+  "en": "signalling, work of a signalman",
+  "pos": "noun"
+ },
+ "sirdaşlıq": {
+  "az": "Bir-birinə sirlərini açan adamlar arasındakı yaxın dostluq.",
+  "en": "close friendship, being someone's confidant",
+  "pos": "noun"
+ },
+ "sitayişkarlıq": {
+  "az": "Kiməsə və ya nəyəsə sitayiş etmə; pərəstiş.",
+  "en": "worship, adoration",
+  "pos": "noun"
+ },
+ "sitoekoloqluq": {
+  "az": "Sitoekoloqun ixtisası, peşəsi.",
+  "en": "profession of a cytoecologist",
+  "pos": "noun"
+ },
+ "sitrusoloqluq": {
+  "az": "Sitrus bitkiləri üzrə mütəxəssisin ixtisası.",
+  "en": "profession of a citrus specialist",
+  "pos": "noun"
+ },
+ "siğəbazlıq": {
+  "az": "Tez-tez siğə (müvəqqəti nikah) bağlamağa meyil.",
+  "en": "habit of contracting temporary marriages (sigheh)",
+  "pos": "noun"
+ },
+ "skeletlik": {
+  "skip": "meaning not certain"
+ },
+ "skeptiklik": {
+  "az": "Hər şeyə şübhə ilə yanaşma.",
+  "en": "scepticism",
+  "pos": "noun"
+ },
+ "skripkaçılıq": {
+  "az": "Skripka çalma sənəti.",
+  "en": "violin playing",
+  "pos": "noun"
+ },
+ "sobaçılıq": {
+  "az": "Soba quraşdırma və düzəltmə peşəsi.",
+  "en": "stove making, stove setting",
+  "pos": "noun"
+ },
+ "sofuluq": {
+  "az": "Hər şeydən iyrənmə, şübhələnmə; vasvasılıq.",
+  "en": "squeamishness, excessive fastidiousness",
+  "pos": "noun",
+  "src": "izahli"
+ },
+ "soldışlıq": {
+  "az": "Toyda bəyin və ya gəlinin soldışı olma.",
+  "en": "acting as an attendant (soldış) at a wedding",
+  "pos": "noun"
+ },
+ "soluqluq": {
+  "skip": "meaning not certain"
+ },
+ "sonbeşiklik": {
+  "az": "Ailənin ən kiçik uşağı olma.",
+  "en": "being the youngest child",
+  "pos": "noun"
+ },
+ "sosioloqluq": {
+  "az": "Sosioloqun ixtisası, peşəsi.",
+  "en": "profession of a sociologist",
+  "pos": "noun"
+ },
+ "soyalıq": {
+  "az": "Soya əkilmiş sahə.",
+  "en": "soybean field",
+  "pos": "noun"
+ },
+ "soydaşlıq": {
+  "az": "Eyni soydan, eyni etnik mənsubiyyətdən olma.",
+  "en": "ethnic kinship, common descent",
+  "pos": "noun"
+ },
+ "soyğunluq": {
+  "skip": "meaning not certain"
+ },
+ "soğanaqlıq": {
+  "skip": "meaning not certain"
+ },
+ "spermalıq": {
+  "skip": "meaning not certain"
+ },
+ "spinozaçılıq": {
+  "az": "Spinoza fəlsəfəsi və onun tərəfdarlığı.",
+  "en": "Spinozism",
+  "pos": "noun"
+ },
+ "ssenariçilik": {
+  "az": "Ssenari yazma işi, ssenaristin peşəsi.",
+  "en": "scriptwriting, screenwriting",
+  "pos": "noun"
+ },
+ "statistlik": {
+  "az": "Səhnədə və ya filmdə sözsüz rol ifa etmə; statist olma.",
+  "en": "work as an extra",
+  "pos": "noun"
+ },
+ "stendçilik": {
+  "skip": "meaning not certain"
+ },
+ "stenoqraflıq": {
+  "az": "Stenoqrafın işi; nitqi stenoqrafiya ilə yazma.",
+  "en": "stenography, work as a stenographer",
+  "pos": "noun"
+ },
+ "stenoqrafçılıq": {
+  "az": "Nitqi stenoqrafiya ilə yazıya alma işi.",
+  "en": "stenography, shorthand writing",
+  "pos": "noun"
+ },
+ "stereotiplik": {
+  "az": "Stereotipə uyğun olma; şablonçuluq.",
+  "en": "stereotyped quality",
+  "pos": "noun"
+ },
+ "stilistlik": {
+  "az": "Stilistin işi, peşəsi; üslub ustalığı.",
+  "en": "work of a stylist; stylistic mastery",
+  "pos": "noun"
+ },
+ "stilyaqalıq": {
+  "az": "Stilyaqa həyat tərzi; gözə çarpan dəbli geyimə həddən artıq meyil.",
+  "en": "stilyaga style, flashy dandyism (Soviet era)",
+  "pos": "noun"
+ },
+ "stomatoloqluq": {
+  "az": "Stomatoloqun ixtisası, peşəsi.",
+  "en": "dentistry (as a profession)",
+  "pos": "noun"
+ },
+ "strateqlik": {
+  "az": "Strateq qabiliyyəti; strateji düşünmə bacarığı.",
+  "en": "strategic skill, generalship",
+  "pos": "noun"
+ },
+ "stüardessalıq": {
+  "az": "Stüardessanın işi, peşəsi.",
+  "en": "work as a flight attendant (stewardess)",
+  "pos": "noun"
+ },
+ "stüardlıq": {
+  "az": "Stüardın işi, peşəsi.",
+  "en": "work as a steward",
+  "pos": "noun"
+ },
+ "subasarlıq": {
+  "az": "Çay daşanda su altında qalan ərazi; subasar yerlər.",
+  "en": "floodplain, flood meadows",
+  "pos": "noun"
+ },
+ "subicarəçilik": {
+  "az": "Əmlakı subicarə yolu ilə götürmə və ya vermə.",
+  "en": "subleasing",
+  "pos": "noun"
+ },
+ "subpodratçılıq": {
+  "az": "Subpodratçı kimi iş görmə; işin bir hissəsini əsas podratçıdan götürüb yerinə yetirmə.",
+  "en": "subcontracting",
+  "pos": "noun"
+ },
+ "suburaxıcılıq": {
+  "skip": "meaning not certain"
+ },
+ "sucuqluq": {
+  "skip": "meaning not certain"
+ },
+ "sui-qəsdçilik": {
+  "az": "Sui-qəsd hazırlama; sui-qəsdçinin fəaliyyəti.",
+  "en": "plotting, conspiracy",
+  "pos": "noun"
+ },
+ "sulaqlıq": {
+  "skip": "meaning not certain"
+ },
+ "sulufluq": {
+  "skip": "meaning not certain"
+ },
+ "surdopedaqoqluq": {
+  "az": "Surdopedaqoqun ixtisası; kar və eşitmə qüsurlu uşaqlara təlim vermə işi.",
+  "en": "work as a teacher of the deaf",
+  "pos": "noun"
+ },
+ "sututarlıq": {
+  "skip": "meaning not certain"
+ },
+ "söykəklik": {
+  "skip": "meaning not certain"
+ },
+ "söyüşkənlik": {
+  "az": "Tez-tez söyüş söymə, ədəbsiz sözlər işlətmə vərdişi.",
+  "en": "foul-mouthedness",
+  "pos": "noun"
+ },
+ "söyüşçülük": {
+  "az": "Söyüş söyməyə meyil; ədəbsiz danışma.",
+  "en": "habitual swearing, foul language",
+  "pos": "noun"
+ },
+ "sünbüllük": {
+  "skip": "meaning not certain"
+ },
+ "süpürgəlik": {
+  "skip": "meaning not certain"
+ },
+ "sür-sümüklük": {
+  "skip": "meaning not certain"
+ },
+ "sürfəlik": {
+  "az": "Sürfə halında olma; heyvanın inkişafında sürfə mərhələsi.",
+  "en": "larval stage",
+  "pos": "noun"
+ },
+ "sürrealistlik": {
+  "az": "Sürrealizm cərəyanına mənsubluq; sürrealist üslub.",
+  "en": "surrealism",
+  "pos": "noun"
+ },
+ "sürülük": {
+  "skip": "meaning not certain"
+ },
+ "sütunluq": {
+  "skip": "meaning not certain"
+ },
+ "süxurşünaslıq": {
+  "az": "Süxurları, onların tərkibini və əmələgəlməsini öyrənən elm sahəsi; petroqrafiya.",
+  "en": "petrography, petrology",
+  "pos": "noun"
+ },
+ "sıravilik": {
+  "az": "Sıravi, adi olma; sıravi üzv və ya əsgər vəziyyəti.",
+  "en": "ordinariness; rank-and-file status",
+  "pos": "noun"
+ },
+ "sırıqlılıq": {
+  "skip": "meaning not certain"
+ },
+ "sıxaclıq": {
+  "skip": "meaning not certain"
+ },
+ "sıxmalıq": {
+  "skip": "meaning not certain"
+ }
+}
