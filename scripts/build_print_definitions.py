@@ -1160,6 +1160,45 @@ class Builder:
                     self.link(word, other, 'topic', 'Tərif · əsas söz', f'«{word}» tərifdə «{other}» sözü əsasında izah olunur.',
                               f'{word} is defined in terms of {other}.', refs, 'original-relation')
 
+    def inflected_forms(self):
+        """Link a still isolated function word, adverb or adjective that is an inflected form of another headword to
+        it, naming the ending rather than a case: tərəfindən (tərəf + -indən), zamanı (zaman + -ı), aşağıdakı
+        (aşağı + -dakı), nədən (nə + -dən). Nouns and verbs are left out, where a form and a homograph are too
+        easily confused (tap, the sound, is not tapmaq)."""
+        def endings(base):
+            vowel = next((ch for ch in reversed(base) if ch in VOWELS), 'ə')
+            i, a, after_vowel = h4(base), h2(base), base[-1] in VOWELS
+            possessive = ('s' if after_vowel else '') + i
+            found = {possessive, possessive + 'n' + i + 'n', possessive + 'n' + a, possessive + 'n' + i,
+                     possessive + 'nd' + a, possessive + 'nd' + a + 'n', possessive + 'nd' + a + 'k' + i,
+                     ('n' if after_vowel else '') + i + 'n', ('y' if after_vowel else '') + a, ('n' if after_vowel else '') + i,
+                     'l' + a + 'r', 'l' + a + 'r' + i, ('' if after_vowel else i) + 'm' + i + 'z',
+                     ('' if after_vowel else i) + 'n' + i + 'z', 'd' + i + 'r', 't' + i + 'r', 'k' + i}
+            for d in 'dt':
+                found |= {d + a, d + a + 'n', d + a + 'k' + i}
+            return found
+        for word in list(self.nodes):
+            node = self.defined(word)
+            if self.degree[word] or ' ' in word or '-' in word or not node:
+                continue
+            if node.get('pos') not in ('postposition', 'adverb', 'pronoun', 'function', 'conjunction', 'particle', 'adjective'):
+                continue
+            best = None
+            for cut in range(1, len(word)):
+                for base in [word[:cut]] + unvoiced(word[:cut]):
+                    target = self.usable(base)
+                    if (not target or base == word or target['pos'] == 'verb' or word[cut:] not in endings(base)
+                            or len(base) < 3 and target['pos'] not in ('pronoun', 'function', 'numeral')):
+                        continue
+                    if not best or len(base) > len(best[0]):
+                        best = (base, word[cut:])
+            if best:
+                base, ending = best
+                page = self.nodes[word].get('page')
+                refs = ([spelling_source(page)] if page else []) + [GRAMMAR]
+                self.link(word, base, 'root', f'Söz forması · -{ending}', f'«{word}» sözü «{base}» sözünə -{ending} artırılmaqla düzəlir.',
+                          f'{word} is {base} with the ending -{ending}.', refs, 'inflected-form')
+
     def relation_nouns(self, word, definition):
         """Nouns a relational definition is built on: «Əlkimyaya aid.» -> əlkimya, «Üç sinifdən ibarət.» -> sinif,
         «Toxunma ilə bağlı.» -> toxunma, «Ödü olan.» -> öd, «Tarix və politologiyaya aid.» -> tarix, politologiya."""
@@ -1399,6 +1438,7 @@ def main():
     builder.bilingual_references()
     builder.leading_references()
     builder.original_definition_links()
+    builder.inflected_forms()
     after_undefined = sum(1 for w in builder.nodes if not builder.defined(w))
     after_isolated = sum(1 for w in builder.nodes if not builder.degree[w])
     methods = collections.Counter(d['method'] for d in builder.definitions.values())
