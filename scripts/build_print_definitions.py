@@ -519,6 +519,8 @@ class Builder:
             piece = match[1]
             if piece[-1] in 'aə':
                 stems = [piece[:-1]] + ([piece[:-2]] if piece[:-1].endswith('y') else [])
+                # A stem-final t turns into d before the vowel: üyüdə-üyüdə is üyütmək, dağıda-dağıda is dağıtmaq.
+                stems += [piece[:-2] + 't'] if piece[:-1].endswith('d') else []
                 verb = next((s + infinitive_ending(s) for s in stems if (self.usable(s + infinitive_ending(s)) or {}).get('pos') == 'verb'), None)
                 if verb:
                     yield verb, 'converb-repeat', piece[-1]
