@@ -5,22 +5,34 @@ const clamp=(v,a,b)=>Math.max(a,Math.min(b,v)),mix=(a,b,t)=>a+(b-a)*t,smooth=t=>
 function createAtlas(data,model){
  const regions=[...data.regions],clusters=[...data.clusters];
  const points=data.points.map(([word,x,y,z,cluster])=>({word,x,y,z,cluster,node:model.byWord.get(word),region:clusters[cluster].region}));
- const spellingEntries=model.orthographyNodes||[];
- if(spellingEntries.length){
+ const spellingEntries=model.orthographyNodes||[],spelling=data.spelling;
+ const goldenAngle=Math.PI*(3-Math.sqrt(5)),hash=t=>{let h=2166136261;for(const c of t){h^=c.codePointAt(0);h=Math.imul(h,16777619);}return h>>>0;};
+ if(spellingEntries.length&&spelling&&spelling.count===spellingEntries.length){
+  // Each spelling-dictionary word joins the cluster its code names and continues that cluster's phyllotaxis
+  // after its dictionary words (build_galaxy.cjs), so the map stays one connected set of topic groups.
+  const next=clusters.map(c=>c.base||0),turn=clusters.map(c=>(hash(c.id)%628)/100);
+  for(const [i,node] of spellingEntries.entries()){
+   const cluster=spelling.alphabet.indexOf(spelling.codes[i]),c=clusters[cluster],k=next[cluster]++,angle=k*goldenAngle+turn[cluster],distance=Math.sqrt(k)*74;
+   points.push({word:node.w,x:Math.round(c.x+Math.cos(angle)*distance),y:Math.round(c.y+Math.sin(angle)*distance),z:Math.round((c.z||0)+Math.sin(angle*2)*Math.min(distance*.08,100)+(hash(node.w)%90)-45),cluster,region:c.region,node});
+  }
+ }else if(spellingEntries.length){
+  // Older data without spelling codes: one separate disk along the southeast diagonal.
   const region=regions.length,cluster=clusters.length,count=spellingEntries.length;
   const id='orthography',label='Orfoqrafiya',en='Spelling',radius=Math.ceil(Math.sqrt(count)*74+140);
-  // Separate the full disks along the southeast diagonal, even as spelling coverage grows.
   const southeastEdge=Math.max(...regions.map(r=>r.x+r.y+r.radius*Math.SQRT2));
   const centerSum=southeastEdge+(radius+300+3600)*Math.SQRT2;
   const x=Math.round((centerSum+2500)/2),y=Math.round(centerSum-x);
   regions.push({id,label,en,index:region,x,y,radius:radius+300,count,color:'#9aa9b5',clusters:[cluster]});
   clusters.push({id,label,en,index:cluster,region,x,y,z:0,radius,count,featured:[]});
-  const goldenAngle=Math.PI*(3-Math.sqrt(5));
   for(const [i,node] of spellingEntries.entries()){
    const angle=i*goldenAngle,distance=Math.sqrt(i)*74;
    points.push({word:node.w,x:Math.round(x+Math.cos(angle)*distance),y:Math.round(y+Math.sin(angle)*distance),z:0,cluster,region,node});
   }
  }
+ // Counts describe the words actually on this map (a model without the spelling layer has fewer).
+ const tally=new Map();for(const p of points)tally.set(p.cluster,(tally.get(p.cluster)||0)+1);
+ for(const [i,c] of clusters.entries())clusters[i]={...c,count:tally.get(i)||0};
+ for(const [i,r] of regions.entries())regions[i]={...r,count:r.clusters.reduce((n,c)=>n+(tally.get(c)||0),0)};
  const byWord=new Map(points.map(p=>[p.word,p]));
  if(points.some(p=>!p.node)||byWord.size!==model.nodes.length)throw Error('Galaxy and dictionary must have identical headwords.');
  const bounds=points.reduce((b,p)=>({minX:Math.min(b.minX,p.x),maxX:Math.max(b.maxX,p.x),minY:Math.min(b.minY,p.y),maxY:Math.max(b.maxY,p.y)}),{minX:Infinity,maxX:-Infinity,minY:Infinity,maxY:-Infinity});

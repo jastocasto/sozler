@@ -22,31 +22,41 @@ assert.equal(model.nodes.length,original.nodes.length);
 assert.equal(model.byWord.size,atlas.points.length);
 assert.deepEqual(model.grammarRecords,original.grammarRecords);
 assert.deepEqual(model.nominalRecords,original.nominalRecords);
-const spelling = atlas.regions.find(region=>region.id==='orthography');
-const spellingPoints = atlas.points.filter(point=>point.region===spelling.index);
-const otherPoints = atlas.points.filter(point=>point.region!==spelling.index);
+// Spelling-dictionary words join topic and word-formation clusters; no separate spelling region remains.
+const data = w.WORD_GALAXY_DATA;
+assert(!atlas.regions.some(region=>region.id==='orthography'));
+assert.equal(atlas.regions.length,data.regions.length);
+assert.equal(atlas.clusters.length,data.clusters.length);
+const spellingWords = new Set(model.orthographyNodes.map(n=>n.w));
+const spellingPoints = atlas.points.filter(point=>spellingWords.has(point.word));
 assert.equal(spellingPoints.length,model.orthographyNodes.length);
-for (const [word,x,y,z] of w.WORD_GALAXY_DATA.points) {
+assert.equal(data.spelling.count,model.orthographyNodes.length);
+for (const [word,x,y,z] of data.points) {
   const point = atlas.byWord.get(word);
   assert(point.x===x && point.y===y && point.z===z,word+' keeps its position');
 }
-for (const point of otherPoints) {
-  assert(Math.hypot(point.x-spelling.x,point.y-spelling.y)>spelling.radius+3000,point.word+' stays clear of the spelling disk');
+// Named groups, none dwarfing the rest, and every word inside its own circle with no circles overlapping.
+const reach = new Map();
+for (const point of atlas.points) {
+  const cluster = atlas.clusters[point.cluster];
+  assert.equal(point.region,cluster.region);
+  reach.set(point.cluster,Math.max(reach.get(point.cluster)||0,Math.hypot(point.x-cluster.x,point.y-cluster.y)));
 }
-for (const [width,height] of [[320,568],[390,844],[1440,900]]) {
-  const home = galaxy.overview(atlas,width,height);
-  for (const scale of [1,2.9]) {
-    const project = galaxy.transform({...home,zoom:home.zoom*scale},width,height);
-    const origin = project(spelling),diagonal = project({x:spelling.x+1,y:spelling.y+1});
-    const dx = diagonal.x-origin.x,dy = diagonal.y-origin.y,length = Math.hypot(dx,dy);
-    const along = point => {
-      const p = project(point);
-      return ((p.x-origin.x)*dx+(p.y-origin.y)*dy)/length;
-    };
-    const gap = Math.min(...spellingPoints.map(along))-Math.max(...otherPoints.map(along));
-    assert(gap>10,`${width}×${height} at ${scale}× has ${gap}px between word clouds`);
-  }
+for (const cluster of atlas.clusters) {
+  assert(cluster.label&&cluster.en,cluster.id+' is named');
+  assert((reach.get(cluster.index)||0)<=cluster.radius,cluster.id+' holds its words');
+  assert(cluster.count<=atlas.points.length*.09,cluster.id+' is one group among many');
 }
+for (const [i,a] of atlas.clusters.entries()) for (const b of atlas.clusters.slice(i+1)) {
+  assert(Math.hypot(a.x-b.x,a.y-b.y)>(reach.get(a.index)||0)+(reach.get(b.index)||0),a.id+' and '+b.id+' do not overlap');
+}
+assert.equal(atlas.clusters.reduce((n,c)=>n+c.count,0),atlas.points.length);
+assert.equal(atlas.regions.reduce((n,r)=>n+r.count,0),atlas.points.length);
+const cluster = word => atlas.clusters[atlas.byWord.get(word).cluster];
+for (const word of ['abdəstli','abdəstsiz','abdəstlik']) assert.equal(cluster(word),cluster('abdəst'),word+' sits with its base word');
+const spellingGroups = new Set(spellingPoints.map(point=>point.cluster));
+assert(spellingGroups.size>40,'Spelling words are spread over many groups');
+assert(atlas.clusters.some(c=>c.label.startsWith('Feli isimlər')&&spellingGroups.has(c.index)));
 const pass = w.WORD_WEB_ORTHOGRAPHY_LEXICAL;
 const type = (a,b,kind) => model.related(model.byWord.get(a)).find(item => item.node.w===b&&item.edge.type===kind);
 for (const [a,b,kind] of pass.edges) {
@@ -113,15 +123,17 @@ assert.equal(h.$('zoomLabel').textContent,'1×');
 h.$('zoomIn').click();assert.notEqual(h.$('zoomLabel').textContent,'1×');
 h.$('universeButton').click();
 assert.equal(h.$('universeTotal').textContent,total);
-const spellingLabel = h.$('atlasLabels').querySelector('[data-region="orthography"]');
-assert(spellingLabel);
+assert(!h.$('atlasLabels').querySelector('[data-region="orthography"]'));
+const concepts = atlas.regions.find(region=>region.id==='concepts');
+const regionLabel = h.$('atlasLabels').querySelector('[data-region="concepts"]');
+assert(regionLabel);
 assert.equal(h.counts.arcs.length,atlas.points.length,'The overview draws the spelling entries as individual dots');
-assert(inspect().atlasLines.some(line=>(atlas.byWord.get(line.a).region===spelling.index)!==(atlas.byWord.get(line.b).region===spelling.index)));
-spellingLabel.click();
+assert(inspect().atlasLines.some(line=>spellingWords.has(line.a)!==spellingWords.has(line.b)));
+regionLabel.click();
 assert.equal(inspect().view,'region');
-assert.equal(h.$('breadcrumbRegion').textContent,'Orfoqrafiya');
-assert.equal(inspect().camera.x,spelling.x);
-assert.equal(inspect().camera.y,spelling.y);
+assert.equal(h.$('breadcrumbRegion').textContent,concepts.label);
+assert.equal(inspect().camera.x,concepts.x);
+assert.equal(inspect().camera.y,concepts.y);
 assert.match(h.$('brandHome').querySelector('img').getAttribute('src'),/^favicon\.svg\?v=/);
 h.$('brandHome').click();
 assert.equal(inspect().view,'universe');
@@ -182,4 +194,4 @@ for (let i=0;i<3;i++) {
 assert(inspect().race.complete);
 assert.equal(inspect().race.taps,3);
 assert.equal(h.errors.length,0);
-console.log('PASS spelling disk separation, full overview dots, AZ home button, reciprocal lexical bubbles, verb picker, curated daily rotation, and a playable three-tap race from an isolated entry.');
+console.log('PASS spelling words in named topic and word-formation clusters without overlap, full overview dots, AZ home button, reciprocal lexical bubbles, verb picker, curated daily rotation, and a playable three-tap race from an isolated entry.');

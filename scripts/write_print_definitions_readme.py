@@ -12,7 +12,7 @@ n = lambda value: f'{value:,}'
 total = 90849
 section = f'''## Headword count and print-dictionary definitions
 
-The atlas has **{n(total)} headwords** (`dist/word-count.json`): {n(total - 68642)} dictionary entries with fixed atlas positions and 68,642 further spellings from the 2021 orthography dictionary (*Azərbaycan dilinin orfoqrafiya lüğəti*, 7th edition), placed in the separate Orfoqrafiya region. The orthography dictionary lists spellings only, so most of those entries started without a meaning, and many had no connection.
+The atlas has **{n(total)} headwords** (`dist/word-count.json`): {n(total - 68642)} dictionary entries with fixed atlas positions and 68,642 further spellings from the 2021 orthography dictionary (*Azərbaycan dilinin orfoqrafiya lüğəti*, 7th edition), placed in the topic or word-formation group of their meaning or base word. The orthography dictionary lists spellings only, so most of those entries started without a meaning, and many had no connection.
 
 `dist/print-definitions.js` adds **{n(summary['definitions'])} definitions** to headwords that had none, and **{n(summary['links'])} cited links**. Headwords without any definition fell from {n(summary['undefined_before'])} to {n(summary['undefined_after'])}; headwords without any connection fell from {n(summary['isolated_before'])} to {n(summary['isolated_after'])}. Existing reviewed definitions, relations, block lists, identities and atlas positions are unchanged. Every new definition has a method label in the definition sheet:
 

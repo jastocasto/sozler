@@ -10,7 +10,7 @@ for(const [file,hash]of Object.entries(add.meta.preserved_files))assert.equal(cr
 const key=e=>[e.a.w,e.b.w,e.type,e.note].join('|'),oldEdges=new Set(old.edges.map(key)),newEdges=new Set(m.edges.map(key));for(const k of oldEdges)assert(newEdges.has(k));for(const e of m.edges)if(!oldEdges.has(key(e))){assert.equal(e.type,'topic');assert(newWords.has(e.a.w)||newWords.has(e.b.w));}
 assert.equal(m.edges.length,old.edges.length+567);assert.deepEqual(m.grammarRecords,old.grammarRecords);assert.deepEqual(m.nominalRecords,old.nominalRecords);
 const points=new Map(w.WORD_GALAXY_DATA.points.map(p=>[p[0],p])),baseline=JSON.parse(fs.readFileSync(__dirname+'/../scripts/galaxy/layout-base.json','utf8'));
-for(const p of baseline.points)assert.deepEqual(Array.from(points.get(p[0])),p,'Permanent position changed: '+p[0]);
+const permanent=require('./atlas-baseline.cjs')(w.WORD_GALAXY_DATA);for(const p of baseline.points)assert.deepEqual(Array.from(points.get(p[0])),permanent(p),'Permanent position changed: '+p[0]);
 for(const n of add.nodes)assert(points.has(n[0]));
 const count=JSON.parse(fs.readFileSync(__dirname+'/../dist/word-count.json','utf8'));assert.equal(count.headwords,m.nodes.length);assert.equal(count.single_words,17707);assert.equal(count.multiword_entries,2512);
 console.log('PASS: 567 new distinct bilingual headwords, no archived forms or spelling duplicates, valid topic links, unchanged original records/edges/grammar/archives and all 19,652 earlier map coordinates preserved.');

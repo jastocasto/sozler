@@ -1,11 +1,17 @@
 {
-  "entries": 22207,
-  "policy": "Editorial navigation groups based on primary definitions, explicit anchors, parts of speech and documented neighbours. Proximity is not a synonym, root or etymology claim. Previous positions are preserved exactly; additions extend their topic clusters.",
+  "entries": 90849,
+  "policy": "Editorial navigation groups based on primary definitions, explicit anchors, parts of speech and documented neighbours. Proximity is not a synonym, root or etymology claim. Positions within each cluster are preserved; clusters and regions are packed apart. Spelling-dictionary words join the topic of their meaning or base word, else a word-formation group.",
   "methods": {
     "preserved map location": 22207
   },
+  "spellingMethods": {
+    "primary meaning": 6902,
+    "base or neighbour": 33159,
+    "word formation": 27849,
+    "word class": 732
+  },
   "regions": 10,
-  "clusters": 55,
+  "clusters": 77,
   "source_sha256": "7ecddf8d3b94649462d9e6b89b55cdcb41e462b5f1d113d346fb514699f479c8",
-  "notes": "Grouping is approximate and can be revised. Polysemous words have one primary map location. All earlier headwords and their coordinates are retained. New editorial words carry topic links only; no inflections have been added. Coordinate depth is a visual treatment, not linguistic distance."
+  "notes": "Grouping is approximate and can be revised. Polysemous words have one primary map location. All earlier headwords are retained, each at its exact offset from its cluster centre; clusters move as a whole when the map is packed. New editorial words carry topic links only; no inflections have been added. Coordinate depth is a visual treatment, not linguistic distance."
 }

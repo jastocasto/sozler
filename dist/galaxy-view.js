@@ -88,7 +88,8 @@ function mount({model,onSelect,onLocation,onView}){
    if(radius>12&&radius<Math.max(width,height)*3){const glow=context.createRadialGradient(p.x,p.y,0,p.x,p.y,radius*1.2);glow.addColorStop(0,r.color+'12');glow.addColorStop(.6,r.color+'08');glow.addColorStop(1,r.color+'00');context.fillStyle=glow;context.fillRect(p.x-radius*1.2,p.y-radius*1.2,radius*2.4,radius*2.4);}
   }
   const network=G.connections(atlas,allScreens,filters,width,height,movingIds);
-  context.globalAlpha=camera.zoom<.025?.12:.23;context.lineWidth=.75;context.strokeStyle='#bcbdb7';context.beginPath();
+  // Thousands of overlapping lines turn into a white haze, so each line fades as more of them are on screen.
+  context.globalAlpha=(camera.zoom<.025?.12:.23)*G.clamp(Math.sqrt(3000/Math.max(network.stationary.length,1)),.18,1);context.lineWidth=.75;context.strokeStyle='#bcbdb7';context.beginPath();
   for(const {edge:e,a,b}of network.stationary){context.moveTo(a.x,a.y);context.lineTo(b.x,b.y);atlasLines.push({id:e.id,a:e.from.word,b:e.to.word,x1:a.x,y1:a.y,x2:b.x,y2:b.y,color:'#bcbdb7'});}context.stroke();
   for(const region of atlas.regions){context.fillStyle=region.color;context.globalAlpha=.68;context.beginPath();for(const v of projected){if(v.point.region!==region.index||movingIds.has(v.point.node.id)||v.r>3)continue;context.moveTo(v.screen.x+v.r,v.screen.y);context.arc(v.screen.x,v.screen.y,v.r,0,Math.PI*2);}context.fill();}
   for(const v of projected){if(movingIds.has(v.point.node.id)||v.r<=3)continue;const {point,screen:p,r,body,labelOpacity}=v;
@@ -103,7 +104,9 @@ function mount({model,onSelect,onLocation,onView}){
   for(const r of atlas.regions){const screen=project(r),size=r.radius*camera.zoom;if(size<12||size>width*.8)continue;candidates.push({area:r,kind:'region',screen,size,priority:r===atlas.regions[selected?.region]?0:1});}
   for(const c of atlas.clusters){const screen=project(c),size=c.radius*camera.zoom;if(size<36||size>Math.max(width,height)*.8||camera.zoom<.015)continue;candidates.push({area:c,kind:'cluster',screen,size,priority:2});}
   candidates.sort((a,b)=>a.priority-b.priority||b.area.count-a.area.count);
-  for(const v of candidates){if(!isVisible(v.screen,-30))continue;const wide=v.kind==='region'?140:120,h=44,p={x:v.screen.x-wide/2,y:v.screen.y-Math.min(v.size*.65,95)-23,w:wide,h};if(p.y<(width<640?105:145)||p.y>height-165||p.x<8||p.x+wide>width-8||boxes.some(b=>p.x<b.x+b.w+10&&p.x+p.w>b.x-10&&p.y<b.y+b.h+10&&p.y+p.h>b.y-10))continue;
+  for(const v of candidates){if(!isVisible(v.screen,-30))continue;const wide=v.kind==='region'?140:120,h=44,lift=Math.min(v.size*.65,95),blocked=p=>p.y<(width<640?105:145)||p.y>height-165||p.x<8||p.x+wide>width-8||boxes.some(b=>p.x<b.x+b.w+10&&p.x+p.w>b.x-10&&p.y<b.y+b.h+10&&p.y+p.h>b.y-10);
+   // Above the area first; where that is taken (or off screen), on its centre, then below it.
+   const p=[-lift-23,-h/2,lift-21].map(dy=>({x:v.screen.x-wide/2,y:v.screen.y+dy,w:wide,h})).find(p=>!blocked(p));if(!p)continue;
    const button=document.createElement('button');button.className='atlas-label '+v.kind+'-label';button.style.opacity=labelFade;button.style.left=v.screen.x+'px';button.style.top=(p.y+h/2)+'px';button.dataset[v.kind]=v.area.id;button.setAttribute('aria-label',v.area.label+' — '+countFormat.format(v.area.count)+' söz, yaxınlaş');const title=document.createElement('span');title.textContent=v.area.label;const count=document.createElement('small');count.textContent=countFormat.format(v.area.count)+' söz';button.append(title,count);button.addEventListener('pointerdown',e=>start(e,null,null,{area:v.area,kind:v.kind}));button.onclick=e=>{if(!e.detail)visitArea(v.area,v.kind);};labels.append(button);boxes.push(p);labelButtons.push(button);if(boxes.length>=(width<640?8:15))break;
   }
  }
