@@ -1,0 +1,227 @@
+{
+ "allofraza": {
+  "az": "Bir söz birləşməsinin və ya sabit ifadənin başqa işlənmə variantı.",
+  "en": "an alternative form of a phrase or fixed expression",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Adilov, Verdiyeva və Ağayeva · İzahlı dilçilik terminləri lüğəti (2020) · allofraza",
+    "url": "https://azerbaycandili.az/Vocabularies/Download/4019/Musa%20adilov-ZAHLI%20%20DLLK%20TERMNLR%20LT.pdf"
+   }
+  ],
+  "links": {
+   "topic": [
+    "ifadə"
+   ]
+  }
+ },
+ "eydonim": {
+  "az": "Onomastikada şəxs, yer və başqa varlıqların xüsusi adları üçün işlənən ümumi termin.",
+  "en": "a proper name of any kind, such as a personal name or a place name",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Adilov, Verdiyeva və Ağayeva · İzahlı dilçilik terminləri lüğəti (2020) · eydonim",
+    "url": "https://azerbaycandili.az/Vocabularies/Download/4019/Musa%20adilov-ZAHLI%20%20DLLK%20TERMNLR%20LT.pdf"
+   }
+  ],
+  "links": {
+   "syn": [
+    "onim"
+   ],
+   "topic": [
+    "toponim",
+    "antroponim"
+   ]
+  }
+ },
+ "eydonimika": {
+  "az": "Leksikologiyanın xüsusi adları öyrənən sahəsi.",
+  "en": "the branch of lexicology that studies proper names",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Adilov, Verdiyeva və Ağayeva · İzahlı dilçilik terminləri lüğəti (2020) · eydonimika",
+    "url": "https://azerbaycandili.az/Vocabularies/Download/4019/Musa%20adilov-ZAHLI%20%20DLLK%20TERMNLR%20LT.pdf"
+   }
+  ],
+  "links": {
+   "topic": [
+    "leksikologiya",
+    "eydonim"
+   ]
+  }
+ },
+ "eydonimiya": {
+  "az": "Bir dilin lüğətindəki xüsusi adların məcmusu.",
+  "en": "the body of proper names in the vocabulary of a language",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Adilov, Verdiyeva və Ağayeva · İzahlı dilçilik terminləri lüğəti (2020) · eydonimiya",
+    "url": "https://azerbaycandili.az/Vocabularies/Download/4019/Musa%20adilov-ZAHLI%20%20DLLK%20TERMNLR%20LT.pdf"
+   }
+  ],
+  "links": {
+   "topic": [
+    "eydonim",
+    "leksika"
+   ]
+  }
+ },
+ "fizionim": {
+  "az": "Çay, göl, dağ və ya başqa təbii coğrafi obyektə verilən ad.",
+  "en": "a name for a natural geographical feature such as a river, lake or mountain",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Adilov, Verdiyeva və Ağayeva · İzahlı dilçilik terminləri lüğəti (2020) · fizionim",
+    "url": "https://azerbaycandili.az/Vocabularies/Download/4019/Musa%20adilov-ZAHLI%20%20DLLK%20TERMNLR%20LT.pdf"
+   }
+  ],
+  "links": {
+   "topic": [
+    "toponim",
+    "dağ",
+    "göl"
+   ]
+  }
+ },
+ "genotoponim": {
+  "az": "Onomastik təsnifatlarda tayfa, nəsil və ya soy adından yaranan yer adı.",
+  "en": "in onomastic classifications, a place name derived from the name of a tribe, clan or lineage",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Elmi Tədqiqat, cild 5, № 10 (2025) · genotoponim",
+    "url": "https://www.aem.az/uploads/posts/2025/11/ET.%205.10..-82-85.pdf"
+   }
+  ],
+  "links": {
+   "topic": [
+    "nəsil",
+    "tayfa"
+   ]
+  }
+ },
+ "geotoponim": {
+  "az": "Təbii coğrafi obyektin, habelə geoloji lay və ya yatağın xüsusi adı.",
+  "en": "a proper name for a natural geographical feature, a geological stratum or a deposit",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Adilov, Verdiyeva və Ağayeva · İzahlı dilçilik terminləri lüğəti (2020) · geonim (geotoponim)",
+    "url": "https://azerbaycandili.az/Vocabularies/Download/4019/Musa%20adilov-ZAHLI%20%20DLLK%20TERMNLR%20LT.pdf"
+   }
+  ],
+  "links": {
+   "syn": [
+    "geonim"
+   ],
+   "topic": [
+    "lay"
+   ]
+  }
+ },
+ "hidroantroponim": {
+  "az": "Çayın, gölün və ya başqa su obyektinin adından götürülən şəxs adı.",
+  "en": "a personal name taken from the name of a river, lake or other body of water",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Məşədiyev və Seyidəliyev · İzahlı onomastik terminlər lüğəti (2005) · hidroantroponim",
+    "url": "https://azerbaycandili.az/Vocabularies/Download/9020/ONOMASTIK%20TERMINLER%20L%C3%9CGETI.pdf"
+   }
+  ],
+  "links": {
+   "topic": [
+    "hidronim"
+   ]
+  }
+ },
+ "hidrooykonim": {
+  "az": "Adını çaydan, bulaqdan və ya başqa su obyektindən alan yaşayış məntəqəsinin adı.",
+  "en": "a settlement name derived from the name of a river, spring or other water feature",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Məşədiyev və Seyidəliyev · İzahlı onomastik terminlər lüğəti (2005) · hidrooykonim",
+    "url": "https://azerbaycandili.az/Vocabularies/Download/9020/ONOMASTIK%20TERMINLER%20L%C3%9CGETI.pdf"
+   }
+  ],
+  "links": {
+   "topic": [
+    "hidronim"
+   ]
+  }
+ },
+ "neqatonim": {
+  "az": "Müəllifin özünə xas olmayan bir xüsusiyyəti və ya məşğul olmadığı peşəni bildirən təxəllüs.",
+  "en": "a pen name attributing to its author a trait or occupation the author does not have",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Məşədiyev və Seyidəliyev · İzahlı onomastik terminlər lüğəti (2005) · neqatonim təxəllüs",
+    "url": "https://azerbaycandili.az/Vocabularies/Download/9020/ONOMASTIK%20TERMINLER%20L%C3%9CGETI.pdf"
+   }
+  ],
+  "links": {
+   "topic": [
+    "təxəllüs",
+    "peşə"
+   ]
+  }
+ },
+ "neytronim təxəllüs": {
+  "az": "Müəllifin adi şəxs adı təsiri bağışlayan uydurma imzası.",
+  "en": "an invented pen name that looks like an ordinary personal name",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Məşədiyev və Seyidəliyev · İzahlı onomastik terminlər lüğəti (2005) · neytronim təxəllüs",
+    "url": "https://azerbaycandili.az/Vocabularies/Download/9020/ONOMASTIK%20TERMINLER%20L%C3%9CGETI.pdf"
+   }
+  ],
+  "links": {
+   "topic": [
+    "təxəllüs",
+    "imza"
+   ]
+  }
+ },
+ "stiqmonim": {
+  "az": "Müəllifin öz adı əvəzinə sual işarəsi, nöqtələr və ya başqa işarə ilə imza atdığı təxəllüs növü.",
+  "en": "a pseudonym consisting of marks such as a question mark or a string of dots",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Məşədiyev və Seyidəliyev · İzahlı onomastik terminlər lüğəti (2005) · stiqmonim təxəllüs",
+    "url": "https://azerbaycandili.az/Vocabularies/Download/9020/ONOMASTIK%20TERMINLER%20L%C3%9CGETI.pdf"
+   }
+  ],
+  "links": {
+   "topic": [
+    "təxəllüs",
+    "işarə"
+   ]
+  }
+ },
+ "stratonim": {
+  "az": "Müəyyən bir geoloji layı və ya formasiyanı fərqləndirən xüsusi ad.",
+  "en": "a proper name designating a geological stratum or formation",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Məşədiyev və Seyidəliyev · İzahlı onomastik terminlər lüğəti (2005) · stratonim",
+    "url": "https://azerbaycandili.az/Vocabularies/Download/9020/ONOMASTIK%20TERMINLER%20L%C3%9CGETI.pdf"
+   }
+  ],
+  "links": {
+   "topic": [
+    "lay",
+    "geologiya",
+    "onim"
+   ]
+  }
+ }
+}

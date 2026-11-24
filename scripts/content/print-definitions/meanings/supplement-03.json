@@ -1,0 +1,351 @@
+{
+ "buğdayıot": {
+  "az": "Taxıllar fəsiləsindən Aegilops cinsinə aid, buğdaya yaxın qohum olan ot.",
+  "en": "a goatgrass of the genus Aegilops, a relative of wheat",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "GBIF · Aegilops L.",
+    "url": "https://www.gbif.org/taxon/8VTBX"
+   },
+   {
+    "title": "Gəncə Dövlət Universiteti · Azərbaycanın buğdayı-otlarının (Aegilops L.) yarpağının anatomik quruluşu",
+    "url": "https://bkf.gdu.edu.az/?page_id=567"
+   }
+  ],
+  "links": {
+   "topic": [
+    "qırtıckimilər",
+    "buğda"
+   ]
+  }
+ },
+ "diricəalaq": {
+  "az": "Dalamazkimilər fəsiləsindən Ajuga cinsinə aid ot.",
+  "en": "a bugleweed, a herb of the genus Ajuga in the mint family",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "İbadlı və Zərgərli · Bitki adları haqqında nə bilirsiniz? (2009) · diricəalaq",
+    "url": "https://botany.az/uploads/library/pdf/bitki_adlari.pdf#page=146"
+   }
+  ],
+  "links": {
+   "topic": [
+    "ot"
+   ]
+  }
+ },
+ "itquyruğu": {
+  "az": "Taxıllar fəsiləsindən Cynosurus cinsinə aid yem otu.",
+  "en": "a dog’s-tail grass of the genus Cynosurus, used as forage",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "İbadlı və Zərgərli · Bitki adları haqqında nə bilirsiniz? (2009) · itquyruğu",
+    "url": "https://botany.az/uploads/library/pdf/bitki_adlari.pdf#page=82"
+   }
+  ],
+  "links": {
+   "topic": [
+    "qırtıckimilər",
+    "yem"
+   ]
+  }
+ },
+ "lakmusotu": {
+  "az": "Südləyənkimilər fəsiləsindən Chrozophora cinsinə aid, yarpaq və meyvəsindən boyaq alınan ot.",
+  "en": "a turnsole of the genus Chrozophora, a spurge-family herb whose leaves and fruits yield dye",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "İbadlı və Zərgərli · Bitki adları haqqında nə bilirsiniz? (2009) · lakmusotu",
+    "url": "https://botany.az/uploads/library/pdf/bitki_adlari.pdf#page=108"
+   }
+  ],
+  "links": {
+   "topic": [
+    "boyaq",
+    "boyaqçılıq"
+   ]
+  }
+ },
+ "meşəçətirotu": {
+  "az": "Çətirçiçəklilər fəsiləsindən Sanicula cinsinə aid ot. Azərbaycanda bu cinsin Avropa meşəçətirotu növünə rast gəlinir.",
+  "en": "a sanicle of the genus Sanicula in the parsley family, represented in Azerbaijan by European sanicle",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "İbadlı və Zərgərli · Bitki adları haqqında nə bilirsiniz? (2009) · meşəçətirotu",
+    "url": "https://botany.az/uploads/library/pdf/bitki_adlari.pdf#page=115"
+   }
+  ],
+  "links": {
+   "topic": [
+    "çoxillik",
+    "ot"
+   ]
+  }
+ },
+ "nəmgül": {
+  "az": "Dalamazkimilər fəsiləsindən Betonica cinsinə aid çoxillik ot.",
+  "en": "a betony, a perennial herb of the genus Betonica in the mint family",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "İbadlı və Zərgərli · Bitki adları haqqında nə bilirsiniz? (2009) · nəmgül",
+    "url": "https://botany.az/uploads/library/pdf/bitki_adlari.pdf#page=122"
+   }
+  ],
+  "links": {
+   "topic": [
+    "çoxillik",
+    "ot"
+   ]
+  }
+ },
+ "qaçançayır": {
+  "az": "Aeluropus cinsinə aid, şoran torpaqlarda da bitən taxıl otu.",
+  "en": "a grass of the genus Aeluropus that can grow on saline ground",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Elşad Qurbanov · Azərbaycanın bitki örtüyü · Aeluropus",
+    "url": "https://botanic.az/uploads/elfinder/kitablar/El%C5%9Fad%20Qurbanov%20Az%C9%99rbaycan%C4%B1n%20bitki%20%C3%B6rt%C3%BCy%C3%BC%20%281%29.pdf"
+   }
+  ],
+  "links": {
+   "topic": [
+    "qırtıckimilər",
+    "şoran"
+   ]
+  }
+ },
+ "qoturotu": {
+  "az": "Knautia cinsinə aid ot bitkisi.",
+  "en": "a scabious of the genus Knautia",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "İbadlı və Zərgərli · Bitki adları haqqında nə bilirsiniz? (2009) · qoturotu",
+    "url": "https://botany.az/uploads/library/pdf/bitki_adlari.pdf#page=104"
+   }
+  ]
+ },
+ "quşotu": {
+  "az": "Bakı və Abşeronda cincilimə, yəni Stellaria cinsindən olan ota verilən ad.",
+  "en": "a name used in Baku and Absheron for chickweed of the genus Stellaria",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "İbadlı və Zərgərli · Bitki adları haqqında nə bilirsiniz? (2009) · quşotu",
+    "url": "https://botany.az/uploads/library/pdf/bitki_adlari.pdf#page=34"
+   }
+  ],
+  "links": {
+   "topic": [
+    "cincilim"
+   ]
+  }
+ },
+ "sancaqayaq": {
+  "az": "Taxıllar fəsiləsindən Sphenopus cinsinə aid ot.",
+  "en": "a grass of the genus Sphenopus",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "İbadlı və Zərgərli · Bitki adları haqqında nə bilirsiniz? (2009) · sancaqayaq",
+    "url": "https://botany.az/uploads/library/pdf/bitki_adlari.pdf#page=139"
+   }
+  ],
+  "links": {
+   "topic": [
+    "qırtıckimilər",
+    "ot"
+   ]
+  }
+ },
+ "siçanotu": {
+  "az": "Kələmkimilər fəsiləsindən Myagrum cinsinə aid, əkinlərdə alaq kimi bitən birillik ot.",
+  "en": "a myagrum, an annual mustard-family herb that grows as a weed in fields",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "İbadlı və Zərgərli · Bitki adları haqqında nə bilirsiniz? (2009) · siçanotu",
+    "url": "https://botany.az/uploads/library/pdf/bitki_adlari.pdf#page=147"
+   }
+  ],
+  "links": {
+   "topic": [
+    "alaq",
+    "birillik"
+   ]
+  }
+ },
+ "suincilotu": {
+  "az": "Suda bitən, botanika ədəbiyyatında Batrachium adı ilə qruplaşdırılan qaymaqçiçəklərindən biri.",
+  "en": "a water-crowfoot, an aquatic buttercup of the Batrachium group",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Naxçıvan Dövlət Universiteti · Elmi əsərlər · Ranunculaceae · Batrachium",
+    "url": "https://apijurnal.ndu.edu.az/static/article-pdfs/48d2058b-f7c8-4918-9cee-574ccac1ff8a.pdf"
+   }
+  ],
+  "links": {
+   "topic": [
+    "qaymaqçiçəyi",
+    "su"
+   ]
+  }
+ },
+ "suulduzu": {
+  "az": "Suda və ya rütubətli yerlərdə bitən Callitriche cinsinə aid ot.",
+  "en": "a water-starwort of the genus Callitriche, growing in water or on wet ground",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "İbadlı və Zərgərli · Bitki adları haqqında nə bilirsiniz? (2009) · suulduzu",
+    "url": "https://botany.az/uploads/library/pdf/bitki_adlari.pdf#page=154"
+   }
+  ],
+  "links": {
+   "topic": [
+    "su"
+   ]
+  }
+ },
+ "sərvotu": {
+  "az": "Mürəkkəbçiçəklilər fəsiləsindən Santolina cinsinə aid, bəzək üçün yetişdirilən bitki.",
+  "en": "lavender cotton, an ornamental plant of the genus Santolina in the daisy family",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "İbadlı və Zərgərli · Bitki adları haqqında nə bilirsiniz? (2009) · sərvotu",
+    "url": "https://botany.az/uploads/library/pdf/bitki_adlari.pdf#page=146"
+   },
+   {
+    "title": "İbadlı və Zərgərli · Bitki adları haqqında nə bilirsiniz? (2009) · santolina",
+    "url": "https://botany.az/uploads/library/pdf/bitki_adlari.pdf#page=139"
+   }
+  ],
+  "links": {
+   "topic": [
+    "bağçılıq"
+   ]
+  }
+ },
+ "tarlaotu": {
+  "az": "Taxıllar fəsiləsindən Agrostis cinsinə aid yem otu.",
+  "en": "a bentgrass of the genus Agrostis, used as forage",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "İbadlı və Zərgərli · Bitki adları haqqında nə bilirsiniz? (2009) · tarlaotu",
+    "url": "https://botany.az/uploads/library/pdf/bitki_adlari.pdf#page=164"
+   }
+  ],
+  "links": {
+   "topic": [
+    "qırtıckimilər",
+    "yem"
+   ]
+  }
+ },
+ "yelkənçiçək": {
+  "az": "Qərənfilkimilər fəsiləsindən Pteranthus cinsinə aid birillik otun başqa adı.",
+  "en": "a name for an annual herb of the genus Pteranthus in the pink family",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "İbadlı və Zərgərli · Bitki adları haqqında nə bilirsiniz? (2009) · yelkənçiçək",
+    "url": "https://botany.az/uploads/library/pdf/bitki_adlari.pdf#page=184"
+   },
+   {
+    "title": "İbadlı və Zərgərli · Bitki adları haqqında nə bilirsiniz? (2009) · qanadçiçək",
+    "url": "https://botany.az/uploads/library/pdf/bitki_adlari.pdf#page=94"
+   }
+  ],
+  "links": {
+   "topic": [
+    "birillik",
+    "ot"
+   ]
+  }
+ },
+ "yuvacıqotu": {
+  "az": "Səhləbkimilər fəsiləsindən Neottia cinsinə aid bitki.",
+  "en": "an orchid of the genus Neottia, which includes the bird’s-nest orchid",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "İbadlı və Zərgərli · Bitki adları haqqında nə bilirsiniz? (2009) · yuvacıqotu",
+    "url": "https://botany.az/uploads/library/pdf/bitki_adlari.pdf#page=188"
+   }
+  ],
+  "links": {
+   "topic": [
+    "çoxillik"
+   ]
+  }
+ },
+ "yuvaotu": {
+  "az": "Pedicularis cinsinə aid ot bitkisi.",
+  "en": "a lousewort, a herb of the genus Pedicularis",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "İbadlı və Zərgərli · Bitki adları haqqında nə bilirsiniz? (2009) · yuvaotu",
+    "url": "https://botany.az/uploads/library/pdf/bitki_adlari.pdf#page=189"
+   }
+  ]
+ },
+ "şabdar": {
+  "az": "Yem üçün becərilən üçyarpaq növü (Trifolium resupinatum).",
+  "en": "Persian clover (Trifolium resupinatum), a clover grown for forage",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "İbadlı və Zərgərli · Bitki adları haqqında nə bilirsiniz? (2009) · şabdar",
+    "url": "https://botany.az/uploads/library/pdf/bitki_adlari.pdf#page=156"
+   }
+  ],
+  "links": {
+   "topic": [
+    "yem"
+   ]
+  }
+ },
+ "şumotu": {
+  "az": "Qərənfilkimilər fəsiləsindən Lepyrodiclis cinsinə aid birillik ot.",
+  "en": "an annual herb of the genus Lepyrodiclis in the pink family",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "İbadlı və Zərgərli · Bitki adları haqqında nə bilirsiniz? (2009) · şumotu",
+    "url": "https://botany.az/uploads/library/pdf/bitki_adlari.pdf#page=162"
+   }
+  ],
+  "links": {
+   "topic": [
+    "birillik"
+   ]
+  }
+ },
+ "əqrəbotu": {
+  "az": "Paxlakimilər fəsiləsindən Scorpiurus cinsinə aid, əyri paxlası əqrəb quyruğuna bənzəyən ot.",
+  "en": "a scorpion’s-tail plant of the genus Scorpiurus, a legume with a curved pod",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "İbadlı və Zərgərli · Bitki adları haqqında nə bilirsiniz? (2009) · əqrəbotu",
+    "url": "https://botany.az/uploads/library/pdf/bitki_adlari.pdf#page=55"
+   }
+  ],
+  "links": {
+   "topic": [
+    "qın"
+   ]
+  }
+ }
+}

@@ -1,0 +1,231 @@
+{
+ "qaraxəşil": {
+  "az": "Duru bişirilən xəşil növü.",
+  "en": "a thin, porridge-like variety of khashil",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycanca-rusca lüğət · qaraxəşil",
+    "url": "https://gufo.me/dict/azru/qarax%C9%99%C5%9Fil"
+   }
+  ],
+  "links": {
+   "topic": [
+    "horra",
+    "sıyıq"
+   ]
+  }
+ },
+ "qaşıqxəngəli": {
+  "az": "Xırda doğranmış xəmir parçaları ilə bişirilən, sarımsaqlı qatıqla yeyilən sulu xəngəl.",
+  "en": "a soupy khangal made with small pieces of dough and served with garlic yogurt",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan qeyri-maddi mədəni irs nümunələrinin Dövlət Reyestri · Xəmir xörəkləri",
+    "url": "https://intangible.az/front/az/aboutExample/21901"
+   }
+  ],
+  "links": {
+   "topic": [
+    "xəmir",
+    "qatıq"
+   ]
+  }
+ },
+ "qoçbuynuz": {
+  "az": "Xalçaçılıqda qoçun buynuzunu xatırladan naxışlı çeşninin adı.",
+  "en": "a carpet or kilim design with ram’s-horn motifs",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan qeyri-maddi mədəni irs nümunələrinin Dövlət Reyestri · Qazax xalçaları",
+    "url": "https://intangible.az/front/az/aboutExample/21822"
+   },
+   {
+    "title": "Aydın Məmmədov · Azərbaycan xalçalarındakı naxışlarda tarixi demoqrafiya elementləri, s. 81",
+    "url": "https://anl.az/down/meqale/bdu_humanitarelm/2022/01/07%28meqale%29.pdf"
+   }
+  ],
+  "links": {
+   "topic": [
+    "kilim",
+    "naxış"
+   ]
+  }
+ },
+ "qırxdüymə": {
+  "az": "Qarabağda ənənəvi sırğa növü, Salyan şivəsində isə sırğanın adı.",
+  "en": "a traditional Karabakh earring, also the Salyan dialect word for an earring",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "AZLEKS · Azərbaycan dilinin dialektoloji lüğəti · qırxdüymə",
+    "url": "https://azleks.az/index.php/en/dictionary/qirxduyme"
+   },
+   {
+    "title": "AZƏRTAC · Uşaq Bilik Portalı · Qarabağ bölgəsi",
+    "url": "https://portal.azertag.az/az/encyclopedia/post/6729"
+   }
+  ],
+  "links": {
+   "syn": [
+    "sırğa"
+   ],
+   "topic": [
+    "zərgərlik"
+   ]
+  }
+ },
+ "süfrəbaşı": {
+  "az": "Keçmişdə saray süfrəsinin xidmətinə başçılıq edən məmur.",
+  "en": "the historical court official in charge of service at the ruler’s table",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Nadir Mirzə Qacar · Təbriz Darüssəltənəsinin tarixi, coğrafiyası və görkəmli şəxsləri · xansalar",
+    "url": "https://anl.az/el/Kitab/2019/07/cd/Azf-308121.pdf"
+   },
+   {
+    "title": "Adam Olearinin Azərbaycanda müşahidə etdikləri barədə yazdığı tarixi qeydlər (1636–1637) · şahın süfrəsi",
+    "url": "https://www.academia.edu/78725185/Adam_Olearinin_Az%C9%99rbaycanda_m%C3%BC%C5%9Fahid%C9%99_etdikl%C9%99ri_bar%C9%99d%C9%99_yazd%C4%B1%C4%9F%C4%B1_tarixi_qeydl%C9%99r_1636_1637"
+   }
+  ],
+  "links": {
+   "syn": [
+    "süfrəçibaşı"
+   ],
+   "topic": [
+    "ziyafət"
+   ]
+  }
+ },
+ "tabaqlamaq": {
+  "az": "Taxılı tabaqda hövsərləyib təmizləmək.",
+  "en": "to winnow grain using a shallow tray",
+  "pos": "verb",
+  "references": [
+   {
+    "title": "AZLEKS · Azərbaycan dilinin dialektoloji lüğəti · övsətdirmək",
+    "url": "https://azleks.az/index.php/en/dictionary/ovsetdirmek"
+   },
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 250",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=250"
+   }
+  ],
+  "links": {
+   "syn": [
+    "hövsərləmək"
+   ],
+   "topic": [
+    "taxıl",
+    "arpa"
+   ]
+  }
+ },
+ "yayğı": {
+  "az": "Döşəməyə sərilən xalça, kilim və ya başqa örtük.",
+  "en": "a floor covering, such as a rug or a kilim",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "XI–XII əsrlər türk dillərində işlənən etnoqrafizmlərin izahlı lüğəti (2015) · kiwiz, yadım",
+    "url": "https://azlib.org/media/books/XI-XII_esrler_turk_dillerinde_ishlenen_etnoqrafizmlerin_izahli_lugeti.pdf"
+   },
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 562",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=562"
+   }
+  ],
+  "links": {
+   "syn": [
+    "fərş"
+   ],
+   "topic": [
+    "palaz",
+    "kilim"
+   ]
+  }
+ },
+ "yəhərlik": {
+  "az": "Atın belini qorumaq üçün yəhərin altına qoyulan keçə.",
+  "en": "a felt saddle pad that protects a horse’s back",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Həsən Bəy Hadi · Atalar sözü elin gözü (2005) · yəhərlik",
+    "url": "https://turuz.com/storage/Folklore/Proverb/2010/Atalar-sozu-elin-gozu-latin.pdf"
+   }
+  ],
+  "links": {
+   "topic": [
+    "keçə",
+    "at"
+   ]
+  }
+ },
+ "çərşənbəlik": {
+  "az": "Novruz çərşənbəsi münasibətilə verilən pay və ya hədiyyə.",
+  "en": "a gift, such as food or clothing, given on the eve of a Wednesday before Novruz",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "AMEA Folklor İnstitutu · Güney Azərbaycan folkloru · çərşənbəlik",
+    "url": "https://folklor.az/uploads/library/files/Guney_Azerbaycan_Folkloru_konfrans1721121784.pdf"
+   },
+   {
+    "title": "Azərbaycan qəzeti · Kəlbəcərdə Novruz adətləri · çərşənbəlik payı",
+    "url": "https://anl.az/down/meqale/azerbaycan/2024/noyabr/919888%28meqale%29.pdf"
+   }
+  ],
+  "links": {
+   "topic": [
+    "bayramlıq",
+    "sovqat"
+   ]
+  }
+ },
+ "şorçörəyi": {
+  "az": "Bəzi bölgələrdə xəmiri süd, yumurta və yağla yoğrulan duzlu çörək növü.",
+  "en": "a regional savoury bread made with dough enriched with milk, egg and fat",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "AZLEKS · Azərbaycan dilinin dialektoloji lüğəti · şorçörəyi",
+    "url": "https://azleks.az/index.php/en/dictionary/sorcoreyi"
+   },
+   {
+    "title": "AMEA · Azərbaycan dilinin dialekt və şivələrinin etimologiyası · şorçörəyi",
+    "url": "https://www.elibrary.az/docs/ebooks/azerbaycan_dilinin_dialekt_ve_sivelerinin_etimologiyasi.pdf"
+   }
+  ],
+  "links": {
+   "topic": [
+    "xəmir",
+    "yumurta"
+   ]
+  }
+ },
+ "şəbəkəbəndlik": {
+  "az": "Toxuculuqda süfrə, pərdə kimi əşyalarda torşəkilli naxışlar yaratmaq sənəti.",
+  "en": "in needlework, the craft of making decorative openwork for textiles such as tablecloths and curtains",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Mələk Quliyeva və Mələk Hacıyeva · Toxuma (1996) · Şəbəkəbəndlər",
+    "url": "https://www.scribd.com/document/716682814/18274"
+   },
+   {
+    "title": "Mələk xanım Hacıyeva · Şəcərə ev muzeyində şəbəkəbənd sənəti",
+    "url": "https://www.anl.az/down/meqale/medeni_az/2020/may-iyun/756977%28meqale%29.pdf"
+   }
+  ],
+  "links": {
+   "topic": [
+    "toxuma",
+    "pərdə"
+   ]
+  }
+ }
+}

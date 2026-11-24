@@ -1,0 +1,269 @@
+{
+ "aeroqatar": {
+  "az": "Monorels boyunca hava yastığı üzərində hərəkət edən təkərsiz qatar.",
+  "en": "a wheel-less train that rides on a cushion of air along a monorail",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Gülbəniz Qocayeva · Rusca-azərbaycanca texniki terminlərin izahlı lüğəti · аэропоезд",
+    "url": "https://www.preslib.az/az/book/NQfGwUZEOkAxXDN"
+   },
+   {
+    "title": "Gülbəniz Qocayeva · Rusca-azərbaycanca texniki terminlərin izahlı lüğəti · aeroqatar",
+    "url": "https://fr.scribd.com/document/510286301/Gulb%D3%99niz-Qocayeva-RUSCA-AZ%C6%8FRBAYCANCA-T%D0%95XN%C4%B0K%C4%B0-T%D0%95RM%C4%B0NL%C6%8FR%C4%B0N-%C4%B0ZAHLI-LU%C4%9E%C6%8FT%C4%B0-%D0%A0%D0%A3%D0%A1%D0%A1%D0%9A%D0%9E-%D0%90%D0%97%D0%95%D0%A0%D0%91%D0%90%D0%99%D0%94%D0%96%D0%90%D0%9D%D0%A1%D0%9A%D0%98%D0%99-%D0%A2%D0%9E%D0%9B%D0%9A%D0%9E%D0%92%D0%AB%D0%99-%D0%A1%D0%9B%D0%9E%D0%92%D0%90%D0%A0%D0%AC-%D0%A2%D0%95%D0%A5%D0%9D%D0%98%D0%A7%D0%95%D0%A1%D0%9A%D0%98%D0%A5-%D0%A2%D0%95%D0%A0%D0%9C%D0%98%D0%9D%D0%9E%D0%92"
+   }
+  ],
+  "links": {
+   "topic": [
+    "monorels",
+    "hava"
+   ]
+  }
+ },
+ "daşkəsənit": {
+  "az": "Daşkəsəndə aşkar olunmuş amfibol qrupundan minerala verilən ad.",
+  "en": "a name for an amphibole mineral found at Dashkasan in Azerbaijan",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Bahar Nəsibova · Azərbaycanın kənd yerlərinin ekoloji vəziyyəti və sosial nəticələri · Daşkəsənin mineral ehtiyatları",
+    "url": "https://unec.edu.az/application/uploads/2021/02/N-sibova-Bahar.pdf"
+   }
+  ],
+  "links": {
+   "topic": [
+    "amfibol",
+    "mineral"
+   ]
+  }
+ },
+ "enlibucaqlı": {
+  "az": "Geniş görmə sahəsini bir kadra sığdıran obyektiv və ya belə obyektivli kamera haqqında deyilir.",
+  "en": "wide-angle, describing a lens or camera that takes in a broad field of view",
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "İnformasiya Texnologiyaları İnstitutu · Ən qabaqcıl sosial robot",
+    "url": "https://ict.az/az/news/3717"
+   }
+  ],
+  "links": {
+   "topic": [
+    "obyektiv",
+    "fotokamera"
+   ]
+  }
+ },
+ "fotokompozisiya": {
+  "az": "Fotoşəkildə insanların, əşyaların və başqa təsvir elementlərinin kadr daxilində yerləşdirilməsi.",
+  "en": "photographic composition, the arrangement of visual elements within a photograph",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan Dövlət Mədəniyyət və İncəsənət Universiteti · Fotokompozisiya dərs vəsaiti haqqında",
+    "url": "https://admiu.edu.az/azerbaycan-kinematoqrafcilar-ittifaqinin-kitab-hediyyesi/"
+   }
+  ],
+  "links": {
+   "topic": [
+    "kadr",
+    "fotoşəkil"
+   ]
+  }
+ },
+ "fotoneqativ": {
+  "az": "Lentdə və ya lövhədə işıqlı sahələrin tünd, tünd sahələrin isə işıqlı göründüyü fotoqrafik təsvir.",
+  "en": "a photographic negative, an image on film or a plate with light and dark tones reversed",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan Milli Elmlər Akademiyası · Milli Azərbaycan Tarixi Muzeyində saxlanılan fotoneqativ",
+    "url": "https://science.gov.az/az/news/open/14785"
+   },
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 468 · neqativ",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=468"
+   }
+  ],
+  "links": {
+   "topic": [
+    "fotolent",
+    "fotoşəkil"
+   ]
+  }
+ },
+ "kartofbasdıran": {
+  "az": "Toxumluq kartof yumrularını cərgə ilə torpağa basdıran kənd təsərrüfatı maşını.",
+  "en": "a potato planter, a farm machine that places seed potatoes in rows in the soil",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan Dövlət Aqrar Universiteti · Elmi əsərlər, 2015, № 1 · kartofbasdıran maşınlar",
+    "url": "https://journal.adau.edu.az/journals/2015-1.pdf#page=100"
+   }
+  ],
+  "links": {
+   "topic": [
+    "əkinçilik",
+    "cərgə"
+   ]
+  }
+ },
+ "multiyayım": {
+  "az": "Kompüter şəbəkəsində verilənlərin müəyyən qəbuledicilər qrupuna bir ünvan vasitəsilə ötürülməsi.",
+  "en": "multicasting, sending data over a network to a group of recipients using a group address",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan Standartlaşdırma İnstitutu · ETSI TS 102 250-2 · multiyayım xidməti",
+    "url": "https://azstand.gov.az/uploads/documents/1141917908658530c71e3f1.pdf#page=28"
+   },
+   {
+    "title": "IETF · RFC 1112 · Host Extensions for IP Multicasting",
+    "url": "https://www.rfc-editor.org/rfc/rfc1112"
+   }
+  ],
+  "links": {
+   "topic": [
+    "şəbəkə",
+    "verilənlər"
+   ]
+  }
+ },
+ "sumbatlayıcı": {
+  "az": "Metalın səthindəki qüsurları sumbata ilə yonub təmizləyən işçi.",
+  "en": "a metalworker who grinds away surface defects with an abrasive",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan Respublikasının Nazirlər Kabineti · 58 nömrəli qərar, metal emalı peşələri",
+    "url": "https://frameworks.e-qanun.az/0/c_f_893.html"
+   },
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 161 · sumbata",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=161"
+   }
+  ],
+  "links": {
+   "topic": [
+    "sumbata",
+    "metal"
+   ]
+  }
+ },
+ "sumbatçı": {
+  "az": "Metal səthlərini sumbata ilə təmizləyib hamarlayan işçi.",
+  "en": "a worker who smooths and cleans metal surfaces with an abrasive",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan Respublikasının Nazirlər Kabineti · 58 nömrəli qərar, metal emalı peşələri",
+    "url": "https://frameworks.e-qanun.az/0/c_f_893.html"
+   },
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 161 · sumbata",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=161"
+   }
+  ],
+  "links": {
+   "topic": [
+    "sumbatalamaq",
+    "abraziv"
+   ]
+  }
+ },
+ "telemətn": {
+  "az": "Televiziya siqnalı ilə göndərilən, tamaşaçının səhifə seçərək ekranda oxuduğu mətn və sadə təsvirlər xidməti.",
+  "en": "teletext, a service that transmits selectable pages of text and simple graphics with a television signal",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Samsung Azərbaycan · Telemətn xidməti və səhifənin seçilməsi",
+    "url": "https://www.samsung.com/az/support/tv-audio-video/how-to-enable-subtitles-on-digital-channels-on-a-samsung-tv/"
+   }
+  ],
+  "links": {
+   "syn": [
+    "teletekst"
+   ],
+   "topic": [
+    "televiziya"
+   ]
+  }
+ },
+ "teleölçü": {
+  "az": "Temperatur, təzyiq və ya başqa kəmiyyətin ölçülüb nəticəsinin rabitə vasitəsilə uzaqdakı məntəqəyə ötürülməsi.",
+  "en": "telemetry, measuring a quantity and transmitting the reading to a distant location",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Bakı Mühəndislik Universiteti · Gənc tədqiqatçıların V beynəlxalq elmi konfransı · teleölçü",
+    "url": "https://beu.edu.az/root_panel/upload/files/beu_edu_az/documents/2025/iyrc-book/GTK_Book_1_2021.pdf"
+   },
+   {
+    "title": "Azərenerji · Enerji sistemində operativ teleölçü",
+    "url": "https://azerenerji.gov.az/site/assets/img/shortcode/file/j1.pdf"
+   }
+  ],
+  "links": {
+   "syn": [
+    "telemetriya"
+   ],
+   "topic": [
+    "təzyiq",
+    "temperatur"
+   ]
+  }
+ },
+ "termozit": {
+  "az": "Metallurgiya şlakından alınan, yüngül beton hazırlanarkən doldurucu kimi işlədilən məsaməli material.",
+  "en": "a porous aggregate made from metallurgical slag and used in lightweight concrete",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "UNEC · Bərk tullantıların emalı zamanı tətbiq olunan texnoloji proseslər (2022) · termozit",
+    "url": "https://news.unec.edu.az/images/2022/BMT_161122_compressed.pdf"
+   }
+  ],
+  "links": {
+   "topic": [
+    "şlak",
+    "beton"
+   ]
+  }
+ },
+ "varioekran": {
+  "az": "Kinoda təsvirin qəfildən kadrın dərinliyinə çəkildiyi təəssüratını yaradan kadrdaxili montaj üsulu.",
+  "en": "an in-shot editing technique that makes the image appear to recede suddenly into the depth of the frame",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Şahanə Urfan və Şölə Şamıyeva · Kino terminlərinin izahlı müxtəsər lüğəti (2014) · varioekran",
+    "url": "https://kinobiz.az/storage/cinema-publications/April2025/HKAlT9d9qSXeGRgNv0I9.pdf#page=111"
+   }
+  ],
+  "links": {
+   "topic": [
+    "kinomontaj",
+    "kadr"
+   ]
+  }
+ },
+ "şüşədoğrayan": {
+  "az": "Şüşəni tələb olunan ölçüyə uyğun kəsən usta.",
+  "en": "a glass cutter, a worker who cuts glass to the required size",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan Respublikası Təhsil Nazirliyi · İlk peşə-ixtisas təhsili üzrə ixtisasların təsnifatı, 030711",
+    "url": "https://edu.gov.az/upload/file/Texniki-peshe/2014/ilk-pese-ixtisas-tehsili-uzre-ixtisaslarin-tesnifati.pdf"
+   }
+  ],
+  "links": {
+   "topic": [
+    "şüşəçi",
+    "kəsmək"
+   ]
+  }
+ }
+}

@@ -2,6 +2,10 @@
 
 Read this first if you are an AI agent or developer picking up the work. Everything you need is in this repository. No local state from earlier sessions is required.
 
+## Adding sourced senses to the dictionary
+
+The `supplement-*.json` files in `scripts/content/print-definitions/meanings/` supply bilingual definitions and cited links for blank and formation-only cards. Each meaning keeps the native-speaker review label. The full print build applies these files in filename order. To append a supplement using an existing release, export the matching model with `node scripts/export_print_definition_model.cjs model.json --without-print` and run `python3 scripts/build_print_definitions.py model.json --from-reviewed DIR`. `DIR` must contain the release's `print-definitions.js` and `print-definitions-attribution.json`. To revise an applied supplement, use a release from before that supplement or rebuild from the print sources. Then rebuild the runtime and offline files and update the coverage report.
+
 ## November 24 frequency and regional dictionary review
 
 The frequency-ranked review covers the first 100 formation-only cards from the reconciled atlas at `1891392`. Meanings batches 72–75 contain the sources for 80 accepted interpretations and reasons for deferring 20. Use the [review sheet](scripts/content/print-definitions/priority-review-2026-11-24.csv) for a native-speaker pass. The new meanings retain their review label.

@@ -7,6 +7,9 @@ Inputs
              SQLite caches from scripts/extract_print_dictionaries.py
   --dialect-pdf
              2007 dialect dictionary PDF (cached by scripts/autopilot.sh setup)
+  --from-reviewed DIR
+             instead of the two SQLite inputs, read a previously reviewed print layer and its
+             attribution from DIR; use with the same --without-print model for supplement-only updates
   scripts/content/print-definitions/paraphrases/*.json
              AI-assisted bilingual paraphrases written from the cited print entries
   scripts/content/print-definitions/authored/*.json
@@ -360,6 +363,17 @@ def definition_sentences(text, limit=3):
     return out
 
 
+def formation_fields(az, en, base, pos):
+    # -lıq/-lik also makes adjectives. Retain the analysis with the accepted part of speech.
+    if pos == 'adjective' and az.endswith('şəkilçisi ilə düzələn isim.'):
+        az = az.removesuffix('isim.') + 'sifət.'
+        en = 'adjective ' + en.removeprefix('noun ')
+    extra = {'formation': {'az': az, 'en': en}}
+    if base:
+        extra['base'] = base
+    return extra
+
+
 def ngrams(text, size=6):
     words = re.findall(r'\w+', text.lower())
     return {tuple(words[i:i + size]) for i in range(len(words) - size + 1)}
@@ -600,15 +614,7 @@ class Builder:
             if self.undefined(word):
                 self.define(word, az, en, pos, refs + [spelling_source(page)], 'meaning')
             elif current and current['method'] == 'rule' and FORMATION_ONLY.search(current['az']):
-                formation = {'az': current['az'], 'en': current['en']}
-                # -lıq/-lik also forms adjectives. Keep the suffix and base in the
-                # structure note but use the part of speech of the accepted sense.
-                if pos == 'adjective' and formation['az'].endswith('şəkilçisi ilə düzələn isim.'):
-                    formation['az'] = formation['az'].removesuffix('isim.') + 'sifət.'
-                    formation['en'] = 'adjective ' + formation['en'].removeprefix('noun ')
-                extra = {'formation': formation}
-                if current.get('base'):
-                    extra['base'] = current['base']
+                extra = formation_fields(current['az'], current['en'], current.get('base'), pos)
                 self.define(word, az, en, pos, refs + [r for r in current['refs'] if r not in refs], 'meaning', **extra)
                 self.stats['definitions:rule'] -= 1
             else:
@@ -1640,10 +1646,87 @@ def write_reviewed_output(model, refs, definitions, edges, meta, blocked):
                                       and e[1] in false_components.get(e[0], ()))]
     summary = meta['summary']
     summary['stats']['links:compound'] -= len(edges) - len(kept)
-    edges = kept
+    summary['dictionary_reviews'] = len(reviewed)
+    evidence = json.loads((ROOT / 'scripts/content/verification/print-source-summary.json').read_text())
+    meta['sources']['review_extraction'] = {k: evidence[k] for k in ('title', 'research_extraction', 'extraction_sha256')}
+    write_supplemented_output(model, refs, definitions, kept, meta, blocked)
+
+
+# The first released checkpoint predates base_model_sha256 (soz-toxumasi, d33ea717).
+LEGACY_CHECKPOINT = ('42d94527f406916623b322647f12772faf91c1c3106bdc5935f3b9ddafddbc96',
+                     '426082c5f82c5c880cf807c56797a13e0d8a4538a9f4ee4014247c77841a7161')
+
+
+def base_model_digest(model):
+    data = json.dumps(model, ensure_ascii=False, sort_keys=True, separators=(',', ':')).encode()
+    return hashlib.sha256(data).hexdigest()
+
+
+def write_supplemented_output(model, refs, definitions, edges, meta, blocked):
+    """Add sourced senses to a reviewed layer without feeding them back into the morphology rules."""
+    summary = meta['summary']
+    nodes = {n['w']: n for n in model['nodes']}
+    removed = {tuple(e) for e in blocked}
+    pairs = {tuple(sorted(e[:2])) for e in model['edges'] if tuple(e) not in removed}
+    pairs.update(tuple(sorted(e[:2])) for e in edges)
+    forbidden = {tuple(sorted(pair)) for pair in model.get('blocked', [])}
+    ref_index = {tuple(ref): i for i, ref in enumerate(refs)}
+
+    def ref_id(citation):
+        pair = (citation['title'], citation['url'])
+        if not pair[0] or not pair[1].startswith('https://'):
+            raise ValueError(f'Invalid supplement citation: {pair}')
+        if pair not in ref_index:
+            ref_index[pair] = len(refs)
+            refs.append(list(pair))
+        return ref_index[pair]
+
+    paths = sorted((CONTENT / 'meanings').glob('supplement-*.json'))
+    applied = meta.get('supplements', {})
+    if list(applied) != [p.name for p in paths[:len(applied)]]:
+        raise ValueError('Supplement order changed. Rebuild from the original reviewed layer.')
+    old_edge_count = len(edges)
+    for path in paths:
+        raw = path.read_bytes()
+        digest = hashlib.sha256(raw).hexdigest()
+        if path.name in applied:
+            if digest != applied[path.name]:
+                raise ValueError(f'{path.name} changed. Rebuild from the original reviewed layer.')
+            continue
+        for word, entry in sorted(json.loads(raw).items()):
+            az, en, pos = entry['az'], entry['en'], entry['pos']
+            node, old = nodes.get(word), definitions.get(word)
+            if (not node or not node.get('page') or node['az'].strip() or node['en'].strip()
+                    or old and (old[4] != 'rule' or not FORMATION_ONLY.search(old[0]))):
+                raise ValueError(f'Supplement would overwrite an established sense or miss the headword: {word}')
+            if (not az.endswith('.') or not en.strip() or pos not in POS or len(az) > 260 or len(en) > 200
+                    or not entry.get('references') or set(entry) - {'az', 'en', 'pos', 'references', 'links'}):
+                raise ValueError(f'Incomplete or unsupported supplement entry: {word}')
+            sources = list(dict.fromkeys(ref_id(r) for r in entry['references']))
+            ids = old[3] if old else [ref_id(spelling_source(node['page']))]
+            row = [az, en, pos, list(dict.fromkeys(sources + ids)), 'meaning']
+            if old:
+                base = old[5].get('base') if len(old) > 5 else None
+                row.append(formation_fields(old[0], old[1], base, pos))
+            definitions[word] = row
+            for kind, targets in entry.get('links', {}).items():
+                for target in targets:
+                    if kind not in ('syn', 'topic') or target not in nodes or target == word:
+                        raise ValueError(f'Invalid supplement edge: {word}, {target}, {kind}')
+                    pair = tuple(sorted((word, target)))
+                    if pair in forbidden or pair in pairs:
+                        continue
+                    note = 'Tərif · sinonim' if kind == 'syn' else 'Tərif · əlaqəli anlayış'
+                    edges.append([word, target, kind, note, [[word, az, en, sources]]])
+                    pairs.add(pair)
+        applied[path.name] = digest
+    if applied:
+        meta['supplements'] = applied
+    if len(edges) > old_edge_count:
+        stats = summary['stats']
+        stats['links:meaning-sense'] = stats.get('links:meaning-sense', 0) + len(edges) - old_edge_count
     # The baseline edge list also includes generated root families. Recount after
     # suppressing just those root links whose evidence uses the wrong homonym.
-    removed = {tuple(e) for e in blocked}
     summary['stats']['blocked:homonym-root'] = len(removed)
     connected = {w for e in model['edges'] if tuple(e) not in removed for w in e[:2]}
     connected.update(w for e in edges for w in e[:2])
@@ -1651,15 +1734,14 @@ def write_reviewed_output(model, refs, definitions, edges, meta, blocked):
     summary['links'] = len(edges)
     methods = collections.Counter(d[4] for d in definitions.values())
     summary.update(definitions=len(definitions), undefined_after=summary['undefined_before'] - len(definitions),
-                   definitions_by_method=dict(sorted(methods.items())), dictionary_reviews=len(reviewed),
+                   definitions_by_method=dict(sorted(methods.items())),
                    low_confidence_paraphrases=sum(d[4] == 'paraphrase' and len(d) > 5 and d[5].get('confidence') == 'low'
                                                   for d in definitions.values()))
     for method, total in methods.items():
         summary['stats']['definitions:' + method] = total
-    evidence = json.loads((ROOT / 'scripts/content/verification/print-source-summary.json').read_text())
-    meta['sources']['review_extraction'] = {k: evidence[k] for k in ('title', 'research_extraction', 'extraction_sha256')}
     payload = json.dumps([refs, dict(sorted(definitions.items())), edges, blocked], ensure_ascii=False, separators=(',', ':'))
     OUTPUT.write_text(LOADER.replace('DATA', payload))
+    meta['base_model_sha256'] = base_model_digest(model)
     meta['output_sha256'] = hashlib.sha256(OUTPUT.read_bytes()).hexdigest()
     ATTRIBUTION.write_text(json.dumps(meta, ensure_ascii=False, indent=1) + '\n')
     print(json.dumps(summary, ensure_ascii=False, indent=1))
@@ -1668,11 +1750,33 @@ def write_reviewed_output(model, refs, definitions, edges, meta, blocked):
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument('model', type=Path)
-    parser.add_argument('explanatory', type=Path)
-    parser.add_argument('bilingual', type=Path)
+    parser.add_argument('explanatory', nargs='?', type=Path)
+    parser.add_argument('bilingual', nargs='?', type=Path)
+    parser.add_argument('--from-reviewed', type=Path, metavar='DIR')
     parser.add_argument('--dialect-pdf', type=Path, default=ROOT / '.cache/print/pdf/dialect.pdf')
     args = parser.parse_args()
     model = json.loads(args.model.read_text())
+    if args.from_reviewed:
+        if args.explanatory or args.bilingual:
+            parser.error('--from-reviewed is used in place of the two SQLite inputs')
+        data = (args.from_reviewed / OUTPUT.name).read_bytes()
+        meta = json.loads((args.from_reviewed / ATTRIBUTION.name).read_text())
+        head, tail = LOADER.split('DATA')
+        layer = data.decode()
+        if (hashlib.sha256(data).hexdigest() != meta['output_sha256']
+                or not layer.startswith(head) or not layer.endswith(tail)):
+            raise ValueError('The reviewed layer does not match its attribution or its loader.')
+        refs, definitions, edges, blocked = json.loads(layer[len(head):-len(tail)])
+        expected = meta.get('base_model_sha256')
+        if not expected and meta['output_sha256'] == LEGACY_CHECKPOINT[0]:
+            expected = LEGACY_CHECKPOINT[1]
+        if expected != base_model_digest(model):
+            raise ValueError('The reviewed layer requires its matching --without-print model. '
+                             'Rebuild from the print sources for a different model.')
+        write_supplemented_output(model, refs, definitions, edges, meta, blocked)
+        return
+    if not args.explanatory or not args.bilingual:
+        parser.error('provide the explanatory and bilingual SQLite inputs or --from-reviewed DIR')
     builder = Builder(model, sqlite3.connect(f'file:{args.explanatory}?mode=ro', uri=True),
                       sqlite3.connect(f'file:{args.bilingual}?mode=ro', uri=True))
     before_undefined = sum(1 for n in model['nodes'] if not (n['az'].strip() and n['en'].strip()))
