@@ -22,6 +22,7 @@ Fields:
 - `pos`: one of noun, verb, adjective, adverb, numeral, pronoun, interjection, postposition, conjunction, particle, phrase. Use the evidence labels; words ending in -maq/-mək with a verb label are `verb`.
 - `src`: "izahli", "musayev" or "both" — which evidence your definition relies on.
 - `conf`: "high" when the evidence clearly states the sense; "low" when you had to resolve garbled, thin or conflicting evidence.
+- For a phrase defined inside another explanatory entry, record `"subentry": {"under": "baş", "volume": 1, "page": 236}`. Use the key under which the extractor stored the passage and the actual PDF page containing the phrase. A long entry can span several pages. Check the phrase and its sense on that page. Optional `links` lists existing headwords by relation (`syn` for a synonym in this sense, `topic` for a related concept). Each link uses the paraphrase and its citation as evidence.
 - Use `{"skip": "<short reason>"}` instead when the evidence is clearly about a different word, is unreadable, or you cannot tell what the word means. Do not invent meanings that the evidence does not support. Your own knowledge of Azerbaijani may help you interpret the evidence and choose the primary sense, but every definition must agree with the evidence.
 
 Style examples already in the atlas:

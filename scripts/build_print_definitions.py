@@ -374,6 +374,7 @@ class Builder:
             self.musayev[k].append((text, page))
         self.definitions = {}
         self.edges = []
+        self.subentry_links = {}
         # AI-written meanings for words whose rule definition only states the formation (meanings/*.json);
         # "parts": false marks a word the compound and suffix rules split wrongly (transport is not trans + port).
         self.meaning_entries = {}
@@ -425,6 +426,16 @@ class Builder:
                     continue
                 k = key(word)
                 printed = [row for row in self.print.get(k, []) if not EXPLICIT_FROM.match(row[0]) and not SEE_ONLY.match(row[0])]
+                # A phrase can be defined inside a longer entry. Its own PDF page can differ
+                # from that entry's start page (baş starts on p. 228, başına qalmaq is on p. 236).
+                subentry = entry.get('subentry')
+                if subentry:
+                    marker = re.compile(r'(?<![\w-])' + re.escape(k) + r'(?: \([^)]*\))?(?: [\w.]+){0,2} –')
+                    printed = [(text, volume, subentry['page'])
+                               for text, volume, start in self.print.get(key(subentry['under']), [])
+                               if volume == subentry['volume'] and start <= subentry['page'] and marker.search(key(text))]
+                    if len(printed) != 1:
+                        raise ValueError(f'Cannot identify the print subentry for {word}')
                 evidence = ngrams(' '.join(text for text, *_ in printed))
                 if ngrams(az) & evidence:
                     self.stats['paraphrase:rejected-copy'] += 1
@@ -441,6 +452,22 @@ class Builder:
                     continue
                 extra = {'confidence': 'low'} if entry.get('conf') == 'low' else {}
                 self.define(word, az[0].upper() + az[1:], en[0].lower() + en[1:] if en[:2] != 'I ' else en, pos, refs, 'paraphrase', **extra)
+
+                if 'links' in entry:
+                    self.subentry_links[word] = entry['links']
+
+    def link_subentries(self):
+        # Append these after the existing rules so a useful link for a previously
+        # isolated target (e.g. təşəxxüs → lovğalıq) survives the new incoming link.
+        for word, links in self.subentry_links.items():
+            definition = self.definitions[word]
+            for kind, targets in links.items():
+                for target in targets:
+                    if kind not in ('syn', 'topic') or target not in self.nodes:
+                        raise ValueError(f'Invalid {kind} link from {word} to {target}')
+                    note = 'Tərif · sinonim' if kind == 'syn' else 'Tərif · əlaqəli anlayış'
+                    self.link(word, target, kind, note, definition['az'], definition['en'],
+                              definition['refs'], 'print-subentry')
 
     # AI-written definitions for words no print source covers ----------------------------
     def authored(self):
@@ -1493,6 +1520,7 @@ def main():
     builder.leading_references()
     builder.original_definition_links()
     builder.inflected_forms()
+    builder.link_subentries()
     after_undefined = sum(1 for w in builder.nodes if not builder.defined(w))
     after_isolated = sum(1 for w in builder.nodes if not builder.degree[w])
     methods = collections.Counter(d['method'] for d in builder.definitions.values())

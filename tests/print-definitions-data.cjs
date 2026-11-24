@@ -76,6 +76,12 @@ for (const [a, b] of [['qaraçı', 'qara'], ['alma', 'almaq'], ['dəli', 'də'],
 
 // Representative entries from each method.
 const node = word => m.byWord.get(word);
+// A phrase may appear on a later page than the start of its enclosing print entry.
+assert(layer.definitions['başına qalmaq'].refs.some(r => r.url.endsWith('_1.pdf#page=236')));
+assert.equal(node('it-bat düşmək').definitionMethod, 'paraphrase');
+assert(edge('it-bat düşmək', 'itmək', 'syn'));
+assert(edge('qaragözlük etmək', 'ağlamaq', 'topic'));
+assert(!edge('qaragözlük etmək', 'ağlamaq', 'syn'));
 assert.equal(node('mumiyalama').definitionMethod, 'derivation');
 assert.match(node('mumiyalama').en, /embalm/);
 assert(edge('mumiyalama', 'mumiyalamaq', 'root'));
