@@ -60,7 +60,7 @@ function createModel(raw,extra={nodes:[],edges:[],enrichment:{}},grammar={record
   node.special=references;
  }
  const allEdges=[...raw.edges,...(extra.edges||[]),...(vocabulary.edges||[]),...(review.edges||[]),...(expansion.edges||[]),...(additions.edges||[]),...(relations.edges||[]),...(references.edges||[]),...(growth.edges||[]),...(verification.edges||[])];
- const edgeKey=e=>[e[0],e[1]].sort().join('|')+'|'+e[2],blockedSemantic=new Set([...(review.blocked||[]),...(relations.blocked||[]),...(growth.blocked||[]),...(verification.blocked||[])].map(edgeKey));
+ const edgeKey=e=>[e[0],e[1]].sort().join('|')+'|'+e[2],blockedSemantic=new Set([...(review.blocked||[]),...(relations.blocked||[]),...(growth.blocked||[]),...(verification.blocked||[]),...(printDefinitions?.blocked||[])].map(edgeKey));
  const blocked=new Set([...(grammar.blockedEdges||[]),...(nominal.blockedEdges||[]).map(e=>[e[0],e[1],e[3].replace(/ · Wiktionary.*$/,'')])].map(e=>[e[0],e[1]].sort().join('|')+'|'+e[2]));
  // A spelling entry must not restore legacy edges from an excluded form.
  const inherited=allEdges.map(e=>aliases[e[0]]||aliases[e[1]]?[aliases[e[0]]||e[0],aliases[e[1]]||e[1],e[2],e[3],edgeKey(e)]:e).filter(e=>!byWord.get(e[0])?.orthographyPage&&!byWord.get(e[1])?.orthographyPage);

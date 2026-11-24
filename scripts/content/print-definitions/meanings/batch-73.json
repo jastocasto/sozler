@@ -1,0 +1,440 @@
+{
+ "qalxansifət": {
+  "az": "Gloydius cinsinə aid zəhərli ilan.",
+  "en": "a pit viper of the genus Gloydius",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Dövlət Gömrük Komitəsi · Gloydius",
+    "url": "https://customs.gov.az/uploads/pdfcontent/qadaga.pdf"
+   }
+  ],
+  "links": {
+   "topic": [
+    "ilan"
+   ]
+  }
+ },
+ "toyçiçəyi": {
+  "az": "Süleyman möhürü adı ilə də tanınan, kökümsovlu çoxillik ot bitkisi.",
+  "en": "Solomon’s seal, a perennial herb of the genus Polygonatum that grows from a rhizome",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "O. İbadlı, A. Zərgərli · Bitki adları haqqında nə bilirsiniz?",
+    "url": "https://botany.az/uploads/library/pdf/bitki_adlari.pdf#page=170"
+   }
+  ],
+  "links": {
+   "topic": [
+    "bitki"
+   ]
+  }
+ },
+ "balyeyən": {
+  "az": "Afrikada və Asiyanın cənubunda yaşayan bal porsuğu.",
+  "en": "the honey badger, a mammal found in Africa and southern Asia",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "AZƏRTAC · Porsuqlar",
+    "url": "https://portal.azertag.az/az/encyclopedia/post/15529"
+   }
+  ],
+  "links": {
+   "topic": [
+    "porsuq",
+    "məməli"
+   ]
+  }
+ },
+ "pərayaqlı": {
+  "az": "Ətrafları üzgəcə çevrilmiş suiti və morj kimi dəniz məməlisi.",
+  "en": "a pinniped, a marine mammal with flippers, such as a seal or walrus",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti · suiti",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=159"
+   },
+   {
+    "title": "Wiktionary · pinniped",
+    "url": "https://en.wiktionary.org/wiki/pinniped#English"
+   }
+  ],
+  "parts": false,
+  "links": {
+   "topic": [
+    "suiti",
+    "məməli"
+   ]
+  }
+ },
+ "yarpaqgüdən": {
+  "az": "Phylloscopus cinsinə aid, ağac və kollarda həşərat axtaran xırda nəğməkar quş.",
+  "en": "a leaf warbler, a small songbird of the genus Phylloscopus that searches foliage for insects",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Avibase · Phylloscopus",
+    "url": "https://avibase.bsc-eoc.org/species.jsp?avibaseid=60A9B5E3D58DBC22"
+   },
+   {
+    "title": "Azərbaycan Turizm Bürosu · Azərbaycanda quş növləri",
+    "url": "https://azerbaijan.travel/storage/pages/2873/26265f00-9f26-4e56-96b6-86ee7cf28d4b.pdf"
+   }
+  ],
+  "parts": false,
+  "links": {
+   "topic": [
+    "quş",
+    "həşərat"
+   ]
+  }
+ },
+ "qaraqarın": {
+  "az": "Qarnının rəngi qara olan quşu bildirən söz.",
+  "en": "black-bellied, describing a bird with dark plumage on its belly",
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan Respublikası Dövlət Gömrük Komitəsi · Növlərin Azərbaycan və elmi adları",
+    "url": "https://customs.gov.az/uploads/pdfcontent/cites.pdf"
+   },
+   {
+    "title": "Növlərin ticarətinin tənzimlənməsi qaydaları · Qaraqarın bağrıqara",
+    "url": "https://frameworks.e-qanun.az/16/f_16045.html"
+   }
+  ],
+  "links": {
+   "topic": [
+    "quş"
+   ]
+  }
+ },
+ "təkmübarizlik": {
+  "az": "Güləş kimi idman növlərində iki rəqibin təkbətək yarışması.",
+  "en": "one-on-one competition in a combat sport such as wrestling",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "İdman Elmləri · Veteran güləşçilərin çəkisalma təcrübəsi",
+    "url": "https://sportsciencejournal.org/site/article/225"
+   }
+  ],
+  "parts": false,
+  "links": {
+   "topic": [
+    "güləş",
+    "idman"
+   ]
+  }
+ },
+ "gəmilik": {
+  "az": "Sayla işləndikdə göstərilən sayda gəmidən ibarət olan.",
+  "en": "consisting of a stated number of ships, as in a thirty-ship fleet",
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "SeaNews · Birgə müəssisənin donanması",
+    "url": "https://seanews.az/az/pages/22/news/17976"
+   }
+  ],
+  "links": {
+   "topic": [
+    "donanma"
+   ]
+  }
+ },
+ "batmanqılınc": {
+  "az": "Tarixi mətnlərdə ağır qılınc gəzdirən döyüşçüyə verilən ləqəb.",
+  "en": "a historical epithet for a warrior who wielded an exceptionally heavy sword",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "A. N. Abbasov · Molla Pənah Vaqif həqiqəti",
+    "url": "https://journals.arti.edu.az/uploads/f_20240910064101332551731.pdf"
+   }
+  ],
+  "links": {
+   "topic": [
+    "ləqəb"
+   ]
+  }
+ },
+ "qaradimdik": {
+  "az": "Dimdiyi qara olan quş haqqında işlədilir.",
+  "en": "black-billed, describing a bird whose bill is black",
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan Respublikası Dövlət Gömrük Komitəsi · Növlərin Azərbaycan və elmi adları",
+    "url": "https://customs.gov.az/uploads/pdfcontent/cites.pdf"
+   }
+  ],
+  "links": {
+   "topic": [
+    "quş"
+   ]
+  }
+ },
+ "təkəlik": {
+  "skip": "The local dictionaries give no sense. Historical sources identify settlements named Təkəlik, but do not establish the common noun listed here."
+ },
+ "ərsindimdik": {
+  "az": "Dayaz sularda yem axtaran, uzun dimdiyinin ucu qaşıq kimi enli olan quş.",
+  "en": "a spoonbill, a wading bird whose long bill widens into a spoon shape at the tip",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan Turizm Bürosu · Qızılağac Milli Parkında quş müşahidəsi",
+    "url": "https://azerbaijan.travel/quslara-mesken-qizilagac-milli-parki"
+   },
+   {
+    "title": "Zoologiya · Azərbaycanda müşahidə olunan quşlar",
+    "url": "https://www.zoobio.az/uploads/jurnal/2015-1.pdf"
+   }
+  ],
+  "links": {
+   "topic": [
+    "quş"
+   ]
+  }
+ },
+ "göydimdik": {
+  "az": "Erkəyinin dimdiyi cütləşmə dövründə mavi rəng alan ağbaşlı dalğıc ördək.",
+  "en": "the white-headed duck, a diving duck whose male develops a blue bill in the breeding season",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan Turizm Bürosu · Qızılağac Milli Parkında quş müşahidəsi",
+    "url": "https://azerbaijan.travel/quslara-mesken-qizilagac-milli-parki"
+   },
+   {
+    "title": "Azərbaycan Respublikası Dövlət Gömrük Komitəsi · Növlərin Azərbaycan və elmi adları",
+    "url": "https://customs.gov.az/uploads/pdfcontent/cites.pdf"
+   }
+  ],
+  "links": {
+   "topic": [
+    "ördək"
+   ]
+  }
+ },
+ "qarabörk": {
+  "az": "Tarixi mənbələrdə adı çəkilən türk tayfalarından biri.",
+  "en": "the name of a historical Turkic tribe",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "AMEA · Türk mənşəli etnonimlər",
+    "url": "https://anl.az/down/meqale/dilchilik_arashdirmalari/2021/02/05%28meqale%29.pdf"
+   }
+  ],
+  "links": {
+   "topic": [
+    "tayfa"
+   ]
+  }
+ },
+ "qılqurd": {
+  "az": "İnsan bağırsağında yaşayan nazik, ağ rəngli parazit qurd.",
+  "en": "a pinworm, a small whitish parasitic roundworm that lives in the human intestine",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "SİA · İnfeksionistin qılqurd haqqında izahı",
+    "url": "https://sia.az/az/news/health/1060683.html"
+   },
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti · bizquyruq",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_1.pdf#page=327"
+   }
+  ],
+  "parts": false,
+  "links": {
+   "syn": [
+    "bizquyruq"
+   ],
+   "topic": [
+    "parazit"
+   ]
+  }
+ },
+ "çəpişotu": {
+  "az": "Paxlalılar fəsiləsinə aid çoxillik ot bitkilərinin bir cinsi.",
+  "en": "goat’s rue, a perennial herb of the legume genus Galega",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "O. İbadlı, A. Zərgərli · Bitki adları haqqında nə bilirsiniz?",
+    "url": "https://botany.az/uploads/library/pdf/bitki_adlari.pdf#page=37"
+   }
+  ],
+  "links": {
+   "topic": [
+    "bitki"
+   ]
+  }
+ },
+ "qışlaqotu": {
+  "az": "Səhləbkimilər fəsiləsinin Herminium cinsinə aid ot bitkisi.",
+  "en": "a musk orchid of the genus Herminium",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Aydın Əsgərov · Azərbaycan florası, Herminium",
+    "url": "https://onlinebotany.az/pdf/sd21.pdf"
+   }
+  ],
+  "links": {
+   "topic": [
+    "bitki"
+   ]
+  }
+ },
+ "quşçanaqlı": {
+  "az": "Çanaq sümüklərinin quruluşuna görə quşçanaqlılar qrupuna aid olan dinozavr haqqında işlədilir.",
+  "en": "ornithischian, belonging to the group of dinosaurs known for their bird-like hip structure",
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Yeni uşaq ensiklopediyası · Qədim heyvanlar",
+    "url": "https://azlib.org/media/books/Yeni_u%C5%9Faq_ensiklopediyas%C4%B1.pdf"
+   }
+  ],
+  "parts": false,
+  "links": {
+   "topic": [
+    "dinozavr"
+   ]
+  }
+ },
+ "filtr-bağlama": {
+  "az": "Çayı və ya bitki qarışığını suda dəmləmək üçün süzgəc materialdan hazırlanmış kiçik paket.",
+  "en": "a small porous sachet holding tea or herbs for steeping in water",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "PharmEd · İmmunotea, buraxılış forması və dəmlənməsi",
+    "url": "https://www.pharmed.az/mehsul/immunotea"
+   }
+  ],
+  "links": {
+   "topic": [
+    "dəmləmə"
+   ]
+  }
+ },
+ "mayasarmaşığı": {
+  "az": "Qozaya bənzər meyvə topluları əmələ gətirən sarmaşan bitki, mayaotu.",
+  "en": "hop, a climbing plant that produces cone-like clusters",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan Əczaçılıq və Farmakoterapiya Jurnalı · Adi mayasarmaşığı",
+    "url": "https://azpharmjournal.org/site/article/126"
+   },
+   {
+    "title": "Prudens Pharma · Adi mayasarmaşığı, mayaotu",
+    "url": "https://www.prudenspharma.com/2020/01/27/pruart-2-2/index.php?post=tripsomin&slug=post"
+   },
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti · mayaotu",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=299"
+   }
+  ],
+  "parts": false,
+  "links": {
+   "syn": [
+    "mayaotu"
+   ]
+  }
+ },
+ "aşağıbaşlı": {
+  "az": "Qacar tayfasının Aşağıbaş qoluna mənsub adam.",
+  "en": "a member of the Aşağıbaş branch of the Qajar tribe",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · aşağıbaşlı",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L3885-L3888"
+   },
+   {
+    "title": "Qovanlı oymağı · Aşağıbaş qacarları",
+    "url": "https://www.haqqinda.az/%C3%9Cmumi/47419-Qovanl%C4%B1%2B%2Boyma%C4%9F%C4%B1.html"
+   }
+  ],
+  "parts": false,
+  "links": {
+   "topic": [
+    "qacar",
+    "tayfa"
+   ]
+  }
+ },
+ "qaraboyun": {
+  "az": "Boynunun lələkləri qara rəngdə olan quş haqqında işlədilir.",
+  "en": "black-necked, describing a bird with black plumage on its neck",
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan Respublikası Dövlət Gömrük Komitəsi · Növlərin Azərbaycan və elmi adları",
+    "url": "https://customs.gov.az/uploads/pdfcontent/cites.pdf"
+   }
+  ],
+  "links": {
+   "topic": [
+    "quş"
+   ]
+  }
+ },
+ "qırmızıçiçək": {
+  "az": "Çiçəyi qırmızıya çalan bitkini bildirir, məsələn, qırmızıçiçək soğan.",
+  "en": "red-flowered, used in plant names such as red-flowered onion",
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Botanika İnstitutu · Mil düzünün bitki örtüyü",
+    "url": "https://botany.az/uploads/elmieserler/doc/konfrans_materiali171930292817274280761730192052.pdf"
+   }
+  ],
+  "links": {
+   "topic": [
+    "soğan"
+   ]
+  }
+ },
+ "enliqulaq": {
+  "az": "Qulaqları enli olan, Barbastella cinsinə aid yarasa.",
+  "en": "a barbastelle, a bat of the genus Barbastella with broad ears",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Zoologiya İnstitutu · Azərbaycan faunası",
+    "url": "https://zoologiya.az/az/fauna"
+   }
+  ],
+  "links": {
+   "topic": [
+    "yarasa"
+   ]
+  }
+ },
+ "səfərotu": {
+  "az": "Sümürgənkimilər fəsiləsinə aid Lithospermum cinsindən ot bitkisi.",
+  "en": "gromwell, a herb of the genus Lithospermum in the borage family",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "O. İbadlı, A. Zərgərli · Bitki adları haqqında nə bilirsiniz?",
+    "url": "https://botany.az/uploads/library/pdf/bitki_adlari.pdf#page=144"
+   }
+  ],
+  "links": {
+   "topic": [
+    "bitki"
+   ]
+  }
+ }
+}

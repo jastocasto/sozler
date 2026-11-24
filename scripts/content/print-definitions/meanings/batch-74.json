@@ -1,0 +1,387 @@
+{
+ "çalpapaq": {
+  "az": "Başına boz rəngli papaq qoymuş.",
+  "en": "wearing a grey hat",
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti, cild 1, s. 443 · çalpapaq(lı)",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_1.pdf#page=443"
+   }
+  ],
+  "links": {
+   "topic": [
+    "boz"
+   ]
+  }
+ },
+ "kasayarpağı": {
+  "az": "Çiçəyin kasacığını əmələ gətirən, adətən yaşıl olan yarpaqcıqlardan biri.",
+  "en": "a sepal, one of the usually green outer parts of a flower",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Bitkilərin əkini və qulluq tədbirləri · çiçəyin quruluşu",
+    "url": "https://www.e-derslik.edu.az/noduploads/vet_pdf/bitkilarin-akini-va-qulluq-tadbirlari.pdf"
+   }
+  ],
+  "parts": false,
+  "links": {
+   "topic": [
+    "çiçək"
+   ]
+  }
+ },
+ "manilik": {
+  "az": "III əsrdə Maninin yaratdığı, işıqla qaranlığın mübarizəsini əsas götürən dini təlim.",
+  "en": "Manichaeism, the religion founded by Mani in the third century that teaches a struggle between light and darkness",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Dini terminlər lüğəti · manilik",
+    "url": "https://azleks.az/en/dictionary/manilik"
+   }
+  ],
+  "parts": false,
+  "blocked_roots": [
+   "mani",
+   "maniçi"
+  ],
+  "links": {
+   "topic": [
+    "din",
+    "dualizm"
+   ],
+   "syn": [
+    "manixeizm"
+   ]
+  }
+ },
+ "yağçiçəyi": {
+  "az": "Toxumundan yağ alınan, kələmkimilər fəsiləsinə aid ot bitkisi.",
+  "en": "camelina, a mustard-family plant grown for oil from its seeds",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan Dövlət Aqrar Universiteti · Yağlı və efir yağlı bitkilər",
+    "url": "https://www.adau.edu.az/images/ms_kitabxana/05_08_2021_13_53_59_258_4998502_Ya%C4%9Fl%C4%B1%20v%C9%99%20efir%20ya%C4%9Fl%C4%B1%20bitkil%C9%99r%20-%202016.pdf"
+   }
+  ],
+  "links": {
+   "topic": [
+    "toxum"
+   ]
+  }
+ },
+ "qalxanotu": {
+  "az": "Qırmızımtıl qəhvəyi Lactarius rufus göbələyinin adı, həmçinin «qabırğalı qalxanotu» birləşməsində bir bitki adının tərkib hissəsi.",
+  "en": "the rufous milkcap (Lactarius rufus), also used in qabırğalı qalxanotu for the flowering plant Saussurea costus",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Tatarıstan Elmlər Akademiyası · qalxan sözünün törəmələri",
+    "url": "https://ft.antat.ru/uploads/185485693b167a3fec-%D0%A1%D0%B0%D1%84%D0%B0%D1%80%D0%BE%D0%B2_2.pdf"
+   },
+   {
+    "title": "Tartu Universitetinin rəqəmsal arxivi · Горькуша, горькуха (Lactarius rufus)",
+    "url": "https://dspace.ut.ee/server/api/core/bitstreams/4301fad5-faac-4d55-8a62-14a58531bde1/content#page=166"
+   },
+   {
+    "title": "Dövlət Gömrük Komitəsi · CITES, Qabırğalı qalxanotu",
+    "url": "https://customs.gov.az/uploads/pdfcontent/cites.pdf#page=103"
+   }
+  ],
+  "parts": false,
+  "links": {
+   "topic": [
+    "göbələk",
+    "bitki"
+   ]
+  }
+ },
+ "pazdimdik": {
+  "az": "Balıq tutmaq üçün suya dalan, dimdiyi ensiz və kənarları dişli ördək.",
+  "en": "a sawbill, a diving duck with a narrow serrated bill used for catching fish",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Rusca-azərbaycanca lüğət · kroxal",
+    "url": "https://azleks.az/en/dictionary/kroxal"
+   },
+   {
+    "title": "Cornell Lab of Ornithology · Red-breasted Merganser",
+    "url": "https://www.allaboutbirds.org/guide/red-breasted_merganser"
+   }
+  ],
+  "links": {
+   "topic": [
+    "ördək",
+    "balıq"
+   ]
+  }
+ },
+ "ata-nənə": {
+  "skip": "The orthography records the compound, but I could not verify whether it denotes parents, particular relatives or ancestors."
+ },
+ "enlidimdik": {
+  "az": "Ucu qaşıq kimi enli olan dimdiyi ilə sudan xırda canlıları süzən ördək.",
+  "en": "the northern shoveler, a duck that filters food from water with its broad spoon-shaped bill",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycanca-rusca lüğət · enlidimdik (широконоска)",
+    "url": "https://www.scribd.com/document/494737942/Azerbaycanca-rusca-luget"
+   }
+  ],
+  "links": {
+   "topic": [
+    "ördək"
+   ]
+  }
+ },
+ "ilankölgəsi": {
+  "az": "Kərəvüzkimilər fəsiləsindən olan çoxillik ot bitkiləri cinsi.",
+  "en": "Ferula, a genus of perennial herbs in the carrot family",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "AMEA Mərkəzi Nəbatat Bağı · Bitki adları haqqında nə bilirsiniz?, s. 78",
+    "url": "https://botany.az/uploads/library/pdf/bitki_adlari.pdf#page=79"
+   }
+  ],
+  "links": {
+   "topic": [
+    "ot"
+   ]
+  }
+ },
+ "qayışləçək": {
+  "az": "Səhləbkimilər fəsiləsinə aid Himantoglossum cinsindən bitki.",
+  "en": "a lizard orchid, a plant of the genus Himantoglossum",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Ekologiya və Təbii Sərvətlər Nazirliyi · Relikt növlərin siyahısı",
+    "url": "https://www.eco.gov.az/index.php?pg=319"
+   }
+  ],
+  "links": {
+   "topic": [
+    "bitki"
+   ]
+  }
+ },
+ "qəpikotu": {
+  "az": "Paxlakimilər fəsiləsinə aid, meyvəsi ayrı-ayrı hissələrə bölünən ot bitkisi.",
+  "en": "sweetvetch, a legume of the genus Hedysarum with jointed pods",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "M. C. Qəhrəmanova və S. C. İbadullayeva · Hedysarum",
+    "url": "https://onlinebotany.az/pdf/ms1.pdf"
+   }
+  ],
+  "links": {
+   "topic": [
+    "bitki"
+   ]
+  }
+ },
+ "qısadimdik": {
+  "az": "Dimdiyi qısa olan quş haqqında deyilir.",
+  "en": "short-billed, describing a bird with a short beak",
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti, cild 3, s. 249 · ley",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=249"
+   }
+  ],
+  "links": {
+   "topic": [
+    "ley"
+   ]
+  }
+ },
+ "süpürgəgülü": {
+  "az": "Mürəkkəbçiçəklilər fəsiləsindən olan Xeranthemum cinsinə aid bitki.",
+  "en": "an everlasting flower of the genus Xeranthemum in the daisy family",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Qarabağın faydalı bitkiləri · Xeranthemum",
+    "url": "https://www.anl.az/down/meqale/insan_biosfer/2021/15/766367%28meqale%29.pdf"
+   }
+  ],
+  "parts": false,
+  "links": {
+   "topic": [
+    "bitki"
+   ]
+  }
+ },
+ "çılpaqgözlü": {
+  "az": "Gözünün üstünü şəffaf pulcuq örtən xırda kərtənkələ.",
+  "en": "a snake-eyed skink, a small lizard with a transparent covering over the eye",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan faunası · Ablepharus cinsinin növləri",
+    "url": "https://aem.az/uploads/files/2024-01/1706299946_1701717437_zoolog_baki-son-tam-26-dos_-adigozelova-d_-2023_compressed.pdf"
+   }
+  ],
+  "links": {
+   "topic": [
+    "kərtənkələ"
+   ]
+  }
+ },
+ "əyriboğaz": {
+  "az": "Boğaz hissəsi əyri olan qab haqqında deyilir.",
+  "en": "curved-necked, as of a vessel",
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycanca-rusca lüğət, II cild · əyriboğaz",
+    "url": "https://kitabxana.nmi.edu.az/wp-content/uploads/2020/09/Az%C9%99rbaycanca-Rusca-lug%C9%99t.-Dord-cildd%C9%99.-II-cid..pdf"
+   }
+  ],
+  "parts": false,
+  "links": {
+   "topic": [
+    "qab"
+   ]
+  }
+ },
+ "qırxçıraq": {
+  "skip": "Sources verify several place names. They do not establish the sense of the lowercase common word."
+ },
+ "qızılqarın": {
+  "az": "Dişisinin qarıncığının ucunda qızılı tük topası olan ağ gecə kəpənəyi.",
+  "en": "the brown-tail moth, a white moth whose female has a golden-brown tuft at the tip of the abdomen",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycanca-rusca lüğət · qızılqarın",
+    "url": "https://az.sozbaz.net/az/ru/madde-50749-yg3.html"
+   },
+   {
+    "title": "Naxçıvan MR-in cücüləri · Qızılqarın kəpənək",
+    "url": "https://www.anl.az/el/Kitab/2016/qa_nmrch.pdf"
+   }
+  ],
+  "links": {
+   "topic": [
+    "kəpənək"
+   ]
+  }
+ },
+ "oraqdimdik": {
+  "az": "Asiyanın dağ çaylarının daşlı sahillərində yaşayan, əyri qırmızı dimdikli quş.",
+  "en": "the ibisbill, a wader with a curved red bill found along stony mountain rivers in Asia",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Avibase · Ibidorhyncha struthersii",
+    "url": "https://avibase.bsc-eoc.org/species.jsp?avibaseid=0C1F2A47F97EF09C&lang=EN"
+   }
+  ],
+  "links": {
+   "topic": [
+    "quş",
+    "sahil"
+   ]
+  }
+ },
+ "taxtabaşı": {
+  "skip": "The published hits establish a village name in Kəlbəcər but do not establish a sense for the lowercase entry."
+ },
+ "yağlıq": {
+  "az": "Yağ almaq üçün becərilən bitki sortu haqqında deyilir.",
+  "en": "grown for its oil, as of a variety of sunflower",
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Peşə təhsili modulu · Yağlı bitkilərin əkini",
+    "url": "https://www.e-derslik.edu.az/noduploads/vet_pdf/yagli-bitkilarin-akini.pdf"
+   }
+  ],
+  "parts": false,
+  "links": {
+   "topic": [
+    "günəbaxan",
+    "yağ"
+   ]
+  }
+ },
+ "vintqanad": {
+  "az": "Qaldırıcı qüvvəni həm daşıyıcı vintdən, həm də qanaddan alan, şaquli qalxıb-enə bilən uçuş aparatı.",
+  "en": "a compound rotorcraft capable of vertical takeoff and landing, with lift from both a rotor and a wing",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "G. Qocayeva · Rusca-azərbaycanca texniki terminlərin izahlı lüğəti, s. 68–69",
+    "url": "https://www.scribd.com/document/510286301/"
+   }
+  ],
+  "parts": false,
+  "links": {
+   "topic": [
+    "rotor"
+   ]
+  }
+ },
+ "yarpaqaltlığı": {
+  "az": "Yarpaq saplağının dibində əmələ gələn kiçik yarpaqşəkilli çıxıntı.",
+  "en": "a stipule, a small leaflike appendage at the base of a leafstalk",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Dövlət İmtahan Mərkəzi · Biologiya 6, Yarpağın xarici quruluşu",
+    "url": "https://dim.gov.az/upload_docs/pdf_derslikler/Biologiya_6_Az.pdf"
+   }
+  ],
+  "parts": false,
+  "links": {
+   "topic": [
+    "saplaq",
+    "yarpaq"
+   ]
+  }
+ },
+ "çivdimdik": {
+  "az": "Sufərələri fəsiləsinə aid, adi çivdimdiyi də əhatə edən quş cinsi.",
+  "en": "Crex, the genus of rails that includes the corncrake",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan Respublikasının Nazirlər Kabineti · qorunan növlərin siyahısı, Crex",
+    "url": "https://frameworks.e-qanun.az/16/f_16045.html"
+   }
+  ],
+  "links": {
+   "topic": [
+    "quş"
+   ]
+  }
+ },
+ "hacıxanım": {
+  "az": "Həcc ziyarətində olmuş qadına hörmətlə müraciət etmək üçün işlədilən söz.",
+  "en": "a respectful form of address for a woman who has performed the hajj",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Şirin Bünyadova · həcc ziyarəti və müraciət formaları",
+    "url": "https://www.anl.az/el/Kitab/2013/Azf-271628.pdf"
+   }
+  ],
+  "links": {
+   "topic": [
+    "həcc"
+   ]
+  }
+ },
+ "meşəbaşı": {
+  "skip": "A waterfall and other geographical names are attested. The meaning of the lowercase dictionary entry remains uncertain."
+ }
+}

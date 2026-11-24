@@ -1,0 +1,1025 @@
+{
+  "atqulançarı": {
+    "az": "Qazax şivəsində yabanı halda bitən və yeməkdə işlədilən qulançar.",
+    "en": "wild asparagus gathered for food in Qazax",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 28,
+    "conf": "high",
+    "links": {
+      "syn": [
+        "qulançar"
+      ]
+    }
+  },
+  "aşqara": {
+    "az": "Oğuz şivəsində plovla verilən xuruş.",
+    "en": "the accompaniment served with pilaf in Oğuz",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 27,
+    "conf": "high",
+    "links": {
+      "syn": [
+        "xuruş"
+      ],
+      "topic": [
+        "plov"
+      ]
+    }
+  },
+  "boylum": {
+    "az": "Qazax və bəzi başqa bölgələrdə hadisələri danışarkən sonra mənasında işlədilir.",
+    "en": "then or afterwards when recounting events in Qazax and other dialects",
+    "pos": "adverb",
+    "src": "dialect",
+    "page": 62,
+    "conf": "high",
+    "links": {
+      "syn": [
+        "sonra"
+      ]
+    }
+  },
+  "calğa": {
+    "az": "Şəkidə bir ağacın budağını başqa ağaca peyvənd etməklə alınan calaq.",
+    "en": "a tree graft in Şəki usage",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 71,
+    "conf": "high",
+    "links": {
+      "syn": [
+        "calaq"
+      ]
+    }
+  },
+  "cimcimə": {
+    "az": "Oğuzda xırda damcılarla yağan yağış haqqında işlədilir.",
+    "en": "fine or drizzling, said of rain in Oğuz",
+    "pos": "adjective",
+    "src": "dialect",
+    "page": 79,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "yağış"
+      ]
+    }
+  },
+  "cucuq": {
+    "az": "Cənubi Azərbaycanda qida kimi işlədilən bir bitkinin yerli adı.",
+    "en": "a local name for an edible plant in southern Azerbaijani dialects",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 81,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "bitki"
+      ]
+    }
+  },
+  "dadgül": {
+    "az": "Daşkəsəndə bir ağac növünə verilən yerli ad.",
+    "en": "a local name for a kind of tree in Daşkəsən",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 110,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "ağac"
+      ]
+    }
+  },
+  "darağan": {
+    "az": "Göyçayda nərənin erkəyinə verilən ad.",
+    "en": "a male sturgeon in Göyçay usage",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 116,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "nərə"
+      ]
+    }
+  },
+  "dağavar": {
+    "az": "Qazax və Borçalıda dağların çox olduğu yer haqqında işlədilir.",
+    "en": "mountainous, said of terrain in Qazax and Borçalı",
+    "pos": "adjective",
+    "src": "dialect",
+    "page": 110,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "dağlıq"
+      ]
+    }
+  },
+  "düzəngi": {
+    "az": "Tovuzda açıq və hamar torpaq sahəsinə deyilən söz.",
+    "en": "an open stretch of level ground in Tovuz",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 149,
+    "conf": "high",
+    "links": {
+      "syn": [
+        "düzəngah"
+      ]
+    }
+  },
+  "gecəb": {
+    "az": "Cəbrayıl və Zəngilanda enli yarpaqları olan yabanı bir bitkinin adı.",
+    "en": "a local name for a broad-leaved wild plant in Cəbrayıl and Zəngilan",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 175,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "bitki"
+      ]
+    }
+  },
+  "götürgə": {
+    "az": "İmişli və bəzi başqa bölgələrdə suyu alçaqdan daha hündür yerə aparan arx.",
+    "en": "a channel carrying water from low ground to higher ground in İmişli and other dialects",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 186,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "arx"
+      ]
+    }
+  },
+  "göyül": {
+    "az": "Ağdam, Füzuli və bəzi başqa bölgələrdə yabanı bir bitkinin yerli adı.",
+    "en": "a local name for a wild plant in Ağdam, Füzuli and other areas",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 187,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "bitki"
+      ]
+    }
+  },
+  "gülbəsər": {
+    "az": "Culfa və Ordubad da daxil olmaqla bir neçə bölgədə xiyarın adı.",
+    "en": "a regional word for cucumber in Culfa, Ordubad and elsewhere",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 189,
+    "conf": "high",
+    "links": {
+      "syn": [
+        "xiyar"
+      ]
+    }
+  },
+  "hoqqar": {
+    "az": "Gədəbəy və bəzi başqa bölgələrdə boyu uzun adam haqqında deyilir.",
+    "en": "tall, said of a person in Gədəbəy and other dialects",
+    "pos": "adjective",
+    "src": "dialect",
+    "page": 207,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "ucaboy"
+      ]
+    }
+  },
+  "kalladar": {
+    "az": "Culfa və Qarakilsədə mal-qara saxlayan adam.",
+    "en": "a cattle herder or livestock keeper in Culfa and Qarakilsə",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 241,
+    "conf": "high",
+    "links": {
+      "syn": [
+        "maldar"
+      ]
+    }
+  },
+  "kalmanı": {
+    "az": "Qazax və Çənbərəkdə mal gönündən tikilən çarıq növü.",
+    "en": "a type of hide shoe worn in Qazax and Çənbərək",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 242,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "çarıq"
+      ]
+    }
+  },
+  "kilincan": {
+    "az": "Ordubadda yoncaya oxşayan bir otun adı.",
+    "en": "a regional name for a herb resembling alfalfa in Ordubad",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 254,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "yonca",
+        "ot"
+      ]
+    }
+  },
+  "köpgər": {
+    "az": "Oğuz və Qax şivələrində dağ keçisinin adı.",
+    "en": "a mountain goat in Oğuz and Qax usage",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 261,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "keçi"
+      ]
+    }
+  },
+  "küdrü": {
+    "az": "Gədəbəydə buxarının ön tərəfinə verilən ad.",
+    "en": "the front of a fireplace in Gədəbəy usage",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 265,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "buxarı"
+      ]
+    }
+  },
+  "kültə": {
+    "az": "Qazaxda köhnəlib cırılmış geyimə deyilən söz.",
+    "en": "a worn, ragged garment in Qazax usage",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 266,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "paltar"
+      ]
+    }
+  },
+  "kümə": {
+    "az": "Axalsxidə üzüm şirəsinə qoz ləpəsi qatmaqla hazırlanan halva.",
+    "en": "a sweet made with grape juice and walnut kernels in Axalsxi",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 267,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "halva",
+        "qoz"
+      ]
+    }
+  },
+  "kündəgir": {
+    "az": "Naxçıvanda xəmiri hissələrə ayırıb kündə hazırlayan adam.",
+    "en": "a person who portions dough into balls in Naxçıvan usage",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 267,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "kündə",
+        "xəmir"
+      ]
+    }
+  },
+  "kürüş": {
+    "az": "Qazax şivəsində balığın kürüsünə verilən ad.",
+    "en": "fish roe in Qazax usage",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 269,
+    "conf": "high",
+    "links": {
+      "syn": [
+        "kürü"
+      ]
+    }
+  },
+  "küvər": {
+    "az": "Naxçıvan və Tovuz kimi bölgələrdə iki-üç yaşında olan dişi keçi.",
+    "en": "a female goat aged two or three years in Naxçıvan, Tovuz and other dialects",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 270,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "keçi"
+      ]
+    }
+  },
+  "kələmo": {
+    "az": "Zərdabda bir balıq növü üçün işlənən yerli ad.",
+    "en": "a local name for a kind of fish in Zərdab",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 247,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "balıq"
+      ]
+    }
+  },
+  "lüləpər": {
+    "az": "Lənkəran, Yardımlı və Cəlilabadda kəpənəyə verilən ad.",
+    "en": "a butterfly in Lənkəran, Yardımlı and Cəlilabad usage",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 339,
+    "conf": "high",
+    "links": {
+      "syn": [
+        "kəpənək"
+      ]
+    }
+  },
+  "malata": {
+    "az": "Ağsu və Kürdəmirdə xəmiri qıcqırtmaq üçün işlədilən maya.",
+    "en": "a starter used to ferment dough in Ağsu and Kürdəmir",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 343,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "maya",
+        "xəmir"
+      ]
+    }
+  },
+  "malavan": {
+    "az": "Salyan və bəzi başqa bölgələrdə mal saxlamağı bacaran adam.",
+    "en": "a person skilled in tending livestock in Salyan and other dialects",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 343,
+    "conf": "high",
+    "links": {
+      "syn": [
+        "maldar"
+      ]
+    }
+  },
+  "malaza": {
+    "az": "Tovuz və Yevlax kimi bölgələrdə boğazın hülqum hissəsinə deyilən söz.",
+    "en": "the throat or pharynx in Tovuz, Yevlax and other dialects",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 343,
+    "conf": "high",
+    "links": {
+      "syn": [
+        "hülqum"
+      ]
+    }
+  },
+  "mollabaş": {
+    "az": "Gədəbəydə yemək üçün yığılan yabanı bir bitkinin adı.",
+    "en": "a local name for an edible wild plant in Gədəbəy",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 360,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "bitki"
+      ]
+    }
+  },
+  "mormor": {
+    "az": "Ağcabədi şivəsində dan yeri sökülən vaxt.",
+    "en": "daybreak in Ağcabədi usage",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 360,
+    "conf": "high",
+    "links": {
+      "syn": [
+        "sübh"
+      ]
+    }
+  },
+  "pişpişə": {
+    "az": "Ucar və İmişlidə paltara yapışan yabanı bir bitkinin adı.",
+    "en": "a regional name in Ucar and İmişli for a wild plant that clings to clothing",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 406,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "bitki"
+      ]
+    }
+  },
+  "pori": {
+    "az": "Əli Bayramlı şivəsində bir balıq növünün adı.",
+    "en": "a local name for a kind of fish in Əli Bayramlı",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 406,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "balıq"
+      ]
+    }
+  },
+  "pörə": {
+    "az": "Sabirabad şivəsində cavan bal arısına verilən ad.",
+    "en": "a young honeybee in Sabirabad usage",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 408,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "arı"
+      ]
+    }
+  },
+  "qaramac": {
+    "az": "Oğuzda ağacdan yerə düşmüş şabalıda deyilən söz.",
+    "en": "a chestnut that has fallen from the tree in Oğuz usage",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 280,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "şabalıd"
+      ]
+    }
+  },
+  "qarayaz": {
+    "az": "Qax şivəsində yaz fəslinin ilk ayı.",
+    "en": "the first month of spring in Qax usage",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 282,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "yaz",
+        "ay"
+      ]
+    }
+  },
+  "qızılözən": {
+    "az": "İmişli və bəzi başqa bölgələrdə qidanı mədəyə aparan borunun adı.",
+    "en": "the oesophagus in İmişli and other dialects",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 305,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "mədə"
+      ]
+    }
+  },
+  "sitilti": {
+    "az": "Gəncə şivəsində ağrı çəkən adamın inilti səsi.",
+    "en": "a moan or groan of pain in Gəncə usage",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 441,
+    "conf": "high",
+    "links": {
+      "syn": [
+        "inilti"
+      ]
+    }
+  },
+  "sümüryan": {
+    "az": "Sabirabad və Şamaxıda taxıl məhsuluna zərər vuran bir həşəratın adı.",
+    "en": "a regional name in Sabirabad and Şamaxı for an insect that damages grain",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 450,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "həşərat",
+        "taxıl"
+      ]
+    }
+  },
+  "sünəçə": {
+    "az": "Gəncə və Qazax kimi bölgələrdə alaçıq qurarkən işlədilən ağac.",
+    "en": "a wooden pole used to put up a tent in Gəncə, Qazax and other dialects",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 451,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "alaçıq"
+      ]
+    }
+  },
+  "sıyırğa": {
+    "az": "İmişlidə əyirilmiş ipin üzərindəki artıq tükləri götürən alət.",
+    "en": "a tool used to smooth loose fibres off spun yarn in İmişli",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 435,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "ip"
+      ]
+    }
+  },
+  "sızğın": {
+    "az": "Salyanda çox xırda damcılarla yağan yağış haqqında deyilir.",
+    "en": "fine or drizzling, said of rain in Salyan",
+    "pos": "adjective",
+    "src": "dialect",
+    "page": 435,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "yağış"
+      ]
+    }
+  },
+  "tapıl": {
+    "az": "Tovuz və bəzi başqa bölgələrdə otun kiçik yığınına deyilən söz.",
+    "en": "a small heap of hay in Tovuz and other dialects",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 481,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "ot"
+      ]
+    }
+  },
+  "tataz": {
+    "az": "Bakı şivəsində dəridə əmələ gələn yara.",
+    "en": "a skin sore in Baku usage",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 483,
+    "conf": "high",
+    "links": {
+      "syn": [
+        "yara"
+      ]
+    }
+  },
+  "tatoy": {
+    "az": "Çənbərəkdə uşaqların Novruzda yığılıb birlikdə bişirdiyi xörək.",
+    "en": "a dish children cook together at Novruz in Çənbərək",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 483,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "xörək"
+      ]
+    }
+  },
+  "taz": {
+    "az": "Qubada uzun və nazik tirə verilən ad.",
+    "en": "a long, slender timber beam in Quba usage",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 485,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "tir"
+      ]
+    }
+  },
+  "ter": {
+    "az": "Bərdə və bir sıra başqa bölgələrdə yük heyvanının belinə aşırılan iri xurcun.",
+    "en": "a large saddlebag slung over a pack animal in Bərdə and other dialects",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 486,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "xurcun"
+      ]
+    }
+  },
+  "tetir": {
+    "az": "Qazaxda gümüş pulları birləşdirərək düzəldilən bəzək əşyası.",
+    "en": "an ornament made of silver coins in Qazax usage",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 486,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "zinət",
+        "gümüş"
+      ]
+    }
+  },
+  "tompal": {
+    "az": "Şəki və bəzi başqa bölgələrdə iki ipəkqurdunun birlikdə hördüyü barama.",
+    "en": "a double cocoon spun by two silkworms in Şəki and other dialects",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 502,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "barama",
+        "ipəkqurdu"
+      ]
+    }
+  },
+  "torumca": {
+    "az": "Böyük Qarakilsədə hörümçəyə verilən ad.",
+    "en": "a spider in Böyük Qarakilsə usage",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 503,
+    "conf": "high",
+    "links": {
+      "syn": [
+        "hörümçək"
+      ]
+    }
+  },
+  "turuqqay": {
+    "az": "Qaxda bir pendir növünün yerli adı.",
+    "en": "a type of cheese known by this name in Qax",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 508,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "pendir"
+      ]
+    }
+  },
+  "təs": {
+    "az": "Naxçıvan və bəzi başqa bölgələrdə atın peyininə verilən ad.",
+    "en": "horse dung in Naxçıvan and other dialects",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 493,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "peyin"
+      ]
+    }
+  },
+  "vəzərək": {
+    "az": "Kürdəmirdə yeməkdə, o cümlədən dovğada işlədilən yabanı bitki.",
+    "en": "an edible wild plant used in dishes such as dovğa in Kürdəmir",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 534,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "bitki",
+        "dovğa"
+      ]
+    }
+  },
+  "xanəhmədi": {
+    "az": "Borçalıda bir xörəyə verilən yerli ad.",
+    "en": "a regional name for a dish in Borçalı",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 215,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "xörək"
+      ]
+    }
+  },
+  "xapan": {
+    "az": "Qazax və Şuşa kimi bölgələrdə baxımsız və boş qalan yer haqqında işlədilir.",
+    "en": "empty and untended, said of a place in Qazax, Şuşa and other dialects",
+    "pos": "adjective",
+    "src": "dialect",
+    "page": 215,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "baxımsız"
+      ]
+    }
+  },
+  "xozan": {
+    "az": "Ordubadda bir müddət əkilməyib dincə qoyulan torpaq haqqında deyilir.",
+    "en": "fallow, said of land temporarily left uncultivated in Ordubad",
+    "pos": "adjective",
+    "src": "dialect",
+    "page": 229,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "torpaq"
+      ]
+    }
+  },
+  "yabagül": {
+    "az": "Oğuzda damın baş tirinə dayaq olan ağac.",
+    "en": "a wooden support for the main roof beam in Oğuz",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 536,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "tir",
+        "dam"
+      ]
+    }
+  },
+  "yadıca": {
+    "az": "Ordubad və bəzi başqa bölgələrdə kötücədən sonrakı nəsildən olan övlad.",
+    "en": "a child of one's great-great-grandchild in Ordubad and other dialects",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 536,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "kötükcə"
+      ]
+    }
+  },
+  "yatalğa": {
+    "az": "Şuşa və bəzi başqa bölgələrdə heyvanın gecəni keçirdiyi yer.",
+    "en": "an animal's overnight resting place in Şuşa and other dialects",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 543,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "heyvan"
+      ]
+    }
+  },
+  "yerqulacı": {
+    "az": "Cəbrayılda örüşdə bitən yabanı bir bitkinin adı.",
+    "en": "a regional name for a wild pasture plant in Cəbrayıl",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 548,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "bitki"
+      ]
+    }
+  },
+  "yüküzü": {
+    "az": "Qubadlıda evdə yığılmış yükün qabağına çəkilən pərdə.",
+    "en": "a curtain hung in front of stacked household belongings in Qubadlı",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 553,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "pərdə"
+      ]
+    }
+  },
+  "yüyənək": {
+    "az": "Gəncə şivəsində çayın axınının sürətləndiyi hissə.",
+    "en": "a swift-flowing stretch of a river in Gəncə usage",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 553,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "çay"
+      ]
+    }
+  },
+  "çalası": {
+    "az": "Bir sıra bölgələrdə südü qatığa çevirmək üçün ona qatılan maya.",
+    "en": "a starter culture added to milk to make yoghurt (regional)",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 86,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "qatıq",
+        "maya"
+      ]
+    }
+  },
+  "çiyə": {
+    "az": "Bərdədə və bəzi başqa bölgələrdə çiy südün üzündə yığılan qaymaq.",
+    "en": "the cream that rises to the top of raw milk in Bərdə and nearby dialects",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 104,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "qaymaq",
+        "süd"
+      ]
+    }
+  },
+  "çutqu": {
+    "az": "Quba və Şamaxı kimi bölgələrdə qadınların başına bağladığı yaylıq.",
+    "en": "a woman's headscarf in Quba, Şamaxı and other dialects",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 108,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "yaylıq"
+      ]
+    }
+  },
+  "çöpbaşı": {
+    "az": "Ağcabədidə keçmişdə mal-qaranı otarmaq üçün sahibindən tutulan vergi.",
+    "en": "a historical levy on grazing livestock in Ağcabədi",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 106,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "vergi",
+        "otlaq"
+      ]
+    }
+  },
+  "çəkçəki": {
+    "az": "Gəncə, Şamaxı və Tovuzda kiçik bir quşa verilən ad.",
+    "en": "a regional name for a small bird in Gəncə, Şamaxı and Tovuz",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 93,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "quş"
+      ]
+    }
+  },
+  "çəkəcək": {
+    "az": "İmişli və Kürdəmirdə atın yəhərini bərkitmək üçün çəkilən qayış.",
+    "en": "a girth used to secure a saddle in İmişli and Kürdəmir",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 93,
+    "conf": "high",
+    "links": {
+      "syn": [
+        "tapqır"
+      ],
+      "topic": [
+        "yəhər"
+      ]
+    }
+  },
+  "çərəltmə": {
+    "az": "İmişli və Şəmkirdə qoyunlarda rast gəlinən bir xəstəliyin adı.",
+    "en": "a local name for a disease of sheep in İmişli and Şəmkir",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 97,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "qoyun"
+      ]
+    }
+  },
+  "ütməcə": {
+    "az": "Ağdam və Qazax şivələrində heyvanlarda olan bir xəstəliyin adı.",
+    "en": "a regional name for an animal disease in Ağdam and Qazax",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 526,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "xəstəlik"
+      ]
+    }
+  },
+  "şamı": {
+    "az": "Lənkəranda tavada bişirilən kabab üçün işlədilən ad.",
+    "en": "a local name in Lənkəran for tava kababı, a meat dish cooked in a pan",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 456,
+    "conf": "high",
+    "links": {
+      "syn": [
+        "tavakababı"
+      ]
+    }
+  },
+  "şornu": {
+    "az": "Şəmkir və Goranboyda arabanın oxlarını onun uzununa tiri ilə birləşdirən dəmir hissə.",
+    "en": "an iron fitting joining a wagon axle to its lengthwise beam in Şəmkir and Goranboy",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 472,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "araba"
+      ]
+    }
+  },
+  "şorğa": {
+    "az": "Culfada ət qaynadıldıqdan sonra alınan bulyona deyilən söz.",
+    "en": "meat broth in Culfa usage",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 471,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "ət"
+      ]
+    }
+  },
+  "əsməşal": {
+    "az": "Bakı şivəsində yundan hazırlanmış bir parça növü.",
+    "en": "a kind of woollen fabric in Baku usage",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 165,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "yun",
+        "parça"
+      ]
+    }
+  },
+  "əydi": {
+    "az": "Qazax və Tovuz kimi bölgələrdə taxta qaşığın və ya çömçənin içini yonan dəmir alət.",
+    "en": "an iron tool for hollowing wooden spoons and ladles in Qazax, Tovuz and nearby dialects",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 167,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "qaşıq",
+        "çömçə"
+      ]
+    }
+  },
+  "əzgən": {
+    "az": "Xanlar şivəsində tikanlı bir yabanı bitkinin adı.",
+    "en": "a local name for a thorny wild plant in Xanlar",
+    "pos": "noun",
+    "src": "dialect",
+    "page": 168,
+    "conf": "high",
+    "links": {
+      "topic": [
+        "bitki",
+        "tikan"
+      ]
+    }
+  }
+}
