@@ -118,3 +118,7 @@ dialog{background:#46463f;border:1px solid #99917d70;color:#e8e0ce;border-radius
 .unverified{color:#e6a96b;margin-left:2px}
 .declension-note{margin:8px 0 0;font-size:11px;line-height:1.6;color:#bfb19c}
 @media(max-width:480px){.case-question{display:none}.declension-table{font-size:13px}.declension-table th,.declension-table td{padding:5px 6px}.declension-table tbody th{width:auto}}
+
+#copyWordLink{display:block;margin:0 0 12px;min-height:32px}
+.race-active #copyWordLink{display:none}
+#wordLinkField{width:100%;margin-top:8px}
