@@ -1,0 +1,933 @@
+{
+ "telekino": {
+  "az": "Televiziya üçün çəkilən və ya televiziyada göstərilən filmlər; televiziya kinosu.",
+  "en": "television films, TV cinema",
+  "pos": "noun"
+ },
+ "telekinoaparat": {
+  "az": "Kinofilmləri televiziya ilə yayımlamaq üçün işlədilən aparat.",
+  "en": "telecine apparatus",
+  "pos": "noun"
+ },
+ "telekinoproyektor": {
+  "az": "Kinolentdəki təsviri televiziya siqnalına çevirmək üçün işlədilən proyektor.",
+  "en": "telecine projector",
+  "pos": "noun"
+ },
+ "telekinoqurğu": {
+  "az": "Kinofilmləri televiziya ilə göstərmək üçün qurğu.",
+  "en": "telecine unit",
+  "pos": "noun"
+ },
+ "telekommentari": {
+  "az": "Televiziyada hadisə və ya veriliş barədə verilən şərh.",
+  "en": "television commentary",
+  "pos": "noun"
+ },
+ "telekommentator": {
+  "az": "Televiziyada hadisələri, idman yarışlarını və s. şərh edən adam.",
+  "en": "television commentator",
+  "pos": "noun"
+ },
+ "telekompleks": {
+  "az": "Televiziya studiyaları, yayım avadanlığı və binalarından ibarət kompleks.",
+  "en": "television complex, TV centre",
+  "pos": "noun"
+ },
+ "teleloto": {
+  "az": "Tirajı televiziya ilə yayımlanan loto oyunu.",
+  "en": "TV lotto, televised lottery",
+  "pos": "noun"
+ },
+ "telemexanik": {
+  "az": "Telemexanika qurğularını quraşdıran və onlara qulluq edən mütəxəssis.",
+  "en": "telemechanics technician",
+  "pos": "noun"
+ },
+ "telemexanikləşdirilmə": {
+  "az": "Məsafədən idarəetmə və nəzarət vasitələri ilə təchiz edilmə.",
+  "en": "telemechanization, equipping with remote control",
+  "pos": "noun"
+ },
+ "telemexanikləşdirilmək": {
+  "az": "Məsafədən idarəetmə və nəzarət vasitələri ilə təchiz edilmək.",
+  "en": "to be telemechanized, to be equipped with remote control",
+  "pos": "verb"
+ },
+ "telemexanikləşdirmək": {
+  "az": "Məsafədən idarəetmə və nəzarət vasitələri ilə təchiz etmək.",
+  "en": "to telemechanize, to equip with remote control",
+  "pos": "verb"
+ },
+ "telemexanizm": {
+  "az": "Məsafədən idarə olunan mexanizm.",
+  "en": "remotely controlled mechanism",
+  "pos": "noun"
+ },
+ "telemikroskop": {
+  "skip": "meaning not certain"
+ },
+ "telemikroskopik": {
+  "skip": "meaning not certain"
+ },
+ "telemüsahibə": {
+  "az": "Televiziya üçün alınan və ya televiziyada yayımlanan müsahibə.",
+  "en": "television interview",
+  "pos": "noun"
+ },
+ "telemərkəz": {
+  "az": "Televiziya verilişlərinin hazırlandığı və yayımlandığı mərkəz.",
+  "en": "television centre",
+  "pos": "noun"
+ },
+ "telemətn": {
+  "skip": "meaning not certain"
+ },
+ "telenəzarət": {
+  "az": "Televiziya kameraları və ya başqa rabitə vasitələri ilə məsafədən nəzarət.",
+  "en": "remote monitoring, TV surveillance",
+  "pos": "noun"
+ },
+ "teleobyekt": {
+  "skip": "meaning not certain"
+ },
+ "teleoçerk": {
+  "az": "Televiziya üçün hazırlanmış oçerk; həyatdan götürülmüş sənədli televiziya hekayəsi.",
+  "en": "television feature, TV documentary sketch",
+  "pos": "noun"
+ },
+ "telepanoram": {
+  "az": "Hadisələrə geniş icmal verən televiziya verilişi.",
+  "en": "TV panorama, TV review programme",
+  "pos": "noun"
+ },
+ "telepyes": {
+  "az": "Televiziyada göstərilmək üçün yazılmış və ya hazırlanmış pyes.",
+  "en": "television play, teleplay",
+  "pos": "noun"
+ },
+ "telequrğu": {
+  "az": "Televiziya təsvirini çəkmək, ötürmək və ya qəbul etmək üçün qurğu.",
+  "en": "television installation, TV equipment",
+  "pos": "noun"
+ },
+ "teleqəbuledici": {
+  "az": "Televiziya siqnallarını qəbul edən cihaz; televizor.",
+  "en": "television receiver, TV set",
+  "pos": "noun"
+ },
+ "teleqəzet": {
+  "skip": "meaning not certain"
+ },
+ "teleradioşirkət": {
+  "az": "Televiziya və radio verilişləri hazırlayıb yayımlayan şirkət.",
+  "en": "television and radio company, broadcaster",
+  "pos": "noun"
+ },
+ "teleradium": {
+  "skip": "meaning not certain"
+ },
+ "telereportaj": {
+  "az": "Hadisə yerindən televiziya üçün hazırlanan və ya birbaşa yayımlanan reportaj.",
+  "en": "television report, TV coverage",
+  "pos": "noun"
+ },
+ "telereportyor": {
+  "az": "Televiziya üçün reportaj hazırlayan jurnalist.",
+  "en": "television reporter",
+  "pos": "noun"
+ },
+ "telereportyorluq": {
+  "az": "Televiziya reportyorunun işi, peşəsi.",
+  "en": "television reporting (as a profession)",
+  "pos": "noun"
+ },
+ "telereseptor": {
+  "az": "Uzaqdan gələn qıcıqları (işıq, səs, qoxu) qəbul edən reseptor.",
+  "en": "teleceptor, distance receptor",
+  "pos": "noun"
+ },
+ "telerinq": {
+  "skip": "meaning not certain"
+ },
+ "teleservis": {
+  "skip": "meaning not certain"
+ },
+ "telesiqnal": {
+  "az": "Televiziya siqnalı; məsafəyə ötürülən siqnal.",
+  "en": "television signal; remote signal",
+  "pos": "noun"
+ },
+ "telesiqnallaşma": {
+  "az": "Obyektlərin vəziyyəti barədə siqnalların rabitə xətləri ilə məsafəyə ötürülməsi.",
+  "en": "telesignalling, remote signalling",
+  "pos": "noun"
+ },
+ "telesistem": {
+  "skip": "meaning not certain"
+ },
+ "telesistolik": {
+  "az": "Sistolanın son mərhələsinə aid olan (telesistolik küy).",
+  "en": "telesystolic, late systolic",
+  "pos": "adjective"
+ },
+ "telessenari": {
+  "az": "Televiziya filmi və ya verilişi üçün yazılmış ssenari.",
+  "en": "television script, teleplay",
+  "pos": "noun"
+ },
+ "telestansiya": {
+  "az": "Televiziya verilişlərini yayımlayan stansiya.",
+  "en": "television station",
+  "pos": "noun"
+ },
+ "telesuflyor": {
+  "az": "Aparıcının oxuyacağı mətni onun qarşısındakı ekranda göstərən qurğu.",
+  "en": "teleprompter, autocue",
+  "pos": "noun"
+ },
+ "telesöhbət": {
+  "az": "Televiziyada yayımlanan söhbət, müzakirə.",
+  "en": "television talk, TV conversation",
+  "pos": "noun"
+ },
+ "telesəsləşmə": {
+  "az": "Müxtəlif şəhərlərlə növbəli canlı bağlantı yolu ilə aparılan televiziya verilişi.",
+  "en": "TV link-up (between several places)",
+  "pos": "noun"
+ },
+ "teletamaşaçı": {
+  "az": "Televiziya verilişlərinə baxan adam.",
+  "en": "television viewer, TV viewer",
+  "pos": "noun"
+ },
+ "teleteatr": {
+  "az": "Televiziya üçün hazırlanan və ya televiziyada göstərilən teatr tamaşaları.",
+  "en": "television theatre",
+  "pos": "noun"
+ },
+ "teleteatral": {
+  "az": "Televiziya teatrına aid olan (teleteatral tamaşa).",
+  "en": "of television theatre",
+  "pos": "adjective"
+ },
+ "teleterapevt": {
+  "skip": "meaning not certain"
+ },
+ "teleterapevtik": {
+  "skip": "meaning not certain"
+ },
+ "teletermometr": {
+  "az": "Temperaturu məsafədən ölçüb göstərən cihaz.",
+  "en": "telethermometer, remote-reading thermometer",
+  "pos": "noun"
+ },
+ "teletexnik": {
+  "az": "Televiziya avadanlığını quraşdıran, ona qulluq edən və təmir edən mütəxəssis.",
+  "en": "television technician",
+  "pos": "noun"
+ },
+ "teletexniklik": {
+  "az": "Teletexnikin işi, peşəsi.",
+  "en": "work of a television technician",
+  "pos": "noun"
+ },
+ "teleticarət": {
+  "az": "Malların televiziya və ya telefon vasitəsilə reklam edilib satılması.",
+  "en": "teleshopping, TV shopping",
+  "pos": "noun"
+ },
+ "teletranslyasiya": {
+  "az": "Verilişin və ya hadisənin televiziya ilə yayımlanması.",
+  "en": "television broadcast, telecast",
+  "pos": "noun"
+ },
+ "teletəbabət": {
+  "az": "Rabitə texnologiyaları vasitəsilə məsafədən göstərilən tibbi xidmət.",
+  "en": "telemedicine",
+  "pos": "noun"
+ },
+ "teletəhsil": {
+  "az": "Televiziya və ya digər rabitə vasitələri ilə məsafədən aparılan təhsil.",
+  "en": "distance learning, tele-education",
+  "pos": "noun"
+ },
+ "teletənqid": {
+  "az": "Televiziya verilişlərinin təhlili və qiymətləndirilməsi; televiziya tənqidi.",
+  "en": "television criticism",
+  "pos": "noun"
+ },
+ "teletənqidçi": {
+  "az": "Televiziya verilişlərini təhlil edib qiymətləndirən tənqidçi.",
+  "en": "television critic",
+  "pos": "noun"
+ },
+ "teletənzim": {
+  "az": "Qurğuların iş rejiminin rabitə vasitələri ilə məsafədən tənzimlənməsi.",
+  "en": "remote regulation, teleregulation",
+  "pos": "noun"
+ },
+ "teletənzimləmə": {
+  "az": "Qurğuların və proseslərin rabitə vasitələri ilə məsafədən tənzimlənməsi.",
+  "en": "remote regulation, teleregulation",
+  "pos": "noun"
+ },
+ "televernisaj": {
+  "skip": "meaning not certain"
+ },
+ "telexəbər": {
+  "az": "Televiziya ilə verilən xəbər; televiziya xəbərləri.",
+  "en": "television news",
+  "pos": "noun"
+ },
+ "teleölçmə": {
+  "az": "Fiziki kəmiyyətlərin məsafədən ölçülməsi və nəticələrin rabitə vasitəsilə ötürülməsi.",
+  "en": "telemetry, remote measurement",
+  "pos": "noun"
+ },
+ "teleölçü": {
+  "skip": "meaning not certain"
+ },
+ "teleötürücü": {
+  "az": "Televiziya siqnallarını efirə ötürən qurğu.",
+  "en": "television transmitter",
+  "pos": "noun"
+ },
+ "teleşərh": {
+  "az": "Televiziyada verilən şərh.",
+  "en": "television commentary",
+  "pos": "noun"
+ },
+ "teleşərhçi": {
+  "az": "Televiziyada hadisələri və verilişləri şərh edən adam.",
+  "en": "television commentator",
+  "pos": "noun"
+ },
+ "termoampermetr": {
+  "az": "Cərəyanın yaratdığı istiliyə əsaslanaraq cərəyan şiddətini ölçən ampermetr.",
+  "en": "thermoammeter, thermocouple ammeter",
+  "pos": "noun"
+ },
+ "termoanaliz": {
+  "az": "Maddənin qızdırılıb soyudulması zamanı baş verən dəyişikliklərin öyrənilməsinə əsaslanan analiz üsulu.",
+  "en": "thermal analysis",
+  "pos": "noun"
+ },
+ "termoanemometr": {
+  "az": "Qızdırılmış telin soyuma dərəcəsinə görə qaz və ya maye axınının sürətini ölçən cihaz.",
+  "en": "thermoanemometer, hot-wire anemometer",
+  "pos": "noun"
+ },
+ "termoantrasit": {
+  "az": "Yüksək temperaturda közərdilərək emal olunmuş antrasit.",
+  "en": "thermoanthracite, calcined anthracite",
+  "pos": "noun"
+ },
+ "termoaçar": {
+  "az": "Temperatur müəyyən həddə çatdıqda elektrik dövrəsini açan və ya bağlayan açar.",
+  "en": "thermal switch, thermostatic switch",
+  "pos": "noun"
+ },
+ "termoaçarlı": {
+  "az": "Termoaçarı olan, termoaçarla təchiz edilmiş.",
+  "en": "with a thermal switch",
+  "pos": "adjective"
+ },
+ "termobalon": {
+  "skip": "meaning not certain"
+ },
+ "termobarokamera": {
+  "az": "İçində temperatur və təzyiqin tənzimləndiyi sınaq kamerası.",
+  "en": "thermobaric chamber, temperature-pressure chamber",
+  "pos": "noun"
+ },
+ "termobarometr": {
+  "az": "Atmosfer təzyiqini suyun qaynama temperaturuna görə təyin edən cihaz; hipsometr.",
+  "en": "thermobarometer, hypsometer",
+  "pos": "noun"
+ },
+ "termobaroqraf": {
+  "az": "Hava temperaturunu və atmosfer təzyiqini eyni vaxtda fasiləsiz qeydə alan cihaz.",
+  "en": "thermobarograph",
+  "pos": "noun"
+ },
+ "termobatareya": {
+  "az": "Ardıcıl birləşdirilmiş termocütlərdən ibarət, istiliyi elektrik enerjisinə çevirən batareya.",
+  "en": "thermopile, thermoelectric battery",
+  "pos": "noun"
+ },
+ "termobatometr": {
+  "az": "Müəyyən dərinlikdən su nümunəsi götürən və onun temperaturunu ölçən cihaz.",
+  "en": "thermobathometer (water sampler with thermometer)",
+  "pos": "noun"
+ },
+ "termobiotop": {
+  "skip": "meaning not certain"
+ },
+ "termocərəyan": {
+  "az": "Termocütdə qovşaqlar arasındakı temperatur fərqi nəticəsində yaranan elektrik cərəyanı.",
+  "en": "thermoelectric current, thermocurrent",
+  "pos": "noun"
+ },
+ "termodavamiyyət": {
+  "az": "Materialın yüksək temperatura davam gətirmə qabiliyyəti; istiliyədavamlılıq.",
+  "en": "heat resistance, thermal endurance",
+  "pos": "noun"
+ },
+ "termodavamlı": {
+  "az": "Yüksək temperatura davam gətirən, istidən xassələrini itirməyən.",
+  "en": "heat-resistant, thermostable",
+  "pos": "adjective"
+ },
+ "termodavamlılıq": {
+  "az": "Yüksək temperatura davam gətirmə xassəsi.",
+  "en": "heat resistance, thermal stability",
+  "pos": "noun"
+ },
+ "termodetektor": {
+  "az": "İstilik şüalanmasını və ya temperatur dəyişməsini aşkar edən detektor.",
+  "en": "thermal detector, heat detector",
+  "pos": "noun"
+ },
+ "termodiaqnostika": {
+  "az": "Bədənin və ya qurğunun səth temperaturunun ölçülməsinə əsaslanan diaqnostika üsulu.",
+  "en": "thermal diagnostics, thermodiagnosis",
+  "pos": "noun"
+ },
+ "termoelastik": {
+  "az": "Temperatur dəyişməsi ilə elastik deformasiya arasındakı əlaqəyə aid olan.",
+  "en": "thermoelastic",
+  "pos": "adjective"
+ },
+ "termoelastiki": {
+  "az": "Termoelastikliyə aid olan; temperatur və elastik deformasiyanın qarşılıqlı təsiri ilə bağlı.",
+  "en": "thermoelastic",
+  "pos": "adjective"
+ },
+ "termoelastiklik": {
+  "az": "Cisimlərdə temperatur dəyişməsi ilə elastik deformasiyanın qarşılıqlı əlaqəsi; bunu öyrənən elm sahəsi.",
+  "en": "thermoelasticity",
+  "pos": "noun"
+ },
+ "termoelektrod": {
+  "az": "Termocütü təşkil edən iki müxtəlif keçiricidən hər biri.",
+  "en": "thermoelectrode, thermocouple leg",
+  "pos": "noun"
+ },
+ "termoelektrogenerator": {
+  "az": "İstilik enerjisini bilavasitə elektrik enerjisinə çevirən generator.",
+  "en": "thermoelectric generator",
+  "pos": "noun"
+ },
+ "termoelektronlaşma": {
+  "skip": "meaning not certain"
+ },
+ "termoelektronlaşmaq": {
+  "skip": "meaning not certain"
+ },
+ "termoemal": {
+  "az": "Materialların, xüsusən metalların xassələrini dəyişmək üçün qızdırılıb soyudulması.",
+  "en": "heat treatment",
+  "pos": "noun"
+ },
+ "termoemissiya": {
+  "az": "Qızdırılmış cismin səthindən elektronların çıxması.",
+  "en": "thermionic emission, thermoemission",
+  "pos": "noun",
+  "parts": false
+ },
+ "termofaza": {
+  "skip": "meaning not certain"
+ },
+ "termofiksasiya": {
+  "az": "Sintetik lif və parçaların formasını və ölçülərini istiliklə emal edərək sabitləşdirmə.",
+  "en": "heat setting, thermofixation",
+  "pos": "noun"
+ },
+ "termofincan": {
+  "az": "İçkini uzun müddət isti və ya soyuq saxlayan fincan.",
+  "en": "thermal mug, insulated cup",
+  "pos": "noun"
+ },
+ "termofobiya": {
+  "az": "İstidən, yüksək temperaturdan patoloji qorxu.",
+  "en": "thermophobia",
+  "pos": "noun"
+ },
+ "termofosfat": {
+  "az": "Təbii fosfatların yüksək temperaturda emalı ilə alınan fosforlu gübrə.",
+  "en": "thermophosphate (fertilizer)",
+  "pos": "noun"
+ },
+ "termofotoaparat": {
+  "az": "İnfraqırmızı (istilik) şüalanmaya görə təsvir alan fotoaparat.",
+  "en": "thermal camera, thermographic camera",
+  "pos": "noun"
+ },
+ "termohəssas": {
+  "az": "Temperatur dəyişməsinə həssas olan (termohəssas kağız).",
+  "en": "heat-sensitive, thermosensitive",
+  "pos": "adjective"
+ },
+ "termoindikator": {
+  "az": "Müəyyən temperaturda rəngini dəyişərək temperaturu göstərən maddə və ya qurğu.",
+  "en": "temperature indicator, thermoindicator",
+  "pos": "noun"
+ },
+ "termoionlaşdırma": {
+  "az": "Atom və molekulları yüksək temperaturun təsiri ilə ionlaşdırma.",
+  "en": "thermal ionization",
+  "pos": "noun"
+ },
+ "termoionlaşdırmaq": {
+  "az": "Atom və molekulları yüksək temperaturun təsiri ilə ionlaşdırmaq.",
+  "en": "to ionize thermally",
+  "pos": "verb"
+ },
+ "termoionlaşdırıcı": {
+  "az": "Yüksək temperatur hesabına ionlaşma yaradan.",
+  "en": "thermally ionizing",
+  "pos": "adjective"
+ },
+ "termoionlaşma": {
+  "az": "Atom və molekulların yüksək temperaturda ionlara çevrilməsi.",
+  "en": "thermal ionization",
+  "pos": "noun"
+ },
+ "termoionlaşmaq": {
+  "az": "Yüksək temperaturun təsiri ilə ion halına keçmək.",
+  "en": "to be thermally ionized",
+  "pos": "verb"
+ },
+ "termoizolyasiya": {
+  "az": "İstiliyin keçməsinin qarşısını alan izolyasiya; istilik izolyasiyası.",
+  "en": "thermal insulation",
+  "pos": "noun"
+ },
+ "termoizolyasiyalı": {
+  "az": "İstilik izolyasiyası ilə örtülmüş (termoizolyasiyalı boru).",
+  "en": "thermally insulated",
+  "pos": "adjective"
+ },
+ "termokalorimetr": {
+  "skip": "meaning not certain"
+ },
+ "termokatod": {
+  "az": "Qızdırıldıqda elektron buraxan katod.",
+  "en": "thermionic cathode, hot cathode",
+  "pos": "noun"
+ },
+ "termokleystoqamiya": {
+  "az": "Əlverişsiz temperatur şəraitində çiçəklərin açılmadan öz-özünə tozlanması.",
+  "en": "thermocleistogamy",
+  "pos": "noun"
+ },
+ "termokorrektor": {
+  "skip": "meaning not certain"
+ },
+ "termolampa": {
+  "skip": "meaning not certain"
+ },
+ "termolent": {
+  "skip": "meaning not certain"
+ },
+ "termolift": {
+  "skip": "meaning not certain"
+ },
+ "termomaqnetizm": {
+  "az": "Temperatur ilə maqnit hadisələri arasındakı əlaqədən yaranan hadisələr; termomaqnit effektləri.",
+  "en": "thermomagnetism",
+  "pos": "noun"
+ },
+ "termometamorfizm": {
+  "az": "Süxurların əsasən yüksək temperaturun təsiri ilə dəyişməsi.",
+  "en": "thermal metamorphism, thermometamorphism",
+  "pos": "noun"
+ },
+ "termomexanik": {
+  "skip": "meaning not certain"
+ },
+ "termomexanika": {
+  "az": "İstilik və mexaniki proseslərin qarşılıqlı əlaqəsini öyrənən elm sahəsi.",
+  "en": "thermomechanics",
+  "pos": "noun"
+ },
+ "termomolekul": {
+  "skip": "meaning not certain"
+ },
+ "termomolekulyar": {
+  "az": "Qazda temperatur fərqi ilə molekulların hərəkəti arasındakı əlaqəyə aid olan (termomolekulyar təzyiq).",
+  "en": "thermomolecular",
+  "pos": "adjective"
+ },
+ "termomultiplikator": {
+  "az": "İstilik şüalanmasını ölçmək üçün termocütlər batareyası ilə qalvanometrdən ibarət cihaz.",
+  "en": "thermomultiplier (thermopile instrument)",
+  "pos": "noun",
+  "parts": false
+ },
+ "termomühərrik": {
+  "az": "İstilik enerjisini mexaniki işə çevirən mühərrik.",
+  "en": "heat engine",
+  "pos": "noun"
+ },
+ "termomüqavimət": {
+  "az": "Elektrik müqaviməti temperaturdan asılı olaraq dəyişən element, termorezistor; istiliyin ötürülməsinə müqavimət.",
+  "en": "thermistor, thermoresistor; thermal resistance",
+  "pos": "noun"
+ },
+ "termonevroz": {
+  "az": "Sinir mənşəli istilik tənzimi pozğunluğu; bədən temperaturunun uzun müddət bir qədər yüksək qalması ilə özünü göstərir.",
+  "en": "thermoneurosis",
+  "pos": "noun"
+ },
+ "termoneytral": {
+  "az": "Orqanizmin istilik tənzimi üçün əlavə enerji sərf etmədiyi temperatura aid olan (termoneytral zona).",
+  "en": "thermoneutral",
+  "pos": "adjective"
+ },
+ "termoneytrallıq": {
+  "az": "Orqanizmin bədən temperaturunu əlavə enerji sərf etmədən saxlaya bildiyi vəziyyət.",
+  "en": "thermoneutrality",
+  "pos": "noun"
+ },
+ "termonizamlama": {
+  "az": "Temperaturu müəyyən səviyyədə saxlama, istiliyi tənzimləmə.",
+  "en": "thermoregulation, temperature control",
+  "pos": "noun"
+ },
+ "termonizamlanma": {
+  "az": "Orqanizmdə və ya qurğuda temperaturun müəyyən səviyyədə saxlanması.",
+  "en": "thermoregulation",
+  "pos": "noun"
+ },
+ "termonizamlayıcı": {
+  "az": "Temperaturu avtomatik olaraq müəyyən səviyyədə saxlayan qurğu.",
+  "en": "thermoregulator, thermostat",
+  "pos": "noun"
+ },
+ "termonəmli": {
+  "skip": "meaning not certain"
+ },
+ "termopaltar": {
+  "az": "Bədən istiliyini saxlayan xüsusi materialdan tikilmiş paltar.",
+  "en": "thermal clothing, thermal wear",
+  "pos": "noun"
+ },
+ "termopanel": {
+  "az": "Bina fasadını həm istilikdən izolyasiya edən, həm də üzlük kimi örtən panel.",
+  "en": "thermal panel, insulated facade panel",
+  "pos": "noun"
+ },
+ "termoplastiklik": {
+  "az": "Qızdırıldıqda yumşalıb asan formalaşa bilmə, soyuduqda isə bərkimə xassəsi.",
+  "en": "thermoplasticity",
+  "pos": "noun"
+ },
+ "termopotensial": {
+  "skip": "meaning not certain"
+ },
+ "termoqalvanomaqnit": {
+  "az": "Elektrik cərəyanı, istilik axını və maqnit sahəsinin birgə təsiri ilə bağlı olan (termoqalvanomaqnit effektləri).",
+  "en": "thermogalvanomagnetic",
+  "pos": "adjective"
+ },
+ "termoqalvanometr": {
+  "az": "Cərəyanın istilik təsirinə əsaslanaraq zəif cərəyanları ölçən qalvanometr.",
+  "en": "thermogalvanometer",
+  "pos": "noun"
+ },
+ "termoqraf": {
+  "az": "Hava temperaturunun dəyişməsini fasiləsiz qeydə alan cihaz.",
+  "en": "thermograph",
+  "pos": "noun",
+  "parts": false
+ },
+ "termoqram": {
+  "az": "Temperaturun dəyişməsini və ya paylanmasını əks etdirən qeyd, qrafik və ya təsvir.",
+  "en": "thermogram",
+  "pos": "noun",
+  "parts": false
+ },
+ "termoradiasiya": {
+  "az": "Qızmış cisimlərin buraxdığı elektromaqnit şüalanma; istilik şüalanması.",
+  "en": "thermal radiation",
+  "pos": "noun"
+ },
+ "termoreaktiv": {
+  "az": "Qızdırıldıqda geri dönməz şəkildə bərkiyən və bir daha yumşalmayan (termoreaktiv plastmas).",
+  "en": "thermosetting",
+  "pos": "adjective"
+ },
+ "termorele": {
+  "az": "Temperatur müəyyən həddə çatdıqda işə düşüb dövrəni açan və ya bağlayan rele.",
+  "en": "thermal relay",
+  "pos": "noun"
+ },
+ "termoreseptor": {
+  "az": "İstini və soyuğu qəbul edən reseptor.",
+  "en": "thermoreceptor",
+  "pos": "noun"
+ },
+ "termorezistor": {
+  "az": "Elektrik müqaviməti temperaturdan asılı olaraq kəskin dəyişən yarımkeçirici rezistor.",
+  "en": "thermistor",
+  "pos": "noun"
+ },
+ "termosifon": {
+  "az": "Mayenin isti və soyuq hissələrinin sıxlıq fərqi hesabına təbii dövranına əsaslanan sistem.",
+  "en": "thermosiphon",
+  "pos": "noun"
+ },
+ "termosistem": {
+  "skip": "meaning not certain"
+ },
+ "termostabilizator": {
+  "az": "Temperaturu sabit saxlayan qurğu; materialın istiliyə davamlılığını artıran əlavə.",
+  "en": "thermostabilizer; heat stabilizer",
+  "pos": "noun"
+ },
+ "termostabilləşdirici": {
+  "az": "Temperaturu sabitləşdirən və ya materialı istiliyə davamlı edən.",
+  "en": "heat-stabilizing",
+  "pos": "adjective"
+ },
+ "termostabilləşdirmə": {
+  "az": "Temperaturu sabit saxlama və ya materialı istiliyə davamlı etmə.",
+  "en": "thermal stabilization, heat stabilization",
+  "pos": "noun"
+ },
+ "termostabilləşdirmək": {
+  "az": "Temperaturu sabit saxlamaq və ya materialı istiliyə davamlı etmək.",
+  "en": "to heat-stabilize",
+  "pos": "verb"
+ },
+ "termostatika": {
+  "az": "Termodinamikanın tarazlıq hallarını öyrənən bölməsi.",
+  "en": "thermostatics",
+  "pos": "noun"
+ },
+ "termostimullaşdırma": {
+  "az": "Bir prosesi və ya orqanizmin fəaliyyətini istilik təsiri ilə gücləndirmə.",
+  "en": "thermal stimulation",
+  "pos": "noun"
+ },
+ "termostimullaşdırmaq": {
+  "az": "Bir prosesi və ya orqanizmin fəaliyyətini istilik təsiri ilə gücləndirmək.",
+  "en": "to stimulate thermally",
+  "pos": "verb"
+ },
+ "termostimullaşdırıcı": {
+  "az": "İstilik təsiri ilə fəaliyyəti gücləndirən vasitə və ya qurğu.",
+  "en": "thermal stimulator",
+  "pos": "noun"
+ },
+ "termostəkan": {
+  "az": "İçkini uzun müddət isti və ya soyuq saxlayan stəkan.",
+  "en": "thermal cup, travel mug",
+  "pos": "noun"
+ },
+ "termotaksis": {
+  "az": "Canlıların istiyə doğru və ya ondan uzağa istiqamətlənmiş hərəkəti.",
+  "en": "thermotaxis",
+  "pos": "noun"
+ },
+ "termoterapiya": {
+  "az": "İstilik vasitəsilə müalicə üsulu.",
+  "en": "thermotherapy, heat therapy",
+  "pos": "noun"
+ },
+ "termotexnika": {
+  "az": "İstilik enerjisinin alınması, ötürülməsi və istifadəsi ilə məşğul olan texnika sahəsi.",
+  "en": "heat engineering, thermal engineering",
+  "pos": "noun"
+ },
+ "termotüstü": {
+  "skip": "meaning not certain"
+ },
+ "termotəmizləmə": {
+  "az": "Yüksək temperatur vasitəsilə çirkdən və ya zərərli maddələrdən təmizləmə.",
+  "en": "thermal cleaning",
+  "pos": "noun"
+ },
+ "termotənzim": {
+  "az": "Temperaturun müəyyən səviyyədə tənzimlənməsi; istilik tənzimi.",
+  "en": "thermoregulation",
+  "pos": "noun"
+ },
+ "termotəsir": {
+  "az": "İstiliyin, yüksək temperaturun təsiri.",
+  "en": "thermal action, heat exposure",
+  "pos": "noun"
+ },
+ "termoverici": {
+  "skip": "meaning not certain"
+ },
+ "termoxromatoqrafiya": {
+  "az": "Temperatur fərqindən istifadə edilərək aparılan xromatoqrafiya.",
+  "en": "thermochromatography",
+  "pos": "noun"
+ },
+ "termoyorğan": {
+  "skip": "meaning not certain"
+ },
+ "ultraabissal": {
+  "az": "Okeanın 6000 metrdən dərin olan ən dərin zonası; dərin okean çökəklikləri.",
+  "en": "ultra-abyssal (hadal) zone",
+  "pos": "noun"
+ },
+ "ultraakustika": {
+  "az": "Ultrasəsləri və onların tətbiqini öyrənən akustika sahəsi.",
+  "en": "ultrasonics, ultra-acoustics",
+  "pos": "noun"
+ },
+ "ultradəbli": {
+  "az": "Son dərəcə dəbli, ən son dəbə uyğun olan.",
+  "en": "ultra-fashionable",
+  "pos": "adjective"
+ },
+ "ultraelement": {
+  "skip": "meaning not certain"
+ },
+ "ultrafiltr": {
+  "az": "Kolloid hissəcikləri və iri molekulları saxlayan çox xırda məsaməli filtr.",
+  "en": "ultrafilter",
+  "pos": "noun"
+ },
+ "ultrafiltrli": {
+  "az": "Ultrafiltri olan, ultrafiltrlə təchiz edilmiş.",
+  "en": "with an ultrafilter",
+  "pos": "adjective"
+ },
+ "ultrafonoforez": {
+  "az": "Dərman maddələrinin ultrasəs vasitəsilə dəri yolu ilə orqanizmə yeridilməsi.",
+  "en": "ultraphonophoresis",
+  "pos": "noun"
+ },
+ "ultrageyim": {
+  "skip": "meaning not certain"
+ },
+ "ultrageyimli": {
+  "skip": "meaning not certain"
+ },
+ "ultrakonservatizm": {
+  "az": "Son dərəcə mühafizəkar siyasi baxışlar; ifrat konservatizm.",
+  "en": "ultraconservatism",
+  "pos": "noun"
+ },
+ "ultraliberal": {
+  "az": "İfrat liberal baxışlara malik adam.",
+  "en": "ultraliberal",
+  "pos": "noun"
+ },
+ "ultraliberalizm": {
+  "az": "Liberalizmin ifrat forması.",
+  "en": "ultraliberalism",
+  "pos": "noun"
+ },
+ "ultramikroanaliz": {
+  "az": "Çox kiçik miqdarda maddə ilə aparılan kimyəvi analiz.",
+  "en": "ultramicroanalysis",
+  "pos": "noun"
+ },
+ "ultramikrob": {
+  "az": "Adi mikroskopda görünməyən çox kiçik mikroorqanizm (məs., virus).",
+  "en": "ultramicrobe",
+  "pos": "noun"
+ },
+ "ultramikrokimyəvi": {
+  "az": "Çox kiçik miqdarda maddə ilə aparılan kimyəvi analiz və tədqiqatlara aid olan.",
+  "en": "ultramicrochemical",
+  "pos": "adjective"
+ },
+ "ultramikrometr": {
+  "az": "Çox kiçik uzunluqları və yerdəyişmələri ölçən cihaz.",
+  "en": "ultramicrometer",
+  "pos": "noun"
+ },
+ "ultramikron": {
+  "az": "Yalnız ultramikroskopla görünən çox kiçik hissəcik.",
+  "en": "ultramicron",
+  "pos": "noun"
+ },
+ "ultramüasirlik": {
+  "az": "Son dərəcə müasir olma; ən yeni dəbə və texnologiyaya uyğunluq.",
+  "en": "ultramodernity",
+  "pos": "noun"
+ },
+ "ultraməsamə": {
+  "skip": "meaning not certain"
+ },
+ "ultraməsaməli": {
+  "skip": "meaning not certain"
+ },
+ "ultraplankton": {
+  "az": "Planktonun tərkibindəki ən xırda orqanizmlər.",
+  "en": "ultraplankton",
+  "pos": "noun"
+ },
+ "ultraquruluş": {
+  "az": "Hüceyrə və toxumaların ancaq elektron mikroskopla görünən incə quruluşu.",
+  "en": "ultrastructure",
+  "pos": "noun"
+ },
+ "ultraqısadalğalı": {
+  "az": "Çox qısa (metrlik və daha qısa) radio dalğaları ilə işləyən (ultraqısadalğalı radiostansiya).",
+  "en": "ultra-short-wave, VHF",
+  "pos": "adjective"
+ },
+ "ultraromantik": {
+  "az": "Son dərəcə romantik, ifrat xəyalpərəst.",
+  "en": "ultra-romantic",
+  "pos": "adjective"
+ },
+ "ultraromantizm": {
+  "az": "Romantizmin ifrat forması; həddindən artıq xəyalpərəstlik.",
+  "en": "ultra-romanticism",
+  "pos": "noun"
+ },
+ "ultrasentrifuqa": {
+  "az": "Çox yüksək sürətlə fırlanaraq kolloid hissəcikləri və makromolekulları ayıran sentrifuqa.",
+  "en": "ultracentrifuge",
+  "pos": "noun"
+ },
+ "ultrasürətləndirici": {
+  "az": "Kauçukun vulkanlaşmasını çox sürətləndirən maddə.",
+  "en": "ultra-accelerator (of vulcanization)",
+  "pos": "noun"
+ },
+ "ultrasüzmə": {
+  "az": "Kolloid məhlulları çox xırda məsaməli membrandan süzmə.",
+  "en": "ultrafiltration",
+  "pos": "noun"
+ },
+ "ultraterminal": {
+  "skip": "meaning not certain"
+ },
+ "ultravirus": {
+  "az": "Adi bakteriya süzgəclərindən keçən çox kiçik virus (köhnəlmiş termin).",
+  "en": "ultravirus, filterable virus",
+  "pos": "noun"
+ },
+ "ultrayüksəktezlikli": {
+  "az": "Çox yüksək tezlikli elektromaqnit dalğaları ilə işləyən (ultrayüksəktezlikli terapiya).",
+  "en": "ultra-high-frequency, UHF",
+  "pos": "adjective"
+ },
+ "ultrazərif": {
+  "az": "Son dərəcə zərif, çox incə.",
+  "en": "ultra-delicate, exquisitely fine",
+  "pos": "adjective"
+ },
+ "ultraəsaslı": {
+  "az": "Tərkibində silisium dioksidi çox az olan (ultraəsaslı süxurlar).",
+  "en": "ultrabasic, ultramafic",
+  "pos": "adjective",
+  "parts": false
+ },
+ "videoaparat": {
+  "az": "Video çəkmək, yazmaq və ya göstərmək üçün aparat.",
+  "en": "video device (camera, recorder or player)",
+  "pos": "noun"
+ }
+}

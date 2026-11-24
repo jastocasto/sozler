@@ -1,0 +1,944 @@
+{
+ "mikrozolaqlı": {
+  "az": "Dielektrik lövhə üzərindəki nazik keçirici zolaq (mikrozolaq) əsasında qurulan (mikrozolaqlı antena).",
+  "en": "microstrip (e.g. microstrip antenna)",
+  "pos": "adjective"
+ },
+ "mikrozond": {
+  "az": "Maddənin çox kiçik sahəsində ölçmə və ya analiz aparmaq üçün işlədilən nazik uclu zond (elektron mikrozond).",
+  "en": "microprobe",
+  "pos": "noun"
+ },
+ "mikrozoospor": {
+  "az": "Bəzi yosun və göbələklərdə əmələ gələn kiçik ölçülü zoospor.",
+  "en": "microzoospore",
+  "pos": "noun"
+ },
+ "mikrozədələnmə": {
+  "az": "Toxumada və ya materialda gözlə görünməyən çox kiçik zədə.",
+  "en": "microdamage, microtrauma",
+  "pos": "noun"
+ },
+ "mikroçıxıntı": {
+  "az": "Səthdə olan, adətən yalnız mikroskopla görünən çox kiçik çıxıntı.",
+  "en": "microprojection, tiny protrusion",
+  "pos": "noun"
+ },
+ "mikroçıxıntılı": {
+  "az": "Səthində çox kiçik çıxıntılar olan.",
+  "en": "having microprojections",
+  "pos": "adjective"
+ },
+ "mikroşlif": {
+  "az": "Metalın və ya süxurun quruluşunu mikroskop altında öyrənmək üçün cilalanmış nümunə.",
+  "en": "microsection (polished specimen for microscopy)",
+  "pos": "noun"
+ },
+ "mikroşəhər": {
+  "az": "Çox kiçik şəhər; öz infrastrukturu olan böyük yaşayış kompleksi.",
+  "en": "microcity; self-contained residential complex",
+  "pos": "noun"
+ },
+ "mikroşəkil": {
+  "az": "Mikroskop vasitəsilə çəkilmiş şəkil; çox kiçildilmiş təsvir.",
+  "en": "micrograph; microimage",
+  "pos": "noun"
+ },
+ "mikroşəkilli": {
+  "skip": "meaning not certain"
+ },
+ "mikroşəkilsiz": {
+  "skip": "meaning not certain"
+ },
+ "mikroşərait": {
+  "az": "Kiçik bir sahədə (otaqda, bitki örtüyü altında və s.) yaranan xüsusi şərait: temperatur, rütubət və s.",
+  "en": "microconditions, local conditions",
+  "pos": "noun"
+ },
+ "mikroəyrilik": {
+  "az": "Səthdə, xətdə və ya lifdə olan çox kiçik əyrilik.",
+  "en": "microcurvature",
+  "pos": "noun"
+ },
+ "milliampermetr": {
+  "az": "Elektrik cərəyanının şiddətini milliamperlərlə ölçən cihaz.",
+  "en": "milliammeter",
+  "pos": "noun"
+ },
+ "miniareal": {
+  "az": "Bir növün, dil hadisəsinin və s. yayıldığı çox kiçik ərazi.",
+  "en": "small (distribution) range, mini-area",
+  "pos": "noun"
+ },
+ "minibasketbol": {
+  "az": "Uşaqlar üçün uyğunlaşdırılmış, kiçik top və alçaq səbətlə oynanan basketbol.",
+  "en": "mini-basketball",
+  "pos": "noun"
+ },
+ "miniblok": {
+  "skip": "meaning not certain"
+ },
+ "minibloklu": {
+  "skip": "meaning not certain"
+ },
+ "minibomba": {
+  "az": "Kiçik ölçülü bomba.",
+  "en": "small bomb, bomblet",
+  "pos": "noun"
+ },
+ "minidiktofon": {
+  "az": "Kiçik ölçülü, cibə sığan diktofon.",
+  "en": "mini dictaphone, pocket voice recorder",
+  "pos": "noun"
+ },
+ "minidükan": {
+  "az": "Kiçik dükan.",
+  "en": "small shop",
+  "pos": "noun"
+ },
+ "minifabrik": {
+  "az": "İstehsal gücü az olan kiçik fabrik.",
+  "en": "mini-factory, small factory",
+  "pos": "noun"
+ },
+ "minikineskop": {
+  "az": "Kiçik ölçülü kineskop (portativ televizorlarda və s.).",
+  "en": "miniature picture tube",
+  "pos": "noun"
+ },
+ "minikitab": {
+  "az": "Çox kiçik formatda nəşr olunmuş kitab; miniatür kitab.",
+  "en": "miniature book",
+  "pos": "noun"
+ },
+ "minikombayn": {
+  "az": "Kiçik sahələrdə işləmək üçün nəzərdə tutulan kiçik ölçülü kombayn.",
+  "en": "mini combine harvester",
+  "pos": "noun"
+ },
+ "minilafet": {
+  "skip": "meaning not certain"
+ },
+ "minimaksimal": {
+  "skip": "meaning not certain (minimax or min-max)"
+ },
+ "minimarket": {
+  "az": "Gündəlik tələbat mallarının satıldığı kiçik özünəxidmət mağazası.",
+  "en": "minimarket, convenience store",
+  "pos": "noun"
+ },
+ "minimasa": {
+  "az": "Kiçik ölçülü masa.",
+  "en": "small table, mini table",
+  "pos": "noun"
+ },
+ "minimağaza": {
+  "az": "Kiçik mağaza.",
+  "en": "small shop, mini-store",
+  "pos": "noun"
+ },
+ "minioturacaq": {
+  "az": "Kiçik ölçülü oturacaq.",
+  "en": "small seat, mini seat",
+  "pos": "noun"
+ },
+ "minipalto": {
+  "az": "Dizdən yuxarı olan qısa palto.",
+  "en": "short coat, mini coat",
+  "pos": "noun"
+ },
+ "minipartiya": {
+  "az": "Üzvlərinin sayı az olan kiçik siyasi partiya.",
+  "en": "small (political) party",
+  "pos": "noun"
+ },
+ "miniport": {
+  "az": "Kiçik liman.",
+  "en": "small port, mini-port",
+  "pos": "noun"
+ },
+ "miniradio": {
+  "az": "Kiçik ölçülü, portativ radioqəbuledici.",
+  "en": "mini radio, pocket radio",
+  "pos": "noun"
+ },
+ "miniraket": {
+  "az": "Kiçik ölçülü raket.",
+  "en": "mini-rocket, small rocket",
+  "pos": "noun"
+ },
+ "minireportaj": {
+  "az": "Qısa, kiçik həcmli reportaj.",
+  "en": "short report, mini-reportage",
+  "pos": "noun"
+ },
+ "minireqbi": {
+  "az": "Uşaqlar üçün sadələşdirilmiş qaydalarla oynanan reqbi.",
+  "en": "mini rugby",
+  "pos": "noun"
+ },
+ "minirobot": {
+  "az": "Kiçik ölçülü robot.",
+  "en": "mini robot",
+  "pos": "noun"
+ },
+ "minisüngər": {
+  "az": "Kiçik ölçülü süngər.",
+  "en": "small sponge, mini sponge",
+  "pos": "noun"
+ },
+ "minitank": {
+  "az": "Kiçik ölçülü tank (döyüş maşını və ya maye çəni).",
+  "en": "mini tank",
+  "pos": "noun"
+ },
+ "minitelefon": {
+  "az": "Kiçik ölçülü (mobil) telefon.",
+  "en": "mini phone",
+  "pos": "noun"
+ },
+ "minitelevizor": {
+  "az": "Kiçik ekranlı portativ televizor.",
+  "en": "mini TV, portable television",
+  "pos": "noun"
+ },
+ "minitraktor": {
+  "az": "Bağ, həyətyanı sahə və kiçik təsərrüfatlarda işlədilən kiçik traktor.",
+  "en": "mini tractor, compact tractor",
+  "pos": "noun"
+ },
+ "miniturnir": {
+  "az": "Az sayda iştirakçısı olan qısa turnir.",
+  "en": "mini-tournament",
+  "pos": "noun"
+ },
+ "minitəyyarə": {
+  "az": "Kiçik ölçülü təyyarə.",
+  "en": "mini aircraft, small plane",
+  "pos": "noun"
+ },
+ "minivoleybol": {
+  "az": "Uşaqlar üçün kiçik meydançada, alçaq tor üzərindən oynanan voleybol.",
+  "en": "mini-volleyball",
+  "pos": "noun"
+ },
+ "miniyarış": {
+  "az": "Kiçik miqyaslı, az iştirakçılı yarış.",
+  "en": "mini competition, small contest",
+  "pos": "noun"
+ },
+ "minizavod": {
+  "az": "İstehsal gücü az olan kiçik zavod.",
+  "en": "mini-plant, small factory",
+  "pos": "noun"
+ },
+ "minişalvar": {
+  "az": "Qısa şalvar; şort.",
+  "en": "short trousers, shorts",
+  "pos": "noun"
+ },
+ "miniətək": {
+  "az": "Dizdən xeyli yuxarı olan çox qısa ətək.",
+  "en": "miniskirt",
+  "pos": "noun"
+ },
+ "monoelastik": {
+  "az": "Yalnız bir istiqamətdə dartıla bilən (monoelastik parça).",
+  "en": "one-way stretch (of fabric), monoelastic",
+  "pos": "adjective"
+ },
+ "monoetik": {
+  "skip": "meaning not certain"
+ },
+ "monofonematik": {
+  "az": "Bir fonem kimi qiymətləndirilən (məs.: monofonematik diftonq, affrikat).",
+  "en": "monophonemic",
+  "pos": "adjective"
+ },
+ "monofoto": {
+  "skip": "meaning not certain"
+ },
+ "monohibrid": {
+  "az": "Yalnız bir cüt əlamətə görə fərqlənən valideynlərin çarpazlaşmasından alınan hibrid.",
+  "en": "monohybrid",
+  "pos": "noun"
+ },
+ "monoimpuls": {
+  "az": "Hədəfin istiqamətini tək bir impulsla təyin etməyə əsaslanan radiolokasiya üsulu.",
+  "en": "monopulse (radar technique)",
+  "pos": "noun"
+ },
+ "monoimpulslu": {
+  "az": "Monoimpuls üsulu ilə işləyən (monoimpulslu radar).",
+  "en": "monopulse (e.g. monopulse radar)",
+  "pos": "adjective"
+ },
+ "monokanal": {
+  "az": "Tək kanal; yalnız bir kanaldan ibarət ötürmə və ya rabitə sistemi.",
+  "en": "single channel",
+  "pos": "noun"
+ },
+ "monolinqvist": {
+  "skip": "meaning not certain"
+ },
+ "monometallik": {
+  "az": "Pul sistemində yalnız bir metala (qızıla və ya gümüşə) əsaslanan; bir metaldan ibarət olan.",
+  "en": "monometallic",
+  "pos": "adjective"
+ },
+ "monometr": {
+  "skip": "meaning not certain"
+ },
+ "monomodal": {
+  "az": "Yalnız bir modası, rejimi və ya növü olan (monomodal paylanma, monomodal daşıma).",
+  "en": "monomodal, unimodal; single-mode",
+  "pos": "adjective"
+ },
+ "monomüalicə": {
+  "az": "Xəstəliyin yalnız bir dərman və ya bir üsulla müalicəsi; monoterapiya.",
+  "en": "monotherapy",
+  "pos": "noun"
+ },
+ "monopartiya": {
+  "az": "Ölkədə hakimiyyəti təkbaşına əlində saxlayan yeganə partiya.",
+  "en": "single ruling party (in a one-party system)",
+  "pos": "noun"
+ },
+ "monopersulfat": {
+  "az": "Peroksomonosulfat turşusunun duzu; güclü oksidləşdirici (məs.: hovuz suyunun təmizlənməsində).",
+  "en": "monopersulfate, peroxymonosulfate",
+  "pos": "noun"
+ },
+ "monopredikativ": {
+  "az": "Yalnız bir predikativ mərkəzi olan (monopredikativ cümlə).",
+  "en": "monopredicative",
+  "pos": "adjective"
+ },
+ "monoqravür": {
+  "skip": "meaning not certain"
+ },
+ "monoqütblü": {
+  "az": "Bir qütbü olan; təkqütblü (monoqütblü dünya).",
+  "en": "unipolar, monopolar",
+  "pos": "adjective"
+ },
+ "monorelsli": {
+  "az": "Tək rels üzərində hərəkət edən (monorelsli yol).",
+  "en": "monorail",
+  "pos": "adjective"
+ },
+ "monorespublika": {
+  "skip": "meaning not certain"
+ },
+ "monosillabik": {
+  "az": "Bir hecadan ibarət olan; birhecalı (monosillabik dillər).",
+  "en": "monosyllabic",
+  "pos": "adjective"
+ },
+ "monotelefon": {
+  "skip": "meaning not certain"
+ },
+ "monoteokratik": {
+  "skip": "meaning not certain"
+ },
+ "monoterapiya": {
+  "az": "Xəstəliyin yalnız bir dərman preparatı ilə müalicəsi.",
+  "en": "monotherapy",
+  "pos": "noun"
+ },
+ "monotonik": {
+  "az": "Riyaziyyatda: arqument artdıqca ya yalnız artan, ya da yalnız azalan (monotonik funksiya).",
+  "en": "monotonic",
+  "pos": "adjective",
+  "parts": false
+ },
+ "monovaksin": {
+  "az": "Yalnız bir xəstəliyin törədicisinə qarşı hazırlanan peyvənd.",
+  "en": "monovaccine, monovalent vaccine",
+  "pos": "noun"
+ },
+ "monovariant": {
+  "az": "Yalnız bir variantı olan; təkvariantlı.",
+  "en": "single-variant",
+  "pos": "adjective"
+ },
+ "monoveriliş": {
+  "skip": "meaning not certain"
+ },
+ "monoxromat": {
+  "skip": "meaning not certain (colour-blind person or chemical salt)"
+ },
+ "monoyazı": {
+  "skip": "meaning not certain"
+ },
+ "multibişirici": {
+  "az": "Yeməyi bir neçə üsulla (qaynatma, qızartma, buğlama və s.) bişirən elektrik mətbəx cihazı.",
+  "en": "multicooker",
+  "pos": "noun"
+ },
+ "multifunksionallıq": {
+  "az": "Bir neçə funksiyanı yerinə yetirə bilmə xüsusiyyəti; çoxfunksiyalılıq.",
+  "en": "multifunctionality",
+  "pos": "noun"
+ },
+ "multikollinear": {
+  "az": "Statistikada: izahedici dəyişənləri bir-biri ilə sıx xətti əlaqədə olan (multikollinear model).",
+  "en": "multicollinear",
+  "pos": "adjective"
+ },
+ "multimesaj": {
+  "az": "Mətn, şəkil, səs və video daşıya bilən mobil mesaj; MMS.",
+  "en": "multimedia message, MMS",
+  "pos": "noun"
+ },
+ "multimilyarder": {
+  "az": "Bir neçə milyard pul vahidi dəyərində sərvəti olan adam.",
+  "en": "multibillionaire",
+  "pos": "noun"
+ },
+ "multimilyardçı": {
+  "az": "Bir neçə milyard pul vahidi dəyərində sərvəti olan adam; multimilyarder.",
+  "en": "multibillionaire",
+  "pos": "noun"
+ },
+ "multimədəniyyət": {
+  "az": "Bir cəmiyyətdə müxtəlif mədəniyyətlərin birgə mövcudluğu.",
+  "en": "multiculture, multiculturalism",
+  "pos": "noun"
+ },
+ "multimədəniyyətli": {
+  "az": "Müxtəlif mədəniyyətlərin birgə mövcud olduğu (multimədəniyyətli cəmiyyət).",
+  "en": "multicultural",
+  "pos": "adjective",
+  "parts": false
+ },
+ "multimədəniyyətlilik": {
+  "az": "Bir cəmiyyətdə müxtəlif mədəniyyətlərin birgə yaşaması və bərabər tanınması; multikulturalizm.",
+  "en": "multiculturalism",
+  "pos": "noun",
+  "parts": false
+ },
+ "multiplatforma": {
+  "az": "Bir neçə əməliyyat sistemində və ya qurğuda işləyə bilən (multiplatforma proqram).",
+  "en": "cross-platform, multiplatform",
+  "pos": "adjective"
+ },
+ "multiproqram": {
+  "az": "Bir neçə proqramı eyni vaxtda icra edən (multiproqram rejimi).",
+  "en": "multiprogram, multiprogramming",
+  "pos": "adjective"
+ },
+ "multiproqramlaşdırma": {
+  "az": "Kompüterdə bir neçə proqramın növbələşərək eyni vaxtda icra olunması üsulu.",
+  "en": "multiprogramming",
+  "pos": "noun"
+ },
+ "multirotasiya": {
+  "skip": "meaning not certain"
+ },
+ "multiseqment": {
+  "az": "Bir neçə seqmentdən (hissədən) ibarət olan.",
+  "en": "multisegment(ed)",
+  "pos": "adjective"
+ },
+ "multisiklon": {
+  "az": "Qazı tozdan təmizləmək üçün bir neçə kiçik siklondan (mərkəzdənqaçma toztutucusundan) ibarət qurğu.",
+  "en": "multicyclone (dust collector)",
+  "pos": "noun",
+  "parts": false
+ },
+ "multisiqnal": {
+  "skip": "meaning not certain"
+ },
+ "multistandart": {
+  "az": "Bir neçə standartı (məs.: televiziya yayım sistemlərini) dəstəkləyən (multistandart televizor).",
+  "en": "multistandard",
+  "pos": "adjective"
+ },
+ "multivideo": {
+  "skip": "meaning not certain"
+ },
+ "multivitaminli": {
+  "az": "Tərkibində bir neçə vitamin olan (multivitaminli içki).",
+  "en": "multivitamin",
+  "pos": "adjective"
+ },
+ "multiyayım": {
+  "skip": "meaning not certain"
+ },
+ "nanofarad": {
+  "az": "Faradın milyardda bir hissəsinə bərabər elektrik tutumu vahidi.",
+  "en": "nanofarad",
+  "pos": "noun"
+ },
+ "nanofazalı": {
+  "az": "Nanoölçülü fazalardan, dənələrdən ibarət olan (nanofazalı material).",
+  "en": "nanophase",
+  "pos": "adjective"
+ },
+ "nanoiqtisadiyyat": {
+  "skip": "meaning not certain"
+ },
+ "nanomineral": {
+  "az": "Ölçüsü nanometrlərlə ölçülən mineral hissəcik.",
+  "en": "nanomineral",
+  "pos": "noun"
+ },
+ "nanoməsamə": {
+  "az": "Ölçüsü nanometrlərlə ölçülən çox kiçik məsamə.",
+  "en": "nanopore",
+  "pos": "noun"
+ },
+ "nanoobyekt": {
+  "az": "Ölçüsü nanometrlərlə ölçülən obyekt (hissəcik, lif, təbəqə və s.).",
+  "en": "nano-object",
+  "pos": "noun"
+ },
+ "nanoorqanizm": {
+  "az": "Ölçüsü nanometrlərlə ölçülən çox kiçik orqanizm.",
+  "en": "nano-organism",
+  "pos": "noun"
+ },
+ "nanoplankton": {
+  "az": "Ölçüsü təxminən 2–20 mikrometr olan ən xırda plankton orqanizmləri.",
+  "en": "nanoplankton",
+  "pos": "noun"
+ },
+ "nanoplastika": {
+  "skip": "meaning not certain"
+ },
+ "nanoquruluş": {
+  "az": "Ölçüləri nanometrlərlə ölçülən quruluş; maddənin nanoölçülü strukturu.",
+  "en": "nanostructure",
+  "pos": "noun"
+ },
+ "nanoseysmik": {
+  "skip": "meaning not certain"
+ },
+ "nanovaksin": {
+  "az": "Nanohissəciklər əsasında hazırlanan peyvənd.",
+  "en": "nanovaccine",
+  "pos": "noun"
+ },
+ "nanoölçü": {
+  "az": "Nanometrlərlə (təxminən 1–100 nm) ölçülən ölçü; nanomiqyas.",
+  "en": "nanoscale, nanosize",
+  "pos": "noun"
+ },
+ "neobiheviorizm": {
+  "az": "Biheviorizmin davranışı izah edərkən daxili (aralıq) amilləri də nəzərə alan sonrakı istiqaməti.",
+  "en": "neobehaviorism",
+  "pos": "noun"
+ },
+ "neobiosfer": {
+  "skip": "meaning not certain"
+ },
+ "neobolşevizm": {
+  "az": "Bolşevizmin ideya və üsullarını müasir şəraitdə dirçəltməyə çalışan siyasi cərəyan.",
+  "en": "neo-Bolshevism",
+  "pos": "noun"
+ },
+ "neodarvinizm": {
+  "az": "Darvinin təbii seçmə nəzəriyyəsini genetika ilə birləşdirən təkamül təlimi.",
+  "en": "neo-Darwinism",
+  "pos": "noun"
+ },
+ "neoekologiya": {
+  "az": "Müasir orqanizmlərin və ekosistemlərin ekologiyasını öyrənən sahə (paleoekologiyadan fərqli olaraq).",
+  "en": "neoecology",
+  "pos": "noun"
+ },
+ "neoendemik": {
+  "az": "Nisbətən yaxın keçmişdə yaranmış və hələ geniş yayılmamış endemik (növ).",
+  "en": "neoendemic",
+  "pos": "adjective"
+ },
+ "neoendemizm": {
+  "az": "Yeni yaranmış növlərin məhdud ərazidə yayılması hadisəsi.",
+  "en": "neoendemism",
+  "pos": "noun"
+ },
+ "neofobiya": {
+  "az": "Yeni şeylərdən, yeniliklərdən qorxma.",
+  "en": "neophobia",
+  "pos": "noun"
+ },
+ "neoheksan": {
+  "az": "Heksanın izomeri olan doymuş karbohidrogen; 2,2-dimetilbutan.",
+  "en": "neohexane (2,2-dimethylbutane)",
+  "pos": "noun"
+ },
+ "neohidronim": {
+  "az": "Yeni verilmiş və ya dəyişdirilmiş su obyekti adı.",
+  "en": "neohydronym, new hydronym",
+  "pos": "noun"
+ },
+ "neokapitalizm": {
+  "az": "Dövlətin iqtisadiyyata fəal müdaxiləsi ilə səciyyələnən müasir kapitalizm.",
+  "en": "neo-capitalism",
+  "pos": "noun"
+ },
+ "neokonservatizm": {
+  "az": "Güclü dövləti, ənənəvi dəyərləri və fəal xarici siyasəti müdafiə edən müasir mühafizəkar cərəyan.",
+  "en": "neoconservatism",
+  "pos": "noun"
+ },
+ "neokonservator": {
+  "az": "Neokonservatizm tərəfdarı.",
+  "en": "neoconservative",
+  "pos": "noun"
+ },
+ "neolinqvistik": {
+  "az": "Neolinqvistikaya aid olan.",
+  "en": "neolinguistic",
+  "pos": "adjective"
+ },
+ "neolinqvistika": {
+  "az": "XX əsrin əvvəllərində İtaliyada yaranmış, dil hadisələrini coğrafi yayılma və fərdi yaradıcılıq baxımından öyrənən dilçilik cərəyanı.",
+  "en": "neolinguistics",
+  "pos": "noun"
+ },
+ "neomonarxist": {
+  "az": "Neomonarxizm tərəfdarı.",
+  "en": "neo-monarchist",
+  "pos": "noun"
+ },
+ "neomonarxizm": {
+  "az": "Monarxiya quruluşunu müasir şəraitdə bərpa etməyi müdafiə edən siyasi cərəyan.",
+  "en": "neo-monarchism",
+  "pos": "noun"
+ },
+ "neooronim": {
+  "az": "Dağa və ya başqa relyef obyektinə yeni verilmiş və ya dəyişdirilmiş ad.",
+  "en": "new oronym",
+  "pos": "noun"
+ },
+ "neooykonim": {
+  "az": "Yeni salınmış və ya adı dəyişdirilmiş yaşayış məntəqəsinin adı.",
+  "en": "new oikonym (new settlement name)",
+  "pos": "noun"
+ },
+ "neosxolastik": {
+  "az": "Neosxolastikaya aid olan.",
+  "en": "neo-scholastic",
+  "pos": "adjective"
+ },
+ "neosxolastika": {
+  "az": "XIX–XX əsrlərdə orta əsr sxolastikasını, xüsusən tomizmi dirçəldən katolik fəlsəfi cərəyan.",
+  "en": "neo-scholasticism",
+  "pos": "noun"
+ },
+ "neotoponim": {
+  "az": "Yeni verilmiş və ya dəyişdirilmiş coğrafi ad.",
+  "en": "neotoponym, new place name",
+  "pos": "noun"
+ },
+ "neovulkanizm": {
+  "az": "Geoloji baxımdan yaxın dövrdə (neogen və antropogendə) baş vermiş vulkanizm.",
+  "en": "neovolcanism, young volcanism",
+  "pos": "noun"
+ },
+ "neoxristianlıq": {
+  "skip": "meaning not certain"
+ },
+ "poliamin": {
+  "az": "Molekulunda iki və ya daha çox amin qrupu olan üzvi birləşmə (putresin, spermin və s.).",
+  "en": "polyamine",
+  "pos": "noun",
+  "parts": false
+ },
+ "poliartroz": {
+  "az": "Bir neçə oynağın eyni vaxtda artrozla zədələnməsi.",
+  "en": "polyarthrosis",
+  "pos": "noun"
+ },
+ "poliavitaminoz": {
+  "az": "Orqanizmdə bir neçə vitaminin eyni vaxtda çatışmaması.",
+  "en": "polyavitaminosis, multiple vitamin deficiency",
+  "pos": "noun"
+ },
+ "polibromid": {
+  "az": "Tərkibində çoxlu brom atomu olan birləşmə.",
+  "en": "polybromide",
+  "pos": "noun"
+ },
+ "poliekran": {
+  "az": "Təsvirin eyni vaxtda bir neçə ekranda göstərildiyi kino və ya nümayiş sistemi.",
+  "en": "multiscreen, polyscreen",
+  "pos": "noun"
+ },
+ "polietilenqlikol": {
+  "az": "Etilenqlikolun polimeri; tibbdə, kosmetikada və sənayedə işlədilən maddə.",
+  "en": "polyethylene glycol (PEG)",
+  "pos": "noun"
+ },
+ "poliferrit": {
+  "skip": "meaning not certain"
+ },
+ "polifobiya": {
+  "az": "Bir çox şeydən qorxma; eyni vaxtda bir neçə fobiyanın olması.",
+  "en": "polyphobia",
+  "pos": "noun"
+ },
+ "poliformaldehid": {
+  "az": "Formaldehidin polimeri; möhkəm konstruksiya plastiki kimi işlədilir.",
+  "en": "polyformaldehyde, polyoxymethylene",
+  "pos": "noun"
+ },
+ "polifosfat": {
+  "az": "Molekulunda bir-birinə bağlı çoxlu fosfat qrupu olan duz.",
+  "en": "polyphosphate",
+  "pos": "noun"
+ },
+ "poligenetik": {
+  "az": "Bir neçə mənşəli, müxtəlif proseslər nəticəsində yaranmış; bir neçə genlə müəyyən edilən.",
+  "en": "polygenetic; polygenic",
+  "pos": "adjective"
+ },
+ "polihibrid": {
+  "az": "Çoxlu cüt əlamətə görə fərqlənən valideynlərin çarpazlaşmasından alınan hibrid.",
+  "en": "polyhybrid",
+  "pos": "noun"
+ },
+ "poliizopren": {
+  "az": "İzoprenin polimeri; təbii və sintetik kauçukun əsasını təşkil edən maddə.",
+  "en": "polyisoprene",
+  "pos": "noun"
+ },
+ "poliklimaks": {
+  "az": "Ekologiyada: bir ərazidə bir neçə sabit son bitki birliyinin (klimaksın) ola bilməsi; bu barədə nəzəriyyə.",
+  "en": "polyclimax",
+  "pos": "noun"
+ },
+ "polimeriya": {
+  "az": "Genetikada: bir əlamətin bir neçə qeyri-allel genin birgə təsiri ilə müəyyən olunması.",
+  "en": "polymery (polygenic inheritance)",
+  "pos": "noun",
+  "parts": false
+ },
+ "polimolekulyar": {
+  "az": "Bir neçə molekul qatından ibarət olan, çoxlu molekulun iştirakı ilə gedən (polimolekulyar adsorbsiya).",
+  "en": "polymolecular, multimolecular",
+  "pos": "adjective"
+ },
+ "polinarkomaniya": {
+  "az": "Eyni vaxtda bir neçə narkotik maddədən asılılıq.",
+  "en": "polydrug addiction",
+  "pos": "noun"
+ },
+ "polinevrit": {
+  "az": "Çoxlu periferik sinirin eyni vaxtda iltihabı.",
+  "en": "polyneuritis",
+  "pos": "noun"
+ },
+ "polinominal": {
+  "az": "Riyaziyyatda: çoxhədliyə aid olan, çoxhədli şəklində ifadə olunan (polinominal funksiya).",
+  "en": "polynomial",
+  "pos": "adjective",
+  "parts": false
+ },
+ "polisilikat": {
+  "az": "Silikat qruplarının zəncir, təbəqə və s. şəklində birləşməsindən əmələ gələn silikat.",
+  "en": "polysilicate",
+  "pos": "noun"
+ },
+ "polisillogizm": {
+  "az": "Hər birinin nəticəsi növbətisi üçün müqəddimə olan sillogizmlər zənciri.",
+  "en": "polysyllogism",
+  "pos": "noun"
+ },
+ "polisimmetrik": {
+  "skip": "meaning not certain"
+ },
+ "politipaj": {
+  "skip": "meaning not certain"
+ },
+ "politonik": {
+  "skip": "meaning not certain"
+ },
+ "politropik": {
+  "az": "Fizikada: təzyiq ilə həcm arasında pVⁿ = sabit asılılığı ilə gedən (politropik proses).",
+  "en": "polytropic",
+  "pos": "adjective",
+  "parts": false
+ },
+ "politurşu": {
+  "az": "Molekulunda bir neçə turşu qalığı birləşmiş olan mürəkkəb qeyri-üzvi turşu (izopoli- və heteropoliturşular).",
+  "en": "polyacid",
+  "pos": "noun"
+ },
+ "polivalentlik": {
+  "az": "Bir neçə valentliyi olma; müxtəlif növ təsir göstərə bilmə xüsusiyyəti.",
+  "en": "polyvalence",
+  "pos": "noun"
+ },
+ "polivariant": {
+  "az": "Bir neçə variantı olan; çoxvariantlı (polivariant həll).",
+  "en": "multivariant, multi-option",
+  "pos": "adjective"
+ },
+ "polivariantlılıq": {
+  "az": "Bir neçə variantı olma; çoxvariantlılıq.",
+  "en": "multivariance, having multiple variants",
+  "pos": "noun"
+ },
+ "polixlorid": {
+  "az": "Tərkibində çoxlu xlor atomu olan birləşmə.",
+  "en": "polychloride",
+  "pos": "noun"
+ },
+ "polixromatik": {
+  "az": "Bir neçə rəngdən və ya müxtəlif dalğa uzunluqlu şüalardan ibarət olan.",
+  "en": "polychromatic",
+  "pos": "adjective"
+ },
+ "polişinel": {
+  "az": "Fransız xalq kukla teatrının hiyləgər, zarafatcıl təlxək personajı.",
+  "en": "Polichinelle, Punch (puppet character)",
+  "pos": "noun",
+  "parts": false
+ },
+ "postkadr": {
+  "skip": "meaning not certain"
+ },
+ "postorogen": {
+  "az": "Dağəmələgəlmə (orogenez) prosesindən sonrakı dövrə aid (postorogen mərhələ).",
+  "en": "post-orogenic",
+  "pos": "adjective"
+ },
+ "postpaket": {
+  "skip": "meaning not certain"
+ },
+ "postpandemiya": {
+  "az": "Pandemiyadan sonrakı dövr.",
+  "en": "post-pandemic period",
+  "pos": "noun"
+ },
+ "postpozisiya": {
+  "az": "Dilçilikdə: bir ünsürün aid olduğu sözdən sonra gəlməsi; belə mövqe.",
+  "en": "postposition (position after the word)",
+  "pos": "noun"
+ },
+ "postpozitiv": {
+  "az": "Aid olduğu sözdən sonra gələn (postpozitiv artikl).",
+  "en": "postpositive",
+  "pos": "adjective",
+  "parts": false
+ },
+ "posttektonik": {
+  "az": "Tektonik hərəkətlərdən, deformasiyadan sonra yaranmış (posttektonik intruziya).",
+  "en": "post-tectonic",
+  "pos": "adjective"
+ },
+ "posttexnologiya": {
+  "skip": "meaning not certain"
+ },
+ "postvulkanik": {
+  "az": "Vulkan püskürməsi sona çatdıqdan sonra baş verən (postvulkanik hadisələr: fumarollar, isti bulaqlar və s.).",
+  "en": "post-volcanic",
+  "pos": "adjective"
+ },
+ "psevdoabdominal": {
+  "az": "Qarın boşluğu xəstəliyinə oxşayan, lakin başqa səbəbdən yaranan (psevdoabdominal sindrom).",
+  "en": "pseudoabdominal",
+  "pos": "adjective"
+ },
+ "psevdoandronim": {
+  "az": "Qadın müəllifin götürdüyü kişi adı şəklində təxəllüs (məs.: Jorj Sand).",
+  "en": "pseudandronym (male pen name used by a woman)",
+  "pos": "noun",
+  "parts": false
+ },
+ "psevdoartroz": {
+  "az": "Sınıq sümük uclarının bitişməməsi nəticəsində yaranan yalançı oynaq.",
+  "en": "pseudarthrosis, false joint",
+  "pos": "noun",
+  "parts": false
+ },
+ "psevdobrekçiya": {
+  "az": "Brekçiyaya oxşayan, lakin qırıntıların sementləşməsindən deyil, başqa proseslər nəticəsində yaranmış süxur.",
+  "en": "pseudobreccia",
+  "pos": "noun"
+ },
+ "psevdoetimologiya": {
+  "az": "Sözün mənşəyinin elmi əsası olmayan, səsləşməyə əsaslanan yanlış izahı; xalq etimologiyası.",
+  "en": "pseudo-etymology, folk etymology",
+  "pos": "noun"
+ },
+ "psevdoklassik": {
+  "az": "Klassik üslubu zahirən, formal şəkildə təqlid edən.",
+  "en": "pseudo-classical",
+  "pos": "adjective"
+ },
+ "psevdoklassisizm": {
+  "az": "Antik və klassik nümunələrin zahiri, formal təqlidinə əsaslanan üslub.",
+  "en": "pseudo-classicism",
+  "pos": "noun"
+ },
+ "psevdokrater": {
+  "az": "Lava sulu səth üzərindən axarkən buxar partlayışları nəticəsində yaranan, vulkan kraterinə oxşayan çökəklik.",
+  "en": "pseudocrater, rootless cone",
+  "pos": "noun"
+ },
+ "psevdonaturalizm": {
+  "az": "Naturalizmin zahiri təqlidi; həyatın mahiyyətini açmadan kobud təfərrüatları göstərmə.",
+  "en": "pseudo-naturalism",
+  "pos": "noun"
+ },
+ "psevdorealist": {
+  "az": "Zahirən realist görünən, əslində gerçəkliyi düzgün əks etdirməyən yazıçı, rəssam və s.",
+  "en": "pseudo-realist",
+  "pos": "noun"
+ },
+ "psevdorealizm": {
+  "az": "Realizmin zahiri təqlidi; həyatı gerçək kimi göstərməyə çalışıb əslində təhrif edən sənət.",
+  "en": "pseudo-realism",
+  "pos": "noun"
+ },
+ "psevdoromantik": {
+  "az": "Romantizmi zahiri, formal şəkildə təqlid edən; saxta romantik.",
+  "en": "pseudo-romantic",
+  "pos": "adjective"
+ },
+ "psevdoromantizm": {
+  "az": "Romantizmin zahiri, formal təqlidi.",
+  "en": "pseudo-romanticism",
+  "pos": "noun"
+ },
+ "psevdospor": {
+  "skip": "meaning not certain"
+ },
+ "psevdovətənpərvər": {
+  "az": "Özünü vətənpərvər kimi göstərən, əslində isə elə olmayan adam; saxta vətənpərvər.",
+  "en": "pseudo-patriot, false patriot",
+  "pos": "noun"
+ },
+ "psixoakustika": {
+  "az": "Səsin insan tərəfindən qavranılmasını öyrənən elm sahəsi.",
+  "en": "psychoacoustics",
+  "pos": "noun"
+ },
+ "psixobioqrafik": {
+  "az": "Bir şəxsin həyat yolunu psixoloji baxımdan təhlil edən (psixobioqrafik tədqiqat).",
+  "en": "psychobiographical",
+  "pos": "adjective"
+ },
+ "psixoekologiya": {
+  "az": "İnsan psixikası ilə ətraf mühit arasındakı qarşılıqlı əlaqəni öyrənən sahə.",
+  "en": "psychoecology, environmental psychology",
+  "pos": "noun"
+ },
+ "psixoemosionallıq": {
+  "skip": "meaning not certain"
+ },
+ "psixofonetika": {
+  "az": "Nitq səslərinin qavranılması və tələffüzünün psixoloji tərəflərini öyrənən sahə.",
+  "en": "psychophonetics",
+  "pos": "noun"
+ },
+ "psixogigiyena": {
+  "az": "Psixi sağlamlığı qorumaq və möhkəmləndirmək üçün tədbirlər sistemi; bu tədbirləri öyrənən sahə.",
+  "en": "mental hygiene, psychohygiene",
+  "pos": "noun"
+ }
+}

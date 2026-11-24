@@ -1,0 +1,934 @@
+{
+ "hidroinşaatçı": {
+  "az": "Bənd, kanal, su elektrik stansiyası kimi hidrotexniki qurğuların tikintisində çalışan işçi və ya mütəxəssis.",
+  "en": "hydraulic construction worker, builder of hydraulic structures",
+  "pos": "noun"
+ },
+ "hidroizolyator": {
+  "az": "Suyun keçməsinin qarşısını alan material və ya qurğu; hidroizolyasiya vasitəsi.",
+  "en": "waterproofing material or seal",
+  "pos": "noun"
+ },
+ "hidrokauçuk": {
+  "skip": "meaning not certain"
+ },
+ "hidrokompleks": {
+  "az": "Bənd, su elektrik stansiyası, kanal və s. kimi bir-biri ilə bağlı hidrotexniki qurğular kompleksi.",
+  "en": "hydraulic engineering complex, hydro complex",
+  "pos": "noun"
+ },
+ "hidrokostyum": {
+  "az": "Suda, xüsusən dalğıclıqda bədəni soyuqdan və sudan qoruyan rezin kostyum.",
+  "en": "wetsuit, diving suit",
+  "pos": "noun"
+ },
+ "hidrokütlə": {
+  "skip": "meaning not certain"
+ },
+ "hidrolabirint": {
+  "skip": "meaning not certain"
+ },
+ "hidrolaboratoriya": {
+  "az": "Hidravlika, hidrologiya və suyla bağlı digər tədqiqatlar aparılan laboratoriya.",
+  "en": "hydraulic (hydrological) laboratory",
+  "pos": "noun"
+ },
+ "hidrolakkolit": {
+  "az": "Daimi donuşluq zonasında yeraltı buzun qabarması nəticəsində əmələ gələn, içi buz nüvəli təpə.",
+  "en": "hydrolaccolith, pingo",
+  "pos": "noun"
+ },
+ "hidroleksem": {
+  "skip": "meaning not certain"
+ },
+ "hidrolimfa": {
+  "az": "Dərisitikanlıların su-damar sistemini dolduran maye.",
+  "en": "hydrolymph (fluid of the water-vascular system of echinoderms)",
+  "pos": "noun"
+ },
+ "hidrolokasiya": {
+  "az": "Su altındakı obyektlərin yerini səs dalğaları vasitəsilə aşkar edib təyin etmə.",
+  "en": "sonar, underwater acoustic location",
+  "pos": "noun"
+ },
+ "hidrolokator": {
+  "az": "Su altındakı obyektləri səs dalğaları ilə aşkar edən və onların yerini təyin edən cihaz.",
+  "en": "sonar",
+  "pos": "noun"
+ },
+ "hidromaniya": {
+  "az": "Suya qarşı patoloji meyil, xüsusən özünü suya atmaq istəyi.",
+  "en": "hydromania (morbid attraction to water)",
+  "pos": "noun"
+ },
+ "hidromasaj": {
+  "az": "Təzyiqli su şırnağı və ya su axını ilə aparılan masaj.",
+  "en": "hydromassage",
+  "pos": "noun"
+ },
+ "hidrometallurq": {
+  "az": "Metalların filizlərdən məhlullar vasitəsilə çıxarılması, yəni hidrometallurgiya üzrə mütəxəssis.",
+  "en": "hydrometallurgist",
+  "pos": "noun"
+ },
+ "hidromexanik": {
+  "az": "Hidromexanika üzrə mütəxəssis; hidravlik qurğulara qulluq edən mexanik.",
+  "en": "hydromechanics specialist; hydraulic mechanic",
+  "pos": "noun"
+ },
+ "hidromexanikləşdirmə": {
+  "az": "Torpaq qazma, süxur çıxarma və daşıma işlərinin su şırnağı və hidravlik qurğular vasitəsilə aparılması.",
+  "en": "hydromechanization (hydraulic excavation)",
+  "pos": "noun"
+ },
+ "hidromexanikləşdirmək": {
+  "az": "Torpaq qazma və daşıma işlərini su şırnağı və hidravlik qurğular vasitəsilə aparmaq.",
+  "en": "to hydromechanize",
+  "pos": "verb"
+ },
+ "hidromexanizasiya": {
+  "az": "Torpaq işlərinin və süxur çıxarılmasının su şırnağı və hidravlik qurğular vasitəsilə yerinə yetirilməsi.",
+  "en": "hydromechanization (hydraulic excavation)",
+  "pos": "noun"
+ },
+ "hidromexanizator": {
+  "az": "Hidromexanikləşdirmə işlərində su şırnağı ilə işləyən qurğuları idarə edən işçi.",
+  "en": "hydromechanization operator",
+  "pos": "noun"
+ },
+ "hidromodul": {
+  "az": "Suvarmada bir hektar sahəyə saniyədə verilən su miqdarı (l/san·ha).",
+  "en": "irrigation duty, hydromodule (water flow per hectare)",
+  "pos": "noun"
+ },
+ "hidromonitor": {
+  "az": "Güclü su şırnağı ilə torpağı və süxurları dağıdıb yuyan qurğu (hidravlik qazma işlərində).",
+  "en": "hydraulic monitor, water cannon (in hydraulic mining)",
+  "pos": "noun",
+  "parts": false
+ },
+ "hidromufta": {
+  "az": "Fırlanmanı bir valdan digərinə maye vasitəsilə ötürən mufta.",
+  "en": "fluid coupling, hydraulic coupling",
+  "pos": "noun"
+ },
+ "hidromuskovit": {
+  "az": "Tərkibində əlavə su olan, muskovitə yaxın gilli mineral; hidroslyuda növü.",
+  "en": "hydromuscovite (hydrous muscovite, a hydromica)",
+  "pos": "noun"
+ },
+ "hidronasos": {
+  "az": "Hidravlik sistemlərdə mayeni təzyiq altında vuran nasos.",
+  "en": "hydraulic pump",
+  "pos": "noun"
+ },
+ "hidrooykonim": {
+  "skip": "meaning not certain"
+ },
+ "hidroperikardit": {
+  "az": "Perikard boşluğunda maye toplanması ilə müşayiət olunan perikardit.",
+  "en": "hydropericarditis",
+  "pos": "noun"
+ },
+ "hidropotensial": {
+  "az": "Bir ərazinin su ehtiyatlarından enerji almaq imkanı; hidroenergetika potensialı.",
+  "en": "hydropower potential",
+  "pos": "noun"
+ },
+ "hidrosikl": {
+  "az": "Suyun üzərində sürətlə hərəkət edən, motosikletə bənzər kiçik motorlu su nəqliyyatı vasitəsi.",
+  "en": "jet ski, personal watercraft",
+  "pos": "noun",
+  "parts": false
+ },
+ "hidrosiklon": {
+  "az": "Maye içindəki bərk hissəcikləri mərkəzdənqaçma qüvvəsi ilə ayıran qurğu.",
+  "en": "hydrocyclone",
+  "pos": "noun"
+ },
+ "hidrosilindr": {
+  "az": "Mayenin təzyiqi ilə porşeni hərəkətə gətirən silindr; hidravlik silindr.",
+  "en": "hydraulic cylinder",
+  "pos": "noun"
+ },
+ "hidrosükan": {
+  "az": "Sükanın fırladılmasını maye təzyiqi ilə yüngülləşdirən hidravlik gücləndiricili sükan.",
+  "en": "power steering (hydraulic)",
+  "pos": "noun"
+ },
+ "hidroterrorizm": {
+  "az": "Bəndlərə, su təchizatı sistemlərinə qarşı və ya sudan təhdid vasitəsi kimi istifadə edilməklə törədilən terror.",
+  "en": "water terrorism, hydro-terrorism",
+  "pos": "noun"
+ },
+ "hidrotikinti": {
+  "az": "Bəndlərin, kanalların, su elektrik stansiyalarının və digər hidrotexniki qurğuların tikintisi.",
+  "en": "hydraulic construction, hydraulic engineering works",
+  "pos": "noun"
+ },
+ "hidroturşu": {
+  "skip": "meaning not certain"
+ },
+ "hidrotəhlükəsizlik": {
+  "az": "Hidrotexniki qurğuların və su obyektlərinin təhlükəsiz istismarı; suyun yarada biləcəyi təhlükələrdən qorunma.",
+  "en": "hydraulic safety, safety of water structures",
+  "pos": "noun"
+ },
+ "hidrovelosiped": {
+  "az": "Pedalları fırladılaraq suda hərəkət etdirilən kiçik qayıq.",
+  "en": "pedalo, pedal boat, water bike",
+  "pos": "noun"
+ },
+ "kiberdələduz": {
+  "az": "İnternet və kompüter vasitələri ilə fırıldaq edən şəxs.",
+  "en": "cyber fraudster, online scammer",
+  "pos": "noun"
+ },
+ "kiberdələduzluq": {
+  "az": "İnternet və rəqəmsal texnologiyalar vasitəsilə edilən fırıldaqçılıq.",
+  "en": "cyber fraud, online fraud",
+  "pos": "noun"
+ },
+ "kibermühit": {
+  "az": "İnternetin və kompüter şəbəkələrinin yaratdığı virtual mühit.",
+  "en": "cyber environment, cyberspace",
+  "pos": "noun"
+ },
+ "kiberqarət": {
+  "az": "Kompüter şəbəkələri vasitəsilə pul və ya məlumat oğurlama.",
+  "en": "cyber theft, cyber robbery",
+  "pos": "noun"
+ },
+ "kiberqarətçilik": {
+  "az": "Kompüter şəbəkələri vasitəsilə pul və ya məlumat oğurluğu ilə məşğul olma.",
+  "en": "cyber theft, cyber robbery (as an activity)",
+  "pos": "noun"
+ },
+ "kiberqrup": {
+  "az": "Kiberməkanda, xüsusən haker hücumlarında birgə fəaliyyət göstərən qrup.",
+  "en": "cyber group (e.g. a hacker group)",
+  "pos": "noun"
+ },
+ "kiberterror": {
+  "az": "Kompüter şəbəkələrinə və informasiya sistemlərinə hücumlar yolu ilə qorxu yaratma; kiberterrorizm.",
+  "en": "cyberterror",
+  "pos": "noun"
+ },
+ "kiberterrorizm": {
+  "az": "Siyasi və ya ideoloji məqsədlə kompüter şəbəkələrinə və informasiya sistemlərinə hücum edərək qorxu yaratma.",
+  "en": "cyberterrorism",
+  "pos": "noun"
+ },
+ "kiberturnir": {
+  "az": "Kompüter oyunları üzrə keçirilən turnir; kiberidman yarışı.",
+  "en": "esports tournament, cyber tournament",
+  "pos": "noun"
+ },
+ "kiloelektron": {
+  "skip": "not a standalone word; meaning not certain (cf. kiloelektronvolt)"
+ },
+ "kilohers": {
+  "az": "Min hersə bərabər tezlik vahidi.",
+  "en": "kilohertz",
+  "pos": "noun"
+ },
+ "kilokalorili": {
+  "az": "Müəyyən miqdarda kilokalori enerji verən (məs.: 500 kilokalorili yemək).",
+  "en": "of a given number of kilocalories (e.g. a 500-kilocalorie meal)",
+  "pos": "adjective"
+ },
+ "kilometraj": {
+  "az": "Kilometrlə ölçülən qət edilmiş məsafə; nəqliyyat vasitəsinin ümumi yürüşü.",
+  "en": "mileage (in kilometres), distance covered",
+  "pos": "noun"
+ },
+ "kilometrik": {
+  "az": "Kilometrlə ölçülən; kilometrlərlə uzanan (kilometrik növbə).",
+  "en": "kilometric; kilometres long",
+  "pos": "adjective"
+ },
+ "kilopaskal": {
+  "az": "Min paskala bərabər təzyiq vahidi.",
+  "en": "kilopascal",
+  "pos": "noun"
+ },
+ "kilosikl": {
+  "az": "Saniyədə min rəqsə bərabər tezlik vahidi; kilohers.",
+  "en": "kilocycle (kilohertz)",
+  "pos": "noun"
+ },
+ "kinoafişa": {
+  "az": "Filmin nümayişini elan edən afişa.",
+  "en": "film poster, cinema poster",
+  "pos": "noun"
+ },
+ "kinobaxış": {
+  "az": "Filmə baxma; filmin nümayişi və tamaşaçılar tərəfindən izlənilməsi.",
+  "en": "film viewing, film screening",
+  "pos": "noun"
+ },
+ "kinodastan": {
+  "az": "Geniş hadisələri əhatə edən, epik xarakterli bədii film.",
+  "en": "epic film, cinematic epic",
+  "pos": "noun"
+ },
+ "kinodialoq": {
+  "az": "Filmdə personajlar arasındakı danışıq; ssenaridəki dialoq.",
+  "en": "film dialogue",
+  "pos": "noun"
+ },
+ "kinodramaturji": {
+  "az": "Kinodramaturgiyaya, film ssenarisinin quruluşuna aid olan.",
+  "en": "relating to screenwriting (film dramaturgy)",
+  "pos": "adjective"
+ },
+ "kinoekran": {
+  "az": "Kinoteatrda filmin göstərildiyi ekran; məc. kino, kino sənəti.",
+  "en": "cinema screen, the silver screen",
+  "pos": "noun"
+ },
+ "kinofantaziya": {
+  "az": "Fantastik və ya xəyali süjet əsasında qurulmuş film.",
+  "en": "fantasy film, film fantasy",
+  "pos": "noun"
+ },
+ "kinofelyeton": {
+  "az": "Satirik və ya yumoristik məzmunlu qısametrajlı film; ekran felyetonu.",
+  "en": "satirical short film, film feuilleton",
+  "pos": "noun"
+ },
+ "kinoforum": {
+  "az": "Kino xadimlərinin iştirakı ilə keçirilən geniş toplantı və ya festival.",
+  "en": "film forum, film festival",
+  "pos": "noun"
+ },
+ "kinofoto": {
+  "az": "Kino və fotoqrafiyaya aid olan (kinofoto sənədləri, kinofoto materialları).",
+  "en": "film and photographic",
+  "pos": "adjective"
+ },
+ "kinofraqment": {
+  "az": "Filmdən götürülmüş qısa parça, hissə.",
+  "en": "film clip, film excerpt",
+  "pos": "noun"
+ },
+ "kinohekayə": {
+  "az": "Hekayə formasında qurulmuş qısa bədii film; ekran üçün yazılmış hekayə.",
+  "en": "film story, short narrative film",
+  "pos": "noun"
+ },
+ "kinoillüstrasiya": {
+  "az": "Mühazirəni, mətni və ya mövzunu əyani göstərmək üçün istifadə olunan film kadrları.",
+  "en": "film illustration, illustrative footage",
+  "pos": "noun"
+ },
+ "kinoinformasiya": {
+  "skip": "meaning not certain"
+ },
+ "kinoistehsal": {
+  "az": "Filmlərin çəkilməsi və hazırlanması; film istehsalı.",
+  "en": "film production",
+  "pos": "noun"
+ },
+ "kinojurnalist": {
+  "az": "Kino sahəsini işıqlandıran və ya kinoxronika üçün material hazırlayan jurnalist.",
+  "en": "film journalist",
+  "pos": "noun"
+ },
+ "kinojurnalistika": {
+  "az": "Kino haqqında jurnalistika; kinoxronika və sənədli film vasitəsilə jurnalist fəaliyyəti.",
+  "en": "film journalism",
+  "pos": "noun"
+ },
+ "kinokonsert": {
+  "az": "Konsert nömrələrindən ibarət film; lentə alınmış konsert.",
+  "en": "concert film",
+  "pos": "noun"
+ },
+ "kinoköçürmə": {
+  "skip": "meaning not certain"
+ },
+ "kinolaboratoriya": {
+  "az": "Kinolentin aşkarlanması, çapı və surətinin çıxarılması işlərini görən laboratoriya.",
+  "en": "film laboratory, film processing lab",
+  "pos": "noun"
+ },
+ "kinolektoriya": {
+  "az": "Mühazirələrin film nümayişi ilə müşayiət olunduğu zal və ya belə mühazirələr silsiləsi.",
+  "en": "film lecture hall, lecture series with film screenings",
+  "pos": "noun"
+ },
+ "kinomühazirə": {
+  "az": "Film nümayişi ilə müşayiət olunan mühazirə; mühazirə şəklində qurulmuş tədris filmi.",
+  "en": "film lecture",
+  "pos": "noun"
+ },
+ "kinoməcmuə": {
+  "az": "Bir neçə qısa filmdən ibarət film proqramı; kinoalmanax.",
+  "en": "film anthology, collection of short films",
+  "pos": "noun"
+ },
+ "kinoneqativ": {
+  "az": "Kinoçəkiliş zamanı alınan, işıqlı və qaranlıq yerləri tərsinə göstərən lent.",
+  "en": "film negative",
+  "pos": "noun"
+ },
+ "kinooptika": {
+  "az": "Kinoçəkiliş və kinoproyeksiya aparatlarında istifadə olunan obyektivlər və optik sistemlər.",
+  "en": "cinema optics, film lenses",
+  "pos": "noun"
+ },
+ "kinopanoram": {
+  "az": "Bir neçə proyektorla geniş, əyri ekranda göstərilən panoram kino; filmlər haqqında icmal.",
+  "en": "panoramic cinema (multi-projector widescreen); film review",
+  "pos": "noun"
+ },
+ "kinoplakat": {
+  "az": "Filmi reklam edən plakat.",
+  "en": "film poster",
+  "pos": "noun"
+ },
+ "kinoplakatçı": {
+  "az": "Film plakatları hazırlayan rəssam.",
+  "en": "film poster artist",
+  "pos": "noun"
+ },
+ "kinoplakatçılıq": {
+  "az": "Film plakatları hazırlama sənəti və ya peşəsi.",
+  "en": "film poster art, film poster design",
+  "pos": "noun"
+ },
+ "kinoplazma": {
+  "az": "Sitoplazmanın hüceyrə bölünməsi zamanı bölünmə iyinin saplarını əmələ gətirən hissəsi (köhnəlmiş termin).",
+  "en": "kinoplasm, archoplasm",
+  "pos": "noun",
+  "parts": false
+ },
+ "kinoportret": {
+  "az": "Bir şəxsin həyatını və yaradıcılığını əks etdirən sənədli film.",
+  "en": "film portrait (documentary about a person)",
+  "pos": "noun"
+ },
+ "kinoprodüserlik": {
+  "az": "Film prodüseri kimi fəaliyyət; filmlərin istehsalını təşkil etmə və maliyyələşdirmə işi.",
+  "en": "film producing (as a profession)",
+  "pos": "noun"
+ },
+ "kinoproses": {
+  "az": "Kino sənətinin müəyyən dövrdə inkişafı, filmlərin yaranması və yayılması prosesi.",
+  "en": "film process, the state of film-making (in a given period)",
+  "pos": "noun"
+ },
+ "kinopublisist": {
+  "az": "İctimai-siyasi mövzularda sənədli filmlər yaradan və ya kino haqqında publisistik yazılar yazan müəllif.",
+  "en": "documentary film-maker on social issues; film publicist",
+  "pos": "noun"
+ },
+ "kinopublisistik": {
+  "az": "Kinopublisistikaya aid olan; ictimai-siyasi məzmunlu sənədli kinoya xas olan.",
+  "en": "of publicistic (social-issue) documentary cinema",
+  "pos": "adjective"
+ },
+ "kinopublisistika": {
+  "az": "İctimai-siyasi mövzuları işıqlandıran sənədli kino; kino vasitəsilə publisistika.",
+  "en": "publicistic documentary cinema, film journalism",
+  "pos": "noun"
+ },
+ "kinoqeydiyyat": {
+  "skip": "meaning not certain"
+ },
+ "kinoqram": {
+  "az": "Hərəkətin ardıcıl fazalarını göstərən kino kadrları silsiləsi (xüsusən idman biomexanikasında).",
+  "en": "kinogram (sequence of film frames showing phases of a movement)",
+  "pos": "noun",
+  "parts": false
+ },
+ "kinosalon": {
+  "az": "Film nümayiş etdirilən zal; kiçik kinoteatr.",
+  "en": "cinema hall, screening room",
+  "pos": "noun"
+ },
+ "kinoserpantin": {
+  "skip": "meaning not certain"
+ },
+ "kinosimfoniya": {
+  "skip": "meaning not certain"
+ },
+ "kinosəhərcik": {
+  "az": "Uşaqlar üçün səhər saatlarında keçirilən film nümayişi.",
+  "en": "children's morning film show",
+  "pos": "noun"
+ },
+ "kinosənət": {
+  "az": "Kino sənəti; filmlərin yaradılması ilə bağlı bədii yaradıcılıq sahəsi.",
+  "en": "film art, cinematic art, cinema",
+  "pos": "noun"
+ },
+ "kinosənətçi": {
+  "az": "Kino sahəsində çalışan yaradıcı şəxs (rejissor, aktyor, operator və s.).",
+  "en": "film-maker, cinema professional",
+  "pos": "noun"
+ },
+ "kinosənətçilik": {
+  "az": "Kino sahəsində yaradıcı fəaliyyət; kinosənətçinin peşəsi.",
+  "en": "film-making as a profession, film artistry",
+  "pos": "noun"
+ },
+ "kinotexnika": {
+  "az": "Filmlərin çəkilməsi, işlənməsi və nümayişi üçün avadanlıq və bununla bağlı texnologiya.",
+  "en": "cinema technology, film equipment",
+  "pos": "noun"
+ },
+ "kinotədqiqat": {
+  "az": "Kino sənətinin və filmlərin elmi araşdırılması.",
+  "en": "film research, film studies",
+  "pos": "noun"
+ },
+ "kinotədqiqatçı": {
+  "az": "Kino sənətini və filmləri elmi şəkildə araşdıran şəxs; kinoşünas.",
+  "en": "film scholar, film researcher",
+  "pos": "noun"
+ },
+ "kinotəsvir": {
+  "az": "Kinolentdə və ya ekranda alınan hərəkətli təsvir; filmin vizual həlli.",
+  "en": "cinematic image, film imagery",
+  "pos": "noun"
+ },
+ "kinoveriliş": {
+  "az": "Kino haqqında olan və ya filmlər göstərilən televiziya (radio) verilişi.",
+  "en": "film programme (on TV or radio)",
+  "pos": "noun"
+ },
+ "kinoçəkiliş": {
+  "az": "Filmin kamera ilə lentə alınması; film çəkilişi.",
+  "en": "filming, film shooting",
+  "pos": "noun"
+ },
+ "kinoçəkmə": {
+  "az": "Kinokamera ilə çəkmə, lentə alma.",
+  "en": "filming, shooting a film",
+  "pos": "noun"
+ },
+ "kinoölçü": {
+  "skip": "meaning not certain"
+ },
+ "kinoəsər": {
+  "az": "Kino sənəti əsəri; film.",
+  "en": "film, cinematic work",
+  "pos": "noun"
+ },
+ "kontragentlik": {
+  "skip": "meaning not certain (kontragent + -lik or kontr- + agentlik)"
+ },
+ "kontraksiya": {
+  "az": "Sıxılma, həcmcə kiçilmə (məs., bəzi mayelər qarışdırıldıqda və ya cisim soyuduqda).",
+  "en": "contraction (decrease in volume)",
+  "pos": "noun",
+  "parts": false
+ },
+ "kontrhesab": {
+  "skip": "meaning not certain"
+ },
+ "kontrmina": {
+  "az": "Düşmənin yeraltı minasını (lağımını) dağıtmaq üçün qarşıdan qazılan lağım; əks mina.",
+  "en": "countermine",
+  "pos": "noun"
+ },
+ "kontrpres": {
+  "skip": "meaning not certain"
+ },
+ "kontrqayka": {
+  "az": "Əsas qaykanın açılmaması üçün onun üstündən bərkidilən ikinci qayka.",
+  "en": "locknut, jam nut",
+  "pos": "noun"
+ },
+ "kontrstrategiya": {
+  "az": "Rəqibin strategiyasına qarşı hazırlanan strategiya.",
+  "en": "counter-strategy",
+  "pos": "noun"
+ },
+ "kontrtitul": {
+  "az": "Kitabda titul vərəqinin qarşısındakı (sol) səhifə; adətən seriya adı və ya nəşr məlumatı verilir.",
+  "en": "counter-title page (page facing the title page)",
+  "pos": "noun"
+ },
+ "kontrvariant": {
+  "az": "Təklif olunan varianta qarşı irəli sürülən başqa variant.",
+  "en": "counter-option, alternative version",
+  "pos": "noun"
+ },
+ "kontrşans": {
+  "skip": "meaning not certain"
+ },
+ "kriofobiya": {
+  "az": "Soyuqdan, buzdan patoloji qorxu.",
+  "en": "cryophobia (fear of cold)",
+  "pos": "noun"
+ },
+ "kriomaqnit": {
+  "az": "Çox aşağı temperaturlara qədər soyudularaq işləyən, adətən ifratkeçirici maqnit.",
+  "en": "cryomagnet, cryogenic magnet",
+  "pos": "noun"
+ },
+ "kriomasaj": {
+  "az": "Buz və ya başqa soyuq vasitələrlə aparılan masaj.",
+  "en": "cryomassage, ice massage",
+  "pos": "noun"
+ },
+ "kriotibb": {
+  "az": "Müalicədə və tibbi tədqiqatlarda çox aşağı temperaturlardan istifadə edən tibb sahəsi.",
+  "en": "cryomedicine",
+  "pos": "noun"
+ },
+ "kriotəsir": {
+  "az": "Çox aşağı temperaturun orqanizmə və ya maddəyə təsiri.",
+  "en": "cryogenic effect, exposure to extreme cold",
+  "pos": "noun"
+ },
+ "krioəməliyyat": {
+  "az": "Toxumanı dondurmaqla aparılan cərrahi əməliyyat.",
+  "en": "cryosurgical operation, cryosurgery",
+  "pos": "noun"
+ },
+ "kvazialim": {
+  "az": "Özünü alim kimi təqdim edən, lakin əsl alim olmayan şəxs; yalançı alim.",
+  "en": "pseudo-scientist, would-be scholar",
+  "pos": "noun"
+ },
+ "kvazidemokrat": {
+  "az": "Özünü demokrat kimi göstərən, əslində isə demokratik dəyərlərə bağlı olmayan şəxs.",
+  "en": "pseudo-democrat, sham democrat",
+  "pos": "noun"
+ },
+ "kvazielastik": {
+  "az": "Elastiki qüvvəyə bənzər, yerdəyişmə ilə mütənasib olan (kvazielastik qüvvə).",
+  "en": "quasi-elastic",
+  "pos": "adjective"
+ },
+ "kvazihaker": {
+  "az": "Özünü haker kimi qələmə verən, əslində ciddi bacarığı olmayan şəxs.",
+  "en": "pseudo-hacker, would-be hacker",
+  "pos": "noun"
+ },
+ "kvaziharmonik": {
+  "az": "Harmonik rəqslərə çox yaxın olan (kvaziharmonik rəqslər).",
+  "en": "quasi-harmonic",
+  "pos": "adjective"
+ },
+ "kvaziholoqram": {
+  "az": "Holoqrama bənzəyən, lakin əsl holoqrafiya üsulu ilə alınmayan həcmli təsvir.",
+  "en": "quasi-hologram, pseudo-holographic image",
+  "pos": "noun"
+ },
+ "kvazikorporasiya": {
+  "az": "Hüquqi cəhətdən korporasiya olmasa da, korporasiya kimi fəaliyyət göstərən müəssisə.",
+  "en": "quasi-corporation",
+  "pos": "noun"
+ },
+ "kvazimütəxəssis": {
+  "az": "Özünü mütəxəssis kimi təqdim edən, lakin lazımi bilik və bacarığı olmayan şəxs.",
+  "en": "pseudo-expert, would-be specialist",
+  "pos": "noun"
+ },
+ "kvaziməhkəmə": {
+  "az": "Məhkəmə olmasa da, mübahisələrə baxıb məhkəməyə bənzər qərar çıxaran orqan.",
+  "en": "quasi-judicial body, quasi-court",
+  "pos": "noun"
+ },
+ "kvazioptik": {
+  "az": "Optik qanunlara bənzər şəkildə yayılan, işıq kimi davranan (məs., çox qısa radiodalğalar haqqında).",
+  "en": "quasi-optical",
+  "pos": "adjective"
+ },
+ "kvazioptika": {
+  "az": "Çox qısa radiodalğaların işıq kimi yayılmasını öyrənən və bundan istifadə edən fizika və texnika sahəsi.",
+  "en": "quasi-optics",
+  "pos": "noun"
+ },
+ "kvaziqiymət": {
+  "skip": "meaning not certain"
+ },
+ "kvaziqəhrəman": {
+  "az": "Qəhrəman kimi təqdim edilən, əslində isə qəhrəmanlıq göstərməmiş şəxs; yalançı qəhrəman.",
+  "en": "pseudo-hero, would-be hero",
+  "pos": "noun"
+ },
+ "kvazirəqabət": {
+  "az": "Görünüşdə rəqabət olan, əslində isə real rəqabət xarakteri daşımayan vəziyyət.",
+  "en": "quasi-competition, sham competition",
+  "pos": "noun"
+ },
+ "kvaziyurisdiksiya": {
+  "az": "Məhkəmə olmayan orqanın mübahisələrə baxmaq və onlar üzrə qərar çıxarmaq səlahiyyəti.",
+  "en": "quasi-jurisdiction",
+  "pos": "noun"
+ },
+ "makroaləm": {
+  "az": "Adi ölçülü və böyük cisimlər aləmi; mikroaləmin əksi.",
+  "en": "macroworld, macrocosm",
+  "pos": "noun"
+ },
+ "makroanalitik": {
+  "az": "Makroanalizə aid olan; geniş, ümumiləşdirilmiş miqyasda aparılan təhlilə əsaslanan.",
+  "en": "macroanalytical",
+  "pos": "adjective"
+ },
+ "makroanaliz": {
+  "az": "Kimyada nisbətən böyük nümunələrin analizi; iqtisadiyyatda makrosəviyyədə təhlil.",
+  "en": "macroanalysis",
+  "pos": "noun"
+ },
+ "makroaqreqat": {
+  "az": "İqtisadiyyatı bütövlükdə səciyyələndirən ümumiləşdirilmiş göstərici (ÜDM və s.); torpaqşünaslıqda iri torpaq aqreqatı.",
+  "en": "macroaggregate (aggregate economic indicator; large soil aggregate)",
+  "pos": "noun"
+ },
+ "makroatmosfer": {
+  "skip": "meaning not certain"
+ },
+ "makroavtoqraf": {
+  "skip": "meaning not certain"
+ },
+ "makrobirlik": {
+  "skip": "meaning not certain"
+ },
+ "makroblok": {
+  "skip": "meaning not certain (several technical senses)"
+ },
+ "makrodeformasiya": {
+  "az": "Cismin bütövlükdə, gözlə görünən miqyasda formasının dəyişməsi.",
+  "en": "macrodeformation",
+  "pos": "noun"
+ },
+ "makrodilçilik": {
+  "az": "Dili cəmiyyət, mədəniyyət və təfəkkürlə əlaqədə geniş planda öyrənən dilçilik sahəsi.",
+  "en": "macrolinguistics",
+  "pos": "noun"
+ },
+ "makrodövrə": {
+  "skip": "meaning not certain"
+ },
+ "makroetnonim": {
+  "az": "Bir neçə qohum xalqı və ya etnik qrupu birlikdə bildirən ümumi ad (məs.: türklər, slavyanlar).",
+  "en": "macroethnonym",
+  "pos": "noun"
+ },
+ "makrofauna": {
+  "az": "Çılpaq gözlə görünən iri heyvanlar qrupu (xüsusən torpaqda və su hövzələrində yaşayanlar).",
+  "en": "macrofauna",
+  "pos": "noun"
+ },
+ "makrofonem": {
+  "skip": "meaning not certain"
+ },
+ "makroforma": {
+  "az": "Böyük ölçülü forma; relyefin iri formaları (dağ silsilələri, düzənliklər və s.).",
+  "en": "macroform (large landform)",
+  "pos": "noun"
+ },
+ "makrofotoqrafiya": {
+  "az": "Kiçik obyektlərin çox yaxından, böyüdülmüş şəkildə fotoya çəkilməsi.",
+  "en": "macrophotography, macro photography",
+  "pos": "noun"
+ },
+ "makrogenerasiya": {
+  "skip": "meaning not certain"
+ },
+ "makrogenişlənmə": {
+  "skip": "meaning not certain"
+ },
+ "makrogöstərici": {
+  "az": "İqtisadiyyatı bütövlükdə səciyyələndirən göstərici (ÜDM, inflyasiya və s.).",
+  "en": "macroeconomic indicator",
+  "pos": "noun"
+ },
+ "makrohidronim": {
+  "az": "Böyük su obyektinin (iri çay, göl, dəniz) xüsusi adı.",
+  "en": "macrohydronym (name of a large body of water)",
+  "pos": "noun"
+ },
+ "makrohəndəsə": {
+  "az": "Detal səthinin ümumi forması və onun nəzərdə tutulan formadan kənarlaşmaları.",
+  "en": "macrogeometry (of a surface)",
+  "pos": "noun"
+ },
+ "makrokinetik": {
+  "az": "Makrokinetikaya aid olan; kütlə və istilik ötürülməsi nəzərə alınmaqla reaksiya sürətinə aid olan.",
+  "en": "macrokinetic",
+  "pos": "adjective"
+ },
+ "makrokinetika": {
+  "az": "Kimyəvi reaksiyaların sürətini kütlə və istilik ötürülməsi prosesləri ilə birlikdə öyrənən kinetika sahəsi.",
+  "en": "macrokinetics",
+  "pos": "noun"
+ },
+ "makroklimatologiya": {
+  "az": "Böyük ərazilərin, qitələrin və bütövlükdə planetin iqlimini öyrənən klimatologiya sahəsi.",
+  "en": "macroclimatology",
+  "pos": "noun"
+ },
+ "makrokomanda": {
+  "az": "Bir neçə əmri birləşdirib bir əmr kimi icra edən proqram əmri; makros.",
+  "en": "macro command, macro",
+  "pos": "noun",
+  "parts": false
+ },
+ "makrokomponent": {
+  "az": "Maddənin və ya sistemin tərkibində çox miqdarda olan əsas komponent.",
+  "en": "macrocomponent, major component",
+  "pos": "noun"
+ },
+ "makrokosmos": {
+  "az": "Bütövlükdə kainat, dünya (insanı bildirən mikrokosmosdan fərqli olaraq).",
+  "en": "macrocosm",
+  "pos": "noun"
+ },
+ "makrokristal": {
+  "az": "Çılpaq gözlə görünən iri kristal.",
+  "en": "macrocrystal",
+  "pos": "noun"
+ },
+ "makrolandşaft": {
+  "az": "Geniş ərazini əhatə edən iri landşaft vahidi.",
+  "en": "macrolandscape",
+  "pos": "noun"
+ },
+ "makrolinqvistika": {
+  "az": "Dili cəmiyyət, mədəniyyət və təfəkkürlə bağlılıqda öyrənən dilçilik sahəsi; makrodilçilik.",
+  "en": "macrolinguistics",
+  "pos": "noun"
+ },
+ "makromarket": {
+  "skip": "meaning not certain"
+ },
+ "makromedia": {
+  "skip": "meaning not certain"
+ },
+ "makrometeoroloji": {
+  "az": "Atmosferdə geniş miqyaslı proseslərə aid olan (makrometeoroloji proseslər).",
+  "en": "macrometeorological",
+  "pos": "adjective"
+ },
+ "makromexanika": {
+  "az": "Cisimlərin və materialların makroskopik səviyyədə mexaniki davranışını öyrənən sahə.",
+  "en": "macromechanics",
+  "pos": "noun"
+ },
+ "makromexaniki": {
+  "az": "Makromexanikaya aid olan; materialların makroskopik səviyyədəki mexaniki xassələrinə aid olan.",
+  "en": "macromechanical",
+  "pos": "adjective"
+ },
+ "makromikroskop": {
+  "skip": "meaning not certain"
+ },
+ "makromikroskopik": {
+  "skip": "meaning not certain"
+ },
+ "makromiqyas": {
+  "az": "Böyük, geniş miqyas; sistemin bütövlükdə götürüldüyü səviyyə.",
+  "en": "macroscale, large scale",
+  "pos": "noun"
+ },
+ "makromodel": {
+  "az": "Bir sistemi, xüsusən iqtisadiyyatı bütövlükdə ümumiləşdirilmiş şəkildə təsvir edən model.",
+  "en": "macromodel",
+  "pos": "noun"
+ },
+ "makromorfem": {
+  "skip": "meaning not certain"
+ },
+ "makromorfologiya": {
+  "az": "Orqanizmlərin, torpaqların və s. çılpaq gözlə görünən quruluşunu öyrənən sahə.",
+  "en": "macromorphology",
+  "pos": "noun"
+ },
+ "makromühit": {
+  "az": "Ümumi, geniş miqyaslı mühit; təşkilata təsir edən iqtisadi, siyasi, sosial və başqa xarici amillər.",
+  "en": "macroenvironment",
+  "pos": "noun"
+ },
+ "makromətn": {
+  "az": "Bir neçə mətndən təşkil olunan və ya bütöv əsəri əhatə edən iri mətn vahidi.",
+  "en": "macrotext",
+  "pos": "noun"
+ },
+ "makroobyekt": {
+  "az": "Makroskopik ölçülü, adi gözlə görünən obyekt (mikroobyektlərdən fərqli olaraq).",
+  "en": "macroscopic object, macro-object",
+  "pos": "noun"
+ },
+ "makrooperator": {
+  "skip": "meaning not certain"
+ },
+ "makrooronim": {
+  "az": "İri relyef obyektinin, məs., böyük dağ silsiləsinin xüsusi adı.",
+  "en": "macro-oronym (name of a large relief feature)",
+  "pos": "noun"
+ },
+ "makrooykonim": {
+  "az": "Böyük yaşayış məntəqəsinin, xüsusən şəhərin xüsusi adı.",
+  "en": "macro-oikonym (name of a large settlement)",
+  "pos": "noun"
+ },
+ "makroplankton": {
+  "az": "Planktonun çılpaq gözlə asanlıqla görünən iri orqanizmləri (meduzalar, bəzi xərçəngkimilər və s.).",
+  "en": "macroplankton",
+  "pos": "noun"
+ },
+ "makroproqram": {
+  "skip": "meaning not certain (computing macro or large-scale programme)"
+ },
+ "makroproyekt": {
+  "az": "Geniş miqyaslı, böyük layihə.",
+  "en": "large-scale project, macro-project",
+  "pos": "noun"
+ },
+ "makroqametofit": {
+  "az": "Bitkilərdə makrosporadan inkişaf edən dişi qametofit.",
+  "en": "megagametophyte, female gametophyte",
+  "pos": "noun"
+ },
+ "makroquruluş": {
+  "az": "Çılpaq gözlə və ya kiçik böyütmə ilə görünən quruluş; bütövün ümumi quruluşu.",
+  "en": "macrostructure",
+  "pos": "noun"
+ },
+ "makroradioqrafiya": {
+  "skip": "meaning not certain"
+ },
+ "makrorayon": {
+  "az": "Bir neçə inzibati rayonu və ya vilayəti birləşdirən iri iqtisadi rayon.",
+  "en": "large economic region, macro-district",
+  "pos": "noun"
+ },
+ "makroregion": {
+  "az": "Bir neçə ölkəni və ya ölkə daxilində bir neçə bölgəni birləşdirən geniş region.",
+  "en": "macroregion",
+  "pos": "noun"
+ },
+ "makroseqment": {
+  "skip": "meaning not certain"
+ },
+ "makrosintaksis": {
+  "az": "Cümlədən böyük vahidlərin, mürəkkəb sintaktik bütövlərin və mətnin quruluşunu öyrənən sintaksis bölməsi.",
+  "en": "macrosyntax",
+  "pos": "noun"
+ },
+ "makrosistem": {
+  "az": "Bir neçə sistemi əhatə edən böyük, mürəkkəb sistem.",
+  "en": "macrosystem",
+  "pos": "noun"
+ },
+ "makrostruktur": {
+  "az": "Çılpaq gözlə və ya kiçik böyütmə ilə görünən quruluş; ümumi struktur.",
+  "en": "macrostructure",
+  "pos": "noun"
+ },
+ "makrotexnologiya": {
+  "skip": "meaning not certain"
+ },
+ "makrotiraj": {
+  "skip": "meaning not certain"
+ }
+}

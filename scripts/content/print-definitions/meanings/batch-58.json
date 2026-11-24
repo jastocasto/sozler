@@ -1,0 +1,870 @@
+{
+ "aeromaqnit": {
+  "az": "Təyyarə və ya başqa uçan aparatdan aparılan maqnit ölçmələrinə aid olan (aeromaqnit planalma).",
+  "en": "aeromagnetic",
+  "pos": "adjective"
+ },
+ "aeromayak": {
+  "az": "Təyyarələrə istiqamət göstərmək üçün işıq və ya radio siqnalları verən mayak.",
+  "en": "aeronautical beacon, air beacon",
+  "pos": "noun"
+ },
+ "aerometrik": {
+  "az": "Hava və qaz axınlarının xassələrinin ölçülməsinə aid olan (aerometrik cihazlar).",
+  "en": "aerometric",
+  "pos": "adjective"
+ },
+ "aeromexanik": {
+  "skip": "specialist in aeromechanics or aircraft mechanic, not certain"
+ },
+ "aeromexanika": {
+  "az": "Hava və qazların hərəkətini, tarazlığını və onların içində hərəkət edən cisimlərə təsirini öyrənən elm.",
+  "en": "aeromechanics",
+  "pos": "noun"
+ },
+ "aeromexaniki": {
+  "az": "Aeromexanikaya aid olan.",
+  "en": "aeromechanical",
+  "pos": "adjective"
+ },
+ "aeropoçt": {
+  "az": "Məktub və bağlamaların təyyarə ilə daşınması; hava poçtu.",
+  "en": "airmail",
+  "pos": "noun"
+ },
+ "aeroqliserin": {
+  "skip": "meaning not certain"
+ },
+ "aeroqraf": {
+  "az": "Boyanı sıxılmış hava ilə püskürdən, rəsm və retuş üçün işlədilən alət.",
+  "en": "airbrush",
+  "pos": "noun",
+  "parts": false
+ },
+ "aerosalon": {
+  "az": "Təyyarələrin və aviasiya texnikasının nümayiş olunduğu sərgi; aviasalon.",
+  "en": "air show, aerospace exhibition",
+  "pos": "noun"
+ },
+ "aerosinoptika": {
+  "az": "Atmosferin yuxarı qatlarına dair məlumatlar əsasında hava şəraitini təhlil edən sinoptika sahəsi.",
+  "en": "aerosynoptics (upper-air synoptic analysis)",
+  "pos": "noun"
+ },
+ "aerosolyari": {
+  "az": "Hava və günəş vannaları qəbul etmək üçün təchiz olunmuş meydança.",
+  "en": "aerosolarium (area for air and sun baths)",
+  "pos": "noun"
+ },
+ "aerosüzgəc": {
+  "az": "Havanı toz və başqa hissəciklərdən təmizləyən süzgəc.",
+  "en": "air filter",
+  "pos": "noun"
+ },
+ "aerotank": {
+  "az": "Çirkab sularının hava verilməklə bioloji təmizləndiyi qurğu.",
+  "en": "aeration tank (aerotank)",
+  "pos": "noun"
+ },
+ "aerotaxometr": {
+  "az": "Təyyarə mühərrikinin valının dövrlər sayını ölçən cihaz.",
+  "en": "aircraft tachometer",
+  "pos": "noun"
+ },
+ "aeroterapevtik": {
+  "az": "Təmiz hava ilə müalicəyə, aeroterapiyaya aid olan.",
+  "en": "aerotherapeutic",
+  "pos": "adjective"
+ },
+ "aeroşəkil": {
+  "az": "Yer səthinin təyyarədən və ya başqa uçan aparatdan çəkilmiş fotoşəkli.",
+  "en": "aerial photograph",
+  "pos": "noun"
+ },
+ "antiasketizm": {
+  "az": "Asketizmi, həyat nemətlərindən imtinanı rədd edən baxış.",
+  "en": "anti-asceticism",
+  "pos": "noun"
+ },
+ "antidarvinizm": {
+  "az": "Darvinin təkamül nəzəriyyəsini inkar edən baxışlar.",
+  "en": "anti-Darwinism",
+  "pos": "noun"
+ },
+ "antidemokratizm": {
+  "az": "Demokratiya prinsiplərinə zidd olan baxış və siyasət.",
+  "en": "anti-democratism",
+  "pos": "noun"
+ },
+ "antidialektik": {
+  "az": "Dialektikaya zidd olan, dialektik üsulu rədd edən.",
+  "en": "anti-dialectical",
+  "pos": "adjective"
+ },
+ "antiferment": {
+  "az": "Fermentlərin fəaliyyətini zəiflədən və ya dayandıran maddə.",
+  "en": "antienzyme, enzyme inhibitor",
+  "pos": "noun"
+ },
+ "antihidrat": {
+  "skip": "meaning not certain"
+ },
+ "antihumanizm": {
+  "az": "İnsanın dəyərini və humanizm ideyalarını inkar edən baxış.",
+  "en": "antihumanism",
+  "pos": "noun"
+ },
+ "antihəqiqət": {
+  "skip": "meaning not certain"
+ },
+ "antiinhisarçı": {
+  "az": "İnhisarçılığa qarşı yönəlmiş (antiinhisarçı tədbirlər).",
+  "en": "anti-monopoly, antitrust",
+  "pos": "adjective"
+ },
+ "antiinhisarçılıq": {
+  "az": "İnhisarçılığın qarşısını almağa, rəqabəti qorumağa yönəlmiş siyasət və fəaliyyət.",
+  "en": "anti-monopoly policy, antitrust",
+  "pos": "noun"
+ },
+ "antiiqtidar": {
+  "az": "Hakimiyyətdə olan qüvvələrə qarşı yönəlmiş (antiiqtidar aksiyası).",
+  "en": "anti-government (opposed to the ruling power)",
+  "pos": "adjective"
+ },
+ "antikariyes": {
+  "az": "Dişlərin çürüməsinin qarşısını alan (antikariyes diş pastası).",
+  "en": "anticaries, anti-cavity",
+  "pos": "adjective"
+ },
+ "antiloqarifm": {
+  "az": "Loqarifmi verilmiş ədədə bərabər olan ədəd.",
+  "en": "antilogarithm",
+  "pos": "noun"
+ },
+ "antimaqnit": {
+  "az": "Maqnit sahəsinin təsirinə məruz qalmayan, maqnitlənməyən (antimaqnit saat).",
+  "en": "antimagnetic",
+  "pos": "adjective"
+ },
+ "antimistik": {
+  "az": "Mistikaya qarşı olan, mistik baxışları rədd edən.",
+  "en": "antimystical",
+  "pos": "adjective"
+ },
+ "antimütləqiyyət": {
+  "az": "Mütləqiyyətə, monarxın qeyri-məhdud hakimiyyətinə qarşı mübarizə və baxış.",
+  "en": "anti-absolutism",
+  "pos": "noun"
+ },
+ "antimüxalifət": {
+  "az": "Müxalifətə qarşı yönəlmiş (antimüxalifət kampaniyası).",
+  "en": "anti-opposition",
+  "pos": "adjective"
+ },
+ "antipassat": {
+  "az": "Atmosferin yuxarı qatlarında passatların əksinə əsən külək.",
+  "en": "anti-trade wind",
+  "pos": "noun"
+ },
+ "antiproletar": {
+  "az": "Proletariata, onun mənafeyinə qarşı yönəlmiş.",
+  "en": "anti-proletarian",
+  "pos": "adjective"
+ },
+ "antiraket": {
+  "az": "Düşmən raketlərini vurmaq üçün nəzərdə tutulan (antiraket müdafiəsi); belə raket.",
+  "en": "anti-missile; antimissile missile",
+  "pos": "adjective"
+ },
+ "antiregionçuluq": {
+  "az": "Regionçuluğa, yerlibazlığa qarşı mübarizə və baxış.",
+  "en": "opposition to regionalism (regional favouritism)",
+  "pos": "noun"
+ },
+ "antireklam": {
+  "az": "Bir məhsulun, şəxsin və ya təşkilatın nüfuzuna zərər vuran mənfi məlumat; mənfi reklam.",
+  "en": "negative publicity, anti-advertising",
+  "pos": "noun"
+ },
+ "antirevmatik": {
+  "az": "Revmatizmə qarşı işlədilən (antirevmatik dərmanlar).",
+  "en": "antirheumatic",
+  "pos": "adjective"
+ },
+ "antisosializm": {
+  "az": "Sosializmə qarşı çıxan baxış və siyasət.",
+  "en": "anti-socialism",
+  "pos": "noun"
+ },
+ "antisənət": {
+  "az": "Ənənəvi sənət anlayışlarını və normalarını inkar edən bədii cərəyan.",
+  "en": "anti-art",
+  "pos": "noun"
+ },
+ "antivibrator": {
+  "az": "Maşın və qurğularda titrəyişi azaldan və ya söndürən qurğu.",
+  "en": "vibration damper",
+  "pos": "noun"
+ },
+ "astrobotanik": {
+  "az": "Astrobotanika ilə məşğul olan alim.",
+  "en": "astrobotanist",
+  "pos": "noun"
+ },
+ "astrobotanika": {
+  "az": "Başqa planetlərdə bitki həyatının mümkünlüyünü öyrənən elm sahəsi.",
+  "en": "astrobotany",
+  "pos": "noun"
+ },
+ "astrodinamik": {
+  "az": "Kosmik aparatların və göy cisimlərinin orbital hərəkətinə, astrodinamikaya aid olan.",
+  "en": "astrodynamic",
+  "pos": "adjective"
+ },
+ "astroekologiya": {
+  "skip": "meaning not certain"
+ },
+ "astrofotoqrafik": {
+  "az": "Göy cisimlərinin fotoşəkillə çəkilməsinə aid olan.",
+  "en": "astrophotographic",
+  "pos": "adjective"
+ },
+ "astrogeologiya": {
+  "az": "Ay, planetlər və başqa göy cisimlərinin geoloji quruluşunu öyrənən elm.",
+  "en": "astrogeology, planetary geology",
+  "pos": "noun"
+ },
+ "astrogeoloji": {
+  "az": "Astrogeologiyaya aid olan.",
+  "en": "astrogeological",
+  "pos": "adjective"
+ },
+ "astrogeoloq": {
+  "az": "Astrogeologiya üzrə mütəxəssis.",
+  "en": "astrogeologist",
+  "pos": "noun"
+ },
+ "astrokimyaçı": {
+  "az": "Kosmosdakı kimyəvi maddələri və prosesləri öyrənən mütəxəssis.",
+  "en": "astrochemist",
+  "pos": "noun"
+ },
+ "astrokolorimetriya": {
+  "az": "Ulduzların və başqa göy cisimlərinin rənginin ölçülməsi üsulları.",
+  "en": "astrocolorimetry",
+  "pos": "noun"
+ },
+ "astrokompas": {
+  "az": "İstiqaməti Günəşə, ulduzlara və ya başqa göy cisimlərinə görə müəyyən edən cihaz.",
+  "en": "astrocompass",
+  "pos": "noun"
+ },
+ "astrokorrektor": {
+  "az": "Naviqasiya sistemində ulduzların müşahidəsi əsasında kursu düzəldən cihaz.",
+  "en": "astrocorrector (star-tracking navigation device)",
+  "pos": "noun",
+  "parts": false
+ },
+ "astromexanik": {
+  "skip": "meaning not certain"
+ },
+ "astromexaniki": {
+  "skip": "meaning not certain"
+ },
+ "astronaviqasiya": {
+  "az": "Göy cisimlərinin müşahidəsi əsasında yeri və istiqaməti müəyyən etmə.",
+  "en": "celestial navigation, astronavigation",
+  "pos": "noun"
+ },
+ "astrooriyentasiya": {
+  "az": "Göy cisimlərinə görə istiqaməti və ya mövqeyi müəyyən etmə.",
+  "en": "celestial orientation",
+  "pos": "noun"
+ },
+ "astroperiskop": {
+  "skip": "meaning not certain"
+ },
+ "astroqrafik": {
+  "az": "Göy cisimlərinin astroqrafla fotoşəkillə çəkilməsinə aid olan (astroqrafik kataloq).",
+  "en": "astrographic",
+  "pos": "adjective"
+ },
+ "astrotoponimiya": {
+  "skip": "meaning not certain"
+ },
+ "avtoalov": {
+  "skip": "meaning not certain"
+ },
+ "avtoaptek": {
+  "skip": "car first-aid kit or mobile pharmacy, not certain"
+ },
+ "avtoaqreqat": {
+  "skip": "meaning not certain"
+ },
+ "avtoatlas": {
+  "az": "Avtomobil yollarının xəritələrindən ibarət atlas.",
+  "en": "road atlas",
+  "pos": "noun"
+ },
+ "avtobalanslaşdırma": {
+  "az": "Qurğunun və ya sistemin avtomatik olaraq tarazlaşdırılması.",
+  "en": "automatic balancing, self-balancing",
+  "pos": "noun"
+ },
+ "avtobalanslaşdırmaq": {
+  "az": "Avtomatik olaraq tarazlaşdırmaq, balans halına salmaq.",
+  "en": "to balance automatically, to self-balance",
+  "pos": "verb"
+ },
+ "avtobatalyon": {
+  "az": "Avtomobil nəqliyyatı ilə təchiz olunmuş hərbi batalyon.",
+  "en": "motor transport battalion",
+  "pos": "noun"
+ },
+ "avtobenzinli": {
+  "skip": "meaning not certain"
+ },
+ "avtobioqraf": {
+  "az": "Öz həyatını, tərcümeyi-halını yazan müəllif.",
+  "en": "autobiographer",
+  "pos": "noun"
+ },
+ "avtobufet": {
+  "skip": "meaning not certain"
+ },
+ "avtocavab": {
+  "az": "Gələn məktuba və ya mesaja avtomatik göndərilən cavab.",
+  "en": "auto-reply, automatic reply",
+  "pos": "noun"
+ },
+ "avtodartıcı": {
+  "az": "Qoşqu və yarımqoşquları dartmaq üçün işlədilən yük avtomobili.",
+  "en": "truck tractor, tractor unit",
+  "pos": "noun"
+ },
+ "avtodayanma": {
+  "skip": "meaning not certain"
+ },
+ "avtodiler": {
+  "az": "Avtomobil satışı ilə məşğul olan vasitəçi şirkət və ya şəxs.",
+  "en": "car dealer",
+  "pos": "noun"
+ },
+ "avtodispetçer": {
+  "skip": "motor transport dispatcher or automatic dispatcher, not certain"
+ },
+ "avtodrezin": {
+  "az": "Dəmir yolunda işlədilən mühərrikli drezin.",
+  "en": "motor draisine, motor rail trolley",
+  "pos": "noun"
+ },
+ "avtoduracaq": {
+  "skip": "bus stop or car park, not certain"
+ },
+ "avtodüşərgə": {
+  "az": "Avtomobillə səyahət edən turistlər üçün düşərgə.",
+  "en": "motor camp, campsite for motorists",
+  "pos": "noun"
+ },
+ "avtodərnək": {
+  "skip": "meaning not certain"
+ },
+ "avtoehtiyat": {
+  "skip": "meaning not certain"
+ },
+ "avtoekskursiya": {
+  "az": "Avtobus və ya avtomobillə edilən ekskursiya.",
+  "en": "coach tour, sightseeing tour by bus or car",
+  "pos": "noun"
+ },
+ "avtoekspedisiya": {
+  "az": "Avtomobillərlə həyata keçirilən ekspedisiya.",
+  "en": "motor expedition",
+  "pos": "noun"
+ },
+ "avtoeksport": {
+  "az": "Avtomobillərin xaricə ixracı.",
+  "en": "car exports",
+  "pos": "noun"
+ },
+ "avtoekspres": {
+  "az": "Az dayanmaqla uzaq məsafəyə sürətlə gedən avtobus.",
+  "en": "express bus, express coach",
+  "pos": "noun"
+ },
+ "avtoelektrik": {
+  "az": "Avtomobillərin elektrik avadanlığını təmir edən usta; avtomobilin elektrik sistemi.",
+  "en": "auto electrician; car electrics",
+  "pos": "noun"
+ },
+ "avtofaks": {
+  "skip": "meaning not certain"
+ },
+ "avtogenerator": {
+  "skip": "car alternator or self-excited oscillator, not certain"
+ },
+ "avtokamera": {
+  "skip": "tyre inner tube or car camera, not certain"
+ },
+ "avtokarvan": {
+  "az": "Bir-birinin ardınca hərəkət edən avtomobillər dəstəsi.",
+  "en": "motor convoy, column of vehicles",
+  "pos": "noun"
+ },
+ "avtokassa": {
+  "skip": "meaning not certain"
+ },
+ "avtokeçid": {
+  "skip": "meaning not certain"
+ },
+ "avtokinoteatr": {
+  "az": "Tamaşaçıların filmə avtomobildə oturaraq baxdığı açıq kinoteatr.",
+  "en": "drive-in cinema",
+  "pos": "noun"
+ },
+ "avtoklinika": {
+  "az": "Avtomobillərin texniki müayinəsi və təmiri ilə məşğul olan servis.",
+  "en": "car repair centre, car service",
+  "pos": "noun"
+ },
+ "avtokoloniya": {
+  "skip": "meaning not certain"
+ },
+ "avtokombinat": {
+  "az": "Avtomobil nəqliyyatı, təmir və xidmət bölmələrini birləşdirən böyük müəssisə.",
+  "en": "motor transport complex (large trucking enterprise)",
+  "pos": "noun"
+ },
+ "avtokorrektor": {
+  "skip": "automatic corrector device or autocorrect, not certain"
+ },
+ "avtokros": {
+  "az": "Kələ-kötür yolda və ya yolsuz ərazidə keçirilən avtomobil yarışı.",
+  "en": "autocross",
+  "pos": "noun"
+ },
+ "avtolaboratoriya": {
+  "az": "Avtomobildə yerləşdirilmiş səyyar laboratoriya.",
+  "en": "mobile laboratory (vehicle-mounted)",
+  "pos": "noun"
+ },
+ "avtolizinq": {
+  "az": "Avtomobilin müəyyən müddətə ödənişlə istifadəyə verilməsi; avtomobil lizinqi.",
+  "en": "car leasing",
+  "pos": "noun"
+ },
+ "avtolüminessensiya": {
+  "skip": "meaning not certain"
+ },
+ "avtomasaj": {
+  "skip": "self-massage or car seat massage, not certain"
+ },
+ "avtomenyu": {
+  "skip": "meaning not certain"
+ },
+ "avtomexaniklik": {
+  "az": "Avtomobil mexanikinin peşəsi.",
+  "en": "the trade of a car mechanic",
+  "pos": "noun"
+ },
+ "avtomexanizə": {
+  "skip": "meaning not certain"
+ },
+ "avtomodelçi": {
+  "az": "Avtomobil modelləri düzəldən həvəskar və ya idmançı.",
+  "en": "model car builder",
+  "pos": "noun"
+ },
+ "avtomodelçilik": {
+  "az": "Avtomobil modellərinin hazırlanması ilə məşğul olan texniki idman və həvəskarlıq növü.",
+  "en": "car modelling (model car building)",
+  "pos": "noun"
+ },
+ "avtomodulyasiya": {
+  "skip": "meaning not certain"
+ },
+ "avtomotodrom": {
+  "az": "Avtomobil və motosiklet yarışları keçirilən meydança.",
+  "en": "motor-racing circuit (for cars and motorcycles)",
+  "pos": "noun"
+ },
+ "avtomotor": {
+  "skip": "meaning not certain"
+ },
+ "avtomutagen": {
+  "az": "Orqanizmin özündə əmələ gələn və mutasiya törədən maddə.",
+  "en": "automutagen",
+  "pos": "noun"
+ },
+ "avtonəhəng": {
+  "skip": "meaning not certain"
+ },
+ "avtooperator": {
+  "skip": "meaning not certain"
+ },
+ "avtopatrul": {
+  "az": "Avtomobillə aparılan patrul xidməti; belə xidmət aparan dəstə.",
+  "en": "motor patrol, patrol car",
+  "pos": "noun"
+ },
+ "avtopavilyon": {
+  "skip": "meaning not certain"
+ },
+ "avtoplastika": {
+  "az": "Xəstənin öz toxumasından istifadə edərək aparılan bərpa əməliyyatı.",
+  "en": "autoplasty",
+  "pos": "noun"
+ },
+ "avtoplatforma": {
+  "skip": "meaning not certain"
+ },
+ "avtopnevmatik": {
+  "skip": "meaning not certain"
+ },
+ "avtopoliqon": {
+  "az": "Avtomobillərin sınağı və ya sürücülük təlimi üçün ayrılmış meydança.",
+  "en": "vehicle test track; driving practice ground",
+  "pos": "noun"
+ },
+ "avtopotensial": {
+  "skip": "meaning not certain"
+ },
+ "avtoprofilaktika": {
+  "skip": "meaning not certain"
+ },
+ "avtoprofilaktoriya": {
+  "skip": "meaning not certain"
+ },
+ "avtoqapan": {
+  "az": "Yüklü avtomobilləri çəkmək üçün böyük tərəzi.",
+  "en": "weighbridge, truck scale",
+  "pos": "noun"
+ },
+ "avtoqoşqu": {
+  "az": "Avtomobilə qoşularaq dartılan qoşqu.",
+  "en": "car trailer",
+  "pos": "noun"
+ },
+ "avtoqoşucu": {
+  "skip": "automatic coupler or its operator, not certain"
+ },
+ "avtoqravüra": {
+  "skip": "meaning not certain"
+ },
+ "avtoqreyder": {
+  "az": "Yol tikintisində torpağı hamarlayan özüyeriyən maşın.",
+  "en": "motor grader",
+  "pos": "noun"
+ },
+ "avtoqreyderçi": {
+  "az": "Avtoqreyderi idarə edən işçi.",
+  "en": "motor grader operator",
+  "pos": "noun"
+ },
+ "avtoradioqrafiya": {
+  "az": "Nümunədəki radioaktiv maddələrin paylanmasını onların öz şüalanması ilə fotoplyonkada əks etdirmə üsulu.",
+  "en": "autoradiography",
+  "pos": "noun"
+ },
+ "avtoradioqram": {
+  "az": "Avtoradioqrafiya üsulu ilə alınmış təsvir.",
+  "en": "autoradiogram, autoradiograph",
+  "pos": "noun",
+  "parts": false
+ },
+ "avtorefrijerator": {
+  "az": "Tez xarab olan yükləri daşımaq üçün soyuducu qurğusu olan yük avtomobili.",
+  "en": "refrigerated truck",
+  "pos": "noun"
+ },
+ "avtorentgen": {
+  "skip": "meaning not certain"
+ },
+ "avtosanitar": {
+  "skip": "meaning not certain"
+ },
+ "avtosemantik": {
+  "az": "Müstəqil leksik mənası olan (avtosemantik sözlər).",
+  "en": "autosemantic",
+  "pos": "adjective"
+ },
+ "avtosintetik": {
+  "skip": "meaning not certain"
+ },
+ "avtosintez": {
+  "skip": "meaning not certain"
+ },
+ "avtosinxron": {
+  "skip": "meaning not certain"
+ },
+ "avtosinxronlaşma": {
+  "az": "Sistem və ya cihazların özbaşına, avtomatik olaraq sinxron hala gəlməsi.",
+  "en": "self-synchronization, automatic synchronization",
+  "pos": "noun"
+ },
+ "avtosinxronlaşmaq": {
+  "az": "Özbaşına, avtomatik olaraq sinxron hala gəlmək.",
+  "en": "to self-synchronize, to synchronize automatically",
+  "pos": "verb"
+ },
+ "avtostart": {
+  "az": "Avtomobil mühərrikinin avtomatik və ya uzaqdan işə salınması; belə sistem.",
+  "en": "auto start, remote engine start",
+  "pos": "noun"
+ },
+ "avtosükan": {
+  "skip": "meaning not certain"
+ },
+ "avtotexnik": {
+  "az": "Avtomobillərə texniki xidmət göstərən və onları təmir edən mütəxəssis.",
+  "en": "automotive technician",
+  "pos": "noun"
+ },
+ "avtotexniki": {
+  "az": "Avtomobillərin texniki vəziyyətinə aid olan (avtotexniki ekspertiza).",
+  "en": "automotive technical (e.g. vehicle technical examination)",
+  "pos": "adjective"
+ },
+ "avtotrest": {
+  "az": "Avtomobil nəqliyyatı müəssisələrini birləşdirən idarə.",
+  "en": "motor transport trust",
+  "pos": "noun"
+ },
+ "avtotullanış": {
+  "skip": "meaning not certain"
+ },
+ "avtotənzimləmə": {
+  "az": "Prosesin və ya sistemin avtomatik olaraq, özbaşına tənzimlənməsi.",
+  "en": "automatic regulation, self-regulation",
+  "pos": "noun"
+ },
+ "avtotənzimləyici": {
+  "az": "Prosesin gedişini avtomatik tənzimləyən qurğu.",
+  "en": "automatic regulator",
+  "pos": "noun"
+ },
+ "avtotərcümə": {
+  "skip": "machine translation or self-translation, not certain"
+ },
+ "avtotərəzi": {
+  "az": "Yüklü avtomobilləri çəkmək üçün böyük tərəzi.",
+  "en": "truck scale, weighbridge",
+  "pos": "noun"
+ },
+ "avtotəsərrüfat": {
+  "az": "Avtomobil parkına xidmət edən və onu idarə edən müəssisə; avtobaza.",
+  "en": "motor transport depot, vehicle fleet enterprise",
+  "pos": "noun"
+ },
+ "avtovaqon": {
+  "skip": "meaning not certain"
+ },
+ "avtoyuyucu": {
+  "skip": "car wash, car washer or car shampoo, not certain"
+ },
+ "avtoyükləmə": {
+  "az": "Yükün, sursatın və ya kompüter proqramının avtomatik yüklənməsi.",
+  "en": "automatic loading; autoload",
+  "pos": "noun"
+ },
+ "avtoyüklənmə": {
+  "az": "Avtomatik olaraq yüklənmə (proqram, səhifə və s.).",
+  "en": "automatic loading, autoloading",
+  "pos": "noun"
+ },
+ "avtoyürüş": {
+  "az": "Avtomobillərlə uzun məsafəyə təşkil olunan yürüş.",
+  "en": "motor rally, long-distance car run",
+  "pos": "noun"
+ },
+ "avtoyığma": {
+  "skip": "meaning not certain"
+ },
+ "avtoşəhərcik": {
+  "skip": "meaning not certain"
+ },
+ "bioastronavtika": {
+  "az": "Kosmik uçuşların canlı orqanizmlərə təsirini öyrənən elm sahəsi.",
+  "en": "bioastronautics",
+  "pos": "noun"
+ },
+ "biobiblioqrafiya": {
+  "az": "Müəlliflərin əsərlərinin siyahısı ilə yanaşı onların tərcümeyi-halını da verən biblioqrafiya.",
+  "en": "biobibliography",
+  "pos": "noun"
+ },
+ "biodinamika": {
+  "az": "Canlı orqanizmlərin hərəkətini və ona təsir edən qüvvələri öyrənən sahə.",
+  "en": "biodynamics",
+  "pos": "noun"
+ },
+ "biodinamizm": {
+  "skip": "meaning not certain"
+ },
+ "biodozimetr": {
+  "skip": "meaning not certain"
+ },
+ "bioekoloq": {
+  "az": "Bioekologiya üzrə mütəxəssis.",
+  "en": "bioecologist",
+  "pos": "noun"
+ },
+ "biofabrik": {
+  "az": "Bioloji preparatlar (məs., zərərvericilərə qarşı faydalı həşəratlar) istehsal edən müəssisə.",
+  "en": "biofactory (producing biological preparations)",
+  "pos": "noun"
+ },
+ "biofenologiya": {
+  "skip": "meaning not certain"
+ },
+ "bioformasiya": {
+  "skip": "meaning not certain"
+ },
+ "biogenetika": {
+  "az": "Canlı orqanizmlərin irsiyyətini və dəyişkənliyini öyrənən elm.",
+  "en": "biogenetics",
+  "pos": "noun"
+ },
+ "biohidroakustika": {
+  "az": "Su canlılarının çıxardığı səsləri və onların suda yayılmasını öyrənən sahə.",
+  "en": "biohydroacoustics",
+  "pos": "noun"
+ },
+ "biohərəkət": {
+  "skip": "meaning not certain"
+ },
+ "bioidarə": {
+  "skip": "meaning not certain"
+ },
+ "bioidarəedici": {
+  "skip": "meaning not certain"
+ },
+ "bioinformasiya": {
+  "skip": "meaning not certain"
+ },
+ "biokamera": {
+  "skip": "meaning not certain"
+ },
+ "biokatalizator": {
+  "az": "Canlı orqanizmlərdə kimyəvi reaksiyaları sürətləndirən maddə (ferment və s.).",
+  "en": "biocatalyst",
+  "pos": "noun"
+ },
+ "bioklimatologiya": {
+  "az": "İqlimin canlı orqanizmlərə təsirini öyrənən elm.",
+  "en": "bioclimatology",
+  "pos": "noun"
+ },
+ "biokolloid": {
+  "az": "Canlı orqanizmlərdə olan kolloid sistem (zülal məhlulları və s.).",
+  "en": "biocolloid",
+  "pos": "noun"
+ },
+ "biokompleks": {
+  "skip": "meaning not certain"
+ },
+ "biokorroziya": {
+  "az": "Mikroorqanizmlərin fəaliyyəti nəticəsində materialların dağılması.",
+  "en": "biocorrosion, microbial corrosion",
+  "pos": "noun"
+ },
+ "biokosmonavtika": {
+  "az": "Kosmik uçuşların canlı orqanizmlərə təsirini öyrənən elm sahəsi.",
+  "en": "bioastronautics, space biology",
+  "pos": "noun"
+ },
+ "biokrem": {
+  "skip": "meaning not certain"
+ },
+ "biolaboratoriya": {
+  "az": "Bioloji tədqiqatlar aparılan laboratoriya.",
+  "en": "biological laboratory, biolab",
+  "pos": "noun"
+ },
+ "biolaminasiya": {
+  "az": "Saçı və ya kirpikləri təbii tərkibli vasitələrlə nazik qoruyucu təbəqə ilə örtən kosmetik prosedur.",
+  "en": "biolamination (cosmetic hair or lash treatment)",
+  "pos": "noun"
+ },
+ "biolinqvistika": {
+  "az": "Dilin bioloji əsaslarını və təkamülünü öyrənən sahə.",
+  "en": "biolinguistics",
+  "pos": "noun"
+ },
+ "biolokasiya": {
+  "az": "Xüsusi çubuq və ya rəqqasla yeraltı su, filiz və s. axtarma üsulu; elmi cəhətdən təsdiq olunmayıb.",
+  "en": "dowsing, biolocation",
+  "pos": "noun"
+ },
+ "biomembran": {
+  "az": "Hüceyrəni və onun hissələrini əhatə edən bioloji membran.",
+  "en": "biomembrane, biological membrane",
+  "pos": "noun"
+ },
+ "biometeorologiya": {
+  "az": "Hava və iqlim şəraitinin canlı orqanizmlərə təsirini öyrənən elm.",
+  "en": "biometeorology",
+  "pos": "noun"
+ },
+ "biometeoroloji": {
+  "az": "Biometeorologiyaya aid olan.",
+  "en": "biometeorological",
+  "pos": "adjective"
+ },
+ "biomexanizm": {
+  "skip": "meaning not certain"
+ },
+ "biomikroskopik": {
+  "az": "Canlı toxumaların, xüsusən gözün mikroskopla müayinəsinə aid olan.",
+  "en": "biomicroscopic",
+  "pos": "adjective"
+ },
+ "biomonitor": {
+  "az": "Ətraf mühitin vəziyyətini izləmək üçün istifadə olunan canlı orqanizm; bioindikator.",
+  "en": "biomonitor (organism used for environmental monitoring)",
+  "pos": "noun",
+  "parts": false
+ },
+ "biomorfologiya": {
+  "az": "Canlı orqanizmlərin xarici quruluşunu və formasını öyrənən sahə.",
+  "en": "biomorphology",
+  "pos": "noun"
+ },
+ "biomühəndis": {
+  "az": "Bioloji sistemlərə mühəndislik üsullarını tətbiq edən mütəxəssis.",
+  "en": "bioengineer",
+  "pos": "noun"
+ },
+ "biooptika": {
+  "az": "Canlı orqanizmlərdə işıqla bağlı hadisələri öyrənən sahə.",
+  "en": "bio-optics",
+  "pos": "noun"
+ },
+ "biopaket": {
+  "az": "Təbiətdə tez parçalanan materialdan hazırlanmış paket.",
+  "en": "biodegradable bag",
+  "pos": "noun"
+ },
+ "biopeyk": {
+  "az": "Bioloji tədqiqatlar üçün canlı orqanizmlər daşıyan süni peyk.",
+  "en": "biosatellite",
+  "pos": "noun"
+ },
+ "biopiqment": {
+  "az": "Canlı orqanizmlərdə əmələ gələn və onlara rəng verən maddə.",
+  "en": "biological pigment, biochrome",
+  "pos": "noun"
+ },
+ "bioplazma": {
+  "skip": "meaning not certain"
+ },
+ "biopolitika": {
+  "az": "Siyasətin insan həyatı, sağlamlığı və bioloji problemlərlə bağlı sahəsi.",
+  "en": "biopolitics",
+  "pos": "noun"
+ },
+ "biopolyar": {
+  "skip": "meaning not certain"
+ }
+}

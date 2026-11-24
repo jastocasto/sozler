@@ -1,0 +1,867 @@
+{
+ "makrotoponim": {
+  "az": "Böyük coğrafi obyektin (ölkə, region, dağ silsiləsi, böyük çay və s.) adı.",
+  "en": "macrotoponym (name of a large geographical feature)",
+  "pos": "noun"
+ },
+ "makrotoponimik": {
+  "az": "Makrotoponimlərə və ya makrotoponimikaya aid olan.",
+  "en": "macrotoponymic",
+  "pos": "adjective"
+ },
+ "makrotoponimika": {
+  "az": "Böyük coğrafi obyektlərin adlarının məcmusu; bu adları öyrənən toponimika sahəsi.",
+  "en": "macrotoponymy",
+  "pos": "noun"
+ },
+ "makrotəhlil": {
+  "az": "Hadisənin və ya sistemin bütövlükdə, ümumi göstəricilər səviyyəsində təhlili.",
+  "en": "macroanalysis, macro-level analysis",
+  "pos": "noun"
+ },
+ "makrotərcümə": {
+  "skip": "meaning not certain"
+ },
+ "makrotəsir": {
+  "az": "Geniş miqyaslı, bütöv sistemə (iqtisadiyyata, cəmiyyətə və s.) göstərilən təsir.",
+  "en": "macro-level effect, large-scale impact",
+  "pos": "noun"
+ },
+ "makroyanaşma": {
+  "az": "Məsələyə ümumi, geniş miqyasda, bütöv sistem səviyyəsində baxan yanaşma.",
+  "en": "macro approach, macro-level approach",
+  "pos": "noun"
+ },
+ "makroçağırış": {
+  "az": "Proqramlaşdırmada makrosun işə salınması üçün ona edilən müraciət.",
+  "en": "macro call (programming)",
+  "pos": "noun"
+ },
+ "makroçəkiliş": {
+  "az": "Kiçik obyektlərin çox yaxın məsafədən, böyüdülmüş şəkildə foto və ya video çəkilişi.",
+  "en": "macro photography, macro shooting",
+  "pos": "noun"
+ },
+ "makroəvəzləmə": {
+  "az": "Proqramlaşdırmada makroçağırışın yerinə makrosun açılmış mətninin qoyulması.",
+  "en": "macro substitution, macro expansion",
+  "pos": "noun"
+ },
+ "meqabiosfer": {
+  "skip": "term, sense not certain"
+ },
+ "meqablok": {
+  "skip": "sense not certain (geological block or political bloc)"
+ },
+ "meqadövrə": {
+  "skip": "meaning not certain"
+ },
+ "meqakalori": {
+  "az": "Bir milyon kaloriyə bərabər istilik miqdarı vahidi.",
+  "en": "megacalorie",
+  "pos": "noun"
+ },
+ "meqametrik": {
+  "skip": "meaning not certain"
+ },
+ "meqaobyekt": {
+  "az": "Çox böyük miqyaslı obyekt; nəhəng tikili, qurğu və ya kompleks.",
+  "en": "mega-facility, very large structure or site",
+  "pos": "noun"
+ },
+ "meqapaskal": {
+  "az": "Bir milyon paskala bərabər təzyiq vahidi.",
+  "en": "megapascal",
+  "pos": "noun"
+ },
+ "meqarelyef": {
+  "az": "Yer səthinin ən iri formaları: materiklər, okean çökəklikləri, nəhəng dağ sistemləri.",
+  "en": "megarelief",
+  "pos": "noun"
+ },
+ "meqaseysmik": {
+  "skip": "term, sense not certain"
+ },
+ "meqasikl": {
+  "skip": "sense not certain (frequency unit or geological cycle)"
+ },
+ "meqasinklinal": {
+  "az": "Geniş ərazini tutan çox böyük sinklinal büküş.",
+  "en": "megasyncline",
+  "pos": "noun"
+ },
+ "meqastruktur": {
+  "az": "Çox böyük ölçülü struktur; nəhəng tikili və ya iri geoloji quruluş.",
+  "en": "megastructure",
+  "pos": "noun"
+ },
+ "meqatəkamül": {
+  "az": "Ən iri sistematik qrupların (tip, sinif və s.) yaranmasına gətirən təkamül.",
+  "en": "megaevolution",
+  "pos": "noun"
+ },
+ "meqavolt": {
+  "az": "Bir milyon volta bərabər elektrik gərginliyi vahidi.",
+  "en": "megavolt",
+  "pos": "noun"
+ },
+ "mikroaerodrom": {
+  "az": "Yüngül təyyarələr və ya pilotsuz uçan aparatlar üçün kiçik aerodrom.",
+  "en": "small airfield, airstrip",
+  "pos": "noun"
+ },
+ "mikroalışma": {
+  "skip": "meaning not certain (ignition or getting used to)"
+ },
+ "mikroalət": {
+  "az": "Çox kiçik ölçülü alət (mikrocərrahiyyədə, mikromanipulyasiyada və s.).",
+  "en": "microtool, microinstrument",
+  "pos": "noun"
+ },
+ "mikroampermetr": {
+  "az": "Çox zəif elektrik cərəyanını mikroamperlərlə ölçən cihaz.",
+  "en": "microammeter",
+  "pos": "noun"
+ },
+ "mikroanalizator": {
+  "az": "Maddənin çox kiçik miqdarlarının və ya xırda sahələrinin tərkibini təyin edən cihaz.",
+  "en": "microanalyser",
+  "pos": "noun"
+ },
+ "mikroaparat": {
+  "az": "Çox kiçik ölçülü aparat, cihaz.",
+  "en": "micro-device, microapparatus",
+  "pos": "noun"
+ },
+ "mikroaralıq": {
+  "az": "Çox kiçik aralıq; hissələr arasındakı xırda boşluq və ya qısa zaman intervalı.",
+  "en": "microgap; micro-interval",
+  "pos": "noun"
+ },
+ "mikroarxiv": {
+  "skip": "meaning not certain"
+ },
+ "mikroatmosfer": {
+  "az": "Kiçik qapalı məkanda və ya obyektin bilavasitə ətrafında olan hava, qaz mühiti.",
+  "en": "microatmosphere",
+  "pos": "noun"
+ },
+ "mikroavtomobil": {
+  "az": "Çox kiçik ölçülü, adətən iki-üç yerlik minik avtomobili.",
+  "en": "microcar",
+  "pos": "noun"
+ },
+ "mikroaşqar": {
+  "az": "Maddəyə çox az miqdarda qatılan aşqar.",
+  "en": "microadditive, trace additive",
+  "pos": "noun"
+ },
+ "mikrobarometr": {
+  "az": "Atmosfer təzyiqinin çox kiçik dəyişmələrini qeydə alan cihaz.",
+  "en": "microbarometer",
+  "pos": "noun"
+ },
+ "mikrobentos": {
+  "az": "Su hövzəsinin dibində yaşayan mikroskopik orqanizmlərin məcmusu.",
+  "en": "microbenthos",
+  "pos": "noun"
+ },
+ "mikrobillinq": {
+  "skip": "meaning not certain"
+ },
+ "mikrobiosenoz": {
+  "az": "Müəyyən mühitdə (bağırsaqda, torpaqda və s.) birgə yaşayan mikroorqanizmlərin birliyi.",
+  "en": "microbiocenosis, microbial community",
+  "pos": "noun"
+ },
+ "mikroblok": {
+  "skip": "sense not certain"
+ },
+ "mikrobloklu": {
+  "skip": "sense not certain"
+ },
+ "mikrobloksuz": {
+  "skip": "sense not certain"
+ },
+ "mikroboşluq": {
+  "az": "Materialda, toxumada və s. olan çox kiçik boşluq.",
+  "en": "microcavity, microvoid",
+  "pos": "noun"
+ },
+ "mikroboşluqlu": {
+  "az": "Çox kiçik boşluqları olan.",
+  "en": "with microcavities, microvoided",
+  "pos": "adjective"
+ },
+ "mikrobrauzer": {
+  "az": "Mobil telefon kimi kiçik qurğular üçün nəzərdə tutulmuş sadələşdirilmiş veb-brauzer.",
+  "en": "microbrowser",
+  "pos": "noun"
+ },
+ "mikrobölgü": {
+  "skip": "meaning not certain"
+ },
+ "mikrobıçaq": {
+  "az": "Mikrocərrahiyyədə və incə işlərdə işlədilən çox kiçik, iti bıçaq.",
+  "en": "microknife",
+  "pos": "noun"
+ },
+ "mikrocanlı": {
+  "az": "Yalnız mikroskopla görünən canlı orqanizm; mikroorqanizm.",
+  "en": "microorganism, microbe",
+  "pos": "noun"
+ },
+ "mikrocazibə": {
+  "az": "Ağırlıq qüvvəsinin təsirinin çox zəif hiss olunduğu vəziyyət (orbitdə uçan kosmik gəmidə və s.).",
+  "en": "microgravity",
+  "pos": "noun"
+ },
+ "mikrocihaz": {
+  "az": "Çox kiçik ölçülü cihaz.",
+  "en": "microdevice",
+  "pos": "noun"
+ },
+ "mikrocisim": {
+  "az": "Çox kiçik, adətən yalnız mikroskopla görünən cisim.",
+  "en": "microscopic body, microbody",
+  "pos": "noun"
+ },
+ "mikrocəmiyyət": {
+  "az": "Kiçik insan birliyi; ailə, kollektiv kimi kiçik sosial qrup.",
+  "en": "microsociety, small community",
+  "pos": "noun"
+ },
+ "mikrocərrahlıq": {
+  "az": "Mikroskop və xüsusi incə alətlərlə aparılan cərrahiyyə əməliyyatları sahəsi.",
+  "en": "microsurgery",
+  "pos": "noun"
+ },
+ "mikrodeformasiya": {
+  "az": "Materialın ayrı-ayrı dənələri, kristalları səviyyəsində baş verən çox kiçik deformasiya.",
+  "en": "microdeformation",
+  "pos": "noun"
+ },
+ "mikroderma": {
+  "skip": "meaning not certain"
+ },
+ "mikrodeşici": {
+  "skip": "meaning not certain"
+ },
+ "mikrodilaltı": {
+  "skip": "meaning not certain"
+ },
+ "mikrodiod": {
+  "az": "Mikroelektronikada işlədilən çox kiçik ölçülü diod.",
+  "en": "microdiode",
+  "pos": "noun"
+ },
+ "mikrodozator": {
+  "az": "Mayeni çox kiçik dozalarla (mikrolitrlərlə) ölçüb verən qurğu.",
+  "en": "microdispenser, microdoser",
+  "pos": "noun"
+ },
+ "mikrodozatorçu": {
+  "skip": "meaning not certain"
+ },
+ "mikrodövr": {
+  "skip": "meaning not certain"
+ },
+ "mikroekosistem": {
+  "az": "Kiçik sahəni (gölməçə, çürük kötük və s.) tutan ekosistem.",
+  "en": "micro-ecosystem",
+  "pos": "noun"
+ },
+ "mikroelektrod": {
+  "az": "Hüceyrə və toxumalarda elektrik potensialını ölçmək və ya onlara təsir etmək üçün çox nazik elektrod.",
+  "en": "microelectrode",
+  "pos": "noun"
+ },
+ "mikroelektromaşın": {
+  "az": "Avtomatika qurğularında və cihazlarda işlədilən çox kiçik güclü elektrik maşını (mikromühərrik və s.).",
+  "en": "electric micromachine, low-power electric machine",
+  "pos": "noun"
+ },
+ "mikroemulsiya": {
+  "az": "Damcıları çox xırda olan, şəffaf və davamlı emulsiya.",
+  "en": "microemulsion",
+  "pos": "noun"
+ },
+ "mikroetnonim": {
+  "az": "Kiçik etnik qrupun, tayfanın və ya tirənin adı.",
+  "en": "micro-ethnonym (name of a small ethnic group)",
+  "pos": "noun"
+ },
+ "mikrofanerofit": {
+  "az": "Hündürlüyü təxminən 2–8 metr olan fanerofit (kiçik ağac və ya iri kol).",
+  "en": "microphanerophyte",
+  "pos": "noun"
+ },
+ "mikrofarad": {
+  "az": "Faradın milyonda birinə bərabər elektrik tutumu vahidi.",
+  "en": "microfarad",
+  "pos": "noun"
+ },
+ "mikrofibra": {
+  "az": "Çox nazik sintetik lif; belə liflərdən hazırlanan parça.",
+  "en": "microfibre",
+  "pos": "noun"
+ },
+ "mikrofizika": {
+  "az": "Molekul, atom və elementar hissəciklər kimi mikroobyektləri öyrənən fizika sahəsi.",
+  "en": "microphysics",
+  "pos": "noun"
+ },
+ "mikrofiziki": {
+  "az": "Mikrofizikaya və ya mikroobyektlərin fiziki xassələrinə aid olan.",
+  "en": "microphysical",
+  "pos": "adjective"
+ },
+ "mikrofiziologiya": {
+  "skip": "meaning not certain"
+ },
+ "mikrofizioloji": {
+  "skip": "meaning not certain"
+ },
+ "mikrofobiya": {
+  "skip": "meaning not certain"
+ },
+ "mikroformat": {
+  "az": "Veb-səhifələrdə məlumatı (əlaqə, tədbir və s.) HTML vasitəsilə maşınla oxuna bilən şəkildə işarələmə üsulu.",
+  "en": "microformat",
+  "pos": "noun"
+ },
+ "mikrofotoaparat": {
+  "skip": "sense not certain (miniature camera or photomicrographic camera)"
+ },
+ "mikrofotometr": {
+  "az": "Fotolövhə və ya plyonkanın çox kiçik sahələrinin optik sıxlığını ölçən cihaz.",
+  "en": "microphotometer",
+  "pos": "noun"
+ },
+ "mikrofotosurət": {
+  "az": "Sənədin fotoüsulla çox kiçildilmiş surəti (mikrofilmdə və s.).",
+  "en": "microcopy",
+  "pos": "noun"
+ },
+ "mikrogeologiya": {
+  "skip": "meaning not certain"
+ },
+ "mikrogörüntü": {
+  "az": "Çox kiçildilmiş və ya mikroskop vasitəsilə alınmış təsvir.",
+  "en": "microimage",
+  "pos": "noun"
+ },
+ "mikrogübrə": {
+  "az": "Tərkibində bor, manqan, sink, mis kimi mikroelementlər olan gübrə.",
+  "en": "micronutrient fertilizer, microfertilizer",
+  "pos": "noun"
+ },
+ "mikrogübrələmə": {
+  "az": "Torpağa və ya bitkilərə mikrogübrə vermə.",
+  "en": "application of micronutrient fertilizers",
+  "pos": "noun"
+ },
+ "mikrogübrələmək": {
+  "az": "Torpağa və ya bitkilərə mikrogübrə vermək.",
+  "en": "to apply micronutrient fertilizer to",
+  "pos": "verb"
+ },
+ "mikrogübrələtmə": {
+  "az": "Torpağa və ya bitkilərə başqası vasitəsilə mikrogübrə verdirmə.",
+  "en": "having micronutrient fertilizer applied",
+  "pos": "noun"
+ },
+ "mikrogübrələtmək": {
+  "az": "Torpağa və ya bitkilərə başqası vasitəsilə mikrogübrə verdirmək.",
+  "en": "to have micronutrient fertilizer applied",
+  "pos": "verb"
+ },
+ "mikrogərginlik": {
+  "skip": "sense not certain (microstress or microvoltage)"
+ },
+ "mikrohesablayıcı": {
+  "skip": "meaning not certain"
+ },
+ "mikrohidronim": {
+  "az": "Kiçik su obyektinin (bulaq, arx, kiçik çay, gölməçə və s.) adı.",
+  "en": "microhydronym (name of a small body of water)",
+  "pos": "noun"
+ },
+ "mikrohəndəsi": {
+  "az": "Səthin mikrohəndəsəsinə, xırda nahamarlıqlarına aid olan.",
+  "en": "microgeometric",
+  "pos": "adjective"
+ },
+ "mikrohəndəsə": {
+  "az": "Detal səthinin xırda nahamarlıqlarının forması və ölçüləri; səthin kələ-kötürlüyü.",
+  "en": "microgeometry (of a surface)",
+  "pos": "noun"
+ },
+ "mikroindikator": {
+  "skip": "meaning not certain"
+ },
+ "mikroinsult": {
+  "az": "Beyində qan dövranının kiçik sahədə və ya qısa müddətə pozulması; yüngül insult.",
+  "en": "mini-stroke, minor stroke",
+  "pos": "noun"
+ },
+ "mikrointerferometr": {
+  "az": "Səthin çox kiçik nahamarlıqlarını işıq interferensiyası vasitəsilə ölçən cihaz.",
+  "en": "microinterferometer",
+  "pos": "noun"
+ },
+ "mikrointerval": {
+  "az": "Musiqidə yarımtondan kiçik interval; çox qısa zaman aralığı.",
+  "en": "microinterval; microtone",
+  "pos": "noun"
+ },
+ "mikroiqtisadçı": {
+  "az": "Mikroiqtisadiyyat sahəsində çalışan mütəxəssis.",
+  "en": "microeconomist",
+  "pos": "noun"
+ },
+ "mikroiynə": {
+  "az": "Çox nazik və qısa iynə (dərman yeritmək, kosmetik prosedurlar və s. üçün).",
+  "en": "microneedle",
+  "pos": "noun"
+ },
+ "mikrokalkulyator": {
+  "az": "Kiçik ölçülü, cibdə gəzdirilə bilən elektron kalkulyator.",
+  "en": "pocket calculator",
+  "pos": "noun"
+ },
+ "mikrokalorimetr": {
+  "az": "Çox kiçik istilik miqdarlarını ölçən kalorimetr.",
+  "en": "microcalorimeter",
+  "pos": "noun"
+ },
+ "mikrokanonik": {
+  "az": "Statistik fizikada enerjisi sabit olan təcrid olunmuş sistemə aid olan (mikrokanonik ansambl).",
+  "en": "microcanonical",
+  "pos": "adjective"
+ },
+ "mikrokapsul": {
+  "az": "İçində maddə (dərman, ətir və s.) saxlanılan çox kiçik kapsul.",
+  "en": "microcapsule",
+  "pos": "noun"
+ },
+ "mikrokineskop": {
+  "az": "Kiçik ölçülü kineskop (portativ televizorlarda və s.).",
+  "en": "miniature picture tube",
+  "pos": "noun"
+ },
+ "mikrokitab": {
+  "az": "Çox kiçik ölçülü kitab; miniatür kitab.",
+  "en": "miniature book",
+  "pos": "noun"
+ },
+ "mikrokomanda": {
+  "az": "Prosessorda bir elementar əməliyyatı idarə edən ən sadə əmr; mikroəmr.",
+  "en": "microinstruction, microcommand",
+  "pos": "noun"
+ },
+ "mikrokompleks": {
+  "skip": "meaning not certain"
+ },
+ "mikrokompressor": {
+  "az": "Çox kiçik ölçülü, az güclü kompressor (akvariumlarda və s.).",
+  "en": "mini compressor, microcompressor",
+  "pos": "noun"
+ },
+ "mikrokonstruktor": {
+  "skip": "meaning not certain"
+ },
+ "mikrokontekst": {
+  "az": "Sözü və ya ifadəni bilavasitə əhatə edən yaxın mətn; dar kontekst.",
+  "en": "microcontext, immediate context",
+  "pos": "noun"
+ },
+ "mikrokontinent": {
+  "az": "Əsas materikdən ayrılmış, okeanla əhatələnən kiçik materik qabığı parçası.",
+  "en": "microcontinent",
+  "pos": "noun"
+ },
+ "mikrokulon": {
+  "az": "Kulonun milyonda birinə bərabər elektrik yükü vahidi.",
+  "en": "microcoulomb",
+  "pos": "noun",
+  "parts": false
+ },
+ "mikrolandşaft": {
+  "az": "Eynicinsli şəraiti olan kiçik sahəni tutan ən kiçik landşaft vahidi.",
+  "en": "microlandscape",
+  "pos": "noun"
+ },
+ "mikrolift": {
+  "skip": "meaning not certain"
+ },
+ "mikrolizosom": {
+  "skip": "term, not certain"
+ },
+ "mikrolüğət": {
+  "az": "Çox kiçik həcmli, az sözü əhatə edən lüğət.",
+  "en": "mini-dictionary",
+  "pos": "noun"
+ },
+ "mikromafiya": {
+  "skip": "meaning not certain"
+ },
+ "mikromanipulyasiya": {
+  "az": "Mikroskop altında xüsusi alətlərlə çox kiçik obyektlər (hüceyrələr və s.) üzərində iş aparma.",
+  "en": "micromanipulation",
+  "pos": "noun"
+ },
+ "mikromanometr": {
+  "az": "Qaz və ya mayenin təzyiqindəki çox kiçik fərqləri ölçən manometr.",
+  "en": "micromanometer",
+  "pos": "noun"
+ },
+ "mikromaqnit": {
+  "az": "Çox kiçik ölçülü maqnit.",
+  "en": "micromagnet",
+  "pos": "noun"
+ },
+ "mikromarket": {
+  "az": "Kiçik ərzaq və məişət malları mağazası; minimarket.",
+  "en": "mini-market, convenience store",
+  "pos": "noun"
+ },
+ "mikromarketinq": {
+  "az": "Kiçik bazar seqmentlərinə, yerli alıcılara və ya ayrı-ayrı müştərilərə yönəldilən marketinq.",
+  "en": "micromarketing",
+  "pos": "noun"
+ },
+ "mikromasaj": {
+  "skip": "meaning not certain"
+ },
+ "mikromatç": {
+  "skip": "meaning not certain"
+ },
+ "mikromaşın": {
+  "az": "Çox kiçik ölçülü maşın, mexaniki qurğu.",
+  "en": "micromachine",
+  "pos": "noun"
+ },
+ "mikrometeor": {
+  "az": "Atmosferə daxil olub yanan çox xırda kosmik hissəcik; çox kiçik meteor.",
+  "en": "micrometeor",
+  "pos": "noun"
+ },
+ "mikrometod": {
+  "az": "Çox az miqdarda maddə ilə aparılan analiz və ya tədqiqat üsulu.",
+  "en": "micromethod",
+  "pos": "noun"
+ },
+ "mikromexanika": {
+  "az": "Materialların mikroquruluş səviyyəsində mexaniki xassələrini və ya çox kiçik mexanizmləri öyrənən sahə.",
+  "en": "micromechanics",
+  "pos": "noun"
+ },
+ "mikromexaniki": {
+  "az": "Mikromexanikaya və ya çox kiçik mexanizmlərə aid olan.",
+  "en": "micromechanical",
+  "pos": "adjective"
+ },
+ "mikromexanizm": {
+  "az": "Çox kiçik ölçülü mexanizm; prosesin mikro səviyyədəki gedişi (məs.: dağılmanın mikromexanizmi).",
+  "en": "micromechanism",
+  "pos": "noun"
+ },
+ "mikromikron": {
+  "az": "Mikronun milyonda birinə bərabər köhnə uzunluq vahidi; pikometr.",
+  "en": "micromicron (picometre)",
+  "pos": "noun"
+ },
+ "mikromillimetr": {
+  "az": "Millimetrin milyonda birinə bərabər köhnə uzunluq vahidi; nanometr.",
+  "en": "micromillimetre (nanometre)",
+  "pos": "noun"
+ },
+ "mikrominiatür": {
+  "az": "Yalnız böyüdücü şüşə və ya mikroskopla görünə bilən çox kiçik sənət əsəri (düyü dənəsi üzərində rəsm və s.).",
+  "en": "microminiature (tiny work of art)",
+  "pos": "noun"
+ },
+ "mikrominiatürçü": {
+  "az": "Mikrominiatür əsərlər yaradan usta.",
+  "en": "microminiaturist",
+  "pos": "noun"
+ },
+ "mikromiqyas": {
+  "az": "Çox kiçik miqyas; mikro səviyyə.",
+  "en": "microscale",
+  "pos": "noun"
+ },
+ "mikromodel": {
+  "skip": "sense not certain"
+ },
+ "mikromodelləşdirmə": {
+  "skip": "sense not certain"
+ },
+ "mikromodelləşdirmək": {
+  "skip": "sense not certain"
+ },
+ "mikromodul": {
+  "az": "Mikroelementlərdən yığılan, müəyyən funksiyanı yerinə yetirən miniatür elektron bloku.",
+  "en": "micromodule",
+  "pos": "noun"
+ },
+ "mikromonitor": {
+  "skip": "meaning not certain"
+ },
+ "mikromontaj": {
+  "skip": "meaning not certain"
+ },
+ "mikromorfem": {
+  "skip": "term, not certain"
+ },
+ "mikromorfologiya": {
+  "az": "Torpaq, süxur və ya orqanizmlərin mikroskopik quruluşunu öyrənən sahə.",
+  "en": "micromorphology",
+  "pos": "noun"
+ },
+ "mikroməhəllə": {
+  "skip": "meaning not certain"
+ },
+ "mikromənzərə": {
+  "skip": "meaning not certain"
+ },
+ "mikroməsamə": {
+  "az": "Çox kiçik məsamə (adsorbentlərdə, süxurlarda, dəridə və s.).",
+  "en": "micropore",
+  "pos": "noun"
+ },
+ "mikronovella": {
+  "az": "Çox qısa, bir neçə cümləlik nəsr hekayəsi.",
+  "en": "very short story, flash fiction",
+  "pos": "noun"
+ },
+ "mikroobyektiv": {
+  "az": "Çox kiçik obyektlərin böyüdülmüş təsvirini almaq üçün obyektiv (mikroskopda və s.).",
+  "en": "micro-objective, microscope objective",
+  "pos": "noun"
+ },
+ "mikroovuntu": {
+  "skip": "meaning not certain"
+ },
+ "mikrooykonim": {
+  "az": "Kiçik yaşayış məntəqəsinin (oba, qışlaq, kənd hissəsi və s.) adı.",
+  "en": "micro-oikonym (name of a small settlement)",
+  "pos": "noun"
+ },
+ "mikropaleontologiya": {
+  "az": "Qazıntı halında qalmış mikroskopik orqanizmləri öyrənən paleontologiya sahəsi.",
+  "en": "micropalaeontology",
+  "pos": "noun"
+ },
+ "mikropaleontoloji": {
+  "az": "Mikropaleontologiyaya aid olan.",
+  "en": "micropalaeontological",
+  "pos": "adjective"
+ },
+ "mikropaleontoloq": {
+  "az": "Mikropaleontologiya sahəsində mütəxəssis.",
+  "en": "micropalaeontologist",
+  "pos": "noun"
+ },
+ "mikropilinq": {
+  "az": "Dərinin yalnız ən üst qatını təmizləyən yüngül pilinq.",
+  "en": "micropeeling, light superficial peel",
+  "pos": "noun"
+ },
+ "mikropiramida": {
+  "skip": "meaning not certain"
+ },
+ "mikroplankton": {
+  "az": "Çox kiçik, mikroskopik ölçülü plankton orqanizmlərinin məcmusu.",
+  "en": "microplankton",
+  "pos": "noun"
+ },
+ "mikroprofil": {
+  "skip": "sense not certain"
+ },
+ "mikroproqramlı": {
+  "az": "Mikroproqram vasitəsilə idarə olunan (mikroproqramlı idarəetmə).",
+  "en": "microprogrammed",
+  "pos": "adjective"
+ },
+ "mikroproyeksiya": {
+  "az": "Mikroskopik obyektin böyüdülmüş təsvirinin ekrana salınması.",
+  "en": "microprojection",
+  "pos": "noun"
+ },
+ "mikroproyektor": {
+  "az": "Mikroskopik obyektlərin böyüdülmüş təsvirini ekrana salan cihaz; çox kiçik ölçülü proyektor.",
+  "en": "microprojector",
+  "pos": "noun"
+ },
+ "mikropərdə": {
+  "skip": "meaning not certain"
+ },
+ "mikroqatışıq": {
+  "az": "Maddənin tərkibində çox az miqdarda olan yad qatışıq.",
+  "en": "trace impurity, microimpurity",
+  "pos": "noun"
+ },
+ "mikroqayçı": {
+  "az": "Mikrocərrahiyyədə və incə işlərdə işlədilən çox kiçik qayçı.",
+  "en": "microscissors",
+  "pos": "noun"
+ },
+ "mikroqoniometr": {
+  "skip": "term, not certain"
+ },
+ "mikroqrafika": {
+  "skip": "meaning not certain"
+ },
+ "mikroqravür": {
+  "skip": "meaning not certain"
+ },
+ "mikroqruplaşma": {
+  "skip": "meaning not certain"
+ },
+ "mikroqüsur": {
+  "az": "Materialda və ya məmulatda çox kiçik, adətən gözlə görünməyən qüsur.",
+  "en": "microdefect, microflaw",
+  "pos": "noun"
+ },
+ "mikroradio": {
+  "skip": "meaning not certain"
+ },
+ "mikroradiodalğa": {
+  "skip": "meaning not certain"
+ },
+ "mikroradioqəbuledici": {
+  "az": "Çox kiçik ölçülü radioqəbuledici.",
+  "en": "miniature radio receiver",
+  "pos": "noun"
+ },
+ "mikroraket": {
+  "skip": "meaning not certain"
+ },
+ "mikroreaksiya": {
+  "az": "Çox az miqdarda maddə ilə aparılan reaksiya (mikrokimyəvi analizdə, laborator müayinədə).",
+  "en": "microreaction",
+  "pos": "noun"
+ },
+ "mikrorentgen": {
+  "az": "Rentgenin milyonda birinə bərabər ionlaşdırıcı şüalanma dozası vahidi.",
+  "en": "microroentgen",
+  "pos": "noun"
+ },
+ "mikroresenziya": {
+  "az": "Çox qısa, bir neçə cümləlik resenziya.",
+  "en": "short review, capsule review",
+  "pos": "noun"
+ },
+ "mikroroller": {
+  "skip": "meaning not certain"
+ },
+ "mikrosahə": {
+  "skip": "sense not certain"
+ },
+ "mikrosayğac": {
+  "skip": "meaning not certain"
+ },
+ "mikrosayğaclı": {
+  "skip": "meaning not certain"
+ },
+ "mikroseysmik": {
+  "az": "Yer qabığının yalnız cihazla qeydə alınan zəif rəqslərinə (mikroseysmlərə) aid olan.",
+  "en": "microseismic",
+  "pos": "adjective"
+ },
+ "mikrosintaqmatika": {
+  "skip": "term, not certain"
+ },
+ "mikrosintez": {
+  "skip": "meaning not certain"
+ },
+ "mikrososiologiya": {
+  "az": "Kiçik sosial qrupları və insanlararası münasibətləri öyrənən sosiologiya sahəsi.",
+  "en": "microsociology",
+  "pos": "noun"
+ },
+ "mikrososioloji": {
+  "az": "Mikrososiologiyaya aid olan.",
+  "en": "microsociological",
+  "pos": "adjective"
+ },
+ "mikrosoyuducu": {
+  "az": "Kiçik ölçülü soyuducu (otel otaqlarında, avtomobillərdə və s.).",
+  "en": "mini fridge",
+  "pos": "noun"
+ },
+ "mikrosporogenez": {
+  "az": "Bitkilərin tozluğunda mikrosporların əmələ gəlməsi prosesi.",
+  "en": "microsporogenesis",
+  "pos": "noun"
+ },
+ "mikrosənaye": {
+  "skip": "meaning not certain"
+ },
+ "mikrotaksonomiya": {
+  "az": "Növlərin və növdaxili qrupların (yarımnöv, populyasiya) təsnifatı ilə məşğul olan taksonomiya sahəsi.",
+  "en": "microtaxonomy",
+  "pos": "noun"
+ },
+ "mikrotelefon": {
+  "skip": "sense not certain (telephone handset or miniature phone)"
+ },
+ "mikrotelekamera": {
+  "az": "Çox kiçik ölçülü televiziya kamerası.",
+  "en": "miniature television camera",
+  "pos": "noun"
+ },
+ "mikrotelevizor": {
+  "az": "Kiçik ekranlı, ovuca sığan portativ televizor.",
+  "en": "miniature television set, pocket TV",
+  "pos": "noun"
+ },
+ "mikrotelevizorlu": {
+  "skip": "meaning not certain"
+ },
+ "mikrotexnika": {
+  "skip": "sense not certain (microtechnique or microengineering)"
+ },
+ "mikrotezlikli": {
+  "skip": "meaning not certain"
+ },
+ "mikrotipik": {
+  "skip": "meaning not certain"
+ },
+ "mikrotitrləmə": {
+  "az": "Çox kiçik həcmli məhlullarla aparılan titrləmə.",
+  "en": "microtitration",
+  "pos": "noun"
+ },
+ "mikrotədris": {
+  "az": "Müəllim hazırlığında qısa dərsin kiçik qrup qarşısında keçirilib sonra təhlil edildiyi təlim üsulu.",
+  "en": "microteaching",
+  "pos": "noun"
+ },
+ "mikrovatmetr": {
+  "az": "Çox kiçik elektrik gücünü mikrovatlarla ölçən cihaz.",
+  "en": "microwattmeter",
+  "pos": "noun"
+ },
+ "mikrovirus": {
+  "skip": "meaning not certain"
+ },
+ "mikrovoltmetr": {
+  "az": "Çox kiçik elektrik gərginliyini mikrovoltlarla ölçən cihaz.",
+  "en": "microvoltmeter",
+  "pos": "noun"
+ },
+ "mikroyazılış": {
+  "skip": "meaning not certain"
+ },
+ "mikroyosun": {
+  "az": "Yalnız mikroskopla görünən birhüceyrəli və ya çox kiçik yosun.",
+  "en": "microalga (pl. microalgae)",
+  "pos": "noun"
+ },
+ "mikroyığcam": {
+  "skip": "meaning not certain"
+ }
+}

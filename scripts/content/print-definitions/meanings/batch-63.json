@@ -1,0 +1,927 @@
+{
+ "psixokulturologiya": {
+  "az": "Mədəniyyətlə insan psixikası arasındakı qarşılıqlı əlaqəni öyrənən elm sahəsi.",
+  "en": "psychoculturology",
+  "pos": "noun"
+ },
+ "psixokulturoloji": {
+  "az": "Psixokulturologiyaya aid olan.",
+  "en": "psychoculturological",
+  "pos": "adjective"
+ },
+ "psixokulturoloq": {
+  "az": "Psixokulturologiya üzrə mütəxəssis.",
+  "en": "psychoculturologist",
+  "pos": "noun"
+ },
+ "psixolinqvist": {
+  "az": "Psixolinqvistika üzrə mütəxəssis; nitqin və dilin psixoloji əsaslarını öyrənən alim.",
+  "en": "psycholinguist",
+  "pos": "noun"
+ },
+ "psixonevroloq": {
+  "az": "Sinir sistemi və psixi pozuntuları müalicə edən həkim; psixonevrologiya üzrə mütəxəssis.",
+  "en": "psychoneurologist",
+  "pos": "noun"
+ },
+ "psixotexnika": {
+  "az": "Əmək psixologiyasının peşə seçimi və insanın texnikaya uyğunlaşması məsələlərini öyrənən tətbiqi sahəsi.",
+  "en": "psychotechnics",
+  "pos": "noun"
+ },
+ "radioadaptasiya": {
+  "az": "Canlı orqanizmin ionlaşdırıcı şüalanmanın təsirinə uyğunlaşması.",
+  "en": "radioadaptation (adaptation to ionizing radiation)",
+  "pos": "noun"
+ },
+ "radioaktivasiya": {
+  "az": "Maddənin neytron və ya başqa hissəciklərlə şüalandırılaraq radioaktiv hala salınması.",
+  "en": "radioactivation",
+  "pos": "noun"
+ },
+ "radioakustik": {
+  "az": "Radioakustikaya aid olan; səsin radio vasitəsilə ötürülməsi ilə bağlı.",
+  "en": "radioacoustic",
+  "pos": "adjective"
+ },
+ "radioakustika": {
+  "az": "Radiotexnikanın səsin elektrik siqnalına və əksinə çevrilməsini öyrənən sahəsi.",
+  "en": "radioacoustics",
+  "pos": "noun"
+ },
+ "radioalıcı": {
+  "az": "Radiodalğaları qəbul edib səsə və ya başqa siqnala çevirən cihaz; radioqəbuledici.",
+  "en": "radio receiver",
+  "pos": "noun"
+ },
+ "radioaparat": {
+  "az": "Radio verilişlərini qəbul etmək və ya radiorabitə üçün işlədilən cihaz.",
+  "en": "radio set, radio apparatus",
+  "pos": "noun"
+ },
+ "radioastrofizik": {
+  "az": "Radioastrofizika sahəsində çalışan alim.",
+  "en": "radio astrophysicist",
+  "pos": "noun"
+ },
+ "radioastrofizika": {
+  "az": "Göy cisimlərini onların radioşüalanmasına əsasən öyrənən astrofizika sahəsi.",
+  "en": "radio astrophysics",
+  "pos": "noun"
+ },
+ "radioaxtarış": {
+  "az": "Bir obyektin (gəmi, təyyarə, adam və s.) radiosiqnallar vasitəsilə axtarılıb yerinin müəyyən edilməsi.",
+  "en": "radio search (locating something by radio signals)",
+  "pos": "noun"
+ },
+ "radiobaza": {
+  "skip": "meaning not certain"
+ },
+ "radiobioindikator": {
+  "az": "Ətraf mühitin radioaktiv çirklənməsini göstərən canlı orqanizm.",
+  "en": "radiobioindicator (organism indicating radioactive contamination)",
+  "pos": "noun"
+ },
+ "radiocihaz": {
+  "az": "Radiodalğaları ötürmək və ya qəbul etmək üçün işlədilən cihaz.",
+  "en": "radio device",
+  "pos": "noun"
+ },
+ "radiocərrah": {
+  "az": "Radiocərrahiyyə ilə məşğul olan, şüa vasitəsilə əməliyyat aparan həkim.",
+  "en": "radiosurgeon",
+  "pos": "noun"
+ },
+ "radiodalğayazan": {
+  "skip": "meaning not certain"
+ },
+ "radiodalğayazma": {
+  "skip": "meaning not certain"
+ },
+ "radiodalğaötürən": {
+  "skip": "meaning not certain"
+ },
+ "radiodavamlı": {
+  "az": "Radioaktiv şüalanmanın təsirinə davamlı olan.",
+  "en": "radiation-resistant, radioresistant",
+  "pos": "adjective"
+ },
+ "radiodiaqnostik": {
+  "az": "Şüa vasitəsilə diaqnoz qoymağa aid olan (radiodiaqnostik müayinə).",
+  "en": "radiodiagnostic",
+  "pos": "adjective"
+ },
+ "radiodinləyici": {
+  "az": "Radio verilişlərini dinləyən adam.",
+  "en": "radio listener",
+  "pos": "noun"
+ },
+ "radiodramaturgiya": {
+  "az": "Radio üçün yazılan dram əsərləri; belə əsərlər yaratmaq sənəti.",
+  "en": "radio drama (as a genre)",
+  "pos": "noun"
+ },
+ "radiodramaturji": {
+  "az": "Radiodramaturgiyaya aid olan.",
+  "en": "relating to radio drama",
+  "pos": "adjective"
+ },
+ "radiodərnək": {
+  "az": "Radiotexnika ilə maraqlanan həvəskarların dərnəyi.",
+  "en": "radio club, amateur radio circle",
+  "pos": "noun"
+ },
+ "radiofarmakologiya": {
+  "az": "Radioaktiv dərman preparatlarını və şüalanmaya qarşı vasitələri öyrənən farmakologiya sahəsi.",
+  "en": "radiopharmacology",
+  "pos": "noun"
+ },
+ "radiofarmakoloji": {
+  "az": "Radiofarmakologiyaya aid olan.",
+  "en": "radiopharmacological",
+  "pos": "adjective"
+ },
+ "radiofestival": {
+  "az": "Radio verilişlərinin və radio yaradıcılığının festivalı.",
+  "en": "radio festival",
+  "pos": "noun"
+ },
+ "radiofilm": {
+  "az": "Radio üçün səs yazıları montaj edilərək hazırlanan bədii və ya sənədli əsər.",
+  "en": "radio film (a montaged radio drama or documentary)",
+  "pos": "noun"
+ },
+ "radiofizik": {
+  "az": "Radiofizika sahəsində çalışan alim.",
+  "en": "radiophysicist",
+  "pos": "noun"
+ },
+ "radiofiziki": {
+  "az": "Radiofizikaya aid olan.",
+  "en": "radiophysical",
+  "pos": "adjective"
+ },
+ "radioforma": {
+  "skip": "meaning not certain"
+ },
+ "radiofototeleqraf": {
+  "az": "Təsvirləri radio vasitəsilə uzaq məsafəyə ötürən aparat.",
+  "en": "radio phototelegraph",
+  "pos": "noun"
+ },
+ "radiogenetika": {
+  "az": "Şüalanmanın irsiyyətə və dəyişkənliyə təsirini öyrənən genetika sahəsi.",
+  "en": "radiation genetics, radiogenetics",
+  "pos": "noun"
+ },
+ "radiogeodezik": {
+  "az": "Radiogeodeziyaya aid olan.",
+  "en": "radiogeodetic",
+  "pos": "adjective"
+ },
+ "radiogeodeziya": {
+  "az": "Məsafə və koordinatları radiotexniki üsullarla ölçən geodeziya sahəsi.",
+  "en": "radio geodesy",
+  "pos": "noun"
+ },
+ "radiogeologiya": {
+  "az": "Süxur və minerallardakı radioaktiv elementləri və onların yayılmasını öyrənən geologiya sahəsi.",
+  "en": "radiogeology",
+  "pos": "noun"
+ },
+ "radiogeoloji": {
+  "az": "Radiogeologiyaya aid olan.",
+  "en": "radiogeological",
+  "pos": "adjective"
+ },
+ "radiogeoloq": {
+  "az": "Radiogeologiya üzrə mütəxəssis.",
+  "en": "radiogeologist",
+  "pos": "noun"
+ },
+ "radiogigiyena": {
+  "az": "Şüalanmanın insan sağlamlığına təsirini və ondan qorunma tədbirlərini öyrənən gigiyena sahəsi.",
+  "en": "radiation hygiene",
+  "pos": "noun"
+ },
+ "radiohekayə": {
+  "az": "Radioda səsləndirilmək üçün hazırlanmış hekayə.",
+  "en": "radio story",
+  "pos": "noun"
+ },
+ "radiohəssas": {
+  "az": "Şüalanmanın təsirinə həssas olan.",
+  "en": "radiosensitive",
+  "pos": "adjective"
+ },
+ "radiohəssaslıq": {
+  "az": "Hüceyrənin, toxumanın və ya orqanizmin şüalanmanın təsirinə həssaslığı.",
+  "en": "radiosensitivity",
+  "pos": "noun"
+ },
+ "radioidarəedici": {
+  "az": "Radiosiqnallarla uzaqdan idarə edən (radioidarəedici qurğu).",
+  "en": "radio-control, radio-controlling",
+  "pos": "adjective"
+ },
+ "radioidarəetmə": {
+  "az": "Qurğunun və ya maşının radiosiqnallar vasitəsilə uzaqdan idarə olunması.",
+  "en": "radio control",
+  "pos": "noun"
+ },
+ "radioimpuls": {
+  "az": "Qısa müddətli radiodalğa siqnalı.",
+  "en": "radio pulse",
+  "pos": "noun"
+ },
+ "radiointerferometr": {
+  "az": "Aralı yerləşən antenlərin qəbul etdiyi radiosiqnalların interferensiyasından istifadə edən radioteleskop sistemi.",
+  "en": "radio interferometer",
+  "pos": "noun"
+ },
+ "radiointerfeys": {
+  "az": "Qurğular arasında məlumat mübadiləsinin radiodalğalarla aparıldığı interfeys.",
+  "en": "radio interface, air interface",
+  "pos": "noun"
+ },
+ "radioistilik": {
+  "skip": "meaning not certain"
+ },
+ "radiojurnalistika": {
+  "az": "Radio üçün xəbər və publisistik verilişlər hazırlama fəaliyyəti; jurnalistikanın radio sahəsi.",
+  "en": "radio journalism",
+  "pos": "noun"
+ },
+ "radiokeramika": {
+  "az": "Radiotexnika və elektronikada işlədilən, xüsusi elektrik xassələri olan keramika materialları.",
+  "en": "radio ceramics (ceramics for radio engineering)",
+  "pos": "noun"
+ },
+ "radiokobalt": {
+  "az": "Kobaltın radioaktiv izotopu (xüsusən kobalt-60).",
+  "en": "radiocobalt",
+  "pos": "noun"
+ },
+ "radiokolloid": {
+  "az": "Radioaktiv izotopun kolloid halda olan hissəcikləri; radioaktiv kolloid.",
+  "en": "radiocolloid",
+  "pos": "noun"
+ },
+ "radiokombayn": {
+  "az": "Radioqəbuledici ilə səs yazılarını səsləndirən qurğunu bir qutuda birləşdirən cihaz.",
+  "en": "radiogram, radio-phonograph combination",
+  "pos": "noun"
+ },
+ "radiokommentari": {
+  "az": "Radio ilə verilən şərh.",
+  "en": "radio commentary",
+  "pos": "noun"
+ },
+ "radiokommentator": {
+  "az": "Radioda hadisələri, idman yarışlarını və s. şərh edən şəxs.",
+  "en": "radio commentator",
+  "pos": "noun"
+ },
+ "radiokomparator": {
+  "skip": "meaning not certain"
+ },
+ "radiokompas": {
+  "az": "Radiostansiyaların siqnallarına görə istiqaməti təyin edən naviqasiya cihazı.",
+  "en": "radio compass",
+  "pos": "noun"
+ },
+ "radiokompleks": {
+  "skip": "meaning not certain"
+ },
+ "radiokompozisiya": {
+  "az": "Bədii mətn, musiqi və s. birləşdirən, radio üçün hazırlanmış veriliş.",
+  "en": "radio composition (a literary-musical radio programme)",
+  "pos": "noun"
+ },
+ "radiokonduktor": {
+  "skip": "meaning not certain"
+ },
+ "radiokonsert": {
+  "az": "Radio ilə yayımlanan konsert.",
+  "en": "radio concert",
+  "pos": "noun"
+ },
+ "radiokörpü": {
+  "az": "İki və ya bir neçə şəhər, ölkə arasında radio vasitəsilə yaradılan canlı əlaqə verilişi.",
+  "en": "radio link-up, radio bridge",
+  "pos": "noun"
+ },
+ "radiolaboratoriya": {
+  "az": "Radiotexnika və ya radioaktivlik sahəsində tədqiqatlar aparılan laboratoriya.",
+  "en": "radio laboratory; radiation laboratory",
+  "pos": "noun"
+ },
+ "radiolampa": {
+  "az": "Radioaparatlarda elektrik siqnallarını gücləndirmək və çevirmək üçün işlədilən elektron lampa.",
+  "en": "radio valve, vacuum tube",
+  "pos": "noun"
+ },
+ "radiolektoriya": {
+  "az": "Radio ilə yayımlanan mühazirələr silsiləsi.",
+  "en": "radio lecture series",
+  "pos": "noun"
+ },
+ "radioliftinq": {
+  "az": "Dərinin radiotezlikli dalğalarla qızdırılaraq dartılması və cavanlaşdırılması üsulu.",
+  "en": "radiofrequency (RF) lifting",
+  "pos": "noun"
+ },
+ "radiometeorologiya": {
+  "az": "Atmosferdə radiodalğaların yayılmasını və hava hadisələrinin radio üsulları ilə öyrənilməsini araşdıran sahə.",
+  "en": "radio meteorology",
+  "pos": "noun"
+ },
+ "radiometeoroqraf": {
+  "az": "Atmosferin temperatur, təzyiq və rütubətini ölçüb radio ilə yerə ötürən cihaz; radiozond.",
+  "en": "radiometeorograph, radiosonde",
+  "pos": "noun"
+ },
+ "radiomikrofon": {
+  "az": "Səsi kabelsiz, radio vasitəsilə ötürən mikrofon.",
+  "en": "radio microphone, wireless microphone",
+  "pos": "noun"
+ },
+ "radiomikrometr": {
+  "az": "Zəif istilik şüalanmasını ölçən çox həssas cihaz.",
+  "en": "radiomicrometer",
+  "pos": "noun"
+ },
+ "radiomiqrasiya": {
+  "skip": "meaning not certain"
+ },
+ "radiomodifikasiya": {
+  "az": "Orqanizmin şüalanmaya həssaslığının kimyəvi və ya başqa vasitələrlə dəyişdirilməsi.",
+  "en": "radiomodification (altering radiosensitivity)",
+  "pos": "noun"
+ },
+ "radiomodifikator": {
+  "az": "Orqanizmin şüalanmaya həssaslığını artıran və ya azaldan maddə.",
+  "en": "radiomodifier",
+  "pos": "noun"
+ },
+ "radiomühafizə": {
+  "az": "Canlıların və ətraf mühitin şüalanmanın zərərli təsirindən qorunması.",
+  "en": "radiation protection, radioprotection",
+  "pos": "noun"
+ },
+ "radiomühəndis": {
+  "az": "Radiotexnika üzrə mühəndis.",
+  "en": "radio engineer",
+  "pos": "noun"
+ },
+ "radiomüqavimət": {
+  "az": "Orqanizmin və ya materialın şüalanmanın təsirinə davamlılığı.",
+  "en": "radioresistance",
+  "pos": "noun"
+ },
+ "radiomüraciət": {
+  "az": "Radio vasitəsilə dinləyicilərə, xalqa edilən müraciət.",
+  "en": "radio address, radio appeal",
+  "pos": "noun"
+ },
+ "radiomüsahibə": {
+  "az": "Radio üçün aparılan və ya radioda yayımlanan müsahibə.",
+  "en": "radio interview",
+  "pos": "noun"
+ },
+ "radiomüşahidə": {
+  "az": "Radiotexniki vasitələrlə (radiolokator, radioteleskop və s.) aparılan müşahidə.",
+  "en": "radio observation, radio monitoring",
+  "pos": "noun"
+ },
+ "radioməlumat": {
+  "az": "Radio ilə ötürülən məlumat, xəbər.",
+  "en": "radio message, radio report",
+  "pos": "noun"
+ },
+ "radiomərkəz": {
+  "az": "Radio verilişlərinin hazırlanıb ötürüldüyü və ya radiorabitənin idarə olunduğu mərkəz.",
+  "en": "radio centre",
+  "pos": "noun"
+ },
+ "radionaviqator": {
+  "az": "Radionaviqasiya vasitələri ilə gəminin və ya təyyarənin yolunu müəyyən edən mütəxəssis.",
+  "en": "radio navigator",
+  "pos": "noun"
+ },
+ "radiooptik": {
+  "az": "Radiooptikaya aid olan.",
+  "en": "radio-optical",
+  "pos": "adjective"
+ },
+ "radiooptika": {
+  "az": "Radiodalğaların yayılmasını optika üsulları və qanunları əsasında öyrənən fizika sahəsi.",
+  "en": "radio optics",
+  "pos": "noun"
+ },
+ "radiooçerk": {
+  "az": "Radio üçün hazırlanmış oçerk; publisistik radio verilişi.",
+  "en": "radio sketch, radio feature",
+  "pos": "noun"
+ },
+ "radiopaket": {
+  "skip": "meaning not certain"
+ },
+ "radiopartladıcı": {
+  "az": "Radiosiqnal vasitəsilə işə salınan (radiopartladıcı qurğu).",
+  "en": "radio-detonated, radio-controlled (of an explosive device)",
+  "pos": "adjective"
+ },
+ "radiopelenqasiya": {
+  "az": "Radiosiqnalı göndərən mənbənin istiqamətinin təyin edilməsi.",
+  "en": "radio direction finding",
+  "pos": "noun"
+ },
+ "radiopovest": {
+  "az": "Radioda səsləndirilmək üçün hazırlanmış povest.",
+  "en": "radio novella",
+  "pos": "noun"
+ },
+ "radioprotektor": {
+  "az": "Orqanizmi şüalanmanın zərərli təsirindən qoruyan dərman maddəsi.",
+  "en": "radioprotector, radioprotective agent",
+  "pos": "noun"
+ },
+ "radioqrammofon": {
+  "az": "Radioqəbuledici ilə qrammofonu birləşdirən cihaz.",
+  "en": "radiogram, radio-gramophone",
+  "pos": "noun"
+ },
+ "radioquraşdırıcı": {
+  "az": "Radioaparatları yığan və quraşdıran usta.",
+  "en": "radio fitter, radio installer",
+  "pos": "noun"
+ },
+ "radioqurğu": {
+  "az": "Radiorabitə və ya radio yayımı üçün qurğu.",
+  "en": "radio installation, radio equipment",
+  "pos": "noun"
+ },
+ "radioqüllə": {
+  "az": "Radioantenlərin quraşdırıldığı hündür qüllə.",
+  "en": "radio tower, radio mast",
+  "pos": "noun"
+ },
+ "radioreaktor": {
+  "skip": "meaning not certain"
+ },
+ "radioreflektor": {
+  "az": "Radiodalğaları əks etdirən qurğu.",
+  "en": "radio reflector",
+  "pos": "noun"
+ },
+ "radioreklam": {
+  "az": "Radio ilə yayımlanan reklam.",
+  "en": "radio advertising, radio advertisement",
+  "pos": "noun"
+ },
+ "radiosalnamə": {
+  "az": "Mühüm hadisələri xronoloji qaydada işıqlandıran radio verilişi.",
+  "en": "radio chronicle",
+  "pos": "noun"
+ },
+ "radioservis": {
+  "skip": "meaning not certain"
+ },
+ "radiosistem": {
+  "az": "Radiorabitə, radionaviqasiya və s. üçün radiotexniki vasitələr sistemi.",
+  "en": "radio system",
+  "pos": "noun"
+ },
+ "radiospektrometr": {
+  "az": "Radiodalğalar diapazonunda spektri ölçən cihaz.",
+  "en": "radio spectrometer",
+  "pos": "noun"
+ },
+ "radiospektrometrik": {
+  "az": "Radiospektrometriyaya aid olan.",
+  "en": "radiospectrometric",
+  "pos": "adjective"
+ },
+ "radiospektroskopiya": {
+  "az": "Maddənin radiodalğaları udmasını və şüalandırmasını öyrənən spektroskopiya sahəsi.",
+  "en": "radiofrequency spectroscopy, radio spectroscopy",
+  "pos": "noun"
+ },
+ "radioteleidarəetmə": {
+  "az": "Qurğuların radiosiqnallar vasitəsilə uzaqdan idarə edilməsi.",
+  "en": "radio remote control",
+  "pos": "noun"
+ },
+ "radiotelemetrik": {
+  "az": "Radiotelemetriyaya aid olan.",
+  "en": "radiotelemetric",
+  "pos": "adjective"
+ },
+ "radiotelemetriya": {
+  "az": "Ölçü məlumatlarının uzaqdakı obyektdən radio vasitəsilə ötürülməsi.",
+  "en": "radio telemetry",
+  "pos": "noun"
+ },
+ "radiotelemexanik": {
+  "az": "Radiotelemexanika üzrə mütəxəssis.",
+  "en": "radio telemechanics specialist",
+  "pos": "noun"
+ },
+ "radiotelemexanika": {
+  "az": "Mexanizm və proseslərin radio vasitəsilə uzaqdan idarə olunması və onlara nəzarət sahəsi.",
+  "en": "radio telemechanics",
+  "pos": "noun"
+ },
+ "radioteletayp": {
+  "az": "Mətni radio kanalı ilə ötürüb avtomatik çap edən aparat.",
+  "en": "radioteletype",
+  "pos": "noun"
+ },
+ "radioteleteatr": {
+  "skip": "meaning not certain"
+ },
+ "radiotelevizor": {
+  "skip": "meaning not certain"
+ },
+ "radioteleölçmə": {
+  "az": "Ölçmə məlumatlarının radio vasitəsilə uzaq məsafəyə ötürülməsi.",
+  "en": "radio telemetering",
+  "pos": "noun"
+ },
+ "radioteodolit": {
+  "az": "Radiozondu izləyərək küləyin istiqamətini və sürətini təyin etməyə imkan verən cihaz.",
+  "en": "radio theodolite",
+  "pos": "noun"
+ },
+ "radioterapevt": {
+  "az": "Şüa terapiyası ilə müalicə edən həkim.",
+  "en": "radiotherapist",
+  "pos": "noun"
+ },
+ "radioterapevtik": {
+  "az": "Şüa terapiyasına aid olan.",
+  "en": "radiotherapeutic",
+  "pos": "adjective"
+ },
+ "radiotoksikologiya": {
+  "az": "Radioaktiv maddələrin orqanizmə zəhərli təsirini öyrənən toksikologiya sahəsi.",
+  "en": "radiotoxicology",
+  "pos": "noun"
+ },
+ "radiotoksikoloji": {
+  "az": "Radiotoksikologiyaya aid olan.",
+  "en": "radiotoxicological",
+  "pos": "adjective"
+ },
+ "radiotoksikoloq": {
+  "az": "Radiotoksikologiya üzrə mütəxəssis.",
+  "en": "radiotoxicologist",
+  "pos": "noun"
+ },
+ "radiotoksin": {
+  "az": "Şüalanma nəticəsində orqanizmdə yaranan zəhərli maddə.",
+  "en": "radiotoxin",
+  "pos": "noun"
+ },
+ "radiotolerant": {
+  "az": "Şüalanmanın təsirinə dözümlü olan.",
+  "en": "radiotolerant",
+  "pos": "adjective"
+ },
+ "radiotolerantlıq": {
+  "az": "Orqanizmin şüalanmanın təsirinə dözümlülüyü.",
+  "en": "radiotolerance",
+  "pos": "noun"
+ },
+ "radiotorium": {
+  "az": "Toriumun radioaktiv izotopu, torium-228.",
+  "en": "radiothorium",
+  "pos": "noun"
+ },
+ "radioturnir": {
+  "skip": "meaning not certain"
+ },
+ "radiotutma": {
+  "skip": "meaning not certain"
+ },
+ "radiotəbabət": {
+  "az": "Şüalanmadan və radioaktiv maddələrdən müalicə və diaqnostika məqsədilə istifadə edən tibb sahəsi.",
+  "en": "radiation medicine",
+  "pos": "noun"
+ },
+ "radiotəbliğat": {
+  "az": "Radio vasitəsilə aparılan təbliğat.",
+  "en": "radio propaganda",
+  "pos": "noun"
+ },
+ "radioulduz": {
+  "az": "Güclü radioşüalanma mənbəyi olan kosmik obyekt.",
+  "en": "radio star, radio source",
+  "pos": "noun"
+ },
+ "radiouzadıcı": {
+  "skip": "meaning not certain"
+ },
+ "radioxidmət": {
+  "skip": "meaning not certain"
+ },
+ "radioyarış": {
+  "skip": "meaning not certain"
+ },
+ "radioyayıcı": {
+  "skip": "meaning not certain"
+ },
+ "radioyayımlama": {
+  "az": "Verilişlərin radio ilə yayılması.",
+  "en": "radio broadcasting",
+  "pos": "noun"
+ },
+ "radioyüksəklikölçən": {
+  "az": "Radiodalğaların yerdən əks olunmasına əsasən uçuş hündürlüyünü ölçən cihaz.",
+  "en": "radio altimeter",
+  "pos": "noun"
+ },
+ "radiozondlama": {
+  "az": "Atmosferin radiozond vasitəsilə tədqiq edilməsi.",
+  "en": "radiosonde sounding",
+  "pos": "noun"
+ },
+ "radiozondlamaq": {
+  "az": "Atmosferi radiozond vasitəsilə tədqiq etmək.",
+  "en": "to sound (the atmosphere) by radiosonde",
+  "pos": "verb"
+ },
+ "radiozondlaşdırma": {
+  "skip": "meaning not certain"
+ },
+ "radiozondlaşdırmaq": {
+  "skip": "meaning not certain"
+ },
+ "radioşirkət": {
+  "az": "Radio verilişləri hazırlayıb yayan şirkət.",
+  "en": "radio company, radio broadcaster",
+  "pos": "noun"
+ },
+ "radioşüalı": {
+  "skip": "meaning not certain"
+ },
+ "radioşüasız": {
+  "skip": "meaning not certain"
+ },
+ "radioşəbəkə": {
+  "az": "Radiorabitə və ya yayım üçün bir-biri ilə əlaqəli stansiyalar şəbəkəsi.",
+  "en": "radio network",
+  "pos": "noun"
+ },
+ "santilitr": {
+  "az": "Litrin yüzdə birinə bərabər həcm vahidi.",
+  "en": "centilitre",
+  "pos": "noun"
+ },
+ "santiqram": {
+  "az": "Qramın yüzdə birinə bərabər kütlə vahidi.",
+  "en": "centigram",
+  "pos": "noun"
+ },
+ "santiqramlıq": {
+  "az": "Müəyyən sayda santiqram çəkisi olan (məs.: beş santiqramlıq).",
+  "en": "weighing a given number of centigrams",
+  "pos": "adjective"
+ },
+ "sosioekologiya": {
+  "az": "Cəmiyyətlə təbii mühit arasındakı qarşılıqlı əlaqələri öyrənən elm sahəsi.",
+  "en": "socioecology, social ecology",
+  "pos": "noun"
+ },
+ "sosiofobiya": {
+  "az": "İnsanlar arasında olmaqdan, ictimai vəziyyətlərdən güclü qorxu; sosial fobiya.",
+  "en": "social phobia, sociophobia",
+  "pos": "noun"
+ },
+ "superarbitr": {
+  "az": "İki arbitr razılığa gəlmədikdə mübahisəni son olaraq həll edən üçüncü arbitr.",
+  "en": "umpire, superarbiter (deciding arbitrator)",
+  "pos": "noun"
+ },
+ "superekspres": {
+  "az": "Çox az dayanmaqla xüsusilə yüksək sürətlə gedən ekspres qatar.",
+  "en": "super express (train)",
+  "pos": "noun"
+ },
+ "superfaşizm": {
+  "skip": "meaning not certain"
+ },
+ "superfilm": {
+  "az": "Böyük büdcə ilə çəkilmiş, geniş miqyaslı və çox uğurlu film.",
+  "en": "blockbuster, superfilm",
+  "pos": "noun"
+ },
+ "superfiniş": {
+  "az": "Metal səthin xırda dənəli abraziv bruslarla son, çox incə cilalanması üsulu.",
+  "en": "superfinishing (machining)",
+  "pos": "noun",
+  "parts": false
+ },
+ "superkarqo": {
+  "az": "Ticarət gəmisində yükün qəbulu, yerləşdirilməsi və təhvilinə cavabdeh olan şəxs.",
+  "en": "supercargo",
+  "pos": "noun"
+ },
+ "supermikron": {
+  "skip": "meaning not certain"
+ },
+ "supertanker": {
+  "az": "Yükgötürmə qabiliyyəti çox böyük olan neft tankeri.",
+  "en": "supertanker",
+  "pos": "noun"
+ },
+ "superteleskop": {
+  "az": "Çox böyük və güclü teleskop.",
+  "en": "super telescope",
+  "pos": "noun"
+ },
+ "superyaxta": {
+  "az": "Çox böyük və dəbdəbəli şəxsi yaxta.",
+  "en": "superyacht",
+  "pos": "noun"
+ },
+ "superyüngül": {
+  "az": "Çox yüngül olan (superyüngül material).",
+  "en": "ultralight, superlight",
+  "pos": "adjective"
+ },
+ "telealmanax": {
+  "az": "Müxtəlif mövzularda süjetlərdən ibarət televiziya verilişi.",
+  "en": "television almanac (TV magazine programme)",
+  "pos": "noun"
+ },
+ "teleampermetr": {
+  "az": "Elektrik cərəyanının şiddətini uzaqdan ölçməyə imkan verən ampermetr.",
+  "en": "teleammeter, remote-reading ammeter",
+  "pos": "noun"
+ },
+ "teleanons": {
+  "az": "Televiziya ilə verilən elan; televiziya verilişinin anonsu.",
+  "en": "TV announcement, TV trailer",
+  "pos": "noun"
+ },
+ "teleanten": {
+  "az": "Televiziya siqnallarını qəbul edən anten.",
+  "en": "television antenna, TV aerial",
+  "pos": "noun"
+ },
+ "teleantenli": {
+  "az": "Televiziya anteni olan.",
+  "en": "with a TV antenna",
+  "pos": "adjective"
+ },
+ "teleaparat": {
+  "az": "Televiziya verilişlərini qəbul edən və ya ötürən aparat.",
+  "en": "television set; television apparatus",
+  "pos": "noun"
+ },
+ "teleaparıcılıq": {
+  "az": "Televiziya verilişlərinin aparıcısı olma; bu peşə.",
+  "en": "TV presenting, television hosting",
+  "pos": "noun"
+ },
+ "teleatelye": {
+  "az": "Televizorların təmiri ilə məşğul olan emalatxana.",
+  "en": "TV repair shop",
+  "pos": "noun"
+ },
+ "teleavadanlıq": {
+  "az": "Televiziya verilişlərinin çəkilişi və yayımı üçün avadanlıq.",
+  "en": "television equipment",
+  "pos": "noun"
+ },
+ "teleavtomat": {
+  "skip": "meaning not certain"
+ },
+ "teleavtomatik": {
+  "az": "Uzaqdan avtomatik idarə edilən; teleavtomatikaya aid olan.",
+  "en": "teleautomatic",
+  "pos": "adjective"
+ },
+ "teleavtomatlaşdırma": {
+  "az": "İstehsal proseslərinin uzaqdan avtomatik idarəetmə vasitələri ilə təchiz edilməsi.",
+  "en": "remote automation, teleautomation",
+  "pos": "noun"
+ },
+ "teleavtomatlaşdırmaq": {
+  "az": "Bir prosesi uzaqdan avtomatik idarəetmə vasitələri ilə təchiz etmək.",
+  "en": "to automate with remote control",
+  "pos": "verb"
+ },
+ "teleavtomatlaşdırılma": {
+  "az": "Prosesin uzaqdan avtomatik idarəetmə vasitələri ilə təchiz olunması.",
+  "en": "being remotely automated, teleautomation",
+  "pos": "noun"
+ },
+ "teleavtomatlaşdırılmaq": {
+  "az": "Uzaqdan avtomatik idarəetmə vasitələri ilə təchiz olunmaq.",
+  "en": "to be remotely automated",
+  "pos": "verb"
+ },
+ "telebinokl": {
+  "skip": "meaning not certain"
+ },
+ "telebirja": {
+  "skip": "meaning not certain"
+ },
+ "telebloklama": {
+  "skip": "meaning not certain"
+ },
+ "telediaproyektor": {
+  "skip": "meaning not certain"
+ },
+ "teledinamoqraf": {
+  "skip": "meaning not certain"
+ },
+ "teledramaturgiya": {
+  "az": "Televiziya üçün yazılan dram əsərləri; belə əsərlər yaratmaq sənəti.",
+  "en": "television drama (as a genre)",
+  "pos": "noun"
+ },
+ "teledüşərli": {
+  "skip": "meaning not certain"
+ },
+ "teledərs": {
+  "az": "Televiziya ilə yayımlanan dərs.",
+  "en": "TV lesson, televised lesson",
+  "pos": "noun"
+ },
+ "teleemal": {
+  "az": "Məlumatların rabitə kanalları vasitəsilə uzaqdan emalı.",
+  "en": "teleprocessing",
+  "pos": "noun"
+ },
+ "telefaks": {
+  "az": "Sənəd və təsvirləri telefon xətti ilə ötürən aparat; faks.",
+  "en": "telefax, fax",
+  "pos": "noun"
+ },
+ "telefitnes": {
+  "skip": "meaning not certain"
+ },
+ "telefonoqrafiya": {
+  "skip": "meaning not certain"
+ },
+ "telefotometr": {
+  "az": "Uzaqdakı cisimlərin parlaqlığını ölçən fotometr.",
+  "en": "telephotometer",
+  "pos": "noun"
+ },
+ "telefotoobyektiv": {
+  "az": "Uzaqdakı cisimləri böyüdülmüş halda çəkməyə imkan verən uzunfokuslu obyektiv.",
+  "en": "telephoto lens",
+  "pos": "noun"
+ },
+ "telefotoqrafiya": {
+  "skip": "meaning not certain"
+ },
+ "telegüzgü": {
+  "skip": "meaning not certain"
+ },
+ "telehesabat": {
+  "az": "Televiziya ilə verilən reportaj, hesabat.",
+  "en": "television report",
+  "pos": "noun"
+ },
+ "teleicmal": {
+  "az": "Hadisələrin qısa icmalını verən televiziya verilişi.",
+  "en": "TV review, television news roundup",
+  "pos": "noun"
+ },
+ "teleicmalçı": {
+  "az": "Televiziyada hadisələri şərh edən icmalçı.",
+  "en": "television commentator, TV news analyst",
+  "pos": "noun"
+ },
+ "teleidarə": {
+  "az": "Qurğuların və proseslərin uzaqdan idarə olunması.",
+  "en": "remote control, telecontrol",
+  "pos": "noun"
+ },
+ "teleinformatika": {
+  "az": "Məlumatın kompüter və telekommunikasiya vasitələri ilə ötürülməsini və emalını öyrənən sahə.",
+  "en": "telematics, teleinformatics",
+  "pos": "noun"
+ },
+ "telejurnalistlik": {
+  "az": "Televiziya jurnalisti olma; televiziya jurnalistikası ilə məşğul olma.",
+  "en": "television journalism (as a profession)",
+  "pos": "noun"
+ },
+ "telekameralı": {
+  "az": "Telekamera ilə təchiz olunmuş.",
+  "en": "equipped with a TV camera",
+  "pos": "adjective"
+ },
+ "telekamerasız": {
+  "az": "Telekamerası olmayan.",
+  "en": "without a TV camera",
+  "pos": "adjective"
+ }
+}

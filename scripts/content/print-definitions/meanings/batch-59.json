@@ -1,0 +1,895 @@
+{
+ "biopsixoloji": {
+  "az": "Biopsixologiyaya aid olan; psixi proseslərin bioloji əsasları ilə bağlı olan.",
+  "en": "biopsychological",
+  "pos": "adjective"
+ },
+ "bioqütb": {
+  "skip": "meaning not certain"
+ },
+ "bioreagent": {
+  "az": "Canlı orqanizmlərdən və ya onların məhsullarından (fermentlər, mikrob preparatları) ibarət olan reagent.",
+  "en": "bioreagent, biological reagent",
+  "pos": "noun"
+ },
+ "bioregionalizm": {
+  "az": "İnsan həyatının və idarəçiliyin inzibati sərhədlərə deyil, təbii bioregionlara uyğun qurulmasını irəli sürən ekoloji baxış.",
+  "en": "bioregionalism",
+  "pos": "noun"
+ },
+ "biorobot": {
+  "az": "Canlı orqanizmin quruluşunu və ya davranışını təqlid edən, yaxud bioloji hissələri olan robot.",
+  "en": "biorobot",
+  "pos": "noun"
+ },
+ "biosikl": {
+  "az": "Biosferin həyat şəraitinə görə fərqlənən ən iri bölmələrindən biri (quru, dəniz, daxili sular biosiklləri).",
+  "en": "biocycle (major division of the biosphere: land, sea, inland waters)",
+  "pos": "noun"
+ },
+ "biososioloji": {
+  "az": "Biososiologiyaya aid olan; ictimai həyatı və davranışı bioloji amillərlə əlaqədə öyrənən.",
+  "en": "biosociological",
+  "pos": "adjective"
+ },
+ "biospeleologiya": {
+  "az": "Mağaralarda yaşayan canlıları və onların həyat şəraitini öyrənən elm sahəsi.",
+  "en": "biospeleology",
+  "pos": "noun"
+ },
+ "biostansiya": {
+  "az": "Canlı təbiəti təbii şəraitdə öyrənmək üçün yaradılan elmi-tədqiqat məntəqəsi; bioloji stansiya.",
+  "en": "biological station, field research station",
+  "pos": "noun"
+ },
+ "biosüzgəc": {
+  "az": "Çirkab sularını və ya havanı mikroorqanizmlərin köməyi ilə təmizləyən qurğu; biofiltr.",
+  "en": "biofilter",
+  "pos": "noun"
+ },
+ "biotelemetriya": {
+  "az": "Canlı orqanizmin fizioloji göstəricilərinin (nəbz, temperatur və s.) məsafədən ölçülüb ötürülməsi.",
+  "en": "biotelemetry",
+  "pos": "noun"
+ },
+ "biotoksin": {
+  "az": "Canlı orqanizmlərin (bakteriya, göbələk, bitki, heyvan) hasil etdiyi zəhərli maddə.",
+  "en": "biotoxin",
+  "pos": "noun"
+ },
+ "biotransformasiya": {
+  "az": "Maddələrin canlı orqanizmdə və ya fermentlərin təsiri ilə kimyəvi dəyişikliyə uğraması (məs., dərmanların).",
+  "en": "biotransformation",
+  "pos": "noun"
+ },
+ "biotəmizləyici": {
+  "az": "Bioloji üsulla, mikroorqanizmlərin köməyi ilə təmizləyən (biotəmizləyici qurğular).",
+  "en": "biological-treatment, biopurifying (e.g. biological treatment plant)",
+  "pos": "adjective"
+ },
+ "biotənzimləyici": {
+  "az": "Canlı orqanizmdə bioloji prosesləri (boy, inkişaf və s.) tənzimləyən maddə; bioregulyator.",
+  "en": "bioregulator",
+  "pos": "noun"
+ },
+ "bioxronometr": {
+  "skip": "meaning not certain"
+ },
+ "biozavod": {
+  "az": "Bioloji preparatlar (peyvəndlər, zərdablar, biogübrələr və s.) istehsal edən müəssisə.",
+  "en": "biological products plant",
+  "pos": "noun"
+ },
+ "biozona": {
+  "az": "Stratiqrafiyada müəyyən qazıntı orqanizm qalıqları ilə səciyyələnən süxur qatı; oxşar canlı aləmi olan təbii zona.",
+  "en": "biozone",
+  "pos": "noun"
+ },
+ "bioötürücü": {
+  "skip": "meaning not certain"
+ },
+ "eksfiltrasiya": {
+  "az": "Suyun, havanın və s. boru, kanal və ya bina örtüyündən xaricə sızması.",
+  "en": "exfiltration",
+  "pos": "noun"
+ },
+ "eksplantasiya": {
+  "az": "Orqanizmdən götürülmüş toxuma və ya hüceyrələrin süni mühitdə orqanizmdən kənarda yetişdirilməsi; tibbdə implantın çıxarılması.",
+  "en": "explantation",
+  "pos": "noun",
+  "parts": false
+ },
+ "ekspulverizasiya": {
+  "skip": "meaning not certain"
+ },
+ "ekssentrizm": {
+  "skip": "meaning not certain"
+ },
+ "ekstent": {
+  "skip": "meaning not certain"
+ },
+ "ekstenzor": {
+  "az": "Bədən hissəsini, məsələn, oynağı açan, düzəldən əzələ; açıcı əzələ.",
+  "en": "extensor (muscle)",
+  "pos": "noun",
+  "parts": false
+ },
+ "ekstralinqvistika": {
+  "az": "Dilin işlənməsinə təsir edən dilxarici (sosial, tarixi, mədəni) amillərin məcmusu və onları öyrənən sahə.",
+  "en": "extralinguistics",
+  "pos": "noun"
+ },
+ "elektroaerozol": {
+  "az": "Hissəcikləri elektrik yükü daşıyan aerozol (müalicədə inhalyasiya üçün işlədilir).",
+  "en": "electroaerosol",
+  "pos": "noun"
+ },
+ "elektroanaliz": {
+  "az": "Maddənin tərkibini elektrik cərəyanının köməyi ilə, xüsusən elektroliz yolu ilə təyin etmə üsulu.",
+  "en": "electroanalysis",
+  "pos": "noun"
+ },
+ "elektroaparat": {
+  "az": "Elektrik enerjisi ilə işləyən aparat, cihaz.",
+  "en": "electrical apparatus, electric appliance",
+  "pos": "noun"
+ },
+ "elektroavtobus": {
+  "az": "Elektrik mühərriki ilə hərəkət edən, akkumulyatordan qidalanan avtobus.",
+  "en": "electric bus",
+  "pos": "noun"
+ },
+ "elektroavtomatika": {
+  "az": "Elektrik vasitələri ilə maşın və proseslərin avtomatik idarəsini təmin edən qurğular və bu texnika sahəsi.",
+  "en": "electrical automation, electroautomatics",
+  "pos": "noun"
+ },
+ "elektroburğu": {
+  "az": "Elektrik mühərriki ilə işləyən burğu (o cümlədən quyu qazmada işlədilən).",
+  "en": "electric drill; electrodrill (for boreholes)",
+  "pos": "noun"
+ },
+ "elektrocihaz": {
+  "az": "Elektrik enerjisi ilə işləyən cihaz.",
+  "en": "electrical device, electric appliance",
+  "pos": "noun"
+ },
+ "elektrocərrahiyyə": {
+  "az": "Toxumaların yüksək tezlikli elektrik cərəyanı ilə kəsilməsi və qan axınının dayandırılması ilə aparılan cərrahiyyə üsulu.",
+  "en": "electrosurgery",
+  "pos": "noun"
+ },
+ "elektrocərəyan": {
+  "az": "Elektrik yüklü hissəciklərin istiqamətlənmiş hərəkəti; elektrik cərəyanı.",
+  "en": "electric current",
+  "pos": "noun"
+ },
+ "elektrodepo": {
+  "az": "Elektrik qatarlarının, metro vaqonlarının saxlanıldığı, baxış və təmir olunduğu depo.",
+  "en": "electric train depot (e.g. metro depot)",
+  "pos": "noun"
+ },
+ "elektrodializator": {
+  "az": "Məhlulları elektrik sahəsi və membranlar vasitəsilə ionlardan təmizləyən qurğu; elektrodializ aparatı.",
+  "en": "electrodialyzer",
+  "pos": "noun"
+ },
+ "elektrodiaqnostika": {
+  "az": "Sinir və əzələlərin elektrik cərəyanına cavab reaksiyasını yoxlamaqla aparılan diaqnostika üsulu.",
+  "en": "electrodiagnostics",
+  "pos": "noun"
+ },
+ "elektrodinamiki": {
+  "az": "Elektrodinamikaya aid olan; elektrik cərəyanlarının və elektromaqnit sahələrinin qarşılıqlı təsiri ilə bağlı.",
+  "en": "electrodynamic",
+  "pos": "adjective"
+ },
+ "elektrodrel": {
+  "az": "Elektrik mühərriki ilə işləyən əl drel.",
+  "en": "electric drill, power drill",
+  "pos": "noun"
+ },
+ "elektrodrenaj": {
+  "az": "Yeraltı metal qurğuları azan cərəyanların yaratdığı korroziyadan qorumaq üçün bu cərəyanları kənara ötürmə; torpağın elektrik vasitəsilə qurudulması.",
+  "en": "electrical drainage (of stray currents); electro-osmotic drainage",
+  "pos": "noun"
+ },
+ "elektroeroziya": {
+  "az": "Elektrik boşalmalarının təsiri ilə metal səthinin dağılması; metalların bu üsulla emalı.",
+  "en": "electrical erosion; electrical discharge machining",
+  "pos": "noun"
+ },
+ "elektrofiltr": {
+  "az": "Qazları toz və başqa bərk hissəciklərdən elektrik sahəsinin köməyi ilə təmizləyən qurğu.",
+  "en": "electrostatic precipitator, electrofilter",
+  "pos": "noun"
+ },
+ "elektrofizik": {
+  "az": "Elektrofizika üzrə mütəxəssis.",
+  "en": "electrophysicist",
+  "pos": "noun"
+ },
+ "elektrofobiya": {
+  "az": "Elektrikdən, elektrik cihazlarından xəstəlik dərəcəsində qorxma.",
+  "en": "electrophobia, fear of electricity",
+  "pos": "noun"
+ },
+ "elektrofotoqrafiya": {
+  "az": "İşığa həssas yarımkeçirici təbəqədə elektrostatik yük vasitəsilə təsvir alma üsulu (surətçıxarma və lazer çapında).",
+  "en": "electrophotography, xerography",
+  "pos": "noun"
+ },
+ "elektrofotosurət": {
+  "az": "Elektrofotoqrafiya üsulu ilə çıxarılmış surət.",
+  "en": "electrophotographic copy, xerographic copy",
+  "pos": "noun"
+ },
+ "elektrofototəsvir": {
+  "az": "Elektrofotoqrafiya üsulu ilə alınmış təsvir.",
+  "en": "electrophotographic image",
+  "pos": "noun"
+ },
+ "elektrogenerator": {
+  "az": "Mexaniki və ya başqa növ enerjini elektrik enerjisinə çevirən maşın.",
+  "en": "electric generator",
+  "pos": "noun"
+ },
+ "elektrohəssas": {
+  "az": "Elektrik cərəyanının və ya elektrik sahəsinin təsirinə həssas olan (elektrohəssas kağız).",
+  "en": "electrosensitive",
+  "pos": "adjective"
+ },
+ "elektroimpuls": {
+  "az": "Qısa müddətli elektrik cərəyanı və ya gərginlik sıçrayışı; elektrik impulsu.",
+  "en": "electrical pulse, electric impulse",
+  "pos": "noun"
+ },
+ "elektrointeqrator": {
+  "az": "Diferensial tənlikləri elektrik modelləşdirməsi yolu ilə həll edən analoq hesablama qurğusu.",
+  "en": "electrointegrator (analog computing device)",
+  "pos": "noun"
+ },
+ "elektrokatalizator": {
+  "az": "Elektrod üzərində gedən elektrokimyəvi reaksiyaları sürətləndirən katalizator.",
+  "en": "electrocatalyst",
+  "pos": "noun"
+ },
+ "elektrokəşfiyyat": {
+  "az": "Süxurların elektrik xassələrini ölçməklə faydalı qazıntıların axtarışı və geoloji quruluşun öyrənilməsi üsulu.",
+  "en": "electrical prospecting, electrical survey (geophysics)",
+  "pos": "noun"
+ },
+ "elektromagistral": {
+  "az": "Elektrikləşdirilmiş magistral dəmir yolu xətti.",
+  "en": "electrified main railway line",
+  "pos": "noun"
+ },
+ "elektromeqafon": {
+  "az": "Səsi elektrik gücləndiricisi vasitəsilə gücləndirən əl meqafonu.",
+  "en": "electric megaphone, loudhailer",
+  "pos": "noun"
+ },
+ "elektromexanizm": {
+  "az": "Elektrik mühərriki ilə hərəkətə gətirilən mexanizm.",
+  "en": "electrically driven mechanism",
+  "pos": "noun"
+ },
+ "elektrooptika": {
+  "az": "Elektrik sahəsinin maddələrin optik xassələrinə və optik hadisələrə təsirini öyrənən fizika sahəsi.",
+  "en": "electro-optics",
+  "pos": "noun"
+ },
+ "elektroorqan": {
+  "az": "Səsi elektrik və ya elektron üsulla yaradan orqan (musiqi aləti); bəzi balıqlarda elektrik boşalması yaradan orqan.",
+  "en": "electronic organ; electric organ (of certain fish)",
+  "pos": "noun"
+ },
+ "elektroqatar": {
+  "az": "Elektrik enerjisi ilə hərəkət edən qatar.",
+  "en": "electric train",
+  "pos": "noun"
+ },
+ "elektroqaynaqçı": {
+  "az": "Elektrik qaynağı ilə məşğul olan fəhlə.",
+  "en": "electric welder",
+  "pos": "noun"
+ },
+ "elektroqril": {
+  "az": "Elektriklə işləyən qril.",
+  "en": "electric grill",
+  "pos": "noun"
+ },
+ "elektroqövs": {
+  "az": "İki elektrod arasında qazda yaranan davamlı elektrik boşalması; elektrik qövsü.",
+  "en": "electric arc",
+  "pos": "noun"
+ },
+ "elektroqələm": {
+  "skip": "meaning not certain"
+ },
+ "elektrorele": {
+  "az": "Elektrik siqnalının təsiri ilə başqa dövrəni açıb-bağlayan cihaz; elektrik relesi.",
+  "en": "electrical relay",
+  "pos": "noun"
+ },
+ "elektrosemafor": {
+  "az": "Elektrik intiqalı ilə idarə olunan semafor (dəmir yolu siqnalı).",
+  "en": "electric semaphore (railway signal)",
+  "pos": "noun"
+ },
+ "elektrosink": {
+  "az": "Elektroliz üsulu ilə alınan təmiz sink.",
+  "en": "electrolytic zinc",
+  "pos": "noun"
+ },
+ "elektrotermometr": {
+  "az": "Temperaturu elektrik kəmiyyətlərinin (müqavimətin, termo-e.h.q.-nin) dəyişməsinə görə ölçən termometr.",
+  "en": "electric thermometer",
+  "pos": "noun"
+ },
+ "elektrotomoqraf": {
+  "az": "Elektrotomoqrafiya aparmaq üçün cihaz.",
+  "en": "electrical tomography device",
+  "pos": "noun"
+ },
+ "elektrotomoqrafiya": {
+  "az": "Obyektin (yer qatlarının, bədənin) daxili quruluşunun elektrik müqavimətini ölçməklə qatlar üzrə təsvirini alma üsulu.",
+  "en": "electrical (resistivity or impedance) tomography",
+  "pos": "noun"
+ },
+ "elektrotravma": {
+  "az": "Elektrik cərəyanının orqanizmə təsirindən yaranan zədə.",
+  "en": "electrical injury, electrotrauma",
+  "pos": "noun"
+ },
+ "elektrotəhlil": {
+  "az": "Maddənin tərkibini elektrik cərəyanının köməyi ilə təyin etmə; elektroanaliz.",
+  "en": "electroanalysis",
+  "pos": "noun"
+ },
+ "elektrotəyyarə": {
+  "az": "Elektrik mühərriki ilə uçan təyyarə.",
+  "en": "electric aircraft",
+  "pos": "noun"
+ },
+ "elektrovalent": {
+  "az": "Atomlar arasında elektron verilib-alınması ilə yaranan, ion xarakterli (elektrovalent rabitə).",
+  "en": "electrovalent, ionic",
+  "pos": "adjective"
+ },
+ "elektroxrom": {
+  "skip": "meaning not certain"
+ },
+ "fotoaktiv": {
+  "az": "İşığın təsiri ilə fiziki və ya kimyəvi dəyişikliyə uğrayan, işığa qarşı fəal olan.",
+  "en": "photoactive",
+  "pos": "adjective"
+ },
+ "fotoaktivlik": {
+  "az": "Maddənin işığın təsiri altında fəallıq göstərmə, dəyişikliyə uğrama xassəsi.",
+  "en": "photoactivity",
+  "pos": "noun"
+ },
+ "fotoalıcı": {
+  "az": "İşıq siqnalını qəbul edib elektrik siqnalına çevirən qurğu.",
+  "en": "photodetector, optical receiver",
+  "pos": "noun"
+ },
+ "fotobatareya": {
+  "az": "İşıq enerjisini birbaşa elektrik enerjisinə çevirən fotoelementlər toplusu; günəş batareyası.",
+  "en": "photovoltaic battery, solar battery",
+  "pos": "noun"
+ },
+ "fotobiokimya": {
+  "az": "İşığın canlı orqanizmlərdə gedən biokimyəvi proseslərə təsirini öyrənən elm sahəsi.",
+  "en": "photobiochemistry",
+  "pos": "noun"
+ },
+ "fotoblok": {
+  "skip": "meaning not certain"
+ },
+ "fotobülleten": {
+  "az": "Əsasən fotoşəkillərdən ibarət bülleten.",
+  "en": "photo bulletin",
+  "pos": "noun"
+ },
+ "fotobərpa": {
+  "az": "Köhnə və ya zədələnmiş fotoşəkillərin bərpası.",
+  "en": "photo restoration",
+  "pos": "noun"
+ },
+ "fotodielektrik": {
+  "az": "İşıqlandırıldıqda dielektrik xassələri (nüfuzluğu, keçiriciliyi) dəyişən maddə.",
+  "en": "photodielectric",
+  "pos": "noun"
+ },
+ "fotodinamika": {
+  "skip": "meaning not certain"
+ },
+ "fotodisk": {
+  "skip": "meaning not certain"
+ },
+ "fotodizayn": {
+  "az": "Fotoşəkillərdən istifadə etməklə bədii tərtibat hazırlama; fotoşəkillərin bədii işlənməsi.",
+  "en": "photo design",
+  "pos": "noun"
+ },
+ "fotoekran": {
+  "skip": "meaning not certain"
+ },
+ "fotoekspozisiya": {
+  "az": "Fotoşəkillərdən ibarət ekspozisiya, sərgi.",
+  "en": "photo exhibition, photo display",
+  "pos": "noun"
+ },
+ "fotoelastik": {
+  "az": "Mexaniki gərginlik altında optik xassələri dəyişən, işığı ikiqat sındıran (fotoelastik material).",
+  "en": "photoelastic",
+  "pos": "adjective"
+ },
+ "fotoelastiklik": {
+  "az": "Şəffaf cisimlərin mexaniki gərginlik altında işığı ikiqat sındırma xassəsi; buna əsaslanan gərginlik ölçmə üsulu.",
+  "en": "photoelasticity",
+  "pos": "noun"
+ },
+ "fotoelektrod": {
+  "az": "İşıqlandırıldıqda elektron buraxan və ya elektrokimyəvi fəallığı dəyişən elektrod.",
+  "en": "photoelectrode",
+  "pos": "noun"
+ },
+ "fotoelektromaqnit": {
+  "skip": "meaning not certain"
+ },
+ "fotoemulsiya": {
+  "az": "Foto materialların səthinə çəkilən işığa həssas təbəqə (adətən jelatində gümüş halogenidləri).",
+  "en": "photographic emulsion",
+  "pos": "noun"
+ },
+ "fotoenergetika": {
+  "az": "Günəş işığını elektrik enerjisinə çevirməklə enerji istehsalı sahəsi.",
+  "en": "photovoltaics, solar power engineering",
+  "pos": "noun"
+ },
+ "fotoepilyasiya": {
+  "az": "Tüklərin güclü işıq impulsları ilə kökündən məhv edilməsi üsulu.",
+  "en": "photoepilation (IPL hair removal)",
+  "pos": "noun"
+ },
+ "fotofaksimile": {
+  "az": "Sənədin, əlyazmanın və s. fotoqrafiya üsulu ilə alınmış dəqiq surəti.",
+  "en": "photofacsimile",
+  "pos": "noun"
+ },
+ "fotofakt": {
+  "skip": "meaning not certain"
+ },
+ "fotofaza": {
+  "az": "Sutkalıq işıq-qaranlıq dövrünün işıqlı mərhələsi.",
+  "en": "photophase (light period)",
+  "pos": "noun"
+ },
+ "fotofilm": {
+  "skip": "meaning not certain"
+ },
+ "fotofiniş": {
+  "az": "Yarışlarda qalibi dəqiq müəyyən etmək üçün finiş anının xüsusi kamera ilə çəkilməsi; belə çəkiliş qurğusu.",
+  "en": "photo finish",
+  "pos": "noun"
+ },
+ "fotogenerasiya": {
+  "az": "İşığın təsiri ilə maddədə yük daşıyıcılarının (elektron və deşiklərin) yaranması.",
+  "en": "photogeneration (of charge carriers)",
+  "pos": "noun"
+ },
+ "fotogenerator": {
+  "skip": "meaning not certain"
+ },
+ "fotogücləndirici": {
+  "skip": "meaning not certain"
+ },
+ "fotoinformasiya": {
+  "az": "Fotoşəkil və qısa izahlı mətndən ibarət xəbər; fotojurnalistikanın janrı.",
+  "en": "photo news item (photojournalism genre)",
+  "pos": "noun"
+ },
+ "fotoionlaşma": {
+  "az": "Atom və ya molekulun işıq kvantını udaraq elektron itirməsi, iona çevrilməsi.",
+  "en": "photoionization",
+  "pos": "noun"
+ },
+ "fotokalorimetr": {
+  "skip": "meaning not certain"
+ },
+ "fotoklub": {
+  "az": "Fotoqrafiya həvəskarlarını birləşdirən klub.",
+  "en": "photo club, camera club",
+  "pos": "noun"
+ },
+ "fotokompozisiya": {
+  "skip": "meaning not certain"
+ },
+ "fotokompozisiyalı": {
+  "skip": "meaning not certain"
+ },
+ "fotoköşk": {
+  "az": "Fotoşəkil çəkmə və ya çapetmə xidməti göstərən köşk.",
+  "en": "photo kiosk, photo booth",
+  "pos": "noun"
+ },
+ "fotolitoqrafçı": {
+  "az": "Fotolitoqrafiya üsulu ilə çap formaları hazırlayan mütəxəssis.",
+  "en": "photolithographer",
+  "pos": "noun"
+ },
+ "fotolitoqrafçılıq": {
+  "az": "Fotolitoqrafçının peşəsi, işi.",
+  "en": "the trade of a photolithographer",
+  "pos": "noun"
+ },
+ "fotomateriallıq": {
+  "skip": "-lıq word, sense not certain"
+ },
+ "fotominerallaşma": {
+  "az": "Üzvi maddələrin işığın təsiri ilə mineral birləşmələrə (karbon qazı, su və s.) qədər parçalanması.",
+  "en": "photomineralization",
+  "pos": "noun"
+ },
+ "fotominerallaşmaq": {
+  "az": "İşığın təsiri ilə mineral birləşmələrə qədər parçalanmaq (üzvi maddələr haqqında).",
+  "en": "to undergo photomineralization",
+  "pos": "verb"
+ },
+ "fotomonoqrafiya": {
+  "az": "Bir mövzuya, şəxsə və ya yerə həsr olunmuş, əsasən fotoşəkillərdən ibarət kitab.",
+  "en": "photographic monograph",
+  "pos": "noun"
+ },
+ "fotoneqativ": {
+  "skip": "meaning not certain (photo negative vs. photonegative)"
+ },
+ "fotoneytron": {
+  "az": "Atom nüvəsinin qamma-kvant udması nəticəsində buraxılan neytron.",
+  "en": "photoneutron",
+  "pos": "noun"
+ },
+ "fotooçerk": {
+  "az": "Bir mövzunu ardıcıl fotoşəkillər silsiləsi ilə ətraflı açan publisistik əsər.",
+  "en": "photo essay, photo feature",
+  "pos": "noun"
+ },
+ "fotopanoram": {
+  "az": "Ardıcıl çəkilmiş fotoşəkillərin birləşdirilməsi ilə alınan geniş mənzərə təsviri.",
+  "en": "photo panorama, panoramic photograph",
+  "pos": "noun"
+ },
+ "fotopeyzaj": {
+  "az": "Təbiət mənzərəsini əks etdirən fotoşəkil; mənzərə fotoqrafiyası.",
+  "en": "landscape photograph",
+  "pos": "noun"
+ },
+ "fotoplakat": {
+  "az": "Fotoşəkil əsasında hazırlanmış plakat.",
+  "en": "photo poster",
+  "pos": "noun"
+ },
+ "fotoplan": {
+  "az": "Düzəldilmiş aerofotoşəkillərdən tərtib edilmiş, müəyyən miqyaslı fotoqrafik ərazi planı.",
+  "en": "photoplan, rectified aerial photomosaic",
+  "pos": "noun"
+ },
+ "fotoplastika": {
+  "skip": "meaning not certain"
+ },
+ "fotopriz": {
+  "skip": "meaning not certain"
+ },
+ "fotoproton": {
+  "az": "Atom nüvəsinin qamma-kvant udması nəticəsində buraxılan proton.",
+  "en": "photoproton",
+  "pos": "noun"
+ },
+ "fotopəncərə": {
+  "skip": "meaning not certain"
+ },
+ "fotoqeyd": {
+  "skip": "meaning not certain"
+ },
+ "fotoqram": {
+  "az": "Əşyaları işığa həssas kağız üzərinə qoyub işıqlandırmaqla kamerasız alınan təsvir; ölçmə üçün çəkilmiş fotoşəkil.",
+  "en": "photogram",
+  "pos": "noun",
+  "parts": false
+ },
+ "fotoqəzet": {
+  "az": "Əsasən fotoşəkillərdən ibarət qəzet və ya divar qəzeti.",
+  "en": "photo newspaper, photo wall newspaper",
+  "pos": "noun"
+ },
+ "fotoqəzetçi": {
+  "skip": "meaning not certain"
+ },
+ "fotoqəzetçilik": {
+  "skip": "meaning not certain"
+ },
+ "fotorabitə": {
+  "skip": "meaning not certain"
+ },
+ "fotoreaksiya": {
+  "az": "İşığın təsiri ilə baş verən kimyəvi reaksiya; orqanizmin işığa cavab reaksiyası.",
+  "en": "photoreaction, photochemical reaction",
+  "pos": "noun"
+ },
+ "fotoreaktiv": {
+  "az": "İşığın təsiri ilə reaksiyaya girən, işığa həssas (fotoreaktiv maddələr).",
+  "en": "photoreactive",
+  "pos": "adjective"
+ },
+ "fotorele": {
+  "az": "İşıq selinin dəyişməsinə görə elektrik dövrəsini açıb-bağlayan rele (məs., küçə işıqlarını avtomatik yandıran).",
+  "en": "photoelectric relay, photorelay",
+  "pos": "noun"
+ },
+ "fotorelyef": {
+  "skip": "meaning not certain"
+ },
+ "fotoreproduksiya": {
+  "az": "Sənədlərin, şəkillərin fotoqrafiya üsulu ilə çoxaldılması; belə üsulla alınmış surət.",
+  "en": "photoreproduction, photographic reproduction",
+  "pos": "noun"
+ },
+ "fotoreproduksiyalı": {
+  "az": "Fotoreproduksiyalarla təchiz olunmuş (fotoreproduksiyalı nəşr).",
+  "en": "with photographic reproductions",
+  "pos": "adjective"
+ },
+ "fotorobot": {
+  "az": "Şahidlərin təsvirinə əsasən axtarılan şəxsin üz cizgilərindən tərtib olunan portret.",
+  "en": "identikit picture, photofit, composite sketch",
+  "pos": "noun",
+  "parts": false
+ },
+ "fotosalon": {
+  "az": "Fotoşəkil çəkən və çap edən xidmət müəssisəsi; fotoatelye.",
+  "en": "photo studio",
+  "pos": "noun"
+ },
+ "fotosxem": {
+  "az": "Düzəldilməmiş aerofotoşəkillərin bir-birinə calanması ilə alınan təxmini ərazi təsviri.",
+  "en": "uncontrolled aerial photomosaic",
+  "pos": "noun"
+ },
+ "fototexnik": {
+  "az": "Fototexnika və fotoşəkillərin işlənməsi ilə məşğul olan mütəxəssis.",
+  "en": "photographic technician",
+  "pos": "noun"
+ },
+ "fototexniklik": {
+  "skip": "meaning not certain"
+ },
+ "fototopoqrafiya": {
+  "az": "Ərazinin fotoşəkillərinə əsasən topoqrafik xəritə və planların tərtib edilməsi üsulu.",
+  "en": "phototopography, photogrammetric surveying",
+  "pos": "noun"
+ },
+ "fototransformator": {
+  "az": "Aerofotoşəkilləri düzəldərək fotoplan tərtibi üçün yararlı hala salan fotoqrammetrik cihaz.",
+  "en": "phototransformer, rectifier (photogrammetry)",
+  "pos": "noun",
+  "parts": false
+ },
+ "fototropik": {
+  "az": "İşığın təsiri ilə işıq mənbəyinə doğru və ya əksinə əyilən (bitki orqanları haqqında); fototropizmə aid olan.",
+  "en": "phototropic",
+  "pos": "adjective",
+  "parts": false
+ },
+ "fototəbəqə": {
+  "az": "Foto materialların səthindəki işığa həssas təbəqə.",
+  "en": "photosensitive layer, photographic layer",
+  "pos": "noun"
+ },
+ "fototərtib": {
+  "skip": "meaning not certain"
+ },
+ "fototərtibçi": {
+  "skip": "meaning not certain"
+ },
+ "fototərtibçilik": {
+  "skip": "meaning not certain"
+ },
+ "fototəsvir": {
+  "az": "Fotoqrafiya üsulu ilə alınmış təsvir; fotoşəkil.",
+  "en": "photographic image, photograph",
+  "pos": "noun"
+ },
+ "fototəsvirli": {
+  "az": "Fotoşəkillərlə təchiz edilmiş, fototəsvirləri olan.",
+  "en": "photo-illustrated, with photographs",
+  "pos": "adjective"
+ },
+ "fotovitrin": {
+  "az": "Fotoşəkillərin nümayiş etdirildiyi vitrin.",
+  "en": "photo display case, photo showcase",
+  "pos": "noun"
+ },
+ "fotoyazı": {
+  "skip": "meaning not certain"
+ },
+ "fotozond": {
+  "skip": "meaning not certain"
+ },
+ "fotoəsər": {
+  "az": "Fotoqrafiya sənəti əsəri; bədii fotoşəkil.",
+  "en": "photographic work",
+  "pos": "noun"
+ },
+ "geoballistik": {
+  "skip": "meaning not certain"
+ },
+ "geoballistika": {
+  "skip": "meaning not certain"
+ },
+ "geobiologiya": {
+  "az": "Canlı orqanizmlərlə Yerin geoloji prosesləri və mühiti arasındakı qarşılıqlı əlaqəni öyrənən elm.",
+  "en": "geobiology",
+  "pos": "noun"
+ },
+ "geobiosfer": {
+  "skip": "meaning not certain"
+ },
+ "geoblok": {
+  "skip": "meaning not certain"
+ },
+ "geocoğrafi": {
+  "skip": "meaning not certain"
+ },
+ "geocoğrafiya": {
+  "skip": "meaning not certain"
+ },
+ "geodepressiya": {
+  "skip": "meaning not certain"
+ },
+ "geoekvivalent": {
+  "skip": "meaning not certain"
+ },
+ "geofaza": {
+  "skip": "meaning not certain"
+ },
+ "geogenerasiya": {
+  "skip": "meaning not certain"
+ },
+ "geokompleks": {
+  "az": "Relyef, iqlim, su, torpaq və canlı aləmin qarşılıqlı əlaqədə olduğu təbii ərazi kompleksi.",
+  "en": "geocomplex, natural territorial complex",
+  "pos": "noun"
+ },
+ "geokosmik": {
+  "az": "Yer və kosmosla bağlı olan; kosmosun Yerə təsiri ilə əlaqədar.",
+  "en": "geocosmic",
+  "pos": "adjective"
+ },
+ "geolokator": {
+  "az": "Obyektin coğrafi yerini müəyyən edib qeydə alan cihaz (məs., köçəri quşlara taxılan).",
+  "en": "geolocator",
+  "pos": "noun"
+ },
+ "geomikrobiologiya": {
+  "az": "Mikroorqanizmlərin geoloji və geokimyəvi proseslərdə rolunu öyrənən elm sahəsi.",
+  "en": "geomicrobiology",
+  "pos": "noun"
+ },
+ "geomikrobioloji": {
+  "az": "Geomikrobiologiyaya aid olan.",
+  "en": "geomicrobiological",
+  "pos": "adjective"
+ },
+ "geomorfogenez": {
+  "az": "Yer səthində relyef formalarının yaranması və inkişafı.",
+  "en": "geomorphogenesis (origin of landforms)",
+  "pos": "noun"
+ },
+ "geomədəniyyət": {
+  "skip": "meaning not certain"
+ },
+ "geopatogenez": {
+  "skip": "meaning not certain"
+ },
+ "geopotensial": {
+  "az": "Yerin ağırlıq qüvvəsi sahəsinin potensialı; vahid kütləni dəniz səviyyəsindən müəyyən hündürlüyə qaldırmaq üçün lazım olan iş.",
+  "en": "geopotential",
+  "pos": "noun"
+ },
+ "georadiokimya": {
+  "skip": "meaning not certain"
+ },
+ "georadiokimyəvi": {
+  "skip": "meaning not certain"
+ },
+ "geosferik": {
+  "az": "Geosferlərə (litosfer, hidrosfer, atmosfer və s.) aid olan.",
+  "en": "geospheric",
+  "pos": "adjective",
+  "parts": false
+ },
+ "geosikl": {
+  "skip": "meaning not certain"
+ },
+ "geostatistik": {
+  "az": "Geostatistikaya aid olan.",
+  "en": "geostatistical",
+  "pos": "adjective"
+ },
+ "geostatistika": {
+  "az": "Məkanda paylanmış məlumatları (yataqlar, torpaq göstəriciləri və s.) statistik üsullarla təhlil edən elm sahəsi.",
+  "en": "geostatistics",
+  "pos": "noun"
+ },
+ "geotermometr": {
+  "az": "Yer qatlarında, quyularda temperaturu ölçən termometr; süxurların əmələ gəlmə temperaturunu təyin etməyə imkan verən mineral.",
+  "en": "geothermometer",
+  "pos": "noun"
+ },
+ "geotexnik": {
+  "az": "Geotexnika üzrə mütəxəssis.",
+  "en": "geotechnical engineer",
+  "pos": "noun"
+ },
+ "geotexnologiya": {
+  "az": "Faydalı qazıntıların yerin təkində fiziki-kimyəvi üsullarla (yuyulma, əritmə, qazlaşdırma) çıxarılması texnologiyası.",
+  "en": "geotechnology (in-situ mining methods)",
+  "pos": "noun"
+ },
+ "geotopologiya": {
+  "skip": "meaning not certain"
+ },
+ "geotoponim": {
+  "skip": "meaning not certain"
+ },
+ "hidroantroponim": {
+  "skip": "meaning not certain"
+ },
+ "hidroarxeoloq": {
+  "az": "Sualtı arxeologiya ilə məşğul olan mütəxəssis.",
+  "en": "underwater archaeologist",
+  "pos": "noun"
+ },
+ "hidroayaqqabı": {
+  "az": "Suda və ya rütubətli şəraitdə geyilən, su keçirməyən ayaqqabı (dalğıc botları və s.).",
+  "en": "water shoes, waterproof footwear",
+  "pos": "noun"
+ },
+ "hidrobiosenoz": {
+  "az": "Su hövzəsində birgə yaşayan orqanizmlərin birliyi.",
+  "en": "aquatic biocenosis, hydrobiocenosis",
+  "pos": "noun"
+ },
+ "hidrobiotit": {
+  "az": "Biotitin hidratasiyası nəticəsində yaranan, biotitlə vermikulit arasında keçid təşkil edən mineral.",
+  "en": "hydrobiotite",
+  "pos": "noun"
+ },
+ "hidrocoğrafiya": {
+  "skip": "meaning not certain"
+ },
+ "hidrofizik": {
+  "az": "Hidrofizika üzrə mütəxəssis.",
+  "en": "hydrophysicist",
+  "pos": "noun"
+ },
+ "hidrofizika": {
+  "az": "Hidrosferdə (okean, dəniz, çay və göllərdə) gedən fiziki prosesləri öyrənən elm.",
+  "en": "hydrophysics",
+  "pos": "noun"
+ },
+ "hidroformant": {
+  "skip": "meaning not certain"
+ },
+ "hidrogeodinamika": {
+  "az": "Yeraltı suların hərəkətini və onun qanunauyğunluqlarını öyrənən hidrogeologiya bölməsi.",
+  "en": "hydrogeodynamics, groundwater dynamics",
+  "pos": "noun"
+ },
+ "hidroinkubator": {
+  "skip": "meaning not certain"
+ }
+}
