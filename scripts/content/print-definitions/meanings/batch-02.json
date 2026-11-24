@@ -25,7 +25,7 @@
  "rus-tatar": {"az": "Ruslar və tatarlarla bağlı olan (rus-tatar lüğəti).", "en": "Russian-Tatar", "pos": "adjective"},
  "yazıçı-publisist": {"az": "Həm bədii əsərlər, həm də ictimai-siyasi yazılar yazan müəllif.", "en": "writer and essayist", "pos": "noun"},
  "sosial-psixoloji": {"az": "İnsanların cəmiyyətdəki davranışı və psixologiyası ilə bağlı olan.", "en": "sociopsychological", "pos": "adjective"},
- "çiçəkyanlığı": {"skip": "meaning not certain"},
+ "çiçəkyanlığı": {"az": "Çiçəyin çoxalma orqanlarını əhatə edən kasacıq və tac yarpaqları, yaxud onları əvəz edən eynitipli yarpaqların bütünü.", "en": "perianth", "pos": "noun", "parts": false},
  "qırmızı-qəhvəyi": {"az": "Qırmızıya çalan qəhvəyi rəngdə olan.", "en": "reddish-brown", "pos": "adjective"},
  "postmodern": {"az": "Modernizmdən sonrakı dövrə və üsluba aid olan.", "en": "postmodern", "pos": "adjective"},
  "şəhərdaxili": {"az": "Şəhərin öz daxilində olan (şəhərdaxili nəqliyyat).", "en": "intra-city, urban", "pos": "adjective"},

@@ -1,0 +1,368 @@
+{
+  "ayrıla qalmaq": {
+    "az": "Aralanıb açıq vəziyyətdə qalmaq.",
+    "en": "to remain parted or slightly open",
+    "pos": "verb",
+    "src": "izahli",
+    "conf": "high",
+    "subentry": {
+      "under": "ayrılmaq",
+      "volume": 1,
+      "page": 185
+    },
+    "links": {
+      "topic": [
+        "aralanmaq"
+      ]
+    }
+  },
+  "başına qalmaq": {
+    "az": "Malın bolluqdan müştəri tapmayıb sahibində qalması.",
+    "en": "of goods, to remain unsold for lack of buyers",
+    "pos": "verb",
+    "src": "izahli",
+    "conf": "high",
+    "subentry": {
+      "under": "baş",
+      "volume": 1,
+      "page": 236
+    },
+    "links": {
+      "topic": [
+        "müştəri"
+      ]
+    }
+  },
+  "dişək-dişək etmək": {
+    "az": "Səthdə xırda çökəkliklər açıb onu kələ-kötür hala salmaq.",
+    "en": "to pit or roughen a surface by making small indentations",
+    "pos": "verb",
+    "src": "izahli",
+    "conf": "high",
+    "subentry": {
+      "under": "dişək",
+      "volume": 1,
+      "page": 648
+    },
+    "links": {
+      "topic": [
+        "oyuq",
+        "kələ-kötür"
+      ]
+    }
+  },
+  "dumdum halvası": {
+    "az": "Danışıqda əldə edilməsi müşkül və ya mümkünsüz görünən şey.",
+    "en": "something fancied but difficult or impossible to obtain",
+    "pos": "noun",
+    "src": "izahli",
+    "conf": "high",
+    "subentry": {
+      "under": "dumdum",
+      "volume": 1,
+      "page": 702
+    },
+    "links": {
+      "topic": [
+        "mümkünsüz"
+      ]
+    }
+  },
+  "əlhəd daşı": {
+    "az": "Qəbirdə mərhumun başı altına qoyulan daş.",
+    "en": "a stone supporting the head of the deceased in a grave",
+    "pos": "noun",
+    "src": "izahli",
+    "conf": "high",
+    "subentry": {
+      "under": "əlhay",
+      "volume": 2,
+      "page": 101
+    },
+    "links": {
+      "topic": [
+        "daş",
+        "qəbir"
+      ]
+    }
+  },
+  "gərnuş etmək": {
+    "az": "Köhnə dildə hörmət göstərmək üçün başını əymək.",
+    "en": "to bow one's head in respect (archaic)",
+    "pos": "verb",
+    "src": "izahli",
+    "conf": "high",
+    "subentry": {
+      "under": "gərnuş",
+      "volume": 2,
+      "page": 239
+    },
+    "links": {
+      "topic": [
+        "təzim"
+      ]
+    }
+  },
+  "halbahal olmaq": {
+    "az": "Vəziyyəti tez-tez dəyişərək gah yaxşılaşmaq, gah pisləşmək.",
+    "en": "to fluctuate in condition, alternately improving and worsening",
+    "pos": "verb",
+    "src": "izahli",
+    "conf": "high",
+    "subentry": {
+      "under": "halbahal",
+      "volume": 2,
+      "page": 324
+    },
+    "links": {
+      "topic": [
+        "hal"
+      ]
+    }
+  },
+  "it-bat düşmək": {
+    "az": "İzini itirib ortadan yox olmaq.",
+    "en": "to disappear or go missing",
+    "pos": "verb",
+    "src": "izahli",
+    "conf": "high",
+    "subentry": {
+      "under": "itbalığı",
+      "volume": 2,
+      "page": 608
+    },
+    "links": {
+      "syn": [
+        "itmək"
+      ]
+    }
+  },
+  "qaradalaq etmək": {
+    "az": "Uzun müddət təqib edərək birini taqətdən salmaq.",
+    "en": "to exhaust someone by prolonged pursuit",
+    "pos": "verb",
+    "src": "izahli",
+    "conf": "high",
+    "subentry": {
+      "under": "qaradaban",
+      "volume": 3,
+      "page": 48
+    },
+    "links": {
+      "topic": [
+        "yormaq"
+      ]
+    }
+  },
+  "qaragözlük etmək": {
+    "az": "Başqasını aldatmaq məqsədilə özünü ağlayırmış kimi aparmaq.",
+    "en": "to pretend to cry in order to deceive someone",
+    "pos": "verb",
+    "src": "izahli",
+    "conf": "high",
+    "subentry": {
+      "under": "qaragilə",
+      "volume": 3,
+      "page": 49
+    },
+    "links": {
+      "topic": [
+        "aldatmaq",
+        "ağlamaq"
+      ]
+    }
+  },
+  "qıs vurmaq": {
+    "az": "Səslə həvəsləndirib iti kiminsə və ya nəyinsə üstünə saldırmaq.",
+    "en": "to urge a dog to attack",
+    "pos": "verb",
+    "src": "izahli",
+    "conf": "high",
+    "subentry": {
+      "under": "qırtmıq",
+      "volume": 3,
+      "page": 147
+    },
+    "links": {
+      "syn": [
+        "qısqırtmaq"
+      ]
+    }
+  },
+  "lələdağ etmək": {
+    "az": "Bəzi bölgələrdə birini bərk hirsləndirmək və ya dəhşətə gətirmək.",
+    "en": "to enrage or terrify someone (regional)",
+    "pos": "verb",
+    "src": "izahli",
+    "conf": "high",
+    "subentry": {
+      "under": "lələ",
+      "volume": 3,
+      "page": 254
+    },
+    "links": {
+      "topic": [
+        "hirsləndirmək"
+      ]
+    }
+  },
+  "lənbər vurmaq": {
+    "az": "Maye dolu qabda yırğalanıb kənardan tökülmək.",
+    "en": "to slosh over the rim of a full container",
+    "pos": "verb",
+    "src": "izahli",
+    "conf": "high",
+    "subentry": {
+      "under": "lən",
+      "volume": 3,
+      "page": 255
+    },
+    "links": {
+      "topic": [
+        "yırğalanmaq",
+        "daşmaq"
+      ]
+    }
+  },
+  "mırt vurmaq": {
+    "az": "Vaxtı əhəmiyyətsiz şeylərdən söhbət etməklə keçirmək.",
+    "en": "to pass the time chatting about trivial things",
+    "pos": "verb",
+    "src": "izahli",
+    "conf": "high",
+    "subentry": {
+      "under": "mırmırı",
+      "volume": 3,
+      "page": 364
+    },
+    "links": {
+      "topic": [
+        "söhbətləşmək"
+      ]
+    }
+  },
+  "nəm-nüm etmək": {
+    "az": "Naz edib bir təklifə könülsüz yanaşdığını göstərmək.",
+    "en": "to show affected reluctance about a proposal",
+    "pos": "verb",
+    "src": "izahli",
+    "conf": "high",
+    "subentry": {
+      "under": "nəmlilik",
+      "volume": 3,
+      "page": 478
+    },
+    "links": {
+      "topic": [
+        "naz"
+      ]
+    }
+  },
+  "papaqlama qar": {
+    "az": "İri lopalarla yağan qar.",
+    "en": "snow falling in large flakes",
+    "pos": "noun",
+    "src": "izahli",
+    "conf": "high",
+    "subentry": {
+      "under": "papaqçılıq",
+      "volume": 3,
+      "page": 572
+    },
+    "links": {
+      "topic": [
+        "qar",
+        "papaqlamaq"
+      ]
+    }
+  },
+  "pəl qatmaq": {
+    "az": "Bir işin gedişinə əngəl törətmək.",
+    "en": "to interfere with a task or hinder its progress",
+    "pos": "verb",
+    "src": "izahli",
+    "conf": "high",
+    "subentry": {
+      "under": "pəl",
+      "volume": 3,
+      "page": 590
+    },
+    "links": {
+      "syn": [
+        "pəlləmək",
+        "əngəlləmək"
+      ]
+    }
+  },
+  "sinov getmək": {
+    "az": "Bir şeyi çox istəyib onun həsrətini çəkmək.",
+    "en": "to yearn intensely for something",
+    "pos": "verb",
+    "src": "izahli",
+    "conf": "high",
+    "subentry": {
+      "under": "sinuptika",
+      "volume": 4,
+      "page": 124
+    },
+    "links": {
+      "topic": [
+        "həsrət",
+        "tamarzı"
+      ]
+    }
+  },
+  "var-gəl etmək": {
+    "az": "Eyni yerdə dəfələrlə o tərəfə, bu tərəfə gəzmək.",
+    "en": "to pace back and forth",
+    "pos": "verb",
+    "src": "izahli",
+    "conf": "high",
+    "subentry": {
+      "under": "varəstə",
+      "volume": 4,
+      "page": 464
+    },
+    "links": {
+      "topic": [
+        "gəzinmək"
+      ]
+    }
+  },
+  "şax-şax baxmaq": {
+    "az": "Qürur və təşəxxüslə kiməsə nəzər salmaq.",
+    "en": "to give someone a proud or haughty look",
+    "pos": "verb",
+    "src": "izahli",
+    "conf": "high",
+    "subentry": {
+      "under": "şaxsey-vaxsey",
+      "volume": 4,
+      "page": 186
+    },
+    "links": {
+      "topic": [
+        "təşəxxüs",
+        "qürur"
+      ]
+    }
+  },
+  "yandı-qındı vermək": {
+    "az": "Birinə sataşıb onu hirsləndirmək.",
+    "en": "to provoke someone by taunting them",
+    "pos": "verb",
+    "src": "izahli",
+    "conf": "high",
+    "subentry": {
+      "under": "yandan",
+      "volume": 4,
+      "page": 523
+    },
+    "links": {
+      "topic": [
+        "hirsləndirmək",
+        "sataşmaq"
+      ]
+    }
+  }
+}

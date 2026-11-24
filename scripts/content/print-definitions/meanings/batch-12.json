@@ -373,9 +373,7 @@
   "en": "stratification, layering (of vegetation)",
   "pos": "noun"
  },
- "yastımeyvə": {
-  "skip": "plant term, not certain"
- },
+ "yastımeyvə": {"az": "Yastı, kiçik qınabənzər meyvələri olan, kələmçiçəklilər fəsiləsinə aid ot bitkisi.", "en": "flat-fruited plant of the genus Meniocus", "pos": "noun"},
  "yerölçmə": {
   "az": "Yer sahələrinin ölçülməsi və planının çəkilməsi işi.",
   "en": "land surveying",
@@ -599,9 +597,7 @@
   "en": "checkpoint, roadblock",
   "pos": "noun"
  },
- "boğazotu": {
-  "skip": "plant name, not certain"
- },
+ "boğazotu": {"az": "Gövdəsinin ucunda sıx çiçək qrupu əmələ gətirən, dalamazkimilərdən ot bitkisi.", "en": "self-heal or prunella", "pos": "noun"},
  "boyartımı": {
   "az": "Boyca böyümə, boyun uzanması (uşaqlarda, bitkilərdə).",
   "en": "growth in height",
@@ -768,9 +764,7 @@
   "en": "hide beetle, dermestid",
   "pos": "noun"
  },
- "görücülük": {
-  "skip": "meaning not certain"
- },
+ "görücülük": {"az": "Gələcəkdə olacaq hadisələri qabaqcadan bildiyini iddia etmə.", "en": "fortune-telling or clairvoyance", "pos": "noun"},
  "göy-qırmızı": {
   "az": "Göyə çalan qırmızı rəngdə olan.",
   "en": "bluish-red",
@@ -962,9 +956,7 @@
   "en": "librarian-bibliographer",
   "pos": "noun"
  },
- "kombinəli": {
-  "skip": "meaning not certain"
- },
+ "kombinəli": {"az": "Bir neçə hissə, üsul və ya funksiyanı bir araya gətirən.", "en": "combined", "pos": "adjective", "parts": false},
  "kommunal-məişət": {
   "az": "Kommunal xidmətlər və əhalinin gündəlik ehtiyacları ilə bağlı olan (kommunal-məişət xidməti).",
   "en": "municipal and household (services)",

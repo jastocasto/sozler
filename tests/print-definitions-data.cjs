@@ -52,6 +52,19 @@ for (const [word, d] of Object.entries(layer.definitions)) {
   }
 }
 
+// The public report and the exported review queue use the same runtime build.
+const coverage = JSON.parse(require('node:child_process').execFileSync('python3', ['scripts/audit_definition_coverage.py'], { encoding: 'utf8' }));
+assert.equal(coverage.headwords, m.nodes.length);
+assert.equal(coverage.missing, m.nodes.filter(n => !(n.en?.trim() && n.az?.trim())).length);
+assert.equal(coverage.missing, attribution.summary.undefined_after);
+assert.equal(coverage.missing + coverage['formation-only'] + coverage['needs-review'] + coverage['other-bilingual'], m.nodes.length);
+const report = fs.readFileSync('dist/verification-report.html', 'utf8');
+for (const field of ['headwords', 'missing', 'formation-only', 'needs-review']) {
+  const shown = report.match(new RegExp('data-coverage="' + field + '">([^<]+)<'));
+  assert(shown, 'missing coverage report field ' + field);
+  assert.equal(Number(shown[1].replace(/\s/g, '')), coverage[field], field);
+}
+
 // Links join existing headwords once, carry a cited reason, and respect every block list.
 const edge = (a, b, t) => m.related(m.byWord.get(a)).find(r => r.node.w === b && r.edge.type === t)?.edge;
 const known = new Set(before.edges.map(e => [e.a.w, e.b.w].sort().join('|')));
@@ -76,6 +89,37 @@ for (const [a, b] of [['qaraçı', 'qara'], ['alma', 'almaq'], ['dəli', 'də'],
 
 // Representative entries from each method.
 const node = word => m.byWord.get(word);
+// Reviewed spellings and idioms must reach the word sheet with the cited print pages.
+const reviewRows = fs.readFileSync('scripts/content/print-definitions/dictionary-review.tsv', 'utf8').trimEnd().split('\n').slice(1);
+assert.equal(attribution.summary.dictionary_reviews, reviewRows.length);
+for (const row of reviewRows) {
+  const [word, pos, az, en, pages] = row.split('\t');
+  const entry = node(word);
+  assert.equal(entry.az, az, word);
+  assert.equal(entry.en, en, word);
+  assert.equal(entry.pos, pos, word);
+  assert.equal(entry.definitionMethod, 'paraphrase', word);
+  assert.deepEqual(Array.from(entry.definitionSources, r => r.url.match(/_(\d)\.pdf#page=(\d+)$/).slice(1).join('.')), pages.split(','), word);
+}
+const contextualMeanings = Object.assign({}, ...[68, 69, 70, 71].map(batch =>
+  JSON.parse(fs.readFileSync('scripts/content/print-definitions/meanings/batch-' + batch + '.json', 'utf8'))));
+for (const [word, entry] of Object.entries(contextualMeanings)) {
+  const n = node(word);
+  assert.equal(n.az, entry.az, word);
+  assert.equal(n.en, entry.en, word);
+  assert.equal(n.definitionMethod, 'meaning', word);
+  for (const ref of entry.references || []) assert(n.definitionSources.some(r => r.url === ref.url), word + ' context citation');
+}
+assert.match(node('it-bat düşmək').en, /go missing/);
+assert.match(node('termoqraflı').en, /records temperature/);
+assert.match(node('girələmə').en, /favourable opportunity/);
+assert(!edge('termoqraf', 'qraf', 'topic') && !edge('repressor', 'rep', 'topic'));
+// A phrase may appear on a later page than the start of its enclosing print entry.
+assert(layer.definitions['başına qalmaq'].refs.some(r => r.url.endsWith('_1.pdf#page=236')));
+assert.equal(node('it-bat düşmək').definitionMethod, 'paraphrase');
+assert(edge('it-bat düşmək', 'itmək', 'syn'));
+assert(edge('qaragözlük etmək', 'ağlamaq', 'topic'));
+assert(!edge('qaragözlük etmək', 'ağlamaq', 'syn'));
 assert.equal(node('mumiyalama').definitionMethod, 'derivation');
 assert.match(node('mumiyalama').en, /embalm/);
 assert(edge('mumiyalama', 'mumiyalamaq', 'root'));

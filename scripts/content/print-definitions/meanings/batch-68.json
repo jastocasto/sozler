@@ -1,0 +1,754 @@
+{
+ "sayda": {
+  "az": "Treskakimilər fəsiləsinə aid Şimali Atlantika dəniz balığı.",
+  "en": "saithe or coalfish, a North Atlantic member of the cod family",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L59841"
+   }
+  ]
+ },
+ "sayka": {
+  "az": "Arktika sularında yaşayan xırda treskakimilər balığı.",
+  "en": "Arctic cod, a small fish of polar seas",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L59930"
+   }
+  ]
+ },
+ "osman": {
+  "az": "Mərkəzi Asiya sularında rast gəlinən çəkikimilər balığı.",
+  "en": "an osman, a Central Asian freshwater fish of the carp family",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L53403"
+   }
+  ]
+ },
+ "skat": {
+  "az": "Yastı bədənli, döş üzgəcləri geniş olan qığırdaqlı balıq.",
+  "en": "a ray, a cartilaginous fish with a flattened body and broad pectoral fins",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L62431"
+   }
+  ]
+ },
+ "dastana": {
+  "az": "Ənənəvi kömbə növü.",
+  "en": "a variety of traditional flatbread",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L14610"
+   }
+  ]
+ },
+ "balamürsəl": {
+  "az": "Azərbaycanda yetişdirilən nar sortu.",
+  "en": "Balamürsəl, an Azerbaijani pomegranate cultivar",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L5685"
+   }
+  ]
+ },
+ "ağəldərə": {
+  "az": "Üzümçülükdə işlənən yerli üzüm sortunun adı.",
+  "en": "Ağəldərə, a local grape variety",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L802"
+   }
+  ]
+ },
+ "ağqılçıq": {
+  "az": "Yerli düyü sortlarından biri.",
+  "en": "Ağqılçıq, a local variety of rice",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L1030"
+   }
+  ]
+ },
+ "çələmbəri": {
+  "az": "Ənənəvi düyü sortunun adı.",
+  "en": "Çələmbəri, a traditional rice variety",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L12267"
+   }
+  ]
+ },
+ "gavangir": {
+  "az": "Üzümçülükdə bir üzüm sortuna verilən ad.",
+  "en": "Gavangir, a grape cultivar",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L24488"
+   }
+  ]
+ },
+ "kələsər": {
+  "az": "Yerli üzüm sortlarından birinin adı.",
+  "en": "Kələsər, a local grape variety",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L34889"
+   }
+  ]
+ },
+ "pırpır": {
+  "az": "Pırpır adı ilə tanınan üzüm sortu.",
+  "en": "Pırpır, a grape cultivar",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L55813"
+   }
+  ]
+ },
+ "bozax": {
+  "az": "Azərbaycanda yetişdirilən yerli qoyun cinsi.",
+  "en": "Bozakh, a local Azerbaijani sheep breed",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L9120"
+   }
+  ]
+ },
+ "anadil": {
+  "az": "Qazax şivəsində və bədii dildə gözəl səsi ilə tanınan quşa verilən ad.",
+  "en": "a regional and literary name for a melodious songbird",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L2480"
+   },
+   {
+    "title": "Azərbaycan dialektologiyası · anadil",
+    "url": "https://azerbaycandili.az/Literatures/Download/20110/Azerbaycan_dialektologiyasi.pdf"
+   }
+  ]
+ },
+ "berende": {
+  "az": "Orta əsrlərdə Şərqi Avropa çöllərində yaşamış türk tayfasının nümayəndəsi.",
+  "en": "a member of the medieval Turkic Berendei people",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L6641"
+   }
+  ]
+ },
+ "bəydili": {
+  "az": "Oğuzların Bəydili boyuna mənsub şəxs.",
+  "en": "a member of the Beydili Oghuz tribe",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L7402"
+   }
+  ]
+ },
+ "salar": {
+  "az": "Əsasən Çində yaşayan türkdilli xalq və həmin xalqın nümayəndəsi.",
+  "en": "the Salar, a Turkic-speaking people chiefly in China, or a member of that people",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L59317"
+   }
+  ]
+ },
+ "sasak": {
+  "az": "İndoneziyanın Lombok adasının yerli xalqı və ya həmin xalqdan olan şəxs.",
+  "en": "the Sasak people of Lombok, Indonesia, or a member of that people",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L59748"
+   }
+  ]
+ },
+ "severyan": {
+  "az": "Orta əsrlərdə Şərqi Avropada yaşamış şərqi slavyan tayfasının nümayəndəsi.",
+  "en": "a member of the early medieval East Slavic Severian people",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L60272"
+   }
+  ]
+ },
+ "cut": {
+  "az": "Lifindən kəndir və kobud parça hazırlanan bitki, həmçinin həmin lif.",
+  "en": "jute, a fibre plant or the textile fibre obtained from it",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L11280"
+   }
+  ]
+ },
+ "gündəcə": {
+  "az": "Yetkin mərhələsi çox qısa sürən qanadlı həşərat.",
+  "en": "a mayfly, an insect with a short-lived adult stage",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L26611"
+   }
+  ]
+ },
+ "sista": {
+  "az": "Biologiyada bəzi orqanizmlərin əlverişsiz şəraitdə qoruyucu örtük içində keçirdiyi mərhələ.",
+  "en": "a cyst, a resistant enclosed stage in the life cycle of certain organisms",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L62347"
+   }
+  ]
+ },
+ "kökyumrusu": {
+  "az": "Bitkinin ehtiyat qida toplamaq üçün yoğunlaşmış kökü.",
+  "en": "a tuberous root, a root thickened to store nutrients",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L37223"
+   }
+  ]
+ },
+ "kaulerpa": {
+  "az": "Dənizlərdə yaşayan yaşıl yosun cinsi.",
+  "en": "Caulerpa, a genus of marine green algae",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L34419"
+   }
+  ]
+ },
+ "kariya": {
+  "az": "Qozkimilər fəsiləsindən olan hikori ağaclarının cinsi.",
+  "en": "Carya, the genus of hickory trees in the walnut family",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L34108"
+   }
+  ]
+ },
+ "kallistefus": {
+  "az": "Çin astrasının daxil olduğu çiçəkli bitki cinsi.",
+  "en": "Callistephus, the flowering plant genus that includes the China aster",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L33834"
+   }
+  ]
+ },
+ "riççiya": {
+  "az": "Tallom şəklində böyüyən ciyərotları cinsi.",
+  "en": "Riccia, a genus of thalloid liverworts",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L58515"
+   }
+  ]
+ },
+ "kijuç": {
+  "az": "Şimali Sakit okeanda yaşayan gümüşü qızılbalıq.",
+  "en": "the coho salmon of the North Pacific",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L35565"
+   }
+  ]
+ },
+ "kumja": {
+  "az": "Qızılbalıqkimilər fəsiləsindən çayda və ya dənizdə yaşayan alabalıq.",
+  "en": "brown trout, including its sea-going form",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L37799"
+   }
+  ]
+ },
+ "komefor": {
+  "az": "Baykal gölündə yaşayan çox yağlı, yarımşəffaf balıq.",
+  "en": "a Baikal oilfish or golomyanka",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L36434"
+   }
+  ]
+ },
+ "kutor": {
+  "az": "Su kənarında yaşayan və yaxşı üzən həşəratyeyən xırda məməli.",
+  "en": "a water shrew, a small insect-eating mammal adapted to swimming",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L37901"
+   }
+  ]
+ },
+ "konolof": {
+  "az": "Qalapaqos adalarında yaşayan quru iquanalarının cinsi.",
+  "en": "Conolophus, a genus of Galápagos land iguanas",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L36685"
+   }
+  ]
+ },
+ "karnozavr": {
+  "az": "İri ətyeyən teropod dinozavrlar qrupunun nümayəndəsi.",
+  "en": "a carnosaur, a member of a group of large carnivorous theropod dinosaurs",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L34200"
+   }
+  ]
+ },
+ "kalamyanka": {
+  "az": "Tarixən geyim üçün istifadə edilmiş sıx toxunuşlu parça.",
+  "en": "calamanco, a closely woven fabric historically used for clothing",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L33797"
+   }
+  ]
+ },
+ "flint": {
+  "az": "Optikada işığı güclü sındıran və yüksək dispersiyalı şüşə.",
+  "en": "flint glass, an optical glass with high dispersion",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L24029"
+   }
+  ]
+ },
+ "listvenit": {
+  "az": "Ultramafik süxurların dəyişməsi ilə yaranan, karbonat və kvarsla zəngin süxur.",
+  "en": "listvenite, a carbonate- and quartz-rich rock formed by alteration of ultramafic rock",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L45203"
+   }
+  ]
+ },
+ "kersantit": {
+  "az": "Tərkibində plagioklaz və biotit olan lamprofir tipli maqmatik süxur.",
+  "en": "kersantite, a lamprophyre containing plagioclase and biotite",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L34720"
+   }
+  ]
+ },
+ "leykokrat": {
+  "az": "Açıq rəngli mineralların üstünlük təşkil etdiyi maqmatik süxur haqqında deyilən söz.",
+  "en": "leucocratic, said of igneous rock dominated by light-coloured minerals",
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L44811"
+   }
+  ]
+ },
+ "melanokrat": {
+  "az": "Tünd rəngli minerallarla zəngin maqmatik süxur haqqında deyilən söz.",
+  "en": "melanocratic, said of igneous rock rich in dark minerals",
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L46708"
+   }
+  ]
+ },
+ "selenit": {
+  "az": "Gipsin şəffaf kristal növü.",
+  "en": "selenite, a transparent crystalline variety of gypsum",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L60114"
+   }
+  ]
+ },
+ "safflorit": {
+  "az": "Kobalt və arsen birləşməsindən ibarət mineral.",
+  "en": "safflorite, a cobalt arsenide mineral",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L59059"
+   }
+  ]
+ },
+ "miargirit": {
+  "az": "Gümüş, sürmə və kükürddən ibarət mineral.",
+  "en": "miargyrite, a silver antimony sulfide mineral",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L48334"
+   }
+  ]
+ },
+ "sendast": {
+  "az": "Əsas komponentləri dəmir, silisium və alüminium olan maqnit ərintisi.",
+  "en": "sendust, a magnetic iron–silicon–aluminium alloy",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L60163"
+   }
+  ]
+ },
+ "metakril": {
+  "az": "«Metakril turşusu» bir sıra akril polimerlərin alınmasında istifadə olunan üzvi turşudur.",
+  "en": "in metakril turşusu, methacrylic acid, an organic acid used in making acrylic polymers",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L46865"
+   }
+  ]
+ },
+ "malein": {
+  "az": "«Malein turşusu» iki karboksil qrupu olan doymamış üzvi turşudur.",
+  "en": "in malein turşusu, maleic acid, an unsaturated dicarboxylic acid",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L45983"
+   }
+  ]
+ },
+ "ortoborat": {
+  "az": "«Ortoborat turşusu» borun suda zəif turşu xassəsi göstərən birləşməsidir.",
+  "en": "in ortoborat turşusu, orthoboric acid or boric acid",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L53381"
+   }
+  ]
+ },
+ "liqanda": {
+  "az": "Koordinasiya birləşməsində mərkəzi atom və ya ionla rabitə yaradan ion və ya molekul.",
+  "en": "a ligand, an ion or molecule bound to a central atom or ion in a coordination complex",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L45087"
+   }
+  ]
+ },
+ "indiqoid": {
+  "az": "Kimyəvi quruluşu indiqoya yaxın olan boyaq maddəsi.",
+  "en": "an indigoid, a dye structurally related to indigo",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L31864"
+   }
+  ]
+ },
+ "lot": {
+  "az": "Dənizçilikdə suyun dərinliyini ölçmək üçün işlədilən alət.",
+  "en": "a sounding lead or other instrument for measuring water depth",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L45425"
+   }
+  ]
+ },
+ "gilbert": {
+  "az": "Maqnit hərəkət qüvvəsini ifadə edən, SQSM sistemində işlədilmiş vahid.",
+  "en": "the gilbert, a CGS unit of magnetomotive force",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L25260"
+   }
+  ]
+ },
+ "sten": {
+  "az": "Min nyutona bərabər köhnə qüvvə vahidi.",
+  "en": "the sthène, a historical unit of force equal to one thousand newtons",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L63347"
+   }
+  ]
+ },
+ "qommoz": {
+  "az": "Bitkinin zədələnmiş toxumasından yapışqan ifrazatın çıxması ilə müşahidə olunan hal.",
+  "en": "gummosis, the exudation of gum from plant tissues",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L42819"
+   }
+  ]
+ },
+ "desima": {
+  "az": "Musiqidə on pilləni əhatə edən, oktava ilə tersiyadan ibarət interval.",
+  "en": "a tenth, a musical interval spanning an octave and a third",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L15205"
+   }
+  ]
+ },
+ "proteza": {
+  "az": "Dilçilikdə sözün əvvəlinə əlavə səsin artırılması.",
+  "en": "prothesis, the addition of a sound at the beginning of a word",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L57158"
+   }
+  ]
+ },
+ "udlaqlaşma": {
+  "az": "Səsin tələffüzü zamanı udlaqda əlavə daralmanın yaranması.",
+  "en": "pharyngealization, a secondary constriction of the pharynx during articulation",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L70827"
+   }
+  ]
+ },
+ "üçnövçülük": {
+  "az": "Üç müxtəlif növ üzrə keçirilən çoxnövçülük yarışı.",
+  "en": "an athletic competition combining three disciplines",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L71606"
+   }
+  ]
+ },
+ "telluri": {
+  "az": "Yer və Ayın Günəşə nəzərən hərəkətlərini göstərən tədris cihazı.",
+  "en": "a tellurian, a model demonstrating the motions of Earth and the Moon relative to the Sun",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · işlənmə sahəsi",
+    "url": "https://github.com/marmeladze/orfoqrafiya/blob/0e10d1802d2ed5a738db4f126006c47153810dc3/ext.txt#L67241"
+   }
+  ]
+ },
+ "yararlanmaq": {
+  "az": "Bir imkandan, vasitədən və ya təcrübədən fayda götürmək.",
+  "en": "to make use of or benefit from something",
+  "pos": "verb",
+  "references": [
+   {
+    "title": "AZLEKS · English–Azerbaijani dictionary",
+    "url": "https://azleks.az/index.php/en/dictionary/take-advantage-of"
+   }
+  ]
+ },
+ "abgərdan": {
+  "az": "Tək qulpu olan ənənəvi su qabı.",
+  "en": "a traditional single-handled water vessel",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Obastan · abgərdan",
+    "url": "https://obastan.com/soz/az/abg%C9%99rdan"
+   }
+  ]
+ },
+ "kiber": {
+  "az": "Mürəkkəb sözlərdə kompüter şəbəkələri və rəqəmsal mühitlə əlaqəni bildirən hissə.",
+  "en": "cyber-, a combining form relating to computer networks and digital environments",
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Obastan · kiber",
+    "url": "https://obastan.com/soz/az/kiber"
+   }
+  ]
+ },
+ "parlamentari": {
+  "az": "Qanunverici orqana üzv seçilmiş şəxs.",
+  "en": "a member of parliament",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Obastan · parlamentari",
+    "url": "https://obastan.com/soz/az/parlamentari"
+   }
+  ]
+ },
+ "ağtorpaqlı": {
+  "az": "Torpağının tərkibində əhəng olan.",
+  "en": "having calcareous soil",
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti · ağtorpaqlı",
+    "url": "https://github.com/farhadmisirli/aze-dictonary-parser/blob/f7a5cae6c7d5b5e7fc86956767f09a3374518d67/dictonary.sql#L1482"
+   }
+  ]
+ },
+ "görəcəkli": {
+  "az": "«Görəcəkli günlərim varmış» ifadəsi gözlənilməz bəd xəbərə və ya hadisəyə təəccüb, təəssüf bildirir.",
+  "en": "in görəcəkli günlərim varmış, expressing dismay at unexpected bad news or misfortune",
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti · görəcəkli",
+    "url": "https://github.com/farhadmisirli/aze-dictonary-parser/blob/f7a5cae6c7d5b5e7fc86956767f09a3374518d67/dictonary.sql#L37901"
+   }
+  ]
+ },
+ "ober": {
+  "az": "Bəzi köhnə rütbə və vəzifə adlarında böyüklük, başçılıq bildirən hissə.",
+  "en": "a combining form meaning chief or senior in certain historical titles",
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti · ober",
+    "url": "https://github.com/farhadmisirli/aze-dictonary-parser/blob/f7a5cae6c7d5b5e7fc86956767f09a3374518d67/dictonary.sql#L73721"
+   }
+  ]
+ },
+ "ovsana": {
+  "az": "«Ovsanadan çıxarmaq» görülmüş yaxşılığı unutmaq və ya onun qədrini bilməmək deməkdir.",
+  "en": "in ovsanadan çıxarmaq, to forget a kindness or fail to appreciate it",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti · ovsana",
+    "url": "https://github.com/farhadmisirli/aze-dictonary-parser/blob/f7a5cae6c7d5b5e7fc86956767f09a3374518d67/dictonary.sql#L74884"
+   }
+  ]
+ },
+ "papaqaldıqaç": {
+  "az": "Uşaqların iki dəstəyə bölünüb papaqla oynadıqları oyun.",
+  "en": "a children’s game played by two teams with a hat",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti · papaqaldıqaç",
+    "url": "https://github.com/farhadmisirli/aze-dictonary-parser/blob/f7a5cae6c7d5b5e7fc86956767f09a3374518d67/dictonary.sql#L76266"
+   }
+  ]
+ },
+ "tayqıç": {
+  "az": "Bir ayağı olan.",
+  "en": "having one leg",
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti · tayqıç",
+    "url": "https://github.com/farhadmisirli/aze-dictonary-parser/blob/f7a5cae6c7d5b5e7fc86956767f09a3374518d67/dictonary.sql#L91474"
+   }
+  ]
+ },
+ "tayqıçlı": {
+  "az": "Bir ayağı olan.",
+  "en": "one-legged",
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti · tayqıçlı",
+    "url": "https://github.com/farhadmisirli/aze-dictonary-parser/blob/f7a5cae6c7d5b5e7fc86956767f09a3374518d67/dictonary.sql#L91475"
+   }
+  ]
+ }
+}

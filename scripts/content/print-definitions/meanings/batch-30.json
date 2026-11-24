@@ -122,9 +122,7 @@
   "en": "flight (on-board) radio operator",
   "pos": "noun"
  },
- "borubükən": {
-  "skip": "zoological name, not certain"
- },
+ "borubükən": {"az": "Yumurtalarını qoymaq üçün bitki yarpağını boru kimi bükən uzunburun böcək.", "en": "leaf-rolling weevil", "pos": "noun"},
  "borudaxili": {
   "az": "Borunun içində olan, boru daxilində baş verən (borudaxili təzyiq).",
   "en": "in-pipe, inside a pipe",
@@ -634,18 +632,14 @@
   "en": "hatching of chicks, incubation",
   "pos": "noun"
  },
- "cütayaqlı": {
-  "skip": "zoological term, not certain"
- },
+ "cütayaqlı": {"az": "Ayaqları cütlər şəklində yerləşən və ya iki ayağı olan.", "en": "with paired legs or two-legged", "pos": "adjective"},
  "cütbuynuz": {
   "skip": "meaning not certain"
  },
  "cütbuynuzcuq": {
   "skip": "meaning not certain"
  },
- "cütbuynuzcuqlu": {
-  "skip": "meaning not certain"
- },
+ "cütbuynuzcuqlu": {"az": "Bir cüt kiçik buynuzabənzər çıxıntısı olan.", "en": "with paired hornlike projections", "pos": "adjective"},
  "cütbuynuzlu": {
   "az": "Bir cüt buynuzu olan, iki buynuzlu.",
   "en": "two-horned",
@@ -660,9 +654,7 @@
  "cütlələk": {
   "skip": "meaning not certain"
  },
- "cütləçəkli": {
-  "skip": "botanical term, not certain"
- },
+ "cütləçəkli": {"az": "İki ləçəyi olan və ya ləçəkləri cüt-cüt düzülən.", "en": "with two or paired petals", "pos": "adjective"},
  "cütnömrəli": {
   "az": "Nömrəsi cüt rəqəmlə ifadə olunan (cütnömrəli evlər).",
   "en": "even-numbered",
@@ -674,15 +666,11 @@
  "cütqanadlı": {
   "skip": "zoological term, not certain"
  },
- "cüttoxumlu": {
-  "skip": "botanical term, not certain"
- },
+ "cüttoxumlu": {"az": "Hər meyvəsində və ya toxum yuvasında iki toxumu olan.", "en": "two-seeded", "pos": "adjective"},
  "cütvurma": {
   "skip": "music term, not certain"
  },
- "cütçəyirdəkli": {
-  "skip": "meaning not certain"
- },
+ "cütçəyirdəkli": {"az": "Meyvəsinin içində iki sərt çəyirdək olan.", "en": "with two stones or pits", "pos": "adjective"},
  "cüyürotu": {
   "skip": "plant name, not certain"
  },
@@ -775,9 +763,7 @@
  "dalaqotu": {
   "skip": "plant name, not certain"
  },
- "dalğaaparan": {
-  "skip": "technical term, not certain"
- },
+ "dalğaaparan": {"az": "Elektromaqnit və ya səs dalğasını müəyyən yol boyunca yönəldən quruluş.", "en": "waveguide", "pos": "noun"},
  "dalğagöstərən": {
   "skip": "technical term, not certain"
  },
@@ -799,9 +785,7 @@
  "dalğatutma": {
   "skip": "technical term, not certain"
  },
- "dalğaverici": {
-  "skip": "technical term, not certain"
- },
+ "dalğaverici": {"az": "Dalğa yaradan və onu mühitə yayan qurğu.", "en": "wave transmitter", "pos": "noun"},
  "dalğayazma": {
   "skip": "technical term, not certain"
  },
@@ -870,7 +854,5 @@
   "en": "narrow-mouthed, narrow-necked",
   "pos": "adjective"
  },
- "darburun": {
-  "skip": "meaning not certain"
- }
+ "darburun": {"az": "Burnu və ya ön ucu dar olan.", "en": "narrow-nosed", "pos": "adjective"}
 }

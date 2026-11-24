@@ -557,9 +557,7 @@
   "en": "military-revolutionary",
   "pos": "adjective"
  },
- "hərəmlik": {
-  "skip": "meaning not certain"
- },
+ "hərəmlik": {"az": "Ənənəvi saray və evlərdə qadınların yaşaması üçün ayrılan hissə.", "en": "women’s quarters in a traditional household", "pos": "noun"},
  "xantirmə": {
   "az": "Nəfis naxışlı, qiymətli tirmə parça növü.",
   "en": "a fine, costly kind of termeh (patterned shawl cloth)",
@@ -628,9 +626,7 @@
   "en": "moulting (of birds)",
   "pos": "noun"
  },
- "məntiqçilik": {
-  "skip": "meaning not certain"
- },
+ "məntiqçilik": {"az": "Riyaziyyatın əsaslarını məntiqdən çıxarmağın mümkün olduğunu qəbul edən fəlsəfi mövqe.", "en": "logicism", "pos": "noun"},
  "monqol-türk": {
   "az": "Monqol və türk xalqlarına birlikdə aid olan (monqol-türk tayfaları).",
   "en": "Mongol-Turkic",

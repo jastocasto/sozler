@@ -2,6 +2,14 @@
 
 Read this first if you are an AI agent or developer picking up the work. Everything you need is in this repository. No local state from earlier sessions is required.
 
+## November 24 dictionary reconciliation
+
+The combined dictionary builds on the published atlas at `8d53cf8` and the dictionary work in PR #1 through `efec71c`. That PR's last 765 definitions are in meanings batch 71. Earlier PR batches were renumbered where their filenames collided with production. Existing production meanings take precedence where both branches supplied an uncited interpretation. The owner's batch 98 still loads last.
+
+Paraphrases batch 65 adds page-checked expressions and their sense links. Some appear inside longer dictionary entries. The stored citation points to the page where the expression is defined. For example, *başına qalmaq* is on volume 1, page 236, several pages into the entry for *baş*.
+
+Run `python3 scripts/audit_definition_coverage.py` for the current counts. Add `--csv review.csv` to list missing definitions, formation-only explanations, and meanings flagged for review. The older progress figures below describe earlier builds.
+
 ## Autopilot (owner-approved 22 Nov 2026): read this first when resuming
 
 The owner asked for unattended, continuous work on making definitions and connections more complete and correct, published automatically once verified. Their subscription ends on 23 Nov 2026, so this may be the last session. An hourly scheduled check-in (minute 41) resumes the work after usage limits.

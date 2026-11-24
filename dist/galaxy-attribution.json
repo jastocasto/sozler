@@ -5,13 +5,13 @@
     "preserved map location": 22207
   },
   "spellingMethods": {
-    "primary meaning": 9350,
-    "base or neighbour": 31054,
-    "word formation": 27551,
-    "word class": 687
+    "primary meaning": 10863,
+    "base or neighbour": 30722,
+    "word formation": 26352,
+    "word class": 705
   },
   "regions": 10,
-  "clusters": 77,
+  "clusters": 76,
   "source_sha256": "7ecddf8d3b94649462d9e6b89b55cdcb41e462b5f1d113d346fb514699f479c8",
   "notes": "Grouping is approximate and can be revised. Polysemous words have one primary map location. All earlier headwords are retained, each at its exact offset from its cluster centre; clusters move as a whole when the map is packed. New editorial words carry topic links only; no inflections have been added. Coordinate depth is a visual treatment, not linguistic distance."
 }
