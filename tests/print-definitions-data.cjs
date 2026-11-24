@@ -126,6 +126,29 @@ assert(!edge('termoqraf', 'qraf', 'topic') && !edge('repressor', 'rep', 'topic')
 assert(layer.definitions['başına qalmaq'].refs.some(r => r.url.endsWith('_1.pdf#page=236')));
 assert.equal(node('it-bat düşmək').definitionMethod, 'paraphrase');
 assert(edge('it-bat düşmək', 'itmək', 'syn'));
+const meaningDir = 'scripts/content/print-definitions/meanings';
+const supplementFiles = fs.readdirSync(meaningDir).filter(name => /^supplement-.*\.json$/.test(name)).sort();
+assert.deepEqual(supplementFiles, Object.keys(attribution.supplements));
+for (const file of supplementFiles) {
+  const entries = JSON.parse(fs.readFileSync(meaningDir + '/' + file, 'utf8'));
+  for (const [word, entry] of Object.entries(entries)) {
+    const n = node(word);
+    assert.equal(n.az, entry.az, word);
+    assert.equal(n.en, entry.en, word);
+    assert.equal(n.pos, entry.pos, word);
+    assert.equal(n.definitionMethod, 'meaning', word);
+    for (const ref of entry.references) assert(n.definitionSources.some(r => r.url === ref.url), word);
+    for (const [kind, targets] of Object.entries(entry.links || {})) {
+      for (const target of targets) {
+        assert(edge(word, target, kind), `${word} → ${target} (${kind})`);
+      }
+    }
+  }
+}
+assert.match(node('limonotu').definitionFormation.az, /limon/);
+assert(edge('limonotu', 'arıotu', 'syn'));
+assert(edge('oxcüllüt', 'cüllüt', 'topic'));
+assert(!edge('oxcüllüt', 'cüllüt', 'syn'));
 assert(edge('qaragözlük etmək', 'ağlamaq', 'topic'));
 assert(!edge('qaragözlük etmək', 'ağlamaq', 'syn'));
 assert(!node('düzquyruqlu').en.includes('Orthurus'), 'the name of a plant does not define a tail shape');

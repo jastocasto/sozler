@@ -1,0 +1,117 @@
+{
+ "abqoralıq": {
+  "az": "Abqora hazırlamaq üçün ayrılan, hələ yetişməmiş üzüm.",
+  "en": "unripe grapes set aside for pressing into verjuice",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti · abqoralıq",
+    "url": "https://azleks.az/en/dictionary/abqoraliq"
+   }
+  ],
+  "links": {
+   "topic": [
+    "üzüm",
+    "kal"
+   ]
+  }
+ },
+ "pətənə": {
+  "az": "Quşun mədəsində yemi üyüdən əzələli hissə. Toyuq pətənəsi xörəkdə də işlədilir.",
+  "en": "the gizzard, the muscular part of a bird’s stomach that grinds food, also eaten as a giblet",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin Ağbaba şivəsi · pötpöti, pətənə",
+    "url": "https://azlib.org/media/books/Azerbaycan_dilinin_Agbaba_shivesi.pdf"
+   },
+   {
+    "title": "Cuisine Azerbaijan Restaurant · Toyuq yeməkləri · Pətənə",
+    "url": "https://cuisine.clopos.menu/az/1/products"
+   }
+  ],
+  "links": {
+   "syn": [
+    "pətənək"
+   ],
+   "topic": [
+    "içalat",
+    "mədə"
+   ]
+  }
+ },
+ "sirkə-badımcan": {
+  "az": "Badımcanı sirkəyə qoymaqla hazırlanan turşu.",
+  "en": "eggplant pickled in vinegar",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan kulinariyası ensiklopediyası · Turşuya qoyulmuş badımcan",
+    "url": "https://azlib.org/media/books/Azerbaycan_kulinariyasi_ensiklopediyasi.pdf"
+   }
+  ],
+  "links": {
+   "topic": [
+    "turşu",
+    "şoraba"
+   ]
+  }
+ },
+ "təndirlik": {
+  "az": "Təndirdə çörək bişirməyə yararlı olan, xüsusən un haqqında.",
+  "en": "suited to baking bread in a tandoor, especially of flour",
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Anadolu Qida · Məhsullar · Təndirlik un",
+    "url": "https://anadoluqida.com/mehsullar"
+   }
+  ],
+  "links": {
+   "topic": [
+    "un",
+    "çörək"
+   ]
+  }
+ },
+ "xamırmaya": {
+  "az": "Qozaya bənzər dişi çiçək qrupları pivəyə ətir və acılıq verən sarmaşan bitki, adi mayasarmaşığı (Humulus lupulus).",
+  "en": "the common hop (Humulus lupulus), a climbing plant whose female flower clusters give beer aroma and bitterness",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Adi xamırmaya (mayasarmaşığı) · Humulus lupulus",
+    "url": "https://aem.az/uploads/files/2024-11/1732844665_derman-bitkileri-1.pdf"
+   },
+   {
+    "title": "Əhməd-Cabir Əhmədov · Mayaotu, mayasarmaşığı",
+    "url": "https://unec.edu.az/application/uploads/2020/06/667.pdf"
+   }
+  ],
+  "links": {
+   "syn": [
+    "mayasarmaşığı"
+   ],
+   "topic": [
+    "pivə"
+   ]
+  }
+ },
+ "şorabalıq": {
+  "az": "Şoraba hazırlamaq üçün yararlı və ya bunun üçün ayrılmış, məsələn, duz haqqında.",
+  "en": "intended or suitable for pickling, as of salt used in making brine",
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Evdar · Üzüm yarpağının qışa saxlama üsulları · şorabalıq duz",
+    "url": "https://evdar.az/recipes/uzum-yarpaginin-qisa-saxlama-usullari/"
+   }
+  ],
+  "links": {
+   "topic": [
+    "duz",
+    "duzlama"
+   ]
+  }
+ }
+}

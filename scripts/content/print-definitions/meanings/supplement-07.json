@@ -1,0 +1,248 @@
+{
+ "atalı-babalı": {
+  "az": "Bir ailənin bir neçə nəslini, o cümlədən atanı və babanı birlikdə nəzərdə tutaraq.",
+  "en": "across generations of the same family, including the father and grandfather",
+  "pos": "adverb",
+  "references": [
+   {
+    "title": "Qalib Arif · Dağlar, sizdə nəyim qaldı…",
+    "url": "https://www.kulis.az/index.php/xeber/kulisaz/media/xeber______________________-18347"
+   },
+   {
+    "title": "Gülnarə Rəfiq · İbrahim Əhrari ilə müsahibə",
+    "url": "https://www.gulnarerefiq.com/musahibe/26"
+   }
+  ],
+  "links": {
+   "topic": [
+    "nəsil",
+    "ata-baba"
+   ]
+  }
+ },
+ "bədaye teatrı": {
+  "az": "Bədii teatr. Bu ifadə Moskva Bədaye Teatrının adında da işlənir.",
+  "en": "art theatre, as in the Azerbaijani name of the Moscow Art Theatre",
+  "pos": "phrase",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 1, s. 262",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_1.pdf#page=262"
+   },
+   {
+    "title": "Nizami Gəncəvi adına Milli Azərbaycan Ədəbiyyatı Muzeyi · Kağız böhranı vaxtı roman yekəlikdə məktub",
+    "url": "https://nizamimuseum.az/az/news/3980"
+   }
+  ],
+  "links": {
+   "topic": [
+    "səhnə",
+    "aktyor"
+   ]
+  }
+ },
+ "dodu-dodu oynamaq": {
+  "az": "Uzun sürən yağışdan sonra günəşi çağırmaq üçün gəlincik gəzdirib nəğmə oxunan xalq mərasimində iştirak etmək.",
+  "en": "to take part in a traditional ritual in which people carry a doll and sing to call for sunshine after prolonged rain",
+  "pos": "verb",
+  "references": [
+   {
+    "title": "Səadət Abdullayeva · Azərbaycan folklorunda çalğı alətləri (2007), s. 112",
+    "url": "https://www.anl.az/el/Kitab/2014/227289.pdf#page=112"
+   },
+   {
+    "title": "Azərbaycan qeyri-maddi mədəni irs nümunələrinin dövlət reyestri · Qodu-qodu",
+    "url": "https://intangible.az/front/az/aboutExample/18096"
+   }
+  ],
+  "links": {
+   "topic": [
+    "qodu-qodu",
+    "mərasim",
+    "günəş"
+   ]
+  }
+ },
+ "durub-oturmaq": {
+  "az": "Bir adamla tez-tez görüşmək, onunla vaxt keçirmək, yoldaşlıq etmək.",
+  "en": "to spend time in someone’s company or associate with them",
+  "pos": "verb",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 1, s. 358",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_1.pdf#page=358"
+   }
+  ],
+  "links": {
+   "syn": [
+    "oturub-durmaq"
+   ],
+   "topic": [
+    "yoldaşlıq"
+   ]
+  }
+ },
+ "dədə-bala": {
+  "az": "Ata ilə onun oğlu və ya qızı birlikdə.",
+  "en": "a father and his child, taken together",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin sinonimlər lüğəti (2007) · dədə-bala",
+    "url": "https://anl.az/el/Kitab/246202.pdf"
+   }
+  ],
+  "links": {
+   "syn": [
+    "ata-bala"
+   ],
+   "topic": [
+    "övlad"
+   ]
+  }
+ },
+ "dəlil-dəlalət": {
+  "az": "Birini yola gətirmək üçün ona verilən öyüd. Əsasən “dəlil-dəlalət etmək” birləşməsində işlənir.",
+  "en": "counsel intended to persuade someone, as in dəlil-dəlalət etmək, to try to bring someone around",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 1, s. 577",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_1.pdf#page=577"
+   }
+  ],
+  "links": {
+   "syn": [
+    "nəsihət"
+   ],
+   "topic": [
+    "məsləhət"
+   ]
+  }
+ },
+ "gedişli-gəlişli": {
+  "az": "Adamların tez-tez gəlib-getdiyi yer haqqında deyilir.",
+  "en": "well frequented, with people regularly coming and going",
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 2, s. 217",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_2.pdf#page=217"
+   },
+   {
+    "title": "DİN Polis Akademiyası · Pedaqogika və psixologiya praktikumu (2018)",
+    "url": "https://www.pa.edu.az/library/9/56/681_praktikum_2018.pdf"
+   }
+  ],
+  "links": {
+   "topic": [
+    "gediş-gəliş",
+    "gedib-gəlmək"
+   ]
+  }
+ },
+ "koruş-koruş baxmaq": {
+  "az": "Gözləri zəif gördüyü üçün qarşısındakını seçməyə çalışaraq baxmaq.",
+  "en": "to peer at something with weak eyesight",
+  "pos": "verb",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 2, s. 740",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_2.pdf#page=740"
+   },
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti (2021), s. 338",
+    "url": "https://azerbaycandili.az/Vocabularies/Download/6022/Orfoqrafiya_15.03.2021.pdf#page=338"
+   }
+  ],
+  "links": {
+   "topic": [
+    "koruş",
+    "görmə"
+   ]
+  }
+ },
+ "naz-qəmzəlik": {
+  "az": "Süzgün baxışla, nazlı hərəkətlə işvə etmə.",
+  "en": "coquetry expressed through coy glances or gestures",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 465",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=465"
+   },
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 2, s. 606",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_2.pdf#page=606"
+   }
+  ],
+  "links": {
+   "syn": [
+    "işvə",
+    "cilvə"
+   ]
+  }
+ },
+ "qızıl-qırmızı": {
+  "az": "Qızıl kimi parıldayan, sarı rəngli.",
+  "en": "bright golden yellow, gleaming like gold",
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 158",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=158"
+   },
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 157",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=157"
+   }
+  ],
+  "links": {
+   "syn": [
+    "qızılı"
+   ],
+   "topic": [
+    "parlaq"
+   ]
+  }
+ },
+ "yatımına-yastısına": {
+  "az": "Bir əşyanın enli, düz tərəfi səthə toxunacaq şəkildə.",
+  "en": "flatwise, with the broad face of an object against a surface",
+  "pos": "adverb",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 556",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=556"
+   },
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 550",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=550"
+   }
+  ],
+  "links": {
+   "topic": [
+    "yastı"
+   ]
+  }
+ },
+ "üyüdüb-tökmək": {
+  "az": "Danışıqda, boş söhbəti uzadıb dayanmadan danışmaq.",
+  "en": "to prattle on at length (colloquial)",
+  "pos": "verb",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 444",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=444"
+   }
+  ],
+  "links": {
+   "syn": [
+    "çərənləmək"
+   ],
+   "topic": [
+    "boşboğazlıq"
+   ]
+  }
+ }
+}

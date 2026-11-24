@@ -1,0 +1,451 @@
+{
+ "barmaqotu": {
+  "az": "Taxıllar fəsiləsindən Digitaria cinsinə aid ot.",
+  "en": "a crabgrass or fingergrass of the genus Digitaria, in the grass family",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "İbadlı və Zərgərli · Bitki adları haqqında nə bilirsiniz? (2009) · barmaqotu",
+    "url": "https://botany.az/uploads/library/pdf/bitki_adlari.pdf#page=23"
+   }
+  ],
+  "links": {
+   "topic": [
+    "qırtıckimilər"
+   ]
+  }
+ },
+ "dönərgə": {
+  "az": "Gecəni bir yerdə keçirmə, orada gecələmə.",
+  "en": "an overnight stay",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "AZLEKS · Etimologiya lüğəti · dönərgə",
+    "url": "https://azleks.az/index.php/en/dictionary/donerge"
+   }
+  ],
+  "links": {
+   "syn": [
+    "gecələmə"
+   ],
+   "topic": [
+    "gecələmək"
+   ]
+  }
+ },
+ "genbalaq": {
+  "az": "Ayaq hissəsi enli biçilmiş şalvar haqqında deyilir.",
+  "en": "wide-legged, of trousers",
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 2, s. 217",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_2.pdf#page=217"
+   }
+  ],
+  "links": {
+   "topic": [
+    "şalvar"
+   ]
+  }
+ },
+ "genkürək": {
+  "az": "Kürəyi enli olan adam haqqında deyilir.",
+  "en": "broad-backed or broad-shouldered",
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 2, s. 220",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_2.pdf#page=220"
+   }
+  ],
+  "links": {
+   "syn": [
+    "enlikürək"
+   ]
+  }
+ },
+ "gözbağlıcalıq": {
+  "az": "Tamaşaçını əl çevikliyi və fəndlərlə heyrətləndirmə sənəti.",
+  "en": "conjuring, the art of performing tricks that create an illusion",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 2, s. 534",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_2.pdf#page=534"
+   }
+  ]
+ },
+ "həvədişli": {
+  "az": "Dişləri xalça toxumaqda işlədilən həvənin dişləri kimi iri olan.",
+  "en": "having large teeth likened to the teeth of a carpet beater",
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 2, s. 378",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_2.pdf#page=378"
+   }
+  ],
+  "links": {
+   "topic": [
+    "diş"
+   ]
+  }
+ },
+ "limonotu": {
+  "az": "Yarpaqları limon qoxusu verən ətirli ot bitkisi.",
+  "en": "lemon balm, an herb with lemon-scented leaves",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 1, s. 136",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_1.pdf#page=136"
+   }
+  ],
+  "links": {
+   "syn": [
+    "arıotu"
+   ],
+   "topic": [
+    "yarpaq"
+   ]
+  }
+ },
+ "narınyarpaq": {
+  "az": "Xırda və zərif yarpaqları olan bitki haqqında deyilir.",
+  "en": "bearing small, delicate leaves",
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 459",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=459"
+   }
+  ],
+  "links": {
+   "topic": [
+    "bitki"
+   ]
+  }
+ },
+ "nazikdodaq": {
+  "az": "Dodaqlarının qalınlığı az olan.",
+  "en": "thin-lipped",
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 464",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=464"
+   }
+  ]
+ },
+ "nisgillik": {
+  "az": "İnsanın arzuladığı bir şeyin həsrətini çəkməsi.",
+  "en": "a feeling of longing for something one desires",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 261",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=261"
+   }
+  ],
+  "links": {
+   "syn": [
+    "tamarzılıq",
+    "həsrət"
+   ]
+  }
+ },
+ "oxcüllüt": {
+  "az": "Meşə cüllütləri fəsiləsinin Limosa cinsinə aid sahil quşu.",
+  "en": "a godwit, a shorebird of the genus Limosa in the sandpiper family",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "AMEA Zoologiya İnstitutu · Azərbaycan faunası · Limosa",
+    "url": "https://zoologiya.az/en/fauna"
+   }
+  ],
+  "links": {
+   "topic": [
+    "cüllüt",
+    "quş"
+   ]
+  }
+ },
+ "pələqulaq": {
+  "az": "Qulaqları iri və yastı olan.",
+  "en": "having large, flat ears",
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 590",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=590"
+   }
+  ]
+ },
+ "safsar": {
+  "az": "Dələkimilər fəsiləsindən olan sarıqlı safsarın qısa adı (Vormela peregusna).",
+  "en": "a name for the marbled polecat (Vormela peregusna), a member of the weasel family",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "İ. Şəkikov · Heyvanlar aləmi və onların insan həyatında rolu (2021) · sarıqlı safsar",
+    "url": "https://anl.az/el/kitab2022/08/cd/Azf-325320.pdf"
+   }
+  ],
+  "links": {
+   "topic": [
+    "məməli",
+    "yırtıcı"
+   ]
+  }
+ },
+ "sarıqanad": {
+  "az": "Qanadları sarı rəngdə olan.",
+  "en": "yellow-winged",
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 41",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=41"
+   }
+  ],
+  "links": {
+   "topic": [
+    "kəpənək"
+   ]
+  }
+ },
+ "seyrəkyarpaq": {
+  "az": "Yarpaqları gövdə və ya budaq boyunca aralı bitən.",
+  "en": "having leaves spaced well apart",
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 65",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=65"
+   }
+  ],
+  "links": {
+   "topic": [
+    "ağac"
+   ]
+  }
+ },
+ "sincanotu": {
+  "az": "Dərman sincanotunun da daxil olduğu Sanguisorba cinsindən ot bitkisi.",
+  "en": "a burnet, an herb of the genus Sanguisorba, which includes great burnet",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Qəhrəmanova və İbadullayeva · Bitkilərin sirli dünyası (2017) · Sanguisorba",
+    "url": "https://botany.az/uploads/library/pdf/ms1.pdf"
+   }
+  ],
+  "links": {
+   "topic": [
+    "ot"
+   ]
+  }
+ },
+ "sümürgən": {
+  "az": "Arıların nektar topladığı Anchusa cinsindən ot bitkisi.",
+  "en": "a bugloss of the genus Anchusa, a nectar source for bees",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "İbadlı və Zərgərli · Bitki adları haqqında nə bilirsiniz? (2009) · sümürgən",
+    "url": "https://botany.az/uploads/library/pdf/bitki_adlari.pdf#page=154"
+   }
+  ],
+  "links": {
+   "topic": [
+    "nektar",
+    "balverən"
+   ]
+  }
+ },
+ "sədo": {
+  "az": "Cavan yarpaqları ədviyyə kimi də işlədilən Ruta cinsinə aid bitki.",
+  "en": "rue, a plant of the genus Ruta whose young leaves are also used as a seasoning",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "İbadlı və Zərgərli · Bitki adları haqqında nə bilirsiniz? (2009) · sədo",
+    "url": "https://botany.az/uploads/library/pdf/bitki_adlari.pdf#page=143"
+   }
+  ],
+  "links": {
+   "topic": [
+    "ədviyyat"
+   ]
+  }
+ },
+ "tikanyarpaq": {
+  "az": "Yarpaqlarının ucu tikan kimi sivri olan.",
+  "en": "having leaves that taper to a thornlike point",
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 340",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=340"
+   }
+  ],
+  "links": {
+   "topic": [
+    "itiuclu"
+   ]
+  }
+ },
+ "xırdameyvə": {
+  "az": "Xırda meyvə verən ağac və ya kol haqqında deyilir.",
+  "en": "small-fruited, of a tree or shrub",
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 2, s. 461",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_2.pdf#page=461"
+   }
+  ],
+  "links": {
+   "topic": [
+    "gilənar",
+    "qarağat"
+   ]
+  }
+ },
+ "xırdasünbül": {
+  "az": "Sünbülləri kiçik olan taxıl bitkisi haqqında deyilir.",
+  "en": "bearing small ears, of a cereal plant",
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 2, s. 461",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_2.pdf#page=461"
+   }
+  ],
+  "links": {
+   "topic": [
+    "taxıl"
+   ]
+  }
+ },
+ "yekəbuynuz": {
+  "az": "Buynuzları xüsusilə iri olan heyvan haqqında deyilir.",
+  "en": "large-horned, of an animal",
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 570",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=570"
+   }
+  ],
+  "links": {
+   "syn": [
+    "iribuynuzlu"
+   ],
+   "topic": [
+    "öküz",
+    "maral"
+   ]
+  }
+ },
+ "yekədalaq": {
+  "az": "Dalağı böyümüş xəstə haqqında deyilir.",
+  "en": "having an enlarged spleen",
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 570",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=570"
+   }
+  ]
+ },
+ "yekədırnaq": {
+  "az": "Dırnaqları çox uzun və ya iri olan.",
+  "en": "having unusually long or large nails or hooves",
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 570",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=570"
+   }
+  ]
+ },
+ "zöhrəçiçəyi": {
+  "az": "Səhləbçiçəklilər fəsiləsinə mənsub Cypripedium cinsinin bitkisi.",
+  "en": "a lady’s-slipper orchid of the genus Cypripedium",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "İbadlı və Zərgərli · Bitki adları haqqında nə bilirsiniz? (2009) · zöhrəçiçəyi",
+    "url": "https://botany.az/uploads/library/pdf/bitki_adlari.pdf#page=194"
+   }
+  ],
+  "links": {
+   "topic": [
+    "çiçək"
+   ]
+  }
+ },
+ "çənbərburun": {
+  "az": "Burnunun ucu qövs şəklində geriyə əyilən.",
+  "en": "having a nose whose tip curves back",
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 1, s. 465",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_1.pdf#page=465"
+   }
+  ]
+ },
+ "çənbərburunlu": {
+  "az": "Burnunun ucu qövs şəklində geriyə əyilən.",
+  "en": "having a nose whose tip curves back",
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 1, s. 465",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_1.pdf#page=465"
+   }
+  ],
+  "links": {
+   "topic": [
+    "burun"
+   ]
+  }
+ },
+ "çənbərbığlı": {
+  "az": "Bığının hər iki ucu yuxarı qıvrılan.",
+  "en": "with a moustache that curls upward at the tips",
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 1, s. 465",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_1.pdf#page=465"
+   }
+  ],
+  "links": {
+   "topic": [
+    "bığ"
+   ]
+  }
+ },
+ "ödotu": {
+  "az": "Asterçiçəklilər fəsiləsinə mənsub Helichrysum cinsinin bitkisi.",
+  "en": "an everlasting of the genus Helichrysum, in the daisy family",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "İbadlı və Zərgərli · Bitki adları haqqında nə bilirsiniz? (2009) · ödotu",
+    "url": "https://botany.az/uploads/library/pdf/bitki_adlari.pdf#page=126"
+   }
+  ],
+  "links": {
+   "topic": [
+    "mürəkkəbçiçəkli"
+   ]
+  }
+ }
+}

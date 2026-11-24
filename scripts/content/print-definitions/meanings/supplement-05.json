@@ -1,0 +1,350 @@
+{
+ "atquşu": {
+  "az": "Sabirabad şivəsində adi göycəqarğaya (Coracias garrulus) verilən ad.",
+  "en": "a Sabirabad dialect name for the European roller (Coracias garrulus)",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin dialektoloji lüğəti · atquşu",
+    "url": "https://v2.azleks.az/en/dictionary/atqusu"
+   },
+   {
+    "title": "Avibase · Coracias garrulus",
+    "url": "https://avibase.bsc-eoc.org/species.jsp?avibaseid=7451A628C39538C5&lang=EN"
+   }
+  ],
+  "links": {
+   "topic": [
+    "quş"
+   ]
+  }
+ },
+ "birəböcək": {
+  "az": "Yarpaqla qidalanan və birə kimi sıçrayan xırda böcək.",
+  "en": "a flea beetle, a small leaf-feeding beetle that jumps like a flea",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Tərəvəzçilik ensiklopediyası · Birəböcəklər",
+    "url": "https://azlib.org/media/books/Terevezchilik_ensiklopediyasi_compressed.pdf"
+   }
+  ],
+  "links": {
+   "topic": [
+    "yarpaq",
+    "həşərat"
+   ]
+  }
+ },
+ "dağkəkliyi": {
+  "az": "Daşlı dağ yamaclarında yaşayan, ayaqları və dimdiyi qırmızı olan kəklik növü (Alectoris chukar).",
+  "en": "the chukar (Alectoris chukar), a red-legged, red-billed partridge of rocky slopes",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Avibase · Alectoris chukar",
+    "url": "https://avibase.bsc-eoc.org/species.jsp?avibaseid=87CBEBF7C53AF64C&lang=EN"
+   },
+   {
+    "title": "Azərbaycan kulinariyası ensiklopediyası · Kəklik",
+    "url": "https://azlib.org/media/books/Azerbaycan_kulinariyasi_ensiklopediyasi.pdf"
+   }
+  ],
+  "links": {
+   "topic": [
+    "dağlıq"
+   ]
+  }
+ },
+ "düymədimdik": {
+  "az": "Çoxalma dövründə sinəsində ağ zolaq görünən, tundrada yuva quran bozca növü (Eudromias morinellus).",
+  "en": "the Eurasian dotterel (Eudromias morinellus), a tundra-nesting plover with a white breast band in breeding plumage",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Avibase · Eudromias morinellus",
+    "url": "https://avibase.bsc-eoc.org/species.jsp?avibaseid=20BE9DF14579BD4A&lang=EN"
+   },
+   {
+    "title": "Audubon Field Guide · Eurasian Dotterel",
+    "url": "https://www.audubon.org/field-guide/bird/eurasian-dotterel"
+   }
+  ],
+  "links": {
+   "topic": [
+    "tundra",
+    "dənizbozcası"
+   ]
+  }
+ },
+ "dənizbozcası": {
+  "az": "Qumlu sahillərdə və duzlu göllərin kənarında yuva quran kiçik bozca növü (Anarhynchus alexandrinus).",
+  "en": "the Kentish plover (Anarhynchus alexandrinus), a small shorebird that nests on sandy coasts and the shores of saline lakes",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Avibase · Anarhynchus alexandrinus",
+    "url": "https://avibase.bsc-eoc.org/species.jsp?avibaseid=0A787822FDD6B58C&lang=EN"
+   },
+   {
+    "title": "Zoologiya İnstitutu · Bozcalar · Dəniz bozcası",
+    "url": "https://zoologiya.az/az/fauna/556"
+   }
+  ],
+  "links": {
+   "topic": [
+    "sahil",
+    "qumluq"
+   ]
+  }
+ },
+ "ilanboyun": {
+  "az": "Nazik, uzun boynu və iti dimdiyi ilə suda balıq ovlayan Anhinga cinsindən quş.",
+  "en": "a darter, a waterbird of the genus Anhinga that spears fish with its pointed bill at the end of a long, slender neck",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Avibase · Anhinga",
+    "url": "https://avibase.bsc-eoc.org/species.jsp?avibaseid=87BD934F&lang=EN"
+   },
+   {
+    "title": "Animal Diversity Web · Anhingidae",
+    "url": "https://animaldiversity.org/accounts/Anhingidae/"
+   }
+  ],
+  "links": {
+   "topic": [
+    "balıqyeyən",
+    "dimdik"
+   ]
+  }
+ },
+ "iynəquyruq": {
+  "az": "Quyruq lələklərinin ucu iynə kimi sərt və sivri olan uzunqanadlar fəsiləsindən quş.",
+  "en": "a spinetail swift, such as a swift of the genus Chaetura, with tail feathers that end in stiff spines",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Avibase · Chaetura",
+    "url": "https://avibase.bsc-eoc.org/species.jsp?avibaseid=58CD39D9C582AF73&lang=EN"
+   },
+   {
+    "title": "U.S. Fish and Wildlife Service · Chimney Swifts",
+    "url": "https://www.fws.gov/story/chimney-swifts"
+   }
+  ],
+  "links": {
+   "topic": [
+    "lələk",
+    "quş"
+   ]
+  }
+ },
+ "muradquşu": {
+  "az": "Çəyirtkələrlə qidalanan ala sığırçının (Pastor roseus) başqa adı.",
+  "en": "another name for the rosy starling (Pastor roseus), which feeds on grasshoppers and locusts",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Mirzəyev və başqaları · Meşə və bağların zərərverici həşəratlarına və xəstəliklərinə qarşı mübarizə",
+    "url": "https://www.onlinebotany.az/pdf/mb1.pdf"
+   },
+   {
+    "title": "Zülfü Fərəcli · Azərbaycanda yayılmış quşlar · Ala sığırçın",
+    "url": "https://zulfuferecli.com/az%C9%99rbaycanda-yayilmis-quslar/"
+   }
+  ],
+  "links": {
+   "topic": [
+    "sığırçın",
+    "çəyirtkə"
+   ]
+  }
+ },
+ "ox-ilan": {
+  "az": "Qum ilanları cinsindən bədəni nazik, çox cəld hərəkət edən ilan növü (Psammophis lineolatus).",
+  "en": "the steppe ribbon racer (Psammophis lineolatus), a slender, fast-moving sand snake",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Cəfərova, Hümbətova və Əsgərova · Reptililərin ekologiyası",
+    "url": "https://azlib.org/media/books/Reptilil%C9%99rin_ekologiyas%C4%B1.pdf"
+   },
+   {
+    "title": "U.S. Fish and Wildlife Service · Steppe Ribbon Racer",
+    "url": "https://www.fws.gov/species/steppe-ribbon-racer-psammophis-lineolatus"
+   }
+  ],
+  "links": {
+   "topic": [
+    "sürünən"
+   ]
+  }
+ },
+ "porzan": {
+  "az": "Bataqlıqlarda yaşayan, sufərələr fəsiləsindən kiçik quşlara verilən ad. Adi porzan və xırda porzan bu quşlardandır.",
+  "en": "a crake, a small marsh bird in the rail family, such as the spotted crake or little crake",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Avibase · Porzana porzana",
+    "url": "https://avibase.bsc-eoc.org/species.jsp?avibaseid=460708F99737A6A2&lang=EN"
+   },
+   {
+    "title": "Avibase · Zapornia parva",
+    "url": "https://avibase.bsc-eoc.org/species.jsp?avibaseid=9106EBE6C0914933&lang=EN"
+   }
+  ],
+  "links": {
+   "topic": [
+    "bataqlıq",
+    "durnakimi"
+   ]
+  }
+ },
+ "qaqar": {
+  "az": "Suya dalıb balıq ovlayan Gavia cinsindən quş. Qaradöş qaqar bu cinsə aiddir.",
+  "en": "a loon or diver, a waterbird of the genus Gavia that dives for fish, such as the Arctic loon",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "AMEA · Zoologiya İnstitutunun əsərləri · Qaradöş qaqar",
+    "url": "https://www.zoobio.az/uploads/jurnal/2015-1.pdf"
+   },
+   {
+    "title": "Cornell Lab of Ornithology · Arctic Loon",
+    "url": "https://www.allaboutbirds.org/guide/Arctic_Loon/"
+   }
+  ],
+  "links": {
+   "topic": [
+    "balıqyeyən",
+    "göl"
+   ]
+  }
+ },
+ "qaraburnu": {
+  "az": "Süfrə üçün yetişdirilən üzüm sortu.",
+  "en": "a table-grape cultivar grown for eating fresh",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Gəncə Dövlət Universiteti · “Qaraburnu” süfrə üzüm sortunun uvologiyası",
+    "url": "https://bkf.gdu.edu.az/?page_id=407"
+   },
+   {
+    "title": "Azərbaycan Dövlət Aqrar Universitetinin Elmi Əsərləri · Süfrə sortları",
+    "url": "https://journal.adau.edu.az/journals/2017-4.pdf"
+   }
+  ],
+  "links": {
+   "topic": [
+    "üzüm",
+    "üzümçülük"
+   ]
+  }
+ },
+ "taxılsiçanı": {
+  "az": "Taxıl zəmilərində də yaşayan, siçana bənzər kiçik gəmirici. İctimai çöl siçanı (Microtus socialis) belə gəmiricilərdəndir.",
+  "en": "a vole, a small mouse-like rodent found in habitats including grain fields, such as the social vole (Microtus socialis)",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "İngiliscə-azərbaycanca lüğət · vole",
+    "url": "https://azleks.az/index.php/en/dictionary/vole"
+   },
+   {
+    "title": "Azərbaycan Dövlət Aqrar Universitetinin Elmi Əsərləri · Taxıl əkinlərində siçanabənzər gəmiricilər",
+    "url": "https://journal.adau.edu.az/journals/2016-1.pdf"
+   }
+  ],
+  "links": {
+   "topic": [
+    "gəmirici",
+    "zəmi"
+   ]
+  }
+ },
+ "toxumböcəyi": {
+  "az": "Sürfəsi bitkinin toxumları ilə qidalanan böcək. Kələm toxumböcəyi buna misaldır.",
+  "en": "a beetle whose larvae feed on a plant’s seeds, such as the cabbage seed weevil",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Yağlı bitkilərin əkini · 4.5.6. Kələm toxumböcəyi",
+    "url": "https://www.e-derslik.edu.az/noduploads/vet_pdf/yagli-bitkilarin-akini.pdf"
+   }
+  ],
+  "links": {
+   "topic": [
+    "sürfə",
+    "kələm"
+   ]
+  }
+ },
+ "təlxə": {
+  "az": "Zeytuni təlxə və Pallas təlxəsi kimi bir sıra ilanların ümumi adı.",
+  "en": "a name for several colubrid snakes, including the slender whip snake and the blotched rat snake",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Cəfərova, Hümbətova və Əsgərova · Reptililərin ekologiyası",
+    "url": "https://azlib.org/media/books/Reptilil%C9%99rin_ekologiyas%C4%B1.pdf"
+   },
+   {
+    "title": "The Reptile Database · Elaphe sauromates",
+    "url": "https://reptile-database.reptarium.cz/Elaphe/sauromates"
+   }
+  ],
+  "links": {
+   "topic": [
+    "ilan",
+    "sürünən"
+   ]
+  }
+ },
+ "tənəkquşu": {
+  "az": "Emberiza cinsindən olan kiçik sərçəkimi quş. Bu quşlara vələmirquşu da deyilir.",
+  "en": "a bunting of the genus Emberiza, a small passerine bird",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Avibase · Emberiza",
+    "url": "https://avibase.bsc-eoc.org/species.jsp?avibaseid=869B5DF71970F840&lang=EN"
+   },
+   {
+    "title": "AZƏRTAC · Uşaq Bilik Portalı · Sərçəkimilər",
+    "url": "https://portal.azertag.az/az/encyclopedia/post/15958"
+   }
+  ],
+  "links": {
+   "syn": [
+    "vələmirquşu"
+   ],
+   "topic": [
+    "sərçəkimi"
+   ]
+  }
+ },
+ "şip": {
+  "az": "Xəzər hövzəsində də rast gəlinən nərə balığı növü (Acipenser nudiventris).",
+  "en": "the ship sturgeon (Acipenser nudiventris), a sturgeon native to the Caspian basin and other Eurasian waters",
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Şahdəniz Kompressiya Layihəsi · Ətraf mühitə və sosial sahəyə təsirin qiymətləndirilməsi · Balıqlar",
+    "url": "https://www.bp.com/content/dam/bp/country-sites/en_az/azerbaijan/home/pdfs/esias/sdcp/%C5%9Fahd%C9%99nizkompressiya_eemstq_2cihisse.pdf"
+   },
+   {
+    "title": "CITES · Ship Sturgeon",
+    "url": "https://cites.org/sites/default/files/eng/com/ac/16/16-07-2.pdf"
+   }
+  ],
+  "links": {
+   "topic": [
+    "nərə",
+    "balıq"
+   ]
+  }
+ }
+}
