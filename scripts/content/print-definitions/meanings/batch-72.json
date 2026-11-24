@@ -1,0 +1,301 @@
+{
+  "qızılqaya": {
+    "skip": "Toponym dictionaries attest several names Qızılqaya, but do not establish a common-noun sense for the lowercase spelling."
+  },
+  "davamlıq": {
+    "az": "Materialın müəyyən təsirə məruz qaldıqda öz xassələrini saxlaya bilməsi.",
+    "en": "the ability of a material to withstand an influence such as heat",
+    "pos": "noun",
+    "references": [
+      {
+        "title": "Təhsil Nazirliyi · Tikiş istehsalının təşkili",
+        "url": "https://www.trims.edu.az/noduploads/book/tikis-istehsalinin-taskili.pdf"
+      }
+    ],
+    "links": {
+      "syn": [
+        "davamlılıq"
+      ]
+    }
+  },
+  "kassini": {
+    "skip": "Documented Kassini ovalı uses the surname Cassini. No source found for a standalone lowercase sense or for the automatic kas + sini split."
+  },
+  "gülbahar": {
+    "skip": "The personal name Gülbahar is well attested. Sources for the lowercase flower or textile senses were insufficient to choose a meaning."
+  },
+  "kürsülük": {
+    "az": "Binanın bünövrəsinin torpaq səthindən yuxarı qalxan hissəsi.",
+    "en": "the raised base or plinth of a building",
+    "pos": "noun",
+    "references": [
+      {
+        "title": "Tarix terminləri lüğəti · Kürsülü ev",
+        "url": "https://azleks.az/en/dictionary/kursulu-ev"
+      }
+    ],
+    "parts": false,
+    "links": {
+      "topic": [
+        "bünövrə"
+      ]
+    }
+  },
+  "şalbanbaşı": {
+    "az": "Küçəyə döşəmək üçün şalbandan köndələn kəsilən taxta parçası.",
+    "en": "an end-grain wood block used for paving a street",
+    "pos": "noun",
+    "references": [
+      {
+        "title": "Rusca–azərbaycanca lüğət · торец",
+        "url": "https://azleks.az/en/dictionary/torec"
+      }
+    ],
+    "links": {
+      "topic": [
+        "küçə"
+      ]
+    }
+  },
+  "kasayarpaq": {
+    "az": "Çiçəyin kasacığını əmələ gətirən, adətən yaşıl olan yarpaqcıq.",
+    "en": "a sepal, usually green, forming part of the calyx of a flower",
+    "pos": "noun",
+    "references": [
+      {
+        "title": "İngiliscə–azərbaycanca lüğət · sepal",
+        "url": "https://azleks.az/ru/dictionary/sepal"
+      }
+    ],
+    "parts": false,
+    "links": {
+      "topic": [
+        "çiçəkyanlığı",
+        "çiçək"
+      ]
+    }
+  },
+  "qızılburun": {
+    "skip": "Search results primarily name an archaeological site and settlements. The common-word sense is unresolved."
+  },
+  "dəvəgözü": {
+    "az": "Obsidian adlanan tünd rəngli, şüşəyəbənzər vulkanik daşın yerli adı.",
+    "en": "a regional name for obsidian, a dark volcanic glass",
+    "pos": "noun",
+    "references": [
+      {
+        "title": "Azərbaycan dilinin dialektoloji lüğəti (2007) · dəvəgözü",
+        "url": "https://urmu.eu/Azerbaycan_dilinin_dialektoloji_lugeti.pdf#page=129"
+      },
+      {
+        "title": "AMEA · Neolit dövrünün obsidian alətləri",
+        "url": "https://science.gov.az/az/news/open/10897"
+      }
+    ],
+    "links": {
+      "syn": [
+        "obsidian"
+      ],
+      "topic": [
+        "daş"
+      ]
+    }
+  },
+  "rotatori": {
+    "az": "Əsasən suda yaşayan, mikroskopla görünən xırda onurğasız heyvan.",
+    "en": "a rotifer, a microscopic invertebrate that usually lives in water",
+    "pos": "noun",
+    "references": [
+      {
+        "title": "Naxçıvan Muxtar Respublikasının onurğasızlar faunasının taksonomik spektri",
+        "url": "https://aem.az/uploads/files/2024-01/1706130540_1701123376_naxchivan-muxtar-respublikasinin-onurgasizlar-faunasinin-taksonomik-spektri-2014-1.pdf"
+      }
+    ],
+    "parts": false,
+    "links": {
+      "topic": [
+        "onurğasız"
+      ]
+    }
+  },
+  "hamaşçiçək": {
+    "az": "Bir bitkinin ümumi ox üzərində düzülən çiçəklərinin əmələ gətirdiyi qrup.",
+    "en": "an inflorescence, a group of flowers borne on a common axis",
+    "pos": "noun",
+    "references": [
+      {
+        "title": "Təhsil Nazirliyi · Çiyələk bitkisinin becərilməsi",
+        "url": "https://www.e-derslik.edu.az/noduploads/vet_pdf/ciyalak-bitkisinin-becarilmasi.pdf"
+      }
+    ],
+    "parts": false,
+    "links": {
+      "topic": [
+        "çiçək"
+      ]
+    }
+  },
+  "öküzotu": {
+    "az": "Mürəkkəbçiçəklilər fəsiləsindən olan arnika cinsinə aid ot bitkisi.",
+    "en": "an arnica, a herb of the daisy family",
+    "pos": "noun",
+    "references": [
+      {
+        "title": "Botanika İnstitutu · Bitkilərin sirli dünyası",
+        "url": "https://botany.az/uploads/library/pdf/Bitkilerin_sirli_dunyasi.pdf"
+      }
+    ],
+    "links": {
+      "topic": [
+        "mürəkkəbçiçəkli"
+      ]
+    }
+  },
+  "parakontakt": {
+    "skip": "The sources describe a registered primer brand. No independent lexical source ties that product to the lowercase dictionary headword."
+  },
+  "xaçgülü": {
+    "az": "Mürəkkəbçiçəklilər fəsiləsinin Senecio cinsinə aid bitki.",
+    "en": "a plant of the genus Senecio in the daisy family",
+    "pos": "noun",
+    "references": [
+      {
+        "title": "Ekologiya və Təbii Sərvətlər Nazirliyi · Qax Dövlət Təbiət Yasaqlığı",
+        "url": "https://www.eco.gov.az/az/qax-dovlet-tebiet-yasaqligi"
+      }
+    ],
+    "parts": false,
+    "links": {
+      "topic": [
+        "mürəkkəbçiçəkli"
+      ]
+    }
+  },
+  "qaragüney": {
+    "skip": "The settlement and mountain names do not establish which lowercase lexical sense is intended."
+  },
+  "qarakollu": {
+    "skip": "The village name and the spelling of the plant name qarakol do not establish the meaning of lowercase qarakollu."
+  },
+  "qızıltəpə": {
+    "skip": "Described as a place name and archaeological-site name. A common-noun sense could not be verified."
+  },
+  "tülküquyruq": {
+    "az": "Qırtıckimilər fəsiləsindən sıx, quyruğabənzər çiçək qrupu olan ot.",
+    "en": "a foxtail grass of the genus Alopecurus, with a dense tail-like flower head",
+    "pos": "noun",
+    "references": [
+      {
+        "title": "Azərbaycan Milli Kitabxanası · Bitki adları, Alopecurus",
+        "url": "https://anl.az/el/kitab2022/03/cd/Azf-313822.pdf"
+      }
+    ],
+    "links": {
+      "topic": [
+        "qırtıckimilər",
+        "hamaşçiçək"
+      ]
+    }
+  },
+  "qaraquyruq": {
+    "az": "Quyruğu qara rəngdə olan heyvan və ya quş haqqında işlənir.",
+    "en": "black-tailed, describing an animal or bird with a black tail",
+    "pos": "adjective",
+    "references": [
+      {
+        "title": "Milli Aviasiya Akademiyası · Qaraquyruq qağayı",
+        "url": "https://science.naa.edu.az/wp-content/uploads/2025/01/Konfrans-Materiallari-az-ru-2021.pdf"
+      }
+    ]
+  },
+  "qızılboğaz": {
+    "az": "İmişli şivəsində işlənən bir su quşunun adı.",
+    "en": "a local name for a waterbird in the İmişli dialect",
+    "pos": "noun",
+    "references": [
+      {
+        "title": "Azərbaycan dilinin dialektoloji lüğəti (2007) · qızılboğaz",
+        "url": "https://urmu.eu/Azerbaycan_dilinin_dialektoloji_lugeti.pdf#page=304"
+      }
+    ],
+    "links": {
+      "topic": [
+        "quş"
+      ]
+    }
+  },
+  "ayıçınqılı": {
+    "skip": "Sources describe a mountain and a former settlement under the capitalized name. They do not identify a common noun."
+  },
+  "tikanquyruq": {
+    "skip": "The spelling dictionary labels this zoological. A specialist retailer uses it for a spiny-tailed lizard, but the available zoological sources do not identify the standalone headword closely enough."
+  },
+  "səfərlik": {
+    "az": "Sayla birlikdə işlənərək göstərilən sayda gediş üçün nəzərdə tutulduğunu bildirən.",
+    "en": "used after a number to indicate how many trips something covers",
+    "pos": "adjective",
+    "references": [
+      {
+        "title": "Bakı Metropoliteninin açıqlaması · Bir səfərlik kartlar",
+        "url": "https://banco.az/az/news/baki-metropoliteni-gedis-haqqinin-artirilacagi-barede-melumatlara-munasibet-bildirib"
+      }
+    ],
+    "links": {
+      "topic": [
+        "səfər"
+      ]
+    }
+  },
+  "nömrəlik": {
+    "az": "Telefon xətləri və ya mehmanxana otaqları haqqında sayla işlənərək onların miqdarını bildirir.",
+    "en": "used after a number to give the capacity of a telephone exchange in lines or of a hotel in rooms",
+    "pos": "adjective",
+    "references": [
+      {
+        "title": "Rəqəmsal İnkişaf və Nəqliyyat Nazirliyi · Rabitənin tarixi, 1970–1980",
+        "url": "https://mincom.gov.az/az/nazirlik/tarix/1970-1980"
+      },
+      {
+        "title": "Azərbaycan Respublikası Prezidentinin rəsmi saytı · Otelin nömrə sayı",
+        "url": "https://president.az/az/articles/view/30288"
+      }
+    ],
+    "links": {
+      "topic": [
+        "telefon",
+        "nömrə",
+        "mehmanxana"
+      ]
+    }
+  },
+  "maniçilik": {
+    "az": "III əsrdə Maninin əsasını qoyduğu, işıqla qaranlığın qarşıdurmasına əsaslanan dini təlim.",
+    "en": "Manichaeism, the religion founded by Mani in the third century that teaches a struggle between light and darkness",
+    "pos": "noun",
+    "references": [
+      {
+        "title": "Azərbaycan Dövlət Pedaqoji Universiteti · Multikulturalizmə giriş",
+        "url": "https://www.adpuquba.edu.az/wp-content/uploads/2020/12/Multikulturalizme-Giris.pdf"
+      },
+      {
+        "title": "Azərbaycan Milli Elmlər Akademiyası · əl-Tac fi əxlaq əl-müluk, qeyd 118",
+        "url": "https://azlib.org/media/books/El-Tac_fi_exlaq_el-muluk_SHahlarin_exlaqi_haqda_Tac_eseri.pdf"
+      }
+    ],
+    "parts": false,
+    "links": {
+      "syn": [
+        "manixeizm",
+        "manilik"
+      ],
+      "topic": [
+        "din"
+      ]
+    },
+    "blocked_roots": [
+      "manilik",
+      "mani",
+      "maniçi"
+    ]
+  }
+}

@@ -39,7 +39,7 @@ for (const [word, d] of Object.entries(layer.definitions)) {
   // Undecoded legacy-font text shows up as Cyrillic or as runs of Latin-1 look-alike letters.
   assert(!/[\u0400-\u04ff]|[\u00c0-\u00ff]{3}/.test((d.az + d.en).replace(/[\u00e7\u00c7\u00f6\u00d6\u00fc\u00dc\u00e9]/g, '')), word + ' decoded text');
   assert(d.refs.length && d.refs.every(r => r.title && /^https:\/\//.test(r.url)), word + ' cited');
-  if (d.method === 'paraphrase') assert(d.refs.some(r => /izahli_lugeti|Azerbaycanca_Ingilisce/.test(r.url)), word + ' paraphrase cites print evidence');
+  if (d.method === 'paraphrase') assert(d.refs.some(r => /izahli_lugeti|Azerbaycanca_Ingilisce|Azerbaycan_dilinin_dialektoloji_lugeti/.test(r.url)), word + ' paraphrase cites print evidence');
   // AI-written definitions claim no print source: they cite only the orthography page for the spelling.
   if (d.method === 'authored') assert(d.refs.length === 1 && /Orfoqrafiya_2021/.test(d.refs[0].url), word + ' authored cites the spelling only');
   if (d.method === 'rule' || d.method === 'derivation') assert(m.byWord.has(d.base), word + ' names an existing base word');
@@ -47,7 +47,7 @@ for (const [word, d] of Object.entries(layer.definitions)) {
   // An AI-written meaning replaces a rule definition that only said how the word is built; that formation stays as a note.
   if (d.method === 'meaning') {
     assert(d.refs.some(r => /Orfoqrafiya_2021/.test(r.url)), word + ' meaning cites the spelling');
-    if (d.formation) assert(/(?:sözlərindən düzələn (?:qoşa|mürəkkəb) söz|sözlərindən ibarət birləşmə|ön hissəsi artırılmaqla düzələn söz|şəkilçisi ilə düzələn isim)\.$/.test(d.formation.az) && d.formation.en, word + ' formation note');
+    if (d.formation) assert(/(?:sözlərindən düzələn (?:qoşa|mürəkkəb) söz|sözlərindən ibarət birləşmə|ön hissəsi artırılmaqla düzələn söz|şəkilçisi ilə düzələn (?:isim|sifət))\.$/.test(d.formation.az) && d.formation.en, word + ' formation note');
     assert(!/sözlərindən düzələn|ön hissəsi artırılmaqla|şəkilçisi ilə düzələn/.test(d.az), word + ' meaning is not a formation');
   }
 }
@@ -67,11 +67,14 @@ for (const field of ['headwords', 'missing', 'formation-only', 'needs-review']) 
 
 // Links join existing headwords once, carry a cited reason, and respect every block list.
 const edge = (a, b, t) => m.related(m.byWord.get(a)).find(r => r.node.w === b && r.edge.type === t)?.edge;
-const known = new Set(before.edges.map(e => [e.a.w, e.b.w].sort().join('|')));
+const pairKey = (a, b) => [a, b].sort().join('|');
+const removed = new Set(layer.blocked.map(([a, b, kind]) => pairKey(a, b) + '|' + kind));
+const known = new Set(before.edges.filter(e => !removed.has(pairKey(e.a.w, e.b.w) + '|' + e.type))
+  .map(e => pairKey(e.a.w, e.b.w)));
 let added = 0;
 for (const [a, b, kind, , , proofs] of layer.edges) {
   assert(m.byWord.has(a) && m.byWord.has(b) && a !== b, a + ' ' + b);
-  assert(['root', 'syn', 'topic'].includes(kind));
+  assert(['root', 'syn', 'topic', 'ant'].includes(kind));
   assert(!known.has([a, b].sort().join('|')), a + ' ' + b + ' was not already connected');
   assert(proofs.length && proofs.every(p => p.senseAz && p.senseEn && p.refs.length && p.refs.every(r => /^https:\/\//.test(r.url))));
   if (edge(a, b, kind)) added++;
@@ -82,6 +85,11 @@ for (const layerName of ['WORD_WEB_REVIEW', 'WORD_WEB_RELATIONS', 'WORD_WEB_GROW
 for (const [a, b, t] of [['evsiz', 'siz', 'root'], ['vətəndaş', 'daş', 'root'], ['xilaskar', 'kar', 'root'], ['beşinci', 'inci', 'root'],
   ['dönüş', 'iş', 'root'], ['vətəndaş', 'daş', 'topic']])
   assert(!edge(a, b, t), a + ' ' + b + ' false relation');
+assert(!edge('maniçilik', 'mani', 'root') && !edge('manilik', 'maniçi', 'root'));
+assert(!edge('maniçilik', 'manilik', 'root') && edge('maniçilik', 'manilik', 'syn'));
+// The PDF marks this contrast in the sense of permanence of settlement.
+assert(edge('köçərilik', 'oturaqlıq', 'ant'));
+assert(!edge('monitorinq', 'dualizm', 'ant'), 'the next printed headword starts inside the extracted monitoring entry');
 // Suffix and compound rules never link lexicalised words to look-alike bases.
 const layerPairs = new Set(layer.edges.map(e => [e[0], e[1]].sort().join('|')));
 for (const [a, b] of [['qaraçı', 'qara'], ['alma', 'almaq'], ['dəli', 'də'], ['balıq', 'bal'], ['qardaş', 'qar'], ['ataş', 'ata'], ['bacarıq', 'bacar']])
@@ -120,6 +128,14 @@ assert.equal(node('it-bat düşmək').definitionMethod, 'paraphrase');
 assert(edge('it-bat düşmək', 'itmək', 'syn'));
 assert(edge('qaragözlük etmək', 'ağlamaq', 'topic'));
 assert(!edge('qaragözlük etmək', 'ağlamaq', 'syn'));
+assert(!node('düzquyruqlu').en.includes('Orthurus'), 'the name of a plant does not define a tail shape');
+const regional = node('aşqara');
+assert.equal(regional.definitionMethod, 'paraphrase');
+assert.match(regional.az, /Oğuz/);
+assert(regional.definitionSources.some(r => r.url.endsWith('dialektoloji_lugeti.pdf#page=27')));
+assert(edge('aşqara', 'xuruş', 'syn'));
+assert.match(node('amperlik').definitionFormation.az, /sifət\.$/);
+assert.match(node('amperlik').definitionFormation.en, /^adjective formed from amper/);
 assert.equal(node('mumiyalama').definitionMethod, 'derivation');
 assert.match(node('mumiyalama').en, /embalm/);
 assert(edge('mumiyalama', 'mumiyalamaq', 'root'));

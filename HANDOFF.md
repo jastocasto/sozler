@@ -2,6 +2,12 @@
 
 Read this first if you are an AI agent or developer picking up the work. Everything you need is in this repository. No local state from earlier sessions is required.
 
+## November 24 frequency and regional dictionary review
+
+The frequency-ranked review covers the first 100 formation-only cards from the reconciled atlas at `1891392`. Meanings batches 72–75 contain the sources for 80 accepted interpretations and reasons for deferring 20. Use the [review sheet](scripts/content/print-definitions/priority-review-2026-11-24.csv) for a native-speaker pass. The new meanings retain their review label.
+
+Paraphrases batch 66 uses the 2007 dialect dictionary for 77 regional senses. Run `scripts/autopilot.sh setup` to cache its PDF before rebuilding in an older checkout. The builder applies regional meanings after deriving other words. Explicit opposites from the explanatory dictionary are recorded with bilingual sense notes in `scripts/content/print-definitions/antonyms.json`.
+
 ## November 24 dictionary reconciliation
 
 The combined dictionary builds on the published atlas at `8d53cf8` and the dictionary work in PR #1 through `efec71c`. That PR's last 765 definitions are in meanings batch 71. Earlier PR batches were renumbered where their filenames collided with production. Existing production meanings take precedence where both branches supplied an uncited interpretation. The owner's batch 98 still loads last.

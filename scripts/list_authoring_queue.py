@@ -28,7 +28,7 @@ for _ in range(6):
     B.print_notes(); B.rules(); B.quantified(); B.loan_families(); B.combining_heads(); B.compounds()
     if len(B.definitions) + len(B.edges) == size:
         break
-done = set()
+done = set(B.dialect_entries)
 for path in (b.CONTENT / 'authored').glob('batch-*.json'):
     done |= set(json.loads(path.read_text()))
 undefined = [w for w in B.nodes if not B.defined(w)]

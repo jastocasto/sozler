@@ -1,0 +1,100 @@
+{
+  "aşağa": {
+    "opposite": "yuxarı",
+    "volume": 1,
+    "page": 150,
+    "az": "Hərəkətin aşağıya və ya yuxarıya yönəldiyini bildirir.",
+    "en": "Downward and upward are opposite directions of movement."
+  },
+  "batin": {
+    "opposite": "zahir",
+    "volume": 1,
+    "page": 246,
+    "az": "Bir şeyin daxili mahiyyəti və üzdən görünən tərəfi qarşılaşdırılır.",
+    "en": "The inward nature of something contrasts with its outward appearance."
+  },
+  "bədxahlıq": {
+    "opposite": "xeyirxahlıq",
+    "volume": 1,
+    "page": 265,
+    "az": "Birinə pislik arzulamaq ona yaxşılıq arzulamağın əksidir.",
+    "en": "Ill will toward someone contrasts with goodwill."
+  },
+  "bilvasitə": {
+    "opposite": "bilavasitə",
+    "volume": 1,
+    "page": 307,
+    "az": "Bir işin vasitəçi ilə və ya birbaşa görülməsini fərqləndirir.",
+    "en": "An action can take place indirectly through an intermediary or directly."
+  },
+  "bulanıqlıq": {
+    "opposite": "duruluq",
+    "volume": 1,
+    "page": 357,
+    "az": "Mayenin bulanıq və ya şəffaf olması qarşılaşdırılır.",
+    "en": "Turbidity and clarity describe opposite conditions of a liquid."
+  },
+  "evcil": {
+    "opposite": "yabanı",
+    "volume": 2,
+    "page": 45,
+    "az": "Heyvanın insan yanında və ya təbiətdə vəhşi halda yaşamasını fərqləndirir.",
+    "en": "A domesticated animal contrasts with a wild one."
+  },
+  "əliağır": {
+    "opposite": "əliyüngül",
+    "volume": 2,
+    "page": 102,
+    "az": "Xalq inancında bir işə uğursuzluq və ya uğur gətirən adam haqqında deyilir.",
+    "en": "In folk belief, a person's involvement can bring an undertaking bad luck or good luck."
+  },
+  "köçərilik": {
+    "opposite": "oturaqlıq",
+    "volume": 2,
+    "page": 744,
+    "az": "Yaşayış yerini dəyişə-dəyişə ömür sürmək bir yerdə daimi yaşamaqla qarşılaşdırılır.",
+    "en": "A nomadic way of life contrasts with permanent settlement."
+  },
+  "köhnəlik": {
+    "opposite": "təzəlik",
+    "volume": 2,
+    "page": 746,
+    "az": "Əşyanın köhnəlmiş və ya təzə olmasını bildirir.",
+    "en": "These describe the contrasting qualities of being old or new."
+  },
+  "qalibiyyət": {
+    "opposite": "məğlubiyyət",
+    "volume": 3,
+    "page": 24,
+    "az": "Yarışın və ya mübarizənin iki əks nəticəsi qalib gəlmək və uduzmaqdır.",
+    "en": "Victory and defeat are opposite outcomes of a contest."
+  },
+  "müfəssəl": {
+    "opposite": "müxtəsər",
+    "volume": 3,
+    "page": 410,
+    "az": "İzahın təfərrüatlı və ya yığcam olmasını fərqləndirir.",
+    "en": "A detailed account contrasts with a concise one."
+  },
+  "tənəzzül": {
+    "opposite": "tərəqqi",
+    "volume": 4,
+    "page": 312,
+    "az": "Geriləmə ilə irəliləyiş bir-birinə qarşı qoyulur.",
+    "en": "Decline contrasts with progress."
+  },
+  "ucuzluq": {
+    "opposite": "bahalıq",
+    "volume": 4,
+    "page": 394,
+    "az": "Qiymətlərin aşağı və ya yüksək olması qarşılaşdırılır.",
+    "en": "Low prices contrast with high prices."
+  },
+  "varlıq": {
+    "opposite": "yoxluq",
+    "volume": 4,
+    "page": 465,
+    "az": "Bir şeyin mövcud olması ilə mövcud olmaması qarşılaşdırılır.",
+    "en": "Existence contrasts with nonexistence."
+  }
+}

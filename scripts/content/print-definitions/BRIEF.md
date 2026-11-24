@@ -31,6 +31,12 @@ Style examples already in the atlas:
 - candərdi → az "İstəyi olmadan, məcbur qaldığına görə." en "reluctantly or against one's will"
 - üçyaşlı → az "Üç yaşı olan." en "three years old"
 
+### Regional entries and semantic links
+
+For a regional sense in the 2007 *Azərbaycan dilinin dialektoloji lüğəti*, use `"src": "dialect"` and `"page": N`, where N is the PDF page containing the headword. Identify the region in both definitions. If the entry refers to another word, check that word's sense before using it. The build verifies the source edition and headword on the cited page. Run `scripts/autopilot.sh setup` to cache the PDF.
+
+In a meanings batch, optional `links` use the same `topic` and `syn` fields as a paraphrase. Each linked meaning needs a print or other lexical source that supports the connection. Check the target's actual meaning in the atlas, especially for homonyms. If an older root-family link relies on a different sense, list its target under `blocked_roots`. A supported synonym can then link the pair in the intended sense. On a `parts: false` entry, use `derive: false` if the lexicalized meaning cannot safely serve as the base for other entries. For example, the plant *düzquyruq* gives no evidence that *düzquyruqlu* means having that plant.
+
 ## How to work
 - Process your batches one at a time: Read the whole evidence file (each is ~277 lines; read with offset/limit if needed so you see every line), write the complete output file with the Write tool, then validate it with Bash:
   python3 -c "import json,sys; ev=[json.loads(l)['w'] for l in open(sys.argv[1])]; out=json.load(open(sys.argv[2])); missing=[w for w in ev if w not in out]; extra=[w for w in out if w not in ev]; bad=[w for w,v in out.items() if 'skip' not in v and not (v.get('az','').strip().endswith('.') and v.get('en','').strip() and v.get('pos'))]; print(len(ev),len(out),'missing',missing[:20],'extra',extra[:20],'bad',bad[:20])" EVIDENCE OUTPUT

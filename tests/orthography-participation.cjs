@@ -59,8 +59,14 @@ assert(spellingGroups.size>40,'Spelling words are spread over many groups');
 assert(atlas.clusters.some(c=>c.label.startsWith('Feli isimlər')&&spellingGroups.has(c.index)));
 const pass = w.WORD_WEB_ORTHOGRAPHY_LEXICAL;
 const type = (a,b,kind) => model.related(model.byWord.get(a)).find(item => item.node.w===b&&item.edge.type===kind);
+const relationKey = (a,b,kind) => [a,b].sort().join('|')+'|'+kind;
+const rejected = new Set(w.WORD_WEB_PRINT_DEFINITIONS.blocked.map(e=>relationKey(...e)));
 for (const [a,b,kind] of pass.edges) {
   const forward = type(a,b,kind);
+  if (rejected.has(relationKey(a,b,kind))) {
+    assert(!forward && !type(b,a,kind),a+' '+kind+' '+b+' uses the wrong homonym');
+    continue;
+  }
   if (!forward && kind==='topic') continue; // A more specific relation can supersede a topic link.
   assert(forward, a+' '+kind+' '+b);
   assert.equal(type(b,a,kind)?.edge,forward.edge);

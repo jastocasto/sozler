@@ -21,6 +21,7 @@ setup)
   mkdir -p $P/pdf
   for v in 1 2 3 4; do [ -s $P/pdf/v$v.pdf ] || curl -sf --retry 4 -o $P/pdf/v$v.pdf "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_$v.pdf"; done
   [ -s $P/pdf/musayev.pdf ] || curl -sf --retry 4 -o $P/pdf/musayev.pdf "https://urmu.eu/Azerbaycanca_Ingilisce_luget.pdf"
+  [ -s $P/pdf/dialect.pdf ] || curl -fsSL --retry 4 -o $P/pdf/dialect.pdf "https://urmu.eu/Azerbaycan_dilinin_dialektoloji_lugeti.pdf"
   if [ ! -s $P/izahli.sqlite ] || [ ! -s $P/musayev.sqlite ]; then
     python3 scripts/extract_print_dictionaries.py --explanatory $P/pdf/v1.pdf $P/pdf/v2.pdf $P/pdf/v3.pdf $P/pdf/v4.pdf \
       --explanatory-db $P/izahli.sqlite --bilingual $P/pdf/musayev.pdf --bilingual-db $P/musayev.sqlite

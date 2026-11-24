@@ -1,7 +1,12 @@
 {
- "method": "Definitions for headwords that had none. Paraphrases are AI-assisted new wording of the cited explanatory (2006) and Musayev Azerbaijani–English dictionary senses; derivation and cross-reference definitions follow explicit statements in the explanatory dictionary; rule-based definitions describe transparent productive suffixes of defined base words; authored definitions cite only the orthography page and are marked for review. Print prose is cited, not republished. This is not native-speaker verification.",
+ "method": "Definitions for headwords that had none. Paraphrases are AI-assisted new wording of the cited explanatory (2006), Musayev Azerbaijani–English, or regional dialect (2007) dictionary senses; derivation and cross-reference definitions follow explicit statements in the explanatory dictionary; rule-based definitions describe transparent productive suffixes of defined base words; authored definitions cite only the orthography page and are marked for review. Print prose is cited, not republished. This is not native-speaker verification.",
  "license": "New editorial text is shared under CC BY-SA 4.0.",
  "sources": {
+  "dialect": {
+   "title": "Azərbaycan dilinin dialektoloji lüğəti (AMEA, Şərq-Qərb, 2007)",
+   "url": "https://urmu.eu/Azerbaycan_dilinin_dialektoloji_lugeti.pdf",
+   "sha256": "346d4497d5399d040ce4fc806f80e475e9c392d948a143f3bc9ff18dcb7fdf21"
+  },
   "explanatory": [
    {
     "volume": 1,
@@ -42,53 +47,57 @@
  },
  "summary": {
   "undefined_before": 63985,
-  "undefined_after": 1524,
+  "undefined_after": 1447,
   "isolated_before": 30802,
-  "isolated_after": 6051,
-  "definitions": 62461,
+  "isolated_after": 5997,
+  "definitions": 62538,
   "definitions_by_method": {
    "authored": 10851,
    "cross-reference": 413,
    "derivation": 3604,
-   "meaning": 13070,
-   "paraphrase": 18085,
-   "rule": 16438
+   "meaning": 13150,
+   "paraphrase": 18162,
+   "rule": 16358
   },
   "low_confidence_paraphrases": 752,
-  "links": 38068,
+  "links": 38222,
   "stats": {
    "definitions:authored": 10851,
    "definitions:cross-reference": 413,
    "definitions:derivation": 3604,
-   "definitions:meaning": 13070,
-   "definitions:paraphrase": 18085,
-   "definitions:rule": 16438,
+   "definitions:meaning": 13150,
+   "definitions:paraphrase": 18162,
+   "definitions:rule": 16358,
    "links:bilingual-cross-reference": 897,
    "links:combining": 2363,
-   "links:compound": 17791,
+   "links:compound": 17738,
    "links:compound-print": 396,
    "links:cross-reference": 150,
    "links:cross-reference-lead": 157,
-   "links:definition-genus": 4282,
+   "links:definition-genus": 4283,
    "links:definition-relation": 261,
    "links:definition-synonym": 1023,
    "links:derivation": 1644,
+   "links:dialect-sense": 93,
    "links:inflected-form": 88,
    "links:loan-family": 1051,
+   "links:meaning-sense": 100,
    "links:original-form": 96,
    "links:original-genus": 770,
    "links:original-relation": 23,
    "links:original-synonym": 692,
+   "links:print-antonym": 14,
    "links:print-subentry": 28,
    "links:quantity": 900,
-   "links:rule": 4803,
+   "links:rule": 4802,
    "links:rule-print": 653,
-   "meaning:not-applied": 584,
+   "meaning:not-applied": 615,
    "paraphrase:rejected-unsourced": 54,
    "paraphrase:skipped": 93,
-   "rule:unconfirmed-existing": 67810
+   "rule:unconfirmed-existing": 67810,
+   "blocked:homonym-root": 5
   },
   "dictionary_reviews": 392
  },
- "output_sha256": "b48e0a3cae10bb3239e0484ce22d62741262fdd2b12c042e5c3371e4969d9e9a"
+ "output_sha256": "42d94527f406916623b322647f12772faf91c1c3106bdc5935f3b9ddafddbc96"
 }

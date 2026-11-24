@@ -5,13 +5,15 @@ Inputs
   model      JSON from `node scripts/export_print_definition_model.cjs model.json --without-print`
   explanatory, bilingual
              SQLite caches from scripts/extract_print_dictionaries.py
+  --dialect-pdf
+             2007 dialect dictionary PDF (cached by scripts/autopilot.sh setup)
   scripts/content/print-definitions/paraphrases/*.json
              AI-assisted bilingual paraphrases written from the cited print entries
   scripts/content/print-definitions/authored/*.json
              AI-written definitions requiring source comparison
 
 Each new definition records its method:
-  paraphrase       new wording of the explanatory and/or Musayev dictionary sense (AI-assisted)
+  paraphrase       new wording of a cited explanatory, bilingual or dialect dictionary sense (AI-assisted)
   derivation       the explanatory dictionary states the word is formed from a base ("X"dan f.is.)
   cross-reference  the explanatory dictionary refers the word to another headword (bax X)
   rule             a transparent, productive suffix of a defined base word (qayda ilə qurulub)
@@ -38,11 +40,17 @@ import sqlite3
 import unicodedata
 from pathlib import Path
 
+from extract_print_dictionaries import pdf_pages
+
 ROOT = Path(__file__).resolve().parent.parent
 CONTENT = ROOT / 'scripts/content/print-definitions'
 OUTPUT = ROOT / 'dist/print-definitions.js'
 ATTRIBUTION = ROOT / 'dist/print-definitions-attribution.json'
 ORTHOGRAPHY_URL = 'https://www.dilcilik.az/kitabxana/arasdirmalar/Orfoqrafiya_2021.pdf'
+DIALECT_URL = 'https://urmu.eu/Azerbaycan_dilinin_dialektoloji_lugeti.pdf'
+DIALECT_TITLE = 'Azərbaycan dilinin dialektoloji lüğəti (AMEA, Şərq-Qərb, 2007)'
+DIALECT_SHA256 = '346d4497d5399d040ce4fc806f80e475e9c392d948a143f3bc9ff18dcb7fdf21'
+DIALECT_HEAD = re.compile(r'^([A-ZÇĞİÖŞÜƏ-]+)(?: [IVX]+)?[ \t]+\(', re.M)
 GRAMMAR = {'title': 'A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)',
            'url': 'https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI'}
 SPELLING_RULES = {'title': 'Azərbaycan dilinin orfoqrafiya qaydaları', 'url': 'https://e-qanun.az/framework/42073'}
@@ -375,7 +383,8 @@ class Builder:
             self.musayev[k].append((text, page))
         self.definitions = {}
         self.edges = []
-        self.subentry_links = {}
+        self.editorial_links = {}
+        self.dialect_entries = {}
         # AI-written meanings for words whose rule definition only states the formation (meanings/*.json);
         # "parts": false marks a word the compound and suffix rules split wrongly (transport is not trans + port).
         self.meaning_entries = {}
@@ -418,6 +427,9 @@ class Builder:
             for word, entry in json.loads(path.read_text()).items():
                 if not self.undefined(word):
                     continue
+                if entry.get('src') == 'dialect':
+                    self.dialect_entries[word] = entry
+                    continue
                 if 'skip' in entry:
                     self.stats['paraphrase:skipped'] += 1
                     continue
@@ -455,12 +467,72 @@ class Builder:
                 self.define(word, az[0].upper() + az[1:], en[0].lower() + en[1:] if en[:2] != 'I ' else en, pos, refs, 'paraphrase', **extra)
 
                 if 'links' in entry:
-                    self.subentry_links[word] = entry['links']
+                    self.editorial_links[word] = (entry['links'], refs, 'print-subentry')
 
-    def link_subentries(self):
+    def dialect_paraphrases(self, pdf):
+        """Add regional senses after the rules, so a dialect homonym cannot define standard derivatives."""
+        if not self.dialect_entries:
+            return
+        if hashlib.sha256(pdf.read_bytes()).hexdigest() != DIALECT_SHA256:
+            raise ValueError(f'Unexpected edition of the dialect dictionary: {pdf}')
+        pages = pdf_pages(pdf)
+        for word, entry in self.dialect_entries.items():
+            if not self.undefined(word):
+                continue
+            page = entry['page']
+            if type(page) is not int or not 1 <= page <= len(pages):
+                raise ValueError(f'Invalid dialect dictionary page for {word}')
+            text = pages[page - 1]
+            heads = list(DIALECT_HEAD.finditer(text))
+            passages = [text[m.end():heads[i + 1].start() if i + 1 < len(heads) else len(text)]
+                        for i, m in enumerate(heads) if key(m[1]) == key(word)]
+            if not passages:
+                raise ValueError(f'Missing dialect headword {word} on PDF page {page}')
+            az, en, pos = entry['az'].strip(), entry['en'].strip(), entry['pos']
+            if pos not in POS or not az.endswith('.') or not en or len(az) > 260 or len(en) > 200:
+                raise ValueError(f'Invalid dialect paraphrase for {word}')
+            if any(ngrams(az) & ngrams(passage) for passage in passages):
+                raise ValueError(f'Paraphrase for {word} copies a passage on page {page}')
+            refs = [{'title': f'{DIALECT_TITLE}, PDF s. {page}', 'url': f'{DIALECT_URL}#page={page}'}]
+            extra = {'confidence': 'low'} if entry.get('conf') == 'low' else {}
+            self.define(word, az, en, pos, refs, 'paraphrase', **extra)
+            if entry.get('links'):
+                self.editorial_links[word] = (entry['links'], refs, 'dialect-sense')
+
+    def dictionary_antonyms(self):
+        """Add sense-specific contrasts explicitly marked (X ziddi) on a checked dictionary page."""
+        for word, entry in json.loads((CONTENT / 'antonyms.json').read_text()).items():
+            other, volume, page = entry['opposite'], entry['volume'], entry['page']
+            marker = f'({other} ziddi)'
+            if word not in self.nodes or other not in self.nodes or not any(
+                v == volume and p == page and marker in text.split('◊')[0]
+                for text, v, p in self.print.get(key(word), [])
+            ):
+                raise ValueError(f'Unconfirmed dictionary contrast: {word} / {other}')
+            self.link(word, other, 'ant', 'İzahlı lüğət · əks məna', entry['az'], entry['en'],
+                      [print_source(volume, page)], 'print-antonym')
+
+    def remove_homonym_roots(self, baseline_edges):
+        """Free pairs whose only baseline connection used a homonym as the root."""
+        pairs = {tuple(sorted((word, other))) for word, entry in self.meaning_entries.items()
+                 if self.definitions.get(word, {}).get('method') == 'meaning'
+                 for other in entry.get('blocked_roots', [])}
+        blocked = []
+        retained = set()
+        for a, b, kind in baseline_edges:
+            pair = tuple(sorted((a, b)))
+            if pair in pairs:
+                if kind == 'root':
+                    blocked.append([a, b, kind])
+                else:
+                    retained.add(pair)
+        self.connected.difference_update(pairs - retained)
+        return blocked
+
+    def link_editorial_senses(self):
         # Append these after the existing rules so a useful link for a previously
         # isolated target (e.g. təşəxxüs → lovğalıq) survives the new incoming link.
-        for word, links in self.subentry_links.items():
+        for word, (links, refs, source) in self.editorial_links.items():
             definition = self.definitions[word]
             for kind, targets in links.items():
                 for target in targets:
@@ -468,7 +540,7 @@ class Builder:
                         raise ValueError(f'Invalid {kind} link from {word} to {target}')
                     note = 'Tərif · sinonim' if kind == 'syn' else 'Tərif · əlaqəli anlayış'
                     self.link(word, target, kind, note, definition['az'], definition['en'],
-                              definition['refs'], 'print-subentry')
+                              refs, source)
 
     # AI-written definitions for words no print source covers ----------------------------
     def authored(self):
@@ -497,7 +569,9 @@ class Builder:
         # A word that is never split gets its meaning before the rules run, so derivatives can still build on it
         # (toparlanma from toparlanmaq); the others replace their rule definition afterwards.
         for word, entry in self.meaning_entries.items():
-            if 'skip' in entry or word not in self.nodes or (early and (word not in self.unsplit or not self.undefined(word))):
+            if 'skip' in entry or word not in self.nodes:
+                continue
+            if early and (word not in self.unsplit or entry.get('derive') is False or not self.undefined(word)):
                 continue
             az, en, pos = entry.get('az', '').strip(), entry.get('en', '').strip(), entry.get('pos')
             page = self.nodes[word].get('page')
@@ -526,13 +600,24 @@ class Builder:
             if self.undefined(word):
                 self.define(word, az, en, pos, refs + [spelling_source(page)], 'meaning')
             elif current and current['method'] == 'rule' and FORMATION_ONLY.search(current['az']):
-                extra = {'formation': {'az': current['az'], 'en': current['en']}}
+                formation = {'az': current['az'], 'en': current['en']}
+                # -lıq/-lik also forms adjectives. Keep the suffix and base in the
+                # structure note but use the part of speech of the accepted sense.
+                if pos == 'adjective' and formation['az'].endswith('şəkilçisi ilə düzələn isim.'):
+                    formation['az'] = formation['az'].removesuffix('isim.') + 'sifət.'
+                    formation['en'] = 'adjective ' + formation['en'].removeprefix('noun ')
+                extra = {'formation': formation}
                 if current.get('base'):
                     extra['base'] = current['base']
                 self.define(word, az, en, pos, refs + [r for r in current['refs'] if r not in refs], 'meaning', **extra)
                 self.stats['definitions:rule'] -= 1
             else:
                 self.stats['meaning:not-applied'] += 1
+                continue
+            if entry.get('links'):
+                if not refs:
+                    raise ValueError(f'Meaning links need a source for the sense of {word}')
+                self.editorial_links[word] = (entry['links'], refs, 'meaning-sense')
 
     # Templates --------------------------------------------------------------------
     def verbal_noun(self, verb, base):
@@ -1489,15 +1574,15 @@ class Builder:
 
 LOADER = '''// Generated by scripts/build_print_definitions.py; see print-definitions-attribution.json.
 window.WORD_WEB_PRINT_DEFINITIONS=(function(data){
- const [refs,rows,links]=data,ref=i=>({title:refs[i][0],url:refs[i][1]}),definitions={};
+ const [refs,rows,links,blocked]=data,ref=i=>({title:refs[i][0],url:refs[i][1]}),definitions={};
  for(const w in rows){const [az,en,pos,ids,method,extra]=rows[w];definitions[w]={az,en,pos,refs:ids.map(ref),method,...extra};}
  const edges=links.map(([a,b,kind,note,proofs])=>[a,b,kind,note,null,proofs.map(([from,senseAz,senseEn,ids])=>({from,senseAz,senseEn,refs:ids.map(ref)}))]);
- return {definitions,edges};
+ return {definitions,edges,blocked};
 })(DATA);
 '''
 
 
-def write_reviewed_output(model, refs, definitions, edges, meta):
+def write_reviewed_output(model, refs, definitions, edges, meta, blocked):
     """Apply individually compared senses after the automated dictionary layers."""
     candidates = {n['w'] for n in model['nodes'] if not n['az'].strip() and not n['en'].strip()}
     ref_index = {tuple(ref): i for i, ref in enumerate(refs)}
@@ -1556,8 +1641,13 @@ def write_reviewed_output(model, refs, definitions, edges, meta):
     summary = meta['summary']
     summary['stats']['links:compound'] -= len(edges) - len(kept)
     edges = kept
-    connected = {word for e in edges for word in e[:2]}
-    summary['isolated_after'] = sum(not n['degree'] and n['w'] not in connected for n in model['nodes'])
+    # The baseline edge list also includes generated root families. Recount after
+    # suppressing just those root links whose evidence uses the wrong homonym.
+    removed = {tuple(e) for e in blocked}
+    summary['stats']['blocked:homonym-root'] = len(removed)
+    connected = {w for e in model['edges'] if tuple(e) not in removed for w in e[:2]}
+    connected.update(w for e in edges for w in e[:2])
+    summary['isolated_after'] = sum(n['w'] not in connected for n in model['nodes'])
     summary['links'] = len(edges)
     methods = collections.Counter(d[4] for d in definitions.values())
     summary.update(definitions=len(definitions), undefined_after=summary['undefined_before'] - len(definitions),
@@ -1568,7 +1658,7 @@ def write_reviewed_output(model, refs, definitions, edges, meta):
         summary['stats']['definitions:' + method] = total
     evidence = json.loads((ROOT / 'scripts/content/verification/print-source-summary.json').read_text())
     meta['sources']['review_extraction'] = {k: evidence[k] for k in ('title', 'research_extraction', 'extraction_sha256')}
-    payload = json.dumps([refs, dict(sorted(definitions.items())), edges], ensure_ascii=False, separators=(',', ':'))
+    payload = json.dumps([refs, dict(sorted(definitions.items())), edges, blocked], ensure_ascii=False, separators=(',', ':'))
     OUTPUT.write_text(LOADER.replace('DATA', payload))
     meta['output_sha256'] = hashlib.sha256(OUTPUT.read_bytes()).hexdigest()
     ATTRIBUTION.write_text(json.dumps(meta, ensure_ascii=False, indent=1) + '\n')
@@ -1580,6 +1670,7 @@ def main():
     parser.add_argument('model', type=Path)
     parser.add_argument('explanatory', type=Path)
     parser.add_argument('bilingual', type=Path)
+    parser.add_argument('--dialect-pdf', type=Path, default=ROOT / '.cache/print/pdf/dialect.pdf')
     args = parser.parse_args()
     model = json.loads(args.model.read_text())
     builder = Builder(model, sqlite3.connect(f'file:{args.explanatory}?mode=ro', uri=True),
@@ -1605,7 +1696,10 @@ def main():
     builder.leading_references()
     builder.original_definition_links()
     builder.inflected_forms()
-    builder.link_subentries()
+    builder.dialect_paraphrases(args.dialect_pdf)
+    blocked = builder.remove_homonym_roots(model['edges'])
+    builder.link_editorial_senses()
+    builder.dictionary_antonyms()
     after_undefined = sum(1 for w in builder.nodes if not builder.defined(w))
     after_isolated = sum(1 for w in builder.nodes if not builder.degree[w])
     methods = collections.Counter(d['method'] for d in builder.definitions.values())
@@ -1620,11 +1714,12 @@ def main():
     bilingual_hashes = [row for row in sqlite3.connect(f'file:{args.bilingual}?mode=ro', uri=True).execute('select path, sha256 from sources')]
     meta = {
         'method': 'Definitions for headwords that had none. Paraphrases are AI-assisted new wording of the cited explanatory '
-                  '(2006) and Musayev Azerbaijani–English dictionary senses; derivation and cross-reference definitions follow '
+                  '(2006), Musayev Azerbaijani–English, or regional dialect (2007) dictionary senses; derivation and cross-reference definitions follow '
                   'explicit statements in the explanatory dictionary; rule-based definitions describe transparent productive '
                   'suffixes of defined base words; authored definitions cite only the orthography page and are marked for review. Print prose is cited, not republished. This is not native-speaker verification.',
         'license': 'New editorial text is shared under CC BY-SA 4.0.',
-        'sources': {'explanatory': [{'volume': v, 'file': p, 'sha256': h} for v, p, h in explanatory_hashes],
+        'sources': {'dialect': {'title': DIALECT_TITLE, 'url': DIALECT_URL, 'sha256': DIALECT_SHA256},
+                    'explanatory': [{'volume': v, 'file': p, 'sha256': h} for v, p, h in explanatory_hashes],
                     'bilingual': [{'file': p, 'sha256': h} for p, h in bilingual_hashes],
                     'grammar': GRAMMAR},
         'summary': summary,
@@ -1645,7 +1740,7 @@ def main():
         definitions[word] = [d['az'], d['en'], d['pos'], ref_ids(d['refs']), d['method']] + ([extra] if extra else [])
     edges = [[a, b, kind, note, [[p['from'], p['senseAz'], p['senseEn'], ref_ids(p['refs'])] for p in proofs]]
              for a, b, kind, note, _, proofs in builder.edges]
-    write_reviewed_output(model, refs, definitions, edges, meta)
+    write_reviewed_output(model, refs, definitions, edges, meta, blocked)
 
 
 if __name__ == '__main__':
