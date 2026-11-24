@@ -64,9 +64,7 @@
   "pos": "adjective",
   "parts": false
  },
- "bizli-bizsiz": {
-  "skip": "meaning not certain"
- },
+ "bizli-bizsiz": {"az": "Biz iştirak etsək də, etməsək də.", "en": "with or without us", "pos": "adverb"},
  "biznes-diaqram": {
   "az": "Biznes göstəricilərini və proseslərini əyani göstərən diaqram.",
   "en": "business diagram, business chart",
@@ -169,9 +167,7 @@
  "blok-balans": {
   "skip": "technical term, not certain"
  },
- "blok-element": {
-  "skip": "technical term, not certain"
- },
+ "blok-element": {"az": "Daha böyük blokun qurulmasında ayrıca vahid kimi işlənən hissə.", "en": "component of a block", "pos": "noun"},
  "blok-indikator": {
   "skip": "technical term, not certain"
  },
@@ -186,12 +182,8 @@
  "blok-mexanizmli": {
   "skip": "technical term, not certain"
  },
- "blok-model": {
-  "skip": "technical term, not certain"
- },
- "blok-otaq": {
-  "skip": "meaning not certain"
- },
+ "blok-model": {"az": "Sistemi ayrı bloklar və onların arasındakı əlaqələr şəklində göstərən model.", "en": "block model", "pos": "noun"},
+ "blok-otaq": {"az": "Tikintidə vahid kimi hazırlanıb bütöv şəkildə yerinə qoyulan otaq modulu.", "en": "prefabricated room module", "pos": "noun"},
  "blok-rele": {
   "skip": "technical term, not certain"
  },
@@ -757,9 +749,7 @@
   "en": "diver seaman",
   "pos": "noun"
  },
- "dalğıc-operator": {
-  "skip": "meaning not certain (underwater cameraman or equipment operator)"
- },
+ "dalğıc-operator": {"az": "Suyun altında texniki qurğu və ya çəkiliş avadanlığı işlədən dalğıc.", "en": "diver-operator", "pos": "noun"},
  "dam-dirək": {
   "az": "Evin damı və onu saxlayan dirəklər; tikilinin əsas hissələri.",
   "en": "roof and posts (of a house)",
@@ -816,9 +806,7 @@
   "en": "to pull out, to drag out",
   "pos": "verb"
  },
- "dastan-tamaşa": {
-  "skip": "meaning not certain"
- },
+ "dastan-tamaşa": {"az": "Dastanın süjeti əsasında səhnədə göstərilən tamaşa.", "en": "stage adaptation of an epic", "pos": "noun"},
  "dayanıb-durmaq": {
   "az": "Bir yerdə durub qalmaq, hərəkəti dayandırmaq (çox vaxt inkarda: dayanıb-durmadan).",
   "en": "to stop, to stand still",
@@ -910,7 +898,5 @@
   "en": "stones and mud",
   "pos": "noun"
  },
- "daş-palçıqlı": {
-  "skip": "meaning not certain (stony-muddy or mud-mortared)"
- }
+ "daş-palçıqlı": {"az": "Səthi daş və palçıqla örtülü olan.", "en": "stony and muddy", "pos": "adjective"}
 }

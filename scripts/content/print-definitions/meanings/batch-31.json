@@ -4,9 +4,7 @@
   "en": "narrow-nosed (e.g. catarrhine monkeys)",
   "pos": "adjective"
  },
- "darqanad": {
-  "skip": "animal name, not certain"
- },
+ "darqanad": {"az": "Çox vaxt uzunsov və ensiz bədənli, çiçəklərdə rast gəlinən böcək.", "en": "false blister beetle", "pos": "noun"},
  "darqanadlı": {
   "az": "Qanadları dar olan.",
   "en": "narrow-winged",
@@ -117,9 +115,7 @@
  "daşcanlı": {
   "skip": "meaning not certain"
  },
- "daşdoğrama": {
-  "skip": "meaning not certain"
- },
+ "daşdoğrama": {"az": "Daşı tikinti və ya bəzək üçün parçalara kəsmə işi.", "en": "stone cutting", "pos": "noun"},
  "daşdöşəmə": {
   "az": "Daşdan düzəldilmiş döşəmə; daş döşənmiş səth.",
   "en": "stone floor, stone paving",
@@ -128,9 +124,7 @@
  "daşdələnkimi": {
   "skip": "meaning not certain"
  },
- "daşmeyvə": {
-  "skip": "botanical term, not certain (drupe or a plant name)"
- },
+ "daşmeyvə": {"az": "Xırda, bərk meyvələri olan, daşlı yerlərdə də bitən birillik ot bitkisi.", "en": "plant of the genus Euclidium", "pos": "noun"},
  "daşpalıd": {
   "skip": "plant name, not certain"
  },

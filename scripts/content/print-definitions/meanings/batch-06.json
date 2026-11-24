@@ -89,9 +89,7 @@
   "en": "dodder (Cuscuta)",
   "pos": "noun"
  },
- "quşdarısı": {
-  "skip": "plant name, not certain"
- },
+ "quşdarısı": {"az": "Xırda dənələri süpürgəvarı çiçək qrupunda yetişən və yem kimi istifadə olunan ot.", "en": "millet grass", "pos": "noun"},
  "rütubətsevən": {
   "az": "Rütubətli yerlərdə yaxşı bitən, nəmliyə ehtiyacı çox olan (bitki, heyvan).",
   "en": "moisture-loving, hygrophilous",
@@ -131,9 +129,7 @@
   "en": "nanosystem",
   "pos": "noun"
  },
- "disksürən": {
-  "skip": "meaning not certain"
- },
+ "disksürən": {"az": "Kompüterdə diski oxuyan və ya ona məlumat yazan qurğu.", "en": "disk drive", "pos": "noun"},
  "elmşünaslıq": {
   "az": "Elmin inkişaf qanunauyğunluqlarını, quruluşunu və cəmiyyətdəki rolunu öyrənən sahə.",
   "en": "science studies, science of science",
@@ -223,9 +219,7 @@
   "en": "antiproton",
   "pos": "noun"
  },
- "çörəkotu": {
-  "skip": "plant name, not certain"
- },
+ "çörəkotu": {"az": "Qara, ətirli toxumları çörək və başqa yeməklərə qatılan bitki.", "en": "nigella", "pos": "noun"},
  "hidroqovşaq": {
   "az": "Bənd, su elektrik stansiyası və başqa hidrotexniki qurğulardan ibarət kompleks.",
   "en": "hydroelectric complex, hydraulic works",
@@ -370,9 +364,7 @@
   "en": "jerboa",
   "pos": "noun"
  },
- "filbahar": {
-  "skip": "meaning not certain"
- },
+ "filbahar": {"az": "Uzun, sallanan çiçək salxımları açan dırmaşıcı bəzək bitkisi.", "en": "wisteria", "pos": "noun"},
  "xırdameyvəli": {
   "az": "Meyvələri xırda olan (sort, bitki).",
   "en": "small-fruited",
@@ -648,9 +640,7 @@
  "pərayaqlı": {
   "skip": "meaning not certain"
  },
- "südotu": {
-  "skip": "plant name, not certain"
- },
+ "südotu": {"az": "Çox vaxt xırda göy, çəhrayı və ya ağ çiçəklər açan ot bitkisi.", "en": "milkwort", "pos": "noun"},
  "yarpaqgüdən": {
   "skip": "meaning not certain"
  },

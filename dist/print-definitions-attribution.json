@@ -1,5 +1,5 @@
 {
- "method": "Definitions for headwords that had none. Paraphrases are AI-assisted new wording of the cited explanatory (2006) and Musayev Azerbaijani–English dictionary senses; derivation and cross-reference definitions follow explicit statements in the explanatory dictionary; rule-based definitions describe transparent productive suffixes of defined base words; authored definitions are AI-written for spellings that neither print dictionary covers, cite only the orthography page and are marked for review. Print prose is cited, not republished. This is not native-speaker verification.",
+ "method": "Definitions for headwords that had none. Paraphrases are AI-assisted new wording of the cited explanatory (2006) and Musayev Azerbaijani–English dictionary senses; derivation and cross-reference definitions follow explicit statements in the explanatory dictionary; rule-based definitions describe transparent productive suffixes of defined base words; authored definitions cite only the orthography page and are marked for review. Print prose is cited, not republished. This is not native-speaker verification.",
  "license": "New editorial text is shared under CC BY-SA 4.0.",
  "sources": {
   "explanatory": [
@@ -33,34 +33,39 @@
   "grammar": {
    "title": "A Grammar of Contemporary Azerbaijani (Garibova, Aliyeva 2024)",
    "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+  },
+  "review_extraction": {
+   "title": "Azərbaycan dilinin izahlı lüğəti, I–IV cildlər (Şərq-Qərb, 2006)",
+   "research_extraction": "https://github.com/azerbaijan-mcp/azerbaijan-mcp/releases/tag/dict-data-1",
+   "extraction_sha256": "44515ffca32d7cefc9f659bbe1ecefa82dc6908f17b5d434daffd1f921162022"
   }
  },
  "summary": {
   "undefined_before": 63985,
-  "undefined_after": 4486,
+  "undefined_after": 1524,
   "isolated_before": 30802,
-  "isolated_after": 6060,
-  "definitions": 59499,
+  "isolated_after": 6051,
+  "definitions": 62461,
   "definitions_by_method": {
-   "authored": 11056,
+   "authored": 10851,
    "cross-reference": 413,
    "derivation": 3604,
-   "meaning": 10179,
-   "paraphrase": 17693,
-   "rule": 16554
+   "meaning": 13070,
+   "paraphrase": 18085,
+   "rule": 16438
   },
   "low_confidence_paraphrases": 752,
-  "links": 38065,
+  "links": 38068,
   "stats": {
-   "definitions:authored": 11056,
+   "definitions:authored": 10851,
    "definitions:cross-reference": 413,
    "definitions:derivation": 3604,
-   "definitions:meaning": 10179,
-   "definitions:paraphrase": 17693,
-   "definitions:rule": 16554,
+   "definitions:meaning": 13070,
+   "definitions:paraphrase": 18085,
+   "definitions:rule": 16438,
    "links:bilingual-cross-reference": 897,
    "links:combining": 2363,
-   "links:compound": 17798,
+   "links:compound": 17791,
    "links:compound-print": 396,
    "links:cross-reference": 150,
    "links:cross-reference-lead": 157,
@@ -68,21 +73,22 @@
    "links:definition-relation": 261,
    "links:definition-synonym": 1023,
    "links:derivation": 1644,
-   "links:inflected-form": 79,
+   "links:inflected-form": 88,
    "links:loan-family": 1051,
    "links:original-form": 96,
    "links:original-genus": 770,
    "links:original-relation": 23,
-   "links:original-synonym": 691,
+   "links:original-synonym": 692,
    "links:print-subentry": 28,
    "links:quantity": 900,
    "links:rule": 4803,
    "links:rule-print": 653,
-   "meaning:not-applied": 581,
+   "meaning:not-applied": 584,
    "paraphrase:rejected-unsourced": 54,
    "paraphrase:skipped": 93,
    "rule:unconfirmed-existing": 67810
-  }
+  },
+  "dictionary_reviews": 392
  },
- "output_sha256": "f3fb33db803d3a6548f5895fee0f8b71c84ae9ef4f0f4fb2b9659be03e6c1eab"
+ "output_sha256": "b48e0a3cae10bb3239e0484ce22d62741262fdd2b12c042e5c3371e4969d9e9a"
 }

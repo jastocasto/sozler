@@ -93,9 +93,7 @@
   "en": "short-horned, having short antennae (of insects)",
   "pos": "adjective"
  },
- "qızılboya": {
-  "skip": "plant name or paint, not certain"
- },
+ "qızılboya": {"az": "Köklərindən qırmızı boya alınan və ənənəvi xalçaçılıqda işlədilən ot bitkisi.", "en": "madder", "pos": "noun"},
  "qızılı-boz": {
   "az": "Qızılıya çalan boz rəngdə olan.",
   "en": "golden-grey",
@@ -413,9 +411,7 @@
   "en": "medium-tonnage",
   "pos": "adjective"
  },
- "otaqxərci": {
-  "skip": "meaning not certain"
- },
+ "otaqxərci": {"az": "Otağın kirayəsinə, saxlanmasına və ya istifadəsinə çəkilən xərc.", "en": "room expense", "pos": "noun"},
  "parametrit": {
   "az": "Uşaqlıq ətrafındakı birləşdirici toxumanın iltihabı.",
   "en": "parametritis",
@@ -614,9 +610,7 @@
   "en": "Sufi pantheist",
   "pos": "noun"
  },
- "süpürgəotu": {
-  "skip": "plant name, not certain"
- },
+ "süpürgəotu": {"az": "Qurutduqda formasını saxlayan kağızabənzər çiçəkləri olan ot bitkisi.", "en": "annual everlasting of the genus Xeranthemum", "pos": "noun"},
  "şair-jurnalist": {
   "az": "Həm şeir yazan, həm də jurnalistlik edən şəxs.",
   "en": "poet and journalist",
@@ -802,9 +796,7 @@
   "en": "dust meter",
   "pos": "noun"
  },
- "törədicilik": {
-  "skip": "meaning not certain"
- },
+ "törədicilik": {"az": "Müəyyən bir hadisəyə, nəticəyə və ya xəstəliyə səbəb olma xüsusiyyəti.", "en": "capacity to cause or generate something", "pos": "noun"},
  "tropikdənkənar": {
   "az": "Tropik qurşaqdan kənarda olan (tropikdənkənar siklon).",
   "en": "extratropical",

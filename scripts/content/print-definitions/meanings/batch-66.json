@@ -1,0 +1,97 @@
+{
+ "aerofotometr": {
+  "az": "Havadan çəkilmiş görüntüdə işığın intensivliyini ölçən cihaz.",
+  "en": "aerial photometer",
+  "pos": "noun"
+ },
+ "alayoncalıq": {
+  "az": "Alayonca bitkisinin çox bitdiyi sahə.",
+  "en": "patch of alfalfa",
+  "pos": "noun"
+ },
+ "antihəqiqət": {
+  "az": "Həqiqətə zidd olan və onu təhrif edən fikir və ya iddia.",
+  "en": "untruth",
+  "pos": "noun"
+ },
+ "asmatavanlıq": {
+  "az": "Asma tavan qurmaq üçün istifadə olunan material və ya hissələr.",
+  "en": "materials for a suspended ceiling",
+  "pos": "noun"
+ },
+ "astromexanik": {
+  "az": "Kosmosda cisimlərin hərəkətini və onlara təsir edən qüvvələri öyrənən mütəxəssis.",
+  "en": "specialist in astromechanics",
+  "pos": "noun"
+ },
+ "astromexaniki": {
+  "az": "Kosmosda cisimlərin hərəkəti və ya bu hərəkətə təsir edən qüvvələrlə bağlı olan.",
+  "en": "astromechanical",
+  "pos": "adjective"
+ },
+ "astrotoponimiya": {
+  "az": "Göy cisimlərinin və onların səthindəki coğrafi obyektlərin adlarını öyrənən sahə.",
+  "en": "study of place names on celestial bodies",
+  "pos": "noun"
+ },
+ "avtokamera": {
+  "az": "Avtomobilə quraşdırılan və yolun və ya salonun görüntüsünü çəkən kamera.",
+  "en": "in-car camera",
+  "pos": "noun"
+ },
+ "avtomasaj": {
+  "az": "İnsanın öz bədənini özü masaj etməsi.",
+  "en": "self-massage",
+  "pos": "noun"
+ },
+ "avtomodulyasiya": {
+  "az": "Sistemdə yaranan rəqsin və ya siqnalın öz parametrlərini dəyişdirməsi.",
+  "en": "self-modulation",
+  "pos": "noun"
+ },
+ "avtomotor": {
+  "az": "Avtomobili hərəkətə gətirən mühərrik.",
+  "en": "car engine",
+  "pos": "noun"
+ },
+ "avtoqoşucu": {
+  "az": "Vaqon və ya başqa nəqliyyat vahidlərini avtomatik birləşdirən mexanizm.",
+  "en": "automatic coupler",
+  "pos": "noun"
+ },
+ "avtotərcümə": {
+  "az": "Mətnin və ya nitqin kompüter vasitəsilə başqa dilə çevrilməsi.",
+  "en": "machine translation",
+  "pos": "noun"
+ },
+ "avtoşəhərcik": {
+  "az": "Yol hərəkəti qaydalarını və sürücülüyü məşq etmək üçün kiçik şəhər şəklində qurulan meydança.",
+  "en": "traffic training park",
+  "pos": "noun"
+ },
+ "biofenologiya": {
+  "az": "Çiçəkləmə, köç və çoxalma kimi mövsümi hadisələrin vaxtını araşdıran sahə.",
+  "en": "phenology of living organisms",
+  "pos": "noun"
+ },
+ "birəllilik": {
+  "az": "İşi bir əllə görmə və ya bir ələ üstünlük vermə xüsusiyyəti.",
+  "en": "one-handedness",
+  "pos": "noun"
+ },
+ "biçinlik": {
+  "az": "Biçmək üçün ayrılan və ya məhsulu biçilməyə hazır olan əkin sahəsi.",
+  "en": "land for reaping",
+  "pos": "noun"
+ },
+ "bəxşişlik": {
+  "az": "Bağışlamaq və ya bəxşiş vermək üçün ayrılmış.",
+  "en": "set aside as a gift or tip",
+  "pos": "adjective"
+ },
+ "bəzirganlıq": {
+  "az": "Mal alıb-satmaqla qazanc əldə etmə işi.",
+  "en": "merchant trade",
+  "pos": "noun"
+ }
+}

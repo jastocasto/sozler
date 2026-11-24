@@ -47,6 +47,7 @@ rebuild)
   [ "$before" = "$(md5sum scripts/content/nouns/stems.json)" ] || node --max-old-space-size=8192 scripts/build_runtime.cjs
   # New meanings and base words move spelling words into their topic groups on the map.
   node --max-old-space-size=8192 scripts/build_galaxy.cjs > /dev/null
+  python3 scripts/audit_definition_coverage.py --update-report
   python3 scripts/version_assets.py
   python3 scripts/build_offline.py > /dev/null
   out=$(scripts/run_tests.sh tests/print-definitions-data.cjs tests/orthography-participation.cjs tests/morphology.cjs tests/noun-tables.cjs tests/frequency-and-origins.cjs tests/offline.cjs tests/whole-word-labels.cjs)

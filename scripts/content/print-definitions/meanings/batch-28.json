@@ -840,12 +840,8 @@
  "acıquşəppəyi": {
   "skip": "plant name, not certain"
  },
- "adamcanlı": {
-  "skip": "meaning not certain"
- },
- "adamtanıma": {
-  "skip": "meaning not certain"
- },
+ "adamcanlı": {"az": "İnsana tez alışan və ondan qaçmayan.", "en": "friendly toward people", "pos": "adjective"},
+ "adamtanıma": {"az": "Adamların xasiyyətini və niyyətini davranışlarından anlama bacarığı.", "en": "ability to read people", "pos": "noun"},
  "adamöldürən": {
   "az": "Adam öldürən şəxs; qatil.",
   "en": "killer, murderer",
@@ -890,12 +886,8 @@
   "en": "variegated, tiger-striped",
   "pos": "adjective"
  },
- "almaqurdu": {
-  "skip": "insect name, not certain"
- },
- "almaçiçəyi": {
-  "skip": "plant or colour name, not certain"
- },
+ "almaqurdu": {"az": "Almanın içinə girib onun ləti ilə qidalanan həşərat sürfəsi.", "en": "worm or larva in an apple", "pos": "noun"},
+ "almaçiçəyi": {"az": "Alma ağacının yazda açan ağ və ya çəhrayı çiçəyi.", "en": "apple blossom", "pos": "noun"},
  "altbölmə": {
   "az": "Bölmənin içindəki daha kiçik hissə; yarımbölmə.",
   "en": "subsection, subdivision",
@@ -906,9 +898,7 @@
   "en": "subfolder, subdirectory",
   "pos": "noun"
  },
- "altstandart": {
-  "skip": "meaning not certain"
- },
+ "altstandart": {"az": "Təhsil standartında daha ümumi tələbi konkret bacarıq və ya nəticə ilə açıqlayan bənd.", "en": "component of an educational standard", "pos": "noun"},
  "altunotu": {
   "skip": "plant name, not certain"
  },

@@ -50,9 +50,7 @@
   "pos": "adjective",
   "parts": false
  },
- "paparatsiya": {
-  "skip": "meaning not certain"
- },
+ "paparatsiya": {"az": "Məşhur adamların çox vaxt icazəsiz şəkillərini çəkən fotoqraf.", "en": "paparazzi photographer", "pos": "noun", "parts": false},
  "parafuksin": {
   "az": "Trifenilmetan sırasından olan qırmızı rəngli sintetik boyaq; pararozanilin.",
   "en": "parafuchsin, pararosaniline (a red dye)",
@@ -86,9 +84,7 @@
   "en": "brewing, the brewing industry",
   "pos": "noun"
  },
- "planaalma": {
-  "skip": "meaning not certain"
- },
+ "planaalma": {"az": "Bir işi və ya obyekti yerinə yetiriləcək tədbirlər planına daxil etmə.", "en": "incorporation into a plan", "pos": "noun"},
  "polimetilen": {
   "az": "Metilen qruplarının uzun zəncirindən ibarət polimer; quruluşca polietilenə yaxın maddə.",
   "en": "polymethylene",
@@ -284,9 +280,7 @@
   "en": "hemichordate",
   "pos": "noun"
  },
- "yastıqəlsəməli": {
-  "skip": "animal group name, not certain"
- },
+ "yastıqəlsəməli": {"az": "Lövhəvari qəlsəmələri və iki taylı çanağı olan molyusklara aid.", "en": "bivalve or lamellibranch", "pos": "adjective"},
  "yenidənhazırlama": {
   "az": "Kadrları yeni ixtisas və ya bacarıq üzrə yenidən öyrətmə; bir şeyi təkrar hazırlama.",
   "en": "retraining; re-preparation",
