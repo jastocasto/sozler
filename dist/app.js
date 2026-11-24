@@ -41,6 +41,25 @@ $('menuButton').onclick=()=>{closeSearch();$('search').blur();$('menuDialog').sh
 $('menuDialog').addEventListener('click',e=>{if(e.target.closest('.menu-actions button,.region-directory button,.menu-footer button'))closeMenu();},true);
 function updateSaved(){ $('savedCount').textContent=saved.size;const yes=saved.has(state.selected?.w);$('bookmarkButton').classList.toggle('saved',yes);$('bookmarkButton').setAttribute('aria-pressed',yes);$('bookmarkButton').setAttribute('aria-label',yes?'Yaddaşdan sil':'Sözü yadda saxla');}
 function toggleSave(){const word=state.selected.w;if(saved.has(word)){saved.delete(word);toast('Söz yaddaşdan silindi.');}else{saved.add(word);toast('Söz yadda saxlanıldı.');}try{localStorage.setItem('soz-toxumasi:saved',JSON.stringify([...saved]));}catch{toast('Brauzer yaddaşı əlçatan deyil; siyahı yalnız bu sessiyada qalacaq.');}updateSaved();}
+function wordHash(word){return '#w='+encodeURIComponent(word);}
+$('copyWordLink').onclick=async()=>{
+ const word=state.selected?.w;
+ if(!word||race?.blocking)return;
+ const url=new URL(location.protocol==='file:'?'https://soz-toxumasi.vercel.app/':location.href);
+ url.search='';
+ url.hash=wordHash(word);
+ try{
+  await navigator.clipboard.writeText(url.href);
+  toast('Sözün keçidi kopyalandı.');
+ }catch{
+  if(state.selected?.w!==word||!sheetOpen||activePage!=='map'||race?.blocking||document.querySelector('dialog[open]'))return;
+  const field=$('wordLinkField');
+  field.value=url.href;
+  $('wordLinkDialog').showModal();
+  field.focus();
+  field.select();
+ }
+};
 function detail(){
  const n=state.selected;
  const details=model.ensureDetails(n.w);if(details!==true)details.then(()=>{if(state.selected===n)refreshEvidence(n);},()=>{});
@@ -179,7 +198,7 @@ function renderMeaning(n){
 function select(n,record=true,writeHash=true,viaEdge=null,initial=false,source='ordinary'){
  if(!n)return;const note=state.pendingForm;state.pendingForm=null;state.searchedForm=note&&note.node===n?note:null;if(race?.blocking&&!race.allow(n.w,source))return;if(activePage==='grammar')showMap(false);const previous=state.selected;state.arrival=null;
  if(previous&&previous.id!==n.id){const relation=viaEdge?{edge:viaEdge}:model.related(previous).find(x=>x.node.id===n.id);if(relation)state.arrival={from:previous.w,type:relation.edge.type,edge:relation.edge};if(record)state.history.push(previous.id);}
- state.selected=n;if(writeHash)history.replaceState(null,'','#w='+encodeURIComponent(n.w));
+ state.selected=n;if(writeHash)history.replaceState(null,'',wordHash(n.w));
  $('backButton').hidden=!state.history.length;closeSearch();closeMenu();$('search').value='';if(document.activeElement===$('search'))$('search').blur();setSheet(false);detail();galaxy?.select(n,{initial});
 }
 function visibleFilters(){for(const b of $('filters').children){b.setAttribute('aria-pressed',state.filters.has(b.dataset.type));b.querySelector('.check').textContent=state.filters.has(b.dataset.type)?'✓':'−';}}
