@@ -59,6 +59,12 @@ assert.equal(coverage.missing, m.nodes.filter(n => !(n.en?.trim() && n.az?.trim(
 assert.equal(coverage.missing, attribution.summary.undefined_after);
 assert.equal(coverage.missing + coverage['formation-only'] + coverage['needs-review'] + coverage['other-bilingual'], m.nodes.length);
 const report = fs.readFileSync('dist/verification-report.html', 'utf8');
+const newestSupplement = Object.keys(attribution.supplements).at(-1);
+const newestEntries = JSON.parse(fs.readFileSync('scripts/content/print-definitions/meanings/' + newestSupplement, 'utf8'));
+const latestSection = report.match(/<section id="latest-words"[^>]*>([\s\S]*?)<\/section>/);
+assert(latestSection, 'the report links to the newest definitions');
+const latestWords = Array.from(latestSection[1].matchAll(/href="\.\/#w=([^"]+)"/g), match => decodeURIComponent(match[1]));
+assert.deepEqual(latestWords.sort(), Object.keys(newestEntries).sort());
 for (const field of ['headwords', 'missing', 'formation-only', 'needs-review']) {
   const shown = report.match(new RegExp('data-coverage="' + field + '">([^<]+)<'));
   assert(shown, 'missing coverage report field ' + field);

@@ -1,0 +1,1690 @@
+{
+ "alpaut": {
+  "az": "Adı Azərbaycanın bir sıra kənd adlarında qalan tarixi türk tayfası.",
+  "en": "the Alpaut, a historical Turkic tribe whose name survives in several Azerbaijani village names",
+  "links": {
+   "topic": [
+    "tayfa",
+    "oykonim"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Göyçay ensiklopediyası · Alpautlar",
+    "url": "https://goychay-encyclopedia.az/alpautlar/"
+   },
+   {
+    "title": "AZLEKS · Alpaut",
+    "url": "https://azleks.az/index.php/en/dictionary/alpaut"
+   }
+  ]
+ },
+ "arizant": {
+  "az": "Herodotun sadaladığı altı Midiya tayfasından biri.",
+  "en": "the Arizanti, one of the six Median tribes listed by Herodotus",
+  "links": {
+   "topic": [
+    "midiyalı",
+    "budi",
+    "tayfa"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Q. Qeybullayev · Azərbaycan türklərinin təşəkkülü tarixindən",
+    "url": "https://adpuquba.edu.az/wp-content/uploads/2020/12/Azerbaycan-Turrklerinin-Teshekkulu-Tarixinden-Etnogenez-QEYBULLAYEV.pdf"
+   },
+   {
+    "title": "Herodot · Tarix · I.101",
+    "url": "https://www.yorku.ca/pswarney/Texts/herodotus1-69-216.htm"
+   }
+  ]
+ },
+ "arpad": {
+  "az": "Orta əsrlərdə Macarıstanda hakimiyyətdə olmuş Arpadlar sülaləsinin üzvü.",
+  "en": "an Árpád, a member of the dynasty that ruled medieval Hungary",
+  "links": {
+   "topic": [
+    "sülalə",
+    "macar"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Orta əsrlər tarixi · Arpadlar sülaləsi",
+    "url": "https://adpuagcabedi.edu.az/wp-content/uploads/2025/05/21.-Orta-%C9%99srl%C9%99r-tarixi.pdf"
+   }
+  ]
+ },
+ "borlama": {
+  "az": "Bərkliyini artırmaq üçün poladın səth qatının diffuziya yolu ilə borla zənginləşdirilməsi.",
+  "en": "boriding, a surface-hardening treatment in which boron diffuses into the surface of steel",
+  "links": {
+   "topic": [
+    "bor",
+    "polad",
+    "diffuziya"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan Dövlət Dəniz Akademiyası · Termodiffuzion emal və borlama",
+    "url": "https://aak.gov.az/upload/dissertasion/tex/tex_n_aeo_06_04_16.pdf"
+   },
+   {
+    "title": "Materialşünaslıq · Poladın borlanması",
+    "url": "https://www.scribd.com/document/620558801/Material%C5%9Funasl%C4%B1q-Me-2-Hiss%C9%99-169-302-6"
+   }
+  ]
+ },
+ "borlamaq": {
+  "az": "Bərkitmək üçün poladın səth qatına diffuziya yolu ilə bor hopdurmaq.",
+  "en": "to harden the surface of steel by diffusing boron into it",
+  "links": {
+   "topic": [
+    "polad",
+    "diffuziya"
+   ]
+  },
+  "pos": "verb",
+  "references": [
+   {
+    "title": "Azərbaycan Dövlət Dəniz Akademiyası · Termodiffuzion emal və borlama",
+    "url": "https://aak.gov.az/upload/dissertasion/tex/tex_n_aeo_06_04_16.pdf"
+   },
+   {
+    "title": "Materialşünaslıq · Poladın borlanması",
+    "url": "https://www.scribd.com/document/620558801/Material%C5%9Funasl%C4%B1q-Me-2-Hiss%C9%99-169-302-6"
+   }
+  ]
+ },
+ "ciyən": {
+  "az": "Bataqlıqda və dayaz suda bitən, uzun yarpaqları və sıx, silindrşəkilli çiçək qrupu olan su bitkisi.",
+  "en": "a cattail (Typha), a marsh plant with long leaves and dense cylindrical flower spikes",
+  "links": {
+   "topic": [
+    "bataqlıq"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Şahbuz Dövlət Təbiət Qoruğunun flora və bitkiliyi",
+    "url": "https://botany.az/uploads/library/pdf/sh1.pdf"
+   }
+  ]
+ },
+ "deanimasiya": {
+  "az": "Beyin ölümünü bildirən köhnə tibbi termin.",
+  "en": "an older medical term for brain death",
+  "links": {
+   "topic": [
+    "beyin",
+    "ölüm"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Tibbi terminologiya · Deanimasiya",
+    "url": "https://e-health.gov.az/media/medical_terminology/terminologiya-A-X.pdf"
+   }
+  ]
+ },
+ "dekumbasiya": {
+  "az": "Bitki birliyi dəyişərkən onun üst qatını təşkil edən bitkilərin aradan çıxması.",
+  "en": "the disappearance of the upper vegetation layer as a plant community changes",
+  "links": {
+   "topic": [
+    "fitosenoz",
+    "bitki"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Prezident Kitabxanası · Azərbaycan ekologiyası · Dekumbasiya",
+    "url": "https://files.preslib.az/projects/eco/az/eco_m3_1.pdf"
+   }
+  ]
+ },
+ "dişqurtlayan": {
+  "az": "Xırda çiçəkləri mürəkkəb çətirlərdə toplanan ot bitkisi.",
+  "en": "toothpick plant (Ammi visnaga), an herb with tiny flowers in compound umbels",
+  "links": {
+   "topic": [
+    "çiçək",
+    "ot"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Ramila Takhirova · Azerbaycan Türkçesi ve Türkiye Türkçesinde bitki adlarının karşılaştırılması",
+    "url": "https://acikerisim.uludag.edu.tr/bitstream/11452/29347/1/Ramila_Takhirova.pdf"
+   },
+   {
+    "title": "S. İbadullayeva, M. Qəhrəmanova · Bitkilərin sirli dünyası",
+    "url": "https://botany.az/uploads/library/pdf/Bitkilerin_sirli_dunyasi.pdf"
+   }
+  ]
+ },
+ "elektrobazoqraf": {
+  "az": "İnsanın yerişini araşdırmaq üçün istifadə olunan ölçü cihazı.",
+  "en": "an instrument for studying a person’s gait",
+  "links": {
+   "topic": [
+    "yeriş",
+    "cihaz"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Tibbi terminologiya · Elektrobazoqraf",
+    "url": "https://e-health.gov.az/media/medical_terminology/terminologiya-A-X.pdf"
+   }
+  ]
+ },
+ "endostetoskop": {
+  "az": "Döş qəfəsindəki orqanların səslərini qida borusu vasitəsilə dinləmək üçün boruşəkilli alət.",
+  "en": "a tubular instrument for listening to sounds from the organs of the chest through the esophagus",
+  "links": {
+   "topic": [
+    "ürək",
+    "ağciyər"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Tibbi terminologiya · Endostetoskop",
+    "url": "https://e-health.gov.az/media/medical_terminology/terminologiya-A-X.pdf"
+   }
+  ]
+ },
+ "ficili": {
+  "az": "Sakit okeandakı Fici ada ölkəsindən olan şəxs.",
+  "en": "a Fijian, a person from the Pacific island country of Fiji",
+  "links": {
+   "topic": [
+    "adalı",
+    "ölkə"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Cambridge Dictionary · Fijian",
+    "url": "https://dictionary.cambridge.org/dictionary/english/fijian"
+   },
+   {
+    "title": "Oxu.az · Ficili idmançıdan fədakar addım",
+    "url": "https://oxu.az/idman/ficili-idmancidan-fedakar-addim-millinin-oyununa-gore-yeddi-yasli-oglunun-defn-merasimine-getmedi"
+   }
+  ]
+ },
+ "fototutum effekti": {
+  "az": "İşığın təsiri ilə yarımkeçirici qurğunun elektrik tutumunun dəyişməsi hadisəsi.",
+  "en": "the photocapacitance effect, a change in the electrical capacitance of a semiconductor device when illuminated",
+  "links": {
+   "topic": [
+    "tutum",
+    "yarımkeçirici",
+    "işıq"
+   ]
+  },
+  "pos": "phrase",
+  "references": [
+   {
+    "title": "Elektronika və mikrosxem texnikası · Fototutum",
+    "url": "https://www.scribd.com/document/413370998/N-37"
+   },
+   {
+    "title": "J. L. Pau və başqaları · Journal of Applied Physics · Photocapacitance",
+    "url": "https://nanovation.com/en/wp-content/uploads/sites/3/2015/02/PauJAP2010-ZnO-on-Si-LEDs.pdf"
+   }
+  ]
+ },
+ "hipemiya": {
+  "az": "Toxumaya kifayət qədər qan çatmamasını bildirən köhnə tibbi termin.",
+  "en": "an older term for ischemia, an insufficient supply of blood to a tissue",
+  "links": {
+   "syn": [
+    "işemiya"
+   ],
+   "topic": [
+    "qan",
+    "toxuma"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Tibbi terminologiya · Hipemiya",
+    "url": "https://e-health.gov.az/media/medical_terminology/terminologiya-A-X.pdf"
+   }
+  ]
+ },
+ "hipersema": {
+  "az": "Bir qrup sözün mənasında ortaq olub onların eyni sinfə aid olduğunu göstərən məna əlaməti.",
+  "en": "a shared semantic feature that places a group of words in the same class",
+  "links": {
+   "topic": [
+    "semantika",
+    "məna"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Gəncə Dövlət Universiteti · Elmi xəbərlər · 2021/1 · hipersema",
+    "url": "https://gdu.edu.az/wp-content/uploads/2022/04/ELMIXBR2021_I.pdf"
+   }
+  ]
+ },
+ "hofmakler": {
+  "az": "Birjanın maklerləri arasından seçilən və onların işinə nəzarət edən baş makler.",
+  "en": "a senior broker elected from among an exchange’s brokers to supervise their work",
+  "links": {
+   "topic": [
+    "makler",
+    "birja"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Böyük iqtisadi ensiklopediya · II cild · hofmakler",
+    "url": "https://azlib.org/media/books/B%C3%B6y%C3%BCk_%C4%B0qtisadi_Ensiklopediya_II_cild_EEFGHXI.pdf"
+   }
+  ]
+ },
+ "həlməl": {
+  "az": "Həlməlkimilər fəsiləsindən olan, adi həlməl kimi növləri birləşdirən bitki cinsi.",
+  "en": "beancaper (Zygophyllum), a genus of plants that includes the Syrian beancaper",
+  "links": {
+   "topic": [
+    "bitki",
+    "cins"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Oruc İbadlı, Aliyə Zərgərli · Bitki adları haqqında nə bilirsiniz?",
+    "url": "https://www.onlinebotany.az/pdf/bitki_adlari.pdf"
+   },
+   {
+    "title": "A. Nəsibova · Zygophyllum fabago",
+    "url": "https://www.radiation.gov.az/storage/editor/dissertasiya_aygun_nasibova_20251014_110602_OqnZv.pdf"
+   }
+  ]
+ },
+ "impulverizasiya": {
+  "az": "Küləyin şoran sahələrdən və ya dəniz sahilindən mineral toz və qumu aparıb başqa yerdə çökdürməsi.",
+  "en": "the transport and deposition by wind of mineral dust or sand from salt lands or seashores",
+  "links": {
+   "topic": [
+    "külək",
+    "toz",
+    "şoran"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Prezident Kitabxanası · Azərbaycan ekologiyası · Impulverizasiya",
+    "url": "https://files.preslib.az/projects/eco/az/eco_m3_1.pdf"
+   }
+  ]
+ },
+ "inflüasiya": {
+  "az": "Səth sularının süxurlardakı iri çatlar və karst boşluqları ilə yerin altına axması.",
+  "en": "the flow of surface water underground through large rock fissures and karst openings",
+  "links": {
+   "topic": [
+    "karst",
+    "infiltrasiya",
+    "hidrologiya"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Ümumi geologiya · Yeraltı suların təsnifatı",
+    "url": "https://adpuquba.edu.az/wp-content/uploads/2020/12/Umumi-geologiya-1.pdf"
+   },
+   {
+    "title": "Obastan · İnflüasiya",
+    "url": "https://obastan.com/soz/az/infl%C3%BCasiya"
+   }
+  ]
+ },
+ "kalyo": {
+  "az": "Taekvondoda hakimin görüşü müvəqqəti dayandırmaq üçün verdiyi komanda.",
+  "en": "the taekwondo referee’s call to pause a bout",
+  "links": {
+   "topic": [
+    "taekvondo",
+    "taekvondoçu"
+   ]
+  },
+  "pos": "interjection",
+  "references": [
+   {
+    "title": "Bireysel Sporlar · Taekwondo · Kallyo (Kalyo)",
+    "url": "https://ogmmateryal.eba.gov.tr/kitap/spor-lisesi/taekwondo/files/basic-html/page24.html"
+   }
+  ]
+ },
+ "kastodi": {
+  "az": "Bankın səhmləri mühafizə edib saxlaması üzrə göstərdiyi xidmət.",
+  "en": "a bank custody service for the safekeeping of company shares",
+  "links": {
+   "topic": [
+    "bank",
+    "səhm"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "İqtisadi lüğət · kastodi",
+    "url": "https://azlib.org/media/books/iqtisadi-luget.pdf"
+   }
+  ]
+ },
+ "keruqi": {
+  "az": "Taekvondoda iki rəqibin bir-biri ilə yarışdığı döyüş növü.",
+  "en": "kyorugi, the sparring discipline of taekwondo in which two opponents compete against each other",
+  "links": {
+   "topic": [
+    "taekvondo",
+    "taekvondoçu"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "World Taekwondo · Kyorugi",
+    "url": "https://www.worldtaekwondo.org/docs/para/K40%20Who%20is%20Eligible%20v4.pdf"
+   }
+  ]
+ },
+ "kiji": {
+  "az": "Kareliyada Oneqa gölündə yerləşən, taxta kilsələri və zəng qülləsi ilə tanınan ada.",
+  "en": "Kizhi, an island in Lake Onega in Karelia known for its wooden churches and bell tower",
+  "links": {
+   "topic": [
+    "ada",
+    "kilsə"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "UNESCO · Kizhi Pogost",
+    "url": "https://whc.unesco.org/en/list/544/"
+   }
+  ]
+ },
+ "kintouri": {
+  "az": "Köhnə Tiflis küçə tacirlərinin həyatını canlandıran və kişilər tərəfindən ifa edilən şəhər rəqsi.",
+  "en": "a men’s dance depicting the lives of the kintos, street traders of old Tbilisi",
+  "links": {
+   "topic": [
+    "rəqs",
+    "ticarət"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Gürcü Ansiklopedik Sözlük · Kinto",
+    "url": "https://dspace.nplg.gov.ge/bitstream/1234/471402/1/Qartuli_Enciklopediuri_Leqsikoni_2021.pdf"
+   }
+  ]
+ },
+ "kirpibaş": {
+  "az": "Tikanlı yarpaqları və kürə şəklində çiçək başları olan ot bitkisi.",
+  "en": "a globe thistle (Echinops), a herbaceous plant with prickly leaves and round flower heads",
+  "links": {
+   "topic": [
+    "tikan",
+    "çiçək"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Ramila Takhirova · Azerbaycan Türkçesi ve Türkiye Türkçesinde bitki adlarının karşılaştırılması",
+    "url": "https://acikerisim.uludag.edu.tr/bitstream/11452/29347/1/Ramila_Takhirova.pdf"
+   },
+   {
+    "title": "Royal Horticultural Society · Echinops",
+    "url": "https://www.rhs.org.uk/plants/156473/echinops/details"
+   }
+  ]
+ },
+ "konxoskop": {
+  "az": "Burun boşluğunun içini müayinə etməyə imkan verən güzgülü alət.",
+  "en": "a mirrored instrument for examining the inside of the nose",
+  "links": {
+   "topic": [
+    "burun",
+    "güzgü",
+    "müayinə"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Tibbi terminologiya · Konxoskop",
+    "url": "https://e-health.gov.az/media/medical_terminology/terminologiya-I-P.pdf"
+   }
+  ]
+ },
+ "kurti": {
+  "az": "Aşşur mənbələrində Zaqros bölgəsinin kutiləri ilə yanaşı adı çəkilən qədim tayfanın üzvü.",
+  "en": "one of the Kurti, an ancient group mentioned alongside the Gutians of the Zagros region in Assyrian records",
+  "links": {
+   "topic": [
+    "kuti",
+    "tayfa"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Elmi İş · Beynəlxalq elmi konfrans materialları · Kutilər və kurtilər",
+    "url": "https://aem.az/uploads/files/2021-01/1610923197_knc-bek_materallar-18.pdf"
+   }
+  ]
+ },
+ "lamer": {
+  "az": "Kompüterdən istifadə etməkdə səriştəsiz sayılan şəxs haqqında istehza ilə işlədilən söz.",
+  "en": "a disparaging slang term for someone regarded as an unskilled computer user",
+  "links": {
+   "topic": [
+    "kompüter",
+    "istifadəçi",
+    "jarqon"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "İnformatika terminlərinin izahlı lüğəti · Lamer",
+    "url": "https://ascca.gov.az/storage/libraries/August2022/sAQT3UaA0rIus01ETOJ1.pdf"
+   }
+  ]
+ },
+ "laqlin": {
+  "az": "Gəminin hərəkətini ölçən laq cihazına bağlanan ölçü kəndiri.",
+  "en": "a log line, the measuring line attached to a ship’s log to gauge its progress through the water",
+  "links": {
+   "topic": [
+    "kəndir",
+    "gəmi"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Rusca-azərbaycanca lüğət · Лаглинь",
+    "url": "https://azleks.az/en/dictionary/laglin"
+   },
+   {
+    "title": "Coğrafi kəşflərin tarixi · Laqlin",
+    "url": "https://gsaz.az/ci/Kitabxana/aliyev%2C%20hasanli%20-%20cografi%20keshflerin%20tarixi.pdf"
+   }
+  ]
+ },
+ "layba": {
+  "az": "Yelkənlə hərəkət edən iri qayıq növü.",
+  "en": "a large sailing boat",
+  "links": {
+   "topic": [
+    "qayıq",
+    "yelkən"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Rusca-azərbaycanca lüğət · Лайба",
+    "url": "https://azleks.az/dictionary/laiba"
+   }
+  ]
+ },
+ "leq": {
+  "az": "Antik mənbələrdə Qafqaz Albaniyası ilə əlaqədar adı çəkilən, əsas məskənləri Samur çayı hövzəsində olmuş tayfanın üzvü.",
+  "en": "one of the Legae, an ancient people associated with Caucasian Albania and the Samur River basin",
+  "links": {
+   "topic": [
+    "tayfa",
+    "alban"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "AMEA · Azərbaycan arxeologiyası və etnoqrafiyası · Qafqaz Albaniyasının tayfaları",
+    "url": "https://dergipark.anas.az/index.php/ah/article/download/634/618/701"
+   }
+  ]
+ },
+ "likvidant": {
+  "az": "Borcalandan borcun qaytarılmasını tələb etmək hüququndan imtina edən kreditor.",
+  "en": "a creditor who releases a borrower from a debt claim",
+  "links": {
+   "topic": [
+    "kreditor",
+    "borc"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Maliyyə bazarları terminlərinin izahlı lüğəti · likvidant",
+    "url": "https://unec.edu.az/application/uploads/2015/12/maliyye-sozluk.pdf"
+   }
+  ]
+ },
+ "likvidat": {
+  "az": "Kreditorun borc tələbini ləğv etməsi nəticəsində həmin tələbdən azad olan borcalan.",
+  "en": "a debtor released from a debt claim by the creditor",
+  "links": {
+   "topic": [
+    "likvidant",
+    "borcalan"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Maliyyə bazarları terminlərinin izahlı lüğəti · likvidat",
+    "url": "https://unec.edu.az/application/uploads/2015/12/maliyye-sozluk.pdf"
+   }
+  ]
+ },
+ "ləkz": {
+  "az": "Orta əsr ərəb mənbələrində ləzgilərə verilən ad.",
+  "en": "Lakz, a name used for the Lezgins in medieval Arabic sources",
+  "links": {
+   "topic": [
+    "ləzgi",
+    "etnonim"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Tarix terminləri lüğəti · Ləkzlər",
+    "url": "https://azleks.az/index.php/en/dictionary/lekzler"
+   }
+  ]
+ },
+ "mard": {
+  "az": "Qədimdə Xəzər dənizinin cənub sahillərində və Qızılüzən hövzəsində yaşamış tayfanın üzvü.",
+  "en": "one of the Mardi, an ancient people of the southern Caspian coast and the Qizil Uzan river basin",
+  "links": {
+   "topic": [
+    "midiyalı",
+    "tayfa"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Tarix terminləri lüğəti · Mardlar",
+    "url": "https://v2.azleks.az/en/dictionary/mardlar"
+   }
+  ]
+ },
+ "matelot": {
+  "az": "Dənizçilikdə sıra ilə hərəkət edən gəmilərdən digərinin bilavasitə önündə və ya arxasında gedən gəmi.",
+  "en": "a ship sailing immediately ahead of or astern of another in a line of ships",
+  "links": {
+   "topic": [
+    "gəmi",
+    "donanma"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Rusca-azərbaycanca lüğət · Мателот",
+    "url": "https://azleks.az/en/dictionary/matelot"
+   },
+   {
+    "title": "Этимологический словарь русского языка · Мателот",
+    "url": "https://www.slovorod.ru/etym-shansky/esrja-mgu/_pdf/red-shanski-10.pdf"
+   }
+  ]
+ },
+ "melotipiya": {
+  "az": "Musiqi notlarının mətbəədə çap olunması üsulu.",
+  "en": "the typographic printing of musical notation",
+  "links": {
+   "topic": [
+    "musiqi",
+    "mətbəə"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Rusca-azərbaycanca lüğət · Мелотипия",
+    "url": "https://azleks.az/en/dictionary/melotipiia"
+   }
+  ]
+ },
+ "neftkimyaavtomat": {
+  "az": "Azərbaycanda neft sənayesi üçün avtomatlaşdırılmış idarəetmə sistemləri hazırlamış elmi-tədqiqat və layihə institutu.",
+  "en": "Neftkimyaavtomat, an Azerbaijani research and design institute that developed automatic control systems for the petroleum industry",
+  "links": {
+   "topic": [
+    "avtomatlaşdırma",
+    "neftayırma",
+    "institut"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "AMEA · Əsgər Abdullayev və Neftkimyaavtomat institutu",
+    "url": "https://science.gov.az/az/news/open/5808"
+   },
+   {
+    "title": "Azərbaycanda informatikanın təşəkkülü · Neft və neft-kimya sənayesində İKT-nin tətbiqi",
+    "url": "https://azlib.org/media/books/Azerbaycanda_informatikanin_teshekkulu.pdf"
+   }
+  ]
+ },
+ "nordkap": {
+  "az": "Norveçin şimalında dəniz üzərində yüksələn sıldırım qayalı burun.",
+  "en": "North Cape, a steep rocky headland on the coast of northern Norway",
+  "links": {
+   "topic": [
+    "qaya",
+    "sahil"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Visit Norway · The North Cape",
+    "url": "https://www.visitnorway.com/places-to-go/northern-norway/the-north-cape"
+   },
+   {
+    "title": "Milli.Az · Norveçin ən məşhur burnu",
+    "url": "https://news.milli.az/photos/290974.html"
+   }
+  ]
+ },
+ "novruzotu": {
+  "az": "Dar yarpaqlı, sarı rəngli, mahmızlı çiçəklər açan çoxillik ot bitkisi.",
+  "en": "common toadflax (Linaria vulgaris), a perennial with narrow leaves and spurred yellow flowers",
+  "links": {
+   "topic": [
+    "çoxillik",
+    "çiçək"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Gözəlliyin və sağlamlığın yaşıl ensiklopediyası · Novruzotu",
+    "url": "https://azlib.org/media/books/Gozelliyin_ve_saglamligin_yashil_ensiklopediyasi.pdf"
+   },
+   {
+    "title": "Royal Horticultural Society · Common toadflax",
+    "url": "https://www.rhs.org.uk/plants/10295/linaria-vulgaris/details"
+   }
+  ]
+ },
+ "oxçətir": {
+  "az": "Kərəvüzkimilər fəsiləsindən, parçalı yarpaqları və uzun dimdikli meyvələri olan birillik ot bitkisi.",
+  "en": "a shepherd’s-needle plant (Scandix), an annual in the carrot family with divided leaves and long-beaked fruits",
+  "links": {
+   "topic": [
+    "birillik",
+    "meyvə"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Oruc İbadlı, Aliyə Zərgərli · Bitki adları haqqında nə bilirsiniz?",
+    "url": "https://www.onlinebotany.az/pdf/bitki_adlari.pdf"
+   },
+   {
+    "title": "Şahbuz Dövlət Təbiət Qoruğunun flora və bitkiliyi",
+    "url": "https://botany.az/uploads/library/pdf/sh1.pdf"
+   }
+  ]
+ },
+ "parakinez": {
+  "az": "Beynin alın payı zədələndikdə müşahidə olunan mürəkkəb, qeyri-iradi, əlaqələndirilmiş hərəkətlər.",
+  "en": "complex, coordinated involuntary movements associated with injury to the frontal lobe of the brain",
+  "links": {
+   "topic": [
+    "beyin",
+    "hərəkət"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Tibbi terminologiya · Parakinez",
+    "url": "https://e-health.gov.az/media/medical_terminology/terminologiya-I-P.pdf"
+   }
+  ]
+ },
+ "peneklimaks": {
+  "az": "İnsan fəaliyyəti nəticəsində növ tərkibi kasadlaşmış, sonra sabitləşmiş canlılar birliyi.",
+  "en": "a stable ecological community impoverished by human activity",
+  "links": {
+   "topic": [
+    "biosenoz",
+    "ekosistem"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Prezident Kitabxanası · Azərbaycan ekologiyası · Peneklimaks",
+    "url": "https://files.preslib.az/projects/eco/az/eco_m3_1.pdf"
+   }
+  ]
+ },
+ "pirovidikon": {
+  "az": "İnfraqırmızı təsviri elektrik siqnalına çevirən piroelektrik həssas təbəqəli televiziya borusu.",
+  "en": "a television camera tube with a pyroelectric target that converts an infrared image into an electrical signal",
+  "links": {
+   "topic": [
+    "infraqırmızı",
+    "şüalanma"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Lviv Polytechnic · Pyroelectric cameras in infrared monitoring",
+    "url": "https://science.lpnu.ua/istcgcap/all-volumes-and-issues/volume-78-2013/two-stage-synchronous-processing-pyrosignal-dual"
+   },
+   {
+    "title": "Azərbaycan Standartlaşdırma İnstitutu · AZS ГОСТ 33950:2025",
+    "url": "https://azstand.gov.az/uploads/documents/1627778940689c2847d9b13.pdf"
+   }
+  ]
+ },
+ "platinotron": {
+  "az": "Çarpaz elektrik və maqnit sahələrinin köməyi ilə mikrodalğa siqnallarını gücləndirən elektron lampası.",
+  "en": "a crossed-field electron tube that amplifies microwave signals",
+  "links": {
+   "topic": [
+    "gücləndirici",
+    "mikrodalğa"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Radiomuseum · Raytheon QK520 platinotron",
+    "url": "https://www.radiomuseum.org/tubes/tube_qk520.html"
+   }
+  ]
+ },
+ "plür": {
+  "az": "Litoqrafiyada işlədilən şəffaf, nazik kağız növü.",
+  "en": "a thin, transparent paper used in lithography",
+  "links": {
+   "topic": [
+    "kağız",
+    "litoqrafiya"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Ləzgicə-azərbaycanca lüğət · Плюр",
+    "url": "https://www.lezgichal.ru/sites/default/files/media/s_kerimova_lezgi_azeri_dictionary.pdf"
+   }
+  ]
+ },
+ "polibiont": {
+  "az": "Su, hava və ya torpaq kimi fiziki cəhətdən fərqli yaşayış mühitlərinin bir neçəsində yaşaya bilən orqanizm.",
+  "en": "an organism able to live in more than one physical medium, such as water, air or soil",
+  "links": {
+   "topic": [
+    "orqanizm",
+    "mühit"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Prezident Kitabxanası · Azərbaycan ekologiyası · Polibiont",
+    "url": "https://files.preslib.az/projects/eco/az/eco_m3_1.pdf"
+   }
+  ]
+ },
+ "povest-soynamə": {
+  "az": "Yazıçının öz həyatından bəhs edən povest.",
+  "en": "an autobiographical novella in which the author recounts events from their own life",
+  "links": {
+   "topic": [
+    "povest",
+    "avtobioqrafiya"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Yeni sözlər və yeni mənalar lüğəti · povest-soynamə",
+    "url": "https://adpuquba.edu.az/wp-content/uploads/2020/12/YENI-SOZL%C6%8FR-V%C6%8F-YENI-M%C6%8FNALAR-LUG%C6%8FTI-son-variant.pdf"
+   }
+  ]
+ },
+ "pradil": {
+  "az": "Qohum dillərin yarandığı ortaq əcdad dil.",
+  "en": "a proto-language from which a group of related languages descends",
+  "links": {
+   "syn": [
+    "protodil"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Baba Məhərrəmli · Türk dillərinin qədim leksikası · pradil",
+    "url": "https://azlib.org/media/books/T%C3%BCrk_dill%C9%99rinin_q%C9%99dim_leksikas%C4%B1.pdf"
+   }
+  ]
+ },
+ "proklimaks": {
+  "az": "Daha soyuq və quru iqlim dövründən qalan, yerli şəraitdə hələ də mövcud olan sabit canlılar birliyi.",
+  "en": "a relict climax community that persists locally from a colder, drier climate",
+  "links": {
+   "topic": [
+    "iqlim",
+    "relikt",
+    "biosenoz"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Prezident Kitabxanası · Azərbaycan ekologiyası · Proklimaks",
+    "url": "https://files.preslib.az/projects/eco/az/eco_m3_1.pdf"
+   }
+  ]
+ },
+ "prosenoz": {
+  "az": "Biosenozun yaranması və ya dağılması zamanı orqanizmlərin əmələ gətirdiyi müvəqqəti birlik.",
+  "en": "a temporary assemblage of organisms during the formation or breakdown of a biological community",
+  "links": {
+   "topic": [
+    "biosenoz",
+    "orqanizm"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Prezident Kitabxanası · Azərbaycan ekologiyası · Prosenoz",
+    "url": "https://files.preslib.az/projects/eco/az/eco_m3_1.pdf"
+   }
+  ]
+ },
+ "qafel-qardel": {
+  "az": "Yelkənli gəmidə qafelin dora yaxın ucunu qaldırmaq üçün işlədilən kəndir.",
+  "en": "a throat halyard, the line that raises the mast end of a gaff on a sailing vessel",
+  "links": {
+   "topic": [
+    "dor",
+    "yelkən",
+    "qafel"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "İzahlı idman terminləri · Qafel-qardel",
+    "url": "https://www.scribd.com/document/1037219380/Izahli-idman-terminleri"
+   }
+  ]
+ },
+ "qaviata": {
+  "az": "Sinxron üzgüçülükdə üzgüçünün suyun altından fırlanaraq şaquli vəziyyətə qalxdığı, sonra ayaqlarını şpaqata açdığı fiqur.",
+  "en": "the Gaviata, an artistic swimming figure with a rotating rise from underwater to vertical followed by a split",
+  "links": {
+   "topic": [
+    "üzgüçülük",
+    "şpaqat"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "İzahlı idman terminləri · Qaviata",
+    "url": "https://www.scribd.com/document/1037219380/Izahli-idman-terminleri"
+   },
+   {
+    "title": "World Aquatics · Figures Manual · 335 Gaviata",
+    "url": "https://resources.fina.org/fina/document/2023/01/12/38c73e1c-6dfa-4919-bf64-328e4260aff8/Figures-Manual-2022-2025-ALL.pdf"
+   }
+  ]
+ },
+ "qondolyera": {
+  "az": "Venesiya qondolaçılarının ənənəvi mahnısı.",
+  "en": "a barcarolle, a traditional song of Venetian gondoliers",
+  "links": {
+   "topic": [
+    "mahnı",
+    "qondola",
+    "qayıqçı"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Əfrasiyab Bədəlbəyli · İzahlı monoqrafik musiqi lüğəti · Qondolyera",
+    "url": "https://www.musicacademy.edu.az/images/pdf/kniga.pdf"
+   }
+  ]
+ },
+ "qrasiya": {
+  "az": "Qadın geyimində sinədən ombayadək bədənə forma verən, uzun corabları da saxlaya bilən korset tipli alt paltarı.",
+  "en": "a corselette, a one-piece foundation garment that shapes the torso and hips and can support stockings",
+  "links": {
+   "topic": [
+    "korset"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan Dövlət İqtisad Universiteti · Tikiş və trikotaj geyimlərində korset məmulatları",
+    "url": "https://unec.edu.az/application/uploads/2018/11/Abasov-Ziyar-t-Misir.pdf"
+   }
+  ]
+ },
+ "raxiometr": {
+  "az": "Onurğanın əyriliyini ölçən alət.",
+  "en": "an instrument for measuring the curvature of the spine",
+  "links": {
+   "topic": [
+    "onurğa",
+    "ölçmə"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Tibbi terminologiya · Raxiometr",
+    "url": "https://e-health.gov.az/media/medical_terminology/terminologiya-R-Z.pdf"
+   }
+  ]
+ },
+ "rekambio": {
+  "az": "Vekseli ödəmiş şəxsin ödədiyi pulu və əlavə xərcləri digər cavabdeh şəxslərdən geri almaq üçün irəli sürdüyü tələb və ya bu tələbi ifadə edən qarşı-veksel.",
+  "en": "a claim or return bill used to recover a bill payment and related expenses from other liable parties",
+  "links": {
+   "topic": [
+    "veksel",
+    "ödəniş"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Maliyyə bazarları terminlərinin izahlı lüğəti · rekambio",
+    "url": "https://unec.edu.az/application/uploads/2015/12/maliyye-sozluk.pdf"
+   }
+  ]
+ },
+ "rekreditiv": {
+  "az": "Kreditorun nəzərdə tutulan kreditin verilməyəcəyini borcalana rəsmi məktubla bildirməsi üçün göndərdiyi sənəd.",
+  "en": "a creditor’s written notice to a borrower that a planned credit facility has been cancelled",
+  "links": {
+   "topic": [
+    "kredit",
+    "kreditor",
+    "məktub"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "İzahlı yeni terminlər lüğəti · rekreditiv",
+    "url": "https://azerbaycandili.az/Vocabularies/Download/9022/9999%20%C4%B0ZAHLI%20YEN%C4%B0%20TERM%C4%B0NL%C6%8FR%20L%C3%9C%C4%9E%C6%8FT%C4%B0.pdf"
+   }
+  ]
+ },
+ "rekvirent": {
+  "az": "Veksel üzrə öhdəliyin yerinə yetirilməməsini protestlə rəsmiləşdirmək üçün notariusa müraciət edən veksel sahibi.",
+  "en": "the holder of a bill of exchange who asks a notary to record a formal protest for dishonour",
+  "links": {
+   "topic": [
+    "veksel",
+    "notarius"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Maliyyə bazarları terminlərinin izahlı lüğəti · rekvirent",
+    "url": "https://unec.edu.az/application/uploads/2015/12/maliyye-sozluk.pdf"
+   }
+  ]
+ },
+ "remiz": {
+  "az": "Toxucu dəzgahında əriş saplarının gözlərdən keçirilib qaldırılmasına və endirilməsinə xidmət edən hissə.",
+  "en": "the heddle assembly of a loom, through whose eyes warp threads pass so they can be raised and lowered",
+  "links": {
+   "topic": [
+    "əriş",
+    "toxuculuq",
+    "sap"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Tikiş məmulatlarının materialşünaslığı · Toxucu dəzgahının iş prinsipi",
+    "url": "https://trims.edu.az/noduploads/book/tikis-mamulatlarinin-materialsunasligi.pdf"
+   }
+  ]
+ },
+ "resepissa": {
+  "az": "Yük qəbul edilərkən verilən və sonradan konosamentlə əvəz olunan ilkin qəbz.",
+  "en": "a provisional receipt for goods that is later exchanged for a bill of lading",
+  "links": {
+   "topic": [
+    "qəbz",
+    "konosament"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Müstəqillik illərində beynəlmiləl terminlərin izahlı lüğəti · resepissa",
+    "url": "https://dilcilik.az/kitabxana/arasdirmalar/M%C3%BCst%C9%99qillik%20ill%C9%99rind%C9%99%20beyn%C9%99lmil%C9%99l%20terminl%C9%99rin%20izahl%C4%B1%20l%C3%BC%C4%9F%C9%99ti%202022.pdf"
+   }
+  ]
+ },
+ "rikabə": {
+  "az": "Əlyazmada səhifələrin ardıcıllığını bildirmək üçün növbəti səhifənin ilk sözünün əvvəlki səhifənin sonunda yazılması.",
+  "en": "a manuscript catchword system in which the first word of the following page is repeated at the foot of the preceding one",
+  "links": {
+   "topic": [
+    "əlyazma",
+    "səhifə"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan şərqşünaslığı · Nəsimi və davamçılarının əlyazmaları",
+    "url": "https://www.anl.az/down/meqale/az_shergshunasligi/2019/01/05%28meqale%29.pdf"
+   }
+  ]
+ },
+ "ritm-ostinantlıq": {
+  "az": "Musiqidə eyni ritmik şəklin ardıcıl təkrarlanması.",
+  "en": "rhythmic ostinato, the persistent repetition of a rhythmic pattern in music",
+  "links": {
+   "topic": [
+    "ritm",
+    "təkrar"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Məktəblinin Elektron Musiqi Kitabxanası · Ostinato",
+    "url": "https://mk.musigi-dunya.az/dictionary_o.html"
+   },
+   {
+    "title": "S. Abdullayeva · Azərbaycan xalq çalğı alətləri",
+    "url": "https://www.musicacademy.edu.az/images/elmi_neshrler/s_abdullayeva_book_2.pdf"
+   }
+  ]
+ },
+ "sanar": {
+  "az": "Böyük Qafqazın cənub ətəklərində yaşamış qədim tayfanın üzvü.",
+  "en": "a member of a historical tribe that lived in the southern foothills of the Greater Caucasus",
+  "links": {
+   "topic": [
+    "dağətəyi",
+    "qafqazlı"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "AMEA · Azərbaycan dilində paronimlər · Sanar",
+    "url": "https://azlib.org/media/books/Azerbaycan_dilinde_paronimler_gXJQgkr.pdf"
+   }
+  ]
+ },
+ "sediplen": {
+  "az": "Çöküntülərin toplandığı ilkin səthi saxlayan, bir layın və ya laylar silsiləsinin üstü ilə üst-üstə düşən düzənlik.",
+  "en": "a plain that preserves the original depositional surface at the top of a bed or sequence of beds",
+  "links": {
+   "topic": [
+    "düzənlik",
+    "çöküntü",
+    "lay"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Obastan · Sediplen",
+    "url": "https://obastan.com/soz/az/sediplen"
+   }
+  ]
+ },
+ "sikloklimaks": {
+  "az": "Hakim növlərin nəsillərinin mühitdəki illik dəyişmələrlə ayaqlaşdığı qısamüddətli ekoloji klimaks.",
+  "en": "a short-lived ecological climax in which generations of the dominant species track annual environmental fluctuations",
+  "links": {
+   "topic": [
+    "biosenoz",
+    "dominant"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Prezident Kitabxanası · Azərbaycan ekologiyası · Sikloklimaks",
+    "url": "https://files.preslib.az/projects/eco/az/eco_m3_1.pdf"
+   }
+  ]
+ },
+ "softforminq": {
+  "az": "Mebelin üz hissələri üçün laminat örtüklü ağac-yonqar lövhələrin hazırlanması texnologiyası.",
+  "en": "softforming, a process for making laminated particleboard components for furniture fronts",
+  "links": {
+   "topic": [
+    "mebel",
+    "yonqar"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Yeni sözlər və yeni mənalar lüğəti · Softforminq",
+    "url": "https://azerbaycandili.az/Vocabularies/Download/18/YEN%C4%B0%20S%C3%96ZL%C6%8FR%20V%C6%8F%20YEN%C4%B0%20M%C6%8FNALAR%20L%C3%9C%C4%9E%C6%8FT%C4%B0%20son%20variant.pdf"
+   }
+  ]
+ },
+ "stratiplen": {
+  "az": "Demək olar ki, üfüqi yatan süxur laylarının formalaşdırdığı düzən səth.",
+  "en": "a level land surface formed by nearly horizontal beds of rock",
+  "links": {
+   "topic": [
+    "lay",
+    "süxur",
+    "düzənlik"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Obastan · Stratiplen",
+    "url": "https://obastan.com/soz/az/stratiplen"
+   }
+  ]
+ },
+ "subaldırğanı": {
+  "az": "Bataqlıq yerlərdə bitən, ağ çiçəkləri çətir şəklində toplanan ot bitkisi.",
+  "en": "cowbane or northern water hemlock (Cicuta virosa), a wetland plant with umbels of white flowers",
+  "links": {
+   "topic": [
+    "bataqlıq",
+    "çiçək"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Ramila Takhirova · Azerbaycan Türkçesi ve Türkiye Türkçesinde bitki adlarının karşılaştırılması",
+    "url": "https://acikerisim.uludag.edu.tr/bitstream/11452/29347/1/Ramila_Takhirova.pdf"
+   }
+  ]
+ },
+ "subibəri": {
+  "az": "Nəm yerlərdə bitən, yarpaqları acı dad verən birillik ot.",
+  "en": "water pepper (Persicaria hydropiper), an annual of damp places with peppery leaves",
+  "links": {
+   "topic": [
+    "birillik",
+    "yarpaq"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Ramila Takhirova · Azerbaycan Türkçesi ve Türkiye Türkçesinde bitki adlarının karşılaştırılması",
+    "url": "https://acikerisim.uludag.edu.tr/bitstream/11452/29347/1/Ramila_Takhirova.pdf"
+   },
+   {
+    "title": "S. İbadullayeva, M. Qəhrəmanova · Bitkilərin sirli dünyası",
+    "url": "https://botany.az/uploads/library/pdf/Bitkilerin_sirli_dunyasi.pdf"
+   }
+  ]
+ },
+ "tealgiya": {
+  "az": "Başladığı nahiyədən bədənin başqa hissəsinə yayılan ağrı.",
+  "en": "pain that radiates from its point of origin to another part of the body",
+  "links": {
+   "topic": [
+    "ağrı"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Tibbi terminologiya · Tealgiya",
+    "url": "https://e-health.gov.az/media/medical_terminology/terminologiya-R-Z.pdf"
+   }
+  ]
+ },
+ "toketa": {
+  "az": "Cüdoda saxlama fəndinin qüvvədən düşdüyünü bildirən hakim komandası.",
+  "en": "the judo referee’s call that a hold-down has been broken",
+  "links": {
+   "topic": [
+    "cüdo",
+    "cüdoçu"
+   ]
+  },
+  "pos": "interjection",
+  "references": [
+   {
+    "title": "International Judo Federation · Immobilisations (osaekomi-waza)",
+    "url": "https://rules.ijf.org/page-22"
+   }
+  ]
+ },
+ "topik": {
+  "az": "Danışıq dilində qadınların geyindiyi qısa, yüngül kofta və ya mayka.",
+  "en": "a short, lightweight women’s top, in colloquial usage",
+  "links": {
+   "topic": [
+    "kofta",
+    "mayka"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Yeni sözlər və yeni mənalar lüğəti · Topik",
+    "url": "https://adpuquba.edu.az/wp-content/uploads/2020/12/YENI-SOZL%C6%8FR-V%C6%8F-YENI-M%C6%8FNALAR-LUG%C6%8FTI-son-variant.pdf"
+   }
+  ]
+ },
+ "tops-zərbə": {
+  "az": "Stolüstü tennisdə topa həm yüksək sürət, həm də güclü üst fırlanma verən hücum zərbəsi.",
+  "en": "an attacking table-tennis stroke that combines speed with heavy topspin",
+  "links": {
+   "topic": [
+    "stolüstü tennis",
+    "raketka"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Badminton və tennis · Stolüstü tennisdə zərbələr",
+    "url": "https://ldhk.edu.az/e-ldhk/uploads/Badminton%20v%C9%99%20tennis%20%28M%C3%9Chazir%C9%99l%C9%99r%29.pdf#page=30"
+   }
+  ]
+ },
+ "trinte": {
+  "az": "Moldovada iki rəqibin bir-birini yerə yıxmağa çalışdığı ənənəvi güləş növü.",
+  "en": "trântă, a traditional Moldovan wrestling style in which each wrestler tries to bring the other to the ground",
+  "links": {
+   "topic": [
+    "güləş",
+    "güləşçi"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "The International Journal of the History of Sport · Moldavian trinte",
+    "url": "https://www.tandfonline.com/doi/pdf/10.1080/09523367.2023.2226084"
+   },
+   {
+    "title": "Dicționarul explicativ al limbii române · Trântă",
+    "url": "https://dexonline.ro/intrare/tr%C3%A2nt%C4%83/58153"
+   }
+  ]
+ },
+ "turbobalta": {
+  "az": "Quyu qazılarkən balta başlığını quyudibindəki turbinin valı ilə fırladan alət.",
+  "en": "a downhole drilling tool in which a turbine shaft turns the bit",
+  "links": {
+   "topic": [
+    "quyu",
+    "turbin"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "D. İskəndərov · Neft və qaz çıxarma işçiləri üçün məlumat kitabı",
+    "url": "https://www.scribd.com/document/832732696/D-%C4%B0sk%C9%99nd%C9%99rov-Neft-V%C9%99-Qaz-C%C4%B1xarma-I%C5%9Fcil%C9%99ri-Ucun-Kitab"
+   }
+  ]
+ },
+ "turənc": {
+  "az": "Xalçanın orta sahəsində yerləşən, xalçaçılıq mənbələrində «turunc» adı ilə də işlənən medalyonşəkilli naxış.",
+  "en": "a medallion motif at the centre of a carpet’s field, also written turunc in carpet literature",
+  "links": {
+   "topic": [
+    "naxış",
+    "kompozisiya"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Mədəniyyət · Şeyx Səfi xalçasının mərkəzi turuncu",
+    "url": "https://anl.az/down/medeniyyet2007/sentyabr/medeniyyet2007_sentyabr_119.htm"
+   }
+  ]
+ },
+ "təklə": {
+  "az": "Azərbaycanda yer adlarında izi qalan və Qarabağ xanlığının tarixində adı çəkilən türk tayfası.",
+  "en": "the Təklə, a Turkic tribe recorded in the Karabakh khanate and in Azerbaijani place names",
+  "links": {
+   "topic": [
+    "tayfa",
+    "oykonim",
+    "xanlıq"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "S. Sadıqova · Müasir Azərbaycan dili. Onomalogiya məsələləri",
+    "url": "https://filologiya.az/images/PDF2/dilcilik%20derslikler/M%C3%BCasir%20Az%C9%99rbaycan%20dili%20Onomalogiya%20m%C9%99s%C9%99l%C9%99l%C9%99ri%20son%20%281%29.pdf"
+   },
+   {
+    "title": "Azərbaycan Milli Kitabxanası · Təklələr",
+    "url": "https://www.anl.az/down/meqale/adalet/2018/may/588805.htm"
+   }
+  ]
+ },
+ "təkməcüt": {
+  "az": "Bir oyunçunun ovcunda gizlətdiyi əşyaların sayının tək, yoxsa cüt olduğunu tapmağa əsaslanan uşaq oyunu.",
+  "en": "a children’s guessing game in which a player guesses whether the number of objects hidden in another player’s hand is odd or even",
+  "links": {
+   "topic": [
+    "ovuc",
+    "say"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Zahirə Cabir · Çaqqala",
+    "url": "https://www.edebiyyatveincesenet.az/edebiyyat/item/8902-taekdir-ya-dzut"
+   }
+  ]
+ },
+ "unjanka": {
+  "az": "Yük daşımaq üçün işlədilən kiçik gəmi növü.",
+  "en": "a small vessel used for carrying cargo",
+  "links": {
+   "topic": [
+    "yük",
+    "gəmi"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Rusca-azərbaycanca lüğət · Унжанка",
+    "url": "https://azleks.az/ru/dictionary/unzanka"
+   }
+  ]
+ },
+ "valvasiya": {
+  "az": "Xarici valyutanın məzənnəsinin milli pul vahidi ilə hesablanması.",
+  "en": "the valuation of a foreign currency in units of the domestic currency",
+  "links": {
+   "topic": [
+    "məzənnə",
+    "valyuta"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "İzahlı yeni terminlər lüğəti · valvasiya",
+    "url": "https://azerbaycandili.az/Vocabularies/Download/9022/9999%20%C4%B0ZAHLI%20YEN%C4%B0%20TERM%C4%B0NL%C6%8FR%20L%C3%9C%C4%9E%C6%8FT%C4%B0.pdf"
+   }
+  ]
+ },
+ "çiru": {
+  "az": "Tibet yaylasında yaşayan antilop növü.",
+  "en": "the chiru or Tibetan antelope (Pantholops hodgsonii), native to the Tibetan Plateau",
+  "links": {
+   "topic": [
+    "antilop",
+    "yayla"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "AMEA · Azərbaycan dilinin orfoqrafiya lüğəti",
+    "url": "https://azerbaycandili.az/Vocabularies/Download/6022/Orfoqrafiya_15.03.2021.pdf"
+   },
+   {
+    "title": "CITES · Tibet antilobu (Çiru)",
+    "url": "https://www.tarimorman.gov.tr/DKMP/Belgeler/CITES/CITES%20Tibet%20Antilobu%20-%20%C3%87iru.pdf"
+   }
+  ]
+ },
+ "çutqabağı": {
+  "az": "Ənənəvi qadın geyimində baş örtüyünün önündən alına düşən zinət əşyası.",
+  "en": "a traditional women’s headdress ornament worn across the forehead",
+  "links": {
+   "topic": [
+    "alınlıq",
+    "zinət",
+    "zərgərlik"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan qeyri-maddi mədəni irs nümunələrinin dövlət reyestri · Baş bəzəkləri",
+    "url": "https://intangible.az/front/az/aboutExample/22048"
+   },
+   {
+    "title": "Mədəniyyət: problemlər və perspektivlər · Ənənəvi qadın baş bəzəkləri",
+    "url": "https://medeniyyetdunyasi.az/arxiv/2025/05/M%C9%99d%C9%99niyy%C9%99t-probleml%C9%99r-v%C9%99-perspektivl%C9%99r-XVII-1-1.pdf"
+   }
+  ]
+ },
+ "çüyütotu": {
+  "az": "Yarpaqlarından göy boya alınan kələmkimilər fəsiləsinə mənsub ot bitkisi.",
+  "en": "dyer’s woad (Isatis tinctoria), a plant in the mustard family traditionally grown for the blue dye in its leaves",
+  "links": {
+   "topic": [
+    "boya",
+    "yarpaq"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Ramila Takhirova · Azerbaycan Türkçesi ve Türkiye Türkçesinde bitki adlarının karşılaştırılması",
+    "url": "https://acikerisim.uludag.edu.tr/bitstream/11452/29347/1/Ramila_Takhirova.pdf"
+   },
+   {
+    "title": "North Carolina State University · Dyer’s Woad",
+    "url": "https://plants.ces.ncsu.edu/plants/isatis-tinctoria/common-name/dyers-woad/"
+   }
+  ]
+ },
+ "şami": {
+  "az": "Azərbaycan xalçalarında işlənən, «Səlcuq zənciri» adı ilə də tanınan naxış.",
+  "en": "a motif in Azerbaijani carpets also known as the Seljuk chain",
+  "links": {
+   "topic": [
+    "naxış",
+    "xalça"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan Milli Kitabxanası · Şami və Səlcuq zənciri naxışı",
+    "url": "https://www.anl.az/down/meqale/uc_noqta/2016/avqust/503242.htm"
+   }
+  ]
+ },
+ "şanagül": {
+  "az": "Xalçalarda işlənən çiçək naxışı, həmçinin Lənkəranda toxunan naxışlı həsirlərin ənənəvi çeşnilərindən biri.",
+  "en": "a floral carpet motif, also the name of a traditional pattern in woven mats from Lankaran",
+  "links": {
+   "topic": [
+    "həsir",
+    "naxış",
+    "xalça"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Mahmud Kaşğarlı · Azərbaycan xalça naxışlarında xalqımızın əhali artımı ilə bağlı tarixi demoqrafik baxışları",
+    "url": "https://www.kashgarli.az/images/Saylarimiz/Mahmud%20Ka%202%201.pdf"
+   },
+   {
+    "title": "Azərbaycan qeyri-maddi mədəni irs nümunələrinin dövlət reyestri · Həsirçilik",
+    "url": "https://intangible.az/front/az/aboutExample/22072"
+   }
+  ]
+ },
+ "şapiroqrafik": {
+  "az": "Şapiroqrafla surətçıxarmaya aid olan və ya bu üsulla çoxaldılan.",
+  "en": "relating to duplication with a Schapirograph, or reproduced by that method",
+  "links": {
+   "topic": [
+    "şapiroqrafiya",
+    "çap"
+   ]
+  },
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti · Şapiroqraf",
+    "url": "https://azleks.az/en/dictionary/sapiroqraf"
+   },
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · Şapiroqrafik və şapiroqrafiya",
+    "url": "https://azerbaycandili.az/Vocabularies/Download/6022/Orfoqrafiya_15.03.2021.pdf"
+   }
+  ]
+ },
+ "şapiroqrafiya": {
+  "az": "Əlyazmasının və ya çap materialının şapiroqraf vasitəsilə çoxaldılması üsulu.",
+  "en": "a method of duplicating manuscripts or printed material with a Schapirograph",
+  "links": {
+   "topic": [
+    "hektoqraf",
+    "əlyazma"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti · Şapiroqraf",
+    "url": "https://azleks.az/en/dictionary/sapiroqraf"
+   },
+   {
+    "title": "Azərbaycan dilinin orfoqrafiya lüğəti · Şapiroqrafik və şapiroqrafiya",
+    "url": "https://azerbaycandili.az/Vocabularies/Download/6022/Orfoqrafiya_15.03.2021.pdf"
+   }
+  ]
+ },
+ "şpinton": {
+  "az": "Vaqon arabacığının çərçivəsinə bərkidilən, asqıdakı yayın hərəkətini istiqamətləndirən çubuq.",
+  "en": "a guide pin fixed to a railway bogie frame to guide a suspension spring",
+  "links": {
+   "topic": [
+    "vaqon",
+    "dəmiryolu"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Elektrik qatarlarının quruluşu və təmiri · Buks asqısının şpintonları",
+    "url": "https://ru.djvu.online/file/JLgKs2o5mKLm4"
+   },
+   {
+    "title": "Bakı metro vaqonları üçün şpinton tipli arabacıq çərçivələri",
+    "url": "https://globalinfo.az/baki-metrosunun-texniki-t%C9%99miri-rus-sirk%C9%99tin%C9%99-h%C9%99val%C9%99-edildi/"
+   }
+  ]
+ },
+ "şpiq": {
+  "az": "Donuzun dərisi altında yığılan bərk piy.",
+  "en": "firm fat from beneath a pig’s skin",
+  "links": {
+   "topic": [
+    "donuz",
+    "piy"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "AMEA · Azərbaycan dilinin orfoqrafiya lüğəti",
+    "url": "https://azerbaycandili.az/Vocabularies/Download/6022/Orfoqrafiya_15.03.2021.pdf"
+   },
+   {
+    "title": "Heyvandarlıq məhsulları · Donuz cəmdəyində dərialtı piy",
+    "url": "https://azkurs.org/pars_docs/refs/20/19085/19085.pdf"
+   }
+  ]
+ },
+ "ştivka": {
+  "az": "Gəmi yüklənərkən yükün göyərtəaltı sahədə yerləşdirilməsi, boşaldılarkən isə anbar ağzına yaxın yığılması işi.",
+  "en": "stowing cargo in spaces below deck during loading and gathering it beneath the hatches for unloading",
+  "links": {
+   "topic": [
+    "yük",
+    "göyərtə"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "İzahlı yeni terminlər lüğəti · Ştivka",
+    "url": "https://azerbaycandili.az/Vocabularies/Download/9022/9999%20%C4%B0ZAHLI%20YEN%C4%B0%20TERM%C4%B0NL%C6%8FR%20L%C3%9C%C4%9E%C6%8FT%C4%B0.pdf"
+   },
+   {
+    "title": "Dövlət Dəniz və Liman Agentliyi · Yük əməliyyatları",
+    "url": "https://ddla.gov.az/pdfs/exams/certdip/Y%C3%BCk%20%C9%99m%C9%99liyyatlar%C4%B1.pdf"
+   }
+  ]
+ }
+}

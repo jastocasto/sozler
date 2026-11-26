@@ -47,25 +47,25 @@
  },
  "summary": {
   "undefined_before": 63985,
-  "undefined_after": 1331,
+  "undefined_after": 1240,
   "isolated_before": 30802,
-  "isolated_after": 5941,
-  "definitions": 62654,
+  "isolated_after": 5904,
+  "definitions": 62745,
   "definitions_by_method": {
    "authored": 10851,
    "cross-reference": 413,
    "derivation": 3604,
-   "meaning": 13371,
+   "meaning": 13462,
    "paraphrase": 18162,
    "rule": 16253
   },
   "low_confidence_paraphrases": 752,
-  "links": 38592,
+  "links": 38789,
   "stats": {
    "definitions:authored": 10851,
    "definitions:cross-reference": 413,
    "definitions:derivation": 3604,
-   "definitions:meaning": 13371,
+   "definitions:meaning": 13462,
    "definitions:paraphrase": 18162,
    "definitions:rule": 16253,
    "links:bilingual-cross-reference": 897,
@@ -81,7 +81,7 @@
    "links:dialect-sense": 93,
    "links:inflected-form": 88,
    "links:loan-family": 1051,
-   "links:meaning-sense": 492,
+   "links:meaning-sense": 689,
    "links:original-form": 96,
    "links:original-genus": 770,
    "links:original-relation": 23,
@@ -99,7 +99,7 @@
   },
   "dictionary_reviews": 392
  },
- "output_sha256": "ab1b03e79bd965d0303a8a3675045f63bf6e7df9f0e7d89778e9573b7606fceb",
+ "output_sha256": "717968eaaf44f7e262624cfc6b89c924858d4248d4f87b0e8bda6a6a77cda80c",
  "supplements": {
   "supplement-01.json": "34487283d6c34e57d895690de6e5e6d680b7019177c81633e46624c1f1be40b7",
   "supplement-02.json": "60b7470870bf3269468070bb31a3efdeb1f16d3469bcee43edd17337ef570bb7",
@@ -114,7 +114,8 @@
   "supplement-11.json": "1daf7a0908116d317ed7eb166a47a614a6399b861e46bbc06c34307ed61b35e5",
   "supplement-12.json": "2185cd7669d1c7833f7b7bbcc2e6f104460ffb2f988ad9396050e271b2898481",
   "supplement-13.json": "6a2cf4b89c12b3c1bee60276de3f8d9a6b58d00ab4d24649ee98668ee24fc665",
-  "supplement-14.json": "21ffe9cfc4d5485b63801ccddbbb99bfb02cf074e7397205ecd17603f425e26e"
+  "supplement-14.json": "21ffe9cfc4d5485b63801ccddbbb99bfb02cf074e7397205ecd17603f425e26e",
+  "supplement-15.json": "4f3ecb6a62d4f5b9d1861238b43cb68947e1fc6a7de5fcfc4ba81d8d663b3316"
  },
  "base_model_sha256": "426082c5f82c5c880cf807c56797a13e0d8a4538a9f4ee4014247c77841a7161"
 }

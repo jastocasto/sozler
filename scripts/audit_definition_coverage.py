@@ -4,11 +4,13 @@ import argparse
 import csv
 import gzip
 import hashlib
+from html import escape
 import json
 import re
 import sqlite3
 from collections import Counter, defaultdict
 from pathlib import Path
+from urllib.parse import quote
 
 from build_print_definitions import FORMATION_ONLY, ROOT, key, print_source
 
@@ -91,7 +93,27 @@ def update_report(dist, counts):
         html, matches = re.subn(pattern, lambda m: m[1] + f'{counts[state]:,}'.replace(',', ' ') + m[2], html)
         if matches != 1:
             raise ValueError(f'Missing or duplicate report field: {state}')
-    report.write_text(html)
+    releases = json.loads((dist / 'print-definitions-attribution.json').read_text()).get('supplements', {})
+    latest = ''
+    if releases:
+        name = next(reversed(releases))
+        raw = (ROOT / 'scripts/content/print-definitions/meanings' / name).read_bytes()
+        if hashlib.sha256(raw).hexdigest() != releases[name]:
+            raise ValueError(f'Published definitions differ from {name}')
+        items = '\n'.join(
+            f'<li><a href="./#w={quote(word, safe="")}">{escape(word)}</a></li>'
+            for word in json.loads(raw)
+        )
+        latest = (
+            '<section id="latest-words" aria-labelledby="latest-heading">\n'
+            '<h2 id="latest-heading">Son əlavə olunan izahlar · <span lang="en">Latest definitions</span></h2>\n'
+            f'<ul>\n{items}\n</ul>\n</section>\n'
+        )
+    start = '<!-- latest definitions -->'
+    end = '<!-- end latest definitions -->'
+    if html.count(start) != 1 or html.count(end) != 1 or html.index(start) > html.index(end):
+        raise ValueError('Missing or misplaced latest definitions section')
+    report.write_text(html[:html.index(start)] + start + '\n' + latest + html[html.index(end):])
 
 
 if __name__ == '__main__':
