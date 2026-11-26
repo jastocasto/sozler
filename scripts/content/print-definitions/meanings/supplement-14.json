@@ -1,0 +1,321 @@
+{
+ "abdali": {
+  "az": "Əfqanıstanda puştunların Dürrani tayfa birliyinin əvvəlki adı.",
+  "en": "Abdali, the former name of the Durrani Pashtun confederation of Afghanistan",
+  "links": {
+   "topic": [
+    "tayfa"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Encyclopaedia Iranica · Abdālī",
+    "url": "https://www.iranicaonline.org/articles/abdali/"
+   }
+  ]
+ },
+ "avan": {
+  "az": "Klassik ədəbiyyatda işlənən, anları və ya müəyyən vaxtları bildirən söz.",
+  "en": "times, moments or periods, in classical Azerbaijani usage",
+  "links": {
+   "syn": [
+    "çağ",
+    "zaman"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Ərəb və fars sözləri lüğəti · Avan",
+    "url": "https://azleks.az/index.php/en/dictionary/avan"
+   }
+  ]
+ },
+ "ağdaban": {
+  "az": "Kəlbəcər rayonunda, Murovdağ silsiləsinin cənub ətəyində yerləşən kənd.",
+  "en": "Aghdaban, a village in the Kalbajar district on the southern foothills of the Murovdag range",
+  "links": {
+   "topic": [
+    "oykonim",
+    "kənd"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan Milli Kitabxanası · Kəlbəcər və Ağdaban",
+    "url": "https://www.anl.az/el/Kitab/2014/Azf-276227.pdf"
+   },
+   {
+    "title": "Azərbaycan Milli Kitabxanası · Ağdabanın coğrafiyası",
+    "url": "https://anl.az/down/meqale/kitab_meqalesi/2023/geomekan_kosmikinfor_km/61%28meqale%29.pdf"
+   }
+  ]
+ },
+ "budi": {
+  "az": "Herodotun midiyalılar arasında göstərdiyi qədim tayfalardan biri.",
+  "en": "the Budii, one of the ancient Median tribes listed by Herodotus",
+  "links": {
+   "topic": [
+    "tayfa",
+    "midiyalı"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Herodot · Tarix · I.101",
+    "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Herodotus/1b%2A.html"
+   },
+   {
+    "title": "Q. Qeybullayev · Azərbaycan türklərinin təşəkkülü tarixindən",
+    "url": "https://adpuquba.edu.az/wp-content/uploads/2020/12/Azerbaycan-Turrklerinin-Teshekkulu-Tarixinden-Etnogenez-QEYBULLAYEV.pdf"
+   }
+  ]
+ },
+ "ilanq": {
+  "az": "İlanq-ilanq da adlanan, uzun ləçəkli, ətirli çiçəkləri ilə tanınan tropik ağac.",
+  "en": "ylang-ylang, a tropical tree (Cananga odorata) with fragrant, long-petalled flowers",
+  "links": {
+   "topic": [
+    "ətirli",
+    "ləçək"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan Dövlət Aqrar Universiteti · Yağlı və efir yağlı bitkilər · İlanq-ilanq",
+    "url": "https://www.adau.edu.az/images/ms_kitabxana/05_08_2021_13_53_59_258_4998502_Ya%C4%9Fl%C4%B1%20v%C9%99%20efir%20ya%C4%9Fl%C4%B1%20bitkil%C9%99r%20-%202016.pdf"
+   },
+   {
+    "title": "Chicago Botanic Garden · Cananga odorata",
+    "url": "https://www.chicagobotanic.org/plant-information/plant-finder/cananga-odorata-ylang-ylang-tree"
+   }
+  ]
+ },
+ "küngüt": {
+  "az": "Şəki rayonunda keçmişdə indiki Yuxarı Küngüt kəndinə verilən, bölgənin başqa yer və çay adlarında da qalan ad.",
+  "en": "Küngüt, the former name of Yuxarı Küngüt in the Shaki district, also found in other local place and river names",
+  "links": {
+   "topic": [
+    "oykonim",
+    "toponim"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan toponimlərinin ensiklopedik lüğəti · Küngütçay",
+    "url": "https://www.lib.az/users/1/upload/files/Azerbaycan_toponimlerinin_ensiklopedik_lugeti.pdf"
+   }
+  ]
+ },
+ "kərkük": {
+  "az": "İraqın şimalında yerləşən və İraq türkmənlərinin mühüm mədəniyyət mərkəzlərindən biri olan şəhər.",
+  "en": "Kirkuk, a city in northern Iraq and an important centre of Iraqi Turkmen culture",
+  "links": {
+   "topic": [
+    "ləhcə",
+    "şəhər"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Cavad Heyət · Türk dilləri və ləhcələrinin tarixi · İraq və ya Kərkük türkcəsi",
+    "url": "https://adpuquba.edu.az/wp-content/uploads/2020/12/Cavad-Hey%C9%99t-Turk-dilleri-v%C9%99-l%C9%99hc%C9%99l%C9%99rinin-tarixi-II-kitab.pdf"
+   }
+  ]
+ },
+ "maqas": {
+  "az": "Qatarı bir rels yolundan başqa rels yoluna yönəldən dəmiryolu qurğusu.",
+  "en": "a railway switch that directs a train from one track to another",
+  "links": {
+   "topic": [
+    "rels",
+    "qatar"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycanca-rusca lüğət · Maqas",
+    "url": "https://gufo.me/dict/azru/maqas"
+   }
+  ]
+ },
+ "monet": {
+  "az": "Zərb edilərək dövriyyəyə buraxılan metal pul nişanı.",
+  "en": "a coin, a piece of stamped metal issued as money",
+  "links": {
+   "syn": [
+    "sikkə"
+   ],
+   "topic": [
+    "numizmatika",
+    "pul"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Filologiya məsələləri · Maliyyə terminologiyasında pul vahidləri",
+    "url": "https://filologiyameseleleri.com/pdf/2019/10.pdf"
+   }
+  ]
+ },
+ "möhtəvi": {
+  "az": "Mineralın və ya süxurun daxilində qalmış yad dənəcik və ya kristal.",
+  "en": "an inclusion, a particle or crystal enclosed in a mineral or rock",
+  "links": {
+   "topic": [
+    "mineral",
+    "süxur",
+    "kristal"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Coğrafiya terminləri lüğəti · Avantürin",
+    "url": "https://azleks.az/en/dictionary/avanturin"
+   },
+   {
+    "title": "Coğrafiya terminləri lüğəti · Toleit",
+    "url": "https://azleks.az/en/dictionary/toleit"
+   }
+  ]
+ },
+ "qarda": {
+  "az": "Qılıncoynatmada rapiranın, şpağanın və ya başqa idman silahının dəstəyində əli qoruyan lövhə.",
+  "en": "the hand guard on the hilt of a foil, épée or other fencing weapon",
+  "links": {
+   "topic": [
+    "qılıncoynatma",
+    "rapira",
+    "şpaqa"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "İzahlı idman terminləri · Qarda",
+    "url": "https://www.scribd.com/document/1037219380/Izahli-idman-terminleri"
+   }
+  ]
+ },
+ "reali": {
+  "az": "Tərcüməşünaslıqda müəyyən mədəniyyətə xas olan və başqa dildə birbaşa qarşılığı olmayan əşya və ya anlayışı bildirən söz.",
+  "en": "a term for a culture-specific object or concept with no direct equivalent in the target language",
+  "links": {
+   "topic": [
+    "tərcümə",
+    "mədəniyyət",
+    "tərcüməşünaslıq"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "İzahlı tərcüməşünaslıq terminləri lüğəti · Realilər",
+    "url": "https://azerbaycandili.az/Vocabularies/Download/12/%C4%B0zahl%C4%B1%20t%C9%99rc%C3%BCm%C9%99%C5%9Funasl%C4%B1q%20terminl%C9%99ri%20lu%C4%9F%C9%99ti.pdf"
+   }
+  ]
+ },
+ "relyasiya": {
+  "az": "Dilçilikdə qrammatik məna ifadə etmək üçün sözün formasının dəyişməsi.",
+  "en": "inflection, changing a word’s form to express a grammatical meaning",
+  "links": {
+   "topic": [
+    "şəkilçi",
+    "qrammatika"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Elmi İş · Sözyaradıcılığında isim düzəldən şəkilçilər",
+    "url": "https://www.aem.az/soz-yaradclgnda-sm-duzelden-seklcler"
+   }
+  ]
+ },
+ "sezar": {
+  "az": "Kahı yarpağı, qızardılmış çörək tikələri, parmezan pendiri və xüsusi sousla hazırlanan salat.",
+  "en": "Caesar salad, made with lettuce, croutons, Parmesan and a distinctive dressing",
+  "links": {
+   "topic": [
+    "salat",
+    "kahı"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dili · 6-cı sinif dərsliyi · Sezar salatı",
+    "url": "https://trims.edu.az/noduploads/book/dovlat-dili-quot-azarbaycan-dili-quot-fanni-uzra-6-ci-sinif-ucun-darslik-1729597284-533.pdf"
+   },
+   {
+    "title": "Osman Cho · Sezar salatı",
+    "url": "https://www.osmancho.com/recipes/sezar-salati"
+   }
+  ]
+ },
+ "tamp": {
+  "az": "Boulinq kürəsində baş barmaq üçün açılmış dəliyə yerləşdirilən taxma hissə.",
+  "en": "a thumb insert fitted into the thumb hole of a bowling ball",
+  "links": {
+   "topic": [
+    "boulinq",
+    "kürə"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Yeni sözlər və yeni mənalar lüğəti · Tamp",
+    "url": "https://azerbaycandili.az/Vocabularies/Download/18/YEN%C4%B0%20S%C3%96ZL%C6%8FR%20V%C6%8F%20YEN%C4%B0%20M%C6%8FNALAR%20L%C3%9C%C4%9E%C6%8FT%C4%B0%20son%20variant.pdf#page=248"
+   }
+  ]
+ },
+ "tarqa": {
+  "az": "Damının orta hissəsi açılan və ya çıxarılan kupe tipli avtomobil kuzovu.",
+  "en": "a targa, a coupé-style car body with an opening or removable central roof panel",
+  "links": {
+   "topic": [
+    "kuzov",
+    "avtomobil"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Yeni sözlər və yeni mənalar lüğəti · Tarqa",
+    "url": "https://azerbaycandili.az/Vocabularies/Download/18/YEN%C4%B0%20S%C3%96ZL%C6%8FR%20V%C6%8F%20YEN%C4%B0%20M%C6%8FNALAR%20L%C3%9C%C4%9E%C6%8FT%C4%B0%20son%20variant.pdf#page=248"
+   }
+  ]
+ },
+ "transfoneliterasiya": {
+  "az": "Mətnin bir əlifbadan başqa əlifbaya, dildəki səslərə uyğun şəkildə köçürülməsi.",
+  "en": "rewriting a text in another alphabet with attention to the sounds it represents",
+  "links": {
+   "topic": [
+    "əlifba",
+    "transliterasiya",
+    "transkripsiya"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "TİPİİ · 1 avqust",
+    "url": "https://www.tipii.edu.az/az/article/377-1-avqust"
+   },
+   {
+    "title": "AMEA Dilçilik İnstitutu · “Dilimizin islahı” adlı kitab çapdan çıxıb",
+    "url": "https://www.dilcilik.az/xeber.php?id=407"
+   }
+  ]
+ }
+}
