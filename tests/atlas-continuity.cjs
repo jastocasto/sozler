@@ -31,5 +31,20 @@ for(const [width,height] of [[390,844],[1440,900]]){
  assert(glyphs.every(v=>v.labelOpacity===0&&v.lines.length===0));
  assert.equal(measurements,0,'invisible labels skip text measurements throughout travel');
 }
+// The live buffer keeps words/arrays stable while strokes and labels appear or disappear.
+const local={points:sample},visibleBuffer={glyphs:sample.map(point=>({point,screen:{}})),visible:[]};
+for(const zoom of [.01,.85,.01]){
+ const camera=G.focus(sample[0],zoom),project=G.transform(camera,390,844);
+ visibleBuffer.glyphs.forEach(g=>project.into(g.point,g.screen));
+ const buffered=G.glyphs(local,camera,390,844,null,null,visibleBuffer);
+ const independent=G.glyphs(local,camera,390,844);
+ assert.equal(buffered,visibleBuffer.visible);
+ assert.equal(buffered.length,independent.length);
+ buffered.forEach((g,i)=>{
+  assert.equal(g,visibleBuffer.glyphs[sample.indexOf(g.point)]);
+  for(const k of ['r','labelOpacity','fontSize'])assert.equal(g[k],independent[i][k]);
+  assert.deepEqual(g.lines,independent[i].lines);
+ });
+}
 assert.equal(JSON.stringify(data.points),frozen);
 console.log('PASS: the same words grow from dots through the old threshold into labeled circles; all centers match their permanent projected points, opacity increases continuously, circles do not overlap and source coordinates are untouched.');

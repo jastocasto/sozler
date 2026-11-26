@@ -1,0 +1,41 @@
+.galaxy-studio #bubbles .word-node .bubble {
+  fill: var(--word-surface);
+  stroke: url(#word-rim);
+  stroke-width: 1px;
+  filter: none;
+}
+.galaxy-studio #bubbles .word-node.selected .bubble {
+  stroke-width: 1.4px;
+}
+.galaxy-studio #bubbles .word-node:focus-visible .bubble {
+  stroke: #fff5d9;
+  stroke-width: 2.8px;
+}
+.galaxy-studio #bubbles .word-node[data-type=nearby] text {
+  fill: #e3e8ee;
+}
+.galaxy-studio #links .edge {
+  transition: opacity 120ms ease, stroke-width 120ms ease;
+}
+.galaxy-studio #links .edge:not(.selected-edge) {
+  opacity: var(--context-edge-opacity, .08);
+}
+.galaxy-studio #links.tracing-relations .edge {
+  opacity: calc(var(--context-edge-opacity, .08) * .5);
+}
+.galaxy-studio #links.tracing-relations .selected-edge {
+  opacity: .24;
+}
+.galaxy-studio #links.tracing-relations .traced-edge {
+  opacity: 1;
+  stroke-width: 5px;
+}
+@media (prefers-reduced-motion: reduce) {
+  .galaxy-studio #links .edge { transition: none; }
+}
+@media (forced-colors: active) {
+  .galaxy-studio #bubbles .word-node .bubble { fill: Canvas; stroke: CanvasText; }
+  .galaxy-studio #bubbles .word-node text { fill: CanvasText; }
+  .galaxy-studio #bubbles .word-node:focus-visible .bubble,
+  .galaxy-studio #links.tracing-relations .traced-edge { stroke: Highlight; }
+}

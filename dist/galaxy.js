@@ -39,14 +39,32 @@ function createAtlas(data,model){
  const edges=model.edges.map(e=>({...e,from:byWord.get(e.a.w),to:byWord.get(e.b.w)}));
  return {points,byWord,regions,clusters,bounds,edges};
 }
+// Parallel projection has no horizon singularity when zooming across the large atlas.
+// Its plane is slightly inclined to the orbit axis, so elevated layers also move
+// sideways as the observer changes bearing. All three axes remain orthogonal.
+const axialTilt=.18,axisCos=Math.cos(axialTilt),axisSin=Math.sin(axialTilt);
+function cameraBasis(camera){
+ const c=Math.cos(camera.angle||0),s=Math.sin(camera.angle||0),ct=Math.cos(camera.tilt||0),st=Math.sin(camera.tilt||0);
+ const level=camera.zoom/.035;
+ // Exaggerate the shallow relief at map scale and return to native heights near words.
+ const relief=1+15/(1+level*level);
+ const basis={xx:c,xy:-s*axisCos,xz:s*axisSin*relief,
+  yx:s*ct,yy:c*axisCos*ct-axisSin*st,yz:-(c*axisSin*ct+axisCos*st)*relief};
+ if(!camera.roll)return basis;
+ const cos=Math.cos(camera.roll),sin=Math.sin(camera.roll);
+ return {xx:cos*basis.xx-sin*basis.yx,xy:cos*basis.xy-sin*basis.yy,xz:cos*basis.xz-sin*basis.yz,
+  yx:sin*basis.xx+cos*basis.yx,yy:sin*basis.xy+cos*basis.yy,yz:sin*basis.xz+cos*basis.yz};
+}
 function transform(camera,width,height){
- const c=Math.cos(camera.angle||0),s=Math.sin(camera.angle||0),ct=Math.cos(camera.tilt||0),st=Math.sin(camera.tilt||0),zoom=camera.zoom;
- // The live atlas updates its existing screen positions during camera travel.
+ const m=cameraBasis(camera),zoom=camera.zoom;
+ const xx=m.xx*zoom,xy=m.xy*zoom,xz=m.xz*zoom,yx=m.yx*zoom,yy=m.yy*zoom,yz=m.yz*zoom;
+ const ox=width/2-camera.x*xx-camera.y*xy,oy=height/2-camera.x*yx-camera.y*yy;
  function into(p,screen){
-  const x=p.x-camera.x,y=p.y-camera.y,z=p.z||0,perspective=1800/(1800+z*zoom*.5);
-  screen.x=width/2+(x*c-y*s)*zoom*perspective;
-  screen.y=height/2+((x*s+y*c)*ct+z*st)*zoom*perspective;
-  screen.depth=perspective;
+  const z=p.z||0;
+  screen.x=ox+xx*p.x+xy*p.y+xz*z;
+  screen.y=oy+yx*p.x+yy*p.y+yz*z;
+  // Glyphs get a limited size cue by elevation, even on the closest zoom.
+  screen.depth=clamp(1+.0004*z,.78,1.22);
   return screen;
  }
  const project=p=>into(p,{});
@@ -54,12 +72,48 @@ function transform(camera,width,height){
  return project;
 }
 function unproject(point,camera,width,height,z=0){
- const c=Math.cos(camera.angle||0),s=Math.sin(camera.angle||0),ct=Math.cos(camera.tilt||0),st=Math.sin(camera.tilt||0),perspective=1800/(1800+z*camera.zoom*.5),x=(point.x-width/2)/camera.zoom/perspective,y=((point.y-height/2)/camera.zoom/perspective-z*st)/ct;
- return {x:camera.x+x*c+y*s,y:camera.y-x*s+y*c,z};
+ const {xx,xy,xz,yx,yy,yz}=cameraBasis(camera);
+ const sx=(point.x-width/2)/camera.zoom-xz*z,sy=(point.y-height/2)/camera.zoom-yz*z;
+ const det=xx*yy-xy*yx;
+ return {x:camera.x+(sx*yy-xy*sy)/det,y:camera.y+(xx*sy-sx*yx)/det,z};
 }
-function overview(atlas,width,height){const b=atlas.bounds;return {x:(b.minX+b.maxX)/2,y:(b.minY+b.maxY)/2,zoom:Math.min(Math.max(160,width-64)/(b.maxX-b.minX+800),Math.max(120,height-220)/(b.maxY-b.minY+800))*.9,angle:-.09,tilt:.22};}
-function focus(point,zoom=.88){return {x:point.x,y:point.y+(point.z||0)*Math.tan(.20),zoom,angle:0,tilt:.20};}
-function area(area,width,height){return {x:area.x,y:area.y,zoom:Math.min(Math.max(160,width-72)/(area.radius*2.2),Math.max(120,height-250)/(area.radius*2.2)),angle:0,tilt:.24};}
+function aimAt(camera,anchor,screen,width,height){
+ const under=unproject(screen,camera,width,height,anchor.z||0);
+ return {...camera,x:camera.x+anchor.x-under.x,y:camera.y+anchor.y-under.y};
+}
+function orbit(camera,yaw,pitch){
+ const bearing=camera.angle+yaw;
+ return {...camera,angle:Math.atan2(Math.sin(bearing),Math.cos(bearing)),tilt:clamp(camera.tilt+pitch,-.10,.94)};
+}
+const overviewCache=new WeakMap();
+function overview(atlas,width,height){
+ const cached=overviewCache.get(atlas);
+ if(cached?.width===width&&cached.height===height)return {...cached.camera};
+ const b=atlas.bounds,spanX=b.maxX-b.minX,spanY=b.maxY-b.minY;
+ const camera={x:(b.minX+b.maxX)/2,y:(b.minY+b.maxY)/2,zoom:Math.min(Math.max(160,width-64)/(spanX+800),Math.max(120,height-220)/(spanY*Math.cos(.70)+7200))*.93,angle:0,tilt:.52,roll:0};
+ if(height>width*1.25){
+  // Align the atlas's long axis with the phone. Fit its actual elevated points,
+  // leaving space above and below for controls. This runs only upon resizing.
+  camera.roll=Math.PI/2;
+  const fitW=Math.max(100,width-48),fitH=Math.max(120,height-214);
+  camera.zoom=Math.min(fitW/Math.max(1,spanY*.77),fitH/Math.max(1,spanX));
+  const points=atlas.points||[b.minX,b.maxX].flatMap(x=>[b.minY,b.maxY].flatMap(y=>[-400,400].map(z=>({x,y,z}))));
+  const pixel={};
+  for(let step=0;step<3;step++){
+   const project=transform(camera,width,height);let left=Infinity,right=-Infinity,top=Infinity,bottom=-Infinity;
+   for(const point of points){project.into(point,pixel);left=Math.min(left,pixel.x);right=Math.max(right,pixel.x);top=Math.min(top,pixel.y);bottom=Math.max(bottom,pixel.y);}
+   if(step<2){camera.zoom*=Math.min(fitW/Math.max(1,right-left),fitH/Math.max(1,bottom-top));}
+   else {const middle=unproject({x:(left+right)/2,y:(top+bottom)/2},camera,width,height);camera.x=middle.x;camera.y=middle.y;}
+  }
+ }
+ overviewCache.set(atlas,{width,height,camera});return {...camera};
+}
+function focus(point,zoom=.88){return aimAt({x:point.x,y:point.y,zoom,angle:0,tilt:-.09,roll:0},point,{x:0,y:0},0,0);}
+function area(area,width,height){
+ const zoom=Math.min(Math.max(160,width-72)/(area.radius*2.2),Math.max(120,height-250)/(area.radius*2.2));
+ return aimAt({x:area.x,y:area.y,zoom,angle:0,tilt:.24,roll:0},area,{x:0,y:0},0,0);
+}
+function angleBetween(from,to,t){const delta=to-from;return from+Math.atan2(Math.sin(delta),Math.cos(delta))*t;}
 function makeFlight(from,to,width,height,now=0,reduced=false){
  const distance=Math.hypot(to.x-from.x,to.y-from.y),far=distance*Math.min(from.zoom,to.zoom)>Math.min(width,height)*.7;
  const valley=far?Math.min(from.zoom,to.zoom,Math.min(width,height)*.7/Math.max(distance,1)):Math.min(from.zoom,to.zoom);
@@ -70,19 +124,29 @@ function sampleFlight(flight,time){
  if(t===1)return {...flight.to,done:true};
  const p=smooth(t),move=flight.far?smooth(clamp((t-.15)/.7,0,1)):p;
  let zoom;if(flight.far){zoom=t<.48?Math.exp(mix(Math.log(flight.from.zoom),Math.log(flight.valley),smooth(t/.48))):Math.exp(mix(Math.log(flight.valley),Math.log(flight.to.zoom),smooth((t-.48)/.52)));}else zoom=Math.exp(mix(Math.log(flight.from.zoom),Math.log(flight.to.zoom),p));
- return {x:mix(flight.from.x,flight.to.x,move),y:mix(flight.from.y,flight.to.y,move),zoom,angle:mix(flight.from.angle||0,flight.to.angle||0,p)+(flight.far?Math.sin(Math.PI*t)*.13*flight.turn:0),tilt:mix(flight.from.tilt||0,flight.to.tilt||0,p)+(flight.far?Math.sin(Math.PI*t)*.12:0),done:false};
+ return {x:mix(flight.from.x,flight.to.x,move),y:mix(flight.from.y,flight.to.y,move),zoom,angle:angleBetween(flight.from.angle||0,flight.to.angle||0,p)+(flight.far?Math.sin(Math.PI*t)*.13*flight.turn:0),roll:angleBetween(flight.from.roll||0,flight.to.roll||0,p),tilt:mix(flight.from.tilt||0,flight.to.tilt||0,p)+(flight.far?Math.sin(Math.PI*t)*.12:0),done:false};
 }
-function zoomAt(camera,screen,nextZoom,width,height){const anchor=unproject(screen,camera,width,height),next={...camera,zoom:nextZoom},after=unproject(screen,next,width,height);next.x+=anchor.x-after.x;next.y+=anchor.y-after.y;return next;}
+function zoomAt(camera,screen,nextZoom,width,height,z=0){
+ const anchor=unproject(screen,camera,width,height,z);
+ return aimAt({...camera,zoom:nextZoom},anchor,screen,width,height);
+}
 // One geometric glyph for every visible word, at every atlas zoom level.
 // Density changes its radius, never its map position or identity.
-function glyphs(atlas,camera,width,height,screens=null,measure=null){
- const project=screens?p=>screens.get(p.word):transform(camera,width,height),items=[];let maxR=0;
- for(const point of atlas.points){const screen=project(point);if(screen.x< -110||screen.x>width+110||screen.y< -110||screen.y>height+110)continue;
-  const r=clamp(36*camera.zoom*screen.depth,.65,48);maxR=Math.max(maxR,r);items.push({point,screen,r});
+const noLines=Object.freeze([]);
+function glyphs(atlas,camera,width,height,screens=null,measure=null,buffer=null){
+ const project=screens?p=>screens.get(p.word):transform(camera,width,height);
+ const items=buffer?.visible||[];
+ let maxR=0,count=0;
+ for(let i=0;i<atlas.points.length;i++){
+  const point=atlas.points[i],cached=buffer?.glyphs[i],screen=cached?cached.screen:project(point);
+  if(screen.x< -110||screen.x>width+110||screen.y< -110||screen.y>height+110)continue;
+  const glyph=cached||{point,screen};
+  glyph.r=clamp(36*camera.zoom*screen.depth,.65,48);
+  maxR=Math.max(maxR,glyph.r);items[count++]=glyph;
  }
- // Subpixel overview marks can share pixels; collision work starts when
- // circles are large enough to distinguish. This keeps the 20k-word view cheap.
- if(maxR<=3){for(const v of items){v.body=0;v.labelOpacity=0;v.fontSize=8.5;v.lines=[];}return items;}
+ items.length=count;
+ // Marks smaller than three pixels can share space without a collision pass.
+ if(maxR<=3){for(const v of items){v.body=0;v.labelOpacity=0;v.fontSize=8.5;v.lines=noLines;}return items;}
  const cell=Math.max(4,maxR*2+6),grid=new Map(),key=(x,y)=>x+','+y;
  for(const v of items){v.cx=Math.floor(v.screen.x/cell);v.cy=Math.floor(v.screen.y/cell);const k=key(v.cx,v.cy);if(!grid.has(k))grid.set(k,[]);grid.get(k).push(v);}
  for(const v of items){let nearest=Infinity;for(let dx=-1;dx<=1;dx++)for(let dy=-1;dy<=1;dy++)for(const q of grid.get(key(v.cx+dx,v.cy+dy))||[]){if(q===v)continue;nearest=Math.min(nearest,Math.hypot(v.screen.x-q.screen.x,v.screen.y-q.screen.y));}
@@ -90,8 +154,8 @@ function glyphs(atlas,camera,width,height,screens=null,measure=null){
   if(v.labelOpacity>0){
    const label=fitLabel(v.point.word,v.r,clamp(v.r*.43,8.5,14),measure);
    v.fontSize=label.fontSize;v.lines=label.lines;
-  }else{v.fontSize=8.5;v.lines=[];}
-  delete v.cx;delete v.cy;
+  }else{v.fontSize=8.5;v.lines=noLines;}
+  if(!buffer){delete v.cx;delete v.cy;}
  }
  return items;
 }
@@ -130,5 +194,5 @@ function connections(atlas,screens,filters,width,height,moving=new Set()){
  return {stationary,dynamic};
 }
 function blendColor(from,to,t){const rgb=h=>[1,3,5].map(i=>parseInt(h.slice(i,i+2),16)),a=rgb(from),b=rgb(to);return '#'+a.map((v,i)=>Math.round(mix(v,b[i],t)).toString(16).padStart(2,'0')).join('');}
-const api={createAtlas,transform,unproject,overview,focus,area,makeFlight,sampleFlight,zoomAt,clamp,glyphs,labelLines,fitLabel,blendColor,crossesViewport,connections};if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.WordGalaxy=api;
+const api={createAtlas,transform,unproject,aimAt,orbit,angleBetween,overview,focus,area,makeFlight,sampleFlight,zoomAt,clamp,glyphs,labelLines,fitLabel,blendColor,crossesViewport,connections};if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.WordGalaxy=api;
 })(typeof window!=='undefined'?window:globalThis);

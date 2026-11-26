@@ -2,12 +2,24 @@ const assert=require('node:assert/strict'),{boot}=require('./galaxy-harness.cjs'
 for(const [width,height,reduced]of [[390,844,true],[1440,900,false]]){
  const h=boot({width,height,reduced}),{window,$,runFrames,pointer,frames}=h,s=()=>window.SozApp.inspect();
  const model=h.model,atlas=window.WordGalaxy.createAtlas(window.WORD_GALAXY_DATA,model),original=JSON.stringify(window.WORD_GALAXY_DATA.points);
- assert.equal(s().atlasLines.length,atlas.edges.length,'The overview draws every documented edge');assert(s().atlasLines.every(e=>e.color==='#bcbdb7'));
+ const wide=s(), project=window.WordGalaxy.transform(wide.camera,width,height);
+ assert.equal(wide.atlasConnectionMode,'region');
+ assert.equal(wide.availableAtlasEdgeCount,atlas.edges.length);
+ assert.equal(wide.atlasLines.length,0,'Regional routes replace individual lines at universe scale');
+ assert(wide.atlasLanes.length>0,'The overview displays actual regional traffic');
+ const routeIndex=window.AtlasRoutes.createIndex(atlas);
+ for(const lane of wide.atlasLanes){
+  const {from,to,count}=lane.route,a=project(atlas.regions[from]),b=project(atlas.regions[to]);
+  assert.equal(count,routeIndex.summary(from,to).count);
+  assert.equal(lane.x1,a.x);assert.equal(lane.y1,a.y);assert.equal(lane.x2,b.x);assert.equal(lane.y2,b.y);
+  const mid=window.AtlasSky.pointOnLane(lane,.5);
+  assert.equal(window.AtlasSky.hitRoute([lane],mid.x,mid.y,1),lane,'The painted curve opens its own real group of edges');
+ }
  function complete(){const state=s(),ids=new Set([...state.atlasLines,...state.lines].map(e=>e.id)),moving=new Set([...state.particles,...state.surroundings].map(p=>p.word)),points=new Map(state.screenPositions.map(p=>[p.word,p]));for(const e of atlas.edges){const expected=moving.has(e.from.word)||moving.has(e.to.word)||window.WordGalaxy.crossesViewport(points.get(e.from.word),points.get(e.to.word),width,height,4);assert.equal(ids.has(e.id),expected,'Every recorded visible connection has one rendered path');}geometry(state);}
  const focus=reduced?'tibb':'gözəl';window.SozApp.selectWord(focus);assert.equal(s().particles.length,s().relatedWords.length+1);assert.equal(s().connectionPages,1);assert($('connectionPager').hidden);complete();const first=JSON.stringify(s().particles);runFrames(30,()=>geometry(s()),8);if(!reduced)assert.notEqual(JSON.stringify(s().particles),first,'Gathering visibly animates');h.runUntilIdle(()=>geometry(s()));assert(s().settled);assert.equal(frames.size,0);complete();const still=JSON.stringify(s().particles),paths=JSON.stringify(s().lines);runFrames(120);assert.equal(JSON.stringify(s().particles),still);assert.equal(JSON.stringify(s().lines),paths,'Selected edges remain colored and still');
  const radius=s().particles[1].visualRadius;$('zoomIn').click();h.runUntilIdle(()=>geometry(s()));assert(s().particles[1].visualRadius>radius);assert.equal(s().particles.length,s().relatedWords.length+1);assert.equal(s().relatedWords.length,model.related(model.byWord.get(focus)).length);complete();
  pointer('pointerdown',1,20,180);pointer('pointermove',1,85,215);pointer('pointerup',1,85,215);runFrames(3);assert.notEqual(s().detailPan.x,0);$('fitButton').click();h.runUntilIdle(()=>geometry(s()));assert.equal(s().detailScale,1);assert.equal(s().detailPan.x,0);if(!reduced)assert(s().contained);complete();
  const context=s().surroundings.find(p=>p.x>30&&p.x<width-60&&p.y>140&&p.y<height-150);if(context){const g=window.document.querySelector('[data-word="'+context.word+'"]');pointer('pointerdown',2,context.x,context.y,g);pointer('pointerup',2,context.x,context.y);assert.equal(s().selected,context.word);h.runUntilIdle(()=>geometry(s()));complete();}
  window.SozApp.selectWord('şallaq');h.runUntilIdle();const peer=s().particles.find(p=>p.word==='qamçı');assert(peer);const bubble=window.document.querySelector('[data-word="qamçı"]');pointer('pointerdown',3,peer.x,peer.y,bubble);pointer('pointermove',3,peer.x+35,peer.y+30);geometry(s(),{centered:false});pointer('pointerup',3,peer.x+35,peer.y+30);h.runUntilIdle(()=>geometry(s()));assert(s().settled);assert.equal(frames.size,0);complete();
- assert.equal(JSON.stringify(window.WORD_GALAXY_DATA.points),original);assert.equal(h.errors.length,0);assert(!$('pauseButton'));console.log(`PASS: ${width}×${height}${reduced?' reduced motion':''}: complete gray web, all direct neighbors together, colored live endpoints, all-body collision separation, zoom/pan/fit/context selection, drag rebound, final rest and fixed atlas data.`);
+ assert.equal(JSON.stringify(window.WORD_GALAXY_DATA.points),original);assert.equal(h.errors.length,0);assert(!$('pauseButton'));console.log(`PASS: ${width}×${height}${reduced?' reduced motion':''}: region traffic and exact close web, all direct neighbors together, colored live endpoints, all-body collision separation, zoom/pan/fit/context selection, drag rebound, final rest and fixed atlas data.`);
 }

@@ -135,7 +135,10 @@ const regionLabel = h.$('atlasLabels').querySelector('[data-region]');
 assert(regionLabel);
 const visibleRegion = atlas.regions.find(region=>region.id===regionLabel.dataset.region);
 assert.equal(h.counts.arcs,atlas.points.length,'The overview draws the spelling entries as individual dots');
-assert(inspect().atlasLines.some(line=>spellingWords.has(line.a)!==spellingWords.has(line.b)));
+const visiblePairs=new Set(inspect().atlasLanes.map(l=>l.route.from+','+l.route.to));
+assert(atlas.edges.some(e=>spellingWords.has(e.from.word)!==spellingWords.has(e.to.word)&&
+  visiblePairs.has(Math.min(e.from.region,e.to.region)+','+Math.max(e.from.region,e.to.region))),
+  'A real overview lane includes a connection between spelling-dictionary and other words');
 regionLabel.click();
 assert.equal(inspect().view,'region');
 assert.equal(h.$('breadcrumbRegion').textContent,visibleRegion.label);

@@ -182,8 +182,31 @@ function select(n,record=true,writeHash=true,viaEdge=null,initial=false,source='
  state.selected=n;if(writeHash)history.replaceState(null,'','#w='+encodeURIComponent(n.w));
  $('backButton').hidden=!state.history.length;closeSearch();closeMenu();$('search').value='';if(document.activeElement===$('search'))$('search').blur();setSheet(false);detail();galaxy?.select(n,{initial});
 }
-function visibleFilters(){for(const b of $('filters').children){b.setAttribute('aria-pressed',state.filters.has(b.dataset.type));b.querySelector('.check').textContent=state.filters.has(b.dataset.type)?'✓':'−';}}
-for(const[type,t]of Object.entries(types)){const b=html('button','filter');b.dataset.type=type;b.style.setProperty('--color',t.color);b.title=t.description;b.append(html('span','line-swatch'),document.createTextNode(t.name),html('span','check','✓'));b.setAttribute('aria-pressed','true');b.onclick=()=>{state.filters.has(type)?state.filters.delete(type):state.filters.add(type);visibleFilters();detail();galaxy?.setFilters(state.filters);};$('filters').append(b);}
+function visibleFilters(){
+ for(const b of document.querySelectorAll('#filters button, #mapFilterKeys button')){
+  const enabled=state.filters.has(b.dataset.type);
+  b.setAttribute('aria-pressed',String(enabled));
+  const check=b.querySelector('.check');if(check)check.textContent=enabled?'✓':'−';
+ }
+}
+function toggleRelation(type){
+ if(race?.blocking)return;
+ if(state.filters.has(type))state.filters.delete(type);else state.filters.add(type);
+ visibleFilters();detail();galaxy?.setFilters(state.filters);
+}
+const keyNames={root:'Kök',syn:'Sinonim',ant:'Antonim',topic:'Mövzu',ending:'Sonluq'};
+for(const[type,t]of Object.entries(types)){
+ const button=html('button','filter');
+ button.dataset.type=type;button.style.setProperty('--color',t.color);button.title=t.description;
+ button.append(html('span','line-swatch'),document.createTextNode(t.name),html('span','check','✓'));
+ button.setAttribute('aria-pressed','true');button.onclick=()=>toggleRelation(type);$('filters').append(button);
+}
+for(const[type,name]of Object.entries(keyNames)){
+ const button=html('button','map-key',name);
+ button.dataset.type=type;button.style.setProperty('--key',types[type].color);
+ button.setAttribute('aria-pressed','true');button.title=types[type].description;
+ button.onclick=()=>toggleRelation(type);$('mapFilterKeys').append(button);
+}
 $('resetFilters').onclick=()=>{state.filters=new Set(Object.keys(types));visibleFilters();detail();galaxy?.setFilters(state.filters);};
 $('zoomIn').onclick=()=>galaxy?.zoom(1.8);$('zoomOut').onclick=()=>galaxy?.zoom(1/1.8);$('fitButton').onclick=()=>{setSheet(false);galaxy?.focus();};
 for(const id of ['universeButton','brandHome','breadcrumbHome'])$(id).onclick=()=>{setSheet(false);closeSearch();galaxy?.home();};
@@ -277,7 +300,9 @@ function hashWord(){try{return decodeURIComponent(location.hash.replace(/^#w=/,'
 function fromHash(){return model.resolveWord(hashWord());}
 window.addEventListener('hashchange',route);window.addEventListener('popstate',route);
 function updateLocation({region,cluster}){currentRegion=region;currentCluster=cluster;$('breadcrumbRegion').hidden=!region;$('breadcrumbSeparator').hidden=!region;$('breadcrumbCluster').hidden=!cluster;$('breadcrumbRegion').textContent=region?.label||'';$('breadcrumbCluster').textContent=cluster?.label||'';}
-try{galaxy=window.GalaxyView.mount({model,onSelect:n=>select(n,true,true,null,false,'map'),onLocation:updateLocation});$('mapLoading').hidden=true;}catch(error){console.error(error);$('mapLoading').replaceChildren(html('p','','Xəritə bu brauzerdə açıla bilmədi. Sözlük və axtarışdan istifadə edə bilərsiniz.'));}
+try{galaxy=window.GalaxyView.mount({model,onSelect:n=>select(n,true,true,null,false,'map'),onLocation:updateLocation,
+ onView:view=>{document.querySelector('.galaxy-studio').dataset.mapView=view;}
+ });$('mapLoading').hidden=true;}catch(error){console.error(error);$('mapLoading').replaceChildren(html('p','','Xəritə bu brauzerdə açıla bilmədi. Sözlük və axtarışdan istifadə edə bilərsiniz.'));}
 for(const r of (galaxy?.atlas.regions||window.WORD_GALAXY_DATA.regions)){const b=html('button','',r.label);b.style.setProperty('--region-color',r.color);b.dataset.region=r.id;b.append(html('span','',r.count.toLocaleString('az')));b.onclick=()=>{closeMenu();setSheet(false);galaxy?.visitRegion(r.id);};$('regionDirectory').append(b);}
 function renderCounts(){$('collectionSize').textContent=model.nodes.length.toLocaleString('az')+' söz və ifadə';$('sourceCounts').textContent=`Xəritədə ${model.nodes.length.toLocaleString('az')} ayrı lüğət girişi: ${model.nodes.filter(n=>!n.w.includes(' ')).length.toLocaleString('az')} tək söz və ${model.nodes.filter(n=>n.w.includes(' ')).length.toLocaleString('az')} söz birləşməsi / ifadə. ${model.meta.nominal.moved_entries.toLocaleString('az')} qrammatik forma ayrıca formalar bölməsinə keçirilib. Fel təsrifləri ayrıca qrammatika arxivindədir (${model.grammarRecords.length.toLocaleString('az')} qeyd). İki böyük-kiçik hərf variantı birləşdirilib. İlkin məlumatlar saxlanılıb. ${model.orthographyNodes.length.toLocaleString('az')} yazılış orfoqrafiya lüğətinə əsasən əlavə edilib. Onlardan ${model.orthographyNodes.filter(n=>n.az&&n.en).length.toLocaleString('az')} sözün izahı Azərbaycan və ingilis dillərində göstərilir. ${model.meta.growth.added_entries} söz və ifadədən ibarət genişlənmədən sonra tam məna yoxlaması aparılıb: ${model.meta.verification.assessed_entries.toLocaleString('az')} girişə baxılıb, ${model.meta.verification.corrected_entries.toLocaleString('az')} girişin izahı və ya əlavə mənaları dəqiqləşdirilib. Düzəlişlərin mənbələri söz kartında və yoxlama hesabatında göstərilir. Azərbaycan əlifbasının bütün hərfləri üzrə yeni söz əlaqələrində lüğət və qrammatika mənbələri göstərilir.`;}
 renderCounts();
@@ -304,7 +329,7 @@ function prepareSearchWhenIdle(){idle(deadline=>{let done=false;while(!done&&dea
 prepareSearchWhenIdle();
 // Definitions arrive in soz-text.json after the map: fill in what is on screen.
 function textReady(){
- renderCounts();mountTextModules();
+ renderCounts();mountTextModules();galaxy?.refreshText();
  if(state.selected){const scroll=$('meaningCard').querySelector('.sheet-scroll'),top=scroll.scrollTop,senses=$('otherSenses').open;detail();scroll.scrollTop=top;$('otherSenses').open=senses;}
  if(!$('searchResults').hidden)showSearch();
  if($('libraryDialog').open||$('libraryDialog').hasAttribute('open'))renderLibrary();
