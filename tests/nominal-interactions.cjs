@@ -1,5 +1,5 @@
 const assert=require('node:assert/strict'),{boot}=require('./galaxy-harness.cjs');
-const {window,$,input,frames,runFrames,storage}=boot({hash:'#w='+encodeURIComponent('otaqda'),saved:['otaqda','elədi','məlumat','pasxa'],layers:true});
+const {window,$,model,input,frames,runFrames,storage}=boot({hash:'#w='+encodeURIComponent('otaqda'),saved:['otaqda','elədi','məlumat','pasxa'],layers:true});
 const click=id=>$(id).click();
 assert.equal($('meaningWord').textContent,'otaq','Old case link opens the base word');
 assert.equal($('savedCount').textContent,'4');assert(storage.get('soz-toxumasi:saved').includes('otaqda'),'Do not discard saved forms');
@@ -15,7 +15,23 @@ input('librarySearch','not-a-real-form-xyz');assert($('libraryList').textContent
 window.document.querySelector('[data-library-mode="all"]').click();assert($('formsIntro').hidden);input('librarySearch','otaqda');assert(![...$('libraryList').querySelectorAll('strong')].some(e=>e.textContent==='otaqda'));$('libraryDialog').close();
 click('savedTab');assert.equal($('libraryList').children.length,4);const savedRows=[...$('libraryList').children];assert(savedRows.some(e=>e.querySelector('strong').textContent==='Pasxa'),'Capitalization alias remains saved under its headword');savedRows.find(e=>e.querySelector('strong').textContent==='otaqda').click();assert.equal($('libraryTitle').textContent,'Hal və cəm formaları');assert($('libraryList').textContent.includes('yadda saxlanılıb'));$('libraryDialog').close();
 for(const [word,meaning]of [['ölüm','death'],['sənə','year'],['gəlir','income'],['nəticədə','as a result']]){input('search',word);$('searchResults').firstElementChild.click();assert.equal($('meaningWord').textContent,word);assert($('meaningEnglish').textContent.toLowerCase().includes(meaning));assert(!$('meaningGrammar').textContent.includes('qayda ilə yaradılmış forma'));}
-const excluded=new Set([...window.WORD_WEB_NOMINAL.excluded,...window.WORD_WEB_GRAMMAR.excluded]);for(let i=0;i<25;i++){click('randomButton');assert(!excluded.has($('meaningWord').textContent));assert([...window.document.querySelectorAll('[data-word]')].every(e=>!excluded.has(e.dataset.word)));}
+const excluded = new Set([...window.WORD_WEB_NOMINAL.excluded, ...window.WORD_WEB_GRAMMAR.excluded]);
+function checkVisibleHeadwords() {
+  for (const element of window.document.querySelectorAll('[data-word]')) {
+    const word = element.dataset.word;
+    if (excluded.has(word)) assert(model.byWord.get(word)?.orthographyPage, word + ' needs an independent spelling entry');
+  }
+}
+assert(excluded.has('badımcanı'), 'the nominal archive includes this spelling');
+window.SozApp.selectWord('badımcanı');
+assert.equal($('meaningWord').textContent, 'badımcanı');
+assert($('meaningEnglish').textContent.includes('purple'), 'the colour sense is a headword');
+checkVisibleHeadwords();
+for (let i = 0; i < 25; i++) {
+  click('randomButton');
+  assert(!excluded.has($('meaningWord').textContent), 'random selection uses the original dictionary entries');
+  checkVisibleHeadwords();
+}
 window.location.hash='#w='+encodeURIComponent('otaqlar');window.dispatchEvent(new window.Event('hashchange'));assert.equal($('meaningWord').textContent,'otaq');
 assert.equal($('formsIntro').querySelector('a').getAttribute('href'),'nominal-archive.json');
 assert($('sourceCounts').textContent.includes(require('../dist/word-count.json').single_words.toLocaleString('az')));assert($('sourceCounts').textContent.includes(require('../dist/word-count.json').multiword_entries.toLocaleString('az')));
