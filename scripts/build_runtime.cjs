@@ -16,6 +16,7 @@ const dist = path.join(__dirname, '..', 'dist');
 const { createModel, restoreModel, shardOf, normalize } = require(path.join(dist, 'model.js'));
 const LAYERS = ['data', 'lexicon', 'grammar', 'vocabulary', 'review', 'bilingual', 'expansion', 'nominal', 'additions', 'relations',
   'references', 'growth', 'orthography-lexical', 'orthography-lexical-evidence', 'orthography', 'verification', 'print-definitions'];
+const { assignEvidenceIds } = require('./edge_evidence_ids.cjs');
 const SHARDS = 1024;
 const content = path.join(__dirname, 'content');
 const readOptional = (file, fallback) => fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, 'utf8')) : fallback;
@@ -111,6 +112,14 @@ for (const e of m.edges) {
   flat.push(index.get(e.a), index.get(e.b), typeList.indexOf(e.type), noteIndex.get(e.note));
 }
 
+// Evidence IDs survive insertions, removals and changes to display order. The
+// line number (starting at zero) is permanent, including for retired edges.
+// The initial registry uses the graph order of the existing offline package.
+const registryPath = path.join(content, 'edge-evidence-ids.jsonl');
+const registry = fs.readFileSync(registryPath, 'utf8').trimEnd().split('\n');
+const originalSize = registry.length;
+const { evidenceOrder, evidenceIdRuns } = assignEvidenceIds(m.edges, registry);
+
 // ---- detail shards: evidence of every link, stored with both of its words ----
 let untranslatable = 0;
 const prepareProof = p => {
@@ -126,7 +135,7 @@ for (const n of nodes) { const d = detailsOf(n.w); if (d) { shards[shardOf(n.w, 
 const homonyms = nodes.filter(n => etymology[n.w]?.h).map(n => n.w);
 // Citations repeat across a shard's proofs, so each shard keeps a table of them.
 const shardRef = (shard, ref) => { const k = JSON.stringify(ref); if (!shard.refIndex.has(k)) { shard.refIndex.set(k, shard.refs.length); shard.refs.push(ref); } return shard.refIndex.get(k); };
-m.edges.forEach((e, id) => {
+evidenceOrder.forEach((e, id) => {
   if (!e.evidence.length) return;
   for (const s of new Set([shardOf(e.a.w, SHARDS), shardOf(e.b.w, SHARDS)])) {
     const shard = shards[s];
@@ -177,7 +186,7 @@ const core = {
   frequency: frequencyRank.size ? nodes.map(n => frequencyRank.get(n.w) || 0) : null,
   nodes: { count, orthographyStart, cols, sparse, rank, excluded },
   text: { file: 'soz-text.json', hash: hash(textJson).slice(0, 16) },
-  edges: { types: typeList, notes: noteList, flat },
+  edges: { types: typeList, notes: noteList, flat, ...(evidenceIdRuns.length ? { evidenceIdRuns } : {}) },
   aliases: m.aliases,
   verbEvidence: m.verbEvidence,
   grammarRecords: m.grammarRecords,
@@ -286,3 +295,10 @@ if (restoredCore.frequency) {
   log('frequency ranks for', ranked, 'headwords; search prefers common words:', f.search('gö', 6).map(n => n.w).join(' '));
 }
 log('PASS: restored model matches createModel;', samples.length, 'search samples');
+
+// Publish newly allocated IDs only after the rebuilt model passes verification.
+if (registry.length !== originalSize) {
+  const temporary = registryPath + '.' + process.pid + '.tmp';
+  fs.writeFileSync(temporary, registry.join('\n') + '\n');
+  fs.renameSync(temporary, registryPath);
+}

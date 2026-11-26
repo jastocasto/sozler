@@ -27,6 +27,8 @@ The build fails unless the restored model matches `createModel` for every word, 
 
 **Analytics.** On the deployed HTTPS site, `app.js` loads Vercel Web Analytics (anonymous page views, no cookies). Analytics must also be enabled once in the Vercel project's Analytics tab.
 
+The build stores permanent connection IDs in `scripts/content/edge-evidence-ids.jsonl`. Each line identifies an unordered pair of headwords and its relationship type. Keep existing lines in place, including retired connections, and commit new lines from the runtime build alongside the generated files. This lets offline updates reuse detail files when other parts of the graph change.
+
 Rebuild after changing any data layer, then refresh cache keys and the offline package:
 
     python3 -I scripts/build_etymology.py kaikki.org-dictionary-Azerbaijani.jsonl     # only when refreshing origins

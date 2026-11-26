@@ -164,7 +164,18 @@ function restoreModel(core,{fetchJSON}={}){
  const specialNodes=alphabetical.filter(node=>node.special);
  // Link evidence arrives with a word's detail file; until then an edge has none.
  const evidenceById=new Map();
- class Edge{constructor(id,a,b,type,note){this.id=id;this.a=a;this.b=b;this.type=type;this.note=note;}get evidence(){return evidenceById.get(this.id)||NO_EVIDENCE;}}
+ // Older snapshots identify evidence by the edge's position. New snapshots
+ // record the start of each consecutive run of permanent evidence IDs.
+ const evidenceRuns = core.edges.evidenceIdRuns;
+ const evidenceIds = evidenceRuns?.length ? new Uint32Array(core.edges.flat.length / 4) : null;
+ if (evidenceIds) {
+  let run = 0, next = 0;
+  for (let i = 0; i < evidenceIds.length; i++) {
+   if (run < evidenceRuns.length && evidenceRuns[run][0] === i) next = evidenceRuns[run++][1];
+   evidenceIds[i] = next++;
+  }
+ }
+ class Edge{constructor(id,a,b,type,note){this.id=id;this.a=a;this.b=b;this.type=type;this.note=note;}get evidence(){return evidenceById.get(evidenceIds ? evidenceIds[this.id] : this.id)||NO_EVIDENCE;}}
  const {flat,types:typeList,notes}=core.edges,edges=new Array(flat.length/4);
  for(let i=0,k=0;k<flat.length;i++,k+=4)edges[i]=new Edge(i,nodes[flat[k]],nodes[flat[k+1]],typeList[flat[k+2]],notes[flat[k+3]]);
  // Each word's links are sorted and wrapped on first use; edgesOf holds edge indexes per word.
