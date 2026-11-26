@@ -86,7 +86,7 @@ for (const [a, b, kind, , , proofs] of layer.edges) {
   if (edge(a, b, kind)) added++;
 }
 assert(added >= layer.edges.length * 0.99, 'layer links reach the graph');
-for (const layerName of ['WORD_WEB_REVIEW', 'WORD_WEB_RELATIONS', 'WORD_WEB_GROWTH', 'WORD_WEB_VERIFICATION'])
+for (const layerName of ['WORD_WEB_REVIEW', 'WORD_WEB_RELATIONS', 'WORD_WEB_GROWTH', 'WORD_WEB_VERIFICATION', 'WORD_WEB_PRINT_DEFINITIONS'])
   for (const [a, b, t] of w[layerName]?.blocked || []) assert(!edge(a, b, t), a + ' ' + b + ' stays blocked');
 for (const [a, b, t] of [['evsiz', 'siz', 'root'], ['vətəndaş', 'daş', 'root'], ['xilaskar', 'kar', 'root'], ['beşinci', 'inci', 'root'],
   ['dönüş', 'iş', 'root'], ['vətəndaş', 'daş', 'topic']])

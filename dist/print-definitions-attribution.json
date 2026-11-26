@@ -47,25 +47,25 @@
  },
  "summary": {
   "undefined_before": 63985,
-  "undefined_after": 1240,
+  "undefined_after": 994,
   "isolated_before": 30802,
-  "isolated_after": 5904,
-  "definitions": 62745,
+  "isolated_after": 5762,
+  "definitions": 62991,
   "definitions_by_method": {
    "authored": 10851,
    "cross-reference": 413,
    "derivation": 3604,
-   "meaning": 13462,
+   "meaning": 13708,
    "paraphrase": 18162,
    "rule": 16253
   },
   "low_confidence_paraphrases": 752,
-  "links": 38789,
+  "links": 39508,
   "stats": {
    "definitions:authored": 10851,
    "definitions:cross-reference": 413,
    "definitions:derivation": 3604,
-   "definitions:meaning": 13462,
+   "definitions:meaning": 13708,
    "definitions:paraphrase": 18162,
    "definitions:rule": 16253,
    "links:bilingual-cross-reference": 897,
@@ -81,7 +81,7 @@
    "links:dialect-sense": 93,
    "links:inflected-form": 88,
    "links:loan-family": 1051,
-   "links:meaning-sense": 689,
+   "links:meaning-sense": 1408,
    "links:original-form": 96,
    "links:original-genus": 770,
    "links:original-relation": 23,
@@ -95,11 +95,12 @@
    "paraphrase:rejected-unsourced": 54,
    "paraphrase:skipped": 93,
    "rule:unconfirmed-existing": 67810,
-   "blocked:homonym-root": 5
+   "blocked:homonym-root": 14,
+   "blocked:wrong-sense-topic": 1
   },
   "dictionary_reviews": 392
  },
- "output_sha256": "717968eaaf44f7e262624cfc6b89c924858d4248d4f87b0e8bda6a6a77cda80c",
+ "output_sha256": "3c336e5d52c237b880a63e9f28db3d16b6ad51718166542deb58c437b2a15ded",
  "supplements": {
   "supplement-01.json": "34487283d6c34e57d895690de6e5e6d680b7019177c81633e46624c1f1be40b7",
   "supplement-02.json": "60b7470870bf3269468070bb31a3efdeb1f16d3469bcee43edd17337ef570bb7",
@@ -115,7 +116,8 @@
   "supplement-12.json": "2185cd7669d1c7833f7b7bbcc2e6f104460ffb2f988ad9396050e271b2898481",
   "supplement-13.json": "6a2cf4b89c12b3c1bee60276de3f8d9a6b58d00ab4d24649ee98668ee24fc665",
   "supplement-14.json": "21ffe9cfc4d5485b63801ccddbbb99bfb02cf074e7397205ecd17603f425e26e",
-  "supplement-15.json": "4f3ecb6a62d4f5b9d1861238b43cb68947e1fc6a7de5fcfc4ba81d8d663b3316"
+  "supplement-15.json": "4f3ecb6a62d4f5b9d1861238b43cb68947e1fc6a7de5fcfc4ba81d8d663b3316",
+  "supplement-16.json": "355bcd00a246d0dee86f5cb83630f062ad84ff9ac11bc3184f91e26792b430f2"
  },
  "base_model_sha256": "426082c5f82c5c880cf807c56797a13e0d8a4538a9f4ee4014247c77841a7161"
 }

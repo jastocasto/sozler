@@ -11,7 +11,9 @@ function mount({model,onSelect,onLocation,onView}){
  const media=matchMedia('(prefers-reduced-motion: reduce)');let reduced=media.matches;
  let width=map.clientWidth||innerWidth,height=map.clientHeight||innerHeight,camera=G.overview(atlas,width,height),selected=null,filters=new Set(Object.keys(types));
  let particles=[],surroundings=[],bodies=[],links=[],activeIds=new Set(),movingIds=new Set(),flight=null,raf=0,last=0,accumulator=0,clock=0,dirty=true,needsRefresh=true,view='universe',paused=false,pageHidden=false,drag=null,pinch=null,gesture=false,lastRefresh=0,hover=null,connectionPage=0,focusLayout=null,detailScale=1,detailPan={x:0,y:0},focusCamera=null,selectionTravel=null,settled=true,idleFrames=0,motionStarted=0,pauseTime=null,navigationLocked=false,raceRoute=null;
- const pointers=new Map(),related=new Map();let projected=[],hitDots=[],labelButtons=[],savedCamera=null,atlasLines=[],atlasControls=new Map(),allScreens=new Map(),sceneReady=false;
+ const pointers=new Map(),related=new Map();let projected=[],hitDots=[],labelButtons=[],savedCamera=null,atlasLines=[],atlasControls=new Map(),sceneReady=false;
+ const screens=atlas.points.map(()=>({x:0,y:0,depth:1}));
+ const allScreens=new Map(atlas.points.map((point,i)=>[point.word,screens[i]]));
  const el=(name,attrs={},text)=>{const e=document.createElementNS(NS,name);for(const[k,v]of Object.entries(attrs))e.setAttribute(k,v);if(text!==undefined)e.textContent=text;return e;};
  function resize(){
   width=map.clientWidth||innerWidth;height=map.clientHeight||innerHeight;
@@ -22,7 +24,12 @@ function mount({model,onSelect,onLocation,onView}){
  }
  function isVisible(p,pad=40){return p.x>-pad&&p.x<width+pad&&p.y>74-pad&&p.y<height-96+pad;}
  function clearBubbles(){particles=[];surroundings=[];bodies=[];links=[];activeIds.clear();movingIds.clear();atlasControls.clear();$('bubbles').replaceChildren();$('links').replaceChildren();settled=true;}
- function projectScene(){const project=G.transform(camera,width,height);allScreens=new Map(atlas.points.map(p=>[p.word,project(p)]));projected=G.glyphs(atlas,camera,width,height,allScreens,(word,size)=>{context.font=size+'px Georgia, serif';return context.measureText(word).width;});sceneReady=true;}
+ function projectScene(){
+  const project=G.transform(camera,width,height);
+  for(let i=0;i<atlas.points.length;i++)project.into(atlas.points[i],screens[i]);
+  projected=G.glyphs(atlas,camera,width,height,allScreens,(word,size)=>{context.font=size+'px Georgia, serif';return context.measureText(word).width;});
+  sceneReady=true;
+ }
  function kick(){settled=reduced;idleFrames=0;motionStarted=root.performance?.now?.()??clock;clock=motionStarted;last=0;accumulator=0;wake();}
  function refresh(reframe=false){
   needsRefresh=false;lastRefresh=clock;

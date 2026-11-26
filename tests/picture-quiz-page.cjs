@@ -95,6 +95,7 @@ assert.match($('pictureProgress').textContent, /^1 \/ 1/);
 const missed = options().find(b => $('pictureStage').querySelector('svg').innerHTML === pictures.find(p => p[0] === b.dataset.word)[2]);
 assert(missed); missed.click(); $('pictureNext').click();
 assert.equal($('pictureResultScore').textContent, '1 / 1');
+assert.match($('pictureResultText').textContent, /Mövzu: Heyvanlar\./);
 assert.equal(JSON.parse(storage.get('soz-toxumasi:picture-quiz:v1')).rounds, 1, 'a review round does not count as a new round');
 
 // Word -> picture mode.

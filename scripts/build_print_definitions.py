@@ -1662,12 +1662,36 @@ def base_model_digest(model):
     return hashlib.sha256(data).hexdigest()
 
 
+def inherited_omissions(entries, nodes, baseline_edges, removed):
+    """Resolve reviewed, undirected requests to the typed triples used by the baseline."""
+    omissions = []
+    for word, entry in sorted(entries.items()):
+        if 'omit_inherited' not in entry:
+            continue
+        targets = entry['omit_inherited']
+        if not isinstance(targets, list) or not targets:
+            raise ValueError(f'Expected inherited relations to omit: {word}')
+        for target in targets:
+            if (not isinstance(target, list) or len(target) != 2 or not all(isinstance(x, str) for x in target)
+                    or target[0] == word or target[0] not in nodes or target[1] not in ('root', 'topic')):
+                raise ValueError(f'Invalid inherited relation to omit: {word}, {target}')
+            other, kind = target
+            edge = (word, other, kind)
+            if edge not in baseline_edges:
+                edge = (other, word, kind)
+            if edge not in baseline_edges or edge in removed or edge in omissions:
+                raise ValueError(f'No active inherited relation to omit: {word}, {other}, {kind}')
+            omissions.append(edge)
+    return omissions
+
+
 def write_supplemented_output(model, refs, definitions, edges, meta, blocked):
     """Add sourced senses to a reviewed layer without feeding them back into the morphology rules."""
     summary = meta['summary']
     nodes = {n['w']: n for n in model['nodes']}
     removed = {tuple(e) for e in blocked}
-    pairs = {tuple(sorted(e[:2])) for e in model['edges'] if tuple(e) not in removed}
+    baseline_edges = {tuple(e) for e in model['edges']}
+    pairs = collections.Counter(tuple(sorted(e[:2])) for e in baseline_edges if e not in removed)
     pairs.update(tuple(sorted(e[:2])) for e in edges)
     inferred_components = {
         (word, target) for word, target, kind, note, evidence in edges
@@ -1702,14 +1726,21 @@ def write_supplemented_output(model, refs, definitions, edges, meta, blocked):
             if digest != applied[path.name]:
                 raise ValueError(f'{path.name} changed. Rebuild from the original reviewed layer.')
             continue
-        for word, entry in sorted(json.loads(raw).items()):
+        entries = json.loads(raw)
+        # Apply the entire batch's corrections before its new links. Either end can
+        # supply a replacement sense, including a word sorted before the reviewer.
+        for edge in inherited_omissions(entries, nodes, baseline_edges, removed):
+            blocked.append(list(edge))
+            removed.add(edge)
+            pairs[tuple(sorted(edge[:2]))] -= 1
+        for word, entry in sorted(entries.items()):
             az, en, pos = entry['az'], entry['en'], entry['pos']
             node, old = nodes.get(word), definitions.get(word)
             if (not node or not node.get('page') or node['az'].strip() or node['en'].strip()
                     or old and (old[4] != 'rule' or not FORMATION_ONLY.search(old[0]))):
                 raise ValueError(f'Supplement would overwrite an established sense or miss the headword: {word}')
             if (not az.endswith('.') or not en.strip() or pos not in POS or len(az) > 260 or len(en) > 200
-                    or not entry.get('references') or set(entry) - {'az', 'en', 'pos', 'references', 'links', 'omit_components'}):
+                    or not entry.get('references') or set(entry) - {'az', 'en', 'pos', 'references', 'links', 'omit_components', 'omit_inherited'}):
                 raise ValueError(f'Incomplete or unsupported supplement entry: {word}')
             if 'omit_components' in entry:
                 targets = entry['omit_components']
@@ -1719,7 +1750,7 @@ def write_supplemented_output(model, refs, definitions, edges, meta, blocked):
                     if (word, target) not in inferred_components or (word, target) in discarded_components:
                         raise ValueError(f'No inferred component to omit: {word}, {target}')
                     discarded_components.add((word, target))
-                    pairs.remove(tuple(sorted((word, target))))
+                    pairs[tuple(sorted((word, target)))] -= 1
             sources = list(dict.fromkeys(ref_id(r) for r in entry['references']))
             ids = old[3] if old else [ref_id(spelling_source(node['page']))]
             row = [az, en, pos, list(dict.fromkeys(sources + ids)), 'meaning']
@@ -1732,11 +1763,11 @@ def write_supplemented_output(model, refs, definitions, edges, meta, blocked):
                     if kind not in ('syn', 'topic') or target not in nodes or target == word:
                         raise ValueError(f'Invalid supplement edge: {word}, {target}, {kind}')
                     pair = tuple(sorted((word, target)))
-                    if pair in forbidden or pair in pairs:
+                    if pair in forbidden or pairs[pair] or (word, target, kind) in removed or (target, word, kind) in removed:
                         continue
                     note = 'Tərif · sinonim' if kind == 'syn' else 'Tərif · əlaqəli anlayış'
                     edges.append([word, target, kind, note, [[word, az, en, sources]]])
-                    pairs.add(pair)
+                    pairs[pair] += 1
         applied[path.name] = digest
     if applied:
         meta['supplements'] = applied
@@ -1747,9 +1778,10 @@ def write_supplemented_output(model, refs, definitions, edges, meta, blocked):
         edges = [e for e in edges if not (e[2] == 'topic' and e[3] == 'Mürəkkəb söz · tərkib hissəsi'
                                          and tuple(e[:2]) in discarded_components)]
         summary['stats']['links:compound'] -= len(discarded_components)
-    # The baseline edge list also includes generated root families. Recount after
-    # suppressing just those root links whose evidence uses the wrong homonym.
-    summary['stats']['blocked:homonym-root'] = len(removed)
+    summary['stats']['blocked:homonym-root'] = sum(kind == 'root' for _, _, kind in removed)
+    blocked_topics = sum(kind == 'topic' for _, _, kind in removed)
+    if blocked_topics:
+        summary['stats']['blocked:wrong-sense-topic'] = blocked_topics
     connected = {w for e in model['edges'] if tuple(e) not in removed for w in e[:2]}
     connected.update(w for e in edges for w in e[:2])
     summary['isolated_after'] = sum(n['w'] not in connected for n in model['nodes'])

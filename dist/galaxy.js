@@ -41,7 +41,17 @@ function createAtlas(data,model){
 }
 function transform(camera,width,height){
  const c=Math.cos(camera.angle||0),s=Math.sin(camera.angle||0),ct=Math.cos(camera.tilt||0),st=Math.sin(camera.tilt||0),zoom=camera.zoom;
- return p=>{const x=p.x-camera.x,y=p.y-camera.y,z=p.z||0,perspective=1800/(1800+z*zoom*.5);return {x:width/2+(x*c-y*s)*zoom*perspective,y:height/2+((x*s+y*c)*ct+z*st)*zoom*perspective,depth:perspective};};
+ // The live atlas updates its existing screen positions during camera travel.
+ function into(p,screen){
+  const x=p.x-camera.x,y=p.y-camera.y,z=p.z||0,perspective=1800/(1800+z*zoom*.5);
+  screen.x=width/2+(x*c-y*s)*zoom*perspective;
+  screen.y=height/2+((x*s+y*c)*ct+z*st)*zoom*perspective;
+  screen.depth=perspective;
+  return screen;
+ }
+ const project=p=>into(p,{});
+ project.into=into;
+ return project;
 }
 function unproject(point,camera,width,height,z=0){
  const c=Math.cos(camera.angle||0),s=Math.sin(camera.angle||0),ct=Math.cos(camera.tilt||0),st=Math.sin(camera.tilt||0),perspective=1800/(1800+z*camera.zoom*.5),x=(point.x-width/2)/camera.zoom/perspective,y=((point.y-height/2)/camera.zoom/perspective-z*st)/ct;
@@ -77,7 +87,11 @@ function glyphs(atlas,camera,width,height,screens=null,measure=null){
  for(const v of items){v.cx=Math.floor(v.screen.x/cell);v.cy=Math.floor(v.screen.y/cell);const k=key(v.cx,v.cy);if(!grid.has(k))grid.set(k,[]);grid.get(k).push(v);}
  for(const v of items){let nearest=Infinity;for(let dx=-1;dx<=1;dx++)for(let dy=-1;dy<=1;dy++)for(const q of grid.get(key(v.cx+dx,v.cy+dy))||[]){if(q===v)continue;nearest=Math.min(nearest,Math.hypot(v.screen.x-q.screen.x,v.screen.y-q.screen.y));}
   v.r=Math.min(v.r,nearest*.44);v.body=smooth(clamp((v.r-3)/12,0,1));v.labelOpacity=smooth(clamp((v.r-12)/10,0,1));
-  const label=fitLabel(v.point.word,v.r,clamp(v.r*.43,8.5,14),measure);v.fontSize=label.fontSize;v.lines=v.labelOpacity>0?label.lines:[];delete v.cx;delete v.cy;
+  if(v.labelOpacity>0){
+   const label=fitLabel(v.point.word,v.r,clamp(v.r*.43,8.5,14),measure);
+   v.fontSize=label.fontSize;v.lines=label.lines;
+  }else{v.fontSize=8.5;v.lines=[];}
+  delete v.cx;delete v.cy;
  }
  return items;
 }

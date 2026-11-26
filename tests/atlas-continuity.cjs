@@ -12,5 +12,24 @@ for(const [width,height]of [[390,844],[1440,900]])for(const word of ['ailÉ™','gÃ
   previous=g;
  }
 }
+// Camera travel reuses the same screen objects for word glyphs and connection
+// endpoints. The on-demand projector must still return independent positions.
+const sample=atlas.points.slice(0,8),screens=sample.map(()=>({}));
+for(const [width,height] of [[390,844],[1440,900]]){
+ for(const zoom of [.09,.2,.8]){
+  const project=G.transform({...G.focus(sample[0],zoom),angle:.12,tilt:.3},width,height);
+  const independent=sample.map(project);
+  sample.forEach((point,i)=>{
+   assert.equal(project.into(point,screens[i]),screens[i]);
+   assert.deepEqual(screens[i],independent[i]);
+  });
+ }
+ const camera=G.focus(sample[0],.2);
+ let measurements=0;
+ const glyphs=G.glyphs({points:sample},camera,width,height,null,(word,size)=>{measurements++;return word.length*size;});
+ assert(glyphs.some(v=>v.r>3),'circles are large enough for the proximity pass');
+ assert(glyphs.every(v=>v.labelOpacity===0&&v.lines.length===0));
+ assert.equal(measurements,0,'invisible labels skip text measurements throughout travel');
+}
 assert.equal(JSON.stringify(data.points),frozen);
 console.log('PASS: the same words grow from dots through the old threshold into labeled circles; all centers match their permanent projected points, opacity increases continuously, circles do not overlap and source coordinates are untouched.');

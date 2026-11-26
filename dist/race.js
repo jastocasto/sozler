@@ -20,7 +20,11 @@ function daily(bank,now=new Date()){
  const day=dayKey(now),index=Math.floor(Date.parse(day+'T00:00:00Z')/86400000);
  // The original and atlas challenges keep independent score identities.
  const atlasDay=bank.dailyMap?.length&&mod(index,2)===1;
- const c=atlasDay?bank.dailyMap[mod(Math.floor(index/2)*bank.rotationStep,bank.dailyMap.length)]:bank.challenges[mod(index,bank.challenges.length)];
+ // Keep historical daily pairs reproducible. From this authored day onward,
+ // advance one authored challenge for every two calendar days.
+ const rotationStart=Date.UTC(2026,10,27)/86400000;
+ const authoredIndex=bank.dailyMap?.length&&index>=rotationStart?rotationStart+Math.floor((index-rotationStart)/2):index;
+ const c=atlasDay?bank.dailyMap[mod(Math.floor(index/2)*bank.rotationStep,bank.dailyMap.length)]:bank.challenges[mod(authoredIndex,bank.challenges.length)];
  const prefix=atlasDay?bank.version+':atlas':bank.version;
  return {...c,mode:'daily',day,id:prefix+':'+day};
 }

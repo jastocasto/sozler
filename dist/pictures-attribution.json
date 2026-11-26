@@ -1,17 +1,17 @@
 {
  "title": "Picture quiz drawings",
  "use": "Shown only on the picture-quiz page (#sekil). The word map has no pictures.",
- "pictures": 715,
+ "pictures": 744,
  "by_source": {
-  "openmoji": 539,
-  "soz": 176
+  "openmoji": 534,
+  "soz": 210
  },
  "by_category": {
-  "things": 352,
-  "places": 43,
+  "things": 374,
+  "places": 45,
   "people": 77,
-  "animals": 104,
-  "food": 88,
+  "animals": 105,
+  "food": 92,
   "actions": 51
  },
  "sources": {
@@ -21,13 +21,13 @@
    "license": "CC BY-SA 4.0",
    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
    "changes": "Recoloured to currentColor, stroke style moved to the wrapping element, decimals truncated.",
-   "count": 539
+   "count": 534
   },
   "soz": {
    "name": "Line drawings made for SÖZ (scripts/draw_pictures.py)",
    "license": "CC BY-SA 4.0",
    "method": "AI-assisted original drawings on the OpenMoji 72 x 72 grid, reviewed on contact sheets.",
-   "count": 176
+   "count": 210
   }
  },
  "selection": "Candidates come from scripts/build_picture_candidates.py (WordNet category, Brysbaert et al. 2014 concreteness ratings, emoji matches). Each OpenMoji match was checked by eye; mismatched senses, ambiguous drawings and duplicates were dropped. One word is shown per picture.",
@@ -323,6 +323,11 @@
    "author": "Hilda Kalyoncu"
   },
   {
+   "word": "ağacdələn",
+   "concept": "woodpecker.n.01",
+   "source": "soz"
+  },
+  {
    "word": "ağcaqanad",
    "concept": "mosquito.n.01",
    "source": "openmoji",
@@ -361,6 +366,11 @@
    "openmoji": "1F9D1-200D-1F373",
    "annotation": "cook",
    "author": "Benedikt Groß"
+  },
+  {
+   "word": "aşsüzən",
+   "concept": "colander.n.01",
+   "source": "soz"
   },
   {
    "word": "baba",
@@ -706,6 +716,11 @@
    "author": "Ricarda Krejci"
   },
   {
+   "word": "bucaqölçən",
+   "concept": "protractor.n.01",
+   "source": "soz"
+  },
+  {
    "word": "budaq",
    "concept": "branch.n.02",
    "source": "soz"
@@ -758,6 +773,11 @@
    "source": "soz"
   },
   {
+   "word": "buxurdan",
+   "concept": "censer.n.01",
+   "source": "soz"
+  },
+  {
    "word": "buz",
    "concept": "ice.n.01",
    "source": "openmoji",
@@ -784,10 +804,7 @@
   {
    "word": "buğa",
    "concept": "bull.n.01",
-   "source": "openmoji",
-   "openmoji": "1F402",
-   "annotation": "ox",
-   "author": "Sofie Ascherl"
+   "source": "soz"
   },
   {
    "word": "böcək",
@@ -845,6 +862,11 @@
   {
    "word": "ceyran",
    "concept": "gazelle.n.01",
+   "source": "soz"
+  },
+  {
+   "word": "ciyən",
+   "concept": "word:ciyən",
    "source": "soz"
   },
   {
@@ -911,6 +933,11 @@
   {
    "word": "darvaza",
    "concept": "gate.n.01",
+   "source": "soz"
+  },
+  {
+   "word": "davat",
+   "concept": "inkwell.n.01",
    "source": "soz"
   },
   {
@@ -1192,6 +1219,11 @@
    "author": "Johanna Wellnitz"
   },
   {
+   "word": "dırmıq",
+   "concept": "word:dırmıq",
+   "source": "soz"
+  },
+  {
    "word": "dəbilqə",
    "concept": "helmet.n.01",
    "source": "openmoji",
@@ -1291,11 +1323,8 @@
   },
   {
    "word": "fayl",
-   "concept": "file.n.03",
-   "source": "openmoji",
-   "openmoji": "1F4C1",
-   "annotation": "file folder",
-   "author": "Sina Schulz"
+   "concept": "word:fayl",
+   "source": "soz"
   },
   {
    "word": "fen",
@@ -1382,6 +1411,16 @@
   {
    "word": "fındıq",
    "concept": "hazelnut.n.01",
+   "source": "soz"
+  },
+  {
+   "word": "fındıqqıran",
+   "concept": "nutcracker.n.01",
+   "source": "soz"
+  },
+  {
+   "word": "fırfıra",
+   "concept": "top.n.08",
    "source": "soz"
   },
   {
@@ -1573,6 +1612,11 @@
    "author": "Miriam Vollmeier"
   },
   {
+   "word": "hana",
+   "concept": "word:hana",
+   "source": "soz"
+  },
+  {
    "word": "hantel",
    "concept": "dumbbell.n.01",
    "source": "soz"
@@ -1665,6 +1709,11 @@
    "openmoji": "1F40C",
    "annotation": "snail",
    "author": "Selina Bauder"
+  },
+  {
+   "word": "inciçiçəyi",
+   "concept": "word:inciçiçəyi",
+   "source": "soz"
   },
   {
    "word": "inək",
@@ -1777,6 +1826,11 @@
    "source": "soz"
   },
   {
+   "word": "kamerton",
+   "concept": "word:kamerton",
+   "source": "soz"
+  },
+  {
    "word": "kanoe",
    "concept": "canoe.n.01",
    "source": "openmoji",
@@ -1791,6 +1845,11 @@
    "openmoji": "270F",
    "annotation": "pencil",
    "author": "Rana Cakir"
+  },
+  {
+   "word": "karandaşyonan",
+   "concept": "pencil_sharpener.n.01",
+   "source": "soz"
   },
   {
    "word": "kartof",
@@ -1994,12 +2053,14 @@
    "author": "Jonas Roßner"
   },
   {
+   "word": "konus",
+   "concept": "word:konus",
+   "source": "soz"
+  },
+  {
    "word": "kral",
    "concept": "king.n.01",
-   "source": "openmoji",
-   "openmoji": "1F451",
-   "annotation": "crown",
-   "author": "Jonas Roßner"
+   "source": "soz"
   },
   {
    "word": "kredit kartı",
@@ -2071,6 +2132,11 @@
    "openmoji": "1F476",
    "annotation": "baby",
    "author": "Johanna Wellnitz"
+  },
+  {
+   "word": "körük",
+   "concept": "bellows.n.01",
+   "source": "soz"
   },
   {
    "word": "köynək",
@@ -2166,11 +2232,8 @@
   },
   {
    "word": "kərənay",
-   "concept": "cornet.n.01",
-   "source": "openmoji",
-   "openmoji": "1F3BA",
-   "annotation": "trumpet",
-   "author": "Sina Schulz"
+   "concept": "word:kərənay",
+   "source": "soz"
   },
   {
    "word": "kətil",
@@ -2282,7 +2345,7 @@
   },
   {
    "word": "marka",
-   "concept": "cast.n.03",
+   "concept": "word:marka",
    "source": "soz"
   },
   {
@@ -2394,6 +2457,11 @@
    "author": "Martin Wehl"
   },
   {
+   "word": "molbert",
+   "concept": "word:molbert",
+   "source": "soz"
+  },
+  {
    "word": "morj",
    "concept": "walrus.n.01",
    "source": "soz"
@@ -2474,6 +2542,11 @@
    "openmoji": "1F47C",
    "annotation": "baby angel",
    "author": "Anne Frauendorf"
+  },
+  {
+   "word": "məngənə",
+   "concept": "vise.n.01",
+   "source": "soz"
   },
   {
    "word": "məscid",
@@ -2571,6 +2644,11 @@
    "openmoji": "2B06",
    "annotation": "up arrow",
    "author": "Guemil Project"
+  },
+  {
+   "word": "oxlov",
+   "concept": "word:oxlov",
+   "source": "soz"
   },
   {
    "word": "oxumaq",
@@ -2949,6 +3027,11 @@
    "author": "Liz Bravo"
   },
   {
+   "word": "qargülü",
+   "concept": "word:qargülü",
+   "source": "soz"
+  },
+  {
    "word": "qarmaq",
    "concept": "fishing_rod.n.01",
    "source": "openmoji",
@@ -3087,6 +3170,11 @@
    "openmoji": "1F3CC",
    "annotation": "person golfing",
    "author": "Johanna Wellnitz"
+  },
+  {
+   "word": "qondola",
+   "concept": "word:qondola",
+   "source": "soz"
   },
   {
    "word": "qorilla",
@@ -3382,6 +3470,11 @@
    "author": "Tonia Reinhardt"
   },
   {
+   "word": "sac",
+   "concept": "word:sac",
+   "source": "soz"
+  },
+  {
    "word": "saksofon",
    "concept": "sax.n.02",
    "source": "openmoji",
@@ -3611,6 +3704,16 @@
    "author": "Liz Bravo"
   },
   {
+   "word": "stalaktit",
+   "concept": "stalactite.n.01",
+   "source": "soz"
+  },
+  {
+   "word": "stalaqmit",
+   "concept": "stalagmite.n.01",
+   "source": "soz"
+  },
+  {
    "word": "stol",
    "concept": "table.n.02",
    "source": "soz"
@@ -3671,6 +3774,11 @@
   {
    "word": "suvarmaq",
    "concept": "water.v.03",
+   "source": "soz"
+  },
+  {
+   "word": "suçiləyən",
+   "concept": "watering_can.n.01",
    "source": "soz"
   },
   {
@@ -4616,6 +4724,11 @@
    "source": "soz"
   },
   {
+   "word": "zəncirotu",
+   "concept": "dandelion.n.01",
+   "source": "soz"
+  },
+  {
    "word": "zəng",
    "concept": "bell.n.01",
    "source": "openmoji",
@@ -4850,10 +4963,7 @@
   {
    "word": "çəyirtkə",
    "concept": "grasshopper.n.01",
-   "source": "openmoji",
-   "openmoji": "1F997",
-   "annotation": "cricket",
-   "author": "Selina Bauder"
+   "source": "soz"
   },
   {
    "word": "önlük",
@@ -4935,6 +5045,11 @@
    "author": "Hend Hourani"
   },
   {
+   "word": "üzəngi",
+   "concept": "stirrup.n.01",
+   "source": "soz"
+  },
+  {
    "word": "üçbucaq",
    "concept": "triangle.n.01",
    "source": "openmoji",
@@ -5001,6 +5116,11 @@
    "author": "Tonia Reinhardt"
   },
   {
+   "word": "şaqul",
+   "concept": "plumb_line.n.01",
+   "source": "soz"
+  },
+  {
    "word": "şimşək",
    "concept": "lightning.n.01",
    "source": "openmoji",
@@ -5034,7 +5154,7 @@
   },
   {
    "word": "şlanq",
-   "concept": "hosiery.n.01",
+   "concept": "word:şlanq",
    "source": "soz"
   },
   {
@@ -5073,6 +5193,11 @@
    "openmoji": "1F489",
    "annotation": "syringe",
    "author": "Tonia Reinhardt"
+  },
+  {
+   "word": "ştangenpərgar",
+   "concept": "caliper.n.01",
+   "source": "soz"
   },
   {
    "word": "ştopor",
@@ -5144,6 +5269,11 @@
    "openmoji": "1F9E4",
    "annotation": "gloves",
    "author": "Laura Schießer"
+  },
+  {
+   "word": "əldəyirmanı",
+   "concept": "word:əldəyirmanı",
+   "source": "soz"
   },
   {
    "word": "əlfəcin",

@@ -13,6 +13,49 @@ import build_print_definitions as builder
 
 
 class SupplementCheckpointTest(unittest.TestCase):
+    def test_inherited_omissions_are_typed_and_retryable(self):
+        nodes = [dict(w=w, page=1, az='', en='') for w in ['a', 'b', 'c', 'd', 'e', 'f']]
+        model = {'nodes': nodes, 'edges': [['b', 'a', 'root'], ['b', 'c', 'topic'],
+                                          ['d', 'b', 'topic'], ['b', 'd', 'ant'], ['e', 'f', 'root']]}
+        source = {'title': 'Dictionary', 'url': 'https://example.org/b'}
+        card = dict(az='Bir məna.', en='one sense', pos='noun', references=[source])
+        entries = {'a': dict(card, links={'syn': ['b']}),
+                   'b': dict(card, omit_inherited=[['a', 'root'], ['c', 'topic'], ['d', 'topic']],
+                             links={'topic': ['c'], 'syn': ['d']})}
+        with tempfile.TemporaryDirectory() as tmp, contextlib.redirect_stdout(io.StringIO()):
+            root = Path(tmp)
+            (root / 'meanings').mkdir()
+            (root / 'meanings/supplement-01.json').write_text(json.dumps(entries))
+            output, attribution = root / 'print-definitions.js', root / 'meta.json'
+            model_file = root / 'model.json'
+            model_file.write_text(json.dumps(model))
+            with patch.multiple(builder, OUTPUT=output, ATTRIBUTION=attribution, CONTENT=root), \
+                 patch.object(sys, 'argv', ['build', str(model_file), '--from-reviewed', str(root)]):
+                meta = {'summary': {'undefined_before': len(nodes), 'stats': {}}}
+                builder.write_supplemented_output(model, [], {}, [], meta, [['e', 'f', 'root']])
+                header, footer = builder.LOADER.split('DATA')
+                _, _, links, blocked = json.loads(output.read_text()[len(header):-len(footer)])
+                self.assertEqual(blocked, [['e', 'f', 'root'], ['b', 'a', 'root'],
+                                           ['b', 'c', 'topic'], ['d', 'b', 'topic']])
+                self.assertEqual([e[:3] for e in links], [['a', 'b', 'syn']])
+                self.assertEqual(meta['summary']['stats']['blocked:homonym-root'], 2)
+                self.assertEqual(meta['summary']['stats']['blocked:wrong-sense-topic'], 2)
+                self.assertEqual(meta['summary']['isolated_after'], 3)
+                snapshot = output.read_bytes(), attribution.read_bytes()
+                builder.main()
+                self.assertEqual((output.read_bytes(), attribution.read_bytes()), snapshot)
+
+    def test_omissions_require_an_active_inherited_root_or_topic(self):
+        nodes = set('abc')
+        baseline = {('b', 'a', 'root'), ('b', 'c', 'topic')}
+        removed = {('b', 'c', 'topic')}
+        for targets in ([], 'b', ['b'], [[None, 'root']], [['b', 'ant']], [['b', 'topic']],
+                        [['x', 'root']], [['a', 'root']], [['b', 'root'], ['b', 'root']]):
+            with self.subTest(targets=targets), self.assertRaises(ValueError):
+                builder.inherited_omissions({'a': {'omit_inherited': targets}}, nodes, baseline, removed)
+        with self.assertRaisesRegex(ValueError, 'No active inherited relation'):
+            builder.inherited_omissions({'c': {'omit_inherited': [['b', 'topic']]}}, nodes, baseline, removed)
+
     def test_only_unverified_compound_edges_can_be_removed(self):
         model = {'nodes': [dict(w=w, page=1, az='', en='') for w in ['a', 'b', 'c']],
                  'edges': [], 'blocked': []}

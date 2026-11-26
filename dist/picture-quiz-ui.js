@@ -35,7 +35,7 @@ function mount({model,html,onMap}){
  for(const b of page.querySelectorAll('[data-picture-mode]'))b.onclick=()=>{settings.mode=b.dataset.pictureMode;save();renderIntro();};
  function scoreText(){return `${quiz.index+1} / ${quiz.questions.length} · ${quiz.answers.filter(a=>a.correct).length} doğru`;}
  function start(words=null){
-  quiz=engine.round({mode:settings.mode,category:words?'all':settings.category,words});quiz.review=!!words;
+  quiz=engine.round({mode:settings.mode,category:settings.category,words});quiz.review=!!words;
   show('picturePlay');question();
  }
  function question(){

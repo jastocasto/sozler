@@ -431,12 +431,6 @@
   "openmoji": "1F3DB",
   "word": "bina"
  },
- "bull.n.01": {
-  "annotation": "ox",
-  "author": "Sofie Ascherl",
-  "openmoji": "1F402",
-  "word": "buğa"
- },
  "bus.n.01": {
   "annotation": "bus",
   "author": "Ronja Bäurlen",
@@ -755,12 +749,6 @@
   "openmoji": "1F33D",
   "word": "qarğıdalı"
  },
- "cornet.n.01": {
-  "annotation": "trumpet",
-  "author": "Sina Schulz",
-  "openmoji": "1F3BA",
-  "word": "kərənay"
- },
  "cow.n.01": {
   "annotation": "cow",
   "author": "Sofie Ascherl",
@@ -1061,12 +1049,6 @@
   "openmoji": "26F4",
   "word": "bərə"
  },
- "file.n.03": {
-  "annotation": "file folder",
-  "author": "Sina Schulz",
-  "openmoji": "1F4C1",
-  "word": "fayl"
- },
  "film.n.03": {
   "annotation": "film frames",
   "author": "Sina Schulz",
@@ -1282,12 +1264,6 @@
   "author": "Hend Hourani",
   "openmoji": "1F347",
   "word": "üzüm"
- },
- "grasshopper.n.01": {
-  "annotation": "cricket",
-  "author": "Selina Bauder",
-  "openmoji": "1F997",
-  "word": "çəyirtkə"
  },
  "grave.n.02": {
   "annotation": "headstone",
@@ -1552,12 +1528,6 @@
   "author": "Liz Bravo",
   "openmoji": "1F458",
   "word": "kimono"
- },
- "king.n.01": {
-  "annotation": "crown",
-  "author": "Jonas Roßner",
-  "openmoji": "1F451",
-  "word": "kral"
  },
  "kiss.n.02": {
   "annotation": "kiss mark",
