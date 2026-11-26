@@ -1,6 +1,6 @@
 {
-  "version": "1148c9e5e16f5971",
+  "version": "38e3a7ed1d3d1a32",
   "files": 1084,
-  "bytes": 154287585,
+  "bytes": 154310160,
   "policy": "Offline availability requires a completed download on this device. Browser storage eviction can remove the package."
 }

@@ -18,5 +18,5 @@ for(const [word,meaning]of [['ölüm','death'],['sənə','year'],['gəlir','inco
 const excluded=new Set([...window.WORD_WEB_NOMINAL.excluded,...window.WORD_WEB_GRAMMAR.excluded]);for(let i=0;i<25;i++){click('randomButton');assert(!excluded.has($('meaningWord').textContent));assert([...window.document.querySelectorAll('[data-word]')].every(e=>!excluded.has(e.dataset.word)));}
 window.location.hash='#w='+encodeURIComponent('otaqlar');window.dispatchEvent(new window.Event('hashchange'));assert.equal($('meaningWord').textContent,'otaq');
 assert.equal($('formsIntro').querySelector('a').getAttribute('href'),'nominal-archive.json');
-assert($('sourceCounts').textContent.includes((17707).toLocaleString('az')));assert($('sourceCounts').textContent.includes((2512).toLocaleString('az')));
+assert($('sourceCounts').textContent.includes(require('../dist/word-count.json').single_words.toLocaleString('az')));assert($('sourceCounts').textContent.includes(require('../dist/word-count.json').multiword_entries.toLocaleString('az')));
 console.log('PASS: Forms tab, bilingual cases, alternate analyses, search/base routing, pagination, saved forms and alias, keyboard shortcut, lexical homonyms, random/graph exclusion, old links, archive download and count breakdown.');

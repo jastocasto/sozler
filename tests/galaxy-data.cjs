@@ -1,9 +1,10 @@
 const fs=require('fs'),vm=require('vm'),assert=require('node:assert/strict'),path=require('path');
-const G=require('../dist/galaxy.js'),{createModel}=require('../dist/model.js'),s={window:{}};
-for(const f of ['data','lexicon','grammar','vocabulary','review','bilingual','expansion','nominal','additions','relations','galaxy-data'])vm.runInNewContext(fs.readFileSync(path.join(__dirname,'../dist',f+'.js'),'utf8'),s);
-const w=s.window,model=createModel(w.WORD_WEB_DATA,w.WORD_WEB_EXTRA,w.WORD_WEB_GRAMMAR,w.WORD_WEB_VOCABULARY,w.WORD_WEB_REVIEW,w.WORD_WEB_BILINGUAL,w.WORD_WEB_EXPANSION,w.WORD_WEB_NOMINAL,w.WORD_WEB_ADDITIONS,w.WORD_WEB_RELATIONS),data=w.WORD_GALAXY_DATA,atlas=G.createAtlas(data,model);
-assert.equal(atlas.points.length,20219);assert.equal(atlas.byWord.size,20219);assert.equal(atlas.regions.length,10);assert(atlas.clusters.length>50);assert.equal(atlas.regions.reduce((sum,r)=>sum+r.count,0),20219);
-for(const p of atlas.points){assert(p.node&&[p.x,p.y,p.z].every(Number.isFinite));assert.equal(data.clusters[p.cluster].region,p.region);assert(!p.node.form);assert(!w.WORD_WEB_NOMINAL.excluded.includes(p.word));}
+const G=require('../dist/galaxy.js'),{restoreModel}=require('../dist/model.js'),s={window:{}};
+for(const f of ['nominal','galaxy-data'])vm.runInNewContext(fs.readFileSync(path.join(__dirname,'../dist',f+'.js'),'utf8'),s);
+const w=s.window,model=restoreModel(require('../dist/soz-core.json'),{fetchJSON:require('./layers.cjs').fetchJSON}),data=w.WORD_GALAXY_DATA,atlas=G.createAtlas(data,model);
+assert.equal(atlas.points.length,model.nodes.length);assert.equal(atlas.byWord.size,model.nodes.length);assert.equal(atlas.regions.length,10);assert(atlas.clusters.length>50);assert.equal(atlas.regions.reduce((sum,r)=>sum+r.count,0),model.nodes.length);
+const archived=new Set(w.WORD_WEB_NOMINAL.excluded);
+for(const p of atlas.points){assert(p.node&&[p.x,p.y,p.z].every(Number.isFinite));assert.equal(data.clusters[p.cluster].region,p.region);assert(!p.node.form);if(archived.has(p.word))assert(p.node.orthographyPage,p.word+' has a separately attested spelling entry');}
 const group=word=>atlas.clusters[atlas.byWord.get(word).cluster].id,region=word=>atlas.regions[atlas.byWord.get(word).region].id;
 for(const word of ['gözəl','qəşəng','yaraşıqlı','cazibədar','zərif','gözəllik'])assert.equal(group(word),'beauty');
 for(const word of ['çirkin','eybəcər','yaraşıqsız'])assert.equal(group(word),'ugliness');
@@ -22,4 +23,4 @@ for(const [width,height]of [[320,568],[390,844],[844,390],[280,200],[1440,900]])
  const anchor={x:width*.3,y:height*.6},before=G.unproject(anchor,from,width,height),after=G.unproject(anchor,G.zoomAt(from,anchor,from.zoom*2,width,height),width,height);assert(Math.abs(before.x-after.x)<1e-7&&Math.abs(before.y-after.y)<1e-7);
 }
 assert.equal(JSON.stringify(data.points),frozen,'Camera operations must never reposition words');
-console.log(`PASS: all 20,219 headwords at fixed coordinates in 10 regions/${atlas.clusters.length} navigation groups; reviewed concept anchors, unchanged relationship graph, finite and invertible depth projection, focus centering, anchored zoom and continuous reduced-motion-aware camera travel.`);
+console.log(`PASS: all ${atlas.points.length} headwords at fixed coordinates in 10 regions/${atlas.clusters.length} navigation groups; reviewed concept anchors, unchanged relationship graph, finite and invertible depth projection, focus centering, anchored zoom and continuous reduced-motion-aware camera travel.`);

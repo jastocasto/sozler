@@ -134,7 +134,7 @@ assert(!h.$('atlasLabels').querySelector('[data-region="orthography"]'));
 const regionLabel = h.$('atlasLabels').querySelector('[data-region]');
 assert(regionLabel);
 const visibleRegion = atlas.regions.find(region=>region.id===regionLabel.dataset.region);
-assert.equal(h.counts.arcs.length,atlas.points.length,'The overview draws the spelling entries as individual dots');
+assert.equal(h.counts.arcs,atlas.points.length,'The overview draws the spelling entries as individual dots');
 assert(inspect().atlasLines.some(line=>spellingWords.has(line.a)!==spellingWords.has(line.b)));
 regionLabel.click();
 assert.equal(inspect().view,'region');

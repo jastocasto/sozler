@@ -208,7 +208,12 @@ function mount({model,onSelect,onLocation,onView}){
  }
  function home(){if(navigationLocked)return;cancelGestures();fly(G.overview(atlas,width,height),'universe');onLocation?.({region:null,cluster:null,word:null});}
  function focusSelected(){if(navigationLocked)return;if(!selected)return;if(view!=='word'){select(selected.node);return;}detailPan={x:0,y:0};scaleDetail(1);}
- function setFilters(next){filters=new Set(next);related.clear();connectionPage=0;if(selected)for(const r of C.relationships(model.related(selected.node,filters)))related.set(r.node.w,r);needsRefresh=dirty=true;wake();}
+ function setFilters(next){
+  filters=new Set(next);related.clear();connectionPage=0;
+  if(selected)for(const r of C.relationships(model.related(selected.node,filters)))related.set(r.node.w,r);
+  // Apply explicit filter changes on the next frame, even if reduced motion leaves no frame after it.
+  lastRefresh=-Infinity;needsRefresh=dirty=true;wake();
+ }
  function manual(){if(view==='word')return;flight=null;view='explore';onView?.('explore');sceneReady=false;dirty=needsRefresh=true;wake();}
  function local(e){const r=graph.getBoundingClientRect();return {x:(e.clientX-r.left)*width/(r.width||width),y:(e.clientY-r.top)*height/(r.height||height)};}
  function cancelGestures(){clearPinchPreview();const ids=[...pointers.keys()];if(drag?.particle)drag.particle.targetScale=1;pointers.clear();drag=pinch=null;gesture=false;for(const id of ids)if(graph.hasPointerCapture?.(id))graph.releasePointerCapture(id);}
@@ -261,7 +266,7 @@ function mount({model,onSelect,onLocation,onView}){
  graph.addEventListener('wheel',e=>{e.preventDefault();if(navigationLocked)return;if(view==='word'){scaleDetail(detailScale*Math.exp(-e.deltaY*.0018),local(e));return;}const zoom=G.clamp(camera.zoom*Math.exp(-e.deltaY*.0018),G.overview(atlas,width,height).zoom*.7,2.4);camera=G.zoomAt(camera,local(e),zoom,width,height);manual();},{passive:false});
  graph.addEventListener('keydown',e=>{if(e.target!==graph)return;if(navigationLocked){if(['+','=','-','Home','ArrowLeft','ArrowRight','ArrowUp','ArrowDown'].includes(e.key))e.preventDefault();return;}if(['+','=','-','Home','ArrowLeft','ArrowRight','ArrowUp','ArrowDown'].includes(e.key)){e.preventDefault();if(e.key==='Home')home();else if(['+','=','-'].includes(e.key))zoom(e.key==='-'?1/1.8:1.8);else if(view==='word'){panDetail(detailPan.x+({'ArrowLeft':90,'ArrowRight':-90}[e.key]||0),detailPan.y+({'ArrowUp':90,'ArrowDown':-90}[e.key]||0));}else{camera.x+=({'ArrowLeft':-1,'ArrowRight':1}[e.key]||0)*90/camera.zoom;camera.y+=({'ArrowUp':-1,'ArrowDown':1}[e.key]||0)*90/camera.zoom;manual();}}});
  function zoom(mult){if(navigationLocked)return;if(view==='word'){scaleDetail(detailScale*mult);return;}fly({...camera,zoom:G.clamp(camera.zoom*mult,G.overview(atlas,width,height).zoom*.7,2.4)},'explore');}
- function suspend(value){const now=root.performance?.now?.()??clock;if(value&&pauseTime===null)pauseTime=now;if(!value&&pauseTime!==null){motionStarted+=now-pauseTime;if(selectionTravel)selectionTravel.start+=now-pauseTime;for(const p of particles)if(p.waiting&&Number.isFinite(p.releaseAt))p.releaseAt+=now-pauseTime;pauseTime=null;}paused=value;if(value){cancelGestures();cancelAnimationFrame(raf);raf=0;last=0;savedCamera=flight?{...flight.to}:null;flight=null;}else{if(savedCamera){camera=savedCamera;savedCamera=null;}sceneReady=false;dirty=true;wake();}}
+ function suspend(value){const now=root.performance?.now?.()??clock;if(value&&pauseTime===null)pauseTime=now;if(!value&&pauseTime!==null){motionStarted+=now-pauseTime;if(selectionTravel)selectionTravel.start+=now-pauseTime;for(const p of particles)if(p.waiting&&Number.isFinite(p.releaseAt))p.releaseAt+=now-pauseTime;pauseTime=null;}paused=value;if(value){cancelGestures();cancelAnimationFrame(raf);raf=0;last=0;savedCamera=flight?{...flight.to}:null;flight=null;}else{if(savedCamera){camera=savedCamera;savedCamera=null;}sceneReady=false;dirty=true;if(reduced){lastRefresh=-Infinity;needsRefresh=true;}wake();}}
  function setPageHidden(value){pageHidden=value;suspend(value||document.hidden);}
  document.addEventListener('visibilitychange',()=>suspend(document.hidden||pageHidden));
  media.addEventListener?.('change',e=>{reduced=e.matches;if(reduced){if(selectionTravel)advanceSelection(selectionTravel.start+selectionTravel.duration);if(flight){camera={...flight.to};flight=null;}for(const p of bodies){p.scale=1;p.scaleV=0;p.r=p.homeR;}settled=true;sceneReady=false;dirty=needsRefresh=true;}wake();});

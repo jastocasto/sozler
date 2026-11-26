@@ -6,15 +6,13 @@
 #   scripts/autopilot.sh next-batch   print the next free authored batch number (NN)
 #   scripts/autopilot.sh meaning-queue [N]  print the next N words whose definition only says how they are built
 #   scripts/autopilot.sh rebuild      rebuild every generated file from the batches and run the quick tests
-#   scripts/autopilot.sh release      full test suite; if only the known failures remain, publish HEAD to
+#   scripts/autopilot.sh release      full test suite; if it passes, publish HEAD to
 #                                     soz-toxumasi (fast-forward only) and check the live site
 #
 # Every step exits non-zero on failure. Commit and push the branch before `release`.
 set -euo pipefail
 cd "$(dirname "$0")/.."
 P=.cache/print
-# Tests that already failed before the November 2026 work, at the same assertion (HANDOFF.md "Known test status").
-KNOWN_FAILURES="additions-data atlas-zoom-interactions bilingual-interactions complete-web-interactions continuous-gathering galaxy-data galaxy-interactions gathering-interactions grammar-interactions interactions nominal-data nominal-interactions pinch-zoom reference-completion relation-audit-data relation-audit-interactions responsive-interactions selection-magnet verification-data word-info-and-physics"
 
 case "${1:-}" in
 setup)
@@ -51,9 +49,7 @@ rebuild)
   python3 scripts/audit_definition_coverage.py --update-report
   python3 scripts/version_assets.py
   python3 scripts/build_offline.py > /dev/null
-  out=$(scripts/run_tests.sh tests/print-definitions-data.cjs tests/orthography-participation.cjs tests/morphology.cjs tests/noun-tables.cjs tests/frequency-and-origins.cjs tests/offline.cjs tests/whole-word-labels.cjs)
-  echo "$out"
-  if echo "$out" | grep -q '^FAIL'; then echo "REBUILD FAILED"; exit 1; fi
+  scripts/run_tests.sh tests/print-definitions-data.cjs tests/orthography-participation.cjs tests/morphology.cjs tests/noun-tables.cjs tests/frequency-and-origins.cjs tests/offline.cjs tests/whole-word-labels.cjs || { echo "REBUILD FAILED"; exit 1; }
   echo "REBUILD OK"
   ;;
 release)
@@ -61,12 +57,7 @@ release)
   branch=$(git rev-parse --abbrev-ref HEAD); git fetch -q origin "$branch" soz-toxumasi
   [ "$(git rev-parse HEAD)" = "$(git rev-parse origin/$branch)" ] || { echo "HEAD is not pushed"; exit 1; }
   git merge-base --is-ancestor origin/soz-toxumasi HEAD || { echo "soz-toxumasi is not an ancestor of HEAD; not publishing"; exit 1; }
-  rm -rf .cache/test-logs
-  results=$(scripts/run_tests.sh)
-  failing=$(echo "$results" | awk '/^FAIL/{sub(/\.cjs$/,"",$2);print $2}' | sort)
-  new=$(comm -23 <(echo "$failing") <(echo $KNOWN_FAILURES | tr ' ' '\n' | sort) | grep -v '^$' || true)
-  if [ -n "$new" ]; then echo "NEW TEST FAILURES, not publishing:"; echo "$new"; exit 1; fi
-  echo "Tests: $(echo "$results" | grep -c '^PASS') pass; only known failures remain"
+  scripts/run_tests.sh || { echo "TEST FAILURES, not publishing"; exit 1; }
   sha=$(git rev-parse --short HEAD)
   git push origin HEAD:refs/heads/soz-toxumasi
   want=$(grep -o 'soz-core.json?v=[0-9a-f]*' dist/index.html)

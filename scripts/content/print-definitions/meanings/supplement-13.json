@@ -1,0 +1,273 @@
+{
+ "batabat": {
+  "az": "Naxçıvanın dağlıq hissəsində gölləri və yaylaqları ilə tanınan ərazi.",
+  "en": "Batabat, a mountainous area of Nakhchivan known for its lakes and summer pastures",
+  "links": {
+   "topic": [
+    "göl",
+    "yaylaq"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan Milli Kitabxanası · Naxçıvan Muxtar Respublikasının coğrafiyası",
+    "url": "https://anl.az/el/emb/Naxchivan-100/cografiya.htm"
+   }
+  ]
+ },
+ "buntürk": {
+  "az": "Orta əsr gürcü salnamələrində adı çəkilən tarixi topluluq.",
+  "en": "the Bun-Turks, a historical people named in medieval Georgian chronicles",
+  "links": {
+   "topic": [
+    "salnamə",
+    "tayfa"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Bakı Universitetinin Xəbərləri · Buntürklər haqqında",
+    "url": "https://www.lib.az/users/1/upload/files/39.pdf"
+   }
+  ]
+ },
+ "delfi": {
+  "az": "Apollon məbədi və kahinlərinin öncəgörmələri ilə tanınan qədim yunan dini mərkəzi.",
+  "en": "Delphi, an ancient Greek sanctuary known for the temple and oracle of Apollo",
+  "links": {
+   "topic": [
+    "məbəd",
+    "kahin"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "UNESCO · Archaeological Site of Delphi",
+    "url": "https://whc.unesco.org/en/list/393"
+   }
+  ]
+ },
+ "emalat": {
+  "az": "Xammalın işlənməsi və ondan məmulat hazırlanması.",
+  "en": "the processing of raw material or the manufacture of goods",
+  "links": {
+   "topic": [
+    "istehsal",
+    "məmulat"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "F. Əboszodə · Azərbaycanca-talışca lüğət · Emalat",
+    "url": "https://azkurs.org/pars_docs/refs/19/18860/18860.pdf"
+   }
+  ]
+ },
+ "kolanı": {
+  "az": "Qarabağ və Azərbaycanın başqa bölgələrinin tarixi mənbələrində adı çəkilən türk tayfası.",
+  "en": "the Kolanı, a historical Turkic tribe recorded in Karabakh and elsewhere in Azerbaijan",
+  "links": {
+   "topic": [
+    "tayfa",
+    "genotoponim"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan Milli Kitabxanası · Kolanı qədim türk tayfası",
+    "url": "https://www.elibrary.az/docs/qazet/qzt2019_1415.htm"
+   }
+  ]
+ },
+ "konsentr": {
+  "az": "Tədrisdə mövzuların əvvəl öyrədilən materiala qayıdaraq daha geniş şəkildə öyrənildiyi mərhələ.",
+  "en": "a stage of a curriculum that revisits earlier topics in greater depth",
+  "links": {
+   "topic": [
+    "tədris",
+    "pedaqogika"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "F. İbrahimov və R. Hüseynzadə · Pedaqogika · Tədris proqramları",
+    "url": "https://adpuagcabedi.edu.az/wp-content/uploads/2025/04/1.-F.Ibrahimov.PEDAQOGIKA.pdf"
+   }
+  ]
+ },
+ "kuti": {
+  "az": "Zaqros dağları ilə əlaqələndirilən və Mesopotamiya mənbələrində adı çəkilən qədim xalq.",
+  "en": "a Gutian, a member of an ancient people associated with the Zagros Mountains and recorded in Mesopotamian sources",
+  "links": {
+   "topic": [
+    "tayfa",
+    "lullubi"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan tarixi · Mühazirələr toplusu · İlk tayfa ittifaqları",
+    "url": "https://www.pa.edu.az/library/7/45/332_azerbaycan_tariximuhazireler_toplusueyani.pdf"
+   }
+  ]
+ },
+ "mannalı": {
+  "az": "Urmiya gölü ətrafındakı qədim Manna dövlətinin sakini.",
+  "en": "a Mannean, an inhabitant of the ancient kingdom of Manna near Lake Urmia",
+  "links": {
+   "topic": [
+    "dövlət",
+    "tarix"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan tarixi · 10-cu sinif dərsliyi · Manna",
+    "url": "https://trims.edu.az/noduploads/book/quot-azarbaycan-tarixi-quot-fanni-uzra-10-cu-sinif-ucun-darslik.pdf"
+   }
+  ]
+ },
+ "nerit": {
+  "az": "Sahilyanı dənizin materik şelfi üzərində uzanan dayaz sahəsinə aid.",
+  "en": "neritic, relating to shallow coastal waters over the continental shelf",
+  "links": {
+   "topic": [
+    "şelf",
+    "dəniz"
+   ]
+  },
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Coğrafiya terminləri lüğəti · Nerit zona",
+    "url": "https://azleks.az/en/dictionary/nerit-zona"
+   }
+  ]
+ },
+ "pad": {
+  "az": "Şərqi Sibir və Uzaq Şərq coğrafiyasında dərin, çox vaxt meşəli dağ dərəsi.",
+  "en": "a deep, often wooded mountain valley in the geography of eastern Siberia and the Russian Far East",
+  "links": {
+   "topic": [
+    "dərə",
+    "meşə"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Coğrafiya terminləri · Pad",
+    "url": "https://obastan.com/kateqoriya/az/yar%C4%9Fan"
+   }
+  ]
+ },
+ "palmira": {
+  "az": "Suriyada səhranın ortasındakı vahədə yerləşmiş qədim şəhər və karvan ticarəti mərkəzi.",
+  "en": "Palmyra, an ancient oasis city and caravan trading centre in Syria",
+  "links": {
+   "topic": [
+    "vahə",
+    "karvan"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "UNESCO · Site of Palmyra",
+    "url": "https://whc.unesco.org/en/list/23"
+   }
+  ]
+ },
+ "quzanlı": {
+  "az": "Azərbaycanın Ağdam rayonunda qəsəbə.",
+  "en": "Quzanlı, a settlement in the Aghdam district of Azerbaijan",
+  "links": {
+   "topic": [
+    "qəsəbə",
+    "oykonim"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan Respublikası Milli Məclisi · Ağdam rayonunun inzibati ərazi bölgüsü",
+    "url": "https://meclis.gov.az/news-qanun.php?id=756&lang=az"
+   }
+  ]
+ },
+ "req": {
+  "az": "Səthini daş və çınqıl örtən hamar səhra sahəsi, xüsusən Əlcəzair Saxarasında.",
+  "en": "a reg, a flat stony or gravel-covered desert plain, especially in the Algerian Sahara",
+  "links": {
+   "topic": [
+    "səhra",
+    "çınqıl"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Coğrafiya terminləri · Req",
+    "url": "https://obastan.com/soz/az/req"
+   }
+  ]
+ },
+ "salahlı": {
+  "az": "Qazax tayfa birliyinə daxil olmuş, adı bir sıra yaşayış məntəqələrində qalan tayfa.",
+  "en": "a historical tribe of the Qazax confederation whose name survives in several settlement names",
+  "links": {
+   "topic": [
+    "genotoponim"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Mahir Hüseynov · Dilin elmi və estetik problemləri · Salahlı",
+    "url": "https://anl.az/el/Kitab/2019/10/2019-452.pdf"
+   }
+  ]
+ },
+ "çaruk": {
+  "az": "Mahmud Kaşğarinin XI əsrdə qələmə aldığı lüğətdə göstərilən türk boylarından biri.",
+  "en": "the Charuk, a Turkic tribe recorded in the eleventh-century dictionary of Mahmud al-Kashgari",
+  "links": {
+   "topic": [
+    "etnonim",
+    "çigil"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Buludxan Xəlilov · Mahmud Kaşğarinin Divani lüğət-it-türk əsərində etnonimlər",
+    "url": "https://azlib.org/media/books/Mahmud_Kashgarinin_Divani_luget-it-turk_eserinde_etnonimler.pdf"
+   }
+  ]
+ },
+ "çomul": {
+  "az": "Mahmud Kaşğarinin XI əsrdə qələmə aldığı lüğətdə göstərilən türk boylarından biri.",
+  "en": "the Chomul, a Turkic tribe recorded in the eleventh-century dictionary of Mahmud al-Kashgari",
+  "links": {
+   "topic": [
+    "etnonim",
+    "çigil"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Buludxan Xəlilov · Mahmud Kaşğarinin Divani lüğət-it-türk əsərində etnonimlər",
+    "url": "https://azlib.org/media/books/Mahmud_Kashgarinin_Divani_luget-it-turk_eserinde_etnonimler.pdf"
+   }
+  ]
+ }
+}

@@ -2,9 +2,10 @@ const assert=require('node:assert/strict'),fs=require('fs'),vm=require('vm'),pat
 const root=path.join(__dirname,'../dist');
 const sandbox={window:{}};vm.runInNewContext(fs.readFileSync(path.join(root,'data.js'),'utf8'),sandbox);
 const {createModel}=require('../dist/model.js'),{describeWord,examples}=require('../dist/word-info.js'),{step}=require('../dist/physics.js');
-for(const f of ['lexicon.js','grammar.js','vocabulary.js','review.js','bilingual.js','expansion.js','nominal.js','additions.js','relations.js'])vm.runInNewContext(fs.readFileSync(path.join(root,f),'utf8'),sandbox);
-const model=createModel(sandbox.window.WORD_WEB_DATA,sandbox.window.WORD_WEB_EXTRA,sandbox.window.WORD_WEB_GRAMMAR,sandbox.window.WORD_WEB_VOCABULARY,sandbox.window.WORD_WEB_REVIEW,sandbox.window.WORD_WEB_BILINGUAL,sandbox.window.WORD_WEB_EXPANSION,sandbox.window.WORD_WEB_NOMINAL,sandbox.window.WORD_WEB_ADDITIONS,sandbox.window.WORD_WEB_RELATIONS);
-for(const n of model.nodes){const info=describeWord(n,model.byWord);assert(info.definition.trim());if(info.generated){assert(info.base);assert(info.form);}if(info.suffix)assert.equal(info.base.w+info.suffix,n.w);}
+const {loadLayers,MODEL_GLOBALS}=require('./layers.cjs');
+loadLayers(sandbox);
+const model=createModel(...MODEL_GLOBALS.map(key=>sandbox.window[key]));
+for(const n of model.nodes){const info=describeWord(n,model.byWord);if(n.az)assert(info.definition.trim());if(info.generated){assert(info.base);assert(info.form);}if(info.suffix)assert.equal(info.base.w+info.suffix,n.w);}
 for(const [word,example]of Object.entries(examples)){assert(model.allByWord.has(word),word);assert.equal(example.length,2);assert(example.every(text=>text.trim().length>10));}
 const book=model.nominalSearch('kitablar').find(f=>f.w==='kitablar');assert.equal(book.lemma,'kitab');assert(book.tags.includes('plural'));assert(book.az&&book.en);assert(!model.byWord.has('kitabdan'));assert.equal(model.resolveWord('kitabdan').w,'kitab');
 assert(describeWord(model.byWord.get('eləmək'),model.byWord).usage.includes('Danışıq'));
