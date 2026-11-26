@@ -138,6 +138,12 @@ for (const file of supplementFiles) {
     assert.equal(n.pos, entry.pos, word);
     assert.equal(n.definitionMethod, 'meaning', word);
     for (const ref of entry.references) assert(n.definitionSources.some(r => r.url === ref.url), word);
+    if (entry.omit_components) {
+      assert(!n.definitionFormation, word + ' drops its misleading formation');
+      for (const component of entry.omit_components) {
+        if (!entry.links?.topic?.includes(component)) assert(!edge(word, component, 'topic'), word + ' drops ' + component);
+      }
+    }
     for (const [kind, targets] of Object.entries(entry.links || {})) {
       for (const target of targets) {
         assert(edge(word, target, kind), `${word} → ${target} (${kind})`);

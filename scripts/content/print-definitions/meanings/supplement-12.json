@@ -1,0 +1,534 @@
+{
+ "alapələng": {
+  "az": "Üzərində iri xallar, butalar və ya əlvan naxışlar olan parça və geyim haqqında deyilir.",
+  "en": "boldly patterned or variegated, of fabric or clothing",
+  "links": {
+   "topic": [
+    "xallı",
+    "parça"
+   ]
+  },
+  "omit_components": [
+   "pələng"
+  ],
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 1, s. 93",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_1.pdf#page=93"
+   }
+  ]
+ },
+ "cütbuynuz": {
+  "az": "İki buynuzu olan heyvan haqqında deyilir.",
+  "en": "two-horned, of an animal",
+  "links": {
+   "syn": [
+    "qoşabuynuz"
+   ]
+  },
+  "omit_components": [
+   "cüt"
+  ],
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 1, s. 433",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_1.pdf#page=433"
+   }
+  ]
+ },
+ "cütqanadlı": {
+  "az": "Bir cüt qanadı olan.",
+  "en": "having one pair of wings",
+  "links": {
+   "syn": [
+    "qoşaqanadlı"
+   ],
+   "topic": [
+    "qanad"
+   ]
+  },
+  "omit_components": [
+   "cüt"
+  ],
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 1, s. 433",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_1.pdf#page=433"
+   }
+  ]
+ },
+ "dikyarpaq": {
+  "az": "Yarpaqları dik vəziyyətdə bitən bitki haqqında deyilir.",
+  "en": "having upright leaves, of a plant",
+  "links": {
+   "topic": [
+    "bitki"
+   ]
+  },
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 1, s. 622",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_1.pdf#page=622"
+   }
+  ]
+ },
+ "dölvermə": {
+  "az": "Heyvanın bala verməsi, nəsil artırması.",
+  "en": "production of offspring in animals",
+  "links": {
+   "topic": [
+    "dölvericilik",
+    "çoxalma"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 1, s. 680",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_1.pdf#page=680"
+   }
+  ]
+ },
+ "döşgəlmə": {
+  "az": "Süd vəzisinin iltihabına verilən ad.",
+  "en": "mastitis, inflammation of a mammary gland",
+  "links": {
+   "syn": [
+    "mastit"
+   ],
+   "topic": [
+    "süd vəzi"
+   ]
+  },
+  "omit_components": [
+   "gəlmə"
+  ],
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 294",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=294"
+   }
+  ]
+ },
+ "dəlməgözlü": {
+  "az": "Gözləri qabarıq olan.",
+  "en": "having protruding eyes",
+  "links": {
+   "syn": [
+    "dombalangözlü"
+   ],
+   "topic": [
+    "göz"
+   ]
+  },
+  "omit_components": [
+   "dəlmə"
+  ],
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 1, s. 578",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_1.pdf#page=578"
+   }
+  ]
+ },
+ "fitəbasma": {
+  "az": "Məhəlli danışıqda birini lağa qoyma, ona istehza etmə.",
+  "en": "mockery or ridicule, regional",
+  "links": {
+   "syn": [
+    "rişxənd"
+   ],
+   "topic": [
+    "istehza"
+   ]
+  },
+  "omit_components": [
+   "fitə",
+   "basma"
+  ],
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 248",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=248"
+   }
+  ]
+ },
+ "gentuman": {
+  "az": "Enli tuman geymiş və ya tumanı enli olan qadın haqqında deyilir.",
+  "en": "wearing a wide skirt",
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 2, s. 220",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_2.pdf#page=220"
+   }
+  ]
+ },
+ "giltorpaqlı": {
+  "az": "Tərkibində giltorpaq, yəni alüminium oksidi olan, məsələn, sement və ya klinker haqqında deyilir.",
+  "en": "aluminous, containing alumina, especially of cement or clinker",
+  "links": {
+   "topic": [
+    "sement",
+    "alüminium"
+   ]
+  },
+  "omit_components": [
+   "gil",
+   "torpaqlı"
+  ],
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan Standartlaşdırma İnstitutu · AZS ГОСТ 30515:2021 · Sementlər",
+    "url": "https://azstand.gov.az/upload/files/AZS%20%D0%93%D0%9E%D0%A1%D0%A2%20%2030515%20hazir.pdf"
+   }
+  ]
+ },
+ "ibricə": {
+  "az": "İbri dilində, məsələn, həmin dildə danışmaq və ya yazmaq.",
+  "en": "in Hebrew",
+  "links": {
+   "topic": [
+    "dil"
+   ]
+  },
+  "pos": "adverb",
+  "references": [
+   {
+    "title": "Azərbaycan İlahiyyat İnstitutu · Dini terminlər lüğəti · On əmr",
+    "url": "https://ait.edu.az/site/assets/files/2454/dini_terminler-cap-internet_ucun.pdf"
+   }
+  ]
+ },
+ "kerb": {
+  "az": "Qiymətli kağızların rəsmi birjadan kənarda alınıb satıldığı bazar.",
+  "en": "the curb market, where securities are traded outside a formal exchange",
+  "links": {
+   "topic": [
+    "birja",
+    "qiymətli kağız"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "UNEC · Maliyyə bazarları terminlərinin izahlı lüğəti · Kerb market",
+    "url": "https://unec.edu.az/application/uploads/2015/05/maliyye-sozluk.pdf"
+   }
+  ]
+ },
+ "kolabuynuz": {
+  "az": "Buynuzları qısa olan heyvan haqqında deyilir.",
+  "en": "short-horned, of an animal",
+  "links": {
+   "syn": [
+    "qısabuynuzlu"
+   ],
+   "topic": [
+    "qoyun"
+   ]
+  },
+  "omit_components": [
+   "kola"
+  ],
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 2, s. 720",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_2.pdf#page=720"
+   }
+  ]
+ },
+ "kolabuynuzlu": {
+  "az": "Buynuzları qısa olan heyvan haqqında deyilir.",
+  "en": "short-horned, of an animal",
+  "links": {
+   "syn": [
+    "qısabuynuzlu"
+   ],
+   "topic": [
+    "qoyun"
+   ]
+  },
+  "omit_components": [
+   "kola"
+  ],
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 2, s. 720",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_2.pdf#page=720"
+   }
+  ]
+ },
+ "lopagödən": {
+  "az": "Danışıqda qarnı iri və yumru olan adam haqqında deyilir.",
+  "en": "potbellied, colloquial",
+  "links": {
+   "syn": [
+    "yekəqarın"
+   ],
+   "topic": [
+    "qarın"
+   ]
+  },
+  "omit_components": [
+   "lopa",
+   "gödən"
+  ],
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 269",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=269"
+   }
+  ]
+ },
+ "meyvəkök": {
+  "az": "Bitkinin qida ehtiyatı topladığı yoğunlaşmış əsas kök, məsələn, yerkökünün kökü.",
+  "en": "a thickened taproot that stores nutrients, as in a carrot or beet",
+  "links": {
+   "topic": [
+    "yerkökü",
+    "çuğundur"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Biologiya · 6-cı sinif dərsliyi · Köklərin şəkildəyişməsi",
+    "url": "https://www.trims.edu.az/noduploads/book/umumtahsil-maktablarinin-6-ci-siniflari-ucun-biologiya-darsliyi.pdf"
+   }
+  ]
+ },
+ "potaboylu": {
+  "az": "Danışıqda boyu qısa, bədəni dolu adam haqqında deyilir.",
+  "en": "short and stocky, colloquial",
+  "links": {
+   "topic": [
+    "koppuş"
+   ]
+  },
+  "omit_components": [
+   "pota"
+  ],
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 616",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=616"
+   }
+  ]
+ },
+ "qaradırnaq": {
+  "az": "Dırnaqları və ya toynaqları qara rəngdə olan.",
+  "en": "having black nails or hooves",
+  "links": {
+   "topic": [
+    "at"
+   ]
+  },
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 48",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=48"
+   }
+  ]
+ },
+ "qoşadırnaq": {
+  "az": "Dırnağı iki yerə ayrılan heyvan haqqında deyilir.",
+  "en": "cloven-hoofed",
+  "links": {
+   "syn": [
+    "paradırnaq"
+   ],
+   "topic": [
+    "inək"
+   ]
+  },
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 2, s. 319",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_2.pdf#page=319"
+   }
+  ]
+ },
+ "topquyruq": {
+  "az": "Quyruğu qısa və qalın olan heyvan haqqında deyilir.",
+  "en": "having a short, thick tail",
+  "links": {
+   "topic": [
+    "qatır"
+   ]
+  },
+  "omit_components": [
+   "top"
+  ],
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 355",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=355"
+   }
+  ]
+ },
+ "topquyruqlu": {
+  "az": "Quyruğu qısa və qalın olan heyvan haqqında deyilir.",
+  "en": "having a short, thick tail",
+  "links": {
+   "topic": [
+    "qatır"
+   ]
+  },
+  "omit_components": [
+   "top"
+  ],
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 355",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=355"
+   }
+  ]
+ },
+ "tökməbədən": {
+  "az": "Danışıqda bədəni möhkəm və yaxşı quruluşlu olan adam haqqında deyilir.",
+  "en": "sturdily built or well-proportioned, colloquial",
+  "links": {
+   "topic": [
+    "sağlam"
+   ]
+  },
+  "omit_components": [
+   "tökmə"
+  ],
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 365",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=365"
+   }
+  ]
+ },
+ "tökməbədənli": {
+  "az": "Danışıqda bədəni möhkəm və yaxşı quruluşlu olan adam haqqında deyilir.",
+  "en": "sturdily built or well-proportioned, colloquial",
+  "links": {
+   "topic": [
+    "sağlam"
+   ]
+  },
+  "omit_components": [
+   "tökmə"
+  ],
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 365",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=365"
+   }
+  ]
+ },
+ "xoşagəlim": {
+  "az": "Görünüşü xoş təsir bağışlayan adam və ya şey haqqında deyilir.",
+  "en": "pleasing in appearance, of a person or thing",
+  "links": {
+   "topic": [
+    "gözəllik"
+   ]
+  },
+  "omit_components": [
+   "xoşa",
+   "gəlim"
+  ],
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 2, s. 476",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_2.pdf#page=476"
+   }
+  ]
+ },
+ "xırdagövdə": {
+  "az": "Gövdəsi kiçik olan bitki haqqında deyilir.",
+  "en": "small-stemmed, of a plant",
+  "links": {
+   "topic": [
+    "bitki"
+   ]
+  },
+  "pos": "adjective",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 2, s. 460",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_2.pdf#page=460"
+   }
+  ]
+ },
+ "xəşəmbül": {
+  "az": "Paxlalılar fəsiləsinin Melilotus cinsindən olan ot bitkisi.",
+  "en": "sweet clover, a plant of the genus Melilotus in the pea family",
+  "links": {
+   "topic": [
+    "yem",
+    "balverən"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Qasımov və Qədirova · Ədviyyat və yabanı tərəvəz bitkilərinin ensiklopediyası · Xəşəmbül",
+    "url": "https://azlib.org/media/books/Edviyyat_ve_yabani_terevez_bitkilerinin_ensiklopediyasi.pdf"
+   }
+  ]
+ },
+ "çitələmək": {
+  "az": "Parçadakı deşiyi və ya yırtığı tikərək düzəltmək.",
+  "en": "to mend a hole or tear by stitching",
+  "links": {
+   "syn": [
+    "yamamaq"
+   ],
+   "topic": [
+    "tikmək"
+   ]
+  },
+  "omit_components": [
+   "çit",
+   "ələmək"
+  ],
+  "pos": "verb",
+  "references": [
+   {
+    "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 1, s. 488",
+    "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_1.pdf#page=488"
+   }
+  ]
+ },
+ "çöprə": {
+  "az": "Şirin suda yaşayan, uzunsov bədənli bir balıq, çöprə balığı.",
+  "en": "a pond loach, an elongated freshwater fish",
+  "links": {
+   "topic": [
+    "balıq"
+   ]
+  },
+  "pos": "noun",
+  "references": [
+   {
+    "title": "Qərb ölkələrində məskunlaşanlar üçün fiqh təlimi · Balıq adları",
+    "url": "https://www.sistani.org/azari/book/25246/4058/"
+   }
+  ]
+ }
+}

@@ -47,30 +47,30 @@
  },
  "summary": {
   "undefined_before": 63985,
-  "undefined_after": 1369,
+  "undefined_after": 1364,
   "isolated_before": 30802,
   "isolated_after": 5957,
-  "definitions": 62616,
+  "definitions": 62621,
   "definitions_by_method": {
    "authored": 10851,
    "cross-reference": 413,
    "derivation": 3604,
-   "meaning": 13310,
+   "meaning": 13338,
    "paraphrase": 18162,
-   "rule": 16276
+   "rule": 16253
   },
   "low_confidence_paraphrases": 752,
-  "links": 38503,
+  "links": 38523,
   "stats": {
    "definitions:authored": 10851,
    "definitions:cross-reference": 413,
    "definitions:derivation": 3604,
-   "definitions:meaning": 13310,
+   "definitions:meaning": 13338,
    "definitions:paraphrase": 18162,
-   "definitions:rule": 16276,
+   "definitions:rule": 16253,
    "links:bilingual-cross-reference": 897,
    "links:combining": 2363,
-   "links:compound": 17738,
+   "links:compound": 17716,
    "links:compound-print": 396,
    "links:cross-reference": 150,
    "links:cross-reference-lead": 157,
@@ -81,7 +81,7 @@
    "links:dialect-sense": 93,
    "links:inflected-form": 88,
    "links:loan-family": 1051,
-   "links:meaning-sense": 381,
+   "links:meaning-sense": 423,
    "links:original-form": 96,
    "links:original-genus": 770,
    "links:original-relation": 23,
@@ -99,7 +99,7 @@
   },
   "dictionary_reviews": 392
  },
- "output_sha256": "df8f14fd71e338c52c48d4c6e0e8d418edea19a905e26cf1efdae884e155c2db",
+ "output_sha256": "531564e077e9974f87d681fbafa615f7186a76e5af326b2bc6770b9a5908e5a9",
  "supplements": {
   "supplement-01.json": "34487283d6c34e57d895690de6e5e6d680b7019177c81633e46624c1f1be40b7",
   "supplement-02.json": "60b7470870bf3269468070bb31a3efdeb1f16d3469bcee43edd17337ef570bb7",
@@ -111,7 +111,8 @@
   "supplement-08.json": "ba40b6b5d45b72ffddc68d107e17119146691ec0934c889ac55640114fc9ecce",
   "supplement-09.json": "ce9dfd6aa0a63b9d279519a2792588c7e187dd439f80f64054118172b7563fb5",
   "supplement-10.json": "0c8b8a224193fd19f51c3c9354f7ccfb777bbb2b9d13a73dac76338b8618907c",
-  "supplement-11.json": "1daf7a0908116d317ed7eb166a47a614a6399b861e46bbc06c34307ed61b35e5"
+  "supplement-11.json": "1daf7a0908116d317ed7eb166a47a614a6399b861e46bbc06c34307ed61b35e5",
+  "supplement-12.json": "2185cd7669d1c7833f7b7bbcc2e6f104460ffb2f988ad9396050e271b2898481"
  },
  "base_model_sha256": "426082c5f82c5c880cf807c56797a13e0d8a4538a9f4ee4014247c77841a7161"
 }

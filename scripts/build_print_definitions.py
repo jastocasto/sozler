@@ -1669,6 +1669,15 @@ def write_supplemented_output(model, refs, definitions, edges, meta, blocked):
     removed = {tuple(e) for e in blocked}
     pairs = {tuple(sorted(e[:2])) for e in model['edges'] if tuple(e) not in removed}
     pairs.update(tuple(sorted(e[:2])) for e in edges)
+    inferred_components = {
+        (word, target) for word, target, kind, note, evidence in edges
+        if kind == 'topic' and note == 'Mürəkkəb söz · tərkib hissəsi'
+        and nodes[word].get('page') and len(evidence) == 1 and evidence[0][0] == word
+        and [tuple(refs[i]) for i in evidence[0][3]] == [
+            (spelling_source(nodes[word]['page'])['title'], spelling_source(nodes[word]['page'])['url']),
+            (SPELLING_RULES['title'], SPELLING_RULES['url'])]
+    }
+    discarded_components = set()
     forbidden = {tuple(sorted(pair)) for pair in model.get('blocked', [])}
     ref_index = {tuple(ref): i for i, ref in enumerate(refs)}
 
@@ -1700,12 +1709,21 @@ def write_supplemented_output(model, refs, definitions, edges, meta, blocked):
                     or old and (old[4] != 'rule' or not FORMATION_ONLY.search(old[0]))):
                 raise ValueError(f'Supplement would overwrite an established sense or miss the headword: {word}')
             if (not az.endswith('.') or not en.strip() or pos not in POS or len(az) > 260 or len(en) > 200
-                    or not entry.get('references') or set(entry) - {'az', 'en', 'pos', 'references', 'links'}):
+                    or not entry.get('references') or set(entry) - {'az', 'en', 'pos', 'references', 'links', 'omit_components'}):
                 raise ValueError(f'Incomplete or unsupported supplement entry: {word}')
+            if 'omit_components' in entry:
+                targets = entry['omit_components']
+                if not old or not isinstance(targets, list) or not targets or not all(isinstance(t, str) for t in targets):
+                    raise ValueError(f'Expected inferred compound components to omit: {word}')
+                for target in targets:
+                    if (word, target) not in inferred_components or (word, target) in discarded_components:
+                        raise ValueError(f'No inferred component to omit: {word}, {target}')
+                    discarded_components.add((word, target))
+                    pairs.remove(tuple(sorted((word, target))))
             sources = list(dict.fromkeys(ref_id(r) for r in entry['references']))
             ids = old[3] if old else [ref_id(spelling_source(node['page']))]
             row = [az, en, pos, list(dict.fromkeys(sources + ids)), 'meaning']
-            if old:
+            if old and 'omit_components' not in entry:
                 base = old[5].get('base') if len(old) > 5 else None
                 row.append(formation_fields(old[0], old[1], base, pos))
             definitions[word] = row
@@ -1725,6 +1743,10 @@ def write_supplemented_output(model, refs, definitions, edges, meta, blocked):
     if len(edges) > old_edge_count:
         stats = summary['stats']
         stats['links:meaning-sense'] = stats.get('links:meaning-sense', 0) + len(edges) - old_edge_count
+    if discarded_components:
+        edges = [e for e in edges if not (e[2] == 'topic' and e[3] == 'Mürəkkəb söz · tərkib hissəsi'
+                                         and tuple(e[:2]) in discarded_components)]
+        summary['stats']['links:compound'] -= len(discarded_components)
     # The baseline edge list also includes generated root families. Recount after
     # suppressing just those root links whose evidence uses the wrong homonym.
     summary['stats']['blocked:homonym-root'] = len(removed)
