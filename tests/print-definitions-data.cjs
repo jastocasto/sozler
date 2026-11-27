@@ -95,7 +95,11 @@ for (const field of ['headwords', 'missing', 'formation-only', 'needs-review']) 
 const edge = (a, b, t) => m.related(m.byWord.get(a)).find(r => r.node.w === b && r.edge.type === t)?.edge;
 const pairKey = (a, b) => [a, b].sort().join('|');
 const removed = new Set(layer.blocked.map(([a, b, kind]) => pairKey(a, b) + '|' + kind));
-const known = new Set(before.edges.filter(e => !removed.has(pairKey(e.a.w, e.b.w) + '|' + e.type))
+// Test the print layer's original additions against the graph that preceded it.
+// Later reviews can reclassify one of those very connections.
+const prePrintArgs = args.map(input => input === w.WORD_WEB_VERIFICATION
+  ? { ...input, dictionaryEdition: undefined, commonWordReview: undefined } : input);
+const known = new Set(createModel(...prePrintArgs).edges.filter(e => !removed.has(pairKey(e.a.w, e.b.w) + '|' + e.type))
   .map(e => pairKey(e.a.w, e.b.w)));
 let added = 0;
 for (const [a, b, kind, , , proofs] of layer.edges) {
