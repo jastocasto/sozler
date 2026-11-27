@@ -1,6 +1,12 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "outputDirectory": "dist",
+  "rewrites": [
+    {
+      "source": "/verification-report",
+      "destination": "/verification-report.html"
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
