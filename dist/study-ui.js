@@ -34,8 +34,16 @@ function readRoute(hash) {
  if(hash==='#study'||hash==='#study/'||hash==='#study/today')return 'today';
  if(!hash.startsWith('#study/'))return null;
  const path=hash.slice(7);
- if(['words','progress','media','settings'].includes(path) || /^practice\/(words|clips|phrasing|speaking)$/.test(path) || /^(media\/)?word\/[^/]+$/.test(path) || sources.some(s=>path==='media/'+s.id))return path;
+ if(['words','words/find','progress','media','settings','grammar','vocab'].includes(path) ||
+  /^vocab\/(new|review(?:\/[0-2])?|bank\/[0-3])$/.test(path) || /^practice\/(words|clips|phrasing|speaking)$/.test(path) ||
+  /^(media\/)?word\/[^/]+$/.test(path) || sources.some(s=>path==='media/'+s.id))return path;
  return 'today';
+}
+function tabFor(route) {
+ const section=route.split('/')[0];
+ if(section==='today'||section==='progress')return 'home';
+ if(section==='vocab'||section==='words'||section==='word'||route==='practice/words')return 'vocab';
+ return section==='settings'?'settings':'study';
 }
 function rotate(items,offset) {
  if(!items.length)return [];
@@ -46,14 +54,14 @@ function createStore(model) {
  const lessonIds=new Set([...root.SozStudyContent,...root.SozStudyListening,...sources].map(x=>x.id));
  return root.SozStudyModel.create({validWord:w=>model.byWord.has(w),validLesson:id=>lessonIds.has(id)});
 }
-function mount({study,model,savedWords,openWord,navigate}) {
+function mount({study,model,savedWords,openWord,navigate,getMotion,setMotion}) {
  const $=id=>document.getElementById(id);
  const lessons=root.SozStudyContent,clips=root.SozStudyListening;
  const lessonsById=new Map(lessons.map(x=>[x.id,x])),clipsById=new Map(clips.map(x=>[x.id,x]));
  const wordsWithAudio=new Map();
  for(const clip of clips)if(clip.word&&!wordsWithAudio.has(clip.word))wordsWithAudio.set(clip.word,clip);
  let current=null,currentDay=null;
- const boxes={today:$('studyToday'),words:$('studyLibraryContent'),progress:$('studyLibraryContent'),media:$('studyMediaContent'),practice:$('studyPracticeContent'),word:$('studyPracticeContent'),settings:$('studySettings')};
+ const boxes={today:$('studyToday'),grammar:$('studyDaily'),vocab:$('studyVocab'),words:$('studyLibraryContent'),progress:$('studyLibraryContent'),media:$('studyMediaContent'),practice:$('studyPracticeContent'),word:$('studyPracticeContent'),settings:$('studySettings')};
  function element(tag,cls,text) {
   const e=document.createElement(tag);if(cls)e.className=cls;if(text!==undefined)e.textContent=text;return e;
  }
@@ -66,52 +74,39 @@ function mount({study,model,savedWords,openWord,navigate}) {
    ? 'Some saved study data could not be read. Keep a backup of this session and use Settings & backup to restore a known copy.'
    : 'This browser could not save all of your progress. Download a backup in Settings & backup before closing this page.';
  }
- const library=root.SozStudyLibrary.mount({host:boxes.words,study,model,openWord,savedWords,onChange:storageFeedback,practiceWord:w=>navigate('word/'+encodeURIComponent(w))});
- const practice=root.SozStudyPractice.mount({host:boxes.practice,study,model,lessons,clips,onChange:storageFeedback,onFinish:()=>navigate('today')});
+ const library=root.SozStudyLibrary.mount({host:boxes.words,study,model,openWord,savedWords,onChange:storageFeedback,
+  openBanks:()=>navigate('vocab'),reviewBank:level=>navigate('vocab/review/'+level),practiceWord:w=>navigate('word/'+encodeURIComponent(w))});
+ const practice=root.SozStudyPractice.mount({host:boxes.practice,study,model,lessons,clips,onChange:storageFeedback,onFinish:()=>navigate(current?.startsWith('word/')?'words':'grammar')});
  const media=root.SozStudyMedia.mount({host:boxes.media,study,model,sources,onChange:storageFeedback});
- function reviewTask(item) {
-  if(item.channel==='listen'&&wordsWithAudio.has(item.key))return {type:'listen',source:'word',key:wordsWithAudio.get(item.key).id};
-  if(item.channel==='use'&&study.settings().speaking)return {type:'speak',source:'word',key:item.key};
-  return {type:item.channel==='recognize'||item.reason==='new'?'recognize':'recall',key:item.key};
- }
- function discoveryWords(ordinal,lessonCandidates,clipCandidates) {
-  const tracked=study.words().sort((a,b)=>b.updated.localeCompare(a.updated)),known=new Set(tracked.map(r=>r.key));
-  const bookmarks=[...(savedWords?.()||[])],related=[];
-  const seeds=[...new Set([...tracked.slice(0,4).map(r=>r.key),...bookmarks.slice(0,3)])];
-  for(const word of seeds){
-   const node=model.byWord.get(word);
-   if(node)for(const candidate of model.related(node,new Set(['syn','ant','topic','root'])).slice(0,12))related.push(candidate.node.w);
-  }
-  const unseen=w=>model.byWord.has(w)&&!known.has(w);
-  const focus=rotate(vocabulary,ordinal).filter(unseen).slice(0,4);
-  const phrases=lessonCandidates.map(l=>l.word).concat(clipCandidates.map(c=>c.word)).filter(unseen).slice(0,4);
-  // Once a learner knows the starting set, keep drawing from the ranked dictionary.
+ const vocab=root.SozStudyVocab.mount({host:boxes.vocab,study,model,navigate,discover:discoverWord,onChange:storageFeedback});
+ function discoverWord(day,skipped) {
+  const ordinal=Math.floor(Date.parse(day+'T00:00:00Z')/86400000),ratings=study.wordRatings();
+  const eligible=word=>Boolean(word)&&!ratings.has(word)&&!skipped.has(word);
+  const bookmarks=Array.from(savedWords?.()||[]),bookmarked=bookmarks.find(word=>eligible(word)&&model.byWord.has(word));
+  if(bookmarked)return model.byWord.get(bookmarked);
+  const focus=rotate(vocabulary,ordinal).concat(rotate(lessons,ordinal).map(l=>l.word),rotate(clips,ordinal).map(c=>c.word));
+  const lesson=focus.find(word=>eligible(word)&&model.byWord.has(word));
+  if(lesson)return model.byWord.get(lesson);
+  // Keep the deck useful for established learners after the interview vocabulary is covered.
   const ranked=model.commonWords(),offset=1500+(ordinal*17)%Math.max(1,Math.min(ranked.length,14000)-1500);
-  const wider=ranked.slice(offset,offset+100).map(n=>n.w).filter(unseen).slice(0,2);
-  return [...new Set([...bookmarks.filter(unseen).slice(0,4),...related.filter(unseen).slice(0,4),...focus,...phrases,...wider])];
+  return ranked.slice(offset,offset+150).find(node=>eligible(node.w)) || ranked.find(node=>eligible(node.w)) ||
+   model.nodes.find(node=>eligible(node.w)) || null;
  }
  function daily() {
   const day=study.day(),ordinal=Math.floor(Date.parse(day+'T00:00:00Z')/86400000);
   const {minutes,speaking}=study.settings(),source=sources[ordinal%sources.length];
   const lessonCandidates=rotate(lessons,ordinal),clipCandidates=rotate(clips,ordinal);
-  const wordCandidates=discoveryWords(ordinal,lessonCandidates,clipCandidates);
-  const wordCount=Math.max(1,Math.min(12,Math.round(minutes/6))),lessonCount=minutes>=30?3:minutes>=14?2:1;
-  const wordPlan=study.plan({kind:'word',words:wordCandidates,limit:wordCount,newLimit:wordCount});
+  const lessonCount=minutes>=30?3:minutes>=14?2:1;
   const grammarPlan=study.plan({kind:'lesson',lessons:lessonCandidates.map(l=>l.id),accept:(kind,id)=>lessonsById.has(id),limit:lessonCount,newLimit:lessonCount});
   const clipCount=Math.max(1,Math.min(4,Math.round(minutes/12)));
   const listenPlan=study.plan({kind:'lesson',lessons:clipCandidates.map(c=>c.id),accept:(kind,id)=>clipsById.has(id),limit:clipCount,newLimit:clipCount});
   const speakingLesson=grammarPlan[0]?.key||lessonCandidates[0]?.id;
   const speakTasks=speakingLesson?[{type:'speak',key:speakingLesson}]:[];
-  if(wordPlan.length&&minutes>=15)speakTasks.push({type:'speak',source:'word',key:wordPlan[0].key});
   const rows=[
-   {key:'media',title:'Follow a native speaker',description:source.name+' · '+source.title,source},
-   {key:'words',title:'Review your words',description:'Review what is due and discover vocabulary from your bookmarks, word connections and interviews.',tasks:wordPlan.flatMap(item=>{
-    const first=reviewTask(item);
-    return first.type==='recognize'&&minutes>=10?[first,{type:'recall',key:item.key}]:[first];
-   })}
+   {key:'phrasing',title:'Grammar & phrasing',description:'Interpret the speaker’s intent and reconstruct the phrase in Azerbaijani.',tasks:grammarPlan.flatMap(({key})=>[{type:'read',key},{type:'grammar',key}])},
+   {key:'media',title:'Follow a native speaker',description:source.name+' · '+source.title,source}
   ];
   if(clips.length && (minutes>=10||ordinal%2===0))rows.push({key:'clips',title:'Listen without the transcript',description:'Catch the meaning on a first listen. Replay to find what you missed.',tasks:listenPlan.map(i=>({type:'listen',key:i.key}))});
-  if(minutes>=10||ordinal%2===1)rows.push({key:'phrasing',title:'Read between the lines',description:'Interpret a speaker’s intention and reconstruct the phrase in Azerbaijani.',tasks:grammarPlan.flatMap(({key})=>[{type:'read',key},{type:'grammar',key}])});
   if(speaking)rows.push({key:'speaking',title:'Put it in your own words',description:'Use today’s expressions in a fresh sentence and check it against a model.',tasks:speakTasks});
   for(const row of rows) {
    if(row.source){row.done=study.hasAttempt('media:'+day+':'+source.id);row.total=1;row.completed=Number(row.done);}
@@ -120,52 +115,59 @@ function mount({study,model,savedWords,openWord,navigate}) {
     row.finished=!!session?.finished;row.done=row.total===0||row.completed===row.total;row.skipped=session?.skipped||0;
    }
   }
-  return {rows,source,day,minutes,feature:lessonCandidates[0],summary:study.summary(model.nodes.length)};
+  return {rows,source,minutes};
  }
  function startRow(row) {navigate(row.source?'media/'+row.source.id:'practice/'+row.key);}
- function renderToday() {
-  const data=daily(),{rows,summary}=data,next=rows.find(r=>!r.done&&!r.finished);
-  const grid=element('div','study-today-grid'),plan=element('section','study-day-plan'),lead=element('div','study-lead');
-  lead.append(element('p','study-day-meta',data.minutes+'-minute routine · '+rows.filter(r=>r.done).length+' of '+rows.length+' activities complete'));
-  if(next) {
-   lead.append(element('h2','',next.source?'Listen to '+next.source.name:next.title),element('p','',next.source?next.source.prompt:next.description),
-    button(next.source?'Open listening exercise':next.completed?'Continue practice':'Start practice','study-cta',()=>startRow(next)));
-  }else{
-   lead.append(element('h2','',rows.every(r=>r.done)?'Today’s plan is complete':'Today’s session is finished'),
-    element('p','',summary.today.attempts+' practice responses today. See which words you understood, recalled or used.'),
-    button('See my progress','study-cta',()=>navigate('progress')));
-  }
-  const list=element('ol','study-plan-list');
+ function practiceList(rows) {
+  const list=element('ul','study-plan-list');
   for(const row of rows){
    const li=element('li','study-plan-row'),copy=element('div');
    copy.append(element('h3','',row.title),element('p','',row.description));
-   const text=row.done?(row.total?'Complete':'Up to date'):row.finished?'Finished · '+row.skipped+' skipped':row.completed?row.completed+'/'+row.total+' · Continue':'Start';
+   const text=row.done?(row.total?'Complete':'Up to date'):row.finished?'Finished · '+row.skipped+' skipped':row.completed?'Continue':'Start';
    const action=button(text,'study-button',()=>startRow(row));action.setAttribute('aria-label',row.title+' · '+text);action.dataset.studyTask=row.key;
    if(row.done&&!row.total)action.disabled=true;
    li.append(copy,action);list.append(li);
   }
-  plan.append(lead,element('h2','','Your plan'),list);
-  const aside=element('aside','study-day-aside'),bank=element('section','study-feature');
-  bank.append(element('h2','','Your word bank'));
-  const bankText=summary.tracked
-   ? summary.tracked+' '+(summary.tracked===1?'word':'words')+' collected. '+summary.dueWords+' due for review.'
-   : 'Start with words you already use or save a phrase you caught in a podcast.';
-  bank.append(element('p','',bankText),button(summary.tracked?'Open my words':'Build my word bank','study-text-link',()=>navigate('words')));aside.append(bank);
-  if(data.feature) {
-   const note=element('section','study-feature'),phrase=element('p','study-phrase',data.feature.accept[0]);phrase.lang='az';
-   note.append(element('h2','','An expression to notice'),phrase,element('p','',data.feature.skill),
-    button('Explore the word','study-text-link',()=>openWord(data.feature.word)));aside.append(note);
-  }
-  grid.append(plan,aside);boxes.today.replaceChildren(grid);
+  return list;
+ }
+ function renderToday() {
+  const {rows,minutes}=daily(),summary=study.summary(model.nodes.length),{target,completed,due}=vocab.status(summary);
+  const grid=element('div','study-today-grid study-home-grid'),lead=element('section','study-lead');
+  const leadTitle=element('div','study-lead-title');
+  leadTitle.append(element('h2','','Daily vocabulary'),element('span','study-tally',completed+' / '+target));
+  const meter=element('progress');meter.max=target;meter.value=completed;meter.setAttribute('aria-label','New words rated today');
+  const actions=element('div','study-word-actions');
+  if(completed<target)actions.append(button(completed?'Continue flashcards':'Learn '+target+' words','study-cta',()=>navigate('vocab/new')));
+  if(due)actions.append(button('Review '+due+' due','study-button',()=>navigate('vocab/review')));
+  if(!actions.childElementCount)actions.append(button('Open word banks','study-button',()=>navigate('vocab')));
+  lead.append(leadTitle,meter,element('p','study-note','New words rated today'),actions);
+  const practiceTitle=element('div','study-lead-title');
+  practiceTitle.append(element('h2','','Daily study'),element('span','study-note',minutes+' min planned'));
+  const planned=element('section','study-section study-planned');
+  planned.append(practiceTitle,practiceList(rows));
+  const aside=element('aside','study-day-aside');aside.append(vocab.coverage(summary));
+  grid.append(lead,aside,planned);boxes.today.replaceChildren(grid);
+ }
+ function renderGrammar() {
+  const {rows,source}=daily(),grid=element('div','study-today-grid');
+  const exercises=element('section','study-section study-planned');
+  exercises.append(element('h2','','Today’s exercises'),practiceList(rows));
+  const materials=element('aside','study-day-aside'),listen=element('section','study-section');
+  listen.append(element('h2','','Listening desk'),element('p','',source.prompt),button('Open listening desk','study-button',()=>navigate('media')));
+  const conjugation=element('section','study-section study-study-reference');
+  const link=element('a','study-button','Open verb conjugations');link.href='#grammar=qa%C3%A7maq';
+  conjugation.append(element('h2','','Grammar reference'),element('p','','Look up a verb and explore its tenses and forms.'),link);
+  materials.append(listen,conjugation);grid.append(exercises,materials);boxes.grammar.replaceChildren(grid);
  }
  function settings() {
   const prefs=study.settings();$('studyMinutes').value=String(prefs.minutes);$('studySpeaking').checked=prefs.speaking;
-  $('studyStartPage').querySelectorAll('option').forEach(o=>{o.selected=o.value===prefs.startPage;});$('studySettingsStatus').textContent='';
+  $('studyNewWords').value=String(prefs.newWords);$('studyMotion').value=getMotion();$('studySettingsStatus').textContent='';
  }
  $('studySaveSettings').addEventListener('click',()=>{
-  const n=Number($('studyMinutes').value),status=$('studySettingsStatus');
+  const n=Number($('studyMinutes').value),target=Number($('studyNewWords').value),status=$('studySettingsStatus');
   if(!Number.isInteger(n)||n<5||n>90){status.textContent='Choose a whole number from 5 to 90 minutes.';$('studyMinutes').focus();return;}
-  study.setSettings({minutes:n,speaking:$('studySpeaking').checked,startPage:$('studyStartPage').value||'atlas'});
+  if(!Number.isInteger(target)||target<1||target>30){status.textContent='Choose from 1 to 30 new words per day.';$('studyNewWords').focus();return;}
+  study.setSettings({minutes:n,speaking:$('studySpeaking').checked,newWords:target});setMotion($('studyMotion').value);
   storageFeedback();status.textContent='Your daily routine has been updated.';
  });
  $('studyExport').addEventListener('click',()=>{
@@ -193,21 +195,36 @@ function mount({study,model,savedWords,openWord,navigate}) {
  }
  function close() {
   if(current?.startsWith('practice/')||current?.startsWith('word/'))practice.close();
-  if(current==='media'||current?.startsWith('media/'))media.close();
+  if(current?.startsWith('media'))media.close();
+  if(current?.startsWith('vocab'))vocab.close();
   current=null;
  }
  function open(route='today',force=false) {
   if(!force&&route===current&&study.day()===currentDay)return;
+  if(route==='practice/words'){navigate(vocab.status().due?'vocab/review':'vocab/new',true);return;}
   close();current=route;currentDay=study.day();
   const boundary=route.indexOf('/'),tab=boundary<0?route:route.slice(0,boundary),key=boundary<0?'':route.slice(boundary+1);
-  const area=boxes[tab]||boxes.today;for(const box of new Set(Object.values(boxes)))box.hidden=box!==area;
-  const navTab=tab==='word'?'words':tab==='practice'?'today':tab;
-  document.querySelectorAll('[data-study-route]').forEach(a=>{if(a.dataset.studyRoute===navTab)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});
-  const titles={today:'Today’s practice',words:'My words',progress:'My progress',media:'Listening desk',settings:'Settings & backup',word:'Word practice',practice:'Daily practice'};
+  const bank=tab==='vocab'&&key.startsWith('bank/')?Number(key.slice(5)):null;
+  const area=bank===null?boxes[tab]||boxes.today:boxes.words;
+  for(const box of new Set(Object.values(boxes)))box.hidden=box!==area;
+  const titles={today:'Today',grammar:'Daily study',vocab:'Vocabulary',words:'My words',progress:'My progress',media:'Listening desk',settings:'Settings',word:'Word practice',practice:'Daily practice'};
   let title=titles[tab]||titles.today;
-  $('studyDate').textContent=tab==='today'?dates.format(new Date(currentDay+'T12:00:00Z'))+' · Bakı':'';
+  $('studyDate').textContent=tab==='today'||tab==='grammar'?dates.format(new Date(currentDay+'T12:00:00Z'))+' · Bakı':'';
   const sourceLink=$('studyWordSource');sourceLink.hidden=true;
-  if(tab==='words')library.library();
+  if(tab==='words'){
+   if(key==='find')title='Find a word';
+   library.library({initialScope:key==='find'?'find':'mine'});
+  }
+  else if(tab==='vocab'){
+   if(bank!==null){
+    title=root.SozStudyLibrary.levels[bank];library.library({initialScope:'mine',level:bank});
+   }else if(!key)vocab.landing();
+   else{
+    const [mode,level]=key.split('/');
+    title=mode==='new'?'New words':'Word review';vocab.open(mode,level===undefined?undefined:Number(level));
+   }
+  }
+  else if(tab==='grammar')renderGrammar();
   else if(tab==='progress')library.progress();
   else if(tab==='media'){
    let word=null;if(key.startsWith('word/'))try{word=model.resolveWord(decodeURIComponent(key.slice(5)));}catch{}
@@ -230,14 +247,13 @@ function mount({study,model,savedWords,openWord,navigate}) {
   $('studyHeading').textContent=title;document.title=title+' — SÖZ';storageFeedback();
   $('studyPage').scrollTop=0;$('studyHeading').focus?.({preventScroll:true});
  }
- document.querySelectorAll('[data-study-route]').forEach(a=>a.addEventListener('click',e=>{if(e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;e.preventDefault();navigate(a.dataset.studyRoute);}));
  function resume(){
   if(!current||document.hidden)return;
   study.refresh();storageFeedback();
-  if(study.day()!==currentDay || ['today','words','progress'].includes(current))open(current,true);
+  if(study.day()!==currentDay || ['today','grammar','words','vocab','progress'].includes(current)||current.startsWith('vocab/bank/'))open(current,true);
  }
  document.addEventListener('visibilitychange',resume);root.addEventListener?.('pageshow',resume);
  return {open,close};
 }
-root.SozStudyUI={sources,readRoute,routeHash,createStore,mount};
+root.SozStudyUI={sources,readRoute,routeHash,tabFor,createStore,mount};
 })(typeof window!=='undefined'?window:globalThis);

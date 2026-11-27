@@ -20,7 +20,7 @@ assert.equal(dayKey('2028-02-29T20:00:00Z'), '2028-03-01');
 
 {
   const storage = new TestStorage(), r = repo(storage);
-  assert.deepEqual(r.settings(), {minutes:20, speaking:true, startPage:'atlas'});
+  assert.deepEqual(r.settings(), {minutes:20, speaking:true, newWords:10, startPage:'today'});
   assert.equal(r.word('gözəl'), null);
   assert.equal(r.summary(90856).unassessed, 90856);
   r.trackWord('gözəl');
@@ -43,7 +43,7 @@ assert.equal(dayKey('2028-02-29T20:00:00Z'), '2028-03-01');
   r.setContext('gözəl', {text:'  Bu necə gözəl söhbətdir!  ', source:'https://example.org/audio', seconds:74});
   const reopened = repo(storage);
   assert.deepEqual(reopened.word('gözəl').context, {text:'Bu necə gözəl söhbətdir!', source:'https://example.org/audio', seconds:74});
-  assert.deepEqual(reopened.settings(), {minutes:25, speaking:false, startPage:'atlas'}, 'Older minute and speaking settings keep the atlas home');
+  assert.deepEqual(reopened.settings(), {minutes:25, speaking:false, newWords:10, startPage:'today'}, 'Old routine settings get the new default word goal');
   const detached = reopened.word('gözəl');
   detached.context.text = 'changed'; detached.evidence.listen.correct = 9000;
   assert.equal(reopened.word('gözəl').evidence.listen.correct, 0);
@@ -57,20 +57,18 @@ assert.equal(dayKey('2028-02-29T20:00:00Z'), '2028-03-01');
   assert.throws(() => r.setSettings({minutes:0}));
   const restored = repo();
   restored.importJSON(r.exportJSON());
-  assert.equal(restored.settings().startPage, 'atlas', 'Backups without a home-screen choice keep the original default');
-  r.setSettings({startPage:'today'});
-  assert.deepEqual(repo(storage).settings(), {minutes:25, speaking:false, startPage:'today'});
+  assert.equal(restored.settings().newWords, 10, 'An older backup gets the default deck target');
+  r.setSettings({startPage:'atlas',newWords:7});
+  assert.deepEqual(repo(storage).settings(), {minutes:25, speaking:false, newWords:7, startPage:'atlas'});
   restored.importJSON(r.exportJSON());
-  assert.equal(restored.settings().startPage, 'today', 'The selected home screen travels with the backup');
-  r.setSettings({startPage:'atlas'});
-  assert.equal(repo(storage).settings().startPage, 'atlas');
+  assert.equal(restored.settings().newWords, 7, 'The deck target travels with the backup');
   assert.throws(() => r.setSettings({startPage:'settings'}));
 }
 
 {
   atDay('2026-11-27');
   const r = repo();
-  r.rateWord('müzakirə', 3);
+  r.rateWord('müzakirə', 2);
   answer(r, 'first', 'müzakirə', 'recall', true);
   assert.equal(r.word('müzakirə').due, '2026-11-28');
   assert.equal(answer(r, 'first', 'müzakirə', 'recall', true), false);
@@ -89,7 +87,7 @@ assert.equal(dayKey('2028-02-29T20:00:00Z'), '2028-03-01');
   assert.equal(r.word('müzakirə').due, '2026-12-02', 'A weak listening channel is scheduled sooner');
   answer(r, 'immediate', 'müzakirə', 'listen', true, {condition:'slower'});
   assert.equal(r.word('müzakirə').due, '2026-12-02', 'A supported immediate retry still returns tomorrow');
-  assert.equal(r.word('müzakirə').rating, 3, 'Exercise grades do not overwrite the learner’s own rating');
+  assert.equal(r.word('müzakirə').rating, 2, 'Exercise grades do not overwrite the learner’s own rating');
   atDay('2026-12-02');
   answer(r, 'easy', 'müzakirə', 'recognize', true, {condition:'transcript'});
   assert.equal(r.plan({kind:'word'})[0].channel, 'listen', 'Reading the transcript does not postpone the due listening cue');
@@ -229,4 +227,40 @@ assert.equal(dayKey('2028-02-29T20:00:00Z'), '2028-03-01');
   assert.equal(newer.hasAttempt('retired'), true);
 }
 
-console.log('PASS personal ratings, independent listening and use evidence, Baku-day spaced reviews, scoped daily plans, private excerpts, concurrent journal reconciliation, backup recovery and storage failures.');
+{
+  atDay('2026-12-10');
+  const storage = new TestStorage(), r = repo(storage);
+  r.setSettings({newWords:4});
+  const levels = ['çalar', 'təəssürat', 'təşəbbüs', 'gözəl'];
+  assert(r.rateCard(levels[0], 0, 'new'));
+  r.rateWord(levels[0], null);
+  assert(r.rateCard(levels[0], 0, 'new'));
+  assert.equal(r.summary().today.newCards, 1, 'Correcting a cleared rating does not count the same card twice');
+  levels.slice(1).forEach((word, i) => assert(r.rateCard(word, i+1, 'new')));
+  assert.equal(r.rateCard('əlavə', 1, 'new'), false, 'A direct deck URL cannot exceed the daily goal');
+  assert.equal(r.rateCard('çalar', 0, 'new'), false);
+  assert.deepEqual(r.summary().ratings, [1, 1, 1, 1]);
+  assert.equal(r.summary().today.newCards, 4);
+  assert.deepEqual(levels.map(word => r.word(word).due), ['2026-12-11','2026-12-13','2026-12-17',null]);
+  assert.deepEqual(r.reviewCards({dueOnly:false}), levels.slice(0,3));
+  assert.deepEqual(r.reviewCards(), []);
+  const restored = repo();restored.importJSON(r.exportJSON());
+  assert.equal(restored.summary().today.newCards, 4);
+  assert.deepEqual(restored.reviewCards({dueOnly:false,level:3}), []);
+  atDay('2026-12-11');
+  assert.deepEqual(restored.reviewCards(), ['çalar']);
+  assert.equal(restored.summary().dueCards, 1);
+  assert(restored.rateCard('çalar', 3, 'review'));
+  assert.equal(restored.word('çalar').due, null);
+  assert.equal(restored.summary().today.reviewCards, 1);
+  assert.equal(restored.rateCard('çalar', 0, 'review'), false);
+  answer(restored, 'optional', 'gözəl', 'recognize', false);
+  assert.equal(restored.word('gözəl').evidence.recognize.attempts, 1);
+  assert.equal(restored.word('gözəl').due, null, 'Optional quiz evidence does not put a proficient word back in review');
+  atDay('2026-12-19');
+  assert(!restored.plan({kind:'word',words:levels,extra:true}).some(item => item.key==='gözəl'||item.key==='çalar'));
+  restored.rateWord('gözəl', 1);
+  assert(restored.reviewCards().includes('gözəl'), 'Lowering your own rating makes a word eligible again');
+}
+
+console.log('PASS personal ratings, daily flashcards, proficient-word retirement, evidence, spaced reviews, concurrent journals, backup recovery and storage failures.');

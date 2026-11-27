@@ -14,7 +14,7 @@ for(const [width,height]of [[320,568],[390,844],[844,390],[1440,900]]){
  for(const word of ['gözəl','çirkin','həmişə','daim','dopamin','sənət']){
   window.SozApp.selectWord(word);assert(inspect().particles.some(p=>p.word===word),'Selection renders immediately during the flight');
   h.runUntilIdle(separated);settled();const expected=C.relationships(model.related(model.byWord.get(word))).map(r=>r.node.w),seen=new Set();
-  const selected=window.document.querySelector('.word-node.selected');assert(selected.querySelector('.selection-orbit').getAttribute('stroke-dasharray'));assert.equal(selected.querySelector('.bubble').getAttribute('fill'),'#ecaa6b');
+  const selected=window.document.querySelector('.word-node.selected');assert(selected.querySelector('.selection-orbit').getAttribute('stroke-dasharray'));assert.equal(selected.querySelector('.bubble').getAttribute('fill'),'#22221b');
   for(const p of inspect().particles)if(p.word!==word)seen.add(p.word);
   assert.deepEqual([...seen].sort(),[...expected].sort(),'Gathering exposes every direct relation, without invented links');
   assert($('connectionPager').hidden);assert.equal(inspect().connectionPages,1);

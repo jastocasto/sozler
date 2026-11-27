@@ -1,8 +1,8 @@
 #atlasRoutesPanel {
-  --route-ink: #f1f3ea;
-  --route-muted: #b8cbc9;
-  --route-line: #91bdbe38;
-  --route-accent: #e8c28d;
+  --route-ink: var(--app-ink);
+  --route-muted: var(--app-muted);
+  --route-line: var(--app-line);
+  --route-accent: var(--app-ink);
   position: absolute;
   z-index: 5;
   left: var(--atlas-panel-left, max(24px, env(safe-area-inset-left)));
@@ -15,10 +15,10 @@
   overflow: hidden;
   text-align: left;
   color: var(--route-ink);
-  background: linear-gradient(140deg, #142f38fa, #0c202afc 68%);
-  border: 1px solid #94bdbb65;
+  background: var(--app-paper);
+  border: 1px solid #5c5b50;
   border-radius: 17px;
-  box-shadow: 0 8px 32px #020c1759;
+  box-shadow: 0 8px 32px #23231829;
   font-family: inherit;
   touch-action: auto;
 }
@@ -85,7 +85,7 @@
   min-height: 0;
   overflow: auto;
   overscroll-behavior: contain;
-  scrollbar-color: #74989b70 transparent;
+  scrollbar-color: #868577 transparent;
   scrollbar-width: thin;
   padding: 0 17px 5px;
 }
@@ -106,7 +106,7 @@
 #atlasRoutesPanel .route-pair-names { overflow-wrap: anywhere; }
 #atlasRoutesPanel .route-separator {
   margin-inline: .45em;
-  color: #8bb2b4;
+  color: var(--app-muted);
 }
 #atlasRoutesPanel .route-number {
   color: var(--route-accent);
@@ -116,7 +116,7 @@
 }
 #atlasRoutesPanel .route-back,
 #atlasRoutesPanel .route-visit {
-  color: #b7d9d8;
+  color: var(--app-ink);
   font: 500 12px/1.4 system-ui, sans-serif;
 }
 #atlasRoutesPanel .route-back { display: block; }
@@ -174,7 +174,7 @@
   font: 400 16px/1.3 Georgia, serif;
   color: var(--route-ink);
   text-decoration: underline;
-  text-decoration-color: #7aafad88;
+  text-decoration-color: var(--app-muted);
   text-underline-offset: 3px;
 }
 #atlasRoutesPanel .route-gloss {
@@ -189,7 +189,7 @@
   color: var(--route-muted);
 }
 #atlasRoutesPanel .route-word-join {
-  color: #90b6b7;
+  color: var(--app-muted);
   line-height: 44px;
 }
 #atlasRoutesPanel .route-visits {
@@ -227,8 +227,8 @@
 }
 
 #atlas-route-pulse circle {
-  fill: #fff3ce;
-  stroke: #efc67e;
+  fill: #1b1b15;
+  stroke: #6c6b5e;
   stroke-width: 3px;
   stroke-opacity: .48;
   paint-order: stroke;

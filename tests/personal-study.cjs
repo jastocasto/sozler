@@ -8,11 +8,12 @@ function choose(id,value) {
  const control=$(id);control.value=String(value);
  control.dispatchEvent(new window.Event('change',{bubbles:true}));
 }
-function tab(id){doc.querySelector('[data-study-route="'+id+'"]').click();}
+function tab(id){doc.querySelector('[data-app-tab="'+id+'"]').click();}
 function go(hash){window.location.hash=hash;window.dispatchEvent(new window.Event('hashchange'));}
 
 assert.equal(screen(),'map');
 $('sheetToggle').click();choose('mapStudyLevel','2');
+assert.equal(doc.querySelector('.word-node.selected .proficiency-mark').getAttribute('data-rating'),'2');
 $('mapStudyLibrary').click();
 assert.equal(screen(),'study');assert.equal($('studyHeading').textContent,'My words');
 const row=$('studyLibraryContent').querySelector('[data-word="gözəl"]');
@@ -21,18 +22,19 @@ row.querySelector('[data-action="practice"]').click();
 assert.equal($('studyHeading').textContent,'gözəl');
 assert($('studyPracticeContent').textContent.includes('What does this word mean?'));
 
-tab('today');
+tab('home');
 const cards=[...$('studyToday').querySelectorAll('[data-study-task]')].map(x=>x.dataset.studyTask);
-assert.deepEqual(cards,['media','words','clips','phrasing','speaking']);
+assert.deepEqual(cards,['phrasing','media','clips','speaking']);
 $('studyToday').querySelector('[data-study-task="media"]').click();
 assert.equal($('studyMediaContent').querySelector('[target="_blank"]').rel,'noopener noreferrer');
 
 go('#study/media/akinchi-heritage');
 assert($('studyMediaContent').textContent.includes('Bakıda memarlıq irsinin taleyi'));
 tab('settings');$('studyMinutes').value='15';$('studySpeaking').checked=false;
-$('studyStartPage').value='today';$('studySaveSettings').click();
+$('studyNewWords').value='6';$('studySaveSettings').click();
 assert($('studySettingsStatus').textContent.includes('updated'));
-tab('today');assert($('studyToday').textContent.includes('15-minute routine'));
+tab('home');assert($('studyToday').textContent.includes('15 min planned'));
+assert($('studyToday').textContent.includes('Learn 6 words'));
 assert(!$('studyToday').querySelector('[data-study-task="speaking"]'));
 
 const store=window.SozStudyUI.createStore(h.model);
@@ -40,8 +42,8 @@ store.setContext('gözəl',{text:'Nə gözəl sualdır!',source:'https://www.you
 window.dispatchEvent(new window.Event('pageshow'));
 go('#study/word/g%C3%B6z%C9%99l');assert(!$('studyWordSource').hidden);$('studyWordSource').click();
 assert($('studyMediaContent').textContent.includes('Nə gözəl sualdır!'));
-tab('progress');assert($('studyLibraryContent').textContent.includes('90,855'));
-$('studyBack').click();assert.equal(screen(),'map');
+go('#study/progress');assert($('studyLibraryContent').textContent.includes('90,855'));
+tab('kainat');assert.equal(screen(),'map');
 assert.equal($('meaningEnglish').textContent,'beautiful');assert.equal($('mapFilterKeys').querySelectorAll('button').length,5);
 
 // The old word and picture games also contribute evidence to the same library.
@@ -50,20 +52,35 @@ const choice=$('quizOptions').querySelector('button');choice.click();choice.clic
 assert.equal(store.summary(h.model.nodes.length).today.attempts,1);
 assert(store.words().some(w=>w.evidence.recognize.attempts));
 $('quizDialog').close();
-$('raceButton').click();$('raceStart').click();$('studyButton').click();assert.equal(screen(),'map');
+$('raceButton').click();$('raceStart').click();
+assert($('appTabs').hasAttribute('inert'));tab('home');assert.equal(screen(),'map');
 $('raceExit').click();go('#study');assert.equal(screen(),'study');
 assert.equal(h.errors.length,0);
 
-// Another browser can import the portable records and open the chosen start tab.
-const restored=boot({width:390,height:844,reduced:true,configureWindow(w){
+// The dashboard opens on a bare URL, including for an older backup that opened the atlas.
+store.setSettings({startPage:'atlas'});
+const restored=boot({width:390,height:844,reduced:true,hash:'',configureWindow(w){
  w.URL=URL;
  const key='soz-toxumasi:study:v1:records';
  w.localStorage.setItem(key,h.storage.get(key));
 }});
 assert.equal(restored.window.SozApp.inspect().page,'study');
-assert(restored.$('studyToday').textContent.includes('15-minute routine'));
+assert(restored.$('studyToday').textContent.includes('15 min planned'));
+const restoredDoc=restored.window.document;
+assert.deepEqual([...restored.$('appTabs').querySelectorAll('a')].map(a=>a.textContent),['Kainat','Vocab','Home','Study','Settings']);
+assert.equal(restored.$('appTabs').querySelector('[aria-current]').dataset.appTab,'home');
+restored.$('studyToday').querySelector('.study-cta').click();
+const front=restoredDoc.querySelector('.vocab-front'),newWord=front.querySelector('.vocab-headword').textContent;
+assert(!restoredDoc.querySelector('.vocab-ratings'));
+front.click();assert(restoredDoc.querySelector('.vocab-definition p[lang="az"]').textContent);
+restoredDoc.querySelector('.vocab-rate[data-rating="3"]').click();
+restored.$('appTabs').querySelector('[data-app-tab="vocab"]').click();
+assert(restored.$('studyVocab').textContent.includes('1 / 6 rated today'));
+restoredDoc.querySelector('.vocab-bank[data-rating="3"]').click();
+assert(restoredDoc.querySelector(`[data-word="${newWord}"]`),'A new card goes straight to its bank');
+assert(!restoredDoc.querySelector('.study-word-row [data-action="practice"]'));
 restored.window.location.hash='#w=g%C3%B6z%C9%99l';
 restored.window.dispatchEvent(new restored.window.Event('hashchange'));
 assert.equal(restored.window.SozApp.inspect().page,'map');
 assert.equal(restored.window.document.querySelector('.galaxy-studio').dataset.mapView,'word');
-console.log('PASS personal study entry, map mastery, attached source, daily settings, existing-quiz evidence, race guards, return to the atlas, and restored launch preference.');
+console.log('PASS five-tab navigation, Today by default, daily card and bank flow, map mastery, attached sources, restored settings, quiz evidence and race guard.');

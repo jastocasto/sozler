@@ -1,0 +1,121 @@
+:root {
+ color-scheme:light;
+ --app-ivory:#faf9f4;
+ --app-paper:#fffefa;
+ --app-ink:#191915;
+ --app-muted:#59584e;
+ --app-line:#d9d7cd;
+ --app-soft:#efeee7;
+ --app-font:Inter,"Segoe UI",system-ui,sans-serif;
+ --app-tab-base:65px;
+ --app-tabs-height:calc(var(--app-tab-base) + env(safe-area-inset-bottom,0px));
+ --app-content-height:calc(100dvh - var(--app-tabs-height));
+ --canvas:var(--app-ivory);
+ --ink:var(--app-ink);
+ --muted:var(--app-muted);
+ --paper:var(--app-paper);
+ --line:var(--app-line);
+}
+[data-rating="0"] { --rating:#b83235; --rating-paper:#fff0ed; }
+[data-rating="1"] { --rating:#bc541c; --rating-paper:#fff1e7; }
+[data-rating="2"] { --rating:#9b760b; --rating-paper:#fff8dc; }
+[data-rating="3"] { --rating:#28754c; --rating-paper:#ecf7ee; }
+body { background:var(--app-ivory); color:var(--app-ink); }
+.study-launch .galaxy-studio { visibility:hidden; }
+.study-loading { display:none; }
+.study-launch .study-loading {
+ display:grid; position:fixed; inset:0 0 var(--app-tabs-height); place-items:center; margin:0;
+ color:var(--app-muted); font:500 .9375rem/1.4 var(--app-font);
+}
+:is(a,button,input,select,summary,textarea):focus-visible { outline:2px solid #1d1d18; outline-offset:3px; }
+
+.app-tabs {
+ position:fixed; inset:auto 0 0; z-index:35; height:var(--app-tabs-height); box-sizing:border-box;
+ padding:0 max(8px,env(safe-area-inset-right)) env(safe-area-inset-bottom) max(8px,env(safe-area-inset-left));
+ border-top:1px solid #22221b; background:var(--app-paper); color:var(--app-ink); font:550 .8125rem/1.15 var(--app-font);
+}
+.app-tabs-inner { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); align-items:stretch; height:100%; max-width:625px; margin:auto; }
+.app-tabs a {
+ display:flex; flex-direction:column; align-items:center; justify-content:center; gap:4px; min-width:0;
+ text-decoration:none; color:var(--app-muted); text-align:center; border-radius:9px;
+}
+.app-tabs a:focus-visible { outline-offset:-3px; }
+.app-tabs a[aria-current] { color:var(--app-ink); font-weight:700; }
+.app-tab-icon { display:grid; place-items:center; width:46px; height:29px; border:1px solid transparent; border-radius:7px; }
+.app-tab-icon svg { width:21px; height:21px; fill:none; stroke:currentColor; stroke-width:1.65; stroke-linecap:round; stroke-linejoin:round; }
+.app-tabs a[aria-current] .app-tab-icon { border-color:var(--app-line); background:var(--app-soft); }
+.app-tabs a[data-app-tab="home"][aria-current] .app-tab-icon { color:#fff; background:var(--app-ink); border-color:var(--app-ink); }
+.app-tabs[inert] a { opacity:.6; }
+@media (hover:hover) { .app-tabs a:hover .app-tab-icon { border-color:var(--app-ink); } }
+@media (max-height:460px) and (orientation:landscape) {
+ :root { --app-tab-base:47px; }
+ .app-tabs a { flex-direction:row; gap:4px; }
+ .app-tab-icon { width:30px; height:26px; }
+}
+
+/* The atlas and full-screen practice share the height above the navigation. */
+.galaxy-studio,.picture-page,.conjugation-page { height:var(--app-content-height); bottom:var(--app-tabs-height); }
+#toast { bottom:calc(var(--app-tabs-height) + 16px); z-index:45; background:var(--app-ink); color:white; }
+.galaxy-studio .atlas-brand img { filter:grayscale(1) brightness(.35); }
+.galaxy-studio .word-node text,.galaxy-studio .word-node:is([data-type=topic],[data-type=ending],.surrounding-word) text { fill:var(--app-ink); }
+.galaxy-studio .word-node.selected text { fill:#fff; }
+.galaxy-studio .word-node:is(.surrounding-word,.selected) .bubble { filter:none; }
+.galaxy-studio .surrounding-word .bubble { fill:#f0efe7; stroke:#85847b; }
+.galaxy-studio .word-node.selected .selection-orbit { stroke:#4d4d43; }
+.galaxy-studio .word-node.departing-word.was-selected text { fill:#fff; }
+.galaxy-studio .atlas-word:is(:hover,:focus-visible) .atlas-hit { stroke:var(--app-ink); }
+.galaxy-studio .proficiency-mark { stroke:var(--app-paper); stroke-width:1.5px; fill:var(--rating); vector-effect:non-scaling-stroke; }
+.galaxy-studio :is(.search-results .form-analysis,.connection-pager,.meaning-base) { background:var(--app-paper); border-color:var(--app-line); color:var(--app-ink); }
+.galaxy-studio .meaning-card[data-expanded="true"] { background:var(--app-paper); box-shadow:0 6px 26px #1d1d121f; }
+.galaxy-studio .sheet-toggle :is(#meaningPos,.sheet-invitation,.sheet-chevron),.galaxy-studio .bookmark-button { color:var(--app-muted); }
+.galaxy-studio .bookmark-button[aria-pressed="true"] { color:var(--app-ink); }
+.galaxy-studio .bookmark-button:hover { background:var(--app-soft); }
+.galaxy-studio .meaning-main { border-color:var(--app-line); }
+.galaxy-studio .meaning-card[data-expanded="true"] .definition-language { color:var(--app-muted); font-size:.75rem; }
+.galaxy-studio .meaning-card .sheet-scroll { scrollbar-color:#9e9d91 transparent; }
+.galaxy-studio .meaning-card :is(#meaningDefinition,#meaningEnglish,.origin-line,.origin-chip,.homonym-gloss,.homonym-number,.declension-table td,.case-name,.searched-form,.searched-form strong,.meaning-base) { color:var(--app-ink); }
+.galaxy-studio .meaning-card :is(.definition-language,.meaning-grammar,.meaning-grammar span,.meaning-context,.meaning-example,.meaning-usage,.meaning-source,.meaning-source a,.other-senses,.other-senses summary,.sense-az,.sense-en,.frequency-meter,.section-label,.word-chip,.quiet-link,.origin-chain,.origin-text,.origin-source,.origin-chip-en,.homonym-note,.homonym-pos,.declension-note,.case-question,.declension-table thead th,.translation-notice,.relation-source,.relation-register,.relation-sense-en) { color:var(--app-muted); }
+.galaxy-studio .meaning-card :is(.meaning-source a,.meaning-context a,.other-senses li,.declension-table th,.declension-table td,.origin-chip,.frequency-level,.owner-filters button) { border-color:var(--app-line); }
+.galaxy-studio .meaning-card :is(.word-chip,.origin-chip,.meaning-example,.other-senses,.case-group) { background:var(--app-soft); }
+.galaxy-studio .meaning-card .word-chip { border-color:var(--app-line); }
+.galaxy-studio .meaning-card .word-chip:hover { color:var(--app-ink); border-color:var(--app-ink); }
+.galaxy-studio .meaning-card .owner-filters button[aria-pressed="true"] { background:var(--app-ink); color:#fff; }
+
+/* Keep the original tools in the same light palette. */
+:is(dialog,.conjugation-page,.picture-page,.race-hud,.race-preparing) { background:var(--app-paper); color:var(--app-ink); }
+:is(.learning-dialog,.race-dialog,.library-dialog) { background:var(--app-paper); }
+:is(dialog,.race-hud,.race-preparing) { border-color:#66655c; box-shadow:0 12px 42px #17171030; }
+:is(dialog,.conjugation-page,.picture-page) a { color:var(--app-ink); }
+:is(dialog,.conjugation-page,.picture-page) :is(button,.quiet-link,.close-button,h2,h3,strong,.section-label,.eyebrow) { color:var(--app-ink); }
+:is(dialog,.conjugation-page,.picture-page) :is(small,.learning-date,.learning-note,.learning-pos,.definition-language,.library-meta,.quiz-progress-line,.quiz-intro-meta,.menu-dialog .collection-size,.map-note,.picture-note,.picture-progress,.picture-best,.picture-hint,.picture-lead,.conjugation-notice,.meaning-caption,.wheel-instructions,.grammar-tags,.grammar-en,.grammar-source,.frequency-note,.frequency-rank,.gestures,.gesture-guide p,.offline-panel p) { color:var(--app-muted); }
+:is(dialog,.conjugation-page,.picture-page) :is(.collection-size,.menu-footer,.map-settings,.offline-panel,.learning-definition,.quiz-feedback,.quiz-review-row,.library-row,.grammar-row,.grammar-group,.picture-dock,.picture-review-row,.conjugation-header,.conjugation-meaning,.conjugation-persons,.verb-choice) { border-color:var(--app-line); }
+:is(dialog,.conjugation-page,.picture-page) :is(.menu-actions button,.region-directory button,.secondary-button,.library-tabs button,.quiz-option,.picture-option,.picture-chip,.polarity-control,.question-toggle,.wheel-guide,.race-modes button) { border-color:#8a897d; }
+:is(dialog,.conjugation-page,.picture-page) :is(.menu-actions button,.region-directory button,.library-row,.grammar-row,.quiz-option,.secondary-button,.picture-option,.race-route,.library-search,.grammar-shortcut,.verb-search-results,.conjugation-archive-panel,.archive-download) { background:var(--app-ivory); color:var(--app-ink); }
+:is(dialog,.conjugation-page,.picture-page) :is(.menu-actions button,.region-directory button,.library-row,.grammar-row,.quiz-option,.secondary-button,.picture-option,.grammar-shortcut,.verb-search-results button,.wheel-shortcut):hover { background:var(--app-soft); }
+:is(dialog,.conjugation-page,.picture-page) :is(.primary-button,.library-tabs button[aria-pressed="true"],.race-modes button[aria-pressed="true"],.picture-modes button[aria-pressed="true"],.picture-chip[aria-pressed="true"],.polarity-control button[aria-pressed="true"],.form-categories button[aria-pressed="true"],.question-toggle[aria-pressed="true"]) { background:var(--app-ink); color:#fff; border-color:var(--app-ink); }
+:is(dialog,.picture-page) .primary-button:hover { background:#3a3930; color:#fff; }
+:is(dialog,.picture-page) .picture-chip[aria-pressed="true"] small { color:#efeee6; }
+:is(.learning-dialog .quiz-option,.picture-page .picture-option).correct { background:#e6f5e9; color:#1d552d; border-color:#2d6740; }
+:is(.learning-dialog .quiz-option,.picture-page .picture-option).incorrect { background:#faeeea; color:#842b23; border-color:#a84c3e; }
+.menu-dialog :is(.motion-setting,.motion-setting select) { border-color:var(--app-line); color:var(--app-ink); }
+.menu-dialog .motion-setting select { background:var(--app-paper); color-scheme:light; }
+.menu-dialog .region-directory button::before { background:var(--app-muted); }
+.picture-header,.conjugation-notice { background:var(--app-paper); }
+.picture-page #pictureStart { box-shadow:0 0 0 8px var(--app-paper); }
+.picture-page #picturePrompt,.picture-page :is(.picture-stage,.review-picture) { color:var(--app-ink); }
+.picture-page .picture-stage:not(.is-word) { background:var(--app-ivory); border-color:var(--app-line); }
+.picture-page .picture-meter,.picture-page .picture-meter::-webkit-progress-bar { background:var(--app-soft); }
+.picture-page .picture-meter::-webkit-progress-value { background:var(--app-ink); }
+.picture-page .picture-meter::-moz-progress-bar { background:var(--app-ink); }
+.picture-page :is(.feedback-az,.feedback-en,.review-en,.option-number) { color:var(--app-muted); }
+.picture-page .feedback-mark,.picture-page .review-mark { color:#9a3e35; }
+.picture-page .is-correct :is(.feedback-mark,.review-mark) { color:#28673f; }
+.conjugation-page :is(.suffix-lane,.fixed-verb-stem,.fixed-verb-prefix,.verb-search-wrap input,.conjugation-meaning p,.conjugation-meaning>small,.tense-heading>span,.tense-heading small) { color:var(--app-ink); }
+.conjugation-page .conjugation-persons button[aria-pressed="true"] { color:var(--app-ink); background:var(--app-soft); }
+.conjugation-page .conjugation-persons button[aria-pressed="true"]::after { background:var(--app-ink); }
+.conjugation-page .polarity-control #conjugationNegative[aria-pressed="true"] { background:#403c34; }
+.conjugation-page .verb-search-results input::placeholder,.conjugation-page .library-search::placeholder,.conjugation-page .verb-search-wrap input::placeholder { color:var(--app-muted); }
+@media (forced-colors:active) {
+ .app-tabs a[aria-current] .app-tab-icon { border-color:Highlight; }
+ .galaxy-studio #bubbles .word-node text,.galaxy-studio #bubbles .word-node.selected text { fill:CanvasText; }
+}

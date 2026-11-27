@@ -45,6 +45,8 @@ search('guzel');
 assert.equal(all('.study-word-row')[0].dataset.word,'gözəl','The same atlas alias resolves to the canonical headword');
 select(row('gözəl').querySelector('select'),'3');
 assert.equal(study.word('gözəl').rating,3);
+assert(!row('gözəl').querySelector('[data-action="practice"]'),'A proficient word just needs a library entry');
+select(row('gözəl').querySelector('select'),'2');
 click('Practice',row('gözəl'));click('gözəl',row('gözəl'));
 assert.deepEqual(actions.slice(-2),[['practice','gözəl'],['map','gözəl']]);
 click('My words');
@@ -55,7 +57,7 @@ select(row('gözəl').querySelector('select'),'0');assert.equal(study.word('göz
 select(one('[aria-label="Filter your library"]'),'0');assert(row('gözəl'));
 click('Find words');search('');click('Rate common words');
 const placement=one('.study-placement-word').textContent;
-click('Know well');assert.equal(study.word(placement).rating,2);assert.notEqual(one('.study-placement-word').textContent,placement);
+click('Not well enough');assert.equal(study.word(placement).rating,2);assert.notEqual(one('.study-placement-word').textContent,placement);
 const skipped=one('.study-placement-word').textContent;
 click('Skip this word');assert.equal(study.word(skipped),null);
 click('Finish rating');assert(!one('.study-placement-word'));

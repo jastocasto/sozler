@@ -1,6 +1,7 @@
 /* A persistent canvas atlas with a bounded, accessible SVG physics layer. */
 (function(root){
 'use strict';
+const proficiencyColours=['#b83235','#bc541c','#9b760b','#28754c'];
 function mount({model,onSelect,onLocation,onView,motionPreference='system'}){
  const G=root.WordGalaxy,P=root.WordPhysics,C=root.ConnectionLayout,types=root.WordWeb.types,$=id=>document.getElementById(id),NS='http://www.w3.org/2000/svg';
  const atlas=G.createAtlas(root.WORD_GALAXY_DATA,model),canvas=$('universeCanvas'),graph=$('graph'),labels=$('atlasLabels'),map=$('map');
@@ -41,6 +42,7 @@ function mount({model,onSelect,onLocation,onView,motionPreference='system'}){
  const glyphBuffer={glyphs:atlas.points.map((point,i)=>({point,screen:screens[i],r:0,body:0,labelOpacity:0,fontSize:8.5,lines:null,cx:0,cy:0})),visible:[]};
  const el=(name,attrs={},text)=>{const e=document.createElementNS(NS,name);for(const[k,v]of Object.entries(attrs))e.setAttribute(k,v);if(text!==undefined)e.textContent=text;return e;};
  const contextWords=el('g',{class:'surrounding-words'}),contextLinks=el('g',{class:'surrounding-links'});
+ let wordRatings=new Map(),ratedPoints=[];
  let arrivalLight=1;
  // The expanded card overlays the map. Keep the resting word layout anchored
  // in the space above the compact card, legend and controls.
@@ -247,7 +249,7 @@ function mount({model,onSelect,onLocation,onView,motionPreference='system'}){
     if(!p.el.classList.contains('departing-word')){
      const g=p.el.cloneNode(true);g.classList.add('departing-word');
      g.querySelector('.arrival-trail')?.remove();
-     if(g.classList.contains('selected')){g.classList.remove('selected');g.querySelector('text').style.fill='#392614';}
+     if(g.classList.contains('selected')){g.classList.remove('selected');g.classList.add('was-selected');}
      g.removeAttribute('tabindex');g.removeAttribute('role');g.setAttribute('aria-hidden','true');
      g.addEventListener('pointerdown',e=>{
       if(navigationLocked||p.departure.opacity<=.25)return;
@@ -257,11 +259,11 @@ function mount({model,onSelect,onLocation,onView,motionPreference='system'}){
       }
       start(e,null,p.point);
      });
-     p.el=g;p.circle=g.querySelector('.bubble');p.label=g.querySelector('text');p.orbit=g.querySelector('.selection-orbit');
+     p.el=g;p.circle=g.querySelector('.bubble');p.label=g.querySelector('text');p.orbit=g.querySelector('.selection-orbit');p.ratingMark=g.querySelector('.proficiency-mark');
      p.departure.hit=el('path',{class:'departure-hit',fill:'none',stroke:'transparent','stroke-linecap':'round','aria-hidden':'true'});
      g.prepend(p.departure.hit);
      if(p.departure.showTrail){
-      p.departure.trail=el('path',{class:'departure-trail',fill:p.circle.getAttribute('fill'),'fill-opacity':'.58'});
+      p.departure.trail=el('path',{class:'departure-trail',fill:types[p.type]?.color||'#73736b','fill-opacity':'.58'});
       g.prepend(p.departure.trail);
      }
     }
@@ -272,19 +274,19 @@ function mount({model,onSelect,onLocation,onView,motionPreference='system'}){
    const g=el('g',{class:'word-node'+(chosen?' selected':'')+(!p.local?' surrounding-word':''),tabindex:'0',role:'button','data-word':p.node.w,'data-type':p.type});
    g.append(el('title'));p.relation=relation;describeWord(g,p.node,relation,chosen);
    if(p.trailEnabled&&!reduced&&(p.waiting||p.launch)){
-    p.trail=el('path',{class:'arrival-trail',fill:t?.color||'#c8d2d5','pointer-events':'none','aria-hidden':'true',opacity:0});
+    p.trail=el('path',{class:'arrival-trail',fill:t?.color||'#8c8b81','pointer-events':'none','aria-hidden':'true',opacity:0});
     g.append(p.trail);
    }
-   if(chosen)g.append(el('circle',{r:p.r+7,class:'selection-orbit',fill:'none',stroke:'#f4d1a4','stroke-width':1.15,'stroke-dasharray':'2 5'}));
-   g.append(el('circle',{r:p.r,class:'bubble',fill:chosen?'#ecaa6b':t?t.fill:'#41423f',stroke:chosen?'#ffd8ad':t?t.border:'#77796e','stroke-width':chosen?.8:.55}));
-   const label=G.fitLabel(p.node.w,p.homeR,G.clamp(p.homeR*.43,8.5,p.local?(chosen?48:40):12),(word,size)=>{context.font=size+'px Georgia, serif';return context.measureText(word).width;}),size=label.fontSize,lines=label.lines,text=el('text',{'text-anchor':'middle','font-size':size,fill:chosen?'#302f2c':t?.text||'#bdbdb3'});
+   if(chosen)g.append(el('circle',{r:p.r+7,class:'selection-orbit',fill:'none',stroke:'#54534a','stroke-width':1.15,'stroke-dasharray':'2 5'}));
+   g.append(el('circle',{r:p.r,class:'bubble',fill:chosen?'#22221b':p.local?'#fffefa':'#f0efe7',stroke:chosen?'#22221b':'#717066','stroke-width':chosen?1.15:.75}));
+   const label=G.fitLabel(p.node.w,p.homeR,G.clamp(p.homeR*.43,8.5,p.local?(chosen?48:40):12),(word,size)=>{context.font=size+'px Georgia, serif';return context.measureText(word).width;}),size=label.fontSize,lines=label.lines,text=el('text',{'text-anchor':'middle','font-size':size,fill:chosen?'#fff':'#191915'});
    lines.forEach((line,i)=>text.append(el('tspan',{x:0,y:(i-(lines.length-1)/2)*(size+2)+size*.32},line)));g.append(text);p.label=text;p.circle=g.querySelector('.bubble');p.orbit=g.querySelector('.selection-orbit');
    g.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();onSelect(p.node);}});g.addEventListener('pointerdown',e=>start(e,p));
    g.addEventListener('pointerenter',e=>{if(e.pointerType==='touch')return;hover=p.node.id;trace();if(!reduced){p.scaleV=.025;kick();}});
    g.addEventListener('pointerleave',()=>{if(hover===p.node.id)hover=null;trace();});
    g.addEventListener('focus',()=>{focusedId=p.node.id;hover=null;trace();});
    g.addEventListener('blur',()=>{if(focusedId===p.node.id)focusedId=null;trace();});
-   p.el=g;(p.local?nextBubbles:contextWords).append(g);
+   p.el=g;p.ratingMark=null;syncProficiencyMark(p);(p.local?nextBubbles:contextWords).append(g);
    if(focusedWord===p.node.w||(chosen&&departures.has(model.byWord.get(focusedWord)?.id)))refocus=g;
   }
   $('bubbles').replaceChildren(nextBubbles);refocus?.focus?.({preventScroll:true});
@@ -295,6 +297,37 @@ function mount({model,onSelect,onLocation,onView,motionPreference='system'}){
   const name=[node.w,node.en].filter(Boolean).join(': ')+(chosen?' — seçilmiş söz':'');
   control.setAttribute('aria-label',relation?name+' — '+relation:name);
   control.querySelector('title').textContent=relation||[node.w,[node.az,node.en].filter(Boolean).join(' / ')].filter(Boolean).join(' · ');
+ }
+ function placeProficiencyMark(p){
+  const offset=p.r*.66;
+  p.ratingMark.setAttribute('cx',offset);p.ratingMark.setAttribute('cy',-offset);
+  p.ratingMark.setAttribute('r',G.clamp(p.r*.18,1.5,5));
+ }
+ function syncProficiencyMark(p){
+  const level=wordRatings.get(p.node.w);
+  if(level===undefined){p.ratingMark?.remove();p.ratingMark=null;return;}
+  if(!p.ratingMark){
+   p.ratingMark=el('circle',{class:'proficiency-mark','aria-hidden':'true','pointer-events':'none'});
+   p.el.append(p.ratingMark);
+  }
+  p.ratingMark.setAttribute('data-rating',level);placeProficiencyMark(p);
+ }
+ function setWordRatings(ratings){
+  wordRatings=ratings;ratedPoints=[];
+  for(const [word,level] of ratings){
+   const point=atlas.byWord.get(word);
+   if(point)ratedPoints.push({point,screen:allScreens.get(word),fill:proficiencyColours[level]});
+  }
+  for(const p of bodies)if(p.el)syncProficiencyMark(p);
+  dirty=true;wake();
+ }
+ function drawRatings(){
+  for(const {point,screen,fill} of ratedPoints){
+   if(movingIds.has(point.node.id)||screen.occluded||!isVisible(screen,0))continue;
+   const bubble=G.clamp(camera.zoom*36*(screen.depth||1),0,48),offset=bubble>9?bubble*.60:0;
+   context.fillStyle=fill;context.beginPath();
+   context.arc(screen.x+offset,screen.y-offset,G.clamp(bubble*.17,1.8,4.5),0,Math.PI*2);context.fill();
+  }
  }
  function refreshText(){
   panel.refresh();
@@ -370,6 +403,7 @@ function mount({model,onSelect,onLocation,onView,motionPreference='system'}){
   context.globalAlpha=1;
   const wordFlight=reduced||paused||pageHidden||document.hidden?null:selectionTravel;
   sky.drawStars(context,projected,width,height,camera.zoom,movingIds,project,wordFlight,clock);
+  drawRatings();
   sky.drawFlightTrails(context,projected,project,particles[0],width,height,wordFlight,clock);
   hitDots=movingIds.size?projected.filter(v=>!movingIds.has(v.point.node.id)):projected;
   if(view==='word'){if(labels.firstChild)labels.replaceChildren();}else {renderLabels(project);renderAtlasControls();}
@@ -381,7 +415,7 @@ function mount({model,onSelect,onLocation,onView,motionPreference='system'}){
   if(areaLabels.has(area))return areaLabels.get(area);
   const button=document.createElement('button'),title=document.createElement('span'),count=document.createElement('small'),leader=document.createElement('i');
   button.type='button';button.className='atlas-label '+kind+'-label';button.dataset[kind]=area.id;
-  button.style.setProperty('--tint',atlas.regions[kind==='region'?area.index:area.region].color);
+  button.style.setProperty('--tint','#74746a');
   title.className='area-name';title.textContent=area.label;count.textContent=countFormat.format(area.count)+' söz';
   leader.className='atlas-leader';leader.setAttribute('aria-hidden','true');
   button.setAttribute('aria-label',area.label+' — '+count.textContent+', yaxınlaş');button.append(title,count,leader);
@@ -801,6 +835,7 @@ function mount({model,onSelect,onLocation,onView,motionPreference='system'}){
    if(offscreen)continue;
    p.el.setAttribute('transform',`translate(${p.x.toFixed(3)} ${p.y.toFixed(3)}) scale(${p.scale.toFixed(3)})`);
    p.circle.setAttribute('r',p.r);
+   if(p.ratingMark)placeProficiencyMark(p);
    if(p.orbit){p.orbit.setAttribute('r',p.r+7);p.orbit.setAttribute('opacity',G.clamp(p.r/18,0,1));}
    p.label.setAttribute('transform','scale('+p.r/p.homeR+')');
    p.label.setAttribute('opacity',p.depth===0?G.clamp((p.r-2)/10,0,1):G.clamp((p.r-6)/10,0,1));
@@ -1166,7 +1201,7 @@ function mount({model,onSelect,onLocation,onView,motionPreference='system'}){
  const systemMotionChanged=()=>setMotionPreference(motionPreference);
  if(media?.addEventListener)media.addEventListener('change',systemMotionChanged);
  else media?.addListener?.(systemMotionChanged);
- new ResizeObserver(()=>{if(map.clientWidth!==width||map.clientHeight!==height){cancelGestures();resize();}}).observe(map);
+ new ResizeObserver(()=>{if(map.clientWidth&&map.clientHeight&&(map.clientWidth!==width||map.clientHeight!==height)){cancelGestures();resize();}}).observe(map);
  new ResizeObserver(()=>{
   if(measureWordStage()){
    if(selectionTravel)retargetWordFlight();
@@ -1174,7 +1209,7 @@ function mount({model,onSelect,onLocation,onView,motionPreference='system'}){
   }
  }).observe(wordFooter);
  resize();
- return {atlas,select,home,setMotionPreference,setRaceRoute:route=>{raceRoute=route;needsRefresh=dirty=true;wake();},refreshText,setNavigationLocked:value=>{cancelGestures();if(value)panel.close();navigationLocked=!!value;syncOrbit();},isCenteredWord:word=>selected?.word===word&&view==='word'&&!selectionTravel&&!!particles[0]&&Math.hypot(particles[0].x-focusLayout.center.x,particles[0].y-focusLayout.center.y)<.1,visibleWords:()=>[...new Set([...bodies.filter(p=>!p.departure&&p.r>=10&&p.x-p.r>=8&&p.x+p.r<=width-8&&p.y-p.r>100&&p.y+p.r<height-130).map(p=>p.node.w),...hitDots.filter(p=>p.labelOpacity>.2&&p.screen.x-p.r>=8&&p.screen.x+p.r<=width-8&&p.screen.y-p.r>100&&p.screen.y+p.r<height-130).map(p=>p.point.word)])],focus:focusSelected,zoom,visitRegion:id=>visitArea(atlas.regions.find(r=>r.id===id),'region'),visitCluster:id=>visitArea(atlas.clusters.find(c=>c.id===id),'cluster'),setFilters,suspend,setPageHidden,resize,
+ return {atlas,select,home,setMotionPreference,setWordRatings,setRaceRoute:route=>{raceRoute=route;needsRefresh=dirty=true;wake();},refreshText,setNavigationLocked:value=>{cancelGestures();if(value)panel.close();navigationLocked=!!value;syncOrbit();},isCenteredWord:word=>selected?.word===word&&view==='word'&&!selectionTravel&&!!particles[0]&&Math.hypot(particles[0].x-focusLayout.center.x,particles[0].y-focusLayout.center.y)<.1,visibleWords:()=>[...new Set([...bodies.filter(p=>!p.departure&&p.r>=10&&p.x-p.r>=8&&p.x+p.r<=width-8&&p.y-p.r>100&&p.y+p.r<height-130).map(p=>p.node.w),...hitDots.filter(p=>p.labelOpacity>.2&&p.screen.x-p.r>=8&&p.screen.x+p.r<=width-8&&p.screen.y-p.r>100&&p.screen.y+p.r<height-130).map(p=>p.point.word)])],focus:focusSelected,zoom,visitRegion:id=>visitArea(atlas.regions.find(r=>r.id===id),'region'),visitCluster:id=>visitArea(atlas.clusters.find(c=>c.id===id),'cluster'),setFilters,suspend,setPageHidden,resize,
   inspect:()=>({navigationLocked,orbitMode,pinching:!!pinch,pinchPreview:pinch?.preview?{...pinch.preview}:null,camera:{...camera},view,flight:!!flight,cameraTravelling:!!selectionTravel,selectionAnchor:selectionTravel?{...selectionTravel.anchor}:null,gathering:!settled,detailScale,detailPan:{...detailPan},settled,focusCenter:focusLayout?{...focusLayout.center}:null,lines:links.map(e=>({id:e.id,a:e.a.node.w,b:e.b.node.w,path:e.el.getAttribute('d'),color:e.el.getAttribute('stroke'),highlighted:e.highlighted,visible:e.el.style.display!=='none'})),particles:particles.map(p=>({word:p.node.w,x:p.x,y:p.y,r:P.radius(p),visualRadius:p.r,waiting:p.waiting,releaseAt:p.releaseAt,targetX:p.homeX,targetY:p.homeY,arrived:p.arrived,vx:p.vx,vy:p.vy})),surroundings:surroundings.map(p=>({word:p.node.w,x:p.x,y:p.y,r:P.radius(p)})),points:atlas.points.length,visible:projected.length,atlasGlyphs:projected.filter(v=>!movingIds.has(v.point.node.id)).map(v=>({word:v.point.word,x:v.screen.x,y:v.screen.y,r:v.r,labelOpacity:v.labelOpacity})),atlasLines:atlasLines.map(({edge,a,b})=>({id:edge.id,a:edge.from.word,b:edge.to.word,x1:a.x,y1:a.y,x2:b.x,y2:b.y,color:'#bcbdb7'})),atlasLanes:atlasLanes.map(l=>({...l})),atlasConnectionMode,atlasDustReady:sky.cloudsReady,availableAtlasEdgeCount:atlas.edges.length,screenPositions:[...allScreens].map(([word,p])=>({word,x:p.x,y:p.y})),reduced,motionPreference,paused,connectionPage:0,connectionPages:1,connectionCapacity:related.size,relatedWords:[...related.keys()],focusBounds:focusLayout?.bounds||null,contained:focusLayout?.contained||false})};
 
 }

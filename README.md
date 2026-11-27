@@ -8,10 +8,11 @@ Söz Toxuması is an interactive 3D atlas of **90,856 Azerbaijani headwords and 
 
 ## Personal study
 
-**Məşq** opens the daily study desk at `#study`. The routine is built for advanced Azerbaijani listening, reading and speaking. It starts at 20 minutes, follows the Baku calendar, and can become the preferred start screen in **Settings & backup**.
+Sozler opens on **Home** with today’s tasks and progress. The bottom navigation is **Kainat**, **Vocab**, **Home**, **Study**, and **Settings**. The study routine follows the Baku calendar and starts at 20 minutes.
 
-- **Today** rotates guided Söhbətgah and Əkinçi activities and prioritises due reviews. New word suggestions draw on the learner’s bookmarks, documented word connections, interview vocabulary and the frequency-ranked atlas.
-- **My words** supports four self-ratings, personal source phrases, timestamps and direct practice. Studying a word or answering a dictionary or picture quiz begins its history. An untouched headword has an unassessed status. Existing atlas bookmarks are available to add.
+- **Vocab** starts with a goal of 10 new flashcards a day. Flip a card to see its definitions, then rate it red, orange, yellow, or green. The three learning banks schedule reviews one, three, and seven days after a card rating. Green words stay in the personal library and leave scheduled review. Find a word using any atlas headword or browse the banks and their source notes.
+- **Kainat** starts with monochrome stars on white. Rated words show their proficiency color. Relationship keys keep their own five colors underneath the word card.
+- **Study** brings together the rotating Söhbətgah and Əkinçi activities, grammar, listening and independent speaking practice.
 - **Listening desk** opens the publishers’ original programmes, or loops a passage from a local audio/video file at an adjustable speed. The structured listening exercises include 16 human-read Azerbaijani recordings from nine Common Voice contributors. Source and CC0 attribution accompany the recordings. There are 33 contextual lessons in seven skills, including interpreting implied meaning and reconstructing a phrase.
 - **Progress** distinguishes first-pass listening, supported answers, recall and independently self-checked sentence use. It reports daily activity, grammar practice, and coverage of the full dictionary and the most frequent words. The learner controls the proficiency rating.
 - Personal records stay in browser storage. **Download backup** and **Restore from file** move a versioned JSON journal between devices and merge repeated imports. Media files are selected separately. The completed offline package includes the study interface, lesson bank and volunteer recordings. Publisher video links require connectivity.

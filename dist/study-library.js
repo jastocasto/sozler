@@ -1,16 +1,16 @@
 (function(root){
 'use strict';
 
-const levels=['Don’t know yet','Know a little','Know well','Use proficiently'];
+const levels=['Don’t know','Barely know','Not well enough','Proficient'];
 const collator=new Intl.Collator('az');
 const numbers=new Intl.NumberFormat('en');
 const pageSize=15;
 const count=(n,noun)=>numbers.format(n)+' '+noun+(n===1?'':'s');
 
-function mount({host,study,model,openWord,practiceWord,onChange,savedWords}){
+function mount({host,study,model,openWord,practiceWord,onChange,savedWords,openBanks,reviewBank}){
  const document=host.ownerDocument;
  const fold=root.WordWeb.normalize;
- let scope='mine',filter='all',sort='recent',mineQuery='',atlasQuery='',page=0,placing=false;
+ let scope='mine',filter='all',sort='recent',mineQuery='',atlasQuery='',page=0,placing=false,activeBank=null;
  let records=[],byWord=new Map(),placementIndex=0,searchTimer=0;
  let libraryUI=null;
 
@@ -117,6 +117,7 @@ function mount({host,study,model,openWord,practiceWord,onChange,savedWords}){
  function wordRow(n,record){
   const row=make('li','study-word-row');
   row.dataset.word=n.w;
+  if(record?.rating!=null)row.dataset.rating=String(record.rating);
   const body=make('div','study-word-main');
   const name=button(n.w,'study-word-name',()=>openWord(n.w));
   name.lang='az';
@@ -140,7 +141,7 @@ function mount({host,study,model,openWord,practiceWord,onChange,savedWords}){
     addWord(n.w);renderResults({word:n.w,action:'practice'});
    });
    actions.append(add);
-  }else{
+  }else if(record.rating!==3){
    const practice=button('Practice','study-button study-secondary',()=>practiceWord(n.w));
    practice.dataset.action='practice';
    practice.setAttribute('aria-label','Practice '+n.w);
@@ -225,11 +226,11 @@ function mount({host,study,model,openWord,practiceWord,onChange,savedWords}){
   const query=fold(mineQuery.trim()),day=study.day();
   const entries=records.filter(record=>matches(record,day,query));
   if(sort==='recent')entries.sort((a,b)=>b.added.localeCompare(a.added));
-  if(sort==='due')entries.sort((a,b)=>a.due.localeCompare(b.due));
+  if(sort==='due')entries.sort((a,b)=>(a.due||'\uffff').localeCompare(b.due||'\uffff'));
   page=Math.min(page,Math.max(0,Math.ceil(entries.length/pageSize)-1));
   if(!entries.length){
-   results.append(empty(records.length?'No library words match these filters.':'Your library is ready. Add something you heard recently, or rate a word you already use.'));
-   if(!records.length)results.append(button('Find a word','study-button',()=>changeScope('find',true)));
+   results.append(empty(activeBank!==null?'No words in this bank match your search.':records.length?'No library words match these filters.':'Your library is ready. Add something you heard recently, or rate a word you already use.'));
+   if(!records.length&&activeBank===null)results.append(button('Find a word','study-button',()=>changeScope('find',true)));
    return;
   }
   const first=page*pageSize,shown=entries.slice(first,first+pageSize);
@@ -267,7 +268,8 @@ function mount({host,study,model,openWord,practiceWord,onChange,savedWords}){
  function renderResults(focus=null){
   if(!libraryUI||!host.contains(libraryUI.page))return;
   const {results,description}=libraryUI;
-  description.textContent=count(records.length,'word')+' in your personal library';
+  description.textContent=activeBank===null?count(records.length,'word')+' in your personal library':
+   count(records.filter(record=>record.rating===activeBank).length,'word')+' in this bank';
   results.replaceChildren();
   if(scope==='mine')renderMine(results);else renderFind(results);
   restoreRowFocus(results,focus);
@@ -276,17 +278,30 @@ function mount({host,study,model,openWord,practiceWord,onChange,savedWords}){
   scope=next;page=0;placing=false;library();
   if(focus)libraryUI.search.focus();
  }
- function library(){
+ function library({initialScope,level}={}){
+  if(initialScope){
+   scope=initialScope;activeBank=level??null;filter=activeBank===null?'all':String(level);
+   page=0;placing=false;
+   if(activeBank!==null)mineQuery='';
+  }
   clearTimeout(searchTimer);
   readRecords();
   const container=make('div','study-library');
-  const description=note('');container.append(description);
   const toolbar=make('div','study-library-toolbar'),switcher=make('div','study-segmented');
-  switcher.setAttribute('role','group');switcher.setAttribute('aria-label','Choose where to look for words');
-  for(const [key,text] of [['mine','My words'],['find','Find words']]){
-   const b=button(text,'study-tab',()=>changeScope(key));
-   b.setAttribute('aria-pressed',String(scope===key));switcher.append(b);
+  if(activeBank===null){
+   switcher.setAttribute('role','group');switcher.setAttribute('aria-label','Choose where to look for words');
+   for(const [key,text] of [['mine','My words'],['find','Find words']]){
+    const b=button(text,'study-tab',()=>changeScope(key));
+    b.setAttribute('aria-pressed',String(scope===key));switcher.append(b);
+   }
+  }else{
+   switcher.append(button('Word banks','study-button',openBanks));
+   if(activeBank<3){
+    const review=button('Review this bank','study-cta',()=>reviewBank(activeBank));
+    review.disabled=!study.reviewCards({level:activeBank,dueOnly:false}).length;switcher.append(review);
+   }
   }
+  const description=note('');container.append(description);
   toolbar.append(switcher);
   const search=make('input','study-input study-search');
   search.type='search';search.autocomplete='off';search.spellcheck=false;
@@ -306,8 +321,8 @@ function mount({host,study,model,openWord,practiceWord,onChange,savedWords}){
   if(scope==='mine'){
    const options=[['all','All levels'],['due','Due for review'],['note','With a saved context'],['both','Understood and used independently'],['unrated','Not rated'],...levels.map((v,i)=>[i,v])];
    const controls=make('div','study-library-filters');
-   controls.append(select('Filter your library',options,filter,value=>{filter=value;page=0;renderResults();}),
-    select('Sort your library',[['recent','Recently added'],['az','Alphabetical'],['due','Next review']],sort,value=>{sort=value;page=0;renderResults();}));
+   if(activeBank===null)controls.append(select('Filter your library',options,filter,value=>{filter=value;page=0;renderResults();}));
+   controls.append(select('Sort your library',[['recent','Recently added'],['az','Alphabetical'],['due','Next review']],sort,value=>{sort=value;page=0;renderResults();}));
    toolbar.append(controls);
   }
   const results=make('div','study-library-results'),message=make('p','study-library-status');
@@ -411,7 +426,10 @@ function mount({host,study,model,openWord,practiceWord,onChange,savedWords}){
   mastery.append(metrics);container.append(mastery,week(summary));
 
   const confidence=section('Your word ratings'),ratingList=make('dl','study-rating-counts');
-  levels.forEach((text,i)=>ratingList.append(make('dt','',text),make('dd','',numbers.format(summary.ratings[i]))));
+  levels.forEach((text,i)=>{
+   const label=make('dt','',text);label.dataset.rating=String(i);
+   ratingList.append(label,make('dd','',numbers.format(summary.ratings[i])));
+  });
   ratingList.append(make('dt','','In your library, not rated'),make('dd','',numbers.format(summary.tracked-summary.assessed)));
   confidence.append(ratingList);
   const due=records.filter(r=>r.due&&r.due<=summary.day).sort((a,b)=>a.due.localeCompare(b.due));

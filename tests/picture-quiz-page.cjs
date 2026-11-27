@@ -8,7 +8,7 @@ const history = { states: [], pushState(state, title, url) { this.states.push(ur
 Object.assign(window, { console, setTimeout, clearTimeout, setInterval: () => 0, matchMedia: () => ({ matches: false, addEventListener() {} }), ResizeObserver: class { observe() {} },
   requestAnimationFrame: () => 0, cancelAnimationFrame() {},
   localStorage: { getItem: k => storage.get(k) || null, setItem: (k, v) => { if (storageFails) throw Error('storage unavailable'); storage.set(k, v); } },
-  location: { hash: '' }, history });
+  location: { hash: '#kainat' }, history });
 Object.defineProperties(window.HTMLElement.prototype, { clientWidth: { get() { return 1000; } }, clientHeight: { get() { return 600; } } });
 window.HTMLElement.prototype.showModal = function () { this.setAttribute('open', ''); }; window.HTMLElement.prototype.close = function () { this.removeAttribute('open'); };
 window.HTMLElement.prototype.scrollIntoView = function () {};

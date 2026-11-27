@@ -18,15 +18,16 @@ assert.deepEqual(pair.map(r => r.edge.type).sort(), ['ant', 'root']);
 const ids = pair.map(r => r.edge.id).sort((a, b) => a - b);
 const target = node(neighbor), layer = $('links');
 assert.equal(node(selected).style.getPropertyValue('--word-surface') || '', '');
-assert.equal(node(selected).querySelector('.bubble').getAttribute('fill'), '#ecaa6b');
-assert.equal(target.querySelector('.bubble').getAttribute('fill'), window.WordWeb.types[target.dataset.type].fill);
-assert.equal($('bubbles').querySelector('.surrounding-word .bubble').getAttribute('fill'), '#41423f');
+assert.equal(node(selected).querySelector('.bubble').getAttribute('fill'), '#22221b');
+assert.equal(target.querySelector('.bubble').getAttribute('fill'), '#fffefa');
+assert.equal($('bubbles').querySelector('.surrounding-word .bubble').getAttribute('fill'), '#f0efe7');
 assert.equal(traced().length, 0);
 
 event(target, 'pointerenter', 'touch');
 assert.equal(traced().length, 0);
 event(target, 'pointerenter', 'mouse');
 assert.deepEqual(traced().map(p => Number(p.dataset.edgeId)).sort((a, b) => a - b), ids);
+assert.deepEqual(traced().map(p=>p.getAttribute('stroke')).sort(),pair.map(r=>window.WordWeb.types[r.edge.type].color).sort());
 assert.equal(new Set(traced().map(p => p.getAttribute('d'))).size, 2);
 assert(layer.classList.contains('tracing-relations'));
 for (const phrase of ['Əks məna', 'Eyni kök və törəmə sözlər']) {
@@ -45,7 +46,7 @@ event(node(selected), 'blur');
 
 $('filters').querySelector('[data-type="root"]').click();
 h.runUntilIdle();
-assert.equal(node(neighbor).querySelector('.bubble').getAttribute('fill'), window.WordWeb.types.ant.fill);
+assert.equal(node(neighbor).querySelector('.bubble').getAttribute('fill'), '#fffefa');
 event(node(neighbor), 'focus');
 assert.deepEqual(traced().map(p => Number(p.dataset.edgeId)), [pair.find(r => r.edge.type === 'ant').edge.id]);
 assert(!node(neighbor).getAttribute('aria-label').includes('Eyni kök və törəmə sözlər'));

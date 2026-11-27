@@ -7,7 +7,7 @@ const fetchJSON=window.SOZ_FETCH_JSON||((file,options)=>fetch(file,options).then
 const coreFile=document.getElementById('sozCore')?.getAttribute('href')||'soz-core.json';
 let core;try{core=fetchJSON(coreFile);}catch(error){core=Promise.reject(error);}
 if(core&&typeof core.then==='function')core.then(start,failed);else start(core);
-function failed(error){console.error(error);const message=document.createElement('p');message.textContent='Sözlər yüklənmədi. İnternet bağlantısını yoxlayıb səhifəni yeniləyin.';$('mapLoading').replaceChildren(message);}
+function failed(error){console.error(error);document.documentElement.classList.remove('study-launch');const message=document.createElement('p');message.textContent='Sözlər yüklənmədi. İnternet bağlantısını yoxlayıb səhifəni yeniləyin.';$('mapLoading').replaceChildren(message);}
 function start(core){
 const model=restoreModel(core,{fetchJSON});
 let textStatus='idle',appStarted=false,retriedText=false,textRetryTimer,wordRequest=null;
@@ -31,9 +31,10 @@ loadText();
 const posNames={word:'söz',noun:'isim',verb:'fel',adjective:'sifət',function:'qrammatik söz',form:'söz forması',adverb:'zərf',numeral:'say',pronoun:'əvəzlik',interjection:'nida',postposition:'qoşma',determiner:'təyinedici',conjunction:'bağlayıcı',particle:'ədat',preposition:'ön qoşma',phrase:'ifadə'};
 let saved;try{saved=new Set(JSON.parse(localStorage.getItem('soz-toxumasi:saved')||'[]').filter(w=>model.allByWord.has(w)).map(w=>model.aliases[w]||w));}catch{saved=new Set();}
 const state={selected:null,filters:new Set(Object.keys(types)),history:[],arrival:null,searchItems:[],searchIndex:0,libraryMode:'all',libraryLimit:60};
-let conjugation=null,pictureQuiz=null,activePage='map',returnHash='',routeOpening=false;
+let conjugation=null,pictureQuiz=null,activePage='map',grammarFromStudy=false,routeOpening=false;
 let race=null,morphology=null,personalStudy=null,studyDesk=null;
 let galaxy=null,sheetOpen=false,sheetGesture=null,suppressSheetClick=false,currentRegion=null,currentCluster=null;
+const atlasPage=document.querySelector('.galaxy-studio'),appTabs=Array.from($('appTabs').querySelectorAll('[data-app-tab]'));
 const motionKey='soz-toxumasi:motion',motionControl=$('motionPreference');
 function motionChoice(value){
  const mode=typeof value==='string'?value.trim().toLowerCase():'';
@@ -48,8 +49,9 @@ function initialMotion(){
  try{return motionChoice(localStorage.getItem(motionKey))||'system';}catch{return 'system';}
 }
 motionControl.querySelector('option[value="'+initialMotion()+'"]').selected=true;
-motionControl.addEventListener('change',()=>{
- const choice=motionChoice(motionControl.value)||'system';
+function saveMotion(value){
+ const choice=motionChoice(value)||'system';
+ motionControl.value=choice;
  galaxy?.setMotionPreference(choice);
  let stored=true;
  try{localStorage.setItem(motionKey,choice);}catch{stored=false;}
@@ -61,7 +63,8 @@ motionControl.addEventListener('change',()=>{
    history.replaceState(history.state,'',url.href);
   }catch{} // Restricted history still allows the selection to take effect for this page.
  }
-});
+}
+motionControl.addEventListener('change',()=>saveMotion(motionControl.value));
 const titleMeasure=document.createElement('canvas').getContext('2d');
 function fitMeaningTitle(){const title=document.getElementById('meaningWord'),holder=document.getElementById('sheetToggle');if(!title||!holder||!titleMeasure)return;const max=innerWidth<640?21:23,available=Math.max(80,holder.clientWidth-16);titleMeasure.font=max+'px Georgia, serif';const needed=Math.max(1,...title.textContent.split(/\s+/).map(word=>titleMeasure.measureText(word).width));title.style.fontSize=Math.min(max,max*available/needed)+'px';}
 window.addEventListener('resize',fitMeaningTitle);
@@ -252,7 +255,7 @@ function renderMeaning(n){
 function select(n,record=true,writeHash=true,viaEdge=null,initial=false,source='ordinary'){
  if(!n)return;const note=state.pendingForm;state.pendingForm=null;state.searchedForm=note&&note.node===n?note:null;if(race?.blocking&&!race.allow(n.w,source))return;if(activePage==='grammar'||activePage==='study')showMap(false);const previous=state.selected;state.arrival=null;
  if(previous&&previous.id!==n.id){const relation=viaEdge?{edge:viaEdge}:model.related(previous).find(x=>x.node.id===n.id);if(relation)state.arrival={from:previous.w,type:relation.edge.type,edge:relation.edge};if(record)state.history.push(previous.id);}
- state.selected=n;if(!initial)document.querySelector('.galaxy-studio').dataset.hasWord='true';if(writeHash)history.replaceState(null,'','#w='+encodeURIComponent(n.w));
+ state.selected=n;if(!initial)atlasPage.dataset.hasWord='true';if(writeHash)history.replaceState(null,'','#w='+encodeURIComponent(n.w));
  if(textStatus==='failed'&&navigator.onLine!==false)loadText();
  loadWordMeaning(n);
  $('backButton').hidden=!state.history.length;closeSearch();closeMenu();$('search').value='';if(document.activeElement===$('search'))$('search').blur();setSheet(false);detail();galaxy?.select(n,{initial});
@@ -337,7 +340,7 @@ function showSearch(){const query=$('search').value;const result=$('searchResult
 $('search').addEventListener('input',showSearch);$('search').addEventListener('focus',()=>{if($('search').value)showSearch();});
 $('search').addEventListener('keydown',e=>{if(e.key==='Escape'){closeSearch();return;}if($('searchResults').hidden)return;if(e.key==='ArrowDown'||e.key==='ArrowUp'){e.preventDefault();const count=state.searchItems.length;if(!count)return;state.searchIndex=(state.searchIndex+(e.key==='ArrowDown'?1:-1)+count)%count;for(const[b,i]of [...$('searchResults').children].map((b,i)=>[b,i]))b.setAttribute('aria-selected',i===state.searchIndex);$('search').setAttribute('aria-activedescendant','search-option-'+state.searchIndex);$('search-option-'+state.searchIndex).scrollIntoView({block:'nearest'});}if(e.key==='Enter'&&state.searchItems.length){e.preventDefault();const item=state.searchItems[state.searchIndex];if(item.analysis){chooseAnalysis(item.analysis);return;}if(item.conjugationOf){openAnalysisForm(item.conjugationOf);return;}if(item.grammarQuery){closeSearch();library(item.archiveMode||'grammar',item.grammarQuery);}else select(item);}});
 document.addEventListener('pointerdown',e=>{if(!e.target.closest('.search-wrap'))closeSearch();});
-document.addEventListener('keydown',e=>{if((e.metaKey||e.ctrlKey)&&e.key.toLowerCase()==='k'){e.preventDefault();if(activePage==='grammar')showMap(true);const open=document.querySelector('dialog[open]');if(open)open.close();$('search').focus();$('search').select();}});
+document.addEventListener('keydown',e=>{if((e.metaKey||e.ctrlKey)&&e.key.toLowerCase()==='k'){e.preventDefault();if(race?.blocking)return;const open=document.querySelector('dialog[open]');if(open)open.close();if(activePage!=='map')openAtlas();$('search').focus();$('search').select();}});
 function library(mode,query=''){if(mode==='grammar'){openGrammar(query);return;}if(activePage==='grammar')showMap(true);restoreLibrary();closeMenu();state.libraryMode=mode;state.libraryLimit=60;$('libraryTitle').textContent=mode==='common'?'Ən çox işlənən sözlər':mode==='saved'?'Yadda saxlananlar':mode==='grammar'?'Qrammatika':mode==='forms'?'Hal və cəm formaları':mode==='special'?'Xüsusi sözlər · Special':'Sözlük';$('librarySearch').value=query;$('librarySearch').placeholder=mode==='grammar'?'Fel və ya təsrif forması ilə axtar…':mode==='forms'?'Əsas söz və ya forma ilə axtar…':'Söz və ya məna ilə axtar…';$('librarySearch').setAttribute('aria-label',mode==='grammar'?'Qrammatika arxivində axtar':mode==='forms'?'Formalar arxivində axtar':'Sözlükdə axtar');$('grammarIntro').hidden=mode!=='grammar';$('formsIntro').hidden=mode!=='forms';for(const b of document.querySelectorAll('[data-library-mode]'))b.setAttribute('aria-pressed',b.dataset.libraryMode===mode);renderLibrary();if(!$('libraryDialog').open&&!$('libraryDialog').hasAttribute('open'))$('libraryDialog').showModal();}
 const grammarLabels={past:'keçmiş zaman',present:'indiki zaman',future:'gələcək zaman',negative:'inkar',positive:'təsdiq',singular:'tək',plural:'cəm','first-person':'I şəxs','second-person':'II şəxs','third-person':'III şəxs',participle:'feli sifət',imperative:'əmr şəkli',conditional:'şərt şəkli',indicative:'xəbər şəkli',converb:'feli bağlama',conjugated:'təsrif forması','non-past':'keçmiş olmayan zaman',definite:'müəyyən',indefinite:'qeyri-müəyyən',perfect:'bitmiş',imperfect:'bitməmiş',nominative:'adlıq hal',genitive:'yiyəlik hal',dative:'yönlük hal',accusative:'təsirlik hal',locative:'yerlik hal',ablative:'çıxışlıq hal',possessive:'mənsubiyyət',comitative:'birgəlik',comparative:'müqayisə',predicative:'xəbərlik',misspelling:'yazılış variantı'};
 const LEVEL_NAMES=['A1','A2','B1','B2','C1','C2'];
@@ -364,50 +367,88 @@ for(const d of document.querySelectorAll('dialog'))d.addEventListener('click',e=
 
 const archiveNodes=['grammarIntro','librarySearch','libraryMeta','libraryList','loadMore'];
 function restoreLibrary(){for(const id of archiveNodes)if($(id).parentElement!==$('libraryDialog'))$('libraryDialog').append($(id));}
-function showMap(writeRoute=true){const fromStudy=activePage==='study';if(fromStudy){studyDesk?.close();$('studyPage').hidden=true;}const restoreFocus=$('conjugationPage').contains(document.activeElement)||$('pictureQuizPage').contains(document.activeElement);conjugation?.close();pictureQuiz?.close();activePage='map';$('conjugationPage').hidden=true;$('pictureQuizPage').hidden=true;document.querySelector('.galaxy-studio').hidden=false;document.title='SÖZ — Söz kainatı';restoreLibrary();galaxy?.setPageHidden(false);if(fromStudy)$('studyButton').focus?.({preventScroll:true});else if(restoreFocus)$('menuButton').focus?.({preventScroll:true});if(writeRoute)history.replaceState(null,'',returnHash||'#w='+encodeURIComponent(state.selected?.w||'gözəl'));}
-function studyStore(){return personalStudy||(personalStudy=window.SozStudyUI.createStore(model));}
-function showStudyRating(){
- const r=studyStore().word(state.selected.w),control=$('mapStudyLevel');
- const value=r?.rating==null?'':String(r.rating);
- control.querySelectorAll('option').forEach(o=>{o.selected=o.getAttribute('value')===value;});
+function setAppTab(which){
+ for(const link of appTabs){
+  if(link.dataset.appTab===which)link.setAttribute('aria-current','page');
+  else link.removeAttribute('aria-current');
+ }
 }
+function mapHash(){return atlasPage.dataset.mapView==='word'&&state.selected?'#w='+encodeURIComponent(state.selected.w):'#kainat';}
+function setRoute(hash,replace=false){
+ if(location.hash!==hash)(replace?history.replaceState:history.pushState||history.replaceState).call(history,null,'',hash);
+}
+function leaveStudy(){if(activePage==='study'){studyDesk?.close();$('studyPage').hidden=true;}}
+function showMap(writeRoute=true){
+ const fromStudy=activePage==='study';leaveStudy();
+ const restoreFocus=$('conjugationPage').contains(document.activeElement)||$('pictureQuizPage').contains(document.activeElement);
+ conjugation?.close();pictureQuiz?.close();activePage='map';$('conjugationPage').hidden=true;$('pictureQuizPage').hidden=true;
+ atlasPage.hidden=false;document.title='SÖZ — Söz kainatı';setAppTab('kainat');restoreLibrary();
+ syncMapRatings();galaxy?.setPageHidden(false);
+ if(fromStudy)appTabs[0].focus?.({preventScroll:true});else if(restoreFocus)$('menuButton').focus?.({preventScroll:true});
+ if(writeRoute)setRoute(mapHash(),true);
+}
+function openAtlas(){setRoute(mapHash());showMap(false);}
+function studyStore(){return personalStudy||(personalStudy=window.SozStudyUI.createStore(model));}
+function syncMapRatings(){
+ galaxy?.setWordRatings(studyStore().wordRatings());
+ if(state.selected)showStudyRating();
+}
+function showStudyRating(){
+ const r=studyStore().word(state.selected.w),control=$('mapStudyLevel'),row=control.closest('.study-map-rating');
+ const value=r?.rating==null?'':String(r.rating);
+ control.querySelectorAll('option').forEach(option=>{option.selected=option.value===value;});
+ if(value)row.dataset.rating=value;else row.removeAttribute('data-rating');
+}
+window.addEventListener('storage',event=>{
+ if(activePage==='map'&&event.key?.startsWith('soz-toxumasi:study:v1:')){studyStore().refresh();syncMapRatings();}
+});
 $('mapStudyLevel').addEventListener('change',()=>{
  if(race?.blocking||!state.selected)return;
  const value=$('mapStudyLevel').value;
  studyStore().rateWord(state.selected.w,value===''?null:Number(value));
+ syncMapRatings();
  toast(studyStore().status().persistent?'Şəxsi qiymətləndirmə saxlanıldı.':'Dəyişiklik bu sessiyadadır. Şəxsi məşqdən ehtiyat nüsxə yüklə.');
 });
 function mapFromStudy(word){
  const node=model.resolveWord(word);if(!node)return;
- const hash='#w='+encodeURIComponent(node.w);
- (history.pushState||history.replaceState).call(history,null,'',hash);
+ setRoute('#w='+encodeURIComponent(node.w));
  showMap(false);select(node,true,false);
 }
 function openStudy(screen='today',writeRoute=true,replace=false){
  if(race?.blocking){toast('Yarışı bitirdikdən sonra şəxsi məşqi aça bilərsiniz.');return;}
- if(!studyDesk)studyDesk=window.SozStudyUI.mount({study:studyStore(),model,savedWords:()=>saved,openWord:mapFromStudy,navigate:(next,replace=false)=>openStudy(next,true,replace)});
+ if(!studyDesk)studyDesk=window.SozStudyUI.mount({study:studyStore(),model,savedWords:()=>saved,openWord:mapFromStudy,
+  navigate:(next,replace=false)=>openStudy(next,true,replace),getMotion:()=>motionControl.value,setMotion:saveMotion});
  if(activePage!=='study'){
-  if(activePage==='map')returnHash=window.SozStudyUI.readRoute(location.hash)?'#':location.hash||'#';
   closeMenu();closeSearch();for(const d of document.querySelectorAll('dialog[open]'))d.close();
   if(activePage==='pictures'){pictureQuiz?.close();$('pictureQuizPage').hidden=true;}
   if(activePage==='grammar'){conjugation?.close();$('conjugationPage').hidden=true;restoreLibrary();}
-  activePage='study';galaxy?.setPageHidden(true);document.querySelector('.galaxy-studio').hidden=true;$('studyPage').hidden=false;
+  activePage='study';galaxy?.setPageHidden(true);atlasPage.hidden=true;$('studyPage').hidden=false;
  }
- const hash=window.SozStudyUI.routeHash(screen);
- if(writeRoute&&location.hash!==hash)(replace?history.replaceState:history.pushState||history.replaceState).call(history,{page:'study'},'',hash);
+ if(writeRoute)setRoute(window.SozStudyUI.routeHash(screen),replace);
+ setAppTab(window.SozStudyUI.tabFor(screen));
  studyDesk.open(screen);
 }
-for(const [id,screen] of [['studyButton','today'],['menuStudyButton','today'],['mapStudyLibrary','words']]){
+for(const [id,screen] of [['studyHome','today'],['menuStudyButton','today'],['mapStudyLibrary','words']]){
  $(id).addEventListener('click',e=>{if(e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;e.preventDefault();openStudy(screen);});
 }
-$('studyBack').addEventListener('click',e=>{if(e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;e.preventDefault();showMap(true);});
+for(const tab of appTabs){
+ tab.addEventListener('click',event=>{
+  if(event.metaKey||event.ctrlKey||event.shiftKey||event.altKey)return;
+  event.preventDefault();
+  if(race?.blocking)return;
+  const hash=tab.getAttribute('href');
+  if(hash==='#kainat')openAtlas();else openStudy(window.SozStudyUI.readRoute(hash));
+ });
+}
 function openGrammar(query='',writeRoute=true,config={}){
  if(race?.blocking){toast('Yarışı bitirdikdən sonra qrammatikanı aça bilərsiniz.');return;}
- if(activePage==='study')showMap(false);
+ if(activePage!=='grammar')grammarFromStudy=activePage==='study';
+ leaveStudy();
  closeMenu();closeSearch();if($('libraryDialog').hasAttribute('open'))$('libraryDialog').close();
  if(activePage==='pictures'){pictureQuiz?.close();$('pictureQuizPage').hidden=true;}
- if(activePage==='map'){returnHash=location.hash.startsWith('#grammar=')?'#w='+encodeURIComponent(state.selected?.w||'gözəl'):location.hash;if(writeRoute)(history.pushState||history.replaceState).call(history,{page:'grammar'},'','#grammar='+encodeURIComponent(query||'qaçmaq'));}
- activePage='grammar';galaxy?.setPageHidden(true);document.querySelector('.galaxy-studio').hidden=true;$('conjugationPage').hidden=false;document.title='Fel təsrifləri — SÖZ';
+ if(writeRoute&&activePage!=='grammar')setRoute('#grammar='+encodeURIComponent(query||'qaçmaq'));
+ activePage='grammar';galaxy?.setPageHidden(true);atlasPage.hidden=true;$('conjugationPage').hidden=false;document.title='Fel təsrifləri — SÖZ';setAppTab('study');
+ $('conjugationBack').querySelector('span').textContent=grammarFromStudy?'Study':'xəritə';
  for(const id of archiveNodes)$('conjugationArchiveBody').append($(id));
  state.libraryMode='grammar';state.libraryLimit=60;$('libraryTitle').textContent='Qrammatika';$('grammarIntro').hidden=false;$('librarySearch').value=query;$('librarySearch').placeholder='Fel və ya saxlanmış forma ilə axtar…';$('librarySearch').setAttribute('aria-label','Qrammatika arxivində axtar');$('conjugationArchiveCount').textContent=model.grammarRecords.length+' forma';renderLibrary();
  routeOpening=true;const supported=conjugation.open(query,config);routeOpening=false;$('conjugationArchive').open=!!query&&!supported;
@@ -415,17 +456,16 @@ function openGrammar(query='',writeRoute=true,config={}){
 }
 function writeGrammarRoute(c){if(activePage==='grammar'&&!routeOpening&&c.verb&&!c.pending)history.replaceState({page:'grammar'},'','#grammar='+encodeURIComponent(c.verb)+'&t='+c.tense+'&p='+c.person+'&n='+(c.negative?1:0)+'&q='+(c.question?1:0));}
 function readGrammarRoute(){if(!location.hash.startsWith('#grammar='))return null;try{const [word,...parts]=location.hash.slice(9).split('&'),params=Object.fromEntries(parts.map(p=>p.split('=')));return {word:decodeURIComponent(word),tense:params.t,person:params.p,negative:params.n===undefined?undefined:params.n==='1',question:params.q==='1'};}catch{return {word:'qaçmaq'};}}
-for(const id of ['conjugationBack','conjugationBrand'])$(id).onclick=e=>{e.preventDefault();showMap(true);$('menuButton').focus?.({preventScroll:true});};
+for(const id of ['conjugationBack','conjugationBrand'])$(id).onclick=e=>{e.preventDefault();if(grammarFromStudy)openStudy('grammar',true,true);else {showMap(true);$('menuButton').focus?.({preventScroll:true});}};
 // The picture quiz is its own page (#sekil). Pictures never appear in the word map.
 function openPictures(writeRoute=true){
  if(!pictureQuiz){if(textStatus==='failed')loadText();if(writeRoute)toast('Şəkillər hazırlanır, bir anlıq gözləyin…');return;}
  if(race?.blocking){toast('Yarışı bitirdikdən sonra şəkilli sınağı aça bilərsiniz.');if(location.hash==='#sekil')history.replaceState(null,'','#w='+encodeURIComponent(state.selected.w));return;}
- if(activePage==='study')showMap(false);
+ leaveStudy();
  closeMenu();closeSearch();for(const d of document.querySelectorAll('dialog[open]'))d.close();
  if(activePage==='grammar'){conjugation?.close();$('conjugationPage').hidden=true;restoreLibrary();}
- if(activePage==='map')returnHash=location.hash.startsWith('#sekil')?'#w='+encodeURIComponent(state.selected?.w||'gözəl'):location.hash;
- if(writeRoute&&location.hash!=='#sekil')(history.pushState||history.replaceState).call(history,{page:'pictures'},'','#sekil');
- activePage='pictures';galaxy?.setPageHidden(true);document.querySelector('.galaxy-studio').hidden=true;$('pictureQuizPage').hidden=false;document.title='Şəkilli sınaq — SÖZ';
+ if(writeRoute)setRoute('#sekil');
+ activePage='pictures';galaxy?.setPageHidden(true);atlasPage.hidden=true;$('pictureQuizPage').hidden=false;document.title='Şəkilli sınaq — SÖZ';setAppTab('kainat');
  pictureQuiz.open();
 }
 for(const id of ['pictureBack','pictureBrand'])$(id).onclick=e=>{e.preventDefault();showMap(true);$('menuButton').focus?.({preventScroll:true});};
@@ -433,21 +473,23 @@ function route(){
  if(race?.blocking){history.replaceState(null,'','#w='+encodeURIComponent(state.selected.w));return;}
  const studyRoute=window.SozStudyUI.readRoute(location.hash);
  if(studyRoute){openStudy(studyRoute,false);return;}
+ if(!location.hash){openStudy('today',false);return;}
  if(location.hash==='#sekil'){openPictures(false);return;}
  const g=readGrammarRoute();if(g){openGrammar(g.word,false,g);return;}
  if(activePage!=='map')showMap(false);
  const n=fromHash();
  if(n){
   // An overview can already have this word selected without showing its card.
-  if(n!==state.selected||document.querySelector('.galaxy-studio').dataset.mapView!=='word')select(n,false,false);
- }else if(model.formsByWord.has(hashWord()))library(model.archiveMode(hashWord()),hashWord());
+  if(n!==state.selected||atlasPage.dataset.mapView!=='word')select(n,false,false);
+ }else if(location.hash==='#kainat'&&atlasPage.dataset.mapView==='word'){setSheet(false);galaxy?.home();}
+ else if(model.formsByWord.has(hashWord()))library(model.archiveMode(hashWord()),hashWord());
 }
 function hashWord(){try{return decodeURIComponent(location.hash.replace(/^#w=/,''));}catch{return '';}}
 function fromHash(){return model.resolveWord(hashWord());}
 window.addEventListener('hashchange',route);window.addEventListener('popstate',route);
 function updateLocation({region,cluster}){currentRegion=region;currentCluster=cluster;$('breadcrumbRegion').hidden=!region;$('breadcrumbSeparator').hidden=!region;$('breadcrumbCluster').hidden=!cluster;$('breadcrumbRegion').textContent=region?.label||'';$('breadcrumbCluster').textContent=cluster?.label||'';}
 try{galaxy=window.GalaxyView.mount({model,motionPreference:motionControl.value,onSelect:n=>select(n,true,true,null,false,'map'),onLocation:updateLocation,
- onView:view=>{document.querySelector('.galaxy-studio').dataset.mapView=view;}
+ onView:view=>{atlasPage.dataset.mapView=view;}
  });$('mapLoading').hidden=true;}catch(error){console.error(error);$('mapLoading').replaceChildren(html('p','','Xəritə bu brauzerdə açıla bilmədi. Sözlük və axtarışdan istifadə edə bilərsiniz.'));}
 for(const r of (galaxy?.atlas.regions||window.WORD_GALAXY_DATA.regions)){const b=html('button','',r.label);b.style.setProperty('--region-color',r.color);b.dataset.region=r.id;b.append(html('span','',r.count.toLocaleString('az')));b.onclick=()=>{closeMenu();setSheet(false);galaxy?.visitRegion(r.id);};$('regionDirectory').append(b);}
 function renderCounts(){
@@ -474,7 +516,9 @@ const initialWord=hashWord(),initialNode=fromHash();select(initialNode||model.by
 if(initialGrammar)openGrammar(initialGrammar.word,false,initialGrammar);
 const initialStudy=window.SozStudyUI.readRoute(location.hash);
 if(initialStudy)openStudy(initialStudy,false);
-else if(!location.hash&&!location.href?.endsWith('#')&&studyStore().settings().startPage==='today')openStudy('today',true,true);
+else if(!location.hash)openStudy('today',false);
+else if(!initialGrammar){setAppTab('kainat');syncMapRatings();}
+document.documentElement.classList.remove('study-launch');
 if(model.textLoaded())mountTextModules();
 race=window.RaceUI.mount({model,galaxy,select,resetHistory:()=>{state.history=[];},prepareMap:()=>{const previous=new Set(state.filters);state.filters=new Set(Object.keys(types));visibleFilters();galaxy?.setFilters(state.filters);return ()=>{state.filters=previous;visibleFilters();detail();galaxy?.setFilters(state.filters);};},selected:()=>state.selected?.w,toast,html});
 // Vercel Web Analytics: anonymous page-view counts, no cookies. Only on the deployed site.

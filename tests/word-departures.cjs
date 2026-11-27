@@ -21,6 +21,7 @@ h.runUntilIdle();
 const family = inspect().particles;
 const start = family.find(p => p.word === oldWord), center = family.find(p => p.word === 'çirkin');
 const oldFill = wordControl(oldWord).querySelector('.bubble').getAttribute('fill');
+const oldRelation = h.window.WordWeb.types[wordControl(oldWord).dataset.type].color;
 tap('çirkin', 1);
 const departure = wordControl(oldWord);
 const inFrame = p => p.x >= 0 && p.x <= 390 && p.y >= 105 && p.y <= 680;
@@ -47,7 +48,7 @@ const radial = (pos.x - start.x) * (start.x - center.x) + (pos.y - start.y) * (s
 assert(radial > 0 && Math.hypot(pos.x - start.x, pos.y - start.y) > 12, 'old neighbor is visibly flung outward');
 const trail = departure.querySelector('.departure-trail');
 assert(trail.getAttribute('d').endsWith(' Z'));
-assert.equal(trail.getAttribute('fill'), oldFill, 'the moving tail carries the former relationship color');
+assert.equal(trail.getAttribute('fill'), oldRelation, 'the moving tail carries the former relationship color');
 const first = sampleBurst();
 assert(first.length >= oldPositions.size * .78 && first.filter(p => p.outward).length >= first.length * .85, 'the former family starts by moving out across the screen');
 assert(new Set(first.filter(p => p.distance > 6).map(p => p.sector)).size >= 5, 'old words fan into different sectors, even when the tapped bubble is near the rim');
