@@ -13,6 +13,6 @@
   },
   "regions": 10,
   "clusters": 76,
-  "source_sha256": "3bea3aff223270ee00bfec67ba794bb72cdc0c0095e4b62ee8759bfbd1a3b463",
+  "source_sha256": "fa0023eb31dabfbda870b6abb1f843cffa21e74ad3bb86aafd9f5dce86804325",
   "notes": "Each word has one primary map location. Earlier dictionary words keep their depth and offset from the centre of their group as the groups move. Word cards give the documented relationship and its evidence. The map uses depth to help readers see the layers."
 }

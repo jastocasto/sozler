@@ -35,18 +35,22 @@ for (const node of before.nodes) {
   }
 }
 const tokens = value => value.normalize('NFC').toLocaleLowerCase('az').match(/[\p{L}\p{N}]+/gu) || [];
+const starters = new Map(core.text.starterMeanings.map(([id, az, en]) => [id, [az, en]]));
 let frequent = 0;
 for (const [i, rank] of core.frequency.entries()) {
-  if (!rank || rank > 1000) continue;
   const node = active.nodes[i];
+  const common = rank > 0 && rank <= 1500;
+  if (common) frequent++;
+  if (common || node.quality === 'curated') assert(starters.has(node.id), node.w + ' loads with the map');
+  if (!starters.has(node.id)) continue;
+  assert.deepEqual(starters.get(node.id), [node.az, node.en], node.w + ' agrees with the full dictionary');
   assert(node.az.trim() && node.en.trim(), node.w + ' has both languages');
   const head = tokens(node.w), gloss = tokens(node.az);
   assert(gloss.length > 0);
   const repeats = gloss.length % head.length === 0 && gloss.every((token, j) => token === head[j % head.length]);
   assert(!repeats, node.w + ' explains the headword');
-  frequent++;
 }
-assert.equal(frequent, 1000);
+assert.equal(frequent, 1500);
 for (const entry of ['gözəl', 'güzel', 'GÜZEL', 'guzel', 'gozel']) {
   assert.equal(active.resolveWord(entry)?.w, 'gözəl', entry);
   assert.equal(active.search(entry, 1)[0]?.w, 'gözəl', entry);
@@ -77,5 +81,5 @@ const section = html.match(/<section id="common-words"[^>]*>([\s\S]*?)<\/section
 assert(section);
 const links = [...section[1].matchAll(/href="\.\/#w=([^"]+)"/g)].map(match => decodeURIComponent(match[1]));
 assert.deepEqual(links, [...reviewed.keys()]);
-console.log('PASS all 1,000 frequent words have substantive Azerbaijani and English entries,',
+console.log('PASS all', starters.size, 'starter cards, including the 1,500 most frequent words, explain their headword in Azerbaijani and English,',
   reviewed.size, 'reviewed cards, spelling lookups, stable word IDs and the exact published relationship changes.');

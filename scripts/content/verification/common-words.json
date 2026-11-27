@@ -2305,6 +2305,1220 @@
           "en": "A register or logbook in which names, events or transactions are recorded."
         }
       ]
+    },
+    {
+      "word": "federasiya",
+      "pos": "noun",
+      "az": "Ümumi məqsəd və qaydalar əsasında birləşən ayrı-ayrı üzvlərin yaratdığı birlik.",
+      "en": "a federation, a union of members that join together under common rules for a shared purpose",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 2, s. 176",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_2.pdf#page=176"
+        },
+        {
+          "title": "Princeton Encyclopedia of Self-Determination · Federalism and Federation",
+          "url": "https://pesd.princeton.edu/node/431"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Siyasətdə səlahiyyətlərin mərkəzi hakimiyyətlə ştat və ya respublika kimi üzv vahidlər arasında bölüşdürüldüyü dövlət.",
+          "en": "In politics, a state in which powers are divided between a central government and its constituent units, such as states or republics."
+        },
+        {
+          "az": "Müəyyən sahədə çalışan təşkilatların birliyi, məsələn, futbol federasiyası.",
+          "en": "An association of organizations in a particular field, such as a football federation."
+        }
+      ]
+    },
+    {
+      "word": "şirin",
+      "pos": "adjective",
+      "az": "Şəkər və ya bal kimi dadı olan.",
+      "en": "sweet, having a taste like sugar or honey",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 227",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=227"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 228",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=228"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Bir uşağın görünüşü, gülüşü və ya davranışı haqqında deyildikdə sevimli, ürəyəyatan deməkdir.",
+          "en": "Cute or endearing, as of a child or a smile."
+        },
+        {
+          "az": "Söhbət, səs və ya xatirə haqqında deyildikdə insana xoş təsir bağışlayan, zövq verən deməkdir.",
+          "en": "Pleasant or delightful, as of a conversation, voice or memory."
+        },
+        {
+          "az": "Su haqqında işlənəndə şor olmayan suyu bildirir.",
+          "en": "Of water, fresh, as in şirin su balığı, a freshwater fish."
+        },
+        {
+          "az": "Zərf kimi “şirin yatmaq” birləşməsində rahat və dərin yatmağı bildirir.",
+          "en": "As an adverb in şirin yatmaq, it means to sleep sweetly or soundly."
+        }
+      ]
+    },
+    {
+      "word": "cəhd",
+      "pos": "noun",
+      "az": "Bir işi görmək və ya məqsədə çatmaq üçün göstərilən səy.",
+      "en": "an attempt or effort to do something or reach a goal",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 1, s. 399",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_1.pdf#page=399"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Bir işi görərkən göstərilən qeyrət və həvəsi də bildirir.",
+          "en": "It can also mean the zeal or determination someone brings to a task."
+        },
+        {
+          "az": "Bəzən insanın qarşısına qoyduğu məqsəd, niyyət mənasında işlənir.",
+          "en": "It can also mean an aim or intention."
+        }
+      ]
+    },
+    {
+      "word": "ətrafında",
+      "pos": "postposition",
+      "az": "Bir yerin və ya əşyanın müxtəlif tərəflərində, onun dövrəsində.",
+      "en": "around a place or thing, on the different sides of it",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 2, s. 148",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_2.pdf#page=148"
+        },
+        {
+          "title": "Azleks · İngiliscə–azərbaycanca lüğət, “around”",
+          "url": "https://azleks.az/en/dictionary/around"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Söhbətin və ya müzakirənin hansı mövzuya aid olduğunu bildirir.",
+          "en": "About or concerning a subject under discussion."
+        }
+      ]
+    },
+    {
+      "word": "fəlsəfə",
+      "pos": "noun",
+      "az": "Varlıq, bilik və insan düşüncəsi haqqında əsas sualları araşdıran sahə.",
+      "en": "philosophy, the study of fundamental questions about existence, knowledge and human thought",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 2, s. 181",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_2.pdf#page=181"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Bir mütəfəkkirin və ya məktəbin dünyaya baxışını ifadə edən fikirlər sistemi.",
+          "en": "The system of thought or outlook associated with a thinker or school."
+        },
+        {
+          "az": "Bir elm və ya fəaliyyət sahəsinin əsaslandığı prinsiplər.",
+          "en": "The underlying principles of a field, as in the philosophy of law."
+        },
+        {
+          "az": "Gündəlik dildə bir adamın həyata və ya müəyyən məsələyə yanaşması.",
+          "en": "In everyday speech, someone’s personal outlook or approach to a subject."
+        },
+        {
+          "az": "Bəzən istehza ilə həyatdan uzaq, lüzumsuz mühakiməyə də deyilir.",
+          "en": "Sometimes used dismissively for impractical or unnecessary theorizing."
+        }
+      ]
+    },
+    {
+      "word": "günah",
+      "pos": "noun",
+      "az": "Dini inanca görə insanın etməməli olduğu hərəkət.",
+      "en": "a sin, an act considered wrong according to a religion",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 2, s. 311",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_2.pdf#page=311"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Bir iş pis nəticələnəndə bunun üçün kiminsə daşıdığı məsuliyyət və ya təqsir.",
+          "en": "Fault or blame for something that has gone wrong."
+        },
+        {
+          "az": "Məcazi mənada bir işdə və ya əşyada üzə çıxan nöqsan.",
+          "en": "Figuratively, a flaw in something or in the way it was done."
+        }
+      ]
+    },
+    {
+      "word": "cinayət",
+      "pos": "noun",
+      "az": "Cəmiyyət üçün təhlükəli sayılan və qanunla cəzalandırılan əməl.",
+      "en": "a crime, an act considered harmful to society and punishable under criminal law",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 1, s. 422",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_1.pdf#page=422"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Məcazi mənada çox pis, bağışlanmaz sayılan davranış.",
+          "en": "Figuratively, an act considered outrageous or inexcusable."
+        }
+      ]
+    },
+    {
+      "word": "hündürlük",
+      "pos": "noun",
+      "az": "Bir şeyin dibindən və ya əsas götürülən səviyyədən yuxarıya doğru ölçülən məsafə.",
+      "en": "height, the vertical distance above a base or reference level",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 2, s. 409",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_2.pdf#page=409"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Ətrafındakı torpaqdan yuxarı qalxan yer, məsələn, təpə.",
+          "en": "Elevated ground, such as a hill."
+        }
+      ]
+    },
+    {
+      "word": "element",
+      "pos": "noun",
+      "az": "Bütöv bir şeyi təşkil edən ayrı-ayrı hissələrdən biri.",
+      "en": "an element or component, one of the parts that make up a whole",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 2, s. 20",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_2.pdf#page=20"
+        },
+        {
+          "title": "IUPAC Gold Book · chemical element",
+          "url": "https://goldbook.iupac.org/terms/view/C01022.html"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Kimyada nüvəsində eyni sayda proton olan atomların növü, məsələn, oksigen və ya dəmir.",
+          "en": "In chemistry, a kind of atom defined by the number of protons in its nucleus, such as oxygen or iron."
+        },
+        {
+          "az": "«Qalvanik element» kimyəvi enerjini elektrik enerjisinə çevirən qurğudur.",
+          "en": "A galvanic cell is a device that converts chemical energy into electrical energy."
+        },
+        {
+          "az": "Danışıqda bir qrupa daxil olan adamı da bildirə bilər.",
+          "en": "In colloquial use, an individual spoken of as part of a group."
+        }
+      ]
+    },
+    {
+      "word": "əsgər",
+      "pos": "noun",
+      "az": "Orduda xidmət edən şəxs, xüsusən də sıravi hərbi qulluqçu.",
+      "en": "a soldier, especially a rank-and-file member of an army",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 2, s. 135",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_2.pdf#page=135"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Bəzən toplu mənada bir dəstə hərbi qulluqçunu, qoşunu bildirir.",
+          "en": "It can also be used collectively to mean troops."
+        }
+      ]
+    },
+    {
+      "word": "valyuta",
+      "pos": "noun",
+      "az": "Ölkənin pul sistemində əsas vahid kimi işlədilən pul, məsələn, manat və ya dollar.",
+      "en": "a currency, the monetary unit used by a country, such as the manat or the dollar",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 462",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=462"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Başqa dövlətlərin pullarını ümumi şəkildə də bildirir.",
+          "en": "It can also mean foreign currency collectively."
+        }
+      ]
+    },
+    {
+      "word": "yapon",
+      "pos": "noun",
+      "az": "Yaponiyanın əsas əhalisini təşkil edən xalqa mənsub adam.",
+      "en": "a Japanese person, a member of the people of Japan",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 531",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=531"
+        }
+      ],
+      "senses": [
+        {
+          "az": "«Yapon dili» və «yapon musiqisi» kimi birləşmələrdə Yaponiyaya və ya bu xalqa aidlik bildirir.",
+          "en": "As a modifier, Japanese or relating to Japan and its people, as in yapon dili, the Japanese language."
+        }
+      ]
+    },
+    {
+      "word": "şeytan",
+      "pos": "noun",
+      "az": "Dini inanca görə şəri təmsil edən və insanı pis yola çəkməyə çalışan varlıq.",
+      "en": "a devil, a being believed to embody evil and tempt people to do wrong",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 198",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=198"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 199",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=199"
+        },
+        {
+          "title": "şeytan — secondary senses",
+          "url": "https://en.wiktionary.org/wiki/şeytan"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Məcazi mənada ara qarışdıran və ya başqasının sirrini xəbər verən adama deyilən mənfi ad.",
+          "en": "Figuratively, a disparaging term for a troublemaker or an informer who betrays someone’s confidence."
+        },
+        {
+          "az": "Zarafatla hiyləgər və ya dəcəl adama, xüsusən uşağa da deyilir.",
+          "en": "Playfully, a sly or mischievous person, especially a child."
+        }
+      ]
+    },
+    {
+      "word": "ödəmək",
+      "pos": "verb",
+      "az": "Alınan malın və ya xidmətin pulunu vermək, yaxud borcu qaytarmaq.",
+      "en": "to pay for goods or a service, or to repay a debt",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 544",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=544"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Ehtiyacı qarşılamaq və ya müəyyən xərc üçün kifayət etmək.",
+          "en": "To meet a need or be sufficient to cover an expense."
+        },
+        {
+          "az": "Öhdəsinə götürdüyü işi və ya müəyyən edilmiş planı yerinə yetirmək.",
+          "en": "To fulfil a commitment or meet a target."
+        }
+      ]
+    },
+    {
+      "word": "klassik",
+      "pos": "adjective",
+      "az": "Ədəbiyyatda və sənətdə uzun müddət öz dəyərini saxlayan və nümunə sayılan.",
+      "en": "classic or classical, describing a work in literature or the arts that endures as a model",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 2, s. 717",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_2.pdf#page=717"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Bir halın xüsusiyyətlərini xüsusilə aydın göstərən nümunə haqqında da işlənir.",
+          "en": "Classic can also describe a particularly typical or telling example."
+        },
+        {
+          "az": "Qədim Yunanıstana və Romaya, yaxud onların dil və ədəbiyyatının öyrənilməsinə aid olan.",
+          "en": "Classical can refer to ancient Greece and Rome or to the study of their languages and literature."
+        },
+        {
+          "az": "İsim kimi elmdə, ədəbiyyatda və ya sənətdə əsərləri nümunə sayılan görkəmli şəxsə deyilir.",
+          "en": "As a noun, a major figure whose work in science, literature or the arts is held up as a model."
+        },
+        {
+          "az": "İsim kimi sənətdə və ədəbiyyatda klassisizmin tərəfdarını da bildirir.",
+          "en": "As a noun, it can also mean an adherent of classicism in the arts or literature."
+        },
+        {
+          "az": "Qədim yunan və latın dilləri üzrə mütəxəssisə də belə deyilir.",
+          "en": "It can also mean a scholar of ancient Greek and Latin."
+        }
+      ]
+    },
+    {
+      "word": "xəzər",
+      "pos": "noun",
+      "az": "Orta əsrlərdə Aşağı Volqa və Şimali Qafqazda dövlət qurmuş türkdilli xalqın nümayəndəsi.",
+      "en": "a Khazar, a member of the medieval Turkic people whose state included the lower Volga and the northern Caucasus",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 2, s. 456",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_2.pdf#page=456"
+        },
+        {
+          "title": "Azərbaycan Coğrafiya Cəmiyyəti · Xəzər dənizinin ümumi səciyyəsi",
+          "url": "https://gsaz.az/articles/view/105/Xazar-danizinin-umumi-saciyyasi"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Böyük hərflə yazılan «Xəzər» həm də «Xəzər dənizi» adının qısa formasıdır.",
+          "en": "Capitalized, Xəzər is also a short name for the Caspian Sea."
+        }
+      ]
+    },
+    {
+      "word": "investisiya",
+      "pos": "noun",
+      "az": "Gələcəkdə gəlir əldə etmək məqsədilə bir işə və ya layihəyə qoyulan pul və ya başqa əmlak.",
+      "en": "an investment, money or other assets put into a business or project in the hope of a future return",
+      "sources": [
+        {
+          "title": "«İnvestisiya fəaliyyəti haqqında» Azərbaycan Respublikasının Qanunu, maddə 1.1.2",
+          "url": "https://president.az/az/articles/view/56757"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 92 · sərmayə",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=92"
+        }
+      ],
+      "senses": []
+    },
+    {
+      "word": "dəstəkləmək",
+      "pos": "verb",
+      "az": "Bir insana kömək etmək, bir fikrin və ya təşəbbüsün tərəfdarı olmaq.",
+      "en": "to support or back a person, idea or undertaking",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 1, s. 603",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_1.pdf#page=603"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Ağacın və ya başqa bir şeyin yıxılmaması üçün ona dayaq qoymaq.",
+          "en": "To prop something up, for instance by putting a stake beside a tree."
+        }
+      ]
+    },
+    {
+      "word": "ilkin",
+      "pos": "adjective",
+      "az": "Ən əvvəl olan və ya bir işin başlanğıc mərhələsinə aid olan.",
+      "en": "first, initial or preliminary, belonging to the earliest stage of something",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 2, s. 532",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_2.pdf#page=532"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Zərf kimi bir işin ilk dəfə və ya başqalarından əvvəl görüldüyünü bildirir.",
+          "en": "As an adverb, it means at first, for the first time or before others."
+        }
+      ]
+    },
+    {
+      "word": "imtina",
+      "pos": "noun",
+      "az": "Təklifi geri çevirmə və ya bir işi görməyə razılıq verməmə.",
+      "en": "a refusal, the act of turning down an offer or declining to do something",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 2, s. 541",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_2.pdf#page=541"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 2, s. 542",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_2.pdf#page=542"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Öz istəyi ilə bir haqqından və ya malik olduğu bir şeydən əl çəkmə.",
+          "en": "Renunciation, voluntarily giving up a right or something one possesses."
+        }
+      ]
+    },
+    {
+      "word": "təzyiq",
+      "pos": "noun",
+      "az": "Bir cismin, mayenin və ya qazın səthə göstərdiyi basqı.",
+      "en": "pressure, the push that a solid, liquid or gas exerts on a surface",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 336",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=336"
+        },
+        {
+          "title": "OpenStax · College Physics, Pressure",
+          "url": "https://openstax.org/books/college-physics-2e/pages/11-3-pressure"
+        },
+        {
+          "title": "World Health Organization · High blood pressure",
+          "url": "https://www.who.int/health-topics/hypertension/high-blood-pressure---check-it"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Fizikada səthin vahid sahəsinə dik istiqamətdə düşən qüvvə.",
+          "en": "In physics, the perpendicular force per unit area on a surface."
+        },
+        {
+          "az": "Sağlamlıqdan danışanda çox vaxt qan təzyiqi, yəni qanın arteriyaların divarlarına göstərdiyi basqı nəzərdə tutulur.",
+          "en": "In a health context, often blood pressure, the force of blood against the walls of the arteries."
+        },
+        {
+          "az": "Məcazi mənada birini müəyyən qərara və ya hərəkətə məcbur etmək üçün göstərilən təsir.",
+          "en": "Figuratively, pressure or coercion exerted to make someone decide or act in a certain way."
+        }
+      ]
+    },
+    {
+      "word": "un",
+      "pos": "noun",
+      "az": "Buğda, qarğıdalı və ya başqa taxıl dənlərini üyütməklə alınan narın toz.",
+      "en": "flour, the fine powder made by grinding wheat, maize or another grain",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 403",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=403"
+        }
+      ],
+      "senses": [
+        {
+          "az": "“Sümük unu” kimi adlarda xırdalanıb toz halına salınmış maddəni bildirir.",
+          "en": "In terms such as sümük unu, bone meal, it refers to a substance ground to powder."
+        }
+      ]
+    },
+    {
+      "word": "bələdiyyə",
+      "pos": "noun",
+      "az": "Üzvlərini yerli əhalinin seçdiyi, yaşayış məntəqəsində abadlıq və kommunal xidmətlər kimi işlərlə məşğul olan idarə.",
+      "en": "a municipal authority elected by residents to oversee local matters such as upkeep and public services",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 1, s. 273",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_1.pdf#page=273"
+        }
+      ],
+      "senses": []
+    },
+    {
+      "word": "şərəf",
+      "pos": "noun",
+      "az": "İnsanın öz davranışı ilə qoruduğu mənəvi ləyaqət və yaxşı ad.",
+      "en": "honour, a person’s dignity and good name as shown in their conduct",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 213",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=213"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Birinə göstərilən hörmət. «Onun şərəfinə» ifadəsi həmin adama ehtiram bildirir.",
+          "en": "Respect shown to someone. Onun şərəfinə means in that person’s honour."
+        },
+        {
+          "az": "İnsanın fəxr etdiyi bir iş və ya hadisə.",
+          "en": "An honour, something that gives a person a sense of pride."
+        }
+      ]
+    },
+    {
+      "word": "təəssüf",
+      "pos": "noun",
+      "az": "Baş vermiş və ya baş tutmamış bir şeyə görə duyulan kədər, heyifsilənmə.",
+      "en": "regret or sadness over something that happened or failed to happen",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 288",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=288"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Başqasının çətin vəziyyətinə görə duyulan acıma hissini də bildirir.",
+          "en": "It can also mean sympathy or pity for someone in difficulty."
+        },
+        {
+          "az": "«Təəssüf ki» və «təəssüflər olsun ki» ifadələri danışanın bir halı heyif saydığını göstərir.",
+          "en": "Təəssüf ki and təəssüflər olsun ki introduce something the speaker regrets, meaning “unfortunately.”"
+        }
+      ]
+    },
+    {
+      "word": "qarşısında",
+      "pos": "postposition",
+      "az": "Bir şeyin ön tərəfində, məsələn, “məktəbin qarşısında” məktəbin önündə deməkdir.",
+      "en": "in front of, as in məktəbin qarşısında, “in front of the school”",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 66",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=66"
+        },
+        {
+          "title": "Jala Garibova və Sabina Aliyeva · A Grammar of Contemporary Azerbaijani (2024), s. 110",
+          "url": "https://www.academia.edu/129901902/JALA_GARIBOVA_and_SABINA_ALIYEVA_2024_A_GRAMMAR_OF_CONTEMPORARY_AZERBAIJANI"
+        },
+        {
+          "title": "Azərbaycan Respublikasının Konstitusiyası · maddə 25",
+          "url": "https://president.az/az/pages/view/azerbaijan/constitution"
+        }
+      ],
+      "senses": [
+        {
+          "az": "“Qanun qarşısında bərabər” ifadəsi qanunun hər kəsə eyni qaydada tətbiq olunduğunu bildirir.",
+          "en": "It also means before in the legal sense, as in qanun qarşısında bərabər, “equal before the law”."
+        }
+      ]
+    },
+    {
+      "word": "fərman",
+      "pos": "noun",
+      "az": "Dövlət başçısının və ya ali hakimiyyət orqanının verdiyi rəsmi sərəncam.",
+      "en": "a decree, a formal order issued by a head of state or another supreme authority",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 2, s. 185",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_2.pdf#page=185"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 2, s. 186",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_2.pdf#page=186"
+        },
+        {
+          "title": "Wiktionary · fərman (Azərbaycan dili)",
+          "url": "https://en.wiktionary.org/wiki/f%C9%99rman#Azerbaijani"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Tarixdə hökmdarın verdiyi yazılı əmr.",
+          "en": "Historically, a firman was a ruler’s written order."
+        },
+        {
+          "az": "Daha geniş mənada birinə verilən əmr və ya buyruq.",
+          "en": "More generally, a command or order."
+        },
+        {
+          "az": "Cənubi Azərbaycanda avtomobilin istiqamətini dəyişmək üçün sürücünün çevirdiyi sükan çarxı.",
+          "en": "In South Azerbaijani, the steering wheel of a vehicle."
+        }
+      ]
+    },
+    {
+      "word": "ölü",
+      "pos": "adjective",
+      "az": "Həyatı sona çatmış, artıq yaşamayan insan, heyvan və ya bitki haqqında.",
+      "en": "dead, no longer living, of a person, animal or plant",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 549",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=549"
+        }
+      ],
+      "senses": [
+        {
+          "az": "İsim kimi ölmüş adamı, onun meyitini və ya ölmüş heyvanın cəsədini bildirir.",
+          "en": "As a noun, a dead person, a corpse or an animal’s carcass."
+        },
+        {
+          "az": "Məcazi mənada həyatın, hərəkətin və ya fəaliyyətin kəsildiyi bir yeri və ya vəziyyəti təsvir edir.",
+          "en": "Figuratively, lifeless or inactive, as of a deserted place or an activity that has come to a standstill."
+        }
+      ]
+    },
+    {
+      "word": "etibarlı",
+      "pos": "adjective",
+      "az": "Güvənmək və ya doğruluğuna inanmaq mümkün olan.",
+      "en": "reliable or trustworthy, something or someone that can be depended on or believed",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 2, s. 39",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_2.pdf#page=39"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Əşya və ya tikili haqqında möhkəm, davamlı deməkdir.",
+          "en": "Of an object or structure, solid and dependable."
+        },
+        {
+          "az": "Sənəd haqqında qanuni qüvvəsi olan, istifadə edilə bilən deməkdir.",
+          "en": "Of a document, valid or legally in force."
+        },
+        {
+          "az": "Adam haqqında hörmət və nüfuz sahibi mənasında da işlənir.",
+          "en": "Of a person, it can also mean respected or well regarded."
+        }
+      ]
+    },
+    {
+      "word": "zövq",
+      "pos": "noun",
+      "az": "Musiqi dinləyəndə və ya xoşa gələn bir iş görəndə duyulan həzz.",
+      "en": "pleasure or enjoyment, such as the delight one takes in listening to music",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 690",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=690"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 691",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=691"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Gözəlliyi duyub qiymətləndirmək bacarığı, məsələn, geyim və ya sənət seçimində özünü göstərən incəlik.",
+          "en": "Taste or aesthetic judgment, as in a discerning choice of clothes or art."
+        },
+        {
+          "az": "“Başqa zövqü var” deyildikdə bir şeyin özünəməxsus cazibəsi və ya gözəlliyi nəzərdə tutulur.",
+          "en": "In the expression başqa zövqü var, it means that something has a charm of its own."
+        },
+        {
+          "az": "İnsanın müəyyən məşğuliyyətə və ya həyat tərzinə meyli, həvəsi.",
+          "en": "A liking or inclination for a particular activity or way of life."
+        }
+      ]
+    },
+    {
+      "word": "uğurlu",
+      "pos": "adjective",
+      "az": "Gözlənilən yaxşı nəticəni verən, məqsədə çatmağa imkan yaradan.",
+      "en": "successful, producing a good result or achieving the intended aim",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 400",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=400"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Xeyir və xoşbəxtlik gətirdiyinə inanılan şey haqqında da işlənir.",
+          "en": "It can also mean lucky or auspicious, believed to bring good fortune."
+        },
+        {
+          "az": "«Uğurlu olsun!» deyərək birinə işində və ya səfərində yaxşı nəticə arzulayırlar.",
+          "en": "Uğurlu olsun! wishes someone success in an undertaking or good luck on a journey."
+        }
+      ]
+    },
+    {
+      "word": "vətən",
+      "pos": "noun",
+      "az": "İnsanın doğulub böyüdüyü və ya özünə doğma yurd saydığı ölkə.",
+      "en": "a homeland, the country a person comes from or regards as home",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 482",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=482"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Bir insanın doğulduğu konkret yer, məsələn, onun doğma şəhəri.",
+          "en": "A person’s particular birthplace, such as their home town."
+        },
+        {
+          "az": "Məcazi mənada bir şeyin ilk dəfə meydana gəldiyi yer.",
+          "en": "Figuratively, the birthplace or place of origin of something."
+        }
+      ]
+    },
+    {
+      "word": "ömür",
+      "pos": "noun",
+      "az": "İnsanın və ya başqa bir canlının yaşadığı müddət.",
+      "en": "a life or lifespan, the length of time a person or other living thing lives",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 551",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=551"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 552",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=552"
+        }
+      ],
+      "senses": [
+        {
+          "az": "«Ömür yoldaşı» insanın həyatını bölüşdüyü ərinə və ya arvadına deyilir.",
+          "en": "Ömür yoldaşı means a spouse or life partner."
+        },
+        {
+          "az": "İnkar bildirən cümlədə «ömrümdə» çox vaxt «həyatımda heç vaxt» deməkdir.",
+          "en": "With a negative verb, ömrümdə can mean “never in my life.”"
+        },
+        {
+          "az": "«Ömrüm-günüm» əziz adama nəvazişlə müraciət formasıdır.",
+          "en": "Ömrüm-günüm is an affectionate way of addressing a loved one."
+        }
+      ]
+    },
+    {
+      "word": "zal",
+      "pos": "noun",
+      "az": "Bir çox adamın toplaşa bildiyi, məsələn, tamaşa, idman və ya iclas üçün istifadə olunan geniş otaq.",
+      "en": "a hall, a large room used for a performance, sports, a meeting or another gathering",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 640",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=640"
+        },
+        {
+          "title": "Əli Rzayev · Əski Azərbaycan mətnlərində ərəb və fars mənşəli sözlərin fərqlənmə xüsusiyyətləri (2019), s. 26",
+          "url": "https://anl.az/down/meqale/sdu_elm_xeber/2019/03/736340%28meqale%29.pdf#page=2"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Evdə qonaqları qəbul etmək və bir yerdə oturmaq üçün ayrılmış geniş otaq.",
+          "en": "A spacious living room or reception room in a home."
+        },
+        {
+          "az": "Əski Azərbaycan yazısında işlənmiş ərəb əlifbasındakı ذ hərfinin adı.",
+          "en": "As a separate word, the name of the Arabic letter ذ, also used in the historical Azerbaijani script."
+        }
+      ]
+    },
+    {
+      "word": "karyera",
+      "pos": "noun",
+      "az": "İnsanın peşə həyatında keçdiyi yol, işində irəliləyib mövqe və nüfuz qazanması.",
+      "en": "a career, especially a person’s advancement and growing recognition in a profession",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 2, s. 645",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_2.pdf#page=645"
+        }
+      ],
+      "senses": []
+    },
+    {
+      "word": "orijinal",
+      "pos": "adjective",
+      "az": "Müəllifin öz yaradıcılığının məhsulu olan, başqa bir əsərdən köçürülməmiş.",
+      "en": "original, created independently by its author or artist",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 527",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=527"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 528",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=528"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Bir əsərin və ya sənədin ilkin, həqiqi nüsxəsi olan.",
+          "en": "Authentic, as of an original work or document."
+        },
+        {
+          "az": "İsim kimi əsərin əslini, həmçinin tərcümə və ya çap üçün əsas götürülən mətni bildirir.",
+          "en": "As a noun, the original work or the source text used for translation or printing."
+        },
+        {
+          "az": "Özünəməxsusluğu ilə seçilən, bəzən qeyri-adi görünən.",
+          "en": "Distinctive or strikingly unusual."
+        }
+      ]
+    },
+    {
+      "word": "hazırlıq",
+      "pos": "noun",
+      "az": "Bir işi görmək üçün lazım olan bilik, bacarıq və ya şəraitə malik olma vəziyyəti.",
+      "en": "readiness or preparedness, being equipped to carry out a task",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 2, s. 340",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_2.pdf#page=340"
+        },
+        {
+          "title": "Wiktionary · hazırlıq (Azərbaycan dili)",
+          "url": "https://en.wiktionary.org/wiki/hazırlıq#Azerbaijani"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Bir işdən əvvəl görülən tədbirlər və lazım olan şeylərin qabaqcadan toplanması.",
+          "en": "Preparation, the steps taken or supplies gathered before an activity."
+        },
+        {
+          "az": "Oxumaq və məşq etməklə qazanılmış bilik və bacarıq səviyyəsi.",
+          "en": "The level of knowledge or skill gained through study or practice."
+        },
+        {
+          "az": "«Hazırlığa getmək» ifadəsində, xüsusən imtahan üçün alınan əlavə dərsləri, repetitor məşğələlərini bildirir.",
+          "en": "In hazırlığa getmək, it can refer to attending extra lessons or tutoring, especially for an exam."
+        }
+      ]
+    },
+    {
+      "word": "ənənəvi",
+      "pos": "adjective",
+      "az": "Nəsildən-nəslə ötürülən adətə və ya uzun müddət qəbul edilmiş qaydaya uyğun olan.",
+      "en": "traditional, following a custom passed down through generations or an established way of doing something",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 2, s. 119",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_2.pdf#page=119"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Tədbir haqqında işlənəndə adət üzrə təkrar keçirildiyini bildirir.",
+          "en": "Of a gathering or event, held regularly as a matter of custom."
+        }
+      ]
+    },
+    {
+      "word": "yəhudi",
+      "pos": "adjective",
+      "az": "Tarixi kökləri qədim Fələstinə gedib çıxan yəhudi xalqına, onun dininə və ya mədəniyyətinə aid olan.",
+      "en": "Jewish, relating to the Jewish people, whose historical roots are in ancient Palestine, or to their religion or culture",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 596",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=596"
+        }
+      ],
+      "senses": [
+        {
+          "az": "İsim kimi həmin xalqdan olan adamı bildirir.",
+          "en": "As a noun, a Jew, a member of the Jewish people."
+        }
+      ]
+    },
+    {
+      "word": "qurban",
+      "pos": "noun",
+      "az": "Qəza, fəlakət və ya haqsızlıq nəticəsində həlak olan, yaxud zərər çəkən şəxs.",
+      "en": "a victim, someone killed or harmed by an event or by another person’s actions",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 213",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=213"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 214",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=214"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Dini mərasimdə, məsələn, Qurban bayramında Allah yolunda kəsilən heyvan.",
+          "en": "An animal offered in sacrifice, for example at Eid al-Adha."
+        },
+        {
+          "az": "Bir məqsəd uğrunda fəda edilən can və ya başqa qiymətli şey.",
+          "en": "A sacrifice, a life or something else of value given up for a cause."
+        },
+        {
+          "az": "«Qurban olum» ifadəsi mehriban müraciət və ya yalvarış bildirir.",
+          "en": "Qurban olum can express affection or a heartfelt plea."
+        }
+      ]
+    },
+    {
+      "word": "çəki",
+      "pos": "noun",
+      "az": "Bir şeyin və ya canlının nə qədər ağır olduğunu göstərən ölçü.",
+      "en": "weight, a measure of how heavy something or someone is",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 1, s. 459",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_1.pdf#page=459"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 1, s. 460",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_1.pdf#page=460"
+        },
+        {
+          "title": "çəki — secondary senses",
+          "url": "https://en.wiktionary.org/wiki/çəki"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Məcazi mənada bir fikrin əhəmiyyəti, bir adamın isə nüfuzu və təsir gücü.",
+          "en": "Figuratively, the importance of an idea or the influence or authority of a person."
+        },
+        {
+          "az": "Eyni yazılışlı başqa söz şirin sularda yaşayan çəki balığını bildirir.",
+          "en": "A separate word with the same spelling means the common carp, the freshwater fish Cyprinus carpio."
+        },
+        {
+          "az": "Başqa bir mənada parça və ya dəri üzərinə rəngli sapla işlənmiş naxış.",
+          "en": "As another homonym, embroidery worked in coloured thread on fabric or leather."
+        }
+      ]
+    },
+    {
+      "word": "cəhənnəm",
+      "pos": "noun",
+      "az": "Dini inanclarda günah işləyən insanların ölümdən sonra cəza çəkdiyi yer.",
+      "en": "hell, a place of punishment after death in religious belief",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 1, s. 399",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_1.pdf#page=399"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 1, s. 400",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_1.pdf#page=400"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Məcazi mənada yaşamağın və ya dözməyin çox çətin olduğu yer və ya vəziyyət.",
+          "en": "Figuratively, a place or situation of unbearable suffering."
+        },
+        {
+          "az": "Havası dözülməz dərəcədə isti olan yer haqqında da işlənir.",
+          "en": "It can also describe an unbearably hot place."
+        }
+      ]
+    },
+    {
+      "word": "üsyan",
+      "pos": "noun",
+      "az": "İnsanların mövcud hakimiyyətə qarşı kütləvi, çox vaxt silahlı çıxışı.",
+      "en": "an uprising or rebellion against the ruling power, often involving armed resistance",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 443",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=443"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Bir adamın da kiməsə və ya qəbul etmədiyi vəziyyətə açıq şəkildə qarşı çıxmasını bildirə bilər.",
+          "en": "It can also mean an individual’s open defiance of someone or of a situation they refuse to accept."
+        }
+      ]
+    },
+    {
+      "word": "üslub",
+      "pos": "noun",
+      "az": "Bir sənətkarın, əsərin və ya sənət cərəyanının özünəməxsus ifadə tərzi.",
+      "en": "style, the distinctive way an artist, work or artistic movement expresses ideas",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 439",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=439"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Yazıda və danışıqda sözlərin seçilməsi və cümlələrin qurulması tərzi.",
+          "en": "A manner of speaking or writing, including the choice of words and sentence structure."
+        },
+        {
+          "az": "Ümumi mənada bir işi görməyin özünəməxsus yolu.",
+          "en": "More generally, a way of doing something."
+        }
+      ]
+    },
+    {
+      "word": "nəhayət",
+      "pos": "adverb",
+      "az": "Bir müddət və ya bir sıra hadisələr keçdikdən sonra, axırda.",
+      "en": "finally or at last, after a period of time or a series of events",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 475",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=475"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 476",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=476"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Sadalanan fikirlərə sonuncusunu əlavə edərkən də işlənir.",
+          "en": "It can introduce the last point in a series, as in “and finally.”"
+        },
+        {
+          "az": "İsim kimi bir işin sonunu və ya bir şeyin ucunu bildirir.",
+          "en": "As a noun, an ending or the endpoint of something."
+        },
+        {
+          "az": "Bəzi mətnlərdə «son dərəcə, çox» mənasında işlənir.",
+          "en": "In some texts it means extremely or to a very high degree."
+        }
+      ]
+    },
+    {
+      "word": "köməkçi",
+      "pos": "noun",
+      "az": "Başqasına bir işi görməkdə yardım edən şəxs.",
+      "en": "a helper or assistant, someone who helps another person do a job",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 2, s. 753",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_2.pdf#page=753"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Vəzifə adı kimi ustaya, rejissora və ya başqa mütəxəssisə işində yardım edən əməkdaş.",
+          "en": "As a job title, an assistant working with a specialist, such as an assistant director."
+        },
+        {
+          "az": "Sifət kimi əsas işi tamamlayan və ya asanlaşdıran bir şeyi bildirir.",
+          "en": "As an adjective, auxiliary or supplementary, as in köməkçi feil, an auxiliary verb."
+        }
+      ]
+    },
+    {
+      "word": "filial",
+      "pos": "noun",
+      "az": "Müəssisəyə və ya təşkilata bağlı olan və işini müəyyən sərbəstliklə aparan bölmə.",
+      "en": "a branch, a division that carries out part of a larger organization’s work with some independence",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 2, s. 196",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_2.pdf#page=196"
+        }
+      ],
+      "senses": []
+    },
+    {
+      "word": "zibil",
+      "pos": "noun",
+      "az": "İşlənib atılmış lazımsız şeylər və ya bir yer süpürüləndə yığılan tör-töküntü.",
+      "en": "rubbish or trash, including litter, sweepings and small debris",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 672",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=672"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 673",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=673"
+        },
+        {
+          "title": "Wiktionary · zibil (Azərbaycan dili)",
+          "url": "https://en.wiktionary.org/wiki/zibil#Azerbaijani"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Danışıqda işə yaramayan, dəyərsiz sayılan əşya haqqında deyilir.",
+          "en": "In everyday speech, something regarded as worthless junk."
+        },
+        {
+          "az": "Təhqir kimi işlədildikdə alçaq, yaramaz adamı bildirir.",
+          "en": "As an insult, a contemptible person."
+        }
+      ]
+    },
+    {
+      "word": "əbədi",
+      "pos": "adjective",
+      "az": "Sona çatmayan, həmişə var olan və ya daimi qalan.",
+      "en": "eternal or everlasting, lasting forever or having no end",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 2, s. 53",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_2.pdf#page=53"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Zərf kimi bir işin həmişəlik davam etdiyini və ya nəticəsinin həmişəlik qaldığını bildirir.",
+          "en": "As an adverb, eternally or forever."
+        },
+        {
+          "az": "Məcazi mənada insanların yaddaşında daim yaşayan, unudulmayan deməkdir.",
+          "en": "Figuratively, enduring or immortal in people’s memory."
+        },
+        {
+          "az": "«Əbədi yuxuya getmək» ölməyi ifadə edən məcazi deyimdir.",
+          "en": "Əbədi yuxuya getmək, literally “to fall into eternal sleep,” is a figurative expression for dying."
+        }
+      ]
+    },
+    {
+      "word": "vəsait",
+      "pos": "noun",
+      "az": "Bir işin xərcini çəkmək üçün nəzərdə tutulan və ya əlin altında olan pul.",
+      "en": "funds, money available or set aside to pay for something",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 481",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=481"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Bir məqsədə çatmaq üçün istifadə edilən ləvazimat, ehtiyatlar və başqa imkanlar.",
+          "en": "Means or resources, including supplies available for a task."
+        },
+        {
+          "az": "“Dərs vəsaiti” bir mövzunu öyrənməyə və ya öyrətməyə kömək edən kitab, təlimat və ya başqa materialdır.",
+          "en": "A handbook, study guide or other teaching material, as in dərs vəsaiti."
+        }
+      ]
+    },
+    {
+      "word": "həbsxana",
+      "pos": "noun",
+      "az": "Məhbusların mühafizə altında saxlandığı yer və ya bina.",
+      "en": "a prison or jail, a place where people are held in custody",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 2, s. 351",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_2.pdf#page=351"
+        }
+      ],
+      "senses": []
+    },
+    {
+      "word": "şərab",
+      "pos": "noun",
+      "az": "Üzüm şirəsinin qıcqırması ilə alınan spirtli içki.",
+      "en": "wine, an alcoholic drink made by fermenting grape juice",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 211",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=211"
+        }
+      ],
+      "senses": []
     }
   ],
   "connection_evidence": [
