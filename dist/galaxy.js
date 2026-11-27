@@ -39,58 +39,88 @@ function createAtlas(data,model){
  const edges=model.edges.map(e=>({...e,from:byWord.get(e.a.w),to:byWord.get(e.b.w)}));
  return {points,byWord,regions,clusters,bounds,edges};
 }
-// Parallel projection has no horizon singularity when zooming across the large atlas.
-// Its plane is slightly inclined to the orbit axis, so elevated layers also move
-// sideways as the observer changes bearing. All three axes remain orthogonal.
-const axialTilt=.18,axisCos=Math.cos(axialTilt),axisSin=Math.sin(axialTilt);
+// Each camera row is a unit vector in world coordinates after vertical relief
+// is applied. Their transpose converts a drag on the screen into a 3D pan.
+const axialTilt=.18,axisCos=Math.cos(axialTilt),axisSin=Math.sin(axialTilt),overviewTilt=.52;
 function cameraBasis(camera){
  const c=Math.cos(camera.angle||0),s=Math.sin(camera.angle||0),ct=Math.cos(camera.tilt||0),st=Math.sin(camera.tilt||0);
- const level=camera.zoom/.035;
- // Exaggerate the shallow relief at map scale and return to native heights near words.
- const relief=1+15/(1+level*level);
- const basis={xx:c,xy:-s*axisCos,xz:s*axisSin*relief,
-  yx:s*ct,yy:c*axisCos*ct-axisSin*st,yz:-(c*axisSin*ct+axisCos*st)*relief};
+ const level=camera.zoom/.035,relief=1+15/(1+level*level);
+ const basis={xx:c,xy:-s*axisCos,xz:s*axisSin,
+  yx:s*ct,yy:c*axisCos*ct-axisSin*st,yz:-(c*axisSin*ct+axisCos*st),relief};
  if(!camera.roll)return basis;
  const cos=Math.cos(camera.roll),sin=Math.sin(camera.roll);
  return {xx:cos*basis.xx-sin*basis.yx,xy:cos*basis.xy-sin*basis.yy,xz:cos*basis.xz-sin*basis.yz,
-  yx:sin*basis.xx+cos*basis.yx,yy:sin*basis.xy+cos*basis.yy,yz:sin*basis.xz+cos*basis.yz};
+  yx:sin*basis.xx+cos*basis.yx,yy:sin*basis.xy+cos*basis.yy,yz:sin*basis.xz+cos*basis.yz,relief};
 }
 function transform(camera,width,height){
  const m=cameraBasis(camera),zoom=camera.zoom;
- const xx=m.xx*zoom,xy=m.xy*zoom,xz=m.xz*zoom,yx=m.yx*zoom,yy=m.yy*zoom,yz=m.yz*zoom;
- const ox=width/2-camera.x*xx-camera.y*xy,oy=height/2-camera.x*yx-camera.y*yy;
+ const xx=m.xx*zoom,xy=m.xy*zoom,xz=m.xz*m.relief*zoom,yx=m.yx*zoom,yy=m.yy*zoom,yz=m.yz*m.relief*zoom;
+ const ox=width/2-camera.x*xx-camera.y*xy-(camera.z||0)*xz,oy=height/2-camera.x*yx-camera.y*yy-(camera.z||0)*yz;
+ const facing=clamp((m.xx*m.yy-m.xy*m.yx)/Math.cos(overviewTilt+axialTilt),-1,1);
  function into(p,screen){
   const z=p.z||0;
   screen.x=ox+xx*p.x+xy*p.y+xz*z;
   screen.y=oy+yx*p.x+yy*p.y+yz*z;
-  // Glyphs get a limited size cue by elevation, even on the closest zoom.
-  screen.depth=clamp(1+.0004*z,.78,1.22);
+  // The original elevation cue reverses when the atlas is seen from below.
+  screen.depth=clamp(1+.0004*z*facing,.78,1.22);
   return screen;
  }
  const project=p=>into(p,{});
  project.into=into;
  return project;
 }
-function unproject(point,camera,width,height,z=0){
- const {xx,xy,xz,yx,yy,yz}=cameraBasis(camera);
- const sx=(point.x-width/2)/camera.zoom-xz*z,sy=(point.y-height/2)/camera.zoom-yz*z;
- const det=xx*yy-xy*yx;
- return {x:camera.x+(sx*yy-xy*sy)/det,y:camera.y+(xx*sy-sx*yx)/det,z};
+function unproject(point,camera,width,height,z=0,reference=camera){
+ const m=cameraBasis(camera);
+ const x=reference.x-camera.x,y=reference.y-camera.y,heightFromEye=(z-(camera.z||0))*m.relief;
+ const sx=(point.x-width/2)/camera.zoom-(m.xx*x+m.xy*y+m.xz*heightFromEye);
+ const sy=(point.y-height/2)/camera.zoom-(m.yx*x+m.yy*y+m.yz*heightFromEye);
+ const dx=m.xx*sx+m.yx*sy,dy=m.xy*sx+m.yy*sy,dz=m.xz*sx+m.yz*sy;
+ const nx=m.xy*m.yz-m.xz*m.yy,ny=m.xz*m.yx-m.xx*m.yz,nz=m.xx*m.yy-m.xy*m.yx;
+ // Intersect the screen ray with the named height. When the plane turns
+ // edge-on, that intersection can be arbitrarily distant or absent. Stay on
+ // the same ray and ease back toward the touched word's depth in that case.
+ const along=Math.abs(nz)>1e-12?-dz/nz:0;
+ const reach=Math.max(2048,3*Math.max(width,height)/camera.zoom);
+ const distance=along*smooth(Math.min(1,reach/Math.max(1,Math.abs(along))));
+ return {x:reference.x+dx+nx*distance,y:reference.y+dy+ny*distance,z:z+(dz+nz*distance)/m.relief};
 }
 function aimAt(camera,anchor,screen,width,height){
- const under=unproject(screen,camera,width,height,anchor.z||0);
- return {...camera,x:camera.x+anchor.x-under.x,y:camera.y+anchor.y-under.y};
+ const m=cameraBasis(camera),x=anchor.x-camera.x,y=anchor.y-camera.y,z=((anchor.z||0)-(camera.z||0))*m.relief;
+ const dx=m.xx*x+m.xy*y+m.xz*z-(screen.x-width/2)/camera.zoom;
+ const dy=m.yx*x+m.yy*y+m.yz*z-(screen.y-height/2)/camera.zoom;
+ return {...camera,x:camera.x+m.xx*dx+m.yx*dy,y:camera.y+m.xy*dx+m.yy*dy,z:(camera.z||0)+(m.xz*dx+m.yz*dy)/m.relief};
+}
+// The stored angles describe Rz(roll) Rx(tilt) Rz(bearing). Compose a drag
+// with the whole orientation so either screen axis can pass through both poles.
+function quaternion(camera){
+ const half=(camera.tilt||0)/2,s=Math.sin(half),c=Math.cos(half);
+ const sum=((camera.roll||0)+(camera.angle||0))/2,diff=((camera.roll||0)-(camera.angle||0))/2;
+ return {x:s*Math.cos(diff),y:s*Math.sin(diff),z:c*Math.sin(sum),w:c*Math.cos(sum)};
+}
+function orientation(q,previous){
+ const s=Math.hypot(q.x,q.y),c=Math.hypot(q.z,q.w);
+ const sum=c>1e-10?Math.atan2(q.z,q.w):((previous.roll||0)+(previous.angle||0))/2;
+ const diff=s>1e-10?Math.atan2(q.y,q.x):((previous.roll||0)-(previous.angle||0))/2;
+ return {angle:angleBetween(0,sum-diff,1),tilt:2*Math.atan2(s,c),roll:angleBetween(0,sum+diff,1)};
+}
+function interpolateOrientation(from,to,t){
+ if(t===0||t===1){const pose=t===0?from:to;return {angle:pose.angle||0,tilt:pose.tilt||0,roll:pose.roll||0};}
+ const a=quaternion(from),b=quaternion(to);
+ const dot=a.x*b.x+a.y*b.y+a.z*b.z+a.w*b.w,alpha=Math.acos(clamp(Math.abs(dot),0,1));
+ const divisor=Math.sin(alpha),weight=u=>alpha<1e-5?u:Math.sin(u*alpha)/divisor;
+ const u=weight(1-t),v=(dot<0?-1:1)*weight(t);
+ return orientation({x:u*a.x+v*b.x,y:u*a.y+v*b.y,z:u*a.z+v*b.z,w:u*a.w+v*b.w},from);
 }
 function orbit(camera,yaw,pitch){
- const bearing=camera.angle+yaw;
- return {...camera,angle:Math.atan2(Math.sin(bearing),Math.cos(bearing)),tilt:clamp(camera.tilt+pitch,-.10,.94)};
+ const angle=Math.hypot(yaw,pitch);
+ if(!angle)return {...camera};
+ const scale=Math.sin(angle/2)/angle,x=pitch*scale,y=yaw*scale,w=Math.cos(angle/2),q=quaternion(camera);
+ const turned={x:w*q.x+x*q.w+y*q.z,y:w*q.y-x*q.z+y*q.w,z:w*q.z+x*q.y-y*q.x,w:w*q.w-x*q.x-y*q.y};
+ return {...camera,...orientation(turned,camera)};
 }
-function touchOrbit(camera,dx,dy,width,height){
- // Translate a drag in screen pixels into the camera's axes even when the
- // phone's fitted view, or a two-finger turn, has rolled the sky sideways.
- const roll=camera.roll||0,cos=Math.cos(roll),sin=Math.sin(roll);
- const span=Math.min(width,height);
- return orbit(camera,(dx*cos+dy*sin)/Math.max(135,span*.42),(dx*sin-dy*cos)/Math.max(190,span*.68));
+function dragOrbit(camera,dx,dy,width,height){
+ const radians=Math.PI/Math.max(1,Math.min(width,height));
+ return orbit(camera,dx*radians,-dy*radians);
 }
 function touchTurn(first,second){
  const span=Math.min(first.distance,second.distance);
@@ -106,7 +136,7 @@ function overview(atlas,width,height){
  const cached=overviewCache.get(atlas);
  if(cached?.width===width&&cached.height===height)return {...cached.camera};
  const b=atlas.bounds,spanX=b.maxX-b.minX,spanY=b.maxY-b.minY;
- const camera={x:(b.minX+b.maxX)/2,y:(b.minY+b.maxY)/2,zoom:Math.min(Math.max(160,width-64)/(spanX+800),Math.max(120,height-220)/(spanY*Math.cos(.70)+7200))*.93,angle:0,tilt:.52,roll:0};
+ const camera={x:(b.minX+b.maxX)/2,y:(b.minY+b.maxY)/2,zoom:Math.min(Math.max(160,width-64)/(spanX+800),Math.max(120,height-220)/(spanY*Math.cos(.70)+7200))*.93,angle:0,tilt:overviewTilt,roll:0,z:0};
  if(height>width*1.25){
   // Align the atlas's long axis with the phone. Fit its actual elevated points,
   // leaving space above and below for controls. This runs only upon resizing.
@@ -124,10 +154,10 @@ function overview(atlas,width,height){
  }
  overviewCache.set(atlas,{width,height,camera});return {...camera};
 }
-function focus(point,zoom=.88){return aimAt({x:point.x,y:point.y,zoom,angle:0,tilt:-.09,roll:0},point,{x:0,y:0},0,0);}
+function focus(point,zoom=.88){return {x:point.x,y:point.y,z:point.z||0,zoom,angle:0,tilt:-.09,roll:0};}
 function area(area,width,height){
  const zoom=Math.min(Math.max(160,width-72)/(area.radius*2.2),Math.max(120,height-250)/(area.radius*2.2));
- return aimAt({x:area.x,y:area.y,zoom,angle:0,tilt:.24,roll:0},area,{x:0,y:0},0,0);
+ return {x:area.x,y:area.y,z:area.z||0,zoom,angle:0,tilt:.24,roll:0};
 }
 function angleBetween(from,to,t){const delta=to-from;return from+Math.atan2(Math.sin(delta),Math.cos(delta))*t;}
 function makeFlight(from,to,width,height,now=0,reduced=false){
@@ -140,10 +170,12 @@ function sampleFlight(flight,time){
  if(t===1)return {...flight.to,done:true};
  const p=smooth(t),move=flight.far?smooth(clamp((t-.15)/.7,0,1)):p;
  let zoom;if(flight.far){zoom=t<.48?Math.exp(mix(Math.log(flight.from.zoom),Math.log(flight.valley),smooth(t/.48))):Math.exp(mix(Math.log(flight.valley),Math.log(flight.to.zoom),smooth((t-.48)/.52)));}else zoom=Math.exp(mix(Math.log(flight.from.zoom),Math.log(flight.to.zoom),p));
- return {x:mix(flight.from.x,flight.to.x,move),y:mix(flight.from.y,flight.to.y,move),zoom,angle:angleBetween(flight.from.angle||0,flight.to.angle||0,p)+(flight.far?Math.sin(Math.PI*t)*.13*flight.turn:0),roll:angleBetween(flight.from.roll||0,flight.to.roll||0,p),tilt:mix(flight.from.tilt||0,flight.to.tilt||0,p)+(flight.far?Math.sin(Math.PI*t)*.12:0),done:false};
+ const pose=interpolateOrientation(flight.from,flight.to,p),lift=flight.far?Math.sin(Math.PI*t):0;
+ const turned=lift?orbit(pose,lift*.13*flight.turn,lift*.12):pose;
+ return {...turned,x:mix(flight.from.x,flight.to.x,move),y:mix(flight.from.y,flight.to.y,move),z:mix(flight.from.z||0,flight.to.z||0,move),zoom,done:false};
 }
-function zoomAt(camera,screen,nextZoom,width,height,z=0){
- const anchor=unproject(screen,camera,width,height,z);
+function zoomAt(camera,screen,nextZoom,width,height,z=0,reference=camera){
+ const anchor=unproject(screen,camera,width,height,z,reference);
  return aimAt({...camera,zoom:nextZoom},anchor,screen,width,height);
 }
 // One geometric glyph for every visible word, at every atlas zoom level.
@@ -210,5 +242,5 @@ function connections(atlas,screens,filters,width,height,moving=new Set()){
  return {stationary,dynamic};
 }
 function blendColor(from,to,t){const rgb=h=>[1,3,5].map(i=>parseInt(h.slice(i,i+2),16)),a=rgb(from),b=rgb(to);return '#'+a.map((v,i)=>Math.round(mix(v,b[i],t)).toString(16).padStart(2,'0')).join('');}
-const api={createAtlas,transform,unproject,aimAt,orbit,touchOrbit,touchTurn,angleBetween,overview,focus,area,makeFlight,sampleFlight,zoomAt,clamp,glyphs,labelLines,fitLabel,blendColor,crossesViewport,connections};if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.WordGalaxy=api;
+const api={createAtlas,transform,unproject,aimAt,orbit,dragOrbit,touchOrbit:dragOrbit,touchTurn,angleBetween,interpolateOrientation,overview,focus,area,makeFlight,sampleFlight,zoomAt,clamp,glyphs,labelLines,fitLabel,blendColor,crossesViewport,connections};if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.WordGalaxy=api;
 })(typeof window!=='undefined'?window:globalThis);

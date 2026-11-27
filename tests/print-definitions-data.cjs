@@ -21,7 +21,7 @@ for (const n of before.nodes) assert.equal(m.byWord.get(n.w).id, n.id, n.w + ' p
 // Existing definitions are untouched; new ones fill only empty spelling entries.
 let filled = 0;
 const edition = w.WORD_WEB_VERIFICATION.dictionaryEdition;
-const revised = new Map(edition.revisions.map(row => [row.word, row]));
+const revised = new Map([...edition.revisions, ...(w.WORD_WEB_VERIFICATION.commonWordReview?.revisions || [])].map(row => [row.word, row]));
 let laterReviews = 0;
 for (const n of before.nodes) {
   const after = m.byWord.get(n.w), had = n.az?.trim() && n.en?.trim();

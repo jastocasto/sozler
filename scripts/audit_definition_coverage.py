@@ -17,6 +17,12 @@ from build_print_definitions import FORMATION_ONLY, ROOT, key, print_source
 STATES = ('missing', 'formation-only', 'needs-review', 'other-bilingual')
 
 
+def repeats_headword(word, definition):
+    head = re.findall(r'[^\W_]+', key(word))
+    gloss = re.findall(r'[^\W_]+', key(definition))
+    return bool(head and gloss) and gloss == head * (len(gloss) // len(head))
+
+
 def print_candidates(archive):
     """Headword matches are leads for a reader to check against the intended sense."""
     source = json.loads((ROOT / 'scripts/content/verification/print-source-summary.json').read_text())
@@ -62,6 +68,8 @@ def audit(dist, output=None, candidates=None):
             status, reason = 'missing', 'Azerbaijani or English text missing'
         elif method == 'rule' and FORMATION_ONLY.search(az[i]):
             status, reason = 'formation-only', 'rule explains how the word is formed'
+        elif repeats_headword(word, az[i]):
+            status, reason = 'needs-review', 'Azerbaijani definition repeats the headword'
         elif method in ('meaning', 'authored'):
             status, reason = 'needs-review', 'AI-written meaning pending review'
         elif confidence.get(str(i)) == 'low' or flags.get(str(i)) == 'needs-review':
@@ -126,6 +134,17 @@ def update_report(dist, counts):
                     + '<h3>Yenilənmiş izahlar</h3>\n' + word_list(row['word'] for row in edition['revisions'])
                     + '</section>\n'
                 )
+    common = json.loads((dist / 'verification-attribution.json').read_text()).get('common_words')
+    if common:
+        raw = (ROOT / 'scripts/content/verification/common-words.json').read_bytes()
+        if hashlib.sha256(raw).hexdigest() != common['source_sha256']:
+            raise ValueError('The everyday-word review differs from the published source')
+        reviewed_words = (row['word'] for row in json.loads(raw)['revisions'])
+        latest = (
+            '<section id="common-words" class="word-lists" aria-labelledby="common-heading">\n'
+            '<h2 id="common-heading">Gündəlik sözlərin izahları · <span lang="en">Everyday word definitions</span></h2>\n'
+            + word_list(reviewed_words) + '</section>\n' + latest
+        )
     start = '<!-- latest definitions -->'
     end = '<!-- end latest definitions -->'
     if html.count(start) != 1 or html.count(end) != 1 or html.index(start) > html.index(end):

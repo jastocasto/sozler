@@ -14,7 +14,7 @@ for (const file of files) {
 const w = sandbox.window;
 // The rules and their replay checkpoint use the dictionary as it stood before the later sourced review.
 const verification = process.argv.includes('--without-print')
-  ? {...w.WORD_WEB_VERIFICATION, dictionaryEdition: undefined}
+  ? {...w.WORD_WEB_VERIFICATION, dictionaryEdition: undefined, commonWordReview:undefined}
   : w.WORD_WEB_VERIFICATION;
 const model = require('../dist/model.js').createModel(w.WORD_WEB_DATA, w.WORD_WEB_EXTRA, w.WORD_WEB_GRAMMAR, w.WORD_WEB_VOCABULARY,
   w.WORD_WEB_REVIEW, w.WORD_WEB_BILINGUAL, w.WORD_WEB_EXPANSION, w.WORD_WEB_NOMINAL, w.WORD_WEB_ADDITIONS, w.WORD_WEB_RELATIONS,

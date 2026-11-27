@@ -65,32 +65,60 @@ function checkTwoFingers(h,width,height,initial){
  assert.equal(read().view,'explore');
  $('universeButton').click();h.runUntilIdle();
 }
-for(const [width,height] of [[390,844],[1440,900]]){
- const home = G.overview({bounds},width,height);
- const near = {x:home.x,y:home.y,z:300}, far = {...near,z:-300};
- const separation = camera => {
-  const project = G.transform(camera,width,height), a = project(near), b = project(far);
-  return {x:a.x-b.x,y:a.y-b.y};
- };
- const xy = separation(home), yawed = separation(G.orbit(home,Math.PI/2,0)), pitched = separation(G.orbit(home,0,-.4));
- assert(Math.hypot(xy.x,xy.y)>15,'elevation is visible even on a phone');
- assert(Math.abs(xy.x*yawed.y-xy.y*yawed.x)/Math.hypot(xy.x,xy.y)>4,'changing bearing reveals horizontal parallax');
- assert(Math.hypot(xy.x-pitched.x,xy.y-pitched.y)>6,'changing tilt reveals vertical parallax');
+// An actual screen-axis orbit leaves the perpendicular screen coordinate fixed.
+// At a half-turn the moving coordinate is mirrored, and the full turn closes
+// even if the phone is already rolled and a previous orbit had crossed a pole.
+function checkFullTurns(camera,width,height){
+ const landmarks=[{x:camera.x+1800,y:camera.y-3200,z:310},{x:camera.x-2200,y:camera.y+800,z:-420},
+  {x:camera.x+950,y:camera.y+1400,z:50}];
+ const pixels=pose=>landmarks.map(G.transform(pose,width,height));
+ const initial=pixels(camera),span=Math.min(width,height);
+ for(const horizontal of [true,false])for(const direction of [-1,1]){
+  const axis=horizontal?'x':'y',perpendicular=horizontal?'y':'x';
+  const extent=horizontal?width:height,step=direction*span/4;
+  let pose=camera,last=initial;
+  for(let n=1;n<=16;n++){
+   pose=G.dragOrbit(pose,horizontal?step:0,horizontal?0:step,width,height);
+   const frame=pixels(pose);
+   assert(frame.some((p,i)=>Math.abs(p[axis]-last[i][axis])>.05),'each 45° swipe rotates visible landmarks');
+   for(const [i,p] of frame.entries()){
+    assert(Math.abs(p[perpendicular]-initial[i][perpendicular])<1e-7);
+    if(n%8===4)assert(Math.abs(p[axis]-(extent-initial[i][axis]))<1e-7,'half-turn reveals the back');
+    if(n%8===0)assert(Math.abs(p[axis]-initial[i][axis])<1e-7,'full turn closes exactly');
+   }
+   last=frame;
+  }
+ }
+}
+for(const [width,height] of [[390,844],[844,390],[1440,900]]){
+ const home=G.overview({bounds},width,height),rolled={...home,roll:home.roll+.48};
+ checkFullTurns(home,width,height);
+ checkFullTurns(G.orbit(rolled,.93,-1.72),width,height);
  for(const yaw of [-Math.PI,-Math.PI/2,0,Math.PI/2,Math.PI]){
-  for(const tilt of [-10,.4,10]){
-   const cam = G.orbit(home,yaw,tilt);
-   assert(cam.tilt>=-.10&&cam.tilt<=.94);
+  for(const pitch of [-10,.4,10]){
+   const cam=G.orbit(home,yaw,pitch);
    for(const z of [-375,0,375])for(const zoom of [.003,.03,.9,6]){
     const p={x:cam.x+1120,y:cam.y-310,z},before={...cam,zoom};
-    const pixel=G.transform(before,width,height)(p), restored=G.unproject(pixel,before,width,height,z);
-    assert(Math.hypot(p.x-restored.x,p.y-restored.y)<1e-7);
-    const after=G.zoomAt(before,pixel,zoom*1.4,width,height,z);
-    const anchored=G.transform(after,width,height)(p);
+    const pixel=G.transform(before,width,height)(p),restored=G.unproject(pixel,before,width,height,z);
+    assert(Math.abs(restored.z-z)<1e-7&&Math.hypot(p.x-restored.x,p.y-restored.y)<1e-7);
+    const after=G.zoomAt(before,pixel,zoom*1.4,width,height,z),anchored=G.transform(after,width,height)(p);
     assert(Math.hypot(anchored.x-pixel.x,anchored.y-pixel.y)<1e-7,'zoom follows the picked elevation');
    }
   }
  }
- assert(Math.abs(G.angleBetween(Math.PI-.02,-Math.PI+.02,.5)-Math.PI)<1e-7,'travel takes the short way across north');
+ // When an entire horizontal layer is seen exactly from the edge, its
+ // screen position cannot determine a unique point at a fixed height.
+ for(const delta of [-.002,-1e-7,0,1e-7,.002]){
+  const edge={...home,angle:0,tilt:Math.PI/2-.18+delta,roll:.43};
+  const pixel={x:width*.73,y:height*.31},anchor=G.unproject(pixel,edge,width,height,220);
+  assert(Math.hypot(anchor.x-edge.x,anchor.y-edge.y,anchor.z)<4*Math.max(width,height)/edge.zoom);
+  const p=G.transform(edge,width,height)(anchor);
+  assert(Math.hypot(p.x-pixel.x,p.y-pixel.y)<1e-7,'grazing rays remain finite and project to the same pixel');
+  const target={x:pixel.x+31,y:pixel.y-19},pan=G.aimAt(edge,anchor,target,width,height);
+  const moved=G.transform(pan,width,height)(anchor);
+  assert(Math.hypot(moved.x-target.x,moved.y-target.y)<1e-7,'a pan still moves vertically at the edge');
+ }
+ assert(Math.abs(G.angleBetween(Math.PI-.02,-Math.PI+.02,.5)-Math.PI)<1e-7);
 }
 for(const [width,height,reduced] of [[390,844,true],[1440,900,false]]){
  const h=boot({width,height,reduced}), {$,window,pointer,runFrames}=h;
@@ -128,15 +156,22 @@ for(const [width,height,reduced] of [[390,844,true],[1440,900,false]]){
  const rotatedButtons=regionButtons();
  assert(rotatedButtons.size>0);
  for(const [region,button] of rotatedButtons)assert.equal(button,initialButtons.get(region),'orbit preserves focusable region controls');
- assert(state.orbitMode);assert(state.camera.angle>initial.angle&&state.camera.tilt>initial.tilt);assert.equal(state.camera.zoom,initial.zoom);
+ assert(state.orbitMode);assert.deepEqual({...state.camera},G.orbit(G.orbit(initial,Math.PI/12,0),0,Math.PI/24));
  pointer('pointerdown',1,100,300);pointer('pointermove',1,155,320);pointer('pointerup',1,155,320);runFrames(2);
  const rotated=inspect().camera,screenDrag=G.touchOrbit(state.camera,55,20,width,height);
  assert.deepEqual({...rotated},screenDrag);assert.equal(rotated.x,initial.x);assert.equal(rotated.y,initial.y);
- assert(rotated.angle>state.camera.angle);
- if(height>width)assert(rotated.tilt>state.camera.tilt,'a touch drag follows the portrait roll');
- else assert(rotated.tilt<state.camera.tilt);
+ const landmark=window.WORD_GALAXY_DATA.regions[0],beforeTurn=G.transform(rotated,width,height)(landmark);
+ const step=Math.min(width,height)/2;
+ for(let turn=1;turn<=4;turn++){
+  pointer('pointerdown',6,44,241);pointer('pointermove',6,44+step,241);pointer('pointerup',6,44+step,241);
+  const pose=inspect().camera,p=G.transform(pose,width,height)(landmark);
+  assert(Math.abs(p.y-beforeTurn.y)<1e-7);
+  if(turn===2)assert(Math.abs(p.x+beforeTurn.x-width)<1e-7);
+  if(turn===4)assert(Math.abs(p.x-beforeTurn.x)<1e-7,'four lifted swipes return the same region to its pixel');
+ }
+ const afterTurn=inspect().camera;
  toggle.click();pointer('pointerdown',2,70,270);pointer('pointermove',2,120,310);pointer('pointerup',2,120,310);runFrames(2);
- state=inspect();assert(!state.orbitMode);assert(state.camera.x!==initial.x);assert.equal(state.camera.angle,rotated.angle);
+ state=inspect();assert(!state.orbitMode);assert(state.camera.x!==initial.x);assert.equal(state.camera.angle,afterTurn.angle);
  key(graph,'Home');h.runUntilIdle();assert.deepEqual(inspect().camera,initial);
  if(reduced){
   $('menuButton').click();$('regionDirectory').querySelector('[data-region="people"]').click();
@@ -147,5 +182,5 @@ for(const [width,height,reduced] of [[390,844,true],[1440,900,false]]){
  toggle.click();window.SozApp.selectWord('şallaq');assert(toggle.hidden);assert(!inspect().orbitMode);
  h.runUntilIdle();state=inspect();const chosen=state.particles.find(p=>p.word==='şallaq');assert(Math.hypot(chosen.x-state.focusCenter.x,chosen.y-state.focusCenter.y)<.001);
  assert.equal(h.errors.length,0);
- console.log('PASS orbit, pan, keyboard reset, focused-word centering and finite inverse at '+width+'×'+height+(reduced?' with reduced motion':''));
+ console.log('PASS full horizontal/vertical 360° orbits, lifted swipes, anchored edge-on pan/zoom, keyboard reset and word centering at '+width+'×'+height+(reduced?' with reduced motion':''));
 }

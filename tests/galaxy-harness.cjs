@@ -23,7 +23,7 @@ function canvasMock(window){
  };
  return counts;
 }
-function boot({width=390,height=844,hash='',saved=[],reduced=false,layers=false}={}){
+function boot({width=390,height=844,hash='',saved=[],reduced=false,layers=false,fetchJSON=require('./layers.cjs').fetchJSON}={}){
  const dom=parseHTML(fs.readFileSync(path.join(dir,'index.html'),'utf8')).window,frames=new Map(),intervals=[],resizeObservers=[],errors=[];
  // Linkedom's window proxies writes to Node globals. Give each viewport its own browser globals.
  const window={};
@@ -41,7 +41,7 @@ function boot({width=390,height=844,hash='',saved=[],reduced=false,layers=false}
  // Detail files and the forms archive load synchronously from dist/ in tests.
  // Search is tested through its normal input path. Skip background prewarming in each synthetic viewport.
  window.requestIdleCallback=()=>0;
- window.SOZ_FETCH_JSON=require('./layers.cjs').fetchJSON;
+ window.SOZ_FETCH_JSON=fetchJSON;
  window.fetch=async file=>({ok:true,json:()=>window.SOZ_FETCH_JSON(file)});
  const counts=canvasMock(window),context=vm.createContext(window);
  let model;

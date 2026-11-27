@@ -53,6 +53,22 @@ def compile_dictionary_edition(source):
 
 edition_path=IN/'dictionary-edition.json'
 dictionary_edition=compile_dictionary_edition(read(edition_path)) if edition_path.exists() else None
+common_path=IN/'common-words.json'
+common_review=None
+if common_path.exists():
+ source=read(common_path)
+ existing=source['connection_evidence']
+ retyped=source['retyped_connections']
+ compiled=compile_dictionary_edition({'entries':[],'revisions':source['revisions'],'connections':existing+retyped})
+ for row in retyped:
+  if row['old_type']==row['type'] or row['old_type'] not in ('syn','ant','root','topic','ending'):
+   raise ValueError(f'Invalid previous relationship for {row["a"]} and {row["b"]}')
+ common_review={
+  'revisions':compiled['revisions'],
+  'evidence':{'|'.join([*sorted((a,b)),kind]):proofs for a,b,kind,_,_,proofs in compiled['edges'][:len(existing)]},
+  'edges':compiled['edges'][len(existing):],
+  'blocked':[[row['a'],row['b'],row['old_type']] for row in retyped],
+ }
 # Export the exact preserved baseline, excluding only this verification layer.
 snapshot=ROOT/'.verification-base.json'
 subprocess.run(['node','scripts/export_current_model.cjs',str(snapshot),'--without-verification'],cwd=ROOT,check=True)
@@ -143,6 +159,8 @@ meta.update({'connections_before':len(base['edges']),'connections_after':len(aft
 # These corrections and additions follow the historical verification and print passes.
 if dictionary_edition:
  runtime['dictionaryEdition']=dictionary_edition
+if common_review:
+ runtime['commonWordReview']=common_review
 (DIST/'verification.js').write_text('window.WORD_WEB_VERIFICATION='+json.dumps(runtime,ensure_ascii=False,separators=(',',':'))+';\n')
 attribution={'method':'AI-assisted entry-by-entry review against cached multilingual dictionary glosses, native Azerbaijani Wiktionary revisions, and targeted dictionary research. Correctness is sense-specific. Automatic graph checks do not constitute linguistic verification. This is not a professional linguistic certification.',
  'display_languages':['az','en'],'policy':'Source-compared means the displayed sense was compared with cited dictionary evidence, not that every possible sense is certified. Unresolved disputes remain labelled. Original dictionary layers and grammatical archives remain intact.',
@@ -152,4 +170,7 @@ attribution={'method':'AI-assisted entry-by-entry review against cached multilin
 if dictionary_edition:
  attribution['dictionary_edition']={'entries':len(dictionary_edition['entries']),'revisions':len(dictionary_edition['revisions']),
                                     'connections':len(dictionary_edition['edges']),'source_sha256':hashlib.sha256(edition_path.read_bytes()).hexdigest()}
+if common_review:
+ attribution['common_words']={'revisions':len(common_review['revisions']),'explained_connections':len(common_review['evidence']),
+                              'retyped_connections':len(common_review['edges']),'source_sha256':hashlib.sha256(common_path.read_bytes()).hexdigest()}
 write(DIST/'verification-attribution.json',attribution);print(json.dumps(meta),flush=True)

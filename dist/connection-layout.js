@@ -25,10 +25,16 @@ function layout(width,height,count,page=0,scale=1){
 }
 // Lay out equal-sized family circles once, then zoom/pan the arrangement.
 // Dense families extend beyond the viewport instead of shrinking their bubbles.
-function collective(width,height,count,scale=1,pan={x:0,y:0},preferredCenterRadius=0){
+function collective(width,height,count,scale=1,pan={x:0,y:0},preferredCenterRadius=0,stage=null){
  const narrow=width<640,compact=height<500,tiny=height<300,defaultCenter=tiny?19:compact?27:narrow?30:36;
- const bounds={left:12,right:width-58,top:tiny?55:compact?104:narrow?108:148,bottom:height-(tiny?60:compact?100:132)},baseCenter={x:width/2,y:(bounds.top+bounds.bottom)/2};
- const centerR=Math.max(defaultCenter,Math.min(preferredCenterRadius,narrow?44:52,(bounds.right-bounds.left)*.2,(bounds.bottom-bounds.top)*.2));
+ const bounds={left:12,right:width-58,top:tiny?55:compact?104:narrow?108:148,bottom:height-(tiny?60:compact?100:132)};
+ if(stage){
+  bounds.bottom=Math.max(0,Math.min(bounds.bottom,height-stage.bottomInset));
+  bounds.top=Math.min(bounds.bottom,Math.max(bounds.top,stage.top));
+ }
+ const baseCenter={x:width/2,y:(bounds.top+bounds.bottom)/2};
+ const fitCenter=Math.min(defaultCenter,Math.max(12,(bounds.bottom-bounds.top)/2-2));
+ const centerR=Math.max(fitCenter,Math.min(preferredCenterRadius,narrow?44:52,(bounds.right-bounds.left)*.2,(bounds.bottom-bounds.top)*.2));
  function slots(r){
   const gap=Math.max(r*2.3+9,count<=6?centerR*1.09+r*1.09+11:0),margin=r*1.09+5,items=[],rows=Math.ceil(height/gap)+1,cols=Math.ceil(width/gap)+1;
   for(let row=-rows;row<=rows;row++)for(let col=-cols;col<=cols;col++){

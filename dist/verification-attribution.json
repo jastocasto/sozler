@@ -299517,5 +299517,11 @@
     "revisions": 20,
     "connections": 46,
     "source_sha256": "4d98887e61be0249620f78735a013465a2ca2c8e1ae5e6ade63dd6f422834615"
+  },
+  "common_words": {
+    "revisions": 120,
+    "explained_connections": 5,
+    "retyped_connections": 1,
+    "source_sha256": "87bd307c44d4c125bb4ad5c302be8a1e4c2cd433c472e5a9584ebb24f716d3e0"
   }
 }

@@ -4,6 +4,7 @@
 // Reads the data layers in dist/ (the same files the page used to load), runs
 // createModel, and writes:
 //   dist/soz-core.json      everything the map, search and meaning strip need
+//   dist/meanings/HASH.json primary definitions requested directly by a word card
 //   dist/details/N.json     link evidence, one file per hash shard of headwords
 //   dist/forms-archive.json the full noun-form records (Forms section)
 // It then rebuilds the model with restoreModel from those files and fails
@@ -18,6 +19,7 @@ const LAYERS = ['data', 'lexicon', 'grammar', 'vocabulary', 'review', 'bilingual
   'references', 'growth', 'orthography-lexical', 'orthography-lexical-evidence', 'orthography', 'verification', 'print-definitions'];
 const { assignEvidenceIds } = require('./edge_evidence_ids.cjs');
 const SHARDS = 1024;
+const MEANING_SHARDS = 256;
 const content = path.join(__dirname, 'content');
 const readOptional = (file, fallback) => fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, 'utf8')) : fallback;
 // Word origins and homonyms from English Wiktionary (scripts/build_etymology.py).
@@ -174,9 +176,30 @@ for (const field of Object.keys(cols)) if (TEXT_FIELDS.has(field)) { textPart.co
 for (const field of Object.keys(sparse)) if (TEXT_FIELDS.has(field)) { textPart.sparse[field] = sparse[field]; delete sparse[field]; }
 const textJson = JSON.stringify(textPart);
 fs.writeFileSync(path.join(dist, 'soz-text.json'), textJson);
+// Show the curated vocabulary and A1/A2 words with the map. A selected word
+// outside this set can fetch just its primary pair while the full index loads.
+const starterMeanings = [], meaningShards = Array.from({ length: MEANING_SHARDS }, () => []);
+for (const n of nodes) {
+  if (!n.az && !n.en) continue;
+  const row = [n.id, n.az || '', n.en || ''];
+  if (n.quality === 'curated' || (frequencyRank.get(n.w) || Infinity) <= 1500) starterMeanings.push(row);
+  else meaningShards[shardOf(n.w, MEANING_SHARDS)].push(row);
+}
+const meaningDir = path.join(dist, 'meanings');
+fs.mkdirSync(meaningDir, { recursive: true });
+const meaningHashes = meaningShards.map(rows => {
+  const text = JSON.stringify(rows), digest = hash(text).slice(0, 16);
+  fs.writeFileSync(path.join(meaningDir, digest + '.json'), text);
+  return digest;
+});
+const activeMeaningFiles = new Set(meaningHashes.map(digest => digest + '.json'));
+for (const file of fs.readdirSync(meaningDir)) {
+  if (/^[0-9a-f]{16}\.json$/.test(file) && !activeMeaningFiles.has(file)) fs.unlinkSync(path.join(meaningDir, file));
+}
 const core = {
   meta: {
-    orthography: pick(w.WORD_WEB_ORTHOGRAPHY, ['title', 'edition', 'year', 'url']),
+    orthography: {...pick(w.WORD_WEB_ORTHOGRAPHY, ['title', 'edition', 'year', 'url']),
+      defined: m.orthographyNodes.filter(n => n.az && n.en).length},
     nominal: pick(w.WORD_WEB_NOMINAL.meta, ['moved_entries']),
     growth: pick(w.WORD_WEB_GROWTH.meta, ['added_entries']),
     verification: pick(w.WORD_WEB_VERIFICATION.meta, ['assessed_entries', 'corrected_entries']),
@@ -185,7 +208,8 @@ const core = {
   homonyms,
   frequency: frequencyRank.size ? nodes.map(n => frequencyRank.get(n.w) || 0) : null,
   nodes: { count, orthographyStart, cols, sparse, rank, excluded },
-  text: { file: 'soz-text.json', hash: hash(textJson).slice(0, 16) },
+  text: { file: 'soz-text.json', hash: hash(textJson).slice(0, 16),
+    integrity: 'sha256-' + crypto.createHash('sha256').update(textJson).digest('base64'), starterMeanings, meaningHashes },
   edges: { types: typeList, notes: noteList, flat, ...(evidenceIdRuns.length ? { evidenceIdRuns } : {}) },
   aliases: m.aliases,
   verbEvidence: m.verbEvidence,
@@ -209,7 +233,21 @@ const fetchJSON = file => JSON.parse(fs.readFileSync(path.join(dist, file.split(
   const early = restoreModel({ ...restoredCore, frequency: null }, { fetchJSON });
   assert.equal(early.textLoaded(), false);
   assert.equal(early.nodes.length, count);
-  assert.equal(early.byWord.get('kitab').az, undefined, 'definitions wait for soz-text.json');
+  assert.equal(early.byWord.get('kitab').az, m.byWord.get('kitab').az, 'a common card opens with its definition');
+  assert.equal(early.byWord.get('gözəl').en, m.byWord.get('gözəl').en);
+  const rare = nodes.find(n => n.en && n.az && !early.primaryReady(early.byWord.get(n.w)));
+  assert(rare);
+  assert.equal(early.ensurePrimary(early.byWord.get(rare.w)), true);
+  assert.equal(early.byWord.get(rare.w).az, rare.az);
+  assert.equal(early.byWord.get(rare.w).en, rare.en);
+  assert.equal(early.textLoaded(), false, 'reading one rare card does not require the full text index');
+  for (const n of nodes) {
+    const card = early.byWord.get(n.w);
+    assert.equal(early.ensurePrimary(card), true);
+    assert(early.primaryReady(card), n.w);
+    assert.equal(card.az || '', n.az || '', n.w + ' primary AZ');
+    assert.equal(card.en || '', n.en || '', n.w + ' primary EN');
+  }
   assert.equal(early.search('kitab', 3)[0].w, 'kitab', 'word search works before the text arrives');
   assert.equal(early.related(early.byWord.get('kitab')).length, m.related(m.byWord.get('kitab')).length);
   assert.equal(early.ensureText(), true);

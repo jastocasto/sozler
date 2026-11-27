@@ -1,5 +1,5 @@
 const assert=require('node:assert/strict'),{boot}=require('./galaxy-harness.cjs');
-const {window,$,input,frames,runFrames,storage}=boot({hash:'#w='+encodeURIComponent('elədi'),saved:['elədi','məlumat'],layers:true});
+const {window,$,input,frames,runFrames,storage,model}=boot({hash:'#w='+encodeURIComponent('elədi'),saved:['elədi','məlumat'],layers:true});
 const click=id=>$(id).click();
 assert.equal($('meaningWord').textContent,'eləmək','Old verb-form link opens its base');
 assert.equal($('savedCount').textContent,'2');assert.equal(JSON.parse(storage.get('soz-toxumasi:saved')).length,2);
@@ -12,7 +12,18 @@ click('savedTab');assert.equal($('libraryList').children.length,2);const archive
 input('search','eləmişdi');let steps=$('searchResults').children.length-1;for(let i=0;i<steps;i++){const e=new window.Event('keydown');e.key='ArrowDown';$('search').dispatchEvent(e);}const enter=new window.Event('keydown');enter.key='Enter';$('search').dispatchEvent(enter);assert.equal($('libraryTitle').textContent,'Qrammatika');assert($('libraryList').textContent.includes('eləmişdi'));$('libraryDialog').close();
 for(const [word,pos,definition]of [['yanacaq','isim','fuel'],['pozan','isim','eraser'],['gələn','təyinedici','next']]){input('search',word);$('searchResults').firstElementChild.click();assert.equal($('meaningWord').textContent,word);assert.equal($('meaningPos').textContent,pos);assert($('meaningEnglish').textContent.toLowerCase().includes(definition));}
 for(const [word,lang,label]of [['nikel','tr','türkcə izah'],['monetarizm','ru','rusca izah']]){input('search',word);$('searchResults').firstElementChild.click();assert.equal($('meaningDefinition').lang,'az');assert.equal($('meaningEnglish').lang,'en');assert($('meaningDefinition').textContent.trim());assert($('meaningEnglish').textContent.trim());assert.equal($('definitionLanguage').textContent,'Azərbaycan dilində');assert($('meaningSource').querySelector('a').href.startsWith('https://'+lang+'.wiktionary.org/'));}
-for(let i=0;i<30;i++){click('randomButton');assert(!window.WORD_WEB_GRAMMAR.excluded.includes($('meaningWord').textContent));assert([...window.document.querySelectorAll('[data-word]')].every(e=>!window.WORD_WEB_GRAMMAR.excluded.includes(e.dataset.word)));}
+const archivedVerbs=new Set(window.WORD_WEB_GRAMMAR.excluded);
+function checkMapWord(word){
+ const n=model.byWord.get(word);assert(n,word+' must be a map headword');
+ if(!archivedVerbs.has(word))return;
+ assert(n.quality==='orthography'&&n.orthographyPage>0&&!n.form&&n.az&&n.en,word+' requires an independently attested bilingual headword');
+}
+for(const word of archivedVerbs)if(model.byWord.has(word))checkMapWord(word);
+assert(!model.byWord.has('elədi'));assert.match(model.byWord.get('alan').en,/recipient/);
+for(let i=0;i<30;i++){
+ click('randomButton');checkMapWord($('meaningWord').textContent);
+ for(const element of window.document.querySelectorAll('[data-word]'))checkMapWord(element.dataset.word);
+}
 window.location.hash='#w=idi';window.dispatchEvent(new window.Event('hashchange'));assert.equal($('meaningWord').textContent,'idi');click('grammarTab');input('librarySearch','idi');assert($('libraryList').textContent.includes('idi'));input('librarySearch','no-such-form-xyz');assert($('libraryList').textContent.includes('yoxdur'));assert($('loadMore').hidden);
 assert.equal($('grammarIntro').querySelector('.archive-download').getAttribute('href'),'grammar-archive.json');
 console.log('PASS: Grammar tabs/search/pagination/base links, keyboard archive shortcut, preserved saved conjugations, old hash routes, homonym meanings, AZ/EN definitions with original source links, random and graph exclusion, empty archive search and download.');
