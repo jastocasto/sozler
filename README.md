@@ -99,9 +99,11 @@ The candidate list (9,469 drawable headwords) and the plan for further pictures 
 
 ## Continuous magnetic selection and intact labels
 
-Tap a star or a word bubble to fly to that word’s permanent location in the atlas. The flight starts from the exact position and size you touched, even if the bubble is already moving. Directional light trails open around the selected word as the camera accelerates and fade on approach. A hop between two equal-sized bubbles includes a forward zoom before the camera settles above the word card.
+Tap a star or a word bubble to fly to that word’s permanent location in the atlas. The flight starts from the exact position and size you touched, even if the bubble is already moving. The camera turns along the route, and nearby stars sweep past faster than distant lights. The word card comes into view as the camera arrives. Its bilingual text is available to assistive technology from the moment of selection.
 
-New neighbors start at their atlas positions. Distant words enter from the edge along their projected bearing. Each bubble draws back briefly, accelerates inward, and rebounds into its slot as its colored connection becomes visible. Words shared by both selections glide from their current positions into the new arrangement. Former neighbors keep their colors while they shoot outward and fade toward their atlas homes. Once the family settles, the animation sleeps. The system’s reduced-motion preference goes directly to the final arrangement.
+New neighbors draw back along their atlas bearings, launch toward the selected word in waves, and rebound into their orbits. Their labels are readable on the way in. Shared words glide into the new arrangement. Former neighbors keep their colors as they fan outward and fade. Once the family settles, the animation sleeps.
+
+The map follows the device’s motion preference by default. In the menu, **Xəritə animasiyaları** lets a visitor choose full or reduced motion for this site. A link can select a mode for one visit, as in `?motion=full#w=g%C3%B6z%C9%99l`.
 
 Canvas and SVG labels fit whole lexical words without character splitting or ellipses; multiword expressions can break at spaces. The selected bubble has a consistent size for its screen layout; long words fit using type sizing. The selected definition title is measured to fit, forced mid-word CSS wrapping is removed, and narrow quiz/dictionary cards use one column. The conjugation wheel retains its one stationary stem and fitted suffixes, with compound prefixes fitted as whole text.
 
@@ -343,13 +345,13 @@ The selected circle uses a consistent smaller default radius, with whole-word ty
 
 ## Camera follows the selected anchor
 
-The camera follows the selected word from its visible position to its permanent three-dimensional location. The background stars and static connection endpoints share the same camera transform. On a slow first paint, subsequent frames still show the approach. Hiding the page suspends the flight until the map is visible again.
+The camera follows the selected word from its visible position to its permanent three-dimensional location. The background stars and static connection endpoints share the same camera transform. On a slow first paint, subsequent frames still show the approach. Mobile address-bar and orientation changes retarget the flight at its current progress. Hiding the page suspends it until the map is visible again.
 
     NODE_PATH=/path/to/linkedom/node_modules node tests/camera-selection.cjs
 
 ## Visible arrivals and equal family bubbles
 
-Newly related words stay anchored to the map during the dive. After framing, their springs release at slightly different times according to distance. Short trails follow fast-moving words, and their connection lines gain opacity as they approach. Pinching or dragging the map releases pending arrivals. Tapping a moving word redirects the camera from the position you can see.
+Newly related words start at their projected map positions. During the approach, even a nearby word pulls back far enough for its inward journey to be visible. Fast-moving words trail their relationship colors and their lines become visible as they approach. Pinching or dragging the map releases pending arrivals. Tapping a moving word redirects the camera from the position you can see.
 
 All circles in the gathered family use the same radius as the selected circle. Large groups extend across the map, and the caption invites panning to see the outer rings. Direct connections have rounded ends and a 4.05 px stroke in ordinary families. When a word has hundreds of neighbors, its spokes grow thinner and fade as their destinations leave the screen. Focusing a neighbor highlights its own connection.
 

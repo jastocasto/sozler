@@ -1,14 +1,16 @@
 /* A persistent canvas atlas with a bounded, accessible SVG physics layer. */
 (function(root){
 'use strict';
-function mount({model,onSelect,onLocation,onView}){
+function mount({model,onSelect,onLocation,onView,motionPreference='system'}){
  const G=root.WordGalaxy,P=root.WordPhysics,C=root.ConnectionLayout,types=root.WordWeb.types,$=id=>document.getElementById(id),NS='http://www.w3.org/2000/svg';
  const atlas=G.createAtlas(root.WORD_GALAXY_DATA,model),canvas=$('universeCanvas'),graph=$('graph'),labels=$('atlasLabels'),map=$('map');
  const countFormat=new Intl.NumberFormat('az'),zoomFormat=new Intl.NumberFormat('az',{maximumFractionDigits:1});
  $('universeTotal').textContent=countFormat.format(atlas.points.length)+' söz';
  const context=canvas.getContext('2d',{alpha:true});
  if(!context)throw Error('Canvas 2D is required for the word galaxy.');
- const media=matchMedia('(prefers-reduced-motion: reduce)');let reduced=media.matches;
+ const media=root.matchMedia?.('(prefers-reduced-motion: reduce)');
+ let reduced;
+ setMotionPreference(motionPreference);
  const wordFooter=map.querySelector('.map-footer'),wordCard=$('meaningCard'),navigation=document.querySelector('.navigation-strip');
  let wordStage=null;
  let landingSteps=0,landingFrom=null;
@@ -38,6 +40,8 @@ function mount({model,onSelect,onLocation,onView}){
  const connectionView=G.connectionView(atlas,allScreens);
  const glyphBuffer={glyphs:atlas.points.map((point,i)=>({point,screen:screens[i],r:0,body:0,labelOpacity:0,fontSize:8.5,lines:null,cx:0,cy:0})),visible:[]};
  const el=(name,attrs={},text)=>{const e=document.createElementNS(NS,name);for(const[k,v]of Object.entries(attrs))e.setAttribute(k,v);if(text!==undefined)e.textContent=text;return e;};
+ const contextWords=el('g',{class:'surrounding-words'}),contextLinks=el('g',{class:'surrounding-links'});
+ let arrivalLight=1;
  // The expanded card overlays the map. Keep the resting word layout anchored
  // in the space above the compact card, legend and controls.
  function measureWordStage(){
@@ -48,33 +52,61 @@ function mount({model,onSelect,onLocation,onView}){
   if(wordStage?.top===top&&wordStage.bottomInset===bottomInset)return false;
   wordStage={top,bottomInset};return true;
  }
+ function retargetWordFlight(oldWidth=width,oldHeight=height){
+  const trip=selectionTravel;
+  focusLayout=C.collective(width,height,particles.length-1,detailScale,detailPan,0,wordStage);
+  for(let i=0;i<particles.length;i++){
+   const p=particles[i],slot=i?focusLayout.slots[i-1]:focusLayout.center;
+   p.homeX=slot.x;p.homeY=slot.y;p.homeR=slot.r;
+   if(!p.waiting&&!p.launch){p.tx=slot.x;p.ty=slot.y;}
+  }
+  // Re-project the original tap into the resized map. Keep its elapsed flight
+  // time, including through a series of small mobile address-bar changes.
+  const from={...trip.from};
+  if(from.lens){from.vanishX*=width/oldWidth;from.vanishY*=height/oldHeight;}
+  const source=G.transform(from,width,height)(trip.fromAnchor);
+  const adjusted=G.makeWordFlight(from,selected,{...source,r:trip.sourceRadius},focusLayout.center,width,height,trip.start);
+  Object.assign(trip,adjusted,{duration:trip.duration,anchor:trip.anchor});
+ }
  function resize(){
+  const oldWidth=width,oldHeight=height;
   width=map.clientWidth||innerWidth;height=map.clientHeight||innerHeight;
   measureWordStage();
   const dpr=Math.min(root.devicePixelRatio||1,2);canvas.width=Math.round(width*dpr);canvas.height=Math.round(height*dpr);canvas.style.width=width+'px';canvas.style.height=height+'px';context.setTransform(dpr,0,0,dpr,0,0);graph.setAttribute('viewBox',`0 0 ${width} ${height}`);
-  if(flight)flight=null;releasePending();selectionTravel=null;
+  if(flight)flight=null;
+  if(selectionTravel)retargetWordFlight(oldWidth,oldHeight);
   if(view==='universe')camera=G.overview(atlas,width,height);
   sceneReady=false;dirty=needsRefresh=true;wake();
  }
  function isVisible(p,pad=40){return p.x>-pad&&p.x<width+pad&&p.y>74-pad&&p.y<height-96+pad;}
- function clearBubbles(){particles=[];surroundings=[];bodies=[];links=[];landingSteps=0;landingFrom=null;activeIds.clear();movingIds.clear();atlasControls.clear();$('bubbles').replaceChildren();$('links').replaceChildren();settled=true;}
+ function clearBubbles(){particles=[];surroundings=[];bodies=[];links=[];landingSteps=0;landingFrom=null;activeIds.clear();movingIds.clear();atlasControls.clear();contextLinks.replaceChildren();contextWords.replaceChildren();$('bubbles').replaceChildren();$('links').replaceChildren();settled=true;arrivalLight=1;}
  function projectScene(){
   const project=G.transform(camera,width,height);
-  for(let i=0;i<atlas.points.length;i++)project.into(atlas.points[i],screens[i]);
+  project.all(atlas.points,screens);
   projected=G.glyphs(atlas,camera,width,height,allScreens,(word,size)=>{context.font=size+'px Georgia, serif';return context.measureText(word).width;},glyphBuffer);
   sceneReady=true;
  }
  function kick(){settled=reduced;idleFrames=landingSteps=0;landingFrom=null;motionStarted=root.performance?.now?.()??clock;clock=motionStarted;last=0;accumulator=0;wake();}
  function launchDeparture(p,center,showTrail){
-  const home=allScreens.get(p.node.w);
-  let dx=p.x-center.x,dy=p.y-center.y;
+  const home=allScreens.get(p.node.w),stage=focusLayout.center,focus=isVisible(center,30)?center:stage;
+  let dx=p.x-focus.x,dy=p.y-focus.y;
   if(Math.hypot(dx,dy)<1){dx=home.x-p.x;dy=home.y-p.y;}
-  const distance=Math.hypot(dx,dy),ux=distance?dx/distance:0,uy=distance?dy/distance:-1;
-  const reach=G.clamp(Math.min(width,height)*.36,95,220),speed=reach/16;
+  let angle=Math.atan2(dy,dx);
+  // A tap near the edge puts most of the old family on its far side. Fan the
+  // rays toward their existing positions in that family while still pointing out.
+  if(Math.hypot(p.x-stage.x,p.y-stage.y)>1){
+   const spread=Math.atan2(p.y-stage.y,p.x-stage.x)-angle;
+   angle+=G.clamp(Math.atan2(Math.sin(spread),Math.cos(spread)),-1.15,1.15)*.72;
+  }
+  const ux=Math.cos(angle),uy=Math.sin(angle),bounds=focusLayout.bounds;
+  const roomX=ux>0?width-p.x:p.x,roomY=uy>0?bounds.bottom+12-p.y:p.y-bounds.top+12;
+  const runway=Math.max(0,Math.min(roomX/(Math.abs(ux)||1e-6),roomY/(Math.abs(uy)||1e-6)));
+  const reach=G.clamp(86+runway*.83,100,Math.min(width,height)*.95);
   return {...p,local:false,depth:2,waiting:false,arrived:false,launch:null,trail:null,targetScale:1,
-   vx:p.vx*.2+ux*speed,vy:p.vy*.2+uy*speed,spring:.20,damping:.67,maxSpeed:46,inverseMass:2,
-   departure:{x:p.x,y:p.y,r:p.r,dx:ux*reach,dy:uy*reach,elapsed:0,showTrail,tailX:p.x,tailY:p.y,
-    duration:600+Math.min(170,Math.hypot(home.x-p.x,home.y-p.y)*.20),opacity:p.recoverOpacity??1}};
+   vx:0,vy:0,spring:0,damping:1,maxSpeed:42,inverseMass:.002,
+   departure:{r:p.r,angle,reach,travelled:0,elapsed:0,showTrail,tailX:p.x,tailY:p.y,hitHistory:[],
+    focusId:focus===center?center.node.id:null,focusX:focus.x,focusY:focus.y,
+    duration:805+Math.min(170,reach*.45),opacity:p.recoverOpacity??1}};
  }
  function refresh(reframe=false,newSelection=false){
   needsRefresh=false;lastRefresh=clock;
@@ -103,7 +135,8 @@ function mount({model,onSelect,onLocation,onView}){
     x:position.x,y:position.y,tx:launch?previous.tx:screen.x,ty:launch?previous.ty:screen.y,homeX:screen.x,homeY:screen.y,
     anchorX:origin.x,anchorY:origin.y,vx:reframe?0:previous?.vx||0,vy:reframe?0:previous?.vy||0,
     r:radius,skin:Math.min(2,radius*.12),contactGap:Math.min(3,radius*.15),homeR:screen.r,scale:previous?.scale||1,scaleV:previous?.scaleV||0,targetScale:1,
-    waiting,launch,reveal:waiting?0:launch?previous.reveal:1,trailEnabled:!isSelected&&i<=24,
+    waiting,launch,reveal:waiting?0:launch?previous.reveal:1,trailEnabled:false,
+    centerApproach:launch?previous.centerApproach:words.length<=32||i<=14,
     distantSlot:words.length>48&&(screen.x< -screen.r||screen.x>width+screen.r||screen.y< -screen.r||screen.y>height+screen.r),
     spring:isSelected?.075:launch?previous.spring:.045,damping:isSelected?.78:launch?previous.damping:.84,maxSpeed:isSelected?26:launch?previous.maxSpeed:24,
     repulsion:0,local:true,arrived:reduced||reframe&&!!previous?.arrived};
@@ -115,11 +148,20 @@ function mount({model,onSelect,onLocation,onView}){
     p.heldGlyphRadius=previous?.waiting?previous.heldGlyphRadius:radius;
     p.edgeOffset=edgeOffset;p.holdX=p.tx=p.x;p.holdY=p.ty=p.y;p.spring=0;p.vx=p.vy=0;
     if(newSelection)p.releaseAt=Infinity;
-    else if(previous?.waiting)p.releaseAt=previous.releaseAt;
-    else stageArrival(p,clock,i,words.length);
+    else if(previous?.waiting){
+     p.releaseAt=previous.releaseAt;p.releaseDelay=previous.releaseDelay;p.waitElapsed=previous.waitElapsed;p.waitFrame=previous.waitFrame;
+     p.holdX=previous.holdX;p.holdY=previous.holdY;p.drawX=previous.drawX;p.drawY=previous.drawY;
+    }
    }
    return p;
   });
+  const arrivals=particles.filter(p=>p.waiting||p.launch);
+  arrivals.forEach((p,i)=>{
+   p.trailEnabled=i<24;
+   if(p.waiting&&!p.distantSlot&&i<14)p.centerApproach=true;
+  });
+  const unstaged=arrivals.filter(p=>p.waiting&&p.releaseAt===undefined);
+  unstaged.forEach((p,i)=>stageArrival(p,clock,i,unstaged.length));
   fitHeldStars();
   activeIds=new Set(particles.map(p=>p.node.id));
   const departures=new Map();
@@ -142,12 +184,17 @@ function mount({model,onSelect,onLocation,onView}){
    const position=reduced?screen:previous?(reframe?{x:screen.x+(previous.x-previous.anchorX),y:screen.y+(previous.y-previous.anchorY)}:previous):screen;
    return {node:v.point.node,point:v.point,type:'nearby',depth:2,x:position.x,y:position.y,tx:screen.x,ty:screen.y,homeX:screen.x,homeY:screen.y,anchorX:screen.x,anchorY:screen.y,vx:previous?.vx||0,vy:previous?.vy||0,r:reduced||reframe?v.r:previous?.r??v.r,homeR:v.r,scale:previous?.scale||1,scaleV:0,targetScale:1,spring:.025,damping:.78,repulsion:0,inverseMass:2,local:false};
   });
+  // During a close camera pass many backdrop glyphs can pile up in one pixel.
+  // Give the visible burst first choice of space in the contact solver while
+  // still painting it above those passive glyphs and below the current family.
+  bodies=[...particles,...departures.values(),...surroundings];
   surroundings.push(...departures.values());
-  bodies=[...particles,...surroundings];movingIds=new Set(bodies.map(p=>p.node.id));const byId=new Map(bodies.map(p=>[p.node.id,p]));
+  movingIds=new Set(bodies.map(p=>p.node.id));const byId=new Map(bodies.map(p=>[p.node.id,p]));
   const network=connectionView.group(filters,movingIds),previousLinks=new Map(links.map(e=>[e.id,e]));
   links=network.dynamic.map(e=>({...e,a:byId.get(e.a.id)||{...allScreens.get(e.from.word),node:e.a,vx:0,vy:0},b:byId.get(e.b.id)||{...allScreens.get(e.to.word),node:e.b,vx:0,vy:0},highlighted:e.a.id===selected.node.id||e.b.id===selected.node.id}));
-  const linkLayer=$('links'),newPaths=document.createDocumentFragment(),directEdges=new Map();
+  const linkLayer=$('links'),nextContext=document.createDocumentFragment(),directEdges=new Map();
   const nextBubbles=document.createDocumentFragment();
+  contextWords.replaceChildren();nextBubbles.append(contextWords);
   let contextEdgeCount=0;
   linkLayer.classList.remove('tracing-relations');
   for(const e of links){
@@ -155,7 +202,7 @@ function mount({model,onSelect,onLocation,onView}){
    if(previous){e.el=previous.el;previousLinks.delete(e.id);e.el.classList.remove('traced-edge');}
    else{
     e.el=el('path',{class:'edge','data-edge-id':e.id});
-    e.el.append(el('title',{},`${e.a.node.w} ↔ ${e.b.node.w} · ${types[e.type].description}`));newPaths.append(e.el);
+    e.el.append(el('title',{},`${e.a.node.w} ↔ ${e.b.node.w} · ${types[e.type].description}`));
    }
    if(previous?.highlighted!==e.highlighted){
     e.el.classList.toggle('selected-edge',e.highlighted);
@@ -163,14 +210,17 @@ function mount({model,onSelect,onLocation,onView}){
     e.el.setAttribute('stroke-width',e.highlighted?4.05:.75);e.el.setAttribute('opacity',e.highlighted?.88:.23);
     if(e.highlighted&&e.type==='ending')e.el.setAttribute('stroke-dasharray','4 5');else e.el.removeAttribute('stroke-dasharray');
    }
-   if(!e.highlighted){contextEdgeCount++;continue;}
+   if(!e.highlighted){if(e.el.parentNode!==contextLinks)nextContext.append(e.el);contextEdgeCount++;continue;}
    const other=e.a.node.id===selected.node.id?e.b.node:e.a.node;
    if(!directEdges.has(other.id))directEdges.set(other.id,[]);
    directEdges.get(other.id).push(e);
   }
   for(const obsolete of previousLinks.values())obsolete.el.remove();
-  linkLayer.append(newPaths);
-  for(const group of directEdges.values())for(const e of group)linkLayer.append(e.el);
+  contextLinks.append(nextContext);
+  if(contextLinks.parentNode!==linkLayer)linkLayer.prepend(contextLinks);
+  const nextDirect=document.createDocumentFragment();
+  for(const group of directEdges.values())for(const e of group)nextDirect.append(e.el);
+  linkLayer.append(nextDirect);
   // Dense neighborhoods retain every context path while giving the selected family priority.
   linkLayer.style.setProperty('--context-edge-opacity',G.clamp(.16*Math.sqrt(80/Math.max(contextEdgeCount,1)),.025,.16));
   if(directEdges.size>=96)linkLayer.style.setProperty('--direct-edge-width',Math.max(1.1,4.05*Math.sqrt(48/directEdges.size)).toFixed(2)+'px');
@@ -199,10 +249,19 @@ function mount({model,onSelect,onLocation,onView}){
      g.querySelector('.arrival-trail')?.remove();
      if(g.classList.contains('selected')){g.classList.remove('selected');g.querySelector('text').style.fill='#392614';}
      g.removeAttribute('tabindex');g.removeAttribute('role');g.setAttribute('aria-hidden','true');
-     g.addEventListener('pointerdown',e=>{if(!navigationLocked&&p.departure.opacity>.25)start(e,null,p.point);});
+     g.addEventListener('pointerdown',e=>{
+      if(navigationLocked||p.departure.opacity<=.25)return;
+      if(e.target===p.departure.hit||e.target===p.departure.trail){
+       const touch=local(e),behind=bodies.find(other=>!other.departure&&Math.hypot(other.x-touch.x,other.y-touch.y)<=other.r*other.scale);
+       if(behind){start(e,behind);return;}
+      }
+      start(e,null,p.point);
+     });
      p.el=g;p.circle=g.querySelector('.bubble');p.label=g.querySelector('text');p.orbit=g.querySelector('.selection-orbit');
+     p.departure.hit=el('path',{class:'departure-hit',fill:'none',stroke:'transparent','stroke-linecap':'round','aria-hidden':'true'});
+     g.prepend(p.departure.hit);
      if(p.departure.showTrail){
-      p.departure.trail=el('path',{class:'departure-trail',fill:'none',stroke:p.circle.getAttribute('fill'),'stroke-linecap':'round','stroke-opacity':'.30','pointer-events':'none'});
+      p.departure.trail=el('path',{class:'departure-trail',fill:p.circle.getAttribute('fill'),'fill-opacity':'.58'});
       g.prepend(p.departure.trail);
      }
     }
@@ -225,7 +284,7 @@ function mount({model,onSelect,onLocation,onView}){
    g.addEventListener('pointerleave',()=>{if(hover===p.node.id)hover=null;trace();});
    g.addEventListener('focus',()=>{focusedId=p.node.id;hover=null;trace();});
    g.addEventListener('blur',()=>{if(focusedId===p.node.id)focusedId=null;trace();});
-   p.el=g;nextBubbles.append(g);
+   p.el=g;(p.local?nextBubbles:contextWords).append(g);
    if(focusedWord===p.node.w||(chosen&&departures.has(model.byWord.get(focusedWord)?.id)))refocus=g;
   }
   $('bubbles').replaceChildren(nextBubbles);refocus?.focus?.({preventScroll:true});
@@ -295,9 +354,8 @@ function mount({model,onSelect,onLocation,onView}){
   updateRoutePulse();
   atlasLines=[];
   let webOpacity=lineOpacity;
-  if(selectionTravel&&particles.length>=96){
-   // Hundreds of incoming words need a clear sky. Fade the distant web
-   // through the fast part of the dive, then bring back its actual lines.
+  if(selectionTravel){
+   // The distant connections recede as the camera enters the star field.
    const t=G.clamp((clock-selectionTravel.start)/selectionTravel.duration,0,1);
    const fade=G.clamp(Math.max(1-t/.16,(t-.82)/.18),0,1);
    webOpacity*=fade*fade*(3-2*fade);
@@ -311,8 +369,8 @@ function mount({model,onSelect,onLocation,onView}){
   }
   context.globalAlpha=1;
   const wordFlight=reduced||paused||pageHidden||document.hidden?null:selectionTravel;
+  sky.drawStars(context,projected,width,height,camera.zoom,movingIds,project,wordFlight,clock);
   sky.drawFlightTrails(context,projected,project,particles[0],width,height,wordFlight,clock);
-  sky.drawStars(context,projected,width,height,camera.zoom,movingIds,project);
   hitDots=movingIds.size?projected.filter(v=>!movingIds.has(v.point.node.id)):projected;
   if(view==='word'){if(labels.firstChild)labels.replaceChildren();}else {renderLabels(project);renderAtlasControls();}
  }
@@ -425,48 +483,92 @@ function mount({model,onSelect,onLocation,onView}){
    p.skin=Math.min(2,p.r*.12);p.contactGap=Math.min(3,p.r*.15);
   }
  }
- function stageArrival(p,time,index,familySize=particles.length-1){
-  const distance=Math.hypot(p.x-p.homeX,p.y-p.homeY);
-  p.holdX=p.x;p.holdY=p.y;
-  const wave=Math.min(790,Math.max(0,familySize-47)*1.5)*index/Math.max(1,familySize);
-  p.releaseAt=time+54+Math.min(110,distance/Math.max(width,height)*125)+(index%4)*13+wave;
+ function drawnBack(p,origin,amount=1){
+  // Hoist nearby source stars toward the edge of the visible stage on their
+  // own atlas ray. The camera reveals that outward movement before release.
+  if(!p.centerApproach||amount<=0)return origin;
+  const center=focusLayout.center,bounds=focusLayout.bounds;
+  let dx=origin.x-center.x,dy=origin.y-center.y,distance=Math.hypot(dx,dy);
+  if(distance<.0001){dx=p.homeX-center.x;dy=p.homeY-center.y;distance=Math.hypot(dx,dy)||1;}
+  const ux=dx/distance,uy=dy/distance,margin=Math.min(22,p.homeR*.6);
+  const side=ux>0?(width-margin-center.x)/ux:ux<0?(margin-center.x)/ux:Infinity;
+  const end=uy>0?(bounds.bottom-margin-center.y)/uy:uy<0?(bounds.top+margin-center.y)/uy:Infinity;
+  const lift=Math.max(0,Math.min(side,end)-Math.hypot(origin.x-center.x,origin.y-center.y))*amount;
+  return {x:origin.x+ux*lift,y:origin.y+uy*lift};
+ }
+ function stageArrival(p,time,rank,count){
+  const wound=drawnBack(p,p),lift=Math.hypot(wound.x-p.x,wound.y-p.y);
+  p.holdX=p.x;p.holdY=p.y;p.drawX=wound.x;p.drawY=wound.y;p.waitElapsed=0;p.waitFrame=time;
+  // Give the first words individually visible beats. The rest follow in a
+  // bounded wave, even when a hub has hundreds of documented connections.
+  const solo=Math.min(6,rank)*145;
+  const group=Math.max(0,rank-6)/Math.max(1,count-7)*Math.min(1000,Math.max(0,count-7)*48);
+  p.releaseDelay=80+Math.min(270,lift*1.5)+solo+group;p.releaseAt=time+p.releaseDelay;
  }
  function releaseArrival(p){
-  const dx=p.homeX-p.x,dy=p.homeY-p.y,distance=Math.hypot(dx,dy);
-  const center=focusLayout.center,rx=p.homeX-center.x,ry=p.homeY-center.y,orbit=Math.hypot(rx,ry)||1;
-  // The first spring pulls just inside the resting ring. Contact with the
-  // selected word or another arrival can rebound before the spring relaxes.
-  const inset=Math.min(p.homeR*.84,Math.max(0,orbit-p.homeR*1.7),distance*.35);
-  p.tx=p.homeX-rx/orbit*inset;p.ty=p.homeY-ry/orbit*inset;
+  const center=focusLayout.center,dx=p.x-center.x,dy=p.y-center.y,range=Math.hypot(dx,dy)||1;
+  const rx=p.homeX-center.x,ry=p.homeY-center.y,orbit=Math.hypot(rx,ry)||1;
+  // Foreground words head for the selected bubble itself. The outer rings
+  // of a large hub skim inward near their own slots to keep its centre open.
+  const inset=Math.min(p.homeR*1.2,orbit*.25);
+  p.tx=p.centerApproach?center.x+dx/range*center.r*.45:p.homeX-rx/orbit*inset;
+  p.ty=p.centerApproach?center.y+dy/range*center.r*.45:p.homeY-ry/orbit*inset;
+  const distance=Math.max(1,Math.hypot(p.x-p.tx,p.y-p.ty));
   p.waiting=false;p.originWorld=null;p.heldRadius=null;
-  p.launch={distance:Math.max(1,distance),radius:p.r,steps:0,returning:false,tailX:p.x,tailY:p.y};
-  p.spring=.055;p.damping=.86;p.maxSpeed=G.clamp(distance/17,14,44);
-  const impulse=Math.min(distance*.045,p.maxSpeed*.38)/(distance||1);
-  p.vx=dx*impulse;p.vy=dy*impulse;
+  p.launch={distance,radius:p.r,steps:0,returning:false,tailX:p.x,tailY:p.y,bendX:p.x,bendY:p.y};
+  p.spring=.038;p.damping=.87;
+  p.maxSpeed=p.centerApproach?G.clamp(distance/36,5.8,24):G.clamp(distance/24,12,46);
+  const impulse=p.maxSpeed*.35/distance;
+  p.vx=(p.tx-p.x)*impulse;p.vy=(p.ty-p.y)*impulse;
  }
  function updateArrival(p){
-  const launch=p.launch;
-  launch.steps++;
-  const distance=Math.hypot(p.x-p.homeX,p.y-p.homeY);
-  p.reveal=Math.max(p.reveal,G.clamp(1-distance/launch.distance,0,1));
-  if(!launch.returning&&(Math.hypot(p.x-p.tx,p.y-p.ty)<p.homeR*.56||launch.steps>launch.distance/p.maxSpeed+17)){
-   launch.returning=true;p.tx=p.homeX;p.ty=p.homeY;p.spring=.04;p.damping=.81;
+  const launch=p.launch,center=focusLayout.center;launch.steps++;
+  if(!launch.returning){
+   const remaining=Math.hypot(p.x-p.tx,p.y-p.ty);
+   p.reveal=Math.max(p.reveal,G.clamp(1-remaining/launch.distance,0,1));
+   const radial=Math.hypot(p.x-center.x,p.y-center.y);
+   const contact=P.radius(particles[0])+P.radius(p)+Math.min(3,p.contactGap)+3;
+   const hit=p.centerApproach?radial<=contact:remaining<p.homeR*.55;
+   // A previously landed neighbor can intercept the approach to the centre.
+   // It produces the same rebound as a direct contact, with a finite deadline.
+   if(!hit&&launch.steps<=launch.distance/p.maxSpeed+18)return;
+   launch.returning=true;launch.impact=launch.steps;
+   p.spring=.066;p.damping=.79;p.tx=p.homeX;p.ty=p.homeY;
+   if(p.centerApproach){
+    const angle=Math.atan2(p.y-center.y,p.x-center.x),homeAngle=Math.atan2(p.homeY-center.y,p.homeX-center.x);
+    launch.angle=angle;launch.turn=Math.atan2(Math.sin(homeAngle-angle),Math.cos(homeAngle-angle));
+    launch.contact=radial;launch.orbit=Math.hypot(p.homeX-center.x,p.homeY-center.y);
+    const kick=G.clamp(p.homeR*.24,4,9);
+    p.vx=p.vx*.18+Math.cos(angle)*kick;p.vy=p.vy*.18+Math.sin(angle)*kick;
+   }
   }
-  if(launch.returning){
-   p.reveal+=(1-p.reveal)*.12;
-   if(p.reveal>.996){p.reveal=1;p.launch=null;p.maxSpeed=24;}
+  const age=launch.steps-launch.impact;
+  if(p.centerApproach){
+   // Expand away from the contact and arc into the assigned slot. This also
+   // gives words whose slots are behind the selection a path around the rim.
+   const span=19+Math.abs(launch.turn)*6,t=Math.min(1,age/span);
+   const turn=t*t*(3-2*t),angle=launch.angle+launch.turn*turn;
+   const radius=launch.contact+(launch.orbit-launch.contact)*(1-(1-t)**2)+p.homeR*.95*Math.sin(Math.PI*t);
+   p.tx=center.x+radius*Math.cos(angle);p.ty=center.y+radius*Math.sin(angle);
+   if(t===1){p.tx=p.homeX;p.ty=p.homeY;}
   }
+  p.reveal+=(1-p.reveal)*.13;
+  if(age>42&&p.reveal>.996){p.reveal=1;p.tx=p.homeX;p.ty=p.homeY;p.launch=null;p.maxSpeed=24;}
  }
  function renderArrivalTrail(p,dt){
   const launch=p.launch;
   if(!launch||reduced||settled){if(p.trail.hasAttribute('d'))p.trail.removeAttribute('d');return;}
   const dx=launch.tailX-p.x,dy=launch.tailY-p.y,length=Math.hypot(dx,dy);
-  // Follow the last few actual positions, including a turn or rebound.
-  const follow=1-Math.exp(-dt/46);launch.tailX-=dx*follow;launch.tailY-=dy*follow;
-  if(length<p.r+5){p.trail.removeAttribute('d');return;}
-  const reach=Math.min(80,length),x=dx/length,y=dy/length,w=Math.min(3,p.r*.22);
-  p.trail.setAttribute('d',`M${x*p.r*.6-y*w},${y*p.r*.6+x*w} L${x*reach},${y*reach} L${x*p.r*.6+y*w},${y*p.r*.6-x*w} Z`);
-  p.trail.setAttribute('opacity',Math.min(.39,(length-p.r-5)/75));
+  // Two real position histories let the ribbon curve through the rebound.
+  const bx=launch.bendX-p.x,by=launch.bendY-p.y;
+  const follow=1-Math.exp(-dt/145),bend=1-Math.exp(-dt/58);
+  launch.tailX-=dx*follow;launch.tailY-=dy*follow;launch.bendX-=bx*bend;launch.bendY-=by*bend;
+  const behind=length-p.r*.65;
+  if(behind<4){p.trail.removeAttribute('d');return;}
+  const reach=Math.min(144,length),x=dx/length,y=dy/length,w=Math.min(6,p.r*.27);
+  const sx=x*p.r*.56,sy=y*p.r*.56;
+  p.trail.setAttribute('d',`M${sx-y*w},${sy+x*w} Q${bx-y*w},${by+x*w} ${x*reach},${y*reach} Q${bx+y*w},${by-x*w} ${sx+y*w},${sy-x*w} Z`);
+  p.trail.setAttribute('opacity',Math.min(.72,behind/46));
  }
  function finishLandingStep(){
   if(selectionTravel||drag||particles.some(p=>p.waiting)){landingSteps=0;landingFrom=null;return;}
@@ -486,11 +588,13 @@ function mount({model,onSelect,onLocation,onView}){
  function growRadii(){
   let sorted=null,maxRadius=0;
   for(const p of bodies){
-   if(p.departure||p.local&&p.waiting||selectionTravel&&p===particles[0])continue;
+   if(p.departure||p.local&&p.waiting||selectionTravel&&(!p.local||p===particles[0]))continue;
    if(p.local&&p.launch)updateArrival(p);
    let target=p.homeR;
    if(p.local&&p.launch){
-    let growth=Math.min(1,p.reveal*1.18);
+    // Give the travelling word a readable silhouette during departure from
+    // the rim, before it traverses the space between its origin and focus.
+    let growth=Math.min(1,p.reveal*1.12+.78*Math.min(1,p.launch.steps/7));
     // In a huge family the outer rings land beyond the screen. These words
     // travel as small comets and grow near their own slots, leaving the
     // central approach clear for words that will actually settle in view.
@@ -500,7 +604,7 @@ function mount({model,onSelect,onLocation,onView}){
     }
     target=p.launch.radius+(p.homeR-p.launch.radius)*growth;
    }
-   let next=p.r+(target-p.r)*.13;if(Math.abs(target-next)<.005)next=target;
+   let next=p.r+(target-p.r)*(p.launch&&p.centerApproach?.24:.13);if(Math.abs(target-next)<.005)next=target;
    // Local words take priority over backdrop stars in the contact solver.
    // Only another family circle can limit the growth of an incoming word.
    if(next>p.r&&p!==particles[0]){
@@ -540,25 +644,36 @@ function mount({model,onSelect,onLocation,onView}){
   }
  }
  function advanceDepartures(dt){
+  const steps=Math.min(3,Math.floor((accumulator+dt)/16.66));
   let removed=false;
   for(const p of surroundings){
    const d=p.departure;if(!d)continue;
    d.elapsed+=dt;
    const t=reduced?1:Math.min(1,d.elapsed/d.duration),blend=t*t*(3-2*t);
-   const home=allScreens.get(p.node.w);
-   const end=C.arrival(home,p,focusLayout.center,focusLayout.bounds,d.r,{width,height});
-   // Start by flinging away from the new selection, then bend toward this
-   // word's actual atlas bearing as the camera moves underneath the burst.
-   const burst=6.75*t*(1-t)*(1-t);
-   p.tx=d.x+(end.x-d.x)*blend+d.dx*burst;p.ty=d.y+(end.y-d.y)*blend+d.dy*burst;
-   p.r=d.r*(1-.9*blend);p.skin=Math.min(2,p.r*.12);p.contactGap=Math.min(3,p.r*.15);
-   const fade=G.clamp((t-.12)/.88,0,1);
+   if(steps){
+    // Integrate the heading, not a target on the far side of the screen.
+    // Even when the camera overtakes a word's home, its visible ray keeps
+    // going out. The fading end of the trail curves toward its real address.
+    const distance=d.reach*t*(1.06-.06*t),delta=distance-d.travelled;
+    const home=allScreens.get(p.node.w),toHome=Math.atan2(home.y-p.y,home.x-p.x)-d.angle;
+    const turn=G.clamp((t-.32)/.68,0,1);
+    const angle=d.angle+G.clamp(Math.atan2(Math.sin(toHome),Math.cos(toHome)),-.38,.38)*turn*turn;
+    const focus=particles[0];
+    if(focus.node.id!==d.focusId)d.focusId=null;
+    const follow=d.focusId===null?0:.58*(1-blend);
+    p.vx=(Math.cos(angle)*delta+(focus.x-d.focusX)*follow)/steps;
+    p.vy=(Math.sin(angle)*delta+(focus.y-d.focusY)*follow)/steps;
+    p.tx=p.x+p.vx*steps;p.ty=p.y+p.vy*steps;
+    d.travelled=distance;d.focusX=focus.x;d.focusY=focus.y;
+   }
+   p.r=d.r*(1-.93*blend);p.skin=Math.min(2,p.r*.12);p.contactGap=Math.min(3,p.r*.15);
+   const fade=G.clamp((t-.10)/.90,0,1);
    d.opacity=(p.recoverOpacity??1)*(1-fade*fade*(3-2*fade));
    p.el.setAttribute('opacity',d.opacity);p.el.setAttribute('pointer-events',navigationLocked||d.opacity<=.25?'none':'auto');
    if(t===1){p.el.remove();movingIds.delete(p.node.id);removed=true;}
   }
   if(!removed)return;
-  surroundings=surroundings.filter(p=>movingIds.has(p.node.id));bodies=[...particles,...surroundings];
+  surroundings=surroundings.filter(p=>movingIds.has(p.node.id));bodies=bodies.filter(p=>movingIds.has(p.node.id));
   // A remaining moving-to-static connection ends at the atlas point again.
   // Static-to-static paths return to the single canvas pass.
   links=links.filter(e=>{
@@ -570,31 +685,89 @@ function mount({model,onSelect,onLocation,onView}){
   dirty=true;
  }
  function paintDepartureTrails(dt){
-  const follow=1-Math.exp(-dt/56);
+  const follow=1-Math.exp(-dt/110);
   for(const p of surroundings){
-   const d=p.departure;if(!d?.trail)continue;
+   const d=p.departure;if(!d)continue;
    const dx=(d.tailX-p.x)/p.scale,dy=(d.tailY-p.y)/p.scale,distance=Math.hypot(dx,dy);
-   const length=Math.min(distance,52,p.r*2.4);
-   if(length>2){
-    const x=dx/distance,y=dy/distance;
-    d.trail.setAttribute('d',`M${x*(p.r-1)},${y*(p.r-1)} l${x*length},${y*length}`);
-    d.trail.setAttribute('stroke-width',G.clamp(p.r*.10,1,3));
-   }else d.trail.removeAttribute('d');
+   const x=dx/(distance||1),y=dy/(distance||1);
+   if(d.opacity>.25){
+    // Accept a finger landing on the last painted frame, including a bend
+    // around another word. Bound the catch area to the short, visible streak.
+    let ink='M0,0 l0,.01',left=d.trail?Math.min(58,distance*1.35):14,from=p;
+    for(const old of d.hitHistory){
+     const sx=(old.x-from.x)/p.scale,sy=(old.y-from.y)/p.scale,length=Math.hypot(sx,sy);
+     if(length>.01){
+      const fraction=Math.min(1,left/length);
+      ink+=` l${sx*fraction},${sy*fraction}`;left-=length*fraction;
+      if(left<=.01)break;
+     }
+     from=old;
+    }
+    d.hit.setAttribute('d',ink);
+    d.hit.setAttribute('stroke-width',Math.max(44/p.scale,p.r*2));
+    if(dt>0||!d.hitHistory.length){
+     d.hitHistory.unshift({x:p.x,y:p.y});if(d.hitHistory.length>4)d.hitHistory.pop();
+    }
+   }
+   if(d.trail){
+    const length=Math.min(distance*1.35,91),wide=Math.min(8,p.r*.29);
+    if(length>2){
+     const base=p.r*.7,tip=p.r+length;
+     d.trail.setAttribute('d',`M${x*base-y*wide},${y*base+x*wide} Q${x*p.r-y*wide*.58},${y*p.r+x*wide*.58} ${x*tip},${y*tip} Q${x*p.r+y*wide*.58},${y*p.r-x*wide*.58} ${x*base+y*wide},${y*base-x*wide} Z`);
+    }else d.trail.removeAttribute('d');
+   }
    d.tailX+=(p.x-d.tailX)*follow;d.tailY+=(p.y-d.tailY)*follow;
   }
  }
+ function smoothPhase(value){const t=G.clamp(value,0,1);return t*t*(3-2*t);}
+ function renderFlightLayers(dt){
+  let backdrop=1,card=1;
+  if(selectionTravel&&!reduced){
+   const t=G.clamp((clock-selectionTravel.start)/selectionTravel.duration,0,1);
+   // The word, its travelling relatives and their strokes stay in front.
+   // The rest of the map recedes, then reappears behind the landing family.
+   backdrop=1-.97*smoothPhase(t/.22)+.17*smoothPhase((t-.74)/.26);
+   card=smoothPhase((t-.56)/.39);
+   arrivalLight=0;
+  }else if(arrivalLight<1){
+   arrivalLight=reduced||settled||view!=='word'?1:Math.min(1,arrivalLight+dt/850);
+   backdrop=.20+.80*smoothPhase((arrivalLight-.14)/.86);
+  }
+  const alpha=backdrop.toFixed(3);
+  if(contextWords.getAttribute('opacity')!==alpha){
+   contextWords.setAttribute('opacity',alpha);contextLinks.setAttribute('opacity',alpha);
+  }
+  // Reserve the card's space so the flight lands accurately. Its contents
+  // are already available to assistive technology and appear on approach.
+  if(card<1){
+   wordCard.classList.add('flight-arrival');
+   wordCard.classList.toggle('waiting-for-flight',card<.15);
+   wordCard.style.setProperty('--card-reveal',card.toFixed(3));
+   wordCard.style.setProperty('--card-rise',((1-card)*10).toFixed(2)+'px');
+  }else if(wordCard.classList.contains('flight-arrival')){
+   wordCard.classList.remove('flight-arrival','waiting-for-flight');
+   wordCard.style.removeProperty('--card-reveal');wordCard.style.removeProperty('--card-rise');
+  }
+ }
  function renderBubbles(dt){
+  renderFlightLayers(dt);
   if(!bodies.length)return;
   advanceDepartures(dt);
   for(const p of particles)if(p.recoverOpacity<1){p.recoverOpacity=Math.min(1,p.recoverOpacity+dt/150);p.el.setAttribute('opacity',p.recoverOpacity);}
   const chosen=particles[0];
   if(!reduced&&!settled){
    for(const p of particles)if(p.waiting&&Number.isFinite(p.releaseAt)){
-    if(clock>=p.releaseAt){releaseArrival(p);continue;}
-    // A brief draw-back points away from the slot before the tether releases.
-    const dx=p.holdX-p.homeX,dy=p.holdY-p.homeY,distance=Math.hypot(dx,dy)||1;
-    const tension=G.clamp(1-(p.releaseAt-clock)/95,0,1)*Math.min(8,distance*.08);
-    p.tx=p.holdX+dx/distance*tension;p.ty=p.holdY+dy/distance*tension;p.spring=.22;
+    // Count the time actually presented. A dropped phone frame cannot skip
+    // all the release beats, even after the browser has paused for a second.
+    p.waitElapsed+=Math.max(0,Math.min(dt,clock-p.waitFrame));p.waitFrame=clock;
+    const left=p.releaseDelay-p.waitElapsed;p.releaseAt=clock+Math.max(0,left);
+    if(left<=0){releaseArrival(p);continue;}
+    const t=G.clamp(p.waitElapsed/Math.min(p.releaseDelay,260),0,1);
+    const draw=t*t*(3-2*t),cx=focusLayout.center.x,cy=focusLayout.center.y;
+    const dx=p.drawX-cx,dy=p.drawY-cy,distance=Math.hypot(dx,dy)||1;
+    const tension=G.clamp(1-left/110,0,1)*Math.min(13,distance*.08);
+    p.tx=p.holdX+(p.drawX-p.holdX)*draw+dx/distance*tension;
+    p.ty=p.holdY+(p.drawY-p.holdY)*draw+dy/distance*tension;p.spring=.22;
    }
    accumulator+=dt;let steps=0,energy=0;while(accumulator>=16.66&&steps++<3){
    if(chosen&&!selectionTravel&&chosen!==drag?.particle){
@@ -623,7 +796,7 @@ function mount({model,onSelect,onLocation,onView}){
    // In a large family most travelling bubbles can be several screens away.
    // Keep simulating them and paint them again before even a trail can enter.
    const pad=p.r*1.35+85;
-   const offscreen=denseMotion&&(p.x< -pad||p.x>width+pad||p.y< -pad||p.y>height+pad)&&p.el!==document.activeElement;
+   const offscreen=(p.behindCamera||denseMotion&&(p.x< -pad||p.x>width+pad||p.y< -pad||p.y>height+pad))&&p.el!==document.activeElement;
    if(offscreen!==!!p.paintHidden){p.el.style.display=offscreen?'none':'';p.paintHidden=offscreen;}
    if(offscreen)continue;
    p.el.setAttribute('transform',`translate(${p.x.toFixed(3)} ${p.y.toFixed(3)}) scale(${p.scale.toFixed(3)})`);
@@ -652,7 +825,7 @@ function mount({model,onSelect,onLocation,onView}){
     }
    }
    const staged=denseMotion&&(e.a.waiting||e.b.waiting);
-   const visible=!staged&&G.crossesViewport(e.a,e.b,width,height,30);
+   const visible=!staged&&!e.a.behindCamera&&!e.b.behindCamera&&!e.a.occluded&&!e.b.occluded&&G.crossesViewport(e.a,e.b,width,height,30);
    if(visible!==e.painted){e.el.style.display=visible?'':'none';e.painted=visible;}
    if(denseMotion&&!visible){
     // A dormant link still has its real, moving endpoints. It gains its
@@ -691,7 +864,15 @@ function mount({model,onSelect,onLocation,onView}){
   graph.setAttribute('aria-label',view==='word'?'Seçilmiş söz və əlaqələri':orbitMode?'Söz kainatı. Ox düymələri xəritəni döndərir.':'Söz kainatı');
   map.classList.toggle('is-travelling',!!flight);map.classList.toggle('is-gathered',view==='word');
  }
- function releasePending(){const now=root.performance?.now?.()??clock;particles.forEach((p,i)=>{if(p.waiting)stageArrival(p,now,i);});}
+ function releasePending(){
+  const now=root.performance?.now?.()??clock,pending=particles.filter(p=>p.waiting&&!Number.isFinite(p.releaseAt));
+  pending.forEach((p,i)=>stageArrival(p,now,i,pending.length));
+ }
+ function interruptWordFlight(){
+  if(!selectionTravel)return;
+  camera=G.closeFlightLens(camera,selectionTravel.anchor,particles[0],width,height);
+  selectionTravel=null;sceneReady=false;dirty=true;
+ }
  function advanceSelection(time){
   if(!selectionTravel)return;
   const travel=selectionTravel,t=G.clamp((time-travel.start)/travel.duration,0,1),before=G.transform(camera,width,height);
@@ -706,22 +887,39 @@ function mount({model,onSelect,onLocation,onView}){
     // Carried neighbors are already free of the sky and glide to their new slots.
     if(!p.waiting)continue;
     const origin=p.originWorld===p.point?projected:after(p.originWorld);
-    const entry=C.arrival(origin,p,focusLayout.center,focusLayout.bounds,p.homeR,{width,height},p.edgeOffset);
+    const source=C.arrival(origin,p,focusLayout.center,focusLayout.bounds,p.homeR,{width,height},p.edgeOffset);
+    const unwind=G.clamp((t-.52)/.44,0,1);
+    const entry=drawnBack(p,source,unwind*unwind*(3-2*unwind));
     p.x=p.tx=p.holdX=entry.x;p.y=p.ty=p.holdY=entry.y;p.vx=p.vy=0;
     p.heldGlyphRadius=Math.min(p.heldRadius,p.heldGlyphRadius*camera.zoom/oldCamera.zoom);
     p.r=p.heldGlyphRadius;
    }else{
-    const world=G.unproject(p,oldCamera,width,height,p.point.z,p.point),b=after(world),a=before(p.point);
-    const home=after(G.unproject({x:p.homeX,y:p.homeY},oldCamera,width,height,p.point.z,p.point));
-    p.x=b.x;p.y=b.y;p.r*=camera.zoom*projected.depth/(oldCamera.zoom*a.depth);
-    p.tx=p.homeX=home.x;p.ty=p.homeY=home.y;
+    // Carry a backdrop glyph through the same world coordinates throughout
+    // the trip. Re-unprojecting a collision offset near the eye can send it
+    // hundreds of pixels across the family between two frames.
+    if(!p.skyAnchor){
+     p.skyAnchor=G.unproject(p,oldCamera,width,height,p.point.z,p.point);
+     p.worldRadius=p.r/(oldCamera.zoom*before(p.skyAnchor).depth);
+    }
+    const b=after(p.skyAnchor);
+    p.behindCamera=b.occluded;
+    p.x=p.tx=p.homeX=b.x;p.y=p.ty=p.homeY=b.y;p.vx=p.vy=0;
+    p.r=p.behindCamera ? .001 : G.clamp(p.worldRadius*camera.zoom*b.depth,.05,48);
+    p.skin=Math.min(2,p.r*.12);p.contactGap=Math.min(3,p.r*.15);
    }
    if(p.skin!==undefined){p.skin=Math.min(2,p.r*.12);p.contactGap=Math.min(3,p.r*.15);}
   }
   const chosen=particles[0],screen=after(travel.anchor);if(chosen){chosen.x=screen.x;chosen.y=screen.y;chosen.r=next.radius;chosen.vx=chosen.vy=0;}
+  // A timed race needs a reachable next move when the starting word lands.
+  // Let its first neighbor fly in alongside the camera on the final approach.
+  if(navigationLocked&&t>=.56&&!travel.raceApproach){
+   travel.raceApproach=true;
+   const first=particles.find(p=>p.waiting&&!p.distantSlot);
+   if(first)releaseArrival(first);
+  }
   fitHeldStars();
   sceneReady=false;projectScene();for(const e of links)for(const end of [e.a,e.b])if(!movingIds.has(end.node.id))Object.assign(end,allScreens.get(end.node.w));dirty=true;
-  if(t===1){particles.forEach((p,i)=>{if(p.waiting)stageArrival(p,time,i);});selectionTravel=null;focusCamera={...camera};needsRefresh=true;}
+  if(t===1){releasePending();selectionTravel=null;focusCamera={...camera};needsRefresh=true;}
  }
  function tick(time){
   raf=0;if(document.hidden||paused||pinch?.preview)return;const now=Number.isFinite(time)?time:clock+16.67,dt=last?G.clamp(now-last,0,50):16.67;last=now;clock=now;
@@ -739,7 +937,7 @@ function mount({model,onSelect,onLocation,onView}){
  }
  function wake(){if(!raf&&!document.hidden&&!paused)raf=requestAnimationFrame(tick);}
  function fly(to,kind){
-  selectionTravel=null;flight=G.makeFlight(camera,to,width,height,root.performance?.now?.()??clock,reduced);view=kind;
+  interruptWordFlight();flight=G.makeFlight(camera,to,width,height,root.performance?.now?.()??clock,reduced);view=kind;
   clearBubbles();focusLayout=null;$('connectionPager').hidden=true;$('connectionsPrevious').disabled=$('connectionsNext').disabled=true;map.classList.remove('has-connection-pages');sceneReady=false;dirty=true;onView?.(kind);
   if(reduced){camera={...to};sceneReady=false;flight=null;needsRefresh=true;refresh();drawBackground();renderBubbles(0);updateHud();}else wake();
  }
@@ -786,14 +984,14 @@ function mount({model,onSelect,onLocation,onView}){
  function cancelGestures(){clearPinchPreview();const ids=[...pointers.keys()];if(drag?.particle)drag.particle.targetScale=1;pointers.clear();drag=pinch=null;gesture=false;for(const id of ids)if(graph.hasPointerCapture?.(id))graph.releasePointerCapture(id);}
  function scaleDetail(value,anchorPoint=null){
   if(navigationLocked)return;
-  releasePending();selectionTravel=null;
+  releasePending();interruptWordFlight();
   if(drag?.particle){drag.particle.targetScale=1;drag=null;}
   if(value<1){leaveFocus(value/detailScale,anchorPoint||focusLayout.center);return;}
   const previous=detailScale,next=G.clamp(value,1,6),base=focusLayout.baseCenter;
   if(anchorPoint){const ratio=next/previous;detailPan={x:anchorPoint.x-base.x-(anchorPoint.x-base.x-detailPan.x)*ratio,y:anchorPoint.y-base.y-(anchorPoint.y-base.y-detailPan.y)*ratio};}
   const focusPoint=anchorPoint||{x:base.x+detailPan.x,y:base.y+detailPan.y};camera=G.zoomAt(camera,focusPoint,camera.zoom*next/previous,width,height,selected?.z||0,selected||camera);detailScale=next;focusCamera={...camera,zoom:camera.zoom/detailScale};sceneReady=false;refresh(true);drawBackground();renderBubbles(0);updateHud();wake();
  }
- function panDetail(x,y){if(navigationLocked)return;releasePending();selectionTravel=null;detailPan={x:G.clamp(x,-width*detailScale,width*detailScale),y:G.clamp(y,-height*detailScale,height*detailScale)};sceneReady=false;refresh(true);drawBackground();renderBubbles(0);updateHud();wake();}
+ function panDetail(x,y){if(navigationLocked)return;releasePending();interruptWordFlight();detailPan={x:G.clamp(x,-width*detailScale,width*detailScale),y:G.clamp(y,-height*detailScale,height*detailScale)};sceneReady=false;refresh(true);drawBackground();renderBubbles(0);updateHud();wake();}
  function pair(){
   const [a,b]=pointers.values(),dx=b.x-a.x,dy=b.y-a.y;
   return {x:(a.x+b.x)/2,y:(a.y+b.y)/2,distance:Math.max(1,Math.hypot(dx,dy)),angle:Math.atan2(dy,dx)};
@@ -813,7 +1011,7 @@ function mount({model,onSelect,onLocation,onView}){
   const roll=(from.roll||0)+turn;
   return G.aimAt({...from,zoom,roll},G.unproject(start,from,width,height,anchor?.z||0,anchor||from),next,width,height);
  }
- function leaveFocus(ratio,point,next=point){selectionTravel=null;camera=cameraGesture(camera,point,next,ratio);flight=null;view='explore';clearBubbles();focusLayout=null;sceneReady=false;dirty=needsRefresh=true;onView?.('explore');refresh();drawBackground();updateHud();wake();}
+ function leaveFocus(ratio,point,next=point){interruptWordFlight();camera=cameraGesture(camera,point,next,ratio);flight=null;view='explore';clearBubbles();focusLayout=null;sceneReady=false;dirty=needsRefresh=true;onView?.('explore');refresh();drawBackground();updateHud();wake();}
  function updatePinch(){
   const next=pair(),raw=next.distance/pinch.distance;
   const ratio=G.clamp(raw,G.overview(atlas,width,height).zoom*.7/pinch.camera.zoom,view==='word'?6/pinch.detailScale:2.4/pinch.camera.zoom);
@@ -848,7 +1046,7 @@ function mount({model,onSelect,onLocation,onView}){
   if(navigationLocked){if(pointers.size>1){gesture=true;drag=null;return;}gesture=false;drag={id:e.pointerId,start:p,last:p,particle,tapPoint,tapArea:null,moved:false};return;}
   if(view!=='word')flight=null;
   if(pointers.size===2){
-   releasePending();selectionTravel=null;gesture=true;
+   releasePending();interruptWordFlight();gesture=true;
    if(drag?.particle)drag.particle.targetScale=1;
    drag=null;
    const initial=pair();
@@ -868,7 +1066,7 @@ function mount({model,onSelect,onLocation,onView}){
   if(!drag||drag.id!==e.pointerId)return;
   const dx=p.x-drag.start.x,dy=p.y-drag.start.y;
   if(!drag.moved&&Math.hypot(dx,dy)<=drag.slop)return;
-  drag.moved=true;releasePending();selectionTravel=null;
+  drag.moved=true;releasePending();interruptWordFlight();
   if(drag.particle){P.moveDragged(bodies,drag.particle,drag.startPX+dx,drag.startPY+dy,!reduced);drag.throwX=G.clamp(p.x-drag.last.x,-12,12);drag.throwY=G.clamp(p.y-drag.last.y,-12,12);renderBubbles(0);wake();}
   else if(view==='word'){panDetail((drag.detailPan?.x||0)+dx,(drag.detailPan?.y||0)+dy);}
   else if(orbitMode&&canOrbit()){
@@ -944,25 +1142,40 @@ function mount({model,onSelect,onLocation,onView}){
  }
  function setPageHidden(value){if(value)panel.close();pageHidden=value;suspend(value||document.hidden);}
  document.addEventListener('visibilitychange',()=>suspend(document.hidden||pageHidden));
- media.addEventListener?.('change',e=>{
-  reduced=e.matches;
+ function setMotionPreference(value){
+  motionPreference=value==='full'||value==='reduced'?value:'system';
+  const wasReduced=reduced;
+  reduced=motionPreference==='reduced'||motionPreference==='system'&&!!media?.matches;
+  map.dataset.motionPreference=motionPreference;
+  map.dataset.motion=reduced?'reduced':'full';
+  if(wasReduced===undefined||reduced===wasReduced)return;
   if(reduced){
    cancelGestures();
    if(selectionTravel){camera={...selectionTravel.to};focusCamera={...camera};selectionTravel=null;}
    if(flight){camera={...flight.to};flight=null;}
    for(const p of bodies){p.scale=1;p.scaleV=p.vx=p.vy=0;}
    // A preference change can interrupt the camera, a waiting spring or an exit.
-   // Rebuild at the destination so every visible word is immediately usable.
+   // Finish at the destination even in a hidden tab. The system may enable
+   // motion again before the next frame and a cancelled flight cannot release its stars.
    lastRefresh=-Infinity;settled=true;sceneReady=false;dirty=needsRefresh=true;
-   if(!paused&&!document.hidden){refresh(true);drawBackground();renderBubbles(0);updateHud();}
+   refresh(true);
+   if(!paused&&!document.hidden){drawBackground();renderBubbles(0);updateHud();}
   }
   wake();
- });
+ }
+ const systemMotionChanged=()=>setMotionPreference(motionPreference);
+ if(media?.addEventListener)media.addEventListener('change',systemMotionChanged);
+ else media?.addListener?.(systemMotionChanged);
  new ResizeObserver(()=>{if(map.clientWidth!==width||map.clientHeight!==height){cancelGestures();resize();}}).observe(map);
- new ResizeObserver(()=>{if(measureWordStage()){needsRefresh=dirty=true;wake();}}).observe(wordFooter);
+ new ResizeObserver(()=>{
+  if(measureWordStage()){
+   if(selectionTravel)retargetWordFlight();
+   needsRefresh=dirty=true;wake();
+  }
+ }).observe(wordFooter);
  resize();
- return {atlas,select,home,setRaceRoute:route=>{raceRoute=route;needsRefresh=dirty=true;wake();},refreshText,setNavigationLocked:value=>{cancelGestures();if(value)panel.close();navigationLocked=!!value;syncOrbit();},isCenteredWord:word=>selected?.word===word&&view==='word'&&!selectionTravel&&!!particles[0]&&Math.hypot(particles[0].x-focusLayout.center.x,particles[0].y-focusLayout.center.y)<.1,visibleWords:()=>[...new Set([...bodies.filter(p=>!p.departure&&p.r>=10&&p.x-p.r>=8&&p.x+p.r<=width-8&&p.y-p.r>100&&p.y+p.r<height-130).map(p=>p.node.w),...hitDots.filter(p=>p.labelOpacity>.2&&p.screen.x-p.r>=8&&p.screen.x+p.r<=width-8&&p.screen.y-p.r>100&&p.screen.y+p.r<height-130).map(p=>p.point.word)])],focus:focusSelected,zoom,visitRegion:id=>visitArea(atlas.regions.find(r=>r.id===id),'region'),visitCluster:id=>visitArea(atlas.clusters.find(c=>c.id===id),'cluster'),setFilters,suspend,setPageHidden,resize,
-  inspect:()=>({navigationLocked,orbitMode,pinching:!!pinch,pinchPreview:pinch?.preview?{...pinch.preview}:null,camera:{...camera},view,flight:!!flight,cameraTravelling:!!selectionTravel,selectionAnchor:selectionTravel?{...selectionTravel.anchor}:null,gathering:!settled,detailScale,detailPan:{...detailPan},settled,focusCenter:focusLayout?{...focusLayout.center}:null,lines:links.map(e=>({id:e.id,a:e.a.node.w,b:e.b.node.w,path:e.el.getAttribute('d'),color:e.el.getAttribute('stroke'),highlighted:e.highlighted,visible:e.el.style.display!=='none'})),particles:particles.map(p=>({word:p.node.w,x:p.x,y:p.y,r:P.radius(p),visualRadius:p.r,waiting:p.waiting,releaseAt:p.releaseAt,targetX:p.homeX,targetY:p.homeY,arrived:p.arrived,vx:p.vx,vy:p.vy})),surroundings:surroundings.map(p=>({word:p.node.w,x:p.x,y:p.y,r:P.radius(p)})),points:atlas.points.length,visible:projected.length,atlasGlyphs:projected.filter(v=>!movingIds.has(v.point.node.id)).map(v=>({word:v.point.word,x:v.screen.x,y:v.screen.y,r:v.r,labelOpacity:v.labelOpacity})),atlasLines:atlasLines.map(({edge,a,b})=>({id:edge.id,a:edge.from.word,b:edge.to.word,x1:a.x,y1:a.y,x2:b.x,y2:b.y,color:'#bcbdb7'})),atlasLanes:atlasLanes.map(l=>({...l})),atlasConnectionMode,atlasDustReady:sky.cloudsReady,availableAtlasEdgeCount:atlas.edges.length,screenPositions:[...allScreens].map(([word,p])=>({word,x:p.x,y:p.y})),reduced,paused,connectionPage:0,connectionPages:1,connectionCapacity:related.size,relatedWords:[...related.keys()],focusBounds:focusLayout?.bounds||null,contained:focusLayout?.contained||false})};
+ return {atlas,select,home,setMotionPreference,setRaceRoute:route=>{raceRoute=route;needsRefresh=dirty=true;wake();},refreshText,setNavigationLocked:value=>{cancelGestures();if(value)panel.close();navigationLocked=!!value;syncOrbit();},isCenteredWord:word=>selected?.word===word&&view==='word'&&!selectionTravel&&!!particles[0]&&Math.hypot(particles[0].x-focusLayout.center.x,particles[0].y-focusLayout.center.y)<.1,visibleWords:()=>[...new Set([...bodies.filter(p=>!p.departure&&p.r>=10&&p.x-p.r>=8&&p.x+p.r<=width-8&&p.y-p.r>100&&p.y+p.r<height-130).map(p=>p.node.w),...hitDots.filter(p=>p.labelOpacity>.2&&p.screen.x-p.r>=8&&p.screen.x+p.r<=width-8&&p.screen.y-p.r>100&&p.screen.y+p.r<height-130).map(p=>p.point.word)])],focus:focusSelected,zoom,visitRegion:id=>visitArea(atlas.regions.find(r=>r.id===id),'region'),visitCluster:id=>visitArea(atlas.clusters.find(c=>c.id===id),'cluster'),setFilters,suspend,setPageHidden,resize,
+  inspect:()=>({navigationLocked,orbitMode,pinching:!!pinch,pinchPreview:pinch?.preview?{...pinch.preview}:null,camera:{...camera},view,flight:!!flight,cameraTravelling:!!selectionTravel,selectionAnchor:selectionTravel?{...selectionTravel.anchor}:null,gathering:!settled,detailScale,detailPan:{...detailPan},settled,focusCenter:focusLayout?{...focusLayout.center}:null,lines:links.map(e=>({id:e.id,a:e.a.node.w,b:e.b.node.w,path:e.el.getAttribute('d'),color:e.el.getAttribute('stroke'),highlighted:e.highlighted,visible:e.el.style.display!=='none'})),particles:particles.map(p=>({word:p.node.w,x:p.x,y:p.y,r:P.radius(p),visualRadius:p.r,waiting:p.waiting,releaseAt:p.releaseAt,targetX:p.homeX,targetY:p.homeY,arrived:p.arrived,vx:p.vx,vy:p.vy})),surroundings:surroundings.map(p=>({word:p.node.w,x:p.x,y:p.y,r:P.radius(p)})),points:atlas.points.length,visible:projected.length,atlasGlyphs:projected.filter(v=>!movingIds.has(v.point.node.id)).map(v=>({word:v.point.word,x:v.screen.x,y:v.screen.y,r:v.r,labelOpacity:v.labelOpacity})),atlasLines:atlasLines.map(({edge,a,b})=>({id:edge.id,a:edge.from.word,b:edge.to.word,x1:a.x,y1:a.y,x2:b.x,y2:b.y,color:'#bcbdb7'})),atlasLanes:atlasLanes.map(l=>({...l})),atlasConnectionMode,atlasDustReady:sky.cloudsReady,availableAtlasEdgeCount:atlas.edges.length,screenPositions:[...allScreens].map(([word,p])=>({word,x:p.x,y:p.y})),reduced,motionPreference,paused,connectionPage:0,connectionPages:1,connectionCapacity:related.size,relatedWords:[...related.keys()],focusBounds:focusLayout?.bounds||null,contained:focusLayout?.contained||false})};
 
 }
 root.GalaxyView={mount};

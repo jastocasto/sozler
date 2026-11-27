@@ -34,6 +34,34 @@ const state={selected:null,filters:new Set(Object.keys(types)),history:[],arriva
 let conjugation=null,pictureQuiz=null,activePage='map',returnHash='',routeOpening=false;
 let race=null,morphology=null;
 let galaxy=null,sheetOpen=false,sheetGesture=null,suppressSheetClick=false,currentRegion=null,currentCluster=null;
+const motionKey='soz-toxumasi:motion',motionControl=$('motionPreference');
+function motionChoice(value){
+ const mode=typeof value==='string'?value.trim().toLowerCase():'';
+ return mode==='full'||mode==='reduced'||mode==='system'?mode:null;
+}
+function initialMotion(){
+ // A shared link controls this visit. Opening it leaves the visitor's saved preference in place.
+ if(location.search){
+  const fromLink=motionChoice(new URLSearchParams(location.search).get('motion'));
+  if(fromLink)return fromLink;
+ }
+ try{return motionChoice(localStorage.getItem(motionKey))||'system';}catch{return 'system';}
+}
+motionControl.querySelector('option[value="'+initialMotion()+'"]').selected=true;
+motionControl.addEventListener('change',()=>{
+ const choice=motionChoice(motionControl.value)||'system';
+ galaxy?.setMotionPreference(choice);
+ let stored=true;
+ try{localStorage.setItem(motionKey,choice);}catch{stored=false;}
+ if(location.search||!stored){
+  try{
+   const url=new URL(location.href);
+   if(stored&&!url.searchParams.has('motion'))return;
+   if(stored)url.searchParams.delete('motion');else url.searchParams.set('motion',choice);
+   history.replaceState(history.state,'',url.href);
+  }catch{} // Restricted history still allows the selection to take effect for this page.
+ }
+});
 const titleMeasure=document.createElement('canvas').getContext('2d');
 function fitMeaningTitle(){const title=document.getElementById('meaningWord'),holder=document.getElementById('sheetToggle');if(!title||!holder||!titleMeasure)return;const max=innerWidth<640?21:23,available=Math.max(80,holder.clientWidth-16);titleMeasure.font=max+'px Georgia, serif';const needed=Math.max(1,...title.textContent.split(/\s+/).map(word=>titleMeasure.measureText(word).width));title.style.fontSize=Math.min(max,max*available/needed)+'px';}
 window.addEventListener('resize',fitMeaningTitle);
@@ -368,7 +396,7 @@ function hashWord(){try{return decodeURIComponent(location.hash.replace(/^#w=/,'
 function fromHash(){return model.resolveWord(hashWord());}
 window.addEventListener('hashchange',route);window.addEventListener('popstate',route);
 function updateLocation({region,cluster}){currentRegion=region;currentCluster=cluster;$('breadcrumbRegion').hidden=!region;$('breadcrumbSeparator').hidden=!region;$('breadcrumbCluster').hidden=!cluster;$('breadcrumbRegion').textContent=region?.label||'';$('breadcrumbCluster').textContent=cluster?.label||'';}
-try{galaxy=window.GalaxyView.mount({model,onSelect:n=>select(n,true,true,null,false,'map'),onLocation:updateLocation,
+try{galaxy=window.GalaxyView.mount({model,motionPreference:motionControl.value,onSelect:n=>select(n,true,true,null,false,'map'),onLocation:updateLocation,
  onView:view=>{document.querySelector('.galaxy-studio').dataset.mapView=view;}
  });$('mapLoading').hidden=true;}catch(error){console.error(error);$('mapLoading').replaceChildren(html('p','','Xəritə bu brauzerdə açıla bilmədi. Sözlük və axtarışdan istifadə edə bilərsiniz.'));}
 for(const r of (galaxy?.atlas.regions||window.WORD_GALAXY_DATA.regions)){const b=html('button','',r.label);b.style.setProperty('--region-color',r.color);b.dataset.region=r.id;b.append(html('span','',r.count.toLocaleString('az')));b.onclick=()=>{closeMenu();setSheet(false);galaxy?.visitRegion(r.id);};$('regionDirectory').append(b);}

@@ -338,3 +338,18 @@
     grid-template-areas:"card card" "key tools";
   }
 }
+.menu-dialog .motion-setting {
+  display:flex; align-items:center; flex-wrap:wrap; justify-content:space-between; gap:8px 16px;
+  border-bottom:1px solid #b5aa8e33; padding-bottom:12px;
+  color:#e6ddc8; font-size:14px;
+}
+.motion-setting select {
+  color-scheme:dark; min-height:44px; max-width:100%; padding:0 10px;
+  border:1px solid #ada08280; border-radius:8px; background:#353630; color:#f0e9da; font:inherit;
+}
+.motion-setting select:focus-visible { outline:2px solid #efcd8d; outline-offset:2px; }
+:is(#map[data-motion=reduced],#map[data-motion=reduced] *),
+:is(#map[data-motion=reduced],#map[data-motion=reduced] *)::before,
+:is(#map[data-motion=reduced],#map[data-motion=reduced] *)::after {
+  animation:none!important; transition:none!important; scroll-behavior:auto!important;
+}

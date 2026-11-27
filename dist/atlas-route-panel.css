@@ -247,5 +247,5 @@
 }
 #map:has(#atlasRoutesPanel[hidden]) #atlas-route-pulse { visibility: hidden; }
 @media (prefers-reduced-motion: reduce) {
-  #atlas-route-pulse { display: none; }
+  #map:not([data-motion=full]) #atlas-route-pulse { display: none; }
 }

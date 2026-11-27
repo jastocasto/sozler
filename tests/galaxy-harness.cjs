@@ -23,7 +23,7 @@ function canvasMock(window){
  };
  return counts;
 }
-function boot({width=390,height=844,hash='',saved=[],reduced=false,layers=false,fetchJSON=require('./layers.cjs').fetchJSON}={}){
+function boot({width=390,height=844,hash='',saved=[],reduced=false,layers=false,configureWindow,fetchJSON=require('./layers.cjs').fetchJSON}={}){
  const dom=parseHTML(fs.readFileSync(path.join(dir,'index.html'),'utf8')).window,frames=new Map(),intervals=[],resizeObservers=[],errors=[];
  // Linkedom's window proxies writes to Node globals. Give each viewport its own browser globals.
  const window={};
@@ -46,6 +46,7 @@ function boot({width=390,height=844,hash='',saved=[],reduced=false,layers=false,
  window.requestIdleCallback=()=>0;
  window.SOZ_FETCH_JSON=fetchJSON;
  window.fetch=async file=>({ok:true,json:()=>window.SOZ_FETCH_JSON(file)});
+ configureWindow?.(window);
  const counts=canvasMock(window),context=vm.createContext(window);
  let model;
  // Tests that build their own createModel also need the data layers the page no longer loads.

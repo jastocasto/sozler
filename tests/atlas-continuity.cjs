@@ -15,6 +15,17 @@ for(const [width,height]of [[390,844],[1440,900]])for(const word of ['ailÉ™','gÃ
 // Camera travel reuses the same screen objects for word glyphs and connection
 // endpoints. The on-demand projector must still return independent positions.
 const sample=atlas.points.slice(0,8),screens=sample.map(()=>({}));
+const points=[...sample,{x:-350,y:70,z:15000},{x:28,y:42,z:-15000},{x:33,y:0}];
+const destinations=points.map(()=>({})),originalObjects=destinations.slice();
+for(const lens of [0,.4,1,0]){
+ const project=G.transform({x:12,y:5,z:3,zoom:.85,angle:.12,tilt:.3,roll:.2,lens,vanishX:107,vanishY:381},390,844);
+ project.all(points,destinations);
+ points.forEach((p,i)=>{
+  assert.equal(destinations[i],originalObjects[i],'batched projection retains every edge endpoint reference');
+  assert.deepEqual(destinations[i],project(p),'batched and single points match, including near-plane clipping');
+ });
+ assert.equal(destinations.some(p=>p.occluded),!!lens);
+}
 for(const [width,height] of [[390,844],[1440,900]]){
  for(const zoom of [.09,.2,.8]){
   const project=G.transform({...G.focus(sample[0],zoom),angle:.12,tilt:.3},width,height);

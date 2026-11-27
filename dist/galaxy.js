@@ -53,26 +53,79 @@ function cameraBasis(camera){
  return {xx:cos*basis.xx-sin*basis.yx,xy:cos*basis.xy-sin*basis.yy,xz:cos*basis.xz-sin*basis.yz,
   yx:sin*basis.xx+cos*basis.yx,yy:sin*basis.xy+cos*basis.yy,yz:sin*basis.xz+cos*basis.yz,relief};
 }
+// The settled atlas is orthographic. During a word flight an off-axis
+// perspective lens opens around the tapped pixel. Distances use the same
+// elevated world coordinates as the orbit camera. Limit the projection near
+// the eye and in the far field so a star can never turn inside out.
+const nearPlane=.27,farPlane=4;
+function flightLens(camera,width,height,m){
+ if(!camera.lens)return null;
+ return {k:camera.lens*camera.zoom/(Math.max(200,Math.min(width,height))*.85),
+  x:camera.vanishX??width/2,y:camera.vanishY??height/2,
+  nx:m.xy*m.yz-m.xz*m.yy,ny:m.xz*m.yx-m.xx*m.yz,nz:m.xx*m.yy-m.xy*m.yx};
+}
 function transform(camera,width,height){
  const m=cameraBasis(camera),zoom=camera.zoom;
  const xx=m.xx*zoom,xy=m.xy*zoom,xz=m.xz*m.relief*zoom,yx=m.yx*zoom,yy=m.yy*zoom,yz=m.yz*m.relief*zoom;
  const ox=width/2-camera.x*xx-camera.y*xy-(camera.z||0)*xz,oy=height/2-camera.x*yx-camera.y*yy-(camera.z||0)*yz;
  const facing=clamp((m.xx*m.yy-m.xy*m.yx)/Math.cos(overviewTilt+axialTilt),-1,1);
- function into(p,screen){
-  const z=p.z||0;
-  screen.x=ox+xx*p.x+xy*p.y+xz*z;
-  screen.y=oy+yx*p.x+yy*p.y+yz*z;
-  // The original elevation cue reverses when the atlas is seen from below.
-  screen.depth=clamp(1+.0004*z*facing,.78,1.22);
+ const lens=flightLens(camera,width,height,m);
+ const px=lens?lens.k*lens.nx:0,py=lens?lens.k*lens.ny:0,pz=lens?lens.k*lens.nz*m.relief:0;
+ const distanceAtOrigin=1+px*camera.x+py*camera.y+pz*(camera.z||0);
+ const vanishX=lens?.x,vanishY=lens?.y;
+ function all(points,screens){
+  for(let i=0;i<points.length;i++){
+   const point=points[i],screen=screens[i],x=point.x,y=point.y,z=point.z||0;
+   let sx=ox+xx*x+xy*y+xz*z,sy=oy+yx*x+yy*y+yz*z;
+   // The elevation cue reverses when the atlas is seen from below.
+   let depth=clamp(1+.0004*z*facing,.78,1.22),occluded=false;
+   if(lens){
+    const distance=distanceAtOrigin-px*x-py*y-pz*z,scale=1/clamp(distance,nearPlane,farPlane);
+    sx=vanishX+(sx-vanishX)*scale;sy=vanishY+(sy-vanishY)*scale;
+    depth*=scale;occluded=distance<nearPlane;
+   }
+   screen.x=sx;screen.y=sy;screen.depth=depth;screen.occluded=occluded;
+  }
+ }
+ // Point picking, path drawing and the full atlas share one projection.
+ // Reuse these two slots when a caller requests just one point.
+ const onePoint=[null],oneScreen=[null];
+ function into(point,screen){
+  onePoint[0]=point;oneScreen[0]=screen;all(onePoint,oneScreen);
   return screen;
  }
  const project=p=>into(p,{});
- project.into=into;
+ project.into=into;project.all=all;
  return project;
 }
 function unproject(point,camera,width,height,z=0,reference=camera){
  const m=cameraBasis(camera);
  const x=reference.x-camera.x,y=reference.y-camera.y,heightFromEye=(z-(camera.z||0))*m.relief;
+ const lens=flightLens(camera,width,height,m);
+ if(lens){
+  // On this pixel's ray, camera-plane X and Y are linear functions of
+  // optical depth. Intersect each finite piece with the requested altitude.
+  const x0=(point.x-width/2)/camera.zoom,y0=(point.y-height/2)/camera.zoom;
+  const vx=(point.x-lens.x)/camera.zoom,vy=(point.y-lens.y)/camera.zoom;
+  const z0=m.xz*x0+m.yz*y0,slope=m.xz*vx+m.yz*vy;
+  const ref=lens.nx*x+lens.ny*y+lens.nz*heightFromEye;
+  const near=(1-nearPlane)/lens.k,far=(1-farPlane)/lens.k;
+  let depth=ref,best=Infinity;
+  function intersect(offset,direction,lo,hi){
+   if(Math.abs(direction)<1e-12)return;
+   const t=(heightFromEye-offset)/direction,d=Math.abs(t-ref);
+   if(t>=lo-1e-8&&t<=hi+1e-8&&d<best){depth=t;best=d;}
+  }
+  intersect(z0,lens.nz-slope*lens.k,far,near);
+  intersect(z0+slope*(nearPlane-1),lens.nz,near,Infinity);
+  intersect(z0+slope*(farPlane-1),lens.nz,-Infinity,far);
+  const delta=depth-ref,reach=Math.max(2048,3*Math.max(width,height)/camera.zoom);
+  depth=ref+delta*smooth(Math.min(1,reach/Math.max(1,Math.abs(delta))));
+  const factor=clamp(1-lens.k*depth,nearPlane,farPlane)-1;
+  const sx=x0+vx*factor,sy=y0+vy*factor;
+  return {x:camera.x+m.xx*sx+m.yx*sy+lens.nx*depth,y:camera.y+m.xy*sx+m.yy*sy+lens.ny*depth,
+   z:(camera.z||0)+(m.xz*sx+m.yz*sy+lens.nz*depth)/m.relief};
+ }
  const sx=(point.x-width/2)/camera.zoom-(m.xx*x+m.xy*y+m.xz*heightFromEye);
  const sy=(point.y-height/2)/camera.zoom-(m.yx*x+m.yy*y+m.yz*heightFromEye);
  const dx=m.xx*sx+m.yx*sy,dy=m.xy*sx+m.yy*sy,dz=m.xz*sx+m.yz*sy;
@@ -87,9 +140,20 @@ function unproject(point,camera,width,height,z=0,reference=camera){
 }
 function aimAt(camera,anchor,screen,width,height){
  const m=cameraBasis(camera),x=anchor.x-camera.x,y=anchor.y-camera.y,z=((anchor.z||0)-(camera.z||0))*m.relief;
- const dx=m.xx*x+m.xy*y+m.xz*z-(screen.x-width/2)/camera.zoom;
- const dy=m.yx*x+m.yy*y+m.yz*z-(screen.y-height/2)/camera.zoom;
+ const lens=flightLens(camera,width,height,m);
+ const plane=lens?clamp(1-lens.k*(lens.nx*x+lens.ny*y+lens.nz*z),nearPlane,farPlane):1;
+ const sx=lens?lens.x+(screen.x-lens.x)*plane:screen.x,sy=lens?lens.y+(screen.y-lens.y)*plane:screen.y;
+ const dx=m.xx*x+m.xy*y+m.xz*z-(sx-width/2)/camera.zoom;
+ const dy=m.yx*x+m.yy*y+m.yz*z-(sy-height/2)/camera.zoom;
  return {...camera,x:camera.x+m.xx*dx+m.yx*dy,y:camera.y+m.xy*dx+m.yy*dy,z:(camera.z||0)+(m.xz*dx+m.yz*dy)/m.relief};
+}
+function closeFlightLens(camera,anchor,screen,width,height){
+ if(!camera.lens)return camera;
+ const {lens,vanishX,vanishY,...flat}=camera;
+ // Preserve both the projected position and apparent size of the grabbed
+ // point when a manual gesture takes over from a perspective flight.
+ flat.zoom*=transform(camera,width,height)(anchor).depth/transform(flat,width,height)(anchor).depth;
+ return aimAt(flat,anchor,screen,width,height);
 }
 // The stored angles describe Rz(roll) Rx(tilt) Rz(bearing). Compose a drag
 // with the whole orientation so either screen axis can pass through both poles.
@@ -163,30 +227,66 @@ function area(area,width,height){
 function angleBetween(from,to,t){const delta=to-from;return from+Math.atan2(Math.sin(delta),Math.cos(delta))*t;}
 function makeWordFlight(from,point,source,target,width,height,start){
  const home={x:point.x,y:point.y,z:point.z||0};
- const anchor=unproject(source,from,width,height,home.z,home);
+ let anchor=unproject(source,from,width,height,home.z,home);
+ if(from.lens&&transform(from,width,height)(anchor).occluded){
+  // A flying satellite is drawn in the foreground even when its original
+  // altitude intersects the tapped ray behind the eye. Start that trip at
+  // the same pixel on the visible focus plane, keeping the active camera.
+  const m=cameraBasis(from),sx=(source.x-width/2)/from.zoom,sy=(source.y-height/2)/from.zoom;
+  anchor={x:from.x+m.xx*sx+m.yx*sy,y:from.y+m.xy*sx+m.yy*sy,z:(from.z||0)+(m.xz*sx+m.yz*sy)/m.relief};
+ }
  const pose=focus(home,1),depth=transform(pose,width,height)(home).depth;
  // At arrival the atlas glyph and the foreground word have the same natural scale.
  const to=aimAt({...pose,zoom:target.r/(baseGlyphRadius*depth)},home,target,width,height);
  const logZoom=Math.log(to.zoom/from.zoom);
+ const distance=Math.hypot(home.x-anchor.x,home.y-anchor.y,home.z-anchor.z);
+ const routeWeight=smooth(clamp(distance*Math.min(from.zoom,to.zoom)/Math.min(width,height),0,1));
  return {from:{...from},to,fromAnchor:anchor,anchor,home,sourceScreen:{x:source.x,y:source.y},
   targetScreen:{x:target.x,y:target.y},sourceRadius:Math.max(.01,source.r),targetRadius:target.r,
-  logZoom,zoomAccent:Math.log(1.55)*clamp(1-Math.abs(logZoom)/Math.log(2.6),0,1),start,duration:1050};
+  logZoom,closeScale:clamp(1-Math.abs(logZoom)/Math.log(3),0,1),routeWeight,
+  clearance:Math.min(640,distance*.085),start,duration:1200};
 }
 function sampleWordFlight(flight,t,width,height){
  if(t<=0)return {camera:flight.from,anchor:flight.fromAnchor,radius:flight.sourceRadius};
  if(t>=1)return {camera:flight.to,anchor:flight.home,radius:flight.targetRadius};
- const p=smooth(t),from=flight.from,to=flight.to;
- // Equal-sized neighbours still get a forward rush and a gentle brake. A tap
- // from the distant atlas already covers the full zoom range in its approach.
- const rush=flight.zoomAccent*Math.sin(Math.PI*t)**2;
- const zoom=from.zoom*Math.exp(flight.logZoom*p+rush);
- const camera={...interpolateOrientation(from,to,p),x:mix(from.x,to.x,p),y:mix(from.y,to.y,p),z:mix(from.z||0,to.z||0,p),zoom};
- // A satellite may have travelled far from its atlas home. Carry the point
- // picked on screen to that home while keeping the chosen word in view.
- const a=flight.fromAnchor,b=flight.home,anchor={x:mix(a.x,b.x,p),y:mix(a.y,b.y,p),z:mix(a.z,b.z,p)};
+ const from=flight.from,to=flight.to,a=flight.fromAnchor,b=flight.home;
+ const takeoff=smooth(clamp(t/.25,0,1)),brake=smooth(clamp((1-t)/.29,0,1)),passage=takeoff*brake;
+ const p=1-(1-smooth(t))**1.4;
+ const approach=smooth(clamp((t-.055)/.49,0,1))*smooth(clamp((1-t)/.25,0,1));
+ const zoom=from.zoom*Math.exp(flight.logZoom*p+Math.log(2.15)*flight.closeScale*approach);
+ let pose=interpolateOrientation(from,to,p);
+ const dx=b.x-a.x,dy=b.y-a.y,dz=b.z-a.z;
+ // Turn to face a long trip. The camera now travels down the route, with
+ // near map points passing on both sides and the far neighbourhood ahead.
+ if(flight.routeWeight>1e-6){
+  const m=cameraBasis({...pose,zoom}),z=dz*m.relief;
+  const sx=m.xx*dx+m.xy*dy+m.xz*z,sy=m.yx*dx+m.yy*dy+m.yz*z;
+  const depth=(m.xy*m.yz-m.xz*m.yy)*dx+(m.xz*m.yx-m.xx*m.yz)*dy+(m.xx*m.yy-m.xy*m.yx)*z;
+  const lateral=Math.hypot(sx,sy);
+  if(lateral>1e-6){
+   const turn=Math.min(1.34,Math.atan2(lateral,-depth)) * flight.routeWeight*passage;
+   pose=orbit(pose,turn*sx/lateral,-turn*sy/lateral);
+  }
+ }
+ // Arch above intervening words during the fast section. Both ends meet
+ // their measured world positions and the selected word stays on screen.
+ const rise=flight.clearance*Math.sin(Math.PI*p)**2;
+ const anchor={x:a.x+dx*p,y:a.y+dy*p,z:a.z+dz*p+rise};
  const screen={x:mix(flight.sourceScreen.x,flight.targetScreen.x,p),y:mix(flight.sourceScreen.y,flight.targetScreen.y,p)};
+ const camera={...pose,x:mix(from.x,to.x,p),y:mix(from.y,to.y,p),z:mix(from.z||0,to.z||0,p)+rise,zoom,
+  lens:mix(from.lens||0,1,takeoff)*brake,
+  vanishX:mix(from.vanishX??screen.x,screen.x,takeoff),vanishY:mix(from.vanishY??screen.y,screen.y,takeoff)};
+ // A tilted overview can place the chosen word between the map center and
+ // the eye. Dolly along the optical axis to keep it ahead of the near plane
+ // on takeoff, then on the focus plane as the other stars fly past it.
+ const m=cameraBasis(camera),lens=flightLens(camera,width,height,m);
+ if(lens){
+  const depth=lens.nx*(anchor.x-camera.x)+lens.ny*(anchor.y-camera.y)+lens.nz*(anchor.z-camera.z)*m.relief;
+  const wanted=Math.min(depth*(1-passage),(1-nearPlane-.2*takeoff)/lens.k),dolly=depth-wanted;
+  camera.x+=lens.nx*dolly;camera.y+=lens.ny*dolly;camera.z+=lens.nz*dolly/m.relief;
+ }
  return {camera:aimAt(camera,anchor,screen,width,height),anchor,
-  radius:flight.sourceRadius*Math.exp(Math.log(flight.targetRadius/flight.sourceRadius)*p+rush)};
+  radius:flight.sourceRadius*Math.exp(Math.log(flight.targetRadius/flight.sourceRadius)*p+Math.log(1.80)*flight.closeScale*approach)};
 }
 function makeFlight(from,to,width,height,now=0,reduced=false){
  const distance=Math.hypot(to.x-from.x,to.y-from.y),far=distance*Math.min(from.zoom,to.zoom)>Math.min(width,height)*.7;
@@ -212,12 +312,16 @@ const noLines=Object.freeze([]);
 function glyphs(atlas,camera,width,height,screens=null,measure=null,buffer=null){
  const project=screens?p=>screens.get(p.word):transform(camera,width,height);
  const items=buffer?.visible||[],pad=110;
+ // During forward travel the distant words read as lights. Keep each real
+ // projection and its depth cue, and resolve bodies and labels on approach.
+ const movingLight=smooth(clamp((camera.lens||0)/.55,0,1));
  let maxR=0,count=0;
  for(let i=0;i<atlas.points.length;i++){
   const point=atlas.points[i],cached=buffer?.glyphs[i],screen=cached?cached.screen:project(point);
-  if(screen.x< -pad||screen.x>width+pad||screen.y< -pad||screen.y>height+pad)continue;
+  if(screen.occluded||screen.x< -pad||screen.x>width+pad||screen.y< -pad||screen.y>height+pad)continue;
   const glyph=cached||{point,screen};
   glyph.r=clamp(baseGlyphRadius*camera.zoom*screen.depth,.65,48);
+  if(movingLight){const light=Math.min(glyph.r,clamp(.55+screen.depth*1.15,.65,2.8));glyph.r=mix(glyph.r,light,movingLight);}
   maxR=Math.max(maxR,glyph.r);items[count++]=glyph;
  }
  items.length=count;
@@ -293,7 +397,7 @@ function connectionView(atlas,screens){
   const visibleSegments=[];
   previousGroup={dynamic,visible(width,height){
    let count=0;
-   for(const segment of fixed)if(crossesViewport(segment.a,segment.b,width,height,4))visibleSegments[count++]=segment;
+   for(const segment of fixed)if(!segment.a.occluded&&!segment.b.occluded&&crossesViewport(segment.a,segment.b,width,height,4))visibleSegments[count++]=segment;
    visibleSegments.length=count;
    return visibleSegments;
   }};
@@ -306,5 +410,5 @@ function connections(atlas,screens,filters,width,height,moving=new Set()){
  return {stationary:group.visible(width,height),dynamic:group.dynamic};
 }
 function blendColor(from,to,t){const rgb=h=>[1,3,5].map(i=>parseInt(h.slice(i,i+2),16)),a=rgb(from),b=rgb(to);return '#'+a.map((v,i)=>Math.round(mix(v,b[i],t)).toString(16).padStart(2,'0')).join('');}
-const api={createAtlas,transform,unproject,aimAt,orbit,dragOrbit,touchOrbit:dragOrbit,touchTurn,angleBetween,interpolateOrientation,overview,focus,area,makeWordFlight,sampleWordFlight,makeFlight,sampleFlight,zoomAt,clamp,glyphs,labelLines,fitLabel,blendColor,crossesViewport,connectionView,connections};if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.WordGalaxy=api;
+const api={createAtlas,transform,unproject,aimAt,closeFlightLens,orbit,dragOrbit,touchOrbit:dragOrbit,touchTurn,angleBetween,interpolateOrientation,overview,focus,area,makeWordFlight,sampleWordFlight,makeFlight,sampleFlight,zoomAt,clamp,glyphs,labelLines,fitLabel,blendColor,crossesViewport,connectionView,connections};if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.WordGalaxy=api;
 })(typeof window!=='undefined'?window:globalThis);

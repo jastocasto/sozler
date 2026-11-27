@@ -103,8 +103,11 @@ function create(atlas, onCloudsReady) {
   const stars = new Float32Array(capacity), brightness = new Float32Array(capacity);
   const radiance = new Float32Array(capacity*3);
   const layers = atlas.regions.map(()=>new Map()), beacons = new Map();
+  const localStars=atlas.clusters.map(()=>[]), visited=new Uint32Array(atlas.clusters.length);
+  const stride=atlas.clusters.map(c=>Math.max(1,Math.ceil((c.count||1)/256)));
   for (const p of atlas.points) {
     const id = p.node.id, cluster = atlas.clusters[p.cluster], d = degree[id];
+    if(visited[p.cluster]++%stride[p.cluster]===0)localStars[p.cluster].push(p);
     // Light the relief of each actual cluster, using the recorded point elevation and density.
     const u = (p.x-cluster.x)/Math.max(1,cluster.radius), v = (p.y-cluster.y)/Math.max(1,cluster.radius);
     const distance = Math.min(1, Math.hypot(u,v));
@@ -153,31 +156,58 @@ function create(atlas, onCloudsReady) {
     else { clouds=[]; warming=false; }
   }
   const beaconList = [...beacons.values()].sort((a,b)=>b.degree-a.degree).slice(0,56);
+  const elevations=localStars.map(points=>{
+    const z=points.map(p=>p.z||0).sort((a,b)=>a-b);
+    return [z[Math.floor(z.length/3)],z[Math.floor(z.length*2/3)]];
+  });
   const inks = palette.map(c => [css(mix(c,[118,146,201],.17)),css(mix(c,[214,240,245],.24)),css(mix(c,[244,247,233],.65))]);
-  const trailInks = palette.map(c => [`rgba(${c.join(',')},0)`, `rgba(${c.join(',')},.53)`, css(mix(c,[231,242,255],.7))]);
+  const trailInks=palette.map(c=>[`rgba(${c.join(',')},0)`,`rgba(${c.join(',')},.46)`,css(mix(c,[235,247,255],.80))]);
+  // Crossing the same angular field takes longer at greater depth. The shutter
+  // interval determines the visible length of each light's path through it.
+  const depths=[
+    {passes:.52,shutter:.065,width:.70,opacity:.62},
+    {passes:1.28,shutter:.19,width:1.48,opacity:.86},
+    {passes:2.54,shutter:.37,width:2.70,opacity:1}
+  ];
+  const acceleration=.23,braking=.28;
   let lightFlight=null, tracks=[], afterglow=[], lastLit=-Infinity;
 
-  // Take bearings from real lights once per flight. The sparse frame at high
-  // zoom can still see dust along the bearings of the atlas's distant beacons.
   function flightTracks(items, project, focus, width, height) {
-    const sectors=width<640?14:22, slots=new Array(sectors*2);
-    function sample(point,screen) {
-      const id=point.node.id, dx=screen.x-focus.x, dy=screen.y-focus.y, distance=Math.hypot(dx,dy);
-      if(id===focus.node.id || distance<5)return;
+    const sectors=width<640?24:32, slots=new Array(sectors*depths.length);
+    const home=focus.point||atlas.points[0];
+    const under=home && project({...home,z:(home.z||0)+24}).depth<project(home).depth;
+    function sample(point,screen,origin,priority) {
+      const id=point.node.id,dx=screen.x-origin.x,dy=screen.y-origin.y,distance=Math.hypot(dx,dy);
+      if(screen.occluded||origin.occluded||id===focus.node.id||distance<.001)return;
       const unitX=dx/distance, unitY=dy/distance;
       const angle=(Math.atan2(dy,dx)+TAU)%TAU;
-      const index=Math.floor(angle/TAU*sectors)*2+((id>>>2)&1);
-      const variation=(Math.imul(id+1,2654435761)>>>0)/4294967296;
-      const inside=screen.x>=0&&screen.x<=width&&screen.y>=0&&screen.y<=height;
-      const score=(inside?2:0)+stars[id]+variation*.35;
+      const hash=Math.imul(id+1,2654435761)>>>0,variation=hash/4294967296;
+      const [low,high]=elevations[point.cluster];
+      // Group dust by the source word's actual elevation inside its cluster.
+      // Below the atlas those nearer and farther bands exchange places.
+      const heightBand=low<high?(point.z<low?0:point.z>high?2:1):(hash>>>7)%depths.length;
+      const layer=under?2-heightBand:heightBand,index=layer*sectors+Math.floor(angle/TAU*sectors);
+      const score=priority+stars[id]+variation*.35;
       if(slots[index] && slots[index].score>=score)return;
-      const reach=toFrame(unitX,unitY,focus,width,height);
-      slots[index]={unitX,unitY,score,variation,ink:trailInks[point.region%palette.length],
-        phase:inside&&reach>0?clamp(distance/reach,.08,.93):.12+.76*variation,alpha:0};
+      // Individual phase comes from the word ID, so several lights in one part
+      // of a dense cluster are not all released from the same depth plane.
+      slots[index]={unitX,unitY,score,variation,layer,ink:trailInks[point.region%palette.length],
+        phase:((hash>>>8)&0xffff)/65536,alpha:0};
     }
-    for(const {p} of beaconList)sample(p,project(p));
+    // Capture actual bearings on both ends of the trip. A gathered bubble can
+    // be tapped a long way from its atlas home. The shape of its own cluster
+    // still supplies dust around the viewer, even in a nearly empty close-up.
+    const clusterIndex=focus.point?.cluster, cluster=atlas.clusters[clusterIndex];
+    if(cluster){
+      const center=project(cluster);
+      for(const point of localStars[clusterIndex]){
+        sample(point,point,cluster,0);
+        sample(point,project(point),center,2);
+      }
+    }
+    for(const {p} of beaconList)sample(p,project(p),focus,4);
     const stride=Math.max(1,Math.ceil(items.length/480));
-    for(let i=0;i<items.length;i+=stride)sample(items[i].point,items[i].screen);
+    for(let i=0;i<items.length;i+=stride)sample(items[i].point,items[i].screen,focus,6);
     return slots.filter(Boolean);
   }
   function toFrame(dx,dy,focus,width,height) {
@@ -190,36 +220,59 @@ function create(atlas, onCloudsReady) {
     if(alpha<.008)return;
     const {x,y,tailX,tailY,ink}=track;
     const tint=ctx.createLinearGradient?.(tailX,tailY,x,y);
-    if(tint){tint.addColorStop(0,ink[0]);tint.addColorStop(.68,ink[1]);tint.addColorStop(1,ink[2]);}
-    ctx.strokeStyle=tint||ink[2];ctx.globalAlpha=alpha;ctx.lineWidth=track.weight;
+    if(tint){tint.addColorStop(0,ink[0]);tint.addColorStop(.50,ink[1]);tint.addColorStop(.94,ink[2]);tint.addColorStop(1,ink[2]);}
+    ctx.fillStyle=ctx.strokeStyle=tint||ink[2];
+    // Perspective tapers the tail down to a hairline. Only foreground lights
+    // bloom, and that bloom narrows back into the moving tip.
+    if(track.layer && ctx.fill){
+      const radius=track.weight*.58,nx=-track.unitY,ny=track.unitX;
+      const neckX=x-track.unitX*radius,neckY=y-track.unitY*radius;
+      for(let pass=track.layer;pass>=1;pass--){
+        const spread=pass===2?radius*2.8:radius;
+        ctx.globalAlpha=alpha*(pass===2?.095:.72);
+        ctx.beginPath();ctx.moveTo(tailX,tailY);ctx.lineTo(neckX+nx*spread,neckY+ny*spread);
+        ctx.quadraticCurveTo(x+track.unitX*spread,y+track.unitY*spread,neckX-nx*spread,neckY-ny*spread);
+        ctx.fill();
+      }
+    }
+    ctx.globalAlpha=alpha;ctx.lineWidth=track.weight*.54;
     ctx.beginPath();ctx.moveTo(tailX,tailY);ctx.lineTo(x,y);ctx.stroke();
   }
+  // Integrated smooth acceleration, cruise, and braking. Both the camera-ward
+  // particle distance and the shutter speed stay continuous at the boundaries.
+  function flightSpeed(t){const u=clamp(Math.min(t/acceleration,(1-t)/braking),0,1);return u*u*(3-2*u);}
+  function flightDistance(t){
+    const total=1-(acceleration+braking)/2;
+    if(t<acceleration){const u=t/acceleration;return acceleration*u**3*(1-u/2)/total;}
+    if(t>1-braking){const u=(1-t)/braking;return 1-braking*u**3*(1-u/2)/total;}
+    return (t-acceleration/2)/total;
+  }
+  function perspective(phase){return phase/(1.82-.82*phase);}
   function drawFlightTrails(ctx,items,project,focus,width,height,flight,now) {
-    if(!flight||!focus){lightFlight=null;tracks.length=afterglow.length=0;return;}
+    if(!(flight?.duration>0)||!focus){lightFlight=null;tracks.length=afterglow.length=0;return;}
     if(flight!==lightFlight){
       afterglow=lightFlight&&now-lastLit<150?tracks:[];
       tracks=flightTracks(items,project,focus,width,height);lightFlight=flight;
     }
     const elapsed=Math.max(0,now-flight.start),t=clamp(elapsed/flight.duration,0,1);
-    const speed=Math.sin(t*Math.PI)**2, travel=t-Math.sin(t*TAU)/TAU;
-    const aperture=Math.max(30,focus.r*1.5+8), longest=Math.min(116,Math.min(width,height)*.21);
-    ctx.save?.();ctx.lineCap='round';
+    const speed=flightSpeed(t),travel=flightDistance(t),aperture=Math.max(30,focus.r*1.5+8);
+    ctx.save?.();ctx.lineCap='round';ctx.globalCompositeOperation='screen';
     for(const track of afterglow)paintTrail(ctx,track,clamp(1-elapsed/115,0,1));
     if(elapsed>=115)afterglow.length=0;
     for(const track of tracks){
-      const {unitX,unitY,variation}=track;
-      const reach=toFrame(unitX,unitY,focus,width,height);
-      const phase=(track.phase+travel*(.76+.43*variation))%1;
-      const distance=reach*phase;
-      const length=Math.min(distance-aperture,longest*speed*(.22+.78*phase)*(.75+.5*variation));
-      track.alpha=length<1?0:speed*(.43+.39*variation)*clamp(phase/.12,0,1)*clamp((1-phase)/.13,0,1);
+      const {unitX,unitY,variation,layer}=track,band=depths[layer];
+      const reach=toFrame(unitX,unitY,focus,width,height)*1.28;
+      const phase=(track.phase+travel*band.passes*(.88+.24*variation))%1;
+      const head=perspective(phase),tail=perspective(Math.max(0,phase-band.shutter*speed));
+      const clear=aperture+variation*18,distance=reach*head,length=distance-Math.max(clear,reach*tail);
+      track.alpha=length<.7?0:speed*band.opacity*clamp((distance-clear)/26,0,1)*clamp((1-phase)/.085,0,1);
       if(!track.alpha)continue;
       track.x=focus.x+unitX*distance;track.y=focus.y+unitY*distance;
       track.tailX=track.x-unitX*length;track.tailY=track.y-unitY*length;
-      track.weight=.65+phase*(.6+.8*variation);
+      track.weight=band.width*(.82+.49*head+.17*variation);
       paintTrail(ctx,track);
     }
-    if(ctx.restore)ctx.restore();else {ctx.globalAlpha=1;ctx.lineCap='butt';}
+    if(ctx.restore)ctx.restore();else {ctx.globalAlpha=1;ctx.lineCap='butt';ctx.globalCompositeOperation='source-over';}
     lastLit=now;
   }
   // As an atlas point becomes a readable word, its region tint settles into charcoal.
@@ -238,6 +291,7 @@ function create(atlas, onCloudsReady) {
     for (const cloud of clouds) {
       if (!cloud) continue;
       const a=project(cloud), b=project({x:cloud.x+cloud.w,y:cloud.y,z:cloud.z}), c=project({x:cloud.x,y:cloud.y+cloud.h,z:cloud.z});
+      if(a.occluded||b.occluded||c.occluded)continue;
       const dx=b.x+c.x-a.x, dy=b.y+c.y-a.y;
       if (Math.max(a.x,b.x,c.x,dx)<0 || Math.min(a.x,b.x,c.x,dx)>width ||
           Math.max(a.y,b.y,c.y,dy)<0 || Math.min(a.y,b.y,c.y,dy)>height) continue;
@@ -302,11 +356,13 @@ function create(atlas, onCloudsReady) {
     ctx.drawImage(raster.canvas,0,0,width,height);ctx.restore();
     return true;
   }
-  function drawStars(ctx,items,width,height,zoom,moving,project) {
+  function drawStars(ctx,items,width,height,zoom,moving,project,flight=null,now=0) {
+    const speed=flight?.duration>0?flightSpeed((now-flight.start)/flight.duration):0;
+    const starExposure=1-.52*speed,wordExposure=1-.77*speed;
     const resolved=clamp((zoom-.031)/.014,0,1);
-    const scattered=scatter(ctx,items,width,height,zoom,moving,1-resolved);
+    const scattered=scatter(ctx,items,width,height,zoom,moving,(1-resolved)*starExposure);
     if (!scattered || resolved>0) {
-      const opacity=scattered?resolved:1;
+      const opacity=(scattered?resolved:1)*starExposure;
       const batches = palette.map(()=>[[],[],[]]);
       for (const v of items) if (v.r<=3 && !moving.has(v.point.node.id)) {
         const light=stars[v.point.node.id], level=light>.66?2:light>.34?1:0;
@@ -336,9 +392,9 @@ function create(atlas, onCloudsReady) {
         for (const [i,{p,degree}] of beaconList.entries()) {
           if (moving.has(p.node.id)) continue;
           const s=project(p);
-          if(s.x<0||s.x>width||s.y<0||s.y>height)continue;
+          if(s.occluded||s.x<0||s.x>width||s.y<0||s.y>height)continue;
           const radius=clamp(Math.log2(degree+1)*1.35,4,10);
-          ctx.globalAlpha=clamp((.07-zoom)/.045,0,.78);
+          ctx.globalAlpha=clamp((.07-zoom)/.045,0,.78)*starExposure;
           ctx.drawImage(spark,s.x-radius,s.y-radius,radius*2,radius*2);
           if (i<12 && radius>6) {
             ctx.globalAlpha*=.78;ctx.strokeStyle='#d9eff3';ctx.lineWidth=.7;ctx.beginPath();
@@ -352,11 +408,11 @@ function create(atlas, onCloudsReady) {
     for (const v of items) {
       if (v.r<=3||moving.has(v.point.node.id)) continue;
       const {point,screen:p,r,body,labelOpacity}=v;
-      ctx.globalAlpha=.68+.28*body;ctx.fillStyle=wordColours[point.region][Math.round(body*255)];
+      ctx.globalAlpha=(.68+.28*body)*wordExposure;ctx.fillStyle=wordColours[point.region][Math.round(body*255)];
       ctx.beginPath();ctx.arc(p.x,p.y,r,0,TAU);ctx.fill();
-      ctx.globalAlpha=body*.7;ctx.lineWidth=.65;ctx.strokeStyle='#aaa697';ctx.stroke();
+      ctx.globalAlpha=body*.7*wordExposure;ctx.lineWidth=.65;ctx.strokeStyle='#aaa697';ctx.stroke();
       if (labelOpacity>0) {
-        ctx.globalAlpha=labelOpacity;ctx.fillStyle='#f1ede4';ctx.font=v.fontSize+'px Georgia, serif';ctx.textAlign='center';
+        ctx.globalAlpha=labelOpacity*wordExposure;ctx.fillStyle='#f1ede4';ctx.font=v.fontSize+'px Georgia, serif';ctx.textAlign='center';
         v.lines.forEach((line,i)=>ctx.fillText(line,p.x,p.y+(i-(v.lines.length-1)/2)*(v.fontSize+2)+v.fontSize*.32));
       }
     }
@@ -382,6 +438,7 @@ function drawLanes(ctx,atlas,project,routes,selected,width,height,opacity) {
   const maximum=Math.max(1,...routes.map(route=>route.count));
   for (const route of routes) {
     const a=project(atlas.regions[route.from]),b=project(atlas.regions[route.to]);
+    if(a.occluded||b.occluded)continue;
     const dx=b.x-a.x,dy=b.y-a.y,span=Math.hypot(dx,dy);
     if (span<1) continue;
     const sign=((route.from*31+route.to*7)%3===0?-1:1);

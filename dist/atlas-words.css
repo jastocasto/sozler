@@ -2,6 +2,13 @@
   stroke: #fff5d9;
   stroke-width: 3px;
 }
+.galaxy-studio #meaningCard.flight-arrival:not(:focus-within):not([data-expanded=true]) {
+  opacity: var(--card-reveal);
+  translate: 0 var(--card-rise);
+}
+.galaxy-studio #meaningCard.waiting-for-flight:not(:focus-within):not([data-expanded=true]) {
+  pointer-events: none;
+}
 .galaxy-studio #links .edge {
   transition: opacity 120ms ease, stroke-width 120ms ease;
 }
@@ -23,7 +30,7 @@
   stroke-width: 5px;
 }
 @media (prefers-reduced-motion: reduce) {
-  .galaxy-studio #links .edge { transition: none; }
+  #map:not([data-motion=full]) #links .edge { transition: none; }
 }
 @media (forced-colors: active) {
   .galaxy-studio #bubbles .word-node .bubble { fill: Canvas; stroke: CanvasText; }
