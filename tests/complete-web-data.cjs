@@ -7,4 +7,17 @@ const moving=G.connections({edges},screens,filters,390,844,new Set([a.id]));asse
 assert.equal(G.connections({edges},screens,new Set(['root']),390,844).stationary.length,1);
 for(const e of edges)assert(G.connections({edges:[e]},new Map([[e.from.word,{x:30,y:30}],[e.to.word,{x:100,y:100}]]),filters,390,844).stationary.length===1,'Every recorded edge is eligible, regardless of its numeric id');
 assert(G.crossesViewport({x:-100,y:-100},{x:500,y:1000},390,844));assert(!G.crossesViewport({x:-100,y:0},{x:-100,y:900},390,844));assert(G.crossesViewport({x:0,y:0},{x:390,y:844},390,844));
+const indexed=G.connectionView({edges},screens),movingWords=new Set([a.id]);
+let group=indexed.group(filters,movingWords);
+assert.deepEqual(group.dynamic.map(e=>e.id),[0,1]);
+movingWords.delete(a.id);movingWords.add(d.id);
+group=indexed.group(filters,movingWords);
+assert.deepEqual(group.dynamic.map(e=>e.id),[2],'An equal-size change of moving words updates the partition');
+const visible=()=>group.visible(390,844).map(s=>s.edge.id);
+assert.deepEqual(visible(),[0,1]);
+screens.get('a').y=-600;screens.get('b').y=-500;
+assert.deepEqual(visible(),[1],'Updating endpoint coordinates reclips stationary links on the next frame');
+filters.delete('syn');filters.add('ending');screens.get('a').y=screens.get('b').y=100;
+group=indexed.group(filters,movingWords);
+assert.deepEqual(visible(),[1],'An equal-size filter change updates the partition');
 console.log('PASS: complete recorded web, long and crossing edges, filter fidelity, and exactly one drawing layer per moving connection.');

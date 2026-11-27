@@ -30,8 +30,11 @@ function boot({width=390,height=844,hash='',saved=[],reduced=false,layers=false,
  for(const name of ['document','navigator','Event','Element','HTMLElement','HTMLSelectElement','HTMLCanvasElement','addEventListener','removeEventListener','dispatchEvent'])window[name]=dom[name];
  window.window=window;
  let id=0,now=0;
+ const motionListeners=new Set();
+ const motion={matches:reduced,addEventListener(type,fn){if(type==='change')motionListeners.add(fn);}};
+ const setReducedMotion=value=>{motion.matches=value;for(const fn of motionListeners)fn({matches:value});};
  const storage=new Map([['soz-toxumasi:saved',JSON.stringify(saved)]]);
- Object.assign(window,{module:undefined,console:{...console,error:(...e)=>errors.push(e)},innerWidth:width,innerHeight:height,devicePixelRatio:1,performance:{now:()=>now},setTimeout,clearTimeout,setInterval:fn=>intervals.push(fn),clearInterval:id=>{delete intervals[id-1];},matchMedia:()=>({matches:reduced,addEventListener(){}}),ResizeObserver:class{constructor(fn){resizeObservers.push(fn);}observe(){}},requestAnimationFrame:fn=>{frames.set(++id,fn);return id;},cancelAnimationFrame:id=>frames.delete(id),localStorage:{getItem:k=>storage.get(k),setItem:(k,v)=>storage.set(k,v)},location:{hash},history:{state:null,replaceState:(a,b,url)=>{window.history.state=a;window.location.hash=url;},pushState:(a,b,url)=>{window.history.state=a;window.location.hash=url;}}});
+ Object.assign(window,{module:undefined,console:{...console,error:(...e)=>errors.push(e)},innerWidth:width,innerHeight:height,devicePixelRatio:1,performance:{now:()=>now},setTimeout,clearTimeout,setInterval:fn=>intervals.push(fn),clearInterval:id=>{delete intervals[id-1];},matchMedia:()=>motion,ResizeObserver:class{constructor(fn){resizeObservers.push(fn);}observe(){}},requestAnimationFrame:fn=>{frames.set(++id,fn);return id;},cancelAnimationFrame:id=>frames.delete(id),localStorage:{getItem:k=>storage.get(k),setItem:(k,v)=>storage.set(k,v)},location:{hash},history:{state:null,replaceState:(a,b,url)=>{window.history.state=a;window.location.hash=url;},pushState:(a,b,url)=>{window.history.state=a;window.location.hash=url;}}});
  const captures=new Map(),viewport={width,height,captures};viewports.set(window.document,viewport);
  Object.defineProperties(window.HTMLElement.prototype,{clientWidth:{configurable:true,get(){return viewports.get(this.ownerDocument)?.width||0;}},clientHeight:{configurable:true,get(){return viewports.get(this.ownerDocument)?.height||0;}}});
  const selectValue=Object.getOwnPropertyDescriptor(window.HTMLSelectElement.prototype,'value');if(selectValue&&!selectValue.set)Object.defineProperty(window.HTMLSelectElement.prototype,'value',{configurable:true,get:selectValue.get,set(value){const options=[...this.querySelectorAll('option')];for(const option of options)option.removeAttribute('selected');options.find(option=>option.value===value)?.setAttribute('selected','');}});
@@ -57,7 +60,7 @@ function boot({width=390,height=844,hash='',saved=[],reduced=false,layers=false,
  }
  assert.equal(errors.length,0,errors.map(x=>String(x)).join('\n'));
  const $=id=>window.document.getElementById(id),input=(id,value)=>{$(id).value=value;$(id).dispatchEvent(new window.Event('input'));};
- const runFrames=(n=120,afterFrame=null,sampleEvery=1)=>{for(let i=0;i<n;i++){now+=1000/60;const queue=[...frames];frames.clear();for(const[,fn]of queue)fn(now);if(queue.length&&(i%sampleEvery===0||i===n-1))afterFrame?.();}};
+ const runFrames=(n=120,afterFrame=null,sampleEvery=1,frameMs=1000/60)=>{for(let i=0;i<n;i++){now+=frameMs;const queue=[...frames];frames.clear();for(const[,fn]of queue)fn(now);if(queue.length&&(i%sampleEvery===0||i===n-1))afterFrame?.();}};
  const runUntilIdle=(check=null)=>{
   for(let frame=0;frames.size&&frame<360;frame++)runFrames(1,frame%8===0?check:null);
   assert.equal(frames.size,0,'The atlas should stop animating within six simulated seconds');
@@ -65,6 +68,6 @@ function boot({width=390,height=844,hash='',saved=[],reduced=false,layers=false,
  };
  const pointer=(type,id,x,y,target=$('graph'))=>{const e=new window.Event(type,{bubbles:true,cancelable:true});Object.assign(e,{pointerId:id,clientX:x,clientY:y,pointerType:'touch',button:0});target.dispatchEvent(e);};
  const resize=(w,h)=>{viewport.width=window.innerWidth=w;viewport.height=window.innerHeight=h;resizeObservers.forEach(fn=>fn());runFrames(3);};
- return {window,$,model,input,frames,runFrames,runUntilIdle,pointer,resize,counts,storage,intervals,errors,captures};
+ return {window,$,model,input,frames,runFrames,runUntilIdle,pointer,resize,counts,storage,intervals,errors,captures,setReducedMotion};
 }
 module.exports={boot,canvasMock};

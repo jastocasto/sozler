@@ -20,4 +20,11 @@ resolve(scene);assert.equal(focus.x,0);separated(scene,'context yield');moveDrag
 // Fast magnetic arrivals still respect contact separation on every frame.
 const fast=Array.from({length:40},(_,i)=>node(i,{local:true,maxSpeed:32,repulsion:0,spring:.14,damping:.77,x:i*75-1500,tx:Math.cos(i*2.399)*Math.sqrt(i)*90,ty:Math.sin(i*2.399)*Math.sqrt(i)*90}));
 for(let frame=0;frame<180;frame++){step(fast,[]);separated(fast,'fast arrival');}
-console.log('PASS: no overlap after cold spawn, every spring frame, maximum scale/stretch, pointer sweeps, paused dragging, release, and 48-body piles; impacts rebound.');
+// A large word family can project hundreds of tiny lights into the same few
+// pixels. Every word must survive cold separation, including the pinned one.
+const packed=Array.from({length:576},(_,i)=>node(i,{x:i%7*.17,y:i%11*.12,r:.55+i%4*.09,skin:.07,contactGap:.12,local:i%7!==0,repulsion:0}));
+const pin=packed[71],fixed=[pin.x,pin.y];
+resolve(packed,pin);separated(packed,'576 projected word lights');
+assert.deepEqual([pin.x,pin.y],fixed);
+assert(packed.every(p=>Math.hypot(p.x,p.y)<80),'Cold recovery keeps a tiny projected cluster near its source');
+console.log('PASS: separation through spring motion, stretch, pointer sweeps, dragging and release, including a 576-light cold pile and elastic impact rebound.');

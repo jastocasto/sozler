@@ -7,39 +7,96 @@ const inverseMass=p=>p.inverseMass??1/(p.r*p.r);
 // Includes the largest possible velocity stretch used by the SVG renderer.
 function radius(p){return p.r*(Math.max(1,p.scale||1)+.09)+(p.skin??2);}
 function penetration(a,b){return radius(a)+radius(b)+gap(a,b)-Math.hypot(b.x-a.x,b.y-a.y);}
+// A large cluster can project onto just a few pixels during a camera flight.
+// Insert each circle at its current position when possible. If blocked, move
+// along one ray just far enough to leave every overlapping circle on it.
+function separatePile(particles,radii,dragged,spread){
+ const maxGap=particles.reduce((n,p)=>Math.max(n,p.contactGap??GAP),0);
+ const maxRadius=radii.reduce((n,r)=>Math.max(n,r),0),cell=Math.max(1,2*maxRadius+maxGap+.3),grid=new Map();
+ const order=[];
+ const fixed=particles.indexOf(dragged);if(fixed!==-1)order.push(fixed);
+ for(let i=0;i<particles.length;i++)if(i!==fixed&&particles[i].local)order.push(i);
+ for(let i=0;i<particles.length;i++)if(i!==fixed&&!particles[i].local)order.push(i);
+ let farRight=-Infinity;
+ for(let k=0;k<order.length;k++){
+  const i=order[k],p=particles[i],r=radii[i];let nx=0,ny=0;
+  for(let attempt=0;;attempt++){
+   const cx=Math.floor(p.x/cell),cy=Math.floor(p.y/cell);let advance=0;
+   for(let x=cx-1;x<=cx+1;x++)for(let y=cy-1;y<=cy+1;y++){
+    const bucket=grid.get(x)?.get(y);if(!bucket)continue;
+    for(const j of bucket){
+     const q=particles[j],dx=p.x-q.x,dy=p.y-q.y,dist2=dx*dx+dy*dy,required=r+radii[j]+gap(p,q);
+     if(required<=EPS||dist2>=(required-EPS)*(required-EPS))continue;
+     if(nx===0&&ny===0){
+      if(!spread&&dist2>1e-16){const d=Math.sqrt(dist2);nx=dx/d;ny=dy/d;}
+      // In a compressed cluster, distribute escape directions around the
+      // full circle so successive insertions cannot form a line of words.
+      else {const angle=i*2.399963229728653;nx=Math.cos(angle);ny=Math.sin(angle);}
+     }
+     const along=dx*nx+dy*ny;
+     advance=Math.max(advance,Math.sqrt(along*along+required*required-dist2)-along+EPS);
+    }
+   }
+   if(!advance)break;
+   // A straight ray exits each occupied circle at most once. Guard against
+   // floating-point stagnation for unusually large caller coordinates.
+   if(attempt>=k){p.x=farRight+r+maxGap+1;break;}
+   p.x+=nx*advance;p.y+=ny*advance;
+  }
+  const x=Math.floor(p.x/cell),y=Math.floor(p.y/cell);
+  if(!grid.has(x))grid.set(x,new Map());
+  const column=grid.get(x),bucket=column.get(y);
+  if(bucket)bucket.push(i);else column.set(y,[i]);
+  farRight=Math.max(farRight,p.x+r);
+ }
+}
 function resolve(particles,dragged=null,elastic=true,previousPositions=null,impactVelocities=null){
  const previousContacts=contactCache.get(particles)||new Set(),incoming=impactVelocities||particles.map(p=>({x:p.vx,y:p.vy}));
  const radii=particles.map(radius),weights=particles.map(p=>p===dragged?0:inverseMass(p));
- const nearby=()=>{const order=particles.map((p,i)=>({i,left:p.x-radii[i],right:p.x+radii[i]})).sort((a,b)=>a.left-b.left),pairs=[];for(let a=0;a<order.length;a++)for(let b=a+1;b<order.length&&order[b].left<=order[a].right+GAP+.3;b++){const i=Math.min(order[a].i,order[b].i),j=Math.max(order[a].i,order[b].i);if(Math.abs(particles[j].y-particles[i].y)<=radii[i]+radii[j]+GAP+.3)pairs.push([i,j]);}return pairs;};
- let solved=false;
- for(let iteration=0;iteration<80;iteration++){
+ const order=particles.map((p,i)=>({i,left:0,right:0}));
+ function nearby(detectPile=false){
+  for(const bounds of order){
+   const i=bounds.i,p=particles[i];bounds.left=p.x-radii[i];bounds.right=p.x+radii[i]+(p.contactGap??GAP)+.3;
+  }
+  order.sort((a,b)=>a.left-b.left||a.i-b.i);
+  const pairs=[];let deep=0;
+  for(let a=0;a<order.length;a++)for(let b=a+1;b<order.length&&order[b].left<=order[a].right;b++){
+   const i=Math.min(order[a].i,order[b].i),j=Math.max(order[a].i,order[b].i),p=particles[i],q=particles[j];
+   const required=radii[i]+radii[j]+gap(p,q),dy=q.y-p.y;
+   if(Math.abs(dy)>required+.3)continue;
+   if(detectPile){
+    // A shallow contact still gets its usual elastic response. Many deep
+    // intersections at once identify a pile before all pairs are allocated.
+    const dx=q.x-p.x,deepContact=required*.75;
+    if(dx*dx+dy*dy<deepContact*deepContact&&++deep>particles.length/2)return null;
+   }
+   pairs.push([i,j]);
+  }
+  return pairs;
+ }
+ const large=particles.length>=96,limit=large?16:80;
+ let candidates=nearby(large),solved=false;
+ // Crowds have an exact spatial fallback; avoid repeating the full solver
+ // dozens of times for a pile that keeps pushing its nearest contacts apart.
+ for(let iteration=0;candidates&&iteration<limit;iteration++){
   let worst=0;
-  for(const [i,j]of nearby()){
+  for(const [i,j]of candidates){
    const a=particles[i],b=particles[j];let dx=b.x-a.x,dy=b.y-a.y,d=Math.hypot(dx,dy);const overlap=radii[i]+radii[j]+gap(a,b)-d;if(overlap<=EPS)continue;worst=Math.max(worst,overlap);
    if(d<1e-9){const angle=i*2.399+j*.71;dx=Math.cos(angle);dy=Math.sin(angle);d=1;}
    const nx=dx/d,ny=dy/d,wa=a.local&&!b.local&&b!==dragged?0:weights[i],wb=b.local&&!a.local&&a!==dragged?0:weights[j],sum=wa+wb;if(!sum)continue;
    const correction=(overlap+EPS)/sum;a.x-=nx*correction*wa;a.y-=ny*correction*wa;b.x+=nx*correction*wb;b.y+=ny*correction*wb;
   }
   if(worst<=EPS){solved=true;break;}
+  if(iteration+1<limit)candidates=nearby();
  }
- if(!solved){
-  // Exact, deterministic recovery for cold starts and unusually dense piles.
-  const ordered=dragged?[dragged,...particles.filter(p=>p!==dragged)]:particles,placed=[];
-  for(const p of ordered){
-   const blocked=(x,y)=>placed.some(q=>Math.hypot(x-q.x,y-q.y)<radius(p)+radius(q)+gap(p,q)-EPS);
-   for(let attempt=0;attempt<160&&blocked(p.x,p.y);attempt++)for(const q of placed){const dx=p.x-q.x,dy=p.y-q.y,d=Math.hypot(dx,dy)||1;const overlap=radius(p)+radius(q)+gap(p,q)-d;if(overlap>0){p.x+=dx/d*(overlap+EPS);p.y+=dy/d*(overlap+EPS);}}
-   if(blocked(p.x,p.y)){
-    const ox=p.x,oy=p.y,spacing=Math.max(12,radius(p)*.5);let found=false;
-    for(let ring=1;ring<=32&&!found;ring++)for(let k=0;k<24;k++){const angle=k*Math.PI/12,x=ox+Math.cos(angle)*ring*spacing,y=oy+Math.sin(angle)*ring*spacing;if(!blocked(x,y)){p.x=x;p.y=y;found=true;break;}}
-    if(!found)p.x=Math.max(...placed.map(q=>q.x+radius(q)))+radius(p)+GAP+1;
-   }
-   placed.push(p);
-  }
- }
+ if(!solved){separatePile(particles,radii,dragged,!candidates);candidates=nearby();}
  // Position-based velocities remove the artificial energy of compressed springs.
  if(previousPositions)particles.forEach((p,i)=>{if(p!==dragged){const speed=p.maxSpeed??18;p.vx=clamp(p.x-previousPositions[i].x,-speed,speed);p.vy=clamp(p.y-previousPositions[i].y,-speed,speed);}});
  const contacts=new Set(),pairs=[];
- for(const[i,j]of nearby())if(penetration(particles[i],particles[j])>-.3){contacts.add(i*particles.length+j);pairs.push([i,j]);}
+ for(const[i,j]of candidates){
+  const a=particles[i],b=particles[j],dx=b.x-a.x,dy=b.y-a.y,reach=radii[i]+radii[j]+gap(a,b)+.3;
+  if(dx*dx+dy*dy<reach*reach){contacts.add(i*particles.length+j);pairs.push([i,j]);}
+ }
  for(let pass=0;pass<4;pass++)for(const[i,j]of pairs){
   const a=particles[i],b=particles[j],dx=b.x-a.x,dy=b.y-a.y,d=Math.hypot(dx,dy)||1,nx=dx/d,ny=dy/d,wa=a.local&&!b.local&&b!==dragged?0:weights[i],wb=b.local&&!a.local&&a!==dragged?0:weights[j],sum=wa+wb;
   const incomingNormal=(incoming[j].x-incoming[i].x)*nx+(incoming[j].y-incoming[i].y)*ny;

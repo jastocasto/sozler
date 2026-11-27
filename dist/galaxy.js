@@ -2,6 +2,7 @@
 (function(root){
 'use strict';
 const clamp=(v,a,b)=>Math.max(a,Math.min(b,v)),mix=(a,b,t)=>a+(b-a)*t,smooth=t=>t*t*(3-2*t);
+const baseGlyphRadius=36;
 function createAtlas(data,model){
  const regions=[...data.regions],clusters=[...data.clusters];
  const points=data.points.map(([word,x,y,z,cluster])=>({word,x,y,z,cluster,node:model.byWord.get(word),region:clusters[cluster].region}));
@@ -160,6 +161,33 @@ function area(area,width,height){
  return {x:area.x,y:area.y,z:area.z||0,zoom,angle:0,tilt:.24,roll:0};
 }
 function angleBetween(from,to,t){const delta=to-from;return from+Math.atan2(Math.sin(delta),Math.cos(delta))*t;}
+function makeWordFlight(from,point,source,target,width,height,start){
+ const home={x:point.x,y:point.y,z:point.z||0};
+ const anchor=unproject(source,from,width,height,home.z,home);
+ const pose=focus(home,1),depth=transform(pose,width,height)(home).depth;
+ // At arrival the atlas glyph and the foreground word have the same natural scale.
+ const to=aimAt({...pose,zoom:target.r/(baseGlyphRadius*depth)},home,target,width,height);
+ const logZoom=Math.log(to.zoom/from.zoom);
+ return {from:{...from},to,fromAnchor:anchor,anchor,home,sourceScreen:{x:source.x,y:source.y},
+  targetScreen:{x:target.x,y:target.y},sourceRadius:Math.max(.01,source.r),targetRadius:target.r,
+  logZoom,zoomAccent:Math.log(1.55)*clamp(1-Math.abs(logZoom)/Math.log(2.6),0,1),start,duration:1050};
+}
+function sampleWordFlight(flight,t,width,height){
+ if(t<=0)return {camera:flight.from,anchor:flight.fromAnchor,radius:flight.sourceRadius};
+ if(t>=1)return {camera:flight.to,anchor:flight.home,radius:flight.targetRadius};
+ const p=smooth(t),from=flight.from,to=flight.to;
+ // Equal-sized neighbours still get a forward rush and a gentle brake. A tap
+ // from the distant atlas already covers the full zoom range in its approach.
+ const rush=flight.zoomAccent*Math.sin(Math.PI*t)**2;
+ const zoom=from.zoom*Math.exp(flight.logZoom*p+rush);
+ const camera={...interpolateOrientation(from,to,p),x:mix(from.x,to.x,p),y:mix(from.y,to.y,p),z:mix(from.z||0,to.z||0,p),zoom};
+ // A satellite may have travelled far from its atlas home. Carry the point
+ // picked on screen to that home while keeping the chosen word in view.
+ const a=flight.fromAnchor,b=flight.home,anchor={x:mix(a.x,b.x,p),y:mix(a.y,b.y,p),z:mix(a.z,b.z,p)};
+ const screen={x:mix(flight.sourceScreen.x,flight.targetScreen.x,p),y:mix(flight.sourceScreen.y,flight.targetScreen.y,p)};
+ return {camera:aimAt(camera,anchor,screen,width,height),anchor,
+  radius:flight.sourceRadius*Math.exp(Math.log(flight.targetRadius/flight.sourceRadius)*p+rush)};
+}
 function makeFlight(from,to,width,height,now=0,reduced=false){
  const distance=Math.hypot(to.x-from.x,to.y-from.y),far=distance*Math.min(from.zoom,to.zoom)>Math.min(width,height)*.7;
  const valley=far?Math.min(from.zoom,to.zoom,Math.min(width,height)*.7/Math.max(distance,1)):Math.min(from.zoom,to.zoom);
@@ -183,21 +211,31 @@ function zoomAt(camera,screen,nextZoom,width,height,z=0,reference=camera){
 const noLines=Object.freeze([]);
 function glyphs(atlas,camera,width,height,screens=null,measure=null,buffer=null){
  const project=screens?p=>screens.get(p.word):transform(camera,width,height);
- const items=buffer?.visible||[];
+ const items=buffer?.visible||[],pad=110;
  let maxR=0,count=0;
  for(let i=0;i<atlas.points.length;i++){
   const point=atlas.points[i],cached=buffer?.glyphs[i],screen=cached?cached.screen:project(point);
-  if(screen.x< -110||screen.x>width+110||screen.y< -110||screen.y>height+110)continue;
+  if(screen.x< -pad||screen.x>width+pad||screen.y< -pad||screen.y>height+pad)continue;
   const glyph=cached||{point,screen};
-  glyph.r=clamp(36*camera.zoom*screen.depth,.65,48);
+  glyph.r=clamp(baseGlyphRadius*camera.zoom*screen.depth,.65,48);
   maxR=Math.max(maxR,glyph.r);items[count++]=glyph;
  }
  items.length=count;
  // Marks smaller than three pixels can share space without a collision pass.
  if(maxR<=3){for(const v of items){v.body=0;v.labelOpacity=0;v.fontSize=8.5;v.lines=noLines;}return items;}
- const cell=Math.max(4,maxR*2+6),grid=new Map(),key=(x,y)=>x+','+y;
- for(const v of items){v.cx=Math.floor(v.screen.x/cell);v.cy=Math.floor(v.screen.y/cell);const k=key(v.cx,v.cy);if(!grid.has(k))grid.set(k,[]);grid.get(k).push(v);}
- for(const v of items){let nearest=Infinity;for(let dx=-1;dx<=1;dx++)for(let dy=-1;dy<=1;dy++)for(const q of grid.get(key(v.cx+dx,v.cy+dy))||[]){if(q===v)continue;nearest=Math.min(nearest,Math.hypot(v.screen.x-q.screen.x,v.screen.y-q.screen.y));}
+ // Only cells inside the padded viewport can contain words. Include an
+ // empty column on either side so adjacent-cell lookups cannot wrap rows.
+ const cell=Math.max(4,maxR*2+6),columns=Math.ceil((width+2*pad)/cell)+3,grid=new Map();
+ for(const v of items){
+  v.cx=Math.floor(v.screen.x/cell);v.cy=Math.floor(v.screen.y/cell);
+  const key=v.cy*columns+v.cx,bucket=grid.get(key);
+  if(bucket)bucket.push(v);else grid.set(key,[v]);
+ }
+ for(const v of items){let nearest=Infinity;const key=v.cy*columns+v.cx;
+  for(let dx=-1;dx<=1;dx++)for(let dy=-1;dy<=1;dy++){
+   const bucket=grid.get(key+dy*columns+dx);if(!bucket)continue;
+   for(const q of bucket)if(q!==v)nearest=Math.min(nearest,Math.hypot(v.screen.x-q.screen.x,v.screen.y-q.screen.y));
+  }
   v.r=Math.min(v.r,nearest*.44);v.body=smooth(clamp((v.r-3)/12,0,1));v.labelOpacity=smooth(clamp((v.r-12)/10,0,1));
   if(v.labelOpacity>0){
    const label=fitLabel(v.point.word,v.r,clamp(v.r*.43,8.5,14),measure);
@@ -232,15 +270,41 @@ function crossesViewport(a,b,width,height,pad=0){
  }
  return true;
 }
-function connections(atlas,screens,filters,width,height,moving=new Set()){
- const stationary=[],dynamic=[];
- for(const edge of atlas.edges){if(!filters.has(edge.type))continue;
-  if(moving.has(edge.a.id)||moving.has(edge.b.id)){dynamic.push(edge);continue;}
-  const a=screens.get(edge.from.word),b=screens.get(edge.to.word);
-  if(a&&b&&crossesViewport(a,b,width,height,4))stationary.push({edge,a,b});
+// Camera frames update the same screen points in place. Bind each edge to its
+// two points once, and repartition it only when filters or moving words change.
+function connectionView(atlas,screens){
+ const segments=atlas.edges.map(edge=>({edge,a:screens.get(edge.from.word),b:screens.get(edge.to.word)}));
+ let previousFilters,previousMoving,previousGroup;
+ function matches(current,previous){
+  if(!previous||current.size!==previous.size)return false;
+  for(const value of current)if(!previous.has(value))return false;
+  return true;
  }
- return {stationary,dynamic};
+ function group(filters,moving){
+  if(matches(filters,previousFilters)&&matches(moving,previousMoving))return previousGroup;
+  const fixed=[],dynamic=[];
+  for(const segment of segments){
+   const {edge,a,b}=segment;
+   if(!filters.has(edge.type))continue;
+   if(moving.has(edge.a.id)||moving.has(edge.b.id))dynamic.push(edge);
+   else if(a&&b)fixed.push(segment);
+  }
+  previousFilters=new Set(filters);previousMoving=new Set(moving);
+  const visibleSegments=[];
+  previousGroup={dynamic,visible(width,height){
+   let count=0;
+   for(const segment of fixed)if(crossesViewport(segment.a,segment.b,width,height,4))visibleSegments[count++]=segment;
+   visibleSegments.length=count;
+   return visibleSegments;
+  }};
+  return previousGroup;
+ }
+ return {group};
+}
+function connections(atlas,screens,filters,width,height,moving=new Set()){
+ const group=connectionView(atlas,screens).group(filters,moving);
+ return {stationary:group.visible(width,height),dynamic:group.dynamic};
 }
 function blendColor(from,to,t){const rgb=h=>[1,3,5].map(i=>parseInt(h.slice(i,i+2),16)),a=rgb(from),b=rgb(to);return '#'+a.map((v,i)=>Math.round(mix(v,b[i],t)).toString(16).padStart(2,'0')).join('');}
-const api={createAtlas,transform,unproject,aimAt,orbit,dragOrbit,touchOrbit:dragOrbit,touchTurn,angleBetween,interpolateOrientation,overview,focus,area,makeFlight,sampleFlight,zoomAt,clamp,glyphs,labelLines,fitLabel,blendColor,crossesViewport,connections};if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.WordGalaxy=api;
+const api={createAtlas,transform,unproject,aimAt,orbit,dragOrbit,touchOrbit:dragOrbit,touchTurn,angleBetween,interpolateOrientation,overview,focus,area,makeWordFlight,sampleWordFlight,makeFlight,sampleFlight,zoomAt,clamp,glyphs,labelLines,fitLabel,blendColor,crossesViewport,connectionView,connections};if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.WordGalaxy=api;
 })(typeof window!=='undefined'?window:globalThis);

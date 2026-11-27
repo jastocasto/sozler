@@ -8,14 +8,18 @@
 .galaxy-studio #links .edge:not(.selected-edge) {
   opacity: var(--context-edge-opacity, .08);
 }
+.galaxy-studio #links .selected-edge {
+  stroke-width: var(--direct-edge-width, 4.05px);
+  opacity: calc(.95 * var(--arrival, 1) * var(--far-opacity, 1));
+}
 .galaxy-studio #links.tracing-relations .edge {
   opacity: calc(var(--context-edge-opacity, .08) * .5);
 }
 .galaxy-studio #links.tracing-relations .selected-edge {
-  opacity: .24;
+  opacity: calc(.24 * var(--arrival, 1) * var(--far-opacity, 1));
 }
 .galaxy-studio #links.tracing-relations .traced-edge {
-  opacity: 1;
+  opacity: var(--arrival, 1);
   stroke-width: 5px;
 }
 @media (prefers-reduced-motion: reduce) {

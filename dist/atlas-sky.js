@@ -154,6 +154,74 @@ function create(atlas, onCloudsReady) {
   }
   const beaconList = [...beacons.values()].sort((a,b)=>b.degree-a.degree).slice(0,56);
   const inks = palette.map(c => [css(mix(c,[118,146,201],.17)),css(mix(c,[214,240,245],.24)),css(mix(c,[244,247,233],.65))]);
+  const trailInks = palette.map(c => [`rgba(${c.join(',')},0)`, `rgba(${c.join(',')},.53)`, css(mix(c,[231,242,255],.7))]);
+  let lightFlight=null, tracks=[], afterglow=[], lastLit=-Infinity;
+
+  // Take bearings from real lights once per flight. The sparse frame at high
+  // zoom can still see dust along the bearings of the atlas's distant beacons.
+  function flightTracks(items, project, focus, width, height) {
+    const sectors=width<640?14:22, slots=new Array(sectors*2);
+    function sample(point,screen) {
+      const id=point.node.id, dx=screen.x-focus.x, dy=screen.y-focus.y, distance=Math.hypot(dx,dy);
+      if(id===focus.node.id || distance<5)return;
+      const unitX=dx/distance, unitY=dy/distance;
+      const angle=(Math.atan2(dy,dx)+TAU)%TAU;
+      const index=Math.floor(angle/TAU*sectors)*2+((id>>>2)&1);
+      const variation=(Math.imul(id+1,2654435761)>>>0)/4294967296;
+      const inside=screen.x>=0&&screen.x<=width&&screen.y>=0&&screen.y<=height;
+      const score=(inside?2:0)+stars[id]+variation*.35;
+      if(slots[index] && slots[index].score>=score)return;
+      const reach=toFrame(unitX,unitY,focus,width,height);
+      slots[index]={unitX,unitY,score,variation,ink:trailInks[point.region%palette.length],
+        phase:inside&&reach>0?clamp(distance/reach,.08,.93):.12+.76*variation,alpha:0};
+    }
+    for(const {p} of beaconList)sample(p,project(p));
+    const stride=Math.max(1,Math.ceil(items.length/480));
+    for(let i=0;i<items.length;i+=stride)sample(items[i].point,items[i].screen);
+    return slots.filter(Boolean);
+  }
+  function toFrame(dx,dy,focus,width,height) {
+    const x=dx>0?(width+12-focus.x)/dx:dx<0?(-12-focus.x)/dx:Infinity;
+    const y=dy>0?(height+12-focus.y)/dy:dy<0?(-12-focus.y)/dy:Infinity;
+    return Math.min(x,y);
+  }
+  function paintTrail(ctx,track,fade=1) {
+    const alpha=track.alpha*fade;
+    if(alpha<.008)return;
+    const {x,y,tailX,tailY,ink}=track;
+    const tint=ctx.createLinearGradient?.(tailX,tailY,x,y);
+    if(tint){tint.addColorStop(0,ink[0]);tint.addColorStop(.68,ink[1]);tint.addColorStop(1,ink[2]);}
+    ctx.strokeStyle=tint||ink[2];ctx.globalAlpha=alpha;ctx.lineWidth=track.weight;
+    ctx.beginPath();ctx.moveTo(tailX,tailY);ctx.lineTo(x,y);ctx.stroke();
+  }
+  function drawFlightTrails(ctx,items,project,focus,width,height,flight,now) {
+    if(!flight||!focus){lightFlight=null;tracks.length=afterglow.length=0;return;}
+    if(flight!==lightFlight){
+      afterglow=lightFlight&&now-lastLit<150?tracks:[];
+      tracks=flightTracks(items,project,focus,width,height);lightFlight=flight;
+    }
+    const elapsed=Math.max(0,now-flight.start),t=clamp(elapsed/flight.duration,0,1);
+    const speed=Math.sin(t*Math.PI)**2, travel=t-Math.sin(t*TAU)/TAU;
+    const aperture=Math.max(30,focus.r*1.5+8), longest=Math.min(116,Math.min(width,height)*.21);
+    ctx.save?.();ctx.lineCap='round';
+    for(const track of afterglow)paintTrail(ctx,track,clamp(1-elapsed/115,0,1));
+    if(elapsed>=115)afterglow.length=0;
+    for(const track of tracks){
+      const {unitX,unitY,variation}=track;
+      const reach=toFrame(unitX,unitY,focus,width,height);
+      const phase=(track.phase+travel*(.76+.43*variation))%1;
+      const distance=reach*phase;
+      const length=Math.min(distance-aperture,longest*speed*(.22+.78*phase)*(.75+.5*variation));
+      track.alpha=length<1?0:speed*(.43+.39*variation)*clamp(phase/.12,0,1)*clamp((1-phase)/.13,0,1);
+      if(!track.alpha)continue;
+      track.x=focus.x+unitX*distance;track.y=focus.y+unitY*distance;
+      track.tailX=track.x-unitX*length;track.tailY=track.y-unitY*length;
+      track.weight=.65+phase*(.6+.8*variation);
+      paintTrail(ctx,track);
+    }
+    if(ctx.restore)ctx.restore();else {ctx.globalAlpha=1;ctx.lineCap='butt';}
+    lastLit=now;
+  }
   // As an atlas point becomes a readable word, its region tint settles into charcoal.
   const wordColours = atlas.regions.map(region => {
     const tint = [1,3,5].map(start => parseInt(region.color.slice(start,start+2),16));
@@ -295,7 +363,7 @@ function create(atlas, onCloudsReady) {
     ctx.globalAlpha=1;
   }
 
-  return {drawClouds,drawStars,get cloudsReady(){ return clouds!==null; }};
+  return {drawClouds,drawStars,drawFlightTrails,get cloudsReady(){ return clouds!==null; }};
 }
 
 function pointOnLane(lane,t) {
