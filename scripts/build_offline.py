@@ -27,6 +27,29 @@ async function download(port){if(downloading){port?.postMessage({error:'Yükləm
  }catch(error){if(!current||current.cache!==CACHE)await caches.delete(CACHE);port?.postMessage({error:error.message});}finally{downloading=false;}
 }
 self.addEventListener('message',event=>{const port=event.ports[0];if(event.data?.type==='CACHE_APP')event.waitUntil(download(port));else if(event.data?.type==='STATUS')event.waitUntil(ready().then(r=>port?.postMessage({ready:!!r,version:r?.version,current:r?.version===VERSION})));});
+// A media player can probe just the first two bytes or seek into a downloaded clip.
+async function cachedAsset(cached,request,file){
+ const range=request.headers.get('Range');
+ if(!range||cached.status!==200||!file.startsWith('study-audio/')||!file.endsWith('.mp3'))return cached;
+ const validator=request.headers.get('If-Range');
+ if(validator&&(validator.startsWith('W/')||validator!==cached.headers.get('ETag')&&validator!==cached.headers.get('Last-Modified')))return cached;
+ const match=/^bytes=(\d*)-(\d*)$/i.exec(range.trim());
+ if(!match||!match[1]&&!match[2])return cached;
+ const clip=await cached.blob(),size=clip.size;
+ const start=match[1]?Number(match[1]):Math.max(0,size-Number(match[2]));
+ const end=match[1]&&match[2]?Math.min(size-1,Number(match[2])):size-1;
+ const headers=new Headers(cached.headers);
+ headers.delete('Content-Encoding');
+ headers.set('Accept-Ranges','bytes');
+ if(start>end||start>=size){
+  headers.set('Content-Range','bytes */'+size);
+  headers.set('Content-Length','0');
+  return new Response(null,{status:416,headers});
+ }
+ headers.set('Content-Range','bytes '+start+'-'+end+'/'+size);
+ headers.set('Content-Length',String(end-start+1));
+ return new Response(clip.slice(start,end+1),{status:206,headers});
+}
 // Prefer live HTML online. Offline packages remain immutable, coherent snapshots.
 self.addEventListener('fetch',event=>{const request=event.request,parsed=new URL(request.url);if(request.method!=='GET'||parsed.origin!==scope.origin||!parsed.pathname.startsWith(scope.pathname))return;
  event.respondWith((async()=>{
@@ -41,10 +64,10 @@ self.addEventListener('fetch',event=>{const request=event.request,parsed=new URL
    // A newer live page must never receive an older cached script with the same
    // filename. Legacy installed packages did not record their asset hashes.
    let hash=state.hashes?.[file];if(!hash){const bytes=await cached.clone().arrayBuffer();hash=Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',bytes))).map(n=>n.toString(16).padStart(2,'0')).join('');}
-   if(hash.startsWith(version))return cached;
+   if(hash.startsWith(version))return cachedAsset(cached,request,file);
    return fetch(request);
   }
-  try{const live=await fetch(request);if(live.ok)return live;if(cached)return cached;return live;}catch(error){if(cached)return cached;throw error;}
+  try{const live=await fetch(request);if(live.ok)return live;if(cached)return cachedAsset(cached,request,file);return live;}catch(error){if(cached)return cachedAsset(cached,request,file);throw error;}
  })());
 });
 '''.replace('__VERSION__',json.dumps(version)).replace('__ASSETS__',json.dumps(assets+['offline-package.json'])).replace('__HASHES__',json.dumps(hashes))

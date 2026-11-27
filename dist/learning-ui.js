@@ -1,6 +1,6 @@
 (function(root){
 'use strict';
-function mount({model,select,html}){
+function mount({model,select,html,onStudyAnswer}){
  const $=id=>document.getElementById(id),learning=root.WordLearning.createLearning(model,root.WORD_WEB_LEARNING),storageKey='soz-toxumasi:quiz:v1';
  let quiz=null,today=null,stats={best:0,rounds:0},storageAvailable=true;
  try{const stored=JSON.parse(localStorage.getItem(storageKey)||'null');if(stored&&Number.isInteger(stored.best)&&stored.best>=0&&stored.best<=10&&Number.isInteger(stored.rounds)&&stored.rounds>=0)stats=stored;}catch{}
@@ -37,6 +37,7 @@ function mount({model,select,html}){
  }
  function submit(word){
   const result=learning.answer(quiz,word);if(!result)return;
+  onStudyAnswer?.(result);
   const q=quiz.questions[quiz.index];for(const b of $('quizOptions').children){b.disabled=true;const correct=b.dataset.word===q.word;b.classList.toggle('correct',correct);b.classList.toggle('incorrect',!result.correct&&b.dataset.word===word);if(correct||b.dataset.word===word){const mark=html('span','answer-mark',correct?'✓':'×');mark.setAttribute('aria-hidden','true');b.append(mark);b.setAttribute('aria-label',b.dataset.word+(correct?' — düzgün cavab':' — seçdiyin cavab, səhv'));}}
   const feedback=$('quizFeedback');feedback.hidden=false;feedback.classList.toggle('is-correct',result.correct);feedback.append(html('strong','',result.correct?'Doğrudur.':'Bu dəfə alınmadı. Düzgün cavab: '+q.word));
   const az=html('p','',q.az),en=html('p','',q.en);az.lang='az';en.lang='en';feedback.append(az,en);

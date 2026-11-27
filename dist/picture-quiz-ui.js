@@ -2,7 +2,7 @@
 (function(root){
 'use strict';
 const SVG='http://www.w3.org/2000/svg',storageKey='soz-toxumasi:picture-quiz:v1';
-function mount({model,html,onMap}){
+function mount({model,html,onMap,onStudyAnswer}){
  const $=id=>document.getElementById(id),page=$('pictureQuizPage'),data=root.WORD_WEB_PICTURES;
  let engine=null;
  try{engine=root.PictureQuiz.createPictureQuiz(model,data);}catch(error){console.error(error);}
@@ -61,6 +61,7 @@ function mount({model,html,onMap}){
  }
  function submit(word){
   const result=engine.answer(quiz,word);if(!result)return;
+  onStudyAnswer?.(result);
   const q=quiz.questions[quiz.index];
   for(const b of $('pictureOptions').children){
    b.disabled=true;const correct=b.dataset.word===q.answer.word,chosen=b.dataset.word===word;

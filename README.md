@@ -6,6 +6,18 @@ The [original Söz Xəritəsi project](archive/sozler/) is preserved as it appea
 
 Söz Toxuması is an interactive 3D atlas of **90,856 Azerbaijani headwords and 147,558 documented word connections**. Start with the region map, follow a connection between two words, or search for a headword and open its Azerbaijani and English definitions. The daily word, quiz, dictionary, saved words and grammar tools are also available from the desktop and mobile interface.
 
+## Personal study
+
+**Məşq** opens the daily study desk at `#study`. The routine is built for advanced Azerbaijani listening, reading and speaking. It starts at 20 minutes, follows the Baku calendar, and can become the preferred start screen in **Settings & backup**.
+
+- **Today** rotates guided Söhbətgah and Əkinçi activities and prioritises due reviews. New word suggestions draw on the learner’s bookmarks, documented word connections, interview vocabulary and the frequency-ranked atlas.
+- **My words** supports four self-ratings, personal source phrases, timestamps and direct practice. Studying a word or answering a dictionary or picture quiz begins its history. An untouched headword has an unassessed status. Existing atlas bookmarks are available to add.
+- **Listening desk** opens the publishers’ original programmes, or loops a passage from a local audio/video file at an adjustable speed. The structured listening exercises include 16 human-read Azerbaijani recordings from nine Common Voice contributors. Source and CC0 attribution accompany the recordings. There are 33 contextual lessons in seven skills, including interpreting implied meaning and reconstructing a phrase.
+- **Progress** distinguishes first-pass listening, supported answers, recall and independently self-checked sentence use. It reports daily activity, grammar practice, and coverage of the full dictionary and the most frequent words. The learner controls the proficiency rating.
+- Personal records stay in browser storage. **Download backup** and **Restore from file** move a versioned JSON journal between devices and merge repeated imports. Media files are selected separately. The completed offline package includes the study interface, lesson bank and volunteer recordings. Publisher video links require connectivity.
+
+The method draws on evidence for spaced language practice, retrieval and combining comprehension and production. The review intervals are application choices. [Kim & Webb](https://doi.org/10.1111/lang.12479) · [Karpicke & Roediger](https://pubmed.ncbi.nlm.nih.gov/18276894/) · [Shintani, Li & Ellis](https://doi.org/10.1111/lang.12001)
+
 ## Fast loading, word forms, frequency and word origins (November 2026)
 
 **Loading.** The page no longer downloads the 17 data layers (about 96 MB of JavaScript) or runs `createModel` in the browser. `scripts/build_runtime.cjs` runs `createModel` once at build time and writes:

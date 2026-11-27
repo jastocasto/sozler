@@ -32,7 +32,7 @@ const posNames={word:'söz',noun:'isim',verb:'fel',adjective:'sifət',function:'
 let saved;try{saved=new Set(JSON.parse(localStorage.getItem('soz-toxumasi:saved')||'[]').filter(w=>model.allByWord.has(w)).map(w=>model.aliases[w]||w));}catch{saved=new Set();}
 const state={selected:null,filters:new Set(Object.keys(types)),history:[],arrival:null,searchItems:[],searchIndex:0,libraryMode:'all',libraryLimit:60};
 let conjugation=null,pictureQuiz=null,activePage='map',returnHash='',routeOpening=false;
-let race=null,morphology=null;
+let race=null,morphology=null,personalStudy=null,studyDesk=null;
 let galaxy=null,sheetOpen=false,sheetGesture=null,suppressSheetClick=false,currentRegion=null,currentCluster=null;
 const motionKey='soz-toxumasi:motion',motionControl=$('motionPreference');
 function motionChoice(value){
@@ -93,7 +93,7 @@ function preview(n){
 let toastTimeout;function toast(message){$('toast').textContent=message;$('toast').classList.add('show');clearTimeout(toastTimeout);toastTimeout=setTimeout(()=>$('toast').classList.remove('show'),2600);}
 function closeMenu(){if($('menuDialog').open||$('menuDialog').hasAttribute('open'))$('menuDialog').close();}
 function openDialog(id){closeMenu();$(id).showModal();}
-function setSheet(open){if(!open&&$('sheetExtra').contains(document.activeElement))$('sheetToggle').focus({preventScroll:true});sheetOpen=open;$('meaningCard').dataset.expanded=String(open);$('sheetToggle').setAttribute('aria-expanded',String(open));$('sheetExtra').hidden=!open;$('sheetToggle').setAttribute('aria-label',state.selected?.w+(open?' — tam izahı bağla':' — tam izahı aç'));}
+function setSheet(open){if(open&&state.selected)showStudyRating();if(!open&&$('sheetExtra').contains(document.activeElement))$('sheetToggle').focus({preventScroll:true});sheetOpen=open;$('meaningCard').dataset.expanded=String(open);$('sheetToggle').setAttribute('aria-expanded',String(open));$('sheetExtra').hidden=!open;$('sheetToggle').setAttribute('aria-label',state.selected?.w+(open?' — tam izahı bağla':' — tam izahı aç'));}
 $('sheetToggle').onclick=()=>{if(suppressSheetClick){suppressSheetClick=false;return;}setSheet(!sheetOpen);};
 $('sheetToggle').addEventListener('pointerdown',e=>{sheetGesture={id:e.pointerId,y:e.clientY,open:sheetOpen};suppressSheetClick=false;$('sheetToggle').setPointerCapture?.(e.pointerId);});
 $('sheetToggle').addEventListener('pointermove',e=>{if(!sheetGesture||sheetGesture.id!==e.pointerId)return;const delta=e.clientY-sheetGesture.y;if(Math.abs(delta)>24){suppressSheetClick=true;setSheet(delta<0);}});
@@ -250,7 +250,7 @@ function renderMeaning(n){
 }
 
 function select(n,record=true,writeHash=true,viaEdge=null,initial=false,source='ordinary'){
- if(!n)return;const note=state.pendingForm;state.pendingForm=null;state.searchedForm=note&&note.node===n?note:null;if(race?.blocking&&!race.allow(n.w,source))return;if(activePage==='grammar')showMap(false);const previous=state.selected;state.arrival=null;
+ if(!n)return;const note=state.pendingForm;state.pendingForm=null;state.searchedForm=note&&note.node===n?note:null;if(race?.blocking&&!race.allow(n.w,source))return;if(activePage==='grammar'||activePage==='study')showMap(false);const previous=state.selected;state.arrival=null;
  if(previous&&previous.id!==n.id){const relation=viaEdge?{edge:viaEdge}:model.related(previous).find(x=>x.node.id===n.id);if(relation)state.arrival={from:previous.w,type:relation.edge.type,edge:relation.edge};if(record)state.history.push(previous.id);}
  state.selected=n;if(!initial)document.querySelector('.galaxy-studio').dataset.hasWord='true';if(writeHash)history.replaceState(null,'','#w='+encodeURIComponent(n.w));
  if(textStatus==='failed'&&navigator.onLine!==false)loadText();
@@ -364,9 +364,46 @@ for(const d of document.querySelectorAll('dialog'))d.addEventListener('click',e=
 
 const archiveNodes=['grammarIntro','librarySearch','libraryMeta','libraryList','loadMore'];
 function restoreLibrary(){for(const id of archiveNodes)if($(id).parentElement!==$('libraryDialog'))$('libraryDialog').append($(id));}
-function showMap(writeRoute=true){const restoreFocus=$('conjugationPage').contains(document.activeElement)||$('pictureQuizPage').contains(document.activeElement);conjugation?.close();pictureQuiz?.close();activePage='map';$('conjugationPage').hidden=true;$('pictureQuizPage').hidden=true;document.querySelector('.galaxy-studio').hidden=false;document.title='SÖZ — Söz kainatı';restoreLibrary();galaxy?.setPageHidden(false);if(restoreFocus)$('menuButton').focus?.({preventScroll:true});if(writeRoute)history.replaceState(null,'',returnHash||'#w='+encodeURIComponent(state.selected?.w||'gözəl'));}
+function showMap(writeRoute=true){const fromStudy=activePage==='study';if(fromStudy){studyDesk?.close();$('studyPage').hidden=true;}const restoreFocus=$('conjugationPage').contains(document.activeElement)||$('pictureQuizPage').contains(document.activeElement);conjugation?.close();pictureQuiz?.close();activePage='map';$('conjugationPage').hidden=true;$('pictureQuizPage').hidden=true;document.querySelector('.galaxy-studio').hidden=false;document.title='SÖZ — Söz kainatı';restoreLibrary();galaxy?.setPageHidden(false);if(fromStudy)$('studyButton').focus?.({preventScroll:true});else if(restoreFocus)$('menuButton').focus?.({preventScroll:true});if(writeRoute)history.replaceState(null,'',returnHash||'#w='+encodeURIComponent(state.selected?.w||'gözəl'));}
+function studyStore(){return personalStudy||(personalStudy=window.SozStudyUI.createStore(model));}
+function showStudyRating(){
+ const r=studyStore().word(state.selected.w),control=$('mapStudyLevel');
+ const value=r?.rating==null?'':String(r.rating);
+ control.querySelectorAll('option').forEach(o=>{o.selected=o.getAttribute('value')===value;});
+}
+$('mapStudyLevel').addEventListener('change',()=>{
+ if(race?.blocking||!state.selected)return;
+ const value=$('mapStudyLevel').value;
+ studyStore().rateWord(state.selected.w,value===''?null:Number(value));
+ toast(studyStore().status().persistent?'Şəxsi qiymətləndirmə saxlanıldı.':'Dəyişiklik bu sessiyadadır. Şəxsi məşqdən ehtiyat nüsxə yüklə.');
+});
+function mapFromStudy(word){
+ const node=model.resolveWord(word);if(!node)return;
+ const hash='#w='+encodeURIComponent(node.w);
+ (history.pushState||history.replaceState).call(history,null,'',hash);
+ showMap(false);select(node,true,false);
+}
+function openStudy(screen='today',writeRoute=true,replace=false){
+ if(race?.blocking){toast('Yarışı bitirdikdən sonra şəxsi məşqi aça bilərsiniz.');return;}
+ if(!studyDesk)studyDesk=window.SozStudyUI.mount({study:studyStore(),model,savedWords:()=>saved,openWord:mapFromStudy,navigate:(next,replace=false)=>openStudy(next,true,replace)});
+ if(activePage!=='study'){
+  if(activePage==='map')returnHash=window.SozStudyUI.readRoute(location.hash)?'#':location.hash||'#';
+  closeMenu();closeSearch();for(const d of document.querySelectorAll('dialog[open]'))d.close();
+  if(activePage==='pictures'){pictureQuiz?.close();$('pictureQuizPage').hidden=true;}
+  if(activePage==='grammar'){conjugation?.close();$('conjugationPage').hidden=true;restoreLibrary();}
+  activePage='study';galaxy?.setPageHidden(true);document.querySelector('.galaxy-studio').hidden=true;$('studyPage').hidden=false;
+ }
+ const hash=window.SozStudyUI.routeHash(screen);
+ if(writeRoute&&location.hash!==hash)(replace?history.replaceState:history.pushState||history.replaceState).call(history,{page:'study'},'',hash);
+ studyDesk.open(screen);
+}
+for(const [id,screen] of [['studyButton','today'],['menuStudyButton','today'],['mapStudyLibrary','words']]){
+ $(id).addEventListener('click',e=>{if(e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;e.preventDefault();openStudy(screen);});
+}
+$('studyBack').addEventListener('click',e=>{if(e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;e.preventDefault();showMap(true);});
 function openGrammar(query='',writeRoute=true,config={}){
  if(race?.blocking){toast('Yarışı bitirdikdən sonra qrammatikanı aça bilərsiniz.');return;}
+ if(activePage==='study')showMap(false);
  closeMenu();closeSearch();if($('libraryDialog').hasAttribute('open'))$('libraryDialog').close();
  if(activePage==='pictures'){pictureQuiz?.close();$('pictureQuizPage').hidden=true;}
  if(activePage==='map'){returnHash=location.hash.startsWith('#grammar=')?'#w='+encodeURIComponent(state.selected?.w||'gözəl'):location.hash;if(writeRoute)(history.pushState||history.replaceState).call(history,{page:'grammar'},'','#grammar='+encodeURIComponent(query||'qaçmaq'));}
@@ -383,6 +420,7 @@ for(const id of ['conjugationBack','conjugationBrand'])$(id).onclick=e=>{e.preve
 function openPictures(writeRoute=true){
  if(!pictureQuiz){if(textStatus==='failed')loadText();if(writeRoute)toast('Şəkillər hazırlanır, bir anlıq gözləyin…');return;}
  if(race?.blocking){toast('Yarışı bitirdikdən sonra şəkilli sınağı aça bilərsiniz.');if(location.hash==='#sekil')history.replaceState(null,'','#w='+encodeURIComponent(state.selected.w));return;}
+ if(activePage==='study')showMap(false);
  closeMenu();closeSearch();for(const d of document.querySelectorAll('dialog[open]'))d.close();
  if(activePage==='grammar'){conjugation?.close();$('conjugationPage').hidden=true;restoreLibrary();}
  if(activePage==='map')returnHash=location.hash.startsWith('#sekil')?'#w='+encodeURIComponent(state.selected?.w||'gözəl'):location.hash;
@@ -391,7 +429,19 @@ function openPictures(writeRoute=true){
  pictureQuiz.open();
 }
 for(const id of ['pictureBack','pictureBrand'])$(id).onclick=e=>{e.preventDefault();showMap(true);$('menuButton').focus?.({preventScroll:true});};
-function route(){if(race?.blocking){history.replaceState(null,'','#w='+encodeURIComponent(state.selected.w));return;}if(location.hash==='#sekil'){openPictures(false);return;}const g=readGrammarRoute();if(g){openGrammar(g.word,false,g);return;}if(activePage!=='map')showMap(false);const n=fromHash();if(n){if(n!==state.selected)select(n,false,false);}else if(model.formsByWord.has(hashWord()))library(model.archiveMode(hashWord()),hashWord());}
+function route(){
+ if(race?.blocking){history.replaceState(null,'','#w='+encodeURIComponent(state.selected.w));return;}
+ const studyRoute=window.SozStudyUI.readRoute(location.hash);
+ if(studyRoute){openStudy(studyRoute,false);return;}
+ if(location.hash==='#sekil'){openPictures(false);return;}
+ const g=readGrammarRoute();if(g){openGrammar(g.word,false,g);return;}
+ if(activePage!=='map')showMap(false);
+ const n=fromHash();
+ if(n){
+  // An overview can already have this word selected without showing its card.
+  if(n!==state.selected||document.querySelector('.galaxy-studio').dataset.mapView!=='word')select(n,false,false);
+ }else if(model.formsByWord.has(hashWord()))library(model.archiveMode(hashWord()),hashWord());
+}
 function hashWord(){try{return decodeURIComponent(location.hash.replace(/^#w=/,''));}catch{return '';}}
 function fromHash(){return model.resolveWord(hashWord());}
 window.addEventListener('hashchange',route);window.addEventListener('popstate',route);
@@ -408,15 +458,23 @@ conjugation=window.ConjugationUI.mount({model,onChange:writeGrammarRoute,onMap:w
 try{morphology=window.SozMorphology.create({model,normalize,engine:conjugation.engine,verbs:conjugation.dictionary.verbs,english:window.ConjugationEnglish,englishData:window.CONJUGATION_ENGLISH_DATA});}catch(error){console.warn('Word-form analysis is unavailable',error);}
 // The picture quiz and the daily word/quiz read definitions when they start,
 // so they start once soz-text.json has arrived (at once in tests).
+function recordQuizRecognition(answer){
+ // Both existing games score one visible multiple-choice response per question.
+ const head=model.resolveWord(answer.word);
+ if(head)studyStore().record({kind:'word',key:head.w,channel:'recognize',correct:answer.correct});
+}
 function mountTextModules(){
- pictureQuiz=window.PictureQuizUI.mount({model,html,onMap:word=>{history.replaceState(null,'','#w='+encodeURIComponent(word));showMap(false);select(model.byWord.get(word));}});
- window.LearningUI.mount({model,select,html});
+ pictureQuiz=window.PictureQuizUI.mount({model,html,onStudyAnswer:recordQuizRecognition,onMap:word=>{history.replaceState(null,'','#w='+encodeURIComponent(word));showMap(false);select(model.byWord.get(word));}});
+ window.LearningUI.mount({model,select,html,onStudyAnswer:recordQuizRecognition});
  if(location.hash==='#sekil')openPictures(false);
 }
 $('pictureQuizButton').onclick=()=>openPictures(true);
 const initialGrammar=readGrammarRoute();
 const initialWord=hashWord(),initialNode=fromHash();select(initialNode||model.byWord.get('gözəl'),false,!!initialNode,null,!initialNode);if(!initialNode&&model.formsByWord.has(initialWord))library(model.archiveMode(initialWord),initialWord);
 if(initialGrammar)openGrammar(initialGrammar.word,false,initialGrammar);
+const initialStudy=window.SozStudyUI.readRoute(location.hash);
+if(initialStudy)openStudy(initialStudy,false);
+else if(!location.hash&&!location.href?.endsWith('#')&&studyStore().settings().startPage==='today')openStudy('today',true,true);
 if(model.textLoaded())mountTextModules();
 race=window.RaceUI.mount({model,galaxy,select,resetHistory:()=>{state.history=[];},prepareMap:()=>{const previous=new Set(state.filters);state.filters=new Set(Object.keys(types));visibleFilters();galaxy?.setFilters(state.filters);return ()=>{state.filters=previous;visibleFilters();detail();galaxy?.setFilters(state.filters);};},selected:()=>state.selected?.w,toast,html});
 // Vercel Web Analytics: anonymous page-view counts, no cookies. Only on the deployed site.
