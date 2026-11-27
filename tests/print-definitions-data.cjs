@@ -20,17 +20,30 @@ for (const n of before.nodes) assert.equal(m.byWord.get(n.w).id, n.id, n.w + ' p
 
 // Existing definitions are untouched; new ones fill only empty spelling entries.
 let filled = 0;
+const edition = w.WORD_WEB_VERIFICATION.dictionaryEdition;
+const revised = new Map(edition.revisions.map(row => [row.word, row]));
+let laterReviews = 0;
 for (const n of before.nodes) {
   const after = m.byWord.get(n.w), had = n.az?.trim() && n.en?.trim();
-  if (had) { assert.equal(after.az, n.az, n.w); assert.equal(after.en, n.en, n.w); assert(!after.definitionMethod, n.w + ' keeps its reviewed definition'); continue; }
+  if (had) {
+    assert.equal(after.az, n.az, n.w); assert.equal(after.en, n.en, n.w);
+    assert.equal(after.definitionMethod, n.definitionMethod, n.w + ' keeps its reviewed definition');
+    if (layer.definitions[n.w]) {
+      const review = revised.get(n.w);
+      assert(review, n.w + ' has a documented later review');
+      assert.equal(after.az, review.az); assert.equal(after.en, review.en);
+      laterReviews++;
+    }
+    continue;
+  }
   if (!layer.definitions[n.w]) continue;
   filled++;
   assert(n.orthographyPage, n.w + ' is a spelling entry');
   assert(after.az.trim() && after.en.trim() && !after.special, n.w + ' now defined');
   assert(METHODS.has(after.definitionMethod), n.w);
 }
-assert.equal(filled, Object.keys(layer.definitions).length, 'every layer definition is used');
-assert.equal(filled, attribution.summary.definitions);
+assert.equal(filled + laterReviews, Object.keys(layer.definitions).length, 'every print definition is accounted for');
+assert.equal(filled + laterReviews, attribution.summary.definitions);
 for (const [word, d] of Object.entries(layer.definitions)) {
   assert(METHODS.has(d.method), word);
   assert(POS.has(d.pos), word + ' ' + d.pos);
@@ -65,6 +78,13 @@ const latestSection = report.match(/<section id="latest-words"[^>]*>([\s\S]*?)<\
 assert(latestSection, 'the report links to the newest definitions');
 const latestWords = Array.from(latestSection[1].matchAll(/href="\.\/#w=([^"]+)"/g), match => decodeURIComponent(match[1]));
 assert.deepEqual(latestWords.sort(), Object.keys(newestEntries).sort());
+const reviewedSource = JSON.parse(fs.readFileSync('scripts/content/verification/dictionary-edition.json', 'utf8'));
+if (reviewedSource.supplement === newestSupplement) {
+  const themed = report.match(/<section id="edition-words"[^>]*>([\s\S]*?)<\/section>/);
+  assert(themed, 'the themed dictionary entries are linked from their release');
+  const linked = Array.from(themed[1].matchAll(/href="\.\/#w=([^"]+)"/g), match => decodeURIComponent(match[1]));
+  assert.deepEqual(linked, [...reviewedSource.entries,...reviewedSource.revisions].map(entry => entry.word));
+}
 for (const field of ['headwords', 'missing', 'formation-only', 'needs-review']) {
   const shown = report.match(new RegExp('data-coverage="' + field + '">([^<]+)<'));
   assert(shown, 'missing coverage report field ' + field);
@@ -188,5 +208,8 @@ assert(!edge('transport', 'port', 'topic') && !edge('transport', 'trans', 'topic
 const degree = model => { const d = new Map(); for (const e of model.edges) { d.set(e.a.w, 1); d.set(e.b.w, 1); } return model.nodes.filter(n => !d.has(n.w)).length; };
 const isolatedBefore = degree(before), isolatedAfter = degree(m);
 assert(isolatedAfter < isolatedBefore, 'fewer isolated words');
-assert.equal(attribution.summary.isolated_after, isolatedAfter);
+const editionWords = new Set(edition.entries.map(row => row.word));
+const editionLinks = new Set(edition.edges.map(([a,b,type]) => pairKey(a,b) + '|' + type));
+assert.equal(attribution.summary.isolated_after, degree({nodes:m.nodes.filter(n => !editionWords.has(n.w)),
+  edges:m.edges.filter(e => !editionLinks.has(pairKey(e.a.w,e.b.w) + '|' + e.type))}), 'print attribution covers the graph before the later edition');
 console.log(`PASS ${filled} new cited definitions (${Object.entries(attribution.summary.definitions_by_method).map(([k, v]) => v + ' ' + k).join(', ')}), ${layer.edges.length} new links; isolated words ${isolatedBefore} → ${isolatedAfter}; reviewed text, identities and blocks preserved.`);

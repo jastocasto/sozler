@@ -9,12 +9,14 @@ README = ROOT / 'README.md'
 summary = json.loads((ROOT / 'dist/print-definitions-attribution.json').read_text())['summary']
 methods = summary['definitions_by_method']
 n = lambda value: f'{value:,}'
-total = 90849
+counts = json.loads((ROOT / 'dist/word-count.json').read_text())
+total = counts['headwords']
+spellings = counts['orthography_entries']
 section = f'''## Headword count and print-dictionary definitions
 
-The atlas has **{n(total)} headwords** (`dist/word-count.json`): {n(total - 68642)} dictionary entries with fixed atlas positions and 68,642 further spellings from the 2021 orthography dictionary (*Azərbaycan dilinin orfoqrafiya lüğəti*, 7th edition), placed in the topic or word-formation group of their meaning or base word. The orthography dictionary lists spellings only, so most of those entries started without a meaning, and many had no connection.
+The atlas has **{n(total)} headwords**. The published counts include {n(total - spellings)} dictionary entries with fixed atlas positions and {n(spellings)} further spellings from the 2021 orthography dictionary (*Azərbaycan dilinin orfoqrafiya lüğəti*, 7th edition), placed in the topic or word-formation group of their meaning or base word. The orthography dictionary lists spellings only, so most of those entries started without a meaning, and many had no connection.
 
-`dist/print-definitions.js` adds **{n(summary['definitions'])} definitions** to headwords that had none, and **{n(summary['links'])} cited links**. Headwords without any definition fell from {n(summary['undefined_before'])} to {n(summary['undefined_after'])}; headwords without any connection fell from {n(summary['isolated_before'])} to {n(summary['isolated_after'])}. Existing reviewed definitions, relations, block lists, identities and atlas positions are unchanged. Every new definition has a method label in the definition sheet:
+The print layer contributes **{n(summary['definitions'])} bilingual definitions** and **{n(summary['links'])} cited links**. At that stage of the build, the number of headwords without a definition falls from {n(summary['undefined_before'])} to {n(summary['undefined_after'])}. The number without a connection falls from {n(summary['isolated_before'])} to {n(summary['isolated_after'])}. A later dictionary review can add an attested expression or refine an older gloss. The definition sheet identifies the source and method for each entry.
 
 - **{n(methods.get('paraphrase', 0))} paraphrases** (*Lüğət əsasında süni intellekt dəstəyi ilə yazılmış izah*): new Azerbaijani and English wording of the primary sense in *Azərbaycan dilinin izahlı lüğəti* (2006, four volumes), Musayev's *Azərbaycanca–İngiliscə lüğət*, or the 2007 *Azərbaycan dilinin dialektoloji lüğəti*, citing the PDF page. Regional definitions name their locality. Paraphrases sharing six or more consecutive words with the print entry are rejected; print prose is cited, not republished. {n(summary['low_confidence_paraphrases'])} paraphrases written from thin or garbled evidence are marked *yoxlanılmalıdır / needs review*.
 - **{n(methods.get('derivation', 0))} derivation notes**: the explanatory dictionary states the formation (`"Abadlaşdırmaq"dan f.is.`), so the word gets a verbal-noun, passive, causative, participle or diminutive definition and a root link to its base.
@@ -41,7 +43,9 @@ The [verification report](dist/verification-report.html) shows whole-atlas cover
 Paraphrases and AI-written definitions are editorial text under CC BY-SA 4.0, kept in `scripts/content/print-definitions/paraphrases/` and `scripts/content/print-definitions/authored/`; method, sources and hashes are in `dist/print-definitions-attribution.json`. This is not native-speaker verification.
 
 '''
-text = README.read_text()
+text = re.sub(r'\*\*[\d,]+ Azerbaijani headwords and [\d,]+ documented word connections\*\*',
+              f"**{n(total)} Azerbaijani headwords and {n(counts['connections'])} documented word connections**",
+              README.read_text(), count=1)
 pattern = re.compile(r'## Headword count and print-dictionary definitions\n.*?(?=\n## )', re.S)
 if pattern.search(text):
     text = pattern.sub(section.rstrip('\n') + '\n', text)

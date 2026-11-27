@@ -85,6 +85,11 @@ def audit(dist, output=None, candidates=None):
     return {'headwords': len(words), **{state: counts[state] for state in STATES}}
 
 
+def word_list(words):
+    items = (f'<li><a href="./#w={quote(word, safe="")}">{escape(word)}</a></li>' for word in words)
+    return '<ul>\n' + '\n'.join(items) + '\n</ul>\n'
+
+
 def update_report(dist, counts):
     report = dist / 'verification-report.html'
     html = report.read_text()
@@ -100,15 +105,27 @@ def update_report(dist, counts):
         raw = (ROOT / 'scripts/content/print-definitions/meanings' / name).read_bytes()
         if hashlib.sha256(raw).hexdigest() != releases[name]:
             raise ValueError(f'Published definitions differ from {name}')
-        items = '\n'.join(
-            f'<li><a href="./#w={quote(word, safe="")}">{escape(word)}</a></li>'
-            for word in json.loads(raw)
-        )
         latest = (
-            '<section id="latest-words" aria-labelledby="latest-heading">\n'
+            '<section id="latest-words" class="word-lists" aria-labelledby="latest-heading">\n'
             '<h2 id="latest-heading">Son əlavə olunan izahlar · <span lang="en">Latest definitions</span></h2>\n'
-            f'<ul>\n{items}\n</ul>\n</section>\n'
+            + word_list(json.loads(raw)) + '</section>\n'
         )
+        edition_file = ROOT / 'scripts/content/verification/dictionary-edition.json'
+        if edition_file.is_file():
+            raw_edition = edition_file.read_bytes()
+            edition = json.loads(raw_edition)
+            if edition.get('supplement') == name:
+                published = json.loads((dist / 'verification-attribution.json').read_text())['dictionary_edition']
+                if published['source_sha256'] != hashlib.sha256(raw_edition).hexdigest():
+                    raise ValueError('The reviewed dictionary edition differs from the published source')
+                latest += (
+                    '<section id="edition-words" class="word-lists" aria-labelledby="edition-heading">\n'
+                    f'<h2 id="edition-heading">{escape(edition["titleAz"])} · '
+                    f'<span lang="en">{escape(edition["titleEn"])}</span></h2>\n'
+                    '<h3>Yeni sözlər və ifadələr</h3>\n' + word_list(row['word'] for row in edition['entries'])
+                    + '<h3>Yenilənmiş izahlar</h3>\n' + word_list(row['word'] for row in edition['revisions'])
+                    + '</section>\n'
+                )
     start = '<!-- latest definitions -->'
     end = '<!-- end latest definitions -->'
     if html.count(start) != 1 or html.count(end) != 1 or html.index(start) > html.index(end):

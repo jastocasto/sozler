@@ -47,30 +47,30 @@
  },
  "summary": {
   "undefined_before": 63985,
-  "undefined_after": 994,
+  "undefined_after": 979,
   "isolated_before": 30802,
-  "isolated_after": 5762,
-  "definitions": 62991,
+  "isolated_after": 5755,
+  "definitions": 63006,
   "definitions_by_method": {
    "authored": 10851,
    "cross-reference": 413,
    "derivation": 3604,
-   "meaning": 13708,
+   "meaning": 13772,
    "paraphrase": 18162,
-   "rule": 16253
+   "rule": 16204
   },
   "low_confidence_paraphrases": 752,
-  "links": 39508,
+  "links": 39691,
   "stats": {
    "definitions:authored": 10851,
    "definitions:cross-reference": 413,
    "definitions:derivation": 3604,
-   "definitions:meaning": 13708,
+   "definitions:meaning": 13772,
    "definitions:paraphrase": 18162,
-   "definitions:rule": 16253,
+   "definitions:rule": 16204,
    "links:bilingual-cross-reference": 897,
    "links:combining": 2363,
-   "links:compound": 17716,
+   "links:compound": 17704,
    "links:compound-print": 396,
    "links:cross-reference": 150,
    "links:cross-reference-lead": 157,
@@ -81,7 +81,7 @@
    "links:dialect-sense": 93,
    "links:inflected-form": 88,
    "links:loan-family": 1051,
-   "links:meaning-sense": 1408,
+   "links:meaning-sense": 1603,
    "links:original-form": 96,
    "links:original-genus": 770,
    "links:original-relation": 23,
@@ -95,12 +95,12 @@
    "paraphrase:rejected-unsourced": 54,
    "paraphrase:skipped": 93,
    "rule:unconfirmed-existing": 67810,
-   "blocked:homonym-root": 14,
+   "blocked:homonym-root": 15,
    "blocked:wrong-sense-topic": 1
   },
   "dictionary_reviews": 392
  },
- "output_sha256": "3c336e5d52c237b880a63e9f28db3d16b6ad51718166542deb58c437b2a15ded",
+ "output_sha256": "236140634ce7481f6097827dcd507a5573dfbea78da837955324a70d5118752e",
  "supplements": {
   "supplement-01.json": "34487283d6c34e57d895690de6e5e6d680b7019177c81633e46624c1f1be40b7",
   "supplement-02.json": "60b7470870bf3269468070bb31a3efdeb1f16d3469bcee43edd17337ef570bb7",
@@ -117,7 +117,8 @@
   "supplement-13.json": "6a2cf4b89c12b3c1bee60276de3f8d9a6b58d00ab4d24649ee98668ee24fc665",
   "supplement-14.json": "21ffe9cfc4d5485b63801ccddbbb99bfb02cf074e7397205ecd17603f425e26e",
   "supplement-15.json": "4f3ecb6a62d4f5b9d1861238b43cb68947e1fc6a7de5fcfc4ba81d8d663b3316",
-  "supplement-16.json": "355bcd00a246d0dee86f5cb83630f062ad84ff9ac11bc3184f91e26792b430f2"
+  "supplement-16.json": "355bcd00a246d0dee86f5cb83630f062ad84ff9ac11bc3184f91e26792b430f2",
+  "supplement-17.json": "7f0edfd205945ff119c76d25b3075c25173d93486ab9eb458a492516c753a7fa"
  },
  "base_model_sha256": "426082c5f82c5c880cf807c56797a13e0d8a4538a9f4ee4014247c77841a7161"
 }

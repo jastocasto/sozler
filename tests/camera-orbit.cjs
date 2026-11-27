@@ -4,6 +4,67 @@ const assert = require('node:assert/strict');
 const G = require('../dist/galaxy.js');
 const {boot} = require('./galaxy-harness.cjs');
 const bounds = {minX:-37000,maxX:53000,minY:-30000,maxY:35000};
+const angleDifference=(a,b)=>Math.atan2(Math.sin(a-b),Math.cos(a-b));
+assert.equal(G.touchTurn({angle:0,distance:80},{angle:.025,distance:84}),0,'fingertip jitter does not turn the map');
+assert.equal(G.touchTurn({angle:.3,distance:12},{angle:1,distance:20}),0,'a nearly coincident pair has no stable angle');
+assert(Math.abs(G.touchTurn({angle:Math.PI-.06,distance:90},{angle:-Math.PI+.14,distance:95})-.20)<1e-10);
+
+function checkTwoFingers(h,width,height,initial){
+ const {$,window,pointer,runFrames}=h,read=()=>window.SozApp.inspect();
+ const start={x:width*.48,y:height*.52},centre={x:start.x+21,y:start.y-17};
+ const span=45,scale=1.4,turn=Math.PI/4;
+ const left={x:centre.x-span*scale*Math.cos(turn),y:centre.y-span*scale*Math.sin(turn)};
+ const right={x:2*centre.x-left.x,y:2*centre.y-left.y};
+ const world=G.unproject(start,initial,width,height);
+ const underRight=G.unproject({x:start.x+span,y:start.y},initial,width,height);
+ const beforeFrames=h.counts.frames;
+ assert(!$('map').classList.contains('touch-explored'));
+ pointer('pointerdown',21,start.x-span,start.y);
+ pointer('pointerdown',22,start.x+span,start.y);
+ pointer('pointermove',22,start.x+span+1,start.y+1);
+ assert.equal(read().camera.roll,initial.roll,'a small wiggle preserves the bearing');
+ assert(!$('map').classList.contains('touch-explored'),'a brief two-finger tap keeps the touch hint');
+ pointer('pointermove',21,left.x,left.y);
+ pointer('pointermove',22,right.x,right.y);
+ const live=read().camera,project=G.transform(live,width,height);
+ assert(!read().orbitMode,'turning needs no mode switch');
+ assert($('map').classList.contains('touch-explored'));
+ assert(Math.abs(angleDifference(live.roll,initial.roll)-turn)<1e-8);
+ assert(Math.abs(live.zoom/initial.zoom-scale)<1e-8);
+ assert(Math.hypot(project(world).x-centre.x,project(world).y-centre.y)<1e-6,'the original midpoint stays under the two fingertips');
+ assert(Math.hypot(project(underRight).x-right.x,project(underRight).y-right.y)<1e-6,'zoom and twist follow the fingers on the map plane');
+ assert.equal(h.counts.frames,beforeFrames,'touch events do not synchronously repaint the galaxy');
+ runFrames(1);
+ assert.equal(h.counts.frames,beforeFrames+1,'simultaneous pan, zoom and rotation share one projected frame');
+ assert(!$('viewport').hasAttribute('transform'));
+ assert(!$('atlasLabels').style.transform,'geographic labels remain upright');
+ const frame=read(),[name,worldX,worldY,worldZ]=window.WORD_GALAXY_DATA.points[0];
+ const actual=frame.screenPositions.find(word=>word.word===name),expected=project({x:worldX,y:worldY,z:worldZ});
+ assert(Math.hypot(actual.x-expected.x,actual.y-expected.y)<1e-6,'the visible atlas tracks the live camera before release');
+ pointer('pointerup',22,right.x,right.y);
+ assert.deepEqual(read().camera,live,'the committed pose matches the displayed pose');
+ pointer('pointermove',21,left.x+19,left.y+11);
+ const continued=read().camera;
+ assert.equal(continued.roll,live.roll);assert.equal(continued.zoom,live.zoom);
+ const anchor=G.unproject(left,live,width,height),moved=G.transform(continued,width,height)(anchor);
+ assert(Math.hypot(moved.x-left.x-19,moved.y-left.y-11)<1e-6,'one remaining finger continues the pan');
+ pointer('pointerup',21,left.x+19,left.y+11);
+ assert.equal(read().view,'explore','lifting the final finger does not select a word');
+ assert.equal(h.captures.size,0);
+ // Interrupt a combined gesture after its first actual turn. Stray events from
+ // the second finger must neither change the camera nor select a nearby word.
+ pointer('pointerdown',31,start.x-span,start.y);pointer('pointerdown',32,start.x+span,start.y);
+ pointer('pointermove',32,right.x,right.y);
+ const interrupted=read().camera;
+ pointer('pointercancel',32,right.x,right.y);pointer('pointermove',31,0,0);pointer('pointerup',31,0,0);
+ assert.deepEqual(read().camera,interrupted);assert.equal(h.captures.size,0);assert(!read().pinching);assert.equal(read().view,'explore');
+ const finger=G.unproject(start,interrupted,width,height);
+ pointer('pointerdown',34,start.x,start.y);pointer('pointerup',34,start.x+37,start.y-13);
+ const flick=G.transform(read().camera,width,height)(finger);
+ assert(Math.hypot(flick.x-start.x-37,flick.y-start.y+13)<1e-6,'a final displacement delivered on release still pans');
+ assert.equal(read().view,'explore');
+ $('universeButton').click();h.runUntilIdle();
+}
 for(const [width,height] of [[390,844],[1440,900]]){
  const home = G.overview({bounds},width,height);
  const near = {x:home.x,y:home.y,z:300}, far = {...near,z:-300};
@@ -59,6 +120,7 @@ for(const [width,height,reduced] of [[390,844,true],[1440,900,false]]){
   assert(bottom-top>height*.66&&right-left>width*.75,'portrait galaxy fills the chart in both dimensions');
   assert(top>=0&&left>=0&&right<=width&&bottom<=height,'every word fits');
  }
+ checkTwoFingers(h,width,height,initial);
  assert(toggle&&!toggle.hidden);assert.equal(toggle.getAttribute('aria-pressed'),'false');
  toggle.click();assert.equal(toggle.getAttribute('aria-pressed'),'true');
  key(toggle,'ArrowRight');key(graph,'ArrowUp');runFrames(3);
@@ -68,7 +130,11 @@ for(const [width,height,reduced] of [[390,844,true],[1440,900,false]]){
  for(const [region,button] of rotatedButtons)assert.equal(button,initialButtons.get(region),'orbit preserves focusable region controls');
  assert(state.orbitMode);assert(state.camera.angle>initial.angle&&state.camera.tilt>initial.tilt);assert.equal(state.camera.zoom,initial.zoom);
  pointer('pointerdown',1,100,300);pointer('pointermove',1,155,320);pointer('pointerup',1,155,320);runFrames(2);
- const rotated=inspect().camera;assert(rotated.angle>state.camera.angle&&rotated.tilt<state.camera.tilt);assert.equal(rotated.x,initial.x);assert.equal(rotated.y,initial.y);
+ const rotated=inspect().camera,screenDrag=G.touchOrbit(state.camera,55,20,width,height);
+ assert.deepEqual({...rotated},screenDrag);assert.equal(rotated.x,initial.x);assert.equal(rotated.y,initial.y);
+ assert(rotated.angle>state.camera.angle);
+ if(height>width)assert(rotated.tilt>state.camera.tilt,'a touch drag follows the portrait roll');
+ else assert(rotated.tilt<state.camera.tilt);
  toggle.click();pointer('pointerdown',2,70,270);pointer('pointermove',2,120,310);pointer('pointerup',2,120,310);runFrames(2);
  state=inspect();assert(!state.orbitMode);assert(state.camera.x!==initial.x);assert.equal(state.camera.angle,rotated.angle);
  key(graph,'Home');h.runUntilIdle();assert.deepEqual(inspect().camera,initial);

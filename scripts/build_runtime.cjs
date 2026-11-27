@@ -296,6 +296,14 @@ if (restoredCore.frequency) {
 }
 log('PASS: restored model matches createModel;', samples.length, 'search samples');
 
+// Publish current live totals alongside the historical layer counts.
+const countsPath = path.join(dist, 'word-count.json');
+const wordCounts = JSON.parse(fs.readFileSync(countsPath, 'utf8'));
+const multiwordCount = nodes.filter(node => node.w.includes(' ')).length;
+Object.assign(wordCounts, {headwords: count, single_words: count - multiwordCount,
+  multiword_entries: multiwordCount, orthography_entries: m.orthographyNodes.length, connections: m.edges.length});
+fs.writeFileSync(countsPath, JSON.stringify(wordCounts, null, 2) + '\n');
+
 // Publish newly allocated IDs only after the rebuilt model passes verification.
 if (registry.length !== originalSize) {
   const temporary = registryPath + '.' + process.pid + '.tmp';

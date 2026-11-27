@@ -85,6 +85,22 @@ function orbit(camera,yaw,pitch){
  const bearing=camera.angle+yaw;
  return {...camera,angle:Math.atan2(Math.sin(bearing),Math.cos(bearing)),tilt:clamp(camera.tilt+pitch,-.10,.94)};
 }
+function touchOrbit(camera,dx,dy,width,height){
+ // Translate a drag in screen pixels into the camera's axes even when the
+ // phone's fitted view, or a two-finger turn, has rolled the sky sideways.
+ const roll=camera.roll||0,cos=Math.cos(roll),sin=Math.sin(roll);
+ const span=Math.min(width,height);
+ return orbit(camera,(dx*cos+dy*sin)/Math.max(135,span*.42),(dx*sin-dy*cos)/Math.max(190,span*.68));
+}
+function touchTurn(first,second){
+ const span=Math.min(first.distance,second.distance);
+ if(span<20)return 0;
+ const turn=angleBetween(first.angle,second.angle,1)-first.angle;
+ // A few pixels of fingertip jitter can turn a short chord appreciably.
+ // Ease into rotation, then follow the fingers exactly as the turn grows.
+ const slop=Math.max(Math.PI/60,3.5/span);
+ return turn*smooth(clamp((Math.abs(turn)-slop)/slop,0,1));
+}
 const overviewCache=new WeakMap();
 function overview(atlas,width,height){
  const cached=overviewCache.get(atlas);
@@ -194,5 +210,5 @@ function connections(atlas,screens,filters,width,height,moving=new Set()){
  return {stationary,dynamic};
 }
 function blendColor(from,to,t){const rgb=h=>[1,3,5].map(i=>parseInt(h.slice(i,i+2),16)),a=rgb(from),b=rgb(to);return '#'+a.map((v,i)=>Math.round(mix(v,b[i],t)).toString(16).padStart(2,'0')).join('');}
-const api={createAtlas,transform,unproject,aimAt,orbit,angleBetween,overview,focus,area,makeFlight,sampleFlight,zoomAt,clamp,glyphs,labelLines,fitLabel,blendColor,crossesViewport,connections};if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.WordGalaxy=api;
+const api={createAtlas,transform,unproject,aimAt,orbit,touchOrbit,touchTurn,angleBetween,overview,focus,area,makeFlight,sampleFlight,zoomAt,clamp,glyphs,labelLines,fitLabel,blendColor,crossesViewport,connections};if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.WordGalaxy=api;
 })(typeof window!=='undefined'?window:globalThis);

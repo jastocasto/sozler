@@ -19,7 +19,7 @@ region('actions','Hərəkətlər','Actions','#c5b082',[
  group('speaking','Danışmaq və eşitmək','Speak & listen','say|speak|talk|tell|ask|answer|listen|hear|call|sing|shout|whisper','danışmaq|demək|söyləmək|dinləmək|eşitmək|soruşmaq'),
  group('thinking','Düşünmək və öyrənmək','Think & learn','think|know|learn|teach|understand|remember|forget|read|study|believe|imagine|decide|consider','düşünmək|bilmək|öyrənmək|öyrətmək|anlamaq|oxumaq'),
  group('living','Yaşamaq və hiss etmək','Live & feel','live|breathe|sleep|wake|eat|drink|feel|love|hate|laugh|cry|grow|die|see|smell','yaşamaq|sevmək|görmək|yatmaq|yemək|içmək|gülmək|ağlamaq'),
- group('interact','Vermək və bölüşmək','Give & share','give|take|help|share|buy|sell|pay|send|receive|meet|protect|fight|win|lose|carry|bring','vermək|almaq|gətirmək|aparmaq|göndərmək|bölüşmək'),
+ group('interact','Vermək və bölüşmək','Give & share','give|take|help|share|buy|sell|pay|send|receive|meet|protect|fight|win|lose|carry|bring','vermək|almaq|gətirmək|aparmaq|göndərmək|bölüşmək|öpüş göndərmək|öpüş almaq|busə etmək'),
  group('other-actions','Başqa hərəkətlər','Other actions')
 ]),
 region('nature','Təbiət','Nature','#99b19d',[
@@ -33,7 +33,7 @@ region('people','İnsan','People','#bd9c98',[
  group('body','Bədən','Body','body|head|hand|finger|arm|leg|foot|eye|ear|nose|mouth|tooth|skin|bone|blood|heart|lung|brain|muscle|organ','bədən|baş|əl|ayaq|göz|qulaq|ürək|qan'),
  group('health','Sağlamlıq','Health','health|medical|medicine|disease|illness|patient|hospital|doctor|surgery|therapy|treatment|cancer|infection|syndrome|symptom|diagnosis|pain|drug|pharmaceutical','sağlamlıq|xəstəlik|xəstəxana|həkim|dərman|tibb'),
  group('family','Ailə və insanlar','Family & people','family|mother|father|sister|brother|daughter|son|child|parent|wife|husband|woman|man|person|people|human|friend|relative','ailə|ana|ata|bacı|qardaş|uşaq|insan|dost'),
- group('feelings','Hisslər','Feelings','feeling|emotion|happy|happiness|sad|sadness|love|affection|fear|anger|angry|joy|hope|grief|sorrow|anxiety|lonely|loneliness','sevgi|məhəbbət|qorxu|sevinc|kədər|ümid|hiss'),
+ group('feelings','Hisslər','Feelings','feeling|emotion|happy|happiness|sad|sadness|love|affection|fear|anger|angry|joy|hope|grief|sorrow|anxiety|lonely|loneliness','sevgi|məhəbbət|qorxu|sevinc|kədər|ümid|hiss|naz-nəvaziş|sevdicik|həmağuş'),
  group('mind','Düşüncə və davranış','Mind & behaviour','mind|mental|psychology|psychological|thought|memory|intelligence|consciousness|behaviour|behavior|personality|motivation|attention|perception','psixologiya|düşüncə|yaddaş|şüur'),
  group('occupations','Peşələr','Occupations','worker|profession|occupation|specialist|engineer|teacher|driver|farmer|soldier|merchant|artist|writer|scientist|employee','müəllim|mühəndis|işçi|sürücü|yazıçı|alim')
 ]),
@@ -74,6 +74,6 @@ region('world','Məkan və zaman','Space & time','#b6b7a0',[
 region('concepts','Anlayışlar','Concepts & expressions','#acaca6',[
  group('connections','Dilin bağları','Language connectors','','mən|sən|o|biz|siz|bu|və|amma|lakin|üçün|ilə|ki|çünki'),
  group('expressions','İfadələr','Expressions'),
- group('manner','Tərz və dərəcə','Manner & degree'),
+ group('manner','Tərz və dərəcə','Manner & degree','','maçamaç'),
  group('abstract','Anlayışlar və mənalar','Concepts & meanings')
 ])];

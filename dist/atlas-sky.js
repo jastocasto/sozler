@@ -154,7 +154,11 @@ function create(atlas, onCloudsReady) {
   }
   const beaconList = [...beacons.values()].sort((a,b)=>b.degree-a.degree).slice(0,56);
   const inks = palette.map(c => [css(mix(c,[118,146,201],.17)),css(mix(c,[214,240,245],.24)),css(mix(c,[244,247,233],.65))]);
-  const labelColours = palette.map(c => css(mix(c,[55,62,81],.73)));
+  // As an atlas point becomes a readable word, its region tint settles into charcoal.
+  const wordColours = atlas.regions.map(region => {
+    const tint = [1,3,5].map(start => parseInt(region.color.slice(start,start+2),16));
+    return Array.from({length:256}, (_,i) => css(mix(tint,[81,81,79],i/255)));
+  });
 
   function drawClouds(ctx,project,width,height,zoom) {
     if (!ctx.drawImage || !ctx.transform || !ctx.save) { clouds=[]; return; }
@@ -280,11 +284,11 @@ function create(atlas, onCloudsReady) {
     for (const v of items) {
       if (v.r<=3||moving.has(v.point.node.id)) continue;
       const {point,screen:p,r,body,labelOpacity}=v;
-      ctx.globalAlpha=.6+.38*body;ctx.fillStyle=labelColours[point.region%palette.length];
+      ctx.globalAlpha=.68+.28*body;ctx.fillStyle=wordColours[point.region][Math.round(body*255)];
       ctx.beginPath();ctx.arc(p.x,p.y,r,0,TAU);ctx.fill();
-      ctx.globalAlpha=.2+.5*body;ctx.lineWidth=.75;ctx.strokeStyle=inks[point.region%palette.length][1];ctx.stroke();
+      ctx.globalAlpha=body*.7;ctx.lineWidth=.65;ctx.strokeStyle='#aaa697';ctx.stroke();
       if (labelOpacity>0) {
-        ctx.globalAlpha=labelOpacity;ctx.fillStyle='#f0f3f5';ctx.font=v.fontSize+'px Georgia, serif';ctx.textAlign='center';
+        ctx.globalAlpha=labelOpacity;ctx.fillStyle='#f1ede4';ctx.font=v.fontSize+'px Georgia, serif';ctx.textAlign='center';
         v.lines.forEach((line,i)=>ctx.fillText(line,p.x,p.y+(i-(v.lines.length-1)/2)*(v.fontSize+2)+v.fontSize*.32));
       }
     }

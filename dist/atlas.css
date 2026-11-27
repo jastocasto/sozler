@@ -159,6 +159,8 @@
 }
 .galaxy-studio .map-tool { width:42px; padding:9px; }
 .galaxy-studio .map-tool svg { width:20px; height:20px; color:#c1d6e3; stroke:currentColor; stroke-width:1.35; }
+.galaxy-studio .universe-tool .tool-label,.galaxy-studio .map-touch-hint { display:none; }
+.gesture-guide p { margin:.7em 0; color:#e0dfd4; font:400 14px/1.55 system-ui,sans-serif; }
 .galaxy-studio .orbit-tool { width:auto; display:inline-flex; gap:6px; align-items:center; padding-inline:9px; font:550 13px var(--atlas-ui); color:#d7e5ed; }
 .galaxy-studio .orbit-tool[aria-pressed=true] { color:#bbf3e7; background:#23444a; }
 .galaxy-studio .orbit-tool[aria-pressed=true] svg { color:#a0eadb; }
@@ -251,4 +253,45 @@
   .galaxy-studio .map-legend { left:10px; transform:none; bottom:8px; }
   .galaxy-studio[data-map-view=word] .map-tools { bottom:10px; }
   .galaxy-studio .map #atlasRoutesPanel { left:12px; bottom:9px; width:310px; max-height:calc(100% - 68px); }
+}
+
+@media (pointer:coarse) {
+  .galaxy-studio .map-tools { gap:2px; padding:2px 4px; }
+  .galaxy-studio .map-tool,.galaxy-studio .zoom-group,.galaxy-studio .zoom-group button {
+    min-width:44px; min-height:44px; height:44px;
+  }
+  .galaxy-studio .zoom-group button { width:44px; }
+  .galaxy-studio #zoomLabel { width:36px; }
+  .galaxy-studio .routes-toggle { min-height:44px; }
+  .galaxy-studio:not([data-has-word]) #fitButton { display:none; }
+  .galaxy-studio:not([data-map-view=word]) .universe-tool {
+    display:inline-flex; align-items:center; justify-content:center; gap:5px; width:auto; padding:0 8px;
+  }
+  .galaxy-studio:not([data-map-view=word]) .universe-tool .tool-label {
+    display:inline; color:#d5e4ed; font:500 12px var(--atlas-ui); white-space:nowrap;
+  }
+  .galaxy-studio:not([data-map-view=word]) .map:not(.touch-explored) .map-touch-hint,
+  .galaxy-studio:not([data-map-view=word]) .map.is-orbiting .map-touch-hint {
+    display:block; position:absolute; bottom:calc(100% + 5px); right:var(--hint-right,0); width:max-content; margin:0;
+    transform:var(--hint-position,none);
+    padding:4px 8px; border-radius:5px; background:#0c1726e8; color:#c3d4df;
+    font:500 11px/1.3 var(--atlas-ui); pointer-events:none;
+  }
+  .galaxy-studio .touch-orbit-hint,.galaxy-studio .map.is-orbiting .touch-free-hint { display:none; }
+  .galaxy-studio .map.is-orbiting .touch-orbit-hint { display:inline; }
+  .race-active .galaxy-studio #mapTouchHint,.galaxy-studio .map:has(#atlasRoutesPanel:not([hidden])) #mapTouchHint { display:none; }
+}
+@media (pointer:coarse) and (max-width:640px) and (orientation:portrait) {
+  .galaxy-studio .map-tools { --hint-right:50%; --hint-position:translateX(50%); }
+}
+@media (pointer:coarse) and (max-width:370px) {
+  .galaxy-studio .map-tools { gap:1px; padding-inline:2px; }
+  .galaxy-studio #zoomLabel { width:28px; }
+  .galaxy-studio[data-has-word]:not([data-map-view=word]) .universe-tool .tool-label { display:none; }
+  .galaxy-studio .orbit-tool { padding-inline:6px; }
+}
+@media (pointer:coarse) and (max-height:500px) and (orientation:landscape) {
+  .galaxy-studio[data-map-view=word] .meaning-card {
+    width:auto; left:max(10px,env(safe-area-inset-left)); right:calc(242px + env(safe-area-inset-right)); transform:none;
+  }
 }

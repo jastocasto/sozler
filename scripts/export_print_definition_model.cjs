@@ -12,9 +12,13 @@ for (const file of files) {
   if (fs.existsSync(source)) vm.runInNewContext(fs.readFileSync(source, 'utf8'), sandbox);
 }
 const w = sandbox.window;
+// The rules and their replay checkpoint use the dictionary as it stood before the later sourced review.
+const verification = process.argv.includes('--without-print')
+  ? {...w.WORD_WEB_VERIFICATION, dictionaryEdition: undefined}
+  : w.WORD_WEB_VERIFICATION;
 const model = require('../dist/model.js').createModel(w.WORD_WEB_DATA, w.WORD_WEB_EXTRA, w.WORD_WEB_GRAMMAR, w.WORD_WEB_VOCABULARY,
   w.WORD_WEB_REVIEW, w.WORD_WEB_BILINGUAL, w.WORD_WEB_EXPANSION, w.WORD_WEB_NOMINAL, w.WORD_WEB_ADDITIONS, w.WORD_WEB_RELATIONS,
-  w.WORD_WEB_REFERENCES, w.WORD_WEB_GROWTH, w.WORD_WEB_VERIFICATION, w.WORD_WEB_ORTHOGRAPHY, w.WORD_WEB_ORTHOGRAPHY_LEXICAL,
+  w.WORD_WEB_REFERENCES, w.WORD_WEB_GROWTH, verification, w.WORD_WEB_ORTHOGRAPHY, w.WORD_WEB_ORTHOGRAPHY_LEXICAL,
   w.WORD_WEB_PRINT_DEFINITIONS);
 const { principal, baseFromGloss } = require('../dist/conjugation-english.js');
 const degree = new Map();

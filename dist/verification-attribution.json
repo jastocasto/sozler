@@ -299511,5 +299511,11 @@
         "hash_matches_extraction_original": true
       }
     }
+  },
+  "dictionary_edition": {
+    "entries": 7,
+    "revisions": 20,
+    "connections": 46,
+    "source_sha256": "4d98887e61be0249620f78735a013465a2ca2c8e1ae5e6ade63dd6f422834615"
   }
 }

@@ -179,7 +179,7 @@ function renderMeaning(n){
 function select(n,record=true,writeHash=true,viaEdge=null,initial=false,source='ordinary'){
  if(!n)return;const note=state.pendingForm;state.pendingForm=null;state.searchedForm=note&&note.node===n?note:null;if(race?.blocking&&!race.allow(n.w,source))return;if(activePage==='grammar')showMap(false);const previous=state.selected;state.arrival=null;
  if(previous&&previous.id!==n.id){const relation=viaEdge?{edge:viaEdge}:model.related(previous).find(x=>x.node.id===n.id);if(relation)state.arrival={from:previous.w,type:relation.edge.type,edge:relation.edge};if(record)state.history.push(previous.id);}
- state.selected=n;if(writeHash)history.replaceState(null,'','#w='+encodeURIComponent(n.w));
+ state.selected=n;if(!initial)document.querySelector('.galaxy-studio').dataset.hasWord='true';if(writeHash)history.replaceState(null,'','#w='+encodeURIComponent(n.w));
  $('backButton').hidden=!state.history.length;closeSearch();closeMenu();$('search').value='';if(document.activeElement===$('search'))$('search').blur();setSheet(false);detail();galaxy?.select(n,{initial});
 }
 function visibleFilters(){

@@ -3,7 +3,7 @@
 No source layer or archived grammar record is modified. This script does not
 infer correctness from automatic graph checks or from matching gloss strings.
 """
-import argparse,collections,json,re,subprocess
+import argparse,collections,hashlib,json,re,subprocess
 from pathlib import Path
 from urllib.parse import urlparse,quote
 ROOT=Path(__file__).resolve().parent.parent
@@ -22,6 +22,37 @@ def normalized_sources(refs):
    ref['url']=f'https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_{volume}.pdf'+(f'#page={page}' if page else '')
   if ref not in result:result.append(ref)
  return result
+
+def compile_dictionary_edition(source):
+ """Compile later, individually sourced entries without altering the original review evidence."""
+ words=set()
+ for entry in source['entries']+source['revisions']:
+  word=entry['word']
+  if word in words or not all(entry[field].strip() for field in ('word','pos','az','en')):
+   raise ValueError(f'Invalid or duplicate dictionary entry: {word}')
+  words.add(word)
+  for sense in entry['senses']:
+   if not sense['az'].strip() or not sense['en'].strip():
+    raise ValueError(f'Missing bilingual sense: {word}')
+  entry['sources']=normalized_sources(entry['sources'])
+  if not entry['sources']:
+   raise ValueError(f'Missing dictionary evidence: {word}')
+ edges=[];pairs=set()
+ for edge in source['connections']:
+  a,b,kind=edge['a'],edge['b'],edge['type']
+  pair=(*sorted((a,b)),kind)
+  if a==b or pair in pairs or kind not in ('syn','ant','root','topic','ending'):
+   raise ValueError(f'Invalid dictionary connection: {pair}')
+  refs=normalized_sources(edge['sources'])
+  if not refs or not edge['sense_az'].strip() or not edge['sense_en'].strip():
+   raise ValueError(f'Missing bilingual connection evidence: {pair}')
+  pairs.add(pair)
+  proof={'from':a,'scope':'reviewed','auditReviewed':True,'senseAz':edge['sense_az'],'senseEn':edge['sense_en'],'refs':refs}
+  edges.append([a,b,kind,'Lüğətdə göstərilən məna',None,[proof]])
+ return {'entries':source['entries'],'revisions':source['revisions'],'edges':edges}
+
+edition_path=IN/'dictionary-edition.json'
+dictionary_edition=compile_dictionary_edition(read(edition_path)) if edition_path.exists() else None
 # Export the exact preserved baseline, excluding only this verification layer.
 snapshot=ROOT/'.verification-base.json'
 subprocess.run(['node','scripts/export_current_model.cjs',str(snapshot),'--without-verification'],cwd=ROOT,check=True)
@@ -109,10 +140,16 @@ subprocess.run(['node','scripts/export_current_model.cjs',str(after_path)],cwd=R
 after=read(after_path);after_path.unlink()
 old_keys={key(*e[:3]) for e in base['edges']};new_keys={key(*e[:3]) for e in after['edges']}
 meta.update({'connections_before':len(base['edges']),'connections_after':len(after['edges']),'removed_active_connections':len(old_keys-new_keys),'new_active_connections':len(new_keys-old_keys)})
+# These corrections and additions follow the historical verification and print passes.
+if dictionary_edition:
+ runtime['dictionaryEdition']=dictionary_edition
 (DIST/'verification.js').write_text('window.WORD_WEB_VERIFICATION='+json.dumps(runtime,ensure_ascii=False,separators=(',',':'))+';\n')
 attribution={'method':'AI-assisted entry-by-entry review against cached multilingual dictionary glosses, native Azerbaijani Wiktionary revisions, and targeted dictionary research. Correctness is sense-specific. Automatic graph checks do not constitute linguistic verification. This is not a professional linguistic certification.',
  'display_languages':['az','en'],'policy':'Source-compared means the displayed sense was compared with cited dictionary evidence, not that every possible sense is certified. Unresolved disputes remain labelled. Original dictionary layers and grammatical archives remain intact.',
  'license':'New editorial paraphrases and adaptations are shared under CC BY-SA 4.0. Wiktionary excerpts retain contributor attribution. Other dictionary sites are referenced for factual sense verification; their prose is not republished.',
  'summary':meta,'entry_exclusions':[{**r,'original':{k:by[r['word']][k] for k in ['w','az','en','pos','source']}} for r in entry_exclusions],'translation_repairs':translation_reviews,'reviews':reviewcounts,'corrections':list(corrections.values()),'deferred_corrections':deferred,'uncertain_definitions':holds,'relation_audit':relation,'entry_review_status':status,
  'native_bulk_source':read(IN/'native-bulk-summary.json') if (IN/'native-bulk-summary.json').exists() else None,'print_dictionary_source':read(IN/'print-source-summary.json') if (IN/'print-source-summary.json').exists() else None}
+if dictionary_edition:
+ attribution['dictionary_edition']={'entries':len(dictionary_edition['entries']),'revisions':len(dictionary_edition['revisions']),
+                                    'connections':len(dictionary_edition['edges']),'source_sha256':hashlib.sha256(edition_path.read_bytes()).hexdigest()}
 write(DIST/'verification-attribution.json',attribution);print(json.dumps(meta),flush=True)

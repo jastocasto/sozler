@@ -1,18 +1,6 @@
-.galaxy-studio #bubbles .word-node .bubble {
-  fill: var(--word-surface);
-  stroke: url(#word-rim);
-  stroke-width: 1px;
-  filter: none;
-}
-.galaxy-studio #bubbles .word-node.selected .bubble {
-  stroke-width: 1.4px;
-}
 .galaxy-studio #bubbles .word-node:focus-visible .bubble {
   stroke: #fff5d9;
-  stroke-width: 2.8px;
-}
-.galaxy-studio #bubbles .word-node[data-type=nearby] text {
-  fill: #e3e8ee;
+  stroke-width: 3px;
 }
 .galaxy-studio #links .edge {
   transition: opacity 120ms ease, stroke-width 120ms ease;

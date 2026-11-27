@@ -54,6 +54,30 @@ function createModel(raw,extra={nodes:[],edges:[],enrichment:{}},grammar={record
   byId.set(node.id,node);
   if(!allByWord.has(w))allByWord.set(w,node);
  }
+ // The later print review can add attested expressions as well as correct existing senses.
+ // Allocate fresh IDs after the spelling entries, but keep that layer contiguous for serialization.
+ const edition=verification.dictionaryEdition;
+ if(edition){
+  const additions=[];
+  for(const entry of edition.entries){
+   const w=entry.word,lower=w.toLocaleLowerCase('az');
+   if(activeSpellings.has(lower.normalize('NFC')))throw Error('Duplicate reviewed headword: '+w);
+   const node={id:allNodes.length+orthographyNodes.length+additions.length,w,lower,key:normalize(w),quality:'reference'};
+   activeSpellings.add(lower.normalize('NFC'));
+   additions.push(node);byWord.set(w,node);byId.set(node.id,node);allByWord.set(w,node);
+  }
+  nodes.splice(nodes.length-orthographyNodes.length,0,...additions);
+  for(const entry of [...edition.entries,...edition.revisions]){
+   const node=byWord.get(entry.word);
+   // Historical builds can omit the spelling dictionary that supplies a revised entry.
+   if(!node)continue;
+   const {az,en,pos,senses,sources}=entry,bilingualSenses=[{az,en},...senses];
+   Object.assign(node,{az,en,pos,bilingualSenses,bilingualMethod:'edited',definitionMethod:'paraphrase',
+    definitionAuditStatus:'source-compared',definitionSources:sources,
+    english:normalize(bilingualSenses.map(s=>s.en).join('; ')),azerbaijani:normalize(bilingualSenses.map(s=>s.az).join('; '))});
+   delete node.definitionConfidence;
+  }
+ }
  for(const node of nodes){
   const references=lexical.special?.[node.w];
   if(!references||node.az?.trim()&&node.en?.trim())continue;
@@ -64,7 +88,7 @@ function createModel(raw,extra={nodes:[],edges:[],enrichment:{}},grammar={record
  const blocked=new Set([...(grammar.blockedEdges||[]),...(nominal.blockedEdges||[]).map(e=>[e[0],e[1],e[3].replace(/ · Wiktionary.*$/,'')])].map(e=>[e[0],e[1]].sort().join('|')+'|'+e[2]));
  // A spelling entry must not restore legacy edges from an excluded form.
  const inherited=allEdges.map(e=>aliases[e[0]]||aliases[e[1]]?[aliases[e[0]]||e[0],aliases[e[1]]||e[1],e[2],e[3],edgeKey(e)]:e).filter(e=>!byWord.get(e[0])?.orthographyPage&&!byWord.get(e[1])?.orthographyPage);
- const candidates=[...inherited,...(lexical.edges||[])].filter(e=>byWord.has(e[0])&&byWord.has(e[1])&&!blockedSemantic.has(edgeKey(e))&&!blocked.has([e[0],e[1]].sort().join('|')+'|'+e[3].replace(/ · Wiktionary.*$/,'')));
+ const candidates=[...inherited,...(lexical.edges||[]),...(edition?.edges||[])].filter(e=>byWord.has(e[0])&&byWord.has(e[1])&&!blockedSemantic.has(edgeKey(e))&&!blocked.has([e[0],e[1]].sort().join('|')+'|'+e[3].replace(/ · Wiktionary.*$/,'')));
  const edgePairs=new Set(candidates.filter(e=>e[2]!=='topic').map(e=>[e[0],e[1]].sort().join('|')));
  const unique=new Set();
  const retainedCandidates=candidates.filter(e=>!(e[2]==='topic'&&edgePairs.has([e[0],e[1]].sort().join('|'))));

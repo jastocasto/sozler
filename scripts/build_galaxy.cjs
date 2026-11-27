@@ -34,10 +34,14 @@ const golden=Math.PI*(3-Math.sqrt(5));
 // Add new points outside each original cluster's existing phyllotaxis sequence.
 // The baseline remains committed so rebuilding never shifts earlier words.
 const points=baseline.points.filter(p=>model.byWord.has(p[0])).map(p=>[...p]);
+// Earlier additions occupy slots ordered by their 32-bit hash. Later dictionary
+// entries take consecutive slots after them, in the order they were published.
+const reviewedSlots=new Map((w.WORD_WEB_VERIFICATION.dictionaryEdition?.entries||[]).map((entry,i)=>[entry.word,2**32+i]));
+const placementOrder=node=>reviewedSlots.get(node.w)??hash(node.w);
 for(const c of clusters){
  const old=baseline.clusters[c.index];if(c.id!==old.id)throw Error('Baseline taxonomy mismatch');
  Object.assign(c,{x:old.x,y:old.y,z:old.z,featured:[...old.featured],count:c.members.length});
- const additions=c.members.filter(n=>!oldPoints.has(n.w)).sort((a,b)=>hash(a.w)-hash(b.w));
+ const additions=c.members.filter(n=>!oldPoints.has(n.w)).sort((a,b)=>placementOrder(a)-placementOrder(b));
  c.next=old.count+additions.length;
  for(const [offset,n]of additions.entries()){
   const i=old.count+offset,angle=i*golden+(hash(c.id)%628)/100,rad=Math.sqrt(i)*74;
@@ -50,7 +54,7 @@ const spelling=placeSpellings();
 const extent=Math.max(...regions.map(r=>Math.hypot(r.x,r.y)+r.radius));
 const payload={version:1,regions:regions.map(({id,label,en,color,index,x,y,radius,count,clusters})=>({id,label,en,color,index,x:Math.round(x),y:Math.round(y),radius:Math.ceil(radius),count,clusters})),clusters:clusters.map(({id,label,en,index,region,x,y,z,radius,count,base,featured})=>({id,label,en,index,region,x:Math.round(x),y:Math.round(y),z,radius:Math.ceil(radius),count,base,featured})),points,spelling,extent:Math.ceil(extent),meta:{entries:points.length+spelling.count,policy:'Editorial navigation groups based on primary definitions, explicit anchors, parts of speech and documented neighbours. Proximity is not a synonym, root or etymology claim. Positions within each cluster are preserved; clusters and regions are packed apart. Spelling-dictionary words join the topic of their meaning or base word, else a word-formation group.',methods:Object.fromEntries([...new Set([...assigned.values()].map(a=>a.method))].map(method=>[method,[...assigned.values()].filter(a=>a.method===method).length])),spellingMethods:spelling.methods}};
 fs.writeFileSync(path.join(root,'dist/galaxy-data.js'),'window.WORD_GALAXY_DATA='+JSON.stringify(payload)+';\n');
-const attribution={...payload.meta,regions:regions.length,clusters:clusters.length,source_sha256:crypto.createHash('sha256').update(model.nodes.map(n=>n.w+'\t'+n.en).join('\n')).digest('hex'),notes:'Grouping is approximate and can be revised. Polysemous words have one primary map location. All earlier headwords are retained, each at its exact offset from its cluster centre; clusters move as a whole when the map is packed. New editorial words carry topic links only; no inflections have been added. Coordinate depth is a visual treatment, not linguistic distance.'};
+const attribution={...payload.meta,regions:regions.length,clusters:clusters.length,source_sha256:crypto.createHash('sha256').update(model.nodes.map(n=>n.w+'\t'+n.en).join('\n')).digest('hex'),notes:'Each word has one primary map location. Earlier dictionary words keep their depth and offset from the centre of their group as the groups move. Word cards give the documented relationship and its evidence. The map uses depth to help readers see the layers.'};
 fs.writeFileSync(path.join(root,'dist/galaxy-attribution.json'),JSON.stringify(attribution,null,2)+'\n');
 console.log(JSON.stringify({entries:points.length,extent:payload.extent,regions:payload.regions.map(r=>[r.label,r.count,Math.round(r.radius)]),methods:payload.meta.methods},null,2));
 

@@ -1,0 +1,1214 @@
+{
+  "supplement": "supplement-17.json",
+  "titleAz": "Öpüş və nəvaziş",
+  "titleEn": "Kissing and affection",
+  "entries": [
+    {
+      "word": "öpüş göndərmək",
+      "pos": "verb",
+      "az": "Kimisə uzaqdan öpmüş kimi əlini dodağına aparıb ona doğru işarə etmək.",
+      "en": "to blow someone a kiss by gesturing from the lips toward them",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 553",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=553"
+        }
+      ],
+      "senses": []
+    },
+    {
+      "word": "busə etmək",
+      "pos": "verb",
+      "az": "Klassik və poetik dildə birini öpmək.",
+      "en": "to kiss someone, in classical or poetic usage",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 1, s. 365",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_1.pdf#page=365"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 552",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=552"
+        }
+      ],
+      "senses": []
+    },
+    {
+      "word": "öpüş almaq",
+      "pos": "verb",
+      "az": "Birini öpmək, dodaqlarını ona toxundurmaq.",
+      "en": "to take a kiss from someone, to kiss them",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 553",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=553"
+        }
+      ],
+      "senses": []
+    },
+    {
+      "word": "maçamaç",
+      "pos": "adverb",
+      "az": "Öpərkən dodaqları marçıldadaraq.",
+      "en": "with an audible smacking of the lips when kissing",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 277",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=277"
+        }
+      ],
+      "senses": [
+        {
+          "az": "İsim kimi çox adamın bir-birini öpməsi.",
+          "en": "As a noun, a group of people exchanging kisses."
+        }
+      ]
+    },
+    {
+      "word": "həmağuş",
+      "pos": "adverb",
+      "az": "Bir-birinin qucağında, qarşılıqlı qucaqlaşmış halda.",
+      "en": "in one another’s arms, locked in an embrace",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 2, s. 359",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_2.pdf#page=359"
+        }
+      ],
+      "senses": [
+        {
+          "az": "«Həmağuş olmaq» ifadəsi bir-birini qucaqlamaq deməkdir.",
+          "en": "Həmağuş olmaq means to embrace one another."
+        }
+      ]
+    },
+    {
+      "word": "naz-nəvaziş",
+      "pos": "noun",
+      "az": "Birinə göstərilən incə qayğı və mehribanlıq, nəvaziş.",
+      "en": "tender care and affection shown to someone",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 466",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=466"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 484",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=484"
+        }
+      ],
+      "senses": []
+    },
+    {
+      "word": "sevdicik",
+      "pos": "noun",
+      "az": "Əziz birinə adətən «sevdiciyim» şəklində deyilən nəvazişli müraciət sözü.",
+      "en": "a term of endearment, usually used as sevdiciyim, “my darling”",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 61",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=61"
+        }
+      ],
+      "senses": []
+    }
+  ],
+  "revisions": [
+    {
+      "word": "öpüş",
+      "pos": "noun",
+      "az": "Öpərkən dodaqlarla edilən toxunuş. Öpməyin tərzini də bildirə bilər.",
+      "en": "a kiss, or the particular way someone kisses",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 553",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=553"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 552",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=552"
+        }
+      ],
+      "senses": [
+        {
+          "az": "«Öpüş göndərmək» ifadəsi birinə əlini dodağından ona doğru uzadaraq öpüş yollamağı bildirir.",
+          "en": "Öpüş göndərmək means to blow someone a kiss by moving the hand from the lips toward them."
+        },
+        {
+          "az": "«Öpüş almaq» ifadəsi birini öpmək mənasında işlənir.",
+          "en": "Öpüş almaq means to take a kiss from someone, to kiss them."
+        }
+      ]
+    },
+    {
+      "word": "öpmək",
+      "pos": "verb",
+      "az": "Dodaqlarını kiməsə və ya nəyəsə toxundurmaq. Bu hərəkət sevgi, dostluq, görüşdə salam və ya ayrılıqda vida bildirə bilər.",
+      "en": "to kiss someone or something, for example to show affection or friendship, to greet someone, or to say goodbye",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 552",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=552"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Məcazi mənada bir şeyə toxunmaq, onun səthinə yüngülcə dəymək.",
+          "en": "Figuratively, to touch or brush against something."
+        }
+      ]
+    },
+    {
+      "word": "öpüşmək",
+      "pos": "verb",
+      "az": "Qarşılıqlı şəkildə bir-birini öpmək.",
+      "en": "to kiss one another, to exchange kisses",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 553",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=553"
+        }
+      ],
+      "senses": []
+    },
+    {
+      "word": "busə",
+      "pos": "noun",
+      "az": "Klassik və poetik dildə öpüş bildirən söz.",
+      "en": "a kiss, in classical or poetic usage",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 1, s. 365",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_1.pdf#page=365"
+        }
+      ],
+      "senses": [
+        {
+          "az": "«Busə etmək» ifadəsi birini öpmək mənasında işlənir.",
+          "en": "Busə etmək is a literary expression meaning to kiss someone."
+        }
+      ]
+    },
+    {
+      "word": "maç",
+      "pos": "noun",
+      "az": "Danışıq dilində bir öpüş, dodaqlarla edilən nəvazişli toxunuş.",
+      "en": "a colloquial word for a kiss",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 277",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=277"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Danışıq dilində «maç eləmək» birini öpmək deməkdir.",
+          "en": "Maç eləmək means to kiss someone in everyday speech."
+        },
+        {
+          "az": "Bəzi bölgələrdə eyniyazılı başqa söz sarmaşan bitki üçün torpağa basdırılan dayağı bildirir.",
+          "en": "A regional homonym means a stake driven into the ground for a climbing plant."
+        }
+      ]
+    },
+    {
+      "word": "maç eləmək",
+      "pos": "verb",
+      "az": "Danışıq dilində kimisə öpmək, məsələn, yanağından öpmək.",
+      "en": "to give someone a kiss, for example on the cheek, in colloquial speech",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 277",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=277"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 522",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=522"
+        }
+      ],
+      "senses": []
+    },
+    {
+      "word": "nəvaziş",
+      "pos": "noun",
+      "az": "Birinə göstərilən incə qayğı, bu hissi ifadə edən mehriban söz və ya hərəkət.",
+      "en": "tender affection, or a kind word or gesture that expresses it",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 484",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=484"
+        }
+      ],
+      "senses": [
+        {
+          "az": "«Nəvazişlə» forması bir hərəkətin mehribanlıqla, incə qayğı göstərərək görüldüyünü bildirir.",
+          "en": "The adverb nəvazişlə means tenderly or affectionately."
+        }
+      ]
+    },
+    {
+      "word": "qucaqlaşmaq",
+      "pos": "verb",
+      "az": "Qolları ilə bir-birini sarıb bağrına basmaq.",
+      "en": "to hug each other, to embrace one another",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 200",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=200"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Məcazi mənada bir-birinə qovuşmaq, bitişmək.",
+          "en": "Figuratively, to come together or merge."
+        }
+      ]
+    },
+    {
+      "word": "oxşayış",
+      "pos": "noun",
+      "az": "Görünüşdə və ya xüsusiyyətdə bir-birinə bənzəmə, oxşarlıq.",
+      "en": "likeness or resemblance in appearance or character",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 518",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=518"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Eyniyazılı başqa söz kimi nəvaziş, birini mehribanlıqla oxşama.",
+          "en": "A separate homonym means a caress or a show of tenderness."
+        }
+      ]
+    },
+    {
+      "word": "tumarlamaq",
+      "pos": "verb",
+      "az": "Saçı və ya tükü səliqəyə salmaq üçün əllə sığallamaq.",
+      "en": "to smooth or groom hair or fur with the hand",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 375",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=375"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Nəvaziş göstərmək üçün birinin və ya bir heyvanın başını, saçını, tükünü əllə sığallamaq.",
+          "en": "To stroke or pet a person or an animal affectionately."
+        }
+      ]
+    },
+    {
+      "word": "öpülmək",
+      "pos": "verb",
+      "az": "Öpüşün yönəldiyi tərəf olmaq, birindən öpüş almaq.",
+      "en": "to be kissed by someone",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 553",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=553"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 552",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=552"
+        }
+      ],
+      "senses": []
+    },
+    {
+      "word": "dodaqlaşma",
+      "pos": "noun",
+      "az": "İki adamın bir-birini dodağından öpməsi.",
+      "en": "the act of kissing one another on the lips",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 1, s. 656",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_1.pdf#page=656"
+        }
+      ],
+      "senses": []
+    },
+    {
+      "word": "öpmə",
+      "pos": "noun",
+      "az": "Dodaqları kiməsə və ya nəyəsə toxunduraraq öpmə hərəkəti.",
+      "en": "the act of kissing someone or something",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 552",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=552"
+        }
+      ],
+      "senses": []
+    },
+    {
+      "word": "öpüşmə",
+      "pos": "noun",
+      "az": "İki adamın bir-birini öpməsi, qarşılıqlı öpüş.",
+      "en": "the act of exchanging kisses",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 553",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=553"
+        }
+      ],
+      "senses": []
+    },
+    {
+      "word": "öpdürmə",
+      "pos": "noun",
+      "az": "Birini öpməyə sövq etmə və ya ona öpməyə icazə vermə.",
+      "en": "the act of getting someone to kiss or allowing them to do so",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 552",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=552"
+        }
+      ],
+      "senses": []
+    },
+    {
+      "word": "öpüşdürmə",
+      "pos": "noun",
+      "az": "İki nəfərdən bir-birini öpmələrini istəmə və ya onları buna vadar etmə.",
+      "en": "the act of asking or making two people kiss each other",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 553",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=553"
+        }
+      ],
+      "senses": []
+    },
+    {
+      "word": "öpülmə",
+      "pos": "noun",
+      "az": "Bir insanın başqasından öpüş alması.",
+      "en": "the act of receiving a kiss, as experienced by the person being kissed",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 553",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=553"
+        }
+      ],
+      "senses": []
+    },
+    {
+      "word": "öpüşdürmək",
+      "pos": "verb",
+      "az": "Xahişlə və ya təkidlə iki nəfərin bir-birini öpməsinə səbəb olmaq.",
+      "en": "to get two people to kiss each other, by asking or insisting",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 553",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=553"
+        }
+      ],
+      "senses": []
+    },
+    {
+      "word": "görüşüb-öpüşmə",
+      "pos": "noun",
+      "az": "Görüşəndə bir-birini öpərək salamlaşma.",
+      "en": "greeting one another with kisses on meeting",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 2, s. 266",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_2.pdf#page=266"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 552",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=552"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 356",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=356"
+        },
+        {
+          "title": "Azərbaycan dilinin orfoqrafiya lüğəti (2021), s. 242",
+          "url": "https://www.dilcilik.az/kitabxana/arasdirmalar/Orfoqrafiya_2021.pdf#page=242"
+        }
+      ],
+      "senses": []
+    },
+    {
+      "word": "öpüşüb-görüşmə",
+      "pos": "noun",
+      "az": "Bir-birini öpüb salamlaşma, görüşdə öpüşlə hal-əhval tutma.",
+      "en": "an exchange of kisses in greeting",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 2, s. 266",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_2.pdf#page=266"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 552",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=552"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 356",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=356"
+        },
+        {
+          "title": "Azərbaycan dilinin orfoqrafiya lüğəti (2021), s. 490",
+          "url": "https://www.dilcilik.az/kitabxana/arasdirmalar/Orfoqrafiya_2021.pdf#page=490"
+        }
+      ],
+      "senses": []
+    }
+  ],
+  "connections": [
+    {
+      "a": "busə",
+      "b": "maç",
+      "type": "syn",
+      "sense_az": "Klassik dildə «busə», danışıqda isə «maç» eyni hərəkəti, bir öpüşü bildirir.",
+      "sense_en": "Busə is a literary word for a kiss. Maç names the same thing in colloquial speech.",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 1, s. 365",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_1.pdf#page=365"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 277",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=277"
+        }
+      ]
+    },
+    {
+      "a": "öpmə",
+      "b": "öpüş",
+      "type": "syn",
+      "sense_az": "Birinin öpmə hərəkəti mənasında bu iki isim eyni hadisəni bildirir.",
+      "sense_en": "As nouns denoting the act of kissing, the two words refer to the same action.",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 552",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=552"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 553",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=553"
+        }
+      ]
+    },
+    {
+      "a": "maç",
+      "b": "öpmə",
+      "type": "syn",
+      "sense_az": "Danışıq dilində «maç» bir öpüş və ya öpmə hərəkətidir.",
+      "sense_en": "In colloquial speech maç means a kiss or an act of kissing.",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 277",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=277"
+        }
+      ]
+    },
+    {
+      "a": "busə",
+      "b": "öpmək",
+      "type": "topic",
+      "sense_az": "Busə bir öpüşdür. «Busə etmək» ifadəsi öpmək mənasında işlənir.",
+      "sense_en": "Busə names a kiss. The expression busə etmək means to kiss.",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 1, s. 365",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_1.pdf#page=365"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 552",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=552"
+        }
+      ]
+    },
+    {
+      "a": "öpmək",
+      "b": "dodaq",
+      "type": "topic",
+      "sense_az": "Öpən adam başqa birinə və ya bir şeyə dodaqları ilə toxunur.",
+      "sense_en": "The lips are the part of the body used to kiss a person or an object.",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 552",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=552"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 1, s. 654",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_1.pdf#page=654"
+        }
+      ]
+    },
+    {
+      "a": "öpüş",
+      "b": "dodaq",
+      "type": "topic",
+      "sense_az": "Öpüşdə dodaqlarla toxunuş var. Öpüş göndərərkən isə əl dodağa aparılır.",
+      "sense_en": "A kiss involves contact with the lips. To blow a kiss, the hand is brought to the lips.",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 553",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=553"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 552",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=552"
+        }
+      ]
+    },
+    {
+      "a": "öpmək",
+      "b": "yanaq",
+      "type": "topic",
+      "sense_az": "«Yanağından öpmək» ifadəsində yanaq öpüşün toxunduğu yerdir.",
+      "sense_en": "In yanağından öpmək, to kiss someone on the cheek, yanaq names where the kiss lands.",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 522",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=522"
+        }
+      ]
+    },
+    {
+      "a": "öpmək",
+      "b": "dostluq",
+      "type": "topic",
+      "sense_az": "Öpmək dostluq bildirmək üçün edilən hərəkətlərdən biridir.",
+      "sense_en": "The dictionary includes friendship among the feelings a kiss can express.",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 552",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=552"
+        }
+      ]
+    },
+    {
+      "a": "öpmək",
+      "b": "sevgi",
+      "type": "topic",
+      "sense_az": "Birini öpmək ona sevgini ifadə etməyin yollarından biridir.",
+      "sense_en": "A kiss can be a gesture expressing love or affection.",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 552",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=552"
+        }
+      ]
+    },
+    {
+      "a": "öpmək",
+      "b": "toxunmaq",
+      "type": "syn",
+      "sense_az": "Məcazi işlənmədə «öpmək» bir şeyə yüngül toxunmaq mənasını verir.",
+      "sense_en": "In a figurative use, öpmək means to touch or brush against something.",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 552",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=552"
+        }
+      ]
+    },
+    {
+      "a": "öpmək",
+      "b": "görüşmək",
+      "type": "topic",
+      "sense_az": "Öpüş görüş zamanı verilən salamın bir forması ola bilir.",
+      "sense_en": "Kissing can form part of a greeting when people meet.",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 552",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=552"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 2, s. 266",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_2.pdf#page=266"
+        }
+      ]
+    },
+    {
+      "a": "dodaqlaşmaq",
+      "b": "öpüşmək",
+      "type": "topic",
+      "sense_az": "Dodaqlaşan iki adam qarşılıqlı olaraq bir-birini dodağından öpür.",
+      "sense_en": "Dodaqlaşmaq is a particular kind of mutual kissing in which the two people kiss on the lips.",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 1, s. 656",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_1.pdf#page=656"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 553",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=553"
+        }
+      ]
+    },
+    {
+      "a": "dodaqlaşmaq",
+      "b": "dodaq-dodağa",
+      "type": "topic",
+      "sense_az": "«Dodaq-dodağa» iki adamın necə öpüşdüyünü göstərir və «dodaqlaşmaq» felinin izahında işlənir.",
+      "sense_en": "Dodaq-dodağa means lip to lip and describes exactly how people kiss in dodaqlaşmaq.",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 1, s. 656",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_1.pdf#page=656"
+        }
+      ]
+    },
+    {
+      "a": "dodaqlaşma",
+      "b": "öpüşmə",
+      "type": "topic",
+      "sense_az": "Dodaqlaşma iki adamın bir-birini dodağından öpdüyü öpüşmədir.",
+      "sense_en": "Dodaqlaşma is an exchange of kisses specifically on the lips.",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 1, s. 656",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_1.pdf#page=656"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 553",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=553"
+        }
+      ]
+    },
+    {
+      "a": "öpüşüb-görüşmək",
+      "b": "görüşüb-öpüşmək",
+      "type": "syn",
+      "sense_az": "Hər iki ifadə görüş zamanı qarşılıqlı öpüşlə salamlaşmağı bildirir.",
+      "sense_en": "Both expressions describe people greeting one another with kisses when they meet.",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 2, s. 266",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_2.pdf#page=266"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 552",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=552"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 356",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=356"
+        },
+        {
+          "title": "Azərbaycan dilinin orfoqrafiya lüğəti (2021), s. 490",
+          "url": "https://www.dilcilik.az/kitabxana/arasdirmalar/Orfoqrafiya_2021.pdf#page=490"
+        },
+        {
+          "title": "Azərbaycan dilinin orfoqrafiya lüğəti (2021), s. 242",
+          "url": "https://www.dilcilik.az/kitabxana/arasdirmalar/Orfoqrafiya_2021.pdf#page=242"
+        }
+      ]
+    },
+    {
+      "a": "görüşüb-öpüşmək",
+      "b": "salamlaşmaq",
+      "type": "topic",
+      "sense_az": "Adamlar görüşəndə bir-birini öpməklə salamlaşa bilirlər.",
+      "sense_en": "Exchanging kisses on meeting is one way people greet one another.",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 2, s. 266",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_2.pdf#page=266"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 552",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=552"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 356",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=356"
+        },
+        {
+          "title": "Azərbaycan dilinin orfoqrafiya lüğəti (2021), s. 242",
+          "url": "https://www.dilcilik.az/kitabxana/arasdirmalar/Orfoqrafiya_2021.pdf#page=242"
+        }
+      ]
+    },
+    {
+      "a": "öpüşüb-görüşmək",
+      "b": "salamlaşmaq",
+      "type": "topic",
+      "sense_az": "Burada qarşılıqlı öpüş görüşdə salamlaşma hərəkətidir.",
+      "sense_en": "Here the exchange of kisses serves as a greeting.",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 2, s. 266",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_2.pdf#page=266"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 552",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=552"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 356",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=356"
+        },
+        {
+          "title": "Azərbaycan dilinin orfoqrafiya lüğəti (2021), s. 490",
+          "url": "https://www.dilcilik.az/kitabxana/arasdirmalar/Orfoqrafiya_2021.pdf#page=490"
+        }
+      ]
+    },
+    {
+      "a": "nəvaziş",
+      "b": "əzizləmə",
+      "type": "syn",
+      "sense_az": "Birinə incə münasibət göstərmə mənasında nəvaziş onun əzizlənməsidir.",
+      "sense_en": "In the sense of tender treatment, nəvaziş denotes the act of showing someone affection.",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 484",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=484"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 2, s. 166",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_2.pdf#page=166"
+        }
+      ]
+    },
+    {
+      "a": "nəvaziş",
+      "b": "mehribanlıq",
+      "type": "syn",
+      "sense_az": "Nəvaziş birinə göstərilən mehribanlıq və incə qayğı mənasında işlənir.",
+      "sense_en": "Nəvaziş can mean the warmth and tender kindness shown to someone.",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 484",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=484"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 303",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=303"
+        }
+      ]
+    },
+    {
+      "a": "nəvaziş",
+      "b": "oxşayış",
+      "type": "syn",
+      "sense_az": "«Oxşayış» sözünün eyniyazılı mənalarından biri əzizləmə, nəvazişdir.",
+      "sense_en": "One homonym of oxşayış means tenderness or a caress.",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 518",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=518"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 484",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=484"
+        }
+      ]
+    },
+    {
+      "a": "nəvaziş",
+      "b": "sığal",
+      "type": "topic",
+      "sense_az": "Sığal əli yüngülcə gəzdirməklə göstərilən nəvazişdir.",
+      "sense_en": "A gentle, affectionate stroke is one physical way of showing nəvaziş.",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 101",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=101"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 484",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=484"
+        }
+      ]
+    },
+    {
+      "a": "nəvaziş",
+      "b": "qucaqlamaq",
+      "type": "topic",
+      "sense_az": "Birini qolları arasına almaqla ona nəvaziş və mehribanlıq göstərmək mümkündür.",
+      "sense_en": "Hugging someone can be a gesture of tender affection.",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 200",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=200"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 484",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=484"
+        }
+      ]
+    },
+    {
+      "a": "nəvaziş",
+      "b": "nazlamaq",
+      "type": "topic",
+      "sense_az": "Birini nazlamaq ona əzizləyici söz və ya hərəkətlə nəvaziş göstərməkdir.",
+      "sense_en": "Nazlamaq is an action through which a person shows tenderness.",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 465",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=465"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 484",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=484"
+        }
+      ]
+    },
+    {
+      "a": "nəvaziş",
+      "b": "oxşamaq",
+      "type": "topic",
+      "sense_az": "«Oxşamaq» felinin bir mənası kiməsə mehriban sözlə və ya sığalla nəvaziş göstərməkdir.",
+      "sense_en": "One sense of oxşamaq is to express affection, for example through a caress.",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 517",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=517"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 484",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=484"
+        }
+      ]
+    },
+    {
+      "a": "nəvaziş",
+      "b": "anacan",
+      "type": "topic",
+      "sense_az": "«Anacan» sözü anaya nəvazişlə müraciət edərkən işlənir.",
+      "sense_en": "Anacan is an affectionate way of addressing one’s mother.",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 1, s. 115",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_1.pdf#page=115"
+        }
+      ]
+    },
+    {
+      "a": "nəvaziş",
+      "b": "xalacan",
+      "type": "topic",
+      "sense_az": "«Xalacan» xalaya və ya yaşlı qadına nəvazişlə müraciət formasıdır.",
+      "sense_en": "Xalacan is an affectionate form of address to an aunt or an older woman.",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 2, s. 416",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_2.pdf#page=416"
+        }
+      ]
+    },
+    {
+      "a": "nəvazişli",
+      "b": "oxşayıcı",
+      "type": "syn",
+      "sense_az": "Baxış, söz və ya hərəkət insanın mehriban münasibətini göstərirsə, ona «nəvazişli» və ya «oxşayıcı» deyilə bilər.",
+      "sense_en": "Both adjectives can describe a tender look, phrase or gesture.",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 484",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=484"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 518",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=518"
+        }
+      ]
+    },
+    {
+      "a": "oxşamaq",
+      "b": "tumarlamaq",
+      "type": "syn",
+      "sense_az": "Birini nəvazişlə əllə sığallamaq mənasında hər iki fel işlənir.",
+      "sense_en": "Both verbs can mean to stroke or caress someone affectionately.",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 517",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=517"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 375",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=375"
+        }
+      ]
+    },
+    {
+      "a": "oxşamaq",
+      "b": "sığallamaq",
+      "type": "syn",
+      "sense_az": "Birinin başını və ya saçını sevgi ilə əllə sığallamaq «oxşamaq» felinin bir mənasıdır.",
+      "sense_en": "Both verbs can describe gently stroking someone’s head or hair as a sign of affection.",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 517",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=517"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 101",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=101"
+        }
+      ]
+    },
+    {
+      "a": "sığallamaq",
+      "b": "tumarlamaq",
+      "type": "syn",
+      "sense_az": "İki felin ortaq mənalarından biri saçın və ya tükün üstündə əli yüngülcə gəzdirməkdir.",
+      "sense_en": "Both verbs can mean to stroke hair or fur gently with the hand.",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 101",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=101"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 375",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=375"
+        }
+      ]
+    },
+    {
+      "a": "qucaqlaşmaq",
+      "b": "sarılmaq",
+      "type": "syn",
+      "sense_az": "İnsanların bir-birini qolları arasına alması mənasında «qucaqlaşmaq» və «bir-birinə sarılmaq» eyni hərəkəti bildirir.",
+      "sense_en": "Both verbs can refer to two people putting their arms around one another.",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 200",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=200"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 41",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=41"
+        }
+      ]
+    },
+    {
+      "a": "qol-boyun",
+      "b": "qucaqlaşmaq",
+      "type": "topic",
+      "sense_az": "«Qol-boyun» sözündə təsvir edilən vəziyyətdə iki adam qollarını bir-birinin boynuna salıb qucaqlaşır.",
+      "sense_en": "Qol-boyun describes being in an embrace with arms around one another’s necks.",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 173",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=173"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 200",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=200"
+        }
+      ]
+    },
+    {
+      "a": "öpüş göndərmək",
+      "b": "öpüş",
+      "type": "topic",
+      "sense_az": "Əl dodaqdan kiməsə doğru yönəlir və bu işarə uzaqdan göndərilən bir öpüşü bildirir.",
+      "sense_en": "The hand moves from the lips toward the other person as a gesture representing a kiss.",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 553",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=553"
+        }
+      ]
+    },
+    {
+      "a": "öpüş göndərmək",
+      "b": "dodaq",
+      "type": "topic",
+      "sense_az": "Öpüş göndərən adam əvvəlcə əlini dodağına aparır.",
+      "sense_en": "The lips are where the gesture of blowing a kiss begins.",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 553",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=553"
+        }
+      ]
+    },
+    {
+      "a": "öpüş göndərmək",
+      "b": "əl",
+      "type": "topic",
+      "sense_az": "Uzaqdakı adama öpüş əl işarəsi ilə çatdırılır.",
+      "sense_en": "The hand gestures toward the person to whom the kiss is being sent.",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 553",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=553"
+        }
+      ]
+    },
+    {
+      "a": "busə etmək",
+      "b": "öpmək",
+      "type": "syn",
+      "sense_az": "Klassik dildə «busə etmək» müasir dildəki «öpmək» hərəkətini bildirir.",
+      "sense_en": "The literary expression busə etmək denotes the act of kissing.",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 1, s. 365",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_1.pdf#page=365"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 552",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=552"
+        }
+      ]
+    },
+    {
+      "a": "busə etmək",
+      "b": "busə",
+      "type": "topic",
+      "sense_az": "Bu ifadədə «busə» sözünün öpüş mənası saxlanır.",
+      "sense_en": "The noun busə supplies the meaning “kiss” in this expression.",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 1, s. 365",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_1.pdf#page=365"
+        }
+      ]
+    },
+    {
+      "a": "öpüş almaq",
+      "b": "öpmək",
+      "type": "syn",
+      "sense_az": "Lüğətdə «öpüş almaq» ifadəsi birini öpmək mənasında göstərilir.",
+      "sense_en": "The dictionary records öpüş almaq as an expression meaning to kiss someone.",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 553",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=553"
+        }
+      ]
+    },
+    {
+      "a": "öpüş almaq",
+      "b": "öpüş",
+      "type": "topic",
+      "sense_az": "Bu ifadədə birindən alınan «öpüş» həmin adamı öpməyi bildirir.",
+      "sense_en": "In this expression taking a kiss from someone refers to kissing them.",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 553",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=553"
+        }
+      ]
+    },
+    {
+      "a": "maçamaç",
+      "b": "öpmək",
+      "type": "topic",
+      "sense_az": "Zərf kimi «maçamaç» öpərkən dodaqların səs çıxarmasını təsvir edir.",
+      "sense_en": "As an adverb maçamaç describes the audible smacking sound made when kissing.",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 277",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=277"
+        }
+      ]
+    },
+    {
+      "a": "maçamaç",
+      "b": "marçıltı",
+      "type": "topic",
+      "sense_az": "Maçamaç öpərkən dodaqlardan gələn səsə marçıltı deyilir.",
+      "sense_en": "Marçıltı is the lip-smacking sound heard in the expression maçamaç öpmək.",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 277",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=277"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 291",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=291"
+        }
+      ]
+    },
+    {
+      "a": "maçamaç",
+      "b": "öpüşmə",
+      "type": "topic",
+      "sense_az": "İsim mənasında «maçamaç» bir neçə adamın bir-birini öpməsini bildirir.",
+      "sense_en": "As a noun maçamaç denotes a group exchanging kisses.",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 277",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=277"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 553",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=553"
+        }
+      ]
+    },
+    {
+      "a": "həmağuş",
+      "b": "qucaqlaşmaq",
+      "type": "topic",
+      "sense_az": "«Həmağuş» iki nəfərin bir-birinin qucağında olduğu vəziyyətdir.",
+      "sense_en": "Həmağuş describes the state of two people embracing one another.",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 2, s. 359",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_2.pdf#page=359"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 200",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=200"
+        }
+      ]
+    },
+    {
+      "a": "həmağuş",
+      "b": "qol-boyun",
+      "type": "syn",
+      "sense_az": "Bir-birini qucaqlamış halda olmağı həm «həmağuş», həm də «qol-boyun» zərfi bildirə bilir.",
+      "sense_en": "Both adverbs can describe people in one another’s arms.",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 2, s. 359",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_2.pdf#page=359"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 173",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=173"
+        }
+      ]
+    },
+    {
+      "a": "naz-nəvaziş",
+      "b": "nəvaziş",
+      "type": "syn",
+      "sense_az": "«Naz-nəvaziş» incə qayğı, nəvaziş mənasında işlənir.",
+      "sense_en": "Naz-nəvaziş denotes the tender affection expressed by nəvaziş.",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 466",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=466"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 484",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=484"
+        }
+      ]
+    },
+    {
+      "a": "sevdicik",
+      "b": "nəvaziş",
+      "type": "topic",
+      "sense_az": "«Sevdiciyim» sözü sevilən adama nəvazişlə müraciət etmək üçün işlənir.",
+      "sense_en": "Sevdiciyim is used to address a loved one affectionately.",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 4, s. 61",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_4.pdf#page=61"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti (2006), cild 3, s. 484",
+          "url": "https://www.urmu.eu/Azerbaycan_dilinin_izahli_lugeti_3.pdf#page=484"
+        }
+      ]
+    }
+  ]
+}

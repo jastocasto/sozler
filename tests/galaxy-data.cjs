@@ -10,6 +10,9 @@ for(const word of ['gözəl','qəşəng','yaraşıqlı','cazibədar','zərif','g
 for(const word of ['çirkin','eybəcər','yaraşıqsız'])assert.equal(group(word),'ugliness');
 assert.equal(group('mehriban'),'kindness');assert.equal(group('qəddar'),'cruelty');assert.equal(region('qəddar'),region('gözəl'));
 for(const word of ['eləmək','etmək','yaratmaq','getmək','öyrənmək'])assert.equal(region(word),'actions');
+for(const word of ['öpüş göndərmək','busə etmək','öpüş almaq'])assert.equal(group(word),'interact');
+for(const word of ['naz-nəvaziş','sevdicik','həmağuş'])assert.equal(group(word),'feelings');
+assert.equal(group('maçamaç'),'manner');
 assert.equal(group('kompüter'),'digital');assert.equal(group('kitab'),'learning');assert.equal(group('otaq'),'home');
 for(const e of atlas.edges){assert(e.from&&e.to);assert.equal(e.from.node,e.a);assert.equal(e.to.node,e.b);}
 const frozen=JSON.stringify(data.points),points=atlas.points.filter((p,i)=>i%211===0);

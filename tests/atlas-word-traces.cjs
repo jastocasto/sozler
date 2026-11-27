@@ -16,9 +16,11 @@ function event(element, type, pointerType) {
 const pair = Array.from(model.related(model.byWord.get(selected))).filter(r => r.node.w === neighbor);
 assert.deepEqual(pair.map(r => r.edge.type).sort(), ['ant', 'root']);
 const ids = pair.map(r => r.edge.id).sort((a, b) => a - b);
-const target = node(neighbor), layer = $('links'), materials = $('word-materials');
-assert.equal(materials.querySelectorAll('radialGradient').length, 7);
-assert.equal(node(selected).style.getPropertyValue('--word-surface'), 'url(#word-surface-selected)');
+const target = node(neighbor), layer = $('links');
+assert.equal(node(selected).style.getPropertyValue('--word-surface') || '', '');
+assert.equal(node(selected).querySelector('.bubble').getAttribute('fill'), '#ecaa6b');
+assert.equal(target.querySelector('.bubble').getAttribute('fill'), window.WordWeb.types[target.dataset.type].fill);
+assert.equal($('bubbles').querySelector('.surrounding-word .bubble').getAttribute('fill'), '#41423f');
 assert.equal(traced().length, 0);
 
 event(target, 'pointerenter', 'touch');
@@ -43,7 +45,7 @@ event(node(selected), 'blur');
 
 $('filters').querySelector('[data-type="root"]').click();
 h.runUntilIdle();
-assert.equal($('word-materials'), materials);
+assert.equal(node(neighbor).querySelector('.bubble').getAttribute('fill'), window.WordWeb.types.ant.fill);
 event(node(neighbor), 'focus');
 assert.deepEqual(traced().map(p => Number(p.dataset.edgeId)), [pair.find(r => r.edge.type === 'ant').edge.id]);
 assert(!node(neighbor).getAttribute('aria-label').includes('Eyni kök və törəmə sözlər'));

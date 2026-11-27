@@ -1,17 +1,18 @@
 {
-  "entries": 90849,
+  "entries": 90856,
   "policy": "Editorial navigation groups based on primary definitions, explicit anchors, parts of speech and documented neighbours. Proximity is not a synonym, root or etymology claim. Positions within each cluster are preserved; clusters and regions are packed apart. Spelling-dictionary words join the topic of their meaning or base word, else a word-formation group.",
   "methods": {
-    "preserved map location": 22207
+    "preserved map location": 22207,
+    "editorial anchor": 7
   },
   "spellingMethods": {
-    "primary meaning": 11403,
-    "base or neighbour": 30691,
-    "word formation": 25846,
-    "word class": 702
+    "primary meaning": 11460,
+    "base or neighbour": 30669,
+    "word formation": 25812,
+    "word class": 701
   },
   "regions": 10,
   "clusters": 76,
-  "source_sha256": "7ecddf8d3b94649462d9e6b89b55cdcb41e462b5f1d113d346fb514699f479c8",
-  "notes": "Grouping is approximate and can be revised. Polysemous words have one primary map location. All earlier headwords are retained, each at its exact offset from its cluster centre; clusters move as a whole when the map is packed. New editorial words carry topic links only; no inflections have been added. Coordinate depth is a visual treatment, not linguistic distance."
+  "source_sha256": "14cecbf7efa058c4e5bfec52ec1b6a0594e1ad32bbe5af651dcbe77c6c38737f",
+  "notes": "Each word has one primary map location. Earlier dictionary words keep their depth and offset from the centre of their group as the groups move. Word cards give the documented relationship and its evidence. The map uses depth to help readers see the layers."
 }
