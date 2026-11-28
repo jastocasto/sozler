@@ -6,6 +6,7 @@ const bookTitle = 'Qaranlıq günəş';
 const shelfKey = 'soz-toxumasi:reader:v1';
 const idPattern = /^[a-z0-9-]{1,80}$/;
 const maxPageLength = 20000;
+const pageOrder = new Intl.Collator('az', {numeric:true});
 function readingSpelling(value) {
  return value.toLocaleLowerCase('az').normalize('NFC').trim().replace(/\s+/g,' ').replace(/,\s*/g,', ').replace(/[‐‑]/g,'-');
 }
@@ -17,12 +18,19 @@ function validatePages(input) {
  if (!Array.isArray(input)) throw Error('The reading shelf in this backup is invalid.');
  return input.map(value => {
   if (!value || typeof value !== 'object') throw Error('This backup contains an invalid reading page.');
-  const {id, title, page, text, updated} = value;
+  const {id, title, page, text, updated, chapter} = value;
   if (typeof id !== 'string' || !idPattern.test(id) || !label(title, 140) || !title.trim() || !label(page, 20) ||
       typeof text !== 'string' || !text.trim() || text.length > maxPageLength || !Number.isSafeInteger(updated) || updated < 0 || updated > 253402300799999) {
    throw Error('This backup contains an invalid reading page.');
   }
-  return {id,title,page,text,updated};
+  const record = {id,title,page,text,updated};
+  if (chapter !== undefined) {
+   if (!chapter || !label(chapter.number,16) || !chapter.number.trim() || !label(chapter.title,120) || !chapter.title.trim()) {
+    throw Error('This reading page has an invalid chapter heading.');
+   }
+   record.chapter = {number:chapter.number,title:chapter.title};
+  }
+  return record;
  });
 }
 function wordsOnPage(text, model) {
@@ -59,6 +67,7 @@ function excerpt(text, start, end) {
 
 function mount({host, study, model, analyze, navigate, openWord, onChange}) {
  const document = host.ownerDocument, levels = root.SozStudyLibrary.levels;
+ const wide = root.matchMedia?.('(min-width: 900px)');
  let pages = new Map(), current = null, scanJob = null, dialog = null, draft = null;
  let shelfStatus = '', fields = null;
  function node(tag, className, text) {
@@ -104,6 +113,27 @@ function mount({host, study, model, analyze, navigate, openWord, onChange}) {
   const card = node('section','study-section reader-book'), title = node('h2','',bookTitle);title.lang='az';
   const source = node('a','reader-source','Library record');source.href='https://www.preslib.az/az/book/8MbPRIFKDQlXWDF';source.target='_blank';source.rel='noopener noreferrer';
   card.append(title,node('p','study-note','Zaur Pənahov'),source);return card;
+ }
+ function importCard() {
+  const card = node('section','study-section reader-import'), status = node('p','reader-status');
+  status.setAttribute('role','status');
+  const control = node('label','study-button reader-file','Import pages'), input = node('input');
+  input.type='file';input.accept='.json,application/json';control.append(input);
+  input.addEventListener('change',async () => {
+   const file=input.files?.[0];input.value='';if (!file) return;
+   try {
+    const data=JSON.parse(await file.text());
+    if (!host.contains(card)) return;
+    if (data?.format!=='sozler-personal-study' || data.version!==1) throw Error('Choose a Sozler reading-pages file.');
+    const records=validatePages(data.readingPages);
+    if (!records.length) throw Error('This file contains no reading pages.');
+    restore(records);
+    const first=records.slice().sort((a,b)=>pageOrder.compare(a.page,b.page))[0];
+    navigate('read/'+first.id);
+   } catch (error) { status.textContent=error.message; }
+  });
+  card.append(node('h2','','Book pages'),control,status);
+  return card;
  }
  function pageLabel(page) { return page.page ? 'Page '+page.page : page.text.replace(/\s+/g,' ').slice(0,30)+'…'; }
  function shelf() {
@@ -166,7 +196,7 @@ function mount({host, study, model, analyze, navigate, openWord, onChange}) {
    const existing=entry || savedPages().find(item=>item.title===titleText && item.page===pageNumber && item.text===body);
    const id=existing?.id || root.crypto?.randomUUID?.() || Date.now().toString(36)+'-'+Math.random().toString(36).slice(2);
    const updated=Math.max(Date.now(),(existing?.updated ?? 0)+1);
-   pages.set(id,{id,title:titleText,page:pageNumber,text:body,updated});storeShelf();
+   pages.set(id,{...existing,id,title:titleText,page:pageNumber,text:body,updated});storeShelf();
    draft=null;fields=null;
    if (entry) showPage(pages.get(id));else navigate('read/'+id);
   }
@@ -177,23 +207,67 @@ function mount({host, study, model, analyze, navigate, openWord, onChange}) {
   return panel;
  }
  function showPage(entry) {
+  const all=savedPages();
+  entry=pages.get(entry.id)||entry;
   fields=null;current=entry;
-  const frame = node('div','reader-layout'), body = node('section','study-section reader-paper');
-  const title = node('h2','',entry.title);title.lang='az';
-  const controls = node('div','reader-actions');
-  controls.append(button('Add another page','study-button',()=>navigate('read')),button('Edit text','study-text-link',()=>{
-   body.replaceChildren(editor(entry));
-  }));
-  const passage = node('p','reader-passage');passage.lang='az';
-  for (const part of wordsOnPage(entry.text,model)) {
-   if (typeof part === 'string') { passage.append(document.createTextNode(part));continue; }
-   const word = button(part.text,'reader-word',()=>lookup(entry,part,word));word.lang='az';passage.append(word);
+  const volume=all.filter(page=>page.title===entry.title).sort((a,b)=>pageOrder.compare(a.page,b.page));
+  let start=volume.findIndex(page=>page.id===entry.id), end=start;
+  const pair=(a,b)=>a?.page && b?.page && /^\d+$/.test(a.page) && /^\d+$/.test(b.page) &&
+   Number(a.page)%2===0 && Number(b.page)===Number(a.page)+1;
+  if (wide?.matches) {
+   if (pair(volume[start-1],entry)) start--;
+   if (pair(volume[start],volume[start+1])) end=start+1;
   }
-  body.append(title,node('p','study-note',entry.page?'Page '+entry.page+' · Tap a word for its meaning.':'Tap a word for its meaning.'),controls);
-  if (shelfStatus) body.append(node('p','study-note',shelfStatus));
-  body.append(passage);
-  frame.append(body);const saved=shelf();if(saved)frame.append(saved);
-  host.replaceChildren(frame);passage.tabIndex=-1;
+  const frame=node('section','reader-volume'), header=node('header','reader-volume-header'), scene=node('div','reader-book-scene');
+  const heading=node('h2','reader-volume-title',entry.title);heading.lang='az';
+  const tools=node('div','reader-actions reader-volume-tools');
+  tools.append(button('Back to shelf','study-text-link',()=>navigate('read')),button('Edit text','study-text-link',()=>{
+   frame.replaceChildren(editor(entry));
+  }));
+  const navigation=node('nav','reader-pager');navigation.setAttribute('aria-label','Book pages');
+  const jump=node('select','study-input reader-page-jump');jump.setAttribute('aria-label','Go to page');
+  for (const page of volume) {
+   const option=node('option','',pageLabel(page));option.value=page.id;option.selected=page.id===entry.id;jump.append(option);
+  }
+  jump.addEventListener('change',()=>{ if(jump.value)navigate('read/'+jump.value); });
+  function turn(label,target) {
+   const control=button(label,'study-button reader-turn',()=>{ if(target)navigate('read/'+target.id); });
+   control.disabled=!target;return control;
+  }
+  navigation.append(turn('← Previous',volume[start-1]),jump,turn('Next →',volume[end+1]));
+  header.append(heading,tools,navigation);
+  if (end>start) scene.classList.add('reader-spread');
+  const visible=volume.slice(start,end+1);
+  for (const page of visible) scene.append(leaf(page));
+  if (shelfStatus) header.append(node('p','study-note',shelfStatus));
+  frame.append(header,scene);
+  if (volume[end+1]) {
+   const bottom=node('div','reader-bottom');
+   bottom.append(turn('Next →',volume[end+1]));frame.append(bottom);
+  }
+  host.replaceChildren(frame);
+ }
+ function leaf(page) {
+  const paper=node('article','reader-paper reader-leaf'), passage=node('div','reader-passage');
+  paper.lang='az';paper.setAttribute('aria-label',page.page?'Page '+page.page:page.title);
+  if (page.chapter) {
+   const chapter=node('header','reader-chapter');
+   chapter.append(node('span','reader-chapter-number',page.chapter.number),node('h3','',page.chapter.title));
+   paper.append(chapter);
+  }
+  let offset=0;
+  for (const paragraph of page.text.split('\n\n')) {
+   const block=node('p','reader-paragraph');
+   for (const part of wordsOnPage(paragraph,model)) {
+    if (typeof part==='string') { block.append(document.createTextNode(part));continue; }
+    const location={text:part.text,start:offset+part.start,end:offset+part.end};
+    const word=button(part.text,'reader-word',()=>lookup(page,location,word));word.lang='az';block.append(word);
+   }
+   passage.append(block,document.createTextNode('\n\n'));offset+=paragraph.length+2;
+  }
+  paper.append(passage);
+  if (page.page) paper.append(node('footer','reader-folio',page.page));
+  return paper;
  }
  function lookup(entry, part, opener) {
   const quote = excerpt(entry.text,part.start,part.end);
@@ -259,9 +333,10 @@ function mount({host, study, model, analyze, navigate, openWord, onChange}) {
   const entry = id && pages.get(id);
   if (entry) { showPage(entry);return; }
   const frame = node('div','reader-layout reader-start'), create = editor(null,id?'This page is available after restoring its reading shelf.':'');
-  const right = node('div','reader-sidebar');right.append(bibliographicCard());const saved=shelf();if(saved)right.append(saved);
+  const right = node('div','reader-sidebar');right.append(bibliographicCard(),importCard());const saved=shelf();if(saved)right.append(saved);
   frame.append(create,right);host.replaceChildren(frame);
  }
+ wide?.addEventListener?.('change',()=>{ if (current&&!fields&&!dialog) showPage(current); });
  return {open,close,exportPages:savedPages,restore};
 }
 

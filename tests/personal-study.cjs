@@ -117,6 +117,8 @@ const pageNumber=[...reader.querySelectorAll('.reader-field')].find(field=>field
 pageNumber.querySelector('input').value='17';
 reader.querySelector('textarea').value='Nə var, nə yox? Geci tezi görüşərik.';
 [...reader.querySelectorAll('button')].find(button=>button.textContent==='Open page').click();
+assert.equal(reader.querySelector('.reader-folio').textContent,'17');
+assert.equal(reader.querySelector('.reader-leaf').getAttribute('aria-label'),'Page 17');
 assert([...reader.querySelectorAll('.reader-word')].some(button=>button.textContent==='Nə var, nə yox'));
 const phrase=[...reader.querySelectorAll('.reader-word')].find(button=>button.textContent==='Geci tezi');
 assert(phrase,'A familiar spelling can be looked up as one expression');
@@ -131,4 +133,7 @@ const backup=window.SozStudyModel.create({storage:null,validWord:w=>h.model.byWo
 backup.importJSON(store.exportJSON());
 assert.equal(backup.word('geci-tezi').reading.title,'Qaranlıq günəş');
 assert.equal(backup.word('gözəl').context.seconds,568);
+const example={id:'sample-12',title:'Example',page:'12',text:'Bir nümunə.',updated:0,chapter:{number:'2',title:'Nümunə'}};
+const [validated]=window.SozStudyReader.validatePages([example]);
+assert.equal(JSON.stringify(validated),JSON.stringify(example));
 console.log('PASS five-tab navigation, Today by default, daily card and bank flow, map mastery, attached media and reading sources, restored settings, quiz evidence and race guard.');
