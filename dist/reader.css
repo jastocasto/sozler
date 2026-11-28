@@ -1,6 +1,9 @@
 .reader-layout { display:grid; grid-template-columns:minmax(0,1fr) minmax(235px, .42fr); align-items:start; gap:clamp(16px,3.5vw,34px); }
+.reader-start { grid-template-columns:minmax(0,.66fr) minmax(0,1fr); }
 .reader-layout > .reader-shelf { margin:0; }
 .reader-book h2 { margin-bottom:5px; }
+.study-page .reader-book-count { margin:12px 0 8px; font-weight:600; }
+.reader-book .reader-source { display:flex; width:fit-content; }
 .reader-source { display:inline-flex; min-height:44px; align-items:center; font-size:.875rem; }
 .reader-field { display:grid; gap:5px; grid-template-columns:minmax(0,1fr); margin:12px 0; font-weight:600;}
 .reader-field input,.reader-field textarea,.reader-shelf select { width:100%; min-width:0; }

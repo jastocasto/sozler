@@ -112,7 +112,8 @@ assert.equal(restored.window.document.querySelector('.galaxy-studio').dataset.ma
 
 go('#study/read');
 const reader=$('studyReadingContent');
-assert.equal(reader.querySelector('input').value,'Qaranlıq günəş');
+assert.equal(reader.querySelector('.reader-editor input').value,'Qaranlıq günəş');
+assert(reader.querySelector('.reader-book').textContent.includes('Open your private book link'));
 const pageNumber=[...reader.querySelectorAll('.reader-field')].find(field=>field.querySelector('span').textContent==='Page number (optional)');
 pageNumber.querySelector('input').value='17';
 reader.querySelector('textarea').value='Nə var, nə yox? Geci tezi görüşərik.';
@@ -143,4 +144,9 @@ assert.equal(backup.word('gözəl').context.seconds,568);
 const example={id:'sample-12',title:'Example',page:'12',text:'Bir nümunə.',updated:0,chapter:{number:'2',title:'Nümunə'}};
 const [validated]=window.SozStudyReader.validatePages([example]);
 assert.equal(JSON.stringify(validated),JSON.stringify(example));
+go('#study/read');
+assert(reader.querySelector('.reader-book').textContent.includes('1 saved page'));
+assert.equal(reader.querySelector('.reader-book .study-cta').textContent,'Open book · Page 17');
+tab('home');
+assert($('studyToday').textContent.includes('Continue Qaranlıq günəş'));
 console.log('PASS five-tab navigation, Today by default, daily card and bank flow, map mastery, attached media and reading sources, restored settings, quiz evidence and race guard.');

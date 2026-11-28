@@ -149,6 +149,8 @@ function mount({study,model,savedWords,openWord,navigate,getMotion,setMotion,ana
   if(completed<target)actions.append(button(started?'Continue flashcards':'Learn '+target+' words','study-cta',()=>navigate('vocab/new')));
   if(due)actions.append(button('Review '+due+' due','study-button',()=>navigate('vocab/review')));
   if(!actions.childElementCount)actions.append(button('Open word banks','study-button',()=>navigate('vocab')));
+  const reading=reader.resume();
+  if(reading)actions.append(button('Continue '+reading.title,'study-button',()=>navigate('read/'+reading.id)));
   lead.append(leadTitle,meter,element('p','study-note','New words mastered today'),actions);
   const practiceTitle=element('div','study-lead-title');
   practiceTitle.append(element('h2','','Daily study'),element('span','study-note',minutes+' min planned'));

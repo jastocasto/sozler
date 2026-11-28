@@ -15,9 +15,14 @@ h1{font:400 36px/1.1 Georgia,serif} a{color:#51432d}
 <main>
 <h1>Reading desk</h1>
 <p id="book-status" role="status">Opening your book…</p>
+<button id="book-retry" type="button" hidden>Try again</button>
 <a href="/#study/read">Open the shelf</a>
 </main>
-<script src="study-reader.js?v=d7fb8e2630a7fc7d"></script>
-<script>window.SozStudyReader.openPrivateLink(document.getElementById('book-status'));</script>
+<script src="study-reader.js?v=c440d83edf0283f9"></script>
+<script>
+const statusNode=document.getElementById('book-status'), retry=document.getElementById('book-retry');
+const openBook=()=>window.SozStudyReader.openPrivateLink(statusNode,retry);
+retry.addEventListener('click',openBook);openBook();
+</script>
 </body>
 </html>

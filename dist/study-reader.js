@@ -55,10 +55,16 @@ function storedPages(storage) {
 function firstPage(records) {
  return records.slice().sort((a,b)=>pageOrder.compare(a.page,b.page))[0];
 }
-async function openPrivateLink(status) {
+function resumeFrom(records) {
+ let last;
+ try { last=root.localStorage.getItem(placeKey); } catch {}
+ return records.find(page=>page.id===last) || firstPage(records);
+}
+async function openPrivateLink(status,retry) {
  const link=root.location.hash.match(/^#([a-f0-9]{20})\.([A-Za-z0-9_-]{43})$/);
- root.history.replaceState(null,'',root.location.pathname);
  if (!link) { status.textContent='Open the original private book link to load the pages.';return; }
+ if (retry) retry.hidden=true;
+ status.textContent='Opening your book…';
  try {
   const decode=value=>Uint8Array.from(root.atob(value.replace(/-/g,'+').replace(/_/g,'/')),ch=>ch.charCodeAt(0));
   const response=await root.fetch('/reader-bundles/'+link[1]+'.json');
@@ -70,8 +76,11 @@ async function openPrivateLink(status) {
   const storage=root.localStorage, pages=new Map(storedPages(storage).map(page=>[page.id,page]));
   mergePages(pages,records);
   storage.setItem(shelfKey,JSON.stringify([...pages.values()]));
-  root.location.replace('/#study/read/'+firstPage(records).id);
- } catch { status.textContent='The book could not open. Try the original link again.'; }
+  root.location.replace('/#study/read/'+resumeFrom(records).id);
+ } catch {
+  status.textContent='The book could not open in this browser. Try again or open this link in your usual browser.';
+  if (retry) retry.hidden=false;
+ }
 }
 function wordsOnPage(text, model) {
  const words = [...text.matchAll(/[\p{L}\p{M}]+(?:['’‐‑-][\p{L}\p{M}]+)*/gu)];
@@ -159,10 +168,19 @@ function mount({host, study, model, analyze, navigate, openWord, onChange}) {
   clearTimeout(selectionTimer);clearTimeout(touch?.timer);touch=null;practice=null;
   scanJob?.abort();scanJob=null;closeLookup();current=null;fields=null;readerMode(false);host.replaceChildren();
  }
- function bibliographicCard() {
+ function bibliographicCard(entries) {
   const card = node('section','study-section reader-book'), title = node('h2','',bookTitle);title.lang='az';
   const source = node('a','reader-source','Library record');source.href='https://www.preslib.az/az/book/8MbPRIFKDQlXWDF';source.target='_blank';source.rel='noopener noreferrer';
-  card.append(title,node('p','study-note','Zaur Pənahov'),source);return card;
+  card.append(title,node('p','study-note','Zaur Pənahov'));
+  const volume=entries.filter(page=>page.title===bookTitle).sort((a,b)=>pageOrder.compare(a.page,b.page));
+  const start=resumeFrom(volume);
+  if (start) {
+   const first=volume[0].page,last=volume.at(-1).page;
+   const range=first&&last&&first!==last?' · '+first+'–'+last:'';
+   card.append(node('p','reader-book-count',volume.length+(volume.length===1?' saved page':' saved pages')+range),
+    button('Open book · '+pageLabel(start),'study-cta',()=>navigate('read/'+start.id)));
+  } else card.append(node('p','study-note','Open your private book link once to put pages 158–163 on this shelf in this browser.'));
+  card.append(source);return card;
  }
  function importCard() {
   const card = node('section','study-section reader-import'), status = node('p','reader-status');
@@ -183,12 +201,9 @@ function mount({host, study, model, analyze, navigate, openWord, onChange}) {
   return card;
  }
  function pageLabel(page) { return page.page ? 'Page '+page.page : page.text.replace(/\s+/g,' ').slice(0,30)+'…'; }
- function shelf() {
-  const entries = savedPages();
+ function shelf(entries) {
   if (!entries.length) return null;
   const wrap = node('section','study-section reader-shelf'), title = node('h2','','Saved pages');
-  let last;
-  try { last=entries.find(page=>page.id===root.localStorage.getItem(placeKey)); } catch {}
   const list = node('select','study-input');list.setAttribute('aria-label','Saved pages');
   const placeholder = node('option','','Choose a page');placeholder.value='';list.append(placeholder);
   for (const page of entries) {
@@ -197,9 +212,7 @@ function mount({host, study, model, analyze, navigate, openWord, onChange}) {
    list.append(option);
   }
   list.addEventListener('change',() => { if (list.value) navigate('read/'+list.value); });
-  wrap.append(title);
-  if (last) wrap.append(button('Continue reading · '+pageLabel(last),'study-button',()=>navigate('read/'+last.id)));
-  wrap.append(list);return wrap;
+  wrap.append(title,list);return wrap;
  }
  function field(labelText, control) {
   const el = node('label','reader-field');el.append(node('span','',labelText),control);return el;
@@ -583,19 +596,20 @@ function mount({host, study, model, analyze, navigate, openWord, onChange}) {
   drill();
  }
  function open(id) {
-  close();readShelf();
+  close();const entries=savedPages();
   const entry = id && pages.get(id);
   if (entry) { showPage(entry);return; }
   const frame = node('div','reader-layout reader-start'), create = editor(null,id?'This page is available after restoring its reading shelf.':'');
-  const right = node('div','reader-sidebar');right.append(bibliographicCard(),importCard());const saved=shelf();if(saved)right.append(saved);
-  frame.append(create,right);host.replaceChildren(frame);
+  const sidebar=node('div','reader-sidebar');
+  sidebar.append(bibliographicCard(entries));const saved=shelf(entries);if(saved)sidebar.append(saved);
+  sidebar.append(importCard());frame.append(sidebar,create);host.replaceChildren(frame);
  }
  wide?.addEventListener?.('change',()=>{
   if (!current||fields||practice) return;
   if(scroll)positions.set(current.id,scroll.scrollTop);
   closeLookup();showPage(current);
  });
- return {open,close,exportPages:savedPages,restore};
+ return {open,close,exportPages:savedPages,restore,resume:()=>resumeFrom(savedPages())};
 }
 
 root.SozStudyReader = {mount,validatePages,wordsOnPage,openPrivateLink};
