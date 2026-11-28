@@ -47,3 +47,42 @@ window.SozReaderBookPages = [
   "updated": 0
  }
 ];
+
+window.SozReaderBook = {
+ cover: 'reader/qaranliq-gunes-cover.jpg',
+ subtitle: 'Xeyrin çöküşü',
+ author: 'Zaur Pənahov',
+ glossary: [
+  {
+   word: 'ekro', forms: ['ekrolar'],
+   az: 'Görünüşcə insandan fərqlənməyən, paralel dünyadan gəlmiş uzunömürlü, sehrli güclərə sahib irq.',
+   en: 'A long-lived people from a parallel world, indistinguishable from humans in appearance and endowed with magical powers.'
+  },
+  {
+   word: 'Üçlük', forms: ['Üçlüyün', 'Üçlüyə'],
+   az: 'Hər üç vilayəti idarə edən üç müdrik ekro.',
+   en: 'The Three, a group of three wise ekros who govern all three provinces.'
+  },
+  {
+   word: 'vidra', forms: ['vidradı', 'vidradır', 'vidralar', 'vidralardan', 'vidralara'],
+   az: 'Paralel dünyadan gəlmiş və yalnız gecələr üzə çıxan vəhşi məxluq.',
+   en: 'A wild creature from a parallel world that comes out only at night.'
+  },
+  {
+   word: 'nakra', forms: ['nakraya', 'nakradan', 'nakranın', 'nakralar'],
+   az: 'Yeni Azarın cinayət və vidralara qarşı mübarizədə istifadə etdiyi döyüşçü növü.',
+   en: 'A type of fighter used by New Azar against crime and vidras.'
+  },
+  {
+   word: 'qazza', forms: ['qazzalar', 'qazzanı', 'qazzaların', 'qazzalardan', 'qazzalara'],
+   az: 'Raqanın cinayət və vidralara qarşı mübarizədə istifadə etdiyi döyüşçü növü.',
+   en: 'A type of fighter used by Raqa against crime and vidras.'
+  },
+  {
+   word: 'Kölgə', forms: ['Kölgələr'],
+   az: 'Qaranlıq şahzadənin yaxın adamları.',
+   en: 'The Shadows, the Dark Prince’s close associates.'
+  }
+ ],
+ stress: 'Kitabdakı adların böyük qismində vurğu birinci hecaya düşür.'
+};

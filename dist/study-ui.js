@@ -150,8 +150,8 @@ function mount({study,model,savedWords,openWord,navigate,getMotion,setMotion,ana
   if(completed<target)actions.append(button(started?'Continue flashcards':'Learn '+target+' words','study-cta',()=>navigate('vocab/new')));
   if(due)actions.append(button('Review '+due+' due','study-button',()=>navigate('vocab/review')));
   if(!actions.childElementCount)actions.append(button('Open word banks','study-button',()=>navigate('vocab')));
-  const reading=reader.resume();
-  if(reading)actions.append(button('Continue '+reading.title,'study-button',()=>navigate('read/'+reading.id)));
+  const reading=reader.readingShortcut();
+  if(reading)actions.append(button(reading.label,'study-button',()=>navigate(reading.route)));
   lead.append(leadTitle,meter,element('p','study-note','New words mastered today'),actions);
   const practiceTitle=element('div','study-lead-title');
   practiceTitle.append(element('h2','','Daily study'),element('span','study-note',minutes+' min planned'));
@@ -254,7 +254,11 @@ function mount({study,model,savedWords,openWord,navigate,getMotion,setMotion,ana
    media.open(word?null:key,word?.w);
   }
   else if(tab==='settings')settings();
-  else if(tab==='read')reader.open(key);
+  else if(tab==='read'){
+   if(key==='glossary')title='Book glossary';
+   if(key==='cover')title='Qaranlıq günəş';
+   reader.open(key);
+  }
   else if(tab==='reading-practice')reader.openPractice();
   else if(tab==='practice'){
    const row=daily().rows.find(r=>r.key===key);

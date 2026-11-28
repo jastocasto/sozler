@@ -162,3 +162,47 @@
 @media (max-width:720px) {
  [data-soz-theme="dark"].book-reader-open .reader-paper { background:var(--reader-night); }
 }
+
+.reader-book-with-cover {
+ display:grid; grid-template-columns:clamp(60px,22%,96px) minmax(0,1fr); gap:14px; align-items:start;
+}
+.study-page .reader-shelf-cover {
+ width:100%; padding:0; border:0; border-radius:3px 5px 5px 3px; background:#741417; box-shadow:2px 4px 8px #2d18194a;
+}
+.reader-jacket-art { display:block; width:100%; aspect-ratio:2/3; object-fit:cover; border-radius:inherit; }
+.reader-book-details .study-text-link { display:block; }
+.reader-book-with-cover .reader-source { min-height:24px; }
+.reader-front {
+ display:flex; flex-direction:column; align-items:center; justify-content:center; gap:8px;
+ min-height:calc(100dvh - var(--reader-peek) - 24px);
+}
+.study-page .reader-front-back {
+ position:fixed; inset:env(safe-area-inset-top) auto auto max(12px,env(safe-area-inset-left)); z-index:4;
+ min-height:44px; padding:0 8px; background:none; border:0; color:var(--app-ink); font-size:.875rem;
+}
+.study-page .reader-cover-action {
+ display:grid; justify-items:center; gap:16px; width:min(350px,72vw,52dvh); padding:0;
+ border:0; color:var(--app-ink); background:none;
+}
+.study-page .reader-cover-action:disabled { opacity:1; }
+.reader-cover-board {
+ position:relative; display:block; isolation:isolate; perspective:1050px; width:100%; aspect-ratio:2/3;
+ border-radius:4px 8px 8px 4px; background:repeating-linear-gradient(#f7efd9 0 3px,#ddd1ba 3px 4px);
+ box-shadow:5px 6px 0 -2px #6c191b,10px 16px 38px #2513124d;
+}
+.reader-jacket {
+ position:absolute; inset:0; border-radius:inherit; transform-origin:left center; backface-visibility:hidden;
+ box-shadow:inset 2px 0 3px #1b080980;
+}
+.reader-cover-caption { font-size:.9375rem; font-weight:650; }
+.reader-glossary { max-width:680px; }
+.reader-glossary-terms { display:grid; grid-template-columns:minmax(80px,.26fr) minmax(0,1fr); margin:18px 0; }
+.reader-glossary-terms dt,.reader-glossary-terms dd { margin:0; padding:12px 0; border-bottom:1px solid var(--app-line); }
+.reader-glossary-terms dt { padding-right:10px; font:600 22px/1.35 Georgia,serif; }
+.study-page .reader-glossary-terms dd p { margin:0 0 5px; }
+.study-page .reader-glossary-stress { margin-bottom:4px; font-style:italic; }
+.reader-chapter-fields,.reader-photo-options { margin:8px 0; }
+.reader-chapter-fields summary,.reader-photo-options summary {
+ min-height:44px; padding:9px 0; color:var(--app-muted); font-size:.9rem; font-weight:600; cursor:pointer;
+}
+.reader-chapter-controls { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,2fr); gap:10px; }

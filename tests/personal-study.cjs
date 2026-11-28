@@ -112,10 +112,14 @@ assert.equal(restored.window.document.querySelector('.galaxy-studio').dataset.ma
 
 const reader=$('studyReadingContent');
 tab('home');
-const bookAction=[...$('studyToday').querySelectorAll('button')].find(button=>button.textContent==='Continue Qaranlıq günəş');
+const bookAction=[...$('studyToday').querySelectorAll('button')].find(button=>button.textContent==='Open Qaranlıq günəş');
 assert(bookAction,'A fresh home screen offers the book directly');
 bookAction.click();
+assert(reader.querySelector('.reader-jacket-art').src.endsWith('/qaranliq-gunes-cover.jpg'));
+reader.querySelector('.reader-cover-action').click();
 assert.equal(reader.querySelector('.reader-folio').textContent,'158');
+go('#study/read/glossary');
+assert.deepEqual([...reader.querySelectorAll('.reader-glossary dt')].map(term=>term.textContent),['ekro','Üçlük','vidra','nakra','qazza','Kölgə']);
 assert.equal(window.localStorage.getItem('soz-toxumasi:reader:v1'),undefined,'The built-in book is available without a local import');
 go('#study/read');
 assert.equal(reader.querySelector('.reader-editor input').value,'Qaranlıq günəş');

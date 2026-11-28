@@ -55,9 +55,11 @@ function storedPages(storage) {
 function firstPage(records) {
  return records.slice().sort((a,b)=>pageOrder.compare(a.page,b.page))[0];
 }
+function bookmark() {
+ try { return root.localStorage.getItem(placeKey); } catch { return null; }
+}
 function resumeFrom(records) {
- let last;
- try { last=root.localStorage.getItem(placeKey); } catch {}
+ const last=bookmark();
  return records.find(page=>page.id===last) || firstPage(records);
 }
 async function openPrivateLink(status,retry) {
@@ -119,7 +121,13 @@ function mount({host, study, model, analyze, navigate, openWord, onChange}) {
  const wide = root.matchMedia?.('(min-width: 900px)');
  const scroll=document.getElementById('studyPage');
  const positions=new Map(), passages=new WeakMap();
+ const book=root.SozReaderBook;
  const bookPages=new Map(validatePages(root.SozReaderBookPages ?? []).map(page=>[page.id,page]));
+ const lexicon=new Map();
+ for (const entry of book?.glossary ?? []) {
+  const spell=entry.word[0]===entry.word[0].toLocaleLowerCase('az')?readingSpelling:value=>value;
+  for (const key of [entry.word,...entry.forms]) lexicon.set(spell(key),entry);
+ }
  const pages=new Map();
  let current=null, scanJob=null, bubble=null, draft=null, fields=null, shelfStatus='';
  let highlighted=[], selectionTimer, touch=null, quietUntil=0;
@@ -169,24 +177,84 @@ function mount({host, study, model, analyze, navigate, openWord, onChange}) {
   for (const word of highlighted) word.setAttribute('data-reader-active','');
  }
  function close() {
-  if (fields && !current) draft = {title:fields.title.value,page:fields.page.value,text:fields.text.value};
+  if (fields && !current) draft = {title:fields.title.value,page:fields.page.value,text:fields.text.value,chapter:readChapter(fields)};
   if (current&&!fields&&scroll) positions.set(current.id,scroll.scrollTop);
   clearTimeout(selectionTimer);clearTimeout(touch?.timer);touch=null;
   scanJob?.abort();scanJob=null;closeLookup();current=null;fields=null;readerMode(false);host.replaceChildren();
  }
+ function coverArt() {
+  const img=node('img','reader-jacket-art');
+  img.src=book.cover;img.alt=[bookTitle,book.subtitle,book.author].join(' · ');
+  return img;
+ }
+ function bookPagesIn(entries) { return entries.filter(page=>page.title===bookTitle); }
+ function readingShortcut() {
+  const entry=resumeFrom(libraryPages());
+  if (!entry) return null;
+  const continuing=bookmark()===entry.id;
+  const route=book&&entry.title===bookTitle&&!continuing?'read/cover':'read/'+entry.id;
+  return {route,label:(continuing?'Continue ':'Open ')+entry.title};
+ }
+ function showCover(entries) {
+  const entry=resumeFrom(bookPagesIn(entries));
+  if (!entry) return;
+  readerMode(true);
+  const frame=node('section','reader-front');
+  const back=button('Shelf','reader-front-back',()=>navigate('read'));
+  const action=button('','reader-cover-action',swingOpen);
+  const board=node('span','reader-cover-board'),jacket=node('span','reader-jacket');
+  const caption=node('span','reader-cover-caption','Open book · '+pageLabel(entry));
+  jacket.append(coverArt());board.append(jacket);action.append(board,caption);
+  action.setAttribute('aria-label',caption.textContent);
+  const glossary=button('Book glossary','study-text-link',()=>navigate('read/glossary'));
+  frame.append(back,root.SozTheme.button(document,'reader-theme-toggle'),action,glossary);
+  host.replaceChildren(frame);
+  if (scroll) scroll.scrollTop=0;
+  function swingOpen() {
+   if (action.disabled) return;
+   const finish=()=>{if(host.contains(frame)) navigate('read/'+entry.id);};
+   if (!jacket.animate || root.matchMedia?.('(prefers-reduced-motion: reduce)')?.matches) {finish();return;}
+   action.disabled=true;
+   jacket.animate([{transform:'rotateY(0deg)'},{transform:'rotateY(-102deg)'}],
+    {duration:460,easing:'cubic-bezier(.38,.03,.25,1)',fill:'forwards'}).finished.then(finish,finish);
+  }
+ }
+ function showGlossary(entries) {
+  const panel=node('section','reader-glossary study-section');
+  const backTo=resumeFrom(bookPagesIn(entries));
+  const back=button(backTo?'Back to '+pageLabel(backTo).toLowerCase():'Reading desk','study-button',
+   ()=>navigate(backTo?'read/'+backTo.id:'read'));
+  const terms=node('dl','reader-glossary-terms');
+  for (const term of book.glossary) {
+   const heading=node('dt','',term.word);heading.lang='az';
+   const senses=node('dd',''), az=node('p','',term.az);az.lang='az';
+   senses.append(az,node('p','study-note',term.en));terms.append(heading,senses);
+  }
+  const stress=node('p','reader-glossary-stress',book.stress);stress.lang='az';
+  panel.append(back,terms,stress,node('p','study-note','In most of the names in the book, the stress falls on the first syllable.'));
+  host.replaceChildren(panel);
+ }
  function bibliographicCard(entries) {
   const card = node('section','study-section reader-book'), title = node('h2','',bookTitle);title.lang='az';
   const source = node('a','reader-source','Library record');source.href='https://www.preslib.az/az/book/8MbPRIFKDQlXWDF';source.target='_blank';source.rel='noopener noreferrer';
-  card.append(title,node('p','study-note','Zaur Pənahov'));
-  const volume=entries.filter(page=>page.title===bookTitle).sort((a,b)=>pageOrder.compare(a.page,b.page));
+  const details=node('div','reader-book-details');
+  details.append(title,node('p','study-note',book?.author ?? 'Zaur Pənahov'));
+  const volume=bookPagesIn(entries).sort((a,b)=>pageOrder.compare(a.page,b.page));
   const start=resumeFrom(volume);
   if (start) {
    const first=volume[0].page,last=volume.at(-1).page;
    const range=first&&last&&first!==last?' · '+first+'–'+last:'';
-   card.append(node('p','reader-book-count',volume.length+(volume.length===1?' page':' pages')+range),
+   details.append(node('p','reader-book-count',volume.length+(volume.length===1?' page':' pages')+range),
     button('Open book · '+pageLabel(start),'study-cta',()=>navigate('read/'+start.id)));
-  } else card.append(node('p','study-note','The book pages are unavailable. Reopen Sozler while connected to load them.'));
-  card.append(source);return card;
+   if (book) {
+    card.classList.add('reader-book-with-cover');
+    const thumbnail=button('','reader-shelf-cover',()=>navigate('read/cover'));
+    thumbnail.setAttribute('aria-label','View cover of '+bookTitle);
+    thumbnail.append(coverArt());card.append(thumbnail);
+    details.append(button('Book glossary','study-text-link',()=>navigate('read/glossary')));
+   }
+  } else details.append(node('p','study-note','The book pages are unavailable. Reopen Sozler while connected to load them.'));
+  details.append(source);card.append(details);return card;
  }
  function importCard() {
   const card = node('section','study-section reader-import'), status = node('p','reader-status');
@@ -229,50 +297,97 @@ function mount({host, study, model, analyze, navigate, openWord, onChange}) {
   input.addEventListener('change',() => { const file=input.files?.[0];input.value='';if (file) onFile(file); });
   const label = node('label','study-button reader-file');label.append(labelText,input);return label;
  }
+ function readChapter({chapterNumber,chapterTitle}) {
+  const number=chapterNumber.value.trim(),title=chapterTitle.value.trim();
+  return number||title?{number,title}:null;
+ }
  function editor(entry, notice = '') {
-  const panel = node('section','study-section reader-editor'), title = node('input'), page = node('input');
-  const text = node('textarea'), toolbar = node('div','reader-actions'), status = node('p','reader-status',notice || shelfStatus);
+  const panel=node('section','study-section reader-editor'), title=node('input'), page=node('input');
+  const text=node('textarea'),toolbar=node('div','reader-actions'),status=node('p','reader-status',notice||shelfStatus);
   status.setAttribute('role','status');
-  title.maxLength=140;title.value=entry?.title || draft?.title || bookTitle;title.required=true;
-  page.maxLength=20;page.value=entry?.page ?? draft?.page ?? '';page.inputMode='numeric';
-  text.maxLength=maxPageLength;text.rows=7;text.lang='az';text.spellcheck=false;text.value=entry?.text ?? draft?.text ?? '';
+  const chapterFields=node('details','reader-chapter-fields'),chapterNumber=node('input'),chapterTitle=node('input');
+  chapterNumber.maxLength=16;chapterTitle.maxLength=120;
+  function setChapter(chapter) {
+   chapterNumber.value=chapter?.number||'';chapterTitle.value=chapter?.title||'';
+   chapterFields.open=Boolean(chapter);
+  }
+  const chapterControls=node('div','reader-chapter-controls');
+  chapterControls.append(field('Chapter number',chapterNumber),field('Chapter title',chapterTitle));
+  chapterFields.append(node('summary','','Chapter heading'),chapterControls);
+  setChapter(entry?.chapter ?? (!entry?draft?.chapter:null));
+
+  title.maxLength=140;title.value=entry?.title||draft?.title||bookTitle;title.required=true;
+  page.maxLength=20;page.value=entry?.page??draft?.page??'';page.inputMode='numeric';
+  text.maxLength=maxPageLength;text.rows=7;text.lang='az';text.spellcheck=false;text.value=entry?.text??draft?.text??'';
   text.placeholder='Paste Azerbaijani text or scan a page.';
-  fields = {title,page,text};
-  const open = button('Open page','study-cta',save), cancel = button('Cancel scan','study-button',() => {
+  fields={title,page,text,chapterNumber,chapterTitle};
+  const photoOptions=node('details','reader-photo-options'), layout=node('select','study-input'),rotation=node('select','study-input');
+  function option(label,value) {const item=node('option','',label);item.value=value;return item;}
+  layout.append(option('One page','page'));
+  if (!entry) layout.append(option('Two facing pages','spread'));
+  rotation.append(option('As photographed','0'),option('Turn right','90'),option('Turn left','-90'),option('Turn upside down','180'));
+  photoOptions.append(node('summary','','Photo options'),field('Photo layout',layout),field('Photo rotation',rotation));
+  let queued=[],firstSaved=null,scanned=false;
+  const open=button('Open page','study-cta',save),cancel=button('Cancel scan','study-button',()=>{
    scanJob?.abort();scanJob=null;setScanning(false);status.textContent='Scan canceled.';
   });
   cancel.hidden=true;
-  function setScanning(value) { open.disabled=value;cancel.hidden=!value; }
+  function setScanning(active) { open.disabled=active;cancel.hidden=!active; }
+  function review(result,next=false) {
+   text.value=result.text.slice(0,maxPageLength);
+   if (next||!page.value.trim()) page.value=result.page;
+   if (result.chapter||next) setChapter(result.chapter);
+   open.textContent=queued.length?'Save and review next page':'Open page';
+   status.textContent=queued.length?'Review the left page first. The right page is next.':next?'Review the right page, then open the book.':'Check the scan for typos, then open the page.';
+  }
   async function scan(file) {
-   scanJob?.abort();const job = new AbortController();scanJob=job;
+   scanJob?.abort();const job=new AbortController(),spread=layout.value==='spread';scanJob=job;
    setScanning(true);status.textContent='Reading the photo on this device…';
    try {
-    const result = await root.SozReaderOCR.scan(file,{signal:job.signal,onProgress:progress => {
-     if (scanJob===job) status.textContent='Reading text · '+Math.round(100*progress)+'%';
-    }});
+    const results=await root.SozReaderOCR.scan(file,{title:title.value,spread,
+     rotation:Number(rotation.value)||0,signal:job.signal,onProgress:progress=>{
+      if (scanJob===job) status.textContent='Reading text · '+Math.round(100*progress)+'%';
+     }});
     if (scanJob!==job) return;
-    if (!result) { status.textContent='No text was found. Try a closer photo of one page.';return; }
-    text.value=result.slice(0,maxPageLength);status.textContent='Check the scan for typos, then open the page.';
+    if (!results.length) {status.textContent='No text was found. Try a closer photo of one page.';return;}
+    scanned=true;queued=results.slice(1);review(results[0]);
+    if (spread&&results.length<2) status.textContent='One side was readable. Check its text before opening the page.';
    } catch (error) {
-    if (scanJob===job) status.textContent=error.message || 'The scan could not finish.';
+    if (scanJob===job) status.textContent=error.message||'The scan could not finish.';
    } finally {
-    if (scanJob===job) { scanJob=null;setScanning(false); }
+    if (scanJob===job) {scanJob=null;setScanning(false);}
    }
   }
   function save() {
-   const titleText=title.value.trim(), pageNumber=page.value.trim(), body=text.value.replace(/\r\n?/g,'\n').normalize('NFC').trim();
-   if (!label(titleText,140) || !titleText || !label(pageNumber,20)) { status.textContent='Enter a book title and optional page number.';return; }
-   if (!body || body.length > maxPageLength) { status.textContent='Add text from one page to start reading.';text.focus();return; }
-   const existing=entry || libraryPages().find(item=>item.title===titleText && item.page===pageNumber && item.text===body);
-   const id=existing?.id || root.crypto?.randomUUID?.() || Date.now().toString(36)+'-'+Math.random().toString(36).slice(2);
-   const updated=Math.max(Date.now(),(existing?.updated ?? 0)+1);
-   pages.set(id,{...existing,id,title:titleText,page:pageNumber,text:body,updated});storeShelf();
+   const titleText=title.value.trim(),raw=text.value.replace(/\r\n?/g,'\n').normalize('NFC').trim();
+   const parsed=entry||scanned?{text:raw}:root.SozReaderOCR.parsePage(raw,{title:titleText,reflow:false});
+   const body=parsed.text,pageNumber=page.value.trim()||parsed.page||'';
+   const chapter=readChapter(fields)||parsed.chapter;
+   if (!label(titleText,140)||!titleText||!label(pageNumber,20)) {status.textContent='Enter a book title and optional page number.';return;}
+   if (chapter&&(!label(chapter.number,16)||!chapter.number||!label(chapter.title,120)||!chapter.title)) {
+    status.textContent='Enter both parts of the chapter heading, or clear them both.';chapterFields.open=true;return;
+   }
+   if (!body||body.length>maxPageLength) {status.textContent='Add text from one page to start reading.';text.focus();return;}
+   const existing=entry||libraryPages().find(item=>item.title===titleText&&item.page===pageNumber&&(pageNumber||item.text===body));
+   if (firstSaved&&existing?.id===firstSaved) {
+    status.textContent='Enter a different page number for the right page.';page.focus();return;
+   }
+   const id=existing?.id||root.crypto?.randomUUID?.()||Date.now().toString(36)+'-'+Math.random().toString(36).slice(2);
+   const updated=Math.max(Date.now(),(existing?.updated??0)+1);
+   const record={id,title:titleText,page:pageNumber,text:body,updated};
+   if (chapter) record.chapter=chapter;
+   pages.set(id,record);storeShelf();
+   if (queued.length) {
+    firstSaved ||= id;
+    review(queued.shift(),true);page.focus();return;
+   }
    draft=null;fields=null;
-   if (entry) showPage(pages.get(id));else navigate('read/'+id);
+   if (entry) showPage(record);else navigate('read/'+(firstSaved||id));
   }
   toolbar.append(filePicker('Take photo',true,scan),filePicker('Choose photo',false,scan),cancel);
-  panel.append(node('h2','',entry?'Edit page':'Add a page'),node('p','study-note','Scan a page and check the text. Then tap words to look them up. Photos are processed on this device.'),
-   field('Book title',title),field('Page number (optional)',page),toolbar,status,field('Page text',text),open);
+  panel.append(node('h2','',entry?'Edit page':'Add a page'),
+   node('p','study-note','Scan a book page or paste the text. Review the page number, chapter heading, and text before saving.'),
+   field('Book title',title),toolbar,photoOptions,status,field('Page number (optional)',page),chapterFields,field('Page text',text),open);
   if (entry) panel.append(button('Back to page','study-text-link reader-back',()=>showPage(entry)));
   return panel;
  }
@@ -327,6 +442,10 @@ function mount({host, study, model, analyze, navigate, openWord, onChange}) {
    control.disabled=!target;return control;
   }
   navigation.append(turn('← Previous',volume[start-1]),jump,turn('Next →',volume[end+1]));
+  if (book && entry.title===bookTitle) {
+   tools.append(button('Book glossary','reader-tool',()=>navigate('read/glossary')),
+    button('Cover','reader-tool',()=>navigate('read/cover')));
+  }
   header.append(heading,tools,navigation);
   if (end>start) scene.classList.add('reader-spread');
   const visible=volume.slice(start,end+1);
@@ -545,6 +664,17 @@ function mount({host, study, model, analyze, navigate, openWord, onChange}) {
  }
  function lookup(page,part) {
   const quote=excerpt(page.text,part.start,part.end);
+  if (page.title===bookTitle) {
+   let term=lexicon.get(part.text)||lexicon.get(readingSpelling(part.text));
+   if (!term&&page.page==='158'&&part.text==='kölgə'&&/sonuncu\s+$/u.test(page.text.slice(0,part.start))) term=lexicon.get('Kölgə');
+   if (term) {
+    const {result}=makeBubble('Book glossary entry',term.word,'az');
+    const az=node('p','reader-az',term.az);az.lang='az';
+    result.append(node('p','reader-english',term.en),az,
+     button('Book glossary','reader-tool',()=>navigate('read/glossary')));
+    keepSelectionVisible();return;
+   }
+  }
   const {box,result}=makeBubble('Reading dictionary',part.text,'az');
   const details=node('details','reader-lookup-more'), more=node('summary','','More');
   const extra=node('div','reader-lookup-extra');
@@ -613,7 +743,7 @@ function mount({host, study, model, analyze, navigate, openWord, onChange}) {
   find(part.text,false);
  }
  async function openPractice() {
-  const entries=libraryPages(),entry=resumeFrom(entries.filter(page=>page.title===bookTitle))||resumeFrom(entries);
+  const entries=libraryPages(),entry=resumeFrom(bookPagesIn(entries))||resumeFrom(entries);
   const panel=node('section','reader-practice study-section'),back=button('Back to Daily Study','study-text-link',()=>navigate('grammar'));
   const book=button('Open reading desk','study-button',()=>navigate('read'));
   host.replaceChildren(panel);
@@ -673,6 +803,8 @@ function mount({host, study, model, analyze, navigate, openWord, onChange}) {
   close();const entries=libraryPages();
   const entry = id && entries.find(page=>page.id===id);
   if (entry) { showPage(entry);return; }
+  if (book&&id==='glossary') { showGlossary(entries);return; }
+  if (book&&id==='cover'&&bookPagesIn(entries).length) { showCover(entries);return; }
   const frame = node('div','reader-layout reader-start'), create = editor(null,id?'This page is available after restoring its reading shelf.':'');
   const sidebar=node('div','reader-sidebar');
   sidebar.append(bibliographicCard(entries));const saved=shelf(entries);if(saved)sidebar.append(saved);
@@ -683,7 +815,7 @@ function mount({host, study, model, analyze, navigate, openWord, onChange}) {
   if(scroll)positions.set(current.id,scroll.scrollTop);
   closeLookup();showPage(current);
  });
- return {open,openPractice,close,exportPages:savedPages,restore,resume:()=>resumeFrom(libraryPages())};
+ return {open,openPractice,close,exportPages:savedPages,restore,readingShortcut};
 }
 
 root.SozStudyReader = {mount,validatePages,wordsOnPage,openPrivateLink};
