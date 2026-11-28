@@ -119,11 +119,18 @@ reader.querySelector('textarea').value='Nə var, nə yox? Geci tezi görüşəri
 [...reader.querySelectorAll('button')].find(button=>button.textContent==='Open page').click();
 assert.equal(reader.querySelector('.reader-folio').textContent,'17');
 assert.equal(reader.querySelector('.reader-leaf').getAttribute('aria-label'),'Page 17');
+assert(doc.documentElement.classList.contains('book-reader-open'));
+const controls=reader.querySelector('.reader-top-target');
+assert(reader.querySelector('#reader-toolbar').hidden);
+controls.click();assert(!reader.querySelector('#reader-toolbar').hidden);
+controls.click();assert(reader.querySelector('#reader-toolbar').hidden);
 assert([...reader.querySelectorAll('.reader-word')].some(button=>button.textContent==='Nə var, nə yox'));
 const phrase=[...reader.querySelectorAll('.reader-word')].find(button=>button.textContent==='Geci tezi');
 assert(phrase,'A familiar spelling can be looked up as one expression');
 phrase.click();
 assert.equal(reader.querySelector('.reader-result h3').textContent,'geci-tezi');
+assert(phrase.hasAttribute('data-reader-active'));
+assert.equal(reader.querySelector('dialog[open]'),null);
 reader.querySelector('.reader-ratings [data-rating="1"]').click();
 store.refresh();
 assert.equal(store.word('geci-tezi').rating,1);

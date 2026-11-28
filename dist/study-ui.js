@@ -264,7 +264,9 @@ function mount({study,model,savedWords,openWord,navigate,getMotion,setMotion,ana
    }
   }else renderToday();
   $('studyHeading').textContent=title;document.title=title+' — SÖZ';storageFeedback();
-  $('studyPage').scrollTop=0;$('studyHeading').focus?.({preventScroll:true});
+  if(!document.documentElement.classList.contains('book-reader-open')){
+   $('studyPage').scrollTop=0;$('studyHeading').focus?.({preventScroll:true});
+  }
  }
  function resume(){
   if(!current||document.hidden)return;

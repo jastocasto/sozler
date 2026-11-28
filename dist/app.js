@@ -410,8 +410,11 @@ $('mapStudyLevel').addEventListener('change',()=>{
  syncMapRatings();
  toast(studyStore().status().persistent?'Şəxsi qiymətləndirmə saxlanıldı.':'Dəyişiklik bu sessiyadadır. Şəxsi məşqdən ehtiyat nüsxə yüklə.');
 });
-function mapFromStudy(word){
+function mapFromStudy(word,readingPage){
  const node=model.resolveWord(word);if(!node)return;
+ const back=$('mapReaderReturn');
+ back.hidden=!readingPage;
+ if(readingPage)back.href='#study/read/'+readingPage;
  setRoute('#w='+encodeURIComponent(node.w));
  showMap(false);select(node,true,false);
 }
