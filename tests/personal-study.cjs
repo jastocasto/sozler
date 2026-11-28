@@ -110,10 +110,18 @@ restored.window.dispatchEvent(new restored.window.Event('hashchange'));
 assert.equal(restored.window.SozApp.inspect().page,'map');
 assert.equal(restored.window.document.querySelector('.galaxy-studio').dataset.mapView,'word');
 
-go('#study/read');
 const reader=$('studyReadingContent');
+tab('home');
+const bookAction=[...$('studyToday').querySelectorAll('button')].find(button=>button.textContent==='Continue Qaranlıq günəş');
+assert(bookAction,'A fresh home screen offers the book directly');
+bookAction.click();
+assert.equal(reader.querySelector('.reader-folio').textContent,'158');
+assert.equal(window.localStorage.getItem('soz-toxumasi:reader:v1'),undefined,'The built-in book is available without a local import');
+go('#study/read');
 assert.equal(reader.querySelector('.reader-editor input').value,'Qaranlıq günəş');
-assert(reader.querySelector('.reader-book').textContent.includes('Open your private book link'));
+assert(reader.querySelector('.reader-book-count').textContent.includes('6 pages · 158–163'));
+assert.deepEqual([...reader.querySelectorAll('.reader-shelf option')].slice(1).map(option=>option.value),
+ Array.from({length:6},(_,i)=>'qaranliq-gunes-'+(158+i)));
 const pageNumber=[...reader.querySelectorAll('.reader-field')].find(field=>field.querySelector('span').textContent==='Page number (optional)');
 pageNumber.querySelector('input').value='17';
 reader.querySelector('textarea').value='Nə var, nə yox? Geci tezi görüşərik.';
@@ -145,7 +153,7 @@ const example={id:'sample-12',title:'Example',page:'12',text:'Bir nümunə.',upd
 const [validated]=window.SozStudyReader.validatePages([example]);
 assert.equal(JSON.stringify(validated),JSON.stringify(example));
 go('#study/read');
-assert(reader.querySelector('.reader-book').textContent.includes('1 saved page'));
+assert(reader.querySelector('.reader-book').textContent.includes('7 pages'));
 assert.equal(reader.querySelector('.reader-book .study-cta').textContent,'Open book · Page 17');
 tab('home');
 assert($('studyToday').textContent.includes('Continue Qaranlıq günəş'));

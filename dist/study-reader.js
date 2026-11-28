@@ -1,4 +1,4 @@
-/* A local reading shelf and dictionary lookup for scanned or pasted pages. */
+/* A reading shelf for built-in, scanned, and pasted pages. */
 (function (root) {
 'use strict';
 
@@ -62,7 +62,7 @@ function resumeFrom(records) {
 }
 async function openPrivateLink(status,retry) {
  const link=root.location.hash.match(/^#([a-f0-9]{20})\.([A-Za-z0-9_-]{43})$/);
- if (!link) { status.textContent='Open the original private book link to load the pages.';return; }
+ if (!link) { root.location.replace('/#study/read');return; }
  if (retry) retry.hidden=true;
  status.textContent='Opening your book…';
  try {
@@ -119,7 +119,9 @@ function mount({host, study, model, analyze, navigate, openWord, onChange}) {
  const wide = root.matchMedia?.('(min-width: 900px)');
  const scroll=document.getElementById('studyPage');
  const positions=new Map(), passages=new WeakMap();
- let pages=new Map(), current=null, scanJob=null, bubble=null, draft=null, fields=null, shelfStatus='';
+ const bookPages=new Map(validatePages(root.SozReaderBookPages ?? []).map(page=>[page.id,page]));
+ const pages=new Map();
+ let current=null, scanJob=null, bubble=null, draft=null, fields=null, shelfStatus='';
  let highlighted=[], selectionTimer, touch=null, quietUntil=0;
  let fontSize=0;
  try { fontSize=Math.max(-2,Math.min(3,Number(root.localStorage.getItem('soz-toxumasi:reader-font'))||0)); } catch {}
@@ -147,6 +149,10 @@ function mount({host, study, model, analyze, navigate, openWord, onChange}) {
   catch { shelfStatus='This browser could not save the page. It is available in this session and in a backup.';return false; }
  }
  function savedPages() { readShelf();return [...pages.values()].sort((a,b) => b.updated-a.updated); }
+ function libraryPages() {
+  readShelf();
+  return [...new Map([...bookPages,...pages]).values()].sort((a,b)=>b.updated-a.updated||pageOrder.compare(a.page,b.page));
+ }
  function restore(records) { readShelf();const added=mergePages(pages,records);return {added,saved:!records.length || storeShelf()}; }
  function readerMode(active,controls=false) {
   document.documentElement.classList.toggle('book-reader-open',active);
@@ -177,9 +183,9 @@ function mount({host, study, model, analyze, navigate, openWord, onChange}) {
   if (start) {
    const first=volume[0].page,last=volume.at(-1).page;
    const range=first&&last&&first!==last?' · '+first+'–'+last:'';
-   card.append(node('p','reader-book-count',volume.length+(volume.length===1?' saved page':' saved pages')+range),
+   card.append(node('p','reader-book-count',volume.length+(volume.length===1?' page':' pages')+range),
     button('Open book · '+pageLabel(start),'study-cta',()=>navigate('read/'+start.id)));
-  } else card.append(node('p','study-note','Open your private book link once to put pages 158–163 on this shelf in this browser.'));
+  } else card.append(node('p','study-note','The book pages are unavailable. Reopen Sozler while connected to load them.'));
   card.append(source);return card;
  }
  function importCard() {
@@ -203,8 +209,8 @@ function mount({host, study, model, analyze, navigate, openWord, onChange}) {
  function pageLabel(page) { return page.page ? 'Page '+page.page : page.text.replace(/\s+/g,' ').slice(0,30)+'…'; }
  function shelf(entries) {
   if (!entries.length) return null;
-  const wrap = node('section','study-section reader-shelf'), title = node('h2','','Saved pages');
-  const list = node('select','study-input');list.setAttribute('aria-label','Saved pages');
+  const wrap = node('section','study-section reader-shelf'), title = node('h2','','Browse pages');
+  const list = node('select','study-input');list.setAttribute('aria-label','Browse pages');
   const placeholder = node('option','','Choose a page');placeholder.value='';list.append(placeholder);
   for (const page of entries) {
    const option = node('option','',pageLabel(page)+' · '+page.title);option.value=page.id;
@@ -257,7 +263,7 @@ function mount({host, study, model, analyze, navigate, openWord, onChange}) {
    const titleText=title.value.trim(), pageNumber=page.value.trim(), body=text.value.replace(/\r\n?/g,'\n').normalize('NFC').trim();
    if (!label(titleText,140) || !titleText || !label(pageNumber,20)) { status.textContent='Enter a book title and optional page number.';return; }
    if (!body || body.length > maxPageLength) { status.textContent='Add text from one page to start reading.';text.focus();return; }
-   const existing=entry || savedPages().find(item=>item.title===titleText && item.page===pageNumber && item.text===body);
+   const existing=entry || libraryPages().find(item=>item.title===titleText && item.page===pageNumber && item.text===body);
    const id=existing?.id || root.crypto?.randomUUID?.() || Date.now().toString(36)+'-'+Math.random().toString(36).slice(2);
    const updated=Math.max(Date.now(),(existing?.updated ?? 0)+1);
    pages.set(id,{...existing,id,title:titleText,page:pageNumber,text:body,updated});storeShelf();
@@ -271,8 +277,8 @@ function mount({host, study, model, analyze, navigate, openWord, onChange}) {
   return panel;
  }
  function showPage(entry) {
-  const all=savedPages();
-  entry=pages.get(entry.id)||entry;
+  const all=libraryPages();
+  entry=all.find(page=>page.id===entry.id)||entry;
   fields=null;current=entry;
   readerMode(true);
   try { root.localStorage.setItem(placeKey,entry.id); } catch {}
@@ -607,7 +613,7 @@ function mount({host, study, model, analyze, navigate, openWord, onChange}) {
   find(part.text,false);
  }
  async function openPractice() {
-  const entries=savedPages(),entry=resumeFrom(entries);
+  const entries=libraryPages(),entry=resumeFrom(entries.filter(page=>page.title===bookTitle))||resumeFrom(entries);
   const panel=node('section','reader-practice study-section'),back=button('Back to Daily Study','study-text-link',()=>navigate('grammar'));
   const book=button('Open reading desk','study-button',()=>navigate('read'));
   host.replaceChildren(panel);
@@ -664,8 +670,8 @@ function mount({host, study, model, analyze, navigate, openWord, onChange}) {
   drill();
  }
  function open(id) {
-  close();const entries=savedPages();
-  const entry = id && pages.get(id);
+  close();const entries=libraryPages();
+  const entry = id && entries.find(page=>page.id===id);
   if (entry) { showPage(entry);return; }
   const frame = node('div','reader-layout reader-start'), create = editor(null,id?'This page is available after restoring its reading shelf.':'');
   const sidebar=node('div','reader-sidebar');
@@ -677,7 +683,7 @@ function mount({host, study, model, analyze, navigate, openWord, onChange}) {
   if(scroll)positions.set(current.id,scroll.scrollTop);
   closeLookup();showPage(current);
  });
- return {open,openPractice,close,exportPages:savedPages,restore,resume:()=>resumeFrom(savedPages())};
+ return {open,openPractice,close,exportPages:savedPages,restore,resume:()=>resumeFrom(libraryPages())};
 }
 
 root.SozStudyReader = {mount,validatePages,wordsOnPage,openPrivateLink};
