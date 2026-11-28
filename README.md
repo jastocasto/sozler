@@ -25,7 +25,7 @@ The method draws on evidence for spaced language practice, retrieval and combini
 **Loading.** The page no longer downloads the 17 data layers (about 96 MB of JavaScript) or runs `createModel` in the browser. `scripts/build_runtime.cjs` runs `createModel` once at build time and writes:
 
 - `dist/soz-core.json` supplies the headwords, links, alphabetical order, verb and form indexes, frequency ranks and homonyms. It also carries the primary Azerbaijani and English definitions for the curated vocabulary and the first 1,500 words by corpus frequency. Their cards and meanings are searchable as soon as the map opens.
-- `dist/meanings/HASH.json` supplies other primary definitions on demand. Selecting a word while the full dictionary is loading fetches one of 256 small files. Each filename identifies its contents.
+- `dist/meanings/HASH.json` supplies definitions and flashcard senses on demand. Opening a flashcard starts loading that word’s meanings separately from the full search index. Each of the 256 filenames identifies its contents.
 - `dist/soz-text.json` supplies the complete definitions, additional senses and citations. A background download with integrity checking fills in the selected card and open search or library results and starts the picture quiz and daily word. Word cards can retry after a connection failure. A completed offline download includes this whole index, which also supplies every primary definition.
 - `dist/details/N.json` (1,024 files): the sources behind each link (connection senses and citations) and each word's origin, fetched when a word is opened. A word's file is `shardOf(word, 1024)`.
 - `dist/forms-archive.json`: the full noun-form records, fetched when the Forms section opens.

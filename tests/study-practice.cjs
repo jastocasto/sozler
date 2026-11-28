@@ -99,6 +99,7 @@ assert.equal(repo.lesson(lesson.id).evidence.recognize.correct,0);
 click('Next exercise');assert(!host.textContent.includes(lesson.az));
 typeAnswer(lesson.accept[0].toLocaleUpperCase('az')+'!');
 assert.equal(repo.lesson(lesson.id).evidence.recall.correct,1);
+assert(host.querySelector('.practice-grammar-correct.practice-grammar-pop .practice-checkmark'));
 click('Next exercise');assert(host.textContent.includes(lesson.speak));click('Show the example');click('I’ve said my sentence');
 assert(!findButton('I used it independently'));click('I used it with help');
 assert.equal(repo.lesson(lesson.id).evidence.use.selfReported,1);assert.equal(repo.lesson(lesson.id).evidence.use.unaided,0);

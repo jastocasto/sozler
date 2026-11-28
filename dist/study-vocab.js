@@ -10,7 +10,11 @@ const stages = ['Red','Orange','Yellow','Green'];
 function mount({host, study, model, navigate, discover, onChange}) {
  const document = host.ownerDocument, levels = root.SozStudyLibrary.levels;
  const checker = root.SozStudyAnswer;
- let deck = null, deckDay = null, skipped = new Set(), recognition = null, speaking = null;
+ const seenKey='soz-toxumasi:vocab-seen',seen=new Set();
+ try {
+  for (const word of JSON.parse(root.sessionStorage.getItem(seenKey)||'[]')) if (typeof word==='string') seen.add(word);
+ } catch {}
+ let deck = null, deckDay = null, skipped = new Set(), recognition = null, speaking = null, flight = null;
 
  function element(tag, className, text) {
   const node = document.createElement(tag);
@@ -86,6 +90,55 @@ function mount({host, study, model, navigate, discover, onChange}) {
   });
   banks.append(heading, grid, button('All my words', 'study-text-link', () => navigate('words')));
   content.append(dailyDecks(summary), banks, coverage(summary));host.replaceChildren(content);
+ }
+ function sessionBanks(summary) {
+  const row = element('nav','vocab-session-banks');
+  row.setAttribute('aria-label','Vocabulary banks');
+  grades.forEach((label,level) => {
+   const bank = button('', 'vocab-session-bank', () => navigate('vocab/bank/'+level));
+   bank.dataset.rating=String(level);
+   bank.append(element('span','vocab-session-label',label),element('strong','vocab-session-amount'));
+   row.append(bank);
+  });
+  updateBanks(row,summary);
+  return row;
+ }
+ function updateBanks(row, summary, current) {
+  for (const bank of row.children) {
+   const level=Number(bank.dataset.rating), count=summary.ratings[level];
+   bank.toggleAttribute('data-current',current===level);
+   bank.setAttribute('aria-label',grades[level]+' bank · '+words(count,'word'));
+   bank.querySelector('strong').textContent=number.format(count);
+  }
+ }
+ function flyToBank(word, level, from, added) {
+  const bank=host.querySelector('.vocab-session-bank[data-rating="'+level+'"]');
+  if (!bank?.animate || !from.width || root.matchMedia?.('(prefers-reduced-motion: reduce)').matches) return;
+  flight?.cancel();
+  const to=bank.getBoundingClientRect(), width=Math.min(from.width,412), height=Math.min(from.height,110);
+  const x=from.left+from.width/2, y=Math.max(to.bottom+height*.52,Math.min(from.top+from.height/2,root.innerHeight-height*.6));
+  const dx=to.left+to.width*.69-x, dy=to.top+to.height*.63-y;
+  const slip=element('div','vocab-flying-card',word);
+  slip.dataset.rating=String(level);slip.lang='az';slip.setAttribute('aria-hidden','true');
+  Object.assign(slip.style,{left:(x-width/2)+'px',top:(y-height/2)+'px',width:width+'px',height:height+'px'});
+  document.body.append(slip);
+  const animation=slip.animate([
+   {transform:'translate3d(0,0,0) scale(1)',opacity:.94},
+   {transform:'translate3d('+dx+'px,'+dy+'px,0) rotate(-7deg) scale(.12)',opacity:.12}
+  ],{duration:310,easing:'cubic-bezier(.23,.64,.31,1)'});
+  flight=animation;
+  const cleanup=()=>{slip.remove();if(flight===animation)flight=null;};
+  animation.oncancel=cleanup;
+  animation.onfinish=()=>{
+   cleanup();
+   if (!host.contains(bank)) return;
+   bank.animate([{transform:'scale(1)'},{transform:'scale(1.065)'},{transform:'scale(1)'}],{duration:245});
+   if (!added) return;
+   const count=bank.querySelector('strong'), bump=element('span','vocab-count-increase','+1');
+   bump.setAttribute('aria-hidden','true');bank.append(bump);
+   count.animate([{transform:'translateY(4px) scale(.88)'},{transform:'translateY(-1px) scale(1.12)'},{transform:'none'}],{duration:280});
+   bump.animate([{transform:'translateY(0)',opacity:1},{transform:'translateY(-18px)',opacity:0}],{duration:440}).onfinish=()=>bump.remove();
+  };
  }
  function landFromDeck() { navigate('vocab'); }
  function updateDay() {
@@ -168,21 +221,17 @@ function mount({host, study, model, navigate, discover, onChange}) {
   active.onend = end;
   try { active.start(); } catch { notice.textContent = fallback;end(); }
  }
- function withDefinition(node, ready, fail) {
-  if (model.primaryReady(node)) { ready();return; }
-  try {
-   const request = model.ensurePrimary(node);
-   if (request === true) ready();
-   else Promise.resolve(request).then(ready,fail);
-  } catch { fail(); }
+ function loadCardText(node) {
+  if (root.navigator?.onLine === false) return model.ensureText();
+  return model.ensureCardSenses(node);
  }
- function withSenses(ready) {
-  if (model.textLoaded()) { ready();return; }
+ function withCardText(node, ready, fail) {
+  const fallback=()=>model.primaryReady(node)?ready():fail();
   try {
-   const request = model.ensureText();
+   const request = loadCardText(node);
    if (request === true) ready();
-   else Promise.resolve(request).then(ready,ready);
-  } catch { ready(); }
+   else Promise.resolve(request).then(ready,fallback);
+  } catch { fallback(); }
  }
  function definitionsFor(sense) {
   const definitions = element('div','vocab-definitions');
@@ -216,12 +265,14 @@ function mount({host, study, model, navigate, discover, onChange}) {
   grades.forEach((label,level) => {
    const control = button(label,'vocab-rate',() => {
     if (!host.contains(control) || !deck) return;
+    const from=body.getBoundingClientRect();
     const checked = kind === 'match' ? true : null;
     if (!study.checkCard(prompt,deck.mode,checked,level)) { render(true,'This card was already updated.');return; }
     onChange();
     const updated = study.cardPrompt(node.w);
-    const message = node.w + ' · ' + (updated.direction === 'headword' ? 'Green · English to Azerbaijani next' : stages[updated.rating]);
+    const message = node.w + ' · ' + (updated.direction === 'headword' ? 'Final check queued' : stages[updated.rating]);
     render(true,message);
+    flyToBank(node.w,updated.rating,from,updated.rating!==prompt.rating);
    });
    control.dataset.rating=String(level);actions.append(control);
   });
@@ -229,10 +280,12 @@ function mount({host, study, model, navigate, discover, onChange}) {
  }
  function checkHeadword(body, node, prompt, guess) {
   const right = checker.assessHeadword(node,guess,model);
+  const from=body.getBoundingClientRect();
   if (!study.checkCard(prompt,deck.mode,right)) { render(true,'This card was already updated.');return; }
   onChange();
   const tally = host.querySelector('.vocab-session-count');
-  const {target,completed,due} = status();
+  const summary=study.summary(model.nodes.length), {target,completed,due}=status(summary);
+  updateBanks(host.querySelector('.vocab-session-banks'),summary,right?3:prompt.rating);
   if (tally) tally.textContent = deck.mode === 'new' ? completed+' / '+target+' mastered' : words(due,'word')+' due';
   const answer = element('div','vocab-answer'), title = resultHeading(node.w,'az');
   const result = element('p','vocab-check-result',right ? 'Correct · Proficient' : 'Keep practising this word');
@@ -242,13 +295,18 @@ function mount({host, study, model, navigate, discover, onChange}) {
   answer.append(title,result,entered,definitionsFor({en:node.en,az:node.az}),
    button('Next card','study-cta',() => render(true)));
   body.replaceChildren(answer);title.focus?.({preventScroll:true});
+  if (right) flyToBank(node.w,3,from,true);
  }
  function promptCard(body, node, prompt, cue) {
   const reverse = prompt.direction === 'headword', view = element('div','vocab-prompt');
   const promptLabel = element('p','vocab-question',reverse ? 'Recall the Azerbaijani word' : 'What does this word mean?');
-  const stage = element('span','vocab-stage',reverse ? 'Final check' : prompt.rating === null ? 'New' : grades[prompt.rating]);
-  if (reverse || prompt.rating !== null) stage.dataset.rating = String(reverse ? 3 : prompt.rating);
-  const top = element('div','vocab-prompt-top');top.append(promptLabel,stage);
+  const top = element('div','vocab-prompt-top');top.append(promptLabel);
+  if (reverse) top.append(element('span','vocab-stage','Final check'));
+  else if (prompt.rating === null && !prompt.previous && !seen.has(node.w)) {
+   seen.add(node.w);
+   try { root.sessionStorage.setItem(seenKey,JSON.stringify([...seen].slice(-100))); } catch {}
+   const badge=element('span','vocab-stage vocab-new','Yeni');badge.lang='az';top.append(badge);
+  }
   const title = resultHeading(cue,reverse?'en':'az');
   if (reverse) title.classList.add('vocab-english-cue');
   const notice = element('p','vocab-voice-status');notice.setAttribute('role','status');
@@ -276,12 +334,12 @@ function mount({host, study, model, navigate, discover, onChange}) {
    if (!guess || check.disabled || !deck) return;
    stopVoice();mic.setAttribute('aria-pressed','false');
    if (reverse) { checkHeadword(body,node,prompt,guess);return; }
-   check.disabled=true;notice.textContent='Checking dictionary senses…';
-   withDefinition(node,() => withSenses(() => {
+   check.disabled=true;input.readOnly=true;notice.textContent='Checking this word…';
+   withCardText(node,() => {
     if (!host.contains(form)) return;
     if (!checker.englishCue(node)) { unavailable(body,node,'This word needs an English definition for the final check.');return; }
     explainGuess(body,node,prompt,guess);
-   }),() => { if (host.contains(form)) { notice.textContent='The definition couldn’t load. Try again.';check.disabled=false; } });
+   },() => { if (host.contains(form)) { notice.textContent='The definition couldn’t load. Try again.';input.readOnly=false;check.disabled=false; } });
   });
   form.append(field,options,notice);view.append(top,heading,form);body.replaceChildren(view);
  }
@@ -292,46 +350,49 @@ function mount({host, study, model, navigate, discover, onChange}) {
  function reversePrompt(body, node, prompt, moveFocus) {
   body.replaceChildren(element('p','study-note','Loading the English meaning…'));
   function load() {
-   withDefinition(node,() => {
-    function show() {
-     if (!host.contains(body)) return;
-     const cue = checker.englishCue(node);
-     if (!cue) { unavailable(body,node,'An English cue is unavailable for this word.');return; }
-     promptCard(body,node,prompt,cue);
-     if (moveFocus) body.querySelector('h2')?.focus?.({preventScroll:true});
-    }
-    if (checker.englishCue(node)) show();
-    else withSenses(show);
-   },() => {
+   const show=() => {
+    if (!host.contains(body)) return;
+    const cue=checker.englishCue(node);
+    if (!cue) { unavailable(body,node,'An English cue is unavailable for this word.');return; }
+    promptCard(body,node,prompt,cue);
+    if (moveFocus) body.querySelector('h2')?.focus?.({preventScroll:true});
+   };
+   if (checker.englishCue(node)) { show();return; }
+   withCardText(node,show,() => {
     if (host.contains(body)) body.replaceChildren(element('p','study-note','The definition couldn’t load.'),button('Try again','study-button',load));
    });
   }
   load();
  }
  function render(moveFocus = false, message = '') {
-  stopVoice();
-  const day = updateDay(), counts = status(), node = nextWord(day, counts);
+  stopVoice();flight?.cancel();
+  const day=updateDay(), summary=study.summary(model.nodes.length),counts=status(summary),node=nextWord(day,counts);
   const content = element('div','vocab-session');
   const toolbar = element('div','vocab-session-tools'), {target, completed, due} = counts;
   toolbar.append(button('Vocabulary','study-text-link',landFromDeck));
   if (deck.mode === 'new') toolbar.append(element('span','vocab-session-count',completed+' / '+target+' mastered'));
   else if (deck.level === undefined) toolbar.append(element('span','vocab-session-count',words(due,'word')+' due'));
   const body = element('section','study-section vocab-card');
-  content.append(toolbar, body);
+  const banks=sessionBanks(summary);
+  content.append(toolbar,banks,body);
   const feedback = element('p','vocab-feedback',message);feedback.setAttribute('role','status');
   content.append(feedback);host.replaceChildren(content);
   if (!node) { finished(body,counts);if (moveFocus) body.querySelector('button')?.focus?.({preventScroll:true});return; }
   const prompt = study.cardPrompt(node.w);
+  if (prompt.rating !== null) updateBanks(banks,summary,prompt.direction==='headword'?3:prompt.rating);
+  const bankBottom=banks.getBoundingClientRect().bottom;
+  if (moveFocus && bankBottom && body.getBoundingClientRect().top<bankBottom-1) banks.scrollIntoView?.({block:'start'});
   if (prompt.direction === 'headword') reversePrompt(body,node,prompt,moveFocus);
   else {
    promptCard(body,node,prompt,node.w);
+   try { Promise.resolve(loadCardText(node)).catch(()=>{}); } catch {}
    if (moveFocus) body.querySelector('h2')?.focus?.({preventScroll:true});
   }
  }
  function open(mode, level) {
   deck = {mode, level};skipped = new Set();render();
  }
- return {landing, open, status, coverage, close:() => { stopVoice();deck = null;host.replaceChildren(); }};
+ return {landing, open, status, coverage, close:() => { stopVoice();flight?.cancel();deck = null;host.replaceChildren(); }};
 }
 
 root.SozStudyVocab = {mount};

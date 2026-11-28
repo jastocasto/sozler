@@ -108,7 +108,7 @@ function mount({host,study,model,lessons=root.SozStudyContent||[],clips=root.Soz
   if(recorded)t.outcome={correct,channel,condition,selfReported,...extra};
   else if(study.attempt)t.outcome=study.attempt(id);
   delete t.draft;
-  persist();render(true);onChange(counts(session));
+  persist();render(true,t.type==='grammar'&&recorded&&t.outcome.correct);onChange(counts(session));
  }
  function dictionaryInfo(node){
   return root.WordInfo?.describeWord(node,model.byWord)||{definition:node.az,definitionEnglish:node.en};
@@ -162,7 +162,7 @@ function mount({host,study,model,lessons=root.SozStudyContent||[],clips=root.Soz
   if(report.skipped)card.append(element('p','practice-note',report.skipped+' skipped.'));
   card.append(button('Back to today','practice-primary',leave));
  }
- function render(focus){
+ function render(focus, celebrate=false){
   stopAudio();renderId++;
   const card=element('section','practice-card');card.lang='en';
   host.replaceChildren(card);
@@ -182,7 +182,7 @@ function mount({host,study,model,lessons=root.SozStudyContent||[],clips=root.Soz
    return;
   }
   if(t.outcome||study.hasAttempt(attemptId(t))){
-   t.outcome=t.outcome||study.attempt?.(attemptId(t));feedback(card,t);
+   t.outcome=t.outcome||study.attempt?.(attemptId(t));feedback(card,t,celebrate);
   }
   else if(t.type==='listen'){listening(card,t);}
   else if(t.type==='read'){reading(card,t);}
@@ -382,7 +382,7 @@ function mount({host,study,model,lessons=root.SozStudyContent||[],clips=root.Soz
   }
   enable(assist.read||assist.heard);
  }
- function feedback(card,t){
+ function feedback(card,t,celebrate){
   const item=sourceFor(t),a=t.outcome,box=element('div','practice-feedback');box.setAttribute('role','status');
   const next=button(session.index+1===session.steps.length?'Finish session':'Next exercise','practice-primary',advance);
   if(!a){
@@ -394,7 +394,14 @@ function mount({host,study,model,lessons=root.SozStudyContent||[],clips=root.Soz
    recognized?(a.correct?'Meaning recognized':'Saved for another review'):
    a.correct?'That’s right':'Let’s look at the answer';
   box.classList.add(a.correct?'is-correct':'needs-review');
-  box.append(element('h2','practice-prompt',title));
+  const heading=element('h2','practice-prompt',title);
+  if(t.type==='grammar'&&a.correct){
+   if(celebrate)box.classList.add('practice-grammar-pop');
+   const mark=element('span','practice-checkmark','✓');mark.setAttribute('aria-hidden','true');
+   heading.prepend(mark);
+   box.classList.add('practice-grammar-correct');
+  }
+  box.append(heading);
   if(item.w){
    box.append(element('p','practice-az',item.w,'az'),element('p','practice-note',item.en||'','en'));
    const example=dictionaryInfo(item).example;

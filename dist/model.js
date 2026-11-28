@@ -190,10 +190,12 @@ function restoreModel(core,{fetchJSON}={}){
  for(const n of nodes){byWord.set(n.w,n);byId.set(n.id,n);if(n.id>maxId)maxId=n.id;}
  const meaningHashes=core.text?.meaningHashes||[],loadedMeanings=new Set(),pendingMeanings=new Map();
  function applyPrimary(rows){
-  for(const [id,az,en] of rows){
+  for(const [id,az,en,senses,example] of rows){
    const n=byId.get(id);if(!n)continue;
    if(az){n.az=az;n.azerbaijani=normalize(az);}
    if(en){n.en=en;n.english=normalize(en);}
+   if(senses)n.bilingualSenses=senses;
+   if(example)n.definitionExample=example;
   }
  }
  applyPrimary(core.text?.starterMeanings||[]);
@@ -202,8 +204,17 @@ function restoreModel(core,{fetchJSON}={}){
  }
  function ensurePrimary(n){
   if(primaryReady(n)||!meaningHashes.length)return true;
+  return loadMeanings(n);
+ }
+ function ensureCardSenses(n){
+  if(textLoaded||!core.text?.meaningSenses||!meaningHashes.length)return ensurePrimary(n);
+  return loadMeanings(n);
+ }
+ function loadMeanings(n){
   const i=shardOf(n.w,meaningHashes.length);
-  return load('meanings/'+meaningHashes[i]+'.json',rows=>{applyPrimary(rows);loadedMeanings.add(i);},()=>textLoaded||loadedMeanings.has(i),pendingMeanings,i);
+  if(loadedMeanings.has(i))return true;
+  const options=typeof AbortSignal!=='undefined'&&AbortSignal.timeout?{signal:AbortSignal.timeout(6500)}:undefined;
+  return load('meanings/'+meaningHashes[i]+'.json',rows=>{applyPrimary(rows);loadedMeanings.add(i);},()=>textLoaded||loadedMeanings.has(i),pendingMeanings,i,options);
  }
  const rankById=new Int32Array(maxId+1);for(let i=0;i<count;i++)rankById[nodes[i].id]=rank[i];
  // Corpus frequency rank (1 = most common); 0 means the word was not found often enough to rank.
@@ -295,13 +306,13 @@ function restoreModel(core,{fetchJSON}={}){
  function ensureText(){return load(core.text?core.text.file+'?v='+core.text.hash:'',data=>{
   if(data.cols?.az?.values.length!==count||data.cols?.en?.values.length!==count)throw new Error('Dictionary text does not match the loaded map.');
   assign(data.cols,data.sparse,data.refs||[],[]);englishExceptions=data.english||{};azerbaijaniExceptions=data.azerbaijani||{};textLoaded=true;
- },()=>textLoaded,pendingText,'text',core.text?.integrity?{integrity:core.text.integrity}:undefined);}
+ },()=>textLoaded,pendingText,'text',{priority:'low',...(core.text?.integrity?{integrity:core.text.integrity}:{})});}
  function ensureForms(){return load('forms-archive.json?v='+core.formsArchive,data=>{for(let i=0;i<data.length;i++){const record=nominalRecords[i];Object.assign(record,data[i],{meaningKey:normalize(data[i].az+' '+data[i].en),definitions:data[i].analyses.map(a=>({az:a.az,en:a.en}))});}formsLoaded=true;},()=>formsLoaded,pendingForms,'forms');}
  // Approximate learner level from frequency rank (an estimate, not an official CEFR list).
  const LEVELS=[[500,'A1'],[1500,'A2'],[3500,'B1'],[7000,'B2'],[15000,'C1'],[Infinity,'C2']],BANDS=[[1000,5],[3000,4],[10000,3],[25000,2],[Infinity,1]];
  function frequency(n){const rank=n&&frequencyById[n.id];if(!rank)return null;return {rank,level:LEVELS.find(([max])=>rank<=max)[1],band:BANDS.find(([max])=>rank<=max)[1]};}
  let byFrequency=null;const commonWords=()=>byFrequency??=nodes.filter(n=>frequencyById[n.id]).sort((a,b)=>frequencyById[a.id]-frequencyById[b.id]);
- return {meta:core.meta,ensureText,textLoaded:()=>textLoaded,ensurePrimary,primaryReady,frequency,commonWords,wordDetails:word=>wordDetails.get(word)||null,isHomonym:word=>homonyms.has(word),prepareSearch,degree:n=>{const i=position.get(n.id);return i===undefined?0:degree[i+1]-degree[i];},nodes,orthographyNodes,specialNodes,verbEvidence,byWord,byId,edges,adjacency,related,search,neighborhood,alphabetical,allByWord,grammarRecords,grammarSearch,nominalRecords,nominalSearch,formsByWord,resolveWord,archiveMode,aliases,connectionInfo,ensureDetails,ensureForms,formsLoaded:()=>formsLoaded,detailsLoaded:word=>loadedShards.has(shardOf(word,shardCount))};
+ return {meta:core.meta,ensureText,textLoaded:()=>textLoaded,ensurePrimary,ensureCardSenses,primaryReady,frequency,commonWords,wordDetails:word=>wordDetails.get(word)||null,isHomonym:word=>homonyms.has(word),prepareSearch,degree:n=>{const i=position.get(n.id);return i===undefined?0:degree[i+1]-degree[i];},nodes,orthographyNodes,specialNodes,verbEvidence,byWord,byId,edges,adjacency,related,search,neighborhood,alphabetical,allByWord,grammarRecords,grammarSearch,nominalRecords,nominalSearch,formsByWord,resolveWord,archiveMode,aliases,connectionInfo,ensureDetails,ensureForms,formsLoaded:()=>formsLoaded,detailsLoaded:word=>loadedShards.has(shardOf(word,shardCount))};
 }
 const api={normalize,types,createModel,restoreModel,shardOf};if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.WordWeb=api;
 })(typeof window!=='undefined'?window:globalThis);

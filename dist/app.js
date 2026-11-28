@@ -10,7 +10,7 @@ if(core&&typeof core.then==='function')core.then(start,failed);else start(core);
 function failed(error){console.error(error);document.documentElement.classList.remove('study-launch');const message=document.createElement('p');message.textContent='Sözlər yüklənmədi. İnternet bağlantısını yoxlayıb səhifəni yeniləyin.';$('mapLoading').replaceChildren(message);}
 function start(core){
 const model=restoreModel(core,{fetchJSON});
-let textStatus='idle',appStarted=false,retriedText=false,textRetryTimer,wordRequest=null;
+let textStatus='idle',appStarted=false,retriedText=false,textRetryTimer,wordRequest=null,searchWarmPending=false;
 // Full-text search, sources and games share this download. Word cards can
 // already show the core's starter words or fetch a small group of meanings.
 function loadText(){
@@ -384,6 +384,7 @@ function showMap(writeRoute=true){
  conjugation?.close();pictureQuiz?.close();activePage='map';$('conjugationPage').hidden=true;$('pictureQuizPage').hidden=true;
  atlasPage.hidden=false;document.title='SÖZ — Söz kainatı';setAppTab('kainat');restoreLibrary();
  syncMapRatings();galaxy?.setPageHidden(false);
+ if(appStarted)prepareSearchWhenIdle();
  if(fromStudy)appTabs[0].focus?.({preventScroll:true});else if(restoreFocus)$('menuButton').focus?.({preventScroll:true});
  if(writeRoute)setRoute(mapHash(),true);
 }
@@ -526,13 +527,25 @@ race=window.RaceUI.mount({model,galaxy,select,resetHistory:()=>{state.history=[]
 try{if(location.protocol==='https:'&&!/^(localhost|127\.|\[)/.test(location.hostname)){window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments);};const script=document.createElement('script');script.defer=true;script.src='/_vercel/insights/script.js';document.head.append(script);}}catch{}
 // Prepare search text in small slices while the visitor looks at the map.
 const idle=window.requestIdleCallback||(fn=>setTimeout(()=>{const start=performance.now();fn({timeRemaining:()=>Math.max(0,12-(performance.now()-start))});},40));
-function prepareSearchWhenIdle(){idle(deadline=>{let done=false;while(!done&&deadline.timeRemaining()>4)done=model.prepareSearch(1500);if(!done)prepareSearchWhenIdle();else idle(()=>morphology?.warm());});}
+function prepareSearchWhenIdle(){
+ if(activePage==='study'||searchWarmPending)return;
+ searchWarmPending=true;
+ idle(deadline=>{
+  searchWarmPending=false;
+  if(activePage==='study')return;
+  let done=false;
+  while(!done&&deadline.timeRemaining()>4)done=model.prepareSearch(250);
+  if(!done)prepareSearchWhenIdle();
+  else idle(()=>{if(activePage!=='study')morphology?.warm();});
+ });
+}
 prepareSearchWhenIdle();
 // Definitions arrive in soz-text.json after the map: fill in what is on screen.
 function textReady(){
  textStatus='ready';if(!appStarted)return;
  if(state.selected){const scroll=$('meaningCard').querySelector('.sheet-scroll'),top=scroll.scrollTop,senses=$('otherSenses').open;detail();scroll.scrollTop=top;$('otherSenses').open=senses;}
- renderCounts();galaxy?.refreshText();
+ if(model.meta.orthography.defined==null)renderCounts();
+ galaxy?.refreshText();
  if(!$('searchResults').hidden)showSearch();
  if($('libraryDialog').open||$('libraryDialog').hasAttribute('open'))renderLibrary();
  prepareSearchWhenIdle();mountTextModules();

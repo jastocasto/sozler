@@ -176,14 +176,16 @@ for (const field of Object.keys(cols)) if (TEXT_FIELDS.has(field)) { textPart.co
 for (const field of Object.keys(sparse)) if (TEXT_FIELDS.has(field)) { textPart.sparse[field] = sparse[field]; delete sparse[field]; }
 const textJson = JSON.stringify(textPart);
 fs.writeFileSync(path.join(dist, 'soz-text.json'), textJson);
-// Show the curated vocabulary and A1/A2 words with the map. A selected word
-// outside this set can fetch just its primary pair while the full index loads.
+// Starter definitions are in the core. Every headword's flashcard senses can
+// arrive in a small shard independently of the full search index.
 const starterMeanings = [], meaningShards = Array.from({ length: MEANING_SHARDS }, () => []);
 for (const n of nodes) {
   if (!n.az && !n.en) continue;
   const row = [n.id, n.az || '', n.en || ''];
-  if (n.quality === 'curated' || n.definitionExample || (frequencyRank.get(n.w) || Infinity) <= 1500) starterMeanings.push(row);
-  else meaningShards[shardOf(n.w, MEANING_SHARDS)].push(row);
+  if (n.quality === 'curated' || n.definitionExample || (frequencyRank.get(n.w) || Infinity) <= 1500) starterMeanings.push(row.slice());
+  if (n.bilingualSenses?.length > 1 || n.definitionExample) row.push(n.bilingualSenses || null);
+  if (n.definitionExample) row.push(n.definitionExample);
+  meaningShards[shardOf(n.w, MEANING_SHARDS)].push(row);
 }
 const meaningDir = path.join(dist, 'meanings');
 fs.mkdirSync(meaningDir, { recursive: true });
@@ -209,7 +211,7 @@ const core = {
   frequency: frequencyRank.size ? nodes.map(n => frequencyRank.get(n.w) || 0) : null,
   nodes: { count, orthographyStart, cols, sparse, rank, excluded },
   text: { file: 'soz-text.json', hash: hash(textJson).slice(0, 16),
-    integrity: 'sha256-' + crypto.createHash('sha256').update(textJson).digest('base64'), starterMeanings, meaningHashes },
+    integrity: 'sha256-' + crypto.createHash('sha256').update(textJson).digest('base64'), starterMeanings, meaningHashes, meaningSenses:true },
   edges: { types: typeList, notes: noteList, flat, ...(evidenceIdRuns.length ? { evidenceIdRuns } : {}) },
   aliases: m.aliases,
   verbEvidence: m.verbEvidence,
@@ -235,6 +237,10 @@ const fetchJSON = file => JSON.parse(fs.readFileSync(path.join(dist, file.split(
   assert.equal(early.nodes.length, count);
   assert.equal(early.byWord.get('kitab').az, m.byWord.get('kitab').az, 'a common card opens with its definition');
   assert.equal(early.byWord.get('gözəl').en, m.byWord.get('gözəl').en);
+  const comment = early.byWord.get('şərh');
+  assert.equal(early.ensureCardSenses(comment), true);
+  assert.equal(JSON.stringify(comment.bilingualSenses), JSON.stringify(m.byWord.get('şərh').bilingualSenses));
+  assert.equal(early.textLoaded(), false);
   const rare = nodes.find(n => n.en && n.az && !early.primaryReady(early.byWord.get(n.w)));
   assert(rare);
   assert.equal(early.ensurePrimary(early.byWord.get(rare.w)), true);
