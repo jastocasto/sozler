@@ -34,7 +34,7 @@ function readRoute(hash) {
  if(hash==='#study'||hash==='#study/'||hash==='#study/today')return 'today';
  if(!hash.startsWith('#study/'))return null;
  const path=hash.slice(7);
- if(['words','words/find','progress','media','settings','grammar','vocab','read'].includes(path) ||
+ if(['words','words/find','progress','media','settings','grammar','vocab','read','reading-practice'].includes(path) ||
   /^read\/[a-z0-9-]{1,80}$/.test(path) ||
   /^vocab\/(new|review(?:\/[0-2])?|bank\/[0-3])$/.test(path) || /^practice\/(words|clips|phrasing|speaking)$/.test(path) ||
   /^(media\/)?word\/[^/]+$/.test(path) || sources.some(s=>path==='media/'+s.id))return path;
@@ -62,13 +62,14 @@ function mount({study,model,savedWords,openWord,navigate,getMotion,setMotion,ana
  const wordsWithAudio=new Map();
  for(const clip of clips)if(clip.word&&!wordsWithAudio.has(clip.word))wordsWithAudio.set(clip.word,clip);
  let current=null,currentDay=null;
- const boxes={today:$('studyToday'),grammar:$('studyDaily'),vocab:$('studyVocab'),words:$('studyLibraryContent'),progress:$('studyLibraryContent'),media:$('studyMediaContent'),practice:$('studyPracticeContent'),word:$('studyPracticeContent'),read:$('studyReadingContent'),settings:$('studySettings')};
+ const boxes={today:$('studyToday'),grammar:$('studyDaily'),vocab:$('studyVocab'),words:$('studyLibraryContent'),progress:$('studyLibraryContent'),media:$('studyMediaContent'),practice:$('studyPracticeContent'),word:$('studyPracticeContent'),read:$('studyReadingContent'),'reading-practice':$('studyReadingContent'),settings:$('studySettings')};
  function element(tag,cls,text) {
   const e=document.createElement(tag);if(cls)e.className=cls;if(text!==undefined)e.textContent=text;return e;
  }
  function button(text,cls,action) {
   const b=element('button',cls,text);b.type='button';b.addEventListener('click',action);return b;
  }
+ document.querySelector('.study-top-inner').append(root.SozTheme.button(document));
  function storageFeedback() {
   const bar=$('studyStorageStatus'),state=study.status();bar.hidden=state.persistent;
   if(!state.persistent)bar.textContent=state.reason==='invalid-data'
@@ -155,7 +156,10 @@ function mount({study,model,savedWords,openWord,navigate,getMotion,setMotion,ana
   const practiceTitle=element('div','study-lead-title');
   practiceTitle.append(element('h2','','Daily study'),element('span','study-note',minutes+' min planned'));
   const planned=element('section','study-section study-planned');
-  planned.append(practiceTitle,practiceList(rows),button('Open reading desk','study-text-link',()=>navigate('read')));
+  const readingLinks=element('div','study-word-actions');
+  readingLinks.append(button('Open reading desk','study-text-link',()=>navigate('read')),
+   button('Practice with your book','study-text-link',()=>navigate('reading-practice')));
+  planned.append(practiceTitle,practiceList(rows),readingLinks);
   const aside=element('aside','study-day-aside');aside.append(vocab.coverage(summary));
   grid.append(lead,aside,planned);boxes.today.replaceChildren(grid);
  }
@@ -166,7 +170,8 @@ function mount({study,model,savedWords,openWord,navigate,getMotion,setMotion,ana
   const materials=element('aside','study-day-aside'),listen=element('section','study-section');
   const reading=element('section','study-section');
   reading.append(element('h2','','Reading desk'),element('p','','Scan a page, tap words for their meanings, and save them for study.'),
-   button('Read a page','study-button',()=>navigate('read')));
+   button('Read a page','study-button',()=>navigate('read')),
+   button('Reading practice','study-button',()=>navigate('reading-practice')));
   listen.append(element('h2','','Listening desk'),element('p','',source.prompt),button('Open listening desk','study-button',()=>navigate('media')));
   const conjugation=element('section','study-section study-study-reference');
   const link=element('a','study-button','Open verb conjugations');link.href='#grammar=qa%C3%A7maq';
@@ -214,7 +219,7 @@ function mount({study,model,savedWords,openWord,navigate,getMotion,setMotion,ana
   if(current?.startsWith('practice/')||current?.startsWith('word/'))practice.close();
   if(current?.startsWith('media'))media.close();
   if(current?.startsWith('vocab'))vocab.close();
-  if(current==='read'||current?.startsWith('read/'))reader.close();
+  if(current==='read'||current?.startsWith('read/')||current==='reading-practice')reader.close();
   current=null;
  }
  function open(route='today',force=false) {
@@ -225,7 +230,7 @@ function mount({study,model,savedWords,openWord,navigate,getMotion,setMotion,ana
   const bank=tab==='vocab'&&key.startsWith('bank/')?Number(key.slice(5)):null;
   const area=bank===null?boxes[tab]||boxes.today:boxes.words;
   for(const box of new Set(Object.values(boxes)))box.hidden=box!==area;
-  const titles={today:'Today',grammar:'Daily study',vocab:'Vocabulary',words:'My words',progress:'My progress',media:'Listening desk',read:'Reading desk',settings:'Settings',word:'Word practice',practice:'Daily practice'};
+  const titles={today:'Today',grammar:'Daily study',vocab:'Vocabulary',words:'My words',progress:'My progress',media:'Listening desk',read:'Reading desk','reading-practice':'Reading practice',settings:'Settings',word:'Word practice',practice:'Daily practice'};
   let title=titles[tab]||titles.today;
   $('studyDate').textContent=tab==='today'||tab==='grammar'?dates.format(new Date(currentDay+'T12:00:00Z'))+' · Bakı':'';
   const sourceLink=$('studyWordSource');sourceLink.hidden=true;
@@ -250,6 +255,7 @@ function mount({study,model,savedWords,openWord,navigate,getMotion,setMotion,ana
   }
   else if(tab==='settings')settings();
   else if(tab==='read')reader.open(key);
+  else if(tab==='reading-practice')reader.openPractice();
   else if(tab==='practice'){
    const row=daily().rows.find(r=>r.key===key);
    if(!row){navigate('today',true);return;}

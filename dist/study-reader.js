@@ -120,7 +120,7 @@ function mount({host, study, model, analyze, navigate, openWord, onChange}) {
  const scroll=document.getElementById('studyPage');
  const positions=new Map(), passages=new WeakMap();
  let pages=new Map(), current=null, scanJob=null, bubble=null, draft=null, fields=null, shelfStatus='';
- let highlighted=[], selectionTimer, touch=null, quietUntil=0, practice=null;
+ let highlighted=[], selectionTimer, touch=null, quietUntil=0;
  let fontSize=0;
  try { fontSize=Math.max(-2,Math.min(3,Number(root.localStorage.getItem('soz-toxumasi:reader-font'))||0)); } catch {}
  function node(tag, className, text) {
@@ -130,7 +130,7 @@ function mount({host, study, model, analyze, navigate, openWord, onChange}) {
   return el;
  }
  function button(text, className, action) {
-  const el = node('button', className, text);el.type = 'button';el.addEventListener('click',action);return el;
+  const el = node('button', className, text);el.type = 'button';if (action) el.addEventListener('click',action);return el;
  }
  function readShelf() {
   try {
@@ -164,8 +164,8 @@ function mount({host, study, model, analyze, navigate, openWord, onChange}) {
  }
  function close() {
   if (fields && !current) draft = {title:fields.title.value,page:fields.page.value,text:fields.text.value};
-  if (current&&!fields&&!practice&&scroll) positions.set(current.id,scroll.scrollTop);
-  clearTimeout(selectionTimer);clearTimeout(touch?.timer);touch=null;practice=null;
+  if (current&&!fields&&scroll) positions.set(current.id,scroll.scrollTop);
+  clearTimeout(selectionTimer);clearTimeout(touch?.timer);touch=null;
   scanJob?.abort();scanJob=null;closeLookup();current=null;fields=null;readerMode(false);host.replaceChildren();
  }
  function bibliographicCard(entries) {
@@ -273,7 +273,7 @@ function mount({host, study, model, analyze, navigate, openWord, onChange}) {
  function showPage(entry) {
   const all=savedPages();
   entry=pages.get(entry.id)||entry;
-  fields=null;current=entry;practice=null;
+  fields=null;current=entry;
   readerMode(true);
   try { root.localStorage.setItem(placeKey,entry.id); } catch {}
   const volume=all.filter(page=>page.title===entry.title).sort((a,b)=>pageOrder.compare(a.page,b.page));
@@ -304,7 +304,7 @@ function mount({host, study, model, analyze, navigate, openWord, onChange}) {
   }
   const smaller=button('A−','reader-tool',()=>resizeText(-1));smaller.setAttribute('aria-label','Smaller text');
   const larger=button('A+','reader-tool',()=>resizeText(1));larger.setAttribute('aria-label','Larger text');
-  tools.append(button('Shelf','reader-tool',()=>navigate('read')),button('Practice','reader-tool',()=>startPractice(volume,entry)),smaller,larger,
+  tools.append(button('Shelf','reader-tool',()=>navigate('read')),button('Practice','reader-tool',()=>navigate('reading-practice')),smaller,larger,
    button('Edit','reader-tool',()=>{
    if (scroll) positions.set(entry.id,scroll.scrollTop);
    readerMode(false);closeLookup();
@@ -329,7 +329,7 @@ function mount({host, study, model, analyze, navigate, openWord, onChange}) {
   const bottom=node('nav','reader-bottom');bottom.setAttribute('aria-label','Turn pages');
   if (volume[start-1]) bottom.append(turn('← Previous',volume[start-1]));
   if (volume[end+1]) bottom.append(turn('Next →',volume[end+1]));
-  frame.append(toggle,header,scene,bottom);
+  frame.append(toggle,root.SozTheme.button(document,'reader-theme-toggle'),header,scene,bottom);
   host.replaceChildren(frame);
   if (scroll) scroll.scrollTop=positions.get(entry.id)||0;
  }
@@ -427,10 +427,10 @@ function mount({host, study, model, analyze, navigate, openWord, onChange}) {
   });
  }
  document.addEventListener('selectionchange',()=>{
-  if (!current || fields || practice || touch || Date.now()<quietUntil) return;
+  if (!current || fields || touch || Date.now()<quietUntil) return;
   clearTimeout(selectionTimer);
   selectionTimer=setTimeout(()=>{
-   if (!current || fields || practice || touch) return;
+   if (!current || fields || touch) return;
    const selected=document.getSelection?.();
    if (!selected?.rangeCount || selected.isCollapsed) return;
    const range=selected.getRangeAt(0), first=range.startContainer;
@@ -448,7 +448,6 @@ function mount({host, study, model, analyze, navigate, openWord, onChange}) {
  document.addEventListener('keydown',event=>{
   if (event.key!=='Escape'||!current) return;
   if (bubble) closeLookup();
-  else if (practice) showPage(current);
   else if (document.documentElement.classList.contains('book-controls-open')) host.querySelector('.reader-top-target')?.click();
  });
  host.addEventListener('click',event=>{
@@ -473,17 +472,67 @@ function mount({host, study, model, analyze, navigate, openWord, onChange}) {
    scroll.scrollTop+=selected.bottom-panel.top+14;
   }
  }
+ function tryConstruction(spelling) {
+  const match=spelling.match(/^([^ ]+m[aə][ğy][aə]) (çalış[^ ]+)$/u);
+  if (!match) return null;
+  const rows=root.ConjugationEngine.rows;
+  const action=analyze(match[1]).find(form=>form.kind==='verb'&&!form.loose&&rows[form.grammar.tense].id==='inf_dative');
+  const attempt=analyze(match[2]).find(form=>form.kind==='verb'&&!form.loose&&form.word==='çalışmaq');
+  if (!action||!attempt) return null;
+  const {tense,person,negative}=attempt.grammar,dative=action.english;
+  if (!dative?.match(/^to /i)) return null;
+  const english=root.ConjugationEnglish.describe({base:'try'},rows[tense].id,person,negative).text+' '+dative.replace(/^To /,'to ');
+  return {english,note:'-mağa / -məyə çalışmaq means “to try to do something.”'};
+ }
+ async function dictionaryPhrase(query) {
+  const spelling=readingSpelling(query);
+  if (!spelling.includes(' ')) return null;
+  let entry=model.resolveWord(spelling);
+  if (entry?.w.split(' ').length!==spelling.split(' ').length) entry=null;
+  if (!entry) {
+   const construction=tryConstruction(spelling);
+   if (construction) return construction;
+   const inflected=analyze(spelling).find(form=>form.kind==='verb'&&!form.loose&&form.word.includes(' ')&&form.english);
+   if (inflected) return {english:inflected.english,headword:inflected.word};
+   const last=spelling.lastIndexOf(' ');
+   for (const form of analyze(spelling.slice(last+1))) {
+    if (form.loose||form.kind!=='verb') continue;
+    const candidate=spelling.slice(0,last+1)+form.word;
+    entry=model.byWord.get(candidate);
+    if (entry) break;
+   }
+  }
+  if (!entry) return null;
+  try {
+   await model.ensurePrimary(entry);
+   return entry.en?{english:entry.en,headword:entry.w}:null;
+  } catch { return null; }
+ }
  function translateSelection(page,start,end) {
-  const {box,result}=makeBubble('Selected passage translation','English','en');
-  result.append(node('p','reader-status','Translating selection…'));
-  root.SozReaderStudy.translate(page,start,end).then(output=>{
+  const {box,result}=makeBubble('Selected text translation',page.text.slice(start,end).trim(),'az');
+  result.append(node('p','reader-status','Looking up selection…'));
+  root.SozReaderStudy.translate(page,start,end,{dictionary:dictionaryPhrase}).then(output=>{
    if (bubble!==box) return;
-   if (output) {
-    result.replaceChildren(node('p','reader-english',output.english));
-    if (output.contextual) result.append(node('small','study-note','Includes the full sentence for context.'));
-    if (output.machine) result.append(node('small','study-note','On-device translation'));
-   } else result.replaceChildren(node('p','study-note','An English reference is unavailable for this passage. Tap individual words to look them up.'));
-   keepSelectionVisible();
+   const parts=[];
+   if (output?.english) {
+    const gloss=node('p','reader-english',output.english);gloss.lang='en';parts.push(gloss);
+    if (output.note) parts.push(node('small','reader-selection-note',output.note));
+    if (output.headword) parts.push(node('small','reader-selection-note','Dictionary form · '+output.headword));
+    if (output.machine) parts.push(node('small','reader-selection-note','On-device translation'));
+   } else {
+    parts.push(node('p','study-note','No English gloss for this exact selection.'));
+    if (output?.part) {
+     const match=node('p','reader-selection-part'),label=node('strong','',output.part.text);label.lang='az';
+     match.append(label,document.createTextNode(' · '+output.part.english));parts.push(match);
+    }
+   }
+   if (output?.sentence) {
+    const more=node('details','reader-lookup-more reader-sentence-context');
+    const source=node('p','reader-az',output.sentence.text);source.lang='az';
+    const english=node('p','reader-english',output.sentence.english);english.lang='en';
+    more.append(node('summary','','Show sentence translation'),source,english);parts.push(more);
+   }
+   result.replaceChildren(...parts);keepSelectionVisible();
   },()=>{
    if (bubble===box) result.replaceChildren(node('p','study-note','A translation could not be opened.'));
   });
@@ -557,41 +606,60 @@ function mount({host, study, model, analyze, navigate, openWord, onChange}) {
   }
   find(part.text,false);
  }
- async function startPractice(volume,entry) {
-  closeLookup();
-  if (scroll) positions.set(entry.id,scroll.scrollTop);
-  const panel=node('section','reader-practice');
-  practice=panel;readerMode(true);
-  const back=button('← Back to reading','reader-tool',()=>showPage(entry));
-  panel.append(back,node('h2','','Translate a passage'),node('p','reader-status','Finding passages…'));host.replaceChildren(panel);
-  if (scroll) scroll.scrollTop=0;
-  const tasks=await root.SozReaderStudy.exercises(volume);
-  if (practice!==panel) return;
+ async function openPractice() {
+  const entries=savedPages(),entry=resumeFrom(entries);
+  const panel=node('section','reader-practice study-section'),back=button('Back to Daily Study','study-text-link',()=>navigate('grammar'));
+  const book=button('Open reading desk','study-button',()=>navigate('read'));
+  host.replaceChildren(panel);
+  panel.append(back,node('p','reader-status','Finding excerpts…'));
+  const volume=entries.filter(page=>page.title===entry?.title).sort((a,b)=>pageOrder.compare(a.page,b.page));
+  const tasks=await root.SozReaderStudy.exercises(volume,study.day());
+  if (!host.contains(panel)) return;
   if (!tasks.length) {
-   panel.replaceChildren(back,node('h2','','Translate a passage'),node('p','reader-status','No English practice references are available for this book.'));
+   panel.replaceChildren(back,node('h2','','Practice with your book'),
+    node('p','',volume.length?'Reviewed practice is unavailable for this book.':'Open your saved copy of Qaranlıq günəş to practice with its excerpts.'),book);
    return;
   }
-  let i=Math.max(0,tasks.findIndex(task=>task.page.id===entry.id));
-  function drill() {
-   const task=tasks[i], label=node('p','reader-practice-location',task.page.title+' · '+pageLabel(task.page)+' · '+(i+1)+' / '+tasks.length);
-   const source=node('blockquote','reader-practice-passage',task.text);source.lang='az';
-   const form=node('form','reader-practice-form'), input=node('textarea','study-input');
-   input.lang='en';input.rows=4;input.maxLength=2500;input.required=true;
-   const compare=node('button','study-cta','Compare');compare.type='submit';compare.disabled=true;
+  let i=0;
+  function drill(focus=false) {
+   if (i===tasks.length) {
+    const complete=node('h2','','Reading practice complete');complete.tabIndex=-1;
+    panel.replaceChildren(complete,node('p','','You compared '+tasks.length+' translations.'),back,
+     button('Return to the book','study-button',()=>navigate('read/'+entry.id)));
+    complete.focus();return;
+   }
+   const task=tasks[i],label=node('p','reader-practice-location',
+    task.page.title+' · '+pageLabel(task.page)+' · '+(i+1)+' / '+tasks.length);
+   const prompt=node('h2','','Translate the '+task.kind);prompt.tabIndex=-1;
+   const source=node('blockquote','reader-practice-passage');source.lang='az';
+   if (task.context) source.append(document.createTextNode(task.context.before),node('mark','',task.text),document.createTextNode(task.context.after));
+   else source.textContent=task.text;
+   const form=node('form','reader-practice-form'),input=node('textarea','study-input');
+   input.lang='en';input.rows=3;input.maxLength=2500;input.required=true;
+   const compare=button('Check my translation','study-cta');compare.type='submit';compare.disabled=true;
    const result=node('section','reader-practice-result');result.hidden=true;result.setAttribute('aria-live','polite');
-   const next=button('Next passage →','reader-tool',()=>{i=(i+1)%tasks.length;drill();});
+   const next=button(i+1===tasks.length?'Finish practice':'Next excerpt','study-button',()=>{i++;drill(true);});
    input.addEventListener('input',()=>{compare.disabled=!input.value.trim();});
    form.addEventListener('submit',event=>{
-    event.preventDefault();if (!input.value.trim()) return;
+    event.preventDefault();if (!input.value.trim()||!result.hidden) return;
+    const heading=node('h3','','English reference');heading.tabIndex=-1;
     const answer=node('p','reader-english',task.english);answer.lang='en';
     const notes=node('ul','reader-practice-notes');
-    for (const note of task.notes) notes.append(node('li','',note));
-    result.replaceChildren(node('h3','','English reference'),answer,node('h3','','What to check in your version'),notes,next);result.hidden=false;
-    result.scrollIntoView?.({block:'nearest'});
+    const labels={matched:'Wording found',reversed:'Meaning reversed',check:'Check this detail'};
+    for (const {note,state} of root.SozReaderStudy.compare(input.value,task.checks)) {
+     const row=node('li','');
+     row.append(node('strong','reader-feedback-tag',labels[state]),document.createTextNode(' '+note));
+     row.dataset.feedback=state;notes.append(row);
+    }
+    result.append(heading,answer);
+    if (task.note) result.append(node('p','study-note',task.note));
+    result.append(node('h3','','Compare with your version'),notes,
+     node('p','study-note','Other phrasings may be valid. Compare the meaning, tense, and tone with the reference.'),next);
+    result.hidden=false;input.readOnly=true;compare.hidden=true;heading.focus();result.scrollIntoView?.({block:'nearest'});
    });
    form.append(field('Your English translation',input),compare);
-   panel.replaceChildren(back,node('h2','','Translate a passage'),label,source,form,result);
-   if (scroll) scroll.scrollTop=0;
+   panel.replaceChildren(back,prompt,label,source,form,result);
+   if (focus) {if (scroll) scroll.scrollTop=0;prompt.focus({preventScroll:true});}
   }
   drill();
  }
@@ -605,11 +673,11 @@ function mount({host, study, model, analyze, navigate, openWord, onChange}) {
   sidebar.append(importCard());frame.append(sidebar,create);host.replaceChildren(frame);
  }
  wide?.addEventListener?.('change',()=>{
-  if (!current||fields||practice) return;
+  if (!current||fields) return;
   if(scroll)positions.set(current.id,scroll.scrollTop);
   closeLookup();showPage(current);
  });
- return {open,close,exportPages:savedPages,restore,resume:()=>resumeFrom(savedPages())};
+ return {open,openPractice,close,exportPages:savedPages,restore,resume:()=>resumeFrom(savedPages())};
 }
 
 root.SozStudyReader = {mount,validatePages,wordsOnPage,openPrivateLink};

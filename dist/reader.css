@@ -17,7 +17,7 @@
 .study-page .reader-status { font-size:.875rem; color:var(--app-muted); margin:9px 0 0; }
 .study-page .reader-back { margin-left:14px; }
 .reader-volume { --book-edge:#d6c9ae; }
-.book-reader-open { --reader-peek:calc(30px + env(safe-area-inset-top)); }
+.book-reader-open { --reader-peek:calc(44px + env(safe-area-inset-top)); }
 .book-reader-open #studyPage { bottom:0; background:#fbf5e6; }
 .book-reader-open .study-topbar,.book-reader-open .study-heading,
 .book-reader-open:not(.book-controls-open) #appTabs { display:none; }
@@ -27,7 +27,7 @@
  position:fixed; inset:0 0 auto; z-index:3; width:100%; height:var(--reader-peek); padding:0;
  border:0; background:#fbf5e6f5; color:#55462f; touch-action:manipulation;
 }
-.reader-top-target::after { content:''; position:absolute; bottom:9px; left:50%; translate:-50% 0; border-radius:10px; width:31px; height:4px; background:#bbae94; }
+.reader-top-target::after { content:''; position:absolute; bottom:15px; left:50%; translate:-50% 0; border-radius:10px; width:31px; height:4px; background:#bbae94; }
 .reader-top-target[aria-expanded="true"]::after { background:#776445; }
 .reader-volume-header { display:grid; grid-template-columns:minmax(0,1fr) auto; align-items:center; gap:6px 16px; margin:0 0 20px; }
 .book-reader-open .reader-volume-header {
@@ -120,3 +120,45 @@
  .book-reader-open .reader-volume-tools { justify-content:flex-start; gap:5px; }
 }
 @media (prefers-reduced-motion:reduce) { .book-reader-open .reader-volume-header { animation:none; } }
+
+.study-page .reader-theme-toggle {
+ position:fixed; z-index:4; top:env(safe-area-inset-top); right:max(9px,env(safe-area-inset-right));
+}
+.study-page .reader-selection-note { display:block; margin-top:2px; }
+.study-page .reader-selection-part { margin:6px 0; }
+.reader-sentence-context summary { width:fit-content; }
+.study-page .reader-practice.study-section { padding:clamp(14px,4vw,25px); }
+.reader-practice-passage mark { padding:0 .08em; border-radius:3px; background:#ead59b; color:#282318; }
+.reader-practice-notes li+li { margin-top:5px; }
+.reader-feedback-tag { color:#71501c; }
+[data-feedback="matched"] .reader-feedback-tag { color:#25603d; }
+[data-feedback="reversed"] .reader-feedback-tag { color:#9c3f37; }
+.reader-practice-result .study-note:last-of-type { margin-bottom:10px; }
+.reader-import .reader-status { overflow-wrap:anywhere; }
+
+:root[data-soz-theme="dark"] {
+ --reader-night:#1c1a16;
+ --reader-night-paper:#25211a;
+ --reader-night-edge:#504737;
+ --reader-night-muted:#cbbca1;
+ --reader-night-highlight:#725b2e;
+}
+[data-soz-theme="dark"].book-reader-open #studyPage,
+[data-soz-theme="dark"] .study-page .reader-top-target { background:var(--reader-night); color:var(--app-ink); }
+[data-soz-theme="dark"] .reader-top-target::after { background:#938164; }
+[data-soz-theme="dark"] :is(.reader-volume-header,.reader-practice-result,.reader-book-scene) { background:var(--reader-night-paper); border-color:var(--reader-night-edge); box-shadow:none; }
+[data-soz-theme="dark"] .study-page .reader-paper { background:var(--reader-night-paper); border-color:var(--reader-night-edge); }
+[data-soz-theme="dark"] .reader-spread .reader-paper:first-child { background:linear-gradient(90deg,#25211a 80%,#1d1a15); }
+[data-soz-theme="dark"] .reader-spread .reader-paper:last-child { background:linear-gradient(90deg,#1d1a15,#25211a 17%); }
+[data-soz-theme="dark"] .study-page :is(.reader-passage,.reader-english,.reader-lookup,.reader-close,.reader-tool) { color:var(--app-ink); }
+[data-soz-theme="dark"] .study-page :is(.reader-az,.reader-lemma,.reader-practice-location,.reader-lookup-more,.reader-folio,.reader-practice-notes) { color:var(--reader-night-muted); }
+[data-soz-theme="dark"] .study-page .reader-lookup { background:var(--reader-night-paper); border-color:var(--reader-night-edge); box-shadow:0 5px 26px #0007; }
+[data-soz-theme="dark"] .study-page :is(.reader-close,.reader-tool,.reader-practice-passage) { background:#312b21; border-color:#77684d; }
+[data-soz-theme="dark"] .study-page .reader-word[data-reader-active],
+[data-soz-theme="dark"] .reader-practice-passage mark { color:var(--app-ink); background:var(--reader-night-highlight); box-shadow:none; }
+[data-soz-theme="dark"] .reader-feedback-tag { color:#eac287; }
+[data-soz-theme="dark"] [data-feedback="matched"] .reader-feedback-tag { color:#a9e3bd; }
+[data-soz-theme="dark"] [data-feedback="reversed"] .reader-feedback-tag { color:#f7a699; }
+@media (max-width:720px) {
+ [data-soz-theme="dark"].book-reader-open .reader-paper { background:var(--reader-night); }
+}

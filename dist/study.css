@@ -236,3 +236,33 @@
  .vocab-decks { grid-template-columns:minmax(0,1fr); }
 }
 @media (prefers-reduced-motion:reduce) { .vocab-answer,.practice-grammar-pop .practice-checkmark { animation:none; } }
+
+.study-top-caption { margin-left:auto; }
+.study-page .study-theme-toggle {
+ display:grid; place-items:center; width:44px; height:44px; flex:none; padding:0;
+ border:1px solid transparent; border-radius:8px; background:transparent; color:var(--app-ink);
+}
+.study-theme-toggle svg { width:20px; height:20px; fill:none; stroke:currentColor; stroke-width:1.65; stroke-linecap:round; stroke-linejoin:round; }
+@media (hover:hover) { .study-page .study-theme-toggle:hover { border-color:var(--app-line); background:var(--app-soft); } }
+
+:root[data-soz-theme="dark"] :is(.study-page,.study-loading,.study-page:not([hidden]) ~ .app-tabs) {
+ color-scheme:dark;
+ --app-ivory:#1a1a18;
+ --app-paper:#24231f;
+ --app-ink:#f5f0e4;
+ --app-muted:#c0b9ab;
+ --app-line:#524e43;
+ --app-soft:#35332c;
+ --ink:var(--app-ink);
+}
+:root[data-soz-theme="dark"] .study-page :is(a,button,summary,input,textarea,select):focus-visible,
+:root[data-soz-theme="dark"] .study-page:not([hidden]) ~ .app-tabs a:focus-visible { outline-color:var(--app-ink); }
+:root[data-soz-theme="dark"] .study-page :is(.study-cta,.practice-primary),
+:root[data-soz-theme="dark"] .study-page:not([hidden]) ~ .app-tabs [data-app-tab="home"][aria-current] .app-tab-icon {
+ color:var(--app-ivory); background:var(--app-ink);
+}
+:root[data-soz-theme="dark"] .study-page :is(.study-cta,.practice-primary):hover { background:#d9d2c1; }
+:root[data-soz-theme="dark"] .study-page :is(.study-storage-status,.vocab-rate,.vocab-bank,.vocab-session-bank,.vocab-flying-card) { color:#242017; }
+:root[data-soz-theme="dark"] .study-page .vocab-icon[aria-pressed="true"] { color:#29251d; }
+:root[data-soz-theme="dark"] .study-page .practice-feedback.practice-grammar-correct { background:#203b2d; }
+:root[data-soz-theme="dark"] .study-page .practice-grammar-correct h2 { color:#a9e3bd; }
