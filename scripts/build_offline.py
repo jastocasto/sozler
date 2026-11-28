@@ -7,8 +7,8 @@ root=Path(__file__).resolve().parent.parent/'dist'
 LAYERS={name+'.js' for name in ['data','lexicon','grammar','vocabulary','review','bilingual','expansion','nominal','additions','relations','references','growth','orthography-lexical','orthography-lexical-evidence','print-definitions','orthography','verification']}
 # The full, verified text file already contains every primary meaning. The
 # small online shortcuts would duplicate those definitions in offline storage.
-files=sorted(p for p in root.rglob('*') if p.is_file() and p.name not in {'sw.js','offline-package.json','vercel.json'}
-             and p.relative_to(root).parts[0]!='meanings' and str(p.relative_to(root)) not in LAYERS)
+files=sorted(p for p in root.rglob('*') if p.is_file() and p.name not in {'sw.js','offline-package.json','vercel.json','reading-link.html'}
+             and p.relative_to(root).parts[0] not in {'meanings','reader-bundles'} and str(p.relative_to(root)) not in LAYERS)
 version=hashlib.sha256(Path(__file__).read_bytes()+b''.join(str(p.relative_to(root)).encode()+p.read_bytes() for p in files)).hexdigest()[:16]
 assets=[str(p.relative_to(root)) for p in files];meta={'version':version,'files':len(files),'bytes':sum(p.stat().st_size for p in files),'policy':'Offline availability requires a completed download on this device. Browser storage eviction can remove the package.'}
 (root/'offline-package.json').write_text(json.dumps(meta,indent=2)+'\n')

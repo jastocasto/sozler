@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>Open your book · SÖZ</title>
+<style>
+body{margin:0;background:#faf8ef;color:#26231c;font:17px/1.55 system-ui,sans-serif}
+main{max-width:32rem;margin:14vh auto;padding:0 24px}
+h1{font:400 36px/1.1 Georgia,serif} a{color:#51432d}
+</style>
+</head>
+<body>
+<main>
+<h1>Reading desk</h1>
+<p id="book-status" role="status">Opening your book…</p>
+<a href="/#study/read">Open the shelf</a>
+</main>
+<script src="study-reader.js?v=f75dc36b29b56bfb"></script>
+<script>window.SozStudyReader.openPrivateLink(document.getElementById('book-status'));</script>
+</body>
+</html>

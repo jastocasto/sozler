@@ -11,9 +11,9 @@ def version(match):
 icons=r'icons/[a-zA-Z0-9_-]+\.png'
 manifest=root/'manifest.webmanifest'
 manifest.write_text(re.sub(rf'("src"\s*:\s*)"({icons})(?:\?[^"]*)?"',version,manifest.read_text()))
-page=root/'index.html'
 assets=rf'[a-zA-Z0-9_-]+\.(?:js|css|svg|webmanifest)|{icons}'
-text=re.sub(rf'((?:src|href)=)"({assets})(?:\?[^"]*)?"',version,page.read_text())
-# The precomputed model is fetched as JSON; its preload link carries the cache key.
-text=re.sub(r'(href=)"(soz-core\.json)(?:\?[^"]*)?"',version,text)
-page.write_text(text)
+for page in (root/'index.html',root/'reading-link.html'):
+ text=re.sub(rf'((?:src|href)=)"({assets})(?:\?[^"]*)?"',version,page.read_text())
+ # The precomputed model is fetched as JSON; its preload link carries the cache key.
+ text=re.sub(r'(href=)"(soz-core\.json)(?:\?[^"]*)?"',version,text)
+ page.write_text(text)
