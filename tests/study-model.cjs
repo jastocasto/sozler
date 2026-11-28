@@ -263,4 +263,59 @@ assert.equal(dayKey('2028-02-29T20:00:00Z'), '2028-03-01');
   assert(restored.reviewCards().includes('gözəl'), 'Lowering your own rating makes a word eligible again');
 }
 
-console.log('PASS personal ratings, daily flashcards, proficient-word retirement, evidence, spaced reviews, concurrent journals, backup recovery and storage failures.');
+{
+  atDay('2026-12-20');
+  const storage = new TestStorage(), r = repo(storage);
+  r.setSettings({newWords:2});
+  const difficult = 'eyham', familiar = 'şərh';
+  const first = r.cardPrompt(difficult);
+  assert(r.checkCard(first,'new',null,0));
+  assert(!r.checkCard(first,'new',true,3),'A second submission of one turn cannot promote the word');
+  assert(r.checkCard(r.cardPrompt(familiar),'new',true,3));
+  assert.equal(r.summary().today.newCards,2);
+  assert.equal(r.summary().today.newMastered,0,'Green on the meaning side opens the final check');
+  assert.equal(r.cardPrompt(familiar).direction,'headword');
+  assert(!r.checkCard(r.cardPrompt('əlavə'),'new',true,3),'Repeating the set does not add words beyond the daily goal');
+  assert.deepEqual(r.newCardQueue(),[difficult,familiar]);
+  assert.deepEqual(r.reviewCards({dueOnly:false}),[],'In-progress new cards belong to their daily deck');
+
+  const otherTab = repo(storage);
+  const before = r.cardPrompt(difficult);
+  assert(r.checkCard(before,'new',true,3));
+  assert.equal(r.word(difficult).rating,1,'Red can advance only one step');
+  assert(!otherTab.checkCard(before,'new',true,3),'A stale tab cannot submit the previous turn');
+  assert.deepEqual(r.newCardQueue(),[familiar,difficult],'The attempted word returns at the end of the round');
+  assert(r.checkCard(r.cardPrompt(familiar),'new',false));
+  assert(r.word(familiar).cardRecall);
+  assert.equal(r.summary().today.newMastered,0);
+  assert.deepEqual(r.newCardQueue(),[difficult,familiar]);
+
+  const restored = repo();
+  restored.importJSON(r.exportJSON());
+  assert.deepEqual(restored.newCardQueue(),[difficult,familiar]);
+  assert(restored.checkCard(restored.cardPrompt(difficult),'new',true,3));
+  assert.equal(restored.word(difficult).rating,2,'Orange advances to yellow');
+  assert.equal(restored.cardPrompt(difficult).direction,'meaning');
+  assert(restored.checkCard(restored.cardPrompt(difficult),'new',true,3));
+  assert.equal(restored.cardPrompt(difficult).direction,'headword');
+  assert.equal(restored.word(difficult).rating,2,'Green is pending until unaided recall succeeds');
+  assert(restored.checkCard(restored.cardPrompt(difficult),'new',true));
+  assert(restored.checkCard(restored.cardPrompt(familiar),'new',true));
+  assert.equal(restored.word(familiar).evidence.recall.attempts,2);
+  assert.equal(restored.word(familiar).evidence.recall.correct,1);
+  assert.equal(restored.word(familiar).due,null);
+  assert.equal(restored.summary().today.newMastered,2);
+  assert.deepEqual(restored.newCardQueue(),[]);
+
+  const interrupted = repo();
+  interrupted.importJSON(r.exportJSON());
+  const yesterday = interrupted.cardPrompt(familiar);
+  atDay('2026-12-21');
+  assert(!interrupted.checkCard(yesterday,'new',true),'A turn belongs to its Baku study day');
+  assert(interrupted.reviewCards().includes(familiar),'A pending final check can be resumed the next day');
+  assert(interrupted.checkCard(interrupted.cardPrompt(familiar),'review',true));
+  assert.equal(interrupted.word(familiar).rating,3);
+  assert.deepEqual(interrupted.reviewCards(),[]);
+}
+
+console.log('PASS personal ratings, repeating flashcards, final recall, proficient-word retirement, evidence, spaced reviews, concurrent journals, backup recovery and storage failures.');

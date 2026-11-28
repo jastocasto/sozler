@@ -70,14 +70,36 @@ const restoredDoc=restored.window.document;
 assert.deepEqual([...restored.$('appTabs').querySelectorAll('a')].map(a=>a.textContent),['Kainat','Vocab','Home','Study','Settings']);
 assert.equal(restored.$('appTabs').querySelector('[aria-current]').dataset.appTab,'home');
 restored.$('studyToday').querySelector('.study-cta').click();
-const front=restoredDoc.querySelector('.vocab-front'),newWord=front.querySelector('.vocab-headword').textContent;
-assert(!restoredDoc.querySelector('.vocab-ratings'));
-front.click();assert(restoredDoc.querySelector('.vocab-definition p[lang="az"]').textContent);
-restoredDoc.querySelector('.vocab-rate[data-rating="3"]').click();
+restored.model.ensureText();
+function guess(text) {
+ const form=restoredDoc.querySelector('.vocab-guess-form'),input=form.querySelector('textarea');
+ assert(!restoredDoc.querySelector('.vocab-compact-ratings'),'The guess precedes the ratings');
+ assert(form.querySelector('[type="submit"]').disabled);
+ input.value=text;input.dispatchEvent(new restored.window.Event('input'));
+ assert(!form.querySelector('[type="submit"]').disabled);
+ form.dispatchEvent(new restored.window.Event('submit'));
+}
+const taught=[];
+for(let i=0;i<6;i++){
+ const newWord=restoredDoc.querySelector('.vocab-prompt-heading h2').textContent;
+ taught.push(newWord);
+ guess(restored.model.byWord.get(newWord).en);
+ assert.equal(restoredDoc.querySelector('.vocab-check-result').dataset.result,'match');
+ assert(restoredDoc.querySelector('.vocab-definition p[lang="az"]').textContent);
+ assert.deepEqual([...restoredDoc.querySelectorAll('.vocab-rate')].map(b=>b.textContent),['Nope','Ehh','Almost','100%']);
+ restoredDoc.querySelector('.vocab-rate[data-rating="3"]').click();
+}
+assert(restoredDoc.querySelector('.vocab-english-cue'));
+guess('wrong headword');
+assert.equal(restoredDoc.querySelector('.vocab-check-result').dataset.result,'unmatched');
+restoredDoc.querySelector('.vocab-answer .study-cta').click();
+guess(taught[1]);
+assert(restoredDoc.querySelector('.vocab-check-result').textContent.includes('Proficient'));
 restored.$('appTabs').querySelector('[data-app-tab="vocab"]').click();
-assert(restored.$('studyVocab').textContent.includes('1 / 6 rated today'));
+assert(restored.$('studyVocab').textContent.includes('1 / 6 mastered today'));
 restoredDoc.querySelector('.vocab-bank[data-rating="3"]').click();
-assert(restoredDoc.querySelector(`[data-word="${newWord}"]`),'A new card goes straight to its bank');
+assert(restoredDoc.querySelector(`[data-word="${taught[1]}"]`),'A successful final recall puts the word in the proficient bank');
+assert(!restoredDoc.querySelector(`[data-word="${taught[0]}"]`),'A failed final recall keeps the word in the deck');
 assert(!restoredDoc.querySelector('.study-word-row [data-action="practice"]'));
 restored.window.location.hash='#w=g%C3%B6z%C9%99l';
 restored.window.dispatchEvent(new restored.window.Event('hashchange'));

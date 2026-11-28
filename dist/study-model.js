@@ -107,7 +107,8 @@ function newEvidence() {
 
 function newItem(kind, key, day) {
   return {kind, key, rating:null, added:day, last:null, updated:day, due:day, nextChannel:null,
-    context:{text:'', source:'', seconds:null}, reading:null, evidence:Object.fromEntries(channels.map(channel => [channel, newEvidence()]))};
+    context:{text:'', source:'', seconds:null}, reading:null, cardRecall:false,
+    evidence:Object.fromEntries(channels.map(channel => [channel, newEvidence()]))};
 }
 
 function updateEvidence(stat, event, day) {
@@ -149,7 +150,7 @@ function updateEvidence(stat, event, day) {
 
 function newDay(day) {
   return {day, attempts:0, correct:0, words:new Set(), lessons:new Set(), ratings:new Set(), added:0, firstWords:new Set(), firstLessons:new Set(),
-    newCards:new Set(), reviewCards:new Set(),
+    newCards:new Set(), reviewCards:new Set(), cardTurns:new Map(),
     firstListen:0, firstUse:0, proficientChange:0,
     byChannel:Object.fromEntries(channels.map(channel => [channel, 0]))};
 }
@@ -165,19 +166,20 @@ function snapshot() {
   return {words:new Map(), lessons:new Map(), days:new Map(), settings:{minutes:20, speaking:true, newWords:10, startPage:'today'}};
 }
 
-function applyRating(item, event, day, stats) {
+function applyRating(item, event, day, stats, awaitingRecall = false) {
   const before = item.rating, rating = event.value;
   stats.proficientChange += Number(rating === 3) - Number(before === 3);
   item.rating = rating;
+  item.cardRecall = awaitingRecall;
   if (rating !== null) stats.ratings.add(event.key);
   if (event.deck === 'new') stats.newCards.add(event.key);
-  if (event.deck === 'review') stats.reviewCards.add(event.key);
+  if (event.deck === 'review' && !awaitingRecall) stats.reviewCards.add(event.key);
 
   if (rating === 3) {
     item.due = null;
     item.nextChannel = null;
   } else if (event.deck || before === 3) {
-    item.due = plusDays(day, event.deck ? cardIntervals[rating] : 0);
+    item.due = plusDays(day, awaitingRecall ? 1 : event.deck ? cardIntervals[rating] : 0);
     item.nextChannel = null;
   } else if (rating === 0 || !item.last) {
     item.due = plusDays(day, rating === 2 ? 3 : 0);
@@ -185,23 +187,7 @@ function applyRating(item, event, day, stats) {
   }
 }
 
-function apply(state, event) {
-  if (event.op === 'settings') { Object.assign(state.settings, event.value); return; }
-  const day = dayKey(event.at);
-  let stats = state.days.get(day);
-  if (!stats) { stats = newDay(day); state.days.set(day, stats); }
-  const list = event.kind === 'lesson' ? state.lessons : state.words;
-  let item = list.get(event.key);
-  if (!item) {
-    item = newItem(event.kind, event.key, day);
-    list.set(event.key, item);
-    if (event.kind === 'word') stats.added++;
-  }
-  item.updated = day;
-  if (event.op === 'context') item.context = event.value;
-  if (event.op === 'reading') item.reading = event.value;
-  if (event.op === 'rating') applyRating(item, event, day, stats);
-  if (event.op !== 'answer') return;
+function applyAnswer(item, event, day, stats, schedule = true) {
   if (!item.last) (event.kind === 'lesson' ? stats.firstLessons : stats.firstWords).add(event.key);
   item.last = day;
   stats.attempts++;
@@ -215,11 +201,70 @@ function apply(state, event) {
     if (event.channel === 'use') stats.firstUse++;
   }
   // Optional exercises can still record evidence after a learner retires a word.
-  if (item.rating === 3) return;
+  if (!schedule || item.rating === 3) return;
   // An easy recognition prompt must not postpone a previously missed listening or recall prompt.
   item.nextChannel = channels.filter(channel => item.evidence[channel].due)
     .sort((a,b) => item.evidence[a].due.localeCompare(item.evidence[b].due))[0];
   item.due = item.evidence[item.nextChannel].due;
+}
+
+function inNewDrill(work, key) {
+  return work?.cardTurns.get(key)?.deck === 'new';
+}
+
+function canCheckCard(state, work, event) {
+  const {key, deck, value} = event, word = state.words.get(key), rating = word?.rating;
+  if ((work?.cardTurns.get(key)?.id ?? null) !== value.previous || rating === 3 ||
+      Boolean(word?.cardRecall) !== (value.direction === 'headword')) return false;
+  if (deck === 'review') return rating != null && !work?.reviewCards.has(key) && !inNewDrill(work, key);
+  return work?.newCards.has(key) || rating == null && (work?.newCards.size ?? 0) < state.settings.newWords;
+}
+
+function applyFlashcard(item, event, day, stats) {
+  const {key, deck, value} = event, last = stats.cardTurns.get(key);
+  stats.cardTurns.delete(key);
+  stats.cardTurns.set(key, {id:event.id, deck, level:last?.deck === deck ? last.level : item.rating});
+  if (value.direction === 'meaning') {
+    const grade = item.rating === null ? value.grade : Math.min(value.grade, item.rating + 1);
+    applyRating(item, {...event, value:Math.min(grade,2)}, day, stats, grade === 3);
+  } else if (value.correct) {
+    applyRating(item, {...event, value:3}, day, stats);
+  }
+  if (value.correct !== null) {
+    const channel = value.direction === 'headword' ? 'recall' : 'recognize';
+    applyAnswer(item, {...event, channel, correct:value.correct, condition:'independent', selfReported:false}, day, stats, false);
+  }
+}
+
+function apply(state, event) {
+  if (event.op === 'settings') { Object.assign(state.settings, event.value); return; }
+  const day = dayKey(event.at);
+  let stats = state.days.get(day);
+  if (event.op === 'flashcard' && !canCheckCard(state, stats, event)) return;
+  if (!stats) { stats = newDay(day); state.days.set(day, stats); }
+  const list = event.kind === 'lesson' ? state.lessons : state.words;
+  let item = list.get(event.key);
+  if (!item) {
+    item = newItem(event.kind, event.key, day);
+    list.set(event.key, item);
+    if (event.kind === 'word') stats.added++;
+  }
+  item.updated = day;
+  if (event.op === 'context') item.context = event.value;
+  if (event.op === 'reading') item.reading = event.value;
+  if (event.op === 'rating') applyRating(item, event, day, stats);
+  if (event.op === 'answer') applyAnswer(item, event, day, stats);
+  if (event.op === 'flashcard') applyFlashcard(item, event, day, stats);
+}
+
+function checkedFlashcard(raw) {
+  const {direction,correct,previous,grade} = raw ?? {};
+  const value = {direction, correct, previous:previous === null ? null : checkedLabel(previous,400,'flashcard turn')};
+  if (direction === 'meaning' && (typeof correct === 'boolean' || correct === null) && checkedRating(grade) !== null) {
+    return {...value, grade};
+  }
+  if (direction === 'headword' && typeof correct === 'boolean' && grade === undefined) return value;
+  throw new Error('Invalid flashcard result');
 }
 
 function copyItem(item) {
@@ -279,6 +324,9 @@ function create(options = {}) {
       if (raw.deck === undefined) return {...header, kind, key, value};
       if (!cardDecks.includes(raw.deck) || value === null) throw new Error('Invalid flashcard rating');
       return {...header, kind, key, value, deck:raw.deck};
+    }
+    if (op === 'flashcard' && cardDecks.includes(raw.deck)) {
+      return {...header, kind, key, value:checkedFlashcard(raw.value), deck:raw.deck};
     }
     if (op === 'context') return {...header, kind, key, value:checkedContext(raw.value)};
     if (op === 'reading') return {...header, kind, key, value:checkedReading(raw.value)};
@@ -361,8 +409,8 @@ function create(options = {}) {
       loaded.set(key, data); pending.clear(); invalidShards.delete(key); issue = null;
     } catch (error) { storageIssue(error); }
   }
-  function commit(data) {
-    const at = clock(), order = at === lastLocalTime ? localOrder + 1 : 0;
+  function commit(data, at = clock()) {
+    const order = at === lastLocalTime ? localOrder + 1 : 0;
     const event = checkedEvent({...data, id:data.id ?? freshId(), at, order}, true);
     if (events.has(eventKey(event))) { persist(); return false; }
     include(event);
@@ -390,13 +438,37 @@ function create(options = {}) {
     return commit({op:'rating', kind:'word', key:word, value, deck});
   }
   function availableCard(item, work) {
-    return item.rating !== null && item.rating < 3 && !work?.reviewCards.has(item.key);
+    return item.rating !== null && item.rating < 3 && !work?.reviewCards.has(item.key) && !inNewDrill(work, item.key);
+  }
+  function newCardQueue() {
+    const data = current(), work = data.days.get(today());
+    if (!work) return [];
+    return [...work.newCards].filter(key => !work.cardTurns.has(key))
+      .concat([...work.cardTurns.keys()].filter(key => work.newCards.has(key)))
+      .filter(key => available('word',key) && data.words.get(key)?.rating !== 3);
+  }
+  function cardPrompt(key) {
+    const data = current(), day = today(), item = data.words.get(key);
+    return {key, day, rating:item?.rating ?? null, direction:item?.cardRecall ? 'headword' : 'meaning',
+      previous:data.days.get(day)?.cardTurns.get(key)?.id ?? null};
+  }
+  function checkCard(prompt, deck, correct, grade) {
+    if (!cardDecks.includes(deck)) throw new Error('Invalid flashcard deck');
+    const key = itemKey('word', prompt.key);
+    const event = {op:'flashcard',kind:'word',key,deck,value:checkedFlashcard({...prompt,correct,grade})};
+    refresh();
+    const data = current(), at = clock(), day = dayKey(at);
+    if (prompt.day !== day || !canCheckCard(data,data.days.get(day),event)) return false;
+    return commit(event,at);
   }
   function reviewCards({level, dueOnly = true} = {}) {
     const data = current(), day = today(), work = data.days.get(day);
+    const order = new Map([...work?.cardTurns.keys() ?? []].map((key,index)=>[key,index]));
     return [...data.words.values()].filter(item => available('word', item.key) && availableCard(item, work) &&
-      (level === undefined || item.rating === level) && (!dueOnly || item.due && item.due <= day))
-      .sort((a,b) => (a.due || '').localeCompare(b.due || '') || a.rating - b.rating || a.key.localeCompare(b.key, 'az'))
+      (level === undefined || (item.cardRecall ? work?.cardTurns.get(item.key)?.level ?? item.rating : item.rating) === level) &&
+      (!dueOnly || item.cardRecall || item.due && item.due <= day))
+      .sort((a,b) => (order.get(a.key) ?? -1) - (order.get(b.key) ?? -1) ||
+        (a.due || '').localeCompare(b.due || '') || a.rating - b.rating || a.key.localeCompare(b.key, 'az'))
       .map(item => item.key);
   }
   function importJSON(text) {
@@ -429,10 +501,8 @@ function create(options = {}) {
       if (!available('word', item.key)) continue;
       tracked++;
       if (item.rating !== null) ratings[item.rating]++;
-      if (item.due && item.due <= day) {
-        dueWords++;
-        if (availableCard(item, work)) dueCards++;
-      }
+      if (item.due && item.due <= day) dueWords++;
+      if ((item.cardRecall || item.due && item.due <= day) && availableCard(item, work)) dueCards++;
     }
     for (const item of data.lessons.values()) {
       if (!available('lesson', item.key)) continue;
@@ -443,7 +513,8 @@ function create(options = {}) {
     const total = Number.isSafeInteger(totalWords) && totalWords >= 0 ? totalWords : tracked;
     return {day, totalWords:total, tracked, assessed, unassessed:Math.max(0, total - assessed), inLibraryUnrated:tracked - assessed,
       ratings, due:dueWords + dueLessons, dueWords, dueCards, dueLessons, lessonCount,
-      today:dailyTotals(work || newDay(day)),
+      today:{...dailyTotals(work || newDay(day)),
+        newMastered:[...work?.newCards ?? []].filter(key => available('word',key) && data.words.get(key)?.rating === 3).length},
       history:[...data.days.values()].map(dailyTotals).sort((a,b) => a.day.localeCompare(b.day))};
   }
   function plan({words = [], lessons = [], kind = null, accept = null, limit, newLimit, extra = false} = {}) {
@@ -486,7 +557,8 @@ function create(options = {}) {
   refresh();
   root.addEventListener?.('storage', onStorage);
   return {
-    day:today, plan, summary, reviewCards, rateCard, refresh:() => {refresh(); persist();},
+    day:today, plan, summary, reviewCards, rateCard, newCardQueue, cardPrompt, checkCard,
+    refresh:() => {refresh(); persist();},
     wordRatings:() => new Map([...current().words.values()].filter(item => item.rating !== null && available('word', item.key)).map(item => [item.key,item.rating])),
     status:() => ({persistent:!issue && !invalidShards.size, reason:invalidShards.size ? 'invalid-data' : issue, pending:pending.size}),
     settings:() => ({...current().settings}),

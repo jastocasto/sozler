@@ -84,7 +84,11 @@ function mount({study,model,savedWords,openWord,navigate,getMotion,setMotion,ana
  const vocab=root.SozStudyVocab.mount({host:boxes.vocab,study,model,navigate,discover:discoverWord,onChange:storageFeedback});
  function discoverWord(day,skipped) {
   const ordinal=Math.floor(Date.parse(day+'T00:00:00Z')/86400000),ratings=study.wordRatings();
-  const eligible=word=>Boolean(word)&&!ratings.has(word)&&!skipped.has(word);
+  const eligible=word=>{
+   const node=model.byWord.get(word);
+   return Boolean(node)&&!ratings.has(word)&&!skipped.has(word)&&
+    (!model.textLoaded()||Boolean(root.SozStudyAnswer.englishCue(node)));
+  };
   const fromReading=study.words().find(record=>record.reading&&eligible(record.key));
   if(fromReading)return model.byWord.get(fromReading.key);
   const bookmarks=Array.from(savedWords?.()||[]),bookmarked=bookmarks.find(word=>eligible(word)&&model.byWord.has(word));
@@ -136,16 +140,16 @@ function mount({study,model,savedWords,openWord,navigate,getMotion,setMotion,ana
   return list;
  }
  function renderToday() {
-  const {rows,minutes}=daily(),summary=study.summary(model.nodes.length),{target,completed,due}=vocab.status(summary);
+  const {rows,minutes}=daily(),summary=study.summary(model.nodes.length),{target,started,completed,due}=vocab.status(summary);
   const grid=element('div','study-today-grid study-home-grid'),lead=element('section','study-lead');
   const leadTitle=element('div','study-lead-title');
   leadTitle.append(element('h2','','Daily vocabulary'),element('span','study-tally',completed+' / '+target));
-  const meter=element('progress');meter.max=target;meter.value=completed;meter.setAttribute('aria-label','New words rated today');
+  const meter=element('progress');meter.max=target;meter.value=completed;meter.setAttribute('aria-label','New words mastered today');
   const actions=element('div','study-word-actions');
-  if(completed<target)actions.append(button(completed?'Continue flashcards':'Learn '+target+' words','study-cta',()=>navigate('vocab/new')));
+  if(completed<target)actions.append(button(started?'Continue flashcards':'Learn '+target+' words','study-cta',()=>navigate('vocab/new')));
   if(due)actions.append(button('Review '+due+' due','study-button',()=>navigate('vocab/review')));
   if(!actions.childElementCount)actions.append(button('Open word banks','study-button',()=>navigate('vocab')));
-  lead.append(leadTitle,meter,element('p','study-note','New words rated today'),actions);
+  lead.append(leadTitle,meter,element('p','study-note','New words mastered today'),actions);
   const practiceTitle=element('div','study-lead-title');
   practiceTitle.append(element('h2','','Daily study'),element('span','study-note',minutes+' min planned'));
   const planned=element('section','study-section study-planned');

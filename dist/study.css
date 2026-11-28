@@ -151,17 +151,49 @@
 .vocab-session { max-width:690px; }
 .vocab-session-tools { color:var(--app-muted); font-size:.875rem; margin-bottom:8px; font-variant-numeric:tabular-nums; }
 .study-page .vocab-card { padding:0; border-color:var(--app-ink); box-shadow:0 3px 0 #22221912; }
-.study-page .vocab-card:has(> h2) { padding:clamp(18px,4vw,32px); }
-.study-page .vocab-front { display:grid; align-content:center; justify-items:center; width:100%; min-height:clamp(200px,39dvh,340px); gap:12px; padding:22px; border-radius:inherit; color:var(--app-ink); }
-.study-page .vocab-front:hover { background:var(--app-ivory); }
+.study-page .vocab-card:has(> h2,> p) { padding:clamp(16px,4vw,30px); }
 .study-page .vocab-headword { font:500 clamp(34px,7.4vw,62px)/1.06 Georgia,serif; letter-spacing:-.045em; overflow-wrap:anywhere; }
-.vocab-instruction,.vocab-definition span,.vocab-feedback { color:var(--app-muted); font-size:.875rem; }
-.vocab-answer { padding:clamp(16px,3.7vw,30px); transform-origin:center; animation:turn-card 210ms ease-out both; }
+.vocab-definition span,.vocab-feedback,.vocab-voice-status { color:var(--app-muted); font-size:.875rem; }
+.vocab-prompt,.vocab-answer { padding:clamp(15px,3.7vw,30px); }
+.vocab-prompt-top,.vocab-prompt-heading,.vocab-guess-options { display:flex; align-items:center; gap:8px; }
+.vocab-prompt-top,.vocab-prompt-heading { justify-content:space-between; }
+.study-page .vocab-question { color:var(--app-muted); font-size:.875rem; margin:0; }
+.vocab-stage { display:inline-flex; align-items:center; white-space:nowrap; gap:6px; color:var(--app-ink); font-size:.8125rem; }
+.vocab-stage[data-rating]::before { content:''; width:8px; height:8px; border-radius:50%; background:var(--rating); }
+.study-page .vocab-prompt-heading h2 { margin:12px 0 18px; }
+.study-page .vocab-english-cue { font:500 clamp(24px,4.8vw,38px)/1.24 Georgia,serif; letter-spacing:-.01em; }
+.study-page .vocab-icon { display:grid; place-items:center; flex:0 0 44px; width:44px; padding:0; color:var(--app-ink); }
+.study-page .vocab-icon[aria-pressed="true"] { background:#faeadc; }
+.vocab-icon svg { width:19px; height:19px; fill:none; stroke:currentColor; stroke-width:1.75; stroke-linecap:round; stroke-linejoin:round; }
+.vocab-guess-field { display:grid; gap:5px; font-weight:600; }
+.vocab-guess-field textarea { min-width:0; width:100%; min-height:65px; resize:vertical; font-weight:400; }
+.vocab-guess-options { margin-top:9px; }
+.study-page .vocab-dictation-language { width:auto; min-width:0; max-width:45%; padding-inline:6px; font-size:.8125rem; }
+.vocab-guess-options .study-cta { margin-left:auto; white-space:nowrap; }
+.study-page .vocab-voice-status { margin:8px 0 0; }
+.vocab-voice-status:empty { display:none; }
+.vocab-answer { transform-origin:center; animation:turn-card 210ms ease-out both; }
 @keyframes turn-card { from { transform:perspective(850px) rotateY(-14deg); opacity:.6; } }
 .vocab-definitions { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; margin:16px 0 18px; }
 .vocab-definition { border-top:1px solid var(--app-line); padding-top:8px; }
 .vocab-definition p { margin:5px 0 0; }
+.vocab-check-result { padding:7px 10px; background:var(--app-soft); border-radius:6px; font-weight:650; }
+.vocab-check-result[data-result="match"] { background:#e5f5e8; color:#1b5133; }
+.vocab-check-result[data-result="close"] { background:#fff2c7; color:#604719; }
+.vocab-more-senses { margin-bottom:14px; color:var(--app-muted); font-size:.875rem; }
+.vocab-more-senses summary { cursor:pointer; min-height:32px; }
+.vocab-more-senses .vocab-definitions { margin:8px 0; }
+.vocab-your-answer { overflow-wrap:anywhere; }
 .study-page .vocab-rating-question { font-weight:650; margin-bottom:9px; }
+.vocab-ratings.vocab-compact-ratings { grid-template-columns:repeat(4,minmax(0,1fr)); gap:6px; }
+.study-page .vocab-compact-ratings .vocab-rate {
+ display:block; min-height:44px; padding:6px 2px; border-color:#24231d55; background:var(--grade-fill);
+ text-align:center; font-size:.8125rem; font-weight:750;
+}
+.vocab-compact-ratings [data-rating="0"] { --grade-fill:#ff969e; }
+.vocab-compact-ratings [data-rating="1"] { --grade-fill:#ffb273; }
+.vocab-compact-ratings [data-rating="2"] { --grade-fill:#f9df63; }
+.vocab-compact-ratings [data-rating="3"] { --grade-fill:#76d899; }
 .vocab-card-actions { display:flex; align-items:center; flex-wrap:wrap; gap:8px; margin-top:12px; }
 .vocab-feedback:empty { display:none; }
 .study-map-rating { display:flex; flex-wrap:wrap; align-items:center; gap:8px 12px; padding:10px 0; border-bottom:1px solid var(--app-line); color:var(--app-ink); font:500 .875rem/1.4 var(--app-font); }
