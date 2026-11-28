@@ -1,0 +1,1520 @@
+{
+  "titleAz": "Təbii Azərbaycan dili: danışıq və korpus nümunələri",
+  "titleEn": "Natural Azerbaijani: spoken language and corpus examples",
+  "entries": [
+    {
+      "word": "şərh yazmaq",
+      "pos": "verb",
+      "az": "Bir paylaşım, yazı və ya video barədə fikrini şərh bölməsində yazmaq.",
+      "en": "To write or leave a comment.",
+      "sources": [
+        {
+          "title": "Azleks · şərh",
+          "url": "https://azleks.az/en/dictionary/serh"
+        },
+        {
+          "title": "Bakı Araşdırmalar İnstitutu · Sosial şəbəkələrdə şərhlər",
+          "url": "https://bakuresearchinstitute.org/azerbaycanin-50-minlik-trol-ordusu/"
+        }
+      ],
+      "senses": [],
+      "register": "online",
+      "example": [
+        "Videoya şərh yazdım.",
+        "I left a comment on the video."
+      ]
+    },
+    {
+      "word": "geci-tezi",
+      "pos": "adverb",
+      "az": "Gec də olsa, bir vaxt, nə vaxtsa.",
+      "en": "Sooner or later, eventually.",
+      "sources": [
+        {
+          "title": "Azleks · gec-tez",
+          "url": "https://azleks.az/dictionary/gec-tez"
+        },
+        {
+          "title": "Azleks · geci-tezi olmaq",
+          "url": "https://azleks.az/ru/dictionary/geci-tezi-olmaq"
+        },
+        {
+          "title": "Azleks · Yardımlı şivəsində geci-tezi",
+          "url": "https://azleks.az/index.php/en/dictionary/telefe"
+        }
+      ],
+      "senses": [],
+      "register": "colloquial",
+      "example": [
+        "Geci-tezi bu xəbər ona çatacaq.",
+        "Sooner or later, the news will reach her."
+      ],
+      "usage": "Yazıda daha çox “gec-tez” işlənir. “Geci-tezi” danışıqda və “geci-tezi olmaq” ifadəsində də işlənir."
+    },
+    {
+      "word": "geci-tezi olmaq",
+      "pos": "verb",
+      "az": "Bir işin tez və ya gec, hər halda baş verəcəyini bildirmək.",
+      "en": "To be bound to happen sooner or later.",
+      "sources": [
+        {
+          "title": "Azleks · geci-tezi olmaq",
+          "url": "https://azleks.az/ru/dictionary/geci-tezi-olmaq"
+        },
+        {
+          "title": "Azleks · gec-tez",
+          "url": "https://azleks.az/dictionary/gec-tez"
+        }
+      ],
+      "senses": [],
+      "register": "colloquial"
+    },
+    {
+      "word": "mırta",
+      "pos": "adverb",
+      "az": "Zarafat üçün, əylənmək üçün, ciddi niyyət olmadan.",
+      "en": "For a laugh, for fun, or as a joke.",
+      "sources": [
+        {
+          "title": "Kulis · Hekayə müzakirəsində “mırta”",
+          "url": "https://kulis.az/xeber/kulisaz/senet/senet-yalandir-amma-ag-yalan-deyil-hekaye-muzakiresi-48033"
+        },
+        {
+          "title": "Milli.Az · Danışıqda “mırta gəlib”",
+          "url": "https://news.milli.az/society/252072.html"
+        }
+      ],
+      "senses": [],
+      "register": "slang",
+      "example": [
+        "Ciddi demirəm, mırta dedim.",
+        "I don’t mean it seriously. I just said it for a laugh."
+      ]
+    },
+    {
+      "word": "mırta qoymaq",
+      "pos": "verb",
+      "az": "Kiməsə söz atıb onunla məzələnmək.",
+      "en": "To make fun of someone or tease them.",
+      "sources": [
+        {
+          "title": "Milli.Az · Danışıqda “mırta qoydum”",
+          "url": "https://news.milli.az/country/595757.html"
+        },
+        {
+          "title": "Kulis · Hekayə müzakirəsində “mırta”",
+          "url": "https://kulis.az/xeber/kulisaz/senet/senet-yalandir-amma-ag-yalan-deyil-hekaye-muzakiresi-48033"
+        }
+      ],
+      "senses": [],
+      "register": "slang"
+    },
+    {
+      "word": "mırt",
+      "pos": "noun",
+      "az": "Zarafatlı söhbət, sözləşib gülüşmək.",
+      "en": "Banter or joking around.",
+      "sources": [
+        {
+          "title": "Xədicə Heydərova · Danışıq leksikasının dilçilik araşdırması",
+          "url": "https://azerbaycandili.az/Literatures/Download/5107/XEDICE%20HEYDEROVA.pdf"
+        }
+      ],
+      "senses": [],
+      "register": "slang"
+    },
+    {
+      "word": "mırtdaşmaq",
+      "pos": "verb",
+      "az": "Bir-biri ilə zarafatlaşıb söhbət etmək.",
+      "en": "To banter or joke around with each other.",
+      "sources": [
+        {
+          "title": "Xədicə Heydərova · Danışıq leksikasının dilçilik araşdırması",
+          "url": "https://azerbaycandili.az/Literatures/Download/5107/XEDICE%20HEYDEROVA.pdf"
+        },
+        {
+          "title": "AMEA Folklor İnstitutu · Güney Azərbaycan folkloru, VIII cild",
+          "url": "https://folklor.az/uploads/library/files/Guney-Azerbaycan-Folkloru-VIII1693986572.pdf"
+        }
+      ],
+      "senses": [],
+      "register": "slang"
+    },
+    {
+      "word": "nağayırsan",
+      "pos": "phrase",
+      "az": "“Nə qayırırsan?” sualının danışıqda qısalmış forması. “Nə edirsən?” mənasında işlənir.",
+      "en": "What are you doing?",
+      "sources": [
+        {
+          "title": "AMEA Folklor İnstitutu · Qərbi Azərbaycan folkloru, I cild, s. 279",
+          "url": "https://folklor.az/uploads/library/files/Qerbi_Azerbaycan_folkloru_%28I_cild%291709795072.pdf#page=279"
+        },
+        {
+          "title": "AMEA Folklor İnstitutu · Tovuz folklor örnəkləri, II, s. 37",
+          "url": "https://arxiv.folklor.az/antologiyalar/Tovuz-folklor-ornekleri-2.pdf#page=37"
+        }
+      ],
+      "senses": [],
+      "register": "regional",
+      "example": [
+        "Salam, nağayırsan?",
+        "Hi, what are you doing?"
+      ],
+      "usage": "Səmimi danışıqda və şivələrdə eşidilir. Ədəbi dildə “Nə edirsən?” deyilir."
+    },
+    {
+      "word": "nağayır",
+      "pos": "phrase",
+      "az": "“Nə qayırır?” sualının “Nə edir?” mənasında işlənən qısa forması.",
+      "en": "What is he or she doing?",
+      "sources": [
+        {
+          "title": "AMEA Folklor İnstitutu · Qərbi Azərbaycan folkloru, I cild, s. 279",
+          "url": "https://folklor.az/uploads/library/files/Qerbi_Azerbaycan_folkloru_%28I_cild%291709795072.pdf#page=279"
+        }
+      ],
+      "senses": [],
+      "register": "regional"
+    },
+    {
+      "word": "neynirsən",
+      "pos": "phrase",
+      "az": "“Nə eləyirsən?” sualının danışıqda qısalmış forması.",
+      "en": "What are you doing?",
+      "sources": [
+        {
+          "title": "AMEA Folklor İnstitutu · Usta söyləyici",
+          "url": "https://folklor.az/uploads/research/files/usta-soyleyici1694067765.pdf"
+        }
+      ],
+      "senses": [],
+      "register": "colloquial"
+    },
+    {
+      "word": "nə var, nə yox",
+      "pos": "phrase",
+      "az": "Hal-əhval tutanda adamdan nə yenilik olduğunu soruşmaq üçün deyilən ifadə.",
+      "en": "What’s new? How’s it going?",
+      "sources": [
+        {
+          "title": "AMEA Folklor İnstitutu · Tovuz folklor örnəkləri, II, s. 37",
+          "url": "https://arxiv.folklor.az/antologiyalar/Tovuz-folklor-ornekleri-2.pdf#page=37"
+        }
+      ],
+      "senses": [],
+      "register": "colloquial",
+      "example": [
+        "Salam, nə var, nə yox?",
+        "Hi, what’s new?"
+      ]
+    },
+    {
+      "word": "qadanı alım",
+      "pos": "interjection",
+      "az": "Birinə nəvazişlə müraciət edəndə və ya ondan bir şey xahiş edəndə deyilən, “dərdin mənə gəlsin” mənalı ifadə.",
+      "en": "An affectionate “my dear” or a soft “please.” Literally, “May I take on your troubles.”",
+      "sources": [
+        {
+          "title": "Azleks · qada",
+          "url": "https://azleks.az/dictionary/qada"
+        },
+        {
+          "title": "Azleks · girəvələmək məqaləsində “qadan alım”",
+          "url": "https://azleks.az/index.php/dictionary/girevelemek"
+        },
+        {
+          "title": "Milli Kitabxana · Ədəbi dialoqda “qadanı alım”",
+          "url": "https://anl.az/el/alf4/cb_se4c.pdf"
+        },
+        {
+          "title": "Azleks · başına dolanmaq (dönmək)",
+          "url": "https://azleks.az/index.php/en/dictionary/basina-dolanmaq-donmek"
+        }
+      ],
+      "senses": [],
+      "register": "colloquial",
+      "example": [
+        "Qadanı alım, bir az da qal.",
+        "Please, dear, stay a little longer."
+      ],
+      "usage": "Səmimi danışıqda “qadan alım” forması da işlənir."
+    },
+    {
+      "word": "qadanı alaram",
+      "pos": "phrase",
+      "az": "Yaxın adama nəvaziş göstərmək və ya onu sakitləşdirmək üçün “dərdini mən çəkərəm” mənasında deyilən ifadə.",
+      "en": "An affectionate “I’d take your troubles upon myself.” Depending on the situation, “dear” can convey the tone in English.",
+      "sources": [
+        {
+          "title": "Azleks · qada",
+          "url": "https://azleks.az/dictionary/qada"
+        },
+        {
+          "title": "Qanun Nəşriyyatı · Şeirdə “qadanı alaram”",
+          "url": "https://www.qanun.az/images/news/2020-05-23-13-15-501590225350.pdf"
+        },
+        {
+          "title": "Azleks · başına dolanmaq (dönmək)",
+          "url": "https://azleks.az/index.php/en/dictionary/basina-dolanmaq-donmek"
+        }
+      ],
+      "senses": [],
+      "register": "colloquial",
+      "usage": "“Qadan alaram” danışıq variantıdır. “Qadanı alım” eyni nəvazişi arzu şəklində bildirir."
+    },
+    {
+      "word": "ay sağ ol",
+      "pos": "interjection",
+      "az": "Birinə səmimi təşəkkür edəndə və ya dediyini bəyəndiyini bildirəndə deyilən söz.",
+      "en": "Thanks! In approving agreement, “Exactly!” or “That’s it!”",
+      "sources": [
+        {
+          "title": "Milli Kitabxana · Ədalət qəzetinin arxivi",
+          "url": "https://anl.az/down/meqale/adalet/2012/oktyabr/266797.htm"
+        }
+      ],
+      "senses": [],
+      "register": "colloquial",
+      "example": [
+        "Ay sağ ol, elə mən də bunu deyirəm!",
+        "Exactly, that’s what I’m saying too!"
+      ]
+    },
+    {
+      "word": "nə bilim",
+      "pos": "phrase",
+      "az": "Bir şeyi bilmədiyini, cavabdan əmin olmadığını və ya tərəddüd etdiyini bildirən danışıq ifadəsi.",
+      "en": "I don’t know; how should I know? It can also introduce a hesitant suggestion.",
+      "sources": [
+        {
+          "title": "Milli Kitabxana · Ədalət qəzetinin arxivi",
+          "url": "https://anl.az/down/meqale/adalet/2012/oktyabr/266797.htm"
+        },
+        {
+          "title": "Azleks · əşi",
+          "url": "https://azleks.az/dictionary/esi"
+        }
+      ],
+      "senses": [],
+      "register": "colloquial",
+      "example": [
+        "Nə bilim, bəlkə sabah gələr.",
+        "I don’t know, maybe she’ll come tomorrow."
+      ]
+    },
+    {
+      "word": "ərsəyə gətirmək",
+      "pos": "verb",
+      "az": "Bir əsəri, filmi və ya layihəni hazırlayıb ortaya çıxarmaq.",
+      "en": "To create, produce, or bring a work or project to fruition.",
+      "sources": [
+        {
+          "title": "LocalDoc · Azərbaycan dilində film təsvirləri və paralel tərcümələri",
+          "url": "https://huggingface.co/datasets/LocalDoc/azerbaijani-english-parallel-corpus/viewer/default/train"
+        }
+      ],
+      "senses": [],
+      "example": [
+        "Onlar bu filmi üç ilə ərsəyə gətirdilər.",
+        "They brought this film to fruition in three years."
+      ]
+    },
+    {
+      "word": "təhlükəyə atmaq",
+      "pos": "verb",
+      "az": "Kiminsə və ya nəyinsə zərər görməsi ehtimalını yaratmaq.",
+      "en": "To endanger or put someone or something at risk.",
+      "sources": [
+        {
+          "title": "LocalDoc · Azərbaycan dilində film təsvirləri və paralel tərcümələri",
+          "url": "https://huggingface.co/datasets/LocalDoc/azerbaijani-english-parallel-corpus/viewer/default/train"
+        }
+      ],
+      "senses": [],
+      "example": [
+        "Bir az vaxt qazanmaq üçün həyatını təhlükəyə atma.",
+        "Don’t put your life at risk just to save a little time."
+      ]
+    },
+    {
+      "word": "razı olmaq",
+      "pos": "verb",
+      "az": "Təklifi qəbul etmək, bir fikirlə razılaşmaq və ya bir işə razılıq vermək.",
+      "en": "To agree, accept a proposal, or consent to something.",
+      "sources": [
+        {
+          "title": "LocalDoc · Azərbaycan dilində film təsvirləri və paralel tərcümələri",
+          "url": "https://huggingface.co/datasets/LocalDoc/azerbaijani-english-parallel-corpus/viewer/default/train"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Əldə etdiyindən və ya qarşılaşdığın vəziyyətdən narazı olmamaq.",
+          "en": "To be satisfied with something as it stands."
+        }
+      ],
+      "example": [
+        "Planı dəyişməyə razı olduq.",
+        "We agreed to change the plan."
+      ]
+    },
+    {
+      "word": "layiq görülmək",
+      "pos": "verb",
+      "az": "Bir mükafata, ada və ya şərəfə layiq hesab edilmək.",
+      "en": "To be deemed worthy of an honour or to be awarded it.",
+      "sources": [
+        {
+          "title": "LocalDoc · Azərbaycan dilində film təsvirləri və paralel tərcümələri",
+          "url": "https://huggingface.co/datasets/LocalDoc/azerbaijani-english-parallel-corpus/viewer/default/train"
+        }
+      ],
+      "senses": [],
+      "example": [
+        "O, bu işinə görə mükafata layiq görüldü.",
+        "She received an award for this work."
+      ]
+    },
+    {
+      "word": "töhfə vermək",
+      "pos": "verb",
+      "az": "Bir işin, sahənin və ya cəmiyyətin inkişafına fayda verən bir iş görmək.",
+      "en": "To contribute to something or make a meaningful contribution.",
+      "sources": [
+        {
+          "title": "LocalDoc · Azərbaycan dilində film təsvirləri və paralel tərcümələri",
+          "url": "https://huggingface.co/datasets/LocalDoc/azerbaijani-english-parallel-corpus/viewer/default/train"
+        }
+      ],
+      "senses": [],
+      "example": [
+        "Könüllülər layihəyə böyük töhfə verdilər.",
+        "The volunteers made a major contribution to the project."
+      ]
+    },
+    {
+      "word": "tərkibinə daxil etmək",
+      "pos": "verb",
+      "az": "Bir şeyi qrupun, qurumun, siyahının və ya bütövün bir hissəsi etmək.",
+      "en": "To include or incorporate something into a group, body, or whole.",
+      "sources": [
+        {
+          "title": "LocalDoc · Azərbaycan dilində qurum və layihə mətnləri",
+          "url": "https://huggingface.co/datasets/LocalDoc/azerbaijani-english-parallel-corpus/viewer/default/train?p=1"
+        }
+      ],
+      "senses": [],
+      "example": [
+        "Yeni qrupu layihənin tərkibinə daxil etdilər.",
+        "They brought the new group into the project."
+      ]
+    },
+    {
+      "word": "tabeliyinə vermək",
+      "pos": "verb",
+      "az": "Qurumu və ya bölməni başqa bir qurumun idarəçiliyinə keçirmək.",
+      "en": "To place a body or division under another authority.",
+      "sources": [
+        {
+          "title": "LocalDoc · Azərbaycan dilində qurum və layihə mətnləri",
+          "url": "https://huggingface.co/datasets/LocalDoc/azerbaijani-english-parallel-corpus/viewer/default/train?p=1"
+        }
+      ],
+      "senses": [],
+      "register": "formal",
+      "example": [
+        "Mərkəzi nazirliyin tabeliyinə verdilər.",
+        "They placed the centre under the authority of the ministry."
+      ]
+    },
+    {
+      "word": "istismara vermək",
+      "pos": "verb",
+      "az": "Tikilini, avadanlığı və ya sistemi hazır vəziyyətə gətirib istifadəyə açmaq.",
+      "en": "To put into operation, commission, or open for use.",
+      "sources": [
+        {
+          "title": "LocalDoc · Azərbaycan dilində qurum və layihə mətnləri",
+          "url": "https://huggingface.co/datasets/LocalDoc/azerbaijani-english-parallel-corpus/viewer/default/train?p=1"
+        }
+      ],
+      "senses": [],
+      "register": "formal",
+      "example": [
+        "Yeni stansiya ötən ay istismara verildi.",
+        "The new station went into service last month."
+      ]
+    }
+  ],
+  "revisions": [
+    {
+      "word": "şərh",
+      "pos": "noun",
+      "az": "Bir məsələ barədə bildirilən fikir, yazılan rəy və ya verilən izah.",
+      "en": "A comment, commentary, or explanation, depending on context.",
+      "sources": [
+        {
+          "title": "Azleks · şərh",
+          "url": "https://azleks.az/en/dictionary/serh"
+        },
+        {
+          "title": "Bakı Araşdırmalar İnstitutu · Sosial şəbəkələrdə şərhlər",
+          "url": "https://bakuresearchinstitute.org/azerbaycanin-50-minlik-trol-ordusu/"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Paylaşımın altında yazılan fikir.",
+          "en": "A comment on an online post."
+        },
+        {
+          "az": "Bir mətnin və ya hadisənin mənasını açıqlayan izah.",
+          "en": "An explanation or interpretation of a text or event."
+        },
+        {
+          "az": "Hadisəni izah edib qiymətləndirən yazı və ya çıxış.",
+          "en": "Commentary or analysis of an event."
+        }
+      ],
+      "example": [
+        "Bu paylaşımın altında maraqlı bir şərh oxudum.",
+        "I read an interesting comment under this post."
+      ]
+    },
+    {
+      "word": "şərh etmək",
+      "pos": "verb",
+      "az": "Bir məsələyə münasibət bildirmək və ya onun mənasını izah etmək.",
+      "en": "To comment on, explain, or interpret something.",
+      "sources": [
+        {
+          "title": "Azleks · şərh",
+          "url": "https://azleks.az/en/dictionary/serh"
+        },
+        {
+          "title": "Bakı Araşdırmalar İnstitutu · Sosial şəbəkələrdə şərhlər",
+          "url": "https://bakuresearchinstitute.org/azerbaycanin-50-minlik-trol-ordusu/"
+        }
+      ],
+      "senses": [],
+      "example": [
+        "O, qərarın nə demək olduğunu şərh etdi.",
+        "She explained what the decision meant."
+      ]
+    },
+    {
+      "word": "komment",
+      "pos": "noun",
+      "az": "İnternetdə paylaşıma yazılan şərh.",
+      "en": "An online comment.",
+      "sources": [
+        {
+          "title": "Azleks · komment",
+          "url": "https://azleks.az/dictionary/komment"
+        },
+        {
+          "title": "Bakı Araşdırmalar İnstitutu · Sosial şəbəkələrdə şərhlər",
+          "url": "https://bakuresearchinstitute.org/azerbaycanin-50-minlik-trol-ordusu/"
+        }
+      ],
+      "senses": [],
+      "register": "colloquial"
+    },
+    {
+      "word": "mırtlaşmaq",
+      "pos": "verb",
+      "az": "Bir-birinə zarafatla söz deyib əylənmək.",
+      "en": "To banter or joke around with each other.",
+      "sources": [
+        {
+          "title": "AMEA Folklor İnstitutu · Güney Azərbaycan folkloru, VIII cild",
+          "url": "https://folklor.az/uploads/library/files/Guney-Azerbaycan-Folkloru-VIII1693986572.pdf"
+        },
+        {
+          "title": "Xədicə Heydərova · Danışıq leksikasının dilçilik araşdırması",
+          "url": "https://azerbaycandili.az/Literatures/Download/5107/XEDICE%20HEYDEROVA.pdf"
+        }
+      ],
+      "senses": [],
+      "register": "slang"
+    },
+    {
+      "word": "mırt vurmaq",
+      "pos": "verb",
+      "az": "Vaxt keçirmək üçün yüngül, zarafatlı söhbət etmək.",
+      "en": "To pass the time chatting and joking.",
+      "sources": [
+        {
+          "title": "Xədicə Heydərova · Danışıq leksikasının dilçilik araşdırması",
+          "url": "https://azerbaycandili.az/Literatures/Download/5107/XEDICE%20HEYDEROVA.pdf"
+        }
+      ],
+      "senses": [],
+      "register": "slang"
+    },
+    {
+      "word": "qada",
+      "pos": "noun",
+      "az": "Bəla, dərd, müsibət.",
+      "en": "Trouble, an affliction, or a misfortune.",
+      "sources": [
+        {
+          "title": "Azleks · qada",
+          "url": "https://azleks.az/dictionary/qada"
+        },
+        {
+          "title": "Azleks · başına dolanmaq (dönmək)",
+          "url": "https://azleks.az/index.php/en/dictionary/basina-dolanmaq-donmek"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Bəzi şivələrdə xəstəlik.",
+          "en": "An illness in some dialects."
+        },
+        {
+          "az": "“Qadanı alım” kimi ifadələrdə əzizləmə və xahiş bildirir.",
+          "en": "Appears in affectionate or pleading expressions such as qadanı alım."
+        }
+      ]
+    },
+    {
+      "word": "qurban olum",
+      "pos": "interjection",
+      "az": "Yaxın adama nəvazişlə müraciət edəndə və ya ondan ürəkdən bir şey xahiş edəndə deyilən ifadə.",
+      "en": "My dear; please, I beg you. Literally, “may I sacrifice myself for you.”",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti · qurban",
+          "url": "https://obastan.com/soz/az/qurban"
+        },
+        {
+          "title": "Azleks · başına dolanmaq (dönmək)",
+          "url": "https://azleks.az/index.php/en/dictionary/basina-dolanmaq-donmek"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Birini çox əziz tutduğunu bildirmək.",
+          "en": "An expression of deep affection."
+        },
+        {
+          "az": "Xahişi gücləndirmək və ya yumşaltmaq.",
+          "en": "An emphatic or affectionate plea."
+        }
+      ],
+      "register": "colloquial",
+      "example": [
+        "Qurban olum, özünü yorma.",
+        "Please, my dear, don’t tire yourself out."
+      ]
+    },
+    {
+      "word": "başına dönüm",
+      "pos": "interjection",
+      "az": "Yaxın adama nəvazişlə üz tutanda, onu razı salmaq və ya ondan bir şey xahiş etmək istəyəndə deyilən ifadə.",
+      "en": "My dear; please, dear. Said affectionately or to persuade someone.",
+      "sources": [
+        {
+          "title": "Azleks · başına dolanmaq (dönmək)",
+          "url": "https://azleks.az/index.php/en/dictionary/basina-dolanmaq-donmek"
+        }
+      ],
+      "senses": [],
+      "register": "colloquial"
+    },
+    {
+      "word": "əşi",
+      "pos": "interjection",
+      "az": "Danışanın təkidini, narazılığını və ya etinasızlığını bildirən nida. “A kişi” müraciətinin qısalmış formasıdır.",
+      "en": "Come on! Oh, well! A spoken interjection that can show insistence, annoyance, or dismissal.",
+      "sources": [
+        {
+          "title": "Azleks · əşi",
+          "url": "https://azleks.az/dictionary/esi"
+        }
+      ],
+      "senses": [],
+      "register": "colloquial",
+      "example": [
+        "Əşi, qoy getsin.",
+        "Oh, just let him go."
+      ]
+    },
+    {
+      "word": "elə-belə",
+      "pos": "adverb",
+      "az": "Xüsusi məqsəd və ya səbəb olmadan.",
+      "en": "Just because, just like that, or for no particular reason.",
+      "sources": [
+        {
+          "title": "Azleks · elə-belə",
+          "url": "https://azleks.az/dictionary/ele-bele"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Pul və ya əvəz almadan.",
+          "en": "For free, without payment."
+        },
+        {
+          "az": "Yaxşı da deyil, pis də deyil.",
+          "en": "So-so, nothing special."
+        },
+        {
+          "az": "Adi, fərqlənməyən.",
+          "en": "Ordinary, unremarkable."
+        }
+      ],
+      "example": [
+        "Səni elə-belə, halını soruşmaq üçün aradım.",
+        "I just called to see how you were doing."
+      ]
+    },
+    {
+      "word": "nəzərdən keçirmək",
+      "pos": "verb",
+      "az": "Bir məsələni, sənədi və ya planı qiymətləndirmək üçün ona diqqətlə baxmaq.",
+      "en": "To review, look over, or consider something carefully.",
+      "sources": [
+        {
+          "title": "LocalDoc · Azərbaycan dilində film təsvirləri və paralel tərcümələri",
+          "url": "https://huggingface.co/datasets/LocalDoc/azerbaijani-english-parallel-corpus/viewer/default/train"
+        }
+      ],
+      "senses": [],
+      "example": [
+        "Gəlin planı bir də nəzərdən keçirək.",
+        "Let’s go over the plan one more time."
+      ]
+    },
+    {
+      "word": "qərarlaşmaq",
+      "pos": "verb",
+      "az": "Danışıb razılığa gəlmək, bir qərarın və ya variantın üstündə dayanmaq.",
+      "en": "To reach agreement or settle on a plan or option.",
+      "sources": [
+        {
+          "title": "LocalDoc · Azərbaycan dilində film təsvirləri və paralel tərcümələri",
+          "url": "https://huggingface.co/datasets/LocalDoc/azerbaijani-english-parallel-corpus/viewer/default/train"
+        }
+      ],
+      "senses": [],
+      "example": [
+        "Bir neçə təklifdən sonra ilk variantda qərarlaşdıq.",
+        "After a few suggestions we settled on the first option."
+      ]
+    },
+    {
+      "word": "girov götürmək",
+      "pos": "verb",
+      "az": "Tələbin yerinə yetirilməsi üçün birini zorla saxlayıb onun azad olunmasını şərtə bağlamaq.",
+      "en": "To take someone hostage.",
+      "sources": [
+        {
+          "title": "LocalDoc · Azərbaycan dilində film təsvirləri və paralel tərcümələri",
+          "url": "https://huggingface.co/datasets/LocalDoc/azerbaijani-english-parallel-corpus/viewer/default/train"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Borcun ödənilməsi üçün əşyanı təminat kimi qəbul etmək.",
+          "en": "To take property as collateral."
+        }
+      ],
+      "example": [
+        "Onlar iki nəfəri girov götürdülər.",
+        "They took two people hostage."
+      ],
+      "usage": "İnsan haqqında “girov götürmək” əsir saxlamaqdır. Əşyanı borcun təminatı kimi vermək üçün “girov qoymaq” işlənir."
+    },
+    {
+      "word": "nail olmaq",
+      "pos": "verb",
+      "az": "Bir məqsədə, arzulanan nəticəyə və ya uğura çatmaq.",
+      "en": "To achieve, attain, or manage to accomplish something.",
+      "sources": [
+        {
+          "title": "LocalDoc · Azərbaycan dilində film təsvirləri və paralel tərcümələri",
+          "url": "https://huggingface.co/datasets/LocalDoc/azerbaijani-english-parallel-corpus/viewer/default/train"
+        }
+      ],
+      "senses": [],
+      "example": [
+        "Danışıqlar yolu ilə razılığa nail oldular.",
+        "They reached an agreement through talks."
+      ],
+      "usage": "Məqsəd yönlük halda işlənir: nəticəyə nail olmaq, razılığa nail olmaq."
+    },
+    {
+      "word": "üstünü açmaq",
+      "pos": "verb",
+      "az": "Gizli bir işi, sirri və ya fırıldağı üzə çıxarmaq.",
+      "en": "To uncover, disclose, or expose something hidden.",
+      "sources": [
+        {
+          "title": "LocalDoc · Azərbaycan dilində film təsvirləri və paralel tərcümələri",
+          "url": "https://huggingface.co/datasets/LocalDoc/azerbaijani-english-parallel-corpus/viewer/default/train"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Üstündəki örtüyü götürmək.",
+          "en": "To remove the cover from something."
+        },
+        {
+          "az": "Cinayətin necə və ya kim tərəfindən törədildiyini müəyyənləşdirmək.",
+          "en": "To solve a crime."
+        }
+      ],
+      "example": [
+        "Jurnalist saxtakarlığın üstünü açdı.",
+        "The journalist exposed the fraud."
+      ]
+    },
+    {
+      "word": "baxmayaraq",
+      "pos": "postposition",
+      "az": "Bir maneəyə və ya zidd olan şəraitə rəğmən.",
+      "en": "Despite or in spite of. With a clause, although or even though.",
+      "sources": [
+        {
+          "title": "LocalDoc · Azərbaycan dilində film təsvirləri və paralel tərcümələri",
+          "url": "https://huggingface.co/datasets/LocalDoc/azerbaijani-english-parallel-corpus/viewer/default/train"
+        }
+      ],
+      "senses": [],
+      "example": [
+        "Yağışa baxmayaraq, gəzməyə çıxdıq.",
+        "Despite the rain, we went out for a walk."
+      ],
+      "usage": "Yönlük hal tələb edir: yağışa baxmayaraq. Bütöv fikirlə də işlənir: yağış yağmasına baxmayaraq."
+    },
+    {
+      "word": "təhvil vermək",
+      "pos": "verb",
+      "az": "Bir əşyanı, sənədi və ya görülmüş işi məsul şəxsə və ya quruma təqdim etmək, onun ixtiyarına vermək.",
+      "en": "To hand something over, hand it in, or deliver it to the person responsible.",
+      "sources": [
+        {
+          "title": "LocalDoc · Azərbaycan dilində film təsvirləri və paralel tərcümələri",
+          "url": "https://huggingface.co/datasets/LocalDoc/azerbaijani-english-parallel-corpus/viewer/default/train"
+        }
+      ],
+      "senses": [],
+      "example": [
+        "Açarları ev sahibinə təhvil verdik.",
+        "We handed the keys over to the landlord."
+      ]
+    },
+    {
+      "word": "müvafiq",
+      "pos": "adjective",
+      "az": "Məsələyə uyğun gələn və ya birbaşa aid olan.",
+      "en": "Relevant, corresponding, or appropriate.",
+      "sources": [
+        {
+          "title": "LocalDoc · Azərbaycan dilində film təsvirləri və paralel tərcümələri",
+          "url": "https://huggingface.co/datasets/LocalDoc/azerbaijani-english-parallel-corpus/viewer/default/train"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Ayrı-ayrı şəxslərin və ya işlərin hər birinə uyğun olan.",
+          "en": "Respective, corresponding to each person or item."
+        }
+      ],
+      "example": [
+        "Müvafiq sənədləri gətirin.",
+        "Bring the relevant documents."
+      ]
+    },
+    {
+      "word": "təltif etmək",
+      "pos": "verb",
+      "az": "Xidmətinə və ya nailiyyətinə görə kiməsə mükafat, medal və ya fəxri ad vermək.",
+      "en": "To honour someone by giving them an award, medal, or title.",
+      "sources": [
+        {
+          "title": "LocalDoc · Azərbaycan dilində film təsvirləri və paralel tərcümələri",
+          "url": "https://huggingface.co/datasets/LocalDoc/azerbaijani-english-parallel-corpus/viewer/default/train"
+        },
+        {
+          "title": "LocalDoc · Azərbaycan dilində rəsmi nitq və sənədlər",
+          "url": "https://huggingface.co/datasets/LocalDoc/azerbaijani-english-parallel-corpus/viewer/default/train?p=2"
+        }
+      ],
+      "senses": [],
+      "register": "formal",
+      "example": [
+        "Onu fəxri fərmanla təltif etdilər.",
+        "They honoured her with a certificate of merit."
+      ]
+    },
+    {
+      "word": "başa çatmaq",
+      "pos": "verb",
+      "az": "Sona yetmək, tamamlanmaq.",
+      "en": "To end, finish, or be completed.",
+      "sources": [
+        {
+          "title": "LocalDoc · Azərbaycan dilində qurum və layihə mətnləri",
+          "url": "https://huggingface.co/datasets/LocalDoc/azerbaijani-english-parallel-corpus/viewer/default/train?p=1"
+        }
+      ],
+      "senses": [],
+      "example": [
+        "Görüş bir saatdan sonra başa çatdı.",
+        "The meeting ended an hour later."
+      ],
+      "usage": "İş özü başa çatır. Bir işi bitirən adam onu başa çatdırır."
+    },
+    {
+      "word": "həyata keçirmək",
+      "pos": "verb",
+      "az": "Nəzərdə tutulan işi, planı və ya layihəni gerçəkdə yerinə yetirmək.",
+      "en": "To carry out, implement, or put into practice.",
+      "sources": [
+        {
+          "title": "LocalDoc · Azərbaycan dilində qurum və layihə mətnləri",
+          "url": "https://huggingface.co/datasets/LocalDoc/azerbaijani-english-parallel-corpus/viewer/default/train?p=1"
+        }
+      ],
+      "senses": [],
+      "example": [
+        "Təklifi gələn il həyata keçirəcəyik.",
+        "We’ll put the proposal into practice next year."
+      ]
+    },
+    {
+      "word": "tərtib etmək",
+      "pos": "verb",
+      "az": "Bir siyahını, mətni və ya sənədi müəyyən qayda ilə hazırlamaq.",
+      "en": "To draw up, compile, or prepare a document, list, or text.",
+      "sources": [
+        {
+          "title": "LocalDoc · Azərbaycan dilində qurum və layihə mətnləri",
+          "url": "https://huggingface.co/datasets/LocalDoc/azerbaijani-english-parallel-corpus/viewer/default/train?p=1"
+        }
+      ],
+      "senses": [],
+      "example": [
+        "Səfər üçün xərclərin siyahısını tərtib etdik.",
+        "We drew up a list of expenses for the trip."
+      ]
+    },
+    {
+      "word": "ibarət olmaq",
+      "pos": "verb",
+      "az": "Müəyyən hissələrdən təşkil olunmaq.",
+      "en": "To consist of or be made up of.",
+      "sources": [
+        {
+          "title": "LocalDoc · Azərbaycan dilində rəsmi nitq və sənədlər",
+          "url": "https://huggingface.co/datasets/LocalDoc/azerbaijani-english-parallel-corpus/viewer/default/train?p=2"
+        }
+      ],
+      "senses": [],
+      "example": [
+        "Kitab dörd fəsildən ibarətdir.",
+        "The book consists of four chapters."
+      ],
+      "usage": "Hissələr çıxışlıq halda işlənir: üç bölmədən ibarət olmaq."
+    },
+    {
+      "word": "sərəncam",
+      "pos": "noun",
+      "az": "Səlahiyyətli şəxsin verdiyi rəsmi göstəriş və ya bu göstərişi bildirən yazılı sənəd.",
+      "en": "An official order or directive, often issued as a signed document.",
+      "sources": [
+        {
+          "title": "LocalDoc · Azərbaycan dilində rəsmi nitq və sənədlər",
+          "url": "https://huggingface.co/datasets/LocalDoc/azerbaijani-english-parallel-corpus/viewer/default/train?p=2"
+        }
+      ],
+      "senses": [
+        {
+          "az": "“Sərəncamında” şəklində, ixtiyarında və ya istifadəsində.",
+          "en": "In the phrase sərəncamında, at someone’s disposal."
+        }
+      ],
+      "register": "formal",
+      "example": [
+        "Bu barədə yeni sərəncam imzalandı.",
+        "A new order on the matter was signed."
+      ]
+    },
+    {
+      "word": "təsdiq etmək",
+      "pos": "verb",
+      "az": "Bir məlumatın düzgün olduğunu bildirmək və ya sənədi, qərarı rəsmən qəbul etmək.",
+      "en": "To confirm information or formally approve a document or decision.",
+      "sources": [
+        {
+          "title": "LocalDoc · Azərbaycan dilində rəsmi nitq və sənədlər",
+          "url": "https://huggingface.co/datasets/LocalDoc/azerbaijani-english-parallel-corpus/viewer/default/train?p=2"
+        }
+      ],
+      "senses": [
+        {
+          "az": "Məlumatın həqiqət olduğunu faktla göstərmək.",
+          "en": "To corroborate a claim or verify it with evidence."
+        }
+      ],
+      "example": [
+        "Şura yeni qaydaları təsdiq etdi.",
+        "The council approved the new rules."
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "a": "şərh yazmaq",
+      "b": "şərh",
+      "type": "root",
+      "sense_az": "“Şərh yazmaq” ifadəsi “şərh” ismi ilə qurulur.",
+      "sense_en": "Şərh yazmaq is built on the noun şərh, “comment.”",
+      "sources": [
+        {
+          "title": "Azleks · şərh",
+          "url": "https://azleks.az/en/dictionary/serh"
+        },
+        {
+          "title": "Bakı Araşdırmalar İnstitutu · Sosial şəbəkələrdə şərhlər",
+          "url": "https://bakuresearchinstitute.org/azerbaycanin-50-minlik-trol-ordusu/"
+        }
+      ]
+    },
+    {
+      "a": "şərh yazmaq",
+      "b": "komment",
+      "type": "topic",
+      "sense_az": "Paylaşımın şərh bölməsində yazılan fikir danışıqda “komment” də adlanır.",
+      "sense_en": "An online comment is also informally called a komment.",
+      "sources": [
+        {
+          "title": "Bakı Araşdırmalar İnstitutu · Sosial şəbəkələrdə şərhlər",
+          "url": "https://bakuresearchinstitute.org/azerbaycanin-50-minlik-trol-ordusu/"
+        },
+        {
+          "title": "Azleks · komment",
+          "url": "https://azleks.az/dictionary/komment"
+        }
+      ]
+    },
+    {
+      "a": "geci-tezi",
+      "b": "gec-tez",
+      "type": "syn",
+      "sense_az": "Hər ikisi bir işin tez və ya gec baş verəcəyini bildirir.",
+      "sense_en": "Both mean sooner or later.",
+      "sources": [
+        {
+          "title": "Azleks · gec-tez",
+          "url": "https://azleks.az/dictionary/gec-tez"
+        },
+        {
+          "title": "Azleks · geci-tezi olmaq",
+          "url": "https://azleks.az/ru/dictionary/geci-tezi-olmaq"
+        },
+        {
+          "title": "Azleks · Yardımlı şivəsində geci-tezi",
+          "url": "https://azleks.az/index.php/en/dictionary/telefe"
+        }
+      ]
+    },
+    {
+      "a": "geci-tezi",
+      "b": "geci-tezi olmaq",
+      "type": "root",
+      "sense_az": "“Geci-tezi olmaq” ifadəsində “geci-tezi” sözü işlənir.",
+      "sense_en": "Geci-tezi is the adverb in the expression geci-tezi olmaq.",
+      "sources": [
+        {
+          "title": "Azleks · geci-tezi olmaq",
+          "url": "https://azleks.az/ru/dictionary/geci-tezi-olmaq"
+        }
+      ]
+    },
+    {
+      "a": "mırta",
+      "b": "mırta qoymaq",
+      "type": "root",
+      "sense_az": "Danışıq ifadəsi “mırta” sözü ilə qurulur, kiməsə sataşmaq mənası verir.",
+      "sense_en": "The slang expression uses mırta and means to make fun of someone.",
+      "sources": [
+        {
+          "title": "Kulis · Hekayə müzakirəsində “mırta”",
+          "url": "https://kulis.az/xeber/kulisaz/senet/senet-yalandir-amma-ag-yalan-deyil-hekaye-muzakiresi-48033"
+        },
+        {
+          "title": "Milli.Az · Danışıqda “mırta qoydum”",
+          "url": "https://news.milli.az/country/595757.html"
+        }
+      ]
+    },
+    {
+      "a": "mırta",
+      "b": "zarafat etmək",
+      "type": "topic",
+      "sense_az": "“Mırta” bir sözün və ya hərəkətin zarafat üçün edildiyini bildirir.",
+      "sense_en": "Mırta describes doing or saying something for a laugh.",
+      "sources": [
+        {
+          "title": "Kulis · Hekayə müzakirəsində “mırta”",
+          "url": "https://kulis.az/xeber/kulisaz/senet/senet-yalandir-amma-ag-yalan-deyil-hekaye-muzakiresi-48033"
+        },
+        {
+          "title": "Milli.Az · Danışıqda “mırta gəlib”",
+          "url": "https://news.milli.az/society/252072.html"
+        }
+      ]
+    },
+    {
+      "a": "mırt",
+      "b": "mırtdaşmaq",
+      "type": "root",
+      "sense_az": "“Mırtdaşmaq” “mırt” sözündən yaranan danışıq feilidir.",
+      "sense_en": "Mırtdaşmaq is a spoken verb formed from mırt, meaning banter.",
+      "sources": [
+        {
+          "title": "Xədicə Heydərova · Danışıq leksikasının dilçilik araşdırması",
+          "url": "https://azerbaycandili.az/Literatures/Download/5107/XEDICE%20HEYDEROVA.pdf"
+        }
+      ]
+    },
+    {
+      "a": "mırt",
+      "b": "mırtlaşmaq",
+      "type": "root",
+      "sense_az": "“Mırtlaşmaq” “mırt” sözündən yaranıb, qarşılıqlı zarafatı bildirir.",
+      "sense_en": "Mırtlaşmaq is derived from mırt and denotes bantering together.",
+      "sources": [
+        {
+          "title": "Xədicə Heydərova · Danışıq leksikasının dilçilik araşdırması",
+          "url": "https://azerbaycandili.az/Literatures/Download/5107/XEDICE%20HEYDEROVA.pdf"
+        },
+        {
+          "title": "AMEA Folklor İnstitutu · Güney Azərbaycan folkloru, VIII cild",
+          "url": "https://folklor.az/uploads/library/files/Guney-Azerbaycan-Folkloru-VIII1693986572.pdf"
+        }
+      ]
+    },
+    {
+      "a": "mırt",
+      "b": "mırt vurmaq",
+      "type": "root",
+      "sense_az": "“Mırt vurmaq” ifadəsi “mırt” ismi ilə qurulur.",
+      "sense_en": "Mırt vurmaq is built on mırt and means to chat or banter.",
+      "sources": [
+        {
+          "title": "Xədicə Heydərova · Danışıq leksikasının dilçilik araşdırması",
+          "url": "https://azerbaycandili.az/Literatures/Download/5107/XEDICE%20HEYDEROVA.pdf"
+        }
+      ]
+    },
+    {
+      "a": "mırtlaşmaq",
+      "b": "mırtdaşmaq",
+      "type": "syn",
+      "sense_az": "Hər iki danışıq feili bir-biri ilə zarafatlaşıb söhbət etməyi bildirir.",
+      "sense_en": "Both spoken verbs mean to banter with each other.",
+      "sources": [
+        {
+          "title": "Xədicə Heydərova · Danışıq leksikasının dilçilik araşdırması",
+          "url": "https://azerbaycandili.az/Literatures/Download/5107/XEDICE%20HEYDEROVA.pdf"
+        },
+        {
+          "title": "AMEA Folklor İnstitutu · Güney Azərbaycan folkloru, VIII cild",
+          "url": "https://folklor.az/uploads/library/files/Guney-Azerbaycan-Folkloru-VIII1693986572.pdf"
+        }
+      ]
+    },
+    {
+      "a": "nağayır",
+      "b": "nağayırsan",
+      "type": "root",
+      "sense_az": "Eyni dialekt ifadəsinin üçüncü və ikinci şəxs formalarıdır.",
+      "sense_en": "Third- and second-person forms of the same regional question.",
+      "sources": [
+        {
+          "title": "AMEA Folklor İnstitutu · Qərbi Azərbaycan folkloru, I cild, s. 279",
+          "url": "https://folklor.az/uploads/library/files/Qerbi_Azerbaycan_folkloru_%28I_cild%291709795072.pdf#page=279"
+        },
+        {
+          "title": "AMEA Folklor İnstitutu · Tovuz folklor örnəkləri, II, s. 37",
+          "url": "https://arxiv.folklor.az/antologiyalar/Tovuz-folklor-ornekleri-2.pdf#page=37"
+        }
+      ]
+    },
+    {
+      "a": "nağayırsan",
+      "b": "neynirsən",
+      "type": "syn",
+      "sense_az": "Hər ikisi “Nə edirsən?” sualının danışıq formasıdır.",
+      "sense_en": "Both are spoken variants meaning “What are you doing?”",
+      "sources": [
+        {
+          "title": "AMEA Folklor İnstitutu · Qərbi Azərbaycan folkloru, I cild, s. 279",
+          "url": "https://folklor.az/uploads/library/files/Qerbi_Azerbaycan_folkloru_%28I_cild%291709795072.pdf#page=279"
+        },
+        {
+          "title": "AMEA Folklor İnstitutu · Usta söyləyici",
+          "url": "https://folklor.az/uploads/research/files/usta-soyleyici1694067765.pdf"
+        }
+      ]
+    },
+    {
+      "a": "nağayırsan",
+      "b": "qayırmaq",
+      "type": "root",
+      "sense_az": "“Nağayırsan?” sualı “nə qayırırsan?” şəklinin ixtisarıdır.",
+      "sense_en": "Nağayırsan? is a reduced spoken form of nə qayırırsan?",
+      "sources": [
+        {
+          "title": "AMEA Folklor İnstitutu · Qərbi Azərbaycan folkloru, I cild, s. 279",
+          "url": "https://folklor.az/uploads/library/files/Qerbi_Azerbaycan_folkloru_%28I_cild%291709795072.pdf#page=279"
+        },
+        {
+          "title": "AMEA Folklor İnstitutu · Tovuz folklor örnəkləri, II, s. 37",
+          "url": "https://arxiv.folklor.az/antologiyalar/Tovuz-folklor-ornekleri-2.pdf#page=37"
+        }
+      ]
+    },
+    {
+      "a": "nağayırsan",
+      "b": "nə var, nə yox",
+      "type": "topic",
+      "sense_az": "Tovuz folklorunda hər iki sual səmimi hal-əhval tutanda yanaşı işlənir.",
+      "sense_en": "Both questions occur together in an informal greeting in the Tovuz collection.",
+      "sources": [
+        {
+          "title": "AMEA Folklor İnstitutu · Tovuz folklor örnəkləri, II, s. 37",
+          "url": "https://arxiv.folklor.az/antologiyalar/Tovuz-folklor-ornekleri-2.pdf#page=37"
+        }
+      ]
+    },
+    {
+      "a": "qadanı alım",
+      "b": "qada",
+      "type": "root",
+      "sense_az": "İfadədə “qada” sözü dərd və bəla mənasında işlənir.",
+      "sense_en": "Qada means trouble or misfortune in this expression.",
+      "sources": [
+        {
+          "title": "Azleks · qada",
+          "url": "https://azleks.az/dictionary/qada"
+        },
+        {
+          "title": "Azleks · girəvələmək məqaləsində “qadan alım”",
+          "url": "https://azleks.az/index.php/dictionary/girevelemek"
+        }
+      ]
+    },
+    {
+      "a": "qadanı alaram",
+      "b": "qada",
+      "type": "root",
+      "sense_az": "İfadə “qada” sözünü alaram feili ilə birləşdirir.",
+      "sense_en": "The expression combines qada, “misfortune,” with alaram, “I would take.”",
+      "sources": [
+        {
+          "title": "Azleks · qada",
+          "url": "https://azleks.az/dictionary/qada"
+        },
+        {
+          "title": "Qanun Nəşriyyatı · Şeirdə “qadanı alaram”",
+          "url": "https://www.qanun.az/images/news/2020-05-23-13-15-501590225350.pdf"
+        }
+      ]
+    },
+    {
+      "a": "qadanı alım",
+      "b": "qadanı alaram",
+      "type": "topic",
+      "sense_az": "Hər iki nəvazişli ifadə başqasının dərdini öz üzərinə götürmək fikri ilə qurulur.",
+      "sense_en": "Both affectionate expressions are built on taking another’s troubles upon oneself.",
+      "sources": [
+        {
+          "title": "Azleks · qada",
+          "url": "https://azleks.az/dictionary/qada"
+        },
+        {
+          "title": "Qanun Nəşriyyatı · Şeirdə “qadanı alaram”",
+          "url": "https://www.qanun.az/images/news/2020-05-23-13-15-501590225350.pdf"
+        },
+        {
+          "title": "Milli Kitabxana · Ədəbi dialoqda “qadanı alım”",
+          "url": "https://anl.az/el/alf4/cb_se4c.pdf"
+        }
+      ]
+    },
+    {
+      "a": "qadanı alım",
+      "b": "qurban olum",
+      "type": "topic",
+      "sense_az": "Yaxın adama nəvazişlə müraciət edəndə və ya ürəkdən xahiş edəndə işlədilir.",
+      "sense_en": "Both can show affection or lend warmth to a plea.",
+      "sources": [
+        {
+          "title": "Azleks · başına dolanmaq (dönmək)",
+          "url": "https://azleks.az/index.php/en/dictionary/basina-dolanmaq-donmek"
+        },
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti · qurban",
+          "url": "https://obastan.com/soz/az/qurban"
+        }
+      ]
+    },
+    {
+      "a": "qadanı alım",
+      "b": "başına dönüm",
+      "type": "topic",
+      "sense_az": "Səmimi müraciət sözləridir və eyni dialoqda yanaşı işlənə bilir.",
+      "sense_en": "Both are affectionate forms of address and occur together in dialogue.",
+      "sources": [
+        {
+          "title": "Milli Kitabxana · Ədəbi dialoqda “qadanı alım”",
+          "url": "https://anl.az/el/alf4/cb_se4c.pdf"
+        },
+        {
+          "title": "Azleks · başına dolanmaq (dönmək)",
+          "url": "https://azleks.az/index.php/en/dictionary/basina-dolanmaq-donmek"
+        }
+      ]
+    },
+    {
+      "a": "qurban olum",
+      "b": "qurban",
+      "type": "root",
+      "sense_az": "“Qurban olum” ifadəsi “qurban” ismi ilə qurulur.",
+      "sense_en": "The expression is built on the noun qurban, “sacrifice.”",
+      "sources": [
+        {
+          "title": "Azərbaycan dilinin izahlı lüğəti · qurban",
+          "url": "https://obastan.com/soz/az/qurban"
+        }
+      ]
+    },
+    {
+      "a": "əşi",
+      "b": "nə bilim",
+      "type": "topic",
+      "sense_az": "Danışıqda “Əşi, mən nə bilim” deyimi narazılıq və ya bilmədiyini vurğulaya bilər.",
+      "sense_en": "In speech, Əşi, mən nə bilim can emphasise annoyance or uncertainty.",
+      "sources": [
+        {
+          "title": "Azleks · əşi",
+          "url": "https://azleks.az/dictionary/esi"
+        }
+      ]
+    },
+    {
+      "a": "girov götürmək",
+      "b": "təhlükəyə atmaq",
+      "type": "topic",
+      "sense_az": "Birini girov götürmək onun azadlığını və təhlükəsizliyini riskə atır.",
+      "sense_en": "Taking a person hostage puts them in danger.",
+      "sources": [
+        {
+          "title": "LocalDoc · Azərbaycan dilində film təsvirləri və paralel tərcümələri",
+          "url": "https://huggingface.co/datasets/LocalDoc/azerbaijani-english-parallel-corpus/viewer/default/train"
+        }
+      ]
+    },
+    {
+      "a": "layiq görülmək",
+      "b": "təltif etmək",
+      "type": "topic",
+      "sense_az": "Mükafata layiq görülən şəxs təltif oluna bilər.",
+      "sense_en": "Someone deemed worthy of an award can be formally honoured.",
+      "sources": [
+        {
+          "title": "LocalDoc · Azərbaycan dilində film təsvirləri və paralel tərcümələri",
+          "url": "https://huggingface.co/datasets/LocalDoc/azerbaijani-english-parallel-corpus/viewer/default/train"
+        },
+        {
+          "title": "LocalDoc · Azərbaycan dilində rəsmi nitq və sənədlər",
+          "url": "https://huggingface.co/datasets/LocalDoc/azerbaijani-english-parallel-corpus/viewer/default/train?p=2"
+        }
+      ]
+    },
+    {
+      "a": "tərkibinə daxil etmək",
+      "b": "ibarət olmaq",
+      "type": "topic",
+      "sense_az": "Bir ifadə hissənin əlavə edilməsini, o biri isə bütövün nədən təşkil olunduğunu bildirir.",
+      "sense_en": "One expression describes adding a part and the other describes what makes up a whole.",
+      "sources": [
+        {
+          "title": "LocalDoc · Azərbaycan dilində qurum və layihə mətnləri",
+          "url": "https://huggingface.co/datasets/LocalDoc/azerbaijani-english-parallel-corpus/viewer/default/train?p=1"
+        },
+        {
+          "title": "LocalDoc · Azərbaycan dilində rəsmi nitq və sənədlər",
+          "url": "https://huggingface.co/datasets/LocalDoc/azerbaijani-english-parallel-corpus/viewer/default/train?p=2"
+        }
+      ]
+    },
+    {
+      "a": "istismara vermək",
+      "b": "təhvil vermək",
+      "type": "topic",
+      "sense_az": "Bitirilmiş obyekti təhvil vermək və istifadəyə açmaq iki əlaqəli mərhələdir.",
+      "sense_en": "Handing over a completed facility and bringing it into service are related project steps.",
+      "sources": [
+        {
+          "title": "LocalDoc · Azərbaycan dilində qurum və layihə mətnləri",
+          "url": "https://huggingface.co/datasets/LocalDoc/azerbaijani-english-parallel-corpus/viewer/default/train?p=1"
+        },
+        {
+          "title": "LocalDoc · Azərbaycan dilində film təsvirləri və paralel tərcümələri",
+          "url": "https://huggingface.co/datasets/LocalDoc/azerbaijani-english-parallel-corpus/viewer/default/train"
+        }
+      ]
+    },
+    {
+      "a": "qərarlaşmaq",
+      "b": "razı olmaq",
+      "type": "topic",
+      "sense_az": "Təklifə razılıq vermək bir variantda qərarlaşmağa kömək edə bilər.",
+      "sense_en": "Agreeing to a proposal can form part of settling on an option.",
+      "sources": [
+        {
+          "title": "LocalDoc · Azərbaycan dilində film təsvirləri və paralel tərcümələri",
+          "url": "https://huggingface.co/datasets/LocalDoc/azerbaijani-english-parallel-corpus/viewer/default/train"
+        }
+      ]
+    },
+    {
+      "a": "həyata keçirmək",
+      "b": "başa çatmaq",
+      "type": "topic",
+      "sense_az": "Planın həyata keçirilməsi və işin başa çatması layihənin ayrı mərhələləridir.",
+      "sense_en": "Carrying out a plan and completing the work are distinct steps in a project.",
+      "sources": [
+        {
+          "title": "LocalDoc · Azərbaycan dilində qurum və layihə mətnləri",
+          "url": "https://huggingface.co/datasets/LocalDoc/azerbaijani-english-parallel-corpus/viewer/default/train?p=1"
+        }
+      ]
+    },
+    {
+      "a": "tərtib etmək",
+      "b": "təsdiq etmək",
+      "type": "topic",
+      "sense_az": "Sənədi tərtib etmək onun hazırlanması, sənədi təsdiq etmək isə qəbul edilməsidir.",
+      "sense_en": "Drawing up a document means preparing it. Approving it means formally accepting it.",
+      "sources": [
+        {
+          "title": "LocalDoc · Azərbaycan dilində qurum və layihə mətnləri",
+          "url": "https://huggingface.co/datasets/LocalDoc/azerbaijani-english-parallel-corpus/viewer/default/train?p=1"
+        },
+        {
+          "title": "LocalDoc · Azərbaycan dilində rəsmi nitq və sənədlər",
+          "url": "https://huggingface.co/datasets/LocalDoc/azerbaijani-english-parallel-corpus/viewer/default/train?p=2"
+        }
+      ]
+    }
+  ],
+  "review": {
+    "coverage_screened": 90856,
+    "baseline_coverage": {
+      "meaning_missing": 979,
+      "formation_without_lexical_sense": 2030,
+      "further_native_review": 28059,
+      "other_bilingual": 59788
+    },
+    "method": "Screened the complete previous live inventory for missing meanings, formation-only entries, and flagged translations. Checked the usages in this edition against public LocalDoc corpus samples, native dictionaries, and spoken or literary attestations. Azerbaijani–English examples on the new cards were written for this edition. Source samples support the documented senses.",
+    "sources": [
+      {
+        "title": "LocalDoc · Azerbaijani–English Parallel Corpus (CC BY 4.0)",
+        "url": "https://huggingface.co/datasets/LocalDoc/azerbaijani-english-parallel-corpus"
+      },
+      {
+        "title": "LocalDoc · Azərbaycan dilində film təsvirləri və paralel tərcümələri",
+        "url": "https://huggingface.co/datasets/LocalDoc/azerbaijani-english-parallel-corpus/viewer/default/train"
+      },
+      {
+        "title": "LocalDoc · Azərbaycan dilində qurum və layihə mətnləri",
+        "url": "https://huggingface.co/datasets/LocalDoc/azerbaijani-english-parallel-corpus/viewer/default/train?p=1"
+      },
+      {
+        "title": "LocalDoc · Azərbaycan dilində rəsmi nitq və sənədlər",
+        "url": "https://huggingface.co/datasets/LocalDoc/azerbaijani-english-parallel-corpus/viewer/default/train?p=2"
+      },
+      {
+        "title": "Azleks · şərh",
+        "url": "https://azleks.az/en/dictionary/serh"
+      },
+      {
+        "title": "Azleks · əşi",
+        "url": "https://azleks.az/dictionary/esi"
+      },
+      {
+        "title": "AMEA Folklor İnstitutu · Qərbi Azərbaycan folkloru, I cild, s. 279",
+        "url": "https://folklor.az/uploads/library/files/Qerbi_Azerbaycan_folkloru_%28I_cild%291709795072.pdf#page=279"
+      },
+      {
+        "title": "AMEA Folklor İnstitutu · Tovuz folklor örnəkləri, II, s. 37",
+        "url": "https://arxiv.folklor.az/antologiyalar/Tovuz-folklor-ornekleri-2.pdf#page=37"
+      },
+      {
+        "title": "Xədicə Heydərova · Danışıq leksikasının dilçilik araşdırması",
+        "url": "https://azerbaycandili.az/Literatures/Download/5107/XEDICE%20HEYDEROVA.pdf"
+      },
+      {
+        "title": "Kulis · Hekayə müzakirəsində “mırta”",
+        "url": "https://kulis.az/xeber/kulisaz/senet/senet-yalandir-amma-ag-yalan-deyil-hekaye-muzakiresi-48033"
+      },
+      {
+        "title": "Azleks · başına dolanmaq (dönmək)",
+        "url": "https://azleks.az/index.php/en/dictionary/basina-dolanmaq-donmek"
+      }
+    ],
+    "retained": [
+      {
+        "word": "baş vermək",
+        "en": "to happen, occur",
+        "source": {
+          "title": "LocalDoc · Azərbaycan dilində film təsvirləri və paralel tərcümələri",
+          "url": "https://huggingface.co/datasets/LocalDoc/azerbaijani-english-parallel-corpus/viewer/default/train"
+        }
+      },
+      {
+        "word": "bel bağlamaq",
+        "en": "to rely on or trust someone or something",
+        "source": {
+          "title": "LocalDoc · Azərbaycan dilində film təsvirləri və paralel tərcümələri",
+          "url": "https://huggingface.co/datasets/LocalDoc/azerbaijani-english-parallel-corpus/viewer/default/train"
+        }
+      },
+      {
+        "word": "təsis etmək",
+        "en": "to found or establish",
+        "source": {
+          "title": "LocalDoc · Azərbaycan dilində film təsvirləri və paralel tərcümələri",
+          "url": "https://huggingface.co/datasets/LocalDoc/azerbaijani-english-parallel-corpus/viewer/default/train"
+        }
+      },
+      {
+        "word": "münasibətilə",
+        "en": "on the occasion of",
+        "source": {
+          "title": "LocalDoc · Azərbaycan dilində rəsmi nitq və sənədlər",
+          "url": "https://huggingface.co/datasets/LocalDoc/azerbaijani-english-parallel-corpus/viewer/default/train?p=2"
+        }
+      },
+      {
+        "word": "gec-tez",
+        "en": "sooner or later",
+        "source": {
+          "title": "Azleks · gec-tez",
+          "url": "https://azleks.az/dictionary/gec-tez"
+        }
+      }
+    ]
+  }
+}

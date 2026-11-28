@@ -34,6 +34,10 @@ def compile_dictionary_edition(source):
   for sense in entry['senses']:
    if not sense['az'].strip() or not sense['en'].strip():
     raise ValueError(f'Missing bilingual sense: {word}')
+  if 'register' in entry and entry['register'] not in ('colloquial','slang','regional','online','formal'):
+   raise ValueError(f'Invalid register: {word}')
+  if 'example' in entry and (len(entry['example'])!=2 or not all(t.strip() for t in entry['example'])):
+   raise ValueError(f'Missing bilingual example: {word}')
   entry['sources']=normalized_sources(entry['sources'])
   if not entry['sources']:
    raise ValueError(f'Missing dictionary evidence: {word}')
@@ -53,6 +57,9 @@ def compile_dictionary_edition(source):
 
 edition_path=IN/'dictionary-edition.json'
 dictionary_edition=compile_dictionary_edition(read(edition_path)) if edition_path.exists() else None
+usage_path=IN/'usage-edition.json'
+usage_source=read(usage_path) if usage_path.exists() else None
+usage_edition=compile_dictionary_edition(usage_source) if usage_source else None
 common_path=IN/'common-words.json'
 common_review=None
 if common_path.exists():
@@ -157,8 +164,9 @@ after=read(after_path);after_path.unlink()
 old_keys={key(*e[:3]) for e in base['edges']};new_keys={key(*e[:3]) for e in after['edges']}
 meta.update({'connections_before':len(base['edges']),'connections_after':len(after['edges']),'removed_active_connections':len(old_keys-new_keys),'new_active_connections':len(new_keys-old_keys)})
 # These corrections and additions follow the historical verification and print passes.
-if dictionary_edition:
- runtime['dictionaryEdition']=dictionary_edition
+editions=[item for item in [dictionary_edition,usage_edition] if item]
+if editions:
+ runtime['dictionaryEdition']={field:[row for item in editions for row in item[field]] for field in ('entries','revisions','edges')}
 if common_review:
  runtime['commonWordReview']=common_review
 (DIST/'verification.js').write_text('window.WORD_WEB_VERIFICATION='+json.dumps(runtime,ensure_ascii=False,separators=(',',':'))+';\n')
@@ -170,6 +178,10 @@ attribution={'method':'AI-assisted entry-by-entry review against cached multilin
 if dictionary_edition:
  attribution['dictionary_edition']={'entries':len(dictionary_edition['entries']),'revisions':len(dictionary_edition['revisions']),
                                     'connections':len(dictionary_edition['edges']),'source_sha256':hashlib.sha256(edition_path.read_bytes()).hexdigest()}
+if usage_edition:
+ attribution['usage_edition']={'entries':len(usage_edition['entries']),'revisions':len(usage_edition['revisions']),
+                               'connections':len(usage_edition['edges']),'source_sha256':hashlib.sha256(usage_path.read_bytes()).hexdigest(),
+                               'review':usage_source['review']}
 if common_review:
  attribution['common_words']={'revisions':len(common_review['revisions']),'explained_connections':len(common_review['evidence']),
                               'retyped_connections':len(common_review['edges']),'source_sha256':hashlib.sha256(common_path.read_bytes()).hexdigest()}

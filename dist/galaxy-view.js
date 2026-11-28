@@ -278,8 +278,10 @@ function mount({model,onSelect,onLocation,onView,motionPreference='system'}){
     g.append(p.trail);
    }
    if(chosen)g.append(el('circle',{r:p.r+7,class:'selection-orbit',fill:'none',stroke:'#54534a','stroke-width':1.15,'stroke-dasharray':'2 5'}));
-   g.append(el('circle',{r:p.r,class:'bubble',fill:chosen?'#22221b':p.local?'#fffefa':'#f0efe7',stroke:chosen?'#22221b':'#717066','stroke-width':chosen?1.15:.75}));
-   const label=G.fitLabel(p.node.w,p.homeR,G.clamp(p.homeR*.43,8.5,p.local?(chosen?48:40):12),(word,size)=>{context.font=size+'px Georgia, serif';return context.measureText(word).width;}),size=label.fontSize,lines=label.lines,text=el('text',{'text-anchor':'middle','font-size':size,fill:chosen?'#fff':'#191915'});
+   const relationInk=p.local?t:null;
+   g.append(el('circle',{r:p.r,class:'bubble',fill:chosen?'#22221b':relationInk?.fill||'#f0efe7',stroke:chosen?'#22221b':relationInk?.border||'#717066','stroke-width':chosen?1.15:.75}));
+   const label=G.fitLabel(p.node.w,p.homeR,G.clamp(p.homeR*.43,8.5,p.local?(chosen?48:40):12),(word,size)=>{context.font=size+'px Georgia, serif';return context.measureText(word).width;}),size=label.fontSize,lines=label.lines;
+   const text=el('text',{'text-anchor':'middle','font-size':size,fill:chosen?'#fff':relationInk?'#0a0a07':'#191915'});
    lines.forEach((line,i)=>text.append(el('tspan',{x:0,y:(i-(lines.length-1)/2)*(size+2)+size*.32},line)));g.append(text);p.label=text;p.circle=g.querySelector('.bubble');p.orbit=g.querySelector('.selection-orbit');
    g.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();onSelect(p.node);}});g.addEventListener('pointerdown',e=>start(e,p));
    g.addEventListener('pointerenter',e=>{if(e.pointerType==='touch')return;hover=p.node.id;trace();if(!reduced){p.scaleV=.025;kick();}});
@@ -415,22 +417,21 @@ function mount({model,onSelect,onLocation,onView,motionPreference='system'}){
   if(areaLabels.has(area))return areaLabels.get(area);
   const button=document.createElement('button'),title=document.createElement('span'),count=document.createElement('small'),leader=document.createElement('i');
   button.type='button';button.className='atlas-label '+kind+'-label';button.dataset[kind]=area.id;
-  button.style.setProperty('--tint','#74746a');
   title.className='area-name';title.textContent=area.label;count.textContent=countFormat.format(area.count)+' söz';
   leader.className='atlas-leader';leader.setAttribute('aria-hidden','true');
   button.setAttribute('aria-label',area.label+' — '+count.textContent+', yaxınlaş');button.append(title,count,leader);
   button.addEventListener('pointerdown',event=>start(event,null,null,{area,kind}));
   button.onclick=event=>{if(!event.detail)visitArea(area,kind);};
-  const widths=[13,15].map(fontSize=>{
-   context.font=fontSize+'px Georgia, serif';const nameWidth=context.measureText(area.label).width;
-   context.font=(fontSize-3)+'px system-ui, sans-serif';const countWidth=context.measureText(count.textContent).width;
-   return Math.ceil(Math.max(nameWidth,countWidth)+(fontSize===13?19:24));
+  const widths=(kind==='region'?[17,21]:[14,17]).map(fontSize=>{
+   context.font=(kind==='region'?'italic ':'')+fontSize+'px Georgia, serif';const nameWidth=context.measureText(area.label).width;
+   context.font='10px system-ui, sans-serif';const countWidth=context.measureText(count.textContent).width;
+   return Math.ceil(Math.max(nameWidth,countWidth+8)+14);
   });
   const label={button,leader,widths};areaLabels.set(area,label);return label;
  }
  function renderLabels(project){
   const fade=1-G.clamp((camera.zoom-.18)/.22,0,1),compact=width<=640;
-  const margin=compact?7:12,h=compact?39:43,gap=compact?3:6;
+  const margin=compact?7:12,gap=compact?4:9;
   const occupied=[];
   for(const element of labelObstacles){
    if(!element||element.hidden)continue;
@@ -452,7 +453,7 @@ function mount({model,onSelect,onLocation,onView,motionPreference='system'}){
   candidates.sort((a,b)=>a.priority-b.priority||b.area.count-a.area.count);
   const visible=new Set();
   for(const {area,kind,screen,size,priority} of candidates){
-   const {button,leader,widths}=areaLabel(area,kind),w=widths[compact?0:1];
+   const {button,leader,widths}=areaLabel(area,kind),w=widths[compact?0:1],h=kind==='region'?(compact?44:50):41;
    const angle=Math.atan2(screen.y-height/2,screen.x-width/2);
    const offset=G.clamp(size*.52,compact?8:18,compact?48:92);
    let best,lowest=Infinity;

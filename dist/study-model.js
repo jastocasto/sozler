@@ -84,6 +84,14 @@ function checkedContext(value) {
   return {text:text.trim().normalize('NFC'), source:address, seconds};
 }
 
+function checkedReading(value) {
+  if (!value || typeof value !== 'object' || Array.isArray(value)) throw new Error('Invalid reading note');
+  const {title, page = '', pageId, excerpt} = value;
+  const note = checkedContext({text:excerpt}).text;
+  if (!note || typeof pageId !== 'string' || !/^[a-z0-9-]{1,80}$/.test(pageId)) throw new Error('Invalid reading excerpt');
+  return {title:checkedLabel(title, 140, 'book title'), page:page === '' ? '' : checkedLabel(page, 20, 'page number'), pageId, excerpt:note};
+}
+
 function compareEvents(a, b) {
   return a.at - b.at || a.order - b.order || (a.id < b.id ? -1 : a.id > b.id ? 1 : 0);
 }
@@ -99,7 +107,7 @@ function newEvidence() {
 
 function newItem(kind, key, day) {
   return {kind, key, rating:null, added:day, last:null, updated:day, due:day, nextChannel:null,
-    context:{text:'', source:'', seconds:null}, evidence:Object.fromEntries(channels.map(channel => [channel, newEvidence()]))};
+    context:{text:'', source:'', seconds:null}, reading:null, evidence:Object.fromEntries(channels.map(channel => [channel, newEvidence()]))};
 }
 
 function updateEvidence(stat, event, day) {
@@ -191,6 +199,7 @@ function apply(state, event) {
   }
   item.updated = day;
   if (event.op === 'context') item.context = event.value;
+  if (event.op === 'reading') item.reading = event.value;
   if (event.op === 'rating') applyRating(item, event, day, stats);
   if (event.op !== 'answer') return;
   if (!item.last) (event.kind === 'lesson' ? stats.firstLessons : stats.firstWords).add(event.key);
@@ -221,7 +230,7 @@ function copyItem(item) {
     const counts = Object.entries(stat.conditions).map(([key, count]) => [key, {...count}]);
     evidence[channel] = {...stat, conditions:Object.fromEntries(counts)};
   }
-  return {...item, context:{...item.context}, evidence};
+  return {...item, context:{...item.context}, reading:item.reading ? {...item.reading} : null, evidence};
 }
 
 function create(options = {}) {
@@ -272,6 +281,7 @@ function create(options = {}) {
       return {...header, kind, key, value, deck:raw.deck};
     }
     if (op === 'context') return {...header, kind, key, value:checkedContext(raw.value)};
+    if (op === 'reading') return {...header, kind, key, value:checkedReading(raw.value)};
     throw new Error('Invalid study change');
   }
   function orderedEvents() { return [...events.values()].sort(compareEvents); }
@@ -364,7 +374,7 @@ function create(options = {}) {
     const checked = itemKey(kind, key);
     const item = current().words.get(checked);
     if (op === 'track' && item || op === 'rating' && item?.rating === value ||
-        op === 'context' && item && JSON.stringify(item.context) === JSON.stringify(value)) {
+        (op === 'context' || op === 'reading') && item && JSON.stringify(item[op]) === JSON.stringify(value)) {
       persist(); return false;
     }
     return commit({op, kind, key:checked, value});
@@ -490,6 +500,7 @@ function create(options = {}) {
     lessons:() => [...current().lessons.values()].filter(item => available('lesson', item.key)).map(copyItem),
     trackWord:key => editable('word', key, 'track'), rateWord:(key, value) => editable('word', key, 'rating', checkedRating(value)),
     setContext:(key, value) => editable('word', key, 'context', checkedContext(value)),
+    setReading:(key, value) => editable('word', key, 'reading', checkedReading(value)),
     record:answer => commit({...answer, op:'answer'}), hasAttempt:id => events.has('answer:' + id),
     attempt(id) { const answer = events.get('answer:' + id); return answer ? {...answer} : null; },
     exportJSON:() => encode(orderedEvents()), importJSON,

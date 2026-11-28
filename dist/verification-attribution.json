@@ -299518,6 +299518,110 @@
     "connections": 46,
     "source_sha256": "4d98887e61be0249620f78735a013465a2ca2c8e1ae5e6ade63dd6f422834615"
   },
+  "usage_edition": {
+    "entries": 23,
+    "revisions": 25,
+    "connections": 28,
+    "source_sha256": "78704dc69a4fd00329b9aa1a06892db02fc58f69154996ccf48733daed240176",
+    "review": {
+      "coverage_screened": 90856,
+      "baseline_coverage": {
+        "meaning_missing": 979,
+        "formation_without_lexical_sense": 2030,
+        "further_native_review": 28059,
+        "other_bilingual": 59788
+      },
+      "method": "Screened the complete previous live inventory for missing meanings, formation-only entries, and flagged translations. Checked the usages in this edition against public LocalDoc corpus samples, native dictionaries, and spoken or literary attestations. Azerbaijani–English examples on the new cards were written for this edition. Source samples support the documented senses.",
+      "sources": [
+        {
+          "title": "LocalDoc · Azerbaijani–English Parallel Corpus (CC BY 4.0)",
+          "url": "https://huggingface.co/datasets/LocalDoc/azerbaijani-english-parallel-corpus"
+        },
+        {
+          "title": "LocalDoc · Azərbaycan dilində film təsvirləri və paralel tərcümələri",
+          "url": "https://huggingface.co/datasets/LocalDoc/azerbaijani-english-parallel-corpus/viewer/default/train"
+        },
+        {
+          "title": "LocalDoc · Azərbaycan dilində qurum və layihə mətnləri",
+          "url": "https://huggingface.co/datasets/LocalDoc/azerbaijani-english-parallel-corpus/viewer/default/train?p=1"
+        },
+        {
+          "title": "LocalDoc · Azərbaycan dilində rəsmi nitq və sənədlər",
+          "url": "https://huggingface.co/datasets/LocalDoc/azerbaijani-english-parallel-corpus/viewer/default/train?p=2"
+        },
+        {
+          "title": "Azleks · şərh",
+          "url": "https://azleks.az/en/dictionary/serh"
+        },
+        {
+          "title": "Azleks · əşi",
+          "url": "https://azleks.az/dictionary/esi"
+        },
+        {
+          "title": "AMEA Folklor İnstitutu · Qərbi Azərbaycan folkloru, I cild, s. 279",
+          "url": "https://folklor.az/uploads/library/files/Qerbi_Azerbaycan_folkloru_%28I_cild%291709795072.pdf#page=279"
+        },
+        {
+          "title": "AMEA Folklor İnstitutu · Tovuz folklor örnəkləri, II, s. 37",
+          "url": "https://arxiv.folklor.az/antologiyalar/Tovuz-folklor-ornekleri-2.pdf#page=37"
+        },
+        {
+          "title": "Xədicə Heydərova · Danışıq leksikasının dilçilik araşdırması",
+          "url": "https://azerbaycandili.az/Literatures/Download/5107/XEDICE%20HEYDEROVA.pdf"
+        },
+        {
+          "title": "Kulis · Hekayə müzakirəsində “mırta”",
+          "url": "https://kulis.az/xeber/kulisaz/senet/senet-yalandir-amma-ag-yalan-deyil-hekaye-muzakiresi-48033"
+        },
+        {
+          "title": "Azleks · başına dolanmaq (dönmək)",
+          "url": "https://azleks.az/index.php/en/dictionary/basina-dolanmaq-donmek"
+        }
+      ],
+      "retained": [
+        {
+          "word": "baş vermək",
+          "en": "to happen, occur",
+          "source": {
+            "title": "LocalDoc · Azərbaycan dilində film təsvirləri və paralel tərcümələri",
+            "url": "https://huggingface.co/datasets/LocalDoc/azerbaijani-english-parallel-corpus/viewer/default/train"
+          }
+        },
+        {
+          "word": "bel bağlamaq",
+          "en": "to rely on or trust someone or something",
+          "source": {
+            "title": "LocalDoc · Azərbaycan dilində film təsvirləri və paralel tərcümələri",
+            "url": "https://huggingface.co/datasets/LocalDoc/azerbaijani-english-parallel-corpus/viewer/default/train"
+          }
+        },
+        {
+          "word": "təsis etmək",
+          "en": "to found or establish",
+          "source": {
+            "title": "LocalDoc · Azərbaycan dilində film təsvirləri və paralel tərcümələri",
+            "url": "https://huggingface.co/datasets/LocalDoc/azerbaijani-english-parallel-corpus/viewer/default/train"
+          }
+        },
+        {
+          "word": "münasibətilə",
+          "en": "on the occasion of",
+          "source": {
+            "title": "LocalDoc · Azərbaycan dilində rəsmi nitq və sənədlər",
+            "url": "https://huggingface.co/datasets/LocalDoc/azerbaijani-english-parallel-corpus/viewer/default/train?p=2"
+          }
+        },
+        {
+          "word": "gec-tez",
+          "en": "sooner or later",
+          "source": {
+            "title": "Azleks · gec-tez",
+            "url": "https://azleks.az/dictionary/gec-tez"
+          }
+        }
+      ]
+    }
+  },
   "common_words": {
     "revisions": 172,
     "explained_connections": 5,

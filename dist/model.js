@@ -7,7 +7,11 @@
 const FOLD={'ı':'i','ə':'e','ö':'o','ü':'u','ğ':'g','ş':'s','ç':'c'};
 const normalize = s => {const folded=String(s || '').toLowerCase().replace(/[ıəöüğşç]/g,c=>FOLD[c]);return /[^\x00-\x7f]/.test(folded)?folded.normalize('NFKD').replace(/[\u0300-\u036f]/g,''):folded;};
 // A lookup spelling points to an existing word without adding a dictionary entry or connection.
-const lookupSpellings=new Map([['guzel','gözəl'],['gozel','gözəl']]);
+const lookupSpellings=new Map([
+ ['guzel','gözəl'],['gozel','gözəl'],['geci tezi','geci-tezi'],['geci tezi olmaq','geci-tezi olmaq'],['gec tez','gec-tez'],
+ ['nagayirmaq','nağayırsan'],['ne qayirirsan','nağayırsan'],['qadan alim','qadanı alım'],['qadan alaram','qadanı alaram'],
+ ['qurbanin olum','qurban olum'],['sene qurban olum','qurban olum'],['neynirsen','neynirsən'],['ne var ne yox','nə var, nə yox']
+]);
 const types = {
  root:{name:'eyni kök',description:'Eyni kök və törəmə sözlər',color:'#5072e3',fill:'#5072e3',border:'#5072e3',text:'#ffffff',order:0},
  syn:{name:'sinonimlər',description:'Yaxın və ya eyni məna',color:'#58c978',fill:'#58c978',border:'#58c978',text:'#ffffff',order:1},
@@ -75,10 +79,13 @@ function createModel(raw,extra={nodes:[],edges:[],enrichment:{}},grammar={record
   const node=byWord.get(entry.word);
   // Historical builds can omit the spelling dictionary that supplies a revised entry.
   if(!node)continue;
-  const {az,en,pos,senses,sources}=entry,bilingualSenses=[{az,en},...senses];
+  const {az,en,pos,senses,sources,register,example,usage}=entry,bilingualSenses=[{az,en},...senses];
   Object.assign(node,{az,en,pos,bilingualSenses,bilingualMethod:'edited',definitionMethod:'paraphrase',
    definitionAuditStatus:'source-compared',definitionSources:sources,
    english:normalize(bilingualSenses.map(s=>s.en).join('; ')),azerbaijani:normalize(bilingualSenses.map(s=>s.az).join('; '))});
+  if(register)node.definitionRegister=register;
+  if(example)node.definitionExample=example;
+  if(usage)node.definitionUsage=usage;
   delete node.definitionConfidence;
  }
  for(const node of nodes){

@@ -42,7 +42,7 @@ store.setContext('gözəl',{text:'Nə gözəl sualdır!',source:'https://www.you
 window.dispatchEvent(new window.Event('pageshow'));
 go('#study/word/g%C3%B6z%C9%99l');assert(!$('studyWordSource').hidden);$('studyWordSource').click();
 assert($('studyMediaContent').textContent.includes('Nə gözəl sualdır!'));
-go('#study/progress');assert($('studyLibraryContent').textContent.includes('90,855'));
+go('#study/progress');assert($('studyLibraryContent').textContent.includes((h.model.nodes.length-1).toLocaleString('en-US')));
 tab('kainat');assert.equal(screen(),'map');
 assert.equal($('meaningEnglish').textContent,'beautiful');assert.equal($('mapFilterKeys').querySelectorAll('button').length,5);
 
@@ -83,4 +83,26 @@ restored.window.location.hash='#w=g%C3%B6z%C9%99l';
 restored.window.dispatchEvent(new restored.window.Event('hashchange'));
 assert.equal(restored.window.SozApp.inspect().page,'map');
 assert.equal(restored.window.document.querySelector('.galaxy-studio').dataset.mapView,'word');
-console.log('PASS five-tab navigation, Today by default, daily card and bank flow, map mastery, attached sources, restored settings, quiz evidence and race guard.');
+
+go('#study/read');
+const reader=$('studyReadingContent');
+assert.equal(reader.querySelector('input').value,'Qaranlıq günəş');
+const pageNumber=[...reader.querySelectorAll('.reader-field')].find(field=>field.querySelector('span').textContent==='Page number (optional)');
+pageNumber.querySelector('input').value='17';
+reader.querySelector('textarea').value='Nə var, nə yox? Geci tezi görüşərik.';
+[...reader.querySelectorAll('button')].find(button=>button.textContent==='Open page').click();
+assert([...reader.querySelectorAll('.reader-word')].some(button=>button.textContent==='Nə var, nə yox'));
+const phrase=[...reader.querySelectorAll('.reader-word')].find(button=>button.textContent==='Geci tezi');
+assert(phrase,'A familiar spelling can be looked up as one expression');
+phrase.click();
+assert.equal(reader.querySelector('.reader-result h3').textContent,'geci-tezi');
+reader.querySelector('.reader-ratings [data-rating="1"]').click();
+store.refresh();
+assert.equal(store.word('geci-tezi').rating,1);
+assert.equal(store.word('geci-tezi').reading.page,'17');
+assert.equal(store.word('geci-tezi').reading.excerpt,'Geci tezi görüşərik.');
+const backup=window.SozStudyModel.create({storage:null,validWord:w=>h.model.byWord.has(w)});
+backup.importJSON(store.exportJSON());
+assert.equal(backup.word('geci-tezi').reading.title,'Qaranlıq günəş');
+assert.equal(backup.word('gözəl').context.seconds,568);
+console.log('PASS five-tab navigation, Today by default, daily card and bank flow, map mastery, attached media and reading sources, restored settings, quiz evidence and race guard.');

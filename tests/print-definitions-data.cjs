@@ -85,6 +85,11 @@ if (reviewedSource.supplement === newestSupplement) {
   const linked = Array.from(themed[1].matchAll(/href="\.\/#w=([^"]+)"/g), match => decodeURIComponent(match[1]));
   assert.deepEqual(linked, [...reviewedSource.entries,...reviewedSource.revisions].map(entry => entry.word));
 }
+const usage = JSON.parse(fs.readFileSync('scripts/content/verification/usage-edition.json', 'utf8'));
+const usageSection = report.match(/<section id="usage-edition"[^>]*>([\s\S]*?)<\/section>/);
+assert(usageSection, 'the usage review is linked from the report');
+const usageWords = Array.from(usageSection[1].matchAll(/href="\.\/#w=([^"]+)"/g), match => decodeURIComponent(match[1]));
+assert.deepEqual(usageWords, [...usage.entries, ...usage.revisions].map(entry => entry.word));
 for (const field of ['headwords', 'missing', 'formation-only', 'needs-review']) {
   const shown = report.match(new RegExp('data-coverage="' + field + '">([^<]+)<'));
   assert(shown, 'missing coverage report field ' + field);
@@ -127,12 +132,17 @@ for (const [a, b] of [['qaraçı', 'qara'], ['alma', 'almaq'], ['dəli', 'də'],
 
 // Representative entries from each method.
 const node = word => m.byWord.get(word);
+function printEntry(word) {
+  if (!revised.has(word)) return node(word);
+  const entry = layer.definitions[word];
+  return {...entry, definitionMethod:entry.method, definitionSources:entry.refs};
+}
 // Reviewed spellings and idioms must reach the word sheet with the cited print pages.
 const reviewRows = fs.readFileSync('scripts/content/print-definitions/dictionary-review.tsv', 'utf8').trimEnd().split('\n').slice(1);
 assert.equal(attribution.summary.dictionary_reviews, reviewRows.length);
 for (const row of reviewRows) {
   const [word, pos, az, en, pages] = row.split('\t');
-  const entry = node(word);
+  const entry = printEntry(word);
   assert.equal(entry.az, az, word);
   assert.equal(entry.en, en, word);
   assert.equal(entry.pos, pos, word);
@@ -142,7 +152,7 @@ for (const row of reviewRows) {
 const contextualMeanings = Object.assign({}, ...[68, 69, 70, 71].map(batch =>
   JSON.parse(fs.readFileSync('scripts/content/print-definitions/meanings/batch-' + batch + '.json', 'utf8'))));
 for (const [word, entry] of Object.entries(contextualMeanings)) {
-  const n = node(word);
+  const n = printEntry(word);
   assert.equal(n.az, entry.az, word);
   assert.equal(n.en, entry.en, word);
   assert.equal(n.definitionMethod, 'meaning', word);
@@ -162,7 +172,7 @@ assert.deepEqual(supplementFiles, Object.keys(attribution.supplements));
 for (const file of supplementFiles) {
   const entries = JSON.parse(fs.readFileSync(meaningDir + '/' + file, 'utf8'));
   for (const [word, entry] of Object.entries(entries)) {
-    const n = node(word);
+    const n = printEntry(word);
     assert.equal(n.az, entry.az, word);
     assert.equal(n.en, entry.en, word);
     assert.equal(n.pos, entry.pos, word);

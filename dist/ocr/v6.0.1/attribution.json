@@ -1,0 +1,25 @@
+{
+  "engine": {
+    "name": "Tesseract.js",
+    "version": "6.0.1",
+    "source": "https://github.com/naptha/tesseract.js/tree/v6.0.1",
+    "license": "Apache-2.0",
+    "license_file": "Tesseract.js-LICENSE.md"
+  },
+  "core": {
+    "name": "tesseract.js-core",
+    "version": "6.0.0",
+    "source": "https://github.com/naptha/tesseract.js-core",
+    "license": "Apache-2.0",
+    "license_file": "Tesseract-core-LICENSE.txt",
+    "build": "LSTM WebAssembly embedded in JavaScript"
+  },
+  "language": {
+    "name": "Azerbaijani, Latin script",
+    "code": "aze",
+    "source": "https://github.com/tesseract-ocr/tessdata_best",
+    "license": "Apache-2.0",
+    "distribution": "https://www.npmjs.com/package/@tesseract.js-data/aze/v/1.0.0",
+    "file": "4.0.0_best_int/aze.traineddata.gz"
+  }
+}

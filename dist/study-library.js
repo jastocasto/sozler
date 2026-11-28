@@ -7,7 +7,7 @@ const numbers=new Intl.NumberFormat('en');
 const pageSize=15;
 const count=(n,noun)=>numbers.format(n)+' '+noun+(n===1?'':'s');
 
-function mount({host,study,model,openWord,practiceWord,onChange,savedWords,openBanks,reviewBank}){
+function mount({host,study,model,openWord,practiceWord,onChange,savedWords,openBanks,reviewBank,openReading}){
  const document=host.ownerDocument;
  const fold=root.WordWeb.normalize;
  let scope='mine',filter='all',sort='recent',mineQuery='',atlasQuery='',page=0,placing=false,activeBank=null;
@@ -114,6 +114,13 @@ function mount({host,study,model,openWord,practiceWord,onChange,savedWords,openB
   if(use.attempts)details.push(count(use.unaided,'independent use'));
   return details.join(' · ');
  }
+ function appendReading(body,reading){
+  if(!reading)return;
+  const phrase=make('blockquote','study-word-phrase',reading.excerpt);phrase.lang='az';
+  const title=reading.title+(reading.page?' · Page '+reading.page:'');
+  const link=button(title,'study-text-link',()=>openReading?.(reading.pageId));
+  body.append(phrase,link);
+ }
  function wordRow(n,record){
   const row=make('li','study-word-row');
   row.dataset.word=n.w;
@@ -125,6 +132,7 @@ function mount({host,study,model,openWord,practiceWord,onChange,savedWords,openB
   body.append(name,definition(n));
   if(record){
    appendContext(body,record.context);
+   appendReading(body,record.reading);
    const evidence=wordEvidence(record);
    if(evidence)body.append(make('small','study-word-evidence',evidence));
   }
@@ -199,12 +207,12 @@ function mount({host,study,model,openWord,practiceWord,onChange,savedWords,openB
  function matches(record,day,query){
   if(filter==='due'&&(!record.due||record.due>day))return false;
   if(filter==='unrated'&&record.rating!==null)return false;
-  if(filter==='note'&&!record.context?.text&&!record.context?.source)return false;
+  if(filter==='note'&&!record.context?.text&&!record.context?.source&&!record.reading)return false;
   if(filter==='both'&&!(record.evidence.listen.unaided&&record.evidence.use.unaided))return false;
   if(/^\d$/.test(filter)&&record.rating!==Number(filter))return false;
   if(!query)return true;
   const n=model.byWord.get(record.key);
-  return [record.key,n?.en,n?.az,record.context?.text,record.context?.source].some(x=>x&&fold(x).includes(query));
+  return [record.key,n?.en,n?.az,record.context?.text,record.context?.source,record.reading?.title,record.reading?.excerpt].some(x=>x&&fold(x).includes(query));
  }
  function paginate(total){
   const nav=make('nav','study-pagination');

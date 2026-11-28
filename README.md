@@ -4,16 +4,17 @@ The active atlas lives in `dist/`, with data preparation scripts in `scripts/` a
 
 The [original Söz Xəritəsi project](archive/sozler/) is preserved as it appeared in `jastocasto/sozler` at `67ac2835060e7bf94fa7fa43a8553ee8e64c02d4`. The archive includes its HTML, CSS, JavaScript, Flask backend, and dependency list. The legacy backend reads a Google Sheet and expects `SERVICE_ACCOUNT_JSON` at runtime. The current atlas runs from static files.
 
-Söz Toxuması is an interactive 3D atlas of **90,856 Azerbaijani headwords and 147,558 documented word connections**. Start with the region map, follow a connection between two words, or search for a headword and open its Azerbaijani and English definitions. The daily word, quiz, dictionary, saved words and grammar tools are also available from the desktop and mobile interface.
+Söz Toxuması is an interactive 3D atlas of **90,879 Azerbaijani headwords and 147,586 documented word connections**. Start with the region map, follow a connection between two words, or search for a headword and open its Azerbaijani and English definitions. The daily word, quiz, dictionary, saved words and grammar tools are also available from the desktop and mobile interface.
 
 ## Personal study
 
 Sozler opens on **Home** with today’s tasks and progress. The bottom navigation is **Kainat**, **Vocab**, **Home**, **Study**, and **Settings**. The study routine follows the Baku calendar and starts at 20 minutes.
 
 - **Vocab** starts with a goal of 10 new flashcards a day. Flip a card to see its definitions, then rate it red, orange, yellow, or green. The three learning banks schedule reviews one, three, and seven days after a card rating. Green words stay in the personal library and leave scheduled review. Find a word using any atlas headword or browse the banks and their source notes.
-- **Kainat** starts with monochrome stars on white. Rated words show their proficiency color. Relationship keys keep their own five colors underneath the word card.
+- **Kainat** starts with monochrome stars on white and region names lettered directly on the map. Selecting a word fills its related bubbles with the colors in the relationship key under the card. The small proficiency marks show personal ratings.
 - **Study** brings together the rotating Söhbətgah and Əkinçi activities, grammar, listening and independent speaking practice.
 - **Listening desk** opens the publishers’ original programmes, or loops a passage from a local audio/video file at an adjustable speed. The structured listening exercises include 16 human-read Azerbaijani recordings from nine Common Voice contributors. Source and CC0 attribution accompany the recordings. There are 33 contextual lessons in seven skills, including interpreting implied meaning and reconstructing a phrase.
+- **Reading desk** opens with Zaur Pənahov’s *Qaranlıq günəş*. Take or choose a photo of a page, or paste its text. The app recognizes Azerbaijani print on the device and lets you correct the scan, tap a word for a bilingual definition, and save the word and its sentence to your library. Backup files include saved page text and vocabulary notes. [Presidential Library catalog](https://www.preslib.az/az/book/8MbPRIFKDQlXWDF) · [OCR attribution](dist/ocr/v6.0.1/attribution.json)
 - **Progress** distinguishes first-pass listening, supported answers, recall and independently self-checked sentence use. It reports daily activity, grammar practice, and coverage of the full dictionary and the most frequent words. The learner controls the proficiency rating.
 - Personal records stay in browser storage. **Download backup** and **Restore from file** move a versioned JSON journal between devices and merge repeated imports. Media files are selected separately. The completed offline package includes the study interface, lesson bank and volunteer recordings. Publisher video links require connectivity.
 
@@ -54,7 +55,9 @@ To refresh frequency (needs the three corpus files), run `build_runtime.cjs` fir
 
 ## Headword count and print-dictionary definitions
 
-The atlas has **90,856 headwords**. The published counts include 22,214 dictionary entries with fixed atlas positions and 68,642 further spellings from the 2021 orthography dictionary (*Azərbaycan dilinin orfoqrafiya lüğəti*, 7th edition), placed in the topic or word-formation group of their meaning or base word. The orthography dictionary lists spellings only, so most of those entries started without a meaning, and many had no connection.
+The atlas has **90,879 headwords**. The published counts include 22,237 dictionary entries with fixed atlas positions and 68,642 further spellings from the 2021 orthography dictionary (*Azərbaycan dilinin orfoqrafiya lüğəti*, 7th edition), placed in the topic or word-formation group of their meaning or base word. The orthography dictionary lists spellings only, so most of those entries started without a meaning, and many had no connection.
+
+The natural-usage review screened the previous inventory for missing definitions and flagged senses. A targeted review of public LocalDoc corpus samples, native dictionaries and Azerbaijani dialogue added 23 entries, revised 25 bilingual cards and documented 28 links. The reviewed cards identify regional forms, slang and formal usage where relevant. [Review and source links](dist/verification-report.html#usage-edition)
 
 The print layer contributes **63,006 bilingual definitions** and **39,691 cited links**. At that stage of the build, the number of headwords without a definition falls from 63,985 to 979. The number without a connection falls from 30,802 to 5,755. A later dictionary review can add an attested expression or refine an older gloss. The definition sheet identifies the source and method for each entry.
 

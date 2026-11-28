@@ -34,7 +34,8 @@ function readRoute(hash) {
  if(hash==='#study'||hash==='#study/'||hash==='#study/today')return 'today';
  if(!hash.startsWith('#study/'))return null;
  const path=hash.slice(7);
- if(['words','words/find','progress','media','settings','grammar','vocab'].includes(path) ||
+ if(['words','words/find','progress','media','settings','grammar','vocab','read'].includes(path) ||
+  /^read\/[a-z0-9-]{1,80}$/.test(path) ||
   /^vocab\/(new|review(?:\/[0-2])?|bank\/[0-3])$/.test(path) || /^practice\/(words|clips|phrasing|speaking)$/.test(path) ||
   /^(media\/)?word\/[^/]+$/.test(path) || sources.some(s=>path==='media/'+s.id))return path;
  return 'today';
@@ -54,14 +55,14 @@ function createStore(model) {
  const lessonIds=new Set([...root.SozStudyContent,...root.SozStudyListening,...sources].map(x=>x.id));
  return root.SozStudyModel.create({validWord:w=>model.byWord.has(w),validLesson:id=>lessonIds.has(id)});
 }
-function mount({study,model,savedWords,openWord,navigate,getMotion,setMotion}) {
+function mount({study,model,savedWords,openWord,navigate,getMotion,setMotion,analyze}) {
  const $=id=>document.getElementById(id);
  const lessons=root.SozStudyContent,clips=root.SozStudyListening;
  const lessonsById=new Map(lessons.map(x=>[x.id,x])),clipsById=new Map(clips.map(x=>[x.id,x]));
  const wordsWithAudio=new Map();
  for(const clip of clips)if(clip.word&&!wordsWithAudio.has(clip.word))wordsWithAudio.set(clip.word,clip);
  let current=null,currentDay=null;
- const boxes={today:$('studyToday'),grammar:$('studyDaily'),vocab:$('studyVocab'),words:$('studyLibraryContent'),progress:$('studyLibraryContent'),media:$('studyMediaContent'),practice:$('studyPracticeContent'),word:$('studyPracticeContent'),settings:$('studySettings')};
+ const boxes={today:$('studyToday'),grammar:$('studyDaily'),vocab:$('studyVocab'),words:$('studyLibraryContent'),progress:$('studyLibraryContent'),media:$('studyMediaContent'),practice:$('studyPracticeContent'),word:$('studyPracticeContent'),read:$('studyReadingContent'),settings:$('studySettings')};
  function element(tag,cls,text) {
   const e=document.createElement(tag);if(cls)e.className=cls;if(text!==undefined)e.textContent=text;return e;
  }
@@ -75,13 +76,17 @@ function mount({study,model,savedWords,openWord,navigate,getMotion,setMotion}) {
    : 'This browser could not save all of your progress. Download a backup in Settings & backup before closing this page.';
  }
  const library=root.SozStudyLibrary.mount({host:boxes.words,study,model,openWord,savedWords,onChange:storageFeedback,
+  openReading:id=>navigate('read/'+id),
   openBanks:()=>navigate('vocab'),reviewBank:level=>navigate('vocab/review/'+level),practiceWord:w=>navigate('word/'+encodeURIComponent(w))});
  const practice=root.SozStudyPractice.mount({host:boxes.practice,study,model,lessons,clips,onChange:storageFeedback,onFinish:()=>navigate(current?.startsWith('word/')?'words':'grammar')});
  const media=root.SozStudyMedia.mount({host:boxes.media,study,model,sources,onChange:storageFeedback});
+ const reader=root.SozStudyReader.mount({host:boxes.read,study,model,analyze,navigate,openWord,onChange:storageFeedback});
  const vocab=root.SozStudyVocab.mount({host:boxes.vocab,study,model,navigate,discover:discoverWord,onChange:storageFeedback});
  function discoverWord(day,skipped) {
   const ordinal=Math.floor(Date.parse(day+'T00:00:00Z')/86400000),ratings=study.wordRatings();
   const eligible=word=>Boolean(word)&&!ratings.has(word)&&!skipped.has(word);
+  const fromReading=study.words().find(record=>record.reading&&eligible(record.key));
+  if(fromReading)return model.byWord.get(fromReading.key);
   const bookmarks=Array.from(savedWords?.()||[]),bookmarked=bookmarks.find(word=>eligible(word)&&model.byWord.has(word));
   if(bookmarked)return model.byWord.get(bookmarked);
   const focus=rotate(vocabulary,ordinal).concat(rotate(lessons,ordinal).map(l=>l.word),rotate(clips,ordinal).map(c=>c.word));
@@ -144,7 +149,7 @@ function mount({study,model,savedWords,openWord,navigate,getMotion,setMotion}) {
   const practiceTitle=element('div','study-lead-title');
   practiceTitle.append(element('h2','','Daily study'),element('span','study-note',minutes+' min planned'));
   const planned=element('section','study-section study-planned');
-  planned.append(practiceTitle,practiceList(rows));
+  planned.append(practiceTitle,practiceList(rows),button('Open reading desk','study-text-link',()=>navigate('read')));
   const aside=element('aside','study-day-aside');aside.append(vocab.coverage(summary));
   grid.append(lead,aside,planned);boxes.today.replaceChildren(grid);
  }
@@ -153,11 +158,14 @@ function mount({study,model,savedWords,openWord,navigate,getMotion,setMotion}) {
   const exercises=element('section','study-section study-planned');
   exercises.append(element('h2','','Today’s exercises'),practiceList(rows));
   const materials=element('aside','study-day-aside'),listen=element('section','study-section');
+  const reading=element('section','study-section');
+  reading.append(element('h2','','Reading desk'),element('p','','Scan a page, tap words for their meanings, and save them for study.'),
+   button('Read a page','study-button',()=>navigate('read')));
   listen.append(element('h2','','Listening desk'),element('p','',source.prompt),button('Open listening desk','study-button',()=>navigate('media')));
   const conjugation=element('section','study-section study-study-reference');
   const link=element('a','study-button','Open verb conjugations');link.href='#grammar=qa%C3%A7maq';
   conjugation.append(element('h2','','Grammar reference'),element('p','','Look up a verb and explore its tenses and forms.'),link);
-  materials.append(listen,conjugation);grid.append(exercises,materials);boxes.grammar.replaceChildren(grid);
+  materials.append(reading,listen,conjugation);grid.append(exercises,materials);boxes.grammar.replaceChildren(grid);
  }
  function settings() {
   const prefs=study.settings();$('studyMinutes').value=String(prefs.minutes);$('studySpeaking').checked=prefs.speaking;
@@ -173,7 +181,8 @@ function mount({study,model,savedWords,openWord,navigate,getMotion,setMotion}) {
  $('studyExport').addEventListener('click',()=>{
   const status=$('studySettingsStatus');
   try {
-   const file=new Blob([study.exportJSON()],{type:'application/json'}),url=URL.createObjectURL(file);
+   const backup=JSON.parse(study.exportJSON()),pages=reader.exportPages();if(pages.length)backup.readingPages=pages;
+   const file=new Blob([JSON.stringify(backup)],{type:'application/json'}),url=URL.createObjectURL(file);
    const a=document.createElement('a');a.href=url;a.download='sozler-study-'+study.day()+'.json';
    document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),60000);
    status.textContent='Your backup file is ready to save.';
@@ -182,8 +191,10 @@ function mount({study,model,savedWords,openWord,navigate,getMotion,setMotion}) {
  $('studyImport').addEventListener('change',async e=>{
   const input=e.currentTarget,file=input.files?.[0],status=$('studySettingsStatus');if(!file)return;
   try{
-   const result=study.importJSON(await file.text());settings();storageFeedback();
-   status.textContent='Backup merged. '+result.added+' new '+(result.added===1?'record':'records')+' added. '+result.duplicates+' already on this device.';
+   const contents=await file.text(),data=JSON.parse(contents),pages=root.SozStudyReader.validatePages(data?.readingPages ?? []);
+   const result=study.importJSON(contents),restored=reader.restore(pages);settings();storageFeedback();
+   status.textContent='Backup merged. '+result.added+' new '+(result.added===1?'record':'records')+' added. '+result.duplicates+' already on this device.'+
+    (pages.length?(restored.saved?' '+restored.added+' reading pages added.':' Reading pages are available for this session. Keep your backup.'):'');
   }catch(err){status.textContent='Could not restore this backup. '+err.message;}
   input.value='';
  });
@@ -197,6 +208,7 @@ function mount({study,model,savedWords,openWord,navigate,getMotion,setMotion}) {
   if(current?.startsWith('practice/')||current?.startsWith('word/'))practice.close();
   if(current?.startsWith('media'))media.close();
   if(current?.startsWith('vocab'))vocab.close();
+  if(current==='read'||current?.startsWith('read/'))reader.close();
   current=null;
  }
  function open(route='today',force=false) {
@@ -207,7 +219,7 @@ function mount({study,model,savedWords,openWord,navigate,getMotion,setMotion}) {
   const bank=tab==='vocab'&&key.startsWith('bank/')?Number(key.slice(5)):null;
   const area=bank===null?boxes[tab]||boxes.today:boxes.words;
   for(const box of new Set(Object.values(boxes)))box.hidden=box!==area;
-  const titles={today:'Today',grammar:'Daily study',vocab:'Vocabulary',words:'My words',progress:'My progress',media:'Listening desk',settings:'Settings',word:'Word practice',practice:'Daily practice'};
+  const titles={today:'Today',grammar:'Daily study',vocab:'Vocabulary',words:'My words',progress:'My progress',media:'Listening desk',read:'Reading desk',settings:'Settings',word:'Word practice',practice:'Daily practice'};
   let title=titles[tab]||titles.today;
   $('studyDate').textContent=tab==='today'||tab==='grammar'?dates.format(new Date(currentDay+'T12:00:00Z'))+' · Bakı':'';
   const sourceLink=$('studyWordSource');sourceLink.hidden=true;
@@ -231,6 +243,7 @@ function mount({study,model,savedWords,openWord,navigate,getMotion,setMotion}) {
    media.open(word?null:key,word?.w);
   }
   else if(tab==='settings')settings();
+  else if(tab==='read')reader.open(key);
   else if(tab==='practice'){
    const row=daily().rows.find(r=>r.key===key);
    if(!row){navigate('today',true);return;}
@@ -238,9 +251,11 @@ function mount({study,model,savedWords,openWord,navigate,getMotion,setMotion}) {
   }else if(tab==='word'){
    let word;try{word=model.resolveWord(decodeURIComponent(key));}catch{}
    if(!word){navigate('words',true);return;}title=word.w;singleWord(word.w);
-   const context=study.word(word.w)?.context;
-   if(context?.text||context?.source){
-    const dest='media/word/'+encodeURIComponent(word.w);sourceLink.href=routeHash(dest);sourceLink.hidden=false;
+   const record=study.word(word.w),context=record?.context,reading=record?.reading;
+   if(context?.text||context?.source||reading){
+    const listening=Boolean(context?.text||context?.source);
+    const dest=listening?'media/word/'+encodeURIComponent(word.w):'read/'+reading.pageId;
+    sourceLink.textContent=listening?'Revisit my saved excerpt':'Revisit my saved page';sourceLink.href=routeHash(dest);sourceLink.hidden=false;
     sourceLink.onclick=e=>{if(e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;e.preventDefault();navigate(dest);};
    }
   }else renderToday();

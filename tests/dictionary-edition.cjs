@@ -7,13 +7,17 @@ const vm = require('node:vm');
 const {createModel} = require('../dist/model.js');
 const {MODEL_GLOBALS, loadLayers} = require('./layers.cjs');
 const root = path.join(__dirname, '..');
-const source = fs.readFileSync(path.join(root, 'scripts/content/verification/dictionary-edition.json'));
-const edition = JSON.parse(source);
-const attribution = require('../dist/verification-attribution.json').dictionary_edition;
-assert.equal(attribution.source_sha256, crypto.createHash('sha256').update(source).digest('hex'));
-assert.equal(attribution.entries, edition.entries.length);
-assert.equal(attribution.revisions, edition.revisions.length);
-assert.equal(attribution.connections, edition.connections.length);
+const attributions = require('../dist/verification-attribution.json');
+const fields = ['entries', 'revisions', 'connections'];
+const editions = ['dictionary-edition', 'usage-edition'].map(name => {
+  const source = fs.readFileSync(path.join(root, 'scripts/content/verification', name + '.json'));
+  const edition = JSON.parse(source);
+  const attribution = attributions[name.replace('-', '_')];
+  assert.equal(attribution.source_sha256, crypto.createHash('sha256').update(source).digest('hex'));
+  for (const field of fields) assert.equal(attribution[field], edition[field].length);
+  return edition;
+});
+const edition = Object.fromEntries(fields.map(field => [field, editions.flatMap(item => item[field])]));
 
 const sandbox = vm.createContext({window:{}});
 loadLayers(sandbox);
@@ -39,6 +43,9 @@ for (const entry of [...edition.entries, ...edition.revisions]) {
   assert.equal(node.definitionAuditStatus, 'source-compared');
   assert.equal(JSON.stringify(node.bilingualSenses), JSON.stringify([{az: entry.az, en: entry.en}, ...entry.senses]));
   assert.equal(JSON.stringify(node.definitionSources), JSON.stringify(entry.sources));
+  assert.equal(node.definitionRegister, entry.register);
+  assert.equal(JSON.stringify(node.definitionExample), JSON.stringify(entry.example));
+  assert.equal(node.definitionUsage, entry.usage);
 }
 function edgeBetween(model, a, b, type) {
   const node = model.byWord.get(a);
@@ -59,4 +66,15 @@ assert(active.search('blow someone a kiss', 20).some(node => node.w === 'öpüş
 const kiss = active.byWord.get('öpüş');
 assert.equal(kiss.pos, 'noun');
 assert(kiss.bilingualSenses.some(s => s.en.includes('blow someone a kiss')));
+for (const [query, word] of [
+  ['geci tezi', 'geci-tezi'], ['geci tezi olmaq', 'geci-tezi olmaq'],
+  ['nağayırmaq', 'nağayırsan'], ['qadan alaram', 'qadanı alaram'], ['qadan alım', 'qadanı alım'],
+  ['qurbanın olum', 'qurban olum'], ['nə var nə yox', 'nə var, nə yox']
+]) {
+  assert.equal(active.resolveWord(query)?.w, word);
+  assert.equal(active.search(query, 1)[0]?.w, word);
+}
+assert(active.byWord.get('şərh').bilingualSenses.some(s => /comment on an online post/.test(s.en)));
+assert.equal(active.byWord.get('mırta').definitionRegister, 'slang');
+assert.equal(active.byWord.get('girov götürmək').en, 'To take someone hostage.');
 console.log('PASS', edition.entries.length, 'new searchable entries,', edition.revisions.length, 'bilingual revisions,', edition.connections.length, 'new reciprocal sourced relations; existing word IDs retained.');

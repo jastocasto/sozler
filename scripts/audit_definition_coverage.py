@@ -134,7 +134,30 @@ def update_report(dist, counts):
                     + '<h3>Yenilənmiş izahlar</h3>\n' + word_list(row['word'] for row in edition['revisions'])
                     + '</section>\n'
                 )
-    common = json.loads((dist / 'verification-attribution.json').read_text()).get('common_words')
+    attribution = json.loads((dist / 'verification-attribution.json').read_text())
+    usage = attribution.get('usage_edition')
+    if usage:
+        raw = (ROOT / 'scripts/content/verification/usage-edition.json').read_bytes()
+        if hashlib.sha256(raw).hexdigest() != usage['source_sha256']:
+            raise ValueError('The usage review differs from the published source')
+        edition = json.loads(raw)
+        sources = ' · '.join(
+            f'<a href="{escape(ref["url"], quote=True)}">{escape(ref["title"])}</a>'
+            for ref in edition['review']['sources']
+        )
+        latest = (
+            '<section id="usage-edition" class="word-lists" aria-labelledby="usage-heading">\n'
+            f'<h2 id="usage-heading">{escape(edition["titleAz"])} · '
+            f'<span lang="en">{escape(edition["titleEn"])}</span></h2>\n'
+            '<p>Açıq LocalDoc korpusundan seçilmiş mətnlər, Azərbaycan dili lüğətləri, folklor və danışıq nümunələri '
+            'əsasında bu bölmədəki mənalar yoxlanılıb.</p>\n'
+            '<p lang="en">Public LocalDoc corpus samples, native dictionaries, and examples of spoken usage '
+            'and dialogue support the definitions in this edition.</p>\n'
+            + '<h3>Yeni sözlər və ifadələr</h3>\n' + word_list(row['word'] for row in edition['entries'])
+            + '<h3>Yenilənmiş izahlar</h3>\n' + word_list(row['word'] for row in edition['revisions'])
+            + f'<p>{sources}</p>\n</section>\n' + latest
+        )
+    common = attribution.get('common_words')
     if common:
         raw = (ROOT / 'scripts/content/verification/common-words.json').read_bytes()
         if hashlib.sha256(raw).hexdigest() != common['source_sha256']:

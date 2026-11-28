@@ -69,6 +69,7 @@ const usage={
  'oxumaq':'Mətn oxumaq, təhsil almaq və mahnı ifa etmək mənalarında işlənə bilər.'
 };
 const forms={plural:{label:'cəm forması',question:'birdən çox'},locative:{label:'yerlik hal',question:'harada?'},ablative:{label:'çıxışlıq hal',question:'haradan?'},'verb-form':{label:'felin təsrif forması',question:''}};
+const registers={colloquial:'danışıq dili',slang:'loru danışıq',regional:'bölgə danışığı',online:'onlayn danışıq',formal:'rəsmi dil'};
 function describeWord(node,byWord){
  const base=node.base?byWord.get(node.base):null,form=forms[node.form];let definition=node.az||node.source?.senses?.[0]||node.en;
  if(base&&node.quality==='generated'&&!node.retainedLexicalSense){
@@ -77,7 +78,7 @@ function describeWord(node,byWord){
   if(node.form==='ablative')definition=`“${base.w}” sözünün çıxışlıq halı. Çıxış nöqtəsini, mənbəni və ya ayrılmanı bildirir; “haradan?” sualına cavab verir.`;
  }
  const suffix=base&&node.form!=='verb-form'&&node.w.startsWith(base.w)?node.w.slice(base.w.length):'';
- return {definition,definitionEnglish:node.en,definitionLanguage:node.az?'az':node.source?.language||'en',translationMethod:node.bilingualMethod,source:node.source,extraSenses:(node.quality==='wiktionary'||node.retainedLexicalSense||node.definitionSources?.length)?(node.bilingualSenses||node.source?.senses||[]).slice(1):[],listedForm:node.quality==='wiktionary-form'&&!node.retainedLexicalSense,example:examples[node.w]||null,usage:usage[node.w]||(node.source?.senseLimited?'Bu məna mənbədəki sinonim istinadına əsaslanır; sözün bütün işlənmələrini əhatə etmir.':''),base,form:form||null,suffix,generated:node.quality==='generated'&&!node.retainedLexicalSense};
+ return {definition,definitionEnglish:node.en,definitionLanguage:node.az?'az':node.source?.language||'en',translationMethod:node.bilingualMethod,source:node.source,extraSenses:(node.quality==='wiktionary'||node.retainedLexicalSense||node.definitionSources?.length)?(node.bilingualSenses||node.source?.senses||[]).slice(1):[],listedForm:node.quality==='wiktionary-form'&&!node.retainedLexicalSense,register:registers[node.definitionRegister],example:node.definitionExample||examples[node.w]||null,usage:node.definitionUsage||usage[node.w]||(node.source?.senseLimited?'Bu məna mənbədəki sinonim istinadına əsaslanır; sözün bütün işlənmələrini əhatə etmir.':''),base,form:form||null,suffix,generated:node.quality==='generated'&&!node.retainedLexicalSense};
 }
 const specialMeaning={
  az:'Xüsusi · İzah bütün hərflər tamamlandıqdan sonra araşdırılacaq.',

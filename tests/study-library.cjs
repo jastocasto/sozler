@@ -87,7 +87,7 @@ assert(row('gözəl').querySelector('.study-word-source').textContent.includes('
 assert(row('gözəl').querySelector('.study-word-evidence').textContent.includes('2 independent uses'));
 restored.progress();
 assert.deepEqual(all('.study-metric strong').map(n=>n.textContent),['1','1','1'],'Only independent first-pass evidence contributes to the personal proficiency criterion');
-assert(all('.study-coverage-count')[0].textContent.endsWith('90,856'));
+assert(all('.study-coverage-count')[0].textContent.endsWith(model.nodes.length.toLocaleString('en-US')));
 assert.equal(all('.study-week-day').length,7);
 assert.deepEqual(all('.study-week-day').slice(-2).map(n=>n.querySelector('time').getAttribute('datetime')),['2026-11-26','2026-11-27']);
 assert.equal(all('.study-week-day').at(-1).querySelector('strong').textContent,'4');

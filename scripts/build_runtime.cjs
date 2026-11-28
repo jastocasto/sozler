@@ -170,7 +170,7 @@ const pick = (o, keys) => Object.fromEntries(keys.map(k => [k, o[k]]));
 // Definitions, senses and their citations go to soz-text.json, which the page
 // fetches right after the core: the map, word search and verb wheel do not
 // need them, so the first screen arrives sooner.
-const TEXT_FIELDS = new Set(['az', 'en', 'bilingualSenses', 'definitionSources', 'definitionReviewAttribution', 'definitionBase', 'definitionFormation']);
+const TEXT_FIELDS = new Set(['az', 'en', 'bilingualSenses', 'definitionSources', 'definitionReviewAttribution', 'definitionBase', 'definitionFormation', 'definitionExample', 'definitionUsage']);
 const textPart = { cols: {}, sparse: {}, refs, english, azerbaijani };
 for (const field of Object.keys(cols)) if (TEXT_FIELDS.has(field)) { textPart.cols[field] = cols[field]; delete cols[field]; }
 for (const field of Object.keys(sparse)) if (TEXT_FIELDS.has(field)) { textPart.sparse[field] = sparse[field]; delete sparse[field]; }
@@ -182,7 +182,7 @@ const starterMeanings = [], meaningShards = Array.from({ length: MEANING_SHARDS 
 for (const n of nodes) {
   if (!n.az && !n.en) continue;
   const row = [n.id, n.az || '', n.en || ''];
-  if (n.quality === 'curated' || (frequencyRank.get(n.w) || Infinity) <= 1500) starterMeanings.push(row);
+  if (n.quality === 'curated' || n.definitionExample || (frequencyRank.get(n.w) || Infinity) <= 1500) starterMeanings.push(row);
   else meaningShards[shardOf(n.w, MEANING_SHARDS)].push(row);
 }
 const meaningDir = path.join(dist, 'meanings');

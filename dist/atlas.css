@@ -105,21 +105,24 @@
 .galaxy-studio .navigation-strip .daily-entry .daily-label { font-size: 11px; color: var(--app-muted); }
 .galaxy-studio .daily-entry strong { color: var(--app-ink); font: 15px Georgia,serif; }
 
-/* Labels use fine leaders to keep the lit centres of the regions visible. */
+/* Names read as map lettering. A fine leader points to each actual centre. */
 .galaxy-studio .atlas-label {
-  isolation: isolate; box-sizing: border-box; max-width: none; border: 1px solid var(--app-line);
-  border-left: 2px solid var(--tint, #54534a); border-radius: 5px;
-  min-height: 0; padding: 5px 9px; text-align: left;
-  background: var(--app-paper); box-shadow: 0 3px 9px #21211b17; backdrop-filter: none;
+  --name-halo:0 0 2px #fffefb, 0 0 4px #fffefb, 0 1px 2px #fffefb, 0 -1px 2px #fffefb, 1px 0 3px #fffefb, -1px 0 3px #fffefb;
+  isolation:isolate; display:grid; align-content:center; justify-items:center;
+  box-sizing:border-box; max-width:none; min-height:0; border:0; padding:3px 7px; border-radius:5px;
+  background:none; box-shadow:none; backdrop-filter:none; text-align:center;
 }
-.galaxy-studio .atlas-label .area-name { display:block; color: var(--app-ink); font: 500 15px/1.12 Georgia, serif; letter-spacing: 0; text-shadow:none; }
-.galaxy-studio .atlas-label small { color: var(--app-muted); font: 500 11px/1.18 var(--atlas-ui); letter-spacing:.02em; margin-top:3px; }
-.galaxy-studio .atlas-label:hover,.galaxy-studio .atlas-label:focus-visible { border-color: var(--tint); background:var(--app-soft); }
-.galaxy-studio .cluster-label .area-name { font-style: italic; font-size: 14px; }
-.galaxy-studio .atlas-leader { display: block; position: absolute; pointer-events:none; height:1px; transform-origin:0 50%; background: var(--tint, #54534a); opacity:.53; }
+.galaxy-studio .atlas-label::before {
+  content:''; position:absolute; inset:0 -4px; z-index:-1; pointer-events:none;
+  background:radial-gradient(ellipse, #fffefb 9%, #fffefbe8 32%, #fffefb00 72%);
+}
+.galaxy-studio .atlas-label .area-name { display:block; color:#22221c; font:italic 500 21px/1.08 Georgia,serif; text-shadow:var(--name-halo); }
+.galaxy-studio .atlas-label small { color:#4e4d44; font:600 10px/1.2 var(--atlas-ui); letter-spacing:.09em; margin-top:3px; text-shadow:var(--name-halo); }
+.galaxy-studio .atlas-label:is(:hover,:focus-visible,.is-route-end) .area-name { text-decoration:underline; text-decoration-thickness:1px; text-underline-offset:3px; }
+.galaxy-studio .cluster-label .area-name { font-size:17px; font-style:normal; }
+.galaxy-studio .atlas-leader { display:block; position:absolute; pointer-events:none; height:1px; transform-origin:0 50%; background:#615f55; opacity:.62; }
 .galaxy-studio .atlas-leader[hidden] { display:none; }
-.galaxy-studio .atlas-leader::after { content:""; position:absolute; right:-2px; top:-1px; width:3px; height:3px; border-radius:50%; background:var(--tint); }
-.galaxy-studio .atlas-label.is-route-end { border-color:var(--tint); background:var(--app-soft); }
+.galaxy-studio .atlas-leader::after { content:''; position:absolute; right:-3px; top:-2px; width:5px; height:5px; border-radius:50%; background:#47463d; box-shadow:0 0 0 1px #fffefb; }
 
 .map-footer {
   --dock-bottom:16px;
@@ -234,9 +237,8 @@
   .galaxy-studio .navigation-strip .daily-entry { min-height:34px; padding:3px 8px 3px 5px; gap:3px; }
   .galaxy-studio .navigation-strip .daily-entry .daily-label { display:none; }
   .galaxy-studio .daily-entry strong { font-size:13px; max-width:91px; }
-  .galaxy-studio .atlas-label { padding:4px 7px; }
-  .galaxy-studio .atlas-label .area-name { font-size:13px; }
-  .galaxy-studio .atlas-label small { font:500 10px/1.12 var(--atlas-ui); }
+  .galaxy-studio .atlas-label .area-name { font-size:17px; }
+  .galaxy-studio .cluster-label .area-name { font-size:14px; }
   .map-footer {
     --dock-bottom:8px; --panel-max-height:47dvh;
     inset-inline:max(4px,env(safe-area-inset-left)) max(4px,env(safe-area-inset-right));

@@ -1,18 +1,21 @@
 {
-  "entries": 90856,
+  "entries": 90879,
   "policy": "Editorial navigation groups based on primary definitions, explicit anchors, parts of speech and documented neighbours. Proximity is not a synonym, root or etymology claim. Positions within each cluster are preserved; clusters and regions are packed apart. Spelling-dictionary words join the topic of their meaning or base word, else a word-formation group.",
   "methods": {
     "preserved map location": 22207,
-    "editorial anchor": 7
+    "editorial anchor": 7,
+    "primary meaning": 5,
+    "part of speech": 17,
+    "unclassified": 1
   },
   "spellingMethods": {
     "primary meaning": 11460,
-    "base or neighbour": 30669,
-    "word formation": 25812,
+    "base or neighbour": 30670,
+    "word formation": 25811,
     "word class": 701
   },
   "regions": 10,
   "clusters": 76,
-  "source_sha256": "fa0023eb31dabfbda870b6abb1f843cffa21e74ad3bb86aafd9f5dce86804325",
+  "source_sha256": "0b6d06ed6eac6437839fcf8b9d7011d05d33b8ce7477876364458fdc542014a7",
   "notes": "Each word has one primary map location. Earlier dictionary words keep their depth and offset from the centre of their group as the groups move. Word cards give the documented relationship and its evidence. The map uses depth to help readers see the layers."
 }

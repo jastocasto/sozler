@@ -213,7 +213,7 @@ function renderDefinitionPair(n,info=window.WordInfo.describeWord(n,model.byWord
 }
 function renderMeaning(n){
  const info=window.WordInfo.describeWord(n,model.byWord);$('meaningCard').querySelector('.sheet-scroll').scrollTop=0;
- $('meaningWord').textContent=n.w;fitMeaningTitle();renderFrequency(n);$('meaningPos').textContent=(n.orthographyPage&&n.pos==='word'?'orfoqrafiya':posNames[n.pos]||n.pos)+(model.isHomonym(n.w)?' · omonim':'');renderDefinitionPair(n,info);
+ $('meaningWord').textContent=n.w;fitMeaningTitle();renderFrequency(n);$('meaningPos').textContent=[n.orthographyPage&&n.pos==='word'?'orfoqrafiya':posNames[n.pos]||n.pos,info.register,model.isHomonym(n.w)?'omonim':''].filter(Boolean).join(' · ');renderDefinitionPair(n,info);
  const grammar=$('meaningGrammar');grammar.replaceChildren();
  if(state.searchedForm){const f=state.searchedForm,line=html('span','searched-form');line.append(html('strong','',f.form),document.createTextNode(' — '+f.parts.map(x=>x.az).join(' · ')));if(f.english){const en=html('span','searched-form-en',' · '+f.english);en.lang='en';line.append(en);}grammar.append(line);}
  if(info.base){const label=html('span','',info.form?info.form.label+' · əsas söz: ':'əsas söz: '),base=html('button','meaning-base',info.base.w);base.onclick=()=>select(info.base);grammar.append(label,base);if(info.suffix)grammar.append(html('span','suffix-note',` + -${info.suffix}`));grammar.append(html('span','base-gloss',` (${info.base.en})`));}
@@ -417,7 +417,8 @@ function mapFromStudy(word){
 function openStudy(screen='today',writeRoute=true,replace=false){
  if(race?.blocking){toast('Yarışı bitirdikdən sonra şəxsi məşqi aça bilərsiniz.');return;}
  if(!studyDesk)studyDesk=window.SozStudyUI.mount({study:studyStore(),model,savedWords:()=>saved,openWord:mapFromStudy,
-  navigate:(next,replace=false)=>openStudy(next,true,replace),getMotion:()=>motionControl.value,setMotion:saveMotion});
+  navigate:(next,replace=false)=>openStudy(next,true,replace),getMotion:()=>motionControl.value,setMotion:saveMotion,
+  analyze:spelling=>morphology?.analyze(spelling)||[]});
  if(activePage!=='study'){
   closeMenu();closeSearch();for(const d of document.querySelectorAll('dialog[open]'))d.close();
   if(activePage==='pictures'){pictureQuiz?.close();$('pictureQuizPage').hidden=true;}

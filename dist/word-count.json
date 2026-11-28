@@ -5,9 +5,9 @@
   "archived_records": 21145,
   "retained_homonyms_and_derivatives": 131,
   "merged_capitalization_variants": 2,
-  "headwords": 90856,
-  "single_words": 87313,
-  "multiword_entries": 3543,
+  "headwords": 90879,
+  "single_words": 87320,
+  "multiword_entries": 3559,
   "preserved_files": {
     "data.js": "8a0c16c7eea3864cef98c2998a309429aedbd8b03b24aa999bedb4ce21c3dc2c",
     "lexicon.js": "4892b9ea14bc143a77686cdb08955b14b16b4f98025d803bd75e3806d575cadb",
@@ -40,5 +40,5 @@
   "verification_reviewed_entries": 22208,
   "verification_quarantined_entries": 1,
   "orthography_entries": 68642,
-  "connections": 147558
+  "connections": 147586
 }
