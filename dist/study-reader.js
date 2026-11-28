@@ -84,21 +84,23 @@ async function openPrivateLink(status,retry) {
   if (retry) retry.hidden=false;
  }
 }
-function wordsOnPage(text, model) {
+function wordsOnPage(text, model, matchName) {
  const words = [...text.matchAll(/[\p{L}\p{M}]+(?:['’‐‑-][\p{L}\p{M}]+)*/gu)];
  const parts = [];
  let cursor = 0;
  for (let i = 0; i < words.length; i++) {
   const first = words[i], start = first.index;
-  let last = first, matched = i;
+  let last = first, matched = i, name=matchName?.(first[0]);
   if (start > cursor) parts.push(text.slice(cursor,start));
   // Prefer attested multiword entries within a sentence. Keep the original spacing on the page.
   for (let j = i+1; j < Math.min(i+4,words.length); j++) {
    const previous = words[j-1], after = words[j];
    const gap = text.slice(previous.index+previous[0].length,after.index);
    if (!/^(?:\s+|,\s*)$/.test(gap) || /\n\s*\n/.test(gap)) break;
-   const query = readingSpelling(text.slice(start,after.index+after[0].length));
-   if (model.resolveWord(query)) { last = after;matched = j; }
+   const query = text.slice(start,after.index+after[0].length), fullName=matchName?.(query);
+   if (fullName||!name&&!matchName?.(after[0])&&model.resolveWord(readingSpelling(query))) {
+    last=after;matched=j;name=fullName;
+   }
   }
   const end = last.index + last[0].length;
   parts.push({text:text.slice(start,end), start, end});
@@ -122,6 +124,7 @@ function mount({host, study, model, analyze, navigate, openWord, onChange}) {
  const scroll=document.getElementById('studyPage');
  const positions=new Map(), passages=new WeakMap();
  const book=root.SozReaderBook;
+ const names=root.SozReaderNames.create(book?.names??[],root.SozMorphology,readingSpelling);
  const bookPages=new Map(validatePages(root.SozReaderBookPages ?? []).map(page=>[page.id,page]));
  const lexicon=new Map();
  for (const entry of book?.glossary ?? []) {
@@ -219,19 +222,38 @@ function mount({host, study, model, analyze, navigate, openWord, onChange}) {
     {duration:460,easing:'cubic-bezier(.38,.03,.25,1)',fill:'forwards'}).finished.then(finish,finish);
   }
  }
- function showGlossary(entries) {
+ function showGlossary(entries, directory=false) {
   const panel=node('section','reader-glossary study-section');
   const backTo=resumeFrom(bookPagesIn(entries));
+  const actions=node('div','reader-actions');
   const back=button(backTo?'Back to '+pageLabel(backTo).toLowerCase():'Reading desk','study-button',
    ()=>navigate(backTo?'read/'+backTo.id:'read'));
-  const terms=node('dl','reader-glossary-terms');
-  for (const term of book.glossary) {
-   const heading=node('dt','',term.word);heading.lang='az';
-   const senses=node('dd',''), az=node('p','',term.az);az.lang='az';
-   senses.append(az,node('p','study-note',term.en));terms.append(heading,senses);
+  actions.append(back,button(directory?'Book glossary':'Names and places','study-text-link',
+   ()=>navigate(directory?'read/glossary':'read/names')));
+  panel.append(actions);
+  if (directory) {
+   for (const [kind,heading] of Object.entries(root.SozReaderNames.kinds)) {
+    const group=book.names.filter(entry=>entry.kind===kind);
+    const list=node('dl','reader-glossary-terms');
+    for (const entry of group) {
+     const name=node('dt','',entry.word);name.lang='az';
+     const description=node('dd','');
+     if (entry.english) description.append(node('p','reader-english',entry.english));
+     description.append(node('p','study-note',entry.description));
+     list.append(name,description);
+    }
+    panel.append(node('h2','reader-name-group',heading),list);
+   }
+  } else {
+   const terms=node('dl','reader-glossary-terms');
+   for (const term of book.glossary) {
+    const heading=node('dt','',term.word);heading.lang='az';
+    const senses=node('dd',''), az=node('p','',term.az);az.lang='az';
+    senses.append(az,node('p','study-note',term.en));terms.append(heading,senses);
+   }
+   const stress=node('p','reader-glossary-stress',book.stress);stress.lang='az';
+   panel.append(terms,stress,node('p','study-note','In most of the names in the book, the stress falls on the first syllable.'));
   }
-  const stress=node('p','reader-glossary-stress',book.stress);stress.lang='az';
-  panel.append(back,terms,stress,node('p','study-note','In most of the names in the book, the stress falls on the first syllable.'));
   host.replaceChildren(panel);
  }
  function bibliographicCard(entries) {
@@ -467,9 +489,10 @@ function mount({host, study, model, analyze, navigate, openWord, onChange}) {
    paper.append(chapter);
   }
   let offset=0;
+  const matchName=page.title===bookTitle?names.match:null;
   for (const paragraph of page.text.split('\n\n')) {
    const block=node('p','reader-paragraph');
-   for (const part of wordsOnPage(paragraph,model)) {
+   for (const part of wordsOnPage(paragraph,model,matchName)) {
     if (typeof part==='string') { block.append(document.createTextNode(part));continue; }
     const word=node('span','reader-word',part.text);
     word.setAttribute('role','button');word.tabIndex=0;
@@ -491,7 +514,7 @@ function mount({host, study, model, analyze, navigate, openWord, onChange}) {
   const start=Math.min(a.start,b.start),end=Math.max(a.end,b.end),text=page.text.slice(start,end);
   if (!text.trim()) return;
   closeLookup();mark(passage,start,end);
-  if (word || !/\s/u.test(text.trim())) lookup(page,{start,end,text});
+  if (word||!/\s/u.test(text.trim())||page.title===bookTitle&&names.match(text)) lookup(page,{start,end,text});
   else translateSelection(page,start,end);
  }
  function wireSelection(passage,page) {
@@ -609,7 +632,9 @@ function mount({host, study, model, analyze, navigate, openWord, onChange}) {
   const english=root.ConjugationEnglish.describe({base:'try'},rows[tense].id,person,negative).text+' '+dative.replace(/^To /,'to ');
   return {english,note:'-mağa / -məyə çalışmaq means “to try to do something.”'};
  }
- async function dictionaryPhrase(query) {
+ async function dictionaryPhrase(query,inBook) {
+  const place=inBook&&names.placePhrase(query);
+  if (place) return place;
   const spelling=readingSpelling(query);
   if (!spelling.includes(' ')) return null;
   let entry=model.resolveWord(spelling);
@@ -636,7 +661,7 @@ function mount({host, study, model, analyze, navigate, openWord, onChange}) {
  function translateSelection(page,start,end) {
   const {box,result}=makeBubble('Selected text translation',page.text.slice(start,end).trim(),'az');
   result.append(node('p','reader-status','Looking up selection…'));
-  root.SozReaderStudy.translate(page,start,end,{dictionary:dictionaryPhrase}).then(output=>{
+  root.SozReaderStudy.translate(page,start,end,{dictionary:query=>dictionaryPhrase(query,page.title===bookTitle)}).then(output=>{
    if (bubble!==box) return;
    const parts=[];
    if (output?.english) {
@@ -662,9 +687,32 @@ function mount({host, study, model, analyze, navigate, openWord, onChange}) {
    if (bubble===box) result.replaceChildren(node('p','study-note','A translation could not be opened.'));
   });
  }
+ function showName(form,surface) {
+  const {entry,english,note}=form;
+  const {result}=makeBubble('Book name',entry.word,'az');
+  result.append(node('p','reader-name-kind study-note',entry.kind));
+  if (surface!==entry.word||english!==entry.word) {
+   const wording=node('p','reader-english');
+   if (surface!==entry.word) {
+    const written=node('span','',surface);written.lang='az';
+    wording.append(written,document.createTextNode(' → '));
+   }
+   wording.append(document.createTextNode(english));result.append(wording);
+  }
+  if (note) result.append(node('p','study-note',note));
+  result.append(node('p','reader-name-description',entry.description));
+  const printed=lexicon.get(entry.word);
+  if (printed) {
+   const az=node('p','reader-az',printed.az);az.lang='az';result.append(az);
+  }
+  result.append(button('Names and places','reader-tool',()=>navigate('read/names')));
+  keepSelectionVisible();
+ }
  function lookup(page,part) {
   const quote=excerpt(page.text,part.start,part.end);
   if (page.title===bookTitle) {
+   const name=names.match(part.text);
+   if (name) {showName(name,part.text);return;}
    let term=lexicon.get(part.text)||lexicon.get(readingSpelling(part.text));
    if (!term&&page.page==='158'&&part.text==='kölgə'&&/sonuncu\s+$/u.test(page.text.slice(0,part.start))) term=lexicon.get('Kölgə');
    if (term) {
@@ -725,11 +773,22 @@ function mount({host, study, model, analyze, navigate, openWord, onChange}) {
    }
   }
   function find(query, allowSearch) {
+   if (allowSearch) box.setAttribute('aria-label','Reading dictionary');
    const spelling=readingSpelling(query), exact=model.resolveWord(spelling);
    if (exact) { selectWord({node:exact});return; }
    const variants=analyze(spelling).filter((item,index,items)=>item.node&&items.findIndex(x=>x.node===item.node)===index);
    const candidates=variants.length?variants:allowSearch?model.search(spelling,5).map(node=>({node})):[];
    if (!candidates.length) {
+    if (!allowSearch&&page.title===bookTitle) {
+     const next=page.text.slice(part.end).match(/^[ \t]+([\p{L}\p{M}]+)/u);
+     const place=next&&names.placePhrase(part.text+' '+next[1]);
+     if (place||names.possible(part.text,page.text,part.start)) {
+      box.setAttribute('aria-label',place?'Place in the passage':'Possible name');
+      const context=node('p','reader-az',quote);context.lang='az';
+      result.replaceChildren(node('p',place?'reader-english':'study-note',place?.english??'Possible name in this passage'),context);
+      keepSelectionVisible();return;
+     }
+    }
     result.replaceChildren(node('p','study-note','Headword unavailable. Look up a base form under More.'));
     return;
    }
@@ -803,7 +862,7 @@ function mount({host, study, model, analyze, navigate, openWord, onChange}) {
   close();const entries=libraryPages();
   const entry = id && entries.find(page=>page.id===id);
   if (entry) { showPage(entry);return; }
-  if (book&&id==='glossary') { showGlossary(entries);return; }
+  if (book&&(id==='glossary'||id==='names')) { showGlossary(entries,id==='names');return; }
   if (book&&id==='cover'&&bookPagesIn(entries).length) { showCover(entries);return; }
   const frame = node('div','reader-layout reader-start'), create = editor(null,id?'This page is available after restoring its reading shelf.':'');
   const sidebar=node('div','reader-sidebar');

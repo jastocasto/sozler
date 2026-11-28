@@ -256,6 +256,7 @@ function mount({study,model,savedWords,openWord,navigate,getMotion,setMotion,ana
   else if(tab==='settings')settings();
   else if(tab==='read'){
    if(key==='glossary')title='Book glossary';
+   if(key==='names')title='Names and places';
    if(key==='cover')title='Qaranlıq günəş';
    reader.open(key);
   }

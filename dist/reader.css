@@ -206,3 +206,8 @@
  min-height:44px; padding:9px 0; color:var(--app-muted); font-size:.9rem; font-weight:600; cursor:pointer;
 }
 .reader-chapter-controls { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,2fr); gap:10px; }
+
+.study-page .reader-name-kind { margin:0 0 6px; }
+.study-page .reader-name-description { margin:7px 0; }
+.study-page .reader-name-group { margin-top:22px; }
+.reader-name-group + .reader-glossary-terms { margin-top:4px; }
